@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T18:23Z",
+ "generated": "2026-11-02T19:27Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 43,
+ "total_alerts": 47,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -32,26 +32,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط",
-    "ru": "Нефтяной ETF"
+    "he": "USO - קרן סל על הנפט הגולמי",
+    "en": "USO - United States Oil Fund",
+    "ar": "USO - صندوق النفط الأمريكي",
+    "ru": "USO - нефтяной фонд США"
    },
    "avg_edge": null
   },
   "XLE": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "מגזר האנרגיה",
-    "en": "Energy Sector",
-    "ar": "قطاع الطاقة",
-    "ru": "Энергетический сектор"
+    "he": "XLE - קרן סטור אנרגיה",
+    "en": "XLE - Energy Sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - фонд энергетического сектора"
    },
    "avg_edge": null
   },
@@ -161,14 +161,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
-    "ar": "مؤشر S&P 500",
-    "ru": "Индекс S&P 500"
+    "he": "SPY - קרן מדד S&P 500",
+    "en": "SPY - S&P 500 ETF",
+    "ar": "SPY - صندوق مؤشر S&P 500",
+    "ru": "SPY - фонд индекса S&P 500"
    },
    "avg_edge": null
   },
@@ -433,6 +433,42 @@
     "en": "Lumentum",
     "ar": "لومينتوم",
     "ru": "Lumentum"
+   },
+   "avg_edge": null
+  },
+  "INDA": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "INDA - קרן סל על שוק המניות של הודו",
+    "en": "INDA - MSCI India ETF",
+    "ar": "INDA - صندوق أسهم الهند",
+    "ru": "INDA - фонд акций Индии"
+   },
+   "avg_edge": null
+  },
+  "EWG": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "EWG - קרן סל על שוק המניות של גרמניה",
+    "en": "EWG - MSCI Germany ETF",
+    "ar": "EWG - صندوق أسهم ألمانيا",
+    "ru": "EWG - фонд акций Германии"
+   },
+   "avg_edge": null
+  },
+  "VGK": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "VGK - קרן סל על שוק המניות האירופי",
+    "en": "VGK - Vanguard FTSE Europe ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK - фонд европейских акций"
    },
    "avg_edge": null
   }
