@@ -50,7 +50,16 @@
   "severity": 6,
   "confidence": "medium",
   "novelty": "new",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DY3prT1Y3ZG96ZXZGSmVTVnd4MUZ5TTFQUFp4S0ZaaTVxTGtxSmtkc1I4ZTZicEF3UG5vZzVMQVpJX3ZoSlpJUXJMVVFXSjRWdlNpUGJRZUxIUDFZd25DVDJnWFBaNlVFUEU4WVE4TXl3UQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZ9IBwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -63,6 +72,25 @@
     "direction": "up",
     "reason": "עליית מחירי הנפט הצפויה תומכת בסקטור האנרגיה.",
     "price_at_alert": 68.6
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1793633180,
+    "reason": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
+     "en": "Higher oil prices boost energy company profits",
+     "ar": "أسعار النفط المرتفعة تعزز أرباح شركات الطاقة",
+     "ru": "Более высокие цены на нефть увеличивают прибыль энергетических компаний"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה ענקית",
+     "en": "ExxonMobil - major energy company",
+     "ar": "ExxonMobil - شركة طاقة كبرى",
+     "ru": "ExxonMobil - крупная энергетическая компания"
+    },
+    "price_at_alert": 183.3
    }
   ],
   "id": "f655ba3c5dfb",
@@ -78,9 +106,21 @@
      "ar": "صرحت إيران بأن الكرة في ملعب أمريكا وقالت إنها تستطيع إعادة فتح مضيق هرمز خلال يومين إذا تم رفع الحصار البحري الأمريكي.",
      "ru": "Иран заявил, что мяч на стороне США, и пообещал открыть Ормузский пролив в течение двух дней в случае снятия американской морской блокады."
     }
+   },
+   {
+    "ts": 1793633180,
+    "time": "2026-11-02T15:26Z",
+    "severity": 6,
+    "summary": "איראן הציבה תנאים לפתיחת מצר הורמוז ודרשה את סיום המצור הימי של ארה\"ב, בעוד יבוא הנפט של יפן מחוץ לאזור ירד לשפל רב-שנתי.",
+    "i18n": {
+     "he": "איראן הציבה תנאים לפתיחת מצר הורמוז ודרשה את סיום המצור הימי של ארה\"ב, בעוד יבוא הנפט של יפן מחוץ לאזור ירד לשפל רב-שנתי.",
+     "en": "Iran demanded an end to the US naval blockade as a condition for a Strait of Hormuz agreement, while Japan's Saudi crude imports hit multi-decade lows due to Red Sea disruptions.",
+     "ar": "طالبت إيران بإنهاء الحصار البحري الأمريكي كشرط لاتفاق مضيق هرمز، بينما انخفضت واردات اليابان من النفط السعودي إلى أدنى مستوياتها.",
+     "ru": "Иран потребовал прекратить военно-морскую блокаду США в качестве условия соглашения по Ормузскому проливу, в то время как импорт нефти Японией упал до многолетних минимумов."
+    }
    }
   ],
-  "last_update": 1793631668
+  "last_update": 1793633180
  },
  {
   "ts": 1793630119,
@@ -131,7 +171,12 @@
   "severity": 3,
   "confidence": "medium",
   "novelty": "update",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHd3VmI0TFRlN1c1SHV0T2lvV0pqT0ZjU0VwZUZMTWhBT2hORVgtUkpqR2VhSzNZWTFuc0JwS2lPd18zT2E1VkdJcE5LQm5SNkVzRkU0NWtMNEpwZWJ3MEg5TFNFZFVGOEttVE5BTUlmTUtZejROT0ROYlA3MDllRzVxWXEtNlVBc2JlLURR0gGTAUFVX3lxTE9walBaa3BiWG5Rd1hUNXNKVFU3YWwxS3lTREhmRk41VE5vZ1Q3M1c2N283YmNmUG5IamJiYjZvVDhYQ3RmNnFqRnJTNWtVa2todFVBazFjYmZ0UU9ZZEV0akJjYS1LQ1RCOGhrUDZZUE4xQVVKNDUxR0J2ZER3MTVOdEhTTUd5ZkdkUWJlSkFlYmdaMA?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "RTX",
@@ -146,7 +191,22 @@
     "price_at_alert": 212.95
    }
   ],
-  "id": "345cb8d59f3b"
+  "id": "345cb8d59f3b",
+  "updates": [
+   {
+    "ts": 1793633180,
+    "time": "2026-11-02T15:26Z",
+    "severity": 3,
+    "summary": "הצי האמריקאי קיבל לידיו את טיל ההגנה האווירית ה-1,000 מסוג ESSM Block 2, המשמש ליירוט איומים מתקדמים בים.",
+    "i18n": {
+     "he": "הצי האמריקאי קיבל לידיו את טיל ההגנה האווירית ה-1,000 מסוג ESSM Block 2, המשמש ליירוט איומים מתקדמים בים.",
+     "en": "The U.S. Navy took delivery of its 1,000th Evolved SeaSparrow Block 2 missile, a key naval air defense weapon produced by an international consortium.",
+     "ar": "تسلمت البحرية الأمريكية الصاروخ رقم 1000 من طراز Evolved SeaSparrow Block 2 للدفاع الجوي البحري.",
+     "ru": "ВМС США получили 1000-ю ракету ПВО Evolved SeaSparrow Block 2, используемую для защиты кораблей."
+    }
+   }
+  ],
+  "last_update": 1793633180
  },
  {
   "ts": 1793630119,
@@ -302,27 +362,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjFFR2N1NXkyemRFMnBHMl9YcElGUWV5c3ctWnZPWVpnQ2JNd2RyRTlqY3dzdHgwcGhXUTNqdzRvZ3l1VW9GSGticWZEcUc2QnpLU05LUUJJb3IxZGM5LVVZWGQxVzFoT2tESDhEaGJocVdQZ3V6YVpaQktCNExETVB0R0ljOFRTQndITnJsbXNZM2VQc1Bqbk5jeGlxb2dwRTc2aU1Pc3A1V1BicDRz?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KWW0zQkljS1BPR1VMYTEtMURaUG1NZnZIWGg4MExLVTlzVnZfbjZjYjFuTmhaSUMwNFZFamQtMjdpYlpCQ0VGclcydjBQQmdDM1AxcndVamlfTGN0ZU1VYkJRRU1GSHF2Ti1BRk9DVHZoOTRj?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbWJ4OEdSNHdJYTROYzVOdzhEelFyMGI3WFJ6SGprem95MjFQYTZrbUZrWWJ5Y3NpSmlfUEZ3bEMzVE5URU5LWU16MC1nWHExQ0RPbGZXX3dQV2g5dUhpZDMtS3JUWlNaSjMwd2JncWRELVRHSTZXOW15QmZPUjdtQXgxQjhwZFA5Y3BzWko2WDdRMkMyb3k3V3VhU0l1YWdUeXFGaFNEYUNsakExdFZBQ0hn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVFSc09lM3pjY0hBN0w0d0Z4NkY2Y0xBMHpOMnZRdlIxUGYxOEpmN0NlQVNHbXpJV1FSaGtsbHItai1jd01manVFZW14Y0RGX1VHWkJ6RUdYT191dmNHNGZILVRISE1vT3MyOU50X2hLTEZOeWtLNnlIM3FyM1JYN2pYTzYyZWw0MUN2a1FLOXZtYVd0QjJXbjNWWkNCUdIBsgFBVV95cUxQcW9JWUlEMmcyNlhBX0ZnTGx1aWZ6WHJvUEtrZmhGYjZjeGQtVzIyVlFFOFNYNG4tRzdXa08yZWNNb04zeWJjZ0szbmVOTjI1T2h3OE92ZC0tblNnVWw0S2swU1NfRlB3NlRVOHhTVjdYek5JNTA1WHI2eXFYR2pqVzdsbFJkMGtpNVJrVHcyUXJrRlVUeThPUExnbmo2Q0RSdnNwODNKcFRVYzZRVnlxbE13?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oZU1tZzhEN1VQRWpiM0JVVnZfSnRuWV9pSXBvb3hucU84VUF4WjFHbHZFOU1yZ014ME5QMS1xSUxXR2lGN2phUWxKR2VRNDlLbkR6SkFXR0pFeGZ3d1FEQTVMdE1FYlU?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTy12TV9jbUZnaVNxUzdYWUNYbG4zcWVZWUM5R0JiMm1QSkFOanZrY2VYR1ZJcTVlaF9lRXFBWkxzbklaWGlFWGNhTzNjN1IxdXk5M3pOZTRXcVBWR0xyeTZuQ2xpdWxvWTBDaExrM0xjbFRGUUVrMElKbFVWVkRTZE5tcHBxZVQxN1YyNzhYNWdvdm1NdXRfZmNoY19na18taGlET0d5YWprTXpVYk81ZGdBUU1KT3p2RE5OcjU0RnlZV1kwVTAxSTNmVnZ6YlNLX2NRdG13TXY5ai11ZFNaaHFscFlmR2oyVU82eEVYeFotdnpCN0M4aFdn?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GX3Fvc1A0cGVzMnRLNjBhbWJJREhrQnlCemdfOFp0RXRES2tiVWpad1R1VnpOLWFyYlp0Vi00SlNvZXVDa0s4a0UyNGRVMnliNWxzZU5kVE1Jal9hUVVFZi1KQ21zZk5ldHp2Q1VPRENvbjJ5OTBiMFcyODgyQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPS0p3SUNla3NXV0FqQ0I4Rm4wRUlkY09RMVZRRDNOUVQxaGNzZmthS0F5VGlhN0tZOU1TR2FzX19pNVpRdmVOVWJ0TDFFWS1zSk9nNGVwdWRlaFJ3SWNlLURRZ01wZ3A1QVJQenVITE9YbFlkQTMyc2t4RjRqSlNiNlVJVnFLS09lbGNtaUFNZHdxdExCSDQta20wb0FYNUJsLWExY1UtNklYU0NtNWUtYm9EMTJvbWlwREhLcVd1eTAteWxHMUNZ?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPWkZNSmozUUhjVDhkd3c2NW5JSjMtWGpCQnZYYk43cE8wN0MyQ0RUVENycm9zdjhNMFQteWN4Sm5KcmJfSFk0Ym9BU0pDdVJGVEpkT0pUalNSOG9WenhEMzRmSFBEeG1xdG9ONU8xNzgzUGszVERGWg?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WWWl2V2pHZ0daSFltdG1zaU5xLWx4QkhSWUtrcUtlYm9XSDBack85dnlZZnlkY3RLZ1dlQ01sR0hhem9KeXZmWjVHMWlBWUE2aDEybzgxNGlVQzVKbXR0MlVWdDU1dUVSNjdPc3pEWkJ0QQ?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelBEcWJYTXJCNUwxM0JMb2NkbDgwZ21CTlBrenJFS09hMkxxN0xVeXNBakRncmtFVkluV19fUDBlaDdwLXk0dXV3VHd2UDhqRTN4UGI1NU84NDRaQVlCMm91bUl0VUFKRFBtUkoxalRUUnJ3aHptOENlR1lvcTNRSzE4alNHNTlJZllJQ0tyd2U3MklfMW1JWEQ2U08xd1lOMTlIOVFn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMFY5MXNZcW5FLWFEMVlTcUk1RElibXdSQVA4emRSY2QzNEFKcmszZzNyWVRQZGdzYXpoYU1GMWpWZ1VVVDJ0bW56RmJlRlpDYXFkakFLVUZub0s0S2ZxNmJpX1VIalk0RVQ4bUVkT29NNWN6VVBSN0tJMWVWLTA5dnl0dE9WUWZmZ05xRTE1YmRUUEFfZ1FQWFlQVl83QlNGNkVyMTRn?oc=5"
    }
   ],
   "impacts": [
@@ -376,9 +436,21 @@
      "ar": "يدلي الناخبون في جميع أنحاء الولايات المتحدة بأصواتهم في انتخابات التجديد النصفي للكونغرس والشيوخ، وسط استعدادات السلطات لاحتمال حدوث اضطرابات.",
      "ru": "Избиратели по всей территории США голосуют на промежуточных выборах в Конгресс и Сенат, власти готовятся к возможным сбоям."
     }
+   },
+   {
+    "ts": 1793633180,
+    "time": "2026-11-02T15:26Z",
+    "severity": 6,
+    "summary": "אזרחי ארצות הברית נוהרים לקלפיות ביום הבחירות להצבעה קריטית לקונגרס, לסנאט ולמושלי המדינות, כאשר המרוצים הצמודים מעוררים עניין רב בשווקים.",
+    "i18n": {
+     "he": "אזרחי ארצות הברית נוהרים לקלפיות ביום הבחירות להצבעה קריטית לקונגרס, לסנאט ולמושלי המדינות, כאשר המרוצים הצמודים מעוררים עניין רב בשווקים.",
+     "en": "Voters head to the polls across the U.S. for crucial midterm and state elections, with tight congressional and gubernatorial races keeping markets focused on potential policy shifts.",
+     "ar": "يتوجه الناخبون الأمريكيون إلى صناديق الاقتراع في انتخابات نصفية وولائية حاسمة، وسط ترقب الأسواق للتغيرات السياسية المحتملة.",
+     "ru": "Избиратели по всей территории США голосуют на ключевых промежуточных и региональных выборах, а рынки следят за возможными политическими изменениями."
+    }
    }
   ],
-  "last_update": 1793631522
+  "last_update": 1793633180
  },
  {
   "ts": 1793630834,
@@ -502,27 +574,27 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPczJMWkFQaEZXSGlKcnl2dUtJd3ZYdnBoamZfMHpOaWVvSVBGdzdrMlV2V2Vma19LRnBtM3JJekxLMXVIdS1CYmh3U19fOXk0bDdBREdMbEVqVFBLanFGX2k0dVI5UHlDendnd055aDJTOEdmU0xKVm5pcVZfUDd1STM4UkphaXFCN0xDYXoyMG9XZU9GaTVFRDFvaUZHcXFRVHB3eVRUMkk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTVRpdWtuZ2dyR1JlWTY4SVdLdU4yWlZNWnBOdzJKa1FmNS1wWmIzckZqcFNicTdSYW56Nk5Kdlp6QlRNckR3TTd5cDVaWXB1cjdacDdGY2xNV0N0YS1IeTZQcTVwLWtCZTRhM29wd0dmUzNFdzVmSjZKZTl4bWh5REhRd0dFNXJLT200VVNQVEFKYk5IRDdjR25iRWFGVmZKc0tDbjg4ZUhDT0xYVHJLcHA3NFJMWkxJaUpES3dKSG8zZWtOWkhTVDI1MmM0WjFfelVCTEJReldtcTVaSEZOMHhpQkY0Q1JEY1lKVF8ydTZHaWRMTDdOeGFoZy0td9IBgwJBVV95cUxQNEVkOWdpTTRUUWwxelYxT1ZINGNWN29BZi1kU0FsOGs0b0czMl9mN2tfdlFTY0ZMd0V0WGFuV01ROHJzamZ0YWFMZXROYllOZUhOYnZwTG1lcUhuUXA5WVFKLWNuQkJJdUV0TmZXTkZKbzc4YkYtb1Fzd1hKMG5scU11VWJtOFluOTRuTUhzY3ZfNHlGMmlQckx0NHJyY21PMEJPX1dpbzRfSUJLalZwZkRJSWt5cS1jMm16TXJWbV9YNk1JLVRlX0FFd3ZsN0dDMGU2clVUY3hIcWtGYXE3YU9ZZm1idkd3TnZSelNyRXVHUHpNQ25xRlBZbVFXendFWnZR?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTm41WV96NGdyZ3dEc3JxVlZpSFRuMWNtOWJfOXRFaEpvUjRrOHZIblpLMUVTU2ctbGgxS0VqdWJXSS1MY3V2YnhtN2lRU2dHTkgzc2NyVFR1NFNQZUtvOU1HV2pSek9DVEZtRlBmN2tJZy11WWRzWnYtcTM2NWdxb0tVamRxSUN1Yks2a0ZrcGlLNUFBT0syR0lwOXA0QnhZMS02bjl3Mkdkem5DN0Fwd1ozQnBHTkNPVFRTbdIBwgFBVV95cUxORFBQZmM2NzdYWnF1WW9jVkpXZzF0bEt6XzBSWkJsZlh1eWdjZGZuMUlkU3VtWmlGS0sxNHd3YUlVTWEwSGVjMmpYWTVzQUpPaEFQMTNmWkR1ZTVYLVJLWHN0MHRCRHRNMk1nMVVEZGRWbVJBMXk2YWZoMllJZ2dJbXJZMUQwN25ieHYxaE5sQWxVdEdhWHlPcXlwRDBPYTc0UDlteUFhQTNNelpkR2l5VG9NYWU1aHFwRlFUZTVfQmpyUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZlM5Rngzd0xmRV8zRHlkVTlrY2V0OXhTOHRENE5KZjFhVnZxRlRkOENWRU9Bbm1GT0wxSFZMZk01aFU5cDRjZ0ZabU5JSm9lbFZxVlF2M2d1aW5NSnRTa1lCUzhpN1lBRVlsMGlGYkZGVi10QWwxWVZEczQ2QXBXX1hCLTgzM0dBY0lXdnhoczJsYUVuMWVEdg?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaWx1cmRMTWpyVlFTNDZYVjlHekhtZUlURDFpZ3B1amVKT3NoLVNzNEhvVDk5Wm9MQVNEbFlJRzBSVWdzZ0RhM21FNWNFNkczSy1wNFJpQ2g5d3kxU2RXLVdndnpFMzZ3b21EN0FCeXVzMTI1bzJ4UFVEbkVHUHBpWDdubG9GVXoyNVRVbDRjQm1EekZYWG0wWnV4SnVqOXF3Ukpr?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQanBySjNySkJaaTJsRVZySjNpTmYxWjFvWHRvaDlCMGtxXzJOWlJRRDFNY0NLVDNMN1dXdllYUVhmZEdmUmd4bkNqYk54ZllBY3hlYWZicThZTVFxRWtoOEhOX2gzTWd3OGo2NS0xeGdsUEhPUUsxZGFzdUN6N0ZJaUw5aUJHVlZzQXNvWTJxN3JjWGUzM2xMdGdfZzVsNWFIelI4eklBRnowNlQt?oc=5"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOGJjUnB1c1lDWi1MelhUaElWNy1xTElQbnNEN2ViOXpjV0dmSGIxRVk5RmNQUGpadC1qbFcyOFhlOUtHTWZtVTBLUGRWMlg3cDRXTDJtSktXbW1PYnhwQ2JqdkdxWUM1TG1YWEx1Z0lXTkVXdHVqTFBPU21mSm40RHprTU1sTmlwVmJOcTlXV2lkTWxqUzNqejh5Znd1VE9IdjlQOTlEVGHSAagBQVVfeXFMUDhiY1JwdXNZQ1otTHpYVGhJVjctcUxJUG5zRDdlYjl6Y1dHZkhiMUVZOUZjUFBqWnQtamxXMjhYZTlLR01mbVUwS1BkVjJYN3A0V0wybUpLV21tT2J4cENianZHcVlDNUxtWFhMdWdJV05FV3R1akxQT1NtZkpuNER6a01NbE5pcFZiTnE5V1dpZE1salMzano4eWZ3dVRPSHY5UDk5RFRh?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWJoVlI1R3JzdDNsNDg0OFEtZFVCSjNkNnZtcjRlamphbG1COEN6c0EzYy1PZmM0REx5d1hZT0FpTkVPTm5KR3NWSTdwRk1vV0R2ME8zVGNJbDhFS1NIN0UtNWhCSVRqbUYyVkZMZ3J5TXJFUjl4VUhTcFhTUHAwTlFXRU9YUVN6Z3Q0RHJaSV9IbXh2OFpwRF9CVDhGT0J6Wi1mWS1hMnBnSE9WQmJwejdrV3RNSk1tSjdLd2VrZ9IBvwFBVV95cUxQbUI0UlBINmgzdTIxWnBmOFBWU3o4ZGtXSHF0RW1GOGV0S1dXSkhtS2w0NGg1UkctZm9tSzlBQWFvdkoyX2pTTk9QdW1EaFpjMGJrd2JiRF9CSDRYTnJrd0loUldmSTdLSEtZSk1Md1ROam5jekRJZGVxTU9uZjZ2N0k3MzVwUTF1VER2ckN6R0xnWVdYci1JckRuUTRzTEJ1OW42ajRYSFc2TUtpMFRONHN5RkVHTjcwcjB6UXczVQ?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeWY5ZXVLLVB3enM3bjc2d2RNQXFKcDF1OG9pc1lHQ2RHVW5leGVPWTl2cmVCU1laUEMwek1yY1BWVmNlNENaQ2I5ZkM2UFl6ZGtTV1QzaG56czF6X3ktTXlLcFVIbHoyVDJCcWQ3ZzN5aXc3MWxkTl9kZVhtTXFVeUZ0WUQ0b0tOOUp2cWtDd2dkWjgtZ3E0VFdxbWJOdGhMak52TUxSQzRhSG5UTFJkb1hLd05ya1R3WGFqYUFKYnA2eFR0R28wcERJTFAwY2ZPSUVKQzZjZl9ScjhEZ200RHUtWUnSAeoBQVVfeXFMUHpuVEF0R3AweUt3UmRJSlJHVWpGTWQ5NHUxRFlxeWM5NndpSFNBSjJQNmVEazNCTlF6UllkcFZOS2xmWHJ6eERaNWY0UzRraUlJS2hMbHFkUHJfblhpczdpUGpybFIyMW9JUkF6dHNLaGdvMmRGLUxqVmZ5UEpsOTh6dFpIX1hyQVppT213WUtuZkhlVkw3QzFSNWdLUFY3NGZ0WUprRy01cGNEYjFaZ0MxLThBNXMyVy1OdHNWRWI3a3NNRHpoWDM1aTlLTklPempHN2g5dWRNZmF6Y2lsNkh2X0cwSkxqRmpR?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlh3eFRTRGxrN2x2dkxER3ZMcWF1YVMxYm42bVJndmNmVVNpQ1FQX2JLRWFmOVBRRWZTSlFLclBSM3VwUTg3TTZMMy1vTUtTUEpQVUZhajh4XzJnbmNnUDg2b213dnA5dnVvSFIyRWJLVkhSR2JJYjBaN2dTYlhFeC0zTm9RRFkxZ2JlMXNORDdEZ2xacVZFRHZSX0tzdU5GZzV6allkSHFwUVJZOFNrX2l6THZhQTNTaURpRUF3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORW96VndUMlgySXI4OW1YRzJMMHpsdDdDNjhZTnI0aHgxQzZ4T0xEaWVsUnpDbTVsQnFLbHRBVml5SVhHYWIxVGR1c3h1SnVuVWxjTmlYbjVYWXBseEdId3lkTnRPc0o2bE1NUnpkdi1IY3Q5dU9pWnIxQU1yZjhkX2F5R2QtVjh4ZGNqaGl2d3psY2RidlJjS0x3c3oxZFctSDd3RVg2c1pnTEt5ZjNB0gGvAUFVX3lxTE5Fb3pWd1QyWDJJcjg5bVhHMkwwemx0N0M2OFlOcjRoeDFDNnhPTERpZWxSekNtNWxCcUtsdEFWaXlJWEdhYjFUZHVzeHVKdW5VbGNOaVhuNVhZcGx4R0h3eWROdE9zSjZsTU1SemR2LUhjdDl1T2lacjFBTXJmOGRfYXlHZC1WOHhkY2poaXZ3emxjZGJ2UmNLTHdzejFkVy1IN3dFWDZzWmdMS3lmM0E?oc=5"
    }
   ],
   "impacts": [
@@ -570,9 +642,21 @@
      "ar": "أدت هجمات سيبرانية إلى ارتفاع درجات الحرارة في أنظمة التبريد والثلاجات في المتاجر الكبرى بعدة دول أوروبية منها إستونيا وبلجيكا وهولندا والسويد.",
      "ru": "Кибератаки привели к повышению температуры в холодильных установках супермаркетов в ряде европейских стран, включая Эстонию, Бельгию, Нидерланды и Швецию."
     }
+   },
+   {
+    "ts": 1793633180,
+    "time": "2026-11-02T15:26Z",
+    "severity": 4,
+    "summary": "מתקפת סייבר פגעה במערכות קירור של סופרמרקטים במספר מדינות באירופה, והעלתה את הטמפרטורות בחנויות רבות.",
+    "i18n": {
+     "he": "מתקפת סייבר פגעה במערכות קירור של סופרמרקטים במספר מדינות באירופה, והעלתה את הטמפרטורות בחנויות רבות.",
+     "en": "A cyberattack targeted supermarket refrigeration systems across several European countries, causing freezer temperatures to rise significantly and spoiling stock.",
+     "ar": "استهدف هجوم سيبراني أنظمة التبريد في محلات السوبر ماركت عبر عدة دول أوروبية، مما أدى إلى ارتفاع درجات حرارة المجمدات.",
+     "ru": "Кибератака затронула холодильные системы супермаркетов в нескольких европейских странах, что привело к повышению температуры в морозильниках."
+    }
    }
   ],
-  "last_update": 1793631668
+  "last_update": 1793633180
  },
  {
   "ts": 1793630835,
@@ -607,10 +691,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcFdEbG9PeUFzbTNxRnhFaGFHdXNJUGV3Y2VHSlhmbWluc014Q2ZpNGNjVUl5R1MzQk9TQ3BkR21OMkJPS3VtZGlVdEp4RUJud1dNM0dqMmliaWd5UUx4YUtKd09VU3Y5ODhUajdlb09McmdyWkl2SGdfaTMyMEYtQWI3dFdHakZyUHQ5NUduekNsVFlTWW9PaDNFWQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYzBGVTJrRmxYbWg1aF9uZWtFMm9TWFAtMVAzd3VuejJxRTRVMXhkZzc5Y3A4VkV6WlZJZ2s1eDFoWnNOSjV4OWNYLVBoQlpBMFJwNnpacjYyNl9kRVdRcERVbU9iTF96Wk9ZaVJGbHRka0w2QlBFdlJTR1haZXlETmJqekdLUGxldVJZSWxNNkhmWnNaeWRKRmQ4TlQ2aFZERGRsZ2RFcU9uMGQxelRIYWlqR1NnTGEybEVIWHplaHV1Nk1LN0swcWRYcFo5UEtwbmtsOXF30gHSAUFVX3lxTE4zbk9KUGRBeE4xUTd4eUIta05nSE55aEFOTTc2enR6WmhCcm1tUUpCRmZoNVZpb2M2M09fc21MM3ltZVNFbnFNanVxdVFfbC1XcV9FajVNY2tNRnE0Nld3T044c1VWQUVJa2xKWjcwN0RaSjhYMUpCc05aN3ZEbXI3d2pWZmtjUUFDNlpYVkdXcUtOZGVMNDZ2OWdJaVllcWlVWE5TZGQzRGo5cU9uUGUyRWpxY05HS2ozX3VUdURkNm1kVEd0eHZ4VkNYQjN4amJZdw?oc=5"
    },
    {
@@ -620,6 +700,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90NUphZU9KWUU5MnFGV0ZEcUc5NzhCeThJRm8tQS03d1o1dG9ITUE3NnNCRmFRdTg2SzduRTBwZVFhNlhNQ3haMi1IMA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3d4RkdIeUJTbTlpd2c4dl92NkczUG5ZVGJpTjdIN1hlYWRNMloyMWMxUjZjeDVfdDNFLXdpUk1QNV9YSGRyT0VMTDZmNEJ6MnZEUmtlaWdSdHo2M051Q0tQR0lMM2R1T2l1Z3pTOHUtSEFzdGpjWTJIMnRGZ0E4MkJxVFFSaHd6d2tTdFBoVnZtNV9zXzdBbUNPTHNzQ3lDYTkxcXR0VzFXdG8?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQTl4QTh2M3RaR2RIbmVGaTMtc1RlTXlNR0JJaWtSQ0RqQnlfNWpMSWVCNG82d1FYWVRTYktFUWh4N3NKNko0MmE3RzEtQkUtZWNEZ09oVGd0NjhkcjE4ODlGYmhyc3B2ZGU4YzhhVGUzRE5SemwzSzUwQS0wUlhSU1QtanZfT2w0elgxSzNHNmpDT0k4cXk3ZUs2MGR5bUtETV9URVhfOEEwalREY1hfZGlXNF9rRU5Dc1Rseg?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPeGI2eEZkcEFqUU9hS09BWlh6UFN3ZE9EWEtSaXYxWlQ2Rk9tTmpQTHVlbFV2WkVVY1VOYXNWcXc5YV9RQzY1bWxjYnNwcFktY0p3MXNGcTE2V0NLRk0yOV8wUzdxTXhmZlVVTWRnNFBjZ21LQ1hJVkp5bjNyaU53d3hoX3dpSWRYRDlaUkdBZkpiczd3dm5BWUhpSlB6VVpWWVRTdlgxN1l0ZnN3Zlh0clhMeFZ0anJ5QnVOZUZTOG13MWUtN2J6WkNLdHRtX01mN0ZRTzNtMW1KbnBlNFhLMjFZZG5NODkwNUUwMWs0cWI4X2NBYXZrZTdCLXNpVlBhOEpiZQ?oc=5"
    }
   ],
   "impacts": [
@@ -686,9 +778,21 @@
      "ar": "شن قراصنة هجمات سيبرانية على تطبيقات الدفاع المدني والإنذار المبكر في أوكرانيا وروسيا، مما أدى إلى إطلاق تحذيرات كاذبة بوقوع ضربات نووية فورية.",
      "ru": "Хакеры совершили кибератаки на приложения гражданской обороны и оповещения о воздушной тревоге в Украине и России, вызвав ложные предупреждения о ядерном ударе."
     }
+   },
+   {
+    "ts": 1793633180,
+    "time": "2026-11-02T15:26Z",
+    "severity": 4,
+    "summary": "אפליקציות חירום באוקראינה וברוסיה הושבתו או שיגרו התרעות שווא על מתקפות גרעיניות ואסונות לאחר שספגו מתקפות סייבר.",
+    "i18n": {
+     "he": "אפליקציות חירום באוקראינה וברוסיה הושבתו או שיגרו התרעות שווא על מתקפות גרעיניות ואסונות לאחר שספגו מתקפות סייבר.",
+     "en": "Emergency apps in Ukraine and Russia were taken offline or sent false nuclear attack warnings following targeted cyberattacks.",
+     "ar": "تم إيقاف تطبيقات الطوارئ في أوكرانيا وروسيا أو أرسلت تحذيرات كاذبة بشأن هجمات نووية إثر هجمات سيبرانية.",
+     "ru": "Экстренные приложения в Украине и России были отключены или разослали ложные предупреждения о ядерных ударах после кибератак."
+    }
    }
   ],
-  "last_update": 1793631668
+  "last_update": 1793633180
  },
  {
   "ts": 1793630835,
