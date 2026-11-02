@@ -36,6 +36,15 @@ FORCED_MODEL = os.environ.get("GEMINI_MODEL", "").strip()
 DRY_RUN = "--dry-run" in sys.argv
 MANUAL_RUN = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
+CONFIG = {}
+try:
+    with open("config.json", encoding="utf-8") as _f:
+        CONFIG = json.load(_f)
+except (FileNotFoundError, ValueError):
+    pass
+CHANNEL = (os.environ.get("TELEGRAM_CHANNEL") or CONFIG.get("channel") or "").strip()
+SITE = CONFIG.get("site", "https://galvaknin325.github.io/Market-radar/")
+
 STATE_FILE = "state.json"
 ALERTS_FILE = "alerts.json"
 MAX_AGE_HOURS = 3          # ignore headlines older than this
@@ -369,6 +378,17 @@ def send(chat_id, text):
     tg("sendMessage", chat_id=chat_id, text=text, parse_mode="HTML", disable_web_page_preview=True)
 
 
+def send_public(text):
+    """Also post to the public channel (if one is configured). Never breaks the scan."""
+    if not CHANNEL or DRY_RUN:
+        return
+    try:
+        tg("sendMessage", chat_id=CHANNEL, text=text + f'\n\n🌐 <a href="{SITE}">לאתר המלא</a>',
+           parse_mode="HTML", disable_web_page_preview=True)
+    except Exception as e:
+        log("channel post failed:", e)
+
+
 CAT_ICON = {"geopolitics": "🌍", "policy": "🏛️", "trade": "🚢", "macro": "🏦",
             "commodities": "⛽", "climate": "🌪️", "health": "🦠", "cyber": "💻", "contracts": "📑"}
 
@@ -552,12 +572,126 @@ def bucket(sev):
     return "8-10" if sev >= 8 else "6-7" if sev >= 6 else "4-5" if sev >= 4 else "1-3"
 
 
-def build_stats():
+def load_archive():
     allx = []
     if os.path.isdir(ARCHIVE_DIR):
         for f in sorted(os.listdir(ARCHIVE_DIR)):
             if f.endswith(".json"):
                 allx += load(os.path.join(ARCHIVE_DIR, f), [])
+    return allx
+
+
+# ---------------------------------------------------------------- 6c. the Radar portfolio (virtual)
+PORTFOLIO_FILE = "portfolio.json"
+TRADE_SIZE = 1000          # virtual shekels per prediction
+
+
+def all_trades(allx):
+    """Each checked prediction = one virtual trade of TRADE_SIZE in the predicted direction
+    (a 'down' prediction is a bet on a fall), held from entry to the next trading day's close.
+    bench_pnl = the same money simply held in the market (S&P 500 / TA-35) over the same window."""
+    out = []
+    for a in allx:
+        for i in a.get("impacts", []):
+            if not isinstance(i.get("hit"), bool) or i.get("change_pct") is None:
+                continue
+            sign = 1 if i.get("direction") == "up" else -1
+            mkt = i["bench_change_pct"] if i.get("bench") else i["change_pct"]
+            out.append({"date": i.get("exit_date"), "ticker": i["ticker"], "dir": i.get("direction"),
+                        "severity": int(a.get("severity", 0) or 0), "cat": a.get("category"), "id": a.get("id"),
+                        "title": a.get("title"), "title_i18n": (a.get("i18n") or {}).get("title"),
+                        "change_pct": i["change_pct"], "hit": i["hit"],
+                        "pnl": round(TRADE_SIZE * sign * i["change_pct"] / 100, 2),
+                        "bench_pnl": round(TRADE_SIZE * (mkt or 0) / 100, 2)})
+    return sorted(out, key=lambda t: (t["date"] or "", t["ticker"]))
+
+
+def book(trades):
+    eq = bench = 0.0
+    curve = {}
+    for t in trades:
+        eq += t["pnl"]
+        bench += t["bench_pnl"]
+        curve[t["date"]] = {"date": t["date"], "equity": round(eq, 2), "bench": round(bench, 2)}
+    n = len(trades)
+    return {"trades": n, "wins": sum(1 for t in trades if t["pnl"] > 0), "hits": sum(1 for t in trades if t["hit"]),
+            "pnl": round(eq, 2), "bench_pnl": round(bench, 2), "invested_per_trade": TRADE_SIZE,
+            "best": max(trades, key=lambda t: t["pnl"]) if n else None,
+            "worst": min(trades, key=lambda t: t["pnl"]) if n else None,
+            "curve": list(curve.values()), "recent": trades[-30:][::-1]}
+
+
+def build_portfolio(allx):
+    trades = all_trades(allx)
+    pf = {"generated": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z", "trade_size": TRADE_SIZE,
+          "important": book([t for t in trades if t["severity"] >= 6]), "all": book(trades)}
+    save(PORTFOLIO_FILE, pf)
+    return pf
+
+
+# ---------------------------------------------------------------- 6d. weekly report (Sundays)
+WEEKLY_FILE = "weekly.json"
+
+
+def il_now():
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
+    except Exception:
+        return dt.datetime.utcnow() + dt.timedelta(hours=2)
+
+
+def weekly_report(state, allx, chat_id):
+    now = il_now()
+    today = now.strftime("%Y-%m-%d")
+    if now.weekday() != 6 or now.hour < 9 or state.get("weekly_date") == today:   # Sunday, from 09:00
+        return
+    since_ts = time.time() - 7 * 86400
+    since_day = (now - dt.timedelta(days=7)).strftime("%Y-%m-%d")
+    week_alerts = [a for a in allx if a["ts"] >= since_ts]
+    trades = [t for t in all_trades(allx) if (t["date"] or "") > since_day]
+    imp = [t for t in trades if t["severity"] >= 6]
+    hits = sum(1 for t in trades if t["hit"])
+    pnl = round(sum(t["pnl"] for t in imp), 2)
+    bpnl = round(sum(t["bench_pnl"] for t in imp), 2)
+    best = max(trades, key=lambda t: t["pnl"]) if trades else None
+    worst = min(trades, key=lambda t: t["pnl"]) if trades else None
+    data = {"date": today, "alerts": len(week_alerts), "important": sum(1 for a in week_alerts if int(a.get("severity", 0) or 0) >= 6),
+            "preds": len(trades), "hits": hits, "pnl": pnl, "bench_pnl": bpnl, "trades_important": len(imp),
+            "best": best, "worst": worst}
+    save(WEEKLY_FILE, data)
+    state["weekly_date"] = today
+
+    e = html.escape
+    money = lambda v: f"{'+' if v >= 0 else '−'}{abs(v):,.0f} ₪"
+    arrow = lambda t: "▲" if t["dir"] == "up" else "▼"
+    lines = ["📊 <b>הדוח השבועי של מכ\"ם השוק</b>", "",
+             f"🚨 השבוע: {data['alerts']} התראות ({data['important']} חשובות)"]
+    if trades:
+        lines.append(f"🎯 תחזיות שנבדקו: {len(trades)} · צדקנו מול השוק: {hits} ({round(hits / len(trades) * 100)}%)")
+    else:
+        lines.append("🎯 עוד אין השבוע תחזיות שנבדקו.")
+    if imp:
+        lines.append(f"💼 התיק של המכ\"ם ({TRADE_SIZE:,} ₪ לכל התראה חשובה): <b>{money(pnl)}</b>")
+        lines.append(f"📈 אותו כסף פשוט מושקע בשוק: {money(bpnl)}")
+    if best and best["pnl"] > 0:
+        lines.append(f"🏆 התחזית הכי טובה: {e(best['title'] or '')} · {arrow(best)}{best['ticker']} {best['change_pct']:+.1f}%")
+    if worst and worst["pnl"] < 0:
+        lines.append(f"😬 הכי פחות מוצלחת: {e(worst['title'] or '')} · {arrow(worst)}{worst['ticker']} {worst['change_pct']:+.1f}%")
+    if trades:
+        verdict = "ניצח" if pnl > bpnl else "לא ניצח"
+        lines += ["", f"🧒 <i>בפשטות: השבוע המערכת צדקה ב-{hits} מתוך {len(trades)} ניחושים. "
+                      f"התיק הווירטואלי שלה {verdict} את מי שפשוט השקיע בשוק כולו.</i>"]
+    lines.append("\n<i>תיק וירטואלי בלבד, לא ייעוץ השקעות</i>")
+    msg = "\n".join(lines)
+    if chat_id:
+        send(chat_id, msg)
+    send_public(msg)
+    log("weekly report sent")
+
+
+def build_stats(allx=None):
+    allx = load_archive() if allx is None else allx
 
     def agg(preds):
         n = len(preds)
@@ -607,7 +741,17 @@ EVENTS
 """
 
 
-def make_brief(state, alerts):
+def format_brief(b):
+    e = html.escape
+    lines = [f"📰 <b>התקציר של היום</b>", f"<b>{e(b.get('title', ''))}</b>", ""]
+    lines += [f"• {e(x)}" for x in b.get("bullets", [])]
+    if b.get("kid"):
+        lines += ["", f"🧒 <i>בפשטות: {e(b['kid'])}</i>"]
+    lines.append("\n<i>מידע בלבד, לא ייעוץ השקעות</i>")
+    return "\n".join(lines)
+
+
+def make_brief(state, alerts, chat_id=None):
     """Once a day, after 07:00 Israel time, write brief.json from the last 24h of alerts."""
     try:
         from zoneinfo import ZoneInfo
@@ -634,6 +778,10 @@ def make_brief(state, alerts):
             save(BRIEF_FILE, brief)
             state["brief_date"] = today
             log(f"daily brief written ({model})")
+            msg = format_brief(brief["langs"]["he"])
+            if chat_id:
+                send(chat_id, msg)
+            send_public(msg)
     except Exception as e:
         log("daily brief failed (will retry next scan):", e)
 
@@ -708,7 +856,9 @@ def scan(state, alerts, chat_id):
                 prev = merge_update(same, ev, headlines, now)
                 merged += 1
                 if sev >= 8 and sev > prev:
-                    send(chat_id, "🔺 <b>הסלמה באירוע קיים</b>\n" + format_alert(ev, headlines))
+                    msg = "🔺 <b>הסלמה באירוע קיים</b>\n" + format_alert(ev, headlines)
+                    send(chat_id, msg)
+                    send_public(msg)
                 elif sev >= MIN_SEVERITY:
                     ev["novelty"] = "update"
                     digest.append(ev)
@@ -716,7 +866,9 @@ def scan(state, alerts, chat_id):
             # Every new event is saved and shown on the dashboard. On Telegram, important events
             # get their own message; everything else goes into one digest per scan.
             if sev >= MIN_SEVERITY and ev.get("novelty") != "update" or sev >= 8:
-                send(chat_id, format_alert(ev, headlines))
+                msg = format_alert(ev, headlines)
+                send(chat_id, msg)
+                send_public(msg)
             else:
                 digest.append(ev)
             a = new_alert(ev, headlines, now)
@@ -784,9 +936,15 @@ def main():
         send(chat_id, f"🛰️ בדיקה ידנית הסתיימה: {n_head} כותרות חדשות, {created} התראות חדשות, "
                       f"{merged} עדכונים לסיפורים קיימים ({n_digest} בסיכום המקובץ). מודל: {model}")
 
-    make_brief(state, alerts)
+    make_brief(state, alerts, chat_id)
     archive_alerts(alerts)
-    stats = build_stats()
+    allx = load_archive()
+    stats = build_stats(allx)
+    build_portfolio(allx)
+    try:
+        weekly_report(state, allx, chat_id)
+    except Exception as e:
+        log("weekly report failed:", e)
     keep = [a for a in alerts if not a.get("evaluated") or now - last_activity(a) < RECENT_DAYS * 86400]
     save(ALERTS_FILE, sorted(keep, key=lambda a: a["ts"]))
     state["seen"] = state.get("seen", [])[-3000:]

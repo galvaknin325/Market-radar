@@ -40,5 +40,5 @@ jobs:
         run: |
           git config user.name "market-radar-bot"
           git config user.email "market-radar-bot@users.noreply.github.com"
-          git add -A state.json alerts.json stats.json brief.json archive 2>/dev/null || true
+          git add -A state.json alerts.json stats.json brief.json portfolio.json weekly.json archive 2>/dev/null || true
           git diff --cached --quiet || (git commit -q -m "radar: update state" && git push -q)

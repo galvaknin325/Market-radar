@@ -128,6 +128,22 @@
   .stock li button:focus-visible{outline:3px solid var(--focus)}
   .stock .close{position:absolute;top:.8rem;inset-inline-end:.8rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1.1rem}
   .note{position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);background:var(--text);color:var(--bg);border-radius:10px;padding:.5rem 1rem;z-index:95;font-weight:600}
+  .pf-head{display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap}
+  .pf-tabs{display:flex;gap:.35rem;padding:.6rem 1rem 0;flex-wrap:wrap}
+  .pf-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;padding:.75rem 1rem}
+  .pf-kpis div{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.55rem .75rem}
+  .pf-kpis b{display:block;font-size:1.3rem}
+  .pf-kpis span{color:var(--muted);font-size:.78rem}
+  .pf-chart{padding:0 1rem}
+  .pf-chart svg{width:100%;height:auto;display:block}
+  .legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);padding:.4rem 1rem 0}
+  .legend i{display:inline-block;width:1.2rem;height:.25rem;border-radius:2px;vertical-align:middle;margin-inline-end:.35rem}
+  .pf-table{padding:.5rem 0 .25rem}
+  .pf-title{color:var(--muted);font-size:.8rem}
+  .weekly{margin:0 1rem 1rem;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:.7rem .9rem}
+  .weekly h3{margin:0 0 .3rem;font-size:.95rem}
+  .weekly p{margin:.1rem 0;font-size:.9rem}
+  .join{display:block;text-align:center;background:#229ED9;color:#fff !important;text-decoration:none;border-radius:10px;padding:.55rem .75rem;font-weight:700}
   .topbar{display:none}
   .tape{border-bottom:1px solid var(--line);min-height:46px}
   main{padding:1.25rem 1.5rem 3.5rem;max-width:1200px;width:100%;margin:0 auto}
@@ -226,6 +242,7 @@
     .kpis{grid-template-columns:repeat(2,1fr)} .chart{height:360px} .overview{height:440px} main{padding:.9rem}
     .page-title{display:none}
     .grid2{grid-template-columns:1fr} .heat,.cal{height:440px}
+    .pf-kpis{grid-template-columns:repeat(2,1fr)} .pf-title{display:none}
     .stock{top:0;width:100vw;max-height:100vh;height:100vh;border-radius:0}
   }
 </style>
@@ -261,6 +278,7 @@
       <ul>
         <li><a href="#summary"><span class="ic" aria-hidden="true">🏠</span><span data-i18n="nav_summary"></span></a></li>
         <li><a href="#alerts"><span class="ic" aria-hidden="true">🚨</span><span data-i18n="nav_alerts"></span><span class="badge" id="badge" hidden></span></a></li>
+        <li><a href="#portfolio"><span class="ic" aria-hidden="true">💼</span><span data-i18n="nav_portfolio"></span></a></li>
         <li><a href="#mine"><span class="ic" aria-hidden="true">⭐</span><span data-i18n="nav_mine"></span></a></li>
         <li><a href="#live-chart"><span class="ic" aria-hidden="true">📈</span><span data-i18n="nav_chart"></span></a></li>
         <li><a href="#markets"><span class="ic" aria-hidden="true">🌐</span><span data-i18n="nav_markets"></span></a></li>
@@ -275,6 +293,7 @@
     <ul class="live" id="live" aria-labelledby="liveHead"></ul>
 
     <div class="side-foot">
+      <a class="join" id="joinLink" href="#" target="_blank" rel="noopener" hidden><span data-i18n="channel_join"></span></a>
       <button type="button" id="simpleBtn" aria-pressed="true"><span aria-hidden="true">🧒</span><span id="simpleLabel"></span></button>
       <button type="button" id="notifyBtn" aria-pressed="false"><span aria-hidden="true">🔔</span><span id="notifyLabel"></span></button>
       <button type="button" id="installBtn" hidden><span data-i18n="install"></span></button>
@@ -308,6 +327,17 @@
           <div class="kpi"><div class="label" data-i18n="k_hit"></div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint"></div></div>
           <div class="kpi"><div class="label" data-i18n="k_avg"></div><div class="val" id="kAvg">–</div><div class="hint" data-i18n="k_avg_h"></div></div>
         </div>
+      </section>
+
+      <section class="card" id="portfolio" aria-labelledby="pfHead" style="margin-bottom:1.25rem">
+        <h2 id="pfHead"><span data-i18n="pf_head"></span><small data-i18n="pf_virtual"></small></h2>
+        <p class="hint" data-i18n="pf_explain"></p>
+        <div class="pf-tabs" role="group" id="pfTabs">
+          <button type="button" class="chip" data-pf="important" aria-pressed="true" data-i18n="pf_important"></button>
+          <button type="button" class="chip" data-pf="all" aria-pressed="false" data-i18n="pf_all"></button>
+        </div>
+        <div id="pfBody"></div>
+        <div id="weeklyCard"></div>
       </section>
 
       <div class="grid">
@@ -439,7 +469,7 @@ const T = (k, ...args) => { const v = (I18N[LANG] || I18N.he)[k] ?? I18N.he[k]; 
 // text of an alert field in the current language, falling back to Hebrew
 const L = (obj, fallback) => (obj && (obj[LANG] || obj.he)) || fallback || "";
 
-let STATS = null, BRIEF = null;
+let STATS = null, BRIEF = null, PF = null, WEEKLY = null, CONFIG = null, PF_BOOK = "important";
 let MINE = store.get("mine", []);
 const LOADED = new Set();   // lazy widgets already drawn
 let ALERTS = [], FILTER = "all", CHART_SYM = "SPY", FIRST_LOAD = true, KNOWN = new Set();
@@ -767,7 +797,67 @@ function closeStock(){
   if (stockReturn && document.contains(stockReturn)) stockReturn.focus();
 }
 
-function renderAll(){ renderBrief(); renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); renderMine(); fillDatalist(); }
+function shortDate(d){ const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || ""); return m ? `${m[3]}.${m[2]}` : (d || ""); }
+function money(v){ const n = Math.round(Math.abs(v)); return `${v >= 0 ? "+" : "−"}${n.toLocaleString(T("date"))} ₪`; }
+function curveSvg(curve){
+  const W = 640, H = 220, P = 34;
+  const pts = curve.length === 1 ? [{date: "", equity: 0, bench: 0}, ...curve] : curve;
+  const vals = pts.flatMap(c => [c.equity, c.bench, 0]);
+  let lo = Math.min(...vals), hi = Math.max(...vals); if (hi - lo < 1) { hi += 1; lo -= 1; }
+  const x = i => P + (W - 2 * P) * (pts.length === 1 ? 0.5 : i / (pts.length - 1));
+  const y = v => H - P + (-(H - 2 * P) * (v - lo) / (hi - lo));
+  const line = k => pts.map((c, i) => `${x(i).toFixed(1)},${y(c[k]).toFixed(1)}`).join(" ");
+  const last = pts[pts.length - 1];
+  const muted = "var(--muted)";
+  return `<svg viewBox="0 0 ${W} ${H}" style="direction:ltr" role="img" aria-label="${esc(T("pf_chart_aria", money(last.equity), money(last.bench)))}">
+    <line x1="${P}" x2="${W - P}" y1="${y(0)}" y2="${y(0)}" stroke="var(--line)" stroke-dasharray="4 4"/>
+    <text x="${P - 6}" y="${y(hi) + 4}" fill="${muted}" font-size="13" text-anchor="end">${Math.round(hi)}</text>
+    <text x="${P - 6}" y="${y(lo) + 4}" fill="${muted}" font-size="13" text-anchor="end">${Math.round(lo)}</text>
+    <text x="${P - 6}" y="${y(0) + 4}" fill="${muted}" font-size="13" text-anchor="end">0</text>
+    <polyline points="${line("bench")}" fill="none" stroke="var(--grey)" stroke-width="2.5" stroke-linejoin="round"/>
+    <polyline points="${line("equity")}" fill="none" stroke="var(--up)" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="${x(pts.length - 1)}" cy="${y(last.equity)}" r="4.5" fill="var(--up)"/>
+    <circle cx="${x(pts.length - 1)}" cy="${y(last.bench)}" r="4" fill="var(--grey)"/>
+    <text x="${P}" y="${H - 8}" fill="${muted}" font-size="13">${esc(shortDate(curve[0].date))}</text>
+    <text x="${W - P}" y="${H - 8}" fill="${muted}" font-size="13" text-anchor="end">${esc(shortDate(last.date))}</text>
+  </svg>`;
+}
+function renderPortfolio(){
+  document.querySelectorAll("[data-pf]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.pf === PF_BOOK)));
+  const bk = PF && PF[PF_BOOK];
+  if (!bk || !bk.trades){ $("pfBody").innerHTML = `<div class="empty">${esc(T("pf_empty"))}</div>`; }
+  else {
+    const rows = bk.recent.slice(0, 10).map(t => {
+      const title = L(t.title_i18n, t.title);
+      return `<tr><td class="mono">${esc(shortDate(t.date))}</td>
+        <td><button type="button" class="tk mono" data-t="${esc(t.ticker)}">${esc(t.ticker)}</button> <span class="pf-title">${esc(title)}</span></td>
+        <td class="${t.dir === "up" ? "up" : "down"}">${esc(t.dir === "up" ? T("bet_up") : T("bet_down"))}</td>
+        <td class="mono ${t.pnl >= 0 ? "up" : "down"}">${money(t.pnl)}</td></tr>`;
+    }).join("");
+    $("pfBody").innerHTML = `<div class="pf-kpis">
+        <div><b>${bk.trades}</b><span>${esc(T("pf_trades"))}</span></div>
+        <div><b>${Math.round(bk.wins / bk.trades * 100)}%</b><span>${esc(T("pf_winrate"))}</span></div>
+        <div><b class="mono ${bk.pnl >= 0 ? "up" : "down"}">${money(bk.pnl)}</b><span>${esc(T("pf_pnl"))}</span></div>
+        <div><b class="mono" style="color:var(--grey)">${money(bk.bench_pnl)}</b><span>${esc(T("pf_bench"))}</span></div></div>
+      <div class="legend"><span><i style="background:var(--up)"></i>${esc(T("pf_line_radar"))}</span><span><i style="background:var(--grey)"></i>${esc(T("pf_line_market"))}</span></div>
+      <div class="pf-chart">${curveSvg(bk.curve)}</div>
+      <h3 class="guide-sub" style="font-weight:700">${esc(T("pf_recent"))}</h3>
+      <div class="pf-table"><table><caption class="sr-only">${esc(T("pf_recent"))}</caption>
+        <tr><th scope="col">${esc(T("th_date"))}</th><th scope="col">${esc(T("th_stock"))}</th><th scope="col">${esc(T("th_bet"))}</th><th scope="col">${esc(T("th_result"))}</th></tr>${rows}</table></div>`;
+  }
+  const w = WEEKLY;
+  $("weeklyCard").innerHTML = w ? `<div class="weekly"><h3>${esc(T("wk_head"))} · <span class="mono">${esc(w.date)}</span></h3>
+      <p>🚨 ${esc(T("wk_alerts", w.alerts, w.important))}</p>
+      ${w.preds ? `<p>🎯 ${esc(T("wk_preds", w.hits, w.preds))}</p>` : ""}
+      ${w.trades_important ? `<p>💼 ${esc(T("wk_pnl", money(w.pnl), money(w.bench_pnl)))}</p>` : ""}</div>` : "";
+}
+function renderChannel(){
+  const ch = CONFIG && CONFIG.channel;
+  $("joinLink").hidden = !ch;
+  if (ch) $("joinLink").href = "https://t.me/" + ch.replace(/^@/, "");
+}
+
+function renderAll(){ renderBrief(); renderPortfolio(); renderChannel(); renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); renderMine(); fillDatalist(); }
 
 /* ---------- new-alert popups ---------- */
 function toast(a){
@@ -833,6 +923,8 @@ async function load(){
   } catch { ALERTS = []; }
   try { const r = await fetch("stats.json" + bust, {cache: "no-store"}); STATS = r.ok ? await r.json() : null; } catch { STATS = null; }
   try { const r = await fetch("brief.json" + bust, {cache: "no-store"}); BRIEF = r.ok ? await r.json() : null; } catch { BRIEF = null; }
+  const getJson = async f => { try { const r = await fetch(f + bust, {cache: "no-store"}); return r.ok ? await r.json() : null; } catch { return null; } };
+  [PF, WEEKLY, CONFIG] = await Promise.all([getJson("portfolio.json"), getJson("weekly.json"), getJson("config.json")]);
   try { LAST_RUN = new Date((await (await fetch("state.json" + bust, {cache: "no-store"})).json()).last_run); if (isNaN(LAST_RUN)) LAST_RUN = null; }
   catch { LAST_RUN = null; }
   renderStatus();
@@ -863,6 +955,7 @@ document.addEventListener("click", e => {
   const g = e.target.closest("[data-goto]"); if (g){ goTo(g.dataset.goto); const t = g.closest(".toast"); if (t) t.remove(); return; }
   if (e.target.closest("[data-dismiss]")){ e.target.closest(".toast").remove(); return; }
   const t = e.target.closest("[data-t]"); if (t){ openStock(t.dataset.t, t); return; }
+  const pfb = e.target.closest("[data-pf]"); if (pfb){ PF_BOOK = pfb.dataset.pf; renderPortfolio(); return; }
   const sh = e.target.closest("[data-share]"); if (sh){ shareAlert(sh.dataset.share); return; }
   const us = e.target.closest("[data-unstar]"); if (us){ toggleStar(us.dataset.unstar); return; }
   const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); return; }
