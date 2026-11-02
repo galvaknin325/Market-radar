@@ -67,7 +67,6 @@ FEEDS = [
     ("Google News: Israeli defense", gnews("Rafael OR \"Israel Aerospace Industries\" OR Elbit OR \"Iron Dome\" OR \"Arrow 3\" OR \"David's Sling\"")),
     ("Google News: big deals", gnews("\"billion contract\" OR \"billion deal\" OR \"infrastructure deal\" OR \"procurement\"")),
     ("Defense News", "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml"),
-    ("Times of Israel", "https://www.timesofisrael.com/feed/"),
 ]
 
 # Starting point for the AI — it may name any US-listed ticker.
