@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T19:27Z",
+ "generated": "2026-11-02T20:17Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 47,
+ "total_alerts": 51,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -161,14 +161,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
     "he": "SPY - קרן מדד S&P 500",
     "en": "SPY - S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر S&P 500",
-    "ru": "SPY - фонд индекса S&P 500"
+    "ar": "SPY - صندوق مؤشر الأسهم",
+    "ru": "SPY - фонд акций S&P 500"
    },
    "avg_edge": null
   },
@@ -185,14 +185,14 @@
    "avg_edge": null
   },
   "CPER": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق النحاس",
-    "ru": "ETF на медь"
+    "he": "CPER - קרן נחושת",
+    "en": "CPER - Copper ETF",
+    "ar": "CPER - صندوق النحاس",
+    "ru": "CPER - фонд меди"
    },
    "avg_edge": null
   },
@@ -221,14 +221,14 @@
    "avg_edge": null
   },
   "TLT": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל אג\"ח ממשלת ארה\"ב לטווח ארוך",
-    "en": "Long-Term US Treasury ETF",
-    "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
-    "ru": "ETF длинных гособлигаций США"
+    "he": "TLT - אג\"ח ממשלת ארה\"ב לטווח ארוך",
+    "en": "TLT - Long-term Treasury ETF",
+    "ar": "TLT - سندات الخزانة الأمريكية الطويلة",
+    "ru": "TLT - долгосрочные гособлигации США"
    },
    "avg_edge": null
   },
@@ -365,14 +365,14 @@
    "avg_edge": null
   },
   "FCX": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "פריפורט-מקמורן – ענקית כריית נחושת",
-    "en": "Freeport-McMoRan – major copper miner",
-    "ar": "فريبورت-ماكموران – شركة تعدين نحاس كبرى",
-    "ru": "Freeport-McMoRan – крупный добытчик меди"
+    "he": "Freeport-McMoRan - חברת כריית נחושת",
+    "en": "Freeport-McMoRan - copper miner",
+    "ar": "Freeport-McMoRan - تعدين النحاس",
+    "ru": "Freeport-McMoRan - добытчик меди"
    },
    "avg_edge": null
   },
@@ -461,14 +461,38 @@
    "avg_edge": null
   },
   "VGK": {
+   "mentions": 2,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "VGK - קרן מניות אירופה",
+    "en": "VGK - Vanguard European Stock ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK - фонд европейских акций"
+   },
+   "avg_edge": null
+  },
+  "UNG": {
    "mentions": 1,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "VGK - קרן סל על שוק המניות האירופי",
-    "en": "VGK - Vanguard FTSE Europe ETF",
-    "ar": "VGK - صندوق الأسهم الأوروبية",
-    "ru": "VGK - фонд европейских акций"
+    "he": "UNG - קרן גז טבעי",
+    "en": "UNG - Natural Gas ETF",
+    "ar": "UNG - صندوق الغاز الطبيعي",
+    "ru": "UNG - фонд природного газа"
+   },
+   "avg_edge": null
+  },
+  "TSM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "TSMC - יצרנית שבבים מובילה",
+    "en": "TSMC - major chip maker",
+    "ar": "TSMC - صانع رقائق رئيسي",
+    "ru": "TSMC - крупный производитель чипов"
    },
    "avg_edge": null
   }
