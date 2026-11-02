@@ -1,8 +1,7 @@
 name: Market Radar
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
+  schedule:    - cron: "4,19,34,49 * * * *"   # every 15 min, off-peak minutes
   workflow_dispatch:          # "Run workflow" button for manual tests
 
 permissions:
