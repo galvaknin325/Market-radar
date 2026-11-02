@@ -4,122 +4,287 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>מכ"ם השוק</title>
+<meta name="description" content="מכ&quot;ם השוק: התראות על אירועים עולמיים שעלולים להזיז מניות בוול סטריט">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
+  /* ---------- theme tokens (dark default) ---------- */
   :root{
     --bg:#0b0f17; --panel:#121826; --panel2:#171f30; --line:#232c40;
-    --text:#e6eaf2; --muted:#8a94a8; --up:#22c55e; --down:#ef4444;
-    --red:#ef4444; --orange:#f59e0b; --yellow:#eab308; --accent:#60a5fa;
+    --text:#e6eaf2; --muted:#9aa4b8; --up:#22c55e; --down:#f05252;
+    --red:#ef4444; --orange:#f59e0b; --yellow:#eab308; --accent:#60a5fa; --accent-ink:#06101f;
+    --focus:#fbbf24; --font:Heebo,system-ui,sans-serif; --lh:1.55; --side:300px;
   }
+  html.light{
+    --bg:#f4f6fa; --panel:#ffffff; --panel2:#eef1f6; --line:#d6dce7;
+    --text:#111827; --muted:#4b5563; --up:#15803d; --down:#b91c1c; --accent:#1d4ed8; --accent-ink:#fff; --focus:#b45309;
+  }
+  html.contrast{
+    --bg:#000; --panel:#000; --panel2:#111; --line:#fff;
+    --text:#fff; --muted:#fff; --up:#4ade80; --down:#ff6b6b; --red:#ff6b6b; --orange:#ffb020; --yellow:#ffe14d;
+    --accent:#ffe14d; --accent-ink:#000; --focus:#00e5ff;
+  }
+  html.readable{ --font:Arial,"Segoe UI",Tahoma,sans-serif; letter-spacing:.02em }
+  html.spacing{ --lh:1.9 }
+  html.links a{ text-decoration:underline !important; outline:2px dashed var(--accent); outline-offset:2px }
+  html.nomotion *, html.nomotion *::before, html.nomotion *::after{ animation:none !important; transition:none !important; scroll-behavior:auto !important }
+  @media (prefers-reduced-motion: reduce){ *,*::before,*::after{ animation:none !important; transition:none !important; scroll-behavior:auto !important } }
+
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:Heebo,system-ui,sans-serif;line-height:1.5}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:var(--lh);font-size:1rem}
   .mono{font-family:"JetBrains Mono",ui-monospace,monospace;direction:ltr;unicode-bidi:isolate}
-  header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
-         padding:18px 24px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#0f1524,#0b0f17)}
-  .brand{display:flex;align-items:center;gap:12px}
-  .radar{width:34px;height:34px;border-radius:50%;border:2px solid var(--accent);position:relative;overflow:hidden}
-  .radar::after{content:"";position:absolute;inset:0;background:conic-gradient(from 0deg,rgba(96,165,250,.55),transparent 35%);animation:spin 3s linear infinite}
+  html.readable .mono{font-family:Consolas,"Courier New",monospace}
+  a{color:var(--accent)}
+  button{font:inherit;color:inherit}
+  :focus-visible{outline:3px solid var(--focus) !important;outline-offset:2px;border-radius:4px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .skip{position:absolute;top:-60px;right:12px;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;border-radius:8px;z-index:100;font-weight:700}
+  .skip:focus{top:12px}
+
+  /* ---------- layout: sidebar on the right (first in RTL) ---------- */
+  .app{display:grid;grid-template-columns:var(--side) 1fr;min-height:100vh}
+  .app > div, .grid > *, .stack > *{min-width:0}
+  html,body{overflow-x:hidden}
+  .kpi .val{overflow-wrap:anywhere}
+  aside.side{position:sticky;top:0;height:100vh;overflow:auto;background:var(--panel);border-left:1px solid var(--line);
+             display:flex;flex-direction:column;z-index:40}
+  .brand{display:flex;align-items:center;gap:.75rem;padding:1.1rem 1.1rem .9rem;border-bottom:1px solid var(--line)}
+  .radar{width:2.1rem;height:2.1rem;flex:none;border-radius:50%;border:2px solid var(--accent);position:relative;overflow:hidden}
+  .radar::after{content:"";position:absolute;inset:0;background:conic-gradient(from 0deg,color-mix(in srgb,var(--accent) 60%,transparent),transparent 35%);animation:spin 3s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
-  h1{font-size:22px;margin:0;font-weight:800}
-  .sub{color:var(--muted);font-size:13px}
-  .status{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
-  .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
-  .dot.ok{background:var(--up);box-shadow:0 0 8px var(--up)}
-  .dot.stale{background:var(--orange)}
-  main{max-width:1280px;margin:0 auto;padding:20px 24px 60px}
+  .brand h1{font-size:1.3rem;margin:0;font-weight:800;line-height:1.2}
+  .status{display:flex;align-items:center;gap:.45rem;font-size:.8rem;color:var(--muted);margin-top:.15rem}
+  .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--muted);flex:none}
+  .dot.ok{background:var(--up);box-shadow:0 0 8px var(--up)} .dot.stale{background:var(--orange)}
+
+  nav.menu ul{list-style:none;margin:0;padding:.6rem}
+  nav.menu a{display:flex;align-items:center;gap:.65rem;padding:.6rem .75rem;border-radius:10px;color:var(--text);text-decoration:none;font-weight:500}
+  nav.menu a:hover{background:var(--panel2)}
+  nav.menu a .ic{width:1.4rem;text-align:center}
+  .badge{margin-inline-start:auto;background:var(--red);color:#fff;border-radius:999px;font-size:.75rem;font-weight:700;padding:0 .5rem;min-width:1.4rem;text-align:center}
+  html.contrast .badge{background:#ff6b6b;color:#000}
+
+  .side h2{font-size:.85rem;color:var(--muted);font-weight:700;margin:.6rem 1.1rem .4rem;display:flex;justify-content:space-between;align-items:center}
+  .side h2 button{background:none;border:0;color:var(--accent);cursor:pointer;font-size:.78rem;padding:.2rem}
+  .live{list-style:none;margin:0;padding:0 .6rem;flex:1;overflow:auto}
+  .live li button{all:unset;box-sizing:border-box;display:block;width:100%;cursor:pointer;padding:.6rem .7rem;border-radius:10px;border:1px solid transparent;margin-bottom:.35rem;background:var(--panel2)}
+  .live li button:hover{border-color:var(--line)}
+  .live li button:focus-visible{outline:3px solid var(--focus)}
+  .live .t{font-weight:700;font-size:.9rem;line-height:1.35;display:flex;gap:.4rem;align-items:flex-start}
+  .live .m{font-size:.75rem;color:var(--muted);margin-top:.2rem}
+  .live .tks{font-size:.78rem;margin-top:.25rem;display:flex;gap:.45rem;flex-wrap:wrap}
+  .sev{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;margin-top:.35rem;flex:none}
+  .sev.s8{background:var(--red)} .sev.s6{background:var(--orange)} .sev.s0{background:var(--yellow)}
+  .new{background:var(--accent);color:var(--accent-ink);font-size:.68rem;font-weight:800;border-radius:5px;padding:0 .35rem;margin-inline-start:auto;flex:none}
+  .side-empty{color:var(--muted);font-size:.85rem;padding:.6rem 1.1rem}
+  .side-foot{border-top:1px solid var(--line);padding:.7rem;display:grid;gap:.45rem}
+  .side-foot button{display:flex;align-items:center;gap:.55rem;width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.6rem .75rem;cursor:pointer;font-weight:600;text-align:start}
+  .side-foot button:hover{border-color:var(--accent)}
+
+  /* ---------- main ---------- */
+  .topbar{display:none}
   .tape{border-bottom:1px solid var(--line);min-height:46px}
-  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
-  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
-  .kpi .label{color:var(--muted);font-size:13px}
-  .kpi .val{font-size:28px;font-weight:800;margin-top:2px}
-  .kpi .hint{color:var(--muted);font-size:12px}
-  .grid{display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:start}
-  section{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-  section h2{font-size:16px;margin:0;padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
-  section h2 small{color:var(--muted);font-weight:400;font-size:12px}
-  .chart{height:460px}
-  .filters{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px;border-bottom:1px solid var(--line)}
-  .chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:4px 11px;font:inherit;font-size:13px;cursor:pointer}
-  .chip.on{background:var(--accent);border-color:var(--accent);color:#06101f;font-weight:700}
+  main{padding:1.25rem 1.5rem 3.5rem;max-width:1200px;width:100%;margin:0 auto}
+  .page-title{margin:0 0 1rem;font-size:1.15rem;color:var(--muted);font-weight:500}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin-bottom:1.25rem}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem}
+  .kpi .label{color:var(--muted);font-size:.82rem}
+  .kpi .val{font-size:1.75rem;font-weight:800;margin-top:.1rem}
+  .kpi .hint{color:var(--muted);font-size:.75rem}
+  .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:1.25rem;align-items:start}
+  .stack{display:flex;flex-direction:column;gap:1.25rem}
+  section.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;scroll-margin-top:1rem}
+  section.card > h2{font-size:1rem;margin:0;padding:.85rem 1rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+  section.card > h2 small{color:var(--muted);font-weight:400;font-size:.75rem}
+  .chart{height:460px} .overview{height:520px}
+  .filters{display:flex;gap:.4rem;flex-wrap:wrap;padding:.6rem 1rem;border-bottom:1px solid var(--line)}
+  .chip{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:.25rem .7rem;font-size:.82rem;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
   .feed{max-height:1100px;overflow:auto}
-  .alert{padding:14px 16px;border-bottom:1px solid var(--line);border-right:4px solid var(--muted)}
+  .alert{padding:.9rem 1rem;border-bottom:1px solid var(--line);border-right:4px solid var(--muted);scroll-margin-top:1rem}
   .alert.s8{border-right-color:var(--red)} .alert.s6{border-right-color:var(--orange)} .alert.s0{border-right-color:var(--yellow)}
-  .a-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
-  .a-title{font-weight:700;font-size:15.5px}
-  .a-meta{color:var(--muted);font-size:12px;white-space:nowrap}
-  .a-sum{color:#c8cfdc;font-size:14px;margin:4px 0 8px}
-  .imp{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13.5px;padding:5px 0}
-  .tk{border:1px solid var(--line);background:var(--panel2);border-radius:6px;padding:1px 8px;cursor:pointer;color:var(--text);font:inherit}
+  .alert.flash{animation:flash 1.6s ease-out}
+  @keyframes flash{0%{background:color-mix(in srgb,var(--accent) 30%,transparent)}100%{background:transparent}}
+  .a-top{display:flex;justify-content:space-between;gap:.6rem;align-items:baseline;flex-wrap:wrap}
+  .a-title{font-weight:700;font-size:1rem;margin:0}
+  .a-meta{color:var(--muted);font-size:.75rem;white-space:nowrap}
+  .a-sum{font-size:.9rem;margin:.25rem 0 .5rem;opacity:.92}
+  .imp{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.86rem;padding:.3rem 0}
+  .tk{border:1px solid var(--line);background:var(--panel2);border-radius:6px;padding:.05rem .5rem;cursor:pointer}
   .tk:hover{border-color:var(--accent)}
   .up{color:var(--up)} .down{color:var(--down)}
-  .res{font-size:12px;border-radius:5px;padding:1px 7px}
-  .res.hit{background:rgba(34,197,94,.15);color:var(--up)} .res.miss{background:rgba(239,68,68,.15);color:var(--down)}
+  .res{font-size:.75rem;border-radius:5px;padding:.05rem .45rem}
+  .res.hit{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
+  .res.miss{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
   .res.wait{background:var(--panel2);color:var(--muted)}
-  .src{font-size:12px;margin-top:6px} .src a{color:var(--accent);text-decoration:none;margin-left:10px}
-  .empty{padding:40px 20px;text-align:center;color:var(--muted)}
-  table{width:100%;border-collapse:collapse;font-size:14px}
-  th,td{padding:9px 16px;text-align:right;border-bottom:1px solid var(--line)}
-  th{color:var(--muted);font-weight:500;font-size:12.5px}
+  .src{font-size:.78rem;margin-top:.35rem} .src a{text-decoration:none;margin-inline-end:.7rem}
+  .empty{padding:2.5rem 1.25rem;text-align:center;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th,td{padding:.55rem 1rem;text-align:right;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:500;font-size:.78rem}
   .bar{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden;min-width:60px}
   .bar i{display:block;height:100%;background:var(--up)}
-  .overview{height:520px}
-  .stack{display:flex;flex-direction:column;gap:20px}
-  footer{color:var(--muted);font-size:12px;text-align:center;margin-top:28px}
-  @media (max-width:900px){.grid{grid-template-columns:1fr}.grid>.stack:last-child{order:-1}.feed{max-height:none}
-    .kpis{grid-template-columns:repeat(2,1fr)}.chart{height:360px}.overview{height:440px}main{padding:14px}}
+  footer{color:var(--muted);font-size:.75rem;text-align:center;margin-top:1.75rem}
+
+  /* ---------- toast ---------- */
+  .toasts{position:fixed;bottom:1rem;left:1rem;display:grid;gap:.5rem;z-index:90;max-width:min(380px,calc(100vw - 2rem))}
+  .toast{background:var(--panel);border:1px solid var(--line);border-right:5px solid var(--red);border-radius:12px;padding:.8rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.35);animation:pop .25s ease-out}
+  .toast b{display:block} .toast .row{display:flex;gap:.5rem;margin-top:.5rem}
+  .toast button{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:.25rem .7rem;cursor:pointer;font-size:.82rem}
+  @keyframes pop{from{transform:translateY(10px);opacity:0}to{transform:none;opacity:1}}
+
+  /* ---------- accessibility dialog ---------- */
+  .a11y-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:80;display:none}
+  .a11y{position:fixed;top:0;bottom:0;right:0;width:min(360px,100vw);background:var(--panel);border-left:1px solid var(--line);z-index:85;
+        padding:1.1rem;overflow:auto;display:none}
+  .a11y.open, .a11y-backdrop.open{display:block}
+  .a11y h2{margin:0 0 .25rem;font-size:1.2rem}
+  .a11y p{color:var(--muted);font-size:.82rem;margin:0 0 1rem}
+  .a11y .group{border:1px solid var(--line);border-radius:12px;padding:.75rem;margin-bottom:.75rem}
+  .a11y .group h3{font-size:.85rem;margin:0 0 .5rem;color:var(--muted)}
+  .sizes{display:grid;grid-template-columns:repeat(auto-fit,minmax(4.2rem,1fr));gap:.4rem}
+  .opt{display:flex;align-items:center;justify-content:space-between;gap:.5rem;width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.6rem .75rem;cursor:pointer;margin-bottom:.4rem;text-align:start}
+  .opt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+  .opt .state{font-size:.75rem;color:var(--muted)} .opt[aria-pressed="true"] .state{color:var(--accent);font-weight:700}
+  .sizes .opt{justify-content:center;margin:0}
+  .a11y .close{position:absolute;top:.8rem;left:.8rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1.1rem}
+  .a11y .reset{width:100%;background:none;border:1px dashed var(--line);border-radius:10px;padding:.6rem;cursor:pointer;margin-top:.25rem}
+
+  /* ---------- mobile: sidebar becomes a drawer ---------- */
+  @media (max-width:960px){
+    .app{grid-template-columns:1fr}
+    aside.side{position:fixed;top:0;right:0;width:min(var(--side),88vw);transform:translateX(105%);transition:transform .25s ease;box-shadow:-10px 0 30px rgba(0,0,0,.35)}
+    aside.side.open{transform:none}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:.6rem .9rem;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:30}
+    .topbar .menu-btn{display:flex;align-items:center;gap:.4rem;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.45rem .7rem;cursor:pointer;font-weight:700}
+    .topbar .ttl{font-weight:800}
+    .grid{grid-template-columns:1fr} .grid>.stack:last-child{order:-1} .feed{max-height:none}
+    .kpis{grid-template-columns:repeat(2,1fr)} .chart{height:360px} .overview{height:440px} main{padding:.9rem}
+    .page-title{display:none}
+  }
 </style>
 </head>
 <body>
-<div class="tape" id="tape"></div>
-<header>
-  <div class="brand">
-    <div class="radar" aria-hidden="true"></div>
-    <div>
-      <h1>מכ"ם השוק</h1>
-      <div class="sub">אירועים עולמיים ← השפעה על מניות בוול סטריט</div>
-    </div>
-  </div>
-  <div class="status"><span class="dot" id="dot"></span><span id="statusText">טוען…</span></div>
-</header>
+<a class="skip" href="#main">דלג לתוכן הראשי</a>
+<div class="app">
 
-<main>
-  <div class="kpis">
-    <div class="kpi"><div class="label">התראות סה"כ</div><div class="val" id="kTotal">–</div><div class="hint">מאז ההפעלה</div></div>
-    <div class="kpi"><div class="label">ב-24 השעות האחרונות</div><div class="val" id="k24">–</div><div class="hint">התראות חדשות</div></div>
-    <div class="kpi"><div class="label">אחוז פגיעה בכיוון</div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint">נבדק 24 שעות אחרי כל התראה</div></div>
-    <div class="kpi"><div class="label">תנועה ממוצעת בכיוון החזוי</div><div class="val" id="kAvg">–</div><div class="hint">ב-24 שעות</div></div>
-  </div>
-
-  <div class="grid">
-    <div class="stack">
-      <section>
-        <h2><span>גרף חי · <span class="mono" id="chartSym">SPY</span></span><small>לחץ על מניה בהתראה כדי להציג אותה</small></h2>
-        <div class="chart" id="chart"></div>
-      </section>
-      <section>
-        <h2><span>שווקים במעקב</span><small>מתעדכן בזמן אמת</small></h2>
-        <div class="overview" id="overview"></div>
-      </section>
+  <!-- ===== right sidebar ===== -->
+  <aside class="side" id="side" aria-label="תפריט ראשי">
+    <div class="brand">
+      <div class="radar" aria-hidden="true"></div>
+      <div>
+        <h1>מכ"ם השוק</h1>
+        <div class="status"><span class="dot" id="dot" aria-hidden="true"></span><span id="statusText">טוען…</span></div>
+      </div>
     </div>
 
-    <div class="stack">
-      <section>
-        <h2><span>פיד התראות</span><small id="feedCount"></small></h2>
-        <div class="filters" id="filters"></div>
-        <div class="feed" id="feed"><div class="empty">טוען התראות…</div></div>
+    <nav class="menu" aria-label="ניווט באתר">
+      <ul>
+        <li><a href="#summary"><span class="ic" aria-hidden="true">🏠</span>סקירה</a></li>
+        <li><a href="#alerts"><span class="ic" aria-hidden="true">🚨</span>כל ההתראות<span class="badge" id="badge" hidden></span></a></li>
+        <li><a href="#live-chart"><span class="ic" aria-hidden="true">📈</span>גרף חי</a></li>
+        <li><a href="#markets"><span class="ic" aria-hidden="true">🌐</span>שווקים במעקב</a></li>
+        <li><a href="#accuracy"><span class="ic" aria-hidden="true">🎯</span>הצלחת המערכת</a></li>
+      </ul>
+    </nav>
+
+    <h2 id="liveHead"><span>התראות אחרונות</span><button type="button" id="markRead">סמן הכול כנקרא</button></h2>
+    <ul class="live" id="live" aria-labelledby="liveHead"></ul>
+
+    <div class="side-foot">
+      <button type="button" id="notifyBtn" aria-pressed="false"><span aria-hidden="true">🔔</span><span id="notifyLabel">הקפץ התראות במחשב</span></button>
+      <button type="button" id="a11yBtn" aria-haspopup="dialog" aria-controls="a11y"><span aria-hidden="true">♿</span>נגישות</button>
+    </div>
+  </aside>
+
+  <!-- ===== main column ===== -->
+  <div>
+    <div class="topbar">
+      <button type="button" class="menu-btn" id="menuBtn" aria-controls="side" aria-expanded="false">
+        <span aria-hidden="true">☰</span> תפריט <span class="badge" id="badgeTop" hidden></span>
+      </button>
+      <span class="ttl">מכ"ם השוק</span>
+      <button type="button" class="menu-btn" id="a11yBtnTop" aria-haspopup="dialog" aria-controls="a11y" aria-label="נגישות">♿</button>
+    </div>
+    <div class="tape" id="tape" aria-hidden="true"></div>
+
+    <main id="main" tabindex="-1">
+      <p class="page-title">אירועים עולמיים ← השפעה אפשרית על מניות בוול סטריט</p>
+
+      <section id="summary" aria-label="סקירה" style="scroll-margin-top:1rem">
+        <div class="kpis">
+          <div class="kpi"><div class="label">התראות סה"כ</div><div class="val" id="kTotal">–</div><div class="hint">מאז ההפעלה</div></div>
+          <div class="kpi"><div class="label">ב-24 השעות האחרונות</div><div class="val" id="k24">–</div><div class="hint">התראות חדשות</div></div>
+          <div class="kpi"><div class="label">אחוז פגיעה בכיוון</div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint">נבדק 24 שעות אחרי כל התראה</div></div>
+          <div class="kpi"><div class="label">תנועה ממוצעת בכיוון החזוי</div><div class="val" id="kAvg">–</div><div class="hint">ב-24 שעות</div></div>
+        </div>
       </section>
-      <section>
-        <h2><span>הצלחה לפי סוג אירוע</span><small>רק התראות שכבר נבדקו</small></h2>
-        <div id="byCat"><div class="empty">עוד אין מספיק נתונים</div></div>
-      </section>
+
+      <div class="grid">
+        <div class="stack">
+          <section class="card" id="live-chart" aria-labelledby="chartHead">
+            <h2 id="chartHead"><span>גרף חי · <span class="mono" id="chartSym">SPY</span></span><small>לחץ על מניה בהתראה כדי להציג אותה</small></h2>
+            <div class="chart" id="chart" role="img" aria-label="גרף מחיר חי של המניה הנבחרת"></div>
+          </section>
+          <section class="card" id="markets" aria-labelledby="mHead">
+            <h2 id="mHead"><span>שווקים במעקב</span><small>מתעדכן בזמן אמת</small></h2>
+            <div class="overview" id="overview" role="img" aria-label="סקירת שווקים חיה לפי תחומים"></div>
+          </section>
+        </div>
+
+        <div class="stack">
+          <section class="card" id="alerts" aria-labelledby="feedHead">
+            <h2 id="feedHead"><span>כל ההתראות</span><small id="feedCount"></small></h2>
+            <div class="filters" id="filters" role="group" aria-label="סינון התראות"></div>
+            <div class="feed" id="feed"><div class="empty">טוען התראות…</div></div>
+          </section>
+          <section class="card" id="accuracy" aria-labelledby="accHead">
+            <h2 id="accHead"><span>הצלחה לפי סוג אירוע</span><small>רק התראות שכבר נבדקו</small></h2>
+            <div id="byCat"><div class="empty">עוד אין מספיק נתונים</div></div>
+          </section>
+        </div>
+      </div>
+
+      <footer>מידע בלבד, לא ייעוץ השקעות · הגרפים באדיבות TradingView · הנתונים מתעדכנים אוטומטית</footer>
+    </main>
+  </div>
+</div>
+
+<!-- ===== accessibility dialog ===== -->
+<div class="a11y-backdrop" id="a11yBackdrop"></div>
+<div class="a11y" id="a11y" role="dialog" aria-modal="true" aria-labelledby="a11yTitle">
+  <button type="button" class="close" id="a11yClose" aria-label="סגור תפריט נגישות">✕</button>
+  <h2 id="a11yTitle">♿ הגדרות נגישות</h2>
+  <p>ההגדרות נשמרות בדפדפן שלך. אפשר לנווט באתר גם עם המקלדת (Tab).</p>
+
+  <div class="group" role="group" aria-labelledby="gSize">
+    <h3 id="gSize">גודל טקסט</h3>
+    <div class="sizes">
+      <button type="button" class="opt" data-size="100" aria-pressed="false">רגיל</button>
+      <button type="button" class="opt" data-size="115" aria-pressed="false">גדול</button>
+      <button type="button" class="opt" data-size="130" aria-pressed="false">גדול+</button>
+      <button type="button" class="opt" data-size="150" aria-pressed="false">ענק</button>
     </div>
   </div>
 
-  <footer>מידע בלבד, לא ייעוץ השקעות · הגרפים באדיבות TradingView · הנתונים מתעדכנים אוטומטית</footer>
-</main>
+  <div class="group" role="group" aria-labelledby="gView">
+    <h3 id="gView">תצוגה</h3>
+    <button type="button" class="opt" data-flag="contrast" aria-pressed="false"><span>ניגודיות גבוהה</span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="light" aria-pressed="false"><span>רקע בהיר</span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="readable" aria-pressed="false"><span>גופן קריא</span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="spacing" aria-pressed="false"><span>ריווח שורות מוגדל</span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="links" aria-pressed="false"><span>הדגשת קישורים</span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="nomotion" aria-pressed="false"><span>עצירת אנימציות</span><span class="state"></span></button>
+  </div>
+  <button type="button" class="reset" id="a11yReset">איפוס כל הגדרות הנגישות</button>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+<div class="sr-only" id="srStatus" aria-live="polite"></div>
 
 <script>
+/* ================= data & helpers ================= */
 const CATS = {geopolitics:["🌍","גיאופוליטיקה"],policy:["🏛️","מדיניות ורגולציה"],trade:["🚢","סחר ומכסים"],
   macro:["🏦","כלכלה וריבית"],commodities:["⛽","סחורות ואספקה"],climate:["🌪️","אקלים ואסונות"],health:["🦠","בריאות"],cyber:["💻","סייבר"]};
 const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX",UNG:"AMEX",GLD:"AMEX",LMT:"NYSE",RTX:"NYSE",
@@ -127,8 +292,33 @@ const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX
   FCX:"NYSE",TLT:"NASDAQ",KRE:"AMEX",ALL:"NYSE",TRV:"NYSE",MRNA:"NASDAQ",CRWD:"NASDAQ",EEM:"AMEX",FXI:"AMEX"};
 const tv = t => EXCH[t] ? `${EXCH[t]}:${t}` : t;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let ALERTS = [], FILTER = "all";
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d){ try { const v = localStorage.getItem("mr_" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v){ try { localStorage.setItem("mr_" + k, JSON.stringify(v)); } catch {} }
+};
+const alertId = a => String(a.ts) + "|" + (a.title || "");
+let ALERTS = [], FILTER = "all", CHART_SYM = "SPY", FIRST_LOAD = true, KNOWN = new Set();
+let lastSeen = store.get("lastSeen", 0);
 
+/* ================= accessibility settings ================= */
+const FLAGS = ["contrast","light","readable","spacing","links","nomotion"];
+let A11Y = Object.assign({size:100}, store.get("a11y", {}));
+function applyA11y(){
+  const h = document.documentElement;
+  h.style.fontSize = A11Y.size + "%";
+  FLAGS.forEach(f => h.classList.toggle(f, !!A11Y[f]));
+  if (A11Y.contrast) h.classList.remove("light");
+  document.querySelectorAll("[data-size]").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.size === A11Y.size)));
+  document.querySelectorAll("[data-flag]").forEach(b => {
+    const on = !!A11Y[b.dataset.flag]; b.setAttribute("aria-pressed", String(on));
+    b.querySelector(".state").textContent = on ? "פעיל" : "כבוי";
+  });
+  store.set("a11y", A11Y);
+}
+function themeForWidgets(){ return document.documentElement.classList.contains("light") ? "light" : "dark"; }
+
+/* ================= TradingView widgets ================= */
 function widget(el, file, config){
   el.innerHTML = "";
   const box = document.createElement("div"); box.className = "tradingview-widget-container"; box.style.height = "100%";
@@ -139,72 +329,95 @@ function widget(el, file, config){
   box.append(inner, s); el.append(box);
 }
 function showChart(t){
-  document.getElementById("chartSym").textContent = t;
-  widget(document.getElementById("chart"), "embed-widget-advanced-chart.js", {
-    symbol: tv(t), interval: "60", timezone: "Asia/Jerusalem", theme: "dark", style: "1", locale: "he_IL",
-    autosize: true, hide_side_toolbar: true, allow_symbol_change: true, backgroundColor: "#121826", gridColor: "rgba(35,44,64,.6)"});
+  CHART_SYM = t; $("chartSym").textContent = t;
+  const light = themeForWidgets() === "light";
+  widget($("chart"), "embed-widget-advanced-chart.js", {
+    symbol: tv(t), interval: "60", timezone: "Asia/Jerusalem", theme: themeForWidgets(), style: "1", locale: "he_IL",
+    autosize: true, hide_side_toolbar: true, allow_symbol_change: true,
+    backgroundColor: light ? "#ffffff" : "#121826", gridColor: light ? "rgba(214,220,231,.6)" : "rgba(35,44,64,.6)"});
+  $("chart").setAttribute("aria-label", `גרף מחיר חי של ${t}`);
 }
 function initWidgets(){
-  widget(document.getElementById("tape"), "embed-widget-ticker-tape.js", {
+  const theme = themeForWidgets();
+  widget($("tape"), "embed-widget-ticker-tape.js", {
     symbols: ["SPY","QQQ","USO","GLD","XLE","LMT","DAL","TSM","TLT","EEM"].map(t => ({proName: tv(t), title: t})),
-    colorTheme: "dark", isTransparent: true, displayMode: "adaptive", locale: "he_IL", showSymbolLogo: false});
+    colorTheme: theme, isTransparent: true, displayMode: "adaptive", locale: "he_IL", showSymbolLogo: false});
   const tab = (title, list) => ({title, symbols: list.map(t => ({s: tv(t), d: t}))});
-  widget(document.getElementById("overview"), "embed-widget-market-overview.js", {
-    colorTheme: "dark", dateRange: "1D", showChart: true, locale: "he_IL", isTransparent: true, width: "100%", height: "100%",
+  widget($("overview"), "embed-widget-market-overview.js", {
+    colorTheme: theme, dateRange: "1D", showChart: true, locale: "he_IL", isTransparent: true, width: "100%", height: "100%",
     showSymbolLogo: false, plotLineColorGrowing: "#22c55e", plotLineColorFalling: "#ef4444",
     tabs: [tab("מדדים", ["SPY","QQQ","EEM","FXI","TLT"]), tab("אנרגיה", ["XLE","XOM","CVX","USO","UNG"]),
            tab("ביטחון", ["LMT","RTX","NOC"]), tab("תעופה וספנות", ["DAL","UAL","ZIM","FDX"]),
            tab("שבבים", ["TSM","NVDA","ASML"]), tab("סחורות", ["GLD","WEAT","CORN","FCX"])]});
-  showChart("SPY");
+  showChart(CHART_SYM);
 }
 
+/* ================= rendering ================= */
 function fmtTime(a){
   const d = a.time ? new Date(a.time) : new Date(a.ts * 1000);
   return d.toLocaleString("he-IL", {timeZone: "Asia/Jerusalem", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
 }
-function impactsOf(a){ return (a.impacts || []).filter(i => i.ticker); }
-function evaluated(){ return ALERTS.flatMap(a => impactsOf(a).filter(i => typeof i.hit === "boolean").map(i => ({...i, cat: a.category}))); }
+const sevClass = s => s >= 8 ? "s8" : s >= 6 ? "s6" : "s0";
+const impactsOf = a => (a.impacts || []).filter(i => i.ticker);
+const evaluated = () => ALERTS.flatMap(a => impactsOf(a).filter(i => typeof i.hit === "boolean").map(i => ({...i, cat: a.category})));
+const sorted = () => [...ALERTS].sort((a, b) => b.ts - a.ts);
+const unread = () => ALERTS.filter(a => a.ts > lastSeen);
 
 function renderKpis(){
-  const now = Date.now()/1000;
-  document.getElementById("kTotal").textContent = ALERTS.length;
-  document.getElementById("k24").textContent = ALERTS.filter(a => now - a.ts < 86400).length;
+  const now = Date.now() / 1000;
+  $("kTotal").textContent = ALERTS.length;
+  $("k24").textContent = ALERTS.filter(a => now - a.ts < 86400).length;
   const ev = evaluated();
   if (ev.length){
     const hits = ev.filter(i => i.hit).length;
-    document.getElementById("kHit").textContent = Math.round(hits / ev.length * 100) + "%";
-    document.getElementById("kHitHint").textContent = `${hits} מתוך ${ev.length} תחזיות`;
+    $("kHit").textContent = Math.round(hits / ev.length * 100) + "%";
+    $("kHitHint").textContent = `${hits} מתוך ${ev.length} תחזיות`;
     const signed = ev.map(i => (i.direction === "up" ? 1 : -1) * (i.change_24h_pct || 0));
     const avg = signed.reduce((x, y) => x + y, 0) / signed.length;
-    const el = document.getElementById("kAvg");
-    el.innerHTML = `<span class="mono ${avg >= 0 ? "up" : "down"}">${avg >= 0 ? "+" : ""}${avg.toFixed(2)}%</span>`;
+    $("kAvg").innerHTML = `<span class="mono ${avg >= 0 ? "up" : "down"}">${avg >= 0 ? "+" : ""}${avg.toFixed(2)}%</span>`;
   } else {
-    document.getElementById("kHit").textContent = "–";
-    document.getElementById("kHitHint").textContent = "יתמלא 24 שעות אחרי ההתראה הראשונה";
+    $("kHit").textContent = "–"; $("kAvg").textContent = "–";
+    $("kHitHint").textContent = "יתמלא 24 שעות אחרי ההתראה הראשונה";
   }
+}
+
+function renderSidebar(){
+  const n = unread().length;
+  [$("badge"), $("badgeTop")].forEach(b => { b.hidden = !n; b.textContent = n; b.setAttribute("aria-label", `${n} התראות חדשות`); });
+  $("markRead").hidden = !n;
+  const list = sorted().slice(0, 12);
+  if (!list.length){ $("live").innerHTML = `<li class="side-empty">עוד אין התראות. המערכת סורקת ברקע ותציג כאן כל אירוע משמעותי.</li>`; return; }
+  $("live").innerHTML = list.map(a => {
+    const isNew = a.ts > lastSeen;
+    const tks = impactsOf(a).slice(0, 4).map(i =>
+      `<span class="mono ${i.direction === "up" ? "up" : "down"}">${i.direction === "up" ? "▲" : "▼"}${esc(i.ticker)}</span>`).join("");
+    const label = `${isNew ? "חדש: " : ""}${a.title}, חומרה ${a.severity} מתוך 10, ${fmtTime(a)}`;
+    return `<li><button type="button" data-goto="${esc(alertId(a))}" aria-label="${esc(label)}">
+      <div class="t"><span class="sev ${sevClass(a.severity)}" aria-hidden="true"></span><span>${esc(a.title)}</span>${isNew ? `<span class="new" aria-hidden="true">חדש</span>` : ""}</div>
+      <div class="m" aria-hidden="true">חומרה ${a.severity}/10 · ${fmtTime(a)}</div>
+      <div class="tks" aria-hidden="true">${tks}</div></button></li>`;
+  }).join("");
 }
 
 function renderFilters(){
   const present = [...new Set(ALERTS.map(a => a.category).filter(Boolean))];
   const opts = [["all", "הכול"], ["high", "🔴 חומרה 8+"], ...present.map(c => [c, (CATS[c] || ["📰", c]).join(" ")])];
-  document.getElementById("filters").innerHTML = opts.map(([k, l]) =>
-    `<button class="chip ${FILTER === k ? "on" : ""}" data-f="${esc(k)}">${esc(l)}</button>`).join("");
+  $("filters").innerHTML = opts.map(([k, l]) =>
+    `<button type="button" class="chip" data-f="${esc(k)}" aria-pressed="${FILTER === k}">${esc(l)}</button>`).join("");
 }
 
 function renderFeed(){
-  let list = [...ALERTS].sort((a, b) => b.ts - a.ts);
+  let list = sorted();
   if (FILTER === "high") list = list.filter(a => a.severity >= 8);
   else if (FILTER !== "all") list = list.filter(a => a.category === FILTER);
-  document.getElementById("feedCount").textContent = `${list.length} התראות`;
-  const feed = document.getElementById("feed");
+  $("feedCount").textContent = `${list.length} התראות`;
   if (!list.length){
-    feed.innerHTML = `<div class="empty">${ALERTS.length ? "אין התראות בסינון הזה" :
-      "עוד אין התראות. זה תקין: המערכת סורקת כל 30 דקות ומתריעה רק על אירועים משמעותיים (חומרה 6 ומעלה)."}</div>`;
+    $("feed").innerHTML = `<div class="empty">${ALERTS.length ? "אין התראות בסינון הזה" :
+      "עוד אין התראות. זה תקין: המערכת סורקת ברקע ומתריעה רק על אירועים משמעותיים (חומרה 6 ומעלה)."}</div>`;
     return;
   }
-  feed.innerHTML = list.map(a => {
+  $("feed").innerHTML = list.map(a => {
     const [icon, catName] = CATS[a.category] || ["📰", a.category || ""];
-    const sClass = a.severity >= 8 ? "s8" : a.severity >= 6 ? "s6" : "s0";
     const imps = impactsOf(a).map(i => {
       const up = i.direction === "up";
       let res = `<span class="res wait">ממתין לבדיקה</span>`;
@@ -212,61 +425,168 @@ function renderFeed(){
         const c = i.change_24h_pct ?? 0;
         res = `<span class="res ${i.hit ? "hit" : "miss"}">${i.hit ? "✓ צדק" : "✗ טעה"} · <span class="mono">${c >= 0 ? "+" : ""}${c.toFixed(2)}%</span></span>`;
       }
-      const price = i.price_at_alert ? `<span class="mono" style="color:var(--muted);font-size:12px">$${(+i.price_at_alert).toFixed(2)}</span>` : "";
-      return `<div class="imp"><span class="${up ? "up" : "down"}">${up ? "▲" : "▼"}</span>
-        <button class="tk mono" data-t="${esc(i.ticker)}">${esc(i.ticker)}</button>${price}
+      const price = i.price_at_alert ? `<span class="mono" style="color:var(--muted);font-size:.75rem">$${(+i.price_at_alert).toFixed(2)}</span>` : "";
+      return `<div class="imp"><span class="${up ? "up" : "down"}" aria-hidden="true">${up ? "▲" : "▼"}</span>
+        <span class="sr-only">${up ? "צפי לעלייה:" : "צפי לירידה:"}</span>
+        <button type="button" class="tk mono" data-t="${esc(i.ticker)}" aria-label="הצג גרף של ${esc(i.ticker)}">${esc(i.ticker)}</button>${price}
         <span>${esc(i.reason || "")}</span>${res}</div>`;
     }).join("");
     const srcs = (a.sources || []).slice(0, 3).map((s, n) => {
       const url = typeof s === "string" ? s : s.url, name = typeof s === "string" ? `מקור ${n + 1}` : s.name;
-      return /^https?:\/\//.test(url || "") ? `<a href="${esc(url)}" target="_blank" rel="noopener">🔗 ${esc(name)}</a>` : "";
+      return /^https?:\/\//.test(url || "") ? `<a href="${esc(url)}" target="_blank" rel="noopener">🔗 ${esc(name)}<span class="sr-only"> (נפתח בחלון חדש)</span></a>` : "";
     }).join("");
-    return `<div class="alert ${sClass}">
-      <div class="a-top"><div class="a-title">${icon} ${esc(a.title)}</div><div class="a-meta">חומרה ${a.severity}/10 · ${fmtTime(a)}</div></div>
+    return `<article class="alert ${sevClass(a.severity)}" id="a-${esc(alertId(a)).replace(/[^\w-]/g, "_")}" tabindex="-1" aria-label="${esc(catName)}: ${esc(a.title)}">
+      <div class="a-top"><h3 class="a-title">${icon} ${esc(a.title)}</h3><div class="a-meta">חומרה ${a.severity}/10 · ${fmtTime(a)}</div></div>
       ${a.summary ? `<div class="a-sum">${esc(a.summary)}</div>` : ""}
-      ${imps}${srcs ? `<div class="src">${srcs}</div>` : ""}</div>`;
+      ${imps}${srcs ? `<div class="src">${srcs}</div>` : ""}</article>`;
   }).join("");
 }
 
 function renderByCat(){
-  const ev = evaluated(), box = document.getElementById("byCat");
+  const ev = evaluated(), box = $("byCat");
   if (!ev.length){ box.innerHTML = `<div class="empty">יתמלא אחרי שההתראות הראשונות ייבדקו (24 שעות אחרי כל אחת)</div>`; return; }
   const g = {};
   ev.forEach(i => { const k = i.cat || "other"; (g[k] ||= {n: 0, h: 0}); g[k].n++; if (i.hit) g[k].h++; });
-  box.innerHTML = `<table><tr><th>סוג אירוע</th><th>תחזיות</th><th>צדק</th><th></th></tr>` +
+  box.innerHTML = `<table><caption class="sr-only">אחוז הצלחה לפי סוג אירוע</caption><tr><th scope="col">סוג אירוע</th><th scope="col">תחזיות</th><th scope="col">צדק</th><th scope="col"><span class="sr-only">תרשים</span></th></tr>` +
     Object.entries(g).sort((a, b) => b[1].n - a[1].n).map(([k, v]) => {
       const p = Math.round(v.h / v.n * 100);
       return `<tr><td>${(CATS[k] || ["📰", k]).join(" ")}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td>
-        <td><div class="bar"><i style="width:${p}%"></i></div></td></tr>`;
+        <td aria-hidden="true"><div class="bar"><i style="width:${p}%"></i></div></td></tr>`;
     }).join("") + `</table>`;
 }
 
+/* ================= new-alert popups ================= */
+function toast(a){
+  const box = document.createElement("div"); box.className = "toast"; box.setAttribute("role", "status");
+  box.style.borderRightColor = a.severity >= 8 ? "var(--red)" : "var(--orange)";
+  const tks = impactsOf(a).slice(0, 4).map(i => `${i.direction === "up" ? "▲" : "▼"}${i.ticker}`).join("  ");
+  box.innerHTML = `<b>🚨 התראה חדשה · חומרה ${a.severity}/10</b>${esc(a.title)}<div class="mono" style="font-size:.8rem;margin-top:.2rem">${esc(tks)}</div>
+    <div class="row"><button type="button" data-goto="${esc(alertId(a))}">הצג</button><button type="button" data-dismiss>סגור</button></div>`;
+  $("toasts").prepend(box);
+  setTimeout(() => box.remove(), 20000);
+}
+function browserNotify(a){
+  if (!store.get("notify", false) || !("Notification" in window) || Notification.permission !== "granted") return;
+  try {
+    const n = new Notification(`🚨 מכ"ם השוק · חומרה ${a.severity}/10`, {
+      body: `${a.title}\n${impactsOf(a).map(i => (i.direction === "up" ? "▲" : "▼") + i.ticker).join(" ")}`, tag: alertId(a)});
+    n.onclick = () => { window.focus(); goTo(alertId(a)); };
+  } catch {}
+}
+function updateNotifyBtn(){
+  const on = store.get("notify", false) && "Notification" in window && Notification.permission === "granted";
+  $("notifyBtn").setAttribute("aria-pressed", String(on));
+  $("notifyLabel").textContent = on ? "הקפצת התראות במחשב: פעיל" : "הקפץ התראות במחשב";
+  if (!("Notification" in window)) $("notifyBtn").hidden = true;
+}
+
+/* ================= navigation ================= */
+function goTo(id){
+  closeMenu();
+  if (FILTER !== "all"){ FILTER = "all"; renderFilters(); renderFeed(); }
+  const el = document.getElementById("a-" + id.replace(/[^\w-]/g, "_"));
+  if (!el) return;
+  el.scrollIntoView({block: "center"});
+  el.focus({preventScroll: true});
+  el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+}
+function markAllRead(){
+  lastSeen = Math.max(lastSeen, ...ALERTS.map(a => a.ts), Math.floor(Date.now() / 1000));
+  store.set("lastSeen", lastSeen); renderSidebar();
+  $("srStatus").textContent = "כל ההתראות סומנו כנקראו";
+}
+function openMenu(){ $("side").classList.add("open"); $("menuBtn").setAttribute("aria-expanded", "true"); $("side").querySelector("a,button").focus(); }
+function closeMenu(){ if (!$("side").classList.contains("open")) return; $("side").classList.remove("open"); $("menuBtn").setAttribute("aria-expanded", "false"); }
+
+let a11yReturn = null;
+function openA11y(from){
+  a11yReturn = from || document.activeElement;
+  $("a11y").classList.add("open"); $("a11yBackdrop").classList.add("open"); $("a11yClose").focus();
+}
+function closeA11y(){
+  $("a11y").classList.remove("open"); $("a11yBackdrop").classList.remove("open");
+  if (a11yReturn) a11yReturn.focus();
+}
+
+/* ================= loading ================= */
 async function load(){
   const bust = "?t=" + Date.now();
   try {
     const r = await fetch("alerts.json" + bust, {cache: "no-store"});
     ALERTS = r.ok ? await r.json() : [];
+    if (!Array.isArray(ALERTS)) ALERTS = [];
   } catch { ALERTS = []; }
   try {
     const s = await (await fetch("state.json" + bust, {cache: "no-store"})).json();
-    const last = new Date(s.last_run);
-    const mins = Math.round((Date.now() - last) / 60000);
-    document.getElementById("dot").className = "dot " + (mins < 75 ? "ok" : "stale");
-    document.getElementById("statusText").textContent =
-      `סריקה אחרונה: ${last.toLocaleTimeString("he-IL", {timeZone: "Asia/Jerusalem", hour: "2-digit", minute: "2-digit"})} (לפני ${mins} דק')`;
-  } catch {
-    document.getElementById("statusText").textContent = "ממתין לסריקה ראשונה";
-  }
-  renderKpis(); renderFilters(); renderFeed(); renderByCat();
+    const last = new Date(s.last_run), mins = Math.round((Date.now() - last) / 60000);
+    $("dot").className = "dot " + (mins < 75 ? "ok" : "stale");
+    $("statusText").textContent = `סריקה אחרונה לפני ${mins} דק'`;
+    $("statusText").title = last.toLocaleString("he-IL", {timeZone: "Asia/Jerusalem"});
+  } catch { $("statusText").textContent = "ממתין לסריקה ראשונה"; }
+
+  // pop-ups only for alerts that appear while the page is open
+  const fresh = ALERTS.filter(a => !KNOWN.has(alertId(a)));
+  if (!FIRST_LOAD) fresh.sort((a, b) => a.ts - b.ts).forEach(a => { toast(a); browserNotify(a); });
+  ALERTS.forEach(a => KNOWN.add(alertId(a)));
+  if (!FIRST_LOAD && fresh.length) $("srStatus").textContent = `${fresh.length} התראות חדשות הגיעו`;
+  FIRST_LOAD = false;
+
+  renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat();
 }
 
+/* ================= events ================= */
 document.addEventListener("click", e => {
-  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); document.getElementById("chart").scrollIntoView({behavior: "smooth", block: "center"}); return; }
-  const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); }
+  if ($("side").classList.contains("open") && !e.target.closest("#side") && !e.target.closest("#menuBtn")) closeMenu();
+  const g = e.target.closest("[data-goto]"); if (g){ goTo(g.dataset.goto); const t = g.closest(".toast"); if (t) t.remove(); return; }
+  if (e.target.closest("[data-dismiss]")){ e.target.closest(".toast").remove(); return; }
+  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); $("live-chart").scrollIntoView({block: "start"}); $("chartHead").setAttribute("tabindex", "-1"); $("chartHead").focus({preventScroll: true}); return; }
+  const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); return; }
+  const sz = e.target.closest("[data-size]"); if (sz){ A11Y.size = +sz.dataset.size; applyA11y(); return; }
+  const fl = e.target.closest("[data-flag]");
+  if (fl){
+    const k = fl.dataset.flag, before = themeForWidgets();
+    A11Y[k] = !A11Y[k];
+    if (k === "contrast" && A11Y.contrast) A11Y.light = false;
+    if (k === "light" && A11Y.light) A11Y.contrast = false;
+    applyA11y();
+    if (themeForWidgets() !== before) initWidgets();
+    return;
+  }
+  if (e.target.closest("nav.menu a")) closeMenu();
 });
+$("markRead").addEventListener("click", markAllRead);
+$("menuBtn").addEventListener("click", () => $("side").classList.contains("open") ? closeMenu() : openMenu());
+$("a11yBtn").addEventListener("click", e => openA11y(e.currentTarget));
+$("a11yBtnTop").addEventListener("click", e => openA11y(e.currentTarget));
+$("a11yClose").addEventListener("click", closeA11y);
+$("a11yBackdrop").addEventListener("click", closeA11y);
+$("a11yReset").addEventListener("click", () => { const before = themeForWidgets(); A11Y = {size: 100}; applyA11y(); if (themeForWidgets() !== before) initWidgets(); });
+$("notifyBtn").addEventListener("click", async () => {
+  if (!("Notification" in window)) return;
+  if (store.get("notify", false) && Notification.permission === "granted"){ store.set("notify", false); updateNotifyBtn(); return; }
+  let p = Notification.permission;
+  if (p === "default") { try { p = await Notification.requestPermission(); } catch {} }
+  store.set("notify", p === "granted");
+  updateNotifyBtn();
+  if (p === "denied") $("srStatus").textContent = "הדפדפן חוסם התראות. אפשר לאשר אותן בהגדרות האתר בדפדפן.";
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape"){
+    if ($("a11y").classList.contains("open")) closeA11y();
+    else if ($("side").classList.contains("open")){ closeMenu(); $("menuBtn").focus(); }
+  }
+  if (e.key === "Tab" && $("a11y").classList.contains("open")){  // keep focus inside the dialog
+    const f = [...$("a11y").querySelectorAll("button")]; const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  }
+});
+
+applyA11y();
+updateNotifyBtn();
 initWidgets();
 load();
-setInterval(load, 5 * 60 * 1000);
+setInterval(load, 2 * 60 * 1000);
 </script>
 </body>
 </html>
