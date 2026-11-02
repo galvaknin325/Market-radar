@@ -133,6 +133,9 @@
   .res.hit{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
   .res.miss{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
   .res.wait{background:var(--panel2);color:var(--muted)}
+  .upd{font-size:.8rem;margin-top:.4rem;color:var(--muted)}
+  .upd summary{cursor:pointer;color:var(--accent);font-weight:600}
+  .upd ul{margin:.35rem 0 0;padding-inline-start:1.1rem} .upd li{margin:.15rem 0}
   .src{font-size:.78rem;margin-top:.35rem} .src a{text-decoration:none;margin-inline-end:.7rem}
   .empty{padding:2.5rem 1.25rem;text-align:center;color:var(--muted)}
   table{width:100%;border-collapse:collapse;font-size:.88rem}
@@ -268,6 +271,8 @@
           <section class="card" id="accuracy" aria-labelledby="accHead">
             <h2 id="accHead"><span data-i18n="acc_head"></span><small data-i18n="acc_hint"></small></h2>
             <div id="byCat"></div>
+            <div id="bySev"></div>
+            <p class="guide-sub" style="padding:.6rem 1rem 1rem" data-i18n="acc_note"></p>
           </section>
         </div>
       </div>
@@ -340,6 +345,7 @@ const T = (k, ...args) => { const v = (I18N[LANG] || I18N.he)[k] ?? I18N.he[k]; 
 // text of an alert field in the current language, falling back to Hebrew
 const L = (obj, fallback) => (obj && (obj[LANG] || obj.he)) || fallback || "";
 
+let STATS = null;
 let ALERTS = [], FILTER = "all", CHART_SYM = "SPY", FIRST_LOAD = true, KNOWN = new Set();
 let lastSeen = store.get("lastSeen", 0);
 let SIMPLE = store.get("simple", true);
@@ -435,24 +441,27 @@ const sevClass = s => s >= 8 ? "s8" : s >= 6 ? "s6" : s >= 4 ? "s4" : "s0";
 const sevWord = s => T("sev_words")[s >= 8 ? 3 : s >= 6 ? 2 : s >= 4 ? 1 : 0];
 const sevText = s => T("sev_label", sevWord(s), s);
 const impactsOf = a => (a.impacts || []).filter(i => i.ticker);
-const evaluated = () => ALERTS.flatMap(a => impactsOf(a).filter(i => typeof i.hit === "boolean").map(i => ({...i, cat: a.category})));
-const sorted = () => [...ALERTS].sort((a, b) => b.ts - a.ts);
-const unread = () => ALERTS.filter(a => a.ts > lastSeen);
+const act = a => a.last_update || a.ts;
+const sorted = () => [...ALERTS].sort((a, b) => act(b) - act(a));
+const unread = () => ALERTS.filter(a => act(a) > lastSeen);
 const titleOf = a => L(a.i18n && a.i18n.title, a.title);
 const catName = c => (T("cats") || {})[c] || c || "";
 
+function overall(){
+  if (STATS && STATS.overall) return STATS.overall;
+  const p = ALERTS.flatMap(a => impactsOf(a)).filter(i => typeof i.hit === "boolean");
+  return {n: p.length, hits: p.filter(i => i.hit).length, avg_edge: p.length ? p.reduce((x, i) => x + (i.edge_pct || 0), 0) / p.length : null};
+}
+function pct(v){ return `${v >= 0 ? "+" : ""}${(+v).toFixed(2)}%`; }
 function renderKpis(){
   const now = Date.now() / 1000;
-  $("kTotal").textContent = ALERTS.length;
+  $("kTotal").textContent = STATS ? STATS.total_alerts : ALERTS.length;
   $("k24").textContent = ALERTS.filter(a => now - a.ts < 86400).length;
-  const ev = evaluated();
-  if (ev.length){
-    const hits = ev.filter(i => i.hit).length;
-    $("kHit").textContent = Math.round(hits / ev.length * 100) + "%";
-    $("kHitHint").textContent = T("k_hit_h", hits, ev.length);
-    const signed = ev.map(i => (i.direction === "up" ? 1 : -1) * (i.change_24h_pct || 0));
-    const avg = signed.reduce((x, y) => x + y, 0) / signed.length;
-    $("kAvg").innerHTML = `<span class="mono ${avg >= 0 ? "up" : "down"}">${avg >= 0 ? "+" : ""}${avg.toFixed(2)}%</span>`;
+  const o = overall();
+  if (o.n){
+    $("kHit").textContent = Math.round(o.hits / o.n * 100) + "%";
+    $("kHitHint").textContent = T("k_hit_h", o.hits, o.n);
+    $("kAvg").innerHTML = `<span class="mono ${o.avg_edge >= 0 ? "up" : "down"}">${pct(o.avg_edge)}</span>`;
   } else {
     $("kHit").textContent = "–"; $("kAvg").textContent = "–"; $("kHitHint").textContent = T("k_hit_wait");
   }
@@ -465,7 +474,7 @@ function renderSidebar(){
   const list = sorted().slice(0, 15);
   if (!list.length){ $("live").innerHTML = `<li class="side-empty">${esc(T("live_empty"))}</li>`; return; }
   $("live").innerHTML = list.map(a => {
-    const isNew = a.ts > lastSeen, title = titleOf(a);
+    const isNew = act(a) > lastSeen, title = titleOf(a);
     const tks = impactsOf(a).slice(0, 4).map(i =>
       `<span class="mono ${i.direction === "up" ? "up" : "down"}">${i.direction === "up" ? "▲" : "▼"}${esc(i.ticker)}</span>`).join("");
     const label = `${isNew ? T("new") + ": " : ""}${title}, ${sevText(a.severity)}, ${fmtTime(a)}`;
@@ -483,6 +492,13 @@ function renderFilters(){
     `<button type="button" class="chip" data-f="${esc(k)}" aria-pressed="${FILTER === k}">${esc(l)}</button>`).join("");
 }
 
+function updatesBlock(a){
+  const u = a.updates || [];
+  if (!u.length) return "";
+  const items = [...u].reverse().map(x => `<li><span class="mono">${fmtTime(x)}</span> · ${esc(sevText(x.severity))} · ${esc(L(x.i18n, x.summary))}</li>`).join("");
+  return `<details class="upd"><summary>${esc(T("updated_n", u.length))}</summary><ul aria-label="${esc(T("updates_title"))}">${items}</ul></details>`;
+}
+
 function renderFeed(){
   let list = sorted();
   if (FILTER === "high") list = list.filter(a => a.severity >= 8);
@@ -496,8 +512,9 @@ function renderFeed(){
       const up = i.direction === "up";
       let res = `<span class="res wait">${esc(T("waiting"))}</span>`;
       if (typeof i.hit === "boolean"){
-        const c = i.change_24h_pct ?? 0;
-        res = `<span class="res ${i.hit ? "hit" : "miss"}">${esc(i.hit ? T("hit") : T("miss"))} · <span class="mono">${c >= 0 ? "+" : ""}${c.toFixed(2)}%</span></span>`;
+        const c = i.change_pct ?? i.change_24h_pct ?? 0;
+        const m = i.bench ? ` <span style="opacity:.8">(${esc(T("vs_market", "").trim())} <span class="mono">${pct(i.bench_change_pct || 0)}</span>)</span>` : "";
+        res = `<span class="res ${i.hit ? "hit" : "miss"}">${esc(i.hit ? T("hit") : T("miss"))} · <span class="mono">${pct(c)}</span>${m}</span>`;
       }
       const name = L(i.name_i18n, "");
       const reason = L(i.reason_i18n, i.reason);
@@ -516,24 +533,26 @@ function renderFeed(){
     }).join("");
     return `<article class="alert ${sevClass(a.severity)}" id="${esc(domId(a))}" tabindex="-1" aria-label="${esc(catName(a.category))}: ${esc(title)}">
       <div class="a-top"><h3 class="a-title">${CAT_ICON[a.category] || "📰"} ${esc(title)}</h3>
-        <div class="a-meta"><span class="sevtag ${sevClass(a.severity)}">${esc(sevText(a.severity))}</span>${fmtTime(a)}</div></div>
+        <div class="a-meta"><span class="sevtag ${sevClass(a.severity)}">${esc(sevText(a.severity))}</span>${fmtTime(a)}${a.updates && a.updates.length ? " · 🔄" : ""}</div></div>
       ${SIMPLE && kid ? `<div class="kid"><b>🧒 ${esc(T("simply"))}:</b> ${esc(kid)}</div>` : ""}
       ${summary && (!SIMPLE || !kid) ? `<div class="a-sum">${esc(summary)}</div>` : ""}
-      ${imps}${srcs ? `<div class="src">${srcs}</div>` : ""}</article>`;
+      ${imps}${updatesBlock(a)}${srcs ? `<div class="src">${srcs}</div>` : ""}</article>`;
   }).join("");
 }
 
+function statTable(rows, head, labelOf){
+  return `<table><caption class="sr-only">${esc(head)}</caption><tr><th scope="col">${esc(head)}</th><th scope="col">${esc(T("th_preds"))}</th><th scope="col">${esc(T("th_right"))}</th><th scope="col"><span class="sr-only">${esc(T("th_chart"))}</span></th></tr>` +
+    rows.map(([k, v]) => { const p = Math.round(v.hits / v.n * 100);
+      return `<tr><td>${labelOf(k)}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td><td aria-hidden="true"><div class="bar"><i style="width:${p}%"></i></div></td></tr>`; }).join("") + `</table>`;
+}
 function renderByCat(){
-  const ev = evaluated(), box = $("byCat");
-  if (!ev.length){ box.innerHTML = `<div class="empty">${esc(T("acc_empty"))}</div>`; return; }
-  const g = {};
-  ev.forEach(i => { const k = i.cat || "other"; (g[k] ||= {n: 0, h: 0}); g[k].n++; if (i.hit) g[k].h++; });
-  box.innerHTML = `<table><caption class="sr-only">${esc(T("acc_caption"))}</caption><tr><th scope="col">${esc(T("th_type"))}</th><th scope="col">${esc(T("th_preds"))}</th><th scope="col">${esc(T("th_right"))}</th><th scope="col"><span class="sr-only">${esc(T("th_chart"))}</span></th></tr>` +
-    Object.entries(g).sort((a, b) => b[1].n - a[1].n).map(([k, v]) => {
-      const p = Math.round(v.h / v.n * 100);
-      return `<tr><td>${CAT_ICON[k] || "📰"} ${esc(catName(k))}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td>
-        <td aria-hidden="true"><div class="bar"><i style="width:${p}%"></i></div></td></tr>`;
-    }).join("") + `</table>`;
+  const cat = STATS && STATS.by_category ? Object.entries(STATS.by_category).filter(([, v]) => v.n) : [];
+  const sev = STATS && STATS.by_severity ? Object.entries(STATS.by_severity).filter(([, v]) => v.n) : [];
+  if (!cat.length){ $("byCat").innerHTML = `<div class="empty">${esc(T("acc_empty"))}</div>`; $("bySev").innerHTML = ""; return; }
+  $("byCat").innerHTML = statTable(cat.sort((a, b) => b[1].n - a[1].n), T("th_type"), k => `${CAT_ICON[k] || "📰"} ${esc(catName(k))}`);
+  const words = T("sev_words"), idx = {"1-3": 0, "4-5": 1, "6-7": 2, "8-10": 3};
+  $("bySev").innerHTML = `<h3 class="guide-sub" style="font-weight:700">${esc(T("acc_by_sev"))}</h3>` +
+    statTable(sev, T("th_size"), k => `${esc(words[idx[k]])} <span class="mono" style="color:var(--muted)">(${k})</span>`);
 }
 
 function renderAll(){ renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); }
@@ -574,7 +593,7 @@ function goTo(id){
   el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
 }
 function markAllRead(){
-  lastSeen = Math.max(lastSeen, ...ALERTS.map(a => a.ts), Math.floor(Date.now() / 1000));
+  lastSeen = Math.max(lastSeen, ...ALERTS.map(act), Math.floor(Date.now() / 1000));
   store.set("lastSeen", lastSeen); renderSidebar();
   $("srStatus").textContent = T("marked_read");
 }
@@ -600,6 +619,7 @@ async function load(){
     ALERTS = r.ok ? await r.json() : [];
     if (!Array.isArray(ALERTS)) ALERTS = [];
   } catch { ALERTS = []; }
+  try { const r = await fetch("stats.json" + bust, {cache: "no-store"}); STATS = r.ok ? await r.json() : null; } catch { STATS = null; }
   try { LAST_RUN = new Date((await (await fetch("state.json" + bust, {cache: "no-store"})).json()).last_run); if (isNaN(LAST_RUN)) LAST_RUN = null; }
   catch { LAST_RUN = null; }
   renderStatus();

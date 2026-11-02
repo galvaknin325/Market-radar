@@ -240,8 +240,14 @@ Merge headlines about the same event into one event. For each event return:
   but any valid ticker is allowed:
   WATCHLIST
 - confidence: "low", "medium" or "high"
+- same_as: if the event is the same ongoing story as one of the ALREADY REPORTED alerts
+  below, put that alert's id here (it will be added as an update, not a new alert);
+  otherwise null. Use it for continuations and follow-ups of the same story only.
 Return at most 12 events (the most market-relevant ones). Never give buy/sell advice.
 Return JSON: {"events": [...]} (empty list if nothing qualifies).
+
+ALREADY REPORTED in the last 36 hours (id: title):
+RECENT
 
 Headlines:
 HEADLINES
@@ -272,11 +278,12 @@ def gemini_models():
     return (lite + flash)[:6] or ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
 
-def analyse(headlines):
+def analyse(headlines, recent=()):
     lines = "\n".join(f"{i}. [{h['source']}] {h['title']}" + (f" — {h['summary'][:160]}" if h["summary"] else "")
                       for i, h in enumerate(headlines))
     wl = ", ".join(f"{k} ({v})" for k, v in WATCHLIST.items())
-    prompt = PROMPT.replace("WATCHLIST", wl).replace("HEADLINES", lines)
+    rec = "\n".join(f"{a['id']}: {a.get('title', '')}" for a in sorted(recent, key=lambda x: -x["ts"])[:40]) or "(none)"
+    prompt = PROMPT.replace("WATCHLIST", wl).replace("RECENT", rec).replace("HEADLINES", lines)
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 16000}}
     last_err = None
@@ -400,35 +407,277 @@ def format_digest(events):
     return "\n".join(lines)
 
 
-# ---------------------------------------------------------------- 5. evaluate
+# ---------------------------------------------------------------- 5. evaluate (fair check vs the market)
+EVAL_GIVE_UP_DAYS = 10
+BROAD = {"SPY", "VOO", "IVV", "TA35.TA"}          # an index itself: compare raw move, not vs itself
+
+
+def bench_for(ticker):
+    return "TA35.TA" if ticker.upper().endswith(".TA") else "SPY"
+
+
+_BARS = {}
+
+
+def get_bars(ticker, start):
+    """Hourly bars [(utc_datetime, local_date, open, close)] from `start` (UTC datetime). Cached per run."""
+    key = (ticker, start.date())
+    if key in _BARS:
+        return _BARS[key]
+    bars = []
+    try:
+        import yfinance as yf
+        df = yf.Ticker(ticker).history(start=start.strftime("%Y-%m-%d"), interval="60m", prepost=False, auto_adjust=False)
+        for idx, row in df.iterrows():
+            if row["Open"] != row["Open"] or row["Close"] != row["Close"]:   # NaN
+                continue
+            bars.append((idx.tz_convert("UTC").to_pydatetime(), idx.date(), float(row["Open"]), float(row["Close"])))
+    except Exception as e:
+        log(f"price history failed for {ticker}: {e}")
+    _BARS[key] = bars
+    return bars
+
+
+def window(bars, t0):
+    """Entry = open of the first hourly bar starting at/after the alert (you can't trade before you know).
+    Exit = close of the last bar of the NEXT trading day after the entry day.
+    Returns (entry_price, entry_time, exit_price, exit_date) or None if not available yet."""
+    after = [b for b in bars if b[0] >= t0]
+    if not after:
+        return None
+    entry = after[0]
+    days = sorted({b[1] for b in bars if b[1] > entry[1]})
+    if not days:
+        return None
+    exit_day = days[0]
+    # only final once that trading day is over: a later trading day has started, or the exchange date moved on
+    last_bar = [b for b in bars if b[1] == exit_day][-1]
+    finished = len(days) > 1 or (dt.datetime.now(dt.timezone.utc) - last_bar[0]) > dt.timedelta(hours=8)
+    if not finished:
+        return None
+    return entry[2], entry[0], last_bar[3], exit_day
+
+
+def evaluate_impact(imp, t0_ts):
+    t0 = dt.datetime.fromtimestamp(t0_ts, dt.timezone.utc)
+    start = t0 - dt.timedelta(days=1)
+    tk = imp["ticker"]
+    w = window(get_bars(tk, start), t0)
+    if not w:
+        return False
+    bench = bench_for(tk)
+    entry_p, entry_t, exit_p, exit_day = w
+    chg = (exit_p / entry_p - 1) * 100
+    if tk.upper() in BROAD or tk.upper() == bench:
+        bchg = 0.0
+        bench = None
+    else:
+        bw = window(get_bars(bench, start), t0)
+        if not bw:
+            return False
+        bchg = (bw[2] / bw[0] - 1) * 100
+    sign = 1 if imp.get("direction") == "up" else -1
+    excess = chg - bchg
+    imp.update({
+        "entry_price": round(entry_p, 4), "entry_time": entry_t.isoformat(timespec="minutes"),
+        "exit_price": round(exit_p, 4), "exit_date": str(exit_day),
+        "change_pct": round(chg, 2), "bench": bench, "bench_change_pct": round(bchg, 2),
+        "excess_pct": round(excess, 2), "edge_pct": round(sign * excess, 2),
+        "hit": sign * excess > 0, "hit_raw": sign * chg > 0,
+    })
+    return True
+
+
 def evaluate(alerts):
-    """24h after an alert, record actual move of each ticker."""
     now = time.time()
     done = 0
     for a in alerts:
-        if a.get("evaluated") or now - a["ts"] < 24 * 3600:
+        if a.get("evaluated"):
             continue
-        for imp in a["impacts"]:
-            if imp.get("price_at_alert") and imp.get("price_24h") is None:
-                p = price_now(imp["ticker"])
-                if p:
-                    imp["price_24h"] = p
-                    chg = (p / imp["price_at_alert"] - 1) * 100
-                    imp["change_24h_pct"] = round(chg, 2)
-                    imp["hit"] = (chg > 0) == (imp["direction"] == "up")
-        a["evaluated"] = True
-        done += 1
+        pending = False
+        for imp in a.get("impacts", []):
+            if "hit" in imp or imp.get("no_data"):
+                continue
+            t0 = imp.get("t0") or a["ts"]
+            if now - t0 < 12 * 3600:          # too early to have a next-day close
+                pending = True
+                continue
+            if not evaluate_impact(imp, t0):
+                if now - t0 > EVAL_GIVE_UP_DAYS * 86400:
+                    imp["no_data"] = True
+                else:
+                    pending = True
+        if not pending:
+            a["evaluated"] = True
+            done += 1
     if done:
-        log(f"evaluated {done} old alerts")
+        log(f"evaluated {done} alerts")
+
+
+# ---------------------------------------------------------------- 6. archive & stats
+ARCHIVE_DIR = "archive"
+RECENT_DAYS = 7
+STATS_FILE = "stats.json"
+
+
+def alert_id(a):
+    return a.get("id") or hashlib.sha1(f"{a['ts']}|{a.get('title', '')}".encode()).hexdigest()[:12]
+
+
+def last_activity(a):
+    return a.get("last_update") or a["ts"]
+
+
+def archive_alerts(alerts):
+    """Upsert every alert into archive/YYYY-MM.json (kept forever)."""
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    by_month = {}
+    for a in alerts:
+        by_month.setdefault(dt.datetime.utcfromtimestamp(a["ts"]).strftime("%Y-%m"), []).append(a)
+    for month, items in by_month.items():
+        path = os.path.join(ARCHIVE_DIR, f"{month}.json")
+        cur = {x["id"]: x for x in load(path, []) if "id" in x}
+        for a in items:
+            cur[a["id"]] = a
+        save(path, sorted(cur.values(), key=lambda x: x["ts"]))
+
+
+def bucket(sev):
+    return "8-10" if sev >= 8 else "6-7" if sev >= 6 else "4-5" if sev >= 4 else "1-3"
+
+
+def build_stats():
+    allx = []
+    if os.path.isdir(ARCHIVE_DIR):
+        for f in sorted(os.listdir(ARCHIVE_DIR)):
+            if f.endswith(".json"):
+                allx += load(os.path.join(ARCHIVE_DIR, f), [])
+
+    def agg(preds):
+        n = len(preds)
+        return {"n": n, "hits": sum(1 for p in preds if p["hit"]),
+                "avg_edge": round(sum(p.get("edge_pct", 0) for p in preds) / n, 2) if n else None}
+
+    preds = [dict(p, cat=a.get("category"), sev=int(a.get("severity", 0) or 0))
+             for a in allx for p in a.get("impacts", []) if isinstance(p.get("hit"), bool)]
+    stats = {"generated": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
+             "first_alert": allx[0]["time"] if allx else None,
+             "total_alerts": len(allx), "overall": agg(preds),
+             "by_category": {c: agg([p for p in preds if p["cat"] == c]) for c in sorted({p["cat"] for p in preds if p["cat"]})},
+             "by_severity": {b: agg([p for p in preds if bucket(p["sev"]) == b]) for b in ("1-3", "4-5", "6-7", "8-10")}}
+    save(STATS_FILE, stats)
+    return stats
+
+
+# ---------------------------------------------------------------- 7. one scan
+def new_alert(ev, headlines, now):
+    sev = int(ev.get("severity", 0) or 0)
+    a = {
+        "ts": now, "time": dt.datetime.utcfromtimestamp(now).isoformat(timespec="minutes") + "Z",
+        "title": tr(ev.get("title") or ev.get("title_he")),
+        "summary": tr(ev.get("summary") or ev.get("summary_he")),
+        "kid": tr(ev.get("kid")),
+        "i18n": {"title": tri(ev.get("title")), "summary": tri(ev.get("summary")), "kid": tri(ev.get("kid"))},
+        "category": ev.get("category"), "severity": sev, "confidence": ev.get("confidence"),
+        "sources": sources_of(ev, headlines), "impacts": [impact_of(i, now) for i in ev.get("impacts", [])[:5]],
+    }
+    a["id"] = alert_id(a)
+    return a
+
+
+def sources_of(ev, headlines):
+    return [{"name": headlines[i]["source"], "url": headlines[i]["link"]}
+            for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)]
+
+
+def impact_of(i, now):
+    tk = str(i.get("ticker", "")).upper()
+    return {"ticker": tk, "direction": i.get("direction"), "t0": now,
+            "reason": tr(i.get("reason") or i.get("reason_he")),
+            "reason_i18n": tri(i.get("reason")), "name_i18n": tri(i.get("name")),
+            "price_at_alert": price_now(tk)}
+
+
+def merge_update(a, ev, headlines, now):
+    """Same ongoing story: add an update to the existing alert instead of a new one. Returns previous severity."""
+    sev = int(ev.get("severity", 0) or 0)
+    prev = int(a.get("severity", 0) or 0)
+    a.setdefault("updates", []).append({
+        "ts": now, "time": dt.datetime.utcfromtimestamp(now).isoformat(timespec="minutes") + "Z",
+        "severity": sev, "summary": tr(ev.get("summary")), "i18n": tri(ev.get("summary"))})
+    a["updates"] = a["updates"][-20:]
+    a["last_update"] = now
+    a["severity"] = max(prev, sev)
+    urls = {s["url"] for s in a.get("sources", []) if isinstance(s, dict)}
+    a.setdefault("sources", []).extend(s for s in sources_of(ev, headlines) if s["url"] not in urls)
+    a["sources"] = a["sources"][-6:]
+    have = {i["ticker"] for i in a.get("impacts", [])}
+    for i in ev.get("impacts", []):
+        if len(a["impacts"]) >= 8:
+            break
+        if str(i.get("ticker", "")).upper() not in have:
+            a["impacts"].append(impact_of(i, now))
+    return prev
+
+
+def scan(state, alerts, chat_id):
+    evaluate(alerts)
+    headlines = collect(set(state.get("seen", [])))
+    log(f"{len(headlines)} new headlines")
+    now = int(time.time())
+    recent = [a for a in alerts if now - last_activity(a) < 36 * 3600]
+    by_id = {a["id"]: a for a in alerts}
+    created, merged, model, digest = 0, 0, "-", []
+    if headlines:
+        events, model = analyse(headlines, recent)
+        for ev in sorted(events, key=lambda x: -int(x.get("severity", 0) or 0)):
+            sev = int(ev.get("severity", 0) or 0)
+            if not ev.get("impacts"):
+                continue
+            same = by_id.get(str(ev.get("same_as") or ""))
+            if same:
+                prev = merge_update(same, ev, headlines, now)
+                merged += 1
+                if sev >= 8 and sev > prev:
+                    send(chat_id, "🔺 <b>הסלמה באירוע קיים</b>\n" + format_alert(ev, headlines))
+                elif sev >= MIN_SEVERITY:
+                    ev["novelty"] = "update"
+                    digest.append(ev)
+                continue
+            # Every new event is saved and shown on the dashboard. On Telegram, important events
+            # get their own message; everything else goes into one digest per scan.
+            if sev >= MIN_SEVERITY and ev.get("novelty") != "update" or sev >= 8:
+                send(chat_id, format_alert(ev, headlines))
+            else:
+                digest.append(ev)
+            a = new_alert(ev, headlines, now)
+            alerts.append(a)
+            by_id[a["id"]] = a
+            created += 1
+        # mark seen only after a successful analysis (keep order: newest last)
+        state["seen"] = state.get("seen", []) + [h["key"] for h in headlines]
+    if digest:
+        send(chat_id, format_digest(digest))
+    return len(headlines), created, merged, len(digest), model
 
 
 # ---------------------------------------------------------------- main
+def friendly_error(err):
+    t = str(err)
+    if "429" in t or "RESOURCE_EXHAUSTED" in t or "quota" in t.lower():
+        return "הגענו למכסת השימוש החינמית של Gemini. היא מתאפסת בדרך כלל בחצות לפי שעון קליפורניה (בערך 10:00 בבוקר בישראל)."
+    if "401" in t or "403" in t or "API key" in t:
+        return "מפתח ה-Gemini לא מתקבל. ייתכן שהוא נמחק או פג תוקף, וצריך ליצור מפתח חדש ולעדכן אותו ב-GitHub."
+    return "שגיאה טכנית: " + t[:200]
+
+
 def main():
     if not GEMINI_KEY or (not TG_TOKEN and not DRY_RUN):
         sys.exit("Missing GEMINI_API_KEY or TELEGRAM_BOT_TOKEN secret.")
     state = load(STATE_FILE, {"seen": []})
     alerts = load(ALERTS_FILE, [])
-    seen = set(state.get("seen", []))
+    for a in alerts:
+        a.setdefault("id", alert_id(a))
 
     chat_id = None
     if not DRY_RUN:
@@ -437,59 +686,43 @@ def main():
             save(STATE_FILE, state)
             sys.exit("No Telegram chat found: open your bot in Telegram, press Start, send 'hi', then run again.")
         if not state.get("welcomed"):
-            send(chat_id, "✅ <b>מכ\"ם השוק מחובר!</b>\nמעכשיו אשלח לך כאן התראות על אירועים עולמיים שעלולים להזיז מניות בוול סטריט.")
+            send(chat_id, "✅ <b>מכ\"ם השוק מחובר!</b>\nמעכשיו אשלח לך כאן התראות על אירועים עולמיים שעלולים להזיז מניות.")
             state["welcomed"] = True
 
-    evaluate(alerts)
+    now = time.time()
+    try:
+        n_head, created, merged, n_digest, model = scan(state, alerts, chat_id)
+    except Exception as err:
+        log("SCAN FAILED:", err)
+        state.setdefault("failing_since", int(now))
+        if chat_id and now - state.get("err_alert_ts", 0) > 3 * 3600:
+            try:
+                send(chat_id, "⚠️ <b>מכ\"ם השוק: סריקה נכשלה</b>\n" + html.escape(friendly_error(err)) +
+                     "\nהמערכת תנסה שוב אוטומטית בכל רבע שעה, ותודיע כשהיא חוזרת לעבוד.")
+                state["err_alert_ts"] = int(now)
+            except Exception as e2:
+                log("could not send failure alert:", e2)
+        save(STATE_FILE, state)
+        archive_alerts(alerts)            # keep any evaluations done before the failure
+        save(ALERTS_FILE, alerts)
+        raise
 
-    headlines = collect(seen)
-    log(f"{len(headlines)} new headlines")
-    sent, model, events, digest = 0, "-", [], []
-    if headlines:
-        events, model = analyse(headlines)
-        for ev in sorted(events, key=lambda x: -int(x.get("severity", 0) or 0)):
-            sev = int(ev.get("severity", 0) or 0)
-            if not ev.get("impacts"):
-                continue
-            # Every event is saved and shown on the dashboard. On Telegram, important new
-            # events get their own message; everything else goes into one digest per scan.
-            if sev >= MIN_SEVERITY and ev.get("novelty") != "update" or sev >= 8:
-                send(chat_id, format_alert(ev, headlines))
-            else:
-                digest.append(ev)
-            sent += 1
-            alerts.append({
-                "ts": int(time.time()),
-                "time": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
-                "title": tr(ev.get("title") or ev.get("title_he")),
-                "summary": tr(ev.get("summary") or ev.get("summary_he")),
-                "kid": tr(ev.get("kid")),
-                "i18n": {"title": tri(ev.get("title")), "summary": tri(ev.get("summary")), "kid": tri(ev.get("kid"))},
-                "category": ev.get("category"),
-                "severity": sev, "confidence": ev.get("confidence"), "novelty": ev.get("novelty"),
-                "sources": [{"name": headlines[i]["source"], "url": headlines[i]["link"]}
-                            for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)],
-                "impacts": [{"ticker": str(i.get("ticker", "")).upper(), "direction": i.get("direction"),
-                             "reason": tr(i.get("reason") or i.get("reason_he")),
-                             "reason_i18n": tri(i.get("reason")), "name_i18n": tri(i.get("name")),
-                             "price_at_alert": price_now(str(i.get("ticker", "")).upper())}
-                            for i in ev.get("impacts", [])[:5]],
-            })
-        # mark seen only after a successful analysis (keep order: newest last)
-        state["seen"] = state.get("seen", []) + [h["key"] for h in headlines]
-
-    if digest:
-        send(chat_id, format_digest(digest))
+    if state.pop("failing_since", None) and chat_id:
+        state.pop("err_alert_ts", None)
+        send(chat_id, "✅ <b>מכ\"ם השוק חזר לעבוד</b> והסריקות ממשיכות כרגיל.")
 
     if MANUAL_RUN and chat_id:
-        send(chat_id, f"🛰️ בדיקה ידנית הסתיימה: {len(headlines)} כותרות חדשות, "
-                      f"{sent} התראות נשמרו (מהן {len(digest)} בסיכום המקובץ). מודל: {model}")
+        send(chat_id, f"🛰️ בדיקה ידנית הסתיימה: {n_head} כותרות חדשות, {created} התראות חדשות, "
+                      f"{merged} עדכונים לסיפורים קיימים ({n_digest} בסיכום המקובץ). מודל: {model}")
 
+    archive_alerts(alerts)
+    stats = build_stats()
+    keep = [a for a in alerts if not a.get("evaluated") or now - last_activity(a) < RECENT_DAYS * 86400]
+    save(ALERTS_FILE, sorted(keep, key=lambda a: a["ts"]))
     state["seen"] = state.get("seen", [])[-3000:]
     state["last_run"] = dt.datetime.utcnow().isoformat(timespec="minutes") + "Z"
     save(STATE_FILE, state)
-    save(ALERTS_FILE, alerts[-2000:])
-    log(f"done: {sent} alerts sent")
+    log(f"done: {created} new, {merged} merged; archive total {stats['total_alerts']}")
 
 
 if __name__ == "__main__":
