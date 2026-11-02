@@ -356,6 +356,33 @@ def tg(method, **params):
     return data["result"]
 
 
+def resolve_channel(state):
+    """config.json "channel" can be "@name" (public channel) or "auto": then the private channel's
+    numeric id is found from the update Telegram sends when the bot is made an admin there."""
+    global CHANNEL
+    if CHANNEL and CHANNEL != "auto":
+        return
+    if state.get("channel_id"):
+        CHANNEL = state["channel_id"]
+        return
+    CHANNEL = ""
+    if not CONFIG.get("channel") == "auto":
+        return
+    try:
+        for upd in reversed(tg("getUpdates")):
+            m = upd.get("my_chat_member") or upd.get("channel_post") or {}
+            chat = m.get("chat") or {}
+            if chat.get("type") == "channel":
+                state["channel_id"] = str(chat["id"])
+                state["channel_title"] = chat.get("title")
+                CHANNEL = state["channel_id"]
+                log(f"found channel: {chat.get('title')}")
+                return
+        log("channel set to auto, but no channel update found yet")
+    except Exception as e:
+        log("channel lookup failed:", e)
+
+
 def find_chat_id(state):
     if TG_CHAT:
         return TG_CHAT
@@ -906,6 +933,19 @@ def main():
         if not chat_id:
             save(STATE_FILE, state)
             sys.exit("No Telegram chat found: open your bot in Telegram, press Start, send 'hi', then run again.")
+        resolve_channel(state)
+        if CHANNEL and state.get("channel_welcomed") != CHANNEL:
+            try:
+                tg("sendMessage", chat_id=CHANNEL, parse_mode="HTML", disable_web_page_preview=True,
+                   text="👋 <b>ברוכים הבאים לערוץ של מכ\"ם השוק!</b>\n\n"
+                        "כאן יופיעו:\n🚨 התראות על אירועים חשובים בעולם שעלולים להזיז מניות\n"
+                        "📰 תקציר יומי בכל בוקר\n📊 דוח שבועי בכל יום ראשון: כמה המערכת צדקה, ואיך התיק הווירטואלי שלה מול השוק\n\n"
+                        "🧒 כל התראה מוסברת גם בשפה פשוטה.\n"
+                        f'🌐 <a href="{SITE}">האתר המלא, ב-4 שפות</a>\n\n<i>מידע בלבד, לא ייעוץ השקעות</i>')
+                state["channel_welcomed"] = CHANNEL
+                send(chat_id, f"📢 הערוץ <b>{html.escape(state.get('channel_title') or CHANNEL)}</b> מחובר! שלחתי אליו הודעת פתיחה.")
+            except Exception as e:
+                log("channel welcome failed:", e)
         if not state.get("welcomed"):
             send(chat_id, "✅ <b>מכ\"ם השוק מחובר!</b>\nמעכשיו אשלח לך כאן התראות על אירועים עולמיים שעלולים להזיז מניות.")
             state["welcomed"] = True

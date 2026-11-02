@@ -852,9 +852,9 @@ function renderPortfolio(){
       ${w.trades_important ? `<p>💼 ${esc(T("wk_pnl", money(w.pnl), money(w.bench_pnl)))}</p>` : ""}</div>` : "";
 }
 function renderChannel(){
-  const ch = CONFIG && CONFIG.channel;
-  $("joinLink").hidden = !ch;
-  if (ch) $("joinLink").href = "https://t.me/" + ch.replace(/^@/, "");
+  const link = CONFIG && (CONFIG.channel_link || (CONFIG.channel && CONFIG.channel.startsWith("@") ? "https://t.me/" + CONFIG.channel.slice(1) : ""));
+  $("joinLink").hidden = !link;
+  if (link) $("joinLink").href = link;
 }
 
 function renderAll(){ renderBrief(); renderPortfolio(); renderChannel(); renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); renderMine(); fillDatalist(); }
