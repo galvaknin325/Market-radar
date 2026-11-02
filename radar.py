@@ -369,10 +369,13 @@ def resolve_channel(state):
     if not CONFIG.get("channel") == "auto":
         return
     try:
-        for upd in reversed(tg("getUpdates")):
-            m = upd.get("my_chat_member") or upd.get("channel_post") or {}
+        updates = tg("getUpdates", allowed_updates=["message", "my_chat_member", "channel_post"])
+        log(f"channel lookup: {len(updates)} updates, types: " +
+            ", ".join(sorted({k for u in updates for k in u if k != 'update_id'})))
+        for upd in reversed(updates):
+            m = upd.get("my_chat_member") or upd.get("channel_post") or upd.get("message") or {}
             chat = m.get("chat") or {}
-            if chat.get("type") == "channel":
+            if chat.get("type") in ("channel", "supergroup", "group"):
                 state["channel_id"] = str(chat["id"])
                 state["channel_title"] = chat.get("title")
                 CHANNEL = state["channel_id"]
