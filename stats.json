@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T16:32Z",
+ "generated": "2026-11-02T17:28Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 37,
+ "total_alerts": 41,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -32,26 +32,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "USO - קרן סל על נפט גולמי",
-    "en": "USO - Crude Oil ETF",
-    "ar": "USO - صندوق استثمار النفط الخام",
-    "ru": "USO - ETF на сырую нефть"
+    "he": "קרן נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": null
   },
   "XLE": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "XLE - קרן סל סקטור האנרגיה",
-    "en": "XLE - Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "מגזר האנרגיה",
+    "en": "Energy Sector",
+    "ar": "قطاع الطاقة",
+    "ru": "Энергетический сектор"
    },
    "avg_edge": null
   },
@@ -161,14 +161,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל מדד S&P 500",
-    "en": "S&P 500 ETF",
-    "ar": "صندوق مؤشر S&P 500",
-    "ru": "ETF индекса S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": null
   },
@@ -305,14 +305,14 @@
    "avg_edge": null
   },
   "XLV": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "אקס-אל-וי - קרן סל של שירותי בריאות",
-    "en": "XLV - Health Care Select Sector SPDR Fund",
-    "ar": "XLV - صندوق قطاع الرعاية الصحية",
-    "ru": "XLV - ETF сектора здравоохранения"
+    "he": "מגזר הבריאות",
+    "en": "Health Care Sector",
+    "ar": "قطاع الرعاية الصحية",
+    "ru": "Сектор здравоохранения"
    },
    "avg_edge": null
   },
@@ -409,6 +409,30 @@
     "en": "Allstate - Major Insurance Company",
     "ar": "Allstate - شركة تأمين كبرى",
     "ru": "Allstate - крупная страховая компания"
+   },
+   "avg_edge": null
+  },
+  "MRVL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "מרבל",
+    "en": "Marvell Technology",
+    "ar": "مارفيل",
+    "ru": "Marvell"
+   },
+   "avg_edge": null
+  },
+  "LITE": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "לומנטום",
+    "en": "Lumentum",
+    "ar": "لومينتوم",
+    "ru": "Lumentum"
    },
    "avg_edge": null
   }
