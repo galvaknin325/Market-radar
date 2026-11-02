@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מכ"ם השוק</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0f17; --panel:#121826; --panel2:#171f30; --line:#232c40;
+    --text:#e6eaf2; --muted:#8a94a8; --up:#22c55e; --down:#ef4444;
+    --red:#ef4444; --orange:#f59e0b; --yellow:#eab308; --accent:#60a5fa;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Heebo,system-ui,sans-serif;line-height:1.5}
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace;direction:ltr;unicode-bidi:isolate}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+         padding:18px 24px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#0f1524,#0b0f17)}
+  .brand{display:flex;align-items:center;gap:12px}
+  .radar{width:34px;height:34px;border-radius:50%;border:2px solid var(--accent);position:relative;overflow:hidden}
+  .radar::after{content:"";position:absolute;inset:0;background:conic-gradient(from 0deg,rgba(96,165,250,.55),transparent 35%);animation:spin 3s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  h1{font-size:22px;margin:0;font-weight:800}
+  .sub{color:var(--muted);font-size:13px}
+  .status{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+  .dot.ok{background:var(--up);box-shadow:0 0 8px var(--up)}
+  .dot.stale{background:var(--orange)}
+  main{max-width:1280px;margin:0 auto;padding:20px 24px 60px}
+  .tape{border-bottom:1px solid var(--line);min-height:46px}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .kpi .label{color:var(--muted);font-size:13px}
+  .kpi .val{font-size:28px;font-weight:800;margin-top:2px}
+  .kpi .hint{color:var(--muted);font-size:12px}
+  .grid{display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:start}
+  section{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  section h2{font-size:16px;margin:0;padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
+  section h2 small{color:var(--muted);font-weight:400;font-size:12px}
+  .chart{height:460px}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px;border-bottom:1px solid var(--line)}
+  .chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:4px 11px;font:inherit;font-size:13px;cursor:pointer}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#06101f;font-weight:700}
+  .feed{max-height:1100px;overflow:auto}
+  .alert{padding:14px 16px;border-bottom:1px solid var(--line);border-right:4px solid var(--muted)}
+  .alert.s8{border-right-color:var(--red)} .alert.s6{border-right-color:var(--orange)} .alert.s0{border-right-color:var(--yellow)}
+  .a-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+  .a-title{font-weight:700;font-size:15.5px}
+  .a-meta{color:var(--muted);font-size:12px;white-space:nowrap}
+  .a-sum{color:#c8cfdc;font-size:14px;margin:4px 0 8px}
+  .imp{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13.5px;padding:5px 0}
+  .tk{border:1px solid var(--line);background:var(--panel2);border-radius:6px;padding:1px 8px;cursor:pointer;color:var(--text);font:inherit}
+  .tk:hover{border-color:var(--accent)}
+  .up{color:var(--up)} .down{color:var(--down)}
+  .res{font-size:12px;border-radius:5px;padding:1px 7px}
+  .res.hit{background:rgba(34,197,94,.15);color:var(--up)} .res.miss{background:rgba(239,68,68,.15);color:var(--down)}
+  .res.wait{background:var(--panel2);color:var(--muted)}
+  .src{font-size:12px;margin-top:6px} .src a{color:var(--accent);text-decoration:none;margin-left:10px}
+  .empty{padding:40px 20px;text-align:center;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{padding:9px 16px;text-align:right;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:500;font-size:12.5px}
+  .bar{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden;min-width:60px}
+  .bar i{display:block;height:100%;background:var(--up)}
+  .overview{height:520px}
+  .stack{display:flex;flex-direction:column;gap:20px}
+  footer{color:var(--muted);font-size:12px;text-align:center;margin-top:28px}
+  @media (max-width:900px){.grid{grid-template-columns:1fr}.grid>.stack:last-child{order:-1}.feed{max-height:none}
+    .kpis{grid-template-columns:repeat(2,1fr)}.chart{height:360px}.overview{height:440px}main{padding:14px}}
+</style>
+</head>
+<body>
+<div class="tape" id="tape"></div>
+<header>
+  <div class="brand">
+    <div class="radar" aria-hidden="true"></div>
+    <div>
+      <h1>מכ"ם השוק</h1>
+      <div class="sub">אירועים עולמיים ← השפעה על מניות בוול סטריט</div>
+    </div>
+  </div>
+  <div class="status"><span class="dot" id="dot"></span><span id="statusText">טוען…</span></div>
+</header>
+
+<main>
+  <div class="kpis">
+    <div class="kpi"><div class="label">התראות סה"כ</div><div class="val" id="kTotal">–</div><div class="hint">מאז ההפעלה</div></div>
+    <div class="kpi"><div class="label">ב-24 השעות האחרונות</div><div class="val" id="k24">–</div><div class="hint">התראות חדשות</div></div>
+    <div class="kpi"><div class="label">אחוז פגיעה בכיוון</div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint">נבדק 24 שעות אחרי כל התראה</div></div>
+    <div class="kpi"><div class="label">תנועה ממוצעת בכיוון החזוי</div><div class="val" id="kAvg">–</div><div class="hint">ב-24 שעות</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="stack">
+      <section>
+        <h2><span>גרף חי · <span class="mono" id="chartSym">SPY</span></span><small>לחץ על מניה בהתראה כדי להציג אותה</small></h2>
+        <div class="chart" id="chart"></div>
+      </section>
+      <section>
+        <h2><span>שווקים במעקב</span><small>מתעדכן בזמן אמת</small></h2>
+        <div class="overview" id="overview"></div>
+      </section>
+    </div>
+
+    <div class="stack">
+      <section>
+        <h2><span>פיד התראות</span><small id="feedCount"></small></h2>
+        <div class="filters" id="filters"></div>
+        <div class="feed" id="feed"><div class="empty">טוען התראות…</div></div>
+      </section>
+      <section>
+        <h2><span>הצלחה לפי סוג אירוע</span><small>רק התראות שכבר נבדקו</small></h2>
+        <div id="byCat"><div class="empty">עוד אין מספיק נתונים</div></div>
+      </section>
+    </div>
+  </div>
+
+  <footer>מידע בלבד, לא ייעוץ השקעות · הגרפים באדיבות TradingView · הנתונים מתעדכנים אוטומטית</footer>
+</main>
+
+<script>
+const CATS = {geopolitics:["🌍","גיאופוליטיקה"],policy:["🏛️","מדיניות ורגולציה"],trade:["🚢","סחר ומכסים"],
+  macro:["🏦","כלכלה וריבית"],commodities:["⛽","סחורות ואספקה"],climate:["🌪️","אקלים ואסונות"],health:["🦠","בריאות"],cyber:["💻","סייבר"]};
+const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX",UNG:"AMEX",GLD:"AMEX",LMT:"NYSE",RTX:"NYSE",
+  NOC:"NYSE",DAL:"NYSE",UAL:"NASDAQ",ZIM:"NYSE",FDX:"NYSE",TSM:"NYSE",NVDA:"NASDAQ",ASML:"NASDAQ",WEAT:"AMEX",CORN:"AMEX",
+  FCX:"NYSE",TLT:"NASDAQ",KRE:"AMEX",ALL:"NYSE",TRV:"NYSE",MRNA:"NASDAQ",CRWD:"NASDAQ",EEM:"AMEX",FXI:"AMEX"};
+const tv = t => EXCH[t] ? `${EXCH[t]}:${t}` : t;
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let ALERTS = [], FILTER = "all";
+
+function widget(el, file, config){
+  el.innerHTML = "";
+  const box = document.createElement("div"); box.className = "tradingview-widget-container"; box.style.height = "100%";
+  const inner = document.createElement("div"); inner.className = "tradingview-widget-container__widget"; inner.style.height = "100%";
+  const s = document.createElement("script"); s.async = true;
+  s.src = `https://s3.tradingview.com/external-embedding/${file}`;
+  s.text = JSON.stringify(config);
+  box.append(inner, s); el.append(box);
+}
+function showChart(t){
+  document.getElementById("chartSym").textContent = t;
+  widget(document.getElementById("chart"), "embed-widget-advanced-chart.js", {
+    symbol: tv(t), interval: "60", timezone: "Asia/Jerusalem", theme: "dark", style: "1", locale: "he_IL",
+    autosize: true, hide_side_toolbar: true, allow_symbol_change: true, backgroundColor: "#121826", gridColor: "rgba(35,44,64,.6)"});
+}
+function initWidgets(){
+  widget(document.getElementById("tape"), "embed-widget-ticker-tape.js", {
+    symbols: ["SPY","QQQ","USO","GLD","XLE","LMT","DAL","TSM","TLT","EEM"].map(t => ({proName: tv(t), title: t})),
+    colorTheme: "dark", isTransparent: true, displayMode: "adaptive", locale: "he_IL", showSymbolLogo: false});
+  const tab = (title, list) => ({title, symbols: list.map(t => ({s: tv(t), d: t}))});
+  widget(document.getElementById("overview"), "embed-widget-market-overview.js", {
+    colorTheme: "dark", dateRange: "1D", showChart: true, locale: "he_IL", isTransparent: true, width: "100%", height: "100%",
+    showSymbolLogo: false, plotLineColorGrowing: "#22c55e", plotLineColorFalling: "#ef4444",
+    tabs: [tab("מדדים", ["SPY","QQQ","EEM","FXI","TLT"]), tab("אנרגיה", ["XLE","XOM","CVX","USO","UNG"]),
+           tab("ביטחון", ["LMT","RTX","NOC"]), tab("תעופה וספנות", ["DAL","UAL","ZIM","FDX"]),
+           tab("שבבים", ["TSM","NVDA","ASML"]), tab("סחורות", ["GLD","WEAT","CORN","FCX"])]});
+  showChart("SPY");
+}
+
+function fmtTime(a){
+  const d = a.time ? new Date(a.time) : new Date(a.ts * 1000);
+  return d.toLocaleString("he-IL", {timeZone: "Asia/Jerusalem", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
+}
+function impactsOf(a){ return (a.impacts || []).filter(i => i.ticker); }
+function evaluated(){ return ALERTS.flatMap(a => impactsOf(a).filter(i => typeof i.hit === "boolean").map(i => ({...i, cat: a.category}))); }
+
+function renderKpis(){
+  const now = Date.now()/1000;
+  document.getElementById("kTotal").textContent = ALERTS.length;
+  document.getElementById("k24").textContent = ALERTS.filter(a => now - a.ts < 86400).length;
+  const ev = evaluated();
+  if (ev.length){
+    const hits = ev.filter(i => i.hit).length;
+    document.getElementById("kHit").textContent = Math.round(hits / ev.length * 100) + "%";
+    document.getElementById("kHitHint").textContent = `${hits} מתוך ${ev.length} תחזיות`;
+    const signed = ev.map(i => (i.direction === "up" ? 1 : -1) * (i.change_24h_pct || 0));
+    const avg = signed.reduce((x, y) => x + y, 0) / signed.length;
+    const el = document.getElementById("kAvg");
+    el.innerHTML = `<span class="mono ${avg >= 0 ? "up" : "down"}">${avg >= 0 ? "+" : ""}${avg.toFixed(2)}%</span>`;
+  } else {
+    document.getElementById("kHit").textContent = "–";
+    document.getElementById("kHitHint").textContent = "יתמלא 24 שעות אחרי ההתראה הראשונה";
+  }
+}
+
+function renderFilters(){
+  const present = [...new Set(ALERTS.map(a => a.category).filter(Boolean))];
+  const opts = [["all", "הכול"], ["high", "🔴 חומרה 8+"], ...present.map(c => [c, (CATS[c] || ["📰", c]).join(" ")])];
+  document.getElementById("filters").innerHTML = opts.map(([k, l]) =>
+    `<button class="chip ${FILTER === k ? "on" : ""}" data-f="${esc(k)}">${esc(l)}</button>`).join("");
+}
+
+function renderFeed(){
+  let list = [...ALERTS].sort((a, b) => b.ts - a.ts);
+  if (FILTER === "high") list = list.filter(a => a.severity >= 8);
+  else if (FILTER !== "all") list = list.filter(a => a.category === FILTER);
+  document.getElementById("feedCount").textContent = `${list.length} התראות`;
+  const feed = document.getElementById("feed");
+  if (!list.length){
+    feed.innerHTML = `<div class="empty">${ALERTS.length ? "אין התראות בסינון הזה" :
+      "עוד אין התראות. זה תקין: המערכת סורקת כל 30 דקות ומתריעה רק על אירועים משמעותיים (חומרה 6 ומעלה)."}</div>`;
+    return;
+  }
+  feed.innerHTML = list.map(a => {
+    const [icon, catName] = CATS[a.category] || ["📰", a.category || ""];
+    const sClass = a.severity >= 8 ? "s8" : a.severity >= 6 ? "s6" : "s0";
+    const imps = impactsOf(a).map(i => {
+      const up = i.direction === "up";
+      let res = `<span class="res wait">ממתין לבדיקה</span>`;
+      if (typeof i.hit === "boolean"){
+        const c = i.change_24h_pct ?? 0;
+        res = `<span class="res ${i.hit ? "hit" : "miss"}">${i.hit ? "✓ צדק" : "✗ טעה"} · <span class="mono">${c >= 0 ? "+" : ""}${c.toFixed(2)}%</span></span>`;
+      }
+      const price = i.price_at_alert ? `<span class="mono" style="color:var(--muted);font-size:12px">$${(+i.price_at_alert).toFixed(2)}</span>` : "";
+      return `<div class="imp"><span class="${up ? "up" : "down"}">${up ? "▲" : "▼"}</span>
+        <button class="tk mono" data-t="${esc(i.ticker)}">${esc(i.ticker)}</button>${price}
+        <span>${esc(i.reason || "")}</span>${res}</div>`;
+    }).join("");
+    const srcs = (a.sources || []).slice(0, 3).map((s, n) => {
+      const url = typeof s === "string" ? s : s.url, name = typeof s === "string" ? `מקור ${n + 1}` : s.name;
+      return /^https?:\/\//.test(url || "") ? `<a href="${esc(url)}" target="_blank" rel="noopener">🔗 ${esc(name)}</a>` : "";
+    }).join("");
+    return `<div class="alert ${sClass}">
+      <div class="a-top"><div class="a-title">${icon} ${esc(a.title)}</div><div class="a-meta">חומרה ${a.severity}/10 · ${fmtTime(a)}</div></div>
+      ${a.summary ? `<div class="a-sum">${esc(a.summary)}</div>` : ""}
+      ${imps}${srcs ? `<div class="src">${srcs}</div>` : ""}</div>`;
+  }).join("");
+}
+
+function renderByCat(){
+  const ev = evaluated(), box = document.getElementById("byCat");
+  if (!ev.length){ box.innerHTML = `<div class="empty">יתמלא אחרי שההתראות הראשונות ייבדקו (24 שעות אחרי כל אחת)</div>`; return; }
+  const g = {};
+  ev.forEach(i => { const k = i.cat || "other"; (g[k] ||= {n: 0, h: 0}); g[k].n++; if (i.hit) g[k].h++; });
+  box.innerHTML = `<table><tr><th>סוג אירוע</th><th>תחזיות</th><th>צדק</th><th></th></tr>` +
+    Object.entries(g).sort((a, b) => b[1].n - a[1].n).map(([k, v]) => {
+      const p = Math.round(v.h / v.n * 100);
+      return `<tr><td>${(CATS[k] || ["📰", k]).join(" ")}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td>
+        <td><div class="bar"><i style="width:${p}%"></i></div></td></tr>`;
+    }).join("") + `</table>`;
+}
+
+async function load(){
+  const bust = "?t=" + Date.now();
+  try {
+    const r = await fetch("alerts.json" + bust, {cache: "no-store"});
+    ALERTS = r.ok ? await r.json() : [];
+  } catch { ALERTS = []; }
+  try {
+    const s = await (await fetch("state.json" + bust, {cache: "no-store"})).json();
+    const last = new Date(s.last_run);
+    const mins = Math.round((Date.now() - last) / 60000);
+    document.getElementById("dot").className = "dot " + (mins < 75 ? "ok" : "stale");
+    document.getElementById("statusText").textContent =
+      `סריקה אחרונה: ${last.toLocaleTimeString("he-IL", {timeZone: "Asia/Jerusalem", hour: "2-digit", minute: "2-digit"})} (לפני ${mins} דק')`;
+  } catch {
+    document.getElementById("statusText").textContent = "ממתין לסריקה ראשונה";
+  }
+  renderKpis(); renderFilters(); renderFeed(); renderByCat();
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); document.getElementById("chart").scrollIntoView({behavior: "smooth", block: "center"}); return; }
+  const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); }
+});
+initWidgets();
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>

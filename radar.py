@@ -377,10 +377,13 @@ def main():
             alerts.append({
                 "ts": int(time.time()),
                 "time": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
-                "title": ev.get("title_he"), "category": ev.get("category"),
+                "title": ev.get("title_he"), "summary": ev.get("summary_he"),
+                "category": ev.get("category"),
                 "severity": sev, "confidence": ev.get("confidence"),
-                "sources": [headlines[i]["link"] for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)],
+                "sources": [{"name": headlines[i]["source"], "url": headlines[i]["link"]}
+                            for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)],
                 "impacts": [{"ticker": str(i.get("ticker", "")).upper(), "direction": i.get("direction"),
+                             "reason": i.get("reason_he"),
                              "price_at_alert": price_now(str(i.get("ticker", "")).upper())}
                             for i in ev.get("impacts", [])[:5]],
             })
