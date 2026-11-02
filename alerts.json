@@ -18,7 +18,8 @@
     "direction": "up",
     "price_at_alert": 70.02
    }
-  ]
+  ],
+  "id": "cf97875cf11e"
  },
  {
   "ts": 1793630117,
@@ -37,7 +38,8 @@
     "reason": "חשש בשוק הקריפטו עקב פריצה לבורסת Binance ופגיעה באמון המשקיעים.",
     "price_at_alert": 44.135
    }
-  ]
+  ],
+  "id": "8bde52c526b4"
  },
  {
   "ts": 1793630119,
@@ -62,7 +64,8 @@
     "reason": "עליית מחירי הנפט הצפויה תומכת בסקטור האנרגיה.",
     "price_at_alert": 68.6
    }
-  ]
+  ],
+  "id": "f655ba3c5dfb"
  },
  {
   "ts": 1793630119,
@@ -81,7 +84,8 @@
     "reason": "חשש מעליית מחירי מוצרי עוף וביצים ופגיעה ברווחיות מגזר המזון.",
     "price_at_alert": 90.02
    }
-  ]
+  ],
+  "id": "bfa1ae89008b"
  },
  {
   "ts": 1793630119,
@@ -100,7 +104,8 @@
     "reason": "חיזוק הביקוש המערכתי לטכנולוגיות הגנה אווירית בינלאומיות.",
     "price_at_alert": 212.95
    }
-  ]
+  ],
+  "id": "5047fc95d3d8"
  },
  {
   "ts": 1793630119,
@@ -125,7 +130,8 @@
     "reason": "חיזוק חוזים בתחום הביטחוני-ימי.",
     "price_at_alert": 212.95
    }
-  ]
+  ],
+  "id": "345cb8d59f3b"
  },
  {
   "ts": 1793630119,
@@ -150,7 +156,8 @@
     "reason": "חוזה ביטחוני חדש תומך בהכנסות החברה.",
     "price_at_alert": 772.1083
    }
-  ]
+  ],
+  "id": "89de3635ba7b"
  },
  {
   "ts": 1793630832,
@@ -182,7 +189,16 @@
   "severity": 7,
   "confidence": "high",
   "novelty": "new",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0ZJdzhmTl9OTWM4NnBzOFJnXzg4SUk0WnNmMXF5NElQYkQyd0ZlOGh4aDJaVFhfaTNobk9mQUc0c1lkakpyRnFzRVh0aGd4MS1KSS1KbFJtelR1TzFsOV9MYUpCY2VjNEl3aWJzT3Z3VjlOd3BPZUdDNFpaU0diRTFJLUc5M2RGbUhucFVWVFBaczB0TFhMMjBQamdIWGVKSV9ubEdn?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2FXN0VKVjBIUDlmNF8xMXBEcE9BQkRrQk5GR2k1dmNLMjlBMVlCSmRLc19PNXVCTUNZVUZRY3pQNzEtZGJuQlNwcnMxQWdqME8xa1FtOVkyendLS0RFSTV3cjNwQXJaYmVxTy1fREcyNk81S29pYWRGOTdLN3ljXzVVX1pIaDlTMXRGTHB1ck1qNEZnSUlsUkJIMWFJSmpHT1U5UjkyMEs?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "XLK",
@@ -220,7 +236,23 @@
     },
     "price_at_alert": 208.81
    }
-  ]
+  ],
+  "id": "c9dd3f704d8d",
+  "updates": [
+   {
+    "ts": 1793631522,
+    "time": "2026-11-02T14:58Z",
+    "severity": 7,
+    "summary": "יצרנית השבבים מרבל הסכימה לרכוש את לומנטום בעסקת ענק בהיקף של עשרות מיליארדי דולרים, במטרה להרחיב את פעילותה במרכזי נתונים של בינה מלאכותית.",
+    "i18n": {
+     "he": "יצרנית השבבים מרבל הסכימה לרכוש את לומנטום בעסקת ענק בהיקף של עשרות מיליארדי דולרים, במטרה להרחיב את פעילותה במרכזי נתונים של בינה מלאכותית.",
+     "en": "Chip maker Marvell has agreed to acquire Lumentum in a massive deal valued at tens of billions of dollars to expand its footprint in AI data centers.",
+     "ar": "وافقت شركة صناعة الرقائق مارفيل على الاستحواذ على لومنتوم في صفقة ضخمة تقدر بعشرات مليارات الدولارات لتوسيع نشاطها في مراكز بيانات الذكاء الاصطناعي.",
+     "ru": "Производитель чипов Marvell договорился о покупке Lumentum в рамках крупной сделки на десятки миллиардов долларов для расширения работы в дата-центрах ИИ."
+    }
+   }
+  ],
+  "last_update": 1793631522
  },
  {
   "ts": 1793630833,
@@ -252,7 +284,32 @@
   "severity": 6,
   "confidence": "high",
   "novelty": "new",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjFFR2N1NXkyemRFMnBHMl9YcElGUWV5c3ctWnZPWVpnQ2JNd2RyRTlqY3dzdHgwcGhXUTNqdzRvZ3l1VW9GSGticWZEcUc2QnpLU05LUUJJb3IxZGM5LVVZWGQxVzFoT2tESDhEaGJocVdQZ3V6YVpaQktCNExETVB0R0ljOFRTQndITnJsbXNZM2VQc1Bqbk5jeGlxb2dwRTc2aU1Pc3A1V1BicDRz?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbWJ4OEdSNHdJYTROYzVOdzhEelFyMGI3WFJ6SGprem95MjFQYTZrbUZrWWJ5Y3NpSmlfUEZ3bEMzVE5URU5LWU16MC1nWHExQ0RPbGZXX3dQV2g5dUhpZDMtS3JUWlNaSjMwd2JncWRELVRHSTZXOW15QmZPUjdtQXgxQjhwZFA5Y3BzWko2WDdRMkMyb3k3V3VhU0l1YWdUeXFGaFNEYUNsakExdFZBQ0hn?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oZU1tZzhEN1VQRWpiM0JVVnZfSnRuWV9pSXBvb3hucU84VUF4WjFHbHZFOU1yZ014ME5QMS1xSUxXR2lGN2phUWxKR2VRNDlLbkR6SkFXR0pFeGZ3d1FEQTVMdE1FYlU?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GX3Fvc1A0cGVzMnRLNjBhbWJJREhrQnlCemdfOFp0RXRES2tiVWpad1R1VnpOLWFyYlp0Vi00SlNvZXVDa0s4a0UyNGRVMnliNWxzZU5kVE1Jal9hUVVFZi1KQ21zZk5ldHp2Q1VPRENvbjJ5OTBiMFcyODgyQQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPWkZNSmozUUhjVDhkd3c2NW5JSjMtWGpCQnZYYk43cE8wN0MyQ0RUVENycm9zdjhNMFQteWN4Sm5KcmJfSFk0Ym9BU0pDdVJGVEpkT0pUalNSOG9WenhEMzRmSFBEeG1xdG9ONU8xNzgzUGszVERGWg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNelBEcWJYTXJCNUwxM0JMb2NkbDgwZ21CTlBrenJFS09hMkxxN0xVeXNBakRncmtFVkluV19fUDBlaDdwLXk0dXV3VHd2UDhqRTN4UGI1NU84NDRaQVlCMm91bUl0VUFKRFBtUkoxalRUUnJ3aHptOENlR1lvcTNRSzE4alNHNTlJZllJQ0tyd2U3MklfMW1JWEQ2U08xd1lOMTlIOVFn?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -290,7 +347,23 @@
     },
     "price_at_alert": 72.865
    }
-  ]
+  ],
+  "id": "f10044aa6f32",
+  "updates": [
+   {
+    "ts": 1793631522,
+    "time": "2026-11-02T14:58Z",
+    "severity": 6,
+    "summary": "בוחרים ברחבי ארצות הברית מצביעים בבחירות אמצע הכהונה לקונגרס ולסנאט, כאשר הרשויות נערכות לשיבושים אפשריים ואבטחת הקלפיות.",
+    "i18n": {
+     "he": "בוחרים ברחבי ארצות הברית מצביעים בבחירות אמצע הכהונה לקונגרס ולסנאט, כאשר הרשויות נערכות לשיבושים אפשריים ואבטחת הקלפיות.",
+     "en": "Voters across the United States are casting ballots in midterm congressional and senate elections, with authorities preparing for potential disruptions and securing polls.",
+     "ar": "يدلي الناخبون في جميع أنحاء الولايات المتحدة بأصواتهم في انتخابات التجديد النصفي للكونغرس والشيوخ، وسط استعدادات السلطات لاحتمال حدوث اضطرابات.",
+     "ru": "Избиратели по всей территории США голосуют на промежуточных выборах в Конгресс и Сенат, власти готовятся к возможным сбоям."
+    }
+   }
+  ],
+  "last_update": 1793631522
  },
  {
   "ts": 1793630834,
@@ -378,7 +451,8 @@
     },
     "price_at_alert": 39.42
    }
-  ]
+  ],
+  "id": "c855951b5c40"
  },
  {
   "ts": 1793630834,
@@ -410,7 +484,32 @@
   "severity": 4,
   "confidence": "high",
   "novelty": "new",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPczJMWkFQaEZXSGlKcnl2dUtJd3ZYdnBoamZfMHpOaWVvSVBGdzdrMlV2V2Vma19LRnBtM3JJekxLMXVIdS1CYmh3U19fOXk0bDdBREdMbEVqVFBLanFGX2k0dVI5UHlDendnd055aDJTOEdmU0xKVm5pcVZfUDd1STM4UkphaXFCN0xDYXoyMG9XZU9GaTVFRDFvaUZHcXFRVHB3eVRUMkk?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTm41WV96NGdyZ3dEc3JxVlZpSFRuMWNtOWJfOXRFaEpvUjRrOHZIblpLMUVTU2ctbGgxS0VqdWJXSS1MY3V2YnhtN2lRU2dHTkgzc2NyVFR1NFNQZUtvOU1HV2pSek9DVEZtRlBmN2tJZy11WWRzWnYtcTM2NWdxb0tVamRxSUN1Yks2a0ZrcGlLNUFBT0syR0lwOXA0QnhZMS02bjl3Mkdkem5DN0Fwd1ozQnBHTkNPVFRTbdIBwgFBVV95cUxORFBQZmM2NzdYWnF1WW9jVkpXZzF0bEt6XzBSWkJsZlh1eWdjZGZuMUlkU3VtWmlGS0sxNHd3YUlVTWEwSGVjMmpYWTVzQUpPaEFQMTNmWkR1ZTVYLVJLWHN0MHRCRHRNMk1nMVVEZGRWbVJBMXk2YWZoMllJZ2dJbXJZMUQwN25ieHYxaE5sQWxVdEdhWHlPcXlwRDBPYTc0UDlteUFhQTNNelpkR2l5VG9NYWU1aHFwRlFUZTVfQmpyUQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaWx1cmRMTWpyVlFTNDZYVjlHekhtZUlURDFpZ3B1amVKT3NoLVNzNEhvVDk5Wm9MQVNEbFlJRzBSVWdzZ0RhM21FNWNFNkczSy1wNFJpQ2g5d3kxU2RXLVdndnpFMzZ3b21EN0FCeXVzMTI1bzJ4UFVEbkVHUHBpWDdubG9GVXoyNVRVbDRjQm1EekZYWG0wWnV4SnVqOXF3Ukpr?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOGJjUnB1c1lDWi1MelhUaElWNy1xTElQbnNEN2ViOXpjV0dmSGIxRVk5RmNQUGpadC1qbFcyOFhlOUtHTWZtVTBLUGRWMlg3cDRXTDJtSktXbW1PYnhwQ2JqdkdxWUM1TG1YWEx1Z0lXTkVXdHVqTFBPU21mSm40RHprTU1sTmlwVmJOcTlXV2lkTWxqUzNqejh5Znd1VE9IdjlQOTlEVGHSAagBQVVfeXFMUDhiY1JwdXNZQ1otTHpYVGhJVjctcUxJUG5zRDdlYjl6Y1dHZkhiMUVZOUZjUFBqWnQtamxXMjhYZTlLR01mbVUwS1BkVjJYN3A0V0wybUpLV21tT2J4cENianZHcVlDNUxtWFhMdWdJV05FV3R1akxQT1NtZkpuNER6a01NbE5pcFZiTnE5V1dpZE1salMzano4eWZ3dVRPSHY5UDk5RFRh?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeWY5ZXVLLVB3enM3bjc2d2RNQXFKcDF1OG9pc1lHQ2RHVW5leGVPWTl2cmVCU1laUEMwek1yY1BWVmNlNENaQ2I5ZkM2UFl6ZGtTV1QzaG56czF6X3ktTXlLcFVIbHoyVDJCcWQ3ZzN5aXc3MWxkTl9kZVhtTXFVeUZ0WUQ0b0tOOUp2cWtDd2dkWjgtZ3E0VFdxbWJOdGhMak52TUxSQzRhSG5UTFJkb1hLd05ya1R3WGFqYUFKYnA2eFR0R28wcERJTFAwY2ZPSUVKQzZjZl9ScjhEZ200RHUtWUnSAeoBQVVfeXFMUHpuVEF0R3AweUt3UmRJSlJHVWpGTWQ5NHUxRFlxeWM5NndpSFNBSjJQNmVEazNCTlF6UllkcFZOS2xmWHJ6eERaNWY0UzRraUlJS2hMbHFkUHJfblhpczdpUGpybFIyMW9JUkF6dHNLaGdvMmRGLUxqVmZ5UEpsOTh6dFpIX1hyQVppT213WUtuZkhlVkw3QzFSNWdLUFY3NGZ0WUprRy01cGNEYjFaZ0MxLThBNXMyVy1OdHNWRWI3a3NNRHpoWDM1aTlLTklPempHN2g5dWRNZmF6Y2lsNkh2X0cwSkxqRmpR?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlh3eFRTRGxrN2x2dkxER3ZMcWF1YVMxYm42bVJndmNmVVNpQ1FQX2JLRWFmOVBRRWZTSlFLclBSM3VwUTg3TTZMMy1vTUtTUEpQVUZhajh4XzJnbmNnUDg2b213dnA5dnVvSFIyRWJLVkhSR2JJYjBaN2dTYlhFeC0zTm9RRFkxZ2JlMXNORDdEZ2xacVZFRHZSX0tzdU5GZzV6allkSHFwUVJZOFNrX2l6THZhQTNTaURpRUF3?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -430,7 +529,23 @@
     },
     "price_at_alert": 242.85
    }
-  ]
+  ],
+  "id": "e97c92087a6a",
+  "updates": [
+   {
+    "ts": 1793631522,
+    "time": "2026-11-02T14:58Z",
+    "severity": 4,
+    "summary": "מתקפת סייבר שיבשה את מערכות הקירור והמקררים בסופרמרקטים במספר מדינות באירופה, מה שהוביל להפסדי מזון והשלכת מוצרים.",
+    "i18n": {
+     "he": "מתקפת סייבר שיבשה את מערכות הקירור והמקררים בסופרמרקטים במספר מדינות באירופה, מה שהוביל להפסדי מזון והשלכת מוצרים.",
+     "en": "A cyberattack disrupted refrigeration systems and supermarket freezers across several European countries, causing food spoilage and forced stock removals.",
+     "ar": "أدى هجوم سيبراني إلى تعطيل أنظمة التبريد ومجمدات السوبر ماركت في عدة دول أوروبية، مما أدى إلى تلف الأطعمة وإزالتها من الرفوف.",
+     "ru": "Кибератака вывела из строя системы охлаждения в супермаркетах ряда европейских стран, что привело к порче продуктов и их изъятию."
+    }
+   }
+  ],
+  "last_update": 1793631522
  },
  {
   "ts": 1793630835,
@@ -459,10 +574,27 @@
    }
   },
   "category": "cyber",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "novelty": "update",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcFdEbG9PeUFzbTNxRnhFaGFHdXNJUGV3Y2VHSlhmbWluc014Q2ZpNGNjVUl5R1MzQk9TQ3BkR21OMkJPS3VtZGlVdEp4RUJud1dNM0dqMmliaWd5UUx4YUtKd09VU3Y5ODhUajdlb09McmdyWkl2SGdfaTMyMEYtQWI3dFdHakZyUHQ5NUduekNsVFlTWW9PaDNFWQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYzBGVTJrRmxYbWg1aF9uZWtFMm9TWFAtMVAzd3VuejJxRTRVMXhkZzc5Y3A4VkV6WlZJZ2s1eDFoWnNOSjV4OWNYLVBoQlpBMFJwNnpacjYyNl9kRVdRcERVbU9iTF96Wk9ZaVJGbHRka0w2QlBFdlJTR1haZXlETmJqekdLUGxldVJZSWxNNkhmWnNaeWRKRmQ4TlQ2aFZERGRsZ2RFcU9uMGQxelRIYWlqR1NnTGEybEVIWHplaHV1Nk1LN0swcWRYcFo5UEtwbmtsOXF30gHSAUFVX3lxTE4zbk9KUGRBeE4xUTd4eUIta05nSE55aEFOTTc2enR6WmhCcm1tUUpCRmZoNVZpb2M2M09fc21MM3ltZVNFbnFNanVxdVFfbC1XcV9FajVNY2tNRnE0Nld3T044c1VWQUVJa2xKWjcwN0RaSjhYMUpCc05aN3ZEbXI3d2pWZmtjUUFDNlpYVkdXcUtOZGVMNDZ2OWdJaVllcWlVWE5TZGQzRGo5cU9uUGUyRWpxY05HS2ozX3VUdURkNm1kVEd0eHZ4VkNYQjN4amJZdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWUVZMFVraTV3NXJyQjJKbnNDWGh0eG5FNDlWclpqb09KQTlnSmJiRUJENF90TWJkQlIxODFaUDBtS3dXV3Y0TjB5dHE2WDlvV1NHQXQxeEhTUWp0TTdoVTgwLXZZWTI4TnhZMmRSbm9tYklmNUJYT3dIWjFDLXdLX0xCakhqVURmUUFERGEyOA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90NUphZU9KWUU5MnFGV0ZEcUc5NzhCeThJRm8tQS03d1o1dG9ITUE3NnNCRmFRdTg2SzduRTBwZVFhNlhNQ3haMi1IMA?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -481,8 +613,43 @@
      "ru": "CrowdStrike - компания кибербезопасности"
     },
     "price_at_alert": 242.85
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793631522,
+    "reason": "עלייה במתיחות הגיאופוליטית המחזקת את סקטור הביטחון",
+    "reason_i18n": {
+     "he": "עלייה במתיחות הגיאופוליטית המחזקת את סקטור הביטחון",
+     "en": "Rising geopolitical tensions bolstering the defense sector",
+     "ar": "تصاعد التوترات الجيوسياسية مما يدعم قطاع الدفاع",
+     "ru": "Рост геополитической напряженности поддерживает оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "איטה - קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 213.57
    }
-  ]
+  ],
+  "id": "35df5c59fc8b",
+  "updates": [
+   {
+    "ts": 1793631522,
+    "time": "2026-11-02T14:58Z",
+    "severity": 5,
+    "summary": "אוקראינה טוענת כי רוסיה ניצלה הפסקת אש הומניטרית וחידשה את התקיפות מיד לאחר סיומה, בעוד קייב פועלת להשבת גופות והמשך פינויים.",
+    "i18n": {
+     "he": "אוקראינה טוענת כי רוסיה ניצלה הפסקת אש הומניטרית וחידשה את התקיפות מיד לאחר סיומה, בעוד קייב פועלת להשבת גופות והמשך פינויים.",
+     "en": "Ukraine claims Russia exploited a humanitarian ceasefire and resumed attacks immediately after its end, while Kyiv works on recovering bodies and ongoing evacuations.",
+     "ar": "تقول أوكرانيا إن روسيا استغلت وقف إطلاق النار الإنساني واستأنفت الهجمات فور انتهائه، بينما تعمل كييف על استعادة الجثث ومواصلة عمليات الإجلاء.",
+     "ru": "Украина утверждает, что Россия воспользовалась гуманитарным перемирием и возобновила атаки сразу после его окончания, Киев занимается эвакуацией."
+    }
+   }
+  ],
+  "last_update": 1793631522
  },
  {
   "ts": 1793630835,
@@ -552,6 +719,181 @@
     },
     "price_at_alert": 126.35
    }
-  ]
+  ],
+  "id": "778aae1e2c3f"
+ },
+ {
+  "ts": 1793631522,
+  "time": "2026-11-02T14:58Z",
+  "title": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+  "summary": "נשיאת הפדרל ריזרב בדאלאס, לוגאן, הצהירה כי הבנק המרכזי עשוי להזדקק לשתי העלאות ריבית לפחות כדי לרסן לחלוטין את האינפלציה.",
+  "kid": "בנקאי בכיר בארה\"ב אומר שצריך להעלות את הריבית עוד פעמים אחדות כדי להילחם ביוקר המחיה. זה עשוי להשפיע על שוק ההלוואות והמניות.",
+  "i18n": {
+   "title": {
+    "he": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+    "en": "Fed's Logan Says Central Bank Needs at Least Two More Rate Increases",
+    "ar": "لوجان مسؤولة الاحتياطي الفيدرالي تقول إن البنك بحاجة لرفع أسعار الفائدة مرتين أخرتين على الأقل",
+    "ru": "Логан из ФРС заявляет о необходимости как минимум двух новых повышений ставки"
+   },
+   "summary": {
+    "he": "נשיאת הפדרל ריזרב בדאלאס, לוגאן, הצהירה כי הבנק המרכזי עשוי להזדקק לשתי העלאות ריבית לפחות כדי לרסן לחלוטין את האינפלציה.",
+    "en": "Dallas Fed President Logan stated that the central bank may need to implement at least two more interest rate hikes to fully rein in inflation.",
+    "ar": "صرحت لוגان رئيسة الاحتياطي الفيدرالي في دالاس أن البنك المركزي قد يحتاج إلى تنفيذ زيادتين أخريين على الأقل في أسعار الفائدة.",
+    "ru": "Президент ФРБ Далласа Логан заявила, что центральному банку может потребоваться повысить ставки еще как минимум дважды."
+   },
+   "kid": {
+    "he": "בנקאי בכיר בארה\"ב אומר שצריך להעלות את הריבית עוד פעמים אחדות כדי להילחם ביוקר המחיה. זה עשוי להשפיע על שוק ההלוואות והמניות.",
+    "en": "A top US central banker says interest rates need to rise a few more times to fight high prices. This could affect loans and stock markets.",
+    "ar": "يقول مسؤول كبير في البنك المركزي الأمريكي إن أسعار الفائدة بحاجة للارتفاع عدة مرات لمكافحة غلاء المعيشة. قد يؤثر ذلك على القروض والأسهم.",
+    "ru": "Высокопоставленный представитель ФРС США говорит, что ставки должны вырасти еще несколько раз для борьбы с инфляцией."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaF9ya09COUkxYUpqejFnc1JnYThRdVlSMDhJWjJKSU5kU0o1UmlhbmE0Z3F1cXVMT3pSTEtFcDd3VS1kSUY0MTl3NnBvY1dnQ3RQanNnVWItOXZvNTlaZEtET29NR2ppTzlQWWNpcnBZVHJieTFpenpFT0RQTXEwMzRTUjladnYtZm5UZ1g4SHBIZ1lUd2NwbURjZmRSYTU2VzhVeS1FLUVNVUprU05ZQlBhTXBXcXBadzI4WmlHYVVCZzdRVEVEN1hsVQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1793631522,
+    "reason": "ציפייה להעלאות ריבית נוספות לוחצת כלפי מטה את מחירי האג\"ח",
+    "reason_i18n": {
+     "he": "ציפייה להעלאות ריבית נוספות לוחצת כלפי מטה את מחירי האג\"ח",
+     "en": "Expectation of further rate hikes puts downward pressure on bond prices",
+     "ar": "توقعات بمزيد من رفع أسعار الفائدة تضغط على أسعار السندات نزولاً",
+     "ru": "Ожидания дальнейшего повышения ставок оказывают давление на цены облигаций"
+    },
+    "name_i18n": {
+     "he": "טי-אל-טי - קרן סל אג\"ח ממשלתי ארוך",
+     "en": "TLT - Long-term Treasury ETF",
+     "ar": "TLT - صندوق سندات الخزانة طويلة الأجل",
+     "ru": "TLT - ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 81.94
+   }
+  ],
+  "id": "a0c2a8627fc8"
+ },
+ {
+  "ts": 1793631522,
+  "time": "2026-11-02T14:58Z",
+  "title": "אלביט מערכות זוכה בחוזה ארטילריה בהיקף של 170 מיליון דולר מצבא הישראלי",
+  "summary": "חברת אלביט מערכות הודיעה על זכייה בחוזה חדש לאספקת ציוד ארטילרי לצבא ההגנה לישראל בהיקף כספי של כ-170 מיליון דולר.",
+  "kid": "חברת הביטחון אלביט קיבלה הזמנה גדולה לייצר ציוד צבאי לצבא. זה עשוי לעזור למחיר המניה של החברה לעלות.",
+  "i18n": {
+   "title": {
+    "he": "אלביט מערכות זוכה בחוזה ארטילריה בהיקף של 170 מיליון דולר מצבא הישראלי",
+    "en": "Elbit Systems Awarded $170M IDF Artillery Contract",
+    "ar": "إلبيت سيستمز تفوز بعقد مدفعية بقيمة 170 مليون دولار من الجيش الإسرائيلي",
+    "ru": "Elbit Systems получила контракт с армией Израиля на артиллерию на сумму 170 млн долларов"
+   },
+   "summary": {
+    "he": "חברת אלביט מערכות הודיעה על זכייה בחוזה חדש לאספקת ציוד ארטילרי לצבא ההגנה לישראל בהיקף כספי של כ-170 מיליון דולר.",
+    "en": "Elbit Systems announced it has been awarded a new contract to supply artillery equipment to the Israel Defense Forces worth approximately $170 million.",
+    "ar": "أعلنت شركة إلبيت سيستمز عن فوزها بعقد جديد لتوريد معدات مدفعية للجيش الإسرائيلي بقيمة تقارب 170 مليون دولار.",
+    "ru": "Компания Elbit Systems объявила о получении нового контракта на поставку артиллерийского оборудования Армии обороны Израиля на сумму около 170 млн долларов."
+   },
+   "kid": {
+    "he": "חברת הביטחון אלביט קיבלה הזמנה גדולה לייצר ציוד צבאי לצבא. זה עשוי לעזור למחיר המניה של החברה לעלות.",
+    "en": "Defense company Elbit received a large order to produce military equipment for the army. This could help push the company's stock price up.",
+    "ar": "حصلت شركة الدفاع إلبيت على طلب كبير لإنتاج معدات عسكرية للجيش. قد يساعد ذلك في رفع سعر سهم الشركة.",
+    "ru": "Оборонная компания Elbit получила крупный заказ на производство военного оборудования. Это может помочь росту акций компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSTIxdnZaOE5FTlZ6eC04V2VSRmtteHRRLU5OTlc3Njk0WEZ6QUhmWDRWeGdENm1uYkVJTXYzTmRrcThEMmFhNUl1amZGUFVBQ1U1anMxMWI2c3B3NFRGekJZeXp1VEdYUWNXM1B4amI0UXlwc21ZdElKMGQ2b29uR1FqUXIyVk9VelNDWDlScTZTWHE1Unc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1793631522,
+    "reason": "זכייה בחוזה רכש משמעותי צפויה להגדיל את הכנסות החברה",
+    "reason_i18n": {
+     "he": "זכייה בחוזה רכש משמעותי צפויה להגדיל את הכנסות החברה",
+     "en": "Winning a significant procurement contract is expected to boost company revenue",
+     "ar": "من المتوقع أن يؤدي الفوز بعقد توريد كبير إلى تعزيز إيرادات الشركة",
+     "ru": "Получение крупного контракта на закупку должно увеличить доходы компании"
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות - חברה ביטחונית",
+     "en": "Elbit Systems - defense company",
+     "ar": "إلبيت سيستمز - شركة دفاعية",
+     "ru": "Elbit Systems - оборонная компания"
+    },
+    "price_at_alert": 770.1
+   }
+  ],
+  "id": "36f22375dc4b"
+ },
+ {
+  "ts": 1793631522,
+  "time": "2026-11-02T14:58Z",
+  "title": "הודו ובריטניה פועלות לפתרון מחלוקת המכסים על ויסקי סקוטי במסגרת הסכם הסחר",
+  "summary": "גורמים רשמיים מדווחים כי הודו נוקטת צעדים לפתרון מחלוקת המכסים על משקאות אלכוהוליים מוויסקי סקוטי, כחלק מהתקדמות בהסכם סחר מול בריטניה.",
+  "kid": "הודו ובריטניה מנסות לסדר בעיות מס על משקאות כדי שיהיה קל יותר לסחור ביניהן. זה יכול לעזור לחברות משקאות גדולות.",
+  "i18n": {
+   "title": {
+    "he": "הודו ובריטניה פועלות לפתרון מחלוקת המכסים על ויסקי סקוטי במסגרת הסכם הסחר",
+    "en": "India Moves to Resolve Scotch Tariff Dispute Under UK Trade Pact",
+    "ar": "الهند تتحرك لحل نزاع الرسوم الجمركية على الويسكي الاسكتلندي بموجب اتفاقية التجارة",
+    "ru": "Индия стремится разрешить спор по пошлинам на шотландский виски в рамках пакта с УК"
+   },
+   "summary": {
+    "he": "גורמים רשמיים מדווחים כי הודו נוקטת צעדים לפתרון מחלוקת המכסים על משקאות אלכוהוליים מוויסקי סקוטי, כחלק מהתקדמות בהסכם סחר מול בריטניה.",
+    "en": "Officials report that India is taking steps to resolve a tariff dispute over Scotch whisky as part of ongoing progress in a trade pact with the UK.",
+    "ar": "تفيد مصادر بأن الهند تتخذ خطوات لحل نزاع الرسوم الجمركية على الويسكي الاسكتلندي في إطار التقدم باتفاقية التجارة مع بريطانيا.",
+    "ru": "Сообщается, что Индия предпринимает шаги по урегулированию спора по пошлинам на шотландский виски в рамках торгового пакта с Великобританией."
+   },
+   "kid": {
+    "he": "הודו ובריטניה מנסות לסדר בעיות מס על משקאות כדי שיהיה קל יותר לסחור ביניהן. זה יכול לעזור לחברות משקאות גדולות.",
+    "en": "India and Britain are trying to fix tax issues on drinks to make trade easier. This could help major beverage companies.",
+    "ar": "تحاول الهند وبريطانيا تسوية مشكلات الضرائب على المشروبات لتسهيل التجارة بينهما. قد يساعد هذا شركات المشروبات الكبرى.",
+    "ru": "Индия и Великобритания пытаются решить налоговые вопросы по напиткам для упрощения торговли. Это может помочь крупным компаниям."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "up",
+    "t0": 1793631522,
+    "reason": "התקדמות בהסכמי סחר בינלאומיים תומכת בחברות היצוא הבריטיות",
+    "reason_i18n": {
+     "he": "התקדמות בהסכמי סחר בינלאומיים תומכת בחברות היצוא הבריטיות",
+     "en": "Progress in international trade pacts supports British export firms",
+     "ar": "التقدم في اتفاقيات التجارة الدولية يدعم شركات التصدير البريطانية",
+     "ru": "Прогресс в международных торговых соглашениях поддерживает экспортеров Британии"
+    },
+    "name_i18n": {
+     "he": "אי-דאב-יו - קרן סל בריטניה",
+     "en": "EWU - iShares MSCI United Kingdom ETF",
+     "ar": "EWU - صندوق الاستثمار المتداول للأسهم البريطانية",
+     "ru": "EWU - ETF британского рынка акций"
+    },
+    "price_at_alert": 47.94
+   }
+  ],
+  "id": "74dd3e891742"
  }
 ]
