@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T21:40Z",
+ "generated": "2026-11-02T22:25Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 56,
+ "total_alerts": 62,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -56,10 +56,15 @@
    "avg_edge": null
   },
   "IBIT": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
-   "name": {},
+   "name": {
+    "he": "קרן סל ביטוי לביטקוין",
+    "en": "Bitcoin ETF",
+    "ar": "صندوق البيتكوين المتداول",
+    "ru": "Биткоин ETF"
+   },
    "avg_edge": null
   },
   "XOM": {
@@ -94,14 +99,14 @@
    "avg_edge": null
   },
   "ITA": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "איי-טי-איי - קרן סל של חברות תעופה וביטחון בארה\"ב",
-    "en": "ITA - U.S. Aerospace & Defense ETF",
-    "ar": "ITA - صندوق استثماري لقطاع الطيران والدفاع الأمريكي",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    "he": "קרן סל הגנה וביטחון",
+    "en": "Defense ETF",
+    "ar": "صندوق استثمار الدفاع",
+    "ru": "Оборонный ETF"
    },
    "avg_edge": null
   },
@@ -245,26 +250,26 @@
    "avg_edge": null
   },
   "LMT": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "לוקהיד מרטין - יצרנית ביטחונית מובילה",
-    "en": "Lockheed Martin - a leading defense contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي رائد",
-    "ru": "Lockheed Martin - ведущий оборонный подрядчик"
+    "he": "לוקהיד מרטין - יצרנית נשק גדולה",
+    "en": "Lockheed Martin – a major weapons maker",
+    "ar": "لوكهيد مارتن - صانع أسلحة رئيسي",
+    "ru": "Lockheed Martin — крупный производитель оружия"
    },
    "avg_edge": null
   },
   "FXE": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "FXE - קרן סל העוקבת אחר אירו",
-    "en": "FXE – CurrencyShares Euro Trust",
-    "ar": "FXE - صندوق استثماري لعملة اليورو",
-    "ru": "FXE — ETF курса евро"
+    "he": "קרן סל אירו",
+    "en": "Euro Currency ETF",
+    "ar": "صندوق اليورو",
+    "ru": "ETF евро"
    },
    "avg_edge": null
   },
@@ -317,14 +322,14 @@
    "avg_edge": null
   },
   "DBA": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "די-בי-אי - קרן סל לחקלאות",
-    "en": "DBA - Agriculture ETF",
-    "ar": "DBA - صندوق مؤشر الزراعة",
-    "ru": "DBA - ETF сельского хозяйства"
+    "he": "קרן סל חקלאות",
+    "en": "Agriculture ETF",
+    "ar": "صندوق الزراعة المتداول",
+    "ru": "Сельскохозяйственный ETF"
    },
    "avg_edge": null
   },
@@ -365,14 +370,14 @@
    "avg_edge": null
   },
   "FCX": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "Freeport-McMoRan - חברת כריית נחושת",
-    "en": "Freeport-McMoRan - copper miner",
-    "ar": "Freeport-McMoRan - تعدين النحاس",
-    "ru": "Freeport-McMoRan - добытчик меди"
+    "he": "פריפורט מקמوران - חברת כרייה גדולה",
+    "en": "Freeport-McMoRan – a major miner",
+    "ar": "فريبورت ماكموران - شركة تعدين كبرى",
+    "ru": "Freeport-McMoRan — крупная горнодобывающая компания"
    },
    "avg_edge": null
   },
@@ -517,6 +522,18 @@
     "en": "Palantir - a data analytics and software company",
     "ar": "بالانتير - شركة برمجيات وتحليل بيانات",
     "ru": "Palantir - компания по анализу данных и программному обеспечению"
+   },
+   "avg_edge": null
+  },
+  "UAL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "יונייטד איירליינס - חברת תעופה",
+    "en": "United Airlines – an airline",
+    "ar": "يونايتد إيرلاينز - شركة طيران",
+    "ru": "United Airlines — авиакомпания"
    },
    "avg_edge": null
   }
