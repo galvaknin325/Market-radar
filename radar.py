@@ -284,6 +284,14 @@ def analyse(headlines, recent=()):
     wl = ", ".join(f"{k} ({v})" for k, v in WATCHLIST.items())
     rec = "\n".join(f"{a['id']}: {a.get('title', '')}" for a in sorted(recent, key=lambda x: -x["ts"])[:40]) or "(none)"
     prompt = PROMPT.replace("WATCHLIST", wl).replace("RECENT", rec).replace("HEADLINES", lines)
+    data, model = gemini_json(prompt)
+    events = data.get("events", [])
+    log(f"model {model}: {len(events)} events")
+    return events, model
+
+
+def gemini_json(prompt):
+    """Send a prompt, get parsed JSON back. Tries models in order; retries once on rate limits."""
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 16000}}
     last_err = None
@@ -300,9 +308,7 @@ def analyse(headlines, recent=()):
                     raise RuntimeError(f"{r.status_code} {r.text[:200]}")
                 text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
                 text = re.sub(r"^```(json)?|```$", "", text.strip()).strip()
-                events = json.loads(text).get("events", [])
-                log(f"model {model}: {len(events)} events")
-                return events, model
+                return json.loads(text), model
             except Exception as e:
                 last_err = f"{model}: {e}"
                 log("gemini error:", last_err)
@@ -565,8 +571,71 @@ def build_stats():
              "total_alerts": len(allx), "overall": agg(preds),
              "by_category": {c: agg([p for p in preds if p["cat"] == c]) for c in sorted({p["cat"] for p in preds if p["cat"]})},
              "by_severity": {b: agg([p for p in preds if bucket(p["sev"]) == b]) for b in ("1-3", "4-5", "6-7", "8-10")}}
+    tickers = {}
+    for a in allx:
+        for i in a.get("impacts", []):
+            t = tickers.setdefault(i["ticker"], {"mentions": 0, "n": 0, "hits": 0, "edge_sum": 0.0, "name": {}})
+            t["mentions"] += 1
+            if i.get("name_i18n"):
+                t["name"] = i["name_i18n"]
+            if isinstance(i.get("hit"), bool):
+                t["n"] += 1
+                t["hits"] += 1 if i["hit"] else 0
+                t["edge_sum"] += i.get("edge_pct", 0) or 0
+    stats["by_ticker"] = {k: {"mentions": v["mentions"], "n": v["n"], "hits": v["hits"], "name": v["name"],
+                              "avg_edge": round(v["edge_sum"] / v["n"], 2) if v["n"] else None}
+                          for k, v in tickers.items()}
     save(STATS_FILE, stats)
     return stats
+
+
+# ---------------------------------------------------------------- 6b. daily brief
+BRIEF_FILE = "brief.json"
+BRIEF_PROMPT = """You write a short morning market brief for a general audience (many are beginners).
+Below are the market-relevant world events our radar flagged in the last 24 hours, with the
+stocks it thinks may move. Write the brief in 4 languages: he (Hebrew), en, ar (Arabic), ru (Russian).
+For each language return:
+- title: one catchy but accurate line about the day
+- bullets: 3 to 5 short bullets, the most important events first, each saying what happened and
+  which kind of companies may be affected and why (mention tickers in parentheses)
+- kid: 2 sentences a 10-year-old understands summarizing the day
+Only use facts from the events below. No buy/sell advice.
+Return JSON: {"he": {"title":..,"bullets":[..],"kid":..}, "en": {...}, "ar": {...}, "ru": {...}}
+
+Events (severity/10, category, title, summary, tickers):
+EVENTS
+"""
+
+
+def make_brief(state, alerts):
+    """Once a day, after 07:00 Israel time, write brief.json from the last 24h of alerts."""
+    try:
+        from zoneinfo import ZoneInfo
+        now_il = dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
+    except Exception:
+        now_il = dt.datetime.utcnow() + dt.timedelta(hours=2)
+    today = now_il.strftime("%Y-%m-%d")
+    if state.get("brief_date") == today or now_il.hour < 7:
+        return
+    cutoff = time.time() - 86400
+    day = sorted([a for a in alerts if last_activity(a) >= cutoff], key=lambda a: -int(a.get("severity", 0) or 0))[:25]
+    if not day:
+        return
+    lines = "\n".join(
+        f"- {a.get('severity')}/10 | {a.get('category')} | {tr(a.get('i18n', {}).get('title'), 'en') or a.get('title')} | "
+        f"{tr(a.get('i18n', {}).get('summary'), 'en') or a.get('summary', '')} | "
+        + ", ".join(f"{i['ticker']} {'up' if i.get('direction') == 'up' else 'down'}" for i in a.get("impacts", [])[:4])
+        for a in day)
+    try:
+        data, model = gemini_json(BRIEF_PROMPT.replace("EVENTS", lines))
+        brief = {"date": today, "generated": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
+                 "events": len(day), "langs": {k: v for k, v in data.items() if k in ("he", "en", "ar", "ru") and isinstance(v, dict)}}
+        if brief["langs"].get("he"):
+            save(BRIEF_FILE, brief)
+            state["brief_date"] = today
+            log(f"daily brief written ({model})")
+    except Exception as e:
+        log("daily brief failed (will retry next scan):", e)
 
 
 # ---------------------------------------------------------------- 7. one scan
@@ -715,6 +784,7 @@ def main():
         send(chat_id, f"🛰️ בדיקה ידנית הסתיימה: {n_head} כותרות חדשות, {created} התראות חדשות, "
                       f"{merged} עדכונים לסיפורים קיימים ({n_digest} בסיכום המקובץ). מודל: {model}")
 
+    make_brief(state, alerts)
     archive_alerts(alerts)
     stats = build_stats()
     keep = [a for a in alerts if not a.get("evaluated") or now - last_activity(a) < RECENT_DAYS * 86400]

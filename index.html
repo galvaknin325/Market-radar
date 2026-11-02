@@ -4,7 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>מכ"ם השוק · Market Radar</title>
-<meta name="description" content="Market Radar: world events that may move stocks, explained simply.">
+<meta name="description" content="מכ&quot;ם השוק: אירועים בעולם שעלולים להזיז מניות, מוסבר בפשטות. Market Radar: world events that may move stocks, explained simply.">
+<meta name="theme-color" content="#0b0f17">
+<meta property="og:type" content="website">
+<meta property="og:title" content="מכ&quot;ם השוק · Market Radar">
+<meta property="og:description" content="אירועים בעולם שעלולים להזיז מניות, מוסבר בפשטות, ב-4 שפות. World events that may move stocks, explained simply.">
+<meta property="og:image" content="https://galvaknin325.github.io/Market-radar/og.png">
+<meta property="og:url" content="https://galvaknin325.github.io/Market-radar/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Noto+Kufi+Arabic:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <script src="i18n.js"></script>
@@ -86,6 +97,37 @@
   .side-foot button:hover{border-color:var(--accent)}
   .side-foot button[aria-pressed="true"]{border-color:var(--accent)}
 
+  .search{display:flex;gap:.35rem;padding:.6rem .9rem 0}
+  .search input{flex:1;min-width:0;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:.4rem .6rem;color:var(--text);font:inherit;font-size:.88rem}
+  .search button{background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:.35rem .7rem;cursor:pointer;font-weight:700;font-size:.85rem}
+  .brief .bbody{padding:.85rem 1rem 1rem}
+  .brief h3{margin:0 0 .4rem;font-size:1.05rem}
+  .brief ul{margin:.2rem 0 .5rem;padding-inline-start:1.2rem} .brief li{margin:.25rem 0}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:1.25rem;align-items:start}
+  .heat{height:520px} .cal{height:520px} .minechart{height:420px}
+  .lazy:empty::before{content:attr(data-loading);display:block;padding:2rem;text-align:center;color:var(--muted)}
+  .chips{display:flex;gap:.4rem;flex-wrap:wrap;padding:.75rem 1rem}
+  .mchip{display:inline-flex;align-items:center;gap:.35rem;background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:.2rem .3rem .2rem .7rem}
+  .mchip button{background:none;border:0;cursor:pointer;color:var(--muted);padding:.1rem .35rem;border-radius:999px}
+  .mchip .open{color:var(--text);font-weight:700}
+  .hint{color:var(--muted);font-size:.82rem;margin:0;padding:.6rem 1rem 0}
+  .share{display:flex;gap:.5rem;margin-top:.45rem;flex-wrap:wrap}
+  .share button,.share a{font-size:.75rem;background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:.15rem .55rem;cursor:pointer;color:var(--text);text-decoration:none}
+  .stock{position:fixed;top:4vh;left:50%;transform:translateX(-50%);width:min(760px,94vw);max-height:92vh;overflow:auto;background:var(--panel);
+         border:1px solid var(--line);border-radius:16px;z-index:86;padding:1.1rem;display:none;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .stock.open{display:block}
+  .stock h2{margin:0 0 .2rem;font-size:1.3rem;padding-inline-end:2.6rem}
+  .stock .sname{color:var(--muted);font-size:.95rem;margin:0 0 .7rem}
+  .stock .acts{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.7rem}
+  .stock .acts button{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.4rem .8rem;cursor:pointer;font-weight:600}
+  .stock .acts button[aria-pressed="true"]{border-color:var(--yellow);color:var(--yellow)}
+  .stock .schart{height:320px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .stock h3{font-size:.95rem;margin:1rem 0 .4rem}
+  .stock ul{list-style:none;margin:0;padding:0}
+  .stock li button{all:unset;box-sizing:border-box;display:block;width:100%;cursor:pointer;padding:.5rem .7rem;border-radius:10px;background:var(--panel2);margin-bottom:.35rem}
+  .stock li button:focus-visible{outline:3px solid var(--focus)}
+  .stock .close{position:absolute;top:.8rem;inset-inline-end:.8rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1.1rem}
+  .note{position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);background:var(--text);color:var(--bg);border-radius:10px;padding:.5rem 1rem;z-index:95;font-weight:600}
   .topbar{display:none}
   .tape{border-bottom:1px solid var(--line);min-height:46px}
   main{padding:1.25rem 1.5rem 3.5rem;max-width:1200px;width:100%;margin:0 auto}
@@ -183,6 +225,8 @@
     .grid{grid-template-columns:1fr} .grid>.stack:last-child{order:-1} .feed{max-height:none}
     .kpis{grid-template-columns:repeat(2,1fr)} .chart{height:360px} .overview{height:440px} main{padding:.9rem}
     .page-title{display:none}
+    .grid2{grid-template-columns:1fr} .heat,.cal{height:440px}
+    .stock{top:0;width:100vw;max-height:100vh;height:100vh;border-radius:0}
   }
 </style>
 </head>
@@ -206,12 +250,22 @@
       <button type="button" data-lang="ru" lang="ru">Русский</button>
     </div>
 
+    <form class="search" id="searchForm" role="search">
+      <label class="sr-only" for="searchInput" data-i18n="search_ph"></label>
+      <input id="searchInput" list="tickerList" autocomplete="off" spellcheck="false" dir="auto">
+      <button type="submit" data-i18n="search_btn"></button>
+      <datalist id="tickerList"></datalist>
+    </form>
+
     <nav class="menu" id="nav">
       <ul>
         <li><a href="#summary"><span class="ic" aria-hidden="true">🏠</span><span data-i18n="nav_summary"></span></a></li>
         <li><a href="#alerts"><span class="ic" aria-hidden="true">🚨</span><span data-i18n="nav_alerts"></span><span class="badge" id="badge" hidden></span></a></li>
+        <li><a href="#mine"><span class="ic" aria-hidden="true">⭐</span><span data-i18n="nav_mine"></span></a></li>
         <li><a href="#live-chart"><span class="ic" aria-hidden="true">📈</span><span data-i18n="nav_chart"></span></a></li>
         <li><a href="#markets"><span class="ic" aria-hidden="true">🌐</span><span data-i18n="nav_markets"></span></a></li>
+        <li><a href="#heatmap"><span class="ic" aria-hidden="true">🗺️</span><span data-i18n="nav_heatmap"></span></a></li>
+        <li><a href="#calendar"><span class="ic" aria-hidden="true">📅</span><span data-i18n="nav_calendar"></span></a></li>
         <li><a href="#accuracy"><span class="ic" aria-hidden="true">🎯</span><span data-i18n="nav_accuracy"></span></a></li>
         <li><a href="#guide"><span class="ic" aria-hidden="true">📚</span><span data-i18n="nav_guide"></span></a></li>
       </ul>
@@ -223,6 +277,7 @@
     <div class="side-foot">
       <button type="button" id="simpleBtn" aria-pressed="true"><span aria-hidden="true">🧒</span><span id="simpleLabel"></span></button>
       <button type="button" id="notifyBtn" aria-pressed="false"><span aria-hidden="true">🔔</span><span id="notifyLabel"></span></button>
+      <button type="button" id="installBtn" hidden><span data-i18n="install"></span></button>
       <button type="button" id="a11yBtn" aria-haspopup="dialog" aria-controls="a11y"><span aria-hidden="true">♿</span><span data-i18n="a11y"></span></button>
     </div>
   </aside>
@@ -240,6 +295,11 @@
     <main id="main" tabindex="-1">
       <p class="page-title" data-i18n="tagline"></p>
       <div class="banner" id="banner"><span data-i18n="banner"></span><a href="#guide" data-i18n="banner_btn"></a></div>
+
+      <section class="card brief" id="brief" hidden aria-labelledby="briefHead" style="margin-bottom:1.25rem">
+        <h2 id="briefHead"><span data-i18n="brief_head"></span><small id="briefMeta"></small></h2>
+        <div class="bbody" id="briefBody"></div>
+      </section>
 
       <section id="summary" style="scroll-margin-top:1rem">
         <div class="kpis">
@@ -277,13 +337,32 @@
         </div>
       </div>
 
+      <section class="card" id="mine" aria-labelledby="mineHead" style="margin-top:1.25rem">
+        <h2 id="mineHead" data-i18n="mine_head"></h2>
+        <div class="chips" id="mineList"></div>
+        <div class="minechart lazy" id="mineChart" role="img"></div>
+      </section>
+
+      <div class="grid2">
+        <section class="card" id="heatmap" aria-labelledby="heatHead">
+          <h2 id="heatHead" data-i18n="heat_head"></h2>
+          <p class="hint" data-i18n="heat_hint"></p>
+          <div class="heat lazy" id="heatW" role="img"></div>
+        </section>
+        <section class="card" id="calendar" aria-labelledby="calHead">
+          <h2 id="calHead" data-i18n="cal_head"></h2>
+          <p class="hint" data-i18n="cal_hint"></p>
+          <div class="cal lazy" id="calW"></div>
+        </section>
+      </div>
+
       <section class="card" id="guide" aria-labelledby="guideHead">
         <h2 id="guideHead" data-i18n="guide_title"></h2>
         <p class="guide-sub" data-i18n="guide_sub"></p>
         <div class="guide" id="guideCards"></div>
       </section>
 
-      <footer data-i18n="footer"></footer>
+      <footer><span data-i18n="footer"></span> · <a href="accessibility.html" data-i18n="a11y_statement"></a></footer>
     </main>
   </div>
 </div>
@@ -314,6 +393,21 @@
   <button type="button" class="reset" id="a11yReset" data-i18n="a11y_reset"></button>
 </div>
 
+<div class="a11y-backdrop" id="stockBackdrop"></div>
+<div class="stock" id="stock" role="dialog" aria-modal="true" aria-labelledby="stockTitle">
+  <button type="button" class="close" id="stockClose">✕</button>
+  <h2 id="stockTitle"><span class="mono" id="stockSym"></span></h2>
+  <p class="sname" id="stockName"></p>
+  <div class="acts">
+    <button type="button" id="starBtn" aria-pressed="false"></button>
+    <button type="button" id="bigChartBtn" data-i18n="stock_big_chart"></button>
+  </div>
+  <div class="schart" id="stockChart" role="img"></div>
+  <p id="stockStats" style="margin:.7rem 0 0"></p>
+  <h3 data-i18n="stock_alerts"></h3>
+  <ul id="stockAlerts"></ul>
+</div>
+
 <div class="toasts" id="toasts" aria-live="polite"></div>
 <div class="sr-only" id="srStatus" aria-live="polite"></div>
 
@@ -334,7 +428,7 @@ const store = {
   get(k, d){ try { const v = localStorage.getItem("mr_" + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v){ try { localStorage.setItem("mr_" + k, JSON.stringify(v)); } catch {} }
 };
-const alertId = a => String(a.ts) + "|" + (a.title || "");
+const alertId = a => a.id || (String(a.ts) + "|" + (a.title || ""));
 const domId = a => "a-" + alertId(a).replace(/[^\w-]/g, "_");
 
 /* ---------- language ---------- */
@@ -345,7 +439,9 @@ const T = (k, ...args) => { const v = (I18N[LANG] || I18N.he)[k] ?? I18N.he[k]; 
 // text of an alert field in the current language, falling back to Hebrew
 const L = (obj, fallback) => (obj && (obj[LANG] || obj.he)) || fallback || "";
 
-let STATS = null;
+let STATS = null, BRIEF = null;
+let MINE = store.get("mine", []);
+const LOADED = new Set();   // lazy widgets already drawn
 let ALERTS = [], FILTER = "all", CHART_SYM = "SPY", FIRST_LOAD = true, KNOWN = new Set();
 let lastSeen = store.get("lastSeen", 0);
 let SIMPLE = store.get("simple", true);
@@ -364,6 +460,9 @@ function applyLang(){
   $("filters").setAttribute("aria-label", T("filter_aria"));
   $("overview").setAttribute("aria-label", T("markets_aria"));
   document.querySelectorAll("[data-size]").forEach((b, i) => b.textContent = T("sizes")[i]);
+  $("searchInput").placeholder = T("search_ph");
+  $("stockClose").setAttribute("aria-label", T("close"));
+  document.querySelectorAll(".lazy").forEach(el => el.dataset.loading = T("lazy_loading"));
   $("guideCards").innerHTML = T("guide").map(([t, p]) => `<article><h3>${esc(t)}</h3><p>${esc(p)}</p></article>`).join("");
   applyA11y(); updateNotifyBtn(); updateSimple();
 }
@@ -430,7 +529,32 @@ function initWidgets(){
            tab("fx", ["UUP","FXE","FXY","IBIT"]),
            tab("sectors", ["XLK","SMH","XLF","XLV","XLI","XLU","JETS"])]});
   showChart(CHART_SYM);
+  LOADED.forEach(id => drawLazy(id));
 }
+
+/* lazy widgets: drawn only when scrolled into view (they are heavy) */
+function drawLazy(id){
+  const theme = themeForWidgets(), loc = T("tv");
+  if (id === "heatW") widget($("heatW"), "embed-widget-stock-heatmap.js", {
+    dataSource: "SPX500", blockSize: "market_cap_basic", blockColor: "change", grouping: "sector", locale: loc,
+    colorTheme: theme, hasTopBar: false, isDataSetEnabled: false, isZoomEnabled: true, hasSymbolTooltip: true,
+    isMonoSize: false, width: "100%", height: "100%"});
+  if (id === "calW") widget($("calW"), "embed-widget-events.js", {
+    colorTheme: theme, isTransparent: true, width: "100%", height: "100%", locale: loc,
+    importanceFilter: "0,1", countryFilter: "us,il,eu,gb,cn,jp"});
+  if (id === "mineChart"){
+    if (!MINE.length){ $("mineChart").innerHTML = ""; $("mineChart").hidden = true; return; }
+    $("mineChart").hidden = false;
+    widget($("mineChart"), "embed-widget-market-overview.js", {
+      colorTheme: theme, dateRange: "1M", showChart: true, locale: loc, isTransparent: true, width: "100%", height: "100%",
+      showSymbolLogo: false, plotLineColorGrowing: "#22c55e", plotLineColorFalling: "#ef4444",
+      tabs: [{title: T("nav_mine"), symbols: MINE.map(t => ({s: tv(t), d: t}))}]});
+  }
+}
+const lazyObserver = "IntersectionObserver" in window ? new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting && !LOADED.has(en.target.id)){ LOADED.add(en.target.id); drawLazy(en.target.id); } });
+}, {rootMargin: "300px"}) : null;
+function watchLazy(){ ["heatW", "calW", "mineChart"].forEach(id => lazyObserver ? lazyObserver.observe($(id)) : (LOADED.add(id), drawLazy(id))); }
 
 /* ---------- rendering ---------- */
 function fmtTime(a){
@@ -446,6 +570,12 @@ const sorted = () => [...ALERTS].sort((a, b) => act(b) - act(a));
 const unread = () => ALERTS.filter(a => act(a) > lastSeen);
 const titleOf = a => L(a.i18n && a.i18n.title, a.title);
 const catName = c => (T("cats") || {})[c] || c || "";
+function tickerName(t){
+  const st = STATS && STATS.by_ticker && STATS.by_ticker[t];
+  if (st && st.name && (st.name[LANG] || st.name.he)) return L(st.name, "");
+  for (const a of sorted()) for (const i of impactsOf(a)) if (i.ticker === t && i.name_i18n) return L(i.name_i18n, "");
+  return "";
+}
 
 function overall(){
   if (STATS && STATS.overall) return STATS.overall;
@@ -487,9 +617,26 @@ function renderSidebar(){
 
 function renderFilters(){
   const present = [...new Set(ALERTS.map(a => a.category).filter(Boolean))];
-  const opts = [["all", T("f_all")], ["mid", T("f_mid")], ["high", T("f_high")], ...present.map(c => [c, `${CAT_ICON[c] || "📰"} ${catName(c)}`])];
+  const opts = [["all", T("f_all")], ...(MINE.length ? [["mine", T("f_mine")]] : []), ["mid", T("f_mid")], ["high", T("f_high")], ...present.map(c => [c, `${CAT_ICON[c] || "📰"} ${catName(c)}`])];
   $("filters").innerHTML = opts.map(([k, l]) =>
     `<button type="button" class="chip" data-f="${esc(k)}" aria-pressed="${FILTER === k}">${esc(l)}</button>`).join("");
+}
+
+function alertUrl(a){ return location.origin + location.pathname + "#" + domId(a); }
+function shareBlock(a, title){
+  const text = `${title} · ${T("share_suffix")}`;
+  return `<div class="share"><button type="button" data-share="${esc(alertId(a))}">${esc(T("share"))}</button>
+    <a href="https://wa.me/?text=${encodeURIComponent(text + "\n" + alertUrl(a))}" target="_blank" rel="noopener">${esc(T("whatsapp"))}<span class="sr-only"> ${esc(T("new_window"))}</span></a></div>`;
+}
+function note(msg){
+  const n = document.createElement("div"); n.className = "note"; n.setAttribute("role", "status"); n.textContent = msg;
+  document.body.append(n); setTimeout(() => n.remove(), 2500);
+}
+async function shareAlert(id){
+  const a = ALERTS.find(x => alertId(x) === id); if (!a) return;
+  const title = titleOf(a), url = alertUrl(a);
+  if (navigator.share){ try { await navigator.share({title: T("brand"), text: `${title} · ${T("share_suffix")}`, url}); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+  try { await navigator.clipboard.writeText(url); note(T("copied")); } catch { note(url); }
 }
 
 function updatesBlock(a){
@@ -503,9 +650,10 @@ function renderFeed(){
   let list = sorted();
   if (FILTER === "high") list = list.filter(a => a.severity >= 8);
   else if (FILTER === "mid") list = list.filter(a => a.severity >= 6);
+  else if (FILTER === "mine") list = list.filter(a => impactsOf(a).some(i => MINE.includes(i.ticker)));
   else if (FILTER !== "all") list = list.filter(a => a.category === FILTER);
   $("feedCount").textContent = T("feed_count", list.length);
-  if (!list.length){ $("feed").innerHTML = `<div class="empty">${esc(ALERTS.length ? T("feed_empty_filter") : T("feed_empty"))}</div>`; return; }
+  if (!list.length){ $("feed").innerHTML = `<div class="empty">${esc(!ALERTS.length ? T("feed_empty") : FILTER === "mine" ? T("mine_no_alerts") : T("feed_empty_filter"))}</div>`; return; }
   $("feed").innerHTML = list.map(a => {
     const title = titleOf(a), summary = L(a.i18n && a.i18n.summary, a.summary), kid = L(a.i18n && a.i18n.kid, a.kid);
     const imps = impactsOf(a).map(i => {
@@ -536,7 +684,7 @@ function renderFeed(){
         <div class="a-meta"><span class="sevtag ${sevClass(a.severity)}">${esc(sevText(a.severity))}</span>${fmtTime(a)}${a.updates && a.updates.length ? " · 🔄" : ""}</div></div>
       ${SIMPLE && kid ? `<div class="kid"><b>🧒 ${esc(T("simply"))}:</b> ${esc(kid)}</div>` : ""}
       ${summary && (!SIMPLE || !kid) ? `<div class="a-sum">${esc(summary)}</div>` : ""}
-      ${imps}${updatesBlock(a)}${srcs ? `<div class="src">${srcs}</div>` : ""}</article>`;
+      ${imps}${updatesBlock(a)}${srcs ? `<div class="src">${srcs}</div>` : ""}${shareBlock(a, title)}</article>`;
   }).join("");
 }
 
@@ -555,7 +703,71 @@ function renderByCat(){
     statTable(sev, T("th_size"), k => `${esc(words[idx[k]])} <span class="mono" style="color:var(--muted)">(${k})</span>`);
 }
 
-function renderAll(){ renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); }
+function renderBrief(){
+  const b = BRIEF && BRIEF.langs && (BRIEF.langs[LANG] || BRIEF.langs.he);
+  const fresh = BRIEF && (Date.now() - new Date(BRIEF.generated)) < 36 * 3600 * 1000;
+  $("brief").hidden = !(b && fresh);
+  if (!b || !fresh) return;
+  $("briefMeta").textContent = `${T("brief_based", BRIEF.events)} · ${new Date(BRIEF.generated).toLocaleDateString(T("date"), {timeZone: "Asia/Jerusalem", day: "2-digit", month: "2-digit"})}`;
+  $("briefBody").innerHTML = `<h3>${esc(b.title || "")}</h3><ul>${(b.bullets || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>` +
+    (SIMPLE && b.kid ? `<div class="kid"><b>🧒 ${esc(T("simply"))}:</b> ${esc(b.kid)}</div>` : "");
+}
+function renderMine(){
+  $("mineList").innerHTML = MINE.length ? MINE.map(t => `<span class="mchip"><button type="button" class="open mono" data-t="${esc(t)}">${esc(t)}</button>
+      <button type="button" data-unstar="${esc(t)}" aria-label="${esc(T("remove"))} ${esc(t)}">✕</button></span>`).join("")
+    : `<p class="hint" style="padding:0">${esc(T("mine_empty"))}</p>`;
+  if (LOADED.has("mineChart") || !MINE.length) drawLazy("mineChart");
+}
+function toggleStar(t){
+  MINE = MINE.includes(t) ? MINE.filter(x => x !== t) : [...MINE, t];
+  store.set("mine", MINE);
+  if (FILTER === "mine" && !MINE.length) FILTER = "all";
+  renderMine(); renderFilters(); renderFeed(); updateStarBtn(t);
+}
+function fillDatalist(){
+  const set = new Set([...Object.keys(EXCH), ...ALERTS.flatMap(a => impactsOf(a).map(i => i.ticker)), ...Object.keys((STATS && STATS.by_ticker) || {})]);
+  $("tickerList").innerHTML = [...set].sort().map(t => `<option value="${esc(t)}">${esc(tickerName(t))}</option>`).join("");
+}
+
+/* ---------- stock card ---------- */
+let STOCK = null, stockReturn = null;
+function updateStarBtn(t){
+  if (STOCK !== t) return;
+  const on = MINE.includes(t);
+  $("starBtn").setAttribute("aria-pressed", String(on));
+  $("starBtn").textContent = on ? T("star_remove") : T("star_add");
+}
+function openStock(t, from){
+  t = String(t || "").trim().toUpperCase(); if (!t) return;
+  STOCK = t; stockReturn = from || document.activeElement;
+  $("stock").setAttribute("aria-label", T("stock_dialog", t));
+  $("stockSym").textContent = t;
+  $("stockName").textContent = tickerName(t);
+  updateStarBtn(t);
+  const st = STATS && STATS.by_ticker && STATS.by_ticker[t];
+  const parts = [];
+  if (st && st.mentions) parts.push(T("stock_mentions", st.mentions));
+  parts.push(st && st.n ? T("stock_acc", st.hits, st.n) + (st.avg_edge != null ? ` (${pct(st.avg_edge)})` : "") : T("stock_acc_none"));
+  $("stockStats").textContent = parts.join(" · ");
+  const rel = sorted().filter(a => impactsOf(a).some(i => i.ticker === t)).slice(0, 12);
+  $("stockAlerts").innerHTML = rel.length ? rel.map(a => {
+    const i = impactsOf(a).find(x => x.ticker === t), up = i.direction === "up";
+    return `<li><button type="button" data-goto="${esc(alertId(a))}"><b>${CAT_ICON[a.category] || "📰"} ${esc(titleOf(a))}</b><br>
+      <span class="${up ? "up" : "down"}">${up ? "▲" : "▼"} ${esc(up ? T("up_word") : T("down_word"))}</span> · <span style="color:var(--muted)">${esc(sevText(a.severity))} · ${fmtTime(a)}</span></button></li>`;
+  }).join("") : `<li class="hint" style="padding:0">${esc(T("stock_no_alerts"))}</li>`;
+  widget($("stockChart"), "embed-widget-symbol-overview.js", {
+    symbols: [[t, tv(t) + "|1M"]], chartOnly: false, width: "100%", height: "100%", locale: T("tv"), colorTheme: themeForWidgets(),
+    autosize: true, showVolume: false, hideDateRanges: false, scalePosition: "right", scaleMode: "Normal", chartType: "area",
+    dateRanges: ["1d|1", "1m|30", "3m|60", "12m|1D", "60m|1W", "all|1M"], isTransparent: true});
+  $("stock").classList.add("open"); $("stockBackdrop").classList.add("open"); $("stockClose").focus();
+}
+function closeStock(){
+  if (!$("stock").classList.contains("open")) return;
+  $("stock").classList.remove("open"); $("stockBackdrop").classList.remove("open"); $("stockChart").innerHTML = "";
+  if (stockReturn && document.contains(stockReturn)) stockReturn.focus();
+}
+
+function renderAll(){ renderBrief(); renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); renderMine(); fillDatalist(); }
 
 /* ---------- new-alert popups ---------- */
 function toast(a){
@@ -584,7 +796,7 @@ function updateNotifyBtn(){
 
 /* ---------- navigation ---------- */
 function goTo(id){
-  closeMenu();
+  closeMenu(); closeStock();
   if (FILTER !== "all"){ FILTER = "all"; renderFilters(); renderFeed(); }
   const el = document.getElementById("a-" + id.replace(/[^\w-]/g, "_"));
   if (!el) return;
@@ -620,6 +832,7 @@ async function load(){
     if (!Array.isArray(ALERTS)) ALERTS = [];
   } catch { ALERTS = []; }
   try { const r = await fetch("stats.json" + bust, {cache: "no-store"}); STATS = r.ok ? await r.json() : null; } catch { STATS = null; }
+  try { const r = await fetch("brief.json" + bust, {cache: "no-store"}); BRIEF = r.ok ? await r.json() : null; } catch { BRIEF = null; }
   try { LAST_RUN = new Date((await (await fetch("state.json" + bust, {cache: "no-store"})).json()).last_run); if (isNaN(LAST_RUN)) LAST_RUN = null; }
   catch { LAST_RUN = null; }
   renderStatus();
@@ -628,16 +841,30 @@ async function load(){
   if (!FIRST_LOAD) fresh.sort((a, b) => a.ts - b.ts).forEach(a => { toast(a); browserNotify(a); });
   ALERTS.forEach(a => KNOWN.add(alertId(a)));
   if (!FIRST_LOAD && fresh.length) $("srStatus").textContent = T("new_count", fresh.length);
+  const wasFirst = FIRST_LOAD;
   FIRST_LOAD = false;
   renderAll();
+  if (wasFirst && location.hash.startsWith("#a-")) openHash();
 }
+
+function openHash(){
+  const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (!el || !el.classList.contains("alert")) return;
+  if (FILTER !== "all"){ FILTER = "all"; renderFilters(); renderFeed(); }
+  const again = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  again.scrollIntoView({block: "center"}); again.focus({preventScroll: true});
+  again.classList.remove("flash"); void again.offsetWidth; again.classList.add("flash");
+}
+window.addEventListener("hashchange", openHash);
 
 /* ---------- events ---------- */
 document.addEventListener("click", e => {
   if ($("side").classList.contains("open") && !e.target.closest("#side") && !e.target.closest("#menuBtn")) closeMenu();
   const g = e.target.closest("[data-goto]"); if (g){ goTo(g.dataset.goto); const t = g.closest(".toast"); if (t) t.remove(); return; }
   if (e.target.closest("[data-dismiss]")){ e.target.closest(".toast").remove(); return; }
-  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); $("live-chart").scrollIntoView({block: "start"}); $("chartHead").focus({preventScroll: true}); return; }
+  const t = e.target.closest("[data-t]"); if (t){ openStock(t.dataset.t, t); return; }
+  const sh = e.target.closest("[data-share]"); if (sh){ shareAlert(sh.dataset.share); return; }
+  const us = e.target.closest("[data-unstar]"); if (us){ toggleStar(us.dataset.unstar); return; }
   const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); return; }
   const lg = e.target.closest("[data-lang]");
   if (lg){ LANG = lg.dataset.lang; store.set("lang", LANG); applyLang(); renderStatus(); renderAll(); initWidgets(); return; }
@@ -654,7 +881,23 @@ document.addEventListener("click", e => {
   }
   if (e.target.closest("nav.menu a")) closeMenu();
 });
-$("simpleBtn").addEventListener("click", () => { SIMPLE = !SIMPLE; store.set("simple", SIMPLE); updateSimple(); renderFeed(); });
+$("simpleBtn").addEventListener("click", () => { SIMPLE = !SIMPLE; store.set("simple", SIMPLE); updateSimple(); renderFeed(); renderBrief(); });
+$("searchForm").addEventListener("submit", e => { e.preventDefault(); const v = $("searchInput").value; if (v.trim()){ closeMenu(); openStock(v, $("searchInput")); $("searchInput").value = ""; } });
+$("starBtn").addEventListener("click", () => STOCK && toggleStar(STOCK));
+$("bigChartBtn").addEventListener("click", () => { const t = STOCK; closeStock(); showChart(t); $("live-chart").scrollIntoView({block: "start"}); $("chartHead").focus({preventScroll: true}); });
+$("stockClose").addEventListener("click", closeStock);
+$("stockBackdrop").addEventListener("click", closeStock);
+
+/* ---------- install as an app ---------- */
+let installEvt = null;
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; $("installBtn").hidden = false; });
+const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.navigator.standalone;
+if (isIOS) $("installBtn").hidden = false;
+$("installBtn").addEventListener("click", async () => {
+  if (installEvt){ installEvt.prompt(); try { await installEvt.userChoice; } catch {} installEvt = null; $("installBtn").hidden = true; }
+  else note(T("install_ios"));
+});
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 $("markRead").addEventListener("click", markAllRead);
 $("menuBtn").addEventListener("click", () => $("side").classList.contains("open") ? closeMenu() : openMenu());
 $("a11yBtn").addEventListener("click", e => openA11y(e.currentTarget));
@@ -673,11 +916,13 @@ $("notifyBtn").addEventListener("click", async () => {
 });
 document.addEventListener("keydown", e => {
   if (e.key === "Escape"){
-    if ($("a11y").classList.contains("open")) closeA11y();
+    if ($("stock").classList.contains("open")) closeStock();
+    else if ($("a11y").classList.contains("open")) closeA11y();
     else if ($("side").classList.contains("open")){ closeMenu(); $("menuBtn").focus(); }
   }
-  if (e.key === "Tab" && $("a11y").classList.contains("open")){
-    const f = [...$("a11y").querySelectorAll("button")]; const first = f[0], last = f[f.length - 1];
+  const dlg = $("stock").classList.contains("open") ? $("stock") : $("a11y").classList.contains("open") ? $("a11y") : null;
+  if (e.key === "Tab" && dlg){
+    const f = [...dlg.querySelectorAll("button")]; const first = f[0], last = f[f.length - 1];
     if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
   }
@@ -687,6 +932,7 @@ applyLang();
 $("statusText").textContent = T("status_loading");
 $("feed").innerHTML = `<div class="empty">${esc(T("status_loading"))}</div>`;
 initWidgets();
+watchLazy();
 load();
 setInterval(load, 2 * 60 * 1000);
 setInterval(renderStatus, 60 * 1000);
