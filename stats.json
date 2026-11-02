@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T15:32Z",
+ "generated": "2026-11-02T15:40Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 27,
+ "total_alerts": 31,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -71,6 +71,18 @@
     "en": "ExxonMobil - major energy company",
     "ar": "ExxonMobil - شركة طاقة كبرى",
     "ru": "ExxonMobil - крупная энергетическая компания"
+   },
+   "avg_edge": null
+  },
+  "ZIM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "צים – חברת ספנות והובלה ימית",
+    "en": "ZIM Integrated Shipping Services",
+    "ar": "צים – شركة الشحن البحري",
+    "ru": "ZIM – судоходная компания"
    },
    "avg_edge": null
   },
@@ -149,14 +161,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ספיי - קרן סל עוקבת אחרי מדד S&P 500",
-    "en": "SPY - S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر S&P 500",
-    "ru": "SPY - фонд индекса S&P 500"
+    "he": "קרן סל מדד S&P 500",
+    "en": "S&P 500 ETF",
+    "ar": "صندوق مؤشر S&P 500",
+    "ru": "ETF индекса S&P 500"
    },
    "avg_edge": null
   },
@@ -173,26 +185,26 @@
    "avg_edge": null
   },
   "CPER": {
-   "mentions": 1,
-   "n": 0,
-   "hits": 0,
-   "name": {
-    "he": "קרן סל נחושת",
-    "en": "United States Copper Index Fund",
-    "ar": "صندوق مؤشر النحاس الأمريكي",
-    "ru": "ETF индекса меди"
-   },
-   "avg_edge": null
-  },
-  "CRWD": {
    "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike - cybersecurity firm",
-    "ar": "CrowdStrike - شركة أمن سيبراني",
-    "ru": "CrowdStrike - компания кибербезопасности"
+    "he": "קרן סל נחושת",
+    "en": "Copper ETF",
+    "ar": "صندوق النحاس",
+    "ru": "ETF на медь"
+   },
+   "avg_edge": null
+  },
+  "CRWD": {
+   "mentions": 3,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קראודסטרייק – חברת אבטחת סייבר",
+    "en": "CrowdStrike – cybersecurity firm",
+    "ar": "كراودسترايك – شركة الأمن السيبراني",
+    "ru": "CrowdStrike – компания кибербезопасности"
    },
    "avg_edge": null
   },
@@ -209,14 +221,14 @@
    "avg_edge": null
   },
   "TLT": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "טי-אל-טי - קרן סל אג\"ח ממשלתי ארוך",
-    "en": "TLT - Long-term Treasury ETF",
-    "ar": "TLT - صندوق سندات الخزانة طويلة الأجل",
-    "ru": "TLT - ETF долгосрочных гособлигаций США"
+    "he": "קרן סל אג\"ח ממשלת ארה\"ב לטווח ארוך",
+    "en": "Long-Term US Treasury ETF",
+    "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
+    "ru": "ETF длинных гособлигаций США"
    },
    "avg_edge": null
   },
@@ -281,14 +293,14 @@
    "avg_edge": null
   },
   "QQQ": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קיו-קיו-קיו - קרן סל של מניות טכנולוגיה מובילות",
-    "en": "QQQ - Nasdaq 100 ETF",
-    "ar": "QQQ - صندوق مؤشر ناسداك 100",
-    "ru": "QQQ - ETF на индекс Nasdaq 100"
+    "he": "קרן סל נאסד\"ק 100",
+    "en": "Nasdaq 100 ETF",
+    "ar": "صندوق مؤشر ناسداك 100",
+    "ru": "ETF индекса Nasdaq 100"
    },
    "avg_edge": null
   },
@@ -349,6 +361,30 @@
     "en": "EWC - Canada ETF",
     "ar": "EWC - صندوق كندا للاستثمار",
     "ru": "EWC - ETF Канады"
+   },
+   "avg_edge": null
+  },
+  "FCX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "פריפורט-מקמורן – ענקית כריית נחושת",
+    "en": "Freeport-McMoRan – major copper miner",
+    "ar": "فريبورت-ماكموران – شركة تعدين نحاس كبرى",
+    "ru": "Freeport-McMoRan – крупный добытчик меди"
+   },
+   "avg_edge": null
+  },
+  "FDX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "פדקס – חברת השילוח והלוגיסטיקה",
+    "en": "FedEx – shipping and logistics company",
+    "ar": "فيديكس – شركة الشحن واللوجستيات",
+    "ru": "FedEx – логистическая компания"
    },
    "avg_edge": null
   }

@@ -58,6 +58,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZ9IBwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelh4emY1c283bW9YdGhWUW4yTXBnYS1qTXQ3VFJFZC1qV2JLY3lTc0dVVF9GZVQ5OWRRQ1BwZEQ1ejIxM0dnS1lSV0RyaG9BWi1ncXhXM1hac2ZWN0dqbVBSVDUwYUE5WTV4LXRDenNYdHJBb1JZZ2J0T0I2bTBxSnZZYXVVOGxjd0E?oc=5"
    }
   ],
   "impacts": [
@@ -91,6 +95,25 @@
      "ru": "ExxonMobil - крупная энергетическая компания"
     },
     "price_at_alert": 183.3
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "down",
+    "t0": 1793633980,
+    "reason": "חזרה לשיוט חופשי מצמצמת את שיבושי הספנות המקפיצים תעריפים.",
+    "reason_i18n": {
+     "he": "חזרה לשיוט חופשי מצמצמת את שיבושי הספנות המקפיצים תעריפים.",
+     "en": "Restoring free navigation reduces freight rate spikes driven by route disruptions.",
+     "ar": "استعادة الملاحة الحرة تخفض قفزات أسعار الشحن الناتجة عن تعطيل الطرق.",
+     "ru": "Восстановление судоходства снижает сказки фрахтовых ставок из-за сбоев маршрутов."
+    },
+    "name_i18n": {
+     "he": "צים – חברת ספנות והובלה ימית",
+     "en": "ZIM Integrated Shipping Services",
+     "ar": "צים – شركة الشحن البحري",
+     "ru": "ZIM – судоходная компания"
+    },
+    "price_at_alert": 28.855
    }
   ],
   "id": "f655ba3c5dfb",
@@ -118,9 +141,21 @@
      "ar": "طالبت إيران بإنهاء الحصار البحري الأمريكي كشرط لاتفاق مضيق هرمز، بينما انخفضت واردات اليابان من النفط السعودي إلى أدنى مستوياتها.",
      "ru": "Иран потребовал прекратить военно-морскую блокаду США в качестве условия соглашения по Ормузскому проливу, в то время как импорт нефти Японией упал до многолетних минимумов."
     }
+   },
+   {
+    "ts": 1793633980,
+    "time": "2026-11-02T15:39Z",
+    "severity": 6,
+    "summary": "איראן הציעה תנאים לפתיחת מצר הורמוז מחדש בתוך 48 שעות, צעד שיכול להקל על תנועת הספנות ומחירי האנרגיה העולמיים.",
+    "i18n": {
+     "he": "איראן הציעה תנאים לפתיחת מצר הורמוז מחדש בתוך 48 שעות, צעד שיכול להקל על תנועת הספנות ומחירי האנרגיה העולמיים.",
+     "en": "Iran has offered terms to reopen the strategic Strait of Hormuz within 48 hours, potentially easing maritime transit and global energy pressures.",
+     "ar": "عرضت إيران شروطاً لإعادة فتح مضيق هرمز الاستراتيجي خلال 48 ساعة، مما قد يخفف الضغوط على حركة الشحن وطاقة العالم.",
+     "ru": "Иран предложил условия для открытия Ормузского пролива в течение 48 часов, что потенциально ослабит давление на энергетические рынки."
+    }
    }
   ],
-  "last_update": 1793633180
+  "last_update": 1793633980
  },
  {
   "ts": 1793630119,
@@ -1744,5 +1779,298 @@
    }
   ],
   "id": "78f434e0d93c"
+ },
+ {
+  "ts": 1793633980,
+  "time": "2026-11-02T15:39Z",
+  "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+  "summary": "מדד מנהלי הרכש (PMI) לסדת הייצור בארה\"ב באוקטובר ירד ל-54.9, מתחת לתחזית של 56.0. במקביל, רכיב אינפלציית מחירי המכירה הגיע לרמה הגבוהה ביותר מאז ספטמבר 2022.",
+  "kid": "הייצור התעשייתי בארה\"ב גדל קצת פחות מהמצופה, אבל המחירים שהחברות גובות ממשיכים לעלות מהר. זה יכול להשפיע על מניות טכנולוגיה ותעשייה כי זה מלחיץ את השווקים לגבי המשך עליית מחירים.",
+  "i18n": {
+   "title": {
+    "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+    "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
+    "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
+    "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
+   },
+   "summary": {
+    "he": "מדד מנהלי הרכש (PMI) לסדת הייצור בארה\"ב באוקטובר ירד ל-54.9, מתחת לתחזית של 56.0. במקביל, רכיב אינפלציית מחירי המכירה הגיע לרמה הגבוהה ביותר מאז ספטמבר 2022.",
+    "en": "The US October Manufacturing PMI came in at 54.9, below the forecasted 56.0, while selling price inflation reached its highest level since September 2022.",
+    "ar": "جاء مؤشر مديري المشتريات الصناعي الأمريكي لشهر أكتوبر عند 54.9، دون توقعات البالغة 56.0، بينما بلغ تضخم أسعار البيع أعلى مستوياته منذ سبتمبر 2022.",
+    "ru": "Индекс PMI в обрабатывающей промышленности США за октябрь составил 54.9 (ниже прогноза 56.0), при этом инфляция ценпродаж достигла максимума с сентября 2022 года."
+   },
+   "kid": {
+    "he": "הייצור התעשייתי בארה\"ב גדל קצת פחות מהמצופה, אבל המחירים שהחברות גובות ממשיכים לעלות מהר. זה יכול להשפיע על מניות טכנולוגיה ותעשייה כי זה מלחיץ את השווקים לגבי המשך עליית מחירים.",
+    "en": "US manufacturing grew slightly less than expected, but prices charged by companies are rising fast. This could impact stock markets by fueling worries about inflation and interest rates.",
+    "ar": "نما التصنيع الأمريكي بأقل قليلاً من المتوقع، لكن الأسعار التي تتقاضاها الشركات ترتفع بسرعة. قد يؤثر ذلك على الأسهم بسبب مخاوف التضخم.",
+    "ru": "Промышленное производство в США росло чуть медленнее ожиданий, но цены продажи растут быстро. Это может повлиять на акции из-за опасений по поводу инфляции."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6dkI4XzFWbE5YZVEyRUIyN19senFHRFpvY0ktREZvMVJNOGpNQkszeVhmSHQtWF9leE85VUExSlpXRlpKVnBJbzZrXzRReGJBMWNMZG1aV1B6aWh4WEpiTzRXMlgxT1huUF9YR3Fjb1pJajQyb2c?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1793633980,
+    "reason": "אינפלציית מחירים גבוהה בייצור מעלה חששות מהעלאות ריבית נוספות.",
+    "reason_i18n": {
+     "he": "אינפלציית מחירים גבוהה בייצור מעלה חששות מהעלאות ריבית נוספות.",
+     "en": "Higher selling price inflation raises concerns over sticky inflation and rates.",
+     "ar": "تضخم أسعار البيع يثير مخاوف بشأن أسعار الفائدة.",
+     "ru": "Ускорение инфляции цен усиливает опасения по поводу процентных ставок."
+    },
+    "name_i18n": {
+     "he": "קרן סל מדד S&P 500",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق مؤشر S&P 500",
+     "ru": "ETF индекса S&P 500"
+    },
+    "price_at_alert": 762.555
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1793633980,
+    "reason": "נתוני אינפלציה חזקים בייצור מכבידים על מניות צמיחה וטכנולוגיה.",
+    "reason_i18n": {
+     "he": "נתוני אינפלציה חזקים בייצור מכבידים על מניות צמיחה וטכנולוגיה.",
+     "en": "Strong manufacturing inflation pressures growth and tech valuations.",
+     "ar": "بيانات التضخم القوية تضغط على أسهم النمو والتكنولوجيا.",
+     "ru": "Сильные данные по инфляции давят на акции роста и технологического сектора."
+    },
+    "name_i18n": {
+     "he": "קרן סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100",
+     "ru": "ETF индекса Nasdaq 100"
+    },
+    "price_at_alert": 697.5
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1793633980,
+    "reason": "אינפלציה גבוהה פוגעת במחירי האג\"ח הממשלתיות.",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה פוגעת במחירי האג\"ח הממשלתיות.",
+     "en": "Elevated price pressures hurt long-term government bond prices.",
+     "ar": "ضغوط الأسعار المرتفعة تضر بأسعار السندات الحكومية.",
+     "ru": "Рост ценового давления негативно влияет на цены государственных облигаций."
+    },
+    "name_i18n": {
+     "he": "קרן סל אג\"ח ממשלת ארה\"ב לטווח ארוך",
+     "en": "Long-Term US Treasury ETF",
+     "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
+     "ru": "ETF длинных гособлигаций США"
+    },
+    "price_at_alert": 81.805
+   }
+  ],
+  "id": "1d5b4c1ac8d1"
+ },
+ {
+  "ts": 1793633980,
+  "time": "2026-11-02T15:39Z",
+  "title": "פרמיית ייבוא הנחושת בסין מזנקת לשיא מאז 2017",
+  "summary": "פרמיית ייבוא הנחושת בסין עלתה מעל 200 דולר, הרמה הגבוהה ביותר מאז 2017, מה שמעיד על ביקושים חזקים למתכת התעשייתית.",
+  "kid": "חברות בסין מוכנות לשלם מחיר גבוה במיוחד כדי לייבא נחושת. זה מראה שיש הרבה ביקוש לנחושת לתעשייה, ויכול לעזור למניות של חברות כריה.",
+  "i18n": {
+   "title": {
+    "he": "פרמיית ייבוא הנחושת בסין מזנקת לשיא מאז 2017",
+    "en": "China Copper Import Premium Surges to Highest Since 2017",
+    "ar": "علاوة استيراد النحاس في الصين قفزت لأعلى مستوى منذ 2017",
+    "ru": "Премия за импорт меди в Китае подскочила до максимума с 2017 года"
+   },
+   "summary": {
+    "he": "פרמיית ייבוא הנחושת בסין עלתה מעל 200 דולר, הרמה הגבוהה ביותר מאז 2017, מה שמעיד על ביקושים חזקים למתכת התעשייתית.",
+    "en": "China's copper import premium surpassed $200, hitting its highest level since 2017 amid strong demand for the industrial metal.",
+    "ar": "تجاوزت علاوة استيراد النحاس في الصين 200 دولار، مسجلة أعلى مستوى منذ 2017 وسط طلب قوي على المعدن الصناعي.",
+    "ru": "Премия за импорт меди в Китае превысила $200, достигнув максимума с 2017 года на фоне высокого спроса."
+   },
+   "kid": {
+    "he": "חברות בסין מוכנות לשלם מחיר גבוה במיוחד כדי לייבא נחושת. זה מראה שיש הרבה ביקוש לנחושת לתעשייה, ויכול לעזור למניות של חברות כריה.",
+    "en": "Companies in China are paying record extra fees to import copper, showing high demand for the metal. This can make mining company stocks go up.",
+    "ar": "تدفع الشركات في الصين رسوماً إضافية قياسية لاستيراد النحاس، مما يدل على طلب قوي. قد يؤدي ذلك لارتفاع أسهم شركات التعدين.",
+    "ru": "Компании в Китае платят рекордные премии за импорт меди, что говорит о высоком спросе. Это может поднять акции горнодобывающих компаний."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UU29fTmV2ZkRRblJTZWNLOVY5N0VnanIyci1PZUE2SWRBRDM5MkJHUXF3RWJsd3BCemxGTHRjUXloS1RDMXA3Z0lLb0I2RWNXMHpiOTk4UUg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1793633980,
+    "reason": "ביקוש גבוה לנחושת בסין תומך במחיר המתכת ורווחי החברה.",
+    "reason_i18n": {
+     "he": "ביקוש גבוה לנחושת בסין תומך במחיר המתכת ורווחי החברה.",
+     "en": "Strong Chinese copper import demand supports copper prices and mining revenues.",
+     "ar": "طلب استيراد النحاس القوي في الصين يدعم أسعار المعدن وإيرادات الشركة.",
+     "ru": "Высокий спрос на импорт меди в Китае поддерживает цены на металл и доходы компании."
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן – ענקית כריית נחושת",
+     "en": "Freeport-McMoRan – major copper miner",
+     "ar": "فريبورت-ماكموران – شركة تعدين نحاس كبرى",
+     "ru": "Freeport-McMoRan – крупный добытчик меди"
+    },
+    "price_at_alert": 65.205
+   },
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1793633980,
+    "reason": "פרמיות ייבוא גבוהות בסין מעידות על שוק הדוק ומחסור היצע מיידי.",
+    "reason_i18n": {
+     "he": "פרמיות ייבוא גבוהות בסין מעידות על שוק הדוק ומחסור היצע מיידי.",
+     "en": "High import premiums in China indicate a tight physical copper market.",
+     "ar": "علاوات الاستيراد العالية في الصين تشير إلى شح في السوق الفورية للنحاس.",
+     "ru": "Высокие импортные премии в Китае указывают на дефицит физической меди на рынке."
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "ETF на медь"
+    },
+    "price_at_alert": 39.51
+   }
+  ],
+  "id": "38bb3e671102"
+ },
+ {
+  "ts": 1793633980,
+  "time": "2026-11-02T15:39Z",
+  "title": "מתקפת סייבר משביתה מערכות קירור בסופרמרקטים ובבסיסים צבאיים באירופה",
+  "summary": "מתקפת סייבר חריגה פגעה במערכות הקירור במרכולים ובאתרי צבא, כולל בבסיס חיל האוויר טראוויס, בחמש מדינות באירופה ובארה\"ב.",
+  "kid": "האקרים פרצו למערכות קירור של סופרמרקטים ובסיסי צבא וגרמו לתקלות. זה מדגיש את הסכנה הגדולה של מתקפות סייבר על תשתיות ומחזק את הצורך בתוכנות אבטחה.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר משביתה מערכות קירור בסופרמרקטים ובבסיסים צבאיים באירופה",
+    "en": "Cyberattack Shuts Down Refrigeration Systems in Supermarkets and Military Bases Across Europe",
+    "ar": "هجوم سيبراني يعطل أنظمة التبريد في المتاجر الكبرى والقواعد العسكرية عبر أوروبا",
+    "ru": "Кибератака вывела из строя системы охлаждения в супермаркетах и на военных базах в Европе"
+   },
+   "summary": {
+    "he": "מתקפת סייבר חריגה פגעה במערכות הקירור במרכולים ובאתרי צבא, כולל בבסיס חיל האוויר טראוויס, בחמש מדינות באירופה ובארה\"ב.",
+    "en": "An unusual cyberattack disabled commercial refrigeration systems across supermarkets in five European countries and military sites including Travis Air Force Base.",
+    "ar": "أدى هجوم سيبراني غير عادي إلى تعطل أنظمة التبريد التجاري في المتاجر الكبرى عبر خمس دول أوروبية ومواقع عسكرية بما في ذلك قاعدة تراويس الجوية.",
+    "ru": "Необычная кибератака вывела из строя коммерческие системы охлаждения в супермаркетах пяти европейских стран и на военных объектах, включая базу ВВС Травис."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות קירור של סופרמרקטים ובסיסי צבא וגרמו לתקלות. זה מדגיש את הסכנה הגדולה של מתקפות סייבר על תשתיות ומחזק את הצורך בתוכנות אבטחה.",
+    "en": "Hackers breached cooling systems in stores and military sites, causing failures. This highlights infrastructure cybersecurity risks and increases focus on cyber defense tools.",
+    "ar": "اخترق قراصنة أنظمة التبريد في المتاجر والمواقع العسكرية، مما يبرز مخاطر الأمن السيبراني ويزيد الاهتمام بأمن الشبكات.",
+    "ru": "Хакеры взломали системы охлаждения в магазинах и на военных объектах. Это подчеркивает риски кибербезопасности инфраструктуры."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSGdZY3FBYzBub2ZCMnNScS1wbzdkZmZUSUF2ZVZEdkJHVVNBY0ZBRUhEbHBKc2Fhd19DUFlVamdBN09mNkozTmNCVmV2YVBRUmtHMmZhVmV5cFhoTDBXTmFyNDJ1TDhHcjNFOTZ3S05hSG04Tkt5aWE2Y1YtTFNlWXVCN3FQNy13S3l6RUJ1Mm9od0hWa055dHA5WVBmbnYxYUVwLVU5dHl5c2ZXaXJBVFhCZ0tDeEhwYjdGLVViaElQTVdCOXNpazRKemtJa0hkZUtEVEx4czdEVWF6RGt4TjlNWHpCa0tjWC1YV3MwdmZ3REk?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS3hrNFNZYnhNd0R5ak1mRWF4X0lEekNsaE5uamlCTVJsRGNKWmg1WXVoSWF3ekJHYmtDXzRIOTZFdUlmMFVOT2VsZHRFMnJZZjU3TWt3Y3VHa3FVUmR2c3dsRjdjeVMtWnphdHR4YXdvUjVwd0xvbW15WWhpWGJCTVlRQzJtSnpqTGt2SFpYWTJVcVFlM2NQdDN6dXdwQlEyRzRKNlJWaXFUaUM3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1793633980,
+    "reason": "מתקפות סייבר רוחביות על תשתיות קריטיות מעלות את הביקוש لפתרונות אבטחה.",
+    "reason_i18n": {
+     "he": "מתקפות סייבר רוחביות על תשתיות קריטיות מעלות את הביקוש لפתרונות אבטחה.",
+     "en": "Attacks on critical infrastructure boost demand for robust endpoint and network security.",
+     "ar": "الهجمات على البنية التحتية الحرجة تعزز الطلب على حلول الأمان.",
+     "ru": "Атаки на критическую инфраструктуру повышают спрос на решения кибербезопасности."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity firm",
+     "ar": "كراودسترايك – شركة الأمن السيبراني",
+     "ru": "CrowdStrike – компания кибербезопасности"
+    },
+    "price_at_alert": 248.72
+   }
+  ],
+  "id": "be6960b0db0d"
+ },
+ {
+  "ts": 1793633980,
+  "time": "2026-11-02T15:39Z",
+  "title": "שירות הדואר האמריקאי (USPS) יטיל תוספת דלק קבועה ב-2027",
+  "summary": "שירות הדואר של ארה\"ב (USPS) הודיע כי יחיל תוספת תשלום קבועה בגין דלק על דברי דואר וחבילות החל משנת 2027.",
+  "kid": "שירות הדואר יעלה את מחירי המשלוחים בעקבות מחירי הדלק. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים גם כן או להשפיע על עלויות המסחר האלקטרוני.",
+  "i18n": {
+   "title": {
+    "he": "שירות הדואר האמריקאי (USPS) יטיל תוספת דלק קבועה ב-2027",
+    "en": "USPS to Implement Permanent Fuel Surcharge on Shipments in 2027",
+    "ar": "خدمة البريد الأمريكية ستفرض رسوم وقود دائمة على الشحنات في 2027",
+    "ru": "Почта США введет постоянную топливную надбавку на отправления в 2027 году"
+   },
+   "summary": {
+    "he": "שירות הדואר של ארה\"ב (USPS) הודיע כי יחיל תוספת תשלום קבועה בגין דלק על דברי דואר וחבילות החל משנת 2027.",
+    "en": "The United States Postal Service announced it will institute a permanent fuel surcharge on mail and packages starting in 2027.",
+    "ar": "أعلنت خدمة البريد في الولايات المتحدة أنها ستفرض رسوم وقود دائمة على البريد والطرود بدءاً من عام 2027.",
+    "ru": "Почтовая служба США объявила о введении постоянной топливной надбавки на почту и посылки с 2027 года."
+   },
+   "kid": {
+    "he": "שירות הדואר יעלה את מחירי המשלוחים בעקבות מחירי הדלק. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים גם כן או להשפיע על עלויות המסחר האלקטרוני.",
+    "en": "The US Post Office is adding a permanent fuel fee for packages starting in 2027, which affects shipping costs for online retail and logistics.",
+    "ar": "ستضيف هيئة البريد الأمريكية رسوم وقود دائمة للطرود في 2027، مما يؤثر على تكاليف الشحن والتجارة الإلكترونية.",
+    "ru": "Почтовая служба США вводит постоянную плату за топливо для посылок с 2027 года, что повлияет на логистику."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcVA2eDBUUXFFUjRtOVExX282MGxiMFh4QVJyN3B5eW5ya2Z3Y3R6Q3pzMlpwbm51RHJUUm1vTXc0NWhUT3FFZEkwMWoxNGt4eW5LbjFsaDBYRnZ3ZThDNzFGZHdleVE4aHdWX0NTcDBOaGtuQXA3ZWVVWVZrMy1xSUY4TmZmT0t4RGYwY0JjOVBITDhDQndPOWN2MjFYSVlBbmc0b3J3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "up",
+    "t0": 1793633980,
+    "reason": "העלאת תעריפים רוחבית בשוק מאפשרת לחברות פרטיות לשמור על מרווחי רווח דלק.",
+    "reason_i18n": {
+     "he": "העלאת תעריפים רוחבית בשוק מאפשרת לחברות פרטיות לשמור על מרווחי רווח דלק.",
+     "en": "Broad industry surcharges support pricing power for private couriers.",
+     "ar": "زيادة الرسوم العامة تدعم قوة تسعير شركات الشحن الخاصة.",
+     "ru": "Общее повышение тарифов в отрасли поддерживает ценовую политику частных перевозчиков."
+    },
+    "name_i18n": {
+     "he": "פדקס – חברת השילוח והלוגיסטיקה",
+     "en": "FedEx – shipping and logistics company",
+     "ar": "فيديكس – شركة الشحن واللوجستيات",
+     "ru": "FedEx – логистическая компания"
+    },
+    "price_at_alert": 320.26
+   }
+  ],
+  "id": "5fae89152029"
  }
 ]
