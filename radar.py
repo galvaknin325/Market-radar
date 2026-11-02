@@ -39,7 +39,7 @@ MANUAL_RUN = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 STATE_FILE = "state.json"
 ALERTS_FILE = "alerts.json"
 MAX_AGE_HOURS = 3          # ignore headlines older than this
-MAX_HEADLINES = 80         # per run, sent to the AI in one request
+MAX_HEADLINES = 120        # per run, sent to the AI in one request
 UA = {"User-Agent": "Mozilla/5.0 (MarketRadar/1.0)"}
 
 
@@ -63,6 +63,11 @@ FEEDS = [
     ("Google News: commodities", gnews("OPEC OR \"oil supply\" OR \"gas supply\" OR wheat OR copper OR \"port strike\" OR shipping")),
     ("Google News: climate & disasters", gnews("hurricane OR earthquake OR drought OR flood OR wildfire OR heatwave")),
     ("Google News: health & cyber", gnews("outbreak OR pandemic OR cyberattack OR \"chip ban\"")),
+    ("Google News: defense contracts", gnews("\"defense contract\" OR \"Pentagon awards\" OR \"arms sale\" OR \"State Department approves\" OR \"foreign military sale\"")),
+    ("Google News: Israeli defense", gnews("Rafael OR \"Israel Aerospace Industries\" OR Elbit OR \"Iron Dome\" OR \"Arrow 3\" OR \"David's Sling\"")),
+    ("Google News: big deals", gnews("\"billion contract\" OR \"billion deal\" OR \"infrastructure deal\" OR \"procurement\"")),
+    ("Defense News", "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml"),
+    ("Times of Israel", "https://www.timesofisrael.com/feed/"),
 ]
 
 # Starting point for the AI — it may name any US-listed ticker.
@@ -75,6 +80,25 @@ WATCHLIST = {
     "CORN": "corn", "FCX": "copper/Freeport", "TLT": "long US bonds",
     "KRE": "regional banks", "ALL": "Allstate insurance", "TRV": "Travelers insurance",
     "MRNA": "Moderna", "CRWD": "CrowdStrike", "EEM": "emerging markets", "FXI": "China large caps",
+    "ESLT": "Elbit Systems (Israel)", "BA": "Boeing", "GD": "General Dynamics", "LHX": "L3Harris",
+    "HII": "Huntington Ingalls (shipbuilding)", "KTOS": "Kratos (drones)", "AVAV": "AeroVironment (drones)",
+    "PLTR": "Palantir (defense software)", "ITA": "US aerospace & defense ETF", "XAR": "aerospace & defense ETF",
+    "EIS": "Israel ETF",
+    # world markets (US-listed country ETFs)
+    "EWJ": "Japan", "EWG": "Germany", "EWU": "UK", "EWQ": "France", "EWI": "Italy", "EWC": "Canada",
+    "EWA": "Australia", "EWZ": "Brazil", "EWW": "Mexico", "INDA": "India", "EWY": "South Korea",
+    "EWT": "Taiwan", "KSA": "Saudi Arabia", "TUR": "Turkey", "EZA": "South Africa", "EWS": "Singapore",
+    "VGK": "Europe", "ASHR": "China A-shares",
+    # sectors
+    "XLF": "financials", "XLK": "technology", "XLV": "health care", "XLI": "industrials", "XLU": "utilities",
+    "XLB": "materials", "XLP": "consumer staples", "XLY": "consumer discretionary", "SMH": "semiconductors",
+    "JETS": "airlines ETF", "ICLN": "clean energy", "URA": "uranium", "LIT": "lithium",
+    # commodities, currencies, crypto, credit
+    "SLV": "silver", "CPER": "copper", "SOYB": "soybeans", "DBA": "agriculture", "BDRY": "dry bulk shipping",
+    "UUP": "US dollar", "FXE": "euro", "FXY": "Japanese yen", "IBIT": "bitcoin ETF", "HYG": "high-yield bonds",
+    # Tel Aviv Stock Exchange (yfinance suffix .TA)
+    "ESLT.TA": "Elbit on TASE", "TEVA.TA": "Teva on TASE", "LUMI.TA": "Bank Leumi", "POLI.TA": "Bank Hapoalim",
+    "ICL.TA": "ICL chemicals", "NVMI.TA": "Nova", "TSEM.TA": "Tower Semiconductor", "ENLT.TA": "Enlight energy",
 }
 
 
@@ -174,25 +198,40 @@ def collect(seen):
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 PROMPT = """You are a senior macro / event-driven analyst for US equities.
-Below are fresh world-news headlines (numbered). Find the events that could
-plausibly move US-listed stocks, sectors or ETFs in the coming hours or days:
-geopolitics, politics & regulation, trade & tariffs, central banks & economic
-data, commodities & supply chains, climate & natural disasters, health, major
-cyber incidents. IGNORE company-specific news (earnings, CEO changes, product
-launches), sports, celebrity, local crime, opinion pieces and anything without
-a clear market channel. Most headlines should be ignored.
+Below are fresh world-news headlines (numbered). Find EVERY event that could
+plausibly move US-listed stocks, sectors or ETFs in the coming hours or days,
+including small ones (give those a low severity rather than leaving them out):
+- geopolitics, wars, security incidents, diplomacy
+- politics, elections & regulation
+- trade, tariffs, export controls, sanctions (including on specific companies)
+- central banks & economic data
+- commodities, energy & supply chains, shipping
+- climate, weather & natural disasters (hurricanes, droughts, floods, heatwaves, wildfires, earthquakes)
+- health & outbreaks, major cyber incidents
+- CONTRACTS & DEALS: government and defense contracts, arms sales and their approvals,
+  big procurement and infrastructure orders, defense budgets, major cross-border deals.
+  When the company in the news is not US-listed (e.g. Rafael or Israel Aerospace Industries,
+  which are state-owned), map the impact to US-listed partners, suppliers, competitors or
+  sector ETFs (e.g. Rafael co-produces systems with RTX; IAI works with Boeing (BA) on Arrow;
+  Elbit Systems trades on Nasdaq as ESLT; defense ETFs ITA / XAR).
+IGNORE routine company news (quarterly earnings, CEO changes, product launches),
+sports, celebrity, local crime, opinion pieces and anything with no market channel.
 
 Merge headlines about the same event into one event. For each event return:
 - ids: list of headline numbers it is based on
 - title_he: short title in Hebrew
 - summary_he: 1–2 sentences in Hebrew, ONLY facts stated in the headlines
-- category: one of geopolitics, policy, trade, macro, commodities, climate, health, cyber
-- severity: 1–10 expected market impact (3 = minor/sector noise, 6 = clearly
-  market-relevant for a sector, 8 = major multi-sector move likely, 10 = historic shock).
-  Be conservative; routine statements and incremental updates are <= 4.
+- category: one of geopolitics, policy, trade, macro, commodities, climate, health, cyber, contracts
+- severity: 1–10 expected market impact (1–3 = small / single-stock or sector noise,
+  4–5 = noticeable for a stock or sector, 6–7 = clearly market-relevant for a sector,
+  8 = major multi-sector move likely, 10 = historic shock). Routine statements and
+  incremental updates are usually <= 4. A large defense contract is often 3–6 for the winner.
 - novelty: "new" if this looks like a new development, "update" if continuation
 - impacts: 1–5 items {ticker, direction ("up"/"down"), reason_he (short Hebrew)}.
-  Use real US-listed tickers. Prefer this watchlist when relevant, but any is allowed:
+  Use real tickers: US-listed stocks/ETFs (including country, sector, commodity, currency and
+  bitcoin ETFs for non-US markets), or Tel Aviv Stock Exchange stocks with the ".TA" suffix
+  (e.g. ESLT.TA) when the effect is on Israeli stocks. Prefer this watchlist when relevant,
+  but any valid ticker is allowed:
   WATCHLIST
 - confidence: "low", "medium" or "high"
 Never give buy/sell advice. Return JSON: {"events": [...]} (empty list if nothing qualifies).
@@ -299,7 +338,7 @@ def send(chat_id, text):
 
 
 CAT_ICON = {"geopolitics": "🌍", "policy": "🏛️", "trade": "🚢", "macro": "🏦",
-            "commodities": "⛽", "climate": "🌪️", "health": "🦠", "cyber": "💻"}
+            "commodities": "⛽", "climate": "🌪️", "health": "🦠", "cyber": "💻", "contracts": "📑"}
 
 
 def format_alert(ev, headlines):
@@ -318,6 +357,22 @@ def format_alert(ev, headlines):
             lines.append(f'🔗 <a href="{e(s["link"], quote=True)}">{e(s["source"])}</a>')
     conf = {"low": "נמוכה", "medium": "בינונית", "high": "גבוהה"}.get(ev.get("confidence"), "")
     lines.append(f"\n<i>ביטחון: {conf} · מידע בלבד, לא ייעוץ השקעות</i>")
+    return "\n".join(lines)
+
+
+def format_digest(events):
+    e = html.escape
+    lines = [f"📋 <b>עוד {len(events)} אירועים מהסריקה האחרונה</b>", ""]
+    for ev in events[:15]:
+        sev = int(ev.get("severity", 0) or 0)
+        dot = "🔴" if sev >= 8 else "🟠" if sev >= 6 else "🟡" if sev >= 4 else "⚪"
+        tks = " ".join(("⬆️" if i.get("direction") == "up" else "⬇️") + e(str(i.get("ticker", "")).upper())
+                       for i in ev.get("impacts", [])[:4])
+        upd = " (עדכון)" if ev.get("novelty") == "update" else ""
+        lines.append(f"{dot} {sev}/10 {CAT_ICON.get(ev.get('category'), '📰')} {e(ev.get('title_he', ''))}{upd}\n      {tks}")
+    if len(events) > 15:
+        lines.append(f"…ועוד {len(events) - 15}. הכול מופיע בדשבורד.")
+    lines.append("\n<i>מידע בלבד, לא ייעוץ השקעות</i>")
     return "\n".join(lines)
 
 
@@ -365,21 +420,26 @@ def main():
 
     headlines = collect(seen)
     log(f"{len(headlines)} new headlines")
-    sent, model, events = 0, "-", []
+    sent, model, events, digest = 0, "-", [], []
     if headlines:
         events, model = analyse(headlines)
-        for ev in sorted(events, key=lambda x: -int(x.get("severity", 0))):
-            sev = int(ev.get("severity", 0))
-            if sev < MIN_SEVERITY or ev.get("novelty") == "update" and sev < 8:
+        for ev in sorted(events, key=lambda x: -int(x.get("severity", 0) or 0)):
+            sev = int(ev.get("severity", 0) or 0)
+            if not ev.get("impacts"):
                 continue
-            send(chat_id, format_alert(ev, headlines))
+            # Every event is saved and shown on the dashboard. On Telegram, important new
+            # events get their own message; everything else goes into one digest per scan.
+            if sev >= MIN_SEVERITY and ev.get("novelty") != "update" or sev >= 8:
+                send(chat_id, format_alert(ev, headlines))
+            else:
+                digest.append(ev)
             sent += 1
             alerts.append({
                 "ts": int(time.time()),
                 "time": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
                 "title": ev.get("title_he"), "summary": ev.get("summary_he"),
                 "category": ev.get("category"),
-                "severity": sev, "confidence": ev.get("confidence"),
+                "severity": sev, "confidence": ev.get("confidence"), "novelty": ev.get("novelty"),
                 "sources": [{"name": headlines[i]["source"], "url": headlines[i]["link"]}
                             for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)],
                 "impacts": [{"ticker": str(i.get("ticker", "")).upper(), "direction": i.get("direction"),
@@ -390,9 +450,12 @@ def main():
         # mark seen only after a successful analysis (keep order: newest last)
         state["seen"] = state.get("seen", []) + [h["key"] for h in headlines]
 
+    if digest:
+        send(chat_id, format_digest(digest))
+
     if MANUAL_RUN and chat_id:
         send(chat_id, f"🛰️ בדיקה ידנית הסתיימה: {len(headlines)} כותרות חדשות, "
-                      f"{len(events)} אירועים זוהו, {sent} התראות נשלחו (סף חומרה {MIN_SEVERITY}). מודל: {model}")
+                      f"{sent} התראות נשמרו (מהן {len(digest)} בסיכום המקובץ). מודל: {model}")
 
     state["seen"] = state.get("seen", [])[-3000:]
     state["last_run"] = dt.datetime.utcnow().isoformat(timespec="minutes") + "Z"

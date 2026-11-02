@@ -286,11 +286,18 @@
 <script>
 /* ================= data & helpers ================= */
 const CATS = {geopolitics:["🌍","גיאופוליטיקה"],policy:["🏛️","מדיניות ורגולציה"],trade:["🚢","סחר ומכסים"],
-  macro:["🏦","כלכלה וריבית"],commodities:["⛽","סחורות ואספקה"],climate:["🌪️","אקלים ואסונות"],health:["🦠","בריאות"],cyber:["💻","סייבר"]};
-const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX",UNG:"AMEX",GLD:"AMEX",LMT:"NYSE",RTX:"NYSE",
-  NOC:"NYSE",DAL:"NYSE",UAL:"NASDAQ",ZIM:"NYSE",FDX:"NYSE",TSM:"NYSE",NVDA:"NASDAQ",ASML:"NASDAQ",WEAT:"AMEX",CORN:"AMEX",
-  FCX:"NYSE",TLT:"NASDAQ",KRE:"AMEX",ALL:"NYSE",TRV:"NYSE",MRNA:"NASDAQ",CRWD:"NASDAQ",EEM:"AMEX",FXI:"AMEX"};
-const tv = t => EXCH[t] ? `${EXCH[t]}:${t}` : t;
+  macro:["🏦","כלכלה וריבית"],commodities:["⛽","סחורות ואספקה"],climate:["🌪️","אקלים ואסונות"],health:["🦠","בריאות"],cyber:["💻","סייבר"],
+  contracts:["📑","חוזים ועסקאות"]};
+const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",DIA:"AMEX",IWM:"AMEX",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX",UNG:"AMEX",GLD:"AMEX",SLV:"AMEX",
+  LMT:"NYSE",RTX:"NYSE",NOC:"NYSE",GD:"NYSE",LHX:"NYSE",BA:"NYSE",HII:"NYSE",KTOS:"NASDAQ",AVAV:"NASDAQ",PLTR:"NASDAQ",ESLT:"NASDAQ",
+  ITA:"CBOE",XAR:"AMEX",DAL:"NYSE",UAL:"NASDAQ",JETS:"AMEX",ZIM:"NYSE",FDX:"NYSE",BDRY:"AMEX",TSM:"NYSE",NVDA:"NASDAQ",ASML:"NASDAQ",
+  SMH:"NASDAQ",WEAT:"AMEX",CORN:"AMEX",SOYB:"AMEX",DBA:"AMEX",CPER:"AMEX",FCX:"NYSE",TLT:"NASDAQ",HYG:"AMEX",KRE:"AMEX",ALL:"NYSE",
+  TRV:"NYSE",MRNA:"NASDAQ",CRWD:"NASDAQ",EEM:"AMEX",FXI:"AMEX",ASHR:"AMEX",EIS:"NASDAQ",EWJ:"AMEX",EWG:"AMEX",EWU:"AMEX",EWQ:"AMEX",
+  EWI:"AMEX",EWC:"AMEX",EWA:"AMEX",EWZ:"AMEX",EWW:"AMEX",INDA:"CBOE",EWY:"AMEX",EWT:"AMEX",KSA:"AMEX",TUR:"NASDAQ",EZA:"AMEX",
+  EWS:"AMEX",VGK:"AMEX",XLF:"AMEX",XLK:"AMEX",XLV:"AMEX",XLI:"AMEX",XLU:"AMEX",XLB:"AMEX",XLP:"AMEX",XLY:"AMEX",ICLN:"NASDAQ",
+  URA:"AMEX",LIT:"AMEX",UUP:"AMEX",FXE:"AMEX",FXY:"AMEX",IBIT:"NASDAQ",TEVA:"NYSE",CHKP:"NASDAQ",NICE:"NASDAQ"};
+// "ESLT.TA" (Tel Aviv, as written by the radar) -> "TASE:ESLT"; anything unknown is left for TradingView to resolve
+const tv = t => /\.TA$/i.test(t) ? `TASE:${t.slice(0, -3).toUpperCase()}` : EXCH[t] ? `${EXCH[t]}:${t}` : t;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 const store = {
@@ -340,15 +347,21 @@ function showChart(t){
 function initWidgets(){
   const theme = themeForWidgets();
   widget($("tape"), "embed-widget-ticker-tape.js", {
-    symbols: ["SPY","QQQ","USO","GLD","XLE","LMT","DAL","TSM","TLT","EEM"].map(t => ({proName: tv(t), title: t})),
+    symbols: ["SPY","QQQ","DIA","USO","GLD","IBIT","UUP","EIS","TASE:TA35","EWJ","VGK","FXI","XLE","ITA","TLT"]
+      .map(t => ({proName: t.includes(":") ? t : tv(t), title: t === "TASE:TA35" ? "ת\"א 35" : t})),
     colorTheme: theme, isTransparent: true, displayMode: "adaptive", locale: "he_IL", showSymbolLogo: false});
-  const tab = (title, list) => ({title, symbols: list.map(t => ({s: tv(t), d: t}))});
+  const tab = (title, list) => ({title, symbols: list.map(t => Array.isArray(t) ? {s: t[0], d: t[1]} : {s: tv(t), d: t})});
   widget($("overview"), "embed-widget-market-overview.js", {
     colorTheme: theme, dateRange: "1D", showChart: true, locale: "he_IL", isTransparent: true, width: "100%", height: "100%",
     showSymbolLogo: false, plotLineColorGrowing: "#22c55e", plotLineColorFalling: "#ef4444",
-    tabs: [tab("מדדים", ["SPY","QQQ","EEM","FXI","TLT"]), tab("אנרגיה", ["XLE","XOM","CVX","USO","UNG"]),
-           tab("ביטחון", ["LMT","RTX","NOC"]), tab("תעופה וספנות", ["DAL","UAL","ZIM","FDX"]),
-           tab("שבבים", ["TSM","NVDA","ASML"]), tab("סחורות", ["GLD","WEAT","CORN","FCX"])]});
+    tabs: [tab("ארה\"ב", ["SPY","QQQ","DIA","IWM","TLT","HYG"]),
+           tab("ישראל", [["TASE:TA35","ת\"א 35"],["TASE:TA125","ת\"א 125"],"EIS","ESLT","TEVA","CHKP"]),
+           tab("עולם", ["VGK","EWJ","FXI","INDA","EWZ","EWY","EWT","KSA"]),
+           tab("ביטחון", ["ITA","LMT","RTX","NOC","GD","BA","ESLT"]),
+           tab("אנרגיה", ["XLE","XOM","CVX","USO","UNG","URA"]),
+           tab("סחורות", ["GLD","SLV","CPER","WEAT","CORN","DBA"]),
+           tab("מטבעות וקריפטו", ["UUP","FXE","FXY","IBIT"]),
+           tab("סקטורים", ["XLK","SMH","XLF","XLV","XLI","XLU","JETS"])]});
   showChart(CHART_SYM);
 }
 
@@ -401,7 +414,7 @@ function renderSidebar(){
 
 function renderFilters(){
   const present = [...new Set(ALERTS.map(a => a.category).filter(Boolean))];
-  const opts = [["all", "הכול"], ["high", "🔴 חומרה 8+"], ...present.map(c => [c, (CATS[c] || ["📰", c]).join(" ")])];
+  const opts = [["all", "הכול"], ["mid", "🟠 חומרה 6+"], ["high", "🔴 חומרה 8+"], ...present.map(c => [c, (CATS[c] || ["📰", c]).join(" ")])];
   $("filters").innerHTML = opts.map(([k, l]) =>
     `<button type="button" class="chip" data-f="${esc(k)}" aria-pressed="${FILTER === k}">${esc(l)}</button>`).join("");
 }
@@ -409,11 +422,12 @@ function renderFilters(){
 function renderFeed(){
   let list = sorted();
   if (FILTER === "high") list = list.filter(a => a.severity >= 8);
+  else if (FILTER === "mid") list = list.filter(a => a.severity >= 6);
   else if (FILTER !== "all") list = list.filter(a => a.category === FILTER);
   $("feedCount").textContent = `${list.length} התראות`;
   if (!list.length){
     $("feed").innerHTML = `<div class="empty">${ALERTS.length ? "אין התראות בסינון הזה" :
-      "עוד אין התראות. זה תקין: המערכת סורקת ברקע ומתריעה רק על אירועים משמעותיים (חומרה 6 ומעלה)."}</div>`;
+      "עוד אין התראות. המערכת סורקת ברקע כל 15 דקות ותציג כאן כל אירוע שעלול להזיז מניות."}</div>`;
     return;
   }
   $("feed").innerHTML = list.map(a => {
