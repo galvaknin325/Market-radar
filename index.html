@@ -144,6 +144,15 @@
   .weekly h3{margin:0 0 .3rem;font-size:.95rem}
   .weekly p{margin:.1rem 0;font-size:.9rem}
   .join{display:block;text-align:center;background:#229ED9;color:#fff !important;text-decoration:none;border-radius:10px;padding:.55rem .75rem;font-weight:700}
+  .consent-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:120;display:none}
+  .consent{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:min(560px,94vw);max-height:92vh;overflow:auto;background:var(--panel);
+           border:2px solid var(--orange);border-radius:16px;z-index:121;padding:1.3rem 1.4rem;display:none;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+  .consent.open,.consent-backdrop.open{display:block}
+  .consent h2{margin:0 0 .6rem;font-size:1.3rem}
+  .consent ul{margin:0 0 1rem;padding-inline-start:1.2rem} .consent li{margin:.4rem 0}
+  .consent .accept{width:100%;background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:.75rem;font-weight:800;cursor:pointer;font-size:1rem}
+  .consent .read{display:block;text-align:center;margin-top:.7rem}
+  .disclaimer{margin:.4rem 1rem .9rem;font-size:.8rem;color:var(--muted);border-inline-start:3px solid var(--orange);padding:.3rem .7rem;background:var(--panel2);border-radius:6px}
   .topbar{display:none}
   .tape{border-bottom:1px solid var(--line);min-height:46px}
   main{padding:1.25rem 1.5rem 3.5rem;max-width:1200px;width:100%;margin:0 auto}
@@ -337,6 +346,7 @@
           <button type="button" class="chip" data-pf="all" aria-pressed="false" data-i18n="pf_all"></button>
         </div>
         <div id="pfBody"></div>
+        <p class="disclaimer" data-i18n="pf_disclaimer"></p>
         <div id="weeklyCard"></div>
       </section>
 
@@ -362,7 +372,8 @@
             <h2 id="accHead"><span data-i18n="acc_head"></span><small data-i18n="acc_hint"></small></h2>
             <div id="byCat"></div>
             <div id="bySev"></div>
-            <p class="guide-sub" style="padding:.6rem 1rem 1rem" data-i18n="acc_note"></p>
+            <p class="guide-sub" style="padding:.6rem 1rem 0" data-i18n="acc_note"></p>
+            <p class="disclaimer" data-i18n="pf_disclaimer"></p>
           </section>
         </div>
       </div>
@@ -392,7 +403,7 @@
         <div class="guide" id="guideCards"></div>
       </section>
 
-      <footer><span data-i18n="footer"></span> · <a href="accessibility.html" data-i18n="a11y_statement"></a></footer>
+      <footer><span data-i18n="footer"></span> · <a href="terms.html" data-i18n="terms_link"></a> · <a href="accessibility.html" data-i18n="a11y_statement"></a></footer>
     </main>
   </div>
 </div>
@@ -436,6 +447,14 @@
   <p id="stockStats" style="margin:.7rem 0 0"></p>
   <h3 data-i18n="stock_alerts"></h3>
   <ul id="stockAlerts"></ul>
+</div>
+
+<div class="consent-backdrop" id="consentBackdrop"></div>
+<div class="consent" id="consent" role="dialog" aria-modal="true" aria-labelledby="consentTitle">
+  <h2 id="consentTitle">⚖️ <span data-i18n="consent_title"></span></h2>
+  <ul id="consentList"></ul>
+  <button type="button" class="accept" id="consentAccept" data-i18n="consent_accept"></button>
+  <a class="read" href="terms.html" data-i18n="consent_read"></a>
 </div>
 
 <div class="toasts" id="toasts" aria-live="polite"></div>
@@ -493,6 +512,7 @@ function applyLang(){
   $("searchInput").placeholder = T("search_ph");
   $("stockClose").setAttribute("aria-label", T("close"));
   document.querySelectorAll(".lazy").forEach(el => el.dataset.loading = T("lazy_loading"));
+  $("consentList").innerHTML = T("consent_points").map(x => `<li>${esc(x)}</li>`).join("");
   $("guideCards").innerHTML = T("guide").map(([t, p]) => `<article><h3>${esc(t)}</h3><p>${esc(p)}</p></article>`).join("");
   applyA11y(); updateNotifyBtn(); updateSimple();
 }
@@ -1008,6 +1028,11 @@ $("notifyBtn").addEventListener("click", async () => {
   if (p === "denied") $("srStatus").textContent = T("notify_denied");
 });
 document.addEventListener("keydown", e => {
+  if ($("consent").classList.contains("open")){
+    if (e.key === "Tab"){ const f = [$("consentAccept"), $("consent").querySelector(".read")];
+      const i = f.indexOf(document.activeElement); e.preventDefault(); f[(i + (e.shiftKey ? f.length - 1 : 1)) % f.length].focus(); }
+    return;
+  }
   if (e.key === "Escape"){
     if ($("stock").classList.contains("open")) closeStock();
     else if ($("a11y").classList.contains("open")) closeA11y();
@@ -1021,7 +1046,18 @@ document.addEventListener("keydown", e => {
   }
 });
 
+const CONSENT_KEY = "consent_v1";
+function showConsent(){
+  if (store.get(CONSENT_KEY, false)) return;
+  $("consent").classList.add("open"); $("consentBackdrop").classList.add("open"); $("consentAccept").focus();
+}
+$("consentAccept").addEventListener("click", () => {
+  store.set(CONSENT_KEY, new Date().toISOString());
+  $("consent").classList.remove("open"); $("consentBackdrop").classList.remove("open"); $("main").focus();
+});
+
 applyLang();
+showConsent();
 $("statusText").textContent = T("status_loading");
 $("feed").innerHTML = `<div class="empty">${esc(T("status_loading"))}</div>`;
 initWidgets();

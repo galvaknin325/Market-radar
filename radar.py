@@ -413,7 +413,7 @@ def send_public(text):
     if not CHANNEL or DRY_RUN:
         return
     try:
-        tg("sendMessage", chat_id=CHANNEL, text=text + f'\n\n🌐 <a href="{SITE}">לאתר המלא</a>',
+        tg("sendMessage", chat_id=CHANNEL, text=text + f'\n\n🌐 <a href="{SITE}">לאתר המלא</a> · ⚖️ <a href="{SITE}terms.html">תנאי שימוש</a>',
            parse_mode="HTML", disable_web_page_preview=True)
     except Exception as e:
         log("channel post failed:", e)

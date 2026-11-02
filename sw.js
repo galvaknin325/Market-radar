@@ -1,7 +1,7 @@
 // Market Radar service worker: lets the site install as an app and open without a connection.
 // Data files and pages always try the network first, so you never see stale alerts while online.
-const CACHE = "radar-v1";
-const SHELL = ["./", "index.html", "i18n.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "accessibility.html"];
+const CACHE = "radar-v2";
+const SHELL = ["./", "index.html", "i18n.js", "manifest.webmanifest", "icon-192.png", "icon-512.png", "accessibility.html", "terms.html"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
