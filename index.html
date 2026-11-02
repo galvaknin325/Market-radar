@@ -3,26 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>מכ"ם השוק</title>
-<meta name="description" content="מכ&quot;ם השוק: התראות על אירועים עולמיים שעלולים להזיז מניות בוול סטריט">
+<title>מכ"ם השוק · Market Radar</title>
+<meta name="description" content="Market Radar: world events that may move stocks, explained simply.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Noto+Kufi+Arabic:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<script src="i18n.js"></script>
 <style>
-  /* ---------- theme tokens (dark default) ---------- */
   :root{
     --bg:#0b0f17; --panel:#121826; --panel2:#171f30; --line:#232c40;
     --text:#e6eaf2; --muted:#9aa4b8; --up:#22c55e; --down:#f05252;
-    --red:#ef4444; --orange:#f59e0b; --yellow:#eab308; --accent:#60a5fa; --accent-ink:#06101f;
+    --red:#ef4444; --orange:#f59e0b; --yellow:#eab308; --grey:#8a94a8; --accent:#60a5fa; --accent-ink:#06101f;
     --focus:#fbbf24; --font:Heebo,system-ui,sans-serif; --lh:1.55; --side:300px;
   }
+  html[lang="ar"]{ --font:"Noto Kufi Arabic",Heebo,system-ui,sans-serif }
   html.light{
     --bg:#f4f6fa; --panel:#ffffff; --panel2:#eef1f6; --line:#d6dce7;
     --text:#111827; --muted:#4b5563; --up:#15803d; --down:#b91c1c; --accent:#1d4ed8; --accent-ink:#fff; --focus:#b45309;
   }
   html.contrast{
-    --bg:#000; --panel:#000; --panel2:#111; --line:#fff;
-    --text:#fff; --muted:#fff; --up:#4ade80; --down:#ff6b6b; --red:#ff6b6b; --orange:#ffb020; --yellow:#ffe14d;
-    --accent:#ffe14d; --accent-ink:#000; --focus:#00e5ff;
+    --bg:#000; --panel:#000; --panel2:#111; --line:#fff; --text:#fff; --muted:#fff; --up:#4ade80; --down:#ff6b6b;
+    --red:#ff6b6b; --orange:#ffb020; --yellow:#ffe14d; --grey:#ddd; --accent:#ffe14d; --accent-ink:#000; --focus:#00e5ff;
   }
   html.readable{ --font:Arial,"Segoe UI",Tahoma,sans-serif; letter-spacing:.02em }
   html.spacing{ --lh:1.9 }
@@ -32,22 +32,21 @@
 
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
+  html,body{overflow-x:hidden}
   body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:var(--lh);font-size:1rem}
   .mono{font-family:"JetBrains Mono",ui-monospace,monospace;direction:ltr;unicode-bidi:isolate}
   html.readable .mono{font-family:Consolas,"Courier New",monospace}
   a{color:var(--accent)}
-  button{font:inherit;color:inherit}
+  button,select{font:inherit;color:inherit}
   :focus-visible{outline:3px solid var(--focus) !important;outline-offset:2px;border-radius:4px}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-  .skip{position:absolute;top:-60px;right:12px;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;border-radius:8px;z-index:100;font-weight:700}
+  .skip{position:absolute;top:-60px;inset-inline-start:12px;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;border-radius:8px;z-index:100;font-weight:700}
   .skip:focus{top:12px}
 
-  /* ---------- layout: sidebar on the right (first in RTL) ---------- */
+  /* layout: sidebar is the first column = right side in RTL, left side in LTR */
   .app{display:grid;grid-template-columns:var(--side) 1fr;min-height:100vh}
   .app > div, .grid > *, .stack > *{min-width:0}
-  html,body{overflow-x:hidden}
-  .kpi .val{overflow-wrap:anywhere}
-  aside.side{position:sticky;top:0;height:100vh;overflow:auto;background:var(--panel);border-left:1px solid var(--line);
+  aside.side{position:sticky;top:0;height:100vh;overflow:auto;background:var(--panel);border-inline-end:1px solid var(--line);
              display:flex;flex-direction:column;z-index:40}
   .brand{display:flex;align-items:center;gap:.75rem;padding:1.1rem 1.1rem .9rem;border-bottom:1px solid var(--line)}
   .radar{width:2.1rem;height:2.1rem;flex:none;border-radius:50%;border:2px solid var(--accent);position:relative;overflow:hidden}
@@ -58,14 +57,18 @@
   .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--muted);flex:none}
   .dot.ok{background:var(--up);box-shadow:0 0 8px var(--up)} .dot.stale{background:var(--orange)}
 
+  .lang{display:flex;gap:.35rem;padding:.6rem .9rem 0;flex-wrap:wrap}
+  .lang button{flex:1;min-width:3.6rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:.3rem .4rem;cursor:pointer;font-size:.82rem}
+  .lang button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+
   nav.menu ul{list-style:none;margin:0;padding:.6rem}
-  nav.menu a{display:flex;align-items:center;gap:.65rem;padding:.6rem .75rem;border-radius:10px;color:var(--text);text-decoration:none;font-weight:500}
+  nav.menu a{display:flex;align-items:center;gap:.65rem;padding:.55rem .75rem;border-radius:10px;color:var(--text);text-decoration:none;font-weight:500}
   nav.menu a:hover{background:var(--panel2)}
   nav.menu a .ic{width:1.4rem;text-align:center}
   .badge{margin-inline-start:auto;background:var(--red);color:#fff;border-radius:999px;font-size:.75rem;font-weight:700;padding:0 .5rem;min-width:1.4rem;text-align:center}
   html.contrast .badge{background:#ff6b6b;color:#000}
 
-  .side h2{font-size:.85rem;color:var(--muted);font-weight:700;margin:.6rem 1.1rem .4rem;display:flex;justify-content:space-between;align-items:center}
+  .side h2{font-size:.85rem;color:var(--muted);font-weight:700;margin:.6rem 1.1rem .4rem;display:flex;justify-content:space-between;align-items:center;gap:.5rem}
   .side h2 button{background:none;border:0;color:var(--accent);cursor:pointer;font-size:.78rem;padding:.2rem}
   .live{list-style:none;margin:0;padding:0 .6rem;flex:1;overflow:auto}
   .live li button{all:unset;box-sizing:border-box;display:block;width:100%;cursor:pointer;padding:.6rem .7rem;border-radius:10px;border:1px solid transparent;margin-bottom:.35rem;background:var(--panel2)}
@@ -75,44 +78,56 @@
   .live .m{font-size:.75rem;color:var(--muted);margin-top:.2rem}
   .live .tks{font-size:.78rem;margin-top:.25rem;display:flex;gap:.45rem;flex-wrap:wrap}
   .sev{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;margin-top:.35rem;flex:none}
-  .sev.s8{background:var(--red)} .sev.s6{background:var(--orange)} .sev.s0{background:var(--yellow)}
+  .sev.s8{background:var(--red)} .sev.s6{background:var(--orange)} .sev.s4{background:var(--yellow)} .sev.s0{background:var(--grey)}
   .new{background:var(--accent);color:var(--accent-ink);font-size:.68rem;font-weight:800;border-radius:5px;padding:0 .35rem;margin-inline-start:auto;flex:none}
   .side-empty{color:var(--muted);font-size:.85rem;padding:.6rem 1.1rem}
   .side-foot{border-top:1px solid var(--line);padding:.7rem;display:grid;gap:.45rem}
-  .side-foot button{display:flex;align-items:center;gap:.55rem;width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.6rem .75rem;cursor:pointer;font-weight:600;text-align:start}
+  .side-foot button{display:flex;align-items:center;gap:.55rem;width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.55rem .75rem;cursor:pointer;font-weight:600;text-align:start}
   .side-foot button:hover{border-color:var(--accent)}
+  .side-foot button[aria-pressed="true"]{border-color:var(--accent)}
 
-  /* ---------- main ---------- */
   .topbar{display:none}
   .tape{border-bottom:1px solid var(--line);min-height:46px}
   main{padding:1.25rem 1.5rem 3.5rem;max-width:1200px;width:100%;margin:0 auto}
   .page-title{margin:0 0 1rem;font-size:1.15rem;color:var(--muted);font-weight:500}
+  .banner{display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap;background:color-mix(in srgb,var(--accent) 12%,var(--panel));
+          border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));border-radius:12px;padding:.75rem 1rem;margin-bottom:1rem;font-weight:600}
+  .banner[hidden]{display:none}
+  .banner a{background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:8px;padding:.35rem .9rem;font-weight:700}
   .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin-bottom:1.25rem}
   .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem}
   .kpi .label{color:var(--muted);font-size:.82rem}
-  .kpi .val{font-size:1.75rem;font-weight:800;margin-top:.1rem}
+  .kpi .val{font-size:1.75rem;font-weight:800;margin-top:.1rem;overflow-wrap:anywhere}
   .kpi .hint{color:var(--muted);font-size:.75rem}
   .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:1.25rem;align-items:start}
   .stack{display:flex;flex-direction:column;gap:1.25rem}
   section.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;scroll-margin-top:1rem}
-  section.card > h2{font-size:1rem;margin:0;padding:.85rem 1rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+  section.card > h2{font-size:1rem;margin:0;padding:.85rem 1rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap}
   section.card > h2 small{color:var(--muted);font-weight:400;font-size:.75rem}
   .chart{height:460px} .overview{height:520px}
   .filters{display:flex;gap:.4rem;flex-wrap:wrap;padding:.6rem 1rem;border-bottom:1px solid var(--line)}
   .chip{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:.25rem .7rem;font-size:.82rem;cursor:pointer}
   .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
-  .feed{max-height:1100px;overflow:auto}
-  .alert{padding:.9rem 1rem;border-bottom:1px solid var(--line);border-right:4px solid var(--muted);scroll-margin-top:1rem}
-  .alert.s8{border-right-color:var(--red)} .alert.s6{border-right-color:var(--orange)} .alert.s0{border-right-color:var(--yellow)}
+  .feed{max-height:1200px;overflow:auto}
+  .alert{padding:.9rem 1rem;border-bottom:1px solid var(--line);border-inline-start:4px solid var(--grey);scroll-margin-top:1rem}
+  .alert.s8{border-inline-start-color:var(--red)} .alert.s6{border-inline-start-color:var(--orange)} .alert.s4{border-inline-start-color:var(--yellow)}
   .alert.flash{animation:flash 1.6s ease-out}
   @keyframes flash{0%{background:color-mix(in srgb,var(--accent) 30%,transparent)}100%{background:transparent}}
   .a-top{display:flex;justify-content:space-between;gap:.6rem;align-items:baseline;flex-wrap:wrap}
   .a-title{font-weight:700;font-size:1rem;margin:0}
   .a-meta{color:var(--muted);font-size:.75rem;white-space:nowrap}
+  .sevtag{display:inline-block;font-size:.72rem;font-weight:700;border-radius:6px;padding:.05rem .45rem;margin-inline-end:.35rem;border:1px solid currentColor}
+  .sevtag.s8{color:var(--red)} .sevtag.s6{color:var(--orange)} .sevtag.s4{color:var(--yellow)} .sevtag.s0{color:var(--grey)}
   .a-sum{font-size:.9rem;margin:.25rem 0 .5rem;opacity:.92}
+  .kid{background:color-mix(in srgb,var(--accent) 10%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line));
+       border-radius:10px;padding:.55rem .75rem;margin:.35rem 0 .55rem;font-size:.95rem}
+  .kid b{color:var(--accent)}
   .imp{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.86rem;padding:.3rem 0}
   .tk{border:1px solid var(--line);background:var(--panel2);border-radius:6px;padding:.05rem .5rem;cursor:pointer}
   .tk:hover{border-color:var(--accent)}
+  .cname{font-weight:600}
+  .dirword{font-weight:700;font-size:.8rem;border-radius:6px;padding:.05rem .4rem}
+  .dirword.up{background:color-mix(in srgb,var(--up) 15%,transparent)} .dirword.down{background:color-mix(in srgb,var(--down) 15%,transparent)}
   .up{color:var(--up)} .down{color:var(--down)}
   .res{font-size:.75rem;border-radius:5px;padding:.05rem .45rem}
   .res.hit{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
@@ -121,25 +136,28 @@
   .src{font-size:.78rem;margin-top:.35rem} .src a{text-decoration:none;margin-inline-end:.7rem}
   .empty{padding:2.5rem 1.25rem;text-align:center;color:var(--muted)}
   table{width:100%;border-collapse:collapse;font-size:.88rem}
-  th,td{padding:.55rem 1rem;text-align:right;border-bottom:1px solid var(--line)}
+  th,td{padding:.55rem 1rem;text-align:start;border-bottom:1px solid var(--line)}
   th{color:var(--muted);font-weight:500;font-size:.78rem}
   .bar{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden;min-width:60px}
   .bar i{display:block;height:100%;background:var(--up)}
+  #guide{margin-top:1.25rem}
+  .guide-sub{color:var(--muted);font-size:.85rem;padding:.75rem 1rem 0;margin:0}
+  .guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.75rem;padding:1rem}
+  .guide article{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem}
+  .guide h3{margin:0 0 .35rem;font-size:1rem}
+  .guide p{margin:0;font-size:.92rem}
   footer{color:var(--muted);font-size:.75rem;text-align:center;margin-top:1.75rem}
 
-  /* ---------- toast ---------- */
-  .toasts{position:fixed;bottom:1rem;left:1rem;display:grid;gap:.5rem;z-index:90;max-width:min(380px,calc(100vw - 2rem))}
-  .toast{background:var(--panel);border:1px solid var(--line);border-right:5px solid var(--red);border-radius:12px;padding:.8rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.35);animation:pop .25s ease-out}
+  .toasts{position:fixed;bottom:1rem;inset-inline-end:1rem;display:grid;gap:.5rem;z-index:90;max-width:min(380px,calc(100vw - 2rem))}
+  .toast{background:var(--panel);border:1px solid var(--line);border-inline-start:5px solid var(--red);border-radius:12px;padding:.8rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.35);animation:pop .25s ease-out}
   .toast b{display:block} .toast .row{display:flex;gap:.5rem;margin-top:.5rem}
   .toast button{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:.25rem .7rem;cursor:pointer;font-size:.82rem}
   @keyframes pop{from{transform:translateY(10px);opacity:0}to{transform:none;opacity:1}}
 
-  /* ---------- accessibility dialog ---------- */
   .a11y-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:80;display:none}
-  .a11y{position:fixed;top:0;bottom:0;right:0;width:min(360px,100vw);background:var(--panel);border-left:1px solid var(--line);z-index:85;
-        padding:1.1rem;overflow:auto;display:none}
+  .a11y{position:fixed;top:0;bottom:0;inset-inline-start:0;width:min(360px,100vw);background:var(--panel);border-inline-end:1px solid var(--line);z-index:85;padding:1.1rem;overflow:auto;display:none}
   .a11y.open, .a11y-backdrop.open{display:block}
-  .a11y h2{margin:0 0 .25rem;font-size:1.2rem}
+  .a11y h2{margin:0 0 .25rem;font-size:1.2rem;padding-inline-end:2.6rem}
   .a11y p{color:var(--muted);font-size:.82rem;margin:0 0 1rem}
   .a11y .group{border:1px solid var(--line);border-radius:12px;padding:.75rem;margin-bottom:.75rem}
   .a11y .group h3{font-size:.85rem;margin:0 0 .5rem;color:var(--muted)}
@@ -148,14 +166,14 @@
   .opt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
   .opt .state{font-size:.75rem;color:var(--muted)} .opt[aria-pressed="true"] .state{color:var(--accent);font-weight:700}
   .sizes .opt{justify-content:center;margin:0}
-  .a11y .close{position:absolute;top:.8rem;left:.8rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1.1rem}
+  .a11y .close{position:absolute;top:.8rem;inset-inline-end:.8rem;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:2.2rem;height:2.2rem;cursor:pointer;font-size:1.1rem}
   .a11y .reset{width:100%;background:none;border:1px dashed var(--line);border-radius:10px;padding:.6rem;cursor:pointer;margin-top:.25rem}
 
-  /* ---------- mobile: sidebar becomes a drawer ---------- */
   @media (max-width:960px){
     .app{grid-template-columns:1fr}
-    aside.side{position:fixed;top:0;right:0;width:min(var(--side),88vw);transform:translateX(105%);transition:transform .25s ease;box-shadow:-10px 0 30px rgba(0,0,0,.35)}
-    aside.side.open{transform:none}
+    aside.side{position:fixed;top:0;inset-inline-start:0;width:min(var(--side),88vw);transition:transform .25s ease;box-shadow:0 0 30px rgba(0,0,0,.35)}
+    html[dir="rtl"] aside.side{transform:translateX(105%)} html[dir="ltr"] aside.side{transform:translateX(-105%)}
+    html[dir] aside.side.open{transform:none}
     .topbar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:.6rem .9rem;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:30}
     .topbar .menu-btn{display:flex;align-items:center;gap:.4rem;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.45rem .7rem;cursor:pointer;font-weight:700}
     .topbar .ttl{font-weight:800}
@@ -166,128 +184,136 @@
 </style>
 </head>
 <body>
-<a class="skip" href="#main">דלג לתוכן הראשי</a>
+<a class="skip" href="#main" data-i18n="skip"></a>
 <div class="app">
 
-  <!-- ===== right sidebar ===== -->
-  <aside class="side" id="side" aria-label="תפריט ראשי">
+  <aside class="side" id="side">
     <div class="brand">
       <div class="radar" aria-hidden="true"></div>
       <div>
-        <h1>מכ"ם השוק</h1>
-        <div class="status"><span class="dot" id="dot" aria-hidden="true"></span><span id="statusText">טוען…</span></div>
+        <h1 data-i18n="brand"></h1>
+        <div class="status"><span class="dot" id="dot" aria-hidden="true"></span><span id="statusText"></span></div>
       </div>
     </div>
 
-    <nav class="menu" aria-label="ניווט באתר">
+    <div class="lang" role="group" id="langGroup">
+      <button type="button" data-lang="he" lang="he">עברית</button>
+      <button type="button" data-lang="en" lang="en">English</button>
+      <button type="button" data-lang="ar" lang="ar">العربية</button>
+      <button type="button" data-lang="ru" lang="ru">Русский</button>
+    </div>
+
+    <nav class="menu" id="nav">
       <ul>
-        <li><a href="#summary"><span class="ic" aria-hidden="true">🏠</span>סקירה</a></li>
-        <li><a href="#alerts"><span class="ic" aria-hidden="true">🚨</span>כל ההתראות<span class="badge" id="badge" hidden></span></a></li>
-        <li><a href="#live-chart"><span class="ic" aria-hidden="true">📈</span>גרף חי</a></li>
-        <li><a href="#markets"><span class="ic" aria-hidden="true">🌐</span>שווקים במעקב</a></li>
-        <li><a href="#accuracy"><span class="ic" aria-hidden="true">🎯</span>הצלחת המערכת</a></li>
+        <li><a href="#summary"><span class="ic" aria-hidden="true">🏠</span><span data-i18n="nav_summary"></span></a></li>
+        <li><a href="#alerts"><span class="ic" aria-hidden="true">🚨</span><span data-i18n="nav_alerts"></span><span class="badge" id="badge" hidden></span></a></li>
+        <li><a href="#live-chart"><span class="ic" aria-hidden="true">📈</span><span data-i18n="nav_chart"></span></a></li>
+        <li><a href="#markets"><span class="ic" aria-hidden="true">🌐</span><span data-i18n="nav_markets"></span></a></li>
+        <li><a href="#accuracy"><span class="ic" aria-hidden="true">🎯</span><span data-i18n="nav_accuracy"></span></a></li>
+        <li><a href="#guide"><span class="ic" aria-hidden="true">📚</span><span data-i18n="nav_guide"></span></a></li>
       </ul>
     </nav>
 
-    <h2 id="liveHead"><span>התראות אחרונות</span><button type="button" id="markRead">סמן הכול כנקרא</button></h2>
+    <h2 id="liveHead"><span data-i18n="live_head"></span><button type="button" id="markRead" data-i18n="mark_read"></button></h2>
     <ul class="live" id="live" aria-labelledby="liveHead"></ul>
 
     <div class="side-foot">
-      <button type="button" id="notifyBtn" aria-pressed="false"><span aria-hidden="true">🔔</span><span id="notifyLabel">הקפץ התראות במחשב</span></button>
-      <button type="button" id="a11yBtn" aria-haspopup="dialog" aria-controls="a11y"><span aria-hidden="true">♿</span>נגישות</button>
+      <button type="button" id="simpleBtn" aria-pressed="true"><span aria-hidden="true">🧒</span><span id="simpleLabel"></span></button>
+      <button type="button" id="notifyBtn" aria-pressed="false"><span aria-hidden="true">🔔</span><span id="notifyLabel"></span></button>
+      <button type="button" id="a11yBtn" aria-haspopup="dialog" aria-controls="a11y"><span aria-hidden="true">♿</span><span data-i18n="a11y"></span></button>
     </div>
   </aside>
 
-  <!-- ===== main column ===== -->
   <div>
     <div class="topbar">
       <button type="button" class="menu-btn" id="menuBtn" aria-controls="side" aria-expanded="false">
-        <span aria-hidden="true">☰</span> תפריט <span class="badge" id="badgeTop" hidden></span>
+        <span aria-hidden="true">☰</span> <span data-i18n="menu"></span> <span class="badge" id="badgeTop" hidden></span>
       </button>
-      <span class="ttl">מכ"ם השוק</span>
-      <button type="button" class="menu-btn" id="a11yBtnTop" aria-haspopup="dialog" aria-controls="a11y" aria-label="נגישות">♿</button>
+      <span class="ttl" data-i18n="brand"></span>
+      <button type="button" class="menu-btn" id="a11yBtnTop" aria-haspopup="dialog" aria-controls="a11y">♿</button>
     </div>
     <div class="tape" id="tape" aria-hidden="true"></div>
 
     <main id="main" tabindex="-1">
-      <p class="page-title">אירועים עולמיים ← השפעה אפשרית על מניות בוול סטריט</p>
+      <p class="page-title" data-i18n="tagline"></p>
+      <div class="banner" id="banner"><span data-i18n="banner"></span><a href="#guide" data-i18n="banner_btn"></a></div>
 
-      <section id="summary" aria-label="סקירה" style="scroll-margin-top:1rem">
+      <section id="summary" style="scroll-margin-top:1rem">
         <div class="kpis">
-          <div class="kpi"><div class="label">התראות סה"כ</div><div class="val" id="kTotal">–</div><div class="hint">מאז ההפעלה</div></div>
-          <div class="kpi"><div class="label">ב-24 השעות האחרונות</div><div class="val" id="k24">–</div><div class="hint">התראות חדשות</div></div>
-          <div class="kpi"><div class="label">אחוז פגיעה בכיוון</div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint">נבדק 24 שעות אחרי כל התראה</div></div>
-          <div class="kpi"><div class="label">תנועה ממוצעת בכיוון החזוי</div><div class="val" id="kAvg">–</div><div class="hint">ב-24 שעות</div></div>
+          <div class="kpi"><div class="label" data-i18n="k_total"></div><div class="val" id="kTotal">–</div><div class="hint" data-i18n="k_total_h"></div></div>
+          <div class="kpi"><div class="label" data-i18n="k_24"></div><div class="val" id="k24">–</div><div class="hint" data-i18n="k_24_h"></div></div>
+          <div class="kpi"><div class="label" data-i18n="k_hit"></div><div class="val" id="kHit">–</div><div class="hint" id="kHitHint"></div></div>
+          <div class="kpi"><div class="label" data-i18n="k_avg"></div><div class="val" id="kAvg">–</div><div class="hint" data-i18n="k_avg_h"></div></div>
         </div>
       </section>
 
       <div class="grid">
         <div class="stack">
           <section class="card" id="live-chart" aria-labelledby="chartHead">
-            <h2 id="chartHead"><span>גרף חי · <span class="mono" id="chartSym">SPY</span></span><small>לחץ על מניה בהתראה כדי להציג אותה</small></h2>
-            <div class="chart" id="chart" role="img" aria-label="גרף מחיר חי של המניה הנבחרת"></div>
+            <h2 id="chartHead" tabindex="-1"><span><span data-i18n="chart_head"></span> · <span class="mono" id="chartSym">SPY</span></span><small data-i18n="chart_hint"></small></h2>
+            <div class="chart" id="chart" role="img"></div>
           </section>
           <section class="card" id="markets" aria-labelledby="mHead">
-            <h2 id="mHead"><span>שווקים במעקב</span><small>מתעדכן בזמן אמת</small></h2>
-            <div class="overview" id="overview" role="img" aria-label="סקירת שווקים חיה לפי תחומים"></div>
+            <h2 id="mHead"><span data-i18n="nav_markets"></span><small data-i18n="markets_hint"></small></h2>
+            <div class="overview" id="overview" role="img"></div>
           </section>
         </div>
 
         <div class="stack">
           <section class="card" id="alerts" aria-labelledby="feedHead">
-            <h2 id="feedHead"><span>כל ההתראות</span><small id="feedCount"></small></h2>
-            <div class="filters" id="filters" role="group" aria-label="סינון התראות"></div>
-            <div class="feed" id="feed"><div class="empty">טוען התראות…</div></div>
+            <h2 id="feedHead"><span data-i18n="nav_alerts"></span><small id="feedCount"></small></h2>
+            <div class="filters" id="filters" role="group"></div>
+            <div class="feed" id="feed"></div>
           </section>
           <section class="card" id="accuracy" aria-labelledby="accHead">
-            <h2 id="accHead"><span>הצלחה לפי סוג אירוע</span><small>רק התראות שכבר נבדקו</small></h2>
-            <div id="byCat"><div class="empty">עוד אין מספיק נתונים</div></div>
+            <h2 id="accHead"><span data-i18n="acc_head"></span><small data-i18n="acc_hint"></small></h2>
+            <div id="byCat"></div>
           </section>
         </div>
       </div>
 
-      <footer>מידע בלבד, לא ייעוץ השקעות · הגרפים באדיבות TradingView · הנתונים מתעדכנים אוטומטית</footer>
+      <section class="card" id="guide" aria-labelledby="guideHead">
+        <h2 id="guideHead" data-i18n="guide_title"></h2>
+        <p class="guide-sub" data-i18n="guide_sub"></p>
+        <div class="guide" id="guideCards"></div>
+      </section>
+
+      <footer data-i18n="footer"></footer>
     </main>
   </div>
 </div>
 
-<!-- ===== accessibility dialog ===== -->
 <div class="a11y-backdrop" id="a11yBackdrop"></div>
 <div class="a11y" id="a11y" role="dialog" aria-modal="true" aria-labelledby="a11yTitle">
-  <button type="button" class="close" id="a11yClose" aria-label="סגור תפריט נגישות">✕</button>
-  <h2 id="a11yTitle">♿ הגדרות נגישות</h2>
-  <p>ההגדרות נשמרות בדפדפן שלך. אפשר לנווט באתר גם עם המקלדת (Tab).</p>
-
+  <button type="button" class="close" id="a11yClose">✕</button>
+  <h2 id="a11yTitle" data-i18n="a11y_title"></h2>
+  <p data-i18n="a11y_desc"></p>
   <div class="group" role="group" aria-labelledby="gSize">
-    <h3 id="gSize">גודל טקסט</h3>
+    <h3 id="gSize" data-i18n="a11y_size"></h3>
     <div class="sizes">
-      <button type="button" class="opt" data-size="100" aria-pressed="false">רגיל</button>
-      <button type="button" class="opt" data-size="115" aria-pressed="false">גדול</button>
-      <button type="button" class="opt" data-size="130" aria-pressed="false">גדול+</button>
-      <button type="button" class="opt" data-size="150" aria-pressed="false">ענק</button>
+      <button type="button" class="opt" data-size="100" aria-pressed="false"></button>
+      <button type="button" class="opt" data-size="115" aria-pressed="false"></button>
+      <button type="button" class="opt" data-size="130" aria-pressed="false"></button>
+      <button type="button" class="opt" data-size="150" aria-pressed="false"></button>
     </div>
   </div>
-
   <div class="group" role="group" aria-labelledby="gView">
-    <h3 id="gView">תצוגה</h3>
-    <button type="button" class="opt" data-flag="contrast" aria-pressed="false"><span>ניגודיות גבוהה</span><span class="state"></span></button>
-    <button type="button" class="opt" data-flag="light" aria-pressed="false"><span>רקע בהיר</span><span class="state"></span></button>
-    <button type="button" class="opt" data-flag="readable" aria-pressed="false"><span>גופן קריא</span><span class="state"></span></button>
-    <button type="button" class="opt" data-flag="spacing" aria-pressed="false"><span>ריווח שורות מוגדל</span><span class="state"></span></button>
-    <button type="button" class="opt" data-flag="links" aria-pressed="false"><span>הדגשת קישורים</span><span class="state"></span></button>
-    <button type="button" class="opt" data-flag="nomotion" aria-pressed="false"><span>עצירת אנימציות</span><span class="state"></span></button>
+    <h3 id="gView" data-i18n="a11y_view"></h3>
+    <button type="button" class="opt" data-flag="contrast" aria-pressed="false"><span data-i18n="o_contrast"></span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="light" aria-pressed="false"><span data-i18n="o_light"></span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="readable" aria-pressed="false"><span data-i18n="o_readable"></span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="spacing" aria-pressed="false"><span data-i18n="o_spacing"></span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="links" aria-pressed="false"><span data-i18n="o_links"></span><span class="state"></span></button>
+    <button type="button" class="opt" data-flag="nomotion" aria-pressed="false"><span data-i18n="o_nomotion"></span><span class="state"></span></button>
   </div>
-  <button type="button" class="reset" id="a11yReset">איפוס כל הגדרות הנגישות</button>
+  <button type="button" class="reset" id="a11yReset" data-i18n="a11y_reset"></button>
 </div>
 
-<div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
 <div class="sr-only" id="srStatus" aria-live="polite"></div>
 
 <script>
-/* ================= data & helpers ================= */
-const CATS = {geopolitics:["🌍","גיאופוליטיקה"],policy:["🏛️","מדיניות ורגולציה"],trade:["🚢","סחר ומכסים"],
-  macro:["🏦","כלכלה וריבית"],commodities:["⛽","סחורות ואספקה"],climate:["🌪️","אקלים ואסונות"],health:["🦠","בריאות"],cyber:["💻","סייבר"],
-  contracts:["📑","חוזים ועסקאות"]};
+const CAT_ICON = {geopolitics:"🌍",policy:"🏛️",trade:"🚢",macro:"🏦",commodities:"⛽",climate:"🌪️",health:"🦠",cyber:"💻",contracts:"📑"};
 const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",DIA:"AMEX",IWM:"AMEX",XLE:"AMEX",XOM:"NYSE",CVX:"NYSE",USO:"AMEX",UNG:"AMEX",GLD:"AMEX",SLV:"AMEX",
   LMT:"NYSE",RTX:"NYSE",NOC:"NYSE",GD:"NYSE",LHX:"NYSE",BA:"NYSE",HII:"NYSE",KTOS:"NASDAQ",AVAV:"NASDAQ",PLTR:"NASDAQ",ESLT:"NASDAQ",
   ITA:"CBOE",XAR:"AMEX",DAL:"NYSE",UAL:"NASDAQ",JETS:"AMEX",ZIM:"NYSE",FDX:"NYSE",BDRY:"AMEX",TSM:"NYSE",NVDA:"NASDAQ",ASML:"NASDAQ",
@@ -296,7 +322,6 @@ const EXCH = {SPY:"AMEX",QQQ:"NASDAQ",DIA:"AMEX",IWM:"AMEX",XLE:"AMEX",XOM:"NYSE
   EWI:"AMEX",EWC:"AMEX",EWA:"AMEX",EWZ:"AMEX",EWW:"AMEX",INDA:"CBOE",EWY:"AMEX",EWT:"AMEX",KSA:"AMEX",TUR:"NASDAQ",EZA:"AMEX",
   EWS:"AMEX",VGK:"AMEX",XLF:"AMEX",XLK:"AMEX",XLV:"AMEX",XLI:"AMEX",XLU:"AMEX",XLB:"AMEX",XLP:"AMEX",XLY:"AMEX",ICLN:"NASDAQ",
   URA:"AMEX",LIT:"AMEX",UUP:"AMEX",FXE:"AMEX",FXY:"AMEX",IBIT:"NASDAQ",TEVA:"NYSE",CHKP:"NASDAQ",NICE:"NASDAQ"};
-// "ESLT.TA" (Tel Aviv, as written by the radar) -> "TASE:ESLT"; anything unknown is left for TradingView to resolve
 const tv = t => /\.TA$/i.test(t) ? `TASE:${t.slice(0, -3).toUpperCase()}` : EXCH[t] ? `${EXCH[t]}:${t}` : t;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
@@ -305,10 +330,39 @@ const store = {
   set(k, v){ try { localStorage.setItem("mr_" + k, JSON.stringify(v)); } catch {} }
 };
 const alertId = a => String(a.ts) + "|" + (a.title || "");
+const domId = a => "a-" + alertId(a).replace(/[^\w-]/g, "_");
+
+/* ---------- language ---------- */
+const guessLang = () => { const n = (navigator.language || "he").slice(0, 2); return I18N[n] ? n : "he"; };
+let LANG = store.get("lang", null) || guessLang();
+if (!I18N[LANG]) LANG = "he";
+const T = (k, ...args) => { const v = (I18N[LANG] || I18N.he)[k] ?? I18N.he[k]; return typeof v === "function" ? v(...args) : v; };
+// text of an alert field in the current language, falling back to Hebrew
+const L = (obj, fallback) => (obj && (obj[LANG] || obj.he)) || fallback || "";
+
 let ALERTS = [], FILTER = "all", CHART_SYM = "SPY", FIRST_LOAD = true, KNOWN = new Set();
 let lastSeen = store.get("lastSeen", 0);
+let SIMPLE = store.get("simple", true);
 
-/* ================= accessibility settings ================= */
+function applyLang(){
+  const h = document.documentElement;
+  h.lang = LANG; h.dir = T("dir");
+  document.title = T("brand");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = T(el.dataset.i18n); });
+  document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
+  $("langGroup").setAttribute("aria-label", T("language"));
+  $("side").setAttribute("aria-label", T("menu"));
+  $("nav").setAttribute("aria-label", T("menu"));
+  $("a11yBtnTop").setAttribute("aria-label", T("a11y"));
+  $("a11yClose").setAttribute("aria-label", T("a11y_close"));
+  $("filters").setAttribute("aria-label", T("filter_aria"));
+  $("overview").setAttribute("aria-label", T("markets_aria"));
+  document.querySelectorAll("[data-size]").forEach((b, i) => b.textContent = T("sizes")[i]);
+  $("guideCards").innerHTML = T("guide").map(([t, p]) => `<article><h3>${esc(t)}</h3><p>${esc(p)}</p></article>`).join("");
+  applyA11y(); updateNotifyBtn(); updateSimple();
+}
+
+/* ---------- accessibility ---------- */
 const FLAGS = ["contrast","light","readable","spacing","links","nomotion"];
 let A11Y = Object.assign({size:100}, store.get("a11y", {}));
 function applyA11y(){
@@ -319,13 +373,20 @@ function applyA11y(){
   document.querySelectorAll("[data-size]").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.size === A11Y.size)));
   document.querySelectorAll("[data-flag]").forEach(b => {
     const on = !!A11Y[b.dataset.flag]; b.setAttribute("aria-pressed", String(on));
-    b.querySelector(".state").textContent = on ? "פעיל" : "כבוי";
+    b.querySelector(".state").textContent = on ? T("on") : T("off");
   });
   store.set("a11y", A11Y);
 }
-function themeForWidgets(){ return document.documentElement.classList.contains("light") ? "light" : "dark"; }
+const themeForWidgets = () => document.documentElement.classList.contains("light") ? "light" : "dark";
 
-/* ================= TradingView widgets ================= */
+/* ---------- simple mode ---------- */
+function updateSimple(){
+  $("simpleBtn").setAttribute("aria-pressed", String(SIMPLE));
+  $("simpleLabel").textContent = SIMPLE ? T("simple_on") : T("simple_off");
+  $("banner").hidden = !SIMPLE;
+}
+
+/* ---------- TradingView widgets ---------- */
 function widget(el, file, config){
   el.innerHTML = "";
   const box = document.createElement("div"); box.className = "tradingview-widget-container"; box.style.height = "100%";
@@ -339,42 +400,46 @@ function showChart(t){
   CHART_SYM = t; $("chartSym").textContent = t;
   const light = themeForWidgets() === "light";
   widget($("chart"), "embed-widget-advanced-chart.js", {
-    symbol: tv(t), interval: "60", timezone: "Asia/Jerusalem", theme: themeForWidgets(), style: "1", locale: "he_IL",
+    symbol: tv(t), interval: "60", timezone: "Asia/Jerusalem", theme: themeForWidgets(), style: "1", locale: T("tv"),
     autosize: true, hide_side_toolbar: true, allow_symbol_change: true,
     backgroundColor: light ? "#ffffff" : "#121826", gridColor: light ? "rgba(214,220,231,.6)" : "rgba(35,44,64,.6)"});
-  $("chart").setAttribute("aria-label", `גרף מחיר חי של ${t}`);
+  $("chart").setAttribute("aria-label", T("chart_aria", t));
 }
 function initWidgets(){
-  const theme = themeForWidgets();
+  const theme = themeForWidgets(), loc = T("tv");
   widget($("tape"), "embed-widget-ticker-tape.js", {
     symbols: ["SPY","QQQ","DIA","USO","GLD","IBIT","UUP","EIS","TASE:TA35","EWJ","VGK","FXI","XLE","ITA","TLT"]
-      .map(t => ({proName: t.includes(":") ? t : tv(t), title: t === "TASE:TA35" ? "ת\"א 35" : t})),
-    colorTheme: theme, isTransparent: true, displayMode: "adaptive", locale: "he_IL", showSymbolLogo: false});
-  const tab = (title, list) => ({title, symbols: list.map(t => Array.isArray(t) ? {s: t[0], d: t[1]} : {s: tv(t), d: t})});
+      .map(t => ({proName: t.includes(":") ? t : tv(t), title: t === "TASE:TA35" ? T("ta35") : t})),
+    colorTheme: theme, isTransparent: true, displayMode: "adaptive", locale: loc, showSymbolLogo: false});
+  const tab = (key, list) => ({title: T("tabs")[key], symbols: list.map(t => Array.isArray(t) ? {s: t[0], d: t[1]} : {s: tv(t), d: t})});
   widget($("overview"), "embed-widget-market-overview.js", {
-    colorTheme: theme, dateRange: "1D", showChart: true, locale: "he_IL", isTransparent: true, width: "100%", height: "100%",
+    colorTheme: theme, dateRange: "1D", showChart: true, locale: loc, isTransparent: true, width: "100%", height: "100%",
     showSymbolLogo: false, plotLineColorGrowing: "#22c55e", plotLineColorFalling: "#ef4444",
-    tabs: [tab("ארה\"ב", ["SPY","QQQ","DIA","IWM","TLT","HYG"]),
-           tab("ישראל", [["TASE:TA35","ת\"א 35"],["TASE:TA125","ת\"א 125"],"EIS","ESLT","TEVA","CHKP"]),
-           tab("עולם", ["VGK","EWJ","FXI","INDA","EWZ","EWY","EWT","KSA"]),
-           tab("ביטחון", ["ITA","LMT","RTX","NOC","GD","BA","ESLT"]),
-           tab("אנרגיה", ["XLE","XOM","CVX","USO","UNG","URA"]),
-           tab("סחורות", ["GLD","SLV","CPER","WEAT","CORN","DBA"]),
-           tab("מטבעות וקריפטו", ["UUP","FXE","FXY","IBIT"]),
-           tab("סקטורים", ["XLK","SMH","XLF","XLV","XLI","XLU","JETS"])]});
+    tabs: [tab("us", ["SPY","QQQ","DIA","IWM","TLT","HYG"]),
+           tab("il", [["TASE:TA35", T("ta35")],["TASE:TA125", T("ta125")],"EIS","ESLT","TEVA","CHKP"]),
+           tab("world", ["VGK","EWJ","FXI","INDA","EWZ","EWY","EWT","KSA"]),
+           tab("defense", ["ITA","LMT","RTX","NOC","GD","BA","ESLT"]),
+           tab("energy", ["XLE","XOM","CVX","USO","UNG","URA"]),
+           tab("commod", ["GLD","SLV","CPER","WEAT","CORN","DBA"]),
+           tab("fx", ["UUP","FXE","FXY","IBIT"]),
+           tab("sectors", ["XLK","SMH","XLF","XLV","XLI","XLU","JETS"])]});
   showChart(CHART_SYM);
 }
 
-/* ================= rendering ================= */
+/* ---------- rendering ---------- */
 function fmtTime(a){
   const d = a.time ? new Date(a.time) : new Date(a.ts * 1000);
-  return d.toLocaleString("he-IL", {timeZone: "Asia/Jerusalem", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
+  return d.toLocaleString(T("date"), {timeZone: "Asia/Jerusalem", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
 }
-const sevClass = s => s >= 8 ? "s8" : s >= 6 ? "s6" : "s0";
+const sevClass = s => s >= 8 ? "s8" : s >= 6 ? "s6" : s >= 4 ? "s4" : "s0";
+const sevWord = s => T("sev_words")[s >= 8 ? 3 : s >= 6 ? 2 : s >= 4 ? 1 : 0];
+const sevText = s => T("sev_label", sevWord(s), s);
 const impactsOf = a => (a.impacts || []).filter(i => i.ticker);
 const evaluated = () => ALERTS.flatMap(a => impactsOf(a).filter(i => typeof i.hit === "boolean").map(i => ({...i, cat: a.category})));
 const sorted = () => [...ALERTS].sort((a, b) => b.ts - a.ts);
 const unread = () => ALERTS.filter(a => a.ts > lastSeen);
+const titleOf = a => L(a.i18n && a.i18n.title, a.title);
+const catName = c => (T("cats") || {})[c] || c || "";
 
 function renderKpis(){
   const now = Date.now() / 1000;
@@ -384,37 +449,36 @@ function renderKpis(){
   if (ev.length){
     const hits = ev.filter(i => i.hit).length;
     $("kHit").textContent = Math.round(hits / ev.length * 100) + "%";
-    $("kHitHint").textContent = `${hits} מתוך ${ev.length} תחזיות`;
+    $("kHitHint").textContent = T("k_hit_h", hits, ev.length);
     const signed = ev.map(i => (i.direction === "up" ? 1 : -1) * (i.change_24h_pct || 0));
     const avg = signed.reduce((x, y) => x + y, 0) / signed.length;
     $("kAvg").innerHTML = `<span class="mono ${avg >= 0 ? "up" : "down"}">${avg >= 0 ? "+" : ""}${avg.toFixed(2)}%</span>`;
   } else {
-    $("kHit").textContent = "–"; $("kAvg").textContent = "–";
-    $("kHitHint").textContent = "יתמלא 24 שעות אחרי ההתראה הראשונה";
+    $("kHit").textContent = "–"; $("kAvg").textContent = "–"; $("kHitHint").textContent = T("k_hit_wait");
   }
 }
 
 function renderSidebar(){
   const n = unread().length;
-  [$("badge"), $("badgeTop")].forEach(b => { b.hidden = !n; b.textContent = n; b.setAttribute("aria-label", `${n} התראות חדשות`); });
+  [$("badge"), $("badgeTop")].forEach(b => { b.hidden = !n; b.textContent = n; b.setAttribute("aria-label", T("new_alerts_aria", n)); });
   $("markRead").hidden = !n;
-  const list = sorted().slice(0, 12);
-  if (!list.length){ $("live").innerHTML = `<li class="side-empty">עוד אין התראות. המערכת סורקת ברקע ותציג כאן כל אירוע משמעותי.</li>`; return; }
+  const list = sorted().slice(0, 15);
+  if (!list.length){ $("live").innerHTML = `<li class="side-empty">${esc(T("live_empty"))}</li>`; return; }
   $("live").innerHTML = list.map(a => {
-    const isNew = a.ts > lastSeen;
+    const isNew = a.ts > lastSeen, title = titleOf(a);
     const tks = impactsOf(a).slice(0, 4).map(i =>
       `<span class="mono ${i.direction === "up" ? "up" : "down"}">${i.direction === "up" ? "▲" : "▼"}${esc(i.ticker)}</span>`).join("");
-    const label = `${isNew ? "חדש: " : ""}${a.title}, חומרה ${a.severity} מתוך 10, ${fmtTime(a)}`;
+    const label = `${isNew ? T("new") + ": " : ""}${title}, ${sevText(a.severity)}, ${fmtTime(a)}`;
     return `<li><button type="button" data-goto="${esc(alertId(a))}" aria-label="${esc(label)}">
-      <div class="t"><span class="sev ${sevClass(a.severity)}" aria-hidden="true"></span><span>${esc(a.title)}</span>${isNew ? `<span class="new" aria-hidden="true">חדש</span>` : ""}</div>
-      <div class="m" aria-hidden="true">חומרה ${a.severity}/10 · ${fmtTime(a)}</div>
+      <div class="t"><span class="sev ${sevClass(a.severity)}" aria-hidden="true"></span><span>${esc(title)}</span>${isNew ? `<span class="new" aria-hidden="true">${esc(T("new"))}</span>` : ""}</div>
+      <div class="m" aria-hidden="true">${esc(sevText(a.severity))} · ${fmtTime(a)}</div>
       <div class="tks" aria-hidden="true">${tks}</div></button></li>`;
   }).join("");
 }
 
 function renderFilters(){
   const present = [...new Set(ALERTS.map(a => a.category).filter(Boolean))];
-  const opts = [["all", "הכול"], ["mid", "🟠 חומרה 6+"], ["high", "🔴 חומרה 8+"], ...present.map(c => [c, (CATS[c] || ["📰", c]).join(" ")])];
+  const opts = [["all", T("f_all")], ["mid", T("f_mid")], ["high", T("f_high")], ...present.map(c => [c, `${CAT_ICON[c] || "📰"} ${catName(c)}`])];
   $("filters").innerHTML = opts.map(([k, l]) =>
     `<button type="button" class="chip" data-f="${esc(k)}" aria-pressed="${FILTER === k}">${esc(l)}</button>`).join("");
 }
@@ -424,77 +488,82 @@ function renderFeed(){
   if (FILTER === "high") list = list.filter(a => a.severity >= 8);
   else if (FILTER === "mid") list = list.filter(a => a.severity >= 6);
   else if (FILTER !== "all") list = list.filter(a => a.category === FILTER);
-  $("feedCount").textContent = `${list.length} התראות`;
-  if (!list.length){
-    $("feed").innerHTML = `<div class="empty">${ALERTS.length ? "אין התראות בסינון הזה" :
-      "עוד אין התראות. המערכת סורקת ברקע כל 15 דקות ותציג כאן כל אירוע שעלול להזיז מניות."}</div>`;
-    return;
-  }
+  $("feedCount").textContent = T("feed_count", list.length);
+  if (!list.length){ $("feed").innerHTML = `<div class="empty">${esc(ALERTS.length ? T("feed_empty_filter") : T("feed_empty"))}</div>`; return; }
   $("feed").innerHTML = list.map(a => {
-    const [icon, catName] = CATS[a.category] || ["📰", a.category || ""];
+    const title = titleOf(a), summary = L(a.i18n && a.i18n.summary, a.summary), kid = L(a.i18n && a.i18n.kid, a.kid);
     const imps = impactsOf(a).map(i => {
       const up = i.direction === "up";
-      let res = `<span class="res wait">ממתין לבדיקה</span>`;
+      let res = `<span class="res wait">${esc(T("waiting"))}</span>`;
       if (typeof i.hit === "boolean"){
         const c = i.change_24h_pct ?? 0;
-        res = `<span class="res ${i.hit ? "hit" : "miss"}">${i.hit ? "✓ צדק" : "✗ טעה"} · <span class="mono">${c >= 0 ? "+" : ""}${c.toFixed(2)}%</span></span>`;
+        res = `<span class="res ${i.hit ? "hit" : "miss"}">${esc(i.hit ? T("hit") : T("miss"))} · <span class="mono">${c >= 0 ? "+" : ""}${c.toFixed(2)}%</span></span>`;
       }
-      const price = i.price_at_alert ? `<span class="mono" style="color:var(--muted);font-size:.75rem">$${(+i.price_at_alert).toFixed(2)}</span>` : "";
-      return `<div class="imp"><span class="${up ? "up" : "down"}" aria-hidden="true">${up ? "▲" : "▼"}</span>
-        <span class="sr-only">${up ? "צפי לעלייה:" : "צפי לירידה:"}</span>
-        <button type="button" class="tk mono" data-t="${esc(i.ticker)}" aria-label="הצג גרף של ${esc(i.ticker)}">${esc(i.ticker)}</button>${price}
-        <span>${esc(i.reason || "")}</span>${res}</div>`;
+      const name = L(i.name_i18n, "");
+      const reason = L(i.reason_i18n, i.reason);
+      const price = !SIMPLE && i.price_at_alert ? `<span class="mono" style="color:var(--muted);font-size:.75rem">${(+i.price_at_alert).toFixed(2)}</span>` : "";
+      const dir = SIMPLE
+        ? `<span class="dirword ${up ? "up" : "down"}">${up ? "▲" : "▼"} ${esc(up ? T("up_word") : T("down_word"))}</span>`
+        : `<span class="${up ? "up" : "down"}" aria-hidden="true">${up ? "▲" : "▼"}</span><span class="sr-only">${esc(up ? T("up_word") : T("down_word"))}</span>`;
+      return `<div class="imp">${dir}
+        <button type="button" class="tk mono" data-t="${esc(i.ticker)}" aria-label="${esc(T("show_chart_of"))} ${esc(i.ticker)}">${esc(i.ticker)}</button>
+        ${SIMPLE && name ? `<span class="cname">${esc(name)}</span>` : ""}${price}
+        <span>${SIMPLE && name ? "– " : ""}${esc(reason)}</span>${res}</div>`;
     }).join("");
     const srcs = (a.sources || []).slice(0, 3).map((s, n) => {
-      const url = typeof s === "string" ? s : s.url, name = typeof s === "string" ? `מקור ${n + 1}` : s.name;
-      return /^https?:\/\//.test(url || "") ? `<a href="${esc(url)}" target="_blank" rel="noopener">🔗 ${esc(name)}<span class="sr-only"> (נפתח בחלון חדש)</span></a>` : "";
+      const url = typeof s === "string" ? s : s.url, nm = typeof s === "string" ? `${T("source")} ${n + 1}` : s.name;
+      return /^https?:\/\//.test(url || "") ? `<a href="${esc(url)}" target="_blank" rel="noopener">🔗 ${esc(nm)}<span class="sr-only"> ${esc(T("new_window"))}</span></a>` : "";
     }).join("");
-    return `<article class="alert ${sevClass(a.severity)}" id="a-${esc(alertId(a)).replace(/[^\w-]/g, "_")}" tabindex="-1" aria-label="${esc(catName)}: ${esc(a.title)}">
-      <div class="a-top"><h3 class="a-title">${icon} ${esc(a.title)}</h3><div class="a-meta">חומרה ${a.severity}/10 · ${fmtTime(a)}</div></div>
-      ${a.summary ? `<div class="a-sum">${esc(a.summary)}</div>` : ""}
+    return `<article class="alert ${sevClass(a.severity)}" id="${esc(domId(a))}" tabindex="-1" aria-label="${esc(catName(a.category))}: ${esc(title)}">
+      <div class="a-top"><h3 class="a-title">${CAT_ICON[a.category] || "📰"} ${esc(title)}</h3>
+        <div class="a-meta"><span class="sevtag ${sevClass(a.severity)}">${esc(sevText(a.severity))}</span>${fmtTime(a)}</div></div>
+      ${SIMPLE && kid ? `<div class="kid"><b>🧒 ${esc(T("simply"))}:</b> ${esc(kid)}</div>` : ""}
+      ${summary && (!SIMPLE || !kid) ? `<div class="a-sum">${esc(summary)}</div>` : ""}
       ${imps}${srcs ? `<div class="src">${srcs}</div>` : ""}</article>`;
   }).join("");
 }
 
 function renderByCat(){
   const ev = evaluated(), box = $("byCat");
-  if (!ev.length){ box.innerHTML = `<div class="empty">יתמלא אחרי שההתראות הראשונות ייבדקו (24 שעות אחרי כל אחת)</div>`; return; }
+  if (!ev.length){ box.innerHTML = `<div class="empty">${esc(T("acc_empty"))}</div>`; return; }
   const g = {};
   ev.forEach(i => { const k = i.cat || "other"; (g[k] ||= {n: 0, h: 0}); g[k].n++; if (i.hit) g[k].h++; });
-  box.innerHTML = `<table><caption class="sr-only">אחוז הצלחה לפי סוג אירוע</caption><tr><th scope="col">סוג אירוע</th><th scope="col">תחזיות</th><th scope="col">צדק</th><th scope="col"><span class="sr-only">תרשים</span></th></tr>` +
+  box.innerHTML = `<table><caption class="sr-only">${esc(T("acc_caption"))}</caption><tr><th scope="col">${esc(T("th_type"))}</th><th scope="col">${esc(T("th_preds"))}</th><th scope="col">${esc(T("th_right"))}</th><th scope="col"><span class="sr-only">${esc(T("th_chart"))}</span></th></tr>` +
     Object.entries(g).sort((a, b) => b[1].n - a[1].n).map(([k, v]) => {
       const p = Math.round(v.h / v.n * 100);
-      return `<tr><td>${(CATS[k] || ["📰", k]).join(" ")}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td>
+      return `<tr><td>${CAT_ICON[k] || "📰"} ${esc(catName(k))}</td><td class="mono">${v.n}</td><td class="mono">${p}%</td>
         <td aria-hidden="true"><div class="bar"><i style="width:${p}%"></i></div></td></tr>`;
     }).join("") + `</table>`;
 }
 
-/* ================= new-alert popups ================= */
+function renderAll(){ renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat(); }
+
+/* ---------- new-alert popups ---------- */
 function toast(a){
   const box = document.createElement("div"); box.className = "toast"; box.setAttribute("role", "status");
-  box.style.borderRightColor = a.severity >= 8 ? "var(--red)" : "var(--orange)";
+  box.style.borderInlineStartColor = a.severity >= 8 ? "var(--red)" : a.severity >= 6 ? "var(--orange)" : "var(--yellow)";
   const tks = impactsOf(a).slice(0, 4).map(i => `${i.direction === "up" ? "▲" : "▼"}${i.ticker}`).join("  ");
-  box.innerHTML = `<b>🚨 התראה חדשה · חומרה ${a.severity}/10</b>${esc(a.title)}<div class="mono" style="font-size:.8rem;margin-top:.2rem">${esc(tks)}</div>
-    <div class="row"><button type="button" data-goto="${esc(alertId(a))}">הצג</button><button type="button" data-dismiss>סגור</button></div>`;
+  box.innerHTML = `<b>${esc(T("toast_new", a.severity))}</b>${esc(titleOf(a))}<div class="mono" style="font-size:.8rem;margin-top:.2rem">${esc(tks)}</div>
+    <div class="row"><button type="button" data-goto="${esc(alertId(a))}">${esc(T("show"))}</button><button type="button" data-dismiss>${esc(T("close"))}</button></div>`;
   $("toasts").prepend(box);
   setTimeout(() => box.remove(), 20000);
 }
 function browserNotify(a){
   if (!store.get("notify", false) || !("Notification" in window) || Notification.permission !== "granted") return;
   try {
-    const n = new Notification(`🚨 מכ"ם השוק · חומרה ${a.severity}/10`, {
-      body: `${a.title}\n${impactsOf(a).map(i => (i.direction === "up" ? "▲" : "▼") + i.ticker).join(" ")}`, tag: alertId(a)});
+    const n = new Notification(`${T("brand")} · ${a.severity}/10`, {
+      body: `${titleOf(a)}\n${impactsOf(a).map(i => (i.direction === "up" ? "▲" : "▼") + i.ticker).join(" ")}`, tag: alertId(a)});
     n.onclick = () => { window.focus(); goTo(alertId(a)); };
   } catch {}
 }
 function updateNotifyBtn(){
-  const on = store.get("notify", false) && "Notification" in window && Notification.permission === "granted";
+  if (!("Notification" in window)){ $("notifyBtn").hidden = true; return; }
+  const on = store.get("notify", false) && Notification.permission === "granted";
   $("notifyBtn").setAttribute("aria-pressed", String(on));
-  $("notifyLabel").textContent = on ? "הקפצת התראות במחשב: פעיל" : "הקפץ התראות במחשב";
-  if (!("Notification" in window)) $("notifyBtn").hidden = true;
+  $("notifyLabel").textContent = on ? T("notify_on") : T("notify_off");
 }
 
-/* ================= navigation ================= */
+/* ---------- navigation ---------- */
 function goTo(id){
   closeMenu();
   if (FILTER !== "all"){ FILTER = "all"; renderFilters(); renderFeed(); }
@@ -507,22 +576,23 @@ function goTo(id){
 function markAllRead(){
   lastSeen = Math.max(lastSeen, ...ALERTS.map(a => a.ts), Math.floor(Date.now() / 1000));
   store.set("lastSeen", lastSeen); renderSidebar();
-  $("srStatus").textContent = "כל ההתראות סומנו כנקראו";
+  $("srStatus").textContent = T("marked_read");
 }
 function openMenu(){ $("side").classList.add("open"); $("menuBtn").setAttribute("aria-expanded", "true"); $("side").querySelector("a,button").focus(); }
 function closeMenu(){ if (!$("side").classList.contains("open")) return; $("side").classList.remove("open"); $("menuBtn").setAttribute("aria-expanded", "false"); }
-
 let a11yReturn = null;
-function openA11y(from){
-  a11yReturn = from || document.activeElement;
-  $("a11y").classList.add("open"); $("a11yBackdrop").classList.add("open"); $("a11yClose").focus();
-}
-function closeA11y(){
-  $("a11y").classList.remove("open"); $("a11yBackdrop").classList.remove("open");
-  if (a11yReturn) a11yReturn.focus();
-}
+function openA11y(from){ a11yReturn = from || document.activeElement; $("a11y").classList.add("open"); $("a11yBackdrop").classList.add("open"); $("a11yClose").focus(); }
+function closeA11y(){ $("a11y").classList.remove("open"); $("a11yBackdrop").classList.remove("open"); if (a11yReturn) a11yReturn.focus(); }
 
-/* ================= loading ================= */
+/* ---------- loading ---------- */
+let LAST_RUN = null;
+function renderStatus(){
+  if (!LAST_RUN){ $("statusText").textContent = T("status_wait"); return; }
+  const mins = Math.round((Date.now() - LAST_RUN) / 60000);
+  $("dot").className = "dot " + (mins < 75 ? "ok" : "stale");
+  $("statusText").textContent = T("status_last", mins);
+  $("statusText").title = LAST_RUN.toLocaleString(T("date"), {timeZone: "Asia/Jerusalem"});
+}
 async function load(){
   const bust = "?t=" + Date.now();
   try {
@@ -530,31 +600,27 @@ async function load(){
     ALERTS = r.ok ? await r.json() : [];
     if (!Array.isArray(ALERTS)) ALERTS = [];
   } catch { ALERTS = []; }
-  try {
-    const s = await (await fetch("state.json" + bust, {cache: "no-store"})).json();
-    const last = new Date(s.last_run), mins = Math.round((Date.now() - last) / 60000);
-    $("dot").className = "dot " + (mins < 75 ? "ok" : "stale");
-    $("statusText").textContent = `סריקה אחרונה לפני ${mins} דק'`;
-    $("statusText").title = last.toLocaleString("he-IL", {timeZone: "Asia/Jerusalem"});
-  } catch { $("statusText").textContent = "ממתין לסריקה ראשונה"; }
+  try { LAST_RUN = new Date((await (await fetch("state.json" + bust, {cache: "no-store"})).json()).last_run); if (isNaN(LAST_RUN)) LAST_RUN = null; }
+  catch { LAST_RUN = null; }
+  renderStatus();
 
-  // pop-ups only for alerts that appear while the page is open
   const fresh = ALERTS.filter(a => !KNOWN.has(alertId(a)));
   if (!FIRST_LOAD) fresh.sort((a, b) => a.ts - b.ts).forEach(a => { toast(a); browserNotify(a); });
   ALERTS.forEach(a => KNOWN.add(alertId(a)));
-  if (!FIRST_LOAD && fresh.length) $("srStatus").textContent = `${fresh.length} התראות חדשות הגיעו`;
+  if (!FIRST_LOAD && fresh.length) $("srStatus").textContent = T("new_count", fresh.length);
   FIRST_LOAD = false;
-
-  renderKpis(); renderSidebar(); renderFilters(); renderFeed(); renderByCat();
+  renderAll();
 }
 
-/* ================= events ================= */
+/* ---------- events ---------- */
 document.addEventListener("click", e => {
   if ($("side").classList.contains("open") && !e.target.closest("#side") && !e.target.closest("#menuBtn")) closeMenu();
   const g = e.target.closest("[data-goto]"); if (g){ goTo(g.dataset.goto); const t = g.closest(".toast"); if (t) t.remove(); return; }
   if (e.target.closest("[data-dismiss]")){ e.target.closest(".toast").remove(); return; }
-  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); $("live-chart").scrollIntoView({block: "start"}); $("chartHead").setAttribute("tabindex", "-1"); $("chartHead").focus({preventScroll: true}); return; }
+  const t = e.target.closest("[data-t]"); if (t){ showChart(t.dataset.t); $("live-chart").scrollIntoView({block: "start"}); $("chartHead").focus({preventScroll: true}); return; }
   const f = e.target.closest("[data-f]"); if (f){ FILTER = f.dataset.f; renderFilters(); renderFeed(); return; }
+  const lg = e.target.closest("[data-lang]");
+  if (lg){ LANG = lg.dataset.lang; store.set("lang", LANG); applyLang(); renderStatus(); renderAll(); initWidgets(); return; }
   const sz = e.target.closest("[data-size]"); if (sz){ A11Y.size = +sz.dataset.size; applyA11y(); return; }
   const fl = e.target.closest("[data-flag]");
   if (fl){
@@ -568,6 +634,7 @@ document.addEventListener("click", e => {
   }
   if (e.target.closest("nav.menu a")) closeMenu();
 });
+$("simpleBtn").addEventListener("click", () => { SIMPLE = !SIMPLE; store.set("simple", SIMPLE); updateSimple(); renderFeed(); });
 $("markRead").addEventListener("click", markAllRead);
 $("menuBtn").addEventListener("click", () => $("side").classList.contains("open") ? closeMenu() : openMenu());
 $("a11yBtn").addEventListener("click", e => openA11y(e.currentTarget));
@@ -582,25 +649,27 @@ $("notifyBtn").addEventListener("click", async () => {
   if (p === "default") { try { p = await Notification.requestPermission(); } catch {} }
   store.set("notify", p === "granted");
   updateNotifyBtn();
-  if (p === "denied") $("srStatus").textContent = "הדפדפן חוסם התראות. אפשר לאשר אותן בהגדרות האתר בדפדפן.";
+  if (p === "denied") $("srStatus").textContent = T("notify_denied");
 });
 document.addEventListener("keydown", e => {
   if (e.key === "Escape"){
     if ($("a11y").classList.contains("open")) closeA11y();
     else if ($("side").classList.contains("open")){ closeMenu(); $("menuBtn").focus(); }
   }
-  if (e.key === "Tab" && $("a11y").classList.contains("open")){  // keep focus inside the dialog
+  if (e.key === "Tab" && $("a11y").classList.contains("open")){
     const f = [...$("a11y").querySelectorAll("button")]; const first = f[0], last = f[f.length - 1];
     if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
   }
 });
 
-applyA11y();
-updateNotifyBtn();
+applyLang();
+$("statusText").textContent = T("status_loading");
+$("feed").innerHTML = `<div class="empty">${esc(T("status_loading"))}</div>`;
 initWidgets();
 load();
 setInterval(load, 2 * 60 * 1000);
+setInterval(renderStatus, 60 * 1000);
 </script>
 </body>
 </html>

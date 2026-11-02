@@ -218,22 +218,30 @@ sports, celebrity, local crime, opinion pieces and anything with no market chann
 
 Merge headlines about the same event into one event. For each event return:
 - ids: list of headline numbers it is based on
-- title_he: short title in Hebrew
-- summary_he: 1–2 sentences in Hebrew, ONLY facts stated in the headlines
+- title, summary, kid: each an object with the same text in 4 languages
+  {"he": Hebrew, "en": English, "ar": Arabic, "ru": Russian}:
+  - title: short headline
+  - summary: 1–2 sentences, ONLY facts stated in the headlines
+  - kid: 1–2 very simple sentences a 10-year-old understands: what happened and why
+    it could make these stocks go up or down. No jargon (if a word like "ETF" or
+    "sanctions" is needed, explain it in a few words). Friendly, concrete, no advice.
 - category: one of geopolitics, policy, trade, macro, commodities, climate, health, cyber, contracts
 - severity: 1–10 expected market impact (1–3 = small / single-stock or sector noise,
   4–5 = noticeable for a stock or sector, 6–7 = clearly market-relevant for a sector,
   8 = major multi-sector move likely, 10 = historic shock). Routine statements and
   incremental updates are usually <= 4. A large defense contract is often 3–6 for the winner.
 - novelty: "new" if this looks like a new development, "update" if continuation
-- impacts: 1–5 items {ticker, direction ("up"/"down"), reason_he (short Hebrew)}.
+- impacts: 1–5 items {ticker, direction ("up"/"down"),
+    name: {"he","en","ar","ru"} who this is in a few simple words (e.g. "Exxon – a big oil company"),
+    reason: {"he","en","ar","ru"} short reason}.
   Use real tickers: US-listed stocks/ETFs (including country, sector, commodity, currency and
   bitcoin ETFs for non-US markets), or Tel Aviv Stock Exchange stocks with the ".TA" suffix
   (e.g. ESLT.TA) when the effect is on Israeli stocks. Prefer this watchlist when relevant,
   but any valid ticker is allowed:
   WATCHLIST
 - confidence: "low", "medium" or "high"
-Never give buy/sell advice. Return JSON: {"events": [...]} (empty list if nothing qualifies).
+Return at most 12 events (the most market-relevant ones). Never give buy/sell advice.
+Return JSON: {"events": [...]} (empty list if nothing qualifies).
 
 Headlines:
 HEADLINES
@@ -270,7 +278,7 @@ def analyse(headlines):
     wl = ", ".join(f"{k} ({v})" for k, v in WATCHLIST.items())
     prompt = PROMPT.replace("WATCHLIST", wl).replace("HEADLINES", lines)
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 16000}}
     last_err = None
     for model in gemini_models():
         for attempt in range(2):
@@ -293,6 +301,18 @@ def analyse(headlines):
                 log("gemini error:", last_err)
                 break
     raise RuntimeError(f"all Gemini models failed. Last error: {last_err}")
+
+
+def tr(x, lang="he"):
+    """Text in one language from a {"he":..,"en":..} object (or a plain string from older formats)."""
+    if isinstance(x, dict):
+        return x.get(lang) or x.get("he") or next((v for v in x.values() if v), "")
+    return x or ""
+
+
+def tri(x):
+    """Keep only the 4 supported languages of a translation object."""
+    return {k: v for k, v in x.items() if k in ("he", "en", "ar", "ru") and v} if isinstance(x, dict) else {"he": x or ""}
 
 
 # ---------------------------------------------------------------- 3. prices
@@ -344,11 +364,16 @@ def format_alert(ev, headlines):
     e = html.escape
     sev = int(ev.get("severity", 0))
     dot = "🔴" if sev >= 8 else "🟠" if sev >= 6 else "🟡"
-    lines = [f"{dot} <b>חומרה {sev}/10 · {CAT_ICON.get(ev.get('category'), '📰')} {e(ev.get('title_he', ''))}</b>",
-             e(ev.get("summary_he", "")), ""]
+    lines = [f"{dot} <b>חומרה {sev}/10 · {CAT_ICON.get(ev.get('category'), '📰')} {e(tr(ev.get('title') or ev.get('title_he')))}</b>",
+             e(tr(ev.get("summary") or ev.get("summary_he")))]
+    kid = tr(ev.get("kid"))
+    if kid:
+        lines.append(f"🧒 <i>בפשטות: {e(kid)}</i>")
+    lines.append("")
     for imp in ev.get("impacts", [])[:5]:
         arrow = "⬆️" if imp.get("direction") == "up" else "⬇️"
-        lines.append(f"{arrow} <b>{e(str(imp.get('ticker', '')).upper())}</b> – {e(imp.get('reason_he', ''))}")
+        name = tr(imp.get("name"))
+        lines.append(f"{arrow} <b>{e(str(imp.get('ticker', '')).upper())}</b>{(' (' + e(name) + ')') if name else ''} – {e(tr(imp.get('reason') or imp.get('reason_he')))}")
     srcs = [headlines[i] for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)]
     if srcs:
         lines.append("")
@@ -368,7 +393,7 @@ def format_digest(events):
         tks = " ".join(("⬆️" if i.get("direction") == "up" else "⬇️") + e(str(i.get("ticker", "")).upper())
                        for i in ev.get("impacts", [])[:4])
         upd = " (עדכון)" if ev.get("novelty") == "update" else ""
-        lines.append(f"{dot} {sev}/10 {CAT_ICON.get(ev.get('category'), '📰')} {e(ev.get('title_he', ''))}{upd}\n      {tks}")
+        lines.append(f"{dot} {sev}/10 {CAT_ICON.get(ev.get('category'), '📰')} {e(tr(ev.get('title') or ev.get('title_he')))}{upd}\n      {tks}")
     if len(events) > 15:
         lines.append(f"…ועוד {len(events) - 15}. הכול מופיע בדשבורד.")
     lines.append("\n<i>מידע בלבד, לא ייעוץ השקעות</i>")
@@ -436,13 +461,17 @@ def main():
             alerts.append({
                 "ts": int(time.time()),
                 "time": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
-                "title": ev.get("title_he"), "summary": ev.get("summary_he"),
+                "title": tr(ev.get("title") or ev.get("title_he")),
+                "summary": tr(ev.get("summary") or ev.get("summary_he")),
+                "kid": tr(ev.get("kid")),
+                "i18n": {"title": tri(ev.get("title")), "summary": tri(ev.get("summary")), "kid": tri(ev.get("kid"))},
                 "category": ev.get("category"),
                 "severity": sev, "confidence": ev.get("confidence"), "novelty": ev.get("novelty"),
                 "sources": [{"name": headlines[i]["source"], "url": headlines[i]["link"]}
                             for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)],
                 "impacts": [{"ticker": str(i.get("ticker", "")).upper(), "direction": i.get("direction"),
-                             "reason": i.get("reason_he"),
+                             "reason": tr(i.get("reason") or i.get("reason_he")),
+                             "reason_i18n": tri(i.get("reason")), "name_i18n": tri(i.get("name")),
                              "price_at_alert": price_now(str(i.get("ticker", "")).upper())}
                             for i in ev.get("impacts", [])[:5]],
             })
