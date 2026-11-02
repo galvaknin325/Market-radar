@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-02T15:46Z",
+ "generated": "2026-11-02T16:32Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 33,
+ "total_alerts": 37,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -32,26 +32,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 3,
-   "n": 0,
-   "hits": 0,
-   "name": {
-    "he": "קרן סל עוקבת אחר מחירי הנפט הגולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام الأمريكي",
-    "ru": "USO - нефтяной фонд США"
-   },
-   "avg_edge": null
-  },
-  "XLE": {
    "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "אקספלוריישן אנד פרודקשן - קרן סל אנרגיה",
-    "en": "Energy Select Sector SPDR Fund",
-    "ar": "Energy Select Sector SPDR Fund - صندوق قطاع الطاقة",
-    "ru": "Energy Select Sector SPDR Fund – энергетический ETF"
+    "he": "USO - קרן סל על נפט גולמי",
+    "en": "USO - Crude Oil ETF",
+    "ar": "USO - صندوق استثمار النفط الخام",
+    "ru": "USO - ETF на сырую нефть"
+   },
+   "avg_edge": null
+  },
+  "XLE": {
+   "mentions": 6,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "XLE - קרן סל סקטור האנרגיה",
+    "en": "XLE - Energy Sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - ETF энергетического сектора"
    },
    "avg_edge": null
   },
@@ -385,6 +385,30 @@
     "en": "FedEx – shipping and logistics company",
     "ar": "فيديكس – شركة الشحن واللوجستيات",
     "ru": "FedEx – логистическая компания"
+   },
+   "avg_edge": null
+  },
+  "KTOS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Kratos - חברת רחפנים ומערכות בלתי מאוישות",
+    "en": "Kratos - Drones and Unmanned Systems",
+    "ar": "Kratos - شركة المسيرات والأنظمة غير المأهولة",
+    "ru": "Kratos - производитель беспилотников"
+   },
+   "avg_edge": null
+  },
+  "ALL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Allstate - חברת ביטוח גדולה",
+    "en": "Allstate - Major Insurance Company",
+    "ar": "Allstate - شركة تأمين كبرى",
+    "ru": "Allstate - крупная страховая компания"
    },
    "avg_edge": null
   }
