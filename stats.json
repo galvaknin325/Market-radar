@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-03T15:49Z",
+ "generated": "2026-11-03T16:39Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 115,
+ "total_alerts": 122,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -56,14 +56,14 @@
    "avg_edge": null
   },
   "IBIT": {
-   "mentions": 3,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
     "he": "קרן סל ביטקוין",
     "en": "Bitcoin ETF",
-    "ar": "صندوق استثمار البيتكوين",
-    "ru": "Биткоин-ETF"
+    "ar": "صندوق بيتكوين المتداول",
+    "ru": "Bitcoin ETF"
    },
    "avg_edge": null
   },
@@ -104,14 +104,14 @@
    "avg_edge": null
   },
   "ITA": {
-   "mentions": 21,
+   "mentions": 24,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "ITA – iShares U.S. Aerospace & Defense ETF",
-    "he": "קרן סל על הביטחון והתעופה האמריקאית",
-    "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-    "ru": "Фонд аэрокосмического и оборонного сектора США"
+    "he": "קרן סל לתעשייה הביטחונית בארה\"ב",
+    "en": "US Aerospace & Defense ETF",
+    "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": null
   },
@@ -176,50 +176,50 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "SPY – SPDR S&P 500 ETF Trust",
-    "he": "קרן סל על מדד אס&פ 500",
-    "ar": "صندوق مؤشر إس آند بي 500",
-    "ru": "Фонд широкого рынка S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 ETF",
+    "ar": "صندوق S&P 500",
+    "ru": "S&P 500 ETF"
    },
    "avg_edge": null
   },
   "KRE": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קיי-אר-אי - קרן סל של בנקים אזוריים בארה\"ב",
-    "en": "KRE - SPDR S&P Regional Banking ETF",
-    "ar": "KRE - صندوق استثماري للبنوك الإقليمية الأمريكية",
-    "ru": "KRE - ETF региональных банков США"
+    "he": "קרן סל בנקים אזוריים",
+    "en": "Regional Banks ETF",
+    "ar": "صندوق البنوك الإقليمية",
+    "ru": "Regional Banks ETF"
    },
    "avg_edge": null
   },
   "CPER": {
-   "mentions": 6,
-   "n": 0,
-   "hits": 0,
-   "name": {
-    "en": "CPER – United States Copper Index Fund",
-    "he": "קרן סל על מחירי הנחושת",
-    "ar": "صندوق مؤشر النحاس الأمريكي",
-    "ru": "Биржевой фонд цен на медь"
-   },
-   "avg_edge": null
-  },
-  "CRWD": {
    "mentions": 7,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק",
-    "en": "CrowdStrike",
-    "ar": "كراود سترايك",
-    "ru": "CrowdStrike"
+    "he": "קרן סל נחושת",
+    "en": "Copper ETF",
+    "ar": "صندوق النحاس المتداول",
+    "ru": "Copper ETF"
+   },
+   "avg_edge": null
+  },
+  "CRWD": {
+   "mentions": 8,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קראודסטרייק - חברת אבטחת סייבר",
+    "en": "CrowdStrike – Cybersecurity Firm",
+    "ar": "كراودسترايك - شركة أمن سيبراني",
+    "ru": "CrowdStrike – компания кибербезопасности"
    },
    "avg_edge": null
   },
@@ -260,14 +260,14 @@
    "avg_edge": null
   },
   "LMT": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "LMT – Lockheed Martin",
-    "he": "LMT – לוקהיד מרטין",
-    "ar": "LMT - لوكهيد مارتن",
-    "ru": "LMT – Lockheed Martin"
+    "he": "לוקהיד מרטין - ענקית בטחונית",
+    "en": "Lockheed Martin – Major Defense Contractor",
+    "ar": "لوكهيد مارتن - مقاول دفاعي رئيسي",
+    "ru": "Lockheed Martin – крупный оборонный подрядчик"
    },
    "avg_edge": null
   },
@@ -368,26 +368,26 @@
    "avg_edge": null
   },
   "EWC": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "EWC – iShares MSCI Canada ETF",
-    "he": "EWC – קרן סל קנדה",
-    "ar": "EWC - صندوق كندا",
-    "ru": "EWC – ETF акций Канады"
+    "he": "קרן סל קנדה",
+    "en": "Canada ETF",
+    "ar": "صندوق كندا المتداول",
+    "ru": "Canada ETF"
    },
    "avg_edge": null
   },
   "FCX": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "FCX – Freeport-McMoRan Inc.",
-    "he": "חברת הכרייה פריפורט-מקמואראן",
-    "ar": "شركة التعدين فريبورت-ماكموران",
-    "ru": "Горнодобывающая компания Freeport-McMoRan"
+    "he": "פריפורט מקמוראן - כריית נחושת",
+    "en": "Freeport-McMoRan – Copper Mining",
+    "ar": "فريبورت-مكموران - تعدين النحاس",
+    "ru": "Freeport-McMoRan – добыча меди"
    },
    "avg_edge": null
   },
@@ -608,14 +608,14 @@
    "avg_edge": null
   },
   "UUP": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל על הדולר האמריקאי",
-    "en": "US Dollar ETF",
+    "he": "קרן סל דולר אמריקאי",
+    "en": "US Dollar Index ETF",
     "ar": "صندوق مؤشر الدولار الأمريكي",
-    "ru": "ETF доллара США"
+    "ru": "US Dollar Index ETF"
    },
    "avg_edge": null
   },
@@ -688,6 +688,18 @@
     "en": "Yum Brands - parent company of Taco Bell",
     "ar": "يوم براندز - الشركة الأم لتاكو بيل",
     "ru": "Yum Brands - материнская компания Taco Bell"
+   },
+   "avg_edge": null
+  },
+  "EWJ": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל יפן",
+    "en": "Japan ETF",
+    "ar": "صندوق الاستثمار المتداول لأسهم اليابان",
+    "ru": "Japan ETF"
    },
    "avg_edge": null
   }
