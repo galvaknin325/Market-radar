@@ -6779,7 +6779,7 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
@@ -6793,6 +6793,10 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUU5DemNVRlY4dDlyM01jdkdyMVNkRFRldzJlUDZ3Z2pxdkxFdS1yYmF5TkswOWtzMElzTk9OMUxNVkczQ05mZFB5SWxLcGVSbUVfVGhuMFJrNTlXeDd5MWNySEMxRGFZNkRFRThqakRsU3RrUXZnUHhoOTRaU19aNk9lWC1xeG5DbXFpcWpzQU55eUVNY2NSZjFZZWQ3c2EtRmd5MjZsZ1hBUHJfTDZabFU2T3lmbmNiLXNKTlg5NGF5cXE2T1dHdjFFU0FYZFdmbXBldVpOR2E0QUpFT0VhUGVIa096ZkJURm1wTGdYdlJBLWdp?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORFRYdFZmT0t6emV2ZVc3OVR6SDNpQ2Yza3FkWHA0a1VhNWc1TzJram1td2d3U2M4UUxSXzZPYU5rZUdjS0c2WUhTblNQa0pXYnFBcUdCVjlUZVVRR21lRHBkQnFxcldPcDNCYk1kU0FJU3BXQUh2aTh6YXZvWGtlWThjc1lJOFNDci04?oc=5"
    }
   ],
   "impacts": [
@@ -6829,9 +6833,21 @@
      "ar": "رفع البنك المركزي الأسترالي أسعار الفائدة إلى 4.85% وسط تحذيرات من ركود وضغوط تضخمية.",
      "ru": "Резервный банк Австралии поднял ставку до 4,85%, предупредив о рисках рецессии и инфляции."
     }
+   },
+   {
+    "ts": 1793706493,
+    "time": "2026-11-03T11:48Z",
+    "severity": 6,
+    "summary": "הבנק המרכזי של אוסטרליה העלה את הריבית לרמתה הגבוהה ביותר מזה 18 שנים במטרה להילחם באינפלציה העיקשת.",
+    "i18n": {
+     "he": "הבנק המרכזי של אוסטרליה העלה את הריבית לרמתה הגבוהה ביותר מזה 18 שנים במטרה להילחם באינפלציה העיקשת.",
+     "en": "The Reserve Bank of Australia raised interest rates to their highest level in 18 years to combat persistent inflation.",
+     "ar": "رفع البنك المركزي الأسترالي أسعار الفائدة إلى أعلى مستوى لها منذ 18 عاماً لمكافحة التضخم المستمر.",
+     "ru": "Резервный банк Австралии повысил процентные ставки до самого высокого уровня за 18 лет для борьбы с устойчивой инфляцией."
+    }
    }
   ],
-  "last_update": 1793699643
+  "last_update": 1793706493
  },
  {
   "ts": 1793692574,
@@ -7434,5 +7450,302 @@
    }
   ],
   "id": "f25968ff8323"
+ },
+ {
+  "ts": 1793706493,
+  "time": "2026-11-03T11:48Z",
+  "title": "יום הבחירות בארה\"ב: משקיעים נערכים לשינויים בקונגרס",
+  "summary": "אזרחי ארה\"ב ניגשים לקלפיות בבחירות אמצע הכהונה לשנת 2026. המשקיעים עוקבים בדריכות אחר תוצאות המרוצים לסנאט ולבית הנבחרים, שכן שינויים בהרכב הקונגרס עשויים להשפיע על מדיניות המיסוי, הרגולציה וההוצאות הממשלתיות.",
+  "kid": "היום ארה\"ב בוחרת את נציגיה לקונגרס. התוצאות חשובות למניות כי הן יקבעו אילו חוקים חדשים יעברו בנושאי כלכלה ועסקים.",
+  "i18n": {
+   "title": {
+    "he": "יום הבחירות בארה\"ב: משקיעים נערכים לשינויים בקונגרס",
+    "en": "US Election Day: Investors brace for potential Congressional shake-up",
+    "ar": "يوم الانتخابات في الولايات المتحدة: المستثمرون يستعدون لاحتمالية تغيير في الكونغرس",
+    "ru": "День выборов в США: инвесторы готовятся к возможным перестановкам в Конгрессе"
+   },
+   "summary": {
+    "he": "אזרחי ארה\"ב ניגשים לקלפיות בבחירות אמצע הכהונה לשנת 2026. המשקיעים עוקבים בדריכות אחר תוצאות המרוצים לסנאט ולבית הנבחרים, שכן שינויים בהרכב הקונגרס עשויים להשפיע על מדיניות המיסוי, הרגולציה וההוצאות הממשלתיות.",
+    "en": "Граждане США направляются на избирательные участки для участия в промежуточных выборах 2026 года. Инвесторы внимательно следят за результатами гонок в Сенат и Палату представителей, поскольку изменения в составе Конгресса могут повлиять на налоговую политику, регулирование и государственные расходы.",
+    "ar": "يتوجه المواطنون الأمريكيون إلى صناديق الاقتراع في انتخابات التجديد النصفي لعام 2026. يراقب المستثمرون عن كثب نتائج سباقات مجلسي الشيوخ والنواب، حيث قد تؤثر التغييرات في السيطرة على الكونغرس على السياسات الضريبية والتنظيم والإنفاق الحكومي."
+   },
+   "kid": {
+    "he": "היום ארה\"ב בוחרת את נציגיה לקונגרס. התוצאות חשובות למניות כי הן יקבעו אילו חוקים חדשים יעברו בנושאי כלכלה ועסקים.",
+    "en": "Today the US is voting for its representatives in Congress. The results matter for stocks because they will decide what new laws are passed regarding the economy and businesses.",
+    "ar": "اليوم تصوت الولايات المتحدة لممثليها في الكونغرس. النتائج مهمة للأسهم لأنها ستقرر القوانين الجديدة التي سيتم تمريرها بشأن الاقتصاد والشركات.",
+    "ru": "Сегодня США выбирают своих представителей в Конгресс. Результаты важны для акций, потому что они определят, какие новые законы будут приняты в отношении экономики и бизнеса."
+   }
+  },
+  "category": "policy",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPXzloSTZ3ZXIzSGhVZnVtTG5NQWhqb3ZDSW5YTkR2SzlLUjE4djBGTEF3R2JKV1dfM1JNLTRESUNRZkEzVmF0Sng2a1MyMG5zeWpIaWljSGlCdTBSZTcxeDdYcDA3eVZ3UjRlUTJrVGNpNXRfMHdKTUxna0hLSmx6NVFB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWi03LTlRQnIxdnI4X25CNWxoZVBXdTVaVk5taGdFUi1JUXk5NGJGSWFGcFhnT3hhX1d3dVFZN0Z3TVNiY0VyLWptTjRncFg3OHlnLU9LaEdyRHRPeS1oZDB5dGczamZlVmtRZ244T0JZNGN4ZFBybExoMzQwZk9PZEVrRG1rVlBEaC1IMUtZVFF3S01QVjRjTnVaR1pkMkFDZGdXYk5VcnRpdnFxcGxsbC1rZlRUSW9qaHk2VTBvaGFDaE1rTFJPUV9RdnUtY21IaTdsRFhfcHhRZUnSAeABQVVfeXFMUDk3UzduaDJTSkQySGxWdjBhT3h0dVk1V0l3a0g5empkRWhiMVRwNmRsQW41YnpYa1VTaEhXRnRBZ3ExeUxGNl95YW9Zck1oYmxULXhrcVZyWHJvWXhMNmJUNjhhM0ZSTmw1NEh0RXNLYkZicHZVZkx5WEJ5Q3ZPN1JTS1JxVzVaZmEwd3N0UERpT0wyUW9ZOXB3Y3RzRGdKdVFVSzNhRU9CdXdsLUdaQWlENmNKRklKSXdWMEttY08tejJjVWFKZFRFTWdOZDdkZmVXZTFUc0ZQLU4wTEd3eXg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMDhzaklYUFNhLTRQQ3JDUTdhX19DSGxWQ2RJYWxnWFlxR3FVUXdPNVZCQVVoVVJ1LWRFd0xWUklSMU9aMkNpY0o5d01adVBGanY0eE9OSTdLdnhjSjVPV00xTERndkJ5ZVE3cnlOVXVxb24wZWhJUk9leVNlOEVEMA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUTY3YkZ0S29MNEZxeVZHeVJ4d0VOS2xNSG83TllGZllmRFVOUGg2MzczMUp6YU9OZ045Nnp1VGdzNzBHcUxuZ1B4S200N002Nl9WQjJwMUhQd0RGWjVUWUdHcHdrQVNfM25ZdWJBX0FrSkJIRUhFaWlDSTliUVRoMHVVZWVVSzEwdFdUdDk3ejFIZlhTN3V1X0E5bkJfYTZmSzJIMU0wclQ3T0U?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTnhfbDZZMm1uaWktQ1d2ejNPTXU1dkFPVXBwN21iNTkwWFRSbU1UNmhHbGJJX1FoVEFfMkh5NXprWjdpaTBGelpCNk9nZTk4Zl8zVGpqbWF2RU5ZNHhMbWtUVUNPSi1DYnE1M0hfQTVsR0NydktsOWE2TkUtdWt4VVNHWmtQcGQzQmN6bXJ2b1NsaWl2VmJWNGE3bGNvYjE5?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaXZvVGJMNm1yMk9lZERxTV9FcGZES1RPeWItSUx4RFh6VHpVcnlFdDVNS1l5OEVoXzU3eXJnVjV4ak1UTUtMQzg4dDdkNlRkTmhTZWhRbDlmRXFKdTZINzhFbHA5Z2ZQZzAtcERHYmswNGRyaDJ0YnJia1h3Ny1wSXN0UGZZOE5FcnlLZENB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbnpZYzZDYUpwSXdkSEMyOVBvVjJjQTV1elNkMkVueml1WlU4dnJ2WHVBQTFoT0l2YW44OWo4MFJUY1JyMXpCY245SUlRREU1ZnBMX2lQVXl1Yl9SZDF2NUxJSlBIbDVUTHhhUmc2UllWUi1Qc0IzOVhRdnlpS2ZBaG5MYVBHekI4NlZCdmhB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUXloNWptNUltZnFoSWNkOUZ0elZVY012QlIwZWJYdkp2MlVRUDV4NlE4ZVkyLTI1RjdMOWRwc1RXYlhYZ2RkV1J6TzZFR0wtTFNvekZrNEdZb09Mcy1GOEJ2QU4zTnRsaXZCTnNCQkpFWV9CcVMwZ3R2dGZBeEVONWZB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZEdxVXlfOVI2NGJGN3lsM1ZmaU1yVjQwU2RndXBSX1Q2bDhoVG5tanBFay1sOHRldlYzTHdQUUttamx6NWF3ZHVrWU9JOEdyUnI3eEFFR1g4dW9JNVZZaWszS1RWNUEyZWRsSE96ZUNKWWlrUFNWbU9KMDFvaEdJYzVITnpVbzJ2ak5qOU1IRUR4YkNZUlBxZVRFS3FEcFFYQU9mS2ZUeXZaRzZ6b2c?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcVh6TXpGX3dGcnFkSF9QamVpYXRNaEltckJoVHJmMGlLNDg5UHZHbGVobG82dEdhSkZMOFpQQUJCUlJBRWQwV21kRzh6ME9TVkJzbXJrYzdiUWd3YkRLWkZFdGV3NWhTeHZ5X1NKYWFzMzRMaWZxd0txZllPbE5MNk5HZm11cHM?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkhkanBOeTFvdTg0S05SdWh6dThjWUFkc1ZaWEM1dTZaQWRyeVhLVnhidzZRSldVYW5JeHpzbUxjMmNpeG9LdkMyc1p5clNwRVFkcHpDdERueTNJeWt0TVhkNGVMbU9BV2JscHlPbTliYXhnZDAzSmM1ejZNUDAxNGRoWmRHWXVMRDRka1d2SHJ6RXpDZFNtOA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOGVLNWF6VlhlSHRmbk9fbW9McDhTbGVtcTZEbmlyN0k1VDkzLVdPVTNsdE9XeUtDUjlpSDdxOEszTzZUdFZoblNmYnIyZXE2SFc0OEc4QWhSM2Zza0lvSk9pQnJQTmpMWjQ2V29jY09nek5USTdmMjI5Y252eGd1MHNhOA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUzVJbVlRRVdVdDBFYW8xQkFRZGl6ZUVDWElNMEtQV0JKREJCc1FPblVtS3h1UFRueEZtV2UxcXpiai05Zno5cXEwRGlXcHd5TjEtYlBNWTY3ZWRMbHpjUHdDWDEzZkZ2RkFRSTBaTEV2eUNEMEdhdXcyYm1fNGZia0hCX0xrZw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNVlKbjlRMzRNWFpPNzJyYVVNQzY4SXVzU0ZwTjFfT0xyQjBBazNqdE5oVEJlM3cyNmdpdG92MXBzTlRxRzh1SUp5UlRpeWFZel9oN09SUFFBQWR2Ukt6eW81OElrVzV3MGFFdUlyOVpORGdaMHg4T0g3TW5zR1hJMWQwcEtNeWJG?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWVCSFJyQ2QtWnFMOVhEWEs1Y0dKdDBZUGRYekxCVEFVa3FOUTNObk1sQlZ4QnBGVXhMVUFqT2w4MW80bEJZN3c3am45RlhSNjROMm8yYVpVTzZtSkpfcS1MWkNSYVp1REtKM0ZMOFdKOHpVSFhmU0FpdmlrOUJmNDRvaldCbjBkRzB3ZjJKaTZuQUZaYVJ3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXpkdjdwNkZYSFZPUFRVUnJ0dDBnUzY1dXBOSmhzTDRsOU9odi1WUTRmcF9PUGlrVmg5SUdEMFZMRTVIT0ZyUzREdjdGcWk2a2t3NFlGVDEzSFA1ejNoZFE4Z3lwOHlVVUs0MWlMbkR3akplSzhvRHppdzlxQ081OU16S1d0ckx0VHcxRnl4dw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZTJ3Tk8xRzM3bzhFbExtdVE3cW83V1l5dE9YMFl6V185NVRPYWU4X01wcXE1aGNuMEU5MjZuMWlkNlM1dFFQQnd3czBBNDhGREI0U0dPQXNxcW5TS2FIRzc2a19vakxyN2hYMDJlMUtZVXRtTUVpZkpiaUlxbUwyd1M1aFB4djA5QjJ6eWhDS0Zhdkk?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nZG9URzBBNHlwRXlCaWtYOWJyOUtKTGY4OTVMVFRSSlI4cHBsX1d4YzVlajhpdU1pM1c0eFdDVGNzcEVYbE9LY015emFjdUFXSjJPX3JoZVZxSG1uSEhOQ2FwRXhWbEViQzZsWmZKZEY?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVk5kSkE0WnRnTDFDeW55S1I1dGZ5eTlyaDE2bUVSbkdNbUJhSWEtSk83LU42NzU5cTRCaXMzdVdNWWhGRGdvWk5FREZOTFBlcXU3Wlh5LVh0eWZSN2NCZ2lncXVXZXdxY09vaWhBQ0RQQmJNTTg3czN3Uy1qeDZRTW1yR2NBZw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWFFlRXB2Ujg3YlJpQ21xeVZWa3I3ZTVaUUJyVnBWMzF5b085RU9YZFJkZTFVYm5QTGhZYUZ6Q2tYY0lGbC1nS2tDa3JJbldyNTdwTFJrcW9DOGJTMVlKdFlyRzRRSXduX2hHWFhWZDZDMFl3MW9yTHpIcFVJMC1qdEVoVUpxUWJkY0tNQ0s2d1RSNHJKR0tEUjlndVFGa2FSNml2OG1PT1ZrbHNRU21DMHhNYUdNS1lVd1ZBV1BJQjJydzdqZndYYUw4a2lOZ9IB0wFBVV95cUxQUTdtWDBFRlJrMEVqTHd1U0RKZHBDQjNsY1JyMDJkdFQyM3ZleS1tejBaSE1HQUhxWkdPcFM3b2RzcHNCczZHcExXV1dyM0lxcGY2NW1uZ2RSOGJSbTBNWi1FWnZKcWpJYkI5MnN2a0FrLWd4SnFCc3Y5TTNSdDhoeHIwWTEtNHhSNHhxOHRFTkdsQTktVnBVb0xvS3VENWlSdEtER3pSRWVtcDBoZkg4WG1jcGM2cWRrQlJKaExrYzdfODlQbUMtZi1hMDdQX3NYTE5J?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVHBOTXhOQk5QdkdKTWQxSXFMTWhaWGNNWmQxa2Yxem9fSTd4VmI3ZXhwU291Q3hUU0RVVTc0cjV4QVB1N0s3TmZIS05neWloUi15NzJYQXNlZFpXSDM4aW0zeGZOeEJlX3pzVFVZNm5iOG9NOUJwRVhLQXFEMFRCZGw4UHVTQ2o1SDlmNTFkUkNSYkFEZTVyRTVlbWtvVkZwTEZZZTQtVC1yZ9IBrwFBVV95cUxNN1QteHVvcWNIU3F4QVpLa2xRd01BNVVITWhkcEh2WVFCRnlfamU3V19RWmdiS1U2WnNVaU1OeTBvMi1uQTZFODNOUzBYR0Zabi1IYld3SkxZcEdRSnlCRkw1RU1HMXpvZUZtX01XUmtlVHNjeUlNcVV0d05oQVktMlp4Z09Ob1M3LXY4QUhxdWY2NEZMeDFlX3BqSHhFMkl1STBxVXNScFMtOU9XaEhv?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSEtSc3I3a0RhMjdfcWlvSENmdVBjazFfVnhsSkY2ME5OaThCZnNRb1dKT1lPeWR2eWtZcUl6bEYtYXBJOUlnYTA4VlZFWTNPQkotOS1aZFBEWkdzSzR0NzZFSklFYWNyd2Zpa0JiUU1Wemw5RXB2MEVwVk9fTWdwVXYyWkM3R2dMNWQzdExDdkpYWjZrWU5xOVJBcDIyMy0zRmtnUExWclRlaUVkdlV1T19TT1JTbkJPaTBkRlBOV09EYmIta2lKMA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMmRhWk83WG1hTjd5Qk51VlVFMkFtRGNDM3B2aWhDS2o2ZDNUdWxhMjJrTHVqNjBXbl82SUZXYzhEUHdPUzVnX3JsZ2xhdl9wdHFmOXRRZEs2bV9CNk1tcFlNTV8zampmT0szdU9qN0Q3RHN3a0tVWjJ6WkJRdzJKcG1jWl9FRTdWSnJvMTQwSDdHUQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlJiQ0RZOWxsM2kyN2xmSjFzRklJYlFxdnJSUW1BZ05OdHk4U2NEQWtycmMzUTBKc21BOHBEcWhsX3BrWGhPNUZyNUZqTzFQQW1sdW9FSmNDOWNnT2xGd1ozazQtU181LUVmNkRPbU1wVjVlcmhZMUplUUpzcENnbHpHNDRFcVNaMVdWcXFzVzVWSzdxd0tIMFBhQjI2a0ZVVU9iZ3N3b3BJOG5mTWppaUhXSEJORVhZMFE?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWkVJMi1UMjFDaF9vLTNiM0h3czVYdmVwYVZGLU43NUNaRXhzNDF1dEVZbTNGcU1TbGRFbnRtcFdKMGlVLXNWVTJ1Q0kzQjZrZFU1cDkxclppUEZjdjhOTS1lZ0phOWMyZzgwUVhkc2RJTEN2bXNXTTZyeld4dEE1YWFmdXZXZTRkb2ttTWJ3dXpQbGFabXhMWEV5V2hSR3NWelE0S2h5Y3h4VkZTbGlpbDBkN1RUcjJiQ3U1UmVvSFZ3V25jMDlJcGdydkVmeDTSAeMBQVVfeXFMTWxWMVJySGk2OG1kenVScm02QlRORXVqRG9MWDVpbl9nRXVEdXYzc01FdXA3THJZVUlZZ3g5U0FKZnQ1VkpUdTdOUUNsTDJyR2hRcmUwU2JaTHpPQnl0ZFI4blQ0a01hVkloOVkwNl8tRjNiTjNSeWtsa1BKenBKUnF4WHJyeXZZZ2JaYWw1Sjc5VHVzX1llZ0daVDJ1QVVyelpiSXFiR3Q3RThZaGY2d1FMMnpEZlZrZDhjZm1Hel9xakxGd29idzh0X0llbTZtcE1uT29hZFFyTEh2QXI3bGttVjg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8ydXNmSWR6NU5iU0Q4Uk9mQzRBVjY2Y21CWkJ0amhGLUNRa1pIRnVlQ0VfVEdGZXBIei1Iamt5NWdPQWMwODBKWjdkbVgzUmdHR3pyalhWVk5iYzQyZERiS2x0QmNvTkN1UUdXajlBeGtETE9hbXVCbFA4RjE?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaDJqb3lBUHAyY0Y5RVIxVTBoRzRuY3diSmttaTVzZU0zREt2b2JUdjM3VGxYbFo1LWVRZVJZd1JZMThNa3BRcFpENWMwUFljZWFIZm9Yc0hKS2I3R0U1eTkwLXJfVzl1ei1rOG9ocXhTTHRZSVpKY3VWYmtFZWY5Q3oxd3V3cEdLalNwN0VHUVZhNmRUMXlSTjVickgycm9tRXc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUVRVcW5JSEpYRkIwVkVnMjdWVWpYWm8wRnl0R1JacnNqelpkLUtTckREUmtwVnk5T3lRMmhWZUcwVGN5dExGeWcyeUI5ZUFaNHFIdGZGdGxCRWtSbmNfMzdoUlZubFdHWW8wRFF1ODJtT1FQQnR2X2lKTUdzMUllQWRJcDhoRUNLTWg5Ug?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXFWdXBjODQyTExlTkJiWkJPS0JxSFlQdUJnZGVNU0pHVl9UN0pPZWllMGJjQ2JYQ0hjVWZ4czlJaENQZmtKVzIzR2YzdlEwZmhJdm9vbXU0dzBsSy03VU5UcGFZbmdtZEVtZXlkcDktLTY0SV9mYzRUakxnTnVRWHpJcWdrbHFvMy1BZnBNQ1FBV3lHMEZFdThnbHFNRzdTTXNCT3owYVo2M0XSAbABQVVfeXFMTWNPOFIxZHd1UE40WkpOb1RDWVUwcEJhNnEtckEtR0YzNm90ZURPY3J3NjhiOEhfdHktcmlhalIzSHE5QkV0eVdaM3ktbjdKdzhDSURwM29FMERIQXhITnpzS0kzZFdPYlBrOUVZMVFrcGlvd081a01oQ1RwRm9VT3MyUThxclFqOTljdTZoam5QSm0wemR5MTdfTlhIckR4WlhFcE96bU56UmRMTnczOEY?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPXzBTeXRWM3ktaW9LQUFHVVg5V2JZMWZ3OG5LaWUtNGpVMmN2bnQ4RTJmaWVVaGctdnJZTkFZeWdjbG9JUUE4NFdFalFyQ2tZRFotZERxRkJQcHVtS1lwUGhVc0xJZnVqYnF4ZllqcDJFUkJxcEd2QTF0RGFERW1oSkFENEV0V3VQMEFabVkwOHcwTV9lVWNRZ3JmbDVDOUQ5aGYwWTJUb0o5RGpK?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHdHRFBnT0R1N01Gc3cxRC1HM1dQSm0xVGR3TkhqbHBxVkdEUUd1ZWRyWUZQRDRjMF9Xa1gyQ2xnSl9vbFpEQUVxNVFRdmNHRUU5UGVISFlENmhEYmNudVd0TEh5RmxTZHVOVUJzMGI5dTZNYU5lVnFHSTdEdzF5Mk0yZnZwZVFX?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793706493,
+    "reason": "אי-ודאות פוליטית עשויה להוביל לתנודתיות בשוק המניות.",
+    "reason_i18n": {
+     "he": "אי-ודאות פוליטית עשויה להוביל לתנודתיות בשוק המניות.",
+     "en": "Political uncertainty often leads to market volatility.",
+     "ar": "عدم اليقين السياسي غالباً ما يؤدي إلى تقلبات في السوق.",
+     "ru": "Политическая неопределенность часто приводит к волатильности рынка."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 752.1
+   }
+  ],
+  "id": "d995dfcbbfb8"
+ },
+ {
+  "ts": 1793706493,
+  "time": "2026-11-03T11:48Z",
+  "title": "איראן מאיימת להרחיב את טווח הטילים שלה לאירופה",
+  "summary": "איראן איימה להרחיב את תקיפות הטילים שלה ללב אירופה ולבסיסי נאט\"ו, מה שמעלה את המתיחות הגיאופוליטית.",
+  "kid": "איראן אמרה שהיא עלולה לירות טילים רחוק יותר. זה מפחיד מדינות אחרות וגורם למניות של חברות נשק לעלות כי הן יצטרכו לבנות יותר הגנות.",
+  "i18n": {
+   "title": {
+    "he": "איראן מאיימת להרחיב את טווח הטילים שלה לאירופה",
+    "en": "Iran threatens to extend missile range to Europe",
+    "ar": "إيران تهدد بتوسيع نطاق صواريخها إلى أوروبا",
+    "ru": "Иран угрожает расширить дальность своих ракет до Европы"
+   },
+   "summary": {
+    "he": "איראן איימה להרחיב את תקיפות הטילים שלה ללב אירופה ולבסיסי נאט\"ו, מה שמעלה את המתיחות הגיאופוליטית.",
+    "en": "Iran has threatened to extend its missile strikes to the heart of Europe and NATO bases, increasing geopolitical tensions.",
+    "ar": "هددت إيران بتوسيع ضرباتها الصاروخية إلى قلب أوروبا وقواعد الناتو، مما يزيد من التوترات الجيوسياسية.",
+    "ru": "Иран пригрозил расширить свои ракетные удары до самого сердца Европы и баз НАТО, что усиливает геополитическую напряженность."
+   },
+   "kid": {
+    "he": "איראן אמרה שהיא עלולה לירות טילים רחוק יותר. זה מפחיד מדינות אחרות וגורם למניות של חברות נשק לעלות כי הן יצטרכו לבנות יותר הגנות.",
+    "en": "Iran said it might fire missiles further. This scares other countries and makes defense company stocks go up because they will need to build more defenses.",
+    "ar": "قالت إيران إنها قد تطلق صواريخ لمسافات أبعد. هذا يخيف الدول الأخرى ويجعل أسهم شركات الدفاع ترتفع لأنها ستحتاج لبناء المزيد من الدفاعات.",
+    "ru": "Иран заявил, что может запускать ракеты на большие расстояния. Это пугает другие страны и заставляет акции оборонных компаний расти, так как им потребуется строить больше средств защиты."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNREppWF93UHNWUnhKVHZJZ0lfLXIwZlNxUTU3LTdkYWE5WUpNdkt5Qmttb3lObmhpdHdDcUpKRmFHeEo0Q3Z5TlJMRDA1b2R0NHplZFc5aEwxTjUtN0FzQ1ZnNmpTY010bXAxMVdWRWljV1VkWklaMlZfUHNOSGppN2pYNjVhUlNELWpWekFsb0F3VTR2TFpNamx6V25nWVFBaUVvT0NnYXdlM0x4Vmh0RzVGTkcwLUZwOXZQM1c5Njg3LU9Pc001aVV5bVFoaFVNVVBFM0ZpbjZuTHJqMlE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793706493,
+    "reason": "עלייה במתיחות הביטחונית מגבירה את הביקוש לציוד הגנה.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות הביטחונית מגבירה את הביקוש לציוד הגנה.",
+     "en": "Increased security tensions boost demand for defense equipment.",
+     "ar": "زيادة التوترات الأمنية تعزز الطلب على معدات الدفاع.",
+     "ru": "Рост напряженности в сфере безопасности повышает спрос на оборонное оборудование."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 214.68
+   }
+  ],
+  "id": "187a02568dbe"
+ },
+ {
+  "ts": 1793706493,
+  "time": "2026-11-03T11:48Z",
+  "title": "טילי שיוט היפרסוניים של Castelion ישולבו במטוסי F-16",
+  "summary": "חברת Castelion מפתחת טילים היפרסוניים שיוכלו להיות משוגרים ממטוסי F-16, מה שמשפר את יכולות התקיפה של חיל האוויר האמריקאי.",
+  "kid": "חברה חדשה בונה טילים מהירים מאוד למטוסי קרב. זה טוב לחברות ביטחוניות כי זה אומר יותר הזמנות לטכנולוגיה מתקדמת.",
+  "i18n": {
+   "title": {
+    "he": "טילי שיוט היפרסוניים של Castelion ישולבו במטוסי F-16",
+    "en": "Castelion's hypersonic missiles to be integrated into F-16 jets",
+    "ar": "صواريخ كاستيليون الفرط صوتية سيتم دمجها في طائرات F-16",
+    "ru": "Гиперзвуковые ракеты Castelion будут интегрированы в истребители F-16"
+   },
+   "summary": {
+    "he": "חברת Castelion מפתחת טילים היפרסוניים שיוכלו להיות משוגרים ממטוסי F-16, מה שמשפר את יכולות התקיפה של חיל האוויר האמריקאי.",
+    "en": "Castelion is developing hypersonic missiles capable of being launched from F-16 jets, enhancing the strike capabilities of the US Air Force.",
+    "ar": "تقوم شركة كاستيليون بتطوير صواريخ فرط صوتية يمكن إطلاقها من طائرات F-16، مما يعزز القدرات الهجومية للقوات الجوية الأمريكية.",
+    "ru": "Компания Castelion разрабатывает гиперзвуковые ракеты, способные запускаться с истребителей F-16, что расширяет ударные возможности ВВС США."
+   },
+   "kid": {
+    "he": "חברה חדשה בונה טילים מהירים מאוד למטוסי קרב. זה טוב לחברות ביטחוניות כי זה אומר יותר הזמנות לטכנולוגיה מתקדמת.",
+    "en": "A new company is building very fast missiles for fighter jets. This is good for defense companies because it means more orders for advanced technology.",
+    "ar": "شركة جديدة تبني صواريخ سريعة جداً للطائرات المقاتلة. هذا جيد لشركات الدفاع لأنه يعني المزيد من الطلبات للتكنولوجيا المتقدمة.",
+    "ru": "Новая компания создает очень быстрые ракеты для истребителей. Это хорошо для оборонных компаний, так как означает больше заказов на передовые технологии."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWkFPME1lVkQxZkRkSFpqQURicUZjTVRwczFFa1lBNEl5S1B1OUwxbjJmTTZfNjliMW5kclViTXZTTTNQWEhRak40Q3l5eFdDQWl5TEZQWF9CdGw0dzBkOHlCU1J0RnBJeVc2bHoxSkJNd2w1amFZek91X1Y0dVZZaHZn?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793706493,
+    "reason": "יצרנית ה-F-16 עשויה להרוויח משדרוג המערכות.",
+    "reason_i18n": {
+     "he": "יצרנית ה-F-16 עשויה להרוויח משדרוג המערכות.",
+     "en": "The manufacturer of the F-16 may benefit from system upgrades.",
+     "ar": "قد تستفيد الشركة المصنعة لطائرات F-16 من ترقيات الأنظمة.",
+     "ru": "Производитель F-16 может выиграть от модернизации систем."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 643.15
+   }
+  ],
+  "id": "f499a19ae200"
  }
 ]
