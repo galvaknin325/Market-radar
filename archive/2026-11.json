@@ -258,7 +258,18 @@
     "ticker": "ESLT.TA",
     "direction": "up",
     "reason": "זכייה בחוזה ארוך טווח משמעותי מול צה\"ל.",
-    "price_at_alert": 242580.0
+    "price_at_alert": 242580.0,
+    "entry_price": 241650.0,
+    "entry_time": "2026-11-02T14:50+00:00",
+    "exit_price": 238600.0,
+    "exit_date": "2026-11-03",
+    "change_pct": -1.26,
+    "bench": "TA35.TA",
+    "bench_change_pct": 0.57,
+    "excess_pct": -1.83,
+    "edge_pct": -1.83,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ESLT",
@@ -6949,14 +6960,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN2psX2ZmM2Z6Yl82OV9zZEw4Q1J3RU5aQWNrS2hjMkNoSnFxNnhzRUFFdGcyS1VFYXpaRHFvTG9TVUo1M2ttdjNySklzbTRjdUlDVUdMQmlBZm12WkJxd2o1WGkwcVFnWFVoZ0cxMXdXelFpUDhQdFZSQ01pa2tydjYxa2hYYnNCSER6R3VRcVlKd3hsczJoSFNxYmZzNUtPbm5zVDdn?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGYyRzYwM3o4dE1NbHhxdWplcTZrTlhvLTdHU2Fya25kM0xzbXFCSEhrYTllbHZHSjQzNzRDeGxQMjBRU1Rvak5kcVF2Vk9YcVhIZDZ5UUxfYjBmYlZTSDRhc18yN2hydzNxWkhVakdZSzJSWVBQRlBJUHFiQmhNdXBGQWtKRGQ3V3ZWM1JMWWNHdjlPTjYycTVFS2MxeEtrUS13bjd6Y001Z09VRGt2d1VUV1JlT3NDdHNWUWVVclM0dk1GRnN6dVlPRVVWdk5DMXZXa2hYT0xjQQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFVPeTNydHdLNVVOMWY1RWJBQVJ4aWtydW9pa282c2JaZmRnY1c5UTZueWV3NFVzS1FycXJ5X3ZCOFZZUDZYV0k3dXZISEYtWFVIMFdqTkNUMDM3MjVTczk1YUxpVEhWNklhWFN0SWRjN015ODRhS1JPSmdOWVNPak1ERy0wMXRONENmQUhnRkRKMm1nbWx1MktqUl85cmI3OVFiZg?oc=5"
    },
    {
@@ -6970,6 +6973,14 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelZvczNqejE0WnZ1UE9raFNjM0VPdXR6QlU2dmhBZkl0NFFMbWprUlM1Ml9vd3d3cXpZVzZjLXRaSzQ3NEpRUlc4d2hENDVSQy1HZDkxMHZfNFNZc01HQ2FRRk5Qd1pSSFhVLU9UX3ZjMU1GRUpneVRQVllmeThFd3ZCZFAxTEFNRUJTc21JVElwZnRkcGYxRkV1TDd0ejJub2FDT3lHMkw5eEt6MVUyZ1ZDb1hseWFXaEE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTlNa240RmNrVkpkY3R6RDhhNzYtOWpOZ0NYXzR0R0R5N0ZsWWdYVWplTnpDdE5CWV9YTUQ4aFRnT3RpeW9mRDhHMWNzazE1LS1JSHFGc3R6Z3lTYldvcjRNeXZqTHlPMnlsb0VhemJZbXVFN1ZFN0toU3c2VXAybGZpM3pIQmcxWWU2TWFzSnFuUzdvZnI5RTRWclo5YWtOd044cG1Iaw?oc=5"
    }
   ],
   "impacts": [
@@ -7037,9 +7048,21 @@
      "ar": "تعرضت محلات السوبرماركت الأوروبية لهجوم سيبراني خطير حيث قام قراصنة بتسخين الثلاجات عن بعد وإتلاف الطعام، مما أدى إلى محادثات أمنية عاجلة.",
      "ru": "Серьезная кибератака поразила супермаркеты в Европе: хакеры удаленно нагревали холодильники и портили продукты, что вызвало экстренные обсуждения безопасности."
     }
+   },
+   {
+    "ts": 1793730565,
+    "time": "2026-11-03T18:29Z",
+    "severity": 3,
+    "summary": "סופרמרקטים ברחבי אירופה מתמודדים עם מתקפת סייבר שפגעה במערכות הקירור וממהרים לאבטח את הרשתות שלהם מפני פרצות חוזרות.",
+    "i18n": {
+     "he": "סופרמרקטים ברחבי אירופה מתמודדים עם מתקפת סייבר שפגעה במערכות הקירור וממהרים לאבטח את הרשתות שלהם מפני פרצות חוזרות.",
+     "en": "Supermarkets across Europe are scrambling to patch vulnerabilities after a region-wide cyberattack targeted commercial refrigeration systems.",
+     "ar": "סופרמרקטים ברחבי אירופה מתמודדים עם מתקפת סייבר שפגעה במערכות הקירור וממהרים לאבטח את הרשתות שלהם מפני פרצות חוזרות.",
+     "ru": "Супермаркеты по всей Европе спешат устранить уязвимости после того, как масштабная кибератака затронула системы коммерческого охлаждения."
+    }
    }
   ],
-  "last_update": 1793709589
+  "last_update": 1793730565
  },
  {
   "ts": 1793696151,
@@ -8838,7 +8861,20 @@
   "category": "macro",
   "severity": 5,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR0l2dURpZkswcHZndHgxN1NZalFTdGJEV201ck50VUlsTklVdWhGejdHbnlmcTRKbXpLWUlpM3hfNXAxZGI2akpoaHpQbTVWRGU0bHZzaWplckdSOS1FdXZvZzVhRXBnMGt6OG9wVXVHNWNVT0UzYXhzbWMzRHdwNldvT2FGTkUwdzhZQWJXSExuajdQMDlZVk9RRF9FbnN5?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLXZ2Ull6Y3BwRjJpU1NOdnFIQWtNemRScG8yMzBZbmJSTk1zdHR3RUtwcUNRR0JaMEdSMmc1U0Fwdi1hYnBRX09KZmFiSTg4MGotV0I4Q0NPSlpEZVlMYnU1dzFBNjZ5VFJZN29ZQ2FGdnRjbHZDT3VGdnpCVFFBaUhscG1HMXV0UGUweEtmTUUyMVNGWVRWUnlocm1fSFlKWTU2ZHNhTGF2UQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMTJmUG5sOFFFREdxVzN2MDVlX25hWXN5VXZhZ1RzQk9WaHRSUmRNT1ltUmdLWXp0NU5URUJEZjVhVTFWeVNmOUpyNWx6MXZRYnJGYlF1RHFHMEVleV9jclozYmNMa21YYm56RThQTkF0SFpIRG91U3RsWmlta0wxdEdXaGNPSUQwdmE5R0ZTeTlEQTBVVy14RXNXSERWWnBMVExSVUdocFFaVWRzRGhvUQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EWC",
@@ -8877,9 +8913,62 @@
      "ru": "US Dollar Index ETF"
     },
     "price_at_alert": 29.005
+   },
+   {
+    "ticker": "FXE",
+    "direction": "up",
+    "t0": 1793730565,
+    "reason": "ציפיות לריבית גבוהה יותר באירופה מחזקות בדרך כלל את המטבע המקומי.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר באירופה מחזקות בדרך כלל את המטבע המקומי.",
+     "en": "Expectations of higher rates in Europe typically strengthen the local currency.",
+     "ar": "ציפיות לריבית גבוהה יותר באירופה מחזקות בדרך כלל את המטבע המקומי.",
+     "ru": "Ожидания более высоких ставок в Европе обычно укрепляют местную валюту."
+    },
+    "name_i18n": {
+     "he": "FXE - קרן סל המעקב אחר האירו",
+     "en": "FXE - CurrencyShares Euro Trust",
+     "ar": "FXE - صندوق اليورو",
+     "ru": "FXE - Фонд отслеживания евро"
+    },
+    "price_at_alert": 103.2801
+   },
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1793730565,
+    "reason": "ריביות גבוהות יותר עלולות להאט את הפעילות הכלכלית בגוש האירו.",
+    "reason_i18n": {
+     "he": "ריביות גבוהות יותר עלולות להאט את הפעילות הכלכלית בגוש האירו.",
+     "en": "Higher interest rates could slow economic activity across the eurozone.",
+     "ar": "ריביות גבוהות יותר עלולות להאט את הפעילות הכלכלית בגוש האירו.",
+     "ru": "Более высокие процентные ставки могут замедлить экономическую активность в еврозоне."
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל מניות אירופיות",
+     "en": "VGK - Vanguard FTSE Europe ETF",
+     "ar": "VGK - صندوق الأسهم الأوروبية",
+     "ru": "VGK - ETF европейских акций"
+    },
+    "price_at_alert": 87.715
    }
   ],
-  "id": "8cc585879b4d"
+  "id": "8cc585879b4d",
+  "updates": [
+   {
+    "ts": 1793730565,
+    "time": "2026-11-03T18:29Z",
+    "severity": 5,
+    "summary": "בכירים בבנק המרכזי האירופי, ביניהם נגל, הצטרפו למקהלה המאותתת כי ייתכן שיהיה צורך להעלות את הריבית בישיבה הקרובה בחודש דצמבר.",
+    "i18n": {
+     "he": "בכירים בבנק המרכזי האירופי, ביניהם נגל, הצטרפו למקהלה המאותתת כי ייתכן שיהיה צורך להעלות את הריבית בישיבה הקרובה בחודש דצמבר.",
+     "en": "ECB officials, including Nagel, joined the chorus signaling that the central bank will likely need to raise interest rates at its upcoming December meeting.",
+     "ar": "בכירים בבנק המרכזי האירופי, ביניהם נגל, הצטרפו למקהלה המאותתת כי ייתכן שיהיה צורך להעלות את הריבית בישיבה הקרובה בחודש דצמבר.",
+     "ru": "Чиновники ЕЦБ, включая Нагеля, присоединились к хору заявлений о том, что в декабре центральному банку, вероятно, придется повысить процентные ставки."
+    }
+   }
+  ],
+  "last_update": 1793730565
  },
  {
   "ts": 1793723885,
@@ -9429,5 +9518,202 @@
    }
   ],
   "id": "39c407cce704"
+ },
+ {
+  "ts": 1793730565,
+  "time": "2026-11-03T18:29Z",
+  "title": "רוסיה ואוקראינה צפויות לשיחות שלום באבו דאבי ובוושינגטון",
+  "summary": "רוסיה אישרה קיומן של שיחות שלום עם אוקראינה באבו דאבי בשבוע הבא, בזמן שמלאניה טראמפ מתכננת לארח פגישת הפסקת אש בבית הלבן.",
+  "kid": "מדינות מתכננות פגישות כדי לעצור את המלחמה בין רוסיה לאוקראינה. אם תהיה הפסקת אש, זה יכול להוזיל מחירי אנרגיה ודגנים ולהשפיע על מניות ביטחוניות.",
+  "i18n": {
+   "title": {
+    "he": "רוסיה ואוקראינה צפויות לשיחות שלום באבו דאבי ובוושינגטון",
+    "en": "Russia and Ukraine Prepare for Peace Talks in Abu Dhabi and Washington",
+    "ar": "רוסיה ואוקראינה צפויות לשיחות שלום באבו דאבי ובוושינגטון",
+    "ru": "Россия и Украина готовятся к мирным переговорам в Абу-Даби и Вашингтоне"
+   },
+   "summary": {
+    "he": "רוסיה אישרה קיומן של שיחות שלום עם אוקראינה באבו דאבי בשבוע הבא, בזמן שמלאניה טראמפ מתכננת לארח פגישת הפסקת אש בבית הלבן.",
+    "en": "Russia confirmed Ukraine peace talks in Abu Dhabi next week, while Melania Trump prepares to host a ceasefire meeting at the White House.",
+    "ar": "רוסיה אישרה קיומן של שיחות שלום עם אוקראינה באבו דאבי בשבוע הבא, בזמן שמלאניה טראמפ מתכננת לארח פגישת הפסקת אש בבית הלבן.",
+    "ru": "Россия подтвердила проведение мирных переговоров с Украиной в Абу-Даби на следующей неделе, в то время как Мелания Трамп готовится принять встречу по прекращению огня в Белом доме."
+   },
+   "kid": {
+    "he": "מדינות מתכננות פגישות כדי לעצור את המלחמה בין רוסיה לאוקראינה. אם תהיה הפסקת אש, זה יכול להוזיל מחירי אנרגיה ודגנים ולהשפיע על מניות ביטחוניות.",
+    "en": "Countries are planning meetings to stop the war between Russia and Ukraine. If a ceasefire happens, it could lower energy and grain prices and affect defense stocks.",
+    "ar": "מדינות מתכננות פגישות כדי לעצור את המלחמה בין רוסיה לאוקראינה. אם תהיה הפסקת אש, זה יכול להוזיל מחירי אנרגיה ודגנים ולהשפיע על מניות ביטחוניות.",
+    "ru": "Страны планируют встречи, чтобы остановить войну между Россией и Украиной. Если будет прекращение огня, это может снизить цены на энергоносители и зерно и повлиять на акции оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSjF5Mk9VbHVmMy0tblZadE1PTEFSZDY0Y0F6OVZuNkREVXFEeXpwZkRRVUhaU3RZN25obDk5RnVuZW5TVWhKNnZjN3RwZWltSk9iS2dFcnB0TkQ1UjRjWnBHV2tHMy05dUxqNGhuMjlRY3pzZjVLeExQNDVXYTRseVBUWWFEWUZtcWlRUmlKMGk1WWgzUTVUcFAwQTlHa0tQWjJsWlY3eUxvS3VVMk4wZ0FNekxmVFZIVFN5RnF1d1FJYUdCX1RRZkxsYzh3aHNQc3BVNGk2X0UyMEo0LVF0dW5hUkQ5ZVdfbmE0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793730565,
+    "reason": "הפחתת סיכונים גיאופוליטיים עשויה לשפר את הסנטימנט בשווקים הפיננסיים.",
+    "reason_i18n": {
+     "he": "הפחתת סיכונים גיאופוליטיים עשויה לשפר את הסנטימנט בשווקים הפיננסיים.",
+     "en": "Reduced geopolitical risks could improve sentiment across financial markets.",
+     "ar": "הפחתת סיכונים גיאופוליטיים עשויה לשפר את הסנטימנט בשווקים הפיננסיים.",
+     "ru": "Снижение геополитических рисков может улучшить настроения на финансовых рынках."
+    },
+    "name_i18n": {
+     "he": "SPY - מדד המניות הראשי בארה\"ב",
+     "en": "SPY - Main US Stock Market ETF",
+     "ar": "SPY - صندوق متداول لأكبر الشركات الأمريكية",
+     "ru": "SPY - Основной фонд акций США"
+    },
+    "price_at_alert": 756.31
+   },
+   {
+    "ticker": "ITA",
+    "direction": "down",
+    "t0": 1793730565,
+    "reason": "התקדמות לקראת שלום עלולה להקטין את הביקוש המיידי לציוד ביטחוני חדש.",
+    "reason_i18n": {
+     "he": "התקדמות לקראת שלום עלולה להקטין את הביקוש המיידי לציוד ביטחוני חדש.",
+     "en": "Progress toward peace could reduce immediate demand for new defense equipment.",
+     "ar": "התקדמות לקראת שלום עלולה להקטין את הביקוש המיידי לציוד ביטחוני חדש.",
+     "ru": "Прогресс в направлении мира может снизить немедленный спрос на новое оборонное оборудование."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 217.145
+   }
+  ],
+  "id": "ced8389afc12"
+ },
+ {
+  "ts": 1793730565,
+  "time": "2026-11-03T18:29Z",
+  "title": "פרלמנט גרינלנד אישר הסכם ביטחוני עם ארה\"ב ודנמרק",
+  "summary": "מחוקקים בגרינלנד הצביעו פה אחד בעד אישור ההסכם התלת-צדדי שנחתם בספטמבר עם ארה\"ב ודנמרק.",
+  "kid": "גרינלנד הסכימה על שיתוף פעולה צבאי הדוק יותר עם אמריקה ודנמרק. זה חשוב לחברות ביטחוניות שמגנות על אזור הארקטי.",
+  "i18n": {
+   "title": {
+    "he": "פרלמנט גרינלנד אישר הסכם ביטחוני עם ארה\"ב ודנמרק",
+    "en": "Greenland Parliament Approves Security Deal with US and Denmark",
+    "ar": "פרלמנט גרינלנד אישר הסכם ביטחוני עם ארה\"ב ודנמרק",
+    "ru": "Парламент Гренландии одобрил соглашение о безопасности с США и Данией"
+   },
+   "summary": {
+    "he": "מחוקקים בגרינלנד הצביעו פה אחד בעד אישור ההסכם התלת-צדדי שנחתם בספטמבר עם ארה\"ב ודנמרק.",
+    "en": "Lawmakers in Greenland voted unanimously to approve the trilateral security agreement signed in September with the US and Denmark.",
+    "ar": "מחוקקים בגרינלנד הצביעו פה אחד בעד אישור ההסכם התלת-צדדי שנחתם בספטמבר עם ארה\"ב ודנמרק.",
+    "ru": "Законодатели Гренландии единогласно проголосовали за одобрение трехстороннего соглашения о безопасности, подписанного в сентябре с США и Данией."
+   },
+   "kid": {
+    "he": "גרינלנד הסכימה על שיתוף פעולה צבאי הדוק יותר עם אמריקה ודנמרק. זה חשוב לחברות ביטחוניות שמגנות על אזור הארקטי.",
+    "en": "Greenland agreed to closer military cooperation with America and Denmark. This is important for defense companies protecting the Arctic region.",
+    "ar": "גרינלנד הסכימה על שיתוף פעולה צבאי הדוק יותר עם אמריקה ודנמרק. זה חשוב לחברות ביטחוניות שמגנות על אזור הארקטי.",
+    "ru": "Гренландия согласилась на более тесное военное сотрудничество с Америкой и Данией. Это важно для оборонных компаний, защищающих арктический регион."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/3/greenland-parliament-approves-security-deal-with-us-denmark?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793730565,
+    "reason": "חיזוק שיתוף הפעולה הביטחוני באזור הארקטי תומך בחוזים עתידיים לתעשיות הביטחון.",
+    "reason_i18n": {
+     "he": "חיזוק שיתוף הפעולה הביטחוני באזור הארקטי תומך בחוזים עתידיים לתעשיות הביטחון.",
+     "en": "Strengthened Arctic defense cooperation supports future contracts for defense firms.",
+     "ar": "חיזוק שיתוף הפעולה הביטחוני באזור הארקטי תומך בחוזים עתידיים לתעשיות הביטחון.",
+     "ru": "Укрепление оборонного сотрудничества в Арктике поддерживает будущие контракты для оборонных компаний."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - יצרנית ביטחונית אמריקאית",
+     "en": "Lockheed Martin - US Defense Contractor",
+     "ar": "לוקהיד מרטין - شركة دفاع أمريكية",
+     "ru": "Lockheed Martin - американский оборонный подрядчик"
+    },
+    "price_at_alert": 643.55
+   }
+  ],
+  "id": "ebb66fb3e0ee"
+ },
+ {
+  "ts": 1793730565,
+  "time": "2026-11-03T18:29Z",
+  "title": "חברת הפצת המזון סיסקו מדווחת שהתפרצות מחלה פגעה במכירות ברבעון 1",
+  "summary": "ענקית הפצת המזון סיסקו ציינה כי התפרצות של טפיל (ציקלוספוריאזיס) פגעה בתוצאות המכירות שלה ברבעון הראשון.",
+  "kid": "מחלה הקשורה למזון פגעה במכירות של חברת הפצת המזון הגדולה סיסקו בתחילת השנה, מה שעשוי להדאיג משקיעים בתחום.",
+  "i18n": {
+   "title": {
+    "he": "חברת הפצת המזון סיסקו מדווחת שהתפרצות מחלה פגעה במכירות ברבעון 1",
+    "en": "Food Distributor Sysco Reports Outbreak Impacted Q1 Sales",
+    "ar": "חברת הפצת המזון סיסקו מדווחת שהתפרצות מחלה פגעה במכירות ברבעון 1",
+    "ru": "Дистрибьютор продуктов питания Sysco сообщает, что вспышка заболевания повлияла на продажи в 1 квартале"
+   },
+   "summary": {
+    "he": "ענקית הפצת המזון סיסקו ציינה כי התפרצות של טפיל (ציקלוספוריאזיס) פגעה בתוצאות המכירות שלה ברבעון הראשון.",
+    "en": "Food distributor Sysco stated that a cyclosporiasis outbreak negatively impacted its sales performance during the first quarter.",
+    "ar": "ענקית הפצת המזון סיסקו ציינה כי התפרצות של טפיל (ציקלוספוריאזיס) פגעה בתוצאות המכירות שלה ברבעון הראשון.",
+    "ru": "Дистрибьютор продуктов питания Sysco сообщил, что вспышка циклоспориза отрицательно повлияла на показатели продаж в первом квартале."
+   },
+   "kid": {
+    "he": "מחלה הקשורה למזון פגעה במכירות של חברת הפצת המזון הגדולה סיסקו בתחילת השנה, מה שעשוי להדאיג משקיעים בתחום.",
+    "en": "A food-related illness hurt sales for major food distributor Sysco early in the year, which could worry investors in the sector.",
+    "ar": "מחלה הקשורה למזון פגעה במכירות של חברת הפצת המזון הגדולה סיסקו בתחילת השנה, מה שעשוי להדאיג משקיעים בתחום.",
+    "ru": "Болезнь, связанная с пищевыми продуктами, ухудшила продажи крупного дистрибьютора Sysco в начале года, что может обеспокоить инвесторов."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbTFGZlJpNEZOeExCOFRISlg0Yk55YTBaZk94N3czNUdVTjJqdzR1QlRpSDEtNzBFRDZOVGRSVWE0S1dtQldzMW5ESi1pRzJSd2YwczJXbDlXTXF3eDZjV3BlU0lyYUJUSDNmMmtjZHNSYlhFMV9TSzAtTnF2ZU5VbGFzcE44eHVzbFJHamNHSE1teHJhMzZ5R3o4Rlk4ODBZblFod3BlcmlMUDR4aG05RDNjYVJoRXBjRkU2aXlrei1QS3I5aUR0UVZWQ2p0WkdaWEE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLP",
+    "direction": "down",
+    "t0": 1793730565,
+    "reason": "התפרצויות בריאותיות פוגעות בפעילותן של חברות מזון והפצה מרכזיות.",
+    "reason_i18n": {
+     "he": "התפרצויות בריאותיות פוגעות בפעילותן של חברות מזון והפצה מרכזיות.",
+     "en": "Health outbreaks weigh on the operations of major food and distribution companies.",
+     "ar": "התפרצויות בריאותיות פוגעות בפעילותן של חברות מזון והפצה מרכזיות.",
+     "ru": "Вспышки заболеваний негативно влияют на деятельность крупных компаний по производству и дистрибуции продуктов питания."
+    },
+    "name_i18n": {
+     "he": "XLP - קרן סל מוצרי צריכה בסיסיים",
+     "en": "XLP - Consumer Staples ETF",
+     "ar": "XLP - صندوق قطاع السلع الاستهلاكية الأساسية",
+     "ru": "XLP - ETF товаров повседневного спроса"
+    },
+    "price_at_alert": 89.295
+   }
+  ],
+  "id": "c4c14461b328"
  }
 ]

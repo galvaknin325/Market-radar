@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T17:38Z",
+ "generated": "2026-11-03T18:29Z",
  "trade_size": 1000,
  "important": {
   "trades": 0,
@@ -14,15 +14,62 @@
   "recent": []
  },
  "all": {
-  "trades": 0,
+  "trades": 1,
   "wins": 0,
   "hits": 0,
-  "pnl": 0.0,
-  "bench_pnl": 0.0,
+  "pnl": -12.6,
+  "bench_pnl": 5.7,
   "invested_per_trade": 1000,
-  "best": null,
-  "worst": null,
-  "curve": [],
-  "recent": []
+  "best": {
+   "date": "2026-11-03",
+   "ticker": "ESLT.TA",
+   "dir": "up",
+   "severity": 3,
+   "cat": "contracts",
+   "id": "89de3635ba7b",
+   "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
+   "title_i18n": null,
+   "change_pct": -1.26,
+   "hit": false,
+   "pnl": -12.6,
+   "bench_pnl": 5.7
+  },
+  "worst": {
+   "date": "2026-11-03",
+   "ticker": "ESLT.TA",
+   "dir": "up",
+   "severity": 3,
+   "cat": "contracts",
+   "id": "89de3635ba7b",
+   "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
+   "title_i18n": null,
+   "change_pct": -1.26,
+   "hit": false,
+   "pnl": -12.6,
+   "bench_pnl": 5.7
+  },
+  "curve": [
+   {
+    "date": "2026-11-03",
+    "equity": -12.6,
+    "bench": 5.7
+   }
+  ],
+  "recent": [
+   {
+    "date": "2026-11-03",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 3,
+    "cat": "contracts",
+    "id": "89de3635ba7b",
+    "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
+    "title_i18n": null,
+    "change_pct": -1.26,
+    "hit": false,
+    "pnl": -12.6,
+    "bench_pnl": 5.7
+   }
+  ]
  }
 }

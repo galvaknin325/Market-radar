@@ -1,18 +1,24 @@
 {
- "generated": "2026-11-03T17:38Z",
+ "generated": "2026-11-03T18:29Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 125,
+ "total_alerts": 128,
  "overall": {
-  "n": 0,
+  "n": 1,
   "hits": 0,
-  "avg_edge": null
+  "avg_edge": -1.83
  },
- "by_category": {},
+ "by_category": {
+  "contracts": {
+   "n": 1,
+   "hits": 0,
+   "avg_edge": -1.83
+  }
+ },
  "by_severity": {
   "1-3": {
-   "n": 0,
+   "n": 1,
    "hits": 0,
-   "avg_edge": null
+   "avg_edge": -1.83
   },
   "4-5": {
    "n": 0,
@@ -92,26 +98,26 @@
    "avg_edge": null
   },
   "XLP": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "Consumer Staples ETF",
-    "he": "קרן סל מוצרי צריכה בסיסיים",
-    "ar": "صندوق مؤشرات متداول للسلع الاستهلاكية الأساسية",
-    "ru": "ETF на товары первой необходимости"
+    "he": "XLP - קרן סל מוצרי צריכה בסיסיים",
+    "en": "XLP - Consumer Staples ETF",
+    "ar": "XLP - صندوق قطاع السلع الاستهلاكية الأساسية",
+    "ru": "XLP - ETF товаров повседневного спроса"
    },
    "avg_edge": null
   },
   "ITA": {
-   "mentions": 24,
+   "mentions": 25,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל לתעשייה הביטחונית בארה\"ב",
-    "en": "US Aerospace & Defense ETF",
-    "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "he": "ITA - קרן סל תעופה וביטחון",
+    "en": "ITA - Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": null
   },
@@ -129,7 +135,7 @@
   },
   "ESLT.TA": {
    "mentions": 2,
-   "n": 0,
+   "n": 1,
    "hits": 0,
    "name": {
     "he": "אלביט מערכות - חברת ביטחונית",
@@ -137,7 +143,7 @@
     "ar": "إلبيط سيستمز - شركة دفاعية",
     "ru": "Elbit Systems - оборонная компания"
    },
-   "avg_edge": null
+   "avg_edge": -1.83
   },
   "ESLT": {
    "mentions": 3,
@@ -176,14 +182,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 ETF",
-    "ar": "صندوق S&P 500",
-    "ru": "S&P 500 ETF"
+    "he": "SPY - מדד המניות הראשי בארה\"ב",
+    "en": "SPY - Main US Stock Market ETF",
+    "ar": "SPY - صندوق متداول لأكبر الشركات الأمريكية",
+    "ru": "SPY - Основной фонд акций США"
    },
    "avg_edge": null
   },
@@ -260,26 +266,26 @@
    "avg_edge": null
   },
   "LMT": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "לוקהיד מרטין - ענקית בטחונית",
-    "en": "Lockheed Martin – Major Defense Contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي رئيسي",
-    "ru": "Lockheed Martin – крупный оборонный подрядчик"
+    "he": "לוקהיד מרטין - יצרנית ביטחונית אמריקאית",
+    "en": "Lockheed Martin - US Defense Contractor",
+    "ar": "לוקהיד מרטין - شركة دفاع أمريكية",
+    "ru": "Lockheed Martin - американский оборонный подрядчик"
    },
    "avg_edge": null
   },
   "FXE": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "FXE – קרן סל על מטבע האירו",
-    "en": "FXE – Euro Currency Trust",
+    "he": "FXE - קרן סל המעקב אחר האירו",
+    "en": "FXE - CurrencyShares Euro Trust",
     "ar": "FXE - صندوق اليورو",
-    "ru": "FXE – фонд евро"
+    "ru": "FXE - Фонд отслеживания евро"
    },
    "avg_edge": null
   },
@@ -488,14 +494,14 @@
    "avg_edge": null
   },
   "VGK": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "VGK – Vanguard FTSE Europe ETF",
-    "he": "קרן סל על שוק המניות האירופאי",
-    "ar": "صندوق الأسهم الأوروبية",
-    "ru": "Фонд европейских акций"
+    "he": "VGK - קרן סל מניות אירופיות",
+    "en": "VGK - Vanguard FTSE Europe ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK - ETF европейских акций"
    },
    "avg_edge": null
   },
