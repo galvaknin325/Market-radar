@@ -1,74 +1,1036 @@
 {
- "generated": "2026-11-03T22:59Z",
+ "generated": "2026-11-03T23:38Z",
  "trade_size": 1000,
  "important": {
-  "trades": 0,
-  "wins": 0,
-  "hits": 0,
-  "pnl": 0.0,
-  "bench_pnl": 0.0,
-  "invested_per_trade": 1000,
-  "best": null,
-  "worst": null,
-  "curve": [],
-  "recent": []
- },
- "all": {
-  "trades": 1,
-  "wins": 0,
-  "hits": 0,
-  "pnl": -12.6,
-  "bench_pnl": 5.7,
+  "trades": 22,
+  "wins": 6,
+  "hits": 7,
+  "pnl": -198.9,
+  "bench_pnl": -183.3,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-03",
-   "ticker": "ESLT.TA",
-   "dir": "up",
-   "severity": 3,
-   "cat": "contracts",
-   "id": "89de3635ba7b",
-   "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
-   "title_i18n": null,
-   "change_pct": -1.26,
-   "hit": false,
-   "pnl": -12.6,
-   "bench_pnl": 5.7
+   "ticker": "XLE",
+   "dir": "down",
+   "severity": 6,
+   "cat": "geopolitics",
+   "id": "69d20fb8a9b3",
+   "title": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+   "title_i18n": {
+    "he": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+    "en": "Diplomatic Efforts Surrounding Iran and Energy Ceasefire Talks",
+    "ar": "جهود دبلوماسية حول إيران ومحادثات وقف إطلاق النار في قطاع الطاقة",
+    "ru": "Дипломатические усилия вокруг Ирана и переговоры о прекращении огня в сфере энергетики"
+   },
+   "change_pct": -2.42,
+   "hit": true,
+   "pnl": 24.2,
+   "bench_pnl": -6.1
   },
   "worst": {
    "date": "2026-11-03",
-   "ticker": "ESLT.TA",
+   "ticker": "LITE",
    "dir": "up",
-   "severity": 3,
+   "severity": 8,
    "cat": "contracts",
-   "id": "89de3635ba7b",
-   "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
-   "title_i18n": null,
-   "change_pct": -1.26,
+   "id": "5277578c2d15",
+   "title": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+   "title_i18n": {
+    "he": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+    "en": "Marvell to acquire Lumentum for $115B",
+    "ar": "مارفيل تستحوذ على لومينتوم مقابل 115 مليار دولار",
+    "ru": "Marvell приобретает Lumentum за 115 млрд долларов"
+   },
+   "change_pct": -5.79,
    "hit": false,
-   "pnl": -12.6,
-   "bench_pnl": 5.7
+   "pnl": -57.9,
+   "bench_pnl": -6.1
   },
   "curve": [
    {
     "date": "2026-11-03",
-    "equity": -12.6,
-    "bench": 5.7
+    "equity": -198.9,
+    "bench": -183.3
    }
   ],
   "recent": [
    {
     "date": "2026-11-03",
-    "ticker": "ESLT.TA",
+    "ticker": "ZIM",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": 1.07,
+    "hit": false,
+    "pnl": -10.7,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XOM",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.22,
+    "hit": false,
+    "pnl": -32.2,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLK",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "c9dd3f704d8d",
+    "title": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+    "title_i18n": {
+     "he": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+     "en": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+     "ar": "مارفيل تستحوذ على لومينتوم في صفقة بـ 115 مليار دولار رهاناً על مراكز بيانات الذكاء الاصطناعي",
+     "ru": "Marvell покупает Lumentum за $115 млрд в рамках ставки на дата-центры ИИ"
+    },
+    "change_pct": -2.42,
+    "hit": false,
+    "pnl": -24.2,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 7,
+    "cat": "commodities",
+    "id": "74ab19ab0a38",
+    "title": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+    "title_i18n": {
+     "he": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+     "en": "Oil prices drop on Iran diplomacy",
+     "ar": "انخفاض أسعار النفط بسبب الدبلوماسية مع إيران",
+     "ru": "Цены на нефть падают на фоне дипломатии с Ираном"
+    },
+    "change_pct": -2.42,
+    "hit": true,
+    "pnl": 24.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "69d20fb8a9b3",
+    "title": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+    "title_i18n": {
+     "he": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+     "en": "Diplomatic Efforts Surrounding Iran and Energy Ceasefire Talks",
+     "ar": "جهود دبلوماسية حول إيران ومحادثات وقف إطلاق النار في قطاع الطاقة",
+     "ru": "Дипломатические усилия вокруг Ирана и переговоры о прекращении огня в сфере энергетики"
+    },
+    "change_pct": -2.42,
+    "hit": true,
+    "pnl": 24.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.09,
+    "hit": false,
+    "pnl": -30.9,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "up",
+    "severity": 7,
+    "cat": "geopolitics",
+    "id": "cf97875cf11e",
+    "title": "איומים איראניים על חופש השיט במצרי הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.12,
+    "hit": false,
+    "pnl": -31.2,
+    "bench_pnl": -6.6
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 7,
+    "cat": "commodities",
+    "id": "74ab19ab0a38",
+    "title": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+    "title_i18n": {
+     "he": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+     "en": "Oil prices drop on Iran diplomacy",
+     "ar": "انخفاض أسعار النفط بسبب الدبلوماسية مع إيران",
+     "ru": "Цены на нефть падают на фоне дипломатии с Ираном"
+    },
+    "change_pct": 0.02,
+    "hit": false,
+    "pnl": -0.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "69d20fb8a9b3",
+    "title": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+    "title_i18n": {
+     "he": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+     "en": "Diplomatic Efforts Surrounding Iran and Energy Ceasefire Talks",
+     "ar": "جهود دبلوماسية حول إيران ومحادثات وقف إطلاق النار في قطاع الطاقة",
+     "ru": "Дипломатические усилия вокруг Ирана и переговоры о прекращении огня в сфере энергетики"
+    },
+    "change_pct": 0.02,
+    "hit": false,
+    "pnl": -0.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -0.63,
+    "hit": true,
+    "pnl": -6.3,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "up",
+    "severity": 7,
+    "cat": "geopolitics",
+    "id": "cf97875cf11e",
+    "title": "איומים איראניים על חופש השיט במצרי הורמוז",
+    "title_i18n": null,
+    "change_pct": -0.87,
+    "hit": false,
+    "pnl": -8.7,
+    "bench_pnl": -6.6
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "1d5b4c1ac8d1",
+    "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+    "title_i18n": {
+     "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+     "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
+     "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
+     "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
+    },
+    "change_pct": -1.1,
+    "hit": true,
+    "pnl": 11.0,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "a0c2a8627fc8",
+    "title": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+    "title_i18n": {
+     "he": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+     "en": "Fed's Logan Says Central Bank Needs at Least Two More Rate Increases",
+     "ar": "لوجان مسؤولة الاحتياطي الفيدرالي تقول إن البنك بحاجة لرفع أسعار الفائدة مرتين أخرتين على الأقل",
+     "ru": "Логан из ФРС заявляет о необходимости как минимум двух новых повышений ставки"
+    },
+    "change_pct": -0.87,
+    "hit": false,
+    "pnl": 8.7,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 8,
+    "cat": "policy",
+    "id": "1850cdf273c0",
+    "title": "בחירות אמצע הכהונה בארה\"ב ומאבקים משפטיים",
+    "title_i18n": {
+     "he": "בחירות אמצע הכהונה בארה\"ב ומאבקים משפטיים",
+     "en": "US Midterm Elections and Legal Battles",
+     "ar": "انتخابات التجديد النصفي في الولايات المتحدة والمعارك القانونية",
+     "ru": "Промежуточные выборы в США и юридические баталии"
+    },
+    "change_pct": -0.1,
+    "hit": false,
+    "pnl": -1.0,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 8,
+    "cat": "policy",
+    "id": "34d47da03d8c",
+    "title": "יום הבחירות בארה\"ב: מרוצי אמצע הכהונה",
+    "title_i18n": {
+     "he": "יום הבחירות בארה\"ב: מרוצי אמצע הכהונה",
+     "en": "US Election Day: Midterm Races",
+     "ar": "يوم الانتخابات في الولايات المتحدة: سباقات التجديد النصفي",
+     "ru": "День выборов в США: промежуточные выборы"
+    },
+    "change_pct": -0.61,
+    "hit": false,
+    "pnl": -6.1,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "1d5b4c1ac8d1",
+    "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+    "title_i18n": {
+     "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+     "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
+     "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
+     "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
+    },
+    "change_pct": -0.74,
+    "hit": true,
+    "pnl": 7.4,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 6,
+    "cat": "policy",
+    "id": "f10044aa6f32",
+    "title": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
+    "title_i18n": {
+     "he": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
+     "en": "US Midterm Elections: Voters head to the polls for Congress and Senate races",
+     "ar": "انتخابات التجديد النصفي في أمريكا: الناخبون يتوجهون لصناديق الاقتراع",
+     "ru": "Промежуточные выборы в США: избиратели голосуют на выборах в Конгресс и Сенат"
+    },
+    "change_pct": -1.21,
+    "hit": false,
+    "pnl": -12.1,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "QQQ",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "1d5b4c1ac8d1",
+    "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+    "title_i18n": {
+     "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+     "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
+     "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
+     "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
+    },
+    "change_pct": -1.21,
+    "hit": true,
+    "pnl": 12.1,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "NVDA",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "c9dd3f704d8d",
+    "title": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+    "title_i18n": {
+     "he": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+     "en": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+     "ar": "مارفيل تستحوذ على لومينتوم في صفقة بـ 115 مليار دولار رهاناً על مراكز بيانات الذكاء الاصطناعي",
+     "ru": "Marvell покупает Lumentum за $115 млрд в рамках ставки на дата-центры ИИ"
+    },
+    "change_pct": -1.54,
+    "hit": false,
+    "pnl": -15.4,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "MRVL",
+    "dir": "up",
+    "severity": 8,
+    "cat": "contracts",
+    "id": "5277578c2d15",
+    "title": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+    "title_i18n": {
+     "he": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+     "en": "Marvell to acquire Lumentum for $115B",
+     "ar": "مارفيل تستحوذ على لومينتوم مقابل 115 مليار دولار",
+     "ru": "Marvell приобретает Lumentum за 115 млрд долларов"
+    },
+    "change_pct": -4.07,
+    "hit": false,
+    "pnl": -40.7,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "LITE",
+    "dir": "up",
+    "severity": 8,
+    "cat": "contracts",
+    "id": "5277578c2d15",
+    "title": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+    "title_i18n": {
+     "he": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+     "en": "Marvell to acquire Lumentum for $115B",
+     "ar": "مارفيل تستحوذ على لومينتوم مقابل 115 مليار دولار",
+     "ru": "Marvell приобретает Lumentum за 115 млрд долларов"
+    },
+    "change_pct": -5.79,
+    "hit": false,
+    "pnl": -57.9,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "KRE",
+    "dir": "up",
+    "severity": 6,
+    "cat": "policy",
+    "id": "f10044aa6f32",
+    "title": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
+    "title_i18n": {
+     "he": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
+     "en": "US Midterm Elections: Voters head to the polls for Congress and Senate races",
+     "ar": "انتخابات التجديد النصفي في أمريكا: الناخبون يتوجهون لصناديق الاقتراع",
+     "ru": "Промежуточные выборы в США: избиратели голосуют на выборах в Конгресс и Сенат"
+    },
+    "change_pct": -0.87,
+    "hit": true,
+    "pnl": -8.7,
+    "bench_pnl": -12.1
+   }
+  ]
+ },
+ "all": {
+  "trades": 79,
+  "wins": 36,
+  "hits": 38,
+  "pnl": -313.1,
+  "bench_pnl": -631.9,
+  "invested_per_trade": 1000,
+  "best": {
+   "date": "2026-11-03",
+   "ticker": "XLE",
+   "dir": "down",
+   "severity": 5,
+   "cat": "commodities",
+   "id": "c855951b5c40",
+   "title": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+   "title_i18n": {
+    "he": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+    "en": "Oil prices drop, easing global inflation pressures and boosting copper",
+    "ar": "أسعار النفط تنخفض وتخفف ضغوط التضخم العالمية وتدعم النحاس",
+    "ru": "Цены на нефть падают, ослабляя глобальное инфляционное давление и поддерживая медь"
+   },
+   "change_pct": -3.09,
+   "hit": true,
+   "pnl": 30.9,
+   "bench_pnl": -12.1
+  },
+  "worst": {
+   "date": "2026-11-03",
+   "ticker": "LITE",
+   "dir": "up",
+   "severity": 8,
+   "cat": "contracts",
+   "id": "5277578c2d15",
+   "title": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+   "title_i18n": {
+    "he": "מרבל תרכוש את לומנטום ב-115 מיליארד דולר",
+    "en": "Marvell to acquire Lumentum for $115B",
+    "ar": "مارفيل تستحوذ على لومينتوم مقابل 115 مليار دولار",
+    "ru": "Marvell приобретает Lumentum за 115 млрд долларов"
+   },
+   "change_pct": -5.79,
+   "hit": false,
+   "pnl": -57.9,
+   "bench_pnl": -6.1
+  },
+  "curve": [
+   {
+    "date": "2026-11-03",
+    "equity": -313.1,
+    "bench": -631.9
+   }
+  ],
+  "recent": [
+   {
+    "date": "2026-11-03",
+    "ticker": "ZIM",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": 1.07,
+    "hit": false,
+    "pnl": -10.7,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XOM",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.22,
+    "hit": false,
+    "pnl": -32.2,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLV",
+    "dir": "down",
+    "severity": 5,
+    "cat": "health",
+    "id": "e2804e2970e0",
+    "title": "מחסור בתרופות כימותרפיות עד 2028",
+    "title_i18n": {
+     "he": "מחסור בתרופות כימותרפיות עד 2028",
+     "en": "Chemotherapy shortage to last until 2028",
+     "ar": "نقص في أدوية العلاج الكيميائي حتى عام 2028",
+     "ru": "Дефицит химиотерапевтических препаратов до 2028 года"
+    },
+    "change_pct": -0.21,
+    "hit": false,
+    "pnl": 2.1,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLV",
+    "dir": "up",
+    "severity": 4,
+    "cat": "health",
+    "id": "5b52bd80904b",
+    "title": "אזהרה מפני התפרצות מחלה חסרת תקדים וחמורה ברחבי העולם",
+    "title_i18n": {
+     "he": "אזהרה מפני התפרצות מחלה חסרת תקדים וחמורה ברחבי העולם",
+     "en": "Officials warn ‘unprecedented’ disease outbreak is ‘very dire’: ‘All countries should know that they are not safe’",
+     "ar": "مسؤولون يحذرون من تفشي مرض \"غير مسبوق\" و\"خطير للغاية\": \"يجب أن تعلم جميع الدول أنها ليست في أمآن\"",
+     "ru": "Чиновники предупреждают о «беспрецедентной» вспышке заболевания: «Все страны должны знать, что они не в безопасности»"
+    },
+    "change_pct": -0.03,
+    "hit": true,
+    "pnl": -0.3,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLP",
+    "dir": "down",
+    "severity": 3,
+    "cat": "health",
+    "id": "bfa1ae89008b",
+    "title": "התפרצות שפעת העופות במשקים בארה\"ב",
+    "title_i18n": null,
+    "change_pct": -0.96,
+    "hit": false,
+    "pnl": 9.6,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLK",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "c9dd3f704d8d",
+    "title": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+    "title_i18n": {
+     "he": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
+     "en": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+     "ar": "مارفيل تستحوذ على لومينتوم في صفقة بـ 115 مليار دولار رهاناً על مراكز بيانات الذكاء الاصطناعي",
+     "ru": "Marvell покупает Lumentum за $115 млрд в рамках ставки на дата-центры ИИ"
+    },
+    "change_pct": -2.42,
+    "hit": false,
+    "pnl": -24.2,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "dbeeeddb5d97",
+    "title": "איראן מקדמת תוכנית מואצת לשיחות הפסקת אש עם ארה\"ב",
+    "title_i18n": {
+     "he": "איראן מקדמת תוכנית מואצת לשיחות הפסקת אש עם ארה\"ב",
+     "en": "Iran Pushing Accelerated Ceasefire Talks Plan with US",
+     "ar": "إيران تدفع بخطة متسارعة لمحادثات وقف إطلاق النار مع الولايات المتحدة",
+     "ru": "Иран продвигает ускоренный план переговоров о прекращении огня с США"
+    },
+    "change_pct": -1.16,
+    "hit": true,
+    "pnl": 11.6,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 7,
+    "cat": "commodities",
+    "id": "74ab19ab0a38",
+    "title": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+    "title_i18n": {
+     "he": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+     "en": "Oil prices drop on Iran diplomacy",
+     "ar": "انخفاض أسعار النفط بسبب الدبلوماسية مع إيران",
+     "ru": "Цены на нефть падают на фоне дипломатии с Ираном"
+    },
+    "change_pct": -2.42,
+    "hit": true,
+    "pnl": 24.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "243ceec7cd8f",
+    "title": "בלקסטון מובילה עסקת ענק של 3.1 מיליארד דולר בתחום ה-LNG בקנדה",
+    "title_i18n": {
+     "he": "בלקסטון מובילה עסקת ענק של 3.1 מיליארד דולר בתחום ה-LNG בקנדה",
+     "en": "Blackstone Leads $3.1 Billion Deal for Stake in Canadian LNG",
+     "ar": "بلاكستون تقود صفقة بقيمة 3.1 مليار دولار لشراء حصة في الغاز الطبيعي المسال بكندا",
+     "ru": "Blackstone возглавляет сделку на $3.1 млрд по покупке доли в канадском СПГ"
+    },
+    "change_pct": -2.42,
+    "hit": false,
+    "pnl": -24.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "69d20fb8a9b3",
+    "title": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+    "title_i18n": {
+     "he": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+     "en": "Diplomatic Efforts Surrounding Iran and Energy Ceasefire Talks",
+     "ar": "جهود دبلوماسية حول إيران ومحادثات وقف إطلاق النار في قطاع الطاقة",
+     "ru": "Дипломатические усилия вокруг Ирана и переговоры о прекращении огня в сфере энергетики"
+    },
+    "change_pct": -2.42,
+    "hit": true,
+    "pnl": 24.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
     "dir": "up",
     "severity": 3,
     "cat": "contracts",
-    "id": "89de3635ba7b",
-    "title": "אלביט מערכות זוכה בחוזה אימונים ל-15 שנים עבור צבא ההגנה לישראל",
-    "title_i18n": null,
-    "change_pct": -1.26,
+    "id": "8883433ab45c",
+    "title": "Subsea 7 זוכה בחוזה פיתוח שדה נפט וגז עבור Aker BP",
+    "title_i18n": {
+     "he": "Subsea 7 זוכה בחוזה פיתוח שדה נפט וגז עבור Aker BP",
+     "en": "Subsea7 Wins Oil and Gas Field Development Contract for Aker BP",
+     "ar": "Subsea7 تفوز بعقد تطوير حقل نفط وغاز لصالح Aker BP",
+     "ru": "Subsea7 выигрывает контракт на разработку нефтегазового месторождения для Aker BP"
+    },
+    "change_pct": -2.14,
     "hit": false,
-    "pnl": -12.6,
-    "bench_pnl": 5.7
+    "pnl": -21.4,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "down",
+    "severity": 5,
+    "cat": "commodities",
+    "id": "c855951b5c40",
+    "title": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+    "title_i18n": {
+     "he": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+     "en": "Oil prices drop, easing global inflation pressures and boosting copper",
+     "ar": "أسعار النفط تنخفض وتخفف ضغوط التضخم العالمية وتدعم النحاس",
+     "ru": "Цены на нефть падают, ослабляя глобальное инфляционное давление и поддерживая медь"
+    },
+    "change_pct": -3.09,
+    "hit": true,
+    "pnl": 30.9,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.09,
+    "hit": false,
+    "pnl": -30.9,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "XLE",
+    "dir": "up",
+    "severity": 7,
+    "cat": "geopolitics",
+    "id": "cf97875cf11e",
+    "title": "איומים איראניים על חופש השיט במצרי הורמוז",
+    "title_i18n": null,
+    "change_pct": -3.12,
+    "hit": false,
+    "pnl": -31.2,
+    "bench_pnl": -6.6
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "VGK",
+    "dir": "up",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "727a2afe1711",
+    "title": "וושינגטון דוחפת לחידוש אספקת הגז הרוסי לאירופה",
+    "title_i18n": {
+     "he": "וושינגטון דוחפת לחידוש אספקת הגז הרוסי לאירופה",
+     "en": "Washington pushes to restore Russian gas supplies to Europe",
+     "ar": "واشنطن تدفع باتجاه استئناف إمدادات الغاز الروسي لأوروبا",
+     "ru": "Вашингтон добивается восстановления поставок российского газа в Европу"
+    },
+    "change_pct": -0.58,
+    "hit": false,
+    "pnl": -5.8,
+    "bench_pnl": 0.2
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "VGK",
+    "dir": "down",
+    "severity": 4,
+    "cat": "macro",
+    "id": "6da457cf5099",
+    "title": "איגודי עובדים בגרמניה פותחים בגל שביתות",
+    "title_i18n": {
+     "he": "איגודי עובדים בגרמניה פותחים בגל שביתות",
+     "en": "German Unions Launch Wave of Strikes",
+     "ar": "النقابات العمالية الألمانية تطلق موجة إضرابات",
+     "ru": "Профсоюзы Германии начинают волну забастовок"
+    },
+    "change_pct": -0.71,
+    "hit": true,
+    "pnl": 7.1,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "dbeeeddb5d97",
+    "title": "איראן מקדמת תוכנית מואצת לשיחות הפסקת אש עם ארה\"ב",
+    "title_i18n": {
+     "he": "איראן מקדמת תוכנית מואצת לשיחות הפסקת אש עם ארה\"ב",
+     "en": "Iran Pushing Accelerated Ceasefire Talks Plan with US",
+     "ar": "إيران تدفع بخطة متسارعة لمحادثات وقف إطلاق النار مع الولايات المتحدة",
+     "ru": "Иран продвигает ускоренный план переговоров о прекращении огня с США"
+    },
+    "change_pct": 0.08,
+    "hit": false,
+    "pnl": -0.8,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 7,
+    "cat": "commodities",
+    "id": "74ab19ab0a38",
+    "title": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+    "title_i18n": {
+     "he": "ירידה במחירי הנפט עקב דיפלומטיה עם איראן",
+     "en": "Oil prices drop on Iran diplomacy",
+     "ar": "انخفاض أسعار النفط بسبب الدبلوماسية مع إيران",
+     "ru": "Цены на нефть падают на фоне дипломатии с Ираном"
+    },
+    "change_pct": 0.02,
+    "hit": false,
+    "pnl": -0.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "69d20fb8a9b3",
+    "title": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+    "title_i18n": {
+     "he": "מאמצים דיפלומטיים סביב איראן ושיחות הפסקת אש באנרגיה",
+     "en": "Diplomatic Efforts Surrounding Iran and Energy Ceasefire Talks",
+     "ar": "جهود دبلوماسية حول إيران ومحادثات وقف إطلاق النار في قطاع الطاقة",
+     "ru": "Дипломатические усилия вокруг Ирана и переговоры о прекращении огня в сфере энергетики"
+    },
+    "change_pct": 0.02,
+    "hit": false,
+    "pnl": -0.2,
+    "bench_pnl": -6.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "down",
+    "severity": 5,
+    "cat": "commodities",
+    "id": "c855951b5c40",
+    "title": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+    "title_i18n": {
+     "he": "מחירי הנפט יורדים ומקלים על לחצי האינפלציה העולמית",
+     "en": "Oil prices drop, easing global inflation pressures and boosting copper",
+     "ar": "أسعار النفط تنخفض وتخفف ضغوط التضخم العالمية وتدعم النحاس",
+     "ru": "Цены на нефть падают, ослабляя глобальное инфляционное давление и поддерживая медь"
+    },
+    "change_pct": -0.63,
+    "hit": false,
+    "pnl": 6.3,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "f655ba3c5dfb",
+    "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
+    "title_i18n": null,
+    "change_pct": -0.63,
+    "hit": true,
+    "pnl": -6.3,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "USO",
+    "dir": "up",
+    "severity": 7,
+    "cat": "geopolitics",
+    "id": "cf97875cf11e",
+    "title": "איומים איראניים על חופש השיט במצרי הורמוז",
+    "title_i18n": null,
+    "change_pct": -0.87,
+    "hit": false,
+    "pnl": -8.7,
+    "bench_pnl": -6.6
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "UNG",
+    "dir": "down",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "727a2afe1711",
+    "title": "וושינגטון דוחפת לחידוש אספקת הגז הרוסי לאירופה",
+    "title_i18n": {
+     "he": "וושינגטון דוחפת לחידוש אספקת הגז הרוסי לאירופה",
+     "en": "Washington pushes to restore Russian gas supplies to Europe",
+     "ar": "واشنطن تدفع باتجاه استئناف إمدادات الغاز الروسي لأوروبا",
+     "ru": "Вашингтон добивается восстановления поставок российского газа в Европу"
+    },
+    "change_pct": 1.16,
+    "hit": false,
+    "pnl": -11.6,
+    "bench_pnl": 0.2
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TSM",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "26177d8ad6f7",
+    "title": "אינטל מתמודדת עם מבחן קריטי באסטרטגיית הייצור שלה",
+    "title_i18n": {
+     "he": "אינטל מתמודדת עם מבחן קריטי באסטרטגיית הייצור שלה",
+     "en": "Intel foundry push faces critical test after stock plunge",
+     "ar": "إنتل تواجه اختباراً حاسماً في استراتيجية المسابك",
+     "ru": "Intel сталкивается с критическим испытанием литейного производства"
+    },
+    "change_pct": 0.73,
+    "hit": true,
+    "pnl": 7.3,
+    "bench_pnl": 0.2
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 4,
+    "cat": "macro",
+    "id": "faec937c1181",
+    "title": "פדרל רה-סيرב מזהיר מפני השפעות אינפלציוניות של תופעת אל ניניו",
+    "title_i18n": {
+     "he": "פדרל רה-סيرב מזהיר מפני השפעות אינפלציוניות של תופעת אל ניניו",
+     "en": "San Francisco Fed warns El Nino poses inflation risks for 2027",
+     "ar": "الفيدرالي يحذر من مخاطر تضخمية لظاهرة النينيو في 2027",
+     "ru": "Федрезерв предупреждает об инфляционных рисках Эль-Ниньо в 2027 году"
+    },
+    "change_pct": -0.68,
+    "hit": true,
+    "pnl": 6.8,
+    "bench_pnl": 0.2
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "1d5b4c1ac8d1",
+    "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+    "title_i18n": {
+     "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
+     "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
+     "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
+     "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
+    },
+    "change_pct": -1.1,
+    "hit": true,
+    "pnl": 11.0,
+    "bench_pnl": -7.4
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "a0c2a8627fc8",
+    "title": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+    "title_i18n": {
+     "he": "בכירה בפדרל ריזרב מזהירה כי נדרשות לפחות שתי העלאות ריבית נוספות",
+     "en": "Fed's Logan Says Central Bank Needs at Least Two More Rate Increases",
+     "ar": "لوجان مسؤولة الاحتياطي الفيدرالي تقول إن البنك بحاجة لرفع أسعار الفائدة مرتين أخرتين على الأقل",
+     "ru": "Логан из ФРС заявляет о необходимости как минимум двух новых повышений ставки"
+    },
+    "change_pct": -0.87,
+    "hit": false,
+    "pnl": 8.7,
+    "bench_pnl": -12.1
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "down",
+    "severity": 4,
+    "cat": "macro",
+    "id": "faec937c1181",
+    "title": "פדרל רה-סيرב מזהיר מפני השפעות אינפלציוניות של תופעת אל ניניו",
+    "title_i18n": {
+     "he": "פדרל רה-סيرב מזהיר מפני השפעות אינפלציוניות של תופעת אל ניניו",
+     "en": "San Francisco Fed warns El Nino poses inflation risks for 2027",
+     "ar": "الفيدرالي يحذر من مخاطر تضخمية لظاهرة النينيو في 2027",
+     "ru": "Федрезерв предупреждает об инфляционных рисках Эль-Ниньо в 2027 году"
+    },
+    "change_pct": 0.02,
+    "hit": false,
+    "pnl": -0.2,
+    "bench_pnl": 0.2
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 8,
+    "cat": "policy",
+    "id": "1850cdf273c0",
+    "title": "בחירות אמצע הכהונה בארה\"ב ומאבקים משפטיים",
+    "title_i18n": {
+     "he": "בחירות אמצע הכהונה בארה\"ב ומאבקים משפטיים",
+     "en": "US Midterm Elections and Legal Battles",
+     "ar": "انتخابات التجديد النصفي في الولايات المتحدة والمعارك القانونية",
+     "ru": "Промежуточные выборы в США и юридические баталии"
+    },
+    "change_pct": -0.1,
+    "hit": false,
+    "pnl": -1.0,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-03",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 8,
+    "cat": "policy",
+    "id": "34d47da03d8c",
+    "title": "יום הבחירות בארה\"ב: מרוצי אמצע הכהונה",
+    "title_i18n": {
+     "he": "יום הבחירות בארה\"ב: מרוצי אמצע הכהונה",
+     "en": "US Election Day: Midterm Races",
+     "ar": "يوم الانتخابات في الولايات المتحدة: سباقات التجديد النصفي",
+     "ru": "День выборов в США: промежуточные выборы"
+    },
+    "change_pct": -0.61,
+    "hit": false,
+    "pnl": -6.1,
+    "bench_pnl": -6.1
    }
   ]
  }
