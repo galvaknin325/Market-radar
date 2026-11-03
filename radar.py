@@ -252,7 +252,7 @@ Merge headlines about the same event into one event. For each event return:
 - same_as: if the event is the same ongoing story as one of the ALREADY REPORTED alerts
   below, put that alert's id here (it will be added as an update, not a new alert);
   otherwise null. Use it for continuations and follow-ups of the same story only.
-Return at most 12 events (the most market-relevant ones). Never give buy/sell advice.
+Return at most 10 events (the most market-relevant ones). Keep every text short. Never give buy/sell advice.
 Return JSON: {"events": [...]} (empty list if nothing qualifies).
 
 ALREADY REPORTED in the last 36 hours (id: title):
@@ -317,7 +317,13 @@ def gemini_json(prompt):
                     raise RuntimeError(f"{r.status_code} {r.text[:200]}")
                 text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
                 text = re.sub(r"^```(json)?|```$", "", text.strip()).strip()
-                return json.loads(text), model
+                try:
+                    return json.loads(text), model
+                except json.JSONDecodeError:
+                    if attempt == 0:
+                        log(f"{model}: broken JSON, retrying once")
+                        continue
+                    raise
             except Exception as e:
                 last_err = f"{model}: {e}"
                 log("gemini error:", last_err)
@@ -506,9 +512,10 @@ def window(bars, t0):
     if not days:
         return None
     exit_day = days[0]
-    # only final once that trading day is over: a later trading day has started, or the exchange date moved on
+    # only final once that trading day is over: a later trading day has started, or no new hourly bar
+    # has appeared for over 2.5 hours (the session has closed; during trading a new bar starts every hour)
     last_bar = [b for b in bars if b[1] == exit_day][-1]
-    finished = len(days) > 1 or (dt.datetime.now(dt.timezone.utc) - last_bar[0]) > dt.timedelta(hours=8)
+    finished = len(days) > 1 or (dt.datetime.now(dt.timezone.utc) - last_bar[0]) > dt.timedelta(hours=2.5)
     if not finished:
         return None
     return entry[2], entry[0], last_bar[3], exit_day
@@ -555,7 +562,7 @@ def evaluate(alerts):
             if "hit" in imp or imp.get("no_data"):
                 continue
             t0 = imp.get("t0") or a["ts"]
-            if now - t0 < 12 * 3600:          # too early to have a next-day close
+            if now - t0 < 6 * 3600:           # too early to have a next-day close
                 pending = True
                 continue
             if not evaluate_impact(imp, t0):
