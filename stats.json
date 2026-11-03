@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-03T13:55Z",
+ "generated": "2026-11-03T15:49Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 108,
+ "total_alerts": 115,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -32,26 +32,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 10,
-   "n": 0,
-   "hits": 0,
-   "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
-   },
-   "avg_edge": null
-  },
-  "XLE": {
    "mentions": 11,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "XLE – Energy Sector ETF",
-    "he": "XLE – קרן סל של ספקטור האנרגיה",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "en": "USO – United States Oil Fund",
+    "he": "קרן סל על מחירי הנפט הגולמי",
+    "ar": "صندوق استثمار أسعار النفط",
+    "ru": "Биржевой фонд нефти"
+   },
+   "avg_edge": null
+  },
+  "XLE": {
+   "mentions": 12,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "XLE – Energy Select Sector SPDR Fund",
+    "he": "קרן סל סקטור האנרגיה בארה\"ב",
+    "ar": "صندوق قطاع الطاقة الأمريكي",
+    "ru": "Фонд энергетического сектора США"
    },
    "avg_edge": null
   },
@@ -104,14 +104,14 @@
    "avg_edge": null
   },
   "ITA": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "ITA – US Aerospace & Defense ETF",
-    "he": "ITA – קרן סל תעופה וביטחון",
-    "ar": "ITA - صندوق الطيران والدفاع",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    "en": "ITA – iShares U.S. Aerospace & Defense ETF",
+    "he": "קרן סל על הביטחון והתעופה האמריקאית",
+    "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "Фонд аэрокосмического и оборонного сектора США"
    },
    "avg_edge": null
   },
@@ -176,14 +176,14 @@
    "avg_edge": null
   },
   "SPY": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "SPY – S&P 500 ETF",
-    "he": "SPY – מדד S&P 500",
-    "ar": "SPY - صندوق مؤشر الأسهم",
-    "ru": "SPY – фонд акций S&P 500"
+    "en": "SPY – SPDR S&P 500 ETF Trust",
+    "he": "קרן סל על מדד אס&פ 500",
+    "ar": "صندوق مؤشر إس آند بي 500",
+    "ru": "Фонд широкого рынка S&P 500"
    },
    "avg_edge": null
   },
@@ -200,14 +200,14 @@
    "avg_edge": null
   },
   "CPER": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق استثمار النحاس",
-    "ru": "ETF меди"
+    "en": "CPER – United States Copper Index Fund",
+    "he": "קרן סל על מחירי הנחושת",
+    "ar": "صندوق مؤشر النحاس الأمريكي",
+    "ru": "Биржевой фонд цен на медь"
    },
    "avg_edge": null
   },
@@ -236,14 +236,14 @@
    "avg_edge": null
   },
   "TLT": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "TLT - אג\"ח ממשלת ארה\"ב לטווח ארוך",
-    "en": "TLT - Long-term Treasury ETF",
-    "ar": "TLT - سندات الخزانة الأمريكية الطويلة",
-    "ru": "TLT - долгосрочные гособлигации США"
+    "en": "TLT – iShares 20+ Year Treasury Bond ETF",
+    "he": "קרן סל על אג\"ח ארוך טווח של ממשלת ארה\"ב",
+    "ar": "صندوق السندات الحكومية الأمريكية طويلة الأجل",
+    "ru": "Фонд длинных гособлигаций США"
    },
    "avg_edge": null
   },
@@ -308,14 +308,14 @@
    "avg_edge": null
   },
   "QQQ": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קיו-קיו-קיו - תעודת סל נאסד\"ק 100",
-    "en": "Invesco QQQ Trust",
-    "ar": "صندوق مؤشر ناسداك 100",
-    "ru": "ETF на индекс Nasdaq 100"
+    "en": "QQQ – Invesco QQQ Trust (Nasdaq 100)",
+    "he": "קרן סל על מניות נאסד\"ק 100",
+    "ar": "صندوق ناسداك 100",
+    "ru": "Фонд технологических акций Nasdaq 100"
    },
    "avg_edge": null
   },
@@ -380,14 +380,14 @@
    "avg_edge": null
   },
   "FCX": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "פריפורט מקמורן - חברת כריית נחושת",
-    "en": "Freeport-McMoRan – copper mining firm",
-    "ar": "فريبورت-ماكموران - شركة تعدين النحاس",
-    "ru": "Freeport-McMoRan — компания по добыче меди"
+    "en": "FCX – Freeport-McMoRan Inc.",
+    "he": "חברת הכרייה פריפורט-מקמואראן",
+    "ar": "شركة التعدين فريبورت-ماكموران",
+    "ru": "Горнодобывающая компания Freeport-McMoRan"
    },
    "avg_edge": null
   },
@@ -488,14 +488,14 @@
    "avg_edge": null
   },
   "VGK": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל מניות אירופה",
-    "en": "Vanguard FTSE Europe ETF",
+    "en": "VGK – Vanguard FTSE Europe ETF",
+    "he": "קרן סל על שוק המניות האירופאי",
     "ar": "صندوق الأسهم الأوروبية",
-    "ru": "ETF европейских акций"
+    "ru": "Фонд европейских акций"
    },
    "avg_edge": null
   },
@@ -632,14 +632,14 @@
    "avg_edge": null
   },
   "XLB": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "תעודת סל חומרי גלם",
-    "en": "Materials Select Sector SPDR Fund",
-    "ar": "صندوق قطاع المواد الأساسية",
-    "ru": "ETF материалов и сырья"
+    "en": "XLB – Materials Select Sector SPDR Fund",
+    "he": "קרן סל על סקטור החומרים בארה\"ب",
+    "ar": "صندوق قطاع المواد الأساسية الأمريكي",
+    "ru": "Фонд материалов США"
    },
    "avg_edge": null
   },
