@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-03T07:57Z",
+ "generated": "2026-11-03T08:56Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 90,
+ "total_alerts": 94,
  "overall": {
   "n": 0,
   "hits": 0,
@@ -92,33 +92,38 @@
    "avg_edge": null
   },
   "XLP": {
-   "mentions": 1,
-   "n": 0,
-   "hits": 0,
-   "name": {},
-   "avg_edge": null
-  },
-  "ITA": {
-   "mentions": 13,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
+    "en": "Consumer Staples ETF",
+    "he": "קרן סל מוצרי צריכה בסיסיים",
+    "ar": "صندوق مؤشرات متداول للسلع الاستهلاكية الأساسية",
+    "ru": "ETF на товары первой необходимости"
+   },
+   "avg_edge": null
+  },
+  "ITA": {
+   "mentions": 14,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "Aerospace & Defense ETF",
     "he": "קרן סל תעופה וביטחון",
-    "en": "US Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الفضاء والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "ar": "صندوق مؤشرات متداول للطيران والدفاع",
+    "ru": "ETF на аэрокосмическую и оборонную промышленность"
    },
    "avg_edge": null
   },
   "RTX": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ריית'יון - חברת טכנולוגיה צבאית",
-    "en": "RTX Corporation – defense tech firm",
-    "ar": "آر تي إكس - شركة تكنولوجيا دفاعية",
-    "ru": "RTX Corporation — оборонная компания"
+    "en": "RTX Corporation",
+    "he": "חברת RTX",
+    "ar": "شركة RTX",
+    "ru": "RTX Corporation"
    },
    "avg_edge": null
   },
@@ -135,14 +140,14 @@
    "avg_edge": null
   },
   "ESLT": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "אלביט מערכות - חברה ביטחונית",
-    "en": "Elbit Systems - defense company",
-    "ar": "إلبيت سيستمز - شركة دفاعية",
-    "ru": "Elbit Systems - оборонная компания"
+    "en": "Elbit Systems",
+    "he": "אלביט מערכות",
+    "ar": "إلبيت سيستمز",
+    "ru": "Elbit Systems"
    },
    "avg_edge": null
   },
@@ -659,6 +664,18 @@
     "en": "Dry Bulk Shipping ETF",
     "ar": "صندوق شحن البضائع السائلة الجافة",
     "ru": "ETF сухогрузных перевозок"
+   },
+   "avg_edge": null
+  },
+  "XLU": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "Utilities Select Sector SPDR",
+    "he": "קרן סל תשתיות",
+    "ar": "صندوق مؤشرات متداول للمرافق",
+    "ru": "ETF на сектор коммунальных услуг"
    },
    "avg_edge": null
   }
