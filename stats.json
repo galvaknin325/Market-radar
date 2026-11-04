@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T05:28Z",
+ "generated": "2026-11-04T06:29Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 160,
+ "total_alerts": 163,
  "overall": {
   "n": 79,
   "hits": 38,
@@ -169,26 +169,26 @@
    "avg_edge": 2.25
   },
   "ESLT.TA": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "אלביט מערכות - חברת ביטחונית",
-    "en": "Elbit Systems - Defense Company",
-    "ar": "إلبيط سيستمز - شركة دفاعية",
-    "ru": "Elbit Systems - оборонная компания"
+    "he": "אלביט מערכות בתל אביב",
+    "en": "Elbit Systems TASE",
+    "ar": "אלبيت سيستمز في تل أبيب",
+    "ru": "Elbit Systems на TASE"
    },
    "avg_edge": -1.83
   },
   "ESLT": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "ESLT - אלביט מערכות",
-    "en": "ESLT - Elbit Systems",
-    "ar": "ESLT - إلبايت سيستمز",
-    "ru": "ESLT - Elbit Systems"
+    "he": "אלביט מערכות",
+    "en": "Elbit Systems",
+    "ar": "אלبيت سيستمز",
+    "ru": "Elbit Systems"
    },
    "avg_edge": 1.08
   },
@@ -301,7 +301,7 @@
    "avg_edge": 0.0
   },
   "LMT": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 2,
    "hits": 2,
    "name": {
@@ -541,14 +541,14 @@
    "avg_edge": 0.0
   },
   "UNG": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "UNG - קרן סל גז טבעי",
-    "en": "UNG - Natural Gas ETF",
-    "ar": "UNG - صندوق الغاز الطبيعي",
-    "ru": "UNG - ETF природного газа"
+    "he": "תעודת סל גז טבעי",
+    "en": "United States Natural Gas Fund",
+    "ar": "صندوق الغاز الطبيعي الأمريكي",
+    "ru": "Фонд природного газа США"
    },
    "avg_edge": -1.14
   },
@@ -745,14 +745,14 @@
    "avg_edge": null
   },
   "EWJ": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל יפן",
-    "en": "Japan ETF",
-    "ar": "صندوق الاستثمار المتداول لأسهم اليابان",
-    "ru": "Japan ETF"
+    "he": "תעודת סל יפן",
+    "en": "iShares MSCI Japan ETF",
+    "ar": "صندوق مؤشر اليابان",
+    "ru": "ETF на Японию"
    },
    "avg_edge": null
   },
@@ -813,6 +813,18 @@
     "en": "Boeing – aerospace manufacturer",
     "ar": "بوينغ - صانعة الطائرات",
     "ru": "Boeing – производитель самолетов"
+   },
+   "avg_edge": null
+  },
+  "XAR": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "תעודת סל תעופה וביטחון",
+    "en": "SPDR S&P Aerospace & Defense ETF",
+    "ar": "صندوق الفضاء والدفاع الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": null
   }
