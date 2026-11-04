@@ -12342,7 +12342,20 @@
   "category": "geopolitics",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2N0a3J5eDVfQlBtSkFLUm5hRm8zdDJwZFZ6OGpCS3BRWFd2Y3VvOUU4ZEJnY0tHNXJEaVQxYVBRNE9iZmN6TWNia1k1MTJ4V21aSHNXMzBxVTZIQnlWbHQ1aFBPVlBLbmE2TzA1dGFDTEhNRlJrMFlHNEViYVBUNHVNSkEtTXpjNFowWkE1cGtZVWZyS215dmdB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSGd2b2RVUmtvZUZCMHFtelFwQUV1Umdta1FkSTloenlXeGUxbUhuNVNqaDdHd0IzaU1wcWtUdnNDSVJ0YVJGREIwMTBqZElfcjlNbXp3YWpyNzlodHhXbWp4c0FaSE1iSkh3UUl3SFJsN2lDcHJsdUhzZVVQZE1QTzc5QkswcS1TR3hFMkNrM0RIUWFwekZ3Y1hNS0tIMUpfSjZFQ1E4cFAxVF9HMzRNNXFXbl9VUGlROTJlNkFOR2xaYWdoNGZ5V2FnOU4?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOGpUdWlTWWJCLXducE8xRFhKdGxwWGhlbWE2ZFBYbVU0YU8yVE1vdEZlRnh5dWRsczdsNWhFc3haWkZSUl9rUXd3SlZ5YzQzaDRGUU5sb3VkYTBqQ19uU2h2MjdEVVdjaXdLc081RGFPTU54WkNlM1JIUnR0NFVKRW1pS1VlNzU2cHd0ZHl5TU40VEI0YXRyd3pOUFkzX2N4eHljNTVPUjUtUEJyOFZQMm4xUzlHaVU?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EWY",
@@ -12362,9 +12375,43 @@
      "ru": "EWY - ETF Южной Кореи"
     },
     "price_at_alert": 155.06
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793759396,
+    "reason": "מתיחות צבאית באסיה מעלה את הביקוש למניות ביטחון",
+    "reason_i18n": {
+     "he": "מתיחות צבאית באסיה מעלה את הביקוש למניות ביטחון",
+     "en": "Rising regional tensions boost defense sector interest",
+     "ar": "التوترات الإقليمية تزيد الطلب على قطاع الدفاع",
+     "ru": "Рост региональной напряженности повышает интерес к оборонному сектору"
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סלי של חברות תעופה וביטחון בארה\"ב",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 216.17
    }
   ],
-  "id": "0859fb1fb549"
+  "id": "0859fb1fb549",
+  "updates": [
+   {
+    "ts": 1793759396,
+    "time": "2026-11-04T02:29Z",
+    "severity": 4,
+    "summary": "צפון קוריאה שיגרה קליע לא מזוהה לעבר מימי הים המזרחי, כך לפי רשויות דרום קוריאה והדיווחים באזור.",
+    "i18n": {
+     "he": "צפון קוריאה שיגרה קליע לא מזוהה לעבר מימי הים המזרחי, כך לפי רשויות דרום קוריאה והדיווחים באזור.",
+     "en": "North Korea has fired an unidentified projectile toward the East Sea, according to regional reports from Seoul.",
+     "ar": "أطلقت كوريا الشمالية مقذوفاً مجهولاً نحو بحر الشرق، بحسب تقارير إقليمية من سيول.",
+     "ru": "Северная Корея произвела запуск неопознанного снаряда в сторону Японского моря, сообщают региональные власти."
+    }
+   }
+  ],
+  "last_update": 1793759396
  },
  {
   "ts": 1793756357,
@@ -12418,5 +12465,187 @@
    }
   ],
   "id": "0fcbf08b7c60"
+ },
+ {
+  "ts": 1793759396,
+  "time": "2026-11-04T02:29Z",
+  "title": "גל מתקפות סייבר פוגע באירופה ובחברות ענק",
+  "summary": "מתקפות סייבר רחבות היקף דווחו במספר מוקדים באירופה ובגופים בינלאומיים, כולל פגיעה במערכות אחסון, מסמכים רגישים ותשתיות.",
+  "kid": "האקרים תקפו מערכות מחשוב של חברות וממשלות באירופה. זה גורם לחברות אבטחת מידע לקבל תשומת לב רבה.",
+  "i18n": {
+   "title": {
+    "he": "גל מתקפות סייבר פוגע באירופה ובחברות ענק",
+    "en": "Massive cyberattacks hit multiple European regions and companies",
+    "ar": "هجمات سيبرانية واسعة النطاق تضرب عدة مناطق وشركات أوروبية",
+    "ru": "Масштабные кибератаки затронули несколько европейских компаний и регионов"
+   },
+   "summary": {
+    "he": "מתקפות סייבר רחבות היקף דווחו במספר מוקדים באירופה ובגופים בינלאומיים, כולל פגיעה במערכות אחסון, מסמכים רגישים ותשתיות.",
+    "en": "Major cyberattacks have hit multiple European regions, compromising systems, freezers, health records, and corporate operations.",
+    "ar": "ضربت هجمات سيبرانية واسعة النطاق عدة مناطق أوروبية، مما أثر على الأنظمة الصحية والبيانات الحساسة.",
+    "ru": "Крупные кибератаки поразили несколько европейских регионов, нарушив работу систем хранения, медицинских баз и предприятий."
+   },
+   "kid": {
+    "he": "האקרים תקפו מערכות מחשוב של חברות וממשלות באירופה. זה גורם לחברות אבטחת מידע לקבל תשומת לב רבה.",
+    "en": "Hackers attacked computer systems of companies and governments in Europe. This brings attention to cybersecurity stocks.",
+    "ar": "هاجم قراصنة أنظمة حاسوبية لشركات وحكومات في أوروبا، مما يسلط الضوء على أسهم الأمن السيبراني.",
+    "ru": "Хакеры атаковали компьютерные системы компаний и правительств в Европе, что привлекает внимание к акциям кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSkszYlliclA1Z2NaT3ltSWRNZFRoWWdMSENHOFJZeXg1NVJwS1AxLWdmd1VQU29iUk90eDRKZGpqZi1OMXNwbU9GN3JtcUZaOUoyZExWYi02VTY5U29VUnpkbTJTTkRFTVYtbmg1aWRTX1pDbmNVX1c5ekE0UjEzcFE1Um1LM2p6OWZGSmxJSU8xaEdsRU9KdVMtR2xMNVpleE85UDdMYXhhUjduV1pETjFZX21lSzllTDE5TmV6clowWElRV3JYR1FDWjFNWHhvNnVaSEV3WDZIRjhkX1JGeVBHa1c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjQxWWdVZDhhSk13TVdENFhvejdud2hZY3JmeXl6VDR2eEFya0dhM1ZYdk1sZF9oa1FJY3lkY1Y0dTJZRFdMeEc4UEVLcUczRFhaajdmbWRJM0ZWTGsxa05jU0NLQnlYeVdjeTVrODBZcDdNSU12OXJWSGZOWjlKT2VoeHh3eE1tOGcxdUpJa2FBUlhPbTROZkdB?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qbWlSQk5VVlNHU185dVdqdUczQ1EyOXI1elFoRVBmOWRLR3VEUDdVeG9tZzNobXRoTlJSd3ozdjcyYXN4MlNkOFJQd1BJR0NlMVllOXFPNjFhSUpxa0RReHZvZTBTUnBQVWlhVkRn0gFmQVVfeXFMTk9TVEF1cEN1cUNPYkxVeGd2Nm9KZDJVcGdYOUQ3Tnd3OXY3NmludG15UnFVTGRXRnBLMmVvYnBDc2VPTzN2TkxYRWx4a3RLV21OSUhTRUVrajUydW05Rm1RYkxrTnpR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1793759396,
+    "reason": "גל מתקפות סייבר מעלה את הביקוש لפתרונות אבטחה",
+    "reason_i18n": {
+     "he": "גל מתקפות סייבר מעלה את הביקוש لפתרונות אבטחה",
+     "en": "Widespread cyber breaches increase demand for security tools",
+     "ar": "الاختراقات السيبرانية الواسعة تزيد الطلب على أدوات الأمان",
+     "ru": "Широкомасштабные кибератаки повышают спрос на средства защиты"
+    },
+    "name_i18n": {
+     "he": "CRWD - קראודסטרייק, חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity software firm",
+     "ar": "CrowdStrike - شركة برمجيات الأمن السيبراني",
+     "ru": "CrowdStrike – компания по кибербезопасности"
+    },
+    "price_at_alert": 244.68
+   }
+  ],
+  "id": "39ac8ddd0dc1"
+ },
+ {
+  "ts": 1793759396,
+  "time": "2026-11-04T02:29Z",
+  "title": "בנק ישראל/אירופה: נגל מהבנק המרכזי רואה הצדקה להעלאת ריבית בדצמבר",
+  "summary": "בכיר הבנק המרכזי האירופי יואכים נגל ציין כי יש סיכונים גוברים לאינפלציה המותירים מעט אלטרנטיבות מלבד העלאת ריבית בדצמבר.",
+  "kid": "הבנק האירופי עשוי להעלות את הריבית בקרוב בגלל עליית מחירים. זה יכול לשנות את ערך המטבע והמניות.",
+  "i18n": {
+   "title": {
+    "he": "בנק ישראל/אירופה: נגל מהבנק המרכזי רואה הצדקה להעלאת ריבית בדצמבר",
+    "en": "ECB's Nagel sees little alternative to December rate hike",
+    "ar": "ناгель من البنك المركزي الأوروبي يرى ضرورة لرفع أسعار الفائدة في ديسمبر",
+    "ru": "Нагель из ЕЦБ считает неизбежным повышение ставки в декабре"
+   },
+   "summary": {
+    "he": "בכיר הבנק המרכזי האירופי יואכים נגל ציין כי יש סיכונים גוברים לאינפלציה המותירים מעט אלטרנטיבות מלבד העלאת ריבית בדצמבר.",
+    "en": "ECB policymaker Joachim Nagel stated there is little alternative to a December rate hike as inflation risks worsen.",
+    "ar": "صرح يواخيم ناجل مسؤول البنك المركزي الأوروبي أن هناك بدائل قليلة لرفع الفائدة في ديسمبر مع تفاقم المخاطر التضخمية.",
+    "ru": "Представитель ЕЦБ Йоахим Нагель заявил, что на фоне роста инфляционных рисков альтернатив декабрьскому повышению ставки практически нет."
+   },
+   "kid": {
+    "he": "הבנק האירופי עשוי להעלות את הריבית בקרוב בגלל עליית מחירים. זה יכול לשנות את ערך המטבע והמניות.",
+    "en": "The European Central Bank might raise interest rates soon because prices are rising. This can impact currencies and stocks.",
+    "ar": "قد يرفع البنك المركزي الأوروبي أسعار الفائدة قريباً بسبب ارتفاع الأسعار، مما يؤثر على الأسهم.",
+    "ru": "Европейский центральный банк может вскоре поднять ставки из-за роста цен, что влияет на валюты и акции."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS3hRSWE5bEg0NzdRUG1lQ3Z6S2dXSFhYRXhCSmtzQTJ0ZW9RRV9iVWdORm1ORzJUQV9wcE9FclRMLTJZTjBCd3A3TUFpZFZma1MwVHZUTHZESHY0cmlrbnpYOWJWaGdZcUd5TGN1UENqWjdlbENuRUFTMjE5OFFIeEU5NGlCd0tiaTNSMXJ1UXVKdVBRY2ttZV95cmt6b2FWb2ZzY1R1Rzc4Tl9ST1l5R0hpN3I2OVZ2bGRUZUZMMWk0b3BLWWc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXE",
+    "direction": "down",
+    "t0": 1793759396,
+    "reason": "ציפיות למדיניות מוניטרית הדוקה ושינויים בשערי החליפין",
+    "reason_i18n": {
+     "he": "ציפיות למדיניות מוניטרית הדוקה ושינויים בשערי החליפין",
+     "en": "Shifting rate expectations impact currency valuations",
+     "ar": "توقعات أسعار الفائدة تؤثر على تقييمات العملات",
+     "ru": "Изменяющиеся ожидания по ставкам влияют на валютные курсы"
+    },
+    "name_i18n": {
+     "he": "FXE - קרן סלי על האירו",
+     "en": "FXE – Euro Currency Trust ETF",
+     "ar": "FXE - صندوق عملة اليورو",
+     "ru": "FXE – ETF курса евро"
+    },
+    "price_at_alert": 103.24
+   }
+  ],
+  "id": "521be207b86c"
+ },
+ {
+  "ts": 1793759396,
+  "time": "2026-11-04T02:29Z",
+  "title": "סמסונג ביולוגיקס מדווחת על חוזה ענק בסך 323 מיליון דולר",
+  "summary": "חברת סמסונג ביולוגיקס רשמה חוזה בהיקף של 323 מיליון דולר על רקע שינויים וניתוב מחדש של שרשרת האספקה והרכש הפרמצבטי.",
+  "kid": "חברת תרופות גדולה קיבלה הזמנה ענקית של מאות מיליוני דולרים. זה יכול להשפיע על מניות התחום הרפואי.",
+  "i18n": {
+   "title": {
+    "he": "סמסונג ביולוגיקס מדווחת על חוזה ענק בסך 323 מיליון דולר",
+    "en": "Samsung Biologics logs $323M contract amid procurement shifts",
+    "ar": "سامسونج بيولوجيكس تسجل عقدًا بقيمة 323 مليون دولار وسط تحولات المشتريات",
+    "ru": "Samsung Biologics заключает контракт на $323 млн на фоне изменений в закупках"
+   },
+   "summary": {
+    "he": "חברת סמסונג ביולוגיקס רשמה חוזה בהיקף של 323 מיליון דולר על רקע שינויים וניתוב מחדש של שרשרת האספקה והרכש הפרמצבטי.",
+    "en": "Samsung Biologics has secured a $323 million contract as procurement data reflects ongoing biosecure legislative shifts.",
+    "ar": "فازت سامسونج بيولوجيكس بعقد بقيمة 323 مليون دولار مع انعكاس تحولات سلسلة الإمداد الدوائي.",
+    "ru": "Компания Samsung Biologics заключила контракт на $323 млн на фоне изменений в цепочках поставок фармацевтической продукции."
+   },
+   "kid": {
+    "he": "חברת תרופות גדולה קיבלה הזמנה ענקית של מאות מיליוני דולרים. זה יכול להשפיע על מניות התחום הרפואי.",
+    "en": "A major biotech company secured a huge multi-million dollar order. This can influence healthcare sector stocks.",
+    "ar": "حصلت شركة أدوية كبرى على طلبية ضخمة بملايين الدولارات، مما يؤثر على أسهم قطاع الرعاية الصحية.",
+    "ru": "Крупная биотехнологическая компания получила крупный заказ на сотни миллионов долларов, что влияет на акции сектора здравоохранения."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWFZaNFplNHpUX3J5RTZ4R0Jaa2Q4VW92YTNzdUZXWDdCQjE1TWpPY0pDX25Bdmx1VmdNY0lrc25GZ3J4ZC01dXJPTXlicGtWdkFqbTZPNXVCSk1tbkRWN01MdnhPQi16SHAxUXFGMHBKbGRNaEdhYjU5ZGx0M3cyTUNlWTcxTnpNbTdyNUtGVzNvUDlXWTBNcmt3d3JNVGc1Q0hLREtGVFZxX0txQjBKOVBxMmNBU3B3dFJiRmxhbWI3S096U0NrWnF0UTluQ1JMYVBLaEJ3N08?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1793759396,
+    "reason": "חוזים גדולים בסקטור הפארמה משקפים פעילות עסקית ענפה",
+    "reason_i18n": {
+     "he": "חוזים גדולים בסקטור הפארמה משקפים פעילות עסקית ענפה",
+     "en": "Large pharma contracts indicate strong sector procurement activity",
+     "ar": "عقود الأدوية الكبيرة تشير إلى نشاط قوي في مشتريات القطاع",
+     "ru": "Крупные фармацевтические контракты указывают на высокую активность в секторе"
+    },
+    "name_i18n": {
+     "he": "XLV - קרן סלי של סקטור הבריאות בארה\"ב",
+     "en": "XLV – US Health Care Sector ETF",
+     "ar": "XLV - صندوق قطاع الرعاية الصحية الأمريكي",
+     "ru": "XLV – ETF сектора здравоохранения США"
+    },
+    "price_at_alert": 184.02
+   }
+  ],
+  "id": "090034e9a572"
  }
 ]
