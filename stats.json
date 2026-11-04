@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T10:52Z",
+ "generated": "2026-11-04T11:55Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 174,
+ "total_alerts": 181,
  "overall": {
   "n": 79,
   "hits": 38,
@@ -421,14 +421,14 @@
    "avg_edge": 0.95
   },
   "FCX": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "פריפורט מקמורן – ענקית כריית נחושת",
-    "en": "Freeport-McMoRan – major copper miner",
-    "ar": "فريبورت-مكموران - شركة تعدين النحاس",
-    "ru": "Freeport-McMoRan – крупный добытчик меди"
+    "he": "Freeport-McMoRan – חברת כרייה ענקית",
+    "en": "Freeport-McMoRan – Major copper mining company",
+    "ar": "Freeport-McMoRan – شركة تعدين نحاس كبرى",
+    "ru": "Freeport-McMoRan – Крупная горнодобывающая компания"
    },
    "avg_edge": -3.12
   },
@@ -457,14 +457,14 @@
    "avg_edge": 1.17
   },
   "ALL": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "אולסטייט (ביטוח)",
-    "en": "Allstate",
-    "ar": "أولستيت (تأمين)",
-    "ru": "Allstate (страхование)"
+    "he": "Allstate – חברת ביטוח אמריקאית",
+    "en": "Allstate – US insurance company",
+    "ar": "Allstate – شركة تأمين أمريكية",
+    "ru": "Allstate – Американская страховая компания"
    },
    "avg_edge": 0.12
   },
@@ -505,14 +505,14 @@
    "avg_edge": null
   },
   "INDA": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "אינדא - קרן סל על שוק המניות ההודי",
-    "en": "INDA - MSCI India ETF",
-    "ar": "INDA - صندوق صفقات الأسهم الهندية",
-    "ru": "INDA - фонд акций Индии"
+    "he": "INDA – קרן סל של שוק המניות בהודו",
+    "en": "INDA – iShares MSCI India ETF",
+    "ar": "INDA – صندوق المؤشرات المتداولة للهند",
+    "ru": "INDA – ETF индийского рынка акций"
    },
    "avg_edge": 0.49
   },
@@ -577,14 +577,14 @@
    "avg_edge": null
   },
   "EEM": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל לשווקים מתעוררים",
-    "en": "Emerging Markets ETF",
-    "ar": "صندوق الأسواق الناشئة المتداول",
-    "ru": "ETF развивающихся рынков"
+    "he": "EEM – קרן סל לשווקים מתעוררים",
+    "en": "EEM – Emerging Markets ETF",
+    "ar": "EEM – صندوق استثمار الأسواق الناشئة",
+    "ru": "EEM – ETF развивающихся рынков"
    },
    "avg_edge": null
   },
@@ -673,14 +673,14 @@
    "avg_edge": null
   },
   "XLB": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
+    "he": "XLB – מגזר החומרים הבסיסיים",
     "en": "XLB – Materials Select Sector SPDR Fund",
-    "he": "קרן סל על סקטור החומרים בארה\"ب",
-    "ar": "صندوق قطاع المواد الأساسية الأمريكي",
-    "ru": "Фонд материалов США"
+    "ar": "XLB – صندوق قطاع المواد الأساسية",
+    "ru": "XLB – ETF сектора материалов"
    },
    "avg_edge": null
   },
@@ -733,14 +733,14 @@
    "avg_edge": null
   },
   "WEAT": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל על חיטה",
-    "en": "Teucrium Wheat Fund",
-    "ar": "صندوق استثمار القمح",
-    "ru": "ETF на пшеницу"
+    "he": "WEAT – קרן סל על מחירי החיטה",
+    "en": "WEAT – Teucrium Wheat Fund",
+    "ar": "WEAT – صندوق تداول القمح",
+    "ru": "WEAT – ETF на пшеницу"
    },
    "avg_edge": null
   },
@@ -837,6 +837,18 @@
     "en": "Tyson Foods – a major food company",
     "ar": "تايسون فودز - شركة أغذية كبرى",
     "ru": "Tyson Foods — крупная пищевая компания"
+   },
+   "avg_edge": null
+  },
+  "XLI": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "XLI – מגזר התעשייה האמריקאי",
+    "en": "XLI – Industrial Select Sector SPDR Fund",
+    "ar": "XLI – صندوق قطاع الصناعة",
+    "ru": "XLI – ETF промышленного сектора"
    },
    "avg_edge": null
   }
