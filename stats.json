@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-04T17:12Z",
+ "generated": "2026-11-04T18:07Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 199,
+ "total_alerts": 203,
  "overall": {
-  "n": 79,
+  "n": 80,
   "hits": 38,
-  "avg_edge": -0.1
+  "avg_edge": -0.11
  },
  "by_category": {
   "commodities": {
@@ -14,9 +14,9 @@
    "avg_edge": -0.56
   },
   "contracts": {
-   "n": 26,
+   "n": 27,
    "hits": 16,
-   "avg_edge": 0.19
+   "avg_edge": 0.14
   },
   "cyber": {
    "n": 5,
@@ -56,9 +56,9 @@
    "avg_edge": 0.45
   },
   "4-5": {
-   "n": 40,
+   "n": 41,
    "hits": 21,
-   "avg_edge": 0.01
+   "avg_edge": -0.02
   },
   "6-7": {
    "n": 18,
@@ -73,26 +73,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 6,
    "hits": 1,
    "name": {
-    "he": "USO – קרן סל נפט גולמי",
-    "en": "USO – United States Oil Fund",
-    "ar": "USO – صندوق النفط الخام الأمريكي",
-    "ru": "USO – Нефтяной фонд США"
+    "he": "USO - קרן סל נפט גולמי",
+    "en": "USO - United States Oil Fund",
+    "ar": "USO - صندوق النفط الأمريكي",
+    "ru": "USO - нефтяной фонд США"
    },
    "avg_edge": -0.27
   },
   "XLE": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "XLE – קרן סל אנרגיה",
-    "en": "XLE – Energy Sector ETF",
-    "ar": "XLE – صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "he": "XLE - קרן סל אנרגיה",
+    "en": "XLE - Energy Select Sector SPDR Fund",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - ETF энергетического сектора"
    },
    "avg_edge": -0.12
   },
@@ -145,14 +145,14 @@
    "avg_edge": -0.25
   },
   "ITA": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 8,
    "hits": 8,
    "name": {
-    "he": "איי-טי-איי – קרן סל תעופה וביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA - صندوق استثماري لقطاع الدفاع والطيران",
-    "ru": "ITA — ETF аэрокосмического и оборонного сектора"
+    "he": "ITA - קרן סל תעופה וביטחון",
+    "en": "ITA - iShares U.S. Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": 1.61
   },
@@ -170,7 +170,7 @@
   },
   "ESLT.TA": {
    "mentions": 3,
-   "n": 1,
+   "n": 2,
    "hits": 0,
    "name": {
     "he": "אלביט מערכות בתל אביב",
@@ -178,7 +178,7 @@
     "ar": "אלبيت سيستمز في تل أبيب",
     "ru": "Elbit Systems на TASE"
    },
-   "avg_edge": -1.83
+   "avg_edge": -1.45
   },
   "ESLT": {
    "mentions": 5,
@@ -301,14 +301,14 @@
    "avg_edge": 0.0
   },
   "LMT": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "לוקהיד מרטין - חברת ביטחונית",
-    "en": "Lockheed Martin – defense contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي",
-    "ru": "Lockheed Martin — оборонный подрядчик"
+    "he": "לוקהיד מרטין - יצרנית נשק וטכנולוגיה צבאית",
+    "en": "Lockheed Martin - Defense and Aerospace Contractor",
+    "ar": "لوكهيد مارتن - مقاول الدفاع والفضاء",
+    "ru": "Lockheed Martin - оборонный подрядчик"
    },
    "avg_edge": 0.97
   },
@@ -409,14 +409,14 @@
    "avg_edge": 0.35
   },
   "EWC": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "קרן סל קנדה",
-    "en": "Canada ETF",
-    "ar": "صندوق كندا المتداول",
-    "ru": "Canada ETF"
+    "he": "EWC - קרן סל קנדה",
+    "en": "EWC - Canada ETF",
+    "ar": "EWC - صندوق كندا",
+    "ru": "EWC - ETF Канады"
    },
    "avg_edge": 0.95
   },
@@ -517,14 +517,14 @@
    "avg_edge": 0.49
   },
   "EWG": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "קרן סל על מניות גרמניה",
-    "en": "EWG – Germany ETF",
-    "ar": "صندوق استثمار أسهم ألمانيا",
-    "ru": "EWG — ETF акций Германии"
+    "he": "EWG - קרן סל גרמניה",
+    "en": "EWG - Germany ETF",
+    "ar": "EWG - صندوق ألمانيا",
+    "ru": "EWG - ETF Германии"
    },
    "avg_edge": 0.28
   },
@@ -897,6 +897,30 @@
     "en": "KSA – iShares MSCI Saudi Arabia ETF",
     "ar": "KSA – صندوق الاستثمار المتداول للسعودية",
     "ru": "KSA – ETF Саудовской Аравии"
+   },
+   "avg_edge": null
+  },
+  "TSLA": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "טסלה - יצרנית רכב חשמלי",
+    "en": "Tesla - Electric Vehicle Maker",
+    "ar": "تسلا - صانعة السيارات الكهربائية",
+    "ru": "Tesla - производитель электромобилей"
+   },
+   "avg_edge": null
+  },
+  "NOC": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "נורת'רופ גראמן - חברת תעופה וביטחון",
+    "en": "Northrop Grumman - Defense Technology Company",
+    "ar": "نورثروب غرومان - شركة تكنولوجيا الدفاع",
+    "ru": "Northrop Grumman - оборонная компания"
    },
    "avg_edge": null
   }
