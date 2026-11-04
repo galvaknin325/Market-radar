@@ -12795,9 +12795,22 @@
    }
   },
   "category": "commodities",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdlJaRXh6UXRzWG5CM2IydDI5ay0tVHJmYWdFNnU2ZkxYOFNfVnF3ODJsY1h4aHVOemVrbFJoM1R1Rnk3VldOaFJqTW94cVhkOXc1d09WQVpSU0V5ZnlWZDlEcEowZm9xQXlzWlNua25vNlFiRkpWRUo3UTJ3T0xTMkQyLTVaOGw3NFlscmt4MXFkS0tqU2U2ZGtpRUhEY0pk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcEpHbWdFUG41X041Snd0a3hsUU92Wl81dzZHZExHZDUxSEEyV3BZdEsyZ1RMYUhNd29KTWgzVTRRdzFZRjVpcDVveHZacFNmVHA4MUYzSy1sSjRHWFRhR1VueS1nckh4OG11OUJLS3NPb0Q3a0JWblpVbkRoYzdrTVpfaVBXS1ZreGJidm9Yb1N6LWhCN3daMVppeXBBZ0lSRzg1NjY2UzlLdDdNWmlLTHdR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLWlRaENYZ0JWQjVOTDBOb1o5aXlCZEhIWGcycXpCZV82SWN6Z2t1TzJBZWtEUUpYTUlOWHpEanF5VUoxeU9sb0o5REN4RmJBVS1XbmJzNVVWajlleXpHdnkwMGdjTVEyNGp2WDVmR3JNRWkyd2l6TDNzaVFLMzVkNHVkc1dHcVhTOG8yNHlJdDZVWmVUSFBBdnpPSTZYZ1NTUHowWVJrS2FvVTNzSnZIUEtPVFBJRllm?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -12836,6 +12849,25 @@
      "ru": "ETF энергетического сектора"
     },
     "price_at_alert": 66.68
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1793797024,
+    "reason": "הארכת מסלולים ועלויות תובלה גבוהות עקב חסימת נתיבים",
+    "reason_i18n": {
+     "he": "הארכת מסלולים ועלויות תובלה גבוהות עקב חסימת נתיבים",
+     "en": "Route extensions and high freight costs due to blockades",
+     "ar": "تمديد المسارات وارتفاع تكاليف الشحن بسبب الإغلاق",
+     "ru": "Продление маршрутов и высокие фрахтовые ставки из-за блокад"
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM – shipping company",
+     "ar": "زيم - شركة شحن",
+     "ru": "ZIM — судоходная компания"
+    },
+    "price_at_alert": 29.3
    }
   ],
   "id": "a164f4a8a0b5",
@@ -12851,9 +12883,21 @@
      "ar": "ارتفعت أسعار النفط الخام وسط مخاوف تتعلق بالإمدادات على الرغم من خفض أوبك لتوقعات الطلب للمرة السادسة.",
      "ru": "Цены на сырую нефть выросли на фоне опасений по поводу поставок, несмотря на то, что ОПЕК в шестой раз снизила прогноз спроса."
     }
+   },
+   {
+    "ts": 1793797024,
+    "time": "2026-11-04T12:57Z",
+    "severity": 7,
+    "summary": "איראן דחתה את תשובת ארצות הברית לתנאים שהציבה לפתיחת מצר הורמוז, כאשר קטאר ממשיכה לנסות ולקדם הסכם דיפלומטי בנושא.",
+    "i18n": {
+     "he": "איראן דחתה את תשובת ארצות הברית לתנאים שהציבה לפתיחת מצר הורמוז, כאשר קטאר ממשיכה לנסות ולקדם הסכם דיפלומטי בנושא.",
+     "en": "Iran has rejected the United States' response to conditions for reopening the Strait of Hormuz, while Qatar continues mediation efforts to broker a deal.",
+     "ar": "رفضت إيران الرد الأمريكي على الشروط المتعلقة بفتح مضيق هرمز، بينما تواصل قطر جهود الوساطة للتوصل إلى اتفاق.",
+     "ru": "Иран отверг ответ США на условия открытия Ормузского пролива, в то время как Катар продолжает посреднические усилия."
+    }
    }
   ],
-  "last_update": 1793773758
+  "last_update": 1793797024
  },
  {
   "ts": 1793762582,
@@ -13495,52 +13539,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR3JNLWVFOE9iRFhqUjYzaGs4MGJlanhEakYtX3VPUTR4S3phOEZCTWg5dHlNcDRXRUNJQ2VLM2pGcFI3R0JZNktGSWowQnFLOWJfM3V4eTZ2dkl4NHVDRGthTU5ldE5NQzVuSV81eUl4N29zV2g4OVJPc09DYXQ4cU9OakpkcVZzX2VVV1BCbDc1V25WV1RoYkkzMl9sX1oyeVRCeUN5b3A3SWNMcjE2OF9Vc0FTaloyX2Z6SGJGS2lQaEExYkdkb202MEFZU1pjUHE3R2kzNzbSAdgBQVVfeXFMT0dyTS1lRThPYkRYalI2M2hrODBiZWp4RGpGLV91T1E0eEt6YThGQk1oOXR5TXA0V0VDSUNlSzNqRnBSN0dCWTZLRklqMEJxSzliXzN1eHk2dnZJeDR1Q0RrYU1OZXROTUM1bklfNXlJeDdvc1doODlST3NPQ2F0OHFPTmpKZHFWc19lVVdQQmw3NVduVldUaGJJMzJfbF9aMnlUQnlDeW9wN0ljTHIxNjhfVXNBU2paMl9mekhiRktpUGhBMWJHZG9tNjBBWVNaY1BxN0dpMzc2?oc=5"
-   },
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss"
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss"
    },
    {
     "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/4/el-sayed-defeats-rogers-to-win-senate-seat-in-michigan?traffic_source=rss"
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-admits-iran-war-hurt-republican-vote-vows-to-veto-insane-bills?traffic_source=rss"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oUE85aGhqeVJzR0NEbUNYQzd1cEVyd2NzM21lRVZ0dVNFS1RQblIwcVFOQVBET291QTM5dW9rODZKWGY4YUtpUHMyd3l4THltN3dKTnRreWJ3OXdkckhOWTk4UFNSYW5vYTU1Szdlc2tqT3RO?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWUE4WXFQVkpyZC1WeWU4bm9aU0Rxa1JkeXhaQmRCSUdCY25VUVh5ZDJ6X0pKZmF5SjhOcU5yVGFEVXFKQ3dIbVhkTzA2cGlmcUgxWEw4M1BoUzduNGNha3JSb1ZGZ2VpV0VNZnYyLXJEQzdoQ3lMOF9WSEJKMmtwMHRPN0QzNFE?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQblNkM3JkNUxnaktEamVjSG1zVlUyeHgzUVc1b3V4SVc1TW5DZDhaV1lvOC1RMDNsMVJPQkVCYm1QaWFQOUJ2WkJuMnY5aS1kTTlsaTUxUkpBemdpMldKSlBYcVFjNFlpdUx1VEc5eUF0dVFwVkRibG5PLXpBS25rOXJjNDNCSWhPTnhzNlN5cFZReUdSTmRTWWFVSnVRTDhPTHpodWJ0dkVCNzgwZjlPbTFja25QZnQtZzNFSXpsOWdVWHA4ejVz?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfQlpDbnZFU0RiTnNUazBBZk41MlNqdnZSVWc1bDg5T3hBcWVjRE1ERXRiLVZXbjBGRVhaWXF3WnRmUmFXTjUxZkRVRFpZN0FNaEhjdUczMGtIc1Zx0gFiQVVfeXFMUHRCU01oS3RFbHJRejB4aWkwOHoxVEwzZXlwUlVLbTFVbHdrc08xWW9SMThxeVNNZExRb1dSeXowNjQzUnRicHFXU29GYy1PMDhwOXpwbnRtaWU0VXExYm5pWlE?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91MFgwTlVkaVNGRmhzRzJLcmYxRjMzX29NNjRYRGRKcGJiVTNLcEVHazRiUnZLajNkWDg3N1htU3ZMSWZsUFJSam1XLWZKeDZHdFoyS0tOQXllOFNERVQw0gFcQVVfeXFMT2dGVWgxdG12S0NLdXFGcWhHVTJEamtfRDN1YmFnM25DWGxSX1pzS0xFQ0paZ2h5LWZxT191NERaWmM2VnA5TmcyblVpSy1JSHlnS2dyejJFUExqY2I?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3FOUTRfRlhNOWVRZlc0YUc5R3dQR1lTX05tT0NpYzY4QUstUmRsV1hlVThsZUltQkFKaUxkNVY0eTNBMzhpbjFPUGdZWG5qeGJSbjJ6ZnZBeEVfUXJKRnp3YzlnUGdRYzl5Z1VUWXRzWVdzSWx0QzhxM1ZneVZnMl9MeUM4ajZLRnQwVml2dFY1WjFMUmxoTw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3lIVEpBVEhqVjhTaG5nbE5uaDg2LTJoTzUxRm5aZVlwbWdHNVZ0emJYdC0xcnlzU1B5UTFQMXlZaGRnTXpDQnplQVEyOVNwQ1hvdnB3Z2d5d1YtQzZNQksyVVM4NkdvRmJHY3M0NzRYTmc5OXlKMTlXbXM0RklSZlRINksyRWFVUG9B?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMzFLVVZuN0tpZ1B5OThWWHNiVlFQS05WaFlZYnZBWWFyZzNSWTI1Wm9BTl9ONlFDWnVpZmhqb2Zqa3ZwbjJWb21DOWxXOThoWHJoMjAzSV9qWTd0ZTliU09UTVAyZ0tNMmYwWjJXX2JQV3p5a0FSRkdhcng2bWFaSVNoODdHdU9YeHNPVXJoM3ZNaVQ3?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZXRDREUwTDBMWkdKSjAyVmdCNXlhMklWbHctMm9lOGgtb3JPUll5dGpvakFtcmExb3poeFBpbTZOdmNOQ2QtNTc0V2taY2VKaHpyNHBhQlJ6LVU0bWVBWWx3R3lhb1pjaHBWNElEeWpNR2lnZWhsenpwb2tNdXd1MlRHZU1TbE9lZW1wRHFUQmdtYWRGVTJtd19YRDgwN3BKTjE0cHZ4Y2R5TV9BcTJ2UVM1b2RGUQ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUZPaHNCbU1SWjdIUlpwUkFGd3hpbUhmelVyVjlOMV92ZlRlb0ZBVmZRQ1l0S0JJaGhTTmVzaVpON2Q1Q29rXzZOc2g1WXMyWk9iaWpSUWJuemV1XzZHWGhrWmlDN0xEdzhxSHRGZS0xeGVwOWxmMDF3QUVQWDFwOEwzcUxLYWt3ZHRpbmV3TXBJaFM5ei15VS12RnMydk9wNHA2bzB2aG52ZDQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHJTVUZXcW9EZzBZV3lac09wYXQ3eFRQMXRudVZPa18xS0hwTVJXNWMybXlCcGFvTGtCc1FiRVpNbXVNeVNVRElRb0JkcXF0amt3YTFuSlNoU3QzT3BKelMxbFRiYjlLazJhMFo0cnJfQlY1amEySmtUaEdmbUoxQ1d3WVp2UTNZZFJUMTY2amRRQWxmTHRSN29LaTRQMTdCTmNjb2FpU2x6TWc?oc=5"
    }
   ],
   "impacts": [
@@ -13581,9 +13601,62 @@
      "ru": "TLT – ETF долгосрочных гособлигаций США"
     },
     "price_at_alert": 81.11
+   },
+   {
+    "ticker": "UUP",
+    "direction": "down",
+    "t0": 1793797024,
+    "reason": "ירידה בשער הדולר בעקבות תוצאות הבחירות",
+    "reason_i18n": {
+     "he": "ירידה בשער הדולר בעקבות תוצאות הבחירות",
+     "en": "Slide in dollar following election outcome",
+     "ar": "انخفاض الدولار إثر نتائج الانتخابات",
+     "ru": "Падение доллара после результатов выборов"
+    },
+    "name_i18n": {
+     "he": "דולר אמריקאי",
+     "en": "US Dollar",
+     "ar": "الدولار الأمريكي",
+     "ru": "Доллар США"
+    },
+    "price_at_alert": 29.01
+   },
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1793797024,
+    "reason": "עלייה במחירי הנחושת בעקבות ניצחון הדמוקרטים",
+    "reason_i18n": {
+     "he": "עלייה במחירי הנחושת בעקבות ניצחון הדמוקרטים",
+     "en": "Copper prices rise following Democrats sweep",
+     "ar": "ارتفاع أسعار النحاس إثر اكتساح الديمقراطيين",
+     "ru": "Рост цен на медь после победы демократов"
+    },
+    "name_i18n": {
+     "he": "קרן נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "ETF на медь"
+    },
+    "price_at_alert": 38.51
    }
   ],
-  "id": "8187d7a56959"
+  "id": "8187d7a56959",
+  "updates": [
+   {
+    "ts": 1793797024,
+    "time": "2026-11-04T12:57Z",
+    "severity": 8,
+    "summary": "המפלגה הדמוקרטית זכתה בשליטה בקונגרס בבחירות האמצע לשנת 2026 לאחר ניצחונות בבית הנבחרים ובסנאט. בעקבות התוצאות נרשמה ירידה בשער הדולר ועלייה במחירי הנחושת, וכן התעוררו חששות לגבי מדיניות עתידית והשפעת טקטיקות הבחירות.",
+    "i18n": {
+     "he": "המפלגה הדמוקרטית זכתה בשליטה בקונגרס בבחירות האמצע לשנת 2026 לאחר ניצחונות בבית הנבחרים ובסנאט. בעקבות התוצאות נרשמה ירידה בשער הדולר ועלייה במחירי הנחושת, וכן התעוררו חששות לגבי מדיניות עתידית והשפעת טקטיקות הבחירות.",
+     "en": "The Democratic Party won control of Congress in the 2026 midterms following victories in the House and Senate. The outcome prompted a slide in the US dollar, a rise in copper prices, and raised concerns regarding future policy and political fallout.",
+     "ar": "فاز الحزب الديمقراطي بالسيطرة على الكونغرس في انتخابات التجديد النصفي لعام 2026 بعد تحقيق انتصارات في مجلسي النواب والشيوخ. وأدت النتائج إلى انخفاض الدولار الأمريكي وارتفاع أسعار النحاس، وسط مخاوف بشأن السياسات المستقبلية.",
+     "ru": "Демократическая партия получила контроль над Конгрессом на промежуточных выборах 2026 года после побед в Палате представителей и Сенате. Результаты привели к падению курса доллара США, росту цен на медь и вызвали опасения относительно будущей политики."
+    }
+   }
+  ],
+  "last_update": 1793797024
  },
  {
   "ts": 1793781762,
@@ -14630,5 +14703,240 @@
    }
   ],
   "id": "49d01550a196"
+ },
+ {
+  "ts": 1793797024,
+  "time": "2026-11-04T12:57Z",
+  "title": "אורקל מבטלת עסקת שבבי בינה מלאכותית בשווי 7 מיליארד דולר עם טנסנט תחת לחץ אמריקאי",
+  "summary": "חברת אורקל ביטלה עסקת ענק בשווי 7 מיליארד דולר לאספקת שבבי בינה מלאכותית לחברת טנסנט הסינית, בעקבות לחץ ממשלתי אמריקאי.",
+  "kid": "אורקל ביטלה עסקה גדולה למכירת שבבים חכמים לחברה בסין בגלל דרישת הממשל בארה\"ב. זה עשוי להשפיע על עסקי החברה ועל תחום השבבים.",
+  "i18n": {
+   "title": {
+    "he": "אורקל מבטלת עסקת שבבי בינה מלאכותית בשווי 7 מיליארד דולר עם טנסנט תחת לחץ אמריקאי",
+    "en": "Oracle Cancels USD 7 Billion Tencent AI Chip Deal After US Pressure",
+    "ar": "أوراكل تلغي صفقة رقائق الذكاء الاصطناعي مع تنسنت بقيمة 7 مليارات دولار تحت الضغط الأمريكي",
+    "ru": "Oracle отменяет сделку по чипам ИИ с Tencent на 7 миллиардов долларов под давлением США"
+   },
+   "summary": {
+    "he": "חברת אורקל ביטלה עסקת ענק בשווי 7 מיליארד דולר לאספקת שבבי בינה מלאכותית לחברת טנסנט הסינית, בעקבות לחץ ממשלתי אמריקאי.",
+    "en": "Oracle has cancelled a USD 7 billion deal to supply AI chips to China's Tencent following pressure from the US government.",
+    "ar": "ألغت أوراكل صفقة بقيمة 7 مليارات دولار لتوريد رقائق الذكاء الاصطناعي لشركة تنسنت الصينية بعد ضغوط من الحكومة الأمريكية.",
+    "ru": "Компания Oracle отменила сделку на 7 миллиардов долларов по поставке чипов ИИ китайской Tencent под давлением властей США."
+   },
+   "kid": {
+    "he": "אורקל ביטלה עסקה גדולה למכירת שבבים חכמים לחברה בסין בגלל דרישת הממשל בארה\"ב. זה עשוי להשפיע על עסקי החברה ועל תחום השבבים.",
+    "en": "Oracle canceled a large smart chip deal with a Chinese company due to US government pressure, affecting its business and tech suppliers.",
+    "ar": "ألغت أوراكل صفقة كبيرة لبيع رقائق لشركة صينية بسبب ضغوط الحكومة الأمريكية. هذا يؤثر على أعمال الشركة وقطاع التكنولوجيا.",
+    "ru": "Oracle отменила крупную сделку по продаже чипов китайской компании из-за давления властей США, что затрагивает бизнес компании и технологический сектор."
+   }
+  },
+  "category": "contracts",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0FpWVhnbl9SaVhvT1lpTzdpU3FHMW10LWM3M0xBYlZQczM1ZVFuVHUyRzByVlpuSEdXSFkwbEhoOHZKRW1HLVhpYXZEcWVfV2xsaHFQYmRSajlNcXJmbzdvQ3h5NTJqcW5ldU1LMEUtUkc2VG1RanNFdFVmR3o4TGJZNUJULXF3akZuanlNMElicmRtZEc5VE1kcU9lM0RWTXV3MGZ5b23SAbYBQVVfeXFMUGZxS01WYlNUR3pYM1Njc196UHpkemc1ZW9ZRjkta1VSR0h4S0xKR21WeHNQQ1ljWThUc012TGJxU1U3SlRPRDM0M3ptNXp6bXY0QlVYRi1nZFZEbDFsSW9wTjRsT19HUEdWcktfM2NVbnZ2bjlNUG9EUzFzMUc1R0dqbm1rR3FLNVRad3VmUi1BckhvWHhOdGxpTVdjdW0wdVJ1ajdCQ1hTSm1nQnJDTEs0cVFSWXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ORCL",
+    "direction": "down",
+    "t0": 1793797024,
+    "reason": "ביטול חוזה הכנסות משמעותי בשווי 7 מיליארד דולר",
+    "reason_i18n": {
+     "he": "ביטול חוזה הכנסות משמעותי בשווי 7 מיליארד דולר",
+     "en": "Cancellation of a major $7 billion revenue contract",
+     "ar": "إلغاء عقد إيرادات رئيسي بقيمة 7 مليارات دولار",
+     "ru": "Отмена крупного контракта на сумму 7 миллиардов долларов"
+    },
+    "name_i18n": {
+     "he": "אורקל - חברת תוכנה וענן",
+     "en": "Oracle – software and cloud company",
+     "ar": "أوراكل - شركة برمجيات وسحابية",
+     "ru": "Oracle — компания программного обеспечения и облачных услуг"
+    },
+    "price_at_alert": 126.19
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1793797024,
+    "reason": "החמרת מגבלות הסחר והשבבים מול סין",
+    "reason_i18n": {
+     "he": "החמרת מגבלות הסחר והשבבים מול סין",
+     "en": "Tightening of trade and chip restrictions with China",
+     "ar": "تشديد قيود التجارة والرقائق مع الصين",
+     "ru": "Ужесточение торговых и чиповых ограничений с Китаем"
+    },
+    "name_i18n": {
+     "he": "תעודת סל סמיקונדקטורס",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 518.52
+   }
+  ],
+  "id": "b234904d16b4"
+ },
+ {
+  "ts": 1793797024,
+  "time": "2026-11-04T12:57Z",
+  "title": "מתקפת סייבר פוגעת בכמה בנקי דם בצרפת",
+  "summary": "משרד הבריאות בצרפת אישר כי מתקפת סייבר פגעה במספר אתרים של שירותי בנק הדם הלאומי (EFS) במדינה.",
+  "kid": "האקרים תקפו את מערכות בנק הדם בצרפת. זה פוגע בפ פעילות המרכזים הרפואיים ויכול להדאיג בנוגע לאבטחת מידע רגיש.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר פוגעת בכמה בנקי דם בצרפת",
+    "en": "Cyberattack Hits Several French Blood Banks",
+    "ar": "هجوم سيبراني يضرب عدة بنوك دم فرنسية",
+    "ru": "Кибератака поразила несколько французских банков крови"
+   },
+   "summary": {
+    "he": "משרד הבריאות בצרפת אישר כי מתקפת סייבר פגעה במספר אתרים של שירותי בנק הדם הלאומי (EFS) במדינה.",
+    "en": "The French Health Ministry confirmed that a cyberattack has hit several sites of the national blood bank service (EFS).",
+    "ar": "أكدت وزارة الصحة الفرنسية أن هجومًا سيبرانيًا استهدف عدة مواقع لبنك الدم الوطني في البلاد.",
+    "ru": "Министерство здравоохранения Франции подтвердило, что кибератака затронула несколько объектов национальной службы крови страны."
+   },
+   "kid": {
+    "he": "האקרים תקפו את מערכות בנק הדם בצרפת. זה פוגע בפ פעילות המרכזים הרפואיים ויכול להדאיג בנוגע לאבטחת מידע רגיש.",
+    "en": "Hackers attacked blood bank systems in France, disrupting medical operations and raising data security concerns.",
+    "ar": "هاجم قراصنة أنظمة بنك الدم في فرنسا، مما أثر على العمليات الطبية وأثار مخاوف أمنية.",
+    "ru": "Хакеры атаковали системы банков крови во Франции, нарушив медицинские операции и вызвав опасения по поводу безопасности данных."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmluUHZlSURVWEJRQ28wRWt1MHpVZEM0U2dFbDI0NENyZ1NwSk5rTVJVQkp6SlVOc004Q3doTHUtd29pTlRVRGVoTDJhbC1XOTl5T19uM1Uya1ZGTlNRQmZ4VjhrZEowVVpjb3VhOExzeG4tT2hHcTIyaWJKZ3ZUSUFWU1phbXVtX192NA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeDBfdnUzSGUzellWZVNfdElQclhWWFFORHpKZGJZSnREN1RRNC1SaFdsRmFaTDN6WFJYMGdSc2pOOUFpTnF5cHNsVHVaQl9DOS1ycVphdWh6dnFnbGp6WGhDU2wycWw0SHpqV3VEYzQ3cDhzUDVtZFoxaFF1TVc0SzBGaGF1QmoxN2ZhNUdfYy14em90N2dyUm1zV0tZY0Zmd0xyLWdiUkExNVRtRFozaVhYQzhEcFo1UzRYWGdIYlplSEpocUxVMVNkR2k1cXB3MW5kM0pwM21zRy0x?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1793797024,
+    "reason": "עלייה במודעות לסיכוני סייבר וצורך בפתרונות אבטחה",
+    "reason_i18n": {
+     "he": "עלייה במודעות לסיכוני סייבר וצורך בפתרונות אבטחה",
+     "en": "Increased awareness of cyber risks and demand for security solutions",
+     "ar": "زيادة الوعي بالمخاطر السيبرانية والطلب على حلول الأمان",
+     "ru": "Повышение осведомленности о киберрисках и спрос на решения безопасности"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity company",
+     "ar": "كراودسترايك - شركة أمن سيبراني",
+     "ru": "CrowdStrike — компания кибербезопасности"
+    },
+    "price_at_alert": 244.68
+   },
+   {
+    "ticker": "EWQ",
+    "direction": "down",
+    "t0": 1793797024,
+    "reason": "הפרעות לתשתיות קריטיות בצרפת",
+    "reason_i18n": {
+     "he": "הפרעות לתשתיות קריטיות בצרפת",
+     "en": "Disruptions to critical infrastructure in France",
+     "ar": "اضطرابات في البنية التحتية الحيوية في فرنسا",
+     "ru": "Нарушения критической инфраструктуры во Франции"
+    },
+    "name_i18n": {
+     "he": "תעודת סל על מניות צרפת",
+     "en": "France ETF",
+     "ar": "صندوق أسهم فرنسا",
+     "ru": "ETF акций Франции"
+    },
+    "price_at_alert": 42.54
+   }
+  ],
+  "id": "38c6eae60573"
+ },
+ {
+  "ts": 1793797024,
+  "time": "2026-11-04T12:57Z",
+  "title": "ארה\"ב מכינה משלוח חדש של טילים מתקדמים לאוקראינה",
+  "summary": "ארצות הברית נערכת לשלוח לאוקראינה א جشنواره חדשה של טילים בעלי טווח של למעלה מ-460 ק\"מ ודיוק גבוה.",
+  "kid": "ארה\"ב שולחת טילים חדשים ומתקדמים לאוקראינה. זה תומך בחברות הביטחון הגדולות שמייצרות את הנשק הזה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מכינה משלוח חדש של טילים מתקדמים לאוקראינה",
+    "en": "US Preparing New Batch of Advanced Missiles for Ukraine",
+    "ar": "الولايات المتحدة تجهز دفعة جديدة من الصواريخ المتقدمة لأوكرانيا",
+    "ru": "США готовят новую партию современных ракет для Украины"
+   },
+   "summary": {
+    "he": "ארצות הברית נערכת לשלוח לאוקראינה א جشنواره חדשה של טילים בעלי טווח של למעלה מ-460 ק\"מ ודיוק גבוה.",
+    "en": "The United States is preparing a new batch of missiles for Ukraine featuring a range of over 460 km and high precision targeting.",
+    "ar": "تستعد الولايات المتحدة لإرسال دفعة جديدة من الصواريخ إلى أوكرانيا بمدى يزيد عن 460 كم ودقة عالية.",
+    "ru": "Соединенные Штаты готовят новую партию ракет для Украины с дальностью более 460 км и высокой точностью."
+   },
+   "kid": {
+    "he": "ארה\"ב שולחת טילים חדשים ומתקדמים לאוקראינה. זה תומך בחברות הביטחון הגדולות שמייצרות את הנשק הזה.",
+    "en": "The US is sending new advanced missiles to Ukraine, which provides a boost for major defense manufacturing companies.",
+    "ar": "ترسل الولايات المتحدة صواريخ متطورة جديدة إلى أوكرانيا، مما يدعم شركات الدفاع الكبرى.",
+    "ru": "США отправляют новые современные ракеты в Украину, что поддерживает крупные оборонные компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdEMzN0xqQzQ3ZHlCN2NvMVk2VGFDM2cxeVBsVUJsN1lEYUs3bGNYSnNmYmpLTWczTFJyWV84ZWZvaGFBOFBrbEZkVzJOUjl2b3JlcjZNNUJvc3d3eWxnZzY1OXhZX3JCOVRyM3VxVktPVzJyNUZzY3hJZTViMzNVOUxnN2h5RDNsZWRqNlZKVDRyS3podFgxeGhIcnBfa1Y4UWV1bS1qM0NRc0I5eW5ZN0tWVUh1Y29nTTU2TUhwTjFEaGNQYWV4Y1pUYTc5RDlC0gHWAUFVX3lxTFBtSHlfMU5ZZWVCWTR3OTNYQVJZYS0tTExmMGtOa0w4QXdsTlY0RXVpd0t6UnB0amNWQW1WaUYzd2dDZGExNkZxWUVVVUQ1T0VQRFBJbmNqdWY2dWJnSHdTTlBTM2tZaVVSVzZZM0h2aW1qMWhkZEtWbnpoemY4RmRSNktDM3NiUVdSMHl5Z0hHczB1anBMcXBhZEh3bE5zazJkcFN6TFB1c2NEOFZzcEVlLXdsRXdWRWNsNUpaTWpiUS1SeXByaUVDdl9qQ1lYYjdkbnNuQlE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793797024,
+    "reason": "הזמנות חדשות לחימוש מתקדם עבור אוקראינה",
+    "reason_i18n": {
+     "he": "הזמנות חדשות לחימוש מתקדם עבור אוקראינה",
+     "en": "New orders for advanced munitions supporting Ukraine",
+     "ar": "طلبات جديدة للذخائر المتقدمة لدعم أوكرانيا",
+     "ru": "Новые заказы на современные боеприпасы в поддержку Украины"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - חברת ביטחונית",
+     "en": "Lockheed Martin – defense contractor",
+     "ar": "لوكهيد مارتن - مقاول دفاعي",
+     "ru": "Lockheed Martin — оборонный подрядчик"
+    },
+    "price_at_alert": 639.0
+   },
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1793797024,
+    "reason": "ביקוש מוגבר למערכות טילים וחימוש מתקדם",
+    "reason_i18n": {
+     "he": "ביקוש מוגבר למערכות טילים וחימוש מתקדם",
+     "en": "Increased demand for missile systems and advanced ordnance",
+     "ar": "زيادة الطلب على أنظمة الصواريخ والذخائر المتقدمة",
+     "ru": "Повышенный спрос на ракетные системы и вооружение"
+    },
+    "name_i18n": {
+     "he": "אר.טי.איקס - חברת תעופה וביטחון",
+     "en": "RTX – aerospace and defense company",
+     "ar": "آر تي إكس - شركة طيران ودفاع",
+     "ru": "RTX — аэрокосмическая и оборонная компания"
+    },
+    "price_at_alert": 203.82
+   }
+  ],
+  "id": "140e01347d73"
  }
 ]

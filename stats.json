@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T11:55Z",
+ "generated": "2026-11-04T12:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 181,
+ "total_alerts": 184,
  "overall": {
   "n": 79,
   "hits": 38,
@@ -121,14 +121,14 @@
    "avg_edge": -2.02
   },
   "ZIM": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "חברת ספנות",
-    "en": "Shipping company",
-    "ar": "شركة شحن",
-    "ru": "Судоходная компания"
+    "he": "צים - חברת ספנות",
+    "en": "ZIM – shipping company",
+    "ar": "زيم - شركة شحن",
+    "ru": "ZIM — судоходная компания"
    },
    "avg_edge": -1.81
   },
@@ -157,14 +157,14 @@
    "avg_edge": 1.61
   },
   "RTX": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "RTX - ענקית ביטחונית ותעופה",
-    "en": "RTX - major defense and aerospace company",
-    "ar": "RTX - شركة دفاع وفضاء كبرى",
-    "ru": "RTX - крупная оборонная и аэрокосмическая компания"
+    "he": "אר.טי.איקס - חברת תעופה וביטחון",
+    "en": "RTX – aerospace and defense company",
+    "ar": "آر تي إكس - شركة طيران ودفاع",
+    "ru": "RTX — аэрокосмическая и оборонная компания"
    },
    "avg_edge": 2.25
   },
@@ -241,26 +241,26 @@
    "avg_edge": 0.34
   },
   "CPER": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 3,
    "hits": 0,
    "name": {
-    "he": "קרן סל נחושת",
+    "he": "קרן נחושת",
     "en": "Copper ETF",
-    "ar": "صندوق النحاس المتداول",
-    "ru": "Copper ETF"
+    "ar": "صندوق النحاس",
+    "ru": "ETF на медь"
    },
    "avg_edge": -1.78
   },
   "CRWD": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 3,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת סייבר",
-    "en": "CrowdStrike – cybersecurity firm",
+    "he": "קראודסטרייק - חברת אבטחת סייבר",
+    "en": "CrowdStrike – cybersecurity company",
     "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания кибербезопасности"
+    "ru": "CrowdStrike — компания кибербезопасности"
    },
    "avg_edge": -1.11
   },
@@ -301,14 +301,14 @@
    "avg_edge": 0.0
   },
   "LMT": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "לוקהיד מרטין – חברת ביטחונית ענקית",
-    "en": "Lockheed Martin – major defense contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي كبيير",
-    "ru": "Lockheed Martin – крупный оборонный подрядчик"
+    "he": "לוקהיד מרטין - חברת ביטחונית",
+    "en": "Lockheed Martin – defense contractor",
+    "ar": "لوكهيد مارتن - مقاول دفاعي",
+    "ru": "Lockheed Martin — оборонный подрядчик"
    },
    "avg_edge": 0.97
   },
@@ -649,14 +649,14 @@
    "avg_edge": null
   },
   "UUP": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "קרן סל דולר אמריקאי",
-    "en": "US Dollar Index ETF",
-    "ar": "صندوق مؤشر الدولار الأمريكي",
-    "ru": "US Dollar Index ETF"
+    "he": "דולר אמריקאי",
+    "en": "US Dollar",
+    "ar": "الدولار الأمريكي",
+    "ru": "Доллар США"
    },
    "avg_edge": null
   },
@@ -793,14 +793,14 @@
    "avg_edge": null
   },
   "SMH": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "SMH - קרן סל של חברות שבבים",
-    "en": "SMH – semiconductor ETF",
-    "ar": "SMH - صندوق أشباه الموصلات",
-    "ru": "SMH – ETF полупроводников"
+    "he": "תעודת סל סמיקונדקטורס",
+    "en": "Semiconductors ETF",
+    "ar": "صندوق أشباه الموصلات",
+    "ru": "ETF полупроводников"
    },
    "avg_edge": null
   },
@@ -849,6 +849,30 @@
     "en": "XLI – Industrial Select Sector SPDR Fund",
     "ar": "XLI – صندوق قطاع الصناعة",
     "ru": "XLI – ETF промышленного сектора"
+   },
+   "avg_edge": null
+  },
+  "ORCL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אורקל - חברת תוכנה וענן",
+    "en": "Oracle – software and cloud company",
+    "ar": "أوراكل - شركة برمجيات وسحابية",
+    "ru": "Oracle — компания программного обеспечения и облачных услуг"
+   },
+   "avg_edge": null
+  },
+  "EWQ": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "תעודת סל על מניות צרפת",
+    "en": "France ETF",
+    "ar": "صندوق أسهم فرنسا",
+    "ru": "ETF акций Франции"
    },
    "avg_edge": null
   }
