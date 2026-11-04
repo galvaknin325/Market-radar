@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T23:19Z",
+ "generated": "2026-11-04T23:58Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 218,
+ "total_alerts": 221,
  "overall": {
   "n": 207,
   "hits": 79,
@@ -150,14 +150,14 @@
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 26,
    "hits": 10,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
-    "en": "iShares U.S. Aerospace & Defense ETF",
-    "ar": "صندوق الطيران والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "he": "ITA - קרן סל תעופה וביטחון",
+    "en": "ITA - U.S. Aerospace & Defense ETF",
+    "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -1.16
   },
@@ -282,14 +282,14 @@
    "avg_edge": -5.56
   },
   "TLT": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 5,
    "hits": 4,
    "name": {
-    "he": "TLT - קרן אג\"ח ממשלתי ארוך",
-    "en": "TLT – Long-Term Treasury ETF",
-    "ar": "TLT – صندوق السندات الحكومية طويلة الأجل",
-    "ru": "TLT – ETF долгосрочных гособлигаций США"
+    "he": "TLT - אג\"ח ממשלת ארה\"ב לטווח ארוך",
+    "en": "TLT - Long-term US Treasury Bond ETF",
+    "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "TLT - ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 0.49
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.22
   },
   "LMT": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 11,
    "hits": 2,
    "name": {
-    "he": "לוקהיד מרטין – יצרנית נשק ומטוסי קרב מובילה",
-    "en": "LMT – Lockheed Martin defense contractor",
-    "ar": "LMT - شركة لوكهيد مارتن للصناعات العسكرية",
-    "ru": "LMT — оборонный подрядчик Lockheed Martin"
+    "he": "לוקהיד מרטין - חברת ביטחון גדולה",
+    "en": "Lockheed Martin - Major Defense Contractor",
+    "ar": "لوكيد مارتن - مقاول دفاعي كبير",
+    "ru": "Lockheed Martin - Крупный оборонный подрядчик"
    },
    "avg_edge": -7.05
   },
@@ -390,14 +390,14 @@
    "avg_edge": 1.19
   },
   "MRNA": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "מודרנה - חברת ביוטכנולוגיה",
-    "en": "Moderna – Biotech company",
-    "ar": "Moderna - شركة تقنية حيوية",
-    "ru": "Moderna — биотехнологическая компания"
+    "he": "מודרנה - חברת ביוטכנולוגיה וחיסונים",
+    "en": "Moderna - Biotech and Vaccine Developer",
+    "ar": "موديرنا - شركة التكنولوجيا الحيوية واللقاحات",
+    "ru": "Moderna - Биотехнологическая компания и разработчик вакцин"
    },
    "avg_edge": 8.59
   },
@@ -938,6 +938,18 @@
     "en": "Fluor - Engineering and construction firm",
     "ar": "فلور - شركة هندسة وبناء",
     "ru": "Fluor - инжиниринговая и строительная компания"
+   },
+   "avg_edge": null
+  },
+  "EWZ": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "EWZ - קרן סל מניות ברזיל",
+    "en": "EWZ - iShares MSCI Brazil ETF",
+    "ar": "EWZ - صندوق الاستثمار المتداول للأسهم البرازيلية",
+    "ru": "EWZ - ETF акций Бразилии"
    },
    "avg_edge": null
   }
