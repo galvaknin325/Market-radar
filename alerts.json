@@ -13868,5 +13868,330 @@
    }
   ],
   "id": "8548dc385321"
+ },
+ {
+  "ts": 1793789512,
+  "time": "2026-11-04T10:51Z",
+  "title": "אינפלציית גוש האירו זינקה ל-4%",
+  "summary": "אינפלציית גוש האירו טיפסה באוקטובר ל-4%, הרמה הגבוהה ביותר בשלוש שנים, בהובלת זינק במחירי האנרגיה שהגיעו ליותר מ-20%.",
+  "kid": "מחירי הסחורות והאנרגיה באירופה עלו הרבה יותר מהר מהרגיל. זה עשוי לגרום לבנק המרכזי להעלות את הריבית, מה שמשפיע על שערי המטבע והמניות.",
+  "i18n": {
+   "title": {
+    "he": "אינפלציית גוש האירו זינקה ל-4%",
+    "en": "Eurozone Inflation Hits 4% High",
+    "ar": "التضخم في منطقة اليورو يرتفع إلى 4%",
+    "ru": "Инфляция в еврозоне выросла до 4%"
+   },
+   "summary": {
+    "he": "אינפלציית גוש האירו טיפסה באוקטובר ל-4%, הרמה הגבוהה ביותר בשלוש שנים, בהובלת זינק במחירי האנרגיה שהגיעו ליותר מ-20%.",
+    "en": "Eurozone annual inflation climbed to 4% in October, hitting a three-year high driven by energy inflation surging above 20%.",
+    "ar": "ارتفع التضخم السنوي في منطقة اليورو إلى 4% في أكتوبر، مسجلاً أعلى مستوى في ثلاث سنوات مدفوعاً بارفتاع أسعار الطاقة.",
+    "ru": "Годовая инфляция в еврозоне в октябре выросла до 4%, достигнув трехлетнего максимума на фоне скачка цен на энергоносители."
+   },
+   "kid": {
+    "he": "מחירי הסחורות והאנרגיה באירופה עלו הרבה יותר מהר מהרגיל. זה עשוי לגרום לבנק המרכזי להעלות את הריבית, מה שמשפיע על שערי המטבע והמניות.",
+    "en": "Prices for energy and goods in Europe are rising fast. This might make the central bank raise interest rates, affecting currency and stock prices.",
+    "ar": "ارتفعت أسعار الطاقة والبضائع في أوروبا بسرعة، مما قد يدفع البنك المركزي لرفع أسعار الفائدة.",
+    "ru": "Цены на энергоносители и товары в Европе растут быстрее обычного. Это может заставить Центробанк поднять процентные ставки."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC Economy",
+    "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWtXY21RaDFhYzBCRUpFcm9pM0poaHI1eWR4a05NNWxSeW1yMGZELXIzQlB5WEZtWHpONG1ZdWstMFVpbWxkRFpBVUticDZDak5HQThHdXMta0I3ZlhlR0NWQlhBLTE5NVptV2o2Q1A5azZadzRFQ2p5ZDFUc2RIbmQza2Vzc0ljckIwQ1hnYUIxVUJGSVcxWEJ6MUQ4UFh2QktEQTNKbw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoSDJoN0Y5OWxSYzA4X3BBVUxJdkQtR1pLOUJFR1JnaDVieXZDelpWa2ZqRXdlMExsRUlRR0ZmdElFVlIwNjVZWi1uNy1VUmNm?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnlWVjhZeXhCME9sTHdmcC1RWTdrNUVIbUhhbE1td2t3Z2VDbzh1SW1kSmJJdWU5aVRSeW8tQ3hweVJwTDdVMGR0XzdtM0UtSGhkRnY1NWN6ZUkxR05xb2NadnJuNjEza3d4cDNOcTRnWXJBT2MzYnJjY2hkbjdHUmxoWjVsWGE0UE5NOUx0QQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1793789512,
+    "reason": "אינפלציה גבוהה וסיכון להעלאת ריבית מכבידים על השווקים באירופה.",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה וסיכון להעלאת ריבית מכבידים על השווקים באירופה.",
+     "en": "High inflation and rate hike risks weigh on European markets.",
+     "ar": "التضخم المرتفع ومخاطر رفع الفائدة تضغط على الأسواق الأوروبية.",
+     "ru": "Высокая инфляция и риски повышения ставок давят на европейские рынки."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על מניות אירופה",
+     "en": "Vanguard FTSE Europe ETF",
+     "ar": "صندوق استثمار الأسهم الأوروبية",
+     "ru": "ETF акций Европы"
+    },
+    "price_at_alert": 87.54
+   },
+   {
+    "ticker": "FXE",
+    "direction": "down",
+    "t0": 1793789512,
+    "reason": "נתוני אינפלציה חזקים וחששות כלכליים מחלישים את אמון המשקיעים באירו.",
+    "reason_i18n": {
+     "he": "נתוני אינפלציה חזקים וחששות כלכליים מחלישים את אמון המשקיעים באירו.",
+     "en": "Strong inflation data and economic concerns weaken confidence in the euro.",
+     "ar": "بيانات التضخم القوية تضعف الثقة في اليورو.",
+     "ru": "Сильные данные по инфляции ослабляют доверие к евро."
+    },
+    "name_i18n": {
+     "he": "קרן סל על האירו",
+     "en": "Euro Currency Trust",
+     "ar": "صندوق عملة اليورو",
+     "ru": "ETF курса евро"
+    },
+    "price_at_alert": 103.24
+   }
+  ],
+  "id": "29e59732c484"
+ },
+ {
+  "ts": 1793789512,
+  "time": "2026-11-04T10:51Z",
+  "title": "מחירי חיטה צונחים לשפל",
+  "summary": "מחיר החיטה ירד לרמתו הנמוכה ביותר מאז תחילת יולי, בעקבות חידוש הייצוא מרוסיה ולחץ מכירות של קרנות גידור.",
+  "kid": "יש יותר מדי חיטה בשוק בגלל שרוסיה חזרה למכור, ולכן המחיר יורד. זה יכול להוזיל את העלויות לחברות המזון.",
+  "i18n": {
+   "title": {
+    "he": "מחירי חיטה צונחים לשפל",
+    "en": "Wheat Prices Hit Multi-Month Lows",
+    "ar": "أسعار القمح تهبط إلى أدنى مستوياتها",
+    "ru": "Цены на пшеницу упали до минимумов"
+   },
+   "summary": {
+    "he": "מחיר החיטה ירד לרמתו הנמוכה ביותר מאז תחילת יולי, בעקבות חידוש הייצוא מרוסיה ולחץ מכירות של קרנות גידור.",
+    "en": "Wheat prices hit their lowest level since early July as Russia resumed exports following a massive fund sell-off.",
+    "ar": "انخفضت أسعار القمح إلى أدنى مستوياتها منذ أوائل يوليو مع استئناف روسيا للصادرات.",
+    "ru": "Цены на пшеницу упали до минимального уровня с начала июля на фоне возобновления экспорта из России."
+   },
+   "kid": {
+    "he": "יש יותר מדי חיטה בשוק בגלל שרוסיה חזרה למכור, ולכן המחיר יורד. זה יכול להוזיל את העלויות לחברות המזון.",
+    "en": "There is more wheat available because Russia started exporting again, making prices drop. This can lower costs for food companies.",
+    "ar": "هناك المزيد من القمح المتاح لأن روسيا بدأت بالتصدير مرة أخرى، مما أدى لإنخفاض الأسعار.",
+    "ru": "Пшеницы на рынке стало больше, так как Россия возобновила экспорт, из-за чего цены снизились."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUmJLWF9QV0lXTzJWZTQwV0xBaW0wOV9RRi1tVk1FbkdYUWhaVlJLa3JUZ1VOVkNBUm0tYTVSQ2VESnBKRzE4akpsZEFZRnprcEtLZnJzNUx3czBWVlNzYXFCT3ZyNnpyek9fTjJBN1JubkNKV21qSmp0V2xoS0ZlR2xmWTNTVi1WOG5xUGlta2taYXBwZHVua2lvOTJ1Vi1XZEpoQzFvRV9Qb242YUZyYnJOTXJmLUN2a0w5dE5tUGgxMTBsR1BFZEZhZkdncWpIQUtVU1FKYUp3U1hneWo1ZXBDdGVnY2g5N1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "down",
+    "t0": 1793789512,
+    "reason": "חזרת הייצוא הרוסי מגדילה את היצע החיטה וגורמת לירידת מחירים.",
+    "reason_i18n": {
+     "he": "חזרת הייצוא הרוסי מגדילה את היצע החיטה וגורמת לירידת מחירים.",
+     "en": "Resumed Russian exports increase supply and drive down wheat prices.",
+     "ar": "استئناف الصادرات الروسية يزيادة المعروض ويخفض الأسعار.",
+     "ru": "Возобновление российского экспорта увеличивает предложение и снижает цены."
+    },
+    "name_i18n": {
+     "he": "קרן סל על חיטה",
+     "en": "Teucrium Wheat Fund",
+     "ar": "صندوق استثمار القمح",
+     "ru": "ETF на пшеницу"
+    },
+    "price_at_alert": 21.93
+   }
+  ],
+  "id": "8d18575c8691"
+ },
+ {
+  "ts": 1793789512,
+  "time": "2026-11-04T10:51Z",
+  "title": "מתקפת סייבר על בנק צרפתי",
+  "summary": "בנק אזורי בצרפת דיווח כי מתקפת סייבר גרמה לעסקאות הונאה בסכום של 118 מיליון אירו.",
+  "kid": "האקרים פרצו למערכות של בנק בצרפת וגנבו כסף באמצעות פעולות רמאות. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר על בנק צרפתי",
+    "en": "Cyberattack Hits French Regional Bank",
+    "ar": "هجوم سيبراني يضرب بنكاً إقليمياً فرنسياً",
+    "ru": "Кибератака на французский региональный банк"
+   },
+   "summary": {
+    "he": "בנק אזורי בצרפת דיווח כי מתקפת סייבר גרמה לעסקאות הונאה בסכום של 118 מיליון אירו.",
+    "en": "A French regional bank reported that a cyberattack caused fraudulent transactions amounting to €118 million.",
+    "ar": "أبلغ بنك إقليمي فرنسي أن هجوماً سيبرانياً أدى إلى معاملات احتيالية بقيمة 118 مليون يورو.",
+    "ru": "Французский региональный банк сообщил, что кибератака привела к мошенническим транзакциям на сумму 118 млн евро."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות של בנק בצרפת וגנבו כסף באמצעות פעולות רמאות. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
+    "en": "Hackers breached a French bank's systems and stole money through fraud. This reminds companies to spend more on computer security.",
+    "ar": "اختراق قراصنة أنظمة بنك فرنسي وسرقوا أموالاً، مما يذكر الشركات بضرورة تأمين أنظمتها.",
+    "ru": "Хакеры взломали системы французского банка и совершили мошеннические операции, что подчеркивает важность кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVE9DU25QZXZERmZxWjV1OWcxbDd5VDFKV1VncDdBLVdFemZKZkdiUFNjY0xFT25iOWxsTlg1Q1lDVUlFZng4Ml9ORTRWUUZDQ3dVeDlaaVpmM1NmTms2OXZyWGNEY2tkalE4bUhzMk44Q3JYWDQzM0NRS25Rb3JTa0ZoM0VVQUVZeDJMTGxzbDZQOUFTbU1GZGhheF9GdjY2NkhYVnUtcm1mSUt0MXp6YQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHVkVHVMSkFZZy02aFRQUW5CZnpXcnZyOXRHUGxSWjd5SlBEdnpsMkp2dlhPWXEyTXBudUo5NFZZOF9MVjVUQ2NSZkxQYkVYUUhqaENpZEx1SE1kQVpla3NCZzVHX3JLSWhVVlFsQUJrX3AyWTRWRFlRaER0bEkwenVwS1RHc1dpV2pjUk55OWxlUzFmckpuWFpSMDU1amVpZWtLeFN0MkwtMkVRWnFHaWIyc2Q4X1ky?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1793789512,
+    "reason": "אירועי פריצה פיננסיים גדולים מעלים את הביקוש לפתרונות הגנת סייבר.",
+    "reason_i18n": {
+     "he": "אירועי פריצה פיננסיים גדולים מעלים את הביקוש לפתרונות הגנת סייבר.",
+     "en": "Major financial breach incidents increase demand for cybersecurity solutions.",
+     "ar": "حوادث الاختراق المالي الكبرى تزيد الطلب على حلول الأمن السيبراني.",
+     "ru": "Крупные инциденты кибербезопасности повышают спрос на защитные решения."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity firm",
+     "ar": "كراودسترايك - شركة أمن سيبراني",
+     "ru": "CrowdStrike – компания кибербезопасности"
+    },
+    "price_at_alert": 244.68
+   }
+  ],
+  "id": "b3966568dd82"
+ },
+ {
+  "ts": 1793789512,
+  "time": "2026-11-04T10:51Z",
+  "title": "חוזה נחושת של 600 מיליון דולר בעומאן",
+  "summary": "חברת MDO בעומאן העניקה חוזה ענק בשווי 600 מיליון דולר להקמת פרויקט נחושת במזון.",
+  "kid": "עומאן השקיעה סכום ענק בפרויקט כריית נחושת חדש. זה עוזר לחברות כרייה וסחורות להגדיל את הפעילות שלהן.",
+  "i18n": {
+   "title": {
+    "he": "חוזה נחושת של 600 מיליון דולר בעומאן",
+    "en": "Oman Awards $600M Copper Contract",
+    "ar": "عمن تمنح عقداً للنحاس بقيمة 600 مليون دولار",
+    "ru": "Оман заключает контракт на добычу меди на $600 млн"
+   },
+   "summary": {
+    "he": "חברת MDO בעומאן העניקה חוזה ענק בשווי 600 מיליון דולר להקמת פרויקט נחושת במזון.",
+    "en": "Oman’s MDO has awarded a $600 million contract for the Mazoon copper project, boosting regional mining activity.",
+    "ar": "منحت شركة MDO العمانية عقداً بقيمة 600 مليون دولار لمشروع نحاس مزون.",
+    "ru": "Компания MDO в Омане заключила контракт на $600 млн по медному проекту Мазун."
+   },
+   "kid": {
+    "he": "עומאן השקיעה סכום ענק בפרויקט כריית נחושת חדש. זה עוזר לחברות כרייה וסחורות להגדיל את הפעילות שלהן.",
+    "en": "Oman invested a huge sum in a new copper mining project, which helps mining and commodity companies grow.",
+    "ar": "استثمرت عمان مبلغاً ضخماً في مشروع تعدين نحاس جديد، مما يساعد شركات التعدين على النمو.",
+    "ru": "Оман инвестировал огромную сумму в новый проект по добыче меди, что помогает горнодобывающим компаниям."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmRW44ZjZqcDZmQmNpYjJPd3h5bzJXWGE0SXpZMkZ5bUljWVJ2ZFFHaGhRdm9XRGd5NHQ5dWVMLU5jb1V6ekVFNEhYaV82ZWpIUzZTcW5fOEx4SVdyVUpyb2I0VG1Ecm8yYXI2aXRnRTRZazZEdm9SWHFLSDdibjA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1793789512,
+    "reason": "השקיע ענק בחוזי כרייה מעידים על ביקושים חזקים וגידול בהשקעות בתחום הנחושת.",
+    "reason_i18n": {
+     "he": "השקיע ענק בחוזי כרייה מעידים על ביקושים חזקים וגידול בהשקעות בתחום הנחושת.",
+     "en": "Massive mining investments signal strong long-term demand and capex growth in copper.",
+     "ar": "الاستثمارات الضخمة في التعدين تشير إلى طلب قوي ونمو في قطاع النحاس.",
+     "ru": "Крупные инвестиции в добычу указывают на высокий спрос на медь."
+    },
+    "name_i18n": {
+     "he": "פריפורט מקמורן – ענקית כריית נחושת",
+     "en": "Freeport-McMoRan – major copper miner",
+     "ar": "فريبورت-مكموران - شركة تعدين النحاس",
+     "ru": "Freeport-McMoRan – крупный добытчик меди"
+    },
+    "price_at_alert": 61.77
+   }
+  ],
+  "id": "d7beb0bb6a96"
+ },
+ {
+  "ts": 1793789512,
+  "time": "2026-11-04T10:51Z",
+  "title": "מעצר קבלן אמריקאי בגין הדפת סודות לאתיופיה",
+  "summary": "אזרח אמריקאי יליד אתיופיה שהועסק כקבלן הודה כי הדליף עשרות מסמכים סודיים לבכירים באתיופיה כדי לסייע בלחימה.",
+  "kid": "עובד אמריקאי נתפס כשמסר מידע צבאי סודי למדינה אחרת. זה גורם לבדיקות מחמירות יותר על עובדים ביטחוניים.",
+  "i18n": {
+   "title": {
+    "he": "מעצר קבלן אמריקאי בגין הדפת סודות לאתיופיה",
+    "en": "US Contractor Shared Secrets with Ethiopia",
+    "ar": "مقاول أمريكي يسرب أسراراً لإثيوبيا",
+    "ru": "Американский подрядчик передал секреты Эфиопии"
+   },
+   "summary": {
+    "he": "אזרח אמריקאי יליד אתיופיה שהועסק כקבלן הודה כי הדליף עשרות מסמכים סודיים לבכירים באתיופיה כדי לסייע בלחימה.",
+    "en": "An Ethiopian-born American contractor admitted to sharing dozens of classified documents with senior Ethiopian officials.",
+    "ar": "اعترف مقاول أمريكي من أصول إثيوبية بتسريب عشرات الوثائق السرية لمسؤولين إثيوبيين.",
+    "ru": "Гражданин США эфиопского происхождения признался в передаче секретных документов высокопоставленным лицам Эфиопии."
+   },
+   "kid": {
+    "he": "עובד אמריקאי נתפס כשמסר מידע צבאי סודי למדינה אחרת. זה גורם לבדיקות מחמירות יותר על עובדים ביטחוניים.",
+    "en": "An American worker was caught giving secret military information to another country, leading to stricter security checks.",
+    "ar": "تم القبض على عامل أمريكي لتسريبه معلومات عسكرية سرية، مما يؤدي لتشديد إجراءات الأمن.",
+    "ru": "Американский сотрудник передал секретные данные другой стране, что ведет к ужесточению проверок безопасности."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793789512,
+    "reason": "תקריות אבטחת מידע ממשלתיות עשויות להגדיל את התקציבים לטכנולוגיות פיקוח ואבטחת סיווג.",
+    "reason_i18n": {
+     "he": "תקריות אבטחת מידע ממשלתיות עשויות להגדיל את התקציבים לטכנולוגיות פיקוח ואבטחת סיווג.",
+     "en": "Government security breaches often trigger increased budgets for clearance and data oversight.",
+     "ar": "خروقات الأمن الحكومية غالباً ما تزيد ميزانيات الرقابة الأمنية.",
+     "ru": "Правительственные утечки данных могут увеличить бюджеты на проверки безопасности."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – חברת ביטחונית ענקית",
+     "en": "Lockheed Martin – major defense contractor",
+     "ar": "لوكهيد مارتن - مقاول دفاعي كبيير",
+     "ru": "Lockheed Martin – крупный оборонный подрядчик"
+    },
+    "price_at_alert": 639.0
+   }
+  ],
+  "id": "e18a104fb9c3"
  }
 ]
