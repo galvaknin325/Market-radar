@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-04T15:06Z",
+ "generated": "2026-11-04T16:09Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 189,
+ "total_alerts": 193,
  "overall": {
   "n": 79,
   "hits": 38,
@@ -73,26 +73,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 6,
    "hits": 1,
    "name": {
-    "he": "קרן סל על נפט",
-    "en": "USO – Oil Fund",
-    "ar": "صندوق النفط",
-    "ru": "Нефтяной фонд USO"
+    "he": "USO – קרן סל נפט גולמי",
+    "en": "USO – United States Oil Fund",
+    "ar": "USO – صندوق النفط الخام الأمريكي",
+    "ru": "USO – Нефтяной фонд США"
    },
    "avg_edge": -0.27
   },
   "XLE": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "מגזר האנרגיה",
+    "he": "XLE – קרן סל אנרגיה",
     "en": "XLE – Energy Sector ETF",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "ar": "XLE – صندوق قطاع الطاقة",
+    "ru": "XLE – ETF энергетического сектора"
    },
    "avg_edge": -0.12
   },
@@ -253,14 +253,14 @@
    "avg_edge": -1.78
   },
   "CRWD": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 3,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike – cybersecurity company",
-    "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike — компания кибербезопасности"
+    "he": "CRWD – קראודסטרייק (אבטחת סייבר)",
+    "en": "CRWD – CrowdStrike Cybersecurity",
+    "ar": "CRWD – كراودسترايك للأمن السيبراني",
+    "ru": "CRWD – Компания кибербезопасности CrowdStrike"
    },
    "avg_edge": -1.11
   },
@@ -349,11 +349,11 @@
    "avg_edge": -0.54
   },
   "QQQ": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "QQQ – מדד נאסד\"ק 100",
+    "he": "QQQ – קרן סל נאסד\"ק 100",
     "en": "QQQ – Nasdaq 100 ETF",
     "ar": "QQQ – صندوق مؤشر ناسداك 100",
     "ru": "QQQ – ETF индекса Nasdaq 100"
@@ -457,14 +457,14 @@
    "avg_edge": 1.17
   },
   "ALL": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "ALL – אולסטייט, חברת ביטוח רכוש",
-    "en": "ALL – Allstate Corporation, property insurer",
-    "ar": "ALL – أوليستيت، شركة تأمين",
-    "ru": "ALL – Allstate, страховая компания"
+    "he": "ALL – חברת הביטוח אולסטייט",
+    "en": "ALL – Allstate Insurance",
+    "ar": "ALL – شركة التأمين أولستيت",
+    "ru": "ALL – Страховая компания Allstate"
    },
    "avg_edge": 0.12
   },
@@ -661,14 +661,14 @@
    "avg_edge": null
   },
   "TRV": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "en": "TRV – Travelers Companies",
-    "he": "TRV – טראבלרס",
-    "ar": "TRV - ترافيلرز للتأمين",
-    "ru": "TRV – Travelers Companies"
+    "he": "TRV – חברת הביטוח טרוולרס",
+    "en": "TRV – Travelers Insurance",
+    "ar": "TRV – شركة ترافيلرز للتأمين",
+    "ru": "TRV – Страховая компания Travelers"
    },
    "avg_edge": null
   },
@@ -885,6 +885,18 @@
     "en": "Qualcomm – a major semiconductor and wireless tech company",
     "ar": "كوالكوم - شركة رقائق الاتصالات",
     "ru": "Qualcomm — производитель чипов и беспроводных технологий"
+   },
+   "avg_edge": null
+  },
+  "KSA": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "KSA – קרן סל סעודיה",
+    "en": "KSA – iShares MSCI Saudi Arabia ETF",
+    "ar": "KSA – صندوق الاستثمار المتداول للسعودية",
+    "ru": "KSA – ETF Саудовской Аравии"
    },
    "avg_edge": null
   }
