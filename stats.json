@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T10:46Z",
+ "generated": "2026-11-05T11:40Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 250,
+ "total_alerts": 254,
  "overall": {
   "n": 207,
   "hits": 79,
@@ -78,11 +78,11 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 11,
    "hits": 2,
    "name": {
-    "he": "קרן סל נפט",
+    "he": "קרן נפט",
     "en": "Oil ETF",
     "ar": "صندوق النفط",
     "ru": "Нефтяной ETF"
@@ -138,23 +138,23 @@
    "avg_edge": -0.71
   },
   "XLP": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 3,
    "hits": 0,
    "name": {
-    "he": "XLP - קרן סל מוצרי צריכה בסיסיים",
-    "en": "XLP - Consumer Staples ETF",
-    "ar": "XLP - صندوق قطاع السلع الاستهلاكية الأساسية",
-    "ru": "XLP - ETF товаров повседневного спроса"
+    "he": "קרן מוצרי צריכה בסיסיים",
+    "en": "Consumer Staples ETF",
+    "ar": "صندوق السلع الاستهلاكية الأساسية",
+    "ru": "ETF потребительских товаров первой необходимости"
    },
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 26,
    "hits": 10,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
+    "he": "קרן ביטחון ותעופה",
     "en": "Aerospace & Defense ETF",
     "ar": "صندوق الدفاع والطيران",
     "ru": "ETF аэрокосмической и оборонной промышленности"
@@ -1010,6 +1010,30 @@
     "en": "Clean Energy ETF",
     "ar": "صندوق الطاقة النظيفة",
     "ru": "ETF чистой энергии"
+   },
+   "avg_edge": null
+  },
+  "LVS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "לאס וגאס סנדס",
+    "en": "Las Vegas Sands",
+    "ar": "لاس فيغاس ساندز",
+    "ru": "Las Vegas Sands"
+   },
+   "avg_edge": null
+  },
+  "DE": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ג'ון דיר",
+    "en": "John Deere",
+    "ar": "جون دير",
+    "ru": "John Deere"
    },
    "avg_edge": null
   }
