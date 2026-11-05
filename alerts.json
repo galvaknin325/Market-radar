@@ -18899,6 +18899,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQks1RzZVVEZGX05NamI0RnFqQVlaRjAza2FScEhmcmpHM2NNemNLN3QwU0RZUkM3dG52TV9YSFpqY2lmUXNnVEtUYUFPMHB3Zmhmb2RGdTROT1lZb0tIMmphZkNlbGpGTkdqUVR3QlZnZGFKOTR6Z2FBQzdHb1did3VjSjRtdGh2aDR1Ry1WZFRobTlheUx6MWhKT2k?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVzJwbzBIems5bTBSV2MzMHVsTW82V2hzZ2hjX1dkS214ZUVMUDVoc2prTkdicHlDbkVTcGdIT3pENjlReHJpa1BHa0FxTmw4Y3dPcmszaHRudVhzX2NISFhqellJS1BlWTR3Zm5IeE5QNEZGcGJVNTU5RzBXLTJDaEtRN1I3TmdYblRIcGp5c0cwdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VZXpaUTFfbk5HVVJla3JJbG9iLWEwclF2aHlfQTlWRjRTX2ZVVjUyM0plM2JjQkFpUURFVmxoTnQyMEI5MmFxQ04yMExRbV9tdDBn?oc=5"
    }
   ],
   "impacts": [
@@ -18985,9 +18993,21 @@
      "ar": "استهدفت هجمات سيبرانية بنوك الدم في فرنسا، بينما تستمر تكاليف الشحن العالمي في الارتفاع، مما يؤثر على الخدمات اللوجستية وسلاسل التوريد.",
      "ru": "Кибератаки были направлены на банки крови во Франции, в то время как мировые расходы на морские перевозки продолжают расти, влияя на логистику и цепочки поставок."
     }
+   },
+   {
+    "ts": 1793851867,
+    "time": "2026-11-05T04:11Z",
+    "severity": 4,
+    "summary": "הבנק הצרפתי קרדיט מיוטואל ארקאה אישר כי נפגע במתקפת סייבר, בעוד דיווחים מצביעים על חשד להפסדים של כ-133 מיליון דולר.",
+    "i18n": {
+     "he": "הבנק הצרפתי קרדיט מיוטואל ארקאה אישר כי נפגע במתקפת סייבר, בעוד דיווחים מצביעים על חשד להפסדים של כ-133 מיליון דולר.",
+     "en": "French bank Crédit Mutuel Arkéa confirmed it was hit by a cyberattack, as reports highlight suspected losses of around $133 million.",
+     "ar": "أكد البنك الفرنسي كريدي موتويل أركيا تعرضه لهجوم سيبراني، بينما تشير التقارير إلى خسائر مشتبه بها بنحو 133 مليون دولار.",
+     "ru": "Французский банк Crédit Mutuel Arkéa подтвердил, что подвергся кибератаке, на фоне сообщений о предполагаемых убытках в размере около $133 млн."
+    }
    }
   ],
-  "last_update": 1793840264
+  "last_update": 1793851867
  },
  {
   "ts": 1793831530,
@@ -19387,7 +19407,12 @@
   "category": "macro",
   "severity": 3,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQUZhcHpTWXpBbG5NZGJmYnhlN0Z4RE5ubmw5UEp6Sk5XNDVSV3VYRFhvcFBDSndYYjI0THJ2YUh6Rllka3ZvUGZlcnBGbGJm?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EWZ",
@@ -19409,7 +19434,22 @@
     "price_at_alert": 32.25
    }
   ],
-  "id": "70a47fe4e288"
+  "id": "70a47fe4e288",
+  "updates": [
+   {
+    "ts": 1793851867,
+    "time": "2026-11-05T04:11Z",
+    "severity": 3,
+    "summary": "הבנק המרכזי של ברזיל החליט להותיר את שער הריבית על כנו לאחר סדרת הפחתות קודמות.",
+    "i18n": {
+     "he": "הבנק המרכזי של ברזיל החליט להותיר את שער הריבית על כנו לאחר סדרת הפחתות קודמות.",
+     "en": "Brazil's central bank decided to hold its benchmark interest rate steady following a series of previous cuts.",
+     "ar": "قرر البنك المركزي البرازيلي إبقاء سعر الفائدة ثابتًا بعد سلسلة من التخفيضات السابقة.",
+     "ru": "Центральный банк Бразилии решил сохранить процентную ставку на прежнем уровне после серии предыдущих снижений."
+    }
+   }
+  ],
+  "last_update": 1793851867
  },
  {
   "ts": 1793840264,
@@ -19733,7 +19773,20 @@
   "category": "geopolitics",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZHB5WlcxRDJndjBlblhfUkg5a19mTnREQnRpbFF3R254ZFN2WERNZ3lPVEpBd1ZWd2pQZHZLdmczWGtUU25YSmkzbTN6ZVNfOWtMTG5HNDBDbFp6WE5sU1Z6RXVldHdFU2VHVXdnNDF5VXBsM2NuRXJ6R0U0bExTQ25ET2JvTFVu?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHJBYXRRSmlaUV9zVEhOdXFEMzVEU0I0YUQ2aHRjb3AyblVTcWdKSWJiRzBYOGs2N0hjU3JfaTk2VzhuYm9HUTdPMk5LemVaYUwtakw1UkhETTliVllvUWlBR1pkVENVdk1vUzU1Vl9yMFRiYVZJOUgwYVJSWjVGT2ZmbmliLU4wNDl0SDcyaW00Y2J3cG9odlk1UFgtbWZYelR6QnowaFAyOVpWSHVDVVpn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTlp2YW1mZ0s4TE03RzRJb3p5ZE9JclZWR1ZkNldUcTk1UFFTemNWU3AwRE8zVzFQZ0haTHZqUFZqZlJyVEV1dnRxSzh6UzRxNDRFSkMybGV2RC1hMVNPVFE1a01fWHFmWUFQNnVnY21SR2gtdTVOcmpYVFFBRFBUWlNNTDVVNlRaOVBJZURjNlJHVjMwbEozOGpkYjRURFIxa2tIN29Xcl9uYWhldEdSNkpGc0tqM3dTWlVNTFZR0gHDAUFVX3lxTE9ka04wazJvSldRUU9FcDJJOHBjb1A2d1dDelFmSVl1dmlra3l5QjlJZGJTb21ndWtNcnpLeWYxQ0N3WTQ4Vk1neUF6eTRTMDhVbEFCT2FCSVRtRENqLTE2NUMyaGk0cnlPdHZ5Z3NOc0xBNVo5emZNX0dUeDR2ZlNNeHh2NjhUdi1ZYlBwanZqTDhQSjlXSjh4X2s3LUpmRlJZV3dZTHBiSmdtZWRULWFIa2xXM1BCLXFHVDhQbE5KWXdESQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -19774,7 +19827,22 @@
     "price_at_alert": 28.41
    }
   ],
-  "id": "4624e8f0b41c"
+  "id": "4624e8f0b41c",
+  "updates": [
+   {
+    "ts": 1793851867,
+    "time": "2026-11-05T04:11Z",
+    "severity": 4,
+    "summary": "ארצות הברית הטילה סנקציות על רשת חברות וזוג הודים בגין רישום ספינות פיקטיבי וסיוע לסחר הנפט והטילים של איראן.",
+    "i18n": {
+     "he": "ארצות הברית הטילה סנקציות על רשת חברות וזוג הודים בגין רישום ספינות פיקטיבי וסיוע לסחר הנפט והטילים של איראן.",
+     "en": "The US sanctioned an Indian-based network and couple over fake ship registrations and helping facilitate Iran's oil and missile trade.",
+     "ar": "فرضت الولايات المتحدة عقوبات على شبكة وزوجين هندييْن بسبب تسجيل سفن مزيفة والمساعدة في تجارة النفط والصواريخ الإيرانية.",
+     "ru": "США ввели санкции против индийской сети и пары за фальшивую регистрацию судов и содействие торговле нефтью и ракетами Ирана."
+    }
+   }
+  ],
+  "last_update": 1793851867
  },
  {
   "ts": 1793847919,
@@ -19953,5 +20021,391 @@
    }
   ],
   "id": "d378c4fc5179"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "ג'ושוע וונג נידון ל-10 שנות מאסר",
+  "summary": "פעיל המחאה הדמוקרטית בהונג קונג, ג'ושוע וונג, נידון ל-10 שנות מאסר תחת חוק הביטחון הלאומי השנוי במחלוקת.",
+  "kid": "אדם בולט שנלחם למען דמוקרטיה בהונג קונג נשלח לכלא להרבה שנים. חדשות כאלה עלולות להראות שלטון קשוח יותר ולפגוע באמון המשקיעים בחברות באזור.",
+  "i18n": {
+   "title": {
+    "he": "ג'ושוע וונג נידון ל-10 שנות מאסר",
+    "en": "Joshua Wong Jailed for 10 Years",
+    "ar": "سجن جوشوع وونغ لمدة 10 سنوات",
+    "ru": "Джошуа Вонг приговорен к 10 годам тюрьмы"
+   },
+   "summary": {
+    "he": "פעיל המחאה הדמוקרטית בהונג קונג, ג'ושוע וונג, נידון ל-10 שנות מאסר תחת חוק הביטחון הלאומי השנוי במחלוקת.",
+    "en": "Hong Kong pro-democracy activist Joshua Wong was sentenced to 10 years in prison under the controversial national security law.",
+    "ar": "حُكم على الناشط الديمقراطي في هونغ كونغ جوشوع وونغ بالسجن لمدة 10 سنوات بموجب قانون الأمن القومي المثير للجدل.",
+    "ru": "Гонконгский активист движения за демократию Джошуа Вонг был приговорен к 10 годам тюремного заключения в соответствии с законом о национальной безопасности."
+   },
+   "kid": {
+    "he": "אדם בולט שנלחם למען דמוקרטיה בהונג קונג נשלח לכלא להרבה שנים. חדשות כאלה עלולות להראות שלטון קשוח יותר ולפגוע באמון המשקיעים בחברות באזור.",
+    "en": "A prominent activist who fought for democracy in Hong Kong was sent to prison for many years. News like this can show stricter rule and lower investor trust in local companies.",
+    "ar": "سُجن ناشط بارز كان يقاتل من أجل الديمقراطية في هونغ كونغ لسنوات عديدة. مثل هذه الأخبار يمكن أن تظهر حكماً أكثر تشدداً وتؤدي إلى انخفاض ثقة المستثمرين.",
+    "ru": "Известный активист, боровшийся за демократию в Гонконге, был отправлен в тюрьму на долгие годы. Такие новости могут свидетельствовать об ужесточении контроля и снижении доверия инвесторов к местным компаниям."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1793851867,
+    "reason": "החמרת המצב הפוליטי בהונג קונג פוגעת בסנטימנט המשקיעים כלפי מניות סיניות.",
+    "reason_i18n": {
+     "he": "החמרת המצב הפוליטי בהונג קונג פוגעת בסנטימנט המשקיעים כלפי מניות סיניות.",
+     "en": "Stricter political climate in Hong Kong hurts investor sentiment toward Chinese stocks.",
+     "ar": "المناخ السياسي الأكثر صارمة في هونغ كونغ يضر بمعنويات المستثمرين تجاه الأسهم الصينية.",
+     "ru": "Ужесточение политической обстановки в Гонконге негативно влияет на настроение инвесторов в отношении китайских акций."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות סין הגדולות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق الاستثمار المتداول للشركات الصينية الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.59
+   }
+  ],
+  "id": "334c87c78905"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "אינפלציית גוש הירוקו עולה ל-4% באוקטובר",
+  "summary": "נתוני היורוסטט מראים כי קצב האינפלציה השנתי בגוש האירו עלה לרמה של 4% בחודש אוקטובר.",
+  "kid": "המחירים באירופה עלו מהר יותר בחודש שעבר והגיעו ל-4%. זה עלול לגרום לבנק המרכזי שם לחשוב על שמירת ריבית גבוהה כדי להילחם ביוקר המחיה.",
+  "i18n": {
+   "title": {
+    "he": "אינפלציית גוש הירוקו עולה ל-4% באוקטובר",
+    "en": "Eurozone Inflation Rises to 4% in October",
+    "ar": "تضخم منطقة اليورو يرتفع إلى 4٪ في أكتوبر",
+    "ru": "Инфляция в еврозоне выросла до 4% в октябре"
+   },
+   "summary": {
+    "he": "נתוני היורוסטט מראים כי קצב האינפלציה השנתי בגוש האירו עלה לרמה של 4% בחודש אוקטובר.",
+    "en": "Eurostat data shows that the annual inflation rate in the Eurozone rose to 4% in October.",
+    "ar": "تظهر بيانات يوروستات أن معدل التضخم السنوي في منطقة اليورو ارتفع إلى 4٪ في أكتوبر.",
+    "ru": "Данные Eurostat показывают, что годовой уровень инфляции в еврозоне вырос до 4% в октябре."
+   },
+   "kid": {
+    "he": "המחירים באירופה עלו מהר יותר בחודש שעבר והגיעו ל-4%. זה עלול לגרום לבנק המרכזי שם לחשוב על שמירת ריבית גבוהה כדי להילחם ביוקר המחיה.",
+    "en": "Prices in Europe rose faster last month, reaching 4%. This might cause their central bank to keep interest rates high to fight high living costs.",
+    "ar": "ارتفعت الأسعار في أوروبا بشكل أسرع الشهر الماضي لتصل إلى 4٪. قد يدفع هذا البنك المركزي هناك إلى إبقاء أسعار الفائدة مرتفعة لمحاربة غلاء المعيشة.",
+    "ru": "Цены в Европе росли быстрее в прошлом месяце, достигнув 4%. Это может заставить их центробанк сохранить высокие ставки для борьбы с инфляцией."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTFVYZmxFUm5NZnZUakJnVXQ0V3JOc0JrMFBqOXloaUVxWHpGNjNfNU5sVmM5anZnNkdFb24tMUVRRnBkZFpyU0VEQ192M2tZTVptUTFJQmxoYXBWcWZ2aU10aU90ME15c1R1ZXg2R3VtRE5TV3VzOXNQVkd3ZHJWYm1KMlc0d3p3OU5PVjBxb0xLSGlPUG1wRElVVzh6NHJNcFNUZEhpMXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXE",
+    "direction": "down",
+    "t0": 1793851867,
+    "reason": "אינפלציה גבוהה מהצפוי עלולה להחליש את האמון ביציבות הכלכלית באירופה.",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה מהצפוי עלולה להחליש את האמון ביציבות הכלכלית באירופה.",
+     "en": "Higher-than-expected inflation could weaken confidence in Europe's economic stability.",
+     "ar": "التضخم الأعلى من المتوقع قد يضعف الثقة في الاستقرار الاقتصادي لأوروبا.",
+     "ru": "Более высокая, чем ожидалось, инфляция может ослабить доверие к экономической стабильности Европы."
+    },
+    "name_i18n": {
+     "he": "FXE - קרן סל מטבע אירו",
+     "en": "FXE - Invesco CurrencyShares Euro Trust",
+     "ar": "FXE - صندوق عملة اليورو",
+     "ru": "FXE - ETF евро"
+    },
+    "price_at_alert": 103.61
+   },
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1793851867,
+    "reason": "לחצי אינפלציה פוגעים ברווחי החברות ובכוח הקנייה הצרכני באירופה.",
+    "reason_i18n": {
+     "he": "לחצי אינפלציה פוגעים ברווחי החברות ובכוח הקנייה הצרכני באירופה.",
+     "en": "Inflation pressures hurt corporate profits and consumer purchasing power in Europe.",
+     "ar": "ضغوط التضخم تضر بأرباح الشركات والقوة الشرائية للمستهلكين في أوروبا.",
+     "ru": "Инфляционное давление наносит ущерб прибылям компаний и покупательной способности потребителей в Европе."
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל מניות אירופה",
+     "en": "VGK - Vanguard FTSE Europe ETF",
+     "ar": "VGK - صندوق الاستثمار المتداول للأسهم الأوروبية",
+     "ru": "VGK - ETF акций Европы"
+    },
+    "price_at_alert": 90.24
+   }
+  ],
+  "id": "5729cac251c9"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "טאיוואן מצפה להמשך תמיכה אמריקאית במכירת נשק",
+  "summary": "בעקבות תוצאות הבחירות בארה\"ב, טאיוואן מביעה ציפייה להמשך התמיכה האמריקאית בעסקאות מכירת נשק ואספקה ביטחונית.",
+  "kid": "ממשלת טאיוואן אומרת שארה\"ב תמשיך למכור לה נשק להגנה עצמית. זה טוב לחברות נשק ענקיות בארה\"ב שיקבלו הזמנות נוספות.",
+  "i18n": {
+   "title": {
+    "he": "טאיוואן מצפה להמשך תמיכה אמריקאית במכירת נשק",
+    "en": "Taiwan Expects Continued US Arms Sales Support",
+    "ar": "تایوان تتوقع استمرار الدعم الأمريكي لمبيعات الأسلحة",
+    "ru": "Тайвань ожидает продолжения американской поддержки в продажах оружия"
+   },
+   "summary": {
+    "he": "בעקבות תוצאות הבחירות בארה\"ב, טאיוואן מביעה ציפייה להמשך התמיכה האמריקאית בעסקאות מכירת נשק ואספקה ביטחונית.",
+    "en": "Following the US midterm elections, Taiwan expressed expectations that the US will continue its support for arms sales and defense supplies.",
+    "ar": "في أعقاب الانتخابات الأمريكية، أعربت تايوان عن توقعاتها بأن تستمر الولايات المتحدة في دعم صفقات مبيعات الأسلحة والدفاع.",
+    "ru": "После выборов в США Тайвань выразил надежду на то, что США продолжат поддержку поставок оружия и оборонных заказов."
+   },
+   "kid": {
+    "he": "ממשלת טאיוואן אומרת שארה\"ב תמשיך למכור לה נשק להגנה עצמית. זה טוב לחברות נשק ענקיות בארה\"ב שיקבלו הזמנות נוספות.",
+    "en": "Taiwan's government says the US will keep selling it weapons for self-defense. This is good for giant US weapon companies that will get more orders.",
+    "ar": "تقول حكومة تايوان إن الولايات المتحدة ستستمر في بيعها أسلحة للدفاع عن النفس. هذا جيد لشركات الأسلحة الأمريكية الكبرى التي ستتلقى المزيد من الطلبات.",
+    "ru": "Правительство Тайваня заявляет, что США продолжат продавать ему оружие для самообороны. Это хорошо для крупных американских оборонных компаний, которые получат больше заказов."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmQjJuLTNsd2h0R2Z1SjdhTmtncFVpVzhWX20zUkkxWlhQY2xsM2Z1Uk9CdTlmSmdCRHEyUTdNZmdQblhDcTBYU3gyQXBROWw4TjgyaEFLbmdyWVJ2M0pTMHFxeFBGaEVnelFpTEJ6YnFxazM1RUVtME5R?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793851867,
+    "reason": "ציפייה לחוזים ביטחוניים מתמשכים עם טאיוואן.",
+    "reason_i18n": {
+     "he": "ציפייה לחוזים ביטחוניים מתמשכים עם טאיוואן.",
+     "en": "Expectation of continuous defense contracts with Taiwan.",
+     "ar": "توقع عقود دفاعية مستمرة مع تايوان.",
+     "ru": "Ожидание непрерывных оборонных контрактов с Тайванем."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - יצרנית ביטחונית",
+     "en": "Lockheed Martin - Defense Manufacturer",
+     "ar": "لوكهيد مارتن - شركة تصنيع دفاعي",
+     "ru": "Lockheed Martin - производитель оружия"
+    },
+    "price_at_alert": 595.04
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793851867,
+    "reason": "חיזוק הביקושים למניות הביטחון בעקבות המשך הסיוע הצבאי לטאיוואן.",
+    "reason_i18n": {
+     "he": "חיזוק הביקושים למניות הביטחון בעקבות המשך הסיוע הצבאי לטאיוואן.",
+     "en": "Boost in defense stock demand following continued military aid to Taiwan.",
+     "ar": "تعزيز الطلب على أسهم الدفاع إثر استمرار المساعدات العسكرية لتايوان.",
+     "ru": "Рост спроса на оборонные акции на фоне продолжения военной помощи Тайваню."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 212.84
+   }
+  ],
+  "id": "228f3ba70e1d"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "סינגפור ונורווגיה משיקות מענק משותף לשווקים ימיים ירוקים",
+  "summary": "סינגפור ונורווגיה הכריזו על מענק מחקר משותף לפיתוח פתרונות טכנולוגיים לתעשיית ספנות ירוקה וניקייה יותר.",
+  "kid": "שתי מדינות חוברות כדי לממן מחקר שיעזור לאניות לזהם פחות את האוויר והים. זה טוב לחברות טכנולוגיה ימית ידידותיות לסביבה.",
+  "i18n": {
+   "title": {
+    "he": "סינגפור ונורווגיה משיקות מענק משותף לשווקים ימיים ירוקים",
+    "en": "Singapore and Norway Launch Joint Research Grant for Greener Shipping",
+    "ar": "سنغافورة والنرويج تطلقان منحة بحثية مشتركة لشحن أكثر خضرة",
+    "ru": "Сингапур и Норвегия запускают совместный грант для экологичного судоходства"
+   },
+   "summary": {
+    "he": "סינגפור ונורווגיה הכריזו על מענק מחקר משותף לפיתוח פתרונות טכנולוגיים לתעשיית ספנות ירוקה וניקייה יותר.",
+    "en": "Singapore and Norway announced a joint research grant call to advance technological solutions for greener shipping.",
+    "ar": "أعلنت سنغافورة والنرويج عن دعوة لمنحة بحثية مشتركة لتطوير حلول تكنولوجية لصناعة شحن أنظف وأكثر خضرة.",
+    "ru": "Сингапур и Норвегия объявили о совместном исследовательском гранте для разработки технологий экологичного судоходства."
+   },
+   "kid": {
+    "he": "שתי מדינות חוברות כדי לממן מחקר שיעזור לאניות לזהם פחות את האוויר והים. זה טוב לחברות טכנולוגיה ימית ידידותיות לסביבה.",
+    "en": "Two countries are teaming up to fund research that helps ships pollute less. This is good for eco-friendly maritime technology companies.",
+    "ar": "تتكاتف دولتان لتمويل أبحاث لمساعدة السفن على تلويث البيئة بشكل أقل. هذا جيد لشركات التكنولوجيا البحرية الصديقة للبيئة.",
+    "ru": "Две страны объединяют усилия для финансирования исследований, помогающих судам меньше загрязнять окружающую среду. Это хорошо для экологичных судоходных компаний."
+   }
+  },
+  "category": "trade",
+  "severity": 2,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdUZBUGZuRUpEZG0zSUY4dGhLZHBacjRZWk5UQzZJSFEzUVZJRTVvbkVDalZDYjZSRENXWmd2UHZBVGhUSDJlQXItbkpMX09rWE9wUGZZZzM5RlN6d3NjNnpicHpjMlU5TlNpRnZPUWI5SldpSXBobDE4aTAzMmRZV213MXRjTGQ2dEVGOVcxTFIwWXpLNTlMTmVfUzlqczdtajF2dXFlXzdER3JiOGtEeC1xaHUzVW9uSUMwVTRxLWlmbFk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWS",
+    "direction": "up",
+    "t0": 1793851867,
+    "reason": "יוזמות משותפות בתחום הספנות מחזקות את מעמדה הכלכלי של סינגפור כמרכז ימי.",
+    "reason_i18n": {
+     "he": "יוזמות משותפות בתחום הספנות מחזקות את מעמדה הכלכלי של סינגפור כמרכז ימי.",
+     "en": "Joint maritime initiatives strengthen Singapore's economic standing as a shipping hub.",
+     "ar": "المبادرات البحرية المشتركة تعزز مكانة سنغافورة الاقتصادية كمركز بحري.",
+     "ru": "Совместные морские инициативы укрепляют экономические позиции Сингапура как судоходного хаба."
+    },
+    "name_i18n": {
+     "he": "EWS - קרן סל מניות סינגפור",
+     "en": "EWS - iShares MSCI Singapore ETF",
+     "ar": "EWS - صندوق الأسهم في سنغافورة",
+     "ru": "EWS - ETF акций Сингапура"
+    },
+    "price_at_alert": 30.61
+   }
+  ],
+  "id": "8173c1cd2993"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "אוסטרליה תצטרף למבצעי כיבוי האש והשריפות באינדונזיה",
+  "summary": "אוסטרליה הודיעה כי תצטרף למאמצי כיבוי שריפות הענק והפצצות המים באינדונזיה במסגרת שיתוף פעולה אסוני אזורי.",
+  "kid": "שתי מדינות עוזרות זו לזו לכבות שריפות יער ענקיות בעזרת מטוסים. זה חשוב להצלת טבע, אך השפעתו על הבורסה הכללית קטנה מאוד.",
+  "i18n": {
+   "title": {
+    "he": "אוסטרליה תצטרף למבצעי כיבוי האש והשריפות באינדונזיה",
+    "en": "Australia to Join Indonesia's Wildfire Waterbombing Operations",
+    "ar": "استراليا تنضم إلى عمليات قصف المياه لإخماد حرائق الغابات في إندونيسيا",
+    "ru": "Австралия присоединится к тушению лесных пожаров в Индонезии"
+   },
+   "summary": {
+    "he": "אוסטרליה הודיעה כי תצטרף למאמצי כיבוי שריפות הענק והפצצות המים באינדונזיה במסגרת שיתוף פעולה אסוני אזורי.",
+    "en": "Australia announced it will join Indonesia's wildfire waterbombing operations as part of a regional disaster response cooperation.",
+    "ar": "أعلنت استراليا أنها ستنضم إلى جهود إخماد حرائق الغابات في إندونيسيا كجزء من التعاون الإقليمي لمواجهة الكوارث.",
+    "ru": "Австралия объявила, что присоединится к тушению лесных пожаров в Индонезии в рамках регионального сотрудничества при ЧС."
+   },
+   "kid": {
+    "he": "שתי מדינות עוזרות זו לזו לכבות שריפות יער ענקיות בעזרת מטוסים. זה חשוב להצלת טבע, אך השפעתו על הבורסה הכללית קטנה מאוד.",
+    "en": "Two countries are helping each other put out giant forest fires using aircraft. This is important for saving nature, but has little effect on the stock market.",
+    "ar": "تساعد دولتان بعضهما البعض في إخماد حرائق غابات ضخمة باستخدام الطائرات. هذا مهم لحماية الطبيعة، ولكنه ذو تأثير طفيف على سوق الأسهم.",
+    "ru": "Две страны помогают друг другу тушить гигантские лесные пожары с помощью самолетов. Это важно для природы, но почти не влияет на фондовый рынок."
+   }
+  },
+  "category": "climate",
+  "severity": 2,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVjdkWC0zVVdqamZHODh2Tm5ENzhxYmJTS2M2eWVpTHhvV0N3WlRSSktFbDVNaE9na09lRlNNZUtTQ1BScUxkdWVTWG5kdHdPLTdYVHZKVEZJdGVQbkVVcmZBMUFPQ1doZmk2MzgyMlhvOHl1UmprWTZ1ZWxFTEVJdHVXOTF2RFZEZV9zbHAwRmRybXVuei01MnE2ZzVNMkRveC1tYTFJa0Q5UUhHM0VrRVg3SjBXeDNsbWkwdkl1ek01YnlEc2JHMHdjdTJrd19wbHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWA",
+    "direction": "up",
+    "t0": 1793851867,
+    "reason": "שיתוף פעולה אזורי מוצלח בניהול משברים משפר את שיתופי הפעולה הכלכליים באזור.",
+    "reason_i18n": {
+     "he": "שיתוף פעולה אזורי מוצלח בניהול משברים משפר את שיתופי הפעולה הכלכליים באזור.",
+     "en": "Successful regional crisis management cooperation enhances economic ties in the area.",
+     "ar": "التعاون الإقليمي الناجح في إدارة الأزمات يعزز الروابط الاقتصادية في المنطقة.",
+     "ru": "Успешное сотрудничество в кризисном управлении укрепляет экономические связи в регионе."
+    },
+    "name_i18n": {
+     "he": "EWA - קרן סל מניות אוסטרליה",
+     "en": "EWA - iShares MSCI Australia ETF",
+     "ar": "EWA - صندوق الأسهم الاسترالية",
+     "ru": "EWA - ETF акций Австралии"
+    },
+    "price_at_alert": 29.86
+   }
+  ],
+  "id": "6d8229693b01"
+ },
+ {
+  "ts": 1793851867,
+  "time": "2026-11-05T04:11Z",
+  "title": "משמר החופים באירלנד יקבל סירות הצלה חדשות במסגרת השקעה",
+  "summary": "משמר החופים של דרוהيدا באירלנד צפוי לקבל סירות הצלה חדשות כחלק מתוכנית השקעה רחבה בצי משמר החופים המקומי.",
+  "kid": "ממשלת אירלנד קונה סירות הצלה חדשות למשמר החופים. זוהי הזמנה קטנה שמשמחת את החברות שמייצרות ציוד ימי אך לא תשפיע בגדול על הבורסה.",
+  "i18n": {
+   "title": {
+    "he": "משמר החופים באירלנד יקבל סירות הצלה חדשות במסגרת השקעה",
+    "en": "Irish Coast Guard to Receive New Rescue Boats",
+    "ar": "خفر السواحل الإيرلندي سيحصل على قوارب إنقاذ جديدة",
+    "ru": "Береговая охрана Ирландии получит новые спасательные катера"
+   },
+   "summary": {
+    "he": "משמר החופים של דרוהيدا באירלנד צפוי לקבל סירות הצלה חדשות כחלק מתוכנית השקעה רחבה בצי משמר החופים המקומי.",
+    "en": "The Drogheda Coast Guard in Ireland is set to receive new rescue boats as part of a broad investment in the Irish Coast Guard fleet.",
+    "ar": "من المقرر أن يتلقى خفر السواحل دروهيدا في إيرلندا قوارب إنقاذ جديدة كجزء من استثمار واسع في أسطول خفر السواحل.",
+    "ru": "Береговая охрана Дроэды в Ирландии получит новые спасательные катера в рамках масштабных инвестиций во флот."
+   },
+   "kid": {
+    "he": "ממשלת אירלנד קונה סירות הצלה חדשות למשמר החופים. זוהי הזמנה קטנה שמשמחת את החברות שמייצרות ציוד ימי אך לא תשפיע בגדול על הבורסה.",
+    "en": "The Irish government is buying new rescue boats for the coast guard. This is a small order that helps marine equipment makers but won't shake the stock market.",
+    "ar": "تشتري الحكومة الإيرلندية قوارب إنقاذ جديدة لخفر السواحل. هذا طلب صغير يسعد شركات المعدات البحرية ولكنه لن يهز سوق الأسهم.",
+    "ru": "Правительство Ирландии покупает новые спасательные катера для береговой охраны. Это небольшой заказ, который поддерживает производителей морского оборудования, но не потрясет фондовый рынок."
+   }
+  },
+  "category": "contracts",
+  "severity": 1,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUnJzdWFzMVkxcmh3WEp1VzREMklTUUVBUGFUM1RaN3BrMDlNQ2FYZW1Hc3gxUWJtaVJNLVVSUEU4YjV1QlExUnBVQ013ZXVKMjBqWFRma05NWnlCT0UxSmM3NmZVMzlJcTlaaGFZdG16NHRnUVJ3eEtBVlRKZERnWVlXQTVwRjVyS0Frc0NEcngwYzhUNXR1WTFxU2VuX0FNZExGcmFCdkJiRVNfNFJ6YS0wZmpJR3o2b1lPSEdyaWJybUFrZGJpbTg1d3k3UE1RVzNZX1drQnFNYXJ5S09hYUdzQUI4ZWUxdDR4ZW5pUk9XM1hm?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "up",
+    "t0": 1793851867,
+    "reason": "השקעות ממשלתיות בתשתיות תומכות בפעילות הכלכלית המקומית.",
+    "reason_i18n": {
+     "he": "השקעות ממשלתיות בתשתיות תומכות בפעילות הכלכלית המקומית.",
+     "en": "Government infrastructure investments support local economic activity.",
+     "ar": "استثمار البنية التحتية الحكومية يدعم النشاط الاقتصادي المحلي.",
+     "ru": "Государственные инвестиции в инфраструктуру поддерживают местную экономическую активность."
+    },
+    "name_i18n": {
+     "he": "EWU - קרן סל מניות בריטניה ואירלנד",
+     "en": "EWU - iShares United Kingdom ETF",
+     "ar": "EWU - صندوق الأسهم البريطانية",
+     "ru": "EWU - ETF акций Великобритании"
+    },
+    "price_at_alert": 48.93
+   }
+  ],
+  "id": "5d055d5234d1"
  }
 ]
