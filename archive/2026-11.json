@@ -18665,7 +18665,20 @@
   "category": "geopolitics",
   "severity": 5,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVWd3M1lsTG1iVzJSX1U3N2hCR3hWZHVYRkt5UThvNkZRd0pOUTI5dzJvcEhQemlaU3o2RTJVaVlmdl95VHh6TU1HMFpWLWxYV1dDWG0wV0hOQWpFQlg1TkZxd1F6a0JYajJHZ08teXlhVzR6Nk93d01PMThaRGZFbU9lNnZGMmFwcElQRV80LUxKRWFvY2xYbzBhNjVyVWlHYnR2c2c4VnI2WnB0cFhj?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RS0M0b2pRelRVLXhlSWVuNy1tckRhYTlxQ0xrZ205dU90UlplREtvaTRxTnJITHNVM2YwVWhTaS03UWJaaUNteFpjSEIxT0VpaGxpM2tXV0FlVm9SaTllNjd1TQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFhTUS1uaFkyX21JaUhuQm1vdko5UmVkV0oyVi1LV2JuM2NUOFBGcWlEZU5zSkdKV1JaVFBSVWItOXc2R3kyT3BaYWE5YVVoNEpxTkNtT2RSOVcxS0V5YmtGTWVvdnI1Ym9WNV9XYU5vYkt1Z0tqWjYzTkVPYmZIaDdfa0hKVWIxWU9rWGI4MEJ2SmxCWkdzS2xJYVUtUGNobXBzTEFFMGItSVJK?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -18699,9 +18712,21 @@
      "en": "Северная Корея объявила об успешном испытании новой системы ПВО и крылатых ракет большой дальности.",
      "ar": "أعلنت كوريا الشمالية عن اختبار ناجح لنظام دفاع جوي جديد وصواريخ كروز بعيدة المدى."
     }
+   },
+   {
+    "ts": 1793855725,
+    "time": "2026-11-05T05:15Z",
+    "severity": 4,
+    "summary": "קוריאה הצפונית דיווחה על ביצוע ניסוי מוצלח במערכת הגנה אווירית מתקדמת ובטילי שיוט.",
+    "i18n": {
+     "he": "קוריאה הצפונית דיווחה על ביצוע ניסוי מוצלח במערכת הגנה אווירית מתקדמת ובטילי שיוט.",
+     "en": "North Korea announced it has tested an advanced air defense missile system and conducted cruise missile drills.",
+     "ar": "أعلنت كوريا الشمالية أنها أجرت اختباراً لنظام متقدم للصواريخ المضادة للطائرات ومناورات لصواريخ كروز.",
+     "ru": "Северная Корея объявила об испытании усовершенствованной зенитно-ракетной системы и проведении учений крылатых ракет."
+    }
    }
   ],
-  "last_update": 1793831530
+  "last_update": 1793855725
  },
  {
   "ts": 1793828915,
@@ -20407,5 +20432,129 @@
    }
   ],
   "id": "5d055d5234d1"
+ },
+ {
+  "ts": 1793855725,
+  "time": "2026-11-05T05:15Z",
+  "title": "האינפלציה בפיליפינים מזנקת לרמה של 7.8%",
+  "summary": "האינפלציה השנתית בפיליפינים זינקה ל-7.8% באוקטובר בשל מחירי הדלק הגבוהים, והבנק המרכזי צפוי להעלות את הריבית ב-25 נקודות בסיס בדצמבר.",
+  "kid": "המחירים בפיליפינים עולים מהר מאוד. זה עשוי לגרום לבנק המרכזי שם להעלות את הריבית כדי להילחם ביוקר המחיה.",
+  "i18n": {
+   "title": {
+    "he": "האינפלציה בפיליפינים מזנקת לרמה של 7.8%",
+    "en": "Philippines Inflation Spikes to 7.8% in October",
+    "ar": "قفزة التضخم في الفلبين إلى 7.8% في أكتوبر",
+    "ru": "Инфляция на Филиппинах подскочила до 7,8% в октябре"
+   },
+   "summary": {
+    "he": "האינפלציה השנתית בפיליפינים זינקה ל-7.8% באוקטובר בשל מחירי הדלק הגבוהים, והבנק המרכזי צפוי להעלות את הריבית ב-25 נקודות בסיס בדצמבר.",
+    "en": "Annual inflation in the Philippines surged to 7.8% in October driven by high petrol prices, and the central bank is expected to hike rates by 25 bps in December.",
+    "ar": "ارتفع التضخم السنوي في الفلبين إلى 7.8% في أكتوبر مدفوعاً بأسعار الوقود المرتفعة، ومن المتوقع أن يرفع البنك المركزي أسعار الفائدة.",
+    "ru": "Годовая инфляция на Филиппинах подскочила до 7,8% в октябре из-за высоких цен на бензин, и центральный банк, как ожидается, повысит ставку."
+   },
+   "kid": {
+    "he": "המחירים בפיליפינים עולים מהר מאוד. זה עשוי לגרום לבנק המרכזי שם להעלות את הריבית כדי להילחם ביוקר המחיה.",
+    "en": "Prices in the Philippines are rising fast. This may cause the central bank to raise interest rates.",
+    "ar": "الأسعار في الفلبين ترتفع بسرعة، مما قد يدفع البنك المركزي لرفع أسعار الفائدة.",
+    "ru": "Цены на Филиппинах растут быстро, что может заставить центральный банк повысить процентные ставки."
+   }
+  },
+  "category": "macro",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSmhncnBTV3NTTWFSRFZsaTB6VG9adnE4dzVLVzhJVlVXcnhURU01WUNiZmVrbFhBRFpObjl1eUpGUXNmZW5tdFZiU0JmOXlFcGppWWdtdDJzcFVYUmh1OWVBcllNbkliQUtXVUxZRnM5RVp1MjFBemZ6QnBNMGlaX0lDZm5CNnRCOWZR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWkt5a1BoWmRrck5TQTl3UFJkNXppdGcwZVBBM1Y4U2pDZnRneEpyWjlwZUQ5QWxKV3NjZHNxbGJXSEVtVkl2cHB4SHRyTF9Ibkx2UFFIbndubHc5S19kekNkX3hWcFgtaVI5cmlNWFJWOFRQOW5BZVVyY1o1MkowTHA5UWcyX3l6aDYxWXVoVQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRWt1UVkyWlRDYjQzWjhoV2R3cVlmdm1Ea2toX2hIU2xxOGw2V3BxYXYyb0h2blZLM0dpQnlyZFdfSkZFWldnZURqaVdwYlRoSGpFSzRoT1RVYmJ3TFpWWDVRQnFOMTVNYzFBaFRac3FSUlRCRU5jRVFKZS13TkdyMWhsYVc4cDNBd3dET3cwOGVNdjZPMU5CcnJES3RoVXJjd3ExZXBWVFgyWkZIVmt3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1793855725,
+    "reason": "אינפלציה גבוהה בשווקים מתעוררים מעיבה על הסנטימנט האזורי",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה בשווקים מתעוררים מעיבה על הסנטימנט האזורי",
+     "en": "High inflation in emerging markets weighs on regional sentiment",
+     "ar": "التضخم المرتفع في الأسواق الناشئة يضغط على معنويات المنطقة",
+     "ru": "Высокая инфляция на развивающихся рынках давит на настроения в регионе"
+    },
+    "name_i18n": {
+     "he": "תעודת סל שווקים מתעוררים",
+     "en": "Emerging Markets ETF",
+     "ar": "صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 61.62
+   }
+  ],
+  "id": "8f5d5114b4c2"
+ },
+ {
+  "ts": 1793855725,
+  "time": "2026-11-05T05:15Z",
+  "title": "הפיליפינים מביעים שביעות רצון מרכש טילי ברמוס מהודו ומתוכננים חוזים נוספים",
+  "summary": "משרד ההגנה הלאומי של הפיליפינים הביע שביעות רצון מרכש מערכות טילי ברמוס מהודו ואמר כי הוא מתכנן רכש נוסף.",
+  "kid": "מדינות קונות עוד מערכות נשק מתקדמות להגנתן. עסקאות כאלו מחזקות את התעשייה הביטחונית באזור.",
+  "i18n": {
+   "title": {
+    "he": "הפיליפינים מביעים שביעות רצון מרכש טילי ברמוס מהודו ומתוכננים חוזים נוספים",
+    "en": "Philippines Pleased with BrahMos Missile Procurement, Plans More",
+    "ar": "الفلبين راضية عن شراء صواريخ براموس وتخطط لمزيد من الصفقات",
+    "ru": "Филиппины довольны закупкой ракет BrahMos и планируют новые контракты"
+   },
+   "summary": {
+    "he": "משרד ההגנה הלאומי של הפיליפינים הביע שביעות רצון מרכש מערכות טילי ברמוס מהודו ואמר כי הוא מתכנן רכש נוסף.",
+    "en": "The Philippines Department of National Defense expressed pride in its procurement of BrahMos missiles from India and plans to buy more.",
+    "ar": "أعربت وزارة الدفاع الوطني في الفلبين عن فخرها بشراء صواريخ براموس من الهند وتخطط لشراء المزيد.",
+    "ru": "Министерство национальной обороны Филиппин выразило удовлетворение закупкой ракет BrahMos у Индии и планирует новые приобретения."
+   },
+   "kid": {
+    "he": "מדינות קונות עוד מערכות נשק מתקדמות להגנתן. עסקאות כאלו מחזקות את התעשייה הביטחונית באזור.",
+    "en": "Countries are buying advanced defense systems. Such deals support the regional defense industry.",
+    "ar": "تشتري الدول أنظمة دفاعية متقدمة، وهذه الصفقات تدعم صناعة الدفاع.",
+    "ru": "Страны покупают передовые оборонные системы. Такие сделки поддерживают оборонную промышленность."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemVRdTRTTW43c3oydWRPanNyZk8wUDF4cWdfVER0QnFBT3lFMzdoQ1ZfSUZIdHh5QnYtODZwYlVBLUR6UGNwM25QdHNFQTM4WUgtRTNKT0p2c2ZFVG10VmRILUk1NUFoblRkdDBoSjJWYzZtemlsNE5qcnl0MmJHQmlQTWxVLU1DR2xhSDgtQVdoVDly?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793855725,
+    "reason": "ביקושים גבוהים למערכות טילים באסיה תומכים בסקטור הביטחוני",
+    "reason_i18n": {
+     "he": "ביקושים גבוהים למערכות טילים באסיה תומכים בסקטור הביטחוני",
+     "en": "High demand for missile systems in Asia supports the defense sector",
+     "ar": "الطلب المرتفع على أنظمة الصواريخ في آسيا يدعم قطاع الدفاع",
+     "ru": "Высокий спрос на ракетные системы в Азии поддерживает оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטחונית אמריקאית",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق الاستثمار المتداول لقطاع الفضاء والدفاع الأمريكي",
+     "ru": "Американский ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 212.84
+   }
+  ],
+  "id": "91a6bdf06691"
  }
 ]
