@@ -22594,7 +22594,16 @@
   "category": "policy",
   "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+   }
+  ],
   "impacts": [
    {
     "ticker": "NVDA",
@@ -22654,7 +22663,22 @@
     "price_at_alert": 454.2235
    }
   ],
-  "id": "2ea2cfb0e219"
+  "id": "2ea2cfb0e219",
+  "updates": [
+   {
+    "ts": 1793911625,
+    "time": "2026-11-05T20:47Z",
+    "severity": 7,
+    "summary": "מחוקקים דמוקרטים קוראים להטלת מורטוריום על הקמת מרכזי נתונים חדשים לבינה מלאכותית בעקבות תוצאות בחירות האמצע.",
+    "i18n": {
+     "he": "מחוקקים דמוקרטים קוראים להטלת מורטוריום על הקמת מרכזי נתונים חדשים לבינה מלאכותית בעקבות תוצאות בחירות האמצע.",
+     "en": "Democratic lawmakers are calling for a moratorium on new AI data center construction following the midterm election results.",
+     "ar": "يدعو المشرعون الديمقراطيون إلى فرض حظر على بناء مراكز بيانات جديدة للذكاء الاصطناعي في أعقاب نتائج انتخابات التجديد النصفي.",
+     "ru": "Законодатели-демократы призывают к мораторию на строительство новых дата-центров для ИИ после результатов промежуточных выборов."
+    }
+   }
+  ],
+  "last_update": 1793911625
  },
  {
   "ts": 1793894192,
@@ -23165,21 +23189,9 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNTBSZGRNc2NwcU0wTTJ6MG8wT0N0a0daeTV1OGVodVJDVW5EWkhOTkpEV05UMndwYVVEVzRhNDRyUkt0T3VuWk4xXzl6UFZrMVFRZWFVVG5ZUS01b2Y3c3dYUzJfbW84STd0R0lTSXFlZXR2SGtTZGxFaTdIMW8zeHY1dEYtZ1pCdElMUG0tOXFlQVhSNlFOVGp4bGtqS1NyZ01JMHF1YmJfZGxJWjgtaEN5RXpLMS1TZ1JaQ2ZpWUVyLUc3YzVfdW9VNVBNTzZlc0F0aTBmTkp4NU83dDY0amhCbGpCWlJNS1ZuTA?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR1ZBVW4tUUN0aE1KTDdiQWVNMmIxTTVyLWVKMWdDQ0NPTEdKdUlJbTBrb3d0Qk51ZVVjNld6LThGSFd1a1NMc000ak9HelBGNWxidjVVdG9VWnVPU1NVWHN2ZDlHb2h4aTFSNlVzeTlfNmtGUlZETzZDc08yU2ZRNlB5aE5SZ3RQXzhKY0ptQU1YRGJkRnRTYWJNWVQyWlpfQUFfR0dPdElxemRMTGl3ZQ?oc=5"
-   },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wVXFQNTc3ZzJOTm10OHVOanZuUExZMXphMGZkUVNrRkVRdjdtdjI5VG5WY1Ezbm0wV1FBTWJmWHNGSEZvZGp6cElrcHIwZGc1bXhHR2RLOTI1ZHhCTWJPazY3RkJKUnU2ZnE4VA?oc=5"
@@ -23191,6 +23203,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbzQ3TDNFUkdXUHQ3YURvTF9yQWlEQTVuaXVvMXhZa20wZGpESTdvQ2NIVzRpV0JyVGlaM01vc2kwblcwcmZFUGo4a0RDWnZxM0VkNXdNOC1iM05NMFctWHFIY0ZQOUhDTFl1eFBWMkpIN1RNVlZzdk9McjhQZHNJSzBPeTdMRWdZSGN1eFVQS3BqcE9qaF9uM210RXNUUmVfUm1WTlRaR0VGWWF6YTlPQjJ5aElJZ0xJdU1oel9ESGM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObTdiYTJ0a0ZSSFNENFVnM3AzZFp0aWhpcWhsY3JHejB0cjUyV1lnbnVKYjV0aXdDY2FfNE14TlB6dTJscm5WRm9TNUxXTGJia19mRUp6cFNpRXYxOUpRZDBSUWY5UTZmM1RrQWVJNm5STFdQUnpyQndTTW9QYjQzaVpkTW1HTkowOU03QlZrYVI4ai1pMWh4OTZQbmJEVFhCTDQ3M2daZTJHUjYxRWVGWTd4cDNqQ2NZbFc1MzlieDIxb25nb1dZTTBFTjdMNk4zbVplQlg1MkxCVXZieDlERTJNbXk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ2JTLXRkU2VVQWZkTXYya3VPSllnczhIQng1bnk2bkc4clgxRjFvdGdUVlVaOGQwQTg1M3FkbGQtUGtUY3BuVjNuek1nRl9KVVN3RGZIQ0tiYWhuSTAxd1hTM2d2YlNZSGtha3dqRUQyZG1ILWZxM1VVZkt1UUQwbjQtOVVpcWhZUkJwZ3BIRWJmMHJfQjY1dkhuam1BUG9qdjFjcmhicDlVeUlrbjVaMVZFRF9xMGZXS2owedIBvAFBVV95cUxPSy1yaUVJQm0tUkttZVFvWmdrRVl3VmtWc3IxN09XTDdjcHNaay00Rnl4LTZYdDZVOWJldnp3QklZMXNfMTdMYVhOQUxSSV9sYTFDdlB0eDFQQjZYX2twdzcxZFpjcEFMX2gwVk50RTdfVkxDa29tbFM2TFBkaWprcTZZTXhkc29sM0NyQnFlSWM1Y3FuSVhKNDhLNmVQSXFHVEQ5dkFLUG5TVVE0cld5ZmlKVV9MZ2tJb1VTeQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWdBdXlPYTY3SUktZVFNZ1MwSEMtbl9rQ3BTYWtNNVY2NWI3XzBCQUlySGd1RVBURUViOGt1UVVSSGFmeFVDTE9ubUFDZzdEVzZrTFpmNWpyUXZrWDZHQ1RrVWZrRURuTk45dVlUOE5zY1lmSloycU05SXdxejNmUGd5dndlOThkNEhjMHZVU0VDNmEwUHBRandWUWdYb2N0VnJCRFZtZk5oblFONEpoT0dsekFFc1ZZ?oc=5"
    }
   ],
   "impacts": [
@@ -23231,6 +23255,25 @@
      "ru": "ETF развивающихся рынков"
     },
     "price_at_alert": 58.705
+   },
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1793911625,
+    "reason": "עלייה במתיחות בין ארה\"ב לסין עלולה להעיב על השוק הסיני.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות בין ארה\"ב לסין עלולה להעיב על השוק הסיני.",
+     "en": "Rising US-China tensions may weigh on Chinese market sentiment.",
+     "ar": "التوترات المتزايدة بين الولايات المتحدة والصين قد تؤثر سلباً على معنويات السوق الصينية.",
+     "ru": "Рост напряженности между США и Китаем может негативно сказаться на настроениях китайского рынка."
+    },
+    "name_i18n": {
+     "he": "קרן סל של מניות סיניות",
+     "en": "China Large-Cap ETF",
+     "ar": "صندوق استثمار للأسهم الصينية",
+     "ru": "ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.965
    }
   ],
   "id": "001f9924cc99",
@@ -23256,9 +23299,21 @@
      "en": "США объявили о новых санкциях, направленных против ключевых секторов экономики Кубы и конкретных лиц, связанных с правительством.",
      "ar": "أعلنت الولايات المتحدة عن عقوبات جديدة تستهدف قطاعات رئيسية في الاقتصاد الكوبي وأفراداً محددين مرتبطين بالحكومة."
     }
+   },
+   {
+    "ts": 1793911625,
+    "time": "2026-11-05T20:47Z",
+    "severity": 5,
+    "summary": "ארה\"ב הטילה סנקציות על שתי חברות סיניות בגין אספקת ציוד צבאי לקובה, כחלק מהסלמה במדיניות הכלכלית נגד המדינה.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות על שתי חברות סיניות בגין אספקת ציוד צבאי לקובה, כחלק מהסלמה במדיניות הכלכלית נגד המדינה.",
+     "en": "The US has sanctioned two Chinese companies for supplying military equipment to Cuba as part of an escalated economic campaign.",
+     "ar": "فرضت الولايات المتحدة عقوبات على شركتين صينيتين لتزويدهما كوبا بمعدات عسكرية كجزء من حملة اقتصادية متصاعدة.",
+     "ru": "США ввели санкции против двух китайских компаний за поставки военной техники на Кубу в рамках усиления экономической кампании."
+    }
    }
   ],
-  "last_update": 1793908279
+  "last_update": 1793911625
  },
  {
   "ts": 1793904714,
@@ -23541,5 +23596,121 @@
    }
   ],
   "id": "8964b9fbe733"
+ },
+ {
+  "ts": 1793911625,
+  "time": "2026-11-05T20:47Z",
+  "title": "הבנק המרכזי של מקסיקו הוריד את הריבית ל-6.25%",
+  "summary": "הבנק המרכזי של מקסיקו הפתיע בהורדת ריבית ל-6.25% והודיע כי הריבית תישאר נמוכה לתקופה ממושכת.",
+  "kid": "הבנק המרכזי במקסיקו הוריד את הריבית כדי לעזור לכלכלה. זה משפיע על הערך של המטבע המקסיקני ועל חברות שפועלות שם.",
+  "i18n": {
+   "title": {
+    "he": "הבנק המרכזי של מקסיקו הוריד את הריבית ל-6.25%",
+    "en": "Mexico's central bank cuts key rate to 6.25%",
+    "ar": "البنك المركزي المكسيكي يخفض سعر الفائدة الرئيسي إلى 6.25%",
+    "ru": "Центробанк Мексики снизил ключевую ставку до 6.25%"
+   },
+   "summary": {
+    "he": "הבנק המרכזי של מקסיקו הפתיע בהורדת ריבית ל-6.25% והודיע כי הריבית תישאר נמוכה לתקופה ממושכת.",
+    "en": "Mexico's central bank unexpectedly cut its key interest rate to 6.25% and signaled it would remain low for an extended period.",
+    "ar": "قام البنك المركزي المكسيكي بخفض سعر الفائدة الرئيسي بشكل غير متوقع إلى 6.25% وأشار إلى أنه سيظل منخفضاً لفترة طويلة.",
+    "ru": "Центробанк Мексики неожиданно снизил ключевую ставку до 6.25% и дал понять, что она останется низкой в течение длительного периода."
+   },
+   "kid": {
+    "he": "הבנק המרכזי במקסיקו הוריד את הריבית כדי לעזור לכלכלה. זה משפיע על הערך של המטבע המקסיקני ועל חברות שפועלות שם.",
+    "en": "The central bank in Mexico lowered interest rates to help the economy. This affects the value of the Mexican currency and companies that operate there.",
+    "ar": "قام البنك المركزي في المكسيك بخفض أسعار الفائدة لمساعدة الاقتصاد. وهذا يؤثر على قيمة العملة المكسيكية والشركات التي تعمل هناك.",
+    "ru": "Центробанк Мексики снизил процентные ставки, чтобы помочь экономике. Это влияет на стоимость мексиканской валюты и компании, работающие там."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcEdSZlFKakZaX0MxMHBGeXlES2daQ1FiS1UzWTU0eW9kQ1BBdFhIb083Z0JNXzhscjZoMlI1ZkszVUgxNENVdm9HZUZFSDB3OE1xY1hRR3hpRERtaDhMcjdWazhDWGR4UEV4WnBTY0M1TFd4TlRtM05ZYk9seTNRejFVcDlRTE5xR3Q0b0dWNVNycHMtREpVTGV0V1E3NktaZWtvTWpZbktzTjRlRXB6dVY5cXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWW",
+    "direction": "up",
+    "t0": 1793911625,
+    "reason": "ריבית נמוכה יותר עשויה לעודד צמיחה כלכלית במקסיקו.",
+    "reason_i18n": {
+     "he": "ריבית נמוכה יותר עשויה לעודד צמיחה כלכלית במקסיקו.",
+     "en": "Lower interest rates may stimulate economic growth in Mexico.",
+     "ar": "أسعار الفائدة المنخفضة قد تحفز النمو الاقتصادي في المكسيك.",
+     "ru": "Более низкие процентные ставки могут стимулировать экономический рост в Мексике."
+    },
+    "name_i18n": {
+     "he": "קרן סל של מניות מקסיקו",
+     "en": "Mexico ETF",
+     "ar": "صندوق استثمار للأسهم المكسيكية",
+     "ru": "ETF мексиканского рынка"
+    },
+    "price_at_alert": 76.02
+   }
+  ],
+  "id": "63f766ef7fdb"
+ },
+ {
+  "ts": 1793911625,
+  "time": "2026-11-05T20:47Z",
+  "title": "חברת Vector משיקה רחפן תקיפה חדש",
+  "summary": "חברת Vector הציגה מערכת רחפן תקיפה חדשה הכוללת מטען נפץ ושלט רחוק, המיועדת לשימוש צבאי.",
+  "kid": "חברה פיתחה רחפן חדש שיכול לשאת חומר נפץ. זה מראה על המשך הפיתוח של טכנולוגיות צבאיות אוטונומיות.",
+  "i18n": {
+   "title": {
+    "he": "חברת Vector משיקה רחפן תקיפה חדש",
+    "en": "Vector introduces new one-way attack drone",
+    "ar": "شركة Vector تطلق طائرة بدون طيار هجومية جديدة",
+    "ru": "Компания Vector представила новый дрон-камикадзе"
+   },
+   "summary": {
+    "he": "חברת Vector הציגה מערכת רחפן תקיפה חדשה הכוללת מטען נפץ ושלט רחוק, המיועדת לשימוש צבאי.",
+    "en": "Vector has introduced a new one-way attack drone system, including an explosive payload and remote control, designed for military use.",
+    "ar": "قدمت شركة Vector نظام طائرات بدون طيار هجومي جديد يتضمن حمولة متفجرة وجهاز تحكم عن بعد، مصمم للاستخدام العسكري.",
+    "ru": "Компания Vector представила новую систему дронов-камикадзе, включающую взрывную нагрузку и дистанционное управление, предназначенную для военных целей."
+   },
+   "kid": {
+    "he": "חברה פיתחה רחפן חדש שיכול לשאת חומר נפץ. זה מראה על המשך הפיתוח של טכנולוגיות צבאיות אוטונומיות.",
+    "en": "A company developed a new drone that can carry explosives. This shows the continued development of autonomous military technologies.",
+    "ar": "طورت شركة طائرة بدون طيار جديدة يمكنها حمل متفجرات. وهذا يظهر استمرار تطوير التقنيات العسكرية المستقلة.",
+    "ru": "Компания разработала новый дрон, способный нести взрывчатку. Это показывает продолжение развития автономных военных технологий."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1793911625,
+    "reason": "התחרות בתחום הרחפנים הצבאיים גוברת, מה שמעיד על ביקוש גבוה.",
+    "reason_i18n": {
+     "he": "התחרות בתחום הרחפנים הצבאיים גוברת, מה שמעיד על ביקוש גבוה.",
+     "en": "Competition in the military drone space is increasing, indicating high demand.",
+     "ar": "المنافسة في مجال الطائرات بدون طيار العسكرية تتزايد، مما يشير إلى ارتفاع الطلب.",
+     "ru": "Конкуренция в сфере военных дронов растет, что указывает на высокий спрос."
+    },
+    "name_i18n": {
+     "he": "AeroVironment - יצרנית רחפנים",
+     "en": "AeroVironment - Drone manufacturer",
+     "ar": "AeroVironment - مصنع طائرات بدون طيار",
+     "ru": "AeroVironment - производитель дронов"
+    },
+    "price_at_alert": 102.995
+   }
+  ],
+  "id": "e5cadbadc77c"
  }
 ]
