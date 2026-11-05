@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T14:55Z",
+ "generated": "2026-11-05T15:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 264,
+ "total_alerts": 267,
  "overall": {
   "n": 207,
   "hits": 79,
@@ -90,14 +90,14 @@
    "avg_edge": -2.82
   },
   "XLE": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 13,
    "hits": 5,
    "name": {
-    "he": "XLE - קרן סל אנרגיה",
-    "en": "XLE - Energy Select Sector SPDR Fund",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "ETF אנרגיה",
+    "en": "Energy Sector ETF",
+    "ar": "صندوق استثمار لقطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -1.58
   },
@@ -114,14 +114,14 @@
    "avg_edge": -1.8
   },
   "XOM": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "אקסון מובייל – חברת אנרגיה ענקית",
-    "en": "ExxonMobil – a major energy company",
-    "ar": "إكسون موبيل – شركة طاقة كبرى",
-    "ru": "ExxonMobil – крупная энергетическая компания"
+    "he": "אקסון מוביל",
+    "en": "Exxon Mobil",
+    "ar": "إكسون موبيل",
+    "ru": "Exxon Mobil"
    },
    "avg_edge": -4.34
   },
@@ -150,13 +150,13 @@
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 44,
+   "mentions": 45,
    "n": 26,
    "hits": 10,
    "name": {
-    "he": "קרן ביטחון ותעופה",
+    "he": "ETF תעופה וביטחון",
     "en": "Aerospace & Defense ETF",
-    "ar": "صندوق الدفاع والطيران",
+    "ar": "صندوق استثمار للطيران والدفاع",
     "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -1.16
@@ -210,24 +210,24 @@
    "avg_edge": -1.21
   },
   "NVDA": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "אנבידיה - יצרנית שבבים",
-    "en": "Nvidia - chip maker",
-    "ar": "إنفيديا - صانع الرقائق",
-    "ru": "Nvidia - производитель чипов"
+    "he": "אנבידיה",
+    "en": "Nvidia",
+    "ar": "إنفيديا",
+    "ru": "Nvidia"
    },
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 13,
    "hits": 7,
    "name": {
     "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
+    "en": "S&P 500 index",
     "ar": "مؤشر S&P 500",
     "ru": "Индекс S&P 500"
    },
@@ -282,14 +282,14 @@
    "avg_edge": -5.56
   },
   "TLT": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 5,
    "hits": 4,
    "name": {
-    "he": "TLT - אג\"ח ממשלת ארה\"ב לטווח ארוך",
-    "en": "TLT - Long-term US Treasury Bond ETF",
-    "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "TLT - ETF долгосрочных гособлигаций США"
+    "he": "אג\"ח ממשלתי ארוך",
+    "en": "Long-term US Treasury bonds",
+    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "Долгосрочные гособлигации США"
    },
    "avg_edge": 0.49
   },
@@ -330,13 +330,13 @@
    "avg_edge": 0.19
   },
   "JETS": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "קרן סל של חברות תעופה",
-    "en": "Airline ETF",
-    "ar": "صندوق الاستثمار المتداول لشركات الطيران",
+    "he": "ETF חברות תעופה",
+    "en": "Airlines ETF",
+    "ar": "صندوق استثمار لشركات الطيران",
     "ru": "ETF авиакомпаний"
    },
    "avg_edge": -1.53
@@ -786,25 +786,25 @@
    "avg_edge": null
   },
   "AMD": {
-   "mentions": 1,
-   "n": 0,
-   "hits": 0,
-   "name": {
-    "he": "AMD - יצרנית שבבים",
-    "en": "AMD – chipmaker",
-    "ar": "AMD - صانعة رقائق",
-    "ru": "AMD – производитель чипов"
-   },
-   "avg_edge": null
-  },
-  "SMH": {
    "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "תעודת סל סמיקונדקטורס",
-    "en": "Semiconductors ETF",
-    "ar": "صندوق أشباه الموصلات",
+    "he": "AMD",
+    "en": "AMD",
+    "ar": "AMD",
+    "ru": "AMD"
+   },
+   "avg_edge": null
+  },
+  "SMH": {
+   "mentions": 3,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ETF שבבים",
+    "en": "Semiconductor ETF",
+    "ar": "صندوق استثمار للرقائق",
     "ru": "ETF полупроводников"
    },
    "avg_edge": null
