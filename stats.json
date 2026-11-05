@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-05T17:08Z",
+ "generated": "2026-11-05T18:00Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 270,
+ "total_alerts": 273,
  "overall": {
-  "n": 207,
+  "n": 208,
   "hits": 79,
-  "avg_edge": -1.11
+  "avg_edge": -1.13
  },
  "by_category": {
   "climate": {
@@ -19,9 +19,9 @@
    "avg_edge": -0.36
   },
   "contracts": {
-   "n": 57,
+   "n": 58,
    "hits": 25,
-   "avg_edge": -1.43
+   "avg_edge": -1.48
   },
   "cyber": {
    "n": 14,
@@ -61,9 +61,9 @@
    "avg_edge": -0.87
   },
   "4-5": {
-   "n": 105,
+   "n": 106,
    "hits": 44,
-   "avg_edge": -0.74
+   "avg_edge": -0.78
   },
   "6-7": {
    "n": 53,
@@ -175,7 +175,7 @@
   },
   "ESLT.TA": {
    "mentions": 4,
-   "n": 2,
+   "n": 3,
    "hits": 0,
    "name": {
     "he": "אלביט מערכות",
@@ -183,7 +183,7 @@
     "ar": "إلبيت سيستمز",
     "ru": "Elbit Systems"
    },
-   "avg_edge": -1.45
+   "avg_edge": -2.44
   },
   "ESLT": {
    "mentions": 6,
@@ -222,12 +222,12 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 13,
    "hits": 7,
    "name": {
     "he": "מדד S&P 500",
-    "en": "S&P 500 index",
+    "en": "S&P 500 Index",
     "ar": "مؤشر S&P 500",
     "ru": "Индекс S&P 500"
    },
@@ -1033,6 +1033,30 @@
     "en": "John Deere",
     "ar": "جون دير",
     "ru": "John Deere"
+   },
+   "avg_edge": null
+  },
+  "JPM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ג'יי פי מורגן",
+    "en": "JPMorgan Chase",
+    "ar": "جي بي مورغان تشيس",
+    "ru": "JPMorgan Chase"
+   },
+   "avg_edge": null
+  },
+  "EWW": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל מקסיקו",
+    "en": "Mexico ETF",
+    "ar": "صندوق الاستثمار المتداول للمكسيك",
+    "ru": "ETF Мексики"
    },
    "avg_edge": null
   }

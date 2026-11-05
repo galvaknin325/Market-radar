@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T17:08Z",
+ "generated": "2026-11-05T18:00Z",
  "trade_size": 1000,
  "important": {
   "trades": 66,
@@ -632,11 +632,11 @@
   ]
  },
  "all": {
-  "trades": 207,
+  "trades": 208,
   "wins": 81,
   "hits": 79,
-  "pnl": -1698.0,
-  "bench_pnl": 1564.5,
+  "pnl": -1798.7,
+  "bench_pnl": 1508.2,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-04",
@@ -658,23 +658,23 @@
    "bench_pnl": 18.6
   },
   "worst": {
-   "date": "2026-11-04",
-   "ticker": "AVAV",
+   "date": "2026-11-05",
+   "ticker": "ESLT.TA",
    "dir": "up",
-   "severity": 3,
+   "severity": 4,
    "cat": "contracts",
-   "id": "f1ead2e62673",
-   "title": "מגלניק קלאוד מכריזה על מוכנות מתקן כטב\"מים במסגרת שותפות עם McRay Xtend ההודית",
+   "id": "3754a0eea740",
+   "title": "אלביט מערכות מרחיבה את חבילת ההגנה הימית",
    "title_i18n": {
-    "he": "מגלניק קלאוד מכריזה על מוכנות מתקן כטב\"מים במסגרת שותפות עם McRay Xtend ההודית",
-    "en": "Magellanic Cloud Declares UAV Facility Readiness Under India Joint Venture",
-    "ar": "ماجلانيك كلاود تعلن جاهزية منشأة الطائرات بدون طيار في إطار مشروع مشترك هندي",
-    "ru": "Magellanic Cloud объявила о готовности предприятия БПЛА в рамках СП в Индии"
+    "he": "אלביט מערכות מרחיבה את חבילת ההגנה הימית",
+    "en": "Elbit Systems expands integrated naval defense suite",
+    "ar": "אלبيت سيستمز توسع مجموعة الدفاع البحري المتكاملة",
+    "ru": "Elbit Systems расширяет комплекс морской обороны"
    },
-   "change_pct": -8.41,
+   "change_pct": -10.07,
    "hit": false,
-   "pnl": -84.1,
-   "bench_pnl": 18.6
+   "pnl": -100.7,
+   "bench_pnl": -56.3
   },
   "curve": [
    {
@@ -686,9 +686,33 @@
     "date": "2026-11-04",
     "equity": -1698.0,
     "bench": 1564.5
+   },
+   {
+    "date": "2026-11-05",
+    "equity": -1798.7,
+    "bench": 1508.2
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-05",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "3754a0eea740",
+    "title": "אלביט מערכות מרחיבה את חבילת ההגנה הימית",
+    "title_i18n": {
+     "he": "אלביט מערכות מרחיבה את חבילת ההגנה הימית",
+     "en": "Elbit Systems expands integrated naval defense suite",
+     "ar": "אלبيت سيستمز توسع مجموعة الدفاع البحري المتكاملة",
+     "ru": "Elbit Systems расширяет комплекс морской обороны"
+    },
+    "change_pct": -10.07,
+    "hit": false,
+    "pnl": -100.7,
+    "bench_pnl": -56.3
+   },
    {
     "date": "2026-11-04",
     "ticker": "ZIM",
@@ -1238,25 +1262,6 @@
     "change_pct": 4.97,
     "hit": false,
     "pnl": -49.7,
-    "bench_pnl": 18.6
-   },
-   {
-    "date": "2026-11-04",
-    "ticker": "TRV",
-    "dir": "down",
-    "severity": 4,
-    "cat": "climate",
-    "id": "60cb8decc3fc",
-    "title": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
-    "title_i18n": {
-     "en": "Flash Flood Emergency in Florida Space Coast",
-     "he": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
-     "ar": "طوارئ الفيضانات المفاجئة في ساحل الفضاء بولاية فلوريدا",
-     "ru": "Чрезвычайная ситуация из-за внезапных наводнений на Космическом побережье Флориды"
-    },
-    "change_pct": 3.15,
-    "hit": false,
-    "pnl": -31.5,
     "bench_pnl": 18.6
    }
   ]

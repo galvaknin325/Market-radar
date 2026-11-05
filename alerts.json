@@ -14942,7 +14942,18 @@
      "ar": "אלبيت سيستمز في تل أبيب",
      "ru": "Elbit Systems на TASE"
     },
-    "price_at_alert": 238600.0
+    "price_at_alert": 238600.0,
+    "entry_price": 237000.0,
+    "entry_time": "2026-11-04T07:50+00:00",
+    "exit_price": 213140.0,
+    "exit_date": "2026-11-05",
+    "change_pct": -10.07,
+    "bench": "TA35.TA",
+    "bench_change_pct": -5.63,
+    "excess_pct": -4.44,
+    "edge_pct": -4.44,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "3754a0eea740"
@@ -21454,7 +21465,12 @@
   "category": "geopolitics",
   "severity": 7,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEJ3RUk3eVdjYm5GZXQ4MFdpRlhaY3RCMEgtZHJRZjNxN0UzVTNHWGF3NUFBZC1OSnVWV2ZHdVBfY19tT0JqY1RiSVpaNmxNMDdVa0JTZTl2M3JVZXZ1UWxLSnRsc3FFY3VhRVFJZ3g0RDFzYTVmV3hEUm85akpmRF9tLUlPY18zYTN3NWJGS3pNc09iaDlNZDdhV084bFhGWVYxSDI3aGRrT0U?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -21495,7 +21511,22 @@
     "price_at_alert": 212.84
    }
   ],
-  "id": "d9b9c8d8429b"
+  "id": "d9b9c8d8429b",
+  "updates": [
+   {
+    "ts": 1793901601,
+    "time": "2026-11-05T18:00Z",
+    "severity": 7,
+    "summary": "רוסיה הסכימה לספק לאיראן 90 משגרי טילים עבור מסוקי תקיפה.",
+    "i18n": {
+     "he": "רוסיה הסכימה לספק לאיראן 90 משגרי טילים עבור מסוקי תקיפה.",
+     "en": "Russia has agreed to supply Iran with 90 missile launchers for attack helicopters.",
+     "ar": "وافقت روسيا على تزويد إيران بـ 90 قاذفة صواريخ للمروحيات الهجومية.",
+     "ru": "Россия согласилась поставить Ирану 90 ракетных установок для ударных вертолетов."
+    }
+   }
+  ],
+  "last_update": 1793901601
  },
  {
   "ts": 1793878811,
@@ -22194,7 +22225,12 @@
   "category": "commodities",
   "severity": 4,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzgtQTJ4TDVEazJpT1VYZ2xOd3VlUE5mY3kyWm9yVkxzcE9nWUJDblkxUDRycFprb3dwRGRyZVpiSXk0MzJ5T2ZWWWo1WHl6QmF3c0xvQl9xLUdOLVFzU05acVo5cjJKdUMzVWVhRVZQQjVYaXZaV0RyNzhlNWgwYVktZzJOWDVFbHpsWjFxVFpTZWhGeE5hZXpwUEg5UExVM0Z4OWNPbzF2Q0dkeExick8ya0pabmtFYWpGRmZnSzJyQkQ4?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "FCX",
@@ -22216,7 +22252,22 @@
     "price_at_alert": 62.6
    }
   ],
-  "id": "06ab11700125"
+  "id": "06ab11700125",
+  "updates": [
+   {
+    "ts": 1793901601,
+    "time": "2026-11-05T18:00Z",
+    "severity": 4,
+    "summary": "חברת ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט נחושת באריזונה.",
+    "i18n": {
+     "he": "חברת ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט נחושת באריזונה.",
+     "en": "Rio Tinto has approved a $144 million investment in a copper project in Arizona.",
+     "ar": "وافقت شركة ريو تينتو على استثمار بقيمة 144 مليون دولار في مشروع للنحاس في أريزونا.",
+     "ru": "Компания Rio Tinto одобрила инвестиции в размере 144 миллионов долларов в медный проект в Ариזоне."
+    }
+   }
+  ],
+  "last_update": 1793901601
  },
  {
   "ts": 1793890516,
@@ -22352,7 +22403,12 @@
   "category": "geopolitics",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUkV3QUt3OFpDZnNmWjQzaXRxQXJBLXNBZzBSQ3p4QnBYc2JJNFZUUnBIUlRNZ21SdFEtOUNhWWxDYVdBOUNQTXAtWmlmc1Uya29wN2dvUjZtOHVZbmpRaEpMZWlvZDZiR3ZBZ2FhWnNoeVNXdGwyakJpWTI1SjV1WWJlVzRhN1BwWkJWcUREMUdWTndvTk9zRw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "INDA",
@@ -22406,9 +22462,21 @@
      "ar": "أجرت الهند تجربة ناجحة لصاروخها الباليستي المطور محلياً 'برالاي'، مما يقرب النظام من الدخول في الخدمة العسكرية.",
      "ru": "Индия успешно испытала свою баллистическую ракету 'Пралай' собственной разработки, приближая систему к принятию на вооружение."
     }
+   },
+   {
+    "ts": 1793901601,
+    "time": "2026-11-05T18:00Z",
+    "severity": 4,
+    "summary": "ארגון המחקר והפיתוח הביטחוני של הודו (DRDO) ביצע ניסוי מוצלח בטיל בליסטי מסוג Pralay.",
+    "i18n": {
+     "he": "ארגון המחקר והפיתוח הביטחוני של הודו (DRDO) ביצע ניסוי מוצלח בטיל בליסטי מסוג Pralay.",
+     "en": "India's Defence Research and Development Organisation (DRDO) successfully flight-tested a Pralay ballistic missile.",
+     "ar": "أجرت منظمة البحث والتطوير الدفاعي الهندية (DRDO) اختباراً ناجحاً لصاروخ باليستي من طراز Pralay.",
+     "ru": "Организация оборонных исследований и разработок Индии (DRDO) успешно провела летные испытания баллистической ракеты Pralay."
+    }
    }
   ],
-  "last_update": 1793894192
+  "last_update": 1793901601
  },
  {
   "ts": 1793894192,
@@ -22655,7 +22723,20 @@
   "category": "macro",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUE5VZkpiS2JwRHlpRnpvZkhwcWFoN3gzeUJ4ZVF5bmo1T3dYUXNVQ1hPV255THRCYmdvZU9faExZakdqaVJ5dWpQWWwyaEFOWDlDLXVMWG5rTm4ySHhjV3laNFpkR1QyeWt1VUUwblJfRWVDZGVVOXluVGtxYW80QkFvMXdweG9yaGsyMHpoNkdWZE1pUy1MZ2lvaUxpY0FvV2Y0TDFORUpBT2JuQ0x6YVhsbEJuZVJ1OGh2c0hsem1xWUVvT1pQTjZ2d1VWQXZTcnQtLTQ1YTd6Q3JmVnlZNXVxTVJLRHhPVEFraHk2NnluZHphUWR0a04tMVpOekxRYlV4TmdKSEY1X2_SAZACQVVfeXFMUG9GQzhadm5sRFFhN3FhVkt6UmpyU3FTbDB1VV8tRmNKbTRxU1JmSFYwaUYwYjZxUWNYQ0tOSk5DZzlmRTVoUjN5cU4zR1pSM2l5NndKZno0SUlWcE5qNzMwbVlVV1B0ZzRNQ2VzOWc0anBhVVNLTVQ5ci14aVQ4NElTOEEzdEdDMGpZamZKQjVNVHdzSm1nbDZCaVhsMzk1aXBvOVhkNTdpRk0tdUY1RWdMZmIzUjJCT2dUQ1FEN1dLU0RiZkVMSTloTjZCZTc3d3dyTlUtN3A3MUtXQURTWnRpMnVFNWZVTlpyc2FJSzVYWjRoTkhpaVkwZ1cxaWVNNDJyeHlha2dmVlFfZ2FGS0w?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlZ5T3EzQ016ckR4WjBiOEp1Zk1keVBrV3ExeUR1V0dkZWRGaEVjU1VEVUh5OEMtYjhSSVNBZ2h5dmNQUmtNTEQ0aUc1VlBZV21sSnpIcmdlZ1d4dnNFTjJHSjdoXzc1bUhYUlIycUFxWVY4TkNkc1FiUjRZYmdmdk5oUE8?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYjc0UG9RVGdleWpYb1NwQ1UydlFTVkUwa3paUGp5TF96b01HOXZ5Yi1ZTmNjTjFubWRLZjZGSmwxY0c3T3FyZk43Vno4VEdDODlvWnpyc2o1eUY0UEQtS0MySXpxSXNxc1hVdEhFZlVsS0hycHZRQmd2UTNoUVFMSjVtNFVneC10UmwwbTduQTVGckJ0WjcxeFY1TXh1RHZzMHpRLXlPa3JWb0pqYkJ0cw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EWU",
@@ -22677,7 +22758,22 @@
     "price_at_alert": 48.29
    }
   ],
-  "id": "d7fab51f9db3"
+  "id": "d7fab51f9db3",
+  "updates": [
+   {
+    "ts": 1793901601,
+    "time": "2026-11-05T18:00Z",
+    "severity": 7,
+    "summary": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% לראשונה מזה שלוש שנים והזהיר מפני העלאות נוספות בשל האינפלציה.",
+    "i18n": {
+     "he": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% לראשונה מזה שלוש שנים והזהיר מפני העלאות נוספות בשל האינפלציה.",
+     "en": "The Bank of England raised interest rates to 4% for the first time in three years and warned of further hikes due to inflation.",
+     "ar": "رفع بنك إنجلترا أسعار الفائدة إلى 4% لأول مرة منذ ثلاث سنوات وحذر من زيادات أخرى بسبب التضخم.",
+     "ru": "Банк Англии повысил процентные ставки до 4% впервые за три года и предупредил о дальнейших повышениях из-за инфляции."
+    }
+   }
+  ],
+  "last_update": 1793901601
  },
  {
   "ts": 1793898450,
@@ -22822,5 +22918,195 @@
    }
   ],
   "id": "aed67b0070c4"
+ },
+ {
+  "ts": 1793901601,
+  "time": "2026-11-05T18:00Z",
+  "title": "הפסקת אש באולשקי בתיווך מלניה טראמפ",
+  "summary": "דיווחים על הפסקת אש באזור אולשקי בתיווך מלניה טראמפ, שזכתה להכרה מצד נציגים רוסים ואוקראינים.",
+  "kid": "הושג הסכם להפסקת לחימה באזור מסוים באוקראינה. זה עשוי להרגיע את השווקים שחוששים מהמלחמה.",
+  "i18n": {
+   "title": {
+    "he": "הפסקת אש באולשקי בתיווך מלניה טראמפ",
+    "en": "Oleshky ceasefire facilitated by Melania Trump",
+    "ar": "وقف إطلاق النار في أوليشكي بوساطة ميلانيا ترامب",
+    "ru": "Прекращение огня в Олешках при посредничестве Мелании Трамп"
+   },
+   "summary": {
+    "he": "דיווחים על הפסקת אש באזור אולשקי בתיווך מלניה טראמפ, שזכתה להכרה מצד נציגים רוסים ואוקראינים.",
+    "en": "Reports of a ceasefire in the Oleshky region facilitated by Melania Trump, which has been acknowledged by Russian and Ukrainian envoys.",
+    "ar": "تقارير عن وقف إطلاق النار في منطقة أوليشكي بوساطة ميلانيا ترامب، وهو ما اعترف به المبعوثون الروس والأوكرانيون.",
+    "ru": "Сообщения о прекращении огня в районе Олешек при посредничестве Мелании Трамп, что было признано российскими и украинскими посланниками."
+   },
+   "kid": {
+    "he": "הושג הסכם להפסקת לחימה באזור מסוים באוקראינה. זה עשוי להרגיע את השווקים שחוששים מהמלחמה.",
+    "en": "A deal was made to stop fighting in a specific area of Ukraine. This might make investors feel calmer about the war.",
+    "ar": "تم التوصل إلى اتفاق لوقف القتال في منطقة معينة في أوكرانيا. هذا قد يجعل المستثمرين يشعرون بالهدوء بشأن الحرب.",
+    "ru": "Было достигнуто соглашение о прекращении боевых действий в определенном районе Украины. Это может успокоить инвесторов, обеспокоенных войной."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUmtpeE5zSURLdmdPckRmdzJpNEJoVEptNG91aDBUaVhUNEdiNGxBZ3NLRmZQM0lHQ1p3ejdfTWV4V0tjZGxNcWFsRDRwQUlpSnhHTWdZQUV6Nlk2aDE3Szl1c2xpNWl1R21lWVhHaFpsMnd1ZlFkYzFBaGs0cU0xS1NieXdQNkZxYWRWSElkVEhkS1M5X3VOT2stUW5RbXAwcGF6TTJLS0pBVzhTNEJ3VTBSdTM1N25vYlZ5OWEwaF9ucGMtNGdR0gHMAUFVX3lxTE9zTm9RQmFjMks3M3lic0lZbFk0bzBzTGhCOTM5SFd0MGdYQXQ3eF96Y0xmQmxVMUYwcTQ5SmlVU190QUF5c3d2S0dENmtBaW9ma0Vhb2w2bm9JZFNBbzMzY2s1QUg5aW9nSWJkN1I5SHptUlFEWkp4ZHVxdTZYNDRzOE1lWEN6eDZWOXFrZE4zVTI3UV9aWGFWSTlBYUFLLVJ6VWM2c2VLdlBaeERYcVk0V2FzWmRpNmZNUmpwWVotM25vdzBEN1BPdExUeA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLQ2VsUTVseC0zRE1zMl81MndIQzdONy1BLXAtM0l2d0pMaUZJSTFFVmZ1Sm12MnpZNGdvV1J0ZWotUjI1dXJuZTBlZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTE9Ia1h0aWZmellOeF9FZkpRcVlHU0taVXpBY29EdGRES3JHMTFxRjJNQ3RrZVdUeDRKdjNPbG5mYnVsYzJOM1hpMmtiYnhhUnNOUU5UUzJXcTRhRkVuOFNJTS1xdjh2OWdLVHZ3YXVCYXZiM3FaYnRyWTlHczdETkF5RF9LdFdLOGsxcVZXeVhXaGZvTlJPdjZMRkMzbk5QREFmeFFLTUNGVjZvTGVqVzQ0Ym5MelB0WnlRbzRQeDl0dGsxYXRnRTVWUnlwZHFsdHc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR3VySnA4LWIxMDV1RkFPblRjSTZzd0dIQWFsenQ5QkRwc3Q1b1JRcXNRamJRVHk4eE02OFhaWktRNTU0YThEcDMtbUJJaUNZVU9tcUl2TnlBcmx3ZGFyM2wyNVdHSDR6YnBYdWlQNTB1Yi1tYlhsdVk1dEdIVlFqNjdIR2lFbFg0d1I1aGFHdGkzc0dDQjNMSWJwSnNBUXhCTFpfeWJBdloyalFpZlZTRmVqTE83Rlk3TUVBYmtFbmtEdkpnWVpUQtIBzgFBVV95cUxOUEhlWkJMQkd0V2VEdXlnWnRvNFhRWnROaXd2TVpwQTlHdTZsNGZfS0NPRzFsUEx2X1YxbFo1ZHFoeGl2Y3NuM1ROdDZGY3lPcXBlb2JhOHNOTk55OVZ2ejJfYnZZSWU2Nk9aQUVBUlRVeF9SbU1Bb1FESHRaUW4tZk5TSEROWC02b09WeGxWUjBJdlo2aVhFVHp4SkFLeEp2NEhRREQ4aDViVEIzZnQxRUxZWGMwZTg3cFE3RWYwdzI5dkRZQjV5ell3ZVh5QQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPc3dyaUwwOTRuVWp0ZWd2blB2Vk5GTVVnc3FEUHA1V1VBdG8xNG8yNjNFdEdIejBWcjdhMEVNOXhUcmd4bHFsNFctMDBRLWVPNWhUaE9Zd0Q0RlZNMXFlaFl1ckN3dTM5ZmxiNmgzMEJKVTFNR2RxRHpJUTZiRjBBUEl4VDJXb1NIazY4aEVtWUphdXdkdW5hVnFJOVRMR2F6aE11THFLVW42TnB6d2NMY1FZZUtuRzZ2QmozREp0aFpQQjd5UC1qNjdVdGpIRk1sSnlpdTBnMUNyMVBYQkZGa28zTEZoZ2JvQTBUVlZadXFEX0d3NVRFTGh5QXVOXzVFU0JFRm1NRHh1TGd2SmV3VjNfNmctQkpuMTNFRWNUaXBpOGo5OVJpQ3gxTnAxRkJvbUE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793901601,
+    "reason": "הפחתת אי-ודאות גיאופוליטית עשויה להוביל לעליות בשוק.",
+    "reason_i18n": {
+     "he": "הפחתת אי-ודאות גיאופוליטית עשויה להוביל לעליות בשוק.",
+     "en": "Reduced geopolitical uncertainty may lead to market gains.",
+     "ar": "تقليل عدم اليقين الجيوسياسي قد يؤدي إلى مكاسب في السوق.",
+     "ru": "Снижение геополитической неопределенности может привести к росту рынка."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 735.83
+   }
+  ],
+  "id": "98455491dbf7"
+ },
+ {
+  "ts": 1793901601,
+  "time": "2026-11-05T18:00Z",
+  "title": "דמוקרטים יחקרו את הקשר בין ג'יי פי מורגן לאפשטיין",
+  "summary": "הדמוקרטים מתכננים לחקור את הקשרים העסקיים של בנק ג'יי פי מורגן עם ג'פרי אפשטיין לאחר השתלטותם על הסנאט.",
+  "kid": "הפוליטיקאים רוצים לבדוק אם הבנק הגדול עשה משהו לא בסדר בקשר לאדם מפורסם שביצע פשעים.",
+  "i18n": {
+   "title": {
+    "he": "דמוקרטים יחקרו את הקשר בין ג'יי פי מורגן לאפשטיין",
+    "en": "Democrats to probe JPMorgan's relationship with Epstein",
+    "ar": "الديمقراطيون سيحققون في علاقة جي بي مورغان بإبستين",
+    "ru": "Демократы расследуют связь JPMorgan с Эпштейном"
+   },
+   "summary": {
+    "he": "הדמוקרטים מתכננים לחקור את הקשרים העסקיים של בנק ג'יי פי מורגן עם ג'פרי אפשטיין לאחר השתלטותם על הסנאט.",
+    "en": "Democrats plan to investigate JPMorgan's business ties with Jeffrey Epstein after taking control of the Senate.",
+    "ar": "يخطط الديمقراطيون للتحقيق في العلاقات التجارية لبنك جي بي مورغان مع جيفري إبستين بعد سيطرتهم على مجلس الشيوخ.",
+    "ru": "Демократы планируют расследовать деловые связи банка JPMorgan с Джеффри Эпштейном после получения контроля над Сенатом."
+   },
+   "kid": {
+    "he": "הפוליטיקאים רוצים לבדוק אם הבנק הגדול עשה משהו לא בסדר בקשר לאדם מפורסם שביצע פשעים.",
+    "en": "Politicians want to check if the big bank did something wrong regarding a famous person who committed crimes.",
+    "ar": "يريد السياسيون التحقق مما إذا كان البنك الكبير قد فعل شيئاً خاطئاً فيما يتعلق بشخص مشهور ارتكب جرائم.",
+    "ru": "Политики хотят проверить, сделал ли крупный банк что-то не так в отношении известного человека, совершившего преступления."
+   }
+  },
+  "category": "policy",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "JPM",
+    "direction": "down",
+    "t0": 1793901601,
+    "reason": "חקירות פוליטיות עלולות להוביל לקנסות או לפגיעה במוניטין.",
+    "reason_i18n": {
+     "he": "חקירות פוליטיות עלולות להוביל לקנסות או לפגיעה במוניטין.",
+     "en": "Political investigations can lead to fines or reputational damage.",
+     "ar": "التحقيقات السياسية قد تؤدي إلى غرامات أو الإضرار بالسمعة.",
+     "ru": "Политические расследования могут привести к штрафам или репутационному ущербу."
+    },
+    "name_i18n": {
+     "he": "ג'יי פי מורגן",
+     "en": "JPMorgan Chase",
+     "ar": "جي بي مورغان تشيس",
+     "ru": "JPMorgan Chase"
+    },
+    "price_at_alert": 338.45
+   }
+  ],
+  "id": "254c046fcc56"
+ },
+ {
+  "ts": 1793901601,
+  "time": "2026-11-05T18:00Z",
+  "title": "סנקציות אמריקאיות חדשות על קובה",
+  "summary": "ארה\"ב הטילה סנקציות חדשות המכוונות למגזרים ספציפיים בכלכלת קובה.",
+  "kid": "ארה\"ב הגבילה את המסחר עם קובה. זה יכול להשפיע על חברות שעושות עסקים שם.",
+  "i18n": {
+   "title": {
+    "he": "סנקציות אמריקאיות חדשות על קובה",
+    "en": "New US sanctions on Cuba",
+    "ar": "عقوبات أمريكية جديدة على كوبا",
+    "ru": "Новые санкции США против Кубы"
+   },
+   "summary": {
+    "he": "ארה\"ב הטילה סנקציות חדשות המכוונות למגזרים ספציפיים בכלכלת קובה.",
+    "en": "The US has imposed new sanctions targeting specific sectors of the Cuban economy.",
+    "ar": "فرضت الولايات المتحدة عقوبات جديدة تستهدف قطاعات محددة من الاقتصاد الكوبي.",
+    "ru": "США ввели новые санкции, направленные на определенные сектора экономики Кубы."
+   },
+   "kid": {
+    "he": "ארה\"ב הגבילה את המסחר עם קובה. זה יכול להשפיע על חברות שעושות עסקים שם.",
+    "en": "The US has restricted trade with Cuba. This could affect companies that do business there.",
+    "ar": "قيدت الولايات المتحدة التجارة مع كوبا. وهذا قد يؤثر على الشركات التي تمارس أعمالاً تجارية هناك.",
+    "ru": "США ограничили торговлю с Кубой. Это может повлиять на компании, ведущие там бизнес."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWW",
+    "direction": "down",
+    "t0": 1793901601,
+    "reason": "הסלמה בסנקציות אזוריות עלולה להשפיע על הסנטימנט בשווקים מתעוררים.",
+    "reason_i18n": {
+     "he": "הסלמה בסנקציות אזוריות עלולה להשפיע על הסנטימנט בשווקים מתעוררים.",
+     "en": "Escalation in regional sanctions may affect emerging market sentiment.",
+     "ar": "تصعيد العقوبات الإقليمية قد يؤثر على معنويات الأسواق الناشئة.",
+     "ru": "Эскалация региональных санкций может повлиять на настроения на развивающихся рынках."
+    },
+    "name_i18n": {
+     "he": "קרן סל מקסיקו",
+     "en": "Mexico ETF",
+     "ar": "صندوق الاستثمار المتداول للمكسيك",
+     "ru": "ETF Мексики"
+    },
+    "price_at_alert": 75.56
+   }
+  ],
+  "id": "001f9924cc99"
  }
 ]
