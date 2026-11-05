@@ -22119,7 +22119,16 @@
   "category": "cyber",
   "severity": 5,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRUp5d04yTHlmVVZvTVVsZ25odHlKV1ROTTRqWERhMkdra253ZmlBQXF0dVRTeEJFdDJJclRoblRiQVVUNWlIVXNieVVESVlZLUZsQy1rdVNxV3ZUSjRRT0FTWWxoY0lVYlhOYXVYaFFjUy1yUVlmYWFVc09WS0FJS28zZ0JoeWRLbkk4UFAxd1hpVjRYOEE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNlZ0SFlWSTRqYzNwTVlnRDhHeGJpbWZXcklVX1FhSFdZREFHekRkRndXZUZiUGo0b0QxVm1JZUNFRWpmZ3V4NGVNQ2FSQU5HbnVhYVhONk95a1c1NEhuUUtkMHpqQzlFSkhUbXlQR2lITzZGUnd2ek9BbWk1dUNkdkVZcjFEWjQwamZjZUdwUG1RQQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -22141,7 +22150,22 @@
     "price_at_alert": 241.0
    }
   ],
-  "id": "fa8bfc8ca773"
+  "id": "fa8bfc8ca773",
+  "updates": [
+   {
+    "ts": 1793904714,
+    "time": "2026-11-05T18:51Z",
+    "severity": 5,
+    "summary": "בנק צרפתי דיווח על גניבת 100 מיליון אירו כתוצאה ממתקפת סייבר.",
+    "i18n": {
+     "he": "בנק צרפתי דיווח על גניבת 100 מיליון אירו כתוצאה ממתקפת סייבר.",
+     "en": "A French bank reported the theft of 100 million euros following a cyberattack.",
+     "ar": "أبلغ بنك فرنسي عن سرقة 100 مليون يورو نتيجة لهجوم سيبراني.",
+     "ru": "Французский банк сообщил о краже 100 миллионов евро в результате кибератаки."
+    }
+   }
+  ],
+  "last_update": 1793904714
  },
  {
   "ts": 1793887168,
@@ -22407,6 +22431,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUkV3QUt3OFpDZnNmWjQzaXRxQXJBLXNBZzBSQ3p4QnBYc2JJNFZUUnBIUlRNZ21SdFEtOUNhWWxDYVdBOUNQTXAtWmlmc1Uya29wN2dvUjZtOHVZbmpRaEpMZWlvZDZiR3ZBZ2FhWnNoeVNXdGwyakJpWTI1SjV1WWJlVzRhN1BwWkJWcUREMUdWTndvTk9zRw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTTNPTmpheXMwTzJJa0MtR1VnSXQyUWVucXZ1czdkNEFuc3JCSk9NcDU5eXV5RW8yQWZoNVdaYXBHcWJmUHJWdzRxU3owOVFYTEtvOFBpVC1ueEIwOV8tZU03U1Q3al9QcGxzTFlXVk1KR0ZJc01IS0t0T1VmTTE2VzZYU2RlUmVNZk5VeC1hLVpZZjlkR1Z1NTBMN0VoM0dzVlBPNFdmWmMyREZyYlV3QVNyY2tWQUxwZXd6UWEyaVhYT0I0MzNTaFozaVZqRmfSAdQBQVVfeXFMTnUwZWtzeEpVNTJ2Yjd0M1ljbWoxdUhaUFpNamVMb1FaTGZJYk9LejNTSTljZFNScWx6TXFaaFhER2pJQkdIMGFRd1ZSSnJiVDl1dWI0VDJLcDRKVEZVLXBHNEotX3UyYWxWWi1pTENHQXNkTnRIcUZydnBhZDI1US03NHhDM0wyc09ocHFxaVlia2hiZkJ1aTY0WmZVX3ZfUnI4U01tQkFON3I0eXpSTmNJMVBIUGFJdWVpUkNabXBNQWNCN0dVaEFnSzRKdnJxUlhqVWc?oc=5"
    }
   ],
   "impacts": [
@@ -22474,9 +22502,21 @@
      "ar": "أجرت منظمة البحث والتطوير الدفاعي الهندية (DRDO) اختباراً ناجحاً لصاروخ باليستي من طراز Pralay.",
      "ru": "Организация оборонных исследований и разработок Индии (DRDO) успешно провела летные испытания баллистической ракеты Pralay."
     }
+   },
+   {
+    "ts": 1793904714,
+    "time": "2026-11-05T18:51Z",
+    "severity": 4,
+    "summary": "הודו ביצעה ניסוי מוצלח בטיל 'פרלאי' (Pralay) מול חופי אודישה, לקראת כניסתו לשירות מבצעי.",
+    "i18n": {
+     "he": "הודו ביצעה ניסוי מוצלח בטיל 'פרלאי' (Pralay) מול חופי אודישה, לקראת כניסתו לשירות מבצעי.",
+     "en": "India successfully test-fired the Pralay ballistic missile off the Odisha coast, with induction into service imminent.",
+     "ar": "اختبرت الهند بنجاح صاروخ 'برالاي' الباليستي قبالة ساحل أوديشا، تمهيداً لدخوله الخدمة العملياتية.",
+     "ru": "Индия успешно испытала баллистическую ракету Pralay у побережья Одиши в преддверии принятия на вооружение."
+    }
    }
   ],
-  "last_update": 1793901601
+  "last_update": 1793904714
  },
  {
   "ts": 1793894192,
@@ -23084,6 +23124,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNTBSZGRNc2NwcU0wTTJ6MG8wT0N0a0daeTV1OGVodVJDVW5EWkhOTkpEV05UMndwYVVEVzRhNDRyUkt0T3VuWk4xXzl6UFZrMVFRZWFVVG5ZUS01b2Y3c3dYUzJfbW84STd0R0lTSXFlZXR2SGtTZGxFaTdIMW8zeHY1dEYtZ1pCdElMUG0tOXFlQVhSNlFOVGp4bGtqS1NyZ01JMHF1YmJfZGxJWjgtaEN5RXpLMS1TZ1JaQ2ZpWUVyLUc3YzVfdW9VNVBNTzZlc0F0aTBmTkp4NU83dDY0amhCbGpCWlJNS1ZuTA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR1ZBVW4tUUN0aE1KTDdiQWVNMmIxTTVyLWVKMWdDQ0NPTEdKdUlJbTBrb3d0Qk51ZVVjNld6LThGSFd1a1NMc000ak9HelBGNWxidjVVdG9VWnVPU1NVWHN2ZDlHb2h4aTFSNlVzeTlfNmtGUlZETzZDc08yU2ZRNlB5aE5SZ3RQXzhKY0ptQU1YRGJkRnRTYWJNWVQyWlpfQUFfR0dPdElxemRMTGl3ZQ?oc=5"
    }
   ],
   "impacts": [
@@ -23107,6 +23155,144 @@
     "price_at_alert": 75.56
    }
   ],
-  "id": "001f9924cc99"
+  "id": "001f9924cc99",
+  "updates": [
+   {
+    "ts": 1793904714,
+    "time": "2026-11-05T18:51Z",
+    "severity": 4,
+    "summary": "ארה\"ב הטילה סנקציות נוספות על רשתות הספנות והצבא של קובה בשל תמיכה צבאית זרה והכנסות בלתי חוקיות.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות נוספות על רשתות הספנות והצבא של קובה בשל תמיכה צבאית זרה והכנסות בלתי חוקיות.",
+     "en": "США ввели дополнительные санкции против кубинских военных и сетей по транспортировке энергоносителей из-за иностранной военной поддержки и незаконных доходов.",
+     "ar": "فرضت الولايات المتحدة عقوبات إضافية على شبكات الشحن العسكري والطاقة في كوبا بسبب الدعم العسكري الأجنبي والإيرادات غير المشروعة."
+    }
+   }
+  ],
+  "last_update": 1793904714
+ },
+ {
+  "ts": 1793904714,
+  "time": "2026-11-05T18:51Z",
+  "title": "התפרצות חצבת בוויסקונסין",
+  "summary": "התפרצות חצבת בוויסקונסין הובילה למותו של תינוק ולמספר מקרים חדשים במחוז גרין לייק.",
+  "kid": "מחלה מדבקת בשם חצבת התפשטה בוויסקונסין. זה עלול להשפיע על חברות תרופות ועל המודעות לבריאות הציבור.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות חצבת בוויסקונסין",
+    "en": "Measles outbreak in Wisconsin",
+    "ar": "تفشي الحصبة في ويسكونسن",
+    "ru": "Вспышка кори в Висконсине"
+   },
+   "summary": {
+    "he": "התפרצות חצבת בוויסקונסין הובילה למותו של תינוק ולמספר מקרים חדשים במחוז גרין לייק.",
+    "en": "A measles outbreak in Wisconsin has led to the death of an infant and several new cases in Green Lake County.",
+    "ar": "أدى تفشي الحصبة في ويسكونسن إلى وفاة رضيع وتسجيل حالات جديدة في مقاطعة غرين ليك.",
+    "ru": "Вспышка кори в Висконсине привела к смерти младенца и новым случаям заболевания в округе Грин-Лейк."
+   },
+   "kid": {
+    "he": "מחלה מדבקת בשם חצבת התפשטה בוויסקונסין. זה עלול להשפיע על חברות תרופות ועל המודעות לבריאות הציבור.",
+    "en": "A contagious disease called measles is spreading in Wisconsin. This might affect drug companies and public health awareness.",
+    "ar": "مرض معدٍ يسمى الحصبة ينتشر في ويسكونسن. قد يؤثر هذا على شركات الأدوية والوعي بالصحة العامة.",
+    "ru": "Заразная болезнь под названием корь распространяется в Висконсине. Это может повлиять на фармацевтические компании и осведомленность о здоровье населения."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmNIVl9xRnlFR0J6UXktN1N0YUFia2Z4bmxtY1lvOEFidmE1WXZtZ3pDTXJNeWF4al9jVk8xLVpaU2RYWUN1YzVqaExCY3YtZ0VSbFFvckdRMUVfLUxRWHlzdDJUWUM1V25MWG9JcjktZTRaTVRtOGpwWWxtVU9jLTNFSFpiUTdtejRlMWt4ZDRRa3JZZTd2dWF6d083ZEE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTnZkM1UwcGwwNDFkTE1XZEpfeGNuZ25XTm82NDY2cVZ3QXlkbExLZzZXSGdtaDM4bG16Q1JoWG5IS3FENmNYUFhVUHJIUlF3S1pNZ2k1LWZ2NXdNSWd0bGJTRWtCLThaTDRQaXBPQTJEZml5RWZTbEVKYjQtSkprQlAzc1Q4dzJzeHE2QXZFYVRvX0pOXzJGWWw1R29jWEVXTHpucktrcw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV1ZldG51RVAwRXM0eEtPSlpodTkzZ29CaWZQaHBkS0NqU2llQk94QVlqaFg2dkQ3dkUyc1gwM3FRYUlwQ1FJbk5UbnN3OFVsd3RQaFhrbGRHZlBheGZGOU9ZMkljZ0h5NDV6Y3FlOXpQdnZramZ6MVpZMEw3c1NjVzJtREkxcUdFZGNHalg4TFZwYzhqUDAxQzJEUU9sTjJRSEpVWEZVWkxBVXdRTTJCTzI1YmNPalUxUHhWUF8zbVd5UlJL?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "MRNA",
+    "direction": "up",
+    "t0": 1793904714,
+    "reason": "פוטנציאל לעלייה בביקוש לחיסונים.",
+    "reason_i18n": {
+     "he": "פוטנציאל לעלייה בביקוש לחיסונים.",
+     "en": "Potential for increased demand for vaccines.",
+     "ar": "إمكانية زيادة الطلب على اللقاحات.",
+     "ru": "Потенциальный рост спроса на вакцины."
+    },
+    "name_i18n": {
+     "he": "מודרנה - חברת חיסונים",
+     "en": "Moderna - Vaccine company",
+     "ar": "موديرنا - شركة لقاحات",
+     "ru": "Moderna - компания по производству вакцин"
+    },
+    "price_at_alert": 239.46
+   }
+  ],
+  "id": "b78ec5067c3f"
+ },
+ {
+  "ts": 1793904714,
+  "time": "2026-11-05T18:51Z",
+  "title": "מינוי רמטכ\"ל חדש בגרמניה",
+  "summary": "גרמניה מינתה את כריסטיאן פרוידינג לראש מערך ההגנה הבא שלה, שייכנס לתפקידו בפברואר 2027.",
+  "kid": "גרמניה מחליפה את מפקד הצבא שלה. זה חשוב כי גרמניה משקיעה יותר כסף בביטחון ובנשק.",
+  "i18n": {
+   "title": {
+    "he": "מינוי רמטכ\"ל חדש בגרמניה",
+    "en": "New German Chief of Defense appointed",
+    "ar": "تعيين رئيس أركان جديد في ألمانيا",
+    "ru": "Назначен новый начальник штаба обороны Германии"
+   },
+   "summary": {
+    "he": "גרמניה מינתה את כריסטיאן פרוידינג לראש מערך ההגנה הבא שלה, שייכנס לתפקידו בפברואר 2027.",
+    "en": "Germany has appointed Christian Freuding as its next chief of defense, effective February 2027.",
+    "ar": "عينت ألمانيا كريستيان فرويدينغ رئيساً قادماً لهيئة الدفاع، وسيتولى منصبه في فبراير 2027.",
+    "ru": "Германия назначила Кристиана Фройдинга следующим начальником штаба обороны, он вступит в должность в феврале 2027 года."
+   },
+   "kid": {
+    "he": "גרמניה מחליפה את מפקד הצבא שלה. זה חשוב כי גרמניה משקיעה יותר כסף בביטחון ובנשק.",
+    "en": "Germany is changing its army chief. This is important because Germany is spending more money on defense and weapons.",
+    "ar": "تغير ألمانيا قائد جيشها. هذا مهم لأن ألمانيا تنفق المزيد من المال على الدفاع والأسلحة.",
+    "ru": "Германия меняет главнокомандующего армией. Это важно, так как Германия тратит больше денег на оборону и оружие."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/global/europe/2026/11/05/germany-names-army-chief-freuding-as-next-chief-of-defense/"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWG",
+    "direction": "up",
+    "t0": 1793904714,
+    "reason": "ציפייה להמשך הגדלת תקציבי הביטחון בגרמניה.",
+    "reason_i18n": {
+     "he": "ציפייה להמשך הגדלת תקציבי הביטחון בגרמניה.",
+     "en": "Expectation of continued increase in German defense budgets.",
+     "ar": "توقعات باستمرار زيادة ميزانيات الدفاع في ألمانيا.",
+     "ru": "Ожидание дальнейшего увеличения оборонных бюджетов Германии."
+    },
+    "name_i18n": {
+     "he": "קרן סל גרמניה",
+     "en": "Germany ETF",
+     "ar": "صندوق الاستثمار المتداول لألمانيا",
+     "ru": "ETF Германии"
+    },
+    "price_at_alert": 42.84
+   }
+  ],
+  "id": "8f082f8830ff"
  }
 ]
