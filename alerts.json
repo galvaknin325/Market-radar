@@ -18491,7 +18491,16 @@
   "category": "policy",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -18545,9 +18554,21 @@
      "ar": "حقق الديمقراطيون مكاسب كبيرة في انتخابات التجديد النصفي الأمريكية، حيث قلبوا العديد من المقاعد. وأعزى الرئيس دونالد ترامب بعض انتكاسات الجمهوريين إلى تأثير حرب إيران.",
      "ru": "Демократы добились значительных успехов на промежуточных выборах в США, завоевав множество мест в Конгрессе. Президент Дональд Трамп отчасти связал неудачи республиканцев с войной с Ираном."
     }
+   },
+   {
+    "ts": 1793859412,
+    "time": "2026-11-05T06:16Z",
+    "severity": 7,
+    "summary": "לאחר שהדמוקרטים זכו ברוב בקונגרס, מנתחים חוששים כי רוסיה וסין עשויות לנקוט בצעדים אגרסיביים יותר בשל תפיסת חולשה של הממשל האמריקאי.",
+    "i18n": {
+     "he": "לאחר שהדמוקרטים זכו ברוב בקונגרס, מנתחים חוששים כי רוסיה וסין עשויות לנקוט בצעדים אגרסיביים יותר בשל תפיסת חולשה של הממשל האמריקאי.",
+     "en": "Following the Democratic victory in the midterms, analysts warn that Russia and China may act more aggressively if they perceive the US administration as weakened.",
+     "ar": "بعد فوز الديمقراطيين في انتخابات التجديد النصفي، يحذر المحللون من أن روسيا والصين قد تتصرفان بشكل أكثر عدوانية إذا اعتبرتا الإدارة الأمريكية ضعيفة.",
+     "ru": "После победы демократов на промежуточных выборах аналитики предупреждают, что Россия и Китай могут действовать более агрессивно, если воспримут администрацию США как ослабленную."
+    }
    }
   ],
-  "last_update": 1793836716
+  "last_update": 1793859412
  },
  {
   "ts": 1793828915,
@@ -18914,17 +18935,9 @@
    }
   },
   "category": "cyber",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWFFwczYwZmJCdzA3cEdzcUlDYkxrZ2M2dmJ3dzJyVFRlLTI2WWhrdWtCcWZfYzZfVHc1RllQYm9iY1FMOF9IcXdBdmVNTlhpYlZPQjN3Q2pPRWlCc0pPcVBZbDA5c2kzQ2gzUTY1cy1BTjhCVUhxM2s3TkJybjRGenBNUk9Sdw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQks1RzZVVEZGX05NamI0RnFqQVlaRjAza2FScEhmcmpHM2NNemNLN3QwU0RZUkM3dG52TV9YSFpqY2lmUXNnVEtUYUFPMHB3Zmhmb2RGdTROT1lZb0tIMmphZkNlbGpGTkdqUVR3QlZnZGFKOTR6Z2FBQzdHb1did3VjSjRtdGh2aDR1Ry1WZFRobTlheUx6MWhKT2k?oc=5"
-   },
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVzJwbzBIems5bTBSV2MzMHVsTW82V2hzZ2hjX1dkS214ZUVMUDVoc2prTkdicHlDbkVTcGdIT3pENjlReHJpa1BHa0FxTmw4Y3dPcmszaHRudVhzX2NISFhqellJS1BlWTR3Zm5IeE5QNEZGcGJVNTU5RzBXLTJDaEtRN1I3TmdYblRIcGp5c0cwdw?oc=5"
@@ -18932,6 +18945,22 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VZXpaUTFfbk5HVVJla3JJbG9iLWEwclF2aHlfQTlWRjRTX2ZVVjUyM0plM2JjQkFpUURFVmxoTnQyMEI5MmFxQ04yMExRbV9tdDBn?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY3FwRTNJbUFxbmU0Z3Nib0lfdE1BZTQzUFJHREJmNWhQM0p2TEJkbUxPWV81SHdiRFVzR3ZPZ0EtYkxrQjFvX0o2N0IyTE13ZHpxaFZmTGJVRVVfNGZrZE02TTY5dElXbk4yeTNYQnA0UGNnSUE4R1B5TkJFWUJQb0h3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMnZzbGppRU5tNWFsUTEyU2RTZHhra0dycTJaLTJ6WmlUSmhta2JJOWNrZHFaQmpLM3ROZWcyeHZWeVp4VjNYeXFuNkcwQ1ZGaE9BcFZiaWtkcFVxNnVjdlhMa25Db2U5R0d5OUUwbm5PZ1FWV0lqaDhpZTlMS0tUZ0lOU3cxczNCNHUwSm9VMWQyRUdIaGZZaHRETTF6b0phNTd5cWE3SHc5MXRaTThfYzNmRHR3SFVVbTROVmJ4bF9mQzVVZ2c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3owVnlSMlp2aXR0LTJMTDFOT25fcVV6QzFRYzJuUkMtemxCUnBPS1VJaFgyY0JiZVdvVDhjemt5MVU5NEFxbnJJS1daTlJRb1lBeHpkNkxTVlVSU2h3SmFhYk9kaWJaMC1WZ190YU1IM1Z6bVBTbFlCSTZacnJPQzZxU2VmbE1uU3dnbU5JM3B2X09ST3FrU21IdEpsN3BzWDAzbE80V2lLV1lSOG5UemhEeVowZm5ZZ2w2bTVGN1Z0NVhVS09KM0xTcW9NZw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUTF3aFpSNm1yZHdQcjJUOVpnelhnNElxX3IzYzROdFBaVDAxdENiSDRGN2d3YjlDTDVvLVI1TWkxZmRYQjA0RUFPdlF1X3ktZThWUHItWkZZbnRLRmZlQTMzX0kwczRoSkZKZENaMzUwazNkV3RhUnFCQkNla3VPOUhDbGFLdGFTU0hsSDZkd2hQM19rczUtQVlDak40OEVR?oc=5"
    }
   ],
   "impacts": [
@@ -19030,9 +19059,21 @@
      "ar": "أكد البنك الفرنسي كريدي موتويل أركيا تعرضه لهجوم سيبراني، بينما تشير التقارير إلى خسائر مشتبه بها بنحو 133 مليون دولار.",
      "ru": "Французский банк Crédit Mutuel Arkéa подтвердил, что подвергся кибератаке, на фоне сообщений о предполагаемых убытках в размере около $133 млн."
     }
+   },
+   {
+    "ts": 1793859412,
+    "time": "2026-11-05T06:16Z",
+    "severity": 6,
+    "summary": "בנק הדם הצרפתי (Crédit Mutuel Arkéa) אישר כי הותקף בסייבר, מה שהוביל להפסדים כספיים משמעותיים ולשיבושים במערכות קירור.",
+    "i18n": {
+     "he": "בנק הדם הצרפתי (Crédit Mutuel Arkéa) אישר כי הותקף בסייבר, מה שהוביל להפסדים כספיים משמעותיים ולשיבושים במערכות קירור.",
+     "en": "French bank Crédit Mutuel Arkéa confirmed a cyberattack, resulting in significant financial losses and disruptions to refrigeration systems.",
+     "ar": "أكد البنك الفرنسي كريدي موتوييل أركيا تعرضه لهجوم سيبراني، مما أدى إلى خسائر مالية كبيرة واضطرابات في أنظمة التبريد.",
+     "ru": "Французский банк Crédit Mutuel Arkéa подтвердил кибератаку, которая привела к значительным финансовым потерям и сбоям в системах охлаждения."
+    }
    }
   ],
-  "last_update": 1793851867
+  "last_update": 1793859412
  },
  {
   "ts": 1793831530,
@@ -20556,5 +20597,149 @@
    }
   ],
   "id": "91a6bdf06691"
+ },
+ {
+  "ts": 1793859412,
+  "time": "2026-11-05T06:16Z",
+  "title": "קוריאה הצפונית ביצעה ניסוי במערכת הגנה אווירית וטילי שיוט",
+  "summary": "קוריאה הצפונית דיווחה על ניסוי מוצלח במערכת הגנה אווירית חדשה ובתרגיל טילי שיוט ארוכי טווח.",
+  "kid": "קוריאה הצפונית בודקת נשק חדש. זה גורם למתיחות באזור ועלול להעלות את הביקוש למניות של חברות ביטחוניות.",
+  "i18n": {
+   "title": {
+    "he": "קוריאה הצפונית ביצעה ניסוי במערכת הגנה אווירית וטילי שיוט",
+    "en": "North Korea tests new air defense missile system and cruise missiles",
+    "ar": "كوريا الشمالية تختبر نظام دفاع جوي جديد وصواريخ كروز",
+    "ru": "КНДР провела испытания новой системы ПВО и крылатых ракет"
+   },
+   "summary": {
+    "he": "קוריאה הצפונית דיווחה על ניסוי מוצלח במערכת הגנה אווירית חדשה ובתרגיל טילי שיוט ארוכי טווח.",
+    "en": "North Korea reported a successful test of a new air defense system and conducted drills with long-range cruise missiles.",
+    "ar": "أبلغت كوريا الشمالية عن اختبار ناجح لنظام دفاع جوي جديد وأجرت تدريبات بصواريخ كروز بعيدة المدى.",
+    "ru": "КНДР сообщила об успешном испытании новой системы ПВО и проведении учений с крылатыми ракетами большой дальности."
+   },
+   "kid": {
+    "he": "קוריאה הצפונית בודקת נשק חדש. זה גורם למתיחות באזור ועלול להעלות את הביקוש למניות של חברות ביטחוניות.",
+    "en": "North Korea is testing new weapons. This creates tension in the area and might make people want to buy stocks of defense companies.",
+    "ar": "تختبر كوريا الشمالية أسلحة جديدة. هذا يخلق توتراً في المنطقة وقد يجعل الناس يرغبون في شراء أسهم شركات الدفاع.",
+    "ru": "КНДР испытывает новое оружие. Это создает напряженность в регионе и может повысить спрос на акции оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWx5bmFUeEE3WkN1WUVjajBOcFNXTU5FaFNNTEIyZjVta1FKVGk3ZlRCYTljN0hiTHRRZmMzR3BhcUxhWnlJQm93SzlNeDRMM0I0X2hmN2xoZEtXSllWcXZvNFEtZUFNcDViUzg2N0c5eDlwNmdqNlNBYnlBMG5rSDJtYVBPUU9iNC1ETllRQWs3dGdWYk1ra0VlZ1JZMzhyd2FpTk00ajdNbVZ0N3VTWFZn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQzBuWHF1QUdPTlE1QVg1eDBvS0dEeGNmTXNzM3dlM3RObzdRU3c1VngwdVZwVF9pM0dYTlY3RnJNOTBhdk9BSmVBZnRmeWdmTjhLaDNSWTV3eThvOVhhODVIUV9YaklKa19SNExVWEpiT2Vld3luaWpZNlR2dnJjMDBXVks?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMHFkZVhNS2pOeWRtS0w2OTJfMEI5bGNxZkNPWjhES3lROUVvV0NlNHk1SnlEZVh3MTRlWlhXakFCZlBRRGppZWFwUmZpTGZhQU1EQWp1bDQyRjVSREpsZVBrTE13dTNRdzBQb2M1eUs1ZkpRaVk0LUMwT3l2ZGJETXNiQjJ2STcwNlVJRQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUEzRWJCV0xkeE1yUDBhZ3lxVXVlTl90Nk1pb1NycXhNRVlqcktBQk5MU3BFSDUwa05hZDFIVlZZWFRpemdhUFZtVUFNbVVDQm9GeDMwaU5RdVRieXhPZUY4Q2lPdFBfWFA1eXNFSjhHYUxaTy1DeHB2c3pMaEhyT0NCTHZVdmpJOFZNZXlzWVNMZnhtT1otRW5XUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1793859412,
+    "reason": "עלייה במתיחות הגיאופוליטית באסיה מגבירה את הביקוש לציוד ביטחוני.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות הגיאופוליטית באסיה מגבירה את הביקוש לציוד ביטחוני.",
+     "en": "Rising geopolitical tensions in Asia increase demand for defense equipment.",
+     "ar": "زيادة التوترات الجيوسياسية في آسيا تزيد الطلب على المعدات الدفاعية.",
+     "ru": "Рост геополитической напряженности в Азии повышает спрос на оборонное оборудование."
+    },
+    "name_i18n": {
+     "he": "קרן סל לביטחון ותעופה",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق الدفاع والطيران",
+     "ru": "ETF на аэрокосмическую и оборонную промышленность"
+    },
+    "price_at_alert": 212.84
+   }
+  ],
+  "id": "65f9eec6495a"
+ },
+ {
+  "ts": 1793859412,
+  "time": "2026-11-05T06:16Z",
+  "title": "ארה\"ב הטילה סנקציות על חברות ואנשים בהודו ובטורקיה בגין סיוע לאיראן",
+  "summary": "משרד האוצר האמריקאי הטיל סנקציות על גורמים בהודו ובטורקיה בשל מעורבותם ברשתות סחר נפט וטילים המקושרות לאיראן.",
+  "kid": "ארה\"ב הענישה חברות ואנשים שעזרו לאיראן למכור נפט וטילים. זה עלול להקשות על עסקים שעובדים עם איראן ולהשפיע על חברות בינלאומיות.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב הטילה סנקציות על חברות ואנשים בהודו ובטורקיה בגין סיוע לאיראן",
+    "en": "US imposes sanctions on Indian and Turkish entities for aiding Iran",
+    "ar": "الولايات المتحدة تفرض عقوبات على كيانات هندية وتركية بسبب مساعدة إيران",
+    "ru": "США ввели санкции против индийских и турецких компаний за помощь Ирану"
+   },
+   "summary": {
+    "he": "משרד האוצר האמריקאי הטיל סנקציות על גורמים בהודו ובטורקיה בשל מעורבותם ברשתות סחר נפט וטילים המקושרות לאיראן.",
+    "en": "The US Treasury has sanctioned individuals and entities in India and Turkey for their involvement in oil and missile trade networks linked to Iran.",
+    "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على أفراد وكيانات في الهند وتركيا بسبب تورطهم في شبكات تجارة النفط والصواريخ المرتبطة بإيران.",
+    "ru": "Министерство финансов США ввело санкции против физических и юридических лиц в Индии и Турции за участие в сетях торговли нефтью и ракетами, связанных с Ираном."
+   },
+   "kid": {
+    "he": "ארה\"ב הענישה חברות ואנשים שעזרו לאיראן למכור נפט וטילים. זה עלול להקשות על עסקים שעובדים עם איראן ולהשפיע על חברות בינלאומיות.",
+    "en": "The US punished companies and people who helped Iran sell oil and missiles. This makes it harder for those businesses to operate and might affect international companies.",
+    "ar": "عاقبت الولايات المتحدة الشركات والأشخاص الذين ساعدوا إيران في بيع النفط والصواريخ. هذا يجعل من الصعب على تلك الشركات العمل وقد يؤثر على الشركات الدولية.",
+    "ru": "США наказали компании и людей, которые помогали Ирану продавать нефть и ракеты. Это затрудняет работу этих компаний и может повлиять на международный бизнес."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeHRqbEQ1QTh0TElFRGkxdnNrOUZxdDl2enI4cU1aSldqTllBV2I5bTBqaXhmaUJtSWViOG5VN2M4cWs1ZnFiaUU1Tk1mUGYtMlJpTlpwRXRMOHJMb2JsOUVoU05CdmRrZkVMZkFQWHB4cGp4T3hYMVpMNjZzYUIzVUlPemstZmVCTmNIdXQwZlRycjZnUnRXaGphWmF6eU93blV3anFLZXg4dG5wcXZfNGJFb2pWYnlmU01DUFBSNDJaZzg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaTEtRGJmMzhRd3NUYUVGZ2VmYXEwLUp4NGdGTjN0VGg2WS0zcVRxOVBCNklxMG1TNFY4U2xQYkhvVGlNcnliX3NtVVB2UWNHcmhTMkdqUmEtU0pNMW9MNzVKNmdERGhfVkE5c2lpRHdwd2JzVG1ZNEk0ZXFDRW5FYW4yTExuaTRwX1k5X2UwZUpGbkY0eGlvbFhTTWJoanEwVy1LcWM5ZWw4UdIBrwFBVV95cUxQRVpnaXFYSkRiR3Baa3h5eUpfaFpfVjFkSEh0WHhHNEVRcEtaZzJmY0NXX0hJcjB3dWVFOC1OM2tzMDZRV3hyYmxidHdXd2FXeDlWS3dXeDIwcVBwMDBLejBZYTRwTkVlRzE4T014bTRqMjE1U0RjU1FZTnQ0MUZJNy0zRVkwYW5tbGw0U0wtVjRmcnp2OXBGU0F0SnJWdGpsblNTak5iUXJ5Vjh4MmRj?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54YmhiWHFWbHlVYWZoT0ZWeFFhWnF1Smo0NjZ4QWZNUXg5N3JybEtmOG5zTEQwMVBKT08xMjZZdU0wWFNsbXNpbXhsblZoZlNua3N1N3FLd2plZHRwYzBHTWNCd3dmcDBvQUNBdEk4c0tBSFppNGc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObk9DZUJrWU5Od0NWbU1XcWQ5WUxGRmFMTTNjaTlURVNnR1lFRlltT0JST0d4UFZKWDRtV19XbmpTUVpYUUhWWjAwVXd4RUFTTVgzNC01WWQ1b2hPTXpvRHY3M2Fjakc5Nkc5anUxV3pUV2hZcDhoVWFjRGw4a0s1YTBGM2wtMFdldGVKQUNZZEJwdjBNdnF2dg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY3pKNUQtQkhiTnkwc1YzVWRaQzJma3NQRVE0cFdoNGg2MkdBN01ITnVwSW9aNmcyZEdza3hCZG1PMTU2MTBLOHBHQVpmcE1XaVZ4X1hxYXpQR2tCVnZLS0xxM2lYUUtxUjc2MUlpd3V4SW5kcm1FWkRiLWYwUl9vMnQ2MkRJb2tMQU1rQnVrMVkyOS1vQ1lCVVZ4UzBQVUU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1793859412,
+    "reason": "הסנקציות מחזקות את האכיפה הפיננסית של ארה\"ב.",
+    "reason_i18n": {
+     "he": "הסנקציות מחזקות את האכיפה הפיננסית של ארה\"ב.",
+     "en": "Sanctions reinforce US financial enforcement.",
+     "ar": "تعزز العقوبات الإنفاذ المالي الأمريكي.",
+     "ru": "Санкции усиливают финансовое влияние США."
+    },
+    "name_i18n": {
+     "he": "דולר אמריקאי",
+     "en": "US Dollar",
+     "ar": "الدولار الأمريكي",
+     "ru": "Доллар США"
+    },
+    "price_at_alert": 28.9
+   }
+  ],
+  "id": "840ec11bd8c0"
  }
 ]
