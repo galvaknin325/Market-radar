@@ -18305,9 +18305,22 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc3hHWTBIQXVpQXYyT09aWGNpZ3N1cWlSdk1BbEswUDlzNm5lR2hDVnQ3eDdWblNobGR0cmZ2ZU8zbjhfQUt0XzBhbjdsR1paYlVTR1VnZzVnX180NFlkUTdTMDFuUXhnWEVOZDMxLWlmR1B6N1BpS3dnMDNMUzVHTkJXNTZWc0hJZG1PQXZGYzlGOVlWVWtpOUp3M3VrTW1rN2tUcEZJNlZFWnVkcUxpUm5aZXMyeld6dk9IbS1kTF9DQdIBxwFBVV95cUxPUzZEWEhkYTVNMDlXVWhlajNSMnk2X3R1cVpuckFNb3NfZE1kM1dOdGdreEVKV1B0X3A3QmFVUUJ2a2NqS05VcUs1bHZfcVlHNGp6TDFBRWE3bWlYUmZIQU9LbWVrN19IUzM3S3Zha0JNSEdIN2tiR1JwT1RRcm5SMVlDZW83eUUxVEEtTU81cWtQZWJ3MW91bG4tc2NWcWJ2RnFCTklDbVZJVVZBWFJRcmZTWHJzRnowVC1zLVRDa3NLUzlIdFUw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMmdYYXktNTEwVE1MWWlKTWQyaVNUa0hpNzF0bXpuZ01jRHAtazlWZEt2VFlnWFJPYk0tSVU0V0VqZGoxbmRQaS05M3U4V1N2UkxQMnowbklWZVYzUXYwdzR5cFd3Wk9TU1loSHNWYS1kOE9oNkc2YTVMXzB6TUdVNDh1enZsLTNoR3NqNVR6REhBa3NGQjBpcU8wTdIBVkFVX3lxTFBDdEhoc3dKSkowUWRqb3RWbjFibEpfbklKMWtQVXh3b19RZlpDUF8zclhsWHh3QndWeG5ORi1aZ3N2WWdLM1U1bUVCdTFmMUwySmlRSm9n?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qX1ZiZTNNeTJ1SUZJUFdJa3JSWk5XU3dranVCaEg0akVfOG9EYUlBa1d5ZlFMZWdRdDN0QmNKV2dkam5KeXJiXzJ6enpTVlZQbHNDUURhbVRMRU1VeDFrM250TnA5RE1PdkZsa1pOeHFXYlgyV1E?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -18361,9 +18374,21 @@
      "ar": "فرست الولايات المتحدة عقوبات على زوجين مقيمين في الهند وشركات مرتبطة بهما بتهمة دعم أسطول ناقلات النفط الإيراني.",
      "ru": "Соединенные Штаты ввели санкции против проживающей в Индии пары и связанных с ними компаний за предполагаемую поддержку теневого нефтяного флота Ирана."
     }
+   },
+   {
+    "ts": 1793840264,
+    "time": "2026-11-05T00:57Z",
+    "severity": 5,
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על חברות ויחידים בהודו ובטורקיה בטענה שהם מסייעים לרשת הספנות של איראן לעקוף סנקציות על נפט.",
+    "i18n": {
+     "he": "משרד האוצר האמריקאי הטיל סנקציות על חברות ויחידים בהודו ובטורקיה בטענה שהם מסייעים לרשת הספנות של איראן לעקוף סנקציות על נפט.",
+     "en": "The US Treasury has sanctioned companies and individuals in India and Turkey for allegedly facilitating Iran's maritime oil trade, aiming to tighten economic pressure.",
+     "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على شركات وأفراد في الهند وتركيا بدعوى تسهيل تجارة النفط البحرية الإيرانية.",
+     "ru": "Минфин США ввел санкции против компаний и лиц в Индии и Турции за содействие морской торговле нефтью Ирана."
+    }
    }
   ],
-  "last_update": 1793836716
+  "last_update": 1793840264
  },
  {
   "ts": 1793825433,
@@ -18866,7 +18891,16 @@
   "category": "cyber",
   "severity": 5,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWFFwczYwZmJCdzA3cEdzcUlDYkxrZ2M2dmJ3dzJyVFRlLTI2WWhrdWtCcWZfYzZfVHc1RllQYm9iY1FMOF9IcXdBdmVNTlhpYlZPQjN3Q2pPRWlCc0pPcVBZbDA5c2kzQ2gzUTY1cy1BTjhCVUhxM2s3TkJybjRGenBNUk9Sdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQks1RzZVVEZGX05NamI0RnFqQVlaRjAza2FScEhmcmpHM2NNemNLN3QwU0RZUkM3dG52TV9YSFpqY2lmUXNnVEtUYUFPMHB3Zmhmb2RGdTROT1lZb0tIMmphZkNlbGpGTkdqUVR3QlZnZGFKOTR6Z2FBQzdHb1did3VjSjRtdGh2aDR1Ry1WZFRobTlheUx6MWhKT2k?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -18905,6 +18939,25 @@
      "ru": "ETF акций Франции"
     },
     "price_at_alert": 43.86
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1793840264,
+    "reason": "עליית מחירי התובלה עשויה להגדיל הכנסות",
+    "reason_i18n": {
+     "he": "עליית מחירי התובלה עשויה להגדיל הכנסות",
+     "en": "Rising shipping rates may increase revenue",
+     "ar": "ارتفاع أسعار الشحن قد يزيد الإيرادات",
+     "ru": "Рост ставок на перевозки может увеличить выручку"
+    },
+    "name_i18n": {
+     "he": "ZIM ספנות",
+     "en": "ZIM Shipping",
+     "ar": "ZIM للشحن",
+     "ru": "ZIM Shipping"
+    },
+    "price_at_alert": 28.41
    }
   ],
   "id": "45f9c8fd9703",
@@ -18920,9 +18973,21 @@
      "ar": "أكد بنك Crédit Mutuel Arkéa الفرنسي تعرضه لهجوم سيبراني أدى إلى تحويلات احتيالية واختراق بيانات بحوالي 100 مليون دولار.",
      "ru": "Французский банк Crédit Mutuel Arkéa подтвердил кибератаку, приведшую к мошенническим переводам и утечке данных примерно на $100 млн."
     }
+   },
+   {
+    "ts": 1793840264,
+    "time": "2026-11-05T00:57Z",
+    "severity": 4,
+    "summary": "מתקפות סייבר פגעו בבנקי דם בצרפת, בעוד מחירי התובלה הימית ממשיכים לעלות עקב שיבושים גלובליים.",
+    "i18n": {
+     "he": "מתקפות סייבר פגעו בבנקי דם בצרפת, בעוד מחירי התובלה הימית ממשיכים לעלות עקב שיבושים גלובליים.",
+     "en": "Cyberattacks have targeted French blood banks, while global shipping costs continue to rise, impacting logistics and supply chains.",
+     "ar": "استهدفت هجمات سيبرانية بنوك الدم في فرنسا، بينما تستمر تكاليف الشحن العالمي في الارتفاع، مما يؤثر على الخدمات اللوجستية وسلاسل التوريد.",
+     "ru": "Кибератаки были направлены на банки крови во Франции, в то время как мировые расходы на морские перевозки продолжают расти, влияя на логистику и цепочки поставок."
+    }
    }
   ],
-  "last_update": 1793834358
+  "last_update": 1793840264
  },
  {
   "ts": 1793831530,
@@ -19057,9 +19122,26 @@
    }
   },
   "category": "macro",
-  "severity": 3,
+  "severity": 6,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNazEwaFRCRW03T3laTVc2WmZRLTVaQVN5TTN4MjNQb2hWdVo4RnhlQ2xHc3dUNVZ6eEtVVFQ1b1o0MEJTeGN4aDB5VU9XNTNLNXR0MWItYS0zSDBJVmt5azE4Q1M0TFRkQlYyd0RRU282UFdJX0VGWm5HREZqVVpOQ1lqb2FyeEZsYlJ1ONIBjAFBVV95cUxQZVlEZG9sN2lSMDFrSThTcWZ4UkgzNURoTGlOczVsWjZNWXN5d2prTDUxSlJzaG1HZFlibkYzazA5VVFVZlM2X3hPbWh6bkJaQlgtWFA2SWJKY2FhaXB1MGtnWUtqRm1ja2daOG1YSVBJanloWG5aUExRVWNJdzlfS0FuVmR2SzRBdVNaSQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWi10ZUlxZHhLdXF2RUJnNW1XejVLUllodnJjdmdabTVyS2EzMXVhc1BnaWtTdFR1UmdFTGo4a2dfSl82b2ZxbHZVdl9vVm1Kb1FXU0s5c01IS0hvZHlnX3ZzZFdVR2xOZWxJaTdtbFU0a183Q0I3UnhlYkIzNlJSNUtndVhHZ3h3bmVaRkRYaGxRVWY4N09XcmhUaXdCWUlRNUE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTTRsSzJka2ExaWtNbW5WUHBrcXpEaWR0N0NVX0pkQndxbWVxQ2FpaXZTdVo1cTBQZ2hPQzBwSHVWcmx1REVGMW5jX3VLTzVDYXNrZUpxSjBRWGR2cUx2LW5ubl9IY1RJLWRmeklzTnVVUV9tdTh5NTZhTldGckJCenhIX0owcWtwZDdKZ2dDUWNINjB5RTRmc2U1N1hxc2ZTMElwMzU4QVRZQzVZNXc0?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdXdNTmdYLTB2UlkwUW1kRGJrTjFsVF9kbnlZc2ktNnJxbUY3LXVyOEhSb05VQmlSRzY1dEZablJIRFBWU2xzNW02Q3hWSEpJN1lmQzFNNFBPaEhHbXhFRkRyVDd6NWNpSE5KOEJmci1pQjk3TmVDSWszMlEyYWUzcVF3MWJzcFpUc0hzbjVOd3lZZE1BRDk4NVBR0gGfAUFVX3lxTE9xRGFITVNEeU1oaDBySU4xR244bHN2UURRdDhqS3BZajJ0ZnZFSThOeVVTb1FfNDZ2Rm1FZmFMWXh2MlVNWnJJcEZwMTY1cEx1RHVQM2V3ZENMZllPSkZVVDBXLTVVempfZEd1azZ6Smx2M1R1M1V1VW5SOEFpTmpjR0RZbTVaLTdBZUNNUXp3UmJhMzE0M3FNR0NTTkFNNA?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "FXE",
@@ -19081,7 +19163,22 @@
     "price_at_alert": 103.605
    }
   ],
-  "id": "d56c6ddd3b11"
+  "id": "d56c6ddd3b11",
+  "updates": [
+   {
+    "ts": 1793840264,
+    "time": "2026-11-05T00:57Z",
+    "severity": 6,
+    "summary": "האינפלציה בגוש האירו הגיעה לשיא של שלוש שנים, בעוד שבפיליפינים היא טיפסה ל-7.8%, רמה שלא נראתה מזה 44 חודשים.",
+    "i18n": {
+     "he": "האינפלציה בגוש האירו הגיעה לשיא של שלוש שנים, בעוד שבפיליפינים היא טיפסה ל-7.8%, רמה שלא נראתה מזה 44 חודשים.",
+     "en": "Eurozone inflation hit a three-year high in October, while inflation in the Philippines climbed to a 44-month high of 7.8%.",
+     "ar": "وصل التضخم في منطقة اليورو إلى أعلى مستوى له في ثلاث سنوات، بينما ارتفع التضخم في الفلبين إلى 7.8%، وهو أعلى مستوى منذ 44 شهراً.",
+     "ru": "Инфляция в еврозоне достигла трехлетнего максимума в октябре, а на Филиппинах поднялась до 44-месячного максимума в 7.8%."
+    }
+   }
+  ],
+  "last_update": 1793840264
  },
  {
   "ts": 1793834358,
@@ -19313,5 +19410,120 @@
    }
   ],
   "id": "70a47fe4e288"
+ },
+ {
+  "ts": 1793840264,
+  "time": "2026-11-05T00:57Z",
+  "title": "מניות NextDC מזנקות לאחר רכישת נתח על ידי Goodman ו-Digital Realty",
+  "summary": "מניות חברת הדאטה-סנטרס האוסטרלית NextDC זינקו ב-43% לאחר ש-Goodman Group ו-Digital Realty רכשו נתחים בחברה.",
+  "kid": "חברות ענק קנו חלקים מחברת מחשוב ענן אוסטרלית, מה שגרם למחיר המניה שלה לעלות בחדות.",
+  "i18n": {
+   "title": {
+    "he": "מניות NextDC מזנקות לאחר רכישת נתח על ידי Goodman ו-Digital Realty",
+    "en": "NextDC shares surge after Goodman and Digital Realty stake acquisition",
+    "ar": "أسهم NextDC تقفز بعد استحواذ Goodman و Digital Realty على حصة",
+    "ru": "Акции NextDC взлетели после покупки доли компаниями Goodman и Digital Realty"
+   },
+   "summary": {
+    "he": "מניות חברת הדאטה-סנטרס האוסטרלית NextDC זינקו ב-43% לאחר ש-Goodman Group ו-Digital Realty רכשו נתחים בחברה.",
+    "en": "Shares of data center provider NextDC surged 43% after Goodman Group and Digital Realty acquired up to 9.9% stakes in the company.",
+    "ar": "قفزت أسهم مزود مراكز البيانات NextDC بنسبة 43% بعد أن استحوذت مجموعة Goodman و Digital Realty على حصص تصل إلى 9.9% في الشركة.",
+    "ru": "Акции провайдера дата-центров NextDC подскочили на 43% после того, как Goodman Group и Digital Realty приобрели доли до 9.9% в компании."
+   },
+   "kid": {
+    "he": "חברות ענק קנו חלקים מחברת מחשוב ענן אוסטרלית, מה שגרם למחיר המניה שלה לעלות בחדות.",
+    "en": "Big companies bought parts of an Australian cloud computing company, which made its stock price go up a lot.",
+    "ar": "اشترت شركات كبرى أجزاء من شركة حوسبة سحابية أسترالية، مما أدى إلى ارتفاع سعر سهمها بشكل حاد.",
+    "ru": "Крупные компании купили доли в австралийской компании облачных вычислений, что привело к резкому росту цены ее акций."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DLR",
+    "direction": "up",
+    "t0": 1793840264,
+    "reason": "השקעה אסטרטגית בתשתית דאטה-סנטרס",
+    "reason_i18n": {
+     "he": "השקעה אסטרטגית בתשתית דאטה-סנטרס",
+     "en": "Strategic investment in data center infrastructure",
+     "ar": "استثمار استراتيجي في البنية التحتية لمراكز البيانات",
+     "ru": "Стратегические инвестиции в инфраструктуру дата-центров"
+    },
+    "name_i18n": {
+     "he": "Digital Realty",
+     "en": "Digital Realty",
+     "ar": "Digital Realty",
+     "ru": "Digital Realty"
+    },
+    "price_at_alert": 184.88
+   }
+  ],
+  "id": "4e0db11d79e7"
+ },
+ {
+  "ts": 1793840264,
+  "time": "2026-11-05T00:57Z",
+  "title": "מיזוג ענק בשוק הסולארי: Array Technologies ו-Shoals יתמזגו בעסקה של מיליארד דולר",
+  "summary": "חברות הטכנולוגיה הסולארית Array Technologies ו-Shoals הודיעו על הסכם מיזוג בשווי מיליארד דולר ליצירת ספקית ציוד סולארי גדולה.",
+  "kid": "שתי חברות גדולות שמייצרות חלקים לפאנלים סולאריים מתאחדות לחברה אחת גדולה. זה יכול לעזור להן למכור יותר ציוד לאנרגיה נקייה.",
+  "i18n": {
+   "title": {
+    "he": "מיזוג ענק בשוק הסולארי: Array Technologies ו-Shoals יתמזגו בעסקה של מיליארד דולר",
+    "en": "Слияние гигантов солнечной энергетики Array Technologies и Shoals на $1 млрд",
+    "ar": "اندماج عمالقة الطاقة الشمسية Array Technologies و Shoals في صفقة بقيمة مليار دولار"
+   },
+   "summary": {
+    "he": "חברות הטכנולוגיה הסולארית Array Technologies ו-Shoals הודיעו על הסכם מיזוג בשווי מיליארד דולר ליצירת ספקית ציוד סולארי גדולה.",
+    "en": "Array Technologies and Shoals have agreed to a $1 billion merger, combining their solar equipment supply businesses.",
+    "ar": "وافقت شركتا Array Technologies و Shoals على صفقة اندماج بقيمة مليار دولار لدمج أعمالهما في توريد معدات الطاقة الشمسية.",
+    "ru": "Компании Array Technologies и Shoals договорились о слиянии на сумму $1 млрд, объединив свои предприятия по поставке оборудования для солнечной энергетики."
+   },
+   "kid": {
+    "he": "שתי חברות גדולות שמייצרות חלקים לפאנלים סולאריים מתאחדות לחברה אחת גדולה. זה יכול לעזור להן למכור יותר ציוד לאנרגיה נקייה.",
+    "en": "Two big companies that make parts for solar panels are joining together. This could help them sell more equipment for clean energy.",
+    "ar": "شركتان كبيرتان تصنعان أجزاء للألواح الشمسية تندمجان لتصبحا شركة واحدة. قد يساعدهما ذلك على بيع المزيد من معدات الطاقة النظيفة.",
+    "ru": "Две крупные компании, производящие детали для солнечных панелей, объединяются. Это может помочь им продавать больше оборудования для чистой энергии."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeFk0MTZRLTM3RmE4UEtyOGpnd2k4WnRpRF9Mc0R6MkFKQkNtZkxrNmRfbzBodGVXTmxVNjBjdkZ2ZUIybzVyaW9UelJMVEtWODI0RTZrX2RtLUkwYjlnVnBlbkZrOFVsUnU4eXZuNGo1VklOZFFqeFU4Y19oQzBQeG1IeWhTbFhaRnZUUzBfVHhpSEpqRlNtdjFXblRlNGp4aFVvVmFMUGhMTmdPRVI5dE5WcUNzU2xsamRuQnVOTmlTZEpDTlE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ARRY",
+    "direction": "up",
+    "t0": 1793840264,
+    "reason": "המיזוג צפוי ליצור סינרגיות ויתרון לגודל",
+    "reason_i18n": {
+     "he": "המיזוג צפוי ליצור סינרגיות ויתרון לגודל",
+     "en": "Merger expected to create synergies and scale",
+     "ar": "من المتوقع أن يخلق الاندماج تآزراً وميزة الحجم",
+     "ru": "Ожидается, что слияние создаст синергию и эффект масштаба"
+    },
+    "name_i18n": {
+     "he": "Array Technologies",
+     "en": "Array Technologies",
+     "ar": "Array Technologies",
+     "ru": "Array Technologies"
+    },
+    "price_at_alert": 5.33
+   }
+  ],
+  "id": "c0feb8cbb28e"
  }
 ]
