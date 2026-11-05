@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T09:41Z",
+ "generated": "2026-11-05T10:46Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 245,
+ "total_alerts": 250,
  "overall": {
   "n": 207,
   "hits": 79,
@@ -78,13 +78,13 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 11,
    "hits": 2,
    "name": {
     "he": "קרן סל נפט",
     "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
+    "ar": "صندوق النفط",
     "ru": "Нефтяной ETF"
    },
    "avg_edge": -2.82
@@ -150,14 +150,14 @@
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 26,
    "hits": 10,
    "name": {
-    "he": "תעודת סל תעופה וביטחון",
+    "he": "קרן סל תעופה וביטחון",
     "en": "Aerospace & Defense ETF",
-    "ar": "صندوق الدفاع والطيران المتداول",
-    "ru": "ETF на аэрокосмическую и оборонную промышленность"
+    "ar": "صندوق الدفاع والطيران",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -1.16
   },
@@ -222,14 +222,14 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 18,
+   "mentions": 19,
    "n": 13,
    "hits": 7,
    "name": {
-    "he": "ספיי - קרן סל של שוק המניות האמריקאי",
-    "en": "SPY – US S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
-    "ru": "SPY — фонд акций США"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": 0.38
   },
@@ -342,14 +342,14 @@
    "avg_edge": -1.53
   },
   "DAL": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "דלתא איירליינס - חברת תעופה",
-    "en": "Delta Air Lines – airline",
-    "ar": "دلتا إيرلاينز - شركة طيران",
-    "ru": "Delta Air Lines – авиакомпания"
+    "he": "דלתא איירליינס",
+    "en": "Delta Air Lines",
+    "ar": "دلتا للطيران",
+    "ru": "Delta Air Lines"
    },
    "avg_edge": -0.54
   },
@@ -702,14 +702,14 @@
    "avg_edge": 5.53
   },
   "BDRY": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "בי-די-אר-ווי – קרן סל להובלה ימית בתפזורת",
-    "en": "BDRY – Dry Bulk Shipping ETF",
-    "ar": "BDRY - صندوق استثمار شحن البضائع السائلة الجافة",
-    "ru": "BDRY — ETF сухогрузных перевозок"
+    "he": "קרן סל ספנות",
+    "en": "Dry Bulk Shipping ETF",
+    "ar": "صندوق الشحن البحري",
+    "ru": "ETF морских грузоперевозок"
    },
    "avg_edge": 2.56
   },
@@ -998,6 +998,18 @@
     "en": "EWS - iShares MSCI Singapore ETF",
     "ar": "EWS - صندوق الأسهم في سنغافورة",
     "ru": "EWS - ETF акций Сингапура"
+   },
+   "avg_edge": null
+  },
+  "ICLN": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל אנרגיה נקייה",
+    "en": "Clean Energy ETF",
+    "ar": "صندوق الطاقة النظيفة",
+    "ru": "ETF чистой энергии"
    },
    "avg_edge": null
   }
