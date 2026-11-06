@@ -24592,10 +24592,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wVXFQNTc3ZzJOTm10OHVOanZuUExZMXphMGZkUVNrRkVRdjdtdjI5VG5WY1Ezbm0wV1FBTWJmWHNGSEZvZGp6cElrcHIwZGc1bXhHR2RLOTI1ZHhCTWJPazY3RkJKUnU2ZnE4VA?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ0Q0dkdXVUUydnJQRENja0dRWUR5YlEzU2ljQWVLWjh1c21iQnE3ODhtRnNHeTZ0akVhQUlybkdkOTlkRV9lX182NkNZdC1IOXNSaTdwUWJ6cFFwWmRyVWptUWYwaUdTSG13MDVfNTBlQzNNTjhqdDBDV0t6WGhkR3M3bmpiZU90ZzduS0FRNDZ2Yk8yWmtLdC1qd2JWWDdERUpiZDR4S1NRMGZGeENoVl8wUkZWRzIxbmJFNA?oc=5"
    },
    {
@@ -24613,6 +24609,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWdBdXlPYTY3SUktZVFNZ1MwSEMtbl9rQ3BTYWtNNVY2NWI3XzBCQUlySGd1RVBURUViOGt1UVVSSGFmeFVDTE9ubUFDZzdEVzZrTFpmNWpyUXZrWDZHQ1RrVWZrRURuTk45dVlUOE5zY1lmSloycU05SXdxejNmUGd5dndlOThkNEhjMHZVU0VDNmEwUHBRandWUWdYb2N0VnJCRFZtZk5oblFONEpoT0dsekFFc1ZZ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM1FZMGpxdDZUT2Z4WEQ1RjEzREJDOUlrS1drSmlSLWxtX1JVWHgtOURNMmZqYUZRTEhXS2F4dWxoTzZrYjZDY1pndXlPTFZSc1RuOFcyamZyWENEb0QxSmYtZUxrV2JRaXZWdGh6RGFXeGF4WmpUN3ZxeFZycnA4UGx3YTJZR2tnaUVR0gGQAUFVX3lxTE5oeDlWUFlxZFdXc2duMDJKNDBCbUs0Ti1KY0FvY3R4SEJHdVQyT0QzWV82SU1kRDI5b0lJWk5rMTFvaHo2bEN5Q0pzTmRhbXpmMDNGTnIwd3lZM3ppWVoxSGhhZmxzcFVyM1lId0JrT2hLS2l4cXptQW15UUMtWW1oSHZfRnhvRjVZdHQxaGdTbw?oc=5"
    }
   ],
   "impacts": [
@@ -24672,6 +24672,25 @@
      "ru": "ETF крупных китайских компаний"
     },
     "price_at_alert": 34.965
+   },
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "השפעה שולית על השוק הרחב מהגברת האכיפה.",
+    "reason_i18n": {
+     "he": "השפעה שולית על השוק הרחב מהגברת האכיפה.",
+     "en": "Minimal broad market impact from increased enforcement.",
+     "ar": "تأثير طفيف على السوق الواسع بسبب زيادة إنفاذ القانون.",
+     "ru": "Минимальное влияние на широкий рынок от усиления контроля."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق S&P 500",
+     "ru": "S&P 500 ETF"
+    },
+    "price_at_alert": 733.0
    }
   ],
   "id": "001f9924cc99",
@@ -24709,9 +24728,21 @@
      "ar": "فرضت الولايات المتحدة عقوبات على شركتين صينيتين لتزويدهما كوبا بمعدات عسكرية كجزء من حملة اقتصادية متصاعدة.",
      "ru": "США ввели санкции против двух китайских компаний за поставки военной техники на Кубу в рамках усиления экономической кампании."
     }
+   },
+   {
+    "ts": 1793930831,
+    "time": "2026-11-06T02:07Z",
+    "severity": 3,
+    "summary": "ממשל ארה\"ב הטיל סנקציות חדשות המכוונות נגד רשתות ספנות בלתי חוקיות הקשורות לקובה.",
+    "i18n": {
+     "he": "ממשל ארה\"ב הטיל סנקציות חדשות המכוונות נגד רשתות ספנות בלתי חוקיות הקשורות לקובה.",
+     "en": "The US Treasury placed additional sanctions on Cuba, specifically targeting illicit shipping networks.",
+     "ar": "فرصت الخزانة الأمريكية عقوبات إضافية على كوبا، مستهدفة شبكات الشحن غير القانونية تحديداً.",
+     "ru": "Минфин США ввел дополнительные санкции против Кубы, нацелившись на незаконные судоходные сети."
+    }
    }
   ],
-  "last_update": 1793911625
+  "last_update": 1793930831
  },
  {
   "ts": 1793904714,
@@ -25334,6 +25365,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2VjNILVhoeXUta3B0TVVTTkl2RTJ6OFBzbnZrSTJGQmFSd29PMFRmUzk0RTU0ei1wUEozRnlCNHlrbXBYTzQ3ZXg1NWtLYy1Bcnd2YUc4VG5mNWxIcGpxemNzcG1MWnUwUzc0?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
    }
   ],
   "impacts": [
@@ -25393,9 +25428,43 @@
      "ru": "ETF на Nasdaq 100"
     },
     "price_at_alert": 647.05
+   },
+   {
+    "ticker": "TSM",
+    "direction": "down",
+    "t0": 1793930831,
+    "reason": "ירידות רוחביות במניות השבבים והטכנולוגיה.",
+    "reason_i18n": {
+     "he": "ירידות רוחביות במניות השבבים והטכנולוגיה.",
+     "en": "Broad-based sell-off in semiconductor and tech stocks.",
+     "ar": "عملية بيع واسعة النطاق في أسهم أشباه الموصلات والتكنولوجيا.",
+     "ru": "Широкая распродажа в акциях полупроводников и технологий."
+    },
+    "name_i18n": {
+     "he": "TSMC – ייצור שבבים",
+     "en": "TSMC – semiconductor foundry",
+     "ar": "TSMC - تصنيع أشباه الموصلات",
+     "ru": "TSMC – производство чипов"
+    },
+    "price_at_alert": 353.1
    }
   ],
-  "id": "e10c6081db4b"
+  "id": "e10c6081db4b",
+  "updates": [
+   {
+    "ts": 1793930831,
+    "time": "2026-11-06T02:07Z",
+    "severity": 6,
+    "summary": "מניות טכנולוגיה ושבבים באסיה רשמו ירידות חדות בעקבות כניסת מדד נאסד\"ק לתיקון טכני.",
+    "i18n": {
+     "he": "מניות טכנולוגיה ושבבים באסיה רשמו ירידות חדות בעקבות כניסת מדד נאסד\"ק לתיקון טכני.",
+     "en": "Asian tech stocks tumbled after a Wall Street sell-off pushed the Nasdaq into correction territory.",
+     "ar": "هوت أسهم التكنولوجيا الآسيوية بعد عملية بيع في وول ستريت دفعت مؤشر ناسداك إلى منطقة التصحيح.",
+     "ru": "Азиатские технологические акции упали после распродажи на Уолл-стрит, которая перевела Nasdaq в зону коррекции."
+    }
+   }
+  ],
+  "last_update": 1793930831
  },
  {
   "ts": 1793917291,
@@ -25696,12 +25765,16 @@
    }
   },
   "category": "geopolitics",
-  "severity": 4,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOUNOR0Y2NHBYcjdaU3RlYUFkeXpObTE5SHFqMkV4MGVic0FoV2NWVHMyNlBjVzhZRzR0SkI0NnNwNlhhOXIzbF8zWGVJWXVib2FUaEEtdG11TDdjV2FmWkRTSC1tNWRiclJnLWZESFB5ekxLM25MY3dRVTJaSHNyczRfQkZlbURjSlptY1kwVFBfTnd4Y3JrMEc3TWc3SUlpRmhMdFYzbEV2NXVnTkh5NXAzTDVKZWRUdUdORThlOGYyUkN1TVHSAc8BQVVfeXFMT1NYRFBqRklvVDBoUmxPV1plY2VIUE5xbHlKOU9kcGJWS1RjV01jQk45X0VqLTZGMkdkUFplcWZZNk1iSjdHNUpWMTBOTTNKVHhobkNETTBGSjNlTGVpTXFaeGFoUXJQVWRxUWpEM196U0hiT1Bab3ZpN3dxM1UtWkgwNlRaRjFPbVhpZk9oeU56MUIyZXFBdUZRdWo0d3RQd1ZzUlg5VXI5NTZ4dXBCbmozTUd2T1NXR1hLR200N1A0LWFNMzNvUnlOSnprTUdr?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcEhLcXhyaEwzclJBZ3dWQXVMT0ZfeWJxNmNLTzBjTzB5R2V2U1RIeTRQMFRDbmdXTE9QWXE0U1hhMDc3T3N0TUpqdzZvcmFubkI2UTdYT1pQOHNMOXFpeFFYTE1nRUNCeEExeFlka0oxakpGanhPMlJaNGYzSXRZVC0wN1FWRVdtZjBkb2FVNlZuSTB0YWU3RHpnMXAySkt3S0VNMzVSUG9EUlptd05Wc2Z0WFhvVFV6OUE?oc=5"
    }
   ],
   "impacts": [
@@ -25723,9 +25796,62 @@
      "ru": "Энергетический сектор"
     },
     "price_at_alert": 61.63
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "חשש מפגיעה באספקת הנפט במפרץ מקפיץ את המחירים.",
+    "reason_i18n": {
+     "he": "חשש מפגיעה באספקת הנפט במפרץ מקפיץ את המחירים.",
+     "en": "Fears of Gulf oil supply disruptions drive prices higher.",
+     "ar": "مخاوف اضطراب إمدادات النفط في الخليج تدفع الأسعار للارتفاع.",
+     "ru": "Опасения перебоев с поставками нефти из Персидского залива толкают цены вверх."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "US Oil Fund ETF",
+     "ar": "صندوق النفط الخام",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 148.21
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "סיכונים ביטחוניים מעלים את דמי ההובלה הימית.",
+    "reason_i18n": {
+     "he": "סיכונים ביטחוניים מעלים את דמי ההובלה הימית.",
+     "en": "Security risks drive up maritime freight shipping rates.",
+     "ar": "المخاطر الأمنية ترفع أسعار الشحن البحري.",
+     "ru": "Риски безопасности повышают ставки морских грузоперевозок."
+    },
+    "name_i18n": {
+     "he": "צים – חברת ספנות",
+     "en": "ZIM Integrated Shipping",
+     "ar": "צים - شركة شحن",
+     "ru": "ZIM – судоходная компания"
+    },
+    "price_at_alert": 27.43
    }
   ],
-  "id": "b13f565665a1"
+  "id": "b13f565665a1",
+  "updates": [
+   {
+    "ts": 1793930831,
+    "time": "2026-11-06T02:07Z",
+    "severity": 6,
+    "summary": "גופי אבטחה מדווחים על עלייה בהתקפות ובלחץ האיראני על ספינות במצר הורמוז, דבר שמסכן את תנועת הספנות.",
+    "i18n": {
+     "he": "גופי אבטחה מדווחים על עלייה בהתקפות ובלחץ האיראני על ספינות במצר הורמוז, דבר שמסכן את תנועת הספנות.",
+     "en": "UKMTO warns that attacks and Iranian pressure on shipping in the Strait of Hormuz are rising, threatening maritime traffic.",
+     "ar": "تحذر هيئة عمليات التجارة البحرية البريطانية من تزايد الهجمات والضغط الإيراني على الشحن في مضيق هرمز.",
+     "ru": "UKMTO предупреждает о росте атак и иранского давления на судоходство в Ормузском проливе."
+    }
+   }
+  ],
+  "last_update": 1793930831
  },
  {
   "ts": 1793923081,
@@ -25943,5 +26069,299 @@
    }
   ],
   "id": "bd028a856407"
+ },
+ {
+  "ts": 1793930831,
+  "time": "2026-11-06T02:07Z",
+  "title": "פגישות סגורות בבית הלבן בנושא אוקראינה",
+  "summary": "נשיא ארה\"ב דונלד טראמפ נפגש עם שליחו של פוטין בבית הלבן ללא נציגים אוקראיניים, בזמן שמועלות הצעות להפסקת אש מקומית.",
+  "kid": "נציגי רוסיה וארה\"ב מדברים על הפסקת לחימה באוקראינה. הסכם שלום עשוי להרגיע את השווקים ולהוזיל אנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "פגישות סגורות בבית הלבן בנושא אוקראינה",
+    "en": "White House Meetings on Ukraine Ceasefire",
+    "ar": "اجتماعات البيت الأبيض بشأن وقف إطلاق النار في أوكرانيا",
+    "ru": "Встречи в Белом доме по вопросу прекращения огня в Украине"
+   },
+   "summary": {
+    "he": "נשיא ארה\"ב דונלד טראמפ נפגש עם שליחו של פוטין בבית הלבן ללא נציגים אוקראיניים, בזמן שמועלות הצעות להפסקת אש מקומית.",
+    "en": "US President Donald Trump met with Putin's envoy at the White House without Ukrainian officials present, while localized ceasefire talks progressed.",
+    "ar": "التقى الرئيس الأمريكي دونالد ترامب مبعوث بوتين في البيت الأبيض دون حضور مسؤولي أوكرانيا، بينما تقدمت محادثات وقف إطلاق النار.",
+    "ru": "Президент США Дональд Трамп встретился с посланником Путина в Белом доме в отсутствие украинских официальных лиц, на фоне обсуждения локального прекращения огня."
+   },
+   "kid": {
+    "he": "נציגי רוסיה וארה\"ב מדברים על הפסקת לחימה באוקראינה. הסכם שלום עשוי להרגיע את השווקים ולהוזיל אנרגיה.",
+    "en": "Russia and US officials are talking about stopping the fighting in Ukraine. A peace deal could calm markets and lower energy prices.",
+    "ar": "يتحدث مسؤولو روسيا والولايات المتحدة عن وقف القتال في أوكرانيا. قد يؤدي اتفاق السلام إلى تهدئة الأسواق وخفض أسعار الطاقة.",
+    "ru": "Российские и американские официальные лица говорят о прекращении боев в Украине. Мирное соглашение может успокоить рынки и снизить цены на энергоносители."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONUtMQTlzV094RnlOcHFmRzQ2dGlBaHdLM1VUaEo5cjhGUkpISjN3ZUpHV09xZ3JaM19MT3ZpYUFGeWhLd05WcmtJVHRUckZuVGJ3STFLcVVaYkt2TzM0VzJqbktraWZkUVllRmYzTXZLaDNvZ1QxTjNrZENXWWs4STR4eVltcGZTb0FDbTJYZms3aFhZdnQ5RmU1NlVCVDQ5UHU0bC1wSEVPMnpmbWNGWWpaVGZaOFh3YjlMeGd2azl3S2JfYUFHVGQ1bkhKMnNKVDRtYV9sOA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQlFQVDJFTnVwUl9jNVVYM3M2N3FvOG9oMXBtNkVtSnRCWHY2STB4VmR5WWhnUmN1Z0ZidVZyZkVGT3NIcmt6a3diMXp0N1BQNlBUUWpsM3czT0dPS25FZkRCS2lBVWwzeXBadndWRDh0OGRPVE5RanJRTzNBMTZpMFp6U3lZbDJKNHB3QUZldDhsVU1ZMndXV19GZ1dSbVJneWF3OWQtT05mMUtGWC0tVzhLd1BUMjRHeHlWUTN3Zk5TUDVHRjY0V3ZmREsxMEZN?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "הפחתת המתיחות הגיאופוליטית תומכת בסנטימנט חיובי בשווקים.",
+    "reason_i18n": {
+     "he": "הפחתת המתיחות הגיאופוליטית תומכת בסנטימנט חיובי בשווקים.",
+     "en": "Geopolitical de-escalation supports positive market sentiment.",
+     "ar": "تهدئة التوترات الجيوسياسية تدعم معنويات السوق الإيجابية.",
+     "ru": "Снижение геополитической напряженности поддерживает позитивные настроения на рынке."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق S&P 500",
+     "ru": "S&P 500 ETF"
+    },
+    "price_at_alert": 733.0
+   }
+  ],
+  "id": "2ce193b5f3e4"
+ },
+ {
+  "ts": 1793930831,
+  "time": "2026-11-06T02:07Z",
+  "title": "דמוקרטים מתכננים ביטול מכסים על קנדה",
+  "summary": "חברי מפלגה דמוקרטיים מגבשים תוכנית לביטול מכסים שהטיל טראמפ על קנדה, מה שעשוי להשפיע על הסחר הצפון-אמריקאי.",
+  "kid": "הדמוקרטים רוצים להסיר מסים על מוצרים מקנדה. זה יכול לעזור לחברות שסוחרות בין המדינות לגדול.",
+  "i18n": {
+   "title": {
+    "he": "דמוקרטים מתכננים ביטול מכסים על קנדה",
+    "en": "Democrats Plan to Reverse Canada Tariffs",
+    "ar": "الديمقراطيون يخططون لإلغاء الرسوم الجمركية على كندا",
+    "ru": "Демократы планируют отменить пошлины на Канаду"
+   },
+   "summary": {
+    "he": "חברי מפלגה דמוקרטיים מגבשים תוכנית לביטול מכסים שהטיל טראמפ על קנדה, מה שעשוי להשפיע על הסחר הצפון-אמריקאי.",
+    "en": "Democratic lawmakers are hatching a plan to reverse tariffs imposed by Trump on Canada, potentially impacting North American trade.",
+    "ar": "يضع المشرعون الديمقراطيون خطة للتراجع عن الرسوم الجمركية التي فرضها ترامب على كندا، مما قد يؤثر على التجارة في أمريكا الشمالية.",
+    "ru": "Демократические законодатели разрабатывают план отмены пошлин, введенных Трампом на Канаду, что может повлиять на североамериканскую торговлю."
+   },
+   "kid": {
+    "he": "הדמוקרטים רוצים להסיר מסים על מוצרים מקנדה. זה יכול לעזור לחברות שסוחרות בין המדינות לגדול.",
+    "en": "Democrats want to remove taxes on goods from Canada. This could help companies that trade between the countries grow.",
+    "ar": "يريد الديمقراطيون إزالة الضرائب على السلع من كندا. هذا يمكن أن يساعد الشركات التي تتاجر بين البلدان على النمو.",
+    "ru": "Демократы хотят отменить налоги на товары из Канады. Это может помочь компаниям, торгующим между странами, расти."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVhNeS1XX0xDd1ZkN3JZMkdWcUJkaFhONTBWSmprcWxkRVpqbU02QUQxWnRVRXdlTHBzaVJNMENWaE5HaFcyU2pCVDl3SkpXV3Y4UTlEMzM4STJFc3FGVVByUW1xUHh1QWlqOWx2bHBKQTZxb09zSDQtMklkRFpsRENDbWRiNzg3dzlwMnVqbVpLQkhRVWwwT0F6UUxFODdybWFqekNqUVhrcEZKNzZz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWC",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "הסרת מכסים צפויה להיטיב עם הכלכלה והסחר בקנדה.",
+    "reason_i18n": {
+     "he": "הסרת מכסים צפויה להיטיב עם הכלכלה והסחר בקנדה.",
+     "en": "Tariff removal is expected to benefit Canadian economy and trade.",
+     "ar": "من المتوقع أن تفيد إزالة الرسوم الجمركية الاقتصاد والتجارة الكندية.",
+     "ru": "Отмена пошлин должна пойти на пользу канадской экономике и торговле."
+    },
+    "name_i18n": {
+     "he": "קרן סל קנדה",
+     "en": "iShares Canada ETF",
+     "ar": "صندوق إيشارز كندا",
+     "ru": "Канадский ETF"
+    },
+    "price_at_alert": 60.17
+   }
+  ],
+  "id": "68cba1c106e8"
+ },
+ {
+  "ts": 1793930831,
+  "time": "2026-11-06T02:07Z",
+  "title": "מחירי הנחושת מושפעים מתוצאות הבחירות בארה\"ב",
+  "summary": "תוצאות בחירות האמצע בארה\"ב משפיעות על הביקוש והתמחור בשוק הנחושת הגלובלי.",
+  "kid": "תוצאות הבחירות בארה\"ב גורמות לשינויים במחיר הנחושת שמשמשת בתעשייה ובטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנחושת מושפעים מתוצאות הבחירות בארה\"ב",
+    "en": "US Midterms Impact Copper Prices",
+    "ar": "تأثير انتخابات التجديد النصفي الأمريكية على أسعار النحاس",
+    "ru": "Влияние промежуточных выборов в США на цены на медь"
+   },
+   "summary": {
+    "he": "תוצאות בחירות האמצע בארה\"ב משפיעות על הביקוש והתמחור בשוק הנחושת הגלובלי.",
+    "en": "The outcome of the US midterm elections is weighing on copper prices as market participants assess future industrial policies.",
+    "ar": "تؤثر نتائج انتخابات التجديد النصفي الأمريكية على أسعار النحاس بينما يقيّم المشاركون في السوق السياسات الصناعية المستقبلية.",
+    "ru": "Результаты промежуточных выборов в США давят на цены на медь, поскольку участники рынка оценивают будущую промышленную политику."
+   },
+   "kid": {
+    "he": "תוצאות הבחירות בארה\"ב גורמות לשינויים במחיר הנחושת שמשמשת בתעשייה ובטכנולוגיה.",
+    "en": "US election outcomes are shifting the price of copper, which is heavily used in industry and tech.",
+    "ar": "تؤدي نتائج الانتخابات الأمريكية إلى تغيير سعر النحاس المستخدم بكثافة في الصناعة والتكنولوجيا.",
+    "ru": "Итоги выборов в США меняют цену на медь, которая широко используется в промышленности и технологиях."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdkRkUjhvdXdLcHdfaVJlY0NSVWpBSUx3NVBVSGlOc0tjQzlBT0hVU0ZDRzhRU2VvVGV5anBTazZNa1R0ZEdZSk5ieXdYZmYzWG9mNjY4MWhPNjd6NWliT0lNR0pFM2M2NjlNWFpoWDFfZWZwQjEwLVc0dTc0ZC1MX2pDaFNqVjJZVkFkUU1JMHNZa0IyczNoMnJudXFYeC01MTBkSFR2SVRNLW5TYXd3ZG55MWlkbmhXMXlkbHdBQ2hLY0Etd1E0YU41bUNBRk43OEHSAdIBQVVfeXFMTXZEZFI4b3V3S3B3X2lSZWNDUlVqQUlMdzVQVUhpTnNLY0M5QU9IVVNGQ0c4UVNlb1RleWpwU2s2TWtUdGRHWUpOYnl3WGZmM1hvZjY2ODFoTzY3ejVpYk9JTUdKRTNjNjY5TVhaaFgxX2VmcEIxMC1XNHU3NGQtTF9qQ2hTalYyWVZBZFFNSTBzWWtCMnMzaDJybnVxWHgtNTEwZEhUdklUTS1uU2F3d2RueTFpZG5oVzF5ZGx3QUNoS2NBLXdRNGFONW1DQUZONzhB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1793930831,
+    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכרייה.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכרייה.",
+     "en": "Falling copper prices weigh on mining company profitability.",
+     "ar": "تراجع أسعار النحاس يضغط على ربحية شركات التعدين.",
+     "ru": "Падение цен на медь давит на прибыльность горнодобывающих компаний."
+    },
+    "name_i18n": {
+     "he": "פריפורט מקמوران – חברת כרייה",
+     "en": "Freeport-McMoRan – mining company",
+     "ar": "فريبورت מקמوران - شركة تعدين",
+     "ru": "Freeport-McMoRan – горнодобывающая компания"
+    },
+    "price_at_alert": 57.9
+   }
+  ],
+  "id": "20d288a8b6cf"
+ },
+ {
+  "ts": 1793930831,
+  "time": "2026-11-06T02:07Z",
+  "title": "ג'ייקובס זכתה בחוזים לתכנון כבישים בניו זילנד",
+  "summary": "חברת ההנדסה ג'ייקובס נבחרה לבצע את עבודות התכנון לפרויקט כביש מהיר בסך 3.6 מיליארד דולר בניו זילנד.",
+  "kid": "חברת הנדסה אמריקאית גדולה תתכנן כביש חדש וענק בניו זילנד, מה שמכניס לו כסף ופרויקטים.",
+  "i18n": {
+   "title": {
+    "he": "ג'ייקובס זכתה בחוזים לתכנון כבישים בניו זילנד",
+    "en": "Jacobs Wins Design Work on New Zealand Highway",
+    "ar": "شركة جاكوبس تفوز بأعمال تصميم طريق سريع في نيوزيلندا",
+    "ru": "Jacobs выиграла контракт на проектирование шоссе в Новой Зеландии"
+   },
+   "summary": {
+    "he": "חברת ההנדסה ג'ייקובס נבחרה לבצע את עבודות התכנון לפרויקט כביש מהיר בסך 3.6 מיליארד דולר בניו זילנד.",
+    "en": "Engineering firm Jacobs has won the design contract for a $3.6 billion highway project in New Zealand.",
+    "ar": "فازت شركة الهندسة جاكوبس بعقد تصميم لمشروع طريق سريع بقيمة 3.6 مليار دولار في نيوزيلندا.",
+    "ru": "Инженерная компания Jacobs выиграла контракт на проектирование шоссе на сумму 3,6 млрд долларов в Новой Зеландии."
+   },
+   "kid": {
+    "he": "חברת הנדסה אמריקאית גדולה תתכנן כביש חדש וענק בניו זילנד, מה שמכניס לו כסף ופרויקטים.",
+    "en": "A large US engineering firm will design a huge new highway in New Zealand, bringing in revenue and projects.",
+    "ar": "ستقوم شركة هندسة أمريكية كبرى بتصميم طريق سريع جديد وضخم في نيوزيلندا، مما يجلب إيرادات ومشاريع.",
+    "ru": "Крупная американская инженерная компания спроектирует огромное новое шоссе в Новой Зеландии, что принесет доход."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY3BvYkx2ZDRCWEFMYlhuUktYQm5XaDVtRmZuUFdHRjVlRHBkZUVhQU81YkxRclVIMUxYYlpJSW10MFQ2NUJOVDZreVhhTEZ0WFRxUmZlNDJTUFIzVlNETXhJVzNfLUgweWFEeXpzYWdsa05DRW1XQ0YzeXlQRjRSNzNZLU5QNk9WSnlleHA2VmZwSHdpcUtTUmd3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "J",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "זכייה בחוזה תשתית גדול תומכת בהכנסות החברה.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה תשתית גדול תומכת בהכנסות החברה.",
+     "en": "Winning a large infrastructure contract supports company revenue.",
+     "ar": "الفوز بعقد البنية التحتية الكبير يدعم إيرادات الشركة.",
+     "ru": "Выигрыш крупного инфраструктурного контракта поддерживает выручку компании."
+    },
+    "name_i18n": {
+     "he": "ג'ייקובס סולושנס – הנדסה ותשתיות",
+     "en": "Jacobs Solutions – engineering firm",
+     "ar": "جاكوبس - شركة هندسة",
+     "ru": "Jacobs Solutions – инженерная компания"
+    },
+    "price_at_alert": 147.54
+   }
+  ],
+  "id": "493de038aa90"
+ },
+ {
+  "ts": 1793930831,
+  "time": "2026-11-06T02:07Z",
+  "title": "משרד האוצר האמריקאי פושט על רשת הונאה גלובלית",
+  "summary": "משרד האוצר של ארה\"ב הטיל סנקציות על 46 גורמים במסגרת מבצע רחב היקף נגד רשת הונאה ומרמה גלובלית.",
+  "kid": "ארה\"ב עצרה וחסמה גורמים שעוקצים אנשים בכסף ברחבי העולם, כדי לעצור פשע כלכלי.",
+  "i18n": {
+   "title": {
+    "he": "משרד האוצר האמריקאי פושט על רשת הונאה גלובלית",
+    "en": "US Treasury Cracks Down on Global Scam Network",
+    "ar": "وزارة الخزانة الأمريكية تشن حملة على شبكة احتيال عالمية",
+    "ru": "Минфин США наносит удар по глобальной мошеннической сети"
+   },
+   "summary": {
+    "he": "משרד האוצר של ארה\"ב הטיל סנקציות על 46 גורמים במסגרת מבצע רחב היקף נגד רשת הונאה ומרמה גלובלית.",
+    "en": "The U.S. Treasury sanctioned 46 targets globally as part of a major crackdown on an international scam network.",
+    "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على 46 هدفاً عالمياً كجزء من حملة كبرى ضد شبكة احتيال دولية.",
+    "ru": "Минфин США ввел санкции против 46 объектов по всему миру в рамках масштабной борьбы с международной мошеннической сетью."
+   },
+   "kid": {
+    "he": "ארה\"ב עצרה וחסמה גורמים שעוקצים אנשים בכסף ברחבי העולם, כדי לעצור פשע כלכלי.",
+    "en": "The US blocked people and entities stealing money worldwide to stop financial crimes.",
+    "ar": "حظرت الولايات المتحدة الأشخاص والكيانات التي تسرق الأموال حول العالم لوقف الجرائم المالية.",
+    "ru": "США заблокировали лиц и структуры, ворующие деньги по всему миру, чтобы остановить финансовые преступления."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVTdoTk9YdmpOTEhHVWFFNmRNTmNqb2pGVDFQTjNtTHFQTWV3SFhsRnNBU2NkLXZWcXpTWFVFMWdEREJGWF9TN3Btc0lWUHg5Uk5ta3l3dXNjOWwtRkJ3aVBwcGVHSjh0aGdSZmltbHlqeDMzR1ZldkVMY2t2bmQyOURtYnRBUW5rUXlnR09Nb0E2VUwtb0RiNGszQklGTUVNWEhNamlXVHFxcW9SMkZ0VndnR3loZ1hHNFR1azluWdIBxAFBVV95cUxPXzVCYmgtVXN5NFREVWFweFdJNmpjWmx4eXZfWGxNQUp3TDc1UUFHMlNhdE5ZNGZyVFA0azdKWFhKMHV2SUs5SDZvZE9MTjlmbmpJdlBuWDJ2TVJKeHNDcVN2ZXNjVjE4SWpiVHNLbXg1TG9SZnhaVk1PWThwdFpzYU1RLVpXSzhwaVAtaTlLMFJiU1VObWZfYkVCcmljenJhUEExUDl5LVRVb3hkalFGUVltWktaRUFPaHFaX3lWUWRpZlpP?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1793930831,
+    "reason": "פעילות אכיפה פיננסית תומכת בניקיון המערכת הכלכלית.",
+    "reason_i18n": {
+     "he": "פעילות אכיפה פיננסית תומכת בניקיון המערכת הכלכלית.",
+     "en": "Financial enforcement actions support cleaner economic systems.",
+     "ar": "تدعم إجراءات الإنفاذ المالي أنظمة اقتصادية أنظف.",
+     "ru": "Меры финансового контроля поддерживают чистоту экономической системы."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق S&P 500",
+     "ru": "S&P 500 ETF"
+    },
+    "price_at_alert": 733.0
+   }
+  ],
+  "id": "6b4deaa3cf9b"
  }
 ]

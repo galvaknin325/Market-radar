@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T00:59Z",
+ "generated": "2026-11-06T02:07Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 291,
+ "total_alerts": 296,
  "overall": {
   "n": 321,
   "hits": 130,
@@ -78,13 +78,13 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق استثمار النفط",
+    "he": "קרן סל נפט גולמי",
+    "en": "US Oil Fund ETF",
+    "ar": "صندوق النفط الخام",
     "ru": "Нефтяной ETF"
    },
    "avg_edge": -1.94
@@ -126,14 +126,14 @@
    "avg_edge": -4.34
   },
   "ZIM": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 5,
    "hits": 1,
    "name": {
-    "he": "צים - חברת ספנות",
-    "en": "ZIM - Shipping company",
-    "ar": "شركة زيم للشحن",
-    "ru": "ZIM - судоходная компания"
+    "he": "צים – חברת ספנות",
+    "en": "ZIM Integrated Shipping",
+    "ar": "צים - شركة شحن",
+    "ru": "ZIM – судоходная компания"
    },
    "avg_edge": -1.07
   },
@@ -222,14 +222,14 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 21,
+   "mentions": 24,
    "n": 17,
    "hits": 9,
    "name": {
     "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
-    "ar": "مؤشر S&P 500",
-    "ru": "Индекс S&P 500"
+    "en": "S&P 500 ETF",
+    "ar": "صندوق S&P 500",
+    "ru": "S&P 500 ETF"
    },
    "avg_edge": 0.29
   },
@@ -414,26 +414,26 @@
    "avg_edge": 0.12
   },
   "EWC": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 5,
    "hits": 4,
    "name": {
     "he": "קרן סל קנדה",
-    "en": "iShares MSCI Canada ETF",
-    "ar": "صندوق الاستثمار المتداول لكندا",
-    "ru": "ETF акций Канады"
+    "en": "iShares Canada ETF",
+    "ar": "صندوق إيشارز كندا",
+    "ru": "Канадский ETF"
    },
    "avg_edge": 0.79
   },
   "FCX": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 12,
    "hits": 4,
    "name": {
-    "he": "פריפורט-מקמורן (נחושת)",
-    "en": "Freeport-McMoRan (Copper)",
-    "ar": "فرييبورت-ماكموران (نحاس)",
-    "ru": "Freeport-McMoRan (медь)"
+    "he": "פריפורט מקמوران – חברת כרייה",
+    "en": "Freeport-McMoRan – mining company",
+    "ar": "فريبورت מקמوران - شركة تعدين",
+    "ru": "Freeport-McMoRan – горнодобывающая компания"
    },
    "avg_edge": -1.27
   },
@@ -558,14 +558,14 @@
    "avg_edge": 3.68
   },
   "TSM": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "TSMC - יצרנית שבבים מובילה",
-    "en": "TSMC - major chip maker",
-    "ar": "TSMC - صانع رقائق رئيسي",
-    "ru": "TSMC - крупный производитель чипов"
+    "he": "TSMC – ייצור שבבים",
+    "en": "TSMC – semiconductor foundry",
+    "ar": "TSMC - تصنيع أشباه الموصلات",
+    "ru": "TSMC – производство чипов"
    },
    "avg_edge": 0.71
   },
@@ -1057,6 +1057,18 @@
     "en": "Mexico ETF",
     "ar": "صندوق استثمار للأسهم المكسيكية",
     "ru": "ETF мексиканского рынка"
+   },
+   "avg_edge": null
+  },
+  "J": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ג'ייקובס סולושנס – הנדסה ותשתיות",
+    "en": "Jacobs Solutions – engineering firm",
+    "ar": "جاكوبس - شركة هندسة",
+    "ru": "Jacobs Solutions – инженерная компания"
    },
    "avg_edge": null
   }
