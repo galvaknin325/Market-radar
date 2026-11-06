@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T05:57Z",
+ "generated": "2026-11-06T07:09Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 305,
+ "total_alerts": 308,
  "overall": {
   "n": 321,
   "hits": 130,
@@ -102,14 +102,14 @@
    "avg_edge": -1.23
   },
   "IBIT": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 7,
    "hits": 1,
    "name": {
-    "he": "קרן ביטקוין",
-    "en": "Bitcoin ETF",
-    "ar": "صندوق بيتكوين المتداول",
-    "ru": "Биткоин ETF"
+    "he": "IBIT - קרן סל ביטוי לביטקוין",
+    "en": "IBIT - Bitcoin Trust ETF",
+    "ar": "IBIT - صندوق استثمار البيتكوين",
+    "ru": "IBIT - ETF биткоина"
    },
    "avg_edge": -1.32
   },
@@ -606,13 +606,13 @@
    "avg_edge": 1.44
   },
   "EWY": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 3,
    "hits": 2,
    "name": {
     "he": "EWY - קרן סל דרום קוריאה",
-    "en": "Ewy - South Korea ETF",
-    "ar": "EWY - صندوق كوريا الجنوبية",
+    "en": "EWY - South Korea ETF",
+    "ar": "EWY - صندوق استثمار كوريا الجنوبية",
     "ru": "EWY - ETF Южной Кореи"
    },
    "avg_edge": 3.31
@@ -798,14 +798,14 @@
    "avg_edge": -13.17
   },
   "SMH": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "תעודת סל של מוליכים למחצה",
-    "en": "Semiconductor ETF",
-    "ar": "صندوق استثمار لأشباه الموصلات",
-    "ru": "ETF на полупроводники"
+    "he": "SMH - קרן סל שבבים",
+    "en": "SMH - Semiconductor ETF",
+    "ar": "SMH - صندوق قطاع أشباه الموصلات",
+    "ru": "SMH - ETF полупроводников"
    },
    "avg_edge": 0.0
   },
@@ -1082,6 +1082,18 @@
     "en": "Microsoft - tech giant",
     "ar": "مايكروسوفت - عملاق التكنولوجيا",
     "ru": "Microsoft - технологический гигант"
+   },
+   "avg_edge": null
+  },
+  "TUR": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "TUR - קרן סל טורקיה",
+    "en": "TUR - Turkey ETF",
+    "ar": "TUR - صندوق استثمار تركيا",
+    "ru": "TUR - ETF Турции"
    },
    "avg_edge": null
   }
