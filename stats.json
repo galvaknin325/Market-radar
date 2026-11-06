@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T03:04Z",
+ "generated": "2026-11-06T03:55Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 296,
+ "total_alerts": 299,
  "overall": {
   "n": 321,
   "hits": 130,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 24,
+   "mentions": 25,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל נפט גולמי",
-    "en": "US Oil Fund ETF",
+    "he": "קרן סל על מחירי הנפט",
+    "en": "Crude oil fund",
     "ar": "صندوق النفط الخام",
-    "ru": "Нефтяной ETF"
+    "ru": "Фонд сырой нефти"
    },
    "avg_edge": -1.94
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 34,
    "hits": 12,
    "name": {
-    "he": "ITA - קרן סל תעופה וביטחון",
-    "en": "ITA - iShares U.S. Aerospace & Defense ETF",
-    "ar": "ITA - صندوق الفضاء والدفاع الأمريكي",
-    "ru": "ITA - фонд аэрокосмической и оборонной промышленности США"
+    "he": "קרן סל לתעשייה הביטחונית",
+    "en": "US Aerospace & Defense ETF",
+    "ar": "صندوق الدفاع والفضاء الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -8.47
   },
@@ -1069,6 +1069,18 @@
     "en": "Jacobs Solutions – engineering firm",
     "ar": "جاكوبس - شركة هندسة",
     "ru": "Jacobs Solutions – инженерная компания"
+   },
+   "avg_edge": null
+  },
+  "MSFT": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "מייקרוסופט - ענקית טכנולוגיה",
+    "en": "Microsoft - tech giant",
+    "ar": "مايكروسوفت - عملاق التكنولوجيا",
+    "ru": "Microsoft - технологический гигант"
    },
    "avg_edge": null
   }
