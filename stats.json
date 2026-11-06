@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-06T12:24Z",
+ "generated": "2026-11-06T13:44Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 322,
+ "total_alerts": 324,
  "overall": {
-  "n": 321,
-  "hits": 130,
-  "avg_edge": -1.71
+  "n": 322,
+  "hits": 131,
+  "avg_edge": -1.69
  },
  "by_category": {
   "climate": {
@@ -29,9 +29,9 @@
    "avg_edge": -3.35
   },
   "geopolitics": {
-   "n": 61,
-   "hits": 17,
-   "avg_edge": -2.85
+   "n": 62,
+   "hits": 18,
+   "avg_edge": -2.75
   },
   "health": {
    "n": 13,
@@ -66,9 +66,9 @@
    "avg_edge": -1.48
   },
   "6-7": {
-   "n": 79,
-   "hits": 34,
-   "avg_edge": -0.82
+   "n": 80,
+   "hits": 35,
+   "avg_edge": -0.76
   },
   "8-10": {
    "n": 24,
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 4,
-   "n": 3,
-   "hits": 0,
+   "n": 4,
+   "hits": 1,
    "name": {
     "he": "אלביט מערכות",
     "en": "Elbit Systems",
     "ar": "إلبيت سيستمز",
     "ru": "Elbit Systems"
    },
-   "avg_edge": -2.44
+   "avg_edge": -0.95
   },
   "ESLT": {
    "mentions": 7,
@@ -210,26 +210,26 @@
    "avg_edge": 1.51
   },
   "NVDA": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "אנבידיה",
-    "en": "Nvidia",
-    "ar": "إنفيديا",
-    "ru": "Nvidia"
+    "he": "אנבידיה – חברת שבבי בינה מלאכותית",
+    "en": "Nvidia – AI chip maker",
+    "ar": "نيديا – صانعة رقائق الذكاء الاصطناعي",
+    "ru": "Nvidia – производитель чипов ИИ"
    },
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 17,
    "hits": 9,
    "name": {
-    "he": "SPY – מדד S&P 500 הכללי",
-    "en": "SPY – S&P 500 ETF",
-    "ar": "SPY – صندوق مؤشر S&P 500",
-    "ru": "SPY – ETF широкого рынка S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 ETF",
+    "ar": "صندوق S&P 500",
+    "ru": "ETF индекса S&P 500"
    },
    "avg_edge": 0.29
   },
@@ -282,14 +282,14 @@
    "avg_edge": -5.56
   },
   "TLT": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 6,
    "hits": 5,
    "name": {
     "he": "אג\"ח ממשלתי ארוך",
-    "en": "Long-term US Treasury bonds",
-    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "Долгосрочные гособлигации США"
+    "en": "Long-term US Treasury Bonds ETF",
+    "ar": "صندوق سندات الخزانة طويلة الأجل",
+    "ru": "ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 1.17
   },
@@ -354,14 +354,14 @@
    "avg_edge": -2.06
   },
   "QQQ": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 9,
    "hits": 3,
    "name": {
-    "he": "QQQ - מדד נאסד\"ק 100",
-    "en": "QQQ - Invesco QQQ Trust",
-    "ar": "QQQ - صندوق ناسداك 100",
-    "ru": "QQQ - фонд Nasdaq 100"
+    "he": "תעודת סל נאסד\"ק 100",
+    "en": "Nasdaq 100 ETF",
+    "ar": "صندوق ناسداك 100",
+    "ru": "ETF индекса Nasdaq 100"
    },
    "avg_edge": -0.57
   },
@@ -654,14 +654,14 @@
    "avg_edge": -0.23
   },
   "UUP": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 3,
    "hits": 0,
    "name": {
     "he": "דולר אמריקאי",
-    "en": "US Dollar Index",
-    "ar": "مؤشر الدولار الأمريكي",
-    "ru": "Индекс доллара США"
+    "en": "US Dollar ETF",
+    "ar": "صندوق الدولار الأمريكي",
+    "ru": "ETF доллара США"
    },
    "avg_edge": -2.66
   },

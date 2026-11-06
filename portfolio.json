@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T12:24Z",
+ "generated": "2026-11-06T13:44Z",
  "trade_size": 1000,
  "important": {
-  "trades": 103,
-  "wins": 35,
-  "hits": 42,
-  "pnl": -826.9,
-  "bench_pnl": -865.7,
+  "trades": 104,
+  "wins": 36,
+  "hits": 43,
+  "pnl": -801.6,
+  "bench_pnl": -855.5,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -61,9 +61,33 @@
     "date": "2026-11-05",
     "equity": -826.9,
     "bench": -865.7
+   },
+   {
+    "date": "2026-11-06",
+    "equity": -801.6,
+    "bench": -855.5
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-06",
+    "ticker": "ESLT.TA",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "b1d5d1cdf6a4",
+    "title": "ארה\"ב שוקלת קיצוץ בסיוע הצבאי לישראל",
+    "title_i18n": {
+     "he": "ארה\"ב שוקלת קיצוץ בסיוע הצבאי לישראל",
+     "en": "US weighs cutting military aid to Israel",
+     "ar": "الولايات المتحدة تدرس خفض المساعدات العسكرية لإسرائيل",
+     "ru": "США рассматривают возможность сокращения военной помощи Израилю"
+    },
+    "change_pct": -2.53,
+    "hit": true,
+    "pnl": 25.3,
+    "bench_pnl": 10.2
+   },
    {
     "date": "2026-11-05",
     "ticker": "ZIM",
@@ -614,34 +638,15 @@
     "hit": true,
     "pnl": 684.0,
     "bench_pnl": -39.1
-   },
-   {
-    "date": "2026-11-05",
-    "ticker": "FXE",
-    "dir": "down",
-    "severity": 6,
-    "cat": "macro",
-    "id": "29e59732c484",
-    "title": "אינפלציית גוש האירו זינקה ל-4%",
-    "title_i18n": {
-     "he": "אינפלציית גוש האירו זינקה ל-4%",
-     "en": "Eurozone Inflation Hits 4% High",
-     "ar": "التضخم في منطقة اليورو يرتفع إلى 4%",
-     "ru": "Инфляция в еврозоне выросла до 4%"
-    },
-    "change_pct": -0.43,
-    "hit": false,
-    "pnl": 4.3,
-    "bench_pnl": -39.1
    }
   ]
  },
  "all": {
-  "trades": 321,
-  "wins": 126,
-  "hits": 130,
-  "pnl": -6173.9,
-  "bench_pnl": -3065.0,
+  "trades": 322,
+  "wins": 127,
+  "hits": 131,
+  "pnl": -6148.6,
+  "bench_pnl": -3054.8,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -696,9 +701,33 @@
     "date": "2026-11-05",
     "equity": -6173.9,
     "bench": -3065.0
+   },
+   {
+    "date": "2026-11-06",
+    "equity": -6148.6,
+    "bench": -3054.8
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-06",
+    "ticker": "ESLT.TA",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "b1d5d1cdf6a4",
+    "title": "ארה\"ב שוקלת קיצוץ בסיוע הצבאי לישראל",
+    "title_i18n": {
+     "he": "ארה\"ב שוקלת קיצוץ בסיוע הצבאי לישראל",
+     "en": "US weighs cutting military aid to Israel",
+     "ar": "الولايات المتحدة تدرس خفض المساعدات العسكرية لإسرائيل",
+     "ru": "США рассматривают возможность сокращения военной помощи Израилю"
+    },
+    "change_pct": -2.53,
+    "hit": true,
+    "pnl": 25.3,
+    "bench_pnl": 10.2
+   },
    {
     "date": "2026-11-05",
     "ticker": "ZIM",
@@ -1249,25 +1278,6 @@
     "hit": true,
     "pnl": 40.0,
     "bench_pnl": -39.1
-   },
-   {
-    "date": "2026-11-05",
-    "ticker": "TSLA",
-    "dir": "down",
-    "severity": 4,
-    "cat": "policy",
-    "id": "8970dcc69ef7",
-    "title": "מניות טסלה וספייס-אקס יורדות בעקבות הפסדי מועמדים שנתמכו ע\"י מאסק",
-    "title_i18n": {
-     "he": "מניות טסלה וספייס-אקס יורדות בעקבות הפסדי מועמדים שנתמכו ע\"י מאסק",
-     "en": "Tesla and SpaceX Stocks Fall After Musk-Backed Candidates Lose",
-     "ar": "هبوط أسهم تسلا وسبيس إكس بعد خسارة المرشحين المدعومين من ماسك",
-     "ru": "Акции Tesla и SpaceX падают после поражения поддерживаемых Маском кандидатов"
-    },
-    "change_pct": -11.57,
-    "hit": true,
-    "pnl": 115.7,
-    "bench_pnl": -45.8
    }
   ]
  }
