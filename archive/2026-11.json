@@ -28379,7 +28379,20 @@
   "category": "trade",
   "severity": 3,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmVzb2l3b05XRndfRnJmcmNpNUNZa3NnekdBdkRsTENsT0Z6SVVWLXRWcnRxSURXVmM5OXlkdWlPM004RzdzMFRyZmtPcmk5RU1CRm9LWjlyRmE4RW5IUmlTeUtIejRKUE1KbDFxM01UbzkyMmRDYjJYS3FfUHlmbXNUZ1BWMkl5S0xFN01TVTVRamZndzFRcFJVdGd3X2xvUl9ab0owNkdrc3hDWmxJMjAxOTFLMlJzdGE2R3lUbldYWGpCbWo4Qg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcW1CYUhNU0MwRFNzenVoVlE2UE9RZWdkUUFIVXZzd1ZtLXkwVkczV2VFUGVvRURIZkpVSDdaRExMdmVESm02b2J3eV9xZzJFX2JFdXRLZDJjLWZKeWNpVFdyYTBFQlo5VVRqX1o2aWd5WU1fOW9DMGo0TEIzWjUzTm1zTlFPZF9uUDlJb1VUZGxnX0JuQjJCWnpOZkRsUVhzOG80SzROa3BtUEI2RUhrSGVpUkpOR3pxSzVpM095dG_SAcYBQVVfeXFMTmFzS05rdDZDZHBfMEw5Q25xSmxoMmVyS0x4aG4zYm84bENKUW96alVKam42NW1GM21BamU3eDRkTExPRnRWMFpMQTh3NjlrRWVoeUJkTmtIalVnSGFSQ0JtbnBUTzVXOURTRGFXNGZ6dDlSSHhoRlJPTmpvTkpKeGllemhwbEVZdkFmNDFqd3RiLW93MnNXZlNoSG9SY093X3FhRnlubnR0MEl3eDd1Q05ud0pVNDgyVlNudnFzWmtjc1d2UkV3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcWZPZW9kUjN1YTdnYkIwbVYzdmJGZmJuWFR6WWtnWVZXalh5NHJNYXlya3FtRFkzalMtck9temYzc3VuQk5Qc2d0MG9HemhMd3VjUG5RR2JuUDd0TGZPYmRvSmFYUGJQR3NEUFoyc1pZUWdGS1VmSkY4Z2d5ZDhKVUdsY19VNmxtbktyOTlmVjZrUUY0eTNXd3diTFUyc0NjNTlFYzVXQzNxVFpjcFExNW9TalF3V1NQZ3JhdlRNS0xEV0NtemdycUVzLWM2aGVsU192cVRvS2lncGpxQ18zc0N1SdIB6AFBVV95cUxOZmlsZXhKUXFqdmNWLW8yV0J6Nk5oX05LcUpxWWR1UDRmSTlWQVVzdFNZd0k0TVhDTnRBckltR1lOZ183eUx2T3UwV28xRkZZWmluV0xiZ0kwcGlrWkJUZFp6MkxpRU9LbGY3U2VSZkt4RU9GcUlVemxpTlhJQnJSanlpdWhCangtYmV3d05hclcyNHAxRnZIdzNlSzdIdkhObkFjMldPSFVocjRDbnE3d0RsUi1qeDhmOFk1LWNNY2FsTlRSLUZWVnhiTDN0LVUzVzcyVWtJeGdrdmpqc2o1UjZfS0xnX3hF?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -28399,9 +28412,43 @@
      "ru": "CrowdStrike - кибербезопасность"
     },
     "price_at_alert": 217.2
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1793982209,
+    "reason": "חיכוך גיאופוליטי רחב והרחבת סנקציות מוסיפים סיכוני ציות כלליים לחברות רב-לאומיות.",
+    "reason_i18n": {
+     "en": "Broad geopolitical friction and expanding sanctions add general compliance risks for multinational firms.",
+     "he": "חיכוך גיאופוליטי רחב והרחבת סנקציות מוסיפים סיכוני ציות כלליים לחברות רב-לאומיות.",
+     "ar": "الاحتكاك الجيوسياسي الواسع وتوسيع العقوبات يضيفان مخاطر الامتثال العامة للشركات متعددة الجنسيات.",
+     "ru": "Широкие геополитические трения и расширение санкций увеличивают общие риски комплаенса для транснациональных компаний."
+    },
+    "name_i18n": {
+     "en": "SPY – S&P 500 ETF",
+     "he": "SPY - קרן סל על מדד S&P 500",
+     "ar": "SPY - صندوق استثمار متداول لمؤشر S&P 500",
+     "ru": "SPY — ETF на индекс S&P 500"
+    },
+    "price_at_alert": 739.3399
    }
   ],
-  "id": "c6554ef78289"
+  "id": "c6554ef78289",
+  "updates": [
+   {
+    "ts": 1793982209,
+    "time": "2026-11-06T16:23Z",
+    "severity": 3,
+    "summary": "ארצות הברית הטילה סנקציות חדשות נגד מספר יחידים וישויות המקושרים לרשתות פליליות ובלתי חוקיות לכאורה בקמבודיה, בזמן שהעימותים נמשכים באזורים כמו תימן.",
+    "i18n": {
+     "en": "The United States has enacted fresh sanctions against multiple individuals and entities linked to alleged criminal and illicit networks in Cambodia, while conflict persists in regions like Yemen.",
+     "he": "ארצות הברית הטילה סנקציות חדשות נגד מספר יחידים וישויות המקושרים לרשתות פליליות ובלתי חוקיות לכאורה בקמבודיה, בזמן שהעימותים נמשכים באזורים כמו תימן.",
+     "ar": "فرضت الولايات المتحدة عقوبات جديدة على العديد من الأفراد والكيانات المرتبطة بشبكات إجرامية وغير مشروعة مزعومة في كمبوديا، بينما تستمر الصراعات في مناطق مثل اليمن.",
+     "ru": "Соединенные Штаты ввели новые санкции против нескольких физических и юридических лиц, связанных с предполагаемыми преступными сетями в Камбодже, в то время как конфликты продолжаются в таких регионах, как Йемен."
+    }
+   }
+  ],
+  "last_update": 1793982209
  },
  {
   "ts": 1793964412,
@@ -28992,6 +29039,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rWmFFeVFkRFVubHFpbF85ZG5WWlZhaVFsMS1WVDRXZnFEODM2YV83V2xaT1R3MGNiODlYdUE0b3I1LUd5QUQzSWNhMGhmT1VaQWZ3NVQxMmszUXgzSDBSUlJmUEtaTnNoOUdoZnBqWGM3OHZjTVE?oc=5"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTJ2QjVLM25pODZJbDBpelFTUE5iVnpYcWw2bkVwVW1QODlfQ2RWUmxmVUpCOG1WREhpTU5WdTZKQ2dpbjdtU3gtbW5UbmEzS2JCUDc1d2ctYXVnUHIwa0hVVG9nWVpweGd3d1Z0U1lEbndHNTRBZWdSVXJac3B0dndyYU4?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcWRPb29XVWJtWUczeDcyX2NrOC1JV29DdVk0TWZLOUQ4ZXdGNTVvME9Ja256SlBrRmZ6b0d0RVA4Uk50NHpCbFh6X0tJd1NqWDAxXzhTWnVzWXh0Zll3NkZsdnRQdUwtTVRZS3RVZ1ppUFFuemxqSjlvYnlrTnYtMG82b2tQcEdYbG0yM1BJMmVSNVcxMU1KWFFabw?oc=5"
    }
   ],
   "impacts": [
@@ -29034,7 +29093,22 @@
     "price_at_alert": 181.6
    }
   ],
-  "id": "386ae28e6e65"
+  "id": "386ae28e6e65",
+  "updates": [
+   {
+    "ts": 1793982209,
+    "time": "2026-11-06T16:23Z",
+    "severity": 4,
+    "summary": "בעקבות תוצאות בחירות האמצע בארה\"ב, השווקים שוקלים את האפשרות להחמרת הרגולציה על בינה מלאכותית ושינויים פוליטיים רחבים יותר, התורמים לירידה בנכסים ספקולטיביים כמו מטבעות מם הקשורים לטראמפ.",
+    "i18n": {
+     "en": "Following US midterm election results, markets are weighing potential AI regulation increases and broader political shifts, contributing to a pullback in speculative assets like Trump-linked memecoins.",
+     "he": "בעקבות תוצאות בחירות האמצע בארה\"ב, השווקים שוקלים את האפשרות להחמרת הרגולציה על בינה מלאכותית ושינויים פוליטיים רחבים יותר, התורמים לירידה בנכסים ספקולטיביים כמו מטבעות מם הקשורים לטראמפ.",
+     "ar": "في أعقاب نتائج انتخابات التجديد النصفي الأمريكية، تزن الأسواق زيادة التنظيم المحتملة للذكاء الاصطناعي والتحولات السياسية الأوسع، مما يساهم في تراجع الأصول المضاربية مثل العملات المرتبطة بترامب.",
+     "ru": "После результатов промежуточных выборов в США рынки оценивают возможное усиление регулирования искусственного интеллекта и более широкие политические сдвиги, что ведет к откату спекулятивных активов, таких как мемкоины, связанные с Трампом."
+    }
+   }
+  ],
+  "last_update": 1793982209
  },
  {
   "ts": 1793975881,
@@ -29467,7 +29541,24 @@
   "category": "macro",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMF93ekZ4N2wtdW4zX1llS2FoZWpNVlhMLTRNOGVJTUktZmpLQUNBSzY2bW16Mm9mb3lrZERqNFZ6WkRmYkhBTG00Z2k2NFYyNTVLcmVBSkV5eVJRU1RwZFc5blM4MkRmcUxYU2hadXRWbVh0VXpjektqM1BGS3ZlZlNMeW43VWxmeE5TQm13d0E3bTVwUnp5dzFFNA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3ZCT3h0Q0tfM0pTd3M0aG4yVTVkaUhmQ3BFWXM0cmltdGlsbnBOYTlfRU9xNl9GTy16YWJtTHF3bjVMTjNXZ2FXRVQwSGgwazJoRnZNZEVtSHlWc2NVem5aVGgwZGVqR3dtTHBSVmkyV3NNTDhQOFpvcEszY0U5cHIwZFE4UGpPQmhvZHVBU0dhQnR2X2wyUjN6dHRpLURnQzV5Mmx2bmZ4Q0U?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nNjdYZERuRlVCb1l0a2QxbVF6aExLbGdwNEk5cmJuMmE3ME5kR011RVlkOFdEbFpQaVp4VjFTQk43NTBpNnpZRm03WUlWY3ptNm1LVFgyOV85aEFYVGVMNUVzc3VnS3ptdDZKVkZVd3oxeERjRHc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUZoaWU2bmNXOUpFT0NVMDJRdTVXZC1BRlplYnJ3Tk1lQXY0UHNmMHVUUWViZld2ZmxiUTFXb1JVMVFpR2VwNlFZVEJ0aDBKRnYtemUzVzlTTjdIV3NUZDNfX3NMci1yVE9VaWg3NzlWYy10U2Jya09kb0UzbEFQQ0lYZFZXTGhpTWhXaV95dnZRRzdVbU5RcmFn?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -29508,7 +29599,22 @@
     "price_at_alert": 81.945
    }
   ],
-  "id": "ed9a3eb736b2"
+  "id": "ed9a3eb736b2",
+  "updates": [
+   {
+    "ts": 1793982209,
+    "time": "2026-11-06T16:23Z",
+    "severity": 5,
+    "summary": "בעקבות נתוני התעסוקה האחרונים, הפדרל רזרב צפוי להמשיך במסלול הריבית שלו, בעוד סנטימנט הצרכנים בנובמבר עלה באופן בלתי צפוי ל-51.0 עם ציפיות אינפלציה מתונות.",
+    "i18n": {
+     "en": "Following recent employment data, the Federal Reserve is seen sticking to its rate path, while preliminary November consumer sentiment unexpectedly improved to 51.0 with easing inflation expectations.",
+     "he": "בעקבות נתוני התעסוקה האחרונים, הפדרל רזרב צפוי להמשיך במסלול הריבית שלו, בעוד סנטימנט הצרכנים בנובמבר עלה באופן בלתי צפוי ל-51.0 עם ציפיות אינפלציה מתונות.",
+     "ar": "في أعقاب بيانات الوظائف الأخيرة، يُنظر إلى الاحتياطي الفيدرالي على أنه متمسك بمسار أسعار الفائدة، بينما تحسنت معنويات المستهلكين لشهر نوفمبر بشكل غير متوقع إلى 51.0 مع انحسار توقعات التضخم.",
+     "ru": "Вслед за недавними данными по занятости ФРС придерживается своего курса по ставкам, в то время как предварительные ноябрьские потребительские настроения неожиданно выросли до 51.0 при снижении инфляционных ожиданий."
+    }
+   }
+  ],
+  "last_update": 1793982209
  },
  {
   "ts": 1793978990,
@@ -29615,5 +29721,67 @@
    }
   ],
   "id": "e5697746c2dd"
+ },
+ {
+  "ts": 1793982209,
+  "time": "2026-11-06T16:23Z",
+  "title": "קמעונאים מתמודדים עם לחצי משלוחים והשפעות גניבות תשתיות",
+  "summary": "לקראת שיא עונת החגים, קמעונאים קטנים מתמודדים עם עומסי משלוחים, המוחמרים על ידי פשעים מקומיים כמו גניבות חוטי נחושת הגורמות נזק משמעותי לרכוש.",
+  "kid": "חנויות מתמודדות עם משלוחים איטיים לחגים ונזקי תשתית יקרים, העלולים להקטין את שולי הרווח של חברות קמעונאות ותחבורה.",
+  "i18n": {
+   "title": {
+    "en": "Retailers Face Shipping Squeezes and Infrastructure Theft Impacts",
+    "he": "קמעונאים מתמודדים עם לחצי משלוחים והשפעות גניבות תשתיות",
+    "ar": "تجار التجزئة يواجهون ضغوط الشحن وتداعيات سرقة البنية التحتية",
+    "ru": "Розничные продавцы сталкиваются с проблемами доставки и последствиями кражи инфраструктуры"
+   },
+   "summary": {
+    "en": "As holiday peaks approach, small retailers are grappling with shipping congestion, compounded by local crimes such as copper wire thefts causing significant property damage.",
+    "he": "לקראת שיא עונת החגים, קמעונאים קטנים מתמודדים עם עומסי משלוחים, המוחמרים על ידי פשעים מקומיים כמו גניבות חוטי נחושת הגורמות נזק משמעותי לרכוש.",
+    "ar": "مع اقتراب ذروة العطلات، يكافح تجار التجزئة الصغار ازدحام الشحن، وتفاقم ذلك بسبب الجرائم المحلية مثل سرقة الأسلاك النحاسية التي تسبب أضرارًا جسيمة للممتلكات.",
+    "ru": "По мере приближения праздничного пика малые ритейлеры борются с загруженностью доставки, усугубляемой местными преступлениями, такими как кражи медного кабеля, наносящими значительный ущерб."
+   },
+   "kid": {
+    "en": "Shops are dealing with slower holiday deliveries and costly local infrastructure damage, which can squeeze profit margins for retail and transport companies.",
+    "he": "חנויות מתמודדות עם משלוחים איטיים לחגים ונזקי תשתית יקרים, העלולים להקטין את שולי הרווח של חברות קמעונאות ותחבורה.",
+    "ar": "تتعامل المتاجر مع عمليات تسليم أبطأ خلال العطلات وأضرار مكلفة في البنية التحتية المحلية، مما قد يضغط على هوامش الربح لشركات التجزئة والنقل.",
+    "ru": "Магазины сталкиваются с замедлением праздничных поставок и дорогостоящим ущербом инфраструктуре, что может сократить маржу прибыли розничных и транспортных компаний."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekp6MnRlcktwQ09LUTktVFZRVE9NRWxFRC0wR0lIaHpXRmgtZ2tFZjJEY0M1eU1zS0FFODd5M2t1R1pSNXRZMUdvTkFTU3NhTXU0cFU4VzZzV3p1c1hKWkpya1BDa01RY3J0aWFtbWUwdFBKWFBFMWkyRXJpWkVFUXFVZkluNUZST2M5SHl3c0pxZw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQldsbG1YTk5NOXZ6cjhHU1drV2V5MW9WMTlCaXlLN1FIbVA5NjVMd1I1b2pzX2t6NTVHbXZPVGhEWlhGd042Wl9vdGFZRWxFQXdSUkhiM1B4QVNKYTA2NVVXQTRPWS1vZy1SN1JPNEtkc193bFJjblhyX19uRnU5THl4NmZ0S3VQSjhuelJNRjR1SzU4d256X3p3VnR1NUtvbjlFbkZGOHUyQUJhR2daQmszMXBvVVXSAb8BQVVfeXFMT01KNHdVVjByZndZbTA3d2trQTd5QXdKbGNJS0FuRThjM3NGbk9sY3dRTlM0R0NiMW1aUjdHQUtyRFM2Tm9ibUdocmx3TXk0OVFOSnlmSU9KQWcwa0xCYWl5cWszb3VvUUlVcFRVZWNwcVRIS2lwOTR2NmcxVnFWeTRlR045MkdtMFJqbjViZkJwZG9Xa1F0SlQ3OHR1VWxEcHl6X2E2TDJrRVl1emF6WmZCbHB0ZGxnLTZGZ2xJdW8?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "down",
+    "t0": 1793982209,
+    "reason": "עומסי שרשרת אספקה ומכשולים לוגיסטיים מקומיים מקשים על תפעול עונת השיא.",
+    "reason_i18n": {
+     "en": "Supply chain congestion and local logistical hurdles complicate peak-season fulfillment.",
+     "he": "עומסי שרשרת אספקה ומכשולים לוגיסטיים מקומיים מקשים על תפעול עונת השיא.",
+     "ar": "تعقيد ازدحام سلاسل الإمداد والعقبات اللوجستية المحلية التنفيذ في موسم الذروة.",
+     "ru": "Загруженность цепочек поставок и местные логистические препятствия усложняют выполнение заказов в пиковый сезон."
+    },
+    "name_i18n": {
+     "en": "FDX – FedEx Corporation",
+     "he": "FDX - חברת פדקס",
+     "ar": "FDX - شركة فيديكس",
+     "ru": "FDX — FedEx Corporation"
+    },
+    "price_at_alert": 311.05
+   }
+  ],
+  "id": "2c209d3b3fb2"
  }
 ]
