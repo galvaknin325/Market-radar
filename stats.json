@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T20:05Z",
+ "generated": "2026-11-06T20:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 342,
+ "total_alerts": 347,
  "overall": {
   "n": 322,
   "hits": 131,
@@ -78,38 +78,38 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "USO - קרן סל נפט גולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - ETF нефти"
+    "he": "קרן נפט גולמי – עוקבת אחר מחיר הנפט",
+    "en": "Crude Oil Fund – tracks oil prices",
+    "ar": "صندوق النفط الخام - يتتبع أسعار النفط",
+    "ru": "Фонд сырой нефти – отслеживает цены на нефть"
    },
    "avg_edge": -1.94
   },
   "XLE": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 17,
    "hits": 7,
    "name": {
-    "he": "XLE - קרן סל מגזר האנרגיה",
-    "en": "XLE - Energy Select Sector SPDR Fund",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "קרן סקטור האנרגיה – חברות נפט וגז גדולות",
+    "en": "Energy Sector ETF – major oil and gas companies",
+    "ar": "صندوق قطاع الطاقة - شركات النفط والغاز الكبرى",
+    "ru": "ETF энергетического сектора – крупные нефтегазовые компании"
    },
    "avg_edge": -1.23
   },
   "IBIT": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 7,
    "hits": 1,
    "name": {
-    "he": "קרן סל ביטקוין",
-    "en": "Bitcoin ETF",
-    "ar": "صندوق الاستثمار المتداول للبيتكوين",
-    "ru": "ETF на биткоин"
+    "he": "קרן ביטקוין – עוקבת אחר שער הביטקוין",
+    "en": "Bitcoin ETF – tracks Bitcoin price",
+    "ar": "صندوق البيتكوين المتداول - يتتبع سعر البيتكوين",
+    "ru": "Bitcoin ETF – отслеживает цену биткоина"
    },
    "avg_edge": -1.32
   },
@@ -162,14 +162,14 @@
    "avg_edge": -8.47
   },
   "RTX": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "RTX – ענקית ביטחונית ואווירית",
-    "en": "RTX – aerospace & defense giant",
-    "ar": "RTX – عملاق الطيران والدفاع",
-    "ru": "RTX – аэрокосмический и оборонный гигант"
+    "he": "RTX – חברת תעופה וביטחון",
+    "en": "RTX – aerospace and defense company",
+    "ar": "RTX - شركة طيران ودفاع",
+    "ru": "RTX – аэрокосмическая и оборонная компания"
    },
    "avg_edge": -1.22
   },
@@ -222,14 +222,14 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 17,
    "hits": 9,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
-    "ar": "مؤشر S&P 500",
-    "ru": "Индекс S&P 500"
+    "he": "מדד S&P 500 – השוק הרחב בארה\"ב",
+    "en": "S&P 500 ETF – broad US stock market",
+    "ar": "مؤشر S&P 500 - السوق الأمريكية الواسعة",
+    "ru": "S&P 500 ETF – широкий рынок акций США"
    },
    "avg_edge": 0.29
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.22
   },
   "LMT": {
-   "mentions": 25,
+   "mentions": 26,
    "n": 18,
    "hits": 3,
    "name": {
-    "he": "LMT - לוקהיד מרטין",
-    "en": "LMT - Lockheed Martin",
-    "ar": "LMT - لوكهيد مارتن",
-    "ru": "LMT - Lockheed Martin"
+    "he": "לוקהיד מרטין – יצרנית נשק גדולה",
+    "en": "Lockheed Martin – a major weapons maker",
+    "ar": "لوكهيد مارتن - صانع أسلحة كبير",
+    "ru": "Lockheed Martin – крупный производитель оружия"
    },
    "avg_edge": -5.01
   },
@@ -738,14 +738,14 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "קרן סל חיטה",
-    "en": "Wheat ETF",
-    "ar": "صندوق القمح",
-    "ru": "Пшеничный ETF"
+    "he": "קרן חיטה – עוקבת אחר מחירי החיטה",
+    "en": "Wheat ETF – tracks wheat prices",
+    "ar": "صندوق القمح المتداول - يتتبع أسعار القمح",
+    "ru": "Wheat ETF – отслеживает цены на пшеницу"
    },
    "avg_edge": 1.18
   },
