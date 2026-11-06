@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T11:27Z",
+ "generated": "2026-11-06T12:24Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 320,
+ "total_alerts": 322,
  "overall": {
   "n": 321,
   "hits": 130,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל על נפט גולמי",
-    "en": "Crude Oil Fund",
-    "ar": "صندوق النفط الخام",
-    "ru": "Фонд сырой нефти"
+    "he": "יו.אס.או – קרן סל העוקבת אחר מחירי הנפט",
+    "en": "USO – A fund tracking crude oil prices",
+    "ar": "USO - صندوق يتتبع أسعار النفط الخام",
+    "ru": "USO – фонд, отслеживающий цены на сырую нефть"
    },
    "avg_edge": -1.94
   },
@@ -114,14 +114,14 @@
    "avg_edge": -1.32
   },
   "XOM": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "אקסון מוביל - חברת נפט ענקית",
-    "en": "ExxonMobil – a major oil company",
-    "ar": "إكسون موبيل - شركة نفط كبرى",
-    "ru": "ExxonMobil — крупная нефтяная компания"
+    "he": "אקסון מוביל – חברת אנרגיה ונפט ענקית",
+    "en": "Exxon Mobil – A major energy and oil company",
+    "ar": "إكسون موبيل - شركة طاقة ونפט كبرى",
+    "ru": "Exxon Mobil – крупная нефтегазовая компания"
    },
    "avg_edge": -4.34
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.76
   },
   "ITA": {
-   "mentions": 52,
+   "mentions": 53,
    "n": 34,
    "hits": 12,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الطيران والدفاع",
-    "ru": "ETF на аэрокосмическую и оборонную отрасль"
+    "he": "איי.טי.אי – קרן סל של תעופה וביטחון אמריקאית",
+    "en": "ITA – US Aerospace & Defense ETF",
+    "ar": "ITA - صندوق الطيران والدفاع الأمريكي",
+    "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -8.47
   },
@@ -414,14 +414,14 @@
    "avg_edge": 0.12
   },
   "EWC": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 5,
    "hits": 4,
    "name": {
-    "he": "קרן סל קנדה",
-    "en": "iShares Canada ETF",
-    "ar": "صندوق إيشارز كندا",
-    "ru": "Канадский ETF"
+    "he": "אי.דבליו.סי – קרן סל העוקבת אחר מניות קנדה",
+    "en": "EWC – An ETF tracking Canadian equities",
+    "ar": "EWC - صندوق يتتبع الأسهم الكندية",
+    "ru": "EWC – фонд, отслеживающий канадские акции"
    },
    "avg_edge": 0.79
   },
@@ -1094,6 +1094,30 @@
     "en": "TUR - Turkey ETF",
     "ar": "TUR - صندوق استثمار تركيا",
     "ru": "TUR - ETF Турции"
+   },
+   "avg_edge": null
+  },
+  "REMX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "רמקס – קרן סל של מתכות נדירות",
+    "en": "REMX – Rare earth and strategic metals ETF",
+    "ar": "REMX - صندوق استثماري للمعادن النادرة",
+    "ru": "REMX – фонд редких земель и стратегических металлов"
+   },
+   "avg_edge": null
+  },
+  "CVX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "שברון – חברת אנרגיה ונפט רב-לאומית",
+    "en": "Chevron – A multinational energy and oil company",
+    "ar": "شيفرون - شركة طاقة ونפט متعددة الجنسيات",
+    "ru": "Chevron – транснациональная нефтегазовая компания"
    },
    "avg_edge": null
   }
