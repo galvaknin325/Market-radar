@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T16:23Z",
+ "generated": "2026-11-06T17:24Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 334,
+ "total_alerts": 336,
  "overall": {
   "n": 322,
   "hits": 131,
@@ -198,14 +198,14 @@
    "avg_edge": -1.05
   },
   "XLK": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "XLK – מגזר הטכנולוגיה",
-    "en": "XLK – Technology Select Sector SPDR Fund",
-    "ar": "XLK – صندوق قطاع التكنولوجيا",
-    "ru": "XLK – ETF технологического сектора"
+    "he": "סקטור הטכנולוגיה",
+    "en": "Technology Sector ETF",
+    "ar": "صندوق قطاع التكنولوجيا",
+    "ru": "ETF технологического сектора"
    },
    "avg_edge": 1.51
   },
@@ -222,14 +222,14 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 17,
    "hits": 9,
    "name": {
-    "he": "SPY – מדד המניות הכללי S&P 500",
-    "en": "SPY – S&P 500 broad market ETF",
-    "ar": "SPY – صندوق مؤشر الأسهم S&P 500",
-    "ru": "SPY – ETF широкого рынка S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": 0.29
   },
@@ -282,14 +282,14 @@
    "avg_edge": -5.56
   },
   "TLT": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 6,
    "hits": 5,
    "name": {
-    "he": "TLT – אג\"ח ממשלתי ארוך טווח בארה\"ב",
-    "en": "TLT – long-term US Treasury bond ETF",
-    "ar": "TLT – صندوق سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "TLT – ETF долгосрочных гособлигаций США"
+    "he": "אג\"ח ממשלתי ארוך",
+    "en": "Long-term US Treasury bonds",
+    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "Долгосрочные гособлигации США"
    },
    "avg_edge": 1.17
   },
@@ -1130,6 +1130,18 @@
     "en": "AST SpaceMobile – satellite technology company",
     "ar": "AST SpaceMobile – شركة تكنولوجيا الأقمار الصناعية",
     "ru": "AST SpaceMobile – компания спутниковых технологий"
+   },
+   "avg_edge": null
+  },
+  "META": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "מטא",
+    "en": "Meta",
+    "ar": "ميتا",
+    "ru": "Meta"
    },
    "avg_edge": null
   }
