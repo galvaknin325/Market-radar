@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T14:38Z",
+ "generated": "2026-11-06T15:30Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 330,
+ "total_alerts": 333,
  "overall": {
   "n": 322,
   "hits": 131,
@@ -222,14 +222,14 @@
    "avg_edge": -0.34
   },
   "SPY": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 17,
    "hits": 9,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 ETF",
-    "ar": "صندوق S&P 500",
-    "ru": "ETF индекса S&P 500"
+    "he": "SPY – מדד המניות הכללי S&P 500",
+    "en": "SPY – S&P 500 broad market ETF",
+    "ar": "SPY – صندوق مؤشر الأسهم S&P 500",
+    "ru": "SPY – ETF широкого рынка S&P 500"
    },
    "avg_edge": 0.29
   },
@@ -282,14 +282,14 @@
    "avg_edge": -5.56
   },
   "TLT": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 6,
    "hits": 5,
    "name": {
-    "he": "אג\"ח ממשלתי ארוך",
-    "en": "Long-term US Treasury Bonds ETF",
-    "ar": "صندوق سندات الخزانة طويلة الأجل",
-    "ru": "ETF долгосрочных гособлигаций США"
+    "he": "TLT – אג\"ח ממשלתי ארוך טווח בארה\"ב",
+    "en": "TLT – long-term US Treasury bond ETF",
+    "ar": "TLT – صندوق سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "TLT – ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 1.17
   },
@@ -354,14 +354,14 @@
    "avg_edge": -2.06
   },
   "QQQ": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 9,
    "hits": 3,
    "name": {
-    "he": "תעודת סל נאסד\"ק 100",
-    "en": "Nasdaq 100 ETF",
-    "ar": "صندوق ناسداك 100",
-    "ru": "ETF индекса Nasdaq 100"
+    "he": "QQQ – מדד הטכנולוגיה והמדיה נאסד\"ק 100",
+    "en": "QQQ – Nasdaq 100 tech ETF",
+    "ar": "QQQ – صندوق تكنولوجيا ناسداك 100",
+    "ru": "QQQ – технологический ETF Nasdaq 100"
    },
    "avg_edge": -0.57
   },
@@ -1118,6 +1118,18 @@
     "en": "Chevron – A multinational energy and oil company",
     "ar": "شيفرون - شركة طاقة ونפט متعددة الجنسيات",
     "ru": "Chevron – транснациональная нефтегазовая компания"
+   },
+   "avg_edge": null
+  },
+  "ASTS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "AST SpaceMobile – חברת טכנולוגיית לוויינים",
+    "en": "AST SpaceMobile – satellite technology company",
+    "ar": "AST SpaceMobile – شركة تكنولوجيا الأقمار الصناعية",
+    "ru": "AST SpaceMobile – компания спутниковых технологий"
    },
    "avg_edge": null
   }
