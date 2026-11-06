@@ -28115,7 +28115,16 @@
   "category": "contracts",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONVRVWEJwWFRPaHdQczgydWV3MkxuaFEzdE10S0dxZE9ocUJ6b09hejBGN1FCTE5VRjFqWjRBbUtSeExWWFZVM1h6WFM2SmN1ZWtFUkRxUTFjbkJESGYzUzhzWWhCTVRTOEJCalVRTjg2Mi1DbEJhdGVVREVaYjJfWGZid3VMS0Uyb1hfMER5eVpBcHNscGpxZUlCUFI0TDVmYXJKMHltbVZ6LWJlbGFxNzNoR3ZJZ1J4SUFNR294YkRhVkd5UFVn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2JkUWR0d2lRYzBLUUFtQUVPR0RsYnhtbFdUaV9YYTJnSkVIVDJ1TXgwUmJtaVphWGtEblJKdGV4N3BTZGxKN2t0Uzk2eEhyaGotMW1qVG0zbUw1alEwdkU5RkVVazduWWdyNm9wdDlMVmsxUTgzdE80b2tMOHNCdHZDSFJjOVhOYXgxWXR3VDlRSzNqVzJYN2RCVQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "LMT",
@@ -28154,9 +28163,43 @@
      "ru": "ETF на аэрокосмическую и оборонную отрасль"
     },
     "price_at_alert": 68.11
+   },
+   {
+    "ticker": "BA",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "התקדמות בשילוב חימוש ל-F-35 תומכת בסנטימנט חיובי לקבלניות הביטחוניות.",
+    "reason_i18n": {
+     "en": "Progress in F-35 weapons integration supports defense contractor sentiment.",
+     "he": "התקדמות בשילוב חימוש ל-F-35 תומכת בסנטימנט חיובי לקבלניות הביטחוניות.",
+     "ar": "التقدم في دمج الأسلحة لطائرة F-35 يدعم معنويات مقاولي الدفاع.",
+     "ru": "Прогресс в интеграции вооружений F-35 поддерживает оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "BA - בואינג",
+     "en": "BA - Boeing",
+     "ar": "BA - بوينغ",
+     "ru": "BA - Boeing"
+    },
+    "price_at_alert": 170.785
    }
   ],
-  "id": "e99cc8e89e18"
+  "id": "e99cc8e89e18",
+  "updates": [
+   {
+    "ts": 1793975881,
+    "time": "2026-11-06T14:38Z",
+    "severity": 4,
+    "summary": "טיל ה-METEOR השלים בהצלחה השלכה ראשונה מתוך תא חימוש פנימי של מטוס F-35B, ציון דרך בחימוש המטוס.",
+    "i18n": {
+     "he": "טיל ה-METEOR השלים בהצלחה השלכה ראשונה מתוך תא חימוש פנימי של מטוס F-35B, ציון דרך בחימוש המטוס.",
+     "en": "The METEOR missile completed its first release from the internal weapons bay of an F-35B aircraft, marking a major milestone in arming F-35 operators.",
+     "ar": "أكمل صاروخ ميتيور أول عملية إطلاق ناجحة من حجرة الأسلحة الداخلية لطائرة F-35B، مما يمثل علامة فارقة.",
+     "ru": "Ракета METEOR успешно завершила первый сброс из внутреннего отсека вооружения истребителя F-35B."
+    }
+   }
+  ],
+  "last_update": 1793975881
  },
  {
   "ts": 1793961094,
@@ -28816,12 +28859,28 @@
    }
   },
   "category": "macro",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
   "sources": [
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFVTWHBIY0ViZUg2al8zSjFDNGpzaGRaMXFPQXAwN1JiOThNdVk5c0UyX2ZEVWExNGNoUktlZHd6elVwa1pmdXZpWW1YajB3WGRJMWpqTlBrX3o5OXlTM2l3NUIxM2R4VlgxaldkaWNBTXl1aTgyQy1UaXJUNklPMlFBT2tnRVdYNDZHYUF0WVl3c05PZF9uVllIRkJKQ1IyT3NvVTU4N2s?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWUU3MXMzajlzWmpGSTE4NmdPRWFqTGU4M3RMRGt6cG1LbFNVTjB0Z0t4NzVYSGI5WHpXdkpOWUFON1ViS0FERjlNQ2FpMUZQOVJHaWJXM2h5cnVLSlZOenJack5Sa1ZNcFJSaV9pMzhDVGxBeXlMc0NrN0Zldkkyel93cHJPNFRobEtvRl9QYWtpaWRvekFpUUpSczJkcTYzREI0anAySFpxTFA3WWV3ZGRJdlZqWmg2YTMwTXJlUnJBWVF0?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/06/treasury-yields-inch-lower-as-investors-look-ahead-to-key-jobs-data-.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWUtxTFVCR29Yc092R3R4c2dBZm9BNFZvbWR5UzNoNTRmQ1ZGRFVGWTV2ME9hVjZVMEhxUUdYSGRiUEtvRklIYU5YV01BcW5pdUtLejQwRWlmQlRtZUJZWkpLcHd0RHROMmNjQ3JBdWRRMmJzMHZTWUlLSFRLdm92ZmJHSQ?oc=5"
    }
   ],
   "impacts": [
@@ -28883,7 +28942,22 @@
     "price_at_alert": 28.92
    }
   ],
-  "id": "4e136e5d38ba"
+  "id": "4e136e5d38ba",
+  "updates": [
+   {
+    "ts": 1793975881,
+    "time": "2026-11-06T14:38Z",
+    "severity": 7,
+    "summary": "הכלכלה האמריקאית הוסיפה 165,000 משרות באוקטובר, מעבר לציפיות, ושיעור האבטלה ירד ל-4.1%. בעקבות זאת, תשואות האג\"ח ל-10 שנים רשמו עלייה.",
+    "i18n": {
+     "he": "הכלכלה האמריקאית הוסיפה 165,000 משרות באוקטובר, מעבר לציפיות, ושיעור האבטלה ירד ל-4.1%. בעקבות זאת, תשואות האג\"ח ל-10 שנים רשמו עלייה.",
+     "en": "The US economy added 165,000 jobs in October, beating expectations, while the unemployment rate slipped to 4.1%. Consequently, the 10-year Treasury yield rose as investors reassessed monetary policy.",
+     "ar": "أضاف الاقتصاد الأمريكي 165,000 وظيفة في أكتوبر متجاوزاً التوقعات، بينما انخفض معدل البطالة إلى 4.1%. ونتيجة لذلك، ارتفعت عوائد سندات الخزانة لأجل 10 سنوات.",
+     "ru": "Экономика США создала 165 000 рабочих мест в октябре, превзойдя ожидания, а уровень безработицы снизился до 4,1%. В результате доходность 10-летних гособлигаций выросла."
+    }
+   }
+  ],
+  "last_update": 1793975881
  },
  {
   "ts": 1793972638,
@@ -28961,5 +29035,407 @@
    }
   ],
   "id": "386ae28e6e65"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "תקיפת טיל על מכלית נפט במפרץ והריגת ימאי",
+  "summary": "ימאי נהרג במתקפת טילים חשודה על מכלית בניהול יווני באזור המפרץ. האירוע מעלה חששות לגבי נתיבי הסחר הימיים באזור.",
+  "kid": "ספינת נפט הותקפה וימאי נהרג. זה עלול לגרום למחירי הנפט לעלות כי ספינות מפחדות לעבור באזור.",
+  "i18n": {
+   "title": {
+    "he": "תקיפת טיל על מכלית נפט במפרץ והריגת ימאי",
+    "en": "Missile Attack on Oil Tanker in the Gulf Kills Seafarer",
+    "ar": "هجوم صاروخي على ناقلة نفط في الخليج يقتل بحاراً",
+    "ru": "Ракетный удар по нефтяному танкеру в Персидском заливе унес жизнь моряка"
+   },
+   "summary": {
+    "he": "ימאי נהרג במתקפת טילים חשודה על מכלית בניהול יווני באזור המפרץ. האירוע מעלה חששות לגבי נתיבי הסחר הימיים באזור.",
+    "en": "A seafarer was killed in a suspected missile attack on a Greek-managed tanker in the Gulf, highlighting ongoing security risks to regional shipping lanes.",
+    "ar": "مقتل بحار في هجوم صاروخي مشتبه به على ناقلة تديرها يونان المخاطر في ممرات الشحن الإقليمية.",
+    "ru": "Моряк погиб в результате предполагаемого ракетного удара по танкеру под управлением Греции в Персидском заливе."
+   },
+   "kid": {
+    "he": "ספינת נפט הותקפה וימאי נהרג. זה עלול לגרום למחירי הנפט לעלות כי ספינות מפחדות לעבור באזור.",
+    "en": "An oil tanker was attacked and a seafarer was killed. This could make oil prices go up because ships are afraid to pass through the area.",
+    "ar": "تعرضت ناقلة نفط لهجوم ومقتل بحار. قد يؤدي ذلك إلى ارتفاع أسعار النفط لأن السفن تخشى المرور عبر المنطقة.",
+    "ru": "Нефтяной танкер подвергся нападению, погиб моряк. Это может поднять цены на нефть, так как суда боятся проходить через этот район."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeW1RNlVUZHQ5eTd2Zl9oMm5obmhCWmlnWVcyYWhXN282UjJ5TVNlQUtQeWlGZlhBeGE2RDd4VG13bjl3TXMzd2RmV1dIekN1YUxTMmJsY2syUjFibDkzT3VBek5rZWpwbk9DMExSUHMtUlhUNFpyc0M0M2lKRlowbUN5ZjYzUTRrV1BSTFl5LU9KX3d6SHVFYi0zQ0drTk40cjB5SHg2bVdIc0NaXzRkenEwNWR0aWtJS1FqRVZ2RUEtU084bWVXcU5xOFQtT0JCN1Rr?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0ta2wyQXBBcjc3cTY4cHZGMC1ibFNzXzNqRTV1eEpsbng4bVNXbTh5REdWRFBlTUR5cGhiQlBMWExuaXJFdlVsTHgzTjFFTXpK?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdGJ4RzRVU194MHRzcXZISjQybnBMY3FobTlSVEFCRUJrVGZxVFd1OTl2bmlld1BCaElySmZweTQ1LWpnN1VZeFA4NHUwWnVDcjFfeUlGUXJHX1Y4SzZtbEdlUXBaZFRlY3RDVnJRWWtOWHdTQVRLWS1aa2RCNmFBU1JkRjRxZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "חשש שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "חשש שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה.",
+     "en": "Fears of supply disruptions in the Gulf boost energy prices.",
+     "ar": "المخاوف من تعطل إمدادات النفط في الخليج تدفع أسعار الطاقة للارتفاع.",
+     "ru": "Опасения перебоев с поставками нефти в заливе поднимают цены на энергоносители."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - ETF нефти"
+    },
+    "price_at_alert": 147.66
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "מניות אנרגיה עשויות לעלות עקב התגברות הסיכונים הגאופוליטיים במפרץ.",
+    "reason_i18n": {
+     "he": "מניות אנרגיה עשויות לעלות עקב התגברות הסיכונים הגאופוליטיים במפרץ.",
+     "en": "Energy stocks may rise on heightened geopolitical risks in the Gulf.",
+     "ar": "قد ترتفع أسهم الطاقة بسبب تصاعد المخاطر الجيوسياسية في الخليج.",
+     "ru": "Акции энергетических компаний могут вырасти из-за геополитических рисков."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל מגזר האנרגיה",
+     "en": "XLE - Energy Select Sector SPDR Fund",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 61.44
+   }
+  ],
+  "id": "44e4389371a6"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "איראן הזמינה 90 מערכות טילים מרוסיה",
+  "summary": "לפי דיווח של ה-Financial Times, איראן הזמינה 90 מערכות להשקת טילים מרוסיה בשנים 2024-2025.",
+  "kid": "איראן קנתה מערכות טילים חדשות מרוסיה. זה מגביר את המתח במזרח התיכון ויכול להשפיע על חברות הנשק.",
+  "i18n": {
+   "title": {
+    "he": "איראן הזמינה 90 מערכות טילים מרוסיה",
+    "en": "Financial Times: Iran Ordered 90 Missile Systems from Russia",
+    "ar": "فايننشال تايمز: إيران طلبت 90 نظام صواريخ من روسيا",
+    "ru": "Financial Times: Иран заказал у России 90 ракетных систем"
+   },
+   "summary": {
+    "he": "לפי דיווח של ה-Financial Times, איראן הזמינה 90 מערכות להשקת טילים מרוסיה בשנים 2024-2025.",
+    "en": "According to the Financial Times, Iran ordered 90 missile launch systems from Russia over the 2024-2025 period.",
+    "ar": "وفقاً لصحيفة فايننشال تايمز، طلبت إيران 90 نظام إطلاق صواريخ من روسيا خلال الفترة 2024-2025.",
+    "ru": "По данным Financial Times, Иран заказал у России 90 ракетных пусковых установок в период 2024-2025 годов."
+   },
+   "kid": {
+    "he": "איראן קנתה מערכות טילים חדשות מרוסיה. זה מגביר את המתח במזרח התיכון ויכול להשפיע על חברות הנשק.",
+    "en": "Iran bought new missile systems from Russia. This increases tension in the Middle East and can affect defense companies.",
+    "ar": "اشترت إيران أنظمة صواريخ جديدة من روسيا، مما يزيد التوترات في الشرق الأوسط.",
+    "ru": "Иран купил у России новые ракетные системы, что усиливает напряженность на Ближнем Востоке."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUExrQ3VFNTlSVm5reVdTQW9SaFRJeDd0SDA2VXkteVVKSzE3aUtPY1F5bmtBekdodkFyZ29rZEphdVJPZ3hxM2ljd2x4R0V3bnNwa1ZBUlhiZ29QSjVWOGRwd0F0c192Wld4cUpmbDluZldMYTdxUGk2Wm8yUmF2X0xDWHF0Zw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "עליית המתחים הגאופוליטיים במזרח התיכון מעלה את הביקוש למוצרי חברות הביטחון.",
+    "reason_i18n": {
+     "en": "Rising geopolitical tensions in the Middle East drive demand for defense contractor equipment.",
+     "he": "עליית המתחים הגאופוליטיים במזרח התיכון מעלה את הביקוש למוצרי חברות הביטחון.",
+     "ar": "تصاعد التوترات الجيوسياسية في الشرق الأوسط يدفع الطلب على معدات الدفاع.",
+     "ru": "Рост геополитической напряженности на Ближнем Востоке стимулирует спрос на ВПК."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין",
+     "en": "LMT - Lockheed Martin",
+     "ar": "LMT - لوكهيد مارتن",
+     "ru": "LMT - Lockheed Martin"
+    },
+    "price_at_alert": 565.23
+   },
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "הסלמה גאופוליטית מרימה את כל מגזר התעופה והביטחון.",
+    "reason_i18n": {
+     "en": "Geopolitical escalation lifts the entire aerospace and defense sector.",
+     "he": "הסלמה גאופוליטית מרימה את כל מגזר התעופה והביטחון.",
+     "ar": "التصعيد الجيوسياسي يرفع قطاع الطيران والدفاع بأكمله.",
+     "ru": "Геополитическая эскалация поддерживает весь аэрокосмический и оборонный сектора."
+    },
+    "name_i18n": {
+     "he": "XAR - קרן סל תעופה וביטחון",
+     "en": "XAR - SPDR S&P Aerospace & Defense ETF",
+     "ar": "XAR - صندوق الفضاء والدفاع",
+     "ru": "XAR - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 213.29
+   }
+  ],
+  "id": "f09e50d09ecc"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "הבנק של אנגליה מעלה את הריבית ל-4%",
+  "summary": "הבנק של אנגליה העלה את הריבית ל-4% על רקע תחזיות לפיהן האינפלציה תישאר קרובה ל-5% בשנה הבאה.",
+  "kid": "הבנק המרכזי בבריטניה העלה את הריבית כי האינפלציה עדיין גבוהה. זה משפיע על השווקים באירופה.",
+  "i18n": {
+   "title": {
+    "he": "הבנק של אנגליה מעלה את הריבית ל-4%",
+    "en": "Bank of England Raises Rates to 4%",
+    "ar": "بنك إنجلترا يرفع أسعار الفائدة إلى 4%",
+    "ru": "Банк Англии поднял ставку до 4%"
+   },
+   "summary": {
+    "he": "הבנק של אנגליה העלה את הריבית ל-4% על רקע תחזיות לפיהן האינפלציה תישאר קרובה ל-5% בשנה הבאה.",
+    "en": "The Bank of England raised interest rates to 4% as it forecasts inflation to remain near 5% next year.",
+    "ar": "رفع بنك إنجلترا أسعار الفائدة إلى 4% مع توقعاته ببقاء التضخمnear 5% العام المقبل.",
+    "ru": "Банк Англии повысил процентные ставки до 4%, прогнозируя сохранение инфляции вблизи 5% в следующем году."
+   },
+   "kid": {
+    "he": "הבנק המרכזי בבריטניה העלה את הריבית כי האינפלציה עדיין גבוהה. זה משפיע על השווקים באירופה.",
+    "en": "The central bank in the UK raised interest rates because inflation is still high. This affects European markets.",
+    "ar": "رفع البنك المركزي في بريطانيا أسعار الفائدة لأن التضخم لا يزال مرتفعاً. وهذا يؤثر على الأسواق الأوروبية.",
+    "ru": "Центральный банк Великобритании поднял ставку из-за сохраняющейся инфляции. Это влияет на европейские рынки."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjA1NUpONUNrLTg2dzNwbzgweGYxcENRVmc0T3JCSVdBX3ljeHc0WVRnMnRlbm90aE0wZ2tkbTY3UVpIWXBkdTdWMjdsTGR4bXVoOFU1LW9xVVJOYVhWcVZPb0hEMVVxcVJUU2dUZ3lZRDFhLUMyNXFVX0NSaFZrcUdYRjQxU1h0ZFNnSWpYRWJrUnF5Vl9Rc3hwMnlQWHl2Wnpv?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "down",
+    "t0": 1793975881,
+    "reason": "ריבית גבוהה עלולה להכביד על הצמיחה הכלכלית בבריטניה ועל המניות המקומיות.",
+    "reason_i18n": {
+     "en": "Higher interest rates can weigh on UK economic growth and local equities.",
+     "he": "ריבית גבוהה עלולה להכביד על הצמיחה הכלכלית בבריטניה ועל המניות המקומיות.",
+     "ar": "أسعار الفائدة المرتفعة قد تشكل ضغطاً على النمو الاقتصادي في بريطانيا.",
+     "ru": "Более высокие ставки могут оказать давление на экономику Великобритании."
+    },
+    "name_i18n": {
+     "he": "EWU - קרן סל בריטניה",
+     "en": "EWU - iShares MSCI United Kingdom ETF",
+     "ar": "EWU - صندوق الاستثمار المتداول للمملكة المتحدة",
+     "ru": "EWU - ETF акций Великобритании"
+    },
+    "price_at_alert": 47.08
+   }
+  ],
+  "id": "c1a12a392fc0"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "שערי הנחושת והפרמיות בסין מזנקים על רקע הידוק ההיצע",
+  "summary": "פרמיות הנחושת בספוט בשאנגחאי זינקו לרמה שיא של 2,615 יואן לטון, בעוד השוק הגלובלי ממתין להחלטות המכס בארה\"ב.",
+  "kid": "יש מחסור בנחושת בסין והמחירים עולים, בזמן שכולם מחכים לראות אם ארה\"ב תטיל מס על המתכת.",
+  "i18n": {
+   "title": {
+    "he": "שערי הנחושת והפרמיות בסין מזנקים על רקע הידוק ההיצע",
+    "en": "Copper Premiums in Shanghai Surge Amid Tight Supply",
+    "ar": "قفزة في أقساط النحاس في شانغهاي وسط شح المعروض",
+    "ru": "Премии на медь в Шанхае взлетели на фоне дефицита предложения"
+   },
+   "summary": {
+    "he": "פרמיות הנחושת בספוט בשאנגחאי זינקו לרמה שיא של 2,615 יואן לטון, בעוד השוק הגלובלי ממתין להחלטות המכס בארה\"ב.",
+    "en": "Shanghai spot copper premiums surged to a record 2,615 yuan per metric ton amid tight supply, while global markets await US tariff decisions.",
+    "ar": "ارتفعت أقساط النحاس الفوري في شانغهاي إلى مستوى قياسي بلغ 2615 يوان وسط شح الإمدادات.",
+    "ru": "Спотовые премии на медь в Шанхае выросли до рекордных 2615 юаней за тонну на фоне дефицита предложения."
+   },
+   "kid": {
+    "he": "יש מחסור בנחושת בסין והמחירים עולים, בזמן שכולם מחכים לראות אם ארה\"ב תטיל מס על המתכת.",
+    "en": "There is a shortage of copper in China and prices are jumping, while everyone waits for US tariff decisions.",
+    "ar": "هناك نقص في النحاس في الصين وتصاعد الأسعار بينما ينتظر الجميع قرار التعريفات الأمريكية.",
+    "ru": "В Китае наблюдается дефицит меди, цены растут, а рынок ждет решений США по пошлинам."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUGJFWnhhNWdKTTgtSVNmWHBKUmgwckRXSnRJekVLWTMxTS1oWmZWUHVrMGJHN083NnZKZzNQQzZ4eGU1OU0zRmJMSmg2UG1WS0ItejJSS09IQlhqMm4xUktyaTVzdUY0NG9OUFZkdDNDQV9VcUZxVkY2c2ZVNUM4V3I0OVFmaW95bmlkSnlzclRNdVViSWllVVdoaXRWNWcwNFlDVnc3bDBjZw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQU21CakRORG9iTC00MlpSZjUyaUpOUlBJakpJYTFlem11dHhjVmUxT1FhaTR0cFdMeWNBTEpSU0RReGhsR3lNdzkzRFZOMzh0Nzd5Mkt3MElzYWg4Y1F6ZEJnc29MQm5kYnkzM1c4c2J2REEwU05jVDdZR01rM2ZNMzNaaHFFUzhWdThSVlRFLWpxVDZCQ2VSaXp5TERmS2JFTVNjOXlTeXliUnFNc1lFUUJvSnVqOXdhSDdMdW14M1h4ZFFaMFo2dk9vcmpXczhJaHhtd0J0UWd4LWlBSTlMU0pCM29QS1RTVmx4cm1nQVotZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "היצע נחושת הדוק ופרמיות גבוהות תומכים בהכנסות חברות הכריה.",
+    "reason_i18n": {
+     "en": "Tight physical copper supply and high regional premiums support mining revenues.",
+     "he": "היצע נחושת הדוק ופרמיות גבוהות תומכים בהכנסות חברות הכריה.",
+     "ar": "شح معروض النحاس الفعلي والأقساط المرتفعة يدعمان إيرادات التعدين.",
+     "ru": "Дефицит физической меди и высокие премии поддерживают доходы горнодобытчиков."
+    },
+    "name_i18n": {
+     "he": "FCX - פריפורט מקמוראן (נחושת)",
+     "en": "FCX - Freeport-McMoRan",
+     "ar": "FCX - فريبورت مكموران",
+     "ru": "FCX - Freeport-McMoRan"
+    },
+    "price_at_alert": 58.56
+   }
+  ],
+  "id": "1390e3e11173"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "הבנק המרכזי האירופי בוחן את אשראי הבנקים למרכזי נתונים",
+  "summary": "הבנק המרכזי האירופי (ECB) שוקל לקיים סקירה של מתן אשראי בנקאי הקשור לפרויקטים של מרכזי נתונים על רקע חששות גוברים.",
+  "kid": "אירופה שוקלת לבדוק איך בנקים מלווים כסף לחברות שמקימות מרכזי נתונים של מחשבים. זה עשוי להשפיע על חברות הטכנולוגיה והבנקים.",
+  "i18n": {
+   "title": {
+    "he": "הבנק המרכזי האירופי בוחן את אשראי הבנקים למרכזי נתונים",
+    "en": "ECB Considers Review of Banks' Data Center Lending",
+    "ar": "المركزي الأوروبي يدرس مراجعة إقراض البنوك لمراكز البيانات",
+    "ru": "ЕЦБ рассматривает вопрос проверки банковского кредитования дата-центров"
+   },
+   "summary": {
+    "he": "הבנק המרכזי האירופי (ECB) שוקל לקיים סקירה של מתן אשראי בנקאי הקשור לפרויקטים של מרכזי נתונים על רקע חששות גוברים.",
+    "en": "The European Central Bank is considering a review of bank lending tied to data centers amid growing risks and concerns.",
+    "ar": "يفكر البنك المركزي الأوروبي في إجراء مراجعة لقروض البنوك المرتبطة بمراكز البيانات وسط مخاوف متزايدة.",
+    "ru": "Европейский центральный банк рассматривает возможность проверки банковских кредитов, связанных с дата-центрами."
+   },
+   "kid": {
+    "he": "אירופה שוקלת לבדוק איך בנקים מלווים כסף לחברות שמקימות מרכזי נתונים של מחשבים. זה עשוי להשפיע על חברות הטכנולוגיה והבנקים.",
+    "en": "Europe is considering checking how banks lend money to companies building data centers. This could affect tech and financial companies.",
+    "ar": "تدرس أوروبا مراقبة كيفية إقراض البنوك للشركات التي تبني مراكز البيانات. قد يؤثر ذلك على شركات التقنية والبنوك.",
+    "ru": "Европа рассматривает возможность проверки кредитования дата-центров банками, что может затронуть технологический сектор."
+   }
+  },
+  "category": "policy",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmZyTUk1RGJiNkRTNjdZbElnTHZ5U1VNSUxHYS0wMTNHcnppYjB5MTdRU2RiWWFTR2lPYkR5S25fYjhXT0FNNWx3ZHB0YklJTGE0Q1luYjlPcnZlLXZvYnZIcGIwa0hQNlBpeHMyYkptQkdJN092LVhvUW43Rk5DQ1kxUjBqc0ZSaHlpOFE1MkFET2tCQmEzMk50SjY0RldxTHZrV2V6Tmppbms3OXBvQjdaLXBsWVlLME1Fbi1ZaC1UVXM?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXB2bzhtMkZMTXFJMURqRnJwdUNoLU1BQy1jUDVQcC1uS1NaME5VekJnWHVXeFdOVW1OdFRSN2VGT05nUXFnVkdvVDFoRVYzMlhYUW5KczFpRF9UaVE2bUtQOTBmZ1hOLW5nSlFXNmhsbEpKUDd2RUNSYlQ1Q0RJTDNUdzVDLUpWMm5ueXpYOF8tenM1MUF0MU1mTDVXN2tCM1NkdXNYVVVObFBuNFpoUmZBUTc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1793975881,
+    "reason": "הדוק רגולטורי על אשראי עלול להדק את תנאי המימון לתשתיות טכנולוגיה באירופה.",
+    "reason_i18n": {
+     "en": "Regulatory scrutiny on lending could tighten financing conditions for European tech infrastructure.",
+     "he": "הדוק רגולטורי על אשראי עלול להדק את תנאי המימון לתשתיות טכנולוגיה באירופה.",
+     "ar": "التدقيق التنظيمي في الإقراض قد يشدد شروط تمويل البنية التحتية للتقنية.",
+     "ru": "Регулирование кредитования может ужесточить условия финансирования."
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל מניות אירופה",
+     "en": "VGK - Vanguard FTSE Europe ETF",
+     "ar": "VGK - صندوق الأسهم الأوروبية",
+     "ru": "VGK - ETF европейских акций"
+    },
+    "price_at_alert": 87.11
+   }
+  ],
+  "id": "8114f5b0b5d2"
+ },
+ {
+  "ts": 1793975881,
+  "time": "2026-11-06T14:38Z",
+  "title": "בנק המكسيك מפתיע ומוריד ריבית ל-6.25%",
+  "summary": "הבנק המרכזי של מקסיקו ביצע הורדת ריבית מפתיעה והוריד אותה לרמה של 6.25%.",
+  "kid": "הבנק המרכזי במקסיקו החליט להוריד את הריבית פתאום. זה יכול לעזור לכלכלה המקומית ולשוק המניות שם.",
+  "i18n": {
+   "title": {
+    "he": "בנק המكسيك מפתיע ומוריד ריבית ל-6.25%",
+    "en": "Bank of Mexico Surprises and Cuts Rate to 6.25%",
+    "ar": "بنك المكسيك يفاجئ الأسواق ويخفض الفائدة إلى 6.25%",
+    "ru": "Банк Мексики неожиданно снизил ставку до 6,25%"
+   },
+   "summary": {
+    "he": "הבנק המרכזי של מקסיקו ביצע הורדת ריבית מפתיעה והוריד אותה לרמה של 6.25%.",
+    "en": "In a surprise move, the Bank of Mexico cut its benchmark interest rate down to 6.25%.",
+    "ar": "في خطوة مفاجئة، خفض بنك المكسيك سعر الفائدة الرئيسي إلى 6.25%.",
+    "ru": "Банк Мексики неожиданно снизил ключевую процентную ставку до 6,25%."
+   },
+   "kid": {
+    "he": "הבנק המרכזי במקסיקו החליט להוריד את הריבית פתאום. זה יכול לעזור לכלכלה המקומית ולשוק המניות שם.",
+    "en": "Mexico's central bank unexpectedly lowered interest rates. This can help the local economy and its stock market.",
+    "ar": "خفض البنك المركزي المكسيكي أسعار الفائدة بشكل مفاجئ، مما قد يساعد الاقتصاد المحلي.",
+    "ru": "Центральный банк Мексики неожиданно снизил процентную ставку, что может поддержать местную экономику."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiWUhlZHNEejdlOVNxaHlsNDZ3MGZ0amFxQkZoMU9RU1R2aDExR2NWYVV1eWJaME1oVDk4ZU5aU2NYdHRxQ3pERFlpSjdIMXpWZS1IcTRaZEE4Zw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWW",
+    "direction": "up",
+    "t0": 1793975881,
+    "reason": "ריבית נמוכה יותר בדרך כלל תומכת בנזילות ובהערכות שווי של מניות במקסיקו.",
+    "reason_i18n": {
+     "en": "Lower interest rates typically boost liquidity and equity valuations in Mexico.",
+     "he": "ריבית נמוכה יותר בדרך כלל תומכת בנזילות ובהערכות שווי של מניות במקסיקו.",
+     "ar": "أسعار الفائدة المنخفضة عادة ما تعزز السيولة وتقييمات الأسهم في المكسيك.",
+     "ru": "Более низкие ставки обычно повышают ликвидность и оценки акций в Мексике."
+    },
+    "name_i18n": {
+     "he": "EWW - קרן סל מניות מקסיקו",
+     "en": "EWW - iShares MSCI Mexico ETF",
+     "ar": "EWW - صندوق الأسهم المكسيكية",
+     "ru": "EWW - ETF акций Мексики"
+    },
+    "price_at_alert": 76.44
+   }
+  ],
+  "id": "06de414e1417"
  }
 ]
