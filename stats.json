@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T17:11Z",
+ "generated": "2026-11-07T17:50Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 429,
+ "total_alerts": 433,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO - קרן סל על נפט גולמי",
-    "en": "USO - Crude oil fund",
+    "he": "USO - קרן סל נפט גולמי",
+    "en": "USO - Crude Oil ETF",
     "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - Фонд нефти"
+    "ru": "USO - ETF сырой нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 33,
+   "mentions": 36,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "סคטור האנרגיה",
-    "en": "Energy Select Sector SPDR",
-    "ar": "قطاع الطاقة",
-    "ru": "Сектор энергетики"
+    "he": "XLE - קרן סל על מגזר האנרגיה",
+    "en": "XLE - Energy Sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
@@ -210,26 +210,26 @@
    "avg_edge": 1.51
   },
   "NVDA": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 7,
    "hits": 0,
    "name": {
-    "he": "אנבידיה - חברת שבבים",
-    "en": "Nvidia – chip maker",
-    "ar": "إنفيديا - صانعة الرقاقات",
-    "ru": "Nvidia – производитель чипов"
+    "he": "NVDA - אנבידיה (יצרנית שבבים מובילה)",
+    "en": "NVDA - Nvidia (Leading Chipmaker)",
+    "ar": "NVDA - إنفيديا (صانعة رقاقات رائدة)",
+    "ru": "NVDA - Nvidia (Ведущий производитель чипов)"
    },
    "avg_edge": -1.22
   },
   "SPY": {
-   "mentions": 39,
+   "mentions": 41,
    "n": 20,
    "hits": 10,
    "name": {
-    "he": "SPY – מדד S&P 500",
-    "en": "SPY – S&P 500 ETF",
-    "ar": "SPY - مؤشر الأسهم الأمريكية",
-    "ru": "SPY – S&P 500 ETF"
+    "he": "S&P 500 - מדד המניות המוביל בארה\"ב",
+    "en": "S&P 500 - Major US Index ETF",
+    "ar": "S&P 500 - مؤشر الأسهم الأمريكية الرئيسية",
+    "ru": "S&P 500 - Основной индекс США"
    },
    "avg_edge": 0.01
   },
@@ -282,14 +282,14 @@
    "avg_edge": -0.42
   },
   "TLT": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 8,
    "hits": 6,
    "name": {
-    "he": "TLT – קרן סל על אג\"ח ממשלת ארה\"ב לטווח ארוך",
-    "en": "TLT – 20+ Year Treasury Bond ETF",
-    "ar": "TLT – صندوق سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "TLT — ETF долгосрочных гособлигаций США"
+    "he": "TLT - קרן סל על אג\"ח ארוכות טווח של ארה\"ב",
+    "en": "TLT - Long-term US Treasury ETF",
+    "ar": "TLT - صندوق السندات الحكومية الأمريكية طويلة الأجل",
+    "ru": "TLT - ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 1.27
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 33,
+   "mentions": 34,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "לוקהיד מרטין – יצרנית ביטחונית גדולה",
-    "en": "Lockheed Martin – a major defense contractor",
-    "ar": "لوكهيّد مارتن – مقاول دفاعي رئيسي",
-    "ru": "Lockheed Martin — крупный оборонный подрядчик"
+    "he": "LMT - לוקהיד מרטין (חברת בטחונית ענקית)",
+    "en": "LMT - Lockheed Martin (Major Defense Firm)",
+    "ar": "LMT - لوكهيد مارتن (شركة دفاع كبرى)",
+    "ru": "LMT - Lockheed Martin (Крупная оборонная компания)"
    },
    "avg_edge": -4.05
   },
@@ -546,26 +546,26 @@
    "avg_edge": -0.29
   },
   "UNG": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 4,
    "hits": 3,
    "name": {
-    "he": "יו.אן.ג'י - קרן סל למחירי הגז הטבעי",
-    "en": "UNG - United States Natural Gas Fund",
+    "he": "UNG - קרן סל על גז טבעי בארה\"ב",
+    "en": "UNG - US Natural Gas Fund ETF",
     "ar": "UNG - صندوق الغاز الطبيعي الأمريكي",
-    "ru": "UNG - фонд природного газа США"
+    "ru": "UNG - ETF природного газа США"
    },
    "avg_edge": 3.68
   },
   "TSM": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "TSM – חברת הייצור של טייוואן (TSMC)",
-    "en": "TSM – Taiwan Semiconductor Manufacturing Company",
-    "ar": "TSM - شركة تايوان لصناعة أشباه الموصلات",
-    "ru": "TSM — Тайваньская компания по производству полупроводников"
+    "he": "TSM - TSMC (יצרנית שבבים חוזית מובילה)",
+    "en": "TSM - TSMC (Major Contract Chip Manufacturer)",
+    "ar": "TSM - TSMC (شركة تصنيع عقود الرقاقات الكبرى)",
+    "ru": "TSM - TSMC (Крупнейший контрактный производитель чипов)"
    },
    "avg_edge": 0.71
   },
@@ -978,14 +978,14 @@
    "avg_edge": 13.58
   },
   "FXI": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "קרן סל מניות סין",
-    "en": "China Large-Cap ETF",
-    "ar": "صندوق الاستثمار المتداول للأسهم الصينية",
-    "ru": "ETF крупных китайских компаний"
+    "he": "FXI - קרן סל על מניות ענק סיניות",
+    "en": "FXI - China Large-Cap ETF",
+    "ar": "FXI - صندوق الشركات الصينية الكبرى",
+    "ru": "FXI - ETF крупных китайских компаний"
    },
    "avg_edge": -3.11
   },

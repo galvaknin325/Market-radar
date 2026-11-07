@@ -37552,7 +37552,16 @@
   "category": "geopolitics",
   "severity": 5,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wOGR1ejJUckdOdVpxdnljUk40S2xLMlRpcHplZ09Sb0hrdWNkOGVvVXhSZWxLU3NWanVYSTZsWjFhOUlOWTJMME53V2xMeFptM1FhRw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YQWlqdlFSOHpTRnNfREpic05XNGRvYWNQRDk4T1R5MzJpVms3UWdqcDFVRGdlRTVSTE1LeGRIZEhKUTRmVnRBRTNnQmR2R1JSNF9jNlk3eWFoNUd6ZWtJSExYLULSAXBBVV95cUxPS2doNXdLVjMxTVpxTVNWNVl6azZmc1RWcTlNWS13bzd0bDRRTnU2QndWakM2NGlaZ29HdzJMWnMtVko3aE81cjl1dTlIbVV3QWVoOFFzN1VKcDBjb2YxWG1ING15aF93bE9yM084dEY1?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -37572,9 +37581,43 @@
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 68.98
+   },
+   {
+    "ticker": "UNG",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "פגיעה בתשתיות אנרגיה באירופה ובשכנותיה משפיעה על מחירי האנרגיה והגז העולמיים.",
+    "reason_i18n": {
+     "he": "פגיעה בתשתיות אנרגיה באירופה ובשכנותיה משפיעה על מחירי האנרגיה והגז העולמיים.",
+     "en": "Damage to energy infrastructure in Europe and neighbors impacts global gas and energy prices.",
+     "ar": "الأضرار التي تلحق بنية الطاقة في أوروبا وجيرانها تؤثر على أسعار الغاز والطاقة العالمية.",
+     "ru": "Ущерб энергетической инфраструктуре в Европе и у соседей влияет на мировые цены на газ и энергию."
+    },
+    "name_i18n": {
+     "he": "UNG - קרן סל על גז טבעי בארה\"ב",
+     "en": "UNG - US Natural Gas Fund ETF",
+     "ar": "UNG - صندوق الغاز الطبيعي الأمريكي",
+     "ru": "UNG - ETF природного газа США"
+    },
+    "price_at_alert": 9.35
    }
   ],
-  "id": "9c2d2db90c3f"
+  "id": "9c2d2db90c3f",
+  "updates": [
+   {
+    "ts": 1794073782,
+    "time": "2026-11-07T17:49Z",
+    "severity": 5,
+    "summary": "מתקפות נרחבות של טילים וכטב\"מים רוסיים פגעו בתשתיות האנרגיה של אוקראינה, ומקשות מאוד על החיים בקייב לקראת פוטנציאל שיחות שלום.",
+    "i18n": {
+     "he": "מתקפות נרחבות של טילים וכטב\"מים רוסיים פגעו בתשתיות האנרגיה של אוקראינה, ומקשות מאוד על החיים בקייב לקראת פוטנציאל שיחות שלום.",
+     "en": "Widespread Russian missile and drone strikes targeted Ukraine's energy infrastructure, making daily life increasingly difficult in Kyiv ahead of potential peace talks.",
+     "ar": "استهدفت ضربات صاروخية وبطائرات مسيرة روسية واسعة النطاق البنية التحتية للطاقة في أوكرانيا، مما جعل الحياة اليومية في كييف صعبة للغاية وسط محادثات السلام المحتملة.",
+     "ru": "Широкомасштабные российские ракетные удары и удары дронов поразили энергетическую инфраструктуру Украины, усложняя жизнь в Киеве на фоне потенциальных мирных переговоров."
+    }
+   }
+  ],
+  "last_update": 1794073782
  },
  {
   "ts": 1794063487,
@@ -37970,27 +38013,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMRnMwdkRwY0FGMy1LWFd5TExqNURvSU5YSmtYRHlBWGlZR1FrdFVjcmVvc0pwbEJmWXdxWmcwODZyc1FFbTVrbmRIMFNQU0hycGpZ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wMjd3d0p4V0xPdlFGYW9Od2otZFJUVXNWdl9HejVVcVdtdURGeDdRUXVydWJ4NzZRbVlTRm54RXpERGJmR3lUN0Y3NWlWREVPN3pmSGtPcFlrc1NIUlpMQlFPSkR0U0JFaTNwRm5WWVZqSy1UZHNlRldFWThWQQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYkpIMWtJZmo5WlRRei1NSzhFaHA0c0xMMW1uTXpTOVFvU0RodmlnUnByYjZWVjkzNjJaNjdNTGlXUUxKd0dzMEZQUHVBNGdNajBzQ1pGaGU3TUVvQTBWZldvT2JHMFlOT2ZDVmdQb3kwVVUtUkZCY0VxUk9zRjV4cFB0WjV6bzBuVG92MXY3UGFWdTJZOTVWZlZqdVhIdEU?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTEY2NG9NX1d4TjR4d2xPOUt4d0l3eFgzRUhvdEltbER2dDVMcVdkU1diNU9faGQwajNQRS1fbE1taTJHYXRKQ2Mtb24zNGVHaWJyVWIwU25aRW53UDVMbXJSM3ptX3NnUVp1R0dKdG5FQWJwY3NpZUN4a2RVVnNpYjJ0MXFTS1k2SWJ4cUd1QU9JWlIyRVhkeHV1a0oyaUpXR29pYzRlZVdNOFdmaWRKaE1YM2JTM2ZSbnc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTGRyZ1FFOWdNalpDbFdEeHZqc1JMNVVkekpWT3NULUU4N0hXTkN3MTQ5dlNSWjdhaUVCWlVUQVdhbkZrOEdDZ2FlNS1qOENqVnhOWGNYcmgtSU8xN3pHUjIzdDZ5akJZNzhnR3g4U0w5NjR1NUNka204MWRxak1WN056VUQ1MEhpNnpnaWVGSF90RlBMaTBWY1R5NFJDa3Q0SE1rMDhUUHRJZ01EMDJHdkhqMTY5aFU5TGd6WTNsekRoQkcyUkE?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWRMeFdYZWRGTW9zQzJyRjJXNWVKZUh3ZkhtbXpwNGtWZ2NTMkwxd0FYNTZLODA0RmJDN0tlV2ZpcVpNb2NQRW9PZnBRTFNvY2ltQmw2cEhmZjlaeWZHcGxqdEFjY1haaXVhOW9ScDZkSVF4dGVhcnB0SWdBZ25wbXNxSmVPYlBjTERVVW1nWklCNWJpamtlV2VjMUVlcUNqWF85akh2YUdRTERTSVdsU2ZQUkZxODFoUXBIVVZlZEo3U0RCNGR4eg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYkJhUjdIRXBab1dldDl3N1QyTWRSNWFhazFDbUFBTzN6Q0hxMzFZamNQd1RiWTkxNzZ1OWtYdUZESGs5TnI1cTBmb1dzREQzSHJLU0liM29HSkxCME9FMWhiUXlkZmdyUHBVQnViLUlEZ1VSXzVKaWNPdWtFUnpyNjNYNGNtRTFfUXRZNFBvXzRxQjg1MXRjRzdaM2o2MHpETlVLMWFQWmZOTXhHNS1icE8zVXJWbHRVWkZZQnFSdXFrdHhDcUI4NG9IMHpIcHRIYVF4UmRGVEU0dWfSAcwBQVVfeXFMT1IwTzlZN0xpWWIxUUw3YkNEei1BVmZFTVM0U29SN2JyS0l3Znc3cU1QQk5HOXdEZUh1QWEtd2VSeVZYY1dnaFNJaXRBR0taWVI1eDBCSWNMTl9jMXNySDJrbm84TXhTd2NPbjJxZ1lFQXhiWGhZUk9ocHpkVExYU29vWGNmUWRhdzNfNTRQZGdNeTUteDJEVC1OTHI1aTFYTV9WMXBYbE9OMTZuRW9NMmtNdV9LV3V6Wl9NcWRxQ2xaOXBnU2UtUktUR0Zf?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVzQ3QXNxc015cm9yV0lBMTdmakxMTG9LTE4zbDhWSGw0Z0xQZF84RFZkanpBcTg5MTFhR2Z6V2N2d0UtNnJQYlNPaXJyNVQ2UUxhY0FnS0o0Uk14Vm9CU0QzaXlFaFo1ZlFIbWRnMzJPb0N3Ykh5NUYwRlhVVjY4aXExQ3I0YlhkVFA1T002UV92NzBRY2lxQkdB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdnpqTjRPMWRhYUNzdG1SODFGcTNuSmZEWGJaNFBZdC16MmtaYkxKYVhKR3ZKaFdGdFVlNjB4QjUxUHlJYVNCVTFZb2NXZ1lheTVpTnB5XzQ2T0dIQTQ2akkwZWQyTEtZaUdhYnpnVE1IV0JobDJWSDBsWWlmZ3RNVFJPQVFzYXpkMFFJcWF3bENQbFpoSzVxeENGZ2Q3NzlWN2U3WFZpMnhYUTU3dm5oMzdqZE83Y2lNbnh4aDg2b002SWPSAcgBQVVfeXFMUE1BOGRTYWxwOE1jTGRFemZpNGZXcEowcWVWZFI3UWVzOUdKUkdKSkR1d3dTbzhGSVp0dk9WUUdEbHA0Z29RUHNyYnlQZkRVS0pqNExfam1wNlV0N0MtMU5YZHVwY2Vmb0dSbFlET0NxUzh0Q2JZaE5JaF9QZFBWdldIM0w5Q1lzb2ZwbWIydThOOGZqYVVpaHVZTjVybnd2UGVrSXc0Y19YYXJWa1VTLTlKNEF5SlA1Q3JOSE9kSjVGSUlGOWRfVUY?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBRVFJnX3BpdkxLMmhZeU1zc2tTLWk0VHIxb2lUbmpmTFNHaEhCcHNUTWhSR2FWME9kanFETlNST2toakQ2U0U3QVY4VGMtajZaZ2lDZTNn?oc=5"
    }
   ],
   "impacts": [
@@ -38031,6 +38074,25 @@
      "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 68.98
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "החמרת העימות והמצור במפרץ מעלים את החשש לשיבושי אספקת אנרגיה ומקפיצים מניות אנרגיה.",
+    "reason_i18n": {
+     "he": "החמרת העימות והמצור במפרץ מעלים את החשש לשיבושי אספקת אנרגיה ומקפיצים מניות אנרגיה.",
+     "en": "Escalating Middle East tensions and blockades raise supply disruption fears, lifting energy stocks.",
+     "ar": "تصاعد التوترات والحصار في الشرق الأوسط يثير مخاوف تعطل إمدادات الطاقة، مما يرفع أسهم الطاقة.",
+     "ru": "Эскалация напряженности и блокада на Ближнем Востоке усиливают опасения по поводу сбоев в поставках энергии, поднимая акции энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל על חברות אנרגיה אמריקאיות",
+     "en": "XLE - US Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
+     "ru": "XLE - ETF энергетического сектора США"
+    },
+    "price_at_alert": 61.62
    }
   ],
   "id": "df37e4470538",
@@ -38046,9 +38108,21 @@
      "ar": "يعمل الجيش الأمريكي على توسيع الضغط على إيران إلى ما بعد الحصار البحري من خلال إنشاء \"قوة مهمة البوابة الحديدية\" لتقييد التجارة البرية وطرق الإمداد الإيرانية.",
      "ru": "Вооруженные силы США усиливают давление на Иран за пределами морской блокады, создавая оперативную группу «Железные ворота» для ограничения сухопутной торговли и путей снабжения."
     }
+   },
+   {
+    "ts": 1794073782,
+    "time": "2026-11-07T17:49Z",
+    "severity": 6,
+    "summary": "צבא ארה\"ב מרחיב את פעולת 'שער ברזל' כדי לחסום נתיבי סחר יבשתיים וימיים של איראן, לרבות תוכניות להתרחבות באזור הים הכספי.",
+    "i18n": {
+     "he": "צבא ארה\"ב מרחיב את פעולת 'שער ברזל' כדי לחסום נתיבי סחר יבשתיים וימיים של איראן, לרבות תוכניות להתרחבות באזור הים הכספי.",
+     "en": "The US military is expanding 'Operation Iron Gate' to restrict Iranian trade through land and sea routes, including planned expansions to the Caspian Sea region.",
+     "ar": "الجيش الأمريكي يوسع 'عملية البوابة الحديدية' لتقييد التجارة الإيرانية عبر البر والبحر، بما في ذلك خطط التوسع في بحر قزوين.",
+     "ru": "Американские военные расширяют «Операцию Железные ворота» для ограничения иранской торговли по суше и морю, включая планы расширения в регионе Каспийского моря."
+    }
    }
   ],
-  "last_update": 1794071454
+  "last_update": 1794073782
  },
  {
   "ts": 1794068493,
@@ -38332,7 +38406,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
   "sources": [
    {
@@ -38342,6 +38416,22 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMDNDdldMZFFhTmVEVTdoVDZPLTlFZExCVTMtdEpjcERncFNaUmQ5ZjVZVHR6YnpxaXFXTHVCbHpPT2E5cmE0aW9KR3FFeUdaTFo2Ykg5UDFOUVByQnFHT3dubll6b29uRmY1R1VBXzZxTUVwcHlZdHZ6N0t4QVRxSFBWcWFheVg1TnBFd0RTai1lcEpqdGo1T2xKbGNBWjdhU1lBbGxuZWJEUC1OdnJraDF5Wmt3M3FCdHhiYmZ4MjRGQmVMR2V0R1RVTW5TY2dpVjkyUzRR0gHbAUFVX3lxTE8ydFpuMGFIRWI2YVJYcWhzbUNUSm5qRjVUYlExSmNBQlNrdVpENTlNTzhrQ21panR4NUVnWEo0RzBKNDlaMGZGbDhIOGdxMGU0T2RDUFVKcjVaWG4xRFBRaVdESUM5OVdtbUpCNTVWMHVfcXRqaFNlRHBoOWliZFJ6eEZwMFFfYW1YVmhrdk13VV9pMzBmQV9lS3JxLUh5Zy1HRl9acnQ3aWd5anY2X3ZkWFVXN0FFSHYybGt6MEJKS0xrSjJzRnBDanJXRExsZEdKc0E4T1AwQnZkaw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaklxcTRsd1FtVDZZLTBpZkRTRHZLak12X2dCSHpzVVhmV1d5cEY4LUJEM1F5SXEzREJ5U2ptd3dELU90eFZNYlFTQ2pUdjdHQkc2dTdSNW5ic19YVUU2Tml0S01ZY2VlYzZ1d3E2N2Z6aFRFVGFlVzRVLWhPVGlqYkpIbXJWNl9kSUg3ckJGZGUxRjF1TlQtRnVmZUVHekZzVjhJZnAwMkdIYlFVY3QxUm9xRWQwWUtNWGY2TEtnUDh0UGRpMm1nWllQbzJhT2xKQVdGSmZDSWNVU1Z5OTNJZ1Uxc21xakZkRW1sbW5pbGVGeGVK0gH6AUFVX3lxTFBrbjh4WFd5cXZnMFpRVF91djJmMkJiYjZyZlV2RFFrOVZneTJCMWNSakN1OXB2ell2a2pvdFJJYlE0VzFYTVM3SFdaS2RpNGZFaVllZEEwZjVNVVVHeEFEc0JraE1lVWMtR2xOZTFkbFI2eWx1RWt4bW5USEZvcUYxNU5wMzk4LVc1dS14OEhUcFJ5Mm9zYlkwRExPSjBaQWFiNGZ6UVkzVjR5cUNIZDNMb0lySkhZdU9salU0X1hValpvVkFyMWJ5bHpRS3cwLTh5Qk5weHBzTm9laDJtTWlrcXdHM09MaUZ0dlpnZE1xSUJnUFFob0RYM2c?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORDNqbTJZQVpxQUxFOWNHcGFRYW90OHp0UVcxdmdGOXo5YVRleS1PdENhU01EaGhibTZUMEYtdnowZk9TcE5xOE92ZUR1ZnpKQi1wRHh6Vm02VW9hUHYtRFBWY1lMSjJfUGZzeG1TOGRWVTVxV0NOeXoxcjFQOFoxWElxaDZFY2Z1TjFNajFaVFR2Vm4wOUU0ZU15VkstTkU3YmEzeEtR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORHlYTTRzSDI1X2wwTDlMNEp5N2dubHFNQUVocHAtR3dBcUtlYjFsLVVFYThzdTZkcm5HXzdGdmk5Y3NSMjg5aWhHVGg5c3hUbjFxWjBvWS03ak85aDJycWNSYVQ1TWdabXRjcFd6R29jLWc5YkFJQlliV2lfSnN4eDMwRC03clpzTldWaDdiRGJWTGx2WEE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9QS3EyTVJKSm9KTnZtSFFEcjlnOW8wY2d3UkNmS29xVGZQREs1Ry1oRDNwUVEzci1zRHVmVEZDQ08zd21GdVZhay1n?oc=5"
    }
   ],
   "impacts": [
@@ -38382,9 +38472,62 @@
      "ru": "USO - Фонд нефти"
     },
     "price_at_alert": 148.41
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "פגיעה פוטנציאלית בתשתיות אנרגיה בסעודיה מעלה את מניות חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "פגיעה פוטנציאלית בתשתיות אנרגיה בסעודיה מעלה את מניות חברות האנרגיה.",
+     "en": "Potential damage to Saudi energy infrastructure boosts energy equities.",
+     "ar": "الضرر المحتمل للبنية التحتية للطاقة في السعودية يعزز أسهم الطاقة.",
+     "ru": "Потенциальный ущерб энергетической инфраструктуре Саудовской Аравии поддерживает акции энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל על חברות אנרגיה אמריקאיות",
+     "en": "XLE - US Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
+     "ru": "XLE - ETF энергетического сектора США"
+    },
+    "price_at_alert": 61.62
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "החמרה במתיחות הביטחונית במפרץ מעלה את הביקוש למערכות הגנה אווירית.",
+    "reason_i18n": {
+     "he": "החמרה במתיחות הביטחונית במפרץ מעלה את הביקוש למערכות הגנה אווירית.",
+     "en": "Heightened security tensions in the Gulf raise demand for air defense systems.",
+     "ar": "توترات الأمن المتصاعدة في الخليج ترفع الطلب على أنظمة الدفاع الجوي.",
+     "ru": "Эскалация безопасности в Персидском заливе повышает спрос на системы ПВО."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין (חברת בטחונית ענקית)",
+     "en": "LMT - Lockheed Martin (Major Defense Firm)",
+     "ar": "LMT - لوكهيد مارتن (شركة دفاع كبرى)",
+     "ru": "LMT - Lockheed Martin (Крупная оборонная компания)"
+    },
+    "price_at_alert": 567.08
    }
   ],
-  "id": "f1f27e7490ab"
+  "id": "f1f27e7490ab",
+  "updates": [
+   {
+    "ts": 1794073782,
+    "time": "2026-11-07T17:49Z",
+    "severity": 7,
+    "summary": "מורדים חות'ים בתימן טוענים כי ביצעו מתקפות נרחבות של טילים וכטב\"מים לעבר מתקני נפט סעודיים ונמל התעופה בריאד, על רקע עימותים צבאיים עזים.",
+    "i18n": {
+     "he": "מורדים חות'ים בתימן טוענים כי ביצעו מתקפות נרחבות של טילים וכטב\"מים לעבר מתקני נפט סעודיים ונמל התעופה בריאד, על רקע עימותים צבאיים עזים.",
+     "en": "Yemeni Houthi rebels claim to have launched extensive missile and drone attacks targeting Saudi oil facilities and Riyadh airport amid heavy regional strikes.",
+     "ar": "المتمردون الحوثيون في اليمن يدعون تنفيذ هجمات واسعة بالصواريخ والمسيرات تستهدف منشآت نفطية سعودية ومطار الرياض وسط ضربات إقليمية كثيفة.",
+     "ru": "Йеменские повстанцы-хуситы заявляют, что нанесли масштабные удары ракетами и дронами по нефтяным объектам Саудовской Аравии и аэропорту Эр-Рияда."
+    }
+   }
+  ],
+  "last_update": 1794073782
  },
  {
   "ts": 1794071454,
@@ -38462,5 +38605,313 @@
    }
   ],
   "id": "6c9772df56d5"
+ },
+ {
+  "ts": 1794073782,
+  "time": "2026-11-07T17:49Z",
+  "title": "דוח האינפלציה והתעסוקה בארה\"ב לבחינת צעדי הפדרל ריזרב",
+  "summary": "הכלכלה האמריקאית הוסיפה 165,000 משרות באוקטובר, ודוח האינפלציה הקרוב ישמש כמבחן הבא להחלטות הריבית של הפדרל ריזרב.",
+  "kid": "נוצרו הרבה משרות חדשות בארה\"ב. זה משפיע על הריבית שהבנק המרכזי קובע, ויכול לגרום לשוק המניות לעלות או לרדת.",
+  "i18n": {
+   "title": {
+    "he": "דוח האינפלציה והתעסוקה בארה\"ב לבחינת צעדי הפדרל ריזרב",
+    "en": "US Inflation Report and Job Growth Test Fed Rate Hike Path",
+    "ar": "تقرير التضخم ونمو الوظائف في الولايات المتحدة يختبران مسار رفع الفائدة للبنك الفيدرالي",
+    "ru": "Отчет по инфляции и занятости в США проверяет путь повышения ставки ФРС"
+   },
+   "summary": {
+    "he": "הכלכלה האמריקאית הוסיפה 165,000 משרות באוקטובר, ודוח האינפלציה הקרוב ישמש כמבחן הבא להחלטות הריבית של הפדרל ריזרב.",
+    "en": "The US added 165,000 jobs in October, and the upcoming inflation report will serve as the next test for Federal Reserve rate decisions.",
+    "ar": "أضافت الاقتصاد الأمريكي 165,000 وظيفة في أكتوبر، وسيكون تقرير التضخم القادم بمثابة الاختبار التالي لقرارات الفائدة للاحتياطي الفيدرالي.",
+    "ru": "В США в октябре было создано 165 000 рабочих мест, и предстоящий отчет по инфляции станет следующим испытанием для решений Федеральной резервной системы по ставке."
+   },
+   "kid": {
+    "he": "נוצרו הרבה משרות חדשות בארה\"ב. זה משפיע על הריבית שהבנק המרכזי קובע, ויכול לגרום לשוק המניות לעלות או לרדת.",
+    "en": "Lots of new jobs were created in the US. This affects interest rates set by the central bank, which can make the stock market go up or down.",
+    "ar": "تم إنشاء العديد من الوظائف الجديدة في الولايات المتحدة. هذا يؤثر على أسعار الفائدة التي يحددها البنك المركزي، مما قد يجعل سوق الأسهم يرتفع أو ينخفض.",
+    "ru": "В США появилось много новых рабочих мест. Это влияет на процентные ставки, устанавливаемые центральным банком, и может заставить фондовый рынок расти или падать."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2NGWWpEWTdKaUFnMmZFWVlKaGVDbW40Q2NLYVlvcmFCOU5JdGJGRERuZDE3cjlkcXNSRnI1eDE0cHVHVnJEd1c2TkN1SGs3SFdUSjctWWdKY3VPWGVDWXNsRkVxT3lfdTdTRWtFeDZCQ2dzX3RsVkdfNjVldzVkVGlLQ3UyUnNjVUQtZ3N0cy1TSDYwSWlELWxYVXNlWUtaV1puU1V4OGlnQ0ZPZ2M5M1BLQWhLVFdlRG00?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794073782,
+    "reason": "נתוני תעסוקה חזקים מעלים חשש מהעלאות ריבית נוספות שיעיבו על שוק המניות.",
+    "reason_i18n": {
+     "he": "נתוני תעסוקה חזקים מעלים חשש מהעלאות ריבית נוספות שיעיבו על שוק המניות.",
+     "en": "Strong employment data raises fears of further rate hikes weighing on stocks.",
+     "ar": "بيانات التوظيف القوية تثير المخاوف بشأن مزيد من رفع أسعار الفائدة مما يضغط على الأسهم.",
+     "ru": "Сильные данные по занятости усиливают опасения по поводу дальнейшего повышения ставок, что давит на акции."
+    },
+    "name_i18n": {
+     "he": "S&P 500 - קרן סל על מדד המניות המוביל",
+     "en": "S&P 500 - Major US Stock Market ETF",
+     "ar": "S&P 500 - صندوق إِتِف لأكبر الأسهم الأمريكية",
+     "ru": "S&P 500 - ETF крупнейших американских акций"
+    },
+    "price_at_alert": 735.29
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794073782,
+    "reason": "צמיחה חזקה וחשש מאינפלציה פוגעים بمחירי האג\"ח.",
+    "reason_i18n": {
+     "he": "צמיחה חזקה וחשש מאינפלציה פוגעים بمחירי האג\"ח.",
+     "en": "Strong growth and inflation fears hurt bond prices.",
+     "ar": "النمو القوي ومخاوف التضخم تؤثر سلباً على أسعار السندات.",
+     "ru": "Сильный рост и опасения по поводу инфляции бьют по ценам облигаций."
+    },
+    "name_i18n": {
+     "he": "TLT - קרן סל על אג\"ח ארוכות טווח של ארה\"ב",
+     "en": "TLT - Long-term US Treasury ETF",
+     "ar": "TLT - صندوق السندات الحكومية الأمريكية طويلة الأجل",
+     "ru": "TLT - ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 81.92
+   }
+  ],
+  "id": "53e0634e6c91"
+ },
+ {
+  "ts": 1794073782,
+  "time": "2026-11-07T17:49Z",
+  "title": "פיטר נבארו מצהיר על כוונה להחמיר את מכסי המגן בארצות הברית",
+  "summary": "פיטר נבארו הצהיר כי הממשל מתכוון להגביר באופן משמעותי את מדיניות מכסי המגן וההגנה המסחרית.",
+  "kid": "פקיד בכיר אומר שארה\"ב הולכת להעלות עוד יותר את המסים על מוצרים מחו\"ל. זה יכול להשפיע על חברות שמוכרות מוצרים מיובאים.",
+  "i18n": {
+   "title": {
+    "he": "פיטר נבארו מצהיר על כוונה להחמיר את מכסי המגן בארצות הברית",
+    "en": "Navarro Signals Aggressive Escalation of US Tariffs",
+    "ar": "نافارو يشير إلى تصعيد عدواني للتعريفات الجمركية الأمريكية",
+    "ru": "Наварро заявляет об агрессивном усилении американских пошлин"
+   },
+   "summary": {
+    "he": "פיטר נבארו הצהיר כי הממשל מתכוון להגביר באופן משמעותי את מדיניות מכסי המגן וההגנה המסחרית.",
+    "en": "Peter Navarro stated that the administration is quadrupling down on protective tariffs and trade barriers.",
+    "ar": "صرح بيتر نافارو بأن الإدارة تعتزم مضاعفة التعريفات الحمائية والحواجز التجارية بشكل كبير.",
+    "ru": "Питер Наварро заявил, что администрация намерена усилить протекционистские пошлины и торговые барьеры."
+   },
+   "kid": {
+    "he": "פקיד בכיר אומר שארה\"ב הולכת להעלות עוד יותר את המסים על מוצרים מחו\"ל. זה יכול להשפיע על חברות שמוכרות מוצרים מיובאים.",
+    "en": "A top official says the US will raise taxes on foreign goods even more. This could impact companies selling imported products.",
+    "ar": "مسؤول كبير يقول إن الولايات المتحدة ستزيد الضرائب على السلع الأجنبية بشكل أكبر. قد يؤثر ذلك على الشركات التي تبيع المنتجات المستوردة.",
+    "ru": "Высокопоставленный чиновник говорит, что США еще больше повысят налоги на иностранные товары. Это может затронуть компании, продающие импортную продукцию."
+   }
+  },
+  "category": "trade",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPc3dhRUNwSGJWV1dTZnk5T1FMX29yUFI2NzF6RFNYcmU4ZExfYlY5aVMtMnJZZFpNOXRyNTNfV0V3VmM2VGNsODVYVmJmWlQyQ0Z4QzRIdnQzUTFBTFc1U1JJTjVoU3pha1prNjJnc1BFc3JKYWc5WWVoeGgtdXhJU1Z3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794073782,
+    "reason": "החמרת מכסים עלולה לפגוע קשות ביצוא ובחברות זרות הסוחרות מול ארה\"ב.",
+    "reason_i18n": {
+     "he": "החמרת מכסים עלולה לפגוע קשות ביצוא ובחברות זרות הסוחרות מול ארה\"ב.",
+     "en": "Tighter tariffs could severely hurt exports and foreign companies trading with the US.",
+     "ar": "قد تؤدي التعريفات الأشد إلى الإضرار الشديد بالصادرات والشركات الأجنبية التي تتاجر مع الولايات المتحدة.",
+     "ru": "Ужесточение пошлин может сильно ударить по экспорту и зарубежным компаниям, торгующим с США."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל על מניות ענק סיניות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق الشركات الصينية الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.95
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794073782,
+    "reason": "מדיניות סחר בדלנית מעלה חשש לאינפלציה ולפגיעה בשולי הרווח של חברות אמריקאיות.",
+    "reason_i18n": {
+     "he": "מדיניות סחר בדלנית מעלה חשש לאינפלציה ולפגיעה בשולי הרווח של חברות אמריקאיות.",
+     "en": "Protectionist trade policies raise inflation fears and threaten US corporate profit margins.",
+     "ar": "سياسات التجارة الحمائية تثير مخاوف التضخم وتهدد هوامش ربح الشركات الأمريكية.",
+     "ru": "Протекционистская торговая политика усиливает опасения по поводу инфляции и угрожает марже прибыли американских компаний."
+    },
+    "name_i18n": {
+     "he": "S&P 500 - מדד המניות המוביל בארה\"ב",
+     "en": "S&P 500 - Major US Index ETF",
+     "ar": "S&P 500 - مؤشر الأسهم الأمريكية الرئيسية",
+     "ru": "S&P 500 - Основной индекс США"
+    },
+    "price_at_alert": 735.29
+   }
+  ],
+  "id": "7075183197a9"
+ },
+ {
+  "ts": 1794073782,
+  "time": "2026-11-07T17:49Z",
+  "title": "שר האוצר הטורקי: משבר האנרגיה במלחמה במזרח התיכון כפול ממשבר 1973",
+  "summary": "שר האוצר של טורקיה הצהיר כי זעזוע האנרגיה הנובע מהמלחמה במזרח התיכון גדול פי שניים ממשבר אמברго הנפט ההיסטורי של שנת 1973.",
+  "kid": "בכיר בטורקיה אומר שמשבר האנרגיה הנוכחי במזרח התיכון גרוע בהרבה מאשר בעבר. זה מדאיג את שווקי הנפט והדלק בעולם.",
+  "i18n": {
+   "title": {
+    "he": "שר האוצר הטורקי: משבר האנרגיה במלחמה במזרח התיכון כפול ממשבר 1973",
+    "en": "Turkish Finance Minister: Mideast War Energy Shock Twice 1973 Embargo",
+    "ar": "وزير المالية التركي: صدمة الطاقة لحرب الشرق الأوسط ضعف حظر 1973",
+    "ru": "Министр финансов Турции: энергетический шок от войны на Ближнем Востоке вдвое сильнее эмбарго 1973 года"
+   },
+   "summary": {
+    "he": "שר האוצר של טורקיה הצהיר כי זעזוע האנרגיה הנובע מהמלחמה במזרח התיכון גדול פי שניים ממשבר אמברго הנפט ההיסטורי של שנת 1973.",
+    "en": "Turkey's finance minister stated that the energy shock stemming from the Middle East war is twice as severe as the 1973 oil embargo.",
+    "ar": "صرح وزير المالية التركي بأن صدمة الطاقة الناجمة عن حرب الشرق الأوسط هي أشد مرتين من حظر النفط التاريخي لعام 1973.",
+    "ru": "Министр финансов Турции заявил, что энергетический шок от войны на Ближнем Востоке вдвое сильнее нефтяного эмбарго 1973 года."
+   },
+   "kid": {
+    "he": "בכיר בטורקיה אומר שמשבר האנרגיה הנוכחי במזרח התיכון גרוע בהרבה מאשר בעבר. זה מדאיג את שווקי הנפט והדלק בעולם.",
+    "en": "A senior Turkish official says the current Mideast energy crisis is much worse than past shocks, worrying global oil markets.",
+    "ar": "مسؤول تركي كبير يقول إن أزمة الطاقة الحالية في الشرق الأوسط أسوأ بكثير من الصدمات السابقة، مما يثير قلق أسواق النفط العالمية.",
+    "ru": "Высокопоставленный турецкий чиновник заявил, что нынешний энергетический кризис на Ближнем Востоке намного хуже прошлых потрясений, вызывая тревогу на мировых рынках нефти."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbC0zMklRSXA5d3l4amdvTVRFODlJd3Foc0pxamdwUHprdmlZNlZiX2l0aUFXT1NMVHl5alNoX3hsMDFWQTduXzdnTGlOSElXaHVOMm5KNG0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "אזהרות על זעזועי אנרגיה חמורים תומכות בציפיות לרווחי ענק לחברות האנרגיה.",
+    "reason_i18n": {
+     "he": "אזהרות על זעזועי אנרגיה חמורים תומכות בציפיות לרווחי ענק לחברות האנרגיה.",
+     "en": "Warnings of severe energy shocks support expectations of high profits for energy firms.",
+     "ar": "التحذيرات من صدمات الطاقة الشديدة تدعم التوقعات بأرباح ضخمة لشركات الطاقة.",
+     "ru": "Предупреждения о серьезных энергетических шоках поддерживают ожидания высокой прибыли энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל על מגזר האנרגיה",
+     "en": "XLE - Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 61.62
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "הערכות קשות על מצב האנרגיה העולמי דוחפות את מחירי הנפט כלפי מעלה.",
+    "reason_i18n": {
+     "he": "הערכות קשות על מצב האנרגיה העולמי דוחפות את מחירי הנפט כלפי מעלה.",
+     "en": "Grim assessments of the global energy situation push crude prices higher.",
+     "ar": "التقييمات القاتمة لوضع الطاقة العالمي تدفع أسعار الخام نحو الصعود.",
+     "ru": "Мрачные оценки мировой энергетической ситуации подталкивают цены на нефть вверх."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל נפט גולמי",
+     "en": "USO - Crude Oil ETF",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - ETF сырой нефти"
+    },
+    "price_at_alert": 148.41
+   }
+  ],
+  "id": "51dfbe12933a"
+ },
+ {
+  "ts": 1794073782,
+  "time": "2026-11-07T17:49Z",
+  "title": "אנבידיה מתמודדת עם עלויות שרשרת אספקה הכוללות סובסידיות אריזה وعסקה גדולה",
+  "summary": "עלויות שרשרת האספקה של אנבידיה עולות לסדר היום בעקבות עסקאות ענק בשווי מיליארדי דולרים והשקעות באריזת שבבים מתקדמת.",
+  "kid": "חברת השבבים הגדולה אנבידיה משקיעה הון עתק בייצור ואריזת רכיבים. זה עשוי להשפיע על הרווחיות של ענקית הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "אנבידיה מתמודדת עם עלויות שרשרת אספקה הכוללות סובסידיות אריזה وعסקה גדולה",
+    "en": "Nvidia Faces Supply Chain Costs With Packaging Subsidies and Huge Deals",
+    "ar": "إنفيديا تواجه تكاليف سلسلة الإمداد مع دعم التعبئة والتغليف وعفقات ضخمة",
+    "ru": "Nvidia сталкивается с издержками цепочки поставок, включая субсидии на упаковку и крупные сделки"
+   },
+   "summary": {
+    "he": "עלויות שרשרת האספקה של אנבידיה עולות לסדר היום בעקבות עסקאות ענק בשווי מיליארדי דולרים והשקעות באריזת שבבים מתקדמת.",
+    "en": "Nvidia's supply chain bill comes into focus as the chipmaker handles multi-billion-dollar packaging subsidies and major component deals.",
+    "ar": "تأتي تكاليف سلسلة إمداد إنفيديا في الواجهة مع تعامل صانعة الرقاقات مع دعم التعبئة والتغليف وعفقات المكونات الكبرى.",
+    "ru": "Затраты на цепочку поставок Nvidia привлекают внимание на фоне многомиллиардных сделок и субсидий на современную упаковку чипов."
+   },
+   "kid": {
+    "he": "חברת השבבים הגדולה אנבידיה משקיעה הון עתק בייצור ואריזת רכיבים. זה עשוי להשפיע על הרווחיות של ענקית הטכנולוגיה.",
+    "en": "Chip giant Nvidia is investing heavily in manufacturing and component packaging. This could impact the tech giant's profitability.",
+    "ar": "تستثمر شركة إنفيديا العملاقة للرقاقات بقوة في تصنيع وتعبئة المكونات. قد يؤثر ذلك على ربحية عملاق التكنولوجيا.",
+    "ru": "Гигант чипов Nvidia вкладывает значительные средства в производство и упаковку компонентов. Это может повлиять на прибыльность технологического гиганта."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRS1WaWRwUjRyYkFReE5rMDRyYlZPT19vbkVqV29WUnBqRGY3TS1IZnh3eVNscWV0QVgwRHo0TWxfTl9JSkhTRUVwWm5NOThCQkhDZzEzdDZTcUFHTnV6Z3NZVlVaLUhDMElRVUNSdGdkMi1Lby16akVzeFBsb2pKbU5mbk5XeENvX0h0TDYwcFFJSXpxVXRSblVzSmRORlZJZ2w2Wlk2dTh6aWIyLXRDSkkzZFpuYXBvTkxaUWpCQ3JpYzZNWmFRTElsaXlxN05FZWZoY2tiaEsyaUNtdGJObzRqSUlfOWFKZ3NjQU5uVHJEaHpxR3pJUVA2TEZxNGM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "השקעות ענק בשרשרת האספקה מעידות על ביקושים אדירים לשבבי בינה מלאכותית ותומכות בצמיחה ארוכת טווח.",
+    "reason_i18n": {
+     "he": "השקעות ענק בשרשרת האספקה מעידות על ביקושים אדירים לשבבי בינה מלאכותית ותומכות בצמיחה ארוכת טווח.",
+     "en": "Massive supply chain investments reflect surging AI chip demand and support long-term growth.",
+     "ar": "الاستثمارات الضخمة في سلسلة الإمداد تعكس الطلب الهائل على رقاقات الذكاء الاصطناعي وتدعم النمو طويل الأجل.",
+     "ru": "Масштабные инвестиции в цепочку поставок отражают колоссальный спрос на чипы для ИИ и поддерживают долгосрочный рост."
+    },
+    "name_i18n": {
+     "he": "NVDA - אנבידיה (יצרנית שבבים מובילה)",
+     "en": "NVDA - Nvidia (Leading Chipmaker)",
+     "ar": "NVDA - إنفيديا (صانعة رقاقات رائدة)",
+     "ru": "NVDA - Nvidia (Ведущий производитель чипов)"
+    },
+    "price_at_alert": 186.64
+   },
+   {
+    "ticker": "TSM",
+    "direction": "up",
+    "t0": 1794073782,
+    "reason": "סובסידיות והזמנות אריזה מראות על פעילות מוגברת בקווי הייצור של שותפותיה של אנבידיה.",
+    "reason_i18n": {
+     "he": "סובסידיות והזמנות אריזה מראות על פעילות מוגברת בקווי הייצור של שותפותיה של אנבידיה.",
+     "en": "Subsidies and packaging orders point to high production activity for Nvidia's foundry partners.",
+     "ar": "تشير الإعانات وطلبات التعبئة والتغليف إلى نشاط إنتاج مرتفع لشركاء تصنيع إنفيديا.",
+     "ru": "Субсидии и заказы на упаковку указывают на высокую производственную активность партнеров Nvidia."
+    },
+    "name_i18n": {
+     "he": "TSM - TSMC (יצרנית שבבים חוזית מובילה)",
+     "en": "TSM - TSMC (Major Contract Chip Manufacturer)",
+     "ar": "TSM - TSMC (شركة تصنيع عقود الرقاقات الكبرى)",
+     "ru": "TSM - TSMC (Крупнейший контрактный производитель чипов)"
+    },
+    "price_at_alert": 375.44
+   }
+  ],
+  "id": "e6096f3dbe15"
  }
 ]
