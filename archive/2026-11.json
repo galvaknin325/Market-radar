@@ -38941,9 +38941,14 @@
    }
   },
   "category": "contracts",
-  "severity": 4,
+  "severity": 6,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTl9NSEJQRDBIajZhZnlRZ1duUTlkbVA3N3B3TlBGRl93NmxiQ252cXRqY0ZNTGxDQllFQnBGNGxKeWZ4bDhHYWtxa1gwN2RqSG5Db28zbi1nUU5RcDllTTVsUk1ZZ1hyeDUyeTlVWm1IRU1YLUNMQlQwQmdNRWJYZTk5eUJ2YUVDaTFJSG4yYmh1dFAyVGZCLWRaTmxfbGxmMHQyekp4YUc0Y2NjWjdNZDdPLW9teUZ1Y3JHVzN6Z3RISEVmYWxRNzJ3?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -38984,7 +38989,22 @@
     "price_at_alert": 567.08
    }
   ],
-  "id": "a083d8ef0385"
+  "id": "a083d8ef0385",
+  "updates": [
+   {
+    "ts": 1794079156,
+    "time": "2026-11-07T19:19Z",
+    "severity": 6,
+    "summary": "רוסיה ואוקראינה החליפו מטחי טילים ורחפנים ימים ספורים לפני שיחות שלום שתווכו על ידי טראמפ.",
+    "i18n": {
+     "he": "רוסיה ואוקראינה החליפו מטחי טילים ורחפנים ימים ספורים לפני שיחות שלום שתווכו על ידי טראמפ.",
+     "en": "Russia and Ukraine exchanged heavy missile and drone barrages just days before Trump-brokered peace talks.",
+     "ar": "تبادلت روسيا وأوكرانيا قصفاً كثيفاً بالصواريخ والطائرات بدون طيار قبل أيام قليلة من محادثات السلام.",
+     "ru": "Россия и Украина обменялись массированными ударами ракет и дронов за несколько дней до мирных переговоров."
+    }
+   }
+  ],
+  "last_update": 1794079156
  },
  {
   "ts": 1794075632,
@@ -39038,5 +39058,241 @@
    }
   ],
   "id": "8117129f8048"
+ },
+ {
+  "ts": 1794079156,
+  "time": "2026-11-07T19:19Z",
+  "title": "ארה\"ב דורשת פעולה מתואמת נגד איומי סייבר צפון קוריאניים",
+  "summary": "ארצות הברית קוראת לפעולה משולבת נגד מתקפות סייבר ואיומים מצפון קוריאה בעקבות פריצות קריפטו.",
+  "kid": "האקרים מצפון קוריאה גונבים כסף קריפטו, וארה\"ב רוצה שכל העולם יילחם בזה יחד. זה חשוב לחברות אבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב דורשת פעולה מתואמת נגד איומי סייבר צפון קוריאניים",
+    "en": "U.S. calls for coordinated action against N. Korean cyber threats",
+    "ar": "الولايات المتحدة تدعو إلى تحرك منسق ضد التهديدات السيبرانية الكورية الشمالية",
+    "ru": "США призывают к координированным действиям против киберугроз из КНДР"
+   },
+   "summary": {
+    "he": "ארצות הברית קוראת לפעולה משולבת נגד מתקפות סייבר ואיומים מצפון קוריאה בעקבות פריצות קריפטו.",
+    "en": "The U.S. is calling for coordinated international action against North Korean cyber threats following major crypto hacks.",
+    "ar": "تدعو الولايات المتحدة إلى تحرك دولي منسق ضد التهديدات السيبرانية الكورية الشمالية إثر اختراقات العملات المشفرة.",
+    "ru": "США призывают к координированным международным действиям против киберугроз из Северной Кореи после крупных взломов криптовалюты."
+   },
+   "kid": {
+    "he": "האקרים מצפון קוריאה גונבים כסף קריפטו, וארה\"ב רוצה שכל העולם יילחם בזה יחד. זה חשוב לחברות אבטחת מידע.",
+    "en": "North Korean hackers are stealing crypto, and the U.S. wants global action against them. This highlights cybersecurity needs.",
+    "ar": "قراصنة كوريا الشمالية يسرقون العملات المشفرة، والولايات المتحدة تريد تحركاً عالمياً. هذا يهم شركات الأمن السيبراني.",
+    "ru": "Северокорейские хакеры воруют криптовалюту, и США требуют глобальных мер. Это важно для компаний по кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xWUJRLU8tUDBWQjljVmplMGMyR1lmUmZXdTQ4eHhhUE5jQzNoTFdwYlAxb3V2OTU3S1NNMFUxNDNKa3NQUzBDVEN3MkNBTVdTZ2FUQlpKdU53aEd2RjBOSG5wN1ZLZHljUmVuNA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjVOVExUQ25hcDdkblhNTGpuQXZWeWthNmI2enhuXzJKc3VBeVF1eFU5cHlkNUVzS3M2TTNPRVl3SmVVNGg3SlBlZEdRM1MxTmlHcmg4RUNPNUptc2l3WUFKWDRVRml4VmQ2a1U5U2QxVXJqNXg1SEdXM1dvRUlrbWFaTUp5VFJLaFB3QURKcmJKTDEyV3hHbERIam9CVU5FVWtWaFpNWDZVdGQwSFlz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794079156,
+    "reason": "עליית מודעות לאיומי סייבר ממלכתיים מגבירה את הביקוש לאבטחה",
+    "reason_i18n": {
+     "he": "עליית מודעות לאיומי סייבר ממלכתיים מגבירה את הביקוש לאבטחה",
+     "en": "Heightened state-sponsored cyber threats increase security demand",
+     "ar": "زيادة التهديدات السيبرانية المدعومة من الدول ترفع الطلب على الأمن",
+     "ru": "Рост поддерживаемых государством киберугроз увеличивает спрос на безопасность"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – a cybersecurity company",
+     "ar": "كراودسترايك – شركة أمن سيبراني",
+     "ru": "CrowdStrike – компания по кибербезопасности"
+    },
+    "price_at_alert": 216.9
+   }
+  ],
+  "id": "37b21153470b"
+ },
+ {
+  "ts": 1794079156,
+  "time": "2026-11-07T19:19Z",
+  "title": "ג'נרל דינמיקס זכתה בחוזה טילים בסך 194.1 מיליון דולר",
+  "summary": "חברת ג'נרל דינמיקס קיבלה חוזה בשווי 194.1 מיליון דולר לפיתוח טכנולוגיית טילים.",
+  "kid": "ג'נרל דינמיקס קיבלה הרבה כסף מממשלת ארה\"ב כדי לפתח טילים חדשים. זה יכול לעזור למניות של החברה לעלות.",
+  "i18n": {
+   "title": {
+    "he": "ג'נרל דינמיקס זכתה בחוזה טילים בסך 194.1 מיליון דולר",
+    "en": "General Dynamics awarded $194.1 million missile technology contract",
+    "ar": "جنرال ديناميكس تفوز بعقد تكنولوجيا الصواريخ بقيمة 194.1 مليون دولار",
+    "ru": "General Dynamics получила контракт на технологию ракет на 194.1 млн долларов"
+   },
+   "summary": {
+    "he": "חברת ג'נרל דינמיקס קיבלה חוזה בשווי 194.1 מיליון דולר לפיתוח טכנולוגיית טילים.",
+    "en": "General Dynamics was awarded a $194.1 million contract to fund the development of missile technology.",
+    "ar": "حصلت شركة جنرال ديناميكس على عقد بقيمة 194.1 مليون دولار لتمويل تطوير تكنولوجيا الصواريخ.",
+    "ru": "Компания General Dynamics получила контракт на сумму 194.1 миллиона долларов на финансирование разработки ракетных технологий."
+   },
+   "kid": {
+    "he": "ג'נרל דינמיקס קיבלה הרבה כסף מממשלת ארה\"ב כדי לפתח טילים חדשים. זה יכול לעזור למניות של החברה לעלות.",
+    "en": "General Dynamics received a large government contract to build new missile technology. This can help the company's stock go up.",
+    "ar": "حصلت جنرال ديناميكس على عقد كبير لتطوير صواريخ جديدة، مما قد يساعد في ارتفاع أسهم الشركة.",
+    "ru": "General Dynamics получила крупный контракт на разработку ракет. Это может помочь акциям компании вырасти."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObUNnMnlhTVJVd3JjTks3cXMwNnRHZldjc2xNdWpWc3NnYy1uNkV5R051c2tvOVRyRW5DVnlsT2hpcFhfaXlzXzdaS1BjUmx5cmJyT1VwcUNuQTlCMlk5ZDloRDFiZmVTRjdzV2VsMUh5US12RFRCRkFJaG5JbWU4RW9jUjh4REF4LXF2TUpVQ0k1MnFYRVM0V0RrY1drdFA1aFlJTkVLRUZnS2NCTm5ZWWYwYWJYN2lQUk91cmEycWUyakpQenB2Z0VtcTlzQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GD",
+    "direction": "up",
+    "t0": 1794079156,
+    "reason": "זכייה בחוזה חדש לפיתוח טילים",
+    "reason_i18n": {
+     "he": "זכייה בחוזה חדש לפיתוח טילים",
+     "en": "Awarded a new missile technology contract",
+     "ar": "الفوز بعقد جديد لتكنولوجيا الصواريخ",
+     "ru": "Получение нового контракта на ракетные технологии"
+    },
+    "name_i18n": {
+     "he": "ג'נרל דינמיקס – חברת ביטחונית ענקית",
+     "en": "General Dynamics – a major defense contractor",
+     "ar": "جنرال ديناميكس – مقاول دفاعي كبي",
+     "ru": "General Dynamics – крупный оборонный подрядчик"
+    },
+    "price_at_alert": 354.06
+   }
+  ],
+  "id": "935101d75ed5"
+ },
+ {
+  "ts": 1794079156,
+  "time": "2026-11-07T19:19Z",
+  "title": "חקלאים בלמטיה מוחים נגד סחר תבואה מרוסיה",
+  "summary": "חקלאים בלטביה פתחו במחאה נגד מעבר תבואה רוסית דרך מדינם, בטענה שהיא מממנת את מלחמת רוסיה באוקראינה.",
+  "kid": "חקלאים בלטביה כועסים שרוסיה מוכרת תבואה דרך המדינה שלהם וזה עוזר למלחמה. זה יכול להשפיע על מחירי המזון באירופה.",
+  "i18n": {
+   "title": {
+    "he": "חקלאים בלמטיה מוחים נגד סחר תבואה מרוסיה",
+    "en": "Latvian farmers protest over ‘blood grain’ trade with Russia",
+    "ar": "المزارعون اللاتفيون يحتجون على تجارة «حبوب الدم» مع روسيا",
+    "ru": "Латвийские фермеры протестуют против торговли «кровавым зерном» с Россией"
+   },
+   "summary": {
+    "he": "חקלאים בלטביה פתחו במחאה נגד מעבר תבואה רוסית דרך מדינם, בטענה שהיא מממנת את מלחמת רוסיה באוקראינה.",
+    "en": "Latvian farmers are staging protests against Russian grain transit through Latvia, arguing it helps fund the war in Ukraine.",
+    "ar": "يحتج المزارعون اللاتفيون على مرور الحبوب الروسية عبر بلدهم بدعوى أنها تمول الحرب في أوكرانيا.",
+    "ru": "Латвийские фермеры протестуют против транзита российского зерна через Латвию, утверждая, что это финансирует войну."
+   },
+   "kid": {
+    "he": "חקלאים בלטביה כועסים שרוסיה מוכרת תבואה דרך המדינה שלהם וזה עוזר למלחמה. זה יכול להשפיע על מחירי המזון באירופה.",
+    "en": "Farmers in Latvia are angry that Russian grain is transported through their country, funding the war. This can impact European agriculture.",
+    "ar": "يغضب المزارعون في لاتفيا لنقل الحبوب الروسية عبر بلدهم وتمويل الحرب. قد يؤثر ذلك على أسواق الغذاء.",
+    "ru": "Латвийские фермеры недовольны транзитом российского зерна через их страну. Это может повлиять на рынок продовольствия."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-latvia-farmers-protest-russian-grain-transit?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "up",
+    "t0": 1794079156,
+    "reason": "שיבושים פוטנציאליים בסחר התבואה באירופה",
+    "reason_i18n": {
+     "he": "שיבושים פוטנציאליים בסחר התבואה באירופה",
+     "en": "Potential disruptions in European grain trade",
+     "ar": "اضطرابات محتملة في تجارة الحبوب الأوروبية",
+     "ru": "Потенциальные сбои в европейской зерновой торговле"
+    },
+    "name_i18n": {
+     "he": "קרן סל חיטה – עוקבת אחר מחירי החיטה",
+     "en": "Teucrium Wheat Fund – tracks wheat prices",
+     "ar": "صندوق القمح – تتبع أسعار القمح",
+     "ru": "ETF на пшеницу – отслеживает цены на пшеницу"
+    },
+    "price_at_alert": 21.73
+   }
+  ],
+  "id": "6573aca2f5eb"
+ },
+ {
+  "ts": 1794079156,
+  "time": "2026-11-07T19:19Z",
+  "title": "סרי לנקה רוכשת ארבעה רחפנים מישראל בעסקה של 12.8 מיליון דולר",
+  "summary": "סרי לנקה חתמה על עסקה ביטחונית בסך 12.8 מיליון דולר לרכישת ארבעה רחפנים מתוצרת ישראל.",
+  "kid": "סרי לנקה קונה רחפנים מישראל. זה טוב לחברות הביטחון בישראל ובעולם.",
+  "i18n": {
+   "title": {
+    "he": "סרי לנקה רוכשת ארבעה רחפנים מישראל בעסקה של 12.8 מיליון דולר",
+    "en": "Sri Lanka to buy four Israeli-made drones in $12.8 million defense deal",
+    "ar": "سريلانكا تشترتي أربع طائرات بدون طيار إسرائيلية الصنع في صفقة دفاعية بقيمة 12.8 مليون دولار",
+    "ru": "Шри-Ланка купит четыре израильских беспилотника на 12.8 млн долларов"
+   },
+   "summary": {
+    "he": "סרי לנקה חתמה על עסקה ביטחונית בסך 12.8 מיליון דולר לרכישת ארבעה רחפנים מתוצרת ישראל.",
+    "en": "Sri Lanka is purchasing four Israeli-made drones as part of a $12.8 million defense agreement.",
+    "ar": "تشتري سريلانكا أربع طائرات بدون طيار إسرائيلية الصنع كجزء من اتفاقية دفاعية بقيمة 12.8 مليون دولار.",
+    "ru": "Шри-Ланка покупает четыре беспилотника израильского производства в рамках оборонной сделки на 12.8 миллиона долларов."
+   },
+   "kid": {
+    "he": "סרי לנקה קונה רחפנים מישראל. זה טוב לחברות הביטחון בישראל ובעולם.",
+    "en": "Sri Lanka is buying drones from Israel. This is good for defense companies in Israel and globally.",
+    "ar": "تشتري سريلانكا طائرات بدون طيار من إسرائيل، وهو أمر جيد لشركات الدفاع.",
+    "ru": "Шри-Ланка покупает дроны у Израиля. Это позитивно для оборонных компаний."
+   }
+  },
+  "category": "contracts",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTZ3NvbnJLV05WcUgzaF82VWJBdGtUZXRQOUZMRFNvQW5JZDMzWHJuQTJrVC1HLXBiXzJlSklCaGdVTGVfb1pTOG1UNDBEWEdVclFjcDVSdHFESkYtV2pxOFY1RjBmS1RD?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1794079156,
+    "reason": "חיזוק הביקוש למערכות בלתי מאוישות ישראליות",
+    "reason_i18n": {
+     "he": "חיזוק הביקוש למערכות בלתי מאוישות ישראליות",
+     "en": "Boosts demand for Israeli unmanned aerial systems",
+     "ar": "تعزيز الطلب على الأنظمة غير المأهولة الإسرائيلية",
+     "ru": "Рост спроса на израильские беспилотные системы"
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות – חברת ביטחונית ישראלית",
+     "en": "Elbit Systems – an Israeli defense company",
+     "ar": "إلبيط سيستمز – شركة دفاع إسرائيلية",
+     "ru": "Elbit Systems – израильская оборонная компания"
+    },
+    "price_at_alert": 682.59
+   }
+  ],
+  "id": "f758221d07f1"
  }
 ]
