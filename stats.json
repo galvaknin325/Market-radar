@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T11:35Z",
+ "generated": "2026-11-07T12:24Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 401,
+ "total_alerts": 407,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,38 +78,38 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן סל נפט גולמי",
-    "en": "US Oil Fund",
-    "ar": "صندوق النفط الخام",
-    "ru": "Нефтяной фонд"
+    "he": "USO - תעודת סל על נפט גולמי",
+    "en": "USO – Crude oil ETF",
+    "ar": "USO - صندوق الاستثمار المتداول للنفط الخام",
+    "ru": "USO – ETF сырой нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 31,
+   "mentions": 32,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "מגזר האנרגיה בארה\"ב",
-    "en": "Energy Sector ETF",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "he": "XLE - תעודת סל מגזר האנרגיה",
+    "en": "XLE – Energy sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE – ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
   "IBIT": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 8,
    "hits": 1,
    "name": {
-    "he": "איי-בי-איי-טי - קרן סל על ביטקוין",
-    "en": "IBIT - Bitcoin ETF",
-    "ar": "IBIT - صندوق مؤشر بيتكوين",
-    "ru": "IBIT - Биткоин ETF"
+    "he": "IBIT - תעודת סל ביטקוין",
+    "en": "IBIT – Bitcoin ETF",
+    "ar": "IBIT - صندوق مؤشرات تداول البيتكوين",
+    "ru": "IBIT – ETF биткоина"
    },
    "avg_edge": -1.22
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 63,
+   "mentions": 65,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الدفاع",
-    "ru": "Авиационный и оборонный ETF"
+    "he": "ITA - תעודת סל ביטחונית אמריקאית",
+    "en": "ITA – US aerospace & defense ETF",
+    "ar": "ITA - صندوق التداول في القطاع الجوي والدفاعي الأمريكي",
+    "ru": "ITA – ETF аэрокосмического и оборонного сектора США"
    },
    "avg_edge": -6.21
   },
   "RTX": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "רת'און - יצרנית מערכות הגנה וטילים",
-    "en": "RTX - defense and missile systems manufacturer",
-    "ar": "רת'يون - مصنعة أنظمة الدفاع والصواريخ",
-    "ru": "RTX - производитель систем обороны и ракет"
+    "he": "RTX - ענקית ביטחונית ותעופה",
+    "en": "RTX – Defense and aerospace giant",
+    "ar": "RTX - عملاق الدفاع والفضاء",
+    "ru": "RTX – оборонный и аэрокосмический гигант"
    },
    "avg_edge": -1.22
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "לוקהיד מרטין – חברת ביטחון ענקית",
-    "en": "Lockheed Martin – major defense contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي كبير",
-    "ru": "Lockheed Martin – крупный оборонный подрядчик"
+    "he": "LMT - לוקהיד מרטין, יצרנית נשק וביטחון",
+    "en": "LMT – Lockheed Martin, defense contractor",
+    "ar": "LMT - لوكهيد مارتن، مقاول الدفاع",
+    "ru": "LMT – Lockheed Martin, оборонный подрядчик"
    },
    "avg_edge": -4.05
   },
@@ -1166,6 +1166,18 @@
     "en": "ABB - Industrial technology company",
     "ar": "ABB - شركة تكنولوجيا صناعية",
     "ru": "ABB - компания промышленных технологий"
+   },
+   "avg_edge": null
+  },
+  "VSAT": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "VSAT - ויאסט, שירותי תקשורת ולוויין",
+    "en": "Viasat – Satellite communications provider",
+    "ar": "Viasat - مزود خدمات الاتصالات عبر الأقمار الصناعية",
+    "ru": "Viasat – провайдер спутниковой связи"
    },
    "avg_edge": null
   }
