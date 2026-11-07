@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T10:16Z",
+ "generated": "2026-11-07T10:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 393,
+ "total_alerts": 395,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -978,14 +978,14 @@
    "avg_edge": 13.58
   },
   "FXI": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "FXI - קרן סל מניות סיניות גדולות",
-    "en": "FXI - China Large-Cap ETF",
-    "ar": "FXI - صندوق سهم الأسهم الصينية الكبيرة",
-    "ru": "FXI - ETF крупных китайских компаний"
+    "he": "קרן סל מניות סין",
+    "en": "China Large-Cap ETF",
+    "ar": "صندوق الاستثمار المتداول للأسهم الصينية",
+    "ru": "ETF крупных китайских компаний"
    },
    "avg_edge": -3.11
   },
@@ -1154,6 +1154,18 @@
     "en": "PCG – PG&E Corporation",
     "ar": "PCG - شركة المرافق الكهربائية",
     "ru": "PCG — энергетическая компания"
+   },
+   "avg_edge": null
+  },
+  "ABB": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ABB - חברת טכנולוגיה תעשייתית",
+    "en": "ABB - Industrial technology company",
+    "ar": "ABB - شركة تكنولوجيا صناعية",
+    "ru": "ABB - компания промышленных технологий"
    },
    "avg_edge": null
   }
