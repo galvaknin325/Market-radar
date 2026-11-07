@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T21:55Z",
+ "generated": "2026-11-07T22:36Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 447,
+ "total_alerts": 450,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 44,
+   "mentions": 45,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO - קרן סלי נפט גולמי",
-    "en": "USO - Crude Oil ETF",
+    "he": "USO - קרן סל נפט גולמי",
+    "en": "USO – Crude Oil ETF",
     "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - ETF на сырую нефть"
+    "ru": "USO – ETF сырой нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 37,
+   "mentions": 38,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - מגזר האנרגיה בארה\"ב",
-    "en": "XLE - Energy Sector ETF",
+    "he": "XLE - קרן סל מגזר האנרגיה",
+    "en": "XLE – Energy Sector ETF",
     "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "ru": "XLE – ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
@@ -246,13 +246,13 @@
    "avg_edge": 0.31
   },
   "CPER": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 11,
    "hits": 3,
    "name": {
-    "he": "CPER – קרן סל על נחושת",
-    "en": "CPER – United States Copper Index Fund",
-    "ar": "CPER - صندوق مؤشر النحاس",
+    "he": "CPER - קרן סל נחושת",
+    "en": "CPER – Copper ETF",
+    "ar": "CPER - صندوق النحاس",
     "ru": "CPER – ETF меди"
    },
    "avg_edge": -0.74
@@ -426,14 +426,14 @@
    "avg_edge": 0.78
   },
   "FCX": {
-   "mentions": 21,
+   "mentions": 22,
    "n": 15,
    "hits": 4,
    "name": {
-    "he": "FCX – פריפורט מקמוראן (כריית נחושת)",
-    "en": "FCX – Freeport-McMoRan",
-    "ar": "FCX - فريبورت مكموران",
-    "ru": "FCX – Freeport-McMoRan"
+    "he": "Freeport-McMoRan - חברת כריית נחושת",
+    "en": "Freeport-McMoRan – Copper Mining Company",
+    "ar": "Freeport-McMoRan - شركة تعدين النحاس",
+    "ru": "Freeport-McMoRan – компания по добыче меди"
    },
    "avg_edge": -1.46
   },
@@ -642,14 +642,14 @@
    "avg_edge": -1.03
   },
   "EWA": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "קרן סל אוסטרליה/ניו זילנד",
-    "en": "Australia/NZ ETF",
-    "ar": "صندوق استراليا ونيوزيلندا",
-    "ru": "ETF Австралии и Новой Зеландии"
+    "he": "EWA - קרן סל אוסטרליה (המשפיעה אזורית)",
+    "en": "EWA – Australia ETF (regional proxy)",
+    "ar": "EWA - صندوق أستراليا (مؤشر إقليمي)",
+    "ru": "EWA – ETF Австралии (региональный прокси)"
    },
    "avg_edge": 0.36
   },
