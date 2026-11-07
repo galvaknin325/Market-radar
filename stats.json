@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T03:31Z",
+ "generated": "2026-11-07T04:25Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 370,
+ "total_alerts": 374,
  "overall": {
   "n": 422,
   "hits": 187,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 31,
+   "mentions": 32,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "סל מחירי הנפט הגולמי",
-    "en": "United States Oil Fund",
-    "ar": "صندوق النفط الخام الأمريكي",
-    "ru": "ETF нефтяного фонда"
+    "he": "אוסו - קרן סלי של נפט גולמי",
+    "en": "USO - Crude oil fund",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO - Фонд нефти"
    },
    "avg_edge": -0.02
   },
@@ -114,25 +114,26 @@
    "avg_edge": -1.22
   },
   "XOM": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 4,
    "hits": 2,
    "name": {
-    "he": "אקסון מוביל – חברת אנרגיה",
-    "en": "Exxon – energy company",
-    "ar": "إكسون – شركة طاقة"
+    "he": "אקסון מובייל - חברת אנרגיה ענקית",
+    "en": "ExxonMobil - Major energy company",
+    "ar": "ExxonMobil - شركة طاقة كبرى",
+    "ru": "ExxonMobil - Крупная энергетическая компания"
    },
    "avg_edge": -1.47
   },
   "ZIM": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 8,
    "hits": 2,
    "name": {
-    "he": "חברת ספנות",
-    "en": "Shipping company",
-    "ar": "شركة شحن",
-    "ru": "Судоходная компания"
+    "he": "צים - חברת ספנות והובלה ימית",
+    "en": "ZIM - Shipping and container transport company",
+    "ar": "ZIM - شركة الشحن والنقل البحري",
+    "ru": "ZIM - Судоходная и транспортная компания"
    },
    "avg_edge": -1.01
   },
@@ -149,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 58,
+   "mentions": 59,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "תעודת סל תעופה וביטחון",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق الدفاع والطيران",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "he": "קרן סלי תעופה וביטחון אמריקאית",
+    "en": "US Aerospace & Defense ETF",
+    "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -6.21
   },
@@ -304,14 +305,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "לוקהיד מרטין - חברת ביטחון",
-    "en": "Lockheed Martin - Defense company",
-    "ar": "لوكهيد مارتن - شركة دفاع",
-    "ru": "Lockheed Martin - Оборонная компания"
+    "he": "לוקהיד מרטין - יצרנית נשק וביטחון",
+    "en": "Lockheed Martin - Defense manufacturer",
+    "ar": "Lockheed Martin - مصنع دفاعي",
+    "ru": "Lockheed Martin - Оборонный подрядчик"
    },
    "avg_edge": -4.05
   },
@@ -352,14 +353,14 @@
    "avg_edge": -0.63
   },
   "QQQ": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 10,
    "hits": 3,
    "name": {
-    "he": "סל מניות נאסד\"ק 100",
-    "en": "Nasdaq 100 ETF",
-    "ar": "صندوق ناسداك 100",
-    "ru": "ETF индекса Nasdaq 100"
+    "he": "קיו-קיו-קיו - קרן סלי של ענקיות הטכנולוגיה",
+    "en": "QQQ - Nasdaq 100 tech ETF",
+    "ar": "QQQ - صندوق تكنولوجيا ناسداك 100",
+    "ru": "QQQ - ETF технологических компаний Nasdaq 100"
    },
    "avg_edge": -0.58
   },
@@ -436,14 +437,14 @@
    "avg_edge": -1.46
   },
   "FDX": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 3,
    "hits": 2,
    "name": {
-    "en": "FDX – FedEx Corporation",
-    "he": "FDX - חברת פדקס",
-    "ar": "FDX - شركة فيديكس",
-    "ru": "FDX — FedEx Corporation"
+    "he": "פדדקס - חברת שילוח ולוגיסטיקה עולמית",
+    "en": "FedEx - Global logistics and delivery company",
+    "ar": "FedEx - شركة الشحن والخدمات اللوجستية العالمية",
+    "ru": "FedEx - Мировая логистическая и курьерская компания"
    },
    "avg_edge": -0.4
   },
