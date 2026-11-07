@@ -31518,9 +31518,14 @@
    }
   },
   "category": "health",
-  "severity": 3,
+  "severity": 4,
   "confidence": "low",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeE8zNVpCWWF3VjBUOER2R2FuN0xuZlJwVlgzUlVTVWFFY2lVaTl1VUdlWE9JQUFoMXRyZ3BreVBXYzlOa1JLamh6SHdhTWdHRkdPZlZTWENhMDZEWFNoUE0zYkp0ZnpVMWk2VjlvVjNwekw1d05lSXFnMUhLOUVOcV9BTDJnODVldi0ySk5JMUFzcEEyMVlQS3gwZ1RHWXU0UlE0cTNNSjllbExzOFd4U0ZVVlgxQnN4TUVUT1Q5bkJQODJMTXV1cXNlT3ZRRnZ3aEh3SUlXZVI0ek5rT2040gHkAUFVX3lxTE5tdnBqcWdneEsyeXFVQjRUR0VGZ2xUWDZfaVhzNHlpaGJwazltZlJqcmlSQThFUzFNYmdzOFZsZFhzN25vZ1BCeks0LTg0WGpvcWZXbG5oR0dSd2tYM0d1Zk1UMFdqV1RFSXVWQS1nSXhiZ09HREplQzVTbF8xYzBhQm5XMDhoSVZCQWtsZmhXM2hDQXQ2WHFnaFFma2ZhZTBUMjE2a1Vhel9Qbnp3V3dBWXlwdnVHRzhUSThKdEJSbGhDal9ldGQ3cVZuLTA4cTBNalJxWkFkTWF3ZXAzZFBYUS1WMA?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "MRNA",
@@ -31540,9 +31545,43 @@
      "ru": "Moderna"
     },
     "price_at_alert": 263.78
+   },
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794016518,
+    "reason": "התפרצות מחלה רחבה מעלה את הביקוש המגزרי לשירותי בריאות וחיסונים",
+    "reason_i18n": {
+     "he": "התפרצות מחלה רחבה מעלה את הביקוש המגزרי לשירותי בריאות וחיסונים",
+     "en": "Widespread disease outbreak increases sector demand for healthcare and vaccines",
+     "ar": "تفشي المرض الواسع يرفع الطلب القطاعي على الرعاية الصحية واللقاحات",
+     "ru": "Широкая вспышка заболевания повышает спрос на медицинские услуги и вакцины"
+    },
+    "name_i18n": {
+     "he": "XLV - קרן סל הבריאות",
+     "en": "XLV - Health Care Select Sector SPDR Fund",
+     "ar": "XLV - صندوق قطاع الرعاية الصحية",
+     "ru": "XLV - ETF сектора здравоохранения"
+    },
+    "price_at_alert": 184.8
    }
   ],
-  "id": "4d03ea8a30c2"
+  "id": "4d03ea8a30c2",
+  "updates": [
+   {
+    "ts": 1794016518,
+    "time": "2026-11-07T01:55Z",
+    "severity": 4,
+    "summary": "מרכזים לבקרת מחלות בארה\"ב מדווחים כי התפרצות החצבת הגיעה לשיא של 35 שנה עם 5,182 מקרי הידבקות ו-8 מקרי מוות.",
+    "i18n": {
+     "he": "מרכזים לבקרת מחלות בארה\"ב מדווחים כי התפרצות החצבת הגיעה לשיא של 35 שנה עם 5,182 מקרי הידבקות ו-8 מקרי מוות.",
+     "en": "US health authorities report that the measles outbreak has hit a 35-year high, recording 5,182 cases and 8 deaths nationwide.",
+     "ar": "تفيد السلطات الصحية الأمريكية بأن تفشي الحصبة بلغ أعلى مستوى في 35 عاماً مع تسجيل أكثر من 5100 حالة و8 وفيات.",
+     "ru": "Центры по контролю заболеваний США сообщают, что вспышка кори достигла 35-летнего максимума: зафиксировано 5182 случая и 8 смертей."
+    }
+   }
+  ],
+  "last_update": 1794016518
  },
  {
   "ts": 1793998756,
@@ -31830,10 +31869,6 @@
   "confidence": "medium",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXo3c0pXbll5VVJ6eUlRbTJQZ0xLSnFISGlnVGRReWlBTnJYT2d5RVd5cTZmTnFkS0VoZ3h1cVNGOEhOMHUtMUlRU0hPMDhhTmtINTNHdC1JeVRlTExaSklrRWNvaHpMSERXOF9VRlRZTGh4YmZ4aWg3a2ctdlI1bkVsdUY4X0RDMElsTHpaOFN4VVE4YzBwRzVHRk0yamVxM2dJMmdVYlNSdVZoaGR6akhlUGU5WTlx?oc=5"
-   },
-   {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZFdLYldUV3dnVGQ3dHA5aFVzeDdTeDZKMF9WQ0Fyc2Y1UHNRUjVNWVZmXzNSdElCaUdtaGRmRG5ITHNlUG9UNllVTWtzOF9ORnlxal9TUHE0V2J2YnI3UEFjMUg2TjM0WjM0V1Q4U0Q3SllxS0NHUXpRSTVMbGVKSmRObGZ2cmlKWFVXeHMtM1F2cUk4ZDdlODVmT19ucmVSWlBnWFFrR1BLSFRkb0Ntbk1TRFhMdEVETU5lbklZZmY3ajlWWTBheVRCTlQyTnJVWk5pTGtjSXl0NEtjYUFROXUzVjNzbU4t?oc=5"
    },
@@ -31844,6 +31879,18 @@
    {
     "name": "Google News: climate & disasters",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnRqYk54VjMzQkVGUEtzOVM1VGNnTk9Wa2plckNHdkZlTlh6RGQ0M2lwS1FZbWZGQkF4OWtiemVKY3ZlWkNOYnV3Vjdwc01UMU1kbnI1UGV2a1AwVHBUV1gxaGV3aGVEME11MzZHSy1aMUhhUkpqTDRmQ1BYTmhYbV9KcVdIOE9tVGh0MlJRWVJmcnBWWjJxZnRkajI0QjRNeGw1bERtaEc4c3pTVk1mcUs0M1BWV1BU?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLUFQSVF4V2NPWlY1a0ZsWnl0V3oxYVBhTWhyNDZMM3JFU2k0Y0tTNGxhS1RLWS1ZQXZLeFhOcVBPa3B2VnF3Z0FrNGp3RHdqejNrdDE4MjhMazFweVBtbkl1X3lMZU1ZTENuWm1OVUg0TzNJNXhEMURCNGZrNS1YSktnMWctbXExVGln?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oOFR0azROQTVqVEI4VkdXRVlxZVpYYm13Y1hCdTR3NUZ0QmJaSXJNallMQXdSQ1p6dUg3R2Y2cTdQdjBseC1FMEphaTB0VFVEejFvRFVIMXk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XOWxVYTBsMGNmRi1UbmlCMGdyWVFRc0kwLW9hanFFNHdtWHRCQ2sweVRPNmhtMmphSG4zdWZodWhwS1B3dmdtYkp0SWJIUWFhS05wYw?oc=5"
    }
   ],
   "impacts": [
@@ -31899,9 +31946,21 @@
      "ar": "هبطت أسعار النفط بنسبة 13% في أسبوع مع رفع نتائج الانتخابات الأمريكية الآمال في اتفاق سلام مع إيران، وتراجعت أسهم ناقلات النفط.",
      "ru": "Цены на нефть рухнули на 13% за неделю на фоне итогов выборов в США, породивших надежды на мир с Ираном, а акции танкеров снизились."
     }
+   },
+   {
+    "ts": 1794016518,
+    "time": "2026-11-07T01:55Z",
+    "severity": 5,
+    "summary": "ארה\"ב מקדמת מאחורי הקלעים הפסקת אש וחידוש שיחות גרעין עם איראן, לצד הטלת סנקציות חדשות על מספר גופים הקשורים אליה.",
+    "i18n": {
+     "he": "ארה\"ב מקדמת מאחורי הקלעים הפסקת אש וחידוש שיחות גרעין עם איראן, לצד הטלת סנקציות חדשות על מספר גופים הקשורים אליה.",
+     "en": "The US is pushing behind the scenes for a ceasefire and resumption of nuclear talks with Iran, alongside applying new sanctions on related entities.",
+     "ar": "تدفع الولايات المتحدة خلف الكواليس من أجل وقف إطلاق النار واستئناف المحادثات النووية مع إيران، إلى جانب فرض عقوبات جديدة.",
+     "ru": "США продвигают закулисные усилия по достижению режима прекращения огня и возобновлению ядерных переговоров с Ираном наряду с новыми санкциями."
+    }
    }
   ],
-  "last_update": 1794001107
+  "last_update": 1794016518
  },
  {
   "ts": 1793998756,
@@ -33086,5 +33145,148 @@
    }
   ],
   "id": "e5c7f15cd067"
+ },
+ {
+  "ts": 1794016518,
+  "time": "2026-11-07T01:55Z",
+  "title": "רוסיה פוצחה בהתקפות טילים חדשות על קייב והסביבה",
+  "summary": "כוחות רוסיים ביצעו מתקפת טילים חדשה על הבירה האוקראינית קייב ועל האזור הסובב אותה.",
+  "kid": "רוסיה ירתה טילים על עיר הבירה של אוקראינה. מצב זה יכול להשפיע על מחירי הנפט והביטחון בעולם.",
+  "i18n": {
+   "title": {
+    "he": "רוסיה פוצחה בהתקפות טילים חדשות על קייב והסביבה",
+    "en": "Russia launches fresh missile strikes on Kyiv and surrounding region",
+    "ar": "רוסיה תוקפת בטילים חדשים את קייב והאזור",
+    "ru": "Россия наносит новые ракетные удары по Киеву и области"
+   },
+   "summary": {
+    "he": "כוחות רוסיים ביצעו מתקפת טילים חדשה על הבירה האוקראינית קייב ועל האזור הסובב אותה.",
+    "en": "Russian forces have launched a fresh missile attack targeting the Ukrainian capital of Kyiv and its surrounding region.",
+    "ar": "שנת רוסיה מתקפת טילים חדשה על העיר קייב באוקראינה והאזור המקיף אותה.",
+    "ru": "Российские силы нанесли новый ракетный удар по столице Украины Киеву и прилегающему региону."
+   },
+   "kid": {
+    "he": "רוסיה ירתה טילים על עיר הבירה של אוקראינה. מצב זה יכול להשפיע על מחירי הנפט והביטחון בעולם.",
+    "en": "Russia shot missiles at Ukraine's capital city. This can make defense company stocks go up and affect world prices.",
+    "ar": "אطلقت روسيا صواريخ على عاصمة أوكرانيا. هذا يمكن أن يؤثر على أسعار النفط والشركات الأمنية.",
+    "ru": "Россия выпустила ракеты по столице Украины. Это может повлиять на цены на нефть и акции оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVkxaUdCbi0yRFdzQW1BUkRnbTVhcE5ROENmaUVXN0hDMG9pZThDS3hueHFFNHQ0d19MZDZodDV3VWdYT2IwOVZWYkhpbEljQnk4UGhjWS1CVlBFQXRYRUlHN0hnQjZUbWtRVlVOdEVBelBRNnhCYkloOHRQOVh2RUFSZWJDeEZyeGtjX3A5MmJ4Vm1lQ3oyNENR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZzBQMzJZcld6X2tIRk1IaFB5R25sWEo2VnpOc0k5TkFLVERiN2s1YUFNd0VSYUp4LUZtSTh3ajlieUplZV9lMjgtY0ZHbHNKSGtFaGdFSll1bXdXdTdRalc0aXVtdXBsRDg2c0J3dUF3ZjhCYlpNNTYweHJNYUdUYklaNFowdU5jSWJ1N0t6aU9tbmpveEw5RzJFZS1fejJiV2RNemkyNGZyNXk1MzdNLUNHcDhYQkw5eGJIXzFXa2s?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVGhCNTc0bjdqTkxuZDdtOFpCZVd1TEdDQnpURXNYeGY1ZG9saHUyZGFBbTMzWF8zbzBmOHQyeERTMTlWaUo1eUVXdjAyUENTaEkwbGNsb2xteDdxWXFybS1GcjlKWWl4VU4xUGdVdk9wSE1PM3NSTktvYWRINUpESnp4bDJqMkhzR21ySDZKWVVBbzJ5NHpDeDJFNFh5MDdGcEpWbEkzU2dFWFZBVWhxR0pR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794016518,
+    "reason": "החמרת הלחימה באוקראינה מגבירה את הביקוש למניות ביטחוניות",
+    "reason_i18n": {
+     "he": "החמרת הלחימה באוקראינה מגבירה את הביקוש למניות ביטחוניות",
+     "en": "Escalating conflict in Ukraine boosts demand for defense stocks",
+     "ar": "تصعيد القتال في أوكرانيا يرفع الطلب على أسهم الدفاع",
+     "ru": "Эскалация конфликта в Украине повышает спрос на акции оборонных компаний"
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق סל הטيران והדفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.98
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794016518,
+    "reason": "תקיפות חדשות באוקראינה מעלות את קרנן של חברות הביטחון",
+    "reason_i18n": {
+     "he": "תקיפות חדשות באוקראינה מעלות את קרנן של חברות הביטחון",
+     "en": "New attacks in Ukraine lift defense contractors",
+     "ar": "الهجمات الجديدة في أوكرانيا ترفع أسهم شركات الدفاع",
+     "ru": "Новые атаки в Украине поддерживают оборонные предприятия"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - חברת ביטחון",
+     "en": "Lockheed Martin - Defense company",
+     "ar": "لوكهيد مارتن - شركة دفاع",
+     "ru": "Lockheed Martin - Оборонная компания"
+    },
+    "price_at_alert": 567.08
+   }
+  ],
+  "id": "5a231843f720"
+ },
+ {
+  "ts": 1794016518,
+  "time": "2026-11-07T01:55Z",
+  "title": "סין מתנגדת לסנקציות האמריקאיות על חברות סיניות הקשורות לקובה",
+  "summary": "ממשלת סין הביעה התנגדות רשמית לסנקציות שהטילה ארצות הברית על חברות סיניות בגין מעורבותן בקובה.",
+  "kid": "סין כועסת על ארה\"ב שהטילה עונשים על חברות סיניות בגלל קובה. זה יכול לגרום למתיחות במסחר בין שתי המדינות.",
+  "i18n": {
+   "title": {
+    "he": "סין מתנגדת לסנקציות האמריקאיות על חברות סיניות הקשורות לקובה",
+    "en": "China opposes US sanctions on Chinese firms over Cuba involvement",
+    "ar": "الصين تعارض العقوبات الأمريكية على الشركات الصينية بسبب ارتباطها بكوبا",
+    "ru": "Китай выступает против санкций США в отношении китайских компаний из-за Кубы"
+   },
+   "summary": {
+    "he": "ממשלת סין הביעה התנגדות רשמית לסנקציות שהטילה ארצות הברית על חברות סיניות בגין מעורבותן בקובה.",
+    "en": "The Chinese government expressed official opposition to US-imposed sanctions on Chinese companies regarding their involvement with Cuba.",
+    "ar": "أعربت الحكومة الصينية عن معارضتها الرسمية للعقوبات التي فرضتها الولايات المتحدة على شركات صينية بسبب تورطها مع كوبا.",
+    "ru": "Правительство Китая выразило официальный протест против введенных США санкций в отношении китайских компаний из-за их связей с Кубой."
+   },
+   "kid": {
+    "he": "סין כועסת על ארה\"ב שהטילה עונשים על חברות סיניות בגלל קובה. זה יכול לגרום למתיחות במסחר בין שתי המדינות.",
+    "en": "China is upset that the US punished Chinese companies over Cuba. This can create trade tensions between the two countries.",
+    "ar": "الصين غاضبة لأن الولايات المتحدة عاقبت شركات صينية بسبب كوبا. هذا قد يسبب توترات تجارية.",
+    "ru": "Китай недоволен санкциями США против своих компаний из-за Кубы. Это может усилить торговую напряженность."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGZHSWFNbUdzS3pCQkpqZjRpX0V6cHpSaE9yTWl0dG9fZmxHajdYeFhNWUljbndJV1hqbzNuOXFCWXBlSEZoc09hQWxPOGdVYTJjMTNFUXN4c2pDSE1Pb3VyY0dkNXdFMEd4T252ckxlOUtWaEVjWEdDWWhtOXduQ05jNFVLR1VzTktZT1pIVW1wb1cwVG52VkxFNnE2SXRDOHdxNUp3MWtnOFZ2Y1lYMUx2YllRMEFuekE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794016518,
+    "reason": "המתיחות הדיפלומטית והמסחרית בין ארה\"ב לסין מעיבה על השוק הסיני",
+    "reason_i18n": {
+     "he": "המתיחות הדיפלומטית והמסחרית בין ארה\"ב לסין מעיבה על השוק הסיני",
+     "en": "Diplomatic and trade tensions between US and China weigh on Chinese equities",
+     "ar": "التوترات الدبلوماسية والتجارية تضغط على الأسهم الصينية",
+     "ru": "Дипломатическая и торговая напряженность давит на китайские акции"
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות סיניות גדולות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق سهم الأسهم الصينية الكبيرة",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.95
+   }
+  ],
+  "id": "f92b9d28231e"
  }
 ]
