@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T19:19Z",
+ "generated": "2026-11-07T19:58Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 439,
+ "total_alerts": 443,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,23 +78,23 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO - קרן סל נפט גולמי",
+    "he": "USO - קרן סלי נפט גולמי",
     "en": "USO - Crude Oil ETF",
     "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - ETF сырой нефти"
+    "ru": "USO - ETF на сырую нефть"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - קרן סל על מגזר האנרגיה",
+    "he": "XLE - מגזר האנרגיה בארה\"ב",
     "en": "XLE - Energy Sector ETF",
     "ar": "XLE - صندوق قطاع الطاقة",
     "ru": "XLE - ETF энергетического сектора"
@@ -150,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 73,
+   "mentions": 74,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "ITA – קרן סל תעופה וביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA – صندوق الاستثمار المتداول للطيران والدفاع",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    "he": "ITA - קרן סלי תעופה וביטחון בארה\"ב",
+    "en": "ITA - US Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -6.21
   },
@@ -258,14 +258,14 @@
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 34,
+   "mentions": 35,
    "n": 22,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת סייבר",
-    "en": "CrowdStrike – a cybersecurity company",
-    "ar": "كراودسترايك – شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания по кибербезопасности"
+    "he": "CRWD - קראודסטרייק (אבטחת סייבר)",
+    "en": "CRWD - CrowdStrike Cybersecurity",
+    "ar": "CRWD - كراودسترايك للأمن السيبراني",
+    "ru": "CRWD - CrowdStrike кибербезопасность"
    },
    "avg_edge": -4.09
   },
@@ -318,7 +318,7 @@
    "avg_edge": -4.05
   },
   "FXE": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 9,
    "hits": 4,
    "name": {
@@ -1202,6 +1202,18 @@
     "en": "General Dynamics – a major defense contractor",
     "ar": "جنرال ديناميكس – مقاول دفاعي كبي",
     "ru": "General Dynamics – крупный оборонный подрядчик"
+   },
+   "avg_edge": null
+  },
+  "EIS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "EIS - קרן סלי מניות ישראל",
+    "en": "EIS - MSCI Israel ETF",
+    "ar": "EIS - صندوق المؤشرات المتداولة لإسرائيل",
+    "ru": "EIS - ETF израильских акций"
    },
    "avg_edge": null
   }

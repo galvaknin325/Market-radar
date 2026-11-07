@@ -30575,12 +30575,16 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjA1NUpONUNrLTg2dzNwbzgweGYxcENRVmc0T3JCSVdBX3ljeHc0WVRnMnRlbm90aE0wZ2tkbTY3UVpIWXBkdTdWMjdsTGR4bXVoOFU1LW9xVVJOYVhWcVZPb0hEMVVxcVJUU2dUZ3lZRDFhLUMyNXFVX0NSaFZrcUdYRjQxU1h0ZFNnSWpYRWJrUnF5Vl9Rc3hwMnlQWHl2Wnpv?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uTlhuZGVHWUVyaEdUU0FuWkdhVnlvNXdnSmVPS3Ewei12bWlJX0NUTUltT1ROWThvcWFiaDF2M25JN1picnJ5TDQ1eEYyNVlS?oc=5"
    }
   ],
   "impacts": [
@@ -30602,9 +30606,43 @@
      "ru": "EWU - ETF акций Великобритании"
     },
     "price_at_alert": 47.08
+   },
+   {
+    "ticker": "FXE",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "הידוק מוניטרי בבריטניה תומך בעקיפין במטבעות אירופיים מול דולר חלש.",
+    "reason_i18n": {
+     "he": "הידוק מוניטרי בבריטניה תומך בעקיפין במטבעות אירופיים מול דולר חלש.",
+     "en": "Monetary tightening in Europe's neighborhood indirectly supports regional currency strength.",
+     "ar": "التشديد النقدي في الجوار الأوروبي يدعم بقوة العملات الإقليمية.",
+     "ru": "Монетарное ужесточение в Европе косвенно поддерживает региональные валюты."
+    },
+    "name_i18n": {
+     "he": "FXE - קרן סלי מטבע אירו",
+     "en": "FXE - CurrencyShares Euro Trust",
+     "ar": "FXE - صندوق اليورو",
+     "ru": "FXE - ETF курса евро"
+    },
+    "price_at_alert": 102.77
    }
   ],
-  "id": "c1a12a392fc0"
+  "id": "c1a12a392fc0",
+  "updates": [
+   {
+    "ts": 1794081492,
+    "time": "2026-11-07T19:58Z",
+    "severity": 6,
+    "summary": "הבנק של אנגליה העלה את הריבית לראשונה מאז שנת 2023 ואותת כי צעדים נוספים עשויים להידרש.",
+    "i18n": {
+     "he": "הבנק של אנגליה העלה את הריבית לראשונה מאז שנת 2023 ואותת כי צעדים נוספים עשויים להידרש.",
+     "en": "The Bank of England has raised interest rates for the first time since 2023 and warned that further hikes are likely.",
+     "ar": "رفع بنك إنجلترا أسعار الفائدة لأول مرة منذ عام 2023 وحذر من احتمال اتخاذ خطوات إضافية.",
+     "ru": "Банк Англии повысил ставку впервые с 2023 года и предупредил о возможном дальнейшем ужесточении."
+    }
+   }
+  ],
+  "last_update": 1794081492
  },
  {
   "ts": 1793975881,
@@ -39294,5 +39332,268 @@
    }
   ],
   "id": "f758221d07f1"
+ },
+ {
+  "ts": 1794081492,
+  "time": "2026-11-07T19:58Z",
+  "title": "תיעוד חדש מציג שיגור טיל מאיראן ליד מיצר הורמוז",
+  "summary": "סרטון חדש מציג לכאורה שיגור טיל איראני מנמל בנדר עבאס בסמוך למיצר הורמוז, על רקע דיווחים על פיצוצים באי קשם.",
+  "kid": "נראה טיל שמשוגר מאיראן ליד אזור מעבר נפט חשוב. זה יכול לייקר את מחירי הנפט אם תהיה סכנה לתנועת הספינות.",
+  "i18n": {
+   "title": {
+    "he": "תיעוד חדש מציג שיגור טיל מאיראן ליד מיצר הורמוז",
+    "en": "New footage shows missile launch from Iran near Strait of Hormuz",
+    "ar": "لقطات جديدة تظهر إطلاق صاروخ من إيران بالقرب من مضيق هرمز",
+    "ru": "Новые кадры демонстрируют пуск ракеты из Ирана вблизи Ормузского пролива"
+   },
+   "summary": {
+    "he": "סרטון חדש מציג לכאורה שיגור טיל איראני מנמל בנדר עבאס בסמוך למיצר הורמוז, על רקע דיווחים על פיצוצים באי קשם.",
+    "en": "New video allegedly shows an Iranian missile launch from Bandar Abbas near the Strait of Hormuz amidst reports of explosions on Qeshm Island.",
+    "ar": "يظهر مقطع فيديو جديد زُعم أنه لإطلاق صاروخ إيراني من بندر عباس بالقرب من مضيق هرمز وسط تقارير عن وقوع انفجارات في جزيرة قشم.",
+    "ru": "На новом видео запечатлен предполагаемый запуск иранской ракеты из Бендер-Аббаса вблизи Ормузского пролива на фоне сообщений о взрывах на острове Кешм."
+   },
+   "kid": {
+    "he": "נראה טיל שמשוגר מאיראן ליד אזור מעבר נפט חשוב. זה יכול לייקר את מחירי הנפט אם תהיה סכנה לתנועת הספינות.",
+    "en": "A missile was launched in Iran near a key oil shipping lane. This could make oil prices go up if shipping becomes unsafe.",
+    "ar": "تم إطلاق صاروخ في إيران بالقرب من ممر شحن نفطي رئيسي. قد يؤدي ذلك إلى ارتفاع أسعار النفط إذا أصبح الشحن غير آمن.",
+    "ru": "В Иране вблизи ключевого нефтяного пути был запущен ракетный снаряд. Это может поднять цены на нефть, если судоходство окажется под угрозой."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UGVIQUQwQ2FsYXpUaUtiTjE3eERtQXhrakg3THhkbkJheldEUkc4ZVF0MFJmZUctb2FlYjR1N2lCOVdYMHdCM0ZLN3Z1MGhxSVh1djJESlQ2WUxyM3ZrdVh3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "חשש משיבושים באספקת הנפט דרך מיצר הורמוז מעלה את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט דרך מיצר הורמוז מעלה את מחירי הנפט.",
+     "en": "Concerns over oil supply disruptions through the Strait of Hormuz drive oil prices higher.",
+     "ar": "المخاوف بشأن اضطرابات إمدادات النفط عبر مضيق هرمز تدفع أسعار النفط للارتفاع.",
+     "ru": "Обоюдосторонняя напряженность в Ормузском проливе грозит перебоями поставок нефти."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סלי נפט גולמי",
+     "en": "USO - Crude Oil ETF",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - ETF на сырую нефть"
+    },
+    "price_at_alert": 148.41
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "מניות האנרגיה מרוויחות מעליית מחירי הנפט הגולמי בעקבות המתיחות במפרץ.",
+    "reason_i18n": {
+     "he": "מניות האנרגיה מרוויחות מעליית מחירי הנפט הגולמי בעקבות המתיחות במפרץ.",
+     "en": "Energy stocks benefit from rising crude prices driven by Middle East tensions.",
+     "ar": "تستفيد أسهم الطاقة من ارتفاع أسعار الخام بسبب توترات الشرق الأوسط.",
+     "ru": "Энергетические акции растут на фоне удорожания нефти из-за геополитических рисков."
+    },
+    "name_i18n": {
+     "he": "XLE - מגזר האנרגיה בארה\"ב",
+     "en": "XLE - Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 61.62
+   }
+  ],
+  "id": "6a688f34e624"
+ },
+ {
+  "ts": 1794081492,
+  "time": "2026-11-07T19:58Z",
+  "title": "נשיא ישראל מטיל על גדי איזנקוט את הרכבת הממשלה",
+  "summary": "נשיא ישראל הטיל על גדי איזנקוט, יריבו של נתניהו, את המנדט להרכבת קואליציה ממשלתית חדשה.",
+  "kid": "פוליטיקאי בישראל קיבל תפקיד לנסות להקים ממשלה חדשה. זה משפיע על השווקים והמניות בישראל.",
+  "i18n": {
+   "title": {
+    "he": "נשיא ישראל מטיל על גדי איזנקוט את הרכבת הממשלה",
+    "en": "Israeli President tasks Gadi Eisenkot with forming a government",
+    "ar": "الرئيس الإسرائيلي يكلف غادي آيزنكوت بتشكيل حكومة",
+    "ru": "Президент Израиля поручил Гади Айзенкоту формирование правительства"
+   },
+   "summary": {
+    "he": "נשיא ישראל הטיל על גדי איזנקוט, יריבו של נתניהו, את המנדט להרכבת קואליציה ממשלתית חדשה.",
+    "en": "The Israeli president has tasked Gadi Eisenkot, a rival of Benjamin Netanyahu, with forming a new governing coalition.",
+    "ar": "كلف الرئيس الإسرائيلي غادي آيزنكوت، منافس نتنياهو، بمهمة تشكيل ائتلاف حكومي جديد.",
+    "ru": "Президент Израиля поручил оппозиционеру Гади Айзенкоту сформировать новое правительство."
+   },
+   "kid": {
+    "he": "פוליטיקאי בישראל קיבל תפקיד לנסות להקים ממשלה חדשה. זה משפיע על השווקים והמניות בישראל.",
+    "en": "An Israeli politician was given the job to try to form a new government. This can impact Israeli stocks and markets.",
+    "ar": "تم تكليف سياسي إسرائيلي بمحاولة تشكيل حكومة جديدة. هذا يمكن أن يؤثر على الأسهم والأسواق الإسرائيلية.",
+    "ru": "Израильскому политику поручено сформировать новый кабинет министров. Это влияет на израильский рынок акций."
+   }
+  },
+  "category": "policy",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3hRaUV5SDdRYm1qU3ZIVmVTbWd2WGpFOXZ0QTlqMDNGRlhRN1R6cVhseDVWc1ZBT0tNalJyX21kTTJ6MEhoNkI2dEJ3aGRYWWJmMTl6dURGZ19ndVhpOVhXVUdWMndtZzR4SVlEdnpRN3E4Wkx6aWFoZEE5RXFqb2QtMnNaWXZ5T0JSZkU2NTBrQlJHcGlfY3hKejlmZDRSZ05TUC1SS1pSRmxQN2V0WURFS0xkNDdxeHRiSnhjbVNrSzQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EZjFxb2Ryb09DSVpJdDVTN3JrTlhDTVF1MjdESG95dnp6SVpDbHBfUVlNSzVTZlBWMURhdnZGLTYxbUFaQVBsSHNhZm1kS3djT3UyekV1UEVnZkQyTG9ObUUxVmhBVVYz?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHIwVVZqTlgycHFJTEhPM3g1WU5oWWtKelZsNW5aUEphdmpDRC1STjMxQmYyYjR5dkNZUVFiVFBfZ3J1Nm9HN0RmM25pOUlTMWJkWGZuVktLV3h5QkNmdEtrbUt5X2NBYXFuZC04TzhPZUJWLWVJeWJMM256ZWIxRENRczhNdEtIa2I2aF85VzJUejZMa1ZvVEFSZXZCQWJtZU1nTnBvaVl4cmNJTEhfcWpCNTFjMmotS090TzE1eXc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNmMzQUdtcVdKUXdTZGU4RUR2UW5ZMzlSMGRBMGRCcEFicnVlRFFtV1JNZWlTeVZ6c1MxWmRfOThPNVZpVEoySzdhZGhiUHN4cGItTkU1eW1JcXIyWGVhZDhNQ3k5LTVGeVgwWWYwZTNCR1hsaWtyMVJXWk9LMkszblY4bmRzWS1IbzVBaVFuVTVaaUUxa2tKVk9BYTA0NEJxRVRQRVUyVmxWa3ZSX24tNXNjQnVXQlVBQU8zSmJxOHlqb3NsVTdsUF83R0h2SmRFUllnWHRldEZHU1Bla2VZcG5zS1QzV21fNnlGUTRlMWJzQV9iZnlNdVNWeDRDdzc3S0NHazF3eDR6Sm9nakpUSkVB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EIS",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "שינויים פוליטיקים ויציבות שלטונית משפיעים על סנטימנט המשקיעים במניות ישראל.",
+    "reason_i18n": {
+     "he": "שינויים פוליטיקים ויציבות שלטונית משפיעים על סנטימנט המשקיעים במניות ישראל.",
+     "en": "Political developments and leadership shifts influence investor sentiment toward Israeli assets.",
+     "ar": "التطورات السياسية وتغيرات القيادة تؤثر على معنويات المستثمرين تجاه الأصول الإسرائيلية.",
+     "ru": "Политические изменения влияют на настроения инвесторов в отношении израильских активов."
+    },
+    "name_i18n": {
+     "he": "EIS - קרן סלי מניות ישראל",
+     "en": "EIS - MSCI Israel ETF",
+     "ar": "EIS - صندوق المؤشرات المتداولة لإسرائيل",
+     "ru": "EIS - ETF израильских акций"
+    },
+    "price_at_alert": 111.48
+   }
+  ],
+  "id": "2f14322ecb66"
+ },
+ {
+  "ts": 1794081492,
+  "time": "2026-11-07T19:58Z",
+  "title": "הודו מאשרת ייצור המוני של תותחי ATAGS בסך מיליארדים",
+  "summary": "הודו אישרה ייצור המוני של 307 תותחי ATAGS, כאשר שותפות מקומיות יחלקו את החוזה ארוך הטווח.",
+  "kid": "הצבא בהודו הזמין המון תותחים חדשים מחברות מקומיות. זה מחזק את תחום הביטחון והתעשייה שם.",
+  "i18n": {
+   "title": {
+    "he": "הודו מאשרת ייצור המוני של תותחי ATAGS בסך מיליארדים",
+    "en": "India clears bulk production of ATAGS howitzers",
+    "ar": "الهند توافق على الإنتاج الضخم لمدافع ATAGS",
+    "ru": "Индия одобрила серийное производство гаубиц ATAGS"
+   },
+   "summary": {
+    "he": "הודו אישרה ייצור המוני של 307 תותחי ATAGS, כאשר שותפות מקומיות יחלקו את החוזה ארוך הטווח.",
+    "en": "India has cleared bulk production for 307 ATAGS howitzers, with local partners sharing the long-term contract.",
+    "ar": "وافقت الهند على الإنتاج الضخم لـ 307 مدافع من طراز ATAGS، حيث سيتقاسم شركاء محليون العقد طويل الأجل.",
+    "ru": "Индия одобрила крупносерийное производство 307 гаубиц ATAGS с участием местных подрядчиков."
+   },
+   "kid": {
+    "he": "הצבא בהודו הזמין המון תותחים חדשים מחברות מקומיות. זה מחזק את תחום הביטחון והתעשייה שם.",
+    "en": "The Indian army ordered a large batch of artillery from local defense firms, boosting the defense sector.",
+    "ar": "طلب الجيش الهندي دفعة كبيرة من المدفعية من شركات دفاع محلية، مما يعزز قطاع الدفاع.",
+    "ru": "Индийская армия заказала крупную партию артиллерии у местных оборонных компаний, что поддерживает сектор."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQ0hmaHVtZEdpSkRON1VSbDV5RlZIeXNRR1VyODVDUlRmYzlMY3BxNFpDaldobTdwTHR6OHNBb2NHM0tLWHpfMG9pcmR3Rlc0TWVTRmRvcDNVYkNXRDdHamtNdDFETGZvSVlFTXh3MWdCNWhPQ1RaRlJzQzVkZU5UMDZFUHlzc1hXRWhkcV9ZaV81eWxQVnVWTDZYY2d1ek05cjFPMVVwem5mNlFzSHpCbDBPd1k3SHFUcmQ3LTY5Y1FVRlFoVEdvRU5UVFlMOVRkV19sdThFLUhKXzRvOFRZOEdmUVVRVkQ1dGJMR3h1NUNVcmRUeXZn?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "הזמנות ענק ביטחוניות גלובליות מחזקות את הסנטימנט החיובי בכל סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "הזמנות ענק ביטחוניות גלובליות מחזקות את הסנטימנט החיובי בכל סקטור הביטחון.",
+     "en": "Global defense procurement momentum supports positive sentiment across the defense sector.",
+     "ar": "زخم مشتريات الدفاع العالمية يدعم المعنويات الإيجابية عبر قطاع الدفاع.",
+     "ru": "Глобальный импульс оборонных закупок поддерживает позитивные настроения в оборонном секторе."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סלי תעופה וביטחון בארה\"ב",
+     "en": "ITA - US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.98
+   }
+  ],
+  "id": "e1dc3f91fabe"
+ },
+ {
+  "ts": 1794081492,
+  "time": "2026-11-07T19:58Z",
+  "title": "מתקפת סייבר על אוניברסיטת יורק הביאה לגניבת מידע רגיש",
+  "summary": "אוניברסיטת יורק נפגעה במתקפת סייבר שבה נגנבו תעודות מזהה ממשלתיות ומידע פיננסי של סטודנטים וסגל.",
+  "kid": "האקרים פרצו למערכות של אוניברסיטה וגנבו מידע אישי וכספי. זה מראה כמה חשוב להשקיע באבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר על אוניברסיטת יורק הביאה לגניבת מידע רגיש",
+    "en": "York University cyberattack results in stolen IDs and financial data",
+    "ar": "هجوم سيبراني على جامعة يورك يسفر عن سرقة بيانات حساسة",
+    "ru": "Кибератака на Йоркский университет привела к краже личных данных"
+   },
+   "summary": {
+    "he": "אוניברסיטת יורק נפגעה במתקפת סייבר שבה נגנבו תעודות מזהה ממשלתיות ומידע פיננסי של סטודנטים וסגל.",
+    "en": "York University suffered a cyberattack where government IDs and financial information were stolen.",
+    "ar": "تعرضت جامعة يورك لهجوم سيبراني سرقت خلاله وثائق هوية حكومية ومعلومات مالية.",
+    "ru": "Йоркский университет подвергся кибератаке, в результате которой были похищены удостоверения личности и финансовые данные."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות של אוניברסיטה וגנבו מידע אישי וכספי. זה מראה כמה חשוב להשקיע באבטחת מידע.",
+    "en": "Hackers breached a university's computer systems and stole personal and financial records, highlighting cyber security needs.",
+    "ar": "اخترق قراصنة الأنظمة الحاسوبية للجامعة وسرقوا سجلات شخصية ومالية، مما يسلط الضوء على أهمية الأمن السيبراني.",
+    "ru": "Хакеры взломали компьютерные системы университета и похитили личные данные, подчеркивая важность кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTmk0NVRBal8tS3hKRjVUUGxLd2h0VjZvTDhxVUlPWFZaN2Q3RW14NGFIX0ZSZFAtTnNrSjEzcFpDbXhVWER1YktfbDVNTVA3cF8wR20xSElCemFxTmFKS2FwUmUwR2d1UnB0Yms5NUxrNEZYQm0wNGVhdWRUdTZZRExCeEo0UExOQTVYUXZjUXRnSlh5V1ZSSmt0VmZSbEwwbkJHbi15U0MxWGtTVDdSRlkzWEtTa1FvaVlrTnlLOGhfQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794081492,
+    "reason": "פריצות סייבר חוזרות ונשנות מדגישות את הביקוש הגבוה לפתרונות הגנה ואבטחת מידע.",
+    "reason_i18n": {
+     "he": "פריצות סייבר חוזרות ונשנות מדגישות את הביקוש הגבוה לפתרונות הגנה ואבטחת מידע.",
+     "en": "Frequent high-profile cyber breaches underscore strong ongoing demand for enterprise security solutions.",
+     "ar": "تؤكد الاختراقات السيبرانية المتكررة على الطلب القوي المستمر على حلول الأمان المؤسסי.",
+     "ru": "Частые кибератаки подчеркивают высокий спрос на корпоративные решения безопасности."
+    },
+    "name_i18n": {
+     "he": "CRWD - קראודסטרייק (אבטחת סייבר)",
+     "en": "CRWD - CrowdStrike Cybersecurity",
+     "ar": "CRWD - كراودسترايك للأمن السيبراني",
+     "ru": "CRWD - CrowdStrike кибербезопасность"
+    },
+    "price_at_alert": 216.9
+   }
+  ],
+  "id": "5ba2a683ec14"
  }
 ]
