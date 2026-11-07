@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T23:51Z",
+ "generated": "2026-11-07T00:54Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 357,
+ "total_alerts": 363,
  "overall": {
   "n": 422,
   "hits": 187,
@@ -78,13 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן סל על נפט",
-    "en": "USO – crude oil fund",
-    "ar": "صندوق النفط الخام"
+    "he": "סל מחירי הנפט הגולמי",
+    "en": "United States Oil Fund",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "ETF нефтяного фонда"
    },
    "avg_edge": -0.02
   },
@@ -136,25 +137,26 @@
    "avg_edge": -1.01
   },
   "XLP": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 4,
    "hits": 0,
    "name": {
-    "he": "קרן מוצרי צריכה בסיסיים",
+    "he": "סל מוצרי צריכה בסיסיים",
     "en": "Consumer Staples ETF",
-    "ar": "صندوق السلع الاستهلاكية الأساسية",
-    "ru": "ETF потребительских товаров первой необходимости"
+    "ar": "صندوق قطاع السلع الاستهلاكية الأساسية",
+    "ru": "ETF товаров повседневного спроса"
    },
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 54,
+   "mentions": 56,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "קרן סל על תעופה וביטחון",
-    "en": "ITA – aerospace & defense ETF",
-    "ar": "صندوق قطاع الطيران والدفاع"
+    "he": "סל מניות תעופה וביטחון בארה\"ב",
+    "en": "US Aerospace & Defense ETF",
+    "ar": "صندوق قطاع الفضاء والدفاع الأمريكي",
+    "ru": "ETF аэрокосмического и оборонного сектора США"
    },
    "avg_edge": -6.21
   },
@@ -195,14 +197,14 @@
    "avg_edge": -0.05
   },
   "XLK": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "XLK – קרן סל טכנולוגיה",
-    "en": "XLK – Technology Sector ETF",
-    "ar": "XLK - صندوق قطاع التكنولوجيا",
-    "ru": "XLK – ETF технологического сектора"
+    "he": "סל סקטור הטכנולוגיה",
+    "en": "Technology Select Sector SPDR Fund",
+    "ar": "صندوق قطاع التكنولوجيا",
+    "ru": "ETF технологического сектора"
    },
    "avg_edge": 1.51
   },
@@ -231,14 +233,14 @@
    "avg_edge": -0.08
   },
   "KRE": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 6,
    "hits": 4,
    "name": {
-    "he": "KRE - קרן סל בנקים אזוריים",
-    "en": "KRE - Regional Banks ETF",
-    "ar": "KRE - صندوق البنوك الإقليمية",
-    "ru": "KRE - фонд региональных банков"
+    "he": "סל בנקים אזוריים בארה\"ב",
+    "en": "US Regional Banks ETF",
+    "ar": "صندوق البنوك الإقليمية الأمريكية",
+    "ru": "ETF региональных банков США"
    },
    "avg_edge": 0.31
   },
@@ -278,14 +280,14 @@
    "avg_edge": -0.42
   },
   "TLT": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 8,
    "hits": 6,
    "name": {
-    "he": "אג\"ח ממשלתיות ארוכות",
-    "en": "Long-term US Treasury bonds",
-    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "Долгосрочные казначейские облигации США"
+    "he": "סל אג\"ח ממשלתי ארוך",
+    "en": "Long-term US Treasury ETF",
+    "ar": "صندوق سندات الخزانة طويلة الأجل",
+    "ru": "ETF длинных гособлигаций США"
    },
    "avg_edge": 1.27
   },
@@ -350,14 +352,14 @@
    "avg_edge": -0.63
   },
   "QQQ": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 10,
    "hits": 3,
    "name": {
-    "he": "QQQ – קרן סל נאסד\"ק 100",
-    "en": "QQQ – Nasdaq 100 ETF",
-    "ar": "QQQ - صندوق ناسداك 100",
-    "ru": "QQQ – ETF индекса Nasdaq 100"
+    "he": "סל מניות נאסד\"ק 100",
+    "en": "Nasdaq 100 ETF",
+    "ar": "صندوق ناسداك 100",
+    "ru": "ETF индекса Nasdaq 100"
    },
    "avg_edge": -0.58
   },
@@ -410,14 +412,14 @@
    "avg_edge": 0.12
   },
   "EWC": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 6,
    "hits": 5,
    "name": {
-    "he": "EWC – קרן סל קנדה",
-    "en": "EWC – Canada ETF",
-    "ar": "EWC - صندوق كندا المتداول",
-    "ru": "EWC – ETF канадского рынка"
+    "he": "סל מניות קנדה",
+    "en": "iShares MSCI Canada ETF",
+    "ar": "صندوق أسهم كندا",
+    "ru": "ETF рынка Канады"
    },
    "avg_edge": 0.78
   },
@@ -494,14 +496,14 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 4,
    "hits": 4,
    "name": {
-    "he": "מגזר הפיננסים",
+    "he": "סל מניות פיננסים",
     "en": "Financial Sector ETF",
     "ar": "صندوق القطاع المالي",
-    "ru": "ETF на финансовый сектор"
+    "ru": "ETF финансового сектора"
    },
    "avg_edge": 1.69
   },
@@ -890,14 +892,14 @@
    "avg_edge": 6.21
   },
   "KSA": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "KSA – קרן סל סעודיה",
-    "en": "KSA – iShares MSCI Saudi Arabia ETF",
-    "ar": "KSA – صندوق الاستثمار المتداول للسعودية",
-    "ru": "KSA – ETF Саудовской Аравии"
+    "he": "סל מניות סעודיה והמפרץ",
+    "en": "Saudi Arabia & Gulf ETF",
+    "ar": "صندوق أسهم السعودية والخليج",
+    "ru": "ETF рынка Саудовской Аравии и Персидского залива"
    },
    "avg_edge": -4.02
   },
