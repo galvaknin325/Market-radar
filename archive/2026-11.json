@@ -31448,7 +31448,12 @@
   "category": "macro",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEpQYjFsakpHSmZJTUtZRVlkemZYTk5VczZhN0JyMGlERU83N3huX2p5ZGpLdTJOdWY2NXBmckRQc2RfWFlHd29QVEc4QVlma19CSDJsMzZZN0t2RWJWd0o2TnVmdWlickdEVlFuLWNlbWtkLUVCOHZWbWlPd1pIVm8tcGtwMVBic2ZDem5Za1ZkREFLVHNIbHNTQlIzcDdSaGRCdkxiT0xVRjFvOXY5Zg?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -31487,9 +31492,62 @@
      "ru": "Долгосрочные казначейские облигации США"
     },
     "price_at_alert": 81.98
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "נתונים חזקים וציפיות לריבית גבוהה מחזקים את מטבע הדולר.",
+    "reason_i18n": {
+     "he": "נתונים חזקים וציפיות לריבית גבוהה מחזקים את מטבע הדולר.",
+     "en": "Strong macro data and high-rate expectations strengthen the US currency.",
+     "ar": "البيانات الاقتصادية القوية وتوقعات الفائدة المرتفعة تقوي العملة الأمريكية.",
+     "ru": "Сильные макроданные и ожидания высоких ставок укрепляют американскую валюту."
+    },
+    "name_i18n": {
+     "he": "UUP – קרן סל העוקבת אחר מדד הדולר האמריקאי",
+     "en": "UUP – Invesco DB US Dollar Index Bullish Fund",
+     "ar": "UUP - صندوق مؤشر الدولار الأمريكي",
+     "ru": "UUP — ETF индекса доллара США"
+    },
+    "price_at_alert": 29.13
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1794028876,
+    "reason": "דולר חזק וריביות גבוהות מקשים על מחירי הזהב שאינם נושאים תשואה.",
+    "reason_i18n": {
+     "he": "דולר חזק וריביות גבוהות מקשים על מחירי הזהב שאינם נושאים תשואה.",
+     "en": "A stronger dollar and high yields pressure non-yielding gold prices.",
+     "ar": "الدولار الأقوى والعوائد المرتفعة تضغط على أسعار الذهب التي لا تدر عائداً.",
+     "ru": "Более сильный доллар и высокие доходности давят на цены золота, не приносящего доход."
+    },
+    "name_i18n": {
+     "he": "GLD – קרן סל העוקבת אחר מחירי הזהב",
+     "en": "GLD – SPDR Gold Shares",
+     "ar": "GLD - صندوق أسهم الذهب",
+     "ru": "GLD — фонд золота"
+    },
+    "price_at_alert": 372.52
    }
   ],
-  "id": "d3b74d0c4a9f"
+  "id": "d3b74d0c4a9f",
+  "updates": [
+   {
+    "ts": 1794028876,
+    "time": "2026-11-07T05:21Z",
+    "severity": 5,
+    "summary": "שער הדולר האמריקאי רשם עליות על רקע נתונים המצביעים על חוסן כלכלי בארה\"ב וציפיות למדיניות מוניטרית נוקשה מצד הפדרל רז.",
+    "i18n": {
+     "he": "שער הדולר האמריקאי רשם עליות על רקע נתונים המצביעים על חוסן כלכלי בארה\"ב וציפיות למדיניות מוניטרית נוקשה מצד הפדרל רז.",
+     "en": "The US dollar advanced following data showing strong US economic momentum and expectations of a hawkish Federal Reserve stance.",
+     "ar": "ارتفع الدولار الأمريكي في أعقاب بيانات تظهر قوة الزخم الاقتصادي الأمريكي والتوقعات بموقف متشدد من الفيدرالي.",
+     "ru": "Доллар США вырос на фоне данных о сильном экономическом импульсе и ожиданий жесткой позиции ФРС."
+    }
+   }
+  ],
+  "last_update": 1794028876
  },
  {
   "ts": 1793995495,
@@ -31736,6 +31794,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdU1DZ1ZyaFg1eEQ4YjFfWkozWWExNW5hMERETjQ1cGlwWmlVcC1GUElfM0ppeTJCNDd1T29HTXN0SzkwY2tSZHVlSHRfZ3dsWWhES3BubWxWc2hqbDlSanFKY3k2MkhaOTBzMUhzQkdyUDNSMWZiUklidjBTTk1NZHdXRnBzTmpQakJrUzNNRTNRYnFBYUYyUFBrSQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxON3g3bGNFcnp1Vk44Y3FReEg0OG0tUFdMOC01cmlOeGFWV0FaUGRQTFc1aTl5Z0JnUThoa1NibnRTMHdyM0pSM3JES3dtWnZiTjMtYTBUbTNhcUxrdjRwNjVUd3ZvSWFpYXQyeE01RjN4ZXZMZENsSXVZeW9YT1VTeXNQYlBSekVwTGlBekpaMWRFYUlFTzh3Z2JDLUdZZ3pBOG5pX1FPODQ0cmhONC13QjNFdjJIbG5hWXp4QWNTWjJGeTA1d194TGxEWkVWNjBKaVVvVzF3SkFSVXdPTmlvTllTTzJwVjVWVFIzNUF5c1h2V04yZEpBeVdXemIxZ9IBgwJBVV95cUxONXRrMVFkcFhxejh4dFBicHJJQkhfNVhVeFI3cWdXNjlKSEZ5OEEzZms4NWkySGk3WnRqQTk2OTVHN09VMDNuUDJFYW9zNEs3bHUwYi1vamhfYlFtUXZYVDBPTll2QWpia0U2aXp5SFpESzlVbHFGUVJTdzFObWFHWUZCdnhURldlNUdFcDRMX25qTHZXOC1mczQ5dF9hMXlJY0lSTlVzU3d2SWxRTWdJNlo0VDJ0NzBUdUJWa09MOGxXVjJIRDQxMHBPamE1OXRfX01mVVduelNtYXlkWmN2aXFsVkVtOVU5UkxwNGpoM3lvaDlBbGlUU2RhQ3NuMTd4bVh3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeXJVV09fZlpneEdFbDdQbDVKQ0RYMzN6blpRZ3BnZ3RNZWg1ZnFaY0QwcW1UNmxfRTZObVdjNnQybWRkS29nTlBMNnBfTEw1MnhDMllJdHc4Vks2OWtEamxrbFYwM2I3RGwtVThyU2NSbDZ1UjBBaFR6YWxjTHRha1ZPb1dpdmw5dEVEUFdPejNqanNzcWRHZlBvUGtRelE?oc=5"
    }
   ],
   "impacts": [
@@ -31776,9 +31842,43 @@
      "ru": "RTX – аэрокосмическая и оборонная компания"
     },
     "price_at_alert": 189.54
+   },
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "השקעות מוגברות בהתחמשות ימית ואווירית ברחבי העולם.",
+    "reason_i18n": {
+     "he": "השקעות מוגברות בהתחמשות ימית ואווירית ברחבי העולם.",
+     "en": "Increased investments in naval and aerial armaments worldwide.",
+     "ar": "زيادة الاستثمارات في التسليح البحري والجوي في جميع أنحاء العالم.",
+     "ru": "Увеличение инвестиций в морские и воздушные вооружения по всему миру."
+    },
+    "name_i18n": {
+     "he": "XAR – קרן סל לתעשיות תעופה וביטחון בארה\"ב",
+     "en": "XAR – SPDR S&P Aerospace & Defense ETF",
+     "ar": "XAR - صندوق الاستثمار المتداول للطيران والدفاع",
+     "ru": "XAR — ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 224.02
    }
   ],
-  "id": "a84a09a7cc87"
+  "id": "a84a09a7cc87",
+  "updates": [
+   {
+    "ts": 1794028876,
+    "time": "2026-11-07T05:21Z",
+    "severity": 4,
+    "summary": "איראן מאיצה בניית בסיסי טילים תת-קרקעיים כדי להתחמק מתקיפות, ובמקביל החלו בבניית פריגטה חדשה לצי הפיליפיני במסגרת הידוק ההגנה האזורית.",
+    "i18n": {
+     "he": "איראן מאיצה בניית בסיסי טילים תת-קרקעיים כדי להתחמק מתקיפות, ובמקביל החלו בבניית פריגטה חדשה לצי הפיליפיני במסגרת הידוק ההגנה האזורית.",
+     "en": "Iran is accelerating underground missile base construction to evade strikes, while HD Hyundai began building a new guided-missile frigate for the Philippine Navy.",
+     "ar": "تسرع إيران في بناء قواعد صواريخ تحت الأرض لتجنب الضربات، بينما بدأت شركة HD Hyundai في بناء فرقاطة جديدة للبحرية الفلبينية.",
+     "ru": "Иран ускоряет строительство подземных ракетных баз во избежание ударов, в то время как HD Hyundai начала строительство нового фрегата для ВМФ Филиппин."
+    }
+   }
+  ],
+  "last_update": 1794028876
  },
  {
   "ts": 1793998756,
@@ -32293,6 +32393,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWmdqQWZzVVV4ZWVsa3ZOVndxWU1QeDZNTV9YdGJjYmEtZmdlTTRqbHFlRXlmZmRsMFB4ejV4aUtTWHdRT0daTzFiZ1NPQ05LY2NCOHc3MzRMc3RtaENxT2VfWkI5QlhSTmEwdVdUMlI2a1d4cmU2SkRFSU1ySl9OZG1nR01TNHR4aTYwbFh3b2d2bk9hWTNXcGt1cHFYcjFtYUVwNFZnLWJGUXllQ1pKS9IBtgFBVV95cUxNUU05b0QwNmZBSFA2WDhWVmJHX0pxUXZiWF9CZjJySEZxOTNzeEdOQ3dxeHF5cm5XOW44VHY1TTcwaTAzTUVKRHBBYWp1dHJSSkJVY2hzd1NQb2ZCSzlmUTNPbXZIVTc2RjRYQnkzellFbzc0NGRyWm9hcmVISTBPczQ4SkJpM21jNlhZRzUyNXFhcUs4TVR5ZFpyQVJnVmk4aVkwMnpkdXNpODFGZEhjOWNGd3lXZw?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -32348,9 +32452,21 @@
      "ar": "فرضت الولايات المتحدة عقوبات على ثماني شركات خدمات مالية في كندا بدعوى تمكين الشبكات المالية للنظام الإيراني.",
      "ru": "США ввели санкции против восьми канадских компаний за поддержку финансовых сетей иранского режима."
     }
+   },
+   {
+    "ts": 1794028876,
+    "time": "2026-11-07T05:21Z",
+    "severity": 4,
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על שמונה חברות להמרת כספים בקנדה בטענה שסייעו לגופים איראניים מורשעים והעבירו כספים הקשורים לסחר בסמים.",
+    "i18n": {
+     "he": "משרד האוצר האמריקאי הטיל סנקציות על שמונה חברות להמרת כספים בקנדה בטענה שסייעו לגופים איראניים מורשעים והעבירו כספים הקשורים לסחר בסמים.",
+     "en": "The US Treasury sanctioned eight Canadian money exchange firms for allegedly aiding sanctioned Iranian entities and handling funds tied to drug trafficking.",
+     "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على ثماني شركات صرافة كندية بدعوى مساعدتها لكيانات إيرانية خاضعة للعقوبات ومعاملة أموال مرتبطة بتهريب المخدرات.",
+     "ru": "Минфин США ввел санкции против восьми канадских обменных компаний за предполагаемое содействие подпавшим под санкции иранским структурам и отмывание наркотиков."
+    }
    }
   ],
-  "last_update": 1794012872
+  "last_update": 1794028876
  },
  {
   "ts": 1794003874,
@@ -32466,6 +32582,14 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY1NQbGhDdzBnZUVPRWxZMzdCdlUxcTdxTlhaVXYwclNRTm92UXdGanlUVmpxQUczWFItME5kaWp3NWFKVDZUWW5GVlowUnFrYktvOEdvYTNlclhVRUQxbWlia18zQW1RRzhJMlhoRjE3b2xIdlllYXZCSm5BUTR1SFdudTNfS0ZRWUtjenNLS0NwOUMyN0gtb3JkX0NQaE1EdjluMkI3aFhscEplOWVXM0FIZTI4N3IxV3pLWGhsNUZLUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXdJZWR4cGl5Y3VQYlZncEMtUnZVNEgtS25TRjNlT1BfdHZleGJQN1M5ZmFUOVU0cUNYLUVpbDl0QWp5czd2SldoWFB2Zi03YlA1WFhFeXowUHk5NVZmUFlyd3MzcHpEaDFwQUt4Z0tjeDBjODQtSzZ1TThWNzlPOHlEM3lqQ2EydFFYS29rVnZ2ZUZpVHZfYlRIcDRrZkIyMzdxUTJoY1JYWDltQ3hDcl9mRTQ1VHVVTXcxUTN30gHDAUFVX3lxTE9kYXYzYl9pOF9HU0p2WWd6eEFPby1POGRVNm5JUVhGRjF6aldGSndyck9JSHpLUTVrbGgtdllyODhyMW5IaGFUWnIwb0xiWjlUTlpvd3E4RjNQNE5WTkJZMWtlR0REbVRXcUNDZVdhTmwzRHd2RjVRNUZQQlg1MjdOSVFTOXNWTW9CdzlqLWcyRVdSUFZKSHpSZzhDaHlmcTJvS1F2eDU5cGFFMzB2c0xCRmNibnJPOFo1LWpzNjVVN3VCUQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM25GYU1zVE1zcXFoYklyOTZ6VnpPZmFvVG4wOWFkRUYwTHBrS21sOEdaa0JzTVVYdlZvcUtzNGsxMUhFVFpvOGp6QU0wcmxBVHBPUmtES2kyNTBBUFI1VjZCNlZxSVVqdWtQWUpfVEhFb25hUzZBVklvRC13Vjd2cU8zeFQ5dUl1SmQ5WThB?oc=5"
    }
   ],
   "impacts": [
@@ -32508,7 +32632,22 @@
     "price_at_alert": 735.29
    }
   ],
-  "id": "a5f554abd68c"
+  "id": "a5f554abd68c",
+  "updates": [
+   {
+    "ts": 1794028876,
+    "time": "2026-11-07T05:21Z",
+    "severity": 5,
+    "summary": "בייג'ינג הצהירה כי תשיב מלחמה נגד סנקציות אמריקאיות המכוונות נגד חברות סיניות, בעוד ארה\"ב דורשת מסין לעמוד בהתחייבויות הסחר מתווך בוסאן.",
+    "i18n": {
+     "he": "בייג'ינג הצהירה כי תשיב מלחמה נגד סנקציות אמריקאיות המכוונות נגד חברות סיניות, בעוד ארה\"ב דורשת מסין לעמוד בהתחייבויות הסחר מתווך בוסאן.",
+     "en": "Beijing vowed to hit back against US sanctions targeting Chinese companies, while Washington urged China to uphold its Busan trade deal commitments.",
+     "ar": "تعهدت بيجين بالرد على العقوبات الأمريكية التي تستهدف الشركات الصينية، بينما حثت واشنطن الصين على الالتزام باتفاقية بوسان التجارية.",
+     "ru": "Пекин пообещал дать отпор санкциям США против китайских компаний, а Вашингтон призвал Китай выполнять торговые обязательства по соглашению в Пусане."
+    }
+   }
+  ],
+  "last_update": 1794028876
  },
  {
   "ts": 1794006839,
@@ -33231,15 +33370,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZVkxaUdCbi0yRFdzQW1BUkRnbTVhcE5ROENmaUVXN0hDMG9pZThDS3hueHFFNHQ0d19MZDZodDV3VWdYT2IwOVZWYkhpbEljQnk4UGhjWS1CVlBFQXRYRUlHN0hnQjZUbWtRVlVOdEVBelBRNnhCYkloOHRQOVh2RUFSZWJDeEZyeGtjX3A5MmJ4Vm1lQ3oyNENR?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZzBQMzJZcld6X2tIRk1IaFB5R25sWEo2VnpOc0k5TkFLVERiN2s1YUFNd0VSYUp4LUZtSTh3ajlieUplZV9lMjgtY0ZHbHNKSGtFaGdFSll1bXdXdTdRalc0aXVtdXBsRDg2c0J3dUF3ZjhCYlpNNTYweHJNYUdUYklaNFowdU5jSWJ1N0t6aU9tbmpveEw5RzJFZS1fejJiV2RNemkyNGZyNXk1MzdNLUNHcDhYQkw5eGJIXzFXa2s?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVGhCNTc0bjdqTkxuZDdtOFpCZVd1TEdDQnpURXNYeGY1ZG9saHUyZGFBbTMzWF8zbzBmOHQyeERTMTlWaUo1eUVXdjAyUENTaEkwbGNsb2xteDdxWXFybS1GcjlKWWl4VU4xUGdVdk9wSE1PM3NSTktvYWRINUpESnp4bDJqMkhzR21ySDZKWVVBbzJ5NHpDeDJFNFh5MDdGcEpWbEkzU2dFWFZBVWhxR0pR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV2dldG1kWEpfakpLWGh5STYyWUZzRUd6bk04Nnctay1rbDRDRXE3cmV1ek5fTmpzZjdob0djTWk3T2ZfU1BrbDBEZnVla1VVTnJYblpzWjJsSEZjS0lCVkpqeDZkemtuUm5YZENxZ2hLdjQxWmVZTU9xMkVpTUtmN3NGS2dyVFptdkNxd0l6N0xXWURUTjUyOWRtQW1xSXPSAaQBQVVfeXFMUFJYbXBPWTFBYjgxT1dKcnNZV0JrUnJNSTg3RFBzcW5ySEJObUk3QmI2b2FERjlhWlRxVm92TWUtWkEzd0YzU2RzN0laZXVTNlZGYkN3TlpTV1VjaGo4dlBtbjJuNldFZGVHLXdFaHJRZEVqUG04Tl9XOU51ZVZXUnV1Ny1lcHFEVG1jUmU3NGM3R0xTVGZRZnh5UlU5ekl1MlRkS0c?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVDJCMS1mLUwzS19lVkRzLW5DakpNWkYyR0xtYk5MYXlnX1FxNnVKSzAzZ2tNdGdybkNYam5xcDRkbXhFbTRqS0lVMXg0T1lERkRRbVpkbWtBQzhkZnYtczRaemxtWVItU05JU01lMThpWGwyT1A0V005Sy1aZFVwX2RjQmlJU3RlNVVZb285ejB2eFBHd1d0ekloWW5xTVk0MUlTaG9yUVdERGlLU0drQjZQYzd5ME1R?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcU5iaUpyMWs5OTRySldKSnh6TnhKTDh0azNJTlRvSnNNai1obGVoMGZGVE9NaUI5RXZDVnRHeVpDT19UVFZaeGRLbDR1NjFJOEdGQkFPV1g3RXF5bUk0TG1CWW9HWk1pNDVkUzE2MGlJaF9rejVrVlozU1JzRGh2OEFvaENpQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTFOLUpmcGRGSWFqVkFPSDNDbWxwWGtHX0JURXV6ZkVNcFJZSl93WUxnbDBEVmxiV2s4Z1lYQkwwbTJuTXFMRVE2b3hCVUNMR3o0dWpjdUZ4dzdpMXdvRnQyclhQUFg5WFZZWFhtSm01NWRnV0NSMVBSR25IaFd6dVB2T1pMUzVsRTJSQnNUQ0oxbjcyRnY0dlZyay00b28?oc=5"
    }
   ],
   "impacts": [
@@ -33280,9 +33431,62 @@
      "ru": "Lockheed Martin - Оборонная компания"
     },
     "price_at_alert": 567.08
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "הסלמה גיאופוליטית באירופה מגבירה את החשש לשיבושים באספקת אנרגיה.",
+    "reason_i18n": {
+     "he": "הסלמה גיאופוליטית באירופה מגבירה את החשש לשיבושים באספקת אנרגיה.",
+     "en": "Geopolitical escalation in Europe heightens fears of energy supply disruptions.",
+     "ar": "التصعيد الجيوسياسي في أوروبا يثير المخاوف بشأن اضطرابات إمدادات الطاقة.",
+     "ru": "Геополитическая эскалация в Европе усиливает опасения перебоев с поставками энергии."
+    },
+    "name_i18n": {
+     "he": "USO – קרן סל העוקבת אחר מחירי הנפט הגולמי",
+     "en": "USO – United States Oil Fund",
+     "ar": "USO - صندوق النفط الأمريكي",
+     "ru": "USO — фонд нефтяного рынка США"
+    },
+    "price_at_alert": 148.41
+   },
+   {
+    "ticker": "WEAT",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "החמרת הלחימה באוקראינה מעוררת חששות לפגיעה בייצוא התבואה.",
+    "reason_i18n": {
+     "he": "החמרת הלחימה באוקראינה מעוררת חששות לפגיעה בייצוא התבואה.",
+     "en": "Worsening fighting in Ukraine raises concerns over grain export disruptions.",
+     "ar": "تفاقم القتال في أوكرانيا يثير مخاوف بشأن تعطيل صادرات الحبوب.",
+     "ru": "Ухудшение боевых действий в Украине вызывает опасения по поводу срыва экспорта зерна."
+    },
+    "name_i18n": {
+     "he": "WEAT – קרן סל העוקבת אחר מחירי החיטה",
+     "en": "WEAT – Wheat Fund",
+     "ar": "WEAT - صندوق القمح",
+     "ru": "WEAT — фонд цен на пшеницу"
+    },
+    "price_at_alert": 21.73
    }
   ],
-  "id": "5a231843f720"
+  "id": "5a231843f720",
+  "updates": [
+   {
+    "ts": 1794028876,
+    "time": "2026-11-07T05:21Z",
+    "severity": 6,
+    "summary": "כוחות רוסיים ביצעו מתקפת טילים נרחבת על קייב והסביבה, גרמו לפיצוצים, נזקים למבנים ופצעו תושבים מקומיים.",
+    "i18n": {
+     "he": "כוחות רוסיים ביצעו מתקפת טילים נרחבת על קייב והסביבה, גרמו לפיצוצים, נזקים למבנים ופצעו תושבים מקומיים.",
+     "en": "Russian forces launched a large-scale missile attack on Kyiv and surrounding areas, causing explosions, building damage, and injuring local residents.",
+     "ar": "شنتا القوات الروسية هجوماً صاروخياً واسع النطاق على كييف والمناطق المحيطة بها، مما أدى إلى وقوع انفجارات وأضرار في المباني وإصابة السكان المحليين.",
+     "ru": "Российские силы нанесли масштабный ракетный удар по Киеву и окрестностям, вызвав взрывы, повреждения зданий и ранения местных жителей."
+    }
+   }
+  ],
+  "last_update": 1794028876
  },
  {
   "ts": 1794016518,
@@ -33894,5 +34098,279 @@
    }
   ],
   "id": "2cff6479c796"
+ },
+ {
+  "ts": 1794028876,
+  "time": "2026-11-07T05:21Z",
+  "title": "אזהרה: עימות פוטנציאלי בטייוואן עלול לפגוע בכלכלה העולמית יותר ממגיפת הקורונה",
+  "summary": "בכירים מזהירים שעימות צבאי אפשרי סביב טייוואן עלול להטיל נזק חמור וקשה יותר על הכלכלה הגלובלית מאשר זה שגרמה מגיפת הקורונה.",
+  "kid": "מתיחות סביב טייוואן, המייצרת את רוב שבבי המחשב בעולם, מסוכנת מאוד לעסקים ולכלכלה. אם יפרוץ משבר, מניות של חברות טכנולוגיה עולמיות עלולות לסבול בצורה קשה.",
+  "i18n": {
+   "title": {
+    "he": "אזהרה: עימות פוטנציאלי בטייוואן עלול לפגוע בכלכלה העולמית יותר ממגיפת הקורונה",
+    "en": "Warning: Potential Taiwan conflict could harm global economy more than COVID",
+    "ar": "تحذير: نزاع محتمل في تايوان قد يضر الاقتصاد العالمي أكثر من جائحة كورونا",
+    "ru": "Предупреждение: потенциальный конфликт из-за Тайваня может навредить мировой экономике сильнее пандемии"
+   },
+   "summary": {
+    "he": "בכירים מזהירים שעימות צבאי אפשרי סביב טייוואן עלול להטיל נזק חמור וקשה יותר על הכלכלה הגלובלית מאשר זה שגרמה מגיפת הקורונה.",
+    "en": "Experts warn that a potential conflict over Taiwan could inflict heavier damage on the global economy than the COVID-19 pandemic did.",
+    "ar": "يحذر خبراء من أن نزاعاً محتملاً حول تايوان قد يلحق أضراراً أشد بالاقتصاد العالمي مقارنة بجائحة كوفيد-19.",
+    "ru": "Эксперты предупреждают, что потенциальный конфликт из-за Тайваня может нанести мировой экономике более тяжелый урон, чем пандемия COVID-19."
+   },
+   "kid": {
+    "he": "מתיחות סביב טייוואן, המייצרת את רוב שבבי המחשב בעולם, מסוכנת מאוד לעסקים ולכלכלה. אם יפרוץ משבר, מניות של חברות טכנולוגיה עולמיות עלולות לסבול בצורה קשה.",
+    "en": "Tensions around Taiwan, which produces most of the world's computer chips, pose a huge risk. If a crisis erupts, global tech stocks could take a severe hit.",
+    "ar": "التوترات حول تايوان، التي تنتج معظم رقائق الكمبيوتر في العالم، تشكل خطراً هائلاً. إذا نشبت أزمة، فقد تتعرض أسهم التكنولوجيا لضربة قوية.",
+    "ru": "Напряженность вокруг Тайваня, производящего большинство компьютерных чипов в мире, несет огромные риски. В случае кризиса акции техкомпаний могут сильно упасть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sTzlpR2hGU21lb2x4X3E2SWRMc3lfWElFYUhXbDFjNGx0RVVTcHUyNFpkOUFjMmNKVTBqNGxlekNHMzc0b2FUUXFHRXE3Q3BtQ2xXaFRhdHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TSM",
+    "direction": "down",
+    "t0": 1794028876,
+    "reason": "איומי עימות גיאופוליטי מעלים דרמטית את פרמיית הסיכון על נכסים בטייוואן.",
+    "reason_i18n": {
+     "he": "איומי עימות גיאופוליטי מעלים דרמטית את פרמיית הסיכון על נכסים בטייוואן.",
+     "en": "Geopolitical conflict warnings dramatically raise the risk premium on Taiwanese assets.",
+     "ar": "تحذيرات النزاع الجيوسياسي ترفع بشكل دراماتيكي علاوة المخاطر على الأصول التايوانية.",
+     "ru": "Предупреждения о геополитическом конфликте резко повышают премию за риск по активам Тайваня."
+    },
+    "name_i18n": {
+     "he": "TSM – חברת הייצור של טייוואן (TSMC)",
+     "en": "TSM – Taiwan Semiconductor Manufacturing Company",
+     "ar": "TSM - شركة تايوان لصناعة أشباه الموصلات",
+     "ru": "TSM — Тайваньская компания по производству полупроводников"
+    },
+    "price_at_alert": 375.44
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794028876,
+    "reason": "שיבוש אפשרי בשרשרת האספקה של שבבים עולמיים מאיים על כל סקטור הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "שיבוש אפשרי בשרשרת האספקה של שבבים עולמיים מאיים על כל סקטור הטכנולוגיה.",
+     "en": "Potential disruption to global chip supply chains threatens the entire tech sector.",
+     "ar": "الاضطراب المحتمل لسلاسل توريد الرقائق العالمية يهدد قطاع التكنولوجيا بأكمله.",
+     "ru": "Потенциальный сбой в цепочках поставок чипов угрожает всему технологическому сектору."
+    },
+    "name_i18n": {
+     "he": "SMH – קרן סל למניות מוליכים למחצה",
+     "en": "SMH – VanEck Semiconductor ETF",
+     "ar": "SMH - صندوق الاستثمار المتداول لأشباه الموصلات",
+     "ru": "SMH — ETF полупроводников"
+    },
+    "price_at_alert": 463.96
+   }
+  ],
+  "id": "d6809fd12820"
+ },
+ {
+  "ts": 1794028876,
+  "time": "2026-11-07T05:21Z",
+  "title": "הודו משדרגת טילים ואירופה מקדמת מיירטים היפרסוניים",
+  "summary": "הודו משדרגת את טווח הטילים הקטלניים שלה מול סין ופקיסטן, וקונסורציום MBDA האירופי מתכנן ניסוי טיסה למיירט היפרסוני עד סוף 2029.",
+  "kid": "מדינות ממשיכות לקנות ולפתח נשק מתקדם יותר. זה עשוי לעזור לחברות ביטחוניות גדולות לקבל עוד הזמנות ולראות עלייה במניות שלהן.",
+  "i18n": {
+   "title": {
+    "he": "הודו משדרגת טילים ואירופה מקדמת מיירטים היפרסוניים",
+    "en": "India upgrades missiles as Europe advances hypersonic interceptors",
+    "ar": "الهند ترقية الصواريخ وأوروبا تتقدم في المعترضات الفرط صوتية",
+    "ru": "Индия модернизирует ракеты, а Европа развивает гиперзвуковые перехватчики"
+   },
+   "summary": {
+    "he": "הודו משדרגת את טווח הטילים הקטלניים שלה מול סין ופקיסטן, וקונסורציום MBDA האירופי מתכנן ניסוי טיסה למיירט היפרסוני עד סוף 2029.",
+    "en": "India is upgrading the range of its lethal missiles facing China and Pakistan, while Europe's MBDA plans flight tests for a hypersonic interceptor by late 2029.",
+    "ar": "تقوم الهند بترقية مدى صواريخها الفتاكة في مواجهة الصين وباكستان، بينما تخطط شركة MBDA الأوروبية لاختبار طيران لمعترض تفوق سرعته سرعة الصوت بحلول نهاية عام 2029.",
+    "ru": "Индия модернизирует дальность своих ракет в противостоянии с Китаем и Пакистаном, а европейский концерн MBDA планирует испытания гиперзвукового перехватчика к концу 2029 года."
+   },
+   "kid": {
+    "he": "מדינות ממשיכות לקנות ולפתח נשק מתקדם יותר. זה עשוי לעזור לחברות ביטחוניות גדולות לקבל עוד הזמנות ולראות עלייה במניות שלהן.",
+    "en": "Countries are continuing to buy and build advanced weapons. This can help large defense companies get more orders and see their stock prices rise.",
+    "ar": "تواصل الدول شراء وبناء أسلحة متقدمة. هذا يمكن شركات الدفاع الكبرى من الحصول على المزيد من الطلبات ورؤية ارتفاع أسعار أسهمها.",
+    "ru": "Страны продолжают покупать и создавать современное оружие. Это может помочь крупным оборонным компаниям получить больше заказов и повысить стоимость акций."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTG9XUEd6WUx4a3RyeWktR1JqUFBaMnlYckktRzNJUF9uVkJ0Vi13ZnZDT3lvNG9tZ3I4akhIcVJDRl9MamQtTXUtYjcwbENaNDlZS0R4NUxDSWNNcVFrZnQyNlBMRHhVRkFNM240RjgwZnpvTjJXYWJkaXZjelNrUVpnTEpXa2VaWndmWHR3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPamdlQ2tiQVlfT2hOLUZweHk5UjRzMDU1RVdod0ptdWg2aF9adndkWlM4UW1zdjBQZ0FUOHBzTkpiUF9ndlZ3MU51V25makJqMHlCc0UxQmYxallpVExiWnVBNFgwSHRidmFvcVYxLUl4RjRVS255R3hiTlJaUFFDRHFzNFc0ODgyM0dzblFfQzlaNHFZOU5XVnJXNDlaVFdySHIxaDNweGZ1R2tuajhKOElhZGhqRDE3M0oxbFNJZWM3Y3NucndjWUplRC1JWTdub0pIWmdlODc0OHY0MC05YlVzZXA0VFdYTUJhcmRsYkJ5YXl2b2FNX09pM3pnbDd1d3ZaMUFybXY?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "גידול בהוצאות הביטחון הגלובליות ופיתוח נשק מתקדם תומכים בסקטור הביטחוני.",
+    "reason_i18n": {
+     "he": "גידול בהוצאות הביטחון הגלובליות ופיתוח נשק מתקדם תומכים בסקטור הביטחוני.",
+     "en": "Rising global defense spending and advanced weapon development support the defense sector.",
+     "ar": "زيادة الإنفاق الدفاعي العالمي وتطوير الأسلحة المتقدمة يدعم قطاع الدفاع.",
+     "ru": "Рост мировых оборонных расходов и разработка современного оружия поддерживают оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל לתעשייה הביטחונית והתעופה בארה\"ב",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+     "ru": "ITA — ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.98
+   },
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1794028876,
+    "reason": "ביקוש גבוה למערכות הגנה מתקדמות ומיירטים בעולם.",
+    "reason_i18n": {
+     "he": "ביקוש גבוה למערכות הגנה מתקדמות ומיירטים בעולם.",
+     "en": "High global demand for advanced defense systems and interceptors.",
+     "ar": "طلب عالمي مرتفع على أنظمة الدفاع المتقدمة والمعترضات.",
+     "ru": "Высокий мировой спрос на передовые оборонные системы и перехватчики."
+    },
+    "name_i18n": {
+     "he": "RTX – ענקית טכנולוגיה ותעופה ביטחונית",
+     "en": "RTX – Aerospace & defense contractor",
+     "ar": "RTX - مقاول الطيران والدفاع",
+     "ru": "RTX — аэрокосмический и оборонный подрядчик"
+    },
+    "price_at_alert": 189.53
+   }
+  ],
+  "id": "5706b1f6948b"
+ },
+ {
+  "ts": 1794028876,
+  "time": "2026-11-07T05:21Z",
+  "title": "אנליסטים צופים תוצאות חלשות ליצרניות הכפפות במלזיה עקב לחצי תעריפים ומחירי גז",
+  "summary": "חברת המחקר CIMB מעריכה שיצרניות הכפפות במלזיה יציגו תוצאות חלשות ברבעון השלישי, בהשפעת מחירי מכירה נמוכים יותר ולחץ מתעריפי הגז.",
+  "kid": "חברות שמייצרות כפפות רפואיות במלזיה מתמודדות עם עלויות אנרגיה גבוהות ורווחים נמוכים יותר. זה יכול להשפיע על המניות שלהן בשווקים.",
+  "i18n": {
+   "title": {
+    "he": "אנליסטים צופים תוצאות חלשות ליצרניות הכפפות במלזיה עקב לחצי תעריפים ומחירי גז",
+    "en": "CIMB forecasts weaker 3Q for Malaysian glove makers amid tariffs and gas costs",
+    "ar": "توقعات بانخفاض أرباح شركات تصنيع القفازات الماليزية في الربع الثالث بسبب الرسوم وأسعار الغاز",
+    "ru": "CIMB прогнозирует слабый 3-й квартал для малайзийских производителей перчаток на фоне тарифов и цен на газ"
+   },
+   "summary": {
+    "he": "חברת המחקר CIMB מעריכה שיצרניות הכפפות במלזיה יציגו תוצאות חלשות ברבעון השלישי, בהשפעת מחירי מכירה נמוכים יותר ולחץ מתעריפי הגז.",
+    "en": "CIMB expects Malaysian glove makers to report weaker third-quarter results due to lower average selling prices and a squeeze from gas tariffs.",
+    "ar": "تتوقع شركة CIMB أن تسجل شركات تصنيع القفازات الماليزية نتائج أضعف في الربع الثالث بسبب انخفاض متوسط أسعار البيع والضغط من تعريفات الغاز.",
+    "ru": "CIMB ожидает, что малайзийские производители перчаток покажут слабые результаты за 3-й квартал из-за снижения цен и давления тарифов на газ."
+   },
+   "kid": {
+    "he": "חברות שמייצרות כפפות רפואיות במלזיה מתמודדות עם עלויות אנרגיה גבוהות ורווחים נמוכים יותר. זה יכול להשפיע על המניות שלהן בשווקים.",
+    "en": "Malaysian medical glove makers face higher energy costs and lower profits. This could negatively affect their stock prices in regional markets.",
+    "ar": "تواجه شركات تصنيع القفازات الطبية الماليزية تكاليف طاقة أعلى وأرباحاً أقل. قد يؤثر ذلك سلباً على أسعار أسهمها.",
+    "ru": "Малайзийские производители медицинских перчаток столкнулись с ростом затрат на энергию и снижением прибыли, что может повлиять на их акции."
+   }
+  },
+  "category": "commodities",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPRW1yanRoQ0lTaWZJcWdpY1ZRTWpUVURLUWtaNnd1V0tqOTlPRTZqUDZ5UHRBOUNQTkdMRzk5YnNoTW5IbmFldk5YaVVoQ2d0bEJCZVdfX01pYWYxUjNockdoOG1CZlVQYkpOLWFLRXRsU0p0WFlwSmRTTXFXU2o4aUpWN1JIVExDalcwT19YRzZJeTlvMEM4bzVXYkhFLW5FUFprSDdMY0pCal9QcURTNERVZDZGbHVXcENkVG11NktIMi1QOFhzVUFfa2dJUHl0dEttUVdqbVdXYjVHVGpJNnd1dG9BaVV0YTRqdGhwR09vTUZEYzNXTWEtQ3Z2NEw1TERaajFpYzY3UXBwV2psa0RzSlpIMUpNaVdDTkZYQjI3WmJ6d3JaMGRTeWV2dzhhektvVGtCQ0VqYlpZU3NLak1DQW96VkwycmFPUE0xcFJrM1F0MndIa3FHNmhCUVJxeTd0dVFjOTF0cWVPTEE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1794028876,
+    "reason": "תוצאות חלשות של סקטור היצוא במדינות מתעוררות מכבידות מעט על הסנטימנט האזורי.",
+    "reason_i18n": {
+     "he": "תוצאות חלשות של סקטור היצוא במדינות מתעוררות מכבידות מעט על הסנטימנט האזורי.",
+     "en": "Weaker export sector results in emerging economies slightly weigh on regional sentiment.",
+     "ar": "النتائج الضعيفة لقطاع التصدير في الاقتصاديات الناشئة تثقل قليلاً على المعنويات الإقليمية.",
+     "ru": "Слабые результаты экспортного сектора развивающихся стран немного давят на настроения."
+    },
+    "name_i18n": {
+     "he": "EEM – קרן סל לשווקים מתעוררים",
+     "en": "EEM – iShares MSCI Emerging Markets ETF",
+     "ar": "EEM - صندوق الأسواق الناشئة",
+     "ru": "EEM — ETF развивающихся рынков"
+    },
+    "price_at_alert": 59.33
+   }
+  ],
+  "id": "b9023cf8e120"
+ },
+ {
+  "ts": 1794028876,
+  "time": "2026-11-07T05:21Z",
+  "title": "התפרצות שיגלוזיס בהודו מאשפזת תלמידים בבית ספר",
+  "summary": "התפרצות של חיידקי שיגלה (שיגלוזיס) הובילה לאשפוזם של שלושה ילדים בבית ספר בקזيكוד שבהודו.",
+  "kid": "התפרצות מחלה קטנה בבית ספר בהודו. השפעה על שוק המניות הגלובלי קטנה מאוד עד אפסית.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות שיגלוזיס בהודו מאשפזת תלמידים בבית ספר",
+    "en": "Shigellosis outbreak in India hospitalizes school children",
+    "ar": "تفشي مرض الشيغيل في الهند يدخل تلاميذ المدارس المستشفى",
+    "ru": "Вспышка шигеллеза в Индии привела к госпитализации школьников"
+   },
+   "summary": {
+    "he": "התפרצות של חיידקי שיגלה (שיגלוזיס) הובילה לאשפוזם של שלושה ילדים בבית ספר בקזيكוד שבהודו.",
+    "en": "An outbreak of shigellosis has hospitalized three school children at a school in Kozhikode, India.",
+    "ar": "أدى تفشي مرض الشيغيل إلى دخول ثلاثة أطفال مدرسيين إلى المستشفى في مدرسة بمقاطعة كوزيكود في الهند.",
+    "ru": "Вспышка шигеллеза привела к госпитализации трех школьников в Кожикоде, Индия."
+   },
+   "kid": {
+    "he": "התפרצות מחלה קטנה בבית ספר בהודו. השפעה על שוק המניות הגלובלי קטנה מאוד עד אפסית.",
+    "en": "A small localized disease outbreak at an Indian school. The impact on global stock markets is virtually negligible.",
+    "ar": "تفشي مرض محلي صغير في مدرسة هندية. التأثير على أسواق الأسهم العالمية يكاد يكون معدوماً.",
+    "ru": "Небольшая локальная вспышка заболевания в индийской школе. Влияние на глобальные рынки акций практически нулевое."
+   }
+  },
+  "category": "health",
+  "severity": 1,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRG5rTkVOd3VQVll0cE9waUR5NnpkMUtDU0U0bnZ0ejhlYlBGT0hTbmo4LU9LWFl3XzQ4b1hRMFBkWGtRRk5zcHlxejFHMEJ1dk5lMDlRQ2c1ZkRUcW0xSmNQeHJpdGZUR3A0NkhzOHNic19ZRHdRRFhIVmxEXy1JOXNSdC1EcGdOUVZ1UTFCWlA5VnZzbkdnNXRDWGtvX1J3RFo0RGNnZG9kNmpGS1hvdEJsZElicDdLMmhrb01n?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "down",
+    "t0": 1794028876,
+    "reason": "חשש מקומי מהתפשטות מחלות זיהומיות יוצר השפעה שלילית מקומית קטנה.",
+    "reason_i18n": {
+     "he": "חשש מקומי מהתפשטות מחלות זיהומיות יוצר השפעה שלילית מקומית קטנה.",
+     "en": "Local health concerns create a minor negative sentiment in the regional market.",
+     "ar": "تخاوف صحية محلية تخلق شعوراً سلبياً طفيفاً في السوق الإقليمي.",
+     "ru": "Локальные проблемы со здоровьем создают незначительный негативный настрой."
+    },
+    "name_i18n": {
+     "he": "INDA – קרן סל למניות הודו",
+     "en": "INDA – MSCI India ETF",
+     "ar": "INDA - صندوق مؤشر الهند",
+     "ru": "INDA — ETF акций Индии"
+    },
+    "price_at_alert": 50.89
+   }
+  ],
+  "id": "8de7ada7dab3"
  }
 ]
