@@ -1,79 +1,79 @@
 {
- "generated": "2026-11-07T08:32Z",
+ "generated": "2026-11-07T09:15Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 386,
+ "total_alerts": 388,
  "overall": {
-  "n": 422,
-  "hits": 187,
-  "avg_edge": -1.09
+  "n": 238,
+  "hits": 116,
+  "avg_edge": 0.06
  },
  "by_category": {
   "climate": {
-   "n": 12,
+   "n": 10,
    "hits": 4,
-   "avg_edge": -1.0
+   "avg_edge": -0.71
   },
   "commodities": {
-   "n": 61,
-   "hits": 27,
-   "avg_edge": -0.13
+   "n": 37,
+   "hits": 18,
+   "avg_edge": 0.29
   },
   "contracts": {
-   "n": 100,
-   "hits": 53,
-   "avg_edge": -2.05
+   "n": 57,
+   "hits": 33,
+   "avg_edge": -0.45
   },
   "cyber": {
-   "n": 34,
-   "hits": 4,
-   "avg_edge": -2.87
+   "n": 12,
+   "hits": 2,
+   "avg_edge": -1.62
   },
   "geopolitics": {
-   "n": 82,
-   "hits": 31,
-   "avg_edge": -1.77
+   "n": 33,
+   "hits": 13,
+   "avg_edge": 1.58
   },
   "health": {
-   "n": 16,
-   "hits": 11,
-   "avg_edge": 2.21
+   "n": 12,
+   "hits": 8,
+   "avg_edge": 2.31
   },
   "macro": {
-   "n": 50,
-   "hits": 25,
-   "avg_edge": -0.31
+   "n": 32,
+   "hits": 14,
+   "avg_edge": -0.62
   },
   "policy": {
-   "n": 44,
-   "hits": 18,
-   "avg_edge": -0.57
+   "n": 28,
+   "hits": 15,
+   "avg_edge": -0.11
   },
   "trade": {
-   "n": 23,
-   "hits": 14,
-   "avg_edge": 0.49
+   "n": 17,
+   "hits": 9,
+   "avg_edge": -0.0
   }
  },
  "by_severity": {
   "1-3": {
-   "n": 73,
-   "hits": 34,
-   "avg_edge": -2.84
+   "n": 48,
+   "hits": 23,
+   "avg_edge": -1.51
   },
   "4-5": {
-   "n": 210,
-   "hits": 94,
-   "avg_edge": -0.78
+   "n": 115,
+   "hits": 56,
+   "avg_edge": 0.2
   },
   "6-7": {
-   "n": 110,
-   "hits": 51,
-   "avg_edge": -0.37
+   "n": 60,
+   "hits": 31,
+   "avg_edge": 1.44
   },
   "8-10": {
-   "n": 29,
-   "hits": 8,
-   "avg_edge": -1.69
+   "n": 15,
+   "hits": 6,
+   "avg_edge": -1.42
   }
  },
  "by_ticker": {
@@ -90,14 +90,14 @@
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "קרן סקטור האנרגיה – חברות נפט וגז גדולות",
-    "en": "Energy Sector ETF – major oil and gas companies",
-    "ar": "صندوق قطاع الطاقة - شركات النفط والغاز الكبرى",
-    "ru": "ETF энергетического сектора – крупные нефтегазовые компании"
+    "he": "מגזר האנרגיה בארה\"ב",
+    "en": "XLE – Energy Sector ETF",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
@@ -150,7 +150,7 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 61,
+   "mentions": 62,
    "n": 45,
    "hits": 20,
    "name": {
@@ -222,8 +222,8 @@
    "avg_edge": -1.22
   },
   "SPY": {
-   "mentions": 36,
-   "n": 21,
+   "mentions": 35,
+   "n": 20,
    "hits": 10,
    "name": {
     "he": "מדד S&P 500",
@@ -231,7 +231,7 @@
     "ar": "مؤشر S&P 500",
     "ru": "Индекс S&P 500"
    },
-   "avg_edge": -0.08
+   "avg_edge": 0.01
   },
   "KRE": {
    "mentions": 7,
@@ -258,13 +258,14 @@
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 22,
    "hits": 0,
    "name": {
     "he": "קראודסטרייק – חברת אבטחת סייבר",
-    "en": "CrowdStrike – cybersecurity company",
-    "ar": "كراودسترايك – شركة أمن سيبراني"
+    "en": "CrowdStrike – Cybersecurity Company",
+    "ar": "كراودسترايك - شركة أمن سيبراني",
+    "ru": "CrowdStrike – компания кибербезопасности"
    },
    "avg_edge": -4.09
   },
@@ -317,14 +318,14 @@
    "avg_edge": -4.05
   },
   "FXE": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 9,
    "hits": 4,
    "name": {
-    "he": "FXE - קרן סל מטבע אירו",
-    "en": "FXE - Invesco CurrencyShares Euro Trust",
-    "ar": "FXE - صندوق عملة اليورو",
-    "ru": "FXE - ETF евро"
+    "he": "קרן מטבע אירו",
+    "en": "FXE – Euro Currency Trust",
+    "ar": "صندوق عملة اليورو",
+    "ru": "Фонд валюты евро"
    },
    "avg_edge": -0.2
   },
@@ -413,7 +414,7 @@
    "avg_edge": 0.12
   },
   "EWC": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 6,
    "hits": 5,
    "name": {
@@ -533,14 +534,14 @@
    "avg_edge": -1.47
   },
   "VGK": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 9,
    "hits": 4,
    "name": {
-    "he": "VGK - קרן סל מניות אירופה",
-    "en": "VGK - Vanguard FTSE Europe ETF",
-    "ar": "VGK - صندوق الأسهم الأوروبية",
-    "ru": "VGK - ETF европейских акций"
+    "he": "קרן סל שוק אירופאי",
+    "en": "VGK – European Stock ETF",
+    "ar": "صندوق الأسهم الأوروبية",
+    "ru": "ETF европейских акций"
    },
    "avg_edge": -0.29
   },
@@ -605,14 +606,14 @@
    "avg_edge": 1.44
   },
   "EWY": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "EWY - קרן סל דרום קוריאה",
-    "en": "EWY - South Korea ETF",
-    "ar": "EWY - صندوق استثمار كوريا الجنوبية",
-    "ru": "EWY - ETF Южной Кореи"
+    "he": "קרן סל אזורית",
+    "en": "Regional ETF",
+    "ar": "صندوق إقليمي",
+    "ru": "Региональный ETF"
    },
    "avg_edge": 3.31
   },
