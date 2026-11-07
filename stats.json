@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T15:35Z",
+ "generated": "2026-11-07T16:21Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 422,
+ "total_alerts": 427,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 40,
+   "mentions": 41,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן סל נפט גולמי",
-    "en": "US Oil Fund",
-    "ar": "صندوق النفط الخام",
-    "ru": "ETF нефтяного фонда"
+    "he": "USO – קרן סל על נפט גולמי",
+    "en": "USO – Crude Oil ETF",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO – ETF нефти"
    },
    "avg_edge": -0.02
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 71,
+   "mentions": 72,
    "n": 45,
    "hits": 20,
    "name": {
+    "he": "ITA – קרן סל לתעשייה הביטחונית",
     "en": "ITA – Aerospace & Defense ETF",
-    "he": "ITA - קרן סל תעופה וביטחון",
-    "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    "ar": "ITA - صندوق قطاع الدفاع",
+    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -6.21
   },
@@ -222,14 +222,14 @@
    "avg_edge": -1.22
   },
   "SPY": {
-   "mentions": 37,
+   "mentions": 39,
    "n": 20,
    "hits": 10,
    "name": {
     "he": "SPY – מדד S&P 500",
     "en": "SPY – S&P 500 ETF",
-    "ar": "SPY – صندوق مؤشر S&P 500",
-    "ru": "SPY — ETF индекса S&P 500"
+    "ar": "SPY - مؤشر الأسهم الأمريكية",
+    "ru": "SPY – S&P 500 ETF"
    },
    "avg_edge": 0.01
   },
@@ -246,14 +246,14 @@
    "avg_edge": 0.31
   },
   "CPER": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 11,
    "hits": 3,
    "name": {
-    "he": "CPER – קרן סל על מחירי הנחושת",
+    "he": "CPER – קרן סל על נחושת",
     "en": "CPER – United States Copper Index Fund",
-    "ar": "CPER – صندوق مؤشر النحاس الأمريكي",
-    "ru": "CPER – фонд цен на медь"
+    "ar": "CPER - صندوق مؤشر النحاس",
+    "ru": "CPER – ETF меди"
    },
    "avg_edge": -0.74
   },
@@ -366,14 +366,14 @@
    "avg_edge": -0.58
   },
   "XLV": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 7,
    "hits": 6,
    "name": {
-    "he": "סקטור הבריאות",
-    "en": "Healthcare sector ETF",
-    "ar": "قطاع الرعاية الصحية",
-    "ru": "Сектор здравоохранения"
+    "he": "XLV – קרן סל סקטור הבריאות",
+    "en": "XLV – Health Care Select Sector SPDR Fund",
+    "ar": "XLV - قطاع الرعاية الصحية",
+    "ru": "XLV – ETF сектора здравоохранения"
    },
    "avg_edge": 1.27
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.78
   },
   "FCX": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 15,
    "hits": 4,
    "name": {
-    "he": "FCX - פריפורט מקמוראן (נחושת)",
-    "en": "FCX - Freeport-McMoRan",
+    "he": "FCX – פריפורט מקמוראן (כריית נחושת)",
+    "en": "FCX – Freeport-McMoRan",
     "ar": "FCX - فريبورت مكموران",
-    "ru": "FCX - Freeport-McMoRan"
+    "ru": "FCX – Freeport-McMoRan"
    },
    "avg_edge": -1.46
   },
@@ -510,14 +510,14 @@
    "avg_edge": 1.69
   },
   "INDA": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 5,
    "hits": 3,
    "name": {
-    "he": "INDA – קרן סל למניות הודו",
+    "he": "INDA – קרן סל על הודו",
     "en": "INDA – MSCI India ETF",
-    "ar": "INDA - صندوق مؤشر الهند",
-    "ru": "INDA — ETF акций Индии"
+    "ar": "INDA - صندوق الهند",
+    "ru": "INDA – ETF Индии"
    },
    "avg_edge": -0.21
   },
@@ -1154,6 +1154,18 @@
     "en": "PCG – PG&E Corporation",
     "ar": "PCG - شركة المرافق الكهربائية",
     "ru": "PCG — энергетическая компания"
+   },
+   "avg_edge": null
+  },
+  "FXY": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "FXY – קרן סל על הין היפני",
+    "en": "FXY – Japanese Yen ETF",
+    "ar": "FXY - صندوق الين الياباني",
+    "ru": "FXY – ETF японской йены"
    },
    "avg_edge": null
   },
