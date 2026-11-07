@@ -32380,10 +32380,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUVRlUm1RcUItTzAwbWJId0pCYmpvc211TEJWNXpuLUpiQjBxTXdvcWRKNXltUGhSZFByLVRhc1RTZk5ra182MUtXX0tWb3BjSkNfaDBRSHdvTld4VHI2amd1RU5qMGVxM0NMaFJ1Wi1hLUJ5V3BrR0I3aDJVZllwRzdXTW9HaXFqUzczc1BrSzk5SVF6U2lZbGp3WXVPWGdnbjExOGlpUmlLUGp0WVNTVWgzU2QzWlBnRUp2U1I4c2M?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGJadVFWRXFMQ2UwMVlqMjNKTEdzblh1cHRmVHlqOVZWdmY1YzQxd2d6cXRHTUxLY2I5em91Z3ZfTmo5eHJtN2hOUkRfTEZZdm1kSURVMkEtekhPTVVYbmhXbHlpbzVZMEhMYldQNUQ5ZGRjeEdVczRfLUVfTU0xdXBHa0d4VGNPWS1wZnY2RFE0TjJQRXRpdVNXZU9uQng0SDdJUlo1ZjNtaFYwOU5IbEVwcVRzTC1jMlHSAb8BQVVfeXFMTmhlVHNtZ0RZcTcxMzdKSDBOb2ZtUnNfMzJuekRwU3ZCODdrUTd0Z3hLaUdzaEpKcnNCdFVOcFFRQzJZYXVqbFdmRmhGNU0zRnNxTFJiQzVCTjRFY0l0OUFENTlDbGYzaGxwQll1UHRNZmFhNjBtalBoZXV2Vk9ybnpfSFZDNWtIQjJmWkFLZmZibXBfS0dEME1JbUlOMFVyS1pNY3hBaXJSMDdYb3RkWHc2Ti0yc2VpTG02TWpNOWM?oc=5"
    },
    {
@@ -32397,6 +32393,14 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcUVKOVdyVDVBYi1aMGZzWFlwcTItNk82aFhGNnRpczdrZUFGTXdFWmpUWUVtNXJyOHBIS3YzMWNQMDF0TmRJZ0FZZmlwdWFITGZfTGlvRU9hRG1lMjJ6dlhQc2lYUGNLYVZVaEpydGVTYUpBLVk1OHlCZTF4ZlhZN2NUd1VCSzZGNXcwUW9JSlF1RWkxSXJSTXFrbUVuOWlrWUMwSU9hN1hhZnZJQXNvSzlfb2VZSnRVVFY2SjJCdVd1X19KdWdWZGVDcGFFS1I1?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLTBySDVnVnRpdHp0OV9pOTd0V2NNSlFyLXFMVURvTUU5Zk9CbUlqalNvMkNoTjdGM2ZkYWtMa3BZMTdUbGlqTlA5c0lQN3NMbmNHZ1lYVm1XNFFDZnB3ZFlBcVdxejhBUGZia0g4WFdrdklUcWRVenFzVGJZYkVSZ0FzVWJ6c2hXakRLS0UyOVdaVU9NdzAtSzdCSTR4YmZONDBqTmRIVQ?oc=5"
    }
   ],
   "impacts": [
@@ -32437,6 +32441,25 @@
      "ru": "ETF финансового сектора"
     },
     "price_at_alert": 57.16
+   },
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794037006,
+    "reason": "הגברת האכיפה נגד פלטפורמות קריפטו מעלה חשש מרגולציה נוקשה יותר על שוק המטבעות הדיגיטליים.",
+    "reason_i18n": {
+     "he": "הגברת האכיפה נגד פלטפורמות קריפטו מעלה חשש מרגולציה נוקשה יותר על שוק המטבעות הדיגיטליים.",
+     "en": "Increased enforcement against crypto platforms raises concerns over stricter regulation.",
+     "ar": "زيادة التشديد ضد منصات العملات المشفرة تثير المخاوف بشأن تنظيم أكثر صارمة.",
+     "ru": "Усиление контроля над криптоплатформами вызывает опасения ужесточения регулирования."
+    },
+    "name_i18n": {
+     "he": "איי-בי-איי-טי - קרן סל על ביטקוין",
+     "en": "IBIT - Bitcoin ETF",
+     "ar": "IBIT - صندوق مؤشر بيتكوين",
+     "ru": "IBIT - Биткоин ETF"
+    },
+    "price_at_alert": 42.88
    }
   ],
   "id": "d301469066e0",
@@ -32464,9 +32487,21 @@
      "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على ثماني شركات صرافة كندية بدعوى مساعدتها لكيانات إيرانية خاضعة للعقوبات ومعاملة أموال مرتبطة بتهريب المخدرات.",
      "ru": "Минфин США ввел санкции против восьми канадских обменных компаний за предполагаемое содействие подпавшим под санкции иранским структурам и отмывание наркотиков."
     }
+   },
+   {
+    "ts": 1794037006,
+    "time": "2026-11-07T07:36Z",
+    "severity": 4,
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על שמונה חברות שירותי מטבע בקנדיות ועל פלטפורמת MEXC בגין עסקאות הקשורות לאיראן והלבנת הון.",
+    "i18n": {
+     "he": "משרד האוצר האמריקאי הטיל סנקציות על שמונה חברות שירותי מטבע בקנדיות ועל פלטפורמת MEXC בגין עסקאות הקשורות לאיראן והלבנת הון.",
+     "en": "The US Treasury sanctioned eight Canadian money services firms and the MEXC platform for facilitating transactions related to Iran.",
+     "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على ثماني شركات خدمات مالية كندية ومنصة MEXC لتسهيلها معاملات مرتبطة بإيران.",
+     "ru": "Минфин США ввел санкции против восьми канадских финкомпаний и платформы MEXC за содействие иранским транзакциям."
+    }
    }
   ],
-  "last_update": 1794028876
+  "last_update": 1794037006
  },
  {
   "ts": 1794003874,
@@ -34747,5 +34782,149 @@
    }
   ],
   "id": "e0645d74bc3d"
+ },
+ {
+  "ts": 1794037006,
+  "time": "2026-11-07T07:36Z",
+  "title": "נשיא פרגוואי הודח ונעצר על רקע משבר בנקאי",
+  "summary": "נשיא פרגוואי סנטיאגו פניה הודח ונעצר בעקבות משבר בנקאי חמור שמנע ממיליונים גישה לכספם.",
+  "kid": "הנשיא של מדינת פרגוואי פוטר ונעצר כי הבנקים שם קרסו ואנשים לא יכלו להוציא את הכסף שלהם. זה יכול להשפיע על המניות שקשורות לדרום אמריקה.",
+  "i18n": {
+   "title": {
+    "he": "נשיא פרגוואי הודח ונעצר על רקע משבר בנקאי",
+    "en": "Paraguayan President Impeached and Arrested Amid Bank Collapse",
+    "ar": "عزل واعتقال رئيس باراغواي وسط انهيار مصرفي",
+    "ru": "Президент Парагвая импичментнут и арестован на фоне банковского кризиса"
+   },
+   "summary": {
+    "he": "נשיא פרגוואי סנטיאגו פניה הודח ונעצר בעקבות משבר בנקאי חמור שמנע ממיליונים גישה לכספם.",
+    "en": "Paraguayan President Santiago Peña was impeached and ousted following a severe banking crisis that left millions unable to access their funds.",
+    "ar": "تم عزل واعتقال رئيس باراغواي سانتوس بينا إثر أزمة مصرفية حادة حرمت ملايين من الوصول إلى أموالهم.",
+    "ru": "Президент Парагвая Сантьяго Пенья был смещен в результате импичмента и арестован из-за тяжелого банковского кризиса."
+   },
+   "kid": {
+    "he": "הנשיא של מדינת פרגוואי פוטר ונעצר כי הבנקים שם קרסו ואנשים לא יכלו להוציא את הכסף שלהם. זה יכול להשפיע על המניות שקשורות לדרום אמריקה.",
+    "en": "The president of Paraguay was removed and arrested because banks collapsed and people could not get their money. This can affect South American stocks.",
+    "ar": "تم عزل رئيس باراغواي واعتقاله بسبب انهيار البنوك وعدم قدرة الناس على سحب أموالهم. هذا قد يؤثر على الأسهم في أمريكا الجنوبية.",
+    "ru": "Президент Парагвая был снят с должности и арестован из-за краха банков, из-за которого люди не могли снять деньги. Это может повлиять на акции региона."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWZ",
+    "direction": "down",
+    "t0": 1794037006,
+    "reason": "חוסר יציבות פוליטית בפרגוואי משפיע לרעה על הסנטימנט האזורי באמריקה הלטינית.",
+    "reason_i18n": {
+     "he": "חוסר יציבות פוליטית בפרגוואי משפיע לרעה על הסנטימנט האזורי באמריקה הלטינית.",
+     "en": "Political instability in Paraguay negatively impacts regional sentiment in Latin America.",
+     "ar": "عدم الاستقرار السياسي في باراغواي يؤثر سلباً على معنويات المنطقة في أمريكا اللاتينية.",
+     "ru": "Политическая нестабильность в Парагвае негативно влияет на настроения в Латинской Америке."
+    },
+    "name_i18n": {
+     "he": "אי-דאב-זד - קרן סל על שוק המניות בברזיל",
+     "en": "EWZ - Brazil ETF",
+     "ar": "EWZ - صندوق أسهم البرازيل",
+     "ru": "EWZ - ETF на акции Бразилии"
+    },
+    "price_at_alert": 31.98
+   }
+  ],
+  "id": "ed3c303b09ec"
+ },
+ {
+  "ts": 1794037006,
+  "time": "2026-11-07T07:36Z",
+  "title": "תוצאות ראשונות מצביעות על מירוץ צמוד בבחירות הכלליות בניו זילנד",
+  "summary": "הבחירות הכלליות בניו זילנד הסתיימו בהצבעה צמודה, כאשר התוצאות המוקדמות מראות מאבק חזק בין המפלגה הלאומית למפלגת הלייבור.",
+  "kid": "היו בחירות לבחירת המנהיגים בניו זילנד, והתוצאות מאוד צמודות בין שתי מפלגות עיקריות. זה חשוב לכלכלה המקומית ולחברות שסוחרות שם.",
+  "i18n": {
+   "title": {
+    "he": "תוצאות ראשונות מצביעות על מירוץ צמוד בבחירות הכלליות בניו זילנד",
+    "en": "New Zealand General Election Concludes with Tight Early Results",
+    "ar": "انتهاء الانتخابات العامة في نيوزيلندا مع نتائج مبكرة متقاربة",
+    "ru": "Завершение всеобщих выборов в Новой Зеландии с плотными первыми результатами"
+   },
+   "summary": {
+    "he": "הבחירות הכלליות בניו זילנד הסתיימו בהצבעה צמודה, כאשר התוצאות המוקדמות מראות מאבק חזק בין המפלגה הלאומית למפלגת הלייבור.",
+    "en": "New Zealand concluded voting in a tightly contested general election, with early counts showing a close race between the National Party and Labour.",
+    "ar": "انتهت الانتخابات العامة في نيوزيلندا مع نتائج مبكرة تظهر سباقاً محتدماً بين الحزب الوطني وحزب العمال.",
+    "ru": "В Новой Зеландии завершилось голосование на всеобщих выборах, первые результаты показывают плотную борьбу между Национальной партией и лейбористами."
+   },
+   "kid": {
+    "he": "היו בחירות לבחירת המנהיגים בניו זילנד, והתוצאות מאוד צמודות בין שתי מפלגות עיקריות. זה חשוב לכלכלה המקומית ולחברות שסוחרות שם.",
+    "en": "New Zealand held a close election between two main political parties, which matters for local economic stability.",
+    "ar": "أجرت نيوزيلندا انتخابات متقاربة بين حزبين رئيسيين، وهو أمر مهم للاستقرار الاقتصادي المحلي.",
+    "ru": "В Новой Зеландии прошли выборы с плотной борьбой между партиями, что важно для местной экономики."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0o2ZHhRTUpFaXljdmZVX0xRSXFHUDNnMkplSVdha1lTb01MTi1iNnVoQmY5VkhqQjNnRENQN2FRYXFOTHdER0I5bVN1dTctckR4Y2oyUGpjZC1HaURLZy0yU3NjX1BSWkRmajV3Y3AybEVFSDNodlBTd2pkaVk3TmROelRIZlduYWJXdG1qVU5EaGlibl9iMVpSS3pWWlZkS1pqM28tR1k?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQzVCck51c1M5OElaR2FFOFZtSlkyQWtCZ0dBbEw4MmQ4MWY5TldFYUxaWFlGOEctQU9MSHIwX1BxQ0pnS280RHR2VFVUWU5pUkQ2NmU0dmlVLVZiRXgyOVBzNFR1eG8xZEU4N0NlVlgwd2VaZjRWUHFaVEs5cGJoV2ZqUC1PV1RrZGx5dGpuVFBhME9aY1BCcFJkX3JzdDk5cHVhUFZTMHN6Ty1hNWw4M0hKN2lfRGRDN0poZQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEZJODItMzZkd3RnQ21mc0Rrb05ZUWpkdFFyVjMzYWRlWUV1NFlKSEYySllIcU5UVG1tVmlxOTVTSDdlS3RmMWxmWjR4aW4tUk1oLVJOaDIycFdNMl9hT0NaZWdLZC1LOUE0dGRaRUJ2X3RGczUyeTlGemlqR2ltM0Jwa25GelhPblpObjhHNmx0emZ4bmxXZUhqUWg4V2g3WlotUE5iSQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSWRhRlhCNHM3UWNpdmRraERXaFpucWEzZnlBVENRb1lNazNEcnBKNG95c05BTVl3bW1aUnBWVFZxTmhwbWl4bWRqUUpJNTZpQjFCRk1uNjdwSG5JRXRMWGI3VEZ6cUM2dnRYQTN2dkZLZlRCQzVLNUxFb0lMeVJCdVhvM0lodUFBTG02ZjU2TVRoYWhtTlpCdFRfRVBla05wYUFYeU9Pc05ERGZyakx3V1VBRUUtOWFKRU1aeU8ya2szcUpUTEM1aQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNYnV1OTNVZGkxSFVFNXhleHBvcmp4Mk5nbVpGVVBsY21OSS05bUNCcDVyV0g3cmRkVXFLenE1NzZTbmpXTHVuaGVzSUFGejF5ektJaTk2RnVoamdKcXVHOHFHbEhxZHd6X2pMdnlRblNMd0p6Yk9vSFlSaXJjaml1Q2tmY2hpSkM1QmVCbTR6cG1CRnp4VjliMmFGTXhtWVVGQlVOVlk0N05jZDI1VFdac244VS0zVklkVVZRX1ZlOFdLR2l4MzJUd1dKNXA1cEs2NVNKeDZfWW90SFBmd1BxZ1h1czl6ZHljamZZd3doY183Z3V5SEk4U3dCeExaMFp1QWxDM20xbjdhdEVqaXZmaXVTZE5ERk5TUVFWVDgzVVFuTVE4?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN295YTI0VGlzMDh0YXpzNEFCMEJNT1c0dUp4bHNCY2h5R3E1QVhqenFMRjdDVG5FUEpOZndlUnVzcWxSVVJHR2xkd1kxUkQxUEFNNEZ0eHdyREU0OUpzVHdrVDRzWlZ1RTBuN01qTndqaW10bUUtaFZKSW5RaTB0LURIa3JYWWpwSmZ5MmNtdThVTFNXbGlsblRSWEh2d0puS19IY1BZUU1TX0p2dDdiTExSMFhDMjlBRGc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVjlkRlNIS2cxZ1BVaGUxR1l5MkR2TjNab3hWR2xNc2V1OURVNTc4WTQ0SDhHZnJNY3ZIWFhlckdsaF9KNzNZeHFWWi1PU2piVGE4U3E5UzV6XzFPSkswYTdCS0lyNU5IS2lQaFZaaE9OMmVWc0JTSVBfa0JzaGhZX1RHeTdlRDhnNklmbmF1WlMxTy1BaVZubGFyckNHbXVadkpj?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX3h0cjV2dktQZGxDMGZJNEduT0pHcWU5YWFHTGZuS3FEc3JxMWhxc3RVUGszOE80NXEzYzVWd2h6bWVZalFJVFJLeXBNX1RteFgwMDhmQVk4VUE2bjFkdWtEam9KYjZ3ZVVGLU5SSnVvdjc5WGdvWXo0MzA5QmxnN3pMNndRenhZWGFHV0Z2RWs4QVB3Ql96b19WZW1jRzJVNng5NzhuV0cwTXd4OXRPdnVmczRNQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWA",
+    "direction": "up",
+    "t0": 1794037006,
+    "reason": "בהירות פוליטית לאחר ספירת הקולות צפויה לייצב את השווקים האזוריים.",
+    "reason_i18n": {
+     "he": "בהירות פוליטית לאחר ספירת הקולות צפויה לייצב את השווקים האזוריים.",
+     "en": "Political clarity after vote counting is expected to stabilize regional markets.",
+     "ar": "من المتوقع أن يستقر السوق الإقليمي بعد اتضاح النتائج السياسية.",
+     "ru": "Политическая ясность после подсчета голосов должна стабилизировать региональные рынки."
+    },
+    "name_i18n": {
+     "he": "איווה - קרן סל על שוק המניות באוסטרליה וניו זילנד",
+     "en": "EWA - Australia & Oceania ETF",
+     "ar": "EWA - صندوق أسهم أستراليا",
+     "ru": "EWA - ETF на акции Австралии"
+    },
+    "price_at_alert": 29.17
+   }
+  ],
+  "id": "1655ed2ba01d"
  }
 ]
