@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T09:15Z",
+ "generated": "2026-11-07T09:22Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 388,
+ "total_alerts": 391,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,24 +78,24 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 35,
+   "mentions": 36,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן נפט גולמי",
-    "en": "Crude Oil ETF",
+    "he": "קרן סל נפט גולמי",
+    "en": "US Oil Fund",
     "ar": "صندوق النفط الخام",
-    "ru": "ETF на сырую нефть"
+    "ru": "Нефтяной фонд"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 18,
    "hits": 8,
    "name": {
     "he": "מגזר האנרגיה בארה\"ב",
-    "en": "XLE – Energy Sector ETF",
+    "en": "Energy Sector ETF",
     "ar": "صندوق قطاع الطاقة",
     "ru": "ETF энергетического сектора"
    },
@@ -258,14 +258,14 @@
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 22,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת סייבר",
-    "en": "CrowdStrike – Cybersecurity Company",
+    "he": "קראודסטרייק – חברת אבטחת מידע",
+    "en": "CrowdStrike – cybersecurity firm",
     "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания кибербезопасности"
+    "ru": "CrowdStrike — кибербезопасность"
    },
    "avg_edge": -4.09
   },
@@ -1002,14 +1002,14 @@
    "avg_edge": 1.19
   },
   "ICLN": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 1,
    "hits": 1,
    "name": {
     "he": "קרן סל אנרגיה נקייה",
     "en": "Clean Energy ETF",
     "ar": "صندوق الطاقة النظيفة",
-    "ru": "ETF чистой энергии"
+    "ru": "ETF чистой энергетики"
    },
    "avg_edge": 2.29
   },
