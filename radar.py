@@ -561,6 +561,9 @@ def evaluate(alerts):
         for imp in a.get("impacts", []):
             if "hit" in imp or imp.get("no_data"):
                 continue
+            if imp.get("direction") not in ("up", "down"):
+                imp["no_data"] = True
+                continue
             t0 = imp.get("t0") or a["ts"]
             if now - t0 < 6 * 3600:           # too early to have a next-day close
                 pending = True
@@ -627,11 +630,17 @@ def all_trades(allx):
     """Each checked prediction = one virtual trade of TRADE_SIZE in the predicted direction
     (a 'down' prediction is a bet on a fall), held from entry to the next trading day's close.
     bench_pnl = the same money simply held in the market (S&P 500 / TA-35) over the same window."""
-    out = []
-    for a in allx:
+    out, seen_bets = [], set()
+    for a in sorted(allx, key=lambda x: x["ts"]):
         for i in a.get("impacts", []):
             if not isinstance(i.get("hit"), bool) or i.get("change_pct") is None:
                 continue
+            if i.get("direction") not in ("up", "down"):
+                continue
+            bet = (i["ticker"], i["direction"], i.get("exit_date"))
+            if bet in seen_bets:
+                continue
+            seen_bets.add(bet)
             sign = 1 if i.get("direction") == "up" else -1
             mkt = i["bench_change_pct"] if i.get("bench") else i["change_pct"]
             out.append({"date": i.get("exit_date"), "ticker": i["ticker"], "dir": i.get("direction"),
@@ -735,8 +744,18 @@ def build_stats(allx=None):
         return {"n": n, "hits": sum(1 for p in preds if p["hit"]),
                 "avg_edge": round(sum(p.get("edge_pct", 0) for p in preds) / n, 2) if n else None}
 
-    preds = [dict(p, cat=a.get("category"), sev=int(a.get("severity", 0) or 0))
-             for a in allx for p in a.get("impacts", []) if isinstance(p.get("hit"), bool)]
+    preds, seen_bets = [], set()
+    for a in allx:
+        for p in a.get("impacts", []):
+            if not isinstance(p.get("hit"), bool):
+                continue
+            if p.get("direction") not in ("up", "down"):
+                continue
+            bet = (p["ticker"], p.get("direction"), p.get("exit_date"))
+            if bet in seen_bets:                 # the same bet from a repeated story counts once
+                continue
+            seen_bets.add(bet)
+            preds.append(dict(p, cat=a.get("category"), sev=int(a.get("severity", 0) or 0)))
     stats = {"generated": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z",
              "first_alert": allx[0]["time"] if allx else None,
              "total_alerts": len(allx), "overall": agg(preds),
@@ -745,6 +764,8 @@ def build_stats(allx=None):
     tickers = {}
     for a in allx:
         for i in a.get("impacts", []):
+            if i.get("direction") not in ("up", "down"):
+                continue
             t = tickers.setdefault(i["ticker"], {"mentions": 0, "n": 0, "hits": 0, "edge_sum": 0.0, "name": {}})
             t["mentions"] += 1
             if i.get("name_i18n"):
@@ -833,7 +854,7 @@ def new_alert(ev, headlines, now):
         "kid": tr(ev.get("kid")),
         "i18n": {"title": tri(ev.get("title")), "summary": tri(ev.get("summary")), "kid": tri(ev.get("kid"))},
         "category": ev.get("category"), "severity": sev, "confidence": ev.get("confidence"),
-        "sources": sources_of(ev, headlines), "impacts": [impact_of(i, now) for i in ev.get("impacts", [])[:5]],
+        "sources": sources_of(ev, headlines), "impacts": [impact_of(i, now) for i in valid_impacts(ev)[:5]],
     }
     a["id"] = alert_id(a)
     return a
@@ -844,12 +865,42 @@ def sources_of(ev, headlines):
             for i in ev.get("ids", []) if isinstance(i, int) and 0 <= i < len(headlines)]
 
 
+def valid_impacts(ev):
+    return [i for i in ev.get("impacts", []) if i.get("direction") in ("up", "down") and str(i.get("ticker", "")).strip()]
+
+
 def impact_of(i, now):
     tk = str(i.get("ticker", "")).upper()
     return {"ticker": tk, "direction": i.get("direction"), "t0": now,
             "reason": tr(i.get("reason") or i.get("reason_he")),
             "reason_i18n": tri(i.get("reason")), "name_i18n": tri(i.get("name")),
             "price_at_alert": price_now(tk)}
+
+
+_STOP = set("the a an of to in on for and or with by at from as after over amid into its is are be new us u.s".split())
+
+
+def _words(text):
+    return {w for w in re.findall(r"[a-z0-9]+", (text or "").lower()) if len(w) > 2 and w not in _STOP}
+
+
+def find_similar(ev, recent):
+    """Catch repeats the AI did not mark: same category, a shared ticker and similar English titles."""
+    t_new = _words(tr(ev.get("title"), "en"))
+    tick_new = {str(i.get("ticker", "")).upper() for i in ev.get("impacts", [])}
+    best, best_score = None, 0.0
+    for a in recent:
+        if a.get("category") != ev.get("category"):
+            continue
+        if not tick_new & {i["ticker"] for i in a.get("impacts", [])}:
+            continue
+        t_old = _words(tr((a.get("i18n") or {}).get("title"), "en"))
+        if not t_new or not t_old:
+            continue
+        score = len(t_new & t_old) / len(t_new | t_old)
+        if score > best_score:
+            best, best_score = a, score
+    return best if best_score >= 0.3 else None
 
 
 def merge_update(a, ev, headlines, now):
@@ -866,7 +917,7 @@ def merge_update(a, ev, headlines, now):
     a.setdefault("sources", []).extend(s for s in sources_of(ev, headlines) if s["url"] not in urls)
     a["sources"] = a["sources"][-6:]
     have = {i["ticker"] for i in a.get("impacts", [])}
-    for i in ev.get("impacts", []):
+    for i in valid_impacts(ev):
         if len(a["impacts"]) >= 8:
             break
         if str(i.get("ticker", "")).upper() not in have:
@@ -886,9 +937,10 @@ def scan(state, alerts, chat_id):
         events, model = analyse(headlines, recent)
         for ev in sorted(events, key=lambda x: -int(x.get("severity", 0) or 0)):
             sev = int(ev.get("severity", 0) or 0)
-            if not ev.get("impacts"):
+            ev["impacts"] = valid_impacts(ev)
+            if not ev["impacts"]:
                 continue
-            same = by_id.get(str(ev.get("same_as") or ""))
+            same = by_id.get(str(ev.get("same_as") or "")) or find_similar(ev, recent)
             if same:
                 prev = merge_update(same, ev, headlines, now)
                 merged += 1
