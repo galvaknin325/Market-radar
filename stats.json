@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-07T12:24Z",
+ "generated": "2026-11-07T13:27Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 407,
+ "total_alerts": 411,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 37,
+   "mentions": 39,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO - תעודת סל על נפט גולמי",
-    "en": "USO – Crude oil ETF",
-    "ar": "USO - صندوق الاستثمار المتداول للنفط الخام",
-    "ru": "USO – ETF сырой нефти"
+    "he": "קרן סל נפט גולמי",
+    "en": "US Oil Fund",
+    "ar": "صندوق النفط الخام",
+    "ru": "ETF нефтяного фонда"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - תעודת סל מגזר האנרגיה",
-    "en": "XLE – Energy sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "he": "סคטור האנרגיה",
+    "en": "Energy Select Sector SPDR",
+    "ar": "قطاع الطاقة",
+    "ru": "Сектор энергетики"
    },
    "avg_edge": -1.05
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 65,
+   "mentions": 66,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "ITA - תעודת סל ביטחונית אמריקאית",
-    "en": "ITA – US aerospace & defense ETF",
-    "ar": "ITA - صندوق التداول في القطاع الجوي والدفاعي الأمريكي",
-    "ru": "ITA – ETF аэрокосмического и оборонного сектора США"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق الدفاع الجوي",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -6.21
   },
@@ -258,11 +258,11 @@
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 22,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת מידע",
+    "he": "קראודסטרייק – חברת סייבר",
     "en": "CrowdStrike – cybersecurity firm",
     "ar": "كراودسترايك - شركة أمن سيبراني",
     "ru": "CrowdStrike – компания кибербезопасности"
@@ -378,14 +378,14 @@
    "avg_edge": 1.27
   },
   "DBA": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "קרן סל חקלאות עולמית",
-    "en": "Invesco DB Agriculture Fund",
-    "ar": "صندوق الزراعة العالمي",
-    "ru": "ETF сельского хозяйства"
+    "he": "קרן סל חקלאות",
+    "en": "Agriculture ETF",
+    "ar": "صندوق الزراعة",
+    "ru": "Сельскохозяйственный ETF"
    },
    "avg_edge": 1.19
   },
@@ -402,14 +402,14 @@
    "avg_edge": 5.31
   },
   "GLD": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "זהב",
-    "en": "Gold",
-    "ar": "الذهب",
-    "ru": "Золото"
+    "he": "קרן סל זהב",
+    "en": "Gold Trust",
+    "ar": "صندوق الذهب",
+    "ru": "Золотой ETF"
    },
    "avg_edge": 0.12
   },
