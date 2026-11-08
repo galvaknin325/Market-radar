@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-08T08:33Z",
+ "generated": "2026-11-08T10:18Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 472,
+ "total_alerts": 474,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,25 +78,25 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "תעודת סל על מחיר הנפט",
+    "en": "Oil Price ETF",
+    "ar": "صندوق استثمار لسعر النفط",
+    "ru": "ETF на цену нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 39,
+   "mentions": 40,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "קרן סל סקטור האנרגיה",
+    "he": "תעודת סל של מגזר האנרגיה",
     "en": "Energy Sector ETF",
-    "ar": "صندوق قطاع الطاقة",
+    "ar": "صندوق استثمار لقطاع الطاقة",
     "ru": "ETF энергетического сектора"
    },
    "avg_edge": -1.05
@@ -162,14 +162,14 @@
    "avg_edge": -6.21
   },
   "RTX": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "RTX - ענקית ביטחונית ותעופה",
-    "en": "RTX – Defense and aerospace giant",
-    "ar": "RTX - عملاق الدفاع والفضاء",
-    "ru": "RTX – оборонный и аэрокосмический гигант"
+    "he": "RTX (חברת ביטחון)",
+    "en": "RTX (Defense Company)",
+    "ar": "شركة RTX للدفاع",
+    "ru": "RTX (оборонная компания)"
    },
    "avg_edge": -1.22
   },
@@ -1194,14 +1194,14 @@
    "avg_edge": null
   },
   "GD": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ג'נרל דינמיקס – חברת ביטחונית ענקית",
-    "en": "General Dynamics – a major defense contractor",
-    "ar": "جنرال ديناميكس – مقاول دفاعي كبي",
-    "ru": "General Dynamics – крупный оборонный подрядчик"
+    "he": "ג'נרל דינמיקס",
+    "en": "General Dynamics",
+    "ar": "جنرال ديناميكس",
+    "ru": "General Dynamics"
    },
    "avg_edge": null
   },
