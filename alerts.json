@@ -42240,13 +42240,9 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 7,
   "confidence": "medium",
   "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVZIRjBab183eXg3NERJTXhPTEZ1V0hmYVBiQy1pY1JOUDNVa3ZWdTNCdGZjV1VIT05UMDA1UkRCbWlacVY0STFnR0p3aGxNTXlqUF96RVZxNEJPR29NTkJRVWJTdzZjRlFQYjBueVVmLUxneTRnLWs5TjhPaEVBNHNOSTN5MUV1OFHSAYoBQVVfeXFMTWgyYWpENlJKM2N1MGM3emZnLUdubUc2RjVvNnpwMzBpQi1tVnJzemJaRGdValJqV2VHbXVPYjh0TF9QM1lmTW9oV0dnbnpFQktNYnRDY1daWnJmdGFETTBRNHN3QjJHSUhzSVdXTlctNUM0SlVTdC1fZ1FVeVpfbmgxZlFtLWtacXBB?oc=5"
-   },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRTRrVGE3V0cxMi1WUGVqUktUV0RXa1pFM3E0ZC1QbHFlTFVJcU5UcHI4TWJTWUtJV2NUNlJidnl3cHFaWDREdGxRVDA5Q1JtSzdTTDNMWnp6V0N6NTIxQXpsbERHbXIxdXg0U0R5QWtvaElyOExNa1U4SXdoNnl2U1lhV0dpcUtKUlZFSUNYNlRER2duaDZwZFR5NXROakcwOEhRdjVkbU1PSWY2RVdjNUhub0N6Rk5BVEVaclhyWQ?oc=5"
@@ -42266,6 +42262,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU3Q1dkoyWlMxTm93aWlTUE45R1lEU1hib2hnOEM0R1Z6Z3RVY2NmWGh4NHR5eTFxRjZrWkhic0RpR280b19LUElaaHlZMjVQSHRPeW4wb1RLNFo0ejJjbGZHS3VLTENTeldwVmJDZ2lBeG1fTUVkZHctcW9zNkVRMnNlRUNDcDYtTXlDeU16Snc0VWVBdHVKRDlEQTROa0JubUkzazFPcERIZ05yWEVzc1NSczk?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR1VQWF8teWVleXRTczRVUHlydmpROFBJSkVlc0pXeXVEczFXamhSN0RDWWlkcUtPSGRGYjM0Nk0zNkItNWk1VmQtM3VHa0Z2V01DS0IzbFY1MGtqRFI2dGV4UnZZWndnWUtlV3hlSWpsUUJnSW9PLWk2RWExMTN0SGZaWGVQZw?oc=5"
    }
   ],
   "impacts": [
@@ -42371,9 +42371,21 @@
      "ar": "وسعت الولايات المتحدة استراتيجية الحصار ضد إيران، وفرضت عقوبات على ثماني شركات تشفير كندية بسبب معاملات مرتبطة بإيراني، واستهدفت سفينة تجارية في خليج عمان لخرقها الحصار.",
      "ru": "США расширили стратегию блокады против Ирана, ввели санкции против восьми канадских криптовалютных компаний за сделки, связанные с Ираном, и нанесли удар по торговому судну в Оманском заливе за нарушение блокады."
     }
+   },
+   {
+    "ts": 1794164429,
+    "time": "2026-11-08T19:00Z",
+    "severity": 7,
+    "summary": "מכליות נפט נפגעו במפרץ הורמוז, מה שמאיים על נתיבי הספנות ועלול להשפיע על מחירי האנרגיה.",
+    "i18n": {
+     "he": "מכליות נפט נפגעו במפרץ הורמוז, מה שמאיים על נתיבי הספנות ועלול להשפיע על מחירי האנרגיה.",
+     "en": "Shipping tankers were hit in the Strait of Hormuz, threatening vital shipping lanes and potentially impacting energy prices.",
+     "ar": "تعرضت ناقلات نفط للهجوم في مضيق هرمز، مما يهدد ممرات الشحن الحيوية وقد يؤثر على أسعار الطاقة.",
+     "ru": "В Ормузском проливе были атакованы нефтяные танкеры, что угрожает судоходным путям и может повлиять на цены на энергоносители."
+    }
    }
   ],
-  "last_update": 1794147351
+  "last_update": 1794164429
  },
  {
   "ts": 1794133080,
@@ -44285,5 +44297,121 @@
    }
   ],
   "id": "e8ef76cb1519"
+ },
+ {
+  "ts": 1794164429,
+  "time": "2026-11-08T19:00Z",
+  "title": "הצעת רכש פרטית ليנ손 הולדינגס במיליארדי רינגיט",
+  "summary": "קונסורציום בהובלת MISC הציע לרכוש ולהפוך את חברת Yinson Holdings לפרטית בעסקת ענק בסך 4.03 מיליארד רינגיט מלזי.",
+  "kid": "קבוצת חברות רוצה לקנות את כל המניות של חברת ענק כדי להוציא אותה מהבורסה. עסקאות ענק כאלו מראות על אמון בשוק.",
+  "i18n": {
+   "title": {
+    "he": "הצעת רכש פרטית ليנ손 הולדינגס במיליארדי רינגיט",
+    "en": "MISC-led Consortium Offers to Take Yinson Private",
+    "ar": "عرض استحواذ على ينصون هولدنجز",
+    "ru": "Консорциум во главе с MISC предлагает выкупить Yinson Holdings"
+   },
+   "summary": {
+    "he": "קונסורציום בהובלת MISC הציע לרכוש ולהפוך את חברת Yinson Holdings לפרטית בעסקת ענק בסך 4.03 מיליארד רינגיט מלזי.",
+    "en": "A MISC-led consortium offered to take Yinson Holdings private in an RM4.03 billion transaction.",
+    "ar": "قدم اتحاد بقيادة MISC عرضاً لتحويل ينصون هولدنجز إلى شركة خاصة في صفقة بقيمة 4.03 مليار رينغيت.",
+    "ru": "Консорциум во главе с MISC предложил выкупить акции Yinson Holdings за 4,03 млрд ринггитов."
+   },
+   "kid": {
+    "he": "קבוצת חברות רוצה לקנות את כל המניות של חברת ענק כדי להוציא אותה מהבורסה. עסקאות ענק כאלו מראות על אמון בשוק.",
+    "en": "A group of companies wants to buy all shares of a big firm to take it private. Big deals show strong market activity.",
+    "ar": "مجموعة شركات تريد شراء جميع أسهم شركة كبيرة لإخراجها من البورصة. الصفقات الكبيرة تدل على نشاط السوق.",
+    "ru": "Группа компаний хочет выкупить все акции крупной фирмы, сделав ее частной. Крупные сделки показывают активность рынка."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHo1TDJwU0hKQ3dNWWI4ZmtpYm8yZzc3dDZVRU1hbkVRMTVtTVduQzNucGZsMFl2eXRQakR0bmxnR3lEMjNwQnQwRWw1WGJCLUY1c1VWMFZ0aTc2SUQ5VHhURC1CSWpZMEx4Nmg1eDF0c3dkSUdGM2llZ3RJLWRzYm42d1h3Zi1aX281S29OVWV6X0FtRGFPUTZkS0JCRUFNWTM3R1pkNVFRRGlqLUE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "up",
+    "t0": 1794164429,
+    "reason": "עסקאות מיזוג ורכישה גדולות בשווקים מתעוררים מעידות על פעילות עסקית ענפה",
+    "reason_i18n": {
+     "he": "עסקאות מיזוג ורכישה גדולות בשווקים מתעוררים מעידות על פעילות עסקית ענפה",
+     "en": "Large M&A deals in emerging markets reflect active corporate environments",
+     "ar": "صفقات الدمج والاستحواذ الكبيرة تعكس نشاط الشركات",
+     "ru": "Крупные сделки M&A на развивающихся рынках отражают активность бизнеса"
+    },
+    "name_i18n": {
+     "he": "EEM - קרן שווקים מתעוררים",
+     "en": "EEM - Emerging Markets ETF",
+     "ar": "صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 59.33
+   }
+  ],
+  "id": "657fd982aadb"
+ },
+ {
+  "ts": 1794164429,
+  "time": "2026-11-08T19:00Z",
+  "title": "חוזה איתות בהיקף מיליארד רופי לבנגלור",
+  "summary": "פרויקט הרכבת הפרוורית של בנגלור קיבל דחיפה בדמות חוזה איתות בסך 1.017 מיליארד רופי.",
+  "kid": "חברת רכבות בהודו קיבלה הזמנה ענקית לשדרוג מערכות האיתות. זה עשוי לעזור לחברות בתחום התשתיות והרכבות.",
+  "i18n": {
+   "title": {
+    "he": "חוזה איתות בהיקף מיליארד רופי לבנגלור",
+    "en": "Rs 1,017-Crore Signalling Contract for Bengaluru Suburban Rail",
+    "ar": "عقد إشارات بمليار روبية لقطار بنغالور",
+    "ru": "Контракт на сигнализацию на 1 млрд рупий для Бангалора"
+   },
+   "summary": {
+    "he": "פרויקט הרכבת הפרוורית של בנגלור קיבל דחיפה בדמות חוזה איתות בסך 1.017 מיליארד רופי.",
+    "en": "The Bengaluru suburban rail project received a signalling push backed by a Rs 1,017-crore contract.",
+    "ar": "حصل مشروع قطار الضواحي في بنغالور على دفعة إشارات مدعومة بعقد بقيمة 1.017 مليار روبية.",
+    "ru": "Проект пригородных поездов в Бангалоре получил контракт на сигнализацию на сумму 1,017 млрд рупий."
+   },
+   "kid": {
+    "he": "חברת רכבות בהודו קיבלה הזמנה ענקית לשדרוג מערכות האיתות. זה עשוי לעזור לחברות בתחום התשתיות והרכבות.",
+    "en": "A railway project in India got a massive order to upgrade signals. This can help companies in infrastructure.",
+    "ar": "حصل مشروع قطارات في الهند على طلب ضخم لتطوير إشارات المرور. هذا يساعد شركات البنية التحتية.",
+    "ru": "Железнодорожный проект в Индии получил крупный заказ на обновление систем связи. Это помогает инфраструктурным компаниям."
+   }
+  },
+  "category": "contracts",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLVhsd3VBaGdLMktEejV0RndtblNnWFZNWThib1RHM1FCVDBvNGJRUFBMZGRTRXppNGhTZmVOOUJ3MVdVMnRLbFJyRXU0RWVwaE9xeGhGZUxqOGRGcDJhLUVHZEtYNUc2eEhvYTFVSjlWMzFZZXFsblE5N3U0Y0NTNVYxbE45MFA1?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1794164429,
+    "reason": "השקעות בתשתיות מקומיות תומכות בכלכלה וברגולציה בהודו",
+    "reason_i18n": {
+     "he": "השקעות בתשתיות מקומיות תומכות בכלכלה וברגולציה בהודו",
+     "en": "Local infrastructure investments support the Indian economy",
+     "ar": "استثمار البنية التحتية يدعم الاقتصاد الهندي",
+     "ru": "Инвестиции в инфраструктуру поддерживают экономику Индии"
+    },
+    "name_i18n": {
+     "he": "INDA - קרן סל השקעות בהודו",
+     "en": "INDA - India ETF",
+     "ar": "صندوق استثمار الهند",
+     "ru": "Индийский ETF"
+    },
+    "price_at_alert": 50.89
+   }
+  ],
+  "id": "58f1394ccd10"
  }
 ]
