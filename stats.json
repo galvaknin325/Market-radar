@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-08T06:24Z",
+ "generated": "2026-11-08T07:37Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 466,
+ "total_alerts": 471,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -222,14 +222,14 @@
    "avg_edge": -1.22
   },
   "SPY": {
-   "mentions": 44,
+   "mentions": 45,
    "n": 20,
    "hits": 10,
    "name": {
-    "he": "ספאיי - מדד S&P 500",
-    "en": "SPY - S&P 500 ETF",
-    "ar": "صندوق S&P 500",
-    "ru": "SPY - ETF индекса S&P 500"
+    "he": "קרן סל מדד S&P 500",
+    "en": "S&P 500 ETF",
+    "ar": "صندوق مؤشر S&P 500",
+    "ru": "ETF индекса S&P 500"
    },
    "avg_edge": 0.01
   },
@@ -354,14 +354,14 @@
    "avg_edge": -0.63
   },
   "QQQ": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 10,
    "hits": 3,
    "name": {
     "he": "קרן סל נאסד\"ק 100",
     "en": "Nasdaq 100 ETF",
-    "ar": "صندوق مؤشر ناسداك 100",
-    "ru": "ETF индекса Nasdaq 100"
+    "ar": "صندوق ناسداك 100",
+    "ru": "ETF Nasdaq 100"
    },
    "avg_edge": -0.58
   },
@@ -402,14 +402,14 @@
    "avg_edge": 5.31
   },
   "GLD": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "קרן סל זהב",
-    "en": "Gold Trust",
-    "ar": "صندوق الذهب",
-    "ru": "Золотой ETF"
+    "he": "קרן סל על זהב",
+    "en": "Gold Trust ETF",
+    "ar": "صندوق استثمار الذهب",
+    "ru": "ETF на золото"
    },
    "avg_edge": 0.12
   },
@@ -606,14 +606,14 @@
    "avg_edge": 1.44
   },
   "EWY": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 3,
    "hits": 2,
    "name": {
-    "en": "EWY – South Korea ETF",
-    "he": "EWY - קרן סל קוריאה הדרומית",
-    "ar": "EWY - صندوق كوريا الجنوبية",
-    "ru": "EWY - ETF Южной Кореи"
+    "he": "קרן סל דרום קוריאה",
+    "en": "South Korea ETF",
+    "ar": "صندوق كوريا الجنوبية",
+    "ru": "ETF Южной Кореи"
    },
    "avg_edge": 3.31
   },
@@ -738,14 +738,14 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "קרן סל חיטה – עוקבת אחר מחירי החיטה",
-    "en": "Teucrium Wheat Fund – tracks wheat prices",
-    "ar": "صندوق القمح – تتبع أسعار القمح",
-    "ru": "ETF на пшеницу – отслеживает цены на пшеницу"
+    "he": "קרן סל על חיטה",
+    "en": "Wheat ETF",
+    "ar": "صندوق استثمار القمح",
+    "ru": "ETF на пшеницу"
    },
    "avg_edge": 1.18
   },
@@ -1214,6 +1214,18 @@
     "en": "EIS - MSCI Israel ETF",
     "ar": "EIS - صندوق المؤشرات المتداولة لإسرائيل",
     "ru": "EIS - ETF израильских акций"
+   },
+   "avg_edge": null
+  },
+  "SLV": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל על כסף",
+    "en": "Silver Trust ETF",
+    "ar": "صندوق استثمار الفضة",
+    "ru": "ETF на серебро"
    },
    "avg_edge": null
   }
