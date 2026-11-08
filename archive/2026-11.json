@@ -42244,10 +42244,6 @@
   "confidence": "medium",
   "sources": [
    {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRTRrVGE3V0cxMi1WUGVqUktUV0RXa1pFM3E0ZC1QbHFlTFVJcU5UcHI4TWJTWUtJV2NUNlJidnl3cHFaWDREdGxRVDA5Q1JtSzdTTDNMWnp6V0N6NTIxQXpsbERHbXIxdXg0U0R5QWtvaElyOExNa1U4SXdoNnl2U1lhV0dpcUtKUlZFSUNYNlRER2duaDZwZFR5NXROakcwOEhRdjVkbU1PSWY2RVdjNUhub0N6Rk5BVEVaclhyWQ?oc=5"
-   },
-   {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know?traffic_source=rss"
    },
@@ -42266,6 +42262,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR1VQWF8teWVleXRTczRVUHlydmpROFBJSkVlc0pXeXVEczFXamhSN0RDWWlkcUtPSGRGYjM0Nk0zNkItNWk1VmQtM3VHa0Z2V01DS0IzbFY1MGtqRFI2dGV4UnZZWndnWUtlV3hlSWpsUUJnSW9PLWk2RWExMTN0SGZaWGVQZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWmVUOFdOblVWaGQ5NTlpMXRoVnJpWW5MU2FIT2t2VFNfTEQ4aXpYQS12Y1dfbDJpbmt4R2VYUkpPTFM3aFZsQVVnZHZkSGxxSUZJSnBwTkJpVnEzTm9DMlp6cnBHLUNGVi14Z0ZEcG5QY1lZaDMxV193Y3FBRGlheHNQbzAzSzFTbHBLR2UySnl4R1Ayak9wSVdWeFF5UDFfQm1tLVdLQmRFbzlZZkg2YkRPaGNIV21kUUU2QmJNbjlZYWctbnB6WXhTNmE?oc=5"
    }
   ],
   "impacts": [
@@ -42344,6 +42344,25 @@
      "ru": "XLE – ETF энергетического сектора"
     },
     "price_at_alert": 61.62
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794171406,
+    "reason": "עליית מחירי הנפט עקב סיכונים גיאופוליטיים תומכת במניות האנרגיה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט עקב סיכונים גיאופוליטיים תומכת במניות האנרגיה.",
+     "en": "Rising oil prices due to geopolitical risks support energy stocks.",
+     "ar": "ارتفاع أسعار النفط بسبب المخاطر الجيوسياسية يدعم أسهم الطاقة.",
+     "ru": "Рост цен на нефть из-за геополитических рисков поддерживает акции энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל – חברת אנרגיה גדולה",
+     "en": "ExxonMobil – major energy company",
+     "ar": "إكسون موبيل - شركة طاقة كبرى",
+     "ru": "ExxonMobil – крупная энергетическая компания"
+    },
+    "price_at_alert": 165.87
    }
   ],
   "id": "e1cabffcc283",
@@ -42383,9 +42402,21 @@
      "ar": "تعرضت ناقلات نفط للهجوم في مضيق هرمز، مما يهدد ممرات الشحن الحيوية وقد يؤثر على أسعار الطاقة.",
      "ru": "В Ормузском проливе были атакованы нефтяные танкеры, что угрожает судоходным путям и может повлиять на цены на энергоносители."
     }
+   },
+   {
+    "ts": 1794171406,
+    "time": "2026-11-08T20:56Z",
+    "severity": 6,
+    "summary": "הצבא האמריקאי דיווח כי ירתה על אונייה מסחרית במפרץ עומאן לאחר שניסתה לפרוץ חסימה ימית.",
+    "i18n": {
+     "he": "הצבא האמריקאי דיווח כי ירתה על אונייה מסחרית במפרץ עומאן לאחר שניסתה לפרוץ חסימה ימית.",
+     "en": "The US military stated it fired on a commercial vessel in the Gulf of Oman after it attempted to breach a maritime blockade.",
+     "ar": "أعلن الجيش الأمريكي أنه أطلق النار على سفينة تجارية في خليج عمان بعد محاولتها اختراق الحصار البحري.",
+     "ru": "Военные США сообщили, что открыли огонь по коммерческому судну в Оманском заливе после попытки прорыва блокады."
+    }
    }
   ],
-  "last_update": 1794164429
+  "last_update": 1794171406
  },
  {
   "ts": 1794133080,
@@ -45067,5 +45098,82 @@
    }
   ],
   "id": "51a6cb0fa0cc"
+ },
+ {
+  "ts": 1794171406,
+  "time": "2026-11-08T20:56Z",
+  "title": "אנבידיה חוקרת את קשרי המנכ\"ל עם חשוד בריגול סיני",
+  "summary": "חברת אנבידיה פתחה בחקירה פנימית לגבי הקשרים לכאורה בין המנכ\"ל ג'נסן הואנג לבין אדם החשוד כמרגל סיני.",
+  "kid": "בודקים באנבידיה האם למנכ\"ל היה קשר לאדם שחשוד בריגול למען סין. חדשות כאלה עלולות לגרום למניה לרדת כי אנשים פוחדים מבעיות רגולטוריות או ביטחוניות.",
+  "i18n": {
+   "title": {
+    "he": "אנבידיה חוקרת את קשרי המנכ\"ל עם חשוד בריגול סיני",
+    "en": "Nvidia Investigates CEO's Ties to Alleged Chinese Spy",
+    "ar": "نيديا تحقق في علاقات الرئيس التنفيذي بمتهم بالتجسس الصيني",
+    "ru": "Nvidia расследует связи гендиректора с предполагаемым китайским шпионом"
+   },
+   "summary": {
+    "he": "חברת אנבידיה פתחה בחקירה פנימית לגבי הקשרים לכאורה בין המנכ\"ל ג'נסן הואנג לבין אדם החשוד כמרגל סיני.",
+    "en": "Nvidia has launched an investigation into the alleged relationship between CEO Jensen Huang and an individual suspected of being a Chinese spy.",
+    "ar": "بدأت شركة نيديا تحقيقاً بشأن العلاقة المزعومة بين الرئيس التنفيذي جينسن هوانغ وشخص مشتبه بتجسسه لصالح الصين.",
+    "ru": "Компания Nvidia начала расследование в отношении предполагаемой связи генерального директора Дженсена Хуанга с лицом, подозреваемым в китайском шпионаже."
+   },
+   "kid": {
+    "he": "בודקים באנבידיה האם למנכ\"ל היה קשר לאדם שחשוד בריגול למען סין. חדשות כאלה עלולות לגרום למניה לרדת כי אנשים פוחדים מבעיות רגולטוריות או ביטחוניות.",
+    "en": "Nvidia is checking if its CEO had ties to a suspected Chinese spy. Such news can make the stock drop due to fears of regulatory trouble.",
+    "ar": "تتحقق نيديا مما إذا كان لمديرها ارتباط بشخص مشتبه بتجسسه لصالح الصين. قد تتسبب هذه الأخبار في انخفاض السهم بسبب مخاوف رقابية.",
+    "ru": "Nvidia проверяет, были ли у гендиректора связи с предполагаемым шпионом. Такие новости могут опустить акции из-за регуляторных рисков."
+   }
+  },
+  "category": "cyber",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794171406,
+    "reason": "חקירה הקשורה לביטחון לאומי וסין יוצרת אי-ודאות סביב הנהגת החברה והפעילות מול סין.",
+    "reason_i18n": {
+     "he": "חקירה הקשורה לביטחון לאומי וסין יוצרת אי-ודאות סביב הנהגת החברה והפעילות מול סין.",
+     "en": "A national security and China-related investigation creates uncertainty around leadership and China operations.",
+     "ar": "تحقيق متعلق بالأمن القومي والصين يخلق حالة عدم يقين بشأن قيادة الشركة وعملياتها بالصين.",
+     "ru": "Расследование, связанное с нацбезопасностью и Китаем, создает неопределенность вокруг руководства."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia – AI chip maker",
+     "ar": "نيديا - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia – производитель чипов ИИ"
+    },
+    "price_at_alert": 186.64
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794171406,
+    "reason": "פגיעה באמון באחת מענקיות השבבים עלולה להשפיע לרעה על סקטור הטכנולוגיה והשבבים כולו.",
+    "reason_i18n": {
+     "he": "פגיעה באמון באחת מענקיות השבבים עלולה להשפיע לרעה על סקטור הטכנולוגיה והשבבים כולו.",
+     "en": "A blow to confidence in a major chip giant can weigh on the broader semiconductor sector.",
+     "ar": "ضربة ثقة في إحدى كبرى شركات الرقائق قد تضغط على قطاع أشباه الموصلات بأكمله.",
+     "ru": "Удар по доверию к технологическому гиганту может оказать давление на весь полупроводниковый сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל על ענף השבבים",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 463.96
+   }
+  ],
+  "id": "912c3da4eb35"
  }
 ]
