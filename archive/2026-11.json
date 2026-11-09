@@ -46119,6 +46119,10 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -46159,6 +46163,25 @@
      "ru": "Природный газ"
     },
     "price_at_alert": 9.35
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794191936,
+    "reason": "שיבושים באספקת אנרגיה במזרח התיכון מעלים את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "שיבושים באספקת אנרגיה במזרח התיכון מעלים את מחירי הנפט.",
+     "en": "Energy supply disruptions in the Middle East drive up oil prices.",
+     "ar": "اضطرابات إمدادات الطاقة في الشرق الأوسط ترفع أسعار النفط.",
+     "ru": "Перебои с поставками энергоносителей на Ближнем Востоке повышают цены на нефть."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق استثمار للنفط",
+     "ru": "ETF на нефть"
+    },
+    "price_at_alert": 148.41
    }
   ],
   "id": "eabd56de982e",
@@ -46174,9 +46197,21 @@
      "ar": "أدى هجوم بطائرة مسيرة إلى تعليق الإنتاج في حقل خور مور للغاز في العراق، مما تسبب في انقطاع التيار الكهربائي على نطاق واسع في المنطقة الكردية.",
      "ru": "Атака беспилотников привела к приостановке добычи на газовом месторождении Хор-Мор в Ираке, что вызвало масштабные отключения электроэнергии в курдском регионе."
     }
+   },
+   {
+    "ts": 1794191936,
+    "time": "2026-11-09T02:38Z",
+    "severity": 6,
+    "summary": "מתקפת רחפנים עצרה את הייצור בשדה הגז כור מור בצפון עיראק, מה שגרם להפסקות חשמל נרחבות.",
+    "i18n": {
+     "he": "מתקפת רחפנים עצרה את הייצור בשדה הגז כור מור בצפון עיראק, מה שגרם להפסקות חשמל נרחבות.",
+     "en": "A drone attack halted production at the Khor Mor gas field in northern Iraq, causing widespread power outages.",
+     "ar": "أدى هجوم بطائرة مسيرة إلى توقف الإنتاج في حقل خور مور للغاز في شمال العراق، مما تسبب في انقطاع واسع للتيار الكهربائي.",
+     "ru": "Атака дронов остановила добычу на газовом месторождении Хор-Мор на севере Ирака, что привело к массовым отключениям электроэнергии."
+    }
    }
   ],
-  "last_update": 1794188770
+  "last_update": 1794191936
  },
  {
   "ts": 1794188770,
@@ -46205,16 +46240,32 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 7,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0NWlKUjlMaE54NnI2VUhSNktuS3BpWEtldEk4ZklwbDFaLUVGaXcxdVY3ZllyX1o5aFNNX1R0dC03Zzc3NFVkSVdTZDl5dTg0UUF4R1lLQXNlT3NmS29zVjhqQWZPVVU5OXlpLXpWdmpSeEJCVWhrY1FUcnc0REduM3VITEs0TXRvLXRtLUxXMUZYaWl5NmYxZml3MDQzUDMxU20wbWdHWWMzbERkeVZHTQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZVpJa1ZxY04ydUdSQW5OV1lOS01ZMHc0dE9DYjBWNkE4NEF0R0F1SzNxdTZINW1mbkVZdW5vOUMxV1Zuem9sbDVRcDFISG1vcy1GcU03NEdWNlNLcXJCUTRFbDQtQUpySFE0MnE0UktRd3Qwb1JiUjR2Q2hPS1QyNHZyZEtWTXhUeFBQWHYzUzhyMjlLMTA5RDVTV1lVTzdkSWM5X2JPb2JwcFV5ajNuaWxUZ3N4cnFmMWotSldPbTBqTVVNOHlBdUVrNmg1Zw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUEJFX1dZamNQWFVkVlN1dktqRFROYU1JZ05COHhORWJMRmk2X2duczMtcDFQUWo2MjBrLUtYWlFjQWFUMDNycjIwclBWc0QtUWJQT3Y1QlpmOXFSYjdkalBUbTg2anRBRXV2MFprcnpxV1JZRHJxbmtUYng4ekV4LTdsZDZlZ2hSZEV1Zmt4RHRmMnBreGE3N3Rn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSmlRSlltN0M3a1ZWNmNEcjAyTGo1cWtBT0s5ZFNRQTNtNDZHUlduT3Z1bWM3ZU4yc0JJenFQY3hGcEdPX0FNSENNcEtBUEpYUmlqTThxRFZvcVY3b1JBQm5CVDdEd3BsaDRGQzRDMFB2ZzdRUEIzbXdqY3p0eFB6MTZ6cVVHRzQ2UHV6cnBGOWM5WFdSZzFmd2YzeTBLSHhtX2M2RXJIYVBPSEpvM3k1QXRBMzIwS3R2aEJXUV91THNtWVE3MmxNSmJUOWpVbmtwUTlScWk0cVcyWXZlckRB?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZVhoU1ZTV3dxY1ZlTmpxVXZ5UUJkc0U4V3c0SkVGamxKMW9HaGg4NEZZbGtKQVZmbkxPUE1scnpwMG1FSnV4amVaQktEWktHcGJERzJWNG91eUpqOThmcUFqcUFxRXFHNlNxdEFqeWxldDNZNmRPbkM?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZnBtMk5NRjY1eThZeDlYQUJUV2xZYkpTaDFSVEdYVS1mZjZLOTBhckZJMHVTN0ZpSzF0Y3NvMXVVNkh0ZWVsc3plQkVTeUNfNWQzVXJ0em9hN3QyUW9IcUM2c2NNdzZUSS1Mb1k3dkJYMFJSX3VLWnNhOElsNngyWkxjUmVpQnc5RDdNd2VKTEkycUs1SUJLbk1UYlVDVWZtdUNWWmtYUVlkT0JT?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWkVnRDYtRW9PTWZQRC1CVGJYZmhMeDZCUUEwc1FhMkkyaVBzZFNIM0ppYzhGcEZfUGEtN2lSX3dpM1NUcVB1OGU0WnRpUkFWME8tMEhGc1M3MllSQTg3VmNKODVhUTF3ckYzbExsQkR6b2FwbnBIczVkVW9QX3U0d2lnZFc1c2QwYkl6elYtMkJkYkNqRjhvN3R1UTVYRkdnVVJxMFpRVXZnRllfaWNkQmhFcFBjZHpsak1ZY3ljUk5qQmlLWlpDd3N5NWlkeU5RQU1aZUtuNWREa2U5bU93aDlnSHRyd1BEX2pGRnVTd2JFVlhq?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY2FpVjFlY01fM0FacVBIYS1aQ1RDcjZHeFZDbDdqdWlHUW1keHlBMmF6TXRQeU92VGNVejBGaDJSRG9vTEJiNWhuaTEtODVhTDhSTXlBRklvR3FRazZ3aWFlTGtpOFdIS3Z6UlNmM0hxaTRnOXVWU0dqQ2l6dVJIZGNsbFpXQQ?oc=5"
    }
   ],
   "impacts": [
@@ -46236,9 +46287,43 @@
      "ru": "ETF на крупные китайские компании"
     },
     "price_at_alert": 34.95
+   },
+   {
+    "ticker": "XLB",
+    "direction": "up",
+    "t0": 1794191936,
+    "reason": "עליית מחירי היצרן משקפת לעיתים עלייה בביקוש לחומרי גלם.",
+    "reason_i18n": {
+     "he": "עליית מחירי היצרן משקפת לעיתים עלייה בביקוש לחומרי גלם.",
+     "en": "Rising producer prices often reflect increased demand for raw materials.",
+     "ar": "غالباً ما تعكس أسعار المنتجين المرتفعة زيادة في الطلب على المواد الخام.",
+     "ru": "Рост цен производителей часто отражает увеличение спроса на сырье."
+    },
+    "name_i18n": {
+     "he": "סקטור חומרי הגלם",
+     "en": "Materials Sector",
+     "ar": "قطاع المواد الأساسية",
+     "ru": "Сектор материалов"
+    },
+    "price_at_alert": 51.95
    }
   ],
-  "id": "57a1d82c897b"
+  "id": "57a1d82c897b",
+  "updates": [
+   {
+    "ts": 1794191936,
+    "time": "2026-11-09T02:38Z",
+    "severity": 7,
+    "summary": "מדד מחירי היצרן (PPI) בסין עלה ב-5.7% באוקטובר, העלייה החדה ביותר מזה ארבע שנים, בעוד האינפלציה לצרכן נותרה מתונה.",
+    "i18n": {
+     "he": "מדד מחירי היצרן (PPI) בסין עלה ב-5.7% באוקטובר, העלייה החדה ביותר מזה ארבע שנים, בעוד האינפלציה לצרכן נותרה מתונה.",
+     "en": "China's Producer Price Index (PPI) rose 5.7% in October, the highest in over four years, while consumer inflation remains muted.",
+     "ar": "ارتفع مؤشر أسعار المنتجين في الصين بنسبة 5.7% في أكتوبر، وهو أعلى مستوى منذ أربع سنوات، بينما ظل تضخم المستهلكين معتدلاً.",
+     "ru": "Индекс цен производителей (PPI) в Китае вырос на 5,7% в октябре, что стало самым высоким показателем за четыре года, в то время как потребительская инфляция остается умеренной."
+    }
+   }
+  ],
+  "last_update": 1794191936
  },
  {
   "ts": 1794188770,
@@ -46297,5 +46382,63 @@
    }
   ],
   "id": "27ed1227c198"
+ },
+ {
+  "ts": 1794191936,
+  "time": "2026-11-09T02:38Z",
+  "title": "שביתת עובדים במכרה הנחושת היילנד ואלי",
+  "summary": "עובדי מכרה הנחושת היילנד ואלי פתחו בשביתה, מה שמעורר חששות לשיבושים באספקת הנחושת.",
+  "kid": "עובדים במכרה נחושת הפסיקו לעבוד. מכיוון שנחושת חשובה מאוד לבניית מכוניות ומוצרי חשמל, מחירה עלול לעלות.",
+  "i18n": {
+   "title": {
+    "he": "שביתת עובדים במכרה הנחושת היילנד ואלי",
+    "en": "Highland Valley Copper strike",
+    "ar": "إضراب عمال منجم النحاس في هايلاند فالي",
+    "ru": "Забастовка на медном руднике Хайленд-Вэлли"
+   },
+   "summary": {
+    "he": "עובדי מכרה הנחושת היילנד ואלי פתחו בשביתה, מה שמעורר חששות לשיבושים באספקת הנחושת.",
+    "en": "Workers at the Highland Valley Copper mine have gone on strike, raising concerns about copper supply disruptions.",
+    "ar": "بدأ عمال منجم النحاس في هايلاند فالي إضراباً، مما يثير مخاوف بشأن اضطرابات في إمدادات النحاس.",
+    "ru": "Работники медного рудника Хайленд-Вэлли начали забастовку, что вызывает опасения по поводу перебоев в поставках меди."
+   },
+   "kid": {
+    "he": "עובדים במכרה נחושת הפסיקו לעבוד. מכיוון שנחושת חשובה מאוד לבניית מכוניות ומוצרי חשמל, מחירה עלול לעלות.",
+    "en": "Workers at a copper mine stopped working. Since copper is very important for building cars and electronics, its price might go up.",
+    "ar": "توقف العمال في منجم النحاس عن العمل. وبما أن النحاس مهم جداً لصناعة السيارات والإلكترونيات، فقد يرتفع سعره.",
+    "ru": "Рабочие на медном руднике прекратили работу. Поскольку медь очень важна для производства автомобилей и электроники, ее цена может вырасти."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1VUY0UxSFh5REVLWjFkVzA1bS1lRXRxZkhMZERNUF9hei04ajY5UTM0YmZEb2Y3UlZGellaZ2JJX1c0aGp2XzEtU2FhaGNQdGdVMHdpYnVXNTVfVWtJTmhWd2hWREljb3hVTjY0d051RnZaeTFDMW1WT2ZHQ25CbUZ4TmdZQ0pnUGcyRG4zQVpFYldyaVlRSzFTTlE1c2NpTlFwb1RNVQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794191936,
+    "reason": "שביתות במכרות גדולים מצמצמות את היצע הנחושת בשוק.",
+    "reason_i18n": {
+     "he": "שביתות במכרות גדולים מצמצמות את היצע הנחושת בשוק.",
+     "en": "Strikes at major mines reduce the supply of copper in the market.",
+     "ar": "الإضرابات في المناجم الكبرى تقلل من إمدادات النحاس في السوق.",
+     "ru": "Забастовки на крупных рудниках сокращают предложение меди на рынке."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق استثمار للنحاس",
+     "ru": "ETF на медь"
+    },
+    "price_at_alert": 37.67
+   }
+  ],
+  "id": "cb61b60d088e"
  }
 ]
