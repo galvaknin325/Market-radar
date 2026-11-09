@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T20:51Z",
+ "generated": "2026-11-09T21:48Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 599,
+ "total_alerts": 602,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 62,
+   "mentions": 63,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "נפט גולמי",
-    "en": "Crude oil ETF",
-    "ar": "صندوق النفط الخام",
-    "ru": "ETF сырой нефти"
+    "he": "קרן סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط المتداول",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 53,
+   "mentions": 54,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "קרן סל אנרגיה - XLE",
-    "en": "XLE – energy sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE — ETF энергетического сектора"
+    "he": "מגזר האנרגיה",
+    "en": "Energy Sector ETF",
+    "ar": "قطاع الطاقة",
+    "ru": "Энергетический сектор"
    },
    "avg_edge": -1.05
   },
@@ -258,14 +258,14 @@
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 22,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike – cybersecurity firm",
-    "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike — компания по кибербезопасности"
+    "he": "CrowdStrike - חברת אבטחת סייבר",
+    "en": "CrowdStrike - Cybersecurity firm",
+    "ar": "كراود سترايك - شركة أمن سيبراني",
+    "ru": "CrowdStrike - компания по кибербезопасности"
    },
    "avg_edge": -4.09
   },
@@ -1286,6 +1286,18 @@
     "en": "Disney – entertainment and media giant",
     "ar": "ديزني - عملاق الترفيه والإعلام",
     "ru": "Disney – развлекательный и медиагигант"
+   },
+   "avg_edge": null
+  },
+  "LCID": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Lucid - יצרנית רכב חשמלי",
+    "en": "Lucid - EV manufacturer",
+    "ar": "لوسيد - مصنع سيارات كهربائية",
+    "ru": "Lucid - производитель электромобилей"
    },
    "avg_edge": null
   }
