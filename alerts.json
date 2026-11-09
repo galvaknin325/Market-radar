@@ -45225,6 +45225,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOMlc3cHBkNlhjNXlOUUlMTVpCSF9iMnJQbl95NE95aGctbC1TQzNvcE1PVHhGVkdXVU5teUZYWEVsZ0RNUzFKTU5MaTF4R3ktR2kxZTRqLW9MQndUdzFTYlh5QlVmQWJvUmNYb01XbWFsRElybDFKemppRVZOOTZ1ZUtsWk1JU0Q0NkM2N2VEY3FiLWpDMFlnMVJfTndYVHVNZlUyQVB0ZHpjOENJLUJVM3E4TXVNODF4VXh2czBNXzd3S3VLUDhKT3hsVUEyMlAycjliSWdqUFlaX29neDdaVnIxZnNDNm5XdF94N2E5eEVtZ1FkUWJscUpKeENQdEN4ajJja3hITkN2ZTEyY0pVMTJxQi1lUTF1LUpWamRyV1lTOVMxQTRwOFdhZmtVWXhYUEZJbVdoU3BMYmdPVEHSAcMCQVVfeXFMTU5GNU0xNWtYTWlFdlBXSDlNZG5nOXNjY2lZcEVQQUJUdF9zMGZPNjZrOGU3SDJSYngzT1FWUTRLd0k1V0VYeW5XM0NsUThfNlZzSF9fTjJSM1dLVWtuU0lfMFF4eElZbVlsamc1dHB1bHB4aG9CN0FHOV8teFllZkZmTlFJZ1VXbGZVMl9PTTJqcVN3OFFGQmR2eUFRczVNTXNfek5IeHNkanVMR2tfZVluNWR1M1J6VlNvdUY0YldUbkg1Mi0yOGZ4bXZOTWhSdkxaS1ZZVkQ3ajBuR0wxNTFCczc4LU1FUFEtWTBud2RSRVBWRUZsck5ONGoxQ1ppZFNVVzN5bXo2TzhMekNYUnRCVHo1enFQVkZsMjA1WWw3ZnhnNkZGT2JhRjVJMkpPR2NEajZDdUlGbjB6QVRvc2dyVFE?oc=5"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -45265,6 +45273,25 @@
      "ru": "ETF полупроводников"
     },
     "price_at_alert": 463.96
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794183615,
+    "reason": "פגיעה במניית ענק טכנולוגית מרכזית עלולה להכביד על המדד כולו.",
+    "reason_i18n": {
+     "he": "פגיעה במניית ענק טכנולוגית מרכזית עלולה להכביד על המדד כולו.",
+     "en": "A blow to a major tech giant could weigh on the broader index.",
+     "ar": "ضربة لعملاق تكنولوجي رئيسي قد تضغط على المؤشر الأوسع.",
+     "ru": "Удар по крупному техногиганту может оказать давление на весь индекс."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100",
+     "ru": "ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 656.1
    }
   ],
   "id": "912c3da4eb35",
@@ -45292,9 +45319,21 @@
      "ar": "أكد جنسن هوانغ للموظفين التقارير التي تفيد بأنه كان على علاقة مع امرأة متهمة بالتجسس لصالح الصين.",
      "ru": "Дженсен Хуанг подтвердил сотрудникам сообщения о том, что у него был роман с женщиной, обвиняемой в шпионаже в пользу Китая."
     }
+   },
+   {
+    "ts": 1794183615,
+    "time": "2026-11-09T00:20Z",
+    "severity": 5,
+    "summary": "אנבידיה פותחת בחקירת אבטחה בעקבות קשרים של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני.",
+    "i18n": {
+     "he": "אנבידיה פותחת בחקירת אבטחה בעקבות קשרים של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני.",
+     "en": "Nvidia is launching a security investigation into CEO Jensen Huang following links to a person suspected of Chinese espionage.",
+     "ar": "تطلق إنفيديا تحقيقاً أمنياً بشأن الرئيس التنفيذي جنسن هوانغ على خلفية علاقات مع شخص مشتبه به بالتجسس الصيني.",
+     "ru": "Nvidia начинает расследование безопасности в отношении гендиректора Дженсена Хуанга из-за связей с лицом, подозреваемым в китайском шпионаже."
+    }
    }
   ],
-  "last_update": 1794178333
+  "last_update": 1794183615
  },
  {
   "ts": 1794176026,
@@ -45917,5 +45956,144 @@
    }
   ],
   "id": "101d83a99876"
+ },
+ {
+  "ts": 1794183615,
+  "time": "2026-11-09T00:20Z",
+  "title": "מתקפת טילים על ריאד ומתקני ארמקו",
+  "summary": "מליציית החות'ים טוענת שביצעה מתקפת טילים שפעה במגדל ארמקו ובמרכז הפיננסי בריאד.",
+  "kid": "פיצוצים וכטב\"מים באזורי נפט ונכסים בסעודיה מפחידים את השווקים בנוגע לאספקת הנפט העולמית, מה שעלול להעלות את מחירי הדלק.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת טילים על ריאד ומתקני ארמקו",
+    "en": "Missile attack on Riyadh and Aramco facilities",
+    "ar": "הجوم صاروخي على الرياض ومنشآت أرامكو",
+    "ru": "Ракетный удар по Эр-Рияду и объектам Aramco"
+   },
+   "summary": {
+    "he": "מליציית החות'ים טוענת שביצעה מתקפת טילים שפעה במגדל ארמקו ובמרכז הפיננסי בריאד.",
+    "en": "The Houthi militia claims responsibility for missile strikes hitting the Aramco tower and financial district in Riyadh.",
+    "ar": "تزعم ميليشيا الحوثي تنفيذ هجمات صاروخية أصابت برج أرامكو والمركز المالي في الرياض.",
+    "ru": "Хуситы заявляют о нанесении ракетных ударов по башне Aramco и финансовому центру в Эр-Рияде."
+   },
+   "kid": {
+    "he": "פיצוצים וכטב\"מים באזורי נפט ונכסים בסעודיה מפחידים את השווקים בנוגע לאספקת הנפט העולמית, מה שעלול להעלות את מחירי הדלק.",
+    "en": "Explosions and drone strikes in Saudi Arabia worry markets about oil supplies, which can push crude oil prices up.",
+    "ar": "الانفجارات والهجمات في السعودية تقلق الأسواق بشأن إمدادات النفط، مما قد يرفع أسعار النفط.",
+    "ru": "Взрывы и удары в Саудовской Аравии беспокоят рынки относительно поставок нефти, что может поднять цены на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZEFwdVJlTnBIQ0x4VXhLaHdHYnpwa0FzVTB0S3AtNHdNRUVKVm1IWWh0cU1GdE9ZVFMxWmtxczZKZE5Zc3V3TF9ZbXE1XzNqSDNBM0FkTzBZYjhIMWpLcW82b3c3cXloWWU3N0x1WVZRTHN0cnYzQjlsRklTejRzWGZIQUpPbnh5Umpz?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWWZsRmVxOFJHSVlIYTF2eUlYZVh4YzBtRmUxek9pTkFIMURIUHNPY29tSkZ5YUl6OUlxMm9HeVNpOE5ZMzBDbkhndW0wWWFuMDRuY2NqYlZwdnhaa0RJZm9mUS15QkJuOEFTMWt4aTJQdVNrMkRtRFExbFNFa0cya3RreVJEM3pvUWRWUmxvVFRTdkFpQWJWY3hXcFRteHJuMG1kdUVhSjN0dw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794183615,
+    "reason": "הסלמה ביטחונית במפרץ הפרסי מעוררת חשש לפגיעה באספקת הנפט.",
+    "reason_i18n": {
+     "he": "הסלמה ביטחונית במפרץ הפרסי מעוררת חשש לפגיעה באספקת הנפט.",
+     "en": "Security escalation in the Persian Gulf raises concerns over oil supply disruptions.",
+     "ar": "التصعيد الأمن في الخليج العربي يثير المخاوف بشأن تعطيل إمدادات النفط.",
+     "ru": "Эскалация безопасности в Персидском заливе вызывает опасения по поводу перебоев с поставками нефти."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام الأمريكي",
+     "ru": "ETF на сырую нефть"
+    },
+    "price_at_alert": 148.41
+   },
+   {
+    "ticker": "KSA",
+    "direction": "down",
+    "t0": 1794183615,
+    "reason": "פגיעה פיזית בתשתיות ובמרכזים פיננסיים במדינה פוגעת בסנטימנט המשקיעים.",
+    "reason_i18n": {
+     "he": "פגיעה פיזית בתשתיות ובמרכזים פיננסיים במדינה פוגעת בסנטימנט המשקיעים.",
+     "en": "Physical damage to infrastructure and financial centers hurts investor sentiment.",
+     "ar": "الضرر المادي للبنية التحتية والمراكز المالية يضر بمعنويات المستثمرين.",
+     "ru": "Физический ущерб инфраструктуре и финансовым центрам ухудшает настроения инвесторов."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סעודיה",
+     "en": "iShares MSCI Saudi Arabia ETF",
+     "ar": "صندوق مؤشر السعودية",
+     "ru": "ETF на Саудовскую Аравию"
+    },
+    "price_at_alert": 35.03
+   }
+  ],
+  "id": "b2afcee69a43"
+ },
+ {
+  "ts": 1794183615,
+  "time": "2026-11-09T00:20Z",
+  "title": "פגיעת רחפון במתקן הגז כור מור בעיראק",
+  "summary": "כטב\"ם תקף את מתקן הגז כור מור באזור כורדיסטן בעיראק, והותיר למעלה מ-70 אחוזים מהאזור ללא חשמל.",
+  "kid": "פגיעה במתקן אנרגיה חשוב בעיראק משבשת את אספקת החשמל והאנרגיה המקומית ומגבירה את החשש מהסלמה באזור.",
+  "i18n": {
+   "title": {
+    "he": "פגיעת רחפון במתקן הגז כור מור בעיראק",
+    "en": "Drone strike hits Khor Mor gas facility in Iraq",
+    "ar": "هجوم بطائرة مسيرة يضرب منشأة خور مور للغاز في العراق",
+    "ru": "Удар беспилотника по газовому объекту Хор-Мор в Ираке"
+   },
+   "summary": {
+    "he": "כטב\"ם תקף את מתקן הגז כור מור באזור כורדיסטן בעיראק, והותיר למעלה מ-70 אחוזים מהאזור ללא חשמל.",
+    "en": "A drone struck the Khor Mor gas facility in Iraq's Kurdish region, leaving over 70 percent of the area without power.",
+    "ar": "ضربت طائرة مسيرة منشأة خور مور للغاز في إقليم كردستان العراق، مما أدى إلى انقطاع الكهرباء عن أكثر من 70 بالمئة من المنطقة.",
+    "ru": "Беспилотник ударил по газовому объекту Хор-Мор в Иракском Курдистане, оставив без электричества более 70 процентов региона."
+   },
+   "kid": {
+    "he": "פגיעה במתקן אנרגיה חשוב בעיראק משבשת את אספקת החשמל והאנרגיה המקומית ומגבירה את החשש מהסלמה באזור.",
+    "en": "An attack on a key energy plant in Iraq disrupts local power and energy supplies, raising regional escalation fears.",
+    "ar": "الهجوم على محطة طاقة رئيسية في العراق يعطل إمدادات الطاقة المحلية ويزيد المخاوف من التصعيد الإقليمي.",
+    "ru": "Атака на ключевую электростанцию в Ираке нарушает местное энергоснабжение, усиливая опасения региональной эскалации."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794183615,
+    "reason": "שיבושי אנרגיה במזרח התיכון תומכים بمחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "שיבושי אנרגיה במזרח התיכון תומכים بمחירי האנרגיה.",
+     "en": "Energy disruptions in the Middle East support energy prices.",
+     "ar": "اضطرابات الطاقة في الشرق الأوسط تدعم أسعار الطاقة.",
+     "ru": "Перебои с энергетикой на Ближнем Востоке поддерживают цены на энергоносители."
+    },
+    "name_i18n": {
+     "he": "תעודת סל אנרגיה",
+     "en": "Energy Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 61.62
+   }
+  ],
+  "id": "eabd56de982e"
  }
 ]

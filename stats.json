@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-08T23:35Z",
+ "generated": "2026-11-09T00:20Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 521,
+ "total_alerts": 523,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 51,
+   "mentions": 52,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "קרן סל נפט גולמי – עוקבת אחר מחירי הנפט",
-    "en": "US Oil Fund – tracks crude oil prices",
-    "ar": "صندوق النفط الأمريكي - يتتبع أسعار النفط الخام",
-    "ru": "Нефтяной фонд США – отслеживает цены на сырую нефть"
+    "he": "תעודת סל נפט גולמי",
+    "en": "United States Oil Fund",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "ETF на сырую нефть"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - קרן סל אנרגיה",
-    "en": "XLE - Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "תעודת סל אנרגיה",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
@@ -354,14 +354,14 @@
    "avg_edge": -0.63
   },
   "QQQ": {
-   "mentions": 22,
+   "mentions": 23,
    "n": 10,
    "hits": 3,
    "name": {
-    "he": "נאסד\"ק 100 – עוקב אחר מניות הטכנולוגיה הגדולות",
-    "en": "Nasdaq 100 ETF – tracks major tech stocks",
-    "ar": "صندوق ناسداك 100 - يتتبع أسهم التكنولوجيا الكبرى",
-    "ru": "Nasdaq 100 ETF – отслеживает крупные технологические акции"
+    "he": "תעודת סל נאסד\"ק 100",
+    "en": "Nasdaq 100 ETF",
+    "ar": "صندوق مؤشر ناسداك 100",
+    "ru": "ETF на индекс Nasdaq 100"
    },
    "avg_edge": -0.58
   },
@@ -894,14 +894,14 @@
    "avg_edge": 6.21
   },
   "KSA": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "קרן סל על שוק המניות של סעודיה",
+    "he": "תעודת סל סעודיה",
     "en": "iShares MSCI Saudi Arabia ETF",
-    "ar": "صندوق أسهم السعودية",
-    "ru": "ETF акций Саудовской Аравии"
+    "ar": "صندوق مؤشر السعودية",
+    "ru": "ETF на Саудовскую Аравию"
    },
    "avg_edge": -4.02
   },
