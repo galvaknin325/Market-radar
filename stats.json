@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T05:46Z",
+ "generated": "2026-11-09T06:51Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 539,
+ "total_alerts": 544,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 54,
+   "mentions": 55,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO – קרן סלי עוקבת אחר מחיר הנפט הגולמי",
-    "en": "USO – United States Oil Fund",
-    "ar": "USO – صندوق أسعار النفط الخام الأمريكي",
-    "ru": "USO – фонд нефтяных фьючерсов"
+    "he": "USO - קרן סל נפט גולמי",
+    "en": "USO - United States Oil Fund",
+    "ar": "USO - صندوق النفط الخام الأمريكي",
+    "ru": "USO - фонд нефти США"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 45,
+   "mentions": 46,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - קרן סל על ספקטור האנרגיה האמריקאי",
-    "en": "XLE - US Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
-    "ru": "XLE - ETF энергетического сектора США"
+    "he": "XLE - קרן סל אנרגיה",
+    "en": "XLE - Energy Select Sector SPDR Fund",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - фонд энергетического сектора"
    },
    "avg_edge": -1.05
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 87,
+   "mentions": 88,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "ITA – קרן סלי לתעופה וביטחון בארה\"ב",
-    "en": "ITA – US Aerospace & Defense ETF",
-    "ar": "ITA – صندوق المؤشرات لقطاع الطيران والدفاع الأمريكي",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
+    "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
+    "en": "ITA - US Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "ITA - биржевой фонд аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -6.21
   },
@@ -222,14 +222,14 @@
    "avg_edge": -1.22
   },
   "SPY": {
-   "mentions": 54,
+   "mentions": 56,
    "n": 20,
    "hits": 10,
    "name": {
-    "he": "SPY - מדד המניות המרכזי בארה\"ב",
-    "en": "SPY - Broad US stock market ETF",
-    "ar": "SPY - صندوق تداول الأسهم الأمريكية الواسع",
-    "ru": "SPY - ETF широкого рынка акций США"
+    "he": "SPY - קרן מדד S&P 500",
+    "en": "SPY - S&P 500 ETF",
+    "ar": "SPY - صندوق مؤשר S&P 500",
+    "ru": "SPY - фонд индекса S&P 500"
    },
    "avg_edge": 0.01
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 41,
+   "mentions": 42,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "LMT – לוקהיד מרטין (בעלת סיקורסקי)",
-    "en": "LMT – Lockheed Martin (Sikorsky owner)",
-    "ar": "LMT – لوكهيد مارتن (المالكة لشركة سيكورسكي)",
-    "ru": "LMT – Lockheed Martin (владелец Sikorsky)"
+    "he": "לוקהיד מרטין - חברת ביטחון ענקית",
+    "en": "Lockheed Martin - Major Defense Contractor",
+    "ar": "لوكهيد مارتن - مقاول دفاعي رئيسي",
+    "ru": "Lockheed Martin - крупный оборонный подрядчик"
    },
    "avg_edge": -4.05
   },
@@ -402,14 +402,14 @@
    "avg_edge": 5.31
   },
   "GLD": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "זהב",
-    "en": "Gold",
-    "ar": "الذهب",
-    "ru": "Золото"
+    "he": "GLD - קרן סל מוזהבת",
+    "en": "GLD - SPDR Gold Shares",
+    "ar": "GLD - صندوق المؤشرات المتداولة للذهب",
+    "ru": "GLD - биржевой фонд золота"
    },
    "avg_edge": 0.12
   },
@@ -822,14 +822,14 @@
    "avg_edge": -1.34
   },
   "XAR": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "XAR – קרן סלי תעופה וביטחון",
-    "en": "XAR – SPDR S&P Aerospace & Defense ETF",
-    "ar": "XAR – صندوق الطيران والدفاع الأمريكي",
-    "ru": "XAR – ETF аэрокосмической и оборонной промышленности"
+    "en": "XAR - Aerospace & Defense ETF",
+    "he": "XAR - קרן סל תעופה וביטחון",
+    "ar": "XAR - صندوق قطاع الطيران والدفاع",
+    "ru": "XAR - биржевой фонд аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -4.18
   },
@@ -978,14 +978,14 @@
    "avg_edge": 13.58
   },
   "FXI": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "קרן סל מניות סיניות גדולות",
-    "en": "China Large-Cap ETF",
-    "ar": "صندوق الأسهم الصينية الكبرى",
-    "ru": "ETF крупных китайских акций"
+    "he": "FXI - קרן מניות סין הגדולות",
+    "en": "FXI - China Large-Cap ETF",
+    "ar": "FXI - صندوق أسهم الصين الكبرى",
+    "ru": "FXI - фонд крупных китайских акций"
    },
    "avg_edge": -3.11
   },
@@ -1254,14 +1254,14 @@
    "avg_edge": null
   },
   "HII": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "HII – הנטינגטון אינגלס (בניית ספינות בארה\"ב)",
-    "en": "HII – Huntington Ingalls Industries (US shipbuilding)",
-    "ar": "HII – هنتنغتون إنغلس (لبناء السفن في أمريكا)",
-    "ru": "HII – Huntington Ingalls Industries (судостроение США)"
+    "he": "הנטינגטון אינגלס - בונה ספינות צבאיות",
+    "en": "Huntington Ingalls - Military Shipbuilder",
+    "ar": "هنتنجتون إنغالس - بناء السفن العسكرية",
+    "ru": "Huntington Ingalls - производитель военных судов"
    },
    "avg_edge": null
   }
