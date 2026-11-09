@@ -44716,9 +44716,22 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPLW1kZ0xtci1QTnN6OHpaNFktcTFLbURrYmxMZFBkb05rRjBENW5POHQ2UDE4MERnU2tWVWJsSXhpVzNyV1F5MHlUc0JBV0dVdjE3Y1pnNUpKdFBlLUhkeDFLdDVqOGdYZzFseXlxeVZ5YVJJdW02UXBTbXVRMVp3QlcyM204cVY4QUFIVGNQQUVOTGdGMVRMMnZnOUJEbWprYzFqVHhydkJnUEo3a29tWUlycVI1bHVwNlBiSWNXY2RtVGpreVBWbjE2TUpCeEk2dXJHNWJ1WjljN1hFWXIxUm9pSEdZVUVCVXAzSXd6UWx6U1U5blFZU2RadGs0VFhOSFpnWnRoVzdnZlZ1eUpnQlhHakRVS0Fwb3lTZnJn0gGjAkFVX3lxTE8ycHVuNmE5NmJRbGpkUjloc0RKX3JDTUpQVjVmTFJybFlxOGpXWkFJWUdOWTFWWUhxMWttd1BheDVqZWF2X3VmcFc1OGh0elBDQzl1RVpMM2ZUTy1lSmtwZEp3RFBSLTVQQjkyRG5oUWR1ank4emNLdHNsWUlTS0ZxbGN0ZU05SUNTNU0zTlBWWFF5bGdISHhHbFhUcGFoMHZZMHc1S0puRTZPa0planhCNUktTzVpdmpmaTRCaU5ET3BXNGtDMVZ1YmNCV3hqX3pLUDU4TFhsWktqMkNGNzJtT3Z0RzNKdDFJdUlGZ2lGLTZpOThSYjgwaVBQendJMnlCcko0MC1vQThsU25hNTZpU2piNXBYSzFXY0lZb29oVVI2NA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXItd1dmVDZ4NkRxcDVlakNwQmFjWU14ZVpzYnhrOWdmSUd1ZnRQZzVVVy1ZbXpNOWxaUFlNYi0zVWVjUkNNN05aTmYwVHRzaE9TYm4zc0ZyOEhjeHVBVzI1UHA0c0FybVhQNVhhT2l3Vzlja0c0RVBFejN1NUp3bUlRSDlmUWVEdVowblBQZnFjcXRqdlBpOGdxdG5XRW5zVGY4M1JSUFl5SWRiT2c?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUHNRR0dVaVNMWktPNjFwQ3NmNE03WTRKbURGSUVVTlBCVGpUSlAxWEVTUTdMSUhxQ2VlZl9tTmdxejBGR2p2OF9MeTdpSjNHemRIN3Fvb1RkVmdyNE9HOHQ0dDNNMmNsdWVsVVFPMTlKcnptNkpsMWhYU1VwZXNzWjlaTVRSRVNLVkpoRXJwalhBWV95b0RfQXJYdjRrT2FyRVZTbEw0UlhUekQ3cF9n?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -44776,6 +44789,25 @@
      "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 68.98
+   },
+   {
+    "ticker": "GLD",
+    "direction": "up",
+    "t0": 1794188770,
+    "reason": "עלייה בביקוש לנכסי חוף מבטחים עקב מתיחות גיאופוליטית",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לנכסי חוף מבטחים עקב מתיחות גיאופוליטית",
+     "en": "Increased demand for safe-haven assets due to geopolitical tension",
+     "ar": "زيادة الطلب على أصول الملاذ الآمن بسبب التوترات الجيوسياسية",
+     "ru": "Рост спроса на защитные активы из-за геополитической напряженности"
+    },
+    "name_i18n": {
+     "he": "זהב",
+     "en": "Gold",
+     "ar": "الذهب",
+     "ru": "Золото"
+    },
+    "price_at_alert": 372.52
    }
   ],
   "id": "ff90d7bfbe54",
@@ -44791,9 +44823,21 @@
      "ar": "صرح دونالد ترامب أن فرقة عمل 'بوابة الحديد' تعمل بكامل طاقتها في إيران.",
      "ru": "Дональд Трамп заявил, что оперативная группа «Железные ворота» действует в полную силу в Иране."
     }
+   },
+   {
+    "ts": 1794188770,
+    "time": "2026-11-09T01:46Z",
+    "severity": 8,
+    "summary": "ארה\"ב השיקה את כוח המשימה 'שער ברזל' כדי לחסום נתיבי סחר איראניים ולאכוף הגבלות על אספקת נשק, מה שמוביל למתיחות גוברת באזור.",
+    "i18n": {
+     "he": "ארה\"ב השיקה את כוח המשימה 'שער ברזל' כדי לחסום נתיבי סחר איראניים ולאכוף הגבלות על אספקת נשק, מה שמוביל למתיחות גוברת באזור.",
+     "en": "The US has launched Task Force Iron Gate to choke off Iranian trade routes and enforce restrictions on weapons supplies, leading to heightened regional tensions.",
+     "ar": "أطلقت الولايات المتحدة قوة المهام 'بوابة الحديد' لقطع طرق التجارة الإيرانية وفرض قيود على إمدادات الأسلحة، مما أدى إلى تصاعد التوترات الإقليمية.",
+     "ru": "США запустили оперативную группу «Железные ворота» для перекрытия иранских торговых путей и обеспечения соблюдения ограничений на поставки оружия, что привело к росту региональной напряженности."
+    }
    }
   ],
-  "last_update": 1794178333
+  "last_update": 1794188770
  },
  {
   "ts": 1794169112,
@@ -46065,12 +46109,16 @@
    }
   },
   "category": "commodities",
-  "severity": 4,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -46092,8 +46140,162 @@
      "ru": "ETF энергетического сектора"
     },
     "price_at_alert": 61.62
+   },
+   {
+    "ticker": "UNG",
+    "direction": "up",
+    "t0": 1794188770,
+    "reason": "חשש מהידוק היצע האנרגיה",
+    "reason_i18n": {
+     "he": "חשש מהידוק היצע האנרגיה",
+     "en": "Concerns over tighter energy supply",
+     "ar": "مخاوف بشأن تشديد إمدادات الطاقة",
+     "ru": "Опасения по поводу сокращения поставок энергоносителей"
+    },
+    "name_i18n": {
+     "he": "גז טבעי",
+     "en": "Natural Gas",
+     "ar": "الغاز الطبيعي",
+     "ru": "Природный газ"
+    },
+    "price_at_alert": 9.35
    }
   ],
-  "id": "eabd56de982e"
+  "id": "eabd56de982e",
+  "updates": [
+   {
+    "ts": 1794188770,
+    "time": "2026-11-09T01:46Z",
+    "severity": 6,
+    "summary": "מתקפת רחפנים הובילה להשבתת הייצור בשדה הגז כור מור בעיראק, מה שגרם להפסקות חשמל נרחבות באזור הכורדי.",
+    "i18n": {
+     "he": "מתקפת רחפנים הובילה להשבתת הייצור בשדה הגז כור מור בעיראק, מה שגרם להפסקות חשמל נרחבות באזור הכורדי.",
+     "en": "A drone attack has suspended production at the Khor Mor gasfield in Iraq, causing widespread power outages in the Kurdish region.",
+     "ar": "أدى هجوم بطائرة مسيرة إلى تعليق الإنتاج في حقل خور مور للغاز في العراق، مما تسبب في انقطاع التيار الكهربائي على نطاق واسع في المنطقة الكردية.",
+     "ru": "Атака беспилотников привела к приостановке добычи на газовом месторождении Хор-Мор в Ираке, что вызвало масштабные отключения электроэнергии в курдском регионе."
+    }
+   }
+  ],
+  "last_update": 1794188770
+ },
+ {
+  "ts": 1794188770,
+  "time": "2026-11-09T01:46Z",
+  "title": "נתוני אינפלציה בסין",
+  "summary": "האינפלציה ליצרנים בסין עלתה באוקטובר, בעוד מחירי הצרכן ירדו מעט ל-0.7%, מה שמעיד על חולשה בביקוש המקומי.",
+  "kid": "בסין המחירים של מוצרים מהמפעלים עלו, אבל המחירים בחנויות ירדו. זה אומר שאנשים בסין קונים פחות.",
+  "i18n": {
+   "title": {
+    "he": "נתוני אינפלציה בסין",
+    "en": "China inflation data",
+    "ar": "بيانات التضخم في الصين",
+    "ru": "Данные по инфляции в Китае"
+   },
+   "summary": {
+    "he": "האינפלציה ליצרנים בסין עלתה באוקטובר, בעוד מחירי הצרכן ירדו מעט ל-0.7%, מה שמעיד על חולשה בביקוש המקומי.",
+    "en": "China's producer inflation quickened in October, while consumer prices edged down to 0.7%, signaling weak domestic demand.",
+    "ar": "تسارع تضخم المنتجين في الصين في أكتوبر، بينما انخفضت أسعار المستهلكين قليلاً إلى 0.7%، مما يشير إلى ضعف الطلب المحلي.",
+    "ru": "Инфляция производителей в Китае ускорилась в октябре, в то время как потребительские цены немного снизились до 0,7%, что свидетельствует о слабом внутреннем спросе."
+   },
+   "kid": {
+    "he": "בסין המחירים של מוצרים מהמפעלים עלו, אבל המחירים בחנויות ירדו. זה אומר שאנשים בסין קונים פחות.",
+    "en": "In China, factory prices went up, but store prices went down. This means people in China are buying less.",
+    "ar": "في الصين، ارتفعت أسعار المصانع، لكن أسعار المتاجر انخفضت. هذا يعني أن الناس في الصين يشترون أقل.",
+    "ru": "В Китае цены на заводские товары выросли, а цены в магазинах снизились. Это означает, что люди в Китае покупают меньше."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdHZHeWlBMm5ScUQ3Um9LTHZLdHpkZzNXNXF0NWlKUjlMaE54NnI2VUhSNktuS3BpWEtldEk4ZklwbDFaLUVGaXcxdVY3ZllyX1o5aFNNX1R0dC03Zzc3NFVkSVdTZDl5dTg0UUF4R1lLQXNlT3NmS29zVjhqQWZPVVU5OXlpLXpWdmpSeEJCVWhrY1FUcnc0REduM3VITEs0TXRvLXRtLUxXMUZYaWl5NmYxZml3MDQzUDMxU20wbWdHWWMzbERkeVZHTQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUEJFX1dZamNQWFVkVlN1dktqRFROYU1JZ05COHhORWJMRmk2X2duczMtcDFQUWo2MjBrLUtYWlFjQWFUMDNycjIwclBWc0QtUWJQT3Y1QlpmOXFSYjdkalBUbTg2anRBRXV2MFprcnpxV1JZRHJxbmtUYng4ekV4LTdsZDZlZ2hSZEV1Zmt4RHRmMnBreGE3N3Rn?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794188770,
+    "reason": "חשש מהאטה בכלכלה הסינית",
+    "reason_i18n": {
+     "he": "חשש מהאטה בכלכלה הסינית",
+     "en": "Concerns over economic slowdown in China",
+     "ar": "مخاوف بشأن التباطؤ الاقتصادي في الصين",
+     "ru": "Опасения по поводу замедления экономики Китая"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות סין",
+     "en": "China Large Cap ETF",
+     "ar": "صندوق تداول الأسهم الصينية الكبرى",
+     "ru": "ETF на крупные китайские компании"
+    },
+    "price_at_alert": 34.95
+   }
+  ],
+  "id": "57a1d82c897b"
+ },
+ {
+  "ts": 1794188770,
+  "time": "2026-11-09T01:46Z",
+  "title": "הנווה תעופה תערוך ניסויי טילים בארה\"ב",
+  "summary": "חברת Hanwha Aerospace הדרום קוריאנית תבצע ניסויים בטילי Chunmoo מבוססי ספינות בארה\"ב, מה שמחזק את שיתוף הפעולה הביטחוני.",
+  "kid": "חברה דרום קוריאנית תבדוק טילים חדשים בארה\"ב. זה טוב לחברות ביטחוניות שעובדות עם ארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "הנווה תעופה תערוך ניסויי טילים בארה\"ב",
+    "en": "Hanwha Aerospace to conduct missile tests in the US",
+    "ar": "هانوا للفضاء ستجري اختبارات صواريخ في الولايات المتحدة",
+    "ru": "Hanwha Aerospace проведет испытания ракет в США"
+   },
+   "summary": {
+    "he": "חברת Hanwha Aerospace הדרום קוריאנית תבצע ניסויים בטילי Chunmoo מבוססי ספינות בארה\"ב, מה שמחזק את שיתוף הפעולה הביטחוני.",
+    "en": "South Korea's Hanwha Aerospace will conduct tests of ship-based Chunmoo missiles in the US, strengthening defense cooperation.",
+    "ar": "ستجري شركة هانوا للفضاء الكورية الجنوبية اختبارات لصواريخ 'تشونمو' المحمولة على السفن في الولايات المتحدة، مما يعزز التعاون الدفاعي.",
+    "ru": "Южнокорейская компания Hanwha Aerospace проведет в США испытания корабельных ракет Chunmoo, укрепляя оборонное сотрудничество."
+   },
+   "kid": {
+    "he": "חברה דרום קוריאנית תבדוק טילים חדשים בארה\"ב. זה טוב לחברות ביטחוניות שעובדות עם ארה\"ב.",
+    "en": "A South Korean company will test new missiles in the US. This is good for defense companies that work with the US.",
+    "ar": "ستقوم شركة كورية جنوبية باختبار صواريخ جديدة في الولايات المتحدة. هذا جيد لشركات الدفاع التي تعمل مع الولايات المتحدة.",
+    "ru": "Южнокорейская компания будет испытывать новые ракеты в США. Это хорошо для оборонных компаний, сотрудничающих с США."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wV2ZMNU40Um8wM2draXB4em9xbzNBZXlVbFU5REFfVElKS25XMDZSNjVyZ2d3dHh0Mm4yTy1ONEJsdEhsMkJ0ZFRoZnY0eXdjUDJzZ0p0Q2g2dw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794188770,
+    "reason": "העמקת שיתוף הפעולה הביטחוני עם בעלות ברית",
+    "reason_i18n": {
+     "he": "העמקת שיתוף הפעולה הביטחוני עם בעלות ברית",
+     "en": "Deepening defense cooperation with allies",
+     "ar": "تعميق التعاون الدفاعي مع الحلفاء",
+     "ru": "Углубление оборонного сотрудничества с союзниками"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق تداول الطيران والدفاع",
+     "ru": "ETF на аэрокосмическую и оборонную промышленность"
+    },
+    "price_at_alert": 68.98
+   }
+  ],
+  "id": "27ed1227c198"
  }
 ]
