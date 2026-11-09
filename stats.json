@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T08:27Z",
+ "generated": "2026-11-09T10:39Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 545,
+ "total_alerts": 550,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 55,
+   "mentions": 56,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "USO - קרן סל נפט גולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام الأمريكي",
-    "ru": "USO - фонд нефти США"
+    "he": "קרן סל על מחירי הנפט",
+    "en": "US Oil Fund ETF",
+    "ar": "صندوق استثمار أسعار النفط",
+    "ru": "ETF нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 46,
+   "mentions": 47,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "XLE - קרן סל אנרגיה",
-    "en": "XLE - Energy Select Sector SPDR Fund",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - фонд энергетического сектора"
+    "he": "סקטור האנרגיה בארה\"ב",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة الأمريكي",
+    "ru": "ETF энергетического сектора США"
    },
    "avg_edge": -1.05
   },
@@ -162,7 +162,7 @@
    "avg_edge": -6.21
   },
   "RTX": {
-   "mentions": 18,
+   "mentions": 19,
    "n": 8,
    "hits": 4,
    "name": {
@@ -198,14 +198,14 @@
    "avg_edge": -0.05
   },
   "XLK": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 1,
    "name": {
-    "he": "סל סקטור הטכנולוגיה",
+    "he": "סקטור הטכנולוגיה בארה\"ב",
     "en": "Technology Select Sector SPDR Fund",
-    "ar": "صندوق قطاع التكنولوجيا",
-    "ru": "ETF технологического сектора"
+    "ar": "صندوق قطاع التكنولوجيا الأمريكي",
+    "ru": "ETF технологического сектора США"
    },
    "avg_edge": 1.51
   },
@@ -246,26 +246,26 @@
    "avg_edge": 0.31
   },
   "CPER": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 11,
    "hits": 3,
    "name": {
     "he": "קרן סל על נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق استثمار للنحاس",
-    "ru": "ETF на медь"
+    "en": "United States Copper Index Fund",
+    "ar": "صندوق استثمار النحاس",
+    "ru": "ETF меди"
    },
    "avg_edge": -0.74
   },
   "CRWD": {
-   "mentions": 37,
+   "mentions": 38,
    "n": 22,
    "hits": 0,
    "name": {
-    "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike - Cybersecurity Firm",
-    "ar": "CrowdStrike - شركة أمن سيبراني",
-    "ru": "CrowdStrike - компания кибербезопасности"
+    "he": "קראודסטרייק – חברת אבטחת סייבר",
+    "en": "CrowdStrike – cybersecurity firm",
+    "ar": "كراودسترايك – شركة أمن سيبراني",
+    "ru": "CrowdStrike – компания кибербезопасности"
    },
    "avg_edge": -4.09
   },
@@ -366,14 +366,14 @@
    "avg_edge": -0.58
   },
   "XLV": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 7,
    "hits": 6,
    "name": {
-    "he": "מגזר הבריאות",
-    "en": "Healthcare sector",
-    "ar": "قطاع الرعاية الصحية",
-    "ru": "Сектор здравоохранения"
+    "he": "סקטור הבריאות בארה\"ב",
+    "en": "Health Care Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الرعاية الصحية الأمريكي",
+    "ru": "ETF сектора здравоохранения США"
    },
    "avg_edge": 1.27
   },
@@ -390,14 +390,14 @@
    "avg_edge": 1.19
   },
   "MRNA": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 5,
    "hits": 5,
    "name": {
-    "he": "מודרנה",
-    "en": "Moderna",
-    "ar": "موديرنا",
-    "ru": "Moderna"
+    "he": "מודרנה – חברת ביוטכנולוגיה וחיסונים",
+    "en": "Moderna – biotech and vaccines",
+    "ar": "مودرنا – تكنولوجيا حيوية ولقاحات",
+    "ru": "Moderna – биотехнологии и вакцины"
    },
    "avg_edge": 5.31
   },
@@ -414,38 +414,38 @@
    "avg_edge": 0.12
   },
   "EWC": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 6,
    "hits": 5,
    "name": {
-    "he": "סל מניות קנדה",
+    "he": "תעודת סל על קנדה",
     "en": "iShares MSCI Canada ETF",
-    "ar": "صندوق أسهم كندا",
-    "ru": "ETF рынка Канады"
+    "ar": "صندوق استثمار الأسهم الكندية",
+    "ru": "ETF акций Канады"
    },
    "avg_edge": 0.78
   },
   "FCX": {
-   "mentions": 22,
+   "mentions": 23,
    "n": 15,
    "hits": 4,
    "name": {
-    "he": "Freeport-McMoRan - חברת כריית נחושת",
-    "en": "Freeport-McMoRan – Copper Mining Company",
-    "ar": "Freeport-McMoRan - شركة تعدين النحاس",
-    "ru": "Freeport-McMoRan – компания по добыче меди"
+    "he": "פריפורט מקמوران – ענקית כריית נחושת",
+    "en": "Freeport-McMoRan – copper miner",
+    "ar": "فريبورت-ماكموران – تعدين النحاس",
+    "ru": "Freeport-McMoRan – добыча меди"
    },
    "avg_edge": -1.46
   },
   "FDX": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "FDX – חברת השילוח והלוגיסטיקה פדפקס",
-    "en": "FDX – FedEx shipping corporation",
-    "ar": "FDX - شركة الشحن والخدمات اللوجستية فيديكس",
-    "ru": "FDX – транспортная компания FedEx"
+    "he": "פדקס – ענקית שילוח ולוגיסטיקה",
+    "en": "FedEx – delivery and logistics",
+    "ar": "فيدكس – عملاق الشحن والخدمات اللوجستية",
+    "ru": "FedEx – служба доставки и логистики"
    },
    "avg_edge": -0.4
   },
@@ -846,14 +846,14 @@
    "avg_edge": 7.92
   },
   "XLI": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "XLI - קרן סל מגזר התעשייה",
-    "en": "XLI - Industrial Select Sector SPDR Fund",
-    "ar": "XLI - صندوق قطاع الصناعة",
-    "ru": "XLI - ETF промышленного сектора"
+    "he": "סקטור התעשייה בארה\"ב",
+    "en": "Industrial Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الصناعات الأمريكي",
+    "ru": "ETF промышленного сектора США"
    },
    "avg_edge": -0.99
   },
