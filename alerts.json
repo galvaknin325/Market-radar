@@ -1,652 +1,5 @@
 [
  {
-  "ts": 1793630119,
-  "time": "2026-11-02T14:35Z",
-  "title": "איראן מציבה תנאים לסגירת עסקת מצר הורמוז",
-  "summary": "בחירי איראן מצהירים כי לא תושג עסקה סביב מצר הורמוז ללא סיום המצור הימי האמריקאי.",
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "novelty": "new",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DY3prT1Y3ZG96ZXZGSmVTVnd4MUZ5TTFQUFp4S0ZaaTVxTGtxSmtkc1I4ZTZicEF3UG5vZzVMQVpJX3ZoSlpJUXJMVVFXSjRWdlNpUGJRZUxIUDFZd25DVDJnWFBaNlVFUEU4WVE4TXl3UQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZ9IBwgFBVV95cUxOV3RMMnVzTzVwSmMyOExzZnl3TUtyck5KTHUycmFBbjQ3OWF0cEdnOWk5NlVJUURFOXcxS0g4Q1o3YVRvbDZ4VmF6RlVnbEJFOVNvN01ENU44QW1OVHJTQ0lvT204VXcxREk2eUFldUREZmtYY0FKcjh0MFhYM0xFU2ltQ0t3aWVUNXc4VXI4WWJ0NlJfZUVCYk15U0xkekp6a093T3JqZmpsVEZEQTRjSW1Ba2JMLWQ3THBaQ0FOVHAxZw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelh4emY1c283bW9YdGhWUW4yTXBnYS1qTXQ3VFJFZC1qV2JLY3lTc0dVVF9GZVQ5OWRRQ1BwZEQ1ejIxM0dnS1lSV0RyaG9BWi1ncXhXM1hac2ZWN0dqbVBSVDUwYUE5WTV4LXRDenNYdHJBb1JZZ2J0T0I2bTBxSnZZYXVVOGxjd0E?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "reason": "חשש מפני שיבושים באספקת הנפט במפרץ הפרסי.",
-    "price_at_alert": 159.57,
-    "entry_price": 159.15,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 158.14,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.63,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 0.57,
-    "edge_pct": 0.57,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "reason": "עליית מחירי הנפט הצפויה תומכת בסקטור האנרגיה.",
-    "price_at_alert": 68.6,
-    "entry_price": 68.83,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 66.7,
-    "exit_date": "2026-11-03",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -1.89,
-    "edge_pct": -1.89,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1793633180,
-    "reason": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
-    "reason_i18n": {
-     "he": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
-     "en": "Higher oil prices boost energy company profits",
-     "ar": "أسعار النفط المرتفعة تعزز أرباح شركات الطاقة",
-     "ru": "Более высокие цены на нефть увеличивают прибыль энергетических компаний"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל - חברת אנרגיה ענקית",
-     "en": "ExxonMobil - major energy company",
-     "ar": "ExxonMobil - شركة طاقة كبرى",
-     "ru": "ExxonMobil - крупная энергетическая компания"
-    },
-    "price_at_alert": 183.3,
-    "entry_price": 183.415,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 177.5,
-    "exit_date": "2026-11-03",
-    "change_pct": -3.22,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -2.02,
-    "edge_pct": -2.02,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ZIM",
-    "direction": "down",
-    "t0": 1793633980,
-    "reason": "חזרה לשיוט חופשי מצמצמת את שיבושי הספנות המקפיצים תעריפים.",
-    "reason_i18n": {
-     "he": "חזרה לשיוט חופשי מצמצמת את שיבושי הספנות המקפיצים תעריפים.",
-     "en": "Restoring free navigation reduces freight rate spikes driven by route disruptions.",
-     "ar": "استعادة الملاحة الحرة تخفض قفزات أسعار الشحن الناتجة عن تعطيل الطرق.",
-     "ru": "Восстановление судоходства снижает сказки фрахтовых ставок из-за сбоев маршрутов."
-    },
-    "name_i18n": {
-     "he": "צים – חברת ספנות והובלה ימית",
-     "en": "ZIM Integrated Shipping Services",
-     "ar": "צים – شركة الشحن البحري",
-     "ru": "ZIM – судоходная компания"
-    },
-    "price_at_alert": 28.855,
-    "entry_price": 29.0,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 29.31,
-    "exit_date": "2026-11-03",
-    "change_pct": 1.07,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": 1.81,
-    "edge_pct": -1.81,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f655ba3c5dfb",
-  "updates": [
-   {
-    "ts": 1793631668,
-    "time": "2026-11-02T15:01Z",
-    "severity": 6,
-    "summary": "איראן טענה כי הכדור נמצא בידי ארה\"ב וכי היא מסוגלת לפתוח מחדש את מצר הורמוז בתוך יומיים אם יוסר המצור הימי האמריקאי.",
-    "i18n": {
-     "he": "איראן טענה כי הכדור נמצא בידי ארה\"ב וכי היא מסוגלת לפתוח מחדש את מצר הורמוז בתוך יומיים אם יוסר המצור הימי האמריקאי.",
-     "en": "Iran stated that the ball is in America's court and claimed it can reopen the Strait of Hormuz within two days if the US naval blockade is lifted.",
-     "ar": "صرحت إيران بأن الكرة في ملعب أمريكا وقالت إنها تستطيع إعادة فتح مضيق هرمز خلال يومين إذا تم رفع الحصار البحري الأمريكي.",
-     "ru": "Иран заявил, что мяч на стороне США, и пообещал открыть Ормузский пролив в течение двух дней в случае снятия американской морской блокады."
-    }
-   },
-   {
-    "ts": 1793633180,
-    "time": "2026-11-02T15:26Z",
-    "severity": 6,
-    "summary": "איראן הציבה תנאים לפתיחת מצר הורמוז ודרשה את סיום המצור הימי של ארה\"ב, בעוד יבוא הנפט של יפן מחוץ לאזור ירד לשפל רב-שנתי.",
-    "i18n": {
-     "he": "איראן הציבה תנאים לפתיחת מצר הורמוז ודרשה את סיום המצור הימי של ארה\"ב, בעוד יבוא הנפט של יפן מחוץ לאזור ירד לשפל רב-שנתי.",
-     "en": "Iran demanded an end to the US naval blockade as a condition for a Strait of Hormuz agreement, while Japan's Saudi crude imports hit multi-decade lows due to Red Sea disruptions.",
-     "ar": "طالبت إيران بإنهاء الحصار البحري الأمريكي كشرط لاتفاق مضيق هرمز، بينما انخفضت واردات اليابان من النفط السعودي إلى أدنى مستوياتها.",
-     "ru": "Иран потребовал прекратить военно-морскую блокаду США в качестве условия соглашения по Ормузскому проливу, в то время как импорт нефти Японией упал до многолетних минимумов."
-    }
-   },
-   {
-    "ts": 1793633980,
-    "time": "2026-11-02T15:39Z",
-    "severity": 6,
-    "summary": "איראן הציעה תנאים לפתיחת מצר הורמוז מחדש בתוך 48 שעות, צעד שיכול להקל על תנועת הספנות ומחירי האנרגיה העולמיים.",
-    "i18n": {
-     "he": "איראן הציעה תנאים לפתיחת מצר הורמוז מחדש בתוך 48 שעות, צעד שיכול להקל על תנועת הספנות ומחירי האנרגיה העולמיים.",
-     "en": "Iran has offered terms to reopen the strategic Strait of Hormuz within 48 hours, potentially easing maritime transit and global energy pressures.",
-     "ar": "عرضت إيران شروطاً لإعادة فتح مضيق هرمز الاستراتيجي خلال 48 ساعة، مما قد يخفف الضغوط على حركة الشحن وطاقة العالم.",
-     "ru": "Иран предложил условия для открытия Ормузского пролива в течение 48 часов, что потенциально ослабит давление на энергетические рынки."
-    }
-   }
-  ],
-  "last_update": 1793633980,
-  "evaluated": true
- },
- {
-  "ts": 1793630119,
-  "time": "2026-11-02T14:35Z",
-  "title": "ציוד מחדש של טליות ESSM Block 2 לקונסורציום נאט\"و",
-  "summary": "הצי האמריקאי הודיע כי מסירות טילי ה-ESSM Block 2 הגיעו לאבן דרך של 1,000 יחידות עבור קונסורציום נאט\"ו המונה 12 מדינות.",
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "novelty": "update",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHd3VmI0TFRlN1c1SHV0T2lvV0pqT0ZjU0VwZUZMTWhBT2hORVgtUkpqR2VhSzNZWTFuc0JwS2lPd18zT2E1VkdJcE5LQm5SNkVzRkU0NWtMNEpwZWJ3MEg5TFNFZFVGOEttVE5BTUlmTUtZejROT0ROYlA3MDllRzVxWXEtNlVBc2JlLURR0gGTAUFVX3lxTE9walBaa3BiWG5Rd1hUNXNKVFU3YWwxS3lTREhmRk41VE5vZ1Q3M1c2N283YmNmUG5IamJiYjZvVDhYQ3RmNnFqRnJTNWtVa2todFVBazFjYmZ0UU9ZZEV0akJjYS1LQ1RCOGhrUDZZUE4xQVVKNDUxR0J2ZER3MTVOdEhTTUd5ZkdkUWJlSkFlYmdaMA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "reason": "אספקה רחבה של טילי הגנה ימית מחזקת את צבר ההזמנות של השותפות.",
-    "price_at_alert": 200.74,
-    "entry_price": 201.7351,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 203.83,
-    "exit_date": "2026-11-03",
-    "change_pct": 1.04,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 2.25,
-    "edge_pct": 2.25,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "reason": "חיזוק חוזים בתחום הביטחוני-ימי.",
-    "price_at_alert": 212.95,
-    "entry_price": 215.45,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 216.39,
-    "exit_date": "2026-11-03",
-    "change_pct": 0.44,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 1.64,
-    "edge_pct": 1.64,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "345cb8d59f3b",
-  "updates": [
-   {
-    "ts": 1793633180,
-    "time": "2026-11-02T15:26Z",
-    "severity": 3,
-    "summary": "הצי האמריקאי קיבל לידיו את טיל ההגנה האווירית ה-1,000 מסוג ESSM Block 2, המשמש ליירוט איומים מתקדמים בים.",
-    "i18n": {
-     "he": "הצי האמריקאי קיבל לידיו את טיל ההגנה האווירית ה-1,000 מסוג ESSM Block 2, המשמש ליירוט איומים מתקדמים בים.",
-     "en": "The U.S. Navy took delivery of its 1,000th Evolved SeaSparrow Block 2 missile, a key naval air defense weapon produced by an international consortium.",
-     "ar": "تسلمت البحرية الأمريكية الصاروخ رقم 1000 من طراز Evolved SeaSparrow Block 2 للدفاع الجوي البحري.",
-     "ru": "ВМС США получили 1000-ю ракету ПВО Evolved SeaSparrow Block 2, используемую для защиты кораблей."
-    }
-   }
-  ],
-  "last_update": 1793633180,
-  "evaluated": true
- },
- {
-  "ts": 1793630832,
-  "time": "2026-11-02T14:47Z",
-  "title": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
-  "summary": "חברת Marvell הודיעה על כוונתה לרכוש את Lumentum בעסקת ענק בסך 115 מיליארד דולר, כחלק מהתרחבות בתחום תשתיות הבינה המלאכותית.",
-  "kid": "עסקת ענק בתחום הטכנולוגיה שבה חברה אחת קונה את רעותה בסכום עצום כדי לחזק את מרכזי המחשבים של בינה מלאכותית.",
-  "i18n": {
-   "title": {
-    "he": "מרבל תרכוש את לומנטום תמורת 115 מיליארד דולר בהימור על מרכזי נתונים של בינה מלאכותית",
-    "en": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
-    "ar": "مارفيل تستحوذ على لومينتوم في صفقة بـ 115 مليار دولار رهاناً על مراكز بيانات الذكاء الاصطناعي",
-    "ru": "Marvell покупает Lumentum за $115 млрд в рамках ставки на дата-центры ИИ"
-   },
-   "summary": {
-    "he": "חברת Marvell הודיעה על כוונתה לרכוש את Lumentum בעסקת ענק בסך 115 מיליארד דולר, כחלק מהתרחבות בתחום תשתיות הבינה המלאכותית.",
-    "en": "Marvell announced a massive $115 billion deal to acquire Lumentum, expanding its footprint in AI data-center infrastructure.",
-    "ar": "أعلنت شركة مارفيل عن نيتها الاستحواذ على لومينتوم في صفقة ضخمة بقيمة 115 مليار دولار لتوسيع بنيتها التحتية للذكاء الاصطناعي.",
-    "ru": "Marvell объявила о намерении приобрести Lumentum за рекордные $115 млрд для расширения в сфере инфраструктуры ИИ-дата-центров."
-   },
-   "kid": {
-    "he": "עסקת ענק בתחום הטכנולוגיה שבה חברה אחת קונה את רעותה בסכום עצום כדי לחזק את מרכזי המחשבים של בינה מלאכותית.",
-    "en": "A massive tech deal where one company buys another for a huge sum to boost AI computer centers.",
-    "ar": "صفقة تكنولوجية ضخمة تشتري فيها شركة أخرى بمبلغ هائل لتطوير مراكز حواسيب الذكاء الاصطناعي.",
-    "ru": "Крупнейшая технологическая сделка, в которой одна компания покупает другую за огромную сумму для усиления ИИ-инфраструктуры."
-   }
-  },
-  "category": "contracts",
-  "severity": 7,
-  "confidence": "high",
-  "novelty": "new",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0ZJdzhmTl9OTWM4NnBzOFJnXzg4SUk0WnNmMXF5NElQYkQyd0ZlOGh4aDJaVFhfaTNobk9mQUc0c1lkakpyRnFzRVh0aGd4MS1KSS1KbFJtelR1TzFsOV9MYUpCY2VjNEl3aWJzT3Z3VjlOd3BPZUdDNFpaU0diRTFJLUc5M2RGbUhucFVWVFBaczB0TFhMMjBQamdIWGVKSV9ubEdn?oc=5"
-   },
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2FXN0VKVjBIUDlmNF8xMXBEcE9BQkRrQk5GR2k1dmNLMjlBMVlCSmRLc19PNXVCTUNZVUZRY3pQNzEtZGJuQlNwcnMxQWdqME8xa1FtOVkyendLS0RFSTV3cjNwQXJaYmVxTy1fREcyNk81S29pYWRGOTdLN3ljXzVVX1pIaDlTMXRGTHB1ck1qNEZnSUlsUkJIMWFJSmpHT1U5UjkyMEs?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "reason": "עסקת ענק בתחום השבבים ומרכזי הנתונים מעידה על חוזק הביקושים לבינה מלאכותית",
-    "reason_i18n": {
-     "he": "עסקת ענק בתחום השבבים ומרכזי הנתונים מעידה על חוזק הביקושים לבינה מלאכותית",
-     "en": "Massive chip and data-center deal highlights robust demand for artificial intelligence",
-     "ar": "صفقة الرقائق ومراكز البيانات الضخمة تسلط الضوء على الطلب القوي على الذكاء الاصطناعي",
-     "ru": "Крупная сделка в сфере чипов и дата-центров подчеркивает высокий спрос на искусственный интеллект"
-    },
-    "name_i18n": {
-     "he": "קרן סל מגזר הטכנולוגיה",
-     "en": "Technology Select Sector SPDR Fund",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 179.319,
-    "entry_price": 180.85,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 176.47,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.42,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -1.21,
-    "edge_pct": -1.21,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "reason": "השקעות ענק בתשתיות AI מצביעות על צמיחה מתמשכת בשוק השבבים והתשתיות",
-    "reason_i18n": {
-     "he": "השקעות ענק בתשתיות AI מצביעות על צמיחה מתמשכת בשוק השבבים והתשתיות",
-     "en": "Massive investments in AI infrastructure point to continued growth in the chip and hardware market",
-     "ar": "الاستثمارات الضخمة في البنية التحتية للذكاء الاصطناعي تشير إلى نمو مستمر في سوق الرقائق",
-     "ru": "Масштабные инвестиции в инфраструктуру ИИ указывают на непрерывный рост рынка чипов"
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית מובילה",
-     "en": "Nvidia - leading AI chipmaker",
-     "ar": "Nvidia - صانعة رقائق الذكاء الاصطناعي الرائدة",
-     "ru": "Nvidia - ведущий производитель чипов ИИ"
-    },
-    "price_at_alert": 208.81,
-    "entry_price": 209.81,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 206.57,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.54,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.34,
-    "edge_pct": -0.34,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "c9dd3f704d8d",
-  "updates": [
-   {
-    "ts": 1793631522,
-    "time": "2026-11-02T14:58Z",
-    "severity": 7,
-    "summary": "יצרנית השבבים מרבל הסכימה לרכוש את לומנטום בעסקת ענק בהיקף של עשרות מיליארדי דולרים, במטרה להרחיב את פעילותה במרכזי נתונים של בינה מלאכותית.",
-    "i18n": {
-     "he": "יצרנית השבבים מרבל הסכימה לרכוש את לומנטום בעסקת ענק בהיקף של עשרות מיליארדי דולרים, במטרה להרחיב את פעילותה במרכזי נתונים של בינה מלאכותית.",
-     "en": "Chip maker Marvell has agreed to acquire Lumentum in a massive deal valued at tens of billions of dollars to expand its footprint in AI data centers.",
-     "ar": "وافقت شركة صناعة الرقائق مارفيل على الاستحواذ على لومنتوم في صفقة ضخمة تقدر بعشرات مليارات الدولارات لتوسيع نشاطها في مراكز بيانات الذكاء الاصطناعي.",
-     "ru": "Производитель чипов Marvell договорился о покупке Lumentum в рамках крупной сделки на десятки миллиардов долларов для расширения работы в дата-центрах ИИ."
-    }
-   }
-  ],
-  "last_update": 1793631522,
-  "evaluated": true
- },
- {
-  "ts": 1793630833,
-  "time": "2026-11-02T14:47Z",
-  "title": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
-  "summary": "אזרחי ארצות הברית מצביעים בבחירות אמצע הכהונה הגורליות לקונגרס ולסנאט, אשר יקבעו את מאזן הכוחות הפוליטי במדינה.",
-  "kid": "היום בוחרים אזרחי אמריקה נציגים חדשים לפרלמנט ולסנאט. התוצאות יכולות לשנות את המדיניות הכלכלית והחוקים במדינה.",
-  "i18n": {
-   "title": {
-    "he": "יום הבחירות בארצות הברית: מרוצי אמצע הכהונה לקונגרס ולסנאט",
-    "en": "US Midterm Elections: Voters head to the polls for Congress and Senate races",
-    "ar": "انتخابات التجديد النصفي في أمريكا: الناخبون يتوجهون لصناديق الاقتراع",
-    "ru": "Промежуточные выборы в США: избиратели голосуют на выборах в Конгресс и Сенат"
-   },
-   "summary": {
-    "he": "אזרחי ארצות הברית מצביעים בבחירות אמצע הכהונה הגורליות לקונגרס ולסנאט, אשר יקבעו את מאזן הכוחות הפוליטי במדינה.",
-    "en": "US voters head to the polls for crucial midterm elections for the House and Senate, which will determine the political balance of power.",
-    "ar": "يتوجه الناخبون الأمريكيون إلى صناديق الاقتراع في انتخابات التجديد النصفي الحاسمة للكونغرس والشيوخ، والتي ستحدد توازن القوى السياسي.",
-    "ru": "Избиратели в США идут на участки на важнейших промежуточных выборах в Конгресс и Сенат, которые определят расстановку политических сил."
-   },
-   "kid": {
-    "he": "היום בוחרים אזרחי אמריקה נציגים חדשים לפרלמנט ולסנאט. התוצאות יכולות לשנות את המדיניות הכלכלית והחוקים במדינה.",
-    "en": "Today Americans are electing new representatives to Congress and the Senate. The results can change economic policies and laws.",
-    "ar": "اليوم ينتخب الأمريكيون ممثلين جدد للكونغرس والشيوخ. النتائج قد تغيّر السياسات الاقتصادية والقوانين.",
-    "ru": "Сегодня американцы выбирают новых представителей в Конгресс и Сенат. Результаты могут изменить экономическую политику и законы."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "high",
-  "novelty": "new",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMElycjY1UFo0VlZNYVgyd3ZaNG03TVp5Q2ctWkZFQ1dYQjFfb1UwMllNcGZLZ1FHeEJsSXU4amxodW93VnpTQk9kWm5MQm8wY0MwekZMQVV5NDJZNFVXb3FDaGZMYnJ5NDA1aGctZVg0bFFoQm1DMDZHa2w4bDdzUmo5WkFzcHJRNjlIMFUtN2RGaS01dU43R05yLXk5eW5KMWxxNmc3eWJPaHJwekoxY2s5V3FTMUxkQ1A4cjlzczJWTTRvdXM3MVM2OGZOeGpmam9BR0h2cw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMWNJTDdBM2NGdXdKR01qc21Cc1NuNXJfcXV4NExaOFpvMlJSc3c2bGZyT20wS0VLMDQtTTBvUmFOOEs2VFdibnJ6LUxkOFhjVGpBSHdxZFRuQW1BZjVUblFFRkJJZGZFSGNPamthWWpXV2htb3BBVGhEdlVqN3BOVE9EaWkwUHRqZTItVFNTQUVMOWRJWGZaWGRjWktfc3BzcTlWTlpHVFhDY3ZQWjUzUWtGZmF0bXdEdThvX1lJLXhQekxaWGFjaS1ZeExvb1E?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX0RBU2V0bV9mQ3dPUzRvbVB2MjZfcW55V0lEbjJYRFFVNExKaUQ1MFVMaGZFOTFpTFlIWGlrdHY2Q3h0VGItQ3dtcVBRT1IzNEFJRmNzdk5GbFFwQ1h5dWlFU0psRzZZRlJ4MndFY2I3RjJOd0xOVjNuWWtQVmpOOUtRbGY1ejY1OWxQd2FDMDNWeWNvRXhR?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaWVKcmtJYnl5bTYzcmNPTUxLRzQwYW1xTnNXR3Z5MkFwSW5sYmxqZnJRbHk4d1VjbEIwX2NBTGk0cDNLckVwX0JmOWxmNmQ3M1phS3ZoTGQxcm9Nd1RWRGt4V0lZYnNKQ0x2dzUwRnU0YlZCVllkaWhWTUhwT2M2WmR3MUxRRklyVmFKc3FGckxLazhsV2J3LUlhOWF0UWhhS3M1cUxXV3VFOUpSZHI5Rldrcl9TZXg5T1VlRzhzendzTjBnSmxKRzhkWFZIZWtnbDdweDZoeVc3Z2I5WExrX0JqdERnTGZ2SEg3Z0NIcU0?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZnJOODZuNkVqeUp4QUJtcXdXNnYxVjNLQWFwZ21mNVhXRnpXQzVZc0ZwVHJmVFB3eGtDUWl3TFhqRlM5VWx4c3NURjlobVEwbF9VWnlLQXZfTFoyM2FXYkliSm9Zckw2MzdIdzRvQnFfSnhuT09raWx2cUgzbjdqc2xCYW9zSnBoSHo0TE8wQ3dkS1hOWUswZ25B0gGuAUFVX3lxTFBHQUtKUTFucVNDRC1yWi1KZUI4N19CVVVENHRYak84dzlSaFBocEh1MS1rYUlSeWx3bDhKU0JQY3B5WlBLam1vbEMzNTlUMG1ZaGJfdzI1Z1VCNWxTOV83QmNNMjNhajhZd2FWblNMX0c1Sm5hQTMxbWJsSEdUVlJKWHVuNmo2NE91V3Ixd1RyVU1RWW9nOFo5U3Q5aHpNcXowNWhLQzFSeDhVeXBjUQ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DdS1RZFNwdzZyVThqSUsyNEZQQUNJbWV6VkZDZ182cGRIVGV1ak15UnJRaVhTTWNBSTlnY2Z2YXdjYzVFREdjWWtXUTBjM1hOVmRlZy1yQ3cxRU4weTJEWV8yU0tMVnY5WFdVX3Bn?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "reason": "הפוגה באי-הודעות פוליטית והתמקדות השווקים בתוצאות המדיניות",
-    "reason_i18n": {
-     "he": "הפוגה באי-הודעות פוליטית והתמקדות השווקים בתוצאות המדיניות",
-     "en": "Relief from political uncertainty as markets focus on election outcomes",
-     "ar": "تراجع عدم اليقين السياسي مع تركيز الأسواق على نتائج الانتخابات",
-     "ru": "Снижение политической неопределенности по мере сосредоточения рынков на итогах выборов"
-    },
-    "name_i18n": {
-     "he": "ספיי - קרן סל עוקבת אחרי מדד S&P 500",
-     "en": "SPY - S&P 500 ETF",
-     "ar": "SPY - صندوق مؤشر S&P 500",
-     "ru": "SPY - фонд индекса S&P 500"
-    },
-    "price_at_alert": 760.22,
-    "entry_price": 763.64,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 754.41,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.21,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -1.21,
-    "edge_pct": -1.21,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "KRE",
-    "direction": "up",
-    "reason": "ציפייה לבהירות רגולטורית לאחר סיום מערכת הבחירות",
-    "reason_i18n": {
-     "he": "ציפייה לבהירות רגולטורית לאחר סיום מערכת הבחירות",
-     "en": "Expectation of regulatory clarity following the conclusion of elections",
-     "ar": "توقعات بوضوح تنظيمية بعد انتهاء الانتخابات",
-     "ru": "Ожидание регуляторной ясности после завершения выборов"
-    },
-    "name_i18n": {
-     "he": "קרן סל בנקים אזוריים בארה\"ب",
-     "en": "Regional Banking ETF",
-     "ar": "صندوق البنوك الإقليمية الأمريكية",
-     "ru": "ETF региональных банков США"
-    },
-    "price_at_alert": 72.865,
-    "entry_price": 73.5,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 72.86,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.87,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 0.34,
-    "edge_pct": 0.34,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "f10044aa6f32",
-  "updates": [
-   {
-    "ts": 1793631522,
-    "time": "2026-11-02T14:58Z",
-    "severity": 6,
-    "summary": "בוחרים ברחבי ארצות הברית מצביעים בבחירות אמצע הכהונה לקונגרס ולסנאט, כאשר הרשויות נערכות לשיבושים אפשריים ואבטחת הקלפיות.",
-    "i18n": {
-     "he": "בוחרים ברחבי ארצות הברית מצביעים בבחירות אמצע הכהונה לקונגרס ולסנאט, כאשר הרשויות נערכות לשיבושים אפשריים ואבטחת הקלפיות.",
-     "en": "Voters across the United States are casting ballots in midterm congressional and senate elections, with authorities preparing for potential disruptions and securing polls.",
-     "ar": "يدلي الناخبون في جميع أنحاء الولايات المتحدة بأصواتهم في انتخابات التجديد النصفي للكونغرس والشيوخ، وسط استعدادات السلطات لاحتمال حدوث اضطرابات.",
-     "ru": "Избиратели по всей территории США голосуют на промежуточных выборах в Конгресс и Сенат, власти готовятся к возможным сбоям."
-    }
-   },
-   {
-    "ts": 1793633180,
-    "time": "2026-11-02T15:26Z",
-    "severity": 6,
-    "summary": "אזרחי ארצות הברית נוהרים לקלפיות ביום הבחירות להצבעה קריטית לקונגרס, לסנאט ולמושלי המדינות, כאשר המרוצים הצמודים מעוררים עניין רב בשווקים.",
-    "i18n": {
-     "he": "אזרחי ארצות הברית נוהרים לקלפיות ביום הבחירות להצבעה קריטית לקונגרס, לסנאט ולמושלי המדינות, כאשר המרוצים הצמודים מעוררים עניין רב בשווקים.",
-     "en": "Voters head to the polls across the U.S. for crucial midterm and state elections, with tight congressional and gubernatorial races keeping markets focused on potential policy shifts.",
-     "ar": "يتوجه الناخبون الأمريكيون إلى صناديق الاقتراع في انتخابات نصفية وولائية حاسمة، وسط ترقب الأسواق للتغيرات السياسية المحتملة.",
-     "ru": "Избиратели по всей территории США голосуют на ключевых промежуточных и региональных выборах, а рынки следят за возможными политическими изменениями."
-    }
-   },
-   {
-    "ts": 1793634355,
-    "time": "2026-11-02T15:45Z",
-    "severity": 6,
-    "summary": "המצביעים בארה\"ב מתכוננים לסיום מערכת הבחירות וליום ההצבעה הקרוב, בעוד המועמדים מבצעים קמפיין אחרון ומערכות הבחירות המקומיות מגיעות לשיאן.",
-    "i18n": {
-     "he": "המצביעים בארה\"ב מתכוננים לסיום מערכת הבחירות וליום ההצבעה הקרוב, בעוד המועמדים מבצעים קמפיין אחרון ומערכות הבחירות המקומיות מגיעות לשיאן.",
-     "en": "Voters across the US are preparing for Election Day as final campaign pushes wrap up and local elections reach their peak.",
-     "ar": "يستعد الناخبون في جميع أنحاء الولايات المتحدة ليوم الانتخابات مع اختتام الحملات الأخيرة ووصول الانتخابات المحلية إلى ذروتها.",
-     "ru": "Избиратели по США готовятся ко дню выборов по мере завершения финальных кампаний и выхода местных выборов на пик."
-    }
-   }
-  ],
-  "last_update": 1793634355,
-  "evaluated": true
- },
- {
-  "ts": 1793630834,
-  "time": "2026-11-02T14:47Z",
-  "title": "מתקפת סייבר על מקררי סופרמרקטים באירופה",
-  "summary": "מתקפת סייבר פגעה במערכות הקירור וההקפאה של סופרמרקטים במספר מדינות באירופה, מה שגרם לעליית טמפרטורות ביחידות.",
-  "kid": "האקרים פרצו למערכות הקירור של סופרמרקטים באירופה וגרמו להן להתחמם. זה עלול לפגוע בחברות המנהלות את המרכולים או את ציוד הקירור שלהן.",
-  "i18n": {
-   "title": {
-    "he": "מתקפת סייבר על מקררי סופרמרקטים באירופה",
-    "en": "Cyberattack hits supermarket refrigeration systems across Europe",
-    "ar": "هجوم سيبراني يضرب أنظمة تبريد السوبر ماركت في أوروبا",
-    "ru": "Кибератака на системы охлаждения супермаркетов в Европе"
-   },
-   "summary": {
-    "he": "מתקפת סייבר פגעה במערכות הקירור וההקפאה של סופרמרקטים במספר מדינות באירופה, מה שגרם לעליית טמפרטורות ביחידות.",
-    "en": "A cyberattack targeted supermarket refrigeration and freezing systems in multiple European countries, causing units to overheat.",
-    "ar": "استهدف هجوم سيبراني أنظمة التبريد والتجميد في السوبر ماركت في عدة دول أوروبية، مما أدى إلى ارتفاع حرارة الوحدات.",
-    "ru": "Кибератака затронула системы охлаждения и заморозки в супермаркетах нескольких европейских стран, вызвав перегрев оборудования."
-   },
-   "kid": {
-    "he": "האקרים פרצו למערכות הקירור של סופרמרקטים באירופה וגרמו להן להתחמם. זה עלול לפגוע בחברות המנהלות את המרכולים או את ציוד הקירור שלהן.",
-    "en": "Hackers broke into supermarket fridge systems in Europe and made them too warm. This could cause problems for the stores and security companies.",
-    "ar": "قام قراصنة باختراق أنظمة تبريد السوبر ماركت في أوروبا وجعلها تسخن. قد يؤدي هذا إلى مشاكل للمتاجر.",
-    "ru": "Хакеры взломали системы холодильников в супермаркетах Европы, из-за чего они нагрелись. Это может навредить бизнесу магазинов."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "high",
-  "novelty": "new",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWJoVlI1R3JzdDNsNDg0OFEtZFVCSjNkNnZtcjRlamphbG1COEN6c0EzYy1PZmM0REx5d1hZT0FpTkVPTm5KR3NWSTdwRk1vV0R2ME8zVGNJbDhFS1NIN0UtNWhCSVRqbUYyVkZMZ3J5TXJFUjl4VUhTcFhTUHAwTlFXRU9YUVN6Z3Q0RHJaSV9IbXh2OFpwRF9CVDhGT0J6Wi1mWS1hMnBnSE9WQmJwejdrV3RNSk1tSjdLd2VrZ9IBvwFBVV95cUxQbUI0UlBINmgzdTIxWnBmOFBWU3o4ZGtXSHF0RW1GOGV0S1dXSkhtS2w0NGg1UkctZm9tSzlBQWFvdkoyX2pTTk9QdW1EaFpjMGJrd2JiRF9CSDRYTnJrd0loUldmSTdLSEtZSk1Md1ROam5jekRJZGVxTU9uZjZ2N0k3MzVwUTF1VER2ckN6R0xnWVdYci1JckRuUTRzTEJ1OW42ajRYSFc2TUtpMFRONHN5RkVHTjcwcjB6UXczVQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORW96VndUMlgySXI4OW1YRzJMMHpsdDdDNjhZTnI0aHgxQzZ4T0xEaWVsUnpDbTVsQnFLbHRBVml5SVhHYWIxVGR1c3h1SnVuVWxjTmlYbjVYWXBseEdId3lkTnRPc0o2bE1NUnpkdi1IY3Q5dU9pWnIxQU1yZjhkX2F5R2QtVjh4ZGNqaGl2d3psY2RidlJjS0x3c3oxZFctSDd3RVg2c1pnTEt5ZjNB0gGvAUFVX3lxTE5Fb3pWd1QyWDJJcjg5bVhHMkwwemx0N0M2OFlOcjRoeDFDNnhPTERpZWxSekNtNWxCcUtsdEFWaXlJWEdhYjFUZHVzeHVKdW5VbGNOaVhuNVhZcGx4R0h3eWROdE9zSjZsTU1SemR2LUhjdDl1T2lacjFBTXJmOGRfYXlHZC1WOHhkY2poaXZ3emxjZGJ2UmNLTHdzejFkVy1IN3dFWDZzWmdMS3lmM0E?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVBrUHRQaTFvM1d6OHdZbkYwbGRWbGFmRGh3aFNBd0pMLUNjM3hYWnUtaWN5dVgwd05vcy0yemw0TXVlZnJkX0lPcUxFMHV3UXRVYlFtbVZGWnIxbnhGV0U5U3JEbkZzVW5ZWFlyNHNlb2diX2c0VndteFlWMXZUelZBZmF0cUM2d04wM3BHUFlfOUR4OUlKazFwUEQyN3FBVTlTRmhGTGhsdUdRUWozanQtWGluMUUt?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSkVZcU1NQi1HMnVwUm1EcHd1Z1dsQnc4Wmt1ZlFQZjJmX2NaYmp2MVJlUHRpdW8xaXZfZmVMRDI5UG1zcUZBd2JxbUQ3eVJSclFCYW9wbEo0UVJUc0hVYXZ0UjBZV3AyaTBQXzRwUUtid2l1bWpGa3lsNmJOY24xN2hNLVdqYnJiLTNlaGJrN204N0ZwblYtOEFiNGh1eU42Mjd0b1NCSjktMUMwVXZaLWh6WVpOOE5PVS14Y1BUNGUwQ2lVNFdlbQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUxSSFhXUXBKXzVXMld6bnNCWWxrUUxkRjZVXzFJdkM3LUwxMEJWdEt2YzZYWVUtXzZPdmJhQWYzWEU4Q29jMDc0ZWh5bVI2ay1jdk1tdkdLN04taks2ZldBVTZUZElKOF9fTlZOeE43U2J3cHFNd19VT3AzYmFCZVFla3ZQMkwxdVhvVEhQN29PVlVEMUJpYmtzVGMwR0Q1S012bk0zV0hvNDZSNFRfQWZqa2MxVFZ1QlZEc0p0T2loZWxJVjRZeGMyRjhEVGZWNTR3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר בעקבות מתקפות רחבות",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לפתרונות אבטחת סייבר בעקבות מתקפות רחבות",
-     "en": "Increased demand for cybersecurity solutions following widespread attacks",
-     "ar": "زيادة الطلب على حلول الأمن السيبراني عقب الهجمات الواسعة",
-     "ru": "Рост спроса на решения по кибербезопасности после масштабных атак"
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק - חברת אבטחת סייבר",
-     "en": "CrowdStrike - cybersecurity firm",
-     "ar": "CrowdStrike - شركة أمن سيبراني",
-     "ru": "CrowdStrike - компания кибербезопасности"
-    },
-    "price_at_alert": 242.85,
-    "entry_price": 249.97,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 244.61,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.14,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.94,
-    "edge_pct": -0.94,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "e97c92087a6a",
-  "updates": [
-   {
-    "ts": 1793631522,
-    "time": "2026-11-02T14:58Z",
-    "severity": 4,
-    "summary": "מתקפת סייבר שיבשה את מערכות הקירור והמקררים בסופרמרקטים במספר מדינות באירופה, מה שהוביל להפסדי מזון והשלכת מוצרים.",
-    "i18n": {
-     "he": "מתקפת סייבר שיבשה את מערכות הקירור והמקררים בסופרמרקטים במספר מדינות באירופה, מה שהוביל להפסדי מזון והשלכת מוצרים.",
-     "en": "A cyberattack disrupted refrigeration systems and supermarket freezers across several European countries, causing food spoilage and forced stock removals.",
-     "ar": "أدى هجوم سيبراني إلى تعطيل أنظمة التبريد ومجمدات السوبر ماركت في عدة دول أوروبية، مما أدى إلى تلف الأطعمة وإزالتها من الرفوف.",
-     "ru": "Кибератака вывела из строя системы охлаждения в супермаркетах ряда европейских стран, что привело к порче продуктов и их изъятию."
-    }
-   },
-   {
-    "ts": 1793631668,
-    "time": "2026-11-02T15:01Z",
-    "severity": 3,
-    "summary": "מתקפות סייבר גרמו לעליות טמפרטורה במערכות הקירור ובמקררים של סופרמרקטים במספר מדינות באירופה, כולל אסטוניה, בלגיה, הולנד ושוודיה.",
-    "i18n": {
-     "he": "מתקפות סייבר גרמו לעליות טמפרטורה במערכות הקירור ובמקררים של סופרמרקטים במספר מדינות באירופה, כולל אסטוניה, בלגיה, הולנד ושוודיה.",
-     "en": "Cyberattacks caused temperature spikes in supermarket refrigeration and cooling systems across multiple European countries, including Estonia, Belgium, the Netherlands, and Sweden.",
-     "ar": "أدت هجمات سيبرانية إلى ارتفاع درجات الحرارة في أنظمة التبريد والثلاجات في المتاجر الكبرى بعدة دول أوروبية منها إستونيا وبلجيكا وهولندا والسويد.",
-     "ru": "Кибератаки привели к повышению температуры в холодильных установках супермаркетов в ряде европейских стран, включая Эстонию, Бельгию, Нидерланды и Швецию."
-    }
-   },
-   {
-    "ts": 1793633180,
-    "time": "2026-11-02T15:26Z",
-    "severity": 4,
-    "summary": "מתקפת סייבר פגעה במערכות קירור של סופרמרקטים במספר מדינות באירופה, והעלתה את הטמפרטורות בחנויות רבות.",
-    "i18n": {
-     "he": "מתקפת סייבר פגעה במערכות קירור של סופרמרקטים במספר מדינות באירופה, והעלתה את הטמפרטורות בחנויות רבות.",
-     "en": "A cyberattack targeted supermarket refrigeration systems across several European countries, causing freezer temperatures to rise significantly and spoiling stock.",
-     "ar": "استهدف هجوم سيبراني أنظمة التبريد في محلات السوبر ماركت عبر عدة دول أوروبية، مما أدى إلى ارتفاع درجات حرارة المجمدات.",
-     "ru": "Кибератака затронула холодильные системы супермаркетов в нескольких европейских странах, что привело к повышению температуры в морозильниках."
-    }
-   },
-   {
-    "ts": 1793633525,
-    "time": "2026-11-02T15:32Z",
-    "severity": 4,
-    "summary": "עשרות סופרמרקטים בבלגיה, שוודיה ומדינות נוספות באירופה נפגעו ממתקפת סייבר שנייה שגרמה למקררים להגיע לטמפרטורה של 70 מעלות צלזיוס.",
-    "i18n": {
-     "he": "עשרות סופרמרקטים בבלגיה, שוודיה ומדינות נוספות באירופה נפגעו ממתקפת סייבר שנייה שגרמה למקררים להגיע לטמפרטורה של 70 מעלות צלזיוס.",
-     "en": "Dozens of supermarkets in Belgium, Sweden, and other European countries were targeted by a suspected cyber-attack, causing refrigerators to reach 70 degrees Celsius.",
-     "ar": "استهدفت هجمات سيبرانية محتملة عشرات محلات السوبر ماركت في بلجيكا والسويد ودول أوروبية أخرى، مما أدى إلى وصول حرارة الثلاجات إلى 70 درجة مئوية.",
-     "ru": "Десятки супермаркетов в Бельгии, Швеции и других европейских странах подверглись кибератаке, в результате которой температура в холодильниках поднялась до 70 градусов Цельсия."
-    }
-   }
-  ],
-  "last_update": 1793633525,
-  "evaluated": true
- },
- {
   "ts": 1793630835,
   "time": "2026-11-02T14:47Z",
   "title": "מתקפות סייבר והתרעות שווא באוקראינה וברוסיה",
@@ -953,146 +306,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793631522,
-  "time": "2026-11-02T14:58Z",
-  "title": "אלביט מערכות זוכה בחוזה ארטילריה בהיקף של 170 מיליון דולר מצבא הישראלי",
-  "summary": "חברת אלביט מערכות הודיעה על זכייה בחוזה חדש לאספקת ציוד ארטילרי לצבא ההגנה לישראל בהיקף כספי של כ-170 מיליון דולר.",
-  "kid": "חברת הביטחון אלביט קיבלה הזמנה גדולה לייצר ציוד צבאי לצבא. זה עשוי לעזור למחיר המניה של החברה לעלות.",
-  "i18n": {
-   "title": {
-    "he": "אלביט מערכות זוכה בחוזה ארטילריה בהיקף של 170 מיליון דולר מצבא הישראלי",
-    "en": "Elbit Systems Awarded $170M IDF Artillery Contract",
-    "ar": "إلبيت سيستمز تفوز بعقد مدفعية بقيمة 170 مليون دولار من الجيش الإسرائيلي",
-    "ru": "Elbit Systems получила контракт с армией Израиля на артиллерию на сумму 170 млн долларов"
-   },
-   "summary": {
-    "he": "חברת אלביט מערכות הודיעה על זכייה בחוזה חדש לאספקת ציוד ארטילרי לצבא ההגנה לישראל בהיקף כספי של כ-170 מיליון דולר.",
-    "en": "Elbit Systems announced it has been awarded a new contract to supply artillery equipment to the Israel Defense Forces worth approximately $170 million.",
-    "ar": "أعلنت شركة إلبيت سيستمز عن فوزها بعقد جديد لتوريد معدات مدفعية للجيش الإسرائيلي بقيمة تقارب 170 مليون دولار.",
-    "ru": "Компания Elbit Systems объявила о получении нового контракта на поставку артиллерийского оборудования Армии обороны Израиля на сумму около 170 млн долларов."
-   },
-   "kid": {
-    "he": "חברת הביטחון אלביט קיבלה הזמנה גדולה לייצר ציוד צבאי לצבא. זה עשוי לעזור למחיר המניה של החברה לעלות.",
-    "en": "Defense company Elbit received a large order to produce military equipment for the army. This could help push the company's stock price up.",
-    "ar": "حصلت شركة الدفاع إلبيت على طلب كبير لإنتاج معدات عسكرية للجيش. قد يساعد ذلك في رفع سعر سهم الشركة.",
-    "ru": "Оборонная компания Elbit получила крупный заказ на производство военного оборудования. Это может помочь росту акций компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSTIxdnZaOE5FTlZ6eC04V2VSRmtteHRRLU5OTlc3Njk0WEZ6QUhmWDRWeGdENm1uYkVJTXYzTmRrcThEMmFhNUl1amZGUFVBQ1U1anMxMWI2c3B3NFRGekJZeXp1VEdYUWNXM1B4amI0UXlwc21ZdElKMGQ2b29uR1FqUXIyVk9VelNDWDlScTZTWHE1Unc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "up",
-    "t0": 1793631522,
-    "reason": "זכייה בחוזה רכש משמעותי צפויה להגדיל את הכנסות החברה",
-    "reason_i18n": {
-     "he": "זכייה בחוזה רכש משמעותי צפויה להגדיל את הכנסות החברה",
-     "en": "Winning a significant procurement contract is expected to boost company revenue",
-     "ar": "من المتوقع أن يؤدي الفوز بعقد توريد كبير إلى تعزيز إيرادات الشركة",
-     "ru": "Получение крупного контракта на закупку должно увеличить доходы компании"
-    },
-    "name_i18n": {
-     "he": "אלביט מערכות - חברה ביטחונית",
-     "en": "Elbit Systems - defense company",
-     "ar": "إلبيت سيستمز - شركة دفاعية",
-     "ru": "Elbit Systems - оборонная компания"
-    },
-    "price_at_alert": 770.1,
-    "entry_price": 757.62,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 756.65,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.13,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 1.08,
-    "edge_pct": 1.08,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "36f22375dc4b",
-  "evaluated": true
- },
- {
-  "ts": 1793631522,
-  "time": "2026-11-02T14:58Z",
-  "title": "הודו ובריטניה פועלות לפתרון מחלוקת המכסים על ויסקי סקוטי במסגרת הסכם הסחר",
-  "summary": "גורמים רשמיים מדווחים כי הודו נוקטת צעדים לפתרון מחלוקת המכסים על משקאות אלכוהוליים מוויסקי סקוטי, כחלק מהתקדמות בהסכם סחר מול בריטניה.",
-  "kid": "הודו ובריטניה מנסות לסדר בעיות מס על משקאות כדי שיהיה קל יותר לסחור ביניהן. זה יכול לעזור לחברות משקאות גדולות.",
-  "i18n": {
-   "title": {
-    "he": "הודו ובריטניה פועלות לפתרון מחלוקת המכסים על ויסקי סקוטי במסגרת הסכם הסחר",
-    "en": "India Moves to Resolve Scotch Tariff Dispute Under UK Trade Pact",
-    "ar": "الهند تتحرك لحل نزاع الرسوم الجمركية على الويسكي الاسكتلندي بموجب اتفاقية التجارة",
-    "ru": "Индия стремится разрешить спор по пошлинам на шотландский виски в рамках пакта с УК"
-   },
-   "summary": {
-    "he": "גורמים רשמיים מדווחים כי הודו נוקטת צעדים לפתרון מחלוקת המכסים על משקאות אלכוהוליים מוויסקי סקוטי, כחלק מהתקדמות בהסכם סחר מול בריטניה.",
-    "en": "Officials report that India is taking steps to resolve a tariff dispute over Scotch whisky as part of ongoing progress in a trade pact with the UK.",
-    "ar": "تفيد مصادر بأن الهند تتخذ خطوات لحل نزاع الرسوم الجمركية على الويسكي الاسكتلندي في إطار التقدم باتفاقية التجارة مع بريطانيا.",
-    "ru": "Сообщается, что Индия предпринимает шаги по урегулированию спора по пошлинам на шотландский виски в рамках торгового пакта с Великобританией."
-   },
-   "kid": {
-    "he": "הודו ובריטניה מנסות לסדר בעיות מס על משקאות כדי שיהיה קל יותר לסחור ביניהן. זה יכול לעזור לחברות משקאות גדולות.",
-    "en": "India and Britain are trying to fix tax issues on drinks to make trade easier. This could help major beverage companies.",
-    "ar": "تحاول الهند وبريطانيا تسوية مشكلات الضرائب على المشروبات لتسهيل التجارة بينهما. قد يساعد هذا شركات المشروبات الكبرى.",
-    "ru": "Индия и Великобритания пытаются решить налоговые вопросы по напиткам для упрощения торговли. Это может помочь крупным компаниям."
-   }
-  },
-  "category": "trade",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWU",
-    "direction": "up",
-    "t0": 1793631522,
-    "reason": "התקדמות בהסכמי סחר בינלאומיים תומכת בחברות היצוא הבריטיות",
-    "reason_i18n": {
-     "he": "התקדמות בהסכמי סחר בינלאומיים תומכת בחברות היצוא הבריטיות",
-     "en": "Progress in international trade pacts supports British export firms",
-     "ar": "التقدم في اتفاقيات التجارة الدولية يدعم شركات التصدير البريطانية",
-     "ru": "Прогресс в международных торговых соглашениях поддерживает экспортеров Британии"
-    },
-    "name_i18n": {
-     "he": "אי-דאב-יו - קרן סל בריטניה",
-     "en": "EWU - iShares MSCI United Kingdom ETF",
-     "ar": "EWU - صندوق الاستثمار المتداول للأسهم البريطانية",
-     "ru": "EWU - ETF британского рынка акций"
-    },
-    "price_at_alert": 47.94,
-    "entry_price": 48.035,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 47.28,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.57,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.36,
-    "edge_pct": -0.36,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "74dd3e891742",
-  "evaluated": true
- },
- {
   "ts": 1793631668,
   "time": "2026-11-02T15:01Z",
   "title": "רומניה ומולדובה חותמות על הסכם רכש ביטחוני משותף היסטורי",
@@ -1208,641 +421,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793631668,
-  "time": "2026-11-02T15:01Z",
-  "title": "התעשיינים בבריטניה נפגעים מעליית עלויות ודוחקים בבנק המרכזי להעלות ריבית",
-  "summary": "יצרנים בבריטניה סובלים מעלויות גואה בעוד האינפלציה צפויה להגיע ל-5% החורף, מה שמגביר את הלחץ על הבנק המרכזי של אנגליה להעלות את הריבית.",
-  "kid": "חברות לייצור בבריטניה מתקשות להתמודד עם התייקרות ההוצאות. אם הבנק המרכזי יצטרך להעלות את הריבית כדי להילחם באינפלציה, זה עשוי להאט את הכלכלה הבריטית.",
-  "i18n": {
-   "title": {
-    "he": "התעשיינים בבריטניה נפגעים מעליית עלויות ודוחקים בבנק המרכזי להעלות ריבית",
-    "en": "British Manufacturers Hit by Rising Costs as Pressure Mounts on Bank of England",
-    "ar": "المصنعون البريطانيون يتضررون من ارتفاع التكاليف مع تصاعد الضغوط على بنك إنجلترا",
-    "ru": "Британские производители страдают от роста издержек, усиливая давление на Банк Англии"
-   },
-   "summary": {
-    "he": "יצרנים בבריטניה סובלים מעלויות גואה בעוד האינפלציה צפויה להגיע ל-5% החורף, מה שמגביר את הלחץ על הבנק המרכזי של אנגליה להעלות את הריבית.",
-    "en": "Manufacturers in Britain are battered by rising costs with inflation forecast to hit 5% this winter, mounting pressure on the Bank of England to raise interest rates.",
-    "ar": "يعاني المصنعون في بريطانيا من ارتفاع التكاليف وسط توقعات بوصول التضخم إلى 5% هذا الشتاء، مما يزياد الضغط على بنك إنجلترا لرفع أسعار الفائدة.",
-    "ru": "Производители в Великобритании страдают от роста издержек на фоне прогнозов инфляции в 5% этой зимой, усиливая давление на Банк Англии с целью повышения ставки."
-   },
-   "kid": {
-    "he": "חברות לייצור בבריטניה מתקשות להתמודד עם התייקרות ההוצאות. אם הבנק המרכזי יצטרך להעלות את הריבית כדי להילחם באינפלציה, זה עשוי להאט את הכלכלה הבריטית.",
-    "en": "British manufacturing companies are struggling with higher expenses. If the central bank raises interest rates to fight inflation, it could slow down the UK economy.",
-    "ar": "تتعثر شركات التصنيع البريطانية في التعامل مع ارتفاع المصروفات. إذا قام البنك المركزي برفع الفائدة لمكافحة التضخم، فقد يتسبب ذلك في تباطؤ الاقتصاد البريطاني.",
-    "ru": "Британские промышленные компании борются с ростом расходов. Если центробанк поднимет ставки для борьбы с инфляцией, это может замедлить экономику Великобритании."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWU",
-    "direction": "down",
-    "t0": 1793631668,
-    "reason": "חשש מהאטה כלכלית בבריטניה עקב אינפלציה גבוהה וריבית עולה.",
-    "reason_i18n": {
-     "he": "חשש מהאטה כלכלית בבריטניה עקב אינפלציה גבוהה וריבית עולה.",
-     "en": "Fears of an economic slowdown in the UK due to sticky inflation and rising interest rates.",
-     "ar": "مخاوف من تباطؤ اقتصادي في بريطانيا بسبب التضخم المرتفع وارتفاع أسعار الفائدة.",
-     "ru": "Опасения замедления экономики Великобритании из-за инфляции и роста ставок."
-    },
-    "name_i18n": {
-     "he": "EWU - קרן סל על שוק המניות של בריטניה",
-     "en": "EWU – iShares MSCI United Kingdom ETF",
-     "ar": "EWU - صندوق استثماري للأسهم البريطانية",
-     "ru": "EWU — ETF акций Великобритании"
-    },
-    "price_at_alert": 47.94,
-    "entry_price": 48.035,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 47.28,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.57,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.36,
-    "edge_pct": 0.36,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FXE",
-    "direction": "down",
-    "t0": 1793631668,
-    "reason": "חלשות בכלכלה הבריטית משפיעה בעקיפין על הסנטימנט הכללי באירופה.",
-    "reason_i18n": {
-     "he": "חלשות בכלכלה הבריטית משפיעה בעקיפין על הסנטימנט הכללי באירופה.",
-     "en": "Economic strain in the UK weighs broadly on European economic sentiment.",
-     "ar": "الضغط الاقتصادي في بريطانيا يؤثر بشكل عام على المعنويات الاقتصادية الأوروبية.",
-     "ru": "Экономическое напряжение в Великобритании давит на общие настроения в Европе."
-    },
-    "name_i18n": {
-     "he": "FXE - קרן סל העוקבת אחר אירו",
-     "en": "FXE – CurrencyShares Euro Trust",
-     "ar": "FXE - صندوق استثماري لعملة اليورو",
-     "ru": "FXE — ETF курса евро"
-    },
-    "price_at_alert": 103.48,
-    "entry_price": 103.3185,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 103.25,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.07,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 1.14,
-    "edge_pct": -1.14,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "0149ea3b593d",
-  "evaluated": true
- },
- {
-  "ts": 1793631668,
-  "time": "2026-11-02T15:01Z",
-  "title": "ריינאייר מזהירה מפני הקפאת שכר והעלאת מחירי טיסות עקב עלויות הדלק",
-  "summary": "חברת התעופה ריינאייר הודיעה כי היא עשויה להקפיא את שכר העובדים ולהעלות את מחירי הכרטיסים אם עלויות הדלק יעלו משמעותית עקב המלחמה בין ארה\"ב וישראל לאיראן.",
-  "kid": "חברת התעופה ריינאייר מזהירה שמחירי הדלק הגבוהים בגלל מלחמות במזרח התיכון עלולים לייקר את כרטיסי הטיסה ולפגוע בעובדיה. זה מראה כיצד מחירי אנרגיה פוגעים בחברות תחבורה.",
-  "i18n": {
-   "title": {
-    "he": "ריינאייר מזהירה מפני הקפאת שכר והעלאת מחירי טיסות עקב עלויות הדלק",
-    "en": "Ryanair Warns of Pay Freeze and Higher Fares Due to Fuel Costs",
-    "ar": "ريان إير تحذر من تجميد الرواتب ورفع أسعار الرحلات بسبب تكاليف الوقود",
-    "ru": "Ryanair предупреждает о заморозке зарплат и росте цен на билеты из-за цен на топливо"
-   },
-   "summary": {
-    "he": "חברת התעופה ריינאייר הודיעה כי היא עשויה להקפיא את שכר העובדים ולהעלות את מחירי הכרטיסים אם עלויות הדלק יעלו משמעותית עקב המלחמה בין ארה\"ב וישראל לאיראן.",
-    "en": "Ryanair stated it may freeze worker pay and raise airfares if fuel prices surge significantly due to the ongoing US-Israel conflict with Iran.",
-    "ar": "أعلنت شركة طيران ريان إير أنها قد تجمد أجور العمال وترفع أسعار التذاكر إذا ارتفعت تكاليف الوقود بشكل كبير بسبب الصراع الأمريكي الإسرائيلي مع إيران.",
-    "ru": "Авиакомпания Ryanair заявила, что может заморозить зарплаты и поднять цены на билеты, если расходы на топливо вырастут из-за войны США и Израиля с Ираном."
-   },
-   "kid": {
-    "he": "חברת התעופה ריינאייר מזהירה שמחירי הדלק הגבוהים בגלל מלחמות במזרח התיכון עלולים לייקר את כרטיסי הטיסה ולפגוע בעובדיה. זה מראה כיצד מחירי אנרגיה פוגעים בחברות תחבורה.",
-    "en": "Airline Ryanair warns that high fuel prices from Middle East conflicts could make flights more expensive and hurt workers. This shows how high energy costs harm transport companies.",
-    "ar": "تحذر شركة ريان إير من أن أسعار الوقود المرتفعة بسبب صراعات الشرق الأوسط قد تجعل الرحلات أكثر تكلفة وتضر بالعمال. هذا يوضح كيف تضر تكاليف الطاقة بشركات النقل.",
-    "ru": "Ryanair предупреждает, что высокие цены на топливо из-за конфликтов на Ближнем Востоке удорожат перелеты. Это показывает, как дорогая энергия бьет по перевозчикам."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "JETS",
-    "direction": "down",
-    "t0": 1793631668,
-    "reason": "עלויות דלק סילוני גבוהות עקב מתחים גיאופוליטיים פוגעות ברווחיות חברות התעופה.",
-    "reason_i18n": {
-     "he": "עלויות דלק סילוני גבוהות עקב מתחים גיאופוליטיים פוגעות ברווחיות חברות התעופה.",
-     "en": "Surging jet fuel costs driven by geopolitical tensions weigh heavily on airline margins.",
-     "ar": "ارتفاع تكاليف وقود الطائرات المدفوع بالتوترات الجيوسياسية يضغط بشدة على هوامش شركات الطيران.",
-     "ru": "Рост цен на авиатопливо из-за геополитики давит на маржу авиакомпаний."
-    },
-    "name_i18n": {
-     "he": "JETS - קרן סל של חברות תעופה",
-     "en": "JETS – US Global Jets ETF",
-     "ar": "JETS - صندوق استثماري لقطاع الطيران",
-     "ru": "JETS — ETF авиакомпаний"
-    },
-    "price_at_alert": 28.215,
-    "entry_price": 28.43,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 27.62,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.85,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -1.64,
-    "edge_pct": 1.64,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "f8ae255bdf78",
-  "evaluated": true
- },
- {
-  "ts": 1793631668,
-  "time": "2026-11-02T15:01Z",
-  "title": "טיסת וויז אייר מבונדן ביצעה נחיתת חירום עקב איום פחמימה/פצצה",
-  "summary": "טיסת חברת וויז אייר שיצאה מלונדון ביצעה נחיתת חירום בבודפשט בליווי מטוס קרב הונגרי לאחר שהתקבל איום פצצה באמצע הטיסה.",
-  "kid": "מטוס נוסעים נאלץ לנחות נחיתת חירום אחרי שקיבל איום פצצה באוויר. אירועים כאלו מעלים חששות בנוגע לאבטחת התעופה ויכולים להשפיע נקודתית על מניות חברות תעופה.",
-  "i18n": {
-   "title": {
-    "he": "טיסת וויז אייר מבונדן ביצעה נחיתת חירום עקב איום פחמימה/פצצה",
-    "en": "Wizz Air Flight From London Makes Emergency Landing After Bomb Threat",
-    "ar": "رحلة لشرطة طيران ويز إير القادمة من لندن تهبط اضطرارياً إثر تهديد بوجود قنبلة",
-    "ru": "Рейс Wizz Air из Лондона совершил экстренную посадку из-за угрозы взрыва"
-   },
-   "summary": {
-    "he": "טיסת חברת וויז אייר שיצאה מלונדון ביצעה נחיתת חירום בבודפשט בליווי מטוס קרב הונגרי לאחר שהתקבל איום פצצה באמצע הטיסה.",
-    "en": "A Wizz Air flight from London made an emergency landing in Budapest escorted by a Hungarian fighter jet after a mid-air bomb threat was received.",
-    "ar": "هبطت رحلة تابعة لشرطة طيران ويز إير قادمة من لندن اضطرارياً في بودابست بمواكبة مقاتلة حربية مجرية إثر تلقي تهديد بوجود قنبلة جواً.",
-    "ru": "Рейс Wizz Air из Лондона совершил экстренную посадку в Будапеште в сопровождении венгерского истребителя после получения угрозы взрыва в полете."
-   },
-   "kid": {
-    "he": "מטוס נוסעים נאלץ לנחות נחיתת חירום אחרי שקיבל איום פצצה באוויר. אירועים כאלו מעלים חששות בנוגע לאבטחת התעופה ויכולים להשפיע נקודתית על מניות חברות תעופה.",
-    "en": "A passenger plane made an emergency landing following a mid-air bomb threat. Such incidents raise aviation security concerns and can weigh on airline stocks.",
-    "ar": "اضطرت طائرة ركاب للهبوط اضطرارياً بعد تلقي تهديد بوجود قنبلة في الجو. هذه الحوادث تثير مخاوف أمن الطيران وقد تؤثر على أسهم شركات الطيران.",
-    "ru": "Пассажирский самолет совершил экстренную посадку из-за угрозы взрыва. Такие инциденты вызывают вопросы авиационной безопасности и давят на акции авиакомпаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 2,
-  "confidence": "low",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "DAL",
-    "direction": "down",
-    "t0": 1793631668,
-    "reason": "אירועי ביטחון בתעופה מעוררים דאגה סנטימנטלית לגבי מגזר התעופה.",
-    "reason_i18n": {
-     "he": "אירועי ביטחון בתעופה מעוררים דאגה סנטימנטלית לגבי מגזר התעופה.",
-     "en": "Aviation security scares can trigger temporary negative sentiment across airline stocks.",
-     "ar": "مخاوف أمن الطيران يمكن أن تثير معنويات سلبية مؤقتة على أسهم شركات الطيران.",
-     "ru": "Опасения в сфере авиабезопасности создают временный негатив для авиакомпаний."
-    },
-    "name_i18n": {
-     "he": "דלתא איירליינס - חברת תעופה מובילה",
-     "en": "Delta Air Lines – a major airline",
-     "ar": "Delta Air Lines - شركة طيران كبرى",
-     "ru": "Delta Air Lines — крупная авиакомпания"
-    },
-    "price_at_alert": 83.545,
-    "entry_price": 83.83,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 83.27,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.67,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 0.54,
-    "edge_pct": -0.54,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "a29345836d4f",
-  "evaluated": true
- },
- {
-  "ts": 1793632303,
-  "time": "2026-11-02T15:11Z",
-  "title": "אנתרופיק מדווחת על הכנסות של 17 מיליארד דולר ברבעון השלישי ועל התחייבויות רכש עצומות",
-  "summary": "חברת הבינה המלאכותית אנתרופיק פרסמה תשקיף מתוקן המראה הכנסות של 17 מיליארד דולר ברבעון השלישי והתחייבויות רכש של כמעט 895.4 מיליארד דולר.",
-  "kid": "חברת בינה מלאכותית בשם אנתרופיק חשפה נתונים כספיים ענקיים. זה מראה כמה השוק הזה גדל ויכול להשפיע על מניות טכנולוגיה ושבבים.",
-  "i18n": {
-   "title": {
-    "he": "אנתרופיק מדווחת על הכנסות של 17 מיליארד דולר ברבעון השלישי ועל התחייבויות רכש עצומות",
-    "en": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
-    "ar": "أنثروبيك تسجل إيرادات بقيمة 17 مليار دولار في الربع الثالث وتعهدات شراء هائلة",
-    "ru": "Anthropic сообщает о выручке в размере 17 млрд долларов за третий квартал и обязательствах по закупкам"
-   },
-   "summary": {
-    "he": "חברת הבינה המלאכותית אנתרופיק פרסמה תשקיף מתוקן המראה הכנסות של 17 מיליארד דולר ברבעון השלישי והתחייבויות רכש של כמעט 895.4 מיליארד דולר.",
-    "en": "AI firm Anthropic released a revised S-1 prospectus showing $17 billion in Q3 revenue and purchase commitments totaling $895.4 billion.",
-    "ar": "نشرت شركة الذكاء الاصطناعي أنثروبيك نشرة اكتتاب معدلة تظهر إيرادات بـ 17 مليار دولار في الربع الثالث وتعهدات شراء بقيمة 895.4 مليار دولار.",
-    "ru": "ИИ-компания Anthropic опубликовала обновленный проспект S-1, показавший выручку за третий квартал в размере 17 млрд долларов и обязательства по закупкам."
-   },
-   "kid": {
-    "he": "חברת בינה מלאכותית בשם אנתרופיק חשפה נתונים כספיים ענקיים. זה מראה כמה השוק הזה גדל ויכול להשפיע על מניות טכנולוגיה ושבבים.",
-    "en": "An AI company named Anthropic revealed huge financial numbers. This shows how fast this market is growing and could move tech and semiconductor stocks.",
-    "ar": "كشفت شركة ذكاء اصطناعي تدعى أنثروبيك عن أرقام مالية ضخمة. يوضح هذا مدى نمو هذا السوق ويمكن أن يؤثر على أسهم التكنولوجيا والرقائق.",
-    "ru": "ИИ-компания Anthropic раскрыла огромные финансовые показатели. Это показывает, как быстро растет данный рынок, и может повлиять на акции технологических компаний."
-   }
-  },
-  "category": "contracts",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "ביקושים גבוהים לבינה מלאכותית מחזקים את השבבים שלה",
-    "reason_i18n": {
-     "he": "ביקושים גבוהים לבינה מלאכותית מחזקים את השבבים שלה",
-     "en": "High AI demand strengthens its chips",
-     "ar": "الطلب المرتفع على الذكاء الاصطناعي يغذي رقائقها",
-     "ru": "Высокий спрос на ИИ укрепляет ее чипы"
-    },
-    "name_i18n": {
-     "he": "נבידיה - ענקית שבבים",
-     "en": "Nvidia - chip giant",
-     "ar": "إنفيديا - عملاق الرقائق",
-     "ru": "Nvidia - гигант чипов"
-    },
-    "price_at_alert": 207.74,
-    "entry_price": 209.81,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 206.57,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.54,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.34,
-    "edge_pct": -0.34,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "דוחות חזקים בתחום הבינה המלאכותית דוחפים את סמלי הטכנולוגיה",
-    "reason_i18n": {
-     "he": "דוחות חזקים בתחום הבינה המלאכותית דוחפים את סמלי הטכנולוגיה",
-     "en": "Strong AI reports lift tech benchmarks",
-     "ar": "التقارير القوية للذكاء الاصطناعي تدفع قطاع التكنولوجيا",
-     "ru": "Сильные отчеты по ИИ поднимают техсектор"
-    },
-    "name_i18n": {
-     "he": "קיו-קיו-קיו - קרן סל של מניות טכנולוגיה מובילות",
-     "en": "QQQ - Nasdaq 100 ETF",
-     "ar": "QQQ - صندوق مؤشر ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 694.44,
-    "entry_price": 699.33,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 685.34,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.0,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.79,
-    "edge_pct": -0.79,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "9ab9f1a23f75",
-  "evaluated": true
- },
- {
-  "ts": 1793632303,
-  "time": "2026-11-02T15:11Z",
-  "title": "גרמניה רוכשת שני מערכות הגנה אווירית חדשות מסוג פטריוט",
-  "summary": "ממשלת גרמניה הזמינה שתי מערכות טילים מסוג פטריוט נוספות כדי לחזק את ההגנה האווירית שלה.",
-  "kid": "גרמניה קונה עוד מערכות הגנה נגד טילים. זה יכול לעזור למניות של חברות הביטחון שמייצרות אותן.",
-  "i18n": {
-   "title": {
-    "he": "גרמניה רוכשת שני מערכות הגנה אווירית חדשות מסוג פטריוט",
-    "en": "Germany Orders Two New Patriot Missile Systems",
-    "ar": "ألمانيا تطلب نظامين جديدين للدفاع الجوي من طراز باتريوت",
-    "ru": "Германия заказывает две новые системы противовоздушной обороны Patriot"
-   },
-   "summary": {
-    "he": "ממשלת גרמניה הזמינה שתי מערכות טילים מסוג פטריוט נוספות כדי לחזק את ההגנה האווירית שלה.",
-    "en": "The German government has placed an order for two new Patriot missile systems to boost its air defense.",
-    "ar": "طلبت الحكومة الألمانية نظامين إضافيين لصواريخ باتريوت لتعزيز دفاعها الجوي.",
-    "ru": "Правительство Германии заказало две новые ракетные системы Patriot для укрепления своей противовоздушной обороны."
-   },
-   "kid": {
-    "he": "גרמניה קונה עוד מערכות הגנה נגד טילים. זה יכול לעזור למניות של חברות הביטחון שמייצרות אותן.",
-    "en": "Germany is buying more missile defense systems. This could help the stocks of defense companies that make them.",
-    "ar": "تشتري ألمانيا المزيد من أنظمة الدفاع الصاروخي. قد يساعد هذا أسهم شركات الدفاع التي تصنعها.",
-    "ru": "Германия покупает новые системы противоракетной обороны. Это может поддержать акции оборонных компаний, которые их производят."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1NKRVh3Q0ZJSlhvZy1GaEZDZG5OQ3M2cnVtT09ScS1jUkdOaENsZ3RSVlcxT1A1LUw3a2NDYVlmSjdRcDE0LVFXR3ZiS19nUXB2bnFnTjhmczVDZzlDTXlSV3k1a2hHc0xvTGl2UG1hRldaaU5TMkdNMkV0OTB2bS1Oaw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "הזמנת ענק חדשה למערכות הגנה אווירית",
-    "reason_i18n": {
-     "he": "הזמנת ענק חדשה למערכות הגנה אווירית",
-     "en": "New major order for air defense systems",
-     "ar": "طلب كبير جديد لنظام الدفاع الجوي",
-     "ru": "Новый крупный заказ на системы ПВО"
-    },
-    "name_i18n": {
-     "he": "אר-טי-איקס - יצרנית מערכות פטריוט",
-     "en": "RTX - manufacturer of Patriot systems",
-     "ar": "RTX - الشركة المصنعة لأنظمة باتريوت",
-     "ru": "RTX - производитель систем Patriot"
-    },
-    "price_at_alert": 199.985,
-    "entry_price": 201.7351,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 203.83,
-    "exit_date": "2026-11-03",
-    "change_pct": 1.04,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 2.25,
-    "edge_pct": 2.25,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "גידול בביקושים הביטחוניים באירופה מחזק את הסקטור",
-    "reason_i18n": {
-     "he": "גידול בביקושים הביטחוניים באירופה מחזק את הסקטור",
-     "en": "Growing European defense demand boosts the sector",
-     "ar": "الطلب المتزايد على الدفاع في أوروبا يدعم القطاع",
-     "ru": "Растущий европейский оборонный спрос поддерживает сектор"
-    },
-    "name_i18n": {
-     "he": "איי-טי-אי - קרן סל של תעופה וביטחון",
-     "en": "ITA - Aerospace & Defense ETF",
-     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 213.685,
-    "entry_price": 215.45,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 216.39,
-    "exit_date": "2026-11-03",
-    "change_pct": 0.44,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 1.64,
-    "edge_pct": 1.64,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b0e4dc27df4a",
-  "evaluated": true
- },
- {
-  "ts": 1793632303,
-  "time": "2026-11-02T15:11Z",
-  "title": "אזהרה מפני התפרצות מחלה חסרת תקדים וחמורה ברחבי העולם",
-  "summary": "גורמי רשמיים מזהירים מפני התפרצות מחלה חמורה וחסרת תקדים, ומציינים שאף מדינה אינה מוגנת.",
-  "kid": "יש חשש ממחלה חדשה שמתפשטת בעולם. זה עשוי להשפיע על מניות חברות התרופות ומניות הבריאות.",
-  "i18n": {
-   "title": {
-    "he": "אזהרה מפני התפרצות מחלה חסרת תקדים וחמורה ברחבי העולם",
-    "en": "Officials warn ‘unprecedented’ disease outbreak is ‘very dire’: ‘All countries should know that they are not safe’",
-    "ar": "مسؤولون يحذرون من تفشي مرض \"غير مسبوق\" و\"خطير للغاية\": \"يجب أن تعلم جميع الدول أنها ليست في أمآن\"",
-    "ru": "Чиновники предупреждают о «беспрецедентной» вспышке заболевания: «Все страны должны знать, что они не в безопасности»"
-   },
-   "summary": {
-    "he": "גורמי רשמיים מזהירים מפני התפרצות מחלה חמורה וחסרת תקדים, ומציינים שאף מדינה אינה מוגנת.",
-    "en": "Officials have warned of a very dire and unprecedented disease outbreak, emphasizing that no country is safe.",
-    "ar": "حذر المسؤولون من تفشي مرض خطير وغير مسبوق، مؤكدين أن أي دولة ليست في أمان.",
-    "ru": "Чиновники предупредили об очень тяжелой и беспрецедентной вспышке заболевания, подчеркнув, что ни одна страна не в безопасности."
-   },
-   "kid": {
-    "he": "יש חשש ממחלה חדשה שמתפשטת בעולם. זה עשוי להשפיע על מניות חברות התרופות ומניות הבריאות.",
-    "en": "There are concerns about a new disease spreading globally. This could affect pharmaceutical and healthcare stocks.",
-    "ar": "هناك مخاوف بشأن انتشار مرض جديد عالمياً. قد يؤثر ذلك على أسهم شركات الأدوية والرعاية الصحية.",
-    "ru": "Существуют опасения по поводу распространения новой болезни по всему миру. Это может повлиять на акции фармацевтических компаний и здравоохранения."
-   }
-  },
-  "category": "health",
-  "severity": 4,
-  "confidence": "low",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHlCT2M3encwSkladFk1aEdYc0dQbW9CcVUyWHUtbVlMRFhHdTZZcHRneTdFai0xSUxVQnFRTHdCNTFNemVZdVhUMjUydlNiNkVORWpZWGhGOUt5REhqZGpDNDJ5VUh4S1g2Qk1VeE9SVUF0YnFWaFpuam0wbGNlYXBUTG9INVNRaFZXTzh0S0lDN2JOUGxfbnFnTTk?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "חשש מהתפרצות מחלות מגדיל את הביקוש למניות הגנה בתחום הבריאות",
-    "reason_i18n": {
-     "he": "חשש מהתפרצות מחלות מגדיל את הביקוש למניות הגנה בתחום הבריאות",
-     "en": "Disease outbreak fears increase demand for healthcare defense stocks",
-     "ar": "مخاوف تفشي الأمراض تزيد الطلب على أسهم الرعاية الصحية",
-     "ru": "Опасения вспышки заболеваний повышают спрос на акции здравоохранения"
-    },
-    "name_i18n": {
-     "he": "אקס-אל-וי - קרן סל של שירותי בריאות",
-     "en": "XLV - Health Care Select Sector SPDR Fund",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية",
-     "ru": "XLV - ETF сектора здравоохранения"
-    },
-    "price_at_alert": 184.06,
-    "entry_price": 184.07,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 184.02,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.03,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 1.18,
-    "edge_pct": 1.18,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "5b52bd80904b",
-  "evaluated": true
- },
- {
-  "ts": 1793632303,
-  "time": "2026-11-02T15:11Z",
-  "title": "תפוקת האפונה (Tur) בהודו צפויה לרדת עקב השפעות בצورت",
-  "summary": "למרות גידול בשטחי הגידול, תפוקת קטניות ה-Tur בהודו צפויה להתכווץ ל-20-25 לה-טאן עקב נזקי בצورت.",
-  "kid": "יבול הקטניות בהודו נפגע בגלל בצورت. זה עשוי להעלות את מחירי המזון והחקלאות.",
-  "i18n": {
-   "title": {
-    "he": "תפוקת האפונה (Tur) בהודו צפויה לרדת עקב השפעות בצورت",
-    "en": "Despite rise in area, India’s tur output may shrink to 20-25 lt on drought impact",
-    "ar": "على الرغم من زيادة المساحة، قد ينكمش إنتاج التور في الهند بسبب الجفاف",
-    "ru": "Несмотря на рост посевных площадей, производство турецкого гороха в Индии может сократиться из-за засухи"
-   },
-   "summary": {
-    "he": "למרות גידול בשטחי הגידול, תפוקת קטניות ה-Tur בהודו צפויה להתכווץ ל-20-25 לה-טאן עקב נזקי בצورت.",
-    "en": "Despite increased planting areas, India's tur pulse output is projected to shrink to 20-25 lakh tonnes due to drought conditions.",
-    "ar": "على الرغم من زيادة مساحات الزراعة، فمن المتوقع أن ينكمش إنتاج البقوليات في الهند بسبب ظروف الجفاف.",
-    "ru": "Несмотря на увеличение посевных площадей, производство бобовых в Индии, как ожидается, сократится из-за засухи."
-   },
-   "kid": {
-    "he": "יבול הקטניות בהודו נפגע בגלל בצورت. זה עשוי להעלות את מחירי המזון והחקלאות.",
-    "en": "Pulse crops in India were hit by drought. This could drive up agricultural and food prices.",
-    "ar": "تضررت محاصيل البقوليات في الهند بسبب الجفاف. قد يؤدي هذا إلى رفع أسعار المواد الغذائية والزراعية.",
-    "ru": "Урожай бобовых в Индии пострадал от засухи. Это может поднять цены на продовольствие и сельское хозяйство."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPckozU3hpZXY4R3BYdVRzb1doZDh1MVc3Y3MxU1NXeFd4TE0yUGZ0ZjhUamJudGUwcWZWR1IwdEVrbERQNEIyZWFLZEFDT3kzZUxySFdyQ0hDZ2c2UGo1ZVJ1dVZyZV92TjRSMnJNNjNsTXR1dmVFUkNWeFN6M182dTlNbVo5cGttaGQ3YjZsNGJ3QTVnYUl4NjBXWmlWZUhfeURjamlQbkxDV3hwa1pKVGFSRjdhQjIzVjlUdGJUWjZlaWEtMTE5SDFSUjRrOGZ4TDFLWG9WQkhDekUxUWZoZElIeV9hTnZsS0ktRHdOMA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "DBA",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "פגיעה بيבולות בהודו תורמת לעליית מחירי סחורות חקלאיות",
-    "reason_i18n": {
-     "he": "פגיעה بيבולות בהודו תורמת לעליית מחירי סחורות חקלאיות",
-     "en": "Crop damage in India supports agricultural commodity prices",
-     "ar": "تلف المحاصيل في الهند يدعم أسعار السلع الزراعية",
-     "ru": "Ущерб урожаю в Индии поддерживает цены на сельхозтовары"
-    },
-    "name_i18n": {
-     "he": "די-בי-אי - קרן סל לחקלאות",
-     "en": "DBA - Agriculture ETF",
-     "ar": "DBA - صندوق مؤشر الزراعة",
-     "ru": "DBA - ETF сельского хозяйства"
-    },
-    "price_at_alert": 26.9232,
-    "entry_price": 26.925,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 26.52,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.5,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": -0.3,
-    "edge_pct": -0.3,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "7a3291545b9a",
-  "evaluated": true
- },
- {
-  "ts": 1793632303,
-  "time": "2026-11-02T15:11Z",
-  "title": "משבר האבולה מדגיש את הדחיפות לאישור אמנת המגיפות של ארגון הבריאות העולמי",
-  "summary": "ארגון הבריאות העולמי מציין כי משבר האבולה הנוכחי ממחיש את הצורך הקריטי באישור אמנת מגיפות גלובלית.",
-  "kid": "מחלת האבולה מזכירה לעולם שצריך הסכם עולמי למלחמה במגיפות. זה יכול לעניין חברות שמייצרות חיסונים ותרופות.",
-  "i18n": {
-   "title": {
-    "he": "משבר האבולה מדגיש את הדחיפות לאישור אמנת המגיפות של ארגון הבריאות העולמי",
-    "en": "Ebola Crisis Highlights Urgency Of Pandemic Treaty — WHO",
-    "ar": "أزمة إيبولا تسلط الضوء على إلحاح معاهدة الجوائح - منظمة الصحة العالمية",
-    "ru": "Кризис Эболы подчеркивает срочность принятия пандемического договора ВОЗ"
-   },
-   "summary": {
-    "he": "ארגון הבריאות העולמי מציין כי משבר האבולה הנוכחי ממחיש את הצורך הקריטי באישור אמנת מגיפות גלובלית.",
-    "en": "The WHO stated that the ongoing Ebola crisis underscores the urgent need to finalize a global pandemic treaty.",
-    "ar": "ذكرت منظمة الصحة العالمية أن أزمة إيبولا الحالية تسلط الضوء على الحاجة الملحة لإبرام معاهدة عالمية للجوائح.",
-    "ru": "ВОЗ заявила, что текущий кризис Эболы подчеркивает острую необходимость заключения глобального договора о пандемиях."
-   },
-   "kid": {
-    "he": "מחלת האבולה מזכירה לעולם שצריך הסכם עולמי למלחמה במגיפות. זה יכול לעניין חברות שמייצרות חיסונים ותרופות.",
-    "en": "The Ebola outbreak reminds the world of the need for a global pandemic treaty, keeping vaccine and drug makers in focus.",
-    "ar": "تذكر أزمة إيبولا العالم بالحاجة إلى معاهدة عالمية لمكافحة الأوبئة، مما يضع صانعي اللقاحات في دائرة الضوء.",
-    "ru": "Вспышка Эболы напоминает миру о необходимости глобального договора о пандемиях, привлекая внимание к производителям вакцин."
-   }
-  },
-  "category": "health",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV19Yb0tTWmFGUDhrcXNkbUZoeGRQZ21sc3dTbHBjTmtXeDliYXdObEdONjEtQjNiQTV0eDc0ZHh5bmpVT1JiRXBZNTZHUGY1MUhTbk12aDlzalZ6OTV0U25Tb1lQWW90MzdBYXFTam5QRzFYd3hzZmdOMHd5M0ZfNTFzZEJCaW9aSjY1dGJZWG1Na3FKLXdldg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1793632303,
-    "reason": "דגש על היערכות למגיפות מגביר את העניין במפתחי חיסונים",
-    "reason_i18n": {
-     "he": "דגש על היערכות למגיפות מגביר את העניין במפתחי חיסונים",
-     "en": "Focus on pandemic preparedness increases interest in vaccine developers",
-     "ar": "التركيز على الاستعداد للجوائح يزيد الاهتمام بمطوري اللقاحات",
-     "ru": "Фокус на готовность к пандемиям повышает интерес к разработчикам вакцин"
-    },
-    "name_i18n": {
-     "he": "מודרנה - חברת ביוטכנולוגיה וחיסונים",
-     "en": "Moderna - biotech and vaccine maker",
-     "ar": "مودرنا - شركة التكنولوجيا الحيوية واللقاحات",
-     "ru": "Moderna - производитель вакцин и биотехнологий"
-    },
-    "price_at_alert": 224.4958,
-    "entry_price": 225.13,
-    "entry_time": "2026-11-02T15:30+00:00",
-    "exit_price": 228.45,
-    "exit_date": "2026-11-03",
-    "change_pct": 1.47,
-    "bench": "SPY",
-    "bench_change_pct": -1.21,
-    "excess_pct": 2.68,
-    "edge_pct": 2.68,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "7dd64cb46eaf",
-  "evaluated": true
- },
- {
   "ts": 1793633525,
   "time": "2026-11-02T15:32Z",
   "title": "הזהב יורד מתחת לרף 4,000 הדולר",
@@ -1949,306 +527,6 @@
    }
   ],
   "last_update": 1793674104,
-  "evaluated": true
- },
- {
-  "ts": 1793633525,
-  "time": "2026-11-02T15:32Z",
-  "title": "מגזר הייצור בקנדה יורד לטריטוריית התכווצות",
-  "summary": "מדד מנהלי הרכש (PMI) של מגזר הייצור בקנדה ירד מתחת לרף ההתכווצות, מה שמעיד על האטה בפעילות הכלכלית.",
-  "kid": "מפעלים בקנדה מייצרים פחות מאשר קודם. זה יכול להשפיע על חברות שסוחרות עם קנדה ועל קרן הסל של הכלכלה הקנדית.",
-  "i18n": {
-   "title": {
-    "he": "מגזר הייצור בקנדה יורד לטריטוריית התכווצות",
-    "en": "Canada Manufacturing Sector PMI Slips Into Contraction Territory",
-    "ar": "قطاع التصنيع في كندا ينزلق إلى منطقة الانكماش",
-    "ru": "Производственный сектор Канады перешел в зону спада"
-   },
-   "summary": {
-    "he": "מדד מנהלי הרכש (PMI) של מגזר הייצור בקנדה ירד מתחת לרף ההתכווצות, מה שמעיד על האטה בפעילות הכלכלית.",
-    "en": "Canada's manufacturing Purchasing Managers' Index (PMI) slipped into contraction territory, signaling a slowdown in economic activity.",
-    "ar": "انزلق مؤشر مديري المشتريات التصنيعي في كندا إلى منطقة الانكماش، مما يشير إلى تباطؤ النشاط الاقتصادي.",
-    "ru": "Индекс менеджеров по закупкам (PMI) в обрабатывающей промышленности Канады опустился в зону спада, сигнализируя о замедлении экономической активности."
-   },
-   "kid": {
-    "he": "מפעלים בקנדה מייצרים פחות מאשר קודם. זה יכול להשפיע על חברות שסוחרות עם קנדה ועל קרן הסל של הכלכלה הקנדית.",
-    "en": "Factories in Canada are producing less than before. This can impact companies trading with Canada and the Canadian economy ETF.",
-    "ar": "المصانع في كندا تنتج أقل من ذي قبل. هذا يمكن أن يؤثر على الشركات التي تتاجر مع كندا وصندوق الاقتصاد الكندي.",
-    "ru": "Заводы в Канаде производят меньше, чем раньше. Это может повлиять на компании, торгующие с Канадой, и ETF канадской экономики."
-   }
-  },
-  "category": "macro",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSWhaY1VsXzV2dVN1aThNeXpSLV9DNVllNTh4NWhwT2k4ZGlsc2xtV2tLdG1VUkVlczk0YmwxWHBLQjQzWDByWDFpai10cXdfYXo3UlV1NWVNRnRtLTZlQkRUWURmNkYtTEdqVWlpeGJSc0Jhc3JXZVA4NHp6eEpFeW5mekQ1b28yMWRZc01qMmtuMU52TEhBOEdSLUV0TERzTXZj?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "down",
-    "t0": 1793633525,
-    "reason": "נתוני ייצור חלשים מצביעים על האטה כלכלית אפשרית בקנדה.",
-    "reason_i18n": {
-     "he": "נתוני ייצור חלשים מצביעים על האטה כלכלית אפשרית בקנדה.",
-     "en": "Weak manufacturing data points to a potential economic slowdown in Canada.",
-     "ar": "بيانات التصنيع الضعيفة تشير إلى تباطؤ اقتصادي محتمل في كندا.",
-     "ru": "Слабые данные по производству указывают на возможное замедление экономики Канады."
-    },
-    "name_i18n": {
-     "he": "EWC - קרן סל קנדה",
-     "en": "EWC - Canada ETF",
-     "ar": "EWC - صندوق كندا للاستثمار",
-     "ru": "EWC - ETF Канады"
-    },
-    "price_at_alert": 61.17,
-    "entry_price": 61.13,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 60.21,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.5,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -0.77,
-    "edge_pct": 0.77,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "78f434e0d93c",
-  "evaluated": true
- },
- {
-  "ts": 1793633980,
-  "time": "2026-11-02T15:39Z",
-  "title": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
-  "summary": "מדד מנהלי הרכש (PMI) לסדת הייצור בארה\"ב באוקטובר ירד ל-54.9, מתחת לתחזית של 56.0. במקביל, רכיב אינפלציית מחירי המכירה הגיע לרמה הגבוהה ביותר מאז ספטמבר 2022.",
-  "kid": "הייצור התעשייתי בארה\"ב גדל קצת פחות מהמצופה, אבל המחירים שהחברות גובות ממשיכים לעלות מהר. זה יכול להשפיע על מניות טכנולוגיה ותעשייה כי זה מלחיץ את השווקים לגבי המשך עליית מחירים.",
-  "i18n": {
-   "title": {
-    "he": "מדד הייצור בארה\"ב יורד מתחת לצפי ואינפלציית המחירים מאיצה",
-    "en": "US Manufacturing PMI Misses Expectations as Price Inflation Accelerates",
-    "ar": "مؤشر مديري المشتريات الصناعي في أمريكا دون التوقعات مع تسارع تضخم الأسعار",
-    "ru": "Индекс деловой активности в производственном секторе США ниже прогнозов при ускорении инфляции"
-   },
-   "summary": {
-    "he": "מדד מנהלי הרכש (PMI) לסדת הייצור בארה\"ב באוקטובר ירד ל-54.9, מתחת לתחזית של 56.0. במקביל, רכיב אינפלציית מחירי המכירה הגיע לרמה הגבוהה ביותר מאז ספטמבר 2022.",
-    "en": "The US October Manufacturing PMI came in at 54.9, below the forecasted 56.0, while selling price inflation reached its highest level since September 2022.",
-    "ar": "جاء مؤشر مديري المشتريات الصناعي الأمريكي لشهر أكتوبر عند 54.9، دون توقعات البالغة 56.0، بينما بلغ تضخم أسعار البيع أعلى مستوياته منذ سبتمبر 2022.",
-    "ru": "Индекс PMI в обрабатывающей промышленности США за октябрь составил 54.9 (ниже прогноза 56.0), при этом инфляция ценпродаж достигла максимума с сентября 2022 года."
-   },
-   "kid": {
-    "he": "הייצור התעשייתי בארה\"ב גדל קצת פחות מהמצופה, אבל המחירים שהחברות גובות ממשיכים לעלות מהר. זה יכול להשפיע על מניות טכנולוגיה ותעשייה כי זה מלחיץ את השווקים לגבי המשך עליית מחירים.",
-    "en": "US manufacturing grew slightly less than expected, but prices charged by companies are rising fast. This could impact stock markets by fueling worries about inflation and interest rates.",
-    "ar": "نما التصنيع الأمريكي بأقل قليلاً من المتوقع، لكن الأسعار التي تتقاضاها الشركات ترتفع بسرعة. قد يؤثر ذلك على الأسهم بسبب مخاوف التضخم.",
-    "ru": "Промышленное производство в США росло чуть медленнее ожиданий, но цены продажи растут быстро. Это может повлиять на акции из-за опасений по поводу инфляции."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6dkI4XzFWbE5YZVEyRUIyN19senFHRFpvY0ktREZvMVJNOGpNQkszeVhmSHQtWF9leE85VUExSlpXRlpKVnBJbzZrXzRReGJBMWNMZG1aV1B6aWh4WEpiTzRXMlgxT1huUF9YR3Fjb1pJajQyb2c?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1793633980,
-    "reason": "אינפלציית מחירים גבוהה בייצור מעלה חששות מהעלאות ריבית נוספות.",
-    "reason_i18n": {
-     "he": "אינפלציית מחירים גבוהה בייצור מעלה חששות מהעלאות ריבית נוספות.",
-     "en": "Higher selling price inflation raises concerns over sticky inflation and rates.",
-     "ar": "تضخم أسعار البيع يثير مخاوف بشأن أسعار الفائدة.",
-     "ru": "Ускорение инфляции цен усиливает опасения по поводу процентных ставок."
-    },
-    "name_i18n": {
-     "he": "קרן סל מדד S&P 500",
-     "en": "S&P 500 ETF",
-     "ar": "صندوق مؤشر S&P 500",
-     "ru": "ETF индекса S&P 500"
-    },
-    "price_at_alert": 762.555,
-    "entry_price": 760.03,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 754.41,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.74,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -0.74,
-    "edge_pct": 0.74,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1793633980,
-    "reason": "נתוני אינפלציה חזקים בייצור מכבידים על מניות צמיחה וטכנולוגיה.",
-    "reason_i18n": {
-     "he": "נתוני אינפלציה חזקים בייצור מכבידים על מניות צמיחה וטכנולוגיה.",
-     "en": "Strong manufacturing inflation pressures growth and tech valuations.",
-     "ar": "بيانات التضخم القوية تضغط على أسهم النمو والتكنولوجيا.",
-     "ru": "Сильные данные по инфляции давят на акции роста и технологического сектора."
-    },
-    "name_i18n": {
-     "he": "קרן סל נאסד\"ק 100",
-     "en": "Nasdaq 100 ETF",
-     "ar": "صندوق مؤشر ناسداك 100",
-     "ru": "ETF индекса Nasdaq 100"
-    },
-    "price_at_alert": 697.5,
-    "entry_price": 693.72,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 685.34,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.21,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -0.47,
-    "edge_pct": 0.47,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1793633980,
-    "reason": "אינפלציה גבוהה פוגעת במחירי האג\"ח הממשלתיות.",
-    "reason_i18n": {
-     "he": "אינפלציה גבוהה פוגעת במחירי האג\"ח הממשלתיות.",
-     "en": "Elevated price pressures hurt long-term government bond prices.",
-     "ar": "ضغوط الأسعار المرتفعة تضر بأسعار السندات الحكومية.",
-     "ru": "Рост ценового давления негативно влияет на цены государственных облигаций."
-    },
-    "name_i18n": {
-     "he": "קרן סל אג\"ח ממשלת ארה\"ב לטווח ארוך",
-     "en": "Long-Term US Treasury ETF",
-     "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
-     "ru": "ETF длинных гособлигаций США"
-    },
-    "price_at_alert": 81.805,
-    "entry_price": 82.0004,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 81.095,
-    "exit_date": "2026-11-03",
-    "change_pct": -1.1,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -0.36,
-    "edge_pct": 0.36,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1d5b4c1ac8d1",
-  "evaluated": true
- },
- {
-  "ts": 1793633980,
-  "time": "2026-11-02T15:39Z",
-  "title": "פרמיית ייבוא הנחושת בסין מזנקת לשיא מאז 2017",
-  "summary": "פרמיית ייבוא הנחושת בסין עלתה מעל 200 דולר, הרמה הגבוהה ביותר מאז 2017, מה שמעיד על ביקושים חזקים למתכת התעשייתית.",
-  "kid": "חברות בסין מוכנות לשלם מחיר גבוה במיוחד כדי לייבא נחושת. זה מראה שיש הרבה ביקוש לנחושת לתעשייה, ויכול לעזור למניות של חברות כריה.",
-  "i18n": {
-   "title": {
-    "he": "פרמיית ייבוא הנחושת בסין מזנקת לשיא מאז 2017",
-    "en": "China Copper Import Premium Surges to Highest Since 2017",
-    "ar": "علاوة استيراد النحاس في الصين قفزت لأعلى مستوى منذ 2017",
-    "ru": "Премия за импорт меди в Китае подскочила до максимума с 2017 года"
-   },
-   "summary": {
-    "he": "פרמיית ייבוא הנחושת בסין עלתה מעל 200 דולר, הרמה הגבוהה ביותר מאז 2017, מה שמעיד על ביקושים חזקים למתכת התעשייתית.",
-    "en": "China's copper import premium surpassed $200, hitting its highest level since 2017 amid strong demand for the industrial metal.",
-    "ar": "تجاوزت علاوة استيراد النحاس في الصين 200 دولار، مسجلة أعلى مستوى منذ 2017 وسط طلب قوي على المعدن الصناعي.",
-    "ru": "Премия за импорт меди в Китае превысила $200, достигнув максимума с 2017 года на фоне высокого спроса."
-   },
-   "kid": {
-    "he": "חברות בסין מוכנות לשלם מחיר גבוה במיוחד כדי לייבא נחושת. זה מראה שיש הרבה ביקוש לנחושת לתעשייה, ויכול לעזור למניות של חברות כריה.",
-    "en": "Companies in China are paying record extra fees to import copper, showing high demand for the metal. This can make mining company stocks go up.",
-    "ar": "تدفع الشركات في الصين رسوماً إضافية قياسية لاستيراد النحاس، مما يدل على طلب قوي. قد يؤدي ذلك لارتفاع أسهم شركات التعدين.",
-    "ru": "Компании в Китае платят рекордные премии за импорт меди, что говорит о высоком спросе. Это может поднять акции горнодобывающих компаний."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UU29fTmV2ZkRRblJTZWNLOVY5N0VnanIyci1PZUE2SWRBRDM5MkJHUXF3RWJsd3BCemxGTHRjUXloS1RDMXA3Z0lLb0I2RWNXMHpiOTk4UUg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1793633980,
-    "reason": "ביקוש גבוה לנחושת בסין תומך במחיר המתכת ורווחי החברה.",
-    "reason_i18n": {
-     "he": "ביקוש גבוה לנחושת בסין תומך במחיר המתכת ורווחי החברה.",
-     "en": "Strong Chinese copper import demand supports copper prices and mining revenues.",
-     "ar": "طلب استيراد النحاس القوي في الصين يدعم أسعار المعدن وإيرادات الشركة.",
-     "ru": "Высокий спрос на импорт меди в Китае поддерживает цены на металл и доходы компании."
-    },
-    "name_i18n": {
-     "he": "פריפורט-מקמורן – ענקית כריית נחושת",
-     "en": "Freeport-McMoRan – major copper miner",
-     "ar": "فريبورت-ماكموران – شركة تعدين نحاس كبرى",
-     "ru": "Freeport-McMoRan – крупный добытчик меди"
-    },
-    "price_at_alert": 65.205,
-    "entry_price": 64.69,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 61.76,
-    "exit_date": "2026-11-03",
-    "change_pct": -4.53,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -3.79,
-    "edge_pct": -3.79,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1793633980,
-    "reason": "פרמיות ייבוא גבוהות בסין מעידות על שוק הדוק ומחסור היצע מיידי.",
-    "reason_i18n": {
-     "he": "פרמיות ייבוא גבוהות בסין מעידות על שוק הדוק ומחסור היצע מיידי.",
-     "en": "High import premiums in China indicate a tight physical copper market.",
-     "ar": "علاوات الاستيراد العالية في الصين تشير إلى شح في السوق الفورية للنحاس.",
-     "ru": "Высокие импортные премии в Китае указывают на дефицит физической меди на рынке."
-    },
-    "name_i18n": {
-     "he": "קרן סל נחושת",
-     "en": "Copper ETF",
-     "ar": "صندوق النحاس",
-     "ru": "ETF на медь"
-    },
-    "price_at_alert": 39.51,
-    "entry_price": 39.555,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 38.525,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.6,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -1.86,
-    "edge_pct": -1.86,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "38bb3e671102",
   "evaluated": true
  },
  {
@@ -2414,216 +692,6 @@
    }
   ],
   "last_update": 1793658301,
-  "evaluated": true
- },
- {
-  "ts": 1793633980,
-  "time": "2026-11-02T15:39Z",
-  "title": "שירות הדואר האמריקאי (USPS) יטיל תוספת דלק קבועה ב-2027",
-  "summary": "שירות הדואר של ארה\"ב (USPS) הודיע כי יחיל תוספת תשלום קבועה בגין דלק על דברי דואר וחבילות החל משנת 2027.",
-  "kid": "שירות הדואר יעלה את מחירי המשלוחים בעקבות מחירי הדלק. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים גם כן או להשפיע על עלויות המסחר האלקטרוני.",
-  "i18n": {
-   "title": {
-    "he": "שירות הדואר האמריקאי (USPS) יטיל תוספת דלק קבועה ב-2027",
-    "en": "USPS to Implement Permanent Fuel Surcharge on Shipments in 2027",
-    "ar": "خدمة البريد الأمريكية ستفرض رسوم وقود دائمة على الشحنات في 2027",
-    "ru": "Почта США введет постоянную топливную надбавку на отправления в 2027 году"
-   },
-   "summary": {
-    "he": "שירות הדואר של ארה\"ב (USPS) הודיע כי יחיל תוספת תשלום קבועה בגין דלק על דברי דואר וחבילות החל משנת 2027.",
-    "en": "The United States Postal Service announced it will institute a permanent fuel surcharge on mail and packages starting in 2027.",
-    "ar": "أعلنت خدمة البريد في الولايات المتحدة أنها ستفرض رسوم وقود دائمة على البريد والطرود بدءاً من عام 2027.",
-    "ru": "Почтовая служба США объявила о введении постоянной топливной надбавки на почту и посылки с 2027 года."
-   },
-   "kid": {
-    "he": "שירות הדואר יעלה את מחירי המשלוחים בעקבות מחירי הדלק. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים גם כן או להשפיע על עלויות המסחר האלקטרוני.",
-    "en": "The US Post Office is adding a permanent fuel fee for packages starting in 2027, which affects shipping costs for online retail and logistics.",
-    "ar": "ستضيف هيئة البريد الأمريكية رسوم وقود دائمة للطرود في 2027، مما يؤثر على تكاليف الشحن والتجارة الإلكترونية.",
-    "ru": "Почтовая служба США вводит постоянную плату за топливо для посылок с 2027 года, что повлияет на логистику."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcVA2eDBUUXFFUjRtOVExX282MGxiMFh4QVJyN3B5eW5ya2Z3Y3R6Q3pzMlpwbm51RHJUUm1vTXc0NWhUT3FFZEkwMWoxNGt4eW5LbjFsaDBYRnZ3ZThDNzFGZHdleVE4aHdWX0NTcDBOaGtuQXA3ZWVVWVZrMy1xSUY4TmZmT0t4RGYwY0JjOVBITDhDQndPOWN2MjFYSVlBbmc0b3J3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FDX",
-    "direction": "up",
-    "t0": 1793633980,
-    "reason": "העלאת תעריפים רוחבית בשוק מאפשרת לחברות פרטיות לשמור על מרווחי רווח דלק.",
-    "reason_i18n": {
-     "he": "העלאת תעריפים רוחבית בשוק מאפשרת לחברות פרטיות לשמור על מרווחי רווח דלק.",
-     "en": "Broad industry surcharges support pricing power for private couriers.",
-     "ar": "زيادة الرسوم العامة تدعم قوة تسعير شركات الشحن الخاصة.",
-     "ru": "Общее повышение тарифов в отрасли поддерживает ценовую политику частных перевозчиков."
-    },
-    "name_i18n": {
-     "he": "פדקס – חברת השילוח והלוגיסטיקה",
-     "en": "FedEx – shipping and logistics company",
-     "ar": "فيديكس – شركة الشحن واللوجستيات",
-     "ru": "FedEx – логистическая компания"
-    },
-    "price_at_alert": 320.26,
-    "entry_price": 319.95,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 318.02,
-    "exit_date": "2026-11-03",
-    "change_pct": -0.6,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": 0.14,
-    "edge_pct": 0.14,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "5fae89152029",
-  "evaluated": true
- },
- {
-  "ts": 1793634355,
-  "time": "2026-11-02T15:45Z",
-  "title": "הודו חותמת על חוזה ענק בסך כ-6.5 מיליארד דולר לבניית קורבטות",
-  "summary": "הודו חתמה על חוזה בהיקף של למעלה מ-53,000 קרוֹר רופי (כ-6.5 מיליארד דולר) לרכש של שמונה ספינות קורבט חדשות.",
-  "kid": "הודו מזמינה ספינות מלחמה חדשות בסכום עצום. זה עשוי לעזור לחברות ביטחוניות שמוכרות ציוד וטכנולוגיה ימית.",
-  "i18n": {
-   "title": {
-    "he": "הודו חותמת על חוזה ענק בסך כ-6.5 מיליארד דולר לבניית קורבטות",
-    "en": "India Signs Massive $6.5 Billion Contract for Next-Gen Corvettes",
-    "ar": "الهند تووقّع عقداً ضخماً بقيمة نحو 6.5 مليارات دولار لبناء طرادات",
-    "ru": "Индия подписала масштабный контракт на сумму около $6,5 млрд на строительство корветов"
-   },
-   "summary": {
-    "he": "הודו חתמה על חוזה בהיקף של למעלה מ-53,000 קרוֹר רופי (כ-6.5 מיליארד דולר) לרכש של שמונה ספינות קורבט חדשות.",
-    "en": "India signed contracts worth over ₹53,866 crore (approx. $6.5 billion) for eight indigenously designed Next Generation Corvettes.",
-    "ar": "وقعت الهند عقوداً بقيمة تزيد عن 53,866 كرور روبية (حوالي 6.5 مليارات دولار) لشراء ثماني سفن حربية جديدة.",
-    "ru": "Индия подписала контракты на сумму более 53 866 крор рупий (около $6,5 млрд) на закупку восьми новых корветов."
-   },
-   "kid": {
-    "he": "הודו מזמינה ספינות מלחמה חדשות בסכום עצום. זה עשוי לעזור לחברות ביטחוניות שמוכרות ציוד וטכנולוגיה ימית.",
-    "en": "India is ordering new warships for a huge amount. This may help defense companies that supply naval equipment and technology.",
-    "ar": "تطلب الهند سفناً حربية جديدة بمبلغ ضخم. قد يساعد ذلك الشركات الدفاعية التي تورد المعدات والتكنولوجيا البحرية.",
-    "ru": "Индия заказывает новые военные корабли на огромную сумму. Это может поддержать оборонные компании, поставляющие военно-морское оборудование."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSVhwZnZQWVQ4VmNlY3phbGhPcTZpZ0NyblpYTGlaRG1UTEpCNHhJVmtMcTBQM3k0UlRKR25LV3lpTEpaal9qaVhvTGFsNFlKc2hzdHBzTUxwUEtFRnZCbHEzZzZTZjFvSHdva052QnRQX1V5eGkxUndTdFlnbVg3Q2luamxFMTNkeWtldXlUYw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793634355,
-    "reason": "חוזות רכש צבאי ענקיים תומכים בסנטימנט החיובי במגזר הביטחוני.",
-    "reason_i18n": {
-     "he": "חוזות רכש צבאי ענקיים תומכים בסנטימנט החיובי במגזר הביטחוני.",
-     "en": "Huge defense procurement contracts support positive sentiment in the sector.",
-     "ar": "عقود المشتريات العسكرية الضخمة تدعم المعنويات الإيجابية في القطاع.",
-     "ru": "Крупные оборонные контракты поддерживают позитивные настроения в секторе."
-    },
-    "name_i18n": {
-     "he": "אישיירז תעופה וביטחון - קרן סל ביטחונית",
-     "en": "iShares U.S. Aerospace & Defense ETF",
-     "ar": "iShares U.S. Aerospace & Defense ETF - صندوق قطاع الدفاع",
-     "ru": "iShares U.S. Aerospace & Defense ETF – оборонный ETF"
-    },
-    "price_at_alert": 215.11,
-    "entry_price": 214.34,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 216.39,
-    "exit_date": "2026-11-03",
-    "change_pct": 0.96,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": 1.7,
-    "edge_pct": 1.7,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "c2ab59bf84cd",
-  "evaluated": true
- },
- {
-  "ts": 1793634355,
-  "time": "2026-11-02T15:45Z",
-  "title": "Subsea 7 זוכה בחוזה פיתוח שדה נפט וגז עבור Aker BP",
-  "summary": "חברת Subsea 7 זכתה בחוזה מטעם Aker BP לפיתוח שדה Lyra, מה שמחזק את צבר ההזמנות שלה במגזר האנרגיה הימי.",
-  "kid": "חברת תשתיות האנרגיה קיבלה הזמנה חדשה לפיתוח שדה נפט. זה יכול לחזק את מניות אנרגיה ותשתיות ימיות.",
-  "i18n": {
-   "title": {
-    "he": "Subsea 7 זוכה בחוזה פיתוח שדה נפט וגז עבור Aker BP",
-    "en": "Subsea7 Wins Oil and Gas Field Development Contract for Aker BP",
-    "ar": "Subsea7 تفوز بعقد تطوير حقل نفط وغاز لصالح Aker BP",
-    "ru": "Subsea7 выигрывает контракт на разработку нефтегазового месторождения для Aker BP"
-   },
-   "summary": {
-    "he": "חברת Subsea 7 זכתה בחוזה מטעם Aker BP לפיתוח שדה Lyra, מה שמחזק את צבר ההזמנות שלה במגזר האנרגיה הימי.",
-    "en": "Subsea7 won a contract from Aker BP for the Lyra field development, boosting its backlog in the offshore energy sector.",
-    "ar": "فازت شركة Subsea 7 بعقد من Aker BP لتطوير حقل ليرا، مما يعزز محفظة طلبياتها في قطاع الطاقة البحرية.",
-    "ru": "Компания Subsea 7 выиграла контракт от Aker BP на разработку месторождения Лира, увеличив портфель заказов в оффшорном секторе."
-   },
-   "kid": {
-    "he": "חברת תשתיות האנרגיה קיבלה הזמנה חדשה לפיתוח שדה נפט. זה יכול לחזק את מניות אנרגיה ותשתיות ימיות.",
-    "en": "An energy infrastructure company received a new order to develop an oil field. This can strengthen energy and marine infrastructure stocks.",
-    "ar": "حصلت شركة البنية التحتية للطاقة على طلب جديد لتطوير حقل نفط. هذا يمكن أن يعزز أسهم الطاقة والبنية التحتية البحرية.",
-    "ru": "Энергетическая инфраструктурная компания получила новый заказ на разработку нефтяного месторождения. Это может укрепить акции энергетического сектора."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc29LdmNzc1RUOG10Y284RmQzOFF5WVBJMmRJdEgyZzhCeVU0MndFcktZbGREWWlZdmFhZTU0dkdTaEE4ZHV2RUFQSXluZGhlQkVJMWRjMFdkbVpmdG5kWGdEUjBqbFBOV3ZTT3pVd1JaOHNUV2JIdnJ4QlRndDRpT3RHalVkUnh0bWFMa1JfSQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1793634355,
-    "reason": "השקעות חדשות בפיתוח שדות אנרגיה מעודדות את סקטור האנרגיה.",
-    "reason_i18n": {
-     "he": "השקעות חדשות בפיתוח שדות אנרגיה מעודדות את סקטור האנרגיה.",
-     "en": "New investments in energy field development encourage the energy sector.",
-     "ar": "الاستثمارات الجديدة في تطوير حقول الطاقة تشجع قطاع الطاقة.",
-     "ru": "Новые инвестиции в разработку энергетических месторождений поддерживают сектор."
-    },
-    "name_i18n": {
-     "he": "אקספלוריישן אנד פרודקשן - קרן סל אנרגיה",
-     "en": "Energy Select Sector SPDR Fund",
-     "ar": "Energy Select Sector SPDR Fund - صندوق قطاع الطاقة",
-     "ru": "Energy Select Sector SPDR Fund – энергетический ETF"
-    },
-    "price_at_alert": 68.705,
-    "entry_price": 68.16,
-    "entry_time": "2026-11-02T16:30+00:00",
-    "exit_price": 66.7,
-    "exit_date": "2026-11-03",
-    "change_pct": -2.14,
-    "bench": "SPY",
-    "bench_change_pct": -0.74,
-    "excess_pct": -1.4,
-    "edge_pct": -1.4,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "8883433ab45c",
   "evaluated": true
  },
  {
@@ -48076,6 +46144,14 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/09/nasdaq-defies-nvidia-impact-huang-faces-espionage-affair-probe.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -48118,7 +46194,22 @@
     "price_at_alert": 463.96
    }
   ],
-  "id": "0bfff14a1224"
+  "id": "0bfff14a1224",
+  "updates": [
+   {
+    "ts": 1794239936,
+    "time": "2026-11-09T15:58Z",
+    "severity": 4,
+    "summary": "אנבידיה פתחה בחקירה עצמאית בעקבות קשריו של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני, מה שמעורר חששות רגולטוריים וביטחוניים נוספים סביב החברה.",
+    "i18n": {
+     "he": "אנבידיה פתחה בחקירה עצמאית בעקבות קשריו של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני, מה שמעורר חששות רגולטוריים וביטחוניים נוספים סביב החברה.",
+     "en": "Nvidia is facing increased scrutiny following reports regarding CEO Jensen Huang's personal connection with an individual suspected of being a Chinese spy, drawing attention from lawmakers.",
+     "ar": "تواجه نفيدیا تدقيقاً متزايداً في أعقاب تقارير حول علاقة المدير التنفيذي جينسن هوانغ بشخص مشتبه به بالتجسس الصيني.",
+     "ru": "Компания Nvidia сталкивается с повышенным вниманием на фоне сообщений о личных связях генерального директора Дженсена Хуанга с подозреваемым в шпионаже."
+    }
+   }
+  ],
+  "last_update": 1794239936
  },
  {
   "ts": 1794224360,
@@ -48153,6 +46244,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGFKVFVhSEc3WTRuYUI2dzZmdE5uVkR3ekpRYUxWQlVYN2tBR0p4eng1MVFKNmhDcTVqRlNQcEVMUXFxRXNKWmdUaGNNdUgzaU1aamJDY3lvMk5FVTRTU3BuN0hiazNWSkcxWHhwelNWRWxCaUZMZ0F0eG1jaTdDWHhHYzVzMmZvdUpLRFRFQ2REdnl0Nk5ydzZwemEyelVsZ2JSYm52RkdacUZJcEpOWW9vdkpOZks1ZlJpaTYwZjVpejRZdTNr?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZkIzdzNKRC1wd1Y1ME9nNWhRSDVBclpDeV9NRUtzcVBZN2VOTGZjNzdzNmFzaTZfMGlzNElIVXljSDRpVEp0eDVNaXBSdkdSNWF1ZWh2T1Axbm5yWWswSXd0VG9DY0ZUejJITENFZjZiRTBhUkxtSENwLWJkVWg3WW1ITFFBUmgzLS1Gb3Zhc1FuclgtM05yM2xydWdfRElVMERPNVl1T1djYlRzV2VnaDdJa2Itd24zR0FaUDN0OXhNVWNwOVE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON3JSTTk1aTlMa04yUFd1YkYyQ1M2c3MxeEptR3BHeEtaV3pDblNnNVlrelM4X3dSTzloUFVEQy1qRnV5ZzZHWVNDZnNVMXNNUGxaS21FRTBjdmdZUTRSOXRyNHo2NzlkaVR2OVNWNXJrWFE1THZnem92b0JhbG9GX0U1dzJYX0ktVndOTk5Qc1N5VWJRYVU5dzNHcVA?oc=5"
    }
   ],
   "impacts": [
@@ -48193,9 +46292,43 @@
      "ru": "ExxonMobil – крупная энергокомпания"
     },
     "price_at_alert": 165.87
+   },
+   {
+    "ticker": "UNG",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "עליית מחירי הגז בעקבות סיכוני שייט",
+    "reason_i18n": {
+     "he": "עליית מחירי הגז בעקבות סיכוני שייט",
+     "en": "Rise in gas prices due to shipping risks",
+     "ar": "ارتفاع أسعار الغاز بسبب مخاطر الشحن",
+     "ru": "Рост цен на газ из-за рисков судоходства"
+    },
+    "name_i18n": {
+     "he": "תעודת סל על גז טבעי",
+     "en": "United States Natural Gas Fund",
+     "ar": "صندوق الغاز الطبيعي الأمريكي",
+     "ru": "ETF природного газа"
+    },
+    "price_at_alert": 9.9191
    }
   ],
-  "id": "3f0618ae1e36"
+  "id": "3f0618ae1e36",
+  "updates": [
+   {
+    "ts": 1794239936,
+    "time": "2026-11-09T15:58Z",
+    "severity": 5,
+    "summary": "מחירי הנפט רשמו ירידה חדה על רקע דיווחים על הסכם אפשרי הקשור לאיראן, בעוד מחירי הגז באירופה התחזקו בשל חששות משלוחים באזור מצר הורמוز.",
+    "i18n": {
+     "he": "מחירי הנפט רשמו ירידה חדה על רקע דיווחים על הסכם אפשרי הקשור לאיראן, בעוד מחירי הגז באירופה התחזקו בשל חששות משלוחים באזור מצר הורמוز.",
+     "en": "Oil prices fell sharply amid reports of a potential U.S.-Iran deal, while European gas prices firmed due to rising shipping risks in the Strait of Hormuz.",
+     "ar": "انخفضت أسعار النفط بشكل حاد وسط تقارير عن صفقة محتملة، بينما تعززت أسعار الغاز في أوروبا بسبب مخاطر الشحن.",
+     "ru": "Цены на нефть резко снизились на фоне сообщений о потенциальной сделке, в то время как цены на газ в Европе укрепились из-за рисков в Ормузском проливе."
+    }
+   }
+  ],
+  "last_update": 1794239936
  },
  {
   "ts": 1794224360,
@@ -49624,5 +47757,294 @@
    }
   ],
   "id": "dd6db5abc4a7"
+ },
+ {
+  "ts": 1794239936,
+  "time": "2026-11-09T15:58Z",
+  "title": "נירוס מקבלת הלוואה מהפנטגון להרחבת ייצור הרחפנים",
+  "summary": "חברת הרחפנים נירוס קיבלה הלוואה בסך 450 מיליון דולר מהפנטגון להרחבת הייצור המקומי, כחלק מתחרות ביטחונית למציאת רחפנים קרביים משתלמים.",
+  "kid": "חברת רחפנים צבאיים קיבלה כסף גדול מהצבא האמריקאי כדי לייצר יותר כלים. זה יכול לעזור למניות בתחום הביטחוני לעלות.",
+  "i18n": {
+   "title": {
+    "he": "נירוס מקבלת הלוואה מהפנטגון להרחבת ייצור הרחפנים",
+    "en": "Neros Secures Pentagon Loan for Drone Production",
+    "ar": "نيروس تحصل على قرض من البنتاغون لتوسيع إنتاج الطائرات بدون طيار",
+    "ru": "Neros получает кредит от Пентагона на расширение производства беспилотников"
+   },
+   "summary": {
+    "he": "חברת הרחפנים נירוס קיבלה הלוואה בסך 450 מיליון דולר מהפנטגון להרחבת הייצור המקומי, כחלק מתחרות ביטחונית למציאת רחפנים קרביים משתלמים.",
+    "en": "Drone maker Neros is expanding domestic production with a $450 million Pentagon loan as a frontrunner in a combat drone competition.",
+    "ar": "شركة الطائرات بدون طيار نيروس توسع إنتاجها المحلي بقرض من البنتاغون بقيمة 450 مليون دولار كجزء من منافسة عسكرية.",
+    "ru": "Производитель дронов Neros расширяет внутреннее производство за счет кредита Пентагона в размере $450 млн."
+   },
+   "kid": {
+    "he": "חברת רחפנים צבאיים קיבלה כסף גדול מהצבא האמריקאי כדי לייצר יותר כלים. זה יכול לעזור למניות בתחום הביטחוני לעלות.",
+    "en": "A military drone company received big money from the U.S. military to build more gear. This could help defense stocks go up.",
+    "ar": "حصلت شركة طائرات عسكرية بدون طيار على أموال كبيرة من الجيش الأمريكي لبناء المزيد من المعدات. قد يساعد ذلك أسهم الدفاع على الارتفاع.",
+    "ru": "Компания по производству военных дронов получила крупные деньги от американских военных. Это может поддержать оборонные акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/11/09/neros-to-expand-domestic-drone-production-with-450m-pentagon-loan/"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "KTOS",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "סנטימנט חיובי למגזר הרחפנים והכטב\"מים הצבאיים",
+    "reason_i18n": {
+     "he": "סנטימנט חיובי למגזר הרחפנים והכטב\"מים הצבאיים",
+     "en": "Positive sentiment for military drone sector",
+     "ar": "معنويات إيجابية لقطاع الطائرات بدون طيار العسكرية",
+     "ru": "Позитивные настроения в секторе военных дронов"
+    },
+    "name_i18n": {
+     "he": "קראטוס – יצרנית רחפנים וכלים בלתי מאוישים",
+     "en": "Kratos – drone and unmanned systems maker",
+     "ar": "كراتوس - صانعة الطائرات بدون طيار",
+     "ru": "Kratos – производитель беспилотников"
+    },
+    "price_at_alert": 37.9
+   },
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "השקעות ממשלתיות מוגברות בתחום הרחפנים",
+    "reason_i18n": {
+     "he": "השקעות ממשלתיות מוגברות בתחום הרחפנים",
+     "en": "Increased government investments in drones",
+     "ar": "زيادة الاستثمارات الحكومية في قطاع الطائرات بدون طيار",
+     "ru": "Увеличение государственных инвестиций в беспилотники"
+    },
+    "name_i18n": {
+     "he": "ארווירונמנט – יצרנית רחפנים טקטיים",
+     "en": "AeroVironment – tactical drone maker",
+     "ar": "أيروفيرومنت - صانعة طائرات تكتيكية بدون طيار",
+     "ru": "AeroVironment – производитель тактических дронов"
+    },
+    "price_at_alert": 123.15
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "הזרמת הון ממשלתית למגזר הביטחוני",
+    "reason_i18n": {
+     "he": "הזרמת הון ממשלתית למגזר הביטחוני",
+     "en": "Government capital injection into defense sector",
+     "ar": "ضخ رأس المال الحكومي في قطاع الدفاع",
+     "ru": "Вливание государственного капитала в оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "תעודת סל תעופה וביטחון",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 71.26
+   }
+  ],
+  "id": "db4bff01269a"
+ },
+ {
+  "ts": 1794239936,
+  "time": "2026-11-09T15:58Z",
+  "title": "תלדיין זוכה בחוזה משנה מלוקהיד מרטין",
+  "summary": "חברת תלדיין טכנולוגיות זכתה בחוזה משנה מחברת לוקהיד מרטין עבור מערכות הגנה מפני טילים מדור מתקדם.",
+  "kid": "חברת טכנולוגיה צבאית קיבלה עבודה חדשה מיצרנית נשק גדולה. זה מראה על ביקוש גבוה למוצרי הגנה ומחזק את המניות בתחום.",
+  "i18n": {
+   "title": {
+    "he": "תלדיין זוכה בחוזה משנה מלוקהיד מרטין",
+    "en": "Teledyne Wins Lockheed Martin Subcontract",
+    "ar": "تليداين تفوز بعقد من الباطن من لوكهيد مارتن",
+    "ru": "Teledyne получает субподряд от Lockheed Martin"
+   },
+   "summary": {
+    "he": "חברת תלדיין טכנולוגיות זכתה בחוזה משנה מחברת לוקהיד מרטין עבור מערכות הגנה מפני טילים מדור מתקדם.",
+    "en": "Teledyne has won a subcontract from Lockheed Martin for next-generation missile defense systems.",
+    "ar": "فازت شركة تليداين للتكنولوجيا بعقد من الباطن من شركة لوكهيد مارتن لأنظمة الدفاع الصاروخي.",
+    "ru": "Компания Teledyne Technologies получила субподряд от Lockheed Martin на разработку систем противоракетной обороны."
+   },
+   "kid": {
+    "he": "חברת טכנולוגיה צבאית קיבלה עבודה חדשה מיצרנית נשק גדולה. זה מראה על ביקוש גבוה למוצרי הגנה ומחזק את המניות בתחום.",
+    "en": "A military tech company got new work from a major weapons maker. This shows high demand for defense goods and helps sector stocks.",
+    "ar": "حصلت شركة تكنولوجيا عسكرية على عمل جديد من صانع أسلحة كبير. هذا يظهر طلباً قوياً على معدات الدفاع.",
+    "ru": "Военно-технологическая компания получила новый заказ от крупного производителя оружия, что подчеркивает высокий спрос на оборону."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMlVRZ1VqMWpNTk9DVFRzN2pjQV9UQjl2dGswX3dnM0dZM2V2VXNTN0QyY2JRNDJmRE85dW1GOEN2MVlrbGZWOVZicWVVaTJUcmJKMWhyY2I2ZDF4MEJJYi1lYkhYeG1zY3l4ZVZyeUJlWkU1RGQ3ZHlXWHRPOW9fN0FHRGFHbVdvdTJQUkpJYWJ6bnNpY0UzSnJRbjdwb01zZ1NPSzNOdkZOMmw2M3JOTWRtRU5iQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TDY",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "זכייה בחוזה ביטחוני משמעותי",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ביטחוני משמעותי",
+     "en": "Winning a significant defense contract",
+     "ar": "الفوز بعقد دفاعي هام",
+     "ru": "Получение крупного оборонного контракта"
+    },
+    "name_i18n": {
+     "he": "תלדיין – חברת טכנולוגיה וביטחון",
+     "en": "Teledyne – tech and defense firm",
+     "ar": "تليداين - شركة تكنولوجيا ودفاع",
+     "ru": "Teledyne – технологическая и оборонная компания"
+    },
+    "price_at_alert": 640.3
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "קידום פרויקטי הגנה מתקדמים",
+    "reason_i18n": {
+     "he": "קידום פרויקטי הגנה מתקדמים",
+     "en": "Advancing advanced defense projects",
+     "ar": "تقدم مشاريع الدفاع المتقدمة",
+     "ru": "Продвижение передовых оборонных проектов"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – ענקית ביטחונית",
+     "en": "Lockheed Martin – defense giant",
+     "ar": "لوكهيد مارتن - عملاق الدفاع",
+     "ru": "Lockheed Martin – оборонный гигант"
+    },
+    "price_at_alert": 581.52
+   }
+  ],
+  "id": "6d703a48eeba"
+ },
+ {
+  "ts": 1794239936,
+  "time": "2026-11-09T15:58Z",
+  "title": "רכיבים אמריקאיים נמצאו בטילי שיוט רוסיים חדשים",
+  "summary": "אוקראינה דיווחה כי נמצאו 52 רכיבים מתוצרת ארה\"ב מתוך 93 רכיבים זרים בטילי שיוט מיני חדשים של רוסיה, מה שעלול להוביל לבדיקות מחמירות יותר.",
+  "kid": "מצאו חלקים אלקטרוניים אמריקאיים בתוך טילי מלחמה של רוסיה. זה יכול לגרום לממשלה להדק את הפיקוח על חברות הטכנולוגיה והייצוא.",
+  "i18n": {
+   "title": {
+    "he": "רכיבים אמריקאיים נמצאו בטילי שיוט רוסיים חדשים",
+    "en": "U.S. Components Found in New Russian Missiles",
+    "ar": "العثور على مكونات أمريكية في صواريخ كروز روسية جديدة",
+    "ru": "Американские компоненты обнаружены в новых российских ракетах"
+   },
+   "summary": {
+    "he": "אוקראינה דיווחה כי נמצאו 52 רכיבים מתוצרת ארה\"ב מתוך 93 רכיבים זרים בטילי שיוט מיני חדשים של רוסיה, מה שעלול להוביל לבדיקות מחמירות יותר.",
+    "en": "Ukraine reported finding 52 U.S.-made components inside Russia's new mini cruise missiles, raising questions over export controls and enforcement.",
+    "ar": "أبلغت أوكرانيا عن العثور على 52 مكوناً مصنوعاً في الولايات المتحدة داخل صواريخ كروز الروسية الجديدة.",
+    "ru": "Украина сообщила об обнаружении 52 компонентов американского производства в новых российских крылатых ракетах."
+   },
+   "kid": {
+    "he": "מצאו חלקים אלקטרוניים אמריקאיים בתוך טילי מלחמה של רוסיה. זה יכול לגרום לממשלה להדק את הפיקוח על חברות הטכנולוגיה והייצוא.",
+    "en": "American electronic parts were found inside Russian war missiles. This could cause the government to tighten rules on tech companies and exports.",
+    "ar": "تم العثور على قطع إلكترونية أمريكية داخل صواريخ حربية روسية. قد يتسبب ذلك في تشديد الحكومة للرقابة على شركات التكنولوجيا.",
+    "ru": "В российских ракетах нашли американские детали. Это может заставить правительство ужесточить контроль за экспортом технологий."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdkVLYnlwZHhfYkFJbFJtei10bE4zUVFUSnM2UFJ1Mm12M0tkVkVXNC1zcWd2VVF5VjV1SWw3YmlXbTduZ3hvWVVqcVN6YWM2dHRISEFycmFYUkVrUTg3VkswVVZsWEVPTVpjVzFsREM1MTU1T1hwVWlLaGotcEVsY19kSFBtNlMwRC01WjNrVnpNaXMzUjVJNlhwOGlLbE40cWJDZVNLeWsxNHVIWi1Oc1VTMEUwYWU5TlpmRUhnUFo1a1NtSWVueUFBUzQ2U3hlaTFHQ0UwQ0hDblpnYjBVM1pjNmhRb0RIUTgyZ1Z6SmdpUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLI",
+    "direction": "down",
+    "t0": 1794239936,
+    "reason": "חשש מהחמרת פיקוח ייצוא על רכיבים תעשייתיים",
+    "reason_i18n": {
+     "he": "חשש מהחמרת פיקוח ייצוא על רכיבים תעשייתיים",
+     "en": "Fear of tighter export controls on industrial components",
+     "ar": "خوف من تشديد ضوابط التصدير على المكونات الصناعية",
+     "ru": "Опасения ужесточения экспортного контроля на промышленные компоненты"
+    },
+    "name_i18n": {
+     "he": "תעודת סל על התעשייה האמריקאית",
+     "en": "Industrial Sector ETF",
+     "ar": "صندوق استثماري للقطاع الصناعي",
+     "ru": "ETF промышленного сектора"
+    },
+    "price_at_alert": 168.08
+   }
+  ],
+  "id": "09bd8fcd7230"
+ },
+ {
+  "ts": 1794239936,
+  "time": "2026-11-09T15:58Z",
+  "title": "ג'נרל דיינמיקס זוכה בחוזה ביטחוני נוסף",
+  "summary": "חברת ג'נרל דיינמיקס דיווחה על זכייה בחוזה המשך ביטחוני בשם MEDUSA במסגרת פעילות מערכות הגנה.",
+  "kid": "חברת הנשק והציוד הצבאי ג'נרל דיינמיקס קיבלה עוד חוזה עבודה מהממשלה. חדשות כאלה בדרך כלל עוזרות למניה לעלות מעט.",
+  "i18n": {
+   "title": {
+    "he": "ג'נרל דיינמיקס זוכה בחוזה ביטחוני נוסף",
+    "en": "General Dynamics Secures MEDUSA Defense Contract",
+    "ar": "جنرال دايناميكس تفوز بعقد دفاعي إضافي",
+    "ru": "General Dynamics получает оборонный контракт MEDUSA"
+   },
+   "summary": {
+    "he": "חברת ג'נרל דיינמיקס דיווחה על זכייה בחוזה המשך ביטחוני בשם MEDUSA במסגרת פעילות מערכות הגנה.",
+    "en": "General Dynamics stock saw positive attention after securing a follow-on MEDUSA defense contract.",
+    "ar": "سلطت الضوء على أسهم جنرال دايناميكس بعد تأمين عقد دفاعي إضافي باسم ميدوسا.",
+    "ru": "Акции General Dynamics привлекли внимание после получения нового оборонного контракта MEDUSA."
+   },
+   "kid": {
+    "he": "חברת הנשק והציוד הצבאי ג'נרל דיינמיקס קיבלה עוד חוזה עבודה מהממשלה. חדשות כאלה בדרך כלל עוזרות למניה לעלות מעט.",
+    "en": "Weapons and military gear maker General Dynamics got another government work contract. Such news usually helps the stock move up a bit.",
+    "ar": "حصلت شركة الأسلحة والمعدات العسكرية جنرال دايناميكس على عقد عمل حكومي آخر.",
+    "ru": "Производитель вооружений General Dynamics получил очередной государственный контракт, что поддерживает акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ0NmMXh3X0w1cFJzdExIX1JaWW12UTVqdnVJR3dNTGZfelNaTmZsSUtFTkkyQnBab2NWd0d4c1F3X3BhWWoxUVlmalhUbmNUdE1HVHBjR0JpbUdfUHZPM3d0QXduUEhCREdBZVNjYzV0anVaVVdlLW1CYlBwM2NibG13Ull0bC02TGxJUlRwNlFpR1FLM1ZxMnpSVnIzRUVEdEdXWldUdGhDZHk5VVhEcFJMNU94YVk5RWZGVmtVWXJidw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GD",
+    "direction": "up",
+    "t0": 1794239936,
+    "reason": "תוספת צבר הזמנות ביטחוניות",
+    "reason_i18n": {
+     "he": "תוספת צבר הזמנות ביטחוניות",
+     "en": "Addition to defense order backlog",
+     "ar": "إضافة إلى دفتر طلبات الدفاع",
+     "ru": "Увеличение портфеля оборонных заказов"
+    },
+    "name_i18n": {
+     "he": "ג'נרל דיינמיקס – יצרנית נשק וציוד צבאי",
+     "en": "General Dynamics – defense and weapons maker",
+     "ar": "جنرال دايناميكس - صانعة الأسلحة والمعدات العسكرية",
+     "ru": "General Dynamics – производитель оружия и техники"
+    },
+    "price_at_alert": 360.03
+   }
+  ],
+  "id": "ee01100fc33e"
  }
 ]

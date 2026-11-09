@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T14:54Z",
+ "generated": "2026-11-09T15:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 574,
+ "total_alerts": 578,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -150,13 +150,13 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 91,
+   "mentions": 92,
    "n": 45,
    "hits": 20,
    "name": {
     "he": "תעודת סל תעופה וביטחון",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق استثماري لقطاع الفضاء والدفاع",
+    "en": "US Aerospace & Defense ETF",
+    "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
     "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -6.21
@@ -270,14 +270,14 @@
    "avg_edge": -4.09
   },
   "AVAV": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "אירווירון – יצרנית רחפנים צבאיים",
-    "en": "AeroVironment – military drone manufacturer",
-    "ar": "أيروفيرمينت – مصنعة طائرات بدون طيار عسكرية",
-    "ru": "AeroVironment – производитель военных дронов"
+    "he": "ארווירונמנט – יצרנית רחפנים טקטיים",
+    "en": "AeroVironment – tactical drone maker",
+    "ar": "أيروفيرومنت - صانعة طائرات تكتيكية بدون طيار",
+    "ru": "AeroVironment – производитель тактических дронов"
    },
    "avg_edge": -0.42
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "לוקהיד מרטין - ענקית ביטחונית",
-    "en": "Lockheed Martin - defense giant",
+    "he": "לוקהיד מרטין – ענקית ביטחונית",
+    "en": "Lockheed Martin – defense giant",
     "ar": "لوكهيد مارتن - عملاق الدفاع",
-    "ru": "Lockheed Martin - оборонный гигант"
+    "ru": "Lockheed Martin – оборонный гигант"
    },
    "avg_edge": -4.05
   },
@@ -450,14 +450,14 @@
    "avg_edge": -0.4
   },
   "KTOS": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "Kratos - טכנולוגיה צבאית",
-    "en": "Kratos - military technology",
-    "ar": "Kratos - تكنولوجيا عسكرية",
-    "ru": "Kratos - военные технологии"
+    "he": "קראטוס – יצרנית רחפנים וכלים בלתי מאוישים",
+    "en": "Kratos – drone and unmanned systems maker",
+    "ar": "كراتوس - صانعة الطائرات بدون طيار",
+    "ru": "Kratos – производитель беспилотников"
    },
    "avg_edge": 3.79
   },
@@ -546,14 +546,14 @@
    "avg_edge": -0.29
   },
   "UNG": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 4,
    "hits": 3,
    "name": {
-    "he": "גז טבעי",
-    "en": "Natural Gas",
-    "ar": "الغاز الطبيعي",
-    "ru": "Природный газ"
+    "he": "תעודת סל על גז טבעי",
+    "en": "United States Natural Gas Fund",
+    "ar": "صندوق الغاز الطبيعي الأمريكي",
+    "ru": "ETF природного газа"
    },
    "avg_edge": 3.68
   },
@@ -846,14 +846,14 @@
    "avg_edge": 7.92
   },
   "XLI": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "סקטור התעשייה בארה\"ב",
-    "en": "Industrial Select Sector SPDR Fund",
-    "ar": "صندوق قطاع الصناعات الأمريكي",
-    "ru": "ETF промышленного сектора США"
+    "he": "תעודת סל על התעשייה האמריקאית",
+    "en": "Industrial Sector ETF",
+    "ar": "صندوق استثماري للقطاع الصناعي",
+    "ru": "ETF промышленного сектора"
    },
    "avg_edge": -0.99
   },
@@ -1194,14 +1194,14 @@
    "avg_edge": null
   },
   "GD": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ג'נרל דינמיקס",
-    "en": "General Dynamics",
-    "ar": "جنرال ديناميكس",
-    "ru": "General Dynamics"
+    "he": "ג'נרל דיינמיקס – יצרנית נשק וציוד צבאי",
+    "en": "General Dynamics – defense and weapons maker",
+    "ar": "جنرال دايناميكس - صانعة الأسلحة والمعدات العسكرية",
+    "ru": "General Dynamics – производитель оружия и техники"
    },
    "avg_edge": null
   },
@@ -1262,6 +1262,18 @@
     "en": "Huntington Ingalls - Military Shipbuilder",
     "ar": "هنتنجتون إنغالس - بناء السفن العسكرية",
     "ru": "Huntington Ingalls - производитель военных судов"
+   },
+   "avg_edge": null
+  },
+  "TDY": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "תלדיין – חברת טכנולוגיה וביטחון",
+    "en": "Teledyne – tech and defense firm",
+    "ar": "تليداين - شركة تكنولوجيا ودفاع",
+    "ru": "Teledyne – технологическая и оборонная компания"
    },
    "avg_edge": null
   }
