@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T12:44Z",
+ "generated": "2026-11-09T13:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 560,
+ "total_alerts": 566,
  "overall": {
   "n": 238,
   "hits": 116,
@@ -78,38 +78,38 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 57,
+   "mentions": 58,
    "n": 21,
    "hits": 11,
    "name": {
-    "he": "יו־אס־או - קרן סל על מחירי הנפט",
-    "en": "USO – United States Oil Fund",
-    "ar": "صندوق النفط الأمريكي",
-    "ru": "ETF нефти США"
+    "he": "קרן סל נפט גולמי",
+    "en": "United States Oil Fund",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "ETF сырой нефти"
    },
    "avg_edge": -0.02
   },
   "XLE": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 18,
    "hits": 8,
    "name": {
-    "he": "אקס־אإל־אי - קרן סל למניות אנרגיה",
-    "en": "XLE – Energy Select Sector SPDR Fund",
+    "he": "קרן סל אנרגיה",
+    "en": "Energy Select Sector SPDR Fund",
     "ar": "صندوق قطاع الطاقة",
     "ru": "ETF энергетического сектора"
    },
    "avg_edge": -1.05
   },
   "IBIT": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 8,
    "hits": 1,
    "name": {
-    "he": "אייביט - קרן סל על ביטקוין",
-    "en": "IBIT – Bitcoin Trust ETF",
+    "he": "קרן סל ביטקוין",
+    "en": "Bitcoin ETF",
     "ar": "صندوق البيتكوين المتداول",
-    "ru": "ETF биткоина"
+    "ru": "Биткоин-ETF"
    },
    "avg_edge": -1.22
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 90,
+   "mentions": 91,
    "n": 45,
    "hits": 20,
    "name": {
-    "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
-    "en": "ITA - U.S. Aerospace & Defense ETF",
-    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    "he": "תעודת סל תעופה וביטחון",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق استثماري لقطاع الفضاء والدفاع",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -6.21
   },
   "RTX": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 8,
    "hits": 4,
    "name": {
-    "he": "RTX – ריית'און (יצרניתטילי פטריוט)",
-    "en": "RTX – Raytheon (Patriot missile maker)",
-    "ar": "RTX – ريثيون (صانعة صواريخ باتريوت)",
-    "ru": "RTX – Raytheon (производитель ракет Patriot)"
+    "he": "ריית'און - יצרנית מערכות הגנה",
+    "en": "RTX - defense systems manufacturer",
+    "ar": "RTX - شركة تصنيع أنظمة الدفاع",
+    "ru": "RTX - производитель систем обороны"
    },
    "avg_edge": -1.22
   },
@@ -246,14 +246,14 @@
    "avg_edge": 0.31
   },
   "CPER": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 11,
    "hits": 3,
    "name": {
-    "he": "קרן סל על נחושת",
-    "en": "United States Copper Index Fund",
-    "ar": "صندوق استثمار النحاس",
-    "ru": "ETF меди"
+    "he": "קרן סל נחושת",
+    "en": "Copper ETF",
+    "ar": "صندوق استثماري للنحاس",
+    "ru": "ETF на медь"
    },
    "avg_edge": -0.74
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.41
   },
   "LMT": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "לוקהיד מרטין - חברת ביטחון ענקית",
-    "en": "Lockheed Martin - Major Defense Contractor",
-    "ar": "لوكهيد مارتن - مقاول دفاعي رئيسي",
-    "ru": "Lockheed Martin - крупный оборонный подрядчик"
+    "he": "לוקהיד מרטין - ענקית ביטחונית",
+    "en": "Lockheed Martin - defense giant",
+    "ar": "لوكهيد مارتن - عملاق الدفاع",
+    "ru": "Lockheed Martin - оборонный гигант"
    },
    "avg_edge": -4.05
   },
@@ -366,14 +366,14 @@
    "avg_edge": -0.58
   },
   "XLV": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 7,
    "hits": 6,
    "name": {
-    "he": "סקטור הבריאות בארה\"ב",
+    "he": "קרן סל שירותי בריאות",
     "en": "Health Care Select Sector SPDR Fund",
-    "ar": "صندوق قطاع الرعاية الصحية الأمريكي",
-    "ru": "ETF сектора здравоохранения США"
+    "ar": "صندوق قطاع الرعاية الصحية",
+    "ru": "ETF сектора здравоохранения"
    },
    "avg_edge": 1.27
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.78
   },
   "FCX": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 15,
    "hits": 4,
    "name": {
-    "he": "פריפורט מקמوران – ענקית כריית נחושת",
-    "en": "Freeport-McMoRan – copper miner",
-    "ar": "فريبورت-ماكموران – تعدين النحاس",
-    "ru": "Freeport-McMoRan – добыча меди"
+    "he": "פריפורט-מקמוראן - חברת כרייה",
+    "en": "Freeport-McMoRan - mining company",
+    "ar": "فريبرت-מקמורان - شركة تعدين",
+    "ru": "Freeport-McMoRan - горнодобывающая компания"
    },
    "avg_edge": -1.46
   },
@@ -1050,14 +1050,14 @@
    "avg_edge": 1.04
   },
   "EWW": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 0,
    "name": {
-    "he": "EWW - קרן סל מניות מקסיקו",
-    "en": "EWW - iShares MSCI Mexico ETF",
-    "ar": "EWW - صندوق الأسهم المكسيكية",
-    "ru": "EWW - ETF акций Мексики"
+    "he": "קרן סל מניות מקסיקו",
+    "en": "iShares MSCI Mexico ETF",
+    "ar": "صندوق الاستثمار المتداول للأسهم المكسيكية",
+    "ru": "ETF акций Мексики"
    },
    "avg_edge": -1.33
   },
