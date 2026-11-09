@@ -44141,7 +44141,12 @@
   "category": "policy",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/south-africas-anc-suffers-worst-ever-local-elections-result?traffic_source=rss"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EZA",
@@ -44163,7 +44168,22 @@
     "price_at_alert": 67.06
    }
   ],
-  "id": "8e7c1a628998"
+  "id": "8e7c1a628998",
+  "updates": [
+   {
+    "ts": 1794195515,
+    "time": "2026-11-09T03:38Z",
+    "severity": 4,
+    "summary": "מפלגת השלטון הוותיקה בדרום אפריקה, ה-ANC, ספגה את התוצאה הגרועה ביותר אי פעם בבחירות המקומיות, כשהיא זוכה בכ-30% בלבד מהקולות, דבר המסמן זעזוע פוליטי במדינה.",
+    "i18n": {
+     "he": "מפלגת השלטון הוותיקה בדרום אפריקה, ה-ANC, ספגה את התוצאה הגרועה ביותר אי פעם בבחירות המקומיות, כשהיא זוכה בכ-30% בלבד מהקולות, דבר המסמן זעזוע פוליטי במדינה.",
+     "en": "South Africa's ruling ANC party suffered its worst-ever local election result, securing only 30% of the vote amid a sweeping political backlash.",
+     "ar": "حزب المؤتمر الوطني الأفريقي الحاكم في جنوب إفريقيا عانى من أسوأ نتيجة انتخابية محلية له على الإطلاق، حيث حصل على 30% فقط من الأصوات وسط رد فعل سياسي غاضب.",
+     "ru": "Правящая партия ЮАР ANC показала худший результат на местных выборах в истории, набрав всего 30% голосов на фоне политических потрясений."
+    }
+   }
+  ],
+  "last_update": 1794195515
  },
  {
   "ts": 1794161302,
@@ -46245,18 +46265,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZVpJa1ZxY04ydUdSQW5OV1lOS01ZMHc0dE9DYjBWNkE4NEF0R0F1SzNxdTZINW1mbkVZdW5vOUMxV1Zuem9sbDVRcDFISG1vcy1GcU03NEdWNlNLcXJCUTRFbDQtQUpySFE0MnE0UktRd3Qwb1JiUjR2Q2hPS1QyNHZyZEtWTXhUeFBQWHYzUzhyMjlLMTA5RDVTV1lVTzdkSWM5X2JPb2JwcFV5ajNuaWxUZ3N4cnFmMWotSldPbTBqTVVNOHlBdUVrNmg1Zw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSmlRSlltN0M3a1ZWNmNEcjAyTGo1cWtBT0s5ZFNRQTNtNDZHUlduT3Z1bWM3ZU4yc0JJenFQY3hGcEdPX0FNSENNcEtBUEpYUmlqTThxRFZvcVY3b1JBQm5CVDdEd3BsaDRGQzRDMFB2ZzdRUEIzbXdqY3p0eFB6MTZ6cVVHRzQ2UHV6cnBGOWM5WFdSZzFmd2YzeTBLSHhtX2M2RXJIYVBPSEpvM3k1QXRBMzIwS3R2aEJXUV91THNtWVE3MmxNSmJUOWpVbmtwUTlScWk0cVcyWXZlckRB?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekFHNFNEY0R6eVpBZVhoU1ZTV3dxY1ZlTmpxVXZ5UUJkc0U4V3c0SkVGamxKMW9HaGg4NEZZbGtKQVZmbkxPUE1scnpwMG1FSnV4amVaQktEWktHcGJERzJWNG91eUpqOThmcUFqcUFxRXFHNlNxdEFqeWxldDNZNmRPbkM?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZnBtMk5NRjY1eThZeDlYQUJUV2xZYkpTaDFSVEdYVS1mZjZLOTBhckZJMHVTN0ZpSzF0Y3NvMXVVNkh0ZWVsc3plQkVTeUNfNWQzVXJ0em9hN3QyUW9IcUM2c2NNdzZUSS1Mb1k3dkJYMFJSX3VLWnNhOElsNngyWkxjUmVpQnc5RDdNd2VKTEkycUs1SUJLbk1UYlVDVWZtdUNWWmtYUVlkT0JT?oc=5"
    },
    {
@@ -46266,6 +46274,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY2FpVjFlY01fM0FacVBIYS1aQ1RDcjZHeFZDbDdqdWlHUW1keHlBMmF6TXRQeU92VGNVejBGaDJSRG9vTEJiNWhuaTEtODVhTDhSTXlBRklvR3FRazZ3aWFlTGtpOFdIS3Z6UlNmM0hxaTRnOXVWU0dqQ2l6dVJIZGNsbFpXQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TNnVQLVFScjNGaHBPYnplSDZPcjh1cXZGbm52TzRxSU1EOWtqS3hweW9vd3lLdU9xR0lIdDZzcWRaQy1MN1NMeTVWd21rMVVheXRJZE1QZ19qZTFOMVJkUm0weVpYVGU4TFFnMQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQmN6a0ptWFFTd0dDTnBVdEk4UC14MkE4WU8yOGJmLUxTdGMyNmpmNEJLamVjLUNJcnRwOHFia0diOGIzS3lqd3lQN0hpSmx5bUJ3UFRTWXhBSnRJckpMTWdBb2JpYkJMZjdvY280LW1OUTlrT3lYZWJIci02Mm9xQnNEdndFRFRFMzFsc3dzOWdkNFloWF96aTVxMzI1YWdPVUhqdTNCbnM2SEdEWGNDY1hYM1A1TWJMVUFOV0FTN3ZON0k?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNME1rUWlkX01sLUNldGZBa05WWDhzQ2lhZGgwX04xM1hVLVdRR2FCS1J2Z3F5eFA1VHFzVnJJYVV0NWdYQ1lRYlBqWG5xcWc1NG1hWTBuWndUUFVtTm05WXQ4d0M5RExZSEFLM1hxZGN0SDZqek42OEpJN3MyVkotYTAyQWlYM2pwdmc?oc=5"
    }
   ],
   "impacts": [
@@ -46306,6 +46326,25 @@
      "ru": "Сектор материалов"
     },
     "price_at_alert": 51.95
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794195515,
+    "reason": "לחצים אינפלציוניים עולמיים עלולים לעכב את הקלות הריבית בארה\"ב וללחוץ על המדדים.",
+    "reason_i18n": {
+     "he": "לחצים אינפלציוניים עולמיים עלולים לעכב את הקלות הריבית בארה\"ב וללחוץ על המדדים.",
+     "en": "Global inflationary pressures could delay US rate cuts and weigh on equity markets.",
+     "ar": "ضغوط التضخم العالمية قد تؤخر تخفيض الفائدة الأمريكية وتضغط على الأسواق.",
+     "ru": "Глобальное инфляционное давление может задержать снижение ставок в США и надавить на рынки."
+    },
+    "name_i18n": {
+     "he": "SPY – קרן סלי מדד S&P 500",
+     "en": "SPY – S&P 500 ETF",
+     "ar": "SPY – صندوق مؤشر S&P 500",
+     "ru": "SPY – ETF индекса S&P 500"
+    },
+    "price_at_alert": 735.29
    }
   ],
   "id": "57a1d82c897b",
@@ -46321,9 +46360,21 @@
      "ar": "ارتفع مؤشر أسعار المنتجين في الصين بنسبة 5.7% في أكتوبر، وهو أعلى مستوى منذ أربع سنوات، بينما ظل تضخم المستهلكين معتدلاً.",
      "ru": "Индекс цен производителей (PPI) в Китае вырос на 5,7% в октябре, что стало самым высоким показателем за четыре года, в то время как потребительская инфляция остается умеренной."
     }
+   },
+   {
+    "ts": 1794195515,
+    "time": "2026-11-09T03:38Z",
+    "severity": 6,
+    "summary": "מדד מחירי היצרן בסין עלה ל-5.7% (שיא של ארבע שנים), על רקע היחלשות הביקושים המקומיים, דבר שעשוי לסבך את תוואי הפחתת הריבית של הפד בארה\"ב.",
+    "i18n": {
+     "he": "מדד מחירי היצרן בסין עלה ל-5.7% (שיא של ארבע שנים), על רקע היחלשות הביקושים המקומיים, דבר שעשוי לסבך את תוואי הפחתת הריבית של הפד בארה\"ב.",
+     "en": "China's producer price inflation surged to a 4-year high of 5.7% as domestic consumer demand weakened, potentially complicating the Federal Reserve's rate path.",
+     "ar": "ارتفع تضخم أسعار المنتجين في الصين إلى أعلى مستوى في 4 سنوات عند 5.7% وسط ضعف الطلب المحلي، مما قد يعقد مسار الفيدرالي الأمريكي.",
+     "ru": "Инфляция цен производителей в Китае выросла до 4-летнего максимума в 5.7% на фоне ослабления внутреннего спроса, что может осложнить политику ФРС."
+    }
    }
   ],
-  "last_update": 1794191936
+  "last_update": 1794195515
  },
  {
   "ts": 1794188770,
@@ -46440,5 +46491,321 @@
    }
   ],
   "id": "cb61b60d088e"
+ },
+ {
+  "ts": 1794195515,
+  "time": "2026-11-09T03:38Z",
+  "title": "גרמניה מאשרת: אין עוד טילי פטריוט לאוקראינה",
+  "summary": "גרמניה אישרה כי אין באפשרותה לספק עוד טילי הגנה אווירית מסוג פטריוט לאוקראינה, דבר המעמיק את משבר ההגנה האווירית של קייב.",
+  "kid": "גרמניה אומרת שאין לה יותר טילי הגנה לתת לאוקראינה. זה מציב את אוקראינה בבעיה ומעלה את הביקוש לחברות שמייצרות את הטילים האלו בארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "גרמניה מאשרת: אין עוד טילי פטריוט לאוקראינה",
+    "en": "Germany Confirms No More Patriot Missiles for Ukraine",
+    "ar": "ألمانيا تؤكد عدم وجود المزيد من صواريخ باتريوت لأוקراينا",
+    "ru": "Германия подтверждает: больше нет ракет Patriot для Украины"
+   },
+   "summary": {
+    "he": "גרמניה אישרה כי אין באפשרותה לספק עוד טילי הגנה אווירית מסוג פטריוט לאוקראינה, דבר המעמיק את משבר ההגנה האווירית של קייב.",
+    "en": "Germany confirmed it has no more Patriot air defense missiles to send to Ukraine, deepening Kyiv's missile defense crisis.",
+    "ar": "أكدت ألمانيا أنه ليس لديها المزيد من صواريخ باتريوت لإرسالها إلى أوكرانيا، مما عمّق أزمة الدفاع الجوي في كييف.",
+    "ru": "Германия подтвердила, что у нее больше нет ракет ПВО Patriot для отправки в Украину, что углубляет кризис обороны Киева."
+   },
+   "kid": {
+    "he": "גרמניה אומרת שאין לה יותר טילי הגנה לתת לאוקראינה. זה מציב את אוקראינה בבעיה ומעלה את הביקוש לחברות שמייצרות את הטילים האלו בארה\"ב.",
+    "en": "Germany says it cannot provide more defense missiles to Ukraine. This creates security challenges for Ukraine and highlights demand for US missile makers.",
+    "ar": "تقول ألمانيا إنه ليس لداتها صواريخ دفاعية إضافية لأوكرانيا، مما يبرز الطلب على شركات صنع الصواريخ الأمريكية.",
+    "ru": "Германия заявляет, что не может предоставить новые ракеты Украине, что подчеркивает высокий спрос на продукцию американских производителей оружия."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVDlKUWxnZ1lNajhrZnZCNlF2Q09iSkZYVWd4djdpUkczU3JHcDFVNzhjOUtEak1mOFRBNlRnUTFwd0tHQTYtTjBIdXRLT2lwVk1xeFpreFZCQTR6b3pIMDdpMXZWZUdMSXNLWjNQM2FJOGNpVEx5dmdCVVYwNVZVcTQxYndDcW1ObDA2cHJlS0thSUl3M1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "מחסור עולמי במערכות ובטילי פטריוט מעלה את הצורך בהזמנות חידוש מלאי מצד ממשלות.",
+    "reason_i18n": {
+     "he": "מחסור עולמי במערכות ובטילי פטריוט מעלה את הצורך בהזמנות חידוש מלאי מצד ממשלות.",
+     "en": "Global shortages and high demand for Patriot systems increase the likelihood of massive inventory replenishment orders.",
+     "ar": "النقص العالمي والطلب المرتفع على أنظمة باتريوت يزيدان من احتمالية طلبات تجديد المخزون.",
+     "ru": "Мировой дефицит и высокий спрос на системы Patriot увеличивают вероятность заказов на пополнение запасов."
+    },
+    "name_i18n": {
+     "he": "RTX – ריית'און (יצרניתטילי פטריוט)",
+     "en": "RTX – Raytheon (Patriot missile maker)",
+     "ar": "RTX – ريثيون (صانعة صواريخ باتريوت)",
+     "ru": "RTX – Raytheon (производитель ракет Patriot)"
+    },
+    "price_at_alert": 189.53
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "הצורך המוגבר בהגנה אווירית באירופה תומך בחברות הביטחון הגדולות.",
+    "reason_i18n": {
+     "he": "הצורך המוגבר בהגנה אווירית באירופה תומך בחברות הביטחון הגדולות.",
+     "en": "Increased European demand for air defense supports major defense primes.",
+     "ar": "الطلب الأوروبي المتزايد على الدفاع الجوي يدعم شركات الدفاع الكبرى.",
+     "ru": "Растущий европейский спрос на ПВО поддерживает крупные оборонные компании."
+    },
+    "name_i18n": {
+     "he": "LMT – לוקהיד מרטין (שותפה במערכות הגנה)",
+     "en": "LMT – Lockheed Martin (Defense partner)",
+     "ar": "LMT – لوكهيد مارتن (شريكة في أنظمة الدفاع)",
+     "ru": "LMT – Lockheed Martin (партнер по системам обороны)"
+    },
+    "price_at_alert": 567.08
+   }
+  ],
+  "id": "79c5be2b269d"
+ },
+ {
+  "ts": 1794195515,
+  "time": "2026-11-09T03:38Z",
+  "title": "מחירי הנפט יורדים לאחר שטראמפ מעריך שתקיפות חדשות באיראן אינן סבירות",
+  "summary": "מחירי הנפט רשמו ירידה לאחר שהנשיא הנבחר דונלד טראמפ העריך כי תקיפות חדשות נגד איראן אינן סבירות כעת, מה שהפחית את חששות המשקיעים מסיכוני אספקה.",
+  "kid": "מחירי הנפט ירדו כי טראמפ אמר שאין צפי למלחמה חדשה עם איראן בזמן קרוב. זה מוריד את הלחץ על מחירי הדלק ועשוי להשפיע על מניות האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנפט יורדים לאחר שטראמפ מעריך שתקיפות חדשות באיראן אינן סבירות",
+    "en": "Oil Falls as Trump Says New Iran Attacks 'Unlikely'",
+    "ar": "انخفاض أسعار النفط بعد أن قال ترامب إن هجمات جديدة على إيران \"غير مرجحة\"",
+    "ru": "Цены на нефть падают после слов Трампа о том, что новые удары по Ирану маловероятны"
+   },
+   "summary": {
+    "he": "מחירי הנפט רשמו ירידה לאחר שהנשיא הנבחר דונלד טראמפ העריך כי תקיפות חדשות נגד איראן אינן סבירות כעת, מה שהפחית את חששות המשקיעים מסיכוני אספקה.",
+    "en": "Oil prices dipped after Donald Trump stated that new attacks involving Iran are unlikely, easing market fears over potential supply disruptions in the Middle East.",
+    "ar": "انخفضت أسعار النفط بعد أن صرح دونالد ترامب بأن شن هجمات جديدة ضد إيران أمر مستبعد، مما خفف من المخاوف بشأن إمدادات الطاقة.",
+    "ru": "Цены на нефть снизились после того, как Дональд Трамп заявил, что новые удары по Ирану маловероятны, снизив опасения по поводу перебоев с поставками."
+   },
+   "kid": {
+    "he": "מחירי הנפט ירדו כי טראמפ אמר שאין צפי למלחמה חדשה עם איראן בזמן קרוב. זה מוריד את הלחץ על מחירי הדלק ועשוי להשפיע על מניות האנרגיה.",
+    "en": "Oil prices fell because Trump said a new war with Iran is unlikely soon. This lowers fuel price worries and affects energy stocks.",
+    "ar": "انخفضت أسعار النفط لأن ترامب قال إنه لا توجد توقعات بحرب جديدة مع إيران قريباً، مما يخفض مخاوف أسعار الوقود.",
+    "ru": "Цены на нефть упали, так как Трамп заявил, что новая война с Ираном маловероятна в ближайшее время, что снижает опасения по поводу цен на топливо."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZVJsemROQzc5VTJSTlNVcVpfWE9vVFdVeWE4OUZhV3IxeHJVYV9JNjdnZ2tUZWdBMTJ4ZDZfQmNrQWxDckpHb2hCVldOb0pIR0hsZW00WXRWSDNpX3EtYWU3N252SGVMOXZXNlNvU2p0Z0EwQXN3dkxzQWxjWS1TdUl5blQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794195515,
+    "reason": "היחלשות פרמיית הסיכון הגיאופוליטית במזרח התיכון מורידה את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "היחלשות פרמיית הסיכון הגיאופוליטית במזרח התיכון מורידה את מחירי הנפט.",
+     "en": "Easing geopolitical risk premiums in the Middle East drive crude oil prices lower.",
+     "ar": "تراجع علاوة المخاطر الجيوسياسية في الشرق الأوسط يدفع أسعار النفط للانخفاض.",
+     "ru": "Снижение геополитической премии за риск на Ближнем Востоке толкает цены на нефть вниз."
+    },
+    "name_i18n": {
+     "he": "USO – קרן סלי עוקבת אחר מחיר הנפט הגולמי",
+     "en": "USO – United States Oil Fund",
+     "ar": "USO – صندوق أسعار النفط الخام الأمريكي",
+     "ru": "USO – фонд нефтяных фьючерсов"
+    },
+    "price_at_alert": 148.41
+   },
+   {
+    "ticker": "XLE",
+    "direction": "down",
+    "t0": 1794195515,
+    "reason": "מחירי נפט נמוכים יותר פוגעים ברווחיות הצפויה של חברות האנרגיה והחיפושים.",
+    "reason_i18n": {
+     "he": "מחירי נפט נמוכים יותר פוגעים ברווחיות הצפויה של חברות האנרגיה והחיפושים.",
+     "en": "Lower crude prices negatively impact expected revenues for major energy and oil exploration firms.",
+     "ar": "أسعار النفط الأقل تؤثر سلبياً على الإيرادات المتوقعة لشركات الطاقة.",
+     "ru": "Более низкие цены на нефть негативно влияют на выручку энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סלי מניות אנרגיה בארה\"ב",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "XLE – صندوق قطاع الطاقة الأمريكي",
+     "ru": "XLE – ETF энергетического сектора США"
+    },
+    "price_at_alert": 61.62
+   }
+  ],
+  "id": "d9ea443e59a2"
+ },
+ {
+  "ts": 1794195515,
+  "time": "2026-11-09T03:38Z",
+  "title": "ארה\"ב מאשרת עסקת מכירת מסוקי בלאק הוק למקסיקו ב-1.075 מיליארד דולר",
+  "summary": "ממשלת ארה\"ב אישרה עסקת מכירת מסוקי UH-60M Black Hawk למקסיקו בהיקף של כ-1.075 מיליארד דולר, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
+  "kid": "ארה\"ב תמכור מסוקי צבא למקסיקו בסכום של למעלה ממיליארד דולר. חדשות טובות לחברת הביטחון שמייצרת אותם, שיכולות לעזור למניה שלה לעלות.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מאשרת עסקת מכירת מסוקי בלאק הוק למקסיקו ב-1.075 מיליארד דולר",
+    "en": "US Approves $1.075 Billion UH-60M Black Hawk Helicopter Sale to Mexico",
+    "ar": "الولايات المتحدة توافق على صفقة مروحيات بلاك هوك للمكسيك بقيمة 1.075 مليار دولار",
+    "ru": "США одобряют продажу вертолетов Black Hawk Мексике на сумму $1.075 млрд"
+   },
+   "summary": {
+    "he": "ממשלת ארה\"ב אישרה עסקת מכירת מסוקי UH-60M Black Hawk למקסיקו בהיקף של כ-1.075 מיליארד דולר, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
+    "en": "The US government has approved a $1.075 billion foreign military sale of UH-60M Black Hawk helicopters to Mexico, boosting the defense manufacturer's order backlog.",
+    "ar": "وافقت الحكومة الأمريكية على بيع مروحيات بلاك هوك للمكسيك بقيمة 1.075 مليار دولار، مما يعزز محفظة طلبيات الشركة المصنعة.",
+    "ru": "Правительство США одобрило продажу вертолетов Black Hawk Мексике на $1.075 млрд, что укрепит портфель заказов производителя."
+   },
+   "kid": {
+    "he": "ארה\"ב תמכור מסוקי צבא למקסיקו בסכום של למעלה ממיליארד דולר. חדשות טובות לחברת הביטחון שמייצרת אותם, שיכולות לעזור למניה שלה לעלות.",
+    "en": "The US is selling military helicopters to Mexico for over $1 billion. This is good news for the defense company making them, which can push its stock higher.",
+    "ar": "تبيع الولايات المتحدة مروحيات عسكرية للمكسيك بأكثر من مليار دولار، وهي أخبار جيدة للشركة المصنعة.",
+    "ru": "США продают военные вертолеты Мексике более чем на $1 млрд, что позитивно для компании-производителя."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN1R6dExYRVlqb3dzQmVLYXpNMzRKZ1RNMFcyWFd3R3pveURYcDRXei1nNENKSGw1V1dlX0hrZVNQek1ucVFxMmdXWG01MFhZRFJyemJFbXVhNTl2TzljNlMwN09SNk1objlRZE1qZlVwSmdEMUlnUUhyWGlFX0Vpc0RrQTFBZW9HOEoxaVdTbUt3NUY0MG1Bd1VJQllIdzlVRFE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UVDBZdWY1cTRBRDF2S3k1bmRfamlRWmlTRUw1clgyNHBkVnRfYW1KTXF4NDRXN2dzZ1F6X0xuUHBZTWRwSjVFbV9HU09Cc2I2aE44?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "חוזה ביטחוני גדול למכירת מסוקי בלאק הוק (המיוצרים על ידי סיكורסקי שבבעלות לוקהיד מרטין) למקסיקו.",
+    "reason_i18n": {
+     "he": "חוזה ביטחוני גדול למכירת מסוקי בלאק הוק (המיוצרים על ידי סיكורסקי שבבעלות לוקהיד מרטין) למקסיקו.",
+     "en": "A major foreign military contract for Black Hawk helicopters manufactured by Lockheed Martin's Sikorsky unit.",
+     "ar": "عقد عسكري ضخم لبيع مروحيات بلاك هوك المصنعة من قبل لوكهيد مارتن.",
+     "ru": "Крупный оборонный контракт на поставку вертолетов Black Hawk производства Lockheed Martin."
+    },
+    "name_i18n": {
+     "he": "LMT – לוקהיד מרטין (בעלת סיקורסקי)",
+     "en": "LMT – Lockheed Martin (Sikorsky owner)",
+     "ar": "LMT – لوكهيد مارتن (المالكة لشركة سيكورسكي)",
+     "ru": "LMT – Lockheed Martin (владелец Sikorsky)"
+    },
+    "price_at_alert": 567.08
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "אישור עסקת נשק ממשלתית גדולה תומך בסנטימנט החיובי בכלקטור הביטחוני.",
+    "reason_i18n": {
+     "he": "אישור עסקת נשק ממשלתית גדולה תומך בסנטימנט החיובי בכלקטור הביטחוני.",
+     "en": "Approval of a large government defense contract supports positive sentiment across the defense sector.",
+     "ar": "الموافقة على عقد دفاعي حكومي كبير تدعم المعنويات الإيجابية لقطاع الدفاع.",
+     "ru": "Одобрение крупного государственного оборонного контракта поддерживает сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סלי לתעופה וביטחון בארה\"ב",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA – صندوق المؤشرات لقطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.98
+   }
+  ],
+  "id": "df4a489b7ede"
+ },
+ {
+  "ts": 1794195515,
+  "time": "2026-11-09T03:38Z",
+  "title": "HD Hyundai החלה בבניית ספינת מלחמה מסוג פריגטה לפיליפינים",
+  "summary": "ענקית המספנות הדרום קוריאנית HD Hyundai החלה בבניית ספינת פריגטה עבור הצי הפיליפיני, מה שמדגיש את הביקושים הגבוהים בתחום הימי באסיה.",
+  "kid": "חברת ספנות ובניית ספינים ענקית מקוריאה החלה לבנות ספינת מלחמה חדשה לפיליפינים. זה מראה שיש הרבה עבודה ובנייה של ציוד צבאי ימי באזור.",
+  "i18n": {
+   "title": {
+    "he": "HD Hyundai החלה בבניית ספינת מלחמה מסוג פריגטה לפיליפינים",
+    "en": "HD Hyundai Starts Philippine Frigate Construction",
+    "ar": "إتش دي هيونداي تبدأ بناء فرقاطة للبحرية الفلبينية",
+    "ru": "HD Hyundai начинает строительство фрегата для Филиппин"
+   },
+   "summary": {
+    "he": "ענקית המספנות הדרום קוריאנית HD Hyundai החלה בבניית ספינת פריגטה עבור הצי הפיליפיני, מה שמדגיש את הביקושים הגבוהים בתחום הימי באסיה.",
+    "en": "South Korean shipbuilding giant HD Hyundai has officially commenced construction on a new frigate for the Philippine Navy, highlighting active maritime defense orders in the region.",
+    "ar": "بدأت عملاق بناء السفن الكورية الجنوبية إتش دي هيونداي بناء فرقاطة للبحرية الفلبينية، مما يسلط الضوء على الطلبات البحرية النشطة في المنطقة.",
+    "ru": "Южнокорейский судостроительный гигант HD Hyundai начал строительство нового фрегата для ВМС Филиппин, подчеркивая активность в морском секторе."
+   },
+   "kid": {
+    "he": "חברת ספנות ובניית ספינים ענקית מקוריאה החלה לבנות ספינת מלחמה חדשה לפיליפינים. זה מראה שיש הרבה עבודה ובנייה של ציוד צבאי ימי באזור.",
+    "en": "A major Korean shipbuilding company has started building a new warship for the Philippines, showing strong activity in maritime defense building.",
+    "ar": "بدأت شركة كورية كبيرة بناء سفينة حربية جديدة للفلبين، مما يظهر نشاطاً قوياً في قطاع بناء السفن البحرية.",
+    "ru": "Крупная южнокорейская судостроительная компания начала строительство военного корабля для Филиппин, демонстрируя активность в секторе."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQkxIeW5VN0tnd1lrNWF5SXJuM1kyMDk1alFaZ1R6WjVBQWhZajd5V2NObTBDNEI0ZTRKZ2JkTGppQmRHd1ZYSFItNTd6R0NTRzNRUF8ybmU0MWlNdDhFajFrZEM2Wk4wWi1DYVVrRUx4UEJCd0VpYUYyNjE3dlBEc1BzLTRTYk8xZFh0SVZKRm5ydlVCMGlz?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUW5DaGRhZlNmRDN4dFRNeTY5V1pHSHdiMlFFV1A2c3RaMmdtaW5wTW9VOVZZT29jUmRGNmZrZ1hUUFNMc0tQbVBGUnhUVWh2SkxZa1lrRHVtY25iZkV2Qm5mZXZxU0FDSlZtNkZwM29MR1M1REFsdWtTaW1QSzBwbjgwaUU3RFU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "HII",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "פעילות ערה והזמנות במספנות בעולם תומכות בסנטימנט חיובי לחברות בניית ספינות צבאיות.",
+    "reason_i18n": {
+     "he": "פעילות ערה והזמנות במספנות בעולם תומכות בסנטימנט חיובי לחברות בניית ספינות צבאיות.",
+     "en": "Strong global shipbuilding activity supports positive sentiment for defense shipbuilders.",
+     "ar": "النشاط العالمي القوي لبناء السفن يدعم المعنويات الإيجابية لشركات بناء السفن العسكرية.",
+     "ru": "Высокая глобальная активность в судостроении поддерживает позитивные настроения в отношении судостроителей."
+    },
+    "name_i18n": {
+     "he": "HII – הנטינגטון אינגלס (בניית ספינות בארה\"ב)",
+     "en": "HII – Huntington Ingalls Industries (US shipbuilding)",
+     "ar": "HII – هنتنغتون إنغلس (لبناء السفن في أمريكا)",
+     "ru": "HII – Huntington Ingalls Industries (судостроение США)"
+    },
+    "price_at_alert": 288.74
+   },
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1794195515,
+    "reason": "המשך ביקושים חזקים לציוד ימי וצבאי ברחבי אסיה מוסיף תמיכה לסקטור הביטחוני.",
+    "reason_i18n": {
+     "he": "המשך ביקושים חזקים לציוד ימי וצבאי ברחבי אסיה מוסיף תמיכה לסקטור הביטחוני.",
+     "en": "Sustained strong demand for military hardware across Asia provides steady support for the defense sector.",
+     "ar": "الطلب القوي المستمر على المعدات العسكرية في جميع أنحاء آسيا يدعم قطاع الدفاع.",
+     "ru": "Устойчивый высокий спрос на военную технику в Азии поддерживает оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "XAR – קרן סלי תעופה וביטחון",
+     "en": "XAR – SPDR S&P Aerospace & Defense ETF",
+     "ar": "XAR – صندوق الطيران والدفاع الأمريكي",
+     "ru": "XAR – ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 224.02
+   }
+  ],
+  "id": "a282319c9088"
  }
 ]
