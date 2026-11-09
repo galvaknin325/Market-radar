@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-09T23:17Z",
+ "generated": "2026-11-09T23:55Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 608,
+ "total_alerts": 613,
  "overall": {
   "n": 300,
   "hits": 147,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 64,
+   "mentions": 65,
    "n": 28,
    "hits": 14,
    "name": {
-    "he": "קרן סל על מחירי הנפט הגולמי",
-    "en": "Crude oil ETF",
-    "ar": "صندوق تداول النفط الخام",
-    "ru": "ETF сырой нефти"
+    "he": "יו-אס-או – קרן סל עוקבת אחרי מחירי הנפט",
+    "en": "USO – Crude Oil ETF",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO – фонд нефтяных фьючерсов"
    },
    "avg_edge": -0.19
   },
@@ -114,14 +114,14 @@
    "avg_edge": -0.33
   },
   "XOM": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 6,
    "hits": 3,
    "name": {
-    "he": "אקסון מוביל - חברת אנרגיה גדולה",
-    "en": "ExxonMobil – major energy corporation",
-    "ar": "إكسون موبيل - شركة طاقة كبرى",
-    "ru": "ExxonMobil – крупная энергокомпания"
+    "he": "אקסון מוביל – חברת אנרגיה ענקית",
+    "en": "ExxonMobil – Major energy producer",
+    "ar": "ExxonMobil - شركة الطاقة الكبرى",
+    "ru": "ExxonMobil – крупная энергетическая компания"
    },
    "avg_edge": -0.98
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 96,
+   "mentions": 97,
    "n": 53,
    "hits": 27,
    "name": {
-    "he": "ITA - קרן סל של חברות תעופה וביטחון בארה\"ב",
-    "en": "ITA - US Aerospace & Defense ETF",
-    "ar": "ITA - صندوق تركس الفضاء والدفاع الأمريكي",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    "he": "איי-טי-איי – קרן סל תעופה וביטחון",
+    "en": "ITA – US Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "ITA – фонд аэрокосмического и оборонного сектора США"
    },
    "avg_edge": -4.91
   },
   "RTX": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 9,
    "hits": 5,
    "name": {
-    "he": "ריית'און - יצרנית מערכות הגנה",
-    "en": "RTX - defense systems manufacturer",
-    "ar": "RTX - شركة تصنيع أنظمة الدفاع",
-    "ru": "RTX - производитель систем обороны"
+    "he": "ריית'און – יצרנית טילי פטריוט",
+    "en": "RTX – Defense contractor and Patriot maker",
+    "ar": "RTX - مقاول دفاعي وصانعة صواريخ باتريوت",
+    "ru": "RTX – оборонный подрядчик и производитель систем Patriot"
    },
    "avg_edge": -0.94
   },
@@ -354,14 +354,14 @@
    "avg_edge": -1.56
   },
   "QQQ": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 14,
    "hits": 5,
    "name": {
-    "he": "QQQ - קרן סל של מניות טכנולוגיה מובילות",
-    "en": "QQQ - Nasdaq 100 ETF",
+    "he": "קיו-קיו-קיו – מדד ענקיות הטכנולוגיה",
+    "en": "QQQ – Nasdaq 100 ETF",
     "ar": "QQQ - صندوق مؤشر ناسداك 100",
-    "ru": "QQQ - ETF на индекс Nasdaq 100"
+    "ru": "QQQ – фонд акций технологических гигантов"
    },
    "avg_edge": -0.37
   },
@@ -402,14 +402,14 @@
    "avg_edge": 4.07
   },
   "GLD": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 3,
    "hits": 2,
    "name": {
-    "he": "קרן סל זהב",
-    "en": "SPDR Gold Shares",
-    "ar": "صندوق مؤشر الذهب",
-    "ru": "ETF золота"
+    "he": "ג'י-אל-די – קרן סל מובילה להשקעה בזהב",
+    "en": "GLD – SPDR Gold Shares ETF",
+    "ar": "GLD - صندوق المؤشرات المتداولة للذهب",
+    "ru": "GLD – крупнейший биржевой фонд золота"
    },
    "avg_edge": 0.12
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.61
   },
   "FCX": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 20,
    "hits": 6,
    "name": {
-    "he": "פריפורט-מקמוראן - חברת נחושת",
-    "en": "Freeport-McMoRan – copper miner",
-    "ar": "فريبورت-مكموران - شركة نحاس",
-    "ru": "Freeport-McMoRan — добытчик меди"
+    "he": "פריפורט מקמוראן – ענקית כריית נחושת",
+    "en": "Freeport-McMoRan – Major copper miner",
+    "ar": "Freeport-McMoRan - عملاق تعدين النحاس",
+    "ru": "Freeport-McMoRan – крупный производитель меди"
    },
    "avg_edge": -1.24
   },
@@ -654,14 +654,14 @@
    "avg_edge": 0.36
   },
   "UUP": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 7,
    "hits": 3,
    "name": {
-    "he": "UUP - קרן סל דולר אמריקאי",
-    "en": "UUP - US Dollar ETF",
-    "ar": "UUP - صندوق الدولار الأمريكي",
-    "ru": "UUP - ETF доллара США"
+    "he": "יו-יו-פי – קרן סל העוקבת אחר מדד הדולר האמריקאי",
+    "en": "UUP – US Dollar Index ETF",
+    "ar": "UUP - صندوق مؤشر الدولار الأمريكي",
+    "ru": "UUP – фонд долларового индекса"
    },
    "avg_edge": -0.15
   },
