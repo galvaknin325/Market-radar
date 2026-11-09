@@ -48335,5 +48335,341 @@
    }
   ],
   "id": "cbaf63cfcfea"
+ },
+ {
+  "ts": 1794224360,
+  "time": "2026-11-09T11:39Z",
+  "title": "אנבידיה פותחת בחקירה עצמאית בעקבות קשרי המנכ\"ל עם חשוד בריגול",
+  "summary": "דירקטוריון אנבידיה פתח בחקירה עצמאית לאחר שפורסם כי המנכ\"ל ג'נסן הואנג היה יעד למאמץ מודיעין זר הקשור לחשוד בריגול סיני. מניית החברה ירדה ב-5%.",
+  "kid": "הבוס של חברת השבבים הענקית אנבידיה מעורב בבדיקה בגלל קשר אפשרי למרגל זר, מה שגרם למניה לרדת קצת כי משקיעים פוחדים מחוסר ודאות.",
+  "i18n": {
+   "title": {
+    "he": "אנבידיה פותחת בחקירה עצמאית בעקבות קשרי המנכ\"ל עם חשוד בריגול",
+    "en": "Nvidia Launches Independent Probe Into CEO's Ties With Espionage Suspect",
+    "ar": "إنفيديا تفتح تحقيقاً مستقلّاً في علاقات الرئيس التنفيذي مع مشتبه به بالتجوال",
+    "ru": "Nvidia начинает независимое расследование связи гендиректора с подозреваемым в шпионаже"
+   },
+   "summary": {
+    "he": "דירקטוריון אנבידיה פתח בחקירה עצמאית לאחר שפורסם כי המנכ\"ל ג'נסן הואנג היה יעד למאמץ מודיעין זר הקשור לחשוד בריגול סיני. מניית החברה ירדה ב-5%.",
+    "en": "Nvidia's board launched an independent investigation following reports that CEO Jensen Huang was targeted by a foreign intelligence effort involving an alleged Chinese spy. The stock fell 5%.",
+    "ar": "أطلق مجلس إدارة إنفيديا تحقيقاً مستقلّاً بعد تقارير أفادت بأن الرئيس التنفيذي جنسن هوانغ كان هدفاً لجهود استخباراتية أجنبية مرتبطة بمشتبه به تجسس صيني. انخفض السهم بنسبة 5%.",
+    "ru": "Совет директоров Nvidia начал независимое расследование после сообщений о том, что гендиректор Дженсен Хуан стал мишенью иностранной разведки, связанной с подозреваемым в китайском шпионаже. Акции упали на 5%."
+   },
+   "kid": {
+    "he": "הבוס של חברת השבבים הענקית אנבידיה מעורב בבדיקה בגלל קשר אפשרי למרגל זר, מה שגרם למניה לרדת קצת כי משקיעים פוחדים מחוסר ודאות.",
+    "en": "The boss of big chip maker Nvidia is facing an investigation over potential foreign spy ties, causing its stock to fall because investors dislike uncertainty.",
+    "ar": "يواجه رئيس شركة الرقائق الكبيرة إنفيديا تحقيقاً بسبب روابط محتملة مع جاسوس أجنبي، مما أدى إلى انخفاض سهمه لأن المستثمرين يكرهون عدم اليقين.",
+    "ru": "Глава крупного производителя чипов Nvidia столкнулся с расследованием из-за возможных связей с иностранным шпионом, из-за чего его акции упали, так как инвесторы не любят неопределенность."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/09/nasdaq-defies-nvidia-impact-huang-faces-espionage-affair-probe.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794224360,
+    "reason": "חקירה עצמאית סביב המנכ\"ל וחשד לריגול",
+    "reason_i18n": {
+     "he": "חקירה עצמאית סביב המנכ\"ל וחשד לריגול",
+     "en": "Independent probe into CEO and espionage allegations",
+     "ar": "تحقيق مستقل حول الرئيس التنفيذي وشبهات تجسس",
+     "ru": "Независимое расследование в отношении гендиректора и подозрения в шпионаже"
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia – AI chip maker",
+     "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia – производитель чипов ИИ"
+    },
+    "price_at_alert": 186.64
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794224360,
+    "reason": "ירידה במניית הענקית אנבידיה גוררת את כל הסקטור",
+    "reason_i18n": {
+     "he": "ירידה במניית הענקית אנבידיה גוררת את כל הסקטור",
+     "en": "Decline in giant Nvidia drags down the whole sector",
+     "ar": "انخفاض سهم العملاق إنفيديا يسحب القطاع بأكمله",
+     "ru": "Падение гиганта Nvidia тянет вниз весь сектор"
+    },
+    "name_i18n": {
+     "he": "סמיקונדקטורס - קרן סל של חברות שבבים",
+     "en": "Semiconductors ETF – chip sector fund",
+     "ar": "صندوق استثمار قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 463.96
+   }
+  ],
+  "id": "0bfff14a1224"
+ },
+ {
+  "ts": 1794224360,
+  "time": "2026-11-09T11:39Z",
+  "title": "ארה\"ב מציעה להסיר חלקית את המצור מעל איראן בתמורה לפתיחת מצר הורמוז",
+  "summary": "לפי דיווחים, ארצות הברית הציעה לאיראן הסרה חלקית של הסנקציות והמצור ימי בתמורה להתחייבות לפתיחת מצר הורמוז לשייט חופשי של מכליות נפט.",
+  "kid": "אמריקה מציעה להקל קצת על הסנקציות הכלכליות נגד איראן, אם איראן תבטיח לא לסגור את הדרך הימית שדרכה עובר הרבה מהנפט בעולם.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מציעה להסיר חלקית את המצור מעל איראן בתמורה לפתיחת מצר הורמוז",
+    "en": "US Offering Iran Partial Lifting of Blockade in Exchange for Opening Hormuz",
+    "ar": "أمريكا تعرض على إيران رفعاً جزئياً للحصار مقابل فتح مضيق هرمز",
+    "ru": "США предлагают Ирану частичное снятие блокады в обмен на открытие Ормузского пролива"
+   },
+   "summary": {
+    "he": "לפי דיווחים, ארצות הברית הציעה לאיראן הסרה חלקית של הסנקציות והמצור ימי בתמורה להתחייבות לפתיחת מצר הורמוז לשייט חופשי של מכליות נפט.",
+    "en": "Reports indicate the US is offering Iran a partial lifting of maritime blockade and sanctions in exchange for ensuring the Strait of Hormuz remains open for tankers.",
+    "ar": "تشير التقارير إلى أن الولايات المتحدة تقدم لإيرن رفعاً جزئياً للحصار البحري مقابل ضمان فتح مضيق هرمز لناقلات النفط.",
+    "ru": "Сообщается, что США предлагают Ирану частичное снятие морской блокады в обмен на открытие Ормузского пролива для прохода танкеров."
+   },
+   "kid": {
+    "he": "אמריקה מציעה להקל קצת על הסנקציות הכלכליות נגד איראן, אם איראן תבטיח לא לסגור את הדרך הימית שדרכה עובר הרבה מהנפט בעולם.",
+    "en": "America is offering to ease some economic sanctions on Iran if Iran promises not to close the crucial shipping lane for global oil.",
+    "ar": "تعرض أمريكا تخفيف بعض العقوبات الاقتصادية على إيران إذا وعدت أعدلا بعدم إغلاق الممر المائي الحيوي لنفط العالم.",
+    "ru": "Америка предлагает смягчить часть экономических санкций против Ирана, если он пообещает не закрывать ключевой морской путь для нефтяных танкеров."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGFKVFVhSEc3WTRuYUI2dzZmdE5uVkR3ekpRYUxWQlVYN2tBR0p4eng1MVFKNmhDcTVqRlNQcEVMUXFxRXNKWmdUaGNNdUgzaU1aamJDY3lvMk5FVTRTU3BuN0hiazNWSkcxWHhwelNWRWxCaUZMZ0F0eG1jaTdDWHhHYzVzMmZvdUpLRFRFQ2REdnl0Nk5ydzZwemEyelVsZ2JSYm52RkdacUZJcEpOWW9vdkpOZks1ZlJpaTYwZjVpejRZdTNr?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794224360,
+    "reason": "אפשרות לפתיחת מצר הורמוז עשויה להגדיל את זרימת הנפט ולהוריד מחירים",
+    "reason_i18n": {
+     "he": "אפשרות לפתיחת מצר הורמוז עשויה להגדיל את זרימת הנפט ולהוריד מחירים",
+     "en": "Potential opening of Hormuz strait could boost oil flow and lower prices",
+     "ar": "فتح مضيق هرمز المحتمل قد يزيد تدفق النفط ويخفض الأسعار",
+     "ru": "Потенциальное открытие Ормузского пролива может увеличить поток нефти и снизить цены"
+    },
+    "name_i18n": {
+     "he": "יו־אס־או - קרן סל על מחירי הנפט",
+     "en": "USO – United States Oil Fund",
+     "ar": "صندوق النفط الأمريكي",
+     "ru": "ETF нефти США"
+    },
+    "price_at_alert": 148.41
+   },
+   {
+    "ticker": "XOM",
+    "direction": "down",
+    "t0": 1794224360,
+    "reason": "מחירי נפט נמוכים יותר פוגעים ברווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט נמוכים יותר פוגעים ברווחי חברות האנרגיה",
+     "en": "Lower oil prices hurt energy company profits",
+     "ar": "أسعار النفط المنخفضة تضر بأرباح شركات الطاقة",
+     "ru": "Более низкие цены на нефть бьют по прибыли энергокомпаний"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה גדולה",
+     "en": "ExxonMobil – major energy corporation",
+     "ar": "إكسون موبيل - شركة طاقة كبرى",
+     "ru": "ExxonMobil – крупная энергокомпания"
+    },
+    "price_at_alert": 165.87
+   }
+  ],
+  "id": "3f0618ae1e36"
+ },
+ {
+  "ts": 1794224360,
+  "time": "2026-11-09T11:39Z",
+  "title": "נצחונו של המפלגה הדמוקרטית בבחירות מעורר חששות רגולטוריים בשוק הקריפטו",
+  "summary": "מחירי הביטקוין והאת'ר צנחו לשפל מאז חודש אוגוסט, לאחר שניצחון הדמוקרטים בבחירות בארה\"ב (כולל הפסדו של הבולט בתחום בריאן סטייל) מעלה את החשש מהחמרת הרגולציה.",
+  "kid": "מחירי מטבעות הקריפטו כמו ביטקוין ירדו בחדות כי פוליטיקאים דמוקרטים חדשים שניצחו בבחירות נוטים להטיל פיקוח ומיסים מחמירים יותר על תחום המטבעות הדיגיטליים.",
+  "i18n": {
+   "title": {
+    "he": "נצחונו של המפלגה הדמוקרטית בבחירות מעורר חששות רגולטוריים בשוק הקריפטו",
+    "en": "Democrats' Midterm Win Sparks Regulatory Fears in Crypto Market",
+    "ar": "فوز الديمقراطيين يثير مخاوف تنظيمية في سوق العملات المشفرة",
+    "ru": "Победа демократов вызывает опасения регуляторов на рынке криптовалют"
+   },
+   "summary": {
+    "he": "מחירי הביטקוין והאת'ר צנחו לשפל מאז חודש אוגוסט, לאחר שניצחון הדמוקרטים בבחירות בארה\"ב (כולל הפסדו של הבולט בתחום בריאן סטייל) מעלה את החשש מהחמרת הרגולציה.",
+    "en": "Bitcoin and Ether prices hit their lowest levels since August as Democrats' election wins raise fears of tougher regulation and digital asset crackdowns.",
+    "ar": "هبطت أسعار البيتكوين والإيثريوم إلى أدنى مستوياتها منذ أغسطس مع إثارة فوز الديمقراطيين مخاوف بشأن تشديد التنظيم على الأصول الرقمية.",
+    "ru": "Цены на биткоин и эфир упали до минимумов с августа, так как победа демократов на выборах усиливает опасения по поводу ужесточения регулирования."
+   },
+   "kid": {
+    "he": "מחירי מטבעות הקריפטו כמו ביטקוין ירדו בחדות כי פוליטיקאים דמוקרטים חדשים שניצחו בבחירות נוטים להטיל פיקוח ומיסים מחמירים יותר על תחום המטבעות הדיגיטליים.",
+    "en": "Cryptocurrency prices dropped sharply because winning Democratic politicians often favor stricter rules and oversight for digital money.",
+    "ar": "הخفضت أسعار العملات الرقمية بشدة لأن السياسيين الديمقراطيين الفائزين يفضلون عادة قواعد رقابة أشد صرامة.",
+    "ru": "Цены на криптовалюту резко упали, так как победившие демократы обычно выступают за более жесткий контроль над цифровыми деньгами."
+   }
+  },
+  "category": "policy",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPRG1kaWVOSDBkNzJqa2oza0gwMXRzV0ExRHNUT1pDRXpMeVBBN090QUpoZk5EcEI0OEFoYTJUVW9kdkRhcUJDOHAtLVJQYjdSN2w5MGRTeC03aVkxTEZRQXhVN0hKekdjQzl2WFZfaU45enZZM2JRNkdFUlRod05YcVJDS0ttdnlUWHhpVFNPNHgwOE5RNlFIRENBbFpIN3FRNXZyeHFCeW1uQkx4eGJHNXF5dVdqdFNoOF9kT29udUZoVjBPWURqUlJON2lxcGtCWmJZWjZBVW5jSjNtcmxLYUxrVjVnUEIyd2FPeDlrZFhQYzFvWjMwU05Id203cWo2LWZmUV9tSlF6SlpYM0l1R2hMOXY0Z9IBmwJBVV95cUxQSU1peGwwSmNYdUxkTGd4b3RtcUx0MmpLR3NhTy0xa3RCTnE1OHR3M1ppZV93OEo0MjRaa2pyc3BnTW1zMm56SmE4Qllfb1VFd3ExcHRZYVlFZXJacFRaLXNQWUlRaThmbDd1M3pUSE5tbzJuNmhTbkNYeTIyUWYybW1PUFYydHZEZ3VoYkljRXYxa05wWXBRREEyTzdBQjNvWWtkV2tsc012SzVMeHZWQnJmZEROSUpiWGtzbXJhdTVYbHJtalFBS1RJcG53bFRYWmZEWDF1d29BNW5FaXNCdEptVGhtZjl3bWl2OWNBSzFoUmFEaXVBS1VtM3BDdWxUZ0pHUTd6aUVTWW9mSENpS1REUl9wbWgyUnNB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVE1uaDN4TDhCVXZDN1hPTUx5YVMySk9nSW4xeHFPNDIxUHhyN0RwYVk5Uk1EOE5ROEswNDVfZzNDU1FKYUswQzkwNDhKMUUtVnNuZVVIbWtWTXduOTZHZ0pDUktySnBMVS1NQ1pOdk9PdGdWUFRCRUREcS0zNHpLMzNKcjdLMG01VldxMWZCVU9sSGpzSFFpUk9RalZDXzZ1Vk5haTlHdEZLcXE2Tjk2NkUwWXprVzZudHpiWWNYUnZHUnptaThhcTZhRmY?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794224360,
+    "reason": "נפילה במחיר הביטקוין עקב חששות מרגולציה נוקשה",
+    "reason_i18n": {
+     "he": "נפילה במחיר הביטקוין עקב חששות מרגולציה נוקשה",
+     "en": "Drop in Bitcoin price due to strict regulation fears",
+     "ar": "הخفاض سعر البيتكوين بسبب مخاوف التنظيم الصارم",
+     "ru": "Падение цены биткоина из-за страха жесткого регулирования"
+    },
+    "name_i18n": {
+     "he": "אייביט - קרן סל על ביטקוין",
+     "en": "IBIT – Bitcoin Trust ETF",
+     "ar": "صندوق البيتكوين المتداول",
+     "ru": "ETF биткоина"
+    },
+    "price_at_alert": 42.88
+   }
+  ],
+  "id": "0d826d39187a"
+ },
+ {
+  "ts": 1794224360,
+  "time": "2026-11-09T11:39Z",
+  "title": "סין מאריכה את השעיית בקרת היצוא על 16 חברות אמריקאיות",
+  "summary": "סין הודיעה על הארכת השעיית בקרת היצוא על 16 ישויות אמריקאיות למשך חודשיים נוספים, צעד שעשוי להקל מעט על מתחי הסחר.",
+  "kid": "סין נותנת עוד קצת זמן ושקט לחברות אמריקאיות מסוימות על ידי דחיית הגבלות היצוא עליהן, מה שעוזר להרגיע את מלחמת הסחר.",
+  "i18n": {
+   "title": {
+    "he": "סין מאריכה את השעיית בקרת היצוא על 16 חברות אמריקאיות",
+    "en": "China Extends Suspension of Export Controls on 16 US Entities",
+    "ar": "الصين تمدد تعليق ضوابط التصدير على 16 كياناً أمريكياً",
+    "ru": "Китай продлевает приостановку экспортного контроля в отношении 16 американских компаний"
+   },
+   "summary": {
+    "he": "סין הודיעה על הארכת השעיית בקרת היצוא על 16 ישויות אמריקאיות למשך חודשיים נוספים, צעד שעשוי להקל מעט על מתחי הסחר.",
+    "en": "China announced a two-month extension of the suspension of export controls on 16 U.S. entities, offering a brief easing of trade tensions.",
+    "ar": "أعلنت الصين تمديد تعليق ضوابط التصدير على 16 كياناً أمريكياً لمدة شهرين إضافيين، مما يوفر انفراجة طفيفة في التوترات التجارية.",
+    "ru": "Китай объявил о продлении приостановки экспортного контроля в отношении 16 американских компаний еще на два месяца, что немного ослабляет торговую напряженность."
+   },
+   "kid": {
+    "he": "סין נותנת עוד קצת זמן ושקט לחברות אמריקאיות מסוימות על ידי דחיית הגבלות היצוא עליהן, מה שעוזר להרגיע את מלחמת הסחר.",
+    "en": "China is giving some US companies more breathing room by delaying export limits on them, helping soothe trade fights.",
+    "ar": "تمنح الصين بعض الشركات الأمريكية متنفساً من خلال تأخير قيود التصدير عليها، مما يساعد في تهدئة المعارك التجارية.",
+    "ru": "Китай дает некоторым американским компаниям передышку, откладывая экспортные ограничения против них, что помогает смягчить торговые споры."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rRW5TVnNpLW42UU1OZ3BhcmpETUw1dzBvams0akp5U294cENaUDNvVUE5NkotaWVpNG14Sm1UbEl1NngwWnVCTlFIR2R3bjJaYXowb0NkNHpyVjJaMmRfSkFVQ05FSmFNRWdzVzZUamVSSFVDa09NeXlVbHU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1794224360,
+    "reason": "הקלה במתיחות הסחר בין ארה\"ב לסין",
+    "reason_i18n": {
+     "he": "הקלה במתיחות הסחר בין ארה\"ב לסין",
+     "en": "Easing of US-China trade tensions",
+     "ar": "تخفيف توترات التجارة بين أمريكا والصين",
+     "ru": "Смягчение торговой напряженности между США и Китаем"
+    },
+    "name_i18n": {
+     "he": "ספיי - מדד 500 החברות הגדולות בארה\"ב",
+     "en": "SPY – S&P 500 broad market ETF",
+     "ar": "صندوق مؤشر S&P 500",
+     "ru": "ETF широкого рынка S&P 500"
+    },
+    "price_at_alert": 735.29
+   }
+  ],
+  "id": "ad78ab1ff4bf"
+ },
+ {
+  "ts": 1794224360,
+  "time": "2026-11-09T11:39Z",
+  "title": "סינופק מעניקה חוזה ענק לפלטפורמה ימית וצינורות בסין",
+  "summary": "ענקית האנרגיה הסינית Sinopec העניקה חוזה חדש לבניית פלטפורמה ימית ותשתית צינורות במדינה, במסגרת הרחבת פעילות הקידוח והתשתיות.",
+  "kid": "חברת אנרגיה סינית גדולה הזמינה בניית מתקן קידוח ימי וצינורות חדשים, מה שמשמח חברות שעוזרות בבניית תשתיות נפט וגז.",
+  "i18n": {
+   "title": {
+    "he": "סינופק מעניקה חוזה ענק לפלטפורמה ימית וצינורות בסין",
+    "en": "Sinopec Awards Offshore Platform and Pipeline Contract in China",
+    "ar": "سينوبك تمنح عقداً لمنصة بحرية وأنابيب في الصين",
+    "ru": "Sinopec присуждает контракт на шельфовую платформу и трубопровод в Китае"
+   },
+   "summary": {
+    "he": "ענקית האנרגיה הסינית Sinopec העניקה חוזה חדש לבניית פלטפורמה ימית ותשתית צינורות במדינה, במסגרת הרחבת פעילות הקידוח והתשתיות.",
+    "en": "Chinese energy giant Sinopec has awarded a major contract for an offshore platform and pipeline project, boosting regional oil and gas infrastructure activity.",
+    "ar": "منحت عملاق الطاقة الصيني سينوبك عقداً رئيسياً لمشروع منصة بحرية وأنابيب، مما يعزز نشاط البنية التحتية للنفط والغاز.",
+    "ru": "Китайский энергетический гигант Sinopec заключил крупный контракт на строительство морской платформы и трубопровода в рамках расширения инфраструктуры."
+   },
+   "kid": {
+    "he": "חברת אנרגיה סינית גדולה הזמינה בניית מתקן קידוח ימי וצינורות חדשים, מה שמשמח חברות שעוזרות בבניית תשתיות נפט וגז.",
+    "en": "A major Chinese energy company ordered a new offshore drilling rig and pipelines, which benefits companies that build oil and gas infrastructure.",
+    "ar": "طلبت شركة طاقة صينية كبرى بناء منصة حفر بحرية وأنابيب جديدة، مما يفيد الشركات التي تبني البنية التحتية للنفط والغاز.",
+    "ru": "Крупная китайская энергетическая компания заказала строительство морской буровой платформы и трубопроводов, что поддерживает сектор инфраструктуры."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFA0REx4a29ia0RueWtBVF9rZ1M0VzFrQUVPV3E5cDJteXRCVk9KVF9SZzFkdkM4Qm1jTENPQ3pxVEx2djNzMlhQQi1PYWx0T1RSNlBaNzZ0ckZhc1JEN29jd0Z0eWpKV0lkRXBQVUVBdEdhUzlVV0VoenhNWGYzMnRiY0xpc2FXMEdJdkMyOA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794224360,
+    "reason": "פעילות עסקית ערה והשקעות בתשתיות אנרגיה ימיות",
+    "reason_i18n": {
+     "he": "פעילות עסקית ערה והשקעות בתשתיות אנרגיה ימיות",
+     "en": "Active business and investments in offshore energy infrastructure",
+     "ar": "نشاط تجاري واستثمارات في البنية التحتية للطاقة البحرية",
+     "ru": "Активная деловая активность и инвестиции в шельфовую энергетику"
+    },
+    "name_i18n": {
+     "he": "אקס־אإל־אי - קרן סל למניות אנרגיה",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 61.62
+   }
+  ],
+  "id": "23777d601295"
  }
 ]
