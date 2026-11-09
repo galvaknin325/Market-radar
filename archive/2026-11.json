@@ -45291,10 +45291,6 @@
   "confidence": "medium",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
-   },
-   {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50d1AxUGdCVkhpTUdrcXoteGpldXlkNUk0dG9kWUN3UGJBLVFBN3ZNRkhJTHpPb1hEd1hlazM4a2stdXBQZEZnamduX21VZzN0RFdPRFVLTXl1QXhWcHFPSHVCTWVGLUZxS1Y0aEd1b2J2djJleDVnSWN3?oc=5"
    },
@@ -45309,6 +45305,14 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -45407,9 +45411,21 @@
      "ar": "تطلق إنفيديا تحقيقاً أمنياً بشأن الرئيس التنفيذي جنسن هوانغ على خلفية علاقات مع شخص مشتبه به بالتجسس الصيني.",
      "ru": "Nvidia начинает расследование безопасности в отношении гендиректора Дженсена Хуанга из-за связей с лицом, подозреваемым в китайском шпионаже."
     }
+   },
+   {
+    "ts": 1794212857,
+    "time": "2026-11-09T08:27Z",
+    "severity": 4,
+    "summary": "מנכ\"ל אנבידיה ג'נסן הואנג מתמודד עם שערורייה ציבורית ודאגות ביטחוניות בעקבות קשריו עם אדם החשוד בריגול סיני.",
+    "i18n": {
+     "he": "מנכ\"ל אנבידיה ג'נסן הואנג מתמודד עם שערורייה ציבורית ודאגות ביטחוניות בעקבות קשריו עם אדם החשוד בריגול סיני.",
+     "en": "Nvidia CEO Jensen Huang faces public scrutiny and national security questions following news of an affair with a suspected Chinese spy.",
+     "ar": "يواجه الرئيس التنفيذي لشركة إنفيديا جنسن هوانغ تدقيقاً عاماً وسط مخاوف تتعلق بالامن القومي.",
+     "ru": "Генеральный директор Nvidia Дженсен Хуанг столкнулся с вопросами национальной безопасности из-за связи с подозреваемым в шпионаже."
+    }
    }
   ],
-  "last_update": 1794183615
+  "last_update": 1794212857
  },
  {
   "ts": 1794176026,
@@ -47764,5 +47780,63 @@
    }
   ],
   "id": "a2c84af1f72b"
+ },
+ {
+  "ts": 1794212857,
+  "time": "2026-11-09T08:27Z",
+  "title": "בריטניה שוקלת להקל את יעדי הרכב החשמלי",
+  "summary": "השבוע צפויים להתפרסם צעדים להפחתת יעדי הרכב החשמלי של ממשלת בריטניה.",
+  "kid": "הממשלה בבריטניה עשויה להקל על חברות הרכב ולדרוש פחות מכוניות חשמליות, מה שיכול לעזור לחברות שמייצרות רכבים רגילים.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה שוקלת להקל את יעדי הרכב החשמלי",
+    "en": "UK expected to lower EV targets",
+    "ar": "بريطانيا تخطط لتخفيض أهداف السيارات الكهربائية",
+    "ru": "Великобритания планирует смягчить цели по электромобилям"
+   },
+   "summary": {
+    "he": "השבוע צפויים להתפרסם צעדים להפחתת יעדי הרכב החשמלי של ממשלת בריטניה.",
+    "en": "The UK government is expected to reduce its electric vehicle targets this week.",
+    "ar": "من المتوقع أن تخفض الحكومة البريطانية أهدافها الخاصة بالسيارات الكهربائية هذا الأسبوع.",
+    "ru": "Ожидается, что правительство Великобритании снизит цели по электромобилям на этой неделе."
+   },
+   "kid": {
+    "he": "הממשלה בבריטניה עשויה להקל על חברות הרכב ולדרוש פחות מכוניות חשמליות, מה שיכול לעזור לחברות שמייצרות רכבים רגילים.",
+    "en": "The UK government might require fewer electric cars, which could help traditional car companies sell more regular cars.",
+    "ar": "قد تخفف الحكومة البريطانية القواعد المتعلقة بالسيارات الكهربائية، مما قد يساعد شركات السيارات التقليدية.",
+    "ru": "Правительство Британии может смягчить требования к электромобилям, что поможет традиционным автопроизводителям."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "up",
+    "t0": 1794212857,
+    "reason": "הקלה בדרישות עשויה לסייע לתעשייה המקומית בבריטניה.",
+    "reason_i18n": {
+     "he": "הקלה בדרישות עשויה לסייע לתעשייה המקומית בבריטניה.",
+     "en": "Easing EV rules may relieve pressure on traditional UK industrial sectors.",
+     "ar": "تخفيف القواعد قد يساعد القطاع الصناعي في بريطانيا.",
+     "ru": "Смягчение правил может облегчить нагрузку на британскую промышленность."
+    },
+    "name_i18n": {
+     "he": "EWU - קרן סל בריטניה",
+     "en": "EWU - UK ETF",
+     "ar": "EWU - صندوق استثمار بريطانيا",
+     "ru": "EWU - фонд акций Великобритании"
+    },
+    "price_at_alert": 47.22
+   }
+  ],
+  "id": "8da52d7decfd"
  }
 ]
