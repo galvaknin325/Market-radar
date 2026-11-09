@@ -50788,6 +50788,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUUlZbnN5aVlQYVkyb3NmQUo5ME9oRENsN2oxR0VRbVBwbzdnMjZ3UlJVa2s4aW9MU0RXNjlfVGotRnVZX3lOQ1gzbGZNZmNfRlpmbk9ZTU5mX0t1aEdrT2NHX1hvYTU2TVJDQkF1dkdaRlZUdzdHdGQ3enRqalZUb2R3dU5RNXVzb0pwU3VwZ1V3cGFjdTV0cg?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlRrWk44QVVfbEZIZU1vYy03bkpkeEpPRHhYcFc5RnJVc0NxV0gwN1ZkLV9JM0w0SG5HbVh1by1UMDBTZm5yblpwOTAyUTA3YVFYQlZlZzYxamY1SUxkU2hBQjRuN1YyWGFmNW5ZTFdKeVRxdDdTS29jdUxaZ29Bd3U2VlV4VU9DS2lUaGY5NllISzNiUmVuM0J0S2RfcEtNbE5XSzV0c2dkMERSVV9vSk5GTE1mbGRUU1hhM1FB?oc=5"
    }
   ],
   "impacts": [
@@ -50809,9 +50813,43 @@
      "ru": "EWC – ETF канадских акций"
     },
     "price_at_alert": 60.79
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794257471,
+    "reason": "עסקאות מיזוג ורכישה גדולות בסקור האנרגיה מעידות על הערכת שווי איתנה לפעילות נפט וגז.",
+    "reason_i18n": {
+     "he": "עסקאות מיזוג ורכישה גדולות בסקור האנרגיה מעידות על הערכת שווי איתנה לפעילות נפט וגז.",
+     "en": "Major M&A activity in the energy sector signals strong underlying valuations for oil and gas assets.",
+     "ar": "نشاط الاندماج والاستحواذ الكبير في قطاع الطاقة يعكس تقييمات قوية لأصول النفط والغاز.",
+     "ru": "Крупные сделки M&A в энергетическом секторе свидетельствуют о сильных базовых оценках нефтяных и газовых активов."
+    },
+    "name_i18n": {
+     "he": "אנרגיה - קרן סל סקטוריאלית",
+     "en": "Energy Sector ETF",
+     "ar": "قطاع الطاقة - صندوق متداول",
+     "ru": "Энергетический сектор - ETF"
+    },
+    "price_at_alert": 62.02
    }
   ],
-  "id": "6060335d3bcd"
+  "id": "6060335d3bcd",
+  "updates": [
+   {
+    "ts": 1794257471,
+    "time": "2026-11-09T20:51Z",
+    "severity": 4,
+    "summary": "חברת סטרת'קונה הקנדית תרכוש את חברת הנפט גרינפייר בעסקה בסך 2.1 מיליארד דולר, במטרה להרחיב את הפקת חולות הזפת בקנדה.",
+    "i18n": {
+     "he": "חברת סטרת'קונה הקנדית תרכוש את חברת הנפט גרינפייר בעסקה בסך 2.1 מיליארד דולר, במטרה להרחיב את הפקת חולות הזפת בקנדה.",
+     "en": "Strathcona is set to acquire Greenfire in a $2.1 billion deal, expanding Canadian oil sands production capacity.",
+     "ar": "ستقوم شركة ستراثكونا الكندية بالاستحواذ على غرينفاير في صفقة بقيمة 2.1 مليار دولار لتوسيع إنتاج الرمال النفطية.",
+     "ru": "Канадская компания Strathcona приобретет Greenfire за 2,1 млрд долларов для расширения добычи нефти из битумных песков."
+    }
+   }
+  ],
+  "last_update": 1794257471
  },
  {
   "ts": 1794243783,
@@ -51058,7 +51096,20 @@
   "category": "macro",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPeldEbV9sZjlZU1N0N05ZME5NTEVISkRSQWE5YjJCeFNnUTFEX3JXcElqV0g0MTZJbzhDallGV0FGLVFBUjJhdjg3UFdmbGxaUk9vOXRfVW9FeXE2SjAxMDk4WVBUakpqNFRyMEJYbEEtQ2gtTC1hTEhpS3BTbDJhSk95SnVEamdGTEhtSGoxcUp2bkJkRlFaeUlGT1BleHM0c245ekxZc0F3UUYwdTAyRlR0NXhYVUdpOGdXSDEtbGxBaThYWGVuRGVQNjdmTTB4MEdXN2RIMUNqZ3VMd0pXeGZRN0ZSZzhQSWhnQ2VDdXFBdkx1UzZneGpwdEZtWjd0ang3Z1pQUzNIWm5YSVHSAZMCQVVfeXFMUEdfcVU4NXlIVFhUYURDQ2JKSEZObFNhMlBmdHNfOHBNbzNzUW1DQWgtOEo1dXVmU2xKZDFualotUmVmWDRKNi1SMVkzT0xOOEFNNjRxOUlnQ1FSb0xQTVg5LXMxVE9jeUVhSEJWbzBwUHE4Z2Z5MHRuT0NFTXJDc1A1NHhFMW5KaTUtZGRNNUxVdVM2M25UdnEyZTdsSUtRSmtVc2tmbkdrdkJxMGRvZmJLNlhEbnZVR2hsOFlZYi1qSXozdTJaVDJwQkM1N2R5WThxVmMwMDhIYUVPYnEtYU83OGNkbGlaMVMwR3RjM05RU2ZFUGl6U1dOcDJqRkl5X3FoSmRPTGlid1FJQWplQ0c4d2s?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTTNQRXBPaTRaWFNBbjQ5RVdEb1FpWl9uVjNkdnFnVmQ3ZkdLdHRSN0RIVFVSMUJQbldMXzdkNVJtR3NyV0ZxLV84VDJnS1F3MlpNUkZLNTlIWVFRcEliM25BX0VvM0xLeFJkSHBmaUY1ekEtaGpjZGxfZDZ1SkJGTER0WkxaUl9qLVJZSXB4VWxoRjFfZmNWVktQaHdPZndpVlA5Tzk3cnZRSTA5bVZzR1NhcUU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlVOclVFZXRsTzFKWnlLTER6ajkwbkRIU1F4S3diVHM3RUFIakNMTzlwLWJTVHNqSnN6TzdQZVd4ci1pUVhCTXlySGQ4a2hNNkI2UDhGT05PblYteTFmeWwtRlBLZlRMMjFCMFBMS0FCUHdqZjB5ZENucW82aVFTTllrUlpYQzNVUmlVdmxIY0JmRjl0ZXliSXFaV2toNC13dU56cTZVSU5RZUo5Y0RhWTVISUFOb09vWXlndFc1TEZGZw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "TLT",
@@ -51097,9 +51148,43 @@
      "ru": "ETF индекса Nasdaq 100"
     },
     "price_at_alert": 678.0
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794257471,
+    "reason": "איומי העלאות ריבית מצד הפד פוגעים בסנטימנט בשוק המניות הרחב.",
+    "reason_i18n": {
+     "he": "איומי העלאות ריבית מצד הפד פוגעים בסנטימנט בשוק המניות הרחב.",
+     "en": "Threats of interest rate hikes from Fed officials weigh on broad stock market sentiment.",
+     "ar": "تهديدات رفع الفائدة من قبل الفيدرالي تضغط على معنويات السوق بشكل عام.",
+     "ru": "Угрозы повышения процентных ставок со стороны ФРС давят на общие настроения на рынке акций."
+    },
+    "name_i18n": {
+     "he": "אס&פ 500 - קרן סל",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق مؤشر S&P 500",
+     "ru": "ETF индекса S&P 500"
+    },
+    "price_at_alert": 753.7501
    }
   ],
-  "id": "405beef97be6"
+  "id": "405beef97be6",
+  "updates": [
+   {
+    "ts": 1794257471,
+    "time": "2026-11-09T20:51Z",
+    "severity": 6,
+    "summary": "בכירי הפדרל רזיארב, בהם ברקין וגולסבי, מזהירים כי אינפלציה עיקשת והשקעות ענק בבינה מלאכותית עשויים לחייב העלאות ריבית עתידיות.",
+    "i18n": {
+     "he": "בכירי הפדרל רזיארב, בהם ברקין וגולסבי, מזהירים כי אינפלציה עיקשת והשקעות ענק בבינה מלאכותית עשויים לחייב העלאות ריבית עתידיות.",
+     "en": "Federal Reserve officials, including Barkin and Goolsbee, warn that stubborn inflation and massive AI investments could necessitate future interest rate hikes.",
+     "ar": "حذر مسؤولي الاحتياطي الفيدرالي، بما في ذلك باركين وغولسبي، من أن استمرار التضخم والاستثمارات الضخمة في الذكاء الاصطناعي قد تستدعي رفع الفائدة.",
+     "ru": "Представители ФРС, включая Баркина и Гулсби, предупреждают, что упорная инфляция и инвестиции в ИИ могут потребовать повышения ставки."
+    }
+   }
+  ],
+  "last_update": 1794257471
  },
  {
   "ts": 1794250359,
@@ -51243,18 +51328,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUGlIMVI3WmdhU0pHaVBPMVJ2REtPMVVnNk5rc2V6a0x3REtUTWhCNFF3VGlsVG5nZWR2UEl5d3lfMG0xMzJkMTNtUHNrWWhKZXNYVkFfNUdkSVAwRWxOMGtpRzUxX0h5UFdxT25BSTlpWTBId09qdEU4ZWFwdFlfeE1sSFR2cnFUcW1IVmZ1cHhjRzNQemdMYzhvM2ZNMmRvZmZxWTdKZnBqOHlXbDF1azRCRlRGeGltQ1VyU1BTSkM5dl80djRPZExabTkwaEpXTEdpQzRjSzFCV05jeWdMb1l0WlY3WkdzS1JOWHlybmx2U1Z5N1F5MEdGTXZTU1VS?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkdTNWYyUnBFRzdSYUZyWm9QTmhHazNZa3N1eloxeTVIeURsS2t0c0pDWkJmTFNKTjQ5cTZfcGJIVzIxejJjVWZpcEtsdlFwazNfMUFZUEpKN0g5bUkzRzZrUlYySHRGeEkyS041S1dzMEtYZFBjcnhoZm85NDA5ajREbXQzbHd6dXZtZEpDSnpQX05udnRZbUxkdWphY0JxcHpSSVBqSVdwTF9Y?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNakdIYUUwUXZyOWJRQUY5elNkR1hnRU4tQi1OdGM3NHJKNUIwaWZma2ZXQXdXaVByUDdkNmZYQnJpS2RrLTVpTUZUc2x0bGdnYlh5ZElFU094cVVCOWhPN2xrRDByWkJROVhmVUVvVlBGS2ZlN001bG5JbHNXNXpuY1NDejliNHFxSWw0d0tQa05uSnBjVDNGNDdBck95dHA2NlRVbmp3R1RveGl4d3NPUW9YSkVITmZPa0xwNXhjZWQ3cVU?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPeHNsSndrTS1VMEJlUDdiSm1YR3VoanJLaWVWZThzQ295eUZCT3ljZnVwMzBGNG5VMGJXWUxNbmZTT0dvRnBtV3VDZDd2QUZqbE9GeGZCN2NrQUJIT2lCdjdLMFkxUzJsYTJvWWFDM3hRZlA5aXc?oc=5"
    },
@@ -51265,6 +51338,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRVdVUU1kVlc0UjNONHFacTJlZ3prSXY5NzJHS1Rsb0Jubkd4OUVNdjE0N1M4V0Iyb1pCRzkwUElfWUNUWll5Z1hYd2htZ1ZMSUE5c0xhejl6WmJ3M3JzZlFiX2hCdzB1bzJBTlhpWXhUbjlseXlQMU9QcF83aWYwcERVUURXMU13X2lObTFxVVVLOW03Q0ZhM1FSQ0VqU0FpOGU4cmRUdDNMU2FhN2JtWjh5bjFjWjROWXRvZHFKQUdMckpHQ3RQcUFyRlg0T2FVY0J3a0hvTGEyUlJyTTA4ZzZxekE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVl6VE42Um1mWFNKalFTcTVEa3d2UWZ6NlRrVlZGN2twbmRZQ3BBYkFXcmpWRDJoWEdOQW9obHZqVV96cThTUEs2RHdtbHRqZ2pkMGNlTnBMMm1WdGJHeVdyYVU5QzR6M1cxR202TlFxOHEtdjVGVkVMMHMyb1lJaDJ2azQ5QQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaWo1ZTIzSTBpY0g2ZzhyR3RXRTU5VG1fc3otSm1xOWZYR21IT1pGRm5Ybkp2MS1Sd3VCNDBDOVlyYy0za01BZXNyMk1haHNhODh0enU2LWRYeHpTWEE2LTZoSkM3UUdEdXQ4Vm16M0xfc1E2T1FSaHZoSmZqWHVyWXVNQTI?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaEtiLW42aDZBTWQtbFdSNVpTbl9SNENPQWEyN2w1Wm9UZC14cnFudkwtU2N6aW1DWWlpei1NTWU0VVdSTW5XZkFnV211anZucWdLU05aM0piZGszcm9EZktPSUFHU1pHQm1XNTg2NjN6akw2UFJkc1Z3WkUzMUtKRVIta05jamxXUWpwdFY0bm5MLWRmT0HSAZYBQVVfeXFMUFNYWjF0Sm8zQ1I2aG1FVFZFVXQzdDlOaFk4bjlkUnBSVG9fUXlDNk5MeXpIcGotVWpUMG9jWnJSNlB2bEdXMkhOMlJCdnY0MnlpXzZEUGtSTm5MSHQ5cjRraGt5ODg3bE5GVlVuakNMRGpPS2swdzFHcDA5cE8xQ1dlbjF3Z1hUOE9oQ0FhQldoV0RvOXRR?oc=5"
    }
   ],
   "impacts": [
@@ -51320,9 +51405,21 @@
      "ar": "اتهمت الاستخبارات الفرنسية الحرس الثوري الإيراني بشن هجمة سيبرانية تستهدف أنظمة تبريد السوبرماركت، وتتعهد باريس بالدفع نحو عقوبات أوروبية.",
      "ru": "Французская разведка обвинила Корпус стражей исламской революции Ирана в кибератаке на системы охлаждения супермаркетов, Париж добивается санкций ЕС."
     }
+   },
+   {
+    "ts": 1794257471,
+    "time": "2026-11-09T20:51Z",
+    "severity": 4,
+    "summary": "רשויות הביטחון בצרפת הפנו אצבע מאשימה לעבר משמר המהפכה של איראן בגין מתקפת סייבר שהשביתה ושיבשה את מערכות הקירור במאות סופרמרקטים.",
+    "i18n": {
+     "he": "רשויות הביטחון בצרפת הפנו אצבע מאשימה לעבר משמר המהפכה של איראן בגין מתקפת סייבר שהשביתה ושיבשה את מערכות הקירור במאות סופרמרקטים.",
+     "en": "French security officials formally blamed Iran's Revolutionary Guard for a cyberattack that compromised refrigeration systems in hundreds of supermarkets.",
+     "ar": "اتهمت السلطات الأمنية الفرنسية رسمياً الحرس الثوري الإيراني بتنفيذ هجوم سيبراني استهدف أنظمة التبريد في مئات المتاجر.",
+     "ru": "Французские официальные лица официально обвинили Корпус стражей исламской революции Ирана в кибератаке на системы охлаждения в сотнях супермаркетов."
+    }
    }
   ],
-  "last_update": 1794254055
+  "last_update": 1794257471
  },
  {
   "ts": 1794250359,
@@ -51746,6 +51843,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTzdfUmlLdWlUSjFSVjJXUVhFYkRTbXpZZzBDSjVjZ0NUenU5dzctMzljSl9uNkJ2anFRMERFUFl5QW9vdkx0NWVqbnFqN2hvWHMxZ2o0YTZWeHo0U1MxZXdLMl9Tdk1YMVBGUWc2cTFUaUw5bzJWa2NpZW5kWDREN3p4TE9hUG1KTWRZTW4waGd3cEttTmFiSllFN2FZREloX1R5a0dEeVpSX0hOU2xYU3BzUQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSC1kREZ6eFN2V0xzajloellJcUQwQ3pRUU1DUDNJV29hXzJIakNUTWRMVTJDUE1Na3VOSG5scHJMQkNteUw1NVZTbWh0Mk1jdnFqS1VKeWd0cy1NREoxeVM5QmlEUk5ZZExuSVNXdkVfSUpQMllrbHhfREhVQktoLU5WaVFqR1JzSlViOHowY0diZm9TLUpmV1ZnUUplQ0RkcWh0aVItZ3JvSnlEVkJNOTg4YkdwRHhvWnc0cFZzZGJCaFUwSTFXNE9ia1MxNWtqUUFXZGtPS0ZGV3RXNlVYZm5UWThUS01tbW9pV3JBTE5DbGFKNmdPd0NXTVJBQVJHZnc?oc=5"
    }
   ],
   "impacts": [
@@ -51769,7 +51870,22 @@
     "price_at_alert": 188.56
    }
   ],
-  "id": "18a92dc73fdc"
+  "id": "18a92dc73fdc",
+  "updates": [
+   {
+    "ts": 1794257471,
+    "time": "2026-11-09T20:51Z",
+    "severity": 3,
+    "summary": "מספר מקרי החצבת המאומתים באזור עבר את רף ה-1,500, מה שממשיך לעורר דאגה בקרב רשויות הבריאות והציבור.",
+    "i18n": {
+     "he": "מספר מקרי החצבת המאומתים באזור עבר את רף ה-1,500, מה שממשיך לעורר דאגה בקרב רשויות הבריאות והציבור.",
+     "en": "Confirmed measles cases have surpassed 1,500 across the region, continuing to raise concerns among public health authorities.",
+     "ar": "تجاوزت حالات الحصبة المؤكدة 1500 حالة في المنطقة، مما يستمر في إثارة قلق سلطات الصحة العامة.",
+     "ru": "Число подтвержденных случаев кори превысило 1500 в регионе, продолжая вызывать беспокойство у органов здравоохранения."
+    }
+   }
+  ],
+  "last_update": 1794257471
  },
  {
   "ts": 1794254055,
@@ -51832,5 +51948,183 @@
    }
   ],
   "id": "dd8d20a9830f"
+ },
+ {
+  "ts": 1794257471,
+  "time": "2026-11-09T20:51Z",
+  "title": "פיצוץ קטלני במפעל פלדה בטורקיה",
+  "summary": "לפחות 17 בני אדם נהרגו בפיצוץ אדיר במפעל פלדה של חברת Habas Demir Celik באזור אליאגה בטורקיה, אשר הורגש היטב בסביבה.",
+  "kid": "פיצוץ ענק קרה במפעל פלדה בטורקיה וגרם להרג של 17 עובדים ולנזק גדול. אירוע כזה פוגע בפעילות המפעל המקומי ויכול להשפיע על מחירי הפלדה.",
+  "i18n": {
+   "title": {
+    "he": "פיצוץ קטלני במפעל פלדה בטורקיה",
+    "en": "Deadly Explosion at Turkey Steel Plant",
+    "ar": "انفجار مميت في مصنع صلب في تركيا",
+    "ru": "Смертельный взрыв на сталелитейном заводе в Турции"
+   },
+   "summary": {
+    "he": "לפחות 17 בני אדם נהרגו בפיצוץ אדיר במפעל פלדה של חברת Habas Demir Celik באזור אליאגה בטורקיה, אשר הורגש היטב בסביבה.",
+    "en": "At least 17 people were killed in a massive explosion at the Habas Demir Celik steel plant in Aliaga, Turkey, which shook the surrounding area.",
+    "ar": "قُتل ما لا يقل عن 17 شخصاً في انفجار ضخم مصنع صلب في ألياجا بتركيا، مما هز المنطقة المجاورة.",
+    "ru": "По меньшей мере 17 человек погибли в результате мощного взрыва на сталелитейном заводе в Алиаге, Турция, который потряс окрестности."
+   },
+   "kid": {
+    "he": "פיצוץ ענק קרה במפעל פלדה בטורקיה וגרם להרג של 17 עובדים ולנזק גדול. אירוע כזה פוגע בפעילות המפעל המקומי ויכול להשפיע על מחירי הפלדה.",
+    "en": "A huge explosion at a Turkish steel plant killed 17 workers and caused major damage. This halts operations at the facility and could impact steel supply and prices.",
+    "ar": "حدث انفجار ضخم في مصنع صلب في تركيا وأدى إلى مقتل 17 عاملاً وأضرار جسيمة. هذا الحادث يوقف العمل في المصنع وقد يؤثر على أسعار الصلب.",
+    "ru": "На сталелитейном заводе в Турции произошел мощный взрыв, в результате которого погибли 17 рабочих и был нанесен серьезный ущерб. Это может повлиять на поставки и цены на сталь."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TUR",
+    "direction": "down",
+    "t0": 1794257471,
+    "reason": "אסון תעשייתי חמור בטורקיה עלול להשפיע לרעה על הסנטימנט הכלכלי במדינה.",
+    "reason_i18n": {
+     "he": "אסון תעשייתי חמור בטורקיה עלול להשפיע לרעה על הסנטימנט הכלכלי במדינה.",
+     "en": "A severe industrial disaster in Turkey could negatively impact local economic sentiment.",
+     "ar": "كارثة صناعية خطيرة في تركيا قد تؤثر سلباً على معنويات السوق المحلي.",
+     "ru": "Серьезная промышленная катастрофа в Турции может негативно повлиять на местный экономический настрой."
+    },
+    "name_i18n": {
+     "he": "טורקיה - קרן סל השקעות",
+     "en": "Turkey - Country ETF",
+     "ar": "تركيا - صندوق استثمار",
+     "ru": "Турция - биржевой фонд"
+    },
+    "price_at_alert": 32.24
+   }
+  ],
+  "id": "9cac6c86bbb7"
+ },
+ {
+  "ts": 1794257471,
+  "time": "2026-11-09T20:51Z",
+  "title": "פפסיקו מקצצת כ-1,000 משרות בצפון אמריקה",
+  "summary": "חברת פפסיקו מתכננת לפטר כ-1,000 עובדים בפעילותה בצפון אמריקה במסגרת מאמצים לייעל את הפעילות ולשקם את המכירות בשוק הביתי.",
+  "kid": "ענקית המזון והמשקאות פפסיקו מפטרת אלף עובדים כדי להתייעל ולשפר את הרווחים שלה. מהלך כזה יכול לחזק את המניה אם המשקיעים יאהבו את החיסכון בעלויות.",
+  "i18n": {
+   "title": {
+    "he": "פפסיקו מקצצת כ-1,000 משרות בצפון אמריקה",
+    "en": "PepsiCo to Cut About 1,000 Jobs in North America",
+    "ar": "بيبسيكو تخفض نحو 1000 وظيفة في أمريكا الشمالية",
+    "ru": "PepsiCo сократит около 1000 рабочих мест в Северной Америке"
+   },
+   "summary": {
+    "he": "חברת פפסיקו מתכננת לפטר כ-1,000 עובדים בפעילותה בצפון אמריקה במסגרת מאמצים לייעל את הפעילות ולשקם את המכירות בשוק הביתי.",
+    "en": "PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
+    "ar": "تخطط شركة بيبسيكو لتخفيض نحو 1000 وظيفة في أمريكا الشمالية كجزء من جهود تبسيط العمليات وإحياء المبيعات.",
+    "ru": "PepsiCo планирует сократить около 1000 рабочих мест в Северной Америке в рамках оптимизации операций и восстановления продаж."
+   },
+   "kid": {
+    "he": "ענקית המזון והמשקאות פפסיקו מפטרת אלף עובדים כדי להתייעל ולשפר את הרווחים שלה. מהלך כזה יכול לחזק את המניה אם המשקיעים יאהבו את החיסכון בעלויות.",
+    "en": "Food giant PepsiCo is laying off 1,000 workers to cut costs and boost sales. This restructuring can sometimes lift the stock if investors like the savings.",
+    "ar": "تقوم شركة الأغذية والمشروبات الكبرى بيبسيكو بتسريح ألف عامل لخفض التكاليف وتحسين الأرباح. قد يدعم هذا السهم إذا رحب المستثمرون بتوفير التكاليف.",
+    "ru": "Крупный производитель продуктов питания и напитков PepsiCo увольняет тысячу работников для снижения расходов и повышения эффективности."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLP",
+    "direction": "up",
+    "t0": 1794257471,
+    "reason": "קיצוצי כוח אדם וצעדי התייעלות משפרים את שולי הרווח של חברות המזון הגדולות.",
+    "reason_i18n": {
+     "he": "קיצוצי כוח אדם וצעדי התייעלות משפרים את שולי הרווח של חברות המזון הגדולות.",
+     "en": "Headcount reductions and efficiency measures improve profit margins for major food companies.",
+     "ar": "تخفيض العمالة وكفاءة التشغيل تحسن هوامش الربح لشركات الأغذية الكبرى.",
+     "ru": "Сокращение штата и меры по повышению эффективности улучшают маржу прибыли крупных пищевых компаний."
+    },
+    "name_i18n": {
+     "he": "מוצרי צריכה בסיסיים - קרן סל",
+     "en": "Consumer Staples - Sector ETF",
+     "ar": "السلع الاستهلاكية الأساسية - صندوق قطاعي",
+     "ru": "Товары повседневного спроса - ETF"
+    },
+    "price_at_alert": 91.005
+   }
+  ],
+  "id": "d0ae89bfbbc9"
+ },
+ {
+  "ts": 1794257471,
+  "time": "2026-11-09T20:51Z",
+  "title": "קנדה מטילה סנקציות חדשות על רוסיה המכוונות לתעשייה הביטחונית",
+  "summary": "קנדה הכריזה על סנקציות חדשות נגד רוסיה, המכוונות במיוחד כלפי התעשייה הביטחונית וגורמים המעורבים בייצור טילים.",
+  "kid": "קנדה מטילה עונשים כלכליים נוספים על תעשיית הנשק של רוסיה. זהו חלק מהלחץ המערבי שמשפיע על חברות הביטחון בעולם.",
+  "i18n": {
+   "title": {
+    "he": "קנדה מטילה סנקציות חדשות על רוסיה המכוונות לתעשייה הביטחונית",
+    "en": "Canada Imposes New Sanctions on Russia Targeting Defense Industry",
+    "ar": "كندا تفرض عقوبات جديدة على روسيا تستهدف الصناعة الدفاعية",
+    "ru": "Канада вводит новые санкции против России, нацеленные на оборонную промышленность"
+   },
+   "summary": {
+    "he": "קנדה הכריזה על סנקציות חדשות נגד רוסיה, המכוונות במיוחד כלפי התעשייה הביטחונית וגורמים המעורבים בייצור טילים.",
+    "en": "Canada imposed new sanctions on Russia targeting the defense industry and actors involved in missile production.",
+    "ar": "فرصت كندا عقوبات جديدة على روسيا تستهدف قطاع الدفاع والأطراف المشاركة في إنتاج الصواريخ.",
+    "ru": "Канада ввела новые санкции против России, направленные против оборонной промышленности и участников производства ракет."
+   },
+   "kid": {
+    "he": "קנדה מטילה עונשים כלכליים נוספים על תעשיית הנשק של רוסיה. זהו חלק מהלחץ המערבי שמשפיע על חברות הביטחון בעולם.",
+    "en": "Canada is putting new economic restrictions on Russia's weapons industry, continuing Western pressure on Moscow's military supply chain.",
+    "ar": "تفرض كندا قيوداً اقتصادية جديدة على صناعة الأسلحة الروسية كجزء من الضغط الغربي المستمر.",
+    "ru": "Канада вводит новые экономические ограничения против оружейной промышленности России в рамках давления на военный сектор."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObDlZVVNLYXBwMmxkYjJFTnBydlJ1bjROSDBYYnhWekZpaXZxT3BycDVnZFJraXhBTDZONkI4X25EV0V2a0JEYkl3YnRXeDhCQjBRVVlvMldfbldMTzlsSFhycUl3ZmFFZjJfWHkya1JxM0xuZDhYWDFFdkZUdGgzb0hOS3cwN1FDVmNjTHN6M3VWVGZ5bmhRUTJHbWtUT1pCRU5RZmphOHZvZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794257471,
+    "reason": "החמרת הסנקציות מצד בעלות ברית ארה\"ב מדגישה את הביקוש המתמשך לציוד ביטחוני מערבי.",
+    "reason_i18n": {
+     "he": "החמרת הסנקציות מצד בעלות ברית ארה\"ב מדגישה את הביקוש המתמשך לציוד ביטחוני מערבי.",
+     "en": "Stricter sanctions by US allies highlight ongoing demand and support for Western defense equipment.",
+     "ar": "تشديد العقوبات من قبل حلفاء الولايات المتحدة يبرز الطلب المستمر على المعدات الدفاعية الغربية.",
+     "ru": "Ужесточение санкций союзниками США подчеркивает сохраняющийся спрос на западное оборонное оборудование."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון בארה\"ב",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.695
+   }
+  ],
+  "id": "43699c805687"
  }
 ]
