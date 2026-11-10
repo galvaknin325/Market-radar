@@ -46162,7 +46162,20 @@
   "category": "macro",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQXJDaEhaOGhLX00xakZFa0d1YW5LdnVTTW41eU5yaVdCT0tHUTB1VFJWVnE1RFBRTnRsa1g5UGF3WW0tckVLTFhTRFZRYTVVeUtHajNkY2JOU3dLT29SMDNkTHlqWUtxWVlEeVhKR20ycG92WlA5YlROQ3VKUGgwY3duTGJTSHFOMHpkeFdJVDFURV9BbWFDa0E3RXowWjhrQlJGR2htczJsUndiRzhfRk5fZE5vV3htQWNj?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGdKazB3cGVKLUR0VG45X1hQNEpxeVdwaVdUNEdSUl96YnlaQzRuSVgxa2F6NVE2dHU3SmRpOG5xNHdhT2pKS3RSOTdsbGxGYlVWMmxXQm9EUC1YQ1VudlVYeG5pLUJKbnRiczJDRVg2TXlJQlh0OE81dVNDLW1jdU1vT2tMZGRzV1VOeHR6TlVSbEFBTGNBMjh4Z2Zlc3VUei11SFkxcjI3U2EzS0llOEl1SnE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3JzaUt6cC05eXdxeTNvcFBPX2JGZmFka29UbGZvQzQyTFVTc2dUM3dyX0FUVkk5SngyWGs1SW80ckQ1Qk5Pb0laLU11MDM1MUtsOEptTmJiSERHdEdsR2tVanR1em5scXpGb1NuQzg2NmU3V0tXWm82aWlkeXpDQmZaMkQzQnl0eHc3WkFMZGNWdlZwblp0V0drdG9xQQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -46220,9 +46233,62 @@
      "ru": "ETF сырой нефти"
     },
     "price_at_alert": 143.7727
+   },
+   {
+    "ticker": "TLT",
+    "direction": "up",
+    "t0": 1794272223,
+    "reason": "ירידת ציפיות האינפלציה מחזקת את הביקוש לנכסים בטוחים ולאג\"ח ממשלתיות.",
+    "reason_i18n": {
+     "he": "ירידת ציפיות האינפלציה מחזקת את הביקוש לנכסים בטוחים ולאג\"ח ממשלתיות.",
+     "en": "Easing inflation expectations boost safe-haven demand for government bonds.",
+     "ar": "توقعات التضخم المخففة تعزز الطلب على الأصول الآمنة والسندات الحكومية.",
+     "ru": "Снижение инфляционных ожиданий повышает спрос на гособлигации как защитный актив."
+    },
+    "name_i18n": {
+     "he": "קרן סל על אג\"ח ארוכות של ארה\"ב",
+     "en": "TLT - Long-term US Treasury ETF",
+     "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
+     "ru": "ETF долгосрочных гособлигаций США TLT"
+    },
+    "price_at_alert": 81.96
+   },
+   {
+    "ticker": "UUP",
+    "direction": "down",
+    "t0": 1794272223,
+    "reason": "השהיית המוכרים בדולר ונתוני אינפלציה מתקרבים יוצרים מסחר תנודתי במטבע.",
+    "reason_i18n": {
+     "he": "השהיית המוכרים בדולר ונתוני אינפלציה מתקרבים יוצרים מסחר תנודתי במטבע.",
+     "en": "Dollar sellers pausing ahead of key inflation prints create currency consolidation.",
+     "ar": "توقف بائعي الدولار مؤقتاً قبيل بيانات التضخم يولد استقراراً في العملة.",
+     "ru": "Пауза продавцов доллара перед данными по инфляции вызывает консолидацию валюты."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מדד הדולר האמריקאי",
+     "en": "UUP - US Dollar Index ETF",
+     "ar": "صندوق مؤشر الدولار الأمريكي",
+     "ru": "ETF индекса доллара США UUP"
+    },
+    "price_at_alert": 28.97
    }
   ],
-  "id": "020e99844997"
+  "id": "020e99844997",
+  "updates": [
+   {
+    "ts": 1794272223,
+    "time": "2026-11-10T00:57Z",
+    "severity": 6,
+    "summary": "מדדי המניות בארה\"ב רשמו עליות שערים לאחר שירידת מחירי הנפט ציננה את חששות האינפלציה, בעוד שוק האג\"ח והדולר ממתינים לפרסום מדד המחירים לצרכן.",
+    "i18n": {
+     "he": "מדדי המניות בארה\"ב רשמו עליות שערים לאחר שירידת מחירי הנפט ציננה את חששות האינפלציה, בעוד שוק האג\"ח והדולר ממתינים לפרסום מדד המחירים לצרכן.",
+     "en": "US stocks climbed as falling oil prices eased inflation worries, while Treasuries and the dollar paused ahead of critical inflation data releases.",
+     "ar": "ارتفعت الأسهم الأمريكية مع تراجع أسعار النفط لتهدئة مخاوف التضخم، بينما يترقب المستثمرون بيانات التضخم الحاسمة.",
+     "ru": "Американские акции выросли по мере того, как падение цен на нефть ослабило опасения по поводу инфляции в преддверии ключевых данных."
+    }
+   }
+  ],
+  "last_update": 1794272223
  },
  {
   "ts": 1794236015,
@@ -49068,6 +49134,10 @@
    {
     "name": "BBC World",
     "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnNsYzdpaDRKS3c2Yi1LdVdWczlkM3QwSEJPMUowOUxxeTZZMUZodGt5SGxucEFkcVkybHhsOTFfWjVyeGdYcTNxbGR1VmNVNHRFc19fMUVoVGJTS1FBS2NaV3pKbzBJZWZOdnBVcXV3ZW55dWZ3WkhSVlBNSlpNc0hBNXBnTlJ0Y3dOQzhoUlJ2TkNBdlM0THVXMDVUcVFxZFFLeEN3?oc=5"
    }
   ],
   "impacts": [
@@ -49123,9 +49193,21 @@
      "ar": "دفع ترامب عن جنسن هوانغ رئيس إنفيديا، مؤكداً أنه يعتقد أنه لم يكن يعلم أن شريكته المزعومة كانت مشتبهاً بتجسسها للصين.",
      "ru": "Трамп встал на защиту гендиректора Nvidia Дженсена Хуанга, заявив, что тот не знал о подозрениях в шпионаже в отношении его предполагаемой спутницы."
     }
+   },
+   {
+    "ts": 1794272223,
+    "time": "2026-11-10T00:57Z",
+    "severity": 6,
+    "summary": "בעקבות פרשת הריגול והחקירות סביב אנבידיה, גוברים הלחצים בוושינגטון להטלת מגבלות ייצוא חדשות על טכנולוגיה ושבבי בינה מלאכותית.",
+    "i18n": {
+     "he": "בעקבות פרשת הריגול והחקירות סביב אנבידיה, גוברים הלחצים בוושינגטון להטלת מגבלות ייצוא חדשות על טכנולוגיה ושבבי בינה מלאכותית.",
+     "en": "Following the spy scandal surrounding Nvidia, pressure is mounting in Washington to enact new export controls on advanced tech and AI chips.",
+     "ar": "في أعقاب فضيحة التجسس المحيطة بإنفيديا، يتزايد الضغط في واشنطن لفرض قيود تصدير جديدة على التكنولوجيا المتقدمة.",
+     "ru": "Вслед за шпионским скандалом вокруг Nvidia в Вашингтоне растет давление с целью введения новых ограничений на экспорт чипов."
+    }
    }
   ],
-  "last_update": 1794268511
+  "last_update": 1794272223
  },
  {
   "ts": 1794266196,
@@ -49602,5 +49684,206 @@
    }
   ],
   "id": "18e059191845"
+ },
+ {
+  "ts": 1794272223,
+  "time": "2026-11-10T00:57Z",
+  "title": "טראמפ מעכב תקיפות חדשות באיראן לבקשת שכנות במפרץ",
+  "summary": "הנשיא טראמפ הודיע כי ארה\"ב תעכב מתקפות חדשות נגד איראן בעקבות פניות של שכנותיה במזרח התיכון ובעקבות תוצאות הבחירות.",
+  "kid": "ארה\"ב החליטה לא לתקוף כרגע באיראן אחרי ששכנותיה ביקשו זאת. זה יכול להרגיע את שוקי הנפט והמניות כי הסיכון למלחמה גדולה ירד.",
+  "i18n": {
+   "title": {
+    "he": "טראמפ מעכב תקיפות חדשות באיראן לבקשת שכנות במפרץ",
+    "en": "Trump pauses new Iran strikes after Middle East appeals",
+    "ar": "ترامب يرجئ ضربات جديدة على إيران بناءً على طلب دول الخليج",
+    "ru": "Трамп приостанавливает новые удары по Ирану по просьбе соседей по Персидскому заливу"
+   },
+   "summary": {
+    "he": "הנשיא טראמפ הודיע כי ארה\"ב תעכב מתקפות חדשות נגד איראן בעקבות פניות של שכנותיה במזרח התיכון ובעקבות תוצאות הבחירות.",
+    "en": "President Trump announced the US will hold off on new strikes against Iran following appeals from Middle East neighbors and post-election assessments.",
+    "ar": "أعلن الرئيس ترامب أن الولايات المتحدة ستعلق أي ضربات جديدة ضد إيران بناءً على مناشدات جيرانها في الشرق الأوسط.",
+    "ru": "Президент Трамп объявил, что США воздержатся от новых ударов по Ирану после призывов соседей по Ближнему Востоку."
+   },
+   "kid": {
+    "he": "ארה\"ב החליטה לא לתקוף כרגע באיראן אחרי ששכנותיה ביקשו זאת. זה יכול להרגיע את שוקי הנפט והמניות כי הסיכון למלחמה גדולה ירד.",
+    "en": "The US decided not to attack Iran right now after neighbors asked for calm. This can make oil and stock prices settle down because war risks are lower.",
+    "ar": "قررت الولايات المتحدة عدم مهاجمة إيران الآن بناءً على طلب الجيران. هذا يمكن أن يجعل أسعار النفط والأسهم تهدأ.",
+    "ru": "США решили пока не наносить удары по Ирану по просьбе соседей. Это может успокоить цены на нефть и акции."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNBV3hVLTdlalJKcEVGbXdzMEo0U1JMeWthQ1d2OWJJcUthMFo5TlVsOWVBS2pBcGFtUXB3akhKaF9mbnVNelV4dzYtYlJxVHREa0ZFZnpWek5iQXdQbnVaeXYwTHk1VnJlWkZXRGctM180ZWstYWxVZUFoX2M3TmxTdFJ6dXY1YVlETklWVjRmLUNyaDRSNmJhNzJOb0Zp?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeC1aaE03NTFlWDVtTk9LOUNxOXNZb0Jsand1dWgxcm5TZ0J3eVdZck1OYkYwdjRrX3hfTGpOc2haZGtxY1RiUkdkLXVZSFYydDc0TE5JX3M3elhPM2xjZFpJdlN2QzVDVHd0RGI4ZF9iajhJUHRSaFpZUmZ0aDZ6d2pVQVNueDMzcUFLSHBqdnBjeU5vOUh5czZMajJFNkk0TzJ1V1FR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794272223,
+    "reason": "הפחתת המתיחות הצבאית באזור מפחיתה את פרמיית הסיכון על מחירי הנפט.",
+    "reason_i18n": {
+     "he": "הפחתת המתיחות הצבאית באזור מפחיתה את פרמיית הסיכון על מחירי הנפט.",
+     "en": "Lower military tension reduces the risk premium on oil prices.",
+     "ar": "يقلل التوتر العسكري المنخفض من علاوة المخاطر على أسعار النفط.",
+     "ru": "Снижение военной напряженности уменьшает риск-премию в ценах на нефть."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט גולמי",
+     "en": "USO - Crude oil fund",
+     "ar": "صندوق النفط الخام",
+     "ru": "Фонд нефти USO"
+    },
+    "price_at_alert": 142.66
+   },
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1794272223,
+    "reason": "הימנעות מעימות אזורי חדש מסירה אי-ודאות גיאופוליטית מהשווקים.",
+    "reason_i18n": {
+     "he": "הימנעות מעימות אזורי חדש מסירה אי-ודאות גיאופוליטית מהשווקים.",
+     "en": "Avoiding a new regional conflict removes geopolitical uncertainty from markets.",
+     "ar": "تجنب صراع إقليمي جديد يزيل عدم اليقين الجيوسياسي.",
+     "ru": "Избежание нового регионального конфликта снижает геополитическую неопределенность."
+    },
+    "name_i18n": {
+     "he": "קרן סל ספאיי - מניות אמריקאיות מובילות",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "صندوق مؤشر S&P 500",
+     "ru": "ETF широкого рынка SPY"
+    },
+    "price_at_alert": 752.69
+   }
+  ],
+  "id": "dcc4e443e889"
+ },
+ {
+  "ts": 1794272223,
+  "time": "2026-11-10T00:57Z",
+  "title": "משרד האוצר האמריקאי אוסר על פעילות בבורסת הקריפטו MEXC Global",
+  "summary": "משרד האוצר של ארה\"ב הטיל איסור על בורסת הקריפטו MEXC Global בגין עקיפת סנקציות.",
+  "kid": "ממשלת ארה\"ב סגרה את הפעילות של בורסת קריפטו גדולה כי היא עזרה לעקוף חוקים. זה גורם לזהירות בחברות קריפטו אחרות.",
+  "i18n": {
+   "title": {
+    "he": "משרד האוצר האמריקאי אוסר על פעילות בבורסת הקריפטו MEXC Global",
+    "en": "US Treasury bans MEXC Global crypto exchange over sanctions evasion",
+    "ar": "وزارة الخزانة الأمريكية تحظر بورصة العملات المشفرة MEXC Global",
+    "ru": "Минфин США запрещает криптовалютную биржу MEXC Global из-за обхода санкций"
+   },
+   "summary": {
+    "he": "משרד האוצר של ארה\"ב הטיל איסור על בורסת הקריפטו MEXC Global בגין עקיפת סנקציות.",
+    "en": "The US Treasury has banned the MEXC Global crypto exchange due to sanctions evasion violations.",
+    "ar": "حظرت وزارة الخزانة الأمريكية بورصة العملات المشفرة MEXC Global بسبب انتهاكات تهرب من العقوبات.",
+    "ru": "Минфин США запретил криптовалютную биржу MEXC Global за нарушение санкций."
+   },
+   "kid": {
+    "he": "ממשלת ארה\"ב סגרה את הפעילות של בורסת קריפטו גדולה כי היא עזרה לעקוף חוקים. זה גורם לזהירות בחברות קריפטו אחרות.",
+    "en": "The US government banned a big crypto exchange for breaking rules. This makes other crypto companies very careful.",
+    "ar": "حظرت الحكومة الأمريكية بورصة عملات مشفرة كبيرة لمخالفتها القواعد.",
+    "ru": "Правительство США запретило крупную криптобиржу за нарушение правил."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZnAyU2hBeTdIQmNwY3pXLXFUX1Z5cDU4NkJDbktza0ZYR04wUkM0SUNCOW40bGVOaG9FeVJFeUZKQ1BzVVJtZ1RMck5fWEJwRlpvVlBLX2dITWNfeWIzaGNZa0otRTVkR1dKal9aOUhnWU1EVWZkMGdVVVpHSlpkSTBNSTdNMkN2eEdzZkdEWHB3anVYUzNKSzRkYUsyZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794272223,
+    "reason": "הגברת אכיפת הרגולציה על זירות מטבעות דיגיטליים מעוררת חשש סקטוריאלי.",
+    "reason_i18n": {
+     "he": "הגברת אכיפת הרגולציה על זירות מטבעות דיגיטליים מעוררת חשש סקטוריאלי.",
+     "en": "Increased regulatory enforcement on digital asset platforms creates sector headwinds.",
+     "ar": "زيادة إنفاذ التنظيم على منصات الأصول الرقمية تخلق رياحاً معاكسة للقطاع.",
+     "ru": "Ужесточение регулирования цифровых активов негативно влияет на сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל על ביטוי - סביבת קריפטו",
+     "en": "IBIT - Bitcoin ETF",
+     "ar": "صندوق بيتكوين المتداول",
+     "ru": "Биткоин ETF IBIT"
+    },
+    "price_at_alert": 42.32
+   }
+  ],
+  "id": "c7ebe9193fc7"
+ },
+ {
+  "ts": 1794272223,
+  "time": "2026-11-10T00:57Z",
+  "title": "קוסקו שיפינג מזמינה מכליות נפט בהיקף מיליארדי יואן",
+  "summary": "חברת הבת של COSCO Shipping Energy חתמה על עסקאות לחכירה ובנייה של מכליות נפט רבות (VLCC) בהיקף כולל של למעלה מ-23 מיליארד יואן.",
+  "kid": "ענקית הספנות קוסקו מזמינה ומשכירה הרבה מכליות ענק לנפט. זה מראה על ביקוש גבוה להובלת אנרגיה ויכול להשפיע על חברות בניית ספינות וספנות.",
+  "i18n": {
+   "title": {
+    "he": "קוסקו שיפינג מזמינה מכליות נפט בהיקף מיליארדי יואן",
+    "en": "COSCO Shipping orders tankers in multi-billion yuan deals",
+    "ar": "كوسكو لشحن الطاقة تطلب ناقلات صفقات بمليارات اليوانات",
+    "ru": "COSCO Shipping заказывает танкеры на миллиарды юаней"
+   },
+   "summary": {
+    "he": "חברת הבת של COSCO Shipping Energy חתמה על עסקאות לחכירה ובנייה של מכליות נפט רבות (VLCC) בהיקף כולל של למעלה מ-23 מיליארד יואן.",
+    "en": "COSCO Shipping Energy subsidiaries have agreed to charter 14 VLCC tankers and build six new ones in deals totalling over 23 billion yuan.",
+    "ar": "وافقت الشركات التابعة لشركة COSCO Shipping Energy على استئجار وبناء ناقلات نفط عملاقة بقيمة إجمالية تتجاوز 23 مليار يوان.",
+    "ru": "Дочерние компании COSCO Shipping Energy договорились об аренде и строительстве нефтяных танкеров на сумму более 23 млрд юаней."
+   },
+   "kid": {
+    "he": "ענקית הספנות קוסקו מזמינה ומשכירה הרבה מכליות ענק לנפט. זה מראה על ביקוש גבוה להובלת אנרגיה ויכול להשפיע על חברות בניית ספינות וספנות.",
+    "en": "Shipping giant COSCO is ordering and leasing many huge oil tankers. This shows strong demand for energy transport and impacts shipping firms.",
+    "ar": "تطلب عملاق الشحن كوسكو وتستأجر العديد من ناقلات النفط الضخمة، مما يعكس طلباً قوياً على نقل الطاقة.",
+    "ru": "Судоходный гигант COSCO заказывает и арендует множество нефтяных танкеров, что указывает на высокий спрос на энергоносители."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU2lEZm1CcWlOZzVSVi1fV0Jvd2J1T0J1WHhSdFNhNk1yUXlCMGRmeDlHVVJUeXRzYklJYThJWnBUblA3SDdJUVJoZ213c2djNU8xWi1DdVV5TGVLWHBIYXYtX2RwVDNEbmx1T3lHUGxWdjVOVWIxazJVd0U0b3o0NTVZT2dMLVJjbndKaGV2aG9WMTJsX3NIUS1WRWFUTkt1Q0RqblR3c1ZaUDNLVURRVG9uQ1lFc2RaR0hEbEJvM3g3YzhIN3ZtOC01RFkyUQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNODdIVVVKa3MwSVpvdXJNRjBrQ0lLZjlyMkxnemJkU0p0NHp0d3pydGpCOV8tRDhkUmZIdEhWMEJQa1hYQXd6eEhnZlUwMC1SUnh3U2YwbHdvWlhFWlRtOC1xWTJMSnlZYXJ0eGdXZmZaZ3FJRU5obHVHNEtTTUVFeHY5U2dtem9KZ09fWm9BNFdLaERIbGc4YjBtQ2lBdHZXWWNidnY2bHFpbGdKcWc0M0MwcmJPSnAzMU9vNzFsMEJ6VGI4WXZESXVzSkU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794272223,
+    "reason": "השקעות ענק בענף הספנות והמכליות מעידות על תחזית חיובית לביקושים ימיים.",
+    "reason_i18n": {
+     "he": "השקעות ענק בענף הספנות והמכליות מעידות על תחזית חיובית לביקושים ימיים.",
+     "en": "Massive capital deployment in shipping points to robust long-term maritime demand.",
+     "ar": "تشير الاستفادة الضخمة في قطاع الشحن إلى طلب بحري قوي ومستدام.",
+     "ru": "Масштабные инвестиции в судоходство указывают на устойчивый долгосрочный спрос."
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות ימית",
+     "en": "ZIM - Marine shipping company",
+     "ar": "צים - شركة الشحن البحري",
+     "ru": "ZIM - морская судоходная компания"
+    },
+    "price_at_alert": 28.51
+   }
+  ],
+  "id": "a2ed2c724e01"
  }
 ]
