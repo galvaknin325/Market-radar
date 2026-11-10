@@ -1270,490 +1270,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "משרות פנויות בארה\"ב מזנקות מעבר לצפוי בספטמבר",
-  "summary": "לשכת הסטטיסטיקה דיווחה כי משרות פנויות בארה\"ב עלו ל-7.52 מיליון בספטמבר, מעל לתחזיות המוקדמות.",
-  "kid": "חברות באמריקה פתחו יותר משרות חדשות מהתחזיות. זה מראה שהכלכלה חזקה, ויכול להשפיע על החלטות הריבית של הבנק המרכזי.",
-  "i18n": {
-   "title": {
-    "en": "U.S. Job Openings Surge More Than Expected in September",
-    "he": "משרות פנויות בארה\"ב מזנקות מעבר לצפוי בספטמבר",
-    "ar": "الوظائف الشاغرة في الولايات المتحدة ترتفع بأكثر من المتوقع في سبتمبر",
-    "ru": "Число открытых вакансий в США в сентябре выросло сильнее ожиданий"
-   },
-   "summary": {
-    "en": "The BLS reported U.S. job openings rose to 7.52 million in September, beating consensus expectations and signaling labor market resilience.",
-    "he": "לשכת הסטטיסטיקה דיווחה כי משרות פנויות בארה\"ב עלו ל-7.52 מיליון בספטמבר, מעל לתחזיות המוקדמות.",
-    "ar": "أفادت وزارة العمل بأن الوظائف الشاغرة ارتفعت إلى 7.52 مليون في سبتمبر، متجاوزة توقعات السوق.",
-    "ru": "Бюро статистики труда сообщило, что число вакансий в США выросло в сентябре до 7,52 млн, превысив прогнозы."
-   },
-   "kid": {
-    "en": "Companies in America opened up more new jobs than experts thought. This shows the economy is still doing well, which can affect interest rate decisions by the Federal Reserve.",
-    "he": "חברות באמריקה פתחו יותר משרות חדשות מהתחזיות. זה מראה שהכלכלה חזקה, ויכול להשפיע על החלטות הריבית של הבנק המרכזי.",
-    "ar": "فتحت الشركات في أمريكا وظائف جديدة أكثر مما توقع الخبراء. هذا يوضح أن الاقتصاد قوي، مما قد يؤثر على قرارات أسعار الفائدة.",
-    "ru": "Американские компании открыли больше вакансий, чем ждали эксперты. Это показывает силу экономики и влияет на решения ФРС по ставкам."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC Economy",
-    "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "נתוני תעסוקה חזקים מעידים על חוסן כלכלי.",
-    "reason_i18n": {
-     "en": "Strong labor market data points to economic resilience.",
-     "he": "נתוני תעסוקה חזקים מעידים על חוסן כלכלי.",
-     "ar": "بيانات سوق العمل القوية تشير إلى مرونة الاقتصاد.",
-     "ru": "Сильные данные по рынку труда указывают на устойчивость экономики."
-    },
-    "name_i18n": {
-     "en": "SPY – SPDR S&P 500 ETF Trust",
-     "he": "קרן סל על מדד אס&פ 500",
-     "ar": "صندوق مؤشر إس آند بي 500",
-     "ru": "Фонд широкого рынка S&P 500"
-    },
-    "price_at_alert": 755.1,
-    "entry_price": 755.81,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 766.73,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.44,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.44,
-    "edge_pct": 1.44,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1793720959,
-    "reason": "משרות חזקות מקטינות את הציפייה להפחתות ריבית מהירות.",
-    "reason_i18n": {
-     "en": "Robust job openings reduce the urgency for aggressive Federal Reserve rate cuts.",
-     "he": "משרות חזקות מקטינות את הציפייה להפחתות ריבית מהירות.",
-     "ar": "الوظائف القوية تقلل من احتمالات خفض أسعار الفائدة السريع.",
-     "ru": "Сильный рынок труда снижает вероятность агрессивного снижения ставок ФРС."
-    },
-    "name_i18n": {
-     "en": "TLT – iShares 20+ Year Treasury Bond ETF",
-     "he": "קרן סל על אג\"ח ארוך טווח של ממשלת ארה\"ב",
-     "ar": "صندوق السندات الحكومية الأمريكية طويلة الأجل",
-     "ru": "Фонд длинных гособлигаций США"
-    },
-    "price_at_alert": 81.175,
-    "entry_price": 81.35,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 81.77,
-    "exit_date": "2026-11-04",
-    "change_pct": 0.52,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": -0.93,
-    "edge_pct": 0.93,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "8dea900ca3bd",
-  "evaluated": true
- },
- {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "דוקוסיין רוכשת את חברת הרכש מבוססת הבינה המלאכותית סופלארי",
-  "summary": "דוקוסיין רכשה את חברת הזינוק לרכש מבוסס בינה מלאכותית Suplari כדי להרחיב את פתרונות התוכנה העסקיים שלה, ללא חשיפת תנאי העסקה.",
-  "kid": "דוקוסיין קונה חברה קטנה שמשתמשת בבינה מלאכותית כדי לעזור לעסקים לקנות דברים בצורה חכמה. זה עשוי לעזור לדוקוסיין להגדיל את עסקיה.",
-  "i18n": {
-   "title": {
-    "en": "DocuSign Acquires AI-Native Procurement Firm Suplari",
-    "he": "דוקוסיין רוכשת את חברת הרכש מבוססת הבינה המלאכותית סופלארי",
-    "ar": "دوكوساين تستحوذ على شركة المشتريات المدعومة بالذكاء الاصطناعي Suplari",
-    "ru": "DocuSign приобретает ИИ-компанию в сфере закупок Suplari"
-   },
-   "summary": {
-    "en": "DocuSign has acquired AI-native procurement intelligence startup Suplari to expand its enterprise software offerings, with terms undisclosed.",
-    "he": "דוקוסיין רכשה את חברת הזינוק לרכש מבוסס בינה מלאכותית Suplari כדי להרחיב את פתרונות התוכנה העסקיים שלה, ללא חשיפת תנאי העסקה.",
-    "ar": "استحوذت دوكوساين على شركة Suplari الناشئة لذكاء المشتريات لتوسيع عروض برمجيات الشركات، دون الكشف عن الشروط.",
-    "ru": "DocuSign приобрела стартап Suplari в сфере интеллектуальных закупках на базе ИИ, условия сделки не разглашаются."
-   },
-   "kid": {
-    "en": "DocuSign is buying a smaller tech company that uses artificial intelligence to help businesses buy things better. This can help DocuSign grow its business software business.",
-    "he": "דוקוסיין קונה חברה קטנה שמשתמשת בבינה מלאכותית כדי לעזור לעסקים לקנות דברים בצורה חכמה. זה עשוי לעזור לדוקוסיין להגדיל את עסקיה.",
-    "ar": "تشتري دوكوساين شركة تقنية أصغر تستخدم الذكاء الاصطناعي لمساعدة الشركات على الشراء بشكل أفضل. هذا قد يساعد دوكوساين في نمو أعمالها.",
-    "ru": "DocuSign покупает небольшую технологическую компанию, использующую ИИ для помощи бизнесу в закупках. Это может помочь компании расширить ассортимент программ."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVo1U3ZzR2o4bkI2dzBOLXp0aW53bjEwS0V1UGNETjk3WTR4UTM1TEJzZjRZM05EcU5VS0loUkFBR1A1TVJDTEotQTE0Ykx5S1Y3bkVXVXNCN0ZzR2FGaGxPVVZjelczZ1VIeVRzRDRRcmN3cU5fbjAzRmE2Sy0yVWd4OFlDMl9vcndEMTNqNzdMWlo3MHNJYU1uRkM?oc=5"
-   },
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcTFWTnNYTnVRR2ZUb0VSc244MTdIcHhFNkxXWWRMdHg0WVJYbjZDOENrN0lqZDBZU2RPTnFNd3hCdFM0VUkzdHRsZ2ZQSVJCY3VSMkNlZjRnbmZIU0RTRk02TkprcFRHZDQ2QTdKWDRMTF9NQTlyeDNtM1ZxX2IwTFpUbzlxRGNjYXBpY0JMTGk2WUJ4QkxMOVZNR0g0ZmF3Q29TbVh4eXYzRUl5N1ZzdFJaRno1bk05RUE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "מיזוגים ורכישות בתוכנה מדגישים את צמיחת הסקטור הטכנולוגי.",
-    "reason_i18n": {
-     "en": "Software M&A activity highlights ongoing tech sector consolidation and growth initiatives.",
-     "he": "מיזוגים ורכישות בתוכנה מדגישים את צמיחת הסקטור הטכנולוגי.",
-     "ar": "نشاط الاندماج والاستحواذ في البرمجيات يبرز نمو قطاع التكنولوجيا.",
-     "ru": "Сделки M&A в сфере ПО подчеркивают консолидацию и рост технологического сектора."
-    },
-    "name_i18n": {
-     "en": "QQQ – Invesco QQQ Trust (Nasdaq 100)",
-     "he": "קרן סל על מניות נאסד\"ק 100",
-     "ar": "صندوق ناسداك 100",
-     "ru": "Фонд технологических акций Nasdaq 100"
-    },
-    "price_at_alert": 686.449,
-    "entry_price": 686.441,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 691.82,
-    "exit_date": "2026-11-04",
-    "change_pct": 0.78,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": -0.66,
-    "edge_pct": -0.66,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "a741ea892dfe",
-  "evaluated": true
- },
- {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "פגיעות טילים משביתו מתחם פלדה מרכזי באוקראינה",
-  "summary": "תקיפות טילים האחרונות אילצו את סגירתו של מתחם פלדה מרכזי באוקראינה, על רקע שיבושים באספקה והיעדר סיוע אמריקאי.",
-  "kid": "מפעל פלדה גדול באוקראינה נאלץ לסגור את שעריו בעקבות מתקפות טילים. זה עשוי לצמצם את היצע הפלדה ולהעלות את מחירי המתכות.",
-  "i18n": {
-   "title": {
-    "en": "Missile Strikes Shutter Major Ukrainian Steel Complex",
-    "he": "פגיעות טילים משביתו מתחם פלדה מרכזי באוקראינה",
-    "ar": "ضربات صاروخية توقف مجمع فولاذ رئيسي في أوكرانيا",
-    "ru": "Ракетные удары остановили крупный сталелитейный комплекс в Украине"
-   },
-   "summary": {
-    "en": "Recent missile strikes have forced the shutdown of a major steel complex in Ukraine, exacerbating supply disruptions amid stalled U.S. aid.",
-    "he": "תקיפות טילים האחרונות אילצו את סגירתו של מתחם פלדה מרכזי באוקראינה, על רקע שיבושים באספקה והיעדר סיוע אמריקאי.",
-    "ar": "أجبرت الضربات الصاروخية الأخيرة على إغلاق مجمع فولاذ رئيسي في أوكرانيا، مما فاقم اضطرابات الإمدادات.",
-    "ru": "Недавние ракетные удары заставили закрыть крупный сталелитейный комплекс в Украине, усилив перебои с поставками."
-   },
-   "kid": {
-    "en": "A big steel factory in Ukraine had to close down because of missile attacks. This can reduce steel supplies and push metal prices up.",
-    "he": "מפעל פלדה גדול באוקראינה נאלץ לסגור את שעריו בעקבות מתקפות טילים. זה עשוי לצמצם את היצע הפלדה ולהעלות את מחירי המתכות.",
-    "ar": "اضطر مصنع فولاذ كبير في أوكرانيا للإغلاق بسبب الهجمات الصاروخية. هذا قد يقلل إمدادات الفولاذ ويرفع الأسعار.",
-    "ru": "Крупный сталелитейный завод в Украине закрылся из-за ракетных ударов. Это может сократить предложение металла и поднять цены."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWkJWSk1FNnNsd19xNl9kRE5oa25JZTNNb3V4d1NtTlFBVW4xSmNtM0pURnNPalVYMm8yOWliRDZ4eS1LMnZsYzVOQTM1N0QxSlJzQ09EdU85RFdodGEwTGFwWEp3WF9ncWJSNHMxaG9ZTjJURlkxaHZuMFYwbXNXWDkxMzF1WmFJWWRqNU9WWG1FemdweVFNTlBRV3hmQ0xKakxVeDlYODFkcnJPVWxSWk1wclY5blZfT013QXNsdHhNT1hnWjBr?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLB",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "מגבלות היצע מסגירת מפעלי פלדה תומכות במחירי המתכות.",
-    "reason_i18n": {
-     "en": "Supply constraints from steel plant closures can support higher metal prices.",
-     "he": "מגבלות היצע מסגירת מפעלי פלדה תומכות במחירי המתכות.",
-     "ar": "قيود الإمدادات الناتجة عن إغلاق مصانع الفولاذ تدعم أسعار المعادن.",
-     "ru": "Ограничения поставок из-за закрытия заводов поддерживают цены на металлы."
-    },
-    "name_i18n": {
-     "en": "XLB – Materials Select Sector SPDR Fund",
-     "he": "קרן סל על סקטור החומרים בארה\"ب",
-     "ar": "صندوق قطاع المواد الأساسية الأمريكي",
-     "ru": "Фонд материалов США"
-    },
-    "price_at_alert": 52.985,
-    "entry_price": 52.8599,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 53.88,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.93,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": 0.49,
-    "edge_pct": 0.49,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "5847f4dab5b4",
-  "evaluated": true
- },
- {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "מיקוד המיזוגים והרכישות בכריית נחושת עובר לצ'ילה וארגנטינה לקראת 2027",
-  "summary": "אנליסטים בשוק מצביעים על צ'ילה וארגנטינה כיעדים מרכזיים לעסקאות מיזוג ורכישת מכרות נחושת לקראת 2027.",
-  "kid": "חברות כרייה בוחנות עסקאות רכישה בדרום אמריקה. מכיוון שנחושת נדרשת לטכנולוגיה ולאנרגיה ירוקה, זה עשוי לחזק את מניות המתכות.",
-  "i18n": {
-   "title": {
-    "en": "Copper Mining M&A Focus Shifts to Chile and Argentina for 2027",
-    "he": "מיקוד המיזוגים והרכישות בכריית נחושת עובר לצ'ילה וארגנטינה לקראת 2027",
-    "ar": "تركيز عمليات الاستحواذ على تعدين النحاس يتحول إلى شيلي والأرجنتين لعام 2027",
-    "ru": "Фокус M&A в добыче меди смещается на Чили и Аргентину в преддверии 2027 года"
-   },
-   "summary": {
-    "en": "Industry analysts highlight Chile and Argentina as prime hotspots for future copper mining M&A activity heading into 2027 amid high demand.",
-    "he": "אנליסטים בשוק מצביעים על צ'ילה וארגנטינה כיעדים מרכזיים לעסקאות מיזוג ורכישת מכרות נחושת לקראת 2027.",
-    "ar": "يشير محللو السوق إلى شيلي والأرجنتين كوجهات رئيسية لصفقات دمج الاستحواذ على مناجم النحاس نحو عام 2027.",
-    "ru": "Аналитики отмечают Чили и Аргентину как ключевые направления для будущих сделок M&A в медедобыче к 2027 году."
-   },
-   "kid": {
-    "en": "Mining companies are looking closely at South America to buy copper projects. Because copper is needed for green energy and technology, this can push copper stock prices up.",
-    "he": "חברות כרייה בוחנות עסקאות רכישה בדרום אמריקה. מכיוון שנחושת נדרשת לטכנולוגיה ולאנרגיה ירוקה, זה עשוי לחזק את מניות המתכות.",
-    "ar": "تدرس شركات التعدين صفقات استحواذ في أمريكا الجنوبية. نظراً لأن النحاس مطلوب للتكنولوجيا، قد ترتفع أسهم قطاع التعدين.",
-    "ru": "Горнодобывающие компании присматриваются к проектам в Южной Америке. Поскольку медь нужна для технологий, это может поддержать акции."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0Z5RlVGd0doRlZvaU83TjFfVTFfMHE1c2JzTmhuaFJUWGJOc1lSdFRidkVMS090ODBZNXpLaDdaaHlIM0hPMl9aYnFxVGxKN2J6TW1NMTdvSzFLczdJNWE2TDkzc0V5eXRqNkNoZ3A0NF9CYk42eU1xak4xVTJyTW9ELXBxWFhGcjdCazNtNHRHSVlMekRndjdPQzhXdXlRRmNNQXJfMUwzYkxHQzZPWjl1RQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "סביבת עסקאות פעילה בדרום אמריקה משפרת את הסנטימנט ליצרניות נחושת.",
-    "reason_i18n": {
-     "en": "Active deal-making environment in South America boosts sentiment for major copper producers.",
-     "he": "סביבת עסקאות פעילה בדרום אמריקה משפרת את הסנטימנט ליצרניות נחושת.",
-     "ar": "بيئة الصفقات النشطة في أمريكا الجنوبية تحسن معنويات منتجي النحاس.",
-     "ru": "Активная среда сделок в Южной Америке улучшает настроения для производителей меди."
-    },
-    "name_i18n": {
-     "en": "FCX – Freeport-McMoRan Inc.",
-     "he": "חברת הכרייה פריפורט-מקמואראן",
-     "ar": "شركة التعدين فريبورت-ماكموران",
-     "ru": "Горнодобывающая компания Freeport-McMoRan"
-    },
-    "price_at_alert": 61.985,
-    "entry_price": 61.481,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 62.62,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.85,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": 0.41,
-    "edge_pct": 0.41,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "עניין אסטרטגי בנחושת מדגיש ביקוש מבני חזק.",
-    "reason_i18n": {
-     "en": "Strategic interest in copper assets underscores strong structural demand.",
-     "he": "עניין אסטרטגי בנחושת מדגיש ביקוש מבני חזק.",
-     "ar": "الاهتمام الاستراتيجي بأصول النحاس يؤكد الطلب الهيكلي القوي.",
-     "ru": "Стратегический интерес к медным активам подчеркивает высокий структурный спрос."
-    },
-    "name_i18n": {
-     "en": "CPER – United States Copper Index Fund",
-     "he": "קרן סל על מחירי הנחושת",
-     "ar": "صندوق مؤشر النحاس الأمريكي",
-     "ru": "Биржевой фонд цен на медь"
-    },
-    "price_at_alert": 38.62,
-    "entry_price": 38.57,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 38.59,
-    "exit_date": "2026-11-04",
-    "change_pct": 0.05,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": -1.39,
-    "edge_pct": -1.39,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "dfc9848d42bc",
-  "evaluated": true
- },
- {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "צרפת משיקה ברית חדשה עם התעשייה לפיתוח רחפנים ימיים",
-  "summary": "ממשלת צרפת יזמה ברית ביטחונית חדשה עם התעשייה המקומית במטרה להאיץ פיתוח ופריסה של כטב\"מים ימיים.",
-  "kid": "ממשלת צרפת חוברת לחברות טכנולוגיה וביטחון כדי לייצר מהר רחפנים ימיים. זה עוזר לחברות ביטחוניות שמייצרות ציוד ימי מתקדם.",
-  "i18n": {
-   "title": {
-    "en": "France Launches New Naval Drone Defense Pact with Industry",
-    "he": "צרפת משיקה ברית חדשה עם התעשייה לפיתוח רחפנים ימיים",
-    "ar": "فرنسا تطلق معاهدة دفاعية جديدة مع الصناعة لتطوير الطائرات البحرية المسيرة",
-    "ru": "Франция запускает новый оборонный пакт с промышленностью по морским дронам"
-   },
-   "summary": {
-    "en": "The French government has initiated a new defense pact with local industry to accelerate the development and deployment of naval drones.",
-    "he": "ממשלת צרפת יזמה ברית ביטחונית חדשה עם התעשייה המקומית במטרה להאיץ פיתוח ופריסה של כטב\"מים ימיים.",
-    "ar": "أطلقت الحكومة الفرنسية معاهدة دفاعية جديدة مع الصناعة المحلية لتسريع تطوير ونشر الطائرات البحرية المسيرة.",
-    "ru": "Правительство Франции инициировало новый оборонный пакт с местной промышленностью для ускорения создания морских дронов."
-   },
-   "kid": {
-    "en": "The French government is teaming up with tech and defense companies to build sea drones quickly. This helps defense companies that make robotic boats and marine equipment.",
-    "he": "ממשלת צרפת חוברת לחברות טכנולוגיה וביטחון כדי לייצר מהר רחפנים ימיים. זה עוזר לחברות ביטחוניות שמייצרות ציוד ימי מתקדם.",
-    "ar": "تتعاون الحكومة الفرنسية مع شركات الدفاع لتصنيع طائرات بحرية مسيرة بسرعة. هذا يدعم شركات الدفاع التي تنتج المعدات البحرية.",
-    "ru": "Правительство Франции объединяется с оборонными компаниями для быстрого создания морских дронов. Это помогает оборонным фирмам."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Defense News",
-    "url": "https://www.defensenews.com/global/europe/2026/11/03/french-defense-minister-kicks-off-pact-with-industry-in-rush-to-field-naval-drones/"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "VGK",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "הגדלת יוזמות ההוצאה הביטחונית באירופה תומכת בחברות התעשייה.",
-    "reason_i18n": {
-     "en": "Increased European defense spending initiatives support regional industrial firms.",
-     "he": "הגדלת יוזמות ההוצאה הביטחונית באירופה תומכת בחברות התעשייה.",
-     "ar": "زيادة مبادرات الإنفاق الدفاعي في أوروبا تدعم الشركات الصناعية الإقليمية.",
-     "ru": "Рост европейских оборонных расходов поддерживает региональные промышленные фирмы."
-    },
-    "name_i18n": {
-     "en": "VGK – Vanguard FTSE Europe ETF",
-     "he": "קרן סל על שוק המניות האירופאי",
-     "ar": "صندوق الأسهم الأوروبية",
-     "ru": "Фонд европейских акций"
-    },
-    "price_at_alert": 87.965,
-    "entry_price": 87.815,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 90.24,
-    "exit_date": "2026-11-04",
-    "change_pct": 2.76,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": 1.32,
-    "edge_pct": 1.32,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "a3382a824cd4",
-  "evaluated": true
- },
- {
-  "ts": 1793720959,
-  "time": "2026-11-03T15:49Z",
-  "title": "מיזם משותף של ABM זכה בחוזה רשת זעירה עבור צבא ארה\"ב",
-  "summary": "מיזם משותף של חברת ABM זכה בחוזה מצבא ארה\"ב להקמת מערכת רשת זעירה (מיקרוגריד) בבסיס ווייט סנדס.",
-  "kid": "חברת ABM זכתה בחוזה ממשלתי רשמי להקמת רשת חשמל מיוחדת עבור צבא ארה\"ב. זכייה בחוזים כאלה מכניסה כסף יציב לחברה.",
-  "i18n": {
-   "title": {
-    "en": "ABM Joint Venture Awarded U.S. Army Microgrid Contract",
-    "he": "מיזם משותף של ABM זכה בחוזה רשת זעירה עבור צבא ארה\"ב",
-    "ar": "مشروع مشترك لشركة ABM يفوز بعقد شبكة مصغرة للجيش الأمريكي",
-    "ru": "Совместное предприятие ABM получило контракт армии США на микросеть"
-   },
-   "summary": {
-    "en": "An ABM joint venture has secured a U.S. Army contract to construct a microgrid system at the White Sands Missile Range.",
-    "he": "מיזם משותף של חברת ABM זכה בחוזה מצבא ארה\"ב להקמת מערכת רשת זעירה (מיקרוגריד) בבסיס ווייט סנדס.",
-    "ar": "فاز مشروع مشترك لشركة ABM بعقد من الجيش الأمريكي لبناء نظام شبكة مصغرة في قاعدة وايت ساندز.",
-    "ru": "Совместное предприятие ABM заключило контракт с армией США на строительство системы микросети на полигоне Уайт-Сэндс."
-   },
-   "kid": {
-    "en": "ABM won an official government contract to build a special power grid for the US Army. Winning government contracts brings steady money to the company.",
-    "he": "חברת ABM זכתה בחוזה ממשלתי רשמי להקמת רשת חשמל מיוחדת עבור צבא ארה\"ב. זכייה בחוזים כאלה מכניסה כסף יציב לחברה.",
-    "ar": "فازت شركة ABM بعقد حكومي رسمي لبناء شبكة كهرباء خاصة للجيش الأمريكي. الفوز بالعقود الحكومية يجلب دخلاً ثابتاً للشركة.",
-    "ru": "Компания ABM выиграла правительственный контракт на создание специальной электросети для армии США. Это приносит стабильный доход."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTVaWFdLcTJrWmFRTDBnTU5LcW1MMUVkNVlFcUhEUDFtbFJPUC1aRkY5N2xueGZ5NG9aczlJQk1kOEVRTXY3WEhiZEwtYUZCNGVqcURpamRaNnBIUFVULUFnNE9mR1l3Y1pPMTd3T1Q3RTNBY1FCbXFQM1FsVC1aS1M4R2o3NVpieElRS2x2M1FxMmR4ZHVxY2VtX3MtSTMwczdxZ0lBaWpQYVFfZDRWN1Q3aE9uaTVzS0UtUUgtZlhGdXhDa3c?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793720959,
-    "reason": "חוזמי תשתיות ביטחוניים מחזקים את צפי ההכנסות בסקטור.",
-    "reason_i18n": {
-     "en": "Defense-related infrastructure contracts bolster sector revenue visibility.",
-     "he": "חוזמי תשתיות ביטחוניים מחזקים את צפי ההכנסות בסקטור.",
-     "ar": "عقود البنية التحتية الدفاعية تعزز توقعات إيرادات القطاع.",
-     "ru": "Оборонные инфраструктурные контракты укрепляют прогнозы доходов сектора."
-    },
-    "name_i18n": {
-     "en": "ITA – iShares U.S. Aerospace & Defense ETF",
-     "he": "קרן סל על הביטחון והתעופה האמריקאית",
-     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "Фонд аэрокосмического и оборонного сектора США"
-    },
-    "price_at_alert": 218.255,
-    "entry_price": 218.445,
-    "entry_time": "2026-11-03T16:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.61,
-    "bench": "SPY",
-    "bench_change_pct": 1.44,
-    "excess_pct": -4.05,
-    "edge_pct": -4.05,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "18d5467fed4f",
-  "evaluated": true
- },
- {
   "ts": 1793723885,
   "time": "2026-11-03T16:38Z",
   "title": "הבנק המרכזי של קנדה מאותת על צעדי ריבית נוספים בעקבות לחצי אינפלציה ועליית מחירי האנרגיה",
@@ -45669,18 +45185,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUZPNDRjMk1VQzFmelZzWk1YMHVieHYzaFgxS0JFbW9LM0k5SWVhSDVSWHRoMWxSUVRkU2tydDZ0QzZWdm04NGlGRUhwQlNpa0FwWG9HelRVWXpER3ltWFRycWkwV0FBbDNveWpRbEhiTXIyWWxrVkRNdkx6dm1MdWpFZkNaSldHeWRCTUQwc1E1UTZ3S0FMWnlCOHJwUF9GYkE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONVhnTGNwNUpwMXBnQWMxWG5ET24wM0E4azBKMlk1VmNLQjVGODlSdGxfZUFodDNpYVBHYWdoY3AyeTlXYlJkSHlwSGlkMjZaWVVJZ2hJQ2M0ZUt0T0VQc18waEp1Qlc1blZERTJ4VUduYmxWR1N1elRpZ3NGeVBVVGgwVE00VmFSWjlPZ0dUMDU4MnhhVERsX1RJM0xSNnBlM2pZaG5pX0F5NmVmWHluX1ZIMms0VUZKcU1xbzU0Qk1GMXZFc0hDVHJIaEFhTHBiMXNHdVp4Wkh2WTlTVzQ5M19EMzVRcHFTVjJxS1FlLXRSYU9PLVppd25IVENfS3MyR2MzZ0hoSkQ4MXlxQWJyWDJ3c1FHZw?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV1BIT3ctNUJPblFLakgyX05MRDdWc3dNMllfZmpUbVZ5Y21uV0tQRTV2UDZDU0xCWWlHLVc4SXFrbHROTkFnYnhtUDFITEpMazZabnNvT29MNEVhUWx6NEE0cWY5SE5laC1ZTmNWVmFiUDJmV0xOdUJoQW1aNzU5d3ZDR1RHSHRMa1ptNW1kMzNMUlZFSG9rcmlTU2tQMlNpOW5aYm43Qmlzc0djVmxvY1FRQ21YSU5xTVh0MjZTdw?oc=5"
    },
@@ -45691,6 +45195,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zZENJa3BKT0szdjlKcHZzUzJsR3hQNnZ2WVZxNnFSbm92akphNFM0MGFFbjV2WUVjdF9yMERSYU9tbzFiLW1hWF9rdGdzQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZGJDOFZ0S1ZwSzZna21ZZk9GOWp4Zl9rNU5jZm43emNQQ3RaSncwTWhMak80WnY5dGlFNkJzV1lOX3ZKY1dWVTdncnZoQ0JqRkVUc09hN3I1NlZPN1BTdU05RVBuV243LVd4WkotNHZDWDBTWlM0ZzhaRC1VUjNWWnZHQm9ZWVNtcWI0RnJwbU5sSzJXOXljeXQ2Q0x2Wl84cXpEdQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSTVQQVAzenhrbTQxX2tEYjdvNzFwcU5vLXhBUEZWY0kyWEpMbkhPRXY5Yk5XNjRCTDFUN3JFT1FJS1VpVzdZbFd2LUZBSlQyS0pCM3I2R203cklKQlFPWmpvbUhrVGpIWUkwWF9uLXc3bmdVeEZ6dE5hZ09OVkhFalNQOFRKLWY5UWlXT0pvN0FuYnVvT3BVeHlZVWV1Y2lBWUZHWHhvSEhfQnpFbC1wOG1Sa0k4aUdIOHQ5cGVmdGxmSXA3ZkJWdXY5SzVxNzFFMEE?oc=5"
    }
   ],
   "impacts": [
@@ -45839,9 +45355,21 @@
      "ar": "الرئيس ترامب صرح بأن الحرب مع إيران تبدو وكأنها تنتهي قريباً وأشار إلى دعم دول الخليج لحصار بحري.",
      "ru": "Президент Трамп заявил, что конфликт с Ираном близится к завершению, и сообщил о поддержке морской блокады странами Персидского залива."
     }
+   },
+   {
+    "ts": 1794328416,
+    "time": "2026-11-10T16:33Z",
+    "severity": 6,
+    "summary": "דיווחים על תקיפת אונייה במים האזוריים של איחוד האמירויות ומניעת נחיתת מטוס איראני עקב סנקציות אמריקאיות, לצד דרישות להבטחת חופש השיبح במיצר הורמוז.",
+    "i18n": {
+     "he": "דיווחים על תקיפת אונייה במים האזוריים של איחוד האמירויות ומניעת נחיתת מטוס איראני עקב סנקציות אמריקאיות, לצד דרישות להבטחת חופש השיبح במיצר הורמוז.",
+     "en": "Reports of a ship attacked in UAE waters and an Iranian team's plane denied landing due to U.S. sanctions, alongside demands for unimpeded Hormuz shipping.",
+     "ar": "تقارير عن تعرض سفينة للهجوم في مياه الإمارات ومنع طائرة إيرانية من الهبوط بسبب العقوبات الأمريكية، إلى جانب مطالبات بضمان حرية الملاحة في هرمز.",
+     "ru": "Сообщения о нападении на судно в водах ОАЭ и запрете на посадку самолета с иранской сборной из-за санкций США, а также призывы к свободному судоходству в Ормузе."
+    }
    }
   ],
-  "last_update": 1794296787
+  "last_update": 1794328416
  },
  {
   "ts": 1794272223,
@@ -48533,27 +48061,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa0JhOWFodE9fMUh4WnFHaTNBbmFtaDNIallfMktpLVcwRGg5SkVHX0NQUlF1eUVPSUJ2RlZwM2NSZjBZa1JiLWJCc09RY0w5b2NSSWJvWXM0OWJWWVJ5WHZNa3ZVc3lodjAwR0tMc0UwVXNROGk0ZmpRamRER0M2ZFhWWVF4a0ZYZUMyT1YtalpMSF9FejB3TV9iX194dkV0d19GRnRhUTdsbUJWN3FGYw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnF4LXZvakZGX18zTFpVbDhFeDVYVkJWVnBTYUtTZjdNX1BwR293VHhLUHMwOVljQ2M3eWpzOXpWN3BhQ1R3SGluMHNJaDJpMEc3aTBXNjFQbWtTQnFNZ191SmdvM21iTXFaU3BFbUpPc3BWZGJVZUF2S3VkaFg3aGRWUXJqTXg1eWlvU3dSc1pwVUtrU044R0U1Uml3Wks0T05uS0I1MnJPZXJMMlJYSDNES2llR2JsTm9ZLTBVWXFaR3NocEFOTUdmU0V0QXdGczZqWDh3?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb2Njb0kwdEIzd3p1WE42bXNyaC0wZkFDdm4tWEotTHNFZkdTM1RpVkwtdWxmNHZ4aW9USkhkRFBPT0VBeG1EcWJOOTNMVjhVa2M0V25qWTdpdV9NMFUtV18xM0JTZ0I5ZHdVbjZsUGpuazg4VmFtb0ZLTVdLSFZqUEo3Z01XaUstb2xYM1pZb0RWN2U1eUxKemhwSlBhdnc3Zk1fbTdnN2JMLWVNLVQ3aGJId01SeFdaMUhyY3dFSjJnaFNLM0JzLXJyUWdhSUJ4Y0lzcEJNdVFsNUdzT2Rv?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRGdFSnFYY2tEQlBmbTR3OWdPaU1vOHhMb01qRzdmSENSSFR1enplYkpxZFFmRUpnOHBkNUtVaG03UnQwMHRKOVZpd2dGQzFhRFpUNGlJZlBCcW1LZ0xwcUJoaUc4eElIMXdZRGxfTk9zY092V0g1c3NBNkNkRnhYcDRqamctRU5QVk95LVZJMWYtWG55S3M5Rkc2eDdiWnBsSWF2TFFUOEFmbjNnV2VhV1o3UjJrdWxDUm9BeHRiNkhoem1PeHFnV0xuU2Z2TlhLYzdn?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQ2Z3ZGd5RnFuc25uaUhiREVJRDliOG9LMVZIVW1vanhhWDRWcVRBdV9qQnhvdGs3ZDhNU2ZXZmhfSDF2UWRYUm11MEsxTHN5R2pyNE5IaVAyNXhLczdjNktiR2dUOFNLY2x4MkdLRFM4cThSOFJyVUNSVm9JcmdqWk1yNDA3SmoyZ0JaSlctYjdkdFZXUzRwMnhCekhPM0IwLXhKdThzbnBNeE1vbDhSR2pqNHo1VFhwWnlxQWNOX0RBNWo1TUFTVTk0NHdnUnVNQnlmV3pzNjdCX2ppTlM3S0hNWE1TVl9wUnhERWJB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXVKNll2bkFUUU5EVDg4eTF6a3YwZ0pIS0d4bGFTdkItMkl3SkFCbGRiZFdzSmlidHZZN3I1YzF1VkVXYlM0dDJrRlRPeDRGYXp6cVBuRGVjbl9vNWxrdlRYLTl4NTRxMnRFcGtuOUROekFvUUsxdTE1R3IwWmRKRVlUVFpFTlY0WXNlWTZTa1hIdmV1?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYmlqVFg5SjdMS1FJV3FsZzNtTDRNZ1E2ZV9vZVZLeGpwV2xvVUxOc3Y2VTE5dEJObWxsVUl2emRjQ1ROTC03YWxKOVZrYVk1bjlaY2drNUp0ZG5HSDRiaGZrS0JNdnhadDltUTZ2U3FhR3FtdlVybkU5NWpjc1R4ak95dDBQZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTDlmaUVNaERBOEN6dmhReVA2a3F0Mk5KejZJWEQ1UnItSVAyTng4TUxlaThhdWNmMzQ0X25IS1FRd1NQRDZIdWVJOTRjRDB4SFk2VmNiNjB4c0FmN0RZczYtNjBEYUZsbk1JbXZPTHdkQ2tYeXN3cG80WEl2NGVyajhWNXQwN1h1dWlSQTdDNFd3ZmFjRlVGYXJUQTY1MUF0NFZhaTFSSXQ1Z1IxVFY4dFRfU1l0dlZ1Z1A4NkNn?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT3E1cENvS0llMVhqSFJMNEJINTFEbkNINmFyV2ZwdUlYY3pVWUdtTG1iQnRXS1J5TllpNExsVDZjSDNmU3pPdUllUE5wdGVLcUxRc1QtajVtWWJYQ1Q3MWNBMWY4eGxzdHowVGR2c285MFcxM053Zmd3ZDM2UDhaMTZJaGdGZ1Y0aENlUHpWcVRuTG5FRXNwRk00TQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX1VGT3BQTU5rX2lPclpINmtHVkJuQVAxMGFmY2pGdUlwTWQ4QVBJMWtnU3l5SVMzUlZnUXNLRGdDYlIwTEZ1U0NjY1ZSMGtQTUNTcjdTdDFydUw5c2t4TnJXa2xHNnBocUVUNUxZb1djQUlRZTI5cEhUMWZQS19qaFpVT2tESFFPSzQtY3hqM3ZxZnFPRVpGZlBSdzA2cjRpOG9MYzQzSQ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTmVZWjFqWGxYQTNPZ25EYTFpb0FkemkyX0F6ZUhQa0RubjRKR25Hb2ZCSDBLLXUxRld1a19LTVU1Z2dZeEZXTWxTay0ySzRValN2QjY4bGxuU2FpVkozVzlzSElMejY1TWc1dWZYSXM0RTUtdEdtOEZHVWhyaE50N0FQV2pWMHF6R19aczJ3VUo1dlJwOW80Z0w4ckkwZVZWTjFKNmhSdk9TeTFsOFpwZTdnaGZad0F6aGxienZ5aWZfdHlQc0FuV2FoSkhMd1U?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWRvYS1rSjdxS2VyaG9CSjFpQjNMSTAtZ0czS1Vlb1MydW1xa2V2eG5iOHUyN0k2RThVVDhWeURPX2JYdFd0RWdZdEtDQ0NJMHJCYmw0T3JSeWdpd0x5RWdIbFVrZXdrMV81WkFzNTRIaHloMEh6REtZTS1EME1QZ2E4X2FkblJCUS1xdkVhdVREa29TQ2w5ZHh0M2p2M2hwa1MzODRsaExxVE9iMXJPS19OS0VJbEVqV2c?oc=5"
    }
   ],
   "impacts": [
@@ -48678,9 +48206,21 @@
      "ar": "جاءت بيانات التضخم في الولايات المتحدة لشهر أكتوبر أعلى من المتوقع مع ارتفاع واسع النطاق في الأسهم، مما أدى إلى تراجع وول ستريت وزيادة المخاوف بشأن رفع الفائدة.",
      "ru": "Инфляция потребительских цен в США за октябрь превысила прогнозы на фоне широкого роста цен, что привело к падению Уолл-стрит и усилило опасения по поводу повышения ставок ФРС."
     }
+   },
+   {
+    "ts": 1794328416,
+    "time": "2026-11-10T16:33Z",
+    "severity": 8,
+    "summary": "מדד המחירים לצרכן בארה\"ב באוקטובר עלה ב-0.4%, מעבר לתחזיות, מה שהוביל לירידות בשווקים ולציפיות גוברות להעלאת ריבית נוספת מצד הפדרל ריזרב.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן בארה\"ב באוקטובר עלה ב-0.4%, מעבר לתחזיות, מה שהוביל לירידות בשווקים ולציפיות גוברות להעלאת ריבית נוספת מצד הפדרל ריזרב.",
+     "en": "The US consumer price index rose 0.4% in October, beating forecasts and triggering market declines alongside growing expectations for a Federal Reserve rate hike.",
+     "ar": "ارتفع مؤشر أسعار المستهلكين في الولايات المتحدة بنسبة 0.4% في أكتوبر، متجاوزاً التوقعات ومما أدى إلى تراجع الأسواق وسط تزايد التوقعات برفع الفائدة من قبل الفيدرالي.",
+     "ru": "Индекс потребительских цен в США вырос на 0,4% в октябре, превысив прогнозы и вызвав падение рынков на фоне роста ожиданий повышения ставки ФРС."
+    }
    }
   ],
-  "last_update": 1794325584
+  "last_update": 1794328416
  },
  {
   "ts": 1794322534,
