@@ -50200,12 +50200,20 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rRW5TVnNpLW42UU1OZ3BhcmpETUw1dzBvams0akp5U294cENaUDNvVUE5NkotaWVpNG14Sm1UbEl1NngwWnVCTlFIR2R3bjJaYXowb0NkNHpyVjJaMmRfSkFVQ05FSmFNRWdzVzZUamVSSFVDa09NeXlVbHU?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZjg2WVRMaDY3WXNfcy0xRzl3TXdpdUh0VngxckJBNHVTWDJ5UGY4ZG84Zk8yRjBSdTRJS2JDNXVQdWJ6N0VlRHdyaFBWQzRyWGJVRkJnb0gtRHg0d2hJM0RLRDk1b3h2WDNTWGdGdDNjTmZoYUlQVHJTVzFiMkY0QVZsUHU0MUhf?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlR0N0VyZmpweTVyTllocWtjTkRta21xVG53X3lPeVdZX25BdDVxTE9tMWhvQ3RTQU5xaU4xYWhHX0FfNlQ1ODVjT0ZkWXN5WlNUbVNPVDJzZVlGME4wX0Z3Rk45dUYxbERoc0s4TkI1dDRmLTRtTXdReVhsRnhvbzdwNndsNTVULUVFMzlTYW81S1JJakZ2S0JxVmhpZEc3dEotV1BpaU91NUpvOWgwcWctdWQ?oc=5"
    }
   ],
   "impacts": [
@@ -50227,9 +50235,43 @@
      "ru": "ETF широкого рынка S&P 500"
     },
     "price_at_alert": 735.29
+   },
+   {
+    "ticker": "FXI",
+    "direction": "up",
+    "t0": 1794292029,
+    "reason": "הקלה במתיחות הסחר תומכת בשווקים בסין",
+    "reason_i18n": {
+     "he": "הקלה במתיחות הסחר תומכת בשווקים בסין",
+     "en": "Easing trade tension supports Chinese markets",
+     "ar": "خفيف توتر التجارة يدعم الأسواق الصينية",
+     "ru": "Ослабление торговой напряженности поддерживает рынки Китая"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות סין הגדולות",
+     "en": "China Large-Cap ETF",
+     "ar": "صندوق استثمار الأسهم الصينية الكبرى",
+     "ru": "ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.66
    }
   ],
-  "id": "ad78ab1ff4bf"
+  "id": "ad78ab1ff4bf",
+  "updates": [
+   {
+    "ts": 1794292029,
+    "time": "2026-11-10T06:27Z",
+    "severity": 6,
+    "summary": "סין הודיעה על הארכת השעיית המכסים הנוספים על יבוא מארה\"ב והגבלות על מתכות נדירות בחודשיים נוספים.",
+    "i18n": {
+     "he": "סין הודיעה על הארכת השעיית המכסים הנוספים על יבוא מארה\"ב והגבלות על מתכות נדירות בחודשיים נוספים.",
+     "en": "China has extended the suspension of additional tariffs on US imports and rare-earth restrictions for another two months.",
+     "ar": "مددت الصين تعليق الرسوم الجمركية الإضافية على الواردات الأمريكية القيود المفروضة على العناصر الأرضية النادرة لشهرين آخرين.",
+     "ru": "Китай продлил приостановку дополнительных пошлин на импорт из США и ограничений на редкоземельные металлы еще на два месяца."
+    }
+   }
+  ],
+  "last_update": 1794292029
  },
  {
   "ts": 1794224360,
@@ -52880,18 +52922,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPeHNsSndrTS1VMEJlUDdiSm1YR3VoanJLaWVWZThzQ295eUZCT3ljZnVwMzBGNG5VMGJXWUxNbmZTT0dvRnBtV3VDZDd2QUZqbE9GeGZCN2NrQUJIT2lCdjdLMFkxUzJsYTJvWWFDM3hRZlA5aXc?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZkp4b3p5bFNERWM3SVUzVVg5dW5tY2NFZGFhYkZlQy1XeGtjRGFLeFQ3ZFNVUDlCOUZKMTFCbElfSHpNcVZwOXFWMDNERjU3TV85UnlxVEdlbW12TnFyZzYyMnI3ZkpFb2M3RDM3TGI3TVJpXzRwRE9MazRrM3FBMVNWTUJ1OERpZUlvT3d4TzRWYXNqWm84NjhsbnN0NkxNY05SSHNCSGdxd1dsWUhGcFJFSUxUUWFRNy1BMw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRVdVUU1kVlc0UjNONHFacTJlZ3prSXY5NzJHS1Rsb0Jubkd4OUVNdjE0N1M4V0Iyb1pCRzkwUElfWUNUWll5Z1hYd2htZ1ZMSUE5c0xhejl6WmJ3M3JzZlFiX2hCdzB1bzJBTlhpWXhUbjlseXlQMU9QcF83aWYwcERVUURXMU13X2lObTFxVVVLOW03Q0ZhM1FSQ0VqU0FpOGU4cmRUdDNMU2FhN2JtWjh5bjFjWjROWXRvZHFKQUdMckpHQ3RQcUFyRlg0T2FVY0J3a0hvTGEyUlJyTTA4ZzZxekE?oc=5"
-   },
-   {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVl6VE42Um1mWFNKalFTcTVEa3d2UWZ6NlRrVlZGN2twbmRZQ3BBYkFXcmpWRDJoWEdOQW9obHZqVV96cThTUEs2RHdtbHRqZ2pkMGNlTnBMMm1WdGJHeVdyYVU5QzR6M1cxR202TlFxOHEtdjVGVkVMMHMyb1lJaDJ2azQ5QQ?oc=5"
    },
@@ -52902,6 +52932,18 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaEtiLW42aDZBTWQtbFdSNVpTbl9SNENPQWEyN2w1Wm9UZC14cnFudkwtU2N6aW1DWWlpei1NTWU0VVdSTW5XZkFnV211anZucWdLU05aM0piZGszcm9EZktPSUFHU1pHQm1XNTg2NjN6akw2UFJkc1Z3WkUzMUtKRVIta05jamxXUWpwdFY0bm5MLWRmT0HSAZYBQVVfeXFMUFNYWjF0Sm8zQ1I2aG1FVFZFVXQzdDlOaFk4bjlkUnBSVG9fUXlDNk5MeXpIcGotVWpUMG9jWnJSNlB2bEdXMkhOMlJCdnY0MnlpXzZEUGtSTm5MSHQ5cjRraGt5ODg3bE5GVlVuakNMRGpPS2swdzFHcDA5cE8xQ1dlbjF3Z1hUOE9oQ0FhQldoV0RvOXRR?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUHN4NEhWSUZRYS1sbFlpWGNEbHB6NWdHWndLcVFmeWtPSkw5UUxjN3pmb1lEYUhMZ2pWOVpsVlpZQjlYWENuQmtOSWtTbDJDRWNxVW9abUk0YV9sRkFaWEF0LWR1OGJGU0NMM2pZd3NpU0dyMlp6b28zRzc4OEt2UWFjaWhPUDRLT21wN0p4Y0dqRDd2RzFpZTd2SnVFZ3psS0xBV1RaeERHbU1iaXBHMmJVRVg?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUW9LSlQ3eVVHblE5b1dWVkRLeEstZEpZWjRDT19MRl9vcVJyemk2Tjc2WlFqNUVObGlUMTZCMEJ2MlRyeGhxX0hrR25jbVRLWGtCNVBqSVNDV2pEUUJjZm5TalYwVUxhV2RBQS1HT1VXTU5IV2lZbzRoX2xaMmRGNENQYktxSE04SGdDanVHZjFSVm95eVB1NndnNkVjR0NubE5aaVVScXBiNnloVUhoQ253eDlha0lYc0dtRjNpbWlUcVdUSTdneUF0WG45TWc?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOblZudUl1Rll1dTA5XzFWUndyVk9tSHZCZ2FPbFVEVFI1bDhncFFvMEJHSnl4MTlxWjZGbmNUcjRzeG1MMkpINkQwNVQwdTRWNDdVenNfUGlSZUloUlg1LUMxS3R4WkdJSi00UzRILV9Xa1JERS1MWDRHMEJRa2RyUW4tS19Qc3VRM0tkX0VEbXNHbExZYnlPSUQ0UzVRQXljOXRuVXdJdnVJVTh3SkJkNV9GMjBXVm1IU3o2NXdsWnoyd3hraHdWSg?oc=5"
    }
   ],
   "impacts": [
@@ -52981,9 +53023,21 @@
      "ar": "حمّلت فرنسا إيران مسؤولية اختراق 700 موقع تجاري وأنظمة تبريد في المتاجر الكبرى مما أدى إلى حرائق وخسائر في الأغذية، بينما انتقد مشرعون أمريكيون الحرس الثوري.",
      "ru": "Франция обвинила Иран во взломе 700 торговых сайтов и систем охлаждения супермаркетов, вызвавшем пожары и потерю продуктов, а американские законодатели жестко осудили КСИР."
     }
+   },
+   {
+    "ts": 1794292029,
+    "time": "2026-11-10T06:27Z",
+    "severity": 5,
+    "summary": "רשויות בצרפת האשימו רשמית יחידה של משמרות המהפכה באיראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של כ-700 סופרמרקטים.",
+    "i18n": {
+     "he": "רשויות בצרפת האשימו רשמית יחידה של משמרות המהפכה באיראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של כ-700 סופרמרקטים.",
+     "en": "French authorities have officially accused an Iranian Revolutionary Guards unit of orchestrating a massive cyberattack affecting refrigeration systems in about 700 supermarkets.",
+     "ar": "اتهمت السلطات الفرنسية رسميا وحدة من الحرس الثوري الإيراني بتدبير هجوم سيبراني واسع النطاق أثر على أنظمة التبريد في نحو 700 متجر.",
+     "ru": "Французские власти официально обвинили подразделение Корпуса стражей исламской революции Ирана в организации масштабной кибератаки на холодильные системы примерно 700 супермаркетов."
+    }
    }
   ],
-  "last_update": 1794278881
+  "last_update": 1794292029
  },
  {
   "ts": 1794250359,
@@ -54568,10 +54622,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDFrbm1IMk5rWC1iZkJVSUhlWlRwLXdnZHNPMGlfU2lNTm5HelFDYmg2TGRzMkxTZm16REwwcEZYOTR6QzVFY09ZRXc1Zno3M2I1Qzh0WndDeV93blBieXlBQTJFU1lZUmMwMVR2T3dzcW0wTU45VGxCVlIwTl9LTWZhQkdDUUFlTl82eHFtYl9PRDhzLUotMDc2WXpyVmFERkNCYXp1WFlJZnM4U2dfTjNB?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHRaQVU4QWpBdnlOQzZ3TTlnVlRiRFh5dWc0UFZPTEpqc1RGVTVHc2taSkdrWWhlNFF2LUNMMGRONWY1d3ZMZDdTSWtCWHUyaHZyNVdLZkpZbThib2dhRXhQVDNXX09OaWpRNUdxbWZVWXN0VWI0akh2MFUtX2NnLXAwZlJyVk14eENwZUN3WGJGT0VtVzU4SnZBXzZNYzFtT3JTSUVtZw?oc=5"
    },
    {
@@ -54585,6 +54635,14 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRGRlb0o2WThnS3FPWUxkYm90bHhPcWxLUkp0NjJRUHRicU5lVkFPNk1OQmVpWEprSU9DZnNyMm9ZUjFPSnhNeTJwOFJncVJrZUZzOENVQ3NYd0hLOTduSTJUa1Q0NWlGMmt1UkdxVU9WVFhPUWpINGVuNWZKcjJ1WlREZUE3TkY1NUQ3N2dBTjdPZGllZE1YcGdTZ29hYUdrYWxNd2pUV3dIUWJCSFlLV084alRlQjJrR29fb1NuMUN2VXAxVTZQaXlBNEVmU3NneGJqck9MSWNBdDI0NzcxOUZtUVBYdnNnT2VuUA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LOWVnZEs3UE9kSVVDQl9Dc294YzU1Rnc4ODdocjkyRFNvcUpIOWc4dWtScHJWLTNBXzRMVDFuczFGY2I5MUFnaUptbkY0MDYyQkJXOHVXWHdLQjkwM0k3a3JjdUprZG5DTy1J?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KckY3N3A3eWRVN3ZEX3QzS3dwTGk0ek5pczY5cHB5RmMzLVkyRHR2UmMtcmNmSUIwMUo3amxLdjQ2Y0xCTjFYZUlfeWRWRm1lY1lj?oc=5"
    }
   ],
   "impacts": [
@@ -54663,6 +54721,25 @@
      "ru": "ETF индекса S&P 500"
     },
     "price_at_alert": 752.69
+   },
+   {
+    "ticker": "SLV",
+    "direction": "up",
+    "t0": 1794292029,
+    "reason": "מסחר צדדי במתכות היקרות לפני פרסום הנתונים",
+    "reason_i18n": {
+     "he": "מסחר צדדי במתכות היקרות לפני פרסום הנתונים",
+     "en": "Sideways trading in precious metals ahead of data release",
+     "ar": "تداول عرضي في المعادن الثمينة قبل صدور البيانات",
+     "ru": "Боковая торговля драгметаллами перед публикацией данных"
+    },
+    "name_i18n": {
+     "he": "קרן סל כסף",
+     "en": "iShares Silver Trust",
+     "ar": "صندوق الفضة",
+     "ru": "ETF серебра"
+    },
+    "price_at_alert": 48.14
    }
   ],
   "id": "d06106bde777",
@@ -54690,9 +54767,21 @@
      "ar": "العقود الآجلة للأسهم الأمريكية استقرت وتراجع البيتكوين دون 74,500 دولار بانتظار تقرير التضخم.",
      "ru": "Фьючерсы на акции США торговались без единой динамики, а биткоин опустился ниже $74 500 в ожидании отчета по инфляции."
     }
+   },
+   {
+    "ts": 1794292029,
+    "time": "2026-11-10T06:27Z",
+    "severity": 4,
+    "summary": "מחירי הזהב והכסף נסחרים ביציבות לקראת פרסום מדד האינפלציה המרכזי בארה\"ב שיכריע את תוואי הריבית.",
+    "i18n": {
+     "he": "מחירי הזהב והכסף נסחרים ביציבות לקראת פרסום מדד האינפלציה המרכזי בארה\"ב שיכריע את תוואי הריבית.",
+     "en": "Gold and silver prices are trading flat as investors await crucial US inflation data that will guide interest rate expectations.",
+     "ar": "تتداول أسعار الذهب والفضة باستقرار بانتظار صدور بيانات التضخم الأمريكية الرئيسية التي ستحدد مسار أسعار الفائدة.",
+     "ru": "Цены на золото и серебро торгуются стабильно в ожидании ключевых данных по инфляции в США, которые определят дальнейшую траекторию процентных ставок."
+    }
    }
   ],
-  "last_update": 1794284881
+  "last_update": 1794292029
  },
  {
   "ts": 1794268511,
@@ -54831,18 +54920,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNBV3hVLTdlalJKcEVGbXdzMEo0U1JMeWthQ1d2OWJJcUthMFo5TlVsOWVBS2pBcGFtUXB3akhKaF9mbnVNelV4dzYtYlJxVHREa0ZFZnpWek5iQXdQbnVaeXYwTHk1VnJlWkZXRGctM180ZWstYWxVZUFoX2M3TmxTdFJ6dXY1YVlETklWVjRmLUNyaDRSNmJhNzJOb0Zp?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeC1aaE03NTFlWDVtTk9LOUNxOXNZb0Jsand1dWgxcm5TZ0J3eVdZck1OYkYwdjRrX3hfTGpOc2haZGtxY1RiUkdkLXVZSFYydDc0TE5JX3M3elhPM2xjZFpJdlN2QzVDVHd0RGI4ZF9iajhJUHRSaFpZUmZ0aDZ6d2pVQVNueDMzcUFLSHBqdnBjeU5vOUh5czZMajJFNkk0TzJ1V1FR?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVHV6ajNmbWxLWHV3cmVrSWNXVGxFVlNieTBWdDlBWkUzVDJoSG0xVUZIdHoyNWxiZUJBZlN2Y095WVRVb09FZUlCb21ZQXgxTlhkTURFd3dLbUZrdHluWldLc3ZxWlQ0NGFHT1poUXJyUTdfUTNSc3FENk8wMU1jR3lndS1HLUpDTWRDbVF2Z0c0aU5qRlZ4TDBxOXRQQ2pLZEVHSDR6ejlOeXJmbUlqQTM2VVVhcXEzSVN2R2RaNzBBWGJoQ1BRUmtR0gHPAUFVX3lxTE5rVU5YNGFvNVNDRXROQTBuMXRfY08yc0Q0RXlwNGEzdHh3cHFOQlZRZXdYWnhvcUNjNlFXX1lBc3NXaVg2MkdNUEZJb01BSmtrQ1Vnc2R4T0RVWlNRZ1BRUFNkaEo5bVBoQzJ2NFc3U1hMdWtvaTlFM2lJS1l6cDViTHhVZEd0c01WbU1sbWxJeG5FLUtsZzJYeV9YRWxPVVlja3UtVFNFaGlLWFJuN3diYTRHZHpKM21nNFFPai1LVzdfSXNWakRTQ1dwRzMzcw?oc=5"
-   },
-   {
     "name": "BBC World",
     "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss"
    },
@@ -54853,6 +54930,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONVhnTGNwNUpwMXBnQWMxWG5ET24wM0E4azBKMlk1VmNLQjVGODlSdGxfZUFodDNpYVBHYWdoY3AyeTlXYlJkSHlwSGlkMjZaWVVJZ2hJQ2M0ZUt0T0VQc18waEp1Qlc1blZERTJ4VUduYmxWR1N1elRpZ3NGeVBVVGgwVE00VmFSWjlPZ0dUMDU4MnhhVERsX1RJM0xSNnBlM2pZaG5pX0F5NmVmWHluX1ZIMms0VUZKcU1xbzU0Qk1GMXZFc0hDVHJIaEFhTHBiMXNHdVp4Wkh2WTlTVzQ5M19EMzVRcHFTVjJxS1FlLXRSYU9PLVppd25IVENfS3MyR2MzZ0hoSkQ4MXlxQWJyWDJ3c1FHZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV1BIT3ctNUJPblFLakgyX05MRDdWc3dNMllfZmpUbVZ5Y21uV0tQRTV2UDZDU0xCWWlHLVc4SXFrbHROTkFnYnhtUDFITEpMazZabnNvT29MNEVhUWx6NEE0cWY5SE5laC1ZTmNWVmFiUDJmV0xOdUJoQW1aNzU5d3ZDR1RHSHRMa1ptNW1kMzNMUlZFSG9rcmlTU2tQMlNpOW5aYm43Qmlzc0djVmxvY1FRQ21YSU5xTVh0MjZTdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMndJcVNQMk5CcmtfemZLcE9wd2ZVUm9WMVhGM0NCSF9sZHA4SWRmYktpUUpvU2pmWUtiLXhOV25hOF9QRTVWc2tveV84aGV1Q19fZU5Bb1JkOUdIZWRwWkVxcUM3Q1N4LTdtZUd1UXVkWXhtMTc2TTFVelhGdFFXU2Z2dDRmZF8tR0RDNXRjTkpOUHFv0gGaAUFVX3lxTFBhQnJrcTdkLTF1Q09LdWNRR0Nyc2txaUhHVVJiMGdPMElvUVE1LWhGbk01VDNWRXBwR2tTblR3eXUxQWUwRVVMbEZGUS1EMVBuSUp0U1htUG9oaHhHVXpaQVRoZGpwdC1jVWJvdkJzVnptbndENHljNFJFdXFaUGVxc2NGVFBCUmk0NGhBSVh3YWVXaXlxZURudGc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zZENJa3BKT0szdjlKcHZzUzJsR3hQNnZ2WVZxNnFSbm92akphNFM0MGFFbjV2WUVjdF9yMERSYU9tbzFiLW1hWF9rdGdzQQ?oc=5"
    }
   ],
   "impacts": [
@@ -54977,9 +55066,21 @@
      "ar": "صرح الرئيس ترامب أن الحرب مع إيران انتهت فعلياً ومن المستبعد شن هجمات أمريكية جديدة، رغم رفع إيران قيود الصواريخ.",
      "ru": "Президент Трамп заявил, что война с Ираном фактически завершена и новые удары маловероятны, хотя Иран снял ракетные ограничения."
     }
+   },
+   {
+    "ts": 1794292029,
+    "time": "2026-11-10T06:27Z",
+    "severity": 6,
+    "summary": "הנשיא טראמפ הצהיר כי העימות עם איראן 'הסתיים למעשה' ושלל תקיפות נוספות, בעוד שמדינות המפרץ תומכות בהמשך הסגר הימי.",
+    "i18n": {
+     "he": "הנשיא טראמפ הצהיר כי העימות עם איראן 'הסתיים למעשה' ושלל תקיפות נוספות, בעוד שמדינות המפרץ תומכות בהמשך הסגר הימי.",
+     "en": "President Trump stated that the Iran conflict is 'effectively over' and ruled out new strikes, while Gulf nations back an ongoing naval blockade.",
+     "ar": "صرح الرئيس ترامب بأن الصراع مع إيران 'انتهى فعلياً' واستبعد شن ضربات جديدة، بينما تدعم دول الخليج استمرار الحصار البحري.",
+     "ru": "Президент Трамп заявил, что конфликт с Ираном «фактически завершен», исключив новые удары, в то время как страны Персидского залива поддерживают морскую блокаду."
+    }
    }
   ],
-  "last_update": 1794284881
+  "last_update": 1794292029
  },
  {
   "ts": 1794272223,
@@ -56300,5 +56401,82 @@
    }
   ],
   "id": "007116841b8b"
+ },
+ {
+  "ts": 1794292029,
+  "time": "2026-11-10T06:27Z",
+  "title": "תופעת אל ניניו מקצרת את עונת הטורנדו והסופות בארה\"ב לשנת 2026",
+  "summary": "תופעת האקלים אל ניניו צפויה להביא לסיום מוקדם של איומי סופות ההוריקן באוקיינוס האטלנטי לקראת עונת 2026.",
+  "kid": "תופעת מזג אוויר מיוחדת גורמת לכך שפחות סופות חזקות יגיעו לאמריקה השנה. זה חדשות טובות לחברות ביטוח שלא יצטרכו לשלם כל כך הרבה כסף על נזקים.",
+  "i18n": {
+   "title": {
+    "he": "תופעת אל ניניו מקצרת את עונת הטורנדו והסופות בארה\"ב לשנת 2026",
+    "en": "El Niño Triggers Early End to U.S. 2026 Hurricane Season Threats",
+    "ar": "ظاهرة الينيو تبكر بنهاية تهديدات موسم الأعاصير في أمريكا لعام 2026",
+    "ru": "Эль-Ниньо приводит к раннему завершению угроз сезона ураганов в США на 2026 год"
+   },
+   "summary": {
+    "he": "תופעת האקלים אל ניניו צפויה להביא לסיום מוקדם של איומי סופות ההוריקן באוקיינוס האטלנטי לקראת עונת 2026.",
+    "en": "The El Niño climate pattern is expected to bring an early end to Atlantic hurricane threats for the United States in the 2026 season.",
+    "ar": "من المتوقع أن تؤدي ظاهرة النينيو المناخية إلى نهاية مبكرة لتهديدات الأعاصير الأطلسية للولايات المتحدة في موسم 2026.",
+    "ru": "Ожидается, что климатическое явление Эль-Ниньо приведет к раннему завершению угрозы атлантических ураганов для США в сезоне 2026 года."
+   },
+   "kid": {
+    "he": "תופעת מזג אוויר מיוחדת גורמת לכך שפחות סופות חזקות יגיעו לאמריקה השנה. זה חדשות טובות לחברות ביטוח שלא יצטרכו לשלם כל כך הרבה כסף על נזקים.",
+    "en": "A special weather pattern means fewer strong storms will threaten America this year. This is good news for insurance companies because they won't have to pay out as much money for storm damage.",
+    "ar": "نمط طقس خاص يعني أن عواصف قوية أقل ستشهدها أمريكا هذا العام. هذه أخبار جيدة لشركات التأمين لأنها لن تدفع أموالاً طائلة لتغطية الأضرار.",
+    "ru": "Особый погодный паттерн означает, что в этом году США грозит меньше сильных штормов. Это хорошие новости для страховых компаний, которым не придется выплачивать много компенсаций."
+   }
+  },
+  "category": "climate",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUGJyWVE2T29INTBXMDdrMHZOTWc4NjEtamlmcVpqTk9uSVlfREo2YWE5bTI5TnZUZDRoUTNJTmhUMEZSYVhseUw0UndNMVJMdTBreFYxaVBFUDJwUXk2a3c0NHpMT3hWR3RtcUw5SlR1Q2tyOGM3WXA5RFFmYnJpYjFyc1V2em1CNWxtWWJxZk40c0xidUxEY2pvLVlEeFlJR0RycEdiY2RJSDh1VWpwS1RR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ALL",
+    "direction": "up",
+    "t0": 1794292029,
+    "reason": "סיכון נמוך יותר לתביעות נזקי סערה והוריקן",
+    "reason_i18n": {
+     "he": "סיכון נמוך יותר לתביעות נזקי סערה והוריקן",
+     "en": "Lower risk of storm and hurricane damage claims",
+     "ar": "انخفاض خطر مطالبات أضرار العواصف والأعاصير",
+     "ru": "Снижение риска исков по ущербу от штормов и ураганов"
+    },
+    "name_i18n": {
+     "he": "אולסטייט – חברת ביטוח",
+     "en": "Allstate – Insurance company",
+     "ar": "أولستيت – شركة تأمين",
+     "ru": "Allstate – страховая компания"
+    },
+    "price_at_alert": 253.79
+   },
+   {
+    "ticker": "TRV",
+    "direction": "up",
+    "t0": 1794292029,
+    "reason": "הקלה צפויה בהוצאות בגין אסונות טבע",
+    "reason_i18n": {
+     "he": "הקלה צפויה בהוצאות בגין אסונות טבע",
+     "en": "Expected relief in natural disaster claims expenses",
+     "ar": "تخفيف متوقع في مصاريف مطالبات الكوارث الطبيعية",
+     "ru": "Ожидаемое сокращение расходов по выплатам за стихийные бедствия"
+    },
+    "name_i18n": {
+     "he": "טרבלרס – חברת ביטוח רכוש",
+     "en": "Travelers – Property casualty insurer",
+     "ar": "ترافيلرز – شركة تأمين ممتلكات",
+     "ru": "Travelers – страховая компания"
+    },
+    "price_at_alert": 395.2
+   }
+  ],
+  "id": "0dbf8a1ea912"
  }
 ]
