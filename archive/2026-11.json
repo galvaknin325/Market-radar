@@ -52949,10 +52949,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1eFRNV2RicWdVeGQwUmE5SnVLc1hEdUlsRFhBLUVlR1dyR3pmRkxlQ2kwMHFyZFZnS0hITklKdUduVGozOXlPNTBORmpfZGNGcHdZ?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uR0Q3cVFBNjZodUxzbzhyWUo0SllvN0NuRzdaZFRtWXVNdUsyd2I1dUxSdnROcVBPaFBhRG5HVDdpUU5wNjduYk5GZTl0eUstcWUw?oc=5"
    },
@@ -52971,6 +52967,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTJrSDc4VDB6bW1vSUVjeDVDVmZ6QlhUQU05NnRnVk9rckxTZWNvUndPaldaNjJqc1NfZnJSSGM1dFhJay0wa0VfSUFpRkhQQmtZUUxSZ2FWNzlYdFNWVldRQ0xBQXk3NVp3MDN3dzVUVmdTU2M5SmwxU0tJaFBvb19ZZTF1VHljZUxVMmZSeVlxTTFQeWU0NHFrazRubm00bDR3dDczWHVoVFlnc3dqTWtqX3dpNDdGNnBXVw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONy1oWS1MUnVNZXhhWmJxNjJ4bER1c04yN3diWFNNVE5WdmFmZXZSaWh5T1NhcGs4ZEdsUDFEWEhjWVpsaDRzWXUwQlBIRzVkdDVmSUtlMWhaRFJ0b0t3OVczT0RjcnpzWlJaNnJLRGw3RFFpQ25sWHdCUllYaXZyOXoxa2JMNEhScUtxQlNmZG1IMWU0OU1JVHFlekFFUi1XRjRDelVtV2F2ZnRBa0JIV04zd1pBdXBneUs5LQ?oc=5"
    }
   ],
   "impacts": [
@@ -53098,9 +53098,21 @@
      "ar": "تعهدت الحكومة الفرنسية برد قوي واتخاذ جميع الإجراءات اللازمة رداً على هجوم سيبراني استهدف ثلاجات المتاجر الكبرى ونُسب لإيران.",
      "ru": "Правительство Франции пообещало жесткий ответ и принятие всех мер в ответ на кибератаку на супермаркеты, приписываемую Ирану."
     }
+   },
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 4,
+    "summary": "רשויות האכיפה בצרפת האשימו את איראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של רשתות שיווק ומזון במדינה.",
+    "i18n": {
+     "he": "רשויות האכיפה בצרפת האשימו את איראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של רשתות שיווק ומזון במדינה.",
+     "en": "French authorities accused Iran of conducting an unprecedented cyberattack targeting supermarket and retail refrigeration networks across the country.",
+     "ar": "اتهمت السلطات الفرنسية إيران بالمسؤولية عن هجوم سيبراني واسع استهدف شبكات التبريد في المتاجر الكبرى.",
+     "ru": "Власти Франции обвинили Иран в проведении беспрецедентной кибератаки, нацеленной на сети охлаждения в супермаркетах."
+    }
    }
   ],
-  "last_update": 1794307209
+  "last_update": 1794310608
  },
  {
   "ts": 1794250359,
@@ -54201,12 +54213,16 @@
    }
   },
   "category": "contracts",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkNoMm03RndWaF90NkhyLTFVZG93NFp5SFZnSG52dUlTajhtTEliTkZadlA3bnNJT1lxS0FzM0N6NkNjbkRnTlp5bGtYdzNobzNxc0RlMndvNUpZRW5DQnVFSDFyTlhKVFVqWTd3QlhjY2sxZFd3QnZiZFlCRGxYaHBRXzhyVmVJWGVzTTNWYzhTZXVoRV9BRHB1cFpSS3NTSXAxeFBoaXhycGNXVGFzeA?oc=5"
+   },
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/global/europe/2026/11/10/france-orders-military-earth-observation-satellites-for-more-than-e1-5-billion/"
    }
   ],
   "impacts": [
@@ -54230,7 +54246,22 @@
     "price_at_alert": 71.67
    }
   ],
-  "id": "e1891f0e0559"
+  "id": "e1891f0e0559",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 4,
+    "summary": "ממשלת צרפת העניקה חוזה בשווי של מעל 1.5 מיליארד אירו (1.7 מיליארד דולר) לחברות Airbus ו-Thales Alenia Space לבניית שני לווייני תצפית צבאיים.",
+    "i18n": {
+     "he": "ממשלת צרפת העניקה חוזה בשווי של מעל 1.5 מיליארד אירו (1.7 מיליארד דולר) לחברות Airbus ו-Thales Alenia Space לבניית שני לווייני תצפית צבאיים.",
+     "en": "The French government awarded a contract worth over €1.5 billion ($1.7 billion) to Airbus and Thales Alenia Space for two military Earth-observation satellites.",
+     "ar": "منحت الحكومة الفرنسية عقداً بأكثر من 1.5 مليار يورو لشركتي إيرباص وتاليس لبناء قمرين صناعيين للمراقبة العسكرية.",
+     "ru": "Правительство Франции заключило контракт на сумму более 1,5 млрд евро с компаниями Airbus и Thales Alenia Space на два военных спутника."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794266196,
@@ -54444,12 +54475,16 @@
    }
   },
   "category": "geopolitics",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYllLd1VQNlFPVVlVNk9obzM5TEpzd0lQMHdYaEdTOVFpcDEzenFTMXB6dnRQWXUxU3ROTmF1MHA0SE1WZnN2Y0dCTTZTTDllWFFOR1Z5elBDTWUzc0tsS1AzVzdETFFDOFUzOUgxaVZUYTFhQjZJakI4VlF2OVlVVW1hRWxLYTltRWZkM214R2RFT1RjeElJU1FDeUhHLWNFS1JfWng3dkhadw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNlBMV3g5end3aF9namhLRUF1YzRGNUM5VWJvN0REaVJ2NWtFN0Utc0oyRHFYb3lOMmU3eWFrcmEtT2xsTGdna1FYNHVSWGF1V0RZbkdVdV83TlRYZVZvSHE4RmVETDJqUFVJeVBXdV9SOEhKdEY0VjNldV9FYzJNNUwxUHFQcUo0WGc?oc=5"
    }
   ],
   "impacts": [
@@ -54505,9 +54540,21 @@
      "ar": "بدأ ممثلون عن أوكرانيا والولايات المتحدة وروسيا جولة من المحادثات الدبلوماسية في أبوظبي.",
      "ru": "Представители Украины, США и России начали раунд дипломатических переговоров в Абу-Даби."
     }
+   },
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 6,
+    "summary": "נציגים מארה\"ב, רוסיה ואוקראינה החלו בסבב שיחות דיפלומטיות בעיר אבו דאבי במטרה לדון בפתרון אפשרי למלחמה.",
+    "i18n": {
+     "he": "נציגים מארה\"ב, רוסיה ואוקראינה החלו בסבב שיחות דיפלומטיות בעיר אבו דאבי במטרה לדון בפתרון אפשרי למלחמה.",
+     "en": "Representatives from the US, Russia, and Ukraine have commenced diplomatic talks in Abu Dhabi to discuss potential resolution frameworks.",
+     "ar": "بدأ ممثلون عن الولايات المتحدة وروسيا وأوكرانيا محادثات دبلوماسية في أبوظبي لمناقشة سبل حل النزاع.",
+     "ru": "Представители США, России и Украины начали дипломатические переговоры в Абу-Даби для обсуждения путей урегулирования конфликта."
+    }
    }
   ],
-  "last_update": 1794275976
+  "last_update": 1794310608
  },
  {
   "ts": 1794268511,
@@ -56923,7 +56970,20 @@
   "category": "macro",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkw5ZHFVem5XSkVIUm4tV082QmhZdlVSZ3U0QUE3bk9RYzROT190bVRIV0Yta0NDYTNPLUFELWxnRWpRSXdDY0IzT0E2VmdIY285dzVueFNtU3dCVTV3T1d2cWxWc0tpeHNLVkN5SzRvbi1YbThQME1tQTgwZ2RPZ2hSM0ZiMU1UN29KTTdBMXZPMmZoR0ttazUtcGVlV2luTmxFTjhFTkVneExMMzhKZkNTUzQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdksxMTA4OUFMdVJQOHctSXJaLXNRbVlEeEd5MTRtdlRDYjkxRmZjd3VZVWEzQWFqb1pVc1RvcF9EdnB5elNmY2w4ZjZ4djVSRnVwTmxDV0tBS2NkdVpQdEZMNktwaWxja1B0MGEwdG9fM1VCVy0wQVJabjNpSFA1aldiaEFScVotWF9Ld3RjWngzQmZ5RkVPMkxmZ2twSEZldHVZYTBJWktnZjlZOGlydkoxbTUyUGZvVy1WbHJwcGtpcWVaQVMxbU1UUWd2U3NJaEE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSkxxbWg3OGZqRUQzUEgxY2tweXY3Tk5WQTlpbjdWNnFST244c05TUVBVRzBncXBTZWVFX3lDNVpUcHB6UHR4bWRYQzY1U294QVF4Q3BuM25BUWtDNWk4T0Y4YkR5TWxaSDEtSXhQM3haQjlaU0ZYX19JZlpyRkEtSjZxZkNkUmNfTjB3dnBOeHB3ek5NOWlybXdtWFpWbzIwWF92OWdSbkRyc0JKaEdDOVZOYi1nSWFxalF1NklTcUxJYjJ2elJMejJCWFFHbW02a29GQWtMOGJDMnc?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -56964,7 +57024,22 @@
     "price_at_alert": 81.96
    }
   ],
-  "id": "f507202aaf13"
+  "id": "f507202aaf13",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 6,
+    "summary": "חבר הנהלת הפדרל רצון, כריסטופר וולר, אמר כי הוא תומך בהעלאת ריבית בחודש דצמבר, ואף פתח את הדלת להעלאה חדה יותר של חצי אחוז אם האינפלציה תישאר גבוהה.",
+    "i18n": {
+     "he": "חבר הנהלת הפדרל רצון, כריסטופר וולר, אמר כי הוא תומך בהעלאת ריבית בחודש דצמבר, ואף פתח את הדלת להעלאה חדה יותר של חצי אחוז אם האינפלציה תישאר גבוהה.",
+     "en": "Federal Reserve Governor Christopher Waller stated he supports a December rate hike and opened the door to a larger half-point increase if inflation stays hot.",
+     "ar": "قال صانع السياسة في الاحتياطي الفيدرالي كريستوفر والر إنه يدعم رفع أسعار الفائدة في ديسمبر وأشار إلى إمكانية رفعها بنصف نقطة إذا بقي التضخم مرتفعاً.",
+     "ru": "Управляющий ФРС Кристофер Уллер заявил, что поддерживает повышение ставки в декабре и допускает рост на полпункта при сохранении высокой инфляции."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794303507,
@@ -57229,6 +57304,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtSjBRNS1zMEdjNWpBVXoyYmFWaG5IbkNMaTFMeFZNejg5THM3MXVUUnR1ZmMtcWg3T0NNdDdqbk1UQUs1bEhNQlc4MVROQ2FXbzFjSTFsbl9JcjBpMWVqOE1EemxqSnhfMlZZUjVjTVJ0cWM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemxYMmE5S0hRR05COHp6QmFNSTctWjJVTkpzODl5MmpUaDZIWjFUWkR6TnFQZUdYLVp5M0pxWUgzNTFUYkliaW5VQnFyS04xMWJkOWlWQ1RraXlTVkhtLS1DTGVfVXhCRy1hQTFmRnZuZWRnakI4WXZuWTJvM2lxZjFtOEVzSDk3TDJDVWJkMDZEQjBTQTAtOUptaGtWWmhfWkJNcjE2V21CazdPbmc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVpDckdUT2FVYlMwRV8yb3NSQ3VYaWNESXF6ckJOV2x2V25xWWpiZ05rYlF2SFpWa1hISW4xUmxNaUI3d3p1SzNWMnNyRnFOT2VPT2VmLTJRZFdyWWs4QkgtY2hIWGFWWDRGN1RYSkZkS3VoSkpsV1Z6NVBhVG5VMTZUSmxoa1NGbHRXSkpNbkd1RFl2?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiclVfRURkeGR2d0ZqQ3VFRlphTlZYeXROcHM5U3dmT25mZlBwYVZJY1Z5TGFkQnQzbElmN2Z3YjE0WHRmZUVJYkdmOVdtOGlFS0dQWXhiSk1LMWV4NDZUSmN3cEJWOUpoWDhZbDcxQlFiT1RRMndsYw?oc=5"
    }
   ],
   "impacts": [
@@ -57269,9 +57356,43 @@
      "ru": "XLE - ETF энергетического сектора"
     },
     "price_at_alert": 61.94
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794310608,
+    "reason": "החמרת סנקציות בינלאומיות מחזקת את הביקוש לנכסים בטוחים ולמערכת הפיננסית האמריקאית.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות בינלאומיות מחזקת את הביקוש לנכסים בטוחים ולמערכת הפיננסית האמריקאית.",
+     "en": "Stricter geopolitical sanctions reinforce safe-haven currency demand.",
+     "ar": "تشديد العقوبات يعزز الطلب على العملات الآمنة.",
+     "ru": "Ужесточение санкций поддерживает спрос на безопасные валюты."
+    },
+    "name_i18n": {
+     "he": "UUP – מדד הדולר האמריקאי",
+     "en": "UUP – US Dollar Bullish ETF",
+     "ar": "UUP - صندوق الدولار الأمريكي",
+     "ru": "UUP – ETF доллара США"
+    },
+    "price_at_alert": 28.97
    }
   ],
-  "id": "e0241debf3c2"
+  "id": "e0241debf3c2",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 3,
+    "summary": "ממשלת קנדה החליטה להטיל מחדש סנקציות כלכליות על 11 גופים וחברות הקשורים לאיראן, כולל שירותים פיננסיים, עקב פעילות עוינת.",
+    "i18n": {
+     "he": "ממשלת קנדה החליטה להטיל מחדש סנקציות כלכליות על 11 גופים וחברות הקשורים לאיראן, כולל שירותים פיננסיים, עקב פעילות עוינת.",
+     "en": "The Canadian government has reimposed economic sanctions on 11 Iranian entities and monetary service businesses due to security and policy concerns.",
+     "ar": "أعادت الحكومة الكندية فرض عقوبات اقتصادية على 11 كياناً وشركة مرتبطة بإيران.",
+     "ru": "Правительство Канады повторно ввело экономические санкции против 11 иранских организаций и структур."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794307209,
@@ -57469,5 +57590,67 @@
    }
   ],
   "id": "f875266ddfb1"
+ },
+ {
+  "ts": 1794310608,
+  "time": "2026-11-10T11:36Z",
+  "title": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
+  "summary": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
+  "kid": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
+  "i18n": {
+   "title": {
+    "he": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
+    "en": "Ghana mandates Ebola airport screening as outbreak grows",
+    "ar": "غانا תفرض فحص إيبولا في المطارات مع تفشي المرض",
+    "ru": "Гана вводит обязательный скрининг на Эболу в аэропорту из-за вспышки"
+   },
+   "summary": {
+    "he": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
+    "en": "Health authorities in Ghana have mandated airport screening and 21-day tracking as a regional Bundibugyo Ebola outbreak nears 10,000 cases.",
+    "ar": "فرضت السلطات الصحية في غانا فحص إيبولا ومراقبة لمدة 21 عاماً في المطارات مع اقتراب تفشي المرض من 10 آلاف حالة.",
+    "ru": "Власти Ганы ввели обязательный скрининг на Эболу и 21-дневное наблюдение в аэропортах на фоне приближения числа случаев к 10 000."
+   },
+   "kid": {
+    "he": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
+    "en": "Ghana is screening airport travelers to prevent Ebola from spreading. Outbreak news can turn investor attention toward healthcare and pharmaceutical firms.",
+    "ar": "تقوم غانا بفحص المسافرين في المطارات لمنع انتشار إيبولا، مما يوجه أنظار المستثمرين نحو قطاع الرعاية الصحية والأدوية.",
+    "ru": "Гана проверяет пассажиров в аэропортах для предотвращения распространения Эболы. Новости об вспышках привлекают внимание к фармкомпаниям."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWVnRE9PLXlYRnFmcXhSODFaUmtSUllTMF9yX0V3cHhHMXdNT2NtOFhJZDZ4Z1JWOTZwWW1sWm9tVVlmM2NlTzh0VzBpdjVoYUFQOEk5amNhcW1qR0FXYzFQV29DSFpuNEJUdTZCTm50RkpIb3NUTUJNekMyb1ozdmhMX0h5ZnMwdk85cmx5dFVhNk83ZWEzNEZBNFI3UXF0QmxfRl9SV2ZtTVh5SGxOYkNZVU5fS0dGdERkelQtbWlGQVh2X3dZUkktdGFnQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMHBYaGZORS1ic2ZjWk5ncVlNd2FUX0NmOHYtWUpnQjViM0RCWElWZ3lyRGRIdGdwWWpZbWphQjJvSk1wNVFUdlpWb0hDaERUZG9QaV9ZcVFZSVQtdjJuTGIycEM2dENmZmpHZWJlZ2FjZ292RThhOHFua3lyVlpCUHJB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794310608,
+    "reason": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
+    "reason_i18n": {
+     "he": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
+     "en": "Health outbreak concerns elevate focus on biotech and pharma sectors.",
+     "ar": "مخاوف تفشي الأمراض ترفع الاهتمام بقطاع التكنولوجيا الحيوية والأدوية.",
+     "ru": "Опасения вспышек заболеваний повышают интерес к биотехам и фарме."
+    },
+    "name_i18n": {
+     "he": "XLV – קרן סל שירותי בריאות",
+     "en": "XLV – Health Care Select Sector SPDR Fund",
+     "ar": "XLV - صندوق قطاع الرعاية الصحية",
+     "ru": "XLV – ETF сектора здравоохранения"
+    },
+    "price_at_alert": 188.33
+   }
+  ],
+  "id": "1d76534be20b"
  }
 ]

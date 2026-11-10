@@ -109,86 +109,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793692574,
-  "time": "2026-11-03T07:56Z",
-  "title": "האינפלציה בשוויץ מזנקת לרמתה הגבוהה ביותר משנת 2023",
-  "summary": "מדד המחירים לצרכן בשוויץ עלה ל-1.5% בחודש אוקטובר, בעיקר בהשפעת מחירי אנרגיה מיובאים, והגיע לרמה הגבוהה ביותר מאז 2023.",
-  "kid": "המחירים בשוויץ עלו מהר יותר בגלל התייקרות האנרגיה. זה עשוי להשפיע על החלטות הבנק המרכזי המקומי ועל שערי המטבע.",
-  "i18n": {
-   "title": {
-    "he": "האינפלציה בשוויץ מזנקת לרמתה הגבוהה ביותר משנת 2023",
-    "en": "Swiss Inflation Jumps to Highest Level Since 2023",
-    "ar": "قفزة في التضخم في سويسرا إلى أعلى مستوى منذ عام 2023",
-    "ru": "Инфляция в Швейцарии подскочила до максимума с 2023 года"
-   },
-   "summary": {
-    "he": "מדד המחירים לצרכן בשוויץ עלה ל-1.5% בחודש אוקטובר, בעיקר בהשפעת מחירי אנרגיה מיובאים, והגיע לרמה הגבוהה ביותר מאז 2023.",
-    "en": "Swiss inflation accelerated to 1.5% in October, driven largely by imported energy costs, reaching its highest level since 2023.",
-    "ar": "ارتفع التضخم في سويسرا إلى 1.5% في أكتوبر، مدفوعاً بتكاليف الطاقة المستوردة.",
-    "ru": "Инфляция в Швейцарии ускорилась до 1.5% в октябре на фоне роста стоимости импортируемой энергии."
-   },
-   "kid": {
-    "he": "המחירים בשוויץ עלו מהר יותר בגלל התייקרות האנרגיה. זה עשוי להשפיע על החלטות הבנק המרכזי המקומי ועל שערי המטבע.",
-    "en": "Prices in Switzerland went up faster because energy costs increased. This can influence the Swiss central bank's future interest rate decisions.",
-    "ar": "ارتفعت الأسعار في سويسرا بشكل أسرع بسبب تكاليف الطاقة. هذا قد يؤثر على قرارات البنك المركزي.",
-    "ru": "Цены в Швейцарии выросли быстрее из-за стоимости энергии. Это может повлиять на решения центрального банка."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FXE",
-    "direction": "down",
-    "t0": 1793692574,
-    "reason": "אינפלציה גבוהה באירופה הרחבה עלולה להכביד על המטבעות המקומיים מול הדולר.",
-    "reason_i18n": {
-     "he": "אינפלציה גבוהה באירופה הרחבה עלולה להכביד על המטבעות המקומיים מול הדולר.",
-     "en": "Higher European inflation prints can put pressure on regional currency valuations.",
-     "ar": "معدلات التضخم المرتفعة في أوروبا قد تضغط على العملات.",
-     "ru": "Более высокие показатели инфляции в Европе могут оказать давление на валюты."
-    },
-    "name_i18n": {
-     "he": "FXE – קרן סל על מטבע האירו",
-     "en": "FXE – Euro Currency Trust",
-     "ar": "FXE - صندوق اليورو",
-     "ru": "FXE – фонд евро"
-    },
-    "price_at_alert": 103.25,
-    "entry_price": 103.21,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 103.605,
-    "exit_date": "2026-11-04",
-    "change_pct": 0.38,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -1.48,
-    "edge_pct": 1.48,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "9b66a1703b59",
-  "updates": [
-   {
-    "ts": 1793703269,
-    "time": "2026-11-03T10:54Z",
-    "severity": 4,
-    "summary": "האינפלציה השנתית בשוויץ עלתה ל-1.5% באוקטובר, מה שהוביל לחיזוק הפרנק השוויצרי.",
-    "i18n": {
-     "he": "האינפלציה השנתית בשוויץ עלתה ל-1.5% באוקטובר, מה שהוביל לחיזוק הפרנק השוויצרי.",
-     "en": "Annual inflation in Switzerland rose to 1.5% in October, leading to a strengthening of the Swiss Franc.",
-     "ar": "ارتفع التضخم السنوي في سويسرا إلى 1.5% في أكتوبر، مما أدى إلى تعزيز الفرنك السويسري.",
-     "ru": "Годовая инфляция в Швейцарии выросла до 1,5% в октябре, что привело к укреплению швейцарского франка."
-    }
-   }
-  ],
-  "last_update": 1793703269,
-  "evaluated": true
- },
- {
   "ts": 1793696151,
   "time": "2026-11-03T08:55Z",
   "title": "מתקפת סייבר על מערכות קירור בסופרמרקטים באירופה",
@@ -629,71 +549,6 @@
    }
   ],
   "last_update": 1793734082,
-  "evaluated": true
- },
- {
-  "ts": 1793703269,
-  "time": "2026-11-03T10:54Z",
-  "title": "לוקהיד מרטין זכתה בחוזה טילים היפרסוניים",
-  "summary": "חיל האוויר האמריקאי העניק ללוקהיד מרטין חוזה בשווי 694 מיליון דולר לייצור טילים היפרסוניים.",
-  "kid": "לוקהיד מרטין קיבלה הרבה כסף מהצבא כדי לבנות טילים מהירים מאוד. זה טוב לחברה כי זה מבטיח לה הכנסות גדולות.",
-  "i18n": {
-   "title": {
-    "he": "לוקהיד מרטין זכתה בחוזה טילים היפרסוניים",
-    "en": "Lockheed Martin awarded $694M hypersonic missile contract",
-    "ar": "لوكهيد مارتن تفوز بعقد صواريخ فرط صوتية بقيمة 694 مليون دولار",
-    "ru": "Lockheed Martin получила контракт на гиперзвуковые ракеты на сумму $694 млн"
-   },
-   "summary": {
-    "he": "חיל האוויר האמריקאי העניק ללוקהיד מרטין חוזה בשווי 694 מיליון דולר לייצור טילים היפרסוניים.",
-    "en": "The US Air Force awarded Lockheed Martin a $694 million contract for the production of hypersonic missiles.",
-    "ar": "منحت القوات الجوية الأمريكية شركة لوكهيد مارتن عقداً بقيمة 694 مليون دولار لإنتاج صواريخ فرط صوتية.",
-    "ru": "ВВС США предоставили компании Lockheed Martin контракт на сумму 694 миллиона долларов на производство гиперзвуковых ракет."
-   },
-   "kid": {
-    "he": "לוקהיד מרטין קיבלה הרבה כסף מהצבא כדי לבנות טילים מהירים מאוד. זה טוב לחברה כי זה מבטיח לה הכנסות גדולות.",
-    "en": "Lockheed Martin got a lot of money from the military to build very fast missiles. This is good for the company because it guarantees them big earnings.",
-    "ar": "حصلت شركة لوكهيد مارتن على الكثير من المال من الجيش لبناء صواريخ سريعة جداً. هذا جيد للشركة لأنه يضمن لها أرباحاً كبيرة.",
-    "ru": "Компания Lockheed Martin получила много денег от военных на создание очень быстрых ракет. Это хорошо для компании, так как гарантирует ей большую прибыль."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1793703269,
-    "reason": "זכייה בחוזה ממשלתי משמעותי.",
-    "reason_i18n": {
-     "he": "זכייה בחוזה ממשלתי משמעותי.",
-     "en": "Winning a significant government contract.",
-     "ar": "الفوز بعقد حكومي كبير.",
-     "ru": "Получение крупного государственного контракта."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין",
-     "en": "Lockheed Martin",
-     "ar": "لوكهيد مارتن",
-     "ru": "Lockheed Martin"
-    },
-    "price_at_alert": 643.15,
-    "entry_price": 638.59,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 594.69,
-    "exit_date": "2026-11-04",
-    "change_pct": -6.87,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -8.73,
-    "edge_pct": -8.73,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f25968ff8323",
   "evaluated": true
  },
  {
@@ -44299,10 +44154,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1eFRNV2RicWdVeGQwUmE5SnVLc1hEdUlsRFhBLUVlR1dyR3pmRkxlQ2kwMHFyZFZnS0hITklKdUduVGozOXlPNTBORmpfZGNGcHdZ?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uR0Q3cVFBNjZodUxzbzhyWUo0SllvN0NuRzdaZFRtWXVNdUsyd2I1dUxSdnROcVBPaFBhRG5HVDdpUU5wNjduYk5GZTl0eUstcWUw?oc=5"
    },
@@ -44321,6 +44172,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTJrSDc4VDB6bW1vSUVjeDVDVmZ6QlhUQU05NnRnVk9rckxTZWNvUndPaldaNjJqc1NfZnJSSGM1dFhJay0wa0VfSUFpRkhQQmtZUUxSZ2FWNzlYdFNWVldRQ0xBQXk3NVp3MDN3dzVUVmdTU2M5SmwxU0tJaFBvb19ZZTF1VHljZUxVMmZSeVlxTTFQeWU0NHFrazRubm00bDR3dDczWHVoVFlnc3dqTWtqX3dpNDdGNnBXVw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONy1oWS1MUnVNZXhhWmJxNjJ4bER1c04yN3diWFNNVE5WdmFmZXZSaWh5T1NhcGs4ZEdsUDFEWEhjWVpsaDRzWXUwQlBIRzVkdDVmSUtlMWhaRFJ0b0t3OVczT0RjcnpzWlJaNnJLRGw3RFFpQ25sWHdCUllYaXZyOXoxa2JMNEhScUtxQlNmZG1IMWU0OU1JVHFlekFFUi1XRjRDelVtV2F2ZnRBa0JIV04zd1pBdXBneUs5LQ?oc=5"
    }
   ],
   "impacts": [
@@ -44448,9 +44303,21 @@
      "ar": "تعهدت الحكومة الفرنسية برد قوي واتخاذ جميع الإجراءات اللازمة رداً على هجوم سيبراني استهدف ثلاجات المتاجر الكبرى ونُسب لإيران.",
      "ru": "Правительство Франции пообещало жесткий ответ и принятие всех мер в ответ на кибератаку на супермаркеты, приписываемую Ирану."
     }
+   },
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 4,
+    "summary": "רשויות האכיפה בצרפת האשימו את איראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של רשתות שיווק ומזון במדינה.",
+    "i18n": {
+     "he": "רשויות האכיפה בצרפת האשימו את איראן באחריות למתקפת סייבר רחבת היקף שפגעה במערכות הקירור של רשתות שיווק ומזון במדינה.",
+     "en": "French authorities accused Iran of conducting an unprecedented cyberattack targeting supermarket and retail refrigeration networks across the country.",
+     "ar": "اتهمت السلطات الفرنسية إيران بالمسؤولية عن هجوم سيبراني واسع استهدف شبكات التبريد في المتاجر الكبرى.",
+     "ru": "Власти Франции обвинили Иран в проведении беспрецедентной кибератаки, нацеленной на сети охлаждения в супермаркетах."
+    }
    }
   ],
-  "last_update": 1794307209
+  "last_update": 1794310608
  },
  {
   "ts": 1794250359,
@@ -45551,12 +45418,16 @@
    }
   },
   "category": "contracts",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkNoMm03RndWaF90NkhyLTFVZG93NFp5SFZnSG52dUlTajhtTEliTkZadlA3bnNJT1lxS0FzM0N6NkNjbkRnTlp5bGtYdzNobzNxc0RlMndvNUpZRW5DQnVFSDFyTlhKVFVqWTd3QlhjY2sxZFd3QnZiZFlCRGxYaHBRXzhyVmVJWGVzTTNWYzhTZXVoRV9BRHB1cFpSS3NTSXAxeFBoaXhycGNXVGFzeA?oc=5"
+   },
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/global/europe/2026/11/10/france-orders-military-earth-observation-satellites-for-more-than-e1-5-billion/"
    }
   ],
   "impacts": [
@@ -45580,7 +45451,22 @@
     "price_at_alert": 71.67
    }
   ],
-  "id": "e1891f0e0559"
+  "id": "e1891f0e0559",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 4,
+    "summary": "ממשלת צרפת העניקה חוזה בשווי של מעל 1.5 מיליארד אירו (1.7 מיליארד דולר) לחברות Airbus ו-Thales Alenia Space לבניית שני לווייני תצפית צבאיים.",
+    "i18n": {
+     "he": "ממשלת צרפת העניקה חוזה בשווי של מעל 1.5 מיליארד אירו (1.7 מיליארד דולר) לחברות Airbus ו-Thales Alenia Space לבניית שני לווייני תצפית צבאיים.",
+     "en": "The French government awarded a contract worth over €1.5 billion ($1.7 billion) to Airbus and Thales Alenia Space for two military Earth-observation satellites.",
+     "ar": "منحت الحكومة الفرنسية عقداً بأكثر من 1.5 مليار يورو لشركتي إيرباص وتاليس لبناء قمرين صناعيين للمراقبة العسكرية.",
+     "ru": "Правительство Франции заключило контракт на сумму более 1,5 млрд евро с компаниями Airbus и Thales Alenia Space на два военных спутника."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794266196,
@@ -45794,12 +45680,16 @@
    }
   },
   "category": "geopolitics",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYllLd1VQNlFPVVlVNk9obzM5TEpzd0lQMHdYaEdTOVFpcDEzenFTMXB6dnRQWXUxU3ROTmF1MHA0SE1WZnN2Y0dCTTZTTDllWFFOR1Z5elBDTWUzc0tsS1AzVzdETFFDOFUzOUgxaVZUYTFhQjZJakI4VlF2OVlVVW1hRWxLYTltRWZkM214R2RFT1RjeElJU1FDeUhHLWNFS1JfWng3dkhadw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNlBMV3g5end3aF9namhLRUF1YzRGNUM5VWJvN0REaVJ2NWtFN0Utc0oyRHFYb3lOMmU3eWFrcmEtT2xsTGdna1FYNHVSWGF1V0RZbkdVdV83TlRYZVZvSHE4RmVETDJqUFVJeVBXdV9SOEhKdEY0VjNldV9FYzJNNUwxUHFQcUo0WGc?oc=5"
    }
   ],
   "impacts": [
@@ -45855,9 +45745,21 @@
      "ar": "بدأ ممثلون عن أوكرانيا والولايات المتحدة وروسيا جولة من المحادثات الدبلوماسية في أبوظبي.",
      "ru": "Представители Украины, США и России начали раунд дипломатических переговоров в Абу-Даби."
     }
+   },
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 6,
+    "summary": "נציגים מארה\"ב, רוסיה ואוקראינה החלו בסבב שיחות דיפלומטיות בעיר אבו דאבי במטרה לדון בפתרון אפשרי למלחמה.",
+    "i18n": {
+     "he": "נציגים מארה\"ב, רוסיה ואוקראינה החלו בסבב שיחות דיפלומטיות בעיר אבו דאבי במטרה לדון בפתרון אפשרי למלחמה.",
+     "en": "Representatives from the US, Russia, and Ukraine have commenced diplomatic talks in Abu Dhabi to discuss potential resolution frameworks.",
+     "ar": "بدأ ممثلون عن الولايات المتحدة وروسيا وأوكرانيا محادثات دبلوماسية في أبوظبي لمناقشة سبل حل النزاع.",
+     "ru": "Представители США, России и Украины начали дипломатические переговоры в Абу-Даби для обсуждения путей урегулирования конфликта."
+    }
    }
   ],
-  "last_update": 1794275976
+  "last_update": 1794310608
  },
  {
   "ts": 1794268511,
@@ -48273,7 +48175,20 @@
   "category": "macro",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkw5ZHFVem5XSkVIUm4tV082QmhZdlVSZ3U0QUE3bk9RYzROT190bVRIV0Yta0NDYTNPLUFELWxnRWpRSXdDY0IzT0E2VmdIY285dzVueFNtU3dCVTV3T1d2cWxWc0tpeHNLVkN5SzRvbi1YbThQME1tQTgwZ2RPZ2hSM0ZiMU1UN29KTTdBMXZPMmZoR0ttazUtcGVlV2luTmxFTjhFTkVneExMMzhKZkNTUzQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdksxMTA4OUFMdVJQOHctSXJaLXNRbVlEeEd5MTRtdlRDYjkxRmZjd3VZVWEzQWFqb1pVc1RvcF9EdnB5elNmY2w4ZjZ4djVSRnVwTmxDV0tBS2NkdVpQdEZMNktwaWxja1B0MGEwdG9fM1VCVy0wQVJabjNpSFA1aldiaEFScVotWF9Ld3RjWngzQmZ5RkVPMkxmZ2twSEZldHVZYTBJWktnZjlZOGlydkoxbTUyUGZvVy1WbHJwcGtpcWVaQVMxbU1UUWd2U3NJaEE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSkxxbWg3OGZqRUQzUEgxY2tweXY3Tk5WQTlpbjdWNnFST244c05TUVBVRzBncXBTZWVFX3lDNVpUcHB6UHR4bWRYQzY1U294QVF4Q3BuM25BUWtDNWk4T0Y4YkR5TWxaSDEtSXhQM3haQjlaU0ZYX19JZlpyRkEtSjZxZkNkUmNfTjB3dnBOeHB3ek5NOWlybXdtWFpWbzIwWF92OWdSbkRyc0JKaEdDOVZOYi1nSWFxalF1NklTcUxJYjJ2elJMejJCWFFHbW02a29GQWtMOGJDMnc?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -48314,7 +48229,22 @@
     "price_at_alert": 81.96
    }
   ],
-  "id": "f507202aaf13"
+  "id": "f507202aaf13",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 6,
+    "summary": "חבר הנהלת הפדרל רצון, כריסטופר וולר, אמר כי הוא תומך בהעלאת ריבית בחודש דצמבר, ואף פתח את הדלת להעלאה חדה יותר של חצי אחוז אם האינפלציה תישאר גבוהה.",
+    "i18n": {
+     "he": "חבר הנהלת הפדרל רצון, כריסטופר וולר, אמר כי הוא תומך בהעלאת ריבית בחודש דצמבר, ואף פתח את הדלת להעלאה חדה יותר של חצי אחוז אם האינפלציה תישאר גבוהה.",
+     "en": "Federal Reserve Governor Christopher Waller stated he supports a December rate hike and opened the door to a larger half-point increase if inflation stays hot.",
+     "ar": "قال صانع السياسة في الاحتياطي الفيدرالي كريستوفر والر إنه يدعم رفع أسعار الفائدة في ديسمبر وأشار إلى إمكانية رفعها بنصف نقطة إذا بقي التضخم مرتفعاً.",
+     "ru": "Управляющий ФРС Кристофер Уллер заявил, что поддерживает повышение ставки в декабре и допускает рост на полпункта при сохранении высокой инфляции."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794303507,
@@ -48579,6 +48509,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtSjBRNS1zMEdjNWpBVXoyYmFWaG5IbkNMaTFMeFZNejg5THM3MXVUUnR1ZmMtcWg3T0NNdDdqbk1UQUs1bEhNQlc4MVROQ2FXbzFjSTFsbl9JcjBpMWVqOE1EemxqSnhfMlZZUjVjTVJ0cWM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemxYMmE5S0hRR05COHp6QmFNSTctWjJVTkpzODl5MmpUaDZIWjFUWkR6TnFQZUdYLVp5M0pxWUgzNTFUYkliaW5VQnFyS04xMWJkOWlWQ1RraXlTVkhtLS1DTGVfVXhCRy1hQTFmRnZuZWRnakI4WXZuWTJvM2lxZjFtOEVzSDk3TDJDVWJkMDZEQjBTQTAtOUptaGtWWmhfWkJNcjE2V21CazdPbmc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVpDckdUT2FVYlMwRV8yb3NSQ3VYaWNESXF6ckJOV2x2V25xWWpiZ05rYlF2SFpWa1hISW4xUmxNaUI3d3p1SzNWMnNyRnFOT2VPT2VmLTJRZFdyWWs4QkgtY2hIWGFWWDRGN1RYSkZkS3VoSkpsV1Z6NVBhVG5VMTZUSmxoa1NGbHRXSkpNbkd1RFl2?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiclVfRURkeGR2d0ZqQ3VFRlphTlZYeXROcHM5U3dmT25mZlBwYVZJY1Z5TGFkQnQzbElmN2Z3YjE0WHRmZUVJYkdmOVdtOGlFS0dQWXhiSk1LMWV4NDZUSmN3cEJWOUpoWDhZbDcxQlFiT1RRMndsYw?oc=5"
    }
   ],
   "impacts": [
@@ -48619,9 +48561,43 @@
      "ru": "XLE - ETF энергетического сектора"
     },
     "price_at_alert": 61.94
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794310608,
+    "reason": "החמרת סנקציות בינלאומיות מחזקת את הביקוש לנכסים בטוחים ולמערכת הפיננסית האמריקאית.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות בינלאומיות מחזקת את הביקוש לנכסים בטוחים ולמערכת הפיננסית האמריקאית.",
+     "en": "Stricter geopolitical sanctions reinforce safe-haven currency demand.",
+     "ar": "تشديد العقوبات يعزز الطلب على العملات الآمنة.",
+     "ru": "Ужесточение санкций поддерживает спрос на безопасные валюты."
+    },
+    "name_i18n": {
+     "he": "UUP – מדד הדולר האמריקאי",
+     "en": "UUP – US Dollar Bullish ETF",
+     "ar": "UUP - صندوق الدولار الأمريكي",
+     "ru": "UUP – ETF доллара США"
+    },
+    "price_at_alert": 28.97
    }
   ],
-  "id": "e0241debf3c2"
+  "id": "e0241debf3c2",
+  "updates": [
+   {
+    "ts": 1794310608,
+    "time": "2026-11-10T11:36Z",
+    "severity": 3,
+    "summary": "ממשלת קנדה החליטה להטיל מחדש סנקציות כלכליות על 11 גופים וחברות הקשורים לאיראן, כולל שירותים פיננסיים, עקב פעילות עוינת.",
+    "i18n": {
+     "he": "ממשלת קנדה החליטה להטיל מחדש סנקציות כלכליות על 11 גופים וחברות הקשורים לאיראן, כולל שירותים פיננסיים, עקב פעילות עוינת.",
+     "en": "The Canadian government has reimposed economic sanctions on 11 Iranian entities and monetary service businesses due to security and policy concerns.",
+     "ar": "أعادت الحكومة الكندية فرض عقوبات اقتصادية على 11 كياناً وشركة مرتبطة بإيران.",
+     "ru": "Правительство Канады повторно ввело экономические санкции против 11 иранских организаций и структур."
+    }
+   }
+  ],
+  "last_update": 1794310608
  },
  {
   "ts": 1794307209,
@@ -48819,5 +48795,67 @@
    }
   ],
   "id": "f875266ddfb1"
+ },
+ {
+  "ts": 1794310608,
+  "time": "2026-11-10T11:36Z",
+  "title": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
+  "summary": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
+  "kid": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
+  "i18n": {
+   "title": {
+    "he": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
+    "en": "Ghana mandates Ebola airport screening as outbreak grows",
+    "ar": "غانا תفرض فحص إيبولا في المطارات مع تفشي المرض",
+    "ru": "Гана вводит обязательный скрининг на Эболу в аэропорту из-за вспышки"
+   },
+   "summary": {
+    "he": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
+    "en": "Health authorities in Ghana have mandated airport screening and 21-day tracking as a regional Bundibugyo Ebola outbreak nears 10,000 cases.",
+    "ar": "فرضت السلطات الصحية في غانا فحص إيبولا ومراقبة لمدة 21 عاماً في المطارات مع اقتراب تفشي المرض من 10 آلاف حالة.",
+    "ru": "Власти Ганы ввели обязательный скрининг на Эболу и 21-дневное наблюдение в аэропортах на фоне приближения числа случаев к 10 000."
+   },
+   "kid": {
+    "he": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
+    "en": "Ghana is screening airport travelers to prevent Ebola from spreading. Outbreak news can turn investor attention toward healthcare and pharmaceutical firms.",
+    "ar": "تقوم غانا بفحص المسافرين في المطارات لمنع انتشار إيبولا، مما يوجه أنظار المستثمرين نحو قطاع الرعاية الصحية والأدوية.",
+    "ru": "Гана проверяет пассажиров в аэропортах для предотвращения распространения Эболы. Новости об вспышках привлекают внимание к фармкомпаниям."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWVnRE9PLXlYRnFmcXhSODFaUmtSUllTMF9yX0V3cHhHMXdNT2NtOFhJZDZ4Z1JWOTZwWW1sWm9tVVlmM2NlTzh0VzBpdjVoYUFQOEk5amNhcW1qR0FXYzFQV29DSFpuNEJUdTZCTm50RkpIb3NUTUJNekMyb1ozdmhMX0h5ZnMwdk85cmx5dFVhNk83ZWEzNEZBNFI3UXF0QmxfRl9SV2ZtTVh5SGxOYkNZVU5fS0dGdERkelQtbWlGQVh2X3dZUkktdGFnQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMHBYaGZORS1ic2ZjWk5ncVlNd2FUX0NmOHYtWUpnQjViM0RCWElWZ3lyRGRIdGdwWWpZbWphQjJvSk1wNVFUdlpWb0hDaERUZG9QaV9ZcVFZSVQtdjJuTGIycEM2dENmZmpHZWJlZ2FjZ292RThhOHFua3lyVlpCUHJB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794310608,
+    "reason": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
+    "reason_i18n": {
+     "he": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
+     "en": "Health outbreak concerns elevate focus on biotech and pharma sectors.",
+     "ar": "مخاوف تفشي الأمراض ترفع الاهتمام بقطاع التكنولوجيا الحيوية والأدوية.",
+     "ru": "Опасения вспышек заболеваний повышают интерес к биотехам и фарме."
+    },
+    "name_i18n": {
+     "he": "XLV – קרן סל שירותי בריאות",
+     "en": "XLV – Health Care Select Sector SPDR Fund",
+     "ar": "XLV - صندوق قطاع الرعاية الصحية",
+     "ru": "XLV – ETF сектора здравоохранения"
+    },
+    "price_at_alert": 188.33
+   }
+  ],
+  "id": "1d76534be20b"
  }
 ]
