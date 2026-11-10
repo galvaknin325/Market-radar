@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T23:14Z",
+ "generated": "2026-11-10T23:51Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 679,
+ "total_alerts": 682,
  "overall": {
   "n": 402,
   "hits": 202,
@@ -546,26 +546,26 @@
    "avg_edge": -0.19
   },
   "UNG": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 9,
    "hits": 7,
    "name": {
     "he": "UNG - קרן סל על גז טבעי",
-    "en": "UNG - Natural Gas Fund",
-    "ar": "UNG - صندوق الغاز الطبيعي",
-    "ru": "UNG - фонд природного газа"
+    "en": "UNG – Natural Gas ETF",
+    "ar": "UNG – صندوق الغاز الطبيعي",
+    "ru": "UNG — фонд природного газа"
    },
    "avg_edge": 3.11
   },
   "TSM": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 4,
    "hits": 3,
    "name": {
-    "he": "TSM - TSMC (יצרנית שבבים חוזית מובילה)",
-    "en": "TSM - TSMC (Major Contract Chip Manufacturer)",
-    "ar": "TSM - TSMC (شركة تصنيع عقود الرقاقات الكبرى)",
-    "ru": "TSM - TSMC (Крупнейший контрактный производитель чипов)"
+    "he": "TSMC - יצרנית שבבים גדולה",
+    "en": "TSMC – a massive chip manufacturer",
+    "ar": "TSMC – مصنع ضخم للرقائق",
+    "ru": "TSMC — крупный производитель чипов"
    },
    "avg_edge": 0.25
   },
@@ -1322,6 +1322,30 @@
     "en": "Amazon – e-commerce and cloud giant",
     "ar": "أمازون - عملاق التجارة الإلكترونية والحوسبة السحابية",
     "ru": "Amazon – гигант электронной коммерции и облачных вычислений"
+   },
+   "avg_edge": null
+  },
+  "EWT": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "EWT - קרן סל של טאיוואן",
+    "en": "EWT – Taiwan ETF",
+    "ar": "EWT – صندوق المؤشرات المتداولة لتايوان",
+    "ru": "EWT — фонд акций Тайваня"
+   },
+   "avg_edge": null
+  },
+  "GEV": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "GE Vernova - חברת ציוד אנרגיה ותשתיות",
+    "en": "GE Vernova – power equipment maker",
+    "ar": "GE Vernova – صانعة معدات الطاقة",
+    "ru": "GE Vernova — производитель энергетического оборудования"
    },
    "avg_edge": null
   }
