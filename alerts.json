@@ -1000,176 +1000,6 @@
  {
   "ts": 1793714108,
   "time": "2026-11-03T13:55Z",
-  "title": "ארה\"ב וקנדה קרובות להשגת הסכם סחר",
-  "summary": "נשיא ארה\"ב טראמפ הצהיר כי ארצות הברית קרובה לסגירת הסכם סחר עם קנדה השכנה.",
-  "kid": "אמריקה וקנדה דנות בסחר ועשויות לחתום על הסכם עסקי חדש בקרוב, דבר שיעזור לחברות שמוכרות סחורות מעבר לגבול.",
-  "i18n": {
-   "title": {
-    "en": "US and Canada Nearing Trade Deal",
-    "he": "ארה\"ב וקנדה קרובות להשגת הסכם סחר",
-    "ar": "الولايات المتحدة وكندا تقتربان من إبرام اتفاق تجاري",
-    "ru": "США и Канада близки к заключению торгового соглашения"
-   },
-   "summary": {
-    "en": "US President Trump stated that the United States is close to finalizing a trade deal with neighboring Canada.",
-    "he": "נשיא ארה\"ב טראמפ הצהיר כי ארצות הברית קרובה לסגירת הסכם סחר עם קנדה השכנה.",
-    "ar": "صرح الرئيس الأمريكي ترامب أن الولايات المتحدة قريبة من وضع اللمسات الأخيرة على اتفاق تجاري مع كندا.",
-    "ru": "Президент США Трамп заявил, что Соединенные Штаты близки к завершению торгового соглашения с Канадой."
-   },
-   "kid": {
-    "en": "America and Canada are talking about trade and might sign a new business deal soon, which can help companies that sell goods across the border.",
-    "he": "אמריקה וקנדה דנות בסחר ועשויות לחתום על הסכם עסקי חדש בקרוב, דבר שיעזור לחברות שמוכרות סחורות מעבר לגבול.",
-    "ar": "تتحدث أمريكا وكندا عن التجارة وقد توقعان اتفاقاً تجارياً قريباً، مما يساعد الشركات التي تبيع السلع عبر الحدود.",
-    "ru": "Америка и Канада обсуждают торговлю и могут вскоре подписать новое соглашение, помогающее приграничной торговле."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUpBTWJCc1lBeWhlaWFkSEFyYUtsbjg4THBRS3Z1cGs2ZE5BXzhiUGRpNFZsTnZtb2I0eHItTV9McE5BYm90TU5nZXJfMm9wLVc4TkhWNnBIZTlyYXhDX3ZRdzRGSnZCWS16Y0JpNnBYLWZwR2hrVmk3c3pIQXpxUVJ5ZGF4amN5ckhIUGdPS28yUjZkbHEtekFnVVVwQQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "up",
-    "t0": 1793714108,
-    "reason": "הסכם סחר דו-צדדי מפחית את אי-הוודאות המכסית עבור ייצוא קנדי.",
-    "reason_i18n": {
-     "en": "A bilateral trade agreement reduces tariff uncertainties for Canadian exports.",
-     "he": "הסכם סחר דו-צדדי מפחית את אי-הוודאות המכסית עבור ייצוא קנדי.",
-     "ar": "اتفاقية تجارية ثنائية تقلل من شكوك الرسوم الجمركية للصادرات الكندية.",
-     "ru": "Двустороннее торговое соглашение снижает тарифные риски для канадского экспорта."
-    },
-    "name_i18n": {
-     "en": "EWC – iShares MSCI Canada ETF",
-     "he": "EWC – קרן סל קנדה",
-     "ar": "EWC - صندوق كندا",
-     "ru": "EWC – ETF акций Канады"
-    },
-    "price_at_alert": 60.83,
-    "entry_price": 60.39,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 61.83,
-    "exit_date": "2026-11-04",
-    "change_pct": 2.38,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": 0.52,
-    "edge_pct": 0.52,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1793714108,
-    "reason": "התפתחויות חיוביות בסחר חוצה גבולות תומכות ביציבות הכלכלית בצפון אמריקה.",
-    "reason_i18n": {
-     "en": "Positive cross-border trade developments support North American economic stability.",
-     "he": "התפתחויות חיוביות בסחר חוצה גבולות תומכות ביציבות הכלכלית בצפון אמריקה.",
-     "ar": "التطورات التجارية الإيجابية عبر الحدود تدعم الاستقرار الاقتصادي في أمريكا الشمالية.",
-     "ru": "Позитивные торговые тенденции поддерживают экономическую стабильность в Северной Америке."
-    },
-    "name_i18n": {
-     "en": "SPY – S&P 500 ETF",
-     "he": "SPY – מדד S&P 500",
-     "ar": "SPY - صندوق مؤشر الأسهم",
-     "ru": "SPY – фонд акций S&P 500"
-    },
-    "price_at_alert": 752.1,
-    "entry_price": 752.73,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 766.73,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.86,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.86,
-    "edge_pct": 1.86,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1e18f7cfae42",
-  "evaluated": true
- },
- {
-  "ts": 1793714108,
-  "time": "2026-11-03T13:55Z",
-  "title": "סיסקו מדווחת על פספוס בהכנסות ברבעון 1 ועסקה בשווי 29 מיליארד דולר",
-  "summary": "סיסקו פרסמה את תוצאות הרבעון הראשון של 2027 עם פספוס בהכנסות, תוך קידום ענק של עסקה בסך 29 מיליארד דולר.",
-  "kid": "סיסקו, מפיצת מזון ענקית, הרוויחה פחות מהצפוי ברבעון האחרון, אך מקדמת עסקה עצומה של מיליארדי דולרים.",
-  "i18n": {
-   "title": {
-    "en": "Sysco Q1 Revenue Miss and $29B Deal in Motion",
-    "he": "סיסקו מדווחת על פספוס בהכנסות ברבעון 1 ועסקה בשווי 29 מיליארד דולר",
-    "ar": "سيسكو تسجل انخفاضاً في الإيرادات وتتحرك نحو صفقة بـ 29 مليار دولار",
-    "ru": "Sysco сообщает о падении выручки в 1 квартале и сделке на $29 млрд"
-   },
-   "summary": {
-    "en": "Sysco released Q1 2027 earnings with a revenue miss while keeping a massive $29 billion transaction in motion.",
-    "he": "סיסקו פרסמה את תוצאות הרבעון הראשון של 2027 עם פספוס בהכנסות, תוך קידום ענק של עסקה בסך 29 מיליארד דולר.",
-    "ar": "أعلنت سيسكو عن أرباح الربع الأول من عام 2027 مع تفويت في الإيرادات بينما تستمر صفقة ضخمة بقيمة 29 مليار دولار.",
-    "ru": "Sysco опубликовала отчет за 1 квартал 2027 года с падением выручки на фоне продвижения крупной сделки на $29 млрд."
-   },
-   "kid": {
-    "en": "Sysco, a giant food distributor, made less money than expected in its latest quarter, but is working on a huge multi-billion dollar deal.",
-    "he": "סיסקו, מפיצת מזון ענקית, הרוויחה פחות מהצפוי ברבעון האחרון, אך מקדמת עסקה עצומה של מיליארדי דולרים.",
-    "ar": "سيسكو، موزعة الأغذية العملاقة، حققت أرباحاً أقل من المتوقع في الربع الأخير بينما تعمل على صفقة ضخمة.",
-    "ru": "Sysco, крупный дистрибьютор продуктов питания, отчиталась о выручке ниже ожиданий, но продолжает крупную сделку."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOG5yLW5JZlNzcTdNeU5qRmZ3XzFnR0pLTkdUenN0LXhtMEtFYXh3d0RrbldrQU5vUEFuYVJ5QzJ1NVJ2UjhONVhxcUFUaC11ZWhYQUFvVC1haVhrMlRSaXFrbkdrd0EwcFlCOFR0UFk2SDJKZ3Z0aEloQnhsR2VkZEp0V0RqUzdq?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1793714108,
-    "reason": "הכנסות חלשות ממפיצה מרכזית משקפות ביקוש זהיר למזון מצד הצרכנים.",
-    "reason_i18n": {
-     "en": "Weaker revenue from a major distributor reflects cautious consumer food demand.",
-     "he": "הכנסות חלשות ממפיצה מרכזית משקפות ביקוש זהיר למזון מצד הצרכנים.",
-     "ar": "الإيرادات الأضعف من موزّع رئيسي تعكس حذر الطلب الاستهلاكي على الأغذية.",
-     "ru": "Слабая выручка крупного дистрибьютора отражает осторожный потребительский спрос на продукты."
-    },
-    "name_i18n": {
-     "en": "SPY – S&P 500 ETF",
-     "he": "SPY – מדד S&P 500",
-     "ar": "SPY - صندوق مؤشر الأسهم",
-     "ru": "SPY – фонд акций S&P 500"
-    },
-    "price_at_alert": 752.1,
-    "entry_price": 752.73,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 766.73,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.86,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.86,
-    "edge_pct": -1.86,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "a55e1a166702",
-  "evaluated": true
- },
- {
-  "ts": 1793714108,
-  "time": "2026-11-03T13:55Z",
   "title": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
   "summary": "אירוע גשמים היסטורי של פעם באלף שנים הפעיל חירום שיטפונות פתאומיים ברחבי חוף החלל בפלורידה, וגרם לשיבושים משמעותיים.",
   "kid": "גשמים זועפים קיצוניים גרמו להצפות קשות בחלקים בפלורידה, העשויים לפגוע בפעילות העסקית המקומית ובחברות ביטוח.",
@@ -45070,6 +44900,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnNsYzdpaDRKS3c2Yi1LdVdWczlkM3QwSEJPMUowOUxxeTZZMUZodGt5SGxucEFkcVkybHhsOTFfWjVyeGdYcTNxbGR1VmNVNHRFc19fMUVoVGJTS1FBS2NaV3pKbzBJZWZOdnBVcXV3ZW55dWZ3WkhSVlBNSlpNc0hBNXBnTlJ0Y3dOQzhoUlJ2TkNBdlM0THVXMDVUcVFxZFFLeEN3?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0VhNUxhclZvUllWZGZMdmh2U0xPYWRRNl94NFdXNC1EemZPWndITmxURHJOWGJrWGtGMUZEUmNXUURMTC1PVkhIQ1dYaFVUSm1tTGtCb3dTMnJfbERPX1hQUlM4WFF5a1luMVdNby1tc2JSOVllQ2prUDFkeHhTeGZ4R2hqMGRjTU5BbVlWd0hWLUVlZGJjNDV6OWVScUpUbWQxV3NYS2h3Y09CZUFLTkxjaXRVUl9G?oc=5"
    }
   ],
   "impacts": [
@@ -45137,9 +44979,21 @@
      "ar": "في أعقاب فضيحة التجسس المحيطة بإنفيديا، يتزايد الضغط في واشنطن لفرض قيود تصدير جديدة على التكنولوجيا المتقدمة.",
      "ru": "Вслед за шпионским скандалом вокруг Nvidia в Вашингтоне растет давление с целью введения новых ограничений на экспорт чипов."
     }
+   },
+   {
+    "ts": 1794322534,
+    "time": "2026-11-10T14:55Z",
+    "severity": 6,
+    "summary": "מניות אנבידיה יורדות על רקע דיווחים על פרשיית אהבים של המנכ\"ל ג'נסן הואנג עם מרגלת סינית לכאורה, מה שמעלה חששות לגבי השפעת החברה על מדיניות הייצוא האמריקאית לסין.",
+    "i18n": {
+     "he": "מניות אנבידיה יורדות על רקע דיווחים על פרשיית אהבים של המנכ\"ל ג'נסן הואנג עם מרגלת סינית לכאורה, מה שמעלה חששות לגבי השפעת החברה על מדיניות הייצוא האמריקאית לסין.",
+     "en": "Nvidia shares are falling amid reports of an affair between CEO Jensen Huang and an alleged Chinese spy, raising concerns about his influence on US-China chip export policy.",
+     "ar": "تتراجع أسهم إنفيديا وسط تقارير عن علاقة غرامية بين الرئيس التنفيذي جينسن هوانغ وجاسوسة صينية مزعومة، مما يثير مخاوف بشأن تأثيره على سياسة تصدير الرقائق الأمريكية إلى الصين.",
+     "ru": "Акции Nvidia падают на фоне сообщений о романе гендиректора Дженсена Хуанга с предполагаемой китайской шпионкой, что вызывает опасения по поводу его влияния на политику США в отношении экспорта чипов в Китай."
+    }
    }
   ],
-  "last_update": 1794272223
+  "last_update": 1794322534
  },
  {
   "ts": 1794266196,
@@ -48468,6 +48322,10 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -48489,9 +48347,43 @@
      "ru": "Nvidia"
     },
     "price_at_alert": 178.67
+   },
+   {
+    "ticker": "XLK",
+    "direction": "up",
+    "t0": 1794322534,
+    "reason": "הנפקה גדולה של חברת AI עשויה להגביר את העניין במגזר.",
+    "reason_i18n": {
+     "he": "הנפקה גדולה של חברת AI עשויה להגביר את העניין במגזר.",
+     "en": "A major AI IPO may boost sector sentiment.",
+     "ar": "طرح عام أولي كبير لشركة ذكاء اصطناعي قد يعزز معنويات القطاع.",
+     "ru": "Крупное IPO компании в сфере ИИ может улучшить настроения в секторе."
+    },
+    "name_i18n": {
+     "he": "מגזר הטכנולוגיה",
+     "en": "Technology Sector ETF",
+     "ar": "صندوق قطاع التكنولوجيا",
+     "ru": "ETF технологического сектора"
+    },
+    "price_at_alert": 170.35
    }
   ],
-  "id": "5fc9fadbd511"
+  "id": "5fc9fadbd511",
+  "updates": [
+   {
+    "ts": 1794322534,
+    "time": "2026-11-10T14:55Z",
+    "severity": 5,
+    "summary": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק ב-19 בנובמבר.",
+    "i18n": {
+     "he": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק ב-19 בנובמבר.",
+     "en": "AI company Anthropic has set an IPO price range of $70-$78 per share, with trading expected to begin on November 19.",
+     "ar": "حددت شركة الذكاء الاصطناعي Anthropic نطاق سعر يتراوح بين 70 و78 دولاراً للسهم قبل طرحها العام الأولي في ناسداك في 19 نوفمبر.",
+     "ru": "Компания Anthropic, занимающаяся искусственным интеллектом, установила ценовой диапазон от 70 до 78 долларов за акцию перед IPO на Nasdaq 19 ноября."
+    }
+   }
+  ],
+  "last_update": 1794322534
  },
  {
   "ts": 1794314358,
@@ -48641,39 +48533,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2FHRTBfanJyQ2cwbl9mWnBMMklDZGdVb3p6bzFzd3JZSkVwUFozWWE0ZFZlU1pvT3YxblUzR2liVHNKdFFDVDFhdlVJMHZnQWdlNTBnOXM1NE51a01KNUdzdGx3WE1HNjFhVWxySjl4UUUza3Zub3llUnRxUy1Ya1VXNGlueUI5ckJlcEl4RVR3ck1ER3ViVVN6VUVwQXNzYXBoOA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbFBNNGYxRlctZ29sYVU0NVJEUmYxaTdYbldKQkVFbjdSbnJYeTJoYVFSeklVN3ZCSjR6eUJaWk5seks2eThlblByZXJPZng2ekUzcHp0Y0dJRmh3YnEzVjFsTXZVSUltYjk3YjQ4T3FRYnhoYjktZ1ZGeVllVm1WbEFvYzlyellmWldNSGh5bkZmaVRGanVVZWZGWkpsYk1BMXFiYmJ4X0d5MDFfcGRKNkpjSkFQMWNvOUE?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa1c1bnE4QlNVdnptemVmRXdNeGdzdGNVME1LLUJ5dEREVW52dDJxMmlLQlJoMVM1VXhZUmNLUDdTSDVXT3Z5d2d3NUZOaXFicm5FczhsOW5xVmVqTUZVZW5VVFhpRHdHVzBMNDB1ZEs2X2VpTlpyMmtJODZZRWJmd0xVUXVicnBlS3ltcDhocUE4TEl3MjkzelhUTDBBWVBuamxrOU5TQkQ2clNBY0E?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0ZLYkhsNktzOHJqSUUzZ3hnZEJrVkh0VGEzSnplOVNSUFA5R1F3NWF1SlVfNkhtMTZqQjZlMlVHTzJvMmZtV0JGLUpqdE5IS2ZmOFZkQ29oR2ZaVnFsZmFFQlpqQlQ1TXZiX250WHhiVmdJSnJCdjZUenNkLTR1dUNnb0Rqdll0WnFEMkVDbG9KY3BwTVE?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0JfOHJvZ1FGbm9EMWNoRmF6eXhwejZvZFk1Wmw1MDNkeXU3RHl1UkQ0bXV2b25TNVJQcUI1ZXJ4WEN1LUFkaElhYVR3V0dCdjVuNGVIbDEwLWFnc3JNclRpQUhERF9nY1NXVk5ndXNDZVBhUjBPZ21oaFg3UEhwN2I1WWs2T0M4ZDNoa1BtcDZlekYwMUdVR0ZvN3U1SWEyTFZEQ3YtT1lDdXo4dFE4Y3V4TXB4TERHdS1Tb25R?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQd1FmbzVpR2tzZWFYU0hjNDhtVUhJSG0tWFF6b0xkMEw2eERMMHBXdk5MQ25LYTEwdjhqVGdiN3NydXBVaHVFcTgyN2F0cGNJRVRDMTFMM2xQTHVodlloUDJtTlQ3dWhHLWtRZnBYakUxMmZFVXNQSk93SXE3VzFwWW1KZWVibFVIYTlYTnRiaEM1cldIN1dZU2xvX2NfcVhOSDNyQ19hUVBxQWdpM3M3eEpqT0hSQ05nZnhLc3BwTEhWQ2xBR3JXOXNidG1mX1VPSFVZcHFNU1N1R0xSc1dkMGhqLUxZaVdV?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVEhSRlVuajZGOUk0VldnM1BoQkRDUklocXBpbzhXQzI0VFBKNW02bHZnNENFT3A5bTBYeHRTZGhvYUpLamx0X2JibmR0eFJUa1RGYkRGQkJ0R2xUSEFFdXBSSTFCb0JRNU1ETEx2M1FUYUNaV1ZpX2pSUHJEWTJ5SDFmUHFQai1xLW9tQTlBc2JzdER6eU51dUhCemxXNW5rcnZSOTVrNXM3N01FSDk4cW51QUNxdw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVWVRV3VHdjZFSTY3eFhlTVdjWDFNTkhhUk9ITFVrRUxieHlIaU1TaXo0R0JNLVJYTFZaQ3NreG9mSjBkajF5ZVcyZndJRUh4enRNaGFOazhYc3ZCMUJaMnJ6M3NYWHNIVHU4LTVXRnFwX0NjaEJGMXR2NjA1OVl2QlVrdmpwS2c?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBycGo3QjNvbGhQX1gzOWt6ZGZHajlwaU9RQ3g5N1QwbkVxVmw0a3RQNVhoY2hRa2xWSFBpaGJ6T0FDN2N5ZkdwbmRIT1RmcG5JVmtXTkc4TllWYzIxMV9QRGZ3OUlNbnlpdkExNjBTc9IBdEFVX3lxTFBibjJELUFiUVpDdlpOU0dUOUdpeXdId2VjN05YSERrb21rT0Zid2VEaW5SVHJoRV9pdG40RzZpS3hTbGt0Tl9ta0ZmM1JNMTFKSFp2SE1HbXdEZzU1QnRxUGdMZDJFT1E3WExMMl81cTZGSXR6?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYVpmdmhfUElMU2lETzYzOTZyZEc4Z3l1R2Z1aFdDaE8xWmhvWjgtTERrWkNVV2VJUmQwZ2hHcVNrY1NpdE9wOUg3YTlveXQyaXNNSW1XR2FZaHFDeTVBaENzcVBadVk3TXdYTUxVdGZfV1hndzUxV3E0cTdBeG1aNWY3M1Fzd3luTzBnMU5lWkxYNE9HNVh3TTh5am10elUtdWhBUjkya3pvOWpV?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTM0hlaW1Oc0FQRUY5YXRsYlgyQVZIMDhlUnpob3ZiZU9DbF9LdE5ocmRGaXNrXzhSU3BDVmhyalFqSXp0WU1WamlZcTAyWUR1U2FEN1h5N1hvNVR6a1ZpeVhVZFktVDRIYXdDSzh0UXRVRVc3RUZMdGZ3?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSmVuWG0xYWRzTV83MVQtZ0pYMUNLakNhYUw0cjZUekxtNy1KZjRvT3NaczVySE5OVXVVM3dDa0ctNnJpZ3FMMm1iRTdGa1ZBMFhXbEU1RUZodGVRTUFLWDFweTJ6YWVpeWZnMzZFUGNwbTN6STBGZVYxR2VGOE8xa2FIazZuNURWTVhyeHZnNFlMSmJCVlRoTmg1c3BtWmI0Y0wyd2NUYUg4YTVHbmtqMlJ5WThzaGZkU29sVnFHNi1GVFdfbjJyUnF0Nnd3RWFpekgzQ2h1aw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQelNoMFNyY01hVzlXME5aeHpRMGpzd1NVc2pxVHlMNFFWYVdUSjdDMkZxdF9fS01fS0xxc3Z3bDN3R28tMlB5TlV2djZib0JZak84MExhcEV4emhRWGpoTURjcTAzOThSU3dqRWFMVEE3VDRjb1FTS1c1b09uU2lFMWlZdkZVWENsWjE4WVUyQTZxZ1pXTDhnTE90czBGb1E2T2o3RHk0ODkxUDZ5ZzVfdDl3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lWjltSUdOSDNiTU1xSHoxMWdrbXplRmVLSlZqUW9qUWd2RXB6Qkk0TFhVZlFLM3RtY1EtN25wdjNXZDVaeWE5a1h5c1lHUVFIbms4VUd3?oc=5"
    }
   ],
   "impacts": [
@@ -48733,8 +48613,247 @@
      "ru": "TLT - ETF долгосрочных гособлигаций США"
     },
     "price_at_alert": 81.96
+   },
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794322534,
+    "reason": "נכסי סיכון סובלים מסביבת ריבית גבוהה.",
+    "reason_i18n": {
+     "he": "נכסי סיכון סובלים מסביבת ריבית גבוהה.",
+     "en": "Risk assets suffer in high-rate environments.",
+     "ar": "الأصول الخطرة تعاني في بيئة أسعار الفائدة المرتفعة.",
+     "ru": "Рисковые активы страдают в условиях высоких ставок."
+    },
+    "name_i18n": {
+     "he": "ביטקוין",
+     "en": "Bitcoin ETF",
+     "ar": "صندوق بيتكوين",
+     "ru": "Биткоин ETF"
+    },
+    "price_at_alert": 41.95
    }
   ],
-  "id": "88ac626e40c1"
+  "id": "88ac626e40c1",
+  "updates": [
+   {
+    "ts": 1794322534,
+    "time": "2026-11-10T14:55Z",
+    "severity": 8,
+    "summary": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, מעבר לתחזיות, מה שמגביר את הציפיות להעלאת ריבית על ידי הפדרל ריזרב בדצמבר. תשואות האג\"ח עלו והשווקים הגיבו בירידות.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, מעבר לתחזיות, מה שמגביר את הציפיות להעלאת ריבית על ידי הפדרל ריזרב בדצמבר. תשואות האג\"ח עלו והשווקים הגיבו בירידות.",
+     "en": "US CPI rose 0.4% in October, exceeding expectations and fueling speculation of a Fed rate hike in December. Treasury yields jumped and equity markets declined.",
+     "ar": "ارتفع مؤشر أسعار المستهلك في الولايات المتحدة بنسبة 0.4% في أكتوبر، متجاوزاً التوقعات، مما عزز التوقعات برفع أسعار الفائدة من قبل الاحتياطي الفيدرالي في ديسمبر. ارتفعت عوائد السندات وتراجعت أسواق الأسهم.",
+     "ru": "Индекс потребительских цен в США вырос на 0,4% в октябре, превысив прогнозы, что усилило ожидания повышения процентной ставки ФРС в декабре. Доходность облигаций выросла, а фондовые рынки снизились."
+    }
+   }
+  ],
+  "last_update": 1794322534
+ },
+ {
+  "ts": 1794322534,
+  "time": "2026-11-10T14:55Z",
+  "title": "צרפת ואיראן בעימות סייבר",
+  "summary": "צרפת זימנה את שגריר איראן בעקבות האשמות על חבלה במקררים בסופרמרקטים צרפתיים על ידי יחידת סייבר איראנית.",
+  "kid": "יש מתח בין צרפת לאיראן בגלל האשמות על תקיפות מחשב שגרמו נזק למקררים בחנויות.",
+  "i18n": {
+   "title": {
+    "he": "צרפת ואיראן בעימות סייבר",
+    "en": "France-Iran cyber conflict",
+    "ar": "نزاع سيبراني بين فرنسا وإيران",
+    "ru": "Киберконфликт Франции и Ирана"
+   },
+   "summary": {
+    "he": "צרפת זימנה את שגריר איראן בעקבות האשמות על חבלה במקררים בסופרמרקטים צרפתיים על ידי יחידת סייבר איראנית.",
+    "en": "France summoned the Iranian ambassador following allegations that an Iranian cyber unit sabotaged refrigerators in French supermarkets.",
+    "ar": "استدعت فرنسا السفير الإيراني بعد مزاعم بأن وحدة سيبرانية إيرانية قامت بتخريب ثلاجات في متاجر سوبر ماركت فرنسية.",
+    "ru": "Франция вызвала посла Ирана после обвинений в том, что иранское киберподразделение саботировало холодильники во французских супермаркетах."
+   },
+   "kid": {
+    "he": "יש מתח בין צרפת לאיראן בגלל האשמות על תקיפות מחשב שגרמו נזק למקררים בחנויות.",
+    "en": "There is tension between France and Iran due to accusations of cyberattacks that damaged refrigerators in stores.",
+    "ar": "هناك توتر بين فرنسا وإيران بسبب اتهامات بشن هجمات سيبرانية تسببت في تلف ثلاجات في المتاجر.",
+    "ru": "Напряженность между Францией и Ираном из-за обвинений в кибератаках, которые повредили холодильники в магазинах."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWF90dkJrNGNYNWRBVHFBbExZc3pLcUxoTm5TaXl5OF9HTEEyWkdaV0NvYjZsSHYzTGN4dXQ0RGpEMmNrY2tIekVTMllTczNBaDgyVDVpcjJGd1l5SmlURUgtUFdGdC1PYkdyMVIzZkEzamk2UkJyWVpRazBFUlpzaG9fWW5ldHd3MklqOUkyOGNoeWlDcElhLXNPTnZSWnZfUjVMbmsyQTcwUdIBrwFBVV95cUxPZm9EbDdHRWVhZ0JoV3NBU3lWX3RqMW9VbHhsa2ZNV0ZFeDVRMC1ocXh6bmFoaVJhelVlT0k2U0dmMFA3c2V4VUgzSXBfZDhqQmJDR2M5c1lQTnp4Nk80QXJxYXVTaWdSUWFvNFFMSlFMQnQ3SXNIVnVVU0dPVXZHMjh6T1ZnTXVIbk5JT0hwOFlIdHV3b2xBOXdnZEp3UXNfOVF3WE10Z0cwQVRadldv?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/10/what-is-shahid-kaveh-%e2%81%a0the-iran-cyber-unit-tied-to-frances-fridge-hacking?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQk96cTFtbHhVbnFNZlBPN0N4REh2LWxabTdueEY1cXlQVldEa21tb194SUdQbW02Nk96QTVVMU9FUEN4NTVLOUxqLXdXZDZRUTFBcUtFRFE1VzFuRGxqeXFvVFFDbEJ2Vk0wbmhxNGZ6NDNmalRrYlRaTE8yVW1aZ3JnOUdRZThDVV9wdmRKZV9QdkZ1aG1pZnFDNnlxYXV4Yl9HX0UySEEzRXgxMk85VS01dmNVZ2c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGVqdXBWamVsYzRWQmhONGxNS1NQWE12V3RPMnE1WnFpV2QxQ2Rxd0tIbG44VVAwUUJTVFctbEJvMTd4Rl9xaEpNd0RTYzlMcW8yNzBaYXl1OUswc29kNWIyVmdJNEhlcHFNVVl4b3J3cUQ4SEpkOTMwX1lvMUFuNUZ5UHUtVTN5SWREQi10SGdqdFNuVFVVODFxMTNLOUNYY25OMGNLd3ZKSll5T19Seng2QWtWVmNTRldKVdIBwwFBVV95cUxNUENSUEZ3OFFRRU1kU3RqeFNxT0o2WHB1S3lqSXZVLXQwNmYyejEyM3RLdXdTdy1mOHVyc183a3hMd3d3V0FaT1d5SXhrSVhDenMxTG00WG1vTm55LVhXY0lIbFBrWXkySm41VXkzbmZkck9NWmVrUWkzOHhiVk1kQUQybWQ1eENvVldISFlOU0FIQzFLbE9OWkVEZHp4TlJrLXgzMHlZUV9JMUZ2aVFlcDFwTFYyUVlPSE9saHdjYjFoQmc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794322534,
+    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר עקב איומים גיאופוליטיים.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחת סייבר עקב איומים גיאופוליטיים.",
+     "en": "Increased demand for cybersecurity solutions due to geopolitical threats.",
+     "ar": "زيادة الطلب على حلول الأمن السيبراني بسبب التهديدات الجيوسياسية.",
+     "ru": "Рост спроса на решения по кибербезопасности из-за геополитических угроз."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק",
+     "en": "CrowdStrike",
+     "ar": "كراود سترايك",
+     "ru": "CrowdStrike"
+    },
+    "price_at_alert": 229.125
+   }
+  ],
+  "id": "7858cda5c97a"
+ },
+ {
+  "ts": 1794322534,
+  "time": "2026-11-10T14:55Z",
+  "title": "Yangzijiang Shipbuilding זוכה בחוזים",
+  "summary": "חברת בניית הספינות Yangzijiang זכתה בחוזים בשווי 7 מיליארד דולר, מה שהביא את צבר ההזמנות שלה ל-26.3 מיליארד דולר.",
+  "kid": "חברת בניית ספינות גדולה קיבלה הזמנות ענק. זה מראה שיש הרבה עבודה בתחום הספנות.",
+  "i18n": {
+   "title": {
+    "he": "Yangzijiang Shipbuilding זוכה בחוזים",
+    "en": "Yangzijiang Shipbuilding wins contracts",
+    "ar": "شركة Yangzijiang لبناء السفن تفوز بعقود",
+    "ru": "Yangzijiang Shipbuilding получает контракты"
+   },
+   "summary": {
+    "he": "חברת בניית הספינות Yangzijiang זכתה בחוזים בשווי 7 מיליארד דולר, מה שהביא את צבר ההזמנות שלה ל-26.3 מיליארד דולר.",
+    "en": "Shipbuilder Yangzijiang has won $7 billion in contracts, pushing its total order book to $26.3 billion.",
+    "ar": "فازت شركة بناء السفن Yangzijiang بعقود بقيمة 7 مليارات دولار، مما رفع إجمالي دفتر طلبياتها إلى 26.3 مليار دولار.",
+    "ru": "Судостроительная компания Yangzijiang получила контракты на сумму 7 млрд долларов, увеличив портфель заказов до 26,3 млрд долларов."
+   },
+   "kid": {
+    "he": "חברת בניית ספינות גדולה קיבלה הזמנות ענק. זה מראה שיש הרבה עבודה בתחום הספנות.",
+    "en": "A large shipbuilding company received huge orders. This shows there is a lot of work in the shipping industry.",
+    "ar": "حصلت شركة كبيرة لبناء السفن على طلبات ضخمة. هذا يظهر أن هناك الكثير من العمل في صناعة الشحن.",
+    "ru": "Крупная судостроительная компания получила огромные заказы. Это показывает, что в судоходной отрасли много работы."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdDByLU9GUGM0UmhiVTZNVUV3T2NBUS1qYldYRk0zUWYzMlVNb3pJY0JDRkdmeURUUk5POGdDSUpBdEdrV1JyYTZXQ2lJUGQ3NTVzRWNZMWdIaXFEZUwxVWZLSm1ldXFKOGpDVWY1c0FXTnp3c2NlY2lHc3lTWGIyQVo2ejE0bEVIWUxDQmNpYzNKYWZZYXF5eTJUVUJoWjllcXllNVZqS1A2bnV4Z3dzWUNZTENDY3FHQndwcUIxMUJEOEo0STFrWjZVOThTTEdTbTRXSkh6NjFsTXh4Q2VKVXI5eV9tOEJV?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794322534,
+    "reason": "פעילות חזקה בתחום הספנות מעידה על ביקוש גלובלי.",
+    "reason_i18n": {
+     "he": "פעילות חזקה בתחום הספנות מעידה על ביקוש גלובלי.",
+     "en": "Strong shipping activity indicates global demand.",
+     "ar": "نشاط الشحن القوي يشير إلى طلب عالمي.",
+     "ru": "Активная деятельность в судоходстве указывает на глобальный спрос."
+    },
+    "name_i18n": {
+     "he": "צים",
+     "en": "ZIM Integrated Shipping",
+     "ar": "شركة زيم للشحن",
+     "ru": "ZIM Shipping"
+    },
+    "price_at_alert": 28.235
+   }
+  ],
+  "id": "bb35ffdfeb27"
+ },
+ {
+  "ts": 1794322534,
+  "time": "2026-11-10T14:55Z",
+  "title": "רפאל חושפת טיל שיוט חדש",
+  "summary": "חברת רפאל הישראלית חשפה את 'SUPER ICE', טיל שיוט ארוך טווח חדש עם ראש קרב במשקל 1,000 פאונד.",
+  "kid": "חברת הביטחון רפאל פיתחה טיל חדש וחזק. זה עשוי לעזור לה למכור יותר מערכות למדינות אחרות.",
+  "i18n": {
+   "title": {
+    "he": "רפאל חושפת טיל שיוט חדש",
+    "en": "Rafael unveils new cruise missile",
+    "ar": "رافائيل تكشف عن صاروخ كروز جديد",
+    "ru": "Rafael представляет новую крылатую ракету"
+   },
+   "summary": {
+    "he": "חברת רפאל הישראלית חשפה את 'SUPER ICE', טיל שיוט ארוך טווח חדש עם ראש קרב במשקל 1,000 פאונד.",
+    "en": "Israeli defense firm Rafael has unveiled 'SUPER ICE', a new long-range cruise missile featuring a 1,000-pound warhead.",
+    "ar": "كشفت شركة الدفاع الإسرائيلية رافائيل عن 'SUPER ICE'، وهو صاروخ كروز جديد بعيد المدى يتميز برأس حربي يزن 1000 رطل.",
+    "ru": "Израильская оборонная компания Rafael представила 'SUPER ICE', новую крылатую ракету большой дальности с боеголовкой весом 1000 фунтов."
+   },
+   "kid": {
+    "he": "חברת הביטחון רפאל פיתחה טיל חדש וחזק. זה עשוי לעזור לה למכור יותר מערכות למדינות אחרות.",
+    "en": "Defense company Rafael developed a new, powerful missile. This could help them sell more systems to other countries.",
+    "ar": "طورت شركة الدفاع رافائيل صاروخاً جديداً وقوياً. قد يساعدها ذلك في بيع المزيد من الأنظمة لدول أخرى.",
+    "ru": "Оборонная компания Rafael разработала новую мощную ракету. Это может помочь ей продавать больше систем другим странам."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcHBqblZCZkpEYUprdy1uaWNPREhYOE9wTW9zVC0yd3dYVTZKd2JVQXlJQ0ROV1ZuMTNVbmFaUGtuR2VhTXRweDdhaWFvc3poa1ZpeE9pRUZaTXcwbXNzTmpTYlI4UnYyUFA3ZzdBdmd4cTBlWDNVM2JrR2dySkE1S1pNaWg4RHVpeWd4UGVhd25aQzBNUVFENFBzM0l4TUtRemM1SGYxQV9IZ3NPMThjQg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1794322534,
+    "reason": "התפתחות חיובית בתעשייה הביטחונית הישראלית.",
+    "reason_i18n": {
+     "he": "התפתחות חיובית בתעשייה הביטחונית הישראלית.",
+     "en": "Positive development for the Israeli defense industry.",
+     "ar": "تطور إيجابي لصناعة الدفاع الإسرائيلية.",
+     "ru": "Позитивное развитие для израильской оборонной промышленности."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות",
+     "en": "Elbit Systems",
+     "ar": "إلبيت سيستمز",
+     "ru": "Elbit Systems"
+    },
+    "price_at_alert": 740.39
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794322534,
+    "reason": "ביקוש גלובלי גובר לטכנולוגיות הגנה.",
+    "reason_i18n": {
+     "he": "ביקוש גלובלי גובר לטכנולוגיות הגנה.",
+     "en": "Rising global demand for defense technologies.",
+     "ar": "زيادة الطلب العالمي على تقنيات الدفاع.",
+     "ru": "Растущий мировой спрос на оборонные технологии."
+    },
+    "name_i18n": {
+     "he": "מדד תעשיות ביטחוניות",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الدفاع",
+     "ru": "ETF аэрокосмического и оборонного сектора"
+    },
+    "price_at_alert": 71.7977
+   }
+  ],
+  "id": "32b8a7f100bd"
  }
 ]
