@@ -57129,7 +57129,12 @@
   "category": "geopolitics",
   "severity": 6,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -57149,9 +57154,62 @@
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 71.67
+   },
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "יצרנית מערכות הגנה אווירית המבוקשות על ידי אוקראינה.",
+    "reason_i18n": {
+     "he": "יצרנית מערכות הגנה אווירית המבוקשות על ידי אוקראינה.",
+     "en": "Manufacturer of air defense systems sought by Ukraine.",
+     "ar": "الشركة المصنعة لأنظمة الدفاع الجوي المطلوبة.",
+     "ru": "Производитель систем ПВО, нужных Украине."
+    },
+    "name_i18n": {
+     "he": "RTX – ענקית תעופה וביטחון",
+     "en": "RTX – Defense & Aerospace",
+     "ar": "RTX – شركة الدفاع والفضاء",
+     "ru": "RTX – оборонная компания"
+    },
+    "price_at_alert": 200.57
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "מייצרת טילי יירוט ומערכות הגנה מתקדמות.",
+    "reason_i18n": {
+     "he": "מייצרת טילי יירוט ומערכות הגנה מתקדמות.",
+     "en": "Produces interceptor missiles and defense systems.",
+     "ar": "تنتج الصواريخ الاعتراضية وأنظمة الدفاع المتقدمة.",
+     "ru": "Производит ракеты-перехватчики и системы защиты."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – ענקית ביטחונית",
+     "en": "Lockheed Martin – Defense contractor",
+     "ar": "لوكهيد مارتن – مقاول دفاعي",
+     "ru": "Lockheed Martin – оборонный подрядчик"
+    },
+    "price_at_alert": 601.8
    }
   ],
-  "id": "1ac11e5a4f4d"
+  "id": "1ac11e5a4f4d",
+  "updates": [
+   {
+    "ts": 1794338171,
+    "time": "2026-11-10T19:16Z",
+    "severity": 4,
+    "summary": "שר החוץ של אוקראינה הפציר במזכיר המדינה האמריקאי מרקו רוביו להאיץ את אספקת טילי היירוט, בזמן שרוסיה ממשיכה לתקוף את רשת החשמל.",
+    "i18n": {
+     "he": "שר החוץ של אוקראינה הפציר במזכיר המדינה האמריקאי מרקו רוביו להאיץ את אספקת טילי היירוט, בזמן שרוסיה ממשיכה לתקוף את רשת החשמל.",
+     "en": "Ukraine's foreign minister urged US Secretary of State Marco Rubio to accelerate air defense interceptor deliveries as Russia targets the power grid.",
+     "ar": "حث وزير الخارجية الألماني وزير الخارجية الأمريكي ماركو روبيو على تسريع تسليم الصواريخ الاعتراضية بينما تستهدف روسيا شبكة الكهرباء.",
+     "ru": "Глава МИД Украины призвал госсекретаря США Марко Рубио ускорить поставки ракет-перехватчиков из-за ударов РФ по энергосетям."
+    }
+   }
+  ],
+  "last_update": 1794338171
  },
  {
   "ts": 1794303507,
@@ -57956,27 +58014,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMFFlZWFUdzRIZzJpczFkY1FLUzBBNE1XMmgyRlRabGRoekotT09TZ3djOE81M29jVjEwdTB0a3hXSkxkWjB0ci12UjZ1eklXOU9zcVAzdWpsWFJSVDJXMWhucThBaFF0eS1UemFrVnlBaTIxVHNETmhCSzVCLUloLVAzYWd3QVZnel9FWlpxemVJWHpkVy10UkZvVzNqMlBXNnFPUmxQWUc3ZE93ZV93?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ2Q5MnZaTk5yUWkwZ2xGMFk2ZmdiU0tnbkM4YkFrRlJiVVYxMEJmYVV4NWpDX2lsWGtsMXphaDBaQWRVUlJKMGFQVkpNUHM1Y2JzbmJUSDQzLXhhRXhNdmVvanBSbTNucXBST2J5Tk1hc2UybVRoM2FzekRrN3RSVVkxeDgwTC1jUHJhdkhDZmtXZEJ1NkYzREhxVWJDZlRVQ1BkUi1QazEzT3lOVkI2dFhxS1RzcldrSWM0WjlPYXVMSVdNM0E?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV2xjREUtcVZKbTJpMUNxRzZSM1dOX3NGc2V4SWJteE5xM3hsd3B6LUZNSF9RMHBlTGdud3BpUWxTSmNTVk0tNllBV0Nuck9xRlR5RHdoU3M0UTdlYjIxMTlWclNPQ043d0xiV1JfWXpNYmZfRXpjRWpWNWlCUmZLQnZQSHYwMmtoT04zcTdCZHg0ZVcyczUtdnV1ZEx6T0JjVUdHTzJIUVVicTU5RW5TQWlrdw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMGlWRUtLazFmMzFpUjkzOF9MWWxaS3FRY3VhN25wb2RPOEtScll1VENEZ0o4eGJ5aUdocVpFNkR4NmVrVjVTenJ3dmtNbG41ZVlvd0ZITFR2RHREVGdwN1lkRG5oNlp6S1Vwb3JTa0J6UTJlYWZGYW9vQ29yOVpkRXdn?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmtnSmRQcE1QbnlwcllDTjl1X29IVnl6cmhpZWdPZ284X1drWGpvQjlZZ0cyUWYxazhNZm5GVmpUa205ZTR0cjctMkNYVEVuM29MNkQ1cHhMLWRNYXNGZ2tfZGJUSU10VnM0RlNrVVM3ZFY4c3EwQ2hheUo0NVo4WmU1RDdnQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORXF5Z25rdWQ3WF9WNlpVcnVfRDh0ejF0OVlwQXdrUnl2OVV0c2syRGZEVzJRNE9jekNtUXctbm4tT1hEV2dpLU1hdTUtd2xNYWVzLXRFd190cGNMd0IwekNleDRiWFdVZVNwVDBzQm9LcGFpLVZYSWU1ZERHZXVFVmJzT1JBbFpsRFhYM1RfU09TUU9PNzVJTFplYi1CNXN4ZDhBd1VEcnhQWWhtUnlKQUZnM1pGb2E5ZnpHOTlTbUh0WHRNQkVNLWRwY2ttelg0ZWphVTNQbFhjY3pxNUE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM2ZJdU94UmtOaktod3NNTXB0VVdCTFBmNUtFNHF4b1NoaUpkLUdtaHVIMDUwODNDdmdDOVVVWTU3bElaR2dwOVZXcmZzVzdBR2h3dG9zVkFqLTlGbGstMEZzbS1FeXNCNDM0QlZ0SjBjZEEwTkpDbDQ5MnJrckl5N0l4cDR4NmtyRmk2Mko3WVdIYWRlSE5WRjNlU3ZyY2dZNjUzblF3QzU3bFZpVHFVcTlXRTdRQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSGlYSEplZEFtZnE5X3BSQ2RMbjljcjE2NnpkaGNQRjRia05fN0xVeDk3Mld3eHRKUWNQWHlBazBnbUZkTWRQMnBsTDlLRHdSV1Bmang4R2o2V3lzQnVabkpkU201NFVNd0pzcUlJb1drVTlVZzZDVTJpcndzSUtQOGg1eWRvYjB4RU03VmdEVVE0bzFCakRNZnMxTUV1RVAyTVZYZ0tDejk4VHF6UG1vNVRQRmxVNDZydGtWSXlGWVFXN1lfRVBBUFNzWnZJZU8tMUtJSg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWnE5QlNhNFVkQ1JHb2M5OWJwODlWRzlyYXJsLW9pNERaekZNUVVaUWJQUW5NY1phQmZBN0gxdzhDelpQcDdSbFVsbUM2bmlNSi1ZTHNPMXNNbEttZTFPcVI4LVY1RGxacjlPWmxrWkdEUHRMUG9NZkg3RlJfMFdTNWdGY3FvR3BtbWFyVkE5S3luODM4Smo5RGFPVzVpTllORHZ1dUdBbjQ1UVU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3RBLW9xZHRHa09fQmhRQ3AyMFJrU3dCZzUzR05scHFpMWZfQU5VQmU1TUpndmpFSFB1Qng0Zzl5a1RVamJoLTc3Q2owTHFvdk8ya1RkOVE3UmpqbmxFNmd2Z0QxYUtjMXU1eTJPaEtwMFhPMUZ2a3U3bWROT2RjNTZHS2d3bENSMThyTGtEXy1ZR1JsZ3ZpQURTakdUZDFPZXFQdXZQbzFGRUZGeWhQS3hBN24?oc=5"
    }
   ],
   "impacts": [
@@ -58074,6 +58132,25 @@
      "ru": "GLD - ETF на золото"
     },
     "price_at_alert": 370.54
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "הדולר מתחזק בעקבות הציפיות להדק את המדיניות המוניטרית.",
+    "reason_i18n": {
+     "he": "הדולר מתחזק בעקבות הציפיות להדק את המדיניות המוניטרית.",
+     "en": "The dollar strengthens on rate hike expectations.",
+     "ar": "يقوى الدولار مع توقعات تشديد السياسة النقدية.",
+     "ru": "Доллар укрепляется на ожидании жесткой политики."
+    },
+    "name_i18n": {
+     "he": "UUP – קרן סל הדולר האמריקאי",
+     "en": "UUP – US Dollar ETF",
+     "ar": "UUP – صندوق الدولار الأمريكي",
+     "ru": "UUP – фонд американского доллара"
+    },
+    "price_at_alert": 29.14
    }
   ],
   "id": "88ac626e40c1",
@@ -58125,9 +58202,21 @@
      "ar": "أدت بيانات التضخم الأمريكية الساخنة إلى دفع عوائد سندات الخزانة فوق 5% وإثارة مخاوف رفع الفائدة وهبوط الأسهم.",
      "ru": "Горячие данные по инфляции в США подняли доходность казначейских облигаций выше 5% и обвалили акции на фоне страхов повышения ставки."
     }
+   },
+   {
+    "ts": 1794338171,
+    "time": "2026-11-10T19:16Z",
+    "severity": 7,
+    "summary": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, קצב גבוה מהתחזיות. הנתונים גרמו לירידה בשוקי המניות, לזינוק בתשואות האג\"ח ולחיזוק הדולר על רקע ציפיות להדק את מדיניות הפד.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, קצב גבוה מהתחזיות. הנתונים גרמו לירידה בשוקי המניות, לזינוק בתשואות האג\"ח ולחיזוק הדולר על רקע ציפיות להדק את מדיניות הפד.",
+     "en": "US consumer prices rose 0.4% MoM in October, exceeding expectations and driving US equities lower while bond yields and the US dollar surged on renewed Fed tightening concerns.",
+     "ar": "ارتفعت أسعار المستهلكين في الولايات المتحدة بنسبة 0.4% في أكتوبر، مما أدى إلى انخفاض الأسهم وصعود عوائد السندات والدولار.",
+     "ru": "Потребительские цены в США выросли на 0.4% в октябре, превысив прогнозы. Это привело к падению акций, росту доходности облигаций и укреплению доллара."
+    }
    }
   ],
-  "last_update": 1794334532
+  "last_update": 1794338171
  },
  {
   "ts": 1794322534,
@@ -58649,6 +58738,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE1vMU54Z0x5VXBZbGJCcG9pbjRVbmM0U2N6Y3VoWmZaelJYWFdQRUNUTHV4V3NXZ0lrTkhkU3Fjb3QyQ3IzZ0FxamMwdkhpR2pBMklBcUpNUU5NMVFpMldSUnZCTGY3eVFGTzJCbFkzOWRHSVRhWlZCM0ZZNENhUjlMUG02NXIwcXRZTGJ0aDJ4UEtJbmQ1Tm1iR0NXNmhvQkZhM0s0bw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWWN5bUctaFZLazBKRzNzNXRrMHJicF9sLVZuNkNZNWx5cUxSSlEyQmdlUzVjMy00N2pjcGM3R1M4Tkd5aTVEZG5hYVAxUmd4NFZacXNpbzNKOEJVai1zVlhoUklFQ001dGxnNnBlNVBiVzdDMEctM21PX1dqM2pEdVRta1ZaQzJkdlBCaHlvVXVVWnp2d1Rzei1DajBWZ3Q0Q3N3dGc3VDJmSm96ajIyUExjdm5tNktoUlhHWDhDSTNDVktaNkQzQ1VON08?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVG53bmlNcmhKdWZ1ZjZlZVlHYno5YTRJd0dnZk1SclBqZFBjVnktcGVSMFhZSFM3WWVpeXBhUVp2V05POG1CYW84TUx1b1B4SzNzNFpnRnpxQkF6ZTdSdWlXWVh3Ni1PaS10Z01LbTNrbFVqaWhMWUZ1YW5Dc0FfSS1kVWhfNzFZTVlkS0NqZmxmcFZ1enA2aXZn?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVp3V3pBVVpURVFfMEQ1UjZfY2NUMWpIN1Iwd3ZySXd2LVljRnZDQW8tTF9iY3VqWk9EQ1NtNXNPMVU1OV9BaEJmYlRYcktrTDZ1TmR1ZVdoS0lEOHdUSVhTVGktcHY4TE1uWTB5enhmclZXNmdOOWhmTDdRSW9qTG83MUl2bUNTN3NEOTdKbjR1aXQ4XzZYV1AxYTdaUTZpaEFXaGxUSDhaTnNvNWNNSkFjb2t4eTdUMFhmLVF3VGZTaGtHRUp2bA?oc=5"
    }
   ],
   "impacts": [
@@ -58691,7 +58792,22 @@
     "price_at_alert": 60.165
    }
   ],
-  "id": "cf5b0985cfba"
+  "id": "cf5b0985cfba",
+  "updates": [
+   {
+    "ts": 1794338171,
+    "time": "2026-11-10T19:16Z",
+    "severity": 4,
+    "summary": "מחירי הנחושת רשמו ירידה (חוזי HG ירדו ב-1.37%), בזמן שחברות כמו AT&T מציעות תגמולים נגד גניבות חוטים וחברות כריה מרחיבות קידוחים.",
+    "i18n": {
+     "he": "מחירי הנחושת רשמו ירידה (חוזי HG ירדו ב-1.37%), בזמן שחברות כמו AT&T מציעות תגמולים נגד גניבות חוטים וחברות כריה מרחיבות קידוחים.",
+     "en": "Copper prices dropped with HG futures falling 1.37%, while drill pushes expand and telecom firms fight rising copper wire thefts.",
+     "ar": "انخفضت أسعار النحاس بينما تسعى شركات الاتصالات لمكافحة سرقة الأسلاك وتتوسع عمليات التعدين.",
+     "ru": "Цены на медь снизились (фьючерсы упали на 1.37%), в то время как компании борются с кражами кабеля и расширяют бурение."
+    }
+   }
+  ],
+  "last_update": 1794338171
  },
  {
   "ts": 1794331565,
@@ -58969,6 +59085,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSFNkdVE2QXJ3Zy1NMkJhMFVfcGNoOTRUS3gzTkZaazMwVUZOblBTNGxCV284Smtadk9icGNYRTMxYmstZlM0Tl8tQzI0V0dScW90ZHlUMzRqMHg3RVFMeU1wZC1BNGROOTBOYkt6S0FtTlJTejRBOHRQYllSSVQ0N0Z4TXl4dVUwSEdBRTBJZk9PajZzcjNXRGpRUGQ3UQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOem52akhZNUlDTDRuNEJTd1EzYUwyRzg5Z2hIQ3hOUmpnal9YNExiS2lwRXUyTnQxblhUR1BmczItNVhBZVBaV3pMSW5TbXl2eEtEV3FYQjAzM2Z1aWVkdzBYSXY3WjVxMmVnbHZRYjc3SVAtV21TRDZXNFNrMUd5bUJGbnNIX3IwTll3am84bzZXY3B1U0dlTldpcWE0QldLMU9HVFAzVkJtWkE?oc=5"
    }
   ],
   "impacts": [
@@ -59011,7 +59131,22 @@
     "price_at_alert": 26.25
    }
   ],
-  "id": "6177c148fd54"
+  "id": "6177c148fd54",
+  "updates": [
+   {
+    "ts": 1794338171,
+    "time": "2026-11-10T19:16Z",
+    "severity": 4,
+    "summary": "ירידה ביצוא החיטה מרוסיה יוצרת חוסר של 12.5 מיליון טון בשוק החקלאי העולמי, דבר המשפיע על זמינות הדגנים והמסחר.",
+    "i18n": {
+     "he": "ירידה ביצוא החיטה מרוסיה יוצרת חוסר של 12.5 מיליון טון בשוק החקלאי העולמי, דבר המשפיע על זמינות הדגנים והמסחר.",
+     "en": "A shortfall in Russian wheat exports has created a significant 12.5 million ton gap in global agricultural trade markets.",
+     "ar": "أدى نقص صادرات القمح الروسي إلى خلق فجوة كبيرة تبلغ 12.5 مليون طن في أسواق التجارة الزراعية العالمية.",
+     "ru": "Сокращение экспорта российской пшеницы привело к появлению дефицита в 12.5 млн тонн на мировом агрорынке."
+    }
+   }
+  ],
+  "last_update": 1794338171
  },
  {
   "ts": 1794334532,
@@ -59098,7 +59233,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "sources": [
    {
@@ -59116,6 +59251,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3N5ZU9aOVVQUDgxUzZjOS14dWxyamtvYm5pQ1JIS0lkZWs5a29JZXl4WS03c1RORG5KaEQ0V2wyWWFDYWlmcUdsMnM5akRzVV9HMjdPNzdyd0pudjNtRkliejBpYkpQSXVjYllRSzU5REkySXE2YkpFZXU3Mk4wVmUyT1dZMHdnai1KMDM3Q0RDWVlaVVEyd2x4alQzTm5Edm5YUnVR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yZ2hWZFczbk9GU3kycks2NkpVSHBGZlpoMGdVejY4TWphRHJzc25jVG9nMGxIOWN3Q0hScXdFT1gwcEhiTU85ZW9rcm5BZ0hyampSclVJZ3Zjc082SnNWYWtBSm5sQmtUTlE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2lsaWZybGFXRnBSbGJWekg0YlUwaGpCMjVEVk1faTluay1kSkdvbTZ6Zy1Db1JGeV9wMk9MQVY0OWRIWHpmWVVtYl9DRUFaTllubkZtdmxnSjNWUk9paTQxbFBOYjlMOTBYcW5SODQtcUc2SloxNlY5MGxuYm9SOThkX1BYTDA?oc=5"
    }
   ],
   "impacts": [
@@ -59156,8 +59299,177 @@
      "ru": "LMT - Lockheed Martin (оборона)"
     },
     "price_at_alert": 602.77
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "החמרה במתיחות במזרח התיכון מעלה את הביקוש למניות ביטחוניות.",
+    "reason_i18n": {
+     "he": "החמרה במתיחות במזרח התיכון מעלה את הביקוש למניות ביטחוניות.",
+     "en": "Middle East escalation boosts defense contractor demand.",
+     "ar": "تصعيد الشرق الأوسط يعزز الطلب على قطاع الدفاع.",
+     "ru": "Эскалация на Ближнем Востоке повышает спрос на оборонку."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA – صندوق قطاع الدفاع والفضاء",
+     "ru": "ITA – фонд аэрокосмического и оборонного секторов"
+    },
+    "price_at_alert": 72.11
    }
   ],
-  "id": "67864e2a14ae"
+  "id": "67864e2a14ae",
+  "updates": [
+   {
+    "ts": 1794338171,
+    "time": "2026-11-10T19:16Z",
+    "severity": 5,
+    "summary": "איראן חשפה בסיס טילי ענק תת-קרקעי נוסף, ומשמרות המהפכה הזהירו מפני תגובה צבאית בזמן שהסגר הימי על המדינה נמשך.",
+    "i18n": {
+     "he": "איראן חשפה בסיס טילי ענק תת-קרקעי נוסף, ומשמרות המהפכה הזהירו מפני תגובה צבאית בזמן שהסגר הימי על המדינה נמשך.",
+     "en": "Iran unveiled a massive underground missile facility, with the IRGC issuing warnings of retaliation amidst an ongoing US blockade.",
+     "ar": "كشفت إيران عن منشأة صارخية ضخمة تحت الأرض، بينما حذر الحرس الثوري الإيراني من رد وسط استمرار الحصار.",
+     "ru": "Иран показал крупную подземную ракетную базу, а КСИР пригрозил ответными мерами на фоне продолжающейся морской блокады."
+    }
+   }
+  ],
+  "last_update": 1794338171
+ },
+ {
+  "ts": 1794338171,
+  "time": "2026-11-10T19:16Z",
+  "title": "מקסיקו מאשרת רכישת מסוקי בלאק הוק מתקדמים מסוג UH-60M",
+  "summary": "ממשלת מקסיקו הבטיחה רכישה של מסוקי UH-60M Black Hawk מתקדמים, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
+  "kid": "מקסיקו קונה מסוקים צבאיים חדשים, מה שנותן הזמנה גדולה לחברת התעופה והביטחון שמייצרת אותם ומחזק את המניות שלה.",
+  "i18n": {
+   "title": {
+    "he": "מקסיקו מאשרת רכישת מסוקי בלאק הוק מתקדמים מסוג UH-60M",
+    "en": "Mexico secures sale for advanced UH-60M Black Hawk helicopters",
+    "ar": "المكسيك تؤمن صفقة لشراء مروحيات بلاك هوك المتطورة UH-60M",
+    "ru": "Мексика оформляет сделку на покупку современных вертолетов Black Hawk UH-60M"
+   },
+   "summary": {
+    "he": "ממשלת מקסיקו הבטיחה רכישה של מסוקי UH-60M Black Hawk מתקדמים, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
+    "en": "The Mexican government secured a major sale for advanced UH-60M Black Hawk military helicopters.",
+    "ar": "أمنت الحكومة المكسيكية صفقة شراء مروحيات UH-60M Black Hawk المتقدمة.",
+    "ru": "Правительство Мексики заключило сделку на покупку современных военных вертолетов UH-60M Black Hawk."
+   },
+   "kid": {
+    "he": "מקסיקו קונה מסוקים צבאיים חדשים, מה שנותן הזמנה גדולה לחברת התעופה והביטחון שמייצרת אותם ומחזק את המניות שלה.",
+    "en": "Mexico is buying new military helicopters, bringing a large order to the defense company that makes them and supporting its stock.",
+    "ar": "تشتري المكسيك مروحيات عسكرية جديدة، مما يعزز طلبيات الشركة المصنعة ويدعم أسهمها.",
+    "ru": "Мексика покупает новые военные вертолеты, обеспечивая крупный заказ производителю и поддерживая его акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZWJ2STNmRWVNOGllMlVucEl2ZVpOUVctOTJIWVlhU0ljY0hPbFNQNE1jVjFnRGdMSFh2Nm5rMlVJbXhpZjZmdmxJZVdkTXQ4US1QNkpZWC1WZ1MzMTBHR1VWQ0EtMU1fYi1LMFRDbGY1VHV6ckhzWmhhOEtIQW5xWVdscWkxNFVHNWVQZWpnLXJRUGNOOXZibm1OTlRJYWtRRktR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "חברת הבת שלה Sikorsky מייצרת את מסוקי ה-Black Hawk.",
+    "reason_i18n": {
+     "he": "חברת הבת שלה Sikorsky מייצרת את מסוקי ה-Black Hawk.",
+     "en": "Its Sikorsky unit manufactures the Black Hawk helicopters.",
+     "ar": "وحدة سيكورسكي التابعة لها تصنع مروحيات بلاك هوك.",
+     "ru": "Подразделение Sikorsky производит вертолеты Black Hawk."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – ענקית ביטחונית",
+     "en": "Lockheed Martin – Defense contractor",
+     "ar": "لوكهيد مارتن – مقاول دفاعي",
+     "ru": "Lockheed Martin – оборонный подрядчик"
+    },
+    "price_at_alert": 601.8
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "עסקאות ביטחוניות זרות תומכות בסקטור הביטחוני האמריקאי.",
+    "reason_i18n": {
+     "he": "עסקאות ביטחוניות זרות תומכות בסקטור הביטחוני האמריקאי.",
+     "en": "Foreign defense sales support the US aerospace sector.",
+     "ar": "مبيعات الدفاع الخارجية تدعم قطاع الفضاء الأمريكي.",
+     "ru": "Иностранные оборонные сделки поддерживают сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון",
+     "en": "ITA – Aerospace & Defense ETF",
+     "ar": "ITA – صندوق الدفاع والفضاء",
+     "ru": "ITA – оборонный ETF"
+    },
+    "price_at_alert": 72.11
+   }
+  ],
+  "id": "51a7ca00db51"
+ },
+ {
+  "ts": 1794338171,
+  "time": "2026-11-10T19:16Z",
+  "title": "אמפליפון אמריקה מדווחת על מתקפת סייבר שחשפה נתונים רפואיים ושל לקוחות",
+  "summary": "חברת Amplifon Americas אישרה כי נפגעה באירוע סייבר שחשף מידע אישי ורפואי רגיש של לקוחותיה.",
+  "kid": "חברה גדולה נפגעה מהאקרים שגנבו מידע רפואי של לקוחות, מה שמדגיש את הסיכון שחברות עומדות בפניו ומזכיר את הצורך בחברות אבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "אמפליפון אמריקה מדווחת על מתקפת סייבר שחשפה נתונים רפואיים ושל לקוחות",
+    "en": "Amplifon Americas reports cyberattack exposing customer and medical data",
+    "ar": "أمبليفون الأمريكتين تبلغ عن هجوم سيبراني كشف عن بيانات العملاء والبيانات الطبية",
+    "ru": "Компания Amplifon Americas сообщила о кибератаке, в ходе которой утесли данные клиентов и медицинская информация"
+   },
+   "summary": {
+    "he": "חברת Amplifon Americas אישרה כי נפגעה באירוע סייבר שחשף מידע אישי ורפואי רגיש של לקוחותיה.",
+    "en": "Amplifon Americas confirmed that a cyberattack exposed sensitive customer and medical information, raising data security concerns.",
+    "ar": "أكدت شركة أمبليفون الأمريكتين أن هجوماً سيبرانياً كشف عن معلومات حساسة للعملاء وبيانات طبية.",
+    "ru": "Компания Amplifon Americas подтвердила, что кибератака привела к утечке конфиденциальных данных клиентов и медицинской информации."
+   },
+   "kid": {
+    "he": "חברה גדולה נפגעה מהאקרים שגנבו מידע רפואי של לקוחות, מה שמדגיש את הסיכון שחברות עומדות בפניו ומזכיר את הצורך בחברות אבטחת מידע.",
+    "en": "A major company suffered a cyberattack exposing customer medical data, highlighting the ongoing risks businesses face and focusing attention on cybersecurity firms.",
+    "ar": "تعرضت شركة كبرى لهجوم سيبراني كشف بيانات العملاء، مما يبرز مخاطر الأمن السيبراني.",
+    "ru": "Крупная компания пострадала от хакерской атаки, что подчеркивает риски кибербезопасности для бизнеса."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEdaTVotMzNEb25aYzlsbWpHaHUteHBLV1A1WjhUVWdsbjZJOGNzR3BVemo4ZmdxN05qd1M1RGd1eENOZXMtYTR4MzFGdTZ5VW45dHlSN0JtWERZY3VfX3F6TEhIc0wtV3VreDhwSkVka1FCMml5RmtCZmwzR3ppYTFzaEJfYndo?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794338171,
+    "reason": "אירועי סייבר תכופים מעלים את המודעות לפתרונות הגנה ומאבטחים.",
+    "reason_i18n": {
+     "he": "אירועי סייבר תכופים מעלים את המודעות לפתרונות הגנה ומאבטחים.",
+     "en": "Frequent cyber breaches raise awareness and demand for security solutions.",
+     "ar": "الختراقات السيبرانية المتكررة تزيد الطلب على حلول الأمان.",
+     "ru": "Частые киберинциденты повышают спрос на защиту."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – Cybersecurity firm",
+     "ar": "كراودسترايك – شركة الأمن السيبراني",
+     "ru": "CrowdStrike – компания по кибербезопасности"
+    },
+    "price_at_alert": 224.475
+   }
+  ],
+  "id": "7ec909647697"
  }
 ]
