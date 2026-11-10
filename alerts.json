@@ -183,121 +183,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793703269,
-  "time": "2026-11-03T10:54Z",
-  "title": "תקיפות אמריקאיות נגד איראן באזור מצר הורמוז",
-  "summary": "ארה\"ב ביצעה תקיפות מוגבלות נגד האי קשם באיראן בתגובה למתקפת טילים על כלי טיס אמריקאי במצר הורמוז.",
-  "kid": "ארה\"ב תקפה מטרות באיראן אחרי שאיראן ירתה טילים על מטוס אמריקאי. זה עלול לגרום למחירי הנפט לעלות כי האזור חשוב מאוד להובלת נפט בעולם.",
-  "i18n": {
-   "title": {
-    "he": "תקיפות אמריקאיות נגד איראן באזור מצר הורמוז",
-    "en": "US launches retaliatory strikes against Iran near Strait of Hormuz",
-    "ar": "الولايات المتحدة تشن ضربات انتقامية ضد إيران بالقرب من مضيق هرمز",
-    "ru": "США нанесли ответные удары по Ирану в районе Ормузского пролива"
-   },
-   "summary": {
-    "he": "ארה\"ב ביצעה תקיפות מוגבלות נגד האי קשם באיראן בתגובה למתקפת טילים על כלי טיס אמריקאי במצר הורמוז.",
-    "en": "The US conducted limited retaliatory strikes against Qeshm Island in Iran following a missile attack on a US aircraft near the Strait of Hormuz.",
-    "ar": "شنت الولايات المتحدة ضربات انتقامية محدودة ضد جزيرة قشم في إيران بعد هجوم صاروخي على طائرة أمريكية بالقرب من مضيق هرمز.",
-    "ru": "США нанесли ограниченные ответные удары по иранскому острову Кешм после ракетной атаки на американский самолет в районе Ормузского пролива."
-   },
-   "kid": {
-    "he": "ארה\"ב תקפה מטרות באיראן אחרי שאיראן ירתה טילים על מטוס אמריקאי. זה עלול לגרום למחירי הנפט לעלות כי האזור חשוב מאוד להובלת נפט בעולם.",
-    "en": "The US attacked targets in Iran after Iran fired missiles at a US plane. This could make oil prices go up because this area is very important for shipping oil around the world.",
-    "ar": "هاجمت الولايات المتحدة أهدافاً في إيران بعد أن أطلقت إيران صواريخ على طائرة أمريكية. قد يؤدي هذا إلى ارتفاع أسعار النفط لأن هذه المنطقة مهمة جداً لشحن النفط حول العالم.",
-    "ru": "США атаковали цели в Иране после того, как Иран выпустил ракеты по американскому самолету. Это может привести к росту цен на нефть, так как этот регион очень важен для перевозки нефти по всему миру."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 8,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVXBSNHdxTDQ1QUtjM3BWNWV0ajNjSk1fY3ctaDlpeXpkV1VJT2ZXZjBCanRRVjduSllpYnVsenQzSFJfTWVvSEpOaU9kaGxtTE9LWEl1Z0l3V1d4dUNoejJRUVAtd9IBa0FVX3lxTE9qMEJXcG9HTWZNaHRFUnZ6N3lSdHNqVVNacXlUUDJXSXVBLXpSSXpXRXczOGplYlhpaDhoZ2RlcDljeHJSOXA3dEhKOVhKZFg0WWttSmpMb3dCQ3pRUGZOdjlLRWwzelBVNEww?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1793703269,
-    "reason": "עלייה במתיחות במצר הורמוז מאיימת על אספקת הנפט העולמית.",
-    "reason_i18n": {
-     "he": "עלייה במתיחות במצר הורמוז מאיימת על אספקת הנפט העולמית.",
-     "en": "Rising tensions in the Strait of Hormuz threaten global oil supply.",
-     "ar": "تصاعد التوترات في مضيق هرمز يهدد إمدادات النفط العالمية.",
-     "ru": "Рост напряженности в Ормузском проливе угрожает мировым поставкам нефти."
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق النفط المتداول",
-     "ru": "Нефтяной ETF"
-    },
-    "price_at_alert": 156.87,
-    "entry_price": 157.445,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 145.435,
-    "exit_date": "2026-11-04",
-    "change_pct": -7.63,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -9.49,
-    "edge_pct": -9.49,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793703269,
-    "reason": "הסלמה צבאית מגבירה את הביקוש לציוד ביטחוני.",
-    "reason_i18n": {
-     "he": "הסלמה צבאית מגבירה את הביקוש לציוד ביטחוני.",
-     "en": "Military escalation increases demand for defense equipment.",
-     "ar": "التصعيد العسكري يزيد الطلب على المعدات الدفاعية.",
-     "ru": "Военная эскалация повышает спрос на оборонное оборудование."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الدفاع والطيران",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 214.68,
-    "entry_price": 214.87,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -0.99,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -2.85,
-    "edge_pct": -2.85,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "c73e37ca364e",
-  "updates": [
-   {
-    "ts": 1793734082,
-    "time": "2026-11-03T19:28Z",
-    "severity": 7,
-    "summary": "כוחות אמריקאיים ביצעו תקיפות נגד יעדים איראניים באזור מצר הורמוז שעות ספורות לפני יום הבחירות.",
-    "i18n": {
-     "he": "כוחות אמריקאיים ביצעו תקיפות נגד יעדים איראניים באזור מצר הורמוז שעות ספורות לפני יום הבחירות.",
-     "en": "US forces launched strikes against Iranian targets in the Strait of Hormuz hours before Election Day.",
-     "ar": "شنت القوات الأمريكية ضربات ضد أهداف إيرانية في مضيق هرمز قبل ساعات من الانتخابات.",
-     "ru": "Силы США нанесли удары по иранским целям в Ормузском проливе накануне выборов."
-    }
-   }
-  ],
-  "last_update": 1793734082,
-  "evaluated": true
- },
- {
   "ts": 1793706493,
   "time": "2026-11-03T11:48Z",
   "title": "יום הבחירות בארה\"ב: משקיעים נערכים לשינויים בקונגרס",
@@ -723,133 +608,6 @@
    }
   ],
   "last_update": 1793743606,
-  "evaluated": true
- },
- {
-  "ts": 1793714108,
-  "time": "2026-11-03T13:55Z",
-  "title": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
-  "summary": "אירוע גשמים היסטורי של פעם באלף שנים הפעיל חירום שיטפונות פתאומיים ברחבי חוף החלל בפלורידה, וגרם לשיבושים משמעותיים.",
-  "kid": "גשמים זועפים קיצוניים גרמו להצפות קשות בחלקים בפלורידה, העשויים לפגוע בפעילות העסקית המקומית ובחברות ביטוח.",
-  "i18n": {
-   "title": {
-    "en": "Flash Flood Emergency in Florida Space Coast",
-    "he": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
-    "ar": "طوارئ الفيضانات المفاجئة في ساحل الفضاء بولاية فلوريدا",
-    "ru": "Чрезвычайная ситуация из-за внезапных наводнений на Космическом побережье Флориды"
-   },
-   "summary": {
-    "en": "A 1,000-year rainfall event has triggered a Flash Flood Emergency across Florida's Space Coast, causing major regional disruptions.",
-    "he": "אירוע גשמים היסטורי של פעם באלף שנים הפעיל חירום שיטפונות פתאומיים ברחבי חוף החלל בפלורידה, וגרם לשיבושים משמעותיים.",
-    "ar": "أدى حدث مطري تاريخي إلى إطلاق طوارئ الفيضانات المفاجئة عبر ساحل الفضاء في فلوريدا، مما سبب اضطرابات إقليمية.",
-    "ru": "Беспрецедентные осадки вызвали чрезвычайную ситуацию из-за внезапных наводнений на Космическом побережье Флориды."
-   },
-   "kid": {
-    "en": "Extreme heavy rain caused severe flooding in parts of Florida, which can disrupt local business operations and insurance companies.",
-    "he": "גשמים זועפים קיצוניים גרמו להצפות קשות בחלקים בפלורידה, העשויים לפגוע בפעילות העסקית המקומית ובחברות ביטוח.",
-    "ar": "أمطار غزيرة شديدة سببت فيضانات قوية في أجزاء من فلوريدا، مما قد يعطل الأعمال المحلية وشركات التأمين.",
-    "ru": "Сильные ливни вызвали масштабные наводнения во Флориде, что может нарушить работу бизнеса и страховых компаний."
-   }
-  },
-  "category": "climate",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wQUxTVExXYXdCQmVnMTdpNEpSbTAtbHE1djdhN01TNHFxTUxwdl9qVmJqSUoxWHBaaDNSNzlRM3JyZG5XN09qZFI5VHNWNGpCWFY1Q2s0WGZsdTFkSkxtV1A1SQ?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2tRMzFKWm5VbTZidkRIc0x1eHczT3M1M1A3S3JuczZXZXlhSjNqXzY3QjdlM282c19abGRfOURiTTJmYjdwbDM2UERNRmNzVU9JOFducHAza3JVSUJzSUQ0Z2ZMVTBIcUI0eW9Md1VGcUNRd0ltQjRHMWxSTjVZeDdR?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRXZaVWJVZUpZV3JLQW1hcm1xck1EOHE0TFMwNjZGb2lWb2tnNm50bXdvTGRzbkpQa3JwR1ZYT1JxM1hQUnhXU1FpeFhCSEVyeXIzbGotOVF6Z2NsbHB2SW5GWjN0RXJhYl85aTBOV28wYS1ROEpJM0lYdXBkczhuTTEyMEVidS11UGtsZEMzZkNFNFdFNk1NcUFlZ3U4ZzdCVVV0Q0F6YTRPS0JMQzhIMVhKQmVVQVhPRUZpUkFvRGNHVXNsR29oczBLSldWc0RHMkE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ALL",
-    "direction": "down",
-    "t0": 1793714108,
-    "reason": "אירועי שיטפונות קשים מובילים בדרך כלל לגל תביעות ביטוח רכוש מקומיות.",
-    "reason_i18n": {
-     "en": "Severe flooding events typically lead to a spike in local property insurance claims.",
-     "he": "אירועי שיטפונות קשים מובילים בדרך כלל לגל תביעות ביטוח רכוש מקומיות.",
-     "ar": "أحداث الفيضانات الشديدة تؤدي عادة إلى ارتفاع في مطالبات تأمين الممتلكات.",
-     "ru": "Серьезные наводнения обычно приводят к росту местных страховых исков по имуществу."
-    },
-    "name_i18n": {
-     "en": "ALL – Allstate Corporation",
-     "he": "ALL – אלסטייט",
-     "ar": "ALL - أולستيت للتأمين",
-     "ru": "ALL – Allstate"
-    },
-    "price_at_alert": 263.99,
-    "entry_price": 261.05,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 269.19,
-    "exit_date": "2026-11-04",
-    "change_pct": 3.12,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": 1.26,
-    "edge_pct": -1.26,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "TRV",
-    "direction": "down",
-    "t0": 1793714108,
-    "reason": "אירועי מזג אוויר קטסטרופליים מעלים את התחייבויות התשלום הפוטנציאליות בטווח הקצר לחברות הביטוח.",
-    "reason_i18n": {
-     "en": "Catastrophic weather incidents increase near-term potential payout liabilities for insurers.",
-     "he": "אירועי מזג אוויר קטסטרופליים מעלים את התחייבויות התשלום הפוטנציאליות בטווח הקצר לחברות הביטוח.",
-     "ar": "حوادث الطقس الكارثية تزيد من التزامات الدفع المحتملة لشركات التأمين.",
-     "ru": "Катастрофические погодные условия увеличивают краткосрочные выплаты страховщиков."
-    },
-    "name_i18n": {
-     "en": "TRV – Travelers Companies",
-     "he": "TRV – טראבלרס",
-     "ar": "TRV - ترافيلرز للتأمين",
-     "ru": "TRV – Travelers Companies"
-    },
-    "price_at_alert": 398.8,
-    "entry_price": 396.81,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 409.31,
-    "exit_date": "2026-11-04",
-    "change_pct": 3.15,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": 1.29,
-    "edge_pct": -1.29,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "60cb8decc3fc",
-  "updates": [
-   {
-    "ts": 1793734082,
-    "time": "2026-11-03T19:28Z",
-    "severity": 4,
-    "summary": "גשמים חסרי תקדים ושיטפונות פגעו בחוף החלל בפלורידה ושיבשו את התנהלות יום הבחירות במספר מדינות.",
-    "i18n": {
-     "he": "גשמים חסרי תקדים ושיטפונות פגעו בחוף החלל בפלורידה ושיבשו את התנהלות יום הבחירות במספר מדינות.",
-     "en": "Unprecedented rains and floods hit Florida's Space Coast and disrupted Election Day proceedings across several states.",
-     "ar": "أمطار غير مسبوقة وفيضانات ضربت ساحل الفضاء في فلوريدا وعطلت سير يوم الانتخابات.",
-     "ru": "Беспрецедентные дожди и наводнения обрушились на Космическое побережье Флориды, нарушив ход выборов."
-    }
-   }
-  ],
-  "last_update": 1793734082,
   "evaluated": true
  },
  {
@@ -1454,188 +1212,6 @@
    }
   ],
   "last_update": 1793751730,
-  "evaluated": true
- },
- {
-  "ts": 1793734082,
-  "time": "2026-11-03T19:28Z",
-  "title": "מחירי הדלק בארה\"ב מגיעים לשיא של יום בחירות",
-  "summary": "מחירי הדלק הממוצעים בארצות הברית הגיעו לשיא חדש ליום הבחירות שעומד על 4.15 דולר לגלון.",
-  "kid": "הדלק בתחנות יקר מתמיד ביום הבחירות. מחירים גבוהים לוחצים על הכיס של אנשים ויכולים להשפיע על חברות התחבורה והתעופה.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הדלק בארה\"ב מגיעים לשיא של יום בחירות",
-    "en": "US Gas Prices Hit Record Election Day High",
-    "ar": "أسعار الغاز في أمريكا تصل إلى أعلى مستوى قياسي في يوم الانتخابات",
-    "ru": "Цены на бензин в США достигли рекордного уровня в день выборов"
-   },
-   "summary": {
-    "he": "מחירי הדלק הממוצעים בארצות הברית הגיעו לשיא חדש ליום הבחירות שעומד על 4.15 דולר לגלון.",
-    "en": "Average gasoline prices across the United States reached a record Election Day high of $4.15 per gallon.",
-    "ar": "بلغ متوسط أسعار البنزين في الولايات المتحدة مستوى قياسياً جديداً ليوم الانتخابات عند 4.15 دولار للجالون.",
-    "ru": "Средние цены на бензин в США достигли рекордного уровня в день выборов — 4,15 доллара за галлон."
-   },
-   "kid": {
-    "he": "הדלק בתחנות יקר מתמיד ביום הבחירות. מחירים גבוהים לוחצים על הכיס של אנשים ויכולים להשפיע על חברות התחבורה והתעופה.",
-    "en": "Gas at the pump is more expensive than ever on Election Day. High prices squeeze consumers and can impact travel and transport companies.",
-    "ar": "الوقود في المحطات أغلى من أي وقت مضى. الأسعار المرتفعة تضغط على المستهلكين وقد تؤثر على شركات النقل.",
-    "ru": "Топливо на заправках стало дороже, чем когда-либо в день выборов, что бьет по карману потребителей."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDBWVGxMc0FrMmh6N3pFLTJDNldyaHpUcHNHZk51eU5rUERrc2FVd0pVcWY4Z1BDc1FtTkp0Z3oweVlNdU5XaDJIUzBmam5vd3BnM0dnSVlhcVY0bXVZVHNOTldvSWstcmxIQWwxQl9iRmZDTGlSa3lTeWd2alJoTWxUN3hSSm9mS25zNl9sWGRsQXIzNDhzNE1iS0FuTTB4WU5LblZuREtLYmdSM2M5cFV0QXdaSFduTnptWnFvQ0RxZ1JqVkFJ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWxPU3NTVW4ycTM5WFlNWWtpbEFqSzFaTGk4dENoSXBucE9tbXpDVVNOeDRKTHM1YlZjam15LUs5M3lqaFNLWUlseFhHRkVROHQxd0R1bHJMaE8xMHUwOXVjWHVOdG4tSkhjLWRzWjhrMm5panR6Y1QwaHppR3VLUlIwRWYxaDhuWlJyVU8zUkhxWS1XWXJUak9xbjhMYzhUQ29rWTRiZzY2dw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkNxU1M5N1FoSi1OUHlLb0s3WGJqc2xXdWVvT1FkTXM1dGRWeEY4ZmpPbDdQRlBFTktyWGU3aEhyWkUxRUFVU1RiLW1CbEYtTzRld2JjbTBYcjZ6ZWxqdGhFV2V3TVpZZkJvc29fMENXU2dRaG44V0UzLW5OOTFDSGhHSjJuSTl5T3drQ1o2cENpU0d3R2o3NE80UmFsdw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1793734082,
-    "reason": "מחירי דלק גבוהים תומכים ברווחי חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "מחירי דלק גבוהים תומכים ברווחי חברות האנרגיה.",
-     "en": "High fuel prices support energy company revenues.",
-     "ar": "أسعار الوقود المرتفعة تدعم إيرادات شركات الطاقة.",
-     "ru": "Высокие цены на топливо поддерживают доходы энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "XLE - קרן סקטור האנרגיה",
-     "en": "XLE – Energy Sector ETF",
-     "ar": "XLE - صندوق قطاع الطاقة",
-     "ru": "XLE – ETF энергетического сектора"
-    },
-    "price_at_alert": 66.81,
-    "entry_price": 66.855,
-    "entry_time": "2026-11-03T19:30+00:00",
-    "exit_price": 63.53,
-    "exit_date": "2026-11-04",
-    "change_pct": -4.97,
-    "bench": "SPY",
-    "bench_change_pct": 1.51,
-    "excess_pct": -6.48,
-    "edge_pct": -6.48,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "JETS",
-    "direction": "down",
-    "t0": 1793734082,
-    "reason": "עלויות דלק גבוהות שוחקות את רווחי חברות התעופה.",
-    "reason_i18n": {
-     "he": "עלויות דלק גבוהות שוחקות את רווחי חברות התעופה.",
-     "en": "High fuel costs erode airline profit margins.",
-     "ar": "تكاليف الوقود المرتفعة تضعف هوامش ربح شركات الطيران.",
-     "ru": "Высокие затраты на топливо снижают маржу прибыли авиакомпаний."
-    },
-    "name_i18n": {
-     "he": "JETS - קרן סקטור התעופה",
-     "en": "JETS – US Airlines ETF",
-     "ar": "JETS - صندوق قطاع الطيران الأمريكي",
-     "ru": "JETS – ETF авиакомпаний США"
-    },
-    "price_at_alert": 27.74,
-    "entry_price": 27.735,
-    "entry_time": "2026-11-03T19:30+00:00",
-    "exit_price": 29.455,
-    "exit_date": "2026-11-04",
-    "change_pct": 6.2,
-    "bench": "SPY",
-    "bench_change_pct": 1.51,
-    "excess_pct": 4.7,
-    "edge_pct": -4.7,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f0c52cefa77d",
-  "evaluated": true
- },
- {
-  "ts": 1793734082,
-  "time": "2026-11-03T19:28Z",
-  "title": "מחקר של הפד מזהיר מפני השפעת אירועי אקלים על האינפלציה",
-  "summary": "מחקר חדש מטעם הפדרל ריזרב מעריך שתופעות אקלימיות כמו אל ניניו עלולות להוסיף עד 1% לאינפלציה בשנים הקרובות.",
-  "kid": "מחקר חדש של הבנק המרכזי בארה\"ב אומר שמזג אוויר קיצוני עלול לייקר את המחירים לצרכן בעתיד. זה חשוב למשקיעים כי זה קשור להחלטות ריבית.",
-  "i18n": {
-   "title": {
-    "he": "מחקר של הפד מזהיר מפני השפעת אירועי אקלים על האינפלציה",
-    "en": "Fed Study Warns Climate Events Could Push Inflation Higher",
-    "ar": "دراسة للفيدرالي تحذر من أن المناخ قد يدفع التضخم للارتفاع",
-    "ru": "Исследование ФРС предупреждает о влиянии климата на инфляцию"
-   },
-   "summary": {
-    "he": "מחקר חדש מטעם הפדרל ריזרב מעריך שתופעות אקלימיות כמו אל ניניו עלולות להוסיף עד 1% לאינפלציה בשנים הקרובות.",
-    "en": "A new Federal Reserve study estimates that climate phenomena like El Nino could push inflation higher by up to 1% in the coming years.",
-    "ar": "دراسة جديدة للاحتياطي الفيدرالي تقدر أن الظواهر المناخية قد ترفع التضخم بنسبة تصل إلى 1% في السنوات القادمة.",
-    "ru": "Новое исследование ФРС оценивает, что климатические явления могут поднять инфляцию в ближайшие годы."
-   },
-   "kid": {
-    "he": "מחקר חדש של הבנק המרכזי בארה\"ב אומר שמזג אוויר קיצוני עלול לייקר את המחירים לצרכן בעתיד. זה חשוב למשקיעים כי זה קשור להחלטות ריבית.",
-    "en": "A new US central bank study says extreme weather could make consumer prices higher in the future. This matters to investors because it affects interest rates.",
-    "ar": "دراسة جديدة للبنك المركزي الأمريكي تقول إن الطقس المتطرف قد يرفع الأسعار مستقبلاً.",
-    "ru": "Новое исследование центробанка США говорит о том, что экстремальная погода может поднять цены в будущем."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFphcU1VNEJNeFlPczlrdml3VkZFZlh0eXJXamxMVkY4Y2VRWlRURnJScXJUdGhfb0ZwU0Fla0x4LXJ0VGt2TmtTUHJWc3RlQjRTbDZpWjJCN3UtQzZEcXpYUUZZT080Q1JuckF4alRGVmtGODZ0Q3BfZk1fYWFnLUNtVkg2Wm90SHJ5VEtDYThWVzBxZFhRNC04RzRqWmhuNzdwVmdMU19LX0FQYThfeWlNOTdfZzJQZ0Rjb1VoNHJqVG4tclZF?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ2c0Rm9WRGNFLS1QdS1iUFdGSkNmOTd3TmJFYXBjdDNsR29NbkhIc1BVRTd3Mm5mMS1FTkpJOW1wb1M5TGZrdFBRUGJSdzNldklUZWhUQWV4QklEemJxSXl1Tmd1VnY0QWt0U1hRb19xN08tcmZlVEhDN0htQTdCSDhqbkxiNzgxSzZiNWg3QTBWUGNMejVlS2NJRDEzZm1BQlBWX3UwQl8wSWZ3VjE0dWVrMFlJU3NCZ0hGU1p5bjBVdWM?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1793734082,
-    "reason": "חששות מאינפלציה מתמשכת עשויים ללחוץ כלפי מטה על מחירי האג\"ח.",
-    "reason_i18n": {
-     "he": "חששות מאינפלציה מתמשכת עשויים ללחוץ כלפי מטה על מחירי האג\"ח.",
-     "en": "Persistent inflation fears can put downward pressure on bond prices.",
-     "ar": "مخاوف التضخم المستمر قد تضغط على أسعار السندات نحو الانخفاض.",
-     "ru": "Опасения устойчивой инфляции могут давить на цены облигаций."
-    },
-    "name_i18n": {
-     "he": "TLT - קרן אג\"ח ממשלתי ארוך",
-     "en": "TLT – Long-Term Treasury ETF",
-     "ar": "TLT - صندوق سندات الخزانة طويلة الأجل",
-     "ru": "TLT – ETF долгосрочных гособлигаций США"
-    },
-    "price_at_alert": 81.19,
-    "entry_price": 81.19,
-    "entry_time": "2026-11-03T19:30+00:00",
-    "exit_price": 81.77,
-    "exit_date": "2026-11-04",
-    "change_pct": 0.71,
-    "bench": "SPY",
-    "bench_change_pct": 1.51,
-    "excess_pct": -0.79,
-    "edge_pct": 0.79,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "56f51624fee9",
   "evaluated": true
  },
  {
@@ -42279,7 +41855,22 @@
     "price_at_alert": 485.315
    }
   ],
-  "id": "34f46e86eec0"
+  "id": "34f46e86eec0",
+  "updates": [
+   {
+    "ts": 1794341213,
+    "time": "2026-11-10T20:06Z",
+    "severity": 4,
+    "summary": "אנבידיה שכרה את משרד עורכי הדין היוקרתי Wachtell Lipton להוביל בדיקה בנוגע לקשר אישי שניהל המנכ\"ל ג'נסן הואנג עם אישה שקושרה למודיעין הסיני בדיווחים תקשורתיים.",
+    "i18n": {
+     "he": "אנבידיה שכרה את משרד עורכי הדין היוקרתי Wachtell Lipton להוביל בדיקה בנוגע לקשר אישי שניהל המנכ\"ל ג'נסן הואנג עם אישה שקושרה למודיעין הסיני בדיווחים תקשורתיים.",
+     "en": "Nvidia has hired law firm Wachtell Lipton to lead an investigation into CEO Jensen Huang's personal affair with a woman connected to Chinese intelligence reports.",
+     "ar": "عينت إنفيديا مكتب المحاماة Wachtell Lipton لقيادة تحقيق بشأن علاقة شخصية لرئيسها التنفيذي جينسن هوانغ بامرأة ربطتها تقارير بالاستخبارات الصينية.",
+     "ru": "Компания Nvidia наняла юридическую фирму Wachtell Lipton для расследования личной связи генерального директора Дженсена Хуанга с женщиной, связанной с разведкой Китая."
+    }
+   }
+  ],
+  "last_update": 1794341213
  },
  {
   "ts": 1794254055,
@@ -46741,7 +46332,7 @@
    }
   },
   "category": "health",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
@@ -46772,9 +46363,43 @@
      "ru": "XLV – ETF сектора здравоохранения"
     },
     "price_at_alert": 188.33
+   },
+   {
+    "ticker": "MRNA",
+    "direction": "up",
+    "t0": 1794341213,
+    "reason": "עלייה במודעות להתפרצויות מגפות עולמיות עשויה להאיץ ביקושים לחיסונים",
+    "reason_i18n": {
+     "he": "עלייה במודעות להתפרצויות מגפות עולמיות עשויה להאיץ ביקושים לחיסונים",
+     "en": "Heightened awareness of global disease outbreaks boosts vaccine demand outlook",
+     "ar": "زيادة الوعي بتفشي الأوبئة تعزز الطلب المحتمل على اللقاحات",
+     "ru": "Рост внимания к глобальным вспышкам болезней поддерживает спрос на вакцины"
+    },
+    "name_i18n": {
+     "he": "MRNA - מודרנה",
+     "en": "MRNA - Moderna",
+     "ar": "MRNA - موديرنا",
+     "ru": "MRNA - Moderna"
+    },
+    "price_at_alert": 251.85
    }
   ],
-  "id": "1d76534be20b"
+  "id": "1d76534be20b",
+  "updates": [
+   {
+    "ts": 1794341213,
+    "time": "2026-11-10T20:06Z",
+    "severity": 4,
+    "summary": "משבר האבולה ברפובליקה הדמוקרטית של קונגו מחמיר דרמטית לאחר שמיליציות מקושרות לדאעש הרגו 33 איש וגרמו לבריחתם של כ-180 חולים מבית חולים.",
+    "i18n": {
+     "he": "משבר האבולה ברפובליקה הדמוקרטית של קונגו מחמיר דרמטית לאחר שמיליציות מקושרות לדאעש הרגו 33 איש וגרמו לבריחתם של כ-180 חולים מבית חולים.",
+     "en": "The Ebola crisis in the DRC deepened significantly after ISIS-linked militants killed 33 people and forced 180 patients to flee a hospital, complicating outbreak containment.",
+     "ar": "تفاقمت أزمة إيبولا في الكونغو الديمقراطية بشكل حاد بعد أن قتل مسلحون مرتبطون بداعش 33 شخصاً وفرار 180 مريضاً من المستشفى.",
+     "ru": "Кризис, вызванный лихорадкой Эбола в ДР Конго, резко усугубился после того, как боевики, связанные с ИГИЛ, убили 33 человека, а 180 пациентов бежали из больницы."
+    }
+   }
+  ],
+  "last_update": 1794341213
  },
  {
   "ts": 1794314358,
@@ -47220,9 +46845,21 @@
      "ar": "ارتفعت أسعار المستهلكين في الولايات المتحدة بنسبة 0.4% في أكتوبر، مما أدى إلى انخفاض الأسهم وصعود عوائد السندات والدولار.",
      "ru": "Потребительские цены в США выросли на 0.4% в октябре, превысив прогнозы. Это привело к падению акций, росту доходности облигаций и укреплению доллара."
     }
+   },
+   {
+    "ts": 1794341213,
+    "time": "2026-11-10T20:06Z",
+    "severity": 8,
+    "summary": "מדד המחירים לצרכן בארה\"ב באוקטובר עלה ב-0.4%, מעל התחזיות, מה שהגביר את החששות מהעלאת ריבית או שמירת ריבית גבוהה מצד הפדרל ריגרב והוביל לירידות בשווקים, זינוק בתשואות האג\"ח ונפילה במחיר הביט.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן בארה\"ב באוקטובר עלה ב-0.4%, מעל התחזיות, מה שהגביר את החששות מהעלאת ריבית או שמירת ריבית גבוהה מצד הפדרל ריגרב והוביל לירידות בשווקים, זינוק בתשואות האג\"ח ונפילה במחיר הביט.",
+     "en": "US October consumer price index rose 0.4%, coming in hotter than expected and triggering stock market pullbacks, surging Treasury yields, and a drop in Bitcoin as rate hike fears grow.",
+     "ar": "ارتفع مؤشر أسعار المستهلكين في أمريكا لشهر أكتوبر بنسبة 0.4% متجاوزاً التوقعات، مما أدى إلى تراجع الأسهم وارتفاع عوائد السندات وانخفاض البيتكوين وسط مخاوف رفع الفائدة.",
+     "ru": "Индекс потребительских цен в США в октябре вырос на 0.4%, превысив прогнозы, что вызвало падение акций, рост доходности гособлигаций и снижение биткоина на опасениях ужесточения политики ФРС."
+    }
    }
   ],
-  "last_update": 1794338171
+  "last_update": 1794341213
  },
  {
   "ts": 1794322534,
@@ -47543,7 +47180,22 @@
     "price_at_alert": 163.4332
    }
   ],
-  "id": "1084b0a7de16"
+  "id": "1084b0a7de16",
+  "updates": [
+   {
+    "ts": 1794341213,
+    "time": "2026-11-10T20:06Z",
+    "severity": 6,
+    "summary": "מזכיר המדינה האמריקאי מרקו רוביו הצהיר כי אין עוד צורך בפעולות צבאיות נרחבות נגד איראן, וזאת במקביל לסקר חדש של Reuters/Ipsos המראה כי 71% מהאמריקאים מצפים מהקונגרס לסיים את העימות.",
+    "i18n": {
+     "he": "מזכיר המדינה האמריקאי מרקו רוביו הצהיר כי אין עוד צורך בפעולות צבאיות נרחבות נגד איראן, וזאת במקביל לסקר חדש של Reuters/Ipsos המראה כי 71% מהאמריקאים מצפים מהקונגרס לסיים את העימות.",
+     "en": "US Secretary of State Marco Rubio stated there is no need for further major combat operations against Iran, alongside a Reuters/Ipsos poll showing 71% of Americans want Congress to end the conflict.",
+     "ar": "صرح وزير الخارجية الأمريكي ماركو روبيو بعدم وجود حاجة لعمليات قتالية واسعة ضد إيران، بالتزامن مع استطلاع يظهر تأييد 71% من الأمريكيين لإنهاء النزاع.",
+     "ru": "Госсекретарь США Марко Рубио заявил об отсутствии нужды в масштабных боевых операциях против Ирана, а опрос Reuters/Ipsos показал, что 71% американцев выступают за прекращение конфликта."
+    }
+   }
+  ],
+  "last_update": 1794341213
  },
  {
   "ts": 1794325584,
@@ -47919,7 +47571,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
@@ -47973,9 +47625,43 @@
      "ru": "UNG - фонд природного газа"
     },
     "price_at_alert": 10.335
+   },
+   {
+    "ticker": "XLE",
+    "direction": "down",
+    "t0": 1794341213,
+    "reason": "הפחתת סיכון לפגיעה בתשתיות נפט וגז עולמיות",
+    "reason_i18n": {
+     "he": "הפחתת סיכון לפגיעה בתשתיות נפט וגז עולמיות",
+     "en": "Reduced risk of damage to global energy infrastructure",
+     "ar": "انخفاض مخاطر تدمير البنية التحتية العالمية للطاقة",
+     "ru": "Снижение риска повреждения мировой энергетической инфраструктуры"
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל אנרגיה",
+     "en": "XLE - Energy Select Sector SPDR Fund",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 62.33
    }
   ],
-  "id": "3787d669125a"
+  "id": "3787d669125a",
+  "updates": [
+   {
+    "ts": 1794341213,
+    "time": "2026-11-10T20:06Z",
+    "severity": 6,
+    "summary": "נשיא אוקראינה זלנסקי הציע להשעות את מתקפות הרחפנים והטילים על בתי זיקוק אנרגיה ברוסיה בתמורה לקבלת סוללות הגנה אווירית מסוג פטריוט למשך חודש, וממתין לתגובת מוסקבה.",
+    "i18n": {
+     "he": "נשיא אוקראינה זלנסקי הציע להשעות את מתקפות הרחפנים והטילים על בתי זיקוק אנרגיה ברוסיה בתמורה לקבלת סוללות הגנה אווירית מסוג פטריוט למשך חודש, וממתין לתגובת מוסקבה.",
+     "en": "Ukrainian President Zelenskyy proposed pausing attacks on Russian energy refineries in exchange for Patriot air defense systems for one month, while awaiting Russia's response to the shipping and energy ceasefire proposal.",
+     "ar": "اقترح الرئيس الأيكراني زيلينسكي تعليق الهجمات على مصافي الطاقة الروسية مقابل الحصول على بطاريات پاتريوت لشهر واحد بانتظار رد روسيا.",
+     "ru": "Президент Украины Зеленский предложил приостановить удары по российским НПЗ в обмен на поставки систем ПВО Patriot на один месяц, ожидая ответа Москвы."
+    }
+   }
+  ],
+  "last_update": 1794341213
  },
  {
   "ts": 1794334532,
@@ -48477,5 +48163,111 @@
    }
   ],
   "id": "7ec909647697"
+ },
+ {
+  "ts": 1794341213,
+  "time": "2026-11-10T20:06Z",
+  "title": "צרפת מעניקה חוזה של 1.7 מיליארד דולר לקבוצת איירבוס-تالס ללוויינים",
+  "summary": "ממשלת צרפת העניקה חוזה ענק בשווי 1.7 מיליארד דולר לקונסורציום המשותף לאיירבוס ותאלס לפיתוח ואספקת לוויינים צבאיים חדשים.",
+  "kid": "חברות התעופה והביטחון אירופאיות קיבלו הזמנה ענקית למערכות חלל צבאיות. זה מחזק את תחום הביטחון ומשפיע לטובה על מניות הסקטור.",
+  "i18n": {
+   "title": {
+    "he": "צרפת מעניקה חוזה של 1.7 מיליארד דולר לקבוצת איירבוס-تالס ללוויינים",
+    "en": "France awards $1.7 billion contract to Airbus-Thales team for new military satellites",
+    "ar": "فرنسا تمنح عقداً بقيمة 1.7 مليار دولار لتحالف إيرباص-تاليس لأقمار صناعية عسكرية",
+    "ru": "Франция присудила контракт на 1.7 млрд долларов консорциуму Airbus-Thales"
+   },
+   "summary": {
+    "he": "ממשלת צרפת העניקה חוזה ענק בשווי 1.7 מיליארד דולר לקונסורציום המשותף לאיירבוס ותאלס לפיתוח ואספקת לוויינים צבאיים חדשים.",
+    "en": "The French government has awarded a major $1.7 billion contract to the Airbus and Thales joint team to build and deliver new military satellites.",
+    "ar": "منحت الحكومة الفرنسية عقداً كبيراً بقيمة 1.7 مليار دولار لتحالف إيرباص وتاليس لبناء وتسليم أقمار صناعية عسكرية جديدة.",
+    "ru": "Правительство Франции заключило крупный контракт на 1.7 млрд долларов с консорциумом Airbus и Thales на разработку и поставку новых военных спутников."
+   },
+   "kid": {
+    "he": "חברות התעופה והביטחון אירופאיות קיבלו הזמנה ענקית למערכות חלל צבאיות. זה מחזק את תחום הביטחון ומשפיע לטובה על מניות הסקטור.",
+    "en": "European aerospace and defense firms secured a huge order for military space systems, boosting the defense sector and its ETFs.",
+    "ar": "حصلت شركات الطيران والدفاع الأوروبية على طلبية ضخمة لأنظمة الفضاء العسكرية، مما يدعم قطاع الدفاع.",
+    "ru": "Европейские аэрокосмические и оборонные компании получили крупный заказ на военные космические системы, поддерживая оборонный сектор."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794341213,
+    "reason": "הזמנות ענק ביטחוניות באירופה מחזקות את סנטימנט הסקטור",
+    "reason_i18n": {
+     "he": "הזמנות ענק ביטחוניות באירופה מחזקות את סנטימנט הסקטור",
+     "en": "Massive European defense awards bolster sector sentiment",
+     "ar": "طلبيات الدفاع الأوروبية الضخمة تعزز معنويات القطاع",
+     "ru": "Крупные оборонные заказы в Европе укрепляют настроения в секторе"
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
+     "en": "ITA - US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 72.23
+   }
+  ],
+  "id": "8fed467f12a9"
+ },
+ {
+  "ts": 1794341213,
+  "time": "2026-11-10T20:06Z",
+  "title": "שביתת נהגי משאיות דלק בצ'ילה פוגעת בנתיבי שילוח ובחטיבת הסלמון",
+  "summary": "שביתת נהגי משאיות דלק בצ'ילה משבשת את נתיבי השילוח המרכזיים ומעמידה תחת מעקב הדוק את הלוגיסטיקה של יצוא הסלמון המקומי.",
+  "kid": "נהגי משאיות בצ'ילה שובתים ומונעים הובלת דלק ומוצרים כמו סלמון. זה עלול לעכב אספקה ולייקר מחירים זמנית.",
+  "i18n": {
+   "title": {
+    "he": "שביתת נהגי משאיות דלק בצ'ילה פוגעת בנתיבי שילוח ובחטיבת הסלמון",
+    "en": "Chile Truckers' Fuel Strike Hits Shipping Routes, Putting Salmon Logistics on Watch",
+    "ar": "إضراب شاحنات الوقود في شيلي يضرب طرق الشحن ويضع لوجستيات السلمون تحت المراقبة",
+    "ru": "Забастовка водителей топливозаправщиков в Чили бьет по логистике лосося"
+   },
+   "summary": {
+    "he": "שביתת נהגי משאיות דלק בצ'ילה משבשת את נתיבי השילוח המרכזיים ומעמידה תחת מעקב הדוק את הלוגיסטיקה של יצוא הסלמון המקומי.",
+    "en": "A fuel trucker strike in Chile is disrupting key shipping routes and putting local salmon export logistics on high watch.",
+    "ar": "يؤدي إضراب سائقي شاحنات الوقود في شيلي إلى تعطيل طرق الشحن الرئيسية ووضع لوجستيات تصدير السلمون تحت مراقبة مشددة.",
+    "ru": "Забастовка водителей топливозаправщиков в Чили нарушает ключевые транспортные маршруты и ставит под угрозу логистику экспорта лосося."
+   },
+   "kid": {
+    "he": "נהגי משאיות בצ'ילה שובתים ומונעים הובלת דלק ומוצרים כמו סלמון. זה עלול לעכב אספקה ולייקר מחירים זמנית.",
+    "en": "Truckers in Chile are on strike, blocking fuel and goods like salmon. This could delay shipments and temporarily raise prices.",
+    "ar": "سائقو الشاحنات في شيلي في إضراب، مما يعطل نقل الوقود والسلع كالسلمون وقد يؤخر الشحنات.",
+    "ru": "Водители грузовиков в Чили бастуют, блокируя топливо и товары, такие как лосось, что может задержать поставки."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "low",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "EWC",
+    "direction": "down",
+    "t0": 1794341213,
+    "reason": "שיבושים לוגיסטיים בשרשראות האספקה באמריקה הלטינית",
+    "reason_i18n": {
+     "he": "שיבושים לוגיסטיים בשרשראות האספקה באמריקה הלטינית",
+     "en": "Logistical bottlenecks in Latin American supply chains",
+     "ar": "اختناقات لوجستية في سلاسل الإمداد بأمريكا اللاتينية",
+     "ru": "Логистические узкие места в цепочках поставок Латинской Америки"
+    },
+    "name_i18n": {
+     "he": "EWC - קרן סל קנדה",
+     "en": "EWC - Canada ETF (proxy for trade logistics disruptions)",
+     "ar": "EWC - صندوق كندا",
+     "ru": "EWC - ETF Канады"
+    },
+    "price_at_alert": 60.33
+   }
+  ],
+  "id": "93fa2afc0a3f"
  }
 ]
