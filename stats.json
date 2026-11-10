@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T09:39Z",
+ "generated": "2026-11-10T10:40Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 640,
+ "total_alerts": 645,
  "overall": {
   "n": 300,
   "hits": 147,
@@ -78,38 +78,38 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 67,
+   "mentions": 68,
    "n": 28,
    "hits": 14,
    "name": {
-    "he": "נפט גולמי",
-    "en": "Crude Oil",
-    "ar": "النفط الخام",
-    "ru": "Сырая нефть"
+    "he": "USO - קרן סל נפט גולמי",
+    "en": "USO - United States Oil Fund",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO - Нефтяной ETF"
    },
    "avg_edge": -0.19
   },
   "XLE": {
-   "mentions": 56,
+   "mentions": 57,
    "n": 26,
    "hits": 8,
    "name": {
-    "en": "Energy Sector ETF",
-    "he": "קרן סל אנרגיה",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "he": "XLE - קרן סל מגזר האנרגיה",
+    "en": "XLE - Energy Select Sector SPDR Fund",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - ETF энергетического сектора"
    },
    "avg_edge": -1.19
   },
   "IBIT": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 10,
    "hits": 3,
    "name": {
-    "he": "קרן סל על ביטוי - סביבת קריפטו",
-    "en": "IBIT - Bitcoin ETF",
-    "ar": "صندوق بيتكوين المتداول",
-    "ru": "Биткоин ETF IBIT"
+    "he": "IBIT - קרן סל ביטקוין",
+    "en": "IBIT - iShares Bitcoin Trust",
+    "ar": "IBIT - صندوق البيتكوين",
+    "ru": "IBIT - Биткоин ETF"
    },
    "avg_edge": -0.33
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.79
   },
   "ITA": {
-   "mentions": 101,
+   "mentions": 102,
    "n": 53,
    "hits": 27,
    "name": {
-    "he": "ETF תעופה וביטחון",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
+    "en": "ITA - iShares U.S. Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -4.91
   },
@@ -222,14 +222,14 @@
    "avg_edge": 0.86
   },
   "SPY": {
-   "mentions": 66,
+   "mentions": 67,
    "n": 31,
    "hits": 14,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
-    "ar": "مؤشر S&P 500",
-    "ru": "Индекс S&P 500"
+    "he": "SPY - קרן סל מדד S&P 500",
+    "en": "SPY - S&P 500 ETF",
+    "ar": "SPY - صندوق مؤشر S&P 500",
+    "ru": "SPY - ETF индекса S&P 500"
    },
    "avg_edge": -0.15
   },
@@ -390,14 +390,14 @@
    "avg_edge": -0.71
   },
   "MRNA": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 7,
    "hits": 7,
    "name": {
-    "he": "מודרנה - חברת ביוטכנולוגיה וחיסונים",
-    "en": "Moderna – biotech and vaccine maker",
-    "ar": "Moderna - شركة التكنولوجيا الحيوية واللقاحات",
-    "ru": "Moderna - биотехнологическая компания"
+    "he": "MRNA - מודרנה (ביוטכנולוגיה)",
+    "en": "MRNA - Moderna Inc.",
+    "ar": "MRNA - موديرنا للتكنولوجيا الحيوية",
+    "ru": "MRNA - Moderna (биотехнологии)"
    },
    "avg_edge": 4.07
   },
@@ -582,13 +582,13 @@
    "avg_edge": -1.25
   },
   "EEM": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 7,
    "hits": 3,
    "name": {
     "he": "EEM - קרן סל שווקים מתעוררים",
-    "en": "EEM - iShares MSCI Emerging Markets ETF",
-    "ar": "EEM - صندوق استثمار الأسواق الناشئة",
+    "en": "EEM - MSCI Emerging Markets ETF",
+    "ar": "EEM - صندوق الأسواق الناشئة",
     "ru": "EEM - ETF развивающихся рынков"
    },
    "avg_edge": 0.07
@@ -654,14 +654,14 @@
    "avg_edge": 0.36
   },
   "UUP": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 7,
    "hits": 3,
    "name": {
-    "he": "יו-יו-פי – קרן סל העוקבת אחר מדד הדולר האמריקאי",
-    "en": "UUP – US Dollar Index ETF",
-    "ar": "UUP - صندوق مؤشر الدولار الأمريكي",
-    "ru": "UUP – фонд долларового индекса"
+    "he": "UUP - קרן סל הדולר האמריקאי",
+    "en": "UUP - US Dollar ETF",
+    "ar": "UUP - صندوق الدولار الأمريكي",
+    "ru": "UUP - ETF доллара США"
    },
    "avg_edge": -0.15
   },
@@ -738,14 +738,14 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 6,
    "hits": 4,
    "name": {
-    "he": "חיטה",
-    "en": "Wheat",
-    "ar": "القمح",
-    "ru": "Пшеница"
+    "he": "WEAT - קרן סל חיטה",
+    "en": "WEAT - Teucrium Wheat Fund",
+    "ar": "WEAT - صندوق القمح",
+    "ru": "WEAT - ETF на пшеницу"
    },
    "avg_edge": 1.07
   },
@@ -978,14 +978,14 @@
    "avg_edge": 13.58
   },
   "FXI": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "מניות סין גדולות",
-    "en": "Large-cap China ETF",
-    "ar": "صندوق الاستثمار المتداول للشركات الصينية الكبرى",
-    "ru": "ETF крупных китайских компаний"
+    "he": "FXI - קרן סל מניות ענק סיניות",
+    "en": "FXI - China Large-Cap ETF",
+    "ar": "FXI - صندوق الأسهم الصينية الكبرى",
+    "ru": "FXI - ETF крупных китайских компаний"
    },
    "avg_edge": -1.29
   },

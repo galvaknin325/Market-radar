@@ -517,146 +517,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793699643,
-  "time": "2026-11-03T09:54Z",
-  "title": "סופר-ציקלון מוראסו פוגע בחוף המזרחי של הודו",
-  "summary": "הסופר-ציקלון מוראסו פגע בחוף המזרחי של הודו, עקר עצים והפיל קווי חשמל ימים ספורים לאחר שסופה אחר פגעה באזור.",
-  "kid": "סופה חזקה מאוד פגעה בהודו וגרמה לנזקים לתשתיות. זה עשוי להשפיע על חברות שמייצרות או פועלות באזור.",
-  "i18n": {
-   "title": {
-    "he": "סופר-ציקלון מוראסו פוגע בחוף המזרחי של הודו",
-    "en": "Cyclone Murasu makes landfall on India's eastern coast",
-    "ar": "الإعصار المداري مورאסو يضرب الساحل الشرقي للهند",
-    "ru": "Циклон Мурасу обрушился на восточное побережье Индии"
-   },
-   "summary": {
-    "he": "הסופר-ציקלון מוראסו פגע בחוף המזרחי של הודו, עקר עצים והפיל קווי חשמל ימים ספורים לאחר שסופה אחר פגעה באזור.",
-    "en": "Severe cyclonic storm Murasu has made landfall on India's eastern coast, uprooting trees and downing power lines just days after another cyclone hit the region.",
-    "ar": "ضرب إعصار مورאסو الشديد الساحل الشرقي للهند، مما أدى إلى اقتلاع الأشجار وقطع خطوط الكهرباء.",
-    "ru": "Мощный циклон Мурасу обрушился на восточное побережье Индии, вырвав с корнем деревья и оборвав линии электропередач."
-   },
-   "kid": {
-    "he": "סופה חזקה מאוד פגעה בהודו וגרמה לנזקים לתשתיות. זה עשוי להשפיע על חברות שמייצרות או פועלות באזור.",
-    "en": "A very strong storm hit India and damaged local infrastructure, which could affect local business operations and supply chains.",
-    "ar": "ضربت عاصفة قوية الهند وألحقت أضراراً بالبنية التحتية، مما قد يؤثر على الشركات في المنطقة.",
-    "ru": "Мощный шторм обрушился на Индию и повредил инфраструктуру, что может отразиться на местных компаниях."
-   }
-  },
-  "category": "climate",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "INDA",
-    "direction": "down",
-    "t0": 1793699643,
-    "reason": "הפרעות לפעילות הכלכלית בעקבות פגיעת הציקלון.",
-    "reason_i18n": {
-     "he": "הפרעות לפעילות הכלכלית בעקבות פגיעת הציקלון.",
-     "en": "Economic disruptions from severe cyclonic storm damage.",
-     "ar": "اضطرابات اقتصادية بسبب أضرار الإعصار.",
-     "ru": "Экономические сбои из-за ущерба от циклона."
-    },
-    "name_i18n": {
-     "he": "אינדא - קרן סל על שוק המניות ההודי",
-     "en": "INDA - MSCI India ETF",
-     "ar": "INDA - صندوق صفقات الأسهم الهندية",
-     "ru": "INDA - фонд акций Индии"
-    },
-    "price_at_alert": 48.45,
-    "entry_price": 48.82,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 50.03,
-    "exit_date": "2026-11-04",
-    "change_pct": 2.48,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": 0.62,
-    "edge_pct": -0.62,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "c2b128782f72",
-  "evaluated": true
- },
- {
-  "ts": 1793699643,
-  "time": "2026-11-03T09:54Z",
-  "title": "חברת תאלס ושותפות חושפות מערכת הגנה ימית חדשה",
-  "summary": "חברות הביטחון DGA, תאלס ולקרואה חשפו מערכת הטעיה ימית פעילה חדשה (DAUPHIN) עבור הצי הצרפתי.",
-  "kid": "חברת הביטחון הענקית תאלס חשפה מוצר צבאי חדש שתימכר לצבאות. חדשות טובות לעסקים שלה.",
-  "i18n": {
-   "title": {
-    "he": "חברת תאלס ושותפות חושפות מערכת הגנה ימית חדשה",
-    "en": "Thales and partners unveil new off-board active decoy for French Navy",
-    "ar": "تالس وشركاؤها يكشفون عن نظام خداع بحري جديد",
-    "ru": "Талес и партнеры представили новую морскую систему ложных целей"
-   },
-   "summary": {
-    "he": "חברות הביטחון DGA, תאלס ולקרואה חשפו מערכת הטעיה ימית פעילה חדשה (DAUPHIN) עבור הצי הצרפתי.",
-    "en": "Defense firms DGA, Thales, and Lacroix have unveiled the DAUPHIN off-board active decoy system designed for the French Navy.",
-    "ar": "كشفت شركات الدفاع DGA وThales وLacroix عن نظام خداع بحري جديد للبحرية الفرنسية.",
-    "ru": "Оборонные компании DGA, Thales и Lacroix представили новую активную систему ложных целей для ВМС Франции."
-   },
-   "kid": {
-    "he": "חברת הביטחון הענקית תאלס חשפה מוצר צבאי חדש שתימכר לצבאות. חדשות טובות לעסקים שלה.",
-    "en": "Major defense contractor Thales unveiled a new military product, which can boost its business and industry standing.",
-    "ar": "كشفت شركة تالس عن منتج عسكري جديد، مما يعزز أعمالها وموقعها في قطاع الدفاع.",
-    "ru": "Крупный оборонный подрядчик Thales представил новый военный продукт, что может укрепить его позиции."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLS1jUlZXRVk5TGJ2c1RFX2JsMjlQU25xSTlIaXR0V0VOSkhKVkI2dWpxclZzbHY5ODdoN3kxZEJSV2thTlA3X2xmWlpVOExScTZLV3VtLWtUUzQ1Y3RXQWZsM3dzMW5iQVd6RG04RUNvWjY0aGx3bm5mam1USjBMOWo2YTE2Y1VZUUtkZ2t5d3NpSVFDUGc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793699643,
-    "reason": "התקדמות טכנולוגית ועסקית בסקטור הביטחוני העולמי.",
-    "reason_i18n": {
-     "he": "התקדמות טכנולוגית ועסקית בסקטור הביטחוני העולמי.",
-     "en": "Defense sector contract and technology advancement.",
-     "ar": "تقدم تكنولوجي وعقود في قطاع الدفاع.",
-     "ru": "Технологический прогресс и контракты в оборонном секторе."
-    },
-    "name_i18n": {
-     "he": "איטא - קרן סל על סקטור התעופה והביטחון בארה\"ב",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA - ETF аэрокосмического и оборонного секторов США"
-    },
-    "price_at_alert": 214.68,
-    "entry_price": 214.87,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -0.99,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -2.85,
-    "edge_pct": -2.85,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "3c0af54788a9",
-  "evaluated": true
- },
- {
   "ts": 1793703269,
   "time": "2026-11-03T10:54Z",
   "title": "תקיפות אמריקאיות נגד איראן באזור מצר הורמוז",
@@ -27900,10 +27760,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHNFOUJhM3NWRGMwN1dtNHdJZmIxRGxDbWJscEFXaVVuc1RLSldsVHdMb0k4LTZVdU5zeGpjOUEzcUlWVXBmN0pyWkNGTUNjYVU2aFg3ZW91ZVphV1E2UGFYOFFIcHVmbmZaTl8zUUE0dmo3X09wZl83ZWFtZDlWUU9sejNPSUFQMW1DcmY4MlVlNHdhWGtya240ZkhleHIxanY1ZW83NDRiM3EwQWVJRFNpeXNIemZ3Uk0w?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzVqc3RIbGdEY255WDI0S3hFSVcwTEVqNUhPZWdILXpjcE5tdDNyRUtBUHZsLWhiVnB6eGlBbDV4eEcwckdrMXNoWVNrUVBqTWJtNHpuVl9FanRSWXk5MUdyVGxWUjVVNFZCY0haaFZUSE9nVjFMd3RyVEptSEQ5ZG5Qb3VuamY0UmZZSmFWaElKR1lDMUpvVUZEc1M0ZlUwSEhhWUt2NERwY2tMNTVN0gG3AUFVX3lxTE1DaEpRQmlvVmo0ZHZuYmFLbW1SUUNtSzZLbjU2TTU2R0lBbXJpQkN5QVVfNFdIWUlkSFhXcjdLeDgxM2ZMV3Rvajdzel92SzM0aGk5cTJPTmFiWTEzNFJwN3hRbUIzU09kcUpxZFpMYnlmVnRiQVRWSWxlRnNwYlNDMlZBRTJkcnotT1dOZHFvNUJnNFJDTGQ4TU45ODRfRURCTlVvc0JDamU5aWxpdkxSWDNNcm14dw?oc=5"
    },
    {
@@ -27921,6 +27777,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vV1AwSDlTYzB5aGVBaXFyY3RIWjBfaldGZkltVjBkb2d0U2pEb3ZJMEFuREg5RlFNVXIteC1ZSXY2N0lrclhrN0lna0xYczNQTWp6ZTNnN2plU1NCU1Y2allOaw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPak5QVWpiWWRqRHNsR0d1YTByRnAwMTFJNms1UGRJT0FFc0ppZXlTOXBVM3RaeUdLOFhhLXJoVnJJdnlKQWpWMHNtaGh2LVZwem5CSVQtdlByVEpyYzRkUEpRN0RkZ0F0TjlrZVJFTS1RRzJBa0RNTDlIN2haSU9uLUd2RzNpMjU4Z3M3cnl5eldaUjZVT3VjVWpn0gGfAUFVX3lxTE5KUTR2VDhmWU5acjFSdnZyMG5zRXR4czZhU0lPZHFobEQ3NmY4Tlg5aUY4T1JvOWdhZFhKODdHWWRNUnh0UHk2QW9aYnNwQ0x1eHVXZUpVUm51UzRyRXNVa01Ha2lwUnd0LWxiN2lwSGZWYWR2UWh1a3h4Tmpja2pWSXQtQzY5WHAzTm1FRUkwcWNTZEJwbjhFdGxPUUJPNA?oc=5"
    }
   ],
   "impacts": [
@@ -28124,9 +27984,21 @@
      "ar": "قوات التحالف تعترض بنجاح ثلاثة صواريخ أطلقها الحوثيون فوق الأراضي السعودية.",
      "ru": "Силы коалиции успешно перехватили три ракеты, запущенные хуситами над Саудовской Аравией."
     }
+   },
+   {
+    "ts": 1794307209,
+    "time": "2026-11-10T10:40Z",
+    "severity": 5,
+    "summary": "הקואליציה הערבית בהובלת סעודיה דיווחה כי השמידה טילי חות'ים ששוגרו לעבר אזור הבירה ריאד.",
+    "i18n": {
+     "he": "הקואליציה הערבית בהובלת סעודיה דיווחה כי השמידה טילי חות'ים ששוגרו לעבר אזור הבירה ריאד.",
+     "en": "The Saudi-led coalition announced that Houthi missiles fired near Riyadh were successfully intercepted and destroyed.",
+     "ar": "أعلن التحالف الذي تقودص السعودية عن اعتراض وتدمير صواريخ حوثية بالقرب من الرياض.",
+     "ru": "Коалиция во главе с Саудовской Аравией заявила об успешном перехвате и уничтожении ракет хуситов около Эр-Рияда."
+    }
    }
   ],
-  "last_update": 1794288439
+  "last_update": 1794307209
  },
  {
   "ts": 1794032387,
@@ -44428,14 +44300,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOblZudUl1Rll1dTA5XzFWUndyVk9tSHZCZ2FPbFVEVFI1bDhncFFvMEJHSnl4MTlxWjZGbmNUcjRzeG1MMkpINkQwNVQwdTRWNDdVenNfUGlSZUloUlg1LUMxS3R4WkdJSi00UzRILV9Xa1JERS1MWDRHMEJRa2RyUW4tS19Qc3VRM0tkX0VEbXNHbExZYnlPSUQ0UzVRQXljOXRuVXdJdnVJVTh3SkJkNV9GMjBXVm1IU3o2NXdsWnoyd3hraHdWSg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSHp4SEFMV3huTEU4N0Y5cGhiVEEyZWVFbVVwN3ctaFp6QU5jeTdvbFo5dEotRVpnN0Via3JtTDYwWUJTOGZQQndkOE1FVkhCTGMyc1cyVWx3NzRPZWh2aE5WdWhqZHFFaExQQ0dOcHBsWTNnV1RDaUVFSS13eFlxenJWN3NWZGdmaWttNE53U1dvRnQ3S1HSAZsBQVVfeXFMTnBaUm4zNWxzMkFyc1otOTVCTlhGZjVzclp3cVp5WWJ1aVp3R0xTZkZpenlfa3EwNHI3WDhZQTBvNzkwNFpjTFdjMUs0a3d2UzVERC1TR0RoVVUwLS03QlpsYWc0R1RZcWJnOW53SDZiZVA2Y0Jjb19ibnZwT0lFOVBsRFpSM1dScDBsZ2ZNODYzNWI3WVVkNGdXTFE?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1eFRNV2RicWdVeGQwUmE5SnVLc1hEdUlsRFhBLUVlR1dyR3pmRkxlQ2kwMHFyZFZnS0hITklKdUduVGozOXlPNTBORmpfZGNGcHdZ?oc=5"
    },
    {
@@ -44449,6 +44313,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNaWVpdlZJbXh0bmlKQ3pmQXl2V19UN01Qb19DTVNjOGdjd1BKLVZ1ZGpMN2dFYmdNZEQ1NXpoSHc2enRlQkNlYkdZNUo3YWVDV0dmMGpyeGVGWXo3YmctZkl6bFctTWMwNDdlV2ctUGlZLUpUOXk1WG90a1M0MFVDSFlxRENPMG5ZMm56QkNsRnBXZUU3bDdERlNEYWtxQ0ItdFBGRFhjOWxMeGVqSXR6ZjJhN3J6SndRek1Qa3hQS3l0dU9TazJHaG91NWg4SVB2M2FQcXB1LWlzQ2xkM3NXZ2ItUW54SEF1M3JoQXpDc1hhbFVHUWRwbFV4cUtISUdTNUtF0gGIAkFVX3lxTE5IQldFZ2s2TEwxUUs0NmNtbXhIc0ZxTW1QVFpJc0ZQSFNZeWVac245ZEVvMGhyVVFVYzRQYktwcUVkd1hKNENQOEtsUG5lbkdDbVE4UE1oakZMeWhSSUhadHczcWd0dUNvWGNSMUliR0RFMVNlbklxaWp0RUxZNEhONHF4Wk9GenA5bzFYSXdiNGNXNGZKTGpNR0ljOTU0VThmY2FMM1dQSF96dU5OSFZteVJsRjdvTFk2dDJ6LUdjbEJEVHBRN1ZoZDZPS0gwRnJrVDdEd09NQjViaXpmVnY1cmpNaGFDR2s4UjRwRFBCVGE1QlZkMkV3UVVYcy1wT19PSXpKQUZVMg?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeVBjbVhGMk5pbDJvM1hyRGtPTDZ5VzNNM0JRRHpGbnI4VXRVaDJVRWc5TFlIdmxDRGVmaDZYZnd5RlNQVjFDMVA1WDA0R2JDdHlZMy1Ja0U1MXBiZ1hDSFphVTVDUExnZFBkeVQ4LUVOOWtzQ05zTE10dHprdU41LWpFMHExZXBXOENWVXctS3F1bENEaG00ck42akVnemc?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTJrSDc4VDB6bW1vSUVjeDVDVmZ6QlhUQU05NnRnVk9rckxTZWNvUndPaldaNjJqc1NfZnJSSGM1dFhJay0wa0VfSUFpRkhQQmtZUUxSZ2FWNzlYdFNWVldRQ0xBQXk3NVp3MDN3dzVUVmdTU2M5SmwxU0tJaFBvb19ZZTF1VHljZUxVMmZSeVlxTTFQeWU0NHFrazRubm00bDR3dDczWHVoVFlnc3dqTWtqX3dpNDdGNnBXVw?oc=5"
    }
   ],
   "impacts": [
@@ -44564,9 +44436,21 @@
      "ar": "اتهمت الحكومة الفرنسية الحرس الثوري الإيراني بشن هجوم سيبراني استهدف أنظمة التبريد في المتاجر الكبرى، مما تسبب في أضرار مالية كبيرة.",
      "ru": "Правительство Франции обвинило Корпус стражей исламской революции Ирана в проведении кибератаки на системы охлаждения в супермаркетах, что привело к значительному финансовому ущербу."
     }
+   },
+   {
+    "ts": 1794307209,
+    "time": "2026-11-10T10:40Z",
+    "severity": 4,
+    "summary": "ממשלת צרפת הודיעה כי תנקוט בכל האמצעים האפשריים בתגובה למתקפת סייבר על מרכולים ומתקני קירור המיוחסת לגורמים באיראן.",
+    "i18n": {
+     "he": "ממשלת צרפת הודיעה כי תנקוט בכל האמצעים האפשריים בתגובה למתקפת סייבר על מרכולים ומתקני קירור המיוחסת לגורמים באיראן.",
+     "en": "The French government vowed a strong response, taking all necessary actions following a cyberattack on supermarket freezers attributed to Iran.",
+     "ar": "تعهدت الحكومة الفرنسية برد قوي واتخاذ جميع الإجراءات اللازمة رداً على هجوم سيبراني استهدف ثلاجات المتاجر الكبرى ونُسب لإيران.",
+     "ru": "Правительство Франции пообещало жесткий ответ и принятие всех мер в ответ на кибератаку на супермаркеты, приписываемую Ирану."
+    }
    }
   ],
-  "last_update": 1794303507
+  "last_update": 1794307209
  },
  {
   "ts": 1794250359,
@@ -48167,7 +48051,32 @@
   "category": "macro",
   "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDFrbm1IMk5rWC1iZkJVSUhlWlRwLXdnZHNPMGlfU2lNTm5HelFDYmg2TGRzMkxTZm16REwwcEZYOTR6QzVFY09ZRXc1Zno3M2I1Qzh0WndDeV93blBieXlBQTJFU1lZUmMwMVR2T3dzcW0wTU45VGxCVlIwTl9LTWZhQkdDUUFlTl82eHFtYl9PRDhzLUotMDc2WXpyVmFERkNCYXp1WFlJZnM4U2dfTjNB?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVDZjUUJjdTQ3UzJnQlFqQndPMlFnRFJQTDVYWnhLeFEzcVZIbm1EVVBqU1M2VzFoektSUnRKWDN4NFQ0NDNHNEZSMnFTZ0tpM2VFdk1MaGx1Yi1reWR4NDh3N0ZydndfUzZHdllYM2pLVm9jX0FxZUhlOVlrbDRKQ1V6M2FoUTNyeFdJemg2Si1kODl2aHRqSjROc3pab1N3NVdFR0gyNGdPN1pWcnU3ZlFVMVNBc3FsczZFZE9ySFdVN2tEQXVNWndQTlpsZ3hGUDVoUGE4UW56YloycFZDb3RMOTRIM25uRkZOdjJoa1hmai1xTFRONFdGYTBTdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSXJaMUN1bndKWmd5WVhLY2ZOQlVGcXVmQi1jT3pkUF9EOXVKcGgwR2ZINDdPOHNpbFhvVkttYk0zOHE0TVJvak5NczI3R01KbTE3M2R1YkR3NWkyZXFCb2oyRl9FanlRX29sUDVFT0NMalVNVXI4QWx2c2hlN0tCMkJ4RktmS0ZHZTQ3cDJOczFkR0VycFBvbVhzUjdhQ3QyeXg0VGpBVjAydjFWbVVz0gG0AUFVX3lxTE1KU0NVdG1scWg3SktyVm9QZEJLdjdzd3F6UXR6R1pFVXdiai14aWhhMnJxQmpuU2FHNy1ZQUk3WmVjYV9LNjVRRW5YNG9JX3pWc1h5TWY4VzN2am5Ra1FOWUNEXzNXRUl2ajFrMWFWLTh0NWtwRzJHNl9SMXlSaE9XOXdHLUtNTG5QajVxTEhpMlpjM2kwWHdKd0RkaDFub0cwbGRHNGdPVFJxcWZpeC0zdC1iSw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbnVhQllrVHpaM2N5UzJuX25FSDVpcllMVzFsa0NzMEF2cnhvWklRY2VJNzc1VjloeFlmWlFlbUo4RlJic2hkRkNUMXppN29wODhkdm9uMUlFTURITnNFLUpKZzQwSlNzTTRSSDItZXBUN2pRVFJRS2Q4aFh5a2lmMmRZa0R2R3FRUjJGai1yNzdBOU4yS2dKRXVxQ2hfTmd4bU5iMUIwMl9xaWJTRHlPSGNR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlhKaHZyT1VjN1JGeFcxUkxNcTNxVUg0dkJpSHNFa19kaWU0aDdTUjBUOEU4bXFVRGlNTTN1WDJFNDVHdHgxcW9JajhXZzdyUWszSlFOYzc2MmlfUkxjV2VWaThTQUdVVndYTFk0VnlmbUpFaG12ODF0Q2VzRU85NWFR?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -48244,9 +48153,43 @@
      "ru": "TLT – фонд долгосрочных гособлигаций"
     },
     "price_at_alert": 81.96
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794307209,
+    "reason": "ציפיות לריבית גבוהה מחזקות את הדולר.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה מחזקות את הדולר.",
+     "en": "Expectations of higher rates strengthen the dollar.",
+     "ar": "التوقعات بأسعار فائدة مرتفعة تقوي الدولار.",
+     "ru": "Ожидания более высоких ставок укрепляют доллар."
+    },
+    "name_i18n": {
+     "he": "UUP - קרן סל הדולר האמריקאי",
+     "en": "UUP - US Dollar ETF",
+     "ar": "UUP - صندوق الدولار الأمريكي",
+     "ru": "UUP - ETF доллара США"
+    },
+    "price_at_alert": 28.97
    }
   ],
-  "id": "3643796b156c"
+  "id": "3643796b156c",
+  "updates": [
+   {
+    "ts": 1794307209,
+    "time": "2026-11-10T10:40Z",
+    "severity": 7,
+    "summary": "השווקים והדולר נסחרים בזהירות וממתינים לפרסום מדד המחירים לצרכן בארה\"ב, שישפיע על החלטות הריבית העתידיות של הפד.",
+    "i18n": {
+     "he": "השווקים והדולר נסחרים בזהירות וממתינים לפרסום מדד המחירים לצרכן בארה\"ב, שישפיע על החלטות הריבית העתידיות של הפד.",
+     "en": "Financial markets and the US dollar are steady as traders await the October Consumer Price Index (CPI) report to gauge future Federal Reserve interest rate policy.",
+     "ar": "تتداول الأسواق والدولار بحذر بانتظار تقرير مؤشر أسعار المستهلكين (CPI) في الولايات المتحدة لتحديد مسار أسعار الفائدة.",
+     "ru": "Рынки и доллар торгуются осторожно в ожидании отчета по индексу потребительских цен (CPI) в США, который повлияет на решения ФРС по ставке."
+    }
+   }
+  ],
+  "last_update": 1794307209
  },
  {
   "ts": 1794296787,
@@ -48455,7 +48398,12 @@
   "category": "trade",
   "severity": 6,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+   }
+  ],
   "impacts": [
    {
     "ticker": "FXI",
@@ -48475,8 +48423,401 @@
      "ru": "ETF крупных китайских компаний"
     },
     "price_at_alert": 34.66
+   },
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1794307209,
+    "reason": "מתחי סחר גלובליים משפיעים לרעה על שווקים מתעוררים.",
+    "reason_i18n": {
+     "he": "מתחי סחר גלובליים משפיעים לרעה על שווקים מתעוררים.",
+     "en": "Global trade tensions negatively affect emerging markets sentiment.",
+     "ar": "التوترات التجارية العالمية تؤثر سلباً على معنويات الأسواق الناشئة.",
+     "ru": "Глобальная торговая напряженность негативно влияет на развивающиеся рынки."
+    },
+    "name_i18n": {
+     "he": "EEM - קרן סל שווקים מתעוררים",
+     "en": "EEM - MSCI Emerging Markets ETF",
+     "ar": "EEM - صندوق الأسواق الناشئة",
+     "ru": "EEM - ETF развивающихся рынков"
+    },
+    "price_at_alert": 61.03
    }
   ],
-  "id": "aa36059db71d"
+  "id": "aa36059db71d",
+  "updates": [
+   {
+    "ts": 1794307209,
+    "time": "2026-11-10T10:40Z",
+    "severity": 6,
+    "summary": "עודף הסחר בסחורות של סין עבר את רף הטריליון דולר לשנה השנייה ברציפות, מה שעלای להגביר את לחצי הסחר מצד שותפותיה.",
+    "i18n": {
+     "he": "עודף הסחר בסחורות של סין עבר את רף הטריליון דולר לשנה השנייה ברציפות, מה שעלای להגביר את לחצי הסחר מצד שותפותיה.",
+     "en": "China's goods trade surplus topped $1 trillion for a second consecutive year, likely intensifying trade friction and calls from global partners to rebalance trade.",
+     "ar": "تجاوز فائض التجارة السلعية في الصين حاجز تريليون دولار للعام الثاني على التوالي، مما قد يزيد من الضغوط التجارية من الشركاء.",
+     "ru": "Профицит торговли товарами Китая второй год подряд превысил 1 триллион долларов, что может усилить торговое давление со стороны партнеров."
+    }
+   }
+  ],
+  "last_update": 1794307209
+ },
+ {
+  "ts": 1794307209,
+  "time": "2026-11-10T10:40Z",
+  "title": "יועץ המסחר של טראמפ: מכפילים את המכסים",
+  "summary": "יועץ המסחר של טראמפ הצהיר כי הממשל מתכוון להרחיב ולהגביר באופן משמעותי את המכסים, למרות הפסד הרפובליקנים בקונגרס.",
+  "kid": "היועצים של טראמפ אומרים שימשיכו להעלות בגדול את המיסים על מוצרים שמגיעים מחוץ לארץ, מה שיכול לייקר מוצרים לצרכנים.",
+  "i18n": {
+   "title": {
+    "he": "יועץ המסחר של טראמפ: מכפילים את המכסים",
+    "en": "Trump Trade Adviser: Quadrupling Down On Tariffs",
+    "ar": "מستشار ترامب التجاري: نضاعف الرسوم الجمركية أربع مرات",
+    "ru": "Торговый советник Трампа: Четверное увеличение пошлин"
+   },
+   "summary": {
+    "he": "יועץ המסחר של טראמפ הצהיר כי הממשל מתכוון להרחיב ולהגביר באופן משמעותי את המכסים, למרות הפסד הרפובליקנים בקונגרס.",
+    "en": "A Trump trade adviser stated that the administration plans to aggressively quadruple down on tariffs following the GOP loss in Congress.",
+    "ar": "صرح مستشار التجارة لترامب أن الإدارة تخطط لتكثيف الرسوم الجمركية بشكل كبير بعد خسارة الجمهوريين في الكونغرس.",
+    "ru": "Торговый советник Трампа заявил, что администрация намерена усилить тарифную политику после поражения республиканцев в Конгрессе."
+   },
+   "kid": {
+    "he": "היועצים של טראמפ אומרים שימשיכו להעלות בגדול את המיסים על מוצרים שמגיעים מחוץ לארץ, מה שיכול לייקר מוצרים לצרכנים.",
+    "en": "Trump's advisers say they will keep raising taxes on foreign goods, which could make items more expensive for shoppers.",
+    "ar": "يقول مستشارو ترامب إنهم سيستمرون في رفع الضرائب على السلع القادمة من الخارج، مما قد يجعل البضائع أغلى للمستهلكين.",
+    "ru": "Советники Трампа заявляют, что продолжат повышать налоги на импортные товары, что может сделать их дороже для покупателей."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOUUJkNl82QWdTaU0zSFpYb3o1Ym9HdDB6YzVtaEpoNFRGeDlKVVFMbFZuRVh2T2d4a2tGbUZUSEJoU0VBSEVnamVCWlpUdWhPaDYxMXZtOXFlbUR6Y01sdWxiZGczUlVwaHJlbERkLTNZUHlnTTNDSFZPNnptY28zQ1RDQzlKalBHY181S3hhX0dMdXo0T2pfb2VVNXE4VHQ4RjNOWDVRVG50UkI3VjROWnVvOWgzYVdLV1V2UXBoZHhIRF9ZSFBxb1BjODFRYmYzb3BxRmpuVWxRWGU3MlpFQmRWWlFnSVBmSnk5Zm13bG1WYXQzdVo1M1d3akR6dDdram9wTlV4X3hnT2ZMNE11STNYNzdsSTVkX2J5LUJ5LU1GaEVoQjJiOHpELTNtWldm?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794307209,
+    "reason": "מכסים גבוהים יותר פוגעים ביצואנים סיניים.",
+    "reason_i18n": {
+     "he": "מכסים גבוהים יותר פוגעים ביצואנים סיניים.",
+     "en": "Higher tariffs directly hurt Chinese exporters.",
+     "ar": "الرسوم الجمركية الأعلى تضر مباشرة بالمصدرين الصينيين.",
+     "ru": "Более высокие пошлины напрямую бьют по китайским экспортерам."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות ענק סיניות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق الأسهم الصينية الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.66
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794307209,
+    "reason": "חשש מעליית עלויות לחברות אמריקאיות וממלחמות סחר.",
+    "reason_i18n": {
+     "he": "חשש מעליית עלויות לחברות אמריקאיות וממלחמות סחר.",
+     "en": "Fears of rising costs for US companies and trade retaliation.",
+     "ar": "مخاوف من ارتفاع التكاليف على الشركات الأمريكية والرد التجاري.",
+     "ru": "Опасения роста издержек американских компаний и торговых войн."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - ETF индекса S&P 500"
+    },
+    "price_at_alert": 752.69
+   }
+  ],
+  "id": "174ab07a0c2c"
+ },
+ {
+  "ts": 1794307209,
+  "time": "2026-11-10T10:40Z",
+  "title": "קנדה מטילה סנקציות חדשות על איראן; איראן דוחה לחצים",
+  "summary": "קנדה חידשה סנקציות על גורמי גרעין באיראן, בעוד בتهראן מצהירים שסנקציות ותקיפות צבאיות לא יעצרו את המלחמה.",
+  "kid": "קנדה מטילה עונשים כלכליים חדשים על איראן, ואיראן אומרת שעונשים ומלחמה לא יעזרו, מה ששומר על המתיחות במזרח התיכון גבוהה.",
+  "i18n": {
+   "title": {
+    "he": "קנדה מטילה סנקציות חדשות על איראן; איראן דוחה לחצים",
+    "en": "Canada Imposes New Sanctions on Iran; Tehran Rejects US Pressure",
+    "ar": "كندا تفرض عقوبات جديدة على إيران وترامب يواجه رفضاً إيرانياً",
+    "ru": "Канада вводит новые санкции против Ирана; Тегеран отвергает давление"
+   },
+   "summary": {
+    "he": "קנדה חידשה סנקציות על גורמי גרעין באיראן, בעוד בتهראן מצהירים שסנקציות ותקיפות צבאיות לא יעצרו את המלחמה.",
+    "en": "Canada re-imposed sanctions on Iranian nuclear entities, while Iranian officials stated that US sanctions and military strikes cannot end the conflict.",
+    "ar": "أعادت كندا فرض عقوبات على كيانات نووية إيرانية، بينما صرح مسؤولون إيرانيون بأن العقوبات والضربات العسكرية لن تنهي الحرب.",
+    "ru": "Канада возобновила санкции против ядерных объектов Ирана, в то время как Тегеран заявил, что санкции и удары не прекратят войну."
+   },
+   "kid": {
+    "he": "קנדה מטילה עונשים כלכליים חדשים על איראן, ואיראן אומרת שעונשים ומלחמה לא יעזרו, מה ששומר על המתיחות במזרח התיכון גבוהה.",
+    "en": "Canada is punishing Iran with new economic rules, and Iran says rules and war won't work, keeping Middle East tensions high.",
+    "ar": "كندا تفرض عقوبات اقتصادية جديدة على إيران، وإيران تقول إن العقوبات والحرب لن تفيد، مما يبقي التوتر في الشرق الأوسط مرتفعاً.",
+    "ru": "Канада вводит новые санкции против Ирана, а Иран заявляет, что давление не поможет, сохраняя высокую напряженность на Ближнем Востоке."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0ZWMzZnI5cmtNalBwU2pibVRNUTBXNTZ2T3lBd3pFT3hXRlZITGVVdEVPMWlnN25fTU11ZXlHMzN2OXhMZXczeEdxNHhtVWdnWHdHcHdLcjJWSGpMYjdEY1dlaXctOUFkRWc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zVUMzay0ydG93Rjg5NlBpTUZNLWk0OU5GS2RpOTk2dG5EbFNURjhGbUtKRGIzVWwwUkxaMmV2MldCeGd0UWlEcnJFN29Rbmk0cjBvaHk4ejA5eEEwOTFDSTFlelhKZVNvanhnV19lNmcxalZDWE1NaWJYQnA4dnM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtSjBRNS1zMEdjNWpBVXoyYmFWaG5IbkNMaTFMeFZNejg5THM3MXVUUnR1ZmMtcWg3T0NNdDdqbk1UQUs1bEhNQlc4MVROQ2FXbzFjSTFsbl9JcjBpMWVqOE1EemxqSnhfMlZZUjVjTVJ0cWM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794307209,
+    "reason": "מתיחות מתמשכת מול איראן שומרת על פרמיית סיכון בנפט.",
+    "reason_i18n": {
+     "he": "מתיחות מתמשכת מול איראן שומרת על פרמיית סיכון בנפט.",
+     "en": "Ongoing tensions with Iran maintain a geopolitical risk premium on oil.",
+     "ar": "التوترات المستمرة مع إيران تحافظ على علاوة المخاطر الجيوسياسية على النفط.",
+     "ru": "Постоянная напряженность вокруг Ирана поддерживает геополитическую премию в нефти."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - Нефтяной ETF"
+    },
+    "price_at_alert": 142.66
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794307209,
+    "reason": "מניות האנרגיה נהנות מחששות לגבי אספקת נפט במפרץ.",
+    "reason_i18n": {
+     "he": "מניות האנרגיה נהנות מחששות לגבי אספקת נפט במפרץ.",
+     "en": "Energy stocks benefit from supply disruption concerns in the Gulf.",
+     "ar": "أسهم الطاقة تستفيد من مخاوف تعطل الإمدادات في الخليج.",
+     "ru": "Энергетические акции выигрывают от опасений перебоев с поставками в Персидском заливе."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל מגזר האנרגיה",
+     "en": "XLE - Energy Select Sector SPDR Fund",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 61.94
+   }
+  ],
+  "id": "e0241debf3c2"
+ },
+ {
+  "ts": 1794307209,
+  "time": "2026-11-10T10:40Z",
+  "title": "האיחוד האירופי וקנדה מהדקים סנקציות ומאבקים בעקיפתן מצד רוסיה",
+  "summary": "האיחוד האירופי הקים כוח משימה לטיפול בהתחמקות מסנקציות באמצעות קריפטו, וקנדה הכריזה על סנקציות חדשות נגד רוסיה.",
+  "kid": "אירופה וקנדה ממשיכות להילחם ברוסיה בעזרת עונשים כלכליים ומקימות צוותים כדי לוודא שרוסים לא משתמשים במטבעות דיגיטליים כדי לרמות את הסנקציות.",
+  "i18n": {
+   "title": {
+    "he": "האיחוד האירופי וקנדה מהדקים סנקציות ומאבקים בעקיפתן מצד רוסיה",
+    "en": "EU and Canada Tighten Russia Sanctions and Crypto Evasion Controls",
+    "ar": "الاتحاد الأوروبي وكندا يشددان العقوبات والرقابة على التحايل الروسي",
+    "ru": "ЕС и Канада усиливают санкции против России и борьбу с их обходом"
+   },
+   "summary": {
+    "he": "האיחוד האירופי הקים כוח משימה לטיפול בהתחמקות מסנקציות באמצעות קריפטו, וקנדה הכריזה על סנקציות חדשות נגד רוסיה.",
+    "en": "The EU has set up a crypto task force to tackle Russian sanctions evasion, while Canada imposed new trade sanctions on Russia over the ongoing war.",
+    "ar": "أنشأ الاتحاد الأوروبي فرقة عمل معنية بالعملات المشفرة لمعالجة التحايل على العقوبات الروسية، بينما فرضت كندا عقوبات جديدة.",
+    "ru": "ЕС создал рабочую группу по криптовалютам для борьбы с обходом санкций против РФ, а Канада ввела новые санкции."
+   },
+   "kid": {
+    "he": "אירופה וקנדה ממשיכות להילחם ברוסיה בעזרת עונשים כלכליים ומקימות צוותים כדי לוודא שרוסים לא משתמשים במטבעות דיגיטליים כדי לרמות את הסנקציות.",
+    "en": "Europe and Canada keep fighting Russia with economic penalties and are setting up teams to make sure Russians don't use digital money to cheat sanctions.",
+    "ar": "أوروبا وكندا تحاربان روسيا بالعقوبات وتشكلان فرق عمل لضمان عدم استخدام العملات الرقمية للتحايل عليها.",
+    "ru": "Европа и Канада продолжают давить на Россию санкциями и создают группы для пресечения обхода запретов через криптовалюту."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWmE0eGdWcUd0MkVJR094UElpMTdyVW1HR2tRTktjaEs5OHJNN2lBZEc5T3JaaTJ5cm8tc0xIMlJpZWFfblo2Umx1RlYxYjFQVUlPZktDZ3hhdHNQeDZ4ZGVlT3d0YmVhelBMc1g3WllJRUhPNGtQWWs5V1E2T0QwOF9CY2E0U2hHdTVTc0UxZWpRRXBPT1kxbWxB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVW9Lb0E1NlBkNjRHaWQ1cnh0UWI0Sk1zR2pCUXVJVlBnMVFVTlUta2dqNEpnS28yWExJbWlkVFdOVC13eWdaelJSYlhURVJqZmNrVzAwN1VSWlZ5WHMyemZLSnM4QUxlMnJLazlyWGpjOThrNVhLOHR1X2l3OUxJaEZRQkxvTWhwRHcxb2sxeWJuSHBCVkZ5NHE2emVHcWNNWUhxQ01rSndhUEdyNnNR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794307209,
+    "reason": "פיקוח הדוק יותר על קריפטו למניעת עקיפת סנקציות עלול להכביד על השוק.",
+    "reason_i18n": {
+     "he": "פיקוח הדוק יותר על קריפטו למניעת עקיפת סנקציות עלול להכביד על השוק.",
+     "en": "Tighter crypto oversight to block sanctions evasion may create regulatory headwind.",
+     "ar": "الرقابة الأشد على العملات المشفرة لمنع التحايل قد تشكل ضغطاً على السوق.",
+     "ru": "Ужесточение контроля за криптовалютами для пресечения обхода санкций может давить на рынок."
+    },
+    "name_i18n": {
+     "he": "IBIT - קרן סל ביטקוין",
+     "en": "IBIT - iShares Bitcoin Trust",
+     "ar": "IBIT - صندوق البيتكوين",
+     "ru": "IBIT - Биткоин ETF"
+    },
+    "price_at_alert": 42.32
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794307209,
+    "reason": "הידוק הסנקציות מעjד את המשך התמיכה הביטחונית באוקראינה.",
+    "reason_i18n": {
+     "he": "הידוק הסנקציות מעjד את המשך התמיכה הביטחונית באוקראינה.",
+     "en": "Stricter sanctions reinforce the West's defense posture and aid for Ukraine.",
+     "ar": "تشديد العقوبات يعزز الموقف الدفاعي الغربي والدعم لأوكرانيا.",
+     "ru": "Ужесточение санкций укрепляет западную оборонную позицию и поддержку Украины."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
+     "en": "ITA - iShares U.S. Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.67
+   }
+  ],
+  "id": "0b79dcea0b7f"
+ },
+ {
+  "ts": 1794307209,
+  "time": "2026-11-10T10:40Z",
+  "title": "הודו צופה שיא בנטיעות חיטה; התפוקה תלויה במזג האוויר",
+  "summary": "לפי ארגון המזון והחקלאות (FAO), הודו צופה נטיעות חיטה בהיקף שיא, אך היבול הסופי יהיה תלוי בתנאי מזג האוויר.",
+  "kid": "הודו זורעת המון חיטה השנה, מה שעשוי להוביל ליבול ענק אם מזג האוויר יאיר פנים, מה שישפיע על מחירי המזון בעולם.",
+  "i18n": {
+   "title": {
+    "he": "הודו צופה שיא בנטיעות חיטה; התפוקה תלויה במזג האוויר",
+    "en": "India Sees Record Wheat Plantings, Weather Dependent",
+    "ar": "الهند تتوقع مساحات قياسية لزراعة القمح والمحصول يعتمد على الطقس",
+    "ru": "Индия ожидает рекордных посевов пшеницы, урожай зависит от погоды"
+   },
+   "summary": {
+    "he": "לפי ארגון המזון והחקלאות (FAO), הודו צופה נטיעות חיטה בהיקף שיא, אך היבול הסופי יהיה תלוי בתנאי מזג האוויר.",
+    "en": "According to FAO, India's wheat plantings are projected at a record high, though final output will heavily depend on future weather conditions.",
+    "ar": "وفقاً لمنظمة الأغذية والزراعة (الفاو)، تتوقع الهند مساحات قياسية لزراعة القمح، لكن الإنتاج النهائي سيعتمد بشدة على الطقس.",
+    "ru": "По данным ФАО, посевы пшеницы в Индии прогнозируются на рекордном уровне, но итоговый урожай будет зависеть от погоды."
+   },
+   "kid": {
+    "he": "הודו זורעת המון חיטה השנה, מה שעשוי להוביל ליבול ענק אם מזג האוויר יאיר פנים, מה שישפיע על מחירי המזון בעולם.",
+    "en": "India is planting a lot of wheat this year, which could lead to a massive harvest if weather cooperates, impacting global food prices.",
+    "ar": "تزرع الهند الكثير من القمح هذا العام، مما قد يؤدي إلى محصول ضخم إذا ساعد الطقس، مما يؤثر على أسعار الغذاء العالمية.",
+    "ru": "Индия засевает много пшеницы в этом году, что может привести к огромному урожаю при хорошей погоде, влияя на мировые цены на продовольствие."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNE50My1ualU3QVNYVmFqN0c5VkFadFV2S2drYXBLZkFEUUE4Q3JCMGUtNURURVhiaGFjX01YdGxtNkRxd3RKU0xiRk5fR2ROU1k3bmpGcWFXLUNPZHZHY01MMFVJcWVieGRlSXdzbmNIRXVLdUZNRXd1ZVlwV09LamRmUGJOOEdRVklwZEx0VGFZWGFVVkIwMlR4M2RtVjFHNW9kdExXVlRsR19nSTZvNHlSc0lwX1U4cGxyUXVn0gHCAUFVX3lxTE1qbC10YTdQMEwzUmhHNV83bWxfeF9VMEhVa1JfWGI1dmtEWER3QUt1TVozZk9GQkdVVC1tV2hCT1FjYzZxWV8yUTFFRHZLbV9HeUxoVjZyNEFrdXYzR29HanZFMTJ2MS1hMVA4UHF5TExNekJVa2hKb1hLTHJ4TGR5N0dpaHd4UVBERWZIaDhIV21vN0RQWjJMdzVBXzRvZUtTdTc3THhhbVZxUzkxV2tpNUh3a09COGZtaHNkNlFGaDZ3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "down",
+    "t0": 1794307209,
+    "reason": "ציפיות ליבול שיא בהודו עשויות להקל על לחצי מחירי החיטה הגלובליים.",
+    "reason_i18n": {
+     "he": "ציפיות ליבול שיא בהודו עשויות להקל על לחצי מחירי החיטה הגלובליים.",
+     "en": "Expectations of record wheat plantings in India could ease global supply pressures.",
+     "ar": "التوقعات بمحصول قياسي في الهند قد تخفف ضغوط الإمدادات العالمية.",
+     "ru": "Ожидания рекордных посевов в Индии могут ослабить давление на глобальные поставки."
+    },
+    "name_i18n": {
+     "he": "WEAT - קרן סל חיטה",
+     "en": "WEAT - Teucrium Wheat Fund",
+     "ar": "WEAT - صندوق القمح",
+     "ru": "WEAT - ETF на пшеницу"
+    },
+    "price_at_alert": 21.65
+   }
+  ],
+  "id": "0aa686ee3f60"
+ },
+ {
+  "ts": 1794307209,
+  "time": "2026-11-10T10:40Z",
+  "title": "התפרצות חצבת בארה\"ב חצתה את רף 1,500 המקרים",
+  "summary": "הרשויות מדווחות כי התפרצות מחלת החצבת המקומית בארה\"ב עברה את סף ה-1,500 חולים וממשיכה להוות אתגר בריאותי.",
+  "kid": "מחלת החצבת התפשטה ליותר מ-1,500 אנשים באזור מסוים בארה\"ב, מה שגורם לרשויות הבריאות להגביר את המאמצים לעצור אותה.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות חצבת בארה\"ב חצתה את רף 1,500 המקרים",
+    "en": "US State Measles Outbreak Surpasses 1,500 Cases",
+    "ar": "تفشي الحصبة في ولاية أمريكية يتجاوز 1,500 حالة",
+    "ru": "Вспышка кори в США превысила 1500 случаев"
+   },
+   "summary": {
+    "he": "הרשויות מדווחות כי התפרצות מחלת החצבת המקומית בארה\"ב עברה את סף ה-1,500 חולים וממשיכה להוות אתגר בריאותי.",
+    "en": "Local health authorities report that a state measles outbreak has surpassed 1,500 confirmed cases, posing an ongoing public health challenge.",
+    "ar": "أفادت السلطات الصحية المحلية بأن تفشي مرض الحصبة تجاوز 1,500 حالة مؤكدة، مما يمثل تحدياً مستمراً للصحة العامة.",
+    "ru": "Местные органы здравоохранения сообщают, что вспышка кори превысила 1500 подтвержденных случаев."
+   },
+   "kid": {
+    "he": "מחלת החצבת התפשטה ליותר מ-1,500 אנשים באזור מסוים בארה\"ב, מה שגורם לרשויות הבריאות להגביר את המאמצים לעצור אותה.",
+    "en": "Measles has infected over 1,500 people in a specific US region, causing health authorities to step up containment efforts.",
+    "ar": "أصابت الحصبة أكثر من 1,500 شخص في منطقة أمريكية معينة، مما دفع السلطات الصحية لتكثيف جهود احتوائها.",
+    "ru": "Корь заразила более 1500 человек в определенном регионе США, заставляя власти усиливать меры контроля."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTXpmc3lvU1VhM1ktcG9PekdrZU1manZWQXBlaVNCcU1mRnVVMHB1ZkNtdXhmT2NOMFlzcy1yWEkzY1cxM0lCTk9wREN1dWtNRTJlaGVmZ3Zkb1R0WDBSVUFRWUd3ck1wTXFEUjRsNTJ5cW5MUThLQl8wa2o2VFlfMVZpMVBWcVFS?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "MRNA",
+    "direction": "up",
+    "t0": 1794307209,
+    "reason": "התפרצויות מחליות מעלות את תשומת הלב הציבורית והממשלתית לחיסונים וטיפולים רפואיים.",
+    "reason_i18n": {
+     "he": "התפרצויות מחליות מעלות את תשומת הלב הציבורית והממשלתית לחיסונים וטיפולים רפואיים.",
+     "en": "Disease outbreaks increase public and government focus on vaccines and healthcare preparedness.",
+     "ar": "تفشي الأمراض يزيد الاهتمام العام والحكومي باللقاحات والاستعداد الصحي.",
+     "ru": "Вспышки заболеваний повышают внимание к вакцинам и здравоохранению."
+    },
+    "name_i18n": {
+     "he": "MRNA - מודרנה (ביוטכנולוגיה)",
+     "en": "MRNA - Moderna Inc.",
+     "ar": "MRNA - موديرنا للتكنولوجيا الحيوية",
+     "ru": "MRNA - Moderna (биотехнологии)"
+    },
+    "price_at_alert": 269.0
+   }
+  ],
+  "id": "f875266ddfb1"
  }
 ]
