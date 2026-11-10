@@ -696,192 +696,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793709589,
-  "time": "2026-11-03T12:39Z",
-  "title": "פינלנד בוחרת במערכות נשק של רפאל",
-  "summary": "פינלנד בחרה בחברת Dynamit Nobel של רפאל הישראלית לספק את מערכות RGW110.",
-  "kid": "חברת רפאל קיבלה הזמנה לספק מערכות נשק לפינלנד. מכיוון שרפאל עובדת עם חברות ענק כמו RTX, חדשות טובות כאלו עשויות לעזור למניות בתחום הביטחוני לעלות.",
-  "i18n": {
-   "title": {
-    "he": "פינלנד בוחרת במערכות נשק של רפאל",
-    "en": "Finland Selects Rafael Systems",
-    "ar": "فينلندا تختار أنظمة رفائيل",
-    "ru": "Финляндия выбирает системы Рафаэль"
-   },
-   "summary": {
-    "he": "פינלנד בחרה בחברת Dynamit Nobel של רפאל הישראלית לספק את מערכות RGW110.",
-    "en": "Finland has selected Rafael's Dynamit Nobel to supply RGW110 systems.",
-    "ar": "اختارت فنلندا شركة داينامايت نوبل التابعة لشركة رفائيل الإسرائيلية لتوريد أنظمة RGW110.",
-    "ru": "Финляндия выбрала компанию Dynamit Nobel, принадлежащую израильской Rafael, для поставки систем RGW110."
-   },
-   "kid": {
-    "he": "חברת רפאל קיבלה הזמנה לספק מערכות נשק לפינלנד. מכיוון שרפאל עובדת עם חברות ענק כמו RTX, חדשות טובות כאלו עשויות לעזור למניות בתחום הביטחוני לעלות.",
-    "en": "Rafael got an order to supply weapons to Finland. Because Rafael works with big US defense companies like RTX, news like this can sometimes help defense stocks go up.",
-    "ar": "حصلت رفائيل على طلب لتوريد أسلحة لفينلندا. ونظراً لأن رفائيل تعمل مع شركات دفاعية أمريكية كبرى مثل RTX، فإن أخباراً كهذه قد تساعد أسهم الدفاع في الصعود.",
-    "ru": "Рафаэль получила заказ на поставку оружия в Финляндию. Поскольку Рафаэль сотрудничает с крупными американскими компаниями, такими как RTX, такие новости могут способствовать росту оборонных акций."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01RVZSZ2IwcC0xZGNreU5WTzE0TTNzVWVqak9qaUplVFdWTVBDQjZDOUc3Y0QyX2NTcVNJUGg2amRmT0piemRncERRa1RZaGwweW5PMUhEaU8?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1793709589,
-    "reason": "שיתופי פעולה קודמים של רפאל עם RTX בארה\"ב מעלים את קרנו של המגזר.",
-    "reason_i18n": {
-     "he": "שיתופי פעולה קודמים של רפאל עם RTX בארה\"ב מעלים את קרנו של המגזר.",
-     "en": "Past cooperation between Rafael and RTX highlights sector ties.",
-     "ar": "التعاون السابق بين رفائيل وRTX يبرز الروابط في القطاع.",
-     "ru": "Прошлое сотрудничество между Rafael и RTX подчеркивает связи в секторе."
-    },
-    "name_i18n": {
-     "he": "RTX - ענקית ביטחונית ותעופה",
-     "en": "RTX - major defense and aerospace company",
-     "ar": "RTX - شركة دفاع وفضاء كبرى",
-     "ru": "RTX - крупная оборонная и аэрокосмическая компания"
-    },
-    "price_at_alert": 202.79,
-    "entry_price": 202.93,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 198.465,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.2,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -4.06,
-    "edge_pct": -4.06,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793709589,
-    "reason": "חוזים ביטחוניים בינלאומיים מחזקים את כל סקטור הביטחון.",
-    "reason_i18n": {
-     "he": "חוזים ביטחוניים בינלאומיים מחזקים את כל סקטור הביטחון.",
-     "en": "International defense contracts strengthen the overall security sector.",
-     "ar": "العقود الدفاعية الدولية تعزز قطاع الأمن بأكمله.",
-     "ru": "Международные оборонные контракты укрепляют весь секторальный рынок."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל של מניות ביטחון ותעופה",
-     "en": "ITA - US aerospace and defense ETF",
-     "ar": "ITA - صندوق متداول لقطاع الفضاء والدفاع الأمريكي",
-     "ru": "ITA - биржевой фонд аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 214.68,
-    "entry_price": 214.87,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -0.99,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -2.85,
-    "edge_pct": -2.85,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "ddd3cf0b8dee",
-  "evaluated": true
- },
- {
-  "ts": 1793709589,
-  "time": "2026-11-03T12:39Z",
-  "title": "מכירות טאקו בל נפגעות עקב התפרצות טפילים",
-  "summary": "המכירות של רשת טאקו בל (בבעלות Yum Brands) ירדו מעבר לצפוי בעקבות התפרצות מחלת ציקלוספוריאזיס הקשורה למוצרי מזון ולחסה, למרות שהחברה עקפה את תחזיות הרווח הכלליות.",
-  "kid": "היו בעיות בריאותיות הקשורות לירקות ברשת טאקו בל, מה שגרם לירידה במכירות שלהם למרות שחברת האם הצליחה להרוויח טוב בסך הכל. חדשות כאלו עלולות לגרום לתנודות במניות של רשתות מזון מהיר.",
-  "i18n": {
-   "title": {
-    "he": "מכירות טאקו בל נפגעות עקב התפרצות טפילים",
-    "en": "Taco Bell Sales Hit by Cyclospora Outbreak",
-    "ar": "مبيعات تاكو بيل تتضرر بسبب تفشي الطفيليات",
-    "ru": "Продажи Taco Bell падают из-за вспышки паразитов"
-   },
-   "summary": {
-    "he": "המכירות של רשת טאקו בל (בבעלות Yum Brands) ירדו מעבר לצפוי בעקבות התפרצות מחלת ציקלוספוריאזיס הקשורה למוצרי מזון ולחסה, למרות שהחברה עקפה את תחזיות הרווח הכלליות.",
-    "en": "Yum Brands' Taco Bell sales sank more than expected due to a cyclosporiasis parasite outbreak tied to food items, even as overall revenue beat estimates.",
-    "ar": "انخفضت مبيعات تاكو بيل التابعة لشركة يوم براندز بشكل أكبر من المتوقع بسبب تفشي طفيلية مرتبط بالأغذية، رغم أن الإيرادات العامة تجاوزت التوقعات.",
-    "ru": "Продажи Taco Bell (принадлежит Yum Brands) упали сильнее ожиданий из-за вспышки кишечного паразита, связанной с продуктами питания, несмотря на то, что общая выручка превзошла прогнозы."
-   },
-   "kid": {
-    "he": "היו בעיות בריאותיות הקשורות לירקות ברשת טאקו בל, מה שגרם לירידה במכירות שלהם למרות שחברת האם הצליחה להרוויח טוב בסך הכל. חדשות כאלו עלולות לגרום לתנודות במניות של רשתות מזון מהיר.",
-    "en": "Taco Bell had food safety issues that hurt its sales, even though its parent company made good money overall. News like this can make fast-food stocks go up and down.",
-    "ar": "واجهت تاكو بيل مشاكل صحية أضرت بمبيعاتها، رغم أن الشركة الأم حققت أرباحاً إجمالية جيدة. أخبار كهذه قد تحرك أسهم الوجبات السريعة.",
-    "ru": "У Taco Bell возникли проблемы с безопасностью еды, что ухудшило продажи, хотя в целом материнская компания заработала неплохо. Такие новости могут вызывать колебания акций ресторанов."
-   }
-  },
-  "category": "health",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa25RTjFYM1dnSE83VmtPMU1TV2hiNGFFMUhIQTRVVXd6RkFOTFVNWHFKdHJtM0kyTXFKckNPMXFlQkZEdXZscWwyMEJNcjAzc0hFV05OY2IzcjE0SHhtc3J2UF9SNWxFVVBlOEZhbjBreDBTRXIwa3djX1E4ckIxTUxCY2d1VmVGcVlnWHZ2MV81T1NjRHQtU1V0RXBfWTZfTkVvRk5HN2lFeEpYSC1BVlFJVQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53ZUJVLTMzYTlVSHV1dDNkTFRRZm1IWVh3SlBmWDFjM2pkTTI4dkU0MVhJRGF6TUNpaERBTTZYZlIyXzJUMG41ejBadmpJMnduUHFlTWVSaklVZDI0anJRdw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd0l4cmVvb081cEhaZTN4TV8tQUpPMzF0OWRsZUxOVEc4Q1FZMTd5dXN1VjcxQ0Y4UjBDSTRudU9ua29FQktaVWZOd1VqQWw0dEpvREpnN1lCYklFa2x0ZXVxV3hjZ0haNkp4d05UUVAxckM0MHpMMkNvVTlhQkpaaW1mek9XLVVYb0dNa1RzY0VQOHlLY3IyTzRfTkZLS2FYMWJSeUZ4RkZVZm5BaExZUHpuUVA?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUxtc0hyOVlCc1lxRzByTXhXVzB6MHhpN1VPNjhJZXBQM1JZM2ZUeTh6elg3eXhyQmpMUkp6SU1TV1E4NXU2TTNFZzFxR3BqaUJQbDRCS2pWZEdGdGRhbUh2bHo3Z0w5c1hPaWtqdEQtWS1lVy1HamxqVG9zQmRTVVNTLUJLLXdLa01LUng0MnNNT19RRWlybDU2ejJ0R2RuOVJCemRKTkFVQWhPOWNMU2l3?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQYXhWRXc5WTdTTUNFQTJKR3hEbE1uYnE4ekN2VlRhVERyWEdVTlNiOFhQR0NjVlAxX3U3RC1iY0tEOFNPUmdIbkpDaC13dUZzaFptWXd1R3N2bC1IVHdFUHJpYzRtTmFQZENTNHpDNUdydFBxOFRYTTR3WHBmOVIxWlNlc05aTHlrZ21hZTRnSENIcDFScjVJSjdqZzVxSWp3OUtoblk2SjJVRWpOaks1Z1h6dDRycWVGRG1xdC1fNXVROENKMEYxZGlDNjRiZzJvbGlvSDBWNFhEaVpRQzE2aDI2WlhjbUc0bVFzVnRqTkp5VjQzaEhVRUxWaXVXV1FZeHg4bFVnOA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "YUM",
-    "direction": "down",
-    "t0": 1793709589,
-    "reason": "ירידה חדה במכירות המותג עקב חששות בריאותיים פוגעת באמון המשקיעים.",
-    "reason_i18n": {
-     "he": "ירידה חדה במכירות המותג עקב חששות בריאותיים פוגעת באמון המשקיעים.",
-     "en": "Sharp sales drop due to health scares weighs on investor sentiment.",
-     "ar": "الانخفاض الحاد في المبيعات بسبب المخاوف الصحية يؤثر على معنويات المستثمرين.",
-     "ru": "Резкое падение продаж из-за проблем со здоровьем негативно влияет на настроение инвесторов."
-    },
-    "name_i18n": {
-     "he": "Yum Brands - חברת האם של טאקו בל",
-     "en": "Yum Brands - parent company of Taco Bell",
-     "ar": "يوم براندز - الشركة الأم لتاكو بيل",
-     "ru": "Yum Brands - материнская компания Taco Bell"
-    },
-    "price_at_alert": 157.6,
-    "entry_price": 160.58,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 166.31,
-    "exit_date": "2026-11-04",
-    "change_pct": 3.57,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": 1.71,
-    "edge_pct": -1.71,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "27cd82a44c91",
-  "evaluated": true
- },
- {
   "ts": 1793714108,
   "time": "2026-11-03T13:55Z",
   "title": "הפצצה רוסית הרגה 31 בני אדם במרכז סיוע באוקראינה",
@@ -48794,5 +48608,133 @@
    }
   ],
   "id": "a7c730e0d877"
+ },
+ {
+  "ts": 1794318912,
+  "time": "2026-11-10T13:55Z",
+  "title": "מדד המחירים לצרכן בארה\"ב באוקטובר גבוה מהצפוי",
+  "summary": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, מעל התחזיות המוקדמות, מה שהעלה את תשואות האג\"ח והגביר את הציפיות להעלאת ריבית מצד הפדרל ריזרב.",
+  "kid": "המחירים בארה\"ב עלו מהר מהצפוי בחודש אוקטובר. זה גרם למשקיעים לחשוש שהבנק המרכזי יעלה את הריבית, מה שיכול להוריד את מחירי המניות.",
+  "i18n": {
+   "title": {
+    "he": "מדד המחירים לצרכן בארה\"ב באוקטובר גבוה מהצפוי",
+    "en": "US October CPI Inflation Rises More Than Expected",
+    "ar": "تضخم مؤشر أسعار المستهلكين الأمريكي في أكتوبر يرتفع بأكثر من المتوقع",
+    "ru": "Инфляция потребительских цен в США в октябре оказалась выше ожиданий"
+   },
+   "summary": {
+    "he": "מדד המחירים לצרכן בארה\"ב עלה ב-0.4% באוקטובר, מעל התחזיות המוקדמות, מה שהעלה את תשואות האג\"ח והגביר את הציפיות להעלאת ריבית מצד הפדרל ריזרב.",
+    "en": "US consumer prices rose 0.4% in October, exceeding forecasts and prompting a jump in Treasury yields as well as increasing expectations for a Federal Reserve rate hike.",
+    "ar": "ارتفعت أسعار المستهلكين في الولايات المتحدة بنسبة 0.4% في أكتوبر، متجاوزة التوقعات ومما أدى إلى ارتفاع عوائد سندات الخزانة وزيادة التوقعات برفع الفائدة من قبل الفيدرالي.",
+    "ru": "Потребительские цены в США выросли на 0,4% в октябре, превысив прогнозы, что привело к скачку доходности гособлигаций и усилению ожиданий повышения ставки ФРС."
+   },
+   "kid": {
+    "he": "המחירים בארה\"ב עלו מהר מהצפוי בחודש אוקטובר. זה גרם למשקיעים לחשוש שהבנק המרכזי יעלה את הריבית, מה שיכול להוריד את מחירי המניות.",
+    "en": "Prices in the US went up faster than expected in October. This made investors worry that the central bank might raise interest rates, which can push stock prices down.",
+    "ar": "ارتفعت الأسعار في الولايات المتحدة بشكل أسرع من المتوقع في أكتوبر. هذا جعل المستثمرين يخشون أن يقوم البنك المركزي برفع أسعار الفائدة، مما قد يؤدي إلى انخفاض أسعار الأسهم.",
+    "ru": "Цены в США росли быстрее, чем ожидалось, в октябре. Это заставило инвесторов опасаться повышения процентной ставки центробанком, что может снизить цены на акции."
+   }
+  },
+  "category": "macro",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2FHRTBfanJyQ2cwbl9mWnBMMklDZGdVb3p6bzFzd3JZSkVwUFozWWE0ZFZlU1pvT3YxblUzR2liVHNKdFFDVDFhdlVJMHZnQWdlNTBnOXM1NE51a01KNUdzdGx3WE1HNjFhVWxySjl4UUUza3Zub3llUnRxUy1Ya1VXNGlueUI5ckJlcEl4RVR3ck1ER3ViVVN6VUVwQXNzYXBoOA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa1c1bnE4QlNVdnptemVmRXdNeGdzdGNVME1LLUJ5dEREVW52dDJxMmlLQlJoMVM1VXhZUmNLUDdTSDVXT3Z5d2d3NUZOaXFicm5FczhsOW5xVmVqTUZVZW5VVFhpRHdHVzBMNDB1ZEs2X2VpTlpyMmtJODZZRWJmd0xVUXVicnBlS3ltcDhocUE4TEl3MjkzelhUTDBBWVBuamxrOU5TQkQ2clNBY0E?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0JfOHJvZ1FGbm9EMWNoRmF6eXhwejZvZFk1Wmw1MDNkeXU3RHl1UkQ0bXV2b25TNVJQcUI1ZXJ4WEN1LUFkaElhYVR3V0dCdjVuNGVIbDEwLWFnc3JNclRpQUhERF9nY1NXVk5ndXNDZVBhUjBPZ21oaFg3UEhwN2I1WWs2T0M4ZDNoa1BtcDZlekYwMUdVR0ZvN3U1SWEyTFZEQ3YtT1lDdXo4dFE4Y3V4TXB4TERHdS1Tb25R?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVEhSRlVuajZGOUk0VldnM1BoQkRDUklocXBpbzhXQzI0VFBKNW02bHZnNENFT3A5bTBYeHRTZGhvYUpLamx0X2JibmR0eFJUa1RGYkRGQkJ0R2xUSEFFdXBSSTFCb0JRNU1ETEx2M1FUYUNaV1ZpX2pSUHJEWTJ5SDFmUHFQai1xLW9tQTlBc2JzdER6eU51dUhCemxXNW5rcnZSOTVrNXM3N01FSDk4cW51QUNxdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBycGo3QjNvbGhQX1gzOWt6ZGZHajlwaU9RQ3g5N1QwbkVxVmw0a3RQNVhoY2hRa2xWSFBpaGJ6T0FDN2N5ZkdwbmRIT1RmcG5JVmtXTkc4TllWYzIxMV9QRGZ3OUlNbnlpdkExNjBTc9IBdEFVX3lxTFBibjJELUFiUVpDdlpOU0dUOUdpeXdId2VjN05YSERrb21rT0Zid2VEaW5SVHJoRV9pdG40RzZpS3hTbGt0Tl9ta0ZmM1JNMTFKSFp2SE1HbXdEZzU1QnRxUGdMZDJFT1E3WExMMl81cTZGSXR6?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTM0hlaW1Oc0FQRUY5YXRsYlgyQVZIMDhlUnpob3ZiZU9DbF9LdE5ocmRGaXNrXzhSU3BDVmhyalFqSXp0WU1WamlZcTAyWUR1U2FEN1h5N1hvNVR6a1ZpeVhVZFktVDRIYXdDSzh0UXRVRVc3RUZMdGZ3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSmVuWG0xYWRzTV83MVQtZ0pYMUNLakNhYUw0cjZUekxtNy1KZjRvT3NaczVySE5OVXVVM3dDa0ctNnJpZ3FMMm1iRTdGa1ZBMFhXbEU1RUZodGVRTUFLWDFweTJ6YWVpeWZnMzZFUGNwbTN6STBGZVYxR2VGOE8xa2FIazZuNURWTVhyeHZnNFlMSmJCVlRoTmg1c3BtWmI0Y0wyd2NUYUg4YTVHbmtqMlJ5WThzaGZkU29sVnFHNi1GVFdfbjJyUnF0Nnd3RWFpekgzQ2h1aw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQelNoMFNyY01hVzlXME5aeHpRMGpzd1NVc2pxVHlMNFFWYVdUSjdDMkZxdF9fS01fS0xxc3Z3bDN3R28tMlB5TlV2djZib0JZak84MExhcEV4emhRWGpoTURjcTAzOThSU3dqRWFMVEE3VDRjb1FTS1c1b09uU2lFMWlZdkZVWENsWjE4WVUyQTZxZ1pXTDhnTE90czBGb1E2T2o3RHk0ODkxUDZ5ZzVfdDl3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794318912,
+    "reason": "אינפלציה גבוהה מהצפוי מעלה חשש מהעלאת ריבית ופוגעת במניות.",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה מהצפוי מעלה חשש מהעלאת ריבית ופוגעת במניות.",
+     "en": "Hotter-than-expected inflation raises rate hike fears and pressures stocks.",
+     "ar": "التضخم الأعلى من المتوقع يثير مخاوف رفع الفائدة ويضغط على الأسهم.",
+     "ru": "Превышающая ожидания инфляция усиливает страхи повышения ставки и давит на акции."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - ETF индекса S&P 500"
+    },
+    "price_at_alert": 752.69
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794318912,
+    "reason": "מניות טכנולוגיה רגישות במיוחד לריביות גבוהות.",
+    "reason_i18n": {
+     "he": "מניות טכנולוגיה רגישות במיוחד לריביות גבוהות.",
+     "en": "Tech stocks are particularly sensitive to higher interest rates.",
+     "ar": "أسهم التكنولوجيا حساسة بشكل خاص لارتفاع أسعار الفائدة.",
+     "ru": "Технологические акции особенно чувствительны к росту процентных ставок."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל מדד נאסד\"ק 100",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ - ETF индекса Nasdaq 100"
+    },
+    "price_at_alert": 679.35
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794318912,
+    "reason": "תשואות האג\"ח קופצות והמחירים יורדים עקב נתוני האינפלציה החמים.",
+    "reason_i18n": {
+     "he": "תשואות האג\"ח קופצות והמחירים יורדים עקב נתוני האינפלציה החמים.",
+     "en": "Bond yields jump and prices fall due to hot inflation data.",
+     "ar": "قفزة في عوائد السندات وانخفاض الأسعار بسبب بيانات التضخم الساخنة.",
+     "ru": "Доходность облигаций растет, а цены падают из-за сильных данных по инфляции."
+    },
+    "name_i18n": {
+     "he": "TLT - קרן סל אג\"ח ממשלתי ארוך",
+     "en": "TLT - Long-Term Treasury ETF",
+     "ar": "TLT - صندوق سندات الخزانة طويلة الأجل",
+     "ru": "TLT - ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 81.96
+   }
+  ],
+  "id": "88ac626e40c1"
  }
 ]
