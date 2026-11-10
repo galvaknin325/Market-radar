@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T02:48Z",
+ "generated": "2026-11-10T03:32Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 626,
+ "total_alerts": 628,
  "overall": {
   "n": 300,
   "hits": 147,
@@ -114,7 +114,7 @@
    "avg_edge": -0.33
   },
   "XOM": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 6,
    "hits": 3,
    "name": {
@@ -354,14 +354,14 @@
    "avg_edge": -1.56
   },
   "QQQ": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 14,
    "hits": 5,
    "name": {
-    "he": "QQQ - קרן סל נאסד\"ק 100",
+    "he": "QQQ – קרן סל של מדד נאסד\"ק 100",
     "en": "QQQ – Nasdaq 100 ETF",
     "ar": "QQQ - صندوق مؤشر ناسداك 100",
-    "ru": "QQQ - ETF на индекс Nasdaq 100"
+    "ru": "QQQ – ETF индекса Nasdaq 100"
    },
    "avg_edge": -0.37
   },
@@ -882,14 +882,14 @@
    "avg_edge": -1.37
   },
   "QCOM": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "קוואלקום",
-    "en": "Qualcomm",
-    "ar": "كوالكوم",
-    "ru": "Qualcomm"
+    "he": "קואלקום – יצרנית שבבים ותקשורת",
+    "en": "Qualcomm – chip and wireless tech maker",
+    "ar": "كوالكوم - مصنعة رقاقات وتقنيات لاسلكية",
+    "ru": "Qualcomm – производитель чипов и беспроводных технологий"
    },
    "avg_edge": 2.89
   },
@@ -1310,6 +1310,18 @@
     "en": "ASHR - China A-Shares ETF",
     "ar": "ASHR - صندوق الأسهم الصينية المحلية",
     "ru": "ASHR - ETF акций китайских компаний класса A"
+   },
+   "avg_edge": null
+  },
+  "AMZN": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אמזון – ענקית מסחר וענן",
+    "en": "Amazon – e-commerce and cloud giant",
+    "ar": "أمازون - عملاق التجارة الإلكترونية والحوسبة السحابية",
+    "ru": "Amazon – гигант электронной коммерции и облачных вычислений"
    },
    "avg_edge": null
   }

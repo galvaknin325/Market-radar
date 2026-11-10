@@ -52675,12 +52675,28 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 7,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NcHJvX2VIeHdzY2JIUGxsdkx5NnZXQUM4d2NJeklhR0hnMXc3UWlRWmhlWlJjcmtHZlgzam1VSzAtNG1qc1FWRDA5Qy1IYXBsSEtBMHFVYlNPVlFHeUVBcHpxVTRUaHlacEE1bV93?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQamtVTGpFZHktR0ZaMjJLZlp0aDNpZ1pHSjhHeVhZWExYdWJEWVFiSjFnTnB6SHd6dFIzOWhWRjUwYkhBNVdxWk5JMkxEUmxKNlRlR1RpNmFpYi1CYzZKOXJaSTFVRlZwYnVTM2JTZVZyYzBnSEMzVUxXS3JYN1hfV3NDWk11Sl9Jbjh2ODZNRU9xNmNXYXVyRDlQYVROVEhCVXluaGQ0Vi1ZdTU2NUFMOFVlbWdhOUg1bEo1eUFGRWdpal9NMDZqY3Ewdmc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdWVYTFFUc1JQOGhkS2NvLWV3SkE1SXdCOXhLZ0lqcXRheFZBUmY5NEdsZ2JBSWk4SnNDNTR3MC01QnhOOUk4WmJsZm9iMndfWHZMbUdXQW9oRWk0LWN2eWFMYWc2ZFFqWnlRSTRSWFNMSjBiaWZXNThzWThIVl9hYW8wWFB1clFtSUgzRThibWMtMW1xSU8zZWRn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmUweHBVS0lsLWNpLVp0QnMtbnBraTFmeTU5Q3FEX3hNMy13Uk4wdzVYOEpoV25lNU43cmdhVVV4RHJYNVVnUi1WQUhVaklock5McHJaeGVzb3AycE4teDhQZXJldkJMWlRvRVE4SXNvOFBuZ3RFNHlhcUItZTA3RVkxWUR2eFJ4Q0pMeEhTdUdmZmVwcUR2eg?oc=5"
    }
   ],
   "impacts": [
@@ -52759,6 +52775,25 @@
      "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
     },
     "price_at_alert": 71.67
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794281527,
+    "reason": "עליית מחירי הנפט הגולמי תומכת במניות חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט הגולמי תומכת במניות חברות האנרגיה.",
+     "en": "Higher crude oil prices support energy stock valuations.",
+     "ar": "ارتفاع أسعار الخام يدعم تقييمات شركات الطاقة.",
+     "ru": "Рост цен на сырую нефть поддерживает котировки энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל – חברת נפט ענקית",
+     "en": "ExxonMobil – major oil company",
+     "ar": "إكسون موبيل - شركة نفط كبرى",
+     "ru": "ExxonMobil – крупная нефтяная компания"
+    },
+    "price_at_alert": 164.73
    }
   ],
   "id": "eefbad19c9db",
@@ -52786,9 +52821,21 @@
      "ar": "أعلن التحالف بقيادة السعودية أنه اعترض بنجاح ثلاثة صواريخ أطلقها المتمردون الحوثيون تستهدف السعودية.",
      "ru": "Коалиция во главе с Саудовской Аравией объявила об успешном перехвате трех ракет, запущенных хуситами в сторону королевства."
     }
+   },
+   {
+    "ts": 1794281527,
+    "time": "2026-11-10T03:32Z",
+    "severity": 7,
+    "summary": "כוחות סעודיים יירטו מספר טילים שכוונו לעבר ריאד ומתקני אנרגיה, לאחר דיווחים על נזק לצינור נפט מרכזי בעקבות מתקפה של החות'ים.",
+    "i18n": {
+     "he": "כוחות סעודיים יירטו מספר טילים שכוונו לעבר ריאד ומתקני אנרגיה, לאחר דיווחים על נזק לצינור נפט מרכזי בעקבות מתקפה של החות'ים.",
+     "en": "Saudi forces intercepted multiple missiles targeted at Riyadh and energy facilities, following reports of damage to a key East-West pipeline from Houthi attacks.",
+     "ar": "قوات سعودية تصد صواريخ متعددة استهدفت الرياض ومنشآت طاقة، إثر تقارير عن أضرار بلغت خط أنابيب رئيسي بسبب هجمات الحوثيين.",
+     "ru": "Саудовские силы перехватили несколько ракет, направленных на Эр-Рияд и энергетические объекты, после сообщений об ущербе ключевому нефтепроводу в результате атак хуситов."
+    }
    }
   ],
-  "last_update": 1794278881
+  "last_update": 1794281527
  },
  {
   "ts": 1794250359,
@@ -55559,5 +55606,140 @@
    }
   ],
   "id": "ec56cc54ca73"
+ },
+ {
+  "ts": 1794281527,
+  "time": "2026-11-10T03:32Z",
+  "title": "OpenAI משלבת את ChatGPT Enterprise בשוק של AWS",
+  "summary": "OpenAI הוסיפה את ChatGPT Enterprise למרקטפלייס של אמזון ווב סרוויסס, ומאפשרת ללקוחות לנצל התחייבויות ענן קיימות לתשלום.",
+  "kid": "חברת הבינה המלאכותית OpenAI מאפשרת לקנות את המוצר העסקי שלה דרך אמזון. זה יכול לעזור להגדיל את המכירות של שתי החברות.",
+  "i18n": {
+   "title": {
+    "he": "OpenAI משלבת את ChatGPT Enterprise בשוק של AWS",
+    "en": "OpenAI integrates ChatGPT Enterprise into AWS Marketplace",
+    "ar": "أوبن أيه آي تدمج تشات جي بي تي إنتربرايز في سوق أيه دبليو إس",
+    "ru": "OpenAI интегрирует ChatGPT Enterprise в маркетплейс AWS"
+   },
+   "summary": {
+    "he": "OpenAI הוסיפה את ChatGPT Enterprise למרקטפלייס של אמזון ווב סרוויסס, ומאפשרת ללקוחות לנצל התחייבויות ענן קיימות לתשלום.",
+    "en": "OpenAI put ChatGPT Enterprise on the AWS Marketplace, allowing enterprise cloud commitments to cover the billing.",
+    "ar": "أضافت أوبن أيه آي (ChatGPT Enterprise) إلى سوق أيه دبليو إس، مما يسمح للعملاء باستخدام التزامات السحابة الحالية للدفع.",
+    "ru": "OpenAI добавила ChatGPT Enterprise на маркетплейс AWS, позволив клиентам использовать существующие облачные обязательства для оплаты."
+   },
+   "kid": {
+    "he": "חברת הבינה המלאכותית OpenAI מאפשרת לקנות את המוצר העסקי שלה דרך אמזון. זה יכול לעזור להגדיל את המכירות של שתי החברות.",
+    "en": "AI maker OpenAI lets companies buy its business chat tool through Amazon's cloud store. This makes it easier for businesses to buy, which is good for tech business.",
+    "ar": "تسمح شركة الذكاء الاصطناعي بشراء منتجها عبر متجر أمازون السحابي، مما يسهل المبيعات للشركات.",
+    "ru": "Разработчик ИИ упростил покупку корпоративного чата через облачный магазин Amazon, что может увеличить продажи."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wZ2tUWWc0bm43QnVEQUJWbS1TVW56QkFiU29NTjFaRmhpTEV0UDc1N0s0NU1MdU56bW9JWW1vVENBRG0ybktHSmRsTkRoMWd6N0dDbm9xcmJ6MzhhUjdpQm5jNWtYY25hc1pPMDJpdVI1T041dnc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AMZN",
+    "direction": "up",
+    "t0": 1794281527,
+    "reason": "הוספת שירותי בינה מלאכותית פופולריים לפלטפורמת הענן שלה מגדילה את האטרקטיביות ללקוחות עסקיים.",
+    "reason_i18n": {
+     "he": "הוספת שירותי בינה מלאכותית פופולריים לפלטפורמת הענן שלה מגדילה את האטרקטיביות ללקוחות עסקיים.",
+     "en": "Adding top-tier AI services to its cloud marketplace boosts enterprise appeal.",
+     "ar": "إضافة خدمات ذكاء اصطناعي بارزة لسوقها السحابي تعزز جاذبيتها للشركات.",
+     "ru": "Добавление популярных услуг ИИ в облачный маркетплейс повышает привлекательность для корпоративных клиентов."
+    },
+    "name_i18n": {
+     "he": "אמזון – ענקית מסחר וענן",
+     "en": "Amazon – e-commerce and cloud giant",
+     "ar": "أمازون - عملاق التجارة الإلكترونية والحوسبة السحابية",
+     "ru": "Amazon – гигант электронной коммерции и облачных вычислений"
+    },
+    "price_at_alert": 266.93
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1794281527,
+    "reason": "שיתופי פעולה חדשים בעולם הבינה המלאכותית תומכים בסנטימנט חיובי בסקטור הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "שיתופי פעולה חדשים בעולם הבינה המלאכותית תומכים בסנטימנט חיובי בסקטור הטכנולוגיה.",
+     "en": "Major AI ecosystem partnerships support positive sentiment across tech stocks.",
+     "ar": "شراكات الذكاء الاصطناعي الكبرى تدعم المعنويات الإيجابية بقطاع التكنولوجيا.",
+     "ru": "Крупные партнерства в сфере ИИ поддерживают позитивные настроения в технологическом секторе."
+    },
+    "name_i18n": {
+     "he": "QQQ – קרן סל של מדד נאסד\"ק 100",
+     "en": "QQQ – Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ – ETF индекса Nasdaq 100"
+    },
+    "price_at_alert": 679.35
+   }
+  ],
+  "id": "7e61011288e6"
+ },
+ {
+  "ts": 1794281527,
+  "time": "2026-11-10T03:32Z",
+  "title": "SpaceX בוחרת בקואלקום להאיץ את רשת ה-5G של סטארלינק",
+  "summary": "חברת SpaceX בחרה בשבבים של קואלקום כדי לשפר ולהאיץ את פריסת רשת ה-5G הסלולרית הארצית של סטארלינק.",
+  "kid": "חברת האינטרנט הלווייני סטארלינק תשתמש בשבבים של קואלקום כדי לחבר סלולר ישירות מהחלל. זה טוב לעסקים של קואלקום.",
+  "i18n": {
+   "title": {
+    "he": "SpaceX בוחרת בקואלקום להאיץ את רשת ה-5G של סטארלינק",
+    "en": "SpaceX selects Qualcomm to accelerate Starlink Mobile’s Nationwide 5G Network",
+    "ar": "سبيس إكس تختار كوالكوم لتسريع شبكة الجيل الخامس الخلوية لستارلينك",
+    "ru": "SpaceX выбрала Qualcomm для ускорения сотовой сети 5G Starlink"
+   },
+   "summary": {
+    "he": "חברת SpaceX בחרה בשבבים של קואלקום כדי לשפר ולהאיץ את פריסת רשת ה-5G הסלולרית הארצית של סטארלינק.",
+    "en": "SpaceX selected Qualcomm to accelerate Starlink Mobile's Nationwide 5G Network capabilities.",
+    "ar": "اختارت شركة سبيس إكس شرائح كوالكوم لتحسين وتسريع نشر شبكة الجيل الخامس الخلوية لستارلينك.",
+    "ru": "Компания SpaceX выбрала чипы Qualcomm для ускорения развертывания национальной сотовой сети 5G Starlink."
+   },
+   "kid": {
+    "he": "חברת האינטרנט הלווייני סטארלינק תשתמש בשבבים של קואלקום כדי לחבר סלולר ישירות מהחלל. זה טוב לעסקים של קואלקום.",
+    "en": "Satellite internet provider Starlink will use Qualcomm chips for phone-to-satellite connections. This is good news for Qualcomm's chip business.",
+    "ar": "ستستخدم شركة الإنترنت الفضائي شرائح كوالكوم لربط الهواتف بالأقمار الصناعية، وهو أمر إيجبي لأعمال كوالكوم.",
+    "ru": "Провайдер спутникового интернета Starlink будет использовать чипы Qualcomm для связи телефонов со спутниками, что позитивно для компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHhwbTJ6c2d1XzBlbENfb0JFaWJkQURBTVJ4ZDB6U0UtT3V3TGVVVGtIRlFXeUhuYzhQZFVoN1hhM0llcFVuTDFiMC1Kek4tZ1VocjRsWWtsZlgwR1pTWXcza0xxTS11Rm0zSjQyNTVIelZUaEVud1pHdkdlS0EwSjJlQy1KQVRWWGlaTEtWMnl0X0w2MzI2ZDVhR0tLTnVEMTJUcWpQQmFCUzliWmx2cUgwZUtpeVhDeFpn?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QCOM",
+    "direction": "up",
+    "t0": 1794281527,
+    "reason": "זכייה בשיתוף פעולה עם SpaceX לפיתוח רשת הסלולר הלוויינית מחזקת את מעמדה בשוק התקשורת המתקדם.",
+    "reason_i18n": {
+     "he": "זכייה בשיתוף פעולה עם SpaceX לפיתוח רשת הסלולר הלוויינית מחזקת את מעמדה בשוק התקשורת המתקדם.",
+     "en": "Winning a major partnership with SpaceX for satellite connectivity expands its market footprint.",
+     "ar": "الفوز بشراكة كبرى مع سبيس إكس للاتصالات الفضائية يعزز مكانتها السوقية.",
+     "ru": "Заключение крупного партнерства со SpaceX укрепляет ее позиции на рынке спутниковой связи."
+    },
+    "name_i18n": {
+     "he": "קואלקום – יצרנית שבבים ותקשורת",
+     "en": "Qualcomm – chip and wireless tech maker",
+     "ar": "كوالكوم - مصنعة رقاقات وتقنيات لاسلكية",
+     "ru": "Qualcomm – производитель чипов и беспроводных технологий"
+    },
+    "price_at_alert": 171.47
+   }
+  ],
+  "id": "18edc6230aaf"
  }
 ]
