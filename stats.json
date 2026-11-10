@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-10T16:34Z",
+ "generated": "2026-11-10T17:27Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 655,
+ "total_alerts": 658,
  "overall": {
-  "n": 300,
-  "hits": 147,
-  "avg_edge": 0.21
+  "n": 301,
+  "hits": 148,
+  "avg_edge": 0.22
  },
  "by_category": {
   "climate": {
@@ -19,9 +19,9 @@
    "avg_edge": 0.19
   },
   "contracts": {
-   "n": 72,
-   "hits": 44,
-   "avg_edge": 0.45
+   "n": 73,
+   "hits": 45,
+   "avg_edge": 0.48
   },
   "cyber": {
    "n": 16,
@@ -56,9 +56,9 @@
  },
  "by_severity": {
   "1-3": {
-   "n": 58,
-   "hits": 29,
-   "avg_edge": -0.8
+   "n": 59,
+   "hits": 30,
+   "avg_edge": -0.74
   },
   "4-5": {
    "n": 145,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 69,
+   "mentions": 70,
    "n": 28,
    "hits": 14,
    "name": {
-    "he": "USO - קרן סל על נפט גולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - ETF на сырую нефть"
+    "he": "קרן סל נפט גולמי",
+    "en": "United States Oil Fund",
+    "ar": "صندوق النفط الخام",
+    "ru": "ETF на нефть"
    },
    "avg_edge": -0.19
   },
   "XLE": {
-   "mentions": 58,
+   "mentions": 59,
    "n": 26,
    "hits": 8,
    "name": {
-    "he": "XLE - קרן סל סקטור האנרגיה",
-    "en": "XLE - Energy Select Sector SPDR Fund",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "מגזר האנרגיה בארה\"ב",
+    "en": "Energy Select Sector SPDR",
+    "ar": "قطاع الطاقة الأمريكي",
+    "ru": "Сектор энергетики США"
    },
    "avg_edge": -1.19
   },
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 5,
-   "n": 4,
-   "hits": 1,
+   "n": 5,
+   "hits": 2,
    "name": {
     "he": "אלביט מערכות – חברת ביטחון ישראלית",
     "en": "Elbit Systems – Israeli defense company",
     "ar": "إلبيط سيستمز – شركة دفاع إسرائيلية",
     "ru": "Elbit Systems – израильская оборонная компания"
    },
-   "avg_edge": -0.95
+   "avg_edge": -0.21
   },
   "ESLT": {
    "mentions": 10,
@@ -246,14 +246,14 @@
    "avg_edge": 0.31
   },
   "CPER": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 12,
    "hits": 3,
    "name": {
-    "en": "United States Copper Index Fund",
     "he": "קרן סל נחושת",
-    "ar": "صندوق مؤشر النحاس الأمريكي",
-    "ru": "Медный ETF"
+    "en": "United States Copper Index Fund",
+    "ar": "صندوق مؤشر النحاس",
+    "ru": "ETF на медь"
    },
    "avg_edge": -0.7
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.61
   },
   "FCX": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 20,
    "hits": 6,
    "name": {
-    "en": "Freeport-McMoRan (Copper Mining)",
-    "he": "פריפורט-מקמורן (כריית נחושת)",
-    "ar": "فريبورت-מקموران (تعدين النحاس)",
-    "ru": "Freeport-McMoRan (добыча меди)"
+    "he": "פריפורט מקמורן – חברת כרייה",
+    "en": "Freeport-McMoRan mining company",
+    "ar": "شركة فريبورت-מקמורان للتعدين",
+    "ru": "Горнодобывающая компания Freeport-McMoRan"
    },
    "avg_edge": -1.24
   },
@@ -630,14 +630,14 @@
    "avg_edge": -3.11
   },
   "LIT": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 2,
    "hits": 0,
    "name": {
-    "he": "ליט - קרן סל סוללות ולვითיום",
-    "en": "LIT – Lithium & Battery Tech ETF",
-    "ar": "LIT - صندوق تقنية البطاريات والليثيوم",
-    "ru": "LIT — фонд лития и технологий батарей"
+    "he": "קרן סל ליטיום וסוללות",
+    "en": "Lithium & Battery ETF",
+    "ar": "صندوق استثمار الليثيوم والبطاريات",
+    "ru": "ETF на литий и батареи"
    },
    "avg_edge": -1.03
   },
@@ -1302,14 +1302,14 @@
    "avg_edge": null
   },
   "ASHR": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ASHR - קרן סל מניות סיניות A",
-    "en": "ASHR - China A-Shares ETF",
-    "ar": "ASHR - صندوق الأسهم الصينية المحلية",
-    "ru": "ASHR - ETF акций китайских компаний класса A"
+    "he": "קרן סל מניות סין A",
+    "en": "China A-Shares ETF",
+    "ar": "صندوق أسهم الصين",
+    "ru": "ETF акций Китая A"
    },
    "avg_edge": null
   },

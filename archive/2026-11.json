@@ -44975,7 +44975,18 @@
      "ar": "إلبيط سيستمز – شركة دفاع إسرائيلية",
      "ru": "Elbit Systems – израильская оборонная компания"
     },
-    "price_at_alert": 216410.0
+    "price_at_alert": 216410.0,
+    "entry_price": 219500.0,
+    "entry_time": "2026-11-09T07:50+00:00",
+    "exit_price": 233900.0,
+    "exit_date": "2026-11-10",
+    "change_pct": 6.56,
+    "bench": "TA35.TA",
+    "bench_change_pct": 3.81,
+    "excess_pct": 2.75,
+    "edge_pct": 2.75,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "XAR",
@@ -58507,5 +58518,244 @@
    }
   ],
   "id": "f03691f8f58d"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "טילים יורטו מעל ריאד לאחר מתקפה חות'ית",
+  "summary": "פיצוצים נשמעו בריאד לאחר שערב הסעודית יירטה טיל ששוגר על ידי המורדים החות'ים.",
+  "kid": "קבוצה חמושה שיגרה טיל לעבר סעודיה, והוא יורט באוויר. אירועים כאלה במזרח התיכון עלולים להדאיג משקיעים לגבי מחירי הנפט.",
+  "i18n": {
+   "title": {
+    "he": "טילים יורטו מעל ריאד לאחר מתקפה חות'ית",
+    "en": "Missiles intercepted over Riyadh after Houthi attack",
+    "ar": "اعتراض صواريخ فوق الرياض بعد هجوم حوثي",
+    "ru": "Ракети перехвачены над Риядом после атаки хуситов"
+   },
+   "summary": {
+    "he": "פיצוצים נשמעו בריאד לאחר שערב הסעודית יירטה טיל ששוגר על ידי המורדים החות'ים.",
+    "en": "Explosions rocked Riyadh after Saudi Arabia intercepted a missile launched by Houthi rebels.",
+    "ar": "هزت انفجارات الرياض بعد أن اعترضت السعودية صاروخاً أطلقه الحوثيون.",
+    "ru": "В Рияде прогремели взрывы после того, как Саудовская Аравия перехватила ракету хуситов."
+   },
+   "kid": {
+    "he": "קבוצה חמושה שיגרה טיל לעבר סעודיה, והוא יורט באוויר. אירועים כאלה במזרח התיכון עלולים להדאיג משקיעים לגבי מחירי הנפט.",
+    "en": "An armed group fired a missile toward Saudi Arabia, which was intercepted in the air. Such Middle East events can make investors worry about oil prices.",
+    "ar": "أطلقت جماعة مسلحة صاروخاً نحو السعودية وتم اعتراضه في الجو. مثل هذه الأحداث في الشرق الأوسط قد تقلق المستثمرين بشأن أسعار النفط.",
+    "ru": "Вооруженная группа выпустила ракету в сторону Саудовской Аравии, она была перехвачена. Такие события на Ближнем Востоке могут волновать инвесторов насчет цен на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBKME9mZzNhblUwLW5TOEZiUHM2Z2YxTUNBWHc5NmNIQWljY3FxenRMdG91UThxMmd2M1RNb0VuOVRxek9DbXAyUkZB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQWd2dmhmLTR1R2RZWnMtZHRIVFhEMm5uX0QwT2VwQmctR0JwMmo0em5IZE9aVDJhZndKV3FHV05wQ2JfT3ZBVEFfWDRJekoxM2VjalhqS01JNll1S0hObThUR21HZDNBbmlyMVh1OFoyMmgtZGc0Z29TSnFXa1loNjBHTExQTm1UejJ5SEtRUFV2d9IBlwFBVV95cUxPd3FsZlpGc1ptelJOMmp2YU5zbWVwVVZVeElkbGgzMFI5ZDZiNGRSNElTeE9JdDBLcE9iOHl4eFBtdGVZWVdyZWxpcGxjRk91cld5dUFJOUVGMS1lckE2X1pHVFpNeU5EQ0k3TEpHVjNhR0xTRmt0bkxPNjA5UXh1MUxCTHZIUGRSMkJsSXoyajRtREhxLXhV?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הסלמה ביטחונית בסעודיה מעלה חשש לפגיעה באספקת האנרגיה.",
+    "reason_i18n": {
+     "he": "הסלמה ביטחונית בסעודיה מעלה חשש לפגיעה באספקת האנרגיה.",
+     "en": "Security escalation in Saudi raises energy supply concerns.",
+     "ar": "التصعيد الأمن في السعودية يثير مخاوف إمدادات الطاقة.",
+     "ru": "Эскалация безопасности в Саудовской Аравии вызывает опасения по поставкам энергии."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF на нефть"
+    },
+    "price_at_alert": 141.275
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "מתיחות גיאופוליטית במפרץ דוחפת את מניות האנרגיה כלפי מעלה.",
+    "reason_i18n": {
+     "he": "מתיחות גיאופוליטית במפרץ דוחפת את מניות האנרגיה כלפי מעלה.",
+     "en": "Geopolitical tension in the Gulf pushes energy stocks up.",
+     "ar": "الالتوتر الجيوسياسي في الخليج يدفع أسهم الطاقة صعوداً.",
+     "ru": "Геополитическая напряженность в Персидском заливе толкает акции энергетики вверх."
+    },
+    "name_i18n": {
+     "he": "מגזר האנרגיה בארה\"ב",
+     "en": "Energy Select Sector SPDR",
+     "ar": "قطاع الطاقة الأمريكي",
+     "ru": "Сектор энергетики США"
+    },
+    "price_at_alert": 62.15
+   }
+  ],
+  "id": "3fbf282ed518"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
+  "summary": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
+  "kid": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
+  "i18n": {
+   "title": {
+    "he": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
+    "en": "Copper output falls at major mines in Chile and China",
+    "ar": "انخفاض إنتاج النحاس في مناجم رئيسية بتشيلي والصين",
+    "ru": "Добыча меди падает на крупных рудниках в Чили и Китае"
+   },
+   "summary": {
+    "he": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
+    "en": "Copper production at Chile's giant Escondida mine fell in September, while China's copper concentrate imports slumped 11% in October.",
+    "ar": "انخفض إنتاج النحاس في منجم إسكونديلا العملاق بتشيلي في سبتمبر، بينما هبطت واردات الصين من مركزات النحاس 11% في أكتوبر.",
+    "ru": "Добыча меди на гигантском руднике Эскондида в Чили снизилась в сентябре, а импорт медного концентрата в Китай упал на 11% в октябре."
+   },
+   "kid": {
+    "he": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
+    "en": "There is less copper available from mines abroad and in China, which could make this metal used in industry and electronics more expensive.",
+    "ar": "هناك كميات أقل من النحاس المتاحة من المناجم في الخارج وفي الصين، مما قد يجعل هذا المعدن المستخدم في الصناعة والإلكترونيات أكثر غلاءً.",
+    "ru": "Доступно меньше меди на рудниках за рубежом и в Китае, что может сделать этот металл дороже для промышленности и электроники."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcTVTdktsdnhsMnZabjFtSVo5eUF3UW9EODdtd1gteFotWkNHSEh3M0ZwY241RjZsQWpPb0x4TXg0UW1nQ2NxbWgzaWJXQlpTcHQzU1V2cWxtLWlsR2Y5ZUdlblZndGFsZnNtMmN0LTdtR3YwMVhFandkLWpkaGt3ZUsyOEp0T3k1MzY1R3gyclNLbk1iVk8zZXJXTnpVQ0RNYUdsNTBOYzFBQU96aFNMSkhMc1JWYUFo?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE1vMU54Z0x5VXBZbGJCcG9pbjRVbmM0U2N6Y3VoWmZaelJYWFdQRUNUTHV4V3NXZ0lrTkhkU3Fjb3QyQ3IzZ0FxamMwdkhpR2pBMklBcUpNUU5NMVFpMldSUnZCTGY3eVFGTzJCbFkzOWRHSVRhWlZCM0ZZNENhUjlMUG02NXIwcXRZTGJ0aDJ4UEtJbmQ1Tm1iR0NXNmhvQkZhM0s0bw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
+    "reason_i18n": {
+     "he": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
+     "en": "Drop in output and imports tightens global copper supply.",
+     "ar": "انخفاض الإنتاج والواردات يقلل معروض النحاس العالمي.",
+     "ru": "Падение добычи и импорта сокращает мировое предложение меди."
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "United States Copper Index Fund",
+     "ar": "صندوق مؤشر النحاس",
+     "ru": "ETF на медь"
+    },
+    "price_at_alert": 37.485
+   },
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
+    "reason_i18n": {
+     "he": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
+     "en": "Supply tightening may support copper prices and miner margins.",
+     "ar": "تشديد المعروض قد يدعم أسعار النحاس ويحسن هوامش أرباح عمال المناجم.",
+     "ru": "Сокращение предложения может поддержать цены на медь и маржу шахтеров."
+    },
+    "name_i18n": {
+     "he": "פריפורט מקמורן – חברת כרייה",
+     "en": "Freeport-McMoRan mining company",
+     "ar": "شركة فريبورت-מקמורان للتعدين",
+     "ru": "Горнодобывающая компания Freeport-McMoRan"
+    },
+    "price_at_alert": 60.165
+   }
+  ],
+  "id": "cf5b0985cfba"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "סין מאריכה את ההשהיה בבקרת ייצוא מינרלים נדירים עד 2027",
+  "summary": "סין החליטה להאריך את ההשהיה בבקרת הייצוא על מינרלים נדירים וסוללות עד לשנת 2027.",
+  "kid": "סין החליטה בינתיים לא להגביל את המכירה של חומרים מיוחדים שמשמשים לסוללות ולטכנולוגיה, מה שעוזר לחברות טכנולוגיה להמשיך לקבל רכיבים בקלות.",
+  "i18n": {
+   "title": {
+    "he": "סין מאריכה את ההשהיה בבקרת ייצוא מינרלים נדירים עד 2027",
+    "en": "China extends rare earth export control pause to 2027",
+    "ar": "الصين تمدد تعليق مراقبة صادرات الأراضي النادرة حتى 2027",
+    "ru": "Китай продлевает паузу на экспортный контроль редкоземельных элементов до 2027 года"
+   },
+   "summary": {
+    "he": "סין החליטה להאריך את ההשהיה בבקרת הייצוא על מינרלים נדירים וסוללות עד לשנת 2027.",
+    "en": "China has extended its pause on rare earth and battery export controls through 2027.",
+    "ar": "مددت الصين تعليقها على ضوابط تصدير المعادن النادرة والبطاريات حتى عام 2027.",
+    "ru": "Китай продлил паузу в отношении контроля над экспортом редкоземельных элементов и батарей до 2027 года."
+   },
+   "kid": {
+    "he": "סין החליטה בינתיים לא להגביל את המכירה של חומרים מיוחדים שמשמשים לסוללות ולטכנולוגיה, מה שעוזר לחברות טכנולוגיה להמשיך לקבל רכיבים בקלות.",
+    "en": "China decided not to restrict sales of special materials used for batteries and technology for now, helping tech companies keep getting parts easily.",
+    "ar": "قررت الصين عدم تقييد بيع المواد الخاصة المستخدمة للبطاريات والتكنولوجيا في الوقت الحالي، مما يساعد شركات التكنولوجيا في الحصول على الأجزاء بسهولة.",
+    "ru": "Китай решил пока не ограничивать продажи специальных материалов для батарей и технологий, помогая технологическим компаниям легко получать детали."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LIT",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "דחיית הגבלות הייצוא מקלה על שרשרת אספקת הסוללות.",
+    "reason_i18n": {
+     "he": "דחיית הגבלות הייצוא מקלה על שרשרת אספקת הסוללות.",
+     "en": "Postponing export curbs eases the battery supply chain.",
+     "ar": "تأجيل قيود التصدير يسهل سلسلة توريد البطاريات.",
+     "ru": "Отсрочка экспортных ограничений облегчает цепочку поставок батарей."
+    },
+    "name_i18n": {
+     "he": "קרן סל ליטיום וסוללות",
+     "en": "Lithium & Battery ETF",
+     "ar": "صندوق استثمار الليثيوم والبطاريات",
+     "ru": "ETF на литий и батареи"
+    },
+    "price_at_alert": 59.882
+   },
+   {
+    "ticker": "ASHR",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הקלת חששות סחר מול סין תומכת בסנטימנט השוק.",
+    "reason_i18n": {
+     "he": "הקלת חששות סחר מול סין תומכת בסנטימנט השוק.",
+     "en": "Easing trade worries supports market sentiment.",
+     "ar": "تخفيف مخاوف التجارة يدعم معنويات السوق.",
+     "ru": "Ослабление торговых опасений поддерживает рыночные настроения."
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות סין A",
+     "en": "China A-Shares ETF",
+     "ar": "صندوق أسهم الصين",
+     "ru": "ETF акций Китая A"
+    },
+    "price_at_alert": 30.5398
+   }
+  ],
+  "id": "02eb700d57c6"
  }
 ]

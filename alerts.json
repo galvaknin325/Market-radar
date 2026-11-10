@@ -183,151 +183,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793696151,
-  "time": "2026-11-03T08:55Z",
-  "title": "אוסטרליה שוקלת רכישת כיפת ברזל",
-  "summary": "אוסטרליה בוחנת את רכישת מערכת ההגנה מפני טילים 'כיפת ברזל', מה שעשוי לכלול שותפויות עם חברות ביטחוניות ישראליות ואמריקאיות.",
-  "kid": "אוסטרליה רוצה לקנות מערכת הגנה מפני טילים מפורסמת. זה יכול להוביל לעוד עסקים לחברות שמייצרות אותה, כמו אלו בישראל ובארה\"ב.",
-  "i18n": {
-   "title": {
-    "en": "Australia Considers Procuring Iron Dome",
-    "he": "אוסטרליה שוקלת רכישת כיפת ברזל",
-    "ar": "أستراليا تدرس شراء نظام القبة الحديدية",
-    "ru": "Австралия рассматривает возможность закупки «Железного купола»"
-   },
-   "summary": {
-    "en": "Australia is evaluating the procurement of the Iron Dome missile defense system, which could involve partnerships with Israeli and US defense firms.",
-    "he": "אוסטרליה בוחנת את רכישת מערכת ההגנה מפני טילים 'כיפת ברזל', מה שעשוי לכלול שותפויות עם חברות ביטחוניות ישראליות ואמריקאיות.",
-    "ar": "تدرس أستراليا شراء نظام الدفاع الصاروخي 'القبة الحديدية'، وهو ما قد يتضمن شراكات مع شركات دفاع إسرائيلية وأمريكية.",
-    "ru": "Австралия рассматривает возможность закупки системы ПРО «Железный купол», что может потребовать партнерства с израильскими и американскими оборонными компаниями."
-   },
-   "kid": {
-    "en": "Australia wants to buy a famous missile defense system. This could mean more business for the companies that make it, like those in Israel and the US.",
-    "he": "אוסטרליה רוצה לקנות מערכת הגנה מפני טילים מפורסמת. זה יכול להוביל לעוד עסקים לחברות שמייצרות אותה, כמו אלו בישראל ובארה\"ב.",
-    "ar": "تريد أستراليا شراء نظام دفاع صاروخي شهير. قد يعني هذا المزيد من الأعمال للشركات التي تصنعه، مثل تلك الموجودة في إسرائيل والولايات المتحدة.",
-    "ru": "Австралия хочет купить известную систему противоракетной обороны. Это может означать новые заказы для компаний, которые ее производят, в том числе в Израиле и США."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QSTVzOFRhOVlrT3Q3SVZZUzJJSUJ4RVJIcDlfV0JFVWdwcHZtemNRZTFNemFiSDlHemdGdnVMRjZsdHZmbmczOWxFRXhpYVI5ZUFqUl9rSWo?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "up",
-    "t0": 1793696151,
-    "reason": "מעורבות פוטנציאלית בפרויקטי רכש ביטחוני בינלאומיים.",
-    "reason_i18n": {
-     "en": "Potential involvement in international defense procurement projects.",
-     "he": "מעורבות פוטנציאלית בפרויקטי רכש ביטחוני בינלאומיים.",
-     "ar": "مشاركة محتملة في مشاريع المشتريات الدفاعية الدولية.",
-     "ru": "Потенциальное участие в международных проектах по оборонным закупкам."
-    },
-    "name_i18n": {
-     "en": "Elbit Systems",
-     "he": "אלביט מערכות",
-     "ar": "إلبيت سيستمز",
-     "ru": "Elbit Systems"
-    },
-    "price_at_alert": 742.47,
-    "entry_price": 745.16,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 703.93,
-    "exit_date": "2026-11-04",
-    "change_pct": -5.53,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -7.39,
-    "edge_pct": -7.39,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1793696151,
-    "reason": "RTX היא שותפה מרכזית בייצור מיירטי כיפת ברזל.",
-    "reason_i18n": {
-     "en": "RTX is a key partner in Iron Dome interceptor production.",
-     "he": "RTX היא שותפה מרכזית בייצור מיירטי כיפת ברזל.",
-     "ar": "تعد RTX شريكاً رئيسياً في إنتاج صواريخ القبة الحديدية الاعتراضية.",
-     "ru": "RTX является ключевым партнером в производстве ракет-перехватчиков для «Железного купола»."
-    },
-    "name_i18n": {
-     "en": "RTX Corporation",
-     "he": "חברת RTX",
-     "ar": "شركة RTX",
-     "ru": "RTX Corporation"
-    },
-    "price_at_alert": 202.79,
-    "entry_price": 202.93,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 198.465,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.2,
-    "bench": "SPY",
-    "bench_change_pct": 1.86,
-    "excess_pct": -4.06,
-    "edge_pct": -4.06,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "התרחבות פוטנציאלית של עסקאות הגנה אווירית בינלאומיות מחזקת את כלל הסקטור.",
-    "reason_i18n": {
-     "he": "התרחבות פוטנציאלית של עסקאות הגנה אווירית בינלאומיות מחזקת את כלל הסקטור.",
-     "en": "Potential expansion of international air defense deals supports the broader defense sector.",
-     "ar": "التوسع المحتمل لصفقات الدفاع الجوي الدولية يدعم قطاع الدفاع بأكمله.",
-     "ru": "Потенциальное расширение международных сделок по ПВО поддерживает весь оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל לתעשייה הביטחונית בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 217.96,
-    "entry_price": 217.18,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.04,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": -3.5,
-    "edge_pct": -3.5,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d0207cda02d6",
-  "updates": [
-   {
-    "ts": 1793723885,
-    "time": "2026-11-03T16:38Z",
-    "severity": 4,
-    "summary": "השלטונות באוסטרליה בוחנים את האפשרות לרכוש מערכות טכנולוגיות המבוססות על מערכת ההגנה האווירית 'כיפת ברזל'.",
-    "i18n": {
-     "he": "השלטונות באוסטרליה בוחנים את האפשרות לרכוש מערכות טכנולוגיות המבוססות על מערכת ההגנה האווירית 'כיפת ברזל'.",
-     "en": "Australian authorities are evaluating the potential procurement of technology related to the Iron Dome air defense system.",
-     "ar": "تقوم السلطات الأسترالية بتقييم إمكانية شراء تكنولوجيا مرتبطة بنظـام الدفاع الجوي \"القبة الحديدية\".",
-     "ru": "Власти Австралии оценивают возможность закупки технологий, связанных с системой противовоздушной обороны «Железный купол»."
-    }
-   }
-  ],
-  "last_update": 1793723885,
-  "evaluated": true
- },
- {
   "ts": 1793703269,
   "time": "2026-11-03T10:54Z",
   "title": "תקיפות אמריקאיות נגד איראן באזור מצר הורמוז",
@@ -873,133 +728,6 @@
  {
   "ts": 1793714108,
   "time": "2026-11-03T13:55Z",
-  "title": "הבית הלבן יארח משלחות מרוסיה ומאוקראינה",
-  "summary": "הגברת הראשונה של ארה\"ב מליניה טראמפ תארח נציגים רוסים ואוקראינים בבית הלבן בעקבות משימה דיפלומטית, על רקע דיונים על תנאי הפסקת אש.",
-  "kid": "אנשים חשובים מרוסיה ומאוקראינה נפגשים בבית הלבן. דיפלומטיה זו עשויה להשפיע על המתיחות הגיאופוליטית והשווקים.",
-  "i18n": {
-   "title": {
-    "en": "White House to Host Russian and Ukrainian Delegations",
-    "he": "הבית הלבן יארח משלחות מרוסיה ומאוקראינה",
-    "ar": "البيت الأبيض يستضيف وفدين من روسيا وأوكرانيا",
-    "ru": "Белый дом примет делегации России и Украины"
-   },
-   "summary": {
-    "en": "US First Lady Melania Trump is set to host Russian and Ukrainian representatives at the White House following a diplomatic mission, amid ongoing discussions regarding peacekeeper mandates and ceasefire terms.",
-    "he": "הגברת הראשונה של ארה\"ב מליניה טראמפ תארח נציגים רוסים ואוקראינים בבית הלבן בעקבות משימה דיפלומטית, על רקע דיונים על תנאי הפסקת אש.",
-    "ar": "من المقرر أن تستضيف السيدة الأولى الأمريكية ميلانيا ترامب ممثلين روس وأوكرانيين في البيت الأبيض وسط مناقشات حول شروط وقف إطلاق النار.",
-    "ru": "Первая леди США Мелания Трамп примет российских и украинских представителей в Белом доме на фоне обсуждения условий прекращения огня."
-   },
-   "kid": {
-    "en": "Important people from Russia and Ukraine are meeting at the White House. This diplomacy could affect geopolitical tensions and global markets.",
-    "he": "אנשים חשובים מרוסיה ומאוקראינה נפגשים בבית הלבן. דיפלומטיה זו עשויה להשפיע על המתיחות הגיאופוליטית והשווקים.",
-    "ar": "مسؤولون من روسيا وأوكرانيا يجتمعون في البيت الأبيض. هذه الدبلوماسية قد تؤثر على التوترات والأسواق العالمية.",
-    "ru": "Важные лица из России и Украины встречаются в Белом доме. Эта дипломатия может повлиять на геополитику и рынки."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdFJETUFoLVE5RDRaS2xtYlN0WENaOWVyVFEzUkFrTF93emRDTEx0ZUJzUzhMNlZQNk1OQjRnT0VqQUhxbHRhUVBNZkNLYmF5YlhnNWt5QVRDcHdkNFYzUlRQYzZfQ25CajNaaXN6NFNwTE9rbFFRU1RGWGs1X3lzbl9LTEU3aXJSY2tUOTlnT3MtQmM3RkZ0eDc4RnFTNktncjNvZUxMbnZydFdGUWY4TGJkRkRiOWp0eURQQ2VNUURYQWtFTkJiWkU5eUs1Tk5wOHhQM0JJcWZUWm0tRU5YcVRR?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmtYS2J4M1FScGd2NWtXTUltakxnbXA4UlZKSXNCWHg4bWR6ME1FUWdHN19KUTMweGQyQUJjTmJDM1ZySER4MzFQU0FBZEtPQ1NZX0JDQzNCLThsWFI5dUhnSFJHeXdTaW5fMHBkWVh4VTdRM2UwbjMzRHJUZHRuZFl6Y1FQNXFxSjJlRTA0dF8wVWNrS05Da3lZdDJaRi14ZHBSM3Q2SUNTSmJVS2ZBTGxIa1VTSlN1Ry14Vkd0ONIBuwFBVV95cUxNbzNReXFSajVOZ0ctV1MwUjZZcnlacDUyWEhoQy12VzNJMEJtNUU5U1NvRmJDTjFqWm0yYktTbm5FTE1QQllOOFgxdG5WOTY0RDl5Uk5WNTVibVVyNGdidG5Od2F3ajBQTi1oQ21uM0hDYmcyNTA4RFpJYUpaUnhoY3NZbUZjcFIxN2ItYUVYWlB5X1BBRkpHakRwb2JKSFlzc2xXekR3Q3RYZmtiRm1jMHBBRkdaaE9RMkFr?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2VLTG0xMG5YdlRxbXVvbGh4Z010cHNoWnNoRzZPZFhRcnBtTVdKb2FpNUtsLXNrMUIwWTlyWnVHS3p5SWdlWnAzMnlFOGptSDl4OUx3RWV4bk93T3RvTFBLY2NBUTJkd08xRGpwSFk0aDJQNnI4RzZ6elJpeWFteHdIcUxVN0NSd0RIaEgzc2pYRldFRmlQUWJYaDlTVWFuaF8zSndvV3dUVGNMZldhM0V6bndLTjRsU3hXVnZ1dk5fek0ycHF6Y1lxZTgtamZESXc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUk8tbjBTQmpJUkN4N2l5ZXJNOTZ5aE00ZDJ1a3ROV29wSnI5Mk1FNFpxUWR5Q2dSa1VrMUZpYm44b2QzVWx2MUNqY2VGa1lhMkZwcWF1T1J2SW5venFTN1hRMHY0dWR0eHI0MjhtTUhNTERtNm55R3lUNjR4cUkxTEl0QVUtMXpocTFFdVI5b0ZtZHVfS2c?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1793714108,
-    "reason": "שיחות דיפלומטיות שמפחיתות את סיכוני הקונפליקט באירופה עשויות לשפר את סנטימנט השוק.",
-    "reason_i18n": {
-     "en": "Diplomatic talks easing European conflict risks could improve market sentiment.",
-     "he": "שיחות דיפלומטיות שמפחיתות את סיכוני הקונפליקט באירופה עשויות לשפר את סנטימנט השוק.",
-     "ar": "المحادثات الدبلوماسية التي تخفف من مخاطر الصراع الأوروبي قد تحسن معنويات السوق.",
-     "ru": "Дипломатические переговоры, снижающие риски конфликта, могут улучшить настроения на рынке."
-    },
-    "name_i18n": {
-     "en": "SPY – S&P 500 ETF",
-     "he": "SPY – מדד S&P 500",
-     "ar": "SPY - صندوق مؤشر الأسهم",
-     "ru": "SPY – фонд акций S&P 500"
-    },
-    "price_at_alert": 752.1,
-    "entry_price": 752.73,
-    "entry_time": "2026-11-03T14:30+00:00",
-    "exit_price": 766.73,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.86,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.86,
-    "edge_pct": 1.86,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "מתיחות צבאית מתמשכת וחימוש מחדש באירופה תומכים בהזמנות ביטחוניות ארוכות טווח.",
-    "reason_i18n": {
-     "he": "מתיחות צבאית מתמשכת וחימוש מחדש באירופה תומכים בהזמנות ביטחוניות ארוכות טווח.",
-     "en": "Ongoing military tensions and European rearmament support long-term defense orders.",
-     "ar": "التوترات العسكرية المستمرة وإعادة التسليح الأوروبي تدعم طلبات الدفاع طويلة الأجل.",
-     "ru": "Продолжающаяся военная напряженность и перевооружение в Европе поддерживают долгосрочные оборонные заказы."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין - ענקית בטחונית",
-     "en": "Lockheed Martin – Major Defense Contractor",
-     "ar": "لوكهيد مارتن - مقاول دفاعي رئيسي",
-     "ru": "Lockheed Martin – крупный оборонный подрядчик"
-    },
-    "price_at_alert": 645.5,
-    "entry_price": 644.615,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 594.69,
-    "exit_date": "2026-11-04",
-    "change_pct": -7.74,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": -9.21,
-    "edge_pct": -9.21,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "bc861788fa22",
-  "updates": [
-   {
-    "ts": 1793723885,
-    "time": "2026-11-03T16:38Z",
-    "severity": 5,
-    "summary": "שוודיה מקבלת טילי טאורוס גרמניים שביקשה בעבר אוקראינה, בזמן שאזרחים מפנים את אולשקי לקראת סיום הפסקת האש, והבית הלבן נערך לארח משלחות מרוסיה ומאוקראינה.",
-    "i18n": {
-     "he": "שוודיה מקבלת טילי טאורוס גרמניים שביקשה בעבר אוקראינה, בזמן שאזרחים מפנים את אולשקי לקראת סיום הפסקת האש, והבית הלבן נערך לארח משלחות מרוסיה ומאוקראינה.",
-     "en": "Sweden receives German Taurus missiles previously requested by Ukraine, as civilians evacuate Oleshky near the end of a ceasefire and the White House prepares to host Russian and Ukrainian delegations.",
-     "ar": "السويد تتلقى صواريخ تاوروس الألمانية التي طلبتها أوكرانيا سابقاً، بينما يتم إجلاء المدنيين من أولشكي مع اقتراب وقف إطلاق النار من نهايته، ويستعد البيت الأبيض لاستضافة وفود من روسيا وأوكرانيا.",
-     "ru": "Швеция получает немецкие ракеты Taurus, ранее запрашиваемые Украиной, в то время как мирные жители эвакуируются из Олешек в связи с завершением режима прекращения огня, а Белый дом готовится принять делегации из России и Украины."
-    }
-   }
-  ],
-  "last_update": 1793723885,
-  "evaluated": true
- },
- {
-  "ts": 1793714108,
-  "time": "2026-11-03T13:55Z",
   "title": "חירום שיטפונות בחוף החלל בפלורידה בעקבות גשמים חסרי תקדים",
   "summary": "אירוע גשמים היסטורי של פעם באלף שנים הפעיל חירום שיטפונות פתאומיים ברחבי חוף החלל בפלורידה, וגרם לשיבושים משמעותיים.",
   "kid": "גשמים זועפים קיצוניים גרמו להצפות קשות בחלקים בפלורידה, העשויים לפגוע בפעילות העסקית המקומית ובחברות ביטוח.",
@@ -1455,101 +1183,6 @@
  {
   "ts": 1793723885,
   "time": "2026-11-03T16:38Z",
-  "title": "בורסת הקריפטו הגדולה בברזיל נפגעה במתקפת סייבר עם הפסדים של מעל 45 מיליון דולר",
-  "summary": "בורסת הקריפטו הגדולה בברזיל נפגעה באירוע אבטחת מידע ומתקפת סייבר, כאשר ההפסדים המוערכים חוצים את רף 45 מיליון הדולר.",
-  "kid": "גנבים דיגיטליים פרצו לבורסת קריפטו גדולה בברזיל וגנבו מיליונים. זה מזכיר כמה חשובה אבטחת סייבר ויכול להשפיע על חברות אבטחת מידע.",
-  "i18n": {
-   "title": {
-    "he": "בורסת הקריפטו הגדולה בברזיל נפגעה במתקפת סייבר עם הפסדים של מעל 45 מיליון דולר",
-    "en": "Brazil’s Largest Crypto Exchange Hit by Cyberattack as Losses Top $45M",
-    "ar": "تعرض أكبر بورصة عملات مشفرة في البرازيل لتجسس سيبراني بخسائر تتجاوز 45 مليون دولار",
-    "ru": "Крупнейшая криптовалютная биржа Бразилии подверглась кибератаке с убытками более $45 млн"
-   },
-   "summary": {
-    "he": "בורסת הקריפטו הגדולה בברזיל נפגעה באירוע אבטחת מידע ומתקפת סייבר, כאשר ההפסדים המוערכים חוצים את רף 45 מיליון הדולר.",
-    "en": "Brazil’s largest cryptocurrency exchange suffered a major cyberattack, resulting in estimated losses exceeding $45 million.",
-    "ar": "تعرضت أكبر بورصة للعملات المشفرة في البرازيل لهجوم سيبراني كبير، مما أدى إلى خسائر مقدرة تتجاوز 45 مليون دولار.",
-    "ru": "Крупнейшая криптовалютная биржа Бразилии подверглась серьезной кибератаке, в результате которой оценочные убытки превысили 45 миллионов долларов."
-   },
-   "kid": {
-    "he": "גנבים דיגיטליים פרצו לבורסת קריפטו גדולה בברזיל וגנבו מיליונים. זה מזכיר כמה חשובה אבטחת סייבר ויכול להשפיע על חברות אבטחת מידע.",
-    "en": "Hackers broke into a big crypto exchange in Brazil and stole millions. This highlights cyber security risks for digital assets.",
-    "ar": "اخترق قراصنة بورصة عملات مشفرة كبيرة في البرازيل وسرقوا ملايين. هذا يسلط الضوء על مخاطر الأمن السيبراني.",
-    "ru": "Хакеры взломали крупную криптобиржу в Бразилии и похитили миллионы. Это подчеркивает риски кибербезопасности."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "פריצות ענק בבורסות קריפטו מעלות את המודעות והביקוש לפתרונות אבטחת מידע מתקדמים.",
-    "reason_i18n": {
-     "he": "פריצות ענק בבורסות קריפטו מעלות את המודעות והביקוש לפתרונות אבטחת מידע מתקדמים.",
-     "en": "Major crypto hacks increase awareness and demand for robust cybersecurity and defense tools.",
-     "ar": "عمليات الاختراق الكبرى للعملات المشفرة تزيد من الوعي والطلب على أدوات الأمن السيبراني.",
-     "ru": "Крупные взломы криптовалют повышают осведомленность и спрос на надежные инструменты кибербезопасности."
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק - חברת אבטחת סייבר",
-     "en": "CrowdStrike – Cybersecurity Firm",
-     "ar": "كراودسترايك - شركة أمن سيبراني",
-     "ru": "CrowdStrike – компания кибербезопасности"
-    },
-    "price_at_alert": 246.385,
-    "entry_price": 246.555,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 241.0,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.25,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": -3.71,
-    "edge_pct": -3.71,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1793723885,
-    "reason": "פריצות אבטחה בבורסות מרכזיות מעוררות חששות לגבי סיכוני נכסים דיגיטליים.",
-    "reason_i18n": {
-     "he": "פריצות אבטחה בבורסות מרכזיות מעוררות חששות לגבי סיכוני נכסים דיגיטליים.",
-     "en": "Security breaches at major exchanges trigger sentiment concerns regarding digital asset safety.",
-     "ar": "تثير خروقات الأمان في البورصات الكبرى مخاوف تتعلق بسلامة الأصول الرقمية.",
-     "ru": "Нарушения безопасности на крупных биржах вызывают опасения по поводу безопасности цифровых активов."
-    },
-    "name_i18n": {
-     "he": "קרן סל ביטקוין",
-     "en": "Bitcoin ETF",
-     "ar": "صندوق بيتكوين المتداول",
-     "ru": "Bitcoin ETF"
-    },
-    "price_at_alert": 43.85,
-    "entry_price": 43.916,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 45.315,
-    "exit_date": "2026-11-04",
-    "change_pct": 3.19,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": 1.72,
-    "edge_pct": -1.72,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "3d3560065629",
-  "evaluated": true
- },
- {
-  "ts": 1793723885,
-  "time": "2026-11-03T16:38Z",
   "title": "תוצאות חזקות בענף הנחושת ומחירי הסחורות מציבים את חברות הכרייה באור הזרקורים",
   "summary": "חברות כרייה כמו Ero Copper מדווחות על תוצאות כספיות חזקות לרבעון השלישי, בזמן שג'יי פי מורגן מדגיש את מניות הנחושת המובילות על רקע דחיפת האספקה בארה\"ב.",
   "kid": "חברות שמייצרות נחושת מפרסמות דוחות כספיים טובים ואנליסטים מדברים על חשיבות המתכת לבנייה ולטכנולוגיה, מה שיכול להשפיע על מחירי המניות שלהן.",
@@ -1727,166 +1360,6 @@
  {
   "ts": 1793723885,
   "time": "2026-11-03T16:38Z",
-  "title": "יפן מתכננת לחזק את מערך ההגנה עם מערכות טילים וארטילריה משולבות",
-  "summary": "ממשלת יפן מקדמת תוכניות לשדרוג וחיזוק מערכות ההגנה שלה באמצעות שילוב מערכות טילים וארטילריה תחת פיקוד ומערך אחיד.",
-  "kid": "יפן רוצה לחזק את ההגנה שלה ולחבר יחד את מערכות הטילים והארטילריה שלה למערכת אחת חזקה. זה אומר עוד הזמנות לחברות נשק.",
-  "i18n": {
-   "title": {
-    "he": "יפן מתכננת לחזק את מערך ההגנה עם מערכות טילים וארטילריה משולבות",
-    "en": "Japan to Bolster Defenses with Unified Missile and Artillery Systems",
-    "ar": "اليابان تعتزم تعزيز دفاعاتها بأنظمة صواريخ ومدفعية موحدة",
-    "ru": "Япония намерена укрепить оборону с помощью единых ракетных и артиллерийских систем"
-   },
-   "summary": {
-    "he": "ממשלת יפן מקדמת תוכניות לשדרוג וחיזוק מערכות ההגנה שלה באמצעות שילוב מערכות טילים וארטילריה תחת פיקוד ומערך אחיד.",
-    "en": "The Japanese government is advancing plans to upgrade and strengthen its defense capabilities by unifying missile and artillery systems.",
-    "ar": "تقدم الحكومة اليابانية خططاً لتحديث وتعزيز قدراتها الدفاعية من خلال توحيد أنظمة الصواريخ والمدفعية.",
-    "ru": "Правительство Японии продвигает планы по модернизации и укреплению своих оборонных возможностей путем объединения ракетных и артиллерийских систем."
-   },
-   "kid": {
-    "he": "יפן רוצה לחזק את ההגנה שלה ולחבר יחד את מערכות הטילים והארטילריה שלה למערכת אחת חזקה. זה אומר עוד הזמנות לחברות נשק.",
-    "en": "Japan is planning to combine its missile and artillery networks into a single unified defense system, boosting military readiness.",
-    "ar": "تخطط اليابان لدمج شبكات الصواريخ والمدفعية في نظام دفاعي موحد، مما يعزز الاستعداد العسكري.",
-    "ru": "Япония планирует объединить свои ракетные и артиллерийские сети в единую оборонительную систему."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "הגדלת תקציבי הביטחון ושדרוג הצבא תומכים בתעשייה המקומית ובסנטימנט השוק.",
-    "reason_i18n": {
-     "he": "הגדלת תקציבי הביטחון ושדרוג הצבא תומכים בתעשייה המקומית ובסנטימנט השוק.",
-     "en": "Increased defense spending and military upgrades support domestic industry and sentiment.",
-     "ar": "زيادة الإنفاق الدفاعي والتحديثات العسكرية تدعم الصناعة المحلية ومعنويات السوق.",
-     "ru": "Увеличение оборонных расходов и военная модернизация поддерживают внутреннюю промышленность."
-    },
-    "name_i18n": {
-     "he": "קרן סל יפן",
-     "en": "Japan ETF",
-     "ar": "صندوق الاستثمار المتداول لأسهم اليابان",
-     "ru": "Japan ETF"
-    },
-    "price_at_alert": 92.81,
-    "entry_price": 92.85,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 93.865,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.09,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": -0.37,
-    "edge_pct": -0.37,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "יפן היא לקוח ביטחוני מרכזי המשתף פעולה עם חברות נשק אמריקאיות לפרויקטי הגנה.",
-    "reason_i18n": {
-     "he": "יפן היא לקוח ביטחוני מרכזי המשתף פעולה עם חברות נשק אמריקאיות לפרויקטי הגנה.",
-     "en": "Japan is a major defense partner collaborating with US contractors on advanced systems.",
-     "ar": "اليابان شريك دفاعي رئيسي يتعاون مع المقاولين الأمريكيين في الأنظمة المتقدمة.",
-     "ru": "Япония является крупным оборонным партнером, сотрудничающим с подрядчиками из США."
-    },
-    "name_i18n": {
-     "he": "קרן סל לתעשייה הביטחונית בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 217.96,
-    "entry_price": 217.18,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 212.75,
-    "exit_date": "2026-11-04",
-    "change_pct": -2.04,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": -3.5,
-    "edge_pct": -3.5,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "59bf23bb1bf7",
-  "evaluated": true
- },
- {
-  "ts": 1793723885,
-  "time": "2026-11-03T16:38Z",
-  "title": "ארה\"ב הטילה סנקציות על רשת הונאת IT שמימנה את תוכנית הטילים של צפון קוריאה",
-  "summary": "ממשלת ארצות הברית הטילה סנקציות חדשות על רשת הונאת טכנולוגיית מידע (IT) שפעלה למימון תוכנית הטילים והנשק של צפון קוריאה.",
-  "kid": "ארה\"ב עצרה פעילות לא חוקית של אנשים שניסו להרוויח כסף במרמה באינטרנט כדי לממן את הטילים של צפון קוריאה. זה עוזר לעצור את זרימת הכסף לנשק.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב הטילה סנקציות על רשת הונאת IT שמימנה את תוכנית הטילים של צפון קוריאה",
-    "en": "US Sanctions IT Fraud Network Funding North Korea's Missile Program",
-    "ar": "الولايات المتحدة تفرض عقوبات على شبكة احتيال تكنولوجي تُموِّل برنامج كوريا الشمالية الصاروخي",
-    "ru": "США ввели санкции против сети IT-мошенничества, финансирующей ракетную программу Северной Кореи"
-   },
-   "summary": {
-    "he": "ממשלת ארצות הברית הטילה סנקציות חדשות על רשת הונאת טכנולוגיית מידע (IT) שפעלה למימון תוכנית הטילים והנשק של צפון קוריאה.",
-    "en": "The U.S. government has slapped new sanctions on an IT fraud network that was generating funds to finance North Korea's missile and weapons program.",
-    "ar": "فرضة الحكومة الأمريكية عقوبات جديدة على شبكة احتيال تكنولوجي كانت تولد أموالاً لتمويل برنامج صواريخ وأسلحة كوريا الشمالية.",
-    "ru": "Правительство США ввело новые санкции против сети IT-мошенничества, которая генерировала средства для финансирования ракетной программы Северной Кореи."
-   },
-   "kid": {
-    "he": "ארה\"ב עצרה פעילות לא חוקית של אנשים שניסו להרוויח כסף במרמה באינטרנט כדי לממן את הטילים של צפון קוריאה. זה עוזר לעצור את זרימת הכסף לנשק.",
-    "en": "The US imposed sanctions on a group conducting online fraud to help fund North Korea's missile program, tightening financial controls.",
-    "ar": "فرضة الولايات المتحدة عقوبات على مجموعة تجري احتيالاً عبر الإنترنت للمساعدة في تمويل برنامج صواريخ كوريا الشمالية.",
-    "ru": "США ввели санкции против группы, занимающейся интернет-мошенничеством для финансирования ракетной программы КНДР."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1793723885,
-    "reason": "אכיפה פיננסית מוגברת נגד רשתות מימון בלתי חוקיות מחזקת את האמינות של המערכת הפיננסית בארה\"ב.",
-    "reason_i18n": {
-     "he": "אכיפה פיננסית מוגברת נגד רשתות מימון בלתי חוקיות מחזקת את האמינות של המערכת הפיננסית בארה\"ב.",
-     "en": "Strengthened financial enforcement against illicit funding networks supports overall market security.",
-     "ar": "تعزيز إنفاذ القوانين المالية ضد شبكات التمويل غير المشروعة يدعم أمان السوق العام.",
-     "ru": "Усиление финансового контроля над незаконными сетями финансирования поддерживает безопасность рынка."
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 ETF",
-     "ar": "صندوق S&P 500",
-     "ru": "S&P 500 ETF"
-    },
-    "price_at_alert": 754.895,
-    "entry_price": 755.69,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 766.73,
-    "exit_date": "2026-11-04",
-    "change_pct": 1.46,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.46,
-    "edge_pct": 1.46,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1b56c7a0b1d9",
-  "evaluated": true
- },
- {
-  "ts": 1793723885,
-  "time": "2026-11-03T16:38Z",
   "title": "פקיסטן ערכה ניסוי מוצלח בטיל האוויר-אוויר הלאומי 'פאאז'",
   "summary": "צבא פקיסטן ביצע בהצלחה ניסוי טיסה של טיל האוויר-אוויר הפקיסטני הראשון שפותח באופן מקומי, 'פאאז', במה שמכונה אבן דרך ביטחונית מרכזית.",
   "kid": "פקיסטן בדקה בהצלחה טיל חדש שהיא ייצרה בעצמה. זה יכול לעניין חברות נשק ולהראות שהמדינה חזקה יותר בייצור צבאי.",
@@ -1999,71 +1472,6 @@
    }
   ],
   "last_update": 1793743606,
-  "evaluated": true
- },
- {
-  "ts": 1793723885,
-  "time": "2026-11-03T16:38Z",
-  "title": "ג'סטין סאן דורש סנקציות נגד World Liberty הנתמכת על ידי טראמפ בטענה להסתרת קשרים לאיחוד האמירויות",
-  "summary": "יזם הקריפטו ג'סטין סאן מבקש להטיל סנקציות על פלטפורמת World Liberty Financial הקשורה למשפחת טראמפ, בטענה לעיכוב והסתרת דיווחים הקשורים לאיחוד האמירויות.",
-  "kid": "איש עסקים בקריפטו דורש להטיל עונשים וסנקציות על מיזם קריפטו המזוהה עם טראמפ בגלל דיווחים שלא נמסרו בזמן. זה יכול ליצור כותרות פוליטיות ופיננסיות.",
-  "i18n": {
-   "title": {
-    "he": "ג'סטין סאן דורש סנקציות נגד World Liberty הנתמכת על ידי טראמפ בטענה להסתרת קשרים לאיחוד האמירויות",
-    "en": "Justin Sun Seeks Sanctions Against Trump-Backed World Liberty Financial Over Late UAE Disclosure",
-    "ar": "جاستن صن يسعى لفرض عقوبات على شركة World Liberty المدعومة من ترامب بسبب تأخر الكشف عن ارتباطات بالإمارات",
-    "ru": "Джастин Сан добивается санкций против поддерживаемой Трампом World Liberty Financial из-за несвоевременного раскрытия данных об ОАЭ"
-   },
-   "summary": {
-    "he": "יזם הקריפטו ג'סטין סאן מבקש להטיל סנקציות על פלטפורמת World Liberty Financial הקשורה למשפחת טראמפ, בטענה לעיכוב והסתרת דיווחים הקשורים לאיחוד האמירויות.",
-    "en": "Crypto entrepreneur Justin Sun is seeking sanctions against the Trump-backed World Liberty Financial platform over alleged late disclosure of its UAE connections.",
-    "ar": "يسعى رائد الأعمال في مجال العملات المشفرة جاستين صن لفرض عقوبات على منصة World Liberty Financial المرتبطة بترامب بسبب مزاعم تأخر الكشف عن صلتها بالإمارات.",
-    "ru": "Криптопредприниматель Джастин Сан добивается введения санкций против связанной с Трампом платформы World Liberty Financial из-за предполагаемого несвоевременного раскрытия данных о ее связях с ОАЭ."
-   },
-   "kid": {
-    "he": "איש עסקים בקריפטו דורש להטיל עונשים וסנקציות על מיזם קריפטו המזוהה עם טראמפ בגלל דיווחים שלא נמסרו בזמן. זה יכול ליצור כותרות פוליטיות ופיננסיות.",
-    "en": "A crypto executive is pushing for sanctions against a crypto project backed by Donald Trump over reporting issues, creating regulatory noise.",
-    "ar": "يطالب رجل أعمال في مجال العملات المشفرة بفرض عقوبات على مشروع مرتبط بدونالد ترامب بسبب مشكلات تتعلق بالإفصاح.",
-    "ru": "Криптопредприниматель добивается санкций против проекта, поддерживаемого Дональдом Трампом, из-за проблем с отчетностью."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1793723885,
-    "reason": "מחלוקות רגולטוריות סביב מיזמים פוליטיים וקריפטו עלולות להגביר את החשש מפיקוח הדוק יותר.",
-    "reason_i18n": {
-     "he": "מחלוקות רגולטוריות סביב מיזמים פוליטיים וקריפטו עלולות להגביר את החשש מפיקוח הדוק יותר.",
-     "en": "Regulatory disputes involving political crypto projects can heighten fears of increased scrutiny.",
-     "ar": "النزاعات التنظيمية التي تشمل مشاريع العملات المشفرة السياسية يمكن أن تزيد من مخاوف الرقابة.",
-     "ru": "Регулирующие споры вокруг политических криптопроектов могут усилить опасения по поводу ужесточения контроля."
-    },
-    "name_i18n": {
-     "he": "קרן סל ביטקוין",
-     "en": "Bitcoin ETF",
-     "ar": "صندوق بيتكوين المتداول",
-     "ru": "Bitcoin ETF"
-    },
-    "price_at_alert": 43.85,
-    "entry_price": 43.916,
-    "entry_time": "2026-11-03T17:30+00:00",
-    "exit_price": 45.315,
-    "exit_date": "2026-11-04",
-    "change_pct": 3.19,
-    "bench": "SPY",
-    "bench_change_pct": 1.46,
-    "excess_pct": 1.72,
-    "edge_pct": -1.72,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "80a71aac801c",
   "evaluated": true
  },
  {
@@ -35091,7 +34499,18 @@
      "ar": "إلبيط سيستمز – شركة دفاع إسرائيلية",
      "ru": "Elbit Systems – израильская оборонная компания"
     },
-    "price_at_alert": 216410.0
+    "price_at_alert": 216410.0,
+    "entry_price": 219500.0,
+    "entry_time": "2026-11-09T07:50+00:00",
+    "exit_price": 233900.0,
+    "exit_date": "2026-11-10",
+    "change_pct": 6.56,
+    "bench": "TA35.TA",
+    "bench_change_pct": 3.81,
+    "excess_pct": 2.75,
+    "edge_pct": 2.75,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "XAR",
@@ -48623,5 +48042,244 @@
    }
   ],
   "id": "f03691f8f58d"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "טילים יורטו מעל ריאד לאחר מתקפה חות'ית",
+  "summary": "פיצוצים נשמעו בריאד לאחר שערב הסעודית יירטה טיל ששוגר על ידי המורדים החות'ים.",
+  "kid": "קבוצה חמושה שיגרה טיל לעבר סעודיה, והוא יורט באוויר. אירועים כאלה במזרח התיכון עלולים להדאיג משקיעים לגבי מחירי הנפט.",
+  "i18n": {
+   "title": {
+    "he": "טילים יורטו מעל ריאד לאחר מתקפה חות'ית",
+    "en": "Missiles intercepted over Riyadh after Houthi attack",
+    "ar": "اعتراض صواريخ فوق الرياض بعد هجوم حوثي",
+    "ru": "Ракети перехвачены над Риядом после атаки хуситов"
+   },
+   "summary": {
+    "he": "פיצוצים נשמעו בריאד לאחר שערב הסעודית יירטה טיל ששוגר על ידי המורדים החות'ים.",
+    "en": "Explosions rocked Riyadh after Saudi Arabia intercepted a missile launched by Houthi rebels.",
+    "ar": "هزت انفجارات الرياض بعد أن اعترضت السعودية صاروخاً أطلقه الحوثيون.",
+    "ru": "В Рияде прогремели взрывы после того, как Саудовская Аравия перехватила ракету хуситов."
+   },
+   "kid": {
+    "he": "קבוצה חמושה שיגרה טיל לעבר סעודיה, והוא יורט באוויר. אירועים כאלה במזרח התיכון עלולים להדאיג משקיעים לגבי מחירי הנפט.",
+    "en": "An armed group fired a missile toward Saudi Arabia, which was intercepted in the air. Such Middle East events can make investors worry about oil prices.",
+    "ar": "أطلقت جماعة مسلحة صاروخاً نحو السعودية وتم اعتراضه في الجو. مثل هذه الأحداث في الشرق الأوسط قد تقلق المستثمرين بشأن أسعار النفط.",
+    "ru": "Вооруженная группа выпустила ракету в сторону Саудовской Аравии, она была перехвачена. Такие события на Ближнем Востоке могут волновать инвесторов насчет цен на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBKME9mZzNhblUwLW5TOEZiUHM2Z2YxTUNBWHc5NmNIQWljY3FxenRMdG91UThxMmd2M1RNb0VuOVRxek9DbXAyUkZB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQWd2dmhmLTR1R2RZWnMtZHRIVFhEMm5uX0QwT2VwQmctR0JwMmo0em5IZE9aVDJhZndKV3FHV05wQ2JfT3ZBVEFfWDRJekoxM2VjalhqS01JNll1S0hObThUR21HZDNBbmlyMVh1OFoyMmgtZGc0Z29TSnFXa1loNjBHTExQTm1UejJ5SEtRUFV2d9IBlwFBVV95cUxPd3FsZlpGc1ptelJOMmp2YU5zbWVwVVZVeElkbGgzMFI5ZDZiNGRSNElTeE9JdDBLcE9iOHl4eFBtdGVZWVdyZWxpcGxjRk91cld5dUFJOUVGMS1lckE2X1pHVFpNeU5EQ0k3TEpHVjNhR0xTRmt0bkxPNjA5UXh1MUxCTHZIUGRSMkJsSXoyajRtREhxLXhV?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הסלמה ביטחונית בסעודיה מעלה חשש לפגיעה באספקת האנרגיה.",
+    "reason_i18n": {
+     "he": "הסלמה ביטחונית בסעודיה מעלה חשש לפגיעה באספקת האנרגיה.",
+     "en": "Security escalation in Saudi raises energy supply concerns.",
+     "ar": "التصعيد الأمن في السعودية يثير مخاوف إمدادات الطاقة.",
+     "ru": "Эскалация безопасности в Саудовской Аравии вызывает опасения по поставкам энергии."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF на нефть"
+    },
+    "price_at_alert": 141.275
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "מתיחות גיאופוליטית במפרץ דוחפת את מניות האנרגיה כלפי מעלה.",
+    "reason_i18n": {
+     "he": "מתיחות גיאופוליטית במפרץ דוחפת את מניות האנרגיה כלפי מעלה.",
+     "en": "Geopolitical tension in the Gulf pushes energy stocks up.",
+     "ar": "الالتوتر الجيوسياسي في الخليج يدفع أسهم الطاقة صعوداً.",
+     "ru": "Геополитическая напряженность в Персидском заливе толкает акции энергетики вверх."
+    },
+    "name_i18n": {
+     "he": "מגזר האנרגיה בארה\"ב",
+     "en": "Energy Select Sector SPDR",
+     "ar": "قطاع الطاقة الأمريكي",
+     "ru": "Сектор энергетики США"
+    },
+    "price_at_alert": 62.15
+   }
+  ],
+  "id": "3fbf282ed518"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
+  "summary": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
+  "kid": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
+  "i18n": {
+   "title": {
+    "he": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
+    "en": "Copper output falls at major mines in Chile and China",
+    "ar": "انخفاض إنتاج النحاس في مناجم رئيسية بتشيلي والصين",
+    "ru": "Добыча меди падает на крупных рудниках в Чили и Китае"
+   },
+   "summary": {
+    "he": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
+    "en": "Copper production at Chile's giant Escondida mine fell in September, while China's copper concentrate imports slumped 11% in October.",
+    "ar": "انخفض إنتاج النحاس في منجم إسكونديلا العملاق بتشيلي في سبتمبر، بينما هبطت واردات الصين من مركزات النحاس 11% في أكتوبر.",
+    "ru": "Добыча меди на гигантском руднике Эскондида в Чили снизилась в сентябре, а импорт медного концентрата в Китай упал на 11% в октябре."
+   },
+   "kid": {
+    "he": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
+    "en": "There is less copper available from mines abroad and in China, which could make this metal used in industry and electronics more expensive.",
+    "ar": "هناك كميات أقل من النحاس المتاحة من المناجم في الخارج وفي الصين، مما قد يجعل هذا المعدن المستخدم في الصناعة والإلكترونيات أكثر غلاءً.",
+    "ru": "Доступно меньше меди на рудниках за рубежом и в Китае, что может сделать этот металл дороже для промышленности и электроники."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcTVTdktsdnhsMnZabjFtSVo5eUF3UW9EODdtd1gteFotWkNHSEh3M0ZwY241RjZsQWpPb0x4TXg0UW1nQ2NxbWgzaWJXQlpTcHQzU1V2cWxtLWlsR2Y5ZUdlblZndGFsZnNtMmN0LTdtR3YwMVhFandkLWpkaGt3ZUsyOEp0T3k1MzY1R3gyclNLbk1iVk8zZXJXTnpVQ0RNYUdsNTBOYzFBQU96aFNMSkhMc1JWYUFo?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE1vMU54Z0x5VXBZbGJCcG9pbjRVbmM0U2N6Y3VoWmZaelJYWFdQRUNUTHV4V3NXZ0lrTkhkU3Fjb3QyQ3IzZ0FxamMwdkhpR2pBMklBcUpNUU5NMVFpMldSUnZCTGY3eVFGTzJCbFkzOWRHSVRhWlZCM0ZZNENhUjlMUG02NXIwcXRZTGJ0aDJ4UEtJbmQ1Tm1iR0NXNmhvQkZhM0s0bw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
+    "reason_i18n": {
+     "he": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
+     "en": "Drop in output and imports tightens global copper supply.",
+     "ar": "انخفاض الإنتاج والواردات يقلل معروض النحاس العالمي.",
+     "ru": "Падение добычи и импорта сокращает мировое предложение меди."
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "United States Copper Index Fund",
+     "ar": "صندوق مؤشر النحاس",
+     "ru": "ETF на медь"
+    },
+    "price_at_alert": 37.485
+   },
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
+    "reason_i18n": {
+     "he": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
+     "en": "Supply tightening may support copper prices and miner margins.",
+     "ar": "تشديد المعروض قد يدعم أسعار النحاس ويحسن هوامش أرباح عمال المناجم.",
+     "ru": "Сокращение предложения может поддержать цены на медь и маржу шахтеров."
+    },
+    "name_i18n": {
+     "he": "פריפורט מקמורן – חברת כרייה",
+     "en": "Freeport-McMoRan mining company",
+     "ar": "شركة فريبورت-מקמורان للتعدين",
+     "ru": "Горнодобывающая компания Freeport-McMoRan"
+    },
+    "price_at_alert": 60.165
+   }
+  ],
+  "id": "cf5b0985cfba"
+ },
+ {
+  "ts": 1794331565,
+  "time": "2026-11-10T17:26Z",
+  "title": "סין מאריכה את ההשהיה בבקרת ייצוא מינרלים נדירים עד 2027",
+  "summary": "סין החליטה להאריך את ההשהיה בבקרת הייצוא על מינרלים נדירים וסוללות עד לשנת 2027.",
+  "kid": "סין החליטה בינתיים לא להגביל את המכירה של חומרים מיוחדים שמשמשים לסוללות ולטכנולוגיה, מה שעוזר לחברות טכנולוגיה להמשיך לקבל רכיבים בקלות.",
+  "i18n": {
+   "title": {
+    "he": "סין מאריכה את ההשהיה בבקרת ייצוא מינרלים נדירים עד 2027",
+    "en": "China extends rare earth export control pause to 2027",
+    "ar": "الصين تمدد تعليق مراقبة صادرات الأراضي النادرة حتى 2027",
+    "ru": "Китай продлевает паузу на экспортный контроль редкоземельных элементов до 2027 года"
+   },
+   "summary": {
+    "he": "סין החליטה להאריך את ההשהיה בבקרת הייצוא על מינרלים נדירים וסוללות עד לשנת 2027.",
+    "en": "China has extended its pause on rare earth and battery export controls through 2027.",
+    "ar": "مددت الصين تعليقها على ضوابط تصدير المعادن النادرة والبطاريات حتى عام 2027.",
+    "ru": "Китай продлил паузу в отношении контроля над экспортом редкоземельных элементов и батарей до 2027 года."
+   },
+   "kid": {
+    "he": "סין החליטה בינתיים לא להגביל את המכירה של חומרים מיוחדים שמשמשים לסוללות ולטכנולוגיה, מה שעוזר לחברות טכנולוגיה להמשיך לקבל רכיבים בקלות.",
+    "en": "China decided not to restrict sales of special materials used for batteries and technology for now, helping tech companies keep getting parts easily.",
+    "ar": "قررت الصين عدم تقييد بيع المواد الخاصة المستخدمة للبطاريات والتكنولوجيا في الوقت الحالي، مما يساعد شركات التكنولوجيا في الحصول على الأجزاء بسهولة.",
+    "ru": "Китай решил пока не ограничивать продажи специальных материалов для батарей и технологий, помогая технологическим компаниям легко получать детали."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LIT",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "דחיית הגבלות הייצוא מקלה על שרשרת אספקת הסוללות.",
+    "reason_i18n": {
+     "he": "דחיית הגבלות הייצוא מקלה על שרשרת אספקת הסוללות.",
+     "en": "Postponing export curbs eases the battery supply chain.",
+     "ar": "تأجيل قيود التصدير يسهل سلسلة توريد البطاريات.",
+     "ru": "Отсрочка экспортных ограничений облегчает цепочку поставок батарей."
+    },
+    "name_i18n": {
+     "he": "קרן סל ליטיום וסוללות",
+     "en": "Lithium & Battery ETF",
+     "ar": "صندوق استثمار الليثيوم والبطاريات",
+     "ru": "ETF на литий и батареи"
+    },
+    "price_at_alert": 59.882
+   },
+   {
+    "ticker": "ASHR",
+    "direction": "up",
+    "t0": 1794331565,
+    "reason": "הקלת חששות סחר מול סין תומכת בסנטימנט השוק.",
+    "reason_i18n": {
+     "he": "הקלת חששות סחר מול סין תומכת בסנטימנט השוק.",
+     "en": "Easing trade worries supports market sentiment.",
+     "ar": "تخفيف مخاوف التجارة يدعم معنويات السوق.",
+     "ru": "Ослабление торговых опасений поддерживает рыночные настроения."
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות סין A",
+     "en": "China A-Shares ETF",
+     "ar": "صندوق أسهم الصين",
+     "ru": "ETF акций Китая A"
+    },
+    "price_at_alert": 30.5398
+   }
+  ],
+  "id": "02eb700d57c6"
  }
 ]

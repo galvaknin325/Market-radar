@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:34Z",
+ "generated": "2026-11-10T17:27Z",
  "trade_size": 1000,
  "important": {
   "trades": 97,
@@ -647,11 +647,11 @@
   ]
  },
  "all": {
-  "trades": 300,
-  "wins": 147,
-  "hits": 147,
-  "pnl": 128.7,
-  "bench_pnl": -2371.5,
+  "trades": 301,
+  "wins": 148,
+  "hits": 148,
+  "pnl": 194.3,
+  "bench_pnl": -2333.4,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -716,9 +716,33 @@
     "date": "2026-11-09",
     "equity": 128.7,
     "bench": -2371.5
+   },
+   {
+    "date": "2026-11-10",
+    "equity": 194.3,
+    "bench": -2333.4
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-10",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 3,
+    "cat": "contracts",
+    "id": "6e3ef0d914de",
+    "title": "סרי לנקה תרכוש ארבעה רחפנים מישראל תמורת 4.2 מיליארד רופי",
+    "title_i18n": {
+     "he": "סרי לנקה תרכוש ארבעה רחפנים מישראל תמורת 4.2 מיליארד רופי",
+     "en": "Sri Lanka to Acquire Four Israeli Drones for 4.2 Billion Rupees",
+     "ar": "سريلانكا تستحوذ على أربع طائرات مسيرة إسرائيلية بقيمة 4.2 مليار روبية",
+     "ru": "Шри-Ланка приобретет четыре израильских дрона за 4,2 миллиарда рупий"
+    },
+    "change_pct": 6.56,
+    "hit": true,
+    "pnl": 65.6,
+    "bench_pnl": 38.1
+   },
    {
     "date": "2026-11-09",
     "ticker": "ZIM",
@@ -1268,25 +1292,6 @@
     "change_pct": 3.1,
     "hit": false,
     "pnl": -31.0,
-    "bench_pnl": 24.2
-   },
-   {
-    "date": "2026-11-09",
-    "ticker": "QCOM",
-    "dir": "down",
-    "severity": 8,
-    "cat": "policy",
-    "id": "28acaaf1cc78",
-    "title": "צניחה במניות הטכנולוגיה וה-AI על רקע חששות מרגולציה",
-    "title_i18n": {
-     "he": "צניחה במניות הטכנולוגיה וה-AI על רקע חששות מרגולציה",
-     "en": "Tech and AI stocks plummet on regulatory concerns",
-     "ar": "هبوط أسهم التكنولوجيا والذكاء الاصطناعي وسط مخاوف تنظيمية",
-     "ru": "Акции технологических компаний и ИИ падают на фоне опасений регулирования"
-    },
-    "change_pct": 6.15,
-    "hit": false,
-    "pnl": -61.5,
     "bench_pnl": 24.2
    }
   ]
