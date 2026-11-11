@@ -63375,12 +63375,24 @@
    }
   },
   "category": "contracts",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcHBqblZCZkpEYUprdy1uaWNPREhYOE9wTW9zVC0yd3dYVTZKd2JVQXlJQ0ROV1ZuMTNVbmFaUGtuR2VhTXRweDdhaWFvc3poa1ZpeE9pRUZaTXcwbXNzTmpTYlI4UnYyUFA3ZzdBdmd4cTBlWDNVM2JrR2dySkE1S1pNaWg4RHVpeWd4UGVhd25aQzBNUVFENFBzM0l4TUtRemM1SGYxQV9IZ3NPMThjQg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwX25kWHV2TXZKdEIwODF3MXVLWkxFT3dHVlVPQkNxSXZLelZRRUwzOGlVWlFub1NWOGE5OUJWcGpjbkZJWEtsVDBLdTZjbDB2TEp3Nk0zeDNkRGJ0NWdCTXhDS2Q2RGV5?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX3RhOUF0V095N0g0ejllUFZNb1plRUVfdHJYaFVZdmNYY21CeGR5Rk1BVjhwLWgyTTRMWGI4RGhOMWN6cEtWc0JHbVpCTmJfeGpOOEFpbU83Ukd5ZXFQTC11anVwZjNPVnhwaGxwbWZrUGhxdUw2a0tqRGZNaVlFLUpvTERTOXBQQ0dfUFlnaXBWV0Y2OFU2TkRJYXoyNXBpemZac3BSQWJzUlo5ckZrbjd5QXRvRGo3N0RnNDZ3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IMXlPRFBhbzM2OU8tZVljUHVqQkNQTWU2UTJUYTByZlMxWFBwQ1RhV1lxZzhMZDJ1WS1XeDJ1S2JaczJzRG0xU0s3Y0cxMUgxQU8tYmNuYnNjYkxwZ21BWUZGWQ?oc=5"
    }
   ],
   "impacts": [
@@ -63421,9 +63433,43 @@
      "ru": "ETF аэрокосмического и оборонного сектора"
     },
     "price_at_alert": 71.7977
+   },
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "לרפאל יש שיתופי פעולה היסטוריים ופרויקטים משותפים עם RTX",
+    "reason_i18n": {
+     "he": "לרפאל יש שיתופי פעולה היסטוריים ופרויקטים משותפים עם RTX",
+     "en": "Rafael has historical co-production and partnership ties with RTX",
+     "ar": "لدى رافائيل علاقات تعاون تاريخية وشركات مع RTX",
+     "ru": "У компании Rafael есть исторические связи и партнерства с RTX"
+    },
+    "name_i18n": {
+     "he": "RTX - ענקית התעופה והביטחון",
+     "en": "RTX - Aerospace & Defense Giant",
+     "ar": "RTX - عملاق الطيران والدفاع",
+     "ru": "RTX - аэрокосмический и оборонный гигант"
+    },
+    "price_at_alert": 200.27
    }
   ],
-  "id": "32b8a7f100bd"
+  "id": "32b8a7f100bd",
+  "updates": [
+   {
+    "ts": 1794372080,
+    "time": "2026-11-11T04:41Z",
+    "severity": 4,
+    "summary": "חברת הביטחון הישראלית רפאל חשפה את טיל השייט 'סופר אייס' (Super Ice) הכולל ראש קרב חצי-טון, על רקע עלייה בביקוש העולמי לנשק מתקדם.",
+    "i18n": {
+     "he": "חברת הביטחון הישראלית רפאל חשפה את טיל השייט 'סופר אייס' (Super Ice) הכולל ראש קרב חצי-טון, על רקע עלייה בביקוש העולמי לנשק מתקדם.",
+     "en": "Israeli defense firm Rafael has unveiled its new 'Super Ice' cruise missile featuring a half-ton warhead, capitalising on surging global demand for advanced weaponry.",
+     "ar": "كشفت شركة الدفاع الإسرائيلية رافائيل عن صاروخ الكروز الجديد 'سوبر آيس' الذي يضم رأسا حربيا بنصف طن، للاستفادة من الطلب العالمي المتزايد على الأسلحة المتقدمة.",
+     "ru": "Израильская оборонная компания Rafael представила новую крылатую ракету Super Ice с полутонной боеголовкой на фоне растущего глобального спроса на современное оружие."
+    }
+   }
+  ],
+  "last_update": 1794372080
  },
  {
   "ts": 1794325584,
@@ -65000,27 +65046,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZUzNScUkwS2hRZi1wa1ExN0FnTFhJdjJENlVsdXVYT2cwc1VEY0VlM0xxN292RW8zczI3dUp2R296Zmt1cXZGMWVCVGJhSkdraFExQVJ3bXg1Rk0xOFNtZVdSeUFMaVNZLW5kcjA1MTl6TzRVR2V0UndRNE1Cdw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYzVTMVRIb2wwSFVfZ2s3SHlKM2RINlh0WjFhSmxLTW81VGZJR0JQN0YzRXI3T0FWeWI1QmFjOGEtVnJSY2YxcG13TndVYU9DaVI4Q1huTlo1NHJ6NHhHQm1URFJJSmZYZjNFNktZelNCdDBjVjJORDg1Y1V0cllsRVlUVmlFcnM2aERiR0ZpRXJGVzEza1pMU21iYw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSTVQODFhR1ZTTVZYbDlZT08yNXFrdjZieXpTZmd5eUd6dUxIZFNBTDV6UFRjc3dOMVBsUFR5aHBXaTAydWttOXQxUVNoVnY1ckUzX1U2eE95Zk5FYUswUF80NGhac2NBOHNkX1l3czhtMXhxWm5WZjdld1BHR1F4RHV5NA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYkFKOFBQTDdIT01FMjlyanh3aVpKQkpnXzczUG1IbmprVTJ3WE5jeEFfN2xoVnVtY0t3N3VoYzhtY0RYdWVVT2k1ekVqRVhjdm9UNVRzSXdfZkxjR3RGQzJ3T2x5RVdDNHZGb3dfbGlwS2VtVE0tQXFBSi1ydFd3REZpY1FZY0E?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6QjA2OXJVUlE1bzhodkRCODFQcDVFRDhhZW5weElXS0hpQ19obUpaQU5sa0FRZ2Z3MXFROFNheFZ4ejRLM2xOMzVEeUZiVW1GODRrSVRRQVJncG1rR25lRw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkNZTjYwRFpGeHp2Y1BHajNxM1p4UzctTDlyRGU5NkFZTjQxdVQ4NTVPSHV2WC1XVmN5Zzh4MXh2N2lSSEtnbjlhVXpEajFSdFVxaEhRV3dScFJsWVhBRDc2OHB2WUVUSzBFVGk0UGJWVjB2endFeUE3cWRjRXBneXo5VF9MWEoySjJHZE9vWWxCdHh5RUFrZFlpRWU?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVYxRy1TeEsyWmxwSWtoVTZiS181b0R6OXZYNVBkQ0RGTHE2cjFlRmZaQkxfVVNFNzJMdm9nWVdNUUwtX1JjZmZUWUtSZ2lpYUt6MGFRWXBoOF9BOVZDUTlKUnk5QkR4Z0VZajY3eTRvS3Q5Z3pibWVVWFdEX1BFT3pyMF9SUWJnd0VCblFPbmQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcDlwVUM2RDB4QTZKV052MHRNX184bTU2dU5xbV9RUzFKbVBVVzJQUDhPeUgyWDd4cVNUa0NkMlJUMzBxNTNQX2FuUHI0eGhwYmk0ZUFvUExkZDlsdGZ0TDA5RUNLX3FlNVB0WDg5U1JEOFlBTk1CamxXT0lxV1Y0dFJHc0JsZ3lvZzlqWTJxVUJGS1phOWlUczRWM2JtQ0NUb01CcTQ3SWtQTE1SM3VEUVd3emtDMG1tTnhoaDNTcXBxaUhEcy1uZjFR?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQMVRtN0JaOEo3cUt3WlkxVDBGQWlQLVpOYWgzdEFyNlN0a0Qtcl82aDdjLUtEZ2RSaHZWV2FVYVJlY3hCbUpEdngyXzMxWXZfbGk5bm82UXhiNldOYWxrZkt6STFXRXB5M2tQeXN1MWRyWXhhWlFGV3J0VjI1ZEstSldCanRPb0FGLVRoODJDNDAxQTdkZ1U4a0toNjRhaE5xcUJVaFFnaVVoVU5pQy1TMU5QRzFWbEVra1p4MmVPZkJTZ2hUcndSOXc0ZnRUWl9qWHAyZXdpRTZWNmlqLThuY1B3Mi1VQURnZ1RGME5oZUEzbFlpVEtqOG9FWDVsdWRwNnJiYzNYakItdDhfYTBlMEs4bDlORGZzcFBHMFZ1dWxmaUN6Zjd0NHB4aFhqNnNqT1NzYXp3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNVFiXzV6TnA1cUNxUWdjblYxd09wSWprMzVVYVViZmwzZ3J4M2QzdEg2eU0zQ2Eycm1sa1JmYVNQS0RFVzhWQ2VHUEtXZFZGWm5DVXJvR2ptUG1pd095RlhCQ0dxUmd6SWlSZExUTm5ybU9EeUJwUC1pTDBsQjVZc25Mb3FmaTVDaElLaFBNeTdiXzZUVDZWcmxhejV5d25ka2NzSjFUVW9pLVNLc3JWenItYXN5RnR0V2FqZ3RWZ3d3TlRfNXdfQg?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLUxOU09EOXdPdXB5LWtjelExMHVSZTQ1UlM5Nl9BaVRIZDQ1NHAxNGpyQ0VMR2dDRGRJYkJlckFUbjgxX3JIRllra1pGQmdjUXJ2WFBEWG9fak5ydlpmRDlDT005N1oyVm0yelVIWnR6X0gxWW5ZTnlIcmFRQlR2cWtXbFp2LXZ2dW1BekQydlotX2xJNnJMTDJQaUFtZ1p6dXBmbFQ5Q1pwRUJHbmlvV3hHUWRnbHJOZzk5ZTBtdThTVU52cHF3aENnS3dXVVlEeDJ0Nl83dWJZY2pkaGxscUFDbFRHa2YzQnBBYXJvVzdPM3ZkZENNX09wODVvVWZObEHSAYcCQVVfeXFMT2pLMDJpbmMxZWlpYl9iQkh5SW5WdE12WUtNZnpueEMwd0RqREpUM0o3TFF2VzlrNGRES1RlTllYcUJyOGZWZFRlTXNKd3NnNkRlYTBNdzBCZktaN0NwU2ZaVUJNaVI2RENPVUZKcTNHMTNPdlZnNC1nOS1HX3R2aTROTm13SXR4QmQxQm1ORndSNWozcU95VXAxZ0Rjdng4ZFhhNHNkbkdrbWNLeTZEMEZPQVczNTB0Z1hqTGxOOGROM3R3OGhwSXMwTFRMMGxTWVZnM2xPbFNIeklBNm1CTFJxaHNacHhsQWVZbTM1amhRYS1pX1pnN0hRZDQwd3JFTk5sQ3cwUW8?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbklMTXl4dkR2bTNUVFZNTGFWN05WbjAtN29xc043eHVrV1YxckhVc0tQN2k1Wlp5XzJlYlFGZDhHNWZQZGRyTFJ3YzVKX0lydi1PM3Y4VUpZdGVIVkZ1R0Q5SUhRYzNMOFZmY1JKaWUzWTg2WE1UQUlzeE5EZ3kxTzlla3hEZlpILWFQeGtjZDNUczl6aEFIX2h2WGE0T25tZVJpeGRiOFRvWVEtUGs2aUlJRGVtems?oc=5"
    }
   ],
   "impacts": [
@@ -65099,6 +65145,44 @@
      "ru": "UUP - ETF доллара США"
     },
     "price_at_alert": 29.15
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794372080,
+    "reason": "חשש מריביות גבוהות פוגע במניות טכנולוגיה",
+    "reason_i18n": {
+     "he": "חשש מריביות גבוהות פוגע במניות טכנולוגיה",
+     "en": "Rate hike fears weigh heavily on high-valuation tech",
+     "ar": "مخاوف رفع الفائدة تضغط بشدة على التكنولوجيا ذات التقييمات العالية",
+     "ru": "Опасения роста ставки давят на технологические компании"
+    },
+    "name_i18n": {
+     "he": "QQQ - מדד נאסד\"ק 100",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق ناسداك 100",
+     "ru": "QQQ - фонд Nasdaq 100"
+    },
+    "price_at_alert": 674.76
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1794372080,
+    "reason": "ציפיות לריבית גבוהה מחזקות את הדולר ומכבידות על הזהב",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה מחזקות את הדולר ומכבידות על הזהב",
+     "en": "Higher rate expectations boost the dollar and weigh on gold",
+     "ar": "توقعات رفع الفائدة تدعم الدولار وتضغط على الذهب",
+     "ru": "Ожидания роста ставок укрепляют доллар и давят на золото"
+    },
+    "name_i18n": {
+     "he": "GLD - קרן סל זהב",
+     "en": "GLD - SPDR Gold Shares",
+     "ar": "GLD - صندوق تداول الذهب",
+     "ru": "GLD - фонд золота"
+    },
+    "price_at_alert": 369.36
    }
   ],
   "id": "5c58128ed64b",
@@ -65126,9 +65210,21 @@
      "ar": "بيانات التضخم الأمريكي الساخنة ترفع احتمالات رفع الفائدة في ديسمبر، مما دفع عوائد السندات للارتفاع.",
      "ru": "Данные по инфляции в США повысили шансы повышения ставки ФРС в декабре, укрепив доллар и подняв доходность облигаций."
     }
+   },
+   {
+    "ts": 1794372080,
+    "time": "2026-11-11T04:41Z",
+    "severity": 6,
+    "summary": "נתוני אינפלציה חמים בארה\"ב גרמו לירידות בשווקים, לחצו על מניות הטכנולוגיה, הפילו את מחירי הזהב והעלו חששות מפני העלאות ריבית אפשריות מצד הפדרל רז.",
+    "i18n": {
+     "he": "נתוני אינפלציה חמים בארה\"ב גרמו לירידות בשווקים, לחצו על מניות הטכנולוגיה, הפילו את מחירי הזהב והעלו חששות מפני העלאות ריבית אפשריות מצד הפדרל רז.",
+     "en": "Hot US inflation readings pressured global stock markets, weighed on tech stocks, dragged down gold prices, and reignited fears of potential Federal Reserve rate hikes.",
+     "ar": "ضغطت قراءات التضخم الساخنة في الولايات المتحدة على أسواق الأسهم العالمية، وأثرت على أسهم التكنولوجيا، وخفضت أسعار الذهب، وأججت مخاوف رفع أسعار الفائدة.",
+     "ru": "Горячие показатели инфляции в США оказали давление на мировые фондовые рынки, акции технологических компаний, снизили цены на золото и возродили опасения повышения ставки ФРС."
+    }
    }
   ],
-  "last_update": 1794368215
+  "last_update": 1794372080
  },
  {
   "ts": 1794346775,
@@ -67008,5 +67104,398 @@
    }
   ],
   "id": "32d340a5e989"
+ },
+ {
+  "ts": 1794372080,
+  "time": "2026-11-11T04:41Z",
+  "title": "שתי מכליות נפט עלו באש במצר הורמוז",
+  "summary": "דיווחים מאיראן מציינים כי שתי מכליות נפט עלו באש במצר הורמוז, מה שדוחף כלפי מעלה את מחירי הנפט וקיזז את תקוות הפסקת האש.",
+  "kid": "אוניות נפט נפגעו באזור מעבר מרכזי במפרץ הפרסי. זה גורם למחירי הדלק והנפט בעולם לעלות.",
+  "i18n": {
+   "title": {
+    "he": "שתי מכליות נפט עלו באש במצר הורמוז",
+    "en": "Two Oil Tankers Catch Fire in the Strait of Hormuz",
+    "ar": "اشتعال النيران في ناقلتي نفت في مضيق هرمز",
+    "ru": "Два нефтяных танкера загорелись в Ормузском проливе"
+   },
+   "summary": {
+    "he": "דיווחים מאיראן מציינים כי שתי מכליות נפט עלו באש במצר הורמוז, מה שדוחף כלפי מעלה את מחירי הנפט וקיזז את תקוות הפסקת האש.",
+    "en": "Reports indicate that two oil tankers caught fire in the Strait of Hormuz, pushing crude oil prices higher as shipping security concerns offset truce hopes.",
+    "ar": "تشير التقارير إلى اشتعال النيران في ناقلتي نفت في مضيق هرمز، مما دفعت أسعار النفط للصعود مع تزايد مخاوف أمن الشحن.",
+    "ru": "Сообщается, что два нефтяных танкера загорелись в Ормузском проливе, что привело к росту цен на нефть на фоне опасений за безопасность судоходства."
+   },
+   "kid": {
+    "he": "אוניות נפט נפגעו באזור מעבר מרכזי במפרץ הפרסי. זה גורם למחירי הדלק והנפט בעולם לעלות.",
+    "en": "Oil ships were hit in a major passage area in the Persian Gulf. This causes oil and gasoline prices around the world to go up.",
+    "ar": "تعرضت سفن نفط لأضرار في منطقة مرور رئيسية بالخليج العربي. هذا يتسبب في ارتفاع أسعار النفط والبنزين حول العالم.",
+    "ru": "Нефтяные суда пострадали в ключевом проливе Персидского залива. Это приводит к росту цен на нефть и бензин по всему миру."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9FWkloME1fOTltOEdJWmFYQW9xbTJ0Q0poZnFZQXE5bnZOZzRycGtrN3FOV1VpUEE5RjN6TmZnM29Dd1BmdU5r?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYTlwY1A0cEFhMUNGbUdIMkZ4cjZLMXM5R1VPc0FxYW9ZUE1jU2xHbkFFa0tzQUtKR0czTjFFZkIyUjdua242cE9QeUVjaVoxUFR1SEJ4WFhxc25iRmxMQklXeUtVelQ3TUFPWXk4OEY2bDE2ZWdtejZkakZyZ011SjQzeExFbzcxMFFnTndsdlRuQkI5WFliaDB4VnhYQVlESWRHS1RRNnB5ajA0anRPeFdSRVM1c1UwTGgyY2FDcEtFVGNFZ3R0UlB0RVlmc3F1OTBFbWx0U3Y?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "שיבושים בנתיבי הנפט במפרץ הורמוז מקפיצים את מחירי הנפט",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי הנפט במפרץ הורמוז מקפיצים את מחירי הנפט",
+     "en": "Shipping attacks in the Hormuz strait threaten global crude supply",
+     "ar": "هجمات الشحن في مضيق هرمز تهدد إمدادات الخام العالمية",
+     "ru": "Атаки на судоходство в Ормузском проливе угрожают мировым поставкам нефти"
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל על נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - фонд нефти"
+    },
+    "price_at_alert": 141.45
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "מחירי נפט גבוהים מטיבים עם שולי הרווח של חברות הנפט",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים מטיבים עם שולי הרווח של חברות הנפט",
+     "en": "Higher crude prices improve profit margins for oil producers",
+     "ar": "أسعار الخام المرتفعة تحسن هوامش ربح منتجي النفط",
+     "ru": "Более высокие цены на нефть улучшают маржу производителей"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה ענקית",
+     "en": "ExxonMobil - Major Energy Firm",
+     "ar": "ExxonMobil - شركة طاقة كبرى",
+     "ru": "ExxonMobil - крупная энергетическая компания"
+    },
+    "price_at_alert": 164.47
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "עליית מחירי הנפט תומכת במניות האנרגיה הגדולות",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט תומכת במניות האנרגיה הגדולות",
+     "en": "Surging oil prices provide strong support for major energy stocks",
+     "ar": "ارتفاع أسعار النفط يدعم بقوة أسهم الطاقة الكبرى",
+     "ru": "Взлет цен на нефть оказывает сильную поддержку акциям энергетики"
+    },
+    "name_i18n": {
+     "he": "שברון - חברת אנרגיה ענקית",
+     "en": "Chevron - Major Energy Firm",
+     "ar": "Chevron - شركة طاقة كبرى",
+     "ru": "Chevron - крупная энергетическая компания"
+    },
+    "price_at_alert": 211.22
+   }
+  ],
+  "id": "66e2e4d2d002"
+ },
+ {
+  "ts": 1794372080,
+  "time": "2026-11-11T04:41Z",
+  "title": "ארה\"ב מעכבת סנקציות על חברה הקשורה לנבידיה",
+  "summary": "ארצות הברית החליטה לעכב את הטלת הסנקציות על חברה המקושרת לחשוד בריגול הקשור לענקית השבבים נבידיה.",
+  "kid": "ארה\"ב החליטה לדחות בינתיים עונשים או מגבלות על חברה שקשורה לשבבים של נבידיה. זה מוריד מעט את לחץ הרגולציה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מעכבת סנקציות על חברה הקשורה לנבידיה",
+    "en": "U.S. Delays Sanctions on NVIDIA-Linked Suspect Company",
+    "ar": "الولايات المتحدة تؤجل العقوبات على الشركة المشتبه بها المرتبطة بنيديا",
+    "ru": "США откладывают санкции против компании, связанной с Nvidia"
+   },
+   "summary": {
+    "he": "ארצות הברית החליטה לעכב את הטלת הסנקציות על חברה המקושרת לחשוד בריגול הקשור לענקית השבבים נבידיה.",
+    "en": "The United States has decided to delay imposing sanctions on a company linked to a spy suspect associated with chip giant NVIDIA.",
+    "ar": "قررت الولايات المتحدة تأجيل فرض عقوبات على شركة مرتبطة بمشتبه به تجسس مرتبط بعلاقة مع عملاق الرقائق نيديا.",
+    "ru": "США решили отложить введение санкций против компании, связанной с подозреваемым в шпионаже в отношении чипового гиганта Nvidia."
+   },
+   "kid": {
+    "he": "ארה\"ב החליטה לדחות בינתיים עונשים או מגבלות על חברה שקשורה לשבבים של נבידיה. זה מוריד מעט את לחץ הרגולציה.",
+    "en": "The US decided to delay penalties on a company tied to Nvidia chips. This slightly eases regulatory pressure on the sector.",
+    "ar": "قررت الولايات المتحدة تأجيل العقوبات على شركة مرتبطة بشركة نيديا. هذا يخفف قليلاً من الضغط التنظيمي.",
+    "ru": "США решили отложить штрафы в отношении компании, связанной с Nvidia. Это немного снижает регуляторное давление."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMG5LOFZIVXRKaVJJTGZjdWpDQ1IzajZfaWJkVFQ3SlVjUkQ4WXYzRld3Z2JlMmhKLTVZaXR0X3BvNXVmN091WWlQSFFPT3lqTV9Td3pXVGp2TWJ4Qk5Ra09OVGVGSzVQRkFHU3VoUWFjdDBEVGtDYzdXYkdOQ2pmZkZaVDZWY2hi?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "דחיית סנקציות מונעת הסתבכות רגולטורית פוטנציאלית בשרשרת האספקה",
+    "reason_i18n": {
+     "he": "דחיית סנקציות מונעת הסתבכות רגולטורית פוטנציאלית בשרשרת האספקה",
+     "en": "Delayed sanctions avert potential supply chain regulatory headwinds",
+     "ar": "تأجيل العقوبات يجنب الشركة رياح تنظيمية معاكسة محتملة في سلسلة التوريد",
+     "ru": "Отсрочка санкций предотвращает регуляторные риски для цепочки поставок"
+    },
+    "name_i18n": {
+     "he": "נבידיה - יצרנית שבבי בינה מלאכותית",
+     "en": "NVIDIA - AI Chip Maker",
+     "ar": "NVIDIA - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "NVIDIA - производитель чипов ИИ"
+    },
+    "price_at_alert": 168.89
+   },
+   {
+    "ticker": "SMH",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "הקלת לחצים גיאופוליטיים על שחקניות טכנולוגיה",
+    "reason_i18n": {
+     "he": "הקלת לחצים גיאופוליטיים על שחקניות טכנולוגיה",
+     "en": "Easing geopolitical friction helps overall semiconductor sentiment",
+     "ar": "تخفيف الاحتكاكات الجيوسياسية يساعد معنويات قطاع أشباه الموصلات بشكل عام",
+     "ru": "Ослабление геополитической напряженности поддерживает сектор полупроводников"
+    },
+    "name_i18n": {
+     "he": "SMH - קרן סל סמיקונדקטור",
+     "en": "SMH - VanEck Semiconductor ETF",
+     "ar": "SMH - صندوق قطاع أشباه الموصلات",
+     "ru": "SMH - ETF полупроводников"
+    },
+    "price_at_alert": 483.63
+   }
+  ],
+  "id": "46d4aaa36edb"
+ },
+ {
+  "ts": 1794372080,
+  "time": "2026-11-11T04:41Z",
+  "title": "רובדיו: סנקציות אמריקאיות גובות מחיר כבד מאיראן, אין צורך בפעולה צבאית",
+  "summary": "הסנאטור האמריקאי מרקו רוביו הצהיר כי הסנקציות האמריקאיות גובות מחיר כלכלי עצום מאיראן, ולכן אין צורך בפעולה צבאית נרחבת כרגע.",
+  "kid": "מחוקק בכיר בארה\"ב אומר שהסנקציות הכלכליות על איראן עובדות חזק ואין צורך במלחמה ישירה. זה מרגיע מעט את חששות השוק מסכסוך ענק.",
+  "i18n": {
+   "title": {
+    "he": "רובדיו: סנקציות אמריקאיות גובות מחיר כבד מאיראן, אין צורך בפעולה צבאית",
+    "en": "Rubio: US Sanctions Inflicting Heavy Economic Pain on Iran, No Need for Military Action",
+    "ar": "روبيو: العقوبات الأمريكية تلحق ألما اقتصاديا كبيرا بإيران ولا حاجة لتحرك عسكري",
+    "ru": "Рубио: санкции США наносят Ирану тяжелый экономический удар, военные действия не нужны"
+   },
+   "summary": {
+    "he": "הסנאטור האמריקאי מרקו רוביו הצהיר כי הסנקציות האמריקאיות גובות מחיר כלכלי עצום מאיראן, ולכן אין צורך בפעולה צבאית נרחבת כרגע.",
+    "en": "US Senator Marco Rubio stated that ongoing American sanctions are inflicting extraordinary economic pain on Iran, rendering major military action unnecessary for now.",
+    "ar": "صرح الساحر الأمريكي ماركو روبيو أن العقوبات الأمريكية المستمرة تلحق ألما اقتصاديا استثنائيا بإيران، مما يجعل أي عمل عسكري واسع النطاق غير ضروري الآن.",
+    "ru": "Сенатор США Марко Рубио заявил, что продолжающиеся американские санкции наносят Ирану огромный экономический урон, поэтому масштабные военные действия сейчас не нужны."
+   },
+   "kid": {
+    "he": "מחוקק בכיר בארה\"ב אומר שהסנקציות הכלכליות על איראן עובדות חזק ואין צורך במלחמה ישירה. זה מרגיע מעט את חששות השוק מסכסוך ענק.",
+    "en": "A top US lawmaker says economic sanctions on Iran are working well, so a big war isn't needed. This slightly calms market fears of a massive conflict.",
+    "ar": "يقول مشرع أمريكي بارز إن العقوبات الاقتصادية على إيران تعمل بشكل جيد ولا داعي لحرب كبرى. هذا يهدئ قليلاً مخاوف السوق من صراع ضخم.",
+    "ru": "Высокопоставленный американский законодатель заявил, что санкции против Ирана эффективны и большой войны не требуется. Это немного успокаивает опасения рынка."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb2tqMU5rV2NHVl9KN2JhMDdVUGVuUGN4Uy1tNGpTRG9ISXZvMHREQ1llak8zNG9tQmxJUHFScjN6bGVOM2pPem9fUjBKWkVKWjdnWG1sMGZiWmZrV2o4cEdTTVo4RUhscHVfd1VHc0ZuMGxNWDVaakVCOTVZUU5neDVCdVgtWE14OGtaQUdjak96WkgxTjU3QTlzRlIwbTZlYTI3ZHFPWE1BNll4X01mVmVwQlo0RmV2NFc1UzRNVXRjRk1HSEt5YkpkWjhyTUVLMk1RUUxn0gHbAUFVX3lxTE1GUVJBRC1xQWNXdzdrLUd4ak9lTkoxbTZsZHNQMklETzRXZWs5R0lXQnpWUTFTZ1B6MUhPMHlOMDAxaS1vblZPM1lVWU4tSl95VFJvUWplNHdwNlI4VGg2UC1oX25IWHRLV3NJVGlBX0haVmxOMm5YUnluZjdnTFU1bktSM3BQNnBvUTRYWjlTUmJJTzdXUG1uX0FGdlRhRGlLN2ZvaGR5UUdxdG01NW0wb1BNMEhPQ09fSk9GRkY4VVJMakZ0c283cjFRdFlPMkN3aFBXaHZUc2NBNA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1POGo0clVLU0NxcnIzaUtwVDZRV2I1YWZEMG94aVNkWFdyU1FPa0JPRGxoLTFDVWYzUHdIREREOFJzNXNjeEJmbXoyTXJBeEE5LXBDZnQ3LXpJeDY3bGFVN1FrcmpDTzFxVFpZRm5PSnVZYWFxX1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "הימנעות מהסלמה צבאית רחבה מפחיתה אי-ודאות גיאופוליטית בשווקים",
+    "reason_i18n": {
+     "he": "הימנעות מהסלמה צבאית רחבה מפחיתה אי-ודאות גיאופוליטית בשווקים",
+     "en": "Avoiding wide military escalation reduces geopolitical market uncertainty",
+     "ar": "تجنب التصعيد العسكري الواسع يقلل من عدم اليقين الجيوسياسي في الأسواق",
+     "ru": "Избежание широкой военной эскалации снижает геополитическую неопределенность"
+    },
+    "name_i18n": {
+     "he": "SPY - מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - фонд индекса S&P 500"
+    },
+    "price_at_alert": 749.92
+   },
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794372080,
+    "reason": "הערכה כי לא צפויה מלחמה כוללת מקזזת חלק מפרמיית הסיכון בנפט",
+    "reason_i18n": {
+     "he": "הערכה כי לא צפויה מלחמה כוללת מקזזת חלק מפרמיית הסיכון בנפט",
+     "en": "Expectation that total war is averted trims some oil risk premium",
+     "ar": "التوقعات بتجنب الحرب الشاملة تقلص بعض علاوة مخاطر النفط",
+     "ru": "Ожидания предотвращения тотальной войны снижают премию за риск по нефти"
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל על נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - фонд нефти"
+    },
+    "price_at_alert": 141.45
+   }
+  ],
+  "id": "cd233e799539"
+ },
+ {
+  "ts": 1794372080,
+  "time": "2026-11-11T04:41Z",
+  "title": "AMD החלה לשלוח את מעבדי EPYC Venice; TSMC משיקה את הלקוח הראשון לטכנולוגיית 2 ננומטר",
+  "summary": "חברת AMD החלה במשלוחי הדור השישי של מעבדי EPYC, במקביל לכך ש-TSMC דיווחה על הלקוח הראשון לטכנולוגיית הייצור המתקדמת של 2 ננומטר.",
+  "kid": "חברות השבבים AMD ו-TSMC מקדמות טכנולוגיות חדשות ומהירות יותר למחשבים ומרכזי נתונים. זה מחזק את תחום השבבים.",
+  "i18n": {
+   "title": {
+    "he": "AMD החלה לשלוח את מעבדי EPYC Venice; TSMC משיקה את הלקוח הראשון לטכנולוגיית 2 ננומטר",
+    "en": "AMD Ships EPYC Venice Chips as TSMC Secures First 2nm Customer",
+    "ar": "AMD تشحن معالجات EPYC Venice وتציس إيه إم سي تكشف عن أول عميل لتقنية 2 نانومتر",
+    "ru": "AMD начала поставки процессоров EPYC Venice, а TSMC получила первого клиента на 2 нм"
+   },
+   "summary": {
+    "he": "חברת AMD החלה במשלוחי הדור השישי של מעבדי EPYC, במקביל לכך ש-TSMC דיווחה על הלקוח הראשון לטכנולוגיית הייצור המתקדמת של 2 ננומטר.",
+    "en": "AMD has begun shipping its sixth-generation EPYC Venice processors, while TSMC emerges with its very first customer for cutting-edge 2nm manufacturing technology.",
+    "ar": "بدأت شركة AMD في شحن معالجات EPYC Venice من الجيل السادس، بينما ظهر أول عميل لشركة TSMC لتقنية تصنيع 2 نانومتر المتطورة.",
+    "ru": "Компания AMD начала поставки процессоров EPYC Venice шестого поколения, в то время как TSMC объявила о первом клиенте на техпроцесс 2 нм."
+   },
+   "kid": {
+    "he": "חברות השבבים AMD ו-TSMC מקדמות טכנולוגיות חדשות ומהירות יותר למחשבים ומרכזי נתונים. זה מחזק את תחום השבבים.",
+    "en": "Chipmakers AMD and TSMC are advancing faster technologies for computers and data centers. This supports the semiconductor sector.",
+    "ar": "تطور شركات الرقائق AMD وTSMC تقنيات أسرع وأحدث لأجهزة الكمبيوتر ومراكز البيانات. هذا يدعم قطاع أشباه الموصلات.",
+    "ru": "Производители чипов AMD и TSMC развивают более быстрые технологии для компьютеров и дата-центров, поддерживая отрасль полупроводников."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aRVhwS09VT0dlMXdZeExocFdlbXVmZWRES2dpelRJLTlXbWc3M2ZfcE1UTHNpVGpYSmw5ZWt5RV90U1hlN190NTZPTmE3Zkk2Q2xIZ091cUdjN0lJZkV2NUpFdE0yM3lKOGZyU1J4RmdmRS1WZUE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TSM",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "התקדמות לטכנולוגיית 2 ננומטר מבססת את המובילות הטכנולוגית והחוזים העתידיים",
+    "reason_i18n": {
+     "he": "התקדמות לטכנולוגיית 2 ננומטר מבססת את המובילות הטכנולוגית והחוזים העתידיים",
+     "en": "Progress into 2nm technology solidifies foundry leadership and future contracts",
+     "ar": "التقدم نحو تقنية 2 نانومتر يعزز ريادة المسابك والعقود المستقبلية",
+     "ru": "Прогресс в технологии 2 нм укрепляет лидерство и будущие контракты"
+    },
+    "name_i18n": {
+     "he": "TSMC - יצרנית השבבים המובילה בעולם",
+     "en": "TSMC - Leading Global Chip Foundry",
+     "ar": "TSMC - الشركة الرائدة عالمياً في تصنيع الرقائق",
+     "ru": "TSMC - ведущий мировой производитель чипов"
+    },
+    "price_at_alert": 396.48
+   },
+   {
+    "ticker": "SMH",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "חדשנות בייצור שבבים תומכת בצמיחת כל סક્ટર הטכנולוגיה",
+    "reason_i18n": {
+     "he": "חדשנות בייצור שבבים תומכת בצמיחת כל סક્ટર הטכנולוגיה",
+     "en": "Hardware innovation and advanced nodes drive broader sector optimism",
+     "ar": "ابتكار الأجهزة والعقد المتقدمة يدفعان التفاؤل الأوسع في القطاع",
+     "ru": "Аппаратные инновации стимулируют оптимизм во всем секторе"
+    },
+    "name_i18n": {
+     "he": "SMH - קרן סל סמיקונדקטור",
+     "en": "SMH - VanEck Semiconductor ETF",
+     "ar": "SMH - صندوق قطاع أشباه الموصلات",
+     "ru": "SMH - ETF полупроводников"
+    },
+    "price_at_alert": 483.63
+   }
+  ],
+  "id": "22877d1a55de"
+ },
+ {
+  "ts": 1794372080,
+  "time": "2026-11-11T04:41Z",
+  "title": "מתקפת סייבר על אפליקציית ארוחות בבתי ספר בסינגפור חשפה נתונים רגישים",
+  "summary": "מתקפת סייבר על אפליקציית הזמנת ארוחות לבתי ספר בסינגפור חשפה את נתוניהם האישיים של תלמידים במספר מוסדות חינוך.",
+  "kid": "האקרים פרצו למערכת של אפליקציית אוכל בבתי ספר בסינגפור וגנבו מידע אישי. זה מזכיר כמה חשוב להשקיע באבטחת סייבר.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר על אפליקציית ארוחות בבתי ספר בסינגפור חשפה נתונים רגישים",
+    "en": "Cyberattack on Singapore School Meal App Exposes Sensitive Data",
+    "ar": "هجوم سيبراني على تطبيق وجبات مدرسية في سنغافورة يكشف عن بيانات حساسة",
+    "ru": "Кибератака на школьное приложение для питания в Сингапуре раскрыла конфиденциальные данные"
+   },
+   "summary": {
+    "he": "מתקפת סייבר על אפליקציית הזמנת ארוחות לבתי ספר בסינגפור חשפה את נתוניהם האישיים של תלמידים במספר מוסדות חינוך.",
+    "en": "A cyberattack targeting a school meal app in Singapore has exposed the personal information of children across multiple schools.",
+    "ar": "أدى هجوم سيبراني استهدف تطبيق وجبات مدرسية في سنغافورة إلى كشف المعلومات الشخصية للأطفال عبر عدة مدارس.",
+    "ru": "Кибератака на приложение для школьного питания в Сингапуре раскрыла личную информацию детей из нескольких школ."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכת של אפליקציית אוכל בבתי ספר בסינגפור וגנבו מידע אישי. זה מזכיר כמה חשוב להשקיע באבטחת סייבר.",
+    "en": "Hackers breached a school food app in Singapore and stole personal data. This highlights the ongoing need for strong cybersecurity.",
+    "ar": "اخترق قراصنة تطبيق طعام مدرسي في سنغافورة وسرقوا بيانات شخصية. هذا يبرز الحاجة المستمرة لأمن سيبراني قوي.",
+    "ru": "Хакеры взломали школьное приложение в Сингапуре и похитили личные данные. Это подчеркивает важность инвестиций в кибербезопасность."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0hYNkJ3dlI4c1FvWURTWEViTGI4eXhrNmpMV2puSTZscFVFZTl4M1VRQlNfNlhkMDBFR2F1QVRubUhneGRRQ2RKZEMwdl9ud1lLZDI0SmN5SXBRTy1KRXg2aGxLZ3NTU2pwQkdlVzF0RUpCNkd0MGJTRTJOeEF2T0JfQ0YxaEtGb2pJQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794372080,
+    "reason": "אירועי פריצה חוזרים מדגישים את הביקוש המוסדי לפתרונות אבטחה מתקדמים",
+    "reason_i18n": {
+     "he": "אירועי פריצה חוזרים מדגישים את הביקוש המוסדי לפתרונות אבטחה מתקדמים",
+     "en": "Ongoing cyber incidents reinforce strong corporate demand for security solutions",
+     "ar": "حوادث الأمن السيبراني المستمرة تعزز الطلب المؤسسي القوي على حلول الحماية",
+     "ru": "Продолжающиеся киберинциденты усиливают спрос на решения безопасности"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - חברת אבטחת סייבר",
+     "en": "CrowdStrike - Cybersecurity Firm",
+     "ar": "CrowdStrike - شركة الأمن السيبراني",
+     "ru": "CrowdStrike - компания кибербезопасности"
+    },
+    "price_at_alert": 225.76
+   }
+  ],
+  "id": "03ed9a88e8a2"
  }
 ]
