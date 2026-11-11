@@ -940,101 +940,6 @@
  {
   "ts": 1793762582,
   "time": "2026-11-04T03:23Z",
-  "title": "איומי פצצה חשודים מכוונים נגד שבע טיסות ברחבי אירופה",
-  "summary": "שבע טיסות שונות ברחבי אירופה הפכו ליעד לאיומי פצצה חשודים, מה שמעורר חששות בטחוניים בסקטור התעופה האירופי.",
-  "kid": "היו איומי פצצה על מטוסים באירופה. זה עשוי להדאיג נוסעים ולפגוע במניות של חברות תעופה.",
-  "i18n": {
-   "title": {
-    "he": "איומי פצצה חשודים מכוונים נגד שבע טיסות ברחבי אירופה",
-    "en": "Seven flights across Europe targeted by suspected bomb threats",
-    "ar": "استهداف سبع رحلات جوية عبر أوروبا بتهديدات بوجود قنابل مشتبه بها",
-    "ru": "Семь рейсов по всей Европе стали мишенью подозреваемых угроз взрыва"
-   },
-   "summary": {
-    "he": "שבע טיסות שונות ברחבי אירופה הפכו ליעד לאיומי פצצה חשודים, מה שמעורר חששות בטחוניים בסקטור התעופה האירופי.",
-    "en": "Seven different flights across Europe were targeted by suspected bomb threats, raising security concerns across the European aviation sector.",
-    "ar": "استُهدفت سبع رحلات جوية مختلفة في جميع أنحاء أوروبا بتهديدات بوجود قنابل مشتبه بها، مما أثار مخاوف أمنية في قطاع الطيران الأوروبي.",
-    "ru": "Семь различных рейсов по всей Европе подверглись предполагаемым угрозам взрыва, что вызывает опасения в сфере безопасности европейской авиации."
-   },
-   "kid": {
-    "he": "היו איומי פצצה על מטוסים באירופה. זה עשוי להדאיג נוסעים ולפגוע במניות של חברות תעופה.",
-    "en": "There were bomb threats against several airplanes in Europe. This could worry travelers and make airline stocks drop.",
-    "ar": "كانت هناك تهديدات بوجود قنابل ضد عدة طائرات في أوروبا. هذا قد يقلق المسافرين ويجعل أسهم شركات الطيران تنخفض.",
-    "ru": "Поступили угрозы взрыва в отношении нескольких самолетов в Европе. Это может обеспокоить пассажиров и снизить акции авиакомпаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "JETS",
-    "direction": "down",
-    "t0": 1793762582,
-    "reason": "איומים בטיחותיים על טיסות פוגעים בסנטימנט כלפי חברות התעופה.",
-    "reason_i18n": {
-     "he": "איומים בטיחותיים על טיסות פוגעים בסנטימנט כלפי חברות התעופה.",
-     "en": "Security threats to flights weigh negatively on airline sentiment.",
-     "ar": "التهديدات الأمنية للرحلات تؤثر سلباً على معنويات قطاع الطيران.",
-     "ru": "Угрозы безопасности полетов негативно влияют на настроения в отношении авиакомпаний."
-    },
-    "name_i18n": {
-     "he": "קרן סל לתעופה",
-     "en": "JETS – US Airlines ETF",
-     "ar": "صندوق قطاع الطيران",
-     "ru": "ETF авиакомпаний"
-    },
-    "price_at_alert": 27.61,
-    "entry_price": 28.61,
-    "entry_time": "2026-11-04T14:30+00:00",
-    "exit_price": 28.37,
-    "exit_date": "2026-11-05",
-    "change_pct": -0.84,
-    "bench": "SPY",
-    "bench_change_pct": -3.91,
-    "excess_pct": 3.07,
-    "edge_pct": -3.07,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1793762582,
-    "reason": "אירועים ביטחוניים באירופה מכבידים על שוקי המניות האזוריים.",
-    "reason_i18n": {
-     "he": "אירועים ביטחוניים באירופה מכבידים על שוקי המניות האזוריים.",
-     "en": "Security incidents in Europe weigh on regional stock markets.",
-     "ar": "الحوادث الأمنية في أوروبا تضغط على أسواق الأسهم الإقليمية.",
-     "ru": "Инциденты с безопасностью в Европе давят на региональные рынки акций."
-    },
-    "name_i18n": {
-     "he": "קרן סל למניות אירופה",
-     "en": "VGK – European Stock ETF",
-     "ar": "صندوق الأسهم الأوروبية",
-     "ru": "ETF европейских акций"
-    },
-    "price_at_alert": 87.54,
-    "entry_price": 89.789,
-    "entry_time": "2026-11-04T14:30+00:00",
-    "exit_price": 88.395,
-    "exit_date": "2026-11-05",
-    "change_pct": -1.55,
-    "bench": "SPY",
-    "bench_change_pct": -3.91,
-    "excess_pct": 2.36,
-    "edge_pct": -2.36,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "a4dd6a2dba2c",
-  "evaluated": true
- },
- {
-  "ts": 1793762582,
-  "time": "2026-11-04T03:23Z",
   "title": "הודו ערכה ניסוי מוצלח בטיל 'פרלאי' לטווח של 500 ק\"מ",
   "summary": "סוכנות המחקר הביטחוני בהודו (DRDO) ביצעה בהצלחה ניסוי בטיל הקרקע-קרקע 'פרלאי' מול חופי אوديشא, והשמידה שתי מטרות במרחק של כ-500 קילומטרים.",
   "kid": "הודו עשתה ניסוי מוצלח בטיל חדש למרחק רב. זה משמח את חברות הביטחון הגדולות שעובדות עם הודו או מוכרות ציוד צבאי.",
@@ -49527,10 +49432,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWU5xLUp0SzRNX0RQSVZWT2xQNnN0S0loQjQxQXJpNFUxQ2dpVmU1ZTdxWHI3dkpPZkZuNHNzUEphUDVBenhlX2hLRDAxNzdmUUJFaTV6aUpVUGhlMDVLRzh1VzVOd2xBNFVJb0FZckpyU2pCTFplNFcxMDdyWndLNk80NS1yRWJUWXdyMmlTWndGU0JzRk1TSnRFM3JaNHFoZjFobFF6Qkl3UQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRkdFd2tLR0xCdmprQnNuclo1OHZJN1BucUNwdEdRS3RzNEpWbWY2VHFFSjZwZkpQNllqRm5hbkQ1cVltZnc2RmQ3ZlNwT1hVZWV2N0VyeE5YdHk2LXh2dG5LZVM4VlpuX0JvVzEwbjNjMS1ZT0h5NGk2VWZtWlhjN3lxUll6T0NRMUxaV1NZaTRqUVBGUmdV?oc=5"
    },
    {
@@ -49548,6 +49449,10 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/10/positive-momentum-is-the-us-war-on-iran-about-to-end?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS0VtYldCWlJ0c0Jwdzk2NVl2cXdDS0lJOVFEdlNXdmdacFdNdjE0RDFfaWphNjg0RHF2Y3lNTmRCaWt3eWdZdkpQOE5jSzVwbThQdnJDVGdTbzhpM2lCYmdJaGJNajk5c3pacm5KeVpSM20tc1ZobzFDcGxHS2M0MHV5ZHRYNHpveExnOHVKZi1uTnFqMTJvTXRMMTkydEpnRDc1OVEtaw?oc=5"
    }
   ],
   "impacts": [
@@ -49622,9 +49527,21 @@
      "ar": "صرح وزير الخارجية الأمريكي ماركو روبيو بعدم وجود حاجة لعمليات قتالية واسعة ضد إيران، بالتزامن مع استطلاع يظهر تأييد 71% من الأمريكيين لإنهاء النزاع.",
      "ru": "Госсекретарь США Марко Рубио заявил об отсутствии нужды в масштабных боевых операциях против Ирана, а опрос Reuters/Ipsos показал, что 71% американцев выступают за прекращение конфликта."
     }
+   },
+   {
+    "ts": 1794368215,
+    "time": "2026-11-11T03:36Z",
+    "severity": 4,
+    "summary": "מרקו רוביו מזהיר כי הסנקציות והסגר הימי של ארה\"ב יגרמו לכך שהכנסות הנפט של איראן יתייבשו בקרוב.",
+    "i18n": {
+     "he": "מרקו רוביו מזהיר כי הסנקציות והסגר הימי של ארה\"ב יגרמו לכך שהכנסות הנפט של איראן יתייבשו בקרוב.",
+     "en": "Marco Rubio warns that US sanctions and maritime blockades are causing Iran's oil revenues to dry up.",
+     "ar": "يحذر ماركو روبيو من أن العقوبات الأمريكية والحصار البحري ستجفف عائدات النفط الإيراني قريباً.",
+     "ru": "Марко Рубио предупреждает, что санкции США и морская блокада приведут к истощению нефтяных доходов Ирана."
+    }
    }
   ],
-  "last_update": 1794341213
+  "last_update": 1794368215
  },
  {
   "ts": 1794325584,
@@ -51058,27 +50975,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbTI3QkZzaGVxYm9KdVJ4VzBGTzN4VnJGRzVmbjg3VGtsUzVuUGlxZk51bnR6VVZkYVcxc241RUlWQUVFdDNOWl9kRmJwVHVXYkFQZWpxTkRTTFQ2Y0ZUSUhPbFFvUHhpT3VHN0MzaU9iRWpxU093VmltN05Yb2dPR19IR1hoQlBkZlFUT196Ti1vTlFFNC03OUdab05uMkJvNTVEME1JaDc5V0VZc2VxWFlNcmNoZ1k?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVXBjaVktWmJ0YmxaeVY1Xy1RSndfNjNPeGhxdjRHbFN6NGxOd3Zod2U1Q0tkQWtLX0lmMDdvV2dwZzdHZjM3c1hEbDFKenYtQW92amI0eXFCWWhodkQ0RHY5OUZESkJFR29kc1E5ekU2RnR2S1kwYWs4eTFqdjdQek9XclVYOGxmU0VGSmx4X0h5V2l5NkY0Q3hOcEJlV2hvazBhcWY4SGNCSGpyTFVYWGpFdVB3TThabERjWXhmWkNOd2pfcVR6S1AwS19yX1piRWVxYWxWXzlpV055Q2ZXcTIxLUdoQ2lWNDJIUExVN1p5Z9IBygFBVV95cUxPLTlQUzJFVjBFQjlzeGVtUlIxZjJ2VUZNdXR5ZmF5Mm9SOVo4NjdFN0M2QjFCRDl0YldaWlZMODJiOWxqVUFaMGdSbi00bmpXWHFSZVJ1dlF3Wmc4ZmdfX01RZTBSYWhqRkI2NVNGdHkwLUV0ekhkR2hyWTJYa0p5aTZUaFl6YnhiVVF3R284NVh4WHctWnVZNDJiY3VaTGI5bTZlZzdJaVJDcTJEZWNXbXZqcnVBQTlVTTgxZjl0OFJycGtuakRjQllR?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2pqenNYSWUzSVBxc3U2RlhRT29TZGNJWFVMRVVQa0NkaDd6STY3VzhiZTB1b0RPcXB4c0ZEM1RwaGdkZUpkZHp2Q0ZCenBZZF90eTZFMnJvT2F4elJlZlMzOFFiaTVfUmxxNVcxNFZLOVpRY1ZHTjFITVpqVlJHdDJ6UXVUNXU4Z2NoOGZrVjB0QQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWng3WmlxVlJndU84NzZ3dFFtZEU4Tng2cTRJUXZwN01faDFmWEdpUkRCRGdSejlibmJrMmdSUENEZ2UyMEZrRFQ0QVotcnIzV0cwU1VtWXd4TzlBUE5IcWVmVjU5NE5jX3puaFBIS0R4dEQ5YldEN2JKaW1FOXJpbHFUaExZS2otaWxsdGEwdzhUNUVIWHRSVkNGbw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXp4S1gxeEZyTnl1a1hQc1hsUi1OUlA1ZlY3NGVheUcyUW9zaUQ1MWRuejRuSHl3dzhBbzJwMHhuemt1eFlTS29Xa2pEWFhjako5ZmsyNTczekRqSGlEZWpBajFGNjBpVldSQjZYTnNBeml6NlRWcDJSYzdIZ0QzZGJqZjBiaUE0dzJ1SkhrODNGWEZ5a295aTdtejUxZWNnRndodnhhdUpndE4wOVcwWWhRdTVPWHUz?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZUzNScUkwS2hRZi1wa1ExN0FnTFhJdjJENlVsdXVYT2cwc1VEY0VlM0xxN292RW8zczI3dUp2R296Zmt1cXZGMWVCVGJhSkdraFExQVJ3bXg1Rk0xOFNtZVdSeUFMaVNZLW5kcjA1MTl6TzRVR2V0UndRNE1Cdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSTVQODFhR1ZTTVZYbDlZT08yNXFrdjZieXpTZmd5eUd6dUxIZFNBTDV6UFRjc3dOMVBsUFR5aHBXaTAydWttOXQxUVNoVnY1ckUzX1U2eE95Zk5FYUswUF80NGhac2NBOHNkX1l3czhtMXhxWm5WZjdld1BHR1F4RHV5NA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6QjA2OXJVUlE1bzhodkRCODFQcDVFRDhhZW5weElXS0hpQ19obUpaQU5sa0FRZ2Z3MXFROFNheFZ4ejRLM2xOMzVEeUZiVW1GODRrSVRRQVJncG1rR25lRw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVYxRy1TeEsyWmxwSWtoVTZiS181b0R6OXZYNVBkQ0RGTHE2cjFlRmZaQkxfVVNFNzJMdm9nWVdNUUwtX1JjZmZUWUtSZ2lpYUt6MGFRWXBoOF9BOVZDUTlKUnk5QkR4Z0VZajY3eTRvS3Q5Z3pibWVVWFdEX1BFT3pyMF9SUWJnd0VCblFPbmQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQMVRtN0JaOEo3cUt3WlkxVDBGQWlQLVpOYWgzdEFyNlN0a0Qtcl82aDdjLUtEZ2RSaHZWV2FVYVJlY3hCbUpEdngyXzMxWXZfbGk5bm82UXhiNldOYWxrZkt6STFXRXB5M2tQeXN1MWRyWXhhWlFGV3J0VjI1ZEstSldCanRPb0FGLVRoODJDNDAxQTdkZ1U4a0toNjRhaE5xcUJVaFFnaVVoVU5pQy1TMU5QRzFWbEVra1p4MmVPZkJTZ2hUcndSOXc0ZnRUWl9qWHAyZXdpRTZWNmlqLThuY1B3Mi1VQURnZ1RGME5oZUEzbFlpVEtqOG9FWDVsdWRwNnJiYzNYakItdDhfYTBlMEs4bDlORGZzcFBHMFZ1dWxmaUN6Zjd0NHB4aFhqNnNqT1NzYXp3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOLUxOU09EOXdPdXB5LWtjelExMHVSZTQ1UlM5Nl9BaVRIZDQ1NHAxNGpyQ0VMR2dDRGRJYkJlckFUbjgxX3JIRllra1pGQmdjUXJ2WFBEWG9fak5ydlpmRDlDT005N1oyVm0yelVIWnR6X0gxWW5ZTnlIcmFRQlR2cWtXbFp2LXZ2dW1BekQydlotX2xJNnJMTDJQaUFtZ1p6dXBmbFQ5Q1pwRUJHbmlvV3hHUWRnbHJOZzk5ZTBtdThTVU52cHF3aENnS3dXVVlEeDJ0Nl83dWJZY2pkaGxscUFDbFRHa2YzQnBBYXJvVzdPM3ZkZENNX09wODVvVWZObEHSAYcCQVVfeXFMT2pLMDJpbmMxZWlpYl9iQkh5SW5WdE12WUtNZnpueEMwd0RqREpUM0o3TFF2VzlrNGRES1RlTllYcUJyOGZWZFRlTXNKd3NnNkRlYTBNdzBCZktaN0NwU2ZaVUJNaVI2RENPVUZKcTNHMTNPdlZnNC1nOS1HX3R2aTROTm13SXR4QmQxQm1ORndSNWozcU95VXAxZ0Rjdng4ZFhhNHNkbkdrbWNLeTZEMEZPQVczNTB0Z1hqTGxOOGROM3R3OGhwSXMwTFRMMGxTWVZnM2xPbFNIeklBNm1CTFJxaHNacHhsQWVZbTM1amhRYS1pX1pnN0hRZDQwd3JFTk5sQ3cwUW8?oc=5"
    }
   ],
   "impacts": [
@@ -51138,6 +51055,25 @@
      "ru": "IBIT - биткоин-фонд"
     },
     "price_at_alert": 41.68
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "הציפיות להעלאת ריבית מחזקות את הדולר מול מטבעות אחרים.",
+    "reason_i18n": {
+     "he": "הציפיות להעלאת ריבית מחזקות את הדולר מול מטבעות אחרים.",
+     "en": "Rate hike bets strengthen the US dollar relative to other currencies.",
+     "ar": "رهانات رفع الفائدة تقوي الدولار الأمريكي.",
+     "ru": "Ставки на повышение ключевой ставки укрепляют доллар."
+    },
+    "name_i18n": {
+     "he": "UUP - קרן סל דולר אמריקאי",
+     "en": "UUP - US Dollar Bullish ETF",
+     "ar": "UUP - صندوق الدولار الأمريكي",
+     "ru": "UUP - ETF доллара США"
+    },
+    "price_at_alert": 29.15
    }
   ],
   "id": "5c58128ed64b",
@@ -51153,9 +51089,21 @@
      "ar": "أدت تقارير التضخم الساخنة في الولايات المتحدة إلى تزايد المخاوف من أن يقوم الاحتياطي الفيدرالي برفع أسعار الفائدة، مما تسبب في عمليات بيع في السندات وانخفاض الأسهم.",
      "ru": "Горячие данные по инфляции в США усилили опасения, что Федеральная резервная система повысит процентные ставки, вызвав падение на рынках акций, облигаций и криптовалют."
     }
+   },
+   {
+    "ts": 1794368215,
+    "time": "2026-11-11T03:36Z",
+    "severity": 6,
+    "summary": "נתוני אינפלציה חמים בארה\"ב מעלים את הסיכויים להעלאת ריבית על ידי הפד בדצמבר, מה שגורם לעליית תשואות האג\"ח ולחיזוק הדולר.",
+    "i18n": {
+     "he": "נתוני אינפלציה חמים בארה\"ב מעלים את הסיכויים להעלאת ריבית על ידי הפד בדצמבר, מה שגורם לעליית תשואות האג\"ח ולחיזוק הדולר.",
+     "en": "Hotter-than-expected US inflation data boosts odds of a December Fed rate hike, pushing up Treasury yields and strengthening the dollar.",
+     "ar": "بيانات التضخم الأمريكي الساخنة ترفع احتمالات رفع الفائدة في ديسمبر، مما دفع عوائد السندات للارتفاع.",
+     "ru": "Данные по инфляции в США повысили шансы повышения ставки ФРС в декабре, укрепив доллар и подняв доходность облигаций."
+    }
    }
   ],
-  "last_update": 1794365243
+  "last_update": 1794368215
  },
  {
   "ts": 1794346775,
@@ -51699,6 +51647,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ1hYTHB1ODNFWDlqdDN6MW81aDdwTHh2amNrUW9mV1I0NlhsZzJmS3RCamZmUmx5d3dnbVhuRUJTN0xjVWdGZ2tfNUlFY2lsVTNydHBZbEhEZ3k4dHVpUjl1WkUxQnVhODhiN1Ytd3JVb1REUDNMVG1TZ2VLbDNMdS1MRDNwNXdDb3FUZmNWbmJyWi0zbVpVR3k1Zng3SzhxbWhjOC1STzdLXzNtRnRmT3UxUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTzE1YVdjTkdoZHprUl9zWkhsSTVrLU9jQnNnbENnTE96bWs2eFZkNjcyUk15MGMwSmhRUFFydHlxQkRGMm9qSHQtYklkMWV3ODdFVTg3b1c1WU9nc0J0UUxyaXpfNFZTRW9KY3FqTTJsVHU2V1lPT3oyQXZxVHRWQ25LeFVmSWFXOXJ3RUtUVVI4eWFlYlBrd0lyTi1wRC1lMms3bi14X2tnMXRtX0g1YlNJSVpZZjNrMjhB?oc=5"
    }
   ],
   "impacts": [
@@ -51720,9 +51672,43 @@
      "ru": "USO - фонд нефтяных фьючерсов"
     },
     "price_at_alert": 141.45
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "המתיחות סביב סנקציות על איראן עשויה להשפיע על שוק האנרגיה.",
+    "reason_i18n": {
+     "he": "המתיחות סביב סנקציות על איראן עשויה להשפיע על שוק האנרגיה.",
+     "en": "Stensions over sanctions on Iran can impact energy market dynamics.",
+     "ar": "التوترات بشأن العقوبات على إيران قد تؤثر على أسواق الطاقة.",
+     "ru": "Напряженность вокруг санкций против Ирана может повлиять на рынок энергии."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל אנרגיה",
+     "en": "XLE - Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 62.21
    }
   ],
-  "id": "b60a32c7dd4e"
+  "id": "b60a32c7dd4e",
+  "updates": [
+   {
+    "ts": 1794368215,
+    "time": "2026-11-11T03:36Z",
+    "severity": 3,
+    "summary": "עיראק אסרה על מטוס שהסיע את נבחרת הכדורגל של איראן לנחות בבצרה בשל סנקציות אמריקאיות.",
+    "i18n": {
+     "he": "עיראק אסרה על מטוס שהסיע את נבחרת הכדורגל של איראן לנחות בבצרה בשל סנקציות אמריקאיות.",
+     "en": "Iraq barred a plane carrying Iran's national football team from landing in Basra due to US sanctions.",
+     "ar": "منعت العراق طائرة تقل المنتخب الإيراني لكرة القدم من الهبوط في البصرة بسبب العقوبات الأمريكية.",
+     "ru": "Ирак запретил самолету со сборной Ирана по футболу приземлиться в Басре из-за санкций США."
+    }
+   }
+  ],
+  "last_update": 1794368215
  },
  {
   "ts": 1794354624,
@@ -52727,5 +52713,275 @@
    }
   ],
   "id": "a802b931b68a"
+ },
+ {
+  "ts": 1794368215,
+  "time": "2026-11-11T03:36Z",
+  "title": "עליבאבא מתכננת להנפיק את חטיבת השבבים T-Head",
+  "summary": "עליבאבא הודיעה כי הגישה מסמכים חסויים להנפקת חטיבת השבבים שלה T-Head, המתחרה של אנבידיה, בבורסת הונג קונג.",
+  "kid": "ענקית המסחר עליבאבא רוצה להפוך את חברת השבבים שלה לחברה עצמאית שנסחרת בבורסה בהונג קונג. זה עשוי לעניין משקיעי טכנולוגיה עולמיים.",
+  "i18n": {
+   "title": {
+    "he": "עליבאבא מתכננת להנפיק את חטיבת השבבים T-Head",
+    "en": "Alibaba plans to spin off and list chip rival T-Head",
+    "ar": "علي بابا تخطط لطرح وحدة رقاقات T-Head للاكتتاب",
+    "ru": "Alibaba планирует провести листинг своего чип-подразделения T-Head"
+   },
+   "summary": {
+    "he": "עליבאבא הודיעה כי הגישה מסמכים חסויים להנפקת חטיבת השבבים שלה T-Head, המתחרה של אנבידיה, בבורסת הונג קונג.",
+    "en": "Alibaba announced plans to spin off and list its Nvidia chip rival T-Head, having filed confidentially for a Hong Kong IPO.",
+    "ar": "أعلنت علي بابا عن خطط لطرح وحدة الرقاقات التابعة لها T-Head، منافسة إنفيديا، في بورصة هونغ كونغ.",
+    "ru": "Alibaba объявила о планах выделить и разместить на бирже свое чип-подразделение T-Head, конкурента Nvidia."
+   },
+   "kid": {
+    "he": "ענקית המסחר עליבאבא רוצה להפוך את חברת השבבים שלה לחברה עצמאית שנסחרת בבורסה בהונג קונג. זה עשוי לעניין משקיעי טכנולוגיה עולמיים.",
+    "en": "Alibaba is taking its computer chip business public in Hong Kong. This is important for tech investors looking at Asia.",
+    "ar": "تريد شركة علي بابا طرح وحدة صناعة الرقاقات للاكتتاب في هونغ كونغ.",
+    "ru": "Alibaba хочет вывести свое подразделение по производству чипов на биржу в Гонконге."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "הנפקת ענק טכנולוגית בסין יכולה לשפר את הסנטימנט כלפי מגזר הטכנולוגיה והמניות בסין.",
+    "reason_i18n": {
+     "he": "הנפקת ענק טכנולוגית בסין יכולה לשפר את הסנטימנט כלפי מגזר הטכנולוגיה והמניות בסין.",
+     "en": "A major tech IPO in China could boost sentiment toward Chinese equities.",
+     "ar": "طرح تقني كبير في الصين قد يعزز معنويات الأسهم الصينية.",
+     "ru": "Крупное технологическое IPO в Китае может улучшить настроения в отношении китайских акций."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות סין הגדולות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق أسهم الصين الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 34.41
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "הערכת שווי של מתחרים סיניים מדגישה את הביקוש העצום לשבבי בינה מלאכותית ברחבי העולם.",
+    "reason_i18n": {
+     "he": "הערכת שווי של מתחרים סיניים מדגישה את הביקוש העצום לשבבי בינה מלאכותית ברחבי העולם.",
+     "en": "Valuing chip rivals highlights the booming global demand for AI hardware.",
+     "ar": "تسليط الضوء على المنافسين يظهر الطلب العالمي الضخم على الذكاء الاصطناعي.",
+     "ru": "Оценка конкурентов подчеркивает огромный глобальный спрос на ИИ-чипы."
+    },
+    "name_i18n": {
+     "he": "NVDA - אנבידיה",
+     "en": "NVDA - Nvidia",
+     "ar": "NVDA - إنفيديا",
+     "ru": "NVDA - Nvidia"
+    },
+    "price_at_alert": 168.89
+   }
+  ],
+  "id": "856ad7e4115e"
+ },
+ {
+  "ts": 1794368215,
+  "time": "2026-11-11T03:36Z",
+  "title": "איראן פותחת מחנה אימונים צבאי לנשים לקראת מלחמה אפשרית",
+  "summary": "איראן פתחה את מחנה האימונים הצבאי הראשון המיועד כולו לנשים, על רקע חששות מתקיפות אמריקאיות מחודשות.",
+  "kid": "איראן מתכוננת לעימות ופותחת מחנה אימונים מיוחד לנשים. זה מראה על מתיחות גדולה במזרח התיכון שיכולה להשפיע על מחירי הנפט והביטחון.",
+  "i18n": {
+   "title": {
+    "he": "איראן פותחת מחנה אימונים צבאי לנשים לקראת מלחמה אפשרית",
+    "en": "Iran opens women's military training camp amid attack fears",
+    "ar": "إيران تفتتح معسكر تدريب عسكري للنساء وسط مخاوف من هجمات",
+    "ru": "Иран открывает женский военный лагерь на фоне страха атак"
+   },
+   "summary": {
+    "he": "איראן פתחה את מחנה האימונים הצבאי הראשון המיועד כולו לנשים, על רקע חששות מתקיפות אמריקאיות מחודשות.",
+    "en": "Iran has opened its first all-women military training camp amid fears of renewed US attacks.",
+    "ar": "افتتحت إيران أول معسكر تدريب عسكري مخصص للنساء وسط مخاوف من هجمات أمريكية متجددة.",
+    "ru": "Иран открыл свой первый женский военный тренировочный лагерь на фоне опасений новых атак США."
+   },
+   "kid": {
+    "he": "איראן מתכוננת לעימות ופותחת מחנה אימונים מיוחד לנשים. זה מראה על מתיחות גדולה במזרח התיכון שיכולה להשפיע על מחירי הנפט והביטחון.",
+    "en": "Iran is training women for military action due to fears of fighting with the US. This shows high tension in the Middle East.",
+    "ar": "إيران تدرب النساء عسكرياً بسبب مخاوف من نزاعات، مما يظهر توتراً كبيراً.",
+    "ru": "Иран обучает женщин военному делу из-за страха конфликта, что показывает рост напряженности."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "עליית מדרגה במתיחות במזרח התיכון תומכת במניות הביטחון.",
+    "reason_i18n": {
+     "he": "עליית מדרגה במתיחות במזרח התיכון תומכת במניות הביטחון.",
+     "en": "Escalating Middle East tensions boost demand and sentiment for defense stocks.",
+     "ar": "تصاعد التوترات في الشرق الأوسط يدعم أسهم قطاع الدفاع.",
+     "ru": "Эскалация напряженности на Ближнем Востоке поддерживает акции оборонных компаний."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
+     "en": "ITA - US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 72.35
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "חברות נשק נהנות מציפיות לביקוש מוגבר לציוד צבאי באזור.",
+    "reason_i18n": {
+     "he": "חברות נשק נהנות מציפיות לביקוש מוגבר לציוד צבאי באזור.",
+     "en": "Defense contractors benefit from heightened expectations of regional conflict.",
+     "ar": "شركات الدفاع تستفيد من توقعات ارتفاع الطلب على المعدات.",
+     "ru": "Оборонные предприятия выигрывают от ожиданий региональных конфликтов."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין",
+     "en": "LMT - Lockheed Martin",
+     "ar": "LMT - لوكهيد مارتن",
+     "ru": "LMT - Lockheed Martin"
+    },
+    "price_at_alert": 603.12
+   }
+  ],
+  "id": "13f9856972b4"
+ },
+ {
+  "ts": 1794368215,
+  "time": "2026-11-11T03:36Z",
+  "title": "אל סלבדור ירתה טילים על מחבוא כנופיה בהאיטי",
+  "summary": "הצבא של אל סלבדור שיגר רקטות לעבר מתחם בהאיטי המזוהה עם מנהיג כנופיית 400 מאוזו.",
+  "kid": "צבא של מדינה אחת ירה רקטות לעבר כנופיית פשע במדינה אחרת (האיטי) כדי לעזור להשתלט על האלימות שם.",
+  "i18n": {
+   "title": {
+    "he": "אל סלבדור ירתה טילים על מחבוא כנופיה בהאיטי",
+    "en": "El Salvador fires missiles at Haitian gang hideout",
+    "ar": "السلفادور تطلق صواريخ على مخبأ عصابة في هايتي",
+    "ru": "Сальвадор выпустил ракеты по убежищу банды на Гаити"
+   },
+   "summary": {
+    "he": "הצבא של אל סלבדור שיגר רקטות לעבר מתחם בהאיטי המזוהה עם מנהיג כנופיית 400 מאוזו.",
+    "en": "El Salvador's military fired rockets at a compound allegedly belonging to the leader of Haiti's 400 Mawozo gang.",
+    "ar": "أطلقت قوات السلفادور صواريخ على مجمع في هايتي ينتمي لزعيم عصابة.",
+    "ru": "Военные Сальвадора выпустили ракеты по лагерю банды на Гаити."
+   },
+   "kid": {
+    "he": "צבא של מדינה אחת ירה רקטות לעבר כנופיית פשע במדינה אחרת (האיטי) כדי לעזור להשתלט על האלימות שם.",
+    "en": "El Salvador's military took direct action against a violent gang in Haiti. This is an unusual cross-border security operation.",
+    "ar": "قامت السلفادور بعملية عسكرية ضد عصابة في هايتي.",
+    "ru": "Сальвадор провел военную операцию против банды на Гаити."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "אירוע גיאופוליטי מקומי עם השפעה מינורית על השווקים הכלליים.",
+    "reason_i18n": {
+     "he": "אירוע גיאופוליטי מקומי עם השפעה מינורית על השווקים הכלליים.",
+     "en": "A localized security intervention with minimal systemic market impact.",
+     "ar": "تدخل أمني محلي تأثيره محدود على الأسواق العامة.",
+     "ru": "Локальная операция с минимальным влиянием на общие рынки."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&פ 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - ETF индекса S&P 500"
+    },
+    "price_at_alert": 749.92
+   }
+  ],
+  "id": "a475750945e7"
+ },
+ {
+  "ts": 1794368215,
+  "time": "2026-11-11T03:36Z",
+  "title": "הודו מתכננת לרכוש מכליות נפט וגז עקב משבר המפרץ",
+  "summary": "חברת IOC ההודית מתכננת לרכוש מכליות נפט גולמי וגז נוזלי (LPG) בעקבות משבר המפרץ שחשף את הפגיעות בשרשראות האספקה.",
+  "kid": "הודו רוצה לקנות ספינות ענק שיובילו נפט וגז כדי לא להיות תלויה באחרים בזמן מלחמות או בעיות במפרץ. זה טוב לחברות שמייצרות ספינות מטען.",
+  "i18n": {
+   "title": {
+    "he": "הודו מתכננת לרכוש מכליות נפט וגז עקב משבר המפרץ",
+    "en": "India plans to acquire oil and LPG carriers amid West Asia crisis",
+    "ar": "الهند تخطط لشراء ناقلات نفط وغاز وسط أزمة غرب آسيا",
+    "ru": "Индия планирует купить танкеры для нефти и газа на фоне кризиса"
+   },
+   "summary": {
+    "he": "חברת IOC ההודית מתכננת לרכוש מכליות נפט גולמי וגז נוזלי (LPG) בעקבות משבר המפרץ שחשף את הפגיעות בשרשראות האספקה.",
+    "en": "IOC plans to acquire crude oil and LPG carriers as the West Asia crisis highlights India's shipping vulnerabilities.",
+    "ar": "تخطط شركة IOC الهندية للاستحواذ على ناقلات نفط وغاز وسط أزمة غرب آسيا التي كشفت نقاط ضعف الشحن.",
+    "ru": "Индийская IOC планирует приобрести танкеры для нефти и газа из-за кризиса в Западной Азии, выявившего уязвимость судоходства."
+   },
+   "kid": {
+    "he": "הודו רוצה לקנות ספינות ענק שיובילו נפט וגז כדי לא להיות תלויה באחרים בזמן מלחמות או בעיות במפרץ. זה טוב לחברות שמייצרות ספינות מטען.",
+    "en": "India wants to buy its own ships for oil and gas so it doesn't get stuck during Middle East crises. This helps shipbuilders.",
+    "ar": "الهند تريد شراء سفن نفط وغاز خاصة بها لتجنب أزمات الشحن في الشرق الأوسط.",
+    "ru": "Индия хочет купить собственные танкеры для нефти и газа, чтобы избежать проблем с поставками."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSHpJYzJacmFqTlEwZU93d0p5VnQzeW1Db3c4NEE5SEhDMWJBdXUtZDhhQWVvdWluSnU2YzJJOWN1ZGVsNGUxZEQ0Y1VQWWdxXy1JOS1VQ1NhRHlkbERUV3pBWXNJVkFGT19jaVl6ZlZRQXo1Y0pGUGk3NWtfSWV4Y0paMnRJeXNva0I0VzBnWUFLUlBLLXFIU1Bodng1cG5PWUZVTGlkV2FmQk1fMzVYUGhvU01zQThkREdIaVBfaktnMnNESlZBX24tUVdXTUlSME9aYnBtb3RrNENUaVpMeFRseG0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "BDRY",
+    "direction": "up",
+    "t0": 1794368215,
+    "reason": "דרישה מוגברת לספינות הובלה ואנרגיה תומכת בביקושים בענף הספנות.",
+    "reason_i18n": {
+     "he": "דרישה מוגברת לספינות הובלה ואנרגיה תומכת בביקושים בענף הספנות.",
+     "en": "Increased demand for energy and bulk carriers supports the shipping sector.",
+     "ar": "زيادة الطلب على ناقلات الطاقة تدعم قطاع الشحن البحري.",
+     "ru": "Повышенный спрос на танкеры поддерживает сектор морских перевозок."
+    },
+    "name_i18n": {
+     "he": "BDRY - קרן סל הובלה ימית",
+     "en": "BDRY - Breakwave Dry Bulk Shipping ETF",
+     "ar": "BDRY - صندوق شحن البضائع السائبة",
+     "ru": "BDRY - ETF сухопутных и морских перевозок"
+    },
+    "price_at_alert": 13.57
+   }
+  ],
+  "id": "32d340a5e989"
  }
 ]
