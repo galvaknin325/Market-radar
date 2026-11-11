@@ -69785,6 +69785,25 @@
      "ru": "EWG - ETF акций Германии"
     },
     "price_at_alert": 42.95
+   },
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1794436766,
+    "reason": "אי-שקט חברתי ושביתות בספרד פוגעים בפעילות הכלכלית המקומית",
+    "reason_i18n": {
+     "he": "אי-שקט חברתי ושביתות בספרד פוגעים בפעילות הכלכלית המקומית",
+     "en": "Social unrest and strikes in Spain dent local economic activity",
+     "ar": "الاضطرابات الاجتماعية والإضرابات تضر بالنشاط الاقتصادي المحلي",
+     "ru": "Социальные беспорядки и забастовки в Испании подрывают местную экономику"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות אירופה",
+     "en": "Vanguard European Stock ETF",
+     "ar": "صندوق الأسهم الأوروبية",
+     "ru": "ETF европейских акций"
+    },
+    "price_at_alert": 89.46
    }
   ],
   "id": "afb569c41594",
@@ -69800,9 +69819,21 @@
      "ar": "بدأ ملايين العمال في إسبانيا إضراباً عاماً بسبب تكاليف السكن المرتفعة، وذلك قبل أسابيع قليلة من الانتخابات المبكرة.",
      "ru": "Миллионы рабочих в Испании начали всеобщую забастовку из-за роста стоимости жилья за несколько недель до внеочередных выборов."
     }
+   },
+   {
+    "ts": 1794436766,
+    "time": "2026-11-11T22:39Z",
+    "severity": 4,
+    "summary": "עשרות אלפי עובדים השתתפו בשביתה כללית בספרד ובמחאות על עלויות הדיור והמחייה הגבוהות בברצלונה ומדריד.",
+    "i18n": {
+     "he": "עשרות אלפי עובדים השתתפו בשביתה כללית בספרד ובמחאות על עלויות הדיור והמחייה הגבוהות בברצלונה ומדריד.",
+     "en": "Tens of thousands participated in a general strike across Spain, with major protests in Barcelona and Madrid over housing costs and cost of living.",
+     "ar": "شارك عشرات الآلاف في إضراب عام في إسبانيا واحتجاجات واسعة في برشلونة ومدري بسبب أزمة السكن.",
+     "ru": "Десятки тысяч человек приняли участие во всеобщей забастовке в Испании и протестах в Барселоне и Мадриде из-за стоимости жилья."
+    }
    }
   ],
-  "last_update": 1794417295
+  "last_update": 1794436766
  },
  {
   "ts": 1794406668,
@@ -70191,18 +70222,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOHNBS1hQMW8zTmZobXZnN2NpTG9kRlREbmxMTWtSOFZucEV3TzMwV0xuVUd5bTY4YWRaQV84X1ctU01vMGpucEROTXJaTmJjUDlWM05RblZXT2E4Mm12VkR6Nmo2OGY1VEtzT29jSFR6b2VyVWExWGhIWElMQVNKd3VVWFBEdzh1a3d2YlVfVXFkWU5HbllvcGVaTjUyelJTeThncmV6VkdyUUY2eXFzOWN6QkctNzM4dXc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWo2akNWeVpOSlJ4akt6MDZjb3R1MUZ3VXJoVnRlT0FDWEp4MzRsaGRYYlZJamtOOGgyOV90U2RQS085dVIwVVJ4S2traFRRSmFaeTF1X3pVeGY4N3RPSFM3c0Q3NGw4MlUtXzg1Y1k2Wm92aWljTnZ2UFUwRjUwRUk5TDQ4dGI1Nkw2V18tZngtWmUxOUdjMUNreVAtaC1Bd2c?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVVjY2l3ZjhDNVpXN2c5QXdsYXhXOWQ5dGFnd0p4RnJVSUd4MmRaaWVrUW8wZGItR29ONDhYWHRDTFRHQ2VXS25keHlpQVFRVnRMQ2FINDFhRTFBQjVla1N0YkZ1b3RvS0EzZ3NUNTFnQkhBVkQyZjJTNGdwZ3JQTnBWYXFZWmtDQUcyRGdhT2xBblJwdGRqbTRYQWsydEdTNTdBVU4zR01FTWxLT3ZtQV9nR0pUSWpvRnY1Ujh3R2ViM3B1RXdfZUhsWmtlVDdTN2k0TnpjLUZRc29JMVR3?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTi1TY3c1M2NnVWptNE40SWFodlBJOGRNQkwwY2s1OHdtejVXVEIweGpWQmRzREViRThrOWtpVGl5Y2lLZzJiRXRMNFN6aUxHd3VFR1VlRHhqY3BXSmRoY0JLbWZyTEF0ZnppYjdFRkNSNVE0S3JVT3VWTUltYjJWeUR0eHhmR3NWWlYtM2dIN0ZwSnJNVHQwOHYtZUxFWjA?oc=5"
    },
    {
@@ -70212,6 +70231,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORE9vdzVQNC1La3Z6ZVpkWHJuVDBaUFZFVm4yOUFqQnhPWnZvWFRVbEdaYmNGNy1sMjlOTEZ3VXpsTjBwb3VyRzdyek81WU1qc01Gdmh5dDZudFA3RFNoWGpBNUtDNnUxYkg0dGo1SElwcFNSRVFSSXNlV0V6eEY3SDRCZWRQVlFy0gGcAUFVX3lxTE9GWEJEWnhWb3BCUDZQSDNZQVRkM3JHVmZtT09Nczk3aVNPZHh0TVM0aGlYQWZFTDViU3lmYlprbnVTalVOTWpDeWRXcFUtandNUHUtVENGcU1RNHZYX1IzS29TSUdZaTJ6SUpOY3lPVWtBNWs1RktZTTQzZFA0bkRKaXBIWE5hNHhGTXZNQmFiOXZiQV81eGhfV2xNRA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXBRRC1tMFAxZUVPbkFabGs0MjhaVFBHZ2syd2swellxTXptV0Q2QUd6M3p3ejMtNlpPSjBVQ3FHVGU0X2l4VXlIaU5UY1RmeGNjWXA2OFRhUnpfQThDMnNTLUNHalM5QU1kUFB0b1ZkN1R1aV8xeVB6dDc4RDV6dF9Zc2ZheVVZYWVseTNXYldBSXA3MGZjY203dEw4cl9tUnd4TExHVndOQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTF0MWc2Zk9vUjRiaWxKWHdwMGZIRHpkVmhoUGJwLW5lcGpxc1cwUWR2RnZ4dVM2R1NTTzg2aE1FMjNFSzhlSHdmYWRBS0tiTzJxQlVseG5yZ19mOGZuSEQ3bWd2bS1jWTdGRlJCOVFoc1lONmMwTHFUX09UWGc3bHd5RzV5cUFfVjRxSWlsdXJwUTJ1M3I1U2pqNmNjYXo0UWdteW13c1JkNmJsbVE?oc=5"
    }
   ],
   "impacts": [
@@ -70271,6 +70302,44 @@
      "ru": "Оборонный ETF"
     },
     "price_at_alert": 72.94
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794436766,
+    "reason": "עליית מחירי הנפט הגולמי מחזקת את רווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט הגולמי מחזקת את רווחי חברות האנרגיה",
+     "en": "Higher crude prices boost earnings potential for major oil producers",
+     "ar": "ارتفاع أسعار الخام يعزز أرباح شركات النفط الكبرى",
+     "ru": "Рост цен на сырую нефть повышает потенциал прибыли"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה",
+     "en": "ExxonMobil - energy giant",
+     "ar": "إكسون موبيل - عملاق الطاقة",
+     "ru": "ExxonMobil - энергетический гигант"
+    },
+    "price_at_alert": 166.71
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794436766,
+    "reason": "עליית מחירי הנפט תומכת במניות חברות האנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט תומכת במניות חברות האנרגיה",
+     "en": "Higher crude prices support energy stock valuations",
+     "ar": "ارتفاع أسعار الخام يدعم تقييمات شركات الطاقة",
+     "ru": "Рост цен на нефть поддерживает оценки энергетических компаний"
+    },
+    "name_i18n": {
+     "he": "קרן סל אנרגיה",
+     "en": "Energy Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 63.37
    }
   ],
   "id": "2c3591c264d1",
@@ -70286,9 +70355,33 @@
      "ar": "وافق الاتحاد الأوروبي على حزمة عقوبات جديدة ضد روسيا، في حين أبلغ مسؤولون إيرانيون عن مخاوف من عمل عسكري أمريكي محتمل أو تشديد العقوبات.",
      "ru": "ЕС согласовал новый пакет санкций против России, в то время как иранские официальные лица сообщают об опасениях по поводу потенциальных военных действий США или ужесточения санкций."
     }
+   },
+   {
+    "ts": 1794436766,
+    "time": "2026-11-11T22:39Z",
+    "severity": 6,
+    "summary": "גורם איראני דרש שארצות הברית תעמוד בשבעה תנאים לפתיחת מצר הורמוז, בעוד שפעילי ממשל טראמפ שוקלים תקיפות חדשות או סנקציות מוגברות.",
+    "i18n": {
+     "he": "גורם איראני דרש שארצות הברית תעמוד בשבעה תנאים לפתיחת מצר הורמוז, בעוד שפעילי ממשל טראמפ שוקלים תקיפות חדשות או סנקציות מוגברות.",
+     "en": "An Iranian negotiator stated the U.S. must meet seven demands to reopen the Strait of Hormuz, while reports indicate Trump is planning new strikes or tougher sanctions.",
+     "ar": "أعلن مفاوض إيراني أن أمريكا يجب أن تلبي سبعة شروط لإعادة فتح مضيق هرمز، بينما تدرس واشنطن فرض عقوبات.",
+     "ru": "Иранский представитель заявил, что США должны выполнить семь условий для открытия Ормузского пролива, на фоне планов санкций."
+    }
+   },
+   {
+    "ts": 1794436766,
+    "time": "2026-11-11T22:39Z",
+    "severity": 5,
+    "summary": "כוחות אוקראיניים תקפו באמצעות רחפנים מסופי נפט וספינת טילים במסגרת מבצע באוסט-לוגה ברוסיה.",
+    "i18n": {
+     "he": "כוחות אוקראיניים תקפו באמצעות רחפנים מסופי נפט וספינת טילים במסגרת מבצע באוסט-לוגה ברוסיה.",
+     "en": "Ukrainian drones struck Russian oil terminals and a missile ship during an operation in Ust-Luga.",
+     "ar": "شنّت القوات الأوكرانية هجمات بمسيرات على محطات نفط روسية وسفينة صواريخ في أوست-لوغا.",
+     "ru": "Украинские беспилотники атаковали российские нефтяные терминалы и ракетный корабль в Усть-Луге."
+    }
    }
   ],
-  "last_update": 1794424604
+  "last_update": 1794436766
  },
  {
   "ts": 1794420441,
@@ -70557,5 +70650,294 @@
    }
   ],
   "id": "46df2e9d8fab"
+ },
+ {
+  "ts": 1794436766,
+  "time": "2026-11-11T22:39Z",
+  "title": "קריאות להתפטרות ג'נסן הואנג בוושינגטון סביב בקרת ייצוא שבבים",
+  "summary": "ג'נסן הואנג מנבדה עומד בפני קריאות להתפטרות מצד מחוקקים בארה\"ב בשל התנגדותו לבקרת ייצוא קשוחה על שבבי בינה מלאכותית לסין.",
+  "kid": "מנהל חברת השבבים הגדולה אנבידיה מסתכסך עם פוליטיקאים בארה\"ב בגלל שרצה למכור שבבים לסין. זה יכול להשפיע על מחיר המניה של החברה.",
+  "i18n": {
+   "title": {
+    "he": "קריאות להתפטרות ג'נסן הואנג בוושינגטון סביב בקרת ייצוא שבבים",
+    "en": "Resignation calls for Jensen Huang in D.C. over chip export controls",
+    "ar": "دعوات استقالة جينسن هوانغ في واشنطن بشأن ضوابط تصدير الرقائق",
+    "ru": "Призывы к отставке Дженсена Хуанга в Вашингтоне из-за контроля экспорта чипов"
+   },
+   "summary": {
+    "he": "ג'נסן הואנג מנבדה עומד בפני קריאות להתפטרות מצד מחוקקים בארה\"ב בשל התנגדותו לבקרת ייצוא קשוחה על שבבי בינה מלאכותית לסין.",
+    "en": "Nvidia CEO Jensen Huang faces resignation calls and pushback from U.S. lawmakers over his opposition to strict export controls on AI chips to China.",
+    "ar": "يواجه الرئيس التنفيذي لشركة إنבידיה جينسن هوانغ دعوات للاستقالة من قبل المشرعين الأمريكيين بسبب معارضته لضوابط تصدير صارمة.",
+    "ru": "Генеральный директор Nvidia Дженсен Хуанг столкнулся с призывами к отставке из-за противодействия строгому экспортному контролю чипов в Китай."
+   },
+   "kid": {
+    "he": "מנהל חברת השבבים הגדולה אנבידיה מסתכסך עם פוליטיקאים בארה\"ב בגלל שרצה למכור שבבים לסין. זה יכול להשפיע על מחיר המניה של החברה.",
+    "en": "Nvidia's boss is arguing with U.S. politicians because he wants to sell chips to China. This could make Nvidia's stock go up or down based on new rules.",
+    "ar": "مدير شركة إنבידיה يختلف مع السياسيين الأمريكيين لأنه يريد بيع الرقائق للصين. قد يؤثر هذا على سعر سهم الشركة.",
+    "ru": "Глава Nvidia спорит с американскими политикам из-за продаж чипов в Китай. Это может повлиять на акции компании."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794436766,
+    "reason": "לחץ פוליטי על המנכ\"ל וחשש מהחמרת מגבלות ייצוא לסין",
+    "reason_i18n": {
+     "he": "לחץ פוליטי על המנכ\"ל וחשש מהחמרת מגבלות ייצוא לסין",
+     "en": "Political pressure on CEO and risk of stricter China export curbs",
+     "ar": "ضغط سياسي على الرئيس التنفيذي وخطر قيود تصدير أقسى",
+     "ru": "Политическое давление на CEO и риск жестких экспортных ограничений"
+    },
+    "name_i18n": {
+     "he": "אנבידיה - חברת שבבים",
+     "en": "Nvidia - chip maker",
+     "ar": "إنבידיה - صانعة الرقائق",
+     "ru": "Nvidia - производитель чипов"
+    },
+    "price_at_alert": 173.73
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794436766,
+    "reason": "מתח סביב מדיניות הייצוא לסין משפיע על כל ענף השבבים",
+    "reason_i18n": {
+     "he": "מתח סביב מדיניות הייצוא לסין משפיע על כל ענף השבבים",
+     "en": "Tensions around China export policy weigh on the chip sector",
+     "ar": "التوترات بشأن سياسة التصدير للصين تؤثر على قطاع الرقائق",
+     "ru": "Напряженность вокруг экспортной политики давит на сектор чипов"
+    },
+    "name_i18n": {
+     "he": "קרן סל סמיקונדקטורס",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 506.96
+   }
+  ],
+  "id": "08738185aa0d"
+ },
+ {
+  "ts": 1794436766,
+  "time": "2026-11-11T22:39Z",
+  "title": "פייזר חותמת על עסקת ענק של 1.5 מיליארד דולר עם בלאקסטון",
+  "summary": "חברת התרופות פייזר התקשרה בעסקה בשווי 1.5 מיליארד דולר עם בלאקסטון למימון פיתוח תרופות להרזיה.",
+  "kid": "חברת התרופות פייזר קיבלה כסף ענק מחברת השקעות כדי לפתח תרופות נגד השמנה. זה יכול לעזור למניה שלהם לעלות אם התרופות יצליחו.",
+  "i18n": {
+   "title": {
+    "he": "פייזר חותמת על עסקת ענק של 1.5 מיליארד דולר עם בלאקסטון",
+    "en": "Pfizer signs $1.5 billion deal with Blackstone for weight-loss drugs",
+    "ar": "فايزر توقيع صفقة بـ 1.5 مليار دولار مع بلاكستون لأدوية إنقاص الوزن",
+    "ru": "Pfizer подписала сделку на $1,5 млрд с Blackstone по лекарствам для похудения"
+   },
+   "summary": {
+    "he": "חברת התרופות פייזר התקשרה בעסקה בשווי 1.5 מיליארד דולר עם בלאקסטון למימון פיתוח תרופות להרזיה.",
+    "en": "Pfizer has signed a $1.5 billion deal with Blackstone to fund the development of weight-loss drugs.",
+    "ar": "وقعت شركة فايزر صفقة بقيمة 1.5 مليار دولار مع بلاكستون لتمويل تطوير أدوية إنقاص الوزن.",
+    "ru": "Компания Pfizer заключила сделку на 1,5 миллиарда долларов с Blackstone для финансирования разработки лекарств для похудения."
+   },
+   "kid": {
+    "he": "חברת התרופות פייזר קיבלה כסף ענק מחברת השקעות כדי לפתח תרופות נגד השמנה. זה יכול לעזור למניה שלהם לעלות אם התרופות יצליחו.",
+    "en": "Pfizer got a huge pile of money from an investment company to build new weight-loss drugs. This can make Pfizer's stock move.",
+    "ar": "حصلت فايزر على أموال ضخمة لتطوير أدوية إنقاص الوزن، مما قد يؤثر على سهمها.",
+    "ru": "Pfizer получила крупное финансирование для разработки лекарств для похудения, что может повлиять на ее акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVlfM2ROY2lvTjZOWExrVFNEc2dBWmRvTnhnUTVnVXkyWUZBQjVCYlBGZXltOGQ1NmhJMk5BLTZTczhLaDRubGF4bF83blVKS3ZvMTE2NHQtUTBXYjhKelcyNDV0X0pSaGFIYlVVbUhGUWktektBRTgtZEVpaEd6eWlqSlJuNTRIZkRYMUU2NVljVmQ2a0NfLWRXUDNIXzFfOFNTV1ZXZDI0eEdTRTZXR3FRb3p0eDh1MGxlTzZ4LVFiRGs?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "PFE",
+    "direction": "up",
+    "t0": 1794436766,
+    "reason": "מימון חיצוני לפיתוח מוצר מבטיח בתחום תרופות ההרזיה",
+    "reason_i18n": {
+     "he": "מימון חיצוני לפיתוח מוצר מבטיח בתחום תרופות ההרזיה",
+     "en": "External funding for promising weight-loss drug pipeline",
+     "ar": "تمويل خارجي لتطوير أدوية واعدة لإنقاص الوزن",
+     "ru": "Внешнее финансирование разработки многообещающих лекарств"
+    },
+    "name_i18n": {
+     "he": "פייזר - חברת תרופות",
+     "en": "Pfizer - drug maker",
+     "ar": "فايزر - صانعة أدوية",
+     "ru": "Pfizer - производитель лекарств"
+    },
+    "price_at_alert": 29.45
+   },
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794436766,
+    "reason": "עסקת ענק בתחום התרופות תומכת בסנטימנט הסקטוריאלי",
+    "reason_i18n": {
+     "he": "עסקת ענק בתחום התרופות תומכת בסנטימנט הסקטוריאלי",
+     "en": "Major pharma deal supports sector sentiment",
+     "ar": "صفقة أدوية كبرى تدعم معنويات القطاع",
+     "ru": "Крупная сделка в фармсекторе поддерживает настроения"
+    },
+    "name_i18n": {
+     "he": "קרן סל בריאות",
+     "en": "Health Care ETF",
+     "ar": "صندوق الرعاية الصحية",
+     "ru": "ETF здравоохранения"
+    },
+    "price_at_alert": 188.95
+   }
+  ],
+  "id": "7cced8e4f60f"
+ },
+ {
+  "ts": 1794436766,
+  "time": "2026-11-11T22:39Z",
+  "title": "האינפלציה ביפן מזנקת ל-3.2% ומעוררת דאגה",
+  "summary": "קצב האינפלציה ביפן עלה ל-3.2% לאחר תיקון השפעות סובסידיות, מה שמעורר שאלות לגבי מדיניות הבנק המרכזי.",
+  "kid": "המחירים ביפן ממשיכים לעלות בקצב מהיר יותר. זה עשוי לגרום לבנק המרכזי שם לשנות את הריבית ולשנות את ערך המטבע.",
+  "i18n": {
+   "title": {
+    "he": "האינפלציה ביפן מזנקת ל-3.2% ומעוררת דאגה",
+    "en": "Japan inflation spikes to 3.2% as subsidy effects correct",
+    "ar": "التضخم في اليابان يرتفع إلى 3.2% وسط مخاوف جديدة",
+    "ru": "Инфляция в Японии подскочила до 3,2% на фоне опасений"
+   },
+   "summary": {
+    "he": "קצב האינפלציה ביפן עלה ל-3.2% לאחר תיקון השפעות סובסידיות, מה שמעורר שאלות לגבי מדיניות הבנק המרכזי.",
+    "en": "Japan's inflation rate accelerated to 3.2% after adjusting for subsidies, raising persistent economic and monetary policy questions.",
+    "ar": "ارتفع معدل التضخم في اليابان إلى 3.2% بعد تعديل تأثيرات الدعم الحكومي، مما يثير تساؤلات سياسية.",
+    "ru": "Уровень инфляции в Японии вырос до 3,2% с учетом корректировки субсидий, вызывая вопросы о монетарной политике."
+   },
+   "kid": {
+    "he": "המחירים ביפן ממשיכים לעלות בקצב מהיר יותר. זה עשוי לגרום לבנק המרכזי שם לשנות את הריבית ולשנות את ערך המטבע.",
+    "en": "Prices in Japan are rising faster. This might force the bank of Japan to change interest rates and affect the Yen.",
+    "ar": "الأسعار في اليابان ترتفع بشكل أسرع، مما قد يجبر البنك المركزي على تغيير أسعار الفائدة.",
+    "ru": "Цены в Японии растут быстрее. Это может заставить Центробанк изменить ставки и повлиять на курс иены."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rdVo5MmxhNWhxcV93NGNTTEpYT1NvY0JtYUFER2pPVk1JWnBtVXpNbjVyci0tVnJJcktjQXJCNkd4d3BsNExIbTBxd002OGItRjBNdy1zNWI2eTRDVWdkTGFhX1dZM3V4Q3JXUF9yOVN5ajhka1A4?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1794436766,
+    "reason": "אינפלציה גבוהה וחשש ממהלכי הדוקה מצד הבנק המרכזי",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה וחשש ממהלכי הדוקה מצד הבנק המרכזי",
+     "en": "Higher inflation and fears of tighter monetary policy",
+     "ar": "تضخم أعلى ومخاوف من تشديد السياسة النقدية",
+     "ru": "Более высокая инфляция и опасенияжесткой монетарной политики"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות יפן",
+     "en": "iShares MSCI Japan ETF",
+     "ar": "صندوق أسهم اليابان",
+     "ru": "ETF акций Японии"
+    },
+    "price_at_alert": 92.12
+   },
+   {
+    "ticker": "FXY",
+    "direction": "up",
+    "t0": 1794436766,
+    "reason": "נתוני אינפלציה חמים תומכים בציפיות להעלאת ריבית ביפן",
+    "reason_i18n": {
+     "he": "נתוני אינפלציה חמים תומכים בציפיות להעלאת ריבית ביפן",
+     "en": "Hot inflation supports expectations of BOJ rate hikes",
+     "ar": "التضخم الساخن يدعم توقعات رفع الفائدة في اليابان",
+     "ru": "Высокая инфляция поддерживает ожидания повышения ставок"
+    },
+    "name_i18n": {
+     "he": "ין יפני",
+     "en": "Japanese Yen Currency Trust",
+     "ar": "صندوق الين الياباني",
+     "ru": "Японская иена"
+    },
+    "price_at_alert": 57.29
+   }
+  ],
+  "id": "5bdf872258d6"
+ },
+ {
+  "ts": 1794436766,
+  "time": "2026-11-11T22:39Z",
+  "title": "ציקלון בעוצמה 1 פוגע באוסטרליה ומשבית אלפי בתי אב",
+  "summary": "ציקלון בעוצמה 1 גרם להרס, סגירת בתי ספר וניתוק החשמל ל-55 אלף צרכנים באוסטרליה.",
+  "kid": "סופה חזקה פגעה באוסטרליה, הפילה חשמל וסגרה בתי ספר. זה פוגע בפעילות הכלכלית המקומית באזור.",
+  "i18n": {
+   "title": {
+    "he": "ציקלון בעוצמה 1 פוגע באוסטרליה ומשבית אלפי בתי אב",
+    "en": "Category 1 cyclone strikes Australia leaving thousands without power",
+    "ar": "إعصار من الفئة الأولى يضرب أستراليا ويقطع الكهرباء عن الآلاف",
+    "ru": "Циклон 1 категории обрушился на Австралию, оставив тысячи без света"
+   },
+   "summary": {
+    "he": "ציקלון בעוצמה 1 גרם להרס, סגירת בתי ספר וניתוק החשמל ל-55 אלף צרכנים באוסטרליה.",
+    "en": "A Category 1 cyclone caused destruction, closed schools, and knocked out power to 55,000 customers in Australia.",
+    "ar": "سبب إعصار من الفئة الأولى دماراً وإغلاق مدارس وقطع الكهرباء عن 55 ألف مستهلك في أستراليا.",
+    "ru": "Циклон 1 категории вызвал разрушения, закрытие школ и отключение электричества у 55 тысяч потребителей в Австралии."
+   },
+   "kid": {
+    "he": "סופה חזקה פגעה באוסטרליה, הפילה חשמל וסגרה בתי ספר. זה פוגע בפעילות הכלכלית המקומית באזור.",
+    "en": "A strong storm hit Australia, cutting power and closing schools. This disrupts local business activity.",
+    "ar": "عاصفة قوية ضربت أستراليا وأدت لقطع الكهرباء وإغلاق المدارس، مما يؤثر على النشاط المحلي.",
+    "ru": "Сильный шторм ударил по Австралии, отключив свет и закрыв школы, нарушив местную активность."
+   }
+  },
+  "category": "climate",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNbzNhb1E5SFgyc3RxSGRNd1JSVVlGV3c5MkhRSmw5dm5PSEhCVWxJRXBwWWxsaHhmLVpEQ2N5ODFyd3FjdWZ2c0hGNXVGQkdBVkhYUkNJRWJwVjBhamVsLXpkR0s0YnJsclFrV0RyWlFVeVdabm01NDhqNjI5c0NNVWtVTjlfVmg0M2pHWHkxbkVHdTN0MWx1TC1IUFZIS2FPOGFKSWEwSlk1U183bzJTSVpYNjFIRi1EQ0ZOQmpMUEJHUVF4ZGFfMUJtZElqc2xzdFNMR0FGRVBDR3czVU40NmE3TjZMMkNlLVNNUkhNQjBGUDU4cUNfeGgwaFI3UC1YTGktalhmLU1wTGp2U1h1eUJB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1794436766,
+    "reason": "פגיעה בתשתיות ובפעילות הכלכלית עקב הסופה",
+    "reason_i18n": {
+     "he": "פגיעה בתשתיות ובפעילות הכלכלית עקב הסופה",
+     "en": "Infrastructure damage and business disruption from the cyclone",
+     "ar": "أضرار في البنية التحتية وتعطيل الأعمال بسبب الإعصار",
+     "ru": "Ущерб инфраструктуре и перебои в бизнесе из-за циклона"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות אוסטרליה",
+     "en": "iShares MSCI Australia ETF",
+     "ar": "صندوق أسهم أستراليا",
+     "ru": "ETF акций Австралии"
+    },
+    "price_at_alert": 29.4
+   }
+  ],
+  "id": "973b0973f000"
  }
 ]
