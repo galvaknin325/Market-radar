@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-11T11:53Z",
+ "generated": "2026-11-11T13:03Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 714,
+ "total_alerts": 720,
  "overall": {
   "n": 402,
   "hits": 202,
@@ -114,14 +114,14 @@
    "avg_edge": 0.62
   },
   "XOM": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 17,
    "hits": 5,
    "name": {
-    "he": "אקסון מוביל - חברת אנרגיה ענקית",
-    "en": "ExxonMobil - Major Energy Firm",
-    "ar": "ExxonMobil - شركة طاقة كبرى",
-    "ru": "ExxonMobil - крупная энергетическая компания"
+    "en": "ExxonMobil – major energy producer",
+    "he": "ExxonMobil - יצרנית אנרגיה גדולה",
+    "ar": "إكسون موبيل - منتج رئيسي للطاقة",
+    "ru": "ExxonMobil - крупный производитель энергии"
    },
    "avg_edge": -0.63
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.47
   },
   "ITA": {
-   "mentions": 115,
+   "mentions": 116,
    "n": 93,
    "hits": 63,
    "name": {
-    "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
-    "en": "ITA - US Aerospace & Defense ETF",
-    "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    "en": "ITA ETF – US aerospace & defense",
+    "he": "ITA ETF - תעופה וביטחון בארה\"ב",
+    "ar": "صندوق ITA - الطيران والدفاع الأمريكي",
+    "ru": "ITA ETF - аэрокосмический и оборонный сектор США"
    },
    "avg_edge": -2.18
   },
@@ -246,26 +246,26 @@
    "avg_edge": 0.45
   },
   "CPER": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 18,
    "hits": 4,
    "name": {
-    "en": "CPER – United States Copper Index Fund",
-    "he": "CPER – קרן סל נחושת",
-    "ar": "CPER – صندوق مؤشر النحاس الأمريكي",
-    "ru": "CPER – медный ETF"
+    "en": "CPER ETF – copper fund",
+    "he": "CPER ETF - קרן נחושת",
+    "ar": "صندوق CPER - النحاس",
+    "ru": "CPER ETF - фонд меди"
    },
    "avg_edge": -0.86
   },
   "CRWD": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 42,
    "hits": 16,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת סייבר",
     "en": "CrowdStrike – cybersecurity firm",
+    "he": "CrowdStrike - חברת אבטחת סייבר",
     "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания кибербезопасности"
+    "ru": "CrowdStrike - компания кибербезопасности"
    },
    "avg_edge": -1.74
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.19
   },
   "LMT": {
-   "mentions": 51,
+   "mentions": 53,
    "n": 45,
    "hits": 29,
    "name": {
-    "he": "LMT - לוקהיד מרטין",
-    "en": "LMT - Lockheed Martin",
-    "ar": "LMT - لوكهيد مارتن",
-    "ru": "LMT - Lockheed Martin"
+    "en": "Lockheed Martin – defense contractor",
+    "he": "Lockheed Martin - קבלן ביטחוני",
+    "ar": "لوكهيد مارتن - مقاول دفاعي",
+    "ru": "Lockheed Martin - оборонный подрядчик"
    },
    "avg_edge": -0.25
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.41
   },
   "FCX": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 26,
    "hits": 7,
    "name": {
-    "en": "FCX – Freeport-McMoRan",
-    "he": "FCX – פריפורט-מקמוראן",
-    "ar": "FCX – فريبورت-ماكموران",
-    "ru": "FCX – Freeport-McMoRan"
+    "en": "Freeport-McMoRan – copper miner",
+    "he": "Freeport-McMoRan - חברת כריית נחושת",
+    "ar": "فريبورت-ماكموران - تعدين النحاس",
+    "ru": "Freeport-McMoRan - добытчик меди"
    },
    "avg_edge": -1.51
   },
@@ -534,14 +534,14 @@
    "avg_edge": -1.1
   },
   "VGK": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 13,
    "hits": 6,
    "name": {
-    "he": "תעודת סל מניות אירופה",
-    "en": "Vanguard FTSE Europe ETF",
-    "ar": "صندوق مؤشرات الأسهم الأوروبية",
-    "ru": "ETF европейских акций"
+    "en": "VGK ETF – European stock market",
+    "he": "VGK ETF - שוק המניות האירופי",
+    "ar": "صندوق VGK - الأسهم الأوروبية",
+    "ru": "VGK ETF - европейский рынок акций"
    },
    "avg_edge": -0.19
   },
@@ -1346,6 +1346,18 @@
     "en": "GE Vernova – power equipment maker",
     "ar": "GE Vernova – صانعة معدات الطاقة",
     "ru": "GE Vernova — производитель энергетического оборудования"
+   },
+   "avg_edge": null
+  },
+  "EWI": {
+   "mentions": 2,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "EWI ETF – Italy stock market",
+    "he": "EWI ETF - שוק המניות של איטליה",
+    "ar": "صندوق EWI - سوق الأسهم الإيطالية",
+    "ru": "EWI ETF - рынок акций Италии"
    },
    "avg_edge": null
   }
