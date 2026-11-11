@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-11T14:18Z",
+ "generated": "2026-11-11T16:08Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 726,
+ "total_alerts": 728,
  "overall": {
   "n": 402,
   "hits": 202,
@@ -78,19 +78,19 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 76,
+   "mentions": 77,
    "n": 62,
    "hits": 23,
    "name": {
-    "he": "USO - קרן סל על נפט גולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام",
-    "ru": "USO - фонд нефти"
+    "he": "קרן סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط المتداول",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.56
   },
   "XLE": {
-   "mentions": 64,
+   "mentions": 65,
    "n": 52,
    "hits": 28,
    "name": {
@@ -1358,6 +1358,30 @@
     "he": "EWI ETF - שוק המניות של איטליה",
     "ar": "صندوق EWI - سوق الأسهم الإيطالية",
     "ru": "EWI ETF - рынок акций Италии"
+   },
+   "avg_edge": null
+  },
+  "LLY": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אלי לילי",
+    "en": "Eli Lilly",
+    "ar": "إيلي ليلي",
+    "ru": "Eli Lilly"
+   },
+   "avg_edge": null
+  },
+  "NVO": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "נובו נורדיסק",
+    "en": "Novo Nordisk",
+    "ar": "نوفو نورديسك",
+    "ru": "Novo Nordisk"
    },
    "avg_edge": null
   }
