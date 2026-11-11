@@ -773,146 +773,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793759396,
-  "time": "2026-11-04T02:29Z",
-  "title": "בנק ישראל/אירופה: נגל מהבנק המרכזי רואה הצדקה להעלאת ריבית בדצמבר",
-  "summary": "בכיר הבנק המרכזי האירופי יואכים נגל ציין כי יש סיכונים גוברים לאינפלציה המותירים מעט אלטרנטיבות מלבד העלאת ריבית בדצמבר.",
-  "kid": "הבנק האירופי עשוי להעלות את הריבית בקרוב בגלל עליית מחירים. זה יכול לשנות את ערך המטבע והמניות.",
-  "i18n": {
-   "title": {
-    "he": "בנק ישראל/אירופה: נגל מהבנק המרכזי רואה הצדקה להעלאת ריבית בדצמבר",
-    "en": "ECB's Nagel sees little alternative to December rate hike",
-    "ar": "ناгель من البنك المركزي الأوروبي يرى ضرورة لرفع أسعار الفائدة في ديسمبر",
-    "ru": "Нагель из ЕЦБ считает неизбежным повышение ставки в декабре"
-   },
-   "summary": {
-    "he": "בכיר הבנק המרכזי האירופי יואכים נגל ציין כי יש סיכונים גוברים לאינפלציה המותירים מעט אלטרנטיבות מלבד העלאת ריבית בדצמבר.",
-    "en": "ECB policymaker Joachim Nagel stated there is little alternative to a December rate hike as inflation risks worsen.",
-    "ar": "صرح يواخيم ناجل مسؤول البنك المركزي الأوروبي أن هناك بدائل قليلة لرفع الفائدة في ديسمبر مع تفاقم المخاطر التضخمية.",
-    "ru": "Представитель ЕЦБ Йоахим Нагель заявил, что на фоне роста инфляционных рисков альтернатив декабрьскому повышению ставки практически нет."
-   },
-   "kid": {
-    "he": "הבנק האירופי עשוי להעלות את הריבית בקרוב בגלל עליית מחירים. זה יכול לשנות את ערך המטבע והמניות.",
-    "en": "The European Central Bank might raise interest rates soon because prices are rising. This can impact currencies and stocks.",
-    "ar": "قد يرفع البنك المركزي الأوروبي أسعار الفائدة قريباً بسبب ارتفاع الأسعار، مما يؤثر على الأسهم.",
-    "ru": "Европейский центральный банк может вскоре поднять ставки из-за роста цен, что влияет на валюты и акции."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS3hRSWE5bEg0NzdRUG1lQ3Z6S2dXSFhYRXhCSmtzQTJ0ZW9RRV9iVWdORm1ORzJUQV9wcE9FclRMLTJZTjBCd3A3TUFpZFZma1MwVHZUTHZESHY0cmlrbnpYOWJWaGdZcUd5TGN1UENqWjdlbENuRUFTMjE5OFFIeEU5NGlCd0tiaTNSMXJ1UXVKdVBRY2ttZV95cmt6b2FWb2ZzY1R1Rzc4Tl9ST1l5R0hpN3I2OVZ2bGRUZUZMMWk0b3BLWWc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FXE",
-    "direction": "down",
-    "t0": 1793759396,
-    "reason": "ציפיות למדיניות מוניטרית הדוקה ושינויים בשערי החליפין",
-    "reason_i18n": {
-     "he": "ציפיות למדיניות מוניטרית הדוקה ושינויים בשערי החליפין",
-     "en": "Shifting rate expectations impact currency valuations",
-     "ar": "توقعات أسعار الفائدة تؤثر على تقييمات العملات",
-     "ru": "Изменяющиеся ожидания по ставкам влияют на валютные курсы"
-    },
-    "name_i18n": {
-     "he": "FXE - קרן סלי על האירו",
-     "en": "FXE – Euro Currency Trust ETF",
-     "ar": "FXE - صندوق عملة اليورو",
-     "ru": "FXE – ETF курса евро"
-    },
-    "price_at_alert": 103.24,
-    "entry_price": 103.95,
-    "entry_time": "2026-11-04T14:30+00:00",
-    "exit_price": 103.5,
-    "exit_date": "2026-11-05",
-    "change_pct": -0.43,
-    "bench": "SPY",
-    "bench_change_pct": -3.91,
-    "excess_pct": 3.48,
-    "edge_pct": -3.48,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "521be207b86c",
-  "evaluated": true
- },
- {
-  "ts": 1793759396,
-  "time": "2026-11-04T02:29Z",
-  "title": "סמסונג ביולוגיקס מדווחת על חוזה ענק בסך 323 מיליון דולר",
-  "summary": "חברת סמסונג ביולוגיקס רשמה חוזה בהיקף של 323 מיליון דולר על רקע שינויים וניתוב מחדש של שרשרת האספקה והרכש הפרמצבטי.",
-  "kid": "חברת תרופות גדולה קיבלה הזמנה ענקית של מאות מיליוני דולרים. זה יכול להשפיע על מניות התחום הרפואי.",
-  "i18n": {
-   "title": {
-    "he": "סמסונג ביולוגיקס מדווחת על חוזה ענק בסך 323 מיליון דולר",
-    "en": "Samsung Biologics logs $323M contract amid procurement shifts",
-    "ar": "سامسونج بيولوجيكس تسجل عقدًا بقيمة 323 مليون دولار وسط تحولات المشتريات",
-    "ru": "Samsung Biologics заключает контракт на $323 млн на фоне изменений в закупках"
-   },
-   "summary": {
-    "he": "חברת סמסונג ביולוגיקס רשמה חוזה בהיקף של 323 מיליון דולר על רקע שינויים וניתוב מחדש של שרשרת האספקה והרכש הפרמצבטי.",
-    "en": "Samsung Biologics has secured a $323 million contract as procurement data reflects ongoing biosecure legislative shifts.",
-    "ar": "فازت سامسونج بيولوجيكس بعقد بقيمة 323 مليون دولار مع انعكاس تحولات سلسلة الإمداد الدوائي.",
-    "ru": "Компания Samsung Biologics заключила контракт на $323 млн на фоне изменений в цепочках поставок фармацевтической продукции."
-   },
-   "kid": {
-    "he": "חברת תרופות גדולה קיבלה הזמנה ענקית של מאות מיליוני דולרים. זה יכול להשפיע על מניות התחום הרפואי.",
-    "en": "A major biotech company secured a huge multi-million dollar order. This can influence healthcare sector stocks.",
-    "ar": "حصلت شركة أدوية كبرى على طلبية ضخمة بملايين الدولارات، مما يؤثر على أسهم قطاع الرعاية الصحية.",
-    "ru": "Крупная биотехнологическая компания получила крупный заказ на сотни миллионов долларов, что влияет на акции сектора здравоохранения."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWFZaNFplNHpUX3J5RTZ4R0Jaa2Q4VW92YTNzdUZXWDdCQjE1TWpPY0pDX25Bdmx1VmdNY0lrc25GZ3J4ZC01dXJPTXlicGtWdkFqbTZPNXVCSk1tbkRWN01MdnhPQi16SHAxUXFGMHBKbGRNaEdhYjU5ZGx0M3cyTUNlWTcxTnpNbTdyNUtGVzNvUDlXWTBNcmt3d3JNVGc1Q0hLREtGVFZxX0txQjBKOVBxMmNBU3B3dFJiRmxhbWI3S096U0NrWnF0UTluQ1JMYVBLaEJ3N08?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1793759396,
-    "reason": "חוזים גדולים בסקטור הפארמה משקפים פעילות עסקית ענפה",
-    "reason_i18n": {
-     "he": "חוזים גדולים בסקטור הפארמה משקפים פעילות עסקית ענפה",
-     "en": "Large pharma contracts indicate strong sector procurement activity",
-     "ar": "عقود الأدوية الكبيرة تشير إلى نشاط قوي في مشتريات القطاع",
-     "ru": "Крупные фармацевтические контракты указывают на высокую активность в секторе"
-    },
-    "name_i18n": {
-     "he": "XLV - קרן סלי של סקטור הבריאות בארה\"ב",
-     "en": "XLV – US Health Care Sector ETF",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية الأمريكي",
-     "ru": "XLV – ETF сектора здравоохранения США"
-    },
-    "price_at_alert": 184.02,
-    "entry_price": 187.71,
-    "entry_time": "2026-11-04T14:30+00:00",
-    "exit_price": 184.96,
-    "exit_date": "2026-11-05",
-    "change_pct": -1.47,
-    "bench": "SPY",
-    "bench_change_pct": -3.91,
-    "excess_pct": 2.45,
-    "edge_pct": 2.45,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "090034e9a572",
-  "evaluated": true
- },
- {
   "ts": 1793762582,
   "time": "2026-11-04T03:23Z",
   "title": "אופק ובעלות בריתה שומרות על תפוקת הנפט יציבה; איומים על הספנוּת במפרץ",
@@ -50922,6 +50782,18 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc3FtaVdxRHUzR21TcGl6ZlFCTlM1MWJYUWVuM0c4Yi1nbUNTa0RLb3VMRDBOc2FDQmVSVUM1eWRVaHJKVnNEWXRQbWpZNWdSNmR6UHNBM0c1UXZjemh5eW1aMDJFS2dDa09yQ2V6cTVyZHhTNG05LTl1MUVZeGlGWElEMmYzSjNDRE5RWFBtdWRNWDdyS0lZMlI1R0xBdTBSZVE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNXzA4U2RMYkJrTEo0Zmx1bVRMX0hvWXctcEphd0k5WUd1OUQ0TzNWYVR0V1ZiUHdWakdTSmJfZ3hYdmx3Ym9tM1VKd1ZIWFlsZlN6SHVXMWVzOENpNDZnTmlodjZWZDFfdXFuMGZ4WDRCbkdqM0JxSnM5SWRkb3o5NFQzMkxSeDhYU1ZLWHlmbWpleGdFNXVnM3lnMEhaMFN6VlpZRVF0T0x3ejVDMGFuMjNKbUU5QmdCZUVLblEwcWppREpwZUJCZ0tpSWM?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa2VTZWJPMHhtTXVqZlhLY2tUVGxlSW4ta0JHTmZoZDFJaUxhcTFsUndvUnJMVTYxWG9pSGExZDFINXYxczgySXpMUVh3alE3NGRwdTFUYXpLdWIwdU9QbmdGeV9wN3JxSjhqMnNwVUQ0Q3lLWnBxclZ4OWdRR29SV3RzNU55UHQyZC1UWkpUNmJ1OFJGUFpJ?oc=5"
    }
   ],
   "impacts": [
@@ -50962,9 +50834,81 @@
      "ru": "Авиакомпании"
     },
     "price_at_alert": 92.22
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794365243,
+    "reason": "עליית מחירי הנפט הגולמי עקב חשש לשיבושי אספקה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט הגולמי עקב חשש לשיבושי אספקה",
+     "en": "Crude prices rise due to supply disruption fears",
+     "ar": "ارتفاع أسعار النفط بسبب مخاوف تعطل الإمدادات",
+     "ru": "Цены на нефть растут из-за опасений по поводу поставок"
+    },
+    "name_i18n": {
+     "he": "USO - קרן מעקב אחר מחירי הנפט",
+     "en": "USO – United States Oil Fund",
+     "ar": "USO - صندوق النفط",
+     "ru": "USO - нефтяной фонд"
+    },
+    "price_at_alert": 141.45
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794365243,
+    "reason": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה",
+     "en": "Higher oil prices boost energy sector profits",
+     "ar": "أسعار النفط المرتفعة تعزز أرباح شركات الطاقة",
+     "ru": "Рост цен на нефть увеличивает прибыли энергокомпаний"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה ענקית",
+     "en": "ExxonMobil – Major Energy Corporation",
+     "ar": "ExxonMobil - شركة طاقة كبرى",
+     "ru": "ExxonMobil - крупная энергетическая компания"
+    },
+    "price_at_alert": 164.47
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1794365243,
+    "reason": "התאוששות במחירי הנפט תומכת בסקטור האנרגיה",
+    "reason_i18n": {
+     "he": "התאוששות במחירי הנפט תומכת בסקטור האנרגיה",
+     "en": "Oil price recovery supports the energy sector",
+     "ar": "تعافي أسعار النفط يدعم قطاع الطاقة",
+     "ru": "Восстановление цен на нефть поддерживает энергосектор"
+    },
+    "name_i18n": {
+     "he": "שברון - חברת אנרגיה גדולה",
+     "en": "Chevron – Major Energy Corporation",
+     "ar": "Chevron - شركة طاقة كبرى",
+     "ru": "Chevron - крупная энергетическая компания"
+    },
+    "price_at_alert": 211.22
    }
   ],
-  "id": "a374d542f8f7"
+  "id": "a374d542f8f7",
+  "updates": [
+   {
+    "ts": 1794365243,
+    "time": "2026-11-11T02:47Z",
+    "severity": 6,
+    "summary": "מחירי הנפט מתאוששים ורושמים עליות לאחר שדיווחים על פגיעה בכלי שיט במימי איחוד האמירויות ובמפרץ פרס קיזזו את התקוות להפסקת אש באזור.",
+    "i18n": {
+     "he": "מחירי הנפט מתאוששים ורושמים עליות לאחר שדיווחים על פגיעה בכלי שיט במימי איחוד האמירויות ובמפרץ פרס קיזזו את התקוות להפסקת אש באזור.",
+     "en": "Crude oil prices bounced back from multi-month lows as fresh attacks on shipping vessels in Gulf waters offset hopes for a regional truce, keeping supply disruption fears alive.",
+     "ar": "ارتفعت أسعار النفط الخام متعافية من أدنى مستوياتها بعد أن أدت الهجمات على السفن في مياه الخليج إلى طغيان آمال التهدئة.",
+     "ru": "Цены на сырую нефть восстановились после того, как новые нападения на суда в водах Персидского залива свели на нет надежды на перемирие."
+    }
+   }
+  ],
+  "last_update": 1794365243
  },
  {
   "ts": 1794344418,
@@ -51114,103 +51058,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTHpkX25aWDZPeHh5OXpwU3ZtcnBXcEhGY2Z6bWZkaktiWk80MXYxTjRXZ0duTS1TcGFHNGV2UjBrWlR0azhyY1NNakxYdFNPVGZhSnJfNlVtVXNkSVMtWmpCYVVfa0Iza1JoTkNScFBqZEUtNUxwVG8yZlU1LTJWdVpsTUU1SGZFWG8tNlpQMHF4ejJoOWd1VVdDamhZRWJJSTNuekgyd2NhcDBvY21jOHdQTV9sZHFzMW5STklaWmdEMlRZUHdmWUdWa2hJa0JI?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbTI3QkZzaGVxYm9KdVJ4VzBGTzN4VnJGRzVmbjg3VGtsUzVuUGlxZk51bnR6VVZkYVcxc241RUlWQUVFdDNOWl9kRmJwVHVXYkFQZWpxTkRTTFQ2Y0ZUSUhPbFFvUHhpT3VHN0MzaU9iRWpxU093VmltN05Yb2dPR19IR1hoQlBkZlFUT196Ti1vTlFFNC03OUdab05uMkJvNTVEME1JaDc5V0VZc2VxWFlNcmNoZ1k?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT0lpZmhLaVpRS1NlcHVOZDNmTVNQZ2pGYm9mQ01WdFdOM0puT01CU1Z1Y2ZpVzNaaDdiUlgzWkV3Y3U2a3I2S21TNUY3Y2dEbWFoNDZJNXdQZXEwdDdQZExFcnltQy1TNXdaTmtEZW1uMHp1V0pCRXFPY0tnQnVaWU1kS1dscm85LU1FdzF4SWZjYjZXWVRLaGx0djdncll3dk5BQkM1T0E4bHc2NDJMNS1R?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVXBjaVktWmJ0YmxaeVY1Xy1RSndfNjNPeGhxdjRHbFN6NGxOd3Zod2U1Q0tkQWtLX0lmMDdvV2dwZzdHZjM3c1hEbDFKenYtQW92amI0eXFCWWhodkQ0RHY5OUZESkJFR29kc1E5ekU2RnR2S1kwYWs4eTFqdjdQek9XclVYOGxmU0VGSmx4X0h5V2l5NkY0Q3hOcEJlV2hvazBhcWY4SGNCSGpyTFVYWGpFdVB3TThabERjWXhmWkNOd2pfcVR6S1AwS19yX1piRWVxYWxWXzlpV055Q2ZXcTIxLUdoQ2lWNDJIUExVN1p5Z9IBygFBVV95cUxPLTlQUzJFVjBFQjlzeGVtUlIxZjJ2VUZNdXR5ZmF5Mm9SOVo4NjdFN0M2QjFCRDl0YldaWlZMODJiOWxqVUFaMGdSbi00bmpXWHFSZVJ1dlF3Wmc4ZmdfX01RZTBSYWhqRkI2NVNGdHkwLUV0ekhkR2hyWTJYa0p5aTZUaFl6YnhiVVF3R284NVh4WHctWnVZNDJiY3VaTGI5bTZlZzdJaVJDcTJEZWNXbXZqcnVBQTlVTTgxZjl0OFJycGtuakRjQllR?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQi15c01YQlJLa2huR0hWV0VCbHpKenpwRDdqQnFYMWwyYWRuQ1ZHNjNHZzVYLVA5OTFOSmlPdmJfR3hVX2dFN3JuMUhTYlMzM3cxUzgxV21WTUI5eC1YMWRZYlZrY2VONG5VRmxhSVA4WEs2Y2ROQ0c2RUpybjhORGpsQXNkNVFSQXlCVHd5X204WktaZzBfbjg0YzNWWWNya0wtbVQ4eFBuWTNURHdtRQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2pqenNYSWUzSVBxc3U2RlhRT29TZGNJWFVMRVVQa0NkaDd6STY3VzhiZTB1b0RPcXB4c0ZEM1RwaGdkZUpkZHp2Q0ZCenBZZF90eTZFMnJvT2F4elJlZlMzOFFiaTVfUmxxNVcxNFZLOVpRY1ZHTjFITVpqVlJHdDJ6UXVUNXU4Z2NoOGZrVjB0QQ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnVmaFpfcEFrMjZrV3BEaTV0VlFDQlUyemlOU0p0WGJDSlZ3cmRXbmYwRDdYd0VDUzZIWnZhLXMzOGgwejA2c0xqWk1iVXRaa3lmZHdidmFkMEFlN2g5ZHdaTjVmclpmdC03SnRMcFlGbWh6ZGl1TGQxS3BfeHNaRlhDQy1Cb3FGNlpYSDd4R2lUam1HNzZQR01kZnhGMzYzVUZSeg?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWng3WmlxVlJndU84NzZ3dFFtZEU4Tng2cTRJUXZwN01faDFmWEdpUkRCRGdSejlibmJrMmdSUENEZ2UyMEZrRFQ0QVotcnIzV0cwU1VtWXd4TzlBUE5IcWVmVjU5NE5jX3puaFBIS0R4dEQ5YldEN2JKaW1FOXJpbHFUaExZS2otaWxsdGEwdzhUNUVIWHRSVkNGbw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTm5UMFljRU9rWlR3UEtZSUR6bjBRcDZlVnZ5Qk5tZVpSLWVGU3k5YWhtQzRsRERGQkQxc3haTlJWWVlKR2lMSVpIMDB1a1UxUnlFWTR4TmJVaHZMOWdzeVFLTExMcWVjdkd3LWUtVHU3LVkydkpaSC1RTkpfY3pELVVfaFE2Rnc3RUJQRGdiNDNBekx2Ui1nR05JTFR2aVBidndB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXp4S1gxeEZyTnl1a1hQc1hsUi1OUlA1ZlY3NGVheUcyUW9zaUQ1MWRuejRuSHl3dzhBbzJwMHhuemt1eFlTS29Xa2pEWFhjako5ZmsyNTczekRqSGlEZWpBajFGNjBpVldSQjZYTnNBeml6NlRWcDJSYzdIZ0QzZGJqZjBiaUE0dzJ1SkhrODNGWEZ5a295aTdtejUxZWNnRndodnhhdUpndE4wOVcwWWhRdTVPWHUz?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOWk2OFdTV2pRS2JTaUppZk12U3pTSzJFdnhUQXEySy1SdGY3VDRWUE9uTkZsOC1Mb2xwMFlxVHMwYU42bHhCTXZzVEptclIzbEVlVnczenNYVjhhNkVHNkRQbVI3ZTljZWg1X1duZ2N2dW1KenNBaDBFaWJzbThOaXBLUXU4V2VuNmV0ekJoUVRScDNiMkRpNHd0QmtnUUZhSS1KT2drR2tqQXZtU3FaTTY5V3poX0RUTFZpUEZXQXU?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tQ0J0bEp1eDVHQ3VLSDZLZnNzTjlvRXhHZWNhRDNLNnh4UlAzY0x4TGJ3ZWQzYTRaNlNyYTYxbDZGLUZXMVJiRkhPbjRRTERYMVlZ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObDZMendwaTJxNnJCSXNsRkxaNi0wUHhRZXBBZW5EeW5Va2p5MnE0NWVGQUZfU0N5cTJsZmNyNGh0WHVYRDBOSjVManhMc0hyUTdJMkJuUzdZTG56d2JrTVFYVFhQeWNhM2V2MU9GVVRQYTl6VUtXeGE1TEZVcUt4REljQzF5a2VkUlJfRVozeW1vQVAtR1JWYlMyVFliSGoydWJYWDFwdXBOUQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXg5OElsSk43aE5LclhWNmdybnZ4TXNaSzdRM2NKUnpGVVh5Y2FpdFlvejhrYklGa3VmM3hFYlFsWnBzSFZtVVBtMjFYeVRFRDFiU1U4dXRIYmF2aTZDWU1vWUlJUDM3Zk9VdEtKWnNsb2lDYzRUaFpLWU03YmN1cGdYMFktcmtCb3cw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRWpPWjFMRThpNGhzRFkzd3RESEQ2dW1memg4NDE2NzJsVFpqN25FcEk1NTZCaV9QMkN3VFZqNXRoWmFkNHMzUlBQZkt1V0lkaURhSHlSVmtIYTdsQnVvcWlKcXo5TzcxZUp3UlJuaEtZd2VOazNVYzBVc3BmbFRJSGl0RkV0NDFQcUdRdzRBTXFxWnhkcnBCYTI4TllEd21IYVVid0pxMGpXQmJUU0tPUlc2OEN1M1ZsZEpFdg?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSXJNOWhoa0dRd2hlaUpmaHltODdUOHZEV3pmaUFCX0hlQlBRaGpNYmx4LThuSjh5NFB6UjFjRloxQ2RqLWVZR3BySWRLNnpBT2QzZzQxVFN0RzM3OHJndlJGMEZaX00tWWVNRXI0bFl4RHZ6eGRKSjlXeU1oakliakJSMzk1cGlDeUt0ZEdZNnlVdkVfZHlGYklaZXRLbGpBZFpjTkx5dkhHMXRTMXRiQU9XRmRSdXpzU0xneUUtanhIR3pPNjBrSjlxYw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcXQ0eURVYUp4ODBMYm9oczZ0SXFURlBONkFzeVp4ZzNheXdvZWpjWmJtT185aDc3dFdBbDZFM0EtWUZCZUtzUmJYT21QdEY0NXdocFJXOUlrSDByZ1Z6R05vRFdQb0NiSW1GTGZaZlRVSnJ5b0owc25uQUhhRmhRdGd0WG1kRzZtVGluazJXcXVEUEpuNml6T3U1Z1d4Sy1objVhakktUlZ3aHN3YTNrVHlIN0twSDg4clh2ZkFMYlhVUmhLbHo3c2VnYw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdmZHLWI2UExZVlVtSjJ5aEF0eC0yQkFKSHZFa04yWkxPSE5ieDhodjR6Z0ozQjRObjlIU3Q1alpYZEdxazlHbUg0UWpVV0ZNNnluNFBZbVdkZTY3NGFUdVpuRDJxTFI4STA1WXNmSmt5bEZOSEs5QWhEbWlVcVR5ZE1OcjFvbzFPaWo3VmFSdlZnUDZ6d2xIS3RYTHp4RlU?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMWZJd2pRU2VEREJsdUpIZlE5MlVpX2VoYjBUaHRFQkF1Z0picWlmYS1NREEyaGpaZmNSbVN2dXMxSFRZT1RyamVTQk9MY1dYWjVUTjJPWTlfWG1PYTRiLW9RcF9Jcm9qRmYzZXJqbFhRS1Eyd0ZWaVFob2hHd2JyOWZUNUJJNTdXNXY2NGtsdW9KSHhRM1I0RHpucnBCZHE0RWFiWTdzckdmZVdUN3hfZDQ0cWpndlE1Mnh3ZHdxZS1kbmN1eWNNQkczVDd4YWtjZjFSTWE1OUg?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV3czY09VVWxSaGhwOXpnenViZlBCOFJBQTB5dnNSRDBEU3QtWkQ1eE9ENWg5NmhWNWZWRHdfUzhtSVJMcTEwR2ZNR2V6UlpNcC1sNXBSckd3MnptU1dIRFdQNDRhUTFLNjJ2RHBkcWlHY0poVXlkRkxTWi15VjkwZkVUemVXaEI2Uy1VVVN0WjctZER4aTlaY2NLNnNCMUFhZU5yVjYtV2NWbm1mdXE0VnJRUms1eERicnJneEpRd0ZNX0VpV1ZSY2FCb3ZHeGJXV1pyNDUxMDhWQWdaUFE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeF9LX3Y0RWVuUVZ3R0U4eWl4anZtempoNzRRLUZzWm5kVkxtQ1kxZnl6Wk44dVdwZ3JtcEVTSVpiVFBRcGswWjQ4dEs1amxZX0x4dWJHLUFWNzYxb2ZJekIxVzZZeVo3NjZiS0hDU2xfNVY5QVV6VWdDY1FWaU5BZmJ3OGQwTGZfZjF6YUxMOXlaSV9jWmNZYXRpVmtnaTlGWHN5aGtLYXkyUHA3VFd3bw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcV9iTkx3WTVtc0N6LTVlMmI0QjJ1UnJDeHNkcnFPa2JDeWg4cnREa3NsMDZlZDJ4SFFmSGxZUDNQeFY2QkFCdjFxU1BVeGlFU3U2VWQzTWt1Wjd6eEhyLTFaaER5YllQbHM2NzVpa0ZzaDBiZi1TdFp1SlBLNnMwWlpEWk1pTC1UUUdleERvVTMzVHdDWE5QcVZiNy1Kc0FKSmR0cTM0WGhud3V2NWMwbw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNmU1Mzg4cUNXd2t4emVpTGp2eWpRbDA3VThHTy1URF9TTVRwQ1FFd3NPOERxSm0wRVZscnFSWGt0RkI2NFVFN3B1eFJEOHFaT0NfXzRvNHdZaHFrS2lpOUVpWU1qQ3U4eVVzSzIwWVZBTEhhaEFSYlhEUlI3X2tuM0FualVUUVpWeFBPV3lSRnowMkxXdWEyRUI2dnZMQ1paM1NpYVh3YzNzT0lfTnI2WA?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVpycmtpUDNHNE9xM2hKYkZfR2JJR1BicDFLMFVLa2RUUlVOMUhaYzVIcmdISWF5T3BSVUltZXNQVTFIbFROdVhodmRsUHh1VVVQcHU5UDg2TXhyclpoRVlkWDVoVFV5SHEyQ1VlVm9RQmVzRnY5cGpCMGZ4QmU0NVV4STRfaEtPRlJjNFJ5OW5PanZpUFN3eThSMlY?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aNjFLVFJqS1lUbF9BcUp4WHN0STJvSl8zRUtMZkdOcWV5UWVZT19kOURKd3ZNWTV4MGd4VHdTTW0zSVczWU9YbkszQTNEcDhuYzJCaEZGZWhIX0F1Zld6STE2OEhFd0M5VmZ5U2tB0gFmQVVfeXFMUG5NcUY1aGlYN1hNSDVncWxiTU52dVl4X3BvT3Q5ZkQ2R3ZWMWkzeVBHWVoyVWY2Z1JrZXdyZFRJY3hMYXphZXNxTElXNXRCcmdpbng1QlF0ejhmRW5TMzhjcXZRRzl3?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY1RNNFRQU3llT29lbGpSOWRYbmRrakFkMGV3UWhzTDBVNHM4TWFOY21wUFRLc3RxRzhGVWUyakw0QXd2TDVzWndZS1hha0xOSWVhRVZ2UFZESm14c3VhVmdZZ3lDNkJrazQybjdvOHBVNE5oV2xGSldPeWFIQlcwd3hUUW90Nnc5d2gxTUV1YTBKNE5EV2dYbUQ5UQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS2RpdmFubjlsUDh2eWZOZVRudGZjdzAyNzZHZV9oRkxHZ0dJRE9ya0dtbThwYWs1djFzaVcyMExGS0M3V0t6Nk1LYThDYVRfY0EtbmdwYWpwUHJxUUV5RF94S1MwRUJBUlFZRGU2R01Cb3hTMWFNejFHSS1BbDNJa25PTW1qdmxPdEMxWmVuX2YzZUFVc0ZR?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQjFWcVJtdTc2LVpxTG80eXVFV0VjVDlHeGxXX1BpclB2MkR4MlpYdjRxNmNWSkpwZXVNN1FNVGtsX21TSnZuWmYtTzludFdET1JNdFFyUUxFcE8tVkZvUnI2amNRWktrVGF3NDdKN29yYVl1Rlc1bWVjWUxBbzZWZE13WlVBT0JEOThacGdGWWV4U0pVQUxmY1h0NVV3bnotVFZIbmlQbzBrclE0bW9TRWMwaHVVVDNlT1pkTGVtYWRUczA?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWHYzNkJwSEFuWHNWY3R5WUdzSXU1V2dpUVNaNElSd0tJcWFsVmw1cnJUU1hxRTJrX0t3RWk1ZUhzdTNZdnBzemFySFVSX3lXNUFQUnFGajljZUxEaVZvckV1emZnWWVGV2VUSjRwRXJHU1BtaHFaWUc1ZS1pVWxaQnN4TWpfNEpCRFVabzNhb214VDFYSVpBS1Ewb2lScjVNRHlTc0FBa1B1ei0yVUxRekxJRnl5WDI2MXR4TWlyNjN4czh3QmZlX28zdFc4SWpqT2JoY3BwZzJrcWlRTUY2MlhibGxJUFQ1TzVz?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZUzNScUkwS2hRZi1wa1ExN0FnTFhJdjJENlVsdXVYT2cwc1VEY0VlM0xxN292RW8zczI3dUp2R296Zmt1cXZGMWVCVGJhSkdraFExQVJ3bXg1Rk0xOFNtZVdSeUFMaVNZLW5kcjA1MTl6TzRVR2V0UndRNE1Cdw?oc=5"
    }
   ],
   "impacts": [
@@ -51251,9 +51119,43 @@
      "ru": "Долгосрочные гособлигации США"
     },
     "price_at_alert": 80.88
+   },
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794365243,
+    "reason": "נכסים בסיכון יורדים בעקבות חשש מריבית",
+    "reason_i18n": {
+     "he": "נכסים בסיכון יורדים בעקבות חשש מריבית",
+     "en": "Risk assets fall on rate hike concerns",
+     "ar": "الأصول عالية المخاطر تنخفض بسبب مخاوف الفائدة",
+     "ru": "Рисковые активы падают из-за ставок"
+    },
+    "name_i18n": {
+     "he": "IBIT - קרן ביטקוין",
+     "en": "IBIT – Bitcoin ETF",
+     "ar": "IBIT - صندوق بيتكوين",
+     "ru": "IBIT - биткоин-фонд"
+    },
+    "price_at_alert": 41.68
    }
   ],
-  "id": "5c58128ed64b"
+  "id": "5c58128ed64b",
+  "updates": [
+   {
+    "ts": 1794365243,
+    "time": "2026-11-11T02:47Z",
+    "severity": 8,
+    "summary": "נתוני אינפלציה חדשים וחמים בארה\"ב מעוררים חששות בשווקים לגבי העלאות ריבית נוספות מצד הפדרל ריזרב, וגורמים לירידות בוול סטריט ולירידות בשווקי האג\"ח והביטקוין.",
+    "i18n": {
+     "he": "נתוני אינפלציה חדשים וחמים בארה\"ב מעוררים חששות בשווקים לגבי העלאות ריבית נוספות מצד הפדרל ריזרב, וגורמים לירידות בוול סטריט ולירידות בשווקי האג\"ח והביטקוין.",
+     "en": "Hot U.S. consumer price inflation reports have intensified fears that the Federal Reserve will raise interest rates or keep them elevated, causing a sell-off in bonds, a drop in major U.S. stock indices, and a decline in crypto markets.",
+     "ar": "أدت تقارير التضخم الساخنة في الولايات المتحدة إلى تزايد المخاوف من أن يقوم الاحتياطي الفيدرالي برفع أسعار الفائدة، مما تسبب في عمليات بيع في السندات وانخفاض الأسهم.",
+     "ru": "Горячие данные по инфляции в США усилили опасения, что Федеральная резервная система повысит процентные ставки, вызвав падение на рынках акций, облигаций и криптовалют."
+    }
+   }
+  ],
+  "last_update": 1794365243
  },
  {
   "ts": 1794346775,
@@ -52759,5 +52661,71 @@
    }
   ],
   "id": "a6e5dae55d00"
+ },
+ {
+  "ts": 1794365243,
+  "time": "2026-11-11T02:47Z",
+  "title": "הסנקציות האמריקאיות מקשות על רוסיה לעבור לסחר ביואן",
+  "summary": "דו\"חות ונתונים מצביעים על כך שהלחץ מהסנקציות האמריקאיות מקשה על רוסיה לבצע תשלומי יצוא ביואן סיני, ומחזק את הביקוש לדולר בסחר הבינלאומי שלה.",
+  "kid": "ארה\"ב מפעילה סנקציות שמקשות על רוסיה למכור סחורות תמורת כסף סיני (יואן). זה מחזק בחזרה את השימוש בדולר האמריקאי.",
+  "i18n": {
+   "title": {
+    "he": "הסנקציות האמריקאיות מקשות על רוסיה לעבור לסחר ביואן",
+    "en": "U.S. Sanctions Pressure Falters Russia’s Yuan Export Shift",
+    "ar": "العوبات الأمريكية تعرقل تحول روسيا لتجارة اليوان",
+    "ru": "Санкции США мешают России перейти на расчеты в юанях при экспорте"
+   },
+   "summary": {
+    "he": "דו\"חות ונתונים מצביעים על כך שהלחץ מהסנקציות האמריקאיות מקשה על רוסיה לבצע תשלומי יצוא ביואן סיני, ומחזק את הביקוש לדולר בסחר הבינלאומי שלה.",
+    "en": "Auditors and market reports indicate that U.S. sanctions pressure is undermining Russia's efforts to shift export payments to the Chinese yuan, prompting a partial return to dollar reliance.",
+    "ar": "تشير التقارير إلى أن ضغوط العقوبات الأمريكية تعرقل محاولات روسيا لتحويل مدفوعات التصدير إلى اليوان الصيني.",
+    "ru": "Отчеты показывают, что давление американских санкций подрывает попытки России перевести экспортные платежи в китайские юани."
+   },
+   "kid": {
+    "he": "ארה\"ב מפעילה סנקציות שמקשות על רוסיה למכור סחורות תמורת כסף סיני (יואן). זה מחזק בחזרה את השימוש בדולר האמריקאי.",
+    "en": "The U.S. is using economic penalties to make it harder for Russia to trade using Chinese currency. This forces trade back toward the U.S. dollar, strengthening the dollar's global role.",
+    "ar": "تفرض الولايات المتحدة عقوبات تجعل من الصعب على روسيا التجارة بالعملة الصينية، مما يعزز استخدام الدولار الأمريكي.",
+    "ru": "США вводят санкции, которые затрудняют для России торговлю в китайских юанях, возвращая спрос на доллар США."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSi1mVjFOZVBDdWN2aUE0VzU1c3RvQ2RlS0pZZlJ1Z2JSSFVDSFhydTBIamNpNVhGYVVKN1NIZWdfcWZ5UXVvd24zYzZnUGMwQUNFMnpjcGIyNjZkV2pUeVI5YUl6X1JWYXFxU3drNmJWOXljNXg5TnZBTmxibkkzYW8wbWVPOXhtYjJtQi10Z2VYYTQ0cHFsd1g2V0dMZC0x?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWHdIbk5Zdkx1YXhHdTZySEdldWVMY01BQi1ibDdDMUNPODZaS3hoNHZhTnp3dk9FNjN4bHFWaXVGY0tremY2NUhBUW5jZUM3OHlZWXJJd2NrWXVobEpCbVAyWTdtQkxBcENwU3RnQ2IxTENEcFdHeFF4a1gySlEzcVN0RmoyZVMyWWdBNmVJZWJTejlFcWU2NnczWk9FWVppY2w4?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSnhuUmRwZ2wzQTJxVHRvRzRQZVBVeGo0V3RwN0F4ckJRTUt5ZEEyZ0wwaS1XZFFpWG9ZRk9sZkZFbm5RWFZCVV9GZW9ya0c2NDdTOC0zSVVBTHF1Y3pHR3ZhekpvcWNqbjNPaUpodnQxMGcyVl9GdGRSdmtEYk5DaWwxcGRTNV9ZdWpJZEtNSE16SGRqQS1DRXRLY0dlZmVWaXlCNExQQ3VrX1AwUmJMTUV4dEo3QlNsUjVUMG5ZNUdHdzlZQUNuT28weVRJUnhQWTVoRGNtWGlGX2M3UEpnMzhvZHdpTVE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794365243,
+    "reason": "החלשת המעבר ליואן מגדילה את הביקוש לדולר",
+    "reason_i18n": {
+     "he": "החלשת המעבר ליואן מגדילה את הביקוש לדולר",
+     "en": "Reduced yuan shifting supports dollar demand",
+     "ar": "تراجع التحول إلى اليوان يدعم الطلب على الدولار",
+     "ru": "Снижение перехода на юани поддерживает спрос на доллар"
+    },
+    "name_i18n": {
+     "he": "UUP - קרן הדולר האמריקאי",
+     "en": "UUP – Invesco DB US Dollar Index Bullish Fund",
+     "ar": "UUP - صندوق الدولار الأمريكي",
+     "ru": "UUP - биржевой фонд доллара США"
+    },
+    "price_at_alert": 29.15
+   }
+  ],
+  "id": "a802b931b68a"
  }
 ]
