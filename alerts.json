@@ -1094,261 +1094,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793815462,
-  "time": "2026-11-04T18:04Z",
-  "title": "מניות טסלה וספייס-אקס יורדות בעקבות הפסדי מועמדים שנתמכו ע\"י מאסק",
-  "summary": "מניותיהן של חברות בבעלות אילון מאסק ספגו ירידות חדות לאחר שמועמדים פוליטיים שזכו לתמיכתו הפסידו בבחירות בטקסס.",
-  "kid": "פוליטיקאים שאילון מאסק תמך בהם הפסידו בבחירות בטקסס, מה שגרם למשקיעים למכור מניות של החברות שלו כמו טסלה.",
-  "i18n": {
-   "title": {
-    "he": "מניות טסלה וספייס-אקס יורדות בעקבות הפסדי מועמדים שנתמכו ע\"י מאסק",
-    "en": "Tesla and SpaceX Stocks Fall After Musk-Backed Candidates Lose",
-    "ar": "هبوط أسهم تسلا وسبيس إكس بعد خسارة المرشحين المدعومين من ماسك",
-    "ru": "Акции Tesla и SpaceX падают после поражения поддерживаемых Маском кандидатов"
-   },
-   "summary": {
-    "he": "מניותיהן של חברות בבעלות אילון מאסק ספגו ירידות חדות לאחר שמועמדים פוליטיים שזכו לתמיכתו הפסידו בבחירות בטקסס.",
-    "en": "Shares tied to Elon Musk tumbled following the defeat of political candidates in Texas who had received his backing.",
-    "ar": "هبطت الأسهم المرتبطة بإيلون ماسك إثر هزيمة المرشحين السياسيين في تكساس الذين تلقوا دعمه.",
-    "ru": "Акции, связанные с Илоном Маском, упали после поражения поддерживавшихся им кандидатов в Техасе."
-   },
-   "kid": {
-    "he": "פוליטיקאים שאילון מאסק תמך בהם הפסידו בבחירות בטקסס, מה שגרם למשקיעים למכור מניות של החברות שלו כמו טסלה.",
-    "en": "Politicians supported by Elon Musk lost their races in Texas, causing investors to sell shares of his companies like Tesla.",
-    "ar": "خسر السياسيون الذين دعمهم إيلون ماسك سباقاتهم في تكساس، مما دفع المستثمرين لبيع أسهم شركاته.",
-    "ru": "Политики, которых поддерживал Илон Маск, проиграли выборы в Техасе, заставив инвесторов продавать акции его компаний."
-   }
-  },
-  "category": "policy",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "TSLA",
-    "direction": "down",
-    "t0": 1793815462,
-    "reason": "הפסדי תומכיו הפוליטיים של מאסק יוצרים חשש מהשפעה עתידית על הרגולציה והתמיכה הממשלתית.",
-    "reason_i18n": {
-     "he": "הפסדי תומכיו הפוליטיים של מאסק יוצרים חשש מהשפעה עתידית על הרגולציה והתמיכה הממשלתית.",
-     "en": "Losses by Musk's political allies raise concerns over potential regulatory headwinds.",
-     "ar": "خسائر حلفاء ماسك السياسيين تثير مخاوف بشأن الرياح التنظيمية المعاكسة المحتملة.",
-     "ru": "Потери политических союзников Маска вызывают опасения по поводу возможных регуляторных препятствий."
-    },
-    "name_i18n": {
-     "he": "טסלה - יצרנית רכב חשמלי",
-     "en": "Tesla - Electric Vehicle Maker",
-     "ar": "تسلا - صانعة السيارات الكهربائية",
-     "ru": "Tesla - производитель электромобилей"
-    },
-    "price_at_alert": 390.1551,
-    "entry_price": 388.54,
-    "entry_time": "2026-11-04T18:30+00:00",
-    "exit_price": 343.57,
-    "exit_date": "2026-11-05",
-    "change_pct": -11.57,
-    "bench": "SPY",
-    "bench_change_pct": -4.58,
-    "excess_pct": -7.0,
-    "edge_pct": 7.0,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "8970dcc69ef7",
-  "evaluated": true
- },
- {
-  "ts": 1793815462,
-  "time": "2026-11-04T18:04Z",
-  "title": "ריינמטאל חותכת את התחזית עקב עיכובים ברכש ביטחוני",
-  "summary": "יצרנית הנשק האירופית ריינמטאל הפחיתה את התחזית העסקית שלה בשל עיכובים נמשכים בשרשרת הרכש והאספקה הביטחונית.",
-  "kid": "חברת נשק אירופית גדולה עיכבה אספקות והורידה את תחזית הרווחים, מה שמשפיע גם על סקטור הביטחון כולו.",
-  "i18n": {
-   "title": {
-    "he": "ריינמטאל חותכת את התחזית עקב עיכובים ברכש ביטחוני",
-    "en": "Rheinmetall Cuts Outlook Again After Procurement Delays",
-    "ar": "راينميتال تخفض توقعاتها مجدداً بسبب تأخيرات المشتريات",
-    "ru": "Rheinmetall снова ухудшает прогноз из-за задержек закупок"
-   },
-   "summary": {
-    "he": "יצרנית הנשק האירופית ריינמטאל הפחיתה את התחזית העסקית שלה בשל עיכובים נמשכים בשרשרת הרכש והאספקה הביטחונית.",
-    "en": "European defense manufacturer Rheinmetall lowered its financial outlook once again due to persistent procurement and supply chain delays.",
-    "ar": "خفضت شركة الدفاع الأوروبية رينميتال توقعاتها المالية مرة أخرى بسبب التأخير المستمر في سلاسل التوريد العسكرية.",
-    "ru": "Европейский оборонный производитель Rheinmetall снова понизил финансовый прогноз из-за постоянных задержек поставок."
-   },
-   "kid": {
-    "he": "חברת נשק אירופית גדולה עיכבה אספקות והורידה את תחזית הרווחים, מה שמשפיע גם על סקטור הביטחון כולו.",
-    "en": "A major European arms maker delayed deliveries and cut its profit outlook, which also affects the broader defense sector.",
-    "ar": "أجلت شركة أسلحة أوروبية كبرى عمليات التسليم وخفضت توقعات الأرباح، مما يؤثر على قطاع الدفاع بأكمله.",
-    "ru": "Крупный европейский производитель оружия отложил поставки и снизил прогноз прибыли, что затрагивает весь оборонный сектор."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "down",
-    "t0": 1793815462,
-    "reason": "עיכובי רכש בענף הביטחון העולמי פוגעים בסנטימנט כלפי מניות הביטחון.",
-    "reason_i18n": {
-     "he": "עיכובי רכש בענף הביטחון העולמי פוגעים בסנטימנט כלפי מניות הביטחון.",
-     "en": "Global defense procurement delays weigh on overall defense sector sentiment.",
-     "ar": "تأخيرات مشتريات الدفاع العالمية تؤثر سلباً على معنويات قطاع الدفاع.",
-     "ru": "Задержки оборонных закупок в мире давят на общие настроения в оборонном секторе."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון",
-     "en": "ITA - iShares U.S. Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 213.62,
-    "entry_price": 213.32,
-    "entry_time": "2026-11-04T18:30+00:00",
-    "exit_price": 68.07,
-    "exit_date": "2026-11-05",
-    "change_pct": -68.09,
-    "bench": "SPY",
-    "bench_change_pct": -4.58,
-    "excess_pct": -63.51,
-    "edge_pct": 63.51,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWG",
-    "direction": "down",
-    "t0": 1793815462,
-    "reason": "חברת ריינמטאל היא ענקית תעשייה גרמנית שפגיעתה משפיעה על השוק המקומי.",
-    "reason_i18n": {
-     "he": "חברת ריינמטאל היא ענקית תעשייה גרמנית שפגיעתה משפיעה על השוק המקומי.",
-     "en": "Rheinmetall is a German industrial bellwether whose setbacks hurt local market sentiment.",
-     "ar": "راينميتال هي شركة صناعية ألمانية كبرى تؤثر نكساتها على السوق المحلي.",
-     "ru": "Rheinmetall — немецкий промышленный гигант, чьи неудачи бьют по местному рынку."
-    },
-    "name_i18n": {
-     "he": "EWG - קרן סל גרמניה",
-     "en": "EWG - Germany ETF",
-     "ar": "EWG - صندوق ألمانيا",
-     "ru": "EWG - ETF Германии"
-    },
-    "price_at_alert": 43.4301,
-    "entry_price": 43.395,
-    "entry_time": "2026-11-04T18:30+00:00",
-    "exit_price": 42.75,
-    "exit_date": "2026-11-05",
-    "change_pct": -1.49,
-    "bench": "SPY",
-    "bench_change_pct": -4.58,
-    "excess_pct": 3.09,
-    "edge_pct": -3.09,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "768556ee84bc",
-  "evaluated": true
- },
- {
-  "ts": 1793815462,
-  "time": "2026-11-04T18:04Z",
-  "title": "גרינלנד מאשרת הקמת שני בסיסים צבאיים אמריקאיים ומערכת הגנה",
-  "summary": "ממשלת גרינלנד נתנה אישור להקמת שני בסיסים צבאיים אמריקאיים חדשים ולקידום פרויקט מערכת ההגנה נגד טילים של טראמפ.",
-  "kid": "גרינלנד הסכימה להקים בסיסים צבאיים חדשים של אلم\"א ומערכת הגנה מטילים, מה שמציין הזמנות ענק לחברות הביטחון.",
-  "i18n": {
-   "title": {
-    "he": "גרינלנד מאשרת הקמת שני בסיסים צבאיים אמריקאיים ומערכת הגנה",
-    "en": "Greenland Approves Two US Military Bases and Missile Shield",
-    "ar": "غرينلاند توافق على قاعدتين عسكريتين أمريكيتين ونظام دفاع صاروخي",
-    "ru": "Гренландия одобряет две военные базы США и ракетный щит"
-   },
-   "summary": {
-    "he": "ממשלת גרינלנד נתנה אישור להקמת שני בסיסים צבאיים אמריקאיים חדשים ולקידום פרויקט מערכת ההגנה נגד טילים של טראמפ.",
-    "en": "The government of Greenland has approved the establishment of two new US military bases alongside Trump's missile defense system project.",
-    "ar": "وافقت حكومة غرينلاند على إنشاء قاعدتين عسكريتين أمريكيتين جديدتين إلى جانب مشروع نظام الدفاع الصاروخي.",
-    "ru": "Правительство Гренландии одобрило создание двух новых военных баз США и проект системы противоракетной обороны."
-   },
-   "kid": {
-    "he": "גרינלנד הסכימה להקים בסיסים צבאיים חדשים של אلم\"א ומערכת הגנה מטילים, מה שמציין הזמנות ענק לחברות הביטחון.",
-    "en": "Greenland agreed to new US military bases and a missile shield, signaling major future work for defense contractors.",
-    "ar": "وافقت غرينلاند على قواعد عسكرية جديدة ونظام دفاع صاروخي، مما يشير إلى عقود ضخمة لشركات الدفاع.",
-    "ru": "Гренландия согласилась на новые военные базы США и ракетный щит, что сулит крупные контракты оборонным подрядчикам."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1793815462,
-    "reason": "הרחבת מערכות ההגנה הטיליות באזור הארקטי צפויה לייצר חוזי ענק לחברות ההגנה.",
-    "reason_i18n": {
-     "he": "הרחבת מערכות ההגנה הטיליות באזור הארקטי צפויה לייצר חוזי ענק לחברות ההגנה.",
-     "en": "Expansion of Arctic missile defense systems is expected to generate massive defense contracts.",
-     "ar": "من المتوقع أن يولد توسيع أنظمة الدفاع الصاروخي عقود دفاعية ضخمة.",
-     "ru": "Расширение систем противоракетной обороны в Арктике сулит гигантские оборонные контракты."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין - יצרנית נשק וטכנולוגיה צבאית",
-     "en": "Lockheed Martin - Defense and Aerospace Contractor",
-     "ar": "لوكهيد مارتن - مقاول الدفاع والفضاء",
-     "ru": "Lockheed Martin - оборонный подрядчик"
-    },
-    "price_at_alert": 595.23,
-    "entry_price": 596.28,
-    "entry_time": "2026-11-04T18:30+00:00",
-    "exit_price": 576.45,
-    "exit_date": "2026-11-05",
-    "change_pct": -3.33,
-    "bench": "SPY",
-    "bench_change_pct": -4.58,
-    "excess_pct": 1.25,
-    "edge_pct": 1.25,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "NOC",
-    "direction": "up",
-    "t0": 1793815462,
-    "reason": "מעורבות בפרויקטי הגנה אווירית ומערכות מכרזים צבאיות באזור הארקטי.",
-    "reason_i18n": {
-     "he": "מעורבות בפרויקטי הגנה אווירית ומערכות מכרזים צבאיות באזור הארקטי.",
-     "en": "Involvement in arctic air defense and missile shield procurement projects.",
-     "ar": "المشاركة في مشاريع الدفاع الجوي الصاروخي في القطب الشمالي.",
-     "ru": "Участие в проектах противовоздушной и противоракетной обороны в Арктике."
-    },
-    "name_i18n": {
-     "he": "נורת'רופ גראמן - חברת תעופה וביטחון",
-     "en": "Northrop Grumman - Defense Technology Company",
-     "ar": "نورثروب غرومان - شركة تكنولوجيا الدفاع",
-     "ru": "Northrop Grumman - оборонная компания"
-    },
-    "price_at_alert": 526.325,
-    "entry_price": 528.105,
-    "entry_time": "2026-11-04T18:30+00:00",
-    "exit_price": 525.52,
-    "exit_date": "2026-11-05",
-    "change_pct": -0.49,
-    "bench": "SPY",
-    "bench_change_pct": -4.58,
-    "excess_pct": 4.09,
-    "edge_pct": 4.09,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "ec1ac03b6f98",
-  "evaluated": true
- },
- {
   "ts": 1793822133,
   "time": "2026-11-04T19:55Z",
   "title": "איוואן הו מינס סופגת הורדת דירוג עקב קיצוץ תחזית נחושת",
@@ -51234,18 +50979,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMllWbUowVjVwUk5ENVFqSllTRjhncWhpOVZWa0RWaE5scVZsWmFrV1ZuempZSlBQdVI2Z2VOYW8zdjd1WXdxY3lTQ2VPWXBwdnlqaUFMMHRWZVlzb2ZVWGRWZVpObWIwRTdhSWJSeXF5LW93YjdSUHFJbGNpUWFVMC1PRndGVktMT2lzRkVFbFhLT2REbkpXZDByenZZRGpMdjRrZUdDcw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2VjcVI5YU1od01CaXl6a2VMQ0UzSHVDc3pDMzRmcWQwMGtwb0h3MmM3RkY0enNoc2tLV2VQaXpoQ0J2NTNSOV9UTlBXM0p2Y0daSkd1VUpjT3RfeFpZa1hSdjhfclRkNTZPdG8ySUxjRzZzU1E5OU44YkpSX0R4MXhQc1hZSEdEN3g0UTZndlo1MnRI?oc=5"
-   },
-   {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmxFNFRTLWJPdk5GMEhGSkU3V0JQOXRCdlczbl90cmU1aGVjVm9sMzcydGM1RHR3Q0wyOU1IaC16dzNwTDNpWWxmWTcteGQ0clVxM3NQT2UwMlphRUNXcl9Ick1BeVBtaTFSUVdjTnZMTlJNZnQ5WVVTcjJ4ODAwQl9TVlpNY1pHalE?oc=5"
    },
@@ -51256,6 +50989,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY0Z3NUJpbDhVTC1pYlZaeXVRdDZsekczNF9kcm80YW1pcnFkQXlOVUpwbThuTldON01GeW1JNlFxN0hXaXl4TU9La2NYZ0xJOVFqdWhWMlk4bnNFQk93RjAySTB3OGlHVFhPTl9OOEt2cUp4NHlCdVdOQXF6YTJyM0FPbkhYc05IYVNyYUNqSzdXek1LYVd5OG80R3NEc0JrUjZBcG1iN1VLTVo4R3d2cDY4enhIdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR2s3VTR2bTdxSHFVNWY1R2owUTF1U1dIdzhGdWJFd0ZQYV9mWmFsOVprWW16czNmc3dBYnAxaENfdkl0b2pmc1FJdzZTZ1ZneUttQ3pJcWJIN0wyV2RpMTg5Vng4ZVhZTjNaZ2J4M2NUc282THhOZllNY3JvaHpraUJyZEgwODYySy1sbVFmM2VNVW5J?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0VSNG4xaHlzN2NBeThMTFNXV0FjRlg0TkNJNVVmVWR6cjdsYnZ2WEVJc05aM21qSEVoUjZGWTJaS0EyMlF4TTlWWXVESENtd1hRRE1xOFRKTlZKMGhLZjJSelg1UGFTWEM4N3lSa1hIaGZqLXB4UTU1ejVLM28zU3BjYUZvbVhfLWt6SWdVaktLdnB4SGwtSDFZLURKcVBfNnpQX0tJMm1UNWZj?oc=5"
    }
   ],
   "impacts": [
@@ -51334,9 +51079,62 @@
      "ru": "IBIT - Биткоин ETF"
     },
     "price_at_alert": 41.68
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1794420441,
+    "reason": "עלייה בתשואות האג\"ח עקב אינפלציה",
+    "reason_i18n": {
+     "he": "עלייה בתשואות האג\"ח עקב אינפלציה",
+     "en": "Rising bond yields due to inflation",
+     "ar": "ارتفاع عوائد السندات بسبب التضخم",
+     "ru": "Рост доходности облигаций из-за инфляции"
+    },
+    "name_i18n": {
+     "he": "קרן זהב",
+     "en": "Gold ETF",
+     "ar": "صندوق الذهب",
+     "ru": "Золотой ETF"
+    },
+    "price_at_alert": 365.64
+   },
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794420441,
+    "reason": "מחסור עולמי בנחושת",
+    "reason_i18n": {
+     "he": "מחסור עולמי בנחושת",
+     "en": "Global copper shortage",
+     "ar": "نقص عالمي في النحاس",
+     "ru": "Глобальный дефицит меди"
+    },
+    "name_i18n": {
+     "he": "קרן נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "Медный ETF"
+    },
+    "price_at_alert": 37.84
    }
   ],
-  "id": "15f6bf43d153"
+  "id": "15f6bf43d153",
+  "updates": [
+   {
+    "ts": 1794420441,
+    "time": "2026-11-11T18:07Z",
+    "severity": 5,
+    "summary": "נתוני אינפלציה חמים בארה\"ב מובילים לירידה במחירי הזהב, בעוד הנחושת נהנית מביקוש גבוה ומחסור בהיצע.",
+    "i18n": {
+     "he": "נתוני אינפלציה חמים בארה\"ב מובילים לירידה במחירי הזהב, בעוד הנחושת נהנית מביקוש גבוה ומחסור בהיצע.",
+     "en": "Hot US inflation data is weighing on gold prices, while copper finds support from high demand and supply shortages.",
+     "ar": "بيانات التضخم الأمريكية المرتفعة تضغط على أسعار الذهب، بينما يجد النحاس دعماً من الطلب المرتفع ونقص المعروض.",
+     "ru": "Высокие данные по инфляции в США давят на цены на золото, в то время как медь находит поддержку благодаря высокому спросу и дефициту предложения."
+    }
+   }
+  ],
+  "last_update": 1794420441
  },
  {
   "ts": 1794406668,
@@ -51932,5 +51730,160 @@
    }
   ],
   "id": "d06aa6288985"
+ },
+ {
+  "ts": 1794420441,
+  "time": "2026-11-11T18:07Z",
+  "title": "הסלמה במתיחות מול איראן וסנקציות חדשות",
+  "summary": "קנדה הטילה מחדש סנקציות על 11 גופים איראניים, בעוד ארה\"ב ממשיכה בלחץ כלכלי. דווח על תקיפת מערכות ניווט ימיות ליד עומאן.",
+  "kid": "מדינות מטילות עונשים כלכליים על איראן בגלל פעולותיה. זה עלול להשפיע על מחירי הנפט והספנות בעולם.",
+  "i18n": {
+   "title": {
+    "he": "הסלמה במתיחות מול איראן וסנקציות חדשות",
+    "en": "Escalating Iran Tensions and New Sanctions",
+    "ar": "تصاعد التوترات مع إيران وعقوبات جديدة",
+    "ru": "Эскалация напряженности с Ираном и новые санкции"
+   },
+   "summary": {
+    "he": "קנדה הטילה מחדש סנקציות על 11 גופים איראניים, בעוד ארה\"ב ממשיכה בלחץ כלכלי. דווח על תקיפת מערכות ניווט ימיות ליד עומאן.",
+    "en": "Canada reinstated sanctions on 11 Iranian entities while the US continues economic pressure. Reports indicate attacks on maritime navigation systems near Oman.",
+    "ar": "أعادت كندا فرض عقوبات على 11 كياناً إيرانياً بينما تواصل الولايات المتحدة الضغط الاقتصادي. تشير التقارير إلى هجمات على أنظمة الملاحة البحرية بالقرب من عمان.",
+    "ru": "Канада восстановила санкции против 11 иранских организаций, в то время как США продолжают экономическое давление. Поступают сообщения об атаках на системы морской навигации возле Омана."
+   },
+   "kid": {
+    "he": "מדינות מטילות עונשים כלכליים על איראן בגלל פעולותיה. זה עלול להשפיע על מחירי הנפט והספנות בעולם.",
+    "en": "Countries are putting financial penalties on Iran because of its actions. This might make oil prices and shipping costs go up.",
+    "ar": "تفرض الدول عقوبات مالية على إيران بسبب أفعالها. هذا قد يؤدي إلى ارتفاع أسعار النفط وتكاليف الشحن.",
+    "ru": "Страны вводят финансовые санкции против Ирана из-за его действий. Это может привести к росту цен на нефть и стоимости доставки грузов."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV3RNY2ZHNXdUSm1janlnS09Ka1IyLTdEOE9jQjNmWm84Mkhkdnl2a3lPZl9qUmtGdld2WXNDQnAxLXl6VHpDbkprdm8zb25mUGVwSG9McmdQTDJZVGFxTzBuR0J0NXNITE8wR3lOZ2xKYjlRclJld1psbzVZNEVFN3J0REhweWhZU0tyakZ2WDhqNDNENjdyaURXanZLaHJLajN6RkU4YlVLenhXWmVEUVNNQ3dtclpsQU9KbXhPMDFBYUNpM1VEbkFB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHVOb3F2MVpGZ0s0N3hWOWFOMEJxZkJkNHFEVk1RNlcxR0ZEb0lTNl9GQlpkbExVMDNzMzNCSHEyNmhvM2VoQ21yZ2VHa293Sjkxbk9yZjVuSk1PcG1oZGdFcC05VEpMNml0a01kVHlzNXhrbEFTSXdZMS0wVGNCTVFPcGllTGlkQUp4VEdBYmNTSzBpeVd3UA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOHNBS1hQMW8zTmZobXZnN2NpTG9kRlREbmxMTWtSOFZucEV3TzMwV0xuVUd5bTY4YWRaQV84X1ctU01vMGpucEROTXJaTmJjUDlWM05RblZXT2E4Mm12VkR6Nmo2OGY1VEtzT29jSFR6b2VyVWExWGhIWElMQVNKd3VVWFBEdzh1a3d2YlVfVXFkWU5HbllvcGVaTjUyelJTeThncmV6VkdyUUY2eXFzOWN6QkctNzM4dXc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWo2akNWeVpOSlJ4akt6MDZjb3R1MUZ3VXJoVnRlT0FDWEp4MzRsaGRYYlZJamtOOGgyOV90U2RQS085dVIwVVJ4S2traFRRSmFaeTF1X3pVeGY4N3RPSFM3c0Q3NGw4MlUtXzg1Y1k2Wm92aWljTnZ2UFUwRjUwRUk5TDQ4dGI1Nkw2V18tZngtWmUxOUdjMUNreVAtaC1Bd2c?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVVjY2l3ZjhDNVpXN2c5QXdsYXhXOWQ5dGFnd0p4RnJVSUd4MmRaaWVrUW8wZGItR29ONDhYWHRDTFRHQ2VXS25keHlpQVFRVnRMQ2FINDFhRTFBQjVla1N0YkZ1b3RvS0EzZ3NUNTFnQkhBVkQyZjJTNGdwZ3JQTnBWYXFZWmtDQUcyRGdhT2xBblJwdGRqbTRYQWsydEdTNTdBVU4zR01FTWxLT3ZtQV9nR0pUSWpvRnY1Ujh3R2ViM3B1RXdfZUhsWmtlVDdTN2k0TnpjLUZRc29JMVR3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTi1TY3c1M2NnVWptNE40SWFodlBJOGRNQkwwY2s1OHdtejVXVEIweGpWQmRzREViRThrOWtpVGl5Y2lLZzJiRXRMNFN6aUxHd3VFR1VlRHhqY3BXSmRoY0JLbWZyTEF0ZnppYjdFRkNSNVE0S3JVT3VWTUltYjJWeUR0eHhmR3NWWlYtM2dIN0ZwSnJNVHQwOHYtZUxFWjA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794420441,
+    "reason": "עלייה בסיכון הגיאופוליטי במפרץ הפרסי",
+    "reason_i18n": {
+     "he": "עלייה בסיכון הגיאופוליטי במפרץ הפרסי",
+     "en": "Increased geopolitical risk in the Persian Gulf",
+     "ar": "زيادة المخاطر الجيوسياسية في الخليج العربي",
+     "ru": "Рост геополитических рисков в Персидском заливе"
+    },
+    "name_i18n": {
+     "he": "קרן נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 142.97
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794420441,
+    "reason": "שיבושים בנתיבי שיט מעלים את מחירי התובלה",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי שיט מעלים את מחירי התובלה",
+     "en": "Disruptions to shipping lanes increase freight rates",
+     "ar": "اضطرابات في مسارات الشحن ترفع أسعار النقل",
+     "ru": "Нарушения судоходных путей повышают стоимость фрахта"
+    },
+    "name_i18n": {
+     "he": "חברת ספנות",
+     "en": "Shipping company",
+     "ar": "شركة شحن",
+     "ru": "Судоходная компания"
+    },
+    "price_at_alert": 29.0
+   }
+  ],
+  "id": "2c3591c264d1"
+ },
+ {
+  "ts": 1794420441,
+  "time": "2026-11-11T18:07Z",
+  "title": "חקירת ה-CFTC נגד פלטפורמת החוזים Kalshi",
+  "summary": "ה-CFTC חוקרת האם פלטפורמת החוזים Kalshi אישרה באופן לא תקין חוזי אירועים, לאחר הוראה קודמת להסרת שוקי הימורי ספורט.",
+  "kid": "רגולטורים בודקים אם חברה שמאפשרת להמר על תוצאות של אירועים עשתה זאת לפי החוק.",
+  "i18n": {
+   "title": {
+    "he": "חקירת ה-CFTC נגד פלטפורמת החוזים Kalshi",
+    "en": "CFTC Investigates Kalshi Event Contracts",
+    "ar": "تحقيق لجنة تداول السلع الآجلة في عقود منصة كالشي",
+    "ru": "Расследование CFTC в отношении платформы контрактов Kalshi"
+   },
+   "summary": {
+    "he": "ה-CFTC חוקרת האם פלטפורמת החוזים Kalshi אישרה באופן לא תקין חוזי אירועים, לאחר הוראה קודמת להסרת שוקי הימורי ספורט.",
+    "en": "The CFTC is investigating whether Kalshi improperly self-certified event contracts, following a previous order to remove sports-related markets.",
+    "ar": "تحقق لجنة تداول السلع الآجلة (CFTC) فيما إذا كانت منصة \"كالشي\" قد اعتمدت عقود أحداث بشكل غير صحيح، وذلك بعد أمر سابق بإزالة أسواق المراهنات الرياضية.",
+    "ru": "Комиссия по торговле товарными фьючерсами (CFTC) расследует, правильно ли платформа Kalshi сертифицировала контракты на события, после предыдущего распоряжения об удалении рынков спортивных ставок."
+   },
+   "kid": {
+    "he": "רגולטורים בודקים אם חברה שמאפשרת להמר על תוצאות של אירועים עשתה זאת לפי החוק.",
+    "en": "Regulators are checking if a company that lets people bet on event outcomes followed the rules.",
+    "ar": "يقوم المنظمون بالتحقق مما إذا كانت الشركة التي تسمح للناس بالمراهنة على نتائج الأحداث قد اتبعت القواعد.",
+    "ru": "Регуляторы проверяют, соблюдала ли компания, позволяющая делать ставки на результаты событий, установленные правила."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLF",
+    "direction": "down",
+    "t0": 1794420441,
+    "reason": "הגברת הפיקוח על מסחר בחוזים אלטרנטיביים",
+    "reason_i18n": {
+     "he": "הגברת הפיקוח על מסחר בחוזים אלטרנטיביים",
+     "en": "Increased scrutiny on alternative contract trading",
+     "ar": "زيادة الرقابة على تداول العقود البديلة",
+     "ru": "Усиление контроля за торговлей альтернативными контрактами"
+    },
+    "name_i18n": {
+     "he": "סקטור פיננסי",
+     "en": "Financial sector",
+     "ar": "القطاع المالي",
+     "ru": "Финансовый сектор"
+    },
+    "price_at_alert": 58.405
+   }
+  ],
+  "id": "b5755967775c"
  }
 ]
