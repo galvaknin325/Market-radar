@@ -67907,12 +67907,16 @@
    }
   },
   "category": "contracts",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aRVhwS09VT0dlMXdZeExocFdlbXVmZWRES2dpelRJLTlXbWc3M2ZfcE1UTHNpVGpYSmw5ZWt5RV90U1hlN190NTZPTmE3Zkk2Q2xIZ091cUdjN0lJZkV2NUpFdE0yM3lKOGZyU1J4RmdmRS1WZUE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zaDYxdDZoMVBGank4YUx4d3V5WGZLMlV1b203MkhPWERQUFdWLWlqaGdDM1N6ZkFkLU1WTUNyRmp4cDBjTjNwRVk2R04wTFlScU40NUpZTVVucW5WN2F1VGtNaEphbE84X09oRGtESVVtcUZkbGc?oc=5"
    }
   ],
   "impacts": [
@@ -67953,9 +67957,43 @@
      "ru": "SMH - ETF полупроводников"
     },
     "price_at_alert": 483.63
+   },
+   {
+    "ticker": "AMD",
+    "direction": "up",
+    "t0": 1794424604,
+    "reason": "השקת מוצר חדש ואימוץ על ידי ענקית טכנולוגיה.",
+    "reason_i18n": {
+     "he": "השקת מוצר חדש ואימוץ על ידי ענקית טכנולוגיה.",
+     "en": "New product launch and adoption by a tech giant.",
+     "ar": "إطلاق منتج جديد واعتماده من قبل عملاق التكنولوجيا.",
+     "ru": "Запуск нового продукта и его внедрение технологическим гигантом."
+    },
+    "name_i18n": {
+     "he": "AMD",
+     "en": "AMD",
+     "ar": "AMD",
+     "ru": "AMD"
+    },
+    "price_at_alert": 561.67
    }
   ],
-  "id": "22877d1a55de"
+  "id": "22877d1a55de",
+  "updates": [
+   {
+    "ts": 1794424604,
+    "time": "2026-11-11T19:16Z",
+    "severity": 5,
+    "summary": "מניית AMD עלתה לאחר שהחברה החלה לשלוח את מעבדי השרתים החדשים מדור EPYC Venice 9006, כאשר גוגל אימצה את הדור החמישי של השבבים.",
+    "i18n": {
+     "he": "מניית AMD עלתה לאחר שהחברה החלה לשלוח את מעבדי השרתים החדשים מדור EPYC Venice 9006, כאשר גוגל אימצה את הדור החמישי של השבבים.",
+     "en": "AMD shares rose as the company began shipping its new EPYC Venice 9006 server processors, with Google adopting the fifth-gen chips.",
+     "ar": "ارتفعت أسهم AMD بعد أن بدأت الشركة في شحن معالجات الخوادم الجديدة من جيل EPYC Venice 9006، مع اعتماد جوجل للجيل الخامس من الرقائق.",
+     "ru": "Акции AMD выросли после того, как компания начала поставки новых серверных процессоров поколения EPYC Venice 9006, а Google внедрила пятое поколение чипов."
+    }
+   }
+  ],
+  "last_update": 1794424604
  },
  {
   "ts": 1794372080,
@@ -68056,6 +68094,18 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUU1pUWF2TVp6ZEVnZVFXSW11RzNSeUVjcU13Nkt6OG5hRFBvVmJHMjBtR2xaaFZsREk5RXUxVG5TWnhBMmJOei12LTJiRHp1RnBrVlUwM0FVa2IwZzBLNXI3NXFuc2hXTThkanlfeXBSQ2JqbkMxaTlqM0tVc2liWVhxTkpiYlZ2MFZBV2hFMnRWV1hPNjlCeHBoMm9JcmJ3VTk1aDdkQ2poNDlHV2FvaWRCVkIxNldnVzhLT0I2Si0ydF9MZjdDV2F5ZXZGbVV2R2wtY3JiNHRaanpucmd5Z1lEX21jVXVwT2t1UVE2dk04M0ZnX2JmTzh3?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNS2VKOW1WXzZET2ZnOEJmRG9GdHgwVnV2WVNXcnptOTF5XzhqSXdXdGJTNzVESTRIWXBrdHdKdXl0Q1JPdENQVS1BMUdWcDRmZ0FOb1hGUUozcVQyWXgtbEV4RFZMakkxcFVGSWwzRFlmYVRLVDJodjRWZnlOc1Zrc3M4VnRaSXExdlBXWEFRZW9MU0pYUHFMdVFNQ0FxNmItelYzSS0xWDRCNi03cjJPaDc3d0x6cl9kc0txSzFYRlNBZVpDR3pQVXpaUkhocGt6NWdNd1B2NVk0aklxRWo0Tjh5NHZOSknSAewBQVVfeXFMUENPOGNJcmZCTWl6cTE2YVRjWXlJN0NIOFZ4djFYbF83U2Jla3UweENOUWFMQjBfRkhZSzhsWGZmMEpxd1lPcUUtY3R2bXV5Qm9LNTV0Ym1RZklZUTlpZHpuZjJBaGJoY3ljbWxtbEk1d0lHd1VhWEc2WmdCWV9TeEJwTnVxMGNsT0lBb0tFdDJzTkpkS3ZsOE92VHRHd2Z1QVppakFpQ3V4bm9HYkpfTmowM0Y1emgxelJBc3JEdmhaZm41S01HNGtQdGJUczZZdUswSEQ1TEJxa1h0MzBfZUU0SEwwMHp1bmRfUUc?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZEdPREtTWUZOZVRaZV9nc2N6SmFmUnVxVGl4ZTNkZnpUVzlvM09ENm1KRWFFTmR4OURkNUEzY056WlRoM1ZNLVdGbmdkWnBMbFRrUWRJSHduRVBTeE5jTmpEUzNmZmdZeGdySVZaRnQydDZyanJJa3gxSVNSVWQ0a0kzZmJTMmlQX1ZkempoVkl0UVNtcC1qU1hHWExJVGhZTHVydnhkcmNPZ1FiT0tsSWlVeUc2MGk2UXh4VmROVkxfUQ?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZzMxLUpidk9INW1VbHFYZk9uZDdSRFdkd09xVWtFX252SkxhakJ0TE55NWMxU05vUnRhcjJtX2dDRzMtOFpjWWFoR2VSVXNUTjJoemtsb1hla2VpQkVIN0xlYlJzM1M4WldULXRmTndxazRlekJlV3JwQlBuN09YXzhn?oc=5"
    }
   ],
   "impacts": [
@@ -68147,9 +68197,21 @@
      "ar": "كشف تقرير أن جامعة صينية مرتبطة بالجيش اشترت رقائق ذكاء اصطناعي من إنفيديا على الرغم من قيود القائمة السوداء الأمريكية.",
      "ru": "Расследование показало, что связанный с военными китайский университет купил ИИ-чипы Nvidia вопреки санкциям США."
     }
+   },
+   {
+    "ts": 1794424604,
+    "time": "2026-11-11T19:16Z",
+    "severity": 6,
+    "summary": "דיווחים מצביעים על כך שאוניברסיטה סינית בעלת קשרים צבאיים רכשה שבבי בינה מלאכותית מתקדמים של אנבידיה (H200) למרות איסור הייצוא האמריקאי.",
+    "i18n": {
+     "he": "דיווחים מצביעים על כך שאוניברסיטה סינית בעלת קשרים צבאיים רכשה שבבי בינה מלאכותית מתקדמים של אנבידיה (H200) למרות איסור הייצוא האמריקאי.",
+     "en": "Reports indicate that a Chinese university with military ties purchased advanced Nvidia AI chips (H200) despite US export bans.",
+     "ar": "تشير التقارير إلى أن جامعة صينية ذات صلات عسكرية اشترت رقائق ذكاء اصطناعي متقدمة من إنفيديا (H200) على الرغم من حظر التصدير الأمريكي.",
+     "ru": "Сообщается, что китайский университет, связанный с военными, приобрел передовые чипы ИИ Nvidia (H200), несмотря на запрет США на экспорт."
+    }
    }
   ],
-  "last_update": 1794406668
+  "last_update": 1794424604
  },
  {
   "ts": 1794375693,
@@ -69334,27 +69396,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmxFNFRTLWJPdk5GMEhGSkU3V0JQOXRCdlczbl90cmU1aGVjVm9sMzcydGM1RHR3Q0wyOU1IaC16dzNwTDNpWWxmWTcteGQ0clVxM3NQT2UwMlphRUNXcl9Ick1BeVBtaTFSUVdjTnZMTlJNZnQ5WVVTcjJ4ODAwQl9TVlpNY1pHalE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdG80cE9iTmFhSk1mWmdGbFlaX1g0Q0dPaHVUWGNKMzhvaHdOeGpua3RlWkNUWUlMVHBEdW9KN0lZSDRJYzJSMEYxMVpTRXhOalg3Nk5qRjNBZGM?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLS1jYUNhUmNfX3ZHLTJndXVRMDhZcUlTSFdTZE80SUhadlByWGt4RkpqUjlZTlJ2M1FhRG1uZmVkQy16Yk91dmhSRUxxQy1rMGRUdW0zRmRUWnktUlRYcTZSNTBSVUh5QThHazJQX182VTRJal9tQlM1ZjJqZEdLWFhhUE1OVDBvWlBZ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWi1KZnR3SUhoWDhxN0lFUE1pUUVDTzJsdGg4X29LSjRuTVFWWDlXY2V4ckRacHNraTRqTVpwOGJ1MTFzZm5KTUkxeFhDTi1tTXlEbDhwZmw4THByWThZVHN0aklXM0dMeE53RzhUNzlINWtXT2JVNDlJaXVXcWhMOXBQOXF1WnlqVXdFMEY4QmNOR196dzU3ZlBvelRvTWJGVWd5aVd6cGZPcklPYVVyaDRzVUxfQkZ3dHJsRklXemJDUQ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY0Z3NUJpbDhVTC1pYlZaeXVRdDZsekczNF9kcm80YW1pcnFkQXlOVUpwbThuTldON01GeW1JNlFxN0hXaXl4TU9La2NYZ0xJOVFqdWhWMlk4bnNFQk93RjAySTB3OGlHVFhPTl9OOEt2cUp4NHlCdVdOQXF6YTJyM0FPbkhYc05IYVNyYUNqSzdXek1LYVd5OG80R3NEc0JrUjZBcG1iN1VLTVo4R3d2cDY4enhIdw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTM1dSLVg1RUhwWjYyejBQMExTeDhPUUdGdFFyb2E1b2s1V2V0RWVFSGlwUTk3eGMyMnNCSWgydHZBZGs5V245cThLb3NsSVF4U25R?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR2s3VTR2bTdxSHFVNWY1R2owUTF1U1dIdzhGdWJFd0ZQYV9mWmFsOVprWW16czNmc3dBYnAxaENfdkl0b2pmc1FJdzZTZ1ZneUttQ3pJcWJIN0wyV2RpMTg5Vng4ZVhZTjNaZ2J4M2NUc282THhOZllNY3JvaHpraUJyZEgwODYySy1sbVFmM2VNVW5J?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUjduZkNkU3U4QmlkZ2tIS2ZDV3J0eEdJNkEtSldoekdPV0JQcTNEdmRTLXprOExMc3h0MTZyckNsTU5rci1jS0JCQWRvU0FhRHR4ZmVwN3hRRzlZS2E3Sy0wQU5yVGNUM3NLdUxSNmwyb3pLU01jemNfb1ZjdF9JbndlZjdYTzBRbnpkaktWc3RUaDNSb0w5NUh4dHp1Zk5YdnRBeG9XTENSbDY1b0JseThEMjlUV1QzMmZ4RFI0ekJ4cFU?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVh4TUVsRTBkSVo1TjFJUmFHZHRuWnlXRi1ZS3dTNWNJYkFyVjQzbGUtcVg1aXM5TUFjNVVKSFBJVE15ZEVzR1RMLVE2bFp1Zm14RkFkbGc4VjdwYTJwVm5SeF9NUDg3enFqUVJfRlptMXVUR3JUTndXYjNjbThQT3VhT3BfUExqck8tZ2dWTnB2T3Z3WGxMRzlYSVNManJocXNaQkZBRUU3T2dEaFoza2xPWElxN0JYNEZCM0w0R1p6aEFmbWtFeGgyMGE?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0VSNG4xaHlzN2NBeThMTFNXV0FjRlg0TkNJNVVmVWR6cjdsYnZ2WEVJc05aM21qSEVoUjZGWTJaS0EyMlF4TTlWWXVESENtd1hRRE1xOFRKTlZKMGhLZjJSelg1UGFTWEM4N3lSa1hIaGZqLXB4UTU1ejVLM28zU3BjYUZvbVhfLWt6SWdVaktLdnB4SGwtSDFZLURKcVBfNnpQX0tJMm1UNWZj?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPS3c1U2VBbkowS2l6SkZDTDcyUW5ib0MwYkhQVnpSWm0wa3BEekFSbFZRNnd2M2ZmeUdiY3dKZnJ5bk4xNFZGODlMNW1uWkFZdFI4Y19TRHNlcWdNUkhDMWFBYnF3OXdqYmF0dWRfNURwZUc2Mko1MC1PUmMwYXJUcnBkWjk1ZUZQcjhiLVdlR2FLT2pORDZzR1dtdUhoZ09KZWt6YTExYTZpMG9YVENSVlhnZkxpbjZJYk1KenA3VkFNOGVwY0xxUlI3OTBKZWlpQTZzWWc2S1ZTd05telE?oc=5"
    }
   ],
   "impacts": [
@@ -69486,9 +69548,21 @@
      "ar": "بيانات التضخم الأمريكية المرتفعة تضغط على أسعار الذهب، بينما يجد النحاس دعماً من الطلب المرتفع ونقص المعروض.",
      "ru": "Высокие данные по инфляции в США давят на цены на золото, в то время как медь находит поддержку благодаря высокому спросу и дефициту предложения."
     }
+   },
+   {
+    "ts": 1794424604,
+    "time": "2026-11-11T19:16Z",
+    "severity": 8,
+    "summary": "נתוני אינפלציה וציפיות להעלאת ריבית על ידי הפדרל ריזרב בדצמבר מעיבים על השווקים, מה שמוביל לתנודתיות במניות ובמטבעות.",
+    "i18n": {
+     "he": "נתוני אינפלציה וציפיות להעלאת ריבית על ידי הפדרל ריזרב בדצמבר מעיבים על השווקים, מה שמוביל לתנודתיות במניות ובמטבעות.",
+     "en": "Inflation data and expectations for a Federal Reserve rate hike in December are weighing on markets, leading to volatility in stocks and currencies.",
+     "ar": "بيانات التضخم وتوقعات رفع أسعار الفائدة من قبل الاحتياطي الفيدرالي في ديسمبر تؤثر على الأسواق، مما يؤدي إلى تقلبات في الأسهم والعملات.",
+     "ru": "Данные по инфляции и ожидания повышения процентной ставки ФРС в декабре давят на рынки, вызывая волатильность акций и валют."
+    }
    }
   ],
-  "last_update": 1794420441
+  "last_update": 1794424604
  },
  {
   "ts": 1794406668,
@@ -70116,14 +70190,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV3RNY2ZHNXdUSm1janlnS09Ka1IyLTdEOE9jQjNmWm84Mkhkdnl2a3lPZl9qUmtGdld2WXNDQnAxLXl6VHpDbkprdm8zb25mUGVwSG9McmdQTDJZVGFxTzBuR0J0NXNITE8wR3lOZ2xKYjlRclJld1psbzVZNEVFN3J0REhweWhZU0tyakZ2WDhqNDNENjdyaURXanZLaHJLajN6RkU4YlVLenhXWmVEUVNNQ3dtclpsQU9KbXhPMDFBYUNpM1VEbkFB?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHVOb3F2MVpGZ0s0N3hWOWFOMEJxZkJkNHFEVk1RNlcxR0ZEb0lTNl9GQlpkbExVMDNzMzNCSHEyNmhvM2VoQ21yZ2VHa293Sjkxbk9yZjVuSk1PcG1oZGdFcC05VEpMNml0a01kVHlzNXhrbEFTSXdZMS0wVGNCTVFPcGllTGlkQUp4VEdBYmNTSzBpeVd3UA?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOHNBS1hQMW8zTmZobXZnN2NpTG9kRlREbmxMTWtSOFZucEV3TzMwV0xuVUd5bTY4YWRaQV84X1ctU01vMGpucEROTXJaTmJjUDlWM05RblZXT2E4Mm12VkR6Nmo2OGY1VEtzT29jSFR6b2VyVWExWGhIWElMQVNKd3VVWFBEdzh1a3d2YlVfVXFkWU5HbllvcGVaTjUyelJTeThncmV6VkdyUUY2eXFzOWN6QkctNzM4dXc?oc=5"
    },
@@ -70138,6 +70204,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTi1TY3c1M2NnVWptNE40SWFodlBJOGRNQkwwY2s1OHdtejVXVEIweGpWQmRzREViRThrOWtpVGl5Y2lLZzJiRXRMNFN6aUxHd3VFR1VlRHhqY3BXSmRoY0JLbWZyTEF0ZnppYjdFRkNSNVE0S3JVT3VWTUltYjJWeUR0eHhmR3NWWlYtM2dIN0ZwSnJNVHQwOHYtZUxFWjA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRy1PMTlFYktkTzN3WEtQemhVaVdGOXRKUTQyN0VFQndLUVdKaTBrMm1kTEZPZTdtQmx1SjVCTGxZZHJmSGZkZThyN1k0SUJPMjF5Y3FvS1lLZmVmSmNQT2Q2bEpwWmVqSl9GZzBaN1F0OEU0QWVRN2UtU1FRb0pRTnY0T3B6cy0wbHk3WThvbnYwWUZy?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5"
    }
   ],
   "impacts": [
@@ -70178,9 +70252,43 @@
      "ru": "Судоходная компания"
     },
     "price_at_alert": 29.0
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794424604,
+    "reason": "עלייה בביקוש לציוד ביטחוני עקב חוסר יציבות.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לציוד ביטחוני עקב חוסר יציבות.",
+     "en": "Increased demand for defense equipment due to instability.",
+     "ar": "زيادة الطلب على المعدات الدفاعية بسبب عدم الاستقرار.",
+     "ru": "Повышенный спрос на оборонное оборудование из-за нестабильности."
+    },
+    "name_i18n": {
+     "he": "קרן סל ביטחון",
+     "en": "Defense ETF",
+     "ar": "صندوق الدفاع المتداول",
+     "ru": "Оборонный ETF"
+    },
+    "price_at_alert": 72.94
    }
   ],
-  "id": "2c3591c264d1"
+  "id": "2c3591c264d1",
+  "updates": [
+   {
+    "ts": 1794424604,
+    "time": "2026-11-11T19:16Z",
+    "severity": 7,
+    "summary": "האיחוד האירופי אישר חבילת סנקציות חדשה נגד רוסיה, בעוד גורמים איראניים מדווחים על חשש ממתקפה צבאית אמריקאית או החמרת סנקציות.",
+    "i18n": {
+     "he": "האיחוד האירופי אישר חבילת סנקציות חדשה נגד רוסיה, בעוד גורמים איראניים מדווחים על חשש ממתקפה צבאית אמריקאית או החמרת סנקציות.",
+     "en": "The EU has agreed on a new package of sanctions against Russia, while Iranian officials report concerns over potential US military action or tighter sanctions.",
+     "ar": "وافق الاتحاد الأوروبي على حزمة عقوبات جديدة ضد روسيا، في حين أبلغ مسؤولون إيرانيون عن مخاوف من عمل عسكري أمريكي محتمل أو تشديد العقوبات.",
+     "ru": "ЕС согласовал новый пакет санкций против России, в то время как иранские официальные лица сообщают об опасениях по поводу потенциальных военных действий США или ужесточения санкций."
+    }
+   }
+  ],
+  "last_update": 1794424604
  },
  {
   "ts": 1794420441,
@@ -70239,5 +70347,71 @@
    }
   ],
   "id": "b5755967775c"
+ },
+ {
+  "ts": 1794424604,
+  "time": "2026-11-11T19:16Z",
+  "title": "שותפות אדאני וקודלקו בתחום הנחושת",
+  "summary": "קבוצת אדאני חתמה על הסכם עם ענקית הנחושת הצ'יליאנית קודלקו לפרויקט חיפוש נחושת, מה שמחזק את מעמדה בשוק המתכות.",
+  "kid": "חברת אדאני משתפת פעולה עם חברה גדולה מצ'ילה כדי לחפש נחושת. נחושת חשובה מאוד לבניית מכשירים חשמליים.",
+  "i18n": {
+   "title": {
+    "he": "שותפות אדאני וקודלקו בתחום הנחושת",
+    "en": "Adani and Codelco copper partnership",
+    "ar": "شراكة أداني وكوديلكو في مجال النحاس",
+    "ru": "Партнерство Adani и Codelco в сфере меди"
+   },
+   "summary": {
+    "he": "קבוצת אדאני חתמה על הסכם עם ענקית הנחושת הצ'יליאנית קודלקו לפרויקט חיפוש נחושת, מה שמחזק את מעמדה בשוק המתכות.",
+    "en": "Adani Group signed a pact with Chilean copper giant Codelco for a copper exploration project, strengthening its position in the metals market.",
+    "ar": "وقعت مجموعة أداني اتفاقية مع عملاق النحاس التشيلي كوديلكو لمشروع تنقيب عن النحاس، مما يعزز مكانتها في سوق المعادن.",
+    "ru": "Adani Group подписала соглашение с чилийским медным гигантом Codelco о проекте по разведке меди, укрепляя свои позиции на рынке металлов."
+   },
+   "kid": {
+    "he": "חברת אדאני משתפת פעולה עם חברה גדולה מצ'ילה כדי לחפש נחושת. נחושת חשובה מאוד לבניית מכשירים חשמליים.",
+    "en": "Adani is working with a big company from Chile to look for copper. Copper is very important for building electrical devices.",
+    "ar": "تتعاون أداني مع شركة كبيرة من تشيلي للبحث عن النحاس. النحاس مهم جداً لبناء الأجهزة الكهربائية.",
+    "ru": "Adani сотрудничает с крупной компанией из Чили для поиска меди. Медь очень важна для создания электрических устройств."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWnVFZExYY1NDLWxVM0VNVHFLTUd3UTM4cVdrV01uTmp0MWZERUdBWHRZeVpiOWZ3RkJ6TzQzMkh2cDc4cWFDTkYyYm02MVY3UDNsaFg1cER2OUpqZzB2b0tsSVllUEFlbkltRnJRZ19tQTJQSVM1cDFueUhPV0ZkT1ppSnljZnNfczB3QTNkWkVXR3BTbjJUZ2JISFFUeUJrR19HYThpUQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1NFNzJwRURNODVQdUZtU21ubmM3UHZzWXY4TDh1VWxYYjFqcFQwcVUxeDBDRjc3X2FKS2E1dnh2UlAtYUNPWndDcUFfOVZ4aXNxbkswMWJrSGpKSXFSYUVkWDF1Nm5zQWxyYU5Yd1VySHFTbWkxN0NvZkdwNEdlREtoTV9pY0lvVXpYUUNLNW7SAZYBQVVfeXFMUDBhMWplaWRCTFd5QXlPcUpPX1kwMGZHLVAwQWQycl9GUU5xV0VtMDFMOXFDTnF6SFA0azRhZ3FnODFDbV92bmtYY0pDOFp0dXZ6Nk9IWHA5dHdYendEMFJIdUd3ZnRwMVdFQnZlN1oySXpRcUthT0dPeUhQVld2WnJyRWd3VWhCc0tQeVBRR3F6M2VxcXBB?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN1JVb1pIYkRxa19rRmZ4YTZoM2trbFFPZEg4WkVvZEdNRWZrWGtHU0FqdWpJLXg5cVQxenBXbjRST2hSR3pYMWI4WHBUaXVscGpTQkhfeGFUMUdIRF8xN2wyRl9YXzAxUUpFZGNtemJIUEtUQjI5bmxrckpFd3NIYUZJc0RiWXRpbHlYaGpwQzJPZGVBektOQk5Mdmswc2lMTEszM0VsUlBCdnVvMHQxTHpEVWNsZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794424604,
+    "reason": "התפתחות חיובית בשוק הנחושת העולמי.",
+    "reason_i18n": {
+     "he": "התפתחות חיובית בשוק הנחושת העולמי.",
+     "en": "Positive development in the global copper market.",
+     "ar": "تطور إيجابي في سوق النحاس العالمي.",
+     "ru": "Позитивное развитие на мировом рынке меди."
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן",
+     "en": "Freeport-McMoRan",
+     "ar": "فريبورت-ماكموران",
+     "ru": "Freeport-McMoRan"
+    },
+    "price_at_alert": 62.4
+   }
+  ],
+  "id": "62031910bf22"
  }
 ]
