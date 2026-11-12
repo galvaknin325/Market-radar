@@ -53,338 +53,6 @@
   "id": "33b66ed969b2"
  },
  {
-  "ts": 1793828915,
-  "time": "2026-11-04T21:48Z",
-  "title": "הדמוקרטים מנצחים בבחירות אמצע הכהונה בארה\"ב",
-  "summary": "המפלגה הדמוקרטית זכתה להישגים משמעותיים בבחירות אמצע הכהונה בארה\"ב, כולל שבירת רוב רפובליקני במיזורי וזכיות מרובות בווירג'יניה, על רקע זعמים ציבוריים על מכסים.",
-  "kid": "הדמוקרטים ניצחו במספר בחירות חשובות בארה\"ב כי אנשים כעסו על מיסים ומחירים. זה יכול לשנות את החוקים והכלכלה שהממשלה עושה.",
-  "i18n": {
-   "title": {
-    "he": "הדמוקרטים מנצחים בבחירות אמצע הכהונה בארה\"ב",
-    "en": "Democrats Sweep US Midterm Elections",
-    "ar": "الديمقراطيون يحققون فوزاً ساحقاً في انتخابات التجديد النصفي الأمريكية",
-    "ru": "Демократы побеждают на промежуточных выборах в США"
-   },
-   "summary": {
-    "he": "המפלגה הדמוקרטית זכתה להישגים משמעותיים בבחירות אמצע הכהונה בארה\"ב, כולל שבירת רוב רפובליקני במיזורי וזכיות מרובות בווירג'יניה, על רקע זعמים ציבוריים על מכסים.",
-    "en": "The Democratic Party made sweeping gains in the US midterm elections, including breaking GOP supermajorities and winning key congressional races amid voter frustration over import tariffs.",
-    "ar": "حقق الحزب الديمقراطي مكاسب واسعة في انتخابات التجديد النصفي الأمريكية، وسط استياء الناخبين من الرسوم الجمركية.",
-    "ru": "Демократическая партия добилась значительных успехов на промежуточных выборах в США на фоне недовольства избирателей импортными пошлинами."
-   },
-   "kid": {
-    "he": "הדמוקרטים ניצחו במספר בחירות חשובות בארה\"ב כי אנשים כעסו על מיסים ומחירים. זה יכול לשנות את החוקים והכלכלה שהממשלה עושה.",
-    "en": "Democrats won major US elections because voters were unhappy with prices and taxes. This could change government rules and affect the stock market.",
-    "ar": "فاز الديمقراطيون بانتخابات هامة في أمريكا بسبب غضب الناس من الأسعار والضرائب. قد يغير هذا القوانين الاقتصادية.",
-    "ru": "Демократы победили на важных выборах в США, так как люди недовольны ценами и налогами. Это может изменить законы и повлиять на экономику."
-   }
-  },
-  "category": "policy",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC Business",
-    "url": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/05/trump-russia-china-summit-apec-midterms.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1793828915,
-    "reason": "תנודתיות בשוק בעקבות שינויי כוח פוליטיים בוושינגטון.",
-    "reason_i18n": {
-     "he": "תנודתיות בשוק בעקבות שינויי כוח פוליטיים בוושינגטון.",
-     "en": "Market volatility following political power shifts in Washington.",
-     "ar": "تقلبات السوق عقب تحولات السلطة السياسية في واشنطن.",
-     "ru": "Волатильность рынка после политических изменений в Вашингтоне."
-    },
-    "name_i18n": {
-     "he": "ספיי - קרן סל של שוק המניות האמריקאי",
-     "en": "SPY – US S&P 500 ETF",
-     "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
-     "ru": "SPY — фонд акций США"
-    },
-    "price_at_alert": 766.81,
-    "entry_price": 765.47,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 735.34,
-    "exit_date": "2026-11-06",
-    "change_pct": -3.94,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -3.94,
-    "edge_pct": -3.94,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "TLT",
-    "direction": "up",
-    "t0": 1793836716,
-    "reason": "ציפיות למדיניות פיסקלית מתונה יותר עשויות להוריד תשואות אג\"ח",
-    "reason_i18n": {
-     "he": "ציפיות למדיניות פיסקלית מתונה יותר עשויות להוריד תשואות אג\"ח",
-     "en": "Expectations of a more restrained fiscal outlook could lower yields",
-     "ar": "توقعات بوجود سياسة مالية أكثر تقييداً قد تؤدي إلى انخفاض العوائد",
-     "ru": "Ожидания более сдержанной фискальной политики могут снизить доходность"
-    },
-    "name_i18n": {
-     "he": "TLT - אג\"ח ממשלת ארה\"ב לטווח ארוך",
-     "en": "TLT - Long-term US Treasury Bond ETF",
-     "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
-     "ru": "TLT - ETF долгосрочных гособлигаций США"
-    },
-    "price_at_alert": 81.76,
-    "entry_price": 81.545,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 81.925,
-    "exit_date": "2026-11-06",
-    "change_pct": 0.47,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 4.4,
-    "edge_pct": 4.4,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "543d3d003c3a",
-  "updates": [
-   {
-    "ts": 1793836716,
-    "time": "2026-11-04T23:58Z",
-    "severity": 7,
-    "summary": "הדמוקרטים זכו בהישגים משמעותיים בבחירות אמצע הכהונה בארה\"ב, וצפויים לשנות את הדינמיקה בוושינגטון. הנשיא דונלד טראמפ ייחס חלק מההפסדים הרפובליקניים להשפעת המלחמה מול איראן.",
-    "i18n": {
-     "he": "הדמוקרטים זכו בהישגים משמעותיים בבחירות אמצע הכהונה בארה\"ב, וצפויים לשנות את הדינמיקה בוושינגטון. הנשיא דונלד טראמפ ייחס חלק מההפסדים הרפובליקניים להשפעת המלחמה מול איראן.",
-     "en": "Democrats secured major gains in the U.S. midterm elections, flipping multiple congressional seats and state posts. President Donald Trump attributed Republican setbacks partly to voter fatigue and the conflict involving Iran.",
-     "ar": "حقق الديمقراطيون مكاسب كبيرة في انتخابات التجديد النصفي الأمريكية، حيث قلبوا العديد من المقاعد. وأعزى الرئيس دونالد ترامب بعض انتكاسات الجمهوريين إلى تأثير حرب إيران.",
-     "ru": "Демократы добились значительных успехов на промежуточных выборах в США, завоевав множество мест в Конгрессе. Президент Дональд Трамп отчасти связал неудачи республиканцев с войной с Ираном."
-    }
-   },
-   {
-    "ts": 1793859412,
-    "time": "2026-11-05T06:16Z",
-    "severity": 7,
-    "summary": "לאחר שהדמוקרטים זכו ברוב בקונגרס, מנתחים חוששים כי רוסיה וסין עשויות לנקוט בצעדים אגרסיביים יותר בשל תפיסת חולשה של הממשל האמריקאי.",
-    "i18n": {
-     "he": "לאחר שהדמוקרטים זכו ברוב בקונגרס, מנתחים חוששים כי רוסיה וסין עשויות לנקוט בצעדים אגרסיביים יותר בשל תפיסת חולשה של הממשל האמריקאי.",
-     "en": "Following the Democratic victory in the midterms, analysts warn that Russia and China may act more aggressively if they perceive the US administration as weakened.",
-     "ar": "بعد فوز الديمقراطيين في انتخابات التجديد النصفي، يحذر المحللون من أن روسيا والصين قد تتصرفان بشكل أكثر عدوانية إذا اعتبرتا الإدارة الأمريكية ضعيفة.",
-     "ru": "После победы демократов на промежуточных выборах аналитики предупреждают, что Россия и Китай могут действовать более агрессивно, если воспримут администрацию США как ослабленную."
-    }
-   }
-  ],
-  "last_update": 1793859412,
-  "evaluated": true
- },
- {
-  "ts": 1793828915,
-  "time": "2026-11-04T21:48Z",
-  "title": "בנק קרדיט מיוטואל ארקאה הצרפתי מאשר מתקפת סייבר והפסדי ענק",
-  "summary": "בנק קרדיט מיוטואל ארקאה בצרפת אישר כי נפגע במתקפת סייבר קשה, כאשר מומחים מעריכים את ההפסדים בלמעלה מ-133 מיליון דולר.",
-  "kid": "האקרים פרצו למערכות של בנק גדול בצרפת וגנבו סכום ענק של כסף. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
-  "i18n": {
-   "title": {
-    "he": "בנק קרדיט מיוטואל ארקאה הצרפתי מאשר מתקפת סייבר והפסדי ענק",
-    "en": "French Bank Credit Mutuel Arkea Confirms Cyberattack",
-    "ar": "البنك الفرنسي كريدي موتييل أركيا يؤكد تعرضه للهجوم السيبراني",
-    "ru": "Французский банк Credit Mutuel Arkea подтвердил кибератаку"
-   },
-   "summary": {
-    "he": "בנק קרדיט מיוטואל ארקאה בצרפת אישר כי נפגע במתקפת סייבר קשה, כאשר מומחים מעריכים את ההפסדים בלמעלה מ-133 מיליון דולר.",
-    "en": "French bank Credit Mutuel Arkea confirmed a cyberattack, with independent trackers estimating total losses above $133 million.",
-    "ar": "أكد البنك الفرنسي كريدي موتييل أركيا تعرضه لهجوم سيبراني بخسائر تتجاوز 133 مليون دولار.",
-    "ru": "Французский банк Credit Mutuel Arkea подтвердил кибератаку с оценкой потерь выше $133 млн."
-   },
-   "kid": {
-    "he": "האקרים פרצו למערכות של בנק גדול בצרפת וגנבו סכום ענק של כסף. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
-    "en": "Hackers broke into a large French bank and stole a lot of money, reminding companies to improve cyber security.",
-    "ar": "اختراق قراصنة بنكاً فرنسياً كبيراً وسرقوا أموالاً طائلة، مما يذكر الشركات بأهمية الأمن السيبراني.",
-    "ru": "Хакеров взломали крупный французский банк и похитили средства, подчеркивая важность кибербезопасности."
-   }
-  },
-  "category": "cyber",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVzJwbzBIems5bTBSV2MzMHVsTW82V2hzZ2hjX1dkS214ZUVMUDVoc2prTkdicHlDbkVTcGdIT3pENjlReHJpa1BHa0FxTmw4Y3dPcmszaHRudVhzX2NISFhqellJS1BlWTR3Zm5IeE5QNEZGcGJVNTU5RzBXLTJDaEtRN1I3TmdYblRIcGp5c0cwdw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VZXpaUTFfbk5HVVJla3JJbG9iLWEwclF2aHlfQTlWRjRTX2ZVVjUyM0plM2JjQkFpUURFVmxoTnQyMEI5MmFxQ04yMExRbV9tdDBn?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY3FwRTNJbUFxbmU0Z3Nib0lfdE1BZTQzUFJHREJmNWhQM0p2TEJkbUxPWV81SHdiRFVzR3ZPZ0EtYkxrQjFvX0o2N0IyTE13ZHpxaFZmTGJVRVVfNGZrZE02TTY5dElXbk4yeTNYQnA0UGNnSUE4R1B5TkJFWUJQb0h3?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMnZzbGppRU5tNWFsUTEyU2RTZHhra0dycTJaLTJ6WmlUSmhta2JJOWNrZHFaQmpLM3ROZWcyeHZWeVp4VjNYeXFuNkcwQ1ZGaE9BcFZiaWtkcFVxNnVjdlhMa25Db2U5R0d5OUUwbm5PZ1FWV0lqaDhpZTlMS0tUZ0lOU3cxczNCNHUwSm9VMWQyRUdIaGZZaHRETTF6b0phNTd5cWE3SHc5MXRaTThfYzNmRHR3SFVVbTROVmJ4bF9mQzVVZ2c?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3owVnlSMlp2aXR0LTJMTDFOT25fcVV6QzFRYzJuUkMtemxCUnBPS1VJaFgyY0JiZVdvVDhjemt5MVU5NEFxbnJJS1daTlJRb1lBeHpkNkxTVlVSU2h3SmFhYk9kaWJaMC1WZ190YU1IM1Z6bVBTbFlCSTZacnJPQzZxU2VmbE1uU3dnbU5JM3B2X09ST3FrU21IdEpsN3BzWDAzbE80V2lLV1lSOG5UemhEeVowZm5ZZ2w2bTVGN1Z0NVhVS09KM0xTcW9NZw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUTF3aFpSNm1yZHdQcjJUOVpnelhnNElxX3IzYzROdFBaVDAxdENiSDRGN2d3YjlDTDVvLVI1TWkxZmRYQjA0RUFPdlF1X3ktZThWUHItWkZZbnRLRmZlQTMzX0kwczRoSkZKZENaMzUwazNkV3RhUnFCQkNla3VPOUhDbGFLdGFTU0hsSDZkd2hQM19rczUtQVlDak40OEVR?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1793828915,
-    "reason": "מתקפות סייבר פיננסיות מגדילות את הביקוש לפתרונות אבטחת ענן ורשת.",
-    "reason_i18n": {
-     "he": "מתקפות סייבר פיננסיות מגדילות את הביקוש לפתרונות אבטחת ענן ורשת.",
-     "en": "Financial cyberattacks increase demand for enterprise security and defense software.",
-     "ar": "الهجمات السيبرانية المالية تزيد الطلب على برمجيات حماية الشبكات.",
-     "ru": "Финансовые кибератаки увеличивают спрос на ПО для защиты сетей."
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק – חברת אבטחת סייבר מובילה",
-     "en": "CRWD – CrowdStrike cybersecurity firm",
-     "ar": "CRWD - شركة الأمن السيبراني كراودسترايك",
-     "ru": "CRWD — компания кибербезопасности CrowdStrike"
-    },
-    "price_at_alert": 241.0,
-    "entry_price": 231.66,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 216.83,
-    "exit_date": "2026-11-06",
-    "change_pct": -6.4,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": -2.47,
-    "edge_pct": -2.47,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "EWQ",
-    "direction": "down",
-    "t0": 1793834358,
-    "reason": "אירוע אבטחה חמור במוסד פיננסי מעיב על הסκטור הפיננסי באירופה.",
-    "reason_i18n": {
-     "he": "אירוע אבטחה חמור במוסד פיננסי מעיב על הסκטור הפיננסי באירופה.",
-     "en": "A severe security incident in a financial institution weighs on European financials.",
-     "ar": "حادثة أمنية خطيرة في مؤسسة مالية تؤثر على القطاع المالي الأوروبي.",
-     "ru": "Серьезный инцидент безопасности в финансовом институте давит на сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל מניות צרפת",
-     "en": "iShares MSCI France ETF",
-     "ar": "صندوق أسهم فرنسا",
-     "ru": "ETF акций Франции"
-    },
-    "price_at_alert": 43.86,
-    "entry_price": 43.99,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 42.9,
-    "exit_date": "2026-11-06",
-    "change_pct": -2.48,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 1.46,
-    "edge_pct": -1.46,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1793840264,
-    "reason": "עליית מחירי התובלה עשויה להגדיל הכנסות",
-    "reason_i18n": {
-     "he": "עליית מחירי התובלה עשויה להגדיל הכנסות",
-     "en": "Rising shipping rates may increase revenue",
-     "ar": "ارتفاع أسعار الشحن قد يزيد الإيرادات",
-     "ru": "Рост ставок на перевозки может увеличить выручку"
-    },
-    "name_i18n": {
-     "he": "ZIM ספנות",
-     "en": "ZIM Shipping",
-     "ar": "ZIM للشحن",
-     "ru": "ZIM Shipping"
-    },
-    "price_at_alert": 28.41,
-    "entry_price": 28.3,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 27.96,
-    "exit_date": "2026-11-06",
-    "change_pct": -1.2,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 2.73,
-    "edge_pct": 2.73,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "45f9c8fd9703",
-  "updates": [
-   {
-    "ts": 1793834358,
-    "time": "2026-11-04T23:19Z",
-    "severity": 5,
-    "summary": "בנק קרדיט מיוטואל ארקאה הצרפתי אישר כי נפגע במתקפת סייבר שהביאה להעברות כספים הונאה בשווי של כ-100 מיליון דולר ודליפת נתונים.",
-    "i18n": {
-     "he": "בנק קרדיט מיוטואל ארקאה הצרפתי אישר כי נפגע במתקפת סייבר שהביאה להעברות כספים הונאה בשווי של כ-100 מיליון דולר ודליפת נתונים.",
-     "en": "French bank Crédit Mutuel Arkéa confirmed it was hit by a cyberattack resulting in fraudulent transfers and data breaches totaling around $100 million.",
-     "ar": "أكد بنك Crédit Mutuel Arkéa الفرنسي تعرضه لهجوم سيبراني أدى إلى تحويلات احتيالية واختراق بيانات بحوالي 100 مليون دولار.",
-     "ru": "Французский банк Crédit Mutuel Arkéa подтвердил кибератаку, приведшую к мошенническим переводам и утечке данных примерно на $100 млн."
-    }
-   },
-   {
-    "ts": 1793840264,
-    "time": "2026-11-05T00:57Z",
-    "severity": 4,
-    "summary": "מתקפות סייבר פגעו בבנקי דם בצרפת, בעוד מחירי התובלה הימית ממשיכים לעלות עקב שיבושים גלובליים.",
-    "i18n": {
-     "he": "מתקפות סייבר פגעו בבנקי דם בצרפת, בעוד מחירי התובלה הימית ממשיכים לעלות עקב שיבושים גלובליים.",
-     "en": "Cyberattacks have targeted French blood banks, while global shipping costs continue to rise, impacting logistics and supply chains.",
-     "ar": "استهدفت هجمات سيبرانية بنوك الدم في فرنسا، بينما تستمر تكاليف الشحن العالمي في الارتفاع، مما يؤثر على الخدمات اللوجستية وسلاسل التوريد.",
-     "ru": "Кибератаки были направлены на банки крови во Франции, в то время как мировые расходы на морские перевозки продолжают расти, влияя на логистику и цепочки поставок."
-    }
-   },
-   {
-    "ts": 1793851867,
-    "time": "2026-11-05T04:11Z",
-    "severity": 4,
-    "summary": "הבנק הצרפתי קרדיט מיוטואל ארקאה אישר כי נפגע במתקפת סייבר, בעוד דיווחים מצביעים על חשד להפסדים של כ-133 מיליון דולר.",
-    "i18n": {
-     "he": "הבנק הצרפתי קרדיט מיוטואל ארקאה אישר כי נפגע במתקפת סייבר, בעוד דיווחים מצביעים על חשד להפסדים של כ-133 מיליון דולר.",
-     "en": "French bank Crédit Mutuel Arkéa confirmed it was hit by a cyberattack, as reports highlight suspected losses of around $133 million.",
-     "ar": "أكد البنك الفرنسي كريدي موتويل أركيا تعرضه لهجوم سيبراني، بينما تشير التقارير إلى خسائر مشتبه بها بنحو 133 مليون دولار.",
-     "ru": "Французский банк Crédit Mutuel Arkéa подтвердил, что подвергся кибератаке, на фоне сообщений о предполагаемых убытках в размере около $133 млн."
-    }
-   },
-   {
-    "ts": 1793859412,
-    "time": "2026-11-05T06:16Z",
-    "severity": 6,
-    "summary": "בנק הדם הצרפתי (Crédit Mutuel Arkéa) אישר כי הותקף בסייבר, מה שהוביל להפסדים כספיים משמעותיים ולשיבושים במערכות קירור.",
-    "i18n": {
-     "he": "בנק הדם הצרפתי (Crédit Mutuel Arkéa) אישר כי הותקף בסייבר, מה שהוביל להפסדים כספיים משמעותיים ולשיבושים במערכות קירור.",
-     "en": "French bank Crédit Mutuel Arkéa confirmed a cyberattack, resulting in significant financial losses and disruptions to refrigeration systems.",
-     "ar": "أكد البنك الفرنسي كريدي موتوييل أركيا تعرضه لهجوم سيبراني، مما أدى إلى خسائر مالية كبيرة واضطرابات في أنظمة التبريد.",
-     "ru": "Французский банк Crédit Mutuel Arkéa подтвердил кибератаку, которая привела к значительным финансовым потерям и сбоям в системах охлаждения."
-    }
-   }
-  ],
-  "last_update": 1793859412,
-  "evaluated": true
- },
- {
   "ts": 1793840264,
   "time": "2026-11-05T00:57Z",
   "title": "מניות NextDC מזנקות לאחר רכישת נתח על ידי Goodman ו-Digital Realty",
@@ -673,92 +341,6 @@
    }
   ],
   "last_update": 1793864410,
-  "evaluated": true
- },
- {
-  "ts": 1793859412,
-  "time": "2026-11-05T06:16Z",
-  "title": "ארה\"ב הטילה סנקציות על חברות ואנשים בהודו ובטורקיה בגין סיוע לאיראן",
-  "summary": "משרד האוצר האמריקאי הטיל סנקציות על גורמים בהודו ובטורקיה בשל מעורבותם ברשתות סחר נפט וטילים המקושרות לאיראן.",
-  "kid": "ארה\"ב הענישה חברות ואנשים שעזרו לאיראן למכור נפט וטילים. זה עלול להקשות על עסקים שעובדים עם איראן ולהשפיע על חברות בינלאומיות.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב הטילה סנקציות על חברות ואנשים בהודו ובטורקיה בגין סיוע לאיראן",
-    "en": "US imposes sanctions on Indian and Turkish entities for aiding Iran",
-    "ar": "الولايات المتحدة تفرض عقوبات على كيانات هندية وتركية بسبب مساعدة إيران",
-    "ru": "США ввели санкции против индийских и турецких компаний за помощь Ирану"
-   },
-   "summary": {
-    "he": "משרד האוצר האמריקאי הטיל סנקציות על גורמים בהודו ובטורקיה בשל מעורבותם ברשתות סחר נפט וטילים המקושרות לאיראן.",
-    "en": "The US Treasury has sanctioned individuals and entities in India and Turkey for their involvement in oil and missile trade networks linked to Iran.",
-    "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على أفراد وكيانات في الهند وتركيا بسبب تورطهم في شبكات تجارة النفط والصواريخ المرتبطة بإيران.",
-    "ru": "Министерство финансов США ввело санкции против физических и юридических лиц в Индии и Турции за участие в сетях торговли нефтью и ракетами, связанных с Ираном."
-   },
-   "kid": {
-    "he": "ארה\"ב הענישה חברות ואנשים שעזרו לאיראן למכור נפט וטילים. זה עלול להקשות על עסקים שעובדים עם איראן ולהשפיע על חברות בינלאומיות.",
-    "en": "The US punished companies and people who helped Iran sell oil and missiles. This makes it harder for those businesses to operate and might affect international companies.",
-    "ar": "عاقبت الولايات المتحدة الشركات والأشخاص الذين ساعدوا إيران في بيع النفط والصواريخ. هذا يجعل من الصعب على تلك الشركات العمل وقد يؤثر على الشركات الدولية.",
-    "ru": "США наказали компании и людей, которые помогали Ирану продавать нефть и ракеты. Это затрудняет работу этих компаний и может повлиять на международный бизнес."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeHRqbEQ1QTh0TElFRGkxdnNrOUZxdDl2enI4cU1aSldqTllBV2I5bTBqaXhmaUJtSWViOG5VN2M4cWs1ZnFiaUU1Tk1mUGYtMlJpTlpwRXRMOHJMb2JsOUVoU05CdmRrZkVMZkFQWHB4cGp4T3hYMVpMNjZzYUIzVUlPemstZmVCTmNIdXQwZlRycjZnUnRXaGphWmF6eU93blV3anFLZXg4dG5wcXZfNGJFb2pWYnlmU01DUFBSNDJaZzg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaTEtRGJmMzhRd3NUYUVGZ2VmYXEwLUp4NGdGTjN0VGg2WS0zcVRxOVBCNklxMG1TNFY4U2xQYkhvVGlNcnliX3NtVVB2UWNHcmhTMkdqUmEtU0pNMW9MNzVKNmdERGhfVkE5c2lpRHdwd2JzVG1ZNEk0ZXFDRW5FYW4yTExuaTRwX1k5X2UwZUpGbkY0eGlvbFhTTWJoanEwVy1LcWM5ZWw4UdIBrwFBVV95cUxQRVpnaXFYSkRiR3Baa3h5eUpfaFpfVjFkSEh0WHhHNEVRcEtaZzJmY0NXX0hJcjB3dWVFOC1OM2tzMDZRV3hyYmxidHdXd2FXeDlWS3dXeDIwcVBwMDBLejBZYTRwTkVlRzE4T014bTRqMjE1U0RjU1FZTnQ0MUZJNy0zRVkwYW5tbGw0U0wtVjRmcnp2OXBGU0F0SnJWdGpsblNTak5iUXJ5Vjh4MmRj?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54YmhiWHFWbHlVYWZoT0ZWeFFhWnF1Smo0NjZ4QWZNUXg5N3JybEtmOG5zTEQwMVBKT08xMjZZdU0wWFNsbXNpbXhsblZoZlNua3N1N3FLd2plZHRwYzBHTWNCd3dmcDBvQUNBdEk4c0tBSFppNGc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObk9DZUJrWU5Od0NWbU1XcWQ5WUxGRmFMTTNjaTlURVNnR1lFRlltT0JST0d4UFZKWDRtV19XbmpTUVpYUUhWWjAwVXd4RUFTTVgzNC01WWQ1b2hPTXpvRHY3M2Fjakc5Nkc5anUxV3pUV2hZcDhoVWFjRGw4a0s1YTBGM2wtMFdldGVKQUNZZEJwdjBNdnF2dg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY3pKNUQtQkhiTnkwc1YzVWRaQzJma3NQRVE0cFdoNGg2MkdBN01ITnVwSW9aNmcyZEdza3hCZG1PMTU2MTBLOHBHQVpmcE1XaVZ4X1hxYXpQR2tCVnZLS0xxM2lYUUtxUjc2MUlpd3V4SW5kcm1FWkRiLWYwUl9vMnQ2MkRJb2tMQU1rQnVrMVkyOS1vQ1lCVVZ4UzBQVUU?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "UUP",
-    "direction": "up",
-    "t0": 1793859412,
-    "reason": "הסנקציות מחזקות את האכיפה הפיננסית של ארה\"ב.",
-    "reason_i18n": {
-     "he": "הסנקציות מחזקות את האכיפה הפיננסית של ארה\"ב.",
-     "en": "Sanctions reinforce US financial enforcement.",
-     "ar": "تعزز العقوبات الإنفاذ المالي الأمريكي.",
-     "ru": "Санкции усиливают финансовое влияние США."
-    },
-    "name_i18n": {
-     "he": "דולר אמריקאי",
-     "en": "US Dollar",
-     "ar": "الدولار الأمريكي",
-     "ru": "Доллар США"
-    },
-    "price_at_alert": 28.9,
-    "entry_price": 28.94,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 29.14,
-    "exit_date": "2026-11-06",
-    "change_pct": 0.69,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 4.63,
-    "edge_pct": 4.63,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "840ec11bd8c0",
   "evaluated": true
  },
  {
@@ -49154,27 +48736,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZHN5cmE3QXBHV2ZlMU81cVQ3LW1OMkVRdWpUcXU1cmJ4amZXTGFoWnZsUFJmYzZ6bllzWEhyNWx0NlEzOGF4WVZMM0VDLVU0enpBYWVNMlNkZkdjbXhNS2FwRkdqeDNGTThLSGJyeDdCTm9qR3lFeVdyUG41b0lEMUpyTFFSbW9xVjdHOFZCMVdWLVpnOGhOZTVVTVQwMnB1NW9selN3Q01UdnFJNlZaQVRDNkJVdWVSdjdoYXNsM185R0JLOHdQU0xn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9vSFloWGZWNWdFNzJYSEVGcEIyRzhCVkk3Wl8xa2FtMkFaMG9kZ2JYbWlvNWlETEVGRHdHNTBlUVF6YUk3dEhmZUxtdVE?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZkxNNjNtWU1XUGhlakY0bC1Qc0Z0Q1NmY2pTSDJEcmNLcEhEZGV4T1ZoQmlzSGh3VXN2Z3EweUxFczl3a25PV3BXOE9FclE1YUlCQnZkZ0xXOTRRTnZmNWlSeXVlaFVMMjJHeENNQnZybTJ5Rzh0M3ZuZ2RyN2ZRZXRpWm94cFlmV3oxd21lTlMwSDBDb1BMN3pZR2JNeGtvTjFjUzVJeGU5TFFYell0cVdvdlFIU2VNLWw5MC1MVDBCWlk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdEdtNXMtVXVfMWFJZzFjajRYRF83YWctVXBQZWZQX2Q1UlV2eFFLNFZEU0lURjI1bmRodjVndzhuM2c2YndUT1NpTTJob01PeDhtR04tZ3RWQ2htLVBnV1FBMlE0N25iVWpPY19vOFhzSGZzbzJESmhGa2tiWFlFNU9wR2thalpZZlhSMkxJNkNTOVpWbnNCcUtNOExBXzhwNE5n?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOT1ZnTTJHcUp6Nk1abFJoYWRyNkQ3ZDByTlgySmFFYWpLWV94N3N3R0hERUtNZHFwUnNnLXRQM3c3RDdSZEl1eWZ1WXlLSnFXVmRHX3J1c3lRMzNWVW9iS1ptVmRWLXVGTlVJWjNwdTlwLW4xYzN3NzRTTmlZTEJaRVBIZm4yd2dHNUpadUxodzRLZkhBTS1zc0U2NGZ1MDBLTkprVFZDQlNHZUowaU9RR0o1d09oTmVLbkFrOVlVRXRMaGZXMnh4RmpaZWE2cktuU0NSYURueENJZXRkTjJ5Wllxc3BwQzFtR2Y4TmgwTzItNmRzNE9zQm04ZkdoS1JoTm44?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc3ZFZUpfSHlSbUcxd0JYTTVxYmEyZzFhb1hGWkoxRVVEeEVfcDgta3BHVFFxb0JyaGlSVGZqYzg5UXlkcXgyN1ZGckhhSTBkanFEZ2ZzVlpuRmxJUGFkd0xLRXhnZ1pVSEJ3bmpMdmFLdnVOazlCWEJyejN1cDZYWTd4Vkw0ZmJvc25lX1hjWTdUdw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0xzTUFnZE5pbDJiVnlwZUxmd2NPaUlwNXdVbExSMG1oVXcyR1BzZjJRRlhQYWZHcjNudHNDZkRqUUN0VUNCaUZaM2ZWOTM1dHhoY0RybzRLX0YzbldFWkc1YVlrdG95Mzg1UFlKM19RNGRzN0d4b0lreXZEV0IzMTFLYTdSTktVcFJjMUtDaVdhd3BTVjRWTzFLbw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSU1yWjk3Zkk5bG9taHlzV2Npc1QxUVNLWjk2SUZYZUNBazFvYjhxZ2ZJY29mbWFsazdLQnpJZWExMDBwUVgwRmxGaXJRQjhCQWZfWUNJcjJ4cC1xYUlZWU5FS0tkQWd3TVJNTjZaRVhOeVdia3RoZng0VzlzazJqTHRNeDh6Q0NaWjgyUXo4TG9JLUV3WWRObExqUU9XRGx6cElybw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUpwYU96ZkowUkNGOXBBaFJzLU8zcWFmWjJ4b045UHpUd3Rfd1Bnb0w5VkdhMEczNTRQZGFCVUxNUkM4b3Q2a2g3VjVQdjdseTVLNDNHTUI1czg0OGtjMTl0ZUJ5RDV3dTdCVU5QeGFiblpfU3R3OXBFVFpZdDB4S1JiQ0RaNDcwOFM0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWFRteFJCd1kzOFdCMUU4QTNmT0F4Tk1yMnEybks5NHZTblZrSlVGb0FUd1paTUZNbGl2aEMzcURSSUEzT2I2akw2TXAzNzBTeERTdXhDZ1gyMXB3bWhfdGpQbXR5RUpfTmoxZGtNZEdsTFRPSmZnY0tjdXNicjNqMmpacEtJR2pkMzhiaHpVOHg5TGM3bXliQkMtSXhXQ2c3Nmc?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWl94OE9pUENRZTAyU3YwaWI3ZGg4a0xXcDVxcktpenI0c3ppZEpsZkFwaUZTdWlkT1NEQkpPY3RRSkRMZW9YZURjdUhEeWhicWhBTE43VXNFWVU4bDdWcmswNVJCQmllNHdLellUYmY4dkttSlpOeVhHV1NCWDRQdngwNWtlelYtWlh4S0t3VGpnR2hBYjd3cUtkYURvQ04wRkVlbTZCSWxxQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeEpOaTZsd2Znd2VRLUcyMXd1b0MyQzRQOUl3NFVTVlU2Yk56TXYyd2w2MEh6eGM1aDkybFhNOEF4ZThqcnNUZzRvejhEMXZxWldyQktkdXhneWwtemVZLVpKdTRXN2RWaE14enZITFJYajFPelBFeENYc1NUWjd5U1dqbkVTU25pYkhMN0xwYzNuR1kweWh6enp3?oc=5"
    }
   ],
   "impacts": [
@@ -49416,9 +48998,21 @@
      "ar": "הخفض الذهب لأدنى مستوى في أسبوع وحام البيتكوين قرب 73,700 دولار بعد هبوط أسبوعي، وسط مخاوف رفع الفائدة.",
      "ru": "Золото упало до недельного минимума, а биткоин держится около $73,700 на фоне инфляционных опасений и сильного доллара."
     }
+   },
+   {
+    "ts": 1794466003,
+    "time": "2026-11-12T06:46Z",
+    "severity": 7,
+    "summary": "נתוני אינפלציה חמים בארה\"ב חיזקו את הציפיות להעלאות ריבית נוספות מצד הפדרל ריב, מה שהקפיץ את מדד הדולר לרמה גבוהה והעיב על מחירי הזהב, הכסף והנכסים הדיגיטליים.",
+    "i18n": {
+     "he": "נתוני אינפלציה חמים בארה\"ב חיזקו את הציפיות להעלאות ריבית נוספות מצד הפדרל ריב, מה שהקפיץ את מדד הדולר לרמה גבוהה והעיב על מחירי הזהב, הכסף והנכסים הדיגיטליים.",
+     "en": "Hot US inflation data fueled expectations of further Federal Reserve rate hikes, driving the US dollar index to highs while weighing heavily on gold, silver, and crypto assets.",
+     "ar": "أدت بيانات التضخم الساخنة في الولايات المتحدة إلى تعزيز توقعات رفع أسعار الفائدة من قبل الفيدرالي، مما رفع مؤشر الدولار وضغط على الذهب والعملات الرقمية.",
+     "ru": "Горячие данные по инфляции в США усилили ожидания повышения ставки ФРС, подняв индекс доллара и надавив на золото и криптовалюты."
+    }
    }
   ],
-  "last_update": 1794458551
+  "last_update": 1794466003
  },
  {
   "ts": 1794406668,
@@ -49734,12 +49328,16 @@
    }
   },
   "category": "cyber",
-  "severity": 3,
+  "severity": 4,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTmJ0aElSeUNsdmZhbEh6N1N5Y25VUmFMVmp4Q1JyNThsdGhIU0EwRUYxVnk0RGh2WFNGVl9nVXZXTDZsOGRRTzQ2TGVCOTJaNjRfajc1elo5U0YtTUhKaTFQNmFFNmFkZUtMQ0RWZEpQRFoyNHk5MXpKR1Z4MkVyWTYxU0wyZ3docXNPZFJxR2pHQlhIRUNR?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSld4cVQ3cGlVQWJiVXJwVUY4XzF4dHpybGpiRzhkOW83dG9fT3lQZ2pVRzVOckthbnQwYjBiUXFRaUZIM1pGWEtPVzBuYkRSa0Ezd2RmWkRVQXNqNE9oZG8xQ2taOTlTMlZ6RFFxX2h1cmxtUWgzdWgzYlBqTmRvUFdjdUdvM3VPU0xsVUkzenA4a3JHaGRwNkE2bFA0VTgxeERhUzJIdWU3R0xxNzkxcmhfakxQY25LZG1wMG1Qb1pOUdIBxwFBVV95cUxQTG9uS1NBOWVBVmRXNUtleWUyUHBsQmRtU3pfSWtZeFhpTWRrR0phNFB5cGpoMGJySGVxUXE0S0ZSbnB5Ym9JaVVXRDBLT2NjTm83dUtBbUJsR2JyNlk1U0R5b1BxUmd0bkNENHpRQ0hpRGpjeDNCVzVWRXRMSUtINm9aUEtPRzdReEtDY2F3Ym00bk9oQkdoMUU1X1ZoNGhpckdCZnV6V0JYbUNpUTVuQ3pUc2N6S2s3cHcwWEdIMFEySHB6WE1v?oc=5"
    }
   ],
   "impacts": [
@@ -49775,9 +49373,21 @@
      "ar": "ظهرت بيانات مدارس ريتشموند من هجوم سيبراني على الويب المظلم، مما أثار قلقاً عميقاً.",
      "ru": "Данные школ Ричмонда от кибератаки появились в даркнете, вызвав глубокую озабоченность."
     }
+   },
+   {
+    "ts": 1794466003,
+    "time": "2026-11-12T06:46Z",
+    "severity": 4,
+    "summary": "רשויות פולין נאלצו לנתק את פלטפורמת השירותים הדיגיטליים הממשלתית מהרשת בעקבות מתקפת סייבר משמעותית שפגעה במערכות.",
+    "i18n": {
+     "he": "רשויות פולין נאלצו לנתק את פלטפורמת השירותים הדיגיטליים הממשלתית מהרשת בעקבות מתקפת סייבר משמעותית שפגעה במערכות.",
+     "en": "Polish authorities took their national e-government platform offline after a major cyberattack compromised system availability.",
+     "ar": "اضطرت السلطات البولندية إلى فصل منصة الحكومة الإلكترونية الوطنية عن شبكة الإنترنت إثر هجوم سيبراني.",
+     "ru": "Власти Польши были вынуждены отключить национальную платформу электронного правительства после крупной кибератаки."
+    }
    }
   ],
-  "last_update": 1794458551
+  "last_update": 1794466003
  },
  {
   "ts": 1794406668,
@@ -50173,18 +49783,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTF0MWc2Zk9vUjRiaWxKWHdwMGZIRHpkVmhoUGJwLW5lcGpxc1cwUWR2RnZ4dVM2R1NTTzg2aE1FMjNFSzhlSHdmYWRBS0tiTzJxQlVseG5yZ19mOGZuSEQ3bWd2bS1jWTdGRlJCOVFoc1lONmMwTHFUX09UWGc3bHd5RzV5cUFfVjRxSWlsdXJwUTJ1M3I1U2pqNmNjYXo0UWdteW13c1JkNmJsbVE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc3RIRGwtSHJXY2FRamNKb0hrRXhYcl9FTHR3RU5rbF84MWV1N0kweWRIVmVJVWRqU0U3Q2ZBbk44WmxtM293bHNLajRHeF9GMXRGWFExOXVETGJ4TUJYRHRrUV9PVFhHeFYtNzkxWl9oV2ppQUxxM3BIdWNEb0NqZU52N2R6dnd4UVBwamJ1UDRLd1o3RDBPRm5WeEU0ZmIwVmNXWnd3VnByVEFTSG40TmNWdDNfSXM2eTJ2YTZBaWpVakxpdV9LV3o0QVRwZi1jT1pTLWdMYW9PSEg5bWZSd0ZyTDBpMXBIV3VsTE4tc29McXPSAfgBQVVfeXFMTlpBcVYxenFLeUxsNERkOHNXWWdhaUl0VzRsalFrVm5XenVqTGp1UUh4OS11dkdjblNYV3hROEU0ZXpLVEFSMkVqdGRsczdLYTJ1YVhNdTVNQ0VpVWtwN2ZUV1RKdldfYTU2TjVJS2M4TE11ejI1VDNCamF0SE9ab1dMclBEektUY3lJc2hoQTA0bGRVY2sxbXIwNGludmdpdUgxMjRXbFZpT3ZZMUdFQ1l3SGZLTml0VWtUa3NjZERvTVpKUTh2c2tvaEd0cWlBYkZyUWJwMkVaTktIMG5aNU1HVzNwTS1WRTR4RWNrV3Q2OWFWSTlrano?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOThqR0JiN3JLYVRVUDFMSnR0eWlQQXphMUtyU2wyV3NsNEZtUTlleWlMVURCODNUTUZWZ2xKVmxwclpUUzFvMnkxR0FiemVremtQdmNuT1dwZ0Z5dmZpSHB2X09iV1NKMlpYNThSZWJWRWRFcmxkLVBjX1pQVkk3akhiTWloWHZ2YkhZRnlLNHl2X09xZDRYODllS1ByMXlpcUliQXNIRlAzWVZQNUhyZlVTZ1dwemN5VzJoMVVB?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM1NLbDZxVHdLNy1wSFJqczVGZkM3cTNIM2doa3VhVjhKYXByRjRiLWlCVHFVdFRQLVFCc1RaSExsY0w4UUU1aERKUVVycUdLRm5vbllkN0gtZzJZcGU5VVIwR0RGR3dUYW5TV2U0ZmwtNDRKdlc1cHVIV2tZZGgzZ041OUhRS2xWTzB0Rl95SlhIblBvZkV6anZDc3dpU3lsRWtwSnNBQQ?oc=5"
    },
    {
@@ -50194,6 +49792,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94dmhYZVg3djRYaERsOXBLeThxbVdKVzZZb0Rnd2Z4bEdUMmtkeXJhZVRUNC1faF92TnRRSnpnY2kyRklIMzNLeTN6MWFJRjlobmxqbjl2d24wRlJ4b2xQeVdORzRxbjZ1bER0aml3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSlJzZTBacXBxYjBqSU8xZ2o1eWp6WVU4Z2RDRWZQbzFZTFZCbHhSa3E1TVkwMTJfVEFTLVR2VTJZV0hvX0NiM0F5cmp2OFV1X2k4R1g2UF94cGxvWXNiNi1MRHNnZkhiS1lNdFUzRXZnVWlEOEdVWmdDbDBnaGVKRmpjU2w1ckdYaFYtZEREbmI2QQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORmhQY0kxd3M5TElUakRXclRFWnVIcUk4QURSeDNSaDBscl9ZblFPeTNxbVpxX0lTTC1ySWlUaU40SG1aWWpVeDBDeHFveWh0U2JXYmJIZjRZdWFpUlY0SU1Gdms1NVdHWTFqdWw4UGktRXBSX1pUekh0Sm4yamRYdThrQnluTURBel9fWUdyRUVQdGVOVDQ5d1ZnTlpSajkzZUlLb2p5TDQwYjY3c2ZLN1Z2ckk5aVRDREVkTmEtNExYVlJuZWtYU3czN2dkNnpueXIxOWp2d2ttbGY2bXFuUExvOVJPaFk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLTBOeEdMWkV3OFVIVkYxUHJzRmR3eUpZdExNQUx6UU1qR3F4UXNjbFNyQjFJR3RIOVVSS0xMNjczYlBKWEVpV1VVcTc4dGpZWkhYZW1lQ2dmanFMZnpzWkVYamZLazN5Vm1IdGpsUkdGb2FDRkRST0FPc3l3WXRRVDlRbmcxNmtfaDE0RA?oc=5"
    }
   ],
   "impacts": [
@@ -50385,9 +49995,21 @@
      "ar": "نشرت روسيا صواريخ يارس النووية في آبار الإطلاق، وكشفت إيران عن 'مدينة صواريخ' تحت الأرض مع تهديدات بالرد.",
      "ru": "Россия разместила ядерные ракеты Ярс в шахтах, а Иран представил подземный «ракетный город» на фоне угроз возмездия."
     }
+   },
+   {
+    "ts": 1794466003,
+    "time": "2026-11-12T06:46Z",
+    "severity": 6,
+    "summary": "ארצות הברית הגבירה את הסנקציות על איראן על רקע דוחות מודיעיניים חושפניים על יכולות ייצור הטילים שלה, כאשר טהראן מזהירה מתגובה חריפה.",
+    "i18n": {
+     "he": "ארצות הברית הגבירה את הסנקציות על איראן על רקע דוחות מודיעיניים חושפניים על יכולות ייצור הטילים שלה, כאשר טהראן מזהירה מתגובה חריפה.",
+     "en": "The US has tightened sanctions against Iran following western intelligence disclosures regarding its missile manufacturing capabilities, with Tehran warning of strong retaliation.",
+     "ar": "قامت الولايات المتحدة بتشديد العقوبات على إيران وسط تقارير استخباراتية جديدة حول قدرات إنتاج الصواريخ.",
+     "ru": "США ужесточили санкции против Ирана на фоне данных разведки о его ракетном производстве, Тегеран пригрозил ответом."
+    }
    }
   ],
-  "last_update": 1794458551
+  "last_update": 1794466003
  },
  {
   "ts": 1794420441,
@@ -50479,27 +50101,27 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdGZ2MXNySGdCNWFnV3ZaTHA4VFR5WVJlYVl3UFBiS0RURm56MmFpNnVhV2dacHBXWWtRWmI4VzNXT0NSSXNiOUVzMzRPU05XU0pwWS1wRUNHLUx6dlZoZWNrZGJzbHlUR0NyVWpJWmthQ2czVDF2ajhPdDhPMGJseDhZN3hGaWpvZmpiclRMX0otOXBSVDgzWWJ1NGVhOENLdFVxbVQ5RkVkM0h4MVUtb3R2ZTBxNXJGdXNjblhiWndZcDBzdTBaN2d1Q2FGZlE1ZjExajhJT05Kb09TSmd4ZkxGdXlqQUIzeXRJ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdFVNNGttOWhhcWEwbUdWSkZ6Mk5mTnNzOHRLZ05JYTctd3F5LXpxWDh2dUFTR1hTLXdGV0NrT1FPd3l1dzczMWZ6TFVMbXMxbkpzWEF2MVRuRHp1UWh1dndtLWtsdkt6QUVaaE9vU0pYMnpZVzNMTzlGTjcxc2RhNDdSZzBzcjB3RkU4QU85bDlaUnhkX3NOUmlHODJDdDFSZXRaMk13R00tdFFaR3REd1RMRktINENaLU5QOS1Qaw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQmpEVmprT2wxc0RmbUxTcm1KSVJjZV9nSHdfQkVZOVU5VDFlQ2lfUXZ6SzctWnFZVFRjVjZCZDFXMkhHbFJjNmZLWDV1Q0xoY2dnYXUtNHpxdlgtZkxlZUp3aWJHVDhQRmxXRl9JUm41bHN5NzFqUnpmLWxzUnFyak5Icm9xNnVrczVieEpoRzktQlBsRWtzd0JjdVQzNDVObXF5WlQ0aG5WQnVzbTExWHB5V250Qzltams4Y0I0X1ZaS1d6ck9kcVZPVndKVkXSAdQBQVVfeXFMTUk2Y1d5NnhpSzdOU1FFcmJNck1nTnk0X3hHMmpSVjRnQWJHOXAxSENxTDFIX05RY3Itb29uYzFoTXRZbGtoQW9NQkx0WEZfTWhzMlMxNHE5SkYzTFROUGRmcFFTZFBBR3o2VkRYbjJNN05JWDhkZFZuRk1yaU1hdy1rMmwtd1NiQjFQRUdfUmdfREpCYUR5dDJVbjkyM3haZmNLVWlTSUpjdk9MSW9kVHZEVWZ6RkJBWGVQQzVfNDE3M2NZR2xscm5WXzcxeHl6cE1YY3E?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaWtXbXRqbFVGRl8xVTFuZG9aYXBoX0VIdE1HeG9ObG9yaE0yVmlVTXdWRmQyTjUwb21xcmNMUDYzMUV5UFJMOThLaFNRWWh2WnJQNno5R1R3NmFvWHNwSHN5QXB6di1ERk5LY2d4NHl5ek53VWdUV0dpMWZRVE5FdDA1MjA5c2R0ZnRPVm9GYzJqck44aUpXcV90bUx5bVRxbGFmNlJNRFIyeVN1TFJiZ3ZvREJpUk1iNWNGREdtUjBSR2Rfa0RPU1gxdXFQRWFUUUlBLUNCNTBsTE9q0gHiAUFVX3lxTE1Qc1ZiX2JER1VsODZYcEFuNUFvN09obnNKTk9wTVhGOFhoVW4yNkM0X09FMmpvOWt6c0ROTE9xQkZQZEdMaVlKd014RG5LQW5reENpeGtpc2tUOHpuVG54WEh2LVgzcGhGdXRVVGh5cVFjS3gwRzFNY1hRTTdyOG1PSDg1djN0dVJuRXpnYldBN1c0b2NMRDI5LURqa2R0U0QzaHNQSXdkUGR0czh0UkVVS1Yxb29Ld3ZJM1pHNDJDSFZLaFJXbHUtZ0JfaUNRdFpVOWpyN243MWlESXNPeVlRU2c?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1V6U1ZIN3Y4eTB4cnA0X1c5SzJOdHh1WWgxMHFBbFdvUTNJbnRGYlUwV3ZGbkJvQ05SNGlSbHR4NWY1azZ5eklPSldmU2RXZVdVWjFKTmdJcWplUEJUS3lqT1BoTmdiX25WSlFlc2hNZWczWEhIMHN5dndNbFBSNVRVbW5uOTE0cjVCaGJ1LVNXTW5rSGl3cFc5SkhYcFc4bHI0cnB2NlJPQ00?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPV2M4dGswTzg0RkFXQmZUc1BSNFI4MEwwLVp2ejZ1MXd1NTJpb3hBeEI0d3ladnA1V2tVYjYzSnJVeTV2YW8xZnpwV3FIQVZZZmhHRzVzblN1aUJEb01Sdk82RzR4Y1NlWUVnWVJEeFVleW5sQUxkd2hBUm10YmdDZlJYOUJ5M0Q4Qm1wa3pnYzJ5aE53aF9KVEJmcHlacUZERWtQaXIyR1RUbFVGak5ycVZ3eWxvSmUwYXpMZjBmV3NYLVI4RkNYX0tLQ3RoOTAtNzFiLUJja0wxUUoyT2pXZVFpQQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaDFzUFl6aUc5ZTV3MG94ZVZCdHFncm9aMHcyRk1yYnZIN055aHBZWnFWblNLeFI3YjBQVVlRU3pyU1EzUDNTbzkwNHdrbkZrbnRzVl9RbFlyU1N4ZVdCUFc0bkQyaTZOSFQ4UVR1UUxUNGxZay13YUE3ZTUtRmxwLU9XUmc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNFIxZHhmVzZaZWVXSHZkY0tkemItSk84RTZkVW50ZnJnNTNReVB0RHhfMklEek4xSGk3UlNpYlRLN3RXQ1Y2dnIwNFRDUGp6NjFrYmtFak1xMTZvNW9hbkNRZXUtMEs2VVlXcDByZXlkNnZxYmFDazdVMlBMNXpIdTZ0OHNIQQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ2gwWWg2TFVmTFl5SkJOU3dRZUZuNmpwbDBCY0h1Yk96T3ZyYm5MWDA1UXFyNW8xQkVyQjF4ejltRnM4bG9laHpJc1doMm03dk00ajZFS1NQc093Q01PalBrUXpRUHBzMVVrdlVUY3RrdnFRWWxpNU91TGNYOFd2cE5zcnhnTjI0S3djU19iUElhMlpMaDljMFRwZl9HelVQN1hjRQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQndGakZqTjAtdjlfcFdlUFpBSWxLZmhJZjJqR245bmhTSGpCLWtuclRtNzNBU1FBNUFtYzVEa2MtMy1ZVUlQTVMtR2FNdVVVWEVwaXhSWmJtbjl2STQxMF9IaGxRTGtMcUxveTFaaFBJQWl3WTlOSHkybnlxZk1Ta2xwWFcyUnlNQVRjaU1fMHVrYVItOFduNEdxdm92dWJvQVNmdWVxcDJGWG5RbTJaM3lGUGRkcUZ6Nm1Db2ljUDl1VElEb3NQY2VxUkdfUVZCZTlFM2dkaUlhTmdXNDNQdXlrNVNHeXhSb01pbEhhdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeUNRX3hXam9kWlJkcWtmQUdCM3N6QVZ6d0FIcng1eUR5QVF0ZzRDa0xHZWJ1ci1XUW5xeGdkajZwWjhXaXd3bHlmcnZaOWtrV3BPeDgxcUduS2JRQ2ZrZWtHeU9aVUFBUS1DXzNDVmdLTGtPRDh1SUU4RVo2bVNHbS1vS0UxaTR4ZUdVNkZ1NEpaMUhEOUNpYmxySHhTWFplTTROZG92ZzczVTFHaDQ5NGJrRkVEUkpkOFZmTVhqVU9ic2lPbldkQS1uOWU?oc=5"
    }
   ],
   "impacts": [
@@ -50567,9 +50189,21 @@
      "ar": "وقعت شركة \"كوتش كوبر\" التابعة لأداني إنتربرايزس مذكرة تفاهم مع شركة \"كوديلكو\" التشيلية لاستكشاف مشروع נחושת.",
      "ru": "Дочерняя компания Adani Enterprises Kutch Copper подписала меморандум с чилийской Codelco для изучения медного проекта."
     }
+   },
+   {
+    "ts": 1794466003,
+    "time": "2026-11-12T06:46Z",
+    "severity": 4,
+    "summary": "חברת Kutch Copper של קבוצת אדאני חתמה על מזכר הבנות עם ענקית הנחושת הצ'יליאנית Codelco לפיתוח פרויקט נחושת משותף, כחלק מהשאיפה להגיע לייצור של מיליון טון.",
+    "i18n": {
+     "he": "חברת Kutch Copper של קבוצת אדאני חתמה על מזכר הבנות עם ענקית הנחושת הצ'יליאנית Codelco לפיתוח פרויקט נחושת משותף, כחלק מהשאיפה להגיע לייצור של מיליון טון.",
+     "en": "Adani's Kutch Copper signed an MoU with Chilean copper giant Codelco for a strategic exploration and project partnership to support its massive smelting goals.",
+     "ar": "وقعت شركة كوتش كوبر التابعة لأداني مذكرة تفاهم مع عملاق النحاس الشيلي كوديلكو لشراكة استراتيجية.",
+     "ru": "Подразделение Kutch Copper компании Adani подписало меморандум о взаимопонимании с чилийским гигантом Codelco."
+    }
    }
   ],
-  "last_update": 1794462244
+  "last_update": 1794466003
  },
  {
   "ts": 1794428108,
@@ -52215,6 +51849,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNWm0wRzk3cXBuamNQYmNvdVFydG1CRjVjUTBjT3kxTkxuNmZMYjg1WmZfdjF2cGtCWVVHZjRjUnhBdVhtSEtRT1g3YXZFSW5nYjJhellXQlpGOHhRdUdiaUFLRjlIbW4zTVJHOFU5TnhnUVE0clhyZUZLeEgzN2pkRGY4T1QyYVFWcHVaUlNLUVNRX1kwVlRkTTVMOGRyaWZ5ai1zUkwwVkVaZEQwelJwRkpKSXhJbkRtbVQyVXoyTGZYNndaSElqN3dIRE1xeDExZVU2YVIyS2tMRWpkRWVQWkR4ZkZoY3EyQlhVWHZlU21SXzhOMktrSkdpMmxSWV9hWWRhTXVQTW5vTTVjelHSAZMCQVVfeXFMTnJKZ2s4dGI0aFlvSEw2MEIwRTh6WkVEbXkxVk5qSVdld0QzSHNRMkYtYzNVVzA4VWZraUt4Yjk4S1pfWVhKeG5UdTRRTmxKWVVTNkNiOUNsT0Q4aDRnS0Rha0ZNdUpfNFI0ZTBnazB5WmM1YWt3bFEtMkF0SDlKVTBGZUU4My1XTm1OcF9RX21qdzZTZUZ3WjRZZmJZMFVKVEJxQkxReDNmOTJVdDNQQzNJT0JEMGZCcFMyVl9hY1ZMeWtqcDRTSlJmeEZHd0V0Zzlhc3NxS1RlNE8zSWlxZWVHZ1lQZHFkSlg5M04tNDFGT3FCZDAxOENZQkxablJOZGdCR3I0VDBmYnhsUzYtbUVpd0k?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaXo4RW1Iaks5eTNDS01sa2RUYUIyMmJaQWRBVE9pbkJNbzBmNGhuVm05OXBXdEtEUk1jQzZrTHpPZnpDYkx6cGxzWXNDTE5FQmFmZ1BZb05KNXFyd0NYNHB1R1dxbXkzNVlWR19pMVpZVUNGOUVQUnlIdnptdGZJYnc1UUN2QmczLUo5dlUzSHQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG1sMnJGNkxKMWpmYXBTUGhQeFAwYjJJY2xacUhZUjNiOFhIdWF4WjlRbEZ1Y3lwcVBNaUdqejBZOG1qV01PcjNDRV9PTmM5cjlJTzBSaXc4RkdUX3FtcW5fZ29DN3ZSeEZkdVg5NEk2ZzZEVXo3YzJPVzlBUHEyZHZVNEp4MThRMjRzeDUxN1JLTVZfdjgzYTdoVQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU182VVVJaGNQSElZcmNMVVUydmF1bDJJQ0FKWnphdVpOSVoxREpENzFlUlg3YVhtYzk4WXZoaFdxdU83M3FXOFk5THh3TWMyWlhkZ3pHOWVqMVJyVldCT2VPdnVVWGxreHZQdnlkclJhY1FROHRZa2pvN29YektzWTNnSzludTBrSDF2d0ljWWZGTnRya2pRemRjNHXSAaIBQVVfeXFMTXp0ZlpCTkFPTmItUGRIdm1QdGtpOVNxZEw0RHp4Y1pqNXFPZ2o0LUMzakdGaTdSMC10TjdXWEp2T0FYZ3B4MnNUZEl3azNnbjA5V3Z0WGF5MU5MYi1kN2JGZFV6eGJVeXpsTUlHbllTRWNwa2ZGdHBfVS12eExjdVlFT2Z6d295SU9QNEFWR2g5RllrMzl0c0NmUE1nR29fM0hR?oc=5"
    }
   ],
   "impacts": [
@@ -52257,7 +51903,22 @@
     "price_at_alert": 166.71
    }
   ],
-  "id": "b606d3e96eab"
+  "id": "b606d3e96eab",
+  "updates": [
+   {
+    "ts": 1794466003,
+    "time": "2026-11-12T06:46Z",
+    "severity": 4,
+    "summary": "נתונים חדשים מראים עלייה בתפוקת אופ\"ק פלוס, בזמן שניגריה ממשיחה לפגר אחר יעדי התקציב שלה למרות עמידה במכסות ארגון המדינות המייצוא נפט.",
+    "i18n": {
+     "he": "נתונים חדשים מראים עלייה בתפוקת אופ\"ק פלוס, בזמן שניגריה ממשיחה לפגר אחר יעדי התקציב שלה למרות עמידה במכסות ארגון המדינות המייצוא נפט.",
+     "en": "Recent updates indicate rising OPEC output, while Nigeria's crude production continues to fall short of budget targets despite general adherence to compliance frameworks.",
+     "ar": "تظهر البيانات ارتفاع إنتاج أوبك، بينما تقصر نيجيريا عن تحقيق أهداف الميزانية رغم الالتزام بالحصص.",
+     "ru": "Данные указывают на рост добычи ОПЕК, в то время как Нигерия отстает от бюджетных целей."
+    }
+   }
+  ],
+  "last_update": 1794466003
  },
  {
   "ts": 1794462244,
@@ -52416,5 +52077,82 @@
    }
   ],
   "id": "9459350bed9a"
+ },
+ {
+  "ts": 1794466003,
+  "time": "2026-11-12T06:46Z",
+  "title": "ישיבת דירקטוריון דרמטית של נבידיה עקב עתידו של המנכ\"ל ג'נסן הואנג",
+  "summary": "דירקטוריון נבידיה קיים ישיבה ממושכת לדון בעתידו של המנכ\"ל ג'נסן הואנג, בעקבות הודאתו בקשר אישי עם אישה החשודה על ידי המודיעין האמריקאי כמרגלת סינית.",
+  "kid": "חברת הענק נבידיה, המובילה בשבבי בינה מלאכותית, דנה האם להשאיר את המנכ\"ל שלה אחרי שנחשף שניהל קשר עם אישה המעוררת חשדות ביטחוניים בארה\"ב. שינוי בהנהלה עלול לטלטל את מניית הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "ישיבת דירקטוריון דרמטית של נבידיה עקב עתידו של המנכ\"ל ג'נסן הואנג",
+    "en": "Nvidia Board Meeting Extends into Evening to Decide CEO Jensen Huang's Fate",
+    "ar": "اجتماع مجلس إدارة نبييديا يمتد لمناقشة مستقبل الرئيس التنفيذي جنسن هوانغ",
+    "ru": "Совет директоров Nvidia обсуждает судьбу гендиректора Дженсена Хуанга"
+   },
+   "summary": {
+    "he": "דירקטוריון נבידיה קיים ישיבה ממושכת לדון בעתידו של המנכ\"ל ג'נסן הואנג, בעקבות הודאתו בקשר אישי עם אישה החשודה על ידי המודיעין האמריקאי כמרגלת סינית.",
+    "en": "Nvidia's board held an extended meeting to decide the fate of CEO Jensen Huang days after he admitted to an affair with a woman believed by US intelligence to be a Chinese spy.",
+    "ar": "عقد مجلس إدارة نبييديا اجتماعاً طويلاً لتحديد مصير الرئيس التنفيذي جنسن هوانغ بعد اعترافه بعلاقة مع امرأة تشتبه الاستخبارات الأمريكية في أنها جاسوسة صينية.",
+    "ru": "Совет директоров Nvidia провел длительное заседание, чтобы решить судьбу гендиректора Дженсена Хуанга после признания в связи с женщиной, подозреваемой в шпионаже."
+   },
+   "kid": {
+    "he": "חברת הענק נבידיה, המובילה בשבבי בינה מלאכותית, דנה האם להשאיר את המנכ\"ל שלה אחרי שנחשף שניהל קשר עם אישה המעוררת חשדות ביטחוניים בארה\"ב. שינוי בהנהלה עלול לטלטל את מניית הטכנולוגיה.",
+    "en": "AI chip giant Nvidia is debating whether to keep its CEO after a scandal involving a personal relationship tied to security suspicions. Management changes could shake up the stock.",
+    "ar": "عملاق رقائق الذكاء الاصطناعي نبييديا يدرس مستقبل رئيسه التنفيذي بعد تقارير حساسة. أي تغيير قد يهز السهم.",
+    "ru": "Гигант чипов ИИ Nvidia решает судьбу своего гендиректора из-за скандала с угрозой безопасности, что может сильно потрясти акции."
+   }
+  },
+  "category": "policy",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794466003,
+    "reason": "אי-ודאות ניהולית סביב המנכ\"ל המייסד מעוררת חשש בקרב משקיעים.",
+    "reason_i18n": {
+     "he": "אי-ודאות ניהולית סביב המנכ\"ל המייסד מעוררת חשש בקרב משקיעים.",
+     "en": "Management uncertainty surrounding the founder-CEO rattles investors.",
+     "ar": "حالة عدم اليقين الإداري تثير قلق المستثمرين.",
+     "ru": "Управленческая неопределенность вокруг гендиректора пугает инвесторов."
+    },
+    "name_i18n": {
+     "he": "נבידיה – יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia – AI chip maker",
+     "ar": "نبييديا - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia – производитель чипов ИИ"
+    },
+    "price_at_alert": 173.73
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794466003,
+    "reason": "נבידיה מהווה משקל כבד בסקטרו ונפילתה תגרור את כל ענף השבבים.",
+    "reason_i18n": {
+     "he": "נבידיה מהווה משקל כבד בסקטרו ונפילתה תגרור את כל ענף השבבים.",
+     "en": "Nvidia's heavy weighting means leadership turmoil could drag down chips.",
+     "ar": "وزن نبييديا الثقيل يعني أن أزمتها قد تسحب قطاع الرقائق لأسفل.",
+     "ru": "Большой вес Nvidia может утянуть вниз весь сектор чипов."
+    },
+    "name_i18n": {
+     "he": "קרן סל מוליכים למחצה",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 506.96
+   }
+  ],
+  "id": "8b9b4e6363c7"
  }
 ]
