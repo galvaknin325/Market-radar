@@ -75299,5 +75299,265 @@
    }
   ],
   "id": "4dfb9677af8d"
+ },
+ {
+  "ts": 1794481131,
+  "time": "2026-11-12T10:58Z",
+  "title": "פיצוץ בשתי מכליות נפט במצר הורמוז",
+  "summary": "משמרות המהפכה של איראן דיווחו על פיצוץ ושריפה של שתי מכליות נפט במצר הורמוז, נתיב שיט קריטי לאספקת אנרגיה עולמית.",
+  "kid": "שתי ספינות נפט גדולות התפוצצו במקום שבו עוברת רוב הנפט בעולם. זה עלול לגרום למחיר הדלק לעלות כי יהיה קשה יותר להוביל נפט.",
+  "i18n": {
+   "title": {
+    "he": "פיצוץ בשתי מכליות נפט במצר הורמוז",
+    "en": "Two supertankers explode in Strait of Hormuz",
+    "ar": "انفجار ناقلتي نفط عملاقتين في مضيق هرمز",
+    "ru": "Взрыв двух супертанкеров в Ормузском проливе"
+   },
+   "summary": {
+    "he": "משמרות המהפכה של איראן דיווחו על פיצוץ ושריפה של שתי מכליות נפט במצר הורמוז, נתיב שיט קריטי לאספקת אנרגיה עולמית.",
+    "en": "Iran's IRGC reported that two supertankers are burning in the Strait of Hormuz, a critical global energy shipping chokepoint.",
+    "ar": "أفاد الحرس الثوري الإيراني عن انفجار واحتراق ناقلتي نفط عملاقتين في مضيق هرمز، وهو ممر مائي حيوي لإمدادات الطاقة العالمية.",
+    "ru": "Корпус стражей исламской революции Ирана сообщил о взрыве и пожаре на двух супертанкерах в Ормузском проливе, ключевом маршруте поставок энергоносителей."
+   },
+   "kid": {
+    "he": "שתי ספינות נפט גדולות התפוצצו במקום שבו עוברת רוב הנפט בעולם. זה עלול לגרום למחיר הדלק לעלות כי יהיה קשה יותר להוביל נפט.",
+    "en": "Two giant oil ships exploded in a place where most of the world's oil travels. This might make gas prices go up because it will be harder to move oil around.",
+    "ar": "انفجرت ناقلتا نفط كبيرتان في ممر مائي يمر عبره معظم نفط العالم. قد يؤدي هذا إلى ارتفاع أسعار الوقود لأنه سيصبح من الصعب نقل النفط.",
+    "ru": "Два огромных нефтяных танкера взорвались в месте, через которое проходит большая часть мировой нефти. Это может привести к росту цен на бензин, так как перевозить нефть станет сложнее."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1E2VFlpWERDcU1PanZ2RkFFbXN6OFJvZ2ljaUdxVjAzemJXZFlRcTFpMEZyc1FBWE9zQ1JWUy1kUHBpdHZYM2xUbDVWUHRiUEZLRjBFWGtYMUFYeExqQzdXa2lqbWl0clBvLVRXZGZqRzZ2Uk00WmlGT1hnSEZBdWFOa1ljT045RUthemFUcDhjdm1EODNtNDUtdW5SOWxpeFZPMQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMmc2cnA2bVU4MmItOWI3TEdlZkE2RWVDZXdkU19JNnJyQTVTMk0xcXlweUlQUG1pbzZDRjNPRm1hY25iNWpjcEhnWUhmWHFlemFiVlR3bGFHU2xWcExaQWx2VFdUZEVvU3R4eFJGek9vaDNrSDFDXzNMY2hNVGZmaWt2dlhNYlZCOWc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794481131,
+    "reason": "שיבושים באספקת נפט מעלים את המחיר",
+    "reason_i18n": {
+     "he": "שיבושים באספקת נפט מעלים את המחיר",
+     "en": "Supply disruptions drive oil prices higher",
+     "ar": "اضطرابات الإمدادات ترفع أسعار النفط",
+     "ru": "Перебои в поставках повышают цены на нефть"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 141.47
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794481131,
+    "reason": "עליית מחירי הנפט מיטיבה עם חברות האנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט מיטיבה עם חברות האנרגיה",
+     "en": "Higher oil prices benefit energy companies",
+     "ar": "ارتفاع أسعار النفط يفيد شركات الطاقة",
+     "ru": "Рост цен на нефть выгоден энергетическим компаниям"
+    },
+    "name_i18n": {
+     "he": "מגזר האנרגיה",
+     "en": "Energy Sector",
+     "ar": "قطاع الطاقة",
+     "ru": "Сектор энергетики"
+    },
+    "price_at_alert": 63.37
+   }
+  ],
+  "id": "7164eb2f4b9b"
+ },
+ {
+  "ts": 1794481131,
+  "time": "2026-11-12T10:58Z",
+  "title": "האינפלציה בהודו מזנקת ל-6.09%",
+  "summary": "מדד המחירים לצרכן בהודו עלה ל-6.09% באוקטובר, מעבר ליעד העליון של הבנק המרכזי, מה שמגביר את הציפיות להעלאת ריבית.",
+  "kid": "המחירים בהודו עלו מהר מדי, אז הבנק המרכזי שלהם עשוי להעלות את הריבית כדי להאט את זה. זה משפיע על השקעות במדינות מתפתחות.",
+  "i18n": {
+   "title": {
+    "he": "האינפלציה בהודו מזנקת ל-6.09%",
+    "en": "India's retail inflation hits 6.09%",
+    "ar": "تضخم التجزئة في الهند يصل إلى 6.09٪",
+    "ru": "Инфляция в Индии достигла 6,09%"
+   },
+   "summary": {
+    "he": "מדד המחירים לצרכן בהודו עלה ל-6.09% באוקטובר, מעבר ליעד העליון של הבנק המרכזי, מה שמגביר את הציפיות להעלאת ריבית.",
+    "en": "India's retail inflation rose to 6.09% in October, breaching the RBI's upper tolerance limit and strengthening the case for potential rate hikes.",
+    "ar": "ارتفع تضخم التجزئة في الهند إلى 6.09٪ في أكتوبر، متجاوزاً الحد الأعلى المسموح به للبنك المركزي الهندي، مما يعزز التوقعات برفع أسعار الفائدة.",
+    "ru": "Потребительская инфляция в Индии выросла до 6,09% в октябре, превысив верхний предел допустимого диапазона ЦБ Индии, что усиливает ожидания повышения ставок."
+   },
+   "kid": {
+    "he": "המחירים בהודו עלו מהר מדי, אז הבנק המרכזי שלהם עשוי להעלות את הריבית כדי להאט את זה. זה משפיע על השקעות במדינות מתפתחות.",
+    "en": "Prices in India are rising too fast, so their central bank might raise interest rates to slow it down. This affects investments in developing countries.",
+    "ar": "ترتفع الأسعار في الهند بسرعة كبيرة، لذا قد يقوم بنكهم المركزي برفع أسعار الفائدة لإبطاء ذلك. هذا يؤثر على الاستثمارات في الدول النامية.",
+    "ru": "Цены в Индии растут слишком быстро, поэтому их центральный банк может повысить процентные ставки, чтобы замедлить этот процесс. Это влияет на инвестиции в развивающиеся страны."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNU1pPbF9TaEdfR0dJMzVPX2xVNU53QkhKUkhueXY0ZTJCYjdUbDBEQ1RmSFpUdDNQTmlIYmw0WW9vems2cmNWRGI5U1R2dC1sTnFINnBRZWhPcUdtUVB4MjZOTVpSVEJGLXpDZkJOTEV0VlcwODdHbW0zbFNxRWRYUlFpeUhCQWg1UEhJaVhHd2JjbGFFSUlEMmZlUWF2N3Z5WlJNNm56eU81Vm1aSW9xalF2NUNTQldmSGc1R21ZbGRRQzcxeDV2NGtXbVBmYkN6RXRsbzF1TFpIUmlwS2dKYW5jOFVRSTBnRmFxVW93WThGQkNJUWpsbk9kR1hHZWc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMnVkM0xjTG4yMGVBMFJvMWZxNWlXRWR1NzQ4X1Z5WHVxald0eDJiNENTd2dQc1dvN3U3cVNxUC1xblJ4Q09nbnIwaEVsLVdHTlBRZHJMbXRGWkNuTTVSa3Fwd0xsbnNlZGJrajR4a1NnTW84NGRUdGhlZ3A5T2ZJTHYtVkRfRmU3elJfbjJWTFYtX0hMZllyX0RzQ0J3Z0kxRi02UGRXb0pCQ3VRYUFfRXQtalQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSlE4RjR5cTc2cVI3bWZZWHJxcGdTTXA4UjBQNUEtbVdfeXJwdXZ1b21ZejRTaERGWmlXa0JDZ2ZKWHdBaUx3cVFwRnlTSzVzci1FakptNjVUWVZZYXZ2WEEwVy1LMktOWFlUdE5GNHpLbTBMNTR2VFFwRHUtSDFqUkNnUkFNUDBBR2Z0Zm84YjZraTJnaV9uUEU1NVZGN0xnaHVIMWVxRFNiOEsyelNQdWI0R1Y3UVpZ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMUVDaXF3SGtWYUdrYXN5bm9uY3VTcTYzelpLSVVOckZtT0p1WHdONVNmRGthUkNrN0FkVnNMdC1fQnlaaDA1cE5MZ1YyajlDYzhBMDVQNlF0SjE5YTFxS0FhS2NaZkFaQTNNRXRVRGhWMUVtZTNZaFo1MWtQSG5QNnd4Z0ZaamNYc3J1aXVQZDB2ZDh2SDV1eWpwTkt4UQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM2VVZ1lOei0zSDJpeXozREg2ZklseUhHSVlSeVhzUG52VGVFY0pTdEF4ZkNzbG1RVER0dklsTVhJVVZmbnA3WmhNR28zdElTRzJkYlRyQS14d1BUY0dTaHNtNl9iTEtkbXJPQldKUW9GLXhjM1hwS3FjVDRET0tCSmVDOUZ6cVFHMFBtV3UtS0VzdEpvOFZwS2xKMjRTVnpHdEFpeDFvOTFVSVRvbWdrOW9uZFhFU3kyMktaMjRYMTdJbHpVb0tJVFJJSnpMYXdwQnF4Mmluc9IB3AFBVV95cUxQdTZCM19fTWdoM0lJRmZHWThPV1ozQXhHQ0k4aV9aLVNMUFI4VDk2WDlIZ1RicGdEWUFHRnRzMEJJZFd2cDFBZFdob0RMYWtzSm9TMGlOWC01X1hVZTdmUmN4MmVOdHJmMTB3a3o5bDdCcGlqUXc4S2RrTmFLU0ZrejNmVUR3M2ZTU1U5WEhxYW9BU2wwZnplaXJFOG5iTnAwVVlFN1poanpZUktsOXB3Y2dJZll3ZzREU2dZYzBId2oycF9ZU3oxYlVSNWl3NFo5dklsb0hta1FVSno0?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMFM5RmtoSkd4UGcyTjJHMFY1eHVjWTlQcWpsRHRmSFhUOEZvRGFrX0FlSXB4Z2g4cDltdXlvQU1FaWZTanh2M24tRXlRTWRTNU83SjNpd2xBZDM3alJRLWdEaE1fNlFaSVFvRWhXU01DMUFqZm5rWGNSMlZHRDhQY2lyZkRJQm5DSGU4NGEwbDBnVlhDeWt0ZVZOaWR0dGZKbFF0bG53bTNfRE1USEYtNWFxZTNvUDgzLWpHa19CZm9nUk43V21xM25R0gHPAUFVX3lxTE1mTUlxNXF1bmxDSjRjd0Ztd3lkMXdjaDdpQmxkZzBnVE5Ta1JBRWxCbEI4TVY1N2JpdlBqekUwYi1PbG5yWFBLNGtZUWkwbExjOEd2MXRMZ3B0d1d4eGU2azJHUTNfQnpxVWlpV1plY1lpUnFuQTNhakpJQzBPODJJMkhJY0VqTkFMWkxhbVVwbVFxZEpwejdzOUVZRFotYTctWUNsYkg4T05GY2dDalNNektBTjUtRWxnRG9rZDB3TmU5S2FpUS1YT0htX3dvOA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbURSV29zUkt6UWNEUVNCNXNYQVg3QnVrT2JUbHdvd3llWlhxUzBMalZreG1BVm12QkxBMFp3eUtlaEJTSGFtRFNwU0xhWXpNelI3ekw1WHgzdnI1clUwY2pUNkRSLWxnb3J4eVZveDVQeDdFTkJyc2UyZHppcVFGNlRVZ1lPZXd2bVIyTi0tclRHTE5kckQ4Y0lTZGRJeGZ5elF3dEpFMzJPMGxEZ0ZvQm9PWDI0LWV4dmF6VlpYam4zRktiMmY5dDV1UUVzYzdBX3k1Yw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHFNWWhtVGlWbE01UnJVeVRYUHBQM2tIbDFfQkhJOXBLTWRtSy1BbnJNYUljcWlyWDJFSjRXTG9fVUVPazQ0UFY3OXZjejBzaWhfVGZUWWRKQ3JaOEo2RDFyTTBoVTI5bzRVbDhySl84SXNDdVdMT0k2RkV1cTNyMnVYVm9CU1NpRUw4TXJWcWpfUzVCajlQdktDT2o0MFJBMUFFSDNvdTdqN255OFFncDJn?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbTBHZl9tVFRmVUNFaXp6cTdUcGNBX0VOcVhDcDRRTkFIemFQZkFsUGpaeGJfLV9RNkpJMjZ6aFdoaEU5NlV4eVJtcU5SMTh6T0wxWkZPcUZlSHlkd1pMOVdHaFFjV25qOFVMcGRJNlpyWFQ0OVh2UzFuRWpfMGN5aVpNc1NiZ0IzeHJ1M2loRTJqWDJ3MTVDcUstdnFXdDlLRlF5Q0xHM2RoMUl3Ri1pbkwtTzRmWWFYVTlGZG1OWkJhWVgwRWxoblM4aElFNknSAdQBQVVfeXFMTXllY1hsTTlpNzItTGoxVktPWmNCMlAydW9ja0hVWHZNbldrTGltMl9qd1IweTZFQXZUWTVTYTlSRFpKcnJTeW5YOXBrYVBhdUR4Y3JaUFF3U294S1N2NVFVT2tnNDZoSDZ3XzRiTHd3am1wbDdWeWhSM0k3SGpsOTFJTUYzOEZIZFVDZ2V3dzlHNzctOU83Rnl4Z1Zqbk1RQzhfYVlxU3U3c296MlQ5RlI0UF9Nc0ZkdXRIamJhUWNYMy1ULWNYbDF1VUlIX1ZNQUowQkU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmFnRW44a2w0WkhqYzY4VGg4UlRYdGpWeW9PWmhZUDZZX0trVmR3T0VwV1NROGhpdkJVS2pra0xjQjNoQWtjNHdKUGtfMXBscFEzRTBISXBPbHBKRVZ1N0dyZ2RhUjRQUkV5d014S1AzaVpVZk5tQThEbW9zS09vRFlqU3pIa0hodENMU1dQUGIzdmNhdWNCUGs5Q1lET3RVYnZKRHlBVFloQdIBrwFBVV95cUxObjJDYTQ5VHllX0M2SjQwdlZPdGIzRkwwYTZHakhkbHBtTWhpU05qRTNMSmk0N0ZkVU1XT2tBY0IyamRydjJhc0UwbUhLWjliOVRkRjI1SkVXeFVSRUQzUGZSTk03U01xT3ZmVnB3ZUcyOUZoNEl5ZmxMTUJFa05NU29GWDVCZUotdFRWbUdpNkI1RVhYVjdFdnlNVFlJd1V4N09HX2FuTGpseHNObHhB?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWUxCSFNtUzVJaVRwazRxRXJiWkpJcjdVR3FDR3NKbjJNTl9GbGduUVI2Q0puMGtpOGZfeF82XzdEYXo2elA3NnFKaG5DV1ZZUlFFWkx4TUMxVGFTWTR6eXB6cHdlaXdwd0NCZHZDcU52M0x0M241MzBCdTk0cTNfc0pRQzlqd19wQjQwcGtfQU1GTDhOTzA2aTlseW1Ga0xtR0lYWHJSd3RiTE5udlF3bHNobHZvSkRNX2NHaGNwSTN5YkJ2MlNn0gHPAUFVX3lxTE1mSzFCOWhHcEU3MHZIQ3RMb2lQNV9SNFJTMWNualFvSXF0SW0zV24xLUxzbTA5NVY4LVJ0QVpMMGtta0xuTVRidjVFYlhpTnU4ZTc5eTBJRHJ3UmhYblN2X3AzejRzSVMzdVAwRzdvTHFGWC1fUWdMV2wwX2JSSno1YWVBdldlM2JPQWJzbVU3RnotMkhLUXZ3ZDcyTGNRS1g4TnZCdWhZZjJPaEN5SE85eF92Zm05Mzdfellacnk2dkIyem9XVlk3dHpQMkc0aw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNbnJManQ5SzlRX3pFVDk5UWlQOE9IajhPSjhTS3p5VFZLYXgwOE9XYVNhQW85WWdpMkU3RnJLbWhLdzZySHh4MGVCd2phanhaRnpPLWY4NGxLSEdZLXJFSGNVc2hGb0U2NnliRmgtemtVN295VjRnNHJ6SVN0bkRJczJkWUszNk5yTVJCblEyQkZSYnJvTDNnZHprRS13eWdfRjJ1MkdXZ1E3c0paWEVLSjVQUlc2d2RUTENydEpQSnBKTXBVX1o2d1I2Q3doWlF6VVpVeWhsVnUxSW1MY0ducFZlWTdlM0VQR0locVRMdjl3OHhiY0tYUGxhRzhCd1BoZ0RRN9IBigJBVV95cUxOYWNOVDIxZVJFYU5lM0daVnI3WjlSR0FFU1JYMGVJa0dQLVVxbFRnOWdpQ01nSUMwOHRIc1pNOWc2bFlkbWhNcWxSbGVOaDlpUUM3NkRCYktVQ3J3Y1VuMGVmUHRKaVVUYmpOdkdCRVVsb1dFaEFzODNaZGdNSC1KVWJkQjh5UHh4N2EyYzE2bHd4MUJQaDdmUURTRG1zTzhwOFNENEtMMC00eG1lNkFxOTdrcXdkdTBPRmtDQmxCOVlXV01jZy1JVnZRM1d3TU5yYS1VS1FDNGdiSzNqN0xEZXFFcVJBY2xMcDlVcHJvQ3ZtWDFfaUt4ZUxUSWxIaVN6OGtpdkh3T19zZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "down",
+    "t0": 1794481131,
+    "reason": "חשש מהעלאות ריבית שפוגעות בצמיחה",
+    "reason_i18n": {
+     "he": "חשש מהעלאות ריבית שפוגעות בצמיחה",
+     "en": "Concerns over rate hikes hurting growth",
+     "ar": "مخاوف من رفع أسعار الفائدة التي تضر بالنمو",
+     "ru": "Опасения, что повышение ставок замедлит рост"
+    },
+    "name_i18n": {
+     "he": "קרן סל הודו",
+     "en": "India ETF",
+     "ar": "صندوق الهند المتداول",
+     "ru": "ETF Индии"
+    },
+    "price_at_alert": 51.59
+   },
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1794481131,
+    "reason": "התחזקות הדולר ועליית ריבית בהודו",
+    "reason_i18n": {
+     "he": "התחזקות הדולר ועליית ריבית בהודו",
+     "en": "Stronger dollar and Indian rate hike pressure",
+     "ar": "دولار أقوى وضغوط رفع الفائدة في الهند",
+     "ru": "Укрепление доллара и давление из-за ставок в Индии"
+    },
+    "name_i18n": {
+     "he": "שווקים מתפתחים",
+     "en": "Emerging Markets",
+     "ar": "الأسواق الناشئة",
+     "ru": "Развивающиеся рынки"
+    },
+    "price_at_alert": 62.04
+   }
+  ],
+  "id": "010c06c08f6d"
+ },
+ {
+  "ts": 1794481131,
+  "time": "2026-11-12T10:58Z",
+  "title": "שיבושים ברשת Starshield של SpaceX באוקראינה",
+  "summary": "אוקראינה מדווחת על שיבושים ברשת הלוויינים הצבאית Starshield של SpaceX, בזמן שמשלחת אמריקאית נמצאת במוסקבה לשיחות.",
+  "kid": "רשת לוויינים מיוחדת שמשמשת את הצבא באוקראינה לא עובדת טוב. זה קורה בזמן שיש שיחות חשובות בין ארה\"ב לרוסיה.",
+  "i18n": {
+   "title": {
+    "he": "שיבושים ברשת Starshield של SpaceX באוקראינה",
+    "en": "Disruptions to SpaceX's Starshield in Ukraine",
+    "ar": "اضطرابات في شبكة Starshield التابعة لـ SpaceX في أوكرانيا",
+    "ru": "Сбои в работе сети Starshield компании SpaceX на Украине"
+   },
+   "summary": {
+    "he": "אוקראינה מדווחת על שיבושים ברשת הלוויינים הצבאית Starshield של SpaceX, בזמן שמשלחת אמריקאית נמצאת במוסקבה לשיחות.",
+    "en": "Ukraine warns of fresh disruptions to SpaceX's military-grade Starshield satellite network as US envoys arrive in Moscow for talks.",
+    "ar": "حذرت أوكرانيا من اضطرابات جديدة في شبكة الأقمار الصناعية العسكرية Starshield التابعة لشركة SpaceX، في وقت وصل فيه مبعوثون أمريكيون إلى موسكو لإجراء محادثات.",
+    "ru": "Украина предупреждает о новых сбоях в работе сети военных спутников Starshield компании SpaceX на фоне визита американских дипломатов в Москву для переговоров."
+   },
+   "kid": {
+    "he": "רשת לוויינים מיוחדת שמשמשת את הצבא באוקראינה לא עובדת טוב. זה קורה בזמן שיש שיחות חשובות בין ארה\"ב לרוסיה.",
+    "en": "A special satellite network used by the military in Ukraine isn't working well. This is happening while important talks are going on between the US and Russia.",
+    "ar": "شبكة أقمار صناعية خاصة يستخدمها الجيش في أوكرانيا لا تعمل بشكل جيد. يحدث هذا في وقت تجري فيه محادثات مهمة بين الولايات المتحدة وروسيا.",
+    "ru": "Специальная спутниковая сеть, которую использует армия на Украине, работает с перебоями. Это происходит на фоне важных переговоров между США и Россией."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TSLA",
+    "direction": "down",
+    "t0": 1794481131,
+    "reason": "סיכון למוניטין של טכנולוגיית החלל",
+    "reason_i18n": {
+     "he": "סיכון למוניטין של טכנולוגיית החלל",
+     "en": "Reputational risk to space tech",
+     "ar": "مخاطر على سمعة تكنولوجيا الفضاء",
+     "ru": "Репутационные риски для космических технологий"
+    },
+    "name_i18n": {
+     "he": "טסלה (חברת האם של SpaceX)",
+     "en": "Tesla (SpaceX parent)",
+     "ar": "تسلا (الشركة الأم لـ SpaceX)",
+     "ru": "Tesla (материнская компания SpaceX)"
+    },
+    "price_at_alert": 390.84
+   }
+  ],
+  "id": "9810db707874"
  }
 ]

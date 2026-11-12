@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T09:57Z",
+ "generated": "2026-11-12T10:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 762,
+ "total_alerts": 765,
  "overall": {
   "n": 460,
   "hits": 231,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 84,
+   "mentions": 85,
    "n": 72,
    "hits": 27,
    "name": {
-    "he": "USO - קרן סל על נפט גולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الأمريكي",
-    "ru": "USO - Нефтяной фонд США"
+    "he": "קרן סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط المتداول",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.49
   },
   "XLE": {
-   "mentions": 71,
+   "mentions": 72,
    "n": 60,
    "hits": 31,
    "name": {
-    "he": "קרן סל אנרגיה",
-    "en": "Energy Select Sector SPDR Fund",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "he": "מגזר האנרגיה",
+    "en": "Energy Sector",
+    "ar": "قطاع الطاقة",
+    "ru": "Сектор энергетики"
    },
    "avg_edge": -0.45
   },
@@ -510,14 +510,14 @@
    "avg_edge": 0.8
   },
   "INDA": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 12,
    "hits": 6,
    "name": {
-    "he": "תעודת סל הודו – שוק המניות ההודי",
-    "en": "India ETF – Indian stock market",
-    "ar": "صندوق سوق الأسهم الهندية",
-    "ru": "ETF индийского рынка акций"
+    "he": "קרן סל הודו",
+    "en": "India ETF",
+    "ar": "صندوق الهند المتداول",
+    "ru": "ETF Индии"
    },
    "avg_edge": -0.19
   },
@@ -582,14 +582,14 @@
    "avg_edge": 0.57
   },
   "EEM": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 14,
    "hits": 6,
    "name": {
-    "he": "EEM - קרן סל שווקים מתעוררים",
-    "en": "EEM - MSCI Emerging Markets ETF",
-    "ar": "EEM - صندوق الأسواق الناشئة",
-    "ru": "EEM - ETF развивающихся рынков"
+    "he": "שווקים מתפתחים",
+    "en": "Emerging Markets",
+    "ar": "الأسواق الناشئة",
+    "ru": "Развивающиеся рынки"
    },
    "avg_edge": -0.04
   },
@@ -906,14 +906,14 @@
    "avg_edge": -0.97
   },
   "TSLA": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "טסלה - יצרנית רכבים חשמליים",
-    "en": "Tesla - EV maker",
-    "ar": "تسلا - صانعة السيارات الكهربائية",
-    "ru": "Tesla - производитель электромобилей"
+    "he": "טסלה (חברת האם של SpaceX)",
+    "en": "Tesla (SpaceX parent)",
+    "ar": "تسلا (الشركة الأم لـ SpaceX)",
+    "ru": "Tesla (материнская компания SpaceX)"
    },
    "avg_edge": -1.59
   },
