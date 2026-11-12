@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T17:28Z",
+ "generated": "2026-11-12T19:29Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 772,
+ "total_alerts": 776,
  "overall": {
   "n": 460,
   "hits": 231,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 86,
+   "mentions": 87,
    "n": 72,
    "hits": 27,
    "name": {
-    "he": "USO - קרן סל על מחיר הנפט הגולמי",
-    "en": "USO - United States Oil Fund",
-    "ar": "USO - صندوق النفط الخام الأمريكي",
-    "ru": "USO - ETF нефти"
+    "he": "נפט גולמי",
+    "en": "Crude Oil",
+    "ar": "النفط الخام",
+    "ru": "Сырая нефть"
    },
    "avg_edge": -0.49
   },
@@ -114,14 +114,14 @@
    "avg_edge": 0.57
   },
   "XOM": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 21,
    "hits": 7,
    "name": {
-    "he": "אקסון מוביל - ענקית אנרגיה",
-    "en": "ExxonMobil - major energy company",
-    "ar": "إكسون موبيل - شركة طاقة كبرى",
-    "ru": "ExxonMobil - крупная энергетическая компания"
+    "he": "אקסון מוביל",
+    "en": "Exxon Mobil",
+    "ar": "إكسون موبيل",
+    "ru": "Exxon Mobil"
    },
    "avg_edge": -0.45
   },
@@ -222,14 +222,14 @@
    "avg_edge": 0.84
   },
   "SPY": {
-   "mentions": 81,
+   "mentions": 82,
    "n": 68,
    "hits": 31,
    "name": {
-    "he": "SPY - קרן סל על מדד S&P 500",
-    "en": "SPY - S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر S&P 500",
-    "ru": "SPY - ETF на индекс S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": -0.19
   },
@@ -246,14 +246,14 @@
    "avg_edge": 0.45
   },
   "CPER": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 20,
    "hits": 4,
    "name": {
-    "he": "CPER - קרן סל על מחיר הנחושת",
-    "en": "CPER - United States Copper Index Fund",
-    "ar": "CPER - صندوق مؤشر النحاس الأمريكي",
-    "ru": "CPER - ETF цен на медь"
+    "he": "קרן סל נחושת",
+    "en": "Copper ETF",
+    "ar": "صندوق استثمار النحاس",
+    "ru": "Медный ETF"
    },
    "avg_edge": -0.89
   },
@@ -282,14 +282,14 @@
    "avg_edge": 6.3
   },
   "TLT": {
-   "mentions": 25,
+   "mentions": 26,
    "n": 22,
    "hits": 18,
    "name": {
     "he": "אג\"ח ממשלתי לטווח ארוך",
-    "en": "Long-term US Treasury bonds",
-    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "Долгосрочные казначейские облигации США"
+    "en": "Long-term Treasury Bonds",
+    "ar": "سندات الخزانة طويلة الأجل",
+    "ru": "Долгосрочные казначейские облигации"
    },
    "avg_edge": 1.41
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.46
   },
   "FCX": {
-   "mentions": 35,
+   "mentions": 36,
    "n": 29,
    "hits": 10,
    "name": {
-    "he": "FCX - פריפורט מקמوران (כריית נחושת)",
-    "en": "FCX - Freeport-McMoRan (Copper Mining)",
-    "ar": "FCX - فريبورت مكموران (تعدين النحاس)",
-    "ru": "FCX - Freeport-McMoRan (добыча меди)"
+    "he": "פריפורט-מקמורן",
+    "en": "Freeport-McMoRan",
+    "ar": "فريبورت-ماكموران",
+    "ru": "Freeport-McMoRan"
    },
    "avg_edge": -1.24
   },
@@ -498,12 +498,12 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 8,
    "hits": 7,
    "name": {
-    "he": "סקטור פיננסי",
-    "en": "Financial sector",
+    "he": "סקטור הפיננסים",
+    "en": "Financial Sector",
     "ar": "القطاع المالي",
     "ru": "Финансовый сектор"
    },
@@ -1430,6 +1430,18 @@
     "en": "United Parcel Service",
     "ar": "يو بي إس",
     "ru": "UPS"
+   },
+   "avg_edge": null
+  },
+  "ITB": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל של חברות בנייה",
+    "en": "Home Construction ETF",
+    "ar": "صندوق استثمار لشركات البناء",
+    "ru": "ETF строительных компаний"
    },
    "avg_edge": null
   }

@@ -53,121 +53,6 @@
   "id": "33b66ed969b2"
  },
  {
-  "ts": 1793878811,
-  "time": "2026-11-05T11:40Z",
-  "title": "רוסיה תספק לאיראן 90 משגרי טילים",
-  "summary": "דיווחים מצביעים על כך שרוסיה הסכימה לספק לאיראן 90 משגרי טילים, מה שמעלה את המתיחות האזורית והסיכון לשיבושים בנתיבי שיט.",
-  "kid": "רוסיה תיתן לאיראן הרבה משגרי טילים. זה עלול לגרום למדינות אחרות לדאוג ולעלות את מחירי הנפט כי האזור הופך למסוכן יותר.",
-  "i18n": {
-   "title": {
-    "he": "רוסיה תספק לאיראן 90 משגרי טילים",
-    "en": "Russia to supply Iran with 90 missile launchers",
-    "ar": "روسيا ستزود إيران بـ 90 منصة إطلاق صواريخ",
-    "ru": "Россия поставит Ирану 90 ракетных установок"
-   },
-   "summary": {
-    "he": "דיווחים מצביעים על כך שרוסיה הסכימה לספק לאיראן 90 משגרי טילים, מה שמעלה את המתיחות האזורית והסיכון לשיבושים בנתיבי שיט.",
-    "en": "Reports indicate Russia has agreed to supply Iran with 90 missile launchers, heightening regional tensions and risks to shipping lanes.",
-    "ar": "تشير التقارير إلى أن روسيا وافقت على تزويد إيران بـ 90 منصة إطلاق صواريخ، مما يزيد من التوترات الإقليمية ومخاطر تعطيل الملاحة.",
-    "ru": "Сообщается, что Россия согласилась поставить Ирану 90 ракетных установок, что усиливает региональную напряженность и риски для судоходства."
-   },
-   "kid": {
-    "he": "רוסיה תיתן לאיראן הרבה משגרי טילים. זה עלול לגרום למדינות אחרות לדאוג ולעלות את מחירי הנפט כי האזור הופך למסוכן יותר.",
-    "en": "Russia is giving Iran many missile launchers. This might make other countries worried and could make oil prices go up because the area is becoming more dangerous.",
-    "ar": "روسيا ستعطي إيران الكثير من منصات الصواريخ. هذا قد يجعل الدول الأخرى قلقة وقد يؤدي لارتفاع أسعار النفط لأن المنطقة أصبحت أكثر خطورة.",
-    "ru": "Россия передает Ирану много ракетных установок. Это может обеспокоить другие страны и привести к росту цен на нефть, так как регион становится опаснее."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEJ3RUk3eVdjYm5GZXQ4MFdpRlhaY3RCMEgtZHJRZjNxN0UzVTNHWGF3NUFBZC1OSnVWV2ZHdVBfY19tT0JqY1RiSVpaNmxNMDdVa0JTZTl2M3JVZXZ1UWxLSnRsc3FFY3VhRVFJZ3g0RDFzYTVmV3hEUm85akpmRF9tLUlPY18zYTN3NWJGS3pNc09iaDlNZDdhV084bFhGWVYxSDI3aGRrT0U?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1793878811,
-    "reason": "עלייה במתיחות במזרח התיכון מאיימת על אספקת הנפט.",
-    "reason_i18n": {
-     "he": "עלייה במתיחות במזרח התיכון מאיימת על אספקת הנפט.",
-     "en": "Rising Middle East tensions threaten oil supply.",
-     "ar": "تصاعد التوترات في الشرق الأوسط يهدد إمدادات النفط.",
-     "ru": "Рост напряженности на Ближнем Востоке угрожает поставкам нефти."
-    },
-    "name_i18n": {
-     "he": "קרן נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق النفط",
-     "ru": "Нефтяной ETF"
-    },
-    "price_at_alert": 145.41,
-    "entry_price": 147.14,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 148.41,
-    "exit_date": "2026-11-06",
-    "change_pct": 0.86,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 4.8,
-    "edge_pct": 4.8,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793878811,
-    "reason": "עלייה בביקוש לציוד ביטחוני עקב חוסר יציבות גיאופוליטית.",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לציוד ביטחוני עקב חוסר יציבות גיאופוליטית.",
-     "en": "Increased demand for defense equipment due to geopolitical instability.",
-     "ar": "زيادة الطلب على المعدات الدفاعية بسبب عدم الاستقرار الجيوسياسي.",
-     "ru": "Рост спроса на оборонное оборудование из-за геополитической нестабильности."
-    },
-    "name_i18n": {
-     "he": "קרן ביטחון ותעופה",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الدفاع والطيران",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 212.84,
-    "entry_price": 70.43,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 69.0,
-    "exit_date": "2026-11-06",
-    "change_pct": -2.03,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": 1.91,
-    "edge_pct": 1.91,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "d9b9c8d8429b",
-  "updates": [
-   {
-    "ts": 1793901601,
-    "time": "2026-11-05T18:00Z",
-    "severity": 7,
-    "summary": "רוסיה הסכימה לספק לאיראן 90 משגרי טילים עבור מסוקי תקיפה.",
-    "i18n": {
-     "he": "רוסיה הסכימה לספק לאיראן 90 משגרי טילים עבור מסוקי תקיפה.",
-     "en": "Russia has agreed to supply Iran with 90 missile launchers for attack helicopters.",
-     "ar": "وافقت روسيا على تزويد إيران بـ 90 قاذفة صواريخ للمروحيات الهجومية.",
-     "ru": "Россия согласилась поставить Ирану 90 ракетных установок для ударных вертолетов."
-    }
-   }
-  ],
-  "last_update": 1793901601,
-  "evaluated": true
- },
- {
   "ts": 1793882594,
   "time": "2026-11-05T12:43Z",
   "title": "שיטפונות קטסטרופליים בדרום ארה\"ב",
@@ -299,180 +184,6 @@
    }
   ],
   "last_update": 1793908279,
-  "evaluated": true
- },
- {
-  "ts": 1793887168,
-  "time": "2026-11-05T13:59Z",
-  "title": "מתקפת סייבר על בנק צרפתי",
-  "summary": "בנק צרפתי הותקף על ידי האקרים שגנבו כ-112 מיליון דולר.",
-  "kid": "האקרים פרצו לבנק וגנבו הרבה כסף. זה עלול להפחיד משקיעים ולגרום למניות של חברות אבטחת סייבר לעלות.",
-  "i18n": {
-   "title": {
-    "he": "מתקפת סייבר על בנק צרפתי",
-    "en": "Cyberattack on French bank",
-    "ar": "هجوم إلكتروني على بنك فرنسي",
-    "ru": "Кибератака на французский банк"
-   },
-   "summary": {
-    "he": "בנק צרפתי הותקף על ידי האקרים שגנבו כ-112 מיליון דולר.",
-    "en": "A French bank was hit by a cyberattack, with hackers siphoning off nearly $112 million.",
-    "ar": "تعرض بنك فرنسي لهجوم إلكتروني، حيث قام القراصنة بسرقة ما يقرب من 112 مليون دولار.",
-    "ru": "Французский банк подвергся кибератаке, в результате которой хакеры похитили около 112 миллионов долларов."
-   },
-   "kid": {
-    "he": "האקרים פרצו לבנק וגנבו הרבה כסף. זה עלול להפחיד משקיעים ולגרום למניות של חברות אבטחת סייבר לעלות.",
-    "en": "Hackers broke into a bank and stole a lot of money. This might scare investors and cause cybersecurity company stocks to go up.",
-    "ar": "اخترق قراصنة بنكًا وسرقوا الكثير من المال. هذا قد يخيف المستثمرين ويؤدي إلى ارتفاع أسهم شركات الأمن السيبراني.",
-    "ru": "Хакеры взломали банк и украли много денег. Это может напугать инвесторов и привести к росту акций компаний по кибербезопасности."
-   }
-  },
-  "category": "cyber",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRUp5d04yTHlmVVZvTVVsZ25odHlKV1ROTTRqWERhMkdra253ZmlBQXF0dVRTeEJFdDJJclRoblRiQVVUNWlIVXNieVVESVlZLUZsQy1rdVNxV3ZUSjRRT0FTWWxoY0lVYlhOYXVYaFFjUy1yUVlmYWFVc09WS0FJS28zZ0JoeWRLbkk4UFAxd1hpVjRYOEE?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNlZ0SFlWSTRqYzNwTVlnRDhHeGJpbWZXcklVX1FhSFdZREFHekRkRndXZUZiUGo0b0QxVm1JZUNFRWpmZ3V4NGVNQ2FSQU5HbnVhYVhONk95a1c1NEhuUUtkMHpqQzlFSkhUbXlQR2lITzZGUnd2ek9BbWk1dUNkdkVZcjFEWjQwamZjZUdwUG1RQQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1793887168,
-    "reason": "עלייה בביקוש לפתרונות אבטחה בעקבות אירועי פריצה.",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לפתרונות אבטחה בעקבות אירועי פריצה.",
-     "en": "Increased demand for security solutions following hacking incidents.",
-     "ar": "زيادة الطلب على حلول الأمن بعد حوادث الاختراق.",
-     "ru": "Рост спроса на решения по безопасности после инцидентов со взломами."
-    },
-    "name_i18n": {
-     "he": "CrowdStrike - חברת אבטחת סייבר",
-     "en": "CrowdStrike - Cybersecurity firm",
-     "ar": "CrowdStrike - شركة أمن سيبراني",
-     "ru": "CrowdStrike - компания по кибербезопасности"
-    },
-    "price_at_alert": 241.0,
-    "entry_price": 231.66,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 216.83,
-    "exit_date": "2026-11-06",
-    "change_pct": -6.4,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": -2.47,
-    "edge_pct": -2.47,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "fa8bfc8ca773",
-  "updates": [
-   {
-    "ts": 1793904714,
-    "time": "2026-11-05T18:51Z",
-    "severity": 5,
-    "summary": "בנק צרפתי דיווח על גניבת 100 מיליון אירו כתוצאה ממתקפת סייבר.",
-    "i18n": {
-     "he": "בנק צרפתי דיווח על גניבת 100 מיליון אירו כתוצאה ממתקפת סייבר.",
-     "en": "A French bank reported the theft of 100 million euros following a cyberattack.",
-     "ar": "أبلغ بنك فرنسي عن سرقة 100 مليون يورو نتيجة لهجوم سيبراني.",
-     "ru": "Французский банк сообщил о краже 100 миллионов евро в результате кибератаки."
-    }
-   }
-  ],
-  "last_update": 1793904714,
-  "evaluated": true
- },
- {
-  "ts": 1793887168,
-  "time": "2026-11-05T13:59Z",
-  "title": "ריו טינטו מאשרת השקעה בנחושת",
-  "summary": "ענקית הכרייה ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט הנחושת 'רזולושן' באריזונה.",
-  "kid": "חברה גדולה משקיעה הרבה כסף כדי להוציא נחושת מהאדמה. נחושת חשובה מאוד לבניית מכוניות חשמליות ומוצרי חשמל.",
-  "i18n": {
-   "title": {
-    "he": "ריו טינטו מאשרת השקעה בנחושת",
-    "en": "Rio Tinto approves copper investment",
-    "ar": "ريو تينتو توافق على استثمار في النحاس",
-    "ru": "Rio Tinto одобряет инвестиции в медь"
-   },
-   "summary": {
-    "he": "ענקית הכרייה ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט הנחושת 'רזולושן' באריזונה.",
-    "en": "Mining giant Rio Tinto has approved a $144 million investment in the Resolution Copper project in Arizona.",
-    "ar": "وافقت شركة التعدين العملاقة ريو تينتو على استثمار بقيمة 144 مليون دولار في مشروع 'ريزوليوشن' للنحاس في أريזونا.",
-    "ru": "Горнодобывающий гигант Rio Tinto одобрил инвестиции в размере 144 миллионов долларов в медный проект Resolution в Аризоне."
-   },
-   "kid": {
-    "he": "חברה גדולה משקיעה הרבה כסף כדי להוציא נחושת מהאדמה. נחושת חשובה מאוד לבניית מכוניות חשמליות ומוצרי חשמל.",
-    "en": "A big company is spending a lot of money to mine copper. Copper is very important for building electric cars and electronics.",
-    "ar": "تستثمر شركة كبيرة الكثير من المال لاستخراج النحاس من الأرض. النحاس مهم جدًا لبناء السيارات الكهربائية والإلكترونيات.",
-    "ru": "Крупная компания инвестирует много денег в добычу меди. Медь очень важна для создания электромобилей и электроники."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzgtQTJ4TDVEazJpT1VYZ2xOd3VlUE5mY3kyWm9yVkxzcE9nWUJDblkxUDRycFprb3dwRGRyZVpiSXk0MzJ5T2ZWWWo1WHl6QmF3c0xvQl9xLUdOLVFzU05acVo5cjJKdUMzVWVhRVZQQjVYaXZaV0RyNzhlNWgwYVktZzJOWDVFbHpsWjFxVFpTZWhGeE5hZXpwUEg5UExVM0Z4OWNPbzF2Q0dkeExick8ya0pabmtFYWpGRmZnSzJyQkQ4?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1793887168,
-    "reason": "השקעות גדולות בתחום מעידות על ביקוש חזק לנחושת.",
-    "reason_i18n": {
-     "he": "השקעות גדולות בתחום מעידות על ביקוש חזק לנחושת.",
-     "en": "Large investments in the sector indicate strong demand for copper.",
-     "ar": "تشير الاستثمارات الكبيرة في القطاع إلى طلب قوي على النحاس.",
-     "ru": "Крупные инвестиции в сектор указывают на высокий спрос на медь."
-    },
-    "name_i18n": {
-     "he": "Freeport-McMoRan - כורה נחושת",
-     "en": "Freeport-McMoRan - Copper miner",
-     "ar": "Freeport-McMoRan - شركة تعدين النحاس",
-     "ru": "Freeport-McMoRan - добытчик меди"
-    },
-    "price_at_alert": 62.6,
-    "entry_price": 63.31,
-    "entry_time": "2026-11-05T14:30+00:00",
-    "exit_price": 59.41,
-    "exit_date": "2026-11-06",
-    "change_pct": -6.16,
-    "bench": "SPY",
-    "bench_change_pct": -3.94,
-    "excess_pct": -2.22,
-    "edge_pct": -2.22,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "06ab11700125",
-  "updates": [
-   {
-    "ts": 1793901601,
-    "time": "2026-11-05T18:00Z",
-    "severity": 4,
-    "summary": "חברת ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט נחושת באריזונה.",
-    "i18n": {
-     "he": "חברת ריו טינטו אישרה השקעה של 144 מיליון דולר בפרויקט נחושת באריזונה.",
-     "en": "Rio Tinto has approved a $144 million investment in a copper project in Arizona.",
-     "ar": "وافقت شركة ريو تينتو على استثمار بقيمة 144 مليون دولار في مشروع للنحاس في أريزونا.",
-     "ru": "Компания Rio Tinto одобрила инвестиции в размере 144 миллионов долларов в медный проект в Ариזоне."
-    }
-   }
-  ],
-  "last_update": 1793901601,
   "evaluated": true
  },
  {
@@ -904,99 +615,6 @@
  {
   "ts": 1793898450,
   "time": "2026-11-05T17:07Z",
-  "title": "הבנק המרכזי של אנגליה העלה את הריבית ל-4%",
-  "summary": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% בשל חששות מאינפלציה. הבנק מזהיר כי תופעת אל-ניניו עלולה להוביל לעליית מחירי המזון.",
-  "kid": "הבנק המרכזי העלה את הריבית כדי להילחם בעליית מחירים. זה אומר שהלוואות הופכות ליקרות יותר, מה שיכול להשפיע על הכלכלה ועל מחירי המניות.",
-  "i18n": {
-   "title": {
-    "he": "הבנק המרכזי של אנגליה העלה את הריבית ל-4%",
-    "en": "Bank of England raises interest rates to 4%",
-    "ar": "بنك إنجلترا يرفع أسعار الفائدة إلى 4%",
-    "ru": "Банк Англии повысил процентные ставки до 4%"
-   },
-   "summary": {
-    "he": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% בשל חששות מאינפלציה. הבנק מזהיר כי תופעת אל-ניניו עלולה להוביל לעליית מחירי המזון.",
-    "en": "The Bank of England has raised interest rates to 4% amid ongoing inflation concerns. The bank also warned that El Nino weather patterns could drive up food prices for consumers.",
-    "ar": "رفع بنك إنجلترا أسعار الفائدة إلى 4% وسط مخاوف من التضخم. كما حذر البنك من أن ظاهرة النينيو قد تؤدي إلى ارتفاع أسعار المواد الغذائية.",
-    "ru": "Банк Англии повысил процентные ставки до 4% на фоне опасений по поводу инфляции. Банк также предупредил, что погодное явление Эль-Ниньо может привести к росту цен на продукты питания."
-   },
-   "kid": {
-    "he": "הבנק המרכזי העלה את הריבית כדי להילחם בעליית מחירים. זה אומר שהלוואות הופכות ליקרות יותר, מה שיכול להשפיע על הכלכלה ועל מחירי המניות.",
-    "en": "The central bank raised interest rates to help stop prices from going up too fast. This makes borrowing money more expensive, which can change how people spend and how companies perform.",
-    "ar": "رفع البنك المركزي أسعار الفائدة للمساعدة في وقف ارتفاع الأسعار بسرعة كبيرة. هذا يجعل اقتراض المال أكثر تكلفة، مما قد يغير كيفية إنفاق الناس وأداء الشركات.",
-    "ru": "Центральный банк повысил процентные ставки, чтобы остановить быстрый рост цен. Это делает заем денег дороже, что может повлиять на то, как люди тратят деньги и как работают компании."
-   }
-  },
-  "category": "macro",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUE5VZkpiS2JwRHlpRnpvZkhwcWFoN3gzeUJ4ZVF5bmo1T3dYUXNVQ1hPV255THRCYmdvZU9faExZakdqaVJ5dWpQWWwyaEFOWDlDLXVMWG5rTm4ySHhjV3laNFpkR1QyeWt1VUUwblJfRWVDZGVVOXluVGtxYW80QkFvMXdweG9yaGsyMHpoNkdWZE1pUy1MZ2lvaUxpY0FvV2Y0TDFORUpBT2JuQ0x6YVhsbEJuZVJ1OGh2c0hsem1xWUVvT1pQTjZ2d1VWQXZTcnQtLTQ1YTd6Q3JmVnlZNXVxTVJLRHhPVEFraHk2NnluZHphUWR0a04tMVpOekxRYlV4TmdKSEY1X2_SAZACQVVfeXFMUG9GQzhadm5sRFFhN3FhVkt6UmpyU3FTbDB1VV8tRmNKbTRxU1JmSFYwaUYwYjZxUWNYQ0tOSk5DZzlmRTVoUjN5cU4zR1pSM2l5NndKZno0SUlWcE5qNzMwbVlVV1B0ZzRNQ2VzOWc0anBhVVNLTVQ5ci14aVQ4NElTOEEzdEdDMGpZamZKQjVNVHdzSm1nbDZCaVhsMzk1aXBvOVhkNTdpRk0tdUY1RWdMZmIzUjJCT2dUQ1FEN1dLU0RiZkVMSTloTjZCZTc3d3dyTlUtN3A3MUtXQURTWnRpMnVFNWZVTlpyc2FJSzVYWjRoTkhpaVkwZ1cxaWVNNDJyeHlha2dmVlFfZ2FGS0w?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlZ5T3EzQ016ckR4WjBiOEp1Zk1keVBrV3ExeUR1V0dkZWRGaEVjU1VEVUh5OEMtYjhSSVNBZ2h5dmNQUmtNTEQ0aUc1VlBZV21sSnpIcmdlZ1d4dnNFTjJHSjdoXzc1bUhYUlIycUFxWVY4TkNkc1FiUjRZYmdmdk5oUE8?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYjc0UG9RVGdleWpYb1NwQ1UydlFTVkUwa3paUGp5TF96b01HOXZ5Yi1ZTmNjTjFubWRLZjZGSmwxY0c3T3FyZk43Vno4VEdDODlvWnpyc2o1eUY0UEQtS0MySXpxSXNxc1hVdEhFZlVsS0hycHZRQmd2UTNoUVFMSjVtNFVneC10UmwwbTduQTVGckJ0WjcxeFY1TXh1RHZzMHpRLXlPa3JWb0pqYkJ0cw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWU",
-    "direction": "down",
-    "t0": 1793898450,
-    "reason": "עליית ריבית מכבידה על הצמיחה הכלכלית בבריטניה.",
-    "reason_i18n": {
-     "he": "עליית ריבית מכבידה על הצמיחה הכלכלית בבריטניה.",
-     "en": "Higher interest rates typically weigh on economic growth and consumer spending in the UK.",
-     "ar": "ارتفاع أسعار الفائدة عادة ما يضغط على النمو الاقتصادي والإنفاق الاستهلاكي في المملكة المتحدة.",
-     "ru": "Более высокие процентные ставки обычно сдерживают экономический рост и потребительские расходы в Великобритании."
-    },
-    "name_i18n": {
-     "he": "קרן סל בריטניה",
-     "en": "UK Market ETF",
-     "ar": "صندوق الاستثمار المتداول للسوق البريطاني",
-     "ru": "ETF британского рынка"
-    },
-    "price_at_alert": 48.29,
-    "entry_price": 48.225,
-    "entry_time": "2026-11-05T17:30+00:00",
-    "exit_price": 47.21,
-    "exit_date": "2026-11-06",
-    "change_pct": -2.1,
-    "bench": "SPY",
-    "bench_change_pct": -0.55,
-    "excess_pct": -1.56,
-    "edge_pct": 1.56,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "d7fab51f9db3",
-  "updates": [
-   {
-    "ts": 1793901601,
-    "time": "2026-11-05T18:00Z",
-    "severity": 7,
-    "summary": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% לראשונה מזה שלוש שנים והזהיר מפני העלאות נוספות בשל האינפלציה.",
-    "i18n": {
-     "he": "הבנק המרכזי של אנגליה העלה את הריבית ל-4% לראשונה מזה שלוש שנים והזהיר מפני העלאות נוספות בשל האינפלציה.",
-     "en": "The Bank of England raised interest rates to 4% for the first time in three years and warned of further hikes due to inflation.",
-     "ar": "رفع بنك إنجلترا أسعار الفائدة إلى 4% لأول مرة منذ ثلاث سنوات وحذر من زيادات أخرى بسبب التضخم.",
-     "ru": "Банк Англии повысил процентные ставки до 4% впервые за три года и предупредил о дальнейших повышениях из-за инфляции."
-    }
-   }
-  ],
-  "last_update": 1793901601,
-  "evaluated": true
- },
- {
-  "ts": 1793898450,
-  "time": "2026-11-05T17:07Z",
   "title": "נאט\"ו מאיצה רכש מערכות נגד רחפנים",
   "summary": "נאט\"ו פועלת להאצת רכש של טכנולוגיות הגנה נגד רחפנים על רקע איומים גוברים.",
   "kid": "נאט\"ו רוצה לקנות יותר מערכות שמפילות רחפנים מסוכנים. זה טוב לחברות שמייצרות טכנולוגיות הגנה.",
@@ -1287,76 +905,6 @@
    }
   ],
   "last_update": 1793953470,
-  "evaluated": true
- },
- {
-  "ts": 1793901601,
-  "time": "2026-11-05T18:00Z",
-  "title": "דמוקרטים יחקרו את הקשר בין ג'יי פי מורגן לאפשטיין",
-  "summary": "הדמוקרטים מתכננים לחקור את הקשרים העסקיים של בנק ג'יי פי מורגן עם ג'פרי אפשטיין לאחר השתלטותם על הסנאט.",
-  "kid": "הפוליטיקאים רוצים לבדוק אם הבנק הגדול עשה משהו לא בסדר בקשר לאדם מפורסם שביצע פשעים.",
-  "i18n": {
-   "title": {
-    "he": "דמוקרטים יחקרו את הקשר בין ג'יי פי מורגן לאפשטיין",
-    "en": "Democrats to probe JPMorgan's relationship with Epstein",
-    "ar": "الديمقراطيون سيحققون في علاقة جي بي مورغان بإبستين",
-    "ru": "Демократы расследуют связь JPMorgan с Эпштейном"
-   },
-   "summary": {
-    "he": "הדמוקרטים מתכננים לחקור את הקשרים העסקיים של בנק ג'יי פי מורגן עם ג'פרי אפשטיין לאחר השתלטותם על הסנאט.",
-    "en": "Democrats plan to investigate JPMorgan's business ties with Jeffrey Epstein after taking control of the Senate.",
-    "ar": "يخطط الديمقراطيون للتحقيق في العلاقات التجارية لبنك جي بي مورغان مع جيفري إبستين بعد سيطرتهم على مجلس الشيوخ.",
-    "ru": "Демократы планируют расследовать деловые связи банка JPMorgan с Джеффри Эпштейном после получения контроля над Сенатом."
-   },
-   "kid": {
-    "he": "הפוליטיקאים רוצים לבדוק אם הבנק הגדול עשה משהו לא בסדר בקשר לאדם מפורסם שביצע פשעים.",
-    "en": "Politicians want to check if the big bank did something wrong regarding a famous person who committed crimes.",
-    "ar": "يريد السياسيون التحقق مما إذا كان البنك الكبير قد فعل شيئاً خاطئاً فيما يتعلق بشخص مشهور ارتكب جرائم.",
-    "ru": "Политики хотят проверить, сделал ли крупный банк что-то не так в отношении известного человека, совершившего преступления."
-   }
-  },
-  "category": "policy",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "JPM",
-    "direction": "down",
-    "t0": 1793901601,
-    "reason": "חקירות פוליטיות עלולות להוביל לקנסות או לפגיעה במוניטין.",
-    "reason_i18n": {
-     "he": "חקירות פוליטיות עלולות להוביל לקנסות או לפגיעה במוניטין.",
-     "en": "Political investigations can lead to fines or reputational damage.",
-     "ar": "التحقيقات السياسية قد تؤدي إلى غرامات أو الإضرار بالسمعة.",
-     "ru": "Политические расследования могут привести к штрафам или репутационному ущербу."
-    },
-    "name_i18n": {
-     "he": "ג'יי פי מורגן",
-     "en": "JPMorgan Chase",
-     "ar": "جي بي مورغان تشيس",
-     "ru": "JPMorgan Chase"
-    },
-    "price_at_alert": 338.45,
-    "entry_price": 338.57,
-    "entry_time": "2026-11-05T18:30+00:00",
-    "exit_price": 334.49,
-    "exit_date": "2026-11-06",
-    "change_pct": -1.21,
-    "bench": "SPY",
-    "bench_change_pct": -0.17,
-    "excess_pct": -1.04,
-    "edge_pct": 1.04,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "254c046fcc56",
   "evaluated": true
  },
  {
@@ -1751,76 +1299,6 @@
    }
   ],
   "last_update": 1793926744,
-  "evaluated": true
- },
- {
-  "ts": 1793904714,
-  "time": "2026-11-05T18:51Z",
-  "title": "מינוי רמטכ\"ל חדש בגרמניה",
-  "summary": "גרמניה מינתה את כריסטיאן פרוידינג לראש מערך ההגנה הבא שלה, שייכנס לתפקידו בפברואר 2027.",
-  "kid": "גרמניה מחליפה את מפקד הצבא שלה. זה חשוב כי גרמניה משקיעה יותר כסף בביטחון ובנשק.",
-  "i18n": {
-   "title": {
-    "he": "מינוי רמטכ\"ל חדש בגרמניה",
-    "en": "New German Chief of Defense appointed",
-    "ar": "تعيين رئيس أركان جديد في ألمانيا",
-    "ru": "Назначен новый начальник штаба обороны Германии"
-   },
-   "summary": {
-    "he": "גרמניה מינתה את כריסטיאן פרוידינג לראש מערך ההגנה הבא שלה, שייכנס לתפקידו בפברואר 2027.",
-    "en": "Germany has appointed Christian Freuding as its next chief of defense, effective February 2027.",
-    "ar": "عينت ألمانيا كريستيان فرويدينغ رئيساً قادماً لهيئة الدفاع، وسيتولى منصبه في فبراير 2027.",
-    "ru": "Германия назначила Кристиана Фройдинга следующим начальником штаба обороны, он вступит в должность в феврале 2027 года."
-   },
-   "kid": {
-    "he": "גרמניה מחליפה את מפקד הצבא שלה. זה חשוב כי גרמניה משקיעה יותר כסף בביטחון ובנשק.",
-    "en": "Germany is changing its army chief. This is important because Germany is spending more money on defense and weapons.",
-    "ar": "تغير ألمانيا قائد جيشها. هذا مهم لأن ألمانيا تنفق المزيد من المال على الدفاع والأسلحة.",
-    "ru": "Германия меняет главнокомандующего армией. Это важно, так как Германия тратит больше денег на оборону и оружие."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Defense News",
-    "url": "https://www.defensenews.com/global/europe/2026/11/05/germany-names-army-chief-freuding-as-next-chief-of-defense/"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWG",
-    "direction": "up",
-    "t0": 1793904714,
-    "reason": "ציפייה להמשך הגדלת תקציבי הביטחון בגרמניה.",
-    "reason_i18n": {
-     "he": "ציפייה להמשך הגדלת תקציבי הביטחון בגרמניה.",
-     "en": "Expectation of continued increase in German defense budgets.",
-     "ar": "توقعات باستمرار زيادة ميزانيات الدفاع في ألمانيا.",
-     "ru": "Ожидание дальнейшего увеличения оборонных бюджетов Германии."
-    },
-    "name_i18n": {
-     "he": "קרן סל גרמניה",
-     "en": "Germany ETF",
-     "ar": "صندوق الاستثمار المتداول لألمانيا",
-     "ru": "ETF Германии"
-    },
-    "price_at_alert": 42.84,
-    "entry_price": 42.805,
-    "entry_time": "2026-11-05T19:30+00:00",
-    "exit_price": 41.595,
-    "exit_date": "2026-11-06",
-    "change_pct": -2.83,
-    "bench": "SPY",
-    "bench_change_pct": -0.02,
-    "excess_pct": -2.81,
-    "edge_pct": -2.81,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "8f082f8830ff",
   "evaluated": true
  },
  {
@@ -52172,5 +51650,389 @@
    }
   ],
   "id": "b89f6e9412a5"
+ },
+ {
+  "ts": 1794511737,
+  "time": "2026-11-12T19:28Z",
+  "title": "חששות מהמשך העלאות ריבית בארה\"ב עקב אינפלציה",
+  "summary": "בכירי הפדרל ריזרב, כולל דאלי, מאותתים כי ייתכן שיידרשו העלאות ריבית נוספות כדי לקרר את האינפלציה, המושפעת לדבריהם גם מתשתיות בינה מלאכותית.",
+  "kid": "הבנק המרכזי של ארה\"ב חושב שהמחירים עולים מהר מדי, אז הוא עשוי להעלות את הריבית כדי להאט את הכלכלה.",
+  "i18n": {
+   "title": {
+    "he": "חששות מהמשך העלאות ריבית בארה\"ב עקב אינפלציה",
+    "en": "Fed Officials Signal Potential Rate Hikes Amid Inflation",
+    "ar": "مسؤولو الاحتياطي الفيدرالي يشيرون إلى احتمال رفع أسعار الفائدة وسط التضخم",
+    "ru": "Чиновники ФРС сигнализируют о возможном повышении ставок на фоне инфляции"
+   },
+   "summary": {
+    "he": "בכירי הפדרל ריזרב, כולל דאלי, מאותתים כי ייתכן שיידרשו העלאות ריבית נוספות כדי לקרר את האינפלציה, המושפעת לדבריהם גם מתשתיות בינה מלאכותית.",
+    "en": "Federal Reserve officials, including Daly, are signaling that more rate hikes may be needed to cool inflation, which they claim is being fueled by AI infrastructure spending.",
+    "ar": "يشير مسؤولو الاحتياطي الفيدرالي، بمن فيهم دالي، إلى أن هناك حاجة إلى مزيد من رفع أسعار الفائدة لتهدئة التضخم، الذي يزعمون أنه يتغذى على الإنفاق على البنية التحتية للذكاء الاصطناعي.",
+    "ru": "Чиновники ФРС, включая Дэйли, сигнализируют о необходимости дальнейшего повышения ставок для борьбы с инфляцией, которая, по их словам, подпитывается расходами на инфраструктуру ИИ."
+   },
+   "kid": {
+    "he": "הבנק המרכזי של ארה\"ב חושב שהמחירים עולים מהר מדי, אז הוא עשוי להעלות את הריבית כדי להאט את הכלכלה.",
+    "en": "The US central bank thinks prices are rising too fast, so they might make borrowing money more expensive to slow things down.",
+    "ar": "يعتقد البنك المركزي الأمريكي أن الأسعار ترتفع بسرعة كبيرة، لذا قد يجعل اقتراض المال أكثر تكلفة لإبطاء الأمور.",
+    "ru": "Центральный банк США считает, что цены растут слишком быстро, поэтому они могут сделать кредиты дороже, чтобы замедлить экономику."
+   }
+  },
+  "category": "macro",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb3o3U2hLRGhZdkNDU19lekNkQlIzcXBFSnlaVmRVOXVqQkEtUGFKbE15UVR4YUxtWnh0NDVZWEdiTGtXRV9wem5XdDBGd1ZMcDlOOXFXdUJzOXFjZHhwWUR3djY5ZEx3Y09mQWFMSVlCU0ZwM2MtZlB5bnVmaWdEbHgzQlktdVJvektCOHZ0T1ZlaTdLV091bXE3N1YtTWVBQm1IelBzZE1jbERQc1VrdWVFTEFCQWkxUGFrdzFRdTNJNE9PdVRZU05nTkZoZlRKZE1V0gHYAUFVX3lxTE5BZEVUSGxpWlBvRTRVVmFuNGgtUVVUVUVNWnpLQkExQUZELXd2MXhQMF9XMW1ISjRDNzhCR0E5eWNUMU0xV29aMHZaQlppZ1VhNXhSM1pKVUJJYWhLOHhtVzZCMlFnOVBRV2ZDbVYyMjZRUVZTRXdSYjJuMGVoUDZSMjRqWDNkUTk3LWRwM1VxZFhDWlB6Z1c1aGZGcTBxd0RSY19MSjE0aDl2Ul9HQ1FnSmZRYVVCU2JsRVI4eElGQmxWVzlGZnRRSmY5SUExU2t4MU12WVU1Yg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY0E1bEt5R3BzTFZZelJTU1A1Q1JROEphMnNPV2V5R2lCYUxaVFJJVnNkSGo2Z1gxOFJEa1pvaGFnWnc2NnhqenRub0h4SUZfbGNHMWQ2TmRDRGVCN25BZnc0WDA3SUQ4cno3ZElXa2xUZTAxdGdCQUpFVV9hcHVVcEkyQkdWYnFDOURJZ0xFcC1VTzNZMnJaRW1R0gGfAUFVX3lxTFBRa0V1aGZkVzhLZF8wekhlaWtkQi1mNUl2TS1PUTNKU3dhVVRlUjhmdVJ6V052MHpobW45R3VncXdLNGJCLWpuTmxaWEpxejFxLVdFRmo0UFQtdUZkakJkMmxXek9sY1pjT0ZYRDB2OHNQMWNsYUQxV0RaN3RBQ2p0NTI4UnRzUlRxZ0ctZWFZSWtwWFFkbmNBLVhMa3FPQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVdPQ1hPVlNGNE1XRl9BS0NjVVI2QjU3Z1F3em94Qm9tdW1TeHRmT3UtWVowQ09TWUdTVS1jeWVIOWd1NTBiejNPZmV6a0pNZ2oyUnFxM0N1YnJWNVpDdU1Lc0dubTRWSkdYMHlMUFc4ZFZiUW1zaGFMNlI5Tlp3aGM0Xy14WkN6dU1Mc0s0XzVUNkRnUXAxV05iNklHR1BrcHZ2M3NhS1BHM0I4ZmNubQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYTRfNHdidHFyT0tNQ1VhUUJGbEVTZ0FQLUI0YkNqU1M5bWxkbE9iU1RJYkNIMGtFbUdXVWZYZDZ2aXYyZnB3dGl5QmhjXzF3NGlnWVg0cVMwcVBVWTQ4bmlLRUtwYkw2UDI3aHYwVm9MOGJvOGVuMjBNdnR2VTJHN3UwbUtiTE1qaUkxMTVVd053TlhZc2plMGc5SFAxSmdzZ0xfRGx5WmJDeEtnMEZrZGxrT3MzTHFCZG9CWDFDdVF4c0I1dDRMWVhkSEJtaE1SMktUY1NMT1h3QmJEZkNvQmlzaDBJSGZBOWFVY2xZOFdfcGRGRTNVOF9HNUPSAYICQVVfeXFMTVJXaEVIV1RINW1taGxKZTNYU1ZCazJNMzlWUW1UYjdjSDBIekhKS0xEMVVFQjVHd2w4ZEFlVWRsdDNpT29VaWd3U0VkTFIxcTQ5WlZhTDkzWTJEM2xVTGNpYWk4NnYzS3daTXhQSmxjMlNsc2x6VU84QW5VYjlzZV9YQ3FNamw3Y3B5OFJ2MkxmZkYtaU84MmQ0c1pzVzRmcHVUbDI4YV9ZakJkV1poVnhSZGpNTXhxMjNLeEt1d0JzT0VzNVkyODByemhpRTZVN1d5QVVIRUtsZk02Tzd2dDRUMlNDWm05TE9wTmlqTktqY2xBRS1HY0l2WDFLQTRGSDBR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FRERIWTVCX2VNczMtZDJ0SmgtZ0xWNC1KZnc2LW1MYmlJSXRQcXJ0MEVSWTRjV2V2dXBlNWZnSTZSSzBCaUxnMEVhMVVIVG5pR1g4?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNWQwWTNqTE9Od2dyaHZlSEZLdHUyVUk1WHg2b3VfOHh0TW9KZW9HRG5hQjdiNi1vNjAwZlZoc0VQRm1JMDhua1R0MFZjRWxEUEJjaEU2THE4WXhlYXZEdkNKekZSVDByejlzM2hsYnhfZTFoUkdWVUwtb2pjSzA5alB2cHZFSXRyX21CcExnRm9vYnlFVlhKWjFXVElLMk5iX2Z3RElGZEpScE9aNUpDTW4wVFhiUQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVjJpUnJYdWk0dzZkcGp0cG54WTc3Sk84VWtmdmpCNGl1Z1pXZm1rYmowRnU4d2NSWmNXUFgtUFdQZDZ6SWswZDFsanZrODFEb1hfSWM3YTA3OC1qa09ZaTZkQXVGUW8xTmRKRnRURW04dWpPR0xxMXZURUNJVXdXdmRCNi1VeTBTRG0tZmN5cVVsVGZ3Mml2am8weXMxLWthNXVKY2Q2UDZhd2lZaXFlaURuaFU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ29Kd0JmYmpmdVd1X0VoSWxZQ1NaNlVrMHRnM0thak4wMlJLdExNVDc2TzZkT2lvMm1EMjI4Z2pZbUFkZEtNSHFrUEF2M1g3R2gxVkp1dklBd0Q0TktlaGtCZ2FLV0xidFFBbGNLbUthTldpR2tKSUFtRUhUSWl6UkF1UnZMclJrVlpHMnhBRFRURi1VdTVMVEh4OE1IelR4NnZ3MTVRSC15QUExSnc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjFTZHpWR0ZXRWJUVnpmLTlWZjhManRHak1rV3Jzam5JSnFpWFZ2WXdWMTZVdDFDcjhTTzlMQm9TTFBqeHF0aUlYVXpkTFh5NnBSRGdJbm5uTjFiQjh4RTFVbDdYR0RQbjRNRVFIZXhhT0ZvcnVGSXpKWG1Tc2xFRWhCdVJNb0kyb2lJUUtTQ09hTmd6RGIwdTZBWkdwUlB4eWNuUzZYQVdBcEk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794511737,
+    "reason": "ריבית גבוהה יותר פוגעת במחירי המניות.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה יותר פוגעת במחירי המניות.",
+     "en": "Higher interest rates generally pressure stock valuations.",
+     "ar": "أسعار الفائدة المرتفعة تضغط عادة على تقييمات الأسهم.",
+     "ru": "Более высокие процентные ставки обычно оказывают давление на оценку акций."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 758.61
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794511737,
+    "reason": "ציפיות לריבית גבוהה מורידות את מחירי האג\"ח.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה מורידות את מחירי האג\"ח.",
+     "en": "Expectations of higher rates lower bond prices.",
+     "ar": "توقعات بأسعار فائدة أعلى تؤدي إلى انخفاض أسعار السندات.",
+     "ru": "Ожидания повышения ставок снижают цены на облигации."
+    },
+    "name_i18n": {
+     "he": "אג\"ח ממשלתי לטווח ארוך",
+     "en": "Long-term Treasury Bonds",
+     "ar": "سندات الخزانة طويلة الأجل",
+     "ru": "Долгосрочные казначейские облигации"
+    },
+    "price_at_alert": 79.875
+   }
+  ],
+  "id": "22f1d1b0bcbd"
+ },
+ {
+  "ts": 1794511737,
+  "time": "2026-11-12T19:28Z",
+  "title": "שפל של 16 שנה במכירות בתים בארה\"ב",
+  "summary": "מכירות הבתים בארה\"ב צנחו לרמתן הנמוכה ביותר מאז המשבר הכלכלי הגדול, על רקע ריביות משכנתא המגיעות ל-7.5%.",
+  "kid": "מעט מאוד אנשים קונים בתים עכשיו כי ההלוואות מהבנק יקרות מאוד. זה יכול להשפיע על חברות בנייה ובנקים.",
+  "i18n": {
+   "title": {
+    "he": "שפל של 16 שנה במכירות בתים בארה\"ב",
+    "en": "US Home Sales Hit 16-Year Low",
+    "ar": "مبيعات المنازل في الولايات المتحدة تسجل أدنى مستوى لها منذ 16 عاماً",
+    "ru": "Продажи жилья в США упали до 16-летнего минимума"
+   },
+   "summary": {
+    "he": "מכירות הבתים בארה\"ב צנחו לרמתן הנמוכה ביותר מאז המשבר הכלכלי הגדול, על רקע ריביות משכנתא המגיעות ל-7.5%.",
+    "en": "US home sales have fallen to their lowest level since the aftermath of the Great Recession, driven by mortgage rates reaching 7.5%.",
+    "ar": "انخفضت مبيعات المنازل في الولايات المتحدة إلى أدنى مستوى لها منذ الأزمة المالية الكبرى، مدفوعة بأسعار فائدة الرهن العقاري التي وصلت إلى 7.5%.",
+    "ru": "Продажи жилья в США упали до самого низкого уровня со времен Великой рецессии на фоне ипотечных ставок, достигающих 7,5%."
+   },
+   "kid": {
+    "he": "מעט מאוד אנשים קונים בתים עכשיו כי ההלוואות מהבנק יקרות מאוד. זה יכול להשפיע על חברות בנייה ובנקים.",
+    "en": "Very few people are buying houses right now because bank loans are very expensive. This can affect construction companies and banks.",
+    "ar": "عدد قليل جداً من الناس يشترون المنازل الآن لأن قروض البنك باهظة الثمن. هذا قد يؤثر على شركات البناء والبنوك.",
+    "ru": "Очень мало людей сейчас покупают дома, потому что кредиты в банках стали очень дорогими. Это может повлиять на строительные компании и банки."
+   }
+  },
+  "category": "macro",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmttNnNqVm1jQmstQ2pvWl9aOUYzaklQNmpYaEFuMVdyLUdyWEZqOWU4R0luSldvNlhURDcyeng0VG5NQTVSejFOTFhmOEJlSUt1aGRadmg2c1FSTGdCb2tpbzVuRnJYbXRvYkFsQ0xrUlB3Ui1IMFZyZklhcGpoWW9Rc09Menk0LXBGVlV0MkpsMW53R01kckdKVnRtMWRZc0kzaEFvdk51MnNDbGF3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR2xfWGhiMDhocDdHRFdWd05WdGJiVlNwMFBYMG5pTk9Dc0tIUzQwb01SMHEtVkU1Rm9lOHQtWGl2d1VRREVvWE9IRXJIWHQ4V21ULURUQjgwQVk4MHY2NG0xSm9wMlhId2pCX1RycXZsZmQwQUNYTXpRYl9LTUpOdXJDRlVEcXQ4MHhqMw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RMEhNV2NFa0FLeF9IaWlDM0htMEdqaElFbU93emIxN1JKNVVMUy10cFd5SHIwSnRXZGJvVW5VTHduNXFzX3pMbzFjNGhtQnc3aWJJd3NpRGM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLF",
+    "direction": "down",
+    "t0": 1794511737,
+    "reason": "ירידה בביקוש למשכנתאות פוגעת ברווחי הבנקים.",
+    "reason_i18n": {
+     "he": "ירידה בביקוש למשכנתאות פוגעת ברווחי הבנקים.",
+     "en": "Lower mortgage demand hurts bank profits.",
+     "ar": "انخفاض الطلب على الرهن العقاري يضر بأرباح البنوك.",
+     "ru": "Снижение спроса на ипотеку вредит прибыли банков."
+    },
+    "name_i18n": {
+     "he": "סקטור הפיננסים",
+     "en": "Financial Sector",
+     "ar": "القطاع المالي",
+     "ru": "Финансовый сектор"
+    },
+    "price_at_alert": 58.43
+   },
+   {
+    "ticker": "ITB",
+    "direction": "down",
+    "t0": 1794511737,
+    "reason": "האטה בשוק הנדל\"ן פוגעת בחברות הבנייה.",
+    "reason_i18n": {
+     "he": "האטה בשוק הנדל\"ן פוגעת בחברות הבנייה.",
+     "en": "Real estate market slowdown hurts homebuilders.",
+     "ar": "تباطؤ سوق العقارات يضر بشركات البناء.",
+     "ru": "Замедление рынка недвижимости вредит застройщикам."
+    },
+    "name_i18n": {
+     "he": "קרן סל של חברות בנייה",
+     "en": "Home Construction ETF",
+     "ar": "صندوق استثمار لشركات البناء",
+     "ru": "ETF строительных компаний"
+    },
+    "price_at_alert": 93.94
+   }
+  ],
+  "id": "839d951ae311"
+ },
+ {
+  "ts": 1794511737,
+  "time": "2026-11-12T19:28Z",
+  "title": "הסלמה במזרח התיכון: תקיפות על סעודיה ואיומים איראניים",
+  "summary": "דיווחים על תקיפות טילים וכטב\"מים נגד תשתיות נפט בסעודיה, לצד חשיפת 'ערי טילים' תת-קרקעיות באיראן, מעלים את המתיחות האזורית.",
+  "kid": "יש מתיחות גדולה במזרח התיכון עם תקיפות על מתקני נפט. זה גורם לאנשים לפחד שמחיר הנפט יעלה.",
+  "i18n": {
+   "title": {
+    "he": "הסלמה במזרח התיכון: תקיפות על סעודיה ואיומים איראניים",
+    "en": "Escalation in Middle East: Attacks on Saudi Arabia and Iranian Threats",
+    "ar": "تصعيد في الشرق الأوسط: هجمات على السعودية وتهديدات إيرانية",
+    "ru": "Эскалация на Ближнем Востоке: атаки на Саудовскую Аравию и иранские угрозы"
+   },
+   "summary": {
+    "he": "דיווחים על תקיפות טילים וכטב\"מים נגד תשתיות נפט בסעודיה, לצד חשיפת 'ערי טילים' תת-קרקעיות באיראן, מעלים את המתיחות האזורית.",
+    "en": "Reports of missile and drone attacks targeting Saudi oil infrastructure, alongside Iran showcasing underground 'missile cities', are heightening regional tensions.",
+    "ar": "تقارير عن هجمات صاروخية وبطائرات بدون طيار تستهدف البنية التحتية النفطية في السعودية، إلى جانب كشف إيران عن 'مدن صواريخ' تحت الأرض، تزيد من التوترات الإقليمية.",
+    "ru": "Сообщения о ракетных ударах и атаках беспилотников на нефтяную инфраструктуру Саудовской Аравии, а также демонстрация Ираном подземных «ракетных городов» усиливают региональную напряженность."
+   },
+   "kid": {
+    "he": "יש מתיחות גדולה במזרח התיכון עם תקיפות על מתקני נפט. זה גורם לאנשים לפחד שמחיר הנפט יעלה.",
+    "en": "There is a lot of tension in the Middle East with attacks on oil facilities. This makes people worry that the price of oil will go up.",
+    "ar": "هناك الكثير من التوتر في الشرق الأوسط مع هجمات على منشآت نفطية. هذا يجعل الناس يقلقون من أن سعر النفط سيرتفع.",
+    "ru": "На Ближнем Востоке много напряжения из-за атак на нефтяные объекты. Это заставляет людей беспокоиться, что цена на нефть вырастет."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MQVNUQjB5dnJHQ0xoYldhelVxbmY1eTRrdjBSaXc0UlpFdUcyNVVkM2t5RXlreWxpUVphWlF1dTVJNE9uMnRSeE9SS3RXWWpnRlNlWXZUTVU?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FUnNGTzVaZE4wWFpfNDFFSFBLUmo3cDMyTnJmMzBEVlVWVFQ4eksxNUsxZnNRUGpHaXBuZE5zSW1iRnhpQndzd0VvUUNnRlFhM3pUUXU2ZlRZeEtuYTYwTjZ3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pb0FJM3B0anViMHp6b0ZPYkxaLUl0V3ZlNVdFa2NSMDRSb1E1ZnNaS242clVhSi03anlDZEhWdC12VU00elZubjNwdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaGcyWDQ5dG10c3E1NkU4NloxWTFYRVV4VDZKSHk0SDVxU3JfSGJKTUZLazY1RThOSkR6Si1WS01FeFRkQUp1bmdBMUZhQ3FvZlZVR191Y0k3VGhGdi1NaWNmLVB1WUlKOW43T2RaZHJWQV9zYUNGbE9wTUpMdjFBa2JPUGhaX0E4RHFVbV96Z0E1aFpLZlZYQXNCd3g5S25DUU92eG9LQk9FQ0R2UHlkU0FNcEgxVEM2YWlxektjZlFpZkUzSExOVVllNNIB0AFBVV95cUxPQVdzN3hfVFhIVERvSDRjeTEzN3RPRk92czlyUFRwM2JacUwwOGtOTWRRSDVKck5NQlN2MG5UdnpfY3JwdUVRLUVicnRXWlpWLU1wNTMwSnBJZjRMbUlHb2FJY3ZzMFJmaHByVHcyVmVDN2lKY291b3gwMXlVZFJxSDlUQTQ0VkFoSFVWNEh4UnBKWm9LU19PV0FFTDBzX2cxa0hjNmNqa21GSmpGUHRxWUwxcDVHenlQSm5oUzdrb3ZzZE5rcnZaSm5oTHg4b1hs?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxeFBOdjVXeEhDU3huQU9RbzBkTERuMXpvaGVualE2VHRWeWozcHFxVDUwSkE3Skg1VGo3eWFNM0x5QkVkS2FUNldhN3Fybm9FMmE4N2JR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1pBbVpkc2E2U2JxQmY1a2J3WEtWR0ptSktnejFhUGxta2d1bGpFWTNGQVFLSWdtWHVyYmQ2RjZHc18yTElhVmV5NmFiSW9BdFl4enYwWkt6b2J2OTBucHNOZWlBN1U1M2lvT1hST2pNOFZPbEFrVEZMQXY0Skk4eUZ2X1lzVlY3TFRhR052Ni1QRXktLThrZ3JfZUtmRm16?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794511737,
+    "reason": "חשש משיבושים באספקת הנפט מהמזרח התיכון.",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט מהמזרח התיכון.",
+     "en": "Fears of supply disruptions from the Middle East.",
+     "ar": "مخاوف من تعطل إمدادات النفط من الشرق الأوسط.",
+     "ru": "Опасения по поводу перебоев в поставках нефти с Ближнего Востока."
+    },
+    "name_i18n": {
+     "he": "נפט גולמי",
+     "en": "Crude Oil",
+     "ar": "النفط الخام",
+     "ru": "Сырая нефть"
+    },
+    "price_at_alert": 145.88
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794511737,
+    "reason": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה.",
+     "en": "Higher oil prices boost energy company profits.",
+     "ar": "ارتفاع أسعار النفط يعزز أرباح شركات الطاقة.",
+     "ru": "Рост цен на нефть увеличивает прибыль энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 170.55
+   }
+  ],
+  "id": "4dd2ee9e4d91"
+ },
+ {
+  "ts": 1794511737,
+  "time": "2026-11-12T19:28Z",
+  "title": "התרחבות משמעותית בתעשיית הנחושת העולמית",
+  "summary": "חברות כרייה כמו Freeport-McMoRan מאשרות הרחבות ענק של מכרות, בעוד שיתופי פעולה אסטרטגיים חדשים נחתמים בין חברות גלובליות להגברת הייצור.",
+  "kid": "חברות גדולות משקיעות הרבה כסף כדי לחפור יותר נחושת, שזה מתכת חשובה מאוד לטכנולוגיה וחשמל.",
+  "i18n": {
+   "title": {
+    "he": "התרחבות משמעותית בתעשיית הנחושת העולמית",
+    "en": "Significant Expansion in Global Copper Industry",
+    "ar": "توسع كبير في صناعة النحاس العالمية",
+    "ru": "Значительное расширение мировой медной промышленности"
+   },
+   "summary": {
+    "he": "חברות כרייה כמו Freeport-McMoRan מאשרות הרחבות ענק של מכרות, בעוד שיתופי פעולה אסטרטגיים חדשים נחתמים בין חברות גלובליות להגברת הייצור.",
+    "en": "Mining companies like Freeport-McMoRan are approving massive mine expansions, while new strategic partnerships are being signed between global firms to boost production.",
+    "ar": "تعتمد شركات التعدين مثل Freeport-McMoRan توسعات ضخمة للمناجم، بينما يتم توقيع شراكات استراتيجية جديدة بين شركات عالمية لزيادة الإنتاج.",
+    "ru": "Горнодобывающие компании, такие как Freeport-McMoRan, одобряют масштабное расширение рудников, а между глобальными фирмами подписываются новые стратегические партнерства для увеличения добычи."
+   },
+   "kid": {
+    "he": "חברות גדולות משקיעות הרבה כסף כדי לחפור יותר נחושת, שזה מתכת חשובה מאוד לטכנולוגיה וחשמל.",
+    "en": "Big companies are spending a lot of money to dig for more copper, which is a very important metal for technology and electricity.",
+    "ar": "تستثمر الشركات الكبرى الكثير من المال لحفر المزيد من النحاس، وهو معدن مهم جداً للتكنولوجيا والكهرباء.",
+    "ru": "Крупные компании вкладывают много денег в добычу меди, которая является очень важным металлом для технологий и электричества."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FTXdtNlpTWXpseVcxT1dtY0VnQ2hZYlhKWl9iS3IwYnl0OTZkdlI1MWdnUEJhY0Q2dk11Q1ZpZ1Y2bDhDVjFmV1RzU2FvdzVsOEZObGlWaUQyU1dvOGNkNk5HYVdId1Z6OWpr?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0lvd1F3WFduSkw4X09Xa0dFeWtYWlNRaFRaZ0tSX3JhWWVSMWhHMVZiUm0zV0QzVzNGWUFseHFDRF9yb2VOMDNIRVJFd3pVZ3AxRFFjcGdmUkV5RUM5dFJiUnBBcGtBenNYNjJRTXJFUjYzbUQ0Z0JBQ2pzdmh5R0JaR1JNZm84aGRCTlpkLW85bEVrVFdJaEE0ZklSbE9ob2ozYXJVVkhwWlh30gGyAUFVX3lxTE5JNWY1UDl5dmNQVk9XeUI1dUU0cHFRVm9qX21lVGVreFNzTGk5Z0d4ZnVMdDdwNVd4QWtHczJzS2t5RmhBeVVhN0VTaGtacVJZTGxWeDJkcHBidUppcWVXNE53QTl1OWVvZHllaWNUZlpaMUpadlE4a3R4bW9WUDJzc1B3OTNjRTNpNWRZMWhkbXhmSkVSRVN6bnAyUmtFQzlzUzhNTDBsd3lIQ09MOWNCaFE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPc0FvVmR6TEJBOFVQa2haRXQ5RUJ1c0JLWHpWUC1MVU1KcE1yd3pDN1BHZUp5ZFVqTkZ2WXV3WEsta0I0eHRzdGdiMkhiQ0hhY0dRdDJsUDY5OFlfVlFtZERNSnRKUDkzNzBoWGhhRTlwdm1sbXFUTzg3NDNkUlc4ZDhEdEE0NWU1WlFsbU04TF80N2RsTExrazMxb0JPLVVkbVJvZTlKZlREOG1wME05UUVlalBCU2JXZjFEZUh0Y3cxVUs4ajUyWmFFUGdxczE3WE1FUk1QSGJxUXlheUprOUFYTkFhTVhyWURlN1BpV2ttSjAya2ZuV0xVa0d0SDBDY01TMEhBVnpkeUNtSmY1bUs4UW9ZZDdVT0RIcXJXQi03bkU?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQamQzV1JOcVZGeGpZSTFBMGMzZGc3VVJLSkxxa09UMGU4dm1aVml3NENYSi1ZQXF0bkx1THZXdUtHZmkwMHZGQ0t4WXhDVzV6dkpreGhodFJRVDdmOWJQVGctWmhXdXhOcVRUeEQyUS10WkxBVGlRUElJWlBVamN3RmQ2eW1zemNqTFBHU3hHV1FaMllia2h6YjFQR1JEbS1KQ3BCUnpVN19EME04YmJQYXNsLUFPV1NZSDV4RjlNOXRtTkpoYWVjUWtFWk1kX1hfSk5HOGJjcnBJVDdJdUR2SV9GVjlZdFE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTlB3SU03LUJ1OFZYWnhBcGl3Wng4anVkdnJTWU8xMXVXS2lUVnZSMnRQR0dNY3ZKT0JqbkpKaFY3UVdVMHZLRE1NNjFKUHVER1VDdTNXeVpRelptTDZXeVFhSXZTaFFoSFg4SnpqZFVxbzloQ0N3SXo1TF9MdzJhNFl4eHJ4aFI1TW5CTFNob2tOTU9QQzJ2YUFldkNXMEVPUGhFcjdBWHZFbV9sY2xfZHdmMlFudG9VZHR1QkJnNDYwZ1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794511737,
+    "reason": "אישור הרחבת מכרה ב-4.5 מיליארד דולר מגדיל את פוטנציאל הייצור.",
+    "reason_i18n": {
+     "he": "אישור הרחבת מכרה ב-4.5 מיליארד דולר מגדיל את פוטנציאל הייצור.",
+     "en": "Approval of a $4.5B mine expansion increases production potential.",
+     "ar": "الموافقة على توسيع منجم بقيمة 4.5 مليار دولار تزيد من إمكانات الإنتاج.",
+     "ru": "Одобрение расширения рудника на 4,5 млрд долларов увеличивает производственный потенциал."
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן",
+     "en": "Freeport-McMoRan",
+     "ar": "فريبورت-ماكموران",
+     "ru": "Freeport-McMoRan"
+    },
+    "price_at_alert": 60.89
+   },
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794511737,
+    "reason": "הגדלת היצע וביקוש לטווח ארוך תומכים במחיר המתכת.",
+    "reason_i18n": {
+     "he": "הגדלת היצע וביקוש לטווח ארוך תומכים במחיר המתכת.",
+     "en": "Increased supply and long-term demand support metal prices.",
+     "ar": "زيادة العرض والطلب على المدى الطويل تدعم أسعار المعدن.",
+     "ru": "Увеличение предложения и долгосрочного спроса поддерживает цены на металл."
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق استثمار النحاس",
+     "ru": "Медный ETF"
+    },
+    "price_at_alert": 37.275
+   }
+  ],
+  "id": "c9882e6e226b"
  }
 ]
