@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T11:56Z",
+ "generated": "2026-11-12T13:04Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 766,
+ "total_alerts": 768,
  "overall": {
   "n": 460,
   "hits": 231,
@@ -1050,14 +1050,14 @@
    "avg_edge": 1.04
   },
   "EWW": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 4,
    "hits": 1,
    "name": {
-    "he": "קרן סל מניות מקסיקו",
-    "en": "iShares MSCI Mexico ETF",
-    "ar": "صندوق الاستثمار المتداول للأسهم المكسيكية",
-    "ru": "ETF акций Мексики"
+    "he": "קרן סל על מקסיקו",
+    "en": "Mexico ETF",
+    "ar": "صندوق الاستثمار المتداول للمكسيك",
+    "ru": "ETF на Мексику"
    },
    "avg_edge": -0.48
   },
@@ -1394,6 +1394,30 @@
     "en": "Pfizer - drug maker",
     "ar": "فايزر - صانعة أدوية",
     "ru": "Pfizer - производитель лекарств"
+   },
+   "avg_edge": null
+  },
+  "GM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ג'נרל מוטורס",
+    "en": "General Motors",
+    "ar": "جنرال موتورز",
+    "ru": "General Motors"
+   },
+   "avg_edge": null
+  },
+  "NBIS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Nebius",
+    "en": "Nebius",
+    "ar": "Nebius",
+    "ru": "Nebius"
    },
    "avg_edge": null
   }
