@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T06:47Z",
+ "generated": "2026-11-12T08:03Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 756,
+ "total_alerts": 760,
  "overall": {
   "n": 460,
   "hits": 231,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 81,
+   "mentions": 83,
    "n": 72,
    "hits": 27,
    "name": {
-    "en": "United States Oil Fund",
     "he": "קרן סל נפט גולמי",
+    "en": "United States Oil Fund",
     "ar": "صندوق النفط الخام",
-    "ru": "Фонд нефтяного рынка"
+    "ru": "ETF сырой нефти"
    },
    "avg_edge": -0.49
   },
   "XLE": {
-   "mentions": 69,
+   "mentions": 71,
    "n": 60,
    "hits": 31,
    "name": {
-    "he": "XLE - קרן סל אנרגיה",
-    "en": "XLE - Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "קרן סל אנרגיה",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.45
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.6
   },
   "ITA": {
-   "mentions": 123,
+   "mentions": 125,
    "n": 109,
    "hits": 75,
    "name": {
-    "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
-    "en": "ITA - US Aerospace & Defense ETF",
-    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-    "ru": "ITA - ETF аэрокосмического и оборонного секторов США"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "iShares U.S. Aerospace & Defense ETF",
+    "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -1.71
   },
   "RTX": {
-   "mentions": 31,
+   "mentions": 32,
    "n": 25,
    "hits": 19,
    "name": {
-    "he": "RTX - ענקית תעופה וביטחון",
-    "en": "RTX - aerospace and defense major",
-    "ar": "RTX - شركة كبرى للطيران والدفاع",
-    "ru": "RTX - крупный аэрокосмический и оборонный подрядчик"
+    "he": "ריית'און – טכנולוגיות תעופה וביטחון",
+    "en": "RTX Corporation – aerospace and defense",
+    "ar": "آر تي إكس - الفضاء والدفاع",
+    "ru": "RTX Corporation — аэрокосмическая и оборонная компания"
    },
    "avg_edge": 0.96
   },
@@ -186,14 +186,14 @@
    "avg_edge": -0.21
   },
   "ESLT": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 10,
    "hits": 7,
    "name": {
-    "en": "ESLT – Elbit Systems",
-    "he": "ESLT – אלביט מערכות",
-    "ar": "ESLT – إيلبيت سيستمز",
-    "ru": "ESLT – Elbit Systems"
+    "he": "אלביט מערכות – חברת ביטחונית",
+    "en": "Elbit Systems – a defense company",
+    "ar": "إلبيت سيستمز - شركة دفاعية",
+    "ru": "Elbit Systems — оборонная компания"
    },
    "avg_edge": 0.94
   },
@@ -294,14 +294,14 @@
    "avg_edge": 1.41
   },
   "EWU": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 11,
    "hits": 6,
    "name": {
-    "he": "קרן סל על בריטניה",
-    "en": "EWU – United Kingdom ETF",
-    "ar": "EWU - صندوق الاستثمار المتداول في المملكة المتحدة",
-    "ru": "EWU — ETF акций Великобритании"
+    "he": "קרן סל בריטניה",
+    "en": "UK ETF",
+    "ar": "صندوق الاستثمار المتداول للمملكة المتحدة",
+    "ru": "ETF Великобритании"
    },
    "avg_edge": 0.19
   },
@@ -534,19 +534,19 @@
    "avg_edge": -1.1
   },
   "VGK": {
-   "mentions": 15,
+   "mentions": 17,
    "n": 13,
    "hits": 6,
    "name": {
     "he": "קרן סל מניות אירופה",
-    "en": "Vanguard European Stock ETF",
-    "ar": "صندوق الأسهم الأوروبية",
+    "en": "Vanguard FTSE Europe ETF",
+    "ar": "صندوق الاستثمار المتداول للأسهم الأوروبية",
     "ru": "ETF европейских акций"
    },
    "avg_edge": -0.19
   },
   "UNG": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 10,
    "hits": 8,
    "name": {
@@ -738,7 +738,7 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 15,
    "hits": 7,
    "name": {
