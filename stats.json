@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-12T14:22Z",
+ "generated": "2026-11-12T16:35Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 770,
+ "total_alerts": 772,
  "overall": {
   "n": 460,
   "hits": 231,
@@ -90,14 +90,14 @@
    "avg_edge": -0.49
   },
   "XLE": {
-   "mentions": 73,
+   "mentions": 74,
    "n": 60,
    "hits": 31,
    "name": {
-    "he": "XLE - קרן סל על סคטור האנרגיה בארה\"ב",
-    "en": "XLE - Energy Select Sector SPDR Fund",
-    "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
-    "ru": "XLE - ETF энергетического сектора США"
+    "he": "קרן מגזר האנרגיה",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة الأمريكي",
+    "ru": "ETF энергетического сектора США"
    },
    "avg_edge": -0.45
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.6
   },
   "ITA": {
-   "mentions": 125,
+   "mentions": 126,
    "n": 109,
    "hits": 75,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
+    "he": "קרן ביטחון ותעופה",
     "en": "iShares U.S. Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "ar": "صندوق الدفاع والفضاء الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной отрасли"
    },
    "avg_edge": -1.71
   },
@@ -222,7 +222,7 @@
    "avg_edge": 0.84
   },
   "SPY": {
-   "mentions": 80,
+   "mentions": 81,
    "n": 68,
    "hits": 31,
    "name": {
@@ -234,14 +234,14 @@
    "avg_edge": -0.19
   },
   "KRE": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 7,
    "hits": 5,
    "name": {
-    "he": "קרן סל על בנקים אזוריים",
-    "en": "KRE – Regional Banking ETF",
-    "ar": "KRE - صندوق البنوك الإقليمية",
-    "ru": "KRE — ETF региональных банков"
+    "he": "קרן בנקים אזוריים",
+    "en": "SPDR S&P Regional Banking ETF",
+    "ar": "صندوق البنوك الإقليمية",
+    "ru": "ETF региональных банков США"
    },
    "avg_edge": 0.45
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.19
   },
   "LMT": {
-   "mentions": 55,
+   "mentions": 56,
    "n": 49,
    "hits": 30,
    "name": {
-    "he": "לוקהיד מרטין – יצרנית נשק גדולה",
-    "en": "LMT – Lockheed Martin",
-    "ar": "LMT - لوكهيد مارتن",
-    "ru": "LMT — Lockheed Martin"
+    "he": "לוקהיד מרטין",
+    "en": "Lockheed Martin",
+    "ar": "لوكهيد مارتن",
+    "ru": "Lockheed Martin"
    },
    "avg_edge": -0.24
   },
@@ -438,14 +438,14 @@
    "avg_edge": -1.24
   },
   "FDX": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 9,
    "hits": 5,
    "name": {
-    "he": "FDX - פדקס (חברת שילוח בינלאומית)",
-    "en": "FDX - FedEx Corporation",
-    "ar": "FDX - فيديكس للشحن",
-    "ru": "FDX - FedEx (логистическая компания)"
+    "he": "פדקס",
+    "en": "FedEx",
+    "ar": "فيديكس",
+    "ru": "FedEx"
    },
    "avg_edge": -0.0
   },
@@ -1206,13 +1206,13 @@
    "avg_edge": 1.39
   },
   "EIS": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 3,
    "hits": 3,
    "name": {
-    "he": "קרן סל מניות ישראל",
-    "en": "MSCI Israel ETF",
-    "ar": "صندوق أسهم إسرائيل",
+    "he": "קרן סל ישראל",
+    "en": "iShares MSCI Israel ETF",
+    "ar": "صندوق مؤشر إسرائيل",
     "ru": "ETF акций Израиля"
    },
    "avg_edge": 0.61
@@ -1418,6 +1418,18 @@
     "en": "Nebius",
     "ar": "Nebius",
     "ru": "Nebius"
+   },
+   "avg_edge": null
+  },
+  "UPS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "יו פי אס",
+    "en": "United Parcel Service",
+    "ar": "يو بي إس",
+    "ru": "UPS"
    },
    "avg_edge": null
   }
