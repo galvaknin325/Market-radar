@@ -1,141 +1,141 @@
 {
- "generated": "2026-11-12T22:19Z",
+ "generated": "2026-11-12T23:05Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 788,
+ "total_alerts": 790,
  "overall": {
-  "n": 460,
-  "hits": 231,
-  "avg_edge": 0.16
+  "n": 517,
+  "hits": 259,
+  "avg_edge": 0.12
  },
  "by_category": {
   "climate": {
-   "n": 17,
-   "hits": 8,
-   "avg_edge": -0.51
-  },
-  "commodities": {
-   "n": 69,
-   "hits": 37,
-   "avg_edge": 0.21
-  },
-  "contracts": {
-   "n": 105,
-   "hits": 60,
-   "avg_edge": 0.41
-  },
-  "cyber": {
-   "n": 20,
-   "hits": 6,
-   "avg_edge": -1.06
-  },
-  "geopolitics": {
-   "n": 72,
-   "hits": 35,
-   "avg_edge": 0.86
-  },
-  "health": {
-   "n": 22,
-   "hits": 13,
-   "avg_edge": 0.82
-  },
-  "macro": {
-   "n": 65,
-   "hits": 29,
+   "n": 18,
+   "hits": 9,
    "avg_edge": -0.42
   },
+  "commodities": {
+   "n": 78,
+   "hits": 41,
+   "avg_edge": 0.11
+  },
+  "contracts": {
+   "n": 119,
+   "hits": 64,
+   "avg_edge": 0.23
+  },
+  "cyber": {
+   "n": 21,
+   "hits": 6,
+   "avg_edge": -1.12
+  },
+  "geopolitics": {
+   "n": 80,
+   "hits": 40,
+   "avg_edge": 0.82
+  },
+  "health": {
+   "n": 28,
+   "hits": 15,
+   "avg_edge": 0.36
+  },
+  "macro": {
+   "n": 73,
+   "hits": 34,
+   "avg_edge": -0.25
+  },
   "policy": {
-   "n": 52,
-   "hits": 22,
-   "avg_edge": -0.33
+   "n": 57,
+   "hits": 24,
+   "avg_edge": -0.28
   },
   "trade": {
-   "n": 38,
-   "hits": 21,
-   "avg_edge": 0.27
+   "n": 43,
+   "hits": 26,
+   "avg_edge": 0.42
   }
  },
  "by_severity": {
   "1-3": {
-   "n": 92,
-   "hits": 48,
-   "avg_edge": -0.47
+   "n": 103,
+   "hits": 52,
+   "avg_edge": -0.5
   },
   "4-5": {
-   "n": 226,
-   "hits": 117,
-   "avg_edge": 0.26
+   "n": 251,
+   "hits": 129,
+   "avg_edge": 0.18
   },
   "6-7": {
-   "n": 112,
-   "hits": 54,
-   "avg_edge": 0.72
+   "n": 126,
+   "hits": 61,
+   "avg_edge": 0.66
   },
   "8-10": {
-   "n": 30,
-   "hits": 12,
-   "avg_edge": -0.79
+   "n": 37,
+   "hits": 17,
+   "avg_edge": -0.39
   }
  },
  "by_ticker": {
   "USO": {
    "mentions": 87,
-   "n": 72,
-   "hits": 27,
+   "n": 78,
+   "hits": 31,
    "name": {
     "he": "נפט גולמי",
     "en": "Crude Oil",
     "ar": "النفط الخام",
     "ru": "Сырая нефть"
    },
-   "avg_edge": -0.49
+   "avg_edge": -0.37
   },
   "XLE": {
    "mentions": 75,
-   "n": 60,
-   "hits": 31,
+   "n": 65,
+   "hits": 34,
    "name": {
     "he": "תעודת סל סקטור האנרגיה",
     "en": "Energy Select Sector SPDR Fund",
     "ar": "صندوق قطاع الطاقة المتداول",
     "ru": "ETF энергетического сектора"
    },
-   "avg_edge": -0.45
+   "avg_edge": -0.38
   },
   "IBIT": {
    "mentions": 27,
-   "n": 25,
-   "hits": 16,
+   "n": 27,
+   "hits": 18,
    "name": {
     "he": "IBIT - קרן סל על ביטקוין",
     "en": "IBIT - Bitcoin Trust ETF",
     "ar": "IBIT - صندوق مؤشر البيتكوين",
     "ru": "IBIT - Биткоин ETF"
    },
-   "avg_edge": 0.57
+   "avg_edge": 0.74
   },
   "XOM": {
    "mentions": 28,
-   "n": 21,
-   "hits": 7,
+   "n": 24,
+   "hits": 10,
    "name": {
     "he": "אקסון מוביל – חברת אנרגיה ונפט ענקית",
     "en": "ExxonMobil – a major oil and energy corporation",
     "ar": "أكسون موبيل – شركة نفط وطاقة كبرى",
     "ru": "ExxonMobil — крупная нефтяная корпорация"
    },
-   "avg_edge": -0.45
+   "avg_edge": -0.05
   },
   "ZIM": {
    "mentions": 28,
-   "n": 23,
-   "hits": 9,
+   "n": 26,
+   "hits": 12,
    "name": {
     "he": "צים – חברת ספנות ימית",
     "en": "ZIM Integrated Shipping Services",
     "ar": "زيم – شركة الشحن البحري",
     "ru": "ZIM — судоходная компания"
    },
-   "avg_edge": -0.32
+   "avg_edge": -0.04
   },
   "XLP": {
    "mentions": 10,
@@ -150,28 +150,28 @@
    "avg_edge": -0.6
   },
   "ITA": {
-   "mentions": 128,
-   "n": 109,
-   "hits": 75,
+   "mentions": 129,
+   "n": 120,
+   "hits": 76,
    "name": {
-    "he": "תעודת סל על סקטור התעופה והביטחון",
-    "en": "iShares U.S. Aerospace & Defense ETF",
-    "ar": "صندوق الفضاء والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
+    "ru": "ETF на аэрокосмическую и оборонную промышленность"
    },
-   "avg_edge": -1.71
+   "avg_edge": -1.63
   },
   "RTX": {
-   "mentions": 32,
-   "n": 25,
+   "mentions": 33,
+   "n": 29,
    "hits": 19,
    "name": {
-    "he": "ריית'און – טכנולוגיות תעופה וביטחון",
-    "en": "RTX Corporation – aerospace and defense",
-    "ar": "آر تي إكس - الفضاء والدفاع",
-    "ru": "RTX Corporation — аэрокосмическая и оборонная компания"
+    "he": "יצרנית טילי טומהוק",
+    "en": "Tomahawk missile manufacturer",
+    "ar": "الشركة المصنعة لصواريخ توماهوك",
+    "ru": "Производитель ракет Tomahawk"
    },
-   "avg_edge": 0.96
+   "avg_edge": 0.76
   },
   "ESLT.TA": {
    "mentions": 6,
@@ -186,20 +186,20 @@
    "avg_edge": -0.21
   },
   "ESLT": {
-   "mentions": 14,
-   "n": 10,
+   "mentions": 15,
+   "n": 13,
    "hits": 7,
    "name": {
-    "he": "אלביט מערכות – חברת ביטחונית",
-    "en": "Elbit Systems – a defense company",
-    "ar": "إلبيت سيستمز - شركة دفاعية",
-    "ru": "Elbit Systems — оборонная компания"
+    "he": "אלביט מערכות",
+    "en": "Elbit Systems",
+    "ar": "إلبيت سيستمز",
+    "ru": "Elbit Systems"
    },
-   "avg_edge": 0.94
+   "avg_edge": 0.32
   },
   "XLK": {
    "mentions": 11,
-   "n": 8,
+   "n": 10,
    "hits": 3,
    "name": {
     "he": "תעודת סל על סקטרו הטכנולוגיה",
@@ -207,47 +207,47 @@
     "ar": "صندوق قطاع التكنولوجيا المتداول",
     "ru": "ETF технологического сектора"
    },
-   "avg_edge": 0.23
+   "avg_edge": 0.17
   },
   "NVDA": {
    "mentions": 32,
-   "n": 24,
-   "hits": 12,
+   "n": 29,
+   "hits": 14,
    "name": {
     "he": "אנבידיה - חברת שבבים מובילה",
     "en": "Nvidia - a leading chip maker",
     "ar": "إنفيديا - شركة رقائق رائدة",
     "ru": "Nvidia - ведущий производитель чипов"
    },
-   "avg_edge": 0.84
+   "avg_edge": 0.51
   },
   "SPY": {
    "mentions": 83,
-   "n": 68,
-   "hits": 31,
+   "n": 76,
+   "hits": 34,
    "name": {
     "he": "תעודת סל ספאיי על מדד S&P 500",
     "en": "SPDR S&P 500 ETF",
     "ar": "صندوق مؤشر S&P 500",
     "ru": "ETF на индекс S&P 500"
    },
-   "avg_edge": -0.19
+   "avg_edge": -0.16
   },
   "KRE": {
    "mentions": 12,
-   "n": 7,
-   "hits": 5,
+   "n": 9,
+   "hits": 7,
    "name": {
     "he": "בנקים אזוריים בארה\"ב",
     "en": "Regional Banking ETF",
     "ar": "صندوق البنوك الإقليمية الأمريكية",
     "ru": "ETF региональных банков США"
    },
-   "avg_edge": 0.45
+   "avg_edge": 0.51
   },
   "CPER": {
    "mentions": 28,
-   "n": 20,
+   "n": 25,
    "hits": 4,
    "name": {
     "he": "קרן סל נחושת",
@@ -255,11 +255,11 @@
     "ar": "صندوق استثمار النحاس",
     "ru": "Медный ETF"
    },
-   "avg_edge": -0.89
+   "avg_edge": -1.03
   },
   "CRWD": {
    "mentions": 52,
-   "n": 46,
+   "n": 50,
    "hits": 19,
    "name": {
     "he": "CRWD - קראודסטרייק",
@@ -267,11 +267,11 @@
     "ar": "CRWD - كراودسترايك",
     "ru": "CRWD - CrowdStrike"
    },
-   "avg_edge": -1.57
+   "avg_edge": -1.64
   },
   "AVAV": {
    "mentions": 10,
-   "n": 9,
+   "n": 10,
    "hits": 6,
    "name": {
     "en": "AVAV – AeroVironment",
@@ -279,19 +279,19 @@
     "ar": "AVAV – إيروفيرومنت",
     "ru": "AVAV – AeroVironment"
    },
-   "avg_edge": 6.3
+   "avg_edge": 5.23
   },
   "TLT": {
    "mentions": 26,
-   "n": 22,
-   "hits": 18,
+   "n": 24,
+   "hits": 20,
    "name": {
     "he": "אג\"ח ממשלתי לטווח ארוך",
     "en": "Long-term Treasury Bonds",
     "ar": "سندات الخزانة طويلة الأجل",
     "ru": "Долгосрочные казначейские облигации"
    },
-   "avg_edge": 1.41
+   "avg_edge": 1.4
   },
   "EWU": {
    "mentions": 13,
@@ -307,15 +307,15 @@
   },
   "LMT": {
    "mentions": 57,
-   "n": 49,
-   "hits": 30,
+   "n": 53,
+   "hits": 34,
    "name": {
     "he": "לוקהיד מרטין - ענקית ביטחונית",
     "en": "Lockheed Martin - defense giant",
     "ar": "لوكهيد مارتن - عملاق الدفاع",
     "ru": "Lockheed Martin - оборонный гигант"
    },
-   "avg_edge": -0.24
+   "avg_edge": -0.14
   },
   "FXE": {
    "mentions": 12,
@@ -343,7 +343,7 @@
   },
   "DAL": {
    "mentions": 7,
-   "n": 4,
+   "n": 5,
    "hits": 1,
    "name": {
     "he": "דלתא איירליינס - חברת תעופה",
@@ -351,11 +351,11 @@
     "ar": "دلتا للطيران - شركة طيران كبرى",
     "ru": "Delta Air Lines - крупная авиакомпания"
    },
-   "avg_edge": -1.56
+   "avg_edge": -2.4
   },
   "QQQ": {
    "mentions": 43,
-   "n": 37,
+   "n": 41,
    "hits": 11,
    "name": {
     "he": "QQQ - קרן סל של נאסד\"ק",
@@ -363,23 +363,23 @@
     "ar": "QQQ - صندوق مؤشر ناسداك 100",
     "ru": "QQQ - ETF индекса Nasdaq 100"
    },
-   "avg_edge": -0.35
+   "avg_edge": -0.33
   },
   "XLV": {
    "mentions": 21,
-   "n": 18,
-   "hits": 16,
+   "n": 20,
+   "hits": 18,
    "name": {
     "he": "קרן סל בריאות",
     "en": "Health Care ETF",
     "ar": "صندوق الرعاية الصحية",
     "ru": "ETF здравоохранения"
    },
-   "avg_edge": 0.68
+   "avg_edge": 0.65
   },
   "DBA": {
    "mentions": 10,
-   "n": 8,
+   "n": 9,
    "hits": 1,
    "name": {
     "he": "DBA - קרן סל חקלאות",
@@ -387,11 +387,11 @@
     "ar": "DBA - صندوق الزراعة",
     "ru": "DBA - Сельскохозяйственный ETF"
    },
-   "avg_edge": -0.63
+   "avg_edge": -0.56
   },
   "MRNA": {
    "mentions": 17,
-   "n": 14,
+   "n": 15,
    "hits": 7,
    "name": {
     "he": "מודרנה - חברת ביוטכנולוגיה",
@@ -399,35 +399,35 @@
     "ar": "موديرنا - شركة التكنولوجيا الحيوية",
     "ru": "Moderna - биотехнологическая компания"
    },
-   "avg_edge": -0.51
+   "avg_edge": -1.04
   },
   "GLD": {
    "mentions": 16,
-   "n": 13,
-   "hits": 4,
+   "n": 15,
+   "hits": 6,
    "name": {
     "he": "GLD - קרן סל על זהב",
     "en": "GLD - Gold Trust ETF",
     "ar": "GLD - صندوق الذهب",
     "ru": "GLD - ETF золота"
    },
-   "avg_edge": -1.49
+   "avg_edge": -0.87
   },
   "EWC": {
    "mentions": 18,
-   "n": 15,
-   "hits": 11,
+   "n": 17,
+   "hits": 13,
    "name": {
     "he": "תעודת סל על מניות קנדה",
     "en": "iShares Canada ETF",
     "ar": "صندوق أسهم كندا",
     "ru": "ETF акций Канады"
    },
-   "avg_edge": 0.46
+   "avg_edge": 0.45
   },
   "FCX": {
    "mentions": 36,
-   "n": 29,
+   "n": 34,
    "hits": 10,
    "name": {
     "he": "פריפורט-מקמורן",
@@ -435,23 +435,23 @@
     "ar": "فريبورت-ماكموران",
     "ru": "Freeport-McMoRan"
    },
-   "avg_edge": -1.24
+   "avg_edge": -1.36
   },
   "FDX": {
    "mentions": 15,
-   "n": 9,
-   "hits": 5,
+   "n": 10,
+   "hits": 6,
    "name": {
     "he": "פדקס – חברת שילוח ולוגיסטיקה ענקית",
     "en": "FedEx – a major logistics and delivery company",
     "ar": "فيديكس – شركة لوجستيات وشحن كبرى",
     "ru": "FedEx — крупная логистическая компания"
    },
-   "avg_edge": -0.0
+   "avg_edge": 0.01
   },
   "KTOS": {
    "mentions": 8,
-   "n": 6,
+   "n": 8,
    "hits": 4,
    "name": {
     "he": "KTOS - קראטוס דיפנס",
@@ -459,7 +459,7 @@
     "ar": "KTOS - شركة كراتوس للدفاع والأمن",
     "ru": "KTOS - Kratos Defense"
    },
-   "avg_edge": 2.9
+   "avg_edge": 0.45
   },
   "ALL": {
    "mentions": 10,
@@ -499,7 +499,7 @@
   },
   "XLF": {
    "mentions": 10,
-   "n": 8,
+   "n": 9,
    "hits": 7,
    "name": {
     "he": "סקטור הפיננסים",
@@ -507,23 +507,23 @@
     "ar": "القطاع المالي",
     "ru": "Финансовый сектор"
    },
-   "avg_edge": 0.8
+   "avg_edge": 0.69
   },
   "INDA": {
    "mentions": 14,
-   "n": 12,
-   "hits": 6,
+   "n": 13,
+   "hits": 7,
    "name": {
     "he": "קרן סל הודו",
     "en": "India ETF",
     "ar": "صندوق الهند المتداول",
     "ru": "ETF Индии"
    },
-   "avg_edge": -0.19
+   "avg_edge": -0.17
   },
   "EWG": {
    "mentions": 9,
-   "n": 7,
+   "n": 8,
    "hits": 3,
    "name": {
     "he": "תעודת סל על מניות גרמניה",
@@ -531,23 +531,23 @@
     "ar": "صندوق أسهم ألمانيا",
     "ru": "ETF акций Германии"
    },
-   "avg_edge": -1.1
+   "avg_edge": -1.03
   },
   "VGK": {
    "mentions": 19,
-   "n": 13,
-   "hits": 6,
+   "n": 14,
+   "hits": 7,
    "name": {
     "he": "תעודת סל על מניות אירופה",
     "en": "Vanguard FTSE Europe ETF",
     "ar": "صندوق أسهم أوروبا",
     "ru": "ETF европейских акций"
    },
-   "avg_edge": -0.19
+   "avg_edge": -0.16
   },
   "UNG": {
    "mentions": 14,
-   "n": 10,
+   "n": 13,
    "hits": 8,
    "name": {
     "he": "קרן סל גז טבעי בארה\"ב",
@@ -555,19 +555,19 @@
     "ar": "صندوق الغاز الطبيعي الأمريكي",
     "ru": "ETF природного газа США"
    },
-   "avg_edge": 3.14
+   "avg_edge": 2.05
   },
   "TSM": {
    "mentions": 6,
-   "n": 4,
-   "hits": 3,
+   "n": 6,
+   "hits": 4,
    "name": {
     "he": "TSMC - יצרנית השבבים המובילה בעולם",
     "en": "TSMC - Leading Global Chip Foundry",
     "ar": "TSMC - الشركة الرائدة عالمياً في تصنيع الرقائق",
     "ru": "TSMC - ведущий мировой производитель чипов"
    },
-   "avg_edge": 0.25
+   "avg_edge": 0.17
   },
   "EZA": {
    "mentions": 2,
@@ -655,15 +655,15 @@
   },
   "UUP": {
    "mentions": 21,
-   "n": 16,
-   "hits": 6,
+   "n": 18,
+   "hits": 8,
    "name": {
     "he": "תעודת סל על מדד הדולר האמריקאי",
     "en": "Invesco DB US Dollar Index Bullish Fund",
     "ar": "صندوق مؤشر الدولار الأمريكي",
     "ru": "ETF долларового индекса"
    },
-   "avg_edge": -0.19
+   "avg_edge": -0.15
   },
   "TRV": {
    "mentions": 10,
@@ -703,7 +703,7 @@
   },
   "BDRY": {
    "mentions": 8,
-   "n": 6,
+   "n": 8,
    "hits": 6,
    "name": {
     "he": "BDRY - קרן סל הובלה ימית",
@@ -711,19 +711,19 @@
     "ar": "BDRY - صندوق شحن البضائع السائبة",
     "ru": "BDRY - ETF сухопутных и морских перевозок"
    },
-   "avg_edge": 3.55
+   "avg_edge": 2.5
   },
   "XLU": {
    "mentions": 4,
-   "n": 2,
-   "hits": 1,
+   "n": 4,
+   "hits": 3,
    "name": {
     "he": "XLU - קרן סל תשתיות ושירותים ציבוריים",
     "en": "XLU – Utilities Sector ETF",
     "ar": "XLU - صندوق قطاع المرافق",
     "ru": "XLU – ETF сектора коммунальных услуг"
    },
-   "avg_edge": 1.09
+   "avg_edge": 0.68
   },
   "YUM": {
    "mentions": 1,
@@ -787,27 +787,27 @@
   },
   "AMD": {
    "mentions": 3,
-   "n": 2,
-   "hits": 0,
+   "n": 3,
+   "hits": 1,
    "name": {
     "he": "AMD",
     "en": "AMD",
     "ar": "AMD",
     "ru": "AMD"
    },
-   "avg_edge": -9.62
+   "avg_edge": -4.85
   },
   "SMH": {
    "mentions": 21,
-   "n": 14,
-   "hits": 2,
+   "n": 18,
+   "hits": 3,
    "name": {
     "he": "תעודת סל סמיקונדקטורס",
     "en": "Semiconductors ETF",
     "ar": "صندوق مؤشرات أشباه الموصلات",
     "ru": "ETF полупроводников"
    },
-   "avg_edge": -1.87
+   "avg_edge": -1.53
   },
   "BA": {
    "mentions": 4,
@@ -835,19 +835,19 @@
   },
   "TSN": {
    "mentions": 2,
-   "n": 1,
-   "hits": 1,
+   "n": 2,
+   "hits": 2,
    "name": {
     "he": "טייסון פודס",
     "en": "Tyson Foods",
     "ar": "تايسون فودز",
     "ru": "Tyson Foods"
    },
-   "avg_edge": 7.92
+   "avg_edge": 4.54
   },
   "XLI": {
    "mentions": 10,
-   "n": 7,
+   "n": 8,
    "hits": 5,
    "name": {
     "he": "XLI - קרן סל תעשייה",
@@ -855,7 +855,7 @@
     "ar": "XLI - صندوق قطاع الصناعة",
     "ru": "XLI - ETF промышленного сектора"
    },
-   "avg_edge": 0.47
+   "avg_edge": 0.36
   },
   "ORCL": {
    "mentions": 2,
@@ -979,7 +979,7 @@
   },
   "FXI": {
    "mentions": 20,
-   "n": 18,
+   "n": 19,
    "hits": 10,
    "name": {
     "he": "FXI - קרן סל על מניות סין הגדולות",
@@ -987,7 +987,7 @@
     "ar": "FXI - صندوق الاستثمار المتداول للشركات الصينية الكبرى",
     "ru": "FXI - ETF крупных китайских компаний"
    },
-   "avg_edge": -0.01
+   "avg_edge": -0.09
   },
   "EWS": {
    "mentions": 1,
@@ -1003,7 +1003,7 @@
   },
   "ICLN": {
    "mentions": 6,
-   "n": 5,
+   "n": 6,
    "hits": 1,
    "name": {
     "he": "ICLN - קרן סל אנרגיה נקייה",
@@ -1011,7 +1011,7 @@
     "ar": "ICLN - صندوق استثمار الطاقة النظيفة",
     "ru": "ICLN - ETF чистой энергетики"
    },
-   "avg_edge": -1.99
+   "avg_edge": -2.06
   },
   "LVS": {
    "mentions": 1,
@@ -1111,15 +1111,15 @@
   },
   "CVX": {
    "mentions": 4,
-   "n": 2,
-   "hits": 1,
+   "n": 4,
+   "hits": 3,
    "name": {
     "he": "שברון - חברת אנרגיה ענקית",
     "en": "Chevron - Major Energy Firm",
     "ar": "Chevron - شركة طاقة كبرى",
     "ru": "Chevron - крупная энергетическая компания"
    },
-   "avg_edge": 0.95
+   "avg_edge": 1.41
   },
   "ASTS": {
    "mentions": 1,
@@ -1207,15 +1207,15 @@
   },
   "EIS": {
    "mentions": 5,
-   "n": 3,
-   "hits": 3,
+   "n": 4,
+   "hits": 4,
    "name": {
     "he": "קרן סל ישראל",
     "en": "iShares MSCI Israel ETF",
     "ar": "صندوق مؤشر إسرائيل",
     "ru": "ETF акций Израиля"
    },
-   "avg_edge": 0.61
+   "avg_edge": 0.72
   },
   "SLV": {
    "mentions": 3,
@@ -1327,43 +1327,43 @@
   },
   "EWT": {
    "mentions": 1,
-   "n": 0,
-   "hits": 0,
+   "n": 1,
+   "hits": 1,
    "name": {
     "he": "EWT - קרן סל של טאיוואן",
     "en": "EWT – Taiwan ETF",
     "ar": "EWT – صندوق المؤشرات المتداولة لتايوان",
     "ru": "EWT — фонд акций Тайваня"
    },
-   "avg_edge": null
+   "avg_edge": 2.05
   },
   "GEV": {
    "mentions": 1,
-   "n": 0,
-   "hits": 0,
+   "n": 1,
+   "hits": 1,
    "name": {
     "he": "GE Vernova - חברת ציוד אנרגיה ותשתיות",
     "en": "GE Vernova – power equipment maker",
     "ar": "GE Vernova – صانعة معدات الطاقة",
     "ru": "GE Vernova — производитель энергетического оборудования"
    },
-   "avg_edge": null
+   "avg_edge": 3.2
   },
   "EWI": {
    "mentions": 2,
-   "n": 0,
-   "hits": 0,
+   "n": 2,
+   "hits": 2,
    "name": {
     "en": "EWI ETF – Italy stock market",
     "he": "EWI ETF - שוק המניות של איטליה",
     "ar": "صندوق EWI - سوق الأسهم الإيطالية",
     "ru": "EWI ETF - рынок акций Италии"
    },
-   "avg_edge": null
+   "avg_edge": 0.4
   },
   "LLY": {
    "mentions": 1,
-   "n": 0,
+   "n": 1,
    "hits": 0,
    "name": {
     "he": "אלי לילי",
@@ -1371,11 +1371,11 @@
     "ar": "إيلي ليلي",
     "ru": "Eli Lilly"
    },
-   "avg_edge": null
+   "avg_edge": -0.68
   },
   "NVO": {
    "mentions": 1,
-   "n": 0,
+   "n": 1,
    "hits": 0,
    "name": {
     "he": "נובו נורדיסק",
@@ -1383,7 +1383,7 @@
     "ar": "نوفو نورديسك",
     "ru": "Novo Nordisk"
    },
-   "avg_edge": null
+   "avg_edge": -0.36
   },
   "PFE": {
    "mentions": 1,
