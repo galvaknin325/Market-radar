@@ -53,116 +53,6 @@
   "id": "33b66ed969b2"
  },
  {
-  "ts": 1793890516,
-  "time": "2026-11-05T14:55Z",
-  "title": "פרצה בסנקציות על שבבי בינה מלאכותית",
-  "summary": "חברת הבינה המלאכותית הסינית Moonshot AI מנסה לשכור מעל 8,000 שבבי Blackwell של אנבידיה באירופה, מה שמעלה חששות לגבי עקיפת הסנקציות האמריקאיות.",
-  "kid": "חברה סינית מנסה להשיג שבבים חזקים של אנבידיה דרך אירופה, למרות שיש חוקים שאוסרים למכור להם אותם. זה עלול להוביל להחמרת הכללים.",
-  "i18n": {
-   "title": {
-    "he": "פרצה בסנקציות על שבבי בינה מלאכותית",
-    "en": "Loophole in AI chip sanctions",
-    "ar": "ثغرة في عقوبات رقائق الذكاء الاصطناعي",
-    "ru": "Лазейка в санкциях на чипы ИИ"
-   },
-   "summary": {
-    "he": "חברת הבינה המלאכותית הסינית Moonshot AI מנסה לשכור מעל 8,000 שבבי Blackwell של אנבידיה באירופה, מה שמעלה חששות לגבי עקיפת הסנקציות האמריקאיות.",
-    "en": "Chinese AI firm Moonshot AI is reportedly seeking to rent over 8,000 Nvidia Blackwell chips in Europe, raising concerns about bypassing US export controls.",
-    "ar": "تسعى شركة الذكاء الاصطناعي الصينية Moonshot AI لاستئجار أكثر من 8000 رقاقة Blackwell من Nvidia في أوروبا، مما يثير مخاوف بشأن تجاوز العقوبات الأمريكية.",
-    "ru": "Китайская ИИ-компания Moonshot AI пытается арендовать более 8000 чипов Nvidia Blackwell в Европе, что вызывает опасения по поводу обхода экспортного контроля США."
-   },
-   "kid": {
-    "he": "חברה סינית מנסה להשיג שבבים חזקים של אנבידיה דרך אירופה, למרות שיש חוקים שאוסרים למכור להם אותם. זה עלול להוביל להחמרת הכללים.",
-    "en": "A Chinese company is trying to get powerful Nvidia chips through Europe, even though there are rules against it. This might lead to stricter rules.",
-    "ar": "تحاول شركة صينية الحصول على رقائق Nvidia القوية عبر أوروبا، على الرغم من وجود قواعد تمنع ذلك. قد يؤدي هذا إلى قواعد أكثر صرامة.",
-    "ru": "Китайская компания пытается получить мощные чипы Nvidia через Европу, несмотря на запреты. Это может привести к ужесточению правил."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1793890516,
-    "reason": "חשש מהחמרת רגולציית הייצוא על שבבים.",
-    "reason_i18n": {
-     "he": "חשש מהחמרת רגולציית הייצוא על שבבים.",
-     "en": "Risk of tighter export regulations on chips.",
-     "ar": "خطر تشديد لوائح التصدير على الرقائق.",
-     "ru": "Риск ужесточения экспортных правил на чипы."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבים",
-     "en": "Nvidia - chip maker",
-     "ar": "إنفيديا - صانع الرقائق",
-     "ru": "Nvidia - производитель чипов"
-    },
-    "price_at_alert": 189.77,
-    "entry_price": 186.29,
-    "entry_time": "2026-11-05T15:30+00:00",
-    "exit_price": 186.68,
-    "exit_date": "2026-11-06",
-    "change_pct": 0.21,
-    "bench": "SPY",
-    "bench_change_pct": -1.6,
-    "excess_pct": 1.81,
-    "edge_pct": -1.81,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1793940911,
-    "reason": "רגולציית סחר מחמירה לוחצת על מניות השבבים.",
-    "reason_i18n": {
-     "he": "רגולציית סחר מחמירה לוחצת על מניות השבבים.",
-     "en": "Stricter trade regulation pressures chip stocks.",
-     "ar": "لوائح التجارة الأكثر صارمة تضغط على أسهم الرقائق.",
-     "ru": "Более строгие торговые правила давят на акции чипов."
-    },
-    "name_i18n": {
-     "he": "קרן סל סמיקונדקטורס",
-     "en": "Semiconductors ETF",
-     "ar": "صندوق أشباه الموصلات",
-     "ru": "ETF полупроводников"
-    },
-    "price_at_alert": 447.73,
-    "entry_price": 472.9,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 487.37,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.06,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 0.64,
-    "edge_pct": -0.64,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d846c57a7ae2",
-  "updates": [
-   {
-    "ts": 1793940911,
-    "time": "2026-11-06T04:55Z",
-    "severity": 5,
-    "summary": "ממשלת ארה\"ב פועלת להדק את ההגבלות סביב השכרת שבבי בינה מלאכותית לשווקים בסין.",
-    "i18n": {
-     "he": "ממשלת ארה\"ב פועלת להדק את ההגבלות סביב השכרת שבבי בינה מלאכותית לשווקים בסין.",
-     "en": "The U.S. government is moving to tighten restrictions surrounding the leasing of AI chips to Chinese markets.",
-     "ar": "تحرك الحكومة الأمريكية لتشديد القيود المحيطة بتأجير رقائق الذكاء الاصطناعي للأسواق الصينية.",
-     "ru": "Правительство США ужесточает ограничения вокруг лизинга чипов искусственного интеллекта на китайские рынки."
-    }
-   }
-  ],
-  "last_update": 1793940911,
-  "evaluated": true
- },
- {
   "ts": 1793901601,
   "time": "2026-11-05T18:00Z",
   "title": "הפסקת אש באולשקי בתיווך מלניה טראמפ",
@@ -966,122 +856,6 @@
  {
   "ts": 1793917291,
   "time": "2026-11-05T22:21Z",
-  "title": "השקעות ענק בייצור טילים בארה\"ב",
-  "summary": "חברות ביטחוניות משקיעות מאות מיליוני דולרים בייצור טילים בקמדן, ארקנסו. לוקהיד מרטין דיווחה על ניסוי מוצלח של רכב חדירה לטיל בליסטי בין-יבשתי.",
-  "kid": "",
-  "i18n": {
-   "title": {
-    "he": "השקעות ענק בייצור טילים בארה\"ב",
-    "en": "Major investments in US missile production",
-    "ar": "استثمارات ضخمة في إنتاج الصواريخ في الولايات المتحدة",
-    "ru": "Крупные инвестиции в производство ракет в США"
-   },
-   "summary": {
-    "he": "חברות ביטחוניות משקיעות מאות מיליוני דולרים בייצור טילים בקמדן, ארקנסו. לוקהיד מרטין דיווחה על ניסוי מוצלח של רכב חדירה לטיל בליסטי בין-יבשתי.",
-    "en": "Defense companies are pouring hundreds of millions of dollars into missile production in Camden, Arkansas. Lockheed Martin reported a successful test of its Mk21A ICBM reentry vehicle.",
-    "ar": "تضخ شركات الدفاع مئات الملايين من الدولارات في إنتاج الصواريخ في كامدن، أركنساس. أبلغت شركة لوكهيد مارتن عن اختبار ناجح لمركبة إعادة الدخول الخاصة بصاروخها الباليستي العابر للقارات.",
-    "ru": "Оборонные компании вкладывают сотни миллионов долларов в производство ракет в Камдене, штат Арканзас. Lockheed Martin сообщила об успешном испытании своего аппарата для входа в атмосферу для межконтинентальных баллистических ракет."
-   },
-   "kid": {
-    "he": ""
-   }
-  },
-  "category": "contracts",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlFvV2lZdG9DVDJ2SEdvRk5WcnZadE00RUpKNGROV2dvaTVQTkcxeVNRTVhVRC1JQmR0YU9Pdi1pQTFTc2NtS1E3cmtDd2lMLWVQMmtfZmZOTkFHU1JOdUsyOGYxSF9LVzlHaGhLcEJ4TUZUaUNJbWtBWWI2WjNOV1RGRUM2elRYVmZZX3NYVWc5cXFaZlJKUEd1UlFxZzhEOGFid3pBSVk4bDUxS1BnUDVOZw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTEtnUkJldGFrTTlxM1BFakZmZjFoaTE5QjhzTkNHZEo3a0d4M1lGYkM5c3FDLXNmQ0VmUXV6MVZFS205dzU2MlRUTGdVTUZock9zajFOSlhoQk1Xdm5hc3VTakp3NUtwUkk0NFNRSU9iTzU0R0hYX3ZqdnAwRUxHMmlHX3FFQzdxRmNEbnhaSmhRWVo5NkZyX0Q1eTliXzVQZW5YNXJTNW9zQlZ1VDlJMThNX0ZRbUk?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1793917291,
-    "reason": "הצלחה בניסויים והשקעות בייצור",
-    "reason_i18n": {
-     "he": "הצלחה בניסויים והשקעות בייצור",
-     "en": "Successful testing and production investment",
-     "ar": "نجاح الاختبارات والاستثمار في الإنتاج",
-     "ru": "Успешные испытания и инвестиции в производство"
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין",
-     "en": "Lockheed Martin",
-     "ar": "لوكهيد مارتن",
-     "ru": "Lockheed Martin"
-    },
-    "price_at_alert": 576.16,
-    "entry_price": 569.0,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 588.28,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.39,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 0.97,
-    "edge_pct": 0.97,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793917291,
-    "reason": "הגדלת תקציבי ייצור ביטחוני",
-    "reason_i18n": {
-     "he": "הגדלת תקציבי ייצור ביטחוני",
-     "en": "Increased defense production budgets",
-     "ar": "زيادة ميزانيات الإنتاج الدفاعي",
-     "ru": "Увеличение бюджетов на оборонное производство"
-    },
-    "name_i18n": {
-     "he": "מדד תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق قطاع الطيران والدفاع",
-     "ru": "ETF на аэрокосмический и оборонный сектор"
-    },
-    "price_at_alert": 68.11,
-    "entry_price": 67.84,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 71.67,
-    "exit_date": "2026-11-09",
-    "change_pct": 5.65,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 3.22,
-    "edge_pct": 3.22,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "7d86cd66e9c0",
-  "updates": [
-   {
-    "ts": 1793940911,
-    "time": "2026-11-06T04:55Z",
-    "severity": 4,
-    "summary": "ענקית הביטחון לוקהיד מרטין משקיעה 300 מיליון דולר בהרחבת מתקן ייצור הטילים שלה בטקסס.",
-    "i18n": {
-     "he": "ענקית הביטחון לוקהיד מרטין משקיעה 300 מיליון דולר בהרחבת מתקן ייצור הטילים שלה בטקסס.",
-     "en": "Defense giant Lockheed Martin is investing $300 million to expand its missile manufacturing facility in Texas.",
-     "ar": "تستثمر عملاق الدفاع لوكهيد مارتن 300 مليون دولار لتوسيع منشأة تصنيع الصواريخ في تكساس.",
-     "ru": "Оборонный гигант Lockheed Martin инвестирует $300 млн в расширение своего завода по производству ракет в Техасе."
-    }
-   }
-  ],
-  "last_update": 1793940911,
-  "evaluated": true
- },
- {
-  "ts": 1793917291,
-  "time": "2026-11-05T22:21Z",
   "title": "מתקפות סייבר על בנקים בצרפת",
   "summary": "בנק צרפתי דיווח על גניבת כ-100 מיליון אירו כתוצאה ממתקפת סייבר. במקביל, דווח על מתקפה נפרדת על בנק דם צרפתי.",
   "kid": "",
@@ -1719,146 +1493,6 @@
  {
   "ts": 1793937297,
   "time": "2026-11-06T03:54Z",
-  "title": "הצעה גרעינית חדשה מאיראן לארה\"ב",
-  "summary": "איראן שלחה הצעה גרעינית חדשה לארה\"ב דרך קטר והציבה שבעה תנאים לשיחות שלום.",
-  "kid": "איראן שלחה מסר חדש לארה\"ב דרך קטר עם תנאים לשיחות שלום. זה חשוב כי זה עשוי לשנות את המתיחות במזרח התיכון ולהשפיע על מחירי הנפט.",
-  "i18n": {
-   "title": {
-    "he": "הצעה גרעינית חדשה מאיראן לארה\"ב",
-    "en": "New Nuclear Proposal from Iran to US",
-    "ar": "مقترح نووي جديد من إيران إلى الولايات المتحدة",
-    "ru": "Новое ядерное предложение от Ирана к США"
-   },
-   "summary": {
-    "he": "איראן שלחה הצעה גרעינית חדשה לארה\"ב דרך קטר והציבה שבעה תנאים לשיחות שלום.",
-    "en": "Iran sent a fresh nuclear proposal to the US via Qatar and set seven conditions for peace talks.",
-    "ar": "أرسلت إيران مقترحاً نووياً جديداً إلى الولايات المتحدة عبر قطر ووضعت سبعة شروط لمحادثات السلام.",
-    "ru": "Иран направил США новое ядерное предложение через Катар и выдвинул семь условий для мирных переговоров."
-   },
-   "kid": {
-    "he": "איראן שלחה מסר חדש לארה\"ב דרך קטר עם תנאים לשיחות שלום. זה חשוב כי זה עשוי לשנות את המתיחות במזרח התיכון ולהשפיע על מחירי הנפט.",
-    "en": "Iran sent a new message to the US through Qatar with conditions for peace talks. This matters because it could change Middle East tensions and affect oil prices.",
-    "ar": "أرسلت إيران رسالة جديدة إلى الولايات المتحدة عبر قطر تشمل شروطاً لمحادثات السلام. هذا مهم لأنه قد يغير التوترات في الشرق الأوسط ويؤثر على أسعار النفط.",
-    "ru": "Иран направил США новое сообщение через Катар с условиями для мирных переговоров. Это может повлиять на напряженность на Ближнем Востоке и цены на нефть."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSExLaV9hOWphTkVtdmFHQnJIYTJJWTlnWnlPRU9wQ1Z5QnA0RDd1a1NDdkJYaUI4dHBoaDZZVUV1NUw1TXlYNm11THFEQlFWYzNzZURWNlFteEU0ZmVhUWREOVByMEJ0MzBoWWJiMUFRT3hhdGpNckJxN3FoajJ1SjhWU2xPZXcxZG5xWDl3YWFrTDFBM3pMNzhRVWFTd3c0TzhPZ1hFRmtkQm91WU15MWcyZlhtaEtxZWd0QTZhcGQ5U2NoeXNKc3RhbDYyc2VJZ0pFY1E5TTMzOHNfX2dwMEdPcHpJWjgwREV2RzZyZkpIV1NVRVZpVNIB_wFBVV95cUxOb2tDRUs3TXVycHhZVnpqNkNyRVEwSnVXMm5JY0M0MGd4N1dUTjZmR3Bud0lJMmszZHo3Ml9oV3JHZGhhUmN2b3BxMEdkQzdaQ2JpdndNZEhqQnRqeWRJbVRHaGNnQ3lRYWFHMjJhd0FZWFQ4NjVZZjBTalBYTk04WFBrTU9FNjdSRjJnenhWNkdubkRQMGwtdmFTRGZiUVcxMVhRbkQwQVRzbnk5OGNsMmpuN3lPZm5WbmQzbER3c0NTQjFUSzJ5OWcxcFl0U1g5ZjNVSE1TejlGTTVOMHVNc2pLbkdZb1ZxSDkwX0dveUR3TzQxeVdKaFRLeUNIUEE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1793937297,
-    "reason": "הפחתת המתיחות עשויה להוריד את מחירי הנפט",
-    "reason_i18n": {
-     "he": "הפחתת המתיחות עשויה להוריד את מחירי הנפט",
-     "en": "Lower tension could reduce oil prices",
-     "ar": "انخفاض التوتر قد يخفض أسعار النفط",
-     "ru": "Снижение напряженности может снизить цены на нефть"
-    },
-    "name_i18n": {
-     "he": "קרן סל על מחירי הנפט",
-     "en": "Crude oil fund",
-     "ar": "صندوق النفط الخام",
-     "ru": "Фонд сырой нефти"
-    },
-    "price_at_alert": 148.21,
-    "entry_price": 148.35,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 142.6549,
-    "exit_date": "2026-11-09",
-    "change_pct": -3.84,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": -6.26,
-    "edge_pct": 6.26,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "18ed54c9a2c2",
-  "evaluated": true
- },
- {
-  "ts": 1793937297,
-  "time": "2026-11-06T03:54Z",
-  "title": "דחיית פרויקט מרכז הנתונים של מייקרוסופט",
-  "summary": "חברת IREN דיווחה שמייקרוסופט ביקשה שינויים שעיכבו פרויקט מרכז נתונים לבינה מלאכותית בטקסס בהיקף של 9.7 מיליארד דולר.",
-  "kid": "מייקרוסופט ביקשה לשנות תוכניות לבניית מרכז ענק למחשבים חכמים בטקסס, ולכן הפרויקט התעכב. זה יכול להשפיע על מניות הטכנולוגיה והחברות שבונות את המרכזים האלה.",
-  "i18n": {
-   "title": {
-    "he": "דחיית פרויקט מרכז הנתונים של מייקרוסופט",
-    "en": "Microsoft Texas AI Data Center Delayed",
-    "ar": "تأجيل مشروع مركز بيانات الذكاء الاصطناعي لشركة مايكروسوفت في تكساس",
-    "ru": "Задержка проекта дата-центра Microsoft в Техасе"
-   },
-   "summary": {
-    "he": "חברת IREN דיווחה שמייקרוסופט ביקשה שינויים שעיכבו פרויקט מרכז נתונים לבינה מלאכותית בטקסס בהיקף של 9.7 מיליארד דולר.",
-    "en": "IREN reported that Microsoft requested changes, delaying a $9.7 billion AI data center project in Texas.",
-    "ar": "أفادت شركة IREN أن مايكروسوفت طلبت تعديلات مما أدى إلى تأخير مشروع مركز بيانات للذكاء الاصطناعي بقيمة 9.7 مليار دولار في تكساس.",
-    "ru": "Компания IREN сообщила, что Microsoft запросила изменения, задержав проект дата-центра ИИ в Техасе стоимостью 9,7 млрд долларов."
-   },
-   "kid": {
-    "he": "מייקרוסופט ביקשה לשנות תוכניות לבניית מרכז ענק למחשבים חכמים בטקסס, ולכן הפרויקט התעכב. זה יכול להשפיע על מניות הטכנולוגיה והחברות שבונות את המרכזים האלה.",
-    "en": "Microsoft asked to change plans for a huge computer center in Texas, which delayed the project. This can affect technology stocks involved in building these centers.",
-    "ar": "طلبت مايكروسوفت تغيير خطط بناء مركز ضخم للحواسيب الذكية في تكساس، مما أدى إلى تأخير المشروع. قد يؤثر ذلك على أسهم التكنولوجيا والشركات التي تبني هذه المراكز.",
-    "ru": "Microsoft попросила изменить планы по строительству огромного компьютерного центра в Техасе, из-за чего проект задержался. Это может повлиять на технологические акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHdpYVh4WFZaU004Y3dPRF9HYmVrT3U4a2pDeGZnMkRLck5IVzl3MXR6M0xxYU40N1JfYl9STjFtb0Y3VFJqWnowWU5mQUV5cm1LOHZfdTVSZENDMU9HZnJSX0R0bDFjNm5iVzN5eWtHTDlGZmxuU1pOY3RSMDJ5X1ZiOUdhREF6NUdBOGY2SHNoRTliNXNjaldsTzVPRGxrUXVYOWU5UlZMNnhON0pjRXpIZ3I?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MSFT",
-    "direction": "down",
-    "t0": 1793937297,
-    "reason": "עיכוב בפרויקט מרכז הנתונים",
-    "reason_i18n": {
-     "he": "עיכוב בפרויקט מרכז הנתונים",
-     "en": "Delay in data center project",
-     "ar": "تأخير في مشروع مركز البيانات",
-     "ru": "Задержка проекта дата-центра"
-    },
-    "name_i18n": {
-     "he": "מייקרוסופט - ענקית טכנולוגיה",
-     "en": "Microsoft - tech giant",
-     "ar": "مايكروسوفت - عملاق التكنولوجيا",
-     "ru": "Microsoft - технологический гигант"
-    },
-    "price_at_alert": 535.93,
-    "entry_price": 525.0,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 545.17,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.84,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 1.42,
-    "edge_pct": -1.42,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f94fa2c4e119",
-  "evaluated": true
- },
- {
-  "ts": 1793937297,
-  "time": "2026-11-06T03:54Z",
   "title": "הודו ערכה ניסוי מוצלח בטיל בליסטי",
   "summary": "סוכנות המחקר והפיתוח הביטחוני של הודו (DRDO) ביצעה בהצלחה ניסוי בטיל הקוזי-בליסטי המקומי 'פרלאי' לקראת קליטתו הצבאית.",
   "kid": "הודו ערכה ניסוי מוצלח בטיל חדש לקראת שימוש צבאי. זה עשוי לעניין חברות ביטחוניות גדולות שמייצרות נשק.",
@@ -2142,101 +1776,6 @@
    }
   ],
   "last_update": 1793944580,
-  "evaluated": true
- },
- {
-  "ts": 1793940911,
-  "time": "2026-11-06T04:55Z",
-  "title": "טראמפ מאיים במכסים של עד 300% על חברות שאינן מייצרות בארה\"ב",
-  "summary": "למרות טלטלות בשווקים, הנשיא לשעבר דונלד טראמפ מצהיר כי יטיל מכסים של עד 300% על חברות שלא יקימו מפעלים בארה\"ב.",
-  "kid": "פוליטיקאים מאיימים במס קנייה עצום של 300% על מוצרים מחוץ לארה\"ב אם חברות לא יפתחו מפעלים בתוך המדינה. זה יוצר חשש לחברות המייצרות בחו\"ל.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ מאיים במכסים של עד 300% על חברות שאינן מייצרות בארה\"ב",
-    "en": "Trump Threatens Up to 300% Tariffs If Factories Aren't Built in U.S.",
-    "ar": "ترامب يهدد بفرض رسوم تصل إلى 300% إذا لم تُبنَ المصانع في أمريكا",
-    "ru": "Трамп грозит пошлинами до 300% за отказ строить заводы в США"
-   },
-   "summary": {
-    "he": "למרות טלטלות בשווקים, הנשיא לשעבר דונלד טראמפ מצהיר כי יטיל מכסים של עד 300% על חברות שלא יקימו מפעלים בארה\"ב.",
-    "en": "Despite market turbulence, Donald Trump insists on strict tariffs, threatening up to 300% duties if companies do not build factories in the United States.",
-    "ar": "رغم اضطرابات السوق، يصر دونالد ترامب على فرض رسوم جمركية تصل إلى 300% إذا لم تقم الشركات ببناء مصانع في الولايات المتحدة.",
-    "ru": "Несмотря на турбулентность рынка, Дональд Трамп настаивает на жестких пошлинах до 300%, если компании не построят заводы в США."
-   },
-   "kid": {
-    "he": "פוליטיקאים מאיימים במס קנייה עצום של 300% על מוצרים מחוץ לארה\"ב אם חברות לא יפתחו מפעלים בתוך המדינה. זה יוצר חשש לחברות המייצרות בחו\"ל.",
-    "en": "Politicians are threatening a huge 300% tax on foreign goods if companies don't build local factories. This creates concerns for companies manufacturing abroad.",
-    "ar": "يهدد السياسيون بفرض ضريبة ضخمة بنسبة 300% على السلع الأجنبية إذا لم تبنِ الشركات مصانع محلية.",
-    "ru": "Политики угрожают огромным налогом в 300% на иностранные товары, если компании не построят местные заводы."
-   }
-  },
-  "category": "trade",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1793940911,
-    "reason": "איומי מכסים קיצוניים מעלים חוסר ודאות עסקית רחבה.",
-    "reason_i18n": {
-     "he": "איומי מכסים קיצוניים מעלים חוסר ודאות עסקית רחבה.",
-     "en": "Extreme tariff threats raise broad business uncertainty.",
-     "ar": "تهديدات الرسوم الجمركية المتطرفة تثير حالة عدم يقين واسعة.",
-     "ru": "Экстремальные угрозы пошлин усиливают общую деловую неопределенность."
-    },
-    "name_i18n": {
-     "he": "מדד אס אנד פי 500",
-     "en": "S&P 500 Index ETF",
-     "ar": "مؤشر إس آند بي 500",
-     "ru": "ETF индекса S&P 500"
-    },
-    "price_at_alert": 733.0,
-    "entry_price": 734.82,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 752.61,
-    "exit_date": "2026-11-09",
-    "change_pct": 2.42,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 2.42,
-    "edge_pct": -2.42,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "EEM",
-    "direction": "down",
-    "t0": 1793940911,
-    "reason": "מכסים גבוהים פוגעים ביצואנים גלובליים ובשווקים מתעוררים.",
-    "reason_i18n": {
-     "he": "מכסים גבוהים פוגעים ביצואנים גלובליים ובשווקים מתעוררים.",
-     "en": "High tariffs hurt global exporters and emerging markets.",
-     "ar": "الرسوم الجمركية العالية تضر المصدرين العالميين والأسواق الناشئة.",
-     "ru": "Высокие пошлины бьют по глобальным экспортерам и развивающимся рынкам."
-    },
-    "name_i18n": {
-     "he": "קרן סל שווקים מתעוררים",
-     "en": "Emerging Markets ETF",
-     "ar": "صندوق الأسواق الناشئة",
-     "ru": "ETF развивающихся рынков"
-    },
-    "price_at_alert": 58.05,
-    "entry_price": 59.45,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 61.03,
-    "exit_date": "2026-11-09",
-    "change_pct": 2.66,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 0.24,
-    "edge_pct": -0.24,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "6d11c55ca98c",
   "evaluated": true
  },
  {
@@ -50535,9 +50074,21 @@
      "ar": "تسارع التضخم الاستهلاكي في الهند إلى 6.09% في أكتوبر، متجاوزاً سقف البنك المركزي ومعززاً توقعات رفع الفائدة في ديسمبر.",
      "ru": "Розничная инфляция в Индии в октябре ускорилась до 6,09%, превысив целевой потолок ЦБ и усилив ожидания повышения ставки в декабре."
     }
+   },
+   {
+    "ts": 1794545784,
+    "time": "2026-11-13T04:56Z",
+    "severity": 6,
+    "summary": "שיעור האינפלציה בהודו עלה ל-6.09% באוקטובר, מעבר ליעד הבנק המרכזי, מה שמגביר את הציפיות להעלאת ריבית בדצמבר.",
+    "i18n": {
+     "he": "שיעור האינפלציה בהודו עלה ל-6.09% באוקטובר, מעבר ליעד הבנק המרכזי, מה שמגביר את הציפיות להעלאת ריבית בדצמבר.",
+     "en": "India's inflation rate rose to 6.09% in October, exceeding the central bank's target, increasing expectations for an interest rate hike in December.",
+     "ar": "ارتفع معدل التضخم في الهند إلى 6.09% في أكتوبر، متجاوزاً هدف البنك المركزي، مما يزيد من التوقعات برفع أسعار الفائدة في ديسمبر.",
+     "ru": "Уровень инфляции в Индии вырос до 6.09% в октябре, превысив целевой показатель центрального банка, что усиливает ожидания повышения процентных ставок в декабре."
+    }
    }
   ],
-  "last_update": 1794531656
+  "last_update": 1794545784
  },
  {
   "ts": 1794481131,
@@ -50972,9 +50523,21 @@
      "ar": "هدد الرئيس ترامب بمضاعفة الرسوم الجمركية على المكسيك إذا استمرت قافلة المهاجرين في التقدم نحو الحدود الأمريكية.",
      "ru": "Президент Трамп пригрозил удвоить пошлины на мексиканские товары, если караван мигрантов продолжит движение к границе США."
     }
+   },
+   {
+    "ts": 1794545784,
+    "time": "2026-11-13T04:56Z",
+    "severity": 7,
+    "summary": "הנשיא טראמפ איים להכפיל את המכסים על יבוא ממקסיקו כחלק מלחץ בנושאי הגירה, מה שמעורר חששות למלחמת סחר.",
+    "i18n": {
+     "he": "הנשיא טראמפ איים להכפיל את המכסים על יבוא ממקסיקו כחלק מלחץ בנושאי הגירה, מה שמעורר חששות למלחמת סחר.",
+     "en": "President Trump has threatened to double tariffs on imports from Mexico as part of pressure regarding migration, raising concerns of a trade war.",
+     "ar": "هدد الرئيس ترامب بمضاعفة الرسوم الجمركية على الواردات من المكسيك كجزء من الضغط بشأن الهجرة، مما يثير مخاوف من حرب تجارية.",
+     "ru": "Президент Трамп пригрозил удвоить пошлины на импорт из Мексики в рамках давления по вопросам миграции, что вызывает опасения торговой войны."
+    }
    }
   ],
-  "last_update": 1794538225
+  "last_update": 1794545784
  },
  {
   "ts": 1794488598,
@@ -51620,7 +51183,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "medium",
   "sources": [
    {
@@ -51688,7 +51251,22 @@
     "price_at_alert": 170.55
    }
   ],
-  "id": "4dd2ee9e4d91"
+  "id": "4dd2ee9e4d91",
+  "updates": [
+   {
+    "ts": 1794545784,
+    "time": "2026-11-13T04:56Z",
+    "severity": 8,
+    "summary": "פיצוצים במכליות נפט במצר הורמוז ותקיפות על תשתיות סעודיות הובילו לעלייה חדה במחירי הנפט הגולמי עקב חששות לשיבושי אספקה גלובליים.",
+    "i18n": {
+     "he": "פיצוצים במכליות נפט במצר הורמוז ותקיפות על תשתיות סעודיות הובילו לעלייה חדה במחירי הנפט הגולמי עקב חששות לשיבושי אספקה גלובליים.",
+     "en": "Explosions involving oil tankers in the Strait of Hormuz and attacks on Saudi infrastructure have triggered a sharp rise in crude oil prices due to global supply disruption fears.",
+     "ar": "أدت الانفجارات التي شملت ناقلات نفط في مضيق هرمز وهجمات على البنية التحتية السعودية إلى ارتفاع حاد في أسعار النفط الخام بسبب مخاوف من تعطل الإمدادات العالمية.",
+     "ru": "Взрывы танкеров в Ормузском проливе и атаки на инфраструктуру Саудовской Аравии привели к резкому росту цен на сырую нефть из-за опасений срыва мировых поставок."
+    }
+   }
+  ],
+  "last_update": 1794545784
  },
  {
   "ts": 1794511737,
@@ -51810,7 +51388,7 @@
    }
   },
   "category": "contracts",
-  "severity": 8,
+  "severity": 9,
   "confidence": "high",
   "sources": [
    {
@@ -51906,9 +51484,21 @@
      "ar": "استقالة رئيس إنفيديا التنفيذي جنسن هوانغ، مما أدخل عملاق رقائق الذكاء الاصطناعي في اضطراب وسط سعي المشرعين لاستجوابه.",
      "ru": "Генеральный директор Nvidia Дженсен Хуанг ушел в отставку, погрузив гиганта в хаос, в то время как американские законодатели хотят допросить его."
     }
+   },
+   {
+    "ts": 1794545784,
+    "time": "2026-11-13T04:56Z",
+    "severity": 9,
+    "summary": "ג'נסן הואנג התפטר מתפקידו כמנכ\"ל אנבידיה על רקע חשיפת פרשיות אישיות וזימון לעדות בקונגרס בנוגע לקשרים עם גורמים זרים.",
+    "i18n": {
+     "he": "ג'נסן הואנג התפטר מתפקידו כמנכ\"ל אנבידיה על רקע חשיפת פרשיות אישיות וזימון לעדות בקונגרס בנוגע לקשרים עם גורמים זרים.",
+     "en": "Jensen Huang has resigned as CEO of Nvidia following revelations of personal affairs and a summons to testify before Congress regarding alleged ties to foreign actors.",
+     "ar": "استقال جنسن هوانغ من منصبه كرئيس تنفيذي لشركة إنفيديا بعد الكشف عن علاقات شخصية واستدعائه للشهادة أمام الكونغرس بشأن صلات مزعومة بجهات أجنبية.",
+     "ru": "Дженсен Хуанг ушел с поста генерального директора Nvidia после раскрытия личных скандалов и вызова на слушания в Конгресс по поводу предполагаемых связей с иностранными агентами."
+    }
    }
   ],
-  "last_update": 1794538225
+  "last_update": 1794545784
  },
  {
   "ts": 1794515011,
