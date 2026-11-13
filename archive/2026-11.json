@@ -13024,10 +13024,12 @@
      "ar": "صندوق استثمار الأسهم الإسبانية",
      "ru": "ETF на акции Испании"
     },
-    "price_at_alert": null
+    "price_at_alert": null,
+    "no_data": true
    }
   ],
-  "id": "33b66ed969b2"
+  "id": "33b66ed969b2",
+  "evaluated": true
  },
  {
   "ts": 1793743606,
@@ -77644,10 +77646,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaGwwYlBlb2xXNFBPY2YyNkVSUDR0eGQycjhIdXNwVHljYjYtN2d3amJRUlJtQ3g2OTNvZHRZZzdPV3JHVXhlS25YTUxkeURtTERfNXkxc1NLQzY5Ymg3SF9SeDJ5ZWpPbzJvSWg4YTJ0QXFhME9sdUxwZjVRQ21pTjYwcUpKOW9CUUVvSkhRY3VoRGMtUDIwVzZ2Njl0N0p4SmxBNzJiTEs0QQ?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaXE5UzdzbUxldms5TzE3NXpRSjNKckd3by1xTjMxYjFNRWZUSUpRcWZ1WjdGMUpRdEdGREZkYW5mNVcyejVLTzktNGh5bVltMkt2ek9DZkZoVkZkdXhoWlVLSHFETFNZR2xGaXJkUzJlZmlOYnFodVQzYVV1S0xGZWhacC1qM0pMR0g0ZzJSS3lnaEJOdDNuYW85aWd5V0xaaXVGYTJOVUhCb2dlT01VQUdkSGhyd2lZal9tMUhRdnQ1b03SAcgBQVVfeXFMUDJ6SmxFelg5WjlCUmNnYnpJTlhSRkUtaFEyUXZoYnFCMEw0Ty0wWmhMc2N0a2NJdVhYdHd5em5wZWJMaGRpT0hBSGpDbmRORkdlSjNtWU9OWUNZN0hZU2hQR3FNdF80YWY0VkdIanJkbjBqYXNlUVlvcGV0TVlZd1NVWlkyNTNsUUp5SWZIRmVYdktWbnBydmJUSWt3cW9FdzlKUnIxVHBMalJWUzEyMkdzX0piYnh4Skl6amYyS3ZXczFCODBDTEM?oc=5"
    },
@@ -77666,6 +77664,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPc25lQlVaNjR6a0RHZ1JCTjJHVEdXSjhoX3hUekF1Tzl0bzd5SnI1eTN6Z0dOQzRzZXZ2OVhmVDNrcDRXZGdiSm1oOWhGWl9VQU1nX2JMa1dBWE1ZZ1ktR0tubVc3cm9CSGptT2tMX3MwRjJZSjFGU3ZUdFRfQ095cjRZcUNOekFFZnBrLWN3a3ZtZnFrem0xNHRTWXlTYmliS1pJc3RlLWxOMVRmams5cXhlYkxDb0dXU2VxUEpWcGI1aXJuTFE5S3FMT3ZtbmR3Wm5rX3RLNndYTV9JaVhKc3RkQkRsWTl2SnFFQzk1LXIwZ2tGaDRpYlg4WjdibUdVTEEwaTQ4dkt0MmtEdHZ3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd19nOEdXdUNINFE5LTNKQW1teHMxZk9fTU51OUM5UTFZSlVvaE5RMU0tOXJ3Y2xpV21nRk9WVnRwUDZOd1NJU191STFxT0s4cDN6MEFid0FsSmw2UHhhQTl5X3ROMU9KcGpKQnllTk5yeTVCWFRVc2tNWExSbzRmQ3VxaWx5ZkN6QlBCMk1NaU9mVTZzaHZhMjBVamctNjFI0gFWQVVfeXFMT3NoNnZ1TjF1WmY4aEVRTlg4aDV4OEwxNXZNWWxBTWY3UlY4YVlaTWRjT1VzT3ZGNGdmS2txT29SelNkejd1UEZFRU40aUVrLTRDOFIyQkE?oc=5"
    }
   ],
   "impacts": [
@@ -77812,9 +77814,21 @@
      "ar": "يهدد الرئيس ترامب بمضاعفة الرسوم الجمركية على الواردات من المكسيك فوراً إذا لم توقف البلاد قوافل المهاجرين المتجهة إلى الولايات المتحدة.",
      "ru": "Президент Трамп угрожает немедленно удвоить пошлины на импорт из Мексики, если страна не остановит караваны мигрантов, направляющиеся в США."
     }
+   },
+   {
+    "ts": 1794604895,
+    "time": "2026-11-13T21:21Z",
+    "severity": 6,
+    "summary": "הנשיא טראמפ איימת להכפיל את המכסים על מקסיקו בעקבות טענות הנוגעות למדיניות ההגירה.",
+    "i18n": {
+     "he": "הנשיא טראמפ איימת להכפיל את המכסים על מקסיקו בעקבות טענות הנוגעות למדיניות ההגירה.",
+     "en": "President Trump threatened to double tariffs on Mexico over claims related to migrant policies.",
+     "ar": "هدد الرئيس ترامب بمضاعفة الرسوم الجمركية على المكسيك بسبب مزاعم تتعلق بسياسات الهجرة.",
+     "ru": "Президент Трамп пригрозил удвоить пошлины на мексиканские товары из-за вопросов миграционной политики."
+    }
    }
   ],
-  "last_update": 1794562190
+  "last_update": 1794604895
  },
  {
   "ts": 1794488598,
@@ -82612,27 +82626,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLThVakxiSnk2bXRTeEtmMG1ud2ZPUEd0c09xNExpUVZUOTVsREJGVW1rNlRhcUNwbXR5d29ZaHRuX3lqdU9sMVVaUENSNmJtbmQyeXg3eHk0TU5hLTFyaXI3MFlfSEVqdTVLdnhyRk5RTzN2eWg3LWZaM2E1T2c2Rm1oODhKM0JteHlwZXBGZGtjN0dCQVFKMjduSVNrM3Y1dEFOZklmdVBBMlhNOFhsVXNB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT1ZyUks0YXZnclR2YklfV0Z0OUZnVV9BX3BweS1yMkQxSF9hMzRROUVkUl9FYV9GUmFVd2FRVXl6aVBjVEo2bmY1S1cxam9NeVVoVWRCM3R2ZEZBY0NEVjlMZEtPLXVRN29zOVhJTHdyeGVYdHRmMkNPVGhELXpQTFJsREJsbzBuay1qa2s4a1lLZUJnaVUwMGxKUDhjRU5leVhwclk4Nm1rcUFJb2Y0U29B?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXRtdlpLRklYSUFubGRqQ0MwQVhlN2hMRzh3QjNUMFo0WjNHMDR4ZE9hZldjWXJtVEJDaHRhZVVCck84ZkU5aUZjQTZmWjRYVTNWeVdTREhtbTFLMlBEZFlOU0JuVGpheVRSeDZPMWZqenh3NWtkQUszRktNN2U1OHZaMA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMWcyajQ4Q3VySXktQ3gyME8tbkljSEd3RUF2OV9MWGlnZUR4X1hmQlZESE5pU0tTNV9DbktpWVVEaEZpZDl2ekJpZzRiTUxIRk9ReDBlRkZRRXhQcWoyQURxZkd4Rk1qWUxCRFMzYkxCTEpBdS16bm5GTDJhOWVkaThCUE11X293elZ0OVlzNERyMmRWOWlUYy00ZlItOGIwM2JaZ0Z5S043WDFwdUtJRU4wWTAwdGhKRFZHdGpKczZLSHQtT190YjM0UlpKUFNfaVhBMFdaQTVFeGFHQ1h4RjZJdTEyTmJoWDRqSUJKY1g?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10TDU5c2pRdmVMVUxpMF9CeUJsTVNhOUtFVXNzZm9yc0hHWGZ3N1Nta0I4VzFLNHNTWi1JNUtqcUV1bTZXT1NzY0lZZXZVQWF3dHRYQnF3d0ZvZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOG1aOU9YNkkxcjZvNEJwVDF0Qk5QU28wRy1ZcTFIZlJkOHpWSTY2MTJNY1o3eHBqNFFYVGc1ZkotNEl0QTIxVGcyTkkyZEt3bDJMdUpLRlZ6WGh2YklvSG1zYmpsQ3FyMGh6MW9hZXNYLWlVSE1UQVVKR3p3eGoyWjYyc21GOEE2V2VlVXhJZzEzRjV3WXM2Z1Z6VjhhV2VLVVdRZWh5XzNld2NIZy0taXB3Y2hMTURYUW8zSHlOalV6QQ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3FQWkk4NndObXVDNHZCQ3d4Wlh2LUtHNnVCUnNaZzhTeW0wZHk0WkQ2dWplUmpuOTc2SkVsanhjUHpSMDVKWEpvTGlxZzNRaWJiWlpfSFpNZl9mcWtLYWluRkxuaGVkdFFBRkJIRDgtVUVnUXlXemdsWEZqMjBXMUdGRE03ZU5neUpYb1A4MU0zVWsxMUgycU9NSUw1TXFKWnlDMlJXR1QxLWRn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Va2M5dENYOWNXRDE4d2NuajkwVGptN1BKSzU3X0Q5bkhRVlJzVllXUTJ1bkw1QnZtVUd1TW5JMkdBakwzVlJKYU91cTI2OXhJMHJZ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWM5QmN1S21LTTk1UTFydWdmVXJjUGpzc2p4UmVSZWN0N2FFVHZJQ01fYmU3MDdZeEJKWng4b21qcjFPVlV3OXlFeGt2ZThKWHExWVZmRXQwRllyUl9ackQ5bmQyb2w3QmVJT1d1RDg2NHRWZnRGUTE3UmVzZTBHaXRSNjNBUjdzNlN3ZnRJMG5iZFMxZnlNNDYxQnV1Ul9oNWNsZnRoNU9aMklleC1pdG5CSEhJZDBWWXU0WU5rTmZrampCSWFV?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdUQzX1BCZTJESlVCQUdLSXBDTVU1X0poaEtveUltOS1ZNFpnZnA5S0w3d0RTNHYxX0k0ZTVKaWlZcGhGdV9fMHZBVzVUSXdpNHVabGN1ci1XODFxSEhUV2FHSmpMNE1VZDdvMjRwRGV4aUJ3dUtNVExpRS00NVJ1UjN6WXMtMW1ubUJYdzZ2NVFudFZ0ZS1aRWo0MERRVVVGenNNWUphYWJmQTk5UmlrNlJIWGZCQWl6aThmdVM2WEM4cVYyaU1TNjBlazc?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEFxR1lXRVNFdHlqZlBWZTMyTmhmWEZvbzNEMVpsTmlBQ2Z2VUVUNDRXbWlHdHNPd2lKS25Qc21ONHp3cUI0V0ZLRTFfcm5QTlYwM2FCTGgtTFU1LU5DMXdVSWxnbUlvZjNUbmVPZF8xRUlqYVlyaGt4SERWdHBiaGZFdDVJdFJqY1g1WWVlaHZfSVFjTlpsQ3ZoT01ERGQ5NnVoOFVjSi1jMmNkV3drQ1dhdE1uajJmUDhIemNIOEszQkE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUU5oc3BORkdtck45SUZqWG1rMFNMNktva2dmU21NTmF4MnVnWEU4MkxFcVFBSTZfSGhxbDRvVmtHejBLbXZsSV9KYnRsdlJlVWJFVi1PM1hseURzR1hSaHRyOXhNckxnMkJDaDdEY3VFT21xczViQTNLeHNMemM2NVVqR2hDckpLYXc?oc=5"
    }
   ],
   "impacts": [
@@ -82738,9 +82752,21 @@
      "ar": "بلغ معدل التضخم لأسعار المنتجين في الولايات المتحدة 6.5%، وهو الأعلى منذ عام 2022، مما أدى إلى انخفاض ناسداك وزيادة مخاوف رفع أسعار الفائدة.",
      "ru": "Инфляция цен производителей в США достигла 6.5%, что является максимумом с 2022 года, вызвав падение Nasdaq и опасения повышения ставок ФРС."
     }
+   },
+   {
+    "ts": 1794604895,
+    "time": "2026-11-13T21:21Z",
+    "severity": 7,
+    "summary": "מדד המחירים ליצרן בארה\"ב רשם קצב שנתו גבוה של 6.5%, מה שהוביל בכירים בפדרל רציו להאותת על אפשרות להעלאת ריבית נוספת על רקע אינפלציה עיקשת.",
+    "i18n": {
+     "he": "מדד המחירים ליצרן בארה\"ב רשם קצב שנתו גבוה של 6.5%, מה שהוביל בכירים בפדרל רציו להאותת על אפשרות להעלאת ריבית נוספת על רקע אינפלציה עיקשת.",
+     "en": "US producer prices surged at a 6.5% annual pace, prompting Federal Reserve officials to signal potential further rate hikes amid stubborn inflation.",
+     "ar": "ارتفعت أسعار المنتجين في الولايات المتحدة بمعدل سنوي بلغ 6.5%، مما دفع مسؤولي الاحتياطي الفيدرالي إلى الإشارة إلى احتمال رفع أسعار الفائدة.",
+     "ru": "Цены производителей в США выросли на 6.5% в годовом исчислении, побудив чиновников ФРС сигнализировать о возможном дальнейшем повышении ставок."
+    }
    }
   ],
-  "last_update": 1794598159
+  "last_update": 1794604895
  },
  {
   "ts": 1794577463,
@@ -83821,7 +83847,12 @@
   "category": "geopolitics",
   "severity": 5,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss"
+   }
+  ],
   "impacts": [
    {
     "ticker": "TUR",
@@ -83841,9 +83872,43 @@
      "ru": "ETF Турции"
     },
     "price_at_alert": 32.1325
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794604895,
+    "reason": "הסכמי הגנה אזוריים תומכים بביקוש עולמי לציוד ביטחוני.",
+    "reason_i18n": {
+     "he": "הסכמי הגנה אזוריים תומכים بביקוש עולמי לציוד ביטחוני.",
+     "en": "Regional defense pacts support global demand for military equipment.",
+     "ar": "اتفاقيات الدفاع الإقليمية تدعم الطلب العالمي على المعدات العسكرية.",
+     "ru": "Региональные оборонные пакты поддерживают глобальный спрос на военную технику."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
+     "en": "ITA - US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.51
    }
   ],
-  "id": "369d51c7519a"
+  "id": "369d51c7519a",
+  "updates": [
+   {
+    "ts": 1794604895,
+    "time": "2026-11-13T21:21Z",
+    "severity": 5,
+    "summary": "קטר וטורקיה חתמו על הסכם הגנה הדדי במטרה לחזק את ההרתעה והשותפות האסטרטגית על רקע חוסר היציבות האזורית.",
+    "i18n": {
+     "he": "קטר וטורקיה חתמו על הסכם הגנה הדדי במטרה לחזק את ההרתעה והשותפות האסטרטגית על רקע חוסר היציבות האזורית.",
+     "en": "Qatar and Turkey signed a mutual defense pact aimed at deepening their partnership and strengthening deterrence amid regional instability.",
+     "ar": "وقعت قطر وتركيا اتفاقية دفاع مشترك لتعميق الشراكة وتعزيز الردع وسط عدم الاستقرار الإقليمي.",
+     "ru": "Катар и Турция подписали пакт о взаимной обороне, направленный на укрепление партнерства на фоне региональной нестабильности."
+    }
+   }
+  ],
+  "last_update": 1794604895
  },
  {
   "ts": 1794590764,
@@ -84806,5 +84871,198 @@
    }
   ],
   "id": "0c2e4304005e"
+ },
+ {
+  "ts": 1794604895,
+  "time": "2026-11-13T21:21Z",
+  "title": "הפנטגון מעכב את אישורי ייצור טילי הפטריוט לאוקראינה",
+  "summary": "הפנטגון מעכב את רישיונות ייצור טילי הפטריוט שהובטחו על ידי טראמפ עבור אוקראינה.",
+  "kid": "עיכוב באישור ייצור טילי הגנה אלו עשוי להשפיע על חברות הביטחון שמייצרות אותן ועל קצב אספקת הנשק.",
+  "i18n": {
+   "title": {
+    "he": "הפנטגון מעכב את אישורי ייצור טילי הפטריוט לאוקראינה",
+    "en": "Pentagon Stalls Patriot Missile Production Licenses for Ukraine",
+    "ar": "البنتغون يعطل تراخيص إنتاج صواريخ باتريوت لأوكرانيا",
+    "ru": "Пентагон задерживает лицензии на производство ракет Patriot для Украины"
+   },
+   "summary": {
+    "he": "הפנטגון מעכב את רישיונות ייצור טילי הפטריוט שהובטחו על ידי טראמפ עבור אוקראינה.",
+    "en": "The Pentagon has stalled Patriot missile production licenses promised by Trump for Ukraine.",
+    "ar": "عطل البنتغون تراخيص إنتاج صواريخ باتريوت التي وعد بها ترامب لأوكرانيا.",
+    "ru": "Пентагон задерживает лицензии на производство ракет Patriot, обещанных Трампом Украине."
+   },
+   "kid": {
+    "he": "עיכוב באישור ייצור טילי הגנה אלו עשוי להשפיע על חברות הביטחון שמייצרות אותן ועל קצב אספקת הנשק.",
+    "en": "Delays in approving production licenses for these defense missiles could impact defense contractors and delivery timelines.",
+    "ar": "قد تؤثر التأخيرات في الموافقة على تراخيص الإنتاج على مقاولي الدفاع.",
+    "ru": "Задержки с одобрением лицензий на производство этих ракет могут повлиять на оборонных подрядчиков."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0lnT0dkZkZ0eVRiN1NVak5zNFVxbGtoMGthZkdFeW1ZOThFMUkwaHpJYzg5MFBGYndpcXI1ZVJmN2ZDWVdfVnlYUWpnaE4xN3pJUERhcG1TUjdVSU9lTUxIMDVYZzRPRzJUallVMHBpQzZVYklwZDBFOHVUWnB3QzR5ZFZVZ29OTkxSaXQyTWZoR2h4NEJpZkZR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1794604895,
+    "reason": "ביקושים עתידיים לטילי פטריוט נשארים גבוהים למרות עיכובים בירוקרטיים.",
+    "reason_i18n": {
+     "he": "ביקושים עתידיים לטילי פטריוט נשארים גבוהים למרות עיכובים בירוקרטיים.",
+     "en": "Future demand for Patriot systems remains robust despite administrative bottlenecks.",
+     "ar": "الطلب المستقبلي على أنظمة باتريوت يظل قوياً رغم العقبات الإدارية.",
+     "ru": "Будущий спрос на системы Patriot остается высоким несмотря на бюрократические задержки."
+    },
+    "name_i18n": {
+     "he": "RTX - ריית'און, יצרנית טילי פטריוט",
+     "en": "RTX - Raytheon, Patriot missile maker",
+     "ar": "RTX - رايثيون، الشركة المصنعة لصواريخ باتريوت",
+     "ru": "RTX - Raytheon, производитель ракет Patriot"
+    },
+    "price_at_alert": 198.58
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794604895,
+    "reason": "מעורבות באספקת מערכות הגנה אוויריות.",
+    "reason_i18n": {
+     "he": "מעורבות באספקת מערכות הגנה אוויריות.",
+     "en": "Involvement in supplying air defense systems.",
+     "ar": "المشاركة في توريد أنظمة الدفاع الجوي.",
+     "ru": "Участие в поставках систем ПВО."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין, ענקית ביטחונית",
+     "en": "LMT - Lockheed Martin, defense giant",
+     "ar": "LMT - لوكهيد مارتن، عملاق الدفاع",
+     "ru": "LMT - Lockheed Martin, оборонный гигант"
+    },
+    "price_at_alert": 596.04
+   }
+  ],
+  "id": "5789b131c727"
+ },
+ {
+  "ts": 1794604895,
+  "time": "2026-11-13T21:21Z",
+  "title": "פריצת סייבר מבוססת בינה מלאכותית על משרד ממשלתי בפלורידה",
+  "summary": "רשויות בפלורידה דיווחו כי האקרים רוסים עומדים מאחורי מתקפת סייבר שנעזרה בבינה מלאכותית ופגעה במשרד המקומי.",
+  "kid": "האקרים השתמשו בטכנולוגיית בינה מלאכותית כדי לפרוץ למערכות ממשלתיות, מה שמגביר את החששות מפני איומי סייבר על חברות טכנולוגיה ואבטחה.",
+  "i18n": {
+   "title": {
+    "he": "פריצת סייבר מבוססת בינה מלאכותית על משרד ממשלתי בפלורידה",
+    "en": "AI-Assisted Cyberattack Hits Florida Office",
+    "ar": "هجوم سيبراني مدعوم بالذكاء الاصطناعي يستهدف مكتباً حكومياً في فلوريدا",
+    "ru": "Кибератака с использованием ИИ нанесла удар по госучреждению во Флориде"
+   },
+   "summary": {
+    "he": "רשויות בפלורידה דיווחו כי האקרים רוסים עומדים מאחורי מתקפת סייבר שנעזרה בבינה מלאכותית ופגעה במשרד המקומי.",
+    "en": "Officials in Florida reported that Russian hackers were behind an AI-assisted cyberattack targeting a local government office.",
+    "ar": "أفاد مسؤولون في فلوريدا أن قراصنة روس وراء هجوم سيبراني مدعوم بالذكاء الاصطناعي استهدف مكتباً حكومياً محلياً.",
+    "ru": "Чиновники во Флориде сообщили, что за кибератакой с использованием ИИ, нацеленной на местное госучреждение, стоят российские хакеры."
+   },
+   "kid": {
+    "he": "האקרים השתמשו בטכנולוגיית בינה מלאכותית כדי לפרוץ למערכות ממשלתיות, מה שמגביר את החששות מפני איומי סייבר על חברות טכנולוגיה ואבטחה.",
+    "en": "Hackers used artificial intelligence to breach government systems, raising concerns about cybersecurity vulnerabilities for enterprises and security firms.",
+    "ar": "استخدم القراصنة الذكاء الاصطناعي لاختراق الأنظمة الحكومية، مما يثير المخاوف بشأن الأمن السيبراني.",
+    "ru": "Хакеры использовали искусственный интеллект для взлома государственных систем, что вызывает опасения по поводу кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenBOQWZtUUtqOFdPb0k1UkRDQXBYZ3lvT0FpOE5UODRMYlNfaE9oZFlISG1ETXpLZl84ZVJCbGNtcXlwWkhfLXJScWxlNHRQdUJiOUhqNEk5SUVJSWNWM0R3bjBaUEFnVllJbUJITkhkbkNKMDE5SWwxTjVVbEJNV1ZZd2JnaEUtNmhpVHhsODRFOFBmN2VhZS1RN0gzSlY3bmF5dFZKbDJEV0p0OHQxSS1PNnd0NFctZU9yaw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794604895,
+    "reason": "עלייה במודעות לאיומי סייבר מתקדמים מעלה את הביקוש لפתרונות אבטחה.",
+    "reason_i18n": {
+     "he": "עלייה במודעות לאיומי סייבר מתקדמים מעלה את הביקוש لפתרונות אבטחה.",
+     "en": "Rising awareness of advanced cyber threats boosts demand for security solutions.",
+     "ar": "زيادة الوعي بالتهديدات السيبرانية المتقدمة تعزز الطلب على حلول الأمان.",
+     "ru": "Рост осведомленности о киберугрозах повышает спрос на защитные решения."
+    },
+    "name_i18n": {
+     "he": "CRWD - קראודסטרייק, אבטחת סייבר",
+     "en": "CRWD - CrowdStrike, cybersecurity firm",
+     "ar": "CRWD - كراودسترايك لأمن السبراني",
+     "ru": "CRWD - CrowdStrike, кибербезопасность"
+    },
+    "price_at_alert": 226.61
+   }
+  ],
+  "id": "fae5cb1863d8"
+ },
+ {
+  "ts": 1794604895,
+  "time": "2026-11-13T21:21Z",
+  "title": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
+  "summary": "סוכנות הרכש של אוקראינה (DOT) חתמה על חוזה לרכש של מעל 7,500 רכבי שטח עבור הצבא.",
+  "kid": "חוזה רכש גדול של כלי רכב צבאיים תומך בחברות תעשייה ורכב שמספקות ציוד צבאי.",
+  "i18n": {
+   "title": {
+    "he": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
+    "en": "Ukraine Procurement Agency Contracts Off-Road Military Vehicles",
+    "ar": "وكالة المشتريات الأوكرانية تتعاقد على مركبات عسكرية للطرق الوعرة",
+    "ru": "Закупочное агентство Украины заключило контракт на военные внедорожники"
+   },
+   "summary": {
+    "he": "סוכנות הרכש של אוקראינה (DOT) חתמה על חוזה לרכש של מעל 7,500 רכבי שטח עבור הצבא.",
+    "en": "Ukraine's DOT Agency has contracted over 7,500 off-road vehicles for military use.",
+    "ar": "تعاقدت وكالة DOT الأوكرانية على أكثر من 7,500 مركبة للطرق الوعرة للاستخدام العسكري.",
+    "ru": "Закупочное агентство Украины законтрактовало более 7500 внедорожников для военных."
+   },
+   "kid": {
+    "he": "חוזה רכש גדול של כלי רכב צבאיים תומך בחברות תעשייה ורכב שמספקות ציוד צבאי.",
+    "en": "A major procurement contract for military vehicles supports industrial and automotive suppliers catering to defense needs.",
+    "ar": "عقد مششتريات كبير للمركبات العسكرية يدعم موردي المعدات الدفاعية.",
+    "ru": "Крупный контракт на закупку военных машин поддерживает поставщиков продукции."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUDFXdmphMU1qZnZtdmQwMGNpQjJsSEl5ZGYteTlFdk5HU1VsWWFUWS1yWkxoVDlUSGFGQktibV9nekk0UElqSHhVd0tCWVNWRGNmTjloeFloN1FMYVJ6bW03dGM0cUhzTVdIbEtDUVMxT1pEOVhNaW5uQUVGMEJqMUxZSGZQZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1794604895,
+    "reason": "חוזים צבאיים חדשים תומכים במגזר התעשייתי והביטחוני.",
+    "reason_i18n": {
+     "he": "חוזים צבאיים חדשים תומכים במגזר התעשייתי והביטחוני.",
+     "en": "New military contracts support the broader defense sector.",
+     "ar": "العقود العسكرية الجديدة تدعم قطاع الدفاع بشكل عام.",
+     "ru": "Новые военные контракты поддерживают оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "XAR - קרן סל תעופה וביטחון",
+     "en": "XAR - Aerospace & Defense ETF",
+     "ar": "XAR - صندوق قطاع الطيران والدفاع",
+     "ru": "XAR - ETF аэрокосмической и оборонной отрасли"
+    },
+    "price_at_alert": 230.69
+   }
+  ],
+  "id": "e8c35ad24992"
  }
 ]
