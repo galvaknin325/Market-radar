@@ -619,129 +619,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793904714,
-  "time": "2026-11-05T18:51Z",
-  "title": "התפרצות חצבת בוויסקונסין",
-  "summary": "התפרצות חצבת בוויסקונסין הובילה למותו של תינוק ולמספר מקרים חדשים במחוז גרין לייק.",
-  "kid": "מחלה מדבקת בשם חצבת התפשטה בוויסקונסין. זה עלול להשפיע על חברות תרופות ועל המודעות לבריאות הציבור.",
-  "i18n": {
-   "title": {
-    "he": "התפרצות חצבת בוויסקונסין",
-    "en": "Measles outbreak in Wisconsin",
-    "ar": "تفشي الحصبة في ويسكونسن",
-    "ru": "Вспышка кори в Висконсине"
-   },
-   "summary": {
-    "he": "התפרצות חצבת בוויסקונסין הובילה למותו של תינוק ולמספר מקרים חדשים במחוז גרין לייק.",
-    "en": "A measles outbreak in Wisconsin has led to the death of an infant and several new cases in Green Lake County.",
-    "ar": "أدى تفشي الحصبة في ويسكونسن إلى وفاة رضيع وتسجيل حالات جديدة في مقاطعة غرين ليك.",
-    "ru": "Вспышка кори в Висконсине привела к смерти младенца и новым случаям заболевания в округе Грин-Лейк."
-   },
-   "kid": {
-    "he": "מחלה מדבקת בשם חצבת התפשטה בוויסקונסין. זה עלול להשפיע על חברות תרופות ועל המודעות לבריאות הציבור.",
-    "en": "A contagious disease called measles is spreading in Wisconsin. This might affect drug companies and public health awareness.",
-    "ar": "مرض معدٍ يسمى الحصبة ينتشر في ويسكونسن. قد يؤثر هذا على شركات الأدوية والوعي بالصحة العامة.",
-    "ru": "Заразная болезнь под названием корь распространяется в Висконсине. Это может повлиять на фармацевтические компании и осведомленность о здоровье населения."
-   }
-  },
-  "category": "health",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRmNIVl9xRnlFR0J6UXktN1N0YUFia2Z4bmxtY1lvOEFidmE1WXZtZ3pDTXJNeWF4al9jVk8xLVpaU2RYWUN1YzVqaExCY3YtZ0VSbFFvckdRMUVfLUxRWHlzdDJUWUM1V25MWG9JcjktZTRaTVRtOGpwWWxtVU9jLTNFSFpiUTdtejRlMWt4ZDRRa3JZZTd2dWF6d083ZEE?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTnZkM1UwcGwwNDFkTE1XZEpfeGNuZ25XTm82NDY2cVZ3QXlkbExLZzZXSGdtaDM4bG16Q1JoWG5IS3FENmNYUFhVUHJIUlF3S1pNZ2k1LWZ2NXdNSWd0bGJTRWtCLThaTDRQaXBPQTJEZml5RWZTbEVKYjQtSkprQlAzc1Q4dzJzeHE2QXZFYVRvX0pOXzJGWWw1R29jWEVXTHpucktrcw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPV1ZldG51RVAwRXM0eEtPSlpodTkzZ29CaWZQaHBkS0NqU2llQk94QVlqaFg2dkQ3dkUyc1gwM3FRYUlwQ1FJbk5UbnN3OFVsd3RQaFhrbGRHZlBheGZGOU9ZMkljZ0h5NDV6Y3FlOXpQdnZramZ6MVpZMEw3c1NjVzJtREkxcUdFZGNHalg4TFZwYzhqUDAxQzJEUU9sTjJRSEpVWEZVWkxBVXdRTTJCTzI1YmNPalUxUHhWUF8zbVd5UlJL?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1793904714,
-    "reason": "פוטנציאל לעלייה בביקוש לחיסונים.",
-    "reason_i18n": {
-     "he": "פוטנציאל לעלייה בביקוש לחיסונים.",
-     "en": "Potential for increased demand for vaccines.",
-     "ar": "إمكانية زيادة الطلب على اللقاحات.",
-     "ru": "Потенциальный рост спроса на вакцины."
-    },
-    "name_i18n": {
-     "he": "מודרנה - חברת חיסונים",
-     "en": "Moderna - Vaccine company",
-     "ar": "موديرنا - شركة لقاحات",
-     "ru": "Moderna - компания по производству вакцин"
-    },
-    "price_at_alert": 239.46,
-    "entry_price": 241.005,
-    "entry_time": "2026-11-05T19:30+00:00",
-    "exit_price": 254.27,
-    "exit_date": "2026-11-06",
-    "change_pct": 5.5,
-    "bench": "SPY",
-    "bench_change_pct": -0.02,
-    "excess_pct": 5.53,
-    "edge_pct": 5.53,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1793926744,
-    "reason": "חשש מהתפרצויות בריאותיות מפנה תשומת לב למוצרי בריאות, חיסונים וחברות פארמה.",
-    "reason_i18n": {
-     "he": "חשש מהתפרצויות בריאותיות מפנה תשומת לב למוצרי בריאות, חיסונים וחברות פארמה.",
-     "en": "Fear of health outbreaks directs attention to healthcare products, vaccines, and pharma firms.",
-     "ar": "الخوف من التفشي الصحي يوجه الانتباه إلى منتجات الرعاية الصحية واللقاحات وشركات الأدوية.",
-     "ru": "Опасения вспышек заболеваний привлекают внимание к медицинским товарам, вакцинам и фармкомпаниям."
-    },
-    "name_i18n": {
-     "he": "XLV - סקטור הבריאות האמריקאי",
-     "en": "XLV - Health Care Select Sector SPDR Fund",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية",
-     "ru": "XLV - фонд сектора здравоохранения"
-    },
-    "price_at_alert": 184.91,
-    "entry_price": 181.28,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 188.34,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.89,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 1.47,
-    "edge_pct": 1.47,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b78ec5067c3f",
-  "updates": [
-   {
-    "ts": 1793926744,
-    "time": "2026-11-06T00:59Z",
-    "severity": 3,
-    "summary": "תינוק מת כתוצאה מהתפרצות חצבת בוויסקונסין (מקרה המוות הראשון מאז 1990), ובמקביל חולה אבולה בריטי פונה ללונדון לטיפול מיוחד.",
-    "i18n": {
-     "he": "תינוק מת כתוצאה מהתפרצות חצבת בוויסקונסין (מקרה המוות הראשון מאז 1990), ובמקביל חולה אבולה בריטי פונה ללונדון לטיפול מיוחד.",
-     "en": "An infant died in a Wisconsin measles outbreak (first death since 1990), while a British Ebola patient was evacuated to London for care.",
-     "ar": "توفي رضيع جراء تفشي الحصبة في ويسكونسن (أول حالة وفاة منذ 1990)، بينما تم إجلاء مريض إيبولا بريطاني إلى لندن.",
-     "ru": "Младенец умер в результате вспышки кори в Висконсине (первая смерть с 1990 года), в то время как британский пациент с Эболой был эвакуирован в Лондон."
-    }
-   }
-  ],
-  "last_update": 1793926744,
-  "evaluated": true
- },
- {
   "ts": 1793917291,
   "time": "2026-11-05T22:21Z",
   "title": "צניחה במניות הטכנולוגיה וה-AI לאחר הבחירות",
@@ -1460,76 +1337,6 @@
  {
   "ts": 1793923081,
   "time": "2026-11-05T23:58Z",
-  "title": "עסקת ענק של 9 מיליארד דולר למפעל בינה מלאכותית של Naver",
-  "summary": "חברת Naver הקוריאנית, הנתמכת על ידי Nvidia, מתמודדת עם אתגרים ביישום עסקת ענק של 9 מיליארד דולר להקמת מפעל בינה מלאכותית.",
-  "kid": "חברה גדולה בונה מפעל ענק למחשבי בינה מלאכותית. אם זה יצליח, זה טוב לחברות כמו אנבידיה שמספקות את השבבים.",
-  "i18n": {
-   "title": {
-    "he": "עסקת ענק של 9 מיליארד דולר למפעל בינה מלאכותית של Naver",
-    "en": "Naver's $9B AI factory deal faces test",
-    "ar": "صفقة مصنع الذكاء الاصطناعي لشركة Naver بقيمة 9 مليارات دولار تواجه اختباراً",
-    "ru": "Сделка Naver на $9 млрд по созданию фабрики ИИ проходит проверку"
-   },
-   "summary": {
-    "he": "חברת Naver הקוריאנית, הנתמכת על ידי Nvidia, מתמודדת עם אתגרים ביישום עסקת ענק של 9 מיליארד דולר להקמת מפעל בינה מלאכותית.",
-    "en": "South Korean firm Naver, backed by Nvidia, faces implementation challenges for its $9 billion AI factory project.",
-    "ar": "تواجه شركة Naver الكورية الجنوبية، المدعومة من Nvidia، تحديات في تنفيذ صفقة ضخمة بقيمة 9 مليارات دولار لإنشاء مصنع للذكاء الاصطناعي.",
-    "ru": "Южнокорейская компания Naver, поддерживаемая Nvidia, сталкивается с трудностями при реализации сделки на $9 млрд по строительству фабрики ИИ."
-   },
-   "kid": {
-    "he": "חברה גדולה בונה מפעל ענק למחשבי בינה מלאכותית. אם זה יצליח, זה טוב לחברות כמו אנבידיה שמספקות את השבבים.",
-    "en": "A big company is building a huge factory for AI computers. If it works, it is good for companies like Nvidia that make the chips.",
-    "ar": "تبني شركة كبيرة مصنعاً ضخماً لأجهزة الكمبيوتر التي تعمل بالذكاء الاصطناعي. إذا نجح الأمر، فهذا جيد لشركات مثل Nvidia التي تصنع الرقائق.",
-    "ru": "Крупная компания строит огромный завод для компьютеров с ИИ. Если это получится, это хорошо для компаний вроде Nvidia, которые делают чипы."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnFmTGRTWTFQQkdqei1aSFEyYlYyYTdzUFRtbHVLZkM2RjAySDc4ZWJXRjA4QWpLeWpic1VpWU9EN1FRRGtTX1JIQUlPTlZ4RURFSEh5WTVReUtqQ29PbGlEaEFVeG1kQWR5UFliTTZwQUJySzlDYnJ4blFEODRLNndaN1laZEs5Y0hkZXVCT01SM3FaR2c?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1793923081,
-    "reason": "ספקית שבבים מרכזית לפרויקט",
-    "reason_i18n": {
-     "he": "ספקית שבבים מרכזית לפרויקט",
-     "en": "Key chip supplier for the project",
-     "ar": "مورد رئيسي للرقائق للمشروع",
-     "ru": "Ключевой поставщик чипов для проекта"
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 181.6,
-    "entry_price": 191.14,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 178.6,
-    "exit_date": "2026-11-09",
-    "change_pct": -6.56,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": -8.98,
-    "edge_pct": -8.98,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "e8a18618ca87",
-  "evaluated": true
- },
- {
-  "ts": 1793923081,
-  "time": "2026-11-05T23:58Z",
   "title": "מכליות נפט רוסיות חוזרות על עקבותיהן מחשש לסנקציות",
   "summary": "שתי מכליות נפט רוסיות הנושאות סולר שינו את מסלולן בדרכן לארה\"ב בשל חשש של הקונים מסנקציות.",
   "kid": "אוניות עם דלק מרוסיה פוחדות להגיע לארה\"ב כי הקונים מפחדים להסתבך עם החוק. זה מקטין את כמות הדלק שמגיעה לשוק.",
@@ -1677,141 +1484,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793923081,
-  "time": "2026-11-05T23:58Z",
-  "title": "זינוק במחיר הניקל ושפל במחיר הנחושת",
-  "summary": "מחיר הניקל עלה לשיא של 5 שבועות, בעוד שמחיר הנחושת ירד לשפל של 3 חודשים.",
-  "kid": "המחיר של מתכת הניקל עלה, אבל המחיר של נחושת ירד. זה משפיע על חברות שמשתמשות במתכות האלו לבנייה וטכנולוגיה.",
-  "i18n": {
-   "title": {
-    "he": "זינוק במחיר הניקל ושפל במחיר הנחושת",
-    "en": "Nickel price jumps, copper hits 3-month low",
-    "ar": "قفزة في سعر النيكل وانخفاض النحاس لأدنى مستوى في 3 أشهر",
-    "ru": "Скачок цен на никель, медь на 3-месячном минимуме"
-   },
-   "summary": {
-    "he": "מחיר הניקל עלה לשיא של 5 שבועות, בעוד שמחיר הנחושת ירד לשפל של 3 חודשים.",
-    "en": "Nickel prices reached a 5-week high, while copper prices fell to a 3-month low.",
-    "ar": "وصل سعر النيكل إلى أعلى مستوى في 5 أسابيع، بينما انخفض سعر النحاس إلى أدنى مستوى في 3 أشهر.",
-    "ru": "Цены на никель достигли 5-недельного максимума, в то время как цены на медь упали до 3-месячного минимума."
-   },
-   "kid": {
-    "he": "המחיר של מתכת הניקל עלה, אבל המחיר של נחושת ירד. זה משפיע על חברות שמשתמשות במתכות האלו לבנייה וטכנולוגיה.",
-    "en": "The price of nickel went up, but the price of copper went down. This affects companies that use these metals for building and technology.",
-    "ar": "ارتفع سعر معدن النيكل، لكن سعر النحاس انخفض. هذا يؤثر على الشركات التي تستخدم هذه المعادن في البناء والتكنولوجيا.",
-    "ru": "Цена на никель выросла, а на медь упала. Это влияет на компании, которые используют эти металлы в строительстве и технологиях."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUzNobXNNcGVGZHpyRk1FcktuRmg3dmJ3S0JIeS1qTkx2MnZlZmRtbUM4OHFsaVJ4SDJ6dkY3dlNacVctX09zUmY3OC1tT28wbm8xNkgzaEZVckMyeDI1bmVTcEE3RVZ3UWJJbVZJb05tZWZXdzAwNUN3eFRMc0VVc003cjZqb1oxVHZ3czBMcw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "down",
-    "t0": 1793923081,
-    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנחושת פוגעת ברווחיות",
-     "en": "Falling copper prices hurt profitability",
-     "ar": "انخفاض أسعار النحاس يضر بالربحية",
-     "ru": "Падение цен на медь снижает прибыльность"
-    },
-    "name_i18n": {
-     "he": "פריפורט-מקמורן (נחושת)",
-     "en": "Freeport-McMoRan (Copper)",
-     "ar": "فرييبورت-ماكموران (نحاس)",
-     "ru": "Freeport-McMoRan (медь)"
-    },
-    "price_at_alert": 57.9,
-    "entry_price": 59.085,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 62.33,
-    "exit_date": "2026-11-09",
-    "change_pct": 5.49,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 3.07,
-    "edge_pct": -3.07,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "e7d26f3ef25a",
-  "evaluated": true
- },
- {
-  "ts": 1793926744,
-  "time": "2026-11-06T00:59Z",
-  "title": "הגנה אווירית רוסית יירטה למעלה מ-700 רחפנים אוקראיניים",
-  "summary": "רוסיה דיווחה כי מערכות ההגנה האווירית שלה יירטו למעלה מ-700 רחפנים אוקראיניים במתקפה לילית מסיבית.",
-  "kid": "המלחמה באוקראינה ממשיכה עם מתקפות רחפנים ענקיות, מה שמגביר את הביקוש לטכנולוגיות הגנה צבאיות בארה\"ב.",
-  "i18n": {
-   "title": {
-    "he": "הגנה אווירית רוסית יירטה למעלה מ-700 רחפנים אוקראיניים",
-    "en": "Russian air defenses intercept over 700 Ukrainian drones",
-    "ar": "الدفاعات الجوية الروسية تصد أكثر من 700 مسيرة أوكرانية",
-    "ru": "ПВО России перехватила более 700 украинских беспилотников"
-   },
-   "summary": {
-    "he": "רוסיה דיווחה כי מערכות ההגנה האווירית שלה יירטו למעלה מ-700 רחפנים אוקראיניים במתקפה לילית מסיבית.",
-    "en": "Russia reported that its air defense systems shot down more than 700 Ukrainian drones in a massive overnight test.",
-    "ar": "أفادت روسيا أن أنظمة دفاعها الجوي أسقطت أكثر من 700 مسيرة أوكرانية في هجوم لليلي ضخم.",
-    "ru": "Россия сообщила, что ее системы ПВО сбили более 700 украинских беспилотников в ходе масштабной ночной атаки."
-   },
-   "kid": {
-    "he": "המלחמה באוקראינה ממשיכה עם מתקפות רחפנים ענקיות, מה שמגביר את הביקוש לטכנולוגיות הגנה צבאיות בארה\"ב.",
-    "en": "The war in Ukraine continues with massive drone attacks, increasing demand for US military defense tech.",
-    "ar": "تستمر الحرب في أوكرانيا بهجمات مسيرات هائلة، مما يزيد الطلب على تقنيات الدفاع العسكري الأمريكية.",
-    "ru": "Война в Украине продолжается с массированными атаками дронов, что увеличивает спрос на американские военные технологии."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1793926744,
-    "reason": "הסלמה בשימוש ברחפנים ולוחמה אווירית מדגישה את הצורך במערכות הגנה, לטובת מניות הביטחון.",
-    "reason_i18n": {
-     "he": "הסלמה בשימוש ברחפנים ולוחמה אווירית מדגישה את הצורך במערכות הגנה, לטובת מניות הביטחון.",
-     "en": "Escalation in drone warfare highlights the need for defense systems, boosting defense stocks.",
-     "ar": "تصعيد الحرب بالمسيرات يبرز الحاجة إلى أنظمة الدفاع، مما يدعم أسهم الدفاع.",
-     "ru": "Эскалация войны дронов подчеркивает необходимость систем защиты, поддерживая оборонные акции."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון",
-     "en": "ITA - iShares U.S. Aerospace & Defense ETF",
-     "ar": "ITA - صندوق الفضاء والدفاع الأمريكي",
-     "ru": "ITA - фонд аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 68.11,
-    "entry_price": 67.84,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 71.67,
-    "exit_date": "2026-11-09",
-    "change_pct": 5.65,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 3.22,
-    "edge_pct": 3.22,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "fecb2c9ffcb8",
-  "evaluated": true
- },
- {
   "ts": 1793926744,
   "time": "2026-11-06T00:59Z",
   "title": "רכישת ענק של אדאני פורטס ב-2.9 מיליארד דולר",
@@ -1919,71 +1591,6 @@
    }
   ],
   "last_update": 1793953470,
-  "evaluated": true
- },
- {
-  "ts": 1793926744,
-  "time": "2026-11-06T00:59Z",
-  "title": "נינטנדו מתחילה בשילוח קונסולת Switch 2 קלה יותר לתיקון",
-  "summary": "הגרסה החדשה והקלה יותר לתיקון של קונסולת המשחקים Switch 2 והשלט שלה החלו להיות משולחים לשווקים.",
-  "kid": "חברת משחקים מוציאה קונסולות חדשות שקל יותר לתקן. זה יכול למשוך קונים חדשים ולשפר מכירות.",
-  "i18n": {
-   "title": {
-    "he": "נינטנדו מתחילה בשילוח קונסולת Switch 2 קלה יותר לתיקון",
-    "en": "Easier-to-repair Switch 2 console shipping",
-    "ar": "شحن وحدة تحكم سويتش 2 الأسهل للإصلاح",
-    "ru": "Начало поставок более ремонтопригодной консоли Switch 2"
-   },
-   "summary": {
-    "he": "הגרסה החדשה והקלה יותר לתיקון של קונסולת המשחקים Switch 2 והשלט שלה החלו להיות משולחים לשווקים.",
-    "en": "The new, easier-to-repair Zelda Switch 2 console and Pro Controller have started shipping to markets.",
-    "ar": "بدأ شحن وحدة تحكم ألعاب سويتش 2 الجديدة والأسهل للإصلاح ووحدة التحكم الخاصة بها إلى الأسواق.",
-    "ru": "Новая, более простая в ремонте игровая консоль Switch 2 и контроллер начали поставляться на рынки."
-   },
-   "kid": {
-    "he": "חברת משחקים מוציאה קונסולות חדשות שקל יותר לתקן. זה יכול למשוך קונים חדשים ולשפר מכירות.",
-    "en": "A gaming company is shipping new consoles that are easier to fix. This can attract buyers and boost sales.",
-    "ar": "شركة ألعاب تقوم بشحن وحدات تحكم جديدة يسهل إصلاحها. قد يجذب ذلك مشترين جدد ويعزز المبيعات.",
-    "ru": "Игровая компания отправляет на рынок новые консоли, которые проще починить. Это может привлечь покупателей и поднять продажи."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1793926744,
-    "reason": "השקת מוצרי חומרה חדשים עשויה לתמוך במניות הטכנולוגיה והגיימינג.",
-    "reason_i18n": {
-     "he": "השקת מוצרי חומרה חדשים עשויה לתמוך במניות הטכנולוגיה והגיימינג.",
-     "en": "Hardware product launches can support tech and gaming stocks.",
-     "ar": "إطلاق منتجات الأجهزة الجديدة قد يدعم أسهم التكنولوجيا والألعاب.",
-     "ru": "Запуск новых аппаратных продуктов может поддержать технологические и игровые акции."
-    },
-    "name_i18n": {
-     "he": "QQQ - מדד נאסד\"ק 100",
-     "en": "QQQ - Invesco QQQ Trust",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - фонд Nasdaq 100"
-    },
-    "price_at_alert": 647.05,
-    "entry_price": 658.35,
-    "entry_time": "2026-11-06T14:30+00:00",
-    "exit_price": 678.76,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.1,
-    "bench": "SPY",
-    "bench_change_pct": 2.42,
-    "excess_pct": 0.68,
-    "edge_pct": 0.68,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "bd028a856407",
   "evaluated": true
  },
  {
@@ -50964,10 +50571,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1E2VFlpWERDcU1PanZ2RkFFbXN6OFJvZ2ljaUdxVjAzemJXZFlRcTFpMEZyc1FBWE9zQ1JWUy1kUHBpdHZYM2xUbDVWUHRiUEZLRjBFWGtYMUFYeExqQzdXa2lqbWl0clBvLVRXZGZqRzZ2Uk00WmlGT1hnSEZBdWFOa1ljT045RUthemFUcDhjdm1EODNtNDUtdW5SOWxpeFZPMQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMmc2cnA2bVU4MmItOWI3TEdlZkE2RWVDZXdkU19JNnJyQTVTMk0xcXlweUlQUG1pbzZDRjNPRm1hY25iNWpjcEhnWUhmWHFlemFiVlR3bGFHU2xWcExaQWx2VFdUZEVvU3R4eFJGek9vaDNrSDFDXzNMY2hNVGZmaWt2dlhNYlZCOWc?oc=5"
    },
    {
@@ -50981,6 +50584,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CRndTdmViWjJIamJrMnNLMmpSVWhrQUhfYXBVOE1XTzhmN1ZIUnVKanpOaVpFR0lfOGswRG9BSTJteTAxT0RyM2Z5VQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzdDMFNULWYzS1FPUHBoX1NNN21pU0lOTUJUZS1JdmVaNTNMV2RDUGdSc0taZktlQndwM2NWc3lVMEgyZ1l3dGhFV2pMb2ZSeDEwNHRXb1ZrM1J4NXo0amVhRThhendacFloSTRMZ3Q4b3R2bTRsbGdUNUZZVFhVT1k2ODZaTDFjQnNXTWwzbkluOW10aFFoY0pXVjJwcjFwY2fSAVZBVV95cUxQRE5uSHJNT2xzbWpvVWdFLWdBbEJWNjR3d1Utdzd0UjJiOHFWeVhnZnIxSVd5TjNYaWoyanY3cEFRcjJSbmNjV01TaVl0STAzaUxwVUZsUQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVpzMmU3ZkljeU5DSkgyX2pyM01hWF94WVFYWVlWU09mM2NRMXRid1ktd29qOGo0T1MyQk95MVJ2dEhNRVNBUGdhc3p3YkFIQTVpTV9NeFh2ZTBScWo3STRjSzZkZzFUVlZwcHhVYlBPcGprSHN3MUU3bGFjYUNrYnRacnBRVzdDSFp0Rk9NY3MwYm80VXJqaTMzRDZIcG9tTFZ3UHFZcw?oc=5"
    }
   ],
   "impacts": [
@@ -51059,6 +50670,44 @@
      "ru": "FDX - FedEx (логистическая компания)"
     },
     "price_at_alert": 322.63
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "מחירי נפט גבוהים יותר מגדילים את רווחי חברות החיפוש וההפקה.",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים יותר מגדילים את רווחי חברות החיפוש וההפקה.",
+     "en": "Higher oil prices boost profits for exploration and production companies.",
+     "ar": "أسعار النفط الأعلى تعزز أرباح شركات التنقيب والإنتاج.",
+     "ru": "Более высокие цены на нефть увеличивают прибыль добывающих компаний."
+    },
+    "name_i18n": {
+     "he": "XOM – אקסון מוביל, חברת אנרגיה ענקית",
+     "en": "XOM – Exxon Mobil energy giant",
+     "ar": "XOM - عملاق الطاقة إكسون موبيل",
+     "ru": "XOM – энергетический гигант Exxon Mobil"
+    },
+    "price_at_alert": 169.78
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "תמיכה ברווחיות חברות האנרגיה עקב התייקרות הנפט הגולמי.",
+    "reason_i18n": {
+     "he": "תמיכה ברווחיות חברות האנרגיה עקב התייקרות הנפט הגולמי.",
+     "en": "Support for energy company profitability from crude oil price gains.",
+     "ar": "دعم ربحية شركات الطاقة بسبب ارتفاع أسعار النفط الخام.",
+     "ru": "Поддержка прибыльности энергетических компаний за счет роста цен на нефть."
+    },
+    "name_i18n": {
+     "he": "CVX – שברון, חברת אנרגיה מובילה",
+     "en": "CVX – Chevron leading energy company",
+     "ar": "CVX - شيفرون، شركة الطاقة الرائدة",
+     "ru": "CVX – ведущая энергетическая компания Chevron"
+    },
+    "price_at_alert": 216.35
    }
   ],
   "id": "7164eb2f4b9b",
@@ -51074,9 +50723,21 @@
      "ar": "استهداف ناقلات النفط قرب الإمارات وتصاعد الهجمات في البحر الأسود يضر بسلاسل الإمداد والتصدير.",
      "ru": "Нападения на танкеры у ОАЭ и эскалация в Черном море серьезно ограничивают ключевые торговые маршруты."
     }
+   },
+   {
+    "ts": 1794531656,
+    "time": "2026-11-13T01:00Z",
+    "severity": 6,
+    "summary": "מחירי הנפט עלו בלמעלה מדולר לחבית על רקע דיווחים על שיבושים בשיט במצר הורמוז ודחיית עסקת איראן על ידי הנשיא הנבחר טראמפ.",
+    "i18n": {
+     "he": "מחירי הנפט עלו בלמעלה מדולר לחבית על רקע דיווחים על שיבושים בשיט במצר הורמוז ודחיית עסקת איראן על ידי הנשיא הנבחר טראמפ.",
+     "en": "Oil prices gained over $1 per barrel driven by Strait of Hormuz shipping disruptions and Trump dismissing the need for an Iran deal.",
+     "ar": "ارتفعت أسعار النفط بأكثر من دولار واحد للبرميل مدفوعة باضطرابات الملاحة في مضيق هرمز واستبعاد ترامب لحاجة اتفاق مع إيران.",
+     "ru": "Цены на нефть выросли более чем на $1 за баррель из-за сбоев в судоходстве в Ормузском проливе и отказа Трампа от сделки с Ираном."
+    }
    }
   ],
-  "last_update": 1794493300
+  "last_update": 1794531656
  },
  {
   "ts": 1794481131,
@@ -51110,14 +50771,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaFRldXMxVzFCNFRUWlZQUUtSdDJwUld3a21EaDR1cldpTXNUMXFBem5rWkJpLXV1TXNQLUU5aGFfV2xyVlp5TGlhUThZalUzYVphaUtFZUZRYWlfOFg5cV9WUFdNNHNReldQN0pJSWNQSFJBSF91NzdFUjN6S3doNG1iWkQwa3Fldm9FWXNWOHhJdVJLSHkyU0FOQjdaOVZFeEpSRnI5VGdEams4cUFkVGs1Nk13SlhLUFHSAb4BQVVfeXFMTmVseXh2Mnk3d2dBNTN6bEltTFZ4SDNkbVFiZWwxWjJpN1hHRENnQ0tLZmxwQUx6NmRBT3NISlE5QXhoR2wwS2VJVDJzTU41Z3RuTlFBbElyUlZ3QUFIYnd5eUNnSnFiOXpmSTlCU0VIQUJ1Z1dpeWtyeUpQRXJoUTBhb1hpMTdYakZLS1pUSWJnNTlmZkFlRlZHWi1KaDRoaTRrMW8zNldzZUJ5VWVHTGVuX3ZkUWhIbFJOX2k5dw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVVBwdlEyWWpja05vSUlaVDJhOE1rSms5eFN6SE8ydzMwNjhZVUozei16WTd4b1lfYkw0SXVuNV9pRUgtOVFvUDdGWlhFeXdDZ1M2OUZjaVRNR3lHZTZBNUlDbnEwRUxXbWhnd1FkYTg0Y0k1d1lvVklvTV9vNHpmWDhoak1EdWVJRGlEeHQ4RQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZzJrM1pvNnRuc2VNOWdnLWkwYXFIdVFtMG13TGpFMGljVUVRc3RSbWhoZ092UlFVdUNfRFE0N3YtVnJFUFZZOG03TmdKdzZtZHc2aXcwcVFEdjVJdWV1VFVNR1ZzdmZTSnFYT0tGTG9HS0Q2dE1yWm13UGV6VTUzckVPeDVaangxMmtHaw?oc=5"
    },
    {
@@ -51131,6 +50784,14 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcHhPZHNsb0dzSENmc0ZCaXMxOG5IOUxYYkJCUDJmSGc0emNpZ2Z2T1l6cEJvM1FWeC1TSjdlTlJtZzNTcl9kYjh0UnloZTd1WTJ0U2tkcG5RTlNZNEZDc2xGRlRMU1huQ0FPbFUxOWZLMFZWUkgtZDBSeGFJdHJaU0ZpVHpxUEZGRUUtRVYwZmgta285Rm9tcTNZQ0ZkQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQODVsV0YzWW5FenQ4Z2tRNG0zQThIZ1VIM214R3VMNm9RMHNqS2c5cUl1RUtONWUtcERLd2NmVXctcGlfYlJmQy1mdDhGUV9UR245aUN6d1hkSldaa2ttMjZES3JrWi1ZUjVWTEFYRkQ3S0tvdmY1Q09jdlpZdkt4Nm5Xc3pRbmZtQTdReEZROGhfRGZXYjZFc0tZYVliTVRkWG92Tk5OZks4SEVYSUdXM25sREc1Q0d1YUNLeXo5R2dUdmtMTk1KUlNzeFU1bkk1Vkpr0gHYAUFVX3lxTFBfVVpDdEdfaG5OMVFibk9ISW1tS0psY2tuaWVscWJUcjh0NnFSNDA1MVBhcmtMQVNTLUZMZXl5TWFtVzlNRUJrdnowaEVRY08zMWNkR3RDamlpZzRkWUFPQmlRQm1qUzNZZmpQa19RVS14NTlDSjhrTHlXRlBjeEhiR1hhZVdVRjNHMG1DU1JsMWpOaGJObGI4SGRhUkh2QWFucDR1bW13NWczWUpzSHhqTHgzeXVIWlRHam1xVzV5c045Q1VmdUxKSFVqZ3M4dWJMaFU2M09aMA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzFLVXhGU0F1TE1PbjFvZXo5cTZYMkJRY2h3Uk5ZVXBJelRBRWlzUk1faGIzMXF1aGl3NmtUM1U4UlpUV0haYXY1Q3c0eExkYUVRYk9zenZLcC1CWGZReThaSXZVRHQ1Ym4zMDJYRks1amdGR0p3SmhLTTRSZTFDQXhtTjJCVTJsTzBlNlZWeUFqTGdHWXd0UGxfWVh1Y2tNVVFOc0UtY2loaFpsR3UwY25nckZHOXY4MzMwendleENTaTJhdUpUSdIBzgFBVV95cUxPTEtIX3paLVplRnFRZE1PaTdIV21uUVhtUFlsUFZCTHVSRnFod1IxYXFWSExUY0xsRW1vVXNpdXYxb3JmZDgxc1ZrNHIxSE5aenBKZk9sMnJnSUlIN2ZYWWFCRzBUbm40WDR6SWI2U1Bvc1hVZ21BVlhqaUxqZkhKT05uS3o4WGJGMXpacGRsQ0RQeHpBc29OcklrenpUT0Y3MzNHNWxqbkhwNklibFBvOHNYcGVTcXllSFZjRWpxaWJxT1ZmVFZHNzIyUkN0dw?oc=5"
    }
   ],
   "impacts": [
@@ -51209,9 +50870,21 @@
      "ar": "ارتفع تضخم التجزئة في الهند إلى 6.09%، متجاوزاً الحد الأقصى لبنك الاحتياطي الهندي لأول مرة منذ عامين، مما يعزز احتمالات رفع أسعار الفائدة.",
      "ru": "Розничная инфляция в Индии подскочила до 6,09%, впервые за два года превысив верхний предел Резервного банка Индии и усиливая вероятность повышения ставок."
     }
+   },
+   {
+    "ts": 1794531656,
+    "time": "2026-11-13T01:00Z",
+    "severity": 5,
+    "summary": "מדד המחירים לצרכן בהודו זינק ל-6.09% באוקטובר, מה שמוביל להערכות כי הבנק המרכזי (RBI) יעלה את הריבית בדצמבר.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן בהודו זינק ל-6.09% באוקטובר, מה שמוביל להערכות כי הבנק המרכזי (RBI) יעלה את הריבית בדצמבר.",
+     "en": "India's retail inflation accelerated to 6.09% in October, topping the central bank's ceiling and fueling expectations of a December rate hike.",
+     "ar": "تسارع التضخم الاستهلاكي في الهند إلى 6.09% في أكتوبر، متجاوزاً سقف البنك المركزي ومعززاً توقعات رفع الفائدة في ديسمبر.",
+     "ru": "Розничная инфляция в Индии в октябре ускорилась до 6,09%, превысив целевой потолок ЦБ и усилив ожидания повышения ставки в декабре."
+    }
    }
   ],
-  "last_update": 1794521948
+  "last_update": 1794531656
  },
  {
   "ts": 1794481131,
@@ -53446,5 +53119,667 @@
    }
   ],
   "id": "673f0f40b318"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "בכירי הפד מזהירים מאינפלציה גבוהה בזמן שהין היפני צונח",
+  "summary": "בכיר הפד וויליאמס הדגיש כי האינפלציה נותרת גבוהה מדי, בעוד שהין היפני נפל לשער של 160 מול הדולר על רקע חששות מריביות.",
+  "kid": "נציגי הבנק המרכזי בארה\"ב אומרים שהמחירים עדיין עולים מהר מדי, והמטבע היפני ממשיך להיחלש. זה עלול לגרום לריביות להישאר גבוהות יותר לאורך זמן ולהשפיע לרעה על שוק המניות.",
+  "i18n": {
+   "title": {
+    "he": "בכירי הפד מזהירים מאינפלציה גבוהה בזמן שהין היפני צונח",
+    "en": "Fed Officials Warn Inflation Remains Too High While Yen Drops to 160",
+    "ar": "مسؤولبو الفيدرالي يحذرون من بقاء التضخم مرتفعاً بينما يهبط الين الياباني",
+    "ru": "Чиновники ФРС предупреждают о высокой инфляции, а японская иена падает до 160"
+   },
+   "summary": {
+    "he": "בכיר הפד וויליאמס הדגיש כי האינפלציה נותרת גבוהה מדי, בעוד שהין היפני נפל לשער של 160 מול הדולר על רקע חששות מריביות.",
+    "en": "Fed's Williams stated inflation remains elevated, while the Japanese yen slid to 160 per dollar amid rate policy concerns.",
+    "ar": "أكد مسؤول الفيدرالي ويليامز أن التضخم لا يزال مرتفعاً للغاية، بينما هبط الين الياباني إلى 160 مقابل الدولار وسط مخاوف أسعار الفائدة.",
+    "ru": "Представитель ФРС Уильямс заявил, что инфляция остается слишком высокой, а японская иена упала до 160 за доллар на фоне опасений по поводу ставок."
+   },
+   "kid": {
+    "he": "נציגי הבנק המרכזי בארה\"ב אומרים שהמחירים עדיין עולים מהר מדי, והמטבע היפני ממשיך להיחלש. זה עלול לגרום לריביות להישאר גבוהות יותר לאורך זמן ולהשפיע לרעה על שוק המניות.",
+    "en": "US central bank officials say prices are still rising too fast, and the Japanese currency is weakening. This could mean interest rates stay high for longer, which can weigh on stock prices.",
+    "ar": "يقول مسؤولو البنك المركزي الأمريكي إن الأسعار لا تزال ترتفع بسرعة كبيرة، والعملة اليابانية تضعف. قد يعني هذا بقاء أسعار الفائدة مرتفعة لفترة أطول.",
+    "ru": "Чиновники ЦБ США заявляют, что цены растут слишком быстро, а японская валюта слабеет. Это может означать сохранение высоких ставок дольше, что давит на акции."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOW92bzRnT1piNXdIdzRGLTNqQ3Fzb2JmWWJyU3BkOVlsNzhSUjJUYzR5LUUxaEZZOUt0dGwwekRPVnpPR1FUN3BaYmJmVldPcGxQTDJPZkZXN09NYkNqWkRlcGZuVUltQWdXQmJHZF9jU19zcUxKdVBQRjlEQjlLdjdaelVRdW0tS3AyOUd5SXdSY1M3UGNUZ196d09HaXoxVVVfTkdyVTlvRldLbE5F?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSEhCUmU4WmFfclNRUkUyZERRdUVZSmlHSThab2pMLUVFVFpKQlRLMEo5RTJkTmc0Q1BaTjczTVZ0T0FydEJKMnpQdjZPMmpYZXRNRjRYaUhhQ193YzFoemlYVzY2Z29QY1EzdVVzeWRtbVZKakloNUtvREhnY3o5WGZobnU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmwxOGI1cll5UUxfWkNqVEVhOEtfWGZaY1phLWdBdzBDVUhzMWJseXBPdTFsU3dQZW5HRlgzbWo2dEx1cWIxMnpjVjdFV1ZvTzJ5UXZDd1RRcFJyUEcyV2pqWndGc21aQ3JJMUtJeHFCM1JsNFg2eklQTkMtLXZacTFqZnhGaFdpTm1jc3p0cEF2aFNRTVJxckJCTy1MaFRnVGw0MUNiNm5qQ1lCRlRj?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "חששות מריביות גבוהות לאורך זמן עקב אינפלציה עיקשת.",
+    "reason_i18n": {
+     "he": "חששות מריביות גבוהות לאורך זמן עקב אינפלציה עיקשת.",
+     "en": "Fears of prolonged high interest rates due to sticky inflation.",
+     "ar": "مخاوف من بقاء أسعار الفائدة مرتفعة لفترة طويلة بسبب التضخم العناد.",
+     "ru": "Опасения длительного сохранения высоких ставок из-за устойчивой инфляции."
+    },
+    "name_i18n": {
+     "he": "SPY – קרן סל עוקבת אחרי מדד S&P 500",
+     "en": "SPY – S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر الأسهم الأمريكية إس آند بي 500",
+     "ru": "SPY – ETF на индекс S&P 500"
+    },
+    "price_at_alert": 757.12
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "תשואות האג\"ח עולות על רקע אזהרות אינפלציה ודברי בכירי הפד.",
+    "reason_i18n": {
+     "he": "תשואות האג\"ח עולות על רקע אזהרות אינפלציה ודברי בכירי הפד.",
+     "en": "Bond yields rising amid inflation warnings and Fed commentary.",
+     "ar": "ارتفاع عوائد السندات وسط تحذيرات التضخم وتصريحات الفيدرالي.",
+     "ru": "Рост доходности облигаций на фоне предупреждений об инфляции и комментариев ФРС."
+    },
+    "name_i18n": {
+     "he": "TLT – קרן סל על אג\"ח ממשלתי ארוך טווח בארה\"ב",
+     "en": "TLT – US Long-Term Treasury Bond ETF",
+     "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
+     "ru": "TLT – ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 79.72
+   },
+   {
+    "ticker": "FXY",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "צניחת שער הין מול הדולר לרמת 160.",
+    "reason_i18n": {
+     "he": "צניחת שער הין מול הדולר לרמת 160.",
+     "en": "The plunge of the Japanese yen toward 160 per dollar.",
+     "ar": "هبوط الين الياباني نحو مستويات 160 مقابل الدولار.",
+     "ru": "Падение курса японской иены к доллару до уровня 160."
+    },
+    "name_i18n": {
+     "he": "FXY – קרן סל על המטבע היפני (ין)",
+     "en": "FXY – Japanese Yen Currency ETF",
+     "ar": "FXY - صندوق العملة اليابانية الين",
+     "ru": "FXY – ETF японской иены"
+    },
+    "price_at_alert": 57.26
+   }
+  ],
+  "id": "e8c8d0918b87"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "מחירי הנפט מתחזקים בעוד המתכות והזהב רושמים ירידות חדות",
+  "summary": "מחירי הנפט גולמי התחזקו, בעוד שהמתכות התעשייתיות ירדו בהובלת נחושת ואלומיניום, והזהב והכסף צנחו כשזהב ירד מתחת ל-3,900 דולר.",
+  "kid": "מחירי הנפט עלו, אך במקביל מחירי המתכות והזהב ספגו ירידות חדות. זה משפיע על מניות האנרגיה וחומרי הגלם בשווקים.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנפט מתחזקים בעוד המתכות והזהב רושמים ירידות חדות",
+    "en": "Crude Oil Strengthens While Metals and Gold Plunge",
+    "ar": "النفط الخام يرتفع بينما تسجل المعادن والذهب هبوطاً حاداً",
+    "ru": "Нефть дорожает, в то время как металлы и золото резко падают"
+   },
+   "summary": {
+    "he": "מחירי הנפט גולמי התחזקו, בעוד שהמתכות התעשייתיות ירדו בהובלת נחושת ואלומיניום, והזהב והכסף צנחו כשזהב ירד מתחת ל-3,900 דולר.",
+    "en": "Crude oil strengthened, while industrial metals declined led by LME copper and aluminum, and gold and silver plunged with NY gold falling below $3,900.",
+    "ar": "عزز النفط الخام مكاسبه، بينما انخفضت المعادن الصناعية بقيادة النحاس والألومنيوم، وهبط الذهب والفضة بقوة حيث انخفض الذهب دون 3900 دولار.",
+    "ru": "Нефть укрепилась, промышленные металлы снизились во главе с медью и алюминием, а золото и серебро рухнули (золото упало ниже $3900)."
+   },
+   "kid": {
+    "he": "מחירי הנפט עלו, אך במקביל מחירי המתכות והזהב ספגו ירידות חדות. זה משפיע על מניות האנרגיה וחומרי הגלם בשווקים.",
+    "en": "Oil prices rose, but metals and gold suffered sharp drops at the same time. This impacts energy and commodity mining stocks.",
+    "ar": "ارتفعت أسعار النفط، لكن المعادن والذهب شهدت هبوطاً حاداً في نفس الوقت. يؤثر ذلك على أسهم قطاع الطاقة والمعادن.",
+    "ru": "Цены на нефть выросли, но металлы и золото резко упали. Это влияет на акции энергетического и сырьевого секторов."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQdXhtc0JDYXB2N2ZKUW5LUUkxLXdpUlcxNDJYZjdOMWtqUG5NR0VIelJFNFZoNlFYWFJfYy1STFBQSzRvVE1tMXVnR0VvMENnZDhIMndXMklEbi1RTUJXTTRWRVM5MDFmYmpTQ08zQ3l5YWtES0FiWmQ0ZjlEa0lQN0VZa3ZWZzBYQW41bW44WU9MVV8xMlBHYVgzUldWR1JEZlVpQUxfM3p4TC1fUW5id1E5RDFZWHF1Tmc4UVFsZFlaaXFhS2oxYXpKc2lVZW9SQ1BuUGR1NEV1WEdld21mVlVnX01yUC12MEJaU0pJSW5hMlJ1elBPSEZNMDlRMGxBMXpCWE9sNFZsTmlXTWxxODd0dDE2QUxsNjIwRkNaek04bVlobVp0eFJiYlBHak9XNTZUdDllMjhWM2VFdE9XNWxIXzRxeG5hSE5Z?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "חיזוק במחירי הנפט הגולמי במסחר.",
+    "reason_i18n": {
+     "he": "חיזוק במחירי הנפט הגולמי במסחר.",
+     "en": "Strengthening of crude oil prices in trading.",
+     "ar": "تعزيز أسعار النفط الخام في التداولات.",
+     "ru": "Укрепление цен на сырую нефть в ходе торгов."
+    },
+    "name_i18n": {
+     "he": "USO – קרן סל על נפט גולמי",
+     "en": "USO – Crude Oil ETF",
+     "ar": "USO - صندوق الاستثمار المتداول للنفط الخام",
+     "ru": "USO – ETF сырой нефти"
+    },
+    "price_at_alert": 146.07
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "צניחת מחיר הזהב אל מתחת ל-3,900 דולר לאונקיה.",
+    "reason_i18n": {
+     "he": "צניחת מחיר הזהב אל מתחת ל-3,900 דולר לאונקיה.",
+     "en": "Plunge in gold prices falling below $3,900 per ounce.",
+     "ar": "هبوط أسعار الذهب لتسقط دون 3900 دولار للأوقية.",
+     "ru": "Падение цен на золото ниже $3900 за унцию."
+    },
+    "name_i18n": {
+     "he": "GLD – קרן סל על זהב",
+     "en": "GLD – Gold ETF",
+     "ar": "GLD - صندوق الاستثمار المتداول للذهب",
+     "ru": "GLD – ETF золота"
+    },
+    "price_at_alert": 354.89
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "עליית מחירי הנפט הגולמי תומכת בחברות האנרגיה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט הגולמי תומכת בחברות האנרגיה.",
+     "en": "Rising crude oil prices support energy companies.",
+     "ar": "ارتفاع أسعار النفط الخام يدعم شركات الطاقة.",
+     "ru": "Рост цен на сырую нефть поддерживает энергетические компании."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סל של מגזר האנרגיה בארה\"ב",
+     "en": "XLE – US Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
+     "ru": "XLE – ETF энергетического сектора США"
+    },
+    "price_at_alert": 64.33
+   }
+  ],
+  "id": "f96da6b433a4"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "תשואות האג\"ח הגלובליות עולות על רקע אינפלציה והלוואות ממשלתיות",
+  "summary": "תשואות האג\"ח בעולם רושמות עליות על רקע לחצי אינפלציה מתמשכים והגברת היקפי ההלוואות הממשלתיות.",
+  "kid": "עלויות ההלוואה של ממשלות ברחבי העולם עולות כי הן לוקחות יותר חוב ויש אינפלציה. זה מייקר את הכסף ויכול להשפיע על שוק המניות.",
+  "i18n": {
+   "title": {
+    "he": "תשואות האג\"ח הגלובליות עולות על רקע אינפלציה והלוואות ממשלתיות",
+    "en": "Global Bond Yields on the Rise with Inflation and Government Borrowing",
+    "ar": "عوائد السندات العالمية في ترتفع وسط التضخم والاقتراض الحكومي",
+    "ru": "Доходность мировых облигаций растет на фоне инфляции и госзаимствований"
+   },
+   "summary": {
+    "he": "תשואות האג\"ח בעולם רושמות עליות על רקע לחצי אינפלציה מתמשכים והגברת היקפי ההלוואות הממשלתיות.",
+    "en": "Bond yields globally are ticking higher amid persistent inflation pressures and growing government borrowing volumes.",
+    "ar": "تشهد عوائد السندات عالمياً ارتفاعاً وسط ضغوط التضخم المستمرة وزيادة أحجام الاقتراض الحكومي.",
+    "ru": "Доходность облигаций по всему миру растет на фоне сохраняющегося инфляционного давления и роста объемов госзаимствований."
+   },
+   "kid": {
+    "he": "עלויות ההלוואה של ממשלות ברחבי העולם עולות כי הן לוקחות יותר חוב ויש אינפלציה. זה מייקר את הכסף ויכול להשפיע על שוק המניות.",
+    "en": "Governments worldwide are paying more to borrow money due to debt and inflation. This makes money more expensive and can affect stocks.",
+    "ar": "تدفع الحكومات حول العالم تكاليف أعلى للاقتراض بسبب الديون والتضخم. هذا يجعل الأموال أكثر تكلفة وقد يؤثر على الأسهم.",
+    "ru": "Правительства по всему миру платят больше за заимствования из-за долгов и инфляции. Это удорожает деньги и может давить на акции."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm1EQjBjWnZteGpMVTVNWG90THhOTDVsLUlta0xlU19RWHRYdXdmcWVnaVBHazlEOHZib05pWGlvd0JHX3ZNSTBZd1pWNjhucVhabF84ZjZzTFgwR09oaE1SWFhsUnI2VDBxU2pSTElDcEZLaGFiTW0tX093Q0lwUjJ2T1VnRTM2aDZpV0swYUh6RXBGMU4tRDQwYXhEdlh5V1E5UFRoR0w5Z1ZXQ002UTlMRkcycDNKTzFHR0JZbUdoVTVzOVdj0gHMAUFVX3lxTE0xNG5YNmxGT0dxMlkyRngxMk1vUmRMbmRlTEhNblpxMmFTM1hINVlQWmVEOC0tc2U5Q0NIenNBNVZfZ3UxV2ZzeUoyMXZBMHlfcENpbkdQX2ZHNHo1N2NMY1FuZ18wbHVHVURzOWljdEFpdDJQQXZCS3JYNGxQdFBfVF9iTTFTV1V0MUhEUVdnNVZQMXNaX3pVOEhvdjQyMm56TzlONWloaFBDN3VnZXMtVlY3cmJnQUNNcURMQ1ZBa2VpTVdfOGNaMjU0Rg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "עליית תשואות האג\"ח גורמת לירידה בשווי האג\"ח הקיימות.",
+    "reason_i18n": {
+     "he": "עליית תשואות האג\"ח גורמת לירידה בשווי האג\"ח הקיימות.",
+     "en": "Rising bond yields lead to a drop in existing bond prices.",
+     "ar": "ارتفاع عوائد السندات يؤدي إلى انخفاض أسعار السندات القائمة.",
+     "ru": "Рост доходности облигаций приводит к падению цен на существующие бумаги."
+    },
+    "name_i18n": {
+     "he": "TLT – קרן סל אג\"ח ממשלתי ארוך בארה\"ב",
+     "en": "TLT – US Long-Term Treasury Bond ETF",
+     "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
+     "ru": "TLT – ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 79.72
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "תשואות חסרות סיכון גבוהות יותר מפעילות תחרות לשוק המניות.",
+    "reason_i18n": {
+     "he": "תשואות חסרות סיכון גבוהות יותר מפעילות תחרות לשוק המניות.",
+     "en": "Higher risk-free yields create competition for the stock market.",
+     "ar": "عوائد الخالية من المخاطر الأعلى تخلق منافسة لسوق الأسهم.",
+     "ru": "Более высокая безрисковая доходность создает конкуренцию для рынка акций."
+    },
+    "name_i18n": {
+     "he": "SPY – קרן סל S&P 500",
+     "en": "SPY – S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر إس آند بي 500",
+     "ru": "SPY – ETF на индекс S&P 500"
+    },
+    "price_at_alert": 757.12
+   },
+   {
+    "ticker": "KRE",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "עלות גיוס חוב והלוואות גבוהות יותר לוחצות על המערכת הפיננסית.",
+    "reason_i18n": {
+     "he": "עלות גיוס חוב והלוואות גבוהות יותר לוחצות על המערכת הפיננסית.",
+     "en": "Higher borrowing costs put pressure on the financial system.",
+     "ar": "تكاليف الاقتراض الأعلى تضغط على النظام المالي.",
+     "ru": "Более высокие затраты на заимствования давят на финансовую систему."
+    },
+    "name_i18n": {
+     "he": "KRE – קרן סל בנקים אזוריים בארה\"ב",
+     "en": "KRE – US Regional Banking ETF",
+     "ar": "KRE - صندوق المصارف الإقليمية الأمريكية",
+     "ru": "KRE – ETF региональных банков США"
+    },
+    "price_at_alert": 72.52
+   }
+  ],
+  "id": "7a972657726a"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "לוקהיד מרטין זכתה בחוזה ענק בסך 1.32 מיליארד דולר",
+  "summary": "לוקהיד מרטין זכתה בחוזה בסך 1.32 מיליארד דולר להרחבת כוח האדם בהאנטר.",
+  "kid": "חברת הביטחון הענקית לוקהיד מרטין קיבלה חוזה ממשלתי גדול מאוד. זה יכול לעזור למניה שלה לעלות כי זה מבטיח לה הכנסות נוספות.",
+  "i18n": {
+   "title": {
+    "he": "לוקהיד מרטין זכתה בחוזה ענק בסך 1.32 מיליארד דולר",
+    "en": "Lockheed Martin Wins $1.32 Billion Contract",
+    "ar": "لوكهيد مارتن تفوز بعقد ضخم بقيمة 1.32 مليار دولار",
+    "ru": "Lockheed Martin выиграла крупный контракт на сумму $1,32 млрд"
+   },
+   "summary": {
+    "he": "לוקהיד מרטין זכתה בחוזה בסך 1.32 מיליארד דולר להרחבת כוח האדם בהאנטר.",
+    "en": "Lockheed Martin secured a $1.32 billion contract to grow its Hunter workforce.",
+    "ar": "حصلت لوكهيد مارتن على عقد بقيمة 1.32 مليار دولار لتوسيع القوى العاملة في هانتر.",
+    "ru": "Lockheed Martin заключила контракт на $1,32 млрд на расширение штата сотрудников в Хантере."
+   },
+   "kid": {
+    "he": "חברת הביטחון הענקית לוקהיד מרטין קיבלה חוזה ממשלתי גדול מאוד. זה יכול לעזור למניה שלה לעלות כי זה מבטיח לה הכנסות נוספות.",
+    "en": "Defense giant Lockheed Martin got a very large government contract. This could help its stock go up because it guarantees more money coming in.",
+    "ar": "حصلت عملاق الدفاع لوكهيد مارتن على عقد حكومي ضخم. قد يساعد هذا سهمها على الارتفاع لأنه يضمن لها أرباحاً إضافية.",
+    "ru": "Оборонный гигант Lockheed Martin получил крупный правительственный контракт. Это может поддержать акции компании, так как гарантирует рост доходов."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY0VTTUV5U3NGUHhUYm9mSHk1VEV1dWxoWUVNRF9tZmVlT0NfSmtZdTcya01Tc3BqQUZaVUNjTHF1dWZZMmZUbjlpaXlGeTdWUVlBTkxXMC1leWJVajFJWHJoWTZvTUVESFdPYW9MakpQTUJuQXRZR3g5QmdIMzJyaGlYWHJBTHlDODR0Z2Z1R2xCZ0dxWlVFcWNlNUJINHNMM1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "זכייה בחוזה ממשלתי משמעותי בשווי 1.32 מיליארד דולר.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ממשלתי משמעותי בשווי 1.32 מיליארד דולר.",
+     "en": "Winning a significant $1.32 billion government contract.",
+     "ar": "الفوز بعقد حكومي كبير بقيمة 1.32 مليار دولار.",
+     "ru": "Получение крупного государственного контракта на $1,32 млрд."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – יצרנית ביטחונית גדולה",
+     "en": "Lockheed Martin – a major defense manufacturer",
+     "ar": "لوكهيد مارتن - شركة تصنيع دفاعي كبرى",
+     "ru": "Lockheed Martin – крупный производитель продукции военного назначения"
+    },
+    "price_at_alert": 604.09
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "חוזה ביטחוני גדול המחזק את כל סक्टर הביטחון.",
+    "reason_i18n": {
+     "he": "חוזה ביטחוני גדול המחזק את כל סक्टर הביטחון.",
+     "en": "A major defense contract bolstering the entire sector.",
+     "ar": "عقد دفاعي كبير يعزز القطاع بأكمله.",
+     "ru": "Крупный оборонный контракт укрепляет весь сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל של חברות תעופה וביטחון בארה\"ב",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.73
+   }
+  ],
+  "id": "d1f973c39cf1"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "מרכז העל-מחשוב הסיני המעוקל מקבל מוצרי AI של אנבידיה",
+  "summary": "מרכז העל-מחשוב ג'ינאן, שנמצא תחת סנקציות של ארה\"ב, ממשיך לקבל מוצרי בינה מלאכותית של אנבידיה.",
+  "kid": "נחשף שמרכז סיני שעליו הוטלו איסורים עדיין מצליח לקנות שבבים חכמים של אנבידיה. זה עשוי לעורר בעיות רגולטוריות או חששות לגבי אכיפת הסנקציות.",
+  "i18n": {
+   "title": {
+    "he": "מרכז העל-מחשוב הסיני המעוקל מקבל מוצרי AI של אנבידיה",
+    "en": "US-Sanctioned Chinese Supercomputing Center Still Gets Nvidia AI Products",
+    "ar": "مركز الحوسبة الفائقة الصيني الخاضع للعقوبات يحصل على منتجات ذكاء اصطناعي من إنفيديا",
+    "ru": "Находящийся под санкциями США китайский суперкомпьютерный центр продолжает получать ИИ-чипы Nvidia"
+   },
+   "summary": {
+    "he": "מרכז העל-מחשוב ג'ינאן, שנמצא תחת סנקציות של ארה\"ב, ממשיך לקבל מוצרי בינה מלאכותית של אנבידיה.",
+    "en": "The US-sanctioned Jinan Supercomputing Center continues to acquire Nvidia AI products despite restrictions.",
+    "ar": "يستمر مركز جينان للحوسبة الفائقة، الخاضع للعقوبات الأمريكية، في الحصول على منتجات الذكاء الاصطناعي من إنفيديا.",
+    "ru": "Попавший под американские санкции суперкомпьютерный центр Цзинань продолжает получать ИИ-продукцию от Nvidia."
+   },
+   "kid": {
+    "he": "נחשף שמרכז סיני שעליו הוטלו איסורים עדיין מצליח לקנות שבבים חכמים של אנבידיה. זה עשוי לעורר בעיות רגולטוריות או חששות לגבי אכיפת הסנקציות.",
+    "en": "Reports show a sanctioned Chinese center is still buying smart computer chips from Nvidia. This could cause regulatory worries or questions about how rules are enforced.",
+    "ar": "تشير التقارير إلى أن مركزاً صينياً خاضعاً للعقوبات لا يزال يشتري رقاقات ذكية من إنفيديا. قد يثير هذا قلقاً تنظيمياً حول تطبيق القواعد.",
+    "ru": "Сообщается, что попавший под санкции китайский центр всё еще покупает умные чипы у Nvidia. Это может вызвать вопросы регуляторов к соблюдению запретов."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFR1ZFdTalpYNjNjS2ZqVVZuRWVOWDk5cEdXQkQ4b2pZRXdGRWUtVWtRQ0xiUFlWdVNiWHktaWxFdi1rQ2hqRjZNTkhvWjBhZXBVRnFfV3RnMHBNcmN4T25WZERvM0VmRVE1R2lobmlESnZraDBIa3hDblF0THMySkFFWExkRkp1anBQanl1NTZ1MXQ4?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "חשש מבדיקות רגולטוריות והדוקות יותר סביב עקיפת סנקציות בסין.",
+    "reason_i18n": {
+     "he": "חשש מבדיקות רגולטוריות והדוקות יותר סביב עקיפת סנקציות בסין.",
+     "en": "Concerns over regulatory scrutiny and stricter enforcement regarding China sanctions.",
+     "ar": "مخاوف من التدقيق التنظيمي وتشديد الرقابة حول الالتفاف على العقوبات في الصين.",
+     "ru": "Опасения регуляторного давления ижесткого контроля за обходом санкций в Китае."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – ענקית שבבי הבינה המלאכותית",
+     "en": "Nvidia – giant artificial intelligence chipmaker",
+     "ar": "إنفيديا - عملاق صناعة رقاقات الذكاء الاصطناعي",
+     "ru": "Nvidia – гигант по производству чипов искусственного интеллекта"
+    },
+    "price_at_alert": 166.19
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794531656,
+    "reason": "חשש כללי ממדיניות סחר נוקשה יותר נגד חברות שבבים בארה\"ב.",
+    "reason_i18n": {
+     "he": "חשש כללי ממדיניות סחר נוקשה יותר נגד חברות שבבים בארה\"ב.",
+     "en": "Broad concerns over tightening trade rules for US chipmakers.",
+     "ar": "مخاوف عامة بشأن تشديد قواعد التجارة لشركات الرقاقات الأمريكية.",
+     "ru": "Общие опасения по поводужестких торговых правил для американских производителей чипов."
+    },
+    "name_i18n": {
+     "he": "SMH – קרן סל של חברות מוליכים למחצה",
+     "en": "SMH – Semiconductor ETF",
+     "ar": "SMH - صندوق الاستثمار المتداول لأشباه الموصلات",
+     "ru": "SMH – ETF полупроводниковой отрасли"
+    },
+    "price_at_alert": 501.73
+   }
+  ],
+  "id": "ac97bbce1a2d"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "שביתה במכרה הנחושת היילנד ואלי פוגעת בעסקים המקומיים",
+  "summary": "שביתה במכרה הנחושת היילנד ואלי פוגעת קשות בפעילות העסקית המקומית ומעוררת חששות לשיבושי אספקה.",
+  "kid": "עובדים במכרה נחושת גדול פתחו בשביתה. מכיוון שנחושת משמשת להרבה מוצרים ותשתיות, פגיעה בהפקתה עשויה לייקר את המתכת.",
+  "i18n": {
+   "title": {
+    "he": "שביתה במכרה הנחושת היילנד ואלי פוגעת בעסקים המקומיים",
+    "en": "Highland Valley Copper Mine Strike Negatively Affects Local Businesses",
+    "ar": "إضراب منجم النحاس هايتايلاند فالي يؤثر سلباً على الشركات المحلية",
+    "ru": "Забастовка на медном руднике Хайленд-Вэлли негативно влияет на местный бизнес"
+   },
+   "summary": {
+    "he": "שביתה במכרה הנחושת היילנד ואלי פוגעת קשות בפעילות העסקית המקומית ומעוררת חששות לשיבושי אספקה.",
+    "en": "A strike at the Highland Valley Copper Mine is hurting local businesses and raising supply concerns.",
+    "ar": "يؤثر الإضراب في منجم النحاس هايتايلاند فالي سلباً على الأنشطة التجارية المحلية ويثير مخاوف بشأن الإمدادات.",
+    "ru": "Забастовка на медном руднике Хайленд-Вэлли наносит ущерб местному бизнесу и вызывает опасения по поводу поставок."
+   },
+   "kid": {
+    "he": "עובדים במכרה נחושת גדול פתחו בשביתה. מכיוון שנחושת משמשת להרבה מוצרים ותשתיות, פגיעה בהפקתה עשויה לייקר את המתכת.",
+    "en": "Workers at a major copper mine went on strike. Because copper is used in many products and infrastructure, disrupted output can push prices higher.",
+    "ar": "بدأ العمال في منجم نحاس كبير إضراباً. نظراً لاستخدام النحاس في منتجات وبنى تحتية كثيرة، قد يؤدي تعطل إنتاجه إلى ارتفاع سعره.",
+    "ru": "Рабочие крупного медного рудника начали забастовку. Поскольку медь используется во многих сферах, перебои с добычей могут поднять цены на металл."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0c0UElxVlI4RXB1WVZIbjlORlhEcjJmLXNqS19jUE9nMldHbTlRcjRCUzhwbTQtTjdoZWtiWjBBd0t5cktRZnFzQVhWR1p0WlV6SjNHcWswdE9mMW55eTh1YVJJUDR1eExfOVdXZGlTcGFSS1VJUFU0Q0ZZOEhUVQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "חשש מירידה באספקת הנחושת עקב השביתה במכרה.",
+    "reason_i18n": {
+     "he": "חשש מירידה באספקת הנחושת עקב השביתה במכרה.",
+     "en": "Concerns over reduced copper supply due to the mine strike.",
+     "ar": "مخاوف من انخفاض إمدادات النحاس بسبب إضراب المنجم.",
+     "ru": "Опасения сокращения поставок меди из-за забастовки на руднике."
+    },
+    "name_i18n": {
+     "he": "CPER – קרן סל על מתכת נחושת",
+     "en": "CPER – Copper ETF",
+     "ar": "CPER - صندوق الاستثمار المتداول للنحاس",
+     "ru": "CPER – ETF на медь"
+    },
+    "price_at_alert": 37.24
+   },
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "עליית מחירי הנחושת עקב שיבושי אספקה עשויה להטיב עם חברות הכרייה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנחושת עקב שיבושי אספקה עשויה להטיב עם חברות הכרייה.",
+     "en": "Higher copper prices driven by supply disruptions can boost miners.",
+     "ar": "ارتفاع أسعار النحاس المدفوع بتعطل الإمدادات قد يدعم شركات التعدين.",
+     "ru": "Рост цен на медь на фоне перебоев с поставками может поддержать майнеров."
+    },
+    "name_i18n": {
+     "he": "FCX – חברת כריית הנחושת פריפורט מקמوران",
+     "en": "FCX – Freeport-McMoRan copper miner",
+     "ar": "FCX - شركة فريبورت-ماكموران لتعدين النحاس",
+     "ru": "FCX – золото- и медедобывающая компания Freeport-McMoRan"
+    },
+    "price_at_alert": 60.45
+   }
+  ],
+  "id": "256d0c9b1c4f"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "מועצת הביטחון של האו\"ם האריכה את הסנקציות הקשורות לתימן בשנה נוספת",
+  "summary": "מועצת הביטחון של האו\"ם אישרה להאריך בשנה נוספת את סדרת העיצומים והסנקציות הקשורות למצב בתימן.",
+  "kid": "האו\"ם החליט להשאיר על כנן סנקציות הקשורות למצב בתימן. זה נועד לרסן גורמים אזוריים ולשמור על הביטחון בנתיבי השינוע והספנות.",
+  "i18n": {
+   "title": {
+    "he": "מועצת הביטחון של האו\"ם האריכה את הסנקציות הקשורות לתימן בשנה נוספת",
+    "en": "UN Security Council Extends Yemen-Related Sanctions for One Year",
+    "ar": "مجلس الأمن الدولي يمدد العقوبات المتعلقة باليمن لمدة عام آخر",
+    "ru": "Совбез ООН продлил санкции по Йемену еще на год"
+   },
+   "summary": {
+    "he": "מועצת הביטחון של האו\"ם אישרה להאריך בשנה נוספת את סדרת העיצומים והסנקציות הקשורות למצב בתימן.",
+    "en": "The UN Security Council voted to extend Yemen-related sanctions for an additional year.",
+    "ar": "وافق مجلس الأمن التابع للأمم المتحدة على تمديد العقوبات المتعلقة باليمن لمدة عام إضافي.",
+    "ru": "Совет Безопасности ООН проголосовал за продление связанных с Йеменом санкций еще на один год."
+   },
+   "kid": {
+    "he": "האו\"ם החליט להשאיר על כנן סנקציות הקשורות למצב בתימן. זה נועד לרסן גורמים אזוריים ולשמור על הביטחון בנתיבי השינוע והספנות.",
+    "en": "The UN decided to keep sanctions related to Yemen in place. This aims to curb regional actors and protect shipping routes.",
+    "ar": "قررت الأمم المتحدة إبقاء العقوبات المتعلقة باليمن. يهدف ذلك إلى كبح الأطراف الإقليمية وحماية طرق الملاحة.",
+    "ru": "ООН решила сохранить санкции в отношении Йемена для сдерживания региональных сил и защиты судоходных путей."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdzMxUlhlTkhiTjV3YnI2aHZLX2NPRFhLdFhXQURGck9meFZySWJqcXcxaE5SRzJVcmdKdDRmbkh0aU9zZTQtTUVoVjhkRlNncUdLY01tVUZQUm1aNV9ORHZXZF9XSkxYWmVYT0QxWHJhOEtLNjlYQlprMzV2cDl0LU8ybDdkVF9kekVFSlRKcVF5a0ZhZDRybzNEYVZ1eFpocmZz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "הארכת הסנקציות תומכת בשימור פרמיות סיכון גיאופוליטיות בשוקי האנרגיה.",
+    "reason_i18n": {
+     "he": "הארכת הסנקציות תומכת בשימור פרמיות סיכון גיאופוליטיות בשוקי האנרגיה.",
+     "en": "Extension of sanctions supports geopolitical risk premiums in energy markets.",
+     "ar": "تمديد العقوبات يدعم علاوات المخاطر الجيوسياسية في أسواق الطاقة.",
+     "ru": "Продление санкций поддерживает геополитические премии за риск на энергорынках."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סל מגזר האנרגיה בארה\"ב",
+     "en": "XLE – US Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة الأمريكي",
+     "ru": "XLE – ETF энергетического сектора США"
+    },
+    "price_at_alert": 64.33
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "המשך אמצעי הביטחון והסנקציות משפיע על ניווט הספינות בנתיבים באזור האדום.",
+    "reason_i18n": {
+     "he": "המשך אמצעי הביטחון והסנקציות משפיע על ניווט הספינות בנתיבים באזור האדום.",
+     "en": "Continued security measures and sanctions impact regional shipping routes.",
+     "ar": "استمرار التدابير الأمنية والعقوبات يؤثر على مسارات الشحن في المنطقة.",
+     "ru": "Продолжение мер безопасности и санкций влияет на региональные судоходные маршруты."
+    },
+    "name_i18n": {
+     "he": "ZIM – חברת ספנות ימית גלובלית",
+     "en": "ZIM – Global marine shipping company",
+     "ar": "ZIM - شركة الشحن البحري العالمي",
+     "ru": "ZIM – глобальная судоходная компания"
+    },
+    "price_at_alert": 29.24
+   }
+  ],
+  "id": "880344189dff"
+ },
+ {
+  "ts": 1794531656,
+  "time": "2026-11-13T01:00Z",
+  "title": "וולאר שיפינג תרכוש מכלית נפט חדשה מחברת בת של טראפיגורה",
+  "summary": "חברת הספנות וולאר סיכמה על רכישת מכלית נפט גולמי ענקית חדשה (VLCC) מחברת בת של ענקית הסחורות טראפיגורה.",
+  "kid": "חברת ספנות קונה מכלית נפט ענקית חדשה. זה מראה על פעילות ערה בשוק הובלת הנפט והאנרגיה הימית.",
+  "i18n": {
+   "title": {
+    "he": "וולאר שיפינג תרכוש מכלית נפט חדשה מחברת בת של טראפיגורה",
+    "en": "Volare Shipping to Acquire Newbuild VLCC from Trafigura Affiliate",
+    "ar": "فولار شيبينغ ستستحوذ على ناقلة نفط عملاقة جديدة من شركة تابعة لترافيغورا",
+    "ru": "Volare Shipping приобретет новое супертанкерное судно VLCC у структуры Trafigura"
+   },
+   "summary": {
+    "he": "חברת הספנות וולאר סיכמה על רכישת מכלית נפט גולמי ענקית חדשה (VLCC) מחברת בת של ענקית הסחורות טראפיגורה.",
+    "en": "Volare Shipping has agreed to acquire a newbuild Very Large Crude Carrier (VLCC) from an affiliate of commodity giant Trafigura.",
+    "ar": "وافقت شركة فولار شيبينغ على الاستحواذ على ناقلة نفط عملاقة جديدة (VLCC) من شركة تابعة لعملاق السلع ترافيغورا.",
+    "ru": "Компания Volare Shipping договорилась о покупке нового супертанкера VLCC у дочерней структуры сырьевого гиганта Trafigura."
+   },
+   "kid": {
+    "he": "חברת ספנות קונה מכלית נפט ענקית חדשה. זה מראה על פעילות ערה בשוק הובלת הנפט והאנרגיה הימית.",
+    "en": "A shipping company is buying a brand new, giant oil tanker. This shows active business in the maritime oil transport market.",
+    "ar": "تشتري شركة شحن ناقلة نفط عملاقة جديدة. يظهر هذا نشاطاً تجارياً في سوق نقل النفط البحري.",
+    "ru": "Судоходная компания покупает новый гигантский нефтяной танкер. Это свидетельствует об активности на рынке морских перевозок нефти."
+   }
+  },
+  "category": "commodities",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TYWFMMWJaXzM5dVB1cVFnWGVLWWF6V2NzLWV4Sk16MGVCUVlpc3FlNktuYWEtZC1wOTFlTzNPdXlPNkZFRl91bERmSTFmOE0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794531656,
+    "reason": "השקעות חדשות בציוד הובלת נפט מעידות על ביקושים איתנים לשינוע אנרגיה.",
+    "reason_i18n": {
+     "he": "השקעות חדשות בציוד הובלת נפט מעידות על ביקושים איתנים לשינוע אנרגיה.",
+     "en": "New investments in oil transport fleet reflect solid energy shipping demand.",
+     "ar": "الاستثمارات الجديدة في أساطيل نقل النفط تعكس طلباً قوياً على شحن الطاقة.",
+     "ru": "Новые инвестиции в флот для перевозки нефти отражают устойчивый спрос."
+    },
+    "name_i18n": {
+     "he": "USO – קרן סל על נפט גולמי",
+     "en": "USO – Crude Oil ETF",
+     "ar": "USO - صندوق الاستثمار المتداول للنفط الخام",
+     "ru": "SPDR S&P Oil & Gas Exploration & Production ETF"
+    },
+    "price_at_alert": 146.07
+   }
+  ],
+  "id": "f483b659a660"
  }
 ]
