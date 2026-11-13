@@ -80454,7 +80454,28 @@
   "category": "commodities",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRzQ3NnNpSGJjSHJWRmJTM05KTDNLcnJkTVhXSHhvNWl1SHpCMVlMRUtWa1NxdXQ2R2FYMEQ2eDZZZWtva1pCVDZMR1NKVTlRbk1zVG8zR2NkSTNfajdPdE1XUE9Tb2tSWHkyTlQ5Wll3VW5PWE02Z3JpWjl2QlhmeUVaVDVmcWJkdTRPN0xsOU9OZ2RDN2twdlg2QkZkOXBsUnhJbFpDN016eV9kSThDZQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmpsYUVLMURiNVZob1pMdnktNEhpYVdkX3BBenY3Zk5OSGpYU1E2MUdyRlRqU204eE1Bbkxqdmo0ejE3RHBlNUxyWnFhcnhaVkFNbUxCMm1VUU1xNkVsdTA0RmFjbnBqUzlXUTBlejNmZXZlNjdxaUo1UFJfUHJCcXp3ZVM4ajFaUHd5Z3JXd3FDSUxzX2c?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeV9uNUpjNVNERTMwcXZyWnA2Z3hGdHQ5MmwxOUNIUDZ1blVFYjZILXJlTWtfNzVIdlEyU1daUHBzWWRYU1RHVTBDZVhwb2lLajRlREpETDhRenVIVDFtOWxNdE9zTHFTSDZLUUpjd01qOTNuYjV6TTN2U2NGckdyLURPU29IS1E?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdG55dGRPYnR3Mmk1WHNHN3BpMU1Jdk5zTlBKa0w1QWF0cHZ5NDJNRkw1WEs2MnVIcXBLNzJkUVhGM2lJOXlvTjVjY3ZmQ2ZnZEFLSzYxSUJaTDU3TU1fVlVoRlB0RVBXenpJUGdwQ0UxbHhyaWxValRJX3Vmd2U4emtJbnhlNmtaNkJ1Qk80TC0zWkc4M0gtRHo4YW4wTXdHYzI3eW9Jby1CeVZ4ZHFGZEJNVi1GeHFMblJvN1R3Sm53Y3Fub053VU12WVN0MnlqdUtESDZXeThJN044cnFVZkh5Y2hpRllUWDI1NTN5MnRYZmlxZThXRVJiYUZuSGxpZG52V2F2MUQ5dw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE4xSktuTXljc0xWNlN1NEMzWnJ0aG5RTVN0b19ET1QyMWlaWTNKQnNIV2JHSlFCeXdMbGRjcU04akU?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CPER",
@@ -80474,9 +80495,43 @@
      "ru": "Медь"
     },
     "price_at_alert": 37.24
+   },
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794541934,
+    "reason": "עליית מחירי הנחושת עקב מחסור",
+    "reason_i18n": {
+     "he": "עליית מחירי הנחושת עקב מחסור",
+     "en": "Rising copper prices due to scarcity",
+     "ar": "ارتفاع أسعار النحاس بسبب الندرة",
+     "ru": "Рост цен на медь из-за дефицита"
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן",
+     "en": "Freeport-McMoRan",
+     "ar": "فريبورت-ماكموران",
+     "ru": "Freeport-McMoRan"
+    },
+    "price_at_alert": 60.45
    }
   ],
-  "id": "58eba49c781f"
+  "id": "58eba49c781f",
+  "updates": [
+   {
+    "ts": 1794541934,
+    "time": "2026-11-13T03:52Z",
+    "severity": 4,
+    "summary": "חברת קפסטון קופר הורידה תחזיות עקב שביתות, בעוד דיווחים על גניבות נחושת נרחבות באוסטרליה ובארה\"ב מעלים חששות לגבי שרשרת האספקה.",
+    "i18n": {
+     "he": "חברת קפסטון קופר הורידה תחזיות עקב שביתות, בעוד דיווחים על גניבות נחושת נרחבות באוסטרליה ובארה\"ב מעלים חששות לגבי שרשרת האספקה.",
+     "en": "Capstone Copper lowered guidance due to strikes, while reports of widespread copper theft in Australia and the US raise supply chain concerns.",
+     "ar": "خفضت شركة كابستون كوبر توقعاتها بسبب الإضرابات، بينما تثير تقارير عن سرقات نحاس واسعة النطاق في أستراليا والولايات المتحدة مخاوف بشأن سلسلة التوريد.",
+     "ru": "Capstone Copper снизила прогнозы из-за забастовок, а сообщения о массовых кражах меди в Австралии и США вызывают опасения по поводу цепочки поставок."
+    }
+   }
+  ],
+  "last_update": 1794541934
  },
  {
   "ts": 1794538225,
@@ -80612,5 +80667,148 @@
    }
   ],
   "id": "fcbd6d4f73e4"
+ },
+ {
+  "ts": 1794541934,
+  "time": "2026-11-13T03:52Z",
+  "title": "גל של אירועי סייבר ושיבושים טכנולוגיים",
+  "summary": "דיווחים על פריצה למערכות של ענקית הספנות מארסק וגניבת נתונים, לצד מתקפת סייבר של בינה מלאכותית על חברות טלקום אירופיות ותקלה בשירותי מיקרוסופט.",
+  "kid": "האקרים פרצו למחשבים של חברות גדולות וגרמו לתקלות. זה עלול להשפיע על מחירי המניות של חברות טכנולוגיה וספנות.",
+  "i18n": {
+   "title": {
+    "he": "גל של אירועי סייבר ושיבושים טכנולוגיים",
+    "en": "Wave of cyber incidents and tech outages",
+    "ar": "موجة من حوادث الإنترنت والأعطال التقنية",
+    "ru": "Волна киберинцидентов и технологических сбоев"
+   },
+   "summary": {
+    "he": "דיווחים על פריצה למערכות של ענקית הספנות מארסק וגניבת נתונים, לצד מתקפת סייבר של בינה מלאכותית על חברות טלקום אירופיות ותקלה בשירותי מיקרוסופט.",
+    "en": "Reports of a data breach at shipping giant Maersk, an AI-driven cyberattack on European telecom firms, and service outages at Microsoft.",
+    "ar": "تقارير عن اختراق بيانات في شركة الشحن العملاقة ميرسك، وهجوم سيبراني مدعوم بالذكاء الاصطناعي على شركات اتصالات أوروبية، وأعطال في خدمات مايكרוסופت.",
+    "ru": "Сообщения об утечке данных в судоходном гиганте Maersk, кибератаке с использованием ИИ на европейские телекоммуникационные компании и сбоях в сервисах Microsoft."
+   },
+   "kid": {
+    "he": "האקרים פרצו למחשבים של חברות גדולות וגרמו לתקלות. זה עלול להשפיע על מחירי המניות של חברות טכנולוגיה וספנות.",
+    "en": "Hackers broke into the computers of big companies, causing problems. This might make the stock prices of technology and shipping companies go up or down.",
+    "ar": "قام قراصنة باختراق حواسيب شركات كبرى مما تسبب في مشاكل. هذا قد يؤثر على أسعار أسهم شركات التكنولوجيا والشحن.",
+    "ru": "Хакеры взломали компьютеры крупных компаний, вызвав проблемы. Это может повлиять на цены акций технологических и судоходных компаний."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc3h4TmFJTERMc1BOYlZHUmFtQmdUeTE1eHlCN2doTHBBSXVrS0hocjhPSEg1VWhfdGJrMVVPOUE4Ny1QcUN3MU94Y090U3RtUkhRN3k1SEtTcHU2d2FLVVE1eG9nR3FTMzJlZkxaLVptNFhVMG5OczBSR0hFb1Z2NWxKdXVRRjVfU1ZXTm9rbnpDVHR6ZDlvbmJQOGdJZDhSM1Z6Y01XZTFrcl9peU9PVXpPd0pQTkhXODVKXzFHNUZtTFFpY0RLQ3RiRE9Cem12RXluQzhfR2VTc0dpOXRKXw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nUkZnTmpsUVFmRTlRY3FMMjFDc1BoZFhaOUhxUDVoLTFQejljYXI0Qm8wMTFnSWxaRlZicldQZ1NHNUJ1NmhfUlBpUUJodTVDU2k1R2hCMjF6YWNXbmJGSENR0gFnQVVfeXFMUFdPczF4ZVNQYWdwNDZEZVNIQm9Nc1RPQTFUSzBCV3VyRVIxdWFFWVdfM3BnX19ZX2NZRlhIa2M4a1VXTXF2dk9Hbm1EeTljc3NRdUlaTzlmZjBpTTRDNVhJZ1BHb1RUbw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ2hNVktrcWlOMnVhRjNSb1h6ZjZWX3BtSmRKZG1aaF8waHgzcnRZWDhIdWNLczdzYWt2T1BMRXlmajlkVDhrbEJzX3VHZi1mX3VXNl91YThJejhsOE9wSkZKOXNBVHJlOFFLRXViX2VYMktzMlpwNUdQOFdRTllVRnlnRWUycVJVYkZSSm90SHQ2T2Q3MGhNaGpfTjBGeExyWkk0QUp6ZFBnZ0ZY0gGyAUFVX3lxTE1QdHpHUDdwcDVoSE11dFJfUGhfbU83REE1dG5zaHN5aXpTR0lSZjR4YThsOVFtd1hQeGhndGFtX190emVFMmdvZWRDY2ZJdk9sVU9qRnpPOTNWQ2w4bnlacEZrUnJ6dk1LRXh4bWwyM3BNNUU2MEtiUF9zRzFKZkZsZVlJeHpDMlptandCSndRX1JMVTZsOHRvVG5NVjl0QjRYdkdwaW1IQ1luMnczdU1oakE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "MSFT",
+    "direction": "down",
+    "t0": 1794541934,
+    "reason": "תקלות בשירותי הענן והתוכנה",
+    "reason_i18n": {
+     "he": "תקלות בשירותי הענן והתוכנה",
+     "en": "Service outages in cloud and software",
+     "ar": "أعطال في خدمات السحابة والبرمجيات",
+     "ru": "Сбои в облачных и программных сервисах"
+    },
+    "name_i18n": {
+     "he": "מיקרוסופט",
+     "en": "Microsoft",
+     "ar": "مايكروسوفت",
+     "ru": "Microsoft"
+    },
+    "price_at_alert": 523.0
+   },
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794541934,
+    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחת סייבר",
+     "en": "Increased demand for cybersecurity solutions",
+     "ar": "زيادة الطلب على حلول الأمن السيبراني",
+     "ru": "Рост спроса на решения по кибербезопасности"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק",
+     "en": "CrowdStrike",
+     "ar": "كراود سترايك",
+     "ru": "CrowdStrike"
+    },
+    "price_at_alert": 229.87
+   }
+  ],
+  "id": "d5e256fec85a"
+ },
+ {
+  "ts": 1794541934,
+  "time": "2026-11-13T03:52Z",
+  "title": "סין מאריכה את בקרת הייצוא על דיספרוסיום",
+  "summary": "סין האריכה את מגבלות הייצוא על דיספרוסיום, חומר גלם קריטי לתעשיות מגנטים וטכנולוגיה, עד שנת 2027.",
+  "kid": "סין שולטת בחומר שחשוב למגנטים חזקים. הגבלת המכירה שלו לעולם עלולה לייקר מוצרים טכנולוגיים.",
+  "i18n": {
+   "title": {
+    "he": "סין מאריכה את בקרת הייצוא על דיספרוסיום",
+    "en": "China extends export controls on dysprosium",
+    "ar": "الصين تمدد قيود التصدير على الديسبروسيوم",
+    "ru": "Китай продлевает экспортный контроль над диспрозием"
+   },
+   "summary": {
+    "he": "סין האריכה את מגבלות הייצוא על דיספרוסיום, חומר גלם קריטי לתעשיות מגנטים וטכנולוגיה, עד שנת 2027.",
+    "en": "China has extended export restrictions on dysprosium, a critical raw material for magnet and technology industries, through 2027.",
+    "ar": "مددت الصين قيود التصدير على الديسبروسيوم، وهو مادة خام حيوية لصناعات المغناطيس والتكنولوجيا، حتى عام 2027.",
+    "ru": "Китай продлил экспортные ограничения на диспрозий, критически важное сырье для индустрии магнитов и технологий, до 2027 года."
+   },
+   "kid": {
+    "he": "סין שולטת בחומר שחשוב למגנטים חזקים. הגבלת המכירה שלו לעולם עלולה לייקר מוצרים טכנולוגיים.",
+    "en": "China controls a material important for strong magnets. Limiting its sale to the world could make tech products more expensive.",
+    "ar": "تسيطر الصين على مادة مهمة للمغناطيسات القوية. تقييد بيعها للعالم قد يجعل المنتجات التكنولوجية أكثر تكلفة.",
+    "ru": "Китай контролирует материал, важный для мощных магнитов. Ограничение его продажи миру может сделать технологические товары дороже."
+   }
+  },
+  "category": "trade",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81cWZJUDUyb0NpdnYwRXlpeU84V0dfYUdQVmk1emVMZW5WaTBCRnFpNkpienltVGMxTHozcm1nZm56eEs0dE5lVFg4cVRKYjQ3Q25KT3UtNmhIWlMwbWgxc1FoVmRDbmhVdjI3bVZqd0NuSlktM3Y2MUVDUnVMNjQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LIT",
+    "direction": "down",
+    "t0": 1794541934,
+    "reason": "עלייה בעלויות חומרי גלם למגנטים",
+    "reason_i18n": {
+     "he": "עלייה בעלויות חומרי גלם למגנטים",
+     "en": "Increased raw material costs for magnets",
+     "ar": "زيادة تكاليف المواد الخام للمغناطيسات",
+     "ru": "Рост затрат на сырье для магнитов"
+    },
+    "name_i18n": {
+     "he": "קרן סל ליתיום וסוללות",
+     "en": "Lithium & Battery ETF",
+     "ar": "صندوق الليثيوم والبطاريات",
+     "ru": "ETF на литий и батареи"
+    },
+    "price_at_alert": 59.43
+   }
+  ],
+  "id": "1380f016e69f"
  }
 ]
