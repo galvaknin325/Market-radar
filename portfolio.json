@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T12:28Z",
+ "generated": "2026-11-13T13:45Z",
  "trade_size": 1000,
  "important": {
-  "trades": 163,
+  "trades": 164,
   "wins": 77,
   "hits": 78,
-  "pnl": 536.0,
-  "bench_pnl": 90.0,
+  "pnl": 522.1,
+  "bench_pnl": 83.3,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -86,9 +86,33 @@
     "date": "2026-11-12",
     "equity": 536.0,
     "bench": 90.0
+   },
+   {
+    "date": "2026-11-13",
+    "equity": 522.1,
+    "bench": 83.3
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-13",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 6,
+    "cat": "contracts",
+    "id": "3dc751343e3b",
+    "title": "אלביט מערכות זכתה בחוזה ענק בסך 260 מיליון דולר",
+    "title_i18n": {
+     "he": "אלביט מערכות זכתה בחוזה ענק בסך 260 מיליון דולר",
+     "en": "Elbit Systems Wins $260M Rocket Artillery Contract",
+     "ar": "إلبيت سيستمز تفوز بعقد مدفعية صاروخية بقيمة 260 مليون دولار",
+     "ru": "Elbit Systems выигрывает контракт на поставку ракетной артиллерии на сумму $260 млн"
+    },
+    "change_pct": -1.39,
+    "hit": false,
+    "pnl": -13.9,
+    "bench_pnl": -6.7
+   },
    {
     "date": "2026-11-12",
     "ticker": "XOM",
@@ -639,34 +663,15 @@
     "hit": true,
     "pnl": 20.2,
     "bench_pnl": 15.9
-   },
-   {
-    "date": "2026-11-11",
-    "ticker": "USO",
-    "dir": "down",
-    "severity": 7,
-    "cat": "geopolitics",
-    "id": "9aa6fc7011a1",
-    "title": "התפתחויות במתיחות במפרץ הפרסי ובמצר הורמוז",
-    "title_i18n": {
-     "he": "התפתחויות במתיחות במפרץ הפרסי ובמצר הורמוז",
-     "en": "Developments in Persian Gulf and Strait of Hormuz tensions",
-     "ar": "تطورات التوترات في الخليج العربي ومضيق هرمز",
-     "ru": "Развитие напряженности в Персидском заливе и Ормузском проливе"
-    },
-    "change_pct": 2.02,
-    "hit": false,
-    "pnl": -20.2,
-    "bench_pnl": 15.9
    }
   ]
  },
  "all": {
-  "trades": 517,
+  "trades": 518,
   "wins": 262,
   "hits": 259,
-  "pnl": 567.4,
-  "bench_pnl": -409.1,
+  "pnl": 553.5,
+  "bench_pnl": -415.8,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -746,9 +751,33 @@
     "date": "2026-11-12",
     "equity": 567.4,
     "bench": -409.1
+   },
+   {
+    "date": "2026-11-13",
+    "equity": 553.5,
+    "bench": -415.8
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-13",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 6,
+    "cat": "contracts",
+    "id": "3dc751343e3b",
+    "title": "אלביט מערכות זכתה בחוזה ענק בסך 260 מיליון דולר",
+    "title_i18n": {
+     "he": "אלביט מערכות זכתה בחוזה ענק בסך 260 מיליון דולר",
+     "en": "Elbit Systems Wins $260M Rocket Artillery Contract",
+     "ar": "إلبيت سيستمز تفوز بعقد مدفعية صاروخية بقيمة 260 مليون دولار",
+     "ru": "Elbit Systems выигрывает контракт на поставку ракетной артиллерии на сумму $260 млн"
+    },
+    "change_pct": -1.39,
+    "hit": false,
+    "pnl": -13.9,
+    "bench_pnl": -6.7
+   },
    {
     "date": "2026-11-12",
     "ticker": "ZIM",
@@ -1298,25 +1327,6 @@
     "change_pct": -8.47,
     "hit": false,
     "pnl": -84.7,
-    "bench_pnl": 0.5
-   },
-   {
-    "date": "2026-11-12",
-    "ticker": "LMT",
-    "dir": "up",
-    "severity": 3,
-    "cat": "policy",
-    "id": "558de06907c7",
-    "title": "בית הנבחרים בארה\"ב דחה הצבעה להדחת שר ההגנה פיט הגסת'",
-    "title_i18n": {
-     "he": "בית הנבחרים בארה\"ב דחה הצבעה להדחת שר ההגנה פיט הגסת'",
-     "en": "US House blocks bid to impeach Defense Secretary Pete Hegseth",
-     "ar": "مجلس النواب الأمريكي يمنع محاولة عزل وزير الدفاع بيت هيغسيث",
-     "ru": "Палата представителей США заблокировала попытку импичмента министра обороны Пита Хегсета"
-    },
-    "change_pct": 1.08,
-    "hit": true,
-    "pnl": 10.8,
     "bench_pnl": 0.5
    }
   ]

@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-13T12:28Z",
+ "generated": "2026-11-13T13:45Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 820,
+ "total_alerts": 823,
  "overall": {
-  "n": 517,
+  "n": 518,
   "hits": 259,
   "avg_edge": 0.12
  },
@@ -19,9 +19,9 @@
    "avg_edge": 0.11
   },
   "contracts": {
-   "n": 119,
+   "n": 120,
    "hits": 64,
-   "avg_edge": 0.23
+   "avg_edge": 0.22
   },
   "cyber": {
    "n": 21,
@@ -66,9 +66,9 @@
    "avg_edge": 0.18
   },
   "6-7": {
-   "n": 126,
+   "n": 127,
    "hits": 61,
-   "avg_edge": 0.66
+   "avg_edge": 0.65
   },
   "8-10": {
    "n": 37,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 92,
+   "mentions": 93,
    "n": 78,
    "hits": 31,
    "name": {
-    "he": "נפט",
-    "en": "Crude Oil",
-    "ar": "النفط الخام",
-    "ru": "Сырая нефть"
+    "he": "תעודת סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط المتداول",
+    "ru": "ETF на нефть"
    },
    "avg_edge": -0.37
   },
@@ -114,7 +114,7 @@
    "avg_edge": 0.74
   },
   "XOM": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 24,
    "hits": 10,
    "name": {
@@ -175,7 +175,7 @@
   },
   "ESLT.TA": {
    "mentions": 6,
-   "n": 5,
+   "n": 6,
    "hits": 2,
    "name": {
     "he": "ESLT.TA - אלביט מערכות (בורסת תל אביב)",
@@ -183,7 +183,7 @@
     "ar": "ESLT.TA - إلبيط سيستمز (بورصة تل أبيب)",
     "ru": "ESLT.TA - Elbit Systems (ТАФБ)"
    },
-   "avg_edge": -0.21
+   "avg_edge": -0.29
   },
   "ESLT": {
    "mentions": 16,
@@ -222,14 +222,14 @@
    "avg_edge": 0.51
   },
   "SPY": {
-   "mentions": 88,
+   "mentions": 89,
    "n": 76,
    "hits": 34,
    "name": {
-    "he": "אספאיי - מדד 500 החברות הגדולות בארה\"ב",
-    "en": "SPY - S&P 500 large-cap ETF",
-    "ar": "SPY - صندوق مؤشر إس آند بي 500",
-    "ru": "SPY - ETF индекса S&P 500"
+    "he": "מדד S&P 500",
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": -0.16
   },
@@ -282,14 +282,14 @@
    "avg_edge": 5.23
   },
   "TLT": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 24,
    "hits": 20,
    "name": {
-    "he": "אג\"ח ארה\"ב ארוכות טווח",
-    "en": "TLT - Long-term US Treasury bonds ETF",
-    "ar": "TLT - صندوق سندات الخزان الأمريكية طويلة الأجل",
-    "ru": "TLT - ETF долгосрочных гособлигаций США"
+    "he": "אג\"ח ממשלתי לטווח ארוך",
+    "en": "Long-term US Treasury bonds",
+    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "Долгосрочные казначейские облигации США"
    },
    "avg_edge": 1.4
   },
@@ -1454,6 +1454,18 @@
     "en": "Southern Copper",
     "ar": "ساوثرن كوبر",
     "ru": "Southern Copper"
+   },
+   "avg_edge": null
+  },
+  "NOK": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "נוקיה",
+    "en": "Nokia",
+    "ar": "نوكيا",
+    "ru": "Nokia"
    },
    "avg_edge": null
   }

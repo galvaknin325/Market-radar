@@ -76431,7 +76431,18 @@
      "ar": "ESLT.TA - إلبيط سيستمز (بورصة تل أبيب)",
      "ru": "ESLT.TA - Elbit Systems (ТАФБ)"
     },
-    "price_at_alert": 233840.0
+    "price_at_alert": 233840.0,
+    "entry_price": 231590.0,
+    "entry_time": "2026-11-12T14:50+00:00",
+    "exit_price": 228360.0,
+    "exit_date": "2026-11-13",
+    "change_pct": -1.39,
+    "bench": "TA35.TA",
+    "bench_change_pct": -0.67,
+    "excess_pct": -0.73,
+    "edge_pct": -0.73,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "3dc751343e3b",
@@ -79250,9 +79261,21 @@
      "ar": "انقطاع تقني واسع النطاق يعطل خدمات مايكרוסופט 365، بما في ذلك Outlook وTeams على مستوى العالم. تشير الشركة إلى أن جهود الإصلاح لا تسير كما هو متوقع.",
      "ru": "Масштабный технический сбой нарушает работу сервисов Microsoft 365, включая Outlook и Teams, по всему миру. Компания сообщает, что процесс восстановления идет не по плану."
     }
+   },
+   {
+    "ts": 1794577463,
+    "time": "2026-11-13T13:44Z",
+    "severity": 4,
+    "summary": "תקלה מתמשכת בשירותי מיקרוסופט, כולל Outlook ו-Teams, השפיעה על משתמשים ברחבי העולם, אם כי החברה מדווחת על סימני התאוששות.",
+    "i18n": {
+     "he": "תקלה מתמשכת בשירותי מיקרוסופט, כולל Outlook ו-Teams, השפיעה על משתמשים ברחבי העולם, אם כי החברה מדווחת על סימני התאוששות.",
+     "en": "A persistent outage in Microsoft services, including Outlook and Teams, affected users globally, though the company reports signs of recovery.",
+     "ar": "أثر انقطاع مستمر في خدمات مايكروسوفت، بما في ذلك Outlook و Teams، على المستخدمين عالمياً، على الرغم من أن الشركة تبلغ عن علامات التعافي.",
+     "ru": "Продолжающийся сбой в сервисах Microsoft, включая Outlook и Teams, затронул пользователей по всему миру, хотя компания сообщает о признаках восстановления."
+    }
    }
   ],
-  "last_update": 1794569210
+  "last_update": 1794577463
  },
  {
   "ts": 1794521948,
@@ -80821,6 +80844,14 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rcWpWNzgxQkw5Sm5QMXlja1JzbVdEejduSFpHa1JTbUg2dXJjSm9xcFpZOW05Q3JNNTJkWGwxVk9sN2ZRcjR6SDQ0UzRMNURLaUwwZVNLbkxIV0hUYU1qTmd3clZVMzhVNHhwempUT2JYaFkxelIxOUlB?oc=5"
    }
   ],
   "impacts": [
@@ -80863,7 +80894,22 @@
     "price_at_alert": 71.73
    }
   ],
-  "id": "844459719a64"
+  "id": "844459719a64",
+  "updates": [
+   {
+    "ts": 1794577463,
+    "time": "2026-11-13T13:44Z",
+    "severity": 5,
+    "summary": "הנשיא טראמפ הצהיר כי הוא מעוניין 'לסיים את העניין עם קובה' לפני סיום כהונתו, ואמר כי ישקול שימוש בכוח צבאי.",
+    "i18n": {
+     "he": "הנשיא טראמפ הצהיר כי הוא מעוניין 'לסיים את העניין עם קובה' לפני סיום כהונתו, ואמר כי ישקול שימוש בכוח צבאי.",
+     "en": "President Trump stated he wants to 'get Cuba done' before leaving office, saying he would consider using military force.",
+     "ar": "صرح الرئيس ترامب بأنه يريد 'إنهاء الأمر مع كوبا' قبل مغادرة منصبه، قائلاً إنه سيفكر في استخدام القوة العسكرية.",
+     "ru": "Президент Трамп заявил, что хочет «покончить с Кубой» до ухода с поста, отметив, что рассмотрит возможность применения военной силы."
+    }
+   }
+  ],
+  "last_update": 1794577463
  },
  {
   "ts": 1794538225,
@@ -82474,5 +82520,241 @@
    }
   ],
   "id": "586a935bc8ce"
+ },
+ {
+  "ts": 1794577463,
+  "time": "2026-11-13T13:44Z",
+  "title": "עלייה באינפלציית היצרנים בארה\"ב",
+  "summary": "מדד מחירי היצרן בארה\"ב עלה ב-0.3% באוקטובר, מה שהביא את האינפלציה השנתית ל-6.5%, הרמה הגבוהה ביותר מזה ארבע שנים.",
+  "kid": "המחירים שמשלמים עסקים על חומרי גלם עלו יותר מהצפוי. זה עלול לגרום לבנק המרכזי להשאיר את הריבית גבוהה כדי להילחם ביוקר המחיה.",
+  "i18n": {
+   "title": {
+    "he": "עלייה באינפלציית היצרנים בארה\"ב",
+    "en": "US Producer Inflation Rises",
+    "ar": "ارتفاع تضخم المنتجين في الولايات المتحدة",
+    "ru": "Рост инфляции производителей в США"
+   },
+   "summary": {
+    "he": "מדד מחירי היצרן בארה\"ב עלה ב-0.3% באוקטובר, מה שהביא את האינפלציה השנתית ל-6.5%, הרמה הגבוהה ביותר מזה ארבע שנים.",
+    "en": "The US Producer Price Index rose 0.3% in October, bringing the annual inflation rate to 6.5%, the highest in nearly four years.",
+    "ar": "ارتفع مؤشر أسعار المنتجين في الولايات المتحدة بنسبة 0.3% في أكتوبر، مما رفع معدل التضخم السنوي إلى 6.5%، وهو أعلى مستوى منذ أربع سنوات.",
+    "ru": "Индекс цен производителей в США вырос на 0,3% в октябре, доведя годовой уровень инфляции до 6,5%, что является самым высоким показателем почти за четыре года."
+   },
+   "kid": {
+    "he": "המחירים שמשלמים עסקים על חומרי גלם עלו יותר מהצפוי. זה עלול לגרום לבנק המרכזי להשאיר את הריבית גבוהה כדי להילחם ביוקר המחיה.",
+    "en": "The prices businesses pay for raw materials rose more than expected. This might make the central bank keep interest rates high to fight rising costs.",
+    "ar": "ارتفعت الأسعار التي تدفعها الشركات مقابل المواد الخام أكثر من المتوقع. قد يدفع هذا البنك المركزي إلى إبقاء أسعار الفائدة مرتفعة لمحاربة ارتفاع التكاليف.",
+    "ru": "Цены, которые компании платят за сырье, выросли больше, чем ожидалось. Это может заставить центральный банк удерживать процентные ставки на высоком уровне для борьбы с ростом цен."
+   }
+  },
+  "category": "macro",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaXdWWTE0d2NNdTNjTU9nWnZESjZRbEVWNzlkNy13V2NfU0t4ejZYanByZXhXN1dxOTJFNjZwaWh1cEE2LW1XWEw4RUtveWlqTzY0YVYzUjI2ZzFXXy1oa3BGcGdKSlZBU09fbUpCakg5NHd5M29meU1ULVdJLW9EcDczaGdrVHZFSGxQUXJnYUhYaGRlYUQ5VlNOTUtzNGJk?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPODJZQ1lSMGxpTlJISVV5enV2ZWlOX3RtaHJCRGZ5dndJcmoyNVdhU0loNG5kVzE4Ym1QQ0RJRVFlMnhKR1JvdUw3V1RSRC1fMFVMel9MU3lCdUVYQ09LQWJmTGtZSTNtR0hjZ3hfUGkyUGhOMDJfcFc4NWZyb0F5NVhadw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcE0tUnMzeG95OWFMM29VYmF2S3lkTmZ0ODFqYmw0TVhzaXE5UE5OYkJVQzdGYlVka3U4aUNRZWIyY1JEUE1JNlo4LVFVb2tBLWVseFkySXNSS1JuZmJXS2pyVU80cE5hRDdYSHE5NWd5SGw2SFk0NlVOc2NtbFlzdHNhaHhPXzdXd2lUOVVBUjVqZWFqUkFwcWN3dHFleTE4VGZlVg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4X1hoQmRtbDM0TllqRXgydjN2cE9Gb2w4cmRDOWhBT2Z3SEhHOTMySDJrSDdVaU9HVFZhcWJRNm1tZS1kN25SQzRtU3JSdGpTMXh4MWFuaFBYbllQMGpGYUxHV2s3RVhFc2drd1NGWllJRWFqenVrREdB0gF_QVVfeXFMTUd3LWpmaHJxMWdUOWVSSmJrTFNqN0Y2UU8tRFJCcUIzelRvdTNKOFJNaDRkNGhYaThoMVBqR2dCalRkdDFxTXA1SWloZ2FxV2NxTTV4RnZ6Y0dxT0t5UWVvUUprOU9wSUd1bUtCaTdEcFA5UEhSQXBJRkdxcm9lUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794577463,
+    "reason": "אינפלציה גבוהה מעלה חששות מהמשך העלאות ריבית.",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה מעלה חששות מהמשך העלאות ריבית.",
+     "en": "High inflation raises concerns about further interest rate hikes.",
+     "ar": "ارتفاع التضخم يثير مخاوف بشأن استمرار رفع أسعار الفائدة.",
+     "ru": "Высокая инфляция вызывает опасения по поводу дальнейшего повышения процентных ставок."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 757.12
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794577463,
+    "reason": "תשואות האג\"ח עולות כשהאינפלציה נשארת גבוהה.",
+    "reason_i18n": {
+     "he": "תשואות האג\"ח עולות כשהאינפלציה נשארת גבוהה.",
+     "en": "Bond yields rise when inflation remains high.",
+     "ar": "ترتفع عوائد السندات عندما يظل التضخم مرتفعاً.",
+     "ru": "Доходность облигаций растет, когда инфляция остается высокой."
+    },
+    "name_i18n": {
+     "he": "אג\"ח ממשלתי לטווח ארוך",
+     "en": "Long-term US Treasury bonds",
+     "ar": "سندات الخزانة الأمريكية طويلة الأجل",
+     "ru": "Долгосрочные казначейские облигации США"
+    },
+    "price_at_alert": 79.72
+   }
+  ],
+  "id": "126af305707d"
+ },
+ {
+  "ts": 1794577463,
+  "time": "2026-11-13T13:44Z",
+  "title": "עודף היצע בשוק הנפט העולמי",
+  "summary": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט העולמי עולה על הביקוש לראשונה מאז תחילת המלחמה באיראן, עם צפי לעודף של 1.7 מיליון חביות ביום.",
+  "kid": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים. כשיש הרבה נפט, המחיר שלו בדרך כלל יורד.",
+  "i18n": {
+   "title": {
+    "he": "עודף היצע בשוק הנפט העולמי",
+    "en": "Global Oil Supply Surplus",
+    "ar": "فائض في إمدادات النفط العالمية",
+    "ru": "Избыток предложения на мировом рынке нефти"
+   },
+   "summary": {
+    "he": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט העולמי עולה על הביקוש לראשונה מאז תחילת המלחמה באיראן, עם צפי לעודף של 1.7 מיליון חביות ביום.",
+    "en": "The IEA reports that global oil supply is exceeding demand for the first time since the start of the Iran war, with a projected surplus of 1.7 million barrels per day.",
+    "ar": "أفادت وكالة الطاقة الدولية أن إمدادات النفط العالمية تتجاوز الطلب لأول مرة منذ بداية الحرب في إيران، مع توقعات بفائض قدره 1.7 مليون برميل يومياً.",
+    "ru": "МЭА сообщает, что мировое предложение нефти превышает спрос впервые с начала войны в Иране, с прогнозируемым избытком в 1,7 млн баррелей в сутки."
+   },
+   "kid": {
+    "he": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים. כשיש הרבה נפט, המחיר שלו בדרך כלל יורד.",
+    "en": "There is too much oil in the world compared to what people need. When there is a lot of oil, the price usually goes down.",
+    "ar": "هناك الكثير من النفط في العالم مقارنة بما يحتاجه الناس. عندما يكون هناك الكثير من النفط، ينخفض سعره عادةً.",
+    "ru": "В мире слишком много нефти по сравнению с тем, что нужно людям. Когда нефти много, цена на нее обычно падает."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNndNZUdKRnhDVGRkRE85YjZfUG1pUFd5NlVkbjBhbWZaTjZqZlRCU3RmMlBzR1ZjMmJpZi1jX2FvT01wbVc0ZDNaYm9YZUFTZm4wX29QQ3NLN0VpVS1CUjRBVm1GeWlHRk8yb1R4QkMySE5HUjdMUEM3OGVXdU5XM3lORndmX1RwRFdEbkZhalpnVmdONXhJYkR6bUpDZ2xfTXB1MlNuWDNFOGtPSFh0NzF0OWFYSjFBdU1hdVNqQnNSbUdMMi1JZW9vV1UwUQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjNFpsS2NRSEJERGdvbDRQZEpkd3FfcjRaSkh0R3AycEMyalpjRXdUc085Z2hDdHJXdS1pYS1rWnZaNTN0SVA3d2dYdFd2aHBscGs3bmRqdTQxQVFCb1lZOGhqZUtIb0dNc0w4RjdBaFZOeGZQZ2RWQkE5SQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc1pQWldJNV9iYmpNNU8xSl9rSm1VcDA1aXdkNllocndTamt3T0kwaUhQb3JvUW9KdzBtQ0pfM0ZveGs2UzdWOWgxcC1EdV9Ball5NDFWZjdmcDJRUDI4Yml3anIybFNadUF3TzlBejlQT2t4SnhjbXBBM2ZpQ1JfSFZyZENuckdjQ1IyUmtqY0FPT3VUanJxWmtmc004R0xYMlNiR1Yyd0dXMGlWblVUQnlZWlFZa3FfZ1VnU01BMEwyQVZjTFh1N3phOXU5U2lJSWtQUENYRkpneEXSAeIBQVVfeXFMUC1Vak5vWkF5bHpQeEthYWw0cGhRR0VMc3dqMzA2ZkFzdUM4SnZ3YWRyWlVrTm14TWNuSWZPSmdpbU9Dd0RNUWtmRTdSSGZ2WFRYMlpmX3RfM0t4eVVsRnpxNThJbGZ0VzcxX0lhX2ZOWmwxeEpBVURRT1FJVVJ2d25mZ3RleDNHYWNzRTRwa040dDVrZGJpbmJzVHdyVmhfdWJkYTk1dHBEaUp1VkxPTkt6am5rZll6M293OWlxMUZRRE1ndkQweVl0bmlVSm1iZG5QV09HVXZCYVdiYW9xYkg3dw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794577463,
+    "reason": "עודף היצע לוחץ על מחירי הנפט כלפי מטה.",
+    "reason_i18n": {
+     "he": "עודף היצע לוחץ על מחירי הנפט כלפי מטה.",
+     "en": "Supply surplus puts downward pressure on oil prices.",
+     "ar": "فائض العرض يضغط على أسعار النفط نحو الانخفاض.",
+     "ru": "Избыток предложения оказывает понижательное давление на цены на нефть."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "ETF на нефть"
+    },
+    "price_at_alert": 146.07
+   },
+   {
+    "ticker": "XOM",
+    "direction": "down",
+    "t0": 1794577463,
+    "reason": "ירידה במחירי הנפט פוגעת ברווחי חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "ירידה במחירי הנפט פוגעת ברווחי חברות האנרגיה.",
+     "en": "Falling oil prices hurt energy company profits.",
+     "ar": "انخفاض أسعار النفط يضر بأرباح شركات الطاقة.",
+     "ru": "Падение цен на нефть снижает прибыль энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 169.78
+   }
+  ],
+  "id": "506fad65c873"
+ },
+ {
+  "ts": 1794577463,
+  "time": "2026-11-13T13:44Z",
+  "title": "נוקיה זכתה בחוזה ביטחוני אמריקאי",
+  "summary": "חברת נוקיה זכתה בחוזה של משרד ההגנה האמריקאי לפיתוח טכנולוגיות 5G ו-6G לצרכים ביטחוניים.",
+  "kid": "נוקיה תעזור לצבא ארה\"ב לפתח טכנולוגיות תקשורת מהירות מאוד. זה חוזה חשוב שיכול לעזור למניה שלה.",
+  "i18n": {
+   "title": {
+    "he": "נוקיה זכתה בחוזה ביטחוני אמריקאי",
+    "en": "Nokia Wins US Defense Contract",
+    "ar": "نوكيا تفوز بعقد دفاعي أمريكي",
+    "ru": "Nokia получила оборонный контракт США"
+   },
+   "summary": {
+    "he": "חברת נוקיה זכתה בחוזה של משרד ההגנה האמריקאי לפיתוח טכנולוגיות 5G ו-6G לצרכים ביטחוניים.",
+    "en": "Nokia has won a US Department of Defense contract to develop 5G and 6G technologies for defense purposes.",
+    "ar": "فازت شركة نوكيا بعقد من وزارة الدفاع الأمريكية لتطوير تقنيات 5G و 6G لأغراض دفاعية.",
+    "ru": "Компания Nokia получила контракт Министерства обороны США на разработку технологий 5G и 6G для оборонных нужд."
+   },
+   "kid": {
+    "he": "נוקיה תעזור לצבא ארה\"ב לפתח טכנולוגיות תקשורת מהירות מאוד. זה חוזה חשוב שיכול לעזור למניה שלה.",
+    "en": "Nokia will help the US military develop very fast communication technologies. This is an important contract that could help its stock.",
+    "ar": "ستساعد نوكيا الجيش الأمريكي في تطوير تقنيات اتصالات سريعة جداً. هذا عقد مهم يمكن أن يساعد سهمها.",
+    "ru": "Nokia поможет американским военным разрабатывать технологии сверхбыстрой связи. Это важный контракт, который может поддержать акции компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM1hQUFFwVWYzNkctQlNRVXFfZHRNQ1hGMjE2WFB3STBxTmNRN09uck9WS0N1bFM0YU1iaG1jcWVXaWs4WXVpaWJNYm9GM01WRE12c3pPWGJGcEJNZE9ESS0xMEV5eDAyOFo2UFN2QmllQzlGVDc3c1RFaXVMUVVpRk5fb29jazZtaG5PNFlhMXNXV1VUSXJGREpIcHhjZkNQU2FFNzMydVVtXy1rYWc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NOK",
+    "direction": "up",
+    "t0": 1794577463,
+    "reason": "זכייה בחוזה ממשלתי גדול מהווה אישור לטכנולוגיה של החברה.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ממשלתי גדול מהווה אישור לטכנולוגיה של החברה.",
+     "en": "Winning a major government contract validates the company's technology.",
+     "ar": "الفوز بعقد حكومي كبير يؤكد صحة تكنولوجيا الشركة.",
+     "ru": "Получение крупного государственного контракта подтверждает технологический потенциал компании."
+    },
+    "name_i18n": {
+     "he": "נוקיה",
+     "en": "Nokia",
+     "ar": "نوكيا",
+     "ru": "Nokia"
+    },
+    "price_at_alert": 8.28
+   }
+  ],
+  "id": "6f5565dfefc2"
  }
 ]
