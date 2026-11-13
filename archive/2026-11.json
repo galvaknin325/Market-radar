@@ -82952,6 +82952,14 @@
    {
     "name": "CNBC Economy",
     "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -83013,7 +83021,22 @@
     "price_at_alert": 494.42
    }
   ],
-  "id": "7be3efe60786"
+  "id": "7be3efe60786",
+  "updates": [
+   {
+    "ts": 1794601574,
+    "time": "2026-11-13T20:26Z",
+    "severity": 6,
+    "summary": "שר האוצר סקוט בסנט האשים את מחלקת המסחר בהנהגת הווארד לוτניק בכך שנכשלה במניעת ייצוא שבבי אנבידיה לחברה הקשורה לסין.",
+    "i18n": {
+     "he": "שר האוצר סקוט בסנט האשים את מחלקת המסחר בהנהגת הווארד לוτניק בכך שנכשלה במניעת ייצוא שבבי אנבידיה לחברה הקשורה לסין.",
+     "en": "Treasury Secretary Scott Bessent criticized Commerce Secretary Howard Lutnick's department for failing to block Nvidia chip exports to a firm linked to China.",
+     "ar": "انتقد وزير الخزانة سكوت بيسنت وزارة التجارة بقيادة هوارد لوتنيك لفشلها في منع تصدير رقائق إنفيديا لشركة مرتبطة بالصين.",
+     "ru": "Министр финансов Скот Бессент критиковал министерство торговли под руководством Говарда Латника за то, что оно не заблокировало экспорт чипов Nvidia компании, связанной с Китаем."
+    }
+   }
+  ],
+  "last_update": 1794601574
  },
  {
   "ts": 1794580630,
@@ -83048,6 +83071,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOWURHcHlGTy1CWUxJX0dZaVI2RFcwa0pPa2kxMU1DamwzUjM0QWNiVldaTVpTWkM2dU9xWjJPSVA5ZTdiUU5OVXc0elVvS3JVc3Y0Z09wNjZZS09qZ3dqS2ZLczZWMnYwNVBRSm5UWmNhM24yU0NMRm4zdXowYjIwWDh5U2xmNFRVSkl3WUo4Wl9zUk9jbUxIeDdienZ4SmtQYXRUb01oT2JaT0xQeHppaHFlaEthR0tmU09BR296OGhta2tVWjRIRWYtbHJCNlZjRjgzVEFMODN0alRwckwtZTRoRnlRTTZFc2E5T1NMNnZDcHpzT1VrVEtNQkw2S3Vw0gGGAkFVX3lxTFB5NE16SFJYXzJEbGowcTVWbVFsZnJrN2V6OHlkd0ZYd2dNY19FanFZaUU1QjBicEhzX25DQ1JFTi1wWnJIM1BHZ1pJQmdwelh1WmhMekxtNmhENGxMR0tKRmN0dk50TG5aSzBfSEVzSlBRbFE0aEpScUtTc1U1M3BtaFBSYUFXa2VDN0xLcHlTM016U2RxOEZQMVpPSGVJR3VMTnduel9UeENPX0VNalp5clE2aGEyekRiZkVUaTl5STNWbUx3TjV6bC1Idk5YTGM4SXVCM0p6UFJnMXJwZEhOaE1XR2pPVDctenI2TUZDMVNXY2IyYTRsRV9pd1ZFTmRCX3JZVGc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdTBCVm1rMDd0UzUxLV81a1diMmxGNy1NSzFyanpNVm00MXpYOHFjWHZ2azZTYWkzTXZjMEtKNGwtbUVKSjdDV0JBYk9mZmdKY2RpVEo0UHE1WjNaMFcxZGZOMnpYUFVzZE1ab21pSFVBXzI4X0VQeEJnZVVHcTNBTkJDMVZWZw?oc=5"
    }
   ],
   "impacts": [
@@ -83107,9 +83134,43 @@
      "ru": "FXI - ETF крупных китайских компаний"
     },
     "price_at_alert": 33.3
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794601574,
+    "reason": "עליית מתיחות באסיה תומכת במניות הביטחון.",
+    "reason_i18n": {
+     "he": "עליית מתיחות באסיה תומכת במניות הביטחון.",
+     "en": "Rising tensions in Asia support defense stocks.",
+     "ar": "تصاعد التوترات في آسيا يدعم أسهم قطاع الدفاع.",
+     "ru": "Эскалация напряженности в Азии поддерживает акции оборонного сектора."
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטחונית אמריקאית",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق الدفاع والفضاء الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.32
    }
   ],
-  "id": "4d50be651527"
+  "id": "4d50be651527",
+  "updates": [
+   {
+    "ts": 1794601574,
+    "time": "2026-11-13T20:26Z",
+    "severity": 7,
+    "summary": "סין שלחה כ-100 כלי שיט צבאיים לסביבת טאיוואן כחלק מחזרת חסימה ימית רחבת היקף, מה שמגביר את המתיחות הגיאופוליטית.",
+    "i18n": {
+     "he": "סין שלחה כ-100 כלי שיט צבאיים לסביבת טאיוואן כחלק מחזרת חסימה ימית רחבת היקף, מה שמגביר את המתיחות הגיאופוליטית.",
+     "en": "China deployed around 100 military vessels around Taiwan for a large-scale blockade rehearsal, raising geopolitical tensions.",
+     "ar": "نشرت الصين حوالي 100 قطعة بحرية حول تايوان كחزء من بروفة حصار واسعة النطاق، مما زاد التوترات الجيوسياسية.",
+     "ru": "Китай развернул около 100 военных судов вокруг Тайваня для масштабной репетиции блокады, усиливая геополитическую напряженность."
+    }
+   }
+  ],
+  "last_update": 1794601574
  },
  {
   "ts": 1794580630,
@@ -83816,10 +83877,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUNERTlMMHlQLWdDczkwVDdyTTFjTmw3cHYybEFVUThVblZxd3dtU19ROHJOQ2lXdGRaZlVDc1pjRVA0WjkwclVzQzJnQlctUkV1SnJ2SUVJV042MkNXdDRvMlBRTUFWMzBla2xkU0w0aTQ4Y1lkTXZ0OEI5NkhUR0VuT0RuTWRETElpRXJZX1RCMXhFbVBjVGdrRTk5ejAxU0NNUTVtbk16c3dPeVVwRVc2dEFkRmNZU2c0TDFfLVZ6ZWhDa3o3S0Z5TXA?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVGhxYmxJaDEtYkpDTlNHdV9EZWdMNWI3bW1KU0k2NXFja1Z0cXJDQ2JMTzliSlVERjZJbF8taWFLUDJUVnBncGxWcVY0dm5XVHBKT2p5VWZFd2FkbFgwcHh4Nk5XSGtKTkQ1SWdhX093dk5FSDV0eGZVSWROTVh5a2g3bUUwR2NFS09UaTFrVUpRd1NDVkJxUDI2U1dqbDJYMHlIVkx3REIyTHNPRjJkeEZsMFpiWU1wck1kMnZ4a0RwNGNkazRXQ0UwS2JaM0piTFoyYUtSd0hla0lIOWZjX01RbVdiaHUySjlLdkVfazVINExUWnlfZnJnWTJGVlJv0gGGAkFVX3lxTE8waWRPMEV4ZUdDVFBtTjJZTUN2M3hmeUN6QkFLSk9HNldKMzBwUklETHoxQmU1LUhvcDZfNHowX3B4YS1idEtuY1JvU0JfNnphYUN6VFpmS1I5RUdfenFsSXdnamFSUmZhdllsZVlVNDVjV1piRUFtSVRhbTItQzdQRWRERWhieU01dDV1VkpTb2dvOU1wNkZleVVBc0pGaE5oQXVCNHg2UGVsNHI2WmVwdGhUTm1mV2FNeWdSY3lERDlydk14QjFaN19mS3JqYVdycmt6LVJqWk1LcGs1YlhLUVdFZjlFaUNHVEJMenNaWUxvYkZzdEdqbEhFeGdBa09QMXhrbXc?oc=5"
    },
    {
@@ -83837,6 +83894,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaUNaN0RKZ2xzV184UVhJbS1zVjVtNG84V2ttZF92LWdSQk1KclFqRE1lTlBrbU9pZUlRdHdqLWEyTFBRQnBabnVTSUl0RTQ5a2J6X0dFTlk0VGNNbEVSWHBYMkd5Z1dheHFaMEs2Z3NnMFNnV0FkS3djcVBTa1pMVGJHRjgzZkJPVGhqSnhRVFlsVlFtUTdRN2NTQmpncDc2ZHluSVlXYXpqV200OV9PM19lYnpWd0w0NXJRN0VQVXNXYUE5eDFLWjhPWlFsbDgtemtlX25RaXFmUE1SNURHTlhiZFByT19HRzM4bUE3a3h3ak44YVNN0gHwAUFVX3lxTE9xbWU4X21NSGF0TlhQUC0xaXgyUWF6eFBXa2JTSm5RSUtkMnhueDhlaFVrc0l0TktnSW5XS09KcXo4MzZJUXAzeEdiaHJULUt0RGQ0YXNTTkhaODlYUTRKVEZKTFlwdUtMRDk0U1RpX1JZNW16MXJNY1dtSVJzTG5pVE01aUtJU2FvQzBFZGlJbVF5ZUR6TGJ4STgxSlV2cFNGcTFTM09LWEJrblJpeWRqcDNOQ0FVX1hvaEpqMlRGQmI2Nm4xM0d1aEZXMi10MFFTNVdNUXRXUmZFMWttR2czTVRZcm03M1FNRzJBRFQwNA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDdrdndsQURXa2xiM0dQQzNGM3NNaEhmMWcyRExCSzlUd21XWEh3UkFtNDJZT1Zfd3NnRm11QXFWWXljNFBNaS16UDM3Wm5JSTdzUGZKb0c0MU95NEd1OEpTTzBETU45aHVkbFBfdU9qX3BETWtFbU93Nlpwb1FtRGdzcEhIalVtOUYwczdXejBmUzVlSndYcS15MUNwZU9uVVE1dmdVY01ocGsyeGMySEJyeFpfSnNaYXU1OUVJWQ?oc=5"
    }
   ],
   "impacts": [
@@ -83904,9 +83965,21 @@
      "ar": "أعلنت مايكروسوفت أن انقطاع السحابة العالمية واضطرابات مايكروسوفت 365 ناتجة عن حركة المرور ومشكلة ترقية الشبكة، مستبعدة أي هجوم سيبراني.",
      "ru": "Microsoft заявила, что глобальный сбой облака и перебои в M365 вызваны перегрузкой трафика и проблемами обновления сети, исключив кибератаку."
     }
+   },
+   {
+    "ts": 1794601574,
+    "time": "2026-11-13T20:26Z",
+    "severity": 4,
+    "summary": "חברת מייקרוסופט הבהירה כי תקלת הענן הגלובלית שפגעה בשירותיה נבעה משגיאת רשת טכנית ולא ממתקפת סייבר או מפעילות הקשורה לבינה מלאכותית.",
+    "i18n": {
+     "he": "חברת מייקרוסופט הבהירה כי תקלת הענן הגלובלית שפגעה בשירותיה נבעה משגיאת רשת טכנית ולא ממתקפת סייבר או מפעילות הקשורה לבינה מלאכותית.",
+     "en": "Microsoft clarified that the widespread cloud service disruption was caused by a technical network error rather than a cyberattack or AI.",
+     "ar": "أوضحت مايكروسوفت أن انقطاع خدمات السحابة واسع النطاق ناتج عن خطأ شبكي تقني وليس هجوماً سيبرانياً.",
+     "ru": "Microsoft уточнила, что масштабный сбой облачных сервисов был вызван технической ошибкой сети, а не кибератакой."
+    }
    }
   ],
-  "last_update": 1794598159
+  "last_update": 1794601574
  },
  {
   "ts": 1794590764,
@@ -84447,5 +84520,291 @@
    }
   ],
   "id": "a475d18f78b7"
+ },
+ {
+  "ts": 1794601574,
+  "time": "2026-11-13T20:26Z",
+  "title": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
+  "summary": "הפדרל רציו נערך להעלות את שער הריבית בפגישתו בחודש הבא, ואולי פעם נוספת בחודש ינואר, על רקע נתוני האינפלציה.",
+  "kid": "הבנק המרכזי בארה\"ב שוקל להעלות את הריבית כדי להילחם בעליית המחירים. ריבית גבוהה יותר עלולה להשפיע על מחירי המניות וההלוואות.",
+  "i18n": {
+   "title": {
+    "he": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
+    "en": "Federal Reserve on track to raise interest rates next month",
+    "ar": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
+    "ru": "ФРС намерена повысить процентные ставки в следующем месяце"
+   },
+   "summary": {
+    "he": "הפדרל רציו נערך להעלות את שער הריבית בפגישתו בחודש הבא, ואולי פעם נוספת בחודש ינואר, על רקע נתוני האינפלציה.",
+    "en": "The Federal Reserve is on track to raise interest rates at next month's meeting and potentially again in January amid inflation trends.",
+    "ar": "יستعد الاحتياطي الفيدرالي لرفع أسعار الفائدة في اجتماع الشهر المقبل وربما مرة أخرى في يناير وسط اتجاهات التضخم.",
+    "ru": "Федеральная резервная система готовится повысить процентные ставки на заседании в следующем месяце и, возможно, еще раз в январе на фоне тенденций инфляции."
+   },
+   "kid": {
+    "he": "הבנק המרכזי בארה\"ב שוקל להעלות את הריבית כדי להילחם בעליית המחירים. ריבית גבוהה יותר עלולה להשפיע על מחירי המניות וההלוואות.",
+    "en": "The US central bank is considering raising interest rates to fight rising prices. Higher interest rates can affect stock prices and loans.",
+    "ar": "יدرس البنك المركزي الأمريكي رفع أسعار الفائدة لمكافحة ارتفاع الأسعار. قد تؤثر أسعار الفائدة الأعلى على أسعار الأسهم والقروض.",
+    "ru": "Центральный банк США рассматривает возможность повышения процентных ставок для борьбы с ростом цен. Более высокие процентные ставки могут повлиять на цены акций и кредиты."
+   }
+  },
+  "category": "macro",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeXJmalVqcjF1WEgxXzRyZ2hNRTRMWXdCWGdpblhnaGwxY0ZDeFIwYTVnWENtQ2U2NFg3YkpUS21EdkNHaXlwVlVicGxWd2RJZnJqOXlySXJfZzdscXlqRFNJSkswUjZ0ZjFINC11aU9GMWdrMGR6SzdfYUlkN3pGaDZZci1NbnkxWmtoZ1lNa3E2MmxDcnFqRnN0MWpwUURLT05odHBpdVlhNXRjNUJOd3JGcnNCYzd6bjVqWQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794601574,
+    "reason": "ריבית גבוהה צפויה להקשות על חברות ולחץ על שוקי המניות.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה צפויה להקשות על חברות ולחץ על שוקי המניות.",
+     "en": "Higher interest rates are expected to pressure companies and the stock market.",
+     "ar": "من المتوقع أن تضغط أسعار الفائدة المرتفعة على الشركات وسوق الأسهم.",
+     "ru": "Ожидается, что более высокие процентные ставки окажут давление на компании и фондовый рынок."
+    },
+    "name_i18n": {
+     "he": "תעודת סל ספאיי – מדד המניות המוביל בארה\"ב",
+     "en": "SPY – US broad market stock ETF",
+     "ar": "SPY – صندوق مؤشر الأسهم الأمريكية الواسع",
+     "ru": "SPY – ETF широкого рынка акций США"
+    },
+    "price_at_alert": 753.2823
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794601574,
+    "reason": "ציפיות להעלאת ריבית מחזקות את הדולר.",
+    "reason_i18n": {
+     "he": "ציפיות להעלאת ריבית מחזקות את הדולר.",
+     "en": "Expectations of a rate hike strengthen the US dollar.",
+     "ar": "توقعات رفع الفائدة تقوي الدولار الأمريكي.",
+     "ru": "Ожидания повышения ставки укрепляют доллар США."
+    },
+    "name_i18n": {
+     "he": "תעודת סל דולר אמריקאי",
+     "en": "UUP – US Dollar ETF",
+     "ar": "UUP – صندوق الدولار الأمريكي",
+     "ru": "UUP – ETF доллара США"
+    },
+    "price_at_alert": 29.5
+   }
+  ],
+  "id": "f641f534cc88"
+ },
+ {
+  "ts": 1794601574,
+  "time": "2026-11-13T20:26Z",
+  "title": "מחירי הנחושת יורדים על רקע חולשת שוק הטכנולוגיה",
+  "summary": "מחירי הנחושת רושמים ירידה שבועית חדה בעקבות טלטלות בשוק הבינה המלאכותית וציפיות לריבית גבוהה בארה\"ב המקשות על קונים שאינם מחזיקים בדולר.",
+  "kid": "המחיר של נחושת, חומר גלם חשוב לתעשייה ולטכנולוגיה, יורד בחדות בגלל ירידות במניות הטכנולוגיה וציפיות שהריבית תישאר גבוהה.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנחושת יורדים על רקע חולשת שוק הטכנולוגיה",
+    "en": "Copper prices drop amid tech market weakness and rate outlook",
+    "ar": "أسعار النحاس تنخفض وسط ضعف سوق التكنولوجيا",
+    "ru": "Цены на медь падают на фоне слабости технологического рынка"
+   },
+   "summary": {
+    "he": "מחירי הנחושת רושמים ירידה שבועית חדה בעקבות טלטלות בשוק הבינה המלאכותית וציפיות לריבית גבוהה בארה\"ב המקשות על קונים שאינם מחזיקים בדולר.",
+    "en": "Copper prices are heading for their biggest weekly drop amid the AI market rout and stronger US rate expectations pressuring non-dollar buyers.",
+    "ar": "تتجه أسعار النحاس نحو أكبر انخفاض أسبوعي لها وسط تراجع سوق الذكاء الاصطناعي وتوقعات أسعار الفائدة الأمريكية.",
+    "ru": "Цены на медь направляются к самому большому недельному падению на фоне падения рынка ИИ и ожиданий по процентным ставкам в США."
+   },
+   "kid": {
+    "he": "המחיר של נחושת, חומר גלם חשוב לתעשייה ולטכנולוגיה, יורד בחדות בגלל ירידות במניות הטכנולוגיה וציפיות שהריבית תישאר גבוהה.",
+    "en": "The price of copper, an important material for industry and technology, is dropping sharply due to tech stock declines and high interest rate expectations.",
+    "ar": "ينخفض سعر النحاس، وهو مادة خام مهمة للصناعة والتكنولوجيا، بشكل حاد بسبب تراجع أسهم التكنولوجيا وتوقعات بقاء أسعار الفائدة مرتفعة.",
+    "ru": "Цена на медь, важный материал для промышленности и технологий, резко падает из-за падения акций технологических компаний и ожиданий высоких ставок."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTjhBQTdQUHZRQV9rOTVLcnNVU2szY2tEZ2tqeWdWVlhpU2RBWUw4U0w5SHBfR2l6R0xtcW1aN1dzYkdsRlp0Y0ktM1I3bUlkTWhiUk93XzItTnlJUHpMZmJxNkRWSnExU0FfTUhGQTBwQnUyQjNSQ28wSC04cDh3Nm1SSHNQWHNySjFIaEYxUEZZM0Q4b0JKeg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaF9JUW9Vb0pGbVU5ZWExOWdjMGl6SlBibkxuSWU3ZXROQzJ6RFczTGg0ZDBDZEVHVFFBM0U3cURQMHlXbUFWQWNqQlNxVlFNYWxub25wTFl6TEZyR2tZVkx5R2VuTDlvdmR5ci1hQWloTGRqSS1BamNkcGpvTV9YbUJOZnVOWDg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1794601574,
+    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכרייה.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכרייה.",
+     "en": "Falling copper prices hurt mining company profitability.",
+     "ar": "انخفاض أسعار النحاس يضر بربحية شركات التعدين.",
+     "ru": "Падение цен на медь снижает прибыльность горнодобывающих компаний."
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן – ענקית כריית נחושת",
+     "en": "Freeport-McMoRan – major copper miner",
+     "ar": "فريبورت-מקמורان – عملاق تعدين النحاس",
+     "ru": "Freeport-McMoRan – крупный производитель меди"
+    },
+    "price_at_alert": 59.31
+   },
+   {
+    "ticker": "CPER",
+    "direction": "down",
+    "t0": 1794601574,
+    "reason": "עוקב ישירות אחרי הירידה במחירי הנחושת.",
+    "reason_i18n": {
+     "he": "עוקב ישירות אחרי הירידה במחירי הנחושת.",
+     "en": "Directly tracks the drop in copper prices.",
+     "ar": "يتتبع مباشرة انخفاض أسعار النحاس.",
+     "ru": "Напрямую отслеживает падение цен на медь."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "ETF меди"
+    },
+    "price_at_alert": 36.545
+   }
+  ],
+  "id": "d07f3c3fd508"
+ },
+ {
+  "ts": 1794601574,
+  "time": "2026-11-13T20:26Z",
+  "title": "מקרה מוות שני מחצבת חצבת בויסקונסין",
+  "summary": "רשויות הבריאות בויסקונסין דיווחו על מקרה מוות שני של ילד כתוצאה מהתפרצות מחלת החצבת במדינה.",
+  "kid": "מחלת החצבת גרמה למותו של ילד נוסף בויסקונסין, מה שמדאיג את רשויות הבריאות בארה\"ב ועשוי להעלות את הביקוש לחיסונים.",
+  "i18n": {
+   "title": {
+    "he": "מקרה מוות שני מחצבת חצבת בויסקונסין",
+    "en": "Wisconsin reports second child death in measles outbreak",
+    "ar": "וויسكونسين تسجل حالة وفاة ثانية بسبب تفشي الحصبة",
+    "ru": "В Висконсине зарегистрирована вторая детская смерть от вспышки кори"
+   },
+   "summary": {
+    "he": "רשויות הבריאות בויסקונסין דיווחו על מקרה מוות שני של ילד כתוצאה מהתפרצות מחלת החצבת במדינה.",
+    "en": "Health authorities in Wisconsin reported a second pediatric death linked to the ongoing measles outbreak in the state.",
+    "ar": "أبلغت السلطات الصحية في ويسكونسين عن حالة وفاة ثانية لطفل مرتبطة بتفشي الحصبة المستمر في الولاية.",
+    "ru": "Органы здравоохранения Висконсина сообщили о второй детской смерти, связанной с продолжающейся вспышкой кори в штате."
+   },
+   "kid": {
+    "he": "מחלת החצבת גרמה למותו של ילד נוסף בויסקונסין, מה שמדאיג את רשויות הבריאות בארה\"ב ועשוי להעלות את הביקוש לחיסונים.",
+    "en": "Measles caused another child's death in Wisconsin, raising concerns for US health authorities and potentially increasing vaccine demand.",
+    "ar": "تسببت الحصبة في وفاة طفل آخر في ويسكونسين، مما أثار قلق السلطات الصحية الأمريكية وقد يزيد الطلب على اللقاحات.",
+    "ru": "Корь стала причиной смерти еще одного ребенка в Висконсине, что вызывает беспокойство у органов здравоохранения США и может увеличить спрос на вакцины."
+   }
+  },
+  "category": "health",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUW5iWngydHJRYW9EMTByOEgzMnUyTlBzUHo3ekJWSGxZeEtxNWM4YUVHMnNLTk9iZmJjcU5hSHdxbS1MX0Y2NzZwYjBIdHJRVHBLRG1zUndlZ2JkM3VRSEt0QVNXQm80RFdoNUlWb0VxcW1CUVNKaWxhLWgxVHlsaWlkelo1WGJJbWE2WlZOaWg4eC10NmVkWXczYWRrdFdPcE1SbXhyd2t0bkUwTWMyUk84SQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU205TGFDYVFNODdmaHhXRXdTdnhVLTZFdDR0TWQxSTA1dkJYZ1hMWUFQTjd1VjYxUklFSGs1NXBkQm9zb2hMNVBDWGNPWFJraS13ei10clFlSVdKT2t2X0llZWJhczBPVjlqaVhIeFNpSl9oZ2hhSEc4UjZ1MjAyTUVCQWJ0cndpb2hMTHJKX3FBZjk5WlhuZ3JlM1U1enRkYVZ5Y2w1bldDY3lzeUIyTndlZFPSAcgBQVVfeXFMTzlGcHpmYkRGU19xLTFoUnV6OWozVWhOU3JBakp3Uk5vMnJOcXVYcUxvRkMzdzhSMmVuZlY4ODJ1azVUamlRU3RHODNLTmhlMlh6eVRZUUFjdHFobXJJLTQzMWpGU2ltOV8tamw4enAwVmJCdGo1cWxwd3lRS2R2Wjk4TTNQdFo5QXVMeGFzclIzQnYtMTA5U2hCem1oOFFGbEh4NUZqeEw5U054WW04V0NZQnVLNTExR0VJcnBQVS05VE5MVTFLWHE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT0paYl9sQ2d5S3JrUzViWEdmWldZTjFSWXAwSEtkQXVxWHB2Qmx4TDVnRmxzUUhhYnhvZXQwODd3NHZVM1VURWMxOWhXSUhjZ0dWX1VMN0pUZkJ2akpoU2lwRWFGcDRKT3JRX2Vsc2xES0c2XzBxbE9uQWxtT2tSZlg3QjVHeGlTXzFmWkxQeFlkWjZjZTRCTmE3Z3FENVdkbndRNGx3dWU5N1Vmc0ctLWNEVmVvUQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM0VqcGhxRGhYX0tYZVVlSXcxNV9JVkVfMUhNQ3dMLVhPQVNVU3BHVWJKOFREUTU2Yl90WFRpTVlFNEpBdnBNTUNnMFFfdlgzeTYwUzJrYmp0emNJUnZoaFdDUFRuajI0RFBadGRDbm1Wc1B6d1NXMWdqbmM0d0JXNWVzOXdVcUpZWjAyQTY3VFNJQzBCdFHSAaoBQVVfeXFMUFp0cE1ROUdqVEhWWnVTMHcwZUd5YkhxVFNuX21PNzRrVTB6WHNZRzZLYS1pZDUxdFVsQm5DSmtJbkNZemJob2x5MXNjQnV0OHk5LTg0WEhfOFZDZjE4RTlFbFZVb2NISDRsSWo2bHVCV1JzZ0R3blB0UXFpM2ZpQy1tVDhicmNvRkdIWGd5RnZ2SnMzcnJkLVhZTWJ2WUdCOE51YkN6TkFQV0E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794601574,
+    "reason": "עלירות מודעות ודרישה לפתרונות רפואיים וחיסונים.",
+    "reason_i18n": {
+     "he": "עלירות מודעות ודרישה לפתרונות רפואיים וחיסונים.",
+     "en": "Increased awareness and demand for medical solutions and vaccines.",
+     "ar": "زيادة الوعي والطلب على الحلول الطبية واللقاحات.",
+     "ru": "Повышение осведомленности и спроса на медицинские решения и вакцины."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סקטור הבריאות",
+     "en": "Health Care Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الرعاية الصحية",
+     "ru": "ETF сектора здравоохранения"
+    },
+    "price_at_alert": 189.03
+   }
+  ],
+  "id": "12e46a296bb4"
+ },
+ {
+  "ts": 1794601574,
+  "time": "2026-11-13T20:26Z",
+  "title": "בנקים נסוגים מעסקאות מנצ'סטר סיטי עקב איום בסנקציות",
+  "summary": "מוסדות פיננסיים ובנקים החלו להתרסק ולצמצם מעורבות בעסקאות העברות שחקנים של מנצ'סטר סיטי מחשש לסנקציות כלכליות מתקרבות.",
+  "kid": "בנקים חוששים מסנקציות כלכליות ולכן מפסיקים לממן עסקאות גדולות של מועדון הכדורגל מנצ'סטר סיטי. זה מראה איך כללי רגולציה משפיעים על כספים.",
+  "i18n": {
+   "title": {
+    "he": "בנקים נסוגים מעסקאות מנצ'סטר סיטי עקב איום בסנקציות",
+    "en": "Banks pull back from Man City deals as financial sanctions loom",
+    "ar": "البنوك تتراجع عن صفقات مانشستر سيتي مع تلويح بالعقوبات",
+    "ru": "Банки отступают от сделок с «Манчестер Сити» из-за угрозы санкций"
+   },
+   "summary": {
+    "he": "מוסדות פיננסיים ובנקים החלו להתרסק ולצמצם מעורבות בעסקאות העברות שחקנים של מנצ'סטר סיטי מחשש לסנקציות כלכליות מתקרבות.",
+    "en": "Financial institutions and banks are pulling back from Manchester City player transfer deals as looming financial sanctions create risk.",
+    "ar": "بدأت المؤسسات المالية والبنوك في التراجع عن صفقات انتقال لاعبي مانشستر سيتي وسط مخاوف من عقوبات مالية ملوحة.",
+    "ru": "Финансовые институты и банки отступают от сделок по трансферам игроков «Манчестер Сити» на фоне угрозы финансовых санкций."
+   },
+   "kid": {
+    "he": "בנקים חוששים מסנקציות כלכליות ולכן מפסיקים לממן עסקאות גדולות של מועדון הכדורגל מנצ'סטר סיטי. זה מראה איך כללי רגולציה משפיעים על כספים.",
+    "en": "Banks fear economic sanctions and are stopping financing for large deals by the Manchester City football club, showing how regulations impact finance.",
+    "ar": "تخشى البنوك من العقوبات الاقتصادية وتتوقف عن تمويل صفقات نادي مانشستر سيتي لكرة القدم.",
+    "ru": "Банки опасаются экономических санкций и прекращают финансирование сделок футбольного клуба «Манчестер Сити»."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1BEbEZhVDFMQVozZW1GUVJra1c0R0J1YVJGQzBKUlUtMkxHNW1ZYXRZbE1NSHlER3dLVmZPVDVGVm5hVkZ4c3VPSHNPc2lIRkM3X2FfcURPSGdkd0gwQTB2OUo4Wjh2VE15UmdOaGkyaW1peG1iUmpvM3cxT3dyLUNFRlRKWjdzb056ZEx2aTZkR1AzYU5EVEZhT0pGbHcyaTBjeGtTdTgza2FRbGg0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLF",
+    "direction": "down",
+    "t0": 1794601574,
+    "reason": "זהירות יתר של בנקים ומוסדות פיננסיים על רקע סיכוני סנקציות.",
+    "reason_i18n": {
+     "he": "זהירות יתר של בנקים ומוסדות פיננסיים על רקע סיכוני סנקציות.",
+     "en": "Excessive caution by banks and financial institutions amid sanction risks.",
+     "ar": "حذر مفرط من البنوك والمؤسسات المالية وسط مخاطر العقوبات.",
+     "ru": "Чрезмерная осторожность банков и финансовых институтов на фоне санкционных рисков."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סקטור הפיננסים",
+     "en": "Financial Select Sector SPDR Fund",
+     "ar": "صندوق قطاع المالية",
+     "ru": "ETF финансового сектора"
+    },
+    "price_at_alert": 58.48
+   }
+  ],
+  "id": "0c2e4304005e"
  }
 ]
