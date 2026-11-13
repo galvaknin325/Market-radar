@@ -78387,14 +78387,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MQVNUQjB5dnJHQ0xoYldhelVxbmY1eTRrdjBSaXc0UlpFdUcyNVVkM2t5RXlreWxpUVphWlF1dTVJNE9uMnRSeE9SS3RXWWpnRlNlWXZUTVU?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FUnNGTzVaZE4wWFpfNDFFSFBLUmo3cDMyTnJmMzBEVlVWVFQ4eksxNUsxZnNRUGpHaXBuZE5zSW1iRnhpQndzd0VvUUNnRlFhM3pUUXU2ZlRZeEtuYTYwTjZ3?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Pb0FJM3B0anViMHp6b0ZPYkxaLUl0V3ZlNVdFa2NSMDRSb1E1ZnNaS242clVhSi03anlDZEhWdC12VU00elZubjNwdw?oc=5"
    },
    {
@@ -78408,6 +78400,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1pBbVpkc2E2U2JxQmY1a2J3WEtWR0ptSktnejFhUGxta2d1bGpFWTNGQVFLSWdtWHVyYmQ2RjZHc18yTElhVmV5NmFiSW9BdFl4enYwWkt6b2J2OTBucHNOZWlBN1U1M2lvT1hST2pNOFZPbEFrVEZMQXY0Skk4eUZ2X1lzVlY3TFRhR052Ni1QRXktLThrZ3JfZUtmRm16?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZzhsbVV1bTMzZzB4cTFaOUl5Sjh1bmtkc1ZCYVFKQXdjOS1ndV9CMXNWZmhCMkJES3hJZzlPNTc4WGV3QkhFZHc2X2dKdEdKcmMzZ0F5WnVTaDI4V2ZscnNYbTZuclBaWjc3RlpPcldOb2xJcDluOVh3dkFoRGhBdUd3emJYQnNMVm93TUpITVpvdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdkgxNkgzN1RtYVY4THBDS0pSU3hqSXNlNzl3QnZhWXJ3bmhzaEktc2VLV3JfT3VncEVtaDRQRlpZMl85ZWZJZXJHcFU1ZjVrel9rc2p0eS1kUXZ0TlgtcllTZlA0aV9QMWtpOW1tM3g3QmlreUkyWXFlNTlPa1hra1h5dDN2MHNnZkpIM3RRX21CaEpQMndRLWlDMTVjQQ?oc=5"
    }
   ],
   "impacts": [
@@ -78448,6 +78448,25 @@
      "ru": "Exxon Mobil"
     },
     "price_at_alert": 170.55
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794549461,
+    "reason": "סיכוני אספקה ואנרגיה במזרח התיכון",
+    "reason_i18n": {
+     "he": "סיכוני אספקה ואנרגיה במזרח התיכון",
+     "en": "Middle East supply and energy risks",
+     "ar": "مخاطر الإمدادات والطاقة في الشرق الأوسط",
+     "ru": "Риски поставок и энергетики на Ближнем Востоке"
+    },
+    "name_i18n": {
+     "he": "תעודת סל אנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 64.33
    }
   ],
   "id": "4dd2ee9e4d91",
@@ -78463,9 +78482,21 @@
      "ar": "أدت الانفجارات التي شملت ناقلات نفط في مضيق هرمز وهجمات على البنية التحتية السعودية إلى ارتفاع حاد في أسعار النفط الخام بسبب مخاوف من تعطل الإمدادات العالمية.",
      "ru": "Взрывы танкеров в Ормузском проливе и атаки на инфраструктуру Саудовской Аравии привели к резкому росту цен на сырую нефть из-за опасений срыва мировых поставок."
     }
+   },
+   {
+    "ts": 1794549461,
+    "time": "2026-11-13T05:57Z",
+    "severity": 4,
+    "summary": "בריטניה החמירה את אזהרת המסע לסעודיה על רקע איומי טילים, בעוד פקיסטן הודיעה על תמיכה בסנקציות חדשות של האו\"ם נגד תימן ודורשת הפסקת מתקפות החות'ים.",
+    "i18n": {
+     "he": "בריטניה החמירה את אזהרת המסע לסעודיה על רקע איומי טילים, בעוד פקיסטן הודיעה על תמיכה בסנקציות חדשות של האו\"ם נגד תימן ודורשת הפסקת מתקפות החות'ים.",
+     "en": "The UK tightened its travel warning for Saudi Arabia amid missile threats, while Pakistan backed new UN sanctions on Yemen to curb Houthi attacks.",
+     "ar": "شددت بريطانيا تحذير السفر إلى السعودية وسط تهديدات صاروخية، بينما أعلنت باكستان دعمها لعقوبات أممية جديدة ضد اليمن لوقف هجمات الحوثيين.",
+     "ru": "Великобритания ужесточила предупреждения для поездок в Саудовскую Аравию на фоне ракетных угроз, а Пакистан поддержал новые санкции ООН против Йемена."
+    }
    }
   ],
-  "last_update": 1794545784
+  "last_update": 1794549461
  },
  {
   "ts": 1794511737,
@@ -80861,5 +80892,294 @@
    }
   ],
   "id": "1380f016e69f"
+ },
+ {
+  "ts": 1794549461,
+  "time": "2026-11-13T05:57Z",
+  "title": "אנבידיה בדרך לרצף הירידות השבועי הארוך ביותר מאז 2012",
+  "summary": "מניית אנבידיה רושמת ירידות שבועיות רצופות על רקע מחיקת שווי של 1.6 טריליון דולר והתפטרותו של המנכ\"ל ג'נסן הואנג.",
+  "kid": "מניית חברת השבבים הגדולה אנבידיה ממשיכה לאבד ערך והמנכ\"ל שלה עזב. זה עשוי להוריד את מחיר המניה שלה ואת מניות הטכנולוגיה האחרות.",
+  "i18n": {
+   "title": {
+    "he": "אנבידיה בדרך לרצף הירידות השבועי הארוך ביותר מאז 2012",
+    "en": "Nvidia on track for longest weekly losing streak since 2012",
+    "ar": "إنفيديا في طريقها لتسجيل أطول سلسلة خسائر أسبوعية منذ 2012",
+    "ru": "Nvidia идет к самой длинной недельной серии потерь с 2012 года"
+   },
+   "summary": {
+    "he": "מניית אנבידיה רושמת ירידות שבועיות רצופות על רקע מחיקת שווי של 1.6 טריליון דולר והתפטרותו של המנכ\"ל ג'נסן הואנג.",
+    "en": "Nvidia stock is tracking its longest weekly losing streak since 2012, with market value down $1.6 trillion amid CEO Jensen Huang's resignation.",
+    "ar": "سهم إنفيديا في طريقه لتسجيل أطول سلسلة خسائر أسبوعية منذ 2012 مع انخفاض القيمة السوقية بـ 1.6 تريليون دولار واستقالة الرئيس التنفيذي.",
+    "ru": "Акции Nvidia идут к самой длинной недельной серии потерь с 2012 года на фоне падения рыночной стоимости на 1,6 трлн долларов и отставки гендиректора."
+   },
+   "kid": {
+    "he": "מניית חברת השבבים הגדולה אנבידיה ממשיכה לאבד ערך והמנכ\"ל שלה עזב. זה עשוי להוריד את מחיר המניה שלה ואת מניות הטכנולוגיה האחרות.",
+    "en": "Big chipmaker Nvidia is seeing its stock drop for many weeks in a row after losing massive value and its CEO. This might push down its stock price and tech sector stocks.",
+    "ar": "سهم شركة الرقائق الكبيرة إنفيديا يواصل الانخفاض مع خسارة قيمة ضخمة واستقالة مديرها. قد يؤدي ذلك إلى هبوط سهمها وأسهم قطاع التكنولوجيا.",
+    "ru": "Акции крупного производителя чипов Nvidia продолжают падать неделю за неделей после потери огромной стоимости и ухода гендиректора. Это может опустить цену акций компании и всего техсектора."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794549461,
+    "reason": "המשך ירידות שבועיות והתפטרות המנכ\"ל",
+    "reason_i18n": {
+     "he": "המשך ירידות שבועיות והתפטרות המנכ\"ל",
+     "en": "Continued weekly losses and CEO resignation",
+     "ar": "استمرار الخسائر الأسبوعية واستقالة الرئيس التنفيذي",
+     "ru": "Продолжение недельных потерь и отставка гендиректора"
+    },
+    "name_i18n": {
+     "he": "אנבידיה - חברת שבבים",
+     "en": "Nvidia - chip maker",
+     "ar": "إنفيديا - صانعة رقائق",
+     "ru": "Nvidia - производитель чипов"
+    },
+    "price_at_alert": 166.19
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794549461,
+    "reason": "משקל כבד לאנבידיה במדד הטכנולוגיה",
+    "reason_i18n": {
+     "he": "משקל כבד לאנבידיה במדד הטכנולוגיה",
+     "en": "Heavy weighting of Nvidia in the tech index",
+     "ar": "الوزن الثقيل لإنفيديا في مؤشر التكنولوجيا",
+     "ru": "Большой вес Nvidia в технологическом индексе"
+    },
+    "name_i18n": {
+     "he": "תעודת סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق ناسداك 100",
+     "ru": "ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 688.17
+   }
+  ],
+  "id": "c54689f49b1b"
+ },
+ {
+  "ts": 1794549461,
+  "time": "2026-11-13T05:57Z",
+  "title": "ביטקוין יורד מתחת ל-70 אלף דולר על רקע פדיונות בתעודות הסל",
+  "summary": "מחיר הביטקוין ירד מתחת לסף 70,000 הדולר לאחר שתעודות הסל רשמו משיכות הון של למעלה מ-2.5 מיליארד דולר.",
+  "kid": "אנשים הוציאו הרבה כסף מתעודות סל של ביטקוין ומחירו ירד מתחת ל-70,000 דולר. זה עשוי להוריד את מחירי מטבעות הקריפטו ומניות הקשורות אליהם.",
+  "i18n": {
+   "title": {
+    "he": "ביטקוין יורד מתחת ל-70 אלף דולר על רקע פדיונות בתעודות הסל",
+    "en": "Bitcoin falls below $70,000 as ETF outflows top $2.5 billion",
+    "ar": "بيتكوين ينخفض دون 70 ألف دولار مع تدفقات خارجة من الصناديق",
+    "ru": "Биткоин падает ниже $70 000 на фоне оттока средств из ETF"
+   },
+   "summary": {
+    "he": "מחיר הביטקוין ירד מתחת לסף 70,000 הדולר לאחר שתעודות הסל רשמו משיכות הון של למעלה מ-2.5 מיליארד דולר.",
+    "en": "Bitcoin dropped below $70,000 as exchange-traded funds saw massive capital outflows exceeding $2.5 billion.",
+    "ar": "هبط سعر بيتكوين دون مستوى 70 ألف دولار مع تسجيل صناديق الاستثمار المتداولة تدفقات خارجة تجاوزت 2.5 مليار دولار.",
+    "ru": "Биткоин опустился ниже отметки $70 000 на фоне крупного оттока капитала из биржевых фондов, превысившего 2,5 млрд долларов."
+   },
+   "kid": {
+    "he": "אנשים הוציאו הרבה כסף מתעודות סל של ביטקוין ומחירו ירד מתחת ל-70,000 דולר. זה עשוי להוריד את מחירי מטבעות הקריפטו ומניות הקשורות אליהם.",
+    "en": "People pulled a lot of money out of Bitcoin funds, pushing its price below $70,000. This could make crypto prices and related stocks go down.",
+    "ar": "سحب الناس أموالاً كثيرة من صناديق بيتكوين، مما دفع سعره للانخفاض دون 70 ألف دولار. قد يتسبب ذلك في هبوط أسعار العملات الرقمية والأسهم المرتبطة بها.",
+    "ru": "Инвесторы вывели много денег из биткоин-фондов, что опустило его цену ниже $70 000. Это может привести к падению цен на криптовалюты и связанных акций."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TY3FOa0xkaXh6clJadXlpaE81Xy1Cbm1QeWVqTnFsVzhHWlNKaUZseFJmeF9RZEJubDJSY2FfUFlaWW1lLVFyNUp0ZGtGaXpLeUFiRTRQaGlPUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1794549461,
+    "reason": "משיכות הון גדולות ומחיר נמוך לביטקוין",
+    "reason_i18n": {
+     "he": "משיכות הון גדולות ומחיר נמוך לביטקוין",
+     "en": "Large capital outflows and lower Bitcoin price",
+     "ar": "تدفقات رأسمالية ضخمة وانخفاض سعر بيتكوين",
+     "ru": "Крупный отток капитала и падение цены биткоина"
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטקוין",
+     "en": "Bitcoin ETF",
+     "ar": "صندوق بيتكوين المتداول",
+     "ru": "Биткоин-ETF"
+    },
+    "price_at_alert": 40.36
+   }
+  ],
+  "id": "e42444147a77"
+ },
+ {
+  "ts": 1794549461,
+  "time": "2026-11-13T05:57Z",
+  "title": "OpenAI תומכת בהצעות חוק בארה\"ב להדקת בקרת ייצוא שבבי AI לסין",
+  "summary": "חברת הבינה מלאכותית OpenAI הודיעה על תמיכתה בהצעות חוק אמריקאיות שמטרתן להדק את פיקוח ובקרת הייצוא של שבבי AI מתקדמים לסין.",
+  "kid": "ענקית הבינה המלאכותית OpenAI רוצה פיקוח הדוק יותר על מכירת שבבים חכמים לסין. זה עשוי להשפיע על חברות שמייצרות ומוכרות שבבים כמו אנבידיה.",
+  "i18n": {
+   "title": {
+    "he": "OpenAI תומכת בהצעות חוק בארה\"ב להדקת בקרת ייצוא שבבי AI לסין",
+    "en": "OpenAI backs US bills to tighten AI chip export controls to China",
+    "ar": "أوبن إيه آي تدعم مشاريع قوانين أمريكية لتشديد رقابة تصدير رقائق الذكاء الاصطناعي للصين",
+    "ru": "OpenAI поддерживает законопроекты США об ужесточении контроля за экспортом ИИ-чипов в Китай"
+   },
+   "summary": {
+    "he": "חברת הבינה מלאכותית OpenAI הודיעה על תמיכתה בהצעות חוק אמריקאיות שמטרתן להדק את פיקוח ובקרת הייצוא של שבבי AI מתקדמים לסין.",
+    "en": "AI firm OpenAI announced support for US legislative bills aimed at tightening export controls on advanced AI chips to China.",
+    "ar": "أعلنت شركة الذكاء الاصطناعي أوبن إيه آي دعمها لمشاريع القوانين الأمريكية التي تهدف إلى تشديد رقابة تصدير رقائق الذكاء الاصطناعي المتقدمة للصين.",
+    "ru": "Компания OpenAI объявила о поддержке американских законопроектов, направленных на ужесточение контроля за экспортом передовых ИИ-чипов в Китай."
+   },
+   "kid": {
+    "he": "ענקית הבינה המלאכותית OpenAI רוצה פיקוח הדוק יותר על מכירת שבבים חכמים לסין. זה עשוי להשפיע על חברות שמייצרות ומוכרות שבבים כמו אנבידיה.",
+    "en": "AI giant OpenAI wants stricter rules on selling smart chips to China. This could impact companies that make and sell microchips like Nvidia.",
+    "ar": "تريد شركة أوبن إيه آي قواعد أكثر صارمة لبيع الرقائق الذكية للصين. قد يؤثر ذلك على الشركات التي تصنع وتبيع الرقائق مثل إنفيديا.",
+    "ru": "ИИ-гигант OpenAI выступает за более жесткие правила продажи умных чипов в Китай. Это может повлиять на компании, производящие и продающие чипы, такие как Nvidia."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0VE52NlRkN3p1S3VuUXd2UlNpZFI1cndJS2VOaEF4OHYwRVRna1RhUmR4cWQzb0UxbGVkSTJabmROV21wN0NYNHBCd1Zzd2ZFdlM3amhPdWxVNXZkc2lKZ0VTQ2ZCSS1ud0FreVhKQTcxUHpWYmxhb2930gGOAUFVX3lxTE85b3pRYmF1cHI4YnNqSlNpWHVCc1hyZlFJS0p6cUtYbEVXa2poWWFzZWJiUlNJbHlGdF91dGJEN29BMXY4bFBqOWx6U3BpVW9xMEM5MFdoUUtfd0RrRk9mTy1uMm82cGFQN2xjVkhHYzc3MlY5U3g0Y01UT29WNnJpWGxIR193cUU5dWZ5TkE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794549461,
+    "reason": "תמיכה בהחמרת מגבלות ייצוא לשווקים זרים",
+    "reason_i18n": {
+     "he": "תמיכה בהחמרת מגבלות ייצוא לשווקים זרים",
+     "en": "Support for tightening export restrictions to foreign markets",
+     "ar": "الدعم لتشديد القيود التصديرية على الأسواق الخارجية",
+     "ru": "Поддержка ужесточения экспортных ограничений на зарубежные рынки"
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבים",
+     "en": "Nvidia - chip maker",
+     "ar": "إنفيديا - صانعة رقائق",
+     "ru": "Nvidia - производитель чипов"
+    },
+    "price_at_alert": 166.19
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794549461,
+    "reason": "לחץ רגולטורי גובר על מכירות שבבים לחו\"ל",
+    "reason_i18n": {
+     "he": "לחץ רגולטורי גובר על מכירות שבבים לחו\"ל",
+     "en": "Growing regulatory pressure on overseas chip sales",
+     "ar": "ضغط تنظيمي متزايد على مبيعات الرقائق للخارج",
+     "ru": "Растущее регуляторное давление на зарубежные продажи чипов"
+    },
+    "name_i18n": {
+     "he": "תעודת סל סמיקונדקטורס",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 501.73
+   }
+  ],
+  "id": "8fbd49d207e3"
+ },
+ {
+  "ts": 1794549461,
+  "time": "2026-11-13T05:57Z",
+  "title": "טאיוואן מזהירה עשר ספקיות רחפנים בגלל רכיבים סיניים חשודים",
+  "summary": "רשויות טאיוואן סימנו עשר ספקיות רחפנים מקומיות בשל שימוש חשוד ברכיבים שמקורם בסין, על רקע חששות ביטחוניים.",
+  "kid": "טאיוואן בודקת חברות רחפנים שמשתמשות בחלקים מסין מסיבות ביטחוניות. זה עשוי לעזור לחברות רחפנים אמריקאיות לקבל חוזים ביטחוניים.",
+  "i18n": {
+   "title": {
+    "he": "טאיוואן מזהירה עשר ספקיות רחפנים בגלל רכיבים סיניים חשודים",
+    "en": "Taipei flags ten drone suppliers over suspected Chinese components",
+    "ar": "تايوان تحذر عشر موردي طائرات مسيرة بسبب مكونات صينية مشتبه بها",
+    "ru": "Тайвань выявил десять поставщиков дронов из-за подозрений на китайские компоненты"
+   },
+   "summary": {
+    "he": "רשויות טאיוואן סימנו עשר ספקיות רחפנים מקומיות בשל שימוש חשוד ברכיבים שמקורם בסין, על רקע חששות ביטחוניים.",
+    "en": "Taiwanese authorities flagged ten drone suppliers due to suspected use of Chinese-origin components amid growing security concerns.",
+    "ar": "أشرت السلطات في تايوان على عشرة موردي طائرات مسيرة محليين بسبب الاشتباه في استخدام مكونات صينية الصنع وسط مخاوف أمنية متزايدة.",
+    "ru": "Власти Тайваня выявили десять местных поставщиков дронов из-за возможного использования компонентов китайского происхождения на фоне угроз безопасности."
+   },
+   "kid": {
+    "he": "טאיוואן בודקת חברות רחפנים שמשתמשות בחלקים מסין מסיבות ביטחוניות. זה עשוי לעזור לחברות רחפנים אמריקאיות לקבל חוזים ביטחוניים.",
+    "en": "Taiwan is checking drone companies using Chinese parts for security reasons. This could help American drone makers win more defense contracts.",
+    "ar": "تتحقق تايوان من شركات طائرات مسيرة تستخدم أجزاء صينية لأسباب أمنية. قد يساعد ذلك الشركات الأمريكية على الفوز بعقود دفاعية إضافية.",
+    "ru": "Тайвань проверяет компании по производству дронов на использование китайских деталей в целях безопасности. Это может помочь американским производителям беспилотников."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DZkJvT3pMOG9aQWtsS2stLWxVdktfbHEwRWNtMElWd2RnSlUxcEpscG5wNGFSeFM0Sm95Yl9aVE44YVlsb3pPdTJtZkxERkZtdktTZ0lMQm5YV2d5VFpWbWt0YU16TXF5YmNwdndIYU5CeEZCeVRGNW53?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1794549461,
+    "reason": "התרחקות מרכיבים סיניים מיטיבה עם מתחרות מערביות",
+    "reason_i18n": {
+     "he": "התרחקות מרכיבים סיניים מיטיבה עם מתחרות מערביות",
+     "en": "Shift away from Chinese parts benefits Western competitors",
+     "ar": "الابتعاد عن المكونات الصينية يفيد المنافسين الغربيين",
+     "ru": "Отказ от китайских деталей идет на пользу западным конкурентам"
+    },
+    "name_i18n": {
+     "he": "אירווירונמנט - יצרנית רחפנים",
+     "en": "AeroVironment - drone maker",
+     "ar": "أيروفيرومنت - صانعة طائرات مسيرة",
+     "ru": "AeroVironment - производитель дронов"
+    },
+    "price_at_alert": 120.84
+   },
+   {
+    "ticker": "KTOS",
+    "direction": "up",
+    "t0": 1794549461,
+    "reason": "דגש גובר על שרשרת אספקה בטוחה ללא סין",
+    "reason_i18n": {
+     "he": "דגש גובר על שרשרת אספקה בטוחה ללא סין",
+     "en": "Growing emphasis on secure, China-free supply chains",
+     "ar": "تركيز متزايد على سلاسل إمداد آمنة خالية من الصين",
+     "ru": "Растущий акцент на безопасные цепочки поставок без Китая"
+    },
+    "name_i18n": {
+     "he": "קראטוס - טכנולוגיית ביטחון",
+     "en": "Kratos - defense tech",
+     "ar": "كراتوس - تقنية دفاعية",
+     "ru": "Kratos - оборонные технологии"
+    },
+    "price_at_alert": 34.75
+   }
+  ],
+  "id": "a867312721d4"
  }
 ]
