@@ -49608,9 +49608,22 @@
    }
   },
   "category": "cyber",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeTBZTklBX3BnTkM0TkJiczl5UWl1WDBzRXpuNGFKWWZjNGhQUTFTNWE5VVZMUnZZaEo0eVY5WTZZQk9JYWdhOFpMRWJ0bmVaNnduOWdmU1d6MkFyWVZnaEZyTWljOFl4VUZBMkFCbkVpZW9jZUEtUWd3QVg5TEhyalNjRjRLQQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "MSFT",
@@ -49695,9 +49708,21 @@
      "ar": "تستمر الأعطال الكبيرة في خدمات مايكروسوفت 365 لأكثر من 12 ساعة، مما يؤدي إلى تعطيل الأنظمة العالمية بينما تعمل الشركة على الإصلاح.",
      "ru": "Значительные сбои в сервисах Microsoft 365 продолжаются более 12 часов, нарушая работу систем по всему миру, пока компания работает над устранением."
     }
+   },
+   {
+    "ts": 1794569210,
+    "time": "2026-11-13T11:26Z",
+    "severity": 7,
+    "summary": "תקלה טכנית רחבת היקף משבשת את שירותי Microsoft 365, כולל Outlook ו-Teams ברחבי העולם. החברה מדווחת כי מאמצי התיקון נתקלים בקשיים.",
+    "i18n": {
+     "he": "תקלה טכנית רחבת היקף משבשת את שירותי Microsoft 365, כולל Outlook ו-Teams ברחבי העולם. החברה מדווחת כי מאמצי התיקון נתקלים בקשיים.",
+     "en": "A widespread technical outage is disrupting Microsoft 365 services, including Outlook and Teams, globally. The company reports that restoration efforts are not proceeding as expected.",
+     "ar": "انقطاع تقني واسع النطاق يعطل خدمات مايكרוסופט 365، بما في ذلك Outlook وTeams على مستوى العالم. تشير الشركة إلى أن جهود الإصلاح لا تسير كما هو متوقع.",
+     "ru": "Масштабный технический сбой нарушает работу сервисов Microsoft 365, включая Outlook и Teams, по всему миру. Компания сообщает, что процесс восстановления идет не по плану."
+    }
    }
   ],
-  "last_update": 1794553730
+  "last_update": 1794569210
  },
  {
   "ts": 1794521948,
@@ -52246,6 +52271,10 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"
    }
   ],
   "impacts": [
@@ -52269,7 +52298,22 @@
     "price_at_alert": 166.19
    }
   ],
-  "id": "60a55ed40bf8"
+  "id": "60a55ed40bf8",
+  "updates": [
+   {
+    "ts": 1794569210,
+    "time": "2026-11-13T11:26Z",
+    "severity": 6,
+    "summary": "שר המסחר האמריקאי לוטניק יעיד בפני ועדת הבנקאות של הסנאט בנוגע לחשיפות על קשריו של מנכ\"ל אנבידיה לשעבר עם מרגלת סינית לכאורה ומכירת שבבים לסין.",
+    "i18n": {
+     "he": "שר המסחר האמריקאי לוטניק יעיד בפני ועדת הבנקאות של הסנאט בנוגע לחשיפות על קשריו של מנכ\"ל אנבידיה לשעבר עם מרגלת סינית לכאורה ומכירת שבבים לסין.",
+     "en": "US Commerce Secretary Lutnick will testify before the Senate Banking Committee regarding revelations about the former Nvidia CEO's alleged affair with a Chinese spy and chip sales to China.",
+     "ar": "سيدلي وزير التجارة الأمريكي لوتنيك بشهادته أمام لجنة البنوك في مجلس الشيوخ بشأن الكشوفات المتعلقة بعلاقة الرئيس التنفيذي السابق لشركة إنفيديا المزعومة مع جاسوسة صينية وبيع الرقائق للصين.",
+     "ru": "Министр торговли США Латник даст показания перед банковским комитетом Сената относительно разоблачений о предполагаемой связи бывшего гендиректора Nvidia с китайской шпионкой и продажах чипов в Китай."
+    }
+   }
+  ],
+  "last_update": 1794569210
  },
  {
   "ts": 1794562190,
@@ -52298,7 +52342,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 8,
   "confidence": "medium",
   "sources": [
    {
@@ -52316,6 +52360,14 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakdUeGp3UFlWdzhQQkxNTnR2U0FOc1Zoak84NVduMVJ3Ulc4U0U0Nl9rMGFQUGRiTDZzWjg1V2theW1pMzVCVm5fTkV0d2lBenVRYThQUmRlVTdOLUNIbVA0OGZuRjF2akp1b05MYzM1OHBjU2J0d21WWmx6bXMtZ0FGLW5MMHBXSko3NGctYmpYMXY1YVdtMG9qaXFMclQwTTh4Ym1jOWstdk44cXBIdk5zOEhJSGxDTEI4dTE2NA?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYndNNlkxcDdYUXRleHBkS093NzN4TVk2d2ZIQ2Zadl9EOWV6U2M0cXA1R2Jqem5FWkE0VG9RNUxrUlJLTHZ1UFdZR3N2NVp6aTEwbGtQUE03U09QVDNGaXltWEs5UG1XQVNGT0hSZV9SRmxLZ0t0OVA1cV9KZFJJd0MxRlJ3MmcxLW53NHNJR2xIdTN5S09nbEw5QldtaF9YQzJHTzgtUHBValc5N1BfSlBCYnV2a3huQkN3YnoyT0FmRTNxS1ZJLUtFLVlKa0k?oc=5"
    }
   ],
   "impacts": [
@@ -52356,9 +52408,62 @@
      "ru": "Оборонный ETF"
     },
     "price_at_alert": 71.73
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794569210,
+    "reason": "חשש משיבושים באספקת הנפט במזרח התיכון.",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט במזרח התיכון.",
+     "en": "Fear of supply disruptions in the Middle East.",
+     "ar": "الخوف من اضطرابات الإمدادات في الشرق الأوسط.",
+     "ru": "Опасения по поводу перебоев в поставках на Ближнем Востоке."
+    },
+    "name_i18n": {
+     "he": "נפט",
+     "en": "Crude Oil",
+     "ar": "النفط الخام",
+     "ru": "Сырая нефть"
+    },
+    "price_at_alert": 146.07
+   },
+   {
+    "ticker": "GLD",
+    "direction": "up",
+    "t0": 1794569210,
+    "reason": "עלייה בביקוש לנכסים בטוחים בזמן מלחמה.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לנכסים בטוחים בזמן מלחמה.",
+     "en": "Increased demand for safe-haven assets during war.",
+     "ar": "زيادة الطلب على الأصول الآمنة أثناء الحرب.",
+     "ru": "Рост спроса на защитные активы во время войны."
+    },
+    "name_i18n": {
+     "he": "זהב",
+     "en": "Gold",
+     "ar": "الذهب",
+     "ru": "Золото"
+    },
+    "price_at_alert": 354.89
    }
   ],
-  "id": "c4eb2a80a53f"
+  "id": "c4eb2a80a53f",
+  "updates": [
+   {
+    "ts": 1794569210,
+    "time": "2026-11-13T11:26Z",
+    "severity": 8,
+    "summary": "איראן מאיימת בתגובה בלתי מוגבלת לאחר תקיפה אמריקאית בבחריין, בעוד סוכנות האנרגיה האטומית מביעה דאגה מפעילות במתקן גרעיני סודי באספהאן.",
+    "i18n": {
+     "he": "איראן מאיימת בתגובה בלתי מוגבלת לאחר תקיפה אמריקאית בבחריין, בעוד סוכנות האנרגיה האטומית מביעה דאגה מפעילות במתקן גרעיני סודי באספהאן.",
+     "en": "Iran threatens an unlimited response following a US attack in Bahrain, while the IAEA expresses concern over activity at a secret nuclear facility in Isfahan.",
+     "ar": "تهدد إيران برد غير محدود بعد هجوم أمريكي في البحرين، بينما تعرب الوكالة الدولية للطاقة الذرية عن قلقها بشأن نشاط في منشأة نووية سرية في أصفهان.",
+     "ru": "Иран угрожает неограниченным ответом после атаки США в Бахрейне, в то время как МАГАТЭ выражает обеспокоенность деятельностью на секретном ядерном объекте в Исфахане."
+    }
+   }
+  ],
+  "last_update": 1794569210
  },
  {
   "ts": 1794565957,
@@ -52484,5 +52589,121 @@
    }
   ],
   "id": "7284820666a1"
+ },
+ {
+  "ts": 1794569210,
+  "time": "2026-11-13T11:26Z",
+  "title": "הסכם רכש ביטחוני בין בולגריה לספרד",
+  "summary": "בולגריה וספרד חתמו על הסכם לרכש מערכות נגד רחפנים (C-UAS) בעקבות גילוי רחפנים רוסיים מסוג 'גרבר'.",
+  "kid": "מדינות אירופה קונות יותר מערכות להגנה מפני רחפנים. זה טוב לחברות שמייצרות טכנולוגיות הגנה.",
+  "i18n": {
+   "title": {
+    "he": "הסכם רכש ביטחוני בין בולגריה לספרד",
+    "en": "Bulgaria and Spain sign C-UAS procurement deal",
+    "ar": "بلغاريا وإسبانيا توقعان اتفاقية شراء أنظمة مضادة للطائرات المسيرة",
+    "ru": "Болгария и Испания подписали соглашение о закупке систем борьбы с БПЛА"
+   },
+   "summary": {
+    "he": "בולגריה וספרד חתמו על הסכם לרכש מערכות נגד רחפנים (C-UAS) בעקבות גילוי רחפנים רוסיים מסוג 'גרבר'.",
+    "en": "Bulgaria and Spain have signed an agreement to procure Counter-UAS systems following the discovery of Russian 'Gerber' drones.",
+    "ar": "وقعت بلغاريا وإسبانيا اتفاقية لشراء أنظمة مضادة للطائرات المسيرة (C-UAS) بعد اكتشاف طائرات مسيرة روسية من طراز 'جربر'.",
+    "ru": "Болгария и Испания подписали соглашение о закупке систем борьбы с БПЛА после обнаружения российских дронов типа 'Гербер'."
+   },
+   "kid": {
+    "he": "מדינות אירופה קונות יותר מערכות להגנה מפני רחפנים. זה טוב לחברות שמייצרות טכנולוגיות הגנה.",
+    "en": "European countries are buying more systems to protect against drones. This is good for companies that make defense technologies.",
+    "ar": "تشتري الدول الأوروبية المزيد من الأنظمة للحماية من الطائرات المسيرة. هذا جيد للشركات التي تصنع تقنيات الدفاع.",
+    "ru": "Европейские страны закупают больше систем для защиты от дронов. Это хорошо для компаний, производящих оборонные технологии."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQU83V2hoVWhlQ1J1UHFtWURNMDZYV3hVN05hZ3JrMzFzVDlQLXhCMEhJUGRmamhaQ2RlSHFsb0RVMHZ5VElhX0lLLWFwazVXQ2toNVZxV0pHbllxcXJGNmpFYmtpMVptQXJyMWxDYmdoN0JPWFM4Mm03dEw2emxXTXZvczQ5ejF0b1lyUDVCTF84dXdTc0ZWMW83b2xiRmdnYmc0bHN4SHJLR1NYVEJKSHd0WlZ0SEdjbm55QUE0b0RZcy1CSU5vYUI5TFg1dTNfa0hYbThITzZnWWVPdTBBN2hFNA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1794569210,
+    "reason": "ביקוש גובר למערכות הגנה נגד רחפנים.",
+    "reason_i18n": {
+     "he": "ביקוש גובר למערכות הגנה נגד רחפנים.",
+     "en": "Rising demand for counter-drone defense systems.",
+     "ar": "زيادة الطلب على أنظمة الدفاع ضد الطائرات المسيرة.",
+     "ru": "Растущий спрос на системы защиты от дронов."
+    },
+    "name_i18n": {
+     "he": "AeroVironment",
+     "en": "AeroVironment",
+     "ar": "AeroVironment",
+     "ru": "AeroVironment"
+    },
+    "price_at_alert": 120.84
+   }
+  ],
+  "id": "2de30ba2933a"
+ },
+ {
+  "ts": 1794569210,
+  "time": "2026-11-13T11:26Z",
+  "title": "מלזיה פונה לטורקיה לרכישת טילים",
+  "summary": "מלזיה החליטה לרכוש טילים לספינות מלחמה מטורקיה לאחר שנורווגיה הקפיאה את ייצוא הנשק שלה למדינה.",
+  "kid": "מלזיה קונה נשק מטורקיה במקום מנורווגיה. זה מראה על שינויים בשוק הנשק העולמי.",
+  "i18n": {
+   "title": {
+    "he": "מלזיה פונה לטורקיה לרכישת טילים",
+    "en": "Malaysia turns to Turkey for missiles",
+    "ar": "ماليزيا تتجه إلى تركيا لشراء الصواريخ",
+    "ru": "Малайзия обращается к Турции за ракетами"
+   },
+   "summary": {
+    "he": "מלזיה החליטה לרכוש טילים לספינות מלחמה מטורקיה לאחר שנורווגיה הקפיאה את ייצוא הנשק שלה למדינה.",
+    "en": "Malaysia has decided to purchase warship missiles from Turkey after Norway froze its arms exports to the country.",
+    "ar": "قررت ماليزيا شراء صواريخ للسفن الحربية من تركيا بعد أن جمدت النرويج صادراتها من الأسلحة إلى البلاد.",
+    "ru": "Малайзия решила закупить ракеты для военных кораблей у Турции после того, как Норвегия заморозила экспорт оружия в эту страну."
+   },
+   "kid": {
+    "he": "מלזיה קונה נשק מטורקיה במקום מנורווגיה. זה מראה על שינויים בשוק הנשק העולמי.",
+    "en": "Malaysia is buying weapons from Turkey instead of Norway. This shows changes in the global arms market.",
+    "ar": "تشتري ماليزيا أسلحة من تركيا بدلاً من النرويج. هذا يظهر تغيرات في سوق الأسلحة العالمي.",
+    "ru": "Малайзия покупает оружие у Турции вместо Норвегии. Это показывает изменения на мировом рынке вооружений."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794569210,
+    "reason": "שינויים בשרשראות אספקה ביטחוניות גלובליות.",
+    "reason_i18n": {
+     "he": "שינויים בשרשראות אספקה ביטחוניות גלובליות.",
+     "en": "Shifts in global defense supply chains.",
+     "ar": "تحولات في سلاسل توريد الدفاع العالمية.",
+     "ru": "Сдвиги в глобальных цепочках поставок оборонной продукции."
+    },
+    "name_i18n": {
+     "he": "תעשיית הביטחון",
+     "en": "Defense Sector",
+     "ar": "قطاع الدفاع",
+     "ru": "Оборонный сектор"
+    },
+    "price_at_alert": 71.73
+   }
+  ],
+  "id": "2fc1dd193383"
  }
 ]
