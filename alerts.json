@@ -1242,231 +1242,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793992638,
-  "time": "2026-11-06T19:17Z",
-  "title": "קנדה תשקיע 1.8 מיליארד דולר ברחפנים צבאיים",
-  "summary": "ממשלת קנדה הודיעה על השקעה של 1.8 מיליארד דולר ברכש רחפנים צבאיים.",
-  "kid": "קנדה קונה הרבה רחפנים לצבא. זה טוב לחברות שמייצרות רחפנים וטכנולוגיה צבאית, והמניות שלהן עשויות לעלות.",
-  "i18n": {
-   "title": {
-    "he": "קנדה תשקיע 1.8 מיליארד דולר ברחפנים צבאיים",
-    "en": "Canada to invest $1.8 billion in military drones",
-    "ar": "كندا ستستثمر 1.8 مليار دولار في طائرات بدون طيار عسكرية",
-    "ru": "Канада инвестирует 1.8 миллиарда долларов в военные дроны"
-   },
-   "summary": {
-    "he": "ממשלת קנדה הודיעה על השקעה של 1.8 מיליארד דולר ברכש רחפנים צבאיים.",
-    "en": "The Canadian government announced an investment of $1.8 billion in the procurement of military drones.",
-    "ar": "أعلنت الحكومة الكندية عن استثمار بقيمة 1.8 مليار دولار في شراء طائرات بدون طيار عسكرية.",
-    "ru": "Правительство Канады объявило об инвестициях в размере 1.8 миллиарда долларов в закупку военных дронов."
-   },
-   "kid": {
-    "he": "קנדה קונה הרבה רחפנים לצבא. זה טוב לחברות שמייצרות רחפנים וטכנולוגיה צבאית, והמניות שלהן עשויות לעלות.",
-    "en": "Canada is buying many drones for its military. This is good for companies that make drones and military technology, and their stock prices might go up.",
-    "ar": "تشتري كندا الكثير من الطائرات بدون طيار لجيشها. هذا جيد للشركات التي تصنع الطائرات بدون طيار والتكنولوجيا العسكرية، وقد ترتفع أسعار أسهمها.",
-    "ru": "Канада закупает много дронов для своей армии. Это хорошо для компаний, производящих дроны и военные технологии, и их акции могут вырасти."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "AVAV",
-    "direction": "up",
-    "t0": 1793992638,
-    "reason": "פוטנציאל לזכייה בחוזים",
-    "reason_i18n": {
-     "he": "פוטנציאל לזכייה בחוזים",
-     "en": "Potential for contract wins",
-     "ar": "إمكانية الفوز بعقود",
-     "ru": "Потенциал получения контрактов"
-    },
-    "name_i18n": {
-     "he": "AeroVironment - יצרנית רחפנים",
-     "en": "AeroVironment - drone manufacturer",
-     "ar": "AeroVironment - مصنعة طائرات بدون طيار",
-     "ru": "AeroVironment - производитель дронов"
-    },
-    "price_at_alert": 112.52,
-    "entry_price": 113.17,
-    "entry_time": "2026-11-06T19:30+00:00",
-    "exit_price": 126.96,
-    "exit_date": "2026-11-09",
-    "change_pct": 12.19,
-    "bench": "SPY",
-    "bench_change_pct": 1.99,
-    "excess_pct": 10.19,
-    "edge_pct": 10.19,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "KTOS",
-    "direction": "up",
-    "t0": 1793992638,
-    "reason": "ספקית פוטנציאלית של מערכות רחפנים",
-    "reason_i18n": {
-     "he": "ספקית פוטנציאלית של מערכות רחפנים",
-     "en": "Potential supplier of drone systems",
-     "ar": "مورد محتمل لأنظمة الطائرات بدون طيار",
-     "ru": "Потенциальный поставщик систем дронов"
-    },
-    "name_i18n": {
-     "he": "Kratos - טכנולוגיה צבאית",
-     "en": "Kratos - military technology",
-     "ar": "Kratos - تكنولوجيا عسكرية",
-     "ru": "Kratos - военные технологии"
-    },
-    "price_at_alert": 34.785,
-    "entry_price": 34.91,
-    "entry_time": "2026-11-06T19:30+00:00",
-    "exit_price": 37.71,
-    "exit_date": "2026-11-09",
-    "change_pct": 8.02,
-    "bench": "SPY",
-    "bench_change_pct": 1.99,
-    "excess_pct": 6.03,
-    "edge_pct": 6.03,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "eab7ebb7c89f",
-  "evaluated": true
- },
- {
-  "ts": 1793992638,
-  "time": "2026-11-06T19:17Z",
-  "title": "ניסוי יעילות לחיסון אבולה של מודרנה",
-  "summary": "ארגון הבריאות העולמי אישר למודרנה ואוקספורד להתחיל בניסוי יעילות לחיסון נגד אבולה במהלך התפרצות פעילה.",
-  "kid": "מודרנה בודקת חיסון חדש נגד מחלה מסוכנת. אם הניסוי יצליח, זה יכול לעזור לחברה ולגרום למניה שלה לעלות.",
-  "i18n": {
-   "title": {
-    "he": "ניסוי יעילות לחיסון אבולה של מודרנה",
-    "en": "Moderna Ebola vaccine efficacy trial",
-    "ar": "تجربة فعالية لقاح إيبولا من موديرنا",
-    "ru": "Испытание эффективности вакцины Moderna против Эболы"
-   },
-   "summary": {
-    "he": "ארגון הבריאות העולמי אישר למודרנה ואוקספורד להתחיל בניסוי יעילות לחיסון נגד אבולה במהלך התפרצות פעילה.",
-    "en": "The WHO has cleared Moderna and Oxford to begin an efficacy trial for an Ebola vaccine during an active outbreak.",
-    "ar": "وافقت منظمة الصحة العالمية لموديرنا وأكسفورد على بدء تجربة فعالية للقاح ضد إيبولا خلال تفشٍ نشط.",
-    "ru": "ВОЗ разрешила Moderna и Оксфорду начать испытание эффективности вакцины против Эболы во время активной вспышки."
-   },
-   "kid": {
-    "he": "מודרנה בודקת חיסון חדש נגד מחלה מסוכנת. אם הניסוי יצליח, זה יכול לעזור לחברה ולגרום למניה שלה לעלות.",
-    "en": "Moderna is testing a new vaccine for a dangerous disease. If the test works, it could help the company and make its stock price go up.",
-    "ar": "تختبر موديرنا لقاحًا جديدًا لمرض خطير. إذا نجحت التجربة، فقد يساعد ذلك الشركة ويجعل سعر سهمها يرتفع.",
-    "ru": "Moderna тестирует новую вакцину от опасной болезни. Если испытание пройдет успешно, это может помочь компании, и цена ее акций может вырасти."
-   }
-  },
-  "category": "health",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1793992638,
-    "reason": "התקדמות בפיתוח חיסונים",
-    "reason_i18n": {
-     "he": "התקדמות בפיתוח חיסונים",
-     "en": "Progress in vaccine development",
-     "ar": "تقدم في تطوير اللقاحات",
-     "ru": "Прогресс в разработке вакцин"
-    },
-    "name_i18n": {
-     "he": "מודרנה - חברת ביוטכנולוגיה",
-     "en": "Moderna - biotech company",
-     "ar": "موديرنا - شركة تكنولوجيا حيوية",
-     "ru": "Moderna - биотехнологическая компания"
-    },
-    "price_at_alert": 259.24,
-    "entry_price": 259.46,
-    "entry_time": "2026-11-06T19:30+00:00",
-    "exit_price": 268.94,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.65,
-    "bench": "SPY",
-    "bench_change_pct": 1.99,
-    "excess_pct": 1.66,
-    "edge_pct": 1.66,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "977e6ec76162",
-  "evaluated": true
- },
- {
-  "ts": 1793992638,
-  "time": "2026-11-06T19:17Z",
-  "title": "ארה\"ב מטילה סנקציות על 45 ישויות בגין הונאת קריפטו",
-  "summary": "משרד האוצר האמריקאי הטיל סנקציות על 45 ישויות ואנשים המקושרים לסינדיקט הונאת קריפטו.",
-  "kid": "ארה\"ב מענישה אנשים וחברות שגנבו כסף באמצעות מטבעות דיגיטליים. זה מראה על רגולציה מחמירה יותר בשוק הקריפטו.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב מטילה סנקציות על 45 ישויות בגין הונאת קריפטו",
-    "en": "US sanctions 45 entities over crypto scam",
-    "ar": "الولايات المتحدة تفرض عقوبات على 45 كيانًا بسبب احتيال في العملات المشفرة",
-    "ru": "США ввели санкции против 45 организаций из-за крипто-мошенничества"
-   },
-   "summary": {
-    "he": "משרד האוצר האמריקאי הטיל סנקציות על 45 ישויות ואנשים המקושרים לסינדיקט הונאת קריפטו.",
-    "en": "The US Treasury has sanctioned 45 entities and individuals linked to a crypto fraud syndicate.",
-    "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على 45 كيانًا وفردًا مرتبطين بنقابة احتيال في العملات المشفرة.",
-    "ru": "Министерство финансов США ввело санкции против 45 организаций и лиц, связанных с синдикатом по крипто-мошенничеству."
-   },
-   "kid": {
-    "he": "ארה\"ב מענישה אנשים וחברות שגנבו כסף באמצעות מטבעות דיגיטליים. זה מראה על רגולציה מחמירה יותר בשוק הקריפטו.",
-    "en": "The US is punishing people and companies that stole money using digital currencies. This shows stricter rules in the crypto market.",
-    "ar": "تعاقب الولايات المتحدة الأشخاص والشركات التي سرقت الأموال باستخدام العملات الرقمية. هذا يظهر قواعد أكثر صرامة في سوق العملات المشفرة.",
-    "ru": "США наказывают людей и компании, которые крали деньги с помощью цифровых валют. Это показывает более строгие правила на рынке криптовалют."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1793992638,
-    "reason": "חשש מהגברת רגולציה על שוק הקריפטו",
-    "reason_i18n": {
-     "he": "חשש מהגברת רגולציה על שוק הקריפטו",
-     "en": "Concerns over increased crypto regulation",
-     "ar": "مخاوف بشأن زيادة التنظيم في سوق العملات المشفرة",
-     "ru": "Опасения по поводу усиления регулирования крипторынка"
-    },
-    "name_i18n": {
-     "he": "קרן סל ביטקוין",
-     "en": "Bitcoin ETF",
-     "ar": "صندوق الاستثمار المتداول للبيتكوين",
-     "ru": "ETF на биткоин"
-    },
-    "price_at_alert": 42.785,
-    "entry_price": 42.76,
-    "entry_time": "2026-11-06T19:30+00:00",
-    "exit_price": 42.305,
-    "exit_date": "2026-11-09",
-    "change_pct": -1.06,
-    "bench": "SPY",
-    "bench_change_pct": 1.99,
-    "excess_pct": -3.06,
-    "edge_pct": 3.06,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "79f2ef981c8f",
-  "evaluated": true
- },
- {
   "ts": 1793995495,
   "time": "2026-11-06T20:04Z",
   "title": "בכירי הפד מאותתים על העלאות ריבית נוספות",
@@ -50950,18 +50725,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa19ma29zNFRzWjUwR043ZzF2Q3FuMjlPa0xZNlo5c2NydTlFQngwd2ZOeFVQMUo3VTF6bFMtM05SS0daNW96ckV2T29qZWlrcDEwaXdIMExxaE1pazNoWElUcFlJQ0RLU0U0SFJZeHFvSFd3TFR0bHlRTlh1VEZnX0hWYTRjSExoY2dKTXIwWjJ3Vmd1?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVV92N1M5Ym52NnAyZjVnOU9SLVFWMFhMNnh2aEp1RU56WWU2cXJGZkExd2xvdVNXX1JZenRzSDRqUnVBTzZ0Qk55U1VJWGFhbU1WazhzSWxNcFZ0VFZXdmdraUJfZW5tNnA1V2NUYWVnVkxRX3BKQ1E3ZEhhYkQ1UXRiZlI0TzRISWs2NDVYWUMyWExEQ084WGltN3A3dw?oc=5"
-   },
-   {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLThVakxiSnk2bXRTeEtmMG1ud2ZPUEd0c09xNExpUVZUOTVsREJGVW1rNlRhcUNwbXR5d29ZaHRuX3lqdU9sMVVaUENSNmJtbmQyeXg3eHk0TU5hLTFyaXI3MFlfSEVqdTVLdnhyRk5RTzN2eWg3LWZaM2E1T2c2Rm1oODhKM0JteHlwZXBGZGtjN0dCQVFKMjduSVNrM3Y1dEFOZklmdVBBMlhNOFhsVXNB?oc=5"
    },
@@ -50972,6 +50735,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10TDU5c2pRdmVMVUxpMF9CeUJsTVNhOUtFVXNzZm9yc0hHWGZ3N1Nta0I4VzFLNHNTWi1JNUtqcUV1bTZXT1NzY0lZZXZVQWF3dHRYQnF3d0ZvZw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3FQWkk4NndObXVDNHZCQ3d4Wlh2LUtHNnVCUnNaZzhTeW0wZHk0WkQ2dWplUmpuOTc2SkVsanhjUHpSMDVKWEpvTGlxZzNRaWJiWlpfSFpNZl9mcWtLYWluRkxuaGVkdFFBRkJIRDgtVUVnUXlXemdsWEZqMjBXMUdGRE03ZU5neUpYb1A4MU0zVWsxMUgycU9NSUw1TXFKWnlDMlJXR1QxLWRn?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWM5QmN1S21LTTk1UTFydWdmVXJjUGpzc2p4UmVSZWN0N2FFVHZJQ01fYmU3MDdZeEJKWng4b21qcjFPVlV3OXlFeGt2ZThKWHExWVZmRXQwRllyUl9ackQ5bmQyb2w3QmVJT1d1RDg2NHRWZnRGUTE3UmVzZTBHaXRSNjNBUjdzNlN3ZnRJMG5iZFMxZnlNNDYxQnV1Ul9oNWNsZnRoNU9aMklleC1pdG5CSEhJZDBWWXU0WU5rTmZrampCSWFV?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEFxR1lXRVNFdHlqZlBWZTMyTmhmWEZvbzNEMVpsTmlBQ2Z2VUVUNDRXbWlHdHNPd2lKS25Qc21ONHp3cUI0V0ZLRTFfcm5QTlYwM2FCTGgtTFU1LU5DMXdVSWxnbUlvZjNUbmVPZF8xRUlqYVlyaGt4SERWdHBiaGZFdDVJdFJqY1g1WWVlaHZfSVFjTlpsQ3ZoT01ERGQ5NnVoOFVjSi1jMmNkV3drQ1dhdE1uajJmUDhIemNIOEszQkE?oc=5"
    }
   ],
   "impacts": [
@@ -51031,6 +50806,25 @@
      "ru": "KRE - ETF региональных банков"
     },
     "price_at_alert": 72.61
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794598159,
+    "reason": "לחץ שלילי על מניות טכנולוגיה עקב חשש מריבית גבוהה.",
+    "reason_i18n": {
+     "he": "לחץ שלילי על מניות טכנולוגיה עקב חשש מריבית גבוהה.",
+     "en": "Negative pressure on tech stocks due to high-interest-rate fears.",
+     "ar": "ضغط سلبي على أسهم التكنولوجيا بسبب مخاوف ارتفاع أسعار الفائدة.",
+     "ru": "Негативное давление на технологические акции из-за страха высоких ставок."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל על מדד נאסד\"ק",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ - ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 680.08
    }
   ],
   "id": "126af305707d",
@@ -51046,9 +50840,21 @@
      "ar": "سجل تضخم أسعار المنتجين في الولايات المتحدة أعلى مستوى في أربع سنوات، مما دفعت عوائد سندات الخزانية لأجل 10 سنوات إلى نحو 5.11%-5.15% ועززت التوقعات برفع الفائدة في ديسمبر.",
      "ru": "Инфляция цен производителей в США достигла четырехлетнего максимума, подняв доходность 10-летних гособлигаций до 5.11%-5.15% и усиливая ожидания повышения ставки ФРС в декабре."
     }
+   },
+   {
+    "ts": 1794598159,
+    "time": "2026-11-13T19:29Z",
+    "severity": 7,
+    "summary": "מדד מחירי היצרן (PPI) בארה\"ב טיפס ל-6.5%, הרמה הגבוהה ביותר מאז 2022, מה שהוביל לירידות בשוקי המניות, בירידת נאסד\"ק ובחששות מהעלאות ריבית של הפד.",
+    "i18n": {
+     "he": "מדד מחירי היצרן (PPI) בארה\"ב טיפס ל-6.5%, הרמה הגבוהה ביותר מאז 2022, מה שהוביל לירידות בשוקי המניות, בירידת נאסד\"ק ובחששות מהעלאות ריבית של הפד.",
+     "en": "US Producer Price Index (PPI) inflation hit 6.5%, the highest since 2022, causing the Nasdaq to sink and increasing fears of Federal Reserve rate hikes.",
+     "ar": "بلغ معدل التضخم لأسعار المنتجين في الولايات المتحدة 6.5%، وهو الأعلى منذ عام 2022، مما أدى إلى انخفاض ناسداك وزيادة مخاوف رفع أسعار الفائدة.",
+     "ru": "Инфляция цен производителей в США достигла 6.5%, что является максимумом с 2022 года, вызвав падение Nasdaq и опасения повышения ставок ФРС."
+    }
    }
   ],
-  "last_update": 1794580630
+  "last_update": 1794598159
  },
  {
   "ts": 1794577463,
@@ -52123,28 +51929,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa1Z6S3RPT3BJTkV6Q1VfTU9ma2RqTWJvVE5ES3lOTW9fRjlFTy11VTZpaEZtMkNuTlhkblIweWw1YVBicVd4VTd4cEktSFN3cWdwdkpiT2JWV3ZYd2RwQ2R1SjZaWGRxTzBEZlpPdmFObHl1T2JkWTRaZmFQRlR4Z0tuMmRKZjVnem1OMmRLalhwMkpYTkZDemh1bHY1Zw?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/no-emails-no-problem-workers-joke-about-microsoft-outage?traffic_source=rss"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tZ1Z2VXpHd0ZOYjlRUW1qTVJzeWNlNlRmNm9OMV9iaWlNdVFpOWFlQ05mTjVsbHVVNEdZT3otbUlnWUpvc1laTnBCZUxCazBzT3NmaEpueEcxc2VGeTc1bUxqV1M4NXFLM2NYcGU2R0FmV3FRVGNPWVNR?oc=5"
-   },
-   {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUNERTlMMHlQLWdDczkwVDdyTTFjTmw3cHYybEFVUThVblZxd3dtU19ROHJOQ2lXdGRaZlVDc1pjRVA0WjkwclVzQzJnQlctUkV1SnJ2SUVJV042MkNXdDRvMlBRTUFWMzBla2xkU0w0aTQ4Y1lkTXZ0OEI5NkhUR0VuT0RuTWRETElpRXJZX1RCMXhFbVBjVGdrRTk5ejAxU0NNUTVtbk16c3dPeVVwRVc2dEFkRmNZU2c0TDFfLVZ6ZWhDa3o3S0Z5TXA?oc=5"
    },
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVGhxYmxJaDEtYkpDTlNHdV9EZWdMNWI3bW1KU0k2NXFja1Z0cXJDQ2JMTzliSlVERjZJbF8taWFLUDJUVnBncGxWcVY0dm5XVHBKT2p5VWZFd2FkbFgwcHh4Nk5XSGtKTkQ1SWdhX093dk5FSDV0eGZVSWROTVh5a2g3bUUwR2NFS09UaTFrVUpRd1NDVkJxUDI2U1dqbDJYMHlIVkx3REIyTHNPRjJkeEZsMFpiWU1wck1kMnZ4a0RwNGNkazRXQ0UwS2JaM0piTFoyYUtSd0hla0lIOWZjX01RbVdiaHUySjlLdkVfazVINExUWnlfZnJnWTJGVlJv0gGGAkFVX3lxTE8waWRPMEV4ZUdDVFBtTjJZTUN2M3hmeUN6QkFLSk9HNldKMzBwUklETHoxQmU1LUhvcDZfNHowX3B4YS1idEtuY1JvU0JfNnphYUN6VFpmS1I5RUdfenFsSXdnamFSUmZhdllsZVlVNDVjV1piRUFtSVRhbTItQzdQRWRERWhieU01dDV1VkpTb2dvOU1wNkZleVVBc0pGaE5oQXVCNHg2UGVsNHI2WmVwdGhUTm1mV2FNeWdSY3lERDlydk14QjFaN19mS3JqYVdycmt6LVJqWk1LcGs1YlhLUVdFZjlFaUNHVEJMenNaWUxvYkZzdEdqbEhFeGdBa09QMXhrbXc?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV3JSd01tMW5ITFpfc2JSX1dWUlZiTE1BUDAtQXktWFQ3dnNlS3hMS3E2ek11UzhsWVFpdnNQa1RDMnByTVhqYVhVNWdQN05WUU1NU0NjZzJTNlVoY2w3SUo0WFY0RTlfcEZFMjV6U1diMEVJa29waU5fUGxOeEQ4M3ROM0FEZkZCMHI2ZjRBd0ZtSk9lNFBLZjdhZWUyYzdTWUtGU0JWdEZUYkxpdDk2OUszVmc2ejc5VzVoU0kzcjJyLXF2LUM0?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZGVSSENaNTlXRG1JU18td1RmaW90LUNoYW1TbDgwVXBZZUVTV3VPU1RWUk9WVllOdnVxblB3dlZjdnpmYkMxaFh1ZjdTeDRNbTdkZ1V4akpGdmRMbHZlMHRZMEFoSkNka2FFRUNJTm9RUkFCVEtJZmtNckJpaTFfWTRBUGZVSGxsTG1QU01pR2ZsdDB4a2xHY0xDeng3Q013R2NDem13?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0xyRWo5cF9XODNjQzJXa3lVNEZ1SG5kVkMyNXJ4YXZ4SXZkaXBsdU0weDhiTG9nQlJkWmE2QTV2ZGtZU2U5Mms0UXF5TE1JR21HSG1uRE4wRmpSX1VNLWRtNFlOdWhURVZPdkxFb2RyMEJ1emN0ejI1TTFsRFJJb0EtdENVSGZVNlJQd2g1TzlLUk14bVBUcDAyWC1vNXE3STY0eXB3ajJ2NHJVNXVTRHRjcw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaUNaN0RKZ2xzV184UVhJbS1zVjVtNG84V2ttZF92LWdSQk1KclFqRE1lTlBrbU9pZUlRdHdqLWEyTFBRQnBabnVTSUl0RTQ5a2J6X0dFTlk0VGNNbEVSWHBYMkd5Z1dheHFaMEs2Z3NnMFNnV0FkS3djcVBTa1pMVGJHRjgzZkJPVGhqSnhRVFlsVlFtUTdRN2NTQmpncDc2ZHluSVlXYXpqV200OV9PM19lYnpWd0w0NXJRN0VQVXNXYUE5eDFLWjhPWlFsbDgtemtlX25RaXFmUE1SNURHTlhiZFByT19HRzM4bUE3a3h3ak44YVNN0gHwAUFVX3lxTE9xbWU4X21NSGF0TlhQUC0xaXgyUWF6eFBXa2JTSm5RSUtkMnhueDhlaFVrc0l0TktnSW5XS09KcXo4MzZJUXAzeEdiaHJULUt0RGQ0YXNTTkhaODlYUTRKVEZKTFlwdUtMRDk0U1RpX1JZNW16MXJNY1dtSVJzTG5pVE01aUtJU2FvQzBFZGlJbVF5ZUR6TGJ4STgxSlV2cFNGcTFTM09LWEJrblJpeWRqcDNOQ0FVX1hvaEpqMlRGQmI2Nm4xM0d1aEZXMi10MFFTNVdNUXRXUmZFMWttR2czTVRZcm03M1FNRzJBRFQwNA?oc=5"
    }
   ],
   "impacts": [
@@ -52166,6 +51972,25 @@
      "ru": "Microsoft – гигант программного обеспечения"
     },
     "price_at_alert": 523.93
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1794598159,
+    "reason": "הסרת החשש מפריצת סייבר מערכתית ענקית בענקית הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "הסרת החשש מפריצת סייבר מערכתית ענקית בענקית הטכנולוגיה.",
+     "en": "Removal of fears regarding a massive systemic cyber breach at the tech giant.",
+     "ar": "زوال المخاوف بشأن اختراق سيبراني واسع النطاق في عملاق التكنولوجيا.",
+     "ru": "Снятие опасений по поводу масштабного кибервзлома у технологического гиганта."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל על מדד נאסד\"ק",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ - ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 680.08
    }
   ],
   "id": "a6597e31b15a",
@@ -52181,9 +52006,21 @@
      "ar": "أدى خلل فني عالمي إلى تعطيل خدمات مايكروسوفت 365، بما في ذلك أوتلوك وتيمز، لمدة 16 ساعة. وأكدت الشركة أن الانقطاع كان بسبب تحديث برمجي خاطئ وليس هجومًا سيبرانيًا.",
      "ru": "Глобальный технический сбой привел к отключению сервисов Microsoft 365, включая Outlook и Teams, на 16 часов. Компания подтвердила, что причиной стал неудачный программный апдейт, а не кибератака."
     }
+   },
+   {
+    "ts": 1794598159,
+    "time": "2026-11-13T19:29Z",
+    "severity": 4,
+    "summary": "מיקרוסופט הודיעה כי תקלות הענן הגלובליות והשיבושים ב-Microsoft 365 נגרמו מעומס תשלובת תעבורה ובעיות שדרוג רשת, ושללה באופן חד-משמעי קיומה של מתקפת סייבר.",
+    "i18n": {
+     "he": "מיקרוסופט הודיעה כי תקלות הענן הגלובליות והשיבושים ב-Microsoft 365 נגרמו מעומס תשלובת תעבורה ובעיות שדרוג רשת, ושללה באופן חד-משמעי קיומה של מתקפת סייבר.",
+     "en": "Microsoft stated that the global cloud outage and M365 disruptions were caused by overwhelming traffic and a network upgrade issue, ruling out any cyberattack.",
+     "ar": "أعلنت مايكروسوفت أن انقطاع السحابة العالمية واضطرابات مايكروسوفت 365 ناتجة عن حركة المرور ومشكلة ترقية الشبكة، مستبعدة أي هجوم سيبراني.",
+     "ru": "Microsoft заявила, что глобальный сбой облака и перебои в M365 вызваны перегрузкой трафика и проблемами обновления сети, исключив кибератаку."
+    }
    }
   ],
-  "last_update": 1794594026
+  "last_update": 1794598159
  },
  {
   "ts": 1794590764,
@@ -52431,6 +52268,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkN5VkRPb3E4X21ZNWtUTnZVcVZDeXc5d1FUd0dkNWVmdlJ6WWtVc1RPTUVHMXZiSkkzQ2dyLWJ3NzN6OFdEQzUtaFlXSTBDMTV3el9UeDJLQ1VERTVERGd1YVI3WmRVR1djSFJWMTN6MUwyZHIxTnE3WEJTYzhIR1o0eEV3d2VOTzlvX3FBSGd4enBEV0N1UWtZbWNBV0psVkFhZmpXa3BBSkd1YUhBUmNJTQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lneWN6TzV1ZXctMUFVUlJSbVVDUG1vOWNYM1d2Z25QV1ZlSHdjSFVmblhtX1UzNEQySEYwdjZNZGw3VnZPc00yOTEtSWFsY25CRTRhaGZJM2tFamQ3cDl6YTEwbmJLQ1VmdHo2Y2hjVThnNjdiQTNfai1xTDhFcmFITF9WblV6Rlk1M0FnbDRFWXJjdXA5R19ERUZ2WjdyZmg4bUxPQ2RZcmhaUzZxRjIwQk5jTWw1cUwxVw?oc=5"
    }
   ],
   "impacts": [
@@ -52452,8 +52293,273 @@
      "ru": "Энергетический сектор"
     },
     "price_at_alert": 64.545
+   },
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794598159,
+    "reason": "הקלה בשינוע הנפט עשויה לצמצם צווארי בקבוק ולחצי מחירים.",
+    "reason_i18n": {
+     "he": "הקלה בשינוע הנפט עשויה לצמצם צווארי בקבוק ולחצי מחירים.",
+     "en": "Easier oil transport may alleviate bottlenecks and price pressures.",
+     "ar": "تسهيل نقل النفط قد يخفف من الاختناقات الضغوط السعرية.",
+     "ru": "Упрощение транспортировки нефти может ослабить узкие места и ценовое давление."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל על מחירי הנפט הגולמי",
+     "en": "USO - United States Oil Fund ETF",
+     "ar": "USO - صندوق النفط الخام الأمريكي",
+     "ru": "USO - ETF нефтяного фонда США"
+    },
+    "price_at_alert": 145.01
    }
   ],
-  "id": "96151250eea4"
+  "id": "96151250eea4",
+  "updates": [
+   {
+    "ts": 1794598159,
+    "time": "2026-11-13T19:29Z",
+    "severity": 3,
+    "summary": "ממשלת ארה\"ב האריכה את הפטור מחוק ג'ונס ב-90 יום נוספים, כדי לאפשר תנועה חופשית יותר של נפט וסחורות דרך הים.",
+    "i18n": {
+     "he": "ממשלת ארה\"ב האריכה את הפטור מחוק ג'ונס ב-90 יום נוספים, כדי לאפשר תנועה חופשית יותר של נפט וסחורות דרך הים.",
+     "en": "The US government extended the Jones Act shipping waiver by 90 days to allow freer movement of oil and commodities.",
+     "ar": "مددت الحكومة الأمريكية الإعفاء من قانون جونز لمدة 90 يوماً إضافية للسماح بحركة أكثر حرية للنفط والسلع عبر البحر.",
+     "ru": "Правительство США продлило освобождение от Закона Джонса еще на 90 дней для более свободного движения нефти и сырья."
+    }
+   }
+  ],
+  "last_update": 1794598159
+ },
+ {
+  "ts": 1794598159,
+  "time": "2026-11-13T19:29Z",
+  "title": "פולין מודיעה על השעיית מימון לרכישת נשק אמריקאי עבור אוקראינה",
+  "summary": "ראש ממשלת פולין דונלד טוסק הודיע על השעיית המימון מטעם ארצו לרכישת ציוד צבאי אמריקאי עבור אוקראינה במסגרת מנגנון PURL.",
+  "kid": "פולין עוצרת זמנית את התשלומים שלה לקניית נשק מארה\"ב עבור אוקראינה. זה עלול להשפיע על היקף ההזמנות של חברות הביטחון הגדולות בארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "פולין מודיעה על השעיית מימון לרכישת נשק אמריקאי עבור אוקראינה",
+    "en": "Poland Suspends Funding for US Weapons Purchase for Ukraine",
+    "ar": "بولندا تعلن تعليق تمويل شراء الأسلحة الأمريكية لأوكرانيا",
+    "ru": "Польша приостанавливает финансирование закупки американского оружия для Украины"
+   },
+   "summary": {
+    "he": "ראש ממשלת פולין דונלד טוסק הודיע על השעיית המימון מטעם ארצו לרכישת ציוד צבאי אמריקאי עבור אוקראינה במסגרת מנגנון PURL.",
+    "en": "Polish Prime Minister Tusk announced the suspension of funding for purchasing US weapons for Ukraine under the PURL mechanism.",
+    "ar": "أعلن رئيس الوزراء البولندي دونالد توسك تعليق تمويل بلاده لشراء المعدات العسكرية الأمريكية لأوكرانيا.",
+    "ru": "Премьер-министр Польши Дональд Туск объявил о приостановлении финансирования закупки американской военной техники для Украины."
+   },
+   "kid": {
+    "he": "פולין עוצרת זמנית את התשלומים שלה לקניית נשק מארה\"ב עבור אוקראינה. זה עלול להשפיע על היקף ההזמנות של חברות הביטחון הגדולות בארה\"ב.",
+    "en": "Poland is pausing its payments to buy US weapons for Ukraine. This could impact future order volumes for major US defense contractors.",
+    "ar": "توقف بولندا مؤقتاً المدفوعات لشراء الأسلحة الأمريكية لأوكرانيا. قد يؤثر ذلك على حجم طلبيات شركات الدفاع الأمريكية الكبرى.",
+    "ru": "Польша временно приостанавливает выплаты на покупку американского оружия для Украины. Это может повлиять на объем заказов оборонных гигантов США."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NR3E3NDhlRUVHT2UzSXRRQVRtd0IxakdMV2o2NmIxd2tnc0JQdTljb1VDMEwzVTNZZTctOXUxYVRZY1JDSEczaF9xZEl1b0lzVUF6QVhLQU5CYkFFQURGOGRR0gFnQVVfeXFMUEc1NjF4OFBGVnJjbXJUWUxheGJYZ1pGajhzMkVUdW8tR1NMUjNUXzhia29MemNCaGIzSHhsb3R5cWpnNVRJLXBfdDFmdmN5VGp6Nmxrb1ZUbHg4anpMOWtKYXlCVUZ2WQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "down",
+    "t0": 1794598159,
+    "reason": "עיכוב אפשרי בחוזים עתידיים לחימוש אוקראינה דרך שותפים אירופאיים.",
+    "reason_i18n": {
+     "he": "עיכוב אפשרי בחוזים עתידיים לחימוש אוקראינה דרך שותפים אירופאיים.",
+     "en": "Potential delay in future contracts for arming Ukraine via European partners.",
+     "ar": "تأخير محتمل في العقود المستقبلية لتسليح أوكرانيا عبر الشركاء الأوروبيين.",
+     "ru": "Возможная задержка будущих контрактов на поставку оружия в Украину."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין (ענקית ביטחונית)",
+     "en": "LMT - Lockheed Martin (Defense contractor)",
+     "ar": "LMT - لوكهيد مارتن (مقاول دفاعي)",
+     "ru": "LMT - Lockheed Martin (Оборонный подрядчик)"
+    },
+    "price_at_alert": 593.52
+   },
+   {
+    "ticker": "RTX",
+    "direction": "down",
+    "t0": 1794598159,
+    "reason": "פגיעה קלה בצבר ההזמנות הביטחוניות המיועדות למזרח אירופה.",
+    "reason_i18n": {
+     "he": "פגיעה קלה בצבר ההזמנות הביטחוניות המיועדות למזרח אירופה.",
+     "en": "Minor impact on the defense order backlog destined for Eastern Europe.",
+     "ar": "تأثير طفيف على دفاتر طلبيات الدفاع المخصصة لأوروبا الشرقية.",
+     "ru": "Незначительное влияние на портфель оборонных заказов для Восточной Европы."
+    },
+    "name_i18n": {
+     "he": "RTX - רות'און (חברת טכנולוגיה ותעופה)",
+     "en": "RTX - RTX Corporation (Aerospace & defense)",
+     "ar": "RTX - شركة ريثيون (الفضاء والدفاع)",
+     "ru": "RTX - RTX Corporation (Аэрокосмическая и оборонная)"
+    },
+    "price_at_alert": 198.1
+   },
+   {
+    "ticker": "ITA",
+    "direction": "down",
+    "t0": 1794598159,
+    "reason": "האטה במימון אירופאי לרכש ביטחוני אמריקאי פוגעת בסנטימנט המגזרי.",
+    "reason_i18n": {
+     "he": "האטה במימון אירופאי לרכש ביטחוני אמריקאי פוגעת בסנטימנט המגזרי.",
+     "en": "Slowdown in European funding for US defense purchases hurts sector sentiment.",
+     "ar": "تباطؤ التمويل الأوروبي للمشتريات الدفاعية الأمريكية يضر بمعنويات القطاع.",
+     "ru": "Замедление европейского финансирования закупок оружия бьет по сектору."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
+     "en": "ITA - iShares U.S. Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.285
+   }
+  ],
+  "id": "5fdde7148cd5"
+ },
+ {
+  "ts": 1794598159,
+  "time": "2026-11-13T19:29Z",
+  "title": "חברת קפסטון קופר צופה פגיעה בתפוקת הנחושת לשנת 2026 עקב עיכוב במחצבה",
+  "summary": "חברת הכרייה קפסטון קופר הודיעה כי היא צופה תחזית נמוכה יותר לייצור נחושת לשנת 2026 בעקבות עיכובים בהתקנת מערכת גריסה.",
+  "kid": "חברת כרייה גדולה צפויה להפיק פחות נחושת מהמתוכנן בשל עיכוב טכני במכונה. מכיוון שנחושת חיולית לתעשייה ולחשמל, פחות היצע עלול להעלות את המחיר.",
+  "i18n": {
+   "title": {
+    "he": "חברת קפסטון קופר צופה פגיעה בתפוקת הנחושת לשנת 2026 עקב עיכוב במחצבה",
+    "en": "Capstone Copper Faces Lower 2026 Output Due to Crusher Delay",
+    "ar": "شركة كابستون كوبر تواجه انخفاضاً في إنتاج النحاس لعام 2026 بسبب تأخر ال كسارة",
+    "ru": "Capstone Copper ожидает снижения добычи меди в 2026 году из-за задержки дробилки"
+   },
+   "summary": {
+    "he": "חברת הכרייה קפסטון קופר הודיעה כי היא צופה תחזית נמוכה יותר לייצור נחושת לשנת 2026 בעקבות עיכובים בהתקנת מערכת גריסה.",
+    "en": "Mining company Capstone Copper announced a lower 2026 output guidance due to delays involving a crusher installation.",
+    "ar": "أعلنت شركة التعدين كابستون كوبر عن توقعات منخفضة لإنتاج النحاس في عام 2026 بسبب تأخير تركيب نظام التكسير.",
+    "ru": "Горнодобывающая компания Capstone Copper объявила о снижении прогноза добычи меди на 2026 год из-за задержки установки дробилки."
+   },
+   "kid": {
+    "he": "חברת כרייה גדולה צפויה להפיק פחות נחושת מהמתוכנן בשל עיכוב טכני במכונה. מכיוון שנחושת חיולית לתעשייה ולחשמל, פחות היצע עלול להעלות את המחיר.",
+    "en": "A major mining company expects to produce less copper due to machinery delays. Since copper is crucial for electronics and industry, lower supply could push prices up.",
+    "ar": "تتوقع شركة تعدين كبرى إنتاج كمية أقل من النحاس بسبب تأخير الآلات. نظراً لأن النحاس ضروري للصناعة، فإن انقلاب المعروض قد يرفع الأسعار.",
+    "ru": "Крупная горнодобывающая компания планирует добыть меньше меди из-за задержки оборудования. Поскольку медь важна для промышленности, это может поднять цены."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd3M1T25zWTFTa0ZRWGpjYU94VFBCODdkVkFXVUVKejlvaDJ4R0VsRVlCS3EzYTItWWpwUV9HakIzd1dqYW45RWg4dnIyUDY3blZfWlZaTHZoN1NQUlE1czJHX1pnb05hV00xQnZZREY4cVZGM0FtYUlIS3d1a1QzR2Z1QWZLY01ZbkNNRWhEWEtvalBHZE1mb19mQ3JMdTR2Tm56bDFPZ05iVWNwRHc4ZzNYMW82cHJZbk5oOGVwUkRzZUNRWTc4?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794598159,
+    "reason": "תחזית לייצור נחושת נמוך יותר תומכת בלחץ חיובי על מחירי המתכת.",
+    "reason_i18n": {
+     "he": "תחזית לייצור נחושת נמוך יותר תומכת בלחץ חיובי על מחירי המתכת.",
+     "en": "Lower copper production guidance supports upward pressure on metal prices.",
+     "ar": "توقعات إنتاج النحاس المنخفضة تدعم الضغط الصعودي على أسعار المعدن.",
+     "ru": "Прогноз снижения добычи меди поддерживает рост цен на металл."
+    },
+    "name_i18n": {
+     "he": "CPER - קרן סל על מחיר הנחושת",
+     "en": "CPER - United States Copper Index Fund",
+     "ar": "CPER - صندوق مؤشر النحاس الأمريكي",
+     "ru": "CPER - ETF цен на медь"
+    },
+    "price_at_alert": 36.565
+   },
+   {
+    "ticker": "FCX",
+    "direction": "up",
+    "t0": 1794598159,
+    "reason": "מחסור עתידי בהיצע הנחושת העולמי עשוי להעלות את שווי שחקניות הסקטור.",
+    "reason_i18n": {
+     "he": "מחסור עתידי בהיצע הנחושת העולמי עשוי להעלות את שווי שחקניות הסקטור.",
+     "en": "Future global copper supply deficits may boost sector valuations.",
+     "ar": "عجز إمدادات النحاس العالمية المستقبلية قد يعزز تقييمات شركات القطاع.",
+     "ru": "Будущий дефицит поставок меди может повысить оценки компаний сектора."
+    },
+    "name_i18n": {
+     "he": "FCX - פריפורט-מקמורן (ענקית כרייה נחושת)",
+     "en": "FCX - Freeport-McMoRan (Copper miner)",
+     "ar": "FCX - فريبورت-מקמורן (تعدين النحاس)",
+     "ru": "FCX - Freeport-McMoRan (Добыча меди)"
+    },
+    "price_at_alert": 59.345
+   }
+  ],
+  "id": "ab044674181f"
+ },
+ {
+  "ts": 1794598159,
+  "time": "2026-11-13T19:29Z",
+  "title": "שירות הדואר האמריקאי (USPS) מציע להפוך את תוספת דלק לקבועה ולהעלות תעריפים",
+  "summary": "שירות הדואר של ארצות הברית (USPS) הגיש הצעה להפוך את תוספת דמי הדלק לקבועה ולייקר את תעריפי המשלוחים החל מינואר הקרובים.",
+  "kid": "רשות הדואר בארה\"ב רוצה להעלות את מחירי המשלוחים שלה ולהפוך תוספת תשלום על דלק לקבועה. זה יכול לייקר את עלויות השילוח לחברות מסחר אלקטרוני.",
+  "i18n": {
+   "title": {
+    "he": "שירות הדואר האמריקאי (USPS) מציע להפוך את תוספת דלק לקבועה ולהעלות תעריפים",
+    "en": "USPS Proposes Making Fuel Surcharge Permanent and Raising Rates",
+    "ar": "خدمة البريد الأمريكية تقترح جعل رسوم الوقود إضافية دائمة ورفع الأسعار",
+    "ru": "Почта США предлагает сделать надбавку на топливо постоянной и поднять тарифы"
+   },
+   "summary": {
+    "he": "שירות הדואר של ארצות הברית (USPS) הגיש הצעה להפוך את תוספת דמי הדלק לקבועה ולייקר את תעריפי המשלוחים החל מינואר הקרובים.",
+    "en": "The United States Postal Service (USPS) proposed making its fuel surcharge permanent and hiking shipping rates starting in January.",
+    "ar": "اقترحت خدمة البريد في الولايات المتحدة جعل رسوم الوقود الإضافية دائمة ورفع أسعار الشحن بدءاً من يناير.",
+    "ru": "Почтовая служба США (USPS) предложила сделать топливный сбор постоянным и повысить тарифы на доставку с января."
+   },
+   "kid": {
+    "he": "רשות הדואר בארה\"ב רוצה להעלות את מחירי המשלוחים שלה ולהפוך תוספת תשלום על דלק לקבועה. זה יכול לייקר את עלויות השילוח לחברות מסחר אלקטרוני.",
+    "en": "The US postal service wants to raise shipping prices permanently. This could increase delivery costs for e-commerce and retail shipping companies.",
+    "ar": "تترقب خدمة البريد الأمريكية رفع أسعار الشحن نهائياً. قد يؤدي هذا إلى زيادة تكاليف التسليم لشركات التجارة الإلكترونية.",
+    "ru": "Почта США хочет навсегда поднять тарифы на доставку. Это может увеличить расходы на логистику для компаний электронной коммерции."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wZkFjZWtlWjhqV1kzaFJvdExHMG5sNmJyLU04OFNoc25Oak1jcjlvVWNuVHdnRnhGZTdpOUNNOEtWanhscWJqZkNxcEp3RmRybGxxall2YWtHdDk5REhJVHpMdTVVZjhUS3J3UzZXbjZOdVli?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "up",
+    "t0": 1794598159,
+    "reason": "העלאת תעריפים רוחבית בשוק מאפשרת למתחרות לגלגל עלויות לצרכנים.",
+    "reason_i18n": {
+     "he": "העלאת תעריפים רוחבית בשוק מאפשרת למתחרות לגלגל עלויות לצרכנים.",
+     "en": "Broad market rate hikes allow competitors to pass higher costs to consumers.",
+     "ar": "زيادات الأسعار في السوق الواسع تسمح للمنافسين بنقل التكاليف للمستهلكين.",
+     "ru": "Широкое повышение тарифов позволяет конкурентам перекладывать затраты."
+    },
+    "name_i18n": {
+     "he": "FDX - פדפקס (חברת שילוח ולוגיסטיקה)",
+     "en": "FDX - FedEx Corporation (Logistics)",
+     "ar": "FDX - فيديكس (خدمات لوجستية)",
+     "ru": "FDX - FedEx Corporation (Логистика)"
+    },
+    "price_at_alert": 322.99
+   }
+  ],
+  "id": "a475d18f78b7"
  }
 ]
