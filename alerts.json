@@ -975,196 +975,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793985812,
-  "time": "2026-11-06T17:23Z",
-  "title": "אי-ודאות במדיניות המוניטרית של הפד",
-  "summary": "נתונים כלכליים סותרים בארה\"ב מעוררים ויכוח בקרב בכירי הפד לגבי הצורך בהעלאות ריבית נוספות, כאשר השוק ממתין לנתוני אינפלציה חדשים.",
-  "kid": "האנשים שמנהלים את הכסף בארה\"ב לא בטוחים אם להעלות את הריבית או לא, כי הנתונים הכלכליים מבלבלים. זה משפיע על כמה יקר לקחת הלוואות.",
-  "i18n": {
-   "title": {
-    "he": "אי-ודאות במדיניות המוניטרית של הפד",
-    "en": "Uncertainty in Fed monetary policy",
-    "ar": "عدم اليقين في السياسة النقدية للاحتياطي الفيدرالي",
-    "ru": "Неопределенность в денежно-кредитной политике ФРС"
-   },
-   "summary": {
-    "he": "נתונים כלכליים סותרים בארה\"ב מעוררים ויכוח בקרב בכירי הפד לגבי הצורך בהעלאות ריבית נוספות, כאשר השוק ממתין לנתוני אינפלציה חדשים.",
-    "en": "Conflicting US economic data is sparking debate among Fed officials regarding the need for further rate hikes as the market awaits new inflation data.",
-    "ar": "تثير البيانات الاقتصادية الأمريكية المتضاربة جدلاً بين مسؤولي الاحتياطي الفيدرالي حول الحاجة إلى مزيد من رفع أسعار الفائدة، بينما ينتظر السوق بيانات تضخم جديدة.",
-    "ru": "Противоречивые экономические данные США вызывают споры среди чиновников ФРС о необходимости дальнейшего повышения ставок, пока рынок ожидает новые данные по инфляции."
-   },
-   "kid": {
-    "he": "האנשים שמנהלים את הכסף בארה\"ב לא בטוחים אם להעלות את הריבית או לא, כי הנתונים הכלכליים מבלבלים. זה משפיע על כמה יקר לקחת הלוואות.",
-    "en": "The people managing US money are not sure if they should raise interest rates because the economic data is confusing. This affects how expensive it is to borrow money.",
-    "ar": "الأشخاص الذين يديرون الأموال في الولايات المتحدة ليسوا متأكدين مما إذا كان يجب عليهم رفع أسعار الفائدة لأن البيانات الاقتصادية محيرة. هذا يؤثر على تكلفة الاقتراض.",
-    "ru": "Люди, управляющие деньгами в США, не уверены, стоит ли повышать процентные ставки, потому что экономические данные сбивают с толку. Это влияет на стоимость заимствований."
-   }
-  },
-  "category": "macro",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1793985812,
-    "reason": "חשש מהעלאות ריבית נוספות",
-    "reason_i18n": {
-     "he": "חשש מהעלאות ריבית נוספות",
-     "en": "Fear of further rate hikes",
-     "ar": "مخاوف من رفع إضافي لأسعار الفائدة",
-     "ru": "Опасения дальнейшего повышения ставок"
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 Index",
-     "ar": "مؤشر S&P 500",
-     "ru": "Индекс S&P 500"
-    },
-    "price_at_alert": 739.24,
-    "entry_price": 739.47,
-    "entry_time": "2026-11-06T17:30+00:00",
-    "exit_price": 752.61,
-    "exit_date": "2026-11-09",
-    "change_pct": 1.78,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.78,
-    "edge_pct": -1.78,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1793985812,
-    "reason": "עליית ריבית צפויה פוגעת במחירי האג\"ח",
-    "reason_i18n": {
-     "he": "עליית ריבית צפויה פוגעת במחירי האג\"ח",
-     "en": "Expected rate hikes hurt bond prices",
-     "ar": "توقعات رفع الفائدة تضر بأسعار السندات",
-     "ru": "Ожидаемое повышение ставок вредит ценам на облигации"
-    },
-    "name_i18n": {
-     "he": "אג\"ח ממשלתי ארוך",
-     "en": "Long-term US Treasury bonds",
-     "ar": "سندات الخزانة الأمريكية طويلة الأجل",
-     "ru": "Долгосрочные гособлигации США"
-    },
-    "price_at_alert": 82.07,
-    "entry_price": 82.0941,
-    "entry_time": "2026-11-06T17:30+00:00",
-    "exit_price": 81.965,
-    "exit_date": "2026-11-09",
-    "change_pct": -0.16,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": -1.93,
-    "edge_pct": 1.93,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "73b9027b8f49",
-  "evaluated": true
- },
- {
-  "ts": 1793985812,
-  "time": "2026-11-06T17:23Z",
-  "title": "רגולציה וסיכוני אשראי מאיימים על מרכזי נתונים של בינה מלאכותית",
-  "summary": "הבנק המרכזי האירופי בוחן הלוואות למרכזי נתונים עקב סיכוני אשראי של בינה מלאכותית, בעוד מטא מזהירה כי תוצאות הבחירות עלולות לעכב את התרחבות התחום.",
-  "kid": "בנקים בודקים אם כדאי להלוות כסף לחברות שבונות מרכזי מחשבים ענקיים לבינה מלאכותית. אם יהיו חוקים חדשים או קשיים בקבלת כסף, מניות של חברות טכנולוגיה עלולות לרדת.",
-  "i18n": {
-   "title": {
-    "he": "רגולציה וסיכוני אשראי מאיימים על מרכזי נתונים של בינה מלאכותית",
-    "en": "Regulation and credit risks threaten AI data centers",
-    "ar": "التنظيم ومخاطر الائتمان تهددان مراكز بيانات الذكاء الاصطناعي",
-    "ru": "Регулирование и кредитные риски угрожают центрам обработки данных ИИ"
-   },
-   "summary": {
-    "he": "הבנק המרכזי האירופי בוחן הלוואות למרכזי נתונים עקב סיכוני אשראי של בינה מלאכותית, בעוד מטא מזהירה כי תוצאות הבחירות עלולות לעכב את התרחבות התחום.",
-    "en": "The ECB is reviewing loans to data centers due to AI credit risks, while Meta warns that election results could stall AI expansion.",
-    "ar": "يقوم البنك المركزي الأوروبي بمراجعة القروض الممنوحة لمراكز البيانات بسبب مخاطر الائتمان المرتبطة بالذكاء الاصطناعي، بينما تحذر ميتا من أن نتائج الانتخابات قد تعيق توسع هذا القطاع.",
-    "ru": "ЕЦБ пересматривает кредиты центрам обработки данных из-за рисков ИИ, в то время как Meta предупреждает, что результаты выборов могут замедлить расширение сектора."
-   },
-   "kid": {
-    "he": "בנקים בודקים אם כדאי להלוות כסף לחברות שבונות מרכזי מחשבים ענקיים לבינה מלאכותית. אם יהיו חוקים חדשים או קשיים בקבלת כסף, מניות של חברות טכנולוגיה עלולות לרדת.",
-    "en": "Banks are checking if it is safe to lend money to companies building huge AI computer centers. If new rules or money problems happen, tech stocks might go down.",
-    "ar": "تقوم البنوك بفحص ما إذا كان من الآمن إقراض الأموال للشركات التي تبني مراكز كمبيوتر ضخمة للذكاء الاصطناعي. إذا ظهرت قواعد جديدة أو مشاكل مالية، فقد تنخفض أسهم شركات التكنولوجيا.",
-    "ru": "Банки проверяют, безопасно ли давать деньги компаниям, строящим огромные компьютерные центры для ИИ. Если появятся новые правила или финансовые проблемы, акции технологических компаний могут упасть."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "META",
-    "direction": "down",
-    "t0": 1793985812,
-    "reason": "אזהרה מפני עיכוב בהתרחבות ה-AI",
-    "reason_i18n": {
-     "he": "אזהרה מפני עיכוב בהתרחבות ה-AI",
-     "en": "Warning of AI expansion delays",
-     "ar": "تحذير من تأخير توسع الذكاء الاصطناعي",
-     "ru": "Предупреждение о задержках расширения ИИ"
-    },
-    "name_i18n": {
-     "he": "מטא",
-     "en": "Meta",
-     "ar": "ميتا",
-     "ru": "Meta"
-    },
-    "price_at_alert": 619.57,
-    "entry_price": 619.55,
-    "entry_time": "2026-11-06T17:30+00:00",
-    "exit_price": 641.47,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.54,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": 1.76,
-    "edge_pct": -1.76,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLK",
-    "direction": "down",
-    "t0": 1793985812,
-    "reason": "חשש מרגולציה הדוקה יותר על תשתיות AI",
-    "reason_i18n": {
-     "he": "חשש מרגולציה הדוקה יותר על תשתיות AI",
-     "en": "Fear of tighter regulation on AI infrastructure",
-     "ar": "مخاوف من تشديد التنظيم على بنية الذكاء الاصطناعي التحتية",
-     "ru": "Опасения по поводу ужесточения регулирования инфраструктуры ИИ"
-    },
-    "name_i18n": {
-     "he": "סקטור הטכנולוגיה",
-     "en": "Technology Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 165.51,
-    "entry_price": 165.63,
-    "entry_time": "2026-11-06T17:30+00:00",
-    "exit_price": 170.84,
-    "exit_date": "2026-11-09",
-    "change_pct": 3.15,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": 1.37,
-    "edge_pct": -1.37,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "69338f65552e",
-  "evaluated": true
- },
- {
   "ts": 1793992638,
   "time": "2026-11-06T19:17Z",
   "title": "רעידת אדמה בעוצמה 6.1 ביפן",
@@ -52250,5 +52060,257 @@
    }
   ],
   "id": "369d51c7519a"
+ },
+ {
+  "ts": 1794590764,
+  "time": "2026-11-13T17:26Z",
+  "title": "תקלת ענק גלובלית בשירותי הענן של מייקרוסופט",
+  "summary": "חברת מייקרוסופט חוותה תקלת שירות גלובלית שפגעה ביישומונים כמו אאוטלוק וטימס בעקבות שדרוג תשתיות, והביאה להתנצלות רשמית מצד החברה.",
+  "kid": "תוכנות ושירותים של חברת מייקרוסופט הפסיקו לעבוד בגלל תקלה גדולה, והחברה מתקנת זאת. תקלה כזו עלולה לגרום למניה לרדת קצת אם משקיעים דואגים שלקוחות יכעסו.",
+  "i18n": {
+   "title": {
+    "he": "תקלת ענק גלובלית בשירותי הענן של מייקרוסופט",
+    "en": "Global outage hits Microsoft cloud and office services",
+    "ar": "انقطاع عالمي يضرب خدمات سحابة مايكروسوفت ومكاتبها",
+    "ru": "Глобальный сбой затронул облачные и офисные сервисы Microsoft"
+   },
+   "summary": {
+    "he": "חברת מייקרוסופט חוותה תקלת שירות גלובלית שפגעה ביישומונים כמו אאוטלוק וטימס בעקבות שדרוג תשתיות, והביאה להתנצלות רשמית מצד החברה.",
+    "en": "Microsoft experienced a global service outage affecting apps like Outlook and Teams following a network capacity upgrade, prompting an official apology from the company.",
+    "ar": "واجهت مايكروسوفت انقطاعاً عالمياً في الخدمة أثر على تطبيقات مثل أوتلوك وتيمز عقب ترقية سعة الشبكة، مما دفع الشركة إلى تقديم اعتذار رسمي.",
+    "ru": "Компания Microsoft столкнулась с глобальным сбоем в обслуживании, затронувшим такие приложения, как Outlook и Teams, после обновления емкости сети, что побудило компанию принести официальные извинения."
+   },
+   "kid": {
+    "he": "תוכנות ושירותים של חברת מייקרוסופט הפסיקו לעבוד בגלל תקלה גדולה, והחברה מתקנת זאת. תקלה כזו עלולה לגרום למניה לרדת קצת אם משקיעים דואגים שלקוחות יכעסו.",
+    "en": "Microsoft's programs and services stopped working due to a major glitch, and the company is fixing it. This can make the stock dip slightly if investors worry customers will be upset.",
+    "ar": "توقفت برامج وخدمات مايكروسوفت عن العمل بسبب خلل كبير، وتعمل الشركة على إصلاحه. قد يؤدي هذا إلى انخفاض السهم قليلاً إذا قلق المستثمرون من غضب العملاء.",
+    "ru": "Программы и сервисы Microsoft перестали работать из-за крупного сбоя, и компания исправляет его. Это может привести к небольшому падению акций, если инвесторы обеспокоены недовольством клиентов."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQRVZOUXlZbDNfTF9TYmJ5aVlvOVU2TEdRVEoxd183U2JSSnVwM1lRazZGdGpfTXJURHFDcnI1a2c0MU5NWFZ0VGhLVFJ2a3JpdmVWUnBsR09NemRwZG92LWMxWWFqQXMwcDNEZ2psaTNscTdVMUZsTHJxZ3VvOFRUR0plVmw0aXBzQzcxaHZYZV9mOWxrVTRUZXZieXlJWW1PYWFjWHFWdmlvemM4RnZuZUl2Z3BaeW1iZUE3elJKcFNxUU1rc2loLTl2WVA1bHRqVHA5VVBXRGFMS3d0Z2lHQXU2QnZJSzZCa0NxWFZvVGxUTDRsRy1Ia0JDU3Nxd1FiUFVYYU9GN2ZYRlMwc2ZIdjVMdHDSAZoCQVVfeXFMTnFtU0VIRGxkckgyay13azBkWE5WRk5HU1JNMkw4amh0bkhWa2dJN21RbTBGLUU2SkVMejFvdXptNUxaYlhTRVBlSVMzQU9MQjRLTGFWS3dVR1A0UTlTZWEwVHpZX1dibE5Sd2hjOXJXVkd3YVpoaXdhVjg2MnZYX05XMEJZRXF1OFZDYXBabFFSNjYxclRXTGhmOEZuZXFVQW9VSkJ3T05ZeDBRWVNqQmtfYktDZE1Va2RPbGc1cjcyTWZHeU1LaUNwVl93LXduZWpxelEtZ0NxUVVvbW1Nb0lOUEIyM2YwckE2UUZfZDd4OWNMUDFPOXJ1bThjQkpycC1UcUkxeXVhU3ZvdFpLQl92b2xjN2lrSGVB?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnMxalJOcHI4WVpmellTeUQxSGFEeU1seUhtaHhTVnBmWmR1bFpKdGNsTThfem05S1VtWDJLNlM5bDJXMU4wNFhCeFFSd2VvOFNfaC02dFRocUhpUi04aFczdmN4azA2THQ0YVNaMC16VDVYUTVEeElmR1RQUnJ0TGtXMVlnTXM?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "MSFT",
+    "direction": "down",
+    "t0": 1794590764,
+    "reason": "תקלה תפעולית גלובלית פוגעת זמנית בפעילות ובאמון הלקוחות.",
+    "reason_i18n": {
+     "he": "תקלה תפעולית גלובלית פוגעת זמנית בפעילות ובאמון הלקוחות.",
+     "en": "Global operational outage temporarily impacts operations and customer trust.",
+     "ar": "يؤثر انقطاع التشغيل العالمي مؤقتاً على العمليات وثقة العملاء.",
+     "ru": "Глобальный операционный сбой временно влияет на работу и доверие клиентов."
+    },
+    "name_i18n": {
+     "he": "מייקרוסופט - ענקית תוכנה",
+     "en": "Microsoft – software giant",
+     "ar": "مايكروسوفت - عملاق البرمجيات",
+     "ru": "Microsoft – гигант программного обеспечения"
+    },
+    "price_at_alert": 523.93
+   }
+  ],
+  "id": "a6597e31b15a"
+ },
+ {
+  "ts": 1794590764,
+  "time": "2026-11-13T17:26Z",
+  "title": "האיภาพ תטיל סנקציות על טטיאנה קים ממייסדות ווילדבריز",
+  "summary": "האיחוד האירופי צפוי להטיל סנקציות על טטיאנה קים, האישה העשירה ברוסיה ומייסדת פלטפורמת המסחר ווילדבריז, בשל קשרי החברה לצבא רוסיה.",
+  "kid": "האיחוד האירופי רוצה להעניש את האישה העשירה ברוסיה בגלל קשרי החברה שלה עם הצבא. זה מראה על החמרת הלחץ הכלכלי על חברות שמסייעות לרוסיה.",
+  "i18n": {
+   "title": {
+    "he": "האיภาพ תטיל סנקציות על טטיאנה קים ממייסדות ווילדבריز",
+    "en": "EU targets Wildberries billionaire Tatyana Kim with sanctions",
+    "ar": "الاتحاد الأوروبي يستهدف تاتيانا كيم مليارديرة وايلدبيريز بعقوبات",
+    "ru": "ЕС вводит санкции против миллиардерши Татьяны Ким из Wildberries"
+   },
+   "summary": {
+    "he": "האיחוד האירופי צפוי להטיל סנקציות על טטיאנה קים, האישה העשירה ברוסיה ומייסדת פלטפורמת המסחר ווילדבריז, בשל קשרי החברה לצבא רוסיה.",
+    "en": "The European Union is set to sanction Tatyana Kim, Russia's richest woman and founder of Wildberries, over the company's military links.",
+    "ar": "من المقرر أن يفرض الاتحاد الأوروبي عقوبات على تاتيانا كيم، أغنى امرأة في روسيا ومؤسسة وايلدبيريز، بسبب ارتباطات الشركة العسكرية.",
+    "ru": "Европейский Союз намерен ввести санкции против Татьяны Ким, богатейшей женщины России и основательницы Wildberries, из-за связей компании с военными."
+   },
+   "kid": {
+    "he": "האיחוד האירופי רוצה להעניש את האישה העשירה ברוסיה בגלל קשרי החברה שלה עם הצבא. זה מראה על החמרת הלחץ הכלכלי על חברות שמסייעות לרוסיה.",
+    "en": "The EU wants to punish Russia's richest woman due to her company's military ties. This shows increasing economic pressure on firms helping Russia.",
+    "ar": "يريد الاتحاد الأوروبي معاقبة أغنى امرأة في روسيا بسبب روابط شركتها العسكرية. هذا يظهر تصاعد الضغط الاقتصادي على الشركات التي تساعد روسيا.",
+    "ru": "ЕС хочет наказать самую богатую женщину России из-за военных связей ее компании. Это показывает усиление экономического давления на фирмы, помогающие России."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSW92S1RIQWlVdFJSS0Yza20xMTUtYlVPTy12RTM3c3h5a2xrd2Q3TllhWURsb2U3aW11UEljN2pSVVFLX3N1QlRzRUJqZ0hlT1hCa1dmSXNRb1A5OW5rRmx5eVltWENLdFotSk5ZbW55bF9pa1l4X3F0R09hSXlxS0hRSkt4UGtYYUtOVHVpNWM3UUcwVFNMaXJhQS05dXFoVVl6UWhPRU1UZXVhWTlNcmhralltc3ZFcWp3ZXVn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelc4YjhLajRjdGVIV3MxalJBWW9nMjY4WFNNaGJKcXNVYkw1dG5HZ3JYdGx1dGtFTmFyLVg4RjU2azU3U0pacFlReHFkLW56TVpGSjJ4amZ0LTM0ZVJvZmxFZGNxS3NFbjdmYUlEQzhzaFNZZENOcjEyeUJkelRjUXFuWWlDOUVCZzFkWEtqa2NUb0UxOTNqRlRTbUlCZzR3d1E?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794590764,
+    "reason": "החמרת סנקציות בינלאומיות מגבירה את אי-הודאות הגיאופוליטית הכללית.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות בינלאומיות מגבירה את אי-הודאות הגיאופוליטית הכללית.",
+     "en": "Stricter international sanctions increase overall geopolitical uncertainty.",
+     "ar": "تزيد العقوبات الدولية الأشد صرامة من عدم اليقين الجيوسياسي العام.",
+     "ru": "Ужесточение международных санкций усиливает общую геополитическую неопределенность."
+    },
+    "name_i18n": {
+     "he": "מדד אס אנד פי 500 - מדד מניות ראשי",
+     "en": "S&P 500 – major stock index",
+     "ar": "إس آند بي 500 - مؤشر الأسهم الرئيسية",
+     "ru": "S&P 500 – основной фондовый индекс"
+    },
+    "price_at_alert": 751.285
+   }
+  ],
+  "id": "053698b1e92f"
+ },
+ {
+  "ts": 1794590764,
+  "time": "2026-11-13T17:26Z",
+  "title": "מתקפת סייבר על יצרנית רחפנים גרמנית המספקת לאוקראינה",
+  "summary": "חברת הרחפנים הגרמנית Quantum Systems, המספקת ציוד לאוקראינה, נפגעה במתקפת סייבר על שרת העדכונים שלה, מה שהוביל לקרקוע זמני של כלי הטיס.",
+  "kid": "האקרים פרצו לשרתים של חברת רחפנים צבאית באירופה, ולכן הצבא נאלץ להפסיק זמנית את טיסת הרחפנים. זה מזכיר כמה חשוב להגן על מערכות מחשב בתחום הביטחוני.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר על יצרנית רחפנים גרמנית המספקת לאוקראינה",
+    "en": "Cyberattack hits German drone maker Quantum Systems",
+    "ar": "هجوم سيبراني يضرب صانعة الطائرات بدون طيار الألمانية كوانتوم سيستمز",
+    "ru": "Кибератака на немецкого производителя беспилотников Quantum Systems"
+   },
+   "summary": {
+    "he": "חברת הרחפנים הגרמנית Quantum Systems, המספקת ציוד לאוקראינה, נפגעה במתקפת סייבר על שרת העדכונים שלה, מה שהוביל לקרקוע זמני של כלי הטיס.",
+    "en": "German drone manufacturer Quantum Systems, which supplies Ukraine, suffered a cyberattack on its software update server, leading to temporary grounding of drones.",
+    "ar": "تعرضت شركة تصنيع الطائرات بدون طيار الألمانية كوانتوم سيستمز، التي تزود أوكرانيا بالمعدات، لهجوم سيبراني على خادم تحديث البرامج الخاص بها، مما أدى إلى وقف مؤقت للطائرات.",
+    "ru": "Немецкий производитель беспилотников Quantum Systems, поставляющий оборудование в Украину, подвергся кибератаке на сервер обновлений ПО, что привело к временной приостановке полетов."
+   },
+   "kid": {
+    "he": "האקרים פרצו לשרתים של חברת רחפנים צבאית באירופה, ולכן הצבא נאלץ להפסיק זמנית את טיסת הרחפנים. זה מזכיר כמה חשוב להגן על מערכות מחשב בתחום הביטחוני.",
+    "en": "Hackers breached the servers of an European military drone maker, forcing the army to temporarily ground the drones. This highlights the vital need to protect defense computer systems.",
+    "ar": "اخترق قراصنة خوادم شركة طائرات بدون طيار عسكرية في أوربا، مما أجبر الجيش على وقف تحليق الطائرات مؤقتاً. ويسلط هذا الضوء على الأهمية الحيوية لحماية أنظمة الكمبيوتر الدفاعية.",
+    "ru": "Хакеры взломали серверы европейского производителя военных беспилотников, вынудив армию временно приостановить полеты. Это подчеркивает жизненную важность защиты оборонных компьютерных систем."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYmF6M1hMREpZZW5FaFo5c0F6N2xXallhclRqbmtJMFdsNVd6bmlOSi01b3gtU182WGdfekpnMzRVREp3U05MZ1pvTDQ2Mk1zVi1QeENCamdCTldRQUFXaG1INmMzRW5ZbEdxRFJhZHhHMUFPT1lGYUlUT1JGdlpiUndvNDc0TC1UdC1OMUJHc0dVVXpZT05XT1ljNExGVnZmYTBOVE1BWUlmcW5NSFc4NHYtLVRRSmkybXQ5VzFRZkxWaHlVN29OeUM1LVVKRFdlM2l0MWxVZWE?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYWRhQmwzeVpxZzRKQzhIQllRckJwanhaM0tDRWlKdG1GbUZNVXNNOGFLQUw0aVlDWWVqX2gxNUdXVHQxeG1FV256WFg1dTFscnJxTVp4bVRvVmJjbGtFeFA4Y2RqNW1ZVnA0TUlRQWQ3STEzVS16Z1hfSTVEcndtNFRHNkpKQjNsRnRvSS1YdmJuQWVmLXlUdVluZGF2MDFHQ1JtSDNvTEZabmRVWFNXc2VPVkI0ZWNpblFKQWxnQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794590764,
+    "reason": "אירועי סייבר ביטחוניים מדגישים את הצורך בהשקעות ענק באבטחת סייבר וטכנולוגיות הגנה.",
+    "reason_i18n": {
+     "he": "אירועי סייבר ביטחוניים מדגישים את הצורך בהשקעות ענק באבטחת סייבר וטכנולוגיות הגנה.",
+     "en": "Defense cyber incidents highlight the need for massive investments in cybersecurity and defense tech.",
+     "ar": "تُبرز حوادث الأمن السيبراني الدفاعي الحاجة إلى استثمارات ضخمة في الأمن السيبراني وتكنولوجيا الدفاع.",
+     "ru": "Оборонные киберинциденты подчеркивают необходимость огромных инвестиций в кибербезопасность и оборонные технологии."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון - חברות ביטחוניות אמריקאיות",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق مؤشرات قطاع الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.235
+   }
+  ],
+  "id": "7ef92687fdb3"
+ },
+ {
+  "ts": 1794590764,
+  "time": "2026-11-13T17:26Z",
+  "title": "איטליה מגדילה את תקציב מטוס הקרב GCAP ומצמצמת רכש טנקים",
+  "summary": "מסמכי תקציב חדשים באיטליה חושפים עלייה בהשקעה במיזם מטוס הקרב העתידי GCAP, על חשבון צמצום מימון לטנקים חדשים ורכבי קרב יבשתיים.",
+  "kid": "איטליה משנה את תקציב הצבא שלה ומשקיעה יותר במטוסי קרב מתקדמים במקום בטנקים יבשתיים. זה טוב לחברות הטכנולוגיה והתעופה המעורבות בפרויקטים אוויריים.",
+  "i18n": {
+   "title": {
+    "he": "איטליה מגדילה את תקציב מטוס הקרב GCAP ומצמצמת רכש טנקים",
+    "en": "Italy boosts GCAP fighter spending while cutting army tanks",
+    "ar": "إيطاليا تعزز إنفاق مقاتلة GCAP وتقطع دبابات الجيش",
+    "ru": "Италия увеличивает расходы на истребитель GCAP и сокращает закупки танков"
+   },
+   "summary": {
+    "he": "מסמכי תקציב חדשים באיטליה חושפים עלייה בהשקעה במיזם מטוס הקרב העתידי GCAP, על חשבון צמצום מימון לטנקים חדשים ורכבי קרב יבשתיים.",
+    "en": "New Italian spending documents reveal an increased allocation for the GCAP future fighter jet project, funded by cuts to new army tanks and combat vehicles.",
+    "ar": "تكشف وثائق الإنفاق الإيطالية الجديدة عن زيادة تخصيص مشروع مقاتلة المستقبل GCAP، ممولاً بتخفيضات لدبابات الجيش الجديدة المركبات القتالية.",
+    "ru": "Новые документы о расходах Италии показывают увеличение ассигнований на проект истребителя будущего GCAP за счет сокращения финансирования новых танков и боевых машин."
+   },
+   "kid": {
+    "he": "איטליה משנה את תקציב הצבא שלה ומשקיעה יותר במטוסי קרב מתקדמים במקום בטנקים יבשתיים. זה טוב לחברות הטכנולוגיה והתעופה המעורבות בפרויקטים אוויריים.",
+    "en": "Italy is shifting its military budget to invest more in advanced fighter jets instead of ground tanks. This is positive for aerospace and tech companies involved in aviation projects.",
+    "ar": "تقوم إيطاليا بتحويل ميزانية الجيش للاستثمار بشكل أكبر في طائرات مقاتلة متقدمة بدلاً من الدبابات البرية. هذا إيجابي لشركات الطيران والتكنولوجيا المشاركة في مشاريع الطيران.",
+    "ru": "Италия перенаправляет свой военный бюджет на инвестиции в современные истребители вместо наземных танков. Это позитивно для аэрокосмических и технологических компаний, участвующих в авиационных проектах."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/global/europe/2026/11/13/italy-boosts-gcap-fighter-spending-as-army-vehicles-take-a-hit-in-budget/"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794590764,
+    "reason": "הגדלת תקציבים אירופיים לפרויקטי תעופה צבאית מתקדמים מחזקת את סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "הגדלת תקציבים אירופיים לפרויקטי תעופה צבאית מתקדמים מחזקת את סקטור הביטחון.",
+     "en": "Increased European budgets for advanced military aviation projects strengthen the defense sector.",
+     "ar": "تعمل الميزانيات الأوروبية المتزايدة لمشاريع الطيران العسكري المتقدمة على تعزيز قطاع الدفاع.",
+     "ru": "Увеличение европейских бюджетов на передовые проекты военной авиации укрепляет оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון בארה\"ב",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق المؤشرات المتداولة للطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.235
+   }
+  ],
+  "id": "7ce33effe5d4"
  }
 ]
