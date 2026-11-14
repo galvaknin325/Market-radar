@@ -2014,164 +2014,6 @@
  {
   "ts": 1794009076,
   "time": "2026-11-06T23:51Z",
-  "title": "הרוגים בתקיפת מכלית נפט במפרץ",
-  "summary": "ימאי נהרג בתקיפת טיל חשודה על מכלית נפט באזור המפרץ, אירוע שעשוי להשפיע על מחירי האנרגיה.",
-  "kid": "ספינת נפט נפגעה מטיל וימאי נהרג. זה יכול לגרום למחירי הדלק והנפט בעולם לעלות כי מפחדים שקשה להוביל נפט באזור.",
-  "i18n": {
-   "title": {
-    "he": "הרוגים בתקיפת מכלית נפט במפרץ",
-    "en": "Seafarer killed in tanker attack",
-    "ar": "مقتل بحار في هجوم على ناقلة"
-   },
-   "summary": {
-    "he": "ימאי נהרג בתקיפת טיל חשודה על מכלית נפט באזור המפרץ, אירוע שעשוי להשפיע על מחירי האנרגיה.",
-    "en": "A seafarer was killed in a suspected missile attack on an oil tanker in the Gulf region, raising security concerns for shipping.",
-    "ar": "مقتل بحار في هجوم صاروخي مشتبه به على ناقلة نفط في منطقة الخليج، مما يثير مخاوف أمنية بشأن الشحن."
-   },
-   "kid": {
-    "he": "ספינת נפט נפגעה מטיל וימאי נהרג. זה יכול לגרום למחירי הדלק והנפט בעולם לעלות כי מפחדים שקשה להוביל נפט באזור.",
-    "en": "An oil ship was hit by a missile and a seafarer died. This could make oil and gas prices go up because shipping in the area is riskier.",
-    "ar": "تعرضت سفينة نفط لضربة صاروخية ومقتل بحار. قد يتسبب هذا في ارتفاع أسعار النفط بسبب مخاطر الشحن."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nMVlQVHcwSWJIYm1VU0xCS0d2a0hDdTZiMHhNMmFzU00tbk9lVzB4dnFKckxrMTNucjdsV3NrNTlpd3RCUEk3SFhJMjNyczJBanFn?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794009076,
-    "reason": "חשש מפגיעה באספקת הנפט במפרץ",
-    "reason_i18n": {
-     "he": "חשש מפגיעה באספקת הנפט במפרץ",
-     "en": "Concerns over Gulf oil supply risks",
-     "ar": "مخاوف بشأن مخاطر إمدادات النفط في الخليج"
-    },
-    "name_i18n": {
-     "he": "קרן סל על נפט",
-     "en": "USO – crude oil fund",
-     "ar": "صندوق النفط الخام"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": -1.88,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1794009076,
-    "reason": "עליית מחירי הנפט והסיכונים הגיאופוליטיים",
-    "reason_i18n": {
-     "he": "עליית מחירי הנפט והסיכונים הגיאופוליטיים",
-     "en": "Higher oil prices and geopolitical risks",
-     "ar": "ارتفاع أسعار النفط والمخاطر الجيوسياسية"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל – חברת אנרגיה",
-     "en": "Exxon – energy company",
-     "ar": "إكسون – شركة طاقة"
-    },
-    "price_at_alert": 165.87,
-    "entry_price": 163.815,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 164.47,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.4,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.68,
-    "edge_pct": -0.68,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "727319ca8780",
-  "evaluated": true
- },
- {
-  "ts": 1794009076,
-  "time": "2026-11-06T23:51Z",
-  "title": "חיל החלל האמריקאי ישתף פעולה עם גולדן דום",
-  "summary": "חיל החלל האמריקאי הודיע כי יעבוד עם חברת גולדן דום לשילוב רשתות לוויינים במרכז מבצעים חדש.",
-  "kid": "צבא ארצות הברית משתף פעולה עם חברה פרטית כדי לחבר ולשפר מערכות לוויינים. זה יכול לעזור למניות של חברות טכנולוגיה וביטחון שבוונות לחלל.",
-  "i18n": {
-   "title": {
-    "he": "חיל החלל האמריקאי ישתף פעולה עם גולדן דום",
-    "en": "US Space Force to integrate with Golden Dome",
-    "ar": "قوة الفضاء الأمريكية تتعاون مع غولدن دوم"
-   },
-   "summary": {
-    "he": "חיל החלל האמריקאי הודיע כי יעבוד עם חברת גולדן דום לשילוב רשתות לוויינים במרכז מבצעים חדש.",
-    "en": "The U.S. Space Force announced it will work with Golden Dome to integrate satellite networks at a new operations center.",
-    "ar": "أعلنت قوة الفضاء الأمريكية أنها ستعاون مع غولدن دوم لدمج شبكات الأقمار الصناعية في مركز عمليات جديد."
-   },
-   "kid": {
-    "he": "צבא ארצות הברית משתף פעולה עם חברה פרטית כדי לחבר ולשפר מערכות לוויינים. זה יכול לעזור למניות של חברות טכנולוגיה וביטחון שבוונות לחלל.",
-    "en": "The U.S. military is working with a private company to connect and improve satellite networks, helping defense and tech stocks.",
-    "ar": "يتعاون الجيش الأمريكي مع شركة خاصة لربط وتحسين شبكات الأقمار الصناعية، مما يساعد أسهم الدفاع والتقنية."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeW4yNlpqMVJTSEJNcWNhOTRwWlJKazJZQzFWX1RLb1E3UkVwb0dnLV9CUy11dFBaQW4yLTB2RzdwOGZNZXdFRktMLUkwQWE3X3BmczZiOWJWcHpqckx5VjQ5a0Q4dURITHBfampzMnJMdmRfaUhEelpidHJWemhYeEwwb3JWVzk5TVZoM081cGJsWC13RXJIWmdRRmpha1pqYkoxLTI1OW03VEtLSnFUNnhfTzBvNUFRekI2cFJHQU1mZ29yLWRScnZWMXc1VENkOXBrQw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794009076,
-    "reason": "חוזים והשקעות חדשות בטכנולוגיות חלל וביטחון",
-    "reason_i18n": {
-     "he": "חוזים והשקעות חדשות בטכנולוגיות חלל וביטחון",
-     "en": "New contracts and investments in space and defense tech",
-     "ar": "عقود واستثمارات جديدة في تكنولوجيا الفضاء والدفاع"
-    },
-    "name_i18n": {
-     "he": "קרן סל על תעופה וביטחון",
-     "en": "ITA – aerospace & defense ETF",
-     "ar": "صندوق قطاع الطيران والدفاع"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": 1.82,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1fb0e1b6dad3",
-  "evaluated": true
- },
- {
-  "ts": 1794009076,
-  "time": "2026-11-06T23:51Z",
   "title": "שיבושים מתמשכים במתקני טרנינג סטון עקב מתקפת סייבר",
   "summary": "אתר הנופש טרנינג סטון ממשיך להתמודד עם תקלות טכנולוגיות וטלפוניות כמעט שבוע לאחר מתקפת סייבר שפגעה במערכותיו.",
   "kid": "חברת נופש גדולה סובלת מבעיות במחשבים ובטלפונים בגלל מתקפת האקרים. זה מזכיר כמה חשוב להשקיע בחברות אבטחת מידע.",
@@ -50058,9 +49900,21 @@
      "ar": "يشير تقرير جديد إلى أن الصين تبني مراكز حوسبة للذكاء الاصطناعي بمليارات الدولارات باستخدام تكنولوجيا إنفيديا، على الرغم من قيود التصدير الأمريكية.",
      "ru": "Новый отчет указывает на то, что Китай строит центры обработки данных для ИИ стоимостью в миллиарды долларов, используя технологии Nvidia, несмотря на экспортные ограничения США."
     }
+   },
+   {
+    "ts": 1794615779,
+    "time": "2026-11-14T00:22Z",
+    "severity": 6,
+    "summary": "בעקבות התפטרותו של מנכ\"ל אנבידיה ג'נסן הואנג וחקירות נלוות, מחוקקים בארה\"ב דורשים החמרה של בקרת הייצוא על שבבים לסין.",
+    "i18n": {
+     "he": "בעקבות התפטרותו של מנכ\"ל אנבידיה ג'נסן הואנג וחקירות נלוות, מחוקקים בארה\"ב דורשים החמרה של בקרת הייצוא על שבבים לסין.",
+     "en": "Following Nvidia CEO Jensen Huang's resignation and related controversies, US lawmakers are pushing for tighter chip export controls on China.",
+     "ar": "في أعقاب استقالة الرئيس التنفيذي لشركة Nvidia جنسن هوانغ، يدفع المشرعون الأمريكيون نحو تشديد رقابة تصدير الشقائق إلى الصين.",
+     "ru": "После отставки гендиректора Nvidia Дженсена Хуанга американские законодатели требуютжесткого контроля за экспортом чипов в Китай."
+    }
    }
   ],
-  "last_update": 1794565957
+  "last_update": 1794615779
  },
  {
   "ts": 1794558447,
@@ -54007,5 +53861,111 @@
    }
   ],
   "id": "a9de65479e34"
+ },
+ {
+  "ts": 1794615779,
+  "time": "2026-11-14T00:22Z",
+  "title": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
+  "summary": "ספינת תיירים התנגשה במכלית בנהר המיסיסיפי בניו אורלינס, מה שהביא לפציעתם של 32 נוסעים ולשקיעה חלקית של ספינת התיירים.",
+  "kid": "אוניית טיולים פגעה במכלית נפט בנהר בארה\"ב וכמה אנשים נפצעו. זה עשוי להשפיע מעט על מניות חברות השייט או התחבורה המעורבות.",
+  "i18n": {
+   "title": {
+    "he": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
+    "en": "Tanker Collides with Cruise Boat in New Orleans",
+    "ar": "اصطدام ناقلة بسفينة سياحية في نيو أورلينز",
+    "ru": "Столковение танкера с круизным судом в Новом Орлеане"
+   },
+   "summary": {
+    "he": "ספינת תיירים התנגשה במכלית בנהר המיסיסיפי בניו אורלינס, מה שהביא לפציעתם של 32 נוסעים ולשקיעה חלקית של ספינת התיירים.",
+    "en": "A river cruise boat collided with a tanker on the Mississippi River in New Orleans, injuring 32 passengers and leaving the cruise boat partially submerged.",
+    "ar": "اصطدمت سفينة سياحية بناقلة في نهر مسيسيبي، مما أسفر عن إصابة 32 راكباً وغرق جزء من السفينة.",
+    "ru": "Речной круизный лайнер столкнулся с танкером на реке Миссисипи, в результате чего 32 пассажира пострадали, а судно частично затонуло."
+   },
+   "kid": {
+    "he": "אוניית טיולים פגעה במכלית נפט בנהר בארה\"ב וכמה אנשים נפצעו. זה עשוי להשפיע מעט על מניות חברות השייט או התחבורה המעורבות.",
+    "en": "A tour boat hit a tanker on a US river and people were hurt. This might slightly affect travel or shipping companies.",
+    "ar": "صطدمت سفينة سياحية بناقلة على نهر أمريكي وأصيب أشخاص. قد يؤثر ذلك قليلاً على شركات النقل السياحي.",
+    "ru": "Круизный корабль врезался в танкер на реке в США, есть постраדавшие. Это может затронуть связанные судоходные компании."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "DAL",
+    "direction": "down",
+    "t0": 1794615779,
+    "reason": "סנטימנט שלילי נקודתי על חברות תיירות ותחבורה בארה\"ב",
+    "reason_i18n": {
+     "he": "סנטימנט שלילי נקודתי על חברות תיירות ותחבורה בארה\"ב",
+     "en": "Localized negative sentiment on travel and transportation",
+     "ar": "مشاعر سلبية محلية تجاه قطاع السفر",
+     "ru": "Локальный негативный сентимент для транспортного сектора"
+    },
+    "name_i18n": {
+     "he": "דלתא איירליינס - חברת תעופה ונסיעות",
+     "en": "Delta Air Lines - travel and transport",
+     "ar": "Delta - شركة سفر ونقل",
+     "ru": "Delta Air Lines - путешествия и транспорт"
+    },
+    "price_at_alert": 86.25
+   }
+  ],
+  "id": "d7ce295a6eb9"
+ },
+ {
+  "ts": 1794615779,
+  "time": "2026-11-14T00:22Z",
+  "title": "שירות הדואר האמריקאי מעלה את תעריפי המשלוחים",
+  "summary": "שירות הדואר האמריקאי (USPS) הודיע על העלאה של 5.9% במחירי משלוחי החבילות החל מחודש ינואר הקרוב.",
+  "kid": "שירות הדואר הממשלתי בארה\"ב מייקר את משלוחי החבילות. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים בעצמן או להשפיע על עלויות הקניות באינטרנט.",
+  "i18n": {
+   "title": {
+    "he": "שירות הדואר האמריקאי מעלה את תעריפי המשלוחים",
+    "en": "USPS to Raise Package Shipping Prices by 5.9%",
+    "ar": "خدمة البريد الأمريكية ترفع أسعار الشحن بنسبة 5.9%",
+    "ru": "Почтовая служба США поднимает тарифы на доставку на 5,9%"
+   },
+   "summary": {
+    "he": "שירות הדואר האמריקאי (USPS) הודיע על העלאה של 5.9% במחירי משלוחי החבילות החל מחודש ינואר הקרוב.",
+    "en": "The U.S. Postal Service announced a 5.9% price increase for package shipping starting in January.",
+    "ar": "أعلنت خدمة البريد الأمريكية عن زيادة بنسبة 5.9% في أسعار شحن الحزم بدءاً من يناير القادم.",
+    "ru": "Почтовая служба США объявила о повышении цен на доставку посылок на 5,9% с января."
+   },
+   "kid": {
+    "he": "שירות הדואר הממשלתי בארה\"ב מייקר את משלוחי החבילות. זה עשוי לעזור לחברות משלוחים פרטיות להעלות מחירים בעצמן או להשפיע על עלויות הקניות באינטרנט.",
+    "en": "The US mail service is making package shipping more expensive. This might affect shopping costs and private delivery firms.",
+    "ar": "خدمة البريد الأمريكية ترفع تكاليف شحن الطرود. قد يؤثر ذلك على تكاليف التسوق وشركات الشحن الخاصة.",
+    "ru": "Почтовая служба США повышает стоимость доставки. Это может повлиять на расходы на интернет-покупки."
+   }
+  },
+  "category": "commodities",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "up",
+    "t0": 1794615779,
+    "reason": "העלאת תעריפים מצד הדואר מאפשרת לחברות פרטיות לשפר מרג'ינס",
+    "reason_i18n": {
+     "he": "העלאת תעריפים מצד הדואר מאפשרת לחברות פרטיות לשפר מרג'ינס",
+     "en": "Higher postal rates allow private delivery firms pricing power",
+     "ar": "رفع الأسعار البريدية يمنح الشركات الخاصة مرونة في الأسعار",
+     "ru": "Рост почтовых тарифов дает частным курьерам простор для цен"
+    },
+    "name_i18n": {
+     "he": "פדקס - חברת שילוח ולוגיסטיקה",
+     "en": "FedEx - shipping and logistics",
+     "ar": "FedEx - شركة شحن ولوجستيات",
+     "ru": "FedEx - доставка и логистика"
+    },
+    "price_at_alert": 324.14
+   }
+  ],
+  "id": "c1934ac96d31"
  }
 ]
