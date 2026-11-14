@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-14T17:14Z",
+ "generated": "2026-11-14T17:50Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 892,
+ "total_alerts": 896,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 100,
+   "mentions": 101,
    "n": 87,
    "hits": 39,
    "name": {
-    "he": "קרן סל על נפט גולמי",
-    "en": "USO – crude oil fund",
-    "ar": "صندوق النفط الخام",
-    "ru": "Фонд нефти USO"
+    "he": "קרן סל על מחירי הנפט הגולמי",
+    "en": "United States Oil Fund – crude oil ETF",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "ETF нефти США"
    },
    "avg_edge": -0.16
   },
   "XLE": {
-   "mentions": 83,
+   "mentions": 85,
    "n": 74,
    "hits": 41,
    "name": {
-    "he": "מגזר האנרגיה",
-    "en": "Energy Sector ETF",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "he": "תעודת סל מגזר האנרגיה בארה\"ב",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة الأمريكي",
+    "ru": "ETF энергетического сектора США"
    },
    "avg_edge": -0.23
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.37
   },
   "ITA": {
-   "mentions": 153,
+   "mentions": 154,
    "n": 127,
    "hits": 76,
    "name": {
-    "he": "ITA – קרן סל של חברות תעופה וביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA - صندوق סל للطيران والدفاع",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    "he": "תעודת סל תעופה וביטחון בארה\"ב",
+    "en": "iShares U.S. Aerospace & Defense ETF",
+    "ar": "صندوق مؤشرات قطاع الفضاء والدفاع الأمريكي",
+    "ru": "ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -1.64
   },
@@ -174,26 +174,26 @@
    "avg_edge": 0.49
   },
   "ESLT.TA": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 6,
    "hits": 2,
    "name": {
-    "he": "ESLT.TA - אלביט מערכות (בורסת תל אביב)",
-    "en": "ESLT.TA - Elbit Systems (TASE)",
-    "ar": "ESLT.TA - إلبيط سيستمز (بورصة تل أبيب)",
-    "ru": "ESLT.TA - Elbit Systems (ТАФБ)"
+    "he": "אלביט מערכות (בורסת תל אביב)",
+    "en": "Elbit Systems (TASE)",
+    "ar": "إلبيت سيستمز (بورصة تل أبيب)",
+    "ru": "Elbit Systems (Текль-Авивская биржа)"
    },
    "avg_edge": -0.29
   },
   "ESLT": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 14,
    "hits": 7,
    "name": {
     "he": "אלביט מערכות – חברת ביטחון ישראלית",
-    "en": "Elbit Systems – Israeli defense firm",
-    "ar": "إلبيت سيستمز – شركة دفاع إسرائيلية",
-    "ru": "Elbit Systems – израильская оборонная компания"
+    "en": "Elbit Systems – an Israeli defense contractor",
+    "ar": "إلبيت سيستمز – مقاول دفاع إسرائيلي",
+    "ru": "Elbit Systems – израильский оборонный подрядчик"
    },
    "avg_edge": 0.07
   },
@@ -210,50 +210,50 @@
    "avg_edge": 0.17
   },
   "NVDA": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 32,
    "hits": 15,
    "name": {
-    "he": "אנבידיה",
-    "en": "Nvidia",
-    "ar": "إنفيديا",
-    "ru": "Nvidia"
+    "he": "אנבידיה – יצרנית שבבי בינה מלאכותית ענקית",
+    "en": "Nvidia – a major AI chipmaker",
+    "ar": "نيفيديا – صانعة رقائق الذكاء الاصطناعي الكبرى",
+    "ru": "Nvidia – крупный производитель чипов ИИ"
    },
    "avg_edge": -0.09
   },
   "SPY": {
-   "mentions": 96,
+   "mentions": 97,
    "n": 82,
    "hits": 37,
    "name": {
-    "he": "SPY - קרן סל מדד S&P 500",
-    "en": "SPY - S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر الأسهم",
-    "ru": "SPY - ETF индекса S&P 500"
+    "he": "תעודת סל ספא\"י (מדד S&P 500)",
+    "en": "SPDR S&P 500 ETF Trust",
+    "ar": "صندوق مؤشرات S&P 500",
+    "ru": "ETF индекса S&P 500"
    },
    "avg_edge": -0.14
   },
   "KRE": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 12,
    "hits": 8,
    "name": {
-    "he": "KRE - קרן סל על בנקים אזוריים",
-    "en": "KRE - Regional Banking ETF",
-    "ar": "KRE - صندوق البنوك الإقليمية",
-    "ru": "KRE - ETF региональных банков"
+    "he": "תעודת סל בנקים אזוריים בארה\"ב",
+    "en": "SPDR S&P Regional Banking ETF",
+    "ar": "صندوق مؤشرات البنوك الإقليمية الأمريكية",
+    "ru": "ETF региональных банков США"
    },
    "avg_edge": 0.25
   },
   "CPER": {
-   "mentions": 33,
+   "mentions": 34,
    "n": 28,
    "hits": 5,
    "name": {
-    "he": "קרן סל נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق النحاس",
-    "ru": "ETF меди"
+    "he": "קרן סל על חוזי נחושת",
+    "en": "United States Copper Index Fund",
+    "ar": "صندوق مؤشر النحاس الأمريكي",
+    "ru": "ETF индекса меди"
    },
    "avg_edge": -0.97
   },
@@ -282,14 +282,14 @@
    "avg_edge": 5.23
   },
   "TLT": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 26,
    "hits": 22,
    "name": {
-    "he": "TLT - קרן סל אג\"ח ממשלת ארה\"ב לטווח ארוך",
-    "en": "TLT - iShares 20+ Year Treasury Bond ETF",
-    "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "TLT - ETF долгосрочных гособлигаций США"
+    "he": "קרן סל אג\"ח ממשלתי ארוך",
+    "en": "iShares 20+ Year Treasury Bond ETF",
+    "ar": "صندوق سندات الخزانة الأمريكية طويلة الأجل",
+    "ru": "ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 1.37
   },
@@ -354,14 +354,14 @@
    "avg_edge": -0.99
   },
   "QQQ": {
-   "mentions": 53,
+   "mentions": 55,
    "n": 43,
    "hits": 13,
    "name": {
-    "he": "נאסד\"ק 100 – מדד הטכנולוגיה",
-    "en": "Nasdaq 100 Index ETF",
-    "ar": "مؤشر ناسداك 100",
-    "ru": "Индекс Nasdaq 100"
+    "he": "תעודת סל נאסד\"ק 100",
+    "en": "Invesco QQQ Trust – Nasdaq 100 ETF",
+    "ar": "صندوق مؤشرات ناسداك 100",
+    "ru": "ETF Nasdaq 100"
    },
    "avg_edge": -0.31
   },
@@ -510,14 +510,14 @@
    "avg_edge": 0.52
   },
   "INDA": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 14,
    "hits": 8,
    "name": {
-    "he": "תעודת סל של שוק המניות ההודי",
-    "en": "India stock market ETF",
-    "ar": "صندوق استثمار للسوق الهندي",
-    "ru": "ETF фондового рынка Индии"
+    "he": "תעודת סל שוק המניות של הודו",
+    "en": "iShares MSCI India ETF",
+    "ar": "صندوق مؤشرات الأسهم الهندية",
+    "ru": "ETF индийского фондового рынка"
    },
    "avg_edge": -0.14
   },
@@ -798,14 +798,14 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 21,
    "hits": 4,
    "name": {
-    "he": "SMH - קרן סל מוליכים למחצה",
-    "en": "SMH - VanEck Semiconductor ETF",
-    "ar": "SMH - صندوق قطاع أشباه الموصلات",
-    "ru": "SMH - Полупроводниковый ETF"
+    "he": "תעודת סל של סקטור המוליכים למחצה",
+    "en": "VanEck Semiconductor ETF",
+    "ar": "صندوق مؤشرات قطاع أشباه الموصلات",
+    "ru": "ETF полупроводников"
    },
    "avg_edge": -1.23
   },
@@ -1110,14 +1110,14 @@
    "avg_edge": 2.97
   },
   "CVX": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 4,
    "hits": 3,
    "name": {
-    "he": "CVX – שברון, חברת אנרגיה מובילה",
-    "en": "CVX – Chevron leading energy company",
-    "ar": "CVX - شيفرون، شركة الطاقة الرائدة",
-    "ru": "CVX – ведущая энергетическая компания Chevron"
+    "he": "שברון – חברת אנרגיה ענקית",
+    "en": "Chevron – a major energy company",
+    "ar": "شيفرون – شركة طاقة كبرى",
+    "ru": "Chevron – крупная энергетическая компания"
    },
    "avg_edge": 1.41
   },
