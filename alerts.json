@@ -1468,116 +1468,6 @@
  {
   "ts": 1794061041,
   "time": "2026-11-07T14:17Z",
-  "title": "הסיכויים להעלאת ריבית בדצמבר זינקו בעקבות נתוני תעסוקה חזקים בארה\"ב",
-  "summary": "נתוני תעסוקה חזקים בארה\"ב לחודש אוקטובר הקפיצו את הסיכויים להעלאת ריבית מצד הפדרל ריזרב בחודש דצמבר לרמות של קרוב ל-80% עד 99%, תוך התחדשות חששות האינפלציה.",
-  "kid": "נוצרו יותר משרות מהצפוי בארה\"ב, מה שגורם לחשש שהבנק המרכזי יעלה את הריבית. זה יכול להשפיע על עלויות ההלוואות לכולם.",
-  "i18n": {
-   "title": {
-    "he": "הסיכויים להעלאת ריבית בדצמבר זינקו בעקבות נתוני תעסוקה חזקים בארה\"ב",
-    "en": "December Fed Rate Hike Odds Jump as US October Jobs Surge",
-    "ar": "احتمالات رفع الفائدة في ديسمبر ترتفع بعد قفزة الوظائف الأمريكية",
-    "ru": "Вероятность повышения ставки ФРС в декабре выросла после сильных данных по занятости в США"
-   },
-   "summary": {
-    "he": "נתוני תעסוקה חזקים בארה\"ב לחודש אוקטובר הקפיצו את הסיכויים להעלאת ריבית מצד הפדרל ריזרב בחודש דצמבר לרמות של קרוב ל-80% עד 99%, תוך התחדשות חששות האינפלציה.",
-    "en": "Strong US job growth in October has pushed market-implied odds for a Federal Reserve rate hike in December to near 80%–99%, reviving corporate inflation concerns.",
-    "ar": "أدت بيانات الوظائف القوية في الولايات المتحدة لشهر أكتوبر إلى قفزة احتمالات رفع الفائدة من قبل الاحتياطي الفيدرالي في ديسمبر إلى قرب 80%-99%.",
-    "ru": "Сильные данные по занятости в США за октябрь подняли рыночные ожидания повышения ставки ФРС в декабре почти до 80–99%, возобновив опасения по поводу инфляции."
-   },
-   "kid": {
-    "he": "נוצרו יותר משרות מהצפוי בארה\"ב, מה שגורם לחשש שהבנק המרכזי יעלה את הריבית. זה יכול להשפיע על עלויות ההלוואות לכולם.",
-    "en": "More jobs were created than expected in the US, raising fears that the central bank will hike interest rates. This can affect borrowing costs for everyone.",
-    "ar": "تم إنشاء وظائف أكثر من المتوقع في الولايات المتحدة، مما يثير مخاوف قيام البنك المركزي برفع أسعار الفائدة.",
-    "ru": "В США было создано больше рабочих мест, чем ожидалось, что усиливает опасения повышения процентных ставок центральным банком."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794061041,
-    "reason": "ציפיות להעלאת ריבית או שמירה על ריבית גבוהה לוחצות על שוק המניות והערכות השווי.",
-    "reason_i18n": {
-     "he": "ציפיות להעלאת ריבית או שמירה על ריבית גבוהה לוחצות על שוק המניות והערכות השווי.",
-     "en": "Expectations of rate hikes or sustained high interest rates pressure the stock market and valuations.",
-     "ar": "التوقعات برفع الفائدة أو إبقائها مرتفعة تضغط على سوق الأسهم والتقييمات.",
-     "ru": "Ожидания повышения ставок или их удержания на высоком уровне оказывают давление на фондовый рынок."
-    },
-    "name_i18n": {
-     "he": "SPY – מדד S&P 500",
-     "en": "SPY – S&P 500 ETF",
-     "ar": "SPY – صندوق مؤشر S&P 500",
-     "ru": "SPY — ETF индекса S&P 500"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": -1.08,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1794061041,
-    "reason": "נתוני תעסוקה חזקים וציפיות לריבית גבוהה פוגעים במחירי האג\"ח ומעלים את תשואותיהן.",
-    "reason_i18n": {
-     "he": "נתוני תעסוקה חזקים וציפיות לריבית גבוהה פוגעים במחירי האג\"ח ומעלים את תשואותיהן.",
-     "en": "Strong employment data and rate hike expectations weigh on bond prices and push yields higher.",
-     "ar": "بيانات التوظيف القوية وتوقعات الفائدة تضغط على أسعار السندات وتدفع العوائد للارتفاع.",
-     "ru": "Сильные данные по занятости и ожидания по ставке давят на цены облигаций и толкают доходность вверх."
-    },
-    "name_i18n": {
-     "he": "TLT – קרן סל על אג\"ח ממשלת ארה\"ב לטווח ארוך",
-     "en": "TLT – 20+ Year Treasury Bond ETF",
-     "ar": "TLT – صندوق سندات الخزانة الأمريكية طويلة الأجل",
-     "ru": "TLT — ETF долгосрочных гособлигаций США"
-    },
-    "price_at_alert": 81.92,
-    "entry_price": 82.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 80.89,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.65,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -2.73,
-    "edge_pct": 2.73,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "930e1eb57bf1",
-  "updates": [
-   {
-    "ts": 1794093437,
-    "time": "2026-11-07T23:17Z",
-    "severity": 6,
-    "summary": "נתוני התעסוקה בארה\"ב הפתיעו לטובה עם זינוק במשרות וירידת האבטלה ל-4.1%, מה ששומר על מיקוד השווקים בנתוני האינפלציה ובהחלטות הריבית של הפד.",
-    "i18n": {
-     "en": "US job growth surged and unemployment fell to 4.1%, keeping markets focused on upcoming inflation data and potential Federal Reserve rate decisions.",
-     "he": "נתוני התעסוקה בארה\"ב הפתיעו לטובה עם זינוק במשרות וירידת האבטלה ל-4.1%, מה ששומר על מיקוד השווקים בנתוני האינפלציה ובהחלטות הריבית של הפד.",
-     "ar": "قفز نمو الوظائف في الولايات المتحدة وانخفضت البطالة إلى 4.1%، مما يبقي الأسواق تركز على بيانات التضخم القادمة وقرارات الفيدرالي.",
-     "ru": "Рост занятости в США резко ускорился, а безработица упала до 4.1%, удерживая внимание рынков на инфляции и решениях ФРС по ставке."
-    }
-   }
-  ],
-  "last_update": 1794093437,
-  "evaluated": true
- },
- {
-  "ts": 1794061041,
-  "time": "2026-11-07T14:17Z",
   "title": "חוזה ענק בסך 2.69 מיליארד רינגיט להארכת רכבת קלה במלזיה",
   "summary": "הוענק חוזה ענק בהיקף של 2.69 מיליארד רינגיט (מלזיה) להקמת הארכה ימית של הרכבת הקלה (LRT) בפנאנג.",
   "kid": "פרויקט תשתית ענק במלזיה יצא לדרך עם השקעה עצומה. זה יכול לעזור לחברות ההנדסה והבנייה המקומיות והבינלאומיות המעורבות.",
@@ -49791,18 +49681,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1d3VFZ3Z0JMZkQxdXB3S2oxbmhMWDZDRUM2X1hHMWljOVhoV28wQ1VkMkZIMFBuRWl6MWFMSEY1OUNjN3dYQ2V4NHZfWnA5Qm9EMEdJaERlN0hrRFdWeHpoZUR4emF1TXhlSDFsS3d0VVBXTElaTklCa19hZlBCZlJnSjJPV1BmeUpJbEI5MjhvZDE2YWRDVlZDQnZxbjhyZndySF9wOU12dW9fOGRXaHdxZzZwUVE?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjZKQnl5X081OW5jZUhBQTJWbUpZamViNlhHVUdpc18tWmFWMHFiOHpsTlZtSHZYOHZOQTY4dWFqelFDUm9aWVFJOXh5cEtZNjZJdW5reDZOLVI5dXZVbmQyaURIdkZKbTR6VnIyRTNaMFJNTU4xXzZYTjhxRDQtMm9uOE1Lc1JRZ1BJWkxuRlFWR2FoSzd3ZjZQcW4tQXR2UC1EbTRR?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLXBydDdyZFJCTm4yZEdHQl9qeEFyZTRhcG1EQnl4YVBwRmpFcDBOeHo5NTVLVDZ4T2hvZFpLR0ZmRjZuQ3RZcXlacEZ2bEtBVUk2dFB2YnR6Umw3UWxvVWhrRG9KbFhVd3hRUG1pbXk5ZEJ0QmVtdTJzTzhseFZqVVlNdEhVWUlPUXc?oc=5"
    },
    {
@@ -49812,6 +49690,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYktXc2pkSzNUTVFvelkzMVRMUXJHVnFCV1lzVWtOMFFNMGpYVFZTZk5od3pwT2Zjbl9FYUVrU1JEVERsTEZ2NFhlSEZLRHhkWFNic00tbUFCVXl1X3RZSVZYYUlkb1hCZHg3VHlsQWkta2VOQ0p6WXNKWXVDV1pVcUhwTTh4bmd0MHdlamZTSHM2VFo5T2F0MS1sXzRPZw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQzU0bEtQZGlvYlVSOHBtNjZ0MWZHdWd6VEpLUDBPU3R3VHpRWVhJQVNMbzk1VW9yOFJZSkF5b3FpY29CRWh4MVFpMFhrWk5mX2otcURZSzRsR1d2WTBKMTh6S0ZzUUhfUGxRZHNrMnlJNWNiNm5QTFRoaC16MXI1SU1ncGwxdllVZDg1SGxMRnBaTEF1U3AyODNxeTYtX1YyRlVjTUdlM000RHdtd05LdVBjbnhIX2U5WXVFTFNUTQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS0UxOS1YVWNXTjA1c0hhTDJwTlp2MTdyZ3dZa1o4R0VWSkhGVW14dmo5cW5wUmozdWYxOEM1dnlDU1pKM1VvTkYxcGVKUndnejV1dkxxaUpVZlBva0FJamMxcVJ1LWpLLXdEVnJtZUZxX293dHFKelFGX0ttUFRJcmN5ckx6VE1WUjl2YURUamM4eTA?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONzlqeGJiWVNRa3pBWlVGbVEyd0U3TTFwNi1PQTVJYVA3dlNmcFNfYkw5Tm5ySk1hWkFBOElxMHZMNmh6WjNxaVJxZmNwbjZqUHJZNjRBeFBiMnZPNDNPTkpNZnpNbmhMdXJ3Q3FXRlRpeEhoU05DbTM4bnNXRV91TEo1RlpuSktuTkxQUFZiazhtaEdnTzJmdElHajFxelVGNDMwVVk0UC1rTTYyT2lkeG5WcEtlaTVMWWNuM0h3SEpMeXozMTNnSmFiSGFBUG8?oc=5"
    }
   ],
   "impacts": [
@@ -49972,9 +49862,21 @@
      "ar": "أعلنت إدارة الطيران الفيدرالية الأمريكية أن سبب توقف رحلات الطيران ليس معروفاً تماماً، مشيرة إلى احتمال تورط معدات التوجيه والشبكات في المشكلة.",
      "ru": "Федеральное управление гражданской авиации США сообщило, что первопричина общенациональной остановки полетов пока неизвестна, однако сетевое оборудование и роутеры могли быть задействованы."
     }
+   },
+   {
+    "ts": 1794700206,
+    "time": "2026-11-14T23:50Z",
+    "severity": 4,
+    "summary": "רשויות ארה\"ב מייחסות את שיבושי הטיסות הלאומיים האחרונים לתקלה בשדרוג כבלי נחושת. למרות שההשבתה הוסרה, נותרו עיכובים רבים בשדות התעופה.",
+    "i18n": {
+     "he": "רשויות ארה\"ב מייחסות את שיבושי הטיסות הלאומיים האחרונים לתקלה בשדרוג כבלי נחושת. למרות שההשבתה הוסרה, נותרו עיכובים רבים בשדות התעופה.",
+     "en": "US authorities attribute the recent nationwide flight disruptions to a botched copper wire upgrade. Although the ground stop has ended, numerous delays and cancellations persist at airports.",
+     "ar": "تُعزى اضطرابات الرحلات الجوية الأخيرة على مستوى الولايات المتحدة إلى ترقية فاشلة لأسلاك النحاس. وعلى الرغم من رفع حظر الإقلاع، لا تزال التأخيرات قائمة في المطارات.",
+     "ru": "Власти США связывают недавние сбои в авиасообщении с неудачным обновлением медных кабелей. Несмотря на снятие запрета на вылеты, в аэропортах сохраняются многочисленные задержки."
+    }
    }
   ],
-  "last_update": 1794697730
+  "last_update": 1794700206
  },
  {
   "ts": 1794684504,
@@ -51359,5 +51261,256 @@
    }
   ],
   "id": "1ece28437407"
+ },
+ {
+  "ts": 1794700206,
+  "time": "2026-11-14T23:50Z",
+  "title": "מעבדה אמריקאית: מודלי בינה מלאכותית סיניים אומנו על שבבי Nvidia Blackwell למרות הסנקציות",
+  "summary": "מחקר של מעבדה אמריקאית טוען כי מודלי בינה מלאכותית סיניים הצליחו להתאמן על שבבי Nvidia Blackwell המתקדמים, למרות מגבלות הסחר והסנקציות האמריקאיות.",
+  "kid": "נראה שחברות בסין השתמשו בשבבים החכמים של אנבידיה למרות האיסורים. זה עשוי להוביל לחוקים נוקשים יותר על חברות הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "מעבדה אמריקאית: מודלי בינה מלאכותית סיניים אומנו על שבבי Nvidia Blackwell למרות הסנקציות",
+    "en": "US Lab Says Chinese AI Models Trained on Nvidia Blackwell Chips Despite Sanctions",
+    "ar": "مختبر أمريكي: نماذج الذكاء الاصطناعي الصينية تدربت على شرائح Nvidia Blackwell رغم العقوبات",
+    "ru": "Американская лаборатория: китайские ИИ-модели обучались на чипах Nvidia Blackwell несмотря на санкции"
+   },
+   "summary": {
+    "he": "מחקר של מעבדה אמריקאית טוען כי מודלי בינה מלאכותית סיניים הצליחו להתאמן על שבבי Nvidia Blackwell המתקדמים, למרות מגבלות הסחר והסנקציות האמריקאיות.",
+    "en": "A US lab report claims that Chinese artificial intelligence models have been trained using advanced Nvidia Blackwell chips, bypassing current US export controls and trade sanctions.",
+    "ar": "يدعي تقرير لمختبر أمريكي أن نماذج الذكاء الاصطناعي الصينية تم تدريبها باستخدام شرائح Nvidia Blackwell المتقدمة، متجاوزة عقوبات التجارة الأمريكية.",
+    "ru": "В отчете американской лаборатории утверждается, что китайские ИИ-модели обучались с использованием передовых чипов Nvidia Blackwell в обход санкций США."
+   },
+   "kid": {
+    "he": "נראה שחברות בסין השתמשו בשבבים החכמים של אנבידיה למרות האיסורים. זה עשוי להוביל לחוקים נוקשים יותר על חברות הטכנולוגיה.",
+    "en": "It seems companies in China used smart Nvidia chips despite bans. This could lead to stricter rules for tech companies.",
+    "ar": "يبدو أن الشركات في الصين استخدمت شرائح إنفيديا الذكية رغم الحظر، مما قد يؤدي إلى قواعد أشد صرامة.",
+    "ru": "Похоже, компании в Китае использовали чипы Nvidia вопреки запретам, что может привести к ужесточению правил."
+   }
+  },
+  "category": "trade",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUFRFVnhDbnY0TUFmLTEtTFZXeXVTMUJ2U3k0MTBIT1dLaUZXY3RhZGdiVG55UHdlWlVpNk5uMWtqUWcxWTJLU0pTLVVZT04tVmhIZUFVYl83dWhMdlJrbDNPUkpvbGJEd05HdGpTM3NkVUtLOW01cmlKeDZUU284cW5WLTNpaGo20gGcAUFVX3lxTE9UanE0aUdjbldQTUQ3enNWMEdZaEp0cDZrUkNjLTlJU1NtMnRNYjd0dUJMUi1FMjVsMlFpTl9Ob044M2tMdGtjV3J3bjFIMXROZlctdWdPUl9FY2h5VVZzc2Iwd0MxaEJjcldwZWhPcmdaNEx1SFBMeUZUXzhFV1psSUhJX1c4bHE0X19Od0pXVUlzMkhkLUhmOXphWg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794700206,
+    "reason": "חשש מהדגקת הפיקוח ומדיניות אכיפה מחמירה יותר על יצוא שבבים.",
+    "reason_i18n": {
+     "he": "חשש מהדגקת הפיקוח ומדיניות אכיפה מחמירה יותר על יצוא שבבים.",
+     "en": "Concerns over tighter export controls and stricter enforcement.",
+     "ar": "مخاوف بشأن تشديد ضوابط التصدير وإنفاذ العقوبات.",
+     "ru": "Опасения по поводу ужесточения экспортного контроля."
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבים",
+     "en": "Nvidia - chip maker",
+     "ar": "إنفيديا - صانعة الرقاقات",
+     "ru": "Nvidia - производитель чипов"
+    },
+    "price_at_alert": 162.85
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794700206,
+    "reason": "החשש מהחמרת מלחמת הסחר והטכנולוגיה בין ארה\"ב לסין מעיב על הסקטור.",
+    "reason_i18n": {
+     "he": "החשש מהחמרת מלחמת הסחר והטכנולוגיה בין ארה\"ב לסין מעיב על הסקטור.",
+     "en": "Fears of escalating US-China tech trade wars weigh on the sector.",
+     "ar": "مخاوف تصاعد حرب التكنولوجيا بين أمريكا والصين تؤثر على القطاع.",
+     "ru": "Опасения эскалации технологической войны между США и Китаем."
+    },
+    "name_i18n": {
+     "he": "קרן סל סקטור השבבים",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 486.75
+   }
+  ],
+  "id": "95f5129e4e7c"
+ },
+ {
+  "ts": 1794700206,
+  "time": "2026-11-14T23:50Z",
+  "title": "מתקפת סייבר ענקית בצרפת: נתוני 22 מיליון בני אדם נגנבו מחברת Maileva",
+  "summary": "חברת שירותי הדואר הדיגיטלי הצרפתית Maileva נפלה הציגה מתקפת סייבר חמורה שבה נגנבו נתונים רגישים של כ-22 מיליון בני אדם.",
+  "kid": "האקרים פרצו לחברת תקשורת גדולה בצרפת וגנבו מידע על מיליוני אנשים. זה מעלה דאגה לגבי אבטחת מידע ויכול להשפיע על חברות סייבר.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר ענקית בצרפת: נתוני 22 מיליון בני אדם נגנבו מחברת Maileva",
+    "en": "Massive Cyberattack in France: Data of 22 Million People Stolen from Maileva",
+    "ar": "هجوم سيبراني ضخم في فرنسا: سرقة بيانات 22 مليون شخص من شركة Maileva",
+    "ru": "Масштабная кибератака во Франции: украдены данные 22 миллионов человек из компании Maileva"
+   },
+   "summary": {
+    "he": "חברת שירותי הדואר הדיגיטלי הצרפתית Maileva נפלה הציגה מתקפת סייבר חמורה שבה נגנבו נתונים רגישים של כ-22 מיליון בני אדם.",
+    "en": "French digital mail service provider Maileva has suffered a major cyberattack resulting in the theft of sensitive personal data belonging to approximately 22 million individuals.",
+    "ar": "تعرضت شركة خدمات البريد الرقمي الفرنسية Maileva لهجوم سيبراني كبير أدى إلى سرقة بيانات شخصية لـ 22 مليون شخص.",
+    "ru": "Французский провайдер цифровых почтовых услуг Maileva подвергся серьезной кибератаке, в результате которой были похищены данные 22 миллионов человек."
+   },
+   "kid": {
+    "he": "האקרים פרצו לחברת תקשורת גדולה בצרפת וגנבו מידע על מיליוני אנשים. זה מעלה דאגה לגבי אבטחת מידע ויכול להשפיע על חברות סייבר.",
+    "en": "Hackers breached a major French communications firm and stole info on millions. This raises security concerns and highlights cybersecurity stocks.",
+    "ar": "اخترق قراصنة شركة اتصالات فرنسية كبرى وسرقوا معلومات الملايين، مما يثير مخاوف الأمن السيبراني.",
+    "ru": "Хакеры взломали крупную французскую компанию и покинули с данными миллионов, подчеркивая важность кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14Um9XYlR1algxOG1EZEpNaTE0OU1fUHJEc295cFU3ZzBLSFRFSlR2ZGJZYVlrZVhTUzNXenJKakE1U0Q4VjFoNVNwQzJNQ0JuZmJkYkRreW5WdVdkNm1kME5vN01JU1ZYdGhjMFZzS05kVUphdXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794700206,
+    "reason": "פריצות ענק מעלות את הביקוש לשירותי הגנת סייבר ארגוניים.",
+    "reason_i18n": {
+     "he": "פריצות ענק מעלות את הביקוש לשירותי הגנת סייבר ארגוניים.",
+     "en": "Major breaches increase demand for enterprise cybersecurity services.",
+     "ar": "الختراقات الكبرى تزيد الطلب على خدمات الأمن السيبراني.",
+     "ru": "Крупные взломы увеличивают спрос на услуги кибербезопасности."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - אבטחת סייבר",
+     "en": "CrowdStrike - cybersecurity",
+     "ar": "كراودسترايك - الأمن السيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 226.61
+   }
+  ],
+  "id": "8839e85c9387"
+ },
+ {
+  "ts": 1794700206,
+  "time": "2026-11-14T23:50Z",
+  "title": "התפרצות שפעת העופות בקנדה מתפשטת לשתי פרובינציות נוספות",
+  "summary": "סוכנות הפיקוח על מזון בקנדה (CFIA) דיווחה כי התפרצות שפעת העופות שהחלה בתערוכה לאומית בססקצ'ואן התפשטה לשתי פרובינציות נוספות.",
+  "kid": "מחלת עופות קשה התפשטה לעוד אזורים בקנדה. זה עשוי לייקר מוצרי מזון כמו ביצים ובשר עופות.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות שפעת העופות בקנדה מתפשטת לשתי פרובינציות נוספות",
+    "en": "Avian Flu Outbreak in Canada Spreads to Two More Provinces",
+    "ar": "تفشي إنفلونزا الطيور في كندا يمتد إلى مقاطعتين أخرتين",
+    "ru": "Вспышка птичьего гриппа в Канаде распространилась еще на две провинции"
+   },
+   "summary": {
+    "he": "סוכנות הפיקוח על מזון בקנדה (CFIA) דיווחה כי התפרצות שפעת העופות שהחלה בתערוכה לאומית בססקצ'ואן התפשטה לשתי פרובינציות נוספות.",
+    "en": "The Canadian Food Inspection Agency (CFIA) reported that an avian influenza outbreak originating at a national poultry show in Saskatchewan has now spread to two additional provinces.",
+    "ar": "أفادت وكالة فحص الأغذية الكندية (CFIA) بأن تفشي إنفلونزا الطيور الذي بدأ في معرض وطني قد امتد إلى مقاطعتين أخريين.",
+    "ru": "Канадское агентство по надзору за пищевыми продуктами сообщило, что вспышка птичьего гриппа распространилась еще на две провинции."
+   },
+   "kid": {
+    "he": "מחלת עופות קשה התפשטה לעוד אזורים בקנדה. זה עשוי לייקר מוצרי מזון כמו ביצים ובשר עופות.",
+    "en": "A severe bird disease spread to more parts of Canada. This could make food items like eggs and poultry more expensive.",
+    "ar": "انتشر مرض خطير بين الطيور في مناطق أخرى بكندا، مما قد يرفع أسعار المنتجات الغذائية.",
+    "ru": "Серьезная болезнь птиц распространилась на другие регионы Канады, что может поднять цены на еду."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPazFQb1NtdVh5enFfczB2WU5uQjdUc3RhaTBET2R4S2ZocmdUSndCNHZpaVg4NkkyTndwbm81T1E0d2kwdl81LVhOZ1RzbUY1Q1FEbHFaRmR3dnU2WUVYWmVoTjVJVjR0cUtJa25iMF9DY294STFhOXpZb04wb1ZJVmNId3lrMTYxbUVlTngydjg4RUJuT25BOEVxc3NIR2VPbm5V?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWC",
+    "direction": "down",
+    "t0": 1794700206,
+    "reason": "פגיעה פוטנציאלית בענף החקלאות והמזון המקומי.",
+    "reason_i18n": {
+     "he": "פגיעה פוטנציאלית בענף החקלאות והמזון המקומי.",
+     "en": "Potential damage to the local agricultural and food sector.",
+     "ar": "ضرر محتمل لقطاع الزراعة والأغذية المحلي.",
+     "ru": "Потенциальный ущерб местному сектору сельского хозяйства."
+    },
+    "name_i18n": {
+     "he": "קרן סל קנדה",
+     "en": "Canada ETF",
+     "ar": "صندوق الاستثمار المتداول لكندا",
+     "ru": "ETF Канады"
+    },
+    "price_at_alert": 60.11
+   }
+  ],
+  "id": "3f28e8bfded2"
+ },
+ {
+  "ts": 1794700206,
+  "time": "2026-11-14T23:50Z",
+  "title": "אודישה בהודו מאשרת פרויקט אגירה שאובה בשווי כ-5.6 מיליארד רופי",
+  "summary": "ממשלת מדינת אודישה בהודו אישרה את פרויקט אגירת האנרגיה השאובה Upper Indravati בקלאהנדי בעלות של 4,708 קרוֹר רופי להרחבת תשתיות החשמל.",
+  "kid": "הודו משקיעה הרבה כסף בפרויקט חדש לאגירת אנרגיה וחשמל. זה עוזר לחברות תשתיות ותעשייה באזור.",
+  "i18n": {
+   "title": {
+    "he": "אודישה בהודו מאשרת פרויקט אגירה שאובה בשווי כ-5.6 מיליארד רופי",
+    "en": "Odisha in India Approves Pumped Storage Project Worth Rs 4,708 Crore",
+    "ar": "أوديشا في الهند توافق على مشروع تخزين محضون بقيمة 4708 كرور روبية",
+    "ru": "Одиша в Индии одобрила проект гидроаккумулирования стоимостью 4,708 млрд рупий"
+   },
+   "summary": {
+    "he": "ממשלת מדינת אודישה בהודו אישרה את פרויקט אגירת האנרגיה השאובה Upper Indravati בקלאהנדי בעלות של 4,708 קרוֹר רופי להרחבת תשתיות החשמל.",
+    "en": "The government of Odisha, India, has greenlit the Upper Indravati Pumped Storage Project in Kalahandi, valued at Rs 4,708 crore, to bolster power and energy infrastructure.",
+    "ar": "واست حكومة أوديشا الهندية على مشروع تخزين الطاقة Upper Indravati في كالاهاندي بتكلفة 4708 كرور روبية.",
+    "ru": "Правительство штата Одиша в Индии одобрило проект гидроаккумулирующей электростанции Upper Indravati стоимостью 4,708 млрд рупий."
+   },
+   "kid": {
+    "he": "הודו משקיעה הרבה כסף בפרויקט חדש לאגירת אנרגיה וחשמל. זה עוזר לחברות תשתיות ותעשייה באזור.",
+    "en": "India is investing heavily in a new energy storage project. This helps local infrastructure and industrial companies.",
+    "ar": "تستثمر الهند بشكل كبير في مشروع جديد لتخزين الطاقة، مما يساعد البنية التحتية.",
+    "ru": "Индия инвестирует в новый проект хранения энергии, что помогает инфраструктуре."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMUhnc0RJU2xPRU5ETjR1bFZMRTloN29wSXQ4MnhYcTBTcmRuM0pvRXh0bjBvaktkR051U0ZJQlFJMUF3ekZuNnpTTkNRRkdrUi0ySDRKM1lZMlJONXNtT3RyR2JyZW91M3pIbTR5Z2VDdDk2Z2oyOV9aMi1UOWtYcW5lUmphSVI3N3Mtd1hzVVBDWEFnejdiZTZmelNTUFVoRDhNdXkzckxZS3ViVWc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1794700206,
+    "reason": "השקעות ממשלתיות רחבות בתשתיות תומכות בצמיחה הכלכלית המקומית.",
+    "reason_i18n": {
+     "he": "השקעות ממשלתיות רחבות בתשתיות תומכות בצמיחה הכלכלית המקומית.",
+     "en": "Broad government infrastructure investments support local economic growth.",
+     "ar": "استثمارات البنية التحتية الحكومية الواسعة تدعم النمو الاقتصادي.",
+     "ru": "Масштабные государственные инвестиции поддерживают экономический рост."
+    },
+    "name_i18n": {
+     "he": "קרן סל הודו",
+     "en": "India ETF",
+     "ar": "صندوق استثمار الهند",
+     "ru": "ETF Индии"
+    },
+    "price_at_alert": 51.45
+   }
+  ],
+  "id": "5c3a573da04d"
  }
 ]
