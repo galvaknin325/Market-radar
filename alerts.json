@@ -2845,576 +2845,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794054218,
-  "time": "2026-11-07T12:23Z",
-  "title": "רשת FinCEN האמריקאית הורה על ניתוק פיננסי של בורסת הקריפטו MEXC",
-  "summary": "רשת FinCEN בארה\"ב הורתה על ניתוק פיננסי של בורסת הקריפטו MEXC, בעוד שהבורסה מדווחת כי המשיכות נמשכות.",
-  "kid": "רגולטורים בארה\"ב פועלים נגד בורסת מטבעות קריפטוגרפיים זרה. זה עשוי להשפיע על השוק ולשלוח מסר מחמיר לחברות קריפטו אחרות.",
-  "i18n": {
-   "title": {
-    "he": "רשת FinCEN האמריקאית הורה על ניתוק פיננסי של בורסת הקריפטו MEXC",
-    "en": "MEXC Says Withdrawals Continue as FinCEN Orders US Financial Cutoff",
-    "ar": "بورصة MEXC تقول إن عمليات السحب مستمرة بينما تأمر FinCEN بقطع التعاملات المالية الأمريكية",
-    "ru": "MEXC заявляет, что вывод средств продолжается, несмотря на приказ FinCEN об отключении от финансовой системы США"
-   },
-   "summary": {
-    "he": "רשת FinCEN בארה\"ב הורתה על ניתוק פיננסי של בורסת הקריפטו MEXC, בעוד שהבורסה מדווחת כי המשיכות נמשכות.",
-    "en": "FinCEN ordered a US financial cutoff for the crypto exchange MEXC, while the exchange states withdrawals continue.",
-    "ar": "أمرت شبكة FinCEN بقطع التعاملات المالية الأمريكية لبورصة العملات المشفرة MEXC، بينما تقول البورصة إن السحب مستمر.",
-    "ru": "FinCEN приказала отключить криптовалютную биржу MEXC от финансовой системы США, при этом биржа заявляет, что вывод средств продолжается."
-   },
-   "kid": {
-    "he": "רגולטורים בארה\"ב פועלים נגד בורסת מטבעות קריפטוגרפיים זרה. זה עשוי להשפיע על השוק ולשלוח מסר מחמיר לחברות קריפטו אחרות.",
-    "en": "US regulators are cracking down on a foreign crypto exchange. This could impact the market and send a strict warning to other crypto firms.",
-    "ar": "المسحون التنظيمي الأمريكي يتحركون ضد بورصة عملات مشفرة أجنبية. قد يؤثر هذا على السوق ويرسل تحذيراً صارماً لشركات العملات المشفرة الأخرى.",
-    "ru": "Регулирующие органы США принимают меры против зарубежной криптобиржи. Это может повлиять на рынок и отправить строгое предупреждение другим криптокомпаниям."
-   }
-  },
-  "category": "policy",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWU1KREZXemdTc3lQTjBDSXZIbk5IbWRwOHhDUE1FTi1NeS1WcWFmRGRULVNnN0lMQ2Z2eHluX3N3ZGNZZFZwa2I0UDJjRjQtZVJQbUhmaHZfQXRBSFhEbWJhaUoyQ2lCNlltVDBJaGR1U1dSc1prLWo0VDd5NzBreUxIcllweFRIRllwNGFWQVczLS13Wm5rZmFocmFaaURh?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1794054218,
-    "reason": "צעדי אכיפה רגולטוריים קשים נגד פלטפורמות קריפטו יוצרים לחץ שלילי זמני על סקטור הנכסים הדיגיטליים.",
-    "reason_i18n": {
-     "he": "צעדי אכיפה רגולטוריים קשים נגד פלטפורמות קריפטו יוצרים לחץ שלילי זמני על סקטור הנכסים הדיגיטליים.",
-     "en": "Aggressive regulatory enforcement actions against crypto platforms create temporary downward pressure on digital assets.",
-     "ar": "إجراءات إنفاذ تنظيمية عدوانية ضد منصات العملات المشفرة تخلق ضغطاً سلبياً مؤقتاً على الأصول الرقمية.",
-     "ru": "Агрессивные регуляторные меры против криптоплатформ создают временное давление вниз на цифровые активы."
-    },
-    "name_i18n": {
-     "he": "IBIT - תעודת סל ביטקוין",
-     "en": "IBIT – Bitcoin ETF",
-     "ar": "IBIT - صندوق مؤشرات تداول البيتكوين",
-     "ru": "IBIT – ETF биткоина"
-    },
-    "price_at_alert": 42.88,
-    "entry_price": 42.1501,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 41.685,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.1,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -2.18,
-    "edge_pct": 2.18,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "f2450e15c0f0",
-  "evaluated": true
- },
- {
-  "ts": 1794054218,
-  "time": "2026-11-07T12:23Z",
-  "title": "ויאסט תקים מרכז בקרה למערכת ההגנה 'כיפת זהב'",
-  "summary": "חברת ויאסט נבחרה להקים מרכז בקרה למשימות עבור רשת הלוויינים של מערכת ההגנה מפני טילים 'כיפת זהב'.",
-  "kid": "חברת תקשורת ולוויינים קיבלה פרויקט ביטחוני גדול. זה יכול לעזור למניה שלה לעלות כי זה מבטיח לה הכנסות נוספות.",
-  "i18n": {
-   "title": {
-    "he": "ויאסט תקים מרכז בקרה למערכת ההגנה 'כיפת זהב'",
-    "en": "Viasat to Establish Mission Control Center for Golden Dome Missile Defense System’s Satellite Network",
-    "ar": "فياسات تنشئ مركز تحكم لشبكة أقمار نظام الدفاع الصاروخي",
-    "ru": "Viasat создаст центр управления для спутниковой сети системы ПРО"
-   },
-   "summary": {
-    "he": "חברת ויאסט נבחרה להקים מרכז בקרה למשימות עבור רשת הלוויינים של מערכת ההגנה מפני טילים 'כיפת זהב'.",
-    "en": "Viasat is set to establish a mission control center for the satellite network of the Golden Dome missile defense system.",
-    "ar": "ستقوم شركة فياسات بإنشاء مركز تحكم للمهام لشبكة الأقمار الصناعية لنظام الدفاع الصاروخي.",
-    "ru": "Viasat создаст центр управления полетами для спутниковой сети системы противоракетной обороны."
-   },
-   "kid": {
-    "he": "חברת תקשורת ולוויינים קיבלה פרויקט ביטחוני גדול. זה יכול לעזור למניה שלה לעלות כי זה מבטיח לה הכנסות נוספות.",
-    "en": "A communication and satellite company won a big defense project. This could help its stock go up because it guarantees more money coming in.",
-    "ar": "فازت شركة اتصالات وأقمار صناعية بمشروع دفاعي كبير. قد يساعد ذلك سهمها على الارتفاع لأنه يضمن لها أرباحاً إضافية.",
-    "ru": "Компания связи и спутников получила крупный оборонный проект. Это может помочь ее акциям вырасти, так как гарантирует дополнительные доходы."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFBYNmxYazhwVW1PRTd1VHJqa3ZDcWYtbWRJQkZCdzZrbnk2VmNOUGFqMmtmSjU2bGlEeHhIcGU4NnVXZFJKeTI2YVh1QlBGTVZnbGJHTE5RemhUSGVOUkx3QXprNHVza0JkdG9IMTg5cUZUOURsdWJXbURaWmNwdGMtYVVoS0h5WlBObjVRWWpCOHAzVHc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "VSAT",
-    "direction": "up",
-    "t0": 1794054218,
-    "reason": "זכייה בחוזה ממשלתי/ביטחוני מרכזי מחזקת את צבר ההזמנות של החברה.",
-    "reason_i18n": {
-     "he": "זכייה בחוזה ממשלתי/ביטחוני מרכזי מחזקת את צבר ההזמנות של החברה.",
-     "en": "Winning a major government/defense contract strengthens the company's order backlog.",
-     "ar": "الفوز بعقد حكومي/دفاعي رئيسي يعزز دفتر طلبات الشركة.",
-     "ru": "Получение крупного государственного/оборонного контракта укрепляет портфель заказов компании."
-    },
-    "name_i18n": {
-     "he": "VSAT - ויאסט, שירותי תקשורת ולוויין",
-     "en": "Viasat – Satellite communications provider",
-     "ar": "Viasat - مزود خدمات الاتصالات عبر الأقمار الصناعية",
-     "ru": "Viasat – провайдер спутниковой связи"
-    },
-    "price_at_alert": 63.95,
-    "entry_price": 65.56,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 74.86,
-    "exit_date": "2026-11-10",
-    "change_pct": 14.19,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 13.11,
-    "edge_pct": 13.11,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "07a0287784e4",
-  "evaluated": true
- },
- {
-  "ts": 1794054218,
-  "time": "2026-11-07T12:23Z",
-  "title": "ביקורת רפובליקנית על עצירת הסיוע לישראל מצד טראמפ",
-  "summary": "החלטתו של טראמפ לעצור את הסיוע לישראל עוררה ביקורת מצד מחוקקים רפובליקנים.",
-  "kid": "מחלוקת פוליטית בארה\"ב סביב הסיוע הביטחוני לישראל עלולה להשפיע על תקציבי הביטחון וחברות הנשק.",
-  "i18n": {
-   "title": {
-    "he": "ביקורת רפובליקנית על עצירת הסיוע לישראל מצד טראמפ",
-    "en": "Trump’s Israel aid cutoff draws criticism from Republicans",
-    "ar": "وقف مساعدات ترامب لإسرائيل يواجه انتقادات جمهورية",
-    "ru": "Прекращение помощи Израилю со стороны Трампа вызывает критику республиканцев"
-   },
-   "summary": {
-    "he": "החלטתו של טראמפ לעצור את הסיוע לישראל עוררה ביקורת מצד מחוקקים רפובליקנים.",
-    "en": "Donald Trump's decision to cut off aid to Israel has drawn criticism from Republican lawmakers.",
-    "ar": "أثارت قرار دونالد ترامب بوقف المساعدات لإسرائيل انتقادات من المشرعين الجمهوريين.",
-    "ru": "Решение Дональда Трампа прекратить помощь Израилю вызвало критику со стороны республиканских законодателей."
-   },
-   "kid": {
-    "he": "מחלוקת פוליטית בארה\"ב סביב הסיוע הביטחוני לישראל עלולה להשפיע על תקציבי הביטחון וחברות הנשק.",
-    "en": "Political dispute in the US over aid to Israel could impact defense budgets and weapons makers.",
-    "ar": "قد يؤثر الخلاف السياسي في الولايات المتحدة حول المساعدات لإسرائيل على ميزانيات الدفاع وصانعي الأسلحة.",
-    "ru": "Политический спор в США по поводу помощи Израилю может повлиять на оборонные бюджеты и производителей оружия."
-   }
-  },
-  "category": "policy",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hN0ZfemhtV3lnOTBMXzJ5WUdkZjdUMnQ0RjhuMEJxQzdiWlp0cUhid1ZrUUF6VUlkQXBiTDl6RTJkZWhwdDBVNXZrV092U0h1d0Vyc1VpbHUwM1Z2d3Mw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "down",
-    "t0": 1794054218,
-    "reason": "אי-ודאות סביב זרם הסיוע הביטחוני עשויה להוביל לתנודתיות בסקטור.",
-    "reason_i18n": {
-     "he": "אי-ודאות סביב זרם הסיוע הביטחוני עשויה להוביל לתנודתיות בסקטור.",
-     "en": "Uncertainty surrounding the flow of defense aid can cause sector volatility.",
-     "ar": "حالة عدم اليقين المحيطة بتدفق المساعدات الدفاعية قد تسبب تقلبات في القطاع.",
-     "ru": "Неопределенность вокруг потоков оборонной помощи может вызвать волатильность в секторе."
-    },
-    "name_i18n": {
-     "he": "ITA - תעודת סל ביטחונית אמריקאית",
-     "en": "ITA – US aerospace & defense ETF",
-     "ar": "ITA - صندوق التداول في القطاع الجوي والدفاعي الأمريكي",
-     "ru": "ITA – ETF аэрокосмического и оборонного сектора США"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": -1.82,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "52791f991bcf",
-  "evaluated": true
- },
- {
-  "ts": 1794054218,
-  "time": "2026-11-07T12:23Z",
-  "title": "פיקוד המרכז של ארה\"ב מציע פרס של 20 מיליון דולר על מידע על תוכנית הגרעין של איראן",
-  "summary": "פיקוד המרכז של ארה\"ב (CENTCOM) הציע פרס כספי של 20 מיליון דולר עבור מידע הקשור לתוכנית הגרעין של איראן.",
-  "kid": "צבא ארה\"ב מנסה לאסוף מידע על הנשק של איראן בדרכים חדשות. זה מגביר את המתח באזור ומעניין משקיעי מניות נשק.",
-  "i18n": {
-   "title": {
-    "he": "פיקוד המרכז של ארה\"ב מציע פרס של 20 מיליון דולר על מידע על תוכנית הגרעין של איראן",
-    "en": "CENTCOM offers $20m bounty for ‘any information’ on Iran's nuclear program",
-    "ar": "القيادة المركزية الأمريكية تعرض مكافأة بقيمة 20 مليون دولار مقابل معلومات عن البرنامج النووي الإيراني",
-    "ru": "ЦЕНТКОМ предлагает награду в 20 млн долларов за информацию о ядерной программе Ирана"
-   },
-   "summary": {
-    "he": "פיקוד המרכז של ארה\"ב (CENTCOM) הציע פרס כספי של 20 מיליון דולר עבור מידע הקשור לתוכנית הגרעין של איראן.",
-    "en": "CENTCOM has offered a $20 million bounty for any information regarding Iran's nuclear program.",
-    "ar": "عرضت القيادة المركزية الأمريكية مكافأة قدرها 20 مليون دولار مقابل أي معلومات تتعلق بالبرنامج النووي الإيراني.",
-    "ru": "Центральное командование США предложило вознаграждение в 20 миллионов долларов за любую информацию о ядерной программе Ирана."
-   },
-   "kid": {
-    "he": "צבא ארה\"ב מנסה לאסוף מידע על הנשק של איראן בדרכים חדשות. זה מגביר את המתח באזור ומעניין משקיעי מניות נשק.",
-    "en": "The US military is trying to gather intelligence on Iran's weapons. This raises regional tensions and draws attention from defense stock investors.",
-    "ar": "يحاول الجيش الأمريكي جمع معلومات استخباراتية حول أسلحة إيران. هذا يرفع التوتّر الإقليمي ويجذب اهتمام مستثمري أسهم الدفاع.",
-    "ru": "Военные США пытаются собрать разведданные об оружии Ирана. Это усиливает напряженность в регионе и привлекает внимание инвесторов в оборонные акции."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTXVCWHhfYm8teDEyNXNMVlBBa0toVXlWZy1zY2pYV2RBOWRXVmFhMTBMeXJqa3FDUVUxd2Y1TVFNcDJ6QkJBZTlfY2E5bm81SnRFSUNBQk5nU1c0N1ZjWUs1VlRra0Vuc09Nalkzd244MnNScXJYUWRzZGx6QmI0Smk3WXpxaTFZcXVJQ05VWXMzRWdKWXdMcGxvZUV2c29lLUE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794054218,
-    "reason": "עליית המתיחות המדינית-ביטחונית סביב איראן תומכת בביקושים למוצרי ביטחון.",
-    "reason_i18n": {
-     "he": "עליית המתיחות המדינית-ביטחונית סביב איראן תומכת בביקושים למוצרי ביטחון.",
-     "en": "Rising geopolitical tensions involving Iran support demand for defense products.",
-     "ar": "تصاعد التوترات الجيوسياسية المتعلقة بإيران يدعم الطلب على المنتجات الدفاعية.",
-     "ru": "Рост геополитической напряженности вокруг Ирана поддерживает спрос на оборонную продукцию."
-    },
-    "name_i18n": {
-     "he": "LMT - לוקהיד מרטין, יצרנית נשק וביטחון",
-     "en": "LMT – Lockheed Martin, defense contractor",
-     "ar": "LMT - لوكهيد مارتن، مقاول الدفاع",
-     "ru": "LMT – Lockheed Martin, оборонный подрядчик"
-    },
-    "price_at_alert": 567.08,
-    "entry_price": 572.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 603.04,
-    "exit_date": "2026-11-10",
-    "change_pct": 5.33,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 4.25,
-    "edge_pct": 4.25,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "198679aa5972",
-  "evaluated": true
- },
- {
-  "ts": 1794058063,
-  "time": "2026-11-07T13:27Z",
-  "title": "מפציץ המלחמה הקרה ישודרג לטיל היפרסוני",
-  "summary": "מפציץ ותיק מימי המלחמה הקרה יקבל שדרוג לשאת טיל היפרסוני חדש, מה שצפוי לחזק את יכולות התקיפה האסטרטגיות.",
-  "kid": "מטוס צבאי ישן מקבל נשק מהיר במיוחד חדש. חדשות טובות לחברות הביטחון שמייצרות את הטילים והמטוסים.",
-  "i18n": {
-   "title": {
-    "he": "מפציץ המלחמה הקרה ישודרג לטיל היפרסוני",
-    "en": "Cold War Bomber to Get 21st-Century Hypersonic Missile",
-    "ar": "قاذفة الحرب الباردة تحظى بصاروخ فرط صوتي",
-    "ru": "Бомбардировщик времен холодной войны получит гиперзвуковую ракету"
-   },
-   "summary": {
-    "he": "מפציץ ותיק מימי המלחמה הקרה יקבל שדרוג לשאת טיל היפרסוני חדש, מה שצפוי לחזק את יכולות התקיפה האסטרטגיות.",
-    "en": "A legacy Cold War bomber is slated to receive an upgrade enabling it to carry a modern hypersonic missile, boosting strategic strike capabilities.",
-    "ar": "من المقرر أن تحصل قاذفة قديمة من الحرب الباردة على ترقية لتكون قادرة على حمل صاروخ فرط صوتي حديث.",
-    "ru": "Старый бомбардировщик времен холодной войны будет модернизирован для возможности нести современную гиперзвуковую ракету."
-   },
-   "kid": {
-    "he": "מטוס צבאי ישן מקבל נשק מהיר במיוחד חדש. חדשות טובות לחברות הביטחון שמייצרות את הטילים והמטוסים.",
-    "en": "An old military plane is getting a new super-fast weapon. This is good news for defense companies that make missiles and aircraft.",
-    "ar": "طائرة عسكرية قديمة تحصل على سلاح جديد فائق السرعة. هذه أخبار جيدة لشركات الدفاع.",
-    "ru": "Старый военный самолет получает новое сверхбыстрое оружие. Это хорошие новости для оборонных компаний."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794058063,
-    "reason": "השקעות חדשות בשדרוגי נשק מתקדם",
-    "reason_i18n": {
-     "he": "השקעות חדשות בשדרוגי נשק מתקדם",
-     "en": "New spending on advanced weapon upgrades",
-     "ar": "إنفاق جديد على ترقيات الأسلحة المتقدمة",
-     "ru": "Новые расходы на модернизацию современного оружия"
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الدفاع الجوي",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": 1.82,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "90108f3f0739",
-  "evaluated": true
- },
- {
-  "ts": 1794058063,
-  "time": "2026-11-07T13:27Z",
-  "title": "מתקפת סייבר משביתה את אתר סיפורי המעריצים AO3 ואת מנהרת ברנר",
-  "summary": "אתר כתיבת המעריצים הפופולרי AO3 נותר מושבת במשך ימים עקב מתקפת סייבר, בעוד שמנהרת הבסיס של ברנר אישרה גם היא גישה לא מורשית לנתונים בעקבות מתקפה.",
-  "kid": "אתרי אינטרנט ומנהרות תחבורה סבלו מפריצות מחשב גדולות. זה מזכיר כמה חשובה אבטחת מידע ומעלה את הביקוש לחברות הגנת סייבר.",
-  "i18n": {
-   "title": {
-    "he": "מתקפת סייבר משביתה את אתר סיפורי המעריצים AO3 ואת מנהרת ברנר",
-    "en": "Cyberattack Shuts Down Fanfiction Site AO3 and Brenner Base Tunnel",
-    "ar": "هجوم سيبراني يعطل موقع القصص AO3 ونفق برينر",
-    "ru": "Кибератака вывела из строя сайт AO3 и тоннель Бреннер"
-   },
-   "summary": {
-    "he": "אתר כתיבת המעריצים הפופולרי AO3 נותר מושבת במשך ימים עקב מתקפת סייבר, בעוד שמנהרת הבסיס של ברנר אישרה גם היא גישה לא מורשית לנתונים בעקבות מתקפה.",
-    "en": "Popular fanfiction site AO3 remains offline for days due to a cyberattack, while the Brenner Base Tunnel has also confirmed unauthorized data access following a cyber incident.",
-    "ar": "ظل موقع القصص الخيالية AO3 معطلاً لأيام بسبب هجوم سيبراني، بينما أكد نفق برينر أيضاً وصولاً غير مصرح به للبيانات.",
-    "ru": "Популярный сайт фанфиков AO3 остается отключенным из-за кибератаки, а в тоннеле Бреннер подтвердили несанкционированный доступ к данным."
-   },
-   "kid": {
-    "he": "אתרי אינטרנט ומנהרות תחבורה סבלו מפריצות מחשב גדולות. זה מזכיר כמה חשובה אבטחת מידע ומעלה את הביקוש לחברות הגנת סייבר.",
-    "en": "Websites and transport tunnels suffered major computer hacks. This highlights the importance of cybersecurity and benefits digital security stocks.",
-    "ar": "تعرضت مواقع ويب وأنفاق لاختراقات حاسوبية كبرى. هذا يرفع الطلب على شركات الأمن السيبراني.",
-    "ru": "Веб-сайты и транспортные тоннели подверглись крупным хакерским атакам, что повышает спрос на кибербезопасность."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794058063,
-    "reason": "עלייה במודעות לצורכי אבטחת סייבר בעקבות מתקפות רצופות",
-    "reason_i18n": {
-     "he": "עלייה במודעות לצורכי אבטחת סייבר בעקבות מתקפות רצופות",
-     "en": "Increased awareness of cyber defense needs following attacks",
-     "ar": "زيادة الوعي بالحاجة للأمن السيبراني بعد الهجمات",
-     "ru": "Рост спроса на кибербезопасность на фоне атак"
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק – חברת סייבר",
-     "en": "CrowdStrike – cybersecurity firm",
-     "ar": "كراودسترايك - شركة أمن سيبراني",
-     "ru": "CrowdStrike – компания кибербезопасности"
-    },
-    "price_at_alert": 216.9,
-    "entry_price": 219.475,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 225.76,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.86,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.79,
-    "edge_pct": 1.79,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "867ea2ae323c",
-  "evaluated": true
- },
- {
-  "ts": 1794058063,
-  "time": "2026-11-07T13:27Z",
-  "title": "עיראק מבקשת להגדיל את מכסת ייצוא הנפט של אופ\"ק",
-  "summary": "שר הנפט העיראקי הודיע כי ארצו פועלת להשיג מכסת ייצוא גבוהה יותר מברית אופ\"ק.",
-  "kid": "עיראק רוצה למכור יותר נפט לעולם. אם אופ\"ק תסכים, זה עשוי להוביל ליותר נפט בשוק ולהשפיע על מחירי הדלק.",
-  "i18n": {
-   "title": {
-    "he": "עיראק מבקשת להגדיל את מכסת ייצוא הנפט של אופ\"ק",
-    "en": "Iraq Seeks Higher OPEC Oil Export Quota",
-    "ar": "العراق يسعى للحصول على حصة أعلى لتصدير النفط من أوبك",
-    "ru": "Ирак добивается увеличения квоты на экспорт нефти ОПЕК"
-   },
-   "summary": {
-    "he": "שר הנפט העיראקי הודיע כי ארצו פועלת להשיג מכסת ייצוא גבוהה יותר מברית אופ\"ק.",
-    "en": "The Iraqi oil minister announced that the country is seeking a higher export quota from OPEC.",
-    "ar": "أعلن وزير النفط العراقي أن بلاده تسعى للحصول على حصة تصدير أعلى من أوبك.",
-    "ru": "Министр нефти Ирака объявил, что страна добивается более высокой квоты на экспорт от ОПЕК."
-   },
-   "kid": {
-    "he": "עיראק רוצה למכור יותר נפט לעולם. אם אופ\"ק תסכים, זה עשוי להוביל ליותר נפט בשוק ולהשפיע על מחירי הדלק.",
-    "en": "Iraq wants to sell more oil globally. If OPEC agrees, this could mean more oil on the market and affect fuel prices.",
-    "ar": "العراق يريد بيع المزيد من النفط. إذا وافقت أوبك، فقد يؤدي ذلك إلى زيادة المعروض وتأثر أسعار الوقود.",
-    "ru": "Ирак хочет продавать больше нефти. Если ОПЕК согласится, это может увеличить предложение на рынке и повлиять на цены на топливо."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794058063,
-    "reason": "אפשרות לגידול בהיצע הנפט במידה ובקשת עיראק תאושר",
-    "reason_i18n": {
-     "he": "אפשרות לגידול בהיצע הנפט במידה ובקשת עיראק תאושר",
-     "en": "Potential increase in oil supply if Iraq's request is approved",
-     "ar": "احتمال زيادة إمدادات النفط إذا تمت الموافقة على طلب العراق",
-     "ru": "Потенциальное увеличение поставок нефти в случае одобрения запроса Ирака"
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט גולמי",
-     "en": "US Oil Fund",
-     "ar": "صندوق النفط الخام",
-     "ru": "ETF нефтяного фонда"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": 1.88,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794058063,
-    "reason": "לחץ פוטנציאלי כלפי מטה על מחירי הנפט וההכנסות של חברות האנרגיה",
-    "reason_i18n": {
-     "he": "לחץ פוטנציאלי כלפי מטה על מחירי הנפט וההכנסות של חברות האנרגיה",
-     "en": "Potential downward pressure on oil prices and energy earnings",
-     "ar": "ضغط هبوط محتمل على أسعار النفط وأرباح شركات الطاقة",
-     "ru": "Потенциальное давление на цены на нефть и доходы энергокомпаний"
-    },
-    "name_i18n": {
-     "he": "סคטור האנרגיה",
-     "en": "Energy Select Sector SPDR",
-     "ar": "قطاع الطاقة",
-     "ru": "Сектор энергетики"
-    },
-    "price_at_alert": 61.62,
-    "entry_price": 61.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 62.225,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.59,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.51,
-    "edge_pct": -0.51,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "b2f8ebcfc98a",
-  "evaluated": true
- },
- {
-  "ts": 1794058063,
-  "time": "2026-11-07T13:27Z",
-  "title": "תעשיית הסוכר בפיליפינים עוצרת את הייצוא לארה\"ב לטובת השוק המקומי",
-  "summary": "תעשיית הסוכר בפיליפינים החליטה פה אחד לחסום את אספקת הסוכר לשוק האמריקאי כדי לתעדף את הצרכים המקומיים.",
-  "kid": "בפיליפינים החליטו לשמור את הסוכר שלהם לאנשים בבית במקום למכור לארה\"ב. זה עשוי להעלות את מחירי הסוכר.",
-  "i18n": {
-   "title": {
-    "he": "תעשיית הסוכר בפיליפינים עוצרת את הייצוא לארה\"ב לטובת השוק המקומי",
-    "en": "Philippine Sugar Industry Blocks Shipping Supply to US Market",
-    "ar": "صناعة السكر الفلبينية توقف شحنات التصدير إلى السوق الأمريكية",
-    "ru": "Сахарная промышленность Филиппин блокирует поставки в США"
-   },
-   "summary": {
-    "he": "תעשיית הסוכר בפיליפינים החליטה פה אחד לחסום את אספקת הסוכר לשוק האמריקאי כדי לתעדף את הצרכים המקומיים.",
-    "en": "The Philippine sugar industry has unanimously decided to block sugar shipments to the US market in order to prioritize domestic needs.",
-    "ar": "قررت صناعة السكر الفلبينية بالإجماع منع شحنات السكر إلى السوق الأمريكية لإعطاء الأولوية للاحتياجات المحلية.",
-    "ru": "Сахарная промышленность Филиппин единогласно решила заблокировать поставки сахара на рынок США в пользу внутренних нужд."
-   },
-   "kid": {
-    "he": "בפיליפינים החליטו לשמור את הסוכר שלהם לאנשים בבית במקום למכור לארה\"ב. זה עשוי להעלות את מחירי הסוכר.",
-    "en": "In the Philippines, they decided to keep their sugar for people at home instead of selling to the US. This could push up sugar prices.",
-    "ar": "في الفلبين، قرروا الاحتفاظ بالسكر للمحليين بدلاً من بيعه لأمريكا. قد يرفع ذلك أسعار السكر.",
-    "ru": "На Филиппинах решили оставить сахар для местного населения, а не продавать в США. Это может поднять цены на сахар."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "DBA",
-    "direction": "up",
-    "t0": 1794058063,
-    "reason": "מחסור פוטנציאלי באספקת סוכר בארה\"ב עקב עצירת ייצוא",
-    "reason_i18n": {
-     "he": "מחסור פוטנציאלי באספקת סוכר בארה\"ב עקב עצירת ייצוא",
-     "en": "Potential US sugar supply shortage due to export block",
-     "ar": "نقص محتمل في إمدادات السكر بسبب وقف التصدير",
-     "ru": "Потенциальный дефицит сахара в США из-за прекращения экспорта"
-    },
-    "name_i18n": {
-     "he": "קרן סל חקלאות",
-     "en": "Agriculture ETF",
-     "ar": "صندوق الزراعة",
-     "ru": "Сельскохозяйственный ETF"
-    },
-    "price_at_alert": 26.11,
-    "entry_price": 26.07,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 26.275,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.79,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.29,
-    "edge_pct": -0.29,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "09d65929ae3f",
-  "evaluated": true
- },
- {
   "ts": 1794061041,
   "time": "2026-11-07T14:17Z",
   "title": "הסיכויים להעלאת ריבית בדצמבר זינקו בעקבות נתוני תעסוקה חזקים בארה\"ב",
@@ -51731,9 +51161,21 @@
      "ar": "مسؤولون هنود يفيدون بأن الاتفاق التجاري بين الولايات المتحدة والهند يقترب من خط النهاية، مع تقديم واشنطن تأكيدات برسوم جمركية منخفضة مقارنة بالمنافسين.",
      "ru": "Индийские официальные лица сообщают, что торговое соглашение между США и Индией подходит к завершению, причем США пообещали более низкие пошлины по сравнению с конкурентами."
     }
+   },
+   {
+    "ts": 1794662900,
+    "time": "2026-11-14T13:28Z",
+    "severity": 4,
+    "summary": "בכירים הודים וארה\"ב מציינים ששיחות הסחר בין המדינות מתקרבות לקו הסיום, תוך מתן יתרונות מכס להודו מול מתחרותיה.",
+    "i18n": {
+     "he": "בכירים הודים וארה\"ב מציינים ששיחות הסחר בין המדינות מתקרבות לקו הסיום, תוך מתן יתרונות מכס להודו מול מתחרותיה.",
+     "en": "Indian and US officials indicate that bilateral trade negotiations are nearing the finish line, offering potential tariff advantages to Indian exporters.",
+     "ar": "مسؤولون يشيرون إلى أن مفاوضات التجارة الثنائية تقترب من خط النهاية مع مزايا جمركية.",
+     "ru": "Официальные лица заявляют, что двусторонние торговые переговоры приближаются к завершению."
+    }
    }
   ],
-  "last_update": 1794658954
+  "last_update": 1794662900
  },
  {
   "ts": 1794641926,
@@ -52900,5 +52342,183 @@
    }
   ],
   "id": "aa1c8bfd71a1"
+ },
+ {
+  "ts": 1794662900,
+  "time": "2026-11-14T13:28Z",
+  "title": "תקיפות ספינות בים השחור ובמיצר הורמוז משבשות את הסחר הימי",
+  "summary": "מתקפות על ספינות בים השחור ובמיצר הורמוז גרמו להרוגים ולפיצוצים ממוקשים ימיים, מה שמחריף את משבר הסחר והאנרגיה העולמי.",
+  "kid": "ספינות נפגעו בים ובמיצר הורמוז, מה שמקשה על מעבר סחורות ונפט. זה עשוי לייקר את מחירי הדלק וההובלה.",
+  "i18n": {
+   "title": {
+    "he": "תקיפות ספינות בים השחור ובמיצר הורמוז משבשות את הסחר הימי",
+    "en": "Black Sea and Hormuz shipping attacks disrupt maritime trade",
+    "ar": "هجمات السفن في البحر الأسود ومضيق هرمز تعطض التجارة البحرية",
+    "ru": "Нападения на суда в Черном море и Ормузском проливе нарушают морскую торговлю"
+   },
+   "summary": {
+    "he": "מתקפות על ספינות בים השחור ובמיצר הורמוז גרמו להרוגים ולפיצוצים ממוקשים ימיים, מה שמחריף את משבר הסחר והאנרגיה העולמי.",
+    "en": "Attacks on ships in the Black Sea and naval mine explosions near the Strait of Hormuz have resulted in casualties and disrupted maritime trade.",
+    "ar": "أدت الهجمات على السفن في البحر الأسود وانفجارات الألغام البحرية قرب مضيق هرمز إلى وقوع ضحايا وتعطيل التجارة البحرية.",
+    "ru": "Нападения на суда в Черном море и взрывы морских мин вблизи Ормузского пролива привели к жертвам и нарушили морскую торговлю."
+   },
+   "kid": {
+    "he": "ספינות נפגעו בים ובמיצר הורמוז, מה שמקשה על מעבר סחורות ונפט. זה עשוי לייקר את מחירי הדלק וההובלה.",
+    "en": "Ships were attacked at sea, making it harder to move goods and oil. This could make gas and shipping prices go up.",
+    "ar": "تعرضت السفن للهجوم في البحر، مما يصعب نقل البضائع والنفط. قد يؤدي ذلك إلى ارتفاع أسعار الوقود والشحن.",
+    "ru": "Суда подверглись нападениям на море, что затрудняет перевозку товаров и нефти. Это может привести к росту цен на топливо и доставку."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794662900,
+    "reason": "חשש לפגיעה באספקת הנפט במפרץ ובים השחור מקפיץ את המחירים",
+    "reason_i18n": {
+     "he": "חשש לפגיעה באספקת הנפט במפרץ ובים השחור מקפיץ את המחירים",
+     "en": "Supply concerns in key shipping chokepoints push oil prices higher",
+     "ar": "مخاوف الإمدادات ترفع أسعار النفط",
+     "ru": "Опасения по поводу поставок толкают цены на нефть вверх"
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט גולמי",
+     "en": "USO – crude oil fund",
+     "ar": "صندوق النفط الخام",
+     "ru": "Фонд нефти USO"
+    },
+    "price_at_alert": 145.58
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794662900,
+    "reason": "שיבושים בנתיבי שיט מרכזיים נוטים להעלות את דמי ההובלה",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי שיט מרכזיים נוטים להעלות את דמי ההובלה",
+     "en": "Disruptions in major shipping lanes tend to increase freight rates",
+     "ar": "اضطرابات طرق الشحن ترفع تكاليف النقل",
+     "ru": "Нарушения на морских путях повышают фрахтовые ставки"
+    },
+    "name_i18n": {
+     "he": "צים – חברת ספנות ימית",
+     "en": "ZIM – ocean shipping company",
+     "ar": "شركة الشحن البحري ZIM",
+     "ru": "Судоходная компания ZIM"
+    },
+    "price_at_alert": 29.34
+   }
+  ],
+  "id": "5d2f1b13a1b5"
+ },
+ {
+  "ts": 1794662900,
+  "time": "2026-11-14T13:28Z",
+  "title": "מתקפות סייבר חדשות דולפות מידע רגיש מבנקים ומוסדות אקדמיים",
+  "summary": "מתקפות סייבר על גופים פיננסיים ואוניברסיטאות הביאו לדליפה של מאות אלפי רשומות לקוחות וסטודנטים.",
+  "kid": "האקרים פרצו למערכות של בנק ומוסדות חינוך וגנבו מידע אישי. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "מתקפות סייבר חדשות דולפות מידע רגיש מבנקים ומוסדות אקדמיים",
+    "en": "New cyberattacks leak sensitive data from banks and academic institutions",
+    "ar": "هجمات سيبرانية جديدة تسرب بيانات حساسة من بنوك ومؤسسات أكاديمية",
+    "ru": "Новые кибератаки приводят к утечке конфиденциальных данных из банков и вузов"
+   },
+   "summary": {
+    "he": "מתקפות סייבר על גופים פיננסיים ואוניברסיטאות הביאו לדליפה של מאות אלפי רשומות לקוחות וסטודנטים.",
+    "en": "Cyberattacks on financial institutions and universities have resulted in the leak of hundreds of thousands of customer and student records.",
+    "ar": "أدت هجمات سيبرانية على مؤسسات مالية وجامعات إلى تسرب مئات الآلاف من سجلات العملاء.",
+    "ru": "Кибератаки на финансовые институты и университеты привели к утечке сотен тысяч записей."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות של בנק ומוסדות חינוך וגנבו מידע אישי. זה מזכיר לחברות להשקיע יותר באבטחת מידע.",
+    "en": "Hackers broke into bank and school systems and stole personal data, highlighting the need for better cybersecurity.",
+    "ar": "اخترق قراصنة أنظمة البنوك والمدارس وسرقوا بيانات شخصية، مما يبرز حاجة الأمن السيبراني.",
+    "ru": "Хакеры взломали системы банков и учебных заведений и украли личные данные."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794662900,
+    "reason": "עלייה באירועי פריצה מחדדת את הביקוש לפתרונות הגנת סייבר",
+    "reason_i18n": {
+     "he": "עלייה באירועי פריצה מחדדת את הביקוש לפתרונות הגנת סייבר",
+     "en": "Spiking breach reports increase demand for security solutions",
+     "ar": "زيادة تقارير الاختراق ترفع الطلب على حلول الأمان",
+     "ru": "Рост числа сообщений об утечках увеличивает спрос на защиту"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity firm",
+     "ar": "شركة الأمن السيبراني CrowdStrike",
+     "ru": "Компания кибербезопасности CrowdStrike"
+    },
+    "price_at_alert": 226.61
+   }
+  ],
+  "id": "95d620fe7216"
+ },
+ {
+  "ts": 1794662900,
+  "time": "2026-11-14T13:28Z",
+  "title": "ביקורת בסרי לנקה על רכישת רחפנים ישראליים",
+  "summary": "פוליטיקאים בסרי לנקה מעלים שאלות קשות סביב החלטת הממשלה לרכוש רחפנים ישראליים בהיקף של מיליארדי רופי.",
+  "kid": "יש ויכוח פוליטי בסרי לנקה על קניית רחפנים מחברות ישראליות. זה קשור למניות של חברות ביטחוניות שמייצרות ציוד צבאי.",
+  "i18n": {
+   "title": {
+    "he": "ביקורת בסרי לנקה על רכישת רחפנים ישראליים",
+    "en": "Criticism in Sri Lanka over acquisition of Israeli drones",
+    "ar": "انتقادات في سريلانكا بشأن شراء طائرات بدون طيار إسرائيلية",
+    "ru": "Критика в Шри-Ланке в связи с покупкой израильских беспилотников"
+   },
+   "summary": {
+    "he": "פוליטיקאים בסרי לנקה מעלים שאלות קשות סביב החלטת הממשלה לרכוש רחפנים ישראליים בהיקף של מיליארדי רופי.",
+    "en": "Politicians in Sri Lanka are questioning the government's multi-billion-rupee decision to procure Israeli-made drones.",
+    "ar": "سياسيون في سريلانكا يشككون في قرار الحكومة شراء طائرات بدون طيار إسرائيلية.",
+    "ru": "Политики в Шри-Ланке ставят под сомнение решение правительства закупить израильские беспилотники."
+   },
+   "kid": {
+    "he": "יש ויכוח פוליטי בסרי לנקה על קניית רחפנים מחברות ישראליות. זה קשור למניות של חברות ביטחוניות שמייצרות ציוד צבאי.",
+    "en": "There is a political debate in Sri Lanka over buying drones from Israeli makers, which connects to defense stocks.",
+    "ar": "هناك نقاش سياسي في سريلانكا حول شراء طائرات بدون طيار من صانعين إسرائيليين.",
+    "ru": "В Шри-Ланке идут политические дебаты по поводу покупки беспилотников у израильских производителей."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1794662900,
+    "reason": "עסקאות רכש ביטחוניות בין-לאומיות תומכות بصناعة הביטחון",
+    "reason_i18n": {
+     "he": "עסקאות רכש ביטחוניות בין-לאומיות תומכות بصناعة הביטחון",
+     "en": "International defense procurement deals highlight sector demand",
+     "ar": "صفقات الشراء الدفاعي الدولي تعزز الطلب على القطاع",
+     "ru": "Международные оборонные контракты подчеркивают спрос в секторе"
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות – חברת ביטחון ישראלית",
+     "en": "Elbit Systems – Israeli defense firm",
+     "ar": "إلبيت سيستمز – شركة دفاع إسرائيلية",
+     "ru": "Elbit Systems – израильская оборонная компания"
+    },
+    "price_at_alert": 706.62
+   }
+  ],
+  "id": "9d9221980c79"
  }
 ]
