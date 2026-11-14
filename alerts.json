@@ -354,125 +354,6 @@
   "evaluated": true
  },
  {
-  "ts": 1793975881,
-  "time": "2026-11-06T14:38Z",
-  "title": "הבנק של אנגליה מעלה את הריבית ל-4%",
-  "summary": "הבנק של אנגליה העלה את הריבית ל-4% על רקע תחזיות לפיהן האינפלציה תישאר קרובה ל-5% בשנה הבאה.",
-  "kid": "הבנק המרכזי בבריטניה העלה את הריבית כי האינפלציה עדיין גבוהה. זה משפיע על השווקים באירופה.",
-  "i18n": {
-   "title": {
-    "he": "הבנק של אנגליה מעלה את הריבית ל-4%",
-    "en": "Bank of England Raises Rates to 4%",
-    "ar": "بنك إنجلترا يرفع أسعار الفائدة إلى 4%",
-    "ru": "Банк Англии поднял ставку до 4%"
-   },
-   "summary": {
-    "he": "הבנק של אנגליה העלה את הריבית ל-4% על רקע תחזיות לפיהן האינפלציה תישאר קרובה ל-5% בשנה הבאה.",
-    "en": "The Bank of England raised interest rates to 4% as it forecasts inflation to remain near 5% next year.",
-    "ar": "رفع بنك إنجلترا أسعار الفائدة إلى 4% مع توقعاته ببقاء التضخمnear 5% العام المقبل.",
-    "ru": "Банк Англии повысил процентные ставки до 4%, прогнозируя сохранение инфляции вблизи 5% в следующем году."
-   },
-   "kid": {
-    "he": "הבנק המרכזי בבריטניה העלה את הריבית כי האינפלציה עדיין גבוהה. זה משפיע על השווקים באירופה.",
-    "en": "The central bank in the UK raised interest rates because inflation is still high. This affects European markets.",
-    "ar": "رفع البنك المركزي في بريطانيا أسعار الفائدة لأن التضخم لا يزال مرتفعاً. وهذا يؤثر على الأسواق الأوروبية.",
-    "ru": "Центральный банк Великобритании поднял ставку из-за сохраняющейся инфляции. Это влияет на европейские рынки."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjA1NUpONUNrLTg2dzNwbzgweGYxcENRVmc0T3JCSVdBX3ljeHc0WVRnMnRlbm90aE0wZ2tkbTY3UVpIWXBkdTdWMjdsTGR4bXVoOFU1LW9xVVJOYVhWcVZPb0hEMVVxcVJUU2dUZ3lZRDFhLUMyNXFVX0NSaFZrcUdYRjQxU1h0ZFNnSWpYRWJrUnF5Vl9Rc3hwMnlQWHl2Wnpv?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uTlhuZGVHWUVyaEdUU0FuWkdhVnlvNXdnSmVPS3Ewei12bWlJX0NUTUltT1ROWThvcWFiaDF2M25JN1picnJ5TDQ1eEYyNVlS?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWU",
-    "direction": "down",
-    "t0": 1793975881,
-    "reason": "ריבית גבוהה עלולה להכביד על הצמיחה הכלכלית בבריטניה ועל המניות המקומיות.",
-    "reason_i18n": {
-     "en": "Higher interest rates can weigh on UK economic growth and local equities.",
-     "he": "ריבית גבוהה עלולה להכביד על הצמיחה הכלכלית בבריטניה ועל המניות המקומיות.",
-     "ar": "أسعار الفائدة المرتفعة قد تشكل ضغطاً على النمو الاقتصادي في بريطانيا.",
-     "ru": "Более высокие ставки могут оказать давление на экономику Великобритании."
-    },
-    "name_i18n": {
-     "he": "EWU - קרן סל בריטניה",
-     "en": "EWU - iShares MSCI United Kingdom ETF",
-     "ar": "EWU - صندوق الاستثمار المتداول للمملكة المتحدة",
-     "ru": "EWU - ETF акций Великобритании"
-    },
-    "price_at_alert": 47.08,
-    "entry_price": 47.39,
-    "entry_time": "2026-11-06T15:30+00:00",
-    "exit_price": 48.33,
-    "exit_date": "2026-11-09",
-    "change_pct": 1.98,
-    "bench": "SPY",
-    "bench_change_pct": 1.84,
-    "excess_pct": 0.15,
-    "edge_pct": -0.15,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "FXE",
-    "direction": "up",
-    "t0": 1794081492,
-    "reason": "הידוק מוניטרי בבריטניה תומך בעקיפין במטבעות אירופיים מול דולר חלש.",
-    "reason_i18n": {
-     "he": "הידוק מוניטרי בבריטניה תומך בעקיפין במטבעות אירופיים מול דולר חלש.",
-     "en": "Monetary tightening in Europe's neighborhood indirectly supports regional currency strength.",
-     "ar": "التشديد النقدي في الجوار الأوروبي يدعم بقوة العملات الإقليمية.",
-     "ru": "Монетарное ужесточение в Европе косвенно поддерживает региональные валюты."
-    },
-    "name_i18n": {
-     "he": "FXE - קרן סלי מטבע אירו",
-     "en": "FXE - CurrencyShares Euro Trust",
-     "ar": "FXE - صندوق اليورو",
-     "ru": "FXE - ETF курса евро"
-    },
-    "price_at_alert": 102.77,
-    "entry_price": 103.29,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 103.0,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.28,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.36,
-    "edge_pct": -1.36,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "c1a12a392fc0",
-  "updates": [
-   {
-    "ts": 1794081492,
-    "time": "2026-11-07T19:58Z",
-    "severity": 6,
-    "summary": "הבנק של אנגליה העלה את הריבית לראשונה מאז שנת 2023 ואותת כי צעדים נוספים עשויים להידרש.",
-    "i18n": {
-     "he": "הבנק של אנגליה העלה את הריבית לראשונה מאז שנת 2023 ואותת כי צעדים נוספים עשויים להידרש.",
-     "en": "The Bank of England has raised interest rates for the first time since 2023 and warned that further hikes are likely.",
-     "ar": "رفع بنك إنجلترا أسعار الفائدة لأول مرة منذ عام 2023 وحذر من احتمال اتخاذ خطوات إضافية.",
-     "ru": "Банк Англии повысил ставку впервые с 2023 года и предупредил о возможном дальнейшем ужесточении."
-    }
-   }
-  ],
-  "last_update": 1794081492,
-  "evaluated": true
- },
- {
   "ts": 1793992638,
   "time": "2026-11-06T19:17Z",
   "title": "רעידת אדמה בעוצמה 6.1 ביפן",
@@ -2350,106 +2231,6 @@
    }
   ],
   "last_update": 1794129797,
-  "evaluated": true
- },
- {
-  "ts": 1794081492,
-  "time": "2026-11-07T19:58Z",
-  "title": "תיעוד חדש מציג שיגור טיל מאיראן ליד מיצר הורמוז",
-  "summary": "סרטון חדש מציג לכאורה שיגור טיל איראני מנמל בנדר עבאס בסמוך למיצר הורמוז, על רקע דיווחים על פיצוצים באי קשם.",
-  "kid": "נראה טיל שמשוגר מאיראן ליד אזור מעבר נפט חשוב. זה יכול לייקר את מחירי הנפט אם תהיה סכנה לתנועת הספינות.",
-  "i18n": {
-   "title": {
-    "he": "תיעוד חדש מציג שיגור טיל מאיראן ליד מיצר הורמוז",
-    "en": "New footage shows missile launch from Iran near Strait of Hormuz",
-    "ar": "لقطات جديدة تظهر إطلاق صاروخ من إيران بالقرب من مضيق هرمز",
-    "ru": "Новые кадры демонстрируют пуск ракеты из Ирана вблизи Ормузского пролива"
-   },
-   "summary": {
-    "he": "סרטון חדש מציג לכאורה שיגור טיל איראני מנמל בנדר עבאס בסמוך למיצר הורמוז, על רקע דיווחים על פיצוצים באי קשם.",
-    "en": "New video allegedly shows an Iranian missile launch from Bandar Abbas near the Strait of Hormuz amidst reports of explosions on Qeshm Island.",
-    "ar": "يظهر مقطع فيديو جديد زُعم أنه لإطلاق صاروخ إيراني من بندر عباس بالقرب من مضيق هرمز وسط تقارير عن وقوع انفجارات في جزيرة قشم.",
-    "ru": "На новом видео запечатлен предполагаемый запуск иранской ракеты из Бендер-Аббаса вблизи Ормузского пролива на фоне сообщений о взрывах на острове Кешм."
-   },
-   "kid": {
-    "he": "נראה טיל שמשוגר מאיראן ליד אזור מעבר נפט חשוב. זה יכול לייקר את מחירי הנפט אם תהיה סכנה לתנועת הספינות.",
-    "en": "A missile was launched in Iran near a key oil shipping lane. This could make oil prices go up if shipping becomes unsafe.",
-    "ar": "تم إطلاق صاروخ في إيران بالقرب من ممر شحن نفطي رئيسي. قد يؤدي ذلك إلى ارتفاع أسعار النفط إذا أصبح الشحن غير آمن.",
-    "ru": "В Иране вблизи ключевого нефтяного пути был запущен ракетный снаряд. Это может поднять цены на нефть, если судоходство окажется под угрозой."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UGVIQUQwQ2FsYXpUaUtiTjE3eERtQXhrakg3THhkbkJheldEUkc4ZVF0MFJmZUctb2FlYjR1N2lCOVdYMHdCM0ZLN3Z1MGhxSVh1djJESlQ2WUxyM3ZrdVh3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794081492,
-    "reason": "חשש משיבושים באספקת הנפט דרך מיצר הורמוז מעלה את מחירי הנפט.",
-    "reason_i18n": {
-     "he": "חשש משיבושים באספקת הנפט דרך מיצר הורמוז מעלה את מחירי הנפט.",
-     "en": "Concerns over oil supply disruptions through the Strait of Hormuz drive oil prices higher.",
-     "ar": "المخاوف بشأن اضطرابات إمدادات النفط عبر مضيق هرمز تدفع أسعار النفط للارتفاع.",
-     "ru": "Обоюдосторонняя напряженность в Ормузском проливе грозит перебоями поставок нефти."
-    },
-    "name_i18n": {
-     "he": "USO - קרן סלי נפט גולמי",
-     "en": "USO - Crude Oil ETF",
-     "ar": "USO - صندوق النفط الخام",
-     "ru": "USO - ETF на сырую нефть"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": -1.88,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794081492,
-    "reason": "מניות האנרגיה מרוויחות מעליית מחירי הנפט הגולמי בעקבות המתיחות במפרץ.",
-    "reason_i18n": {
-     "he": "מניות האנרגיה מרוויחות מעליית מחירי הנפט הגולמי בעקבות המתיחות במפרץ.",
-     "en": "Energy stocks benefit from rising crude prices driven by Middle East tensions.",
-     "ar": "تستفيد أسهم الطاقة من ارتفاع أسعار الخام بسبب توترات الشرق الأوسط.",
-     "ru": "Энергетические акции растут на фоне удорожания нефти из-за геополитических рисков."
-    },
-    "name_i18n": {
-     "he": "XLE - מגזר האנרגיה בארה\"ב",
-     "en": "XLE - Energy Sector ETF",
-     "ar": "XLE - صندوق قطاع الطاقة",
-     "ru": "XLE - ETF энергетического сектора"
-    },
-    "price_at_alert": 61.62,
-    "entry_price": 61.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 62.225,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.59,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.51,
-    "edge_pct": 0.51,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "6a688f34e624",
   "evaluated": true
  },
  {
@@ -44634,10 +44415,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOckhzcjF6eHp5Y3hpbE1oRnlkYTNKaEJGaW84ZjdSSjJFS0k5WHhNdzdpRHQ0M0JfTk1QdmlERDExM0kzTzRtdS1fSmZEdkNsMjBHVXJJb1hXYTFCYlZ5SHlhbUZtMThCdEVxbGNhZktfeWZLdGVUeGFIVFJKVGtlUGJpRnl3SUJ0dWRhTg?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVFFTWDdmLWVGZElCMUtJcW45ZXlSVkhuandJeFpwOFhuRHhHczlFa3RqMnlPS3BKZmdDaUV4M0w5OHJ6bklHMnpXdWVhQzlYSjlpLUF3d1JzVUhiM19uT054QzdxOW9ib3hEQV9XdjVoTmxwX3hmOU5NZmlzcDdwM0k3OW4zT3ZVdEZDVUZhQ1FMNFc2cC1fbFR1Q1NUVkFjREZMVmtVWjVkVzFYcHFGQ2xHdERRVk4wd2VkdklWRTkwRktRQmx5MHNGNW9hM0dzSTdYd3JwaUN4WElmR3c5Zg?oc=5"
    },
    {
@@ -44655,6 +44432,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ2RyS0NSb2FTQUxING9lTzh4cVZsOEJUckJxSURmVGtSbTVkRnNReGV0VS1wNi1SVy1RbGRhNGcxQ0ozRnYtWlc5RzhoOXpjRVhxSW0xUFNCNGtzYUh4U1BlR01ESk81Q0Fia0EzNF9sYjM2bmc3WmNhWng3c1BLTS1RVUQ3MzlWWGRVQlA5VHN5d2tGclRzMlhHSFlweXliWm9KVXRKWXZmQ1JsUUVvNDVSU2NZMXVBd0E?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkx4cTZsM0dTNHRyOTd5THNNeUZZVWRJZVNPdzhFT2E4UVgxSGVjS1NpNzROU0JmMzNER2VxMzY0MXdEOTU5M2JVcW1abmdoQlhndENfcW9LcVJaWG9OWWlHakFUaEU0TmZBMFNrZDdFSHZGa0o1bGhrM0hEcDdfRHlOMVFhRHJYbUVqeFhTWQ?oc=5"
    }
   ],
   "impacts": [
@@ -44801,9 +44582,21 @@
      "ar": "قدمت مايكروسوفت اعتذاراً رسمياً عن انقطاع خدمات السحابة العالمية، مؤكدة أن الخلل ناجم عن خطأ في ترقية الشبكة وليس هجوماً سيبرانياً.",
      "ru": "Microsoft принесла официальные извинения за глобальный сбой облачных служб, пояснив, что причиной стал баг при обновлении сети, а не кибератака."
     }
+   },
+   {
+    "ts": 1794687001,
+    "time": "2026-11-14T20:10Z",
+    "severity": 4,
+    "summary": "חברת מיקרוסופט הודיעה על שחזור שירותיה לאחר תקלה גלובלית רחבת היקף שהשפיעה על משתמשים ב-74 מדינות.",
+    "i18n": {
+     "he": "חברת מיקרוסופט הודיעה על שחזור שירותיה לאחר תקלה גלובלית רחבת היקף שהשפיעה על משתמשים ב-74 מדינות.",
+     "en": "Microsoft announced the restoration of its services following a massive global outage affecting users across 74 countries.",
+     "ar": "أعلنت شركة مايكروسوفت عن استعادة خدماتها إثر انقطاع عالم واسع النطاق أثر على المستخدمين في 74 دولة.",
+     "ru": "Компания Microsoft объявила о восстановлении своих сервисов после масштабного глобального сбоя, затронувшего пользователей в 74 странах."
+    }
    }
   ],
-  "last_update": 1794651405
+  "last_update": 1794687001
  },
  {
   "ts": 1794590764,
@@ -47206,10 +46999,6 @@
   "confidence": "medium",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MZGdQMzg5ZXA1a0NZLUc5TFB4R2JYWFlMbVM0Qlp1LW5tYl9YVGpQWF9ISGtjMWZNcTNPZmdROHJtdWpaR2F2bjRKQnU2TllZc2pXRWw3dlZMNm1pb3E4YWRCTmxpZEE1aEswaEdiV0lyS0lHc2ZYZ3ExZ19Zdw?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uczRFNGhNUkdyS2Q1a3JFLUhpQ0RLakhhVnJkYmVWRTE1cjJkdXJXakNqb2J3bDhQMzZvYUFaRHZOZGszbmtMbUNGbF9BTzNXNnZlUHZUR1g4clo5cGczaDhfOFRoVERvVUpWRQ?oc=5"
    },
@@ -47224,6 +47013,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxbXI4N3dqVkotZGQxNHlPelI1UVJ2OXhzRjlzYTlwV1pIQy1kcGNBUnpFZEUyQVk4TzRCQ3hKX3FiVVpwcko4bjZOcWljRXdoUnZIdzdLUTRSZVpuaFJCZ0tQbmg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU29yWi01YXpaNzh3QXNFOE5HaWZCLTZ0Wm5JdU5mQkg2VWktVDBaWEdqRmVTajZpdG9xUGYtQ0o0dkpJZzdxZm1lMVppdEN0VlVlWjNWS19QNXhjNEM4TFdFbkJwMkxfZVlqRXFmVnd6Wl9yTUdtMTV2TjlLR2Q0NjFCS3FORW9MUXVyQWY0NDl4VGlTTVFwV0JfdDVrMmxjc3NwZzFLWHlTNGwzU1dlT2E5WQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWkFWb21TdmRPQUw0N1ZSMW5Mdng0YVZSMnFtdnJGQURUb0p3dURkVHZSZE92cUhlaDJKMnZZVFNfY1BzMjU5cW9XV3dmWmVrUklmaG5tRUFzUV9Zam9maHF0WmJLdUo5c2xyYmo5OHhmUG82cUJhcHlieXFJSWFMOWYxUTFDb1dXWUIyS3dkMUdOMnZhMmdrZmI4UzdKQ2p2eDU5RjE0a0JqWV9Fc3U0aDE1N2hJQQ?oc=5"
    }
   ],
   "impacts": [
@@ -47283,6 +47080,25 @@
      "ru": "ETF энергетического сектора"
     },
     "price_at_alert": 64.96
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794687001,
+    "reason": "החמרה ביטחונית מגבירה ביקוש למוצרי הגנה",
+    "reason_i18n": {
+     "he": "החמרה ביטחונית מגבירה ביקוש למוצרי הגנה",
+     "en": "Security escalation boosts demand for defense products",
+     "ar": "التصعيد الأمني يعزز الطلب على المنتجات الدفاعية",
+     "ru": "Эскалация безопасности повышает спрос на оборонную продукцию"
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטחונית אמריקאית",
+     "en": "ITA – US aerospace & defense ETF",
+     "ar": "صندوق قطاع الدفاع الأمريكي",
+     "ru": "ITA — ETF оборонного сектора США"
+    },
+    "price_at_alert": 71.51
    }
   ],
   "id": "00a7cbf9e5e7",
@@ -47298,9 +47114,21 @@
      "ar": "أفادت القيادة المركزية الأمريكية (CENTCOM) باعتراض طائرتين مسيرتين إيرانيتين متجهتين نحو البحرين، بالتزامن مع مزاعم الحوثيين بشن ضربات صاروخية ومسيرة تستهدف مواقع سعودية، بما في ذلك مطار الرياض وخط أنابيب نفط.",
      "ru": "Центральное командование США (CENTCOM) сообщило о перехвате двух иранских дронов, направлявшихся в Бахрейн, на фоне заявлений хуситов об ударах ракетами и беспилотниками по объектам в Саудовской Аравии, включая аэропорт Эр-Рияда и нефтепровод."
     }
+   },
+   {
+    "ts": 1794687001,
+    "time": "2026-11-14T20:10Z",
+    "severity": 5,
+    "summary": "החות'ים ממשיכים בשיגור טילים וכטב\"מים באזור סעודיה, בזמן שדיפלומטיה אמריקאית-איראנית נמצאת בצומת דרכים מורכב.",
+    "i18n": {
+     "he": "החות'ים ממשיכים בשיגור טילים וכטב\"מים באזור סעודיה, בזמן שדיפלומטיה אמריקאית-איראנית נמצאת בצומת דרכים מורכב.",
+     "en": "Houthis continue missile and drone attacks across Saudi Arabia, while US-Iran diplomacy remains at a complex crossroads.",
+     "ar": "يواصل الحوثيون هجماتهم بالصواريخ والطائرات المسيرة عبر المملكة العربية السعودية، بينما تبقى الدبلوماسية الأمريكية الإيرانية عند مفترق طرق معقد.",
+     "ru": "Хуситы продолжают ракетные атаки и удары беспилотников по Саудовской Аравии, в то время как американо-иранская дипломатия находится на сложном перепутье."
+    }
    }
   ],
-  "last_update": 1794630443
+  "last_update": 1794687001
  },
  {
   "ts": 1794630443,
@@ -50592,44 +50420,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNazBWNzdVYnZDZlNzOVVKZkVBMVZWbTJ4dGtpVU42NGhfaHFVMC1UT3ZrbzNoa3NpWUtrSXVSOEJ0elhwY0Q3YnRMTVJsdGdQaDUwdVhYcExRUDFRcy1Jbk85RjZYTjBCWGQtZ0NsMVEwMFF5UTdfT29na3hKZ0pSbF9pa3pYV3JWZUFmNlZuNm1DS2ZvUFRqV0U2SmhJZmtrdG1jMXZJZHhaa05BT01fTFU5LVJjd2FSSEUwTEt6R1pqT2dvRGg4RTBmenJKM1Jh?oc=5"
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN0VTQV9ERFRBbE9vYnJRcmMtZ0JwdGUyUHhCZklSZ3N5N25oanhHYkpDWGRnNDBEVEVfTlB3b0tpeG5Jb0VjLWtRa3lrZnFLcDZPWmtRd0dhMHViRWhrV01sWEl1OTNJZkktOFdxYURiSnFtNy1rRXRjMndzQ3ZoOFVFTTRpUHd0SzlZbzl2dw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXctcG1oUXhJUVhjQzlHaE16ODFPQ1JLNWFBMTdSN3lQRzVHVXF2dWRha3c3ZGNwN1RYZ25YWmd4YUNZQlBKQTVTXzVKS0YzQkg4d2wzNm45c245a21YTU1oaEs4a3REQ3NpckVXTEc5MUVmMlZ1eFVjemRKdzJ4RE9BbnNOVlZIWEN0aDJSTVlOaHRtRmtDVnFfV1c3NmNpRWJpMTVXV0E0UGhGbnRtaDMwQ0lncW5Z?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemlaQzNLeTg5OUpNMjlGYlJnLUxiYkZwWVZtX3psUHN5S18zY2ZBYlB1OTh6d2FBMkYzVUlQc015T2QycGo5VnBDREZhaVkwbWZMM3lEeDB2UUNDekVLbHg4OXNYNDlhaWRBQWJrbkljUTRHa3kxYjRiNFpPQ3RQVF81dEE4M2hZQnV1UDd4eDFUNWZfMTZFZ0pRY0U?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjVIX3U2UDFwRTN5Y2lBSkZXSVhIaWZhSEswOVBmcWdNS3llRUdwU3FVcFYxYjdoR2VMUVhPRGNWeUdMYW1vbk9PelZxNk83WmZUNkVteWRDR0FYOGdnSUVYRUN4MUtua21zVjJjNHpXTDd2NEdOTjEzb3MycDQ0Yk5rdUlPck1yakZIZlhaUFhaMW16VWZrbkpWZm9rNTRu?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObWp6dkg2Um5Dc2J5VXp1dXM3MW5LeUJHa25YREZuSWduaWFNRGlBdVg1UjlKdXhCb2xfWFFVNHZ1b0NmWHVscV9xNUxmakRxNXBURnVtcmxxenV0TG52SEJVTy1MQjc1RExrUDFJbzNWaVpKTmNMYW1GTko1dVIzYzR2a0I?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdWF2VTJuU1lSOUQ5Tmt1V1FVaUoyWkhEQTQ5aVVRY2hYQ1Vxc0JGN3VweEdERFR6S1J6bFJQQ3VBNXdKRXNGNVNmSUpzZVdYblJYcGV4VE1zLWlYOGhMM2loRHdIMDhxUTZYTmRiMDhkVjg2UmtBQVlWWDdnSFRCSA?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss"
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUxNOEo1anpSUGt5RDNQNUJ1OTRrSEJMU01yTklyRnNVOXRULUd3bWNCZ2tHR21KQk11YUlhTFk1azF6ZW4tX2JnY3U1bzNHR1RYTUR2cnE5cWUxZkhYcVVpdjBRNGY2QVl1OC03aVlRam5xY0ZQUVh3TmMyQmJtaG16TTRXTWRjeUIxV3BvOHZmMUVxT0dQckZWT084SWNtbHZsQy1UMlBqZFRHNm5qUmxFRWlNbmtQR1RxSFg5eV9YNzQ?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQi1CejdnUXJsSk5CWW9rQXZwNzZaUXBZMXp5MnozTjlBVTIzVWdZS2luMmYtWDdPNEhnZzJNNlVQcmtXbFpnaFBSeGF2a2ZvazEtRHp6N0hpRGJ4dmdldDJEWmU2OWkyLWFzMnNwX2c4bFJ6VENXUDhpTGRabl9YOU1QMjdBRURPT09CcF9hMmtzYzdRb1B6NzZaZFB1V0xsNkMxSmVzR04zNmxBNjk2cklScjFwQzF4eXhsdUJLUDZWcWZi?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSEc1WDJwSzJkWFFFOWE0bE1FUXN6Q21jeWRkZFE0MXBhbGVpSEtHenpuSnVRZ1p5UFAtbzEzNllCSjVZVmJMUkY4aWppNmxjSHJYOFR6NnFySHdVY1dXaHJvdmJDTVFBQUFib05LcE9FNmFsYTZpa2RSVXJFM2pqM25CRlIzRjlNRkRDaG9YN3RfZ1pTLTNnT0daRUZiTV9TUm1oNUdzbHpIM2JzdlJwSENTSlRValVDdWNOZVEzV1hqMS14V1FzMlRtNzhxZkxNQ0hBWjVlMjhqY1pnbVl4bkxHa1RMZ3N1dnhMNTVIVHFwQdIB9wFBVV95cUxNR00xeUh4a2pwNEUyMWluWWxKQXdDYVJQN1hqanlsVEZMaWFZeWlrMjRmR2JkN3RhT2dDMlBVNGExemt6MDlMZVBMVzBGWEROclNpS1V3YXQ3SWpVSTB4bUhkek9BMWlyMjc5dUxHRWtJX1dzSnlWYmt1T0l3dUpGV3JNOEZMbF9WRVpIaG12SExHUXV2bnhoS0J5T1BRSDg1cFYyRnAwdkNkZncwY25CejQ5TlB0TWdVRGRJYko0YW5TNlQ5c1lBc2dYQndfazBoVENscXJuXzUxTlgybzVtTEtpWFN1NEFSNlNETGZmcC13Zjd4ejlz?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZFg2QUZrM0hRZDYxN1EyNWR5X0pKbFF1TWt0VUd2Rld5Nm93bkRDRXdlVWlpeFFzVHVpSmRGLW1sOUxMZTQtUlRpQjBiREtEQmx2cFE2cTRpLU5yTGVpaXp0ZnFRY2RIeFZ0S2ZraWRXQlVsOXpITjdsS0tNZUlwZkR3ZTRzUTJ4SU5BVlVlM29tc252WHc?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOVU0Y1VjTzlXNlRKTWEzMEg0ZmJrS1dPZzBhb3VpR1F6NEwwazlJaVBjUXNncG41aTlHTGdtLWxteHVCNGdyaFo4SHk3ZDR6OGZPN3ZYQ3NBZlE1N19Jb0lISmw5MFF2dDByQU4zeVZpWUZrSlJlaHlsY0lDYkFnVC1IVDVQMUk1aW9zUWd4TmtZM2pMZmhFNEJneVVyVzJibFpHYU5BREd3U29hZ1diTXhvQ2dYMWdKdEdGNUUyM2hzemNXLXh1eXhwNFNaaW9qVkNFcWszeUMtckJE0gHcAUFVX3lxTE5qa0Z0OEVub29wOE1TdE5BNGVnWkZydXd2Q2xPcWFpcVNjZkN5Z3V6SHJHMDQ2TDktcmxkR2MtcUwyR0l2aEpqX3dyNFNrbUlmZ1FmblVUbkx0T2Z1cEg2OFpuRks4a1dEMWRERlJIRktVVm5WVzcxMXItYmtoUUhFY2hQTWNZdUVMR1NmWXJsSDF3eHdMa09kQWpmNVVPbUxMcmFkRG45cEJIanFjTWVSYno4TkU2QUVFb2NkeS12WnR6aDhIMG15TjduemNRMldSWHlVb2dXOXZlSEU?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOc2JnZ09uMlVVbUNxQzlnNkFhNFpyV0NhanVrVFhMSDB3S3IzYlF3M0s4ZXM2bFBScy1NY1RRcVV3cnphUXB6U2VxYUhNQ19UTTIyTXN5U2dJSW9yaS1vVm9mV1BYbHN1NWdfakpNZ1RmSk1HMlFhUUNkVzhkRFRmUFVMVGJsOVQ3akszQ01qNmF2X0JqV1paNnFzZHpJUUhodFFMMHdxQUFqOUNIWXpTaGRBbHRmYWxldHI2X29qRTNud0tzcTVlZU8zaDhka2sxd2c4ejBaZHRvREUwX0MwMmg5UUZ1NHZQS1NKNzlB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZE5kNmt2MTBrSVFqemoyZnRDV3VCNUJmZ2NxYk1ONHpUZXdMTmRUMURfZjJzMkRDUF83dUZ2TWlKU3ZFeWFlTGpmYS1VcUpCeHZxM3NtQUcwWmVJVFFRQnM0VFhyLTlBWU9TUmt1Sm1fdjg0eW81aXZuQklsRkpUZElNQ29sSEFlc2lYTkNIVURpakxoWklBcVdhMkxXYzh1NkhVNHg1QkFSQnVCLUYwTQ?oc=5"
    }
   ],
   "impacts": [
@@ -50691,7 +50503,22 @@
     "price_at_alert": 28.84
    }
   ],
-  "id": "3c0c6deca665"
+  "id": "3c0c6deca665",
+  "updates": [
+   {
+    "ts": 1794687001,
+    "time": "2026-11-14T20:10Z",
+    "severity": 4,
+    "summary": "שיבושי טיסות רחבי היקף בארה\"ב נגרמו כתוצאה מעומס על ציוד ישן ועבודות שדרוג חיווט נחושת ישן ולא ממתקפת סייבר, כך לפי גורמים רשמיים.",
+    "i18n": {
+     "he": "שיבושי טיסות רחבי היקף בארה\"ב נגרמו כתוצאה מעומס על ציוד ישן ועבודות שדרוג חיווט נחושת ישן ולא ממתקפת סייבר, כך לפי גורמים רשמיים.",
+     "en": "Widespread US flight disruptions were caused by old equipment overloading and copper wiring upgrade work rather than a cyber-attack, according to officials.",
+     "ar": "تعرضت رحلات الطيران في الولايات المتحدة لاضطرابات واسعة النطاق بسبب زيادة أحمال المعدات القديمة وأعمال ترقية الأسلاك النحاسية وليس هجوم سيبراني، وفقاً للمسؤولين.",
+     "ru": "Широкомасштабные сбои в полетах по США были вызваны перегрузкой старого оборудования и работами по модернизации медной проводки, а не кибератакой, сообщили официальные лица."
+    }
+   }
+  ],
+  "last_update": 1794687001
  },
  {
   "ts": 1794684504,
@@ -50827,5 +50654,82 @@
    }
   ],
   "id": "0c225c924174"
+ },
+ {
+  "ts": 1794687001,
+  "time": "2026-11-14T20:10Z",
+  "title": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
+  "summary": "רעידת אדמה חזקה בעוצמה 7.4 הכתה ביפן, ועקב כך תועדו גלי צונאמי ופונה אזור פוקושימה.",
+  "kid": "הייתה רעידת אדמה חזקה מאוד ביפן שגרמה לגלים גדולים בים ולפינוי תושבים. זה עשוי להשפיע על המניות של חברות יפניות או להאט עסקים שם באופן זמני.",
+  "i18n": {
+   "title": {
+    "he": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
+    "en": "Powerful magnitude 7.4 earthquake hits Japan",
+    "ar": "زلزال قوي بقوة 7.4 يضرب اليابان",
+    "ru": "Мощное землетрясение магнитудой 7.4 произошло в Японии"
+   },
+   "summary": {
+    "he": "רעידת אדמה חזקה בעוצמה 7.4 הכתה ביפן, ועקב כך תועדו גלי צונאמי ופונה אזור פוקושימה.",
+    "en": "A strong magnitude 7.4 earthquake hit Japan, recording tsunami waves and triggering evacuations near Fukushima.",
+    "ar": "ضرب زلزال قوي بقوة 7.4 اليابان، وتم تسجيل موجات تسونامي وإخلاء المناطق القريبة من فوكوشيما.",
+    "ru": "Сильное землетрясение магнитудой 7.4 обрушилось на Японию, были зафиксированы волны цунами и проведена эвакуация вблизи Фукусимы."
+   },
+   "kid": {
+    "he": "הייתה רעידת אדמה חזקה מאוד ביפן שגרמה לגלים גדולים בים ולפינוי תושבים. זה עשוי להשפיע על המניות של חברות יפניות או להאט עסקים שם באופן זמני.",
+    "en": "A very strong earthquake hit Japan, causing big ocean waves and evacuations. This can affect Japanese company stocks or slow down business there temporarily.",
+    "ar": "حدث زلزال قوي جداً في اليابان مما أدى إلى أمواج بحرية كبيرة وإخلاء السكان. قد يؤثر هذا على أسهم الشركات اليابانية أو يبطئ الأعمال هناك مؤقتاً.",
+    "ru": "В Японии произошло очень сильное землетрясение, вызвавшее большие волны и эвакуацию. Это может временно повлиять на акции японских компаний."
+   }
+  },
+  "category": "climate",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaQmpYTDlpbWZhLTFINlI0SmFVb1phSXpkQ1EwWFpGdUVFaVJsNkszMTRpX0FEeHJSQ01wTVdYNklMdkZ0UFNaelBmS0xZYUhJM2V3RmloTHJkTzJXM1JaODE2SHVmQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1794687001,
+    "reason": "השפעה שלילית זמנית על הכלכלה והשווקים ביפן",
+    "reason_i18n": {
+     "he": "השפעה שלילית זמנית על הכלכלה והשווקים ביפן",
+     "en": "Temporary negative impact on Japan's economy and markets",
+     "ar": "تأثير سلبي مؤقت على اقتصاد الأسواق في اليابان",
+     "ru": "Временное негативное влияние на экономику и рынки Японии"
+    },
+    "name_i18n": {
+     "he": "תעודת סל על מניות יפן",
+     "en": "EWJ – Japan ETF",
+     "ar": "صندوق أسهم اليابان",
+     "ru": "EWJ — фонд акций Японии"
+    },
+    "price_at_alert": 91.76
+   },
+   {
+    "ticker": "TRV",
+    "direction": "down",
+    "t0": 1794687001,
+    "reason": "חשש לתביעות בגין נזקי אסון טבע בינלאומי",
+    "reason_i18n": {
+     "he": "חשש לתביעות בגין נזקי אסון טבע בינלאומי",
+     "en": "Concerns over international natural disaster insurance claims",
+     "ar": "مخاوف بشأن مطالبات تأمين الكوارث الطبيعية الدولية",
+     "ru": "Опасения по поводу страховых выплат за стихийные бедствия"
+    },
+    "name_i18n": {
+     "he": "חברת הביטוח טרוולרס",
+     "en": "Travelers – insurance company",
+     "ar": "ترافرز - شركة تأمين",
+     "ru": "Travelers — страховая компания"
+    },
+    "price_at_alert": 403.23
+   }
+  ],
+  "id": "aa8006750004"
  }
 ]
