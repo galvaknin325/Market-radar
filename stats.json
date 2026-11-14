@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-14T22:20Z",
+ "generated": "2026-11-14T23:09Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 911,
+ "total_alerts": 916,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 104,
+   "mentions": 105,
    "n": 87,
    "hits": 39,
    "name": {
-    "he": "USO – קרן סל על מחיר הנפט הגולמי",
-    "en": "USO – United States Oil Fund ETF",
-    "ar": "USO – صندوق تداول النفط الخام الأمريكي",
-    "ru": "USO – ETF нефтяного фонда США"
+    "he": "תעודת סל על נפט גולמי",
+    "en": "United States Oil Fund – crude oil ETF",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "ETF сырой нефти"
    },
    "avg_edge": -0.16
   },
   "XLE": {
-   "mentions": 86,
+   "mentions": 87,
    "n": 74,
    "hits": 41,
    "name": {
-    "he": "תעודת סל מגזר האנרגיה בארה\"ב",
+    "he": "תעודת סל מגזר האנרגיה",
     "en": "Energy Select Sector SPDR Fund",
-    "ar": "صندوق قطاع الطاقة الأمريكي",
-    "ru": "ETF энергетического сектора США"
+    "ar": "صندوق مؤشرات قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.23
   },
@@ -138,14 +138,14 @@
    "avg_edge": -0.02
   },
   "XLP": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 10,
    "hits": 2,
    "name": {
-    "he": "קרן סל מצרכי צריכה בסיסיים",
-    "en": "Consumer Staples Select Sector SPDR Fund",
-    "ar": "صندوق قطاع السلع الاستهلاكية الأساسية",
-    "ru": "ETF товаров повседневного спроса"
+    "he": "תעודת סל מוצרי צריכה בסיסיים - מזון וקמעונאות",
+    "en": "Consumer Staples ETF – food and grocery sector",
+    "ar": "صندوق مؤشرات قطاع السلع الاستهلاكية الأساسية",
+    "ru": "ETF потребительских товаров первой необходимости"
    },
    "avg_edge": -0.37
   },
@@ -414,14 +414,14 @@
    "avg_edge": -0.78
   },
   "EWC": {
-   "mentions": 21,
+   "mentions": 22,
    "n": 17,
    "hits": 13,
    "name": {
-    "he": "EWC – קרן סל על שוק המניות של קנדה",
-    "en": "EWC – Canada ETF",
-    "ar": "EWC - صندوق סל للأسهم الكندية",
-    "ru": "EWC – ETF фондового рынка Канады"
+    "he": "תעודת סל קנדה - שוק המניות הקנדי",
+    "en": "iShares MSCI Canada ETF",
+    "ar": "صندوق مؤشرات الأسهم الكندية",
+    "ru": "ETF канадского рынка акций"
    },
    "avg_edge": 0.45
   },
@@ -438,14 +438,14 @@
    "avg_edge": -1.27
   },
   "FDX": {
-   "mentions": 19,
+   "mentions": 21,
    "n": 14,
    "hits": 8,
    "name": {
-    "he": "פדדקס",
-    "en": "FedEx",
-    "ar": "فيديكس",
-    "ru": "FedEx"
+    "he": "פדקס - ענקית משלוחים",
+    "en": "FedEx – a logistics giant",
+    "ar": "فيديكس - عملاق الخدمات اللوجستية",
+    "ru": "FedEx – гигант логистики"
    },
    "avg_edge": 0.07
   },
@@ -582,13 +582,13 @@
    "avg_edge": 0.57
   },
   "EEM": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 15,
    "hits": 6,
    "name": {
-    "he": "קרן סל לשווקים מתעוררים",
+    "he": "תעודת סל שווקים מתעוררים",
     "en": "Emerging Markets ETF",
-    "ar": "صندوق الأسواق الناشئة",
+    "ar": "صندوق مؤشرات الأسواق الناشئة",
     "ru": "ETF развивающихся рынков"
    },
    "avg_edge": -0.08
