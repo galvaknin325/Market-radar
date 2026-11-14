@@ -87924,6 +87924,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZEQzUE5aNzMxMWt4c1JueE85dUJzNk5QZU9Wa09wMGtadFA2bjdVQVR1MjB4Mk53eXlLTjVPNElpRHdtSFBYeGNBclBkeFg1b3hENDQ3V1Y3QkJSQnBzOVhCNG9sRVNZTFRybzFLZEk0NmVZQk1YaDh0cHF4NEpUd1RYdmg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTzdSc21TMVJSMnVLTE9TenFYQjF2cXpOWUxRM1ZSWGwzbVRTSFItOGk5X2hxRy1NZ18xRHNjM3RWTGNhYlkyZEZFbmU0SlhsN0FHcXowUml3Q0VxNjAxY21fcXhPZGFOZWlCazk3OFY4dGFCNjVLaFVQTkhJakNJQ3lpOEdya1NlWDc4Mk9Mb3dpX2l0eU1DeklOVmQtckQzaC1lSTExbWxscUVVZW0xb1dZaU5IV3JWYVVYZFNJeFQ1bXVvc0laQzVFU0pyNXlnNkI4RQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc0ZkSldIMzhSRXFlZ3BBanI4NHotLVlkNUhFSmV2V09XMnRZaTM2bTgtVXZhb24zel9IYTREeU5JV3VVNmR4bWhubVFJTzc0YUxhU1NiUi1EVzR6MGQwNGdVWW9TMXFTejNJNm9WcHI4T2JEVTJzRHN2Rnh1dkdpaHpxVzhkN1hMMjQ2bGpfa1lmdXU3ZWN1ZkJnbUJzdWk4N2Q2RFVuWHB6QjJR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUVdNSDcwTGdBNWo5UnBLaDdBUFNsY1VTbklYOTZCTmRteXFBdl92b1g0OVFMYlVxVGwwM3hZX2VOb0J4MG4zelVwd3Y1TllfQWVDY21zdldISzVoaExvSTJjd01mcHM1SmVZX0JBYUZtRk92aFdZNFBKbFI3bERTREhrVVFxYmRJWlhTZU1mMUtWZzU4VVdPQW8yOTJ1QTVCM3VoWmp3ZDFHOUNiOWFMRklfV2ZGQ3E1TnfSAboBQVVfeXFMTlFXTUg3MExnQTVqOVJwS2g3QVBTbGNVU25JWDk2Qk5kbXlxQXZfdm9YNDlRTGJVcVRsMDN4WV9lTm9CeDBuM3pVcHd2NU5ZX0FlQ2Ntc3ZXSEs1aGhMb0kyY3dNZnBzNUplWV9CQWFGbUZPdmhXWTRQSmxSN2xEU0RIa1VRcWJkSVpYU2VNZjFLVmc1OFVXT0FvMjkydUE1QjN1aFpqd2QxRzlDYjlhTEZJX1dmRkNxNU53?oc=5"
    }
   ],
   "impacts": [
@@ -87964,9 +87976,62 @@
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 71.51
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "מתיחות גיאופוליטית מול איראן תומכת במחירי הנפט",
+    "reason_i18n": {
+     "he": "מתיחות גיאופוליטית מול איראן תומכת במחירי הנפט",
+     "en": "Geopolitical tension with Iran supports oil prices",
+     "ar": "التوتر الجيوسياسي مع إيران يدعم أسعار النفط",
+     "ru": "Геополитическая напряженность с Ираном поддерживает цены на нефть"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام الأمريكي",
+     "ru": "Нефтяной фонд США"
+    },
+    "price_at_alert": 145.58
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "סיכונים ביטחוניים מוגברים מעודדים הוצאות ביטחון",
+    "reason_i18n": {
+     "he": "סיכונים ביטחוניים מוגברים מעודדים הוצאות ביטחון",
+     "en": "Elevated security risks encourage defense spending",
+     "ar": "المخاطر الأمنية المرتفعة تشجع الإنفاق الدفاعي",
+     "ru": "Повышенные риски безопасности стимулируют оборонные расходы"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - ענקית ביטחונית",
+     "en": "Lockheed Martin – a defense giant",
+     "ar": "لوكهيد مارتن - عملاق الدفاع",
+     "ru": "Lockheed Martin – оборонный гигант"
+    },
+    "price_at_alert": 596.04
    }
   ],
-  "id": "08328640bd25"
+  "id": "08328640bd25",
+  "updates": [
+   {
+    "ts": 1794684504,
+    "time": "2026-11-14T19:28Z",
+    "severity": 4,
+    "summary": "טהראן האשימה רשמית את וושינגטון בנקיטת מדיניות המאיימת להרעיב איראנים באמצעות מצור כלכלי נוקשה, על רקע מתיחות ביטחונית ודיפלומטית נמשכת.",
+    "i18n": {
+     "he": "טהראן האשימה רשמית את וושינגטון בנקיטת מדיניות המאיימת להרעיב איראנים באמצעות מצור כלכלי נוקשה, על רקע מתיחות ביטחונית ודיפלומטית נמשכת.",
+     "en": "Tehran officially accused Washington of pursuing policies that threaten to starve Iranians through a strict economic blockade amidst ongoing security tensions.",
+     "ar": "اتهمت طهران رسمياً واشنطن باتباع سياسات تهدد بتجويع الإيرانيين من خلال حصار اقتصادي صارم وسط توترات أمنية مستمرة.",
+     "ru": "Тегеран официально обвинил Вашингтон в проведении политики, угрожающей морить иранцев голодом посредством жесткой экономической блокады."
+    }
+   }
+  ],
+  "last_update": 1794684504
  },
  {
   "ts": 1794626646,
@@ -89275,6 +89340,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSUhxMWozQk80NmhPaUVuR3FGckZNdzF4YUhCd0VXT0NrMFhsMkhDenVjVVMyYUExM3AzdXlzcDNvWjBzQjEzV0hELXpkemtSOHVfTExyUW5qNGstS0N0OTFuQUxUS3F4NEZEYWZlN3lQelFGM0RVc3VnRUZGX0p6VV9DczZPYlhIRGZfZnctemowdVd1amVCcnJuWVlSNFVBOE01Um9ZLXBzTE0tNmxfSHdsejdDdw?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTjhBN2RMTUo5WXNwZnB6Ti14M3lYbHFLTFdWcDh4RmJ2WHNnc0FTZzQ0bUpxeHhKMnJ3Q3B1QllLZUN1dUJSQTNGSmZaRmJYd1hFenQ2cFFqNjJCNGlkcFUyVGFVNGthQS0wcGR0VklQeVVFb2M4bDcwVHV4dnprMVRHOFQteDZhRlRIbl9BOHBFUjRzQWUzOFpkTGdCVllIWk95V0pBZ0pLa1l6VFpWRWRoODRNWk1Sa1FVQkRMUQ?oc=5"
    }
   ],
   "impacts": [
@@ -89330,9 +89399,21 @@
      "ar": "تحقق الشرطة الماليزية في مركز سرّي لنقل رقائق إنفيديا للذكاء الاصطناعي، وسط قيود تصدير مشددة.",
      "ru": "Малайзийская полиция расследует тайный транзитный хаб чипов Nvidia для ИИ, учитывая строгие экспортные ограничения."
     }
+   },
+   {
+    "ts": 1794684504,
+    "time": "2026-11-14T19:28Z",
+    "severity": 4,
+    "summary": "אוניברסיטה צבאית סינית שהוכנסה לרשימה השחורה הצליחה לשים את יד על שבבי בינה מלאכותית אמריקאיים עוצמתיים, למרות מגבלות הייצוא הנוקשות.",
+    "i18n": {
+     "he": "אוניברסיטה צבאית סינית שהוכנסה לרשימה השחורה הצליחה לשים את יד על שבבי בינה מלאכותית אמריקאיים עוצמתיים, למרות מגבלות הייצוא הנוקשות.",
+     "en": "A blacklisted Chinese military university has managed to acquire powerful American artificial intelligence chips despite strict export controls.",
+     "ar": "تمكنت جامعة عسكرية صينية مدرجة في القائمة السوداء من الحصول على رقائق ذكاء اصطناعي أمريكية قوية على الرغم من قيود التصدير الصارمة.",
+     "ru": "Внесенный в черный список китайский военный университет сумел приобрести мощные американские чипы ИИ несмотря на жесткие экспортные ограничения."
+    }
    }
   ],
-  "last_update": 1794645102
+  "last_update": 1794684504
  },
  {
   "ts": 1794641926,
@@ -89657,6 +89738,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeTNacXlJVzlCT2ZHeDlFTVk3eEQwMlFlUVcwRDcxdWM4Znc4alpYMldlbW1VNU5hVmw1T1NCYmQzd0NyYmVmNHhWU0RxakJZU1hhaEpHX2ozQXd2TDBhem4yaS1fNTE1MS1qZ1BRTHZDQ3pjR0F1Y2tSNjJBVEp5Z2lZOEM1ZVJSX1dLSlBCYklyczloMVRRUmRKS1o2ODZlbmQ4dF83MjlQWlloTm1aTHFfQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbEdQY0JvbFB1Zk0ySUY5bzFZUWFXN2h2OTNtRW1uRzVycWlwa1REMGdLYmRDRlhXWkloN2M5eURHMjRJeXgyQnlGeUQ5WHAtVWRMYkxnYWJPVkFnTmlvZm1fekVYVEJrX1lJVW03bndsV2tLUXVBbURiUTgyT25jRThyZHF3NjRqZ2txcmpwaWdKeXFBeXQzUVlyUGEyeTEtaU40OA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObXZGQldTUGhGUWxQRlFhVDd4VEFEQjFNbGRqa29tN0thelRpb180VGZmZzF1R0FNVzBZeHl3bDlxdktna3lLQ1NTUTVDLUdycml2T3BsaktyOGNtX1M4bl9LY2o4T3FVNGVCcENRSE01eUZaZWd4VVVOSURjcXp2NnZLZ1R2WDltUlRYMXI0QVEyUVlfTDIyelp5aUtFYU45eVFMNEFqZw?oc=5"
    }
   ],
   "impacts": [
@@ -89678,6 +89767,25 @@
      "ru": "Moderna - производитель вакцин"
     },
     "price_at_alert": 223.37
+   },
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "עלייה בעניין וביקושים לחיסונים וטיפולים רפואיים",
+    "reason_i18n": {
+     "he": "עלייה בעניין וביקושים לחיסונים וטיפולים רפואיים",
+     "en": "Increased focus and demand for vaccines and medical treatments",
+     "ar": "زيادة التركيز والطلب على اللقاحات والعلاجات الطبية",
+     "ru": "Повышенный интерес и спрос на вакцины и лечение"
+    },
+    "name_i18n": {
+     "he": "תעודת סל בריאות - חברות פארמה וביוטק",
+     "en": "Health Care Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الرعاية الصحية",
+     "ru": "ETF сектора здравоохранения"
+    },
+    "price_at_alert": 188.85
    }
   ],
   "id": "5da3168a2f6d",
@@ -89693,9 +89801,21 @@
      "ar": "بعد زيادة في حالات الحصبة، فقدت الولايات المتحدة رسمياً وضعها كدولة قضت على المرض.",
      "ru": "После всплеска заболеваемости корью США официально потеряли статус страны, победившей это заболевание."
     }
+   },
+   {
+    "ts": 1794684504,
+    "time": "2026-11-14T19:28Z",
+    "severity": 3,
+    "summary": "ארצות הברית איבדה את מעמד חיסול המחצבת שלה לאחר קרוב ל-30 שנה, על רקע זינוק במקרים ודיווחים על מקרי מוות כתוצאה מההתפרצות הנוכחית.",
+    "i18n": {
+     "he": "ארצות הברית איבדה את מעמד חיסול המחצבת שלה לאחר קרוב ל-30 שנה, על רקע זינוק במקרים ודיווחים על מקרי מוות כתוצאה מההתפרצות הנוכחית.",
+     "en": "The United States has lost its measles elimination status after nearly 30 years amid a surge in cases and reported deaths from the current outbreak.",
+     "ar": "فقدت الولايات المتحدة وضع القضاء على الحصبة بعد نحو 30 عاماً وسط طفرة في الإصابات والوفيات المبلغ عنها بسبب تفشي المرض.",
+     "ru": "Соединенные Штаты потеряли статус страны, свободной от кори, спустя почти 30 лет на фоне всплеска заболеваемости и смертности."
+    }
    }
   ],
-  "last_update": 1794673349
+  "last_update": 1794684504
  },
  {
   "ts": 1794648107,
@@ -90041,7 +90161,12 @@
   "category": "cyber",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmxDdXl3bndDSF9qWFI4UEhNaGcwSFQwMHBNU0ptQkhTYkdXTVZKZ3VHUWh6WGtaYjJITnBsV1lIcTR5UXh6UHMyMTE0TGdId0pvTGg4cVNTYURzMHZnNlJpMElSTThXYnJKZGxfaVVNbWs1aTUxOTIzb0g3c0dOTEdLN0VtWnQtaUlfS2NTQzV6TjBvbUhVd2RuMmx1YTNFNEZWX2M3bVBPVDla?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -90082,7 +90207,22 @@
     "price_at_alert": 43.88
    }
   ],
-  "id": "40bff5483f59"
+  "id": "40bff5483f59",
+  "updates": [
+   {
+    "ts": 1794684504,
+    "time": "2026-11-14T19:28Z",
+    "severity": 4,
+    "summary": "מתקפת סייבר שנקשרה לגורמים איראניים פגעה ברשתות סופרמרקטים אירופיות ובתשתיות קריטיות, מה שמעורר דאגה ביטחונית רחבה.",
+    "i18n": {
+     "he": "מתקפת סייבר שנקשרה לגורמים איראניים פגעה ברשתות סופרמרקטים אירופיות ובתשתיות קריטיות, מה שמעורר דאגה ביטחונית רחבה.",
+     "en": "A cyberattack linked to Iranian actors has targeted European supermarket chains and critical infrastructure, raising broader security concerns.",
+     "ar": "استهدف هجوم سيبراني مرتبط بجهات إيرانية سلاسل متاجر كبرى وبنى تحتية حيوية في أوروبا، مما أثار مخاوف أمنية أوسع.",
+     "ru": "Кибератака, связанная с иранскими структурами, затронула европейские супермаркеты и критическую инфраструктуру, вызвав широкую озабоченность."
+    }
+   }
+  ],
+  "last_update": 1794684504
  },
  {
   "ts": 1794656254,
@@ -91278,5 +91418,272 @@
    }
   ],
   "id": "be35a1d82d54"
+ },
+ {
+  "ts": 1794684504,
+  "time": "2026-11-14T19:28Z",
+  "title": "תקלת תקשורת בארה\"ב: שיבושי טיסות עקב בעיות חיווט ישנות",
+  "summary": "מנהל התעופה הפדרלי בארה\"ב (FAA) דיווח כי שיבושי הטיסות והעצירה הקרקעית ברחבי המדינה נגרמו עקב תקלות בחיווט נחושת ישן וציוד מיושן, ולא בשל מתקפת סייבר.",
+  "kid": "מטוסים רבים בארה\"ב הושבתו בגלל חוטי חשמל ישנים שהתקלקלו. זה עלול לפגוע במניות חברות התעופה כי הן הפסידו כסף בגלל טיסות שלא יצאו.",
+  "i18n": {
+   "title": {
+    "he": "תקלת תקשורת בארה\"ב: שיבושי טיסות עקב בעיות חיווט ישנות",
+    "en": "US Flight Disruptions: FAA Ground Stop Caused by Old Copper Wiring",
+    "ar": "اضطرابات رحلات الطيران في الولايات المتحدة: توقف بسبب أسلاك نحاسية قديمة",
+    "ru": "Сбои в авиасообщении США: остановка рейсов из-за старой медной проводки"
+   },
+   "summary": {
+    "he": "מנהל התעופה הפדרלי בארה\"ב (FAA) דיווח כי שיבושי הטיסות והעצירה הקרקעית ברחבי המדינה נגרמו עקב תקלות בחיווט נחושת ישן וציוד מיושן, ולא בשל מתקפת סייבר.",
+    "en": "The US Federal Aviation Administration (FAA) reported that nationwide flight ground stops and disruptions were caused by legacy equipment and old copper wiring rather than a cyberattack.",
+    "ar": "أفادت إدارة الطيران الفيدرالية الأمريكية (FAA) أن توقف رحلات الطيران والاضطرابات على مستوى البلاد ناتجة عن معدات قديمة وأسلاك نحاسية وليست هجوماً سيبرانياً.",
+    "ru": "Федеральное управление гражданской авиации США (FAA) сообщило, что масштабные сбои в полетах вызваны устаревгородским оборудованием и старой медной проводкой, а не кибератакой."
+   },
+   "kid": {
+    "he": "מטוסים רבים בארה\"ב הושבתו בגלל חוטי חשמל ישנים שהתקלקלו. זה עלול לפגוע במניות חברות התעופה כי הן הפסידו כסף בגלל טיסות שלא יצאו.",
+    "en": "Many flights in the US were grounded because old electrical wires broke down. This can hurt airline stocks because they lost money when planes couldn't fly.",
+    "ar": "توقفت العديد من رحلات الطيران في أمريكا بسبب تعطل الأسلاك الكهربائية القديمة. هذا قد يضر بأسهم شركات الطيران لأنها خسرت أموالاً بسبب عدم طيران الطائرات.",
+    "ru": "Многие рейсы в США были отменены из-за поломки старых электрических проводов. Это может навредить акциям авиакомпаний, так как они потеряли деньги из-за простоя самолетов."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNazBWNzdVYnZDZlNzOVVKZkVBMVZWbTJ4dGtpVU42NGhfaHFVMC1UT3ZrbzNoa3NpWUtrSXVSOEJ0elhwY0Q3YnRMTVJsdGdQaDUwdVhYcExRUDFRcy1Jbk85RjZYTjBCWGQtZ0NsMVEwMFF5UTdfT29na3hKZ0pSbF9pa3pYV3JWZUFmNlZuNm1DS2ZvUFRqV0U2SmhJZmtrdG1jMXZJZHhaa05BT01fTFU5LVJjd2FSSEUwTEt6R1pqT2dvRGg4RTBmenJKM1Jh?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN0VTQV9ERFRBbE9vYnJRcmMtZ0JwdGUyUHhCZklSZ3N5N25oanhHYkpDWGRnNDBEVEVfTlB3b0tpeG5Jb0VjLWtRa3lrZnFLcDZPWmtRd0dhMHViRWhrV01sWEl1OTNJZkktOFdxYURiSnFtNy1rRXRjMndzQ3ZoOFVFTTRpUHd0SzlZbzl2dw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemlaQzNLeTg5OUpNMjlGYlJnLUxiYkZwWVZtX3psUHN5S18zY2ZBYlB1OTh6d2FBMkYzVUlQc015T2QycGo5VnBDREZhaVkwbWZMM3lEeDB2UUNDekVLbHg4OXNYNDlhaWRBQWJrbkljUTRHa3kxYjRiNFpPQ3RQVF81dEE4M2hZQnV1UDd4eDFUNWZfMTZFZ0pRY0U?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObWp6dkg2Um5Dc2J5VXp1dXM3MW5LeUJHa25YREZuSWduaWFNRGlBdVg1UjlKdXhCb2xfWFFVNHZ1b0NmWHVscV9xNUxmakRxNXBURnVtcmxxenV0TG52SEJVTy1MQjc1RExrUDFJbzNWaVpKTmNMYW1GTko1dVIzYzR2a0I?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdWF2VTJuU1lSOUQ5Tmt1V1FVaUoyWkhEQTQ5aVVRY2hYQ1Vxc0JGN3VweEdERFR6S1J6bFJQQ3VBNXdKRXNGNVNmSUpzZVdYblJYcGV4VE1zLWlYOGhMM2loRHdIMDhxUTZYTmRiMDhkVjg2UmtBQVlWWDdnSFRCSA?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQi1CejdnUXJsSk5CWW9rQXZwNzZaUXBZMXp5MnozTjlBVTIzVWdZS2luMmYtWDdPNEhnZzJNNlVQcmtXbFpnaFBSeGF2a2ZvazEtRHp6N0hpRGJ4dmdldDJEWmU2OWkyLWFzMnNwX2c4bFJ6VENXUDhpTGRabl9YOU1QMjdBRURPT09CcF9hMmtzYzdRb1B6NzZaZFB1V0xsNkMxSmVzR04zNmxBNjk2cklScjFwQzF4eXhsdUJLUDZWcWZi?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSEc1WDJwSzJkWFFFOWE0bE1FUXN6Q21jeWRkZFE0MXBhbGVpSEtHenpuSnVRZ1p5UFAtbzEzNllCSjVZVmJMUkY4aWppNmxjSHJYOFR6NnFySHdVY1dXaHJvdmJDTVFBQUFib05LcE9FNmFsYTZpa2RSVXJFM2pqM25CRlIzRjlNRkRDaG9YN3RfZ1pTLTNnT0daRUZiTV9TUm1oNUdzbHpIM2JzdlJwSENTSlRValVDdWNOZVEzV1hqMS14V1FzMlRtNzhxZkxNQ0hBWjVlMjhqY1pnbVl4bkxHa1RMZ3N1dnhMNTVIVHFwQdIB9wFBVV95cUxNR00xeUh4a2pwNEUyMWluWWxKQXdDYVJQN1hqanlsVEZMaWFZeWlrMjRmR2JkN3RhT2dDMlBVNGExemt6MDlMZVBMVzBGWEROclNpS1V3YXQ3SWpVSTB4bUhkek9BMWlyMjc5dUxHRWtJX1dzSnlWYmt1T0l3dUpGV3JNOEZMbF9WRVpIaG12SExHUXV2bnhoS0J5T1BRSDg1cFYyRnAwdkNkZncwY25CejQ5TlB0TWdVRGRJYko0YW5TNlQ5c1lBc2dYQndfazBoVENscXJuXzUxTlgybzVtTEtpWFN1NEFSNlNETGZmcC13Zjd4ejlz?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOVU0Y1VjTzlXNlRKTWEzMEg0ZmJrS1dPZzBhb3VpR1F6NEwwazlJaVBjUXNncG41aTlHTGdtLWxteHVCNGdyaFo4SHk3ZDR6OGZPN3ZYQ3NBZlE1N19Jb0lISmw5MFF2dDByQU4zeVZpWUZrSlJlaHlsY0lDYkFnVC1IVDVQMUk1aW9zUWd4TmtZM2pMZmhFNEJneVVyVzJibFpHYU5BREd3U29hZ1diTXhvQ2dYMWdKdEdGNUUyM2hzemNXLXh1eXhwNFNaaW9qVkNFcWszeUMtckJE0gHcAUFVX3lxTE5qa0Z0OEVub29wOE1TdE5BNGVnWkZydXd2Q2xPcWFpcVNjZkN5Z3V6SHJHMDQ2TDktcmxkR2MtcUwyR0l2aEpqX3dyNFNrbUlmZ1FmblVUbkx0T2Z1cEg2OFpuRks4a1dEMWRERlJIRktVVm5WVzcxMXItYmtoUUhFY2hQTWNZdUVMR1NmWXJsSDF3eHdMa09kQWpmNVVPbUxMcmFkRG45cEJIanFjTWVSYno4TkU2QUVFb2NkeS12WnR6aDhIMG15TjduemNRMldSWHlVb2dXOXZlSEU?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOc2JnZ09uMlVVbUNxQzlnNkFhNFpyV0NhanVrVFhMSDB3S3IzYlF3M0s4ZXM2bFBScy1NY1RRcVV3cnphUXB6U2VxYUhNQ19UTTIyTXN5U2dJSW9yaS1vVm9mV1BYbHN1NWdfakpNZ1RmSk1HMlFhUUNkVzhkRFRmUFVMVGJsOVQ3akszQ01qNmF2X0JqV1paNnFzZHpJUUhodFFMMHdxQUFqOUNIWXpTaGRBbHRmYWxldHI2X29qRTNud0tzcTVlZU8zaDhka2sxd2c4ejBaZHRvREUwX0MwMmg5UUZ1NHZQS1NKNzlB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DAL",
+    "direction": "down",
+    "t0": 1794684504,
+    "reason": "שיבושי הטיסות פוגעים בפעילות השוטפת ובכנסות",
+    "reason_i18n": {
+     "he": "שיבושי הטיסות פוגעים בפעילות השוטפת ובכנסות",
+     "en": "Flight disruptions hurt regular operations and revenue",
+     "ar": "اضطرابات الرحلات تضر العمليات العادية والإيرادات",
+     "ru": "Сбои рейсов наносят ущерб операционной деятельности и выручке"
+    },
+    "name_i18n": {
+     "he": "דלתא איירליינס - חברת תעופה גדולה",
+     "en": "Delta Air Lines – a major airline",
+     "ar": "دلتا إيرلاينز - شركة طيران كبرى",
+     "ru": "Delta Air Lines – крупная авиакомпания"
+    },
+    "price_at_alert": 86.25
+   },
+   {
+    "ticker": "UAL",
+    "direction": "down",
+    "t0": 1794684504,
+    "reason": "עצירת טיסות פוגעת ברווחיות הקצרה",
+    "reason_i18n": {
+     "he": "עצירת טיסות פוגעת ברווחיות הקצרה",
+     "en": "Ground stops hurt short-term profitability",
+     "ar": "توقف الرحلات يضر بالربحية قصيرة الأجل",
+     "ru": "Остановка полетов бьет по краткосрочной прибыльности"
+    },
+    "name_i18n": {
+     "he": "יונייטד איירליינס - חברת תעופה",
+     "en": "United Airlines – an airline company",
+     "ar": "يونايتد إيرلاينز - شركة طيران",
+     "ru": "United Airlines – авиакомпания"
+    },
+    "price_at_alert": 109.31
+   },
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1794684504,
+    "reason": "השפעה שלילית רוחבית על כל סктор התעופה",
+    "reason_i18n": {
+     "he": "השפעה שלילית רוחבית על כל סктор התעופה",
+     "en": "Broad negative impact on the entire airline sector",
+     "ar": "تأثير سلبي واسع النطاق على قطاع الطيران بأكمله",
+     "ru": "Широкое негативное влияние на весь авиационный сектор"
+    },
+    "name_i18n": {
+     "he": "תעודת סל תעופה - מניות חברות תעופה",
+     "en": "JETS ETF – airline sector fund",
+     "ar": "صندوق JETS - قطاع الطيران",
+     "ru": "JETS ETF – фонд авиационного сектора"
+    },
+    "price_at_alert": 28.84
+   }
+  ],
+  "id": "3c0c6deca665"
+ },
+ {
+  "ts": 1794684504,
+  "time": "2026-11-14T19:28Z",
+  "title": "איראן: טיל משופר יכול להגיע לבסיס אמריקאי בבריטניה",
+  "summary": "הטלוויזיה הממלכתית באיראן דיווחה כי טיל משופר שפותח נמצא בעל טווח המאפשר לו להגיע לבסיס צבאי אמריקאי הממוקם בבריטניה.",
+  "kid": "איראן אומרת שיש לה טיל חדש שיכול לפגוע בבסיס של צבא ארה\"ב בבריטניה. חדשות כאלו על המתיחות במזרח התיכון בדרך כלל מעלות את מחירי הנפט ומניות הביטחון.",
+  "i18n": {
+   "title": {
+    "he": "איראן: טיל משופר יכול להגיע לבסיס אמריקאי בבריטניה",
+    "en": "Iran Claims Modified Missile Can Reach US Base in Britain",
+    "ar": "إيران تزعم أن صواريخها المعدلة يمكنها الوصول إلى قاعدة أمريكية في بريطانيا",
+    "ru": "Иран заявляет, что модифицированная ракета может достичь базы США в Британии"
+   },
+   "summary": {
+    "he": "הטלוויזיה הממלכתית באיראן דיווחה כי טיל משופר שפותח נמצא בעל טווח המאפשר לו להגיע לבסיס צבאי אמריקאי הממוקם בבריטניה.",
+    "en": "Iran’s state TV reported that a modified missile has been developed with sufficient range to reach a US military base located in Britain.",
+    "ar": "أفاد التلفزيون الرسمي الإيراني أنه تم تطوير صاروخ معدل بمدى كافٍ للوصول إلى قاعدة عسكرية أمريكية في بريطانيا.",
+    "ru": "Государственное телевидение Ирана сообщило, что разработана модифицированная ракета с дальностью полета до военной базы США в Британии."
+   },
+   "kid": {
+    "he": "איראן אומרת שיש לה טיל חדש שיכול לפגוע בבסיס של צבא ארה\"ב בבריטניה. חדשות כאלו על המתיחות במזרח התיכון בדרך כלל מעלות את מחירי הנפט ומניות הביטחון.",
+    "en": "Iran says it has a new missile that can hit a US military base in Britain. News like this about Middle East tensions usually makes oil prices and defense stocks go up.",
+    "ar": "تقول إيران إن لديها صاروخاً جديداً يمكنه ضرب قاعدة عسكرية أمريكية في بريطانيا. مثل هذه الأخبار حول توترات الشرق الأوسط عادة ما ترفع أسعار النفط وأسهم الدفاع.",
+    "ru": "Иран заявляет о создании новой ракеты, способной поразить военную базу США в Британии. Такие новости о напряженности на Ближнем Востоке обычно поднимают цены на нефть и акции оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBndmRoOUZWUkR1MVRJblRxYWNKWElFbl9WbjYyanUzVWswb1k4ZGExQzhsWUFPa1lxbUhVUzNRZU9wOFpRNlVNOVAtcjdEUTVpNWc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "הסלמה מילולית וגיאופוליטית מעלה את פרמיית הסיכון לנפט",
+    "reason_i18n": {
+     "he": "הסלמה מילולית וגיאופוליטית מעלה את פרמיית הסיכון לנפט",
+     "en": "Verbal and geopolitical escalation raises oil risk premiums",
+     "ar": "التصعيد الكلامي والجيوسياسي يرفع علاوة مخاطر النفط",
+     "ru": "Словесная и геополитическая эскалация повышает нефтяные риски"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام الأمريكي",
+     "ru": "Нефтяной фонд США"
+    },
+    "price_at_alert": 145.58
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "עלייה במתיחות הביטחונית מחזקת את סקטור הביטחון",
+    "reason_i18n": {
+     "he": "עלייה במתיחות הביטחונית מחזקת את סקטור הביטחון",
+     "en": "Rising security tensions bolster the defense sector",
+     "ar": "تصاعد التوترات الأمنية يعزز قطاع الدفاع",
+     "ru": "Рост напряженности укрепляет оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "תעודת סל תעופה וביטחון בארה\"ב",
+     "en": "iShares U.S. Aerospace & Defense ETF",
+     "ar": "صندوق الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.51
+   }
+  ],
+  "id": "d2fb70fc87f7"
+ },
+ {
+  "ts": 1794684504,
+  "time": "2026-11-14T19:28Z",
+  "title": "שינוי בחוזי החשמל בטאמיל נאדו עשוי לצמצם פער אספקה",
+  "summary": "עדכון ושינוי בחוזי החשמל במדינת טאמיל נאדו שבאסיה צפויים לסייע בהקלה על פער אספקה יקר ולשפר את התשתיות המקומיות.",
+  "kid": "שינוי בחוזי קניית החשמל באזור מסוים בהודו יעזור להוזיל עלויות ולפתור בעיות באספקה.",
+  "i18n": {
+   "title": {
+    "he": "שינוי בחוזי החשמל בטאמיל נאדו עשוי לצמצם פער אספקה",
+    "en": "Tamil Nadu Power Contracts Shift Could Ease Costly Supply Gap",
+    "ar": "تغير عقود الطاقة في تاميل نادو قد يخفف من فجوة الإمدادات المكلفة",
+    "ru": "Изменение контрактов на электроэнергию в Тамилнаде может сократить дефицит"
+   },
+   "summary": {
+    "he": "עדכון ושינוי בחוזי החשמל במדינת טאמיל נאדו שבאסיה צפויים לסייע בהקלה על פער אספקה יקר ולשפר את התשתיות המקומיות.",
+    "en": "An update and shift in power contracts in Tamil Nadu is expected to help ease a costly supply gap and improve local infrastructure efficiency.",
+    "ar": "من المتوقع أن يساعد تعديل وتغيير عقود الطاقة في ولاية تاميل نادو في تخفيف فجوة الإمدادات المكلفة وتحسين كفاءة البنية التحتية المحلية.",
+    "ru": "Ожидается, что изменение контрактов на электроэнергию в штате Тамилнад поможет смягчить дефицит поставок и улучшить местную инфраструктуру."
+   },
+   "kid": {
+    "he": "שינוי בחוזי קניית החשמל באזור מסוים בהודו יעזור להוזיל עלויות ולפתור בעיות באספקה.",
+    "en": "A change in power purchase contracts in a region of India will help lower costs and fix supply issues.",
+    "ar": "سيساعد التغيير في عقود شراء الطاقة في منطقة هندية على خفض التكاليف وإصلاح مشاكل الإمداد.",
+    "ru": "Изменение контрактов на закупку электроэнергии в регионе Индии поможет снизить затраты и решить проблемы с поставками."
+   }
+  },
+  "category": "contracts",
+  "severity": 2,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMl82Nktzbk5JX3VQNjVxSDdBRk5WM3dVNUt3MmZlZ2xOZmU5LVRuREJHamdzZEtOVnF6aXpwZ2pTNGkxc1hINmJQcGNpZ05PQUtoQkxNZV8wVGJqRVo2ZVZDamxoRDhzV2xvMGUxUzUtVUh6cGg4ZlQwSDVWdHpad1Rrb2pzNEZmNmlNOUFZdWo?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1794684504,
+    "reason": "שיפור בתשתיות האנרגיה תומך בסביבה העסקית במדינה",
+    "reason_i18n": {
+     "he": "שיפור בתשתיות האנרגיה תומך בסביבה העסקית במדינה",
+     "en": "Energy infrastructure improvements support the country's business climate",
+     "ar": "تحسينات البنية التحتية للطاقة تدعم المناخ التجاري للبلاد",
+     "ru": "Улучшение энергетической инфраструктуры поддерживает бизнес-климат"
+    },
+    "name_i18n": {
+     "he": "תעודת סל שוק המניות של הודו",
+     "en": "iShares MSCI India ETF",
+     "ar": "صندوق مؤشر الأسهم الهندية",
+     "ru": "ETF индийского рынка акций"
+    },
+    "price_at_alert": 51.45
+   }
+  ],
+  "id": "0c225c924174"
  }
 ]
