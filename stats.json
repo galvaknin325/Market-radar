@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-14T02:33Z",
+ "generated": "2026-11-14T03:24Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 861,
+ "total_alerts": 863,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 96,
+   "mentions": 97,
    "n": 87,
    "hits": 39,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق استثمار للنفط",
-    "ru": "ETF на нефть"
+    "he": "קרן סל נפט גולמי",
+    "en": "Crude Oil ETF",
+    "ar": "صندوق النفط الخام",
+    "ru": "ETF сырой нефти"
    },
    "avg_edge": -0.16
   },
   "XLE": {
-   "mentions": 81,
+   "mentions": 82,
    "n": 74,
    "hits": 41,
    "name": {
-    "he": "סקטור האנרגיה",
-    "en": "Energy Sector",
-    "ar": "قطاع الطاقة",
-    "ru": "Энергетический сектор"
+    "he": "קרן סל אנרגיה",
+    "en": "Energy Sector ETF",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.23
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.37
   },
   "ITA": {
-   "mentions": 145,
+   "mentions": 146,
    "n": 127,
    "hits": 76,
    "name": {
-    "he": "קרן סל תעופה וביטחון אמריקאית",
-    "en": "iShares U.S. Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق الفضاء والدفاع",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -1.64
   },
@@ -246,11 +246,11 @@
    "avg_edge": 0.25
   },
   "CPER": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 28,
    "hits": 5,
    "name": {
-    "he": "תעודת סל נחושת",
+    "he": "קרן סל נחושת",
     "en": "Copper ETF",
     "ar": "صندوق النحاس",
     "ru": "ETF меди"
@@ -798,13 +798,13 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 21,
    "hits": 4,
    "name": {
-    "he": "קרן סל של חברות מוליכים למחצה",
-    "en": "VanEck Semiconductor ETF",
-    "ar": "صندوق قطاع أشباه الموصلات",
+    "he": "קרן סל מוליכים למחצה",
+    "en": "Semiconductors ETF",
+    "ar": "صندوق أشباه الموصلات",
     "ru": "ETF полупроводников"
    },
    "avg_edge": -1.23
@@ -894,14 +894,14 @@
    "avg_edge": 2.93
   },
   "KSA": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 5,
    "hits": 3,
    "name": {
-    "he": "קרן סל על שוק המניות בסעודיה",
-    "en": "iShares MSCI Saudi Arabia ETF",
-    "ar": "صندوق الاستثمار في السعودية",
-    "ru": "ETF рынка Саудовской Аравии"
+    "he": "קרן סל סעודיה",
+    "en": "Saudi Arabia ETF",
+    "ar": "صندوق السعودية",
+    "ru": "ETF Саудовской Аравии"
    },
    "avg_edge": -0.73
   },

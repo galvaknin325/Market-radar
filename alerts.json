@@ -1695,176 +1695,6 @@
  {
   "ts": 1794012872,
   "time": "2026-11-07T00:54Z",
-  "title": "מחירי האג\"ח הממשלתי בארה\"ב יורדים והתשואות מזנקות",
-  "summary": "מחירי איגרות החוב של ממשלת ארה\"ב ירדו ביום שישי, מה שגרם לעלייה חדה בתשואות על האג\"ח ל-10, 30 ו-2 שנים.",
-  "kid": "התשואות על ההלוואות הממשלתיות בארה\"ב עלו בחדות. זה אומר שעליזות ההלוואה במשק מתייקרות וזה משפיע על כל השווקים.",
-  "i18n": {
-   "title": {
-    "he": "מחירי האג\"ח הממשלתי בארה\"ב יורדים והתשואות מזנקות",
-    "en": "US Treasury bond prices fall and yields jump across maturities",
-    "ar": "أسعار سندات الخزانة الأمريكية تتراجع والعوائد تقفز",
-    "ru": "Цены гособлигаций США падают, доходности резко растут"
-   },
-   "summary": {
-    "he": "מחירי איגרות החוב של ממשלת ארה\"ב ירדו ביום שישי, מה שגרם לעלייה חדה בתשואות על האג\"ח ל-10, 30 ו-2 שנים.",
-    "en": "US treasury bond prices fell on Friday, pushing yields on the 10-year, 30-year, and 2-year notes sharply higher.",
-    "ar": "تراجعت أسعار سندات الخزانة الأمريكية يوم الجمعة، مما دفع عوائد السندات لأجل 10 و30 و2 سنوات للارتفاع الحاد.",
-    "ru": "Цены казначейских облигаций США упали в пятницу, вызвав резкий рост доходности 10-, 30- и 2-летних бумаг."
-   },
-   "kid": {
-    "he": "התשואות על ההלוואות הממשלתיות בארה\"ב עלו בחדות. זה אומר שעליזות ההלוואה במשק מתייקרות וזה משפיע על כל השווקים.",
-    "en": "US government borrowing costs jumped sharply. This means borrowing is getting more expensive, affecting all financial markets.",
-    "ar": "قفزت تكاليف الاقتراض الحكومي في أمريكا بشدة. هذا يعني أن الاقتراض يزداد تكلفة ويؤثر على الأسواق المالية.",
-    "ru": "Стоимость заимствований правительства США резко выросла, что сказывается на всех финансовых рынках."
-   }
-  },
-  "category": "macro",
-  "severity": 8,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1794012872,
-    "reason": "קפיצת תשואות האג\"ח גורמת לירידות שערים ישירות במחירי איגרות החוב הקיימות.",
-    "reason_i18n": {
-     "he": "קפיצת תשואות האג\"ח גורמת לירידות שערים ישירות במחירי איגרות החוב הקיימות.",
-     "en": "Spiking bond yields directly cause price drops in existing fixed-income securities.",
-     "ar": "قفزة عوائد السندات تتسبب في هبوط مباشر بأسعار الأوراق المالية الثابتة القائمة.",
-     "ru": "Скачок доходности облигаций напрямую приводит к падению цен существующих бумаг."
-    },
-    "name_i18n": {
-     "he": "סל אג\"ח ממשלתי ארוך",
-     "en": "Long-term US Treasury ETF",
-     "ar": "صندوق سندات الخزانة طويلة الأجل",
-     "ru": "ETF длинных гособлигаций США"
-    },
-    "price_at_alert": 81.92,
-    "entry_price": 82.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 80.89,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.65,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -2.73,
-    "edge_pct": 2.73,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "KRE",
-    "direction": "down",
-    "t0": 1794012872,
-    "reason": "עליית תשואות מהירה מקטינה את שווי הנכסים המוחזקים בבנקים ומייקרת את עלויות המימון שלהם.",
-    "reason_i18n": {
-     "he": "עליית תשואות מהירה מקטינה את שווי הנכסים המוחזקים בבנקים ומייקרת את עלויות המימון שלהם.",
-     "en": "Rapid yield increases reduce the value of bank-held assets and raise their funding costs.",
-     "ar": "الارتفاع السريع للعوائد يقلل قيمة الأصول التي تملكها البنوك ويرفع تكاليف تمويلها.",
-     "ru": "Быстрый рост доходности снижает стоимость активов банков и увеличивает затраты на фондирование."
-    },
-    "name_i18n": {
-     "he": "סל בנקים אזוריים בארה\"ב",
-     "en": "US Regional Banks ETF",
-     "ar": "صندوق البنوك الإقليمية الأمريكية",
-     "ru": "ETF региональных банков США"
-    },
-    "price_at_alert": 72.2,
-    "entry_price": 73.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 73.11,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.19,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.27,
-    "edge_pct": 1.27,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794019601,
-    "reason": "סנטימנט שלילי כללי בשוק.",
-    "reason_i18n": {
-     "he": "סנטימנט שלילי כללי בשוק.",
-     "en": "General negative market sentiment.",
-     "ar": "معنويات سلبية عامة في السوق.",
-     "ru": "Общие негативные настроения на рынке."
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 Index",
-     "ar": "مؤشر S&P 500",
-     "ru": "Индекс S&P 500"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": -1.08,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1794019601,
-    "reason": "חשיפה גבוהה למניות טכנולוגיה ובינה מלאכותית.",
-    "reason_i18n": {
-     "he": "חשיפה גבוהה למניות טכנולוגיה ובינה מלאכותית.",
-     "en": "High exposure to tech and AI stocks.",
-     "ar": "تعرض كبير لأسهم التكنولوجيا والذكاء الاصطناعي.",
-     "ru": "Высокая доля акций технологических компаний и ИИ."
-    },
-    "name_i18n": {
-     "he": "מדד נאסד\"ק 100",
-     "en": "Nasdaq 100 Index",
-     "ar": "مؤشر ناسداك 100",
-     "ru": "Индекс Nasdaq 100"
-    },
-    "price_at_alert": 656.1,
-    "entry_price": 662.68,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 674.81,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.83,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.75,
-    "edge_pct": -0.75,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "95804a97c663",
-  "updates": [
-   {
-    "ts": 1794019601,
-    "time": "2026-11-07T02:46Z",
-    "severity": 8,
-    "summary": "שווקי המניות סובלים מירידות חדות על רקע מימוש רווחים בתחום הבינה המלאכותית ואי-ודאות לגבי מדיניות הריבית של הפד.",
-    "i18n": {
-     "he": "שווקי המניות סובלים מירידות חדות על רקע מימוש רווחים בתחום הבינה המלאכותית ואי-ודאות לגבי מדיניות הריבית של הפד.",
-     "en": "Stock markets are facing a sharp sell-off as AI bets unwind and uncertainty grows regarding the Federal Reserve's interest rate policy.",
-     "ar": "تواجه أسواق الأسهم عمليات بيع حادة مع تراجع الرهانات على الذكاء الاصطناعي وتزايد عدم اليقين بشأن سياسة أسعار الفائدة للاحتياطي الفيدرالي.",
-     "ru": "Фондовые рынки сталкиваются с резкой распродажей на фоне сворачивания ставок на ИИ и растущей неопределенности в отношении политики процентных ставок ФРС."
-    }
-   }
-  ],
-  "last_update": 1794019601,
-  "evaluated": true
- },
- {
-  "ts": 1794012872,
-  "time": "2026-11-07T00:54Z",
   "title": "שפעת העופות פוגעת ב-47,000 עופות במערב וושינגטון",
   "summary": "מקרה חמור של שפעת העופות התגלה בלולים במערב מדינת וושינגטון, והביא לפגיעה בכ-47,000 עופות.",
   "kid": "מחלת שפעת העופות פגעה בעשרות אלפי תרנגולות במערב ארה\"ב. זה עלול לייקר את מחירי הביצים והעוף בחנויות.",
@@ -2283,71 +2113,6 @@
    }
   ],
   "last_update": 1794042890,
-  "evaluated": true
- },
- {
-  "ts": 1794019601,
-  "time": "2026-11-07T02:46Z",
-  "title": "ארה\"ב מסייעת לפיליפינים בחיזוק ההגנה מול סין",
-  "summary": "ארה\"ב מסייעת לפיליפינים בבניית יכולות הרתעה מול סין, בעוד מנילה מחפשת לרכוש טילים נוספים מרוסיה והודו.",
-  "kid": "ארה\"ב עוזרת לפיליפינים להגן על עצמם מפני סין. זה יכול להשפיע על חברות נשק אמריקאיות.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב מסייעת לפיליפינים בחיזוק ההגנה מול סין",
-    "en": "US helps Philippines build deterrence against China",
-    "ar": "الولايات المتحدة تساعد الفلبين في بناء الردع ضد الصين",
-    "ru": "США помогают Филиппинам укрепить оборону против Китая"
-   },
-   "summary": {
-    "he": "ארה\"ב מסייעת לפיליפינים בבניית יכולות הרתעה מול סין, בעוד מנילה מחפשת לרכוש טילים נוספים מרוסיה והודו.",
-    "en": "The US is assisting the Philippines in building deterrence against China, while Manila seeks to acquire more missiles from India and Russia.",
-    "ar": "تساعد الولايات المتحدة الفلبين في بناء قدرات الردع ضد الصين، بينما تسعى مانيلا للحصول على المزيد من الصواريخ من الهند وروسيا.",
-    "ru": "США помогают Филиппинам наращивать потенциал сдерживания против Китая, в то время как Манила стремится закупить больше ракет у Индии и России."
-   },
-   "kid": {
-    "he": "ארה\"ב עוזרת לפיליפינים להגן על עצמם מפני סין. זה יכול להשפיע על חברות נשק אמריקאיות.",
-    "en": "The US is helping the Philippines protect themselves from China. This could affect American weapons companies.",
-    "ar": "تساعد الولايات المتحدة الفلبين على حماية نفسها من الصين. قد يؤثر هذا على شركات الأسلحة الأمريكية.",
-    "ru": "США помогают Филиппинам защититься от Китая. Это может повлиять на американские оружейные компании."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794019601,
-    "reason": "עלייה בביקוש למערכות הגנה באזור האוקיינוס השקט.",
-    "reason_i18n": {
-     "he": "עלייה בביקוש למערכות הגנה באזור האוקיינוס השקט.",
-     "en": "Increased demand for defense systems in the Pacific region.",
-     "ar": "زيادة الطلب على أنظمة الدفاع في منطقة المحيط الهادئ.",
-     "ru": "Рост спроса на оборонные системы в Тихоокеанском регионе."
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الدفاع والطيران",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": 1.82,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "44490f7317b9",
   "evaluated": true
  },
  {
@@ -43236,6 +43001,10 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUtUWGhNUzhOb1p1dW1ObnJjVjV0NGMtVmZkM2VYNU9weXRjc21SSnlSbERyN3U5N3IwelpibmpUM2VDZ2lDLUVqa0NtdnBESFZ6Wm9maXk0cHhrZU9EaU16NGFTMmZZLXhsRGlsY1pFWnJ0SmJTOTNPcC1RWFQwanlBQmRFaXNycjEyNWd5WHdCa3BsdmZfakJQbjlvM00zWFVhRVlIeVl3QQ?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Fc3M0TFlBODNuWHZRZkpnMU16cVRTbFJjTXgtbG52VU00THJWMmcxejFObUZEVUtoWlVYd2dnSnNuZEpRTUFVRVdBRFNOY2R1Zk1OU0VXcjBiMzFTTzlSWDdGMEthUFA0dzBjNXdEM016Wi1WT01USw?oc=5"
    }
   ],
   "impacts": [
@@ -43379,9 +43148,21 @@
      "ar": "فازت شركة إلبيت سيستمز بعقد لتوريد أنظمة الصواريخ PULS لدولة عضو في الناتو.",
      "ru": "Elbit Systems получила контракт на поставку ракетных систем PULS стране-члену НАТО."
     }
+   },
+   {
+    "ts": 1794626646,
+    "time": "2026-11-14T03:24Z",
+    "severity": 4,
+    "summary": "חברת אלביט מערכות זכתה בחוזה בהיקף של 260 מיליון דולר לאספקת מערכות ארטילריה מסוג PULS למדינה אלמונית בברית נאט\"ו.",
+    "i18n": {
+     "he": "חברת אלביט מערכות זכתה בחוזה בהיקף של 260 מיליון דולר לאספקת מערכות ארטילריה מסוג PULS למדינה אלמונית בברית נאט\"ו.",
+     "en": "Elbit Systems has been awarded a $260 million contract to supply PULS artillery systems to an unnamed European NATO country.",
+     "ar": "فازت شركة إلبيت سيستمز بعقد بقيمة 260 مليون دولار لتوريد أنظمة المدفعية PULS لدولة أوروبية مجهولة في حلف الناتو.",
+     "ru": "Компания Elbit Systems получила контракт на сумму $260 млн на поставку артиллерийских систем PULS неназванной европейской стране НАТО."
+    }
    }
   ],
-  "last_update": 1794587270,
+  "last_update": 1794626646,
   "evaluated": true
  },
  {
@@ -53141,6 +52922,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrV2UyN21hMHAyVk1COHk3QVJQcXVxQl9IWHItbTlkX2ZSRlRFZUNIeXRieWZzRzZEbTBiNlpfX3ZwbG1aRUZoUzVFTUhodHNVWlhQV1pYZk5aUjVEZS1sdE5VOVFLeElBOS04WlI3aTZaVG9qWi05eTBn?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVW44MzRob2tOcmZIdzM3TE04bDNObEZ0V1cxYVpWZUl3a2lYWFdIaGdOTU9HUjhDX2x1VHUtZVdUdXFSX3BBeU10SFJZTFVwQVFtdUoxZXkxNUNOd05QMjhyRVFxYUIzVU85VnVjSG1Dc0ZJazVqN1dla1hicGdEWTZ0M2xWNHZIZ0FqNVlYV3JabU1iQlVwbFgzcWw3WjlCZ2M2LXR2QnEwT3BUUzU4U3Z3LWxXOEVGcVpuTE5RbTJtNTlhTDItbXdydWZ0Z9IB0wFBVV95cUxOcThUX2tIMm5wWmhqWG5SeW9yZXBsRXZrc2NRTU1ZOUh1TTV2bHhsMjhmWFRfVExxajBXSENSRmxoNWxReVV2WFFBZm41SElKem03RW9NM2dlM05FS2Roam9vSHJ5clRRRWlSS3VFalNpRFRDaV9EX0lUbXJxTVpmd0tySG5aYU5ZblhsWXpEaEVpMmJuV0FCdnl1N2RaQ0swQUVQWTB2VTdEcFZfZXNWSWJ0aVE2QllVY2xSY3JwWjZ5M1BuaW1UeDE4MmJGenhpTy04?oc=5"
    }
   ],
   "impacts": [
@@ -53162,9 +52947,43 @@
      "ru": "Freeport-McMoRan — крупный производитель меди"
     },
     "price_at_alert": 59.24
+   },
+   {
+    "ticker": "CPER",
+    "direction": "up",
+    "t0": 1794626646,
+    "reason": "ציפייה לגידול בהיצע ובפעילות בשוק הנחושת",
+    "reason_i18n": {
+     "he": "ציפייה לגידול בהיצע ובפעילות בשוק הנחושת",
+     "en": "Expectation of growth in copper market activity",
+     "ar": "توقع النمو في نشاط سوق النحاس",
+     "ru": "Ожидание роста активности на рынке меди"
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "ETF меди"
+    },
+    "price_at_alert": 36.53
    }
   ],
-  "id": "a9de65479e34"
+  "id": "a9de65479e34",
+  "updates": [
+   {
+    "ts": 1794626646,
+    "time": "2026-11-14T03:24Z",
+    "severity": 4,
+    "summary": "חברת פריפורט-מקמורן קיבלה אישור להרחבת מכרה הנחושת בגداد, צעד שעשוי להעלות את הערכת שווי המניה של החברה.",
+    "i18n": {
+     "he": "חברת פריפורט-מקמורן קיבלה אישור להרחבת מכרה הנחושת בגداد, צעד שעשוי להעלות את הערכת שווי המניה של החברה.",
+     "en": "Freeport-McMoRan received approval for the Bagdad copper mine expansion, which analysts suggest leaves the stock undervalued.",
+     "ar": "حصلت شركة فريبرت-מקמורן על موافقة لتوسيع منجم النحاس في بغداد، وهي خطوة قد ترفع تقييم سهم الشركة.",
+     "ru": "Компания Freeport-McMoRan получила одобрение на расширение медного рудника Багдад, что может повысить оценку стоимости акций."
+    }
+   }
+  ],
+  "last_update": 1794626646
  },
  {
   "ts": 1794615779,
@@ -53588,6 +53407,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc0xTU3JLMmZLcFB5RWdyZmRlRTM2UmtSbkZrYXFYZFlWclExWW1yQUNaWnZnUF8yQy1VM1pmTFE4U29oRmxFWmpqTWdxdVVxVjV1UUdneGdDa2Z6bWJrdHY0Q2ZRbVBSbEJwUHI2aU82aFd2Yk85X3lQMVNGYy1RdnBvRmdQbnRiSGREWGJkLU03RFUzYUVSWGducUpoX1ZoT3lxd01iMNIBpwFBVV95cUxNc0xTU3JLMmZLcFB5RWdyZmRlRTM2UmtSbkZrYXFYZFlWclExWW1yQUNaWnZnUF8yQy1VM1pmTFE4U29oRmxFWmpqTWdxdVVxVjV1UUdneGdDa2Z6bWJrdHY0Q2ZRbVBSbEJwUHI2aU82aFd2Yk85X3lQMVNGYy1RdnBvRmdQbnRiSGREWGJkLU03RFUzYUVSWGducUpoX1ZoT3lxd01iMA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVI2RXFhdjJWZE15VXJrVXJsbExUSFRIQUdsT0E0TFc0T2VUWkNZRGpFQkZsVEVSVmNfTkhYT1V3OElfNmVMU0RGbkxtOUZoSzVkNFpGOV8xZmhITnZ5SXE4ZHE4bkRxX3B5NHZ3c0NVVkZ1c0Z6YlpKeXc5WHFjeEdBQVlUODk4VzNaTTRPQWluWUlHUjU4Y21paFBkR1pQNmdpOHdTRklQRTZpUmc?oc=5"
    }
   ],
   "impacts": [
@@ -53609,9 +53432,43 @@
      "ru": "Nvidia"
     },
     "price_at_alert": 162.85
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794626646,
+    "reason": "דאגה מרגולציה נוקשה יותר על יצוא שבבים",
+    "reason_i18n": {
+     "he": "דאגה מרגולציה נוקשה יותר על יצוא שבבים",
+     "en": "Concern over stricter chip export regulations",
+     "ar": "قلق بشأن لوائح تصدير الرقائق الأكثر صارمة",
+     "ru": "Обеспокоенность более строгими правилами экспорта чипов"
+    },
+    "name_i18n": {
+     "he": "קרן סל מוליכים למחצה",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 486.75
    }
   ],
-  "id": "bef19bc9f3dc"
+  "id": "bef19bc9f3dc",
+  "updates": [
+   {
+    "ts": 1794626646,
+    "time": "2026-11-14T03:24Z",
+    "severity": 5,
+    "summary": "סקוט בסנט האשים את משרד המסחר בחוסר פיקוח ובקרה על ייצוא טכנולוגיה לשותפה של אנבידיה, מגאספיד.",
+    "i18n": {
+     "he": "סקוט בסנט האשים את משרד המסחר בחוסר פיקוח ובקרה על ייצוא טכנולוגיה לשותפה של אנבידיה, מגאספיד.",
+     "en": "Scott Bessent blamed the Commerce Department for a lack of export controls regarding Nvidia partner Megaspeed.",
+     "ar": "لام سكوت بيسنت وزارة التجارة لعدم وجود ضوابط تصدير تتعلق بشريكة إنفيديا ميغاسبيد.",
+     "ru": "Скотт Бессент обвинил Министерство торговли в отсутствии экспортного контроля в отношении партнера Nvidia Megaspeed."
+    }
+   }
+  ],
+  "last_update": 1794626646
  },
  {
   "ts": 1794623528,
@@ -53670,5 +53527,163 @@
    }
   ],
   "id": "8d3d09e8a21a"
+ },
+ {
+  "ts": 1794626646,
+  "time": "2026-11-14T03:24Z",
+  "title": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
+  "summary": "הנשיא הנבחר דונלד טראמפ הזהיר כי הוא עשוי להפעיל כוח צבאי אם בעלות ברית של ארה\"ב או ספינות יותקפו על ידי אيران.",
+  "kid": "טראמפ אמר שארה\"ב עלולה להילחם באיראן אם זו תפגע בספינות או בחברים של אמריקה. חדשות כאלה עלולות להעלות את מחירי הנפט ולהשפיע על מניות של חברות נפט וביטחון.",
+  "i18n": {
+   "title": {
+    "he": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
+    "en": "Trump Warns Iran of Potential Military Force",
+    "ar": "טראמפ يحذر إيران من احتمال استخدام القوة العسكرية",
+    "ru": "Трамп предупреждает Иран о возможном применении военной силы"
+   },
+   "summary": {
+    "he": "הנשיא הנבחר דונלד טראמפ הזהיר כי הוא עשוי להפעיל כוח צבאי אם בעלות ברית של ארה\"ב או ספינות יותקפו על ידי אيران.",
+    "en": "President-elect Donald Trump warned that he could use military force if US allies or ships are threatened by Iran.",
+    "ar": "حذر الرئيس المنتخب دونالد ترامب من أنه قد يستخدم القوة العسكرية إذا تعرضت حلفاء الولايات المتحدة أو سفنها للتهديد من قبل إيران.",
+    "ru": "Избранный президент Дональд Трамп предупредил, что может применить военную силу, если союзники или корабли США будут угрожаемы Ираном."
+   },
+   "kid": {
+    "he": "טראמפ אמר שארה\"ב עלולה להילחם באיראן אם זו תפגע בספינות או בחברים של אמריקה. חדשות כאלה עלולות להעלות את מחירי הנפט ולהשפיע על מניות של חברות נפט וביטחון.",
+    "en": "Trump said the US might take military action if Iran threatens US allies or ships. This news can push oil prices up and affect energy and defense stocks.",
+    "ar": "قال ترامب إن الولايات المتحدة قد تتخذ إجراءات عسكرية إذا هددت إيران حلفاءها أو سفنها. قد تؤدي هذه الأخبار إلى ارتفاع أسعار النفط وتؤثر على أسهم الطاقة والدفاع.",
+    "ru": "Трамп заявил, что США могут применить военную силу, если Иран будет угрожать союзникам или судам. Это может поднять цены на нефть и повлиять на акции энергетических и оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTm9uTnNhZVVZM0NtSWY5NWNBeFkySHo3a2ZfeEFLQ0dhR08xQm5ncVlSY1JvNERCSWVQZVYxcGJtT3Nab0Ywdy1XenZDbVVGRHNQUWJ6RmtMQmNqV29sRWJfa0lpXzYxRk95RUdTNFZrNkJMaFpDUWRuODJraFdXbkViS3FtQWljSkhjWFQxSHk3Q0s3WHJ1S0tqeEV3MC1yYl8zTzl0UFRQTjM5czNFUkktVDl6R19oZHd2ZW1vSUZhLUVvMVR3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZEQzUE5aNzMxMWt4c1JueE85dUJzNk5QZU9Wa09wMGtadFA2bjdVQVR1MjB4Mk53eXlLTjVPNElpRHdtSFBYeGNBclBkeFg1b3hENDQ3V1Y3QkJSQnBzOVhCNG9sRVNZTFRybzFLZEk0NmVZQk1YaDh0cHF4NEpUd1RYdmg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794626646,
+    "reason": "חשש משיבושים באספקת הנפט במזרח התיכון",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט במזרח התיכון",
+     "en": "Fears of Middle East oil supply disruptions",
+     "ar": "مخاوف بشأن اضطرابات إمدادات النفط في الشرق الأوسط",
+     "ru": "Опасения перебоев с поставками нефти на Ближнем Востоке"
+    },
+    "name_i18n": {
+     "he": "קרן סל אנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 64.96
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794626646,
+    "reason": "עלية במתיחות הגיאופוליטית ובסיכון לעימות",
+    "reason_i18n": {
+     "he": "עלية במתיחות הגיאופוליטית ובסיכון לעימות",
+     "en": "Increased geopolitical tension and conflict risk",
+     "ar": "زيادة التوتر الجيوسياسي وخطر الصراع",
+     "ru": "Рост геополитической напряженности и риска конфликта"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق الفضاء والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 71.51
+   }
+  ],
+  "id": "08328640bd25"
+ },
+ {
+  "ts": 1794626646,
+  "time": "2026-11-14T03:24Z",
+  "title": "החות'ים טוענים לתקיפות חדשות על מתקנים סעודיים",
+  "summary": "מורדים חות'ים טענו שביצעו תקיפות חדשות על אתרים צבאיים ואנרגיה בתוך סעודיה, מה שמגביר את החששות באזור המפרץ.",
+  "kid": "קבוצת לוחמים בתימן אומרת שתקפה מקומות אנרגיה וצבא בסעודיה. התקפות כאלה עלולות להפריע לאספקת הנפט העולמית ולהעלות את מחירי האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "החות'ים טוענים לתקיפות חדשות על מתקנים סעודיים",
+    "en": "Houthis Claim New Attacks on Saudi Sites",
+    "ar": "الحوثيون يعلنون عن هجمات جديدة على مواقع سعودية",
+    "ru": "Хуситы заявляют о новых ударах по объектам в Саудовской Аравии"
+   },
+   "summary": {
+    "he": "מורדים חות'ים טענו שביצעו תקיפות חדשות על אתרים צבאיים ואנרגיה בתוך סעודיה, מה שמגביר את החששות באזור המפרץ.",
+    "en": "Houthi rebels claimed fresh attacks on military and energy sites within Saudi Arabia, raising tensions in the Gulf region.",
+    "ar": "زعم المتمردون الحوثيون شن هجمات جديدة على مواقع عسكرية وطاقة داخل المملكة العربية السعودية، مما يزيد التوترات في منطقة الخليج.",
+    "ru": "Повстанцы-хуситы заявили о новых ударах по военным и энергетическим объектам в Саудовской Аравии, усиливая напряженность в регионе Персидского залива."
+   },
+   "kid": {
+    "he": "קבוצת לוחמים בתימן אומרת שתקפה מקומות אנרגיה וצבא בסעודיה. התקפות כאלה עלולות להפריע לאספקת הנפט העולמית ולהעלות את מחירי האנרגיה.",
+    "en": "Fighters in Yemen claim they attacked energy and military sites in Saudi Arabia, which could disrupt oil supplies and drive up energy prices.",
+    "ar": "تدعي مجموعات مسلحة في اليمن أنها هاجمت مواقع طاقة وعسكرية في السعودية، مما قد يعطل إمدادات النفط ويرفع أسعار الطاقة.",
+    "ru": "Боевики в Йемене заявляют, что атаковали энергетические и военные объекты в Саудовской Аравии, что может нарушить поставки нефти и поднять цены на энергию."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MZGdQMzg5ZXA1a0NZLUc5TFB4R2JYWFlMbVM0Qlp1LW5tYl9YVGpQWF9ISGtjMWZNcTNPZmdROHJtdWpaR2F2bjRKQnU2TllZc2pXRWw3dlZMNm1pb3E4YWRCTmxpZEE1aEswaEdiV0lyS0lHc2ZYZ3ExZ19Zdw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794626646,
+    "reason": "חשש מפגיעה בתשתיות אנרגיה במפרץ הפרסי",
+    "reason_i18n": {
+     "he": "חשש מפגיעה בתשתיות אנרגיה במפרץ הפרסי",
+     "en": "Fear of damage to Persian Gulf energy infrastructure",
+     "ar": "خوف من تلف البنية التحتية للطاقة في الخليج العربي",
+     "ru": "Опасения повреждения энергетической инфраструктуры Персидского залива"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "Crude Oil ETF",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF сырой нефти"
+    },
+    "price_at_alert": 145.58
+   },
+   {
+    "ticker": "KSA",
+    "direction": "down",
+    "t0": 1794626646,
+    "reason": "הסלמה בסיכון הביטחוני במדינה",
+    "reason_i18n": {
+     "he": "הסלמה בסיכון הביטחוני במדינה",
+     "en": "Escalation in security risk within the country",
+     "ar": "تصعيد المخاطر الأمنية داخل البلاد",
+     "ru": "Эскалация рисков безопасности в стране"
+    },
+    "name_i18n": {
+     "he": "קרן סל סעודיה",
+     "en": "Saudi Arabia ETF",
+     "ar": "صندوق السعودية",
+     "ru": "ETF Саудовской Аравии"
+    },
+    "price_at_alert": 36.01
+   }
+  ],
+  "id": "00a7cbf9e5e7"
  }
 ]
