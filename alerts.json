@@ -964,176 +964,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794025521,
-  "time": "2026-11-07T04:25Z",
-  "title": "ארה\"ב אישרה תקיפות חדשות באיראן; טראמפ מדווח על התקדמות בשיחות",
-  "summary": "נשיא ארה\"ב אישר ביצוע תקיפות חדשות על אי קשם באיראן, לצד דיווח על התקדמות רבה במשא ומתן הדיפלומטי בין וושינגטון לטהראן.",
-  "kid": "ארה\"ב תקפה יעדים באיראן וגם מדברת איתם במקביל. אירועים כאלה במזרח התיכון מטלטלים לרוב את מחירי הנפט ומניות הביטחון והתעופה כלפי מעלה.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב אישרה תקיפות חדשות באיראן; טראמפ מדווח על התקדמות בשיחות",
-    "en": "US confirms new strikes on Iran's Qeshm Island; Trump reports progress in talks",
-    "ar": "الولايات المتحدة تؤكد ضربات جديدة في جزيرة قشم الإيرانية وترامب يبلغ عن تقدم في المحادثات",
-    "ru": "США подтверждают новые удары по иранскому острову Кешм; Трамп сообщает о прогрессе в переговорах"
-   },
-   "summary": {
-    "he": "נשיא ארה\"ב אישר ביצוע תקיפות חדשות על אי קשם באיראן, לצד דיווח על התקדמות רבה במשא ומתן הדיפלומטי בין וושינגטון לטהראן.",
-    "en": "The US president confirmed new strikes on Qeshm Island in Iran, alongside reports of significant progress in diplomatic negotiations between Washington and Tehran.",
-    "ar": "أكد الرئيس الأمريكي تنفيذ ضربات جديدة على جزيرة قشم في إيران، إلى جانب تقارير عن تقدم كبير في المفاوضات الدبلوماسية بين واشنطن وطهران.",
-    "ru": "Президент США подтвердил нанесение новых ударов по острову Кешм в Иране, наряду с сообщениями о значительном прогрессе в дипломатических переговорах между Вашингтоном и Тегераном."
-   },
-   "kid": {
-    "he": "ארה\"ב תקפה יעדים באיראן וגם מדברת איתם במקביל. אירועים כאלה במזרח התיכון מטלטלים לרוב את מחירי הנפט ומניות הביטחון והתעופה כלפי מעלה.",
-    "en": "The US targeted locations in Iran while also holding talks with them. Events like this in the Middle East usually push oil prices and defense stocks higher.",
-    "ar": "استهدفت الولايات المتحدة مواقع في إيران بينما تتحدث معهم في نفس الوقت. أحداث كهذه في الشرق الأوسط تدفع عادة أسعار النفط وأسهم الدفاع للأعلى.",
-    "ru": "США нанесли удары по целям в Иране и одновременно ведут переговоры. Подобные события на Ближнем Востоке обычно подталкивают вверх цены на нефть и акции оборонных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794025521,
-    "reason": "הסלמה צבאית מול איראן מעלה את הביקוש למניות ביטחון.",
-    "reason_i18n": {
-     "he": "הסלמה צבאית מול איראן מעלה את הביקוש למניות ביטחון.",
-     "en": "Military escalation with Iran increases demand for defense stocks.",
-     "ar": "التصعيد العسكري مع إيران يزيد الطلب على أسهم الدفاع.",
-     "ru": "Военная эскалация с Ираном увеличивает спрос на акции оборонных компаний."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין - יצרנית נשק וביטחון",
-     "en": "Lockheed Martin - Defense manufacturer",
-     "ar": "Lockheed Martin - مصنع دفاعي",
-     "ru": "Lockheed Martin - Оборонный подрядчик"
-    },
-    "price_at_alert": 567.08,
-    "entry_price": 572.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 603.04,
-    "exit_date": "2026-11-10",
-    "change_pct": 5.33,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 4.25,
-    "edge_pct": 4.25,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794025521,
-    "reason": "המתיחות הגיאופוליטית תומכת בסקטור הביטחוני.",
-    "reason_i18n": {
-     "he": "המתיחות הגיאופוליטית תומכת בסקטור הביטחוני.",
-     "en": "Geopolitical tension supports the defense sector.",
-     "ar": "التوتر الجيوسياسي يدعم قطاع الدفاع.",
-     "ru": "Геополитическая напряженность поддерживает оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סלי תעופה וביטחון אמריקאית",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": 1.82,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794061041,
-    "reason": "העדפת דיפלומטיה ומניעת הסלמה צבאית רחבה מפחיתה את אי-הודאות בשווקים הפיננסיים.",
-    "reason_i18n": {
-     "he": "העדפת דיפלומטיה ומניעת הסלמה צבאית רחבה מפחיתה את אי-הודאות בשווקים הפיננסיים.",
-     "en": "A preference for diplomacy and avoiding broad military escalation reduces uncertainty in financial markets.",
-     "ar": "تفضيل الدبلوماسية وتجنب التصعيد العسكري الواسع يقلل من عدم اليقين في الأسواق المالية.",
-     "ru": "Предпочтение дипломатии и избежание широкой военной эскалации снижает неопределенность на финансовых рынках."
-    },
-    "name_i18n": {
-     "he": "SPY – מדד S&P 500",
-     "en": "SPY – S&P 500 ETF",
-     "ar": "SPY – صندوق مؤشر S&P 500",
-     "ru": "SPY — ETF индекса S&P 500"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": 1.08,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794061041,
-    "reason": "סיכוי לשיחות והפסקת אש מקטין את פרמיית הסיכון הגיאופוליטית במחירי הנפט.",
-    "reason_i18n": {
-     "he": "סיכוי לשיחות והפסקת אש מקטין את פרמיית הסיכון הגיאופוליטית במחירי הנפט.",
-     "en": "The prospect of talks and a ceasefire reduces the geopolitical risk premium in oil prices.",
-     "ar": "احتمال إجراء محادثات وقف إطلاق النار يقلل من علاوة المخاطر الجيوسياسية في أسعار النفط.",
-     "ru": "Перспектива переговоров и перемирия снижает геополитическую премиальную надбавку в ценах на нефть."
-    },
-    "name_i18n": {
-     "he": "USO – קרן סל של נפט גולמי",
-     "en": "USO – Crude Oil ETF",
-     "ar": "USO – صندوق النفط الخام",
-     "ru": "USO — нефтяной ETF"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": 1.88,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "2ec2c6f722fc",
-  "updates": [
-   {
-    "ts": 1794061041,
-    "time": "2026-11-07T14:17Z",
-    "severity": 5,
-    "summary": "ג'יי די ואנס מוביל מגעים עקיפים עם איראן להשגת הפסקת אש ושיחות גרעין חדשות, בעוד שדיווחי חדשות חושפים כי אזהרה אמריקאית מוקדמת מנעה תכנון של תקיפה ישראלית נגד איראן.",
-    "i18n": {
-     "he": "ג'יי די ואנס מוביל מגעים עקיפים עם איראן להשגת הפסקת אש ושיחות גרעין חדשות, בעוד שדיווחי חדשות חושפים כי אזהרה אמריקאית מוקדמת מנעה תכנון של תקיפה ישראלית נגד איראן.",
-     "en": "JD Vance is leading indirect negotiations with Iran for a new ceasefire and nuclear talks, while new reports indicate a US tip-off previously foiled a planned Israeli strike against Iran.",
-     "ar": "يقود جي دي فانس مفاوضات غير مباشرة مع إيران بشأن وقف إطلاق النار والمحادثات النووية، بينما كشفت تقارير أن تحذيراً أمريكياً أحبط ضربة إسرائيلية مخططة.",
-     "ru": "Джей Ди Вэнс ведет непрямые переговоры с Ираном о новом перемирии и ядерных переговорах, в то время как сообщения СМИ раскрывают, что подсказка из США ранее сорвала удар Израиля."
-    }
-   }
-  ],
-  "last_update": 1794061041,
-  "evaluated": true
- },
- {
   "ts": 1794032387,
   "time": "2026-11-07T06:19Z",
   "title": "הקואליציה בהובלת סעודיה יירטה טיל ששוגר לעבר ריאד",
@@ -2162,137 +1992,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794046566,
-  "time": "2026-11-07T10:16Z",
-  "title": "אוקראינה פגעה במשגרי טילים רוסיים",
-  "summary": "הכוחות האוקראיניים תקפו והשמידו שני משגרי טילים מסוג איסקנדר באזור בריאנסק ברוסיה.",
-  "kid": "אוקראינה השמידה משגרי טילים של רוסיה. אירועים צבאיים כאלה משפיעים על מניות חברות הביטחון והנשק.",
-  "i18n": {
-   "title": {
-    "he": "אוקראינה פגעה במשגרי טילים רוסיים",
-    "en": "Ukraine Hits Russian Missile Launchers",
-    "ar": "أوكرانيا تضرب منصات إطلاق صواريخ روسية",
-    "ru": "Украина поразила российские ракетные установки"
-   },
-   "summary": {
-    "he": "הכוחות האוקראיניים תקפו והשמידו שני משגרי טילים מסוג איסקנדר באזור בריאנסק ברוסיה.",
-    "en": "Ukrainian forces targeted and destroyed two Iskander missile launchers in Russia's Bryansk region.",
-    "ar": "استهدفت القوات الأوكرانية ودمرت منصتي إطلاق صواريخ إسكندر في منطقة بريانسك الروسية.",
-    "ru": "Украинские силы поразили и уничтожили две пусковые установки ракет «Искандер» в Брянской области."
-   },
-   "kid": {
-    "he": "אוקראינה השמידה משגרי טילים של רוסיה. אירועים צבאיים כאלה משפיעים על מניות חברות הביטחון והנשק.",
-    "en": "Ukraine destroyed Russian missile launchers. Such military events can affect defense and weapon company stocks.",
-    "ar": "دمرت أوكرانيا منصات إطلاق صواريخ روسية. هذه الأحداث العسكرية تؤثر على أسهم شركات الدفاع.",
-    "ru": "Украина уничтожила российские ракетные установки. Такие события влияют на акции оборонных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS0RZN3NPTWctUkh1ckhQTHc4d0t6SXctY2QyV2dSVFprTjM2a2xDNFF1dXhrM1ZjampqOE1yQy1qbTdHRy1MV3hreFVxZloxRW1CdnJScFl0eGRzLVg0Vm5kTU0zX2FqU2dVR1BwaVJLdjhmNjFLU0pzTDYzclFLV2c0OGRxaUdVZElxaUxibEzSAZYBQVVfeXFMTXpnenB3a3R4bF9MNk02VUVDbnhJOTU1UWhRY0RkYVR2eFJ0a2Z6WlN0LTBzeDl1Qk9nbjJqQUZVRS15OW5icHYxMk1rUjVFLWVodTRlU3E2SDZVTEE4a2dERWhvMFdXbHBBc3ZKMm5wdjBxN0NnbV9PNzZqZGE0TWYtMlNjWmQtLVgwN21ieTZjT0hnR2hn?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRndYU1NEOGY3Mlg1alFybGlsMUk3TDMwUFhXaUdnc0pHaC1rdG9Ta2l3Ny1Xc1ZVYlVBeDZJd2pBZ29PWS1oRzg1ams1SGxCdks5OHhxSDVrMTgtX1hFZ2MwNzFFOGdhVkNaajYtbDk0dm1ZWXlBQlUtSGt3a1d1SWxBTFN6UC1aMDJzQkhkMHNOSzN6Z2ZDdzEyYXVpa1ZiaUN6VDBTUGpPaUNnX3ZEcmRR0gG3AUFVX3lxTE5EYW9vQkxGcW1VcEk5RlBqazNYaVJWZGJJRnZYVWo3czRSdktuaDJCd0NBRE5iNG9qSGdYZ1EwT3BHWkVJbGg3M01tcHZwTHJLTnJFZGxYd2FQMVQxWkJnMnQ5U09BRlVSQWtoWk8xZWVoZjNTc2MwaUE4eGQ1bm9VUGhRT2gzSmJtQ2hVei1Ga2txQ0FNOHYtUmZPVFlqa2FJUEVCNmtIdXJnNzl0bzEtOHN4OWNEYw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794046566,
-    "reason": "הסכסוך המחמיר מגדיל את הביקוש למערכות הגנה וציוד צבאי.",
-    "reason_i18n": {
-     "he": "הסכסוך המחמיר מגדיל את הביקוש למערכות הגנה וציוד צבאי.",
-     "en": "Escalating conflict increases demand for defense systems.",
-     "ar": "تصاعد الصراع يزيد الطلب على أنظمة الدفاع.",
-     "ru": "Эскалация конфликта увеличивает спрос на оборонные системы."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق قطاع الدفاع",
-     "ru": "Авиационный и оборонный ETF"
-    },
-    "price_at_alert": 68.98,
-    "entry_price": 70.35,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.9,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 1.82,
-    "edge_pct": 1.82,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794061041,
-    "reason": "הביקוש העולמי הגובר למערכות טילים והגנה אווירית מחזק את חברות הביטחון הגדולות בארה\"ב.",
-    "reason_i18n": {
-     "he": "הביקוש העולמי הגובר למערכות טילים והגנה אווירית מחזק את חברות הביטחון הגדולות בארה\"ב.",
-     "en": "Rising global demand for missile and air defense systems strengthens major US defense firms.",
-     "ar": "الطلب العالمي المتزايد على الصواريخ وأنظمة الدفاع الجوي يწזיز شركات الدفاع الأمريكية الكبرى.",
-     "ru": "Растущий мировой спрос на ракетные системы и ПВО укрепляет крупные американские оборонные компании."
-    },
-    "name_i18n": {
-     "he": "RTX – יצרנית מערכות הגנה וטכנולוגיה",
-     "en": "RTX – Defense Contractor",
-     "ar": "RTX – مقاول دفاعي",
-     "ru": "RTX — оборонный подрядчик"
-    },
-    "price_at_alert": 189.53,
-    "entry_price": 192.37,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 200.3,
-    "exit_date": "2026-11-10",
-    "change_pct": 4.12,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 3.05,
-    "edge_pct": 3.05,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1ae6975e8922",
-  "updates": [
-   {
-    "ts": 1794049137,
-    "time": "2026-11-07T10:58Z",
-    "severity": 7,
-    "summary": "אוקראינה השמידה משגרי טילים רוסיים במחוז בריאנסק, בעוד רוסיה ביצעה תקיפות טילים חדשות על קייב. המתיחות הביטחונית באזור ממשיכה לעלות.",
-    "i18n": {
-     "he": "אוקראינה השמידה משגרי טילים רוסיים במחוז בריאנסק, בעוד רוסיה ביצעה תקיפות טילים חדשות על קייב. המתיחות הביטחונית באזור ממשיכה לעלות.",
-     "en": "Ukraine destroyed Russian missile launchers in the Bryansk region, while Russia launched new missile strikes on Kyiv. Security tensions in the region continue to rise.",
-     "ar": "دمرت أوكرانيا منصات إطلاق صواريخ روسية في منطقة بريانسك، بينما شنت روسيا ضربات صاروخية جديدة على كييف. وتستمر التوترات الأمنية في المنطقة في التصاعد.",
-     "ru": "Украина уничтожила российские ракетные установки в Брянской области, в то время как Россия нанесла новые ракетные удары по Киеву. Напряженность в регионе продолжает расти."
-    }
-   },
-   {
-    "ts": 1794061041,
-    "time": "2026-11-07T14:17Z",
-    "severity": 4,
-    "summary": "הצי האוקראיני ביצע תקיפה מוצלחת באמצעות טילי נפטון פרי עבודתו על מפעל פרוטון בעיר אורול שברוסיה, המשמש לייצור רכיבים צבאיים.",
-    "i18n": {
-     "he": "הצי האוקראיני ביצע תקיפה מוצלחת באמצעות טילי נפטון פרי עבודתו על מפעל פרוטון בעיר אורול שברוסיה, המשמש לייצור רכיבים צבאיים.",
-     "en": "The Ukrainian Navy successfully struck the Proton plant in Oryol, Russia, utilizing domestic Neptune missiles, targeting a facility that produces military components.",
-     "ar": "نفذت البحرية الأوكرانية ضربة ناجحة باستخدام صواريخ نبتون على مصنع بروتون في مدينة أوريول الروسية الذي ينتج مكونات عسكرية.",
-     "ru": "ВМС Украины нанесли успешный удар ракетами «Нептун» отечественного производства по заводу «Протон» в российском Орле, производящему военные компоненты."
-    }
-   }
-  ],
-  "last_update": 1794061041,
-  "evaluated": true
- },
- {
   "ts": 1794049137,
   "time": "2026-11-07T10:58Z",
   "title": "סופטבנק ו-ABB שוקלות פיצול עסקי בסין",
@@ -2478,121 +2177,6 @@
    }
   ],
   "last_update": 1794068493,
-  "evaluated": true
- },
- {
-  "ts": 1794054218,
-  "time": "2026-11-07T12:23Z",
-  "title": "טראמפ דורש להטיל סגר על מיצר הורמוז",
-  "summary": "דונלד טראמפ התעקש על הצורך בסגר ימי על מיצר הורמוז וטען ששום דבר לא מגיע לאיראן.",
-  "kid": "סגירת מיצר מרכזי שדרכו עובר נפט יכולה לייקר את מחירי הדלק והאנרגיה, ולכן מניות חברות הנפט עשויות לעלות.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ דורש להטיל סגר על מיצר הורמוז",
-    "en": "Trump Insists On Strait Of Hormuz Blockade",
-    "ar": "ترامب يصر على حصار مضيق هرمز",
-    "ru": "Трамп настаивает на блокаде Ормузского пролива"
-   },
-   "summary": {
-    "he": "דונלד טראמפ התעקש על הצורך בסגר ימי על מיצר הורמוז וטען ששום דבר לא מגיע לאיראן.",
-    "en": "Donald Trump insisted on a blockade of the Strait of Hormuz, claiming nothing is going to Iran.",
-    "ar": "أصر دونالد ترامب على فرض حصار على مضيق هرمز، زاعماً عدم ذهاب أي شيء إلى إيران.",
-    "ru": "Дональд Трамп настаивал на блокаде Ормузского пролива, заявив, что в Иран ничего не идет."
-   },
-   "kid": {
-    "he": "סגירת מיצר מרכזי שדרכו עובר נפט יכולה לייקר את מחירי הדלק והאנרגיה, ולכן מניות חברות הנפט עשויות לעלות.",
-    "en": "Closing a major oil shipping lane can make fuel and energy prices go up, which could push oil company stocks higher.",
-    "ar": "إغلاق ممر شحن نفطي رئيسي يمكن أن يرفع أسعار الوقود والطاقة، مما قد يدفع أسهم شركات النفط نحو الارتفاع.",
-    "ru": "Закрытие крупного нефтяного маршрута может поднять цены на топливо и энергию, что способно подтолкнуть акции нефтяных компаний вверх."
-   }
-  },
-  "category": "commodities",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMFVpdGozdEFzdG5vQmhFczY1aEk2UWNyTHFKajhPYWtKQTc3VlRvZ2QxRkdKOS1NME96WVFuTVBGQ1lMWTdqaUdWd2k5ZjV1QnFFUHhoeFgta2ZBSHlVN1dJZzFrc1FqeFF5VjNrV0NNYWFSWUtGNGNZYlpFT2RNNE5FRktZRnY4bnBuT1J5Z0xHcU9jUXBVci1uZnBpLVpmQkV3UEt0MXViUmpPRlpHUjB0cjExRFdDOWVvSA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794054218,
-    "reason": "איומי סגר במיצר הורמוז פוגעים באספקת הנפט העולמית ומקפיצים את המחירים.",
-    "reason_i18n": {
-     "he": "איומי סגר במיצר הורמוז פוגעים באספקת הנפט העולמית ומקפיצים את המחירים.",
-     "en": "Blockade threats in the Strait of Hormuz disrupt global oil supplies and spike prices.",
-     "ar": "تهديدات الحصار في مضيق هرمز تعطل إمدادات النفط العالمية وترفع الأسعار.",
-     "ru": "Угрозы блокады Ормузского пролива нарушают мировые поставки нефти и повышают цены."
-    },
-    "name_i18n": {
-     "he": "USO - תעודת סל על נפט גולמי",
-     "en": "USO – Crude oil ETF",
-     "ar": "USO - صندوق الاستثمار المتداول للنفط الخام",
-     "ru": "USO – ETF сырой нефти"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": -1.88,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794054218,
-    "reason": "מחירי נפט גבוהים יותר מחזקים את הרווחיות של חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "מחירי נפט גבוהים יותר מחזקים את הרווחיות של חברות האנרגיה.",
-     "en": "Higher oil prices boost the profitability of energy companies.",
-     "ar": "أسعار النفط الأعلى تعزز ربحية شركات الطاقة.",
-     "ru": "Более высокие цены на нефть повышают прибыльность энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "XLE - תעודת סל מגזר האנרגיה",
-     "en": "XLE – Energy sector ETF",
-     "ar": "XLE - صندوق قطاع الطاقة",
-     "ru": "XLE – ETF энергетического сектора"
-    },
-    "price_at_alert": 61.62,
-    "entry_price": 61.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 62.225,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.59,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.51,
-    "edge_pct": 0.51,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "c6e69e9d9dc4",
-  "updates": [
-   {
-    "ts": 1794061041,
-    "time": "2026-11-07T14:17Z",
-    "severity": 6,
-    "summary": "פיקוד המרכז של ארה\"ב (CENTCOM) והצבא מתכננים להקים כוח משימה חדש במטרה להגביל ולחתוך את נתיבי המסחר והתחבורה היבשתיים של איראן, כהתרחבות של המצור הימי הקיים.",
-    "i18n": {
-     "he": "פיקוד המרכז של ארה\"ב (CENTCOM) והצבא מתכננים להקים כוח משימה חדש במטרה להגביל ולחתוך את נתיבי המסחר והתחבורה היבשתיים של איראן, כהתרחבות של המצור הימי הקיים.",
-     "en": "The US military and CENTCOM are launching a new task force to restrict Iranian land commerce and ground transit routes, expanding beyond the existing naval blockade.",
-     "ar": "يخطط الجيش الأمريكي وقيادة المركز لإنشاء قوة مهمة جديدة لتقييد التجارة البرية الإيرانية وطرق النقل، توسعاً للحصار البحري القائم.",
-     "ru": "Военные США и CENTCOM создают новую оперативную группу для ограничения сухопутной торговли и транзитных маршрутов Ирана в дополнение к существующей морской блокаде."
-    }
-   }
-  ],
-  "last_update": 1794061041,
   "evaluated": true
  },
  {
@@ -3062,71 +2646,6 @@
    }
   ],
   "last_update": 1794063487,
-  "evaluated": true
- },
- {
-  "ts": 1794061041,
-  "time": "2026-11-07T14:17Z",
-  "title": "יפן שוקלת לשלם מראש את דמי החבר ל-ICC עקב סנקציות אמריקאיות",
-  "summary": "ממשלת יפן שוקלת להקדים ולשלם את תרומותיה לשנת 2027 לבית הדין הפלילי הבינלאומי (ICC), לאור הסנקציות שהטילה ארצות הברית על הארגון.",
-  "kid": "יפן מקדימה תשלומים לבית הדין הבינלאומי מכיוון שארה\"ב הטילה עליו סנקציות. זה מראה על מתחים דיפלומטיים סביב החוק הבינלאומי.",
-  "i18n": {
-   "title": {
-    "he": "יפן שוקלת לשלם מראש את דמי החבר ל-ICC עקב סנקציות אמריקאיות",
-    "en": "Japan Considers Early ICC Payment Amid US Sanctions",
-    "ar": "اليابان تدرس دفع مستحقات المحكمة الجنائية الدولية مسبقاً وسط عقوبات أمريكية",
-    "ru": "Япония рассматривает возможность досрочной выплаты взносов в МУС на фоне санкций США"
-   },
-   "summary": {
-    "he": "ממשלת יפן שוקלת להקדים ולשלם את תרומותיה לשנת 2027 לבית הדין הפלילי הבינלאומי (ICC), לאור הסנקציות שהטילה ארצות הברית על הארגון.",
-    "en": "The Japanese government is considering paying its 2027 contributions to the International Criminal Court ahead of schedule in response to US sanctions against the tribunal.",
-    "ar": "تدرس الحكومة اليابانية دفع مساهماتها لعام 2027 للمحكمة الجنائية الدولية مبكراً في ضوء العقوبات الأمريكية المفروضة على المحكمة.",
-    "ru": "Правительство Японии рассматривает возможность выплаты взносов в Международный уголовный суд на 2027 год раньше срока в ответ на санкции США против суда."
-   },
-   "kid": {
-    "he": "יפן מקדימה תשלומים לבית הדין הבינלאומי מכיוון שארה\"ב הטילה עליו סנקציות. זה מראה על מתחים דיפלומטיים סביב החוק הבינלאומי.",
-    "en": "Japan is paying the international court early because the US put sanctions on it. This shows diplomatic tensions around international law.",
-    "ar": "تدفع اليابان للمحكمة الدولية مبكراً لأن الولايات المتحدة فرضت عقوبات عليها، مما يعظّم التوترات الدبلوماسية.",
-    "ru": "Япония выплачивает взносы в международный суд досрочно, так как США ввели против него санкции. Это отражает дипломатические трения."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "down",
-    "t0": 1794061041,
-    "reason": "מתחים דיפלומטיים בין בעלות ברית מרכזיות (ארה\"ב ויפן) יוצרים אי-ודאות רגולטורית קלה.",
-    "reason_i18n": {
-     "he": "מתחים דיפלומטיים בין בעלות ברית מרכזיות (ארה\"ב ויפן) יוצרים אי-ודאות רגולטורית קלה.",
-     "en": "Diplomatic friction between key allies (US and Japan) introduces minor regulatory uncertainty.",
-     "ar": "الاحتكاك الدبلوماسي بين الحلفاء الرئيسيين يخلق حالة من عدم اليقين التنظيمي.",
-     "ru": "Дипломатические трения между ключевыми союзниками создают небольшую регуляторную неопределенность."
-    },
-    "name_i18n": {
-     "he": "EWJ – קרן סל על מניות יפן",
-     "en": "EWJ – iShares MSCI Japan ETF",
-     "ar": "EWJ – صندوق مؤشر الأسهم اليابانية",
-     "ru": "EWJ — ETF японских акций"
-    },
-    "price_at_alert": 88.26,
-    "entry_price": 90.12,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 90.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.3,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.78,
-    "edge_pct": 0.78,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "775120ffdc0a",
   "evaluated": true
  },
  {
@@ -50994,14 +50513,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPblduSEkwNVlMREhFQ1k3djUwNXF1eC1UM2pNa2xzUHdPRHdZTEJlY21LVGkzakhIOUtycXZua0ltNHAxMW1uZDFXOWRrbHFRSjBLcHRTeGY1em9mZnY1RnRKSktoR3ZhejNQZFBMUnVHR3lObVE0Vm1oOWZKN1NVX0N3SjlEZE5ma1FfZVlfcG5rVjlqN2otYkM0N25wRjJnMkR0LTlB?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbU11Y29oS21USmxpVGhRMlJxMFIwZUhGNFhrYTJtOFhsWms0TGdqRUt0R1lyaVZKSHQ5LWEwSl9vTmpmRmdneUd5cHIzSHloOURUWTN5dHJ0dmpDMUY0SkVZZllrc3JJTExlTlpKckV3UzBCVXJkeTV6VW5XZ0JwQXBxa3NyVzVHTERSNENLY1pYZ3VWdFExLVhiSllDelV5a2plVUk0djQ3WXVwN1V6azdQNFJIdFBqZG1sZnVhTE9WdmZLUTNyRnl1Y21FWEnSAdQBQVVfeXFMUGtZb0pmVWhTZWxxLWRJN1FEX1hHbXoyMjhPQTZIUlJkbXhnZ0NBUHk4SjBxeVFabjZ5eHE2RFJ1VGhEa0NQWHVxUl9qbzFBZGppRGFucFdLS1VMbTlsWk5UMExzSUJDWEprMVZ3MnB2Zl9GS0VqWEpUYnlObFV3cFhZelFlNDNhMEpQalVpOTk4NUJZZkhpLWcxVzZDM2NEbUdIeE1aa2FvT2VHVGZKeU9IRzl5UFdnQWxYelZ4MDRkWnVScnNjQWhzUE5Rc1J0VXRESGk?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM0dCT2ttVmcwdEM2ZVFGUWxlTFRCQVZ1X2tQODBkX0FYeXVKRnF3emx2dVdDNG4wZVhyemNEREdpbkl1OWhINUN6OWVqTzJkblZQSDdjWGZmODNUM0NPU3dXWDcxcndqNmJiak9mRVlNRFJHcUktSXlsU241bmFMbW1LMk9BQVB0NFRxYXl1QWgwSE5iVkhfMEVBY0xVcVFEQlJQTzk5RlR1ZkFyRFJfWFZnalJxeDN1ZnR6dVZzUldJX19wekNYdzlWWF9TUXp1RTdiNE1GZ9IB3AFBVV95cUxOTVN0cHJQY0cxM3lFVHlzaUc2dmRPaGNUdTVDdl95QzNhb3E5ZzFYWXNTSTc3R3pxaGlFT28tUzVZbGNNZWNMVGxhSU90ZVZwRDhSMXlGRl9WTzVWQmlyRGJXOFp4MjA5WjhoX0M3djYxbk13Y0Y0MmJ0WGtDSGo0bnZhNXctLUJIbm02b01RT0p6bmROTVNTd0lmdUZYMTB3ZlFoOFBUSGF2clZhYmcxaS1ucFBzZkFyVDV5UVJ4WDBUbFM1cF9vVFpLdWNBLVBmLU91MGxLbG9QdjZR?oc=5"
    },
    {
@@ -51015,6 +50526,14 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS3YyVm5HX3NkOHoxYWRhd0t6RGNEc3dqZGZjSTFKZEE4cDFqbVdORC1US3llY3ZUVVh0SHhPM1o1a1R1UkJvYmVKT1A3VVMxQzBUNUFFcDQxQnA4RDl4X3gwRlYtUW9JcnBRMmdEb3YzTUstOXdiOHBSLUxJVnI3QXhQcDVlWTJJbWtzSk5ySmN1MHA5bjNhYm9DNDhpWGJVUVQ2Nk1VUzZ0cGVpcEVhTGkxc2ZfYTFnVEVXb3Y3RdIBxAFBVV95cUxQMjlQSjVaWFdSZXpqVTVobk1HWjJYNldlWi0zdnUtS2ZZczN1eGFpeFlYZ3dCQUJYVkNJbzhuNlVKbTBUWW1sV01ydEtBQUtobnBfZml1MzNHSW95RFg0LWJWbkRnaGlSU18yZWE1SFoyTUJIZmNJb0VGODdtVUwxZHE3cnZqY0prdGk1QldjaGxEZ2dDVHg2dGMxRmlCV0hERUN2NDB2MldoYlc3T0dHT2ZZeV8yWlhqVUVyRFgtS3duR3Zy?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWTQ5T3FZdS1UMm1waWRybnU4R1pwNXRPU2RJc19rOER6ZjNDLVU4UDI0b2gxZFA5bWNnS2NEajJhVDRHZ3dzRmVFb3JUbERHeHRJSUI4SktnZngxbm9MWXZfX1loVEJ4NWhrTDlGRU9zUktoMjd1bXNTODE0V0U2dC1SMnJvQzVVZm8wWFNNb2xxWWdnTGxhNnlGUHFPbzZOM1FiWtIBqgFBVV95cUxPZ3NmX0ZRaTR2NllSWENiaUdjaDFMWGxKcHl2V1lxb0JYbVBXbjVYWFpjZzFNMi1wWHczblltREc0V3dnNkVZbHBIZVAzb0ZmVjRQOUpMUGhmYldXRVJCWnhCYW9vRGNxajRnVUh3clM5NEJnYUh6SXVIZEpqc0lGMVoteDdqSGc1NUMzelV3MXljTHNSUlROdDF6Y1Z5bkRLR3V0VnZFdUVsQQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSWt4S09hN2E1X091UmdNODdDNm5EaXRzQV9COFRwU1dNeGVMbkpUUXdqUXFoQmZmYU9RSUVCZU9udHU5SUlIY0NxV1lkMkw3b1UydGZsUUNVcE1vVU9jUEc4V1Q3bWpRaUpwSXZpNVdCWWJnTTVPWEhUMXhrb2htM0NVakZZODF2X012aGFGVWNadGpFcHUtajRZbUJPR3pvaDdLdVdfeEZOSmFFNjdURkhQVE1kd9IBuwFBVV95cUxPcFVRV1E0R1d2aXRMVmpyVXpVTzd4WjRZQW5sNjdEYmVCR3RJZGRHcE5wV0pCd1hqN1lVelFNUDZJazhXV3lLQk85UTFuM1hSLS1Oam04RU5DMFVGWW9pNDNRM0dBdVJBZnFTWWhKaWsydFRZMmxPNEhFeXNodmQtUktxMUFDRDZoYnowTHFUVjNOakU3WGtzWTFNUHRDMG5kR3otQW16bURWTmZvY2RzZDdJeF90clBJcmE4?oc=5"
    }
   ],
   "impacts": [
@@ -51173,9 +50692,21 @@
      "ar": "مسؤولون يشيرون إلى أن مفاوضات التجارة الثنائية تقترب من خط النهاية مع مزايا جمركية.",
      "ru": "Официальные лица заявляют, что двусторонние торговые переговоры приближаются к завершению."
     }
+   },
+   {
+    "ts": 1794665897,
+    "time": "2026-11-14T14:18Z",
+    "severity": 5,
+    "summary": "בכירים הודים מדווחים כי רוב הסוגיות המרכזיות בשיחות הסחר בין הודו לארה\"ב נפתרו, וההסכם מתקדם לעבר שלביו הסופיים.",
+    "i18n": {
+     "he": "בכירים הודים מדווחים כי רוב הסוגיות המרכזיות בשיחות הסחר בין הודו לארה\"ב נפתרו, וההסכם מתקדם לעבר שלביו הסופיים.",
+     "en": "Indian officials report that the bulk of issues regarding the US-India trade deal have been sorted out, with negotiations entering their final stages.",
+     "ar": "مسؤولون هنود يفيدون بأن غالبية القضايا المتعلقة باتفاقية التجارة بين الهند والولايات المتحدة قد تم تسويتها، والمفاوضات تدخل مراحلها النهائية.",
+     "ru": "Индийские официальные лица сообщают, что большинство вопросов по торговой сделке между Индией и США улажено, и переговоры вступают в завершающую стадию."
+    }
    }
   ],
-  "last_update": 1794662900
+  "last_update": 1794665897
  },
  {
   "ts": 1794641926,
@@ -52520,5 +52051,140 @@
    }
   ],
   "id": "9d9221980c79"
+ },
+ {
+  "ts": 1794665897,
+  "time": "2026-11-14T14:18Z",
+  "title": "עלות רכש מטוסֵי ה-F-35 צפויה לזנק ב-7.3 מיליארד דולר",
+  "summary": "העלות הכוללת של רכש 115 מטוסֵי קרב מסוג F-35 צפויה לגדול ב-7.3 מיליארד דולר נוספים, מה שמצביע על תפיחת תקציבי הביטחון.",
+  "kid": "מטוסי הקרב היקרים שייכת לוקהיד מרטין עולים עוד כסף. זה עשוי לעזור למניות של חברות הביטחון לעלות כי הן מקבלות יותר תקציבים.",
+  "i18n": {
+   "title": {
+    "he": "עלות רכש מטוסֵי ה-F-35 צפויה לזנק ב-7.3 מיליארד דולר",
+    "en": "Cost of 115 F-35 Fighter Jets Purchase Set to Rise by $7.3 Billion",
+    "ar": "تكلفة شراء 115 طائرة مقاتلة من طراز F-35 ترتفع بمقدار 7.3 مليار دولار",
+    "ru": "Стоимость закупки 115 истребителей F-35 вырастет на 7,3 млрд долларов"
+   },
+   "summary": {
+    "he": "העלות הכוללת של רכש 115 מטוסֵי קרב מסוג F-35 צפויה לגדול ב-7.3 מיליארד דולר נוספים, מה שמצביע על תפיחת תקציבי הביטחון.",
+    "en": "The total bill for the acquisition of 115 F-35 fighter jets is set to increase with an additional 7.3 billion required, highlighting rising defense procurement costs.",
+    "ar": "من المقرر أن ترتفع الفاتورة الإجمالية لشراء 115 طائرة مقاتلة من طراز F-35 بطلب 7.3 مليار إضافية، مما يسلط الضوء على ارتفاع تكاليف مشتريات الدفاع.",
+    "ru": "Общая стоимость приобретения 115 истребителей F-35 увеличится на дополнительные 7,3 миллиарда, что подчеркивает рост расходов на оборонные закупки."
+   },
+   "kid": {
+    "he": "מטוסי הקרב היקרים שייכת לוקהיד מרטין עולים עוד כסף. זה עשוי לעזור למניות של חברות הביטחון לעלות כי הן מקבלות יותר תקציבים.",
+    "en": "The advanced F-35 fighter jets made by Lockheed Martin are costing more money. This could make defense stocks go up because these companies are getting more funds.",
+    "ar": "الطائرات المقاتلة المتقدمة التي تصنعها شركة لوكهيد مارتن تكلف أموالاً أكثر. هذا قد يجعل أسهم الدفاع ترتفع لأن هذه الشركات تحصل على أموال أكثر.",
+    "ru": "Усовершенствованные истребители F-35 производства Lockheed Martin обходятся дороже. Это может поднять акции оборонных компаний, так как они получают больше средств."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeWwxOFl4TUhQeEdvT2JGek9feG9wM3RqV1V3QzlzV0JtUFRBLVNxVnV3UDV4TUxNR1A1a0xvRk5XYlplUlR4OHR5ZzZDY21rSFgtcXRqX2pscE5PQVBpbWNIZU95UExMa21BdDBOX0VvZnFfbU54c2JxUFFaVUhCNHVxU3lmMjl2TkkwODhLbVlUdWZZcjhHeGR3TjN4cVhtX25jVF9n?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794665897,
+    "reason": "עלויות רכש גבוהות יותר מצביעות על תזרימים פוטנציאליים גדולים יותר לתוכנית.",
+    "reason_i18n": {
+     "he": "עלויות רכש גבוהות יותר מצביעות על תזרימים פוטנציאליים גדולים יותר לתוכנית.",
+     "en": "Higher procurement costs point to larger potential program cash flows.",
+     "ar": "تكاليف الشراء الأعلى تشير إلى تدفقات نقدية محتملة أكبر للبرنامج.",
+     "ru": "Более высокие затраты на закупку указывают на потенциально большие денежные потоки программы."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – יצרנית מטוסים",
+     "en": "Lockheed Martin – an airplane manufacturer",
+     "ar": "لوكهيد مارتن – شركة تصنيع طائرات",
+     "ru": "Lockheed Martin – производитель самолетов"
+    },
+    "price_at_alert": 596.04
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794665897,
+    "reason": "הגדלת תקציבי רכש תומכת בסקטור הביטחוני כולו.",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי רכש תומכת בסקטור הביטחוני כולו.",
+     "en": "Increased procurement budgets support the entire defense sector.",
+     "ar": "زيادة ميزانيات الشراء تدعم قطاع الدفاع بأكمله.",
+     "ru": "Увеличение бюджетов закупок поддерживает весь оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל לתחום התעופה והביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق استثماري لقطاع الطيران والدفاع",
+     "ru": "ETF на аэрокосмическую и оборонную промышленность"
+    },
+    "price_at_alert": 71.51
+   }
+  ],
+  "id": "6786298ee186"
+ },
+ {
+  "ts": 1794665897,
+  "time": "2026-11-14T14:18Z",
+  "title": "הבנק המרכזי בניגריה מטיל קנס על חברת הפינטק OPay בעקבות פרשת הלבנת הון",
+  "summary": "הבנק המרכזי של ניגריה הטיל קנס של כמעט מיליארד נאירה על חברת OPay בגין האשמות בהלבנת הון ומימון טרור, מה שמעכב גם את תוכניות ההנפקה שלה בארה\"ב.",
+  "kid": "חברת תשלומים גדולה בניגריה נקנסה בגלל בעיות של כספים אסורים, ותוכנית שלה להנפיק מניות בארה\"ב נפגעה. זהו סימן שלילי לחברות פינטק דומות.",
+  "i18n": {
+   "title": {
+    "he": "הבנק המרכזי בניגריה מטיל קנס על חברת הפינטק OPay בעקבות פרשת הלבנת הון",
+    "en": "Central Bank of Nigeria Fines Fintech OPay Over Money Laundering",
+    "ar": "البنك المركزي النيجيري يفرض غرامة على شركة التكنولوجيا المالية OPay بسبب غسيل الأموال",
+    "ru": "Центральный банк Нигерии штрафует финтех-компанию OPay за отмывание денег"
+   },
+   "summary": {
+    "he": "הבנק המרכזי של ניגריה הטיל קנס של כמעט מיליארד נאירה על חברת OPay בגין האשמות בהלבנת הון ומימון טרור, מה שמעכב גם את תוכניות ההנפקה שלה בארה\"ב.",
+    "en": "The Central Bank of Nigeria has fined OPay roughly 994 million naira over money laundering and terrorism financing allegations, impacting its US IPO plans.",
+    "ar": "فرض البنك المركزي النيجيري غرامة تقارب 994 مليون نايرا على شركة OPay بسبب مزاعم غسيل الأموال وتمويل الإرهاب، مما يؤثر على خطط طرحها العام في الولايات المتحدة.",
+    "ru": "Центральный банк Нигерии оштрафовал OPay примерно на 994 миллиона найр из-за обвинений в отмывании денег и финансировании терроризма, что влияет на ее планы IPO в США."
+   },
+   "kid": {
+    "he": "חברת תשלומים גדולה בניגריה נקנסה בגלל בעיות של כספים אסורים, ותוכנית שלה להנפיק מניות בארה\"ב נפגעה. זהו סימן שלילי לחברות פינטק דומות.",
+    "en": "A major payment firm in Nigeria was fined for illegal money issues, and its plan to sell shares in the US is hurt. This is a negative sign for similar fintech companies.",
+    "ar": "تم تغريم شركة مدفوعات كبرى في نيجيريا بسبب قضايا أموال غير قانونية، وتضررت خطتها لطرح أسهمها في الولايات المتحدة. هذه إشارة سلبية لشركات التكنولوجيا المالية المماثلة.",
+    "ru": "Крупная платежная компания в Нигерии была оштрафована за проблемы с незаконными деньгами, и ее планы по размещению акций в США пострадали. Это плохой знак для аналогичных финтех-компаний."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kVWgta2pFWEVoZzFHbkp1QUhxM05WR1BKWVhscElBMjIxUF9YN3dDYlFlTnEwdmtuM2JHdkRDYlJnODZENHU0VnEybVlFTm9EX0VUUU9XTWVFT3J4M1FodTExbDF5UWFFOFktMURFZ2dTTHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1794665897,
+    "reason": "אכיפת רגולציה מחמירה בשווקים מתעוררים מעוררת חשש לגבי חברות טכנולוגיה פיננסית.",
+    "reason_i18n": {
+     "he": "אכיפת רגולציה מחמירה בשווקים מתעוררים מעוררת חשש לגבי חברות טכנולוגיה פיננסית.",
+     "en": "Strict regulatory enforcement in emerging markets raises concerns for financial tech firms.",
+     "ar": "إنفاذ التنظيم الصارم في الأسواق الناشئة يثير مخاوف بشأن شركات التكنولوجيا المالية.",
+     "ru": "Строгое регулирование на развивающихся рынках вызывает опасения за финтех-компании."
+    },
+    "name_i18n": {
+     "he": "קרן סל לשווקים מתעוררים",
+     "en": "Emerging Markets ETF",
+     "ar": "صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 60.92
+   }
+  ],
+  "id": "afe6dcd9bb7b"
  }
 ]
