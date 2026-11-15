@@ -91306,6 +91306,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMU9JNk1Wak5Nd2p2X3hueTE3Z1hiWTdTeDNZYWc0VnVwZlgyN2NwTHUzdC1yTmtkdEhEOGU4UVFoUDdWWnFwWXFkQ2FJcWVZX090MEF2eW14NGVaSG1OMVU4bFNrc2Y1bVItckxmNWVUd0FjRmNySXhQckhzY3Bid2xyVlZzV0lrSXFQRWE3ZS1Wamts?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSGhnajNTaFVINDJFdjRzR3ZqX2hQR3lRMlg3ejhwZzB4NGxoVHBSY1Q1cThxQzZnUWh5XzFtZFVwN2dlWEUzcmpDZG9ITzlqdFRMVWJOX29lY2g4T05NZ2c3Qkd1ZHM1NEFyc1VJNGFCaHRqRXp5Y2pQandHSUdBcTduWGozZThURUwwWlBGUTFZOW1zT1Nsb2tQek5jZ1M3MUpFamxIeTFlWFo2REZZTjNqUnAwVG90aGNwazRhV05uMmszcmhXMDhBVQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQSkFQcExSSjdCcFV6cjNPNFFMS01ST1E0MEFtNGc0SklHV19EbVZBOWtQZzJkWW9MZkpCM01NdWZmQXVhWFFnLTZGaEI4SFFMWHFSSkM4eUhwcGxja3czWF9yM2p1dGhXZ1QwVVlybm9NRU9oUzNJa0x3U09pNFdGMDAyRHFYZjNOYnhaRWJBNHRoemxxQkdVRkJFdzJMOEEzY1NGTUdMUEp4VmVMWGlabjFHVW5Qb2hINnFhbG1TcVRLZm91U3NqVE5yTlVRSWp3VXVlblBYcHBTdk1XQWwzN1VmMHZTQlpWV0JianlRZExadVo4bWFQdHFBTkc1ZUZLdEVkNmVjLS12RFdMQXA2UW96VGJIa2VtelFjdDcxR2F5QQ?oc=5"
    }
   ],
   "impacts": [
@@ -91384,9 +91396,43 @@
      "ru": "ETF региональных банков США"
     },
     "price_at_alert": 72.74
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1794704327,
+    "reason": "ציפיות לריבית גבוהה יותר מחזקות את הדולר מול מטבעות זרים.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר מחזקות את הדולר מול מטבעות זרים.",
+     "en": "Expectations of higher rates strengthen the US currency against peers.",
+     "ar": "توقعات برفع الفائدة تقوي العملة الأمريكية أمام العملات الأخرى.",
+     "ru": "Ожидания более высоких ставок укрепляют американскую валюту."
+    },
+    "name_i18n": {
+     "he": "UUP – קרן סל על מדד הדולר",
+     "en": "UUP – US Dollar ETF",
+     "ar": "UUP - صندوق مؤشر الدولار الأمريكي",
+     "ru": "UUP — ETF доллара США"
+    },
+    "price_at_alert": 29.5
    }
   ],
-  "id": "018267171639"
+  "id": "018267171639",
+  "updates": [
+   {
+    "ts": 1794704327,
+    "time": "2026-11-15T00:58Z",
+    "severity": 6,
+    "summary": "האינפלציה הסיטונית השנתית בארה\"ב טיפסה לשיא של ארבע שנים, מה שמגביר את הלחץ על הפדרל רזרב לקראת החלטת הריבית הקרובה בדצמבר ומחזק את הדולר על חשבון המטבעות הזרים.",
+    "i18n": {
+     "he": "האינפלציה הסיטונית השנתית בארה\"ב טיפסה לשיא של ארבע שנים, מה שמגביר את הלחץ על הפדרל רזרב לקראת החלטת הריבית הקרובה בדצמבר ומחזק את הדולר על חשבון המטבעות הזרים.",
+     "en": "Annual US wholesale inflation climbed to a four-year peak, increasing pressure on the Federal Reserve ahead of its December rate decision and boosting the US dollar against peers like the yen.",
+     "ar": "ارتفع التضخم السنوي بالجملة في الولايات المتحدة إلى أعلى مستوى في أربع سنوات، مما يزيد الضغط على الاحتياطي الفيدرالي قبل قرار أسعار الفائدة في ديسمبر ويعزز الدولار.",
+     "ru": "Годовая оптовая инфляция в США достигла четырехлетнего пика, усиливая давление на ФРС перед декабрьским решением по ставке и укрепляя доллар."
+    }
+   }
+  ],
+  "last_update": 1794704327
  },
  {
   "ts": 1794678616,
@@ -91611,18 +91657,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLXBydDdyZFJCTm4yZEdHQl9qeEFyZTRhcG1EQnl4YVBwRmpFcDBOeHo5NTVLVDZ4T2hvZFpLR0ZmRjZuQ3RZcXlacEZ2bEtBVUk2dFB2YnR6Umw3UWxvVWhrRG9KbFhVd3hRUG1pbXk5ZEJ0QmVtdTJzTzhseFZqVVlNdEhVWUlPUXc?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYktXc2pkSzNUTVFvelkzMVRMUXJHVnFCV1lzVWtOMFFNMGpYVFZTZk5od3pwT2Zjbl9FYUVrU1JEVERsTEZ2NFhlSEZLRHhkWFNic00tbUFCVXl1X3RZSVZYYUlkb1hCZHg3VHlsQWkta2VOQ0p6WXNKWXVDV1pVcUhwTTh4bmd0MHdlamZTSHM2VFo5T2F0MS1sXzRPZw?oc=5"
-   },
-   {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQzU0bEtQZGlvYlVSOHBtNjZ0MWZHdWd6VEpLUDBPU3R3VHpRWVhJQVNMbzk1VW9yOFJZSkF5b3FpY29CRWh4MVFpMFhrWk5mX2otcURZSzRsR1d2WTBKMTh6S0ZzUUhfUGxRZHNrMnlJNWNiNm5QTFRoaC16MXI1SU1ncGwxdllVZDg1SGxMRnBaTEF1U3AyODNxeTYtX1YyRlVjTUdlM000RHdtd05LdVBjbnhIX2U5WXVFTFNUTQ?oc=5"
    },
@@ -91633,6 +91667,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONzlqeGJiWVNRa3pBWlVGbVEyd0U3TTFwNi1PQTVJYVA3dlNmcFNfYkw5Tm5ySk1hWkFBOElxMHZMNmh6WjNxaVJxZmNwbjZqUHJZNjRBeFBiMnZPNDNPTkpNZnpNbmhMdXJ3Q3FXRlRpeEhoU05DbTM4bnNXRV91TEo1RlpuSktuTkxQUFZiazhtaEdnTzJmdElHajFxelVGNDMwVVk0UC1rTTYyT2lkeG5WcEtlaTVMWWNuM0h3SEpMeXozMTNnSmFiSGFBUG8?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeTRaYmRMM2tYYnJxcUpmYjNRQXpXdzd4Sjl0ZVNXNkRFWTBmTjJQUEFlVTdvWGNrN2FsVnotSnJXZ0RQbE13c1FjLWV6algtb3FmWTI1MGdqZ1d5Q1JFY3A0WnU1U2U1ZnFBRnFXQTVkRGY1eFBrSmZPSGlrd2RLdzA5NA?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZ0xQZDY4WUhzYkpZbUxMNXl3MTJjMlc4X0xyd3c1NEpNWnJxU2c0MjZIWGctekVueXdWVDFOLTdmM0NyRHB1U3dPU290dnQxU1pUZ2Y0azZkWV9mRktNUUxMcV9tbTlTSUs1SWhWOGNIWEJmR05ydGVFZWdtWmg4Z1l3d3Z0MDhhTEVqemFLR29laUUzZ245a2pjQW9NMkVaTERXSHFGYUQxUWJkNzczMU9OQnM5Nld3VFRpR0FZZUdzUQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXR1TWxRbWN5cFZkd2ZmS0V4SDJnZ1ROQlZ1RWRaOVVRbWJieW5hVmdkM2dnYWduSF8tZGRRbnFsT0pWUHFjMUNaR1JHUXZ4bUtSUDlEVWhzRUVkWVN5M3dnS3dlR2NVTHpvX29sNWhOdG9MR1FTMkwyNGZPSW1PVk5TMEE?oc=5"
    }
   ],
   "impacts": [
@@ -91805,9 +91851,21 @@
      "ar": "تُعزى اضطرابات الرحلات الجوية الأخيرة على مستوى الولايات المتحدة إلى ترقية فاشلة لأسلاك النحاس. وعلى الرغم من رفع حظر الإقلاع، لا تزال التأخيرات قائمة في المطارات.",
      "ru": "Власти США связывают недавние сбои в авиасообщении с неудачным обновлением медных кабелей. Несмотря на снятие запрета на вылеты, в аэропортах сохраняются многочисленные задержки."
     }
+   },
+   {
+    "ts": 1794704327,
+    "time": "2026-11-15T00:58Z",
+    "severity": 4,
+    "summary": "גורמים רשמיים בממשל האמריקאי הפנו אצבע מאשימה כלפי עבודות שדרוג תשתיות ונתבים של חברת L3Harris כמקור לתקלה הרוחבית שהביאה להשבתה פתאומית של טיסות ברחבי ארה\"ב.",
+    "i18n": {
+     "he": "גורמים רשמיים בממשל האמריקאי הפנו אצבע מאשימה כלפי עבודות שדרוג תשתיות ונתבים של חברת L3Harris כמקור לתקלה הרוחבית שהביאה להשבתה פתאומית של טיסות ברחבי ארה\"ב.",
+     "en": "US government officials blamed infrastructure and router upgrade work by L3Harris as the primary cause behind the nationwide flight ground stop.",
+     "ar": "أللى المسؤولون في الحكومة الأمريكية باللوم على أعمال ترقية البنية التحتية من شركة L3Harris كسبب رئيسي لوقف رحلات الطيران في جميع أنحاء البلاد.",
+     "ru": "Официальные лица США возложили вину за масштабную остановку полетов по стране на работы по обновлению оборудования компании L3Harris."
+    }
    }
   ],
-  "last_update": 1794700206
+  "last_update": 1794704327
  },
  {
   "ts": 1794684504,
@@ -93443,5 +93501,159 @@
    }
   ],
   "id": "5c3a573da04d"
+ },
+ {
+  "ts": 1794704327,
+  "time": "2026-11-15T00:58Z",
+  "title": "אנתרופיק מזמינה תחנות כוח גזיות בשווי 3.4 מיליארד דולר",
+  "summary": "חברת הבינה המלאכותית אנתרופיק ביצעה הזמנה ענקית בשווי 3.4 מיליארד דולר לרכישת תחנות כוח המופעלות בגז, במטרה לספק את צורכי האנרגיה העצומים של מרכזי הנתונים שלה.",
+  "kid": "חברת מחשבים של בינה מלאכותית קונה תחנות כוח שעובדות על גז כדי שיהיה מספיק חשמל למחשבים החזקים שלה. זה טוב לחברות האנרגיה שמספקות את הגז.",
+  "i18n": {
+   "title": {
+    "he": "אנתרופיק מזמינה תחנות כוח גזיות בשווי 3.4 מיליארד דולר",
+    "en": "Anthropic Orders Gas Power Plants Worth $3.4 Billion",
+    "ar": "أنثروبيك تطلب محطات توليد طاقة بالغاز بقيمة 3.4 مليار دولار",
+    "ru": "Anthropic заказала газовые электростанции на $3,4 миллиарда"
+   },
+   "summary": {
+    "he": "חברת הבינה המלאכותית אנתרופיק ביצעה הזמנה ענקית בשווי 3.4 מיליארד דולר לרכישת תחנות כוח המופעלות בגז, במטרה לספק את צורכי האנרגיה העצומים של מרכזי הנתונים שלה.",
+    "en": "AI firm Anthropic placed a massive $3.4 billion order for gas-fired power plants to secure reliable electricity for its energy-intensive data centers.",
+    "ar": "طلبت شركة الذكاء الاصطناعي أنثروبيك محطات توليد طاقة تعمل بالغاز بقيمة 3.4 مليار دولار لتلبية احتياجات مراكز البيانات الهائلة من الطاقة.",
+    "ru": "ИИ-компания Anthropic разместила крупный заказ на газовые электростанции на сумму $3,4 млрд для обеспечения энергией своих дата-центров."
+   },
+   "kid": {
+    "he": "חברת מחשבים של בינה מלאכותית קונה תחנות כוח שעובדות על גז כדי שיהיה מספיק חשמל למחשבים החזקים שלה. זה טוב לחברות האנרגיה שמספקות את הגז.",
+    "en": "An AI company is buying gas power plants to run its heavy computers. This is good news for natural gas and energy suppliers.",
+    "ar": "تشتري شركة ذكاء اصطناعي محطات طاقة لتعمل حواسيبها القوية. هذا خبر جيد لشركات الطاقة ومزودي الغاز.",
+    "ru": "ИИ-компания покупает газовые станции для питания своих мощных компьютеров. Это позитивно для поставщиков энергии и газа."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYThDOFJDb3J3ZENySm1hbTZXbUl4NXBkQmpMUUwwNU85cGtFZmQ4X0E3MGxxc3l1OENqbnNCdjRKbW5zR3hfNk15VDFrSzBselRvRnZUS3ZhaWNhNFZlenJyS3BzdjBXSVY0RGlpb1plMTJzblFnV3Y5OFgwMkRzRUZyX1ZSRGhpV3hoZFJORQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794704327,
+    "reason": "הביקוש המוגבר לתשתיות גז וחשמל עבור מרכזי נתונים מחזק את חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "הביקוש המוגבר לתשתיות גז וחשמל עבור מרכזי נתונים מחזק את חברות האנרגיה.",
+     "en": "Soaring power and gas infrastructure demand for AI data centers benefits energy firms.",
+     "ar": "الطلب المتزايد على البنية التحتية للطاقة والغاز لمراكز البيانات يفيد شركات الطاقة.",
+     "ru": "Растущий спрос на газовую и энергетическую инфраструктуру поддерживает энергетиков."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סל מגזר האנרגיה",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE — ETF энергетического сектора"
+    },
+    "price_at_alert": 64.96
+   },
+   {
+    "ticker": "UNG",
+    "direction": "up",
+    "t0": 1794704327,
+    "reason": "חוזים ארוכי טווח להפעלת תחנות כוח בגז תומכים בביקוש עתידי לגז טבעי.",
+    "reason_i18n": {
+     "he": "חוזים ארוכי טווח להפעלת תחנות כוח בגז תומכים בביקוש עתידי לגז טבעי.",
+     "en": "Long-term supply contracts for gas-fired plants support structural natural gas demand.",
+     "ar": "عقود التوريد طويلة الأجل لمحطات الغاز تدعم الطلب المستقبلي على الغاز الطبيعي.",
+     "ru": "Долгосрочные контракты на поставку газа для электростанций поддерживают спрос."
+    },
+    "name_i18n": {
+     "he": "UNG – קרן סל על גז טבעי",
+     "en": "UNG – United States Natural Gas Fund",
+     "ar": "UNG - صندوق الغاز الطبيعي الأمريكي",
+     "ru": "UNG — ETF природного газа"
+    },
+    "price_at_alert": 10.15
+   }
+  ],
+  "id": "1ff37d3e6ab7"
+ },
+ {
+  "ts": 1794704327,
+  "time": "2026-11-15T00:58Z",
+  "title": "כטב\"מים אוקראיניים פגעו בספינת טילים של הצי הרוסי בים הבלטי",
+  "summary": "כטב\"מים אוקראיניים תקפו ספינת טילים של הצי הרוסי במפרץ פינלנד (הים הבלטי), מה שחייב לגרור או ללוות אותה בחזרה לבסיס לצורך תיקונים.",
+  "kid": "צבא אוקראינה פגע בספינת מלחמה רוסית בצפון אירופה באמצעות רחפנים מתפוצצים. האירוע מראה את עוצמת הלחימה ומעלה את החשש מהסלמה באירופה.",
+  "i18n": {
+   "title": {
+    "he": "כטב\"מים אוקראיניים פגעו בספינת טילים של הצי הרוסי בים הבלטי",
+    "en": "Ukrainian Drones Hit Russian Navy Missile Warship in Gulf of Finland",
+    "ar": "مسيرات أوكرانية تضرب سفينة صواريخ تابعة للبحرية الروسية في خليج فنلندا",
+    "ru": "Украинские дроны поразили ракетный корабль ВМФ России в Финском заливе"
+   },
+   "summary": {
+    "he": "כטב\"מים אוקראיניים תקפו ספינת טילים של הצי הרוסי במפרץ פינלנד (הים הבלטי), מה שחייב לגרור או ללוות אותה בחזרה לבסיס לצורך תיקונים.",
+    "en": "Ukrainian drones struck a Russian Navy missile warship in the Gulf of Finland, forcing it to be escorted back to port for repairs.",
+    "ar": "استهدفت مسيرات أوكرانية سفينة حربية صواريخ تابعة للبحرية الروسية في خليج فنلندا، مما اضطرها للعودة تحت escort للقاعدة.",
+    "ru": "Украинские беспилотники атаковали ракетный корабль ВМФ России в Финском заливе, после чего судно пришлось отбуксировать на ремонт."
+   },
+   "kid": {
+    "he": "צבא אוקראינה פגע בספינת מלחמה רוסית בצפון אירופה באמצעות רחפנים מתפוצצים. האירוע מראה את עוצמת הלחימה ומעלה את החשש מהסלמה באירופה.",
+    "en": "The Ukrainian military hit a Russian warship in Northern Europe using explosive drones. This highlights ongoing conflict and geopolitical tensions.",
+    "ar": "ضرب الجيش الأذربيجاني... أضرب الجيش الأوكراني سفينة حربية روسية في شمال أوروبا بطائرات مسيرة متفجرة، مما يزيد التوترات.",
+    "ru": "Украинские военные поразили российский военный корабль на севере Европы с помощью дронов, что усиливает геополитическую напряженность."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU3FxWjdEWEZ5YXN1dWJBWlE0UFFuTUxkMHVLNXRrbFVvejB6anVoTlloVWxKU2djNWh4am1Qd1M4aW1lWTdNbTd1UWhNb3NiNUlscUZuaWFqZjRRdUlXM3V0V1BWT0dfQkMxaW96enRvNzU4akFtdElRV2xjRmU5dk5zaU4xTHBZUTN0MlYzZTF1RzhNLWlnZDhVSVByNzZHVXpnM3ZDWkhKYThJWUNQczlvUGtCUGR3ZmthaFV0dlF0RjIwM05oaUc3TUtBTlMyeE4ySlU2T2dWRWxMNGhyd0FIeHJNUW96VlNPa25JYVB1V3hzMjlIOTNvZHUxdw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794704327,
+    "reason": "המשך הלחימה וההסלמה הימית מגדילים את ההסתברות לתקציבי ביטחון גבוהים למערכות הגנה וכלים בלתי מאוישים.",
+    "reason_i18n": {
+     "he": "המשך הלחימה וההסלמה הימית מגדילים את ההסתברות לתקציבי ביטחון גבוהים למערכות הגנה וכלים בלתי מאוישים.",
+     "en": "Ongoing maritime escalation increases the likelihood of sustained high defense spending on drones and security.",
+     "ar": "التصعيد البحري المستمر يزيد احتمالية استمرار الإنفاق الدفاعي المرتفع على المسيرات والأمن.",
+     "ru": "Продолжающаяся эскалация повышает вероятность высоких оборонных расходов."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון אמריקאית",
+     "en": "ITA – iShares U.S. Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
+     "ru": "ITA — ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.51
+   },
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1794704327,
+    "reason": "הצלחת תקיפות כטב\"מים ימיות ואוויריות מחזקת את הביקוש למערכות בלתי מאוישות מתקדמות.",
+    "reason_i18n": {
+     "he": "הצלחת תקיפות כטב\"מים ימיות ואוויריות מחזקת את הביקוש למערכות בלתי מאוישות מתקדמות.",
+     "en": "The proven combat efficacy of drone strikes boosts demand for advanced uncrewed systems.",
+     "ar": "النجاح القتالي للمسيرات يعزز الطلب على الأنظمة غير المأهولة المتقدمة.",
+     "ru": "Доказанная боевая эффективность дронов повышает спрос на беспилотные системы."
+    },
+    "name_i18n": {
+     "he": "AVAV – ארווירונמנט (רחפנים צבאיים)",
+     "en": "AVAV – AeroVironment",
+     "ar": "AVAV - أيروفيرونمنت للمسيرات",
+     "ru": "AVAV — AeroVironment"
+    },
+    "price_at_alert": 117.52
+   }
+  ],
+  "id": "dcdc34d1320c"
  }
 ]
