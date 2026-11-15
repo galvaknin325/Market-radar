@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-15T18:07Z",
+ "generated": "2026-11-15T19:02Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 960,
+ "total_alerts": 962,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -534,14 +534,14 @@
    "avg_edge": -1.03
   },
   "VGK": {
-   "mentions": 24,
+   "mentions": 25,
    "n": 18,
    "hits": 10,
    "name": {
-    "he": "VGK - קרן סל מניות אירופה",
-    "en": "VGK – Vanguard FTSE Europe ETF",
-    "ar": "VGK - صندوق الأسهم الأوروبية",
-    "ru": "VGK – ETF европейских акций"
+    "he": "VGK - תעודת סל של מניות אירופיות",
+    "en": "VGK - European stock ETF",
+    "ar": "VGK - صندوق استثمار للأسهم الأوروبية",
+    "ru": "VGK - биржевой фонд европейских акций"
    },
    "avg_edge": -0.08
   },
@@ -1514,6 +1514,18 @@
     "en": "Bank Leumi - major Israeli bank",
     "ar": "بنك لئومي - بنك إسرائيلي رئيسي",
     "ru": "Bank Leumi - крупный израильский банк"
+   },
+   "avg_edge": null
+  },
+  "FANG": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Diamondback Energy - חברת נפט וגז",
+    "en": "Diamondback Energy - Oil and gas company",
+    "ar": "Diamondback Energy - شركة نفط وغاز",
+    "ru": "Diamondback Energy - нефтегазовая компания"
    },
    "avg_edge": null
   }
