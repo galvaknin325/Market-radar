@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-15T19:44Z",
+ "generated": "2026-11-15T20:22Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 965,
+ "total_alerts": 967,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,24 +78,24 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 110,
+   "mentions": 112,
    "n": 87,
    "hits": 39,
    "name": {
-    "he": "קרן סל נפט",
+    "he": "תעודת סל נפט",
     "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
+    "ar": "صندوق النفط",
     "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.16
   },
   "XLE": {
-   "mentions": 94,
+   "mentions": 95,
    "n": 74,
    "hits": 41,
    "name": {
     "he": "מגזר האנרגיה",
-    "en": "Energy Sector",
+    "en": "Energy sector",
     "ar": "قطاع الطاقة",
     "ru": "Энергетический сектор"
    },
@@ -114,14 +114,14 @@
    "avg_edge": 0.74
   },
   "XOM": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 27,
    "hits": 12,
    "name": {
-    "en": "Exxon – Oil producer",
-    "he": "אקסון - חברת נפט",
-    "ar": "إكسون - منتج النفط",
-    "ru": "Exxon - нефтяная компания"
+    "he": "אקסון מוביל",
+    "en": "Exxon Mobil",
+    "ar": "إكسون موبيل",
+    "ru": "Exxon Mobil"
    },
    "avg_edge": -0.02
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.37
   },
   "ITA": {
-   "mentions": 166,
+   "mentions": 167,
    "n": 127,
    "hits": 76,
    "name": {
-    "he": "קרן סל לתחום התעופה והביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA - صندوق استثماري لقطاع الطيران والدفاع",
-    "ru": "ITA — ETF аэрокосмического и оборонного секторов"
+    "he": "מגזר הביטחון",
+    "en": "Defense sector",
+    "ar": "قطاع الدفاع",
+    "ru": "Оборонный сектор"
    },
    "avg_edge": -1.64
   },
@@ -366,12 +366,12 @@
    "avg_edge": -0.31
   },
   "XLV": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 21,
    "hits": 18,
    "name": {
     "he": "מגזר הבריאות",
-    "en": "Healthcare Sector",
+    "en": "Healthcare sector",
     "ar": "قطاع الرعاية الصحية",
     "ru": "Сектор здравоохранения"
    },
