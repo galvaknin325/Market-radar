@@ -1456,201 +1456,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794178333,
-  "time": "2026-11-08T22:52Z",
-  "title": "דולר ניו זילנדי עולה בעקבות התחזקות מפלגת השלטון",
-  "summary": "הדולר הניו זילנדי התחזק לאחר שמפלגת השלטון קיבלה יתרון בתוצאות הבחירות.",
-  "kid": "המטבע של ניו זילנד עלה כי נראה שמפלגת השלטון שומרת על כוחה. זה משפיע על שער המטבעות.",
-  "i18n": {
-   "title": {
-    "he": "דולר ניו זילנדי עולה בעקבות התחזקות מפלגת השלטון",
-    "en": "New Zealand Dollar advances as ruling party gets edge",
-    "ar": "الدولار النيوزيلندي يرتفع مع حصول الحزب الحاكم على أفضلية",
-    "ru": "Новозеландский доллар растет на фоне успехов правящей партии"
-   },
-   "summary": {
-    "he": "הדולר הניו זילנדי התחזק לאחר שמפלגת השלטון קיבלה יתרון בתוצאות הבחירות.",
-    "en": "The New Zealand Dollar advanced as the ruling party got an election edge.",
-    "ar": "ارتفع الدولار النيوزيلندي بعد حصول الحزب الحاكم على ميزة في الانتخابات.",
-    "ru": "Новозеландский доллар укрепился после того, как правящая партия получила преимущество на выборах."
-   },
-   "kid": {
-    "he": "המטבע של ניו זילנד עלה כי נראה שמפלגת השלטון שומרת על כוחה. זה משפיע על שער המטבעות.",
-    "en": "New Zealand's currency rose as the ruling party maintained an edge. This affects exchange rates.",
-    "ar": "ارتفعت عملة نيوزيلندا مع احتفاظ الحزب الحاكم بالأفضلية. يؤثر ذلك على أسعار الصرف.",
-    "ru": "Валюта Новой Зеландии выросла, так как правящая партия сохранила преимущество. Это влияет на обменные курсы."
-   }
-  },
-  "category": "macro",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "UUP",
-    "direction": "down",
-    "t0": 1794178333,
-    "reason": "התחזקות המטבע המקומי בניו זילנד לוחצת על הדולר האמריקאי",
-    "reason_i18n": {
-     "he": "התחזקות המטבע המקומי בניו זילנד לוחצת על הדולר האמריקאי",
-     "en": "New Zealand currency strength weighs on the US dollar",
-     "ar": "قوة العملة النيوزيلندية تشكل ضغطاً على الدولار الأمريكي",
-     "ru": "Сила новозеландской валюты оказывает давление на доллар США"
-    },
-    "name_i18n": {
-     "he": "UUP - קרן סל דולר אמריקאי",
-     "en": "UUP - US Dollar ETF",
-     "ar": "UUP - صندوق الدولار الأمريكي",
-     "ru": "UUP - ETF доллара США"
-    },
-    "price_at_alert": 29.13,
-    "entry_price": 29.02,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 29.15,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.45,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.63,
-    "edge_pct": 0.63,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "3d4c9e729cf7",
-  "evaluated": true
- },
- {
-  "ts": 1794178333,
-  "time": "2026-11-08T22:52Z",
-  "title": "האפיפיור מבקר בארגנטינה ונפגש עם הנשיא מיליי",
-  "summary": "האפיפיור לאו הגיע לביקור היסטורי בארגנטינה ונפגש עם הנשיא חבייר מיליי, על רקע מתחים קודמים עם הממשלה.",
-  "kid": "האפיפיור מבקר לראשונה מזה עשורים בארגנטינה ונפגש עם הנשיא המקומי. זה עשוי להשפיע על השווקים במדינה.",
-  "i18n": {
-   "title": {
-    "he": "האפיפיור מבקר בארגנטינה ונפגש עם הנשיא מיליי",
-    "en": "Pope visits Argentina and meets President Milei",
-    "ar": "البابا يزور الأرجنتين ويلتقي بالرئيس ميلي",
-    "ru": "Папа Римский посещает Аргентину и встречается с президентом Милеем"
-   },
-   "summary": {
-    "he": "האפיפיור לאו הגיע לביקור היסטורי בארגנטינה ונפגש עם הנשיא חבייר מיליי, על רקע מתחים קודמים עם הממשלה.",
-    "en": "Pope Leo arrived on a historic visit to Argentina and met President Javier Milei, amid previous tensions with the government.",
-    "ar": "وصل البابا ليو في زيارة تاريخية إلى الأرجنتين واجتمع بالرئيس خافيير ميلي، وسط توترات سابقة مع الحكومة.",
-    "ru": "Папа Лев прибыл с историческим визитом в Аргентину и встретился с президентом Хавьером Милеем на фоне прежних напряженных отношений с правительством."
-   },
-   "kid": {
-    "he": "האפיפיור מבקר לראשונה מזה עשורים בארגנטינה ונפגש עם הנשיא המקומי. זה עשוי להשפיע על השווקים במדינה.",
-    "en": "The Pope is visiting Argentina for the first time in decades and meeting the president. This can impact local markets.",
-    "ar": "البابا يزور الأرجنتين لأول مرة منذ عقود ويلتقي بالرئيس. قد يؤثر ذلك على الأسواق المحلية.",
-    "ru": "Папа Римский впервые за десятилетия посещает Аргентину и встречается с президентом. Это может повлиять на местные рынки."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWZ",
-    "direction": "up",
-    "t0": 1794178333,
-    "reason": "השפעה אזורית של ביקור אפיפיורי היסטורי באמריקה הלטינית",
-    "reason_i18n": {
-     "he": "השפעה אזורית של ביקור אפיפיורי היסטורי באמריקה הלטינית",
-     "en": "Regional sentiment spillover from historic papal visit in Latin America",
-     "ar": "تأثير إيجابي غير مباشر للزيارة البابوية التاريخية في أمريكا اللاتينية",
-     "ru": "Региональное влияние исторического визита Папы Римского в Латинскую Америку"
-    },
-    "name_i18n": {
-     "he": "EWZ - קרן סל אמריקה הלטינית/ברזיל",
-     "en": "EWZ - Brazil ETF",
-     "ar": "EWZ - صندوق البرازيل",
-     "ru": "EWZ - ETF Бразилии"
-    },
-    "price_at_alert": 31.98,
-    "entry_price": 32.23,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 32.15,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.25,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.33,
-    "edge_pct": -1.33,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "088153c1606a",
-  "evaluated": true
- },
- {
-  "ts": 1794178333,
-  "time": "2026-11-08T22:52Z",
-  "title": "טראמפ מעוניין בדיינה ווייט כדובר הבית הלבן",
-  "summary": "דונלד טראמפ שוקל למנות את מנכ\"ל ארגון ה-UFC דיינה ווייט לדובר הבית הלבן, על בסיס קשרי העסקים ארוכי השנים ביניהם.",
-  "kid": "טראמפ רוצה את ראש ארגון קרבות ה-UFC כדובר המרכזי בבית הלבן. זה מדגיש את הקשרים העסקיים שלו עם דמויות תקשורת.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ מעוניין בדיינה ווייט כדובר הבית הלבן",
-    "en": "Trump wants UFC chief Dana White as White House press secretary",
-    "ar": "ترامب يريد رئيس يو إف سي دانا وايت متحدثاً باسم البيت الأبيض",
-    "ru": "Трамп хочет видеть главу UFC Дану Уайта пресс-секретарем Белого дома"
-   },
-   "summary": {
-    "he": "דונלד טראמפ שוקל למנות את מנכ\"ל ארגון ה-UFC דיינה ווייט לדובר הבית הלבן, על בסיס קשרי העסקים ארוכי השנים ביניהם.",
-    "en": "Donald Trump is considering UFC chief Dana White for White House press secretary, leveraging their decades-long business ties.",
-    "ar": "يدرس دونالد ترامب تعيين رئيس يو إف سي دانا وايت متحدثاً باسم البيت الأبيض، مستفيداً من علاقاتهما التجارية الممتدة لعقود.",
-    "ru": "Дональд Трамп рассматривает главу UFC Дану Уайта на пост пресс-секретаря Белого дома, опираясь на их многолетние деловые связи."
-   },
-   "kid": {
-    "he": "טראמפ רוצה את ראש ארגון קרבות ה-UFC כדובר המרכזי בבית הלבן. זה מדגיש את הקשרים העסקיים שלו עם דמויות תקשורת.",
-    "en": "Trump wants the UFC boss as his press secretary, highlighting his close ties with high-profile media figures.",
-    "ar": "يريد ترامب رئيس بطولة القتال كمتحدث رسمي، مما يبرز علاقاته القوية بشخصيات إعلامية بارزة.",
-    "ru": "Трамп хочет видеть главу UFC своим пресс-секретарем, подчеркивая свои тесные связи с известными медиафигурами."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794178333,
-    "reason": "מינויים פוליטיים לא צפויים המאותתים על קשר הדוק בין תקשורת וממשל",
-    "reason_i18n": {
-     "he": "מינויים פוליטיים לא צפויים המאותתים על קשר הדוק בין תקשורת וממשל",
-     "en": "Unconventional political appointments signaling close media-government ties",
-     "ar": "تعيينات سياسية غير تقليدية تشير إلى روابط وثيقة بين الإعلام والحكومة",
-     "ru": "Нестандартные политические назначения, сигнализирующие о тесных связях СМИ и правительства"
-    },
-    "name_i18n": {
-     "he": "SPY - מדד S&P 500",
-     "en": "SPY - S&P 500 ETF",
-     "ar": "SPY - صندوق مؤشر إس آند بي 500",
-     "ru": "SPY - ETF индекса S&P 500"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": 1.08,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "0e8e9bccb2fa",
-  "evaluated": true
- },
- {
   "ts": 1794180924,
   "time": "2026-11-08T23:35Z",
   "title": "אנתרופיק רוכשת גנרטורים ב-3.4 מיליארד דולר למרכזי נתונים של בינה מלאכותית",
@@ -27991,10 +27796,6 @@
   "sources": [
    {
     "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUUNwMi11dDVaU3FOQnY4M3dZd0hWR0dYdk0xOWtvS1RsUkVrNjBMWEFqTEU0eERab1NScldObmlKT0xzZlJ4MVRSekp6OVd0RU0yYjZuTWZwRTRKRnUtSjAwQ0hQcWhqWHpTT184R2FKTXVFazE2bmxraEFfNVpJSlN0YTlIcEdnZ1lGTTZ5SUo1N2hTRWNteUhqTW8?oc=5"
-   },
-   {
-    "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUtUWGhNUzhOb1p1dW1ObnJjVjV0NGMtVmZkM2VYNU9weXRjc21SSnlSbERyN3U5N3IwelpibmpUM2VDZ2lDLUVqa0NtdnBESFZ6Wm9maXk0cHhrZU9EaU16NGFTMmZZLXhsRGlsY1pFWnJ0SmJTOTNPcC1RWFQwanlBQmRFaXNycjEyNWd5WHdCa3BsdmZfakJQbjlvM00zWFVhRVlIeVl3QQ?oc=5"
    },
    {
@@ -28012,6 +27813,10 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVzlUV0piMjJMc19ISUd5WlFKSjFDb2dwTzJHdC1iRUJKNjNnREZXRlA2SWNkd3prbHNzNVZoSlhiS0xSdEwyY0kxNVVZNmo3VzE2OXpzOFB1Z1l2TmtJTC1nakR6QlZpODB0YzhNNWttdTlPNjVtWmZNNzktMFV0U0FSYkt6MDFENVJsWlg4R21BWTNXa2Rmejl6c3dCQTJ3M1RjQVdzRlNybE0xRUtOQ29IWlp6T0dYN0Z4OXg4eW4?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPamo1TUVmRHRmdzJTZ0tLSDhMZExfRzdvV0M2Q3VZSXJoYTdYcmliX2VEVnRjUy03am9GMjg3Tm9xaENRR1lnd2phUFlTdUFGeGh1bEMzTV83c1ZvTy1KV3hvLVZtM2NrYmwyZ0tUQkgyM1JNVmVKX21ScXZUQnJOWmZkN1RhS2xxc0hzU1ZVVVlBZmhNX2tzcXBZcUNHS2hP?oc=5"
    }
   ],
   "impacts": [
@@ -28203,9 +28008,21 @@
      "ar": "فازت شركة إلبيط سيستمز بعقد بقيمة 260 مليون دولار لتوريد أنظمة صواريخ PULS لدولة عضو في حلف الناتو.",
      "ru": "Elbit Systems выиграла контракт на сумму 260 млн долларов на поставку ракетных систем PULS стране-члену НАТО."
     }
+   },
+   {
+    "ts": 1794785351,
+    "time": "2026-11-15T23:29Z",
+    "severity": 4,
+    "summary": "חברת אלביט מערכות זכתה בחוזה חדש לאספקת מערכות ארטילריית רקטות.",
+    "i18n": {
+     "he": "חברת אלביט מערכות זכתה בחוזה חדש לאספקת מערכות ארטילריית רקטות.",
+     "en": "Elbit Systems has secured a new contract to provide rocket artillery systems.",
+     "ar": "فازت شركة إلبيت سيستمز بعقد جديد لتوفير أنظمة المدفعية الصاروخية.",
+     "ru": "Компания Elbit Systems заключила новый контракт на поставку систем ракетной артиллерии."
+    }
    }
   ],
-  "last_update": 1794714648,
+  "last_update": 1794785351,
   "evaluated": true
  },
  {
@@ -49259,5 +49076,63 @@
    }
   ],
   "id": "58e496fe7f18"
+ },
+ {
+  "ts": 1794785351,
+  "time": "2026-11-15T23:29Z",
+  "title": "תקלת היגוי גרמה להתנגשות אנייה ומכלית בניו אורלינס",
+  "summary": "חקירת ה-NTSB מעלה כי מכלית סבלה מתקלת היגוי רגע לפני שהתנגשה באוניית תענוגות בניו אורלינס.",
+  "kid": "ספינה ענקית התנגשה באחרת בגלל בעיית היגוי. אירוע כזה יכול להשפיע על חברות שמנהלות ספינות או נוסעים באזור.",
+  "i18n": {
+   "title": {
+    "he": "תקלת היגוי גרמה להתנגשות אנייה ומכלית בניו אורלינס",
+    "en": "Steering failure preceded New Orleans ship collision",
+    "ar": "عطل في التوجيه سبّب تصادم سفن في نيو أورلينز",
+    "ru": "Отказ рулевого управления привел к столкновению судов в Новом Орлеане"
+   },
+   "summary": {
+    "he": "חקירת ה-NTSB מעלה כי מכלית סבלה מתקלת היגוי רגע לפני שהתנגשה באוניית תענוגות בניו אורלינס.",
+    "en": "NTSB investigators found that a tanker suffered a steering failure before colliding with a cruise ship in New Orleans.",
+    "ar": "أظهر تحقيق مجلس سلامة النقل الوطني أن ناقلة تعطل توجيهها قبل اصطدامها بسفينة سياحية في نيو أورلينز.",
+    "ru": "Расследование NTSB показало, что у танкера отказало рулевое управление перед столкновением с круизным лайнером в Новом Орлеане."
+   },
+   "kid": {
+    "he": "ספינה ענקית התנגשה באחרת בגלל בעיית היגוי. אירוע כזה יכול להשפיע על חברות שמנהלות ספינות או נוסעים באזור.",
+    "en": "A large ship crashed into another because of a steering problem. This can affect companies running ships or cruises in the area.",
+    "ar": "اصطدمت سفينة ضخمة بأخرى بسبب مشكلة في التوجيه. قد يؤثر هذا على الشركات التي تدير السفن في المنطقة.",
+    "ru": "Большое судно столкнулось с другим из-за проблем с управлением. Это может повлиять на компании, управляющие судами в этом регионе."
+   }
+  },
+  "category": "commodities",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DAL",
+    "direction": "down",
+    "t0": 1794785351,
+    "reason": "חשש מהשפעה רוחבית על תחבורה ותיירות באזור ניו אורלינס.",
+    "reason_i18n": {
+     "he": "חשש מהשפעה רוחבית על תחבורה ותיירות באזור ניו אורלינס.",
+     "en": "Concerns over broader impact on transportation and tourism in New Orleans.",
+     "ar": "مخاوف بشأن التأثير الأوسع على النقل والسياحة في نيو أورلينز.",
+     "ru": "Опасения по поводу более широкого влияния на транспорт и туризм в Новом Орлеане."
+    },
+    "name_i18n": {
+     "he": "דלתא איירליינס – חברת תעופה",
+     "en": "Delta Air Lines – airline",
+     "ar": "دلتا إيرلاينز – شركة طيران",
+     "ru": "Delta Air Lines – авиакомпания"
+    },
+    "price_at_alert": 86.25
+   }
+  ],
+  "id": "e70ffcfd54ec"
  }
 ]
