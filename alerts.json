@@ -49036,6 +49036,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Pek15bnJoN0dKYTBRRUhuQVBoTjF4cVJHYmlFLS1ZNWtUQ3J0NWJkcDZnNWdUZklaMEljQUlYODloNEtQMWJDZ0p0Q1pjYkZhanUyQ0hR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWh1TEZ5YlcyWHZqbkFiMjlaOW50Y0dDS2xzQW5hdHQtX3RYWXROaEZfY0l3TkZnckFKZ0JuRjFJX1ZteHZzd2psbDJyOTNrZnFGUUt1aVpraE1wNEZmUVhiQVdiNTdFMU1pNVJpNGN2aWFiT3Vlajh0dFVMbm9fZ2JXeUMzTC1scVNvWTZDb1Vwc0JaODAyNFpCeEt4eFlQQUxCUUJaMHAwN3BER1kzQ0lpRnZwT1ZK?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVnViRE5KVThCeDBsNjBJcjl1dTU2Vkl4X3g3bUtWWWdIcy1BMXRGZjJNZmxaV1lTTHNaNklUWVRoTFpFdkF0Q2lvYVppdmZuT0VEMzg5OXBqVEJPZlplTHFqVXdzWGcwVGVROWRQUDVtcjdUUWM5NE1xSi1KLVFoUXJhWQ?oc=5"
    }
   ],
   "impacts": [
@@ -49076,9 +49084,43 @@
      "ru": "Судоходная компания"
     },
     "price_at_alert": 29.34
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794758188,
+    "reason": "חשש לפגיעה באספקת האנרגיה במזרח התיכון",
+    "reason_i18n": {
+     "he": "חשש לפגיעה באספקת האנרגיה במזרח התיכון",
+     "en": "Fears of Middle East energy supply disruptions",
+     "ar": "مخاوف من اضطرابات إمدادات الطاقة في الشرق الأوسط",
+     "ru": "Обоюшения сбоев поставок энергии на Ближнем Востоке"
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סктор האנרגיה",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "XLE – صندوق قطاع الطاقة",
+     "ru": "XLE – ETF энергетического сектора"
+    },
+    "price_at_alert": 64.96
    }
   ],
-  "id": "4d904ea0439a"
+  "id": "4d904ea0439a",
+  "updates": [
+   {
+    "ts": 1794758188,
+    "time": "2026-11-15T15:56Z",
+    "severity": 4,
+    "summary": "מתקפת טילים של החות'ים סמוך לעדן שבתימן הרגה חמישה אזרחים, בזמן שהלחימה באזור מתגברת.",
+    "i18n": {
+     "he": "מתקפת טילים של החות'ים סמוך לעדן שבתימן הרגה חמישה אזרחים, בזמן שהלחימה באזור מתגברת.",
+     "en": "A Houthi missile attack near Yemen's Aden killed five civilians as fighting and regional tensions intensify.",
+     "ar": "أسفر هجوم صاروخي شنته جماعة الحوثي قرب عدن في اليمن عن مقتل خمسة مدنيين مع تصاعد القتال.",
+     "ru": "Ракетный удар хуситов недалеко от Адена в Йемене унес жизни пяти гражданских лиц на фоне эскалации боев."
+    }
+   }
+  ],
+  "last_update": 1794758188
  },
  {
   "ts": 1794738401,
@@ -50108,5 +50150,86 @@
    }
   ],
   "id": "4ab29b943199"
+ },
+ {
+  "ts": 1794758188,
+  "time": "2026-11-15T15:56Z",
+  "title": "כטב\"מים פגעו באניות סחר בים הבלטי/שחור",
+  "summary": "כטב\"מים אלמונים פגעו בשלוש סניות סחר בים השחור סמוך לנתיב שייט רומני.",
+  "kid": "כטב\"מים פגעו בכמה ספינות סחר באזור הים השחור. אירוע זה עלול להעלות את עלויות הביטוח וההובלה הימית, מה שיכול להשפיע על מניות הספנות כמו ZIM.",
+  "i18n": {
+   "title": {
+    "he": "כטב\"מים פגעו באניות סחר בים הבלטי/שחור",
+    "en": "Commercial ships struck by drones near Romanian shipping channel",
+    "ar": "ضرب سفن تجارية بطائرات مسערة بالقرب من قناة الشحن الرومانية",
+    "ru": "Коммерческие суда поражены дронами вблизи румынского судоходного канала"
+   },
+   "summary": {
+    "he": "כטב\"מים אלמונים פגעו בשלוש סניות סחר בים השחור סמוך לנתיב שייט רומני.",
+    "en": "Unknown drones damaged three commercial ships in the Black Sea near a Romanian shipping channel.",
+    "ar": "تسببت طائرات مسيرة مجهولة في أضرار بثلاث سفن تجارية في البحر الأسود قرب ممر شحن روماني.",
+    "ru": "Неизвестные дроны повресли три коммерческих судна в Черном море недалеко от румынского судоходного канала."
+   },
+   "kid": {
+    "he": "כטב\"מים פגעו בכמה ספינות סחר באזור הים השחור. אירוע זה עלול להעלות את עלויות הביטוח וההובלה הימית, מה שיכול להשפיע על מניות הספנות כמו ZIM.",
+    "en": "Drones hit several cargo ships in the Black Sea. This can increase shipping and insurance costs, which might affect shipping stocks like ZIM.",
+    "ar": "أصابت طائرات مسيرة عدة سفن شحن في البحر الأسود. قد يؤدي ذلك إلى زيادة تكاليف الشحن والتأمين، مما قد يؤثر على أسهم شركات الشحن مثل ZIM.",
+    "ru": "Дроны поразили несколько грузовых судов в Черном море. Это может увеличить расходы на доставку и страхование, что может повлиять на акции судоходных компаний, таких как ZIM."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVFZtTFI1ZXV5Ny1iaF91cnQwMUZsOEYtTU1XYURXMU95UUxBbWRtOWxuazZfYmM1X1pBUTFmZGRlR29kRUF2a2p0aW9aTTl5aktuaDlJakFSSklNNkJVZlFmY1pDaUMzNVlrdVJkZVh2NDRyTDNpTVV0RzY4SUthU3c2WnhSNUQ1OS11VFZqeklZdDQwT0c2ZTg4QkFwaVV4QWJLeDB0M2nSAacBQVVfeXFMTmFHM053cFk0Tm90QW9vXzAwckdaVV93NW45c0FUdnptZEZmS3lQZkxaS3ZfYnVJcklxb2JzMlp3bkUzS28zSFNZZWZXTXRnR2hRWm8ydnlkc1l0U1d5andzZ1ZfbVFpNmhEcWU3X3V0S0RuNnB1MFpPRjZJdkU4V3AtWHMybjlkclBidVlGT1NuS1RrOHJWTHJ5eE95blZlTW9xeGRNZlU?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbk5rWERIWWJ4S09GTng3cklMSkM2QXdLS3FycXpRcjhzakNEZXZGcTJCdEdBZU8xTHhyNFpfOWNqdE9XSlRxRXlwT1c2bFJyNVU5NVNvNVluX3NTcTJ5T3dma0JIQUZMM2VVZDEtSTVQZ1U2ZGZCWVgxaXF3WGNLRG9rUGZrSmZ2d0ZSdzNyV2RMTWE2ZXlxeHBEeXhFWUVqa0JYdExKXzFFMFdMa1NTWTVJTEs4Zmd2UVMwUFZB0gG-AUFVX3lxTE9uTmtYREhZYnhLT0ZOeDdySUxKQzZBd0tLcXJxelFyOHNqQ0RldkZxMkJ0R0FlTzFMeHI0Wl85Y2p0T1dKVHFFeXBPVzZsUnI1VTk1U281WW5fc1NxMnlPd2ZrQkhBRkwzZVVkMS1JNVBnVTZkZkJZWDFpcXdYY0tEb2tQZmtKZnZ3RlJ3M3JXZExNYTZleXF4cER5eEVZRWprQlh0TEpfMUUwV0xrU1NZNUlMSzhmZ3ZRUzBQVkE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794758188,
+    "reason": "שיבושים בנתיבי הים השחור עשויים להעלות את מחירי ההובלה",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי הים השחור עשויים להעלות את מחירי ההובלה",
+     "en": "Black Sea shipping disruptions could drive freight rates higher",
+     "ar": "اضطرابات الشحن في البحر الأسود قد ترفع أسعار الشحن",
+     "ru": "Сбои в судоходстве в Черном море могут поднять ставки фрахта"
+    },
+    "name_i18n": {
+     "he": "ZIM – חברת ספנות",
+     "en": "ZIM – shipping company",
+     "ar": "ZIM – شركة شحن",
+     "ru": "ZIM – судоходная компания"
+    },
+    "price_at_alert": 29.34
+   },
+   {
+    "ticker": "BDRY",
+    "direction": "up",
+    "t0": 1794758188,
+    "reason": "סיכונים ביטחוניים ימיים מעלים את עלויות התובלה",
+    "reason_i18n": {
+     "he": "סיכונים ביטחוניים ימיים מעלים את עלויות התובלה",
+     "en": "Maritime security risks push up transport costs",
+     "ar": "مخاطر الأمن البحري ترفع تكاليف النقل",
+     "ru": "Риски морской безопасности повышают транспортные расходы"
+    },
+    "name_i18n": {
+     "he": "BDRY – קרן הובלה ימית",
+     "en": "BDRY – dry bulk shipping ETF",
+     "ar": "BDRY – صندوق استثمار الشحن",
+     "ru": "BDRY – ETF морских перевозок"
+    },
+    "price_at_alert": 12.93
+   }
+  ],
+  "id": "c9465db48ab2"
  }
 ]
