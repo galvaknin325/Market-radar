@@ -1715,386 +1715,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794123446,
-  "time": "2026-11-08T07:37Z",
-  "title": "מחירי חיטה יורדים לקראת שיחות שלום",
-  "summary": "מחירי החיטה ירדו לשפל מאז חודש יוני על רקע ציפייה לשיחות שלום באזור הים השחור.",
-  "kid": "מחירי החיטה יורדים כי אנשים מצפים לשלום באזור שמייצר הרבה דגנים, מה שיכול להוזיל את עלות המזון.",
-  "i18n": {
-   "title": {
-    "he": "מחירי חיטה יורדים לקראת שיחות שלום",
-    "en": "Wheat Prices Fall Ahead of Peace Talks",
-    "ar": "أسعار القمح تنخفض قبيل محادثات السلام",
-    "ru": "Цены на пшеницу падают в преддверии мирных переговоров"
-   },
-   "summary": {
-    "he": "מחירי החיטה ירדו לשפל מאז חודש יוני על רקע ציפייה לשיחות שלום באזור הים השחור.",
-    "en": "Wheat prices dropped to their lowest level since June amid expectations of peace talks in the Black Sea region.",
-    "ar": "הخفضت أسعار القمح إلى أدنى مستوياتها منذ يونيو وسط توقعات بمحادثات سلام في منطقة البحر الأسود.",
-    "ru": "Цены на пшеницу упали до самого низкого уровня с июня на фоне ожиданий мирных переговоров в Черноморском регионе."
-   },
-   "kid": {
-    "he": "מחירי החיטה יורדים כי אנשים מצפים לשלום באזור שמייצר הרבה דגנים, מה שיכול להוזיל את עלות המזון.",
-    "en": "Wheat prices are falling because people expect peace in a big grain region, which could lower food costs.",
-    "ar": "أسعار القمح تنخفض لأن الناس يتوقعون السلام في منطقة منتجة للحبوب، مما قد يخفض تكلفة الطعام.",
-    "ru": "Цены на пшеницу падают, так как ожидается мир в зерновом регионе, что может удешевить продукты питания."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaEU3MTFTeTVJNl9hZ3p4V2dRdzNLYUhDbklIS0U0TlMyQUJRSXBMcHJ5aFlNU2pnRXVBYVNXVFUtM2ZpUzdaLWpVNVA0dmhBbjhEbm0zN2lRSzhYVnRrZzRSQmlTdXNodjVsRDZNYV95UXh4ZWhOMjhQWmQ4dTVPNmhsRFRWcnlFd3dHNEdTb2pWdWxCT2c1OFRBLXpiTEZSUVBUQnhiSi1qSTVycVp4U9IBtgFBVV95cUxPTXRSTUp1YkJhaXVYODZ4TmpHX2hxUTdKYmNMVGZQd29jRVBWZG5IeW5vRzdYU0hxZnBHQXRNRmVreXZCV1JWc2xmZGhENHQxbFhPdkFsTHYtVUdSZmZWT05tWjFBd3o1ZU9ITHF4MDR2dS1wcmhiTjZ2aGdCM3ZVUHVud2JreWZoY2c0anI1OWtXSjRBV194djkwMXVwdUQwVjN0Y0o5ZFdzTDZxZ0F6aG5td3g2UQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "WEAT",
-    "direction": "down",
-    "t0": 1794123446,
-    "reason": "ירידת מחירי החיטה בעקבות ציפייה לפתרון דיפלומטי",
-    "reason_i18n": {
-     "he": "ירידת מחירי החיטה בעקבות ציפייה לפתרון דיפלומטי",
-     "en": "Falling wheat prices due to diplomatic expectations",
-     "ar": "انخفاض أسعار القمح بسبب التوقعات الدبلوماسية",
-     "ru": "Падение цен на пшеницу из-за дипломатических ожиданий"
-    },
-    "name_i18n": {
-     "he": "קרן סל על חיטה",
-     "en": "Wheat ETF",
-     "ar": "صندوق استثمار القمح",
-     "ru": "ETF на пшеницу"
-    },
-    "price_at_alert": 21.73,
-    "entry_price": 21.67,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 21.745,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.35,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.73,
-    "edge_pct": 0.73,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "3260e091c0eb",
-  "evaluated": true
- },
- {
-  "ts": 1794123446,
-  "time": "2026-11-08T07:37Z",
-  "title": "הערכת השווי של אנתרופיק ירדה בחצי",
-  "summary": "שוויה של חברת הבינה המלאכותית אנתרופיק חווה ירידה של 50% על רקע חששות מבועת AI והגברת הרגולציה.",
-  "kid": "חברת בינה מלאכותית גדולה שוויה ירד בחצי בגלל פחדים שהשוק התחמם יותר מדי ורגולטורים יקשחו את הכללים.",
-  "i18n": {
-   "title": {
-    "he": "הערכת השווי של אנתרופיק ירדה בחצי",
-    "en": "Anthropic Valuation Halved Amid Regulation Fears",
-    "ar": "تراجع تقييم شركة أنثروبيك إلى النصف وسط مخاوف تنظيمية",
-    "ru": "Оценка Anthropic снизилась вдвое на фоне регуляторных страхов"
-   },
-   "summary": {
-    "he": "שוויה של חברת הבינה המלאכותית אנתרופיק חווה ירידה של 50% על רקע חששות מבועת AI והגברת הרגולציה.",
-    "en": "AI firm Anthropic saw its valuation halved amid fears of an AI bubble and tightening regulation.",
-    "ar": "شهدت شركة الذكاء الاصطناعي أنثروبيك انخفاض تقييمها إلى النصف وسط مخاوف فقاعة الذكاء الاصطناعي.",
-    "ru": "Оценка ИИ-компании Anthropic сократилась вдвое на фоне страхов пузыря ИИ и регуляторного давления."
-   },
-   "kid": {
-    "he": "חברת בינה מלאכותית גדולה שוויה ירד בחצי בגלל פחדים שהשוק התחמם יותר מדי ורגולטורים יקשחו את הכללים.",
-    "en": "A major AI company's value dropped by half due to fears of an overheated market and strict rules.",
-    "ar": "انخفضت قيمة شركة ذكاء اصطناعي كبرى إلى النصف بسبب مخاوف من فقاعة السوق وقواعد تنظيمية صارمة.",
-    "ru": "Стоимость крупной ИИ-компании упала вдвое из-за опасений перегрева рынка и жестких правил."
-   }
-  },
-  "category": "policy",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjMxM21kMWtmbG8waDVhR0tHSU1qaC1FcFluN1AwTGtkNVFOekd5eXQwTVRlWC10QVlOV0lOQm1NVzdMV3VIMWZVdUpTa1g2RDJjVW83Um1WT3FDTkdrVFNTUVhWVWdmQkpQWF9PWGR4TDdwSi00R2taVFdxcjNmcEM5dy1Ucy1S?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1794123446,
-    "reason": "סנטימנט שלילי בחברות טכנולוגיה ובינה מלאכותית",
-    "reason_i18n": {
-     "he": "סנטימנט שלילי בחברות טכנולוגיה ובינה מלאכותית",
-     "en": "Negative sentiment in tech and AI stocks",
-     "ar": "معنويات سلبية في أسهم التكنولوجيا والذكاء الاصطناعي",
-     "ru": "Негативные настроения в технологических акциях и ИИ"
-    },
-    "name_i18n": {
-     "he": "קרן סל נאסד\"ק 100",
-     "en": "Nasdaq 100 ETF",
-     "ar": "صندوق ناسداك 100",
-     "ru": "ETF Nasdaq 100"
-    },
-    "price_at_alert": 656.1,
-    "entry_price": 662.68,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 674.81,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.83,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.75,
-    "edge_pct": -0.75,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d219ef8e455d",
-  "evaluated": true
- },
- {
-  "ts": 1794123446,
-  "time": "2026-11-08T07:37Z",
-  "title": "טראמפ מקשר בין הפסד הבחירות לקריסת וול סטריט",
-  "summary": "הנשיא לשעבר טראמפ טוען כי הפסיד כ-3 טריליון דולר ומקשר את נפילות השווקים לזכיות דמוקרטיות בבחירות.",
-  "kid": "פוליטיקאים בכירים בארה\"ב מתווכחים על השפעת תוצאות הבחירות על הכלכלה ושווקי המניות.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ מקשר בין הפסד הבחירות לקריסת וול סטריט",
-    "en": "Trump Links Election Loss to Wall Street Crash Fears",
-    "ar": "ترامب يربط خسارة الانتخابات بمخاوف انهيار وول ستريت",
-    "ru": "Трамп связывает поражение на выборах с опасениями краха Уолл-стрит"
-   },
-   "summary": {
-    "he": "הנשיא לשעבר טראמפ טוען כי הפסיד כ-3 טריליון דולר ומקשר את נפילות השווקים לזכיות דמוקרטיות בבחירות.",
-    "en": "Former President Trump claimed about $3 trillion lost and linked market drops to Democratic election gains.",
-    "ar": "زعِم الرئيس السابق ترامب خسارة نحو 3 تريليونات دولار وربط هبوط الأسواق بمكاسب الديمقراطيين الانتخابية.",
-    "ru": "Экс-президент Трамп заявил о потере около $3 трлн и связал падение рынков с победой демократов на выборах."
-   },
-   "kid": {
-    "he": "פוליטיקאים בכירים בארה\"ב מתווכחים על השפעת תוצאות הבחירות על הכלכלה ושווקי המניות.",
-    "en": "Top US politicians are arguing about how election results impact the economy and stock markets.",
-    "ar": "سياسيون أمريكيون كبار يتجادلون حول تأثير نتائج الانتخابات على الاقتصاد وأسواق الأسهم.",
-    "ru": "Ведущие политики США спорят о том, как результаты выборов влияют на экономику и фондовый рынок."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNc2YySU05UU40V1BSeGVENUE1UjVGY0dHUkF5Tnd6OGhFUG1hQkhlbFBhVXYxZV9JSDVZcVVPblBDYnNYbm9pYkNnNk1wV21EMGtpMi1pakpfbWZiekFIbm1naTNXLU91ODNyY2V6a3pZMEZ1azRESlAxaFVpWTdId3pMSFZ4TEllcFV2a3NQR2p5NTZVMUNFZ21qamdFYkxZRlVVN3VhemlJTGpkM0VUWHpfcG8tVXhIM0F5M0lWc2V1QUNqVFJZdDg1V2VRMWtYamNfc09HMTlSdVVxR29YdnBrbDVQYkxHcHZoSlFRLUNRODVGMlNaWHAySk5YdHhPRVlRVzFVNUNPenROV3d5emgtRnN1bkNLQmJPTDZhQ2R6WVdfNl83WnJ1a3h5SlBHclhtVmhURmbSAb4CQVVfeXFMT1hHcjNBdG5oZ3RrN2dyUlpBLTZKMjdMM184djNUSTExc0ZOdjZaR1VEMFpFMGZLSjZXOWhuZTBhZmVmamd5Q0FkVVdEc3hpSEVnY0xuSy1fc09zSDlqSldhQ1NsR0ZMRE1zZURXWVMwdzJIVXJTRWlLZlEzQ0prdXhpZ2dEblJheTliNU9JSXpjNUFUNGRtbTJudkxvcjB2TlJNME8yRURGZmxlbndZUkJoVEZfRGRiaV9lc0RoX0ptUkFkY0FMSGQ5eDZtSGh6WERMZTVaRkU0S01WcWFQemRRamZqRVBJQ20wNGZRQVRjczE5SnFUZGQtUjFJNDBEVW8ySVZ6VU9rWVlIVU5fS2ZqanowaWJkM3hkNXAtY25ZVlU5SWdZazJ6aVZ5Y1h3Rk9lWDRuenFRU0R0cGl3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794123446,
-    "reason": "חוסר ודאות פוליטי המעיב על סנטימנט המשקיעים",
-    "reason_i18n": {
-     "he": "חוסר ודאות פוליטי המעיב על סנטימנט המשקיעים",
-     "en": "Political uncertainty weighing on investor sentiment",
-     "ar": "الضبابية السياسية تثقل كاهل معنويات المستثمرين",
-     "ru": "Политическая неопределенность давит на настроения инвесторов"
-    },
-    "name_i18n": {
-     "he": "קרן סל מדד S&P 500",
-     "en": "S&P 500 ETF",
-     "ar": "صندوق مؤشر S&P 500",
-     "ru": "ETF индекса S&P 500"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": -1.08,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "0f200efdcdc6",
-  "evaluated": true
- },
- {
-  "ts": 1794123446,
-  "time": "2026-11-08T07:37Z",
-  "title": "מחירי הזהב והכסף במוקד לקראת נתוני אינפלציה ומתיחות",
-  "summary": "מחירי הזהב והכסף נערכים לתנודתיות על רקע מתיחות גיאופוליטית בין ארה\"ב לאיראן ולקראת פרסום נתוני אינפלציה.",
-  "kid": "משקיעים מסתכלים מקרוב על מחירי הזהב והכסף בזמן שיש מלחמה ומצפים לנתוני כלכלה חשובים.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הזהב והכסף במוקד לקראת נתוני אינפלציה ומתיחות",
-    "en": "Gold and Silver Focus Ahead of Inflation Data and Tensions",
-    "ar": "تركيز على الذهب والفضة قبيل بيانات التضخم والتوترات",
-    "ru": "Золото и серебро в фокусе перед данными по инфляции и эскалацией"
-   },
-   "summary": {
-    "he": "מחירי הזהב והכסף נערכים לתנודתיות על רקע מתיחות גיאופוליטית בין ארה\"ב לאיראן ולקראת פרסום נתוני אינפלציה.",
-    "en": "Gold and silver prices brace for volatility amid US-Iran geopolitical tensions and upcoming inflation data releases.",
-    "ar": "أسعار الذهب والفضة تستعد للتقلبات وسط التوترات الجيوسياسية بين أمريكا وإيران وبيانات التضخم القادمة.",
-    "ru": "Цены на золото и серебро готовятся к волатильности на фоне геополитической напряженности и данных по инфляции."
-   },
-   "kid": {
-    "he": "משקיעים מסתכלים מקרוב על מחירי הזהב והכסף בזמן שיש מלחמה ומצפים לנתוני כלכלה חשובים.",
-    "en": "Investors are closely watching gold and silver prices as war risks rise and key economic data approaches.",
-    "ar": "المستثمرون يراقبون أسعار الذهب والفضة عن كثب مع تصاعد مخاطر الحرب واقتراب البيانات الاقتصادية.",
-    "ru": "Инвесторы внимательно следят за золотом и серебром на фоне рисков войны и приближения экономических данных."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOYnBnNDBNak5BRkNUUndxUWdXbFVVX3pfck5DSVRaOXR3OVlHeG1rVTRPRG1jWUhqNEEzQTBMS1JEN01lUVZmYlJ3dWNuQ1k2Y0tZSkN4VGxkeHM0c3F2a25idWZ1U0cxcTc2cElXNll2UWxLbFRrdFAyQUJCNWJZWV9Oa0VaQVRZVUdTTHRjeXh3MlczTUNSalFCaDlxakc3UUxkaG9vbTkteEYtcm5DakdLdDh2Q0F0cHJXbXRFOUlZd2MwQ2ptM3E2dkFZby1kUjZzVmxsVk5GM1Rwc0FxMnJoQ1pPbzlwamZKMTg0clpMa2dCMHk3OFg3SmVUQdIBgwJBVV95cUxPUlRkS3VDZ2JsQU83eTdwd1R3QmpyeUVaMEdyUTdYb3VkZTZETE0zNXhzNEh0VUlocVBkMWYxRXh5OWZrejZpS3BIYzlnZ0ltanc3NGstdmhSejdxZkRiX3V4MS1yR19RYzc2OU9oWW4wTUhqZl9rVXRPaTFEa2x0VEVySzVfTXk4WExmRnhtN0pfRzRhVE95TE1fekg1N0VkXzdGN09mMzZTTVNFbkhpTFdPNEJoM1JYWjN6ajhTOXZsYWdYVHdSc0xhRC1MT21JYkExanozQ2Jfc1pYNGtxMG4wWWY0MTNUbWRkRHhNeEx2Y2N3X3hnbkpXdHRqOGJndWpJ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "GLD",
-    "direction": "up",
-    "t0": 1794123446,
-    "reason": "ביקוש לנכסי מקלט בטוח בעקבות מתיחות במזרח התיכון",
-    "reason_i18n": {
-     "he": "ביקוש לנכסי מקלט בטוח בעקבות מתיחות במזרח התיכון",
-     "en": "Safe-haven demand driven by Middle East tensions",
-     "ar": "طلب على الملاذ الآمن مدفوع بتوترات الشرق الأوسط",
-     "ru": "Спрос на защитные активы из-за напряженности на Ближнем Востоке"
-    },
-    "name_i18n": {
-     "he": "קרן סל על זהב",
-     "en": "Gold Trust ETF",
-     "ar": "صندوق استثمار الذهب",
-     "ru": "ETF на золото"
-    },
-    "price_at_alert": 372.52,
-    "entry_price": 378.197,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 369.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -2.32,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -3.4,
-    "edge_pct": -3.4,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SLV",
-    "direction": "up",
-    "t0": 1794123446,
-    "reason": "השפעה רוחבית ממגמת המתכות היקרות",
-    "reason_i18n": {
-     "he": "השפעה רוחבית ממגמת המתכות היקרות",
-     "en": "Broad spillover from precious metals momentum",
-     "ar": "تأثير إيجابي واسع من زخم المعادن الثمينة",
-     "ru": "Общий подъем вслед за динамикой драгоценных металлов"
-    },
-    "name_i18n": {
-     "he": "קרן סל על כסף",
-     "en": "Silver Trust ETF",
-     "ar": "صندوق استثمار الفضة",
-     "ru": "ETF на серебро"
-    },
-    "price_at_alert": 46.87,
-    "entry_price": 47.5,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 46.48,
-    "exit_date": "2026-11-10",
-    "change_pct": -2.15,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -3.22,
-    "edge_pct": -3.22,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "2e62be400169",
-  "evaluated": true
- },
- {
-  "ts": 1794123446,
-  "time": "2026-11-08T07:37Z",
-  "title": "חברת Mirae Asset ספגה פריצת מידע וצפי לסנקציות",
-  "summary": "ענקית הפיננסים הדרום-קוריאנית Mirae Asset נפגעה בפריצת סייבר, מה שמעלה את האפשרות לסנקציות נגד המנכ\"ל.",
-  "kid": "חברת השקעות גדולה בקוריאה סבלה מדליפת מידע חמורה, ומנהליה עלולים להיענש.",
-  "i18n": {
-   "title": {
-    "he": "חברת Mirae Asset ספגה פריצת מידע וצפי לסנקציות",
-    "en": "Mirae Asset Suffers Data Breach and Sanctions Risk",
-    "ar": "شركة ميراي أسيت تتعرض لاختراق بيانات وتواجه عقوبات محتملة",
-    "ru": "Mirae Asset столкнулась с утечкой данных и риском санкций"
-   },
-   "summary": {
-    "he": "ענקית הפיננסים הדרום-קוריאנית Mirae Asset נפגעה בפריצת סייבר, מה שמעלה את האפשרות לסנקציות נגד המנכ\"ל.",
-    "en": "South Korean financial giant Mirae Asset suffered a data breach, raising the possibility of sanctions against its CEO.",
-    "ar": "تعرضت العملاق المالي الكوري الجنوبي ميراي أسيت لاختراق بيانات، مما يثير احتمال فرض عقوبات على الرئيس التنفيذي.",
-    "ru": "Южнокорейский финансовый гигант Mirae Asset подвергся утечке данных, что повышает риск санкций против гендиректора."
-   },
-   "kid": {
-    "he": "חברת השקעות גדולה בקוריאה סבלה מדליפת מידע חמורה, ומנהליה עלולים להיענש.",
-    "en": "A major Korean investment firm suffered a major data leak, and its leaders could face penalties.",
-    "ar": "تعرضت شركة استثمار كبرى لتسريب بيانات كبير، وقد يواجه قادتها عقوبات.",
-    "ru": "Крупная корейская инвесткомпания столкнулась с утечкой данных, ее руководство может понести наказание."
-   }
-  },
-  "category": "cyber",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zOGxmTXI1WnRETkNfS0RJdjZXWlYySnR0SmpoNnRZVTZJRGFDclBILUVjTDZKd19BQlBIWHJ2WmRMZUF1MmIzeHNtcUpyWXRzMU1qdVlnanpUVE1jTXdLeHNuV3MyYjdGX19kOA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWY",
-    "direction": "down",
-    "t0": 1794123446,
-    "reason": "פגיעה באמון וסיכון רגולטורי למוסדות פיננסיים בקוריאה",
-    "reason_i18n": {
-     "he": "פגיעה באמון וסיכון רגולטורי למוסדות פיננסיים בקוריאה",
-     "en": "Loss of confidence and regulatory risk for Korean financials",
-     "ar": "فقدان الثقة والمخاطر التنظيمية للمؤسسات المالية الكورية",
-     "ru": "Потеря доверия и регуляторные риски для финсектора Кореи"
-    },
-    "name_i18n": {
-     "he": "קרן סל דרום קוריאה",
-     "en": "South Korea ETF",
-     "ar": "صندوق كوريا الجنوبية",
-     "ru": "ETF Южной Кореи"
-    },
-    "price_at_alert": 137.01,
-    "entry_price": 137.12,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 139.2,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.52,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.44,
-    "edge_pct": -0.44,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "1015db4742b0",
-  "evaluated": true
- },
- {
   "ts": 1794126730,
   "time": "2026-11-08T08:32Z",
   "title": "ארה\"ב תקפה אונייה במפרץ הורמוז",
@@ -50622,5 +50242,179 @@
    }
   ],
   "id": "2b7bb37e6e2e"
+ },
+ {
+  "ts": 1794729790,
+  "time": "2026-11-15T08:03Z",
+  "title": "בריטניה שוקלת מכסים על רכבים חשמליים מסין בזמן שחברה סינית שוקלת ייצור מקומי",
+  "summary": "בריטניה שוקלת להטיל מכסים על יבוא רכבים חשמליים מסין, בזמן שחברת רכב סינית בוחנת הקמת מפעל לייצור מקומי במדינה.",
+  "kid": "בריטניה עשויה להטיל מס על מכוניות חשמליות מסין כדי להגן על מפעלים מקומיים. זה יכול לעזור לחברות רכב אחרות ולהקשות על יצרניות סיניות.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה שוקלת מכסים על רכבים חשמליים מסין בזמן שחברה סינית שוקלת ייצור מקומי",
+    "en": "UK Considers Tariffs on Chinese EVs as Maker Eyes Local Production",
+    "ar": "بريطانيا تدرس فرض رسوم جمركية على السيارات الكهربائية الصينية وسط خطط لإنتاج محلي",
+    "ru": "Великобритания рассматривает пошлины на электромобили из Китая на фоне планов местного производства"
+   },
+   "summary": {
+    "he": "בריטניה שוקלת להטיל מכסים על יבוא רכבים חשמליים מסין, בזמן שחברת רכב סינית בוחנת הקמת מפעל לייצור מקומי במדינה.",
+    "en": "The UK is considering tariffs on Chinese electric vehicles while a Chinese automaker weighs manufacturing cars locally in Britain.",
+    "ar": "تدرس بريطانيا فرض رسوم على السيارات الكهربائية الصينية بينما تدرس شركة تصنيع صينية إنتاج السيارات محلياً.",
+    "ru": "Великобритания рассматривает вопрос о введении пошлин на китайские электромобили, в то время как автопроизводитель из КНР изучает возможность сборки машин на месте."
+   },
+   "kid": {
+    "he": "בריטניה עשויה להטיל מס על מכוניות חשמליות מסין כדי להגן על מפעלים מקומיים. זה יכול לעזור לחברות רכב אחרות ולהקשות על יצרניות סיניות.",
+    "en": "Britain might tax electric cars from China to protect local factories. This can help rival car companies and challenge Chinese makers.",
+    "ar": "قد تفرض بريطانيا ضرائب على السيارات الكهربائية من الصين لحماية المصانع المحلية، مما يساعد الشركات المنافسة.",
+    "ru": "Великобритания может обложить налогами электромобили из Китая для защиты местных заводов. Это поможет конкурентам и затруднит позиции китайских марок."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYjNkN09NOE9vLXoxQUJvU0VCQ0tzTE1hMnRudExCRnc3dk92SlN4M3FTVHVTMWJXZVNJMWU0TnlDNTVReWxWZTYxc3RDSnl0MXMyVmduZ285S0NYYXhMMjU5OUwxczlMUkxKaTh2WEJOQnRydjA5a2tKbW5BdGdPY0hmWnVEN1Q5eC14ZktIeEhMLUtqS3A1ZUdnaHNCMTMyV3lFczlJWmtfQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794729790,
+    "reason": "איומי מכסים עלולים לפגוע ביצוא הרכב הסיני לאירופה.",
+    "reason_i18n": {
+     "he": "איומי מכסים עלולים לפגוע ביצוא הרכב הסיני לאירופה.",
+     "en": "Tariff threats could hurt Chinese auto exports.",
+     "ar": "تهديدات الرسوم قد تضر بصادرات السيارات الصينية.",
+     "ru": "Угроза пошлин может навредить экспорту китайских авто."
+    },
+    "name_i18n": {
+     "he": "FXI – קרן סל מניות סין הגדולות",
+     "en": "FXI – China Large-Cap ETF",
+     "ar": "FXI – صندوق أسهم الصين الكبرى",
+     "ru": "FXI – ETF крупных китайских компаний"
+    },
+    "price_at_alert": 33.48
+   }
+  ],
+  "id": "0f9ee5f6b6a9"
+ },
+ {
+  "ts": 1794729790,
+  "time": "2026-11-15T08:03Z",
+  "title": "בריטניה דורשת שמערכות לווייני סקיינט ייוצרו מקומית",
+  "summary": "הממשלת בריטניה דורשת כי חברות המתמודדות על מכרז לווייני התקשורת סקיינט ירכשו את הרכיבים המרכזיים בתוך המדינה.",
+  "kid": "בריטניה מחייבת חברות חלל לבנות חלקים מלווייני התקשורת הצבאיים שלה בתוך המדינה. זה עוזר לתעשייה המקומית אך יכול להקשות על חברות זרות.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה דורשת שמערכות לווייני סקיינט ייוצרו מקומית",
+    "en": "UK Mandates Local Sourcing for Skynet Satellite Bidders",
+    "ar": "بريطانيا تشترط تصنيع نظم أقمار سكاي نت محلياً",
+    "ru": "Великобритания требует местного производства систем для спутников Skynet"
+   },
+   "summary": {
+    "he": "הממשלת בריטניה דורשת כי חברות המתמודדות על מכרז לווייני התקשורת סקיינט ירכשו את הרכיבים המרכזיים בתוך המדינה.",
+    "en": "The UK government requires bidders for the Skynet satellite project to source key systems and components within Britain.",
+    "ar": "تطلب الحكومة البريطانية من الشركات المتقدمة لمشروع أقمار سكاي نت الحصول على الأنظمة الأساسية محلياً.",
+    "ru": "Правительство Великобритании требует, чтобы участники тендера по спутникам Skynet закупали ключевые системы внутри страны."
+   },
+   "kid": {
+    "he": "בריטניה מחייבת חברות חלל לבנות חלקים מלווייני התקשורת הצבאיים שלה בתוך המדינה. זה עוזר לתעשייה המקומית אך יכול להקשות על חברות זרות.",
+    "en": "Britain is forcing space companies to build parts for military communication satellites locally, boosting domestic firms.",
+    "ar": "تفرض بريطانيا على شركات الفضاء بناء أجزاء من أقمار الاتصالات العسكرية محلياً لدعم الصناعة المحلية.",
+    "ru": "Великобритания обязывает космические компании производить части для спутников связи на местном уровне, поддерживая внутреннюю промышленность."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM3lQakx4MjFBRjAxNU1CMEg3cVpCMTNkMWU5Z2NNMjlUSHF6Rkt3WmhOSkdCemZBVklqUk9LQnpfSXB4Xy1GXzlxVHRWdzJZU2I3VVNFRThvQjlGM0tGSWVkTmZkUmMwQTROYkFiRWFuNlNLdk95YXNITUVqbWdkREE4TnJpUVY0d3o2dG5ObTBWbHowR3Uw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794729790,
+    "reason": "דרישות ייצור מקומי משפיעות על חוזי ביטחון בינלאומיים.",
+    "reason_i18n": {
+     "he": "דרישות ייצור מקומי משפיעות על חוזי ביטחון בינלאומיים.",
+     "en": "Local sourcing rules impact cross-border defense contracts.",
+     "ar": "قواعد التصنيع المحلي تؤثر على عقود الدفاع العابرة للحدود.",
+     "ru": "Правила местного производства влияют на оборонные контракты."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון אמריקאית",
+     "en": "ITA – US Aerospace & Defense ETF",
+     "ar": "ITA – صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.51
+   }
+  ],
+  "id": "28afcd16a70b"
+ },
+ {
+  "ts": 1794729790,
+  "time": "2026-11-15T08:03Z",
+  "title": "ארה\"ב מאריכה את פטור חוק ג'ונס למשלוחי דלק להוואי",
+  "summary": "נציג ארה\"ב קייס תומך בהחלטת הנשיא טראמפ להאריך את פטור חוק ג'ונס המאפשר משלוחי דלק מהיבשת להוואי.",
+  "kid": "הממשלה אישרה להביא דלק להוואי בקלות רבה יותר. זה יכול לעזור לחברות שמוכרות דלק באזור להוביל אותו בפחות מאמץ.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מאריכה את פטור חוק ג'ונס למשלוחי דלק להוואי",
+    "en": "US Extends Jones Act Waiver for Fuel Shipping to Hawaii",
+    "ar": "الولايات المتحدة تمدد اعفاء قانون جونز لشحن الوقود إلى هاواي",
+    "ru": "США продлевают исключение из Закона Джонса для поставок топлива на Гавайи"
+   },
+   "summary": {
+    "he": "נציג ארה\"ב קייס תומך בהחלטת הנשיא טראמפ להאריך את פטור חוק ג'ונס המאפשר משלוחי דלק מהיבשת להוואי.",
+    "en": "U.S. Representative Case supports President Trump's extension of the Jones Act waiver for shipping fuel from the U.S. mainland to Hawaii.",
+    "ar": "النائب الأمريكي كيس يدعم تمديد الرئيس ترامب لإعفاء قانون جونز لشحن الوقود من البر الرئيسي إلى هاواي.",
+    "ru": "Конгрессмен США Кейс поддерживает продление президентом Трампом исключения из Закона Джонса для транспортировки топлива с материка на Гавайи."
+   },
+   "kid": {
+    "he": "הממשלה אישרה להביא דלק להוואי בקלות רבה יותר. זה יכול לעזור לחברות שמוכרות דלק באזור להוביל אותו בפחות מאמץ.",
+    "en": "The government made it easier to ship fuel to Hawaii. This helps energy companies move products more smoothly.",
+    "ar": "سهلت الحكومة شحن الوقود إلى هاواي. هذا يساعد شركات الطاقة على نقل منتجاتها بسلاسة أكبر.",
+    "ru": "Правительство упростило доставку топлива на Гавайи. Это помогает энергетическим компаниям перевозить продукцию с меньшими затратами."
+   }
+  },
+  "category": "commodities",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV001Y0k0UHNmclFJTko0cTZMOGxGcHB0VmVsUGRLUnlYX3VIOXZMdHNvd1JicmVuZkhxdHZ4VGJJcENLUGM1bVVoMlRTTS1UUFgzbVhBUWh2YkFhNW84UDQxMU5MUnh2SlBQd1QtcFBWSlpCWDlXWG9MLTFxaUlpRXpFRlFMeUdDQ014bW5GSnZDbXVpZ29BU1ZTWWxOeUN2ajBhd29tOTNzSmN3UHVOTS1NdkF5b012NzZSd2tDdDBMVllYSk00RzJNZzVaZks4LVgwRTVBVlR4bzNCeHdJRFRTQnZlSm5uVGxLOGFNWQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794729790,
+    "reason": "הקלת שינוע דלק עשויה לסייע לחברות אנרגיה.",
+    "reason_i18n": {
+     "he": "הקלת שינוע דלק עשויה לסייע לחברות אנרגיה.",
+     "en": "Easier fuel transport benefits energy logistics.",
+     "ar": "تسهيل نقل الوقود يفيد لوجستيات الطاقة.",
+     "ru": "Упрощение транспортировки топлива идет на пользу логистике."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סל אנרגיה",
+     "en": "XLE – Energy Sector ETF",
+     "ar": "XLE – صندوق قطاع الطاقة",
+     "ru": "XLE – ETF энергетического сектора"
+    },
+    "price_at_alert": 64.96
+   }
+  ],
+  "id": "301d9b123030"
  }
 ]

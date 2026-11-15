@@ -1,48 +1,48 @@
 {
- "date": "2026-11-08",
- "alerts": 471,
- "important": 104,
- "preds": 238,
- "hits": 116,
- "pnl": 853.7,
- "bench_pnl": -1033.2,
- "trades_important": 75,
+ "date": "2026-11-15",
+ "alerts": 463,
+ "important": 109,
+ "preds": 338,
+ "hits": 172,
+ "pnl": -452.4,
+ "bench_pnl": 1114.9,
+ "trades_important": 116,
  "best": {
-  "date": "2026-11-05",
-  "ticker": "ITA",
-  "dir": "down",
-  "severity": 7,
-  "cat": "geopolitics",
-  "id": "23d7a78d1d27",
-  "title": "טראמפ מצהיר על כוונתו לסיים את הסיוע הצבאי לישראל",
-  "title_i18n": {
-   "he": "טראמפ מצהיר על כוונתו לסיים את הסיוע הצבאי לישראל",
-   "en": "Trump Says He Plans to End US Military Aid to Israel",
-   "ar": "ترامب يقول إنه يخطط لإنهاء المساعدة العسكرية الأمريكية لإسرائيل",
-   "ru": "Трамп заявляет о планах прекратить военную помощь США Израилю"
-  },
-  "change_pct": -68.4,
-  "hit": true,
-  "pnl": 684.0,
-  "bench_pnl": -39.1
- },
- "worst": {
-  "date": "2026-11-05",
-  "ticker": "ITA",
+  "date": "2026-11-09",
+  "ticker": "AVAV",
   "dir": "up",
   "severity": 3,
   "cat": "contracts",
-  "id": "b4c30108aa15",
-  "title": "קנדה מקציבה עד 2.5 מיליארד דולר לרכישת מטוסי כיבוי אש",
+  "id": "e5cadbadc77c",
+  "title": "חברת Vector משיקה רחפן תקיפה חדש",
   "title_i18n": {
-   "he": "קנדה מקציבה עד 2.5 מיליארד דולר לרכישת מטוסי כיבוי אש",
-   "en": "Canada Allocates Up To $2.5 Billion For Wildfire Aviation Super Scoopers",
-   "ar": "كندا تخصص ما يصل إلى 2.5 مليار دولار لشراء طائرات إخماد الحرائق",
-   "ru": "Канада выделяет до 2,5 млрд долларов на закупку пожарных самолетов"
+   "he": "חברת Vector משיקה רחפן תקיפה חדש",
+   "en": "Vector introduces new one-way attack drone",
+   "ar": "شركة Vector تطلق طائرة بدون طيار هجومية جديدة",
+   "ru": "Компания Vector представила новый дрон-камикадзе"
   },
-  "change_pct": -68.4,
+  "change_pct": 22.07,
+  "hit": true,
+  "pnl": 220.7,
+  "bench_pnl": 24.2
+ },
+ "worst": {
+  "date": "2026-11-13",
+  "ticker": "NVDA",
+  "dir": "down",
+  "severity": 6,
+  "cat": "trade",
+  "id": "08738185aa0d",
+  "title": "קריאות להתפטרות ג'נסן הואנג בוושינגטון סביב בקרת ייצוא שבבים",
+  "title_i18n": {
+   "he": "קריאות להתפטרות ג'נסן הואנג בוושינגטון סביב בקרת ייצוא שבבים",
+   "en": "Resignation calls for Jensen Huang in D.C. over chip export controls",
+   "ar": "دعوات استقالة جينسن هوانغ في واشنطن بشأن ضوابط تصدير الرقائق",
+   "ru": "Призывы к отставке Дженсена Хуанга в Вашингтоне из-за контроля экспорта чипов"
+  },
+  "change_pct": 9.06,
   "hit": false,
-  "pnl": -684.0,
-  "bench_pnl": -39.1
+  "pnl": -90.6,
+  "bench_pnl": 0.4
  }
 }
