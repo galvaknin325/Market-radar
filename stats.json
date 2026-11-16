@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-16T09:28Z",
+ "generated": "2026-11-16T10:56Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 994,
+ "total_alerts": 1001,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 116,
+   "mentions": 117,
    "n": 87,
    "hits": 39,
    "name": {
-    "he": "נפט גולמי",
-    "en": "Crude Oil",
-    "ar": "النفط الخام",
-    "ru": "Сырая нефть"
+    "he": "USO - קרן סל על נפט גולמי",
+    "en": "USO - Crude Oil ETF",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO - ETF на сырую нефть"
    },
    "avg_edge": -0.16
   },
@@ -114,14 +114,14 @@
    "avg_edge": 0.74
   },
   "XOM": {
-   "mentions": 34,
+   "mentions": 35,
    "n": 27,
    "hits": 12,
    "name": {
-    "he": "אקסון מוביל - חברת אנרגיה",
-    "en": "ExxonMobil - energy company",
-    "ar": "إكسون موبيل - شركة طاقة",
-    "ru": "ExxonMobil - энергетическая компания"
+    "he": "אקסון מוביל - חברת אנרגיה ענקית",
+    "en": "Exxon Mobil - major energy company",
+    "ar": "إكسون موبيل - شركة طاقة كبرى",
+    "ru": "Exxon Mobil - крупная энергетическая компания"
    },
    "avg_edge": -0.02
   },
@@ -150,7 +150,7 @@
    "avg_edge": -0.37
   },
   "ITA": {
-   "mentions": 170,
+   "mentions": 171,
    "n": 127,
    "hits": 76,
    "name": {
@@ -198,26 +198,26 @@
    "avg_edge": 0.07
   },
   "XLK": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 10,
    "hits": 3,
    "name": {
     "he": "XLK - קרן סל על סקטרו הטכנולוגיה",
     "en": "XLK - Technology Sector ETF",
     "ar": "XLK - صندوق قطاع التكنولوجيا",
-    "ru": "XLK - фонд технологического сектора"
+    "ru": "XLK - ETF технологического сектора"
    },
    "avg_edge": 0.17
   },
   "NVDA": {
-   "mentions": 49,
+   "mentions": 50,
    "n": 32,
    "hits": 15,
    "name": {
-    "he": "אנבידיה – ענקית השבבים",
-    "en": "Nvidia – chip giant",
-    "ar": "إنفيديا - عملاق الرقائق",
-    "ru": "Nvidia — гигант по производству чипов"
+    "he": "אנבידיה - יצרנית שבבי AI מובילה",
+    "en": "Nvidia - leading AI chipmaker",
+    "ar": "إنفيديا - صانع رقائق الذكاء الاصطناعي الرائد",
+    "ru": "Nvidia - ведущий производитель чипов ИИ"
    },
    "avg_edge": -0.09
   },
@@ -414,14 +414,14 @@
    "avg_edge": -0.78
   },
   "EWC": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 17,
    "hits": 13,
    "name": {
-    "he": "קרן סל קנדה",
-    "en": "Canada ETF",
-    "ar": "صندوق الاستثمار المتداول لكندا",
-    "ru": "ETF Канады"
+    "he": "EWC - קרן סל על בורסת קנדה",
+    "en": "EWC - Canada ETF",
+    "ar": "EWC - صندوق كندا للاستثمار",
+    "ru": "EWC - ETF канадского рынка"
    },
    "avg_edge": 0.45
   },
@@ -498,14 +498,14 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 10,
    "hits": 7,
    "name": {
-    "he": "תעודת סל סקטור הפיננסים",
-    "en": "Financial Select Sector SPDR Fund",
-    "ar": "صندوق قطاع المالية",
-    "ru": "ETF финансового сектора"
+    "he": "XLF - קרן סל על סקטרו הפיננסים",
+    "en": "XLF - Financial Sector ETF",
+    "ar": "XLF - صندوق قطاع المالية",
+    "ru": "XLF - ETF финансового сектора"
    },
    "avg_edge": 0.52
   },
@@ -750,14 +750,14 @@
    "avg_edge": 0.04
   },
   "EWJ": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל על מניות יפן",
-    "en": "Japan ETF",
-    "ar": "صندوق مؤشرات متداول لليابان",
-    "ru": "ETF на Японию"
+    "he": "EWJ - קרן סל על מניות יפן",
+    "en": "EWJ - Japan stock ETF",
+    "ar": "EWJ - صندوق الأسهم اليابانية",
+    "ru": "EWJ - ETF японских акций"
    },
    "avg_edge": -0.43
   },
@@ -1002,14 +1002,14 @@
    "avg_edge": 1.19
   },
   "ICLN": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 6,
    "hits": 1,
    "name": {
-    "he": "איי-סי-אל-אן - קרן סל של אנרגיה ירוקה ומתחדשת",
+    "he": "ICLN - קרן סל על אנרגיה נקייה",
     "en": "ICLN - Clean Energy ETF",
-    "ar": "ICLN - صندوق تداول الطاقة النظيفة",
-    "ru": "ICLN - биржевой фонд чистой энергетики"
+    "ar": "ICLN - صندوق الطاقة النظيفة",
+    "ru": "ICLN - ETF чистой энергетики"
    },
    "avg_edge": -2.06
   },
@@ -1086,14 +1086,14 @@
    "avg_edge": -1.42
   },
   "TUR": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 3,
    "hits": 1,
    "name": {
-    "he": "קרן סל טורקיה",
-    "en": "Turkey ETF",
-    "ar": "صندوق الاستثمار المتداول لتركيا",
-    "ru": "ETF Турции"
+    "he": "TUR - קרן סל על בורסת טורקיה",
+    "en": "TUR - Turkey ETF",
+    "ar": "TUR - صندوق الاستثمار في تركيا",
+    "ru": "TUR - ETF турецкого рынка"
    },
    "avg_edge": -0.21
   },
@@ -1158,14 +1158,14 @@
    "avg_edge": 0.0
   },
   "FXY": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 4,
    "hits": 1,
    "name": {
-    "he": "יין יפני",
-    "en": "Japanese Yen",
-    "ar": "الين الياباني",
-    "ru": "Японская иена"
+    "he": "FXY - קרן סל על הין היפני",
+    "en": "FXY - Japanese Yen ETF",
+    "ar": "FXY - صندوق الين الياباني",
+    "ru": "FXY - ETF японской иены"
    },
    "avg_edge": -0.2
   },
