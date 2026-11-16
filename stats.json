@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-16T12:04Z",
+ "generated": "2026-11-16T15:08Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1003,
+ "total_alerts": 1007,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -210,14 +210,14 @@
    "avg_edge": 0.17
   },
   "NVDA": {
-   "mentions": 50,
+   "mentions": 51,
    "n": 32,
    "hits": 15,
    "name": {
-    "he": "אנבידיה - יצרנית שבבי AI מובילה",
-    "en": "Nvidia - leading AI chipmaker",
-    "ar": "إنفيديا - صانع رقائق الذكاء الاصطناعي الرائد",
-    "ru": "Nvidia - ведущий производитель чипов ИИ"
+    "he": "אנבידיה - יצרנית שבבים",
+    "en": "Nvidia - chip maker",
+    "ar": "إنفيديا - صانع الرقائق",
+    "ru": "Nvidia - производитель чипов"
    },
    "avg_edge": -0.09
   },
@@ -798,13 +798,13 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 31,
+   "mentions": 32,
    "n": 21,
    "hits": 4,
    "name": {
-    "he": "מגזר השבבים",
+    "he": "מדד מוליכים למחצה",
     "en": "Semiconductor ETF",
-    "ar": "صندوق قطاع أشباه الموصلات",
+    "ar": "صندوق مؤشر أشباه الموصلات",
     "ru": "ETF полупроводникового сектора"
    },
    "avg_edge": -1.23
@@ -918,13 +918,13 @@
    "avg_edge": -1.46
   },
   "NOC": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "נורת'רופ גרומן - חברת ביטחון ותעופה",
-    "en": "Northrop Grumman - a defense and aerospace company",
-    "ar": "نورثروب غرومان - شركة دفاع وتطوير",
+    "he": "נורת'רופ גראמן - חברת ביטחון",
+    "en": "Northrop Grumman - defense company",
+    "ar": "نورثروب جرومان - شركة دفاع",
     "ru": "Northrop Grumman - оборонная компания"
    },
    "avg_edge": 4.09
@@ -1550,6 +1550,30 @@
     "en": "XLY - Consumer Discretionary ETF",
     "ar": "XLY - صندوق الاستهلاك التดييري",
     "ru": "XLY - фонд циклического потребления"
+   },
+   "avg_edge": null
+  },
+  "BX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "בלקסטון - חברת השקעות",
+    "en": "Blackstone - investment firm",
+    "ar": "بلاكستون - شركة استثمار",
+    "ru": "Blackstone - инвестиционная компания"
+   },
+   "avg_edge": null
+  },
+  "RSX": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קרן סל רוסיה (לא פעילה/מוגבלת)",
+    "en": "Russia ETF (restricted)",
+    "ar": "صندوق مؤشر روسيا (مقيد)",
+    "ru": "ETF на Россию (ограничен)"
    },
    "avg_edge": null
   }
