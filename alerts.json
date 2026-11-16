@@ -528,286 +528,6 @@
  {
   "ts": 1794224360,
   "time": "2026-11-09T11:39Z",
-  "title": "אנבידיה פותחת בחקירה עצמאית בעקבות קשרי המנכ\"ל עם חשוד בריגול",
-  "summary": "דירקטוריון אנבידיה פתח בחקירה עצמאית לאחר שפורסם כי המנכ\"ל ג'נסן הואנג היה יעד למאמץ מודיעין זר הקשור לחשוד בריגול סיני. מניית החברה ירדה ב-5%.",
-  "kid": "הבוס של חברת השבבים הענקית אנבידיה מעורב בבדיקה בגלל קשר אפשרי למרגל זר, מה שגרם למניה לרדת קצת כי משקיעים פוחדים מחוסר ודאות.",
-  "i18n": {
-   "title": {
-    "he": "אנבידיה פותחת בחקירה עצמאית בעקבות קשרי המנכ\"ל עם חשוד בריגול",
-    "en": "Nvidia Launches Independent Probe Into CEO's Ties With Espionage Suspect",
-    "ar": "إنفيديا تفتح تحقيقاً مستقلّاً في علاقات الرئيس التنفيذي مع مشتبه به بالتجوال",
-    "ru": "Nvidia начинает независимое расследование связи гендиректора с подозреваемым в шпионаже"
-   },
-   "summary": {
-    "he": "דירקטוריון אנבידיה פתח בחקירה עצמאית לאחר שפורסם כי המנכ\"ל ג'נסן הואנג היה יעד למאמץ מודיעין זר הקשור לחשוד בריגול סיני. מניית החברה ירדה ב-5%.",
-    "en": "Nvidia's board launched an independent investigation following reports that CEO Jensen Huang was targeted by a foreign intelligence effort involving an alleged Chinese spy. The stock fell 5%.",
-    "ar": "أطلق مجلس إدارة إنفيديا تحقيقاً مستقلّاً بعد تقارير أفادت بأن الرئيس التنفيذي جنسن هوانغ كان هدفاً لجهود استخباراتية أجنبية مرتبطة بمشتبه به تجسس صيني. انخفض السهم بنسبة 5%.",
-    "ru": "Совет директоров Nvidia начал независимое расследование после сообщений о том, что гендиректор Дженсен Хуан стал мишенью иностранной разведки, связанной с подозреваемым в китайском шпионаже. Акции упали на 5%."
-   },
-   "kid": {
-    "he": "הבוס של חברת השבבים הענקית אנבידיה מעורב בבדיקה בגלל קשר אפשרי למרגל זר, מה שגרם למניה לרדת קצת כי משקיעים פוחדים מחוסר ודאות.",
-    "en": "The boss of big chip maker Nvidia is facing an investigation over potential foreign spy ties, causing its stock to fall because investors dislike uncertainty.",
-    "ar": "يواجه رئيس شركة الرقائق الكبيرة إنفيديا تحقيقاً بسبب روابط محتملة مع جاسوس أجنبي، مما أدى إلى انخفاض سهمه لأن المستثمرين يكرهون عدم اليقين.",
-    "ru": "Глава крупного производителя чипов Nvidia столкнулся с расследованием из-за возможных связей с иностранным шпионом, из-за чего его акции упали, так как инвесторы не любят неопределенность."
-   }
-  },
-  "category": "cyber",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/09/nasdaq-defies-nvidia-impact-huang-faces-espionage-affair-probe.html"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html"
-   },
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794224360,
-    "reason": "חקירה עצמאית סביב המנכ\"ל וחשד לריגול",
-    "reason_i18n": {
-     "he": "חקירה עצמאית סביב המנכ\"ל וחשד לריגול",
-     "en": "Independent probe into CEO and espionage allegations",
-     "ar": "تحقيق مستقل حول الرئيس التنفيذي وشبهات تجسس",
-     "ru": "Независимое расследование в отношении гендиректора и подозрения в шпионаже"
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
-     "en": "Nvidia – AI chip maker",
-     "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
-     "ru": "Nvidia – производитель чипов ИИ"
-    },
-    "price_at_alert": 186.64,
-    "entry_price": 171.87,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 168.79,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.79,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -2.87,
-    "edge_pct": 2.87,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1794224360,
-    "reason": "ירידה במניית הענקית אנבידיה גוררת את כל הסקטור",
-    "reason_i18n": {
-     "he": "ירידה במניית הענקית אנבידיה גוררת את כל הסקטור",
-     "en": "Decline in giant Nvidia drags down the whole sector",
-     "ar": "انخفاض سهم العملاق إنفيديا يسحب القطاع بأكمله",
-     "ru": "Падение гиганта Nvidia тянет вниз весь сектор"
-    },
-    "name_i18n": {
-     "he": "סמיקונדקטורס - קרן סל של חברות שבבים",
-     "en": "Semiconductors ETF – chip sector fund",
-     "ar": "صندوق استثمار قطاع أشباه الموصلات",
-     "ru": "ETF полупроводников"
-    },
-    "price_at_alert": 463.96,
-    "entry_price": 464.965,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 483.75,
-    "exit_date": "2026-11-10",
-    "change_pct": 4.04,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 2.96,
-    "edge_pct": -2.96,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "0bfff14a1224",
-  "updates": [
-   {
-    "ts": 1794239936,
-    "time": "2026-11-09T15:58Z",
-    "severity": 4,
-    "summary": "אנבידיה פתחה בחקירה עצמאית בעקבות קשריו של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני, מה שמעורר חששות רגולטוריים וביטחוניים נוספים סביב החברה.",
-    "i18n": {
-     "he": "אנבידיה פתחה בחקירה עצמאית בעקבות קשריו של המנכ\"ל ג'נסן הואנג עם אדם החשוד בריגול סיני, מה שמעורר חששות רגולטוריים וביטחוניים נוספים סביב החברה.",
-     "en": "Nvidia is facing increased scrutiny following reports regarding CEO Jensen Huang's personal connection with an individual suspected of being a Chinese spy, drawing attention from lawmakers.",
-     "ar": "تواجه نفيدیا تدقيقاً متزايداً في أعقاب تقارير حول علاقة المدير التنفيذي جينسن هوانغ بشخص مشتبه به بالتجسس الصيني.",
-     "ru": "Компания Nvidia сталкивается с повышенным вниманием на фоне сообщений о личных связях генерального директора Дженсена Хуанга с подозреваемым в шпионаже."
-    }
-   }
-  ],
-  "last_update": 1794239936,
-  "evaluated": true
- },
- {
-  "ts": 1794224360,
-  "time": "2026-11-09T11:39Z",
-  "title": "ארה\"ב מציעה להסיר חלקית את המצור מעל איראן בתמורה לפתיחת מצר הורמוז",
-  "summary": "לפי דיווחים, ארצות הברית הציעה לאיראן הסרה חלקית של הסנקציות והמצור ימי בתמורה להתחייבות לפתיחת מצר הורמוז לשייט חופשי של מכליות נפט.",
-  "kid": "אמריקה מציעה להקל קצת על הסנקציות הכלכליות נגד איראן, אם איראן תבטיח לא לסגור את הדרך הימית שדרכה עובר הרבה מהנפט בעולם.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב מציעה להסיר חלקית את המצור מעל איראן בתמורה לפתיחת מצר הורמוז",
-    "en": "US Offering Iran Partial Lifting of Blockade in Exchange for Opening Hormuz",
-    "ar": "أمريكا تعرض على إيران رفعاً جزئياً للحصار مقابل فتح مضيق هرمز",
-    "ru": "США предлагают Ирану частичное снятие блокады в обмен на открытие Ормузского пролива"
-   },
-   "summary": {
-    "he": "לפי דיווחים, ארצות הברית הציעה לאיראן הסרה חלקית של הסנקציות והמצור ימי בתמורה להתחייבות לפתיחת מצר הורמוז לשייט חופשי של מכליות נפט.",
-    "en": "Reports indicate the US is offering Iran a partial lifting of maritime blockade and sanctions in exchange for ensuring the Strait of Hormuz remains open for tankers.",
-    "ar": "تشير التقارير إلى أن الولايات المتحدة تقدم لإيرن رفعاً جزئياً للحصار البحري مقابل ضمان فتح مضيق هرمز لناقلات النفط.",
-    "ru": "Сообщается, что США предлагают Ирану частичное снятие морской блокады в обмен на открытие Ормузского пролива для прохода танкеров."
-   },
-   "kid": {
-    "he": "אמריקה מציעה להקל קצת על הסנקציות הכלכליות נגד איראן, אם איראן תבטיח לא לסגור את הדרך הימית שדרכה עובר הרבה מהנפט בעולם.",
-    "en": "America is offering to ease some economic sanctions on Iran if Iran promises not to close the crucial shipping lane for global oil.",
-    "ar": "تعرض أمريكا تخفيف بعض العقوبات الاقتصادية على إيران إذا وعدت أعدلا بعدم إغلاق الممر المائي الحيوي لنفط العالم.",
-    "ru": "Америка предлагает смягчить часть экономических санкций против Ирана, если он пообещает не закрывать ключевой морской путь для нефтяных танкеров."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVGFKVFVhSEc3WTRuYUI2dzZmdE5uVkR3ekpRYUxWQlVYN2tBR0p4eng1MVFKNmhDcTVqRlNQcEVMUXFxRXNKWmdUaGNNdUgzaU1aamJDY3lvMk5FVTRTU3BuN0hiazNWSkcxWHhwelNWRWxCaUZMZ0F0eG1jaTdDWHhHYzVzMmZvdUpLRFRFQ2REdnl0Nk5ydzZwemEyelVsZ2JSYm52RkdacUZJcEpOWW9vdkpOZks1ZlJpaTYwZjVpejRZdTNr?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZkIzdzNKRC1wd1Y1ME9nNWhRSDVBclpDeV9NRUtzcVBZN2VOTGZjNzdzNmFzaTZfMGlzNElIVXljSDRpVEp0eDVNaXBSdkdSNWF1ZWh2T1Axbm5yWWswSXd0VG9DY0ZUejJITENFZjZiRTBhUkxtSENwLWJkVWg3WW1ITFFBUmgzLS1Gb3Zhc1FuclgtM05yM2xydWdfRElVMERPNVl1T1djYlRzV2VnaDdJa2Itd24zR0FaUDN0OXhNVWNwOVE?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON3JSTTk1aTlMa04yUFd1YkYyQ1M2c3MxeEptR3BHeEtaV3pDblNnNVlrelM4X3dSTzloUFVEQy1qRnV5ZzZHWVNDZnNVMXNNUGxaS21FRTBjdmdZUTRSOXRyNHo2NzlkaVR2OVNWNXJrWFE1THZnem92b0JhbG9GX0U1dzJYX0ktVndOTk5Qc1N5VWJRYVU5dzNHcVA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794224360,
-    "reason": "אפשרות לפתיחת מצר הורמוז עשויה להגדיל את זרימת הנפט ולהוריד מחירים",
-    "reason_i18n": {
-     "he": "אפשרות לפתיחת מצר הורמוז עשויה להגדיל את זרימת הנפט ולהוריד מחירים",
-     "en": "Potential opening of Hormuz strait could boost oil flow and lower prices",
-     "ar": "فتح مضيق هرمز المحتمل قد يزيد تدفق النفط ويخفض الأسعار",
-     "ru": "Потенциальное открытие Ормузского пролива может увеличить поток нефти и снизить цены"
-    },
-    "name_i18n": {
-     "he": "יו־אס־או - קרן סל על מחירי הנפט",
-     "en": "USO – United States Oil Fund",
-     "ar": "صندوق النفط الأمريكي",
-     "ru": "ETF нефти США"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": 1.88,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "down",
-    "t0": 1794224360,
-    "reason": "מחירי נפט נמוכים יותר פוגעים ברווחי חברות האנרגיה",
-    "reason_i18n": {
-     "he": "מחירי נפט נמוכים יותר פוגעים ברווחי חברות האנרגיה",
-     "en": "Lower oil prices hurt energy company profits",
-     "ar": "أسعار النفط المنخفضة تضر بأرباح شركات الطاقة",
-     "ru": "Более низкие цены на нефть бьют по прибыли энергокомпаний"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל - חברת אנרגיה גדולה",
-     "en": "ExxonMobil – major energy corporation",
-     "ar": "إكسون موبيل - شركة طاقة كبرى",
-     "ru": "ExxonMobil – крупная энергокомпания"
-    },
-    "price_at_alert": 165.87,
-    "entry_price": 163.815,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 164.47,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.4,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -0.68,
-    "edge_pct": 0.68,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "UNG",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "עליית מחירי הגז בעקבות סיכוני שייט",
-    "reason_i18n": {
-     "he": "עליית מחירי הגז בעקבות סיכוני שייט",
-     "en": "Rise in gas prices due to shipping risks",
-     "ar": "ارتفاع أسعار الغاز بسبب مخاطر الشحن",
-     "ru": "Рост цен на газ из-за рисков судоходства"
-    },
-    "name_i18n": {
-     "he": "תעודת סל על גז טבעי",
-     "en": "United States Natural Gas Fund",
-     "ar": "صندوق الغاز الطبيعي الأمريكي",
-     "ru": "ETF природного газа"
-    },
-    "price_at_alert": 9.9191,
-    "entry_price": 9.96,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 10.41,
-    "exit_date": "2026-11-10",
-    "change_pct": 4.52,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 4.47,
-    "edge_pct": 4.47,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "3f0618ae1e36",
-  "updates": [
-   {
-    "ts": 1794239936,
-    "time": "2026-11-09T15:58Z",
-    "severity": 5,
-    "summary": "מחירי הנפט רשמו ירידה חדה על רקע דיווחים על הסכם אפשרי הקשור לאיראן, בעוד מחירי הגז באירופה התחזקו בשל חששות משלוחים באזור מצר הורמוز.",
-    "i18n": {
-     "he": "מחירי הנפט רשמו ירידה חדה על רקע דיווחים על הסכם אפשרי הקשור לאיראן, בעוד מחירי הגז באירופה התחזקו בשל חששות משלוחים באזור מצר הורמוز.",
-     "en": "Oil prices fell sharply amid reports of a potential U.S.-Iran deal, while European gas prices firmed due to rising shipping risks in the Strait of Hormuz.",
-     "ar": "انخفضت أسعار النفط بشكل حاد وسط تقارير عن صفقة محتملة، بينما تعززت أسعار الغاز في أوروبا بسبب مخاطر الشحن.",
-     "ru": "Цены на нефть резко снизились на фоне сообщений о потенциальной сделке, в то время как цены на газ в Европе укрепились из-за рисков в Ормузском проливе."
-    }
-   }
-  ],
-  "last_update": 1794239936,
-  "evaluated": true
- },
- {
-  "ts": 1794224360,
-  "time": "2026-11-09T11:39Z",
   "title": "סין מאריכה את השעיית בקרת היצוא על 16 חברות אמריקאיות",
   "summary": "סין הודיעה על הארכת השעיית בקרת היצוא על 16 ישויות אמריקאיות למשך חודשיים נוספים, צעד שעשוי להקל מעט על מתחי הסחר.",
   "kid": "סין נותנת עוד קצת זמן ושקט לחברות אמריקאיות מסוימות על ידי דחיית הגבלות היצוא עליהן, מה שעוזר להרגיע את מלחמת הסחר.",
@@ -1286,376 +1006,6 @@
    }
   ],
   "last_update": 1794272223,
-  "evaluated": true
- },
- {
-  "ts": 1794239936,
-  "time": "2026-11-09T15:58Z",
-  "title": "נירוס מקבלת הלוואה מהפנטגון להרחבת ייצור הרחפנים",
-  "summary": "חברת הרחפנים נירוס קיבלה הלוואה בסך 450 מיליון דולר מהפנטגון להרחבת הייצור המקומי, כחלק מתחרות ביטחונית למציאת רחפנים קרביים משתלמים.",
-  "kid": "חברת רחפנים צבאיים קיבלה כסף גדול מהצבא האמריקאי כדי לייצר יותר כלים. זה יכול לעזור למניות בתחום הביטחוני לעלות.",
-  "i18n": {
-   "title": {
-    "he": "נירוס מקבלת הלוואה מהפנטגון להרחבת ייצור הרחפנים",
-    "en": "Neros Secures Pentagon Loan for Drone Production",
-    "ar": "نيروس تحصل على قرض من البنتاغون لتوسيع إنتاج الطائرات بدون طيار",
-    "ru": "Neros получает кредит от Пентагона на расширение производства беспилотников"
-   },
-   "summary": {
-    "he": "חברת הרחפנים נירוס קיבלה הלוואה בסך 450 מיליון דולר מהפנטגון להרחבת הייצור המקומי, כחלק מתחרות ביטחונית למציאת רחפנים קרביים משתלמים.",
-    "en": "Drone maker Neros is expanding domestic production with a $450 million Pentagon loan as a frontrunner in a combat drone competition.",
-    "ar": "شركة الطائرات بدون طيار نيروس توسع إنتاجها المحلي بقرض من البنتاغون بقيمة 450 مليون دولار كجزء من منافسة عسكرية.",
-    "ru": "Производитель дронов Neros расширяет внутреннее производство за счет кредита Пентагона в размере $450 млн."
-   },
-   "kid": {
-    "he": "חברת רחפנים צבאיים קיבלה כסף גדול מהצבא האמריקאי כדי לייצר יותר כלים. זה יכול לעזור למניות בתחום הביטחוני לעלות.",
-    "en": "A military drone company received big money from the U.S. military to build more gear. This could help defense stocks go up.",
-    "ar": "حصلت شركة طائرات عسكرية بدون طيار على أموال كبيرة من الجيش الأمريكي لبناء المزيد من المعدات. قد يساعد ذلك أسهم الدفاع على الارتفاع.",
-    "ru": "Компания по производству военных дронов получила крупные деньги от американских военных. Это может поддержать оборонные акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Defense News",
-    "url": "https://www.defensenews.com/industry/techwatch/2026/11/09/neros-to-expand-domestic-drone-production-with-450m-pentagon-loan/"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "KTOS",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "סנטימנט חיובי למגזר הרחפנים והכטב\"מים הצבאיים",
-    "reason_i18n": {
-     "he": "סנטימנט חיובי למגזר הרחפנים והכטב\"מים הצבאיים",
-     "en": "Positive sentiment for military drone sector",
-     "ar": "معنويات إيجابية لقطاع الطائرات بدون طيار العسكرية",
-     "ru": "Позитивные настроения в секторе военных дронов"
-    },
-    "name_i18n": {
-     "he": "קראטוס – יצרנית רחפנים וכלים בלתי מאוישים",
-     "en": "Kratos – drone and unmanned systems maker",
-     "ar": "كراتوس - صانعة الطائرات بدون طيار",
-     "ru": "Kratos – производитель беспилотников"
-    },
-    "price_at_alert": 37.9,
-    "entry_price": 37.7689,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 36.72,
-    "exit_date": "2026-11-10",
-    "change_pct": -2.78,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -2.82,
-    "edge_pct": -2.82,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "AVAV",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "השקעות ממשלתיות מוגברות בתחום הרחפנים",
-    "reason_i18n": {
-     "he": "השקעות ממשלתיות מוגברות בתחום הרחפנים",
-     "en": "Increased government investments in drones",
-     "ar": "زيادة الاستثمارات الحكومية في قطاع الطائرات بدون طيار",
-     "ru": "Увеличение государственных инвестиций в беспилотники"
-    },
-    "name_i18n": {
-     "he": "ארווירונמנט – יצרנית רחפנים טקטיים",
-     "en": "AeroVironment – tactical drone maker",
-     "ar": "أيروفيرومنت - صانعة طائرات تكتيكية بدون طيار",
-     "ru": "AeroVironment – производитель тактических дронов"
-    },
-    "price_at_alert": 123.15,
-    "entry_price": 123.575,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 123.43,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.12,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -0.16,
-    "edge_pct": -0.16,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "הזרמת הון ממשלתית למגזר הביטחוני",
-    "reason_i18n": {
-     "he": "הזרמת הון ממשלתית למגזר הביטחוני",
-     "en": "Government capital injection into defense sector",
-     "ar": "ضخ رأس المال الحكومي في قطاع الدفاع",
-     "ru": "Вливание государственного капитала в оборонный сектор"
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 71.26,
-    "entry_price": 71.67,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 72.39,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.0,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 0.96,
-    "edge_pct": 0.96,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "db4bff01269a",
-  "evaluated": true
- },
- {
-  "ts": 1794239936,
-  "time": "2026-11-09T15:58Z",
-  "title": "תלדיין זוכה בחוזה משנה מלוקהיד מרטין",
-  "summary": "חברת תלדיין טכנולוגיות זכתה בחוזה משנה מחברת לוקהיד מרטין עבור מערכות הגנה מפני טילים מדור מתקדם.",
-  "kid": "חברת טכנולוגיה צבאית קיבלה עבודה חדשה מיצרנית נשק גדולה. זה מראה על ביקוש גבוה למוצרי הגנה ומחזק את המניות בתחום.",
-  "i18n": {
-   "title": {
-    "he": "תלדיין זוכה בחוזה משנה מלוקהיד מרטין",
-    "en": "Teledyne Wins Lockheed Martin Subcontract",
-    "ar": "تليداين تفوز بعقد من الباطن من لوكهيد مارتن",
-    "ru": "Teledyne получает субподряд от Lockheed Martin"
-   },
-   "summary": {
-    "he": "חברת תלדיין טכנולוגיות זכתה בחוזה משנה מחברת לוקהיד מרטין עבור מערכות הגנה מפני טילים מדור מתקדם.",
-    "en": "Teledyne has won a subcontract from Lockheed Martin for next-generation missile defense systems.",
-    "ar": "فازت شركة تليداين للتكنولوجيا بعقد من الباطن من شركة لوكهيد مارتن لأنظمة الدفاع الصاروخي.",
-    "ru": "Компания Teledyne Technologies получила субподряд от Lockheed Martin на разработку систем противоракетной обороны."
-   },
-   "kid": {
-    "he": "חברת טכנולוגיה צבאית קיבלה עבודה חדשה מיצרנית נשק גדולה. זה מראה על ביקוש גבוה למוצרי הגנה ומחזק את המניות בתחום.",
-    "en": "A military tech company got new work from a major weapons maker. This shows high demand for defense goods and helps sector stocks.",
-    "ar": "حصلت شركة تكنولوجيا عسكرية على عمل جديد من صانع أسلحة كبير. هذا يظهر طلباً قوياً على معدات الدفاع.",
-    "ru": "Военно-технологическая компания получила новый заказ от крупного производителя оружия, что подчеркивает высокий спрос на оборону."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMlVRZ1VqMWpNTk9DVFRzN2pjQV9UQjl2dGswX3dnM0dZM2V2VXNTN0QyY2JRNDJmRE85dW1GOEN2MVlrbGZWOVZicWVVaTJUcmJKMWhyY2I2ZDF4MEJJYi1lYkhYeG1zY3l4ZVZyeUJlWkU1RGQ3ZHlXWHRPOW9fN0FHRGFHbVdvdTJQUkpJYWJ6bnNpY0UzSnJRbjdwb01zZ1NPSzNOdkZOMmw2M3JOTWRtRU5iQQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "TDY",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "זכייה בחוזה ביטחוני משמעותי",
-    "reason_i18n": {
-     "he": "זכייה בחוזה ביטחוני משמעותי",
-     "en": "Winning a significant defense contract",
-     "ar": "الفوز بعقد دفاعي هام",
-     "ru": "Получение крупного оборонного контракта"
-    },
-    "name_i18n": {
-     "he": "תלדיין – חברת טכנולוגיה וביטחון",
-     "en": "Teledyne – tech and defense firm",
-     "ar": "تليداين - شركة تكنولوجيا ودفاع",
-     "ru": "Teledyne – технологическая и оборонная компания"
-    },
-    "price_at_alert": 640.3,
-    "entry_price": 642.09,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 645.87,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.59,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 0.54,
-    "edge_pct": 0.54,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "קידום פרויקטי הגנה מתקדמים",
-    "reason_i18n": {
-     "he": "קידום פרויקטי הגנה מתקדמים",
-     "en": "Advancing advanced defense projects",
-     "ar": "تقدم مشاريع الدفاع المتقدمة",
-     "ru": "Продвижение передовых оборонных проектов"
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין – ענקית ביטחונית",
-     "en": "Lockheed Martin – defense giant",
-     "ar": "لوكهيد مارتن - عملاق الدفاع",
-     "ru": "Lockheed Martin – оборонный гигант"
-    },
-    "price_at_alert": 581.52,
-    "entry_price": 585.72,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 603.04,
-    "exit_date": "2026-11-10",
-    "change_pct": 2.96,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 2.91,
-    "edge_pct": 2.91,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "6d703a48eeba",
-  "evaluated": true
- },
- {
-  "ts": 1794239936,
-  "time": "2026-11-09T15:58Z",
-  "title": "רכיבים אמריקאיים נמצאו בטילי שיוט רוסיים חדשים",
-  "summary": "אוקראינה דיווחה כי נמצאו 52 רכיבים מתוצרת ארה\"ב מתוך 93 רכיבים זרים בטילי שיוט מיני חדשים של רוסיה, מה שעלול להוביל לבדיקות מחמירות יותר.",
-  "kid": "מצאו חלקים אלקטרוניים אמריקאיים בתוך טילי מלחמה של רוסיה. זה יכול לגרום לממשלה להדק את הפיקוח על חברות הטכנולוגיה והייצוא.",
-  "i18n": {
-   "title": {
-    "he": "רכיבים אמריקאיים נמצאו בטילי שיוט רוסיים חדשים",
-    "en": "U.S. Components Found in New Russian Missiles",
-    "ar": "العثور على مكونات أمريكية في صواريخ كروز روسية جديدة",
-    "ru": "Американские компоненты обнаружены в новых российских ракетах"
-   },
-   "summary": {
-    "he": "אוקראינה דיווחה כי נמצאו 52 רכיבים מתוצרת ארה\"ב מתוך 93 רכיבים זרים בטילי שיוט מיני חדשים של רוסיה, מה שעלול להוביל לבדיקות מחמירות יותר.",
-    "en": "Ukraine reported finding 52 U.S.-made components inside Russia's new mini cruise missiles, raising questions over export controls and enforcement.",
-    "ar": "أبلغت أوكرانيا عن العثور على 52 مكوناً مصنوعاً في الولايات المتحدة داخل صواريخ كروز الروسية الجديدة.",
-    "ru": "Украина сообщила об обнаружении 52 компонентов американского производства в новых российских крылатых ракетах."
-   },
-   "kid": {
-    "he": "מצאו חלקים אלקטרוניים אמריקאיים בתוך טילי מלחמה של רוסיה. זה יכול לגרום לממשלה להדק את הפיקוח על חברות הטכנולוגיה והייצוא.",
-    "en": "American electronic parts were found inside Russian war missiles. This could cause the government to tighten rules on tech companies and exports.",
-    "ar": "تم العثور على قطع إلكترونية أمريكية داخل صواريخ حربية روسية. قد يتسبب ذلك في تشديد الحكومة للرقابة على شركات التكنولوجيا.",
-    "ru": "В российских ракетах нашли американские детали. Это может заставить правительство ужесточить контроль за экспортом технологий."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdkVLYnlwZHhfYkFJbFJtei10bE4zUVFUSnM2UFJ1Mm12M0tkVkVXNC1zcWd2VVF5VjV1SWw3YmlXbTduZ3hvWVVqcVN6YWM2dHRISEFycmFYUkVrUTg3VkswVVZsWEVPTVpjVzFsREM1MTU1T1hwVWlLaGotcEVsY19kSFBtNlMwRC01WjNrVnpNaXMzUjVJNlhwOGlLbE40cWJDZVNLeWsxNHVIWi1Oc1VTMEUwYWU5TlpmRUhnUFo1a1NtSWVueUFBUzQ2U3hlaTFHQ0UwQ0hDblpnYjBVM1pjNmhRb0RIUTgyZ1Z6SmdpUQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLI",
-    "direction": "down",
-    "t0": 1794239936,
-    "reason": "חשש מהחמרת פיקוח ייצוא על רכיבים תעשייתיים",
-    "reason_i18n": {
-     "he": "חשש מהחמרת פיקוח ייצוא על רכיבים תעשייתיים",
-     "en": "Fear of tighter export controls on industrial components",
-     "ar": "خوف من تشديد ضوابط التصدير على المكونات الصناعية",
-     "ru": "Опасения ужесточения экспортного контроля на промышленные компоненты"
-    },
-    "name_i18n": {
-     "he": "תעודת סל על התעשייה האמריקאית",
-     "en": "Industrial Sector ETF",
-     "ar": "صندوق استثماري للقطاع الصناعي",
-     "ru": "ETF промышленного сектора"
-    },
-    "price_at_alert": 168.08,
-    "entry_price": 168.4795,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 168.75,
-    "exit_date": "2026-11-10",
-    "change_pct": 0.16,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 0.12,
-    "edge_pct": -0.12,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "09bd8fcd7230",
-  "evaluated": true
- },
- {
-  "ts": 1794239936,
-  "time": "2026-11-09T15:58Z",
-  "title": "ג'נרל דיינמיקס זוכה בחוזה ביטחוני נוסף",
-  "summary": "חברת ג'נרל דיינמיקס דיווחה על זכייה בחוזה המשך ביטחוני בשם MEDUSA במסגרת פעילות מערכות הגנה.",
-  "kid": "חברת הנשק והציוד הצבאי ג'נרל דיינמיקס קיבלה עוד חוזה עבודה מהממשלה. חדשות כאלה בדרך כלל עוזרות למניה לעלות מעט.",
-  "i18n": {
-   "title": {
-    "he": "ג'נרל דיינמיקס זוכה בחוזה ביטחוני נוסף",
-    "en": "General Dynamics Secures MEDUSA Defense Contract",
-    "ar": "جنرال دايناميكس تفوز بعقد دفاعي إضافي",
-    "ru": "General Dynamics получает оборонный контракт MEDUSA"
-   },
-   "summary": {
-    "he": "חברת ג'נרל דיינמיקס דיווחה על זכייה בחוזה המשך ביטחוני בשם MEDUSA במסגרת פעילות מערכות הגנה.",
-    "en": "General Dynamics stock saw positive attention after securing a follow-on MEDUSA defense contract.",
-    "ar": "سلطت الضوء على أسهم جنرال دايناميكس بعد تأمين عقد دفاعي إضافي باسم ميدوسا.",
-    "ru": "Акции General Dynamics привлекли внимание после получения нового оборонного контракта MEDUSA."
-   },
-   "kid": {
-    "he": "חברת הנשק והציוד הצבאי ג'נרל דיינמיקס קיבלה עוד חוזה עבודה מהממשלה. חדשות כאלה בדרך כלל עוזרות למניה לעלות מעט.",
-    "en": "Weapons and military gear maker General Dynamics got another government work contract. Such news usually helps the stock move up a bit.",
-    "ar": "حصلت شركة الأسلحة والمعدات العسكرية جنرال دايناميكس على عقد عمل حكومي آخر.",
-    "ru": "Производитель вооружений General Dynamics получил очередной государственный контракт, что поддерживает акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: defense contracts",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ0NmMXh3X0w1cFJzdExIX1JaWW12UTVqdnVJR3dNTGZfelNaTmZsSUtFTkkyQnBab2NWd0d4c1F3X3BhWWoxUVlmalhUbmNUdE1HVHBjR0JpbUdfUHZPM3d0QXduUEhCREdBZVNjYzV0anVaVVdlLW1CYlBwM2NibG13Ull0bC02TGxJUlRwNlFpR1FLM1ZxMnpSVnIzRUVEdEdXWldUdGhDZHk5VVhEcFJMNU94YVk5RWZGVmtVWXJidw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "GD",
-    "direction": "up",
-    "t0": 1794239936,
-    "reason": "תוספת צבר הזמנות ביטחוניות",
-    "reason_i18n": {
-     "he": "תוספת צבר הזמנות ביטחוניות",
-     "en": "Addition to defense order backlog",
-     "ar": "إضافة إلى دفتر طلبات الدفاع",
-     "ru": "Увеличение портфеля оборонных заказов"
-    },
-    "name_i18n": {
-     "he": "ג'נרל דיינמיקס – יצרנית נשק וציוד צבאי",
-     "en": "General Dynamics – defense and weapons maker",
-     "ar": "جنرال دايناميكس - صانعة الأسلحة والمعدات العسكرية",
-     "ru": "General Dynamics – производитель оружия и техники"
-    },
-    "price_at_alert": 360.03,
-    "entry_price": 362.07,
-    "entry_time": "2026-11-09T16:30+00:00",
-    "exit_price": 367.53,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.51,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 1.46,
-    "edge_pct": 1.46,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "ee01100fc33e",
   "evaluated": true
  },
  {
@@ -42970,10 +42320,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vaTFReTI3LXB0dllUN3JjQ2o0WU5YTkFFV3NiUnpSVXV5RmN0V2d6MDY2ZEpxMnRoVTFQbHBONUFTeGNkYUdMR1VKblREZHA3QWc?oc=5"
    },
@@ -42988,6 +42334,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUHdUYVZOMGNzYkhrbzZGUXNPY2ZYdUExZXRjWjQwWC1Sc0tLNHg3ZUowN1pXQV9vcXoxTGpVRnJLVTVWVnM2OUxyVzd6N3VXdlhsRnp1WHM2R3ZkcVBURWxTTlNUeHJmZkJHbGR6SjVxUWw3dWNld2pCT1duc2RYU1VEb2Q4V1JEY2dYaXVRUm14RVQxNVlTeXhSTmV4QzRZRGw2OGRPbi1OYkViYm1lNk9RNHlRVE5CX3Z2eWlLcDExWVpoYWlCYnpjVdIB3gFBVV95cUxQZ3FiS1g4U0FBN2hwOG9XeEdraWtyWlIwV0Q2MVZmb1U0NFlhOHlLWXh6RnFGeUpIZWhrNm1CdlRrb0tmOERfNzkza0RaZFFHTDZSM28tTzZheFRYcEhXR2tndVJNSVRvclJ4ZkdBc0ViMExwUWIyNlY4NVk3M2pYd1ZjNFBIQTRjZ0gtNnBzS2VXdEk1UWlHbVBTUERPMFVBRWgyT19hZFR0eFNSal9XTDRKZzlqcTQ5Q25nSmlWek44Uk5BaUJpOVoteWJmN3YxdUFQYWhBeE81enlxSGc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUs2NE56Z2hUTXR1OHUtM3RLaUFRdkYzeS1IdkZaV1BfbkM2N29XamhOa2lhUkM2TUxNTkdNY0JyQWQ1LVJ1SlhnbEZHZ1RxSjZOeGp3WXljM0xkd3VyekJHUldSYmd2YlY3NUJjWHpFUkRDc3ZrRXpwN3hha1RrbFRVMjBMdHZVeVJVdzVUdWg4OThDWjJYSXFCUWdsclFLWHVCZFJTSnlEODg?oc=5"
    }
   ],
   "impacts": [
@@ -43066,6 +42420,25 @@
      "ru": "ETF акций Японии"
     },
     "price_at_alert": 91.76
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794847855,
+    "reason": "עלויות תעריפי הובלה עשויות לעלות עקב סיכונים ביטחוניים.",
+    "reason_i18n": {
+     "he": "עלויות תעריפי הובלה עשויות לעלות עקב סיכונים ביטחוניים.",
+     "en": "Freight rates may rise due to security risks.",
+     "ar": "قد ترتفع أسعار الشحن بسبب المخاطر الأمنية.",
+     "ru": "Фрахтовые ставки могут вырасти из-за рисков безопасности."
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM - Shipping company",
+     "ar": "شركة زيم للشحن",
+     "ru": "ZIM - судоходная компания"
+    },
+    "price_at_alert": 29.23
    }
   ],
   "id": "91863cfac04d",
@@ -43093,9 +42466,21 @@
      "ar": "انضمות حاملة מטוסים ثالثة للحصار حول إيران، وسط تحذيرات من انهيار اقتصادي ومخاطر طاقة أثرت على اقتصاد اليابان.",
      "ru": "Третий авианосец США присоединился к блокаде Ирана, на фоне предупреждений об экономическом коллапсе и рисках для энергетики, ударивших по экономике Японии."
     }
+   },
+   {
+    "ts": 1794847855,
+    "time": "2026-11-16T16:50Z",
+    "severity": 7,
+    "summary": "מכלית הותקפה במיצרי הורמוז וספינת מטען טבעה מול חופי בולגריה כתוצאה ממתקפת רחפנים.",
+    "i18n": {
+     "he": "מכלית הותקפה במיצרי הורמוז וספינת מטען טבעה מול חופי בולגריה כתוצאה ממתקפת רחפנים.",
+     "en": "A tanker was struck in the Strait of Hormuz, and a cargo ship sank off the Bulgarian coast following a drone strike.",
+     "ar": "تعرضت ناقلة للهجوم في مضيق هرمز، وغرقت سفينة شحن قبالة الساحل البلغاري بعد هجوم بطائرة بدون طيار.",
+     "ru": "Танкер был атакован в Ормузском проливе, а грузовое судно затонуло у берегов Болгарии после атаки беспилотника."
+    }
    }
   ],
-  "last_update": 1794788330
+  "last_update": 1794847855
  },
  {
   "ts": 1794774103,
@@ -43214,6 +42599,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFlzRDVjSmluU0dzTmpRRk1KMHd6WDB2clA0cVpNZnBDemtSeUw2aWxjNm9jdDNFZlpRNVAtM2hlMUJfUjNjRjQxVDBsUTFpTEdmTjFKZXZwWEMtalNybEc1S2dsOWdwczZCc2tBallPZGRYTktpMDRBRlFDNXJXdVQtWjF6SjVUaVNKTjh1RzNRVTN3YVhZalE3RXBTaWRnQ3c?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
    }
   ],
   "impacts": [
@@ -43312,9 +42701,21 @@
      "ar": "انخفضت أسعار النفط بعد أن توقعت وكالة الطاقة الدولية فائضاً في المعروض العالمي.",
      "ru": "Цены на нефть упали после того, как Международное энергетическое агентство (МЭА) спрогнозировало избыток предложения на мировом рынке."
     }
+   },
+   {
+    "ts": 1794847855,
+    "time": "2026-11-16T16:50Z",
+    "severity": 5,
+    "summary": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
+    "i18n": {
+     "he": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
+     "en": "Crude oil prices fell to $87 a barrel due to forecasts of a supply surplus in the fourth quarter.",
+     "ar": "انخفضت أسعار النفط الخام إلى 87 دولارًا للبرميل بسبب توقعات بوجود فائض في المعروض في الربع الرابع.",
+     "ru": "Цены на сырую нефть упали до 87 долларов за баррель из-за прогнозов избытка предложения в четвертом квартале."
+    }
    }
   ],
-  "last_update": 1794821245
+  "last_update": 1794847855
  },
  {
   "ts": 1794779629,
@@ -46070,5 +45471,67 @@
    }
   ],
   "id": "87947d50b8fb"
+ },
+ {
+  "ts": 1794847855,
+  "time": "2026-11-16T16:50Z",
+  "title": "גוגל מדווחת על מתקפת סייבר אוטומטית ראשונה מבוססת בינה מלאכותית",
+  "summary": "גוגל זיהתה מתקפת סייבר שבוצעה באופן מלא על ידי כלי בינה מלאכותית, המיוחסת להאקרים דוברי רוסית.",
+  "kid": "האקרים השתמשו ברובוטים חכמים כדי לתקוף מחשבים. זה מפחיד חברות טכנולוגיה שצריכות להשקיע יותר בהגנה.",
+  "i18n": {
+   "title": {
+    "he": "גוגל מדווחת על מתקפת סייבר אוטומטית ראשונה מבוססת בינה מלאכותית",
+    "en": "Google reports first fully automated AI cyberattack",
+    "ar": "جوجل تبلغ عن أول هجوم سيبراني مؤتمت بالكامل بواسطة الذكاء الاصطناعي",
+    "ru": "Google сообщает о первой полностью автоматизированной кибератаке с использованием ИИ"
+   },
+   "summary": {
+    "he": "גוגל זיהתה מתקפת סייבר שבוצעה באופן מלא על ידי כלי בינה מלאכותית, המיוחסת להאקרים דוברי רוסית.",
+    "en": "Google identified a cyberattack fully executed by AI tools, attributed to Russian-speaking hackers.",
+    "ar": "حددت جوجل هجومًا سيبرانيًا تم تنفيذه بالكامل بواسطة أدوات الذكاء الاصطناعي، ويُنسب إلى قراصنة يتحدثون الروسية.",
+    "ru": "Google выявила кибератаку, полностью выполненную с помощью инструментов ИИ, приписываемую русскоязычным хакерам."
+   },
+   "kid": {
+    "he": "האקרים השתמשו ברובוטים חכמים כדי לתקוף מחשבים. זה מפחיד חברות טכנולוגיה שצריכות להשקיע יותר בהגנה.",
+    "en": "Hackers used smart robots to attack computers. This scares tech companies, which now have to spend more money on security.",
+    "ar": "استخدم القراصنة روبوتات ذكية لمهاجمة أجهزة الكمبيوتر. هذا يخيف شركات التكنولوجيا التي يتعين عليها الآن إنفاق المزيد من المال على الأمن.",
+    "ru": "Хакеры использовали умных роботов для атаки на компьютеры. Это пугает технологические компании, которым теперь приходится тратить больше денег на безопасность."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQUJfV2wwTEhUeTRQSTJxRlhjMHVDSktTRTZXY1hWUjF5NnBYOGpYUk9qeUxJOEtkcnh0cjBFQ09EVHdmOWVvZGc2RmtjS25TUmdxWU5uLU1Qb3BpN3JEai1KSklUdmRSd3RvekswNXBQYmxrSG5zZm5fcHk3N3hVR1FGUm15Qi1TTVgtZUVISlJuVjU2ZVMzaEF6YnIxLUlPWXRMd1dIU3E4T0xOOGtJelJyTG91ZEI2YUFn?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ01LQXVBYVRiZFdMc0dRZVpPTG4tSTZzdk5XVy1TMHZ1ZDYxMGFGVkZIZHFjcklrQXd4SjNQZ0lkYzNXNDFwWW1DLVhMVHZnQVVNZHU0X1VxT3BCbXNuRTBXUVFLVnBHOWxKa1Fkdy1BODQ2YldVSTU4aGMwc0tDNTZXOG5CSm9NeHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794847855,
+    "reason": "עלייה בביקוש לפתרונות הגנה מתקדמים.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות הגנה מתקדמים.",
+     "en": "Increased demand for advanced security solutions.",
+     "ar": "زيادة الطلب على حلول الأمن المتقدمة.",
+     "ru": "Рост спроса на передовые решения безопасности."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - אבטחת סייבר",
+     "en": "CrowdStrike - Cybersecurity",
+     "ar": "كراود سترايك - الأمن السيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 220.96
+   }
+  ],
+  "id": "56e3830c8919"
  }
 ]

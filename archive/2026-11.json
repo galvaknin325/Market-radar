@@ -97884,10 +97884,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vaTFReTI3LXB0dllUN3JjQ2o0WU5YTkFFV3NiUnpSVXV5RmN0V2d6MDY2ZEpxMnRoVTFQbHBONUFTeGNkYUdMR1VKblREZHA3QWc?oc=5"
    },
@@ -97902,6 +97898,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUHdUYVZOMGNzYkhrbzZGUXNPY2ZYdUExZXRjWjQwWC1Sc0tLNHg3ZUowN1pXQV9vcXoxTGpVRnJLVTVWVnM2OUxyVzd6N3VXdlhsRnp1WHM2R3ZkcVBURWxTTlNUeHJmZkJHbGR6SjVxUWw3dWNld2pCT1duc2RYU1VEb2Q4V1JEY2dYaXVRUm14RVQxNVlTeXhSTmV4QzRZRGw2OGRPbi1OYkViYm1lNk9RNHlRVE5CX3Z2eWlLcDExWVpoYWlCYnpjVdIB3gFBVV95cUxQZ3FiS1g4U0FBN2hwOG9XeEdraWtyWlIwV0Q2MVZmb1U0NFlhOHlLWXh6RnFGeUpIZWhrNm1CdlRrb0tmOERfNzkza0RaZFFHTDZSM28tTzZheFRYcEhXR2tndVJNSVRvclJ4ZkdBc0ViMExwUWIyNlY4NVk3M2pYd1ZjNFBIQTRjZ0gtNnBzS2VXdEk1UWlHbVBTUERPMFVBRWgyT19hZFR0eFNSal9XTDRKZzlqcTQ5Q25nSmlWek44Uk5BaUJpOVoteWJmN3YxdUFQYWhBeE81enlxSGc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUs2NE56Z2hUTXR1OHUtM3RLaUFRdkYzeS1IdkZaV1BfbkM2N29XamhOa2lhUkM2TUxNTkdNY0JyQWQ1LVJ1SlhnbEZHZ1RxSjZOeGp3WXljM0xkd3VyekJHUldSYmd2YlY3NUJjWHpFUkRDc3ZrRXpwN3hha1RrbFRVMjBMdHZVeVJVdzVUdWg4OThDWjJYSXFCUWdsclFLWHVCZFJTSnlEODg?oc=5"
    }
   ],
   "impacts": [
@@ -97980,6 +97984,25 @@
      "ru": "ETF акций Японии"
     },
     "price_at_alert": 91.76
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794847855,
+    "reason": "עלויות תעריפי הובלה עשויות לעלות עקב סיכונים ביטחוניים.",
+    "reason_i18n": {
+     "he": "עלויות תעריפי הובלה עשויות לעלות עקב סיכונים ביטחוניים.",
+     "en": "Freight rates may rise due to security risks.",
+     "ar": "قد ترتفع أسعار الشحن بسبب المخاطر الأمنية.",
+     "ru": "Фрахтовые ставки могут вырасти из-за рисков безопасности."
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM - Shipping company",
+     "ar": "شركة زيم للشحن",
+     "ru": "ZIM - судоходная компания"
+    },
+    "price_at_alert": 29.23
    }
   ],
   "id": "91863cfac04d",
@@ -98007,9 +98030,21 @@
      "ar": "انضمות حاملة מטוסים ثالثة للحصار حول إيران، وسط تحذيرات من انهيار اقتصادي ومخاطر طاقة أثرت على اقتصاد اليابان.",
      "ru": "Третий авианосец США присоединился к блокаде Ирана, на фоне предупреждений об экономическом коллапсе и рисках для энергетики, ударивших по экономике Японии."
     }
+   },
+   {
+    "ts": 1794847855,
+    "time": "2026-11-16T16:50Z",
+    "severity": 7,
+    "summary": "מכלית הותקפה במיצרי הורמוז וספינת מטען טבעה מול חופי בולגריה כתוצאה ממתקפת רחפנים.",
+    "i18n": {
+     "he": "מכלית הותקפה במיצרי הורמוז וספינת מטען טבעה מול חופי בולגריה כתוצאה ממתקפת רחפנים.",
+     "en": "A tanker was struck in the Strait of Hormuz, and a cargo ship sank off the Bulgarian coast following a drone strike.",
+     "ar": "تعرضت ناقلة للهجوم في مضيق هرمز، وغرقت سفينة شحن قبالة الساحل البلغاري بعد هجوم بطائرة بدون طيار.",
+     "ru": "Танкер был атакован в Ормузском проливе, а грузовое судно затонуло у берегов Болгарии после атаки беспилотника."
+    }
    }
   ],
-  "last_update": 1794788330
+  "last_update": 1794847855
  },
  {
   "ts": 1794774103,
@@ -98128,6 +98163,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFlzRDVjSmluU0dzTmpRRk1KMHd6WDB2clA0cVpNZnBDemtSeUw2aWxjNm9jdDNFZlpRNVAtM2hlMUJfUjNjRjQxVDBsUTFpTEdmTjFKZXZwWEMtalNybEc1S2dsOWdwczZCc2tBallPZGRYTktpMDRBRlFDNXJXdVQtWjF6SjVUaVNKTjh1RzNRVTN3YVhZalE3RXBTaWRnQ3c?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
    }
   ],
   "impacts": [
@@ -98226,9 +98265,21 @@
      "ar": "انخفضت أسعار النفط بعد أن توقعت وكالة الطاقة الدولية فائضاً في المعروض العالمي.",
      "ru": "Цены на нефть упали после того, как Международное энергетическое агентство (МЭА) спрогнозировало избыток предложения на мировом рынке."
     }
+   },
+   {
+    "ts": 1794847855,
+    "time": "2026-11-16T16:50Z",
+    "severity": 5,
+    "summary": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
+    "i18n": {
+     "he": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
+     "en": "Crude oil prices fell to $87 a barrel due to forecasts of a supply surplus in the fourth quarter.",
+     "ar": "انخفضت أسعار النفط الخام إلى 87 دولارًا للبرميل بسبب توقعات بوجود فائض في المعروض في الربع الرابع.",
+     "ru": "Цены на сырую нефть упали до 87 долларов за баррель из-за прогнозов избытка предложения в четвертом квартале."
+    }
    }
   ],
-  "last_update": 1794821245
+  "last_update": 1794847855
  },
  {
   "ts": 1794779629,
@@ -100984,5 +101035,67 @@
    }
   ],
   "id": "87947d50b8fb"
+ },
+ {
+  "ts": 1794847855,
+  "time": "2026-11-16T16:50Z",
+  "title": "גוגל מדווחת על מתקפת סייבר אוטומטית ראשונה מבוססת בינה מלאכותית",
+  "summary": "גוגל זיהתה מתקפת סייבר שבוצעה באופן מלא על ידי כלי בינה מלאכותית, המיוחסת להאקרים דוברי רוסית.",
+  "kid": "האקרים השתמשו ברובוטים חכמים כדי לתקוף מחשבים. זה מפחיד חברות טכנולוגיה שצריכות להשקיע יותר בהגנה.",
+  "i18n": {
+   "title": {
+    "he": "גוגל מדווחת על מתקפת סייבר אוטומטית ראשונה מבוססת בינה מלאכותית",
+    "en": "Google reports first fully automated AI cyberattack",
+    "ar": "جوجل تبلغ عن أول هجوم سيبراني مؤتمت بالكامل بواسطة الذكاء الاصطناعي",
+    "ru": "Google сообщает о первой полностью автоматизированной кибератаке с использованием ИИ"
+   },
+   "summary": {
+    "he": "גוגל זיהתה מתקפת סייבר שבוצעה באופן מלא על ידי כלי בינה מלאכותית, המיוחסת להאקרים דוברי רוסית.",
+    "en": "Google identified a cyberattack fully executed by AI tools, attributed to Russian-speaking hackers.",
+    "ar": "حددت جوجل هجومًا سيبرانيًا تم تنفيذه بالكامل بواسطة أدوات الذكاء الاصطناعي، ويُنسب إلى قراصنة يتحدثون الروسية.",
+    "ru": "Google выявила кибератаку, полностью выполненную с помощью инструментов ИИ, приписываемую русскоязычным хакерам."
+   },
+   "kid": {
+    "he": "האקרים השתמשו ברובוטים חכמים כדי לתקוף מחשבים. זה מפחיד חברות טכנולוגיה שצריכות להשקיע יותר בהגנה.",
+    "en": "Hackers used smart robots to attack computers. This scares tech companies, which now have to spend more money on security.",
+    "ar": "استخدم القراصنة روبوتات ذكية لمهاجمة أجهزة الكمبيوتر. هذا يخيف شركات التكنولوجيا التي يتعين عليها الآن إنفاق المزيد من المال على الأمن.",
+    "ru": "Хакеры использовали умных роботов для атаки на компьютеры. Это пугает технологические компании, которым теперь приходится тратить больше денег на безопасность."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQUJfV2wwTEhUeTRQSTJxRlhjMHVDSktTRTZXY1hWUjF5NnBYOGpYUk9qeUxJOEtkcnh0cjBFQ09EVHdmOWVvZGc2RmtjS25TUmdxWU5uLU1Qb3BpN3JEai1KSklUdmRSd3RvekswNXBQYmxrSG5zZm5fcHk3N3hVR1FGUm15Qi1TTVgtZUVISlJuVjU2ZVMzaEF6YnIxLUlPWXRMd1dIU3E4T0xOOGtJelJyTG91ZEI2YUFn?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ01LQXVBYVRiZFdMc0dRZVpPTG4tSTZzdk5XVy1TMHZ1ZDYxMGFGVkZIZHFjcklrQXd4SjNQZ0lkYzNXNDFwWW1DLVhMVHZnQVVNZHU0X1VxT3BCbXNuRTBXUVFLVnBHOWxKa1Fkdy1BODQ2YldVSTU4aGMwc0tDNTZXOG5CSm9NeHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1794847855,
+    "reason": "עלייה בביקוש לפתרונות הגנה מתקדמים.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות הגנה מתקדמים.",
+     "en": "Increased demand for advanced security solutions.",
+     "ar": "زيادة الطلب على حلول الأمن المتقدمة.",
+     "ru": "Рост спроса на передовые решения безопасности."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - אבטחת סייבר",
+     "en": "CrowdStrike - Cybersecurity",
+     "ar": "كراود سترايك - الأمن السيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 220.96
+   }
+  ],
+  "id": "56e3830c8919"
  }
 ]
