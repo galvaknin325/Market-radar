@@ -99051,10 +99051,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZzkyR0xLdUE0N1JzUTNwQTA2MkdiUExXRWVhZEdoaFBKcFM2Um9iM2xSMlBYX19WMVViMHFqUHdQTUdXWE44WkFVQUlMWnVKazhjaTNsUmE5SFA4Q1BWNVluVHU4aXVVdnhUWFVrc0cyTjZ0LUhlZE5iZEZNODEtaGZTdTBMcDJFWUw2NGlGdzJfQQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3BQSUNBZUJlSDd1QzBqQXNoQWhqUEs4dW1GY2xhcXlYcVZuTzBmTjNhMU1yNnJaOW5JY0pDLVhuczNkUGRUd29QT3Q1QmVyeW0zNkVESFBJT2twNExWTkhUYVpWNWFSbi1ZYU9HMVRvNFo1VFlfNEpXbnZQeEVCa0dieEgwTFBUVlEwNU51RGlZblJQUENURVh4ZU9LRjhIeDYyczU0WHhfcmNDbS1UNHpQcHg3TFFsMGExTzVKTXFWXy11?oc=5"
    },
    {
@@ -99068,6 +99064,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLXRCTTVBZGdoUUdmaElVSFBxS3J6QWFBNHlLeEZzdjRUYThaa2JYRktEN01nX25ENmNKdjJNQ2NvUTdQRXJLNFF5MERUVUh1UGRUYzRxMXgzVGpNNnljR3ZNdFkwOW03amxjX0doQ25rYWhWMjVYNFBINklDWlNqLVBXWXlPWmF3cHFPZ2x2UHJhemE0U3k4anE1d1E3dUxkQ1ExVEhzRjR5U1psTEhJbHlpSVlPN0RackxaWFgxTUxwWDFCNlB0UlRHdm9lbHZES3lWT09zZmFpa0dYNWI3Q1RYSmV0NlpfQVNj?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTmNBMmVmb1ZXV1ZYQnpvZy0wLUVhWlMyOFBKcG1HbzJyRy13dkFnOUZJSVgzSkZXNWlSQkpSRkZZakRZWFNGakFwLVpaRDYwRUhHcHlzLVZqWHlXZzVWbndQbzl0b3hBUm45MmQyUlBDb1RLeXpRVFlSdm9fMmVMZjMtNWRISURjSVpKRWh3Qm5aX1NqSEQ4X0tFV3NYWTUzcnh0RElQVmR1NWJUYmpQT25MNNIBuAFBVV95cUxQa2hHV0RJZ0xiOHZiZUVicWRMY3piU05qVGVmMzA1SENBZ2laLUwxT2UyOFo1aFh2THlJb3VkX2lvQWloUl9uQnZKbWY4c0g2QWduUXdCWTVxYWR5bWJWRmFoOG1nMFhYZmpWQkJFMVBhR0Q2dTlzRW9ibnNEMHVva3d0ZTFBZWxQcmd0TGhhbVlVZVZlT0NsOHFocHdxblVoNGp3ZWJXampGaHNOYkhFdlFDQUUwWGtS?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbkFVc0pSWnhON3ZKbTVpUlNHbFplT0otN3lRcmxvT3MyMmt3VDB1SGlwbjQxWTJtZm1rbXduVGJSbGJia0VtY3d1R056dlpOM3V6MXFQYkNCcWt5QzhfQ08yN0VKRHhBa3ZLMXg5WXMydTJ0ZFkxc2pvVWdIVG5BN0lWSno0TWdOeTJwOXhLcThNcHJXa3F6UHQtNVp0ZmV1WF9RcjIydGpmejVONFJISUhpanozcTRMTmVfdzJ0SVhOVWV5M2pQUlRIQ2RNYWV6andoWUczRmQ4ZlhNNHJSWHZR?oc=5"
    }
   ],
   "impacts": [
@@ -99089,9 +99093,43 @@
      "ru": "Freeport-McMoRan"
     },
     "price_at_alert": 59.24
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1794811392,
+    "reason": "ירידת מחירי הזהב פוגעת בשווי הנכסים של הקרן.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הזהב פוגעת בשווי הנכסים של הקרן.",
+     "en": "Declining gold prices weigh on the fund's asset values.",
+     "ar": "تراجع أسعار الذهب يضغط على قيمة أصول الصندوق.",
+     "ru": "Падение цен на золото оказывает давление на стоимость активов фонда."
+    },
+    "name_i18n": {
+     "he": "קרן סל על זהב",
+     "en": "Gold Trust ETF",
+     "ar": "صندوق استثمار الذهب",
+     "ru": "ETF золота"
+    },
+    "price_at_alert": 355.45
    }
   ],
-  "id": "166e2cc56f5e"
+  "id": "166e2cc56f5e",
+  "updates": [
+   {
+    "ts": 1794811392,
+    "time": "2026-11-16T06:43Z",
+    "severity": 5,
+    "summary": "מחירי הזהב רשמו את השבוע הגרוע ביותר שלהם מאז מרץ בעוד הנחושת בלונדון צללה לשפל של למעלה מארבעה חודשים על רקע התחזקות הדולר וחששות בנוגע לביקושים הקשורים לטכנולוגיית AI.",
+    "i18n": {
+     "he": "מחירי הזהב רשמו את השבוע הגרוע ביותר שלהם מאז מרץ בעוד הנחושת בלונדון צללה לשפל של למעלה מארבעה חודשים על רקע התחזקות הדולר וחששות בנוגע לביקושים הקשורים לטכנולוגיית AI.",
+     "en": "Gold headed for its worst week since March while London copper hit a four-month low amid a firmer dollar and concerns over AI-related demand.",
+     "ar": "تجهيز الذهب لأسوأ أسبوع له منذ مارس بينما انخفض النحاس في لندن لأدنى مستوى في أربعة أشهر وسط قوة الدولار ومخاوف الطلب المرتبط بالذكاء الاصطناعي.",
+     "ru": "Золото направляется к худшей неделе с марта, а медь в Лондоне упала до четырехмесячного минимума на фоне укрепления доллара и опасений по поводу спроса, связанного с ИИ."
+    }
+   }
+  ],
+  "last_update": 1794811392
  },
  {
   "ts": 1794796952,
@@ -99207,7 +99245,12 @@
   "category": "macro",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdi1hQmgyXzlVTWs1bDRlNjJBRHpkSS1WR3FJU1hVTGtMa0xqLUxlekRiU0hBRzZWZVpkUlJVZENndm8yNU10OVl5eHFsd3FQc0NSZG5lZEpMMWFqOU4yaHU1YzlnVE5qclJPOExfQm5rbGJJUGxCV0ZWZUZiTzA0WWVIOUJkSUdmQ19ISDVjN2t0X0lGR3FMbFFzeVZFYlpHYThHM0puMkVfaS1SU2NMS3Y2SnhidFlkNjVkRmZIcms?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "EWJ",
@@ -99248,7 +99291,22 @@
     "price_at_alert": 57.38
    }
   ],
-  "id": "f4057b6b4a4b"
+  "id": "f4057b6b4a4b",
+  "updates": [
+   {
+    "ts": 1794811392,
+    "time": "2026-11-16T06:43Z",
+    "severity": 4,
+    "summary": "כלכלת יפן רשמה התכווצות של 0.1% לאחר שעליית עלויות המחיה פגעה בצריכה הפרטית.",
+    "i18n": {
+     "he": "כלכלת יפן רשמה התכווצות של 0.1% לאחר שעליית עלויות המחיה פגעה בצריכה הפרטית.",
+     "en": "Japan's economy contracted by 0.1% as rising living costs weighed on consumer spending.",
+     "ar": "انكمش الاقتصاد الياباني بنسبة 0.1% حيث أثّر ارتفاع تكاليف المعيشة على الإنفاق الاستهلاكي.",
+     "ru": "Экономика Японии сократилась на 0,1%, так как рост стоимости жизни оказал давление на потребительские расходы."
+    }
+   }
+  ],
+  "last_update": 1794811392
  },
  {
   "ts": 1794800932,
@@ -99552,5 +99610,260 @@
    }
   ],
   "id": "3fb05eeb8684"
+ },
+ {
+  "ts": 1794811392,
+  "time": "2026-11-16T06:43Z",
+  "title": "בריטניה והאיחוד האירופי מטילות סנקציות חדשות על רוסיה",
+  "summary": "בריטניה והאיחוד האירופי הכריזו על סנקציות חדשות המכוונות נגד חברת סלאבנפט וספינות רוסיות כחלק מהחמרת הצעדים נגד מוסקבה.",
+  "kid": "מדינות אירופה מטילות עונשים כלכליים נוספים על חברות ואניות רוסיות. זה עשוי להשפיע על מחירי האנרגיה והספנות העולמיים.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה והאיחוד האירופי מטילות סנקציות חדשות על רוסיה",
+    "en": "UK and EU Impose Fresh Sanctions on Russia",
+    "ar": "بريطانيا والاتحاد الأوروبي تفرضان عقوبات جديدة على روسيا",
+    "ru": "Великобритания и ЕС вводят новые санкции против России"
+   },
+   "summary": {
+    "he": "בריטניה והאיחוד האירופי הכריזו על סנקציות חדשות המכוונות נגד חברת סלאבנפט וספינות רוסיות כחלק מהחמרת הצעדים נגד מוסקבה.",
+    "en": "The UK and EU have announced fresh sanctions targeting Slavneft and Russian vessels as part of tighter measures against Moscow.",
+    "ar": "أعلنت بريطانيا والاتحاد الأوروبي عن عقوبات جديدة تستهدف شركة سلافنفت والسفن الروسية كجزء من إجراءات أكثر تشدداً ضد موسكو.",
+    "ru": "Великобритания и ЕС объявили о новых санкциях против компании «Славнефть» и российских судов в рамках ужесточения мер против Москвы."
+   },
+   "kid": {
+    "he": "מדינות אירופה מטילות עונשים כלכליים נוספים על חברות ואניות רוסיות. זה עשוי להשפיע על מחירי האנרגיה והספנות העולמיים.",
+    "en": "European nations are imposing more economic punishments on Russian companies and ships. This could affect global energy and shipping prices.",
+    "ar": "تفرض الدول الأوروبية عقوبات اقتصادية إضافية على الشركات والسفن الروسية، مما قد يؤثر على أسعار الطاقة والشحن العالمية.",
+    "ru": "Европейские страны вводят новые экономические наказания против российских компаний и судов, что может повлиять на мировые цены на энергоносители и судоходство."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREVNQ2dQOWlBZUN5RktMblUzRC1maFlVaUw2RVVOTWdPUGQ0aEF1VjBxSGZucEh5dVFZNGIxTWlrdW5CVWxpd2tTWVFIMlZMMmQ4Qk95d01BbGY0aGlSdWlIMGM4ZVVXMWNEYzNnZHpMNV9jaFRUdzNhMFk3QjE2NnVEYko0eGd5SFBHWTQyTWx4WXZwY08tYzRZbWZZTnRj?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaEdXazgta0c5NU1NNk1rLThxUHczOUlVQ00yRUJmWUw1Y1NkczZuZlRIWXBlZEhPQXROb0QwdU92ZXMtWGpLS1hwN0JCWHNTOFBKY04wLTROT0plUFJmb0xJTXVTcHhFcGVEbXFXNklZQVA0VGdBZ2I1eW83aGdqWGpFMTBHYWJXekhDMURYT0FySFJpRWI4U1dXX3Y2ZzJmZ1AwSVRrd0ppUE1lbzdHMkFDNENRQ0U?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794811392,
+    "reason": "סנקציות חדשות על אנרגיה רוסית עשויות להעלות את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "סנקציות חדשות על אנרגיה רוסית עשויות להעלות את מחירי הנפט.",
+     "en": "New sanctions on Russian energy could push oil prices higher.",
+     "ar": "العقوبات الجديدة على الطاقة الروسية قد تدفع أسعار النفط إلى الارتفاع.",
+     "ru": "Новые санкции против российской энергетики могут подтолкнуть цены на нефть вверх."
+    },
+    "name_i18n": {
+     "he": "ספקטור אנרגיה – קרן סל",
+     "en": "Energy Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 64.96
+   }
+  ],
+  "id": "a71c2995a6a7"
+ },
+ {
+  "ts": 1794811392,
+  "time": "2026-11-16T06:43Z",
+  "title": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
+  "summary": "מכון מחקר צ'כי ערך סימולציה הבוחנת את ההשפעות והתרחישים של מצור ימי ואווירי שמטילה סין על טייוואן.",
+  "kid": "מומחים בדקו מה יקרה אם סין תחסום את טייוואן, מקום מרכזי לייצור שבבים. אם תתרחש מתיחות אמיתית, מניות טכנולוגיה עשויות לרדת כי ייצור השבבים ייפגע.",
+  "i18n": {
+   "title": {
+    "he": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
+    "en": "Czech Think Tank Simulates Chinese Blockade of Taiwan",
+    "ar": "مركز أبحاث تشيكي يحاكي حصاراً صينياً لتايوان",
+    "ru": "Чешский аналитический центр смоделировал китайскую блокаду Тайваня"
+   },
+   "summary": {
+    "he": "מכון מחקר צ'כי ערך סימולציה הבוחנת את ההשפעות והתרחישים של מצור ימי ואווירי שמטילה סין על טייוואן.",
+    "en": "A Czech think tank conducted a simulation examining the potential impacts and scenarios of a Chinese naval and air blockade of Taiwan.",
+    "ar": "أجري مركز أبحاث تشيكي محاكاة تبحث التأثيرات والسيناريوهات المحتملة لحصار بحري وجوي صيني على تايوان.",
+    "ru": "Чешский аналитический центр провел симуляцию, изучая возможные последствия и сценарии морской и воздушной блокады Тайваня со стороны Китая."
+   },
+   "kid": {
+    "he": "מומחים בדקו מה יקרה אם סין תחסום את טייוואן, מקום מרכזי לייצור שבבים. אם תתרחש מתיחות אמיתית, מניות טכנולוגיה עשויות לרדת כי ייצור השבבים ייפגע.",
+    "en": "Experts tested what would happen if China blocks Taiwan, a major chip manufacturing hub. Real tensions could drop tech stocks due to disrupted chip supply.",
+    "ar": "اختبر الخبراء ما سيحدث إذا فرضت الصين حصاراً على تايوان، وهي مركز رئيسي لصناعة الرقائق. التوترات الحقيقية قد تهبط بأسهم التكنولوجيا بسبب تعطل إمدادات الرقائق.",
+    "ru": "Эксперты проверили, что произойдет, если Китай заблокирует Тайвань — главный центр производства чипов. Реальная напряженность может уронить акции технологий из-за нарушения поставок чипов."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jR1V6Wk5UZkEzdDJQa01sUWFKNUdKck02elU2RUowaTZiekJNb3k0c1VxUW0wZmlidGV6OFZ0MTVvb3lvbnFvc0hwLWpKei05Mi1EaWNvTU0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TSM",
+    "direction": "down",
+    "t0": 1794811392,
+    "reason": "חשש מסיכונים גיאופוליטיים לשרשרת אספקת השבבים בטייוואן.",
+    "reason_i18n": {
+     "he": "חשש מסיכונים גיאופוליטיים לשרשרת אספקת השבבים בטייוואן.",
+     "en": "Concerns over geopolitical risks to Taiwan's semiconductor supply chain.",
+     "ar": "المخاوف من المخاطر الجيوسياسية على سلسلة إمداد أشباه الموصلات في تايوان.",
+     "ru": "Обоюдосторонняя озабоченность геополитическими рисками для цепочки поставок чипов на Тайване."
+    },
+    "name_i18n": {
+     "he": "TSMC – יצרנית שבבים גדולה מטייוואן",
+     "en": "TSMC – major Taiwan chipmaker",
+     "ar": "TSMC - شركة تصنيع رقائق كبرى في تايوان",
+     "ru": "TSMC — крупный тайваньский производитель чипов"
+    },
+    "price_at_alert": 398.73
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794811392,
+    "reason": "תלות בייצור שבבים בטייוואן יוצרת רגישות לכל אירוע צבאי באזור.",
+    "reason_i18n": {
+     "he": "תלות בייצור שבבים בטייוואן יוצרת רגישות לכל אירוע צבאי באזור.",
+     "en": "Reliance on Taiwan-based chip manufacturing creates vulnerability to regional military events.",
+     "ar": "الاعتماد على تصنيع الرقائق في تايوان يخلق حساسية تجاه أي حدث عسكري إقليمي.",
+     "ru": "Зависимость от производства чипов на Тайване создает уязвимость к региональным военным событиям."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – ענקית השבבים",
+     "en": "Nvidia – chip giant",
+     "ar": "إنفيديا - عملاق الرقائق",
+     "ru": "Nvidia — гигант по производству чипов"
+    },
+    "price_at_alert": 162.85
+   }
+  ],
+  "id": "05129a9e1685"
+ },
+ {
+  "ts": 1794811392,
+  "time": "2026-11-16T06:43Z",
+  "title": "ארה\"ב צפויה להטיל סנקציות על רשת הסמים של חזבאללה בביירות",
+  "summary": "ארצות הברית מתכננת להטיל בקרוב סנקציות חדשות המכוונות נגד רשת להלבנת הון וסחר בסחר סמים המקושרת לחזבאללה בביירות.",
+  "kid": "ארה\"ב מקדמת צעדים פיננסיים נגד גורמים עבריינים המממנים ארגוני טרור במזרח התיכון.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב צפויה להטיל סנקציות על רשת הסמים של חזבאללה בביירות",
+    "en": "US Imminent Sanctions Target Hezbollah Drug Network in Beirut",
+    "ar": "الولايات المتحدة تستعد لفرض عقوبات على شبكة مخدرات حزب الله في بيروت",
+    "ru": "США готовят санкции против нарсети «Хезболлы» в Бейруте"
+   },
+   "summary": {
+    "he": "ארצות הברית מתכננת להטיל בקרוב סנקציות חדשות המכוונות נגד רשת להלבנת הון וסחר בסחר סמים המקושרת לחזבאללה בביירות.",
+    "en": "The United States is poised to impose new sanctions targeting a Hezbollah-linked drug trafficking and money laundering network in Beirut.",
+    "ar": "تستعد الولايات المتحدة لفرض عقوبات جديدة تستهدف شبكة لتهريب المخدرات وغسيل الأموال مرتبطة بحزب الله في بيروت.",
+    "ru": "Соединенные Штаты собираются ввести новые санкции против связанной с «Хезболлой» сети наркоторговли и отмывания денег в Бейруте."
+   },
+   "kid": {
+    "he": "ארה\"ב מקדמת צעדים פיננסיים נגד גורמים עבריינים המממנים ארגוני טרור במזרח התיכון.",
+    "en": "The U.S. is advancing financial actions against criminal actors funding Middle Eastern militant groups.",
+    "ar": "تتخذ الولايات المتحدة إجراءات مالية ضد الجهات الإجرامية التي تمول الجماعات المسلحة في الشرق الأوسط.",
+    "ru": "США предпринимают финансовые меры против криминальных элементов, финансирующих боевые группы на Ближнем Востоке."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTlzdWxPUWJiSTVQMG5NMWEyODNvcGdPX3J4dDZURXNKMy1SZDFDMkg2OC0yV3dPN25hX2VUa1Y2R1hvdk9IMHVqVUhQY204WmZwalo3djVhTFBSV2FpSnpqWVNrV3puZC1hWHZQcnc4Y0tnak1hM1FSM016MmdzVVgtOE9SQVVpb3oxR3BCaDFoWHRyZTZPVVk5T3NXRHJ5RlllRg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794811392,
+    "reason": "החמרת המתיחות והפעולות נגד גורמים עוינים מחזקת את סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "החמרת המתיחות והפעולות נגד גורמים עוינים מחזקת את סקטור הביטחון.",
+     "en": "Heightened tensions and actions against hostile actors support the defense sector.",
+     "ar": "تصاعد التوترات والإجراءات ضد الجهات العدائية يدعم قطاع الدفاع.",
+     "ru": "Эскалация напряженности и меры против враждебных акторов поддерживают оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל לתעשיות ביטחוניות בארה\"ב",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الفضاء والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 71.51
+   }
+  ],
+  "id": "e2dc7fceaa49"
+ },
+ {
+  "ts": 1794811392,
+  "time": "2026-11-16T06:43Z",
+  "title": "הנפור וור פאואר חותמת על חוזה הסבה של מתקני FSRU",
+  "summary": "חברת Hanwha Power חתמה על חוזה פרויקט מפתח (Turnkey) להסבת מתקני אחזור וגזיזת גז (FSRU) מול חברת Energos Infrastructure.",
+  "kid": "חברת האנרגיה Hanwha זכתה בחוזה גדול לבניית והסבת מתקני גז טבעי. עסקאות ענק כאלו מחזקות את הפעילות העסקית של החברה והספקים שלה.",
+  "i18n": {
+   "title": {
+    "he": "הנפור וור פאואר חותמת על חוזה הסבה של מתקני FSRU",
+    "en": "Hanwha Power Signs FSRU Conversion Contract",
+    "ar": "هانوا باور توقيع عقد تحويل مرافق FSRU",
+    "ru": "Hanwha Power подписала контракт на переоборудование FSRU"
+   },
+   "summary": {
+    "he": "חברת Hanwha Power חתמה על חוזה פרויקט מפתח (Turnkey) להסבת מתקני אחזור וגזיזת גז (FSRU) מול חברת Energos Infrastructure.",
+    "en": "Hanwha Power has signed a turnkey FSRU conversion contract with Energos Infrastructure to boost energy supply chain infrastructure.",
+    "ar": "وقعت شركة هانوا باور عقد تحويل مفتاح بيد (Turnkey) لمرافق الغاز مع شركة إنرغوس للبنية التحتية.",
+    "ru": "Компания Hanwha Power подписала контракт «под ключ» на переоборудование плавучих установок СПГ с Energos Infrastructure."
+   },
+   "kid": {
+    "he": "חברת האנרגיה Hanwha זכתה בחוזה גדול לבניית והסבת מתקני גז טבעי. עסקאות ענק כאלו מחזקות את הפעילות העסקית של החברה והספקים שלה.",
+    "en": "Energy firm Hanwha won a major contract to build gas infrastructure, which boosts its business outlook and supply chain partners.",
+    "ar": "فازت شركة الطاقة هانوا بعقد كبير لبناء البنية التحتية للغاز، مما يعزز آفاق أعمالها وشركاء سلسلة التوريد.",
+    "ru": "Энергетическая компания Hanwha выиграла крупный контракт на инфраструктуру СПГ, что укрепляет ее бизнес-перспективы."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBcnJDLS1HRzR6QmZxVWZmbXNyZHdZUGZrMGdneXdETjNuT0g1YnpMQkM2NW1JaldxSnNFQktYYnpTSkNhNU1odTNJeHFNTjEzSVhvYlJranZ6UkQ0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "UNG",
+    "direction": "up",
+    "t0": 1794811392,
+    "reason": "השקעות חדשות בתשתיות גז תומכות בפיתוח שרשרת האספקה של גז טבעי.",
+    "reason_i18n": {
+     "he": "השקעות חדשות בתשתיות גז תומכות בפיתוח שרשרת האספקה של גז טבעי.",
+     "en": "New investments in gas infrastructure support the development of the natural gas supply chain.",
+     "ar": "الاستثمارات الجديدة في البنية التحتية للغاز تدعم تطوير سلسلة إمداد الغاز الطبيعي.",
+     "ru": "Новые инвестиции в газовую инфраструктуру поддерживают развитие цепочки поставок природного газа."
+    },
+    "name_i18n": {
+     "he": "קרן סל על גז טבעי",
+     "en": "Natural Gas Fund ETF",
+     "ar": "صندوق الغاز الطبيعي",
+     "ru": "ETF природного газа"
+    },
+    "price_at_alert": 10.15
+   }
+  ],
+  "id": "eb5fd5c989c3"
  }
 ]
