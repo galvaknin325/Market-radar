@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-16T02:43Z",
+ "generated": "2026-11-16T03:49Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 982,
+ "total_alerts": 985,
  "overall": {
   "n": 576,
   "hits": 288,
@@ -78,7 +78,7 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 115,
+   "mentions": 116,
    "n": 87,
    "hits": 39,
    "name": {
@@ -750,11 +750,11 @@
    "avg_edge": 0.04
   },
   "EWJ": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל על יפן",
+    "he": "קרן סל על מניות יפן",
     "en": "Japan ETF",
     "ar": "صندوق مؤشرات متداول لليابان",
     "ru": "ETF на Японию"
@@ -1158,14 +1158,14 @@
    "avg_edge": 0.0
   },
   "FXY": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 4,
    "hits": 1,
    "name": {
-    "he": "קרן סל למעקב אחר הין היפני",
-    "en": "FXY – Japanese Yen ETF",
-    "ar": "FXY - صندوق استثماري للين الياباني",
-    "ru": "FXY — ETF японской иены"
+    "he": "יין יפני",
+    "en": "Japanese Yen",
+    "ar": "الين الياباني",
+    "ru": "Японская иена"
    },
    "avg_edge": -0.2
   },
@@ -1526,6 +1526,18 @@
     "en": "Diamondback Energy - Oil and gas company",
     "ar": "Diamondback Energy - شركة نفط وغاز",
     "ru": "Diamondback Energy - нефтегазовая компания"
+   },
+   "avg_edge": null
+  },
+  "INTC": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אינטל",
+    "en": "Intel",
+    "ar": "إنتل",
+    "ru": "Intel"
    },
    "avg_edge": null
   }
