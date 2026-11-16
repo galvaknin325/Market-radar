@@ -1360,171 +1360,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794183615,
-  "time": "2026-11-09T00:20Z",
-  "title": "פגיעת רחפון במתקן הגז כור מור בעיראק",
-  "summary": "כטב\"ם תקף את מתקן הגז כור מור באזור כורדיסטן בעיראק, והותיר למעלה מ-70 אחוזים מהאזור ללא חשמל.",
-  "kid": "פגיעה במתקן אנרגיה חשוב בעיראק משבשת את אספקת החשמל והאנרגיה המקומית ומגבירה את החשש מהסלמה באזור.",
-  "i18n": {
-   "title": {
-    "he": "פגיעת רחפון במתקן הגז כור מור בעיראק",
-    "en": "Drone strike hits Khor Mor gas facility in Iraq",
-    "ar": "هجوم بطائرة مسيرة يضرب منشأة خور مور للغاز في العراق",
-    "ru": "Удар беспилотника по газовому объекту Хор-Мор в Ираке"
-   },
-   "summary": {
-    "he": "כטב\"ם תקף את מתקן הגז כור מור באזור כורדיסטן בעיראק, והותיר למעלה מ-70 אחוזים מהאזור ללא חשמל.",
-    "en": "A drone struck the Khor Mor gas facility in Iraq's Kurdish region, leaving over 70 percent of the area without power.",
-    "ar": "ضربت طائرة مسيرة منشأة خور مور للغاز في إقليم كردستان العراق، مما أدى إلى انقطاع الكهرباء عن أكثر من 70 بالمئة من المنطقة.",
-    "ru": "Беспилотник ударил по газовому объекту Хор-Мор в Иракском Курдистане, оставив без электричества более 70 процентов региона."
-   },
-   "kid": {
-    "he": "פגיעה במתקן אנרגיה חשוב בעיראק משבשת את אספקת החשמל והאנרגיה המקומית ומגבירה את החשש מהסלמה באזור.",
-    "en": "An attack on a key energy plant in Iraq disrupts local power and energy supplies, raising regional escalation fears.",
-    "ar": "الهجوم على محطة طاقة رئيسية في العراق يعطل إمدادات الطاقة المحلية ويزيد المخاوف من التصعيد الإقليمي.",
-    "ru": "Атака на ключевую электростанцию в Ираке нарушает местное энергоснабжение, усиливая опасения региональной эскалации."
-   }
-  },
-  "category": "commodities",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794183615,
-    "reason": "שיבושי אנרגיה במזרח התיכון תומכים بمחירי האנרגיה.",
-    "reason_i18n": {
-     "he": "שיבושי אנרגיה במזרח התיכון תומכים بمחירי האנרגיה.",
-     "en": "Energy disruptions in the Middle East support energy prices.",
-     "ar": "اضطرابات الطاقة في الشرق الأوسط تدعم أسعار الطاقة.",
-     "ru": "Перебои с энергетикой на Ближнем Востоке поддерживают цены на энергоносители."
-    },
-    "name_i18n": {
-     "he": "תעודת סל אנרגיה",
-     "en": "Energy Select Sector SPDR Fund",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 61.62,
-    "entry_price": 61.25,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 62.225,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.59,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 0.51,
-    "edge_pct": 0.51,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "UNG",
-    "direction": "up",
-    "t0": 1794188770,
-    "reason": "חשש מהידוק היצע האנרגיה",
-    "reason_i18n": {
-     "he": "חשש מהידוק היצע האנרגיה",
-     "en": "Concerns over tighter energy supply",
-     "ar": "مخاوف بشأن تشديد إمدادات الطاقة",
-     "ru": "Опасения по поводу сокращения поставок энергоносителей"
-    },
-    "name_i18n": {
-     "he": "גז טבעי",
-     "en": "Natural Gas",
-     "ar": "الغاز الطبيعي",
-     "ru": "Природный газ"
-    },
-    "price_at_alert": 9.35,
-    "entry_price": 9.87,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 10.41,
-    "exit_date": "2026-11-10",
-    "change_pct": 5.47,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": 4.39,
-    "edge_pct": 4.39,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794191936,
-    "reason": "שיבושים באספקת אנרגיה במזרח התיכון מעלים את מחירי הנפט.",
-    "reason_i18n": {
-     "he": "שיבושים באספקת אנרגיה במזרח התיכון מעלים את מחירי הנפט.",
-     "en": "Energy supply disruptions in the Middle East drive up oil prices.",
-     "ar": "اضطرابات إمدادات الطاقة في الشرق الأوسط ترفع أسعار النفط.",
-     "ru": "Перебои с поставками энергоносителей на Ближнем Востоке повышают цены на нефть."
-    },
-    "name_i18n": {
-     "he": "קרן סל על נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق استثمار للنفط",
-     "ru": "ETF на нефть"
-    },
-    "price_at_alert": 148.41,
-    "entry_price": 142.55,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 141.41,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.88,
-    "edge_pct": -1.88,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "eabd56de982e",
-  "updates": [
-   {
-    "ts": 1794188770,
-    "time": "2026-11-09T01:46Z",
-    "severity": 6,
-    "summary": "מתקפת רחפנים הובילה להשבתת הייצור בשדה הגז כור מור בעיראק, מה שגרם להפסקות חשמל נרחבות באזור הכורדי.",
-    "i18n": {
-     "he": "מתקפת רחפנים הובילה להשבתת הייצור בשדה הגז כור מור בעיראק, מה שגרם להפסקות חשמל נרחבות באזור הכורדי.",
-     "en": "A drone attack has suspended production at the Khor Mor gasfield in Iraq, causing widespread power outages in the Kurdish region.",
-     "ar": "أدى هجوم بطائرة مسيرة إلى تعليق الإنتاج في حقل خور مور للغاز في العراق، مما تسبب في انقطاع التيار الكهربائي على نطاق واسع في المنطقة الكردية.",
-     "ru": "Атака беспилотников привела к приостановке добычи на газовом месторождении Хор-Мор в Ираке, что вызвало масштабные отключения электроэнергии в курдском регионе."
-    }
-   },
-   {
-    "ts": 1794191936,
-    "time": "2026-11-09T02:38Z",
-    "severity": 6,
-    "summary": "מתקפת רחפנים עצרה את הייצור בשדה הגז כור מור בצפון עיראק, מה שגרם להפסקות חשמל נרחבות.",
-    "i18n": {
-     "he": "מתקפת רחפנים עצרה את הייצור בשדה הגז כור מור בצפון עיראק, מה שגרם להפסקות חשמל נרחבות.",
-     "en": "A drone attack halted production at the Khor Mor gas field in northern Iraq, causing widespread power outages.",
-     "ar": "أدى هجوم بطائرة مسيرة إلى توقف الإنتاج في حقل خور مور للغاز في شمال العراق، مما تسبب في انقطاع واسع للتيار الكهربائي.",
-     "ru": "Атака дронов остановила добычу на газовом месторождении Хор-Мор на севере Ирака, что привело к массовым отключениям электроэнергии."
-    }
-   }
-  ],
-  "last_update": 1794191936,
-  "evaluated": true
- },
- {
   "ts": 1794188770,
   "time": "2026-11-09T01:46Z",
   "title": "נתוני אינפלציה בסין",
@@ -47801,20 +47636,32 @@
    }
   },
   "category": "macro",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54ZzhaUlFOZmZfT0FwZ1NZeUdHdktBQWhqRUl6dEE3bmhZd2hLQ2tYYTZDQ1IyejlMZUh0WTg5ZVVDX2FJLTVkbG9TZmtZcUp5akoyLXRnazZYY3BwMnRuS3oycnNfTmlRZ3lFYk9NVWxFMk1KcEE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYnFIUDZXaUlxbUsxU1JoVWoxNWFrbXUtSUsxXzV0bkE3QXZDU1VWM09yN2tOTjlzQm9nVE4yaUJ4MzZmTWxXSlV3aS1BNmIySk5TUmdvWUt5MExKT0pSMnZSZkRSZ1FMVF9vcGQ3T3ZOTkdrTHJXQnJaaUFwSWdrR09vdEF2el9sTUdZNlN1YmNsMndPMlM1TElPN0pabWFnOUlNXzU4VUxienhXVDJmT0VRUUNCYjgzTTNHc2V3UTdQa0ZuWmVtNTFvdkhCYUM3ZjcxU1A2Z2o1UzJOSUNManNCbEhhc3lq?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcHVVT0thQUt5SFBncDl2Szl0bmkySkRCanhTVTdsNzNTdWZtQmxUNVFONUVqYUVfdUZ1QkJJR2xNZVp6RjNhZE9iZXNJSlE2U2p6b1I2X1Boa0dFWWotdkZ2a3oySEZDR0VEWk1LTGdzUjUyc1R0RlRoN3k1NVhLcFdnU0lKNnhGSnQzYi0tb09HcnYxNG14S2MwNlVldXRxMXgzLVhDQ294Zw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS0R2Rll3WnVlQXVqdUJMZGJ1WGxvQXZKMWgxZGR0YmpCM0xRd3dBYUJudmo5djlRbUhmUDJ4Z0FmV01icnB1LWlkakRmdHU3NkFiX2Q5MllkNHNkN2NkbEtNdW1YQ3ZMdDNrNnlwblR6WTZHZ2RqWGJBUURta094N040US1fVUVUeVN0RUxTV3g0MlVTYkdCVw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0taZlpLMjZNSHV5LVZIWktScXlHVHB3Ri1SMElOR3UycjRibjRfTUM1Y05nQW1SYkljelpjVkdkaGFXRVQyeHVpZTB1T1h1SWQwNHRPTUlTTUJFS0tFVHR1R0c5M1ZLWWlxYmN0aEVqSzZRYkROWlhqTEo2Q2daZEZ2S1lwaDAwRV9lU1lGcEgyM00yOTZBVW9MYw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFUGNuNENHdlN5U1ZpblhZZnhWbHZEdkx1NVFyRk9yZ3FYZHhzRHNSVEVwdFVGdUl4YXZ0bDFMOGtXSjFxOHZ5T1VXWDJybnYzTGFtbG9ZekUxLXlQTmtHR29Hc0Y3U2w5M2hROXpIVThveVBadVE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY05BVzJmWWhZZGo2NVhlSnV4Y1Q3b09RQlNrdUhQS21xdm1xUmtuSjZCUkNUdTYwaFJrb1phVWZCWEtLNDktYTV4SnFzSE1fWWxEcXd6NHIxQUlGQ1dGeHFDQUM2N1B1bklZanJwdU1Ea3dLdFEtYkNWNkM2OEZHd1d5NlBRN050NXoyMmJ6RUpCY2ZielBESVJrcGsyZVZLYV9CdTBJRlctSGtuckFuM0xWN0JGRV94YXFyZGNXYmtoN25LYXc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZUhHNk42ZEdzV00wc0daaGFhdXF3NDRHRXo1eExabVdWVlpqOG91dHcwckVsMlF6RUJDeXkzRW1hYVBQNU9MV1JGZFZ2X2tQM0k5ZG5neXIzcWdoYkU3dE0xZURqcUhDVW5FNW5Kb0pwa0ZadnNLV3JrVGlnNUZ5akVqYXlPUTF1di1WbHNSN0o1Q01YV1Y0YnF2VHprQ1dKWlVXSlNNRzFsZzF4VTdXR1A5ZEczVkVDNTY5akdVUFQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWS1yeXU2c1dqblU4Vk9YbEVIcklaZkdqY3NhQVl0Mjg5NVNkVjJHX0dzUFNaSkk5ejNvdGszT1VGV1hPMEd4ODB5ZTIyYzF5WjVRT2h3VkVyWmQ0bkRfMlA0QmMxeWVNYVgzUGd0SmFkQkNuWlc1MFBrSnZ4OUpyNHFjOFVmdUpOZUY5S29HLUs0Zw?oc=5"
    }
   ],
   "impacts": [
@@ -47855,9 +47702,43 @@
      "ru": "Долгосрочные казначейские облигации США"
     },
     "price_at_alert": 79.38
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794796952,
+    "reason": "מניות טכנולוגיה רגישות לריבית גבוהה",
+    "reason_i18n": {
+     "he": "מניות טכנולוגיה רגישות לריבית גבוהה",
+     "en": "Tech stocks are sensitive to high rates",
+     "ar": "أسهم التكنولوجيا حساسة لأسعار الفائدة المرتفعة",
+     "ru": "Акции технологических компаний чувствительны к высоким ставкам"
+    },
+    "name_i18n": {
+     "he": "נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشرات متداول لناسداك 100",
+     "ru": "ETF на Nasdaq 100"
+    },
+    "price_at_alert": 679.89
    }
   ],
-  "id": "b3a8398b5db9"
+  "id": "b3a8398b5db9",
+  "updates": [
+   {
+    "ts": 1794796952,
+    "time": "2026-11-16T02:42Z",
+    "severity": 7,
+    "summary": "בכירי הפד מדגישים כי האינפלציה נותרה גבוהה מדי, מה שמוביל להערכות בשוק להמשך העלאות ריבית מתונות.",
+    "i18n": {
+     "he": "בכירי הפד מדגישים כי האינפלציה נותרה גבוהה מדי, מה שמוביל להערכות בשוק להמשך העלאות ריבית מתונות.",
+     "en": "Fed officials emphasize that inflation remains too high, leading to market expectations for a steady and gradual pace of rate hikes.",
+     "ar": "يؤكد مسؤولو الاحتياطي الفيدرالي أن التضخم لا يزال مرتفعاً للغاية، مما يؤدي إلى توقعات السوق باستمرار وتيرة معتدلة لرفع أسعار الفائدة.",
+     "ru": "Чиновники ФРС подчеркивают, что инфляция остается слишком высокой, что приводит к ожиданиям рынка относительно продолжения умеренного повышения процентных ставок."
+    }
+   }
+  ],
+  "last_update": 1794796952
  },
  {
   "ts": 1794771858,
@@ -48236,12 +48117,20 @@
    }
   },
   "category": "commodities",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kMVZlcnJjVFJDMWludHZOaGxrQlhsRUk4MVM3MUstRDN2RTJPYm9YbWhyaFpNQlBCcWxmclFmN1hvaHFvZHVrUUpVeEh1UUt1cmxfbTByd19sV2pxUlNUNTNDMnBCajRIcGdTREpvUXVmNG52bmFn?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUk5QRnVLZXJ3Nk5tMzFQbXlfb1ZvanZwaXRmdkxoSDJLcTA5aHVCZHBDN2R5RUZmMDFOVlRWMmFwLUVjQmpnZGx3WnFxM1htekVyaTZMZVRhVEplYnFWRmRBbThaRzBQMGg2VGQ2alQ3U0tMU3YxVWl3ZTJaN2hFQlZFNUJSdlZnMllYUjVB?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORUpVUmdfWGhDbV81b2dqaXhPWnN4eXBmOF83QWtibDM5eTVLVnE4T1M4ZllWX2F2TDZ0a3p5SVR1NEpXakVmMEN2T2JEZ013SllMQjVkeU9QYzZDMHpiRkFtckJvY0VyTHV3MldGbFVtYlRORXctcmwyNlFUX2h4aUVtZmd1RlZyaWZWR1Q1OUZmZ2FXR2hQd1FDLVpXWmxES2pyMkthUU43Q0wxeDF6dG1B0gG6AUFVX3lxTFAzMkw3emk5YlAtOHc5cUw0TVBybmJ1bDhpa2NLQlU4MEZTbEotSmZoQWRPX1NNaXFqcjNGQUQ3MVlVTEhJTlFzNVZ6Y1Y5dkpzOWh2VnFDMVgyUGpEWG92aHI5OWh3QVdsQVVfY0NLdGVTRUtxa0V1bUF0R3RmdUNZMFhCaXNyNFhKUUU0Q0V3VFQ3ZlQwSVlaaFRpTTQ3bThsbHBwMkFaOTBQdV9NRnJvVXdiUHNsRkFUUQ?oc=5"
    }
   ],
   "impacts": [
@@ -48282,9 +48171,43 @@
      "ru": "ExxonMobil - энергетическая компания"
     },
     "price_at_alert": 170.59
+   },
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1794796952,
+    "reason": "ירידת מחיר הנפט",
+    "reason_i18n": {
+     "he": "ירידת מחיר הנפט",
+     "en": "Drop in oil prices",
+     "ar": "انخفاض سعر النفط",
+     "ru": "Падение цены на нефть"
+    },
+    "name_i18n": {
+     "he": "נפט גולמי",
+     "en": "Crude oil ETF",
+     "ar": "صندوق مؤشرات متداول للنفط الخام",
+     "ru": "ETF на сырую нефть"
+    },
+    "price_at_alert": 145.58
    }
   ],
-  "id": "ac0c8b208fdd"
+  "id": "ac0c8b208fdd",
+  "updates": [
+   {
+    "ts": 1794796952,
+    "time": "2026-11-16T02:42Z",
+    "severity": 5,
+    "summary": "מחירי הנפט יורדים בשל ציפיות לעודף היצע בשוק העולמי, מה שמשפיע על מחירי הדלק.",
+    "i18n": {
+     "he": "מחירי הנפט יורדים בשל ציפיות לעודף היצע בשוק העולמי, מה שמשפיע על מחירי הדלק.",
+     "en": "Oil prices are falling due to expectations of a supply surplus in the global market, impacting fuel prices.",
+     "ar": "تنخفض أسعار النفط بسبب توقعات بوجود فائض في المعروض في السوق العالمية، مما يؤثر على أسعار الوقود.",
+     "ru": "Цены на нефть падают из-за ожиданий избытка предложения на мировом рынке, что влияет на цены на топливо."
+    }
+   }
+  ],
+  "last_update": 1794796952
  },
  {
   "ts": 1794779629,
@@ -49198,5 +49121,90 @@
    }
   ],
   "id": "166e2cc56f5e"
+ },
+ {
+  "ts": 1794796952,
+  "time": "2026-11-16T02:42Z",
+  "title": "האטה כלכלית ביפן וסין",
+  "summary": "הכלכלה היפנית התכווצה ב-0.1% עקב עלויות אנרגיה גבוהות, בעוד שהצמיחה בסין מאכזבת עם נתוני ייצור וקמעונאות חלשים.",
+  "kid": "הכלכלות של יפן וסין מאטות, מה שעלול להשפיע על חברות אמריקאיות שמוכרות שם מוצרים. זה עשוי לגרום למניות של חברות גלובליות לרדת.",
+  "i18n": {
+   "title": {
+    "he": "האטה כלכלית ביפן וסין",
+    "en": "Economic slowdown in Japan and China",
+    "ar": "تباطؤ اقتصادي في اليابان والصين",
+    "ru": "Экономический спад в Японии и Китае"
+   },
+   "summary": {
+    "he": "הכלכלה היפנית התכווצה ב-0.1% עקב עלויות אנרגיה גבוהות, בעוד שהצמיחה בסין מאכזבת עם נתוני ייצור וקמעונאות חלשים.",
+    "en": "Japan's economy contracted by 0.1% due to high energy costs, while China's growth missed estimates with weak industrial and retail data.",
+    "ar": "انكمش الاقتصاد الياباني بنسبة 0.1% بسبب ارتفاع تكاليف الطاقة، في حين جاء نمو الصين مخيباً للآمال مع بيانات صناعية وتجزئة ضعيفة.",
+    "ru": "Экономика Японии сократилась на 0,1% из-за высоких затрат на энергию, а рост в Китае не оправдал ожиданий из-за слабых показателей производства и розничной торговли."
+   },
+   "kid": {
+    "he": "הכלכלות של יפן וסין מאטות, מה שעלול להשפיע על חברות אמריקאיות שמוכרות שם מוצרים. זה עשוי לגרום למניות של חברות גלובליות לרדת.",
+    "en": "The economies of Japan and China are slowing down, which might hurt US companies that sell products there. This could make the stock prices of global companies go down.",
+    "ar": "تتباطأ اقتصادات اليابان والصين، مما قد يضر بالشركات الأمريكية التي تبيع منتجاتها هناك. قد يؤدي هذا إلى انخفاض أسعار أسهم الشركات العالمية.",
+    "ru": "Экономики Японии и Китая замедляются, что может навредить американским компаниям, продающим там товары. Это может привести к падению цен на акции глобальных компаний."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jNDV6cG9jWEpkRTdJWjBpb0k0QzVaWFREMXFLdkt1TTBhOGhIYlRpYk15VjU1R1NSb3g1eVI5eDR5NUF2b2VRT2laYmxMb0ZEb1ljMks2dU5jZzdQVDk4RkIyT25SQ3dZN3VNOWtYMWRjYlNzcGc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbXVFd01TWDViRzdoVzNIZWhIZ255aWlMOXBUMy1RaHFDcUlhWDY5azE0aGRrX3BHV2VhMTJXcFNteDFmN2tLd3lORTBPTDBUOWZkQTRYSmdPNXU3Zng5cWVyVUlnVDdUek9kRXpVY0Nwb0JseTRWel9ROUZ5bm9pbFI5a0NrdF9fSmg3cVJ6akhQZnpXVXFYTi13UFhLMnlCVjN4aTZBTTNtUW9BV3psTzlOdzJUZ9IBtgFBVV95cUxNbXVFd01TWDViRzdoVzNIZWhIZ255aWlMOXBUMy1RaHFDcUlhWDY5azE0aGRrX3BHV2VhMTJXcFNteDFmN2tLd3lORTBPTDBUOWZkQTRYSmdPNXU3Zng5cWVyVUlnVDdUek9kRXpVY0Nwb0JseTRWel9ROUZ5bm9pbFI5a0NrdF9fSmg3cVJ6akhQZnpXVXFYTi13UFhLMnlCVjN4aTZBTTNtUW9BV3psTzlOdzJUZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1794796952,
+    "reason": "התכווצות התמ\"ג מעידה על חולשה כלכלית",
+    "reason_i18n": {
+     "he": "התכווצות התמ\"ג מעידה על חולשה כלכלית",
+     "en": "GDP contraction signals economic weakness",
+     "ar": "انكماش الناتج المحلي الإجمالي يشير إلى ضعف اقتصادي",
+     "ru": "Сокращение ВВП сигнализирует об экономической слабости"
+    },
+    "name_i18n": {
+     "he": "קרן סל על יפן",
+     "en": "Japan ETF",
+     "ar": "صندوق مؤشرات متداول لليابان",
+     "ru": "ETF на Японию"
+    },
+    "price_at_alert": 91.76
+   },
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1794796952,
+    "reason": "נתוני מאקרו מאכזבים בסין",
+    "reason_i18n": {
+     "he": "נתוני מאקרו מאכזבים בסין",
+     "en": "Disappointing macro data in China",
+     "ar": "بيانات اقتصادية مخيبة للآمال في الصين",
+     "ru": "Разочаровывающие макроданные в Китае"
+    },
+    "name_i18n": {
+     "he": "קרן סל על סין",
+     "en": "China large caps ETF",
+     "ar": "صندوق مؤشرات متداول للشركات الصينية الكبرى",
+     "ru": "ETF на крупные китайские компании"
+    },
+    "price_at_alert": 33.48
+   }
+  ],
+  "id": "6d7ef39247f3"
  }
 ]
