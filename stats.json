@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T18:39Z",
+ "generated": "2026-11-17T19:49Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1059,
+ "total_alerts": 1063,
  "overall": {
   "n": 643,
   "hits": 321,
@@ -78,23 +78,23 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 122,
+   "mentions": 123,
    "n": 95,
    "hits": 41,
    "name": {
-    "he": "קרן נפט גולמי",
-    "en": "Crude Oil ETF",
-    "ar": "صندوق النفط الخام",
-    "ru": "ETF на сырую нефть"
+    "he": "קרן סל על מחיר הנפט",
+    "en": "Oil Price ETF",
+    "ar": "صندوق سعر النفط",
+    "ru": "ETF на цену нефти"
    },
    "avg_edge": -0.24
   },
   "XLE": {
-   "mentions": 103,
+   "mentions": 104,
    "n": 81,
    "hits": 46,
    "name": {
-    "he": "קרן סל סקטור האנרגיה",
+    "he": "קרן סל של מגזר האנרגיה",
     "en": "Energy Sector ETF",
     "ar": "صندوق قطاع الطاقة",
     "ru": "ETF энергетического сектора"
@@ -150,11 +150,11 @@
    "avg_edge": -0.01
   },
   "ITA": {
-   "mentions": 181,
+   "mentions": 182,
    "n": 142,
    "hits": 77,
    "name": {
-    "he": "קרן סל תעופה וביטחון",
+    "he": "קרן סל של תעשיות ביטחוניות",
     "en": "Aerospace & Defense ETF",
     "ar": "صندوق قطاع الفضاء والدفاع",
     "ru": "ETF аэрокосмической и оборонной промышленности"
@@ -186,14 +186,14 @@
    "avg_edge": -1.1
   },
   "ESLT": {
-   "mentions": 24,
+   "mentions": 25,
    "n": 18,
    "hits": 10,
    "name": {
-    "he": "אלביט מערכות – חברת ביטחונית ישראלית",
-    "en": "Elbit Systems – Israeli defense firm",
-    "ar": "إلبيت سيستمز - شركة دفاع إسرائيلية",
-    "ru": "Elbit Systems – израильская оборонная компания"
+    "he": "אלביט מערכות",
+    "en": "Elbit Systems",
+    "ar": "إلبيت سيستمز",
+    "ru": "Elbit Systems"
    },
    "avg_edge": 0.21
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.16
   },
   "LMT": {
-   "mentions": 75,
+   "mentions": 76,
    "n": 59,
    "hits": 34,
    "name": {
-    "he": "לוקהיד מרטין",
-    "en": "Lockheed Martin",
-    "ar": "لوكهيد مارتن",
-    "ru": "Lockheed Martin"
+    "he": "לוקהיד מרטין - חברת ביטחון",
+    "en": "Lockheed Martin - Defense company",
+    "ar": "لوكهيد مارتن - شركة دفاع",
+    "ru": "Lockheed Martin - оборонная компания"
    },
    "avg_edge": -0.29
   },

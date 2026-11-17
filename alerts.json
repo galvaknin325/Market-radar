@@ -394,151 +394,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794303507,
-  "time": "2026-11-10T09:38Z",
-  "title": "אוקראינה תוקפת מפעל טילים רוסי",
-  "summary": "אוקראינה ביצעה תקיפה נגד מפעל דלק לטילים מסוג איסקנדר ליד סנט פטרסבורג, וכן דווח על תקיפה במפעל צבאי בעיר קירוב.",
-  "kid": "אוקראינה פגעה במפעלים שמייצרים נשק ברוסיה. זה מראה שהמלחמה נמשכת ועלולה להשפיע על חברות ביטחוניות.",
-  "i18n": {
-   "title": {
-    "he": "אוקראינה תוקפת מפעל טילים רוסי",
-    "en": "Ukraine strikes Russian missile factory",
-    "ar": "أوكرانيا تضرب مصنع صواريخ روسي",
-    "ru": "Украина наносит удар по российскому ракетному заводу"
-   },
-   "summary": {
-    "he": "אוקראינה ביצעה תקיפה נגד מפעל דלק לטילים מסוג איסקנדר ליד סנט פטרסבורג, וכן דווח על תקיפה במפעל צבאי בעיר קירוב.",
-    "en": "Ukraine carried out a strike against an Iskander missile-fuel plant near St. Petersburg, and a separate strike was reported at a military factory in the city of Kirov.",
-    "ar": "نفذت أوكرانيا ضربة ضد مصنع وقود لصواريخ إسكندر بالقرب من سانت بطرسبرغ، كما وردت أنباء عن ضربة في مصنع عسكري في مدينة كيروف.",
-    "ru": "Украина нанесла удар по заводу по производству топлива для ракет «Искандер» под Санкт-Петербургом, также сообщалось об ударе по военному заводу в городе Киров."
-   },
-   "kid": {
-    "he": "אוקראינה פגעה במפעלים שמייצרים נשק ברוסיה. זה מראה שהמלחמה נמשכת ועלולה להשפיע על חברות ביטחוניות.",
-    "en": "Ukraine hit factories that make weapons in Russia. This shows the war is continuing and could affect defense companies.",
-    "ar": "ضربت أوكرانيا مصانع تصنع الأسلحة في روسيا. هذا يظهر أن الحرب مستمرة وقد يؤثر على شركات الدفاع.",
-    "ru": "Украина нанесла удары по заводам, производящим оружие в России. Это показывает, что война продолжается и может повлиять на оборонные компании."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Defense News",
-    "url": "https://www.defensenews.com/global/europe/2026/11/10/ukraine-urges-us-to-speed-up-interceptor-deliveries-as-russia-targets-power-grid/"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794303507,
-    "reason": "המשך המלחמה מגביר את הביקוש לציוד ביטחוני אמריקאי.",
-    "reason_i18n": {
-     "he": "המשך המלחמה מגביר את הביקוש לציוד ביטחוני אמריקאי.",
-     "en": "The continuation of the war increases demand for US defense equipment.",
-     "ar": "استمرار الحرب يزيد الطلب على المعدات الدفاعية الأمريكية.",
-     "ru": "Продолжение войны увеличивает спрос на американское оборонное оборудование."
-    },
-    "name_i18n": {
-     "he": "ETF תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 71.67,
-    "entry_price": 71.01,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 73.27,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.18,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.59,
-    "edge_pct": 1.59,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794338171,
-    "reason": "יצרנית מערכות הגנה אווירית המבוקשות על ידי אוקראינה.",
-    "reason_i18n": {
-     "he": "יצרנית מערכות הגנה אווירית המבוקשות על ידי אוקראינה.",
-     "en": "Manufacturer of air defense systems sought by Ukraine.",
-     "ar": "الشركة المصنعة لأنظمة الدفاع الجوي المطلوبة.",
-     "ru": "Производитель систем ПВО, нужных Украине."
-    },
-    "name_i18n": {
-     "he": "RTX – ענקית תעופה וביטחון",
-     "en": "RTX – Defense & Aerospace",
-     "ar": "RTX – شركة الدفاع والفضاء",
-     "ru": "RTX – оборонная компания"
-    },
-    "price_at_alert": 200.57,
-    "entry_price": 200.43,
-    "entry_time": "2026-11-10T19:30+00:00",
-    "exit_price": 201.33,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.45,
-    "bench": "SPY",
-    "bench_change_pct": 1.5,
-    "excess_pct": -1.05,
-    "edge_pct": -1.05,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794338171,
-    "reason": "מייצרת טילי יירוט ומערכות הגנה מתקדמות.",
-    "reason_i18n": {
-     "he": "מייצרת טילי יירוט ומערכות הגנה מתקדמות.",
-     "en": "Produces interceptor missiles and defense systems.",
-     "ar": "تنتج الصواريخ الاعتراضية وأنظمة الدفاع المتقدمة.",
-     "ru": "Производит ракеты-перехватчики и системы защиты."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין – ענקית ביטחונית",
-     "en": "Lockheed Martin – Defense contractor",
-     "ar": "لوكهيد مارتن – مقاول دفاعي",
-     "ru": "Lockheed Martin – оборонный подрядчик"
-    },
-    "price_at_alert": 601.8,
-    "entry_price": 602.2,
-    "entry_time": "2026-11-10T19:30+00:00",
-    "exit_price": 609.925,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.28,
-    "bench": "SPY",
-    "bench_change_pct": 1.5,
-    "excess_pct": -0.22,
-    "edge_pct": -0.22,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "1ac11e5a4f4d",
-  "updates": [
-   {
-    "ts": 1794338171,
-    "time": "2026-11-10T19:16Z",
-    "severity": 4,
-    "summary": "שר החוץ של אוקראינה הפציר במזכיר המדינה האמריקאי מרקו רוביו להאיץ את אספקת טילי היירוט, בזמן שרוסיה ממשיכה לתקוף את רשת החשמל.",
-    "i18n": {
-     "he": "שר החוץ של אוקראינה הפציר במזכיר המדינה האמריקאי מרקו רוביו להאיץ את אספקת טילי היירוט, בזמן שרוסיה ממשיכה לתקוף את רשת החשמל.",
-     "en": "Ukraine's foreign minister urged US Secretary of State Marco Rubio to accelerate air defense interceptor deliveries as Russia targets the power grid.",
-     "ar": "حث وزير الخارجية الألماني وزير الخارجية الأمريكي ماركو روبيو على تسريع تسليم الصواريخ الاعتراضية بينما تستهدف روسيا شبكة الكهرباء.",
-     "ru": "Глава МИД Украины призвал госсекретаря США Марко Рубио ускорить поставки ракет-перехватчиков из-за ударов РФ по энергосетям."
-    }
-   }
-  ],
-  "last_update": 1794338171,
-  "evaluated": true
- },
- {
   "ts": 1794310608,
   "time": "2026-11-10T11:36Z",
   "title": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
@@ -1564,137 +1419,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794331565,
-  "time": "2026-11-10T17:26Z",
-  "title": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
-  "summary": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
-  "kid": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
-  "i18n": {
-   "title": {
-    "he": "ירידה בתפוקת הנחושת במכרות מרכזיים בשילי וסין",
-    "en": "Copper output falls at major mines in Chile and China",
-    "ar": "انخفاض إنتاج النحاس في مناجم رئيسية بتشيلي والصين",
-    "ru": "Добыча меди падает на крупных рудниках в Чили и Китае"
-   },
-   "summary": {
-    "he": "תפוקת הנחושת במכרות ענק כמו אסכונדיה בשילי ירדה בספטמבר, וייבוא תרכיז הנחושת לסין צנח ב-11% באוקטובר.",
-    "en": "Copper production at Chile's giant Escondida mine fell in September, while China's copper concentrate imports slumped 11% in October.",
-    "ar": "انخفض إنتاج النحاس في منجم إسكونديلا العملاق بتشيلي في سبتمبر، بينما هبطت واردات الصين من مركزات النحاس 11% في أكتوبر.",
-    "ru": "Добыча меди на гигантском руднике Эскондида в Чили снизилась в сентябре, а импорт медного концентрата в Китай упал на 11% в октябре."
-   },
-   "kid": {
-    "he": "יש פחות נחושת זמינה במכרות בחו\"ל ובסין, מה שיכול לייקר את המתכת הזו שמשמשת לתעשייה ואלקטרוניקה.",
-    "en": "There is less copper available from mines abroad and in China, which could make this metal used in industry and electronics more expensive.",
-    "ar": "هناك كميات أقل من النحاس المتاحة من المناجم في الخارج وفي الصين، مما قد يجعل هذا المعدن المستخدم في الصناعة والإلكترونيات أكثر غلاءً.",
-    "ru": "Доступно меньше меди на рудниках за рубежом и в Китае, что может сделать этот металл дороже для промышленности и электроники."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcTVTdktsdnhsMnZabjFtSVo5eUF3UW9EODdtd1gteFotWkNHSEh3M0ZwY241RjZsQWpPb0x4TXg0UW1nQ2NxbWgzaWJXQlpTcHQzU1V2cWxtLWlsR2Y5ZUdlblZndGFsZnNtMmN0LTdtR3YwMVhFandkLWpkaGt3ZUsyOEp0T3k1MzY1R3gyclNLbk1iVk8zZXJXTnpVQ0RNYUdsNTBOYzFBQU96aFNMSkhMc1JWYUFo?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE1vMU54Z0x5VXBZbGJCcG9pbjRVbmM0U2N6Y3VoWmZaelJYWFdQRUNUTHV4V3NXZ0lrTkhkU3Fjb3QyQ3IzZ0FxamMwdkhpR2pBMklBcUpNUU5NMVFpMldSUnZCTGY3eVFGTzJCbFkzOWRHSVRhWlZCM0ZZNENhUjlMUG02NXIwcXRZTGJ0aDJ4UEtJbmQ1Tm1iR0NXNmhvQkZhM0s0bw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWWN5bUctaFZLazBKRzNzNXRrMHJicF9sLVZuNkNZNWx5cUxSSlEyQmdlUzVjMy00N2pjcGM3R1M4Tkd5aTVEZG5hYVAxUmd4NFZacXNpbzNKOEJVai1zVlhoUklFQ001dGxnNnBlNVBiVzdDMEctM21PX1dqM2pEdVRta1ZaQzJkdlBCaHlvVXVVWnp2d1Rzei1DajBWZ3Q0Q3N3dGc3VDJmSm96ajIyUExjdm5tNktoUlhHWDhDSTNDVktaNkQzQ1VON08?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVG53bmlNcmhKdWZ1ZjZlZVlHYno5YTRJd0dnZk1SclBqZFBjVnktcGVSMFhZSFM3WWVpeXBhUVp2V05POG1CYW84TUx1b1B4SzNzNFpnRnpxQkF6ZTdSdWlXWVh3Ni1PaS10Z01LbTNrbFVqaWhMWUZ1YW5Dc0FfSS1kVWhfNzFZTVlkS0NqZmxmcFZ1enA2aXZn?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVp3V3pBVVpURVFfMEQ1UjZfY2NUMWpIN1Iwd3ZySXd2LVljRnZDQW8tTF9iY3VqWk9EQ1NtNXNPMVU1OV9BaEJmYlRYcktrTDZ1TmR1ZVdoS0lEOHdUSVhTVGktcHY4TE1uWTB5enhmclZXNmdOOWhmTDdRSW9qTG83MUl2bUNTN3NEOTdKbjR1aXQ4XzZYV1AxYTdaUTZpaEFXaGxUSDhaTnNvNWNNSkFjb2t4eTdUMFhmLVF3VGZTaGtHRUp2bA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1794331565,
-    "reason": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
-    "reason_i18n": {
-     "he": "ירידה בתפוקה וביבוא מצמצמת את היצע הנחושת בשוק.",
-     "en": "Drop in output and imports tightens global copper supply.",
-     "ar": "انخفاض الإنتاج والواردات يقلل معروض النحاس العالمي.",
-     "ru": "Падение добычи и импорта сокращает мировое предложение меди."
-    },
-    "name_i18n": {
-     "he": "קרן סל נחושת",
-     "en": "United States Copper Index Fund",
-     "ar": "صندوق مؤشر النحاس",
-     "ru": "ETF на медь"
-    },
-    "price_at_alert": 37.485,
-    "entry_price": 37.51,
-    "entry_time": "2026-11-10T17:30+00:00",
-    "exit_price": 37.74,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.61,
-    "bench": "SPY",
-    "bench_change_pct": 1.74,
-    "excess_pct": -1.12,
-    "edge_pct": -1.12,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1794331565,
-    "reason": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
-    "reason_i18n": {
-     "he": "הידוק בהיצע עשוי לתמוך במחירי הנחושת ולשפר את רווחי הכורים.",
-     "en": "Supply tightening may support copper prices and miner margins.",
-     "ar": "تشديد المعروض قد يدعم أسعار النحاس ويحسن هوامش أرباح عمال المناجم.",
-     "ru": "Сокращение предложения может поддержать цены на медь и маржу шахтеров."
-    },
-    "name_i18n": {
-     "he": "פריפורט מקמורן – חברת כרייה",
-     "en": "Freeport-McMoRan mining company",
-     "ar": "شركة فريبورت-מקמורان للتعدين",
-     "ru": "Горнодобывающая компания Freeport-McMoRan"
-    },
-    "price_at_alert": 60.165,
-    "entry_price": 60.2251,
-    "entry_time": "2026-11-10T17:30+00:00",
-    "exit_price": 62.13,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.16,
-    "bench": "SPY",
-    "bench_change_pct": 1.74,
-    "excess_pct": 1.43,
-    "edge_pct": 1.43,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "cf5b0985cfba",
-  "updates": [
-   {
-    "ts": 1794338171,
-    "time": "2026-11-10T19:16Z",
-    "severity": 4,
-    "summary": "מחירי הנחושת רשמו ירידה (חוזי HG ירדו ב-1.37%), בזמן שחברות כמו AT&T מציעות תגמולים נגד גניבות חוטים וחברות כריה מרחיבות קידוחים.",
-    "i18n": {
-     "he": "מחירי הנחושת רשמו ירידה (חוזי HG ירדו ב-1.37%), בזמן שחברות כמו AT&T מציעות תגמולים נגד גניבות חוטים וחברות כריה מרחיבות קידוחים.",
-     "en": "Copper prices dropped with HG futures falling 1.37%, while drill pushes expand and telecom firms fight rising copper wire thefts.",
-     "ar": "انخفضت أسعار النحاس بينما تسعى شركات الاتصالات لمكافحة سرقة الأسلاك وتتوسع عمليات التعدين.",
-     "ru": "Цены на медь снизились (фьючерсы упали на 1.37%), в то время как компании борются с кражами кабеля и расширяют бурение."
-    }
-   }
-  ],
-  "last_update": 1794338171,
-  "evaluated": true
- },
- {
   "ts": 1794334532,
   "time": "2026-11-10T18:15Z",
   "title": "אוקראינה מציעה הפסקת אש בים השחור ובמגזר האנרגיה",
@@ -1845,129 +1569,6 @@
    }
   ],
   "last_update": 1794341213,
-  "evaluated": true
- },
- {
-  "ts": 1794334532,
-  "time": "2026-11-10T18:15Z",
-  "title": "מחירי החיטה באירופה עולים בעקבות חיתוך תחזית תבואת התירס בארה\"ב",
-  "summary": "מחירי החיטה באירופה זינקו לרמתם הגבוהה ביותר בשבועיים בעקבות קיצוץ בתחזית תבואת התירס בארה\"ב ועלייה במלאי הדגן.",
-  "kid": "היבול בארה\"ב יצא קטן מהצפוי, ולכן מחירי הדגנים בעולם עולים. זה יכול להשפיע על מחירי המזון ועל מניות החקלאות.",
-  "i18n": {
-   "title": {
-    "he": "מחירי החיטה באירופה עולים בעקבות חיתוך תחזית תבואת התירס בארה\"ב",
-    "en": "EU wheat hits two-week high on US corn crop cut and USDA stock data",
-    "ar": "قمح الاتحاد الأوروبي يرتفع لأعلى مستوى في أسبوعين بسبب خفض محصول الذرة الأمريكي",
-    "ru": "Пшеница в ЕС достигает двухнедельного максимума на фоне сокращения урожая кукурузы в США"
-   },
-   "summary": {
-    "he": "מחירי החיטה באירופה זינקו לרמתם הגבוהה ביותר בשבועיים בעקבות קיצוץ בתחזית תבואת התירס בארה\"ב ועלייה במלאי הדגן.",
-    "en": "EU wheat prices hit a two-week high following a cut to the US corn crop forecast and upward adjustments in USDA stocks.",
-    "ar": "ارتفعت أسعار القمح في الاتحاد الأوروبي لأعلى مستوى في أسبوعين إثر خفض توقعات محصول الذرة في أمريكا.",
-    "ru": "Цены на пшеницу в ЕС выросли до двухнедельного максимума после снижения прогноза урожая кукурузы в США."
-   },
-   "kid": {
-    "he": "היבול בארה\"ב יצא קטן מהצפוי, ולכן מחירי הדגנים בעולם עולים. זה יכול להשפיע על מחירי המזון ועל מניות החקלאות.",
-    "en": "US crops were smaller than expected, causing global grain prices to rise. This can impact food prices and agricultural stocks.",
-    "ar": "كانت المحاصيل في أمريكا أصغر من المتوقع، مما أدى إلى ارتفاع أسعار الحبوب عالمياً.",
-    "ru": "Урожай в США оказался меньше ожидаемого, что привело к росту цен на зерно. Это влияет на акции агросектора."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWXpPZHVJRVZnR25sY3RVNXYwcGdDSExsc2hTdDgwQnpqMVAwVnhaQjNFRHlwc0pvUzFNRXJod2d4aGZqRTdvVllCSVFXOVJDUWx4bDJibUVKN3J6QzBEUTJCd2RXa0dlcDM1Q0EwVW5JZm9oZDREYkhFSlpfQlYxTElIYmpIQnZlUE5VVVdIXzVma0J5bXRSODFyOXE4eEhESUk1S3VUcEVrbjRNZkpQVkY2Y1RHRkZpTXQ0WUVkaU1lU2JUc0NtZEhVc1RqSWJ2c3c?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSFNkdVE2QXJ3Zy1NMkJhMFVfcGNoOTRUS3gzTkZaazMwVUZOblBTNGxCV284Smtadk9icGNYRTMxYmstZlM0Tl8tQzI0V0dScW90ZHlUMzRqMHg3RVFMeU1wZC1BNGROOTBOYkt6S0FtTlJTejRBOHRQYllSSVQ0N0Z4TXl4dVUwSEdBRTBJZk9PajZzcjNXRGpRUGQ3UQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOem52akhZNUlDTDRuNEJTd1EzYUwyRzg5Z2hIQ3hOUmpnal9YNExiS2lwRXUyTnQxblhUR1BmczItNVhBZVBaV3pMSW5TbXl2eEtEV3FYQjAzM2Z1aWVkdzBYSXY3WjVxMmVnbHZRYjc3SVAtV21TRDZXNFNrMUd5bUJGbnNIX3IwTll3am84bzZXY3B1U0dlTldpcWE0QldLMU9HVFAzVkJtWkE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "WEAT",
-    "direction": "up",
-    "t0": 1794334532,
-    "reason": "מחירי החיטה עולים בעקבות גורמי היצע ותמיכה מדגנים אחרים.",
-    "reason_i18n": {
-     "he": "מחירי החיטה עולים בעקבות גורמי היצע ותמיכה מדגנים אחרים.",
-     "en": "Wheat prices rise due to supply factors and spillover support from other grains.",
-     "ar": "ارتفاع أسعار القمح بسبب عوامل العرض والدعم المتبادل من الحبوب الأخرى.",
-     "ru": "Цены на пшеницу растут из-за факторов предложения и поддержки от других зерновых."
-    },
-    "name_i18n": {
-     "he": "WEAT - קרן סל חיטה",
-     "en": "WEAT - Wheat Fund",
-     "ar": "WEAT - صندوق القمح",
-     "ru": "WEAT - фонд пшеницы"
-    },
-    "price_at_alert": 21.8092,
-    "entry_price": 21.74,
-    "entry_time": "2026-11-10T18:30+00:00",
-    "exit_price": 22.15,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.89,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": 0.1,
-    "edge_pct": 0.1,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "DBA",
-    "direction": "up",
-    "t0": 1794334532,
-    "reason": "התייקרות רוחבית בשוק הסחורות החקלאיות.",
-    "reason_i18n": {
-     "he": "התייקרות רוחבית בשוק הסחורות החקלאיות.",
-     "en": "Broad-based price increases in the agricultural commodities market.",
-     "ar": "زيادات عامة في الأسعار في سوق السلع الزراعية.",
-     "ru": "Широкий рост цен на рынке сельскохозяйственных товаров."
-    },
-    "name_i18n": {
-     "he": "DBA - קרן סל חקלאות",
-     "en": "DBA - Agriculture Fund",
-     "ar": "DBA - صندوق الزراعة",
-     "ru": "DBA - сельскохозяйственный фонд"
-    },
-    "price_at_alert": 26.25,
-    "entry_price": 26.235,
-    "entry_time": "2026-11-10T18:30+00:00",
-    "exit_price": 26.355,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.46,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": -1.33,
-    "edge_pct": -1.33,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "6177c148fd54",
-  "updates": [
-   {
-    "ts": 1794338171,
-    "time": "2026-11-10T19:16Z",
-    "severity": 4,
-    "summary": "ירידה ביצוא החיטה מרוסיה יוצרת חוסר של 12.5 מיליון טון בשוק החקלאי העולמי, דבר המשפיע על זמינות הדגנים והמסחר.",
-    "i18n": {
-     "he": "ירידה ביצוא החיטה מרוסיה יוצרת חוסר של 12.5 מיליון טון בשוק החקלאי העולמי, דבר המשפיע על זמינות הדגנים והמסחר.",
-     "en": "A shortfall in Russian wheat exports has created a significant 12.5 million ton gap in global agricultural trade markets.",
-     "ar": "أدى نقص صادرات القمح الروسي إلى خلق فجوة كبيرة تبلغ 12.5 مليون طن في أسواق التجارة الزراعية العالمية.",
-     "ru": "Сокращение экспорта российской пшеницы привело к появлению дефицита в 12.5 млн тонн на мировом агрорынке."
-    }
-   }
-  ],
-  "last_update": 1794338171,
   "evaluated": true
  },
  {
@@ -2145,176 +1746,6 @@
    }
   ],
   "last_update": 1794344418,
-  "evaluated": true
- },
- {
-  "ts": 1794338171,
-  "time": "2026-11-10T19:16Z",
-  "title": "מקסיקו מאשרת רכישת מסוקי בלאק הוק מתקדמים מסוג UH-60M",
-  "summary": "ממשלת מקסיקו הבטיחה רכישה של מסוקי UH-60M Black Hawk מתקדמים, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
-  "kid": "מקסיקו קונה מסוקים צבאיים חדשים, מה שנותן הזמנה גדולה לחברת התעופה והביטחון שמייצרת אותם ומחזק את המניות שלה.",
-  "i18n": {
-   "title": {
-    "he": "מקסיקו מאשרת רכישת מסוקי בלאק הוק מתקדמים מסוג UH-60M",
-    "en": "Mexico secures sale for advanced UH-60M Black Hawk helicopters",
-    "ar": "المكسيك تؤمن صفقة لشراء مروحيات بلاك هوك المتطورة UH-60M",
-    "ru": "Мексика оформляет сделку на покупку современных вертолетов Black Hawk UH-60M"
-   },
-   "summary": {
-    "he": "ממשלת מקסיקו הבטיחה רכישה של מסוקי UH-60M Black Hawk מתקדמים, מה שמחזק את צבר ההזמנות של יצרנית הביטחון.",
-    "en": "The Mexican government secured a major sale for advanced UH-60M Black Hawk military helicopters.",
-    "ar": "أمنت الحكومة المكسيكية صفقة شراء مروحيات UH-60M Black Hawk المتقدمة.",
-    "ru": "Правительство Мексики заключило сделку на покупку современных военных вертолетов UH-60M Black Hawk."
-   },
-   "kid": {
-    "he": "מקסיקו קונה מסוקים צבאיים חדשים, מה שנותן הזמנה גדולה לחברת התעופה והביטחון שמייצרת אותם ומחזק את המניות שלה.",
-    "en": "Mexico is buying new military helicopters, bringing a large order to the defense company that makes them and supporting its stock.",
-    "ar": "تشتري المكسيك مروحيات عسكرية جديدة، مما يعزز طلبيات الشركة المصنعة ويدعم أسهمها.",
-    "ru": "Мексика покупает новые военные вертолеты, обеспечивая крупный заказ производителю и поддерживая его акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: defense contracts",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZWJ2STNmRWVNOGllMlVucEl2ZVpOUVctOTJIWVlhU0ljY0hPbFNQNE1jVjFnRGdMSFh2Nm5rMlVJbXhpZjZmdmxJZVdkTXQ4US1QNkpZWC1WZ1MzMTBHR1VWQ0EtMU1fYi1LMFRDbGY1VHV6ckhzWmhhOEtIQW5xWVdscWkxNFVHNWVQZWpnLXJRUGNOOXZibm1OTlRJYWtRRktR?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794338171,
-    "reason": "חברת הבת שלה Sikorsky מייצרת את מסוקי ה-Black Hawk.",
-    "reason_i18n": {
-     "he": "חברת הבת שלה Sikorsky מייצרת את מסוקי ה-Black Hawk.",
-     "en": "Its Sikorsky unit manufactures the Black Hawk helicopters.",
-     "ar": "وحدة سيكورسكي التابعة لها تصنع مروحيات بلاك هوك.",
-     "ru": "Подразделение Sikorsky производит вертолеты Black Hawk."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין – ענקית ביטחונית",
-     "en": "Lockheed Martin – Defense contractor",
-     "ar": "لوكهيد مارتن – مقاول دفاعي",
-     "ru": "Lockheed Martin – оборонный подрядчик"
-    },
-    "price_at_alert": 601.8,
-    "entry_price": 602.2,
-    "entry_time": "2026-11-10T19:30+00:00",
-    "exit_price": 609.925,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.28,
-    "bench": "SPY",
-    "bench_change_pct": 1.5,
-    "excess_pct": -0.22,
-    "edge_pct": -0.22,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794338171,
-    "reason": "עסקאות ביטחוניות זרות תומכות בסקטור הביטחוני האמריקאי.",
-    "reason_i18n": {
-     "he": "עסקאות ביטחוניות זרות תומכות בסקטור הביטחוני האמריקאי.",
-     "en": "Foreign defense sales support the US aerospace sector.",
-     "ar": "مبيعات الدفاع الخارجية تدعم قطاع الفضاء الأمريكي.",
-     "ru": "Иностранные оборонные сделки поддерживают сектор."
-    },
-    "name_i18n": {
-     "he": "ITA – קרן סל תעופה וביטחון",
-     "en": "ITA – Aerospace & Defense ETF",
-     "ar": "ITA – صندوق الدفاع والفضاء",
-     "ru": "ITA – оборонный ETF"
-    },
-    "price_at_alert": 72.11,
-    "entry_price": 72.19,
-    "entry_time": "2026-11-10T19:30+00:00",
-    "exit_price": 73.27,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.5,
-    "bench": "SPY",
-    "bench_change_pct": 1.5,
-    "excess_pct": -0.0,
-    "edge_pct": -0.0,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "51a7ca00db51",
-  "evaluated": true
- },
- {
-  "ts": 1794338171,
-  "time": "2026-11-10T19:16Z",
-  "title": "אמפליפון אמריקה מדווחת על מתקפת סייבר שחשפה נתונים רפואיים ושל לקוחות",
-  "summary": "חברת Amplifon Americas אישרה כי נפגעה באירוע סייבר שחשף מידע אישי ורפואי רגיש של לקוחותיה.",
-  "kid": "חברה גדולה נפגעה מהאקרים שגנבו מידע רפואי של לקוחות, מה שמדגיש את הסיכון שחברות עומדות בפניו ומזכיר את הצורך בחברות אבטחת מידע.",
-  "i18n": {
-   "title": {
-    "he": "אמפליפון אמריקה מדווחת על מתקפת סייבר שחשפה נתונים רפואיים ושל לקוחות",
-    "en": "Amplifon Americas reports cyberattack exposing customer and medical data",
-    "ar": "أمبليفون الأمريكتين تبلغ عن هجوم سيبراني كشف عن بيانات العملاء والبيانات الطبية",
-    "ru": "Компания Amplifon Americas сообщила о кибератаке, в ходе которой утесли данные клиентов и медицинская информация"
-   },
-   "summary": {
-    "he": "חברת Amplifon Americas אישרה כי נפגעה באירוע סייבר שחשף מידע אישי ורפואי רגיש של לקוחותיה.",
-    "en": "Amplifon Americas confirmed that a cyberattack exposed sensitive customer and medical information, raising data security concerns.",
-    "ar": "أكدت شركة أمبليفون الأمريكتين أن هجوماً سيبرانياً كشف عن معلومات حساسة للعملاء وبيانات طبية.",
-    "ru": "Компания Amplifon Americas подтвердила, что кибератака привела к утечке конфиденциальных данных клиентов и медицинской информации."
-   },
-   "kid": {
-    "he": "חברה גדולה נפגעה מהאקרים שגנבו מידע רפואי של לקוחות, מה שמדגיש את הסיכון שחברות עומדות בפניו ומזכיר את הצורך בחברות אבטחת מידע.",
-    "en": "A major company suffered a cyberattack exposing customer medical data, highlighting the ongoing risks businesses face and focusing attention on cybersecurity firms.",
-    "ar": "تعرضت شركة كبرى لهجوم سيبراني كشف بيانات العملاء، مما يبرز مخاطر الأمن السيبراني.",
-    "ru": "Крупная компания пострадала от хакерской атаки, что подчеркивает риски кибербезопасности для бизнеса."
-   }
-  },
-  "category": "cyber",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaEdaTVotMzNEb25aYzlsbWpHaHUteHBLV1A1WjhUVWdsbjZJOGNzR3BVemo4ZmdxN05qd1M1RGd1eENOZXMtYTR4MzFGdTZ5VW45dHlSN0JtWERZY3VfX3F6TEhIc0wtV3VreDhwSkVka1FCMml5RmtCZmwzR3ppYTFzaEJfYndo?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794338171,
-    "reason": "אירועי סייבר תכופים מעלים את המודעות לפתרונות הגנה ומאבטחים.",
-    "reason_i18n": {
-     "he": "אירועי סייבר תכופים מעלים את המודעות לפתרונות הגנה ומאבטחים.",
-     "en": "Frequent cyber breaches raise awareness and demand for security solutions.",
-     "ar": "الختراقات السيبرانية المتكررة تزيد الطلب على حلول الأمان.",
-     "ru": "Частые киберинциденты повышают спрос на защиту."
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק – חברת אבטחת סייבר",
-     "en": "CrowdStrike – Cybersecurity firm",
-     "ar": "كراودسترايك – شركة الأمن السيبراني",
-     "ru": "CrowdStrike – компания по кибербезопасности"
-    },
-    "price_at_alert": 224.475,
-    "entry_price": 224.565,
-    "entry_time": "2026-11-10T19:30+00:00",
-    "exit_price": 229.1,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.02,
-    "bench": "SPY",
-    "bench_change_pct": 1.5,
-    "excess_pct": 0.52,
-    "edge_pct": 0.52,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "7ec909647697",
   "evaluated": true
  },
  {
@@ -43057,7 +42488,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 4,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
@@ -43217,9 +42648,21 @@
      "ar": "أعلنت إسرائيل أنها ستتخذ إجراءات مضادة رداً على العقوبات التي فرضتها بريطانيا على شركات إسرائيلية تعمل في الضفة الغربية.",
      "ru": "Израиль объявил, что примет ответные меры в ответ на санкции Великобритании против израильских фирм, работающих на Западном берегу."
     }
+   },
+   {
+    "ts": 1794944925,
+    "time": "2026-11-17T19:48Z",
+    "severity": 5,
+    "summary": "בריטניה הטילה סנקציות על 8 חברות ישראליות וקבוצה נוספת בטענה שהן מעכבות סיוע לעזה.",
+    "i18n": {
+     "he": "בריטניה הטילה סנקציות על 8 חברות ישראליות וקבוצה נוספת בטענה שהן מעכבות סיוע לעזה.",
+     "en": "The UK imposed sanctions on 8 Israeli companies and a group, alleging they obstruct aid to Gaza.",
+     "ar": "فرضت بريطانيا عقوبات على 8 شركات إسرائيلية ومجموعة أخرى، بدعوى أنها تعيق المساعدات إلى غزة.",
+     "ru": "Великобритания ввела санкции против 8 израильских компаний и одной группы, утверждая, что они препятствуют доставке помощи в Газу."
+    }
    }
   ],
-  "last_update": 1794940726
+  "last_update": 1794944925
  },
  {
   "ts": 1794915235,
@@ -43876,5 +43319,236 @@
    }
   ],
   "id": "5d98f0980275"
+ },
+ {
+  "ts": 1794944925,
+  "time": "2026-11-17T19:48Z",
+  "title": "ארה\"ב תקפה אתר שיגור טילים איראני",
+  "summary": "גורמים רשמיים בארה\"ב אישרו כי מטוסי קרב אמריקאים תקפו אתר שיגור טילים של משמרות המהפכה באיראן באי קשם.",
+  "kid": "ארה\"ב תקפה בסיס טילים של איראן. אירועים כאלה במזרח התיכון גורמים לעיתים קרובות לעלייה במחירי הנפט.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב תקפה אתר שיגור טילים איראני",
+    "en": "US strikes Iranian missile site",
+    "ar": "الولايات المتحدة تضرب موقع صواريخ إيراني",
+    "ru": "США нанесли удар по иранскому ракетному объекту"
+   },
+   "summary": {
+    "he": "גורמים רשמיים בארה\"ב אישרו כי מטוסי קרב אמריקאים תקפו אתר שיגור טילים של משמרות המהפכה באיראן באי קשם.",
+    "en": "US officials confirmed that American fighter jets struck an IRGC missile launch site on Qeshm Island, Iran.",
+    "ar": "أكد مسؤولون أمريكيون أن طائرات مقاتلة أمريكية قصفت موقعاً لإطلاق الصواريخ تابعاً للحرس الثوري الإيراني في جزيرة قشم.",
+    "ru": "Официальные лица США подтвердили, что американские истребители нанесли удар по объекту запуска ракет КСИР на острове Кешм в Иране."
+   },
+   "kid": {
+    "he": "ארה\"ב תקפה בסיס טילים של איראן. אירועים כאלה במזרח התיכון גורמים לעיתים קרובות לעלייה במחירי הנפט.",
+    "en": "The US attacked an Iranian missile base. Events like this in the Middle East often make oil prices go up.",
+    "ar": "هاجمت الولايات المتحدة قاعدة صواريخ إيرانية. أحداث كهذه في الشرق الأوسط غالباً ما تؤدي إلى ارتفاع أسعار النفط.",
+    "ru": "США атаковали иранскую ракетную базу. Подобные события на Ближнем Востоке часто приводят к росту цен на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794944925,
+    "reason": "עלייה במתיחות במזרח התיכון מאיימת על אספקת הנפט.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות במזרח התיכון מאיימת על אספקת הנפט.",
+     "en": "Rising Middle East tensions threaten oil supply.",
+     "ar": "تصاعد التوترات في الشرق الأوسط يهدد إمدادات النفط.",
+     "ru": "Рост напряженности на Ближнем Востоке угрожает поставкам нефти."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מחיר הנפט",
+     "en": "Oil Price ETF",
+     "ar": "صندوق سعر النفط",
+     "ru": "ETF на цену нефти"
+    },
+    "price_at_alert": 140.12
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794944925,
+    "reason": "הסלמה ביטחונית מגבירה את הביקוש לציוד צבאי.",
+    "reason_i18n": {
+     "he": "הסלמה ביטחונית מגבירה את הביקוש לציוד צבאי.",
+     "en": "Security escalation increases demand for military equipment.",
+     "ar": "التصعيد الأمني يزيد الطلب على المعدات العسكرية.",
+     "ru": "Эскалация безопасности повышает спрос на военную технику."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - חברת ביטחון",
+     "en": "Lockheed Martin - Defense company",
+     "ar": "لوكهيد مارتن - شركة دفاع",
+     "ru": "Lockheed Martin - оборонная компания"
+    },
+    "price_at_alert": 586.235
+   }
+  ],
+  "id": "7c398bfffe94"
+ },
+ {
+  "ts": 1794944925,
+  "time": "2026-11-17T19:48Z",
+  "title": "מתקפת סייבר על חברת האנרגיה אקווינור",
+  "summary": "חברת האנרגיה הנורווגית אקווינור דיווחה על מתקפת סייבר נגד מערכות ה-IT שלה. החברה מציינת כי הייצור לא נפגע.",
+  "kid": "האקרים תקפו את המחשבים של חברת האנרגיה אקווינור. זה יכול להדאיג משקיעים לגבי אבטחת מידע בחברות גדולות.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר על חברת האנרגיה אקווינור",
+    "en": "Cyberattack on Equinor",
+    "ar": "هجوم سيبراني على شركة إكوينور",
+    "ru": "Кибератака на Equinor"
+   },
+   "summary": {
+    "he": "חברת האנרגיה הנורווגית אקווינור דיווחה על מתקפת סייבר נגד מערכות ה-IT שלה. החברה מציינת כי הייצור לא נפגע.",
+    "en": "Norwegian energy giant Equinor reported a cyberattack on its IT systems. The company stated that oil and gas production remains unaffected.",
+    "ar": "أبلغت شركة الطاقة النرويجية إكوينور عن هجوم سيبراني على أنظمة تكنولوجيا المعلومات الخاصة بها. وأشارت الشركة إلى أن الإنتاج لم يتأثر.",
+    "ru": "Норвежская энергетическая компания Equinor сообщила о кибератаке на свои IT-системы. Компания заявила, что добыча нефти и газа не пострадала."
+   },
+   "kid": {
+    "he": "האקרים תקפו את המחשבים של חברת האנרגיה אקווינור. זה יכול להדאיג משקיעים לגבי אבטחת מידע בחברות גדולות.",
+    "en": "Hackers attacked the computers of energy company Equinor. This might worry investors about how safe big companies' computer systems are.",
+    "ar": "قام قراصنة بمهاجمة حواسيب شركة الطاقة إكوينور. هذا قد يقلق المستثمرين بشأن أمن أنظمة الشركات الكبرى.",
+    "ru": "Хакеры атаковали компьютеры энергетической компании Equinor. Это может обеспокоить инвесторов по поводу безопасности компьютерных систем крупных компаний."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "down",
+    "t0": 1794944925,
+    "reason": "חשש מהשפעות רוחביות של מתקפות סייבר על תשתיות אנרגיה.",
+    "reason_i18n": {
+     "he": "חשש מהשפעות רוחביות של מתקפות סייבר על תשתיות אנרגיה.",
+     "en": "Concerns over systemic cyber risks to energy infrastructure.",
+     "ar": "مخاوف بشأن المخاطر السيبرانية النظامية على البنية التحتية للطاقة.",
+     "ru": "Опасения по поводу системных киберрисков для энергетической инфраструктуры."
+    },
+    "name_i18n": {
+     "he": "קרן סל של מגזר האנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 63.25
+   }
+  ],
+  "id": "a9ec0572ed39"
+ },
+ {
+  "ts": 1794944925,
+  "time": "2026-11-17T19:48Z",
+  "title": "אלביט מתקרבת לייצור נשק לייזר",
+  "summary": "אלביט מערכות מתקרבת לייצור סדרתי של מערכות נשק לייזר מוטסות לאחר שנים של פיתוח.",
+  "kid": "אלביט פיתחה נשק לייזר חדש למטוסים והיא מתחילה לייצר אותו. זה יכול לעזור לה למכור יותר מוצרים לצבאות.",
+  "i18n": {
+   "title": {
+    "he": "אלביט מתקרבת לייצור נשק לייזר",
+    "en": "Elbit advances laser weapons",
+    "ar": "إلبيت تقترب من إنتاج أسلحة الليزر",
+    "ru": "Elbit приближается к производству лазерного оружия"
+   },
+   "summary": {
+    "he": "אלביט מערכות מתקרבת לייצור סדרתי של מערכות נשק לייזר מוטסות לאחר שנים של פיתוח.",
+    "en": "Elbit Systems is moving closer to production of airborne laser weapon systems after years of development.",
+    "ar": "تقترب شركة إلبيت سيستمز من الإنتاج التسلسلي لأنظمة أسلحة الليزر المحمولة جواً بعد سنوات من التطوير.",
+    "ru": "Elbit Systems приближается к серийному производству бортовых лазерных систем вооружения после многих лет разработки."
+   },
+   "kid": {
+    "he": "אלביט פיתחה נשק לייזר חדש למטוסים והיא מתחילה לייצר אותו. זה יכול לעזור לה למכור יותר מוצרים לצבאות.",
+    "en": "Elbit developed a new laser weapon for planes and is starting to make it. This could help them sell more products to armies.",
+    "ar": "طورت إلبيت سلاح ليزر جديد للطائرات وبدأت في تصنيعه. هذا قد يساعدها في بيع المزيد من المنتجات للجيوش.",
+    "ru": "Elbit разработала новое лазерное оружие для самолетов и начинает его производство. Это может помочь им продавать больше продукции армиям."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1794944925,
+    "reason": "התקדמות טכנולוגית משמעותית צפויה להגדיל את צבר ההזמנות.",
+    "reason_i18n": {
+     "he": "התקדמות טכנולוגית משמעותית צפויה להגדיל את צבר ההזמנות.",
+     "en": "Significant technological progress is expected to increase the order backlog.",
+     "ar": "من المتوقع أن يؤدي التقدم التكنولوجي الكبير إلى زيادة سجل الطلبات.",
+     "ru": "Ожидается, что значительный технологический прогресс увеличит портфель заказов."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות",
+     "en": "Elbit Systems",
+     "ar": "إلبيت سيستمز",
+     "ru": "Elbit Systems"
+    },
+    "price_at_alert": 719.005
+   }
+  ],
+  "id": "ae773b572b28"
+ },
+ {
+  "ts": 1794944925,
+  "time": "2026-11-17T19:48Z",
+  "title": "Iceye מציעה לרכוש את Avio האיטלקית",
+  "summary": "חברת הלוויינים הפינית Iceye הגישה הצעת רכש בסך 2 מיליארד אירו ליצרנית הטילים האיטלקית Avio.",
+  "kid": "חברת לוויינים רוצה לקנות חברה שמייצרת טילים. זה מראה על צמיחה בתחום החלל והביטחון.",
+  "i18n": {
+   "title": {
+    "he": "Iceye מציעה לרכוש את Avio האיטלקית",
+    "en": "Iceye bids for Italy's Avio",
+    "ar": "آيس آي تقدم عرضاً لشراء شركة أفيو الإيطالية",
+    "ru": "Iceye предлагает купить итальянскую Avio"
+   },
+   "summary": {
+    "he": "חברת הלוויינים הפינית Iceye הגישה הצעת רכש בסך 2 מיליארד אירו ליצרנית הטילים האיטלקית Avio.",
+    "en": "Finnish satellite operator Iceye made a €2 billion cash offer for Italian rocket maker Avio.",
+    "ar": "قدمت شركة الأقمار الصناعية الفنلندية آيس آي عرضاً نقدياً بقيمة 2 مليار يورو لصانعة الصواريخ الإيطالية أفيو.",
+    "ru": "Финский оператор спутников Iceye сделал предложение о покупке итальянского производителя ракет Avio за 2 миллиарда евро."
+   },
+   "kid": {
+    "he": "חברת לוויינים רוצה לקנות חברה שמייצרת טילים. זה מראה על צמיחה בתחום החלל והביטחון.",
+    "en": "A satellite company wants to buy a company that makes rockets. This shows growth in the space and defense industry.",
+    "ar": "شركة أقمار صناعية تريد شراء شركة تصنع صواريخ. هذا يظهر نمواً في قطاع الفضاء والدفاع.",
+    "ru": "Спутниковая компания хочет купить компанию, производящую ракеты. Это показывает рост в космической и оборонной индустрии."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794944925,
+    "reason": "קונסולידציה בתעשיית החלל והביטחון מעידה על חוזק המגזר.",
+    "reason_i18n": {
+     "he": "קונסולידציה בתעשיית החלל והביטחון מעידה על חוזק המגזר.",
+     "en": "Consolidation in the space and defense industry signals sector strength.",
+     "ar": "الاندماج في صناعة الفضاء والدفاع يشير إلى قوة القطاع.",
+     "ru": "Консолидация в космической и оборонной промышленности свидетельствует о силе сектора."
+    },
+    "name_i18n": {
+     "he": "קרן סל של תעשיות ביטחוניות",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الفضاء والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 69.31
+   }
+  ],
+  "id": "97980da97286"
  }
 ]
