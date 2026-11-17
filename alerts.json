@@ -115,161 +115,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794266196,
-  "time": "2026-11-09T23:16Z",
-  "title": "חקירת ה-FBI נגד מנכ\"ל אנבידיה",
-  "summary": "הנשיא טראמפ אמר שה-FBI חוקר את הקשר הרומנטי של מנכ\"ל אנבידיה ג'נסן הואנג עם מרגלת סינית לכאורה.",
-  "kid": "ה-FBI בודק קשר אפשרי של מנכ\"ל ענקית השבבים אנבידיה עם מרגלת מסינים. ידיעה זו עשויה להלחיץ משקיעים ולגרום למניות החברה לרדת.",
-  "i18n": {
-   "title": {
-    "he": "חקירת ה-FBI נגד מנכ\"ל אנבידיה",
-    "en": "FBI investigation into Nvidia CEO",
-    "ar": "تحقيق مكتب التحقيقات الفيدرالي في الرئيس التنفيذي لشركة إنفيديا",
-    "ru": "Расследование ФБР в отношении генерального директора Nvidia"
-   },
-   "summary": {
-    "he": "הנשיא טראמפ אמר שה-FBI חוקר את הקשר הרומנטי של מנכ\"ל אנבידיה ג'נסן הואנג עם מרגלת סינית לכאורה.",
-    "en": "President Trump stated that the FBI is investigating Nvidia CEO Jensen Huang's relationship with an alleged Chinese spy.",
-    "ar": "صرح الرئيس ترامب بأن مكتب التحقيقات الفيدرالي يحقق في علاقة رئيس إنفيديا جنسن هوانغ مع جاسوسة صينية مزعومة.",
-    "ru": "Президент Трамп заявил, что ФБР расследует связь гендиректора Nvidia Дженсена Хуанга с предполагаемой китайской шпионкой."
-   },
-   "kid": {
-    "he": "ה-FBI בודק קשר אפשרי של מנכ\"ל ענקית השבבים אנבידיה עם מרגלת מסינים. ידיעה זו עשויה להלחיץ משקיעים ולגרום למניות החברה לרדת.",
-    "en": "The FBI is looking into the Nvidia CEO's ties to a possible spy. This news might worry investors and cause the company's stock to drop.",
-    "ar": "يحقق مكتب التحقيقات الفيدرالي في علاقات رئيس إنفيديا بشخصية يُزعماً أنها جاسوسة. قد تقلق هذه الأخبار المستثمرين وتتسبب في انخفاض سهم الشركة.",
-    "ru": "ФБР изучает связи главы Nvidia с возможной шпионкой. Эта новость может встревожить инвесторов и привести к падению акций компании."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnNsYzdpaDRKS3c2Yi1LdVdWczlkM3QwSEJPMUowOUxxeTZZMUZodGt5SGxucEFkcVkybHhsOTFfWjVyeGdYcTNxbGR1VmNVNHRFc19fMUVoVGJTS1FBS2NaV3pKbzBJZWZOdnBVcXV3ZW55dWZ3WkhSVlBNSlpNc0hBNXBnTlJ0Y3dOQzhoUlJ2TkNBdlM0THVXMDVUcVFxZFFLeEN3?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0VhNUxhclZvUllWZGZMdmh2U0xPYWRRNl94NFdXNC1EemZPWndITmxURHJOWGJrWGtGMUZEUmNXUURMTC1PVkhIQ1dYaFVUSm1tTGtCb3dTMnJfbERPX1hQUlM4WFF5a1luMVdNby1tc2JSOVllQ2prUDFkeHhTeGZ4R2hqMGRjTU5BbVlWd0hWLUVlZGJjNDV6OWVScUpUbWQxV3NYS2h3Y09CZUFLTkxjaXRVUl9G?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794266196,
-    "reason": "חששות סביב חקירת ה-FBI של המנכ\"ל",
-    "reason_i18n": {
-     "he": "חששות סביב חקירת ה-FBI של המנכ\"ל",
-     "en": "Concerns surrounding the CEO's FBI investigation",
-     "ar": "مخاوف بشأن تحقيق مكتب التحقيقات الفيدرالي مع الرئيس التنفيذي",
-     "ru": "Опасения вокруг расследования ФБР в отношении гендиректора"
-    },
-    "name_i18n": {
-     "he": "אנבידיה - חברת שבבים ענקית",
-     "en": "Nvidia - a giant chip maker",
-     "ar": "إنفيديا - صانع رقائق عملاق",
-     "ru": "Nvidia — гигантский производитель чипов"
-    },
-    "price_at_alert": 178.67,
-    "entry_price": 173.98,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 173.85,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.07,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.66,
-    "edge_pct": 1.66,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1794266196,
-    "reason": "השפעה שלילית מסנטימנט סביב מניית שבבים מרכזית",
-    "reason_i18n": {
-     "he": "השפעה שלילית מסנטימנט סביב מניית שבבים מרכזית",
-     "en": "Negative impact from sentiment around a major chip stock",
-     "ar": "تأثير سلبي من المعنوية حول سهم رقائق رئيسي",
-     "ru": "Негативное влияние настроений вокруг ключевой акции чипов"
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות שבבים",
-     "en": "Semiconductor ETF",
-     "ar": "صندوق تداول أشباه الموصلات",
-     "ru": "ETF полупроводников"
-    },
-    "price_at_alert": 487.41,
-    "entry_price": 478.57,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 507.23,
-    "exit_date": "2026-11-11",
-    "change_pct": 5.99,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 4.4,
-    "edge_pct": -4.4,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "799eb765bcdf",
-  "updates": [
-   {
-    "ts": 1794268511,
-    "time": "2026-11-09T23:55Z",
-    "severity": 3,
-    "summary": "נשיא ארה\"ב לשעבר דונלד טראמפ הגן על מנכ\"ל אנבידיה ג'נסן הואנג, ואמר כי הוא מאמין שלא ידע על כך שבת זוגו לכאורה הייתה חשודה כמרגלת סינית.",
-    "i18n": {
-     "he": "נשיא ארה\"ב לשעבר דונלד טראמפ הגן על מנכ\"ל אנבידיה ג'נסן הואנג, ואמר כי הוא מאמין שלא ידע על כך שבת זוגו לכאורה הייתה חשודה כמרגלת סינית.",
-     "en": "Trump defended Nvidia's Jensen Huang after a call, stating he believes the CEO had no idea his alleged mistress was a suspected Chinese spy.",
-     "ar": "دفع ترامب عن جنسن هوانغ رئيس إنفيديا، مؤكداً أنه يعتقد أنه لم يكن يعلم أن شريكته المزعومة كانت مشتبهاً بتجسسها للصين.",
-     "ru": "Трамп встал на защиту гендиректора Nvidia Дженсена Хуанга, заявив, что тот не знал о подозрениях в шпионаже в отношении его предполагаемой спутницы."
-    }
-   },
-   {
-    "ts": 1794272223,
-    "time": "2026-11-10T00:57Z",
-    "severity": 6,
-    "summary": "בעקבות פרשת הריגול והחקירות סביב אנבידיה, גוברים הלחצים בוושינגטון להטלת מגבלות ייצוא חדשות על טכנולוגיה ושבבי בינה מלאכותית.",
-    "i18n": {
-     "he": "בעקבות פרשת הריגול והחקירות סביב אנבידיה, גוברים הלחצים בוושינגטון להטלת מגבלות ייצוא חדשות על טכנולוגיה ושבבי בינה מלאכותית.",
-     "en": "Following the spy scandal surrounding Nvidia, pressure is mounting in Washington to enact new export controls on advanced tech and AI chips.",
-     "ar": "في أعقاب فضيحة التجسس المحيطة بإنفيديا، يتزايد الضغط في واشنطن لفرض قيود تصدير جديدة على التكنولوجيا المتقدمة.",
-     "ru": "Вслед за шпионским скандалом вокруг Nvidia в Вашингтоне растет давление с целью введения новых ограничений на экспорт чипов."
-    }
-   },
-   {
-    "ts": 1794322534,
-    "time": "2026-11-10T14:55Z",
-    "severity": 6,
-    "summary": "מניות אנבידיה יורדות על רקע דיווחים על פרשיית אהבים של המנכ\"ל ג'נסן הואנג עם מרגלת סינית לכאורה, מה שמעלה חששות לגבי השפעת החברה על מדיניות הייצוא האמריקאית לסין.",
-    "i18n": {
-     "he": "מניות אנבידיה יורדות על רקע דיווחים על פרשיית אהבים של המנכ\"ל ג'נסן הואנג עם מרגלת סינית לכאורה, מה שמעלה חששות לגבי השפעת החברה על מדיניות הייצוא האמריקאית לסין.",
-     "en": "Nvidia shares are falling amid reports of an affair between CEO Jensen Huang and an alleged Chinese spy, raising concerns about his influence on US-China chip export policy.",
-     "ar": "تتراجع أسهم إنفيديا وسط تقارير عن علاقة غرامية بين الرئيس التنفيذي جينسن هوانغ وجاسوسة صينية مزعومة، مما يثير مخاوف بشأن تأثيره على سياسة تصدير الرقائق الأمريكية إلى الصين.",
-     "ru": "Акции Nvidia падают на фоне сообщений о романе гендиректора Дженсена Хуанга с предполагаемой китайской шпионкой, что вызывает опасения по поводу его влияния на политику США в отношении экспорта чипов в Китай."
-    }
-   }
-  ],
-  "last_update": 1794322534,
-  "evaluated": true
- },
- {
   "ts": 1794272223,
   "time": "2026-11-10T00:57Z",
   "title": "טראמפ מעכב תקיפות חדשות באיראן לבקשת שכנות במפרץ",
@@ -1086,125 +931,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794314358,
-  "time": "2026-11-10T12:39Z",
-  "title": "חברת הבינה המלאכותית Anthropic קובעת טווח מחיר להנפקה בנאסד\"ק",
-  "summary": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק.",
-  "kid": "חברת טכנולוגיה חדשה שמתעסקת בבינה מלאכותית רוצה להפוך לציבורית בבורסה. זה אומר שאנשים יוכלו לקנות מניות שלה, מה שעשוי להשפיע על חברות טכנולוגיה דומות.",
-  "i18n": {
-   "title": {
-    "he": "חברת הבינה המלאכותית Anthropic קובעת טווח מחיר להנפקה בנאסד\"ק",
-    "en": "AI lab Anthropic sets price range for Nasdaq IPO",
-    "ar": "مختبر الذكاء الاصطناعي Anthropic يحدد نطاق سعر للاكتتاب العام في ناسداك",
-    "ru": "Разработчик ИИ Anthropic установил ценовой диапазон для IPO на Nasdaq"
-   },
-   "summary": {
-    "he": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק.",
-    "en": "AI company Anthropic has set a price range of $70 to $78 per share for its upcoming Nasdaq IPO.",
-    "ar": "حددت شركة الذكاء الاصطناعي Anthropic نطاقاً سعرياً يتراوح بين 70 و78 دولاراً للسهم لاكتتابها العام القادم في بورصة ناسداك.",
-    "ru": "Компания-разработчик ИИ Anthropic установила ценовой диапазон от 70 до 78 долларов за акцию для предстоящего IPO на Nasdaq."
-   },
-   "kid": {
-    "he": "חברת טכנולוגיה חדשה שמתעסקת בבינה מלאכותית רוצה להפוך לציבורית בבורסה. זה אומר שאנשים יוכלו לקנות מניות שלה, מה שעשוי להשפיע על חברות טכנולוגיה דומות.",
-    "en": "A new AI tech company wants to join the stock market. This means people can buy its shares, which might change how people value other similar tech companies.",
-    "ar": "تريد شركة تكنولوجيا جديدة تعمل في مجال الذكاء الاصطناعي الانضمام إلى سوق الأسهم. هذا يعني أن الناس سيتمكنون من شراء أسهمها، مما قد يغير كيفية تقييم الناس لشركات التكنولوجيا المماثلة الأخرى.",
-    "ru": "Новая технологическая компания, занимающаяся искусственным интеллектом, хочет выйти на фондовый рынок. Это значит, что люди смогут покупать ее акции, что может повлиять на оценку других похожих технологических компаний."
-   }
-  },
-  "category": "contracts",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
-   },
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794314358,
-    "reason": "תחרות פוטנציאלית בתחום הבינה המלאכותית.",
-    "reason_i18n": {
-     "he": "תחרות פוטנציאלית בתחום הבינה המלאכותית.",
-     "en": "Potential competition in the AI sector.",
-     "ar": "منافسة محتملة في قطاع الذكاء الاصطناعي.",
-     "ru": "Потенциальная конкуренция в секторе ИИ."
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 178.67,
-    "entry_price": 173.98,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 173.85,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.07,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.66,
-    "edge_pct": 1.66,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1794322534,
-    "reason": "הנפקה גדולה של חברת AI עשויה להגביר את העניין במגזר.",
-    "reason_i18n": {
-     "he": "הנפקה גדולה של חברת AI עשויה להגביר את העניין במגזר.",
-     "en": "A major AI IPO may boost sector sentiment.",
-     "ar": "طرح عام أولي كبير لشركة ذكاء اصطناعي قد يعزز معنويات القطاع.",
-     "ru": "Крупное IPO компании в сфере ИИ может улучшить настроения в секторе."
-    },
-    "name_i18n": {
-     "he": "מגזר הטכנולוגיה",
-     "en": "Technology Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 170.35,
-    "entry_price": 169.91,
-    "entry_time": "2026-11-10T15:30+00:00",
-    "exit_price": 174.39,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.64,
-    "bench": "SPY",
-    "bench_change_pct": 1.36,
-    "excess_pct": 1.27,
-    "edge_pct": 1.27,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "5fc9fadbd511",
-  "updates": [
-   {
-    "ts": 1794322534,
-    "time": "2026-11-10T14:55Z",
-    "severity": 5,
-    "summary": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק ב-19 בנובמבר.",
-    "i18n": {
-     "he": "חברת הבינה המלאכותית Anthropic קבעה טווח מחיר של 70-78 דולר למניה לקראת הנפקתה בנאסד\"ק ב-19 בנובמבר.",
-     "en": "AI company Anthropic has set an IPO price range of $70-$78 per share, with trading expected to begin on November 19.",
-     "ar": "حددت شركة الذكاء الاصطناعي Anthropic نطاق سعر يتراوح بين 70 و78 دولاراً للسهم قبل طرحها العام الأولي في ناسداك في 19 نوفمبر.",
-     "ru": "Компания Anthropic, занимающаяся искусственным интеллектом, установила ценовой диапазон от 70 до 78 долларов за акцию перед IPO на Nasdaq 19 ноября."
-    }
-   }
-  ],
-  "last_update": 1794322534,
-  "evaluated": true
- },
- {
   "ts": 1794318912,
   "time": "2026-11-10T13:55Z",
   "title": "מדד המחירים לצרכן בארה\"ב באוקטובר גבוה מהצפוי",
@@ -1565,158 +1291,6 @@
    }
   ],
   "last_update": 1794362309,
-  "evaluated": true
- },
- {
-  "ts": 1794322534,
-  "time": "2026-11-10T14:55Z",
-  "title": "צרפת ואיראן בעימות סייבר",
-  "summary": "צרפת זימנה את שגריר איראן בעקבות האשמות על חבלה במקררים בסופרמרקטים צרפתיים על ידי יחידת סייבר איראנית.",
-  "kid": "יש מתח בין צרפת לאיראן בגלל האשמות על תקיפות מחשב שגרמו נזק למקררים בחנויות.",
-  "i18n": {
-   "title": {
-    "he": "צרפת ואיראן בעימות סייבר",
-    "en": "France-Iran cyber conflict",
-    "ar": "نزاع سيبراني بين فرنسا وإيران",
-    "ru": "Киберконфликт Франции и Ирана"
-   },
-   "summary": {
-    "he": "צרפת זימנה את שגריר איראן בעקבות האשמות על חבלה במקררים בסופרמרקטים צרפתיים על ידי יחידת סייבר איראנית.",
-    "en": "France summoned the Iranian ambassador following allegations that an Iranian cyber unit sabotaged refrigerators in French supermarkets.",
-    "ar": "استدعت فرنسا السفير الإيراني بعد مزاعم بأن وحدة سيبرانية إيرانية قامت بتخريب ثلاجات في متاجر سوبر ماركت فرنسية.",
-    "ru": "Франция вызвала посла Ирана после обвинений в том, что иранское киберподразделение саботировало холодильники во французских супермаркетах."
-   },
-   "kid": {
-    "he": "יש מתח בין צרפת לאיראן בגלל האשמות על תקיפות מחשב שגרמו נזק למקררים בחנויות.",
-    "en": "There is tension between France and Iran due to accusations of cyberattacks that damaged refrigerators in stores.",
-    "ar": "هناك توتر بين فرنسا وإيران بسبب اتهامات بشن هجمات سيبرانية تسببت في تلف ثلاجات في المتاجر.",
-    "ru": "Напряженность между Францией и Ираном из-за обвинений в кибератаках, которые повредили холодильники в магазинах."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWF90dkJrNGNYNWRBVHFBbExZc3pLcUxoTm5TaXl5OF9HTEEyWkdaV0NvYjZsSHYzTGN4dXQ0RGpEMmNrY2tIekVTMllTczNBaDgyVDVpcjJGd1l5SmlURUgtUFdGdC1PYkdyMVIzZkEzamk2UkJyWVpRazBFUlpzaG9fWW5ldHd3MklqOUkyOGNoeWlDcElhLXNPTnZSWnZfUjVMbmsyQTcwUdIBrwFBVV95cUxPZm9EbDdHRWVhZ0JoV3NBU3lWX3RqMW9VbHhsa2ZNV0ZFeDVRMC1ocXh6bmFoaVJhelVlT0k2U0dmMFA3c2V4VUgzSXBfZDhqQmJDR2M5c1lQTnp4Nk80QXJxYXVTaWdSUWFvNFFMSlFMQnQ3SXNIVnVVU0dPVXZHMjh6T1ZnTXVIbk5JT0hwOFlIdHV3b2xBOXdnZEp3UXNfOVF3WE10Z0cwQVRadldv?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/10/what-is-shahid-kaveh-%e2%81%a0the-iran-cyber-unit-tied-to-frances-fridge-hacking?traffic_source=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQk96cTFtbHhVbnFNZlBPN0N4REh2LWxabTdueEY1cXlQVldEa21tb194SUdQbW02Nk96QTVVMU9FUEN4NTVLOUxqLXdXZDZRUTFBcUtFRFE1VzFuRGxqeXFvVFFDbEJ2Vk0wbmhxNGZ6NDNmalRrYlRaTE8yVW1aZ3JnOUdRZThDVV9wdmRKZV9QdkZ1aG1pZnFDNnlxYXV4Yl9HX0UySEEzRXgxMk85VS01dmNVZ2c?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWGVqdXBWamVsYzRWQmhONGxNS1NQWE12V3RPMnE1WnFpV2QxQ2Rxd0tIbG44VVAwUUJTVFctbEJvMTd4Rl9xaEpNd0RTYzlMcW8yNzBaYXl1OUswc29kNWIyVmdJNEhlcHFNVVl4b3J3cUQ4SEpkOTMwX1lvMUFuNUZ5UHUtVTN5SWREQi10SGdqdFNuVFVVODFxMTNLOUNYY25OMGNLd3ZKSll5T19Seng2QWtWVmNTRldKVdIBwwFBVV95cUxNUENSUEZ3OFFRRU1kU3RqeFNxT0o2WHB1S3lqSXZVLXQwNmYyejEyM3RLdXdTdy1mOHVyc183a3hMd3d3V0FaT1d5SXhrSVhDenMxTG00WG1vTm55LVhXY0lIbFBrWXkySm41VXkzbmZkck9NWmVrUWkzOHhiVk1kQUQybWQ1eENvVldISFlOU0FIQzFLbE9OWkVEZHp4TlJrLXgzMHlZUV9JMUZ2aVFlcDFwTFYyUVlPSE9saHdjYjFoQmc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794322534,
-    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר עקב איומים גיאופוליטיים.",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לפתרונות אבטחת סייבר עקב איומים גיאופוליטיים.",
-     "en": "Increased demand for cybersecurity solutions due to geopolitical threats.",
-     "ar": "زيادة الطلب على حلول الأمن السيبراني بسبب التهديدات الجيوسياسية.",
-     "ru": "Рост спроса на решения по кибербезопасности из-за геополитических угроз."
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק",
-     "en": "CrowdStrike",
-     "ar": "كراود سترايك",
-     "ru": "CrowdStrike"
-    },
-    "price_at_alert": 229.125,
-    "entry_price": 226.9,
-    "entry_time": "2026-11-10T15:30+00:00",
-    "exit_price": 229.1,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.97,
-    "bench": "SPY",
-    "bench_change_pct": 1.36,
-    "excess_pct": -0.39,
-    "edge_pct": -0.39,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "7858cda5c97a",
-  "evaluated": true
- },
- {
-  "ts": 1794322534,
-  "time": "2026-11-10T14:55Z",
-  "title": "Yangzijiang Shipbuilding זוכה בחוזים",
-  "summary": "חברת בניית הספינות Yangzijiang זכתה בחוזים בשווי 7 מיליארד דולר, מה שהביא את צבר ההזמנות שלה ל-26.3 מיליארד דולר.",
-  "kid": "חברת בניית ספינות גדולה קיבלה הזמנות ענק. זה מראה שיש הרבה עבודה בתחום הספנות.",
-  "i18n": {
-   "title": {
-    "he": "Yangzijiang Shipbuilding זוכה בחוזים",
-    "en": "Yangzijiang Shipbuilding wins contracts",
-    "ar": "شركة Yangzijiang لبناء السفن تفوز بعقود",
-    "ru": "Yangzijiang Shipbuilding получает контракты"
-   },
-   "summary": {
-    "he": "חברת בניית הספינות Yangzijiang זכתה בחוזים בשווי 7 מיליארד דולר, מה שהביא את צבר ההזמנות שלה ל-26.3 מיליארד דולר.",
-    "en": "Shipbuilder Yangzijiang has won $7 billion in contracts, pushing its total order book to $26.3 billion.",
-    "ar": "فازت شركة بناء السفن Yangzijiang بعقود بقيمة 7 مليارات دولار، مما رفع إجمالي دفتر طلبياتها إلى 26.3 مليار دولار.",
-    "ru": "Судостроительная компания Yangzijiang получила контракты на сумму 7 млрд долларов, увеличив портфель заказов до 26,3 млрд долларов."
-   },
-   "kid": {
-    "he": "חברת בניית ספינות גדולה קיבלה הזמנות ענק. זה מראה שיש הרבה עבודה בתחום הספנות.",
-    "en": "A large shipbuilding company received huge orders. This shows there is a lot of work in the shipping industry.",
-    "ar": "حصلت شركة كبيرة لبناء السفن على طلبات ضخمة. هذا يظهر أن هناك الكثير من العمل في صناعة الشحن.",
-    "ru": "Крупная судостроительная компания получила огромные заказы. Это показывает, что в судоходной отрасли много работы."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdDByLU9GUGM0UmhiVTZNVUV3T2NBUS1qYldYRk0zUWYzMlVNb3pJY0JDRkdmeURUUk5POGdDSUpBdEdrV1JyYTZXQ2lJUGQ3NTVzRWNZMWdIaXFEZUwxVWZLSm1ldXFKOGpDVWY1c0FXTnp3c2NlY2lHc3lTWGIyQVo2ejE0bEVIWUxDQmNpYzNKYWZZYXF5eTJUVUJoWjllcXllNVZqS1A2bnV4Z3dzWUNZTENDY3FHQndwcUIxMUJEOEo0STFrWjZVOThTTEdTbTRXSkh6NjFsTXh4Q2VKVXI5eV9tOEJV?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1794322534,
-    "reason": "פעילות חזקה בתחום הספנות מעידה על ביקוש גלובלי.",
-    "reason_i18n": {
-     "he": "פעילות חזקה בתחום הספנות מעידה על ביקוש גלובלי.",
-     "en": "Strong shipping activity indicates global demand.",
-     "ar": "نشاط الشحن القوي يشير إلى طلب عالمي.",
-     "ru": "Активная деятельность в судоходстве указывает на глобальный спрос."
-    },
-    "name_i18n": {
-     "he": "צים",
-     "en": "ZIM Integrated Shipping",
-     "ar": "شركة زيم للشحن",
-     "ru": "ZIM Shipping"
-    },
-    "price_at_alert": 28.235,
-    "entry_price": 28.21,
-    "entry_time": "2026-11-10T15:30+00:00",
-    "exit_price": 29.01,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.84,
-    "bench": "SPY",
-    "bench_change_pct": 1.36,
-    "excess_pct": 1.47,
-    "edge_pct": 1.47,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "bb35ffdfeb27",
   "evaluated": true
  },
  {
@@ -43084,9 +42658,21 @@
      "ar": "أعلنت إلبيت سيستمز عن نمو الإيرادات في الربع الثالث ودفتر طلبات قياسي بقيمة 33 مليار دولار.",
      "ru": "Elbit Systems сообщила о росте выручки в третьем квартале и рекордном портфеле заказов в 33 млрд долларов."
     }
+   },
+   {
+    "ts": 1794929917,
+    "time": "2026-11-17T15:38Z",
+    "severity": 4,
+    "summary": "אלביט מערכות דיווחה על עלייה של 17.2% בהכנסות ל-2.25 מיליארד דולר ברבעון השלישי של 2026.",
+    "i18n": {
+     "he": "אלביט מערכות דיווחה על עלייה של 17.2% בהכנסות ל-2.25 מיליארד דולר ברבעון השלישי של 2026.",
+     "en": "Elbit Systems reported a 17.2% increase in revenue to $2.25 billion for Q3 2026.",
+     "ar": "أعلنت شركة إلبيت سيستمز عن زيادة بنسبة 17.2% في الإيرادات لتصل إلى 2.25 مليار دولار في الربع الثالث من عام 2026.",
+     "ru": "Elbit Systems сообщила об увеличении выручки на 17,2% до 2,25 млрд долларов в третьем квартале 2026 года."
+    }
    }
   ],
-  "last_update": 1794918456
+  "last_update": 1794929917
  },
  {
   "ts": 1794899558,
@@ -43332,7 +42918,7 @@
    }
   },
   "category": "cyber",
-  "severity": 6,
+  "severity": 7,
   "confidence": "medium",
   "sources": [
    {
@@ -43518,9 +43104,21 @@
      "ar": "تعرض 178 موقعاً إلكترونياً كبيراً لهجوم سيبراني، بما في ذلك Zoom وHSBC، بهدف سرقة بيانات البطاقات الائتمانية والعملات المشفرة. تحذر جوجل من أن هذا يمثل حقبة جديدة من الهجمات المستقلة.",
      "ru": "Кибератака затронула 178 крупных сайтов, включая Zoom и HSBC, с целью кражи данных банковских карт и криптовалют. Google предупреждает, что это знаменует новую эру автономных атак."
     }
+   },
+   {
+    "ts": 1794929917,
+    "time": "2026-11-17T15:38Z",
+    "severity": 7,
+    "summary": "מתקפת סייבר פגעה ב-178 אתרים, כולל גופים פיננסיים, רשתות חדשות וחברות טכנולוגיה. החששות גוברים לגבי יציבות המערכות הפיננסיות והגנה על נתוני משתמשים.",
+    "i18n": {
+     "he": "מתקפת סייבר פגעה ב-178 אתרים, כולל גופים פיננסיים, רשתות חדשות וחברות טכנולוגיה. החששות גוברים לגבי יציבות המערכות הפיננסיות והגנה על נתוני משתמשים.",
+     "en": "A cyberattack has impacted 178 websites, including financial institutions, news outlets, and tech firms. Concerns are rising regarding financial system stability and user data protection.",
+     "ar": "أثر هجوم سيبراني على 178 موقعاً إلكترونياً، بما في ذلك مؤسسات مالية ووكالات أنباء وشركات تكنولوجيا. تتزايد المخاوف بشأن استقرار الأنظمة المالية وحماية بيانات المستخدمين.",
+     "ru": "Кибератака затронула 178 веб-сайтов, включая финансовые учреждения, новостные агентства и технологические компании. Растут опасения по поводу стабильности финансовых систем и защиты данных пользователей."
+    }
    }
   ],
-  "last_update": 1794926558
+  "last_update": 1794929917
  },
  {
   "ts": 1794904176,
@@ -44083,9 +43681,21 @@
      "ar": "فرضة بريطانيا عقوبات على ثماني شركات إسرائيلية ومجموعة متورطة في بناء المستوطنات.",
      "ru": "Великобритания ввела санкции против восьми израильских компаний и группы, блокирующей помощь Газе."
     }
+   },
+   {
+    "ts": 1794929917,
+    "time": "2026-11-17T15:38Z",
+    "severity": 4,
+    "summary": "ממשלת בריטניה הטילה סנקציות על 8 חברות בנייה ישראליות בגין מעורבותן בבנייה בהתנחלויות בגדה המערבית.",
+    "i18n": {
+     "he": "ממשלת בריטניה הטילה סנקציות על 8 חברות בנייה ישראליות בגין מעורבותן בבנייה בהתנחלויות בגדה המערבית.",
+     "en": "The UK government has imposed sanctions on 8 Israeli construction companies for their involvement in building settlements in the West Bank.",
+     "ar": "فرضت الحكومة البريطانية عقوبات على 8 شركات بناء إسرائيلية بسبب تورطها في بناء مستوطنات في الضفة الغربية.",
+     "ru": "Правительство Великобритании ввело санкции против 8 израильских строительных компаний за их участие в строительстве поселений на Западном берегу."
+    }
    }
   ],
-  "last_update": 1794918456
+  "last_update": 1794929917
  },
  {
   "ts": 1794915235,
@@ -44245,7 +43855,7 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
@@ -44297,7 +43907,22 @@
     "price_at_alert": 79.38
    }
   ],
-  "id": "d7a753325493"
+  "id": "d7a753325493",
+  "updates": [
+   {
+    "ts": 1794929917,
+    "time": "2026-11-17T15:38Z",
+    "severity": 6,
+    "summary": "חבר הפד מוסאלם ציין כי ייתכן שיידרשו העלאות ריבית נוספות לפני אביב 2027 כדי להילחם באינפלציה.",
+    "i18n": {
+     "he": "חבר הפד מוסאלם ציין כי ייתכן שיידרשו העלאות ריבית נוספות לפני אביב 2027 כדי להילחם באינפלציה.",
+     "en": "Fed official Musalem signaled that multiple rate hikes are likely needed before spring 2027 to combat inflation.",
+     "ar": "أشار مسؤول في الاحتياطي الفيدرالي، موسالم، إلى أنه من المحتمل الحاجة إلى رفع أسعار الفائدة عدة مرات قبل ربيع 2027 لمكافحة التضخم.",
+     "ru": "Представитель ФРС Мусалем отметил, что до весны 2027 года, вероятно, потребуется несколько повышений процентных ставок для борьбы с инфляцией."
+    }
+   }
+  ],
+  "last_update": 1794929917
  },
  {
   "ts": 1794923267,
@@ -44434,5 +44059,58 @@
    }
   ],
   "id": "828d909929e8"
+ },
+ {
+  "ts": 1794929917,
+  "time": "2026-11-17T15:38Z",
+  "title": "ג'נסן הואנג צפוי להעיד בקונגרס",
+  "summary": "מנכ\"ל אנבידיה לשעבר, ג'נסן הואנג, צפוי להופיע בפני ועדות הקונגרס ב-1 בדצמבר לאחר איומים בזימון לדין.",
+  "kid": "הבוס לשעבר של אנבידיה יצטרך לענות על שאלות של פוליטיקאים בארה\"ב. זה חשוב כי אנבידיה היא חברה גדולה מאוד שמשפיעה על כל שוק הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "ג'נסן הואנג צפוי להעיד בקונגרס",
+    "en": "Jensen Huang slated to testify before Congress",
+    "ar": "جنسن هوانغ من المقرر أن يدلي بشهادته أمام الكونغرس",
+    "ru": "Дженсен Хуанг должен дать показания в Конгрессе"
+   },
+   "summary": {
+    "he": "מנכ\"ל אנבידיה לשעבר, ג'נסן הואנג, צפוי להופיע בפני ועדות הקונגרס ב-1 בדצמבר לאחר איומים בזימון לדין.",
+    "en": "Former Nvidia CEO Jensen Huang is slated to appear before House panels on Dec. 1 following threats of a subpoena.",
+    "ar": "من المقرر أن يمثل الرئيس التنفيذي السابق لشركة إنفيديا، جنسن هوانغ، أمام لجان الكونغرس في 1 ديسمبر بعد تهديدات باستدعائه.",
+    "ru": "Бывший генеральный директор Nvidia Дженсен Хуанг должен предстать перед комитетами Конгресса 1 декабря после угроз вызова в суд."
+   },
+   "kid": {
+    "he": "הבוס לשעבר של אנבידיה יצטרך לענות על שאלות של פוליטיקאים בארה\"ב. זה חשוב כי אנבידיה היא חברה גדולה מאוד שמשפיעה על כל שוק הטכנולוגיה.",
+    "en": "The former boss of Nvidia will have to answer questions from US politicians. This is important because Nvidia is a huge company that affects the whole tech market.",
+    "ar": "سيتعين على الرئيس السابق لشركة إنفيديا الإجابة على أسئلة السياسيين الأمريكيين. هذا مهم لأن إنفيديا شركة ضخمة تؤثر على سوق التكنولوجيا بأكمله.",
+    "ru": "Бывшему боссу Nvidia придется отвечать на вопросы американских политиков. Это важно, потому что Nvidia — огромная компания, влияющая на весь технологический рынок."
+   }
+  },
+  "category": "policy",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794929917,
+    "reason": "חוסר ודאות לגבי עדות והשלכות רגולטוריות",
+    "reason_i18n": {
+     "he": "חוסר ודאות לגבי עדות והשלכות רגולטוריות",
+     "en": "Uncertainty regarding testimony and regulatory implications",
+     "ar": "عدم اليقين بشأن الشهادة والتبعات التنظيمية",
+     "ru": "Неопределенность в отношении показаний и регуляторных последствий"
+    },
+    "name_i18n": {
+     "he": "אנבידיה",
+     "en": "Nvidia",
+     "ar": "إنفيديا",
+     "ru": "Nvidia"
+    },
+    "price_at_alert": 152.0354
+   }
+  ],
+  "id": "3d2d676aaf76"
  }
 ]
