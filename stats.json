@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T08:30Z",
+ "generated": "2026-11-17T09:35Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1045,
+ "total_alerts": 1048,
  "overall": {
   "n": 641,
   "hits": 320,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 119,
+   "mentions": 120,
    "n": 95,
    "hits": 41,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "קרן סל נפט גולמי",
+    "en": "Crude Oil Fund",
+    "ar": "صندوق النفط الخام",
+    "ru": "Фонд сырой нефти"
    },
    "avg_edge": -0.24
   },
   "XLE": {
-   "mentions": 101,
+   "mentions": 103,
    "n": 81,
    "hits": 46,
    "name": {
-    "he": "מגזר האנרגיה",
-    "en": "Energy Sector",
-    "ar": "قطاع الطاقة",
-    "ru": "Сектор энергетики"
+    "he": "קרן סל סקטור האנרגיה",
+    "en": "Energy Sector ETF",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.18
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.01
   },
   "ITA": {
-   "mentions": 180,
+   "mentions": 181,
    "n": 142,
    "hits": 77,
    "name": {
     "he": "קרן סל תעופה וביטחון",
     "en": "Aerospace & Defense ETF",
-    "ar": "صندوق استثماري لقطاع الطيران والدفاع",
+    "ar": "صندوق قطاع الفضاء والدفاع",
     "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -1.52
   },
   "RTX": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 34,
    "hits": 20,
    "name": {
-    "he": "אר.טי.איקס – יצרנית ביטחונית",
-    "en": "RTX – defense contractor",
-    "ar": "آر تي إكس – مقاول دفاعي",
-    "ru": "RTX – оборонный подрядчик"
+    "he": "ארטִיֶיקס – יצרנית מערכות פטריוט",
+    "en": "RTX – maker of Patriot systems",
+    "ar": "آر تي إكس - صانعة أنظمة باتريوت",
+    "ru": "RTX — производитель систем Patriot"
    },
    "avg_edge": 0.47
   },
@@ -318,14 +318,14 @@
    "avg_edge": -0.29
   },
   "FXE": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 12,
    "hits": 4,
    "name": {
-    "he": "אירו",
+    "he": "קרן סל אירו",
     "en": "Euro Currency ETF",
-    "ar": "صندوق اليورو",
-    "ru": "ETF на евро"
+    "ar": "صندوق عملة اليورو",
+    "ru": "ETF евро"
    },
    "avg_edge": -0.49
   },
@@ -534,14 +534,14 @@
    "avg_edge": -1.06
   },
   "VGK": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 20,
    "hits": 10,
    "name": {
-    "he": "קרן סל אירופה",
-    "en": "Europe ETF",
-    "ar": "صندوق استثمار أوروبا",
-    "ru": "ETF Европы"
+    "he": "קרן סל מניות אירופה",
+    "en": "Vanguard FTSE Europe ETF",
+    "ar": "صندوق أسهم أوروبا",
+    "ru": "ETF европейских акций"
    },
    "avg_edge": -0.21
   },
@@ -1110,14 +1110,14 @@
    "avg_edge": 2.97
   },
   "CVX": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 5,
    "hits": 4,
    "name": {
     "he": "שברון – חברת אנרגיה ענקית",
-    "en": "Chevron – a major energy company",
-    "ar": "شيفرون – شركة طاقة كبرى",
-    "ru": "Chevron – крупная энергетическая компания"
+    "en": "Chevron – energy major",
+    "ar": "شيفرون - شركة طاقة كبرى",
+    "ru": "Chevron — крупная энергетическая компания"
    },
    "avg_edge": 1.53
   },
