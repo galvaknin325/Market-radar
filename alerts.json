@@ -2047,321 +2047,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794275976,
-  "time": "2026-11-10T01:59Z",
-  "title": "מניות סופטבנק מזנקות בעקבות התאוששות מניות הטכנולוגיה באסיה ובארה\"ב",
-  "summary": "מניות סופטבנק זינקו ב-11% על רקע מגמה חיובית בסקטור הטכנולוגיה באסיה ובוול סטריט, לצד השקעות מוגברות של צ'יינה מוביל במחשוב.",
-  "kid": "מניות של חברות טכנולוגיה ענקיות עולות אחרי ירידות קודמות. זה משמח משקיעים שמחזיקים במניות טכנולוגיה.",
-  "i18n": {
-   "title": {
-    "he": "מניות סופטבנק מזנקות בעקבות התאוששות מניות הטכנולוגיה באסיה ובארה\"ב",
-    "en": "SoftBank shares surge as Asian tech stocks track Wall Street rebound",
-    "ar": "أسهم صوفت بنك ترتفع مع تتبع أسهم التكنولوجيا الأسيوية انتعاش وول ستريت",
-    "ru": "Акции SoftBank растут вслед за восстановлением технологических акций в Азии и США"
-   },
-   "summary": {
-    "he": "מניות סופטבנק זינקו ב-11% על רקע מגמה חיובית בסקטור הטכנולוגיה באסיה ובוול סטריט, לצד השקעות מוגברות של צ'יינה מוביל במחשוב.",
-    "en": "SoftBank Group shares surged 11% as Asian tech stocks tracked a Wall Street rebound, while China Mobile announced large computing investments.",
-    "ar": "ارتفعت أسهم مجموعة صوفت بنك بنسبة 11% حيث تتبعت أسهم التكنولوجيا الآسيوية انتعاش وول ستريت.",
-    "ru": "Акции SoftBank Group выросли на 11%, так как технологические акции в Азии последовали за восстановлением Уолл-стрит."
-   },
-   "kid": {
-    "he": "מניות של חברות טכנולוגיה ענקיות עולות אחרי ירידות קודמות. זה משמח משקיעים שמחזיקים במניות טכנולוגיה.",
-    "en": "Stocks of giant tech companies are rising after previous drops. This makes investors holding tech stocks happy.",
-    "ar": "أسهم شركات التكنولوجيا الكبرى ترتفع بعد انخفاضات سابقة. هذا يسعد المستثمرين الذين يمتلكون أسهم تكنولوجيا.",
-    "ru": "Акции гигантских технологических компаний растут после падения. Это радует инвесторов, владеющих технологическими акциями."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1794275976,
-    "reason": "סנטימנט חיובי והתאוששות בסקטור הטכנולוגיה הגלובלי מחזקים את המדד.",
-    "reason_i18n": {
-     "he": "סנטימנט חיובי והתאוששות בסקטור הטכנולוגיה הגלובלי מחזקים את המדד.",
-     "en": "Positive sentiment and recovery in the global tech sector boost the index.",
-     "ar": "المعنويات الإيجابية والتعافي في قطاع التكنولوجيا العالمي يعززان المؤشر.",
-     "ru": "Позитивные настроения и восстановление в мировом технологическом секторе укрепляют индекс."
-    },
-    "name_i18n": {
-     "he": "QQQ - קרן סל נאסד\"ק 100",
-     "en": "QQQ – Nasdaq 100 ETF",
-     "ar": "QQQ - صندوق مؤشر ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 679.35,
-    "entry_price": 671.3599,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 690.38,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.83,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.24,
-    "edge_pct": 1.24,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1794275976,
-    "reason": "השקעות ענק בתשתיות מחשוב ובינה מלאכותית תומכות בביקושים לשבבים.",
-    "reason_i18n": {
-     "he": "השקעות ענק בתשתיות מחשוב ובינה מלאכותית תומכות בביקושים לשבבים.",
-     "en": "Massive investments in computing and AI infrastructure support chip demand.",
-     "ar": "الاستثمارات الضخمة في البنية التحتية للحوسبة والذكاء الاصطناعي تدعم الطلب على الرقائق.",
-     "ru": "Масштабные инвестиции в вычисления и инфраструктуру ИИ поддерживают спрос на чипы."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
-     "en": "Nvidia – AI chip maker",
-     "ar": "Nvidia - صانعة رقائق الذكاء الاصطناعي",
-     "ru": "Nvidia - производитель чипов ИИ"
-    },
-    "price_at_alert": 178.67,
-    "entry_price": 173.98,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 173.85,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.07,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.66,
-    "edge_pct": -1.66,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "b437cf6ddeed",
-  "updates": [
-   {
-    "ts": 1794284881,
-    "time": "2026-11-10T04:28Z",
-    "severity": 6,
-    "summary": "מניות סופטבנק זינקו ב-13% לאחר שמניות הטכנולוגיה באסיה עקבו אחר ההתאוששות בוול סטריט ומחירי הנפט הנמוכים שיפרו את הסנטימנט.",
-    "i18n": {
-     "en": "SoftBank Group shares jumped 13% as Asian technology stocks tracked Wall Street's rebound and lower oil prices lifted market sentiment.",
-     "he": "מניות סופטבנק זינקו ב-13% לאחר שמניות הטכנולוגיה באסיה עקבו אחר ההתאוששות בוול סטריט ומחירי הנפט הנמוכים שיפרו את הסנטימנט.",
-     "ar": "قفزت أسهم مجموعة صوفت بنك 13% مع تتبع أسهم التكنولوجيا الآسيوية لانتعاش وول ستريت وانخفاض أسعار النفط.",
-     "ru": "Акции SoftBank Group выросли на 13%, так как азиатские техкомпании отыграли рост Уолл-стрит и падение цен на нефть."
-    }
-   }
-  ],
-  "last_update": 1794284881,
-  "evaluated": true
- },
- {
-  "ts": 1794284881,
-  "time": "2026-11-10T04:28Z",
-  "title": "הסנאט בארה\"ב מקדם הצעת חוק היתרים המועילה למכרת הנחושת קופר וורלد",
-  "summary": "הסנאט האמריקאי הצביע בעד קידום הצעת חוק היתרים שתסייע בפיתוח מכרה הנחושת קופר וורלד.",
-  "kid": "הממשלה מקלה על הקמת מכרה נחושת חדש וגדול, מה ששובה לחברות שכרות ומוכרות נחושת.",
-  "i18n": {
-   "title": {
-    "en": "US Senate Advances Permitting Bill Benefiting Copper World Mine",
-    "he": "הסנאט בארה\"ב מקדם הצעת חוק היתרים המועילה למכרת הנחושת קופר וורלد",
-    "ar": "مجلس الشيوخ الأمريكي يمرر مشروع قانون تصاريح يفيد منجم النحاس",
-    "ru": "Сенат США продвигает законопроект о разрешениях для медного рудника"
-   },
-   "summary": {
-    "en": "The US Senate voted to advance a permitting bill that will assist the development of the Copper World mine.",
-    "he": "הסנאט האמריקאי הצביע בעד קידום הצעת חוק היתרים שתסייע בפיתוח מכרה הנחושת קופר וורלד.",
-    "ar": "صوت مجلس الشيوخ الأمريكي لتمرير مشروع قانون تصاريح يساعد في تطوير منجم النحاس.",
-    "ru": "Сенат США проголосовал за продвижение законопроекта о разрешениях, который поможет развитию медного рудника."
-   },
-   "kid": {
-    "en": "The government is making it easier to build a big new copper mine, which is good for companies that mine and sell copper.",
-    "he": "הממשלה מקלה על הקמת מכרה נחושת חדש וגדול, מה ששובה לחברות שכרות ומוכרות נחושת.",
-    "ar": "الحكومة تسهل بناء منجم نحاس جديد كبير، وهو أمر جيد للشركات التي تنقب وتبيع النحاس.",
-    "ru": "Правительство облегчает открытие нового крупного медного рудника, что позитивно для компаний по добыче меди."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1NZM0p5MndnZzFrMERxV3owbWZiNXl5R3p1S01OSE5rNjcxRE0yckxuQWJLbEEwYmxzcGFqTHUtZ0JObTNhMDR6ZXVsN3E5S3pZOWxZZ1RHcFRMR1dReWpkX00xa2xiYUpka3JFTUxFSDh4dXFTWjY0VmhaOVMxNFZWeF92N0NVWG1vZlhHejVQR3luNVlvOXVEaHphM2ZPV3F5SVVOS081MnBM?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1794284881,
-    "reason": "סביבת היתרי כרייה נוחה בארה\"ב מחזקת את תחזית הסקטור.",
-    "reason_i18n": {
-     "en": "Favorable US mining permitting environment boosts sector outlook.",
-     "he": "סביבת היתרי כרייה נוחה בארה\"ב מחזקת את תחזית הסקטור.",
-     "ar": "بيئة تراخيص التعدين المواتية في أمريكا تعزز توقعات القطاع.",
-     "ru": "Благоприятная среда выдачи разрешений на добычу в США улучшает перспективы сектора."
-    },
-    "name_i18n": {
-     "en": "Freeport-McMoRan (Copper Mining)",
-     "he": "פריפורט-מקמורן (כריית נחושת)",
-     "ar": "فريبورت-מקموران (تعدين النحاس)",
-     "ru": "Freeport-McMoRan (добыча меди)"
-    },
-    "price_at_alert": 62.33,
-    "entry_price": 60.6,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 62.13,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.52,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 0.93,
-    "edge_pct": 0.93,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1794284881,
-    "reason": "תמיכה חקיקתית בתשתיות ייצור נחושת מקומיות חדשות.",
-    "reason_i18n": {
-     "en": "Legislative support for new domestic copper production infrastructure.",
-     "he": "תמיכה חקיקתית בתשתיות ייצור נחושת מקומיות חדשות.",
-     "ar": "الدعم التشريعي للبنية التحتية الجديدة لإنتاج النحاس المحلي.",
-     "ru": "Законодательная поддержка новой инфраструктуры производства меди внутри страны."
-    },
-    "name_i18n": {
-     "en": "United States Copper Index Fund",
-     "he": "קרן סל נחושת",
-     "ar": "صندوق مؤشر النحاس الأمريكي",
-     "ru": "Медный ETF"
-    },
-    "price_at_alert": 38.43,
-    "entry_price": 37.64,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 37.74,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.27,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.32,
-    "edge_pct": -1.32,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "7a95f1f48971",
-  "evaluated": true
- },
- {
-  "ts": 1794284881,
-  "time": "2026-11-10T04:28Z",
-  "title": "קוסקו שיפינג אנרגיה מזמינה 10 מכליות ענק וחוכרת 14 נוספות",
-  "summary": "חברת קוסקו שיפינג אנרגיה הזמינה 10 מכליות נפט ענק בשתי מספנות וחתמה על חכירת 14 אניות חדשות נוספות.",
-  "kid": "חברת ספנות ענקית קונה ושוכרת המון מכליות נפט עצומות, מה שמעיד על ביקוש חזק להובלת נפט בים.",
-  "i18n": {
-   "title": {
-    "en": "COSCO Shipping Energy Orders 10 VLCC Tankers and Charters 14 More",
-    "he": "קוסקו שיפינג אנרגיה מזמינה 10 מכליות ענק וחוכרת 14 נוספות",
-    "ar": "كوسكو شيبينغ للطاقة تطلب 10 ناقلات نفط عملاقة وتستأجر 14 أخرى",
-    "ru": "COSCO Shipping Energy заказывает 10 супертанкеров VLCC и фрахтует еще 14"
-   },
-   "summary": {
-    "en": "COSCO Shipping Energy placed orders for 10 VLCC tankers at two shipyards and bareboat-chartered 14 additional newbuild vessels.",
-    "he": "חברת קוסקו שיפינג אנרגיה הזמינה 10 מכליות נפט ענק בשתי מספנות וחתמה על חכירת 14 אניות חדשות נוספות.",
-    "ar": "طلبت شركة كوسكو شيبينغ للطاقة 10 ناقلات نفط عملاقة في حوضين لبناء السفن واستأجرت 14 سفينة جديدة أخرى.",
-    "ru": "Компания COSCO Shipping Energy разместила заказы на 10 танкеров VLCC на двух верфях и зафрахтовала еще 14 новых судов."
-   },
-   "kid": {
-    "en": "A huge shipping company is buying and renting lots of giant oil tankers, showing strong demand for moving oil across the seas.",
-    "he": "חברת ספנות ענקית קונה ושוכרת המון מכליות נפט עצומות, מה שמעיד על ביקוש חזק להובלת נפט בים.",
-    "ar": "شركة شحن عملاقة تشتري وتستأجر الكثير من ناقلات النفط الضخمة، مما يدل على طلب قوي على نقل النفط.",
-    "ru": "Крупная судоходная компания скупает и арендует множество гигантских танкеров, что указывает на высокий спрос на морские перевозки нефти."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vRmJiaDlWYVlBMTRFRnViTkc3T01PeW5QdDZFV19iaEIxNndEdTlSeTFzaU4zYm1zUHRqV0JVR0lXUXQzNXpSMEcxQnRNRm8?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1794284881,
-    "reason": "הוצאות הון גבוהות בהרחבת צי הספנות העולמי מעידות על פעילות ענפה בסקטור.",
-    "reason_i18n": {
-     "en": "High capital expenditure in global maritime fleet expansion signals strong sector activity.",
-     "he": "הוצאות הון גבוהות בהרחבת צי הספנות העולמי מעידות על פעילות ענפה בסקטור.",
-     "ar": "الإنفاق الرأسمالي المرتفع على توسيع الأسطول البحري يشير إلى نشاط قوي للقطاع.",
-     "ru": "Крупные капитальные затраты на расширение мирового флота указывают на высокую активность сектора."
-    },
-    "name_i18n": {
-     "en": "ZIM Integrated Shipping Services",
-     "he": "צים שירותי ספנות",
-     "ar": "צים לשירותي الشحن المتكاملة",
-     "ru": "ZIM Integrated Shipping Services"
-    },
-    "price_at_alert": 28.51,
-    "entry_price": 28.14,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 29.01,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.09,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.5,
-    "edge_pct": 1.5,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FDX",
-    "direction": "up",
-    "t0": 1794284881,
-    "reason": "הזמנות חסונות לתשתיות תחבורה עולמיות משקפות מגמות לוגיסטיות חיוביות בסחר.",
-    "reason_i18n": {
-     "en": "Robust global transport infrastructure orders reflect positive trade logistics trends.",
-     "he": "הזמנות חסונות לתשתיות תחבורה עולמיות משקפות מגמות לוגיסטיות חיוביות בסחר.",
-     "ar": "طلبات البنية التحتية للنقل العالمي تعكس اتجاهات إيجابية في الخدمات اللوجستية للتجارة.",
-     "ru": "Надежные заказы на глобальную транспортную инфраструктуру отражают позитивные тренды логистики."
-    },
-    "name_i18n": {
-     "en": "FedEx Corporation",
-     "he": "פדקס",
-     "ar": "فيديكس",
-     "ru": "FedEx Corporation"
-    },
-    "price_at_alert": 318.84,
-    "entry_price": 318.37,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 322.69,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.36,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -0.23,
-    "edge_pct": -0.23,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "97940e57e762",
-  "evaluated": true
- },
- {
   "ts": 1794288439,
   "time": "2026-11-10T05:27Z",
   "title": "דיפלומטים אירופאים לוחצים על רוביו לקראת שיחות רוסיה-אוקראינה",
@@ -43010,18 +42695,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFlDQ0VJUFBIZS1nQTJUN281Z2JRbmJ4N3JFSEo2cDJYdlpXOWhIWkw4Mm95ZXZXWkQ1MjJGRnZCVkVKUWlVakVub2ZwU0dhVUJKeGtJclFVa2pMZFVMZjRmYUhTbFBZV1BGdENBdGkzMV9nZGRaUkhFcVJMYUtITkN3M0pwRFlsQmkxUXNIaEpPanZIRll1TVNXRFJpVzlDOTNLUTVaNDY1Ql9TVXdV?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xdmRWVkp3WF9DZlRndFNETHM3QmNsV252MEJVTDRpemNFbDNXc2xBdzZnTGRsa3pTOVVsQXV5MzVVQjd4OWt4VDNFV0JqOHdmTXZB?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5"
    },
    {
@@ -43031,6 +42704,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdHEzUGN6MG9kVnlERTA1RTg5WWptdWpHQ0xEYUNTN3hVblQxcUU0cWdTVUJTZmszai1pdDlfLWZLbkhpMmFxNEd3dGVvdTZQbWg1OHdsem9jc0NvaEJkR012b3ozejhpSFgyYnJGS0UyU3hqVW8wS1RObzZMVURtMlRMOUpPRVpHM2ZobjBqeHE4WTlyVXFKNXBSVVNIbUdESmRkSGR3d2hJNDhzWFJhSGNmSEEwWGtLUFp4WDZlYXZyR1BMVXAyUEZYQmVzQQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZVZ3elR4czNuZl9TM21GQmFoZU93MUZlT3VQN194TWRPb0pwYnRfci1LX3FTcmhVbXJqd2VKTHlYZm9UTmUxek5iNU8zUFplelE5R1NPdGFIRlplVW9WaVl6YVBDRjZGSXgzeDJwSkpmMXhTTVZQaVF2amktQ1VtdDRMRQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONVdyQkZtOU5LMklDSk15Y1A1SlpJTXI1aDNKUGVIQURYdmxKeEVaU1pTSHpqWklFUTlzX3VlSHVvOV9pMjVZOFJnYmxNdW5FdkhBcmxGMzc5WjNCV0lPazRtZDlDTUJrLU9hRGNCaUhZQ2IxOWVQY3owU0g4SEpfVXlZZk00SDE0X0pEQ0J3TnhZNHhaV2RBQUo1cFROa08tZWMxSWY1d1hnSmdHWDJJb1VTUVgwbUNlSkE?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHphMHpGaVBYREJFb1d5eFF2R2JfRlF6ZEtqOU0wOU5VUFppSU10a19MT2pabmRUUGhuZzVRT1RLNFFsOXlxVVVjTkh6MHk1ak9FaENha3k4cWpOOU5lM3Q2N3VJUmpKcU0xY1E1dlBfTHAwN25Sd1RCMF9QUUJOX2pZcFJMX3ZHbXVSdEdNYVZPNW5QaFVSU0FxZlVYTmxXbm4zN19YOVdXMW9mbk8xU2Z4Zw?oc=5"
    }
   ],
   "impacts": [
@@ -43098,9 +42783,21 @@
      "ar": "تفرض الولايات المتحدة ضوابط تصدير جديدة على أشباه الموصلات المتقدمة إلى ماليزيا وسنغافورة، بالإضافة إلى تعريفات جمركية على طائرات DJI بدون طيار.",
      "ru": "США вводят новый экспортный контроль на передовые полупроводники в Малайзию и Сингапур, а также пошлины на дроны DJI."
     }
+   },
+   {
+    "ts": 1794891424,
+    "time": "2026-11-17T04:57Z",
+    "severity": 7,
+    "summary": "ארה\"ב הרחיבה את בקרת הייצוא על שבבי בינה מלאכותית מתקדמים למדינות נוספות, כולל סינגפור, כדי למנוע גישה סינית.",
+    "i18n": {
+     "he": "ארה\"ב הרחיבה את בקרת הייצוא על שבבי בינה מלאכותית מתקדמים למדינות נוספות, כולל סינגפור, כדי למנוע גישה סינית.",
+     "en": "The US has expanded export controls on advanced AI chips to additional countries, including Singapore, to curb Chinese access.",
+     "ar": "وسعت الولايات المتحدة ضوابط التصدير على رقائق الذكاء الاصطناعي المتقدمة لتشمل دولاً إضافية، بما في ذلك سنغافورة، للحد من الوصول الصيني.",
+     "ru": "США расширили экспортный контроль над передовыми чипами ИИ на дополнительные страны, включая Сингапур, чтобы ограничить доступ Китая."
+    }
    }
   ],
-  "last_update": 1794884644
+  "last_update": 1794891424
  },
  {
   "ts": 1794841622,
@@ -43911,6 +43608,14 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjN0N3pzbXZGOEluRFJ5cVN6ZXpfZ2QzdmtvZllLaDJ4WVJNYk5YZk8xSEhoQVZWOFVvMjgtempwQnU5eVNLREFtM3ZMQmNVTG5WSFFuSVVaQ0pXaDh5b2FzbVk1YTlaWTlfNHZPSTNmdmg0Ym9oOU9STDhaVVpZYWg3ZmxpSU04M2ZvNXE0S041bVhWZTMtdXdnQkItdk9BYlVlbTEwNlFwOFXSAbMBQVVfeXFMTTd4OHR1amkwRHZ0NUtzUTlfVU1rTEVpeGQ0ZHRNQ1d3QWJTMDZMZ25JZHJrZ0xwQ055WkloTjhROHJkOF95ajRsbVhTRDNIXy1JVVJoeGdqV29VVnFjN1Zta2pIcF9LU0VpajJyS1dMcHlzbFpHM1N3d0VqMFhFcjBpZFdFVkpKczlxdm5pRnAzLWRwNGpXZkRuUE1uUGJGX3FjZ3FHMVlUTjZrZ0s0M2xDdWM?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FWGNQWkdobVB5X0hiblZNSUtjNER6NlV6ZDBQeW5Pc2xPQl9pZGlFXzE4cDRsdmdlcFd5VFhFekxEckk5Uk1nVXpkMm1DSTRlYnc5Zlc3V1JxUzd4b3dzZ1ZLZnVCdldLYlQ5bmx0X3ExZlJtaGgtYm9YZTNTUQ?oc=5"
    }
   ],
   "impacts": [
@@ -43934,7 +43639,22 @@
     "price_at_alert": 518.9
    }
   ],
-  "id": "3c798de863e4"
+  "id": "3c798de863e4",
+  "updates": [
+   {
+    "ts": 1794891424,
+    "time": "2026-11-17T04:57Z",
+    "severity": 5,
+    "summary": "מדינת קליפורניה הגישה תביעה נגד OpenAI בטענה למעורבות במתקפת סייבר על פלטפורמת Hugging Face.",
+    "i18n": {
+     "he": "מדינת קליפורניה הגישה תביעה נגד OpenAI בטענה למעורבות במתקפת סייבר על פלטפורמת Hugging Face.",
+     "en": "The state of California has filed a lawsuit against OpenAI, alleging involvement in a cyberattack on the Hugging Face platform.",
+     "ar": "رفعت ولاية كاليفورنيا دعوى قضائية ضد OpenAI، بدعوى التورط في هجوم إلكتروني على منصة Hugging Face.",
+     "ru": "Штат Калифорния подал иск против OpenAI, утверждая о причастности к кибератаке на платформу Hugging Face."
+    }
+   }
+  ],
+  "last_update": 1794891424
  },
  {
   "ts": 1794858871,
@@ -45451,6 +45171,18 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTl5RWVWNzJOd1BBVC1RZmR6aHBLUFZTaEtvZkFYVEtzV2N4c01TS05Oek15M2U2NS1lZk5MQkI4QU8zSm9va1JlU213c0dwS3doMXJ6N1RSZVA3OWUzbVI3Vk16MGtobTRKVTNQRFJrMTRvQVlNTzFRY2Z3dG82MWRGb21pNjF0djB0VjFGVVplRE9IRVNoY2ZtQjVkRkk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42RjBkOWJ0NzRGLUJMR2RIMGc5YnNXMlVDVURfTVdKelFLdEtoM3czaklWd2RsMjJTNVg0MS04SlZsa2pQQXluSG4yVWJJZjRoeWc?oc=5"
    }
   ],
   "impacts": [
@@ -45491,9 +45223,43 @@
      "ru": "Exxon Mobil"
     },
     "price_at_alert": 166.87
+   },
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1794891424,
+    "reason": "עלייה במחירי הדלק הסילוני",
+    "reason_i18n": {
+     "he": "עלייה במחירי הדלק הסילוני",
+     "en": "Rising jet fuel costs",
+     "ar": "ارتفاع تكاليف وقود الطائرات",
+     "ru": "Рост цен на авиатопливо"
+    },
+    "name_i18n": {
+     "he": "קרן תעופה",
+     "en": "Airline ETF",
+     "ar": "صندوق شركات الطيران",
+     "ru": "Авиационный ETF"
+    },
+    "price_at_alert": 29.02
    }
   ],
-  "id": "971ea2049d3e"
+  "id": "971ea2049d3e",
+  "updates": [
+   {
+    "ts": 1794891424,
+    "time": "2026-11-17T04:57Z",
+    "severity": 7,
+    "summary": "נושאת מטוסים אמריקאית שלישית הגיעה למפרץ הפרסי על רקע תקיפת מכלית נפט ליד עומאן וקריאות מצד גורמים איראניים לשבור את המצור האמריקאי.",
+    "i18n": {
+     "he": "נושאת מטוסים אמריקאית שלישית הגיעה למפרץ הפרסי על רקע תקיפת מכלית נפט ליד עומאן וקריאות מצד גורמים איראניים לשבור את המצור האמריקאי.",
+     "en": "A third US aircraft carrier has arrived in the Gulf amid reports of a tanker attack near Oman and calls from Iranian hardliners to break the US blockade.",
+     "ar": "وصلت حاملة طائرات أمريكية ثالثة إلى الخليج وسط تقارير عن هجوم على ناقلة نفط بالقرب من عمان ودعوات من متشددين إيرانيين لكسر الحصار الأمريكي.",
+     "ru": "Третий авианосец США прибыл в Персидский залив на фоне сообщений о нападении на танкер у берегов Омана и призывов иранских радикалов прорвать блокаду США."
+    }
+   }
+  ],
+  "last_update": 1794891424
  },
  {
   "ts": 1794887738,
@@ -45571,5 +45337,133 @@
    }
   ],
   "id": "44232d854199"
+ },
+ {
+  "ts": 1794891424,
+  "time": "2026-11-17T04:57Z",
+  "title": "רוסיה תוקפת גשרים בקייב",
+  "summary": "רוסיה ביצעה תקיפות טילים על גשרים מרכזיים בקייב, מה שמעלה את החשש להסלמה נוספת במלחמה באוקראינה.",
+  "kid": "רוסיה פגעה בגשרים חשובים באוקראינה. זה מגביר את חוסר הוודאות בשווקים העולמיים ומשפיע על מחירי סחורות.",
+  "i18n": {
+   "title": {
+    "he": "רוסיה תוקפת גשרים בקייב",
+    "en": "Russia strikes bridges in Kyiv",
+    "ar": "روسيا تضرب جسوراً في كييف",
+    "ru": "Россия наносит удары по мостам в Киеве"
+   },
+   "summary": {
+    "he": "רוסיה ביצעה תקיפות טילים על גשרים מרכזיים בקייב, מה שמעלה את החשש להסלמה נוספת במלחמה באוקראינה.",
+    "en": "Russia launched missile strikes on major bridges in Kyiv, raising concerns about further escalation in the Ukraine war.",
+    "ar": "شنت روسيا ضربات صاروخية على جسور رئيسية في كييف، مما يثير مخاوف من مزيد من التصعيد في حرب أوكرانيا.",
+    "ru": "Россия нанесла ракетные удары по крупным мостам в Киеве, что вызывает опасения по поводу дальнейшей эскалации войны в Украине."
+   },
+   "kid": {
+    "he": "רוסיה פגעה בגשרים חשובים באוקראינה. זה מגביר את חוסר הוודאות בשווקים העולמיים ומשפיע על מחירי סחורות.",
+    "en": "Russia hit important bridges in Ukraine. This increases uncertainty in global markets and affects commodity prices.",
+    "ar": "ضربت روسيا جسوراً مهمة في أوكرانيا. هذا يزيد من عدم اليقين في الأسواق العالمية ويؤثر على أسعار السلع.",
+    "ru": "Россия нанесла удары по важным мостам в Украине. Это усиливает неопределенность на мировых рынках и влияет на цены на сырье."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZWo3aGtkRjV3SHlYWEpLOFdKbFBNcy15dzBWTF90dzd1bjdmVS05M2JuVDZBSW5ZNkg1SUhBeVgwZzN1eXIydG1uVlp4enhRNl9qNUJqWXItWU1DckJNUFo3ZTU4QWV2Sm0yZU1IWUZWRFNoSGEzLWxBTkkybTlTRXpldDdDVVk3bFE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNakNTVXQ2Rm9vWEcxTV9RNkJONXF0cHdObkRTTnlidmJaVnp6cy1oTnl6cnhNaDRvZ0FKSGdSUHF5LXk0S0dkd3htQlpYbU41U0FqRmNHRkJ6U2k2TklNTGFKRHNUN3ptSF9hM3ByZ2Z1OWtxQUxtSm1UTmpNYVJiOQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2x2eDVRWllNeG5SelE2ajFkTWNFVXNrZkxsSEVtZDhfNGNVWVVCeDRueEM4QjJtNUdFM05KS1QweUJDVU00OVZpWGFhbkhNUUZCZHJnRkRSWjZYY3FDejNJVk94NUJGUzJrWnRzZ2pteC0za25CSUxsMFM2Y1RuWjdxNWE1NDdLZk9sUnZzZ1ZsUUx3Skt5SUtGUDVFRmZKQjdTcWRjVU9oTzdP?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSRU00UVItWVBVOXhnT1ozc2E0NXk5V3VNTlN4eERVeGVRRlJKc3dHLUMxbTRISm5RbEhoeEJUdEhCbldiU0txRExramJVWF9OcVdIV3dBOEo3czA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GLD",
+    "direction": "up",
+    "t0": 1794891424,
+    "reason": "ביקוש לחוף מבטחים בזמן מלחמה",
+    "reason_i18n": {
+     "he": "ביקוש לחוף מבטחים בזמן מלחמה",
+     "en": "Safe-haven demand during war",
+     "ar": "الطلب على الملاذ الآمن أثناء الحرب",
+     "ru": "Спрос на безопасные активы во время войны"
+    },
+    "name_i18n": {
+     "he": "זהב",
+     "en": "Gold",
+     "ar": "الذهب",
+     "ru": "Золото"
+    },
+    "price_at_alert": 352.93
+   }
+  ],
+  "id": "bb880aa5eb34"
+ },
+ {
+  "ts": 1794891424,
+  "time": "2026-11-17T04:57Z",
+  "title": "אקסון מוביל מאשרת פרויקט גז בגיאנה",
+  "summary": "אקסון מוביל אישרה את פיתוח פרויקט הגז והקונדנסט 'לונגטייל' מול חופי גיאנה.",
+  "kid": "חברת הנפט אקסון מוביל מתחילה פרויקט חדש להפקת גז. זה סימן טוב לצמיחה של החברה.",
+  "i18n": {
+   "title": {
+    "he": "אקסון מוביל מאשרת פרויקט גז בגיאנה",
+    "en": "ExxonMobil sanctions Longtail gas project in Guyana",
+    "ar": "إكسون موبيل توافق على مشروع غاز في غيانا",
+    "ru": "ExxonMobil санкционирует газовый проект в Гайане"
+   },
+   "summary": {
+    "he": "אקסון מוביל אישרה את פיתוח פרויקט הגז והקונדנסט 'לונגטייל' מול חופי גיאנה.",
+    "en": "ExxonMobil has sanctioned the development of the Longtail gas and condensate project offshore Guyana.",
+    "ar": "وافقت إكسون موبيل على تطوير مشروع الغاز والمكثفات 'لونغ تيل' قبالة سواحل غيانا.",
+    "ru": "ExxonMobil санкционировала разработку газового и конденсатного проекта Longtail у берегов Гайаны."
+   },
+   "kid": {
+    "he": "חברת הנפט אקסון מוביל מתחילה פרויקט חדש להפקת גז. זה סימן טוב לצמיחה של החברה.",
+    "en": "Oil company ExxonMobil is starting a new project to produce gas. This is a good sign for the company's growth.",
+    "ar": "بدأت شركة النفط إكسون موبيل مشروعاً جديداً لإنتاج الغاز. هذه علامة جيدة لنمو الشركة.",
+    "ru": "Нефтяная компания ExxonMobil начинает новый проект по добыче газа. Это хороший знак для роста компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTnlWVWRUa1Y1RTVfdlNEZFF2NWJkcW9XZWpYbTB0cHZkbXQxeVItV2xYM2t6T09VZE1pR01nUm9qeWpuaHhkYmRkLWwwVnd5NXIwYkZFakN1Uzl6LUFEZDA4UlFUMEEtUFp6akQ4SVZoYXA4eXBWZ1VZSVF1VHdwdVJWTkhBclVrVGd3RGI4OFEzcTJJOWloWE5HNHRqUzVNXzZ3NnhVMmp4UV9keFZiQ2dlY19pWGdHekc3V1JOR3A2NjlxNDRQbGFSbjFkanpBVzNacEhfN3JmZF80?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794891424,
+    "reason": "הרחבת פעילות הפקה",
+    "reason_i18n": {
+     "he": "הרחבת פעילות הפקה",
+     "en": "Expansion of production operations",
+     "ar": "توسيع عمليات الإنتاج",
+     "ru": "Расширение производственных операций"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "ExxonMobil",
+     "ar": "إكسون موبيل",
+     "ru": "ExxonMobil"
+    },
+    "price_at_alert": 166.87
+   }
+  ],
+  "id": "82184ad655c2"
  }
 ]
