@@ -938,129 +938,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794254055,
-  "time": "2026-11-09T19:54Z",
-  "title": "מחירי הנחושת מתאוששים לאחר השבוע הגרעני ומאבק הרכש בסין",
-  "summary": "מחירי הנחושת רשמו זינוק התאוששות לאחר השבוע הגרוע ביותר מאז חודש מרץ, על רקע ביקוש מוגבר ומירוץ רכש של מתכות בסין.",
-  "kid": "מחיר הנחושת עלה בחזרה אחרי ירידות חזקות, כי סין קונה הרבה מתכות לבנייה ותעשייה.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הנחושת מתאוששים לאחר השבוע הגרעני ומאבק הרכש בסין",
-    "en": "Copper Prices Bounce After Worst Week Since March Amid Scramble in China",
-    "ar": "أسعار النحاس تتعافى بعد أسوأ أسبوع منذ مارس وسط مساعي الشراء في الصين",
-    "ru": "Цены на медь восстанавливаются после худшей недели с марта на фоне спроса в Китае"
-   },
-   "summary": {
-    "he": "מחירי הנחושת רשמו זינוק התאוששות לאחר השבוע הגרוע ביותר מאז חודש מרץ, על רקע ביקוש מוגבר ומירוץ רכש של מתכות בסין.",
-    "en": "Copper prices bounced back following their worst week since March, driven by an intensified scramble for industrial metal supplies in China.",
-    "ar": "ارتفعت أسعار النحاس بعد أسوأ أسبوع لها منذ مارس، مدفوعة بمسابقة محمومة للحصول على إمدادات المعادن في الصين.",
-    "ru": "Цены на медь отскочили после худшей недели с марта на фоне активного спроса на металлы в Китае."
-   },
-   "kid": {
-    "he": "מחיר הנחושת עלה בחזרה אחרי ירידות חזקות, כי סין קונה הרבה מתכות לבנייה ותעשייה.",
-    "en": "Copper prices went back up after sharp drops because China is buying a lot of metal for construction and industry.",
-    "ar": "ارتفعت أسعار النحاس مرة أخرى بعد انخفاضات حادة لأن الصين تشتري الكثير من المعادن للبناء والصناعة.",
-    "ru": "Цены на медь выросли после резкого падения, так как Китай скупает много металла для промышленности."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEszMzZGbFVOdlNTYUZLcHhkUzNYQmVGMFJJdTVXYlNzMDcxdjhmM0JHUEpCejdtOTBWSXlzei1VRk9WWXZ0U0J3Ylo1QnBBNGYzVWpwaUhSeGxWZGJtWm02OHdPb3djZ2VxQUNQYzJhS21TbHF2V2JsLVliRzdQRmluY25CWEpoWml0QjM4VlF4T21XVGd0dGgzcER2RDVrcS0xU3BwMzIxQQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbUZmN2JjRnRISXNlbE53c1pkdUVQenFsQTRSZmNLaFBlN3NqN2Zuc0xTbGl4aW5meU9YUWVxMVNlR1FBRy1ydUVwV1JvWmhOYjVXM0o1UkNNLWtGa3RGeDgzenRYV3J4UmphT3ExcTljTXFOR3g5UUQ0WkJOcnBCWnVBNWJPc3ZHWnF2ZDlfSHlmYnJBV3ZWU082MEkwbk1GZThHcWhyMmx0R28?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0wdzZ2VEt0eld6UTNEaXE3aFEweWRTVWZfejBJcE9RaW9IUm5RMW05OHZTR0NNRTVIMF8yc3pPQWhuc1ZFaGU5MktTUVZDdjJm?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1794254055,
-    "reason": "התאוששות במחיר הנחושת משפרת את הרווחיות הצפויה של חברות הכרייה הגדולות.",
-    "reason_i18n": {
-     "he": "התאוששות במחיר הנחושת משפרת את הרווחיות הצפויה של חברות הכרייה הגדולות.",
-     "en": "Recovery in copper prices improves expected profitability for major mining companies.",
-     "ar": "تعافي أسعار النحاس يحسن الربحية المتوقعة لشركات التعدين الكبرى.",
-     "ru": "Восстановление цен на медь улучшает ожидаемую прибыльность крупных горнодобывающих компаний."
-    },
-    "name_i18n": {
-     "he": "פריפורט-מקמוראן - חברת כרייה",
-     "en": "Freeport-McMoRan – miner",
-     "ar": "فريبورت-مكموران - شركة تعدين",
-     "ru": "Freeport-McMoRan — горнодобывающая компания"
-    },
-    "price_at_alert": 62.91,
-    "entry_price": 63.04,
-    "entry_time": "2026-11-09T20:30+00:00",
-    "exit_price": 60.3,
-    "exit_date": "2026-11-10",
-    "change_pct": -4.35,
-    "bench": "SPY",
-    "bench_change_pct": -0.69,
-    "excess_pct": -3.66,
-    "edge_pct": -3.66,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1794254055,
-    "reason": "ביקוש חזק למתכות תומך בעליית קרנות העוקבות אחר מחירי הנחושת.",
-    "reason_i18n": {
-     "he": "ביקוש חזק למתכות תומך בעליית קרנות העוקבות אחר מחירי הנחושת.",
-     "en": "Strong demand for metals supports gains in funds tracking copper prices.",
-     "ar": "الطلب القوي على المعادن يدعم المكاسب في الصناديق التي تتبع أسعار النحاس.",
-     "ru": "Высокий спрос на металлы поддерживает рост фондов, отслеживающих цены на медь."
-    },
-    "name_i18n": {
-     "he": "קרן סל נחושת - CPER",
-     "en": "CPER – copper fund ETF",
-     "ar": "CPER - صندوق النحاس",
-     "ru": "CPER — ETF фонда меди"
-    },
-    "price_at_alert": 38.375,
-    "entry_price": 38.44,
-    "entry_time": "2026-11-09T20:30+00:00",
-    "exit_price": 37.745,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.81,
-    "bench": "SPY",
-    "bench_change_pct": -0.69,
-    "excess_pct": -1.12,
-    "edge_pct": -1.12,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "00408cc913ff",
-  "updates": [
-   {
-    "ts": 1794288439,
-    "time": "2026-11-10T05:27Z",
-    "severity": 4,
-    "summary": "מחירי הנחושת מתאוששים על רקע ביקוש גובר מצד קונים בסין וחידוש העליות במניות הטכנולוגיה, בזמן שוול סטריט מקטינה את פפוזיציות הלונג שלה.",
-    "i18n": {
-     "he": "מחירי הנחושת מתאוששים על רקע ביקוש גובר מצד קונים בסין וחידוש העליות במניות הטכנולוגיה, בזמן שוול סטריט מקטינה את פפוזיציות הלונג שלה.",
-     "en": "Copper prices are extending their rebound as Chinese buyers snap up spot supply and global tech stocks rally, while Wall Street reduces long positions.",
-     "ar": "أسعار النحاس تواصل انتعاشها مع إقبال المشترين الصينيين على السوق الفوري وارتفاع الأسهم التقنية، بينما تخفض وول ستريت مراكز الشراء.",
-     "ru": "Цены на медь продолжают восстанавливаться на фоне скупки спотовых поставок китайскими покупателями и ралли в техсекторе, в то время как Уолл-стрит сокращает длинные позиции."
-    }
-   }
-  ],
-  "last_update": 1794288439,
-  "evaluated": true
- },
- {
   "ts": 1794260851,
   "time": "2026-11-09T21:47Z",
   "title": "מתקפת סייבר על אוניברסיטת ונדרבילט ומקררים בצרפת",
@@ -2261,246 +2138,6 @@
    }
   ],
   "last_update": 1794303507,
-  "evaluated": true
- },
- {
-  "ts": 1794288439,
-  "time": "2026-11-10T05:27Z",
-  "title": "פינלנד תרכוש מערכת נגד טנקים מתוצרת רפאל",
-  "summary": "פינלנד החליטה לרכוש נגזרת של טיל נגד טנקים מסוג מטדור מתוצרת חברת רפאל הישראלית.",
-  "kid": "מדינה אירופית קונה טילי נגד טנקים שפותחו בחברה ישראלית שעובדת עם חברות אמריקאיות גדולות כמו RTX. זה טוב לחברות הביטחוניות.",
-  "i18n": {
-   "title": {
-    "he": "פינלנד תרכוש מערכת נגד טנקים מתוצרת רפאל",
-    "en": "Finland to Buy Anti-Tank Missile Derivative from Rafael",
-    "ar": "فنلندا ستشتري مشتقاً من صواريخ רפאל المضادة للدبابات",
-    "ru": "Финляндия купит производное противотанковой ракеты от Rafael"
-   },
-   "summary": {
-    "he": "פינלנד החליטה לרכוש נגזרת של טיל נגד טנקים מסוג מטדור מתוצרת חברת רפאל הישראלית.",
-    "en": "Finland is set to purchase a derivative of the Matador anti-tank missile produced by Israel's state-owned Rafael.",
-    "ar": "فنلندا ستشتري نسخة من صاروخ ماتادور المضاد للدبابات من إنتاج شركة رافائيل الإسرائيلية.",
-    "ru": "Финляндия намерена приобрести вариант противотанковой ракеты Matador производства израильской компании Rafael."
-   },
-   "kid": {
-    "he": "מדינה אירופית קונה טילי נגד טנקים שפותחו בחברה ישראלית שעובדת עם חברות אמריקאיות גדולות כמו RTX. זה טוב לחברות הביטחוניות.",
-    "en": "A European country is buying anti-tank missiles tied to an Israeli defense firm that works with US giants like RTX, which can help defense stocks.",
-    "ar": "دولة أوروبية تشتري صواريخ من شركة إسرائيلية تتعاون مع شركات أمريكية كبرى مثل RTX.",
-    "ru": "Европейская страна покупает противотанковые ракеты, связанные с израильской оборонной фирмой, сотрудничающей с США."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlEtNVlDYXdRY2xvYmlvWmRtUHo3UURnNTZwUEJGTUY1NXl6NWdXZmpXRXVpSDFtM0pDSlQyd0V0R0JfVEgtV21OYUZZUXc1ZVdrYXNtVzl1b25wejZ2WGsyVlczejJIZDFXQUQ0dXByalB5RXBrM0R2bXBremg3NzBOQWZuRmhXN3FhS3NCY3pzR1kwbXd3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794288439,
-    "reason": "רפאל משתפת פעולה עם RTX בייצור מערכות הגנה משותפות.",
-    "reason_i18n": {
-     "he": "רפאל משתפת פעולה עם RTX בייצור מערכות הגנה משותפות.",
-     "en": "Rafael co-produces defense systems with RTX.",
-     "ar": "تتعاون رافائيل مع RTX في إنتاج أنظمة دفاعية مشتركة.",
-     "ru": "Rafael совместно с RTX производит оборонные системы."
-    },
-    "name_i18n": {
-     "he": "אר.טי.איקס - ענקית תעופה וביטחון",
-     "en": "RTX – a major aerospace and defense contractor",
-     "ar": "آر تي إكس - مقاول دفاعي جوي رئيسي",
-     "ru": "RTX – крупный оборонный подрядчик"
-    },
-    "price_at_alert": 196.31,
-    "entry_price": 197.38,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 201.33,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.0,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 0.41,
-    "edge_pct": 0.41,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794288439,
-    "reason": "עסקאות ביטחוניות בינלאומיות מחזקות את סקטור הביטחון.",
-    "reason_i18n": {
-     "he": "עסקאות ביטחוניות בינלאומיות מחזקות את סקטור הביטחון.",
-     "en": "International defense deals strengthen the defense sector.",
-     "ar": "الصفقات الدفاعية الدولية تعزز قطاع الدفاع.",
-     "ru": "Международные оборонные сделки укрепляют сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון אמריקאית",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-     "ru": "ETF на аэрокосмическую и оборонную промышленность США"
-    },
-    "price_at_alert": 71.67,
-    "entry_price": 71.01,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 73.27,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.18,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.59,
-    "edge_pct": 1.59,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "37d453fa4793",
-  "evaluated": true
- },
- {
-  "ts": 1794288439,
-  "time": "2026-11-10T05:27Z",
-  "title": "NHPC ההודית מזמינה פרויקטי אחסון אנרגיה סולארית",
-  "summary": "חברת האנרגיה ההודית NHPC פרסמה מכרז לפרויקטי אגירת אנרגיה בסוללות (BESS) בהספק של 800 מגה-וואט המקושרים לפארק סולארי של 1,200 מגה-וואט.",
-  "kid": "הודו יוצאת למכרז ענק לאגירת אנרגיה סולארית. זה עשוי לעזור לחברות בתחום האנרגיה הירוקה.",
-  "i18n": {
-   "title": {
-    "he": "NHPC ההודית מזמינה פרויקטי אחסון אנרגיה סולארית",
-    "en": "India's NHPC Invites Bids for Large BESS Solar Projects",
-    "ar": "شركة NHPC الهندية تدعو لتقديم عطاءات لمشاريع طاقة شمسية وتخزين",
-    "ru": "Индийская NHPC объявляет тендер на крупные проекты солнечной энергетики и хранения энергии"
-   },
-   "summary": {
-    "he": "חברת האנרגיה ההודית NHPC פרסמה מכרז לפרויקטי אגירת אנרגיה בסוללות (BESS) בהספק של 800 מגה-וואט המקושרים לפארק סולארי של 1,200 מגה-וואט.",
-    "en": "India's NHPC has invited bids for 800 MW BESS projects linked to a 1,200 MW solar park in Uttar Pradesh.",
-    "ar": "دعت شركة الطاقة الهندية NHPC لتقديم عطاءات لمشاريع تخزين طاقة بقدرة 800 ميجاوات مرتبطة بحديقة شمسية.",
-    "ru": "Индийская энергетическая компания NHPC объявила тендер на проекты накопителей энергии мощностью 800 МВт."
-   },
-   "kid": {
-    "he": "הודו יוצאת למכרז ענק לאגירת אנרגיה סולארית. זה עשוי לעזור לחברות בתחום האנרגיה הירוקה.",
-    "en": "India is launching a huge clean energy storage tender, which can benefit green energy and battery stocks.",
-    "ar": "تطلق الهند مناقصة ضخمة لتخزين الطاقة النظيفة، مما يفيد أسهم الطاقة الخضراء.",
-    "ru": "Индия запускает крупный тендер на хранение чистой энергии, что может помочь акциям зеленой энергетики."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcUlVOFBUekpiRHViUUxRa19YSVlKQnU4Y0RHdkZTbnpVZ25IbktRVGFIZFRKc2RUSGpoSXdibU9odE9uWXFTSHB1S08zcy1OZ1R0clg2WU5KNXl3dnF3RWduYVNaWkhGS2N0T1pqa0FqUzdOclozdEV4NUhfMEk0SnAxSzhZaUExWEVTVkxMUE9GdUptajZZWU8xZWlXWVZsUFVIVW4tRnFWQjlXS2hGVmRwdmFrdmwzXzU3TkZuNjRkVl8yeXNxVXBINk8?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ICLN",
-    "direction": "up",
-    "t0": 1794288439,
-    "reason": "יוזמות אנרגיה סולארית ואגירת אנרגיה גדולות תומכות בסקטור.",
-    "reason_i18n": {
-     "he": "יוזמות אנרגיה סולארית ואגירת אנרגיה גדולות תומכות בסקטור.",
-     "en": "Large solar and storage initiatives support the sector.",
-     "ar": "مبادرات الطاقة الشمسية الكبيرة تدعم القطاع.",
-     "ru": "Крупные инициативы в сфере солнечной энергетики поддерживают сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל אנרגיה נקייה",
-     "en": "Clean Energy ETF",
-     "ar": "صندوق الاستثمار المتداول للطاقة النظيفة",
-     "ru": "ETF чистой энергетики"
-    },
-    "price_at_alert": 16.61,
-    "entry_price": 16.4,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 16.285,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.7,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -2.29,
-    "edge_pct": -2.29,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "4adab2eac97b",
-  "evaluated": true
- },
- {
-  "ts": 1794288439,
-  "time": "2026-11-10T05:27Z",
-  "title": "קיידנס חושפת את פלטפורמת העיצוב OrCAD Xplore",
-  "summary": "חברת קיידנס השקתה פלטפורמת עיצוב חדשה בשם OrCAD Xplore המאחדת עיצוב רכיבים מודיעיניים ורכש להאיץ פיתוח אלקטרוניקה.",
-  "kid": "חברת תוכנה גדולה הוציאה כלי חדש לעיצוב שבבים ומערכות אלקטרוניות שיעזור לעבוד מהר יותר. זה עשוי לעניין משקיעי טכנולוגיה.",
-  "i18n": {
-   "title": {
-    "he": "קיידנס חושפת את פלטפורמת העיצוב OrCAD Xplore",
-    "en": "Cadence Unveils OrCAD Xplore Design Platform",
-    "ar": "كادينس تكشف النقاب عن منصة التصميم OrCAD Xplore",
-    "ru": "Cadence представляет платформу проектирования OrCAD Xplore"
-   },
-   "summary": {
-    "he": "חברת קיידנס השקתה פלטפורמת עיצוב חדשה בשם OrCAD Xplore המאחדת עיצוב רכיבים מודיעיניים ורכש להאיץ פיתוח אלקטרוניקה.",
-    "en": "Cadence has introduced the OrCAD Xplore design platform, unifying design, component intelligence, and procurement to accelerate electronics system development.",
-    "ar": "أطلقت كادينس منصة التصميم OrCAD Xplore لتوحيد التصميم وذكاء المكونات والمشتريات.",
-    "ru": "Компания Cadence представила платформу проектирования OrCAD Xplore, объединяющую проектирование и закупки."
-   },
-   "kid": {
-    "he": "חברת תוכנה גדולה הוציאה כלי חדש לעיצוב שבבים ומערכות אלקטרוניות שיעזור לעבוד מהר יותר. זה עשוי לעניין משקיעי טכנולוגיה.",
-    "en": "A major software company released a new tool for designing microchips and electronics faster, which can interest tech investors.",
-    "ar": "أطلقت شركة برمجيات كبرى أداة جديدة لتصميم الرقائق والإلكترونيات بشكل أسرع.",
-    "ru": "Крупная софтверная компания выпустила новый инструмент для ускорения проектирования чипов и электроники."
-   }
-  },
-  "category": "contracts",
-  "severity": 2,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU011andsbFY4b053Tm5lbGZhd1pkX21SeFRwZGkwYkQ3SkIzdG1NV0FTRFZNdXcteWVRZXU5WURXVmMteDBOR3AyelVvaVhudG0tNXZSVktvYThXQTZ5VXhnRnJjWW5VREFXTWRWaGNFbXFDM29NUFlrQk4tZ2Q4REl6UXgtektPRWsyU1VzTUt2SkI1WlVkUjJ6RFp1QQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1794288439,
-    "reason": "חדשנות תוכנתית לעיצוב שבבים תומכת ביעילות סקטור הטכנולוגיה.",
-    "reason_i18n": {
-     "he": "חדשנות תוכנתית לעיצוב שבבים תומכת ביעילות סקטור הטכנולוגיה.",
-     "en": "Software innovation for chip design supports tech sector efficiency.",
-     "ar": "ابتكار البرمجيات لتصميم الرقائق يدعم كفاءة قطاع التكنولوجيا.",
-     "ru": "Инновации в разработке чипов поддерживают эффективность сектора."
-    },
-    "name_i18n": {
-     "he": "סקטור הטכנולוגיה",
-     "en": "Technology Select Sector SPDR Fund",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 170.88,
-    "entry_price": 168.68,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 174.39,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.39,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.8,
-    "edge_pct": 1.8,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "007116841b8b",
   "evaluated": true
  },
  {
@@ -44487,19 +44124,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXZlM2lOcm5XUHFFbFQ5ZFNqNTJFR2R5U0NlZkNST29hNndpQzdfWlRSMmFRLVZ4aldQenZfWkczYXJVazNrcjl0ZnByZDBzLU1BbWVFaDJfdExTbTlCZF80Z19rWjNjM1MzQ1JsWXNlQThSa3JVZzNqR3JrczhYOWcyYTJ5dkpUWUJ3SVpaNTVHUkQ3Z1dmV0RVdHlGT1V0?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSE5UYzBFaElLNFJ1bGtzVERNMEtYOTBEeFVDRGlPVm05eDBrS2ZZVjhiUHA4RVB4UlBXWWsxcExYcDJCZlVqVzJGVlJIVzBGMVYxLWxBakx1SFlUUENKeXE3Zjl5QkZDQzJKUGZ0UHdHQXp5M3U1dTJRUlF4OVFNeTlWRmlhcVJkb3YxR1hfU21RREtuUWFDYWlIWDdEYkpkVDB5TUJn?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbGxzSlNnTFFaM0ppX1J1TGxnMmpaNURKVkNJOE1pRnZ3MmRJMkNtaUFqRmpfN1JhYjF1aFhISExtN2pOUng4d0hhdHcwdHpfX0FLX285d2E2SmhXcldKUFUydnkxb3FGc1k0NldSeXRUamhfRVpHbWdTZXRHVGZpTFBaVV81UEJVaWFBdDRzSklvTEMteU1qR1l4Q1ZiMDJKNWhaZnZhZEt1TFJiMndr?oc=5"
    },
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSnFMZUhJSHRXU1E5eXIyQUsxZElwS1Z0SU1JQWZZSUU3X1JUby0yQjJ2Q3hibVRVbHJMVm1XVmpPeklBMkU1UlVHUVBzdkNmd2I3bUVpblBNN2UyRkFJWkdXSmxUMFh5WTFIQ2JpeGpURTBwS241bWV1U0tvNV9pa2VIMmh0TVJTWGFCVHpEUW56cHJIWjFuS19XSTB0TXNHeWRiSF9peTJGWWZhNFU0M2MyN01YTTdHMkF0clhZaGlzUkk?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5RWJhejZtelNfZWE1VTFPNzF1SWJSZzBKdk91VXgzUGlERUpmVGxLcXhlWWFubEx0YWktR2x3b3BYWTJVeXAzc2RhWVZrQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmVOSWJtRWtaTXdCXzNNLUdJbllkMlU5cWxWbG1hMEZJVUtBYkxrc3VjbUw4U2tVMjJiNUhtMzZsMkVVc2RybHd5ekVrc1NKR1NRTlg1UEFtdE9sV0RjQUYxTE80Q09mZ3Y1VmxYVTJJcTF1NEd3b2toamJXVjJQcDRKU0lOS2tSVTF4OW11SzU2c0R00gGaAUFVX3lxTE5HbXNzUmMwRVFXU0IyS1dfdkw5M3BOa0lxTWloS1A0NV9OMmROa0czWFA4NWQxWm1qQWx6eTRqTWlUZkJRZngwOTlKS2l0cG5mZno5N3NiOUNieGJpa3UzLWNXTlRoTTlIRktHcnd4TEM1ZjZnRk5IdDlucEFibm12c1FQUUVyeDNzTDZQV05LaWFaanRJeG1BbXc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmRoUnBtamhBaTNUdjlzdXpsQ0c4WnJCNDZ1bE54UjE3aW8xLWx4X1BwbEtJRUtRWmZ5WDNKNm1Pd3MxaUNkYktUTzRlRTEwQnE4SldiTVlPaW40LTRpREQtd203aG5MUWN5RktYSnlaVjZaZnFoOGRDRnloMzViRl9NQTBTalQ5RXRncC1YUWxLa2xvT1dHT1Z0ck1ya2xKSjBQLThiRjhsVEU?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjJHeFRvdE9EM2JOSm9XMTkzLXVSQ292bHdiLVVDU2RfTkU0Z29FSmJLVHpacVBsYzRKSHJVVzMxNUVnanlzbU04NjBBWVlCSVJlbVp3VGpOckJjX1lxWGFfdE1fSDJOdXlCd01ORzhQZFBwek5DSTF5Y1FrRUFwOUpZZHM3T3hQZXRTMTVpZFI4dm1iSF9RZ1laYmxkYTZMMXZhSE1KT3htc0Q0WThLNGtnVGZWMWZnQ2dDTWRJenpvQQ?oc=5"
    }
   ],
   "impacts": [
@@ -44540,9 +44185,43 @@
      "ru": "ETF на евро"
     },
     "price_at_alert": 101.48
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794895078,
+    "reason": "עליית תשואות עקב ריבית גבוהה",
+    "reason_i18n": {
+     "he": "עליית תשואות עקב ריבית גבוהה",
+     "en": "Rising yields due to high interest rates",
+     "ar": "ارتفاع العوائد بسبب أسعار الفائدة المرتفعة",
+     "ru": "Рост доходности из-за высоких процентных ставок"
+    },
+    "name_i18n": {
+     "he": "אג\"ח ממשלתי ארוך",
+     "en": "Long-term Treasury Bonds",
+     "ar": "سندات الخزانة طويلة الأجل",
+     "ru": "Долгосрочные казначейские облигации"
+    },
+    "price_at_alert": 79.38
    }
   ],
-  "id": "e75443a7428e"
+  "id": "e75443a7428e",
+  "updates": [
+   {
+    "ts": 1794895078,
+    "time": "2026-11-17T05:57Z",
+    "severity": 6,
+    "summary": "הדולר הגיע לשיא של 19 חודשים על רקע הימורים להעלאות ריבית נוספות על ידי הפדרל ריזרב.",
+    "i18n": {
+     "he": "הדולר הגיע לשיא של 19 חודשים על רקע הימורים להעלאות ריבית נוספות על ידי הפדרל ריזרב.",
+     "en": "The dollar hit a 19-month peak amid bets on further interest rate hikes by the Federal Reserve.",
+     "ar": "وصل الدولار إلى ذروة 19 شهراً وسط رهانات على المزيد من رفع أسعار الفائدة من قبل الاحتياطي الفيدرالي.",
+     "ru": "Доллар достиг 19-месячного максимума на фоне ставок на дальнейшее повышение процентных ставок Федеральной резервной системой."
+    }
+   }
+  ],
+  "last_update": 1794895078
  },
  {
   "ts": 1794873661,
@@ -45094,6 +44773,14 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal?traffic_source=rss"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSaDBBUU9wX0VMb0lPbGVsVThmTm02OUozVFlTdTlETVNVWXFubGVJeWIyRFhBZDdDM0ZhZGFLaTlNMW5QUENESVRMVzhMaFNJ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN0dfQ2hnazMxaVF5YllfZTBDVFVtS0RpWGg5c01FLXZUcFQ1Ul93TTdWWTVzTDhWTFdrRnJSVm5YaVBUMmEwQmZYMGcxS1EzREhyU2huMXBZeFF5cGs5YVF3QmctS1VuZ1VWSTM4QlMzT3FvS0NjQjdQTXh2Q21XVldxMTNtR1l6Y1gtTHduYktIRmg3U243amRFa0ROMUxXNjRKN3FzWnltaVFieTRBazhDNFJNOGpY?oc=5"
    }
   ],
   "impacts": [
@@ -45136,7 +44823,22 @@
     "price_at_alert": 461.9
    }
   ],
-  "id": "faf1fcebe553"
+  "id": "faf1fcebe553",
+  "updates": [
+   {
+    "ts": 1794895078,
+    "time": "2026-11-17T05:57Z",
+    "severity": 7,
+    "summary": "חברות טכנולוגיה באסיה חוות ירידות חדות בעקבות החמרת בקרת הייצוא האמריקאית על שבבי בינה מלאכותית.",
+    "i18n": {
+     "he": "חברות טכנולוגיה באסיה חוות ירידות חדות בעקבות החמרת בקרת הייצוא האמריקאית על שבבי בינה מלאכותית.",
+     "en": "Asian tech companies are seeing sharp declines following the tightening of US export controls on AI chips.",
+     "ar": "تشهد شركات التكنولوجيا في آسيا انخفاضات حادة في أعقاب تشديد ضوابط التصدير الأمريكية على رقائق الذكاء الاصطناعي.",
+     "ru": "Азиатские технологические компании демонстрируют резкое падение после ужесточения экспортного контроля США над чипами для ИИ."
+    }
+   }
+  ],
+  "last_update": 1794895078
  },
  {
   "ts": 1794887738,
@@ -45183,6 +44885,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42RjBkOWJ0NzRGLUJMR2RIMGc5YnNXMlVDVURfTVdKelFLdEtoM3czaklWd2RsMjJTNVg0MS04SlZsa2pQQXluSG4yVWJJZjRoeWc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSFBZQzZZa0FQd1lCaHY4cmhJbHJpYW40VEpXYTZUTnpwSXJSdjF0WHlKUE1pMXlWcXhibFFzWFlqa1dRaTA4OHBzSHFSVEI1SU9LWWlraUo5XzF5ZkN6b2VVU3Y2eFlDN2JHa09oN19iMmhqUFczS2d6Wk1pSC15MWdUc1BZa3VfdDlTdXR0elVtbkdjMUFOUlJEaUxaZ01jcXN2U1B2R3V2c2plcDVDdWd30gHEAUFVX3lxTFBocmp2REVmQjhEZHlzTVhDMUpZVThnejU5RV9aNFBLcVlfVUlJbHY5VVVENlVrU0hXSXlZVmcxSHVnY1lnRkM2SlpLZlVCamJ2Yk9TN2xDUkJiaDFRdERTM29ibXhDdGpmLTNFWS01RUFWa3EzS19LTHRUZUllWTRWYk9LTUZRbkVpbUNZVHF4dXdTLWNSY0lYUmhoSVFpTVVrQkxXRnFvUGdtOTN1bE9BNFR0alQ0LXNNM0F4NlozdTN3enM?oc=5"
    }
   ],
   "impacts": [
@@ -45242,6 +44948,25 @@
      "ru": "Авиационный ETF"
     },
     "price_at_alert": 29.02
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794895078,
+    "reason": "עלייה צפויה במחירי האנרגיה",
+    "reason_i18n": {
+     "he": "עלייה צפויה במחירי האנרגיה",
+     "en": "Expected rise in energy prices",
+     "ar": "ارتفاع متوقع في أسعار الطاقة",
+     "ru": "Ожидаемый рост цен на энергоносители"
+    },
+    "name_i18n": {
+     "he": "מגזר האנרגיה",
+     "en": "Energy Sector",
+     "ar": "قطاع الطاقة",
+     "ru": "Сектор энергетики"
+    },
+    "price_at_alert": 63.69
    }
   ],
   "id": "971ea2049d3e",
@@ -45257,9 +44982,21 @@
      "ar": "وصلت حاملة طائرات أمريكية ثالثة إلى الخليج وسط تقارير عن هجوم على ناقلة نفط بالقرب من عمان ودعوات من متشددين إيرانيين لكسر الحصار الأمريكي.",
      "ru": "Третий авианосец США прибыл в Персидский залив на фоне сообщений о нападении на танкер у берегов Омана и призывов иранских радикалов прорвать блокаду США."
     }
+   },
+   {
+    "ts": 1794895078,
+    "time": "2026-11-17T05:57Z",
+    "severity": 7,
+    "summary": "מכלית גפ\"מ נפגעה ליד עומאן בזמן שנושאת מטוסים אמריקאית שלישית הגיעה לאזור, מה שמעלה חששות לשיבושים באספקת האנרגיה.",
+    "i18n": {
+     "he": "מכלית גפ\"מ נפגעה ליד עומאן בזמן שנושאת מטוסים אמריקאית שלישית הגיעה לאזור, מה שמעלה חששות לשיבושים באספקת האנרגיה.",
+     "en": "An LPG tanker was struck near Oman as a third US aircraft carrier arrived in the region, stoking fears of energy supply disruptions.",
+     "ar": "تعرضت ناقلة غاز مسال للضرب بالقرب من عمان مع وصول حاملة طائرات أمريكية ثالثة إلى المنطقة، مما أثار مخاوف من اضطرابات في إمدادات الطاقة.",
+     "ru": "Танкер с СУГ был атакован недалеко от Омана, в то время как в регион прибыл третий американский авианосец, что вызвало опасения по поводу перебоев в поставках энергоносителей."
+    }
    }
   ],
-  "last_update": 1794891424
+  "last_update": 1794895078
  },
  {
   "ts": 1794887738,
@@ -45370,10 +45107,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZWo3aGtkRjV3SHlYWEpLOFdKbFBNcy15dzBWTF90dzd1bjdmVS05M2JuVDZBSW5ZNkg1SUhBeVgwZzN1eXIydG1uVlp4enhRNl9qNUJqWXItWU1DckJNUFo3ZTU4QWV2Sm0yZU1IWUZWRFNoSGEzLWxBTkkybTlTRXpldDdDVVk3bFE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNakNTVXQ2Rm9vWEcxTV9RNkJONXF0cHdObkRTTnlidmJaVnp6cy1oTnl6cnhNaDRvZ0FKSGdSUHF5LXk0S0dkd3htQlpYbU41U0FqRmNHRkJ6U2k2TklNTGFKRHNUN3ptSF9hM3ByZ2Z1OWtxQUxtSm1UTmpNYVJiOQ?oc=5"
    },
    {
@@ -45383,6 +45116,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSRU00UVItWVBVOXhnT1ozc2E0NXk5V3VNTlN4eERVeGVRRlJKc3dHLUMxbTRISm5RbEhoeEJUdEhCbldiU0txRExramJVWF9OcVdIV3dBOEo3czA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWFoMVp4RFZwX2NUWS1tOFp2YTJ5c2FRbFZ0QVY2R25fUHQ4SU1QYW95RXlaVjVxc21ocGZiTHF1TE1iVWJTOEN2bERXT0EtczNzdmV4bm5ERi1oUU0tN1RHVVl2NTBUZ2R6dWtGRTVtSkR6aTNYVnNqcVBxWnl4N0c4QUJieU9yZkFtZ3dicTY3YTY0TjdB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUt5UlhzTXN1dHBtSnNSZFNRa3FLNHNXbkJyTVFXbGQ4VlBjSHg3RFNTaXBMYmRia1cyNUM5XzlvNTVnMnRnVVpIc1d1SmJGcDNPamQwcWhqMlRBcjNKZ0R6OUhYdmxBZ244UFpscUVhc0hDUEJMNVd3VWxWd01vdDFnNWthbVd5VjYzdzdnYTIwYmtu?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BalVzNFNIa2F3dldQcWFoczZyWmxQSExsUGoxWFRucjlFRk1oY2N6bUFPWmNtc204VFdqaFc2OFRxNkNqNnVQY0toY2h3cU4tcWozWmdtXzRIUjlGT2lSd0FHY2hwNDhmLTRfcEJxVWpOUGtERHVDVQ?oc=5"
    }
   ],
   "impacts": [
@@ -45404,9 +45149,43 @@
      "ru": "Золото"
     },
     "price_at_alert": 352.93
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794895078,
+    "reason": "הסלמה בלחימה מגבירה את הביקוש לציוד ביטחוני",
+    "reason_i18n": {
+     "he": "הסלמה בלחימה מגבירה את הביקוש לציוד ביטחוני",
+     "en": "Escalation in fighting increases demand for defense equipment",
+     "ar": "تصعيد القتال يزيد الطلب على المعدات الدفاعية",
+     "ru": "Эскалация боевых действий повышает спрос на оборонное оборудование"
+    },
+    "name_i18n": {
+     "he": "מגזר הביטחון",
+     "en": "Defense Sector",
+     "ar": "قطاع الدفاع",
+     "ru": "Оборонный сектор"
+    },
+    "price_at_alert": 69.75
    }
   ],
-  "id": "bb880aa5eb34"
+  "id": "bb880aa5eb34",
+  "updates": [
+   {
+    "ts": 1794895078,
+    "time": "2026-11-17T05:57Z",
+    "severity": 6,
+    "summary": "גשרים בקייב הותקפו בטילים בליסטיים רוסיים, בעוד אוקראינה דיווחה על פגיעה נוספת בגשר קרים.",
+    "i18n": {
+     "he": "גשרים בקייב הותקפו בטילים בליסטיים רוסיים, בעוד אוקראינה דיווחה על פגיעה נוספת בגשר קרים.",
+     "en": "Bridges in Kyiv were hit by Russian ballistic missiles, while Ukraine reported another strike on the Crimean Bridge.",
+     "ar": "تعرضت جسور في كييف لهجمات بصواريخ باليستية روسية، بينما أبلغت أوكرانيا عن ضربة أخرى لجسر القرم.",
+     "ru": "Мосты в Киеве были атакованы российскими баллистическими ракетами, в то время как Украина сообщила об очередном ударе по Крымскому мосту."
+    }
+   }
+  ],
+  "last_update": 1794895078
  },
  {
   "ts": 1794891424,
