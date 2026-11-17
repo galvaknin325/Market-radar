@@ -1,120 +1,5 @@
 [
  {
-  "ts": 1794254055,
-  "time": "2026-11-09T19:54Z",
-  "title": "שאלות סביב עתיד אנבידיה בשל פרשת המנכ\"ל ג'נסן הואנג והיעדר יורש ברור",
-  "summary": "אנבידיה עומדת בפני אי-ודאות עתידית סביב מעמדו של המנכ\"ל והמייסד השותף ג'נסן הואנג, כאשר בשוק מציינים את היעדר תוכנית ברורה ליורש.",
-  "kid": "יש דאגות לגבי תפקידו של מנהל אנבידיה הענקית והאם יש מישהו שיוכל להחליף אותו בעתיד. זה יכול לגרום לתנודות במניה.",
-  "i18n": {
-   "title": {
-    "he": "שאלות סביב עתיד אנבידיה בשל פרשת המנכ\"ל ג'נסן הואנג והיעדר יורש ברור",
-    "en": "Nvidia’s Future Questioned Amid CEO Jensen Huang Affair and Lack of Successor",
-    "ar": "التساؤلات حول مستقبل إنفيديا وسط قضية الرئيس التنفيذي جنسن هوانغ وغياب خليفة واضح",
-    "ru": "Будущее Nvidia ставится под сомнение на фоне скандала с гендиректором Дженсеном Хуангом"
-   },
-   "summary": {
-    "he": "אנבידיה עומדת בפני אי-ודאות עתידית סביב מעמדו של המנכ\"ל והמייסד השותף ג'נסן הואנג, כאשר בשוק מציינים את היעדר תוכנית ברורה ליורש.",
-    "en": "Nvidia faces future questions surrounding co-founder and CEO Jensen Huang, with analysts noting the lack of a clear successor for the chip giant.",
-    "ar": "تواجه إنفيديا تساؤلات حول مستقبلها المحيط بالمؤسس المشارك والرئيس التنفيذي جنسن هوانغ، مع إشارة المحللين إلى غياب خليفة واضح.",
-    "ru": "Nvidia сталкивается с вопросами о будущем соучредителя и гендиректора Дженсена Хуанга из-за отсутствия четкого преемника."
-   },
-   "kid": {
-    "he": "יש דאגות לגבי תפקידו של מנהל אנבידיה הענקית והאם יש מישהו שיוכל להחליף אותו בעתיד. זה יכול לגרום לתנודות במניה.",
-    "en": "There are worries about the role of Nvidia's chief and whether someone can replace him in the future. This could make the stock fluctuate.",
-    "ar": "هناك مخاوف بشأن دور رئيس إنفيديا وما إذا كان هناك شخص يمكنه استبداله في المستقبل. قد يتسبب هذا في تقلب السهم.",
-    "ru": "Существуют опасения по поводу роли главы Nvidia и того, сможет ли кто-то заменить его в будущем."
-   }
-  },
-  "category": "policy",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794254055,
-    "reason": "חששות סביב הנהגת החברה והיעדר יורש מסודר מעלים את סיכון ניהול החברה בעיני המשקיעים.",
-    "reason_i18n": {
-     "he": "חששות סביב הנהגת החברה והיעדר יורש מסודר מעלים את סיכון ניהול החברה בעיני המשקיעים.",
-     "en": "Concerns surrounding company leadership and the lack of a defined successor raise management risk.",
-     "ar": "المخاوف بشأن قيادة الشركة وغياب خليفة واضح تزيد من مخاطر الإدارة في نظر المستثمرين.",
-     "ru": "Обеспокоенность по поводу руководства компании и отсутствия преемника повышает риски управления."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבים",
-     "en": "Nvidia – chipmaker",
-     "ar": "إنفيديا - صانعة رقائق",
-     "ru": "Nvidia — производитель чипов"
-    },
-    "price_at_alert": 176.63,
-    "entry_price": 178.22,
-    "entry_time": "2026-11-09T20:30+00:00",
-    "exit_price": 168.79,
-    "exit_date": "2026-11-10",
-    "change_pct": -5.29,
-    "bench": "SPY",
-    "bench_change_pct": -0.69,
-    "excess_pct": -4.6,
-    "edge_pct": 4.6,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1794254055,
-    "reason": "אנבידיה היא מניות ענק במדדי השבבים, ופגיעה בה עלולה להשפיע על הסקטור כולו.",
-    "reason_i18n": {
-     "he": "אנבידיה היא מניות ענק במדדי השבבים, ופגיעה בה עלולה להשפיע על הסקטור כולו.",
-     "en": "Nvidia is a heavy-weight stock in chip indices, and pressure on it could weigh on the broader sector.",
-     "ar": "إنفيديا سهم ثقيل في مؤشرات الرقائق، والضغط عليها قد يؤثر على القطاع الأوسع.",
-     "ru": "Nvidia имеет большой вес в индексах чипов, и давление на нее может затронуть весь сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל מוליכים למחצה - SMH",
-     "en": "SMH – semiconductor ETF",
-     "ar": "SMH - صندوق قطاع أشباه الموصلات",
-     "ru": "SMH — ETF полупроводников"
-    },
-    "price_at_alert": 485.315,
-    "entry_price": 489.75,
-    "entry_time": "2026-11-09T20:30+00:00",
-    "exit_price": 483.75,
-    "exit_date": "2026-11-10",
-    "change_pct": -1.23,
-    "bench": "SPY",
-    "bench_change_pct": -0.69,
-    "excess_pct": -0.54,
-    "edge_pct": 0.54,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "34f46e86eec0",
-  "updates": [
-   {
-    "ts": 1794341213,
-    "time": "2026-11-10T20:06Z",
-    "severity": 4,
-    "summary": "אנבידיה שכרה את משרד עורכי הדין היוקרתי Wachtell Lipton להוביל בדיקה בנוגע לקשר אישי שניהל המנכ\"ל ג'נסן הואנג עם אישה שקושרה למודיעין הסיני בדיווחים תקשורתיים.",
-    "i18n": {
-     "he": "אנבידיה שכרה את משרד עורכי הדין היוקרתי Wachtell Lipton להוביל בדיקה בנוגע לקשר אישי שניהל המנכ\"ל ג'נסן הואנג עם אישה שקושרה למודיעין הסיני בדיווחים תקשורתיים.",
-     "en": "Nvidia has hired law firm Wachtell Lipton to lead an investigation into CEO Jensen Huang's personal affair with a woman connected to Chinese intelligence reports.",
-     "ar": "عينت إنفيديا مكتب المحاماة Wachtell Lipton لقيادة تحقيق بشأن علاقة شخصية لرئيسها التنفيذي جينسن هوانغ بامرأة ربطتها تقارير بالاستخبارات الصينية.",
-     "ru": "Компания Nvidia наняла юридическую фирму Wachtell Lipton для расследования личной связи генерального директора Дженсена Хуанга с женщиной, связанной с разведкой Китая."
-    }
-   }
-  ],
-  "last_update": 1794341213,
-  "evaluated": true
- },
- {
   "ts": 1794296787,
   "time": "2026-11-10T07:46Z",
   "title": "שווקים ממתינים לפרסום מדד המחירים לצרכן בארה\"ב שיכריע את כיוון הריבית",
@@ -391,125 +276,6 @@
    }
   ],
   "last_update": 1794344418,
-  "evaluated": true
- },
- {
-  "ts": 1794310608,
-  "time": "2026-11-10T11:36Z",
-  "title": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
-  "summary": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
-  "kid": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
-  "i18n": {
-   "title": {
-    "he": "גאנה מחייבת בדיקות אבולה בנמל התעופה בעקבות התפשטות המחלה",
-    "en": "Ghana mandates Ebola airport screening as outbreak grows",
-    "ar": "غانا תفرض فحص إيبولا في المطارات مع تفشي المرض",
-    "ru": "Гана вводит обязательный скрининг на Эболу в аэропорту из-за вспышки"
-   },
-   "summary": {
-    "he": "רשויות הבריאות בגאנה הטילו חובת בדיקות אבולה ומעקב בן 21 יום בנמלי התעופה, בעוד שמספר מקרי ההידבקות בזן בונדיבוגיו מתקרב ל-10,000.",
-    "en": "Health authorities in Ghana have mandated airport screening and 21-day tracking as a regional Bundibugyo Ebola outbreak nears 10,000 cases.",
-    "ar": "فرضت السلطات الصحية في غانا فحص إيبولا ومراقبة لمدة 21 عاماً في المطارات مع اقتراب تفشي المرض من 10 آلاف حالة.",
-    "ru": "Власти Ганы ввели обязательный скрининг на Эболу и 21-дневное наблюдение в аэропортах на фоне приближения числа случаев к 10 000."
-   },
-   "kid": {
-    "he": "בגאנה חוששים מהתפשטות מחלת האבולה ולכן בודקים נוסעים בנמל התעופה. זה מזכיר לציבור חברות פארמה שמייצרות חיסונים ותרופות.",
-    "en": "Ghana is screening airport travelers to prevent Ebola from spreading. Outbreak news can turn investor attention toward healthcare and pharmaceutical firms.",
-    "ar": "تقوم غانا بفحص المسافرين في المطارات لمنع انتشار إيبولا، مما يوجه أنظار المستثمرين نحو قطاع الرعاية الصحية والأدوية.",
-    "ru": "Гана проверяет пассажиров в аэропортах для предотвращения распространения Эболы. Новости об вспышках привлекают внимание к фармкомпаниям."
-   }
-  },
-  "category": "health",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWVnRE9PLXlYRnFmcXhSODFaUmtSUllTMF9yX0V3cHhHMXdNT2NtOFhJZDZ4Z1JWOTZwWW1sWm9tVVlmM2NlTzh0VzBpdjVoYUFQOEk5amNhcW1qR0FXYzFQV29DSFpuNEJUdTZCTm50RkpIb3NUTUJNekMyb1ozdmhMX0h5ZnMwdk85cmx5dFVhNk83ZWEzNEZBNFI3UXF0QmxfRl9SV2ZtTVh5SGxOYkNZVU5fS0dGdERkelQtbWlGQVh2X3dZUkktdGFnQQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMHBYaGZORS1ic2ZjWk5ncVlNd2FUX0NmOHYtWUpnQjViM0RCWElWZ3lyRGRIdGdwWWpZbWphQjJvSk1wNVFUdlpWb0hDaERUZG9QaV9ZcVFZSVQtdjJuTGIycEM2dENmZmpHZWJlZ2FjZ292RThhOHFua3lyVlpCUHJB?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1794310608,
-    "reason": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
-    "reason_i18n": {
-     "he": "חששות מהתפרצות מחלות מעלים את העניין בחברות פארמה וביו-טכנולוגיה.",
-     "en": "Health outbreak concerns elevate focus on biotech and pharma sectors.",
-     "ar": "مخاوف تفشي الأمراض ترفع الاهتمام بقطاع التكنولوجيا الحيوية والأدوية.",
-     "ru": "Опасения вспышек заболеваний повышают интерес к биотехам и фарме."
-    },
-    "name_i18n": {
-     "he": "XLV – קרן סל שירותי בריאות",
-     "en": "XLV – Health Care Select Sector SPDR Fund",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية",
-     "ru": "XLV – ETF сектора здравоохранения"
-    },
-    "price_at_alert": 188.33,
-    "entry_price": 187.885,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 188.97,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.58,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.01,
-    "edge_pct": -1.01,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1794341213,
-    "reason": "עלייה במודעות להתפרצויות מגפות עולמיות עשויה להאיץ ביקושים לחיסונים",
-    "reason_i18n": {
-     "he": "עלייה במודעות להתפרצויות מגפות עולמיות עשויה להאיץ ביקושים לחיסונים",
-     "en": "Heightened awareness of global disease outbreaks boosts vaccine demand outlook",
-     "ar": "زيادة الوعي بتفشي الأوبئة تعزز الطلب المحتمل على اللقاحات",
-     "ru": "Рост внимания к глобальным вспышкам болезней поддерживает спрос на вакцины"
-    },
-    "name_i18n": {
-     "he": "MRNA - מודרנה",
-     "en": "MRNA - Moderna",
-     "ar": "MRNA - موديرنا",
-     "ru": "MRNA - Moderna"
-    },
-    "price_at_alert": 251.85,
-    "entry_price": 251.6,
-    "entry_time": "2026-11-10T20:30+00:00",
-    "exit_price": 248.8,
-    "exit_date": "2026-11-11",
-    "change_pct": -1.11,
-    "bench": "SPY",
-    "bench_change_pct": 1.39,
-    "excess_pct": -2.5,
-    "edge_pct": -2.5,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "1d76534be20b",
-  "updates": [
-   {
-    "ts": 1794341213,
-    "time": "2026-11-10T20:06Z",
-    "severity": 4,
-    "summary": "משבר האבולה ברפובליקה הדמוקרטית של קונגו מחמיר דרמטית לאחר שמיליציות מקושרות לדאעש הרגו 33 איש וגרמו לבריחתם של כ-180 חולים מבית חולים.",
-    "i18n": {
-     "he": "משבר האבולה ברפובליקה הדמוקרטית של קונגו מחמיר דרמטית לאחר שמיליציות מקושרות לדאעש הרגו 33 איש וגרמו לבריחתם של כ-180 חולים מבית חולים.",
-     "en": "The Ebola crisis in the DRC deepened significantly after ISIS-linked militants killed 33 people and forced 180 patients to flee a hospital, complicating outbreak containment.",
-     "ar": "تفاقمت أزمة إيبولا في الكونغو الديمقراطية بشكل حاد بعد أن قتل مسلحون مرتبطون بداعش 33 شخصاً وفرار 180 مريضاً من المستشفى.",
-     "ru": "Кризис, вызванный лихорадкой Эбола в ДР Конго, резко усугубился после того, как боевики, связанные с ИГИЛ, убили 33 человека, а 180 пациентов бежали из больницы."
-    }
-   }
-  ],
-  "last_update": 1794341213,
   "evaluated": true
  },
  {
@@ -1421,159 +1187,6 @@
  {
   "ts": 1794334532,
   "time": "2026-11-10T18:15Z",
-  "title": "אוקראינה מציעה הפסקת אש בים השחור ובמגזר האנרגיה",
-  "summary": "אוקראינה הגישה לשותפותיה הצעות להפסקת אש מול רוסיה בים השחור ובמתקני האנרגיה, וממתינה לתגובת מוסקבה.",
-  "kid": "אוקראינה רוצה להפסיק את הלחימה סביב ספינות בים ומתקני חשמל. אם תושג הפסקת אש, מחירי האנרגיה עשויים לרדת כי יהיה יותר בטוח להוביל נפט וגז.",
-  "i18n": {
-   "title": {
-    "he": "אוקראינה מציעה הפסקת אש בים השחור ובמגזר האנרגיה",
-    "en": "Ukraine proposes ceasefire in Black Sea and energy sector",
-    "ar": "أوكرانيا تقترح وقف إطلاق النار في البحر الأسود قطاع الطاقة",
-    "ru": "Украина предлагает прекращение огня в Черном море и энергетике"
-   },
-   "summary": {
-    "he": "אוקראינה הגישה לשותפותיה הצעות להפסקת אש מול רוסיה בים השחור ובמתקני האנרגיה, וממתינה לתגובת מוסקבה.",
-    "en": "Ukraine has sent partners proposals for a ceasefire with Russia in the Black Sea and energy sector, awaiting Moscow's response.",
-    "ar": "أرسلت أوكرانيا مقترحات للشركاء لوقف إطلاق النار مع روسيا في البحر الأسود وقطاع الطاقة، وتنتظر رد موسكو.",
-    "ru": "Украина направила партнерам предложения о прекращении огня с Россией в Черном море и энергетическом секторе, ожидая ответа Москвы."
-   },
-   "kid": {
-    "he": "אוקראינה רוצה להפסיק את הלחימה סביב ספינות בים ומתקני חשמל. אם תושג הפסקת אש, מחירי האנרגיה עשויים לרדת כי יהיה יותר בטוח להוביל נפט וגז.",
-    "en": "Ukraine wants to stop fighting around ships and power plants. If a ceasefire happens, energy prices might drop because moving oil and gas becomes safer.",
-    "ar": "أوكرانيا تريد وقف القتال حول السفن ومحطات الطاقة. إذا حدث وقف إطلاق النار، فقد تنخفض أسعار الطاقة.",
-    "ru": "Украина хочет прекратить бои вокруг кораблей и электростанций. Если будет перемирие, цены на энергоносители могут снизиться."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTldQS0d6THBteTM3RHZEYVhfeG1WWUx4emVCZHlmOVJfaWt0Y2lwV01GeVZ6dF9KaHk1RUF3RzlkOVVpMkx6c0luam1tQUJOWTFTajFPaHdGYkpHLUl6ODJaTTRmR0t3UjdfOVN2ckh4QlIyMm1CRnBfYmFMZ1BPUTNUams0NEZWS2dPSXozcVZ4MjNMdXZUb293RkhmSlg3bXoxOElNeFdocW91?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTzFVbFI5NThmU0Ftc3ptNkdVVWpaU25id2x6aUV4SVZDckFKZnV2X0x4clFkeDE3WXdVcjg1U01ub2UyZ3lFS3pCSVFjbVU0MzlKYzNDQlNCNmlfWHZfNFJxdXZhc2xRamlIQ2FxQ0hKV1lpU2VtS3BVRGRfX0JoYzctR0M?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMnRYYlVDVmJ6MFJNM0ZiVkV1TTV5VWVLME5DN0lZZllzX3RQWlpyY0xjNE5sUlFiX1NKRWpDSExwckdnXzVRc294VnpsZFVIOVhVZVVfeGdLYWJKSkw5TDJfcGtLeVpzeHJtYXNZSEIxZHJSSTVNOUJyUmFQUGJLSXE3ZmZKenZSLVhNQlg3V1JKTUlubV9z?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794334532,
-    "reason": "הפסקת אש אפשרית באנרגיה עשויה להפחית את פרמיית הסיכון על נפט.",
-    "reason_i18n": {
-     "he": "הפסקת אש אפשרית באנרגיה עשויה להפחית את פרמיית הסיכון על נפט.",
-     "en": "A potential energy ceasefire could reduce the risk premium on oil.",
-     "ar": "قد يؤدي وقف إطلاق النار في قطاع الطاقة إلى تقليل علاوة المخاطر على النفط.",
-     "ru": "Потенциальное перемирие в энергетике может снизить премию за риск по нефти."
-    },
-    "name_i18n": {
-     "he": "USO - קרן סל על נפט",
-     "en": "USO - Oil Fund",
-     "ar": "USO - صندوق النفط",
-     "ru": "USO - нефтяной фонд"
-    },
-    "price_at_alert": 141.43,
-    "entry_price": 141.146,
-    "entry_time": "2026-11-10T18:30+00:00",
-    "exit_price": 141.48,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.24,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": -1.55,
-    "edge_pct": 1.55,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "UNG",
-    "direction": "down",
-    "t0": 1794334532,
-    "reason": "הפחתת מתחים סביב תשתיות אנרגיה מקטינה חששות לשיבושי אספקה.",
-    "reason_i18n": {
-     "he": "הפחתת מתחים סביב תשתיות אנרגיה מקטינה חששות לשיבושי אספקה.",
-     "en": "Reduced tension around energy infrastructure lowers supply disruption fears.",
-     "ar": "يقلل التوتر المتراجع حول البنى التحتية للطاقة مخاوف انقطاع الإمدادات.",
-     "ru": "Снижение напряженности вокруг энергетической инфраструктуры уменьшает страхи перебоев."
-    },
-    "name_i18n": {
-     "he": "UNG - קרן סל על גז טבעי",
-     "en": "UNG - Natural Gas Fund",
-     "ar": "UNG - صندوق الغاز الطبيعي",
-     "ru": "UNG - фонд природного газа"
-    },
-    "price_at_alert": 10.335,
-    "entry_price": 10.385,
-    "entry_time": "2026-11-10T18:30+00:00",
-    "exit_price": 10.21,
-    "exit_date": "2026-11-11",
-    "change_pct": -1.69,
-    "bench": "SPY",
-    "bench_change_pct": 1.78,
-    "excess_pct": -3.47,
-    "edge_pct": 3.47,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794341213,
-    "reason": "הפחתת סיכון לפגיעה בתשתיות נפט וגז עולמיות",
-    "reason_i18n": {
-     "he": "הפחתת סיכון לפגיעה בתשתיות נפט וגז עולמיות",
-     "en": "Reduced risk of damage to global energy infrastructure",
-     "ar": "انخفاض مخاطر تدمير البنية التحتية العالمية للطاقة",
-     "ru": "Снижение риска повреждения мировой энергетической инфраструктуры"
-    },
-    "name_i18n": {
-     "he": "XLE - קרן סל אנרגיה",
-     "en": "XLE - Energy Select Sector SPDR Fund",
-     "ar": "XLE - صندوق قطاع الطاقة",
-     "ru": "XLE - ETF энергетического сектора"
-    },
-    "price_at_alert": 62.33,
-    "entry_price": 62.3,
-    "entry_time": "2026-11-10T20:30+00:00",
-    "exit_price": 63.36,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.7,
-    "bench": "SPY",
-    "bench_change_pct": 1.39,
-    "excess_pct": 0.31,
-    "edge_pct": -0.31,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "3787d669125a",
-  "updates": [
-   {
-    "ts": 1794341213,
-    "time": "2026-11-10T20:06Z",
-    "severity": 6,
-    "summary": "נשיא אוקראינה זלנסקי הציע להשעות את מתקפות הרחפנים והטילים על בתי זיקוק אנרגיה ברוסיה בתמורה לקבלת סוללות הגנה אווירית מסוג פטריוט למשך חודש, וממתין לתגובת מוסקבה.",
-    "i18n": {
-     "he": "נשיא אוקראינה זלנסקי הציע להשעות את מתקפות הרחפנים והטילים על בתי זיקוק אנרגיה ברוסיה בתמורה לקבלת סוללות הגנה אווירית מסוג פטריוט למשך חודש, וממתין לתגובת מוסקבה.",
-     "en": "Ukrainian President Zelenskyy proposed pausing attacks on Russian energy refineries in exchange for Patriot air defense systems for one month, while awaiting Russia's response to the shipping and energy ceasefire proposal.",
-     "ar": "اقترح الرئيس الأيكراني زيلينسكي تعليق الهجمات على مصافي الطاقة الروسية مقابل الحصول على بطاريات پاتريوت لشهر واحد بانتظار رد روسيا.",
-     "ru": "Президент Украины Зеленский предложил приостановить удары по российским НПЗ в обмен на поставки систем ПВО Patriot на один месяц, ожидая ответа Москвы."
-    }
-   }
-  ],
-  "last_update": 1794341213,
-  "evaluated": true
- },
- {
-  "ts": 1794334532,
-  "time": "2026-11-10T18:15Z",
   "title": "איראן חושפת בסיסי טילי ענק תת-קרקעיים חדשים",
   "summary": "איראן חשפה בסרטון תעמולה מתקן תת-קרקעי חדש המכונה 'עיר טילים', תוך מתיחת ביקורת חריפה על ארה\"ב.",
   "kid": "איראן הציגה בסיסי טילים חדשים שנמצאים מתחת לאדמה כדי להראות את כוחה הצבאי. זה מעלה את המתיחות במזרח התיכון ויכול להשפיע על מחירי הנפט.",
@@ -1746,136 +1359,6 @@
    }
   ],
   "last_update": 1794344418,
-  "evaluated": true
- },
- {
-  "ts": 1794341213,
-  "time": "2026-11-10T20:06Z",
-  "title": "צרפת מעניקה חוזה של 1.7 מיליארד דולר לקבוצת איירבוס-تالס ללוויינים",
-  "summary": "ממשלת צרפת העניקה חוזה ענק בשווי 1.7 מיליארד דולר לקונסורציום המשותף לאיירבוס ותאלס לפיתוח ואספקת לוויינים צבאיים חדשים.",
-  "kid": "חברות התעופה והביטחון אירופאיות קיבלו הזמנה ענקית למערכות חלל צבאיות. זה מחזק את תחום הביטחון ומשפיע לטובה על מניות הסקטור.",
-  "i18n": {
-   "title": {
-    "he": "צרפת מעניקה חוזה של 1.7 מיליארד דולר לקבוצת איירבוס-تالס ללוויינים",
-    "en": "France awards $1.7 billion contract to Airbus-Thales team for new military satellites",
-    "ar": "فرنسا تمنح عقداً بقيمة 1.7 مليار دولار لتحالف إيرباص-تاليس لأقمار صناعية عسكرية",
-    "ru": "Франция присудила контракт на 1.7 млрд долларов консорциуму Airbus-Thales"
-   },
-   "summary": {
-    "he": "ממשלת צרפת העניקה חוזה ענק בשווי 1.7 מיליארד דולר לקונסורציום המשותף לאיירבוס ותאלס לפיתוח ואספקת לוויינים צבאיים חדשים.",
-    "en": "The French government has awarded a major $1.7 billion contract to the Airbus and Thales joint team to build and deliver new military satellites.",
-    "ar": "منحت الحكومة الفرنسية عقداً كبيراً بقيمة 1.7 مليار دولار لتحالف إيرباص وتاليس لبناء وتسليم أقمار صناعية عسكرية جديدة.",
-    "ru": "Правительство Франции заключило крупный контракт на 1.7 млрд долларов с консорциумом Airbus и Thales на разработку и поставку новых военных спутников."
-   },
-   "kid": {
-    "he": "חברות התעופה והביטחון אירופאיות קיבלו הזמנה ענקית למערכות חלל צבאיות. זה מחזק את תחום הביטחון ומשפיע לטובה על מניות הסקטור.",
-    "en": "European aerospace and defense firms secured a huge order for military space systems, boosting the defense sector and its ETFs.",
-    "ar": "حصلت شركات الطيران والدفاع الأوروبية على طلبية ضخمة لأنظمة الفضاء العسكرية، مما يدعم قطاع الدفاع.",
-    "ru": "Европейские аэрокосмические и оборонные компании получили крупный заказ на военные космические системы, поддерживая оборонный сектор."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794341213,
-    "reason": "הזמנות ענק ביטחוניות באירופה מחזקות את סנטימנט הסקטור",
-    "reason_i18n": {
-     "he": "הזמנות ענק ביטחוניות באירופה מחזקות את סנטימנט הסקטור",
-     "en": "Massive European defense awards bolster sector sentiment",
-     "ar": "طلبيات الدفاع الأوروبية الضخمة تعزز معنويات القطاع",
-     "ru": "Крупные оборонные заказы в Европе укрепляют настроения в секторе"
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון בארה\"ב",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 72.23,
-    "entry_price": 72.37,
-    "entry_time": "2026-11-10T20:30+00:00",
-    "exit_price": 73.27,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.24,
-    "bench": "SPY",
-    "bench_change_pct": 1.39,
-    "excess_pct": -0.15,
-    "edge_pct": -0.15,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "8fed467f12a9",
-  "evaluated": true
- },
- {
-  "ts": 1794341213,
-  "time": "2026-11-10T20:06Z",
-  "title": "שביתת נהגי משאיות דלק בצ'ילה פוגעת בנתיבי שילוח ובחטיבת הסלמון",
-  "summary": "שביתת נהגי משאיות דלק בצ'ילה משבשת את נתיבי השילוח המרכזיים ומעמידה תחת מעקב הדוק את הלוגיסטיקה של יצוא הסלמון המקומי.",
-  "kid": "נהגי משאיות בצ'ילה שובתים ומונעים הובלת דלק ומוצרים כמו סלמון. זה עלול לעכב אספקה ולייקר מחירים זמנית.",
-  "i18n": {
-   "title": {
-    "he": "שביתת נהגי משאיות דלק בצ'ילה פוגעת בנתיבי שילוח ובחטיבת הסלמון",
-    "en": "Chile Truckers' Fuel Strike Hits Shipping Routes, Putting Salmon Logistics on Watch",
-    "ar": "إضراب شاحنات الوقود في شيلي يضرب طرق الشحن ويضع لوجستيات السلمون تحت المراقبة",
-    "ru": "Забастовка водителей топливозаправщиков в Чили бьет по логистике лосося"
-   },
-   "summary": {
-    "he": "שביתת נהגי משאיות דלק בצ'ילה משבשת את נתיבי השילוח המרכזיים ומעמידה תחת מעקב הדוק את הלוגיסטיקה של יצוא הסלמון המקומי.",
-    "en": "A fuel trucker strike in Chile is disrupting key shipping routes and putting local salmon export logistics on high watch.",
-    "ar": "يؤدي إضراب سائقي شاحنات الوقود في شيلي إلى تعطيل طرق الشحن الرئيسية ووضع لوجستيات تصدير السلمون تحت مراقبة مشددة.",
-    "ru": "Забастовка водителей топливозаправщиков в Чили нарушает ключевые транспортные маршруты и ставит под угрозу логистику экспорта лосося."
-   },
-   "kid": {
-    "he": "נהגי משאיות בצ'ילה שובתים ומונעים הובלת דלק ומוצרים כמו סלמון. זה עלול לעכב אספקה ולייקר מחירים זמנית.",
-    "en": "Truckers in Chile are on strike, blocking fuel and goods like salmon. This could delay shipments and temporarily raise prices.",
-    "ar": "سائقو الشاحنات في شيلي في إضراب، مما يعطل نقل الوقود والسلع كالسلمون وقد يؤخر الشحنات.",
-    "ru": "Водители грузовиков в Чили бастуют, блокируя топливо и товары, такие как лосось, что может задержать поставки."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "down",
-    "t0": 1794341213,
-    "reason": "שיבושים לוגיסטיים בשרשראות האספקה באמריקה הלטינית",
-    "reason_i18n": {
-     "he": "שיבושים לוגיסטיים בשרשראות האספקה באמריקה הלטינית",
-     "en": "Logistical bottlenecks in Latin American supply chains",
-     "ar": "اختناقات لوجستية في سلاسل الإمداد بأمريكا اللاتينية",
-     "ru": "Логистические узкие места в цепочках поставок Латинской Америки"
-    },
-    "name_i18n": {
-     "he": "EWC - קרן סל קנדה",
-     "en": "EWC - Canada ETF (proxy for trade logistics disruptions)",
-     "ar": "EWC - صندوق كندا",
-     "ru": "EWC - ETF Канады"
-    },
-    "price_at_alert": 60.33,
-    "entry_price": 60.355,
-    "entry_time": "2026-11-10T20:30+00:00",
-    "exit_price": 60.49,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.22,
-    "bench": "SPY",
-    "bench_change_pct": 1.39,
-    "excess_pct": -1.17,
-    "edge_pct": 1.17,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "93fa2afc0a3f",
   "evaluated": true
  },
  {
@@ -41989,9 +41472,21 @@
      "ar": "أثر هجوم سيبراني ضخم على 178 منظمة وشركة كبرى، بما في ذلك CNN وZoom. طُلب من المستخدمين تحديث أجهزتهم ومراقبة كشوف حساباتهم المصرفية.",
      "ru": "Масштабная кибератака затронула 178 организаций и крупных компаний, включая CNN и Zoom. Пользователям рекомендуется обновить устройства и проверить банковские выписки."
     }
+   },
+   {
+    "ts": 1794947815,
+    "time": "2026-11-17T20:36Z",
+    "severity": 6,
+    "summary": "מתקפת סייבר זדונית כוונה ל-178 אתרים גדולים במטרה לגנוב פרטי כרטיסי אשראי ומטבעות קריפטו של משתמשי אייפון.",
+    "i18n": {
+     "he": "מתקפת סייבר זדונית כוונה ל-178 אתרים גדולים במטרה לגנוב פרטי כרטיסי אשראי ומטבעות קריפטו של משתמשי אייפון.",
+     "en": "A malicious cyberattack targeted 178 major websites, aiming to steal credit card details and cryptocurrency from iPhone users.",
+     "ar": "استهدف هجوم سيبراني خبيث 178 موقعاً إلكترونياً كبيراً، بهدف سرقة تفاصيل بطاقات الائتمان والعملات المشفرة من مستخدمي آيفون.",
+     "ru": "Злонамеренная кибератака затронула 178 крупных веб-сайтов с целью кражи данных кредитных карт и криптовалюты у пользователей iPhone."
+    }
    }
   ],
-  "last_update": 1794937587
+  "last_update": 1794947815
  },
  {
   "ts": 1794904176,
@@ -42065,7 +41560,22 @@
     "price_at_alert": 59.26
    }
   ],
-  "id": "f9fd65ddd347"
+  "id": "f9fd65ddd347",
+  "updates": [
+   {
+    "ts": 1794947815,
+    "time": "2026-11-17T20:36Z",
+    "severity": 4,
+    "summary": "סין וקנדה הגיעו להסכמות על הפחתת מכסים הדדית על מוצרי חקלאות, פלדה ואלומיניום לאחר פגישת בכירים.",
+    "i18n": {
+     "he": "סין וקנדה הגיעו להסכמות על הפחתת מכסים הדדית על מוצרי חקלאות, פלדה ואלומיניום לאחר פגישת בכירים.",
+     "en": "China and Canada reached agreements on mutual tariff reductions for agricultural products, steel, and aluminum following high-level meetings.",
+     "ar": "توصلت الصين وكندا إلى اتفاقيات بشأن خفض متبادل للتعريفات الجمركية على المنتجات الزراعية والصلب والألمنيوم بعد اجتماعات رفيعة المستوى.",
+     "ru": "Китай и Канада достигли соглашения о взаимном снижении пошлин на сельскохозяйственную продукцию, сталь и алюминий после встреч на высоком уровне."
+    }
+   }
+  ],
+  "last_update": 1794947815
  },
  {
   "ts": 1794908105,
@@ -42660,9 +42170,21 @@
      "ar": "فرضت بريطانيا عقوبات على 8 شركات إسرائيلية ومجموعة أخرى، بدعوى أنها تعيق المساعدات إلى غزة.",
      "ru": "Великобритания ввела санкции против 8 израильских компаний и одной группы, утверждая, что они препятствуют доставке помощи в Газу."
     }
+   },
+   {
+    "ts": 1794947815,
+    "time": "2026-11-17T20:36Z",
+    "severity": 5,
+    "summary": "גרמניה מחליפה מטוסי תובלה שחסרים מערכות הגנה של אלביט, בעוד אוסטרליה הטילה סנקציות על חברות בנייה ישראליות.",
+    "i18n": {
+     "he": "גרמניה מחליפה מטוסי תובלה שחסרים מערכות הגנה של אלביט, בעוד אוסטרליה הטילה סנקציות על חברות בנייה ישראליות.",
+     "en": "Germany is replacing transport aircraft lacking Elbit defense systems, while Australia imposed sanctions on Israeli construction companies.",
+     "ar": "تستبدل ألمانيا طائرات نقل تفتقر إلى أنظمة دفاع من شركة إلبيت، بينما فرضت أستراليا عقوبات على شركات بناء إسرائيلية.",
+     "ru": "Германия заменяет транспортные самолеты, не оснащенные системами защиты Elbit, в то время как Австралия ввела санкции против израильских строительных компаний."
+    }
    }
   ],
-  "last_update": 1794944925
+  "last_update": 1794947815
  },
  {
   "ts": 1794915235,
@@ -43347,7 +42869,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "high",
   "sources": [],
   "impacts": [
@@ -43388,9 +42910,43 @@
      "ru": "Lockheed Martin - оборонная компания"
     },
     "price_at_alert": 586.235
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794947815,
+    "reason": "עליית מחירי הנפט מיטיבה עם רווחי חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט מיטיבה עם רווחי חברות האנרגיה.",
+     "en": "Rising oil prices benefit energy company profits.",
+     "ar": "ارتفاع أسعار النفط يفيد أرباح شركات الطاقة.",
+     "ru": "Рост цен на нефть увеличивает прибыль энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "סקטור האנרגיה",
+     "en": "Energy Sector",
+     "ar": "قطاع الطاقة",
+     "ru": "Сектор энергетики"
+    },
+    "price_at_alert": 63.415
    }
   ],
-  "id": "7c398bfffe94"
+  "id": "7c398bfffe94",
+  "updates": [
+   {
+    "ts": 1794947815,
+    "time": "2026-11-17T20:36Z",
+    "severity": 8,
+    "summary": "מטוסי קרב אמריקאים תקפו אתר שיגור טילים של משמרות המהפכה באיראן, באי קשם, בתגובה למתקפה בבחריין.",
+    "i18n": {
+     "he": "מטוסי קרב אמריקאים תקפו אתר שיגור טילים של משמרות המהפכה באיראן, באי קשם, בתגובה למתקפה בבחריין.",
+     "en": "US fighter jets struck an IRGC missile launch site on Iran's Qeshm Island in response to an attack in Bahrain.",
+     "ar": "شنت طائرات مقاتلة أمريكية غارات على موقع لإطلاق الصواريخ تابع للحرس الثوري الإيراني في جزيرة قشم، رداً على هجوم في البحرين.",
+     "ru": "Американские истребители нанесли удар по базе запуска ракет КСИР на иранском острове Кешм в ответ на атаку в Бахрейне."
+    }
+   }
+  ],
+  "last_update": 1794947815
  },
  {
   "ts": 1794944925,
