@@ -102720,6 +102720,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmdvREdrMXNHU3B6VVdldWdxVWswUnNjeXU4T2xGTlFfeDkyRzg0YkRweTdtZnhJNEZQcDRIMkR0NEw4Zk5QVzFfVllmMlI2OHFZeFRUMnVLRzIzSUY1U0RVSnZma2lZQjZORXIxSjZYck1fMExpMDVncXRka0dPby1tSW14SU40eDUtTnR2SmU2N0lNN243MkRlM01xQmpJeGtXT2wwelpPcXhET1lnQg?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYWlRMVlaSGFlOU9NS1l3eUxySV85MDhLU3J3MXNnV1F3U3RVODN6X3h0N01zbG1HSGdnQkdPXzdGTWdnRHZOWXJfbnNYdjJvZjVERlRub2sxQk1tQ3A1M2plVzY4Z3hwS3c3elV0RFhWQmhPWndsOTdGQXFMVGlZNHZLcGg2QVpnQUREV2p1VzRndw?oc=5"
    }
   ],
   "impacts": [
@@ -102741,9 +102745,43 @@
      "ru": "Blackstone - инвестиционная компания"
     },
     "price_at_alert": 118.885
+   },
+   {
+    "ticker": "AMZN",
+    "direction": "up",
+    "t0": 1794887738,
+    "reason": "מזומנים מהעסקה ומיקוד אסטרטגי.",
+    "reason_i18n": {
+     "he": "מזומנים מהעסקה ומיקוד אסטרטגי.",
+     "en": "Cash from the deal and strategic focus.",
+     "ar": "سيولة من الصفقة وتركيز استراتيجي.",
+     "ru": "Денежные средства от сделки и стратегический фокус."
+    },
+    "name_i18n": {
+     "he": "אמזון",
+     "en": "Amazon",
+     "ar": "أمازون",
+     "ru": "Amazon"
+    },
+    "price_at_alert": 257.75
    }
   ],
-  "id": "d6cd2d03135c"
+  "id": "d6cd2d03135c",
+  "updates": [
+   {
+    "ts": 1794887738,
+    "time": "2026-11-17T03:55Z",
+    "severity": 5,
+    "summary": "חברת בלקסטון הסכימה לרכוש 75% ממרכזי הנתונים של AWS (אמזון) בעסקה המוערכת ב-5 מיליארד דולר.",
+    "i18n": {
+     "he": "חברת בלקסטון הסכימה לרכוש 75% ממרכזי הנתונים של AWS (אמזון) בעסקה המוערכת ב-5 מיליארד דולר.",
+     "en": "Blackstone has agreed to acquire 75% of AWS data centers in a deal valued at $5 billion.",
+     "ar": "وافقت شركة بلاكستون على الاستحواذ على 75% من مراكز بيانات AWS (أمازون) في صفقة تقدر قيمتها بـ 5 مليارات دولار.",
+     "ru": "Компания Blackstone согласилась приобрести 75% дата-центров AWS (Amazon) в рамках сделки, оцениваемой в 5 миллиардов долларов."
+    }
+   }
+  ],
+  "last_update": 1794887738
  },
  {
   "ts": 1794841622,
@@ -104887,5 +104925,236 @@
    }
   ],
   "id": "d4d105ab3da3"
+ },
+ {
+  "ts": 1794887738,
+  "time": "2026-11-17T03:55Z",
+  "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
+  "summary": "ממשל טראמפ מטיל דרישות רישוי לייצוא שבבי בינה מלאכותית למדינות נוספות כולל מלזיה, תאילנד, אינדונזיה, סינגפור וברזיל.",
+  "kid": "ארה\"ב מנסה למנוע מסין להשיג טכנולוגיה מתקדמת למחשבים חכמים. זה עלול לפגוע בחברות שבבים שמוכרות הרבה למדינות אלו.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+    "en": "US restricts China's access to AI chips",
+    "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+    "ru": "США ограничивают доступ Китая к чипам ИИ"
+   },
+   "summary": {
+    "he": "ממשל טראמפ מטיל דרישות רישוי לייצוא שבבי בינה מלאכותית למדינות נוספות כולל מלזיה, תאילנד, אינדונזיה, סינגפור וברזיל.",
+    "en": "The Trump administration introduces export license requirements for AI chips to countries including Malaysia, Thailand, Indonesia, Singapore, and Brazil.",
+    "ar": "تفرض إدارة ترامب متطلبات ترخيص لتصدير رقائق الذكاء الاصطناعي إلى دول تشمل ماليزيا وتايلاند وإندونيسيا وسنغافورة والبرازيل.",
+    "ru": "Администрация Трампа вводит требования к лицензированию экспорта чипов ИИ в такие страны, как Малайзия, Таиланд, Индонезия, Сингапур и Бразилия."
+   },
+   "kid": {
+    "he": "ארה\"ב מנסה למנוע מסין להשיג טכנולוגיה מתקדמת למחשבים חכמים. זה עלול לפגוע בחברות שבבים שמוכרות הרבה למדינות אלו.",
+    "en": "The US is trying to stop China from getting advanced computer technology. This could hurt chip companies that sell a lot to these countries.",
+    "ar": "تحاول الولايات المتحدة منع الصين من الحصول على تكنولوجيا حاسوبية متقدمة. قد يضر هذا بشركات الرقائق التي تبيع الكثير لهذه الدول.",
+    "ru": "США пытаются помешать Китаю получить передовые компьютерные технологии. Это может навредить компаниям-производителям чипов, которые много продают в эти страны."
+   }
+  },
+  "category": "trade",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1794887738,
+    "reason": "הגבלות ייצוא חדשות מצמצמות את השוק הפוטנציאלי.",
+    "reason_i18n": {
+     "he": "הגבלות ייצוא חדשות מצמצמות את השוק הפוטנציאלי.",
+     "en": "New export restrictions shrink the potential market.",
+     "ar": "قيود التصدير الجديدة تقلص السوق المحتملة.",
+     "ru": "Новые экспортные ограничения сокращают потенциальный рынок."
+    },
+    "name_i18n": {
+     "he": "אנבידיה",
+     "en": "Nvidia",
+     "ar": "إنفيديا",
+     "ru": "Nvidia"
+    },
+    "price_at_alert": 156.14
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794887738,
+    "reason": "חשש מהאטה במכירות עקב רגולציה.",
+    "reason_i18n": {
+     "he": "חשש מהאטה במכירות עקב רגולציה.",
+     "en": "Fear of sales slowdown due to regulation.",
+     "ar": "مخاوف من تباطؤ المبيعات بسبب التنظيم.",
+     "ru": "Опасения замедления продаж из-за регулирования."
+    },
+    "name_i18n": {
+     "he": "קרן סל מוליכים למחצה",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 461.9
+   }
+  ],
+  "id": "faf1fcebe553"
+ },
+ {
+  "ts": 1794887738,
+  "time": "2026-11-17T03:55Z",
+  "title": "תקיפת מכליות במיצר הורמוז",
+  "summary": "דיווחים על תקיפת מכליות במיצר הורמוז ועליית כוננות בעקבות התרעת כטב\"ם בשדה גז בעיראק.",
+  "kid": "ספינות נפט הותקפו באזור חשוב למעבר ספינות. זה עלול לגרום למחיר הנפט לעלות כי יהיה קשה יותר להוביל אותו.",
+  "i18n": {
+   "title": {
+    "he": "תקיפת מכליות במיצר הורמוז",
+    "en": "Tanker attacks in Strait of Hormuz",
+    "ar": "هجمات على ناقلات في مضيق هرمز",
+    "ru": "Атаки на танкеры в Ормузском проливе"
+   },
+   "summary": {
+    "he": "דיווחים על תקיפת מכליות במיצר הורמוז ועליית כוננות בעקבות התרעת כטב\"ם בשדה גז בעיראק.",
+    "en": "Reports of tanker strikes in the Strait of Hormuz and heightened tensions following a drone alert at an Iraqi gas field.",
+    "ar": "تقارير عن هجمات على ناقلات في مضيق هرمز وحالة تأهب قصوى بعد إنذار بطائرة مسيرة في حقل غاز عراقي.",
+    "ru": "Сообщения об ударах по танкерам в Ормузском проливе и повышенная напряженность после предупреждения о беспилотнике на иракском газовом месторождении."
+   },
+   "kid": {
+    "he": "ספינות נפט הותקפו באזור חשוב למעבר ספינות. זה עלול לגרום למחיר הנפט לעלות כי יהיה קשה יותר להוביל אותו.",
+    "en": "Oil ships were attacked in an important area for shipping. This might make oil prices go up because it becomes harder to move oil around the world.",
+    "ar": "تعرضت سفن نفط للهجوم في منطقة مهمة للشحن. قد يؤدي هذا إلى ارتفاع أسعار النفط لأنه يصبح من الصعب نقل النفط حول العالم.",
+    "ru": "Нефтяные танкеры были атакованы в важном для судоходства районе. Это может привести к росту цен на нефть, так как перевозить её станет сложнее."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794887738,
+    "reason": "עלייה בסיכון לאספקת הנפט העולמית.",
+    "reason_i18n": {
+     "he": "עלייה בסיכון לאספקת הנפט העולמית.",
+     "en": "Increased risk to global oil supply.",
+     "ar": "زيادة المخاطر على إمدادات النفط العالمية.",
+     "ru": "Повышенный риск для мировых поставок нефти."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 140.03
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1794887738,
+    "reason": "עליית מחירי האנרגיה מיטיבה עם חברות נפט.",
+    "reason_i18n": {
+     "he": "עליית מחירי האנרגיה מיטיבה עם חברות נפט.",
+     "en": "Higher energy prices benefit oil companies.",
+     "ar": "ارتفاع أسعار الطاقة يفيد شركات النفط.",
+     "ru": "Рост цен на энергоносители выгоден нефтяным компаниям."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 166.87
+   }
+  ],
+  "id": "971ea2049d3e"
+ },
+ {
+  "ts": 1794887738,
+  "time": "2026-11-17T03:55Z",
+  "title": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
+  "summary": "סנאטורים רפובליקנים הציעו הצעת חוק להקצאות ביטחוניות בסך כ-1.1 טריליון דולר לשנת הכספים 2027.",
+  "kid": "הממשלה רוצה להוציא המון כסף על צבא וביטחון. זה טוב לחברות שמייצרות מטוסים, טילים וטכנולוגיה צבאית.",
+  "i18n": {
+   "title": {
+    "he": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
+    "en": "Proposed $1.1 trillion defense budget",
+    "ar": "مقترح ميزانية دفاع بقيمة 1.1 تريليون دولار",
+    "ru": "Предложенный оборонный бюджет в 1,1 трлн долларов"
+   },
+   "summary": {
+    "he": "סנאטורים רפובליקנים הציעו הצעת חוק להקצאות ביטחוניות בסך כ-1.1 טריליון דולר לשנת הכספים 2027.",
+    "en": "Senate Republicans have proposed a defense appropriations bill of nearly $1.1 trillion for fiscal year 2027.",
+    "ar": "اقترح أعضاء جمهوريون في مجلس الشيوخ مشروع قانون مخصصات دفاعية بقيمة تقارب 1.1 تريليون دولار للسنة المالية 2027.",
+    "ru": "Сенаторы-республиканцы предложили законопроект об оборонных ассигнованиях на сумму около 1,1 трлн долларов на 2027 финансовый год."
+   },
+   "kid": {
+    "he": "הממשלה רוצה להוציא המון כסף על צבא וביטחון. זה טוב לחברות שמייצרות מטוסים, טילים וטכנולוגיה צבאית.",
+    "en": "The government wants to spend a lot of money on the military. This is good for companies that make planes, missiles, and military technology.",
+    "ar": "تريد الحكومة إنفاق الكثير من المال على الجيش. هذا جيد للشركات التي تصنع الطائرات والصواريخ والتكنولوجيا العسكرية.",
+    "ru": "Правительство хочет потратить много денег на армию. Это хорошо для компаний, которые производят самолеты, ракеты и военные технологии."
+   }
+  },
+  "category": "contracts",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjRCb1d1VHFYUHEzcXBRLXhSX3ppeTl6aS1mYXZqakxDanFrR1podXRHZFlGQzZYUmlsWDg0aDdleEFEWGE1TEQyQjY2Vy1qRjI2QW42eUV1aGhTb1dnUTA2Si1jYzhDeGxZMHhLZlF0ZUJpbGpfbTZzazRiTHlZZ1dfaGRvbVVtS1E2SUpwMi1yYVJseXUxNTd6X2RvY0JVTTdEQkZTLTN5MGVfWFJPaXI4R3FiaDJ5?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794887738,
+    "reason": "הגדלת תקציב הביטחון תומכת בהכנסות המגזר.",
+    "reason_i18n": {
+     "he": "הגדלת תקציב הביטחון תומכת בהכנסות המגזר.",
+     "en": "Increased defense budget supports sector revenue.",
+     "ar": "زيادة ميزانية الدفاع تدعم إيرادات القطاع.",
+     "ru": "Увеличение оборонного бюджета поддерживает доходы сектора."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق الطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 69.75
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794887738,
+    "reason": "צפי לחוזים ממשלתיים גדולים.",
+    "reason_i18n": {
+     "he": "צפי לחוזים ממשלתיים גדולים.",
+     "en": "Expectation of large government contracts.",
+     "ar": "توقعات بعقود حكومية كبيرة.",
+     "ru": "Ожидание крупных государственных контрактов."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 585.21
+   }
+  ],
+  "id": "44232d854199"
  }
 ]
