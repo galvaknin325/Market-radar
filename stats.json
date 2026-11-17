@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-17T16:46Z",
+ "generated": "2026-11-17T17:47Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1056,
+ "total_alerts": 1057,
  "overall": {
-  "n": 641,
-  "hits": 320,
+  "n": 643,
+  "hits": 321,
   "avg_edge": 0.07
  },
  "by_category": {
@@ -19,9 +19,9 @@
    "avg_edge": 0.11
   },
   "contracts": {
-   "n": 138,
+   "n": 139,
    "hits": 69,
-   "avg_edge": 0.0
+   "avg_edge": -0.04
   },
   "cyber": {
    "n": 27,
@@ -39,9 +39,9 @@
    "avg_edge": 0.31
   },
   "macro": {
-   "n": 95,
-   "hits": 44,
-   "avg_edge": -0.25
+   "n": 96,
+   "hits": 45,
+   "avg_edge": -0.21
   },
   "policy": {
    "n": 61,
@@ -61,9 +61,9 @@
    "avg_edge": -0.51
   },
   "4-5": {
-   "n": 310,
-   "hits": 158,
-   "avg_edge": 0.16
+   "n": 312,
+   "hits": 159,
+   "avg_edge": 0.15
   },
   "6-7": {
    "n": 162,
@@ -175,7 +175,7 @@
   },
   "ESLT.TA": {
    "mentions": 8,
-   "n": 6,
+   "n": 7,
    "hits": 2,
    "name": {
     "he": "אלביט מערכות",
@@ -183,7 +183,7 @@
     "ar": "إلبيت سيستمز",
     "ru": "Elbit Systems"
    },
-   "avg_edge": -0.29
+   "avg_edge": -1.1
   },
   "ESLT": {
    "mentions": 24,
@@ -1482,14 +1482,14 @@
    "avg_edge": 3.04
   },
   "LHX": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "L3האריס - חברת טכנולוגיה וביטחון",
-    "en": "L3Harris - a defense and tech company",
-    "ar": "L3Harris - شركة دفاعية وتكنولوجية",
-    "ru": "L3Harris - оборонно-технологическая компания"
+    "he": "L3Harris",
+    "en": "L3Harris",
+    "ar": "L3Harris",
+    "ru": "L3Harris"
    },
    "avg_edge": null
   },
@@ -1507,15 +1507,15 @@
   },
   "LUMI.TA": {
    "mentions": 1,
-   "n": 0,
-   "hits": 0,
+   "n": 1,
+   "hits": 1,
    "name": {
     "he": "בנק לאומי - בנק מוביל בישראל",
     "en": "Bank Leumi - major Israeli bank",
     "ar": "بنك لئومي - بنك إسرائيلي رئيسي",
     "ru": "Bank Leumi - крупный израильский банк"
    },
-   "avg_edge": null
+   "avg_edge": 2.83
   },
   "FANG": {
    "mentions": 1,
@@ -1598,6 +1598,18 @@
     "en": "Bank of America - a major commercial bank",
     "ar": "بنك أوف أمريكا - بنك تجاري كبير",
     "ru": "Bank of America - крупный коммерческий банк"
+   },
+   "avg_edge": null
+  },
+  "ZM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Zoom",
+    "en": "Zoom",
+    "ar": "Zoom",
+    "ru": "Zoom"
    },
    "avg_edge": null
   }
