@@ -90525,6 +90525,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMXl3QWVKcjViNkthb3N0ZHQyUUVNUUNhWjBDRVZxRk9zWTRtODZFSUVhSUJ1el9TQkdzc1FjRWR5UVlDNzJraS0xUEExdHBlczEyUlNRVGxJRFBka2F4V055aUo3NGpQWXVRczUtRndXVkIyb2JLUVVxN3cyclQxakJNUW1DemFGeXZOUlpiZDk?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -90603,6 +90607,25 @@
      "ru": "GLD - фонд золота"
     },
     "price_at_alert": 355.45
+   },
+   {
+    "ticker": "EEM",
+    "direction": "up",
+    "t0": 1794873661,
+    "reason": "דיפלומטיה עשויה להשפיע על הסחר בשווקים המתעוררים באסיה.",
+    "reason_i18n": {
+     "he": "דיפלומטיה עשויה להשפיע על הסחר בשווקים המתעוררים באסיה.",
+     "en": "Diplomacy and summit talks can impact trade sentiment across Asian emerging markets.",
+     "ar": "الدبلوماسية قد تؤثر على معنويات التجار في الأسواق الناشئة.",
+     "ru": "Дипломатия может повлиять на настроение рынков в Азии."
+    },
+    "name_i18n": {
+     "he": "EEM - קרן סלי של שווקים מתעוררים",
+     "en": "EEM - Emerging Markets ETF",
+     "ar": "EEM - صندوق الاستثمار في الأسواق الناشئة",
+     "ru": "EEM - фонд развивающихся рынков"
+    },
+    "price_at_alert": 58.89
    }
   ],
   "id": "f7d7e51ddb49",
@@ -90642,9 +90665,21 @@
      "ar": "أكدت الصين عقد قمة تاريخية بين الزعماء شي وترامب وبوتين، ومن المتوقع أن تركز على عدم الانتشار النووي، وحروب الشرق الأوسط وأوكرانيا، وسياسات التجارة.",
      "ru": "Китай подтвердил проведение исторического саммита между лидерами Си, Трампом и Путиным, который сосредоточится на нераспространении ядерного оружия, войнах на Ближнем Востоке и в Украине, а также торговой политике."
     }
+   },
+   {
+    "ts": 1794873661,
+    "time": "2026-11-17T00:01Z",
+    "severity": 4,
+    "summary": "דונלד טראמפ עושה דרכו לפיליפינים להשתתף בפגישת מנהיגי מדינות אסיה (ASEAN) במנילה, בה צפויים להשתתף גם נציגים מסין ומרוסיה.",
+    "i18n": {
+     "he": "דונלד טראמפ עושה דרכו לפיליפינים להשתתף בפגישת מנהיגי מדינות אסיה (ASEAN) במנילה, בה צפויים להשתתף גם נציגים מסין ומרוסיה.",
+     "en": "Donald Trump is heading to the Philippines where he’s scheduled to speak at a meeting of ASEAN leaders in Manila, alongside engagement involving China and Russia.",
+     "ar": "دونالد ترامب يتجه إلى الفلبين حيث من المقرر أن يتحدث في اجتماع لقادة آسيان في مانيلا.",
+     "ru": "Дональд Трамп направляется на Филиппины, где он должен выступить на встрече лидеров АСЕАН в Маниле."
+    }
    }
   ],
-  "last_update": 1794806008
+  "last_update": 1794873661
  },
  {
   "ts": 1794637334,
@@ -104162,5 +104197,158 @@
    }
   ],
   "id": "e75443a7428e"
+ },
+ {
+  "ts": 1794873661,
+  "time": "2026-11-17T00:01Z",
+  "title": "מטוסי F-15EX הראשונים הגיעו בבסיס קדינה ביפן",
+  "summary": "בסיס האוויר קדינה קיבל את מטוסי ה-F-15EX איגל II הראשונים המוקצים דרך קבע, והפך לבסיס הראשון מחוץ לארה\"ב שקולט אותם.",
+  "kid": "צבא ארה\"ב קיבל מטוסי קרב חדשים ומשוכללים מתוצרת בואינג לבסיס ביפן. חדשות טובות לחברות ביטחוניות שיכולות להעלות את מניותיהן.",
+  "i18n": {
+   "title": {
+    "he": "מטוסי F-15EX הראשונים הגיעו בבסיס קדינה ביפן",
+    "en": "First permanently assigned F-15EXs land at Kadena Air Base",
+    "ar": "وصول أول طائرات F-15EX بشكل دائم إلى قاعدة كادينا الجوية",
+    "ru": "Первые постоянно приписанные F-15EX прибыли на авиабазу Кадена"
+   },
+   "summary": {
+    "he": "בסיס האוויר קדינה קיבל את מטוסי ה-F-15EX איגל II הראשונים המוקצים דרך קבע, והפך לבסיס הראשון מחוץ לארה\"ב שקולט אותם.",
+    "en": "Kadena Air Base received their first permanently assigned F-15EX Eagle IIs, becoming the first installation abroad and second Air Force location to field the jets.",
+    "ar": "تلقت قاعدة كادينا الجوية أول طائرات F-15EX بشكل دائم، لتصبح أول قاعدة خارج الولايات المتحدة تستقبلها.",
+    "ru": "Авиабаза Кадена получила первые постоянно приписанные истребители F-15EX Eagle II."
+   },
+   "kid": {
+    "he": "צבא ארה\"ב קיבל מטוסי קרב חדשים ומשוכללים מתוצרת בואינג לבסיס ביפן. חדשות טובות לחברות ביטחוניות שיכולות להעלות את מניותיהן.",
+    "en": "The US military deployed advanced new fighter jets made by Boeing to a base in Japan. This is good news for defense companies and can help their stock prices.",
+    "ar": "نشر الجيش الأمريكي طائرات مقاتلة جديدة متطورة في قاعدة باليابان، مما يعود بالفائدة על شركات الدفاع.",
+    "ru": "ВВС США разместили новые истребители производства Boeing на базе в Японии, что положительно для акций оборонных компаний."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Defense News",
+    "url": "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "BA",
+    "direction": "up",
+    "t0": 1794873661,
+    "reason": "הצבת מטוסי ה-F-15EX בבסיס מרכזי מדגימה את הצלחת האספקה לצבא.",
+    "reason_i18n": {
+     "he": "הצבת מטוסי ה-F-15EX בבסיס מרכזי מדגימה את הצלחת האספקה לצבא.",
+     "en": "Deployment of F-15EX jets highlights ongoing military deliveries and program status.",
+     "ar": "نشر طائرات F-15EX يعكس نجاح تسليم البرامج العسكرية.",
+     "ru": "Развертывание F-15EX подчеркивает успешные военные поставки."
+    },
+    "name_i18n": {
+     "he": "BA - בואינג (יצרנית מטוסי F-15)",
+     "en": "BA - Boeing (Manufacturer of F-15)",
+     "ar": "BA - بوينغ (الشركة المصنعة لطائرات F-15)",
+     "ru": "BA - Boeing (производитель F-15)"
+    },
+    "price_at_alert": 165.22
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794873661,
+    "reason": "חיזוק ציוד צבאי אמריקאי מעבר לים תומך בסקטור הביטחוני.",
+    "reason_i18n": {
+     "he": "חיזוק ציוד צבאי אמריקאי מעבר לים תומך בסקטור הביטחוני.",
+     "en": "Enhancing US military equipment abroad supports the defense sector.",
+     "ar": "تعزيز المعدات العسكرية الأمريكية في الخارج يدعم قطاع الدفاع.",
+     "ru": "Укрепление военного потенциала США за рубежом поддерживает оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סלי לתעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 69.75
+   }
+  ],
+  "id": "4551e6a21a8f"
+ },
+ {
+  "ts": 1794873661,
+  "time": "2026-11-17T00:01Z",
+  "title": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+  "summary": "ג'ים קריימר מרשת CNBC דחה את החששות ששינויי ההנהגה באנבידיה עלולים לעצור את פריחת הבינה המלאכותית בשווקים.",
+  "kid": "מומחה השקעות מוכר אומר ששינויים בחברת השבבים אנבידיה לא יפגעו בהצלחה הגדולה של תחום הבינה המלאכותית, מה שעשוי לעודד משקיעים לקנות מניות טכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+    "en": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+    "ar": "جيم كريمر: تغييرات الإدارة في نيفيديا لن توقف طفرة الذكاء الاصطناعي",
+    "ru": "Джим Краймер: кадровые перестановки в Nvidia не остановят бум ИИ"
+   },
+   "summary": {
+    "he": "ג'ים קריימר מרשת CNBC דחה את החששות ששינויי ההנהגה באנבידיה עלולים לעצור את פריחת הבינה המלאכותית בשווקים.",
+    "en": "CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
+    "ar": "رفض جيم كريمر من قناة CNBC المخاوف من أن تؤدي تغييرات قيادة نيفيديا إلى عرقلة طفرة الذكاء الاصطناعي.",
+    "ru": "Джим Краймер с CNBC опроверг опасения по поводу того, что перестановки в руководстве Nvidia могут помешать буму ИИ."
+   },
+   "kid": {
+    "he": "מומחה השקעות מוכר אומר ששינויים בחברת השבבים אנבידיה לא יפגעו בהצלחה הגדולה של תחום הבינה המלאכותית, מה שעשוי לעודד משקיעים לקנות מניות טכנולוגיה.",
+    "en": "A famous stock expert says that leadership changes at chipmaker Nvidia won't stop the big artificial intelligence boom, which can keep tech stock prices strong.",
+    "ar": "يقول خبير الأسهم الشهير إن تغييرات الإدارة في نيفيديا لن توقف طفرة الذكاء الاصطناعي، مما قد يدعم أسهم التكنولوجيا."
+   }
+  },
+  "category": "macro",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1794873661,
+    "reason": "הרגעת המשקיעים מפני זעזועי ניהול תומכת במניה.",
+    "reason_i18n": {
+     "he": "הרגעת המשקיעים מפני זעזועי ניהול תומכת במניה.",
+     "en": "Alleviating investor fears regarding management shifts supports the stock.",
+     "ar": "تهدئة مخاوف المستثمرين بشأن التغيرات الإدارية تدعم السهم.",
+     "ru": "Снятие страхов инвесторов по поводу перестановок поддерживает акции."
+    },
+    "name_i18n": {
+     "he": "NVDA - אנבידיה (שבבים ובינה מלאכותית)",
+     "en": "NVDA - Nvidia (Chips and AI)",
+     "ar": "NVDA - نيفيديا (الشرائح والذكاء الاصطناعي)",
+     "ru": "NVDA - Nvidia (чипы и искусственный интеллект)"
+    },
+    "price_at_alert": 156.14
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1794873661,
+    "reason": "תמיכה בסקטור הטכנולוגיה וה-AI עוזרת למדד כולו.",
+    "reason_i18n": {
+     "he": "תמיכה בסקטור הטכנולוגיה וה-AI עוזרת למדד כולו.",
+     "en": "Support for the technology and AI sector helps lift the broader index.",
+     "ar": "دعم قطاع التكنولوجيا والذكاء الاصطناعي يساعد المؤشر العام.",
+     "ru": "Поддержка технологического сектора помогает всему индексу."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סלי של נאסד\"ק 100",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ - фонд индекса Nasdaq 100"
+    },
+    "price_at_alert": 661.75
+   }
+  ],
+  "id": "3814d1e6b777"
  }
 ]
