@@ -1906,116 +1906,6 @@
  {
   "ts": 1794268511,
   "time": "2026-11-09T23:55Z",
-  "title": "תקיפה על צינור נפט בסעודיה גורמת לשריפה",
-  "summary": "מתקפה על צינור נפט בערב הסעודית גרמה לפרוץ שריפה, על רקע מתיחות גוברת במפרץ.",
-  "kid": "צינור נפט בסעודיה נפגע בתקיפה וגרם לשריפה. פגיעה במתקני נפט במדינה מרכזית כמו סעודיה יכולה לגרום למחירי הדלק והנפט בעולם לעלות פתאום.",
-  "i18n": {
-   "title": {
-    "he": "תקיפה על צינור נפט בסעודיה גורמת לשריפה",
-    "en": "Attack on Saudi oil pipeline causes fire",
-    "ar": "هجوم على خط أنابيب نفط سعودي يتسبب في حريق",
-    "ru": "Атака на нефтепровод в Саудовской Аравии вызвала пожар"
-   },
-   "summary": {
-    "he": "מתקפה על צינור נפט בערב הסעודית גרמה לפרוץ שריפה, על רקע מתיחות גוברת במפרץ.",
-    "en": "An attack on a Saudi oil pipeline caused a fire amid escalating regional tensions in the Middle East.",
-    "ar": "أدى هجوم على خط أنابيب نفط في السعودية إلى اندلاع حريق وسط تصاعد التوترات الإقليمية.",
-    "ru": "Атака на нефтепровод в Саудовской Аравии привела к пожару на фоне эскалации напряженности в регионе."
-   },
-   "kid": {
-    "he": "צינור נפט בסעודיה נפגע בתקיפה וגרם לשריפה. פגיעה במתקני נפט במדינה מרכזית כמו סעודיה יכולה לגרום למחירי הדלק והנפט בעולם לעלות פתאום.",
-    "en": "An oil pipeline in Saudi Arabia was hit and caught fire. Hitting oil facilities in major oil-producing countries can cause global fuel and oil prices to jump.",
-    "ar": "تعرض خط أنابيب نفط في السعودية لهجوم تسبب في حريق. أي ضربة لمنشآت النفط الكبرى قد ترفع أسعار الوقود عالمياً.",
-    "ru": "Нефтепровод в Саудовской Аравии подвергся удару, вызвавшему пожар. Повреждения инфраструктуры в ключевых странах могут поднять цены на нефть."
-   }
-  },
-  "category": "commodities",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794268511,
-    "reason": "חשש מפגיעה באספקת הנפט העולמית בעקבות תקיפת תשתיות אנרגיה בסעודיה.",
-    "reason_i18n": {
-     "he": "חשש מפגיעה באספקת הנפט העולמית בעקבות תקיפת תשתיות אנרגיה בסעודיה.",
-     "en": "Fears of supply disruptions following an attack on Saudi oil infrastructure.",
-     "ar": "مخاوف تعطل الإمدادات العالمية بعد استهداف البنية التحتية النفطية السعودية.",
-     "ru": "Опасения перебоев с поставками нефти из-за атаки на инфраструктуру Саудовской Аравии."
-    },
-    "name_i18n": {
-     "he": "יו-אס-או – קרן סל עוקבת אחרי מחירי הנפט",
-     "en": "USO – Crude Oil ETF",
-     "ar": "USO - صندوق النفط الخام",
-     "ru": "USO – фонд нефтяных фьючерсов"
-    },
-    "price_at_alert": 142.66,
-    "entry_price": 138.68,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 141.48,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.02,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 0.43,
-    "edge_pct": 0.43,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1794268511,
-    "reason": "עליית מחירי הנפט הגולמי עקב חששות גיאופוליטיים מחזקת את מניות האנרגיה.",
-    "reason_i18n": {
-     "he": "עליית מחירי הנפט הגולמי עקב חששות גיאופוליטיים מחזקת את מניות האנרגיה.",
-     "en": "Higher crude prices driven by geopolitical supply risks boost energy stocks.",
-     "ar": "ارتفاع أسعار النفط الخام بسبب المخاطر الجيوسياسية يدعم أسهم الطاقة.",
-     "ru": "Рост цен на сырую нефть на фоне геополитических рисков поддерживает акции энергетики."
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל – חברת אנרגיה ענקית",
-     "en": "ExxonMobil – Major energy producer",
-     "ar": "ExxonMobil - شركة الطاقة الكبرى",
-     "ru": "ExxonMobil – крупная энергетическая компания"
-    },
-    "price_at_alert": 164.73,
-    "entry_price": 161.86,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 166.68,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.98,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.39,
-    "edge_pct": 1.39,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "841f79eab74e",
-  "updates": [
-   {
-    "ts": 1794275976,
-    "time": "2026-11-10T01:59Z",
-    "severity": 7,
-    "summary": "מתקפת טילים שיוחסה לחות'ים פגעה במגדל ארמקו בריאד בירת סעודיה, מה שהוביל לאזהרת מסע מרכזית באזור.",
-    "i18n": {
-     "he": "מתקפת טילים שיוחסה לחות'ים פגעה במגדל ארמקו בריאד בירת סעודיה, מה שהוביל לאזהרת מסע מרכזית באזור.",
-     "en": "A missile strike damaged an Aramco tower in Riyadh, Saudi Arabia, leading to major travel warnings near the airport.",
-     "ar": "تسبب هجوم صاروخي في أضرار ببرج أرامكو في الرياض بالمملكة العربية السعودية، مما أدى إلى تحذيرات سفر رئيسية.",
-     "ru": "Ракетный удар повредил башню Aramco в Эр-Рияде, Саудовская Аравия, что привело к серьезным предупреждениям о поездках."
-    }
-   }
-  ],
-  "last_update": 1794275976,
-  "evaluated": true
- },
- {
-  "ts": 1794268511,
-  "time": "2026-11-09T23:55Z",
   "title": "הזהב עולה בכמעט 2% לקראת פרסום מדד האינפלציה",
   "summary": "מחיר הזהב זינק בכמעט 2% על רקע היחלשות הדולר וירידת מחירי הנפט, לקראת פרסום נתוני מדד המחירים לצרכן בארצות הברית.",
   "kid": "מחירי הזהב עולים בחדות בזמן שהדולר נחלש ולקראת דיווח חשוב על עליית המחירים בארה\"ב. משקיעים קונים זהב כדי לגונן על כספם מפני אינפלציה ותנודתיות בשווקים.",
@@ -2536,190 +2426,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794272223,
-  "time": "2026-11-10T00:57Z",
-  "title": "קוסקו שיפינג מזמינה מכליות נפט בהיקף מיליארדי יואן",
-  "summary": "חברת הבת של COSCO Shipping Energy חתמה על עסקאות לחכירה ובנייה של מכליות נפט רבות (VLCC) בהיקף כולל של למעלה מ-23 מיליארד יואן.",
-  "kid": "ענקית הספנות קוסקו מזמינה ומשכירה הרבה מכליות ענק לנפט. זה מראה על ביקוש גבוה להובלת אנרגיה ויכול להשפיע על חברות בניית ספינות וספנות.",
-  "i18n": {
-   "title": {
-    "he": "קוסקו שיפינג מזמינה מכליות נפט בהיקף מיליארדי יואן",
-    "en": "COSCO Shipping orders tankers in multi-billion yuan deals",
-    "ar": "كوسكو لشحن الطاقة تطلب ناقلات صفقات بمليارات اليوانات",
-    "ru": "COSCO Shipping заказывает танкеры на миллиарды юаней"
-   },
-   "summary": {
-    "he": "חברת הבת של COSCO Shipping Energy חתמה על עסקאות לחכירה ובנייה של מכליות נפט רבות (VLCC) בהיקף כולל של למעלה מ-23 מיליארד יואן.",
-    "en": "COSCO Shipping Energy subsidiaries have agreed to charter 14 VLCC tankers and build six new ones in deals totalling over 23 billion yuan.",
-    "ar": "وافقت الشركات التابعة لشركة COSCO Shipping Energy على استئجار وبناء ناقلات نفط عملاقة بقيمة إجمالية تتجاوز 23 مليار يوان.",
-    "ru": "Дочерние компании COSCO Shipping Energy договорились об аренде и строительстве нефтяных танкеров на сумму более 23 млрд юаней."
-   },
-   "kid": {
-    "he": "ענקית הספנות קוסקו מזמינה ומשכירה הרבה מכליות ענק לנפט. זה מראה על ביקוש גבוה להובלת אנרגיה ויכול להשפיע על חברות בניית ספינות וספנות.",
-    "en": "Shipping giant COSCO is ordering and leasing many huge oil tankers. This shows strong demand for energy transport and impacts shipping firms.",
-    "ar": "تطلب عملاق الشحن كوسكو وتستأجر العديد من ناقلات النفط الضخمة، مما يعكس طلباً قوياً على نقل الطاقة.",
-    "ru": "Судоходный гигант COSCO заказывает и арендует множество нефтяных танкеров, что указывает на высокий спрос на энергоносители."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU2lEZm1CcWlOZzVSVi1fV0Jvd2J1T0J1WHhSdFNhNk1yUXlCMGRmeDlHVVJUeXRzYklJYThJWnBUblA3SDdJUVJoZ213c2djNU8xWi1DdVV5TGVLWHBIYXYtX2RwVDNEbmx1T3lHUGxWdjVOVWIxazJVd0U0b3o0NTVZT2dMLVJjbndKaGV2aG9WMTJsX3NIUS1WRWFUTkt1Q0RqblR3c1ZaUDNLVURRVG9uQ1lFc2RaR0hEbEJvM3g3YzhIN3ZtOC01RFkyUQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNODdIVVVKa3MwSVpvdXJNRjBrQ0lLZjlyMkxnemJkU0p0NHp0d3pydGpCOV8tRDhkUmZIdEhWMEJQa1hYQXd6eEhnZlUwMC1SUnh3U2YwbHdvWlhFWlRtOC1xWTJMSnlZYXJ0eGdXZmZaZ3FJRU5obHVHNEtTTUVFeHY5U2dtem9KZ09fWm9BNFdLaERIbGc4YjBtQ2lBdHZXWWNidnY2bHFpbGdKcWc0M0MwcmJPSnAzMU9vNzFsMEJ6VGI4WXZESXVzSkU?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1794272223,
-    "reason": "השקעות ענק בענף הספנות והמכליות מעידות על תחזית חיובית לביקושים ימיים.",
-    "reason_i18n": {
-     "he": "השקעות ענק בענף הספנות והמכליות מעידות על תחזית חיובית לביקושים ימיים.",
-     "en": "Massive capital deployment in shipping points to robust long-term maritime demand.",
-     "ar": "تشير الاستفادة الضخمة في قطاع الشحن إلى طلب بحري قوي ومستدام.",
-     "ru": "Масштабные инвестиции в судоходство указывают на устойчивый долгосрочный спрос."
-    },
-    "name_i18n": {
-     "he": "צים - חברת ספנות ימית",
-     "en": "ZIM - Marine shipping company",
-     "ar": "צים - شركة الشحن البحري",
-     "ru": "ZIM - морская судоходная компания"
-    },
-    "price_at_alert": 28.51,
-    "entry_price": 28.14,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 29.01,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.09,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.5,
-    "edge_pct": 1.5,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "a2ed2c724e01",
-  "updates": [
-   {
-    "ts": 1794275976,
-    "time": "2026-11-10T01:59Z",
-    "severity": 3,
-    "summary": "חברת הבת של קוסקו שיפינג תרכוש מספר מכליות נפט בהיקף של מיליארדי יואן, בנוסף לעסקאות מכירה קטנות יותר בשיתוף פעולה עם MOL.",
-    "i18n": {
-     "he": "חברת הבת של קוסקו שיפינג תרכוש מספר מכליות נפט בהיקף של מיליארדי יואן, בנוסף לעסקאות מכירה קטנות יותר בשיתוף פעולה עם MOL.",
-     "en": "A subsidiary of COSCO Shipping Energy Transportation is set to buy four tankers for 3.79 billion yuan, alongside other vessel transactions.",
-     "ar": "ستقوم شركة تابعة لـ كوسكو شيبينغ بشراء ناقلات نفت بقيمة مليارات اليوان إلى جانب صفقات سفن أخرى.",
-     "ru": "Дочерняя компания COSCO Shipping Energy Transportation купит несколько танкеров на миллиарды юаней вместе с другими сделками."
-    }
-   }
-  ],
-  "last_update": 1794275976,
-  "evaluated": true
- },
- {
-  "ts": 1794275976,
-  "time": "2026-11-10T01:59Z",
-  "title": "בחינת האפשרות להחמרת בקרת הייצוא על מעבדי אנבידיה",
-  "summary": "אנליסטים וגורמים רגולטוריים דנים באפשרות להטלת בקרות ייצוא מחמירות יותר על מעבדים מתקדמים של חברת אנבידיה.",
-  "kid": "יש דיבורים על כך שממשלת ארה\"ב תאסור למכור שבבים מתקדמים למדינות מסוימות. זה יכול להשפיע על מכירות אנבידיה.",
-  "i18n": {
-   "title": {
-    "he": "בחינת האפשרות להחמרת בקרת הייצוא על מעבדי אנבידיה",
-    "en": "Are tighter export controls coming for NVIDIA processors?",
-    "ar": "هل تأتي ضوابط تصدير أشد صرامة لمعالجات إنفيديا؟",
-    "ru": "Ожидаются ли более жесткие экспортные ограничения на процессоры NVIDIA?"
-   },
-   "summary": {
-    "he": "אנליסטים וגורמים רגולטוריים דנים באפשרות להטלת בקרות ייצוא מחמירות יותר על מעבדים מתקדמים של חברת אנבידיה.",
-    "en": "Discussion and analysis grow around whether tighter government export controls will be imposed on NVIDIA advanced processors.",
-    "ar": "تتزايد المناقشات حول ما إذا كان سيتم فرض ضوابط تصدير أكثر صارمة على معالجات إنفيديا المتقدمة.",
-    "ru": "Растут обсуждения относительно того, будут ли введены более жесткие экспортные ограничения на передовые процессоры NVIDIA."
-   },
-   "kid": {
-    "he": "יש דיבורים על כך שממשלת ארה\"ב תאסור למכור שבבים מתקדמים למדינות מסוימות. זה יכול להשפיע על מכירות אנבידיה.",
-    "en": "There is talk that the US government might ban selling advanced chips to certain countries. This could affect Nvidia's sales.",
-    "ar": "هناك حديث عن احتمال منع الحكومة الأمريكية بيع الرقائق المتقدمة لبعض الدول. هذا قد يؤثر على مبيعات إنفيديا.",
-    "ru": "Ходят слухи, что правительство США может запретить продажу передовых чипов некоторым странам. Это может повлиять на продажи Nvidia."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794275976,
-    "reason": "החמרת בקרות ייצוא עלולה להגביל את מכירות השבבים לשווקים בינלאומיים מרכזיים.",
-    "reason_i18n": {
-     "he": "החמרת בקרות ייצוא עלולה להגביל את מכירות השבבים לשווקים בינלאומיים מרכזיים.",
-     "en": "Tighter export controls could restrict chip sales to major international markets.",
-     "ar": "قد تؤدي ضوابط التصدير الأكثر صارمة إلى تقييد مبيعات الرقائق في الأسواق الدولية الرئيسية.",
-     "ru": "Ужесточение экспортного контроля может ограничить продажи чипов на ключевые международные рынки."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
-     "en": "Nvidia – AI chip maker",
-     "ar": "Nvidia - صانعة رقائق الذكاء الاصطناعي",
-     "ru": "Nvidia - производитель чипов ИИ"
-    },
-    "price_at_alert": 178.67,
-    "entry_price": 173.98,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 173.85,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.07,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.66,
-    "edge_pct": 1.66,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1794275976,
-    "reason": "מגבלות סחר חדשות על ענקית שבבים פוגעות בסנטימנט של כל סקטור השבבים.",
-    "reason_i18n": {
-     "he": "מגבלות סחר חדשות על ענקית שבבים פוגעות בסנטימנט של כל סקטור השבבים.",
-     "en": "New trade restrictions on a chip giant hurt sentiment across the semiconductor sector.",
-     "ar": "قيود التجارة الجديدة على عملاق الرقائق تضر بمعنويات قطاع أشباه الموصلات بأكمله.",
-     "ru": "Новые торговые ограничения против гиганта чипов портят настроения в полупроводниковом секторе."
-    },
-    "name_i18n": {
-     "he": "SMH - קרן סל סקטור השבבים",
-     "en": "SMH – semiconductor ETF",
-     "ar": "SMH - صندوق مؤشرات أشباه الموصلات",
-     "ru": "SMH - ETF полупроводников"
-    },
-    "price_at_alert": 487.41,
-    "entry_price": 478.57,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 507.23,
-    "exit_date": "2026-11-11",
-    "change_pct": 5.99,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 4.4,
-    "edge_pct": -4.4,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "521f2e56c821",
-  "evaluated": true
- },
- {
   "ts": 1794275976,
   "time": "2026-11-10T01:59Z",
   "title": "מניות סופטבנק מזנקות בעקבות התאוששות מניות הטכנולוגיה באסיה ובארה\"ב",
@@ -2832,201 +2538,6 @@
    }
   ],
   "last_update": 1794284881,
-  "evaluated": true
- },
- {
-  "ts": 1794275976,
-  "time": "2026-11-10T01:59Z",
-  "title": "דרום קוריאה מבקשת לשמור על מכסי ארה\"ב ברמה של 15% במסגרת חקירת סחר",
-  "summary": "ממשלת דרום קוריאה פועלת מול הרשויות בארצות הברית כדי לשמור על שיעור המכסים ברמה של 15% בעיצומה של חקירת סחר.",
-  "kid": "מדינה זרה מנסה למנוע מסים גבוהים על מוצרים שהיא מוכרת לארה\"ב. זה חשוב לחברות יצוא בינלאומיות.",
-  "i18n": {
-   "title": {
-    "he": "דרום קוריאה מבקשת לשמור על מכסי ארה\"ב ברמה של 15% במסגרת חקירת סחר",
-    "en": "South Korea seeks to keep U.S. tariffs at 15% amid trade probe",
-    "ar": "كوريا الجنوبية تسعى للحفاظ على الرسوم الجمركية الأمريكية عند 15% وسط تحقيق تجاري",
-    "ru": "Южная Корея стремится сохранить пошлины США на уровне 15% на фоне торгового расследования"
-   },
-   "summary": {
-    "he": "ממשלת דרום קוריאה פועלת מול הרשויות בארצות הברית כדי לשמור על שיעור המכסים ברמה של 15% בעיצומה של חקירת סחר.",
-    "en": "South Korea is actively negotiating to keep U.S. tariffs capped at 15% amidst an ongoing trade investigation.",
-    "ar": "تسعى حكومة كوريا الجنوبية جاهدة للحفاظ على الرسوم الجمركية الأمريكية عند 15% وسط تحقيق تجاري مستمر.",
-    "ru": "Южная Корея активно ведет переговоры о сохранении пошлин США на уровне 15% на фоне продолжающегося торгового расследования."
-   },
-   "kid": {
-    "he": "מדינה זרה מנסה למנוע מסים גבוהים על מוצרים שהיא מוכרת לארה\"ב. זה חשוב לחברות יצוא בינלאומיות.",
-    "en": "A foreign country is trying to prevent high taxes on products it sells to the US. This matters for global exporters.",
-    "ar": "تحاول دولة أجنبية منع فرض ضرائب عالية على منتجاتها المصدرة إلى أمريكا. هذا مهم للشركات المصدرة.",
-    "ru": "Иностранное государство пытается предотвратить высокие налоги на экспортируемые в США товары. Это важно для экспортеров."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWY",
-    "direction": "up",
-    "t0": 1794275976,
-    "reason": "מניעת העלאת מכסים חמורה מפחיתה את אי-הוודאות עבור חברות ויצואנים מקומיים.",
-    "reason_i18n": {
-     "he": "מניעת העלאת מכסים חמורה מפחיתה את אי-הוודאות עבור חברות ויצואנים מקומיים.",
-     "en": "Preventing severe tariff hikes reduces uncertainty for local firms and exporters.",
-     "ar": "منع زيادات الرسوم الجمركية الحادة يقلل من عدم اليقين للشركات والمصدرين المحليين.",
-     "ru": "Предотвращение резкого роста пошлин снижает неопределенность для местных компаний и экспортеров."
-    },
-    "name_i18n": {
-     "he": "EWY - קרן סל מניות דרום קוריאה",
-     "en": "EWY – South Korea ETF",
-     "ar": "EWY - صندوق مؤشرات كوريا الجنوبية",
-     "ru": "EWY - ETF акций Южной Кореи"
-    },
-    "price_at_alert": 142.1,
-    "entry_price": 139.66,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 147.79,
-    "exit_date": "2026-11-11",
-    "change_pct": 5.82,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 4.23,
-    "edge_pct": 4.23,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b3146019b37e",
-  "evaluated": true
- },
- {
-  "ts": 1794275976,
-  "time": "2026-11-10T01:59Z",
-  "title": "התפרצויות מחלות ואזהרות ביוסיקורטי להבטחת בריאות הציבור",
-  "summary": "רשויות הבריאות מדווחות על המשך מעקב אחר התפרצויות מחלות כמו אבולה ושפעת העופות, לצד אזהרות על ביוסיקורטי.",
-  "kid": "יש דיווחים על מחלות חדשות שמתפשטות במקומות שונים. זה יכול להשפיע על חברות שמייצרות תרופות וחיסונים.",
-  "i18n": {
-   "title": {
-    "he": "התפרצויות מחלות ואזהרות ביוסיקורטי להבטחת בריאות הציבור",
-    "en": "Disease outbreaks and biosecurity warnings for public health",
-    "ar": "تفشي الأمراض وتحذيرات الأمن البيولوجي للصحة العامة",
-    "ru": "Вспышки заболеваний и предупреждения по биобезопасности для общественного здравоохранения"
-   },
-   "summary": {
-    "he": "רשויות הבריאות מדווחות על המשך מעקב אחר התפרצויות מחלות כמו אבולה ושפעת העופות, לצד אזהרות על ביוסיקורטי.",
-    "en": "Health authorities continue monitoring disease outbreaks including an ongoing Ebola flare-up and bird flu risks, while issuing biosecurity warnings.",
-    "ar": "تواصل السلطات الصحية مراقبة تفشي الأمراض بما في ذلك الإيبولا وإنفلونزا الطيور وإصدار تحذيرات الأمن البيولوجي.",
-    "ru": "Органы здравоохранения продолжают мониторинг вспышек заболеваний, включая Эболу и птичий грипп, выпуская предупреждения."
-   },
-   "kid": {
-    "he": "יש דיווחים על מחלות חדשות שמתפשטות במקומות שונים. זה יכול להשפיע על חברות שמייצרות תרופות וחיסונים.",
-    "en": "There are reports of diseases spreading in various places. This can affect companies that make medicines and vaccines.",
-    "ar": "هناك تقارير عن انتشار أمراض في أماكن مختلفة. هذا يمكن أن يؤثر على الشركات التي تنتج الأدوية واللقاحات.",
-    "ru": "Поступают сообщения о распространении болезней в разных местах. Это может повлиять на компании, производящие лекарства и вакцины."
-   }
-  },
-  "category": "health",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1794275976,
-    "reason": "חששות מפני התפרצויות מחלות מעלים את הביקוש למניות ביוטכנולוגיה וחיסונים.",
-    "reason_i18n": {
-     "he": "חששות מפני התפרצויות מחלות מעלים את הביקוש למניות ביוטכנולוגיה וחיסונים.",
-     "en": "Concerns over disease outbreaks increase demand for biotech and vaccine stocks.",
-     "ar": "المخاوف بشأن تفشي الأمراض تزيد الطلب على أسهم التكنولوجيا الحيوية واللقاحات.",
-     "ru": "Опасения по поводу вспышек заболеваний повышают спрос на биотехнологические акции."
-    },
-    "name_i18n": {
-     "he": "מודרנה - חברת ביוטכנולוגיה וחיסונים",
-     "en": "Moderna – biotech and vaccine maker",
-     "ar": "Moderna - شركة التكنولوجيا الحيوية واللقاحات",
-     "ru": "Moderna - биотехнологическая компания"
-    },
-    "price_at_alert": 269.0,
-    "entry_price": 265.8575,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 248.8,
-    "exit_date": "2026-11-11",
-    "change_pct": -6.42,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -8.01,
-    "edge_pct": -8.01,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "2a41240c80d8",
-  "evaluated": true
- },
- {
-  "ts": 1794275976,
-  "time": "2026-11-10T01:59Z",
-  "title": "סמסונג פייר אנד מרין תרכוש החזקת שליטה בחברת הביטוח קנופיוס",
-  "summary": "חברת הביטוח סמסונג פייר אנד מרין מתכננת לרכוש החזקת רוב בחברת הביטוח של לוידס, קנופיוס.",
-  "kid": "חברת ענק קונה חברת ביטוח גדולה אחרת. זה מראה על עסקאות ענק בעולם הביטוח והפיננסים.",
-  "i18n": {
-   "title": {
-    "he": "סמסונג פייר אנד מרין תרכוש החזקת שליטה בחברת הביטוח קנופיוס",
-    "en": "Samsung Fire & Marine to take majority stake in Lloyd’s insurer Canopius",
-    "ar": "سامسونج فاير آند مارين ستستحوذ على حصة الأغلبية في شركة التأمين كانوبيوس",
-    "ru": "Samsung Fire & Marine приобретет контрольный пакет акций страховщика Canopius"
-   },
-   "summary": {
-    "he": "חברת הביטוח סמסונג פייר אנד מרין מתכננת לרכוש החזקת רוב בחברת הביטוח של לוידס, קנופיוס.",
-    "en": "Samsung Fire & Marine Insurance is moving to acquire a majority stake in Lloyd’s insurer Canopius.",
-    "ar": "تخطط شركة سامسونج فاير آند مارين للتأمين للاستحواذ على حصة الأغلبية في شركة التأمين كانوبيوس التابعة للويدز.",
-    "ru": "Samsung Fire & Marine Insurance намерена приобрести контрольный пакет акций страховщика Canopius."
-   },
-   "kid": {
-    "he": "חברת ענק קונה חברת ביטוח גדולה אחרת. זה מראה על עסקאות ענק בעולם הביטוח והפיננסים.",
-    "en": "A giant company is buying another large insurance business. This shows massive deals in the insurance and finance world.",
-    "ar": "شركة عملاقة تشتري شركة تأمين كبرى أخرى. هذا يظهر صفقات ضخمة في عالم التأمين والتمويل.",
-    "ru": "Крупная компания покупает другой крупный страховой бизнес. Это демонстрирует масштабные сделки в мире страхования и финансов."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLF",
-    "direction": "up",
-    "t0": 1794275976,
-    "reason": "עסקאות מיזוג ורכישה גדולות בסקטור הפיננסי תומכות באמון המשקיעים.",
-    "reason_i18n": {
-     "he": "עסקאות מיזוג ורכישה גדולות בסקטור הפיננסי תומכות באמון המשקיעים.",
-     "en": "Large M&A deals in the financial sector support investor confidence.",
-     "ar": "صفقات الدمج والاستحواذ الكبيرة في القطاع المالي تدعم ثقة المستثمرين.",
-     "ru": "Крупные сделки M&A в финансовом секторе поддерживают уверенность инвесторов."
-    },
-    "name_i18n": {
-     "he": "XLF - קרן סל של סקטור הפיננסים",
-     "en": "XLF – financials sector ETF",
-     "ar": "XLF - صندوق مؤشرات قطاع المال",
-     "ru": "XLF - ETF финансового сектора"
-    },
-    "price_at_alert": 57.99,
-    "entry_price": 58.2,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 58.615,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.71,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -0.88,
-    "edge_pct": -0.88,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "17c75adf4099",
   "evaluated": true
  },
  {
@@ -46507,5 +46018,86 @@
    }
   ],
   "id": "55f0f8282fd9"
+ },
+ {
+  "ts": 1794881479,
+  "time": "2026-11-17T02:11Z",
+  "title": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
+  "summary": "כוחות החות'ים ממשיכים להתקדם בדרום תימן לעבר העיר עדן, בעוד צבא תימן מדווח על מאות נפגעים בקרבות. במקביל, ג'יי.די ואנס הצהיר כי ארה\"ב לא תגרר למלחמות נצח באזור.",
+  "kid": "הלחימה בתימן מתגברת והחות'ים מתקרבים לעיר חשובה. זה עלול להשפיע על מחירי הנפט והספנות באזור, מה שמשפיע על מניות של חברות אנרגיה ושינוע.",
+  "i18n": {
+   "title": {
+    "he": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
+    "en": "Escalation in Yemen: Houthis advance towards Aden",
+    "ar": "تصعيد في القتال في اليمن: الحوثيون يتقدمون نحو عدن",
+    "ru": "Эскалация в Йемене: хуситы продвигаются к Адену"
+   },
+   "summary": {
+    "he": "כוחות החות'ים ממשיכים להתקדם בדרום תימן לעבר העיר עדן, בעוד צבא תימן מדווח על מאות נפגעים בקרבות. במקביל, ג'יי.די ואנס הצהיר כי ארה\"ב לא תגרר למלחמות נצח באזור.",
+    "en": "Houthi forces continue their advance in southern Yemen towards Aden, with the Yemeni army reporting hundreds of casualties. Meanwhile, JD Vance stated the US will avoid 'forever wars' in the region.",
+    "ar": "تواصل قوات الحوثيين تقدمها في جنوب اليمن نحو عدن، مع إبلاغ الجيش اليمني عن مئات الإصابات في المعارك. في غضون ذلك، صرح جي دي فانس بأن الولايات المتحدة ستتجنب 'حروب الأبد' في المنطقة.",
+    "ru": "Силы хуситов продолжают наступление на юге Йемена в сторону Адена, йеменская армия сообщает о сотнях пострадавших. Тем временем Джей Ди Вэнс заявил, что США будут избегать участия в «бесконечных войнах» в регионе."
+   },
+   "kid": {
+    "he": "הלחימה בתימן מתגברת והחות'ים מתקרבים לעיר חשובה. זה עלול להשפיע על מחירי הנפט והספנות באזור, מה שמשפיע על מניות של חברות אנרגיה ושינוע.",
+    "en": "Fighting in Yemen is getting worse as the Houthis move closer to a key city. This can affect oil prices and shipping routes, which might change the stock prices of energy and shipping companies.",
+    "ar": "القتال في اليمن يزداد سوءاً مع اقتراب الحوثيين من مدينة رئيسية. هذا قد يؤثر على أسعار النفط وطرق الشحن، مما قد يغير أسعار أسهم شركات الطاقة والشحن.",
+    "ru": "Боевые действия в Йемене усиливаются, хуситы приближаются к важному городу. Это может повлиять на цены на нефть и морские перевозки, что может изменить стоимость акций энергетических и транспортных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794881479,
+    "reason": "חשש משיבושים באספקת הנפט בים האדום",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט בים האדום",
+     "en": "Concerns over Red Sea oil supply disruptions",
+     "ar": "مخاوف من اضطرابات إمدادات النفط في البحر الأحمر",
+     "ru": "Опасения по поводу перебоев в поставках нефти в Красном море"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 140.03
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794881479,
+    "reason": "עלייה אפשרית בעלויות הובלה עקב סיכונים ביטחוניים",
+    "reason_i18n": {
+     "he": "עלייה אפשרית בעלויות הובלה עקב סיכונים ביטחוניים",
+     "en": "Potential rise in shipping costs due to security risks",
+     "ar": "ارتفاع محتمل في تكاليف الشحن بسبب المخاطر الأمنية",
+     "ru": "Возможный рост стоимости перевозок из-за рисков безопасности"
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM - Shipping company",
+     "ar": "زيم - شركة شحن",
+     "ru": "ZIM - судоходная компания"
+    },
+    "price_at_alert": 29.11
+   }
+  ],
+  "id": "35b085f57552"
  }
 ]
