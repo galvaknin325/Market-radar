@@ -39124,10 +39124,12 @@
      "ar": "ABB - شركة تكنولوجيا صناعية",
      "ru": "ABB - компания промышленных технологий"
     },
-    "price_at_alert": null
+    "price_at_alert": null,
+    "no_data": true
    }
   ],
-  "id": "5097cdfe4902"
+  "id": "5097cdfe4902",
+  "evaluated": true
  },
  {
   "ts": 1794051329,
@@ -105722,12 +105724,20 @@
    }
   },
   "category": "policy",
-  "severity": 4,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcVc4SXNRZjh5TDhqUjY0d2ZQSHNud0ZoaTQ4b2VsX0w0NjhhVFJkRzdpS3JJckM3S1NjLTVocjhtMFVrSGV4T2k1dGdydk1PRzRnNUs4OGJ2amV4U3BQVzhmV3ZtemxtNHZxRFd0bEhRaENNQlhNblp2cENRS05YUmF2XzZ4M1dHWVZIRUVoai1oQ24x?oc=5"
    }
   ],
   "impacts": [
@@ -105749,9 +105759,43 @@
      "ru": "Nvidia – производитель чипов"
     },
     "price_at_alert": 156.14
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1794915235,
+    "reason": "חשש מהחמרת מגבלות הסחר על שבבים מתקדמים לסין.",
+    "reason_i18n": {
+     "he": "חשש מהחמרת מגבלות הסחר על שבבים מתקדמים לסין.",
+     "en": "Concerns over tighter trade restrictions on advanced chips to China.",
+     "ar": "مخاوف بشأن قيود تجارية أكثر صارمة على الرقاقات المتقدمة للصين.",
+     "ru": "Опасения по поводу ужесточения торговых ограничений на передовые чипы в Китай."
+    },
+    "name_i18n": {
+     "he": "קרן סל סמיקונדקטורים",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF на полупроводники"
+    },
+    "price_at_alert": 461.9
    }
   ],
-  "id": "14f7eaba7526"
+  "id": "14f7eaba7526",
+  "updates": [
+   {
+    "ts": 1794915235,
+    "time": "2026-11-17T11:33Z",
+    "severity": 5,
+    "summary": "ממשלת ארה\"ב פתחה בחקירה נגד חברת Megaspeed מסינגפור בחשד לסיוע בהעברת שבבי AI מתקדמים של נבידיה לסין. במקביל, נבידיה הקימה ועדה לביטחון לאומי לנוכח הידוק בקרת היצוא.",
+    "i18n": {
+     "he": "ממשלת ארה\"ב פתחה בחקירה נגד חברת Megaspeed מסינגפור בחשד לסיוע בהעברת שבבי AI מתקדמים של נבידיה לסין. במקביל, נבידיה הקימה ועדה לביטחון לאומי לנוכח הידוק בקרת היצוא.",
+     "en": "The US government confirmed an investigation into Singapore-based Megaspeed for allegedly shipping high-end Nvidia AI chips to China. Meanwhile, Nvidia formed a national security committee amid tighter export controls.",
+     "ar": "أكدت الحكومة الأمريكية تحقيقاً في شركتي ميغاسبيد ومقرها سنغافورة للاشتباه في مساعدتها في شحن رقاقات الذكاء الاصطناعي المتقدمة من نيفيديا إلى الصين. في الوقت نفسه، شكلت نيفيديا لجنة للأمن القومي.",
+     "ru": "Правительство США подтвердило расследование в отношении сингапурской Megaspeed по подозрению в поставках передовых чипов Nvidia ИИ в Китай. Тем временем Nvidia создала комитет национальной безопасности."
+    }
+   }
+  ],
+  "last_update": 1794915235
  },
  {
   "ts": 1794899558,
@@ -105786,6 +105830,18 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mbWRBOXdCRUU4a3YtLTUwaEp3NUZmSHpjY0FFNEpJdWZHSmtVWGpPMnFvUlg0RENoYnVUQUdTMk9zaHlLTUo2ZVdXM1RaeE5MWF81cFlyOEVpSExmQWQ2WnJMMWY1aEk?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSFpIVld5NGdnRk85Mzlxd1ZmSnZSdUxBZDhlRkxINE1mWFY0MEhrazNDa1BqU1M5Y254ZjVyTFRUT3lIZ2Fpa1QyU2VtbTVnN2JJOU1OUW14WWNoUmltdm8yYVQtUkJUZmtvbE5Wa1M5b0U4YmlKd3NvZy16N1VhSlBmcVJpSkN4WWFxR0FCMm1yX0pPWUtTSHdtNXJXZlE?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc2NBeFRYb2NFSUdnaW5zVzA1c1NyUnlNcXg3aU9id3EyQ0d5TWlCVGt0dmdHUVdnWXp6SGoyQW0taC1laUZzMTNsVE01TGNkdE9sVFdqaFk2TGYxVWdVZEt1bk8tXzl0VjBtUHZub1JWSGd2ZU0tSmoyRmcxLVA2Qk13WERiWWVla3pjVnJuUkxIZjdGczRZbVQ4dGhWWEF3NG96NnZMZ1pRdDVpM1ZFT1RKbnY1OUN3MFhFWEoyZi1YQQ?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR2pzNzViZVBiam8yX3NiMmZjeHM3U05hdDBPUVVwaEEzSmlldGEzQnRSVEZQQWRIQ0Q0QkFrNmdxaHVzWXAzVnhJZElpRElHdUJReHVZYy1lTnpPSDc3aklDcmoxTHl3TXRENHdXM2c0bElPbUc5YTk5NVNvSklSSUh4RmgxeVU1VFFFSVd4TzJZTG1xdjBFaDNIRDZNMEtCRUJXa0Eycy1mYWZmdkJQVHpBOFRJOHpEQmU5SWVLdzJsejdhZHkw?oc=5"
    }
   ],
   "impacts": [
@@ -105841,9 +105897,21 @@
      "ar": "أعلنت إلبيت سيستمز عن نتائج تفوق التوقعات بارتفاع الإيرادات 17% ودفتر طلبيات قياسي بـ 33 مليار دولار.",
      "ru": "Elbit Systems сообщила о превзошедших ожидания результатах: выручка выросла на 17%, портфель заказов достиг рекордных $33 млрд."
     }
+   },
+   {
+    "ts": 1794915235,
+    "time": "2026-11-17T11:33Z",
+    "severity": 4,
+    "summary": "אלביט מערכות דיווחה על תוצאות חזקות לרבעון השלישי ועל עלייה ברווחים, כאשר צבר ההזמנות שלה הגיע לשיא של 33 מיליארד דולר למרות עיכובים מסוימים באספקה לרומניה.",
+    "i18n": {
+     "he": "אלביט מערכות דיווחה על תוצאות חזקות לרבעון השלישי ועל עלייה ברווחים, כאשר צבר ההזמנות שלה הגיע לשיא של 33 מיליארד דולר למרות עיכובים מסוימים באספקה לרומניה.",
+     "en": "Elbit Systems reported strong Q3 results and a jump in profit as its order backlog reached a record $33 billion, offsetting minor delays in drone deliveries to Romania.",
+     "ar": "أعلنت شركة إلبيت سيستمز عن نتائج قوية للربع الثالث وارتفاع الأرباح حيث بلغ سجل طلباتها رقماً قياسياً قدره 33 مليار دولار.",
+     "ru": "Компания Elbit Systems отчиталась о сильных результатах за третий квартал и росте прибыли, а ее портфель заказов достиг рекордных $33 млрд."
+    }
    }
   ],
-  "last_update": 1794908105
+  "last_update": 1794915235
  },
  {
   "ts": 1794899558,
@@ -106089,21 +106157,9 @@
    }
   },
   "category": "cyber",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOa2Rtdjg4M3RTTlo4LUdGaWhJaVd6Zk5MQ3VyVlNkLUlJLVkwemtfalIxOTI3TGtGczR1UlZZZS0zVm5Gc3dwUG1MZHliMDZwdlQtTG9oeHBhZVBsSXc0Z2JGQ1FNbl84MUIySUJMLVJNWTcyU0FWTEhua2VNOHM2LXBNOWJkSC1MTmt4bi1Kb25YSWVFcTIzNmdfaWdvZTF4Rk5maXN5Vl9HdlZnWF9saEt3OTdsMzJwcVRDaTBNV0t3X055QmZGcFB5WTJSUm9rUE1aMTAydGJwby16TTk1RjhZd1pMT2ktMTFFUFZrY2VhODRDVlduQllRMNIBgAJBVV95cUxQa0Vpc2dGTy1pNXVqdHBXVWhQbmU3UGRRVC1IZG53MjczQjdKLTBlUkF6RHpTbE92UkhKQnY2NERCSDZKeDIwMHo5OUZfVExOV1BOTGZLODNtbFdHVVA1ZHZ5a1JUdk4zN3N4MlFEYUs0NjE2V2RzaFVYSzNKLVZPTVh0UzRaRnhZV2FETFc2dVJ3T0NZeUJTMmpTaHBGaWZzMUJQMFhFbmtFY016U0JJZ09VZXlBYVhiTm54QW9fc1VjNHBWcjJfSlNSWFRSdkVyekctSWcwRDM1bDVsUXlmYlc3dFc3Q1pEU05jZGE1Y3NBbWtHS0NuMzhWLWFub3kw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbHVuWDRXWDVoZW0yMGFSVWZObmpGWnRFT2s1VVplQUdBWnpwU2ctRm0zVUhESzVRSVEwTFdzZWhNTlo2Y1FvODRiZlZUMjlQNGtuYVBwNEd3YkVHM3h4aXMtZGs4VjZ6UURVV1NDTklaMml6dV9PTjNtR3U0WkdaMWNlSkdLcHg0S2wxNkxORF9zNkp2cDdkWTZOeUxtaHBWQlZ3N0xkRER4QmNGRHNYV1NqSktNcDVNVkxZZ3FUTXc?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV25YdWkxZGdXZGNhVnRQNGE2TWdQWmpYSGt1NmtsaklGcjVyOEdNczdhWUZPS1B1UUh5NEkwTmZacUc1RWV2Vl8tajJOVGxtUmZBSUNoTnNiSUh1OFdlTW9ycGV4UGJZb0NGb1VOTnFWYUE1bkNNZ1BGZGxSbGNTN0lFOHhOWEpFMkNOajQ1Y2hSVWVtMW9vNzcxblhCejQ4SkpnZDVMcmY3ZEtFazB1cGNTYXdzUQ?oc=5"
-   },
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWVpZQ2w4NlVQYzQyV3d0V0hyaGNSR3g0b1QyQ0RTWTBnZmoxZTlibk5zaEpRdDNVX0xuRFEzNVlrX3QxN2FCenhZcTNEWGplbmhDR2NJa01oZE9ZZlI5YkJZQXd0Y1VXRlE5OHljZVlxdlprR29XVFhQczdiNzNpeDdNZHBCSWhCcllUUUtTRlhFUndOc2xpSEVCWXhqRWpWWnkzTlo2b1cxRzk4aC15bkhqNTBLOU9LSDVLeGhwWFlkZUNzdlZBSThzd2tYdDVCYTl5aEkxQXFUaF9mUU1tdmlTVS1xaXN1WWRaaXRxRdIB9AFBVV95cUxPS2xPR3U4dXpWUlMzaEhnMzVNZDVNUEVhRHVqS0ZlUDNXZjNDdktpVFl5N1lhbC1helhkRmc0NFV0MDlkUVcwYzhlRlk1Sk83YVJ0SnJscVhteWhJQjN6N1NWVnJVcUlTeXNINURBY25fZXkxbXpVNmwwcGFocGtmSG5CMDByVk9yMUpMTUlRSEdoZjZsN1BMWFJhRmgxQjRJUkxWeWlrZVVyc1lPak5mbHk0dlFYUWZyVmhLOEhiRkVWaUNvQnh4SURqU3ZfbVVDcDBZdWtEQm1JQWp6aHpzYmpMdUZyWnpPbmlUSWJHZG04b0ZY?oc=5"
@@ -106115,6 +106171,18 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU19ZeGxxN3hjcGhrMmVVTUVjY0dkZ3ZHTkR2VmZnNExoVE5aX3paaDRWaFU5WHlkbDRqaENSMWlnWUlsX2dESXMxS3hXcHFoemhQYW9jWmRZelZieDZNQ0JFYVZ4dnZTXzJ5OWdNTTJ3S2JaYWRlbGJmQXEyczIzdUNGLUk5c3pJR1dlZkhxMHhDQVZDTDNnTm9XSW9KaDR3clZHZXFTelhxWTRwUzJNUGY5YzkwblhZaFBUeHRKUS1LUGVfMUZrVUdjak5JeWvSAdQBQVVfeXFMUDd1V3JFODFYcVhHdWN6UzZydjAyT2ItY2NpNlczd29kVGkzcVY5UG9GOHIybjBvNUpya25SQ2hpVlBHRnJseVJGcEdyak5udlVFckt5cUZGR1lOR1V6R1pzaENaR0pNYkRNNC1qWnhWMU5Jajl6ZFhzR0RFbnlSTTRmOC1xM2RIOXMtQ1l2aHVjY0x1OHpvMThvLXFfdFpXYjQtQnNmT0JncVVnc0Jvak00NjY2MUVfWXl0cTQ5M09zTEZvM0F6N2FJYlBfV3Z5dTRhMlk?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON0hCdUpVakRzYnVUNjZsUkJVTDgxWVFzTXJTQS1pOGZzaVhZWFFEZTNwRDVlYXNGeHJRaUV2dUtveVFmUEVONHpZdDN6SlhWUktGbmZ0dGNMSklMclFaUFRCaE5qU1ZBY2R4bncxNjZham82MmZudEZ1UlY4Rzl2azdweUxjTVJjbzJmZDR4SUlOS2xSbHRmSm9tMi1mbmMxdDhN?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ2t0T0RJU0xTSTJudFBpdTZtQ3REZlJ0M1RURTNOM28wQnRoWTNlVUxuZGdiSHMzVnJLVUZkUXFXM1YweDFsQmVMd3lFSEkxWWdWSFJLcG9Hc2ZDU1BzVUxTMHE5MEVTb3BwdVB1djJWRmUyQWRYaWlLTnc4Sk5Zd055QW9jRnh6cFRWUUhyNWJDQlZMQTQtNnpPd2dLVTE3cGJ4U2VYQjNpVEVHUVp2WDRTdmFySDBxNXFQV1R2MGtabUdRLU02S3Z3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOSTN6VFJmcUwxMC1tY3c5MjB5NndHNmxuM2hrUFN3RjVMRjhmY2RIRFhRTlRwTUhLdXFSQWRZbFVnY3FFZS15djJpMkZxdTlnSWZUTWNPLW5IVHRHQklsdEh6UmpuSk51NHRLNVRhbFd6TE5JS2JZYV8tYUV0dzd1SU92T2x4TG1sZWpRWHNPMFVld1l6WFRVd29jNUVLWUlNeURNVEdJaEtOQS1aTElmekh6bnNWeE5OTnI4S2lIQmJKeFBaNUs5T2hQZV9yWUR6Y1pENk5WakV1RGd3MmlxNWhzZ0E3TUJfd3NNeGtzVEtrSTFXbnA0eDQ5YzI0ZGc?oc=5"
    }
   ],
   "impacts": [
@@ -106174,6 +106242,25 @@
      "ru": "Биткоин ETF"
     },
     "price_at_alert": 36.79
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1794915235,
+    "reason": "פגיעה באמון הציבור והחברות בעקבות פרצות אבטחה רוחביות.",
+    "reason_i18n": {
+     "he": "פגיעה באמון הציבור והחברות בעקבות פרצות אבטחה רוחביות.",
+     "en": "Hit to public and corporate trust following widespread security breaches.",
+     "ar": "ضربة للثقة العامة والشركات إثر خروقات الأمان الواسعة.",
+     "ru": "Удар по доверию общественности и компаний после масштабных нарушений безопасности."
+    },
+    "name_i18n": {
+     "he": "נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق ناسداك 100",
+     "ru": "ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 661.75
    }
   ],
   "id": "e2b2d02df11c",
@@ -106189,9 +106276,21 @@
      "ar": "أصاب هجوم سيبراني مستقل 178 موقعاً، بما في ذلك زووم وسي إن إن وبي بي سي، بهدف سرقة العملات المشفرة.",
      "ru": "Автономная кибератака поразила 178 сайтов, включая Zoom, CNN и BBC, с целью кражи криптовалюты."
     }
+   },
+   {
+    "ts": 1794915235,
+    "time": "2026-11-17T11:33Z",
+    "severity": 6,
+    "summary": "גל מתקפות סייבר פגע ב-178 ארגונים ואתרים מרכזיים, בהם BBC, CNN, Zoom, HSBC ו-Vodafone, במטרה להפיץ זדמנויות וגנוב מידע.",
+    "i18n": {
+     "he": "גל מתקפות סייבר פגע ב-178 ארגונים ואתרים מרכזיים, בהם BBC, CNN, Zoom, HSBC ו-Vodafone, במטרה להפיץ זדמנויות וגנוב מידע.",
+     "en": "A massive cyberattack breached 178 websites and organizations, including BBC, CNN, Zoom, HSBC, and Vodafone, to deliver malware and compromise users.",
+     "ar": "اخترق هجوم سيبراني واسع النطاق 178 موقعاً ومنظمة رئيسية، بما في ذلك BBC وCNN وZoom وHSBC وVodafone، لنشر البرمجيات الخبيثة.",
+     "ru": "Масштабная кибератака взломала 178 сайтов и организаций, включая BBC, CNN, Zoom, HSBC и Vodafone, с целью распространения вредоносного ПО."
+    }
    }
   ],
-  "last_update": 1794912327
+  "last_update": 1794915235
  },
  {
   "ts": 1794904176,
@@ -106647,39 +106746,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZnRRUW15SUpxT09QRGx0YnZaQlZDOEpiOUhRR1JsUjE0UE9DV3Rwbzl4di04OEx0VW1fdHFINUZkVnlrRWZiRlJKVy1OcFRjblpQOHJiSnpOTHdScTV4aFNmU1BQZXZ6YXdWcm51d21hQ3pQdDJZMWRuZlloUFprYnNXc3N3enQxS2NhS0YwUlBuZHQxRXJZc2UyYzVyTkZYUlVJYW9IbFhvRzdrQkE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNY3NJanBpNGRwcDlHU2JSTmJJNWI1cnpOdm5OYzdjRFJjQTh2M1RnOHVhR0x0OWVZMDF5LTF1amtDWmItY1NJWjJQSUJMVjBEcGJYT3QxbVRBYU9JcFY4aHJNd3pVeFNkY2FxajNTV1RLR2pWT05OZG1uUlJEcEJwaGlabDNfS1RkMXRnemJyV21aOXoyR2NqZ0lLckE4VVk0bmhpdlhFb1M4N0k5dnJGWl9nbUN3dWFjckxfcXY0WGFQOFA2Mzk2Zk1yZVZsN3U2OS01cDY5RkJESWlkbGc?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS2lybHFQZ3Bra2RfdUFrNl94TVp0RWlYbEoyVEF3blRSa2x1NHMwU3ZpRzlHRWRhSnhwR19ZMUE5WDh4Qks3bExiNEFHeDFsamhkeXJhYlVZS05ueDdkNlRFd1RCUWlDUFkwUnd4cmtyaE03S2FqSS13YVREVlNTWS1hU0FhWnNR?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQnRlUnlUUnFhZmpPTzljX0VheUpUVHltRnJRNmp0d25MZDFLWTJaTmJpRDhRZ1M1Zm9mNEFmSlBESGx1TGtHWWVOakNhMXRGNVI1QWFuVXFQLUdrbWo1bEoyd09WZC1DZnA3UXJZRWh5SFpRUUFPVkFCWUdMS0YxUXhrSG1Ndzc4eFRLS2NUN0VaY1pvczFFQlVPQmZYYlVP0gGuAUFVX3lxTE9xdlZUbzhDQmt4LWE4LVZuZmZwdWREUnFsVU9aMW5VWjMteGpjTnlPMndQRl9fY015RlVzajlaS1VEWmtNQXEtc0tYUWhiSWQ0NHFhLTlnUFp5dFpVVC1pZkhoTWZSU08zcV9TTDFFbkdRSDUxbjNVYVJUalJHcTNvV2drUGR6OE42RlVzN1FxMGpSblJJVnh3Tk5xTjQtOXNfbU9FaXd4SGxFYk1jUQ?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPajZOZkJaSEVQV3VuZl9uYzdHZ1NGLTU4eTFoUG9qV1QwOU9seU5KX0N1dGJwSUVGSW5LRVo3MjdGR09odk54TFowN1VVNFV0cFJYYVhDNGh3OVB6Q2NYYXJPNjdoQ3h6aEE2VC1ocHgxUmkxdTJRS25ad3BmbGptREY4b1BYVDh0cmNVNUtUSndNeFl4SnJfWnJSYnVRU29mNXpCUGtHeVU?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajZ0TkZSQ2QzTGlzTVZ3cmk5MGE1WkxjMTNubXQyU1R1dzlUTHVSaW16MThIcWhVLUh1WFY1VUg5TEVERDNMTG5Id3RGSk5uUG5iV21YaUxNd002T1FhVzlxWTl2OHhtckl4WXJCeWE0Yi05b3VCWnpBelZSV0RBSmtmVzhSeHotY2tr?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZXBvMkhFaWE2M1B4YWpqV19UX1c5WmIxeGFXN0F3bmdtWFNzLW5KVFo5enlVM3lKQVBHVkpvYV9zdGh6eWdNYUhaWlpBUXM3ZElGMHh4NVFkcUFYdUtDdU5EdlZuMWNrd3JacnpRUmZUSHNCeEoyT2t1bF9jNmc0blB1STdFMU80MVptYm12ZkFrR0gyN2RucmVoVQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORjJxMm9BdnVRdXVWMHY3cFlwRXBGak81Vjc3aWxJaHljOUZtV2k2VlREaGFVb1RZMW9qRGN5SV9CZTY2a3R0YzN6MEJSSE5rRDVoaEJVMS1yNGlkMTdUQ1BkaFpzTldaS1hvVXBVYTc4dkxsWXFaSm05Ty1LbldVODhrT3VGbnpCaWd0QjlqOTN2cjU1VGRfSnRRb25adi1sR29fa1MtaUstcm5raEdzOXFzamk2N1NJQWY0NmthYUk?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12alRoRWNvbDJRZVVQUXZUMWRoU2RMazlPa19La0hncUdoQTBPZjlPd3B5S2JLWUdCNHdkOUNRLS1WX0RnaG5KMmE2NlM3REE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeXVRZUo0R2J2NFUyT1JfclRFUUswckFwcGlzdFBseVhiYkJMQkJmbTY1dFVjcDJjVEltNFotTGJnNlRfOWUtbndObHJDdU9xb3dHdDdNaUJqLXV2V3Q0enFnTjh6Tm44ZUIxbG5iUENwTU9mNnlyTk1FOU9XWE43OTZWamxWay01QVplSG9oTVFHTnZSenBjY0V4dUVpMkN5Z0tnQW9SSjhjOHhRVTNCX1FSeDQyZWRCelVsYmtiamVQQQ?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbnphN0h3Sy1tZ0g0WFhOanhHeW5rd1JSTnZpT2RGUnJDcG9vTEpmZFM3RkhZZ3JjOGl0MGVabnBjMk1jaWJfMm9vd05WbzZOM2FLQkFnRmplS0tyNk9PcUJQYWZTN3gxMHg1Z3AwUUw3NE1LWExrTmdCOFdQQ0FzWTNZc0pEdHVOcUZXanQ5clNUVk54X29pRUJYV0xXSDFNTnViQ3RuaG02QQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTkFuSE5McWcyOVZ1b0lvNi1jNlJXakgyaFI5YnhyUWE1MlVnS0hzYmNNUDllWldpSWhkUWFnUFN6bzVsbVlQSG9qMC1FdHhDWUFfRF9sYjBrY1I5U3dEMHRuMWVtWDBPTW5xNnYzSlVTX05VZWpkRWFFYWNHbnJqaFBydkEyZXJKb0t1bXVUUThIZjlhY1doWl9oZ3Fwd3A4ZVRjVXk3T29PczVKQ3I3aFl1Mjc2WVhjeWhkTTRvbUFjdm14SGxPblRueS1kQWIxd2FNTg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaUhjTXRZdVc3TDdpODV3VXJfcGZXdmEtX2ktaFJyV2FPWGpGZlFIaTBLUnZ5cUxiUmp2THFTWVJZNmJ0dlkzQlBBM0M4ZThaODNXMjJmenVoaUY1Vk5FMnFNYmxWenQyZ2FrSGdDSGtpc255UXNqMUJ0SDd5WnJDZkVldElpMW0wRHNtQldYeUNrUFBUVGI2d2tST2hYUUE2a19FT1lBTjBLenVOOXp3cER0bTZjeXJlajcydUltNzFqMUxaUUxpOC1WMy1oN3BFVHAzWnVWYmNPM1NfOWRvTlgwYWltZWNnazM2U0hNZS04NEhsYXhONU95QllDdjFfT3BFY0FUZTY5QUVUODk0Uzl6SXlyNTgyS01R?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmlWakp3LVU4dnp1dEluTFYtUzItZ3UzcGNfMWlqX3lPU3JaVTVmcUhQWkVjdFZZNF9zTW1oamxYWWQyNGk3VDVuUjUzZlJERW5ydk5MVTFUeVpqbXVUVC1BTlJJcVN1QWplSTlPYVRLZjYwekt0LW5VVDRySHZBcXN4bThydWt4ZGZQdWd4TlVONWN5SGtWdUtrQzBGdGhROEFfN0Fkc005dFlwSTEtdUxCS2dON2JuWGhqdUczdzRNTmpLei1IYzg4VmFqQjY0UWZ0N05yZTM?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYXRCYnNkOFRkanpRNXFDam9tTnNmY2hLbnk5dDJ4enVmUzlfeVgwdlhRakJJak1HTlVvVkJNX3p0NUFhWU9UTzVBRl9BbEZIbVdRTk1ZR1Ezb0k3amtySnhZWG5HbFNDamxkNnFTek1KeUJZQkZLQmZNdWtyZjZZYWw1Z9IBiAFBVV95cUxQV05zWXRLUWxBQ2hHeVVFMDVvUmM4OThHR3A5YTd0dHE5SEI3ZktpNG05aWJnVHJwYi1pMnJCVjJLTTc5bjZHQ2Z1clpEUFh4V3pBakpsNXA5d0E3N0ZDOHNmYkJwVEpBUEJTSHZoVzltbENJZXdOemNRZkNuNGkxWUlsQlhoXzNG?oc=5"
    }
   ],
   "impacts": [
@@ -106701,8 +106788,146 @@
      "ru": "Elbit Systems"
     },
     "price_at_alert": 235490.0
+   },
+   {
+    "ticker": "EIS",
+    "direction": "down",
+    "t0": 1794915235,
+    "reason": "הגברת הלחץ הבינלאומי והסנקציות על גופים ישראליים פוגעות בסנטימנט.",
+    "reason_i18n": {
+     "he": "הגברת הלחץ הבינלאומי והסנקציות על גופים ישראליים פוגעות בסנטימנט.",
+     "en": "Increased international pressure and sanctions on Israeli entities weigh on sentiment.",
+     "ar": "الضغط الدولي المتزايد والعقوبات على الكيانات الإسرائيلية يثقلان كاهل المعنويات.",
+     "ru": "Усиление международного давления и санкций против израильских структур ухудшают настроения."
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות ישראל",
+     "en": "MSCI Israel ETF",
+     "ar": "صندوق أسهم إسرائيل",
+     "ru": "ETF на акции Израиля"
+    },
+    "price_at_alert": 109.51
+   },
+   {
+    "ticker": "ESLT",
+    "direction": "down",
+    "t0": 1794915235,
+    "reason": "סביבה גיאו-פוליטית עוינת באירופה עלולה להשפיע על פעילות עסקית רחבה.",
+    "reason_i18n": {
+     "he": "סביבה גיאו-פוליטית עוינת באירופה עלולה להשפיע על פעילות עסקית רחבה.",
+     "en": "A hostile geopolitical environment in Europe could impact broader business operations.",
+     "ar": "قد تؤثر البيئة الجيوسياسية العدائية في أوروبا على العمليات التجارية الأوسع.",
+     "ru": "Враждебная геополитическая среда в Европе может повлиять на более широкий бизнес."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות – חברת ביטחונית ישראלית",
+     "en": "Elbit Systems – Israeli defense firm",
+     "ar": "إلبيت سيستمز - شركة دفاع إسرائيلية",
+     "ru": "Elbit Systems – израильская оборонная компания"
+    },
+    "price_at_alert": 680.74
    }
   ],
-  "id": "fc47d3f216a6"
+  "id": "fc47d3f216a6",
+  "updates": [
+   {
+    "ts": 1794915235,
+    "time": "2026-11-17T11:33Z",
+    "severity": 4,
+    "summary": "בריטניה הטילה סנקציות חדשות על מספר חברות בנייה ישראליות ועל גוף הפעילות 'צו 9' בטענה לפעילות ביהודה ושומרון ובלימת סיוע לעזה.",
+    "i18n": {
+     "he": "בריטניה הטילה סנקציות חדשות על מספר חברות בנייה ישראליות ועל גוף הפעילות 'צו 9' בטענה לפעילות ביהודה ושומרון ובלימת סיוע לעזה.",
+     "en": "The UK imposed new sanctions on eight Israeli settlement-building firms and activist group Tzav 9 over West Bank activities and Gaza aid blockades.",
+     "ar": "فرضت بريطانيا عقوبات جديدة على ثماني شركات بناء إسرائيلية ومجموعة \"تساف 9\" بسبب أنشطة الضفة الغربية وعرقلة مساعدات غزة.",
+     "ru": "Великобритания ввела новые санкции против восьми израильских строительных компаний и группы «Цав 9» из-за деятельности на Западном берегу и блокирования помощи Газе."
+    }
+   }
+  ],
+  "last_update": 1794915235
+ },
+ {
+  "ts": 1794915235,
+  "time": "2026-11-17T11:33Z",
+  "title": "אוקראינה תקפה שוב את גשר קרים",
+  "summary": "אוקראינה פגעה בגשר קרים בפעם השנייה ברציפות, מה שגרם לקריסת חלק ממרכז הגשר ולחסימת נתיבי השטחים בים השחור.",
+  "kid": "אוקראינה פגעה בגשר חשוב שמחבר בין רוסיה לחצי האי קרים. זה יכול להשפיע על מחירי הנפט והסחורות אם המסחר בים השחור ייתקל בבעיות.",
+  "i18n": {
+   "title": {
+    "he": "אוקראינה תקפה שוב את גשר קרים",
+    "en": "Ukraine strikes Crimea bridge again",
+    "ar": "أوكرانيا تضرب جسر القرم مرة أخرى",
+    "ru": "Украина снова наносит удар по Крымскому мосту"
+   },
+   "summary": {
+    "he": "אוקראינה פגעה בגשר קרים בפעם השנייה ברציפות, מה שגרם לקריסת חלק ממרכז הגשר ולחסימת נתיבי השטחים בים השחור.",
+    "en": "Ukraine struck the Kerch Bridge linking Russia to Crimea for a second consecutive day, causing a center span to fall and disrupting Black Sea shipping lanes.",
+    "ar": "ضربت أوكرانيا جسر كيرتش الذي يربط روسيا بالقرم لليوم الثاني على التوالي، مما أدى إلى سقوط الامتداد الأيمن وتعطيل الملاحة في البحر الأسود.",
+    "ru": "Украина атаковала Керченский мост второй день подряд, в результате чего обрушился центральный пролет и было нарушено судоходство в Черном море."
+   },
+   "kid": {
+    "he": "אוקראינה פגעה בגשר חשוב שמחבר בין רוסיה לחצי האי קרים. זה יכול להשפיע על מחירי הנפט והסחורות אם המסחר בים השחור ייתקל בבעיות.",
+    "en": "Ukraine attacked an important bridge connecting Russia to Crimea. This can affect oil and commodity prices if shipping in the Black Sea gets disrupted.",
+    "ar": "هاجمت أوكرانيا جسراً هاماً يربط روسيا بالقرم. قد يؤثر ذلك على أسعار النفط والسلع إذا تعطلت الشحن في البحر الأسود.",
+    "ru": "Украина атаковала важный мост, соединяющий Россию с Крымом. Это может повлиять на цены на нефть и товары, если судоходство в Черном море будет нарушено."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BalVzNFNIa2F3dldQcWFoczZyWmxQSExsUGoxWFRucjlFRk1oY2N6bUFPWmNtc204VFdqaFc2OFRxNkNqNnVQY0toY2h3cU4tcWozWmdtXzRIUjlGT2lSd0FHY2hwNDhmLTRfcEJxVWpOUGtERHVDVQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONzlZYzlrdGVTbWI0RDBGeE5SQWttTmtKOXktR213RHJUTklJTFlNTGNnLWlvcm93bjdGTFREdzd3RjM1bjE5SEZ3WDBlSEdZN0VmNUZfVUF1T1lFeXZqSlV2VElQWjFhSVNJTmlpWmJJM1JHMHlsa1BucEFMWmlQV3FPY0tQUXNVT1A5Sm9DalItR0MzaVJ5aUFsZUN2STFuZ0FwLWNXMlhFSG9VNlA1TUluaVJQcUdLZnk0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1794915235,
+    "reason": "שיבושים בים השחור עלולים לייצר לחץ על מחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "שיבושים בים השחור עלולים לייצר לחץ על מחירי האנרגיה.",
+     "en": "Black Sea disruptions may put pressure on energy prices.",
+     "ar": "قد تؤدي الاضطرابات في البحر الأسود إلى الضغط على أسعار الطاقة.",
+     "ru": "Перебои в Черном море могут оказать давление на цены на энергоносители."
+    },
+    "name_i18n": {
+     "he": "קרן נפט גולמי",
+     "en": "Crude Oil ETF",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF на сырую нефть"
+    },
+    "price_at_alert": 140.03
+   },
+   {
+    "ticker": "BDRY",
+    "direction": "up",
+    "t0": 1794915235,
+    "reason": "חסימת נתיבי ספנות בים השחור מעלה את עלויות ההובלה.",
+    "reason_i18n": {
+     "he": "חסימת נתיבי ספנות בים השחור מעלה את עלויות ההובלה.",
+     "en": "Blocked shipping lanes in the Black Sea raise freight costs.",
+     "ar": "تؤدي ممرات الشحن المسدودة في البحر الأسود إلى زيادة تكاليف الشحن.",
+     "ru": "Блокировка судоходных путей в Черном море увеличивает фрахтовые расходы."
+    },
+    "name_i18n": {
+     "he": "קרן ספנות יבשתיות",
+     "en": "Dry Bulk Shipping ETF",
+     "ar": "صندوق شحن البضائع السائلة",
+     "ru": "ETF на сухогрузные перевозки"
+    },
+    "price_at_alert": 12.6
+   }
+  ],
+  "id": "c336802516b1"
  }
 ]
