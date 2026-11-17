@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T21:37Z",
+ "generated": "2026-11-17T22:38Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1064,
+ "total_alerts": 1066,
  "overall": {
   "n": 643,
   "hits": 321,
@@ -114,14 +114,14 @@
    "avg_edge": 0.92
   },
   "XOM": {
-   "mentions": 37,
+   "mentions": 38,
    "n": 31,
    "hits": 13,
    "name": {
-    "he": "אקסון מוביל",
-    "en": "ExxonMobil",
-    "ar": "إكسون موبيل",
-    "ru": "ExxonMobil"
+    "he": "אקסון מוביל - חברת נפט ענקית",
+    "en": "ExxonMobil - a major oil company",
+    "ar": "إكسون موبيل - شركة نفط كبرى",
+    "ru": "ExxonMobil - крупная нефтяная компания"
    },
    "avg_edge": -0.02
   },
@@ -210,26 +210,26 @@
    "avg_edge": 0.4
   },
   "NVDA": {
-   "mentions": 58,
+   "mentions": 59,
    "n": 38,
    "hits": 21,
    "name": {
-    "he": "אנבידיה",
-    "en": "Nvidia",
-    "ar": "إنفيديا",
-    "ru": "Nvidia"
+    "he": "אנבידיה - חברת שבבי בינה מלאכותית",
+    "en": "Nvidia - an AI chip company",
+    "ar": "إنفيديا - شركة رقائق ذكاء اصطناعي",
+    "ru": "Nvidia - компания по производству чипов ИИ"
    },
    "avg_edge": 0.69
   },
   "SPY": {
-   "mentions": 108,
+   "mentions": 109,
    "n": 91,
    "hits": 45,
    "name": {
-    "he": "מדד S&P 500",
-    "en": "S&P 500 Index",
-    "ar": "مؤشر إس آند بي 500",
-    "ru": "Индекс S&P 500"
+    "he": "ספיי - מדד 500 המניות המובילות בארה\"ב",
+    "en": "SPY - S&P 500 index ETF",
+    "ar": "SPY - صندوق مؤشر ستاندرد آند بورز 500",
+    "ru": "SPY - ETF индекса S&P 500"
    },
    "avg_edge": 0.05
   },
@@ -258,7 +258,7 @@
    "avg_edge": -0.84
   },
   "CRWD": {
-   "mentions": 65,
+   "mentions": 66,
    "n": 53,
    "hits": 19,
    "name": {
@@ -282,13 +282,13 @@
    "avg_edge": 3.2
   },
   "TLT": {
-   "mentions": 39,
+   "mentions": 40,
    "n": 30,
    "hits": 22,
    "name": {
-    "he": "אג\"ח ממשלתי ארוך",
-    "en": "iShares 20+ Year Treasury Bond ETF",
-    "ar": "صندوق سندات الخزانة طويلة الأجل",
+    "he": "אג\"ח ארוך טווח - קרן אג\"ח ממשלתי",
+    "en": "Long-term Treasury ETF - government bonds fund",
+    "ar": "صندوق سندات الخزانة طويلة الأجل - صندوق السندات الحكومية",
     "ru": "ETF долгосрочных гособлигаций США"
    },
    "avg_edge": 0.84
@@ -378,7 +378,7 @@
    "avg_edge": 0.65
   },
   "DBA": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 11,
    "hits": 3,
    "name": {
@@ -498,14 +498,14 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 13,
+   "mentions": 14,
    "n": 11,
    "hits": 7,
    "name": {
-    "he": "סקטור הפיננסים",
-    "en": "Financial Sector ETF",
-    "ar": "صندوق قطاع المال",
-    "ru": "ETF финансового сектора"
+    "he": "קרן סל פיננסים - מדד מניות הבנקים והפיננסים",
+    "en": "Financials ETF - financial and banking sector fund",
+    "ar": "صندوق قطاع المال - صندوق القطاع المصرفي والمالي",
+    "ru": "ETF финансового сектора - фонд банков и финансов"
    },
    "avg_edge": 0.37
   },
@@ -798,14 +798,14 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 34,
+   "mentions": 35,
    "n": 25,
    "hits": 8,
    "name": {
-    "he": "קרן סל סמיקונדקטורים",
-    "en": "Semiconductors ETF",
-    "ar": "صندوق قطاع أشباه الموصلات",
-    "ru": "ETF на полупроводники"
+    "he": "קרן סל סמיקונדקטור - קרן ענף השבבים",
+    "en": "Semiconductor ETF - chip sector fund",
+    "ar": "صندوق قطاع أشباه الموصلات - صندوق أسهم الرقائق",
+    "ru": "ETF полупроводников - фонд сектора чипов"
    },
    "avg_edge": -0.33
   },
@@ -918,14 +918,14 @@
    "avg_edge": -1.46
   },
   "NOC": {
-   "mentions": 5,
+   "mentions": 6,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "נורת'רופ גראמן - חברת ביטחון",
-    "en": "Northrop Grumman - defense company",
-    "ar": "نورثروب جرومان - شركة دفاع",
-    "ru": "Northrop Grumman - оборонная компания"
+    "he": "נורת'רופ גרומן - יצרנית ציוד ביטחוני",
+    "en": "Northrop Grumman - a defense contractor",
+    "ar": "نورثروب غرومان - مقاول دفاعي",
+    "ru": "Northrop Grumman - подрядчик в сфере обороны"
    },
    "avg_edge": 2.65
   },
