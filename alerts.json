@@ -392,140 +392,6 @@
   "id": "5097cdfe4902"
  },
  {
-  "ts": 1794203162,
-  "time": "2026-11-09T05:46Z",
-  "title": "סין תאריך את השעיית המכסים הנוספים על סחורות מארה\"ב",
-  "summary": "סין מתכננת להאריך את ההשעיה של מכסים נוספים בשיעור 24% על סחורות מיובאות מארה\"ב.",
-  "kid": "סין מוותרת בינתיים על מס נוסף על מוצרים מארה\"ב. זה טוב לחברות אמריקאיות שמוכרות דברים לסין כי המחירים שלהן יישארו נוחים.",
-  "i18n": {
-   "title": {
-    "he": "סין תאריך את השעיית המכסים הנוספים על סחורות מארה\"ב",
-    "en": "China to extend suspension of additional tariffs on US goods",
-    "ar": "الصين ستمدد تعليق الرسوم الجمركية الإضافية على السلع الأمريكية",
-    "ru": "Китай продлит приостановку дополнительных пошлин на товары из США"
-   },
-   "summary": {
-    "he": "סין מתכננת להאריך את ההשעיה של מכסים נוספים בשיעור 24% על סחורות מיובאות מארה\"ב.",
-    "en": "China plans to extend the suspension of 24% additional tariffs on goods imported from the United States.",
-    "ar": "تخطط الصين لتمديد تعليق الرسوم الجمركية الإضافية بنسبة 24% على السلع المستوردة من الولايات المتحدة.",
-    "ru": "Китай планирует продлить приостановку дополнительных 24-процентных пошлин на товары, импортируемые из США."
-   },
-   "kid": {
-    "he": "סין מוותרת בינתיים על מס נוסף על מוצרים מארה\"ב. זה טוב לחברות אמריקאיות שמוכרות דברים לסין כי המחירים שלהן יישארו נוחים.",
-    "en": "China is holding off on extra taxes for US products. This is good for American companies selling goods to China because their prices will stay competitive.",
-    "ar": "الصين تؤجل فرض ضرائب إضافية على المنتجات الأمريكية. هذا جيد للشركات الأمريكية التي تبيع بضائع للصين لأن أسعارها ستظل تنافسية.",
-    "ru": "Китай откладывает дополнительные налоги на товары из США. Это хорошо для американских компаний, продающих товары в Китай, так как их цены останутся конкурентоспособными."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794203162,
-    "reason": "הקלה במתיחות המסחרית בין ארה\"ב לסין משפרת את הסנטימנט הכללי בשווקים.",
-    "reason_i18n": {
-     "he": "הקלה במתיחות המסחרית בין ארה\"ב לסין משפרת את הסנטימנט הכללי בשווקים.",
-     "en": "Easing trade tensions between the US and China improves overall market sentiment.",
-     "ar": "تخفيف التوترات التجارية بين الولايات المتحدة والصين يحسن معنويات السوق بشكل عام.",
-     "ru": "Ослабление торговой напряженности между США и Китаем улучшает общие настроения на рынке."
-    },
-    "name_i18n": {
-     "he": "SPY - מדד המניות המרכזי בארה\"ב",
-     "en": "SPY - Broad US stock market ETF",
-     "ar": "SPY - صندوق تداول الأسهم الأمريكية الواسع",
-     "ru": "SPY - ETF широкого рынка акций США"
-    },
-    "price_at_alert": 735.29,
-    "entry_price": 741.95,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 749.94,
-    "exit_date": "2026-11-10",
-    "change_pct": 1.08,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.08,
-    "edge_pct": 1.08,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FXI",
-    "direction": "up",
-    "t0": 1794207096,
-    "reason": "הימנעות מהחמרת מכסים מקלה על הכלכלה והסחר בסין.",
-    "reason_i18n": {
-     "he": "הימנעות מהחמרת מכסים מקלה על הכלכלה והסחר בסין.",
-     "en": "Avoiding harsher tariffs eases economic and trade pressures in China.",
-     "ar": "تجنب فرض رسوم جمركية أقسى يخفف الضغوط الاقتصادية والتجارية في الصين.",
-     "ru": "Избежание жестких пошлин снижает экономическое и торговое давление в Китае."
-    },
-    "name_i18n": {
-     "he": "FXI - קרן מניות סין הגדולות",
-     "en": "FXI - China Large-Cap ETF",
-     "ar": "FXI - صندوق أسهم الصين الكبرى",
-     "ru": "FXI - фонд крупных китайских акций"
-    },
-    "price_at_alert": 34.95,
-    "entry_price": 34.68,
-    "entry_time": "2026-11-09T14:30+00:00",
-    "exit_price": 34.43,
-    "exit_date": "2026-11-10",
-    "change_pct": -0.72,
-    "bench": "SPY",
-    "bench_change_pct": 1.08,
-    "excess_pct": -1.8,
-    "edge_pct": -1.8,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "3db9d73ad482",
-  "updates": [
-   {
-    "ts": 1794207096,
-    "time": "2026-11-09T06:51Z",
-    "severity": 5,
-    "summary": "סין הכריזה על הארכת ההשעיה של מכסים נוספים בסך 24% על סחורות המיובאות מארצות הברית.",
-    "i18n": {
-     "he": "סין הכריזה על הארכת ההשעיה של מכסים נוספים בסך 24% על סחורות המיובאות מארצות הברית.",
-     "en": "China has announced an extension of the suspension of additional 24% tariffs on goods imported from the United States.",
-     "ar": "אעלנת אלצין ען תמדיד תעליק אלרסום אלרסומיה אלאיضافיה בנסבה 24% עלי אלסלעה אלמוסטורדה מן אלולאיאת אלמתחדה.",
-     "ru": "Китай объявил о продлении приостановки действия дополнительных 24-процентных пошлин на товары, импортируемые из США."
-    }
-   },
-   {
-    "ts": 1794228222,
-    "time": "2026-11-09T12:43Z",
-    "severity": 5,
-    "summary": "סין האריכה את תקופת ההשעיה של מכסים נוספים על סחורות מארה\"ב, לקראת פפסגה אפשרית בין הנשיא טראמפ לעמיתו הסיני שי.",
-    "i18n": {
-     "he": "סין האריכה את תקופת ההשעיה של מכסים נוספים על סחורות מארה\"ב, לקראת פפסגה אפשרית בין הנשיא טראמפ לעמיתו הסיני שי.",
-     "en": "China extended its pause on additional tariffs on U.S. goods ahead of an anticipated meeting between President Trump and Xi Jinping.",
-     "ar": "مددت الصين فترة تعليق الرسوم الإضافية على السلع الأمريكية قبيل اجتماع متوقع بين الرئيس ترامب ونظيره الصيني شي.",
-     "ru": "Китай продлил паузу в отношении дополнительных пошлин на товары из США в преддверии ожидаемой встречи президента Трампа и Си Цзиньпина."
-    }
-   },
-   {
-    "ts": 1794278881,
-    "time": "2026-11-10T02:48Z",
-    "severity": 4,
-    "summary": "סין הודיעה על הארכת השעיית המכסים הנוספים על מוצרים המיובאים מארצות הברית.",
-    "i18n": {
-     "he": "סין הודיעה על הארכת השעיית המכסים הנוספים על מוצרים המיובאים מארצות הברית.",
-     "en": "China announced an extension of the suspension on additional tariffs applied to US imports.",
-     "ar": "أعلنت الصين عن تمديد تعليق الرسوم الجمركية الإضافية المطبقة على الواردات الأمريكية.",
-     "ru": "Китай объявил о продлении приостановки дополнительных пошлин на импорт из США."
-    }
-   }
-  ],
-  "last_update": 1794278881,
-  "evaluated": true
- },
- {
   "ts": 1794224360,
   "time": "2026-11-09T11:39Z",
   "title": "סין מאריכה את השעיית בקרת היצוא על 16 חברות אמריקאיות",
@@ -2538,421 +2404,6 @@
    }
   ],
   "last_update": 1794284881,
-  "evaluated": true
- },
- {
-  "ts": 1794278881,
-  "time": "2026-11-10T02:48Z",
-  "title": "יצוא ויבוא סין זינקו באוקטובר מעבר לצפי",
-  "summary": "יצוא הסחורה של סין זינק ב-35.2% באוקטובר לעומת אשתקד, מעל לצפי המוקדם של 33.5%, אם כי עודף הסחר צומצם משמעותית.",
-  "kid": "הכלכלה של סין מכרה הרבה יותר מוצרים לעולם מהצפוי החודש. זה יכול לעזור למניות סיניות ולשפר את מצב החברות שמוכרות לשם.",
-  "i18n": {
-   "title": {
-    "he": "יצוא ויבוא סין זינקו באוקטובר מעבר לצפי",
-    "en": "China's October Exports and Imports Soar Past Expectations",
-    "ar": "صادرات ووارדות الصين في أكتوبر تتجاوز التوقعات بشكل كبير",
-    "ru": "Экспорт и импорт Китая в октябре значительно превзошли ожидания"
-   },
-   "summary": {
-    "he": "יצוא הסחורה של סין זינק ב-35.2% באוקטובר לעומת אשתקד, מעל לצפי המוקדם של 33.5%, אם כי עודף הסחר צומצם משמעותית.",
-    "en": "China's goods exports surged by 35.2% last month year-over-year, beating the expected 33.5% jump, while the trade surplus narrowed sharply.",
-    "ar": "قفزت صادرات السلع الصينية بنسبة 35.2% الشهر الماضي على أساس سنوي، متجاوزة التوقعات البالغة 33.5%، بينما ضاق فائض التجارة بشكل حاد.",
-    "ru": "Товарный экспорт Китая вырос в прошлом году на 35.2% в годовом исчислении, превзойдя ожидания в 33.5%, при этом торговый профицит резко сократился."
-   },
-   "kid": {
-    "he": "הכלכלה של סין מכרה הרבה יותר מוצרים לעולם מהצפוי החודש. זה יכול לעזור למניות סיניות ולשפר את מצב החברות שמוכרות לשם.",
-    "en": "China sold a lot more products to the world than experts thought. This could help Chinese stocks and companies that do business there go up.",
-    "ar": "باعت الصين منتجات أكثر بكثير للعולם مما كان متوقعاً. هذا قد يساعد الأسهم الصينية والشركات التي تبيع هناك على الارتفاع.",
-    "ru": "Китай продал миру гораздо больше товаров, чем ожидалось. Это может помочь китайским акциям и компаниям, работающим там, вырасти в цене."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FXI",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "נתוני יצוא חזקים מראים על ביקוש גובר בסין ויכולים לדחוף את השוק כלפי מעלה",
-    "reason_i18n": {
-     "he": "נתוני יצוא חזקים מראים על ביקוש גובר בסין ויכולים לדחוף את השוק כלפי מעלה",
-     "en": "Strong export data indicates solid demand and can lift Chinese large-cap stocks",
-     "ar": "بيانات الصادرات القوية تشير إلى طلب صلب ويمكن أن ترفع الأسهم الصينية الكبرى",
-     "ru": "Сильные данные по экспорту указывают на устойчивый спрос и могут поддержать китайские акции"
-    },
-    "name_i18n": {
-     "he": "FXI - קרן סל מניות ענק סיניות",
-     "en": "FXI - China Large-Cap ETF",
-     "ar": "FXI - صندوق استثمار الأسهم الصينية الكبرى",
-     "ru": "FXI - ETF крупных китайских компаний"
-    },
-    "price_at_alert": 34.66,
-    "entry_price": 34.58,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 33.91,
-    "exit_date": "2026-11-11",
-    "change_pct": -1.94,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -3.53,
-    "edge_pct": -3.53,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ASHR",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "נתוני סחר חיוביים תומכים בכלכלה המקומית בסין",
-    "reason_i18n": {
-     "he": "נתוני סחר חיוביים תומכים בכלכלה המקומית בסין",
-     "en": "Positive trade data supports the domestic Chinese economy",
-     "ar": "بيانات التجارة الإيجابية تدعم الاقتصاد المحلي في الصين",
-     "ru": "Положительные данные поддерживают внутреннюю экономику Китая"
-    },
-    "name_i18n": {
-     "he": "ASHR - קרן סל מניות סיניות A",
-     "en": "ASHR - China A-Shares ETF",
-     "ar": "ASHR - صندوق الأسهم الصينية المحلية",
-     "ru": "ASHR - ETF акций китайских компаний класса A"
-    },
-    "price_at_alert": 31.0,
-    "entry_price": 30.5,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 30.755,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.84,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -0.75,
-    "edge_pct": -0.75,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "7303a1ee677b",
-  "evaluated": true
- },
- {
-  "ts": 1794278881,
-  "time": "2026-11-10T02:48Z",
-  "title": "בנק ישראל/יפן: בכירים בבנק היפני קוראים להעלאת ריבית מוקדמת",
-  "summary": "בכירים בבנק היפני (BOJ) קוראים להעלאת ריבית מוקדמת, כאשר ההסתברות لמהלך בדצמבר עלתה ל-70%.",
-  "kid": "הבנק המרכזי ביפן עשוי להעלות את הריבית בקרוב כי הכלכלה משתפרת. זה עשוי לחזק את המטבע היפני ולהשפיע על מניות ביפן.",
-  "i18n": {
-   "title": {
-    "he": "בנק ישראל/יפן: בכירים בבנק היפני קוראים להעלאת ריבית מוקדמת",
-    "en": "BOJ Officials Call for Early Rate Hike as December Move Odds Rise",
-    "ar": "مسؤولبو بنك اليابان يدعون لرفع مبكر لأسعار الفائدة مع ارتفاع احتمالات تحرك ديسمبر",
-    "ru": "Чиновник Банка Японии призывают к раннему повышению ставки"
-   },
-   "summary": {
-    "he": "בכירים בבנק היפני (BOJ) קוראים להעלאת ריבית מוקדמת, כאשר ההסתברות لמהלך בדצמבר עלתה ל-70%.",
-    "en": "Bank of Japan officials are calling for an early interest rate hike as the probability of a December move rises to 70%.",
-    "ar": "يدعو مسؤولو بنك اليابان إلى رفع مبكر لأسعار الفائدة مع ارتفاع احتمالية اتخاذ خطوة في ديسمبر إلى 70%.",
-    "ru": "Чиновник Банка Японии призывают к раннему повышению процентной ставки, так как вероятность декабрьского шага выросла до 70%."
-   },
-   "kid": {
-    "he": "הבנק המרכזי ביפן עשוי להעלות את הריבית בקרוב כי הכלכלה משתפרת. זה עשוי לחזק את המטבע היפני ולהשפיע על מניות ביפן.",
-    "en": "Japan's central bank might raise interest rates soon because the economy is doing well. This can strengthen the Japanese yen and affect stocks in Japan.",
-    "ar": "قد يرفع البنك المركزي في اليابان أسعار الفائدة قريباً. هذا يمكن أن يعزز الين الياباني ويؤثر على الأسهم هناك.",
-    "ru": "Центральный банк Японии может вскоре поднять процентные ставки. Это может укрепить японскую иену и повлиять на акции."
-   }
-  },
-  "category": "macro",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "down",
-    "t0": 1794278881,
-    "reason": "העלאת ריבית ביפן עלולה להכביד בטווח הקצר על המניות המקומיות",
-    "reason_i18n": {
-     "he": "העלאת ריבית ביפן עלולה להכביד בטווח הקצר על המניות המקומיות",
-     "en": "Higher interest rates in Japan can weigh on local equities in the short term",
-     "ar": "أسعار الفائدة الأعلى في اليابان قد تضغط على الأسهم المحلية على المدى القصير",
-     "ru": "Более высокие процентные ставки в Японии могут оказать давление на местные акции"
-    },
-    "name_i18n": {
-     "he": "EWJ - קרן סל מניות יפן",
-     "en": "EWJ - Japan ETF",
-     "ar": "EWJ - صندوق استثمار الأسهم اليابانية",
-     "ru": "EWJ - ETF японских акций"
-    },
-    "price_at_alert": 91.48,
-    "entry_price": 90.69,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 92.11,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.57,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -0.02,
-    "edge_pct": 0.02,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "FXY",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "ציפייה להעלאת ריבית מחזקת את הין היפני מול הדולר",
-    "reason_i18n": {
-     "he": "ציפייה להעלאת ריבית מחזקת את הין היפני מול הדולר",
-     "en": "Expectation of higher rates strengthens the Japanese Yen against the US dollar",
-     "ar": "توقعات رفع الفائدة تقوي الين الياباني مقابل الدولار الأمريكي",
-     "ru": "Ожидания повышения ставок укрепляют японскую иену против доллара"
-    },
-    "name_i18n": {
-     "he": "FXY - קרן סל מטבע הין היפני",
-     "en": "FXY - Japanese Yen Currency ETF",
-     "ar": "FXY - صندوق العملة الين الياباني",
-     "ru": "FXY - ETF японской иены"
-    },
-    "price_at_alert": 58.04,
-    "entry_price": 57.77,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 57.31,
-    "exit_date": "2026-11-11",
-    "change_pct": -0.8,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -2.39,
-    "edge_pct": -2.39,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "7f0f5a3df48e",
-  "evaluated": true
- },
- {
-  "ts": 1794278881,
-  "time": "2026-11-10T02:48Z",
-  "title": "דרום קוריאה מאשרת באופן מותנה את מכירת חברת 'היונדאי LNG שיפינג'",
-  "summary": "ממשלת דרום קוריאה אישרה בתנאים מסוימים את עסקת המכירה של חברת ההובלה הימית היונדאי LNG שיפינג לתאגיד Sinar Mas.",
-  "kid": "דרום קוריאה אישרה לעסקה ענקית שבה חברת ספנות גדולה להובלת גז עוברת בעלות. זה מעניין חברות אנרגיה וספנות בינלאומיות.",
-  "i18n": {
-   "title": {
-    "he": "דרום קוריאה מאשרת באופן מותנה את מכירת חברת 'היונדאי LNG שיפינג'",
-    "en": "South Korea Conditionally Approves Hyundai LNG Shipping Sale to Sinar Mas",
-    "ar": "كوريا الجنوبية توافق بشروط على بيع شركة \"هيونداي للغاز الطبيعي المسال\" لشركة سينار ماس",
-    "ru": "Южная Корея условно одобрила продажу Hyundai LNG Shipping компании Sinar Mas"
-   },
-   "summary": {
-    "he": "ממשלת דרום קוריאה אישרה בתנאים מסוימים את עסקת המכירה של חברת ההובלה הימית היונדאי LNG שיפינג לתאגיד Sinar Mas.",
-    "en": "South Korea has conditionally approved the sale of Hyundai LNG Shipping to Indonesian conglomerate Sinar Mas.",
-    "ar": "وافقت كوريا الجنوبية بشروط على صفقة بيع شركة شحن الغاز الطبيعي المسال التابعة لهيونداي إلى مجموعة سينار ماس.",
-    "ru": "Правительство Южной Кореи условно одобрило продажу компании Hyundai LNG Shipping индонезийскому конгломерату Sinar Mas."
-   },
-   "kid": {
-    "he": "דרום קוריאה אישרה לעסקה ענקית שבה חברת ספנות גדולה להובלת גז עוברת בעלות. זה מעניין חברות אנרגיה וספנות בינלאומיות.",
-    "en": "South Korea gave the green light for a major shipping company deal involving liquefied natural gas transport. This impacts the global energy shipping sector.",
-    "ar": "منحت كوريا الجنوبية الضوء الأخضر لصفقة شحن كبرى تنقل الغاز الطبيعي. هذا يؤثر على قطاع الطاقة والشحن العالمي.",
-    "ru": "Южная Корея дала добро на крупную сделку по продаже судоходной компании, перевозящей сжиженный газ."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "BDRY",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "עסקאות מיזוג ורכישה גדולות בסקטור הספנות מעידות על פעילות עסקית ענפה בשוק התובלה",
-    "reason_i18n": {
-     "he": "עסקאות מיזוג ורכישה גדולות בסקטור הספנות מעידות על פעילות עסקית ענפה בשוק התובלה",
-     "en": "Major M&A deals in the shipping sector highlight active asset restructuring in maritime logistics",
-     "ar": "صفقات الاندماج والاستحواذ الكبرى في قطاع الشحن تسلط الضوء على النشاط في الخدمات اللوجستية البحرية",
-     "ru": "Крупные сделки M&A в судоходном секторе подчеркивают активность на рынке морской логистики"
-    },
-    "name_i18n": {
-     "he": "BDRY - קרן סל ספנות ומטענים ימיים",
-     "en": "BDRY - Breakwave Dry Bulk Shipping ETF",
-     "ar": "BDRY - صندوق شحن البضائع السائبة",
-     "ru": "BDRY - ETF сухогрузного судоходства"
-    },
-    "price_at_alert": 13.344,
-    "entry_price": 13.24,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 13.6892,
-    "exit_date": "2026-11-11",
-    "change_pct": 3.39,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 1.8,
-    "edge_pct": 1.8,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "fe88c8de6c9c",
-  "evaluated": true
- },
- {
-  "ts": 1794278881,
-  "time": "2026-11-10T02:48Z",
-  "title": "גל מתקפות סייבר פתאומי פוגע בבנקים באינדונזיה",
-  "summary": "מערכת הבנקאות באינדונזיה נפגעה בגל פתאומי וחריג של מתקפות סייבר ששיבשו את פעילות המוסדות הפיננסיים המקומיים.",
-  "kid": "האקרים תקפו בנקים באינדונזיה וגרמו לשיבושים בפעילותם. אירועים כאלה מעלים את המודעות לצורך בהגנה חזקה ודוחפים חברות להשקיע באבטחת סייבר.",
-  "i18n": {
-   "title": {
-    "he": "גל מתקפות סייבר פתאומי פוגע בבנקים באינדונזיה",
-    "en": "Indonesian Banks Pummeled in Sudden Cyberattack Wave",
-    "ar": "البنوك الإندونيسية تتعرض لموجة مفاجئة من الهجمات السيبرانية",
-    "ru": "Индонезийские банки подверглись внезапной волне кибератак"
-   },
-   "summary": {
-    "he": "מערכת הבנקאות באינדונזיה נפגעה בגל פתאומי וחריג של מתקפות סייבר ששיבשו את פעילות המוסדות הפיננסיים המקומיים.",
-    "en": "Banks in Indonesia were hit hard by a sudden and intense wave of cyberattacks disrupting financial operations.",
-    "ar": "تعرضت البنوك في إندونيسيا لموجة مفاجئة وشديدة من الهجمات السيبرانية التي عطلت العمليات المالية.",
-    "ru": "Банки в Индонезии пострадали от внезапной и мощной волны кибератак, нарушивших финансовые операции."
-   },
-   "kid": {
-    "he": "האקרים תקפו בנקים באינדונזיה וגרמו לשיבושים בפעילותם. אירועים כאלה מעלים את המודעות לצורך בהגנה חזקה ודוחפים חברות להשקיע באבטחת סייבר.",
-    "en": "Hackers attacked several banks in Indonesia, causing operational disruptions. This increases the global focus on financial cybersecurity and protection.",
-    "ar": "هاجم قراصنة عدة بنوك في إندونيسيا، مما أدى لتعطل العمليات. هذا يزيد الاكزيز العالمي على أمن المعلومات المالي.",
-    "ru": "Хакеры атаковали несколько банков в Индонезии, вызвав сбои. Это усиливает внимание к финансовой кибербезопасности."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "מתקפות סייבר המכוונות למערכות בנקאיות מדגישות את הצורך הקריטי בהגנה מקוונת",
-    "reason_i18n": {
-     "he": "מתקפות סייבר המכוונות למערכות בנקאיות מדגישות את הצורך הקריטי בהגנה מקוונת",
-     "en": "Targeted cyberattacks on banking institutions highlight the critical demand for robust defense software",
-     "ar": "الهجمات السيبرانية الموجهة للبنوك تبرز الحاجة الملحة لبرمجيات الحماية القوية",
-     "ru": "Целевые кибератаки на банки подчеркивают критический спрос на надежное ПО защиты"
-    },
-    "name_i18n": {
-     "he": "CRWD - קראודסטרייק, פתרונות אבטחת סייבר",
-     "en": "CrowdStrike - Cybersecurity provider",
-     "ar": "CrowdStrike - مزود خدمات الأمن السيبراني",
-     "ru": "CrowdStrike - поставщик решений кибербезопасности"
-    },
-    "price_at_alert": 228.58,
-    "entry_price": 225.0,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 229.1,
-    "exit_date": "2026-11-11",
-    "change_pct": 1.82,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 0.23,
-    "edge_pct": 0.23,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EEM",
-    "direction": "down",
-    "t0": 1794278881,
-    "reason": "אי-סטביליות טכנולוגית ובנקאית בשווקים מתעוררים עלולה ליצור חשש זמני אצל משקיעים זרים",
-    "reason_i18n": {
-     "he": "אי-סטביליות טכנולוגית ובנקאית בשווקים מתעוררים עלולה ליצור חשש זמני אצל משקיעים זרים",
-     "en": "Tech and banking instability in emerging markets can trigger brief cautiousness among foreign investors",
-     "ar": "عدم الاستقرار التكنولوجي والمصرفي في الأسواق الناشئة قد يثير حذراً مؤقتاً لدى المستثمرين",
-     "ru": "Технологическая и банковская нестабильность на развивающихся рынках вызывает осторожность"
-    },
-    "name_i18n": {
-     "he": "EEM - קרן סל שווקים מתעוררים",
-     "en": "EEM - iShares MSCI Emerging Markets ETF",
-     "ar": "EEM - صندوق استثمار الأسواق الناشئة",
-     "ru": "EEM - ETF развивающихся рынков"
-    },
-    "price_at_alert": 61.03,
-    "entry_price": 60.66,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 62.04,
-    "exit_date": "2026-11-11",
-    "change_pct": 2.27,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": 0.69,
-    "edge_pct": -0.69,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "94ca9bf4411f",
-  "evaluated": true
- },
- {
-  "ts": 1794278881,
-  "time": "2026-11-10T02:48Z",
-  "title": "התפרצות קטלנית של שפעת העופות בקרב אווזים וברווזים נודדים באורגון",
-  "summary": "התפרצות קטלנית של שפעת העופות תועדה בקרב אווזים וברווזים נודדים בעמק וילאמט שבאורגון.",
-  "kid": "מחלת שפעת העופות התגלתה אצל עופות בר בארה\"ב. זה עשוי להדאיג חקלאים שמגדלים עופות מחשש שהמחלה תגיע ללולים ותעלה את מחירי הביצים והבשר.",
-  "i18n": {
-   "title": {
-    "he": "התפרצות קטלנית של שפעת העופות בקרב אווזים וברווזים נודדים באורגון",
-    "en": "Deadly Bird Flu Outbreak Hits Migrating Geese and Ducks in Oregon",
-    "ar": "تفشي مميت لإنفلونزا الطيور يضرب الإوز والبط المهاجر في أوريغون",
-    "ru": "Смертельная вспышка птичьего гриппа затронула мигрирующих гусей и уток в Орегоне"
-   },
-   "summary": {
-    "he": "התפרצות קטלנית של שפעת העופות תועדה בקרב אווזים וברווזים נודדים בעמק וילאמט שבאורגון.",
-    "en": "A deadly outbreak of bird flu has been reported among migrating geese and ducks in the Willamette Valley of Oregon.",
-    "ar": "تم الإبلاغ عن تفشي مميت لإنفلونزا الطيور بين الإوز والبط المهاجر في وادي ويلاميت في أوريغون.",
-    "ru": "Сообщается о смертельной вспышке птичьего гриппа среди мигрирующих гусей и уток в долине Уилламетт в Орегоне."
-   },
-   "kid": {
-    "he": "מחלת שפעת העופות התגלתה אצל עופות בר בארה\"ב. זה עשוי להדאיג חקלאים שמגדלים עופות מחשש שהמחלה תגיע ללולים ותעלה את מחירי הביצים והבשר.",
-    "en": "Bird flu was found in wild birds in Oregon. Farmers are watching closely because this disease can spread to poultry farms and raise food prices.",
-    "ar": "تم العثور على إنفلونزا الطيور في الطيور البرية بأوريغون. يراقب المزارعون عن كثب خوفاً من انتقالها لمزارع الدواجن ورفع أسعار اللحوم والبيض.",
-    "ru": "Птичий грипп был обнаружен у диких птиц в Орегоне. Фермеры следят за ситуацией, так как болезнь может перекинуться на птицефабрики и поднять цены на еду."
-   }
-  },
-  "category": "health",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLP",
-    "direction": "up",
-    "t0": 1794278881,
-    "reason": "חששות מהתפרצויות מחלות בעלי חיים עלולים להשפיע על מחירי המזון הקמעונאי",
-    "reason_i18n": {
-     "he": "חששות מהתפרצויות מחלות בעלי חיים עלולים להשפיע על מחירי המזון הקמעונאי",
-     "en": "Fears over animal disease outbreaks can drive shifts in consumer food pricing and defensive stocks",
-     "ar": "المخاوف بشأن تفشي أمراض الحيوانات قد تؤثر على أسعار المواد الغذائية وتدعم الأسهم الدفاعية",
-     "ru": "Опасения по поводу вспышек болезней животных могут повлиять на цены на продукты питания"
-    },
-    "name_i18n": {
-     "he": "XLP - קרן סל מוצרי צריכה בסיסיים ומזון",
-     "en": "XLP - Consumer Staples Select Sector SPDR Fund",
-     "ar": "XLP - صندوق قطاع السلع الاستهلاكية الأساسية",
-     "ru": "XLP - ETF потребительских товаров первой необходимости"
-    },
-    "price_at_alert": 90.89,
-    "entry_price": 90.94,
-    "entry_time": "2026-11-10T14:30+00:00",
-    "exit_price": 91.45,
-    "exit_date": "2026-11-11",
-    "change_pct": 0.56,
-    "bench": "SPY",
-    "bench_change_pct": 1.59,
-    "excess_pct": -1.03,
-    "edge_pct": -1.03,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "ec56cc54ca73",
   "evaluated": true
  },
  {
@@ -42214,14 +41665,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ3BQSUNBZUJlSDd1QzBqQXNoQWhqUEs4dW1GY2xhcXlYcVZuTzBmTjNhMU1yNnJaOW5JY0pDLVhuczNkUGRUd29QT3Q1QmVyeW0zNkVESFBJT2twNExWTkhUYVpWNWFSbi1ZYU9HMVRvNFo1VFlfNEpXbnZQeEVCa0dieEgwTFBUVlEwNU51RGlZblJQUENURVh4ZU9LRjhIeDYyczU0WHhfcmNDbS1UNHpQcHg3TFFsMGExTzVKTXFWXy11?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT3RKR2pKNTJnQ0RoeXB2LWc0TkhwWUpUVHFjaUdwQjZpX05jeTBVMkMtVWNiR2xLX0tyVEdCNVhYZTItWjJQbUNhYWh5Mm5oX3o2UGtsck5mdFVGaUhkYmpnanJQMDgxSHBwa21ocGRoZXV2ZVNhc1ROd003ZmlTYmJQYU5FdlBBZVBVazZLNTJELWNXVWs3NDJrblk?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQjYwdUY1bVpTbnB0dE1KR004cU1QN2hhQXNMTEFwWjJ5S2tPWXFybEdlZjZWNDJIMlRpZHl3ZVUyek9ZcTJnZkp5VDZBVXp1T2t5U2UyZm5KLVRMd084R2RoRVBETDJaS3JWT2lOOU9TVklSUS11c0cwWldRcm90YkpBS2k4UWtXbkdZR3A4UEN1YmJ3clRNYTEtc1MxWkhJYm1pUXVMMU9vVXZnVkFaMzlnTnlMc3pwZkZnd29Sal9ud2lwTjNkVDFzSVRfMjFJazdLWVNSUk52S0FpZE1QNjM4SQ?oc=5"
    },
    {
@@ -42235,6 +41678,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbkFVc0pSWnhON3ZKbTVpUlNHbFplT0otN3lRcmxvT3MyMmt3VDB1SGlwbjQxWTJtZm1rbXduVGJSbGJia0VtY3d1R056dlpOM3V6MXFQYkNCcWt5QzhfQ08yN0VKRHhBa3ZLMXg5WXMydTJ0ZFkxc2pvVWdIVG5BN0lWSno0TWdOeTJwOXhLcThNcHJXa3F6UHQtNVp0ZmV1WF9RcjIydGpmejVONFJISUhpanozcTRMTmVfdzJ0SVhOVWV5M2pQUlRIQ2RNYWV6andoWUczRmQ4ZlhNNHJSWHZR?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjbW1zT0tVUDhuZDBXZVZ2V2w2SnBzSG5aZE53UV9kd1EzQlZPckRtYkZISjlJdXd0ZjBQU3JKUEtLLWdEZFFjbFB6T25OZmJNRnJfRFp0N3RUNkNtV20tNkpNRlB5ZjVfWGhTTk1iWGRzV3hq?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa0pPVDdaRENwRl9fd3kzOWxwNFZEZHktbV9vV3BJQ2VpUk5ONTFmVjZPUXBYUjYtSVJPQ0lab0ZkbGVKa29DU3dWOEZYN2o4OEJOV1hpeENydTB1ZG5XVDY0a2FlcWFwVjVZWDFyLTZfZXNLMF9zWW53Y2NWenUtVnpjcmNJRTk4MTFvWXo3VlY2NHBUeFh3cFVyZlljUGItcmJfOWFDM2pHVXhsSm8yTQ?oc=5"
    }
   ],
   "impacts": [
@@ -42290,9 +41741,21 @@
      "ar": "تجهيز الذهب لأسوأ أسبوع له منذ مارس بينما انخفض النحاس في لندن لأدنى مستوى في أربعة أشهر وسط قوة الدولار ومخاوف الطلب المرتبط بالذكاء الاصطناعي.",
      "ru": "Золото направляется к худшей неделе с марта, а медь в Лондоне упала до четырехмесячного минимума на фоне укрепления доллара и опасений по поводу спроса, связанного с ИИ."
     }
+   },
+   {
+    "ts": 1794884644,
+    "time": "2026-11-17T03:04Z",
+    "severity": 5,
+    "summary": "מחירי הנחושת צנחו לשפל של ארבעה חודשים בשל ספקות לגבי הצורך בנחושת עבור מרכזי נתונים של בינה מלאכותית.",
+    "i18n": {
+     "he": "מחירי הנחושת צנחו לשפל של ארבעה חודשים בשל ספקות לגבי הצורך בנחושת עבור מרכזי נתונים של בינה מלאכותית.",
+     "en": "Copper prices have plunged to a four-month low due to doubts regarding the need for copper in AI data centers.",
+     "ar": "انخفضت أسعار النحاس إلى أدنى مستوى لها في أربعة أشهر بسبب الشكوك حول الحاجة إلى النحاس لمراكز بيانات الذكاء الاصطناعي.",
+     "ru": "Цены на медь упали до четырехмесячного минимума из-за сомнений в необходимости меди для центров обработки данных ИИ."
+    }
    }
   ],
-  "last_update": 1794811392
+  "last_update": 1794884644
  },
  {
   "ts": 1794796952,
@@ -43962,23 +43425,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMk1pUmhmX2dnNlhFZjFvM1NYbmpacVJULVNxWlgzcWpKLVNjTk8yWjREOWg5RFNqNEd0RGRfQTRJd3BNblpXNndTZVFlNzk0UnVZYkxUcjdMU0ZDVm1hWXVxR1JNcm5fUUkzN0luc3BmMzg1cU4xOEc1QXpuaDNxdnNaYU0yVzRmcXlzbU9mc1lxQ01Yd1ZkdklSeXI0NTJTTTNuOExSRlVlcU9HVUpQWVJrRk5qQXkwNVlRem04NUMtcHVPOVpwYw?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVnV5NmJ2Q3NZR0FDNmFyaW1CeXYwWHVUQmNwUUI3R1BXMjE0b19IVGdyU1VCemtQSWxjUTBwQmRJcV9SNWF0Uy0xS1MwMk9hSS11R0ZsaU9uSjdMV19nMFBWTG9CclBBVmIyQjNqWXZSR2s2WFhScjJKZnNzZ1ZGclVMUmdRb3NUN1Uwb1ZmWkM3YjNxZ0REMFhrN2IyMWw3ZjJicXNFUFhpR3lIMk4wWWtObHRrNTl2WVFTYWFabkVZVnpLZkl5NlBLbWRaWWxUX25fN1dOclVyVVpkUzY1cWhYYw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFlDQ0VJUFBIZS1nQTJUN281Z2JRbmJ4N3JFSEo2cDJYdlpXOWhIWkw4Mm95ZXZXWkQ1MjJGRnZCVkVKUWlVakVub2ZwU0dhVUJKeGtJclFVa2pMZFVMZjRmYUhTbFBZV1BGdENBdGkzMV9nZGRaUkhFcVJMYUtITkN3M0pwRFlsQmkxUXNIaEpPanZIRll1TVNXRFJpVzlDOTNLUTVaNDY1Ql9TVXdV?oc=5"
    },
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xdmRWVkp3WF9DZlRndFNETHM3QmNsV252MEJVTDRpemNFbDNXc2xBdzZnTGRsa3pTOVVsQXV5MzVVQjd4OWt4VDNFV0JqOHdmTXZB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWlIaTR4Q2x1azc5X2d5NVVXVnNTcV93YmR6YkNFaFR1NUhSR3BxeHJOcHowOUFiWWVRamtQdmdSdFVra1I4LU1vUGxMVWh5VDFqNHRmY1JwX2wwdzB4VzdHbGp6Vl8tRzVuU2NjSXd1OVd6eU1GMFZ2S0RNUkNqaElROE96dWd5d2RiYWg0WU91WXJXeWc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdHEzUGN6MG9kVnlERTA1RTg5WWptdWpHQ0xEYUNTN3hVblQxcUU0cWdTVUJTZmszai1pdDlfLWZLbkhpMmFxNEd3dGVvdTZQbWg1OHdsem9jc0NvaEJkR012b3ozejhpSFgyYnJGS0UyU3hqVW8wS1RObzZMVURtMlRMOUpPRVpHM2ZobjBqeHE4WTlyVXFKNXBSVVNIbUdESmRkSGR3d2hJNDhzWFJhSGNmSEEwWGtLUFp4WDZlYXZyR1BMVXAyUEZYQmVzQQ?oc=5"
    }
   ],
   "impacts": [
@@ -44034,9 +43501,21 @@
      "ar": "أمرت الإدارة وزارة التجارة بسد ثغرة الرقائق في قلب فضيحة إنفيديا، وسط تقارير عن تداول أسهم الشركة.",
      "ru": "Администрация приказала министерству торговли закрыть лазейку в отношении чипов, оказавшуюся в центре скандала с Nvidia."
     }
+   },
+   {
+    "ts": 1794884644,
+    "time": "2026-11-17T03:04Z",
+    "severity": 6,
+    "summary": "ארה\"ב מטילה בקרת ייצוא חדשה על שבבים מתקדמים למלזיה וסינגפור, וכן מכסים על רחפני DJI.",
+    "i18n": {
+     "he": "ארה\"ב מטילה בקרת ייצוא חדשה על שבבים מתקדמים למלזיה וסינגפור, וכן מכסים על רחפני DJI.",
+     "en": "The US is imposing new export controls on advanced semiconductors to Malaysia and Singapore, and tariffs on DJI drones.",
+     "ar": "تفرض الولايات المتحدة ضوابط تصدير جديدة على أشباه الموصلات المتقدمة إلى ماليزيا وسنغافورة، بالإضافة إلى تعريفات جمركية على طائرات DJI بدون طيار.",
+     "ru": "США вводят новый экспортный контроль на передовые полупроводники в Малайзию и Сингапур, а также пошлины на дроны DJI."
+    }
    }
   ],
-  "last_update": 1794868268
+  "last_update": 1794884644
  },
  {
   "ts": 1794841622,
@@ -46099,5 +45578,144 @@
    }
   ],
   "id": "35b085f57552"
+ },
+ {
+  "ts": 1794884644,
+  "time": "2026-11-17T03:04Z",
+  "title": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+  "summary": "דיווחים על עסקת נשק של 14 מיליארד דולר לטאיוואן והצגת הצעת חוק תקציב ביטחון של 1.1 טריליון דולר בסנאט האמריקאי.",
+  "kid": "ארה\"ב מתכננת למכור הרבה נשק לטאיוואן ומגדילה את תקציב הצבא שלה. זה יכול לעזור לחברות שמייצרות מטוסים וטילים.",
+  "i18n": {
+   "title": {
+    "he": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+    "en": "US Arms Sales: Taiwan and Senate Defense Bill",
+    "ar": "مبيعات الأسلحة الأمريكية: تايوان ومشروع قانون الدفاع",
+    "ru": "Оружейные сделки США: Тайвань и оборонный законопроект"
+   },
+   "summary": {
+    "he": "דיווחים על עסקת נשק של 14 מיליארד דולר לטאיוואן והצגת הצעת חוק תקציב ביטחון של 1.1 טריליון דולר בסנאט האמריקאי.",
+    "en": "Reports of a $14 billion arms deal for Taiwan and the unveiling of a $1.1 trillion defense appropriations bill in the US Senate.",
+    "ar": "تقارير عن صفقة أسلحة بقيمة 14 مليار دولار لتايوان والكشف عن مشروع قانون مخصصات الدفاع بقيمة 1.1 تריليون دولار في مجلس الشيوخ الأمريكي.",
+    "ru": "Сообщения об оружейной сделке с Тайванем на 14 миллиардов долларов и представление законопроекта об оборонных расходах на 1,1 триллиона долларов в Сенате США."
+   },
+   "kid": {
+    "he": "ארה\"ב מתכננת למכור הרבה נשק לטאיוואן ומגדילה את תקציב הצבא שלה. זה יכול לעזור לחברות שמייצרות מטוסים וטילים.",
+    "en": "The US is planning to sell a lot of weapons to Taiwan and is increasing its military budget. This could help companies that make planes and missiles.",
+    "ar": "تخطط الولايات المتحدة لبيع الكثير من الأسلحة لتايوان وتزيد من ميزانيتها العسكرية. هذا قد يساعد الشركات التي تصنع الطائرات والصواريخ.",
+    "ru": "США планируют продать много оружия Тайваню и увеличивают свой военный бюджет. Это может помочь компаниям, производящим самолеты и ракеты."
+   }
+  },
+  "category": "contracts",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWmdLbmVUT1U4aWtBUUpVbHNseVA3ejhnWUhkTlhYWHZfR2xUdEdNZnh3SUJJSVNKZk85WGh1VnNmakZ4dnhTRlNuRk1QSVNhNVVDVVhpUDRMenBoZkJiMkN6djhMajU5ME9URXI4NXpCOXZkTDl5NDFwTXBiSmd6NDE3N3pJb0oyRlVmRlUzNDlENWNWWXBRUWhuTHNOaExBMXlaUlI1SjZkWDlfOXlTNw?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeWp3TDYyaDlCS2lHMmRoaXVNRmxaMXE1cjJSUjNQVjAwdWRjRnRrcE1ERWhrcHlRdm1ZTEZ0a2FEcmJvYVhrWU9pbXZ1dVUyUno5V2ZvZWtLWnppUkJqelY4cEpNTUxmOFlWZUJ4cmpDYWFRZ2lEejM4Qk82Y2pfVXd0OWZqY0NKaU9F0gGQAUFVX3lxTE5LTjYxNkdXT0dyMlNQRGtwWUliZ3hsamNGcTVQMGFZazNiQTJGdDNPRTkwczdial9ONUFoOTVOVE5WbzFZTlJJdnpKMHhWRFNEOUhxTWZIdHBqS0ZlNG82WXVGa3AwYkdKbzdNbDlpd3B2azFFcHBwWC1JczNHREhaMmFBSVI0Q1A3eEZ2eG5zTw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1794884644,
+    "reason": "יצרנית מטוסי קרב וטילים מרכזית.",
+    "reason_i18n": {
+     "he": "יצרנית מטוסי קרב וטילים מרכזית.",
+     "en": "Major manufacturer of fighter jets and missiles.",
+     "ar": "مصنع رئيسي للطائرات المقاتلة والصواريخ.",
+     "ru": "Крупный производитель истребителей и ракет."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 585.21
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1794884644,
+    "reason": "חשיפה רחבה למגזר הביטחוני האמריקאי.",
+    "reason_i18n": {
+     "he": "חשיפה רחבה למגזר הביטחוני האמריקאי.",
+     "en": "Broad exposure to the US defense sector.",
+     "ar": "تعرض واسع لقطاع الدفاع الأمريكي.",
+     "ru": "Широкая экспозиция на оборонный сектор США."
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטחון",
+     "en": "Defense ETF",
+     "ar": "صندوق الدفاع المتداول",
+     "ru": "Оборонный ETF"
+    },
+    "price_at_alert": 69.75
+   }
+  ],
+  "id": "62cada07545d"
+ },
+ {
+  "ts": 1794884644,
+  "time": "2026-11-17T03:04Z",
+  "title": "תקיפת כטב\"מים על ספינות מסחריות בים השחור",
+  "summary": "שלוש ספינות מסחריות הותקפו על ידי כטב\"מים ליד דלתת הדנובה, מה שמעלה חששות לביטחון השיט.",
+  "kid": "ספינות שמובילות אוכל וסחורות הותקפו. זה עלול לייקר את עלויות המשלוח והביטוח של ספינות.",
+  "i18n": {
+   "title": {
+    "he": "תקיפת כטב\"מים על ספינות מסחריות בים השחור",
+    "en": "Drone Attack on Commercial Vessels in Black Sea",
+    "ar": "هجوم بطائرات بدون طيار على سفن تجارية في البحر الأسود",
+    "ru": "Атака дронов на коммерческие суда в Черном море"
+   },
+   "summary": {
+    "he": "שלוש ספינות מסחריות הותקפו על ידי כטב\"מים ליד דלתת הדנובה, מה שמעלה חששות לביטחון השיט.",
+    "en": "Three commercial vessels were attacked by drones near the Danube Delta, raising concerns for shipping security.",
+    "ar": "تعرضت ثلاث سفن تجارية لهجوم بطائرات بدون طيار بالقرب من دلتا الدانوب، مما أثار مخاوف بشأن أمن الملاحة.",
+    "ru": "Три коммерческих судна были атакованы дронами возле дельты Дуная, что вызывает опасения за безопасность судоходства."
+   },
+   "kid": {
+    "he": "ספינות שמובילות אוכל וסחורות הותקפו. זה עלול לייקר את עלויות המשלוח והביטוח של ספינות.",
+    "en": "Ships carrying food and goods were attacked. This could make shipping and insurance costs for ships more expensive.",
+    "ar": "تعرضت السفن التي تحمل الغذاء والبضائع للهجوم. هذا قد يجعل تكاليف الشحن والتأمين للسفن أكثر تكلفة.",
+    "ru": "Суда, перевозящие продовольствие и товары, подверглись нападению. Это может привести к удорожанию доставки и страхования судов."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZk5QVERadHhNbmdtMGVWNlczUXNidGFHc2J6bVp5Z3doZFdyU0dOTjB6UUcybXJ6VFZGSFhFV0MtWmxEX3FnN09Kd05VZVA1VDFLdm5ucUZYVkpkeXNxZi03aFMyc1pSd0JzUGxtM0VxOW1HUDhJZDdSNHZtTDExWDF3aC00Y1JOWTFXOWtCbnZsMjVubXVwWkk4OHZvME1FLWprMjBESWkwWUo1NVRz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1794884644,
+    "reason": "חברת ספנות שעלולה להיות מושפעת משיבושים בנתיבי הים השחור.",
+    "reason_i18n": {
+     "he": "חברת ספנות שעלולה להיות מושפעת משיבושים בנתיבי הים השחור.",
+     "en": "Shipping company potentially affected by Black Sea route disruptions.",
+     "ar": "شركة شحن قد تتأثر بالاضطرابات في طرق البحر الأسود.",
+     "ru": "Судоходная компания, потенциально затронутая сбоями на маршрутах в Черном море."
+    },
+    "name_i18n": {
+     "he": "צים",
+     "en": "ZIM Shipping",
+     "ar": "شركة زيم للشحن",
+     "ru": "ZIM Shipping"
+    },
+    "price_at_alert": 29.11
+   }
+  ],
+  "id": "d4d105ab3da3"
  }
 ]
