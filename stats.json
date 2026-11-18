@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T08:32Z",
+ "generated": "2026-11-18T09:34Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1078,
+ "total_alerts": 1082,
  "overall": {
   "n": 740,
   "hits": 369,
@@ -114,14 +114,14 @@
    "avg_edge": 0.77
   },
   "XOM": {
-   "mentions": 38,
+   "mentions": 39,
    "n": 35,
    "hits": 16,
    "name": {
-    "he": "אקסון מוביל - חברת נפט ענקית",
-    "en": "ExxonMobil - a major oil company",
-    "ar": "إكسون موبيل - شركة نفط كبرى",
-    "ru": "ExxonMobil - крупная нефтяная компания"
+    "he": "אקסון מוביל – ענקית אנרגיה ונפט",
+    "en": "ExxonMobil - Major oil and energy company",
+    "ar": "إكسون موبيل - شركة طاقة ونفط كبرى",
+    "ru": "ExxonMobil - крупная нефтегазовая компания"
    },
    "avg_edge": 0.03
   },
@@ -222,13 +222,13 @@
    "avg_edge": 0.48
   },
   "SPY": {
-   "mentions": 111,
+   "mentions": 112,
    "n": 106,
    "hits": 52,
    "name": {
-    "he": "SPY - קרן סל מדד S&P 500",
+    "he": "ספיי – קרן סל עוקבת אחרי הבורסה בארה\"ב",
     "en": "SPY - S&P 500 ETF",
-    "ar": "SPY - صندوق مؤشر S&P 500",
+    "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
     "ru": "SPY - ETF индекса S&P 500"
    },
    "avg_edge": 0.02
@@ -318,14 +318,14 @@
    "avg_edge": -0.12
   },
   "FXE": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 13,
    "hits": 4,
    "name": {
-    "he": "קרן סל אירו",
-    "en": "Euro Currency ETF",
-    "ar": "صندوق عملة اليورو",
-    "ru": "ETF евро"
+    "he": "קרן סל על האירו מול הדולר",
+    "en": "FXE - CurrencyShares Euro Trust",
+    "ar": "FXE - صندوق اليورو",
+    "ru": "FXE - ETF евро"
    },
    "avg_edge": -0.63
   },
@@ -354,14 +354,14 @@
    "avg_edge": -0.69
   },
   "QQQ": {
-   "mentions": 65,
+   "mentions": 66,
    "n": 62,
    "hits": 21,
    "name": {
-    "he": "מדד הנאסד\"ק",
-    "en": "Nasdaq 100 ETF",
-    "ar": "صندوق مؤشر ناسداك 100",
-    "ru": "ETF индекса Nasdaq 100"
+    "he": "קרן סל על מדד נאסד\"ק 100",
+    "en": "QQQ - Invesco QQQ Trust",
+    "ar": "QQQ - صندوق ناسداك 100",
+    "ru": "QQQ - ETF индекса Nasdaq 100"
    },
    "avg_edge": -0.18
   },
@@ -414,14 +414,14 @@
    "avg_edge": -0.52
   },
   "EWC": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 25,
    "hits": 19,
    "name": {
-    "he": "קרן סל קנדה",
-    "en": "Canada ETF",
-    "ar": "صندوق استثمار كندا",
-    "ru": "ETF Канады"
+    "he": "קרן סל על שוק המניות בקנדה",
+    "en": "EWC - iShares MSCI Canada ETF",
+    "ar": "EWC - صندوق الأسهم الكندية",
+    "ru": "EWC - ETF канадских акций"
    },
    "avg_edge": 0.43
   },
@@ -498,26 +498,26 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 12,
    "hits": 8,
    "name": {
-    "he": "קרן סל פיננסים - מדד מניות הבנקים והפיננסים",
-    "en": "Financials ETF - financial and banking sector fund",
-    "ar": "صندوق قطاع المال - صندوق القطاع المصرفي والمالي",
-    "ru": "ETF финансового сектора - фонд банков и финансов"
+    "he": "קרן סל על סקטור הפיננסים",
+    "en": "XLF - Financial Select Sector SPDR Fund",
+    "ar": "XLF - صندوق القطاع المالي",
+    "ru": "XLF - ETF финансового сектора"
    },
    "avg_edge": 0.38
   },
   "INDA": {
-   "mentions": 24,
+   "mentions": 25,
    "n": 23,
    "hits": 14,
    "name": {
-    "he": "קרן סל הודו",
-    "en": "India ETF",
-    "ar": "صندوق استثماري للهند",
-    "ru": "ETF Индии"
+    "he": "קרן סל על שוק המניות בהודו",
+    "en": "INDA - iShares MSCI India ETF",
+    "ar": "INDA - صندوق الأسهم الهندية",
+    "ru": "INDA - ETF индийских акций"
    },
    "avg_edge": 0.37
   },
@@ -534,14 +534,14 @@
    "avg_edge": -0.97
   },
   "VGK": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 26,
    "hits": 11,
    "name": {
-    "he": "קרן סל מניות אירופה",
-    "en": "Vanguard FTSE Europe ETF",
-    "ar": "صندوق أسهم أوروبا",
-    "ru": "ETF европейских акций"
+    "he": "קרן סל על מניות אירופה",
+    "en": "VGK - Vanguard FTSE Europe ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK - ETF европейских акций"
    },
    "avg_edge": -0.18
   },
@@ -582,13 +582,13 @@
    "avg_edge": 0.57
   },
   "EEM": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 17,
    "hits": 6,
    "name": {
-    "he": "קרן סל שווקים מתעוררים",
-    "en": "Emerging Markets ETF",
-    "ar": "صندوق الأسواق الناشئة",
+    "he": "קרן סל על שווקים מתעוררים",
+    "en": "EEM - iShares MSCI Emerging Markets ETF",
+    "ar": "EEM - صندوق الأسهم الناشئة",
     "ru": "ETF развивающихся рынков"
    },
    "avg_edge": -0.12
