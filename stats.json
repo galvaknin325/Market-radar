@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T10:35Z",
+ "generated": "2026-11-18T11:30Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1083,
+ "total_alerts": 1086,
  "overall": {
   "n": 740,
   "hits": 369,
@@ -102,14 +102,14 @@
    "avg_edge": -0.11
   },
   "IBIT": {
-   "mentions": 32,
+   "mentions": 33,
    "n": 31,
    "hits": 20,
    "name": {
-    "he": "ביטקוין",
-    "en": "Bitcoin ETF",
-    "ar": "صندوق بيتكوين",
-    "ru": "Биткоин ETF"
+    "he": "IBIT - קרן סל ביטקוין של בלאקרוק",
+    "en": "IBIT - BlackRock Bitcoin ETF",
+    "ar": "IBIT - صندوق بتكوين التابع لبלאك روك",
+    "ru": "IBIT - ETF на биткоин от BlackRock"
    },
    "avg_edge": 0.77
   },
@@ -246,14 +246,14 @@
    "avg_edge": 0.02
   },
   "CPER": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 35,
    "hits": 8,
    "name": {
-    "he": "קרן סל נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق النحاس المتداول",
-    "ru": "ETF на медь"
+    "he": "CPER - קרן סל נחושת",
+    "en": "CPER - Copper ETF",
+    "ar": "CPER - صندوق النحاس",
+    "ru": "CPER - ETF на медь"
    },
    "avg_edge": -0.8
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.43
   },
   "FCX": {
-   "mentions": 49,
+   "mentions": 50,
    "n": 48,
    "hits": 15,
    "name": {
-    "he": "פריפורט-מקמורן (כריית נחושת)",
-    "en": "Freeport-McMoRan (copper miner)",
-    "ar": "فرييبورت-ماكموران (تعدين النحاس)",
-    "ru": "Freeport-McMoRan (добыча меди)"
+    "he": "FCX - חברת הכרייה פריפורט מקמורן",
+    "en": "FCX - Freeport-McMoRan mining company",
+    "ar": "FCX - شركة التعدين فريبورت-מקמורן",
+    "ru": "FCX - горнодобывающая компания Freeport-McMoRan"
    },
    "avg_edge": -1.42
   },
@@ -1553,6 +1553,18 @@
    },
    "avg_edge": -0.22
   },
+  "ASML": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ASML - יצרנית ציוד שבבים הולנדית",
+    "en": "ASML - Dutch semiconductor equipment maker",
+    "ar": "ASML - صانعة معدات أشباه الموصلات الهولندية",
+    "ru": "ASML - нидерландский производитель оборудования для полупроводников"
+   },
+   "avg_edge": null
+  },
   "BX": {
    "mentions": 1,
    "n": 1,
@@ -1622,6 +1634,18 @@
     "en": "SpaceX",
     "ar": "سبيس إكس",
     "ru": "SpaceX"
+   },
+   "avg_edge": null
+  },
+  "CTSH": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "CTSH - קוגניזנט טכנולוג'י סולושנס",
+    "en": "CTSH - Cognizant Technology Solutions",
+    "ar": "CTSH - كوجنيزنت للتكنولوجيا",
+    "ru": "CTSH - Cognizant Technology Solutions"
    },
    "avg_edge": null
   }

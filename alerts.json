@@ -709,141 +709,6 @@
  {
   "ts": 1794346775,
   "time": "2026-11-10T21:39Z",
-  "title": "פרשת הריגול של מנכ\"ל אנבידיה ג'נסן הואנג",
-  "summary": "מנכ\"ל אנבידיה, ג'נסן הואנג, מעורב בשערורייה אישית וביטחונית סביב קשר עם מרגלת סינית לכאורה, מה שמוביל ללחץ מכירות במניית החברה.",
-  "kid": "המנהל של חברת השבבים הגדולה אנבידיה נמצא בצרות בגלל קשר עם אדם שנחשד בריגול. משקיעים חוששים שזה יפגע בחברה ולכן מוכרים את המניות שלה.",
-  "i18n": {
-   "title": {
-    "he": "פרשת הריגול של מנכ\"ל אנבידיה ג'נסן הואנג",
-    "en": "Nvidia CEO Jensen Huang's alleged spy scandal",
-    "ar": "فضيحة التجسس المزعومة لرئيس إنفيديا جنسن هوانغ",
-    "ru": "Скандал вокруг генерального директора Nvidia Дженсена Хуанга"
-   },
-   "summary": {
-    "he": "מנכ\"ל אנבידיה, ג'נסן הואנג, מעורב בשערורייה אישית וביטחונית סביב קשר עם מרגלת סינית לכאורה, מה שמוביל ללחץ מכירות במניית החברה.",
-    "en": "Nvidia CEO Jensen Huang is embroiled in a personal and national security scandal involving an alleged affair with a Chinese spy, causing continued sell-offs in the company's stock.",
-    "ar": "تورط الرئيس التنفيذي لشركة إنفيديا، جنسن هوانغ، في فضيحة شخصية وأمنية تتعلق بعلاقة مع جاسوسة صينية مزعومة، مما أدى إلى استمرار عمليات البيع في أسهم الشركة.",
-    "ru": "Генеральный директор Nvidia Дженсен Хуанг оказался в центре скандала, связанного с личными отношениями с предполагаемой китайской шпионкой, что привело к дальнейшему падению акций компании."
-   },
-   "kid": {
-    "he": "המנהל של חברת השבבים הגדולה אנבידיה נמצא בצרות בגלל קשר עם אדם שנחשד בריגול. משקיעים חוששים שזה יפגע בחברה ולכן מוכרים את המניות שלה.",
-    "en": "The boss of the big chip company Nvidia is in trouble because of a relationship with someone suspected of spying. Investors are worried this will hurt the company, so they are selling its stock.",
-    "ar": "يواجه رئيس شركة الرقائق الكبيرة إنفيديا مشاكل بسبب علاقة مع شخص مشتبه به في التجسس. المستثمرون قلقون من أن هذا سيضر بالشركة، لذا يقومون ببيع أسهمها.",
-    "ru": "Глава крупной компании по производству чипов Nvidia попал в неприятности из-за связи с человеком, подозреваемым в шпионаже. Инвесторы боятся, что это навредит компании, поэтому продают ее акции."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "BBC Business",
-    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
-   },
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794346775,
-    "reason": "אי-ודאות ניהולית וסיכון ביטחוני.",
-    "reason_i18n": {
-     "he": "אי-ודאות ניהולית וסיכון ביטחוני.",
-     "en": "Management uncertainty and national security risk.",
-     "ar": "عدم اليقين الإداري والمخاطر الأمنية.",
-     "ru": "Управленческая неопределенность и риски национальной безопасности."
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 168.89,
-    "entry_price": 172.72,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 166.04,
-    "exit_date": "2026-11-12",
-    "change_pct": -3.87,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -3.92,
-    "edge_pct": 3.92,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "up",
-    "t0": 1794394654,
-    "reason": "ההתאוששות של אנבידיה תומכת בסנטימנט הרחב במגזר השבבים.",
-    "reason_i18n": {
-     "en": "Nvidia's rebound helps lift broader semiconductor sentiment.",
-     "he": "ההתאוששות של אנבידיה תומכת בסנטימנט הרחב במגזר השבבים.",
-     "ar": "تعافي إنفيديا يساعد في رفع معنويات قطاع أشباه الموصلات الأوسع.",
-     "ru": "Отскок Nvidia помогает улучшить общие настроения в секторе полупроводников."
-    },
-    "name_i18n": {
-     "en": "SMH – VanEck Semiconductor ETF",
-     "he": "SMH – קרן סל על מניות מוליכים למחצה",
-     "ar": "SMH – صندوق قطاع أشباه الموصلات",
-     "ru": "SMH – полупроводниковый ETF"
-    },
-    "price_at_alert": 483.63,
-    "entry_price": 504.998,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 502.025,
-    "exit_date": "2026-11-12",
-    "change_pct": -0.59,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -0.64,
-    "edge_pct": -0.64,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "33eaa98ee5bd",
-  "updates": [
-   {
-    "ts": 1794352382,
-    "time": "2026-11-10T23:13Z",
-    "severity": 4,
-    "summary": "אנבידיה שכרה משרד עורכי דין מוביל בארה\"ב כדי לחקור את פרשת הקשרים האישיים של המנכ\"ל ג'נסן הואנג עם אישה שחשודה בריגול עבור סין.",
-    "i18n": {
-     "he": "אנבידיה שכרה משרד עורכי דין מוביל בארה\"ב כדי לחקור את פרשת הקשרים האישיים של המנכ\"ל ג'נסן הואנג עם אישה שחשודה בריגול עבור סין.",
-     "en": "Nvidia has appointed a major US law firm to investigate the alleged romantic affair between CEO Jensen Huang and a woman believed to be a spy for China.",
-     "ar": "عينت إنفيديا مكتب محاماة أمريكيًا رئيسيًا للتحقيق في العلاقة المزعومة بين الرئيس التنفيذي جنسن هوانغ وامرأة يُعتقد أنها جاسوسة للصين.",
-     "ru": "Nvidia наняла крупную американскую юридическую фирму для расследования связи генерального директора Дженсена Хуанга с женщиной, предположительно являющейся шпионкой Китая."
-    }
-   },
-   {
-    "ts": 1794394654,
-    "time": "2026-11-11T10:57Z",
-    "severity": 4,
-    "summary": "מניות אנבידיה רשמו ריבאונד של 5% בזמן שמשקיעים מעריכים האם הבדיקה סביב המנכ\"ל ג'נסן הואנג תשפיע על עסקי החברה לקראת פרסום הדוחות.",
-    "i18n": {
-     "en": "Nvidia shares rebounded by 5% as investors assess whether ongoing scrutiny surrounding CEO Jensen Huang will have spillover effects on the company's business ahead of earnings.",
-     "he": "מניות אנבידיה רשמו ריבאונד של 5% בזמן שמשקיעים מעריכים האם הבדיקה סביב המנכ\"ל ג'נסן הואנג תשפיע על עסקי החברה לקראת פרסום הדוחות.",
-     "ar": "تعافت أسهم إنفيديا بنسبة 5% بينما يتقيم المستثمرون ما إذا كان التدقيق الجاري حول الرئيس التنفيذي جنسن هوانغ سؤثر على أعمال الشركة قبيل النتائج.",
-     "ru": "Акции Nvidia отскочили на 5%, так как инвесторы оценивают, повлияет ли проверка в отношении генерального директора Дженсена Хуанга на бизнес компании перед отчетностью."
-    }
-   }
-  ],
-  "last_update": 1794394654,
-  "evaluated": true
- },
- {
-  "ts": 1794346775,
-  "time": "2026-11-10T21:39Z",
   "title": "קנדה מטילה מחדש סנקציות על איראן",
   "summary": "ממשלת קנדה הודיעה כי תטיל מחדש סנקציות על איראן, עשור לאחר שהוסרו, כחלק מלחץ בינלאומי גובר.",
   "kid": "קנדה החליטה להחזיר סנקציות (עונשים כלכליים) על איראן. זה אומר שיהיה קשה יותר לחברות לעשות עסקים עם איראן.",
@@ -974,121 +839,6 @@
    }
   ],
   "last_update": 1794398022,
-  "evaluated": true
- },
- {
-  "ts": 1794358657,
-  "time": "2026-11-11T00:57Z",
-  "title": "בית הנבחרים בארה\"ב דחה הצבעה להדחת שר ההגנה פיט הגסת'",
-  "summary": "בית הנבחרים האמריקאי בלם בינתיים את ניסיון הדחתו של שר ההגנה פיט הגסת'. הנשיא טראמפ בירך על התוצאה, אך דמוקרטים עשויים לנסות שוב בשנה הבאה.",
-  "kid": "היה ניסיון לפטר את שר ההגנה של ארה\"ב אך הוא נכשל לעת עתה. זה שומר על יציבות במדיניות הביטחונית ומשפיע לטובה על מניות חברות הביטחון הגדולות.",
-  "i18n": {
-   "title": {
-    "he": "בית הנבחרים בארה\"ב דחה הצבעה להדחת שר ההגנה פיט הגסת'",
-    "en": "US House blocks bid to impeach Defense Secretary Pete Hegseth",
-    "ar": "مجلس النواب الأمريكي يمنع محاولة عزل وزير الدفاع بيت هيغسيث",
-    "ru": "Палата представителей США заблокировала попытку импичмента министра обороны Пита Хегсета"
-   },
-   "summary": {
-    "he": "בית הנבחרים האמריקאי בלם בינתיים את ניסיון הדחתו של שר ההגנה פיט הגסת'. הנשיא טראמפ בירך על התוצאה, אך דמוקרטים עשויים לנסות שוב בשנה הבאה.",
-    "en": "The US House of Representatives blocked an attempt to impeach Defense Secretary Pete Hegseth for now. President Trump welcomed the outcome, though Democrats may try again next year.",
-    "ar": "منع مجلس النواب الأمريكي مؤقتاً محاولة عزل وزير الدفاع بيت هيغسيث. رحب الرئيس ترامب بالنتيجة، لكن الديمقراطيين قد يحاولون مرة أخرى العام المقبل.",
-    "ru": "Палата представителей США пока заблокировала попытку импичмента министра обороны Пита Хегсета. Президент Трамп приветствовал результат, хотя демократы могут попытаться снова в следующем году."
-   },
-   "kid": {
-    "he": "היה ניסיון לפטר את שר ההגנה של ארה\"ב אך הוא נכשל לעת עתה. זה שומר על יציבות במדיניות הביטחונית ומשפיע לטובה על מניות חברות הביטחון הגדולות.",
-    "en": "An attempt to remove the US Defense Secretary failed for now, keeping defense policy steady. This helps big defense company stocks stay calm.",
-    "ar": "فشلت محاولة إقالة وزير الدفاع الأمريكي حالياً، مما يحافظ على استقرار سياسة الدفاع ويدعم أسهم شركات الدفاع الكبرى.",
-    "ru": "Попытка сместить министра обороны США пока провалилась, что сохраняет стабильность оборонной политики и поддерживает акции оборонных компаний."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794358657,
-    "reason": "יציבות בהנהגת מערכת הביטחון מונעת אי-ודאות תקציבית.",
-    "reason_i18n": {
-     "he": "יציבות בהנהגת מערכת הביטחון מונעת אי-ודאות תקציבית.",
-     "en": "Stability in defense leadership avoids budget uncertainty.",
-     "ar": "الاستقرار في قيادة الدفاع يتجنب عدم اليقين بشأن الميزانية.",
-     "ru": "Стабильность в руководстве обороны предотвращает бюджетную неопределенность."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון",
-     "en": "ITA – Aerospace & Defense ETF",
-     "ar": "ITA - صندوق الفضاء والدفاع",
-     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 72.35,
-    "entry_price": 72.39,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 71.71,
-    "exit_date": "2026-11-12",
-    "change_pct": -0.94,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -0.99,
-    "edge_pct": -0.99,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794358657,
-    "reason": "המשך רציפות ניהולית בפנטגון תומך בחוזים קיימים.",
-    "reason_i18n": {
-     "he": "המשך רציפות ניהולית בפנטגון תומך בחוזים קיימים.",
-     "en": "Continued leadership continuity at the Pentagon supports existing contracts.",
-     "ar": "استمرار استقرار القيادة في البنتاغون يدعم العقود القائمة.",
-     "ru": "Сохранение преемственности руководства в Пентагоне поддерживает существующие контракты."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין - חברת ביטחון וחלל",
-     "en": "Lockheed Martin – Defense and aerospace giant",
-     "ar": "لوكهيد مارتن - عملاق الدفاع والفضاء",
-     "ru": "Lockheed Martin – гигант оборонной промышленности"
-    },
-    "price_at_alert": 603.12,
-    "entry_price": 597.67,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 604.15,
-    "exit_date": "2026-11-12",
-    "change_pct": 1.08,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": 1.03,
-    "edge_pct": 1.03,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "558de06907c7",
-  "updates": [
-   {
-    "ts": 1794394654,
-    "time": "2026-11-11T10:57Z",
-    "severity": 3,
-    "summary": "בית הנבחרים בארה\"ב דחה ברוב זעום הצבעת הדחה נגד שר ההגנה פיט הגסת' לאחר היעדרيات של חברי אופוזיציה בהצבעות פרוצדורליות.",
-    "i18n": {
-     "en": "The US House of Representatives narrowly shelved an impeachment vote targeting Defense Secretary Pete Hegseth after procedural votes saw key opposition absences.",
-     "he": "בית הנבחרים בארה\"ב דחה ברוב זעום הצבעת הדחה נגד שר ההגנה פיט הגסת' לאחר היעדרيات של חברי אופוזיציה בהצבעות פרוצדורליות.",
-     "ar": "أجل مجلس النواب الأمريكي بفارق ضئيل تصويت عزل وزير الدفاع بيت هيغسيث بعد غياب نواب معارضين في تصويت إجرائي.",
-     "ru": "Палата представителей США едва отложила голосование по импичменту министра обороны Пита Хегсета после отсутствия ряда оппозиционеров при процедурном голосовании."
-    }
-   }
-  ],
-  "last_update": 1794394654,
   "evaluated": true
  },
  {
@@ -2438,166 +2188,6 @@
    }
   ],
   "last_update": 1794440084,
-  "evaluated": true
- },
- {
-  "ts": 1794394654,
-  "time": "2026-11-11T10:57Z",
-  "title": "מניות אלביט מערכות חוצות את הממוצע הנע ל-50 יום כלפי מעלה",
-  "summary": "ניתוח שוק מציין שמניות אלביט מערכות (NASDAQ: ESLT) חצו כלפי מעלה את הממוצע הנע ל-50 יום, מה שמסמן מומנטום טכני אפשרי.",
-  "kid": "מניית חברת הביטחון הישראלית חצתה קו מסחר טכני חשוב, דבר שיכול למשוך קונים נוספים שעוקבים אחר גרפים.",
-  "i18n": {
-   "title": {
-    "en": "Elbit Systems Shares Cross Above 50-Day Moving Average",
-    "he": "מניות אלביט מערכות חוצות את הממוצע הנע ל-50 יום כלפי מעלה",
-    "ar": "أسهم إيلبيت سيستمز تتجاوز متوسط المتحرك لـ 50 يوماً صعوداً",
-    "ru": "Акции Elbit Systems пересекли 50-дневную скользящую среднюю вверх"
-   },
-   "summary": {
-    "en": "Market analysis highlights that Elbit Systems (NASDAQ: ESLT) shares have crossed above their 50-day moving average, signaling potential technical momentum.",
-    "he": "ניתוח שוק מציין שמניות אלביט מערכות (NASDAQ: ESLT) חצו כלפי מעלה את הממוצע הנע ל-50 יום, מה שמסמן מומנטום טכני אפשרי.",
-    "ar": "تشير تحليل السوق إلى أن أسهم إيلبيت سيستمز تجاوزت متوسطها المتحرك لـ 50 يوماً صعوداً، مما يشير إلى زخم فني محتمل.",
-    "ru": "Анализ рынка показывает, что акции Elbit Systems поднялись выше 50-дневной скользящей средней, что указывает на потенциальный технический импульс."
-   },
-   "kid": {
-    "en": "An Israeli defense company's stock crossed an important technical trading line, which can attract more buyers who follow stock charts.",
-    "he": "מניית חברת הביטחון הישראלית חצתה קו מסחר טכני חשוב, דבר שיכול למשוך קונים נוספים שעוקבים אחר גרפים.",
-    "ar": "سهم شركة دفاع إسرائيلية تجاوز خط تداول فني هام، مما قد يجذب المزيد من المشترين الذين يتابعون الرسوم البيانية.",
-    "ru": "Акции израильской оборонной компании пересекли важную техническую линию, что может привлечь новых покупателей."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "up",
-    "t0": 1794394654,
-    "reason": "פריצה טכנית מעל הממוצע הנע ל-50 יום מושכת סוחרי מומנטום.",
-    "reason_i18n": {
-     "en": "Technical breakout above 50-day moving average attracts momentum traders.",
-     "he": "פריצה טכנית מעל הממוצע הנע ל-50 יום מושכת סוחרי מומנטום.",
-     "ar": "اختراق فني فوق متوسط 50 يوماً يجذب متداولي الزخم.",
-     "ru": "Технический прорыв выше 50-дневной скользящей средней привлекает трейдеров."
-    },
-    "name_i18n": {
-     "en": "ESLT – Elbit Systems",
-     "he": "ESLT – אלביט מערכות",
-     "ar": "ESLT – إيلبيت سيستمز",
-     "ru": "ESLT – Elbit Systems"
-    },
-    "price_at_alert": 740.17,
-    "entry_price": 735.62,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 723.25,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.68,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -1.73,
-    "edge_pct": -1.73,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "22ddf38abc52",
-  "evaluated": true
- },
- {
-  "ts": 1794394654,
-  "time": "2026-11-11T10:57Z",
-  "title": "ישראל מייצרת רחפן טקטי עם תכונות 'על' כדי לאתגר את הדומיננטיות בשוק",
-  "summary": "דיווחים מצביעים על כך שפותח בישראל רחפן טקטי חדש המצויד בתכונות מתקדמות במטרה לאתגר את הדומיננטיות בשוק הרחפנים האזורי והבינלאומי.",
-  "kid": "חברה ביטחונית בישראל פיתחה רחפן מתקדם חדש. זה מדגיש את החוזק של שוק הרחפנים והביטחון הטכנולוגי.",
-  "i18n": {
-   "title": {
-    "en": "Israel Produces Tactical Drone with 'Super' Features to Challenge Dominance",
-    "he": "ישראל מייצרת רחפן טקטי עם תכונות 'על' כדי לאתגר את הדומיננטיות בשוק",
-    "ar": "إسرائيل تنتج طائرة مسيرة تكتيكية بميزات 'خارقة' لتحدي هيمنة السوق",
-    "ru": "Израиль производит тактический дрон с 'супер' функциями, чтобы бросить вызов доминированию"
-   },
-   "summary": {
-    "en": "Reports indicate Israel has developed a new tactical drone equipped with advanced features aimed at challenging regional and international drone dominance.",
-    "he": "דיווחים מצביעים על כך שפותח בישראל רחפן טקטי חדש המצויד בתכונות מתקדמות במטרה לאתגר את הדומיננטיות בשוק הרחפנים האזורי והבינלאומי.",
-    "ar": "تشير التقارير إلى أن إسرائيل طورت طائرة مسيرة تكتيكية جديدة مزودة بميزات متقدمة تهدف لتحدي هيمنة الطائرات المسيرة.",
-    "ru": "Сообщается, что Израиль разработал новый тактический дрон с продвинутыми функциями, бросающий вызов доминированию на рынке."
-   },
-   "kid": {
-    "en": "An Israeli defense maker created a new advanced drone. This highlights the strong tech and defense drone market, which can benefit drone makers.",
-    "he": "חברה ביטחונית בישראל פיתחה רחפן מתקדם חדש. זה מדגיש את החוזק של שוק הרחפנים והביטחון הטכנולוגי.",
-    "ar": "ابتكرت شركة دفاع إسرائيلية طائرة مسيرة متقدمة جديدة، مما يبرز قوة سوق الطائرات المسيرة الدفاعية.",
-    "ru": "Израильский оборонный разработчик создал новый продвинутый дрон, что подчеркивает силу рынка беспилотников."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "AVAV",
-    "direction": "up",
-    "t0": 1794394654,
-    "reason": "הדגשת חידושים ברחפנים טקטיים מתקדמים מחזקת את הסנטימנט במגזר הרחפנים.",
-    "reason_i18n": {
-     "en": "Highlighting advanced tactical drone innovations boosts sentiment across the drone sector.",
-     "he": "הדגשת חידושים ברחפנים טקטיים מתקדמים מחזקת את הסנטימנט במגזר הרחפנים.",
-     "ar": "تسليط الضوء على ابتكارات الطائرات المسيرة يعزز معنويات قطاع المسيّرات.",
-     "ru": "Освещение инноваций в области тактических дронов поддерживает сектор."
-    },
-    "name_i18n": {
-     "en": "AVAV – AeroVironment",
-     "he": "AVAV – אירווירונמנט",
-     "ar": "AVAV – إيروفيرومنت",
-     "ru": "AVAV – AeroVironment"
-    },
-    "price_at_alert": 123.5,
-    "entry_price": 126.37,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 120.83,
-    "exit_date": "2026-11-12",
-    "change_pct": -4.38,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -4.44,
-    "edge_pct": -4.44,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ESLT",
-    "direction": "up",
-    "t0": 1794394654,
-    "reason": "התקדמות בטכנולוגיית ההגנה הישראלית מחזקת את הקבלנים הביטחוניים המקומיים.",
-    "reason_i18n": {
-     "en": "Advancements in Israeli defense tech bolster local defense contractors.",
-     "he": "התקדמות בטכנולוגיית ההגנה הישראלית מחזקת את הקבלנים הביטחוניים המקומיים.",
-     "ar": "التقدم في تكنولوجيا الدفاع الإسرائيلية يدعم مقاولي الدفاع المحليين.",
-     "ru": "Прогресс в израильских оборонных технологиях поддерживает местных подрядчиков."
-    },
-    "name_i18n": {
-     "en": "ESLT – Elbit Systems",
-     "he": "ESLT – אלביט מערכות",
-     "ar": "ESLT – إيلبيت سيستمز",
-     "ru": "ESLT – Elbit Systems"
-    },
-    "price_at_alert": 740.17,
-    "entry_price": 735.62,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 723.25,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.68,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -1.73,
-    "edge_pct": -1.73,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "2aaaa56754ca",
   "evaluated": true
  },
  {
@@ -37146,10 +36736,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HbWVneXd0OHl3ZF9QX0pZWE10VVpyTW53SjlpTkNrS3drcFpwLVFkZXhobFlIRDVvVVBtNFVJSE5haF9vQktRWC1FZGdDRW9C?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWlIaTR4Q2x1azc5X2d5NVVXVnNTcV93YmR6YkNFaFR1NUhSR3BxeHJOcHowOUFiWWVRamtQdmdSdFVra1I4LU1vUGxMVWh5VDFqNHRmY1JwX2wwdzB4VzdHbGp6Vl8tRzVuU2NjSXd1OVd6eU1GMFZ2S0RNUkNqaElROE96dWd5d2RiYWg0WU91WXJXeWc?oc=5"
    },
    {
@@ -37167,6 +36753,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTHphMHpGaVBYREJFb1d5eFF2R2JfRlF6ZEtqOU0wOU5VUFppSU10a19MT2pabmRUUGhuZzVRT1RLNFFsOXlxVVVjTkh6MHk1ak9FaENha3k4cWpOOU5lM3Q2N3VJUmpKcU0xY1E1dlBfTHAwN25Sd1RCMF9QUUJOX2pZcFJMX3ZHbXVSdEdNYVZPNW5QaFVSU0FxZlVYTmxXbm4zN19YOVdXMW9mbk8xU2Z4Zw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdkY1UHdaU0xzR2RPODF2X25yVHMzYk5ibmxWa1V1SUZLRW1vMmRyMEZHZFloNGxtci02SVJGMGdXbUxCSGtEcHJZRXVmQjlsRlJXZk81eWJHYWRlUzdQc3RZdUJPNzlIejlMOTNkYnExM3FmU3BGU0FyZ0tKX0dZUzI0b3pqRm0teEs5cGM3Sk5EM0c4STNR?oc=5"
    }
   ],
   "impacts": [
@@ -37229,6 +36819,25 @@
     "edge_pct": -0.86,
     "hit": false,
     "hit_raw": true
+   },
+   {
+    "ticker": "ASML",
+    "direction": "up",
+    "t0": 1795001432,
+    "reason": "מניעת החמרה מיידית של מגבלות הייצוא לסין מסירה עננה רגולטורית.",
+    "reason_i18n": {
+     "he": "מניעת החמרה מיידית של מגבלות הייצוא לסין מסירה עננה רגולטורית.",
+     "en": "Avoiding an immediate tightening of export controls to China removes a regulatory cloud.",
+     "ar": "تجنب تشديد فوري لقيود التصدير إلى الصين يزيل سحابة تنظيمية.",
+     "ru": "Избежание немедленногожесткого ужесточения экспортного контроля в Китай снимает регуляторную неопределенность."
+    },
+    "name_i18n": {
+     "he": "ASML - יצרנית ציוד שבבים הולנדית",
+     "en": "ASML - Dutch semiconductor equipment maker",
+     "ar": "ASML - صانعة معدات أشباه الموصلات الهولندية",
+     "ru": "ASML - нидерландский производитель оборудования для полупроводников"
+    },
+    "price_at_alert": 1383.11
    }
   ],
   "id": "55cdfabc18fc",
@@ -37268,9 +36877,21 @@
      "ar": "وسعت الولايات المتحدة ضوابط التصدير على رقائق الذكاء الاصطناعي المتقدمة لتشمل دولاً إضافية، بما في ذلك سنغافورة، للحد من الوصول الصيني.",
      "ru": "США расширили экспортный контроль над передовыми чипами ИИ на дополнительные страны, включая Сингапур, чтобы ограничить доступ Китая."
     }
+   },
+   {
+    "ts": 1795001432,
+    "time": "2026-11-18T11:30Z",
+    "severity": 6,
+    "summary": "הולנד דחתה את הלחץ מצד ארה\"ב להטיל הגבלות קשוחות יותר על ייצוא ציוד ייצור שבבים לסין.",
+    "i18n": {
+     "he": "הולנד דחתה את הלחץ מצד ארה\"ב להטיל הגבלות קשוחות יותר על ייצוא ציוד ייצור שבבים לסין.",
+     "en": "The Netherlands has rejected pressure from the United States to impose tougher restrictions on chipmaking equipment exports to China.",
+     "ar": "رفضت هولندا الضغوط الأمريكية لفرض قيود أكثر صارمة على صادرات معدات تصنيع الرقائق إلى الصين.",
+     "ru": "Нидерланды отвергли давление со стороны США с требованием ввести более жесткие ограничения на экспорт оборудования для производства чипов в Китай."
+    }
    }
   ],
-  "last_update": 1794891424,
+  "last_update": 1795001432,
   "evaluated": true
  },
  {
@@ -43390,10 +43011,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
-   },
-   {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDM4YklhSV9kWXE1QWg3NmR0RldHakctVm1HRm5kM2lnSWtudjA5N1lzdENKX3FOeHUxSkQ4WDRnOHVoTTRrQ29SS0cxT1hsQnNucU1lR1J5Zmg5cFZqRWRuQTdQSG5fLWFLcWMtSzlRZFc0SnFUMUdwdEVyXzBuUzlQQktvbU10LVVVSE5lbWRjd3BBcHdF?oc=5"
    },
@@ -43412,6 +43029,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTHhRTWZ0WnNxM2ZvV3VLZThMdVlPejFTOVJMYVhJMm1ibWh3X0I1QnRGdWNtdWtrX1BCSG5sTXFEVDhuaEVtWldDdE9FdHdVeldaX3EyRHNsU3RqN2VQc19mQlgwY1E2SjR3Z0tZamloWkZKM0dWdGJuSGdjdHNxYzU5bXRJMWV5bTlyMGtfSF91cEQ1bkhyNDNPNE5RV2N0cV92MFp3NGF1a0k?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXpLMzJyM1BXR2dDYTNLVkk0YlFqcjFNSERncTlDVlQwTFlWSVNpX0NfQzNJNEhIVXJPSHhBX0d5TnMtZVRBZGhLRXdOclVkRjVVM3NXb3g4RVdpR2dvdkR1ZFpwaTdjQTNMRm96cjJHb1pvOHgwLWVNYjU1Q3I0WEFPSjRKd3JqMzVsdl9vMlpqX3RwZHV6NUZoSDZxdHRIRFhIeFMzNlB0UFJNanNxYWVDbjFyRDA?oc=5"
    }
   ],
   "impacts": [
@@ -43467,9 +43088,21 @@
      "ar": "أبلغت شركة الطاقة النرويجية إكوينور عن هجوم سيبراني بالتوازي مع اضطرابات تقنية واسعة عالمياً، بما في ذلك توقف كمبيوتر فوجاكو في اليابان.",
      "ru": "Норвежская энергетическая компания Equinor сообщила о кибератаке на IT-системы на фоне глобальных сбоев, включая отключение японского суперкомпьютера Fugaku."
     }
+   },
+   {
+    "ts": 1795001432,
+    "time": "2026-11-18T11:30Z",
+    "severity": 4,
+    "summary": "חברת האנרגיה אקווינור פרסמה הבהרות לגבי היקף מתקפת הסייבר שפגעה במערכות הטכנולוגיה שלה.",
+    "i18n": {
+     "he": "חברת האנרגיה אקווינור פרסמה הבהרות לגבי היקף מתקפת הסייבר שפגעה במערכות הטכנולוגיה שלה.",
+     "en": "Energy company Equinor has issued clarifications regarding the scope of the cyberattack targeting its IT systems.",
+     "ar": "أصدرت شركة الطاقة إكوينور توضيحات بشأن نطاق الهجوم السيبراني الذي استهدف أنظمة تكنولوجيا المعلومات لديها.",
+     "ru": "Энергетическая компания Equinor выпустила разъяснения относительно масштабов кибератаки на свои IT-системы."
+    }
    }
   ],
-  "last_update": 1794951410
+  "last_update": 1795001432
  },
  {
   "ts": 1794944925,
@@ -44813,27 +44446,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMDJhdEFoYTRZd1AxRTBERWpiRVhfbUN3N01hak5mNV9mcE9fclFHeVF4NC16aGlYdmNROU9aazVtUVRFQ1AzbjN3YTZpSUVqVDQwRUJGRkpIUjZiVGhqcGJTNzVnamhscWd1b0x5XzJpMW5uV1VTamxCbjhETUhIN0pfcTU0OGhraWliemZtRnQ5UllVN2hpWHdaYUlwQW8tdDczcS1BUzBkYWgzYWc?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS1haNlFBNTRtclRTUThCM1ZFVnUzLTBtNFpycF9RRDlhd3pMSWdwOHE1eVg4bXJMS2w0V2NZTXo4czdtSF9pQXF2RXR6b05BYS1pbjF2bzQ4WUxKVjNUaEVacHFUMTN0M2dacnFvQmpDZTE1Y2NJOUJWZ0RXMXQ5ek1ya3pDNm9CYjk4?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHlESkFMaHUyRHMxV095SXNjZF9UN0x1TllqUnk2Tm1PekJwaGV4ckdva1lHdlZlSUhQU3k3QWo4Nng3VEsydEhDWi1JQjRPVktOU1hnd25qdm4zR29rQnhTc0czbGQ0M0RId1FiUGgxaXEtbEYwblNhWGxyRkdzbHZkbk0wNUE1SWxVVjN3cGlkZVE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmpLenNlVXhGZlllUkIwVS1xTUlvQjNhWThWa3BERFh5UEI4b2J3b3FOVXFvSWp6RDVuamhCckpVXzhicVhMa2poUXNncUtRTUJtLUY5VU1rWEczY3ZmVkZYdlRDZnhmTExDZzdyQWZlUnhBTFJYNk5JcW03YlNoMjYyZFFfUlUtU0QxNi1DV3h6Zm0wdmo5X1VkYkkyNnlZTmJaMnR0VHVSZw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkZKRW1BZDJ1X2RCT1hOVGN4SFN5NzBneU1VZFc2SEdEdnJJZTBlVGJzTDVoc1ltMWp1T2lCZHJtSGNOVEVnMzl4VlFKU0ZSVXp1M2pUejVlVTh6RHJZSGhodFhSQmNYeDRHZjlyLWNpX0xmcVJSaURYU2g4Y2FqbEg0RFJfakRsX3FWWUdwVmQza25vdTA0LTVmME4yVmEwUThRU0dZY1JOc2x6Z0VjbU1GSmF2OGhmc0FBT0lB?oc=5"
    },
    {
     "name": "BBC Business",
     "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNFdGTUp2b3d4OUViN1dWeGRHT0RlT2JLUEpDOTVrTWlHQ3RtUV9LaXRuTVg1akJiZXRhNVNwOExSNko0MHZrX3ZFUXRleHFvTDMxS2hVNVEzQ1hvSE5ZU01rREN2ckpoQ09zYndfRWpTYm5XNk13eUpyM1RQa2ppOUhoaENGbGFKSmVWN0Q5aWNIMlUtWDJLak9ScE1hNndidXctcVFyTzc5ckx0bWg2d3ZyWk1qZ19IelB1RWRyNS0xY1dfQzN4XzI2LWloLWNtTkhQblU2QkhUbjYt?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM1c5bjEwZGoxWUN3Qml4QmZXSkZHQnBPRk5IZnBQalV1dXF2andUVk01YXBmRjBvSXVZYXV0S1oyd192a3M2cVVzRUpfb3p1WWRCNmJNdFZGT1BSeV9WSVFUdWg5WVdUZTZNQ3I5dVphazRDUEx4eDBpTVNRT1VieFRrMHl3UXhqeVQwb0FJM2RBdTBxOG9oTl9aWmNfY0RuTkltR0hhSzQzdjRWWDcxUERfbUJ5aGVJVFphUTg3d0hrUVdZNlE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14Wkg1Uk5rRjBtYTB3V3RNN0tCMndtZzcyYk5kSlI2YkV4YnBWcWxsVlJiVjl1S3JrWmZ3VU4tSE5LT3FnU3p0M0xUYkJONjRaVXZyQy1LcWx1WFpkQUc2MmJfSEVIYlJKMF9nS05VY01fem13NEprLS1R?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcVJnMEtZNE54VFZkWHRQVElkblRDXzVlamdNYmM2ZE1QVVJZUXJXREhBWllXWDE5YlJzQ2tPS09EcUpHS0ZKb3dSWkM4YnVKMHhBVExUU1hkRGZ5ZFRwX0dPYllJd1ZXSEtobElJVnUzcmx5elBQOWQ3bFpjdTQ3NGE3ZzA0QzdCR2hzNTd4S0JUcEZzdW9fSFNB?oc=5"
    }
   ],
   "impacts": [
@@ -44901,9 +44534,21 @@
      "ar": "ارتفع التضخم في المملكة المتحدة إلى 3.6% في أكتوبر، مدفوعاً بارتفاع أسعار الوقود والطاقة.",
      "ru": "Инфляция в Великобритании выросла до 3.6% в октябре из-за роста цен на топливо и энергию."
     }
+   },
+   {
+    "ts": 1795001432,
+    "time": "2026-11-18T11:30Z",
+    "severity": 6,
+    "summary": "קצב האינפלציה השנתי בבריטניה עלה ל-3.6% בחודש אוקטובר, מעל צפי האנליסטים ובשל עליות מחירי דלק ושירותים.",
+    "i18n": {
+     "he": "קצב האינפלציה השנתי בבריטניה עלה ל-3.6% בחודש אוקטובר, מעל צפי האנליסטים ובשל עליות מחירי דלק ושירותים.",
+     "en": "The UK annual inflation rate rose to 3.6% in October, exceeding analyst expectations and driven by higher fuel and service prices.",
+     "ar": "ارتفع معدل التضخم السنوي في بريطانيا إلى 3.6% في أكتوبر، متجاوزاً توقعات المحللين ومدفوعاً بزيادة أسعار الوقود والخدمات.",
+     "ru": "Годовая инфляция в Великобритании выросла до 3.6% в октябре, превысив ожидания аналитиков на фоне роста цен на топливо и услуги."
+    }
    }
   ],
-  "last_update": 1794998056
+  "last_update": 1795001432
  },
  {
   "ts": 1794990669,
@@ -45286,5 +44931,198 @@
    }
   ],
   "id": "4020fc2b70d4"
+ },
+ {
+  "ts": 1795001432,
+  "time": "2026-11-18T11:30Z",
+  "title": "מחירי הנחושת צוללים לשפל של שבעה חודשים עקב חששות אינפלציה",
+  "summary": "מחירי הנחושת ירדו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות וחששות גוברים סביב נתוני האינפלציה והכלכלה.",
+  "kid": "מחיר הנחושת ירד לשפל בגלל חשש של משקיעים מהכלכלה ומאינפלציה. זה עשוי לפגוע במניות של חברות כרייה.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנחושת צוללים לשפל של שבעה חודשים עקב חששות אינפלציה",
+    "en": "Copper tumbles to seven-month low on speculative selling and inflation fears",
+    "ar": "הנחושת צונחת לשפל של שבעה חודשים עקב מכירות ספקולטיביות וחששות אינפלציה",
+    "ru": "Цены на медь падают до семимесячного минимума из-за спекулятивных продаж и инфляционных опасений"
+   },
+   "summary": {
+    "he": "מחירי הנחושת ירדו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות וחששות גוברים סביב נתוני האינפלציה והכלכלה.",
+    "en": "Copper prices dropped to a seven-month low amid speculative selling and rising concerns surrounding inflation and economic data.",
+    "ar": "הخفضت أسعار النحاس إلى أدنى مستوى لها في سبعة أشهر وسط عمليات بيع ספקולטיבית ומפני مخاوف متزايدة بشأن التضخم.",
+    "ru": "Цены на медь упали до семимесячного минимума на фоне спекулятивных продаж и растущих опасений по поводу инфляции."
+   },
+   "kid": {
+    "he": "מחיר הנחושת ירד לשפל בגלל חשש של משקיעים מהכלכלה ומאינפלציה. זה עשוי לפגוע במניות של חברות כרייה.",
+    "en": "Copper prices fell to a low due to investor worries about the economy and inflation. This could hurt mining company stocks.",
+    "ar": "انخفض سعر النحاس إلى مستوى منخفض بسبب مخاوف المستثمرين بشأن الاقتصاد والتضخم. قد يضر هذا بأسهم شركات التعدين.",
+    "ru": "Цена меди упала до минимума из-за опасений инвесторов по поводу экономики и инфляции. Это может навредить акциям горнодобывающих компаний."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUk43dUFzWmNMcHpyMXViQWNmd2V4M0RDMWZ2eUNldGlkLWxJdUVGNE1wZDV3aUh1Z2xZakJreWZ5RmZvTy1yZWx6TWZqd3BBQlFZSEpZTGxZTC0xMXdlN2h0cllTdjZWRGZaeUV6MkJTSmRDSjdQTWVvWHhvRkRhUFd5d3dVSC1LdjJvRm5wNk9Nd0ZGZzZUZEVaSmYyXzE2WjFtZGR3eWRLcmdITFNESzZMUXNuR2llVmk5RVFhalVGQnRLQ0ZyTg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1795001432,
+    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות החברה.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הנחושת פוגעת ברווחיות החברה.",
+     "en": "Falling copper prices weigh on company profitability.",
+     "ar": "انخفاض أسعار النحاس يضغط על ربحية الشركة.",
+     "ru": "Падение цен на медь негативно влияет на прибыльность компании."
+    },
+    "name_i18n": {
+     "he": "FCX - חברת הכרייה פריפורט מקמורן",
+     "en": "FCX - Freeport-McMoRan mining company",
+     "ar": "FCX - شركة التعدين فريبورت-מקמורן",
+     "ru": "FCX - горнодобывающая компания Freeport-McMoRan"
+    },
+    "price_at_alert": 55.3
+   },
+   {
+    "ticker": "CPER",
+    "direction": "down",
+    "t0": 1795001432,
+    "reason": "ירידת ערך מתכת הנחושת בשווקים.",
+    "reason_i18n": {
+     "he": "ירידת ערך מתכת הנחושת בשווקים.",
+     "en": "Decline in the value of copper metal in markets.",
+     "ar": "انخفاض قيمة معدن النحاس في الأسواق.",
+     "ru": "Снижение стоимости меди на рынках."
+    },
+    "name_i18n": {
+     "he": "CPER - קרן סל נחושת",
+     "en": "CPER - Copper ETF",
+     "ar": "CPER - صندوق النحاس",
+     "ru": "CPER - ETF на медь"
+    },
+    "price_at_alert": 35.99
+   }
+  ],
+  "id": "ed6d501934d6"
+ },
+ {
+  "ts": 1795001432,
+  "time": "2026-11-18T11:30Z",
+  "title": "הביטוי 'ביטקוין' נשאר סביב 64 אלף דולר בזמן שסוחרים מתמחרים הורדת ריבית",
+  "summary": "מחיר הביטקוין נסחר סביב 64,000 דולר בעוד השווקים מתמחרים סיכויים להחלטות ריבית קרובות.",
+  "kid": "מחיר הביטקוין נשאר יציב יחסית סביב 64 אלף דולר בזמן שמשקיעים חושבים על מה שהבנק המרכזי יעשה בריבית.",
+  "i18n": {
+   "title": {
+    "he": "הביטוי 'ביטקוין' נשאר סביב 64 אלף דולר בזמן שסוחרים מתמחרים הורדת ריבית",
+    "en": "Bitcoin Holds Near $64K as Traders Price In 90% Odds of a December Fed Hike",
+    "ar": "بتكوين يتماسك قرب 64 ألف دولار مع تسعير المتداولين لاحتمال رفع الفائدة في ديسمبر",
+    "ru": "Биткоин держится около $64 тыс., так как трейдеры закладывают вероятность повышения ставки ФРС в декабре"
+   },
+   "summary": {
+    "he": "מחיר הביטקוין נסחר סביב 64,000 דולר בעוד השווקים מתמחרים סיכויים להחלטות ריבית קרובות.",
+    "en": "Bitcoin traded near $64,000 as traders priced in expectations regarding upcoming Federal Reserve rate decisions.",
+    "ar": "تداول بتكوين قرب 64,000 دولار بينما يسعر المتداولون توقعات قرارات الفائدة القادمة للاحتياطي الفيدرالي.",
+    "ru": "Биткоин торгуется около $64 000 на фоне оценки трейдерами предстоящих решений ФРС по ставке."
+   },
+   "kid": {
+    "he": "מחיר הביטקוין נשאר יציב יחסית סביב 64 אלף דולר בזמן שמשקיעים חושבים על מה שהבנק המרכזי יעשה בריבית.",
+    "en": "Bitcoin price remained relatively stable around $64,000 while investors think about what the central bank will do with interest rates.",
+    "ar": "ظل سعر بتكوين مستقراً نسبياً حول 64 ألف دولار بينما يفكر المستثمرون فيما سيقوك به البنك المركزي بشأن أسعار الفائدة.",
+    "ru": "Цена биткоина остается относительно стабильной около $64 тыс., пока инвесторы думают о действиях центробанка по ставке."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9odzFZY2dsNFlMTjZEb3U4dzBNTGlFblhnV2N5SW5hZUdZRFZ2bEY0M2dsWXFIMjdSQmVPSlVIV01oRDhYeFhxVkxuMmtMQlVNbUxtUGlPVlU2QkJpTWpJUzdpcjdJU2xDeUFRaFgtV003eHBtS2c?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "IBIT",
+    "direction": "up",
+    "t0": 1795001432,
+    "reason": "יציבות במחיר הביטקוין תומכת בקרנות הסל הקשורות אליו.",
+    "reason_i18n": {
+     "he": "יציבות במחיר הביטקוין תומכת בקרנות הסל הקשורות אליו.",
+     "en": "Stability in Bitcoin price supports related exchange-traded funds.",
+     "ar": "استقرار سعر بتكوين يدعم صناديق الاستثمار المتداولة المرتبطة به.",
+     "ru": "Стабильность цены биткоина поддерживает связанные биржевые фонды."
+    },
+    "name_i18n": {
+     "he": "IBIT - קרן סל ביטקוין של בלאקרוק",
+     "en": "IBIT - BlackRock Bitcoin ETF",
+     "ar": "IBIT - صندوق بتكوين التابع لبלאك روك",
+     "ru": "IBIT - ETF на биткоин от BlackRock"
+    },
+    "price_at_alert": 36.14
+   }
+  ],
+  "id": "d6ebd8feff85"
+ },
+ {
+  "ts": 1795001432,
+  "time": "2026-11-18T11:30Z",
+  "title": "קוגניזנט זוכה בחוזה IT לרכבת בבריטניה בסך 175 מיליון דולר",
+  "summary": "חברת הטכנולוגיה קוגניזנט זכתה בחוזה טכנולוגיית מידע עבור רכבות בריטניה בשווי 175 מיליון דולר, לאחר שגברה על מתחרות.",
+  "kid": "חברת קוגניזנט קיבלה חוזה גדול לעבודה עם רכבות בריטניה. זה יכול לעזור למניה שלה לעלות מעט.",
+  "i18n": {
+   "title": {
+    "he": "קוגניזנט זוכה בחוזה IT לרכבת בבריטניה בסך 175 מיליון דולר",
+    "en": "Cognizant wins $175 million UK rail IT contract, beating TCS and HCLTech",
+    "ar": "קוגניזנט תזכה בחוזה تكنولوجيا معلومات לסקטור הרכבות בבריטניה בשווי 175 مليون دولار",
+    "ru": "Cognizant выигрывает контракт на IT для железных дорог Великобритании на $175 млн"
+   },
+   "summary": {
+    "he": "חברת הטכנולוגיה קוגניזנט זכתה בחוזה טכנולוגיית מידע עבור רכבות בריטניה בשווי 175 מיליון דולר, לאחר שגברה על מתחרות.",
+    "en": "Technology firm Cognizant has won a $175 million UK rail IT contract, beating out competitors like TCS and HCLTech.",
+    "ar": "فازت شركة التكنولوجيا كוגניזנט بعقد تكنولوجيا معلومات للسكك الحديدية في بريطانيا بقيمة 175 مليون دولار.",
+    "ru": "Технологическая компания Cognizant выиграла контракт на IT-услуги для британских железных дорог на сумму $175 млн."
+   },
+   "kid": {
+    "he": "חברת קוגניזנט קיבלה חוזה גדול לעבודה עם רכבות בריטניה. זה יכול לעזור למניה שלה לעלות מעט.",
+    "en": "Cognizant got a big contract to work with UK railways. This could help its stock go up a bit.",
+    "ar": "حصلت شركة كוגניזנט على عقد كبير للعمل مع سكك حديد بريطانيا. قد يساعد هذا سهمها على الارتفاع قليلاً.",
+    "ru": "Компания Cognizant получила крупный контракт на работу с британскими железными дорогами. Это может немного поддержать ее акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS252N2dabEhDQ2VkWXRkYWVpQzlwTmJuczJwQWtDNGl3emFOVUdvWlQ1eDZNaUhtMEt2YlEwS2RtOElWQlFJZ3VlOWx1RDl2NDk2T0hLV0N1bkpHSUlITG1yalBKYUhLek5UXzE1MVcyd1Fmd3RheG8wVWhHNXYyUU1aSU5ocWVpRlNJWVNjOVhPQU9p?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CTSH",
+    "direction": "up",
+    "t0": 1795001432,
+    "reason": "זכייה בחוזה ממשלתי/תשתיות משמעותי בבריטניה.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ממשלתי/תשתיות משמעותי בבריטניה.",
+     "en": "Winning a significant government/infrastructure contract in the UK.",
+     "ar": "الفوز بعقد حكومي/بنية تحتية هام في بريطانيا.",
+     "ru": "Получение значительного государственного/инфраструктурного контракта в Великобритании."
+    },
+    "name_i18n": {
+     "he": "CTSH - קוגניזנט טכנולוג'י סולושנס",
+     "en": "CTSH - Cognizant Technology Solutions",
+     "ar": "CTSH - كوجنيزنت للتكنولوجيا",
+     "ru": "CTSH - Cognizant Technology Solutions"
+    },
+    "price_at_alert": 60.0
+   }
+  ],
+  "id": "d14b55540eb5"
  }
 ]
