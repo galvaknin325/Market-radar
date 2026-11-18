@@ -2008,106 +2008,6 @@
  {
   "ts": 1794354624,
   "time": "2026-11-10T23:50Z",
-  "title": "הרחבת בקרת הייצוא האמריקאית לאופטיקה ומצעים",
-  "summary": "ארצות הברית מרחיבה את בקרת הייצוא מעבר לשבבים ומכלילה רכיבי אופטיקה ומצעים, מה שמוקדי את תשומת הלב על טאיוואן.",
-  "kid": "ארה\"ב מטילה כללים קפדניים יותר על עוד חלקים שמשמשים בטכנולוגיה מתקדמת. זה עלול להקשות על חברות טכנולוגיה בטאיוואן ובמקומות אחרים למכור את המוצרים שלהן.",
-  "i18n": {
-   "title": {
-    "he": "הרחבת בקרת הייצוא האמריקאית לאופטיקה ומצעים",
-    "en": "US Export Controls Spread to Optics and Substrates",
-    "ar": "توسيع قيود التصدير الأمريكية لتشمل البصريات والركائز",
-    "ru": "Расширение экспортного контроля США на оптику и подложки"
-   },
-   "summary": {
-    "he": "ארצות הברית מרחיבה את בקרת הייצוא מעבר לשבבים ומכלילה רכיבי אופטיקה ומצעים, מה שמוקדי את תשומת הלב על טאיוואן.",
-    "en": "The United States is expanding export controls from chips to optics and substrates, putting Taiwan directly in the crosshairs.",
-    "ar": "توسع الولايات المتحدة ضوابط التصدير لتتجاوز رقائق الكترونية وتشمل البصريات والركائز، مما يضع تايوان في دائرة الضوء.",
-    "ru": "США расширяют экспортный контроль с чипов на оптику и подложки, ставя под удар Тайвань."
-   },
-   "kid": {
-    "he": "ארה\"ב מטילה כללים קפדניים יותר על עוד חלקים שמשמשים בטכנולוגיה מתקדמת. זה עלול להקשות על חברות טכנולוגיה בטאיוואן ובמקומות אחרים למכור את המוצרים שלהן.",
-    "en": "The US is making strict rules for more parts used in high-tech devices. This can make it harder for tech companies in places like Taiwan to sell their products.",
-    "ar": "تضع الولايات المتحدة قواعد صارمة لأجزاء أخرى تستخدم في التقنية المتقدمة. هذا قد يصعب على شركات التقنية في تايوان بيع منتجاتها.",
-    "ru": "США вводят строгие правила для новых деталей в высоких технологиях. Тайваньским компаниям будет сложнее продавать товары."
-   }
-  },
-  "category": "trade",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uY1cyWjF3Y0w2TUptckJGRmpoN1BkeGJqMjBfcmlmVVYyMmY2UjVaZ3JiZ0FteUFJQTNkYnlRY0FVNE5XVDVhSkF5SHZYRDBVTTJzb0lRXzlRdEJJckJ5MlExR25laEk?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "TSM",
-    "direction": "down",
-    "t0": 1794354624,
-    "reason": "עלול לפגוע בשרשרת האספקה והייצוא שלה בטאיוואן",
-    "reason_i18n": {
-     "he": "עלול לפגוע בשרשרת האספקה והייצוא שלה בטאיוואן",
-     "en": "Could disrupt its supply chain and exports out of Taiwan",
-     "ar": "قد يعطل سلسلة التوريد والصادرات من تايوان",
-     "ru": "Может нарушить цепочку поставок и экспорт из Тайваня"
-    },
-    "name_i18n": {
-     "he": "TSMC - יצרנית שבבים גדולה",
-     "en": "TSMC – a massive chip manufacturer",
-     "ar": "TSMC – مصنع ضخم للرقائق",
-     "ru": "TSMC — крупный производитель чипов"
-    },
-    "price_at_alert": 396.48,
-    "entry_price": 415.25,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 405.65,
-    "exit_date": "2026-11-12",
-    "change_pct": -2.31,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -2.36,
-    "edge_pct": 2.36,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWT",
-    "direction": "down",
-    "t0": 1794354624,
-    "reason": "חשיפה ישירה לסיכוני בקרת ייצוא על טכנולוגיה בטאיוואן",
-    "reason_i18n": {
-     "he": "חשיפה ישירה לסיכוני בקרת ייצוא על טכנולוגיה בטאיוואן",
-     "en": "Direct exposure to tech export control risks in Taiwan",
-     "ar": "تعرض مباشر لمخاطر رقابة تصدير التقنية في تايوان",
-     "ru": "Прямая подверженность рискам контроля экспорта технологий на Тайване"
-    },
-    "name_i18n": {
-     "he": "EWT - קרן סל של טאיוואן",
-     "en": "EWT – Taiwan ETF",
-     "ar": "EWT – صندوق المؤشرات المتداولة لتايوان",
-     "ru": "EWT — фонд акций Тайваня"
-    },
-    "price_at_alert": 94.68,
-    "entry_price": 99.29,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 97.31,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.99,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -2.05,
-    "edge_pct": 2.05,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b2e319bae7e5",
-  "evaluated": true
- },
- {
-  "ts": 1794354624,
-  "time": "2026-11-10T23:50Z",
   "title": "מניות GE Vernova יורדות לאחר שסופטבנק משנה תוכניות אנרגיה",
   "summary": "מניות GE Vernova רושמות ירידות לאחר שחברת סופטבנק עדכנה את תוכניותיה לרכישת ציוד חשמל למרכזי נתונים בארה\"ב.",
   "kid": "סופטבנק החליטה לשנות את התוכניות שלה לקניית מכשירים שמספקים חשמל למרכזי מחשבים ענקיים. לכן, החברה שמייצרת את המכשירים הללו מאבדת שווי בבורסה.",
@@ -2222,76 +2122,6 @@
    }
   ],
   "last_update": 1794362309,
-  "evaluated": true
- },
- {
-  "ts": 1794354624,
-  "time": "2026-11-10T23:50Z",
-  "title": "שריפה פרצה בפלטפורמה בשדה הגז סאות' פארס באיראן",
-  "summary": "רשויות באיראן דיווחו על שריפה בפלטפורמה בשדה הגז סאות' פארס, כשנבדקים חשדות לדליפת גז או תקלה תפעולית.",
-  "kid": "הייתה שריפה במתקן גז גדול באיראן. איומים או תקלות במתקני אנרגיה בעולם לעיתים קרובות גורמים למחירי הדלק והגז לעלות.",
-  "i18n": {
-   "title": {
-    "he": "שריפה פרצה בפלטפורמה בשדה הגז סאות' פארס באיראן",
-    "en": "Fire Contained on Platform in Iran's South Pars Gas Field",
-    "ar": "السيطرة على حريق في منصة بحقل پارس الجنوبي لإيران",
-    "ru": "Пожар на платформе газового месторождения Южный Парс в Иране"
-   },
-   "summary": {
-    "he": "רשויות באיראן דיווחו על שריפה בפלטפורמה בשדה הגז סאות' פארס, כשנבדקים חשדות לדליפת גז או תקלה תפעולית.",
-    "en": "Officials contained a fire on a platform in Iran's South Pars gas field, considering a gas leak or operational mishap as causes.",
-    "ar": "احتوت السلطات حريقاً في منصة بحقل پارس الجنوبي في إيران، وتدرس احتمالات تسرب گاز أو عطل تشغيلي.",
-    "ru": "Власти Ирана ликвидировали пожар на платформе в газовом поле Южный Парс, рассматривая утечку газа или аварию как причину."
-   },
-   "kid": {
-    "he": "הייתה שריפה במתקן גז גדול באיראן. איומים או תקלות במתקני אנרגיה בעולם לעיתים קרובות גורמים למחירי הדלק והגז לעלות.",
-    "en": "There was a fire at a major gas facility in Iran. Trouble at big energy sites around the world often pushes fuel and gas prices up.",
-    "ar": "حدث حريق في منشأة غاز كبرى بإيران. المشاكل في مواقع الطاقة الكبرى حول العالم غالباً ما تدفع أسعار الوقود والغاز للارتفاع.",
-    "ru": "Произошел пожар на крупном газовом объекте в Иране. Проблемы на энергетических объектах часто повышают цены на топливо и газ."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "UNG",
-    "direction": "up",
-    "t0": 1794354624,
-    "reason": "פגיעה באספקת הגז המזרח-תיכונית עשויה להעלות את מחירי הגז",
-    "reason_i18n": {
-     "he": "פגיעה באספקת הגז המזרח-תיכונית עשויה להעלות את מחירי הגז",
-     "en": "Disruption to Middle Eastern gas supply could boost gas prices",
-     "ar": "تعطل إمدادات الغاز الشرق أوسطية قد يرفع أسعار الغاز",
-     "ru": "Нарушение поставок газа на Ближнем Востоке может поднять цены"
-    },
-    "name_i18n": {
-     "he": "UNG - קרן סל על גז טבעי",
-     "en": "UNG – Natural Gas ETF",
-     "ar": "UNG – صندوق الغاز الطبيعي",
-     "ru": "UNG — фонд природного газа"
-    },
-    "price_at_alert": 10.42,
-    "entry_price": 10.63,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 10.465,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.55,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -1.61,
-    "edge_pct": -1.61,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "cd33d5c9b645",
   "evaluated": true
  },
  {
@@ -44421,23 +44251,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMC1jMVhXdzI0ZWpvQkJiZDQ3d3RFX0ZoMUtqZ0hMS191Skd0UnJtNXI5LUY0UHRPQS11aDhzaE5qRFZUWkU4bk4xQU94UFVhdmJ1cU9RVWptdU1LLW1vQTNVR3BaM3hhTFViVDRUU0luMzJOd2M5TW1iTVBNSDlrSmV4cG83Rlg0MTlIQlo0TU5NVndmZ1djT3FGMnUzeXc?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaHVUVUFWUUVRdVN2NC1sV2I1Y3I5SFNQaTdmMndIQm9NMEx3UmVQaEFMVllZS2ZKcjJyTmpsb0lwWmcwZ2s2dGxScVp1eTFIczNzakhVd013YWlUUUc4eERvOHhpeVdQbzl4UXdNWUdNcEx0bUpGdm8zM09OWGpmSnQ2dFhpc1F6YVdsZFd4cUpnMlU2bDVueGNNZG9fN3RJZmlEckZsNA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcF84YXdGTjBwckh4WFF3Sm1zb0wza19pR1lOYWxPU01hZjVTaWJHNHhwdjhkWVJBYU1heWhQYlVBQlpORE5paXVxSXBqSlFXU0RkNlRuLU9zd1h2R05hSXFVNXFBLTFpenVCSF9mcjRseERPemtEODFzdGhGRUkxeVdSRTllMVRM0gGcAUFVX3lxTFBGV0NtdTdUbVRORmQ2dU5fQThzcTNQRTFDdFQtVkZTV3g4cGhkX2xUcVpOWWpfdWNhNW5oeE1mV1k0X1cyWVk2QkU3c28yT1pRYnFGN05pR1Niek11eTVRcmxYWVNkbVJvNGFRQUhzV3U1dTJJRk5RWXAtVklJdmRIWWg5VnI3d05oT0FGOXRLdTE4Qmt6WGNPU3RzTA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNF8tU3BxSUpOT2RQWVFGbTBXeXJkYnpiVDRSTk1VcHdFazRZbWJEc0ZVSm1aWi1UbEN4M1BmRjFWNlF4S2t2eDdnWlFfSnkxNmx4UXJYWFpYcGFEZmRoZWtDRzlNRUtLU1lVUUVQX09PTjRialVQZ09fYkxCRkJWTjVOeUtwZ3dJOEdpaEY0ZmtzamVlSnk1ZEVTOTRKMV8yRF8zcFdyOG1ZR2RB?oc=5"
    },
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaG5SV3dhRjM2SUo1Q0RuUDF0RGVxcFF4VGZzWmQ0VFdtZXFDNDhNbklyTjBPRjZqNTFObjVIOTh1dkdKMkNhVThTNTFQSVNhX2l3c3pNb0JvTDBxU0lvZkxuamJzUU54d0RrYjVyMlJlcUd5bUlfcGxNMkpDdHI1R0d3RHZkUVl3ZWtZM1pldXdDX2RzLWdKU09yYkZRS3oxQlHSAacBQVVfeXFMTk9yMEdHY2xCYnhoZERKYzI1WGVpLUtfaldmbG1uTHpEeEszVUxGaE9xS3Z0Nl9SSzZOSlVYR0M1NTlVcC04cjdDMmNJUV9zMVB2WFhkYTRaR2NPZDZXcWJwVFd0UXNnSmpZT3ltNGxlZEs4Zm1RSGowYWxiRHNiS21BN2F4enc2MndXNEhobWxMSTZxWTdMSzhJbFgzRzFUVTRxS251SjA?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazV0bjR1YWJFOXRkRzBBa1IwM2s0S3NDR05Qc01uZ2czb25JdTEwSmR1UER0ekZKN0NtSmZJUkVIOE9ZNDdJd1Vtam81M09TXzFDUjROcldGY2p5YVJEdUtReGpVeDVVcUVvRnZQeDV1c1FzSW1KSDYtZklxc3FCX3l0eFdzcC1jWm5HUWFrRENrd09tNGdGQlNHcVY2RERjYlE?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGJiTlMySHdEQzR1LTVlcGpSaXh0T0xDYllPckxkQWhEaU9KNDBXcnNrejY5bFgySUNJR29vRHQyV3Q4UF9rRjAtbWZjR1N0MlJrOWFQTzVvM0tpaTF4NmtnTGE5dWFsZ0tnZDNTN1dRWU1yTGtBeThTbUV6NkEwb2hSVnI3LUl2Nl9VTXJqUmc0UQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUWFWUkFYMkNtOU5pdHBsY2N4NFhPMXdXVkhNUGpCeGtXWTFJYmwtTmthMmNHcktid2w1UHBzTEV0TkFadE9XbG9Cd0p3VGJWTDBmSGQwbHBQV3dhSjRJYXZiUVktb1JGaWJCTHpFSWdfQzFYdzJRTkV1S3A1d0tIc3NjcDQtUldMOHE0MUtxNXI3VXBOT183QWhLOU9xZ2ZNa1ZkaVdqM1RMUFJxdVowTUNvaTFpZWN5NG11Yg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVzN6cmZDODFTU1QwYUFPZk5yV3VvZkx6RzFCeFAzRTRSa0RtMU1yZG92bkNVbkRUZHVCZnhPZU11N0l3VFFVZ2hwZEhkbjE1ZTdYcmNqTU5zMUlqTUtPMnFiaGY4MWJPdXRJNEFFdXE4QWpRUXJ3aGtMbzl0eHlvY0FR?oc=5"
    }
   ],
   "impacts": [
@@ -44459,6 +44293,25 @@
      "ru": "ETF Канады"
     },
     "price_at_alert": 59.26
+   },
+   {
+    "ticker": "FXI",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "שיפור ביחסי המסחר הבינלאומיים של סין",
+    "reason_i18n": {
+     "he": "שיפור ביחסי המסחר הבינלאומיים של סין",
+     "en": "Improved international trade relations benefit Chinese markets",
+     "ar": "تحسين علاقات التجارة الدولية يفيد الأسواق الصينية",
+     "ru": "Улучшение международной торговли идет на пользу рынкам Китая"
+    },
+    "name_i18n": {
+     "he": "FXI – תעודת סל מניות סין הגדולות",
+     "en": "FXI – iShares China Large-Cap ETF",
+     "ar": "FXI – صندوق أسهم الصين الكبرى",
+     "ru": "FXI – ETF крупных китайских акций"
+    },
+    "price_at_alert": 32.88
    }
   ],
   "id": "f9fd65ddd347",
@@ -44474,9 +44327,21 @@
      "ar": "توصلت الصين وكندا إلى اتفاقيات بشأن خفض متبادل للتعريفات الجمركية على المنتجات الزراعية والصلب والألمنيوم بعد اجتماعات رفيعة المستوى.",
      "ru": "Китай и Канада достигли соглашения о взаимном снижении пошлин на сельскохозяйственную продукцию, сталь и алюминий после встреч на высоком уровне."
     }
+   },
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 4,
+    "summary": "סין וקנדה הגיעו להסכמות על הפחתת מכסים הדדית על מוצרים כמו פירות ים, חזיר, פלדה ואלומיניום, במקביל להידוק שיחות הסחר.",
+    "i18n": {
+     "he": "סין וקנדה הגיעו להסכמות על הפחתת מכסים הדדית על מוצרים כמו פירות ים, חזיר, פלדה ואלומיניום, במקביל להידוק שיחות הסחר.",
+     "en": "China and Canada rolled back mutual tariffs on seafood, pork, steel, and aluminum, while senior officials ramped up bilateral trade talks.",
+     "ar": "اتفقت الصين وكندا على خفض الرسوم الجمركية المتبادلة على المأكولات البحرية واللحوم والصلب، بالتزامن مع تعزيز محادثات التجارة.",
+     "ru": "Китай и Канада снизили взаимные пошлины на морепродукты, свинину, сталь и алюминий на фоне активизации торговых переговоров."
+    }
    }
   ],
-  "last_update": 1794947815
+  "last_update": 1794962152
  },
  {
   "ts": 1794908105,
@@ -44651,7 +44516,28 @@
   "category": "macro",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkxXcjV5LUVhRk5PODlmYTkybDRfWmVraVU3bFlDVFhNQW5rZ3ZWbmFtMl84SXREbFZkSDRzLUwzcThsUjlIa2hsMF9zTGh2ZjNhUV9mamc5NVEtRDA1MWVWUzZoNG1MUjV2T2FjWF9jR0tqcW5JRnJ6a2o3OVZjQ0VTRURPbmFkb0ZORUF2RENodTlteWh1dExNSldIV0VTN3g0Y0ExbW5oUGJXR1NkT0wxZGNrel9IRmxIUkRhTXhpaE9P0gHKAUFVX3lxTE1HOEpYQXplRXhaNUNmWHVZT1FNVm13eVVsNElIRmgxSE5jUU1oampRbkhSa2c0aVNSUElJdm9IVmI1VF9EY05pcnlnYTlDSVk2WEx2Ym1sd0lSNEJadElwc21UdTlaNTJSMU12MjVkbklTdV8xQ1JLdDZiSWViSmJNamw5VGE3OVBnU3BtSG9uWFFUTVJjVEg0UVFQUGZoVjZ4S3A2NTFvTFFEUHFVbGM2NDMxU0FFUWxqVEhrdmk4d1ZaS2xqbThTR1E?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbW1BaElnRG5PX0ZjTHh5U3VLZml2cGd1YXRxRXIwbEZkY0RMejlEODViaFV1bEVZekdYTEhzYjZUYXViQlVIYW9nWDZlZU5wUVJ4SDl0V0xuQW9mLUdfVmQyQUtKQXNMbVJMV1d2eXE4YURMUWNxQmRIdGlMR3l4aEZ6QkpOcmNkcnp6QXJma1YxTU9SUkRBYzVPZ1pCdXpQX1UxdV9xMk02UVVPUDhZZ3JmM3VCeHE5SVQ1NFBxN0dtYTBsdU9GQ2M4eEtwaWE1?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa0hWQllOd2RYUEhGaHFfaVg5YmpDcGM2b2VDY0FOejhfTC1kYm9rYnM3Nmt5bnJlbmZIUlR3eldDMk5JcVU1MEM0blNidzNMLTJiNDhvc1NIUjMyeWF2NzBOYjBqb3JYTFd2UEtmV1Y5VTNGTUtfU2lLWnc4T0NMMHg5QS1qcENmMnc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPanhUZTFnSldTMDIteFBoanc2Z2FEUXdtLWlMTmRKVFZURVhvZUdiY2VTT0hEbHJQVGNuNWRIZXB4dW1UVk45ZGNRVTQxSElfd2NpZWR3S1hsLUZNWFM4QTBqZ1hKTW5LUXFRai1DeHZVU1hJNEVhMTNrbnktSVpiZg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVN0RCRnJpN3h1NDZRRGg2aVZ1cGpwUlNYdXJ2YmJyVFQ2YTBTYlhOUHowOEtfRlRwS2dER1pnYS1tS0lQa0VoMnlGaWhZaFRlNFlESkttQm1Ydw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "FXE",
@@ -44690,9 +44576,62 @@
      "ru": "ETF европейских акций"
     },
     "price_at_alert": 88.04
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1794962152,
+    "reason": "חששות אינפלציה וציפיות לריבית גבוהה לוחצים על מחירי האג\"ח",
+    "reason_i18n": {
+     "he": "חששות אינפלציה וציפיות לריבית גבוהה לוחצים על מחירי האג\"ח",
+     "en": "Inflation fears and rate expectations weigh on bond prices",
+     "ar": "مخاوف التضخم وتوقعات الفائدة تضغط על أسعار السندات",
+     "ru": "Инфляционные страхи и ожидания по ставкам давят на цены облигаций"
+    },
+    "name_i18n": {
+     "he": "TLT – תעודת סל אג\"ח ממשלתי ארוך",
+     "en": "TLT – 20+ Year Treasury Bond ETF",
+     "ar": "TLT – صندوق سندات الخزانة طويلة الأجل",
+     "ru": "TLT – ETF длинных гособлигаций США"
+    },
+    "price_at_alert": 79.55
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1794962152,
+    "reason": "אינפלציה דביקה ועלויות מימון עלולות לפגוע בשווי חברות",
+    "reason_i18n": {
+     "he": "אינפלציה דביקה ועלויות מימון עלולות לפגוע בשווי חברות",
+     "en": "Persistent inflation and financing costs can dent valuations",
+     "ar": "التضخم المستمر وتكاليف التمويل قد تضر بتقييمات الشركات",
+     "ru": "Устойчивая инфляция и стоимость финансирования могут снизить оценки"
+    },
+    "name_i18n": {
+     "he": "SPY – תעודת סל S&P 500",
+     "en": "SPY – S&P 500 ETF",
+     "ar": "SPY – صندوق مؤشر إس آند بي 500",
+     "ru": "SPY – ETF индекса S&P 500"
+    },
+    "price_at_alert": 732.44
    }
   ],
-  "id": "7d408dd130e9"
+  "id": "7d408dd130e9",
+  "updates": [
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 4,
+    "summary": "נתונים חדשים מראים זינוק במחירי היבוא והתייקרות שכר בבריטניה, מה שמחדש את החששות מאינפלציה דביקה והמשך לחץ על הבנקים המרכזיים.",
+    "i18n": {
+     "he": "נתונים חדשים מראים זינוק במחירי היבוא והתייקרות שכר בבריטניה, מה שמחדש את החששות מאינפלציה דביקה והמשך לחץ על הבנקים המרכזיים.",
+     "en": "Fresh reports show surges in import prices and rising wage settlements in the UK, reviving inflation worries and keeping pressure on interest rate policies.",
+     "ar": "تظهر تقارير جديدة قفزات في أسعار الواردات وزيادة الأجور في بريطانيا، مما يعيد إحياء مخاوف التضخم والضغط على أسعار الفائدة.",
+     "ru": "Свежие данные показывают скачки цен на импорт и рост зарплат в Великобритании, возобновляя опасения по поводу инфляции."
+    }
+   }
+  ],
+  "last_update": 1794962152
  },
  {
   "ts": 1794912327,
@@ -44829,24 +44768,32 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdnN3UDdlMEQtVURDc3NnZm5QVktUQkJCSUpoczk4T3lqNDlfbEhnajZvazQ1bjFMcEtiNWVlM0xFR083YXhaZ0JydkZkRUFYTTBnenh3NVdER05QeEg4MWozVVhUd0Iyb0s5SEp3RnZlNmtGdVVNN243ZTRyZGNGa2ttVEEtdEQ4Q1dWZWxkUkZaMmRRdGZWRlJjQjhHVGNhRkw4UkxkOVRzUjRPcGZzYzZaM0lpU0tyWkV1cGFnNl9TbDZ0TGJWcy1R?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX3Fib0RZS3FQVERFVU1jLUJzcEpLWV9LSXNmUW93b2pQQzJ5a2RCRkg4UWZLSEltclVEVUhBQVZNaWIzWlJRMy1sVWI0cE9ob1BlYWNaYnNQamYxVW1ia0hsQThiZS1fdjZJUHcyVlhNQk84ZzY4MTd0TThDbG1EbXlLX2psa0F0NkNtUUlGUzhpeU94cDhQSHlUdUpzbUhXS0Q3TGtTeW1kNnZpVncyRjlfUDd6SXd4LTBmWEhFQ3ducVhVOW9kM3hR?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTTFHVE42V3FIZzBXbWhKLVR3bWRrZ3dRWGpCRm45dlktYkpveDBveW1IRFc1aDltUERHLURBUFdSUW5KMVVaZ2w2NGRuQVhmZmtyb2ZpUGZuZncyVXR3cFYxX2FUcmFyQVRBSHVnbWFsVFFTQ1lPS0lTdmZUMDktbTBUbndQdzhxc2JnWVctSF96QXdVb2JUeUpqYURha25FMEZhU3VqbWFTZDA0Q3lqanRUaGdMQ2M?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDFFUjBWM25ZRTRQcnFFOGRBVW1tM29XM2R6UlhFYnBKQmlvdTQ0TUVvSmF0Ny00anZieG1MeV8zUnA2bE5tUTdTQ2czcXBnYjRXMGhhM2ppUDBrNHA3LUFtZjR0NDhreVJvazJ5YXI3TFpSWTJiQ1ZyYlhVbGU1eWhHcHA?oc=5"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRl80Y08xVl9ENkJnZTFUbjFUSURsbTRaVVVCa2hyV283NFZsbUhWU0ZSN0JkZTY4X1VSLVpJbjdMUnZwaklwVU9lNkxiaUp3ODNJY0FVWG9OQWRNMUVtT3gzOUZHX0dMSGc3dVQ2ZTE0UWJkZlhHWDNSZE9Sek9YTGtDdm5PTTRyTkh4VWxSOS1hM05FakNOQkVuVHBJV0h6RHczQllvSW1YNnE1NHR4WUszT2g1dmlHRmItRXdB0gHDAUFVX3lxTE95SVg5ZEZLWVYzTDU2X1pCNXhMdkV4VkRnVFNVNmRwcGVTV2NEZE1TZDQxaXpVTXVDLWk4Q0VYczkyaXJ2Y19rSHJsRFcwT0FDdkd5NF9JUXFFenhnZzl2dXh4TmFFMm1pdXoweVA5Zjg3TTIzU0FEa2piQXpnajJuSURZSEhuejdBU0FyUVF2VHAyTHFtQ1lmWm1RZjMyQ2VMTnFodTlnNGRKOHB5dElTQm41UHdPQklMdkU0eGVBa3FYWQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdktFV0o1Q0pSZ05yc0oyX2E3WGl3VWE4cjV4UUxQSVRnLTlHWmM1QkE2UlByMXNQRmo0QjJteUpBQnJHVjhsNmNUV1E4NDY2NVN5Zm5MQll2eTAxb1ZYVkIwMHFsOVdJV3dfbGZsb29Mc3poVWRfMWM3RHRFMjl3MWtsMTE4a3ZvZjNVMko2MDA2R1ltN2xmN1BUQU9zeVp2V1EtX2VyOUZmZnZDQ3R5MERWNmZRSEtMQ1FnUG83YjFpZk5RTEVrd2hDTlJJMFNjcGxMR1FST2ppY2ZoQy05MWxoOTBMV0tGV0x1QzFoenZORmhPWWhGeUVPUdIBgAJBVV95cUxPcW9EZXBBQXNuT3REZFpaWFgtTlV3OVg5aE9zY0pCdkRqTl9rXzBjeExkcWJVa1M5ZTJCYnU0NGl5WEhQWU9sZTJzb1dLaTlpNmJ4bnJkUUx5b19tcFN2M0sxdGo4dmZlVl9DTlBySXRFQ1k0ZlpsNHpvUEpOb1pMNk56UUpRRGduRkt3c0JuY25ya3NtQ1gxTVc5TXJxNS1mLUJuOHdvazR5SmdTNDJwVUxKRktIQTBKOEMtazNPWXcyeXo5VmM3clpGeHMyOVhDdGdYZlJLTnhTZk1UVldmUW1DUGI4WFUyQ0J1eWwwZU1JSmFUQnpWSGktaHdmSG9Q?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR0x3Z0FuODdRUHFGai1Tbi1xZEpsYjhZRTJTYXJIV0h6d2szMk1GbUZ4NUJNclljMVRQc0owSTVCbkthY2VNSWJxRFJ2eDVXNFRDZDFFUk1Pd3laRklEOERwVlF6a2prVmpYUTVMWTRfNDNCU1hyT3c2RjV2ellteEVmZEktdzlHQUVIOVdWX2NZN0psaU93Q2lvLTlMNFZtSVk3cw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORHZIZ1pMSW5fbW5wYlM3aWhrY1FFSUlCSW1zWWREYm1mOFcwUHR1ODlVajJkcFVuMTFNSGNnVE5wMXFuTUJYMUJwdGhidG0tNXN0aWtfVllVaF9UWWNkREJEV2hmSzlIdVE5UmNpQ2YyVnJ4SmRrMzl0UGVIWGhqOVdScWpzTjhHM01IQnEyZGFvTWRTVnYwS3c3MmFoZmlENXpNUV9faHM3TlEtU2FEZUs3Q3E3a0E5QkJWdWpLYUVmWV9NLU92dTdqc1J0ODhiRUtES2dIMk9NSmxNZVJCSDVhRlF5SC1Idk9iZEYwcm9fc1VIUFAwWkpBcw?oc=5"
    }
   ],
   "impacts": [
@@ -44868,9 +44815,62 @@
      "ru": "Nvidia"
     },
     "price_at_alert": 156.14
+   },
+   {
+    "ticker": "AAPL",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "ההבהרה כי לא מדובר במתקפת סייבר מרגיעה את השוק",
+    "reason_i18n": {
+     "he": "ההבהרה כי לא מדובר במתקפת סייבר מרגיעה את השוק",
+     "en": "Clarification that no cyberattack occurred calms markets",
+     "ar": "التوضيح بأن الأمر ليس هجوماً سيبرانياً يهدئ الأسواق",
+     "ru": "Уточнение об отсутствии кибератаки успокаивает рынки"
+    },
+    "name_i18n": {
+     "he": "אפל – ענקית הטכנולוגיה",
+     "en": "Apple – tech giant",
+     "ar": "أبل – عملاق التكنولوجيا",
+     "ru": "Apple – технологический гигант"
+    },
+    "price_at_alert": 351.91
+   },
+   {
+    "ticker": "XLK",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "תוצאות חזקות בענקיות הטק משפרות את הסנטימנט הסקטוריאלי",
+    "reason_i18n": {
+     "he": "תוצאות חזקות בענקיות הטק משפרות את הסנטימנט הסקטוריאלי",
+     "en": "Strong tech earnings lift sector sentiment",
+     "ar": "الأرباح القوية لشركات التكنولوجيا تحسن معنويات القطاع",
+     "ru": "Сильные доходы техгигантов улучшают настроения в секторе"
+    },
+    "name_i18n": {
+     "he": "XLK – תעודת סל סקטור הטכנולוגיה",
+     "en": "XLK – Technology Select Sector SPDR Fund",
+     "ar": "XLK – صندوق قطاع التكنولوجيا",
+     "ru": "XLK – ETF технологического сектора"
+    },
+    "price_at_alert": 163.26
    }
   ],
-  "id": "e5c3cce33705"
+  "id": "e5c3cce33705",
+  "updates": [
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 5,
+    "summary": "אפל הבהירה שתקלת הענק במערכות שלה נבעה מעדכון פנימי ולא ממ1 מתקפת סייבר, במקביל לכך שאנבידיה דיווחה על תוצאות רבעוניות חזקות לאחר עזיבת ג'נסן הואנג.",
+    "i18n": {
+     "he": "אפל הבהירה שתקלת הענק במערכות שלה נבעה מעדכון פנימי ולא ממ1 מתקפת סייבר, במקביל לכך שאנבידיה דיווחה על תוצאות רבעוניות חזקות לאחר עזיבת ג'נסן הואנג.",
+     "en": "Apple confirmed that its widespread system outage was caused by an internal update rather than a cyberattack. Meanwhile, Nvidia reported robust quarterly earnings following leadership changes.",
+     "ar": "أكدت أبل أن العطل الواسع في أنظمتها سببه تحديث داخلي وليس هجوماً سيبرانياً، بينما أعلنت إنفيديا عن نتائج فصلية قوية.",
+     "ru": "Apple подтвердила, что масштабный сбой был вызван внутренним обновлением, а не кибератакой. Тем временем Nvidia отчиталась о сильных квартальных результатах."
+    }
+   }
+  ],
+  "last_update": 1794962152
  },
  {
   "ts": 1794912327,
@@ -44904,27 +44904,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnloUDJPRHptXy03V2ZUSW5Nd3RTWHlram9MTm16SEdJd2dvbzBlRk1MY1NsSDVjSWY1Y3J4WXIwQjFleVphdU8xelF2YlEzcWZES1gwd21TREotWm14ck5kZjhfenVmTE5jOU5QNWNYeTUzbGZKWGVqcVZhVGI5cm1VTlRqbWp4aHQtclc0T0R4N1l0S3J0dXdqNG43MWV2MVNnTzRhdmxGV28?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVU9tLUhuanRUbHd2QmFsYl9GMW9pbm9GSWRLMlN5VklqTG1VdzhLNzJGQ3VrRXVnV3NURWhpam5JMVJFX2w4bDJJVVUyeXRzSE1xcHQ2VTFxcTROM2Zwb21RTUxtV3QyNkRZOXQ2R1BTbWNvWS01MVZOYU0tenNOdFJYWmhPQ1BIbmJRNURNVE1uTy1nWlM4MERQSXdVRmlXeDQzVFhhYUMwWTR3ZXZj?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3ltR25mVWZhWnNjVjA0cElELWlzdTEzeXkwT3B3cVZmQWVLbTItekY0ZDBWdTN4cGkyY2YzZmRMcDJhd0RHS2tKaDZsRkEwdU9GaFZIa1J3UUhteDZJZ194YzdZQzZHQWVYVDllb2VqaVRXRkhtM2gtNDFoaHMzLUtyN3BiRUtQTXk5S05CelM3M0trZUJvbW9EQll2VVA3aFlBcjdR?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQS3RNMDlzWFhkalZxVWViU25aRjNmNk84WG5jSTRkMmJWQXNMb2xfekgyVFVyZTdHUU9sQTRHTUh2cHJiMmNTcXFWbmszS2w5MVhTUnRCeUktakZkTENGZDM3a1ZRNkNTUGNNdFI1V19VbUo3c096SGZ1VUxSbWpxSVVrM1ktQks4V2ZXdjE1MC1yUjNLMGlUNE0tVm5LdDJTZk5GV3ZPMlZPczItY3lMMlNtUTZzYnM2QWJONTFIQTc2RnJzbUdBS0Y5bGIzU2dRRXFxc04xY0NhVzdIOUtEeXNUZmw4NzhsS3lrRGlrUHBrTlRPUUJHTG1kUW1UN1NVLWZlcl9GZHlfU0J6Wnhkd2NzNHlPM184Q2s1OA?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMU44WVRMajJfMzJaNTVCaDFwdlVadkQ3Qm9CTkVmeXBjTS1TYjhpSTVkajBwSkI4ZUhpQ2twNU9zRkwydVU2ZUE2amZqY2E4cHlKVVJ1WDJoVzBJZFZVUk5kRmNybERCQ2tPS1M3Q1p5Zzd5WC1lN3hEN0Ryc2p1TVJkVXRiY2VLYmRqUTMyQ2F4UHFZUDVrOGtQUkZNNXlJaE4zTDJXV05YOTliTEZwQXU3RFVyaWpxaEhmOVc0QjRPd0VNVmdsSm0yMjR4WG1PQVdyZEtabDdZenBqS3F1Vzhjdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52NWlGNWdDTjNuYkxjd210b3ZBdUpOX2w0RWVyVU1fZVViZ3pGS1B3eDdGcVFRcGNvQVM3M3l2QUw2WDlnMFNuakkyUk0wdHo5ZmNWcGlrNE04TmlJZmNn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUZaYWEtX1RkUWFUb09aeFdRTFB3cmxMZUFnbXlOSEktY0lhQWFkQ0syYmJqMFlpVmxmaUVFaWpDZ3plcmdiWnB1WU5qSG5oLV9vclhjSU9iYTlvUkIyUTY5bmVwUlRCajFJQ2hhMy1BOEZ3alZkLWVmNXlyTm4yMlg3c0NNMm9WZDBBUjZhZnN3TnU1N3pPdkJFR25VQWJ2RVVORQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hd29NLXZnU2M4ZG9GdTFkeWRaVzFCbzNGb3FWaW5LY0ZqNG5naUY4YmpYNUF6eDVwd3h1dU14dnVHYTB0OURvVlJIcm1DUHA2Yzg1bkpaUXVKcWMtSVo1bFh5ZHJWbjVPSU13dE5EMHdENG53TVJmSDdjMUU?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ3ZUaS1RMWxvZXRJN3lpcExkVmRsUEhVemswSXlTNG5QX0hIaDBtRG8yekdHOEx0RjYzQ3lVQlFlYVVQa0NyR0tkM1MtMDB4d2VoQVFuZHBqWWU1S0pmRmZTdEFOS05xR3dPZ1hiaUliUFZISnUzU2hheDhWYVVlcE1rakt1cjJ2RGVmMmlqOFdiZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMW9BTjdGTngyUmdBeHhFaVlkQlhKRzZSZkUxWDFnNmNTcWNRdGJSUjlWOWVnMXd0SHBNLUhObkFEcWxfal82blJRRjZBRGVCYmx6T1NOc2IwX1BJM2lJeUY1VmlnREdTN3Y4MU1xbEJMSnlJTUFocXFYbjNPU1hSVExyZldtM21PNUNJNVNLSkpKYklrX0xKdTF3?oc=5"
    }
   ],
   "impacts": [
@@ -45095,9 +45095,21 @@
      "ar": "فرضت بريطانيا وأستراليا عقوبات جديدة تستهدف شركات إسرائيلية تعمل في مستوطنات الضفة الغربية، مما أثار تحذيرات بردود فعل.",
      "ru": "Великобритания и Австралия ввели новые санкции против израильских компаний и строительных фирм, связанных с поселениями на Западном берегу."
     }
+   },
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 4,
+    "summary": "בריטניה ואוסטרליה הטילו סנקציות על חברות ואישים ישראליים המקושרים להתנחלויות בגדה המערבית, מה שעורר גינוי חריף ותגובת נגד מישראל.",
+    "i18n": {
+     "he": "בריטניה ואוסטרליה הטילו סנקציות על חברות ואישים ישראליים המקושרים להתנחלויות בגדה המערבית, מה שעורר גינוי חריף ותגובת נגד מישראל.",
+     "en": "Australia and the UK announced sanctions on individuals and companies linked to West Bank settlements, drawing sharp condemnations and vows of retaliation from Israel.",
+     "ar": "أعلنت أستراليا وبريطانيا فرض عقوبات على أفراد وشركات مرتبطة بالمستوطنات، مما أثار إدانات وردود فعل غاضبة من إسرائيل.",
+     "ru": "Австралия и Великобритания объявили о санкциях против лиц и компаний, связанных с поселениями, что вызвало резкое осуждение и ответные угрозы со стороны Израиля."
+    }
    }
   ],
-  "last_update": 1794951410
+  "last_update": 1794962152
  },
  {
   "ts": 1794915235,
@@ -45721,27 +45733,27 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSjlFMlFrbEtHc1VhZ2IzSDR3bW5BME10RmxBUjY0VVg1REJzUWtLU3hZWHo1a3NNdUROVEVaaW9lWGNLcGtlSHpqSklYZXZpWlI2OXp1bnZDMXQ5Ym1uVEN3SUhxTGp1aWdfVGxiWG5NV0hyN1FqM0ZkNERaRXprMXpVWEJGdEVRRTFkb0JlcGtURXo4cHBJU2dFREpaZFdWamRyUWQ3c2pkMElJem1mUVk4cHJURGUzRVhR?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU2ZUZks3YU1QLVl1bEYtSWl0R0o4UEROMTl2aDRxeE9HZmpnbllZMlNhQUJ6a1NnZWpEc0pscGUxaXl1QXpYQnhBNWdBa203OVZOWUpMSkNNMXFmWTNPbkV2ZXZCMnVVTHB5MnJKOUJMWjh6M1lnVXN5MkRPNFNLRkw1S2dCS1AwRkNjSg?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUJReVJtV0lXVHN6eE1jZzFmcGNTRnhWZ01LUC1wOEZvT3dTWS1rR0FRd3phdzM5bVd5OWhIelRILWt2V24xN0dXd0h0aW1DYWtOVk9ObHZYb0tDTjNlS1poXzdlcHdmaHZxM0QtMTVPbU45YnVBeGdCVjhZSUdTTDdsNFJ4dTd1QmZGUDVn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMkZSTzVSREo4bWtEeHhwM3UwLTNmZE5KODl3N3RIdFZsNmdMbVBqVUFrUjJyeWktRHZRSDZmLTgwWGVCUmh3Y1ltZGVEWDZCTHI0cUl0aEtWeGVXbDdrXzMzVDBaNi1YV0twNVMzRWIwNGtGaTZWdl8yNjVSaUZGTDUzU1ZLNkw4UmlzY1EyUmZsaE1hcXJPVWF5NDB4cGFVVjdZeng5MktCUEEtSUtqRkk0OEg0WklCLXpOMXpWSHMzVVpWTDczbU1KcURqY0FTM3JxTENfTlVOT2t6cE95LUNEcUw?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOUo3WjNYN2hkUXlVS0pnNktGc2MzbnVMam5xTS1tT1NWVjhydE14YVBEQjhuQkl0eUowQXRTQkVMQmNjbTE5NC10MXJPVFhSTnE3a016eEplYl9vaU0zdEhrSnl1dGVfMzVkWE1IZUFFc0dpVDlFdTZzZUR0ZE50c1VxVkZXcHZjQlZ4QnY5UmlvUHg3clVDYV95YVNwY2ltZ1NFRS0wMTFSVk1JTGN0VUF0MHh0R0xmVDVhUVliTC05azhHNXhYbUlnMVlEZmIyaDcyQ19ncWk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYXd2X1paNkstYms3N0xkQ3dJVE0yaDZlMWVuRDRaVVpvTllCNXdWcGd6X2lMOVNvbUZFZ0NRLS1ST2FCTmFpc3lJaE9VcEtMcURwYVY4NFoxc2lmU0E5cVlVZVl6QmJvUUFTN1o0QlAwSDdDb2pBZEVzMkQ4M0Fza1J0Tnd0T1dqQlJlem14ZGtoVzVNQUdrYzlEN3hobGZUYXc?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdE92dW9YODNNTjVrOVRHd3lZVVFqbEZZb0pxUGJuLWNuQ0Z1Mjd0RnBOdURTQmVHX0ZyZnpvbUpyYVRGM0tTQ2tzOW45TzVpNHB0TFhqc1NRV3FOVmkxWDBpUFVEOGpwellGaGNYb3M0bks2cmcySlFIeVpSVTExZU16OFhRazh1TDBZUDNxQ2JvamlLSEpGaWRWU2tTdHZIckJ3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWxUSWF6ZVdiRHRLdVFGQWdTMHJMcGozM005RkVnYUs4V3MzdVlNa25rSWt1VXl5ajdKTjQ2ZHdyekh4alVENGpSM1Vua2Jua1dFeDFJdDBET09GUThDUWlCVEVlYzBsMS1aVXZfWFdiMng0LTF0WU5MaDkzRU00V2VXR0JuOFNBdl8wc0xDTkFpLVU?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95eWdmVDdKTTNtSUJmU0J3dGRrQ3o0blBGMWxINDNuVzBtdWdhQmFSOXVLNGtXWnhVZldnNzJMT1FtZHBXUDRkT0dPMFlRN0JLbjlPd3JIS1FwQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWmVDRjRveXdrdFF0aWtfVHl4YUlsR3J2LWZLLWt2U05RTmVGc3R2SEd3UHFEVFVxM2F4Y0VRTGp1a1lzdk9PWndxY04xRE5rX0NlMDduUzB4amJ3VzhmVklTS3pXVjQ0RHNINkt5U1gwTERiRVV3cUQ0a1VzQWFHUHcweEpva1lLeHhQVGdrWjdxN2xMNkZIQmFxWGxveU00Q3M2X3E5XzRaYVAtaGdmSktwMzlKTHVWdFlDSHFzRlNzRzJkT2QtY2FSaF9nV28tN0pwU1lOcnI0QQ?oc=5"
    },
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPamZuUVEzcTlHMndPOU8xbzhya1RiUU53YmlyQ2U1ckF6NXNmTklYZld1bUJqelVMMUVGQTJVdEZhdnhYRFJjekN5WENqN0NxR29UcmxZNC03VTZHNFg4UzN4bGZwRmN1LUx4WXU4OWQzUS1GeWhoUExsaHJJSlR2bjB1U1ZfcGM5VU4xM05WLUt3eUhGMkloMlFJRGV0ZWZtbjgxSDln?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmY3TmUxaHdEOHVyZGNzaURCX3FSMHp1NWczSHQ5NExXcF9xakZXUHVZcU5vV0wxaWZ3bmx2UUZxcDNjTUZUVjNyWjM3SjlMeGRXeVVNNVI2bFRqV014YTd6aVd5Z0FGR2dVTlRfdXdBVVdhTTB5M3JnUlI3eGxTcTZ5ODBKN2FoUFE3SnppQU92Q01rZENrRlJsN01fNk91SjR5eDhIQlgzal9JVllEdUtqcw?oc=5"
    }
   ],
   "impacts": [
@@ -45782,6 +45794,25 @@
      "ru": "Freeport-McMoRan (добыча меди)"
     },
     "price_at_alert": 55.23
+   },
+   {
+    "ticker": "EWA",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "שיאי יצוא משאבים תומכים בכלכלה האוסטרלית",
+    "reason_i18n": {
+     "he": "שיאי יצוא משאבים תומכים בכלכלה האוסטרלית",
+     "en": "Record resource exports support the Australian economy",
+     "ar": "الصادرات القياسية للموارد تدعم الاقتصاد الأسترالي",
+     "ru": "Рекордный экспорт ресурсов поддерживает экономику Австралии"
+    },
+    "name_i18n": {
+     "he": "EWA – תעודת סל אוסטרליה",
+     "en": "EWA – iShares MSCI Australia ETF",
+     "ar": "EWA – صندوق مؤشرات أستراليا",
+     "ru": "EWА – ETF австралийских акций"
+    },
+    "price_at_alert": 28.16
    }
   ],
   "id": "6934240435df",
@@ -45797,9 +45828,21 @@
      "ar": "هبطت أسعار النحاس إلى أدنى مستوياتها منذ يوليو حيث أدى الضعف واسع النطاق في قطاع التكنولوجيا إلى تقويض شهية المستثمرين للمخاطرة.",
      "ru": "Цены на медь упали до минимального уровня с июля, так как всеобщая слабость в технологическом секторе подорвала аппетит инвесторов к риску."
     }
+   },
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 5,
+    "summary": "מחירי הפרימיום ליבוא נחושת בסין זינקו לשיא, לצד תגליות מתכות חדשות ושיאי יצוא באוסטרליה.",
+    "i18n": {
+     "he": "מחירי הפרימיום ליבוא נחושת בסין זינקו לשיא, לצד תגליות מתכות חדשות ושיאי יצוא באוסטרליה.",
+     "en": "Chinese copper import premiums hit a record peak, alongside major base metal discoveries and record resource exports in Australia.",
+     "ar": "ارتفعت علاوة استيراد النحاس في الصين إلى مستوى قياسي، بالتزامن مع اكتشافات جديدة وصادرات قياسية لأستراليا.",
+     "ru": "Премии на импорт меди в Китае достигли рекордного уровня на фоне новых открытий и экспортных рекордов в Австралии."
+    }
    }
   ],
-  "last_update": 1794955083
+  "last_update": 1794962152
  },
  {
   "ts": 1794940726,
@@ -45926,27 +45969,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcFgtYzYwTzJpc3lhWGhtaG9nNXFfOXprNDkzYV9paFgxbU1EeExITWhOa1NSYXZqVkRqV3dhNklHdGYteml0VUlLNjk0Rlk4UnVadDBwMk1pb0R6dFhnNk5hOW0yNFlyeFRXcklSUUhpNUl6ZUk3bTJzeWRsVXJ4VUlGOHBObEtNMnJYNkZsM3hKb2U1MzdONVl0bkI2WGQ1cFFoZ3VhLWdLRWVt?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVEY0RWZ2MTdDU2czTWFjR3pXSHRNVEpuSGJYSkNKOWNxRHdOamRUZkN1aEs1T2JrUU5feTRGTVhGRVNmeGl6MmZUb3lIUFdqbXdmaXNIdzM2alZlblZ3bERjUUVJbFY1ZWVSaFNaUGJSbnYtMkZlcmNnWXZJaFI0TzBHOHhXdHRiX0xHS0ttSHVHWjBEdHEtTnFEOHJ1b2xmS0YyVW5zMHZNSm1NTW1vaUNWQTFpLWo5U1ZBbUE0WEVZMXBUTFY3OG5GMER6b3ZaMnpJM2t4dEFlakQwUjdr?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkxNQVM0MGYtNG55aHlyYWNkZEJwdV9uSTZuNHo1azBrWTVKS3JqVk9VcERWSGl2WW9jbGdGcU05RUdjTjBjdVl0RDYzVEVZNXFxWjBzQ1cxS0JwSkxqUUdrVmNjUkl2ZjIxSVl3YjZxWUtqMEJaOHY3Vzk2ZmZKTDBYMFVNQmttaUFyZXhBWjhaVWpONjJkRDVxUFR1dTctLXlDVzNB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNThHdVk0QXFkTVVqdzhCY0J0ZFVyeHg3b19MOXZnSjZ6c3Z0b0dEOW5lanllS2pIQnQ5WWR3dzlrd3NGSHA0R2hnRTdXd1JpX0xqZjJobVdwc2dIQU5BTkVIcHM3bnN4ZU40OTV2NnNVWFI2Y0JpRnNOcHhjbmZWTk5WeTBQNWNGNGk2aGZpcl95ZXhBbkxWdEx4ZXdOR3RYRERXTl9zV3dWcTNJMTZMVl90OERSRHlLZlVtRTQ1ZVpwUm1YS3JnMFZxQVkzR1hh?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jZS0wTWs1dVlHUmNZS0FtclFxU2c0aEcwSFpQTHFXamkzQml0anY0cERwYXlLMExWTE16NC1aQXlBUWhqcklVdEdaVU1wemY5T05rZmsyRlR5MnhsU0Fray02em92V3ZNcU91N2thM2xqMzYtN1ItX1JrUlpSZjA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdmZoZk9yWnBySHV1el93NGVHNU9OazhkTUNvRnRLLXlOYUxmSVVyZmdIWnB4UTE2U1YwbEdaQTR6aW9mNmpnYkZmeDAxOUxzV01WaDQtaUliUENRenVGdlBUaDVzRUpMdnJrUnJaVVc0TXJjQkgwZ3RUejM5cmt4bUZlUzZuaVhRYVIwUEIyZFdkSTV5OWJUMVBBVnFnejVlN291NVdjTVB3QUxjT0NvT2VjUdIBuAFBVV95cUxOUUUtRDJ6WGJ6MS1ZbFlxclRULWpVRTlGTUU4VW9MdkFEeFh0SVN3dWFKYjM4M1pYOTFxSjVwYXpoZDhCZUNFaTVOelRkNWVoOElJaE83WWFpX19TYnF0VlVxNVlNeVB6MkdhM0QwRDRxc0xwQk5iY2VEWmZySy1naE9LZDN0aWQ0ZFdZQWVINk83ZmlVUS1CaHFkQWxtaC1meVprX1VseGVxR083bklzZEI4LXV6dk96?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSGgxNnBOTmQzX3dnaEFPZHcxQmZqZnNlR3pUeFVMTDVfXzQ5WG9ZNUFQNDZhN2d6eW1JZm9FOFNaN0Zuc1hiOXlYRlJwYkFqZlYwUmZaYTRnRC1HSGRrR3lEVElLZ29vSHdCMk83dTNYMDZLWXRhb2g5cTB2a3VRaWlMTGNfUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeXF6dkt1a0RhdDdzdGJEckNtVDU0aDl1R3JrMmhudnhFN2FBSUVJdTQ2RGM4ZWZDcGpUM0I4eEl1YkZrY2ZjaFgtQjNIa2luXy1BY2FxMk5zcE9iS1VDTmZJakpBLTN1UlNrZWJtek5MYlZRb09LOENYcXJtVEJvbmlaSE5VSGJkOFVHVzh4a212Yk1LcVM2RmtaU0V5RVBFR0xzNWtXZFp1Znk4c1h4bW1TT0pVSjB1SzFiMg?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWZVSVhtSDBBU3dWQXFLZGtoVGJ1cThyanh1U3JYYWozMXBCamVBT0pVdFlCaWdtN3NkVmRkbElnaGlEa0lrZGV4WDBvZXdyRE5qQk5oOFdmNU5SbXlUendiMi0zSjNWYU1fR20zMUJnMWc2T1dUQk9NRXNFVEozdXlBRDdCcUhpcEtOUzEtTW8yUnYyMFE4aWxGNlg1ZXVObUJ2RFlRSTUzY25zNjFUTmNCTFpxWnJQbERRT0lSRQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLNVNobEFtV2Z2c3J5bzBpU3NDREVsMkYtMjNMTEcwTzAxOFhXVjFHcWh2MHNRcWl2cEJPSDF2QWNRZ2pwYUY0ODRBTDBuOHZIQy1SVXE2SUtxSDA0SW9NM2lReHduYnBSSHpRXzR5MGplQQ?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT2owRTNRdXM4Q1dDNThBQXZNNVlWNzlZZnhCNWQ2c1RsSDhGZF9lSHlFRDRuZTFpRi1mdWJ3LTdvdEt3aGtDbmExcXhMeWtnb0p0T1dndXlITW5hSDh0UkVVcUVKaE9IMWFuejhJTGx3Zzg1NUxhLUhyTjNkTVpHblluUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzZCZUlYZDE5a2Rjd0E4ZnZLTmdYVmJRUnhMNnhqUEdWbFRoLWU5a29yci1uS09IeE5WdXVDcGVOMTFyQzM5aDI0cEgtS3NDMVllRTMxOGM4cjc2bVJCd0swbWtoZ0VYTExCdDNJYTZTZ0dyUjNheVotMmRYWmtJWkIzaVFVcWE1Vkd0TV8wRXF5QmxPVDVFcmJuYS0?oc=5"
    }
   ],
   "impacts": [
@@ -46095,9 +46138,21 @@
      "ar": "نفذت القوات الأمريكية ضربة دفاعية على موقع إطلاق صواريخ تابع للحرس الثوري الإيراني في جزيرة قشم الإيرانية.",
      "ru": "ВС США нанесли удар по стартовой площадке ракет КСИР на острове Кешм в Иране после атаки беспилотников на Бахрейн."
     }
+   },
+   {
+    "ts": 1794962152,
+    "time": "2026-11-18T00:35Z",
+    "severity": 7,
+    "summary": "ארה\"ב ביצעה תקיפות נגד אתרי שיגור טילים של משמרות המהפכה באיראן בעקבות התקפה על בחריין, בזמן שגורמים מזהירים מפני איומים נוספים.",
+    "i18n": {
+     "he": "ארה\"ב ביצעה תקיפות נגד אתרי שיגור טילים של משמרות המהפכה באיראן בעקבות התקפה על בחריין, בזמן שגורמים מזהירים מפני איומים נוספים.",
+     "en": "U.S. fighter jets launched self-defense strikes against an IRGC missile launch site following attacks on Bahrain, while officials warn of rising geopolitical tensions.",
+     "ar": "شنّت طائرات مقاتلة أمريكية ضربات ضد موقع إطلاق صواريخ للحرس الثوري الإيراني إثر هجمات على البحرين وسط تحذيرات من توترات إقليمية.",
+     "ru": "Истребители США нанесли удары по пусковой ракетной установке КСИР после атак на Бахрейн на фоне предупреждений о росте напряженности."
+    }
    }
   ],
-  "last_update": 1794958510
+  "last_update": 1794962152
  },
  {
   "ts": 1794944925,
@@ -46575,5 +46630,159 @@
    }
   ],
   "id": "d5dbcaf42935"
+ },
+ {
+  "ts": 1794962152,
+  "time": "2026-11-18T00:35Z",
+  "title": "מחירי הנפט מתאוששים לאור סיכוני ספנות במזרח התיכון",
+  "summary": "מחירי הנפט מסוג WTI עלו לכיוון 84.50 דולר לחבית בעקבות חששות משיבושים בנתיבי הספנות במזרח התיכון.",
+  "kid": "מחירי הנפט עלו בגלל סכנות בדרכי הים במזרח התיכון. זה יכול לייקר את הדלק ולהשפיע על חברות האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנפט מתאוששים לאור סיכוני ספנות במזרח התיכון",
+    "en": "WTI Oil Rebounds Near $84.50 on Middle East Shipping Risks",
+    "ar": "ارتداد أسعار النفط بالقرب من 84.50 دولاراً بسبب مخاطر الشحن",
+    "ru": "Цены на нефть WTI восстанавливаются вблизи $84.50 из-за рисков судоходства"
+   },
+   "summary": {
+    "he": "מחירי הנפט מסוג WTI עלו לכיוון 84.50 דולר לחבית בעקבות חששות משיבושים בנתיבי הספנות במזרח התיכון.",
+    "en": "WTI crude oil prices rebounded to near $84.50 per barrel amid ongoing shipping risks in the Middle East region.",
+    "ar": "ارتفعت أسعار خام غرب تكساس الوسيط بالقرب من 84.50 دولاراً للبرميل وسط مخاوف من اضطرابات الشحن.",
+    "ru": "Цены на нефть WTI выросли до $84.50 за баррель на фоне опасений по поводу судоходства."
+   },
+   "kid": {
+    "he": "מחירי הנפט עלו בגלל סכנות בדרכי הים במזרח התיכון. זה יכול לייקר את הדלק ולהשפיע על חברות האנרגיה.",
+    "en": "Oil prices went up because of dangers in Middle East sea lanes. This can make gasoline more expensive and affect energy companies.",
+    "ar": "ارتفعت أسعار النفط بسبب المخاطر في ممرات البحر المتوسط والشرق الأوسط، مما يؤثر على شركات الطاقة.",
+    "ru": "Цены на нефть выросли из-за опасности на морских путях на Ближнем Востоке, что влияет на энергетические компании."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQUlBRjZkMWM4RnROTnRIeGhjYjZNUjdUUFhmTnY1V1pzckxndE9aTGZ4aWVhWl9GTkwxNW1oNlJ4S3FmSzR2RGpSU1Z1RVdrQmpQNFlZVlU1T1dOSU9LdmtuamxLS2Fvc1NXaFZMMjV1VmVPSTVWa1phWmUwRkJaekhjXzJ2WEZ3cFowSlNsM215Z1VLYWk0clYzejlyeXNFYXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "עליית מחירי הנפט תומכת ברווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט תומכת ברווחי חברות האנרגיה",
+     "en": "Higher oil prices support energy sector earnings",
+     "ar": "أسعار النفط الأعلى تدعم أرباح قطاع الطاقة",
+     "ru": "Более высокие цены на нефть поддерживают доходы энергетического сектора"
+    },
+    "name_i18n": {
+     "he": "XLE – תעודת סל סקטור האנרגיה",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "XLE – صندوق قطاع الطاقة",
+     "ru": "XLE – ETF энергетического сектора"
+    },
+    "price_at_alert": 63.36
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "עליית מחירי הגלם משפרת את שולי הפעילות",
+    "reason_i18n": {
+     "he": "עליית מחירי הגלם משפרת את שולי הפעילות",
+     "en": "Higher crude prices improve profit margins",
+     "ar": "ارتفاع أسعار الخام يحسن هوامش الربح",
+     "ru": "Рост цен на сырье улучшает маржинальность"
+    },
+    "name_i18n": {
+     "he": "שברון – חברת נפט וגז",
+     "en": "Chevron – major oil producer",
+     "ar": "شيفرون – شركة نفط كبرى",
+     "ru": "Chevron – крупная нефтяная компания"
+    },
+    "price_at_alert": 216.13
+   }
+  ],
+  "id": "490f065c46ed"
+ },
+ {
+  "ts": 1794962152,
+  "time": "2026-11-18T00:35Z",
+  "title": "יצוא השבבים מיפן מזנק ב-20.5% באוקטובר",
+  "summary": "נתוני הסחר של יפן הראו זינוק של 20.5% ביצוא בחודש אוקטובר, בהובלת זינוק של כמעט 50% במשלוחי מוליכים למחצה.",
+  "kid": "יפן דיווחה על עלייה חדה ביצוא שלה באוקטובר, במיוחד בתחום השבבים והרכיבים האלקטרוניים. זה טוב לחברות הטכנולוגיה והכלכלה ביפן.",
+  "i18n": {
+   "title": {
+    "he": "יצוא השבבים מיפן מזנק ב-20.5% באוקטובר",
+    "en": "Japan October Exports Surge 20.5% on Strong Chip Shipments",
+    "ar": "صادرات اليابان ترتفع 20.5% في أكتوبر بفضل شحنات الرقائق",
+    "ru": "Экспорт Японии в октябре вырос на 20.5% на фоне поставок чипов"
+   },
+   "summary": {
+    "he": "נתוני הסחר של יפן הראו זינוק של 20.5% ביצוא בחודש אוקטובר, בהובלת זינוק של כמעט 50% במשלוחי מוליכים למחצה.",
+    "en": "Japan's October exports surged 20.5% year-on-year, beating estimates, driven by a nearly 50% spike in semiconductor shipments.",
+    "ar": "قفزت صادرات اليابان بنسبة 20.5% في أكتوبر، متجاوزة التوقعات بدعم من ارتفاع شحنات أشباه الموصلات بنحو 50%.",
+    "ru": "Экспорт Японии в октябре подскочил на 20.5% благодаря росту поставок полупроводников почти на 50%."
+   },
+   "kid": {
+    "he": "יפן דיווחה על עלייה חדה ביצוא שלה באוקטובר, במיוחד בתחום השבבים והרכיבים האלקטרוניים. זה טוב לחברות הטכנולוגיה והכלכלה ביפן.",
+    "en": "Japan reported a sharp rise in October exports, led by semiconductors and electronics. This is positive for Japanese tech companies and the broader economy.",
+    "ar": "سجلت اليابان ارتفاعاً حاداً في الصادرات بقيادة أشباه الموصلات، وهو ما يفيد الشركات والتكنولوجيا اليابانية.",
+    "ru": "Япония сообщила о резком росте экспорта во главе с полупроводниками, что благоприятно для японских технологических компаний."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "נתוני יצוא חזקים תומכים בכלכלה היפנית",
+    "reason_i18n": {
+     "he": "נתוני יצוא חזקים תומכים בכלכלה היפנית",
+     "en": "Strong export data supports the Japanese economy",
+     "ar": "بيانات الصادرات القوية تدعم الاقتصاد الياباني",
+     "ru": "Сильные данные по экспорту поддерживают экономику Японии"
+    },
+    "name_i18n": {
+     "he": "EWJ – תעודת סל מניות יפן",
+     "en": "EWJ – iShares MSCI Japan ETF",
+     "ar": "EWJ – صندوق مؤشرات الأسهم اليابانية",
+     "ru": "EWJ – ETF японских акций"
+    },
+    "price_at_alert": 88.69
+   },
+   {
+    "ticker": "SMH",
+    "direction": "up",
+    "t0": 1794962152,
+    "reason": "ביקוש חזק לשבבים באסיה מצביע על פעילות ענפה בסקטור",
+    "reason_i18n": {
+     "he": "ביקוש חזק לשבבים באסיה מצביע על פעילות ענפה בסקטור",
+     "en": "Robust Asian chip demand indicates strong sector activity",
+     "ar": "الطلب القوي على الرقائق في آسيا يشير إلى نشاط قوي للقطاع",
+     "ru": "Высокий спрос на чипы в Азии указывает на активность в секторе"
+    },
+    "name_i18n": {
+     "he": "SMH – תעודת סל שבבים",
+     "en": "SMH – VanEck Semiconductor ETF",
+     "ar": "SMH – صندوق قطاع أشباه الموصلات",
+     "ru": "SMH – ETF полупроводников"
+    },
+    "price_at_alert": 460.1
+   }
+  ],
+  "id": "ea3cc23dee05"
  }
 ]
