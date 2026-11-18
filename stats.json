@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-18T16:47Z",
+ "generated": "2026-11-18T17:43Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1097,
+ "total_alerts": 1100,
  "overall": {
-  "n": 740,
-  "hits": 369,
+  "n": 741,
+  "hits": 370,
   "avg_edge": 0.03
  },
  "by_category": {
@@ -29,9 +29,9 @@
    "avg_edge": -0.72
   },
   "geopolitics": {
-   "n": 121,
-   "hits": 62,
-   "avg_edge": 0.54
+   "n": 122,
+   "hits": 63,
+   "avg_edge": 0.55
   },
   "health": {
    "n": 38,
@@ -61,9 +61,9 @@
    "avg_edge": -0.47
   },
   "4-5": {
-   "n": 361,
-   "hits": 184,
-   "avg_edge": 0.08
+   "n": 362,
+   "hits": 185,
+   "avg_edge": 0.09
   },
   "6-7": {
    "n": 185,
@@ -150,7 +150,7 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 187,
+   "mentions": 188,
    "n": 172,
    "hits": 106,
    "name": {
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 9,
-   "n": 7,
-   "hits": 2,
+   "n": 8,
+   "hits": 3,
    "name": {
     "he": "אלביט מערכות בתל אביב",
     "en": "Elbit Systems on TASE",
     "ar": "أنظمة إلبيت في بورصة تل أبيب",
     "ru": "Elbit Systems на бирже Тель-Авива"
    },
-   "avg_edge": -1.1
+   "avg_edge": -0.74
   },
   "ESLT": {
    "mentions": 27,
@@ -354,14 +354,14 @@
    "avg_edge": -0.69
   },
   "QQQ": {
-   "mentions": 66,
+   "mentions": 67,
    "n": 62,
    "hits": 21,
    "name": {
-    "he": "קרן סל על מדד נאסד\"ק 100",
-    "en": "QQQ - Invesco QQQ Trust",
-    "ar": "QQQ - صندوق ناسداك 100",
-    "ru": "QQQ - ETF индекса Nasdaq 100"
+    "he": "נאסד\"ק 100",
+    "en": "Nasdaq 100",
+    "ar": "ناسداك 100",
+    "ru": "Nasdaq 100"
    },
    "avg_edge": -0.18
   },
@@ -426,14 +426,14 @@
    "avg_edge": 0.43
   },
   "FCX": {
-   "mentions": 50,
+   "mentions": 51,
    "n": 48,
    "hits": 15,
    "name": {
-    "he": "FCX - חברת הכרייה פריפורט מקמורן",
-    "en": "FCX - Freeport-McMoRan mining company",
-    "ar": "FCX - شركة التعدين فريبورت-מקמורן",
-    "ru": "FCX - горнодобывающая компания Freeport-McMoRan"
+    "he": "פריפורט-מקמורן",
+    "en": "Freeport-McMoRan",
+    "ar": "فريبورت-ماكموران",
+    "ru": "Freeport-McMoRan"
    },
    "avg_edge": -1.42
   },
@@ -810,7 +810,7 @@
    "avg_edge": -0.38
   },
   "BA": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 5,
    "hits": 1,
    "name": {
@@ -1446,7 +1446,7 @@
    "avg_edge": -0.63
   },
   "SCCO": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 1,
    "hits": 0,
    "name": {
@@ -1670,6 +1670,18 @@
     "en": "Costco",
     "ar": "كوستكو",
     "ru": "Costco"
+   },
+   "avg_edge": null
+  },
+  "F": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "פורד",
+    "en": "Ford",
+    "ar": "فورد",
+    "ru": "Ford"
    },
    "avg_edge": null
   }

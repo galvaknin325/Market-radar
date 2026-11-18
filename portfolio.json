@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:47Z",
+ "generated": "2026-11-18T17:43Z",
  "trade_size": 1000,
  "important": {
   "trades": 248,
@@ -677,11 +677,11 @@
   ]
  },
  "all": {
-  "trades": 740,
-  "wins": 374,
-  "hits": 369,
-  "pnl": 198.4,
-  "bench_pnl": -4072.2,
+  "trades": 741,
+  "wins": 375,
+  "hits": 370,
+  "pnl": 217.8,
+  "bench_pnl": -4073.8,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -776,9 +776,33 @@
     "date": "2026-11-17",
     "equity": 198.4,
     "bench": -4072.2
+   },
+   {
+    "date": "2026-11-18",
+    "equity": 217.8,
+    "bench": -4073.8
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-18",
+    "ticker": "ESLT.TA",
+    "dir": "down",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "fc47d3f216a6",
+    "title": "בריטניה מטילה סנקציות על חברות בנייה ישראליות",
+    "title_i18n": {
+     "he": "בריטניה מטילה סנקציות על חברות בנייה ישראליות",
+     "en": "UK sanctions Israeli construction firms",
+     "ar": "بريطانيا تفرض عقوبات على شركات بناء إسرائيلية",
+     "ru": "Великобритания вводит санкции против израильских строительных компаний"
+    },
+    "change_pct": -1.94,
+    "hit": true,
+    "pnl": 19.4,
+    "bench_pnl": -1.6
+   },
    {
     "date": "2026-11-17",
     "ticker": "ZIM",
@@ -1328,25 +1352,6 @@
     "change_pct": -2.54,
     "hit": true,
     "pnl": 25.4,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "TLT",
-    "dir": "down",
-    "severity": 7,
-    "cat": "macro",
-    "id": "f641f534cc88",
-    "title": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
-    "title_i18n": {
-     "he": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
-     "en": "Federal Reserve on track to raise interest rates next month",
-     "ar": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
-     "ru": "ФРС намерена повысить процентные ставки в следующем месяце"
-    },
-    "change_pct": 0.08,
-    "hit": false,
-    "pnl": -0.8,
     "bench_pnl": -23.0
    }
   ]
