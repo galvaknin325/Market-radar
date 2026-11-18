@@ -107159,7 +107159,7 @@
    }
   },
   "category": "commodities",
-  "severity": 4,
+  "severity": 5,
   "confidence": "high",
   "sources": [
    {
@@ -107173,6 +107173,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYXZJVTR6d1JEdmNWWlBWRm1LWGtVOExKNnZTN1ZGRlF6Y2dLN2p4WV9OWnhFNy1NTlVmbi1TcjRmVExEbG41eDctOXlLX3Iya0U4NG9XOGRUaEtMbUdOMEhvUWFsVWdGSGh2ZUo2b2RnY3c5blRDd2w4aGVrdThhWEs4aUdweG8?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTC0zcVhTbFRpTzRPb2ZYX055SkdaZ0pIVVYybGxBOFo3eDhxdDNrYm1TZjByWUI3SjhCSlJuZXlmZlhfX19rYkdOckhKWmpDeURCR0duNWZlRTlRdjhRUnBVSDVLMkhmS0lhbHpMRXptRzhRU3VCZFVxNmtSbmljUENyazNhb25BWVJob0x3RmhtNXJuWEliRENXdHFXY1NURUtVRUJtQno5NzJWdUotYklzZGliMFVEWXQ4ZkpFTmNncERPVnc?oc=5"
    }
   ],
   "impacts": [
@@ -107224,6 +107228,25 @@
      "ru": "ETF сельского хозяйства - фонд широкого спектра агрокомıодити"
     },
     "price_at_alert": 26.38
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1795009692,
+    "reason": "עלייה בפרמיות סיכון עשויה להעלות את מחירי התובלה.",
+    "reason_i18n": {
+     "he": "עלייה בפרמיות סיכון עשויה להעלות את מחירי התובלה.",
+     "en": "Increased risk premiums may lead to higher freight rates.",
+     "ar": "زيادة علاوات المخاطر قد تؤدي إلى ارتفاع أسعار الشحن.",
+     "ru": "Повышение премий за риск может привести к росту фрахтовых ставок."
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM Shipping",
+     "ar": "شركة زيم للشحن",
+     "ru": "ZIM Shipping"
+    },
+    "price_at_alert": 29.69
    }
   ],
   "id": "efc40748f285",
@@ -107239,9 +107262,21 @@
      "ar": "ارتفعت عقود القمح الآجلة بعد الحوادث الأمنية والضربات في منطقة البحر الأسود، مما دفع إلى تحول هيكلي في طرق شحن الحبوب نحو بحر البلطيق.",
      "ru": "Фьючерсы на пшеницу выросли после инцидентов с безопасностью и ударов в регионе Черного моря, что привело к смещению маршрутов доставки зерна на Балтику."
     }
+   },
+   {
+    "ts": 1795009692,
+    "time": "2026-11-18T13:48Z",
+    "severity": 5,
+    "summary": "תקיפת כטב\"ם על מכלית גפ\"מ בים השחור הובילה לעלייה במחירי החיטה ובפרמיות הסיכון של חברות הספנות הפועלות באזור.",
+    "i18n": {
+     "he": "תקיפת כטב\"ם על מכלית גפ\"מ בים השחור הובילה לעלייה במחירי החיטה ובפרמיות הסיכון של חברות הספנות הפועלות באזור.",
+     "en": "A drone strike on an LPG tanker in the Black Sea has led to a rise in wheat prices and risk premiums for shipping companies operating in the region.",
+     "ar": "أدى هجوم بطائرة مسيرة على ناقلة غاز نفطي مسال في البحر الأسود إلى ارتفاع أسعار القمح وعلاوات المخاطر لشركات الشحن العاملة في المنطقة.",
+     "ru": "Удар беспилотника по танкеру со сжиженным газом в Черном море привел к росту цен на пшеницу и премий за риск для судоходных компаний, работающих в регионе."
+    }
    }
   ],
-  "last_update": 1794955083
+  "last_update": 1795009692
  },
  {
   "ts": 1794855205,
@@ -114899,5 +114934,195 @@
    }
   ],
   "id": "234e75860fd4"
+ },
+ {
+  "ts": 1795009692,
+  "time": "2026-11-18T13:48Z",
+  "title": "נגיד הפד וולר קורא להעלאת ריבית אגרסיבית של 0.5%",
+  "summary": "חבר מועצת הנגידים של הפד, כריסטופר וולר, דוחף להעלאת ריבית של 50 נקודות בסיס בדצמבר או לאיתות על מדיניות מוניטרית מהירה יותר בשל אינפלציה מתמשכת.",
+  "kid": "בכיר בבנק המרכזי של ארה\"ב אמר שצריך להעלות את הריבית מהר יותר כדי להילחם ביוקר המחיה. זה עלול לגרום להלוואות להיות יקרות יותר ולהשפיע על מחירי המניות.",
+  "i18n": {
+   "title": {
+    "he": "נגיד הפד וולר קורא להעלאת ריבית אגרסיבית של 0.5%",
+    "en": "Fed Governor Waller calls for aggressive 0.5% rate hike",
+    "ar": "محافظ الاحتياطي الفيدرالي والر يدعو إلى رفع أسعار الفائدة بنسبة 0.5٪",
+    "ru": "Управляющий ФРС Уоллер призывает к агрессивному повышению ставки на 0,5%"
+   },
+   "summary": {
+    "he": "חבר מועצת הנגידים של הפד, כריסטופר וולר, דוחף להעלאת ריבית של 50 נקודות בסיס בדצמבר או לאיתות על מדיניות מוניטרית מהירה יותר בשל אינפלציה מתמשכת.",
+    "en": "Fed Governor Christopher Waller is pushing for a 50 basis point rate hike in December or a signal of faster rate increases due to persistent inflation.",
+    "ar": "يدفع محافظ الاحتياطي الفيدرالي كريستופר والر نحو رفع أسعار الفائدة بمقدار 50 نقطة أساس في ديسمبر أو الإشارة إلى زيادات أسرع بسبب التضخم المستمر.",
+    "ru": "Управляющий ФРС Кристофер Уоллер настаивает на повышении процентной ставки на 50 базисных пунктов в декабре или на сигнале о более быстром повышении ставок из-за сохраняющейся инфляции."
+   },
+   "kid": {
+    "he": "בכיר בבנק המרכזי של ארה\"ב אמר שצריך להעלות את הריבית מהר יותר כדי להילחם ביוקר המחיה. זה עלול לגרום להלוואות להיות יקרות יותר ולהשפיע על מחירי המניות.",
+    "en": "A top US central bank official said interest rates need to go up faster to fight high prices. This makes borrowing money more expensive and can cause stock prices to drop.",
+    "ar": "قال مسؤول كبير في البنك المركزي الأمريكي إن أسعار الفائدة يجب أن ترتفع بشكل أسرع لمحاربة غلاء المعيشة. هذا يجعل اقتراض المال أكثر تكلفة وقد يؤدي إلى انخفاض أسعار الأسهم.",
+    "ru": "Высокопоставленный чиновник центрального банка США заявил, что процентные ставки должны расти быстрее, чтобы бороться с дороговизной жизни. Это делает заем денег дороже и может привести к падению цен на акции."
+   }
+  },
+  "category": "macro",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQamtrQ2tpTmJkVFRpZGkza1pybUNhc3ExQWtBSGVyWUVvTUxxRHA4a004WlBpc2VtWFZvZ2dGdjFqelMxUUdDaW5kSzdHS29Ma1F4QTBWTE5PeWphTGRqVjZBeGFGZXRPdEs1NWJxSzdIZUlGSW5vVXJoLVBRbGZLMlJvQVhfVTR1V3FSZ2w0YkNaaXZOWnpvSw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNTVJNkFsZVFNRHBwMWJXNksyRmRzSEJQWnBOaTV2Q2pEMnBOYXdqek51eVBLZ3ZhSGtfQkQ1cW1jMFlBRGpsNnJfYmZaeFZiRWJWb2xDQllXNVdSSG1jV0t5N0xXOVBQbjZfTFZQeXJCbUVXZnd1Y1A0QzlfdFlBZHJiX0hhNldPTkp3RE9EWWhqUWJJMkdoUVU0TmdqWmc4NEhLOGZUU3ROV3FQN2E0U3JWUGd0TzRQMGo1UUc2dU9jTzNWZlBLcQ?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1MycXNJQW5CM3p5LWZCLVJTMm13RS1LMWVRQXVZSWZBM05IeUdkZFVDUm02Y0lDdWhfdTZ1WHY3Z1IyQmM3T09VZVN6aVNkeks5ZHB4UU5MSHVFTmFoQ0ZNUWN2ZjNBY2wteXBqajNWYng0dFFKU05xaWt3dDAwWmVWQUdHTUlmaE9QZUx3ZEJvaERQclc2bkxoTHZ0aUhGRW5KZGRvSFU1Q3ltYzNnNmJrYXc0ZU9XclJ5b0FEMS1aanVheFp1X1Vkb2xvLVhZS1BIU1Vn?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWpnUU8tSkZRUE4tTWR4UUdReUhJa0NNbW1mLW5pVWNPeE0tSm03QTZjVF9hT0h6RVg1S1YyZklxQVdSQ1BObWJUU0NOd2lxVk9sSGNmSDJxVE05TzU3aGg5SWQ5NTNGTmxXZ3lBN3RycFNKakxSMDlYckQwR1RFYXdlcEdOQUVWNUhLRTJ1YlZheWxxd05sOTN5Y1p2a29yeGc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVdweVlPSWktTG5WYUFrYnNZQndRTEVrVWlVWG9DVmNMNEprQVNrT1FPNlJPZVZYMHBKNFlBLWVROHBfVGRwWXMzY09tdTQ5NGszckJBaC11cW81MmVYQWNBWExJNWtKZlVvT1c5QlkzNDhjQl93cEpUQ0l6YWlNSjRrOA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPazI3aVRqNWZFLVhSQ0FqamotWXhQZFg5SGRHaUJXSy1xNF83cHpPSDFpcExhNHJyRFlUdll2RUduOU5NcjQ0Wm1URTMxMHlHbEk1VWtGeXlNaFFVS2piRHBGUGxtRWhuckhnRkk5VEhJc2pmYVBGM0t0ZVNLYWFWUzZIS0ZYRHFKZF9UV183Q2VGOHdWSEhXZmNlQVZXenc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795009692,
+    "reason": "ריבית גבוהה יותר פוגעת ברווחיות החברות ובתמחור המניות.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה יותר פוגעת ברווחיות החברות ובתמחור המניות.",
+     "en": "Higher interest rates hurt corporate profitability and stock valuations.",
+     "ar": "أسعار الفائدة المرتفعة تضر بربحية الشركات وتقييمات الأسهم.",
+     "ru": "Более высокие процентные ставки вредят прибыльности компаний и оценке акций."
+    },
+    "name_i18n": {
+     "he": "S&P 500 - מדד מניות אמריקאי",
+     "en": "S&P 500 - US stock index",
+     "ar": "S&P 500 - مؤشر الأسهم الأمريكية",
+     "ru": "S&P 500 - индекс акций США"
+    },
+    "price_at_alert": 732.44
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1795009692,
+    "reason": "מחירי האג\"ח יורדים כשהריבית עולה.",
+    "reason_i18n": {
+     "he": "מחירי האג\"ח יורדים כשהריבית עולה.",
+     "en": "Bond prices fall when interest rates rise.",
+     "ar": "تنخفض أسعار السندات عندما ترتفع أسعار الفائدة.",
+     "ru": "Цены на облигации падают при росте процентных ставок."
+    },
+    "name_i18n": {
+     "he": "אג\"ח ממשלתי ארוך טווח",
+     "en": "Long-term US Treasury bonds",
+     "ar": "سندات الخزانة الأمريكية طويلة الأجل",
+     "ru": "Долгосрочные казначейские облигации США"
+    },
+    "price_at_alert": 79.55
+   }
+  ],
+  "id": "11818fa98d79"
+ },
+ {
+  "ts": 1795009692,
+  "time": "2026-11-18T13:48Z",
+  "title": "ישראל תעשיות אוויריות חותמת על עסקה של 480 מיליון דולר עם הודו",
+  "summary": "משרד הביטחון ההודי חתם על עסקה בשווי 1.976 מיליארד רופי (כ-480 מיליון דולר) עם התעשייה האווירית לישראל לשדרוג מערכות הטילים 'ברק' של הצי ההודי.",
+  "kid": "הודו קנתה טכנולוגיה צבאית מישראל כדי לשפר את הטילים של ספינות הצי שלה. זה טוב לחברות ביטחוניות שעובדות עם ישראל.",
+  "i18n": {
+   "title": {
+    "he": "ישראל תעשיות אוויריות חותמת על עסקה של 480 מיליון דולר עם הודו",
+    "en": "Israel Aerospace Industries signs $480M deal with India",
+    "ar": "صناعات الطيران والفضاء الإسرائيلية توقع صفقة بقيمة 480 مليون دولار مع الهند",
+    "ru": "Israel Aerospace Industries подписывает сделку на 480 млн долларов с Индией"
+   },
+   "summary": {
+    "he": "משרד הביטחון ההודי חתם על עסקה בשווי 1.976 מיליארד רופי (כ-480 מיליון דולר) עם התעשייה האווירית לישראל לשדרוג מערכות הטילים 'ברק' של הצי ההודי.",
+    "en": "The Indian Ministry of Defence signed a 1.976 billion rupee (approx. $480M) deal with Israel Aerospace Industries to upgrade the Indian Navy's Barak missile systems.",
+    "ar": "وقعت وزارة الدفاع الهندية صفقة بقيمة 1.976 مليار روبية (حوالي 480 مليون دولار) مع شركة صناعات الطيران والفضاء الإسرائيلية لترقية أنظمة صواريخ 'باراك' التابعة للبحرية الهندية.",
+    "ru": "Министерство обороны Индии подписало сделку на сумму 1,976 млрд рупий (около 480 млн долларов) с Israel Aerospace Industries на модернизацию ракетных систем 'Барак' ВМС Индии."
+   },
+   "kid": {
+    "he": "הודו קנתה טכנולוגיה צבאית מישראל כדי לשפר את הטילים של ספינות הצי שלה. זה טוב לחברות ביטחוניות שעובדות עם ישראל.",
+    "en": "India bought military technology from Israel to improve its navy's missiles. This is good for defense companies that work with Israel.",
+    "ar": "اشترت الهند تكنولوجيا عسكرية من إسرائيل لتحسين صواريخ سفنها البحرية. هذا جيد لشركات الدفاع التي تعمل مع إسرائيل.",
+    "ru": "Индия купила военные технологии у Израиля для улучшения ракет своих военно-морских кораблей. Это хорошо для оборонных компаний, которые работают с Израилем."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaFZMRkk3dEZFZEZ1Szh3UnFrVHpsUGJJX1NKQXQ0bDNQMnNvbXZreUdEN0t2cW16X0stU1pabVp3bTVVZ2h4c2UxOXVSb3VIMU9wWWplSzlDb3FtZDAtWHBDOW9VRmluR29idWtIMDBoejM0VVJEV0RvYW1pSXh4Z2toNFpEN2lkaWhVWldzd2F6UFdRT04tMWp2SGJzWm1EQVJjYk84a0dFaThnU0NTZ0RDR0FEbEh1QXo4YnhMSUFYd2hhY2pRR29nMTh1QUo3b00wbnJ30gHbAUFVX3lxTFBZUFpGUThTWFJBbGZQdHJwYkpUSDZpRGRraktid0RwcV9PME1YalhYZThwM1Atd3EteFBkSk5SdTZyTXBQazl5dEhBWFZxdjRId1NibGd2TENyY0tYX3VJRDRGemxzV3ByVUVocDN4M3oycXVjMnNDTFhQRVpRcFphZUNhcTIwVGNtTFAxa1hmMVBkOTFYSC14Zl81UVVRUUlnSTFud082dFdBN1RmOGlzUWhjVGdlbGJRNzlxdmwtT1VZLU9GVlZ0TzNfUzNvYTBPYjhNVEpVT3Q1QQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVFAwZ2kxejN1aG03anlfOWYzZWZpZm9CZ0tJUEY3MUx2QTBWRzZicDItZXJxWUFQdFRhM2lKLWJhcVZ5bXlFRE81TnNBWFNmc0dWajB5V0hhdDJwUkJhRkhkc2Vvbl9EVjBBQlE4Wm93cW9MSlNyR19MRDdjaGdsU25ZVEJ0ckZ0WV9ORmtuNGtqVEZNekdDZDFkZXAzMkhqRFVvWWluTXVoQmNvYWlkUlBRZUpRcW83bUlIS0RsZmZua0w5Qzl4dmhtUHViQXgxVnVmZlMxWXlOU3paNkU3WHVxMk3SAeoBQVVfeXFMTjVBV0JJS1A5M29fYjN0bGlSNHBLSGtubXZRNGJPZGc2RXk3VW9LUVVXUVE0NHJUSTJfQkNBZlFvTmkxbUJJNnhnSC1ndjNYUU9QdEJlbXJLY0lYaGRTakREQXZzWks5RDVFbzVzZXdwWWFxeU9Nbl9uRUJzeEdnNHE5SXVxWm90Z0VudW1TS0ItbzdWWEF5NXl2QTM5NWI1OUhja2lzb0YyaTBNN0ItT2dQMnl6c2l1bUVET2hzTG5TN2pRUHlKSW1oWTR0bmduYTA4YUs0S0k3cFg4M2pxTkppX1ZJdmRDUWtB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc1BteWhuWGZ1eUVyd3NzbzlSbWlRbUdrM3dCSzZNZ0lyVm04NHI1cnNYdUxDdkNuQjdMNHBPQUl5LVV6NWJQZDFzMUpzN0NBQ1lOY0dmUkcyVkp0ZTVRRmd3WWp2cHFvbm5NMnRueHdLb3dyNk51ZWlZUEp1MFRJMG1HcjhPUUlOdDhybjF3SWlDWF9WT193Q0lJUzlKUjE3dXNZT2J0VVVYd2tUUGRsU1QyaGRuS3djQS1CM2VjVXNpVEFjUGw2ZGcxSW9qY0dwZXhiWtIB2gFBVV95cUxOZ3RpY1VEZUxKZVNwSEFjUURUM3N0Y2psZ1dWckhWcjFmcFhRWF9XY0d6angtNUNvM0JxRi03ZHAtcjVpUnI4VnRXdVNhYVB4RG1QVHF3WUFaUWVpcEdPTjNVQlI1bGpubEFvSzh0ak1DTWw1RFdpSlZuVzZxZm4zQ1RIbVJHSkVjTEhCZ1pHb1ppRGk2SjJfNjQ2Rzg3Yno5VVZhTUs3ZGxUZXNTcHJHM0JhR0czM2JwVmNGOG9hVy1ydFpFTlhiUS12eGJxRGF5akpHT0luOWtsQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsQUs2M1NIMUs5Ykwwa3U2QnM3MDNVLVpfNGgyT1ZYYzN1UUcxbWJFTXdrRWVYcGlLS1ZnemQyRjg3ZmRma2J1am0zdHpvM0FLSTNTUEx0ZVhwNTkwX3U1bzNJNU1hTUx5dkRqRGVPSUdSZlo0OFBqaU9uYS0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1795009692,
+    "reason": "שותפה מרכזית בתעשייה הביטחונית הישראלית ונהנית מביקוש גובר לטכנולוגיה.",
+    "reason_i18n": {
+     "he": "שותפה מרכזית בתעשייה הביטחונית הישראלית ונהנית מביקוש גובר לטכנולוגיה.",
+     "en": "Key partner in the Israeli defense industry benefiting from increased demand.",
+     "ar": "شريك رئيسي في صناعة الدفاع الإسرائيلية يستفيد من الطلب المتزايد.",
+     "ru": "Ключевой партнер в израильской оборонной промышленности, выигрывающий от растущего спроса."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות",
+     "en": "Elbit Systems",
+     "ar": "إلبيت سيستمز",
+     "ru": "Elbit Systems"
+    },
+    "price_at_alert": 720.53
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795009692,
+    "reason": "העסקה משקפת ביקוש חזק למערכות הגנה אווירית.",
+    "reason_i18n": {
+     "he": "העסקה משקפת ביקוש חזק למערכות הגנה אווירית.",
+     "en": "The deal reflects strong demand for air defense systems.",
+     "ar": "تعكس الصفقة طلباً قوياً على أنظمة الدفاع الجوي.",
+     "ru": "Сделка отражает высокий спрос на системы противовоздушной обороны."
+    },
+    "name_i18n": {
+     "he": "תעודת סל של תעשיות ביטחוניות",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق استثمار متداول لقطاع الدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 69.6
+   }
+  ],
+  "id": "4e230620bf41"
  }
 ]
