@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T15:44Z",
+ "generated": "2026-11-18T16:47Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1093,
+ "total_alerts": 1097,
  "overall": {
   "n": 740,
   "hits": 369,
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 186,
+   "mentions": 187,
    "n": 172,
    "hits": 106,
    "name": {
-    "he": "תעודת סל של תעשיות ביטחוניות",
+    "he": "תעודת סל ביטחונית",
     "en": "Aerospace & Defense ETF",
-    "ar": "صندوق استثمار متداول لقطاع الدفاع",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "ar": "صندوق استثمار في قطاع الدفاع",
+    "ru": "ETF аэрокосмического и оборонного сектора"
    },
    "avg_edge": -1.16
   },
@@ -186,7 +186,7 @@
    "avg_edge": -1.1
   },
   "ESLT": {
-   "mentions": 26,
+   "mentions": 27,
    "n": 22,
    "hits": 12,
    "name": {
@@ -294,14 +294,14 @@
    "avg_edge": 0.23
   },
   "EWU": {
-   "mentions": 14,
+   "mentions": 15,
    "n": 13,
    "hits": 7,
    "name": {
-    "he": "EWU - קרן סל על מניות בריטניה",
-    "en": "EWU - UK equities ETF",
-    "ar": "EWU - صندوق استثمار الأسهم في المملكة المتحدة",
-    "ru": "EWU - ETF акций Великобритании"
+    "he": "תעודת סל בריטניה",
+    "en": "UK ETF",
+    "ar": "صندوق استثمار في بريطانيا",
+    "ru": "ETF Великобритании"
    },
    "avg_edge": 0.16
   },
@@ -810,14 +810,14 @@
    "avg_edge": -0.38
   },
   "BA": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 5,
    "hits": 1,
    "name": {
-    "he": "בואינג - ענקית תעופה וביטחון",
-    "en": "Boeing - Aerospace & Defense Giant",
-    "ar": "بويينغ - عملاق الطيران والدفاع",
-    "ru": "Boeing - аэрокосмический и оборонный гигант"
+    "he": "בואינג",
+    "en": "Boeing",
+    "ar": "بوينغ",
+    "ru": "Boeing"
    },
    "avg_edge": -1.17
   },
@@ -1038,14 +1038,14 @@
    "avg_edge": -2.68
   },
   "JPM": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "ג'יי פי מורגן - בנק ענק",
-    "en": "JPMorgan - major bank",
-    "ar": "جيه بي مورغان - بنك ضخم",
-    "ru": "JPMorgan - крупный банк"
+    "he": "ג'יי פי מורגן",
+    "en": "JPMorgan",
+    "ar": "جي بي مورغان",
+    "ru": "JPMorgan"
    },
    "avg_edge": 1.14
   },
@@ -1074,14 +1074,14 @@
    "avg_edge": 5.21
   },
   "MSFT": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 6,
    "hits": 2,
    "name": {
-    "he": "מיקרוסופט - משקיעה גדולה ב-OpenAI",
-    "en": "Microsoft - major investor in OpenAI",
-    "ar": "مايكروسوفت - مستثمر رئيسي في OpenAI",
-    "ru": "Microsoft - крупный инвестор в OpenAI"
+    "he": "מיקרוסופט",
+    "en": "Microsoft",
+    "ar": "مايكروسوفت",
+    "ru": "Microsoft"
    },
    "avg_edge": -0.59
   },
@@ -1646,6 +1646,30 @@
     "en": "CTSH - Cognizant Technology Solutions",
     "ar": "CTSH - كوجنيزنت للتكنولوجيا",
     "ru": "CTSH - Cognizant Technology Solutions"
+   },
+   "avg_edge": null
+  },
+  "V": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ויזה",
+    "en": "Visa",
+    "ar": "فيزا",
+    "ru": "Visa"
+   },
+   "avg_edge": null
+  },
+  "COST": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קוסטקו",
+    "en": "Costco",
+    "ar": "كوستكو",
+    "ru": "Costco"
    },
    "avg_edge": null
   }
