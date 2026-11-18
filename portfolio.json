@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T22:38Z",
+ "generated": "2026-11-18T23:35Z",
  "trade_size": 1000,
  "important": {
-  "trades": 248,
-  "wins": 120,
-  "hits": 120,
-  "pnl": 688.3,
-  "bench_pnl": -1210.6,
+  "trades": 279,
+  "wins": 139,
+  "hits": 139,
+  "pnl": 1020.1,
+  "bench_pnl": -1516.8,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -101,393 +101,398 @@
     "date": "2026-11-17",
     "equity": 688.3,
     "bench": -1210.6
+   },
+   {
+    "date": "2026-11-18",
+    "equity": 1020.1,
+    "bench": -1516.8
    }
   ],
   "recent": [
    {
-    "date": "2026-11-17",
-    "ticker": "ZIM",
-    "dir": "up",
-    "severity": 6,
-    "cat": "trade",
-    "id": "96151250eea4",
-    "title": "טראמפ מאריך את הפטור מחוק ג'ונס",
+    "date": "2026-11-18",
+    "ticker": "ZM",
+    "dir": "down",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "טראמפ מאריך את הפטור מחוק ג'ונס",
-     "en": "Trump Extends Jones Act Waiver",
-     "ar": "ترامب يمدد الإعفاء من قانون جونز",
-     "ru": "Трамп продлевает исключение из закона Джонса"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": 1.06,
-    "hit": true,
-    "pnl": 10.6,
-    "bench_pnl": -23.0
+    "change_pct": 0.03,
+    "hit": false,
+    "pnl": -0.3,
+    "bench_pnl": -4.1
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XOM",
     "dir": "up",
     "severity": 8,
-    "cat": "commodities",
-    "id": "e41540829d2b",
-    "title": "מיכליות נפגעו ממושים במצר הורמוז",
+    "cat": "geopolitics",
+    "id": "971ea2049d3e",
+    "title": "תקיפת מכליות במיצר הורמוז",
     "title_i18n": {
-     "en": "Tankers hit by mines in Strait of Hormuz",
-     "he": "מיכליות נפגעו ממושים במצר הורמוז",
-     "ar": "ناقلات تعرضت لألغام في مضيق هرمز",
-     "ru": "Танкеры подорвались на минах в Ормузском проливе"
+     "he": "תקיפת מכליות במיצר הורמוז",
+     "en": "Tanker attacks in Strait of Hormuz",
+     "ar": "هجمات على ناقلات في مضيق هرمز",
+     "ru": "Атаки на танкеры в Ормузском проливе"
     },
-    "change_pct": -1.37,
-    "hit": true,
-    "pnl": -13.7,
-    "bench_pnl": -23.0
+    "change_pct": -4.11,
+    "hit": false,
+    "pnl": -41.1,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XLK",
     "dir": "down",
-    "severity": 8,
-    "cat": "policy",
-    "id": "7be3efe60786",
-    "title": "עזיבת מנכ\"ל אנבידיה ג'נסן הואנג על רקע חקירות ודליפת שבבים לסין",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "עזיבת מנכ\"ל אנבידיה ג'נסן הואנג על רקע חקירות ודליפת שבבים לסין",
-     "en": "Nvidia CEO Jensen Huang Resigns Amid China Chip Leak Scrutiny",
-     "ar": "استقالة الرئيس التنفيذي لشركة إنفيديا جنسن هوانغ وسط تدقيق تسريب رقائق الصين",
-     "ru": "Глава Nvidia Дженсен Хуанг уходит в отставку на фоне скандала с утечкой чипов в Китай"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": -2.07,
+    "change_pct": 0.48,
     "hit": false,
-    "pnl": 20.7,
-    "bench_pnl": -23.0
+    "pnl": -4.8,
+    "bench_pnl": -8.5
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
+    "ticker": "XLF",
+    "dir": "down",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
+    "title_i18n": {
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
+    },
+    "change_pct": -2.29,
+    "hit": true,
+    "pnl": 22.9,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
     "ticker": "XLE",
-    "dir": "up",
+    "dir": "down",
     "severity": 6,
     "cat": "geopolitics",
-    "id": "08328640bd25",
-    "title": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
+    "id": "efbd2eba7849",
+    "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
     "title_i18n": {
-     "he": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
-     "en": "Trump Warns Iran of Potential Military Force",
-     "ar": "טראמפ يحذر إيران من احتمال استخدام القوة العسكرية",
-     "ru": "Трамп предупреждает Иран о возможном применении военной силы"
+     "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+     "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
+     "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
+     "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
     },
-    "change_pct": -1.8,
+    "change_pct": -4.35,
     "hit": true,
-    "pnl": -18.0,
-    "bench_pnl": -23.0
+    "pnl": 43.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "WEAT",
     "dir": "up",
     "severity": 6,
     "cat": "geopolitics",
-    "id": "0d67c9ad7b64",
-    "title": "אוקראינה תקפה בסיס ניסויי טילים רוסי",
+    "id": "c336802516b1",
+    "title": "אוקראינה תקפה שוב את גשר קרים",
     "title_i18n": {
-     "he": "אוקראינה תקפה בסיס ניסויי טילים רוסי",
-     "en": "Ukraine strikes Russian missile test base",
-     "ar": "أوكرانيا تضرب قاعدة اختبار صواريخ روسية",
-     "ru": "Украина нанесла удар по российской базе испытаний ракет"
+     "he": "אוקראינה תקפה שוב את גשר קרים",
+     "en": "Ukraine strikes Crimea bridge again",
+     "ar": "أوكرانيا تضرب جسر القرم مرة أخرى",
+     "ru": "Украина снова наносит удар по Крымскому мосту"
     },
-    "change_pct": 0.73,
-    "hit": true,
-    "pnl": 7.3,
-    "bench_pnl": -23.0
+    "change_pct": -3.33,
+    "hit": false,
+    "pnl": -33.3,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
+    "ticker": "VGK",
+    "dir": "down",
+    "severity": 7,
+    "cat": "geopolitics",
+    "id": "bb880aa5eb34",
+    "title": "רוסיה תוקפת גשרים בקייב",
+    "title_i18n": {
+     "he": "רוסיה תוקפת גשרים בקייב",
+     "en": "Russia strikes bridges in Kyiv",
+     "ar": "روسيا تضرب جسوراً في كييف",
+     "ru": "Россия наносит удары по мостам в Киеве"
+    },
+    "change_pct": -1.68,
+    "hit": true,
+    "pnl": 16.8,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
     "ticker": "UUP",
     "dir": "up",
-    "severity": 7,
-    "cat": "macro",
-    "id": "6f16a5f60e41",
-    "title": "נתוני אינפלציה וחששות מהעלאות ריבית",
-    "title_i18n": {
-     "he": "נתוני אינפלציה וחששות מהעלאות ריבית",
-     "en": "Inflation Data and Rate Hike Concerns",
-     "ar": "بيانات التضخم ومخاوف رفع أسعار الفائدة",
-     "ru": "Данные по инфляции и опасения повышения ставок"
-    },
-    "change_pct": 0.07,
-    "hit": true,
-    "pnl": 0.7,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "UAL",
-    "dir": "down",
-    "severity": 8,
-    "cat": "cyber",
-    "id": "42ab354e787e",
-    "title": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
-    "title_i18n": {
-     "he": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
-     "en": "Nationwide US Ground Stop Due to Communications Issue",
-     "ar": "وقف ארצי ללחיצת الطيران في الولايات المتحدة بسبب مشكلة اتصالات",
-     "ru": "Общенациональная остановка полетов в США из-за проблем со связью"
-    },
-    "change_pct": -2.36,
-    "hit": true,
-    "pnl": 23.6,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "TRV",
-    "dir": "down",
     "severity": 6,
-    "cat": "climate",
-    "id": "aa8006750004",
-    "title": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
+    "cat": "macro",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
     "title_i18n": {
-     "he": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
-     "en": "Powerful magnitude 7.4 earthquake hits Japan",
-     "ar": "زلزال قوي بقوة 7.4 يضرب اليابان",
-     "ru": "Мощное землетрясение магнитудой 7.4 произошло в Японии"
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
     },
-    "change_pct": -2.54,
+    "change_pct": 0.24,
     "hit": true,
-    "pnl": 25.4,
-    "bench_pnl": -23.0
+    "pnl": 2.4,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
+    "ticker": "USO",
+    "dir": "up",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "35b085f57552",
+    "title": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
+    "title_i18n": {
+     "he": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
+     "en": "Escalation in Yemen: Houthis advance towards Aden",
+     "ar": "تصعيد في القتال في اليمن: الحوثيون يتقدمون نحو عدن",
+     "ru": "Эскалация в Йемене: хуситы продвигаются к Адену"
+    },
+    "change_pct": -4.55,
+    "hit": false,
+    "pnl": -45.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
     "ticker": "TLT",
     "dir": "down",
-    "severity": 7,
+    "severity": 6,
     "cat": "macro",
-    "id": "f641f534cc88",
-    "title": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
     "title_i18n": {
-     "he": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
-     "en": "Federal Reserve on track to raise interest rates next month",
-     "ar": "הפדרל רציו עשוי להעלות את הריבית בחודש הבא",
-     "ru": "ФРС намерена повысить процентные ставки в следующем месяце"
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
     },
-    "change_pct": 0.08,
+    "change_pct": 1.17,
     "hit": false,
-    "pnl": -0.8,
-    "bench_pnl": -23.0
+    "pnl": -11.7,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "SPY",
     "dir": "down",
     "severity": 8,
-    "cat": "commodities",
-    "id": "e41540829d2b",
-    "title": "מיכליות נפגעו ממושים במצר הורמוז",
+    "cat": "macro",
+    "id": "d7a753325493",
+    "title": "בכיר הפד מזהיר מפני העלאות ריבית נוספות",
     "title_i18n": {
-     "en": "Tankers hit by mines in Strait of Hormuz",
-     "he": "מיכליות נפגעו ממושים במצר הורמוז",
-     "ar": "ناقلات تعرضت لألغام في مضيق هرمز",
-     "ru": "Танкеры подорвались на минах в Ормузском проливе"
+     "he": "בכיר הפד מזהיר מפני העלאות ריבית נוספות",
+     "en": "Fed Official Warns of Further Rate Hikes",
+     "ar": "مسؤول الفيدرالي يحذر من المزيد من رفع أسعار الفائدة",
+     "ru": "Чиновник ФРС предупреждает о возможном повышении ставок"
     },
-    "change_pct": -2.3,
+    "change_pct": -1.08,
     "hit": true,
-    "pnl": 23.0,
-    "bench_pnl": -23.0
+    "pnl": 10.8,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "SPY",
-    "dir": "up",
-    "severity": 9,
-    "cat": "geopolitics",
-    "id": "f7d7e51ddb49",
-    "title": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-    "title_i18n": {
-     "he": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-     "en": "Planned tripartite summit between Trump, Putin, and Xi",
-     "ar": "قمة ثلاثية مخططة بين ترامب وبوتين وشي",
-     "ru": "Планируемый трехсторонний саммит Трампа, Путина и Си"
-    },
-    "change_pct": -2.3,
-    "hit": false,
-    "pnl": -23.0,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "SLV",
+    "date": "2026-11-18",
+    "ticker": "SMH",
     "dir": "down",
-    "severity": 6,
-    "cat": "commodities",
-    "id": "af3edff52e67",
-    "title": "מחירי הזהב והכסף רושמים ירידות שבועיות חדות לקראת החלטת הפד",
+    "severity": 8,
+    "cat": "trade",
+    "id": "faf1fcebe553",
+    "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
     "title_i18n": {
-     "he": "מחירי הזהב והכסף רושמים ירידות שבועיות חדות לקראת החלטת הפד",
-     "en": "Gold and Silver Prices Register Sharp Weekly Declines Ahead of Fed Decision",
-     "ar": "أسعار الذهب والفضة تسجل انخفاضات أسبوعية حادة قبيل قرار الفيدرالي",
-     "ru": "Цены на золото и серебро фиксируют резкое недельное падение в преддверии решения ФРС"
+     "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+     "en": "US restricts China's access to AI chips",
+     "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+     "ru": "США ограничивают доступ Китая к чипам ИИ"
     },
-    "change_pct": 0.13,
-    "hit": false,
-    "pnl": -1.3,
-    "bench_pnl": -23.0
+    "change_pct": -1.51,
+    "hit": true,
+    "pnl": 15.1,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
+    "ticker": "RTX",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "62cada07545d",
+    "title": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+    "title_i18n": {
+     "he": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+     "en": "US Arms Sales: Taiwan and Senate Defense Bill",
+     "ar": "مبيعات الأسلحة الأمريكية: تايوان ومشروع قانون الدفاع",
+     "ru": "Оружейные сделки США: Тайвань и оборонный законопроект"
+    },
+    "change_pct": 1.86,
+    "hit": true,
+    "pnl": 18.6,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
     "ticker": "QQQ",
     "dir": "down",
     "severity": 7,
-    "cat": "macro",
-    "id": "6f16a5f60e41",
-    "title": "נתוני אינפלציה וחששות מהעלאות ריבית",
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "נתוני אינפלציה וחששות מהעלאות ריבית",
-     "en": "Inflation Data and Rate Hike Concerns",
-     "ar": "بيانات التضخم ومخاوف رفع أسعار الفائدة",
-     "ru": "Данные по инфляции и опасения повышения ставок"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": -2.09,
+    "change_pct": -0.53,
     "hit": false,
-    "pnl": 20.9,
-    "bench_pnl": -23.0
+    "pnl": 5.3,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "NVDA",
-    "dir": "up",
-    "severity": 7,
-    "cat": "macro",
-    "id": "67de860b7add",
-    "title": "דוחות אנבידיה והאתגר של הפד תחת וורש",
-    "title_i18n": {
-     "he": "דוחות אנבידיה והאתגר של הפד תחת וורש",
-     "en": "Nvidia earnings and Fed's AI challenge under Warsh",
-     "ar": "نتائج أرباح إنفيديا وتحدي الذكاء الاصطناعي للفيدرالي تحت قيادة وارش",
-     "ru": "Отчетность Nvidia и вызов ФРС в сфере ИИ при Уорше"
-    },
-    "change_pct": -2.22,
-    "hit": true,
-    "pnl": -22.2,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "LMT",
-    "dir": "down",
-    "severity": 9,
-    "cat": "geopolitics",
-    "id": "f7d7e51ddb49",
-    "title": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-    "title_i18n": {
-     "he": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-     "en": "Planned tripartite summit between Trump, Putin, and Xi",
-     "ar": "قمة ثلاثية مخططة بين ترامب وبوتين وشي",
-     "ru": "Планируемый трехсторонний саммит Трампа, Путина и Си"
-    },
-    "change_pct": -1.61,
-    "hit": false,
-    "pnl": 16.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "LMT",
-    "dir": "up",
-    "severity": 6,
-    "cat": "geopolitics",
-    "id": "7a1dab53ad61",
-    "title": "איראן מאיימת בתגובה צבאית ומסלימה את המתיחות במזרח התיכון",
-    "title_i18n": {
-     "he": "איראן מאיימת בתגובה צבאית ומסלימה את המתיחות במזרח התיכון",
-     "en": "Iran Unveils Missile Power and Teases 'Horrifying' Revenge",
-     "ar": "إيران تستعرض قوتها الصاروخية وتتوعد برد \"مرعب\"",
-     "ru": "Иран демонстрирует ракетную мощь и обещает «ужасающую» месть"
-    },
-    "change_pct": -1.61,
-    "hit": true,
-    "pnl": -16.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "LHX",
-    "dir": "down",
-    "severity": 6,
-    "cat": "macro",
-    "id": "be367335c97c",
-    "title": "שיבוש ענק בטיסות בארה\"ב עקב תקלת תקשורת",
-    "title_i18n": {
-     "he": "שיבוש ענק בטיסות בארה\"ב עקב תקלת תקשורת",
-     "en": "Massive US Flight Disruptions Due to Telecommunications Failure",
-     "ar": "اضطرابات واسعة النطاق في رحلات الطيران الأمريكية بسبب عطل في الاتصالات",
-     "ru": "Масштабные сбои в авиасообщении США из-за сбоя связи"
-    },
-    "change_pct": -1.32,
-    "hit": false,
-    "pnl": 13.2,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "KSA",
-    "dir": "down",
-    "severity": 6,
-    "cat": "commodities",
-    "id": "00a7cbf9e5e7",
-    "title": "החות'ים טוענים לתקיפות חדשות על מתקנים סעודיים",
-    "title_i18n": {
-     "he": "החות'ים טוענים לתקיפות חדשות על מתקנים סעודיים",
-     "en": "Houthis Claim New Attacks on Saudi Sites",
-     "ar": "الحوثيون يعلنون عن هجمات جديدة على مواقع سعودية",
-     "ru": "Хуситы заявляют о новых ударах по объектам в Саудовской Аравии"
-    },
-    "change_pct": 0.31,
-    "hit": false,
-    "pnl": -3.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "KRE",
-    "dir": "down",
-    "severity": 6,
-    "cat": "macro",
-    "id": "018267171639",
-    "title": "האינפלציה הסיטונית בארה\"ב עולה ל-6.5% באוקטובר, מעל הציפיות",
-    "title_i18n": {
-     "he": "האינפלציה הסיטונית בארה\"ב עולה ל-6.5% באוקטובר, מעל הציפיות",
-     "en": "US Wholesale Inflation Rises to 6.5% in October, Exceeding Expectations",
-     "ar": "التضخم بالجملة في أمريكا يرتفع إلى 6.5% في أكتوبر متجاوزاً التوقعات",
-     "ru": "Оптовая инфляция в США выросла до 6,5% в октябре, превысив ожидания"
-    },
-    "change_pct": -2.69,
-    "hit": true,
-    "pnl": 26.9,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "JETS",
     "dir": "down",
     "severity": 8,
-    "cat": "cyber",
-    "id": "42ab354e787e",
-    "title": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
+    "cat": "trade",
+    "id": "faf1fcebe553",
+    "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
     "title_i18n": {
-     "he": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
-     "en": "Nationwide US Ground Stop Due to Communications Issue",
-     "ar": "وقف ארצי ללחיצת الطيران في الولايات المتحدة بسبب مشكلة اتصالات",
-     "ru": "Общенациональная остановка полетов в США из-за проблем со связью"
+     "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+     "en": "US restricts China's access to AI chips",
+     "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+     "ru": "США ограничивают доступ Китая к чипам ИИ"
     },
-    "change_pct": -1.65,
-    "hit": false,
-    "pnl": 16.5,
-    "bench_pnl": -23.0
+    "change_pct": -3.85,
+    "hit": true,
+    "pnl": 38.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "INDA",
+    "date": "2026-11-18",
+    "ticker": "LMT",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "62cada07545d",
+    "title": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+    "title_i18n": {
+     "he": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+     "en": "US Arms Sales: Taiwan and Senate Defense Bill",
+     "ar": "مبيعات الأسلحة الأمريكية: تايوان ومشروع قانون الدفاع",
+     "ru": "Оружейные сделки США: Тайвань и оборонный законопроект"
+    },
+    "change_pct": -1.19,
+    "hit": false,
+    "pnl": -11.9,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "JETS",
+    "dir": "up",
+    "severity": 6,
+    "cat": "policy",
+    "id": "40829c970c8b",
+    "title": "קריאה למימון פדרלי של 50 מיליארד דולר למערכות ה-FAA",
+    "title_i18n": {
+     "he": "קריאה למימון פדרלי של 50 מיליארד דולר למערכות ה-FAA",
+     "en": "Call for $50B Federal Funding for FAA Systems",
+     "ar": "دعوة لتمويل فيدرالي بقيمة 50 مليار دولار لأنظمة الطيران",
+     "ru": "Призыв к федеральному финансированию систем FAA на $50 млрд"
+    },
+    "change_pct": -0.55,
+    "hit": true,
+    "pnl": -5.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "ITA",
     "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "efbd2eba7849",
+    "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+    "title_i18n": {
+     "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+     "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
+     "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
+     "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
+    },
+    "change_pct": 0.06,
+    "hit": false,
+    "pnl": -0.6,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "IBIT",
+    "dir": "down",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
+    "title_i18n": {
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
+    },
+    "change_pct": -3.65,
+    "hit": true,
+    "pnl": 36.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "GLD",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
+    "title_i18n": {
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
+    },
+    "change_pct": -3.59,
+    "hit": true,
+    "pnl": 35.9,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "GLD",
+    "dir": "up",
     "severity": 6,
     "cat": "macro",
     "id": "97b967c733d7",
@@ -498,33 +503,90 @@
      "ar": "تضخم أسعار الجملة في الهند يقفز إلى 12.29%",
      "ru": "Оптовая инфляция в Индии подскочила до 12.29%"
     },
-    "change_pct": 0.77,
+    "change_pct": -3.59,
     "hit": false,
-    "pnl": -7.7,
-    "bench_pnl": -23.0
+    "pnl": -35.9,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "GLD",
+    "date": "2026-11-18",
+    "ticker": "FXI",
     "dir": "down",
-    "severity": 9,
-    "cat": "geopolitics",
-    "id": "f7d7e51ddb49",
-    "title": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
+    "severity": 8,
+    "cat": "trade",
+    "id": "faf1fcebe553",
+    "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
     "title_i18n": {
-     "he": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-     "en": "Planned tripartite summit between Trump, Putin, and Xi",
-     "ar": "قمة ثلاثية مخططة بين ترامب وبوتين وشي",
-     "ru": "Планируемый трехсторонний саммит Трампа, Путина и Си"
+     "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+     "en": "US restricts China's access to AI chips",
+     "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+     "ru": "США ограничивают доступ Китая к чипам ИИ"
     },
-    "change_pct": -0.47,
-    "hit": false,
-    "pnl": 4.7,
-    "bench_pnl": -23.0
+    "change_pct": -1.79,
+    "hit": true,
+    "pnl": 17.9,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "FXY",
+    "date": "2026-11-18",
+    "ticker": "FXE",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
+    "title_i18n": {
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
+    },
+    "change_pct": -0.1,
+    "hit": false,
+    "pnl": 1.0,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "FCX",
+    "dir": "down",
+    "severity": 6,
+    "cat": "commodities",
+    "id": "6934240435df",
+    "title": "ירידה במחירי הנחושת וחששות כלכליים",
+    "title_i18n": {
+     "he": "ירידה במחירי הנחושת וחששות כלכליים",
+     "en": "Copper prices decline amid economic concerns",
+     "ar": "انخفاض أسعار النحاس وسط مخاوف اقتصادية",
+     "ru": "Падение цен на медь на фоне экономических опасений"
+    },
+    "change_pct": -6.55,
+    "hit": true,
+    "pnl": 65.5,
+    "bench_pnl": -1.0
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "EWI",
+    "dir": "down",
+    "severity": 7,
+    "cat": "macro",
+    "id": "cfc255deb1cb",
+    "title": "אינפלציה באיטליה עלתה ל-5.5%",
+    "title_i18n": {
+     "he": "אינפלציה באיטליה עלתה ל-5.5%",
+     "en": "Italy inflation rises to 5.5%",
+     "ar": "ارتفاع التضخم في إيطاليا إلى 5.5%",
+     "ru": "Инфляция в Италии выросла до 5.5%"
+    },
+    "change_pct": -2.34,
+    "hit": true,
+    "pnl": 23.4,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "EWC",
     "dir": "down",
     "severity": 6,
     "cat": "macro",
@@ -536,33 +598,14 @@
      "ar": "انكماش الاقتصاد الياباني",
      "ru": "Экономика Японии сокращается"
     },
-    "change_pct": 0.12,
-    "hit": false,
-    "pnl": -1.2,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "FXY",
-    "dir": "up",
-    "severity": 7,
-    "cat": "macro",
-    "id": "7b9c8c0675ba",
-    "title": "סיכויי העלאת הריבית של הפד מגיעים לוודאות כמעט מלאה; הביטקוין יורד ל-65 אלף דולר",
-    "title_i18n": {
-     "he": "סיכויי העלאת הריבית של הפד מגיעים לוודאות כמעט מלאה; הביטקוין יורד ל-65 אלף דולר",
-     "en": "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K",
-     "ar": "احتمالات رفع الفائدة من الفيدرالي تصل إلى اليقين تقريبا وتراجع البيتكوين إلى 65 ألف دولار",
-     "ru": "Вероятность повышения ставки ФРС достигла почти 100%, биткоин упал до $65 тыс."
-    },
-    "change_pct": 0.12,
+    "change_pct": -2.87,
     "hit": true,
-    "pnl": 1.2,
-    "bench_pnl": -23.0
+    "pnl": 28.7,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "FXI",
+    "date": "2026-11-18",
+    "ticker": "EEM",
     "dir": "up",
     "severity": 9,
     "cat": "geopolitics",
@@ -574,114 +617,76 @@
      "ar": "قمة ثلاثية مخططة بين ترامب وبوتين وشي",
      "ru": "Планируемый трехсторонний саммит Трампа, Путина и Си"
     },
-    "change_pct": -1.97,
+    "change_pct": -1.11,
+    "hit": false,
+    "pnl": -11.1,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "CRWD",
+    "dir": "up",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
+    "title_i18n": {
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
+    },
+    "change_pct": 5.77,
     "hit": true,
-    "pnl": -19.7,
-    "bench_pnl": -23.0
+    "pnl": 57.7,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "FXE",
+    "date": "2026-11-18",
+    "ticker": "CPER",
     "dir": "down",
     "severity": 6,
-    "cat": "macro",
-    "id": "1fecedecc592",
-    "title": "כריסטין לגארד מתפטרת מתפקידה כנשיאת הבנק המרכזי האירופי מוקדם מהצפוי",
+    "cat": "commodities",
+    "id": "6934240435df",
+    "title": "ירידה במחירי הנחושת וחששות כלכליים",
     "title_i18n": {
-     "he": "כריסטין לגארד מתפטרת מתפקידה כנשיאת הבנק המרכזי האירופי מוקדם מהצפוי",
-     "en": "Christine Lagarde is resigning as ECB president months early",
-     "ar": "كريستين لاغارد تستقيل من منصبه كـرئيسة للبنك المركزي الأوروبي قبل الموعد المحدد بأشهر",
-     "ru": "Кристин Лагард досрочно уходит с поста главы ЕЦБ"
+     "he": "ירידה במחירי הנחושת וחששות כלכליים",
+     "en": "Copper prices decline amid economic concerns",
+     "ar": "انخفاض أسعار النحاس وسط مخاوف اقتصادية",
+     "ru": "Падение цен на медь на фоне экономических опасений"
     },
-    "change_pct": 0.04,
-    "hit": false,
-    "pnl": -0.4,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "EWY",
-    "dir": "down",
-    "severity": 6,
-    "cat": "trade",
-    "id": "d4cdb6e4a6ef",
-    "title": "האיחוד האירופי מטיל מכסים על פלדה",
-    "title_i18n": {
-     "he": "האיחוד האירופי מטיל מכסים על פלדה",
-     "en": "EU imposes steel tariffs",
-     "ar": "الاتحاد الأوروبي يفرض تعريفات على الصلب",
-     "ru": "ЕС вводит пошлины на сталь"
-    },
-    "change_pct": -1.51,
+    "change_pct": -5.29,
     "hit": true,
-    "pnl": 15.1,
-    "bench_pnl": -11.0
+    "pnl": 52.9,
+    "bench_pnl": -1.0
    },
    {
-    "date": "2026-11-17",
-    "ticker": "EWW",
-    "dir": "down",
-    "severity": 6,
-    "cat": "trade",
-    "id": "c6c0292e0484",
-    "title": "טראמפ מאיים להכפיל את המכסים על מקסיקו",
-    "title_i18n": {
-     "he": "טראמפ מאיים להכפיל את המכסים על מקסיקו",
-     "en": "Trump Threatens to Double Tariffs on Mexico",
-     "ar": "ترامب يهدد بمضاعفة الرسوم الجمركية على المكسيك",
-     "ru": "Трамп пригрозил удвоить пошлины на товары из Мексики"
-    },
-    "change_pct": 0.27,
-    "hit": false,
-    "pnl": -2.7,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "EWJ",
-    "dir": "down",
-    "severity": 6,
-    "cat": "climate",
-    "id": "aa8006750004",
-    "title": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
-    "title_i18n": {
-     "he": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
-     "en": "Powerful magnitude 7.4 earthquake hits Japan",
-     "ar": "زلزال قوي بقوة 7.4 يضرب اليابان",
-     "ru": "Мощное землетрясение магнитудой 7.4 произошло в Японии"
-    },
-    "change_pct": -2.23,
-    "hit": false,
-    "pnl": 22.3,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "EWC",
+    "date": "2026-11-18",
+    "ticker": "BDRY",
     "dir": "up",
     "severity": 6,
-    "cat": "trade",
-    "id": "e3f3450fb646",
-    "title": "התקדמות בשיחות הסחר בין ארה\"ב להודו וקנדה",
+    "cat": "geopolitics",
+    "id": "c336802516b1",
+    "title": "אוקראינה תקפה שוב את גשר קרים",
     "title_i18n": {
-     "he": "התקדמות בשיחות הסחר בין ארה\"ב להודו וקנדה",
-     "en": "Progress in US-India and US-Canada trade talks",
-     "ar": "تقدم في محادثات التجارة بين الولايات المتحدة والهند وكندا",
-     "ru": "Прогресс в торговых переговорах США с Индией и Канадой"
+     "he": "אוקראינה תקפה שוב את גשר קרים",
+     "en": "Ukraine strikes Crimea bridge again",
+     "ar": "أوكرانيا تضرب جسر القرم مرة أخرى",
+     "ru": "Украина снова наносит удар по Крымскому мосту"
     },
-    "change_pct": -1.72,
+    "change_pct": 0.0,
     "hit": true,
-    "pnl": -17.2,
-    "bench_pnl": -23.0
+    "pnl": 0.0,
+    "bench_pnl": -10.8
    }
   ]
  },
  "all": {
-  "trades": 741,
-  "wins": 375,
-  "hits": 370,
-  "pnl": 217.8,
-  "bench_pnl": -4073.8,
+  "trades": 800,
+  "wins": 407,
+  "hits": 401,
+  "pnl": 360.3,
+  "bench_pnl": -4675.7,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -779,580 +784,580 @@
    },
    {
     "date": "2026-11-18",
-    "equity": 217.8,
-    "bench": -4073.8
+    "equity": 360.3,
+    "bench": -4675.7
    }
   ],
   "recent": [
    {
     "date": "2026-11-18",
-    "ticker": "ESLT.TA",
+    "ticker": "ZM",
     "dir": "down",
-    "severity": 5,
-    "cat": "geopolitics",
-    "id": "fc47d3f216a6",
-    "title": "בריטניה מטילה סנקציות על חברות בנייה ישראליות",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "בריטניה מטילה סנקציות על חברות בנייה ישראליות",
-     "en": "UK sanctions Israeli construction firms",
-     "ar": "بريطانيا تفرض عقوبات على شركات بناء إسرائيلية",
-     "ru": "Великобритания вводит санкции против израильских строительных компаний"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": -1.94,
-    "hit": true,
-    "pnl": 19.4,
-    "bench_pnl": -1.6
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "ZIM",
-    "dir": "down",
-    "severity": 3,
-    "cat": "commodities",
-    "id": "d7ce295a6eb9",
-    "title": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
-    "title_i18n": {
-     "he": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
-     "en": "Tanker Collides with Cruise Boat in New Orleans",
-     "ar": "اصطدام ناقلة بسفينة سياحية في نيو أورلينز",
-     "ru": "Столковение танкера с круизным судом в Новом Орлеане"
-    },
-    "change_pct": 1.06,
+    "change_pct": 0.03,
     "hit": false,
-    "pnl": -10.6,
-    "bench_pnl": -23.0
+    "pnl": -0.3,
+    "bench_pnl": -4.1
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "ZIM",
     "dir": "up",
-    "severity": 6,
-    "cat": "trade",
-    "id": "96151250eea4",
-    "title": "טראמפ מאריך את הפטור מחוק ג'ונס",
-    "title_i18n": {
-     "he": "טראמפ מאריך את הפטור מחוק ג'ונס",
-     "en": "Trump Extends Jones Act Waiver",
-     "ar": "ترامب يمدد الإعفاء من قانون جونز",
-     "ru": "Трамп продлевает исключение из закона Джонса"
-    },
-    "change_pct": 1.06,
-    "hit": true,
-    "pnl": 10.6,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XOM",
-    "dir": "down",
     "severity": 5,
     "cat": "commodities",
-    "id": "ac0c8b208fdd",
-    "title": "מחירי הנפט יורדים עקב עודף היצע",
+    "id": "537f2b80b56a",
+    "title": "תקיפת מכלית מדליקה חששות בשל מיצרו של הורמוז",
     "title_i18n": {
-     "he": "מחירי הנפט יורדים עקב עודף היצע",
-     "en": "Oil prices fall due to surplus",
-     "ar": "أسعار النفط تنخفض بسبب وفرة المعروض",
-     "ru": "Цены на нефть падают из-за избытка предложения"
+     "he": "תקיפת מכלית מדליקה חששות בשל מיצרו של הורמוז",
+     "en": "Tanker incident raises fresh fears over Strait of Hormuz shipping",
+     "ar": "حادثة ناقلة تثير مخاوف بشأن الشحن في مضيق هرمز",
+     "ru": "Инцидент с танкером усиливает опасения по поводу судоходства в Ормузском проливе"
     },
-    "change_pct": -1.37,
-    "hit": false,
-    "pnl": 13.7,
-    "bench_pnl": -23.0
+    "change_pct": 1.66,
+    "hit": true,
+    "pnl": 16.6,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XOM",
     "dir": "up",
     "severity": 8,
-    "cat": "commodities",
-    "id": "e41540829d2b",
-    "title": "מיכליות נפגעו ממושים במצר הורמוז",
+    "cat": "geopolitics",
+    "id": "971ea2049d3e",
+    "title": "תקיפת מכליות במיצר הורמוז",
     "title_i18n": {
-     "en": "Tankers hit by mines in Strait of Hormuz",
-     "he": "מיכליות נפגעו ממושים במצר הורמוז",
-     "ar": "ناقلات تعرضت لألغام في مضيق هرمز",
-     "ru": "Танкеры подорвались на минах в Ормузском проливе"
+     "he": "תקיפת מכליות במיצר הורמוז",
+     "en": "Tanker attacks in Strait of Hormuz",
+     "ar": "هجمات على ناقلات في مضيق هرمز",
+     "ru": "Атаки на танкеры в Ормузском проливе"
     },
-    "change_pct": -1.37,
-    "hit": true,
-    "pnl": -13.7,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XLY",
-    "dir": "down",
-    "severity": 4,
-    "cat": "commodities",
-    "id": "3fb05eeb8684",
-    "title": "תוספת של 700 דולר לעלויות משלוח מאיימת על עונת החגים",
-    "title_i18n": {
-     "he": "תוספת של 700 דולר לעלויות משלוח מאיימת על עונת החגים",
-     "en": "$700 Shipping Surcharge Threatens Holiday Cargo Growth",
-     "ar": "رسوم الشحن البالغة 700 دولار تهدد نمو شحنات العطلات",
-     "ru": "Доплата за доставку в $700 угрожает росту праздничных грузов"
-    },
-    "change_pct": -2.08,
+    "change_pct": -4.11,
     "hit": false,
-    "pnl": 20.8,
-    "bench_pnl": -23.0
+    "pnl": -41.1,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XLV",
     "dir": "up",
-    "severity": 4,
+    "severity": 5,
     "cat": "health",
-    "id": "88b3250749ec",
-    "title": "התפרצות שפעת העופות בארה\"ב וביפן מעוררת חששות פאנדמיים",
+    "id": "8cbb8a93b1b0",
+    "title": "ארה\"ב איבדה את מעמד 'מיגור החצבת'",
     "title_i18n": {
-     "he": "התפרצות שפעת העופות בארה\"ב וביפן מעוררת חששות פאנדמיים",
-     "en": "Bird flu outbreak across US farms and Japan raises pandemic concerns",
-     "ar": "تفشي إنفلونزا الطيور في المزارع الأمريكية واليابانية يثير مخاوف جائحة",
-     "ru": "Вспышка птичьего гриппа на фермах США и в Японии вызывает опасения пандемии"
+     "he": "ארה\"ב איבדה את מעמד 'מיגור החצבת'",
+     "en": "US loses measles elimination status",
+     "ar": "الولايات المتحدة تفقد حالة القضاء على الحصبة",
+     "ru": "США теряют статус страны, свободной от кори"
     },
-    "change_pct": -2.75,
+    "change_pct": -2.46,
     "hit": false,
-    "pnl": -27.5,
-    "bench_pnl": -23.0
+    "pnl": -24.6,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "XLP",
-    "dir": "down",
-    "severity": 4,
-    "cat": "health",
-    "id": "d9fb2f56379b",
-    "title": "התפרצויות חיידקי סלמונלה ו-E. coli בארה\"ב פוגעות בצרכנים לקראת חג ההודיה",
-    "title_i18n": {
-     "he": "התפרצויות חיידקי סלמונלה ו-E. coli בארה\"ב פוגעות בצרכנים לקראת חג ההודיה",
-     "en": "US Salmonella and E. coli Outbreaks Threaten Thanksgiving Shoppers and Food Safety",
-     "ar": "تفشي بكتيريا السالمونلا والإشريكية القولونية في أمريكا يهدد المستهلكين قبيل عيد الشكر",
-     "ru": "Вспышки сальмонеллы и кишечной палочки в США угрожают потребителям в преддверии Дня благодарения"
-    },
-    "change_pct": -1.81,
-    "hit": false,
-    "pnl": 18.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XLP",
-    "dir": "up",
-    "severity": 4,
-    "cat": "health",
-    "id": "88b3250749ec",
-    "title": "התפרצות שפעת העופות בארה\"ב וביפן מעוררת חששות פאנדמיים",
-    "title_i18n": {
-     "he": "התפרצות שפעת העופות בארה\"ב וביפן מעוררת חששות פאנדמיים",
-     "en": "Bird flu outbreak across US farms and Japan raises pandemic concerns",
-     "ar": "تفشي إنفلونزا الطيور في المزارع الأمريكية واليابانية يثير مخاوف جائحة",
-     "ru": "Вспышка птичьего гриппа на фермах США и в Японии вызывает опасения пандемии"
-    },
-    "change_pct": -1.81,
-    "hit": true,
-    "pnl": -18.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XLK",
-    "dir": "up",
-    "severity": 4,
+    "dir": "down",
+    "severity": 7,
     "cat": "cyber",
-    "id": "a6597e31b15a",
-    "title": "תקלת ענק גלובלית בשירותי הענן של מייקרוסופט",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "תקלת ענק גלובלית בשירותי הענן של מייקרוסופט",
-     "en": "Global outage hits Microsoft cloud and office services",
-     "ar": "انقطاع عالمي يضرب خدمات سحابة مايكروسوفت ومكاتبها",
-     "ru": "Глобальный сбой затронул облачные и офисные сервисы Microsoft"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": -2.07,
-    "hit": true,
-    "pnl": -20.7,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XLK",
-    "dir": "down",
-    "severity": 8,
-    "cat": "policy",
-    "id": "7be3efe60786",
-    "title": "עזיבת מנכ\"ל אנבידיה ג'נסן הואנג על רקע חקירות ודליפת שבבים לסין",
-    "title_i18n": {
-     "he": "עזיבת מנכ\"ל אנבידיה ג'נסן הואנג על רקע חקירות ודליפת שבבים לסין",
-     "en": "Nvidia CEO Jensen Huang Resigns Amid China Chip Leak Scrutiny",
-     "ar": "استقالة الرئيس التنفيذي لشركة إنفيديا جنسن هوانغ وسط تدقيق تسريب رقائق الصين",
-     "ru": "Глава Nvidia Дженсен Хуанг уходит в отставку на фоне скандала с утечкой чипов в Китай"
-    },
-    "change_pct": -2.07,
+    "change_pct": 0.48,
     "hit": false,
-    "pnl": 20.7,
-    "bench_pnl": -23.0
+    "pnl": -4.8,
+    "bench_pnl": -8.5
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XLF",
     "dir": "down",
-    "severity": 3,
-    "cat": "macro",
-    "id": "b92d6138ba23",
-    "title": "בכיר הפד מייקל באר מזהיר מפני סיכוני בינה מלאכותית",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
     "title_i18n": {
-     "he": "בכיר הפד מייקל באר מזהיר מפני סיכוני בינה מלאכותית",
-     "en": "Fed Governor Michael Barr warns AI poses big risk",
-     "ar": "عضو الفيدرالي مايكل بار يحذر من أن الذكاء الاصطناعي يمثل مخاطر كبيرة",
-     "ru": "Управляющий ФРС Майкл Барр предупреждает о крупных рисках ИИ"
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
     },
-    "change_pct": -2.83,
+    "change_pct": -2.29,
     "hit": true,
-    "pnl": 28.3,
-    "bench_pnl": -23.0
+    "pnl": 22.9,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "XLE",
     "dir": "down",
-    "severity": 4,
-    "cat": "trade",
-    "id": "be35a1d82d54",
-    "title": "איראן מדווחת כי מגעים לסחר נפט עם הודו נמשכים למרות הסנקציות",
-    "title_i18n": {
-     "he": "איראן מדווחת כי מגעים לסחר נפט עם הודו נמשכים למרות הסנקציות",
-     "en": "Iran Reports Oil Trade Negotiations with India Continue Despite Sanctions",
-     "ar": "إيران تبلغ عن استمرار مفاوضات تجارة النفط مع الهند رغم العقوبات",
-     "ru": "Иран сообщает о продолжении переговоров по нефти с Индией несмотря на санкции"
-    },
-    "change_pct": -1.8,
-    "hit": false,
-    "pnl": 18.0,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XLE",
-    "dir": "up",
     "severity": 6,
     "cat": "geopolitics",
-    "id": "08328640bd25",
-    "title": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
+    "id": "efbd2eba7849",
+    "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
     "title_i18n": {
-     "he": "טראמפ מזהיר את איראן מפני שימוש בכוח צבאי",
-     "en": "Trump Warns Iran of Potential Military Force",
-     "ar": "טראמפ يحذر إيران من احتمال استخدام القوة العسكرية",
-     "ru": "Трамп предупреждает Иран о возможном применении военной силы"
+     "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+     "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
+     "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
+     "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
     },
-    "change_pct": -1.8,
+    "change_pct": -4.35,
     "hit": true,
-    "pnl": -18.0,
-    "bench_pnl": -23.0
+    "pnl": 43.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "XLB",
-    "dir": "down",
-    "severity": 4,
-    "cat": "commodities",
-    "id": "101fe9b28607",
-    "title": "ממשלת אוסטרליה מזהירה את סין מפני טקטיקות הדוחקות כלפי מטה את מחירי עפרות הברזל",
-    "title_i18n": {
-     "he": "ממשלת אוסטרליה מזהירה את סין מפני טקטיקות הדוחקות כלפי מטה את מחירי עפרות הברזל",
-     "en": "Australian government warns China over tactics driving down iron ore prices",
-     "ar": "الحكومة الأسترالية تحذر الصين من التكتيكات التي تخفض أسعار خام الحديد",
-     "ru": "Правительство Австралии предупреждает Китай о тактике, снижающей цены на железную руду"
-    },
-    "change_pct": -2.64,
-    "hit": true,
-    "pnl": 26.4,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "XAR",
+    "date": "2026-11-18",
+    "ticker": "XLE",
     "dir": "up",
-    "severity": 3,
+    "severity": 5,
     "cat": "contracts",
-    "id": "e8c35ad24992",
-    "title": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
+    "id": "db5727f4f4a1",
+    "title": "Diamondback רוכשת נכסים בבארנט בעסקת ענק של 5 מיליארד דולר",
     "title_i18n": {
-     "he": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
-     "en": "Ukraine Procurement Agency Contracts Off-Road Military Vehicles",
-     "ar": "وكالة المشتريات الأوكرانية تتعاقد على مركبات عسكرية للطرق الوعرة",
-     "ru": "Закупочное агентство Украины заключило контракт на военные внедорожники"
+     "he": "Diamondback רוכשת נכסים בבארנט בעסקת ענק של 5 מיליארד דולר",
+     "en": "Diamondback buys Barnett inventory in $5 billion deal",
+     "ar": "دايموندباك تستحوذ على أصول في بارنيت بصفقة بقيمة 5 مليارات دولار",
+     "ru": "Diamondback покупает активы в Барнетте в рамках сделки на 5 миллиардов долларов"
     },
-    "change_pct": -3.39,
+    "change_pct": -4.35,
     "hit": false,
-    "pnl": -33.9,
-    "bench_pnl": -23.0
+    "pnl": -43.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "WFC",
-    "dir": "down",
-    "severity": 4,
-    "cat": "cyber",
-    "id": "89870685cab6",
-    "title": "תקלות גישה בחשבונות בנקים גדולים בארה\"ב",
-    "title_i18n": {
-     "he": "תקלות גישה בחשבונות בנקים גדולים בארה\"ב",
-     "en": "Access issues at major US banks",
-     "ar": "مشاكل في الوصول إلى الحسابات في البنوك الأمريكية الكبرى",
-     "ru": "Проблемы с доступом к счетам в крупных банках США"
-    },
-    "change_pct": -2.18,
-    "hit": true,
-    "pnl": 21.8,
-    "bench_pnl": -9.3
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "WEAT",
     "dir": "up",
     "severity": 6,
     "cat": "geopolitics",
-    "id": "0d67c9ad7b64",
-    "title": "אוקראינה תקפה בסיס ניסויי טילים רוסי",
+    "id": "c336802516b1",
+    "title": "אוקראינה תקפה שוב את גשר קרים",
     "title_i18n": {
-     "he": "אוקראינה תקפה בסיס ניסויי טילים רוסי",
-     "en": "Ukraine strikes Russian missile test base",
-     "ar": "أوكرانيا تضرب قاعدة اختبار صواريخ روسية",
-     "ru": "Украина нанесла удар по российской базе испытаний ракет"
+     "he": "אוקראינה תקפה שוב את גשר קרים",
+     "en": "Ukraine strikes Crimea bridge again",
+     "ar": "أوكرانيا تضرب جسر القرم مرة أخرى",
+     "ru": "Украина снова наносит удар по Крымскому мосту"
     },
-    "change_pct": 0.73,
-    "hit": true,
-    "pnl": 7.3,
-    "bench_pnl": -23.0
+    "change_pct": -3.33,
+    "hit": false,
+    "pnl": -33.3,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "VSAT",
-    "dir": "up",
-    "severity": 3,
-    "cat": "contracts",
-    "id": "95eed2724457",
-    "title": "ויאסט זכתה בחוזה תקשורת מחיל החלל האמריקאי",
-    "title_i18n": {
-     "he": "ויאסט זכתה בחוזה תקשורת מחיל החלל האמריקאי",
-     "en": "Viasat Wins U.S. Space Force Network Contract",
-     "ar": "فازت فياسات بعقد شبكة لقوة الفضاء الأمريكية",
-     "ru": "Viasat выигрывает контракт на поставку сетей Космических сил США"
-    },
-    "change_pct": -1.81,
-    "hit": true,
-    "pnl": -18.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "VGK",
     "dir": "up",
-    "severity": 5,
-    "cat": "geopolitics",
-    "id": "9fe514897cb2",
-    "title": "ארה\"ב הציעה לאוקראינה ויתור טריטוריאלי תמורת חברות בנאט\"ו",
+    "severity": 4,
+    "cat": "macro",
+    "id": "7d408dd130e9",
+    "title": "ברלין מקדמת את מרקוס ברונרמאייר לתפקיד הכלכלן הראשי של הבנק המרכזי האירופי",
     "title_i18n": {
-     "he": "ארה\"ב הציעה לאוקראינה ויתור טריטוריאלי תמורת חברות בנאט\"ו",
-     "en": "US proposed Ukraine cede land for NATO membership, Zelensky says",
-     "ar": "زيلينسكي: الولايات المتحدة اقترحت تنازل أوكرانيا عن أراضي مقابل عضوية الناتو",
-     "ru": "Зеленский: США предложили Украине уступить территории в обмен на членство в НАТО"
+     "he": "ברלין מקדמת את מרקוס ברונרמאייר לתפקיד הכלכלן הראשי של הבנק המרכזי האירופי",
+     "en": "Berlin proposes Markus Brunnermeier as ECB Chief Economist / board candidate",
+     "ar": "برلين تقترح ماركوس برونرماير كمرشح لمجلس البنك المركزي الأوروبي",
+     "ru": "Берлин предлагает Маркуса Бруннермайера на пост главного экономиста ЕЦБ"
     },
-    "change_pct": -2.2,
-    "hit": true,
-    "pnl": -22.0,
-    "bench_pnl": -23.0
+    "change_pct": -1.68,
+    "hit": false,
+    "pnl": -16.8,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "VGK",
     "dir": "down",
-    "severity": 5,
+    "severity": 7,
     "cat": "geopolitics",
-    "id": "6e6e47b873c7",
-    "title": "הפרלמנט הגרמני מעניק למרגלים סמכויות חדשות בעקבות איומי רוסיה",
+    "id": "bb880aa5eb34",
+    "title": "רוסיה תוקפת גשרים בקייב",
     "title_i18n": {
-     "he": "הפרלמנט הגרמני מעניק למרגלים סמכויות חדשות בעקבות איומי רוסיה",
-     "en": "German Parliament Grants Intelligence Agencies Sweeping New Powers",
-     "ar": "البرلمان الأماني يمنح وكالات الاستخبارات صلاحيات واسعة جديدة",
-     "ru": "Парламент Германии предоставил разведке новые широкие полномочия"
+     "he": "רוסיה תוקפת גשרים בקייב",
+     "en": "Russia strikes bridges in Kyiv",
+     "ar": "روسيا تضرب جسوراً في كييف",
+     "ru": "Россия наносит удары по мостам в Киеве"
     },
-    "change_pct": -2.2,
-    "hit": false,
-    "pnl": 22.0,
-    "bench_pnl": -23.0
+    "change_pct": -1.68,
+    "hit": true,
+    "pnl": 16.8,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "UUP",
     "dir": "up",
-    "severity": 7,
+    "severity": 6,
     "cat": "macro",
-    "id": "6f16a5f60e41",
-    "title": "נתוני אינפלציה וחששות מהעלאות ריבית",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
     "title_i18n": {
-     "he": "נתוני אינפלציה וחששות מהעלאות ריבית",
-     "en": "Inflation Data and Rate Hike Concerns",
-     "ar": "بيانات التضخم ومخاوف رفع أسعار الفائدة",
-     "ru": "Данные по инфляции и опасения повышения ставок"
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
     },
-    "change_pct": 0.07,
+    "change_pct": 0.24,
     "hit": true,
-    "pnl": 0.7,
-    "bench_pnl": -23.0
+    "pnl": 2.4,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "USO",
-    "dir": "down",
-    "severity": 4,
-    "cat": "trade",
-    "id": "be35a1d82d54",
-    "title": "איראן מדווחת כי מגעים לסחר נפט עם הודו נמשכים למרות הסנקציות",
-    "title_i18n": {
-     "he": "איראן מדווחת כי מגעים לסחר נפט עם הודו נמשכים למרות הסנקציות",
-     "en": "Iran Reports Oil Trade Negotiations with India Continue Despite Sanctions",
-     "ar": "إيران تبلغ عن استمرار مفاوضات تجارة النفط مع الهند رغم العقوبات",
-     "ru": "Иран сообщает о продолжении переговоров по нефти с Индией несмотря на санкции"
-    },
-    "change_pct": -1.72,
-    "hit": false,
-    "pnl": 17.2,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "USO",
     "dir": "up",
-    "severity": 4,
+    "severity": 6,
     "cat": "geopolitics",
-    "id": "8d3d09e8a21a",
-    "title": "ביטול מרוץ פורמולה 1 בבחריין עקב תקיפות טילים",
+    "id": "35b085f57552",
+    "title": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
     "title_i18n": {
-     "he": "ביטול מרוץ פורמולה 1 בבחריין עקב תקיפות טילים",
-     "en": "F1 test in Bahrain cancelled after missile strikes",
-     "ar": "إلغاء اختبارات الفورمولا 1 في البحرين بعد ضربات صاروخية",
-     "ru": "Отмена тестов Формулы-1 в Бахрейне после ракетных ударов"
+     "he": "הסלמה בלחימה בתימן: החות'ים מתקדמים לעבר עדן",
+     "en": "Escalation in Yemen: Houthis advance towards Aden",
+     "ar": "تصعيد في القتال في اليمن: الحوثيون يتقدمون نحو عدن",
+     "ru": "Эскалация в Йемене: хуситы продвигаются к Адену"
     },
-    "change_pct": -1.72,
-    "hit": true,
-    "pnl": -17.2,
-    "bench_pnl": -23.0
+    "change_pct": -4.55,
+    "hit": false,
+    "pnl": -45.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
-    "ticker": "UNG",
-    "dir": "up",
-    "severity": 5,
-    "cat": "contracts",
-    "id": "1ff37d3e6ab7",
-    "title": "אנתרופיק מזמינה תחנות כוח גזיות בשווי 3.4 מיליארד דולר",
-    "title_i18n": {
-     "he": "אנתרופיק מזמינה תחנות כוח גזיות בשווי 3.4 מיליארד דולר",
-     "en": "Anthropic Orders Gas Power Plants Worth $3.4 Billion",
-     "ar": "أنثروبيك تطلب محطات توليد طاقة بالغاز بقيمة 3.4 مليار دولار",
-     "ru": "Anthropic заказала газовые электростанции на $3,4 миллиарда"
-    },
-    "change_pct": 1.36,
-    "hit": true,
-    "pnl": 13.6,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "UAL",
     "dir": "down",
-    "severity": 8,
-    "cat": "cyber",
-    "id": "42ab354e787e",
-    "title": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
-    "title_i18n": {
-     "he": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
-     "en": "Nationwide US Ground Stop Due to Communications Issue",
-     "ar": "وقف ארצי ללחיצת الطيران في الولايات المتحدة بسبب مشكلة اتصالات",
-     "ru": "Общенациональная остановка полетов в США из-за проблем со связью"
-    },
-    "change_pct": -2.36,
-    "hit": true,
-    "pnl": 23.6,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "TUR",
-    "dir": "up",
-    "severity": 4,
-    "cat": "contracts",
-    "id": "bfec01f96479",
-    "title": "ענקיות הביטחון הטורקיות ASELSAN ו-ROKETSAN חותמות על עסקאות במיליארד אירו",
-    "title_i18n": {
-     "he": "ענקיות הביטחון הטורקיות ASELSAN ו-ROKETSAN חותמות על עסקאות במיליארד אירו",
-     "en": "Turkish defense giants ASELSAN and ROKETSAN sign €1B+ deals",
-     "ar": "عملاقا الدفاع التركيان أسيلسان وراوكتسان يوقعان صفقة بأكثر من مليار يورو",
-     "ru": "Турецкие оборонные гиганты ASELSAN и ROKETSAN заключили сделки на миллиард евро"
-    },
-    "change_pct": -1.71,
-    "hit": true,
-    "pnl": -17.1,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "TTWO",
-    "dir": "up",
-    "severity": 4,
-    "cat": "macro",
-    "id": "6d1dffca146a",
-    "title": "השקת GTA VI צפויה להשפיע על תעשיית הגיימינג",
-    "title_i18n": {
-     "he": "השקת GTA VI צפויה להשפיע על תעשיית הגיימינג",
-     "en": "GTA VI launch expected to impact gaming industry",
-     "ar": "إطلاق GTA VI من المتوقع أن يؤثر على صناعة الألعاب",
-     "ru": "Запуск GTA VI ожидается с влиянием на игровую индустрию"
-    },
-    "change_pct": -12.33,
-    "hit": false,
-    "pnl": -123.3,
-    "bench_pnl": -23.0
-   },
-   {
-    "date": "2026-11-17",
-    "ticker": "TSM",
-    "dir": "down",
     "severity": 3,
-    "cat": "geopolitics",
-    "id": "05129a9e1685",
-    "title": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
+    "cat": "cyber",
+    "id": "423b18b410df",
+    "title": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
     "title_i18n": {
-     "he": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
-     "en": "Czech Think Tank Simulates Chinese Blockade of Taiwan",
-     "ar": "مركز أبحاث تشيكي يحاكي حصاراً صينياً لتايوان",
-     "ru": "Чешский аналитический центр смоделировал китайскую блокаду Тайваня"
+     "he": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
+     "en": "United Airlines system outage affects departing flights",
+     "ar": "عطل نظام في يونايتد إيرلاينز يؤثر على الرحلات المغادرة",
+     "ru": "Сбой системы United Airlines влияет на вылетающие рейсы"
     },
-    "change_pct": -5.24,
+    "change_pct": -1.65,
     "hit": true,
-    "pnl": 52.4,
-    "bench_pnl": -23.0
+    "pnl": 16.5,
+    "bench_pnl": -10.8
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "ticker": "TRV",
     "dir": "down",
-    "severity": 6,
+    "severity": 3,
     "cat": "climate",
-    "id": "aa8006750004",
-    "title": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
+    "id": "34909fa13059",
+    "title": "גלים עצומים בקליפורניה עקב תופעת אל ניניو",
     "title_i18n": {
-     "he": "רעידת אדמה עוצמתית בעוצמה 7.4 פקדה את יפן",
-     "en": "Powerful magnitude 7.4 earthquake hits Japan",
-     "ar": "زلزال قوي بقوة 7.4 يضرب اليابان",
-     "ru": "Мощное землетрясение магнитудой 7.4 произошло в Японии"
+     "he": "גלים עצומים בקליפורניה עקב תופעת אל ניניو",
+     "en": "Massive waves hit California due to El Nino",
+     "ar": "أمواج ضخمة تضرب كاليفورنيا بسبب ظاهرة النينيو",
+     "ru": "Огромные волны обрушились на Калифорнию из-за Эль-Ниньо"
     },
-    "change_pct": -2.54,
+    "change_pct": -2.28,
     "hit": true,
-    "pnl": 25.4,
-    "bench_pnl": -23.0
+    "pnl": 22.8,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "TLT",
+    "dir": "down",
+    "severity": 6,
+    "cat": "macro",
+    "id": "e75443a7428e",
+    "title": "חששות מאינפלציה וחוזק הדולר",
+    "title_i18n": {
+     "he": "חששות מאינפלציה וחוזק הדולר",
+     "en": "Inflation concerns and US Dollar strength",
+     "ar": "مخاوف التضخم وقوة الدولار الأمريكي",
+     "ru": "Опасения по поводу инфляции и укрепление доллара США"
+    },
+    "change_pct": 1.17,
+    "hit": false,
+    "pnl": -11.7,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "SPY",
+    "dir": "up",
+    "severity": 4,
+    "cat": "trade",
+    "id": "0a411a5eba4a",
+    "title": "ארה\"ב ותאילנד הגיעו להסכם סחר",
+    "title_i18n": {
+     "he": "ארה\"ב ותאילנד הגיעו להסכם סחר",
+     "en": "US and Thailand Reach Trade Deal",
+     "ar": "الولايات المتحدة وتيلاند تتوصلان إلى اتفاق تجاري",
+     "ru": "США и Таиланд заключили торговое соглашение"
+    },
+    "change_pct": -1.08,
+    "hit": false,
+    "pnl": -10.8,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "SPY",
+    "dir": "down",
+    "severity": 8,
+    "cat": "macro",
+    "id": "d7a753325493",
+    "title": "בכיר הפד מזהיר מפני העלאות ריבית נוספות",
+    "title_i18n": {
+     "he": "בכיר הפד מזהיר מפני העלאות ריבית נוספות",
+     "en": "Fed Official Warns of Further Rate Hikes",
+     "ar": "مسؤول الفيدرالي يحذر من المزيد من رفع أسعار الفائدة",
+     "ru": "Чиновник ФРС предупреждает о возможном повышении ставок"
+    },
+    "change_pct": -1.08,
+    "hit": true,
+    "pnl": 10.8,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "SMH",
+    "dir": "down",
+    "severity": 8,
+    "cat": "trade",
+    "id": "faf1fcebe553",
+    "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
+    "title_i18n": {
+     "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+     "en": "US restricts China's access to AI chips",
+     "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+     "ru": "США ограничивают доступ Китая к чипам ИИ"
+    },
+    "change_pct": -1.51,
+    "hit": true,
+    "pnl": 15.1,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "RTX",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "62cada07545d",
+    "title": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+    "title_i18n": {
+     "he": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+     "en": "US Arms Sales: Taiwan and Senate Defense Bill",
+     "ar": "مبيعات الأسلحة الأمريكية: تايوان ومشروع قانون الدفاع",
+     "ru": "Оружейные сделки США: Тайвань и оборонный законопроект"
+    },
+    "change_pct": 1.86,
+    "hit": true,
+    "pnl": 18.6,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "QQQ",
+    "dir": "down",
+    "severity": 7,
+    "cat": "cyber",
+    "id": "e2b2d02df11c",
+    "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
+    "title_i18n": {
+     "he": "מתקפת סייבר רחבת היקף על 178 אתרים",
+     "en": "Massive cyberattack targets 178 websites",
+     "ar": "هجوم سيبراني واسع النطاق يستهدف 178 موقعاً إلكترونياً",
+     "ru": "Масштабная кибератака на 178 веб-сайтов"
+    },
+    "change_pct": -0.53,
+    "hit": false,
+    "pnl": 5.3,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "QQQ",
+    "dir": "up",
+    "severity": 3,
+    "cat": "macro",
+    "id": "3814d1e6b777",
+    "title": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+    "title_i18n": {
+     "he": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+     "en": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+     "ar": "جيم كريمر: تغييرات الإدارة في نيفيديا لن توقف طفرة الذكاء الاصطناعي",
+     "ru": "Джим Краймер: кадровые перестановки в Nvidia не остановят бум ИИ"
+    },
+    "change_pct": -0.53,
+    "hit": true,
+    "pnl": -5.3,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "NVDA",
+    "dir": "down",
+    "severity": 8,
+    "cat": "trade",
+    "id": "faf1fcebe553",
+    "title": "ארה\"ב מגבילה גישת סין לשבבי AI",
+    "title_i18n": {
+     "he": "ארה\"ב מגבילה גישת סין לשבבי AI",
+     "en": "US restricts China's access to AI chips",
+     "ar": "الولايات المتحدة تقيد وصول الصين إلى رقائق الذكاء الاصطناعي",
+     "ru": "США ограничивают доступ Китая к чипам ИИ"
+    },
+    "change_pct": -3.85,
+    "hit": true,
+    "pnl": 38.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "NVDA",
+    "dir": "up",
+    "severity": 3,
+    "cat": "macro",
+    "id": "3814d1e6b777",
+    "title": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+    "title_i18n": {
+     "he": "ג'ים קריימר: שינויי ההנהגה באנבידיה לא יבלמו את תחום הבינה המלאכותית",
+     "en": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
+     "ar": "جيم كريمر: تغييرات الإدارة في نيفيديا لن توقف طفرة الذكاء الاصطناعي",
+     "ru": "Джим Краймер: кадровые перестановки в Nvidia не остановят бум ИИ"
+    },
+    "change_pct": -3.85,
+    "hit": false,
+    "pnl": -38.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "LMT",
+    "dir": "up",
+    "severity": 7,
+    "cat": "contracts",
+    "id": "62cada07545d",
+    "title": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+    "title_i18n": {
+     "he": "עסקאות נשק אמריקאיות: טאיוואן והקונגרס",
+     "en": "US Arms Sales: Taiwan and Senate Defense Bill",
+     "ar": "مبيعات الأسلحة الأمريكية: تايوان ومشروع قانون الدفاع",
+     "ru": "Оружейные сделки США: Тайвань и оборонный законопроект"
+    },
+    "change_pct": -1.19,
+    "hit": false,
+    "pnl": -11.9,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "LHX",
+    "dir": "up",
+    "severity": 5,
+    "cat": "cyber",
+    "id": "6edea0874d61",
+    "title": "תקלה ברשת התקשורת של ה-NSA",
+    "title_i18n": {
+     "he": "תקלה ברשת התקשורת של ה-NSA",
+     "en": "NSA network outage",
+     "ar": "عطل في شبكة اتصالات وكالة الأمن القومي",
+     "ru": "Сбой в сети АНБ"
+    },
+    "change_pct": -2.31,
+    "hit": false,
+    "pnl": -23.1,
+    "bench_pnl": -4.1
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "JPM",
+    "dir": "down",
+    "severity": 3,
+    "cat": "cyber",
+    "id": "324514858e59",
+    "title": "תקלת תוכנה זמנית ב-JPMorgan Chase משפיעה על הבנקאות הקמעונאית",
+    "title_i18n": {
+     "he": "תקלת תוכנה זמנית ב-JPMorgan Chase משפיעה על הבנקאות הקמעונאית",
+     "en": "Temporary software bug affects JPMorgan Chase consumer banking",
+     "ar": "خلل برمجوي مؤقت في جيه بي مورغان تشيس يؤثر على الخدمات المصرفية للأفراد",
+     "ru": "Временный программный сбой в JPMorgan Chase затрагивает розничный банкинг"
+    },
+    "change_pct": -2.84,
+    "hit": true,
+    "pnl": 28.4,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "JETS",
+    "dir": "down",
+    "severity": 3,
+    "cat": "cyber",
+    "id": "423b18b410df",
+    "title": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
+    "title_i18n": {
+     "he": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
+     "en": "United Airlines system outage affects departing flights",
+     "ar": "عطل نظام في يونايتد إيرلاينز يؤثر على الرحلات المغادرة",
+     "ru": "Сбой системы United Airlines влияет на вылетающие рейсы"
+    },
+    "change_pct": -0.55,
+    "hit": false,
+    "pnl": 5.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "JETS",
+    "dir": "up",
+    "severity": 6,
+    "cat": "policy",
+    "id": "40829c970c8b",
+    "title": "קריאה למימון פדרלי של 50 מיליארד דולר למערכות ה-FAA",
+    "title_i18n": {
+     "he": "קריאה למימון פדרלי של 50 מיליארד דולר למערכות ה-FAA",
+     "en": "Call for $50B Federal Funding for FAA Systems",
+     "ar": "دعوة لتمويل فيدرالي بقيمة 50 مليار دولار لأنظمة الطيران",
+     "ru": "Призыв к федеральному финансированию систем FAA на $50 млрд"
+    },
+    "change_pct": -0.55,
+    "hit": true,
+    "pnl": -5.5,
+    "bench_pnl": -10.8
+   },
+   {
+    "date": "2026-11-18",
+    "ticker": "ITA",
+    "dir": "down",
+    "severity": 6,
+    "cat": "geopolitics",
+    "id": "efbd2eba7849",
+    "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+    "title_i18n": {
+     "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
+     "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
+     "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
+     "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
+    },
+    "change_pct": 0.06,
+    "hit": false,
+    "pnl": -0.6,
+    "bench_pnl": -10.8
    }
   ]
  }
