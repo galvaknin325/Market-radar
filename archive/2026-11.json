@@ -106999,6 +106999,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS3hZU0hZS0JhaFdLbm93dGRFSHRKRjBROUhDRXg0ZUdiVll3TTNUaW0wU2hXMDZaSTR4dTBWUTRqM2ZEZFNVMVNJQVM5enNQUGc3d284SjFxTHlGckEwM2lIM3p5d0UtSkU4ZjMzMnJDQXE3RWRVNEZEQTljRkROcFVULXNySlhRX3RDLVpSZVZ2cDA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORlNVOXF5UjktaEJ0R2tUUlBIVllBZEZmUHJmY3d4blBiYlYwYjQ1N2d3UVY5dExhdUpIcWE5UklBSE96T2ptcDFjUDVRTzg0SHJmeXFpV2ZycnZBUXZiY2VsMDdTb0JRbThOS3pSWlJsRjBuQngxYVJYYnJLa1cwcnF4ejFYRnV5a3hWVkN2bWYwMWlybWxnRk5kSzI?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzBxRlVJT3FOMmMwWWxZQVlCdDVVRVFDazdFNVdla2JFZnpsT1ZJTVZwZ0dfd2JEQlRDc0haWnlWRzlaQ0hkaDlab2dqMGpNclQ1MHgyYU5jZjRtLTlwS1Vub01BUFVpVW1qcWN2VFQya204UGc0R0ZqaDVHeV9zaUcyTkxLM3dpeWdPM2NUc3ZLYmZRLTNTZlZyNkNpazg?oc=5"
    }
   ],
   "impacts": [
@@ -107050,6 +107058,25 @@
      "ru": "ETF здравоохранения"
     },
     "price_at_alert": 187.69
+   },
+   {
+    "ticker": "DAL",
+    "direction": "down",
+    "t0": 1795004853,
+    "reason": "חשש מבעיות בריאותיות ופגיעה אפשרית בסנטימנט הנסיעות.",
+    "reason_i18n": {
+     "he": "חשש מבעיות בריאותיות ופגיעה אפשרית בסנטימנט הנסיעות.",
+     "en": "Fears over public health outbreaks dampening consumer travel sentiment.",
+     "ar": "مخاوف صحية تؤثر على معنويات السفر.",
+     "ru": "Опасения по поводу вспышек заболеваний снижают интерес к поездкам."
+    },
+    "name_i18n": {
+     "he": "DAL - דלתא איירליינס",
+     "en": "DAL - Delta Air Lines",
+     "ar": "DAL - دلتا للطيران",
+     "ru": "DAL - Delta Air Lines"
+    },
+    "price_at_alert": 84.3
    }
   ],
   "id": "8cbb8a93b1b0",
@@ -107089,9 +107116,21 @@
      "ar": "فقدت الولايات المتحدة وضع القضاء على الحصبة وسط أسوأ تفشي منذ عقود وتأكيد إصابات جديدة في ميشيغان.",
      "ru": "США потеряли статус страны, свободной от кори, на фоне сильнейшей вспышки за десятилетия и новых случаев в Мичигане."
     }
+   },
+   {
+    "ts": 1795004853,
+    "time": "2026-11-18T12:27Z",
+    "severity": 4,
+    "summary": "רשויות הבריאות בארה\"ב אישרו כי המדינה איבדה את מעמדה כחופשית מחצבת בעקבות גל ההתפרצות החמור ביותר ב-35 השנים האחרונות, במקביל למחלה המונית בקרב למעשה מאה נוסעים בספינת תענוגות מפלורידה.",
+    "i18n": {
+     "he": "רשויות הבריאות בארה\"ב אישרו כי המדינה איבדה את מעמדה כחופשית מחצבת בעקבות גל ההתפרצות החמור ביותר ב-35 השנים האחרונות, במקביל למחלה המונית בקרב למעשה מאה נוסעים בספינת תענוגות מפלורידה.",
+     "en": "The US lost its measles-free status amid the worst outbreak in 35 years, while over 100 passengers fell ill on a Princess cruise ship sailing from Florida.",
+     "ar": "فقدت الولايات المتحدة وضع خلوها من الحصبة وسط تفشي واسع، إلى جانب إصابة ركاب سفينة سياحية.",
+     "ru": "США потеряли статус страны, свободной от кори, на фоне худшей вспышки за 35 лет, а также вспышки болезни на круизном лайнере."
+    }
    }
   ],
-  "last_update": 1794958510
+  "last_update": 1795004853
  },
  {
   "ts": 1794855205,
@@ -110626,9 +110665,18 @@
    }
   },
   "category": "contracts",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4tSUN6cm5lOGlHUEszTnFKcGNXb1cyOUNtQUs0cER2cDJQZXd2bzdFWC1XakU0azZIRVZHNHpHOG9HcXpfOXFiaUpwY1RQeU5xSTQtZzd4RXBBMHNsbVVqR2lIOA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWGlkcGhFLV90S2J4cEtLOHBvZ2FsMExqY0hJaEMzSWlXS3dYMDBob3VPdkxSNHNXT0IwSHdOR2R1RmRsR1k0WndXOGlCTmp0Y2Y5VEp1UXE5YmRNQzFnSEQ5NHI5Wm95YVZNQ19KNGFVTWFqamJ1U2ItWWpXMFFSZmFpRk5hZ1RuQjJyMVZQV2FhV2dVSVVJXy13RUhKci1kRDBURWlsTklMaVhRTVA0Y2RPX1oyeHhLeTdSVnRXd0hjM2pFOTdRMS1QOUtzMmY3YVE?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "RTX",
@@ -110667,9 +110715,43 @@
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 69.75
+   },
+   {
+    "ticker": "NOC",
+    "direction": "up",
+    "t0": 1795004853,
+    "reason": "זכייה בחוזה ממשלתי רב-מיליארדי להרחבת קווי ייצור טילי פטריוט.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ממשלתי רב-מיליארדי להרחבת קווי ייצור טילי פטריוט.",
+     "en": "Securing a massive multi-billion defense production expansion deal.",
+     "ar": "الفوز بعقد دفاعي ضخم لتوسيع إنتاج الصواريخ.",
+     "ru": "Получение крупного оборонного контракта на расширение производства."
+    },
+    "name_i18n": {
+     "he": "NOC - נורת'רופ גראמן",
+     "en": "NOC - Northrop Grumman",
+     "ar": "NOC - نورثروب غرومان",
+     "ru": "NOC - Northrop Grumman"
+    },
+    "price_at_alert": 553.26
    }
   ],
-  "id": "baea3218a8aa"
+  "id": "baea3218a8aa",
+  "updates": [
+   {
+    "ts": 1795004853,
+    "time": "2026-11-18T12:27Z",
+    "severity": 6,
+    "summary": "צבא ארה\"ב העניק לנורת'רופ גראמן חוזה בסך 1.6 מיליארד דולר להרחבת ייצור מנועי טילי פטריוט PAC-3 MSE, זאת למרות חששות ממחסור חמור בחומרי גלם (רยון).",
+    "i18n": {
+     "he": "צבא ארה\"ב העניק לנורת'רופ גראמן חוזה בסך 1.6 מיליארד דולר להרחבת ייצור מנועי טילי פטריוט PAC-3 MSE, זאת למרות חששות ממחסור חמור בחומרי גלם (רยון).",
+     "en": "The US Army awarded Northrop Grumman a $1.6 billion contract to expand PAC-3 MSE rocket motor production, though reports highlight critical rayon shortages threatening output.",
+     "ar": "الجيش الأمريكي يعاقد نورثروب غرومان بـ 1.6 مليار دولار لتوسيع إنتاج صواريخ باتريوت.",
+     "ru": "Армия США выделила Northrop Grumman $1.6 млрд на расширение производства двигателей для ракет Patriot."
+    }
+   }
+  ],
+  "last_update": 1795004853
  },
  {
   "ts": 1794908105,
@@ -112977,12 +113059,20 @@
    }
   },
   "category": "commodities",
-  "severity": 5,
+  "severity": 8,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQUlBRjZkMWM4RnROTnRIeGhjYjZNUjdUUFhmTnY1V1pzckxndE9aTGZ4aWVhWl9GTkwxNW1oNlJ4S3FmSzR2RGpSU1Z1RVdrQmpQNFlZVlU1T1dOSU9LdmtuamxLS2Fvc1NXaFZMMjV1VmVPSTVWa1phWmUwRkJaekhjXzJ2WEZ3cFowSlNsM215Z1VLYWk0clYzejlyeXNFYXc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEdIdHNNV1pQbXI3cGF4ak83d3dZVDNpdHJFT0xZeDUwVmROUHlPVFJnUVA4MWxmYVR1QmFOU2VBMW5BWUhuYzg5bjVFQ2pkWGIxeXpIeXhKWTdJTWhmT3U0WHVFZnpiOFNNTW1rdV9xMllNQ1Jobm9oZENyZzBxY0VFQnJSOExPcllFQkd2a1pqbWhlb2s2ZE5n?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html"
    }
   ],
   "impacts": [
@@ -113023,9 +113113,62 @@
      "ru": "Chevron – крупная нефтяная компания"
     },
     "price_at_alert": 216.13
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795004853,
+    "reason": "שיבושים בנתיבי אספקת נפט מרכזיים מקפיצים את פרמיית הסיכון.",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי אספקת נפט מרכזיים מקפיצים את פרמיית הסיכון.",
+     "en": "Disruptions in critical oil transport chokepoints drive up risk premiums.",
+     "ar": "اضطرابات طرق نقل النفط ترفع علاوة المخاطر.",
+     "ru": "Сбои в ключевых точках транспортировки нефти повышают риски."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الأمريكي",
+     "ru": "USO - Нефтяной фонд США"
+    },
+    "price_at_alert": 140.24
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795004853,
+    "reason": "מחירי אנרגיה עולים מחזקים את רווחי חברות הנפט הגדולות.",
+    "reason_i18n": {
+     "he": "מחירי אנרגיה עולים מחזקים את רווחי חברות הנפט הגדולות.",
+     "en": "Higher crude prices boost revenues for major energy producers.",
+     "ar": "ارتفاع أسعار الخام يدعم أرباح شركات الطاقة.",
+     "ru": "Рост цен на нефть поддерживает доходы энергетических гигантов."
+    },
+    "name_i18n": {
+     "he": "XOM - אקסון מוביל",
+     "en": "XOM - Exxon Mobil",
+     "ar": "XOM - إكسون موبيل",
+     "ru": "XOM - Exxon Mobil"
+    },
+    "price_at_alert": 167.21
    }
   ],
-  "id": "490f065c46ed"
+  "id": "490f065c46ed",
+  "updates": [
+   {
+    "ts": 1795004853,
+    "time": "2026-11-18T12:27Z",
+    "severity": 8,
+    "summary": "גורמי ביטחון דיווחו כי מכלית נפט נפגעה מטיל במצרי הורמוז, בעוד מנכ\"ל סוכנות האנרגיה הבינלאומית (IEA) הזהיר כי אמון השוק בנתיב האנרגיה נהרס.",
+    "i18n": {
+     "he": "גורמי ביטחון דיווחו כי מכלית נפט נפגעה מטיל במצרי הורמוז, בעוד מנכ\"ל סוכנות האנרגיה הבינלאומית (IEA) הזהיר כי אמון השוק בנתיב האנרגיה נהרס.",
+     "en": "UKMTO reported an oil tanker was hit by a missile in the Strait of Hormuz, while the IEA chief warned confidence in the critical energy corridor has been crushed.",
+     "ar": "أفادت تقارير بتعرض ناقلة نفط لصاروخ في مضيق هرمز وسط تحذيرات طاقة دولية.",
+     "ru": "Сообщается о попадании ракеты в нефтяной танкер в Ормузском проливе, глава МЭА предупредил о подрыве доверия к коридору."
+    }
+   }
+  ],
+  "last_update": 1795004853
  },
  {
   "ts": 1794962152,
@@ -114605,5 +114748,156 @@
    }
   ],
   "id": "d14b55540eb5"
+ },
+ {
+  "ts": 1795004853,
+  "time": "2026-11-18T12:27Z",
+  "title": "טראמפ נפגש בסין עם שי ופוטין לשיחות היסטוריות",
+  "summary": "נשיא ארצות הברית דונלד טראמפ הגיע לשנג'ן לפגישה משולשת היסטורית עם מנהיג סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין, שבה ביקורו מנהיגים את הפרוטקציוניזם המערבי והסנקציות.",
+  "kid": "נשיא ארה\"ב נפגש עם מנהיגי סין ורוסיה כדי לדבר על סחר וכלכלה. זה יכול להשפיע על מחירי המניות והסחר העולמי.",
+  "i18n": {
+   "title": {
+    "he": "טראמפ נפגש בסין עם שי ופוטין לשיחות היסטוריות",
+    "en": "Trump arrives in China for historic meeting with Xi and Putin",
+    "ar": "ترامب يصل إلى الصين لعقد اجتماع تاريخي مع شي بوتين",
+    "ru": "Трамп прибыл в Китай для исторической встречи с Си и Путиным"
+   },
+   "summary": {
+    "he": "נשיא ארצות הברית דונלד טראמפ הגיע לשנג'ן לפגישה משולשת היסטורית עם מנהיג סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין, שבה ביקורו מנהיגים את הפרוטקציוניזם המערבי והסנקציות.",
+    "en": "US President Donald Trump arrived in Shenzhen for historic trilateral talks with Chinese leader Xi Jinping and Russia's Vladimir Putin, where leaders slammed Western protectionism and sanctions.",
+    "ar": "وصل الرئيس الأمريكي دونالد ترامب إلى شنتشن لإجراء محادثات ثلاثية تاريخية مع الزعيم الصيني شي جين بينغ والرئيس الروسي فلاديمير بوتين.",
+    "ru": "Президент США Дональд Трамп прибыл в Шэньчжэнь для исторических трехсторонних переговоров с лидером Китая Си Цзиньпином и президентом России Владимиром Путиным."
+   },
+   "kid": {
+    "he": "נשיא ארה\"ב נפגש עם מנהיגי סין ורוסיה כדי לדבר על סחר וכלכלה. זה יכול להשפיע על מחירי המניות והסחר העולמי.",
+    "en": "The US President is meeting leaders of China and Russia to talk about trade and politics. This could make stock markets go up or down based on new deals or arguments.",
+    "ar": "التقى الرئيس الأمريكي بزعماء الصين وروسيا للحديث عن التجارة. هذا قد يغير أسعار الأسهم عالمياً.",
+    "ru": "Президент США встретился с лидерами Китая и России для обсуждения торговли. Это может повлиять на акции и мировую экономику."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT2VERzFMSTY1ZTBqRXlES1NDQnRINENIOVlmQlFXekg4c2dQTVJfa21OU3FxTDVYam4zdVhOVUdGMVptRDUweDZWSWRLQW4ya2Vob3RRbDVGN3NoQl9UcU9hNkpxTkM1dy1kWngybUoxNFlTMFRKdklhZEkxcnR1N1BwQjRPMk5LRDFzR2dpQkctVzZ0ZDJPVkIwRGVKNDduQXN5YXMxb1pzVHNtZ0FiMk9QdFc5MXd5Z2FEQUVkd0dkbzVEUWM40gHOAUFVX3lxTE1IOFVjSWg2cFNlWFFtM2paNzRXRWwyenE1SVpaaVgtVHhTa2YxWDhkbHhwNGJhSmZyVEhjSnQxZ0ZlTFBKVUw2S1JNM0FXZ1FuM1FDZC1kSEwzd2ZMR3Z3V1lNQ3lDUGVuR0ZQWmlFTUJJa0tYNkhvQUFxaFRGRnNSWnNvbW0wZkFVdklNNGZYNGdrVFBiN0RCSGxNTWZXbHIzLTFiOWxSOUphQ0Jsb3d4ME50aWtwRzllYU1BWGN0dHl2eC1CX3hLRmZfakNB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdmh5Q2l5LWRMZXlrQ0U3R3NXRnBkSWh5ZG8zLXhkTzFiOEFRZ3BRdDcxX2ZKSTJhMVY1UDREdy1Dem9jcGUzZTRYSlB3T254QkhXX3BYTVdUNGhkTi1mQjlPQzZDNHd2TkZUd0VFNjFERlJLeWtGb2ZCRnNBSkZ1WTgxN0cza3NtRXFZcGJvTkhKUWhyMThSamlzYU5fVURzZjF2b3ZuQUEybFZyV3ZOVGZ1SUh0cTVUSHdjWGZ3eXVhWi1QdEp0WjB0WXB1bjJlenV4SG1WRlI1SWR5UDlpSS1hakpQNXZGWEpjNDl1R3A0a05zUnI0NDFyWmpuc3ZhSlHSAYcCQVVfeXFMT1o2dzJjWlFRYVhmN1hJeDRGdFhodzhkSnlMUjBReEM5dGJRYkZGRl9XdzFRNGpHT091djcxRDAzb2JBWERyVVZNZXZxQ0NaVGZaUURHd1lfaUtMbWpBeDY5X2UwQWVPbGZieUFMeTFRSHFMeGE5Z3cxbVFINTk0ZWpySGdPcDMtTlpPSXo2Rk9ua0JVZk5oQ2dNRjhnci1MelJPeEdGVGtCZzJQNzFMM3JzaVhBc0JpSVRJUHBQcjNjUTBKQy1HLU90dG5ja0VEc3F5NDJIN3FKN3VzcFh5dDkxcTJUR3dqaGhTYmpfZkNNdnFaM21qV1FTbXZtdllmNDNRMmJ0S1k?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795004853,
+    "reason": "חששות מוגברים ממתחי גיאופוליטיקה וצעדי סחר מנוגדים בין מעצמות.",
+    "reason_i18n": {
+     "he": "חששות מוגברים ממתחי גיאופוליטיקה וצעדי סחר מנוגדים בין מעצמות.",
+     "en": "Heightened geopolitical tensions and protectionist rhetoric between major powers.",
+     "ar": "زيادة التوترات الجيوسياسية بين القوى الكبرى.",
+     "ru": "Рост геополитической напряженности между великими державами."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
+     "ru": "SPY - ETF индекса S&P 500"
+    },
+    "price_at_alert": 732.44
+   },
+   {
+    "ticker": "FXI",
+    "direction": "up",
+    "t0": 1795004853,
+    "reason": "מפגש פסגה גבוה עשוי לרמוז על הפשרת יחסים או הסכמי סחר עתידיים.",
+    "reason_i18n": {
+     "he": "מפגש פסגה גבוה עשוי לרמוז על הפשרת יחסים או הסכמי סחר עתידיים.",
+     "en": "High-level summit could hint at potential thaw or trade agreements.",
+     "ar": "القمة رفيعة المستوى قد تلمح إلى اتفاقيات تجارية.",
+     "ru": "Саммит высокого уровня может намекать на торговые соглашения."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות ענק סיניות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق الأسهم الصينية الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 32.88
+   }
+  ],
+  "id": "53a46843adcf"
+ },
+ {
+  "ts": 1795004853,
+  "time": "2026-11-18T12:27Z",
+  "title": "אזהרות שיטפון חמורות וגשמים עזים פוקדים את פלורידה",
+  "summary": "עד 12 אינץ' של גשם צפויים לרדת לכל אורך החוף המזרחי של פלורידה, כשהם יוצרים הצפות קשות בכבישים, חניונים ובאזורים שונים במיאמי-דייד ומעלים חששות להפרעות בפארקי שעשועים.",
+  "kid": "גשמים כבדים ושיטפונות פוקדים את פלורידה וגורמים לחסימת כבישים. זה עשוי להשפיע מקומית על חברות ביטוח ועסקים באזור.",
+  "i18n": {
+   "title": {
+    "he": "אזהרות שיטפון חמורות וגשמים עזים פוקדים את פלורידה",
+    "en": "Heavy rains and severe flood warnings threaten Florida's East Coast",
+    "ar": "أمطار غزيرة وتحذيرات من الفيضانات تضرب ساحل فلوريدا",
+    "ru": "Сильные дожди и предупреждения о наводнениях угрожают Флориде"
+   },
+   "summary": {
+    "he": "עד 12 אינץ' של גשם צפויים לרדת לכל אורך החוף המזרחי של פלורידה, כשהם יוצרים הצפות קשות בכבישים, חניונים ובאזורים שונים במיאמי-דייד ומעלים חששות להפרעות בפארקי שעשועים.",
+    "en": "Up to 12 inches of rain threaten Florida's East Coast, prompting flood watches, severe street flooding in Miami-Dade, and potential disruptions for theme parks.",
+    "ar": "تهدد أمطار غزيرة تصل إلى 12 بوصة ساحل فلوريدا الشرقي مع فيضانات في الشوارع.",
+    "ru": "До 12 дюймов осадков угрожают восточному побережью Флориды, вызывая наводнения в Майами."
+   },
+   "kid": {
+    "he": "גשמים כבדים ושיטפונות פוקדים את פלורידה וגורמים לחסימת כבישים. זה עשוי להשפיע מקומית על חברות ביטוח ועסקים באזור.",
+    "en": "Heavy storms and floods are hitting parts of Florida, causing water damage and travel delays. This can create localized impacts for insurance and local businesses.",
+    "ar": "عواصف وفيضانات تضرب أجزاء من فلوريدا. هذا قد يؤثر على شركات التأمين المحلية.",
+    "ru": "Сильные штормы и наводнения во Флориде могут повлиять на местные компании и страховщиков."
+   }
+  },
+  "category": null,
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM21idUE4cUJ2M3JEZlJyVms4QkFhU1F0SUdPZDUwVHk3bXRpZzlYbjhLM0FiYzFCa3NGY2wtVjhFOEhFeVg2TFNYV2RTcGc3YmlGYS03a1RZQXMyUk0zTjQzeVQ3ems5YnZ3bVJHSFpvbnNGN1Z1LWMxR2dZZVRmdWNDcUlzTEVkTGh1VFN4SlhpdFVmSzlTdUFR?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTHJaRWpKMHo4cGRsbWJycDdsSEdJenl5Ykp3VGJfOXdHY2s2cWFFUzJlQzR5R0xZZnMzMVdnQWxlSVVPUjJZcllXOEk5OHVNa3JKZDFxNTNHci1vTVphYVJLVmhlSDlUdk1xYWY2S19EanNFanFjQks0M0I5YjJFUHh6Q2Zid3RVbEk2d3g3SlFTT3ppTUFabmZneWlJSldf?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdVVtS1NmQk1VMHFEMDV3V29tbS0zaUVuS3QxVTNYX3cyaF9QTU8tY2JLeU5RSGs5ekt2TzRPV01sWnpESDlmQS16c0tScFJhQnVuR1c3bVhrbGV6R2MwMVYtc3pUN3NoTjZFN1owTFVnMmV3QmpUdFZCaDAwSUxmN19YQnpRQ2JHRDBiMzdIX004TVBDZTNvNGszZ21uTUtDMi1FMnNWcGYzMnNTb09MeDVNYkJSNlZta1p3Qk9nckl3T0FJZDRJMzVIVUlEWFpyeS0wbXJmWWp4WWpOeHduVkpjbzNPNGdoMng4SDd5WDVGUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795004853,
+    "reason": "תביעות ביטוח נזקי רכוש פוטנציאליות עקב הצפות נרחבות בפלורידה.",
+    "reason_i18n": {
+     "he": "תביעות ביטוח נזקי רכוש פוטנציאליות עקב הצפות נרחבות בפלורידה.",
+     "en": "Potential property damage claims stemming from severe coastal flooding.",
+     "ar": "مطالبات محتملة لأضرار ممتلكات بسبب الفيضانات الساحلية.",
+     "ru": "Потенциальные иски о возмещении ущерба из-за наводнений."
+    },
+    "name_i18n": {
+     "he": "ALL - אולסטייט",
+     "en": "ALL - Allstate",
+     "ar": "ALL - أולستيت",
+     "ru": "ALL - Allstate"
+    },
+    "price_at_alert": 270.43
+   }
+  ],
+  "id": "234e75860fd4"
  }
 ]
