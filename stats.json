@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T19:36Z",
+ "generated": "2026-11-18T20:38Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1105,
+ "total_alerts": 1107,
  "overall": {
   "n": 741,
   "hits": 370,
@@ -738,14 +738,14 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 22,
+   "mentions": 23,
    "n": 21,
    "hits": 10,
    "name": {
-    "he": "קרן סל חיטה",
-    "en": "Teucrium Wheat Fund",
-    "ar": "صندوق القمح",
-    "ru": "Фонд пшеницы"
+    "he": "חיטה",
+    "en": "Wheat",
+    "ar": "القمح",
+    "ru": "Пшеница"
    },
    "avg_edge": 0.31
   },
@@ -1398,7 +1398,7 @@
    "avg_edge": -2.88
   },
   "GM": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 1,
    "hits": 1,
    "name": {
@@ -1694,6 +1694,18 @@
     "en": "Target",
     "ar": "تارجت",
     "ru": "Target"
+   },
+   "avg_edge": null
+  },
+  "CORN": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "תירס",
+    "en": "Corn",
+    "ar": "الذرة",
+    "ru": "Кукуруза"
    },
    "avg_edge": null
   }
