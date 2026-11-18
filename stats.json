@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T03:54Z",
+ "generated": "2026-11-18T04:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1069,
+ "total_alerts": 1074,
  "overall": {
   "n": 740,
   "hits": 369,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 123,
+   "mentions": 124,
    "n": 117,
    "hits": 60,
    "name": {
-    "he": "קרן סל על מחיר הנפט",
-    "en": "Oil Price ETF",
-    "ar": "صندوق سعر النفط",
-    "ru": "ETF на цену нефти"
+    "he": "USO - קרן מחירי הנפט הגולמי",
+    "en": "USO - Crude Oil ETF",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO - ETF на сырую нефть"
    },
    "avg_edge": -0.12
   },
   "XLE": {
-   "mentions": 106,
+   "mentions": 107,
    "n": 98,
    "hits": 59,
    "name": {
-    "he": "XLE – תעודת סל סקטור האנרגיה",
-    "en": "XLE – Energy Select Sector SPDR Fund",
-    "ar": "XLE – صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "he": "XLE - מגזר האנרגיה",
+    "en": "XLE - Energy Sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE - ETF энергетического сектора"
    },
    "avg_edge": -0.11
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 184,
+   "mentions": 185,
    "n": 172,
    "hits": 106,
    "name": {
-    "he": "קרן סל של תעשיות ביטחוניות",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق قطاع الفضاء والدفاع",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "he": "ITA - קרן סל תעופה וביטחון",
+    "en": "ITA - Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الفضاء والدفاع",
+    "ru": "ITA - ETF аэрокосмического и оборонного секторов"
    },
    "avg_edge": -1.16
   },
@@ -210,14 +210,14 @@
    "avg_edge": 0.26
   },
   "NVDA": {
-   "mentions": 59,
+   "mentions": 60,
    "n": 53,
    "hits": 25,
    "name": {
-    "he": "אנבידיה - חברת שבבי בינה מלאכותית",
-    "en": "Nvidia - an AI chip company",
-    "ar": "إنفيديا - شركة رقائق ذكاء اصطناعي",
-    "ru": "Nvidia - компания по производству чипов ИИ"
+    "he": "אנבידיה - ענקית שבבי בינה מלאכותית",
+    "en": "Nvidia - AI Chip Giant",
+    "ar": "إنفيديا - عملاق رقائق الذكاء الاصطناعي",
+    "ru": "Nvidia - гигант чипов искусственного интеллекта"
    },
    "avg_edge": 0.48
   },
@@ -750,14 +750,14 @@
    "avg_edge": 0.31
   },
   "EWJ": {
-   "mentions": 22,
+   "mentions": 23,
    "n": 21,
    "hits": 5,
    "name": {
-    "he": "EWJ – תעודת סל מניות יפן",
-    "en": "EWJ – iShares MSCI Japan ETF",
-    "ar": "EWJ – صندوق مؤشرات الأسهم اليابانية",
-    "ru": "EWJ – ETF японских акций"
+    "he": "EWJ - קרן סל של מניות יפן",
+    "en": "EWJ - Japan ETF",
+    "ar": "EWJ - صندوق أسهم اليابان",
+    "ru": "EWJ - ETF акций Японии"
    },
    "avg_edge": -0.33
   },
@@ -798,26 +798,26 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 32,
    "hits": 8,
    "name": {
-    "he": "SMH – תעודת סל שבבים",
-    "en": "SMH – VanEck Semiconductor ETF",
-    "ar": "SMH – صندوق قطاع أشباه الموصلات",
-    "ru": "SMH – ETF полупроводников"
+    "he": "SMH - קרן סל של חברות מוליכים למחצה",
+    "en": "SMH - Semiconductor ETF",
+    "ar": "SMH - صندوق قطاع أشباه الموصلات",
+    "ru": "SMH - ETF полупроводниковой отрасли"
    },
    "avg_edge": -0.38
   },
   "BA": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 5,
    "hits": 1,
    "name": {
-    "he": "BA - בואינג (יצרנית מטוסי F-15)",
-    "en": "BA - Boeing (Manufacturer of F-15)",
-    "ar": "BA - بوينغ (الشركة المصنعة لطائرات F-15)",
-    "ru": "BA - Boeing (производитель F-15)"
+    "he": "בואינג - ענקית תעופה וביטחון",
+    "en": "Boeing - Aerospace & Defense Giant",
+    "ar": "بويينغ - عملاق الطيران والدفاع",
+    "ru": "Boeing - аэрокосмический и оборонный гигант"
    },
    "avg_edge": -1.17
   },
@@ -1158,11 +1158,11 @@
    "avg_edge": 0.0
   },
   "FXY": {
-   "mentions": 8,
+   "mentions": 9,
    "n": 8,
    "hits": 3,
    "name": {
-    "he": "FXY - קרן סל על הין היפני",
+    "he": "FXY - קרן סל של הין היפני",
     "en": "FXY - Japanese Yen ETF",
     "ar": "FXY - صندوق الين الياباني",
     "ru": "FXY - ETF японской иены"
@@ -1206,14 +1206,14 @@
    "avg_edge": 1.02
   },
   "EIS": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 8,
    "hits": 8,
    "name": {
-    "he": "קרן סל מניות ישראל",
-    "en": "MSCI Israel ETF",
-    "ar": "صندوق أسهم إسرائيل",
-    "ru": "ETF на акции Израиля"
+    "he": "EIS - קרן סל של שוק המניות בישראל",
+    "en": "EIS - MSCI Israel ETF",
+    "ar": "EIS - صندوق مؤشر إسرائيل",
+    "ru": "EIS - ETF рынка Израиля"
    },
    "avg_edge": 0.81
   },
