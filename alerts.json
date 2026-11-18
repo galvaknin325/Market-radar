@@ -2327,76 +2327,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794420441,
-  "time": "2026-11-11T18:07Z",
-  "title": "חקירת ה-CFTC נגד פלטפורמת החוזים Kalshi",
-  "summary": "ה-CFTC חוקרת האם פלטפורמת החוזים Kalshi אישרה באופן לא תקין חוזי אירועים, לאחר הוראה קודמת להסרת שוקי הימורי ספורט.",
-  "kid": "רגולטורים בודקים אם חברה שמאפשרת להמר על תוצאות של אירועים עשתה זאת לפי החוק.",
-  "i18n": {
-   "title": {
-    "he": "חקירת ה-CFTC נגד פלטפורמת החוזים Kalshi",
-    "en": "CFTC Investigates Kalshi Event Contracts",
-    "ar": "تحقيق لجنة تداول السلع الآجلة في عقود منصة كالشي",
-    "ru": "Расследование CFTC в отношении платформы контрактов Kalshi"
-   },
-   "summary": {
-    "he": "ה-CFTC חוקרת האם פלטפורמת החוזים Kalshi אישרה באופן לא תקין חוזי אירועים, לאחר הוראה קודמת להסרת שוקי הימורי ספורט.",
-    "en": "The CFTC is investigating whether Kalshi improperly self-certified event contracts, following a previous order to remove sports-related markets.",
-    "ar": "تحقق لجنة تداول السلع الآجلة (CFTC) فيما إذا كانت منصة \"كالشي\" قد اعتمدت عقود أحداث بشكل غير صحيح، وذلك بعد أمر سابق بإزالة أسواق المراهنات الرياضية.",
-    "ru": "Комиссия по торговле товарными фьючерсами (CFTC) расследует, правильно ли платформа Kalshi сертифицировала контракты на события, после предыдущего распоряжения об удалении рынков спортивных ставок."
-   },
-   "kid": {
-    "he": "רגולטורים בודקים אם חברה שמאפשרת להמר על תוצאות של אירועים עשתה זאת לפי החוק.",
-    "en": "Regulators are checking if a company that lets people bet on event outcomes followed the rules.",
-    "ar": "يقوم المنظمون بالتحقق مما إذا كانت الشركة التي تسمح للناس بالمراهنة على نتائج الأحداث قد اتبعت القواعد.",
-    "ru": "Регуляторы проверяют, соблюдала ли компания, позволяющая делать ставки на результаты событий, установленные правила."
-   }
-  },
-  "category": "policy",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLF",
-    "direction": "down",
-    "t0": 1794420441,
-    "reason": "הגברת הפיקוח על מסחר בחוזים אלטרנטיביים",
-    "reason_i18n": {
-     "he": "הגברת הפיקוח על מסחר בחוזים אלטרנטיביים",
-     "en": "Increased scrutiny on alternative contract trading",
-     "ar": "زيادة الرقابة على تداول العقود البديلة",
-     "ru": "Усиление контроля за торговлей альтернативными контрактами"
-    },
-    "name_i18n": {
-     "he": "סקטור פיננסי",
-     "en": "Financial sector",
-     "ar": "القطاع المالي",
-     "ru": "Финансовый сектор"
-    },
-    "price_at_alert": 58.405,
-    "entry_price": 58.5,
-    "entry_time": "2026-11-11T18:30+00:00",
-    "exit_price": 58.2,
-    "exit_date": "2026-11-12",
-    "change_pct": -0.51,
-    "bench": "SPY",
-    "bench_change_pct": -0.64,
-    "excess_pct": 0.13,
-    "edge_pct": -0.13,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "b5755967775c",
-  "evaluated": true
- },
- {
   "ts": 1794424604,
   "time": "2026-11-11T19:16Z",
   "title": "שותפות אדאני וקודלקו בתחום הנחושת",
@@ -43990,10 +43920,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4ZDZHRFhpREJENVkxMnRnRklUcjBoTG1BNlhqR1BKUWlyblpScldTbkxoUmg3TExJRUxWdmtuNTZkUXJaZmhwV2VpQVFMX05FT0hOaUZqNXgxcVg1MXBmY0c0SDVOb0lZZnFfVXZB?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uWmtlOWhmakdPaVBRNUxZVlFlTTBtNEwxLVdzNU1MemhFUUJ2M1FzWE4zbUVxZ3otUXJVbjMySUpDWF9kYnJwZC1oSFk4MFRIZEJzUnJR?oc=5"
    },
    {
@@ -44003,6 +43929,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYWEtNTdsUjVXVHVRYzN4b293LTRXblF2V2Jmdm5GY2Y4ZHlYOHREZWxMM0NXSnV3ZlJ2aGNpN0NWTE1ubUtqVjB5V0RlNk9yT3NQNVhoQlBNOVJtMmpkUjNheXBHS2hjRzVTSVVJOXMyZ0xhcWFnOUpoSlRyWEIxbFQ0Z29qU2lhUFRoMUx0cGZHVHZ6UHc?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjlGWXEwc3JyNGlxNVoxYXpaenk4TnFWWllzRDVVQUJldS1NQ293TXJ4MjN5UnpZWlByODlVMGZ6MWdJeFVvdEFvdEc5S2pNemdIekNzTEZ3a2puUXFVLXRIejZHVm84ZWt5Zy1GZTIxd0VDbEVFZFcweU9DZ3JVd08xZVZ1S00?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kdGhPLWlZQmI3UHBaTGRPWVVBREh2cHMtSFZuYkNFRzNiRjh6akNCczJYZ3U1OWNMbzAzZ0l6RE9ISWFHODBOUUxR?oc=5"
    }
   ],
   "impacts": [
@@ -44043,9 +43981,62 @@
      "ru": "Elbit Systems"
     },
     "price_at_alert": 697.51
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795026775,
+    "reason": "חשש מהסלמה במזרח התיכון",
+    "reason_i18n": {
+     "he": "חשש מהסלמה במזרח התיכון",
+     "en": "Fears of escalation in the Middle East",
+     "ar": "مخاوف من التصعيد في الشرق الأوسط",
+     "ru": "Опасения эскалации на Ближнем Востоке"
+    },
+    "name_i18n": {
+     "he": "נפט גולמי",
+     "en": "Crude Oil",
+     "ar": "النفط الخام",
+     "ru": "Сырая нефть"
+    },
+    "price_at_alert": 135.75
+   },
+   {
+    "ticker": "EIS",
+    "direction": "down",
+    "t0": 1795026775,
+    "reason": "חוסר יציבות גיאופוליטית",
+    "reason_i18n": {
+     "he": "חוסר יציבות גיאופוליטית",
+     "en": "Geopolitical instability",
+     "ar": "عدم الاستقرار الجيوسياسي",
+     "ru": "Геополитическая нестабильность"
+    },
+    "name_i18n": {
+     "he": "תעודת סל ישראל",
+     "en": "Israel ETF",
+     "ar": "صندوق استثمار في إسرائيل",
+     "ru": "ETF Израиля"
+    },
+    "price_at_alert": 108.6
    }
   ],
-  "id": "180b0ef0ab51"
+  "id": "180b0ef0ab51",
+  "updates": [
+   {
+    "ts": 1795026775,
+    "time": "2026-11-18T18:32Z",
+    "severity": 6,
+    "summary": "כוחות צה\"ל פתחו במבצע צבאי חדש במרכז רצועת עזה, תוך התקדמות מעבר לקווי הפסקת האש הקודמים.",
+    "i18n": {
+     "he": "כוחות צה\"ל פתחו במבצע צבאי חדש במרכז רצועת עזה, תוך התקדמות מעבר לקווי הפסקת האש הקודמים.",
+     "en": "IDF forces have launched a new military operation in central Gaza, advancing beyond previous ceasefire lines.",
+     "ar": "أطلقت قوات الجيش الإسرائيلي عملية عسكرية جديدة في وسط قطاع غزة، متقدمة إلى ما بعد خطوط وقف إطلاق النار السابقة.",
+     "ru": "Силы ЦАХАЛа начали новую военную операцию в центре сектора Газа, продвинувшись за пределы предыдущих линий прекращения огня."
+    }
+   }
+  ],
+  "last_update": 1795026775
  },
  {
   "ts": 1795020399,
@@ -44304,7 +44295,20 @@
   "category": "commodities",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmc1UkNNZXdEZHFQMEdSQ0had05pX0Vzd0JRVmFGaEh1Rk1FRWMwbDhkS096MkRHOGczUFI2cW5uTEYwUmNITmZsSHphS1JVUFpEQ0J1WHJJSVAtY3FnaVVkWTAyQmtkSGY3ZXhHdld1YUhHV0dwZFRCTFVIOGtQdmhMZ2U5SnlaZ1Bfcnl5VHh2eGk4eEtad2dqcmFnaXBVeHBKSGxfMA?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWFNUZzBxQllwamF0Q0hGQ1NWT2c1TDlKMDlaeVdSTVJid2lXd1JHTTVaeU5uUllrdTVrdEJaY0FOaEVjOHcxTzdCMFExUm9fSHdMcmFtOTVZV1lrQ29fd29DR0RtSzJWLXVGZUZDMjRXeWoyMEVpc1BOYU15ZXhNQ240U3g3TzI2RGhiSExzX04zamFUOENrbnV5YWIyS19LdlRrUGRwQ2QxR3ZwajhIWGRR?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjE1UjFTRXVGa2d4dFZ4NUF1VE9QRmxkUWNNNUtYTzNZcWlWQ3otTkgxRUEyREZTdndBdUE4RzV4Mmk5VThHRGpfUlJQS2ZXS1NXSHBuX3BXaUVpM2Z2aFMxZG5uVTc2bmxxNHBXaGp5RnJ1UzFHdDUtUzVXM0hyZjhDM1hjbVJVNkpheExPd1FtN3hVMkVWLWJKUkVxQXg3QzB4RlBR0gGrAUFVX3lxTE91dzlJMGo0cEFmRm1VbkpNaS0xZmtuT3B6VVdGN01BdG9JazYwNV9PQ0Vxem9WaFBvdXlxNkNXeV9ENllaUXRmb1NsTGI4UXdVNFoxdGc3ZFlIczMwY2hYTk4wZUlPbi12dHpKRUR0d1N0WmQ0MjVGOGkzZTZLbERNc3RrbHJZVHVHQ2FxSEVyNmFoSlk5OWVyZHpBOENfcjZjalFnemVMZWtfNA?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "FCX",
@@ -44343,9 +44347,43 @@
      "ru": "Southern Copper"
     },
     "price_at_alert": 146.26
+   },
+   {
+    "ticker": "SLV",
+    "direction": "down",
+    "t0": 1795026775,
+    "reason": "ירידה במחיר הכסף",
+    "reason_i18n": {
+     "he": "ירידה במחיר הכסף",
+     "en": "Drop in silver price",
+     "ar": "انخفاض سعر الفضة",
+     "ru": "Падение цены на серебро"
+    },
+    "name_i18n": {
+     "he": "תעודת סל כסף",
+     "en": "Silver ETF",
+     "ar": "صندوق استثمار في الفضة",
+     "ru": "ETF серебра"
+    },
+    "price_at_alert": 40.83
    }
   ],
-  "id": "05d4437c0d4b"
+  "id": "05d4437c0d4b",
+  "updates": [
+   {
+    "ts": 1795026775,
+    "time": "2026-11-18T18:32Z",
+    "severity": 5,
+    "summary": "מחירי הנחושת והכסף יורדים עקב התחזקות הדולר וחששות מביקוש עולמי חלש.",
+    "i18n": {
+     "he": "מחירי הנחושת והכסף יורדים עקב התחזקות הדולר וחששות מביקוש עולמי חלש.",
+     "en": "Copper and silver prices are falling due to a stronger dollar and concerns over weak global demand.",
+     "ar": "تنخفض أسعار النحاس والفضة بسبب قوة الدولار والمخاوف بشأن ضعف الطلب العالمي.",
+     "ru": "Цены на медь и серебро падают из-за укрепления доллара и опасений по поводу слабого мирового спроса."
+    }
+   }
+  ],
+  "last_update": 1795026775
  },
  {
   "ts": 1795023738,
@@ -44471,5 +44509,163 @@
    }
   ],
   "id": "2b185896b3da"
+ },
+ {
+  "ts": 1795026775,
+  "time": "2026-11-18T18:32Z",
+  "title": "הודו וישראל חתמו על עסקת שדרוג מערכת ברק",
+  "summary": "הודו חתמה על עסקה בשווי כ-240 מיליון דולר עם ישראל לשדרוג מערכות ההגנה האווירית מסוג ברק של הצי ההודי.",
+  "kid": "הודו קנתה מישראל שדרוגים למערכות הגנה נגד טילים. זה טוב לחברות ביטחוניות ישראליות שעובדות עם ארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "הודו וישראל חתמו על עסקת שדרוג מערכת ברק",
+    "en": "India and Israel sign deal to upgrade Barak missile system",
+    "ar": "الهند وإسرائيل توقعان صفقة لتحديث نظام صواريخ باراك",
+    "ru": "Индия и Израиль подписали сделку по модернизации системы ПРО Барак"
+   },
+   "summary": {
+    "he": "הודו חתמה על עסקה בשווי כ-240 מיליון דולר עם ישראל לשדרוג מערכות ההגנה האווירית מסוג ברק של הצי ההודי.",
+    "en": "India signed a deal worth approximately $240 million with Israel to upgrade the Indian Navy's Barak air defense systems.",
+    "ar": "وقعت الهند صفقة بقيمة 240 مليون دولار تقريباً مع إسرائيل لتحديث أنظمة الدفاع الجوي من طراز باراك التابعة للبحرية الهندية.",
+    "ru": "Индия подписала сделку на сумму около 240 миллионов долларов с Израилем по модернизации систем ПВО Барак ВМС Индии."
+   },
+   "kid": {
+    "he": "הודו קנתה מישראל שדרוגים למערכות הגנה נגד טילים. זה טוב לחברות ביטחוניות ישראליות שעובדות עם ארה\"ב.",
+    "en": "India bought upgrades for its missile defense systems from Israel. This is good news for Israeli defense companies that work with American partners.",
+    "ar": "اشترت الهند ترقيات لأنظمة الدفاع الصاروخي من إسرائيل. هذا خبر جيد لشركات الدفاع الإسرائيلية التي تعمل مع شركاء أمريكيين.",
+    "ru": "Индия купила у Израиля обновления для систем противоракетной обороны. Это хорошие новости для израильских оборонных компаний, работающих с американскими партнерами."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVG10SlpBZVYyT0dpakpQVVdzb1lndHhZQU5ZUE5PcXc4SmZYcUVVVlVDTXNSTm9renJyTHBJdXZ6eTJ0OV8wRlZnS253Y1lPSGZLSTVEWHJDc2owa3JDcVVyQmpUS29sUVdtc1lrQl9Ndl8yQ1I2SDd2VEQ0LVRUaHZXWlpUWnYwVW9fLVVKMFZialEw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMXI1SzBVQllYbXNrSXNqdWItQjE0QXE5NEE0Y1RJbFNvWXlTTDJQZGgwX0V3dng4TDNkY1owM0pUWmxBbnhPamdFQkJfODlYS2M1TWVTMEN4RjFwV1RhQTI0SkRyblZiZHZseWY2N2NkU0ZQLUpmRjdGcnFuVktzSFhadkQ1WjVHclBnUlRQZ015SmtmMXFlTHFMN2tuZVlnRGJFVHJSV2VDcnFaR1VPekE4UDlfRHV1X1BNeFZfWnNtdTNrWWwwaS1XRdIB0AFBVV95cUxPVFM1SDlmelpmcEU2Nko4c0pKeF83R2J5UjJwbnAxZTUyZU1DZUZRdTZCQktRQ1FucFdOUDk3QnhKRk5hMTMxUXZBd2w1WlpfZDZZQmhUb1NfVFZieWVZR3FGS2g3eWJHWVRWTGF5Z01NeFg2U3RaR1g1VGljWjdiekVqdWpIcDFLbnJha3djenptblhUT1NXMG9TM291Uy04ZVA1TTMyMnRJS3d4RXZMQVZVcUxjam56SWpQU3ktREQxT0xBQzluYlFQbFU1OGp0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1795026775,
+    "reason": "חברה ביטחונית ישראלית מובילה המעורבת בפרויקטים דומים",
+    "reason_i18n": {
+     "he": "חברה ביטחונית ישראלית מובילה המעורבת בפרויקטים דומים",
+     "en": "Leading Israeli defense firm often involved in such systems",
+     "ar": "شركة دفاع إسرائيلية رائدة تشارك غالباً في مثل هذه الأنظمة",
+     "ru": "Ведущая израильская оборонная компания, часто участвующая в подобных проектах"
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות",
+     "en": "Elbit Systems",
+     "ar": "إلبيت سيستمز",
+     "ru": "Elbit Systems"
+    },
+    "price_at_alert": 704.87
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795026775,
+    "reason": "העסקה מחזקת את המגזר הביטחוני",
+    "reason_i18n": {
+     "he": "העסקה מחזקת את המגזר הביטחוני",
+     "en": "The deal strengthens the defense sector",
+     "ar": "الصفقة تعزز قطاع الدفاع",
+     "ru": "Сделка укрепляет оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטחונית",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق استثمار في قطاع الدفاع",
+     "ru": "ETF аэрокосмического и оборонного сектора"
+    },
+    "price_at_alert": 69.62
+   }
+  ],
+  "id": "8d895541f2fd"
+ },
+ {
+  "ts": 1795026775,
+  "time": "2026-11-18T18:32Z",
+  "title": "מניית טארגט מזנקת לאחר דוחות חזקים",
+  "summary": "מניית טארגט עלתה ב-7% לאחר שהחברה דיווחה על צמיחה חזקה במכירות והעלתה את תחזיותיה.",
+  "kid": "חנות טארגט מכרה הרבה יותר מוצרים ממה שחשבו, אז המשקיעים שמחים והמניה עלתה.",
+  "i18n": {
+   "title": {
+    "he": "מניית טארגט מזנקת לאחר דוחות חזקים",
+    "en": "Target shares jump after strong earnings",
+    "ar": "أسهم تارجت تقفز بعد نتائج قوية",
+    "ru": "Акции Target подскочили после сильных отчетов"
+   },
+   "summary": {
+    "he": "מניית טארגט עלתה ב-7% לאחר שהחברה דיווחה על צמיחה חזקה במכירות והעלתה את תחזיותיה.",
+    "en": "Target shares rose 7% after the company reported strong sales growth and raised its guidance.",
+    "ar": "ارتفعت أسهم تارجت بنسبة 7% بعد أن أعلنت الشركة عن نمو قوي في المبيعات ورفعت توقعاتها.",
+    "ru": "Акции Target выросли на 7% после того, как компания сообщила о сильном росте продаж и повысила свои прогнозы."
+   },
+   "kid": {
+    "he": "חנות טארגט מכרה הרבה יותר מוצרים ממה שחשבו, אז המשקיעים שמחים והמניה עלתה.",
+    "en": "Target sold way more products than expected, so investors are happy and the stock price went up.",
+    "ar": "باعت تارجت منتجات أكثر بكثير مما كان متوقعاً، لذا فإن المستثمرين سعداء وارتفع سعر السهم.",
+    "ru": "Target продала гораздо больше товаров, чем ожидалось, поэтому инвесторы довольны, и цена акций выросла."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TGT",
+    "direction": "up",
+    "t0": 1795026775,
+    "reason": "תוצאות כספיות חזקות",
+    "reason_i18n": {
+     "he": "תוצאות כספיות חזקות",
+     "en": "Strong financial results",
+     "ar": "نتائج مالية قوية",
+     "ru": "Сильные финансовые результаты"
+    },
+    "name_i18n": {
+     "he": "טארגט",
+     "en": "Target",
+     "ar": "تارجت",
+     "ru": "Target"
+    },
+    "price_at_alert": 170.84
+   },
+   {
+    "ticker": "XLP",
+    "direction": "up",
+    "t0": 1795026775,
+    "reason": "שיפור בסנטימנט הקמעונאי",
+    "reason_i18n": {
+     "he": "שיפור בסנטימנט הקמעונאי",
+     "en": "Improvement in retail sentiment",
+     "ar": "تحسن في معنويات التجزئة",
+     "ru": "Улучшение настроений в розничной торговле"
+    },
+    "name_i18n": {
+     "he": "תעודת סל צריכה בסיסית",
+     "en": "Consumer Staples ETF",
+     "ar": "صندوق استثمار في السلع الاستهلاكية",
+     "ru": "ETF потребительских товаров"
+    },
+    "price_at_alert": 91.7
+   }
+  ],
+  "id": "1160c6d300ab"
  }
 ]

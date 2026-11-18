@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-18T17:43Z",
+ "generated": "2026-11-18T18:34Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1100,
+ "total_alerts": 1102,
  "overall": {
   "n": 741,
   "hits": 370,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 126,
+   "mentions": 127,
    "n": 117,
    "hits": 60,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط",
-    "ru": "Нефтяной ETF"
+    "he": "נפט גולמי",
+    "en": "Crude Oil",
+    "ar": "النفط الخام",
+    "ru": "Сырая нефть"
    },
    "avg_edge": -0.12
   },
@@ -138,19 +138,19 @@
    "avg_edge": 0.76
   },
   "XLP": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 15,
    "hits": 4,
    "name": {
-    "he": "קרן סל מצרכי צריכה בסיסיים",
+    "he": "תעודת סל צריכה בסיסית",
     "en": "Consumer Staples ETF",
-    "ar": "صندوق السلع الاستهلاكية الأساسية",
-    "ru": "ETF товаров повседневного спроса"
+    "ar": "صندوق استثمار في السلع الاستهلاكية",
+    "ru": "ETF потребительских товаров"
    },
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 188,
+   "mentions": 189,
    "n": 172,
    "hits": 106,
    "name": {
@@ -186,7 +186,7 @@
    "avg_edge": -0.74
   },
   "ESLT": {
-   "mentions": 27,
+   "mentions": 28,
    "n": 22,
    "hits": 12,
    "name": {
@@ -1206,26 +1206,26 @@
    "avg_edge": 1.02
   },
   "EIS": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 8,
    "hits": 8,
    "name": {
-    "he": "EIS - קרן סל של שוק המניות בישראל",
-    "en": "EIS - MSCI Israel ETF",
-    "ar": "EIS - صندوق مؤشر إسرائيل",
-    "ru": "EIS - ETF рынка Израиля"
+    "he": "תעודת סל ישראל",
+    "en": "Israel ETF",
+    "ar": "صندوق استثمار في إسرائيل",
+    "ru": "ETF Израиля"
    },
    "avg_edge": 0.81
   },
   "SLV": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 4,
    "hits": 1,
    "name": {
-    "he": "קרן סל למעקב אחר מחיר הכסף",
-    "en": "SLV – Silver Trust ETF",
-    "ar": "SLV - صندوق استثماري للفضة",
-    "ru": "SLV — ETF серебра"
+    "he": "תעודת סל כסף",
+    "en": "Silver ETF",
+    "ar": "صندوق استثمار في الفضة",
+    "ru": "ETF серебра"
    },
    "avg_edge": -1.19
   },
@@ -1682,6 +1682,18 @@
     "en": "Ford",
     "ar": "فورد",
     "ru": "Ford"
+   },
+   "avg_edge": null
+  },
+  "TGT": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "טארגט",
+    "en": "Target",
+    "ar": "تارجت",
+    "ru": "Target"
    },
    "avg_edge": null
   }
