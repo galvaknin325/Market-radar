@@ -113324,7 +113324,7 @@
    }
   },
   "category": "trade",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
   "sources": [
    {
@@ -113334,6 +113334,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWZYTWdNZnV6amR2RG8yM0lwU0I5MXdaZkxyYkxQd2pqejdOMVhqdlVZUXphRVlmZlpEcExTYXRxVUpqOUJkY3lyM2U1ZzR4ZVFCeTBGYTNVVmJUYXV6emNNWEMzQkVEYkdPT0liVDlTdU1vNXJXeDZsZVpsZmhDajhmYTI2dmVlSV83MHk2VmdiOWw4MXVBaFZJM0NDMHMtejlZMklXbEgzQlNYUU4tY1VCaUdmaGRXRkNjeWlBRXBTWG1wWlA0M2lFZF8zVDQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV0lqVTNvUFB5QUhMOXVTSmM0dENpUUZ2YllJNzUydEM3SHJyNm4tRGwwWG1iUWNFOElMc09BNnR3MHNXT0RyeFcwelBhWVJ3Y2tSNlBVU0RKSHdLbXFZdHEwSWdVdmlROW9qLVFvT2gzb1lsQjNtUk1GQjl5a1pqYVdsdC1NRFR3cDU5U1RWTTJsOEphVHZJ0gGTAUFVX3lxTFBHNUh4alg0U2Z6TDhRakpnbUEtdkttSkpJMXJwX3RKTlVhYUlaVzVicng5NU5WRUJMV0ZYX2hSZDlRQVQzU1JRTThrSHU4dTRRZWRxYzRzMHBFdUVNZ3ZuNWxSRmplZHNtOWVpYnJZbzhMNnZ0VlFMLVdIdVVxVEh1UWhDb0w1dzJXdkgycmNvd2NGaw?oc=5"
    }
   ],
   "impacts": [
@@ -113389,9 +113393,21 @@
      "ar": "أوقفت شركة إنفيديا شحن رقائق الذكاء الاصطناعي هوبر إلى الصين وسط تزايد التدقيق التنظيمي والضغوط من الولايات المتحدة.",
      "ru": "Гигант по производству чипов Nvidia прекратил поставки чипов Hopper AI в Китай на фоне растущего регуляторного контроля и давления со стороны США."
     }
+   },
+   {
+    "ts": 1794998056,
+    "time": "2026-11-18T10:34Z",
+    "severity": 7,
+    "summary": "אנבידיה הפסיקה רשמית את משלוחי שבבי הבינה המלאכותית שלה לסין בהתאם להנחיות הרגולציה.",
+    "i18n": {
+     "he": "אנבידיה הפסיקה רשמית את משלוחי שבבי הבינה המלאכותית שלה לסין בהתאם להנחיות הרגולציה.",
+     "en": "Nvidia has officially ceased shipments of its AI chips to China in compliance with regulatory directives.",
+     "ar": "أوقفت إنفيديا رسمياً شحنات رقائق الذكاء الاصطناعي الخاصة بها إلى الصين امتثالاً للتوجيهات التنظيمية.",
+     "ru": "Nvidia официально прекратила поставки своих чипов ИИ в Китай в соответствии с нормативными требованиями."
+    }
    }
   ],
-  "last_update": 1794994445
+  "last_update": 1794998056
  },
  {
   "ts": 1794977928,
@@ -113511,6 +113527,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5odmUzTUhoZWNRQ3EzYVBPYTdGZWlCM2lHMVJubEpJbnA0NWMwaFFsTTlkQ3FmSXFrRm1mYk8tMVlwZTRuUnphR19VVGNzaUxnNHN2M3FuelZPdDltdUp5bU5n?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSXQwTEFhX0t2Z2Jaa0U2MVpXNjNadDNVOEUyR2ZzZWhhRng2RkR6RjRVcGkyUFVLeFk1aERFZ3YzTUY4LUVoZFFYRWtabDJoOTZXVXJaNFV5eFhXQmJYTk5JSnFTZVZHSlFxNU40UWJiMG9vc1J6NVViVnFHc2ZReVBWOUQ2dGlLM0pmSDNJUDJXRkY1XzhKaWw5ckFXaC1pZVBhd21RNjkyR1lkQ2ZJS0ZXX3p3a3ZfenFqNGFRdFNWVjZDTWJVb2Z0UEtkWm5yTEh6LVZn?oc=5"
    }
   ],
   "impacts": [
@@ -113553,7 +113573,22 @@
     "price_at_alert": 69.6
    }
   ],
-  "id": "a34091930ea6"
+  "id": "a34091930ea6",
+  "updates": [
+   {
+    "ts": 1794998056,
+    "time": "2026-11-18T10:34Z",
+    "severity": 3,
+    "summary": "התעשייה האווירית הציגה את יכולות מערכת ההגנה 'חץ 3' לראש ממשלת צ'כיה.",
+    "i18n": {
+     "he": "התעשייה האווירית הציגה את יכולות מערכת ההגנה 'חץ 3' לראש ממשלת צ'כיה.",
+     "en": "Israel Aerospace Industries presented the Arrow 3 missile defense system capabilities to the Czech Prime Minister.",
+     "ar": "عرضت صناعات الطيران والفضاء الإسرائيلية قدرات نظام الدفاع الصاروخي 'حيتس 3' على رئيس وزراء التشيك.",
+     "ru": "Israel Aerospace Industries представила возможности системы противоракетной обороны Arrow 3 премьер-министру Чехии."
+    }
+   }
+  ],
+  "last_update": 1794998056
  },
  {
   "ts": 1794977928,
@@ -113844,32 +113879,32 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWDdmR2s5M0Q0ZlBRb2E2UkN3UG9fSDNoRFVkUTNhTTNDQnk2VHIwVXVBODJMOE01M1JVc1Z3U2haNU96bVAxcHNwcjdTdzNJQ3dZYkQ5Y0Rpa1phNnNDaU54SVo3WmdXZzAyMHliUnVjdEQ2RXp2T3hFSDlDVW9ManQtOUlKVlk5Y2pWLU91RGU2V0xUbGdyVl96QU10djJnNE42YdIBqgFBVV95cUxQQ2J6eWpCNEVzN3BWTGh1UjNYeG04bVIyd3BvdTZRMy13WmJGNFFIY2M3UUJNY2ZNNjVkQVY2MFZhYUVJb1VLZHUwTmJhbFV6ZExRWGlHcGxxQlhEVHhvNGN5eEZlM3M1Q1dBbmhRMFpQMUpfRlpyMllCT0t0LVlOckMyNnNxTkRxREJ2NWtmYmhZVmNfTDNZcWQ5RkZLSzBqNkREZ0tDNmh6dw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQlVYSFdmV2kzZ1V4ZkZnNHRTRnJySEM4YkVMRDdCRmQxSTZOaVh3NHdhVkZETlFEX3BuTzZ6bXpQUHNFSFJoSkJPemR0OUlTU1hXYnh5dF94dGdydFVPejg3RjB2Rm5DTk9rZWtCSzU3dm5ETElBbmh0T1ZTZXdGRUhhUQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaFUxVlhZZXZ4WmlfREZLR0dVbFh2ZmU1My1pSy1uTlM1Zm9OSzg4RUF6U2VFVEN6NGpDMjR4TE5CeHltSU5JZ3VlRU5qOWdjVWJTM1dYbkhLX0FlWkxwYktSeEhkLTcwQ2NpcmJvUDFIamV0Zm9mQWt3WVQ0WjRyQWQxZG4?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNamlMSFR1VS1LcjJjd253VGlsM1lUa0ZjZXJjclZ3ajdqZTdaMnc3dUdhcDd6RV9XWnNSYm1EM1BGTDZvTUkxTHgzeWw2TldJYm1JQlN1UHlhRkZJalpGZEFqT0lWNFR4N0pfSWVxZTg2LUJYRUhCMFhYTW5RVnh0dXlXcHcyRDctMWxZSGlaT3Bhc2x6SXR2REV3?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZlFfT3JJOS1faUVKengyZ1p4V0k4R29YRHlxd0pzY2F5Z0tUWkUzN2hBeUplZVJfTkJCLWtWdGxRV3hjOWlMS3MzZFFzclhkV3U5V2tkb2cteHV0WFo0M291cWxoOTJGZmhhMHhISVVQRm00TFdQLWNUV1BNdlpLMHVHa2hPbVpmRHdEUUQybm8?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMDJhdEFoYTRZd1AxRTBERWpiRVhfbUN3N01hak5mNV9mcE9fclFHeVF4NC16aGlYdmNROU9aazVtUVRFQ1AzbjN3YTZpSUVqVDQwRUJGRkpIUjZiVGhqcGJTNzVnamhscWd1b0x5XzJpMW5uV1VTamxCbjhETUhIN0pfcTU0OGhraWliemZtRnQ5UllVN2hpWHdaYUlwQW8tdDczcS1BUzBkYWgzYWc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS1haNlFBNTRtclRTUThCM1ZFVnUzLTBtNFpycF9RRDlhd3pMSWdwOHE1eVg4bXJMS2w0V2NZTXo4czdtSF9pQXF2RXR6b05BYS1pbjF2bzQ4WUxKVjNUaEVacHFUMTN0M2dacnFvQmpDZTE1Y2NJOUJWZ0RXMXQ5ek1ya3pDNm9CYjk4?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHlESkFMaHUyRHMxV095SXNjZF9UN0x1TllqUnk2Tm1PekJwaGV4ckdva1lHdlZlSUhQU3k3QWo4Nng3VEsydEhDWi1JQjRPVktOU1hnd25qdm4zR29rQnhTc0czbGQ0M0RId1FiUGgxaXEtbEYwblNhWGxyRkdzbHZkbk0wNUE1SWxVVjN3cGlkZVE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmpLenNlVXhGZlllUkIwVS1xTUlvQjNhWThWa3BERFh5UEI4b2J3b3FOVXFvSWp6RDVuamhCckpVXzhicVhMa2poUXNncUtRTUJtLUY5VU1rWEczY3ZmVkZYdlRDZnhmTExDZzdyQWZlUnhBTFJYNk5JcW03YlNoMjYyZFFfUlUtU0QxNi1DV3h6Zm0wdmo5X1VkYkkyNnlZTmJaMnR0VHVSZw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkZKRW1BZDJ1X2RCT1hOVGN4SFN5NzBneU1VZFc2SEdEdnJJZTBlVGJzTDVoc1ltMWp1T2lCZHJtSGNOVEVnMzl4VlFKU0ZSVXp1M2pUejVlVTh6RHJZSGhodFhSQmNYeDRHZjlyLWNpX0xmcVJSaURYU2g4Y2FqbEg0RFJfakRsX3FWWUdwVmQza25vdTA0LTVmME4yVmEwUThRU0dZY1JOc2x6Z0VjbU1GSmF2OGhmc0FBT0lB?oc=5"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -113925,9 +113960,21 @@
      "ar": "ارتفع التضخم السنوي في بريطانيا إلى 3.6% في أكتوبر، مسجلاً أعلى مستوى في 12 شهراً بسبب تكاليف الوقود والطاقة.",
      "ru": "Годовая инфляция в Великобритании выросла до 3.6% в октябре, достигнув 12-месячного максимума из-за цен на топливо и энергоносители."
     }
+   },
+   {
+    "ts": 1794998056,
+    "time": "2026-11-18T10:34Z",
+    "severity": 6,
+    "summary": "האינפלציה בבריטניה עלתה ל-3.6% באוקטובר, מונעת מעלייה במחירי הדלק והאנרגיה.",
+    "i18n": {
+     "he": "האינפלציה בבריטניה עלתה ל-3.6% באוקטובר, מונעת מעלייה במחירי הדלק והאנרגיה.",
+     "en": "UK inflation rose to 3.6% in October, driven by surging fuel and energy prices.",
+     "ar": "ارتفع التضخم في المملكة المتحدة إلى 3.6% في أكتوبر، مدفوعاً بارتفاع أسعار الوقود والطاقة.",
+     "ru": "Инфляция в Великобритании выросла до 3.6% в октябре из-за роста цен на топливо и энергию."
+    }
    }
   ],
-  "last_update": 1794994445
+  "last_update": 1794998056
  },
  {
   "ts": 1794990669,
@@ -114236,5 +114283,79 @@
    }
   ],
   "id": "ba7afcfc3a3c"
+ },
+ {
+  "ts": 1794998056,
+  "time": "2026-11-18T10:34Z",
+  "title": "תקלות טכנולוגיות נרחבות בארה\"ב; אין עדות למתקפת סייבר",
+  "summary": "תקלות טכנולוגיות פקדו מערכות מרכזיות בארה\"ב, כולל אפל. גורמים רשמיים, כולל הסנאטור רוביו, הצהירו כי אין עדות למתקפת סייבר.",
+  "kid": "מחשבים ואתרים בארה\"ב הפסיקו לעבוד לזמן קצר. הממשלה אומרת שזו לא מתקפת סייבר, אז כנראה מדובר בתקלה טכנית רגילה.",
+  "i18n": {
+   "title": {
+    "he": "תקלות טכנולוגיות נרחבות בארה\"ב; אין עדות למתקפת סייבר",
+    "en": "Widespread US tech outages; no evidence of cyberattack",
+    "ar": "انقطاعات تقنية واسعة النطاق في الولايات المتحدة؛ لا يوجد دليل على هجوم سيبراني",
+    "ru": "Масштабные технические сбои в США; доказательств кибератаки нет"
+   },
+   "summary": {
+    "he": "תקלות טכנולוגיות פקדו מערכות מרכזיות בארה\"ב, כולל אפל. גורמים רשמיים, כולל הסנאטור רוביו, הצהירו כי אין עדות למתקפת סייבר.",
+    "en": "Tech outages hit major US systems, including Apple. Officials, including Senator Rubio, stated there is no evidence of a cyberattack.",
+    "ar": "ضربت انقطاعات تقنية أنظمة أمريكية رئيسية، بما في ذلك أبل. صرح مسؤولون، بمن فيهم السيناتور روبيو، بأنه لا يوجد دليل على هجوم سيبراني.",
+    "ru": "Технические сбои затронули крупные системы США, включая Apple. Официальные лица, включая сенатора Рубио, заявили, что доказательств кибератаки нет."
+   },
+   "kid": {
+    "he": "מחשבים ואתרים בארה\"ב הפסיקו לעבוד לזמן קצר. הממשלה אומרת שזו לא מתקפת סייבר, אז כנראה מדובר בתקלה טכנית רגילה.",
+    "en": "Computers and websites in the US stopped working for a short time. The government says it is not a cyberattack, so it is likely just a technical glitch.",
+    "ar": "توقفت أجهزة الكمبيوتر والمواقع الإلكترونية في الولايات المتحدة عن العمل لفترة قصيرة. تقول الحكومة إنه ليس هجوماً سيبرانياً، لذا فمن المحتمل أن يكون مجرد خلل فني.",
+    "ru": "Компьютеры и веб-сайты в США на короткое время перестали работать. Правительство заявляет, что это не кибератака, поэтому, скорее всего, это просто технический сбой."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmVWWS1nVjhrb0NidHhNUHl3U2s5ZW5vbzd5b09idm1QaFBQQTR1eE01Zm44eUJnSkU1QUVuWjN1VGhfUWtaQnhxR2lyanBvSHlUa0NmZUl1S2FPLXRzMnByT0laU2VWSnhzd1NKU0N3UU5rNHRUajdyU3lqMUdWSERqa3o?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN3I2Zi1WOXpYY0x4UDRxeDdGQnRwTXVHVmZvU1duMFNYNDRvNEdGNHd5YlpMN0pQSDdHcFdaZFEtWHBQVFM2dnU0VjNCckRLekM0bkVCU2tRMm9mU19pQ3RJQ3dtQnptZjk2MmRTTFdZaVF6ZUROdkpxQW0xZ3hjNTROS3R6Ri02bWF2enVmbU9DZEJ5RS1wa2M4ZE1CdlZWM2FzRXU4VUEyelMxV3hXbkNB?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQXRFQmJndWRDVFhDVkVpTWxpRy01WXBLWGJZNy1QVGRmUGlnZncwa0g5ZEFNcHhpNUxCV0FtTnE5aDYxdzY1MDVabkVFZzNSUWtJdzB6aDhsdG5nMG1sc3lmSWJpbjBwS1JpVDFWX1lNbGlVVHoxMFk1eWlZSlhWTm10OHVnT1BhN3JWZTdwOXlTdXpf?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZU9vRmZZTTV1b3lBa1hiaW12TEhkSTdXcW5XVjBfdHMyQW0xOWNPdDJPNk1lVVJ2M0JPYzRsLXhaVWhKejktOUUxLWpDR3o4SDRDZFlFTHBkNjNjenlZU25QSlUwLS03UzhCRm1uc1BEQ3NxS0p3TGp6NGlwazRySG5rSmxoMnZGSDJqV0hVOTRpX25ENXgxeENzSHpuUHUyU1RzdVA4WGFuSTdyczJUbWx2T1BxdkljX3c1LUZ3SDRYVVp6cXUzbWlIMnI1b0ZqUzRyOUdLUXgwa05SMlhtbS1tRDNyaFlURWNDV1RNV3RFS2hZZVNPdTV2ZkZYc2U1?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSnZCbnd0dUlHbTdqSXZUR0RUSDkyVDItMm1CZEdxQjdLbUN2OVRtZGZJSlpzLWxGd1ptYjQybU85Ul93UmZ3R2V2ZHkzOHh6NVM2cDFaY3NKLXZJUzV6ckhScWFmb3djVERxbW5MZmt1b0dKSzYwMEt0MEFyQ3JKZ1FMdVAyS19WazhmYnVaUVAwOWVPNmxOTTJXbGZmOHBMdF96OHFHTkdIXzhJSGQzTkpIQTA4amdwOGdRQjVpWHNjb1pkYThz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AAPL",
+    "direction": "down",
+    "t0": 1794998056,
+    "reason": "השבתה זמנית של שירותים פגעה באמון המשקיעים.",
+    "reason_i18n": {
+     "he": "השבתה זמנית של שירותים פגעה באמון המשקיעים.",
+     "en": "Temporary service outage impacted investor confidence.",
+     "ar": "أدى انقطاع الخدمة المؤقت إلى التأثير على ثقة المستثمرين.",
+     "ru": "Временный сбой в обслуживании повлиял на доверие инвесторов."
+    },
+    "name_i18n": {
+     "he": "אפל - חברת טכנולוגיה",
+     "en": "Apple - tech company",
+     "ar": "أبل - شركة تكنولوجيا",
+     "ru": "Apple - технологическая компания"
+    },
+    "price_at_alert": 351.91
+   }
+  ],
+  "id": "4020fc2b70d4"
  }
 ]
