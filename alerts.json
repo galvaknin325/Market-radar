@@ -1339,316 +1339,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794440084,
-  "time": "2026-11-11T23:34Z",
-  "title": "כוחות הביטחון של אוקראינה פוגעים בספינת טילים רוסית",
-  "summary": "השירות החשאי של אוקראינה דיווח על פגיעה בספינת טילים רוסית מדגם Buyan-M בעיר נרו-פומינסק במסגרת הלחימה.",
-  "kid": "אוקראינה פגעה בספינת מלחמה רוסית. זה מראה שהמלחמה נמשכת בעוצמה, וזה עשוי להשפיע על מחירי סחורות עולמיים ועל הביטחון באירופה.",
-  "i18n": {
-   "title": {
-    "he": "כוחות הביטחון של אוקראינה פוגעים בספינת טילים רוסית",
-    "en": "Ukrainian Security Service Hits Russian Missile Ship",
-    "ar": "جهاز الأمن الأي أوكراني يضرب سفينة صواريخ روسية",
-    "ru": "Служба безопасности Украины поразила российский ракетный корабль"
-   },
-   "summary": {
-    "he": "השירות החשאי של אוקראינה דיווח על פגיעה בספינת טילים רוסית מדגם Buyan-M בעיר נרו-פומינסק במסגרת הלחימה.",
-    "en": "Ukraine's Security Service successfully targeted and hit a Russian Naro-Fominsk Buyan-M-class missile ship amidst ongoing hostilities.",
-    "ar": "أعلن جهاز الأمن الأوكراني عن إصابة سفينة صواريخ روسية من طراز Buyan-M في إطار الأعمال القتالية المستمرة.",
-    "ru": "Служба безопасности Украины сообщила о поражении российского ракетного корабля класса «Буян-М» в ходе боевых действий."
-   },
-   "kid": {
-    "he": "אוקראינה פגעה בספינת מלחמה רוסית. זה מראה שהמלחמה נמשכת בעוצמה, וזה עשוי להשפיע על מחירי סחורות עולמיים ועל הביטחון באירופה.",
-    "en": "Ukraine struck a Russian warship. This shows the ongoing intensity of the war and could impact global commodity prices and European security sentiment.",
-    "ar": "ضربت أوكرانيا سفينة حربية روسية. هذا يظهر استمرار حدة الحرب، وقد يؤثر على أسعار السلع العالمية وأمن أوروبا.",
-    "ru": "Украина поразила российский военный корабль. Это демонстрирует продолжающуюся интенсивность войны и может повлиять на мировые цены на сырьевые товары и безопасность в Европе."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794440084,
-    "reason": "המשך הלחימה באירופה שומר על ביקוש גבוה לציוד ביטחוני",
-    "reason_i18n": {
-     "he": "המשך הלחימה באירופה שומר על ביקוש גבוה לציוד ביטחוני",
-     "en": "Ongoing European conflict maintains high demand for defense equipment",
-     "ar": "الصراع الأوروبي المستمر يحافظ على طلب مرتفع على المعدات الدفاعية",
-     "ru": "Продолжающийся конфликт в Европе поддерживает высокий спрос на продукцию оборонного назначения"
-    },
-    "name_i18n": {
-     "he": "קרן סל על תעשיית הביטחון האמריקאית",
-     "en": "ITA – U.S. Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA — ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 73.24,
-    "entry_price": 73.13,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 71.49,
-    "exit_date": "2026-11-13",
-    "change_pct": -2.24,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -2.28,
-    "edge_pct": -2.28,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794440084,
-    "reason": "מתיחות צבאית גלובלית תומכת במניות הביטחון",
-    "reason_i18n": {
-     "he": "מתיחות צבאית גלובלית תומכת במניות הביטחון",
-     "en": "Global military tensions support defense stocks",
-     "ar": "التوترات العسكرية العالمية تدعم أسهم الدفاع",
-     "ru": "Глобальная военная напряженность поддерживает оборонные акции"
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין – יצרנית נשק גדולה",
-     "en": "LMT – Lockheed Martin",
-     "ar": "LMT - لوكهيد مارتن",
-     "ru": "LMT — Lockheed Martin"
-    },
-    "price_at_alert": 610.05,
-    "entry_price": 615.97,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 596.28,
-    "exit_date": "2026-11-13",
-    "change_pct": -3.2,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -3.23,
-    "edge_pct": -3.23,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "WEAT",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "חשש לפגיעה בשרשראות האספקה החקלאיות באזור.",
-    "reason_i18n": {
-     "he": "חשש לפגיעה בשרשראות האספקה החקלאיות באזור.",
-     "en": "Concerns over disruptions to agricultural supply chains in the region.",
-     "ar": "المخاوف بشأن اضطرابات سلسلة التوريد الزراعية في المنطقة.",
-     "ru": "Опасения по поводу сбоев в цепочках поставок сельскохозяйственной продукции в регионе."
-    },
-    "name_i18n": {
-     "he": "קרן סל חיטה",
-     "en": "Teucrium Wheat Fund",
-     "ar": "صندوق القمح",
-     "ru": "ETF пшеницы"
-    },
-    "price_at_alert": 22.18,
-    "entry_price": 21.98,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 21.85,
-    "exit_date": "2026-11-13",
-    "change_pct": -0.59,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -0.63,
-    "edge_pct": -0.63,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1794470558,
-    "reason": "החמרת המלחמה באירופה מכבידה על סנטימנט השוק האזורי.",
-    "reason_i18n": {
-     "he": "החמרת המלחמה באירופה מכבידה על סנטימנט השוק האזורי.",
-     "en": "Worsening war in Europe weighs on regional market sentiment.",
-     "ar": "تفاقم الحرب في أوروبا يضغط على معنويات السوق الإقليمية.",
-     "ru": "Ухудшение ситуации с войной в Европе давит на настроения регионального рынка."
-    },
-    "name_i18n": {
-     "he": "קרן סל מניות אירופה",
-     "en": "Vanguard FTSE Europe ETF",
-     "ar": "صندوق الأسهم الأوروبية",
-     "ru": "ETF европейских акций"
-    },
-    "price_at_alert": 89.46,
-    "entry_price": 89.42,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 89.045,
-    "exit_date": "2026-11-13",
-    "change_pct": -0.42,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -0.46,
-    "edge_pct": 0.46,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "fe89e0118c4f",
-  "updates": [
-   {
-    "ts": 1794470558,
-    "time": "2026-11-12T08:02Z",
-    "severity": 4,
-    "summary": "מתקפות טילים וכטב\"מים רוסיות פגעו באספקת החשמל באוקראינה והביאו אותה לרמה קריטית, לצד פגיעה ببנייני מגורים בקייב.",
-    "i18n": {
-     "he": "מתקפות טילים וכטב\"מים רוסיות פגעו באספקת החשמל באוקראינה והביאו אותה לרמה קריטית, לצד פגיעה ببנייני מגורים בקייב.",
-     "en": "Russian missile and drone strikes have brought Ukraine's power supply close to critical levels amid freezing conditions.",
-     "ar": "أدت الهجمات الصاروخية وبطائرات بدون طيار الروسية إلى إيصال إمدادات الطاقة في أوكرانيا إلى مستويات حرجة.",
-     "ru": "Российские ракетные удары и удары беспилотников поставили энергоснабжение Украины на критический уровень."
-    }
-   }
-  ],
-  "last_update": 1794470558,
-  "evaluated": true
- },
- {
-  "ts": 1794440084,
-  "time": "2026-11-11T23:34Z",
-  "title": "רעידת אדמה חזקה פוגעת במרכז יפן",
-  "summary": "רעידת אדמה בעוצמה חזקה פגעה במרכז יפן, ניפצה חלונות ראווה וגרמה לפצועים ולנזקים ברכוש.",
-  "kid": "רעידת אדמה חזקה הורגשה ביפן, פצעה אנשים והרסה חלונות ובתים. זה יכול להשפיע באופן זמני על הפעילות הכלכלית באזור שנפגע.",
-  "i18n": {
-   "title": {
-    "he": "רעידת אדמה חזקה פוגעת במרכז יפן",
-    "en": "Strong Earthquake Hits Central Japan",
-    "ar": "زلزال قوي يضرب وسط اليابان",
-    "ru": "Сильное землетрясение произошло в центральной Японии"
-   },
-   "summary": {
-    "he": "רעידת אדמה בעוצמה חזקה פגעה במרכז יפן, ניפצה חלונות ראווה וגרמה לפצועים ולנזקים ברכוש.",
-    "en": "A strong earthquake shook central Japan, shattering store windows, injuring at least 22 people, and causing property damage.",
-    "ar": "هز زلزال قوي وسط اليابان، مما أدى إلى تحطيم واجهات المتاجر وإصابة ما لا يقل عن 22 شخصاً وإلحاق أضرار بالممتلكات.",
-    "ru": "Сильное землетрясение сотрясло центральную Японию, разбив витрины магазинов, ранив по меньшей мере 22 человека и причинив материальный ущерб."
-   },
-   "kid": {
-    "he": "רעידת אדמה חזקה הורגשה ביפן, פצעה אנשים והרסה חלונות ובתים. זה יכול להשפיע באופן זמני על הפעילות הכלכלית באזור שנפגע.",
-    "en": "A strong earthquake was felt in Japan, injuring people and damaging property. This could temporarily impact economic activity in the affected region.",
-    "ar": "شعر السكان بزلزال قوي في اليابان، مما أدى إلى إصابة أشخاص وأضرار في الممتلكات. قد يؤثر ذلك مؤقتاً على النشاط الاقتصادي في المنطقة المتضررة.",
-    "ru": "В Японии ощущалось сильное землетрясение, в результате которого пострадали люди и было повреждено имущество. Это может временно повлиять на экономическую активность в пострадавшем регионе."
-   }
-  },
-  "category": "climate",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "down",
-    "t0": 1794440084,
-    "reason": "נזקי רעידת האדמה ביפן פוגעים זמנית במניות המקומיות",
-    "reason_i18n": {
-     "he": "נזקי רעידת האדמה ביפן פוגעים זמנית במניות המקומיות",
-     "en": "Earthquake damages in Japan temporarily hurt local stocks",
-     "ar": "تضر أضرار الزلزال في اليابان بالأسهم المحلية مؤقتاً",
-     "ru": "Ущерб от землетрясения в Японии временно негативно влияет на местные акции"
-    },
-    "name_i18n": {
-     "he": "קרן סל על יפן",
-     "en": "EWJ – Japan ETF",
-     "ar": "EWJ - صندوق الاستثمار المتداول في اليابان",
-     "ru": "EWJ — ETF акций Японии"
-    },
-    "price_at_alert": 92.12,
-    "entry_price": 91.24,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 91.77,
-    "exit_date": "2026-11-13",
-    "change_pct": 0.58,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 0.55,
-    "edge_pct": -0.55,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "מתיחות גיאופוליטית מול איראן תומכת במחירי האנרגיה.",
-    "reason_i18n": {
-     "he": "מתיחות גיאופוליטית מול איראן תומכת במחירי האנרגיה.",
-     "en": "Geopolitical tension with Iran supports energy prices.",
-     "ar": "التوتر الجيوسياسي مع إيران يدعم أسعار الطاقة.",
-     "ru": "Геополитическая напряженность вокруг Ирана поддерживает цены на энергоносители."
-    },
-    "name_i18n": {
-     "he": "קרן סל אנרגיה",
-     "en": "Energy Select Sector SPDR Fund",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 63.37,
-    "entry_price": 63.88,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 64.93,
-    "exit_date": "2026-11-13",
-    "change_pct": 1.64,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 1.61,
-    "edge_pct": 1.61,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "חשש משיבושים באספקת הנפט במפרץ עקב הסלמה דיפלומטית.",
-    "reason_i18n": {
-     "he": "חשש משיבושים באספקת הנפט במפרץ עקב הסלמה דיפלומטית.",
-     "en": "Fear of Gulf oil supply disruptions due to diplomatic escalation.",
-     "ar": "خوف من اضطرابات إمدادات النفط في الخليج بسبب التصعيد الدبلوماسي.",
-     "ru": "Опасения перебоев с поставками нефти в Персидском заливе из-за дипломатической эскалации."
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט גולמי",
-     "en": "United States Oil Fund",
-     "ar": "صندوق النفط الخام",
-     "ru": "ETF сырой нефти"
-    },
-    "price_at_alert": 141.47,
-    "entry_price": 142.03,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 145.59,
-    "exit_date": "2026-11-13",
-    "change_pct": 2.51,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 2.47,
-    "edge_pct": 2.47,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "2aaa4684d79e",
-  "updates": [
-   {
-    "ts": 1794470558,
-    "time": "2026-11-12T08:02Z",
-    "severity": 4,
-    "summary": "שר הצרפתי לענייני אירופה הצהיר כי ארצו תטיל סנקציות נוקשות על איראן בעקבות מתקפת סייבר שביצעה.",
-    "i18n": {
-     "he": "שר הצרפתי לענייני אירופה הצהיר כי ארצו תטיל סנקציות נוקשות על איראן בעקבות מתקפת סייבר שביצעה.",
-     "en": "The French minister for European affairs announced that strict sanctions will be imposed on Iran following a cyberattack.",
-     "ar": "أعلن الوزير الفرنسي للشؤون الأوروبية أن فرنسا ستفرض عقوبات صارمة على إيران عقب هجوم سيبراني.",
-     "ru": "Французский министр по делам Европы объявил, что против Ирана будут введены жесткие санкции после кибератаки."
-    }
-   }
-  ],
-  "last_update": 1794470558,
-  "evaluated": true
- },
- {
   "ts": 1794462244,
   "time": "2026-11-12T05:44Z",
   "title": "זינוק חד בתפוקת הנפט של אופק פלוס באוקטובר",
@@ -2277,291 +1967,6 @@
    }
   ],
   "last_update": 1794785351,
-  "evaluated": true
- },
- {
-  "ts": 1794470558,
-  "time": "2026-11-12T08:02Z",
-  "title": "כלכלת בריטניה צמחה ב-0.7% ברבעון השלישי",
-  "summary": "כלכלת בריטניה רשמה צמיחה של 0.7% ברבעון השלישי של השנה, בהתאם לתחזיות המוקדמות, בתמיכת פעילות הבינה המלאכותית.",
-  "kid": "כלכלת בריטניה צמחה יפה בזכות טכנולוגיה. חדשות טובות כאלו עשויות לעזור למניות של חברות אירופאיות לעלות.",
-  "i18n": {
-   "title": {
-    "he": "כלכלת בריטניה צמחה ב-0.7% ברבעון השלישי",
-    "en": "UK Economy Expands 0.7% in Third Quarter",
-    "ar": "الاقتصاد البريطاني ينمو بنسبة 0.7% في الربع الثالث",
-    "ru": "Экономика Великобритании выросла на 0.7% в третьем квартале"
-   },
-   "summary": {
-    "he": "כלכלת בריטניה רשמה צמיחה של 0.7% ברבעון השלישי של השנה, בהתאם לתחזיות המוקדמות, בתמיכת פעילות הבינה המלאכותית.",
-    "en": "The U.K. economy grew 0.7% in the third quarter of the year, meeting estimates, with AI providing an extra engine of growth.",
-    "ar": "نما الاقتصاد البريطاني بنسبة 0.7% في الربع الثالث من العام، بما يتوافق مع التقديرات، مع توفير الذكاء الاصطناعي محركاً إضافياً للنمو.",
-    "ru": "Экономика Великобритании выросла на 0.7% в третьем квартале года, оправдав ожидания, при этом искусственный интеллект стал дополнительным драйвером роста."
-   },
-   "kid": {
-    "he": "כלכלת בריטניה צמחה יפה בזכות טכנולוגיה. חדשות טובות כאלו עשויות לעזור למניות של חברות אירופאיות לעלות.",
-    "en": "The UK economy grew nicely thanks to technology. Good news like this can help European company stocks go up.",
-    "ar": "نما الاقتصاد البريطاني بشكل جيد بفضل التكنولوجيا. الأخبار الجيدة مثل هذه يمكن أن تساعد أسهم الشركات الأوروبية في الارتفاع.",
-    "ru": "Экономика Великобритании неплохо выросла благодаря технологиям. Такие хорошие новости могут помочь акциям европейских компаний вырасти."
-   }
-  },
-  "category": "macro",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWU",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "נתוני צמיחה חיוביים תומכים בשוק הבריטי.",
-    "reason_i18n": {
-     "he": "נתוני צמיחה חיוביים תומכים בשוק הבריטי.",
-     "en": "Positive growth data supports the UK market.",
-     "ar": "بيانات النمو الإيجابية تدعم السوق البريطاني.",
-     "ru": "Позитивные данные о росте поддерживают рынок Великобритании."
-    },
-    "name_i18n": {
-     "he": "קרן סל בריטניה",
-     "en": "UK ETF",
-     "ar": "صندوق الاستثمار المتداول للمملكة المتحدة",
-     "ru": "ETF Великобритании"
-    },
-    "price_at_alert": 47.82,
-    "entry_price": 47.9,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 47.97,
-    "exit_date": "2026-11-13",
-    "change_pct": 0.15,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 0.11,
-    "edge_pct": 0.11,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "VGK",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "צמיחה גלובלית יציבה באירופה מחזקת את סנטימנט המשקיעים.",
-    "reason_i18n": {
-     "he": "צמיחה גלובלית יציבה באירופה מחזקת את סנטימנט המשקיעים.",
-     "en": "Stable European economic growth boosts investor sentiment.",
-     "ar": "النمو الاقتصادي الأوروبي المستقر يعزز معنويات المستثمرين.",
-     "ru": "Стабильный экономический рост в Европе укрепляет настроения инвесторов."
-    },
-    "name_i18n": {
-     "he": "קרן סל מניות אירופה",
-     "en": "Vanguard FTSE Europe ETF",
-     "ar": "صندوق الاستثمار المتداول للأسهم الأوروبية",
-     "ru": "ETF европейских акций"
-    },
-    "price_at_alert": 89.46,
-    "entry_price": 89.42,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 89.045,
-    "exit_date": "2026-11-13",
-    "change_pct": -0.42,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -0.46,
-    "edge_pct": -0.46,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "788e7ceac1b3",
-  "evaluated": true
- },
- {
-  "ts": 1794470558,
-  "time": "2026-11-12T08:02Z",
-  "title": "BAE Systems מספקת חיישן לטיל נגד ספינות אמריקאי מתקדם",
-  "summary": "חברת BAE Systems דיווחה על אספקת חיישן מתקדם עבור טיל שיוט ארוך טווח נגד ספינות של צבא ארצות הברית.",
-  "kid": "חברת הביטחון BAE סיפקה רכיב אלקטרוני טכנולוגי לטילים מתקדמים של הצבא האמריקאי. זה עוזר לעסקי החימוש שלה.",
-  "i18n": {
-   "title": {
-    "he": "BAE Systems מספקת חיישן לטיל נגד ספינות אמריקאי מתקדם",
-    "en": "BAE Systems Delivers Sensor for US Anti-Ship Missile",
-    "ar": "بي إيه إي سيستمز تسليم مستشعر لصاروخ أمريكي مضاد للسفن",
-    "ru": "BAE Systems поставляет датчик для американской противокорабельной ракеты"
-   },
-   "summary": {
-    "he": "חברת BAE Systems דיווחה על אספקת חיישן מתקדם עבור טיל שיוט ארוך טווח נגד ספינות של צבא ארצות הברית.",
-    "en": "BAE Systems has delivered a crucial sensor component for an American long-range anti-ship missile program.",
-    "ar": "سلمت شركة بي إيه إي سيستمز مكون مستشعر حاسم لبرنامج صواريخ أمريكي بعيد المدى مضاد للسفن.",
-    "ru": "BAE Systems поставила критически важный датчик для американской программы дальнобойных противокорабельных ракет."
-   },
-   "kid": {
-    "he": "חברת הביטחון BAE סיפקה רכיב אלקטרוני טכנולוגי לטילים מתקדמים של הצבא האמריקאי. זה עוזר לעסקי החימוש שלה.",
-    "en": "Defense firm BAE provided a high-tech electronic component for advanced US military missiles. This helps its weapons business.",
-    "ar": "قدمت شركة الدفاع BAE مكوناً إلكترونياً عالي التقنية للصواريخ العسكرية الأمريكية المتقدمة.",
-    "ru": "Оборонная компания BAE предоставила высокотехнологичный компонент для передовых американских военных ракет."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "התקדמות בתוכניות חימוש של הפנטגון תומכת בסקטור.",
-    "reason_i18n": {
-     "he": "התקדמות בתוכניות חימוש של הפנטגון תומכת בסקטור.",
-     "en": "Progress in Pentagon armaments programs supports the sector.",
-     "ar": "التقدم في برامج تسليح البنتاغون يدعم القطاع.",
-     "ru": "Прогресс в программах вооружения Пентагона поддерживает сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "iShares U.S. Aerospace & Defense ETF",
-     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 73.24,
-    "entry_price": 73.13,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 71.49,
-    "exit_date": "2026-11-13",
-    "change_pct": -2.24,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -2.28,
-    "edge_pct": -2.28,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "אספקת רכיבים למערכות טילים משותפות בארה\"ב.",
-    "reason_i18n": {
-     "he": "אספקת רכיבים למערכות טילים משותפות בארה\"ב.",
-     "en": "Supply of components for joint US missile systems.",
-     "ar": "توريد المكونات لأنظمة الصواريخ الأمريكية المشتركة.",
-     "ru": "Поставка компонентов для совместных американских ракетных систем."
-    },
-    "name_i18n": {
-     "he": "ריית'און – טכנולוגיות תעופה וביטחון",
-     "en": "RTX Corporation – aerospace and defense",
-     "ar": "آر تي إكس - الفضاء والدفاع",
-     "ru": "RTX Corporation — аэрокосмическая и оборонная компания"
-    },
-    "price_at_alert": 201.29,
-    "entry_price": 202.69,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 198.58,
-    "exit_date": "2026-11-13",
-    "change_pct": -2.03,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -2.06,
-    "edge_pct": -2.06,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "84485f1b2f12",
-  "evaluated": true
- },
- {
-  "ts": 1794470558,
-  "time": "2026-11-12T08:02Z",
-  "title": "בנגלדש מאשרת רכש ישיר של גז טבעי מספקים זרים",
-  "summary": "הוועדה הממשלתית המרכזית בבנגלדש אישרה מספר הצעות לרכש ישיר של גז טבעי נוזלי (LNG) מארבעה ספקים בינלאומיים שונים.",
-  "kid": "בנגלדש החליטה לקנות הרבה גז טבעי מחברות בעולם. זה יכול להשפיע על הביקוש העולמי לאנרגיה וגז.",
-  "i18n": {
-   "title": {
-    "he": "בנגלדש מאשרת רכש ישיר של גז טבעי מספקים זרים",
-    "en": "Bangladesh Approves Direct LNG Procurement from Foreign Suppliers",
-    "ar": "ببنغلاديش توافق على الشراء المباشر للغاز الطبيعي المسال من موردين أجانب",
-    "ru": "Бангладеш одобрил прямые закупки СПГ у иностранных поставщиков"
-   },
-   "summary": {
-    "he": "הוועדה הממשלתית המרכזית בבנגלדש אישרה מספר הצעות לרכש ישיר של גז טבעי נוזלי (LNG) מארבעה ספקים בינלאומיים שונים.",
-    "en": "Bangladesh’s cabinet committee has approved proposals for the direct procurement of liquefied natural gas (LNG) from four foreign suppliers.",
-    "ar": "وافق لجنة مجلس الوزراء في بنغلاديش على مقترحات للشراء المباشر للغاز الطبيعي المسال من أربعة موردين أجانب.",
-    "ru": "Комитет кабинета министров Бангладеш одобрил предложения по прямым закупкам сжиженного природного газа у четырех иностранных поставщиков."
-   },
-   "kid": {
-    "he": "בנגלדש החליטה לקנות הרבה גז טבעי מחברות בעולם. זה יכול להשפיע על הביקוש העולמי לאנרגיה וגז.",
-    "en": "Bangladesh decided to buy a lot of natural gas from companies worldwide. This can impact global energy and gas demand.",
-    "ar": "قررت بنغلاديش شراء الكثير من الغاز الطبيعي من الشركات حول العالم.",
-    "ru": "Бангладеш решил купить много природного газа у компаний по всему миру."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "UNG",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "ביקוש אסייתי גבוה לרכש ישיר של גז טבעי.",
-    "reason_i18n": {
-     "he": "ביקוש אסייתי גבוה לרכש ישיר של גז טבעי.",
-     "en": "High Asian demand for direct natural gas procurement.",
-     "ar": "الطلب الآسيوي المرتفع على الشراء المباشر للغاز الطبيعي.",
-     "ru": "Высокий спрос в Азии на прямые закупки природного газа."
-    },
-    "name_i18n": {
-     "he": "קרן סל גז טבעי בארה\"ב",
-     "en": "United States Natural Gas Fund",
-     "ar": "صندوق الغاز الطبيعي الأمريكي",
-     "ru": "ETF природного газа США"
-    },
-    "price_at_alert": 10.22,
-    "entry_price": 10.32,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 10.15,
-    "exit_date": "2026-11-13",
-    "change_pct": -1.65,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -1.68,
-    "edge_pct": -1.68,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794470558,
-    "reason": "עסקאות רכש ממשלתיות תומכות בשוק האנרגיה והגז.",
-    "reason_i18n": {
-     "he": "עסקאות רכש ממשלתיות תומכות בשוק האנרגיה והגז.",
-     "en": "Government procurement deals support the energy and gas market.",
-     "ar": "صفقات الشراء الحكومية تدعم سوق الطاقة والغاز.",
-     "ru": "Правительственные закупочные сделки поддерживают энергетический и газовый рынок."
-    },
-    "name_i18n": {
-     "he": "קרן סל אנרגיה",
-     "en": "Energy Select Sector SPDR Fund",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 63.37,
-    "entry_price": 63.88,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 64.93,
-    "exit_date": "2026-11-13",
-    "change_pct": 1.64,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 1.61,
-    "edge_pct": 1.61,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "77dfc5267fe3",
   "evaluated": true
  },
  {
@@ -39657,27 +39062,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdTdNcmJVVFJJaUxxYmhFM2tId3dCanJyQmQ4T2ctSXNIRVFta1ZWN0VNWlhMdlRZanJRV2JyalQ5Tm80ZXNzM1VHdE05bFlMSURvcmZMdzkySUVIZy1sX0NQZWNZUVhfM0lIbW5NVkU3OGxtYl9TZ054SG9IZXhnNTNWQ3FvNXFWeXMyWDBUSWItLXdVdUczcjd4Z0V5eFphUjhtMExUQ0F2NERKWFg1S3hlc19hSlJQcGwxOF82Y3o?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUN5R2RHV3NHZFE2WGEzX3RhTXVtc01kU1MzaTY1dFRXYkN4WmJKUzMtVUVWZzdkcFZTYng0bWtBZURvNmoxVFduNVRDZjgyS1RHZzEwWXVNZGdDUGt3WHZYVkJ1ekctQWZ3c0FUZVhCbXdQQzVLV0czdnR2SHBicmZlNW01VGtVMVo0Q1JUZjBaZi1FWmtWdlBFRXQxWGI5SXRGdEVB?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQczlUcWpqd2N5RElncmc5Nlg0U2MxLUlHd0o5Z3NRNU9nb0k5UU5CWkxwS0NQQkg1N3NrYzVzYlpoWFJMT2Q2dG94bGl6dzVDWXd4N3puRlNCcGJNMmlHZ2VfVmlDcUFIcHh1Nmp3ZGpoYVZzYUZRWkxnSnJ4T25aZ3kwRjd4dE53VFY0LUtvSmRLMWUtMDZDVWFQOUdQR05xSEMxUk9XaXZtemZwTTNzTGdSaFlEYjd6N29xbWQyRE14dFVxZWhwLXFKVXBIQdIB0wFBVV95cUxQVDI0a2ZKcXVhODFlRjh1YWdhNWJZbW9zRlNGSUhMams3Q3RaRERVS29xVG1fVzdfY1QwT2o1LTQwWlNnOTVoNnFWVTFXZkNsYmJPOEphSGQ2UHhMZ25HOWJzRmVzazZpRzNmcW4zZ2tjbi1tdHNnWWJqVTVHb3lVVnkwdmVnSXp3Q0pQQy02a2pnemw1OEVLUktuTlNWNHJNRXcxTkFDUDRpWVdiX3N0bkVfN0hxTjlPVXdrS0NqQ3o0cGpmYmxDbGZKTmV4VHJaMTNB?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckFfOFlhbGRsQk40c2lMYmhQenVhN0s4NFhXcXJsU21EaHhyb2dXUXNuVTYtZ3NIdC1ZZUxiX0IxZmxzRXNxR21YNTNvQUItU0ZVM29aNTA3LWltN0JKd2RwNlJiNUh2WVI3SVZYMTJxLVFXdXJHaFUtVUVjLVc5M1NKX1c2NXRYQ2VrUFNyU0N5YjRpbHc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2tySzZlOUU2ZGstTVRZX3Vyek5vR0ROZmU1OEFFRWgxWWVrUnlaeENReG1zVHYycXUzb3NFOHlyU0ZKSmJhWVJJQm5zUlJJQndqLWl6ZkJkcEJVdTNHdkZET1VEdVp3WUtzRkhlM25KWWxMdjVXczNDaG12VFhYQmo0OFprUnNQVUNXMzd1WERnRnVZd3VTSEd0VWpBdVRCU2p2U1R4aGw3azNZM1NkcnlQZWQ0NG5FTkdrQndER3VZVXpNN2Zz?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUUdYVVMtRkdjSkZOVjF4RW5hNnJsSVptb2I4dkxjY3BHVFl5bHhzYmptQ29OUXR1OWI0bnN4dXlGVTlacHBSMUhwbkE3OVY1V2Roc2RFck4zZGRrcGVNZHh4cU9nWDk3Zm10S2VvVU51Zlpjc1VCMzVzRXJsTTlxY0lNNE9PamZhRW5EblVfNWluZGVieThqRVZhd1drUQ?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3ZPVndmc1FmN01SWGNwZ2N4TXBLTS0wYXJ2RzhRYWJaRTgyWGlXVmZGRFB4NWZ2Vm9oQU9UOHRCRW16OXN2TTUzVVNGZTJKTGhYQUJBX2ZPNzczcEZ5NEx4U3pfcXIwcHBWaWdNZnZqM1B3cDRFc0FEVEV1TW5vVEw4b3o2ZWs1NlAwVjNVZ1dzZW1jZHdvdW42WThmejNrOENjSTM2M1cwZUlGejhPanI0Zw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXBZZGFwa2pYN3lybXlVUEhCMmRFX1VlemJsRDlKOEdtWFB3Wng3czNsMi1OVzJSWkpQVHNnM0NRNmdiQkxnMGhfNEpvemdSR1h0VlVMZ3NkMXpOWEc2MGpGMWFFWS16cHl1eDY1d2JxRjF6NW13UFAyUTFIRy1RajhzQnVlS3lOVEduVFctQU9VQjB4SmxEZkNZb2RxLTRzRENJbjNvWQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVWhHVnYzY3BBWFVXUV9SRXZFaTNLUXcyeVV1QzVDZ01qWE81RHJaRl9vMVpMNl9QTkNvTVdpUDFRbzQ2bHRvQjJldXhveG0wNFVxcE1kRHZqbF9ac09FOS1zWUZMVWZSSFhTbHNQRUR0T1AzVndLVko4WlRXalZ5WmgyY0h5cDcxbzBIMno4d1EzYXN5NU96UkFndkt1b08zQ0t5dV9Wdzl2dVkxQjVfcVo2d1I1YUlMM0pVd3BVSWNVZlliaHNB?oc=5"
    }
   ],
   "impacts": [
@@ -39795,9 +39200,21 @@
      "ar": "أعلن التحالف بقيادة السعودية أنه تعامل بنجاح مع تهديد صاروخي حوثي استهدف الرياض، رافعاً حالة التأهب لاحقاً.",
      "ru": "Коалиция под руководством Саудовской Аравии заявила, что успешно справилась с ракетной угрозой хуситов в сторону Эр-Рияда, сняв режим повышенной готовности."
     }
+   },
+   {
+    "ts": 1795077389,
+    "time": "2026-11-19T08:36Z",
+    "severity": 6,
+    "summary": "כוחות הקואליציה בהובלת סעודיה יירו מספר טילים בליסטיים וטילי שיוט ששיגרו החות'ים לעבר הבירה ריאד ולדרום המדינה, ודיווחו על נזק חומרי כתוצאה משברי ליירוטים.",
+    "i18n": {
+     "he": "כוחות הקואליציה בהובלת סעודיה יירו מספר טילים בליסטיים וטילי שיוט ששיגרו החות'ים לעבר הבירה ריאד ולדרום המדינה, ודיווחו על נזק חומרי כתוצאה משברי ליירוטים.",
+     "en": "The Saudi-led coalition intercepted several ballistic and cruise missiles launched by Houthi forces toward Riyadh and southern regions, reporting material damage from falling debris.",
+     "ar": "اعترض التحالف بقيادة السعودية عدة صواريخ باليستية ومגاسة أطلقها الحوثيون نحو الرياض والمناطق الجنوبية، مع الإبلاغ عن أضرار مادية.",
+     "ru": "Коалиция во главе с Саудовской Аравией перехватила баллистические и крылатые ракеты, запущенные хуситами в сторону Эр-Рияда, сообщается о материальном ущербе."
+    }
    }
   ],
-  "last_update": 1795056699
+  "last_update": 1795077389
  },
  {
   "ts": 1794977928,
@@ -43886,10 +43303,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODBEcDhjTFhOdHZzZ0lNUV9kVndGZU05alhvTkQ3a0VxWjBnb1JDNDNDemZYeWRmc05ZUVJ1X3RlVjc0M09VNjZ0MlBRcEFqZk9rd1ltd1Rfb2dBa0UtRTNaMHUyZGNKWFUtdlltUHdqZnlfZ3RKaWY1dFdteDlQcGk4Q2k5TjRwbTJXUkx6TmpkTVJaZmlFbjlzU0JoeUVG?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1hoUWFfcmxDVWV6WEhWWHFuWnNRN1lla08xbmE2YkhrckY2VXBXX3ozemVTbG1weGM4bHVHamd4TmF1emp2dHNVS1Y4cVZzTmFDSW1hWnZxbHJrZ0M4bC1qM1I4V2poMWtWQjBDY0ZId09LWWI2OVFkb3ZObmJxYVRReFJNSmlSVUEtVnhGYWhuSXZuLTdoX0JnWnIyc0NuTUFLWU5RMm1jSk5wT2c?oc=5"
    },
    {
@@ -43903,6 +43316,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZXNyYmhLWnJTejhMRnlWb0szYjh2ZXlKdVlGYXVuUzFHeWIwUldidDItMG56amIyVlVaUGU3blp2UVpXdzVmc1FvTmRRVTlRZy0yNU1JNnVKMFpSZGlYeTh1a0xBX2JpZ3VLUV9ZQnhYS2ZrVld1NEUtUFk1TWtCeE5xakhkM3hNOVJkVVk3V2wzU0lDQnNXYWRTNWlweGEzRHVvZlpILWVtMlllM2RISkxuWGUtb3V1eFkzNmFrVE5zU3d2NlBtQXNzNTRQaU9uLTB0MUN3Q1I3VTFmazJRVHNxY2pMd1ZuM1hoYjRsd1FybzduaGpWQTVUQXF6dVhDNDVUYkVoRVd5cG_SAZACQVVfeXFMTWFZXzVTenRNWWFldXFFYk5sRVZKRXh5bVRTZ0F3RGpTSFZ5SHlSZFA0b1JFd3FRcXJ5SGJYSHFScGQzUGpYZHdNbnF6NmVRaWJndFkyS1RNQVk5Ym1xNzZIU0g0b1dxY0pGaGwyUUgzX2U4U1FDbi0wVjFTSVIwTV92Z09wMWl2bDZDX1o1T2EwbW0zcG1FUUY4Z0JjclkxYXhNSFRjaWZ5RXhSUmhvUlNLczVENU1GR3ZVVW9fTm9GWUNmZUF5YVpoOExvcURWQWltQXNtX0k4ak5CSTNqX21hTElfOHFhd3dxSjlZRFpYMXhldm5RZFJEZ0k1OUVuZFhxT3lfZmVPTGV4WHZGSjc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWEE2VmRkOWFLOUZEOGhkYmRENVdVSmIwaEY5LVQyeWEtdXBvNkEtMTdoa3lILUIxS256czgxd25FWnVaWmJ3ZTRyTy0yMk9fOUVqVnNUX25iTUZKdGtOaGJUcmM1SWp5SjlNS3pRcUFINnpGT2QtMGxnWFpkcGZYNWZKUUd0NU1uMXR5VjNETklqb1NZaDgzSGxoVFd0cHZBZG5RZmVCTllOMU1ud2VndUVNa0NudVkwOUFxdE1RWjZRQzJ1b2pYTUo5QTdIMWNaN1lyQjRvazJjTXhV?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVDhrel95aDlUQlk2blhJWnhGZWFZNzNwLWl3dDNZcDNiR0N1S1Z6QWlFR21uZ25TMW5EbjlkUUJwSFFsMGpzQ1RWdkFXSGNFOE04THJaZF92N0RmeTVJTWdMdnY0TmxhU2FnNE96dFZCcVpNRVExQU1OamJxUElnZ3hNYW9rUE5HYll0NGZKY25TcHpCZC12ODRVVTk3UEJQWjNNRkV6b2FXSElpVzBRdFJfbVdqdkVwY2FfT1FjNA?oc=5"
    }
   ],
   "impacts": [
@@ -43958,9 +43379,21 @@
      "ar": "انخفضت أسعار النحاس في بورصة لندن للمعادن إلى أدنى مستوى في سبعة أشهر، مما أدى إلى مكاسب في أسهم الشركات الاستهلاكية التي تستفيد من انخفاض تكاليف الإنتاج.",
      "ru": "Цены на медь на Лондонской бирже металлов упали до семимесячного минимума, что привело к росту акций потребительских компаний, выигрывающих от снижения производственных затрат."
     }
+   },
+   {
+    "ts": 1795077389,
+    "time": "2026-11-19T08:36Z",
+    "severity": 3,
+    "summary": "דוחות מצביעים על כך שמחסור במינרלים קריטיים מאיים על צמיחת הבינה המלאכותית, בעוד מחירי הנחושת ירדו לשפל של 7 חודשים ודחפו מניות ייצור מעלה.",
+    "i18n": {
+     "he": "דוחות מצביעים על כך שמחסור במינרלים קריטיים מאיים על צמיחת הבינה המלאכותית, בעוד מחירי הנחושת ירדו לשפל של 7 חודשים ודחפו מניות ייצור מעלה.",
+     "en": "Reports show critical mineral shortages threaten AI growth, even as copper prices hit a 7-month low, sparking rallies in select manufacturing stocks.",
+     "ar": "تقارير تشير إلى أن نقص المعادن يهدد نمو الذكاء الاصطناعي، بينما هبطت أسعار النحاس لأدنى مستوى في 7 أشهر دافعة أسهم التصنيع للصعود.",
+     "ru": "Отчеты показывают, что дефицит минералов угрожает росту ИИ, хотя цены на медь упали до 7-месячного минимума, подтолкнув акции производителей."
+    }
    }
   ],
-  "last_update": 1795068188
+  "last_update": 1795077389
  },
  {
   "ts": 1795041454,
@@ -45867,6 +45300,10 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yTnl0T2ZOQ0N5RlBfSFVNSUc1cEZVU1cxX29relB0RE15ZkFsNXM3WDZPcnlKNG04RjZWdHVldkViTV9TazNmZjU2OVdBVVZ3Q2Jz?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWVZQW1PSXc1WENoRzFxT2s3YW5BQS10Z0ZnZy1vWWJMQWRSellZMEVFclY0RHAxZ1VVSVhsdkJRenluTldYdnUwT2s5UFFlaG1GOXlySkwzb2VDN2Y2Yk11NWl1V1ZYSG1TNThySDZ1bTBORnFzbGdTTXYxY0h2d2R6RXJKM0hYekRxeUhJMC16aWRGMnlzRTNGSC1WMEgxYUREeEpVOUc4Y3h3V3ppbzQ2VEhQV3B6ZUhBSHRkLThpZVo1bnlMcEdfcknSAdQBQVVfeXFMUGlVYWdpaTJWSXhITzdFVG12NWw4N2JaZnJ6eU9fV2tZY2ZtTVRRLURpU0NUZDJ6YVRjQk1MSHg3QUxYRnNMYmJ6enR1cWNIMy1pYzg2MFlObGNGRXY5YzZsUGF6QVFOMmJNSG1xZi1ZWHJ0M1J0bzBJRERGZUhYMXRRSlJRWW4yOEN2NzRDWE0wQ0tIT0JxMFA2NjZxTkh5MDZIS3lGQW9xXzBGSXU3eUZZMUlpSXp1Q2FsWUNESTBCUjNUUVZmNHctX2h1ZXRKSzN1a18?oc=5"
    }
   ],
   "impacts": [
@@ -45909,6 +45346,215 @@
     "price_at_alert": 29.62
    }
   ],
-  "id": "a6a4a21a83a8"
+  "id": "a6a4a21a83a8",
+  "updates": [
+   {
+    "ts": 1795077389,
+    "time": "2026-11-19T08:36Z",
+    "severity": 4,
+    "summary": "הכלל הראשי לכלכלה בהודו ציין כי הגרוע מכל בנוגע למתיחות המכסים בין הודו לארה\"ב עשוי להיות מאחוריהן, לקראת חתימה צפויה על הסכם סחר בדצמבר.",
+    "i18n": {
+     "he": "הכלל הראשי לכלכלה בהודו ציין כי הגרוע מכל בנוגע למתיחות המכסים בין הודו לארה\"ב עשוי להיות מאחוריהן, לקראת חתימה צפויה על הסכם סחר בדצמבר.",
+     "en": "India's Chief Economic Advisor stated that the worst of tariff tensions with the US may be over, ahead of a anticipated trade deal in December.",
+     "ar": "أشار المستشار الاقتصادي للهند إلى أن أسوأ توترات الرسوم الجمركية مع أمريكا قد انتهت، قبيل توقيع متوقع لاتفاق تجاري في ديسمبر.",
+     "ru": "Главный экономический советник Индии заявил, что худшее в тарифной напряженности с США позади в преддверии торговой сделки в декабре."
+    }
+   }
+  ],
+  "last_update": 1795077389
+ },
+ {
+  "ts": 1795077389,
+  "time": "2026-11-19T08:36Z",
+  "title": "שברון קרובה לרכישת בייקון אופשור תמורת 5 מיליארד דולר",
+  "summary": "ענקית האנרגיה שברון מנהלת מגעים מתקדמים לרכישת חברת קידוחי הנפט הימיים בייקון אופשור תמורת כ-5 מיליארד דולר.",
+  "kid": "חברת אנרגיה גדולה רוצה לקנות חברה קטנה יותר שקדחת נפט בים תמורת מיליארדים. עסקאות ענק כאלו עשויות להשפיע על שווי המניות של החברות המעורבות.",
+  "i18n": {
+   "title": {
+    "he": "שברון קרובה לרכישת בייקון אופשור תמורת 5 מיליארד דולר",
+    "en": "Chevron nears $5 billion deal to buy Beacon Offshore",
+    "ar": "شيفرون تقترب من صفقة بقيمة 5 مليارات دولار لشراء بيكون أوفشور",
+    "ru": "Chevron близка к покупке Beacon Offshore за 5 миллиардов долларов"
+   },
+   "summary": {
+    "he": "ענקית האנרגיה שברון מנהלת מגעים מתקדמים לרכישת חברת קידוחי הנפט הימיים בייקון אופשור תמורת כ-5 מיליארד דולר.",
+    "en": "Energy giant Chevron is in advanced talks to acquire offshore oil driller Beacon Offshore for approximately $5 billion.",
+    "ar": "تخوض عمانة الطاقة شيفرون محادثات متقدمة للاستحواذ على شركة التنقيب البحري بيكون أوفشور بحوالي 5 مليارات دولار.",
+    "ru": "Энергетический гигант Chevron ведет продвинутые переговоры о покупке буровой компании Beacon Offshore примерно за 5 миллиардов долларов."
+   },
+   "kid": {
+    "he": "חברת אנרגיה גדולה רוצה לקנות חברה קטנה יותר שקדחת נפט בים תמורת מיליארדים. עסקאות ענק כאלו עשויות להשפיע על שווי המניות של החברות המעורבות.",
+    "en": "A major energy company is buying an offshore drilling firm for billions. Such large deals can impact the stock values of the companies involved.",
+    "ar": "شركة طاقة كبرى تريد شراء شركة تنقيب بحري بمليارات الدولارات. هذه الصفقات الكبرى تؤثر على أسهم الشركات المعنية.",
+    "ru": "Крупная энергетическая компания покупает морскую буровую фирму за миллиарды. Такие сделки могут повлиять на акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeXRMYlVhNWVZQ2hwNV95WUhqazFkRVpTOHJuZjRNRl9YcUhGWGxYcWpDSjJabHlnSWJONUFiRjdzTFFIaUNIT21lTDB6VnBPWHB4R3RwWFozZ1l6dUVFNFlNamsyRTlrMlhPdkR6ZEh6cl93NHcxSlFGa1FkZTBYMkV6d09rTDVLSU9KTEU1cnlTRGo2Q3hvWGlOaHlDdw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1795077389,
+    "reason": "הרחבת פעילות הקידוח הימי עשויה לחזק את פורטפוליו הנכסים של החברה",
+    "reason_i18n": {
+     "he": "הרחבת פעילות הקידוח הימי עשויה לחזק את פורטפוליו הנכסים של החברה",
+     "en": "Expansion of offshore assets could strengthen the company's portfolio",
+     "ar": "توسيع الأصول البحرية قد يعزز محفظة الشركة",
+     "ru": "Расширение морских активов может укрепить портфель компании"
+    },
+    "name_i18n": {
+     "he": "שברון – חברת אנרגיה גדולה",
+     "en": "Chevron – major energy company",
+     "ar": "شيفرون – شركة طاقة كبرى",
+     "ru": "Chevron – крупная энергетическая компания"
+    },
+    "price_at_alert": 205.88
+   }
+  ],
+  "id": "021e6540441e"
+ },
+ {
+  "ts": 1795077389,
+  "time": "2026-11-19T08:36Z",
+  "title": "מתקפת סייבר משמעותית פגעה במערכות הנציבות האירופית",
+  "summary": "הנציבות האירופית דיווחה על מתקפת סייבר ששיבשה חלק ממערכותיה, כולל מערכות השכר והחופשות, ועוררה חששות מפני דליפת נתונים אפשרית.",
+  "kid": "האקרים פרצו למחשבים של ממשלת אירופה ושיבשו את עבודתם. זה יכול להשפיע על חברות אבטחת מידע שצריכות לעזור להגן על המערכות.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת סייבר משמעותית פגעה במערכות הנציבות האירופית",
+    "en": "Major cyberattack disrupts European Commission systems",
+    "ar": "هجوم سيبراني كبير يعطل أنظمة المفوضية الأوروبية",
+    "ru": "Крупная кибератака нарушила работу систем Европейской комиссии"
+   },
+   "summary": {
+    "he": "הנציבות האירופית דיווחה על מתקפת סייבר ששיבשה חלק ממערכותיה, כולל מערכות השכר והחופשות, ועוררה חששות מפני דליפת נתונים אפשרית.",
+    "en": "The European Commission reported a cyberattack that disrupted certain systems, including pay and leave infrastructure, raising concerns over potential data leaks.",
+    "ar": "أبلغت المفوضية الأوروبية عن وقوع هجوم سيبراني أدى إلى تعطيل بعض أنظمتها، مما أثار مخاوف بشأن تسرب محتمل للبيانات.",
+    "ru": "Европейская комиссия сообщила о кибератаке, которая нарушила работу некоторых систем, включая выплаты и отпуска, вызвав опасения по поводу утечки данных."
+   },
+   "kid": {
+    "he": "האקרים פרצו למחשבים של ממשלת אירופה ושיבשו את עבודתם. זה יכול להשפיע על חברות אבטחת מידע שצריכות לעזור להגן על המערכות.",
+    "en": "Hackers breached computers belonging to the European government, disrupting internal systems. This can affect cybersecurity stocks that help protect networks.",
+    "ar": "اخترق قراصنة أجهزة حواسيب تابعة للحكومة الأوروبية وعطلوا عملها. قد يؤثر هذا على أسهم أمن المعلومات.",
+    "ru": "Хакеры взломали компьютеры европейского правительства и нарушили их работу. Это может повлиять на акции компаний по кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOVlhWmtMaUw4T00ySGNvLXRaWXNJZ3dMWDR4S01HdmRtZGVjSjUtVGpSaW9nT1FaV0tpdjJLX0tMejZSajNEVUEzclk5TEZ0ZFJBRUlTUHBMQmFVSlNpNWRtN0hBVFNLb0Q5dGlBWVhZSTM0bmtTY2NRVzg5LVpqNGNMcUxQWDRQY000VEd0alNZVkY3X1l6RWVmX0w5WWZu?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbXpnLUhJdG1GclhjZHJsQVZXaTJ0NW94eGJHekQ0OTZPdy1IWUlwMm9xLTlnVThodnl1TWFVTjFXSGEtT3I0cXZjd2NQTGdLUTdYWmRvTHVuWGpOZGc4cUM5Q213M0dLOXdSODBsY1NuV2tlTTdHYzQyY3EtR0VBUWpOUGF1ZmU3bXQw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZHdzeHVjSm1NSExFY0dEYWtHM01qTHE3V3ZPY04zWlhQb3hmczNiOVBHaG56YjJkT20tTkhzVUJkdDd1YWVWSUVfS0lpUk9MSlNfVXpxamlXM0pDMy1vbzNQaVJGTzhNcWVkRGRvdFNDV2RkSmp3WEJpNUpHUGRXSFFoRTJzX2xVQ0psc2dURzZYalhEN3d3TlFlZ1FhLS1XX09aMjd3RlZjWURnSHc?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmlENkZ0TGY2bVFBd2xIcnhMMlUwUHZ0aXZIQ3pRd3pIVWpWR1duOUR3MEZWUDluSHFIVDU2a0psYl9zQmJDbTNiYVJpS05hY2NkTDkzeXRJVzFJUXhfRF9hYkxhTm1tdHF5SENGcDBIOVhDMnYyTU51UHhqWTdnbmNrd1dFcmNnWkRuOGIwbldXZHVpRjVjSHhMTFNEdDA5dzZMcUU0NHhaNm5Q?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795077389,
+    "reason": "עלייה בביקוש לפתרונות הגנה בעקבות פריצות ממשלתיות",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות הגנה בעקבות פריצות ממשלתיות",
+     "en": "Increased demand for defense solutions following government breaches",
+     "ar": "زيادة الطلب على حلول الحماية بعد الاختراقات الحكومية",
+     "ru": "Рост спроса на защитные решения после взломов"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity firm",
+     "ar": "كراودسترايك – شركة أمن سيبراني",
+     "ru": "CrowdStrike – компания по кибербезопасности"
+    },
+    "price_at_alert": 237.03
+   }
+  ],
+  "id": "3a1d7280ba39"
+ },
+ {
+  "ts": 1795077389,
+  "time": "2026-11-19T08:36Z",
+  "title": "האינפלציה בדרום אפריקה עולה ל-5.2% על רקע זינוק במחירי הדלק והמזון",
+  "summary": "נתוני אינפלציה חמים בדרום אפריקה הראו עלייה לרמה של 5.2%, מונעים מזינוק במחירי המזון והדלק, מה שמעיב על המטבע המקומי הראנד.",
+  "kid": "המחירים של דלק ואוכל בדרום אפריקה עלו יותר מהצפוי. זה מקשה על הכלכלה המקומית ויכול להשפיע על ערך המטבע שלהם.",
+  "i18n": {
+   "title": {
+    "he": "האינפלציה בדרום אפריקה עולה ל-5.2% על רקע זינוק במחירי הדלק והמזון",
+    "en": "South Africa Inflation Rises to 5.2% as Fuel and Food Prices Jump",
+    "ar": "التضخم في جنوب إفريقيا يرتفع إلى 5.2% مع قفزة أسعار الوقود والغذاء",
+    "ru": "Инфляция в Южной Африке выросла до 5.2% на фоне скачка цен на топливо и продукты"
+   },
+   "summary": {
+    "he": "נתוני אינפלציה חמים בדרום אפריקה הראו עלייה לרמה של 5.2%, מונעים מזינוק במחירי המזון והדלק, מה שמעיב על המטבע המקומי הראנד.",
+    "en": "Hot inflation data in South Africa showed a rise to 5.2%, driven by increasing food and fuel costs, weighing heavily on the local rand currency.",
+    "ar": "أظهرت بيانات التضخم الساخنة في جنوب إفريقيا ارتفاعاً إلى 5.2% مدفوعة بزيادة تكاليف الغذاء والوقود، مما ضغط على الراند.",
+    "ru": "Данные по инфляции в Южной Африке показали рост до 5.2% из-за роста цен на еду и топливо, что давит на местный ранд."
+   },
+   "kid": {
+    "he": "המחירים של דלק ואוכל בדרום אפריקה עלו יותר מהצפוי. זה מקשה על הכלכלה המקומית ויכול להשפיע על ערך המטבע שלהם.",
+    "en": "Prices for fuel and food in South Africa rose more than expected, straining the local economy and pressuring their currency value.",
+    "ar": "ارتفعت أسعار الوقود والغذاء في جنوب إفريقيا أكثر من المتوقع، مما يضغط على الاقتصاد المحلي وعملتهم.",
+    "ru": "Цены на топливо и еду в Южной Африке выросли сильнее ожиданий, давя на экономику и местную валюту."
+   }
+  },
+  "category": "macro",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTm5RWF9VaXZmeTY0ZU1SV3UyRENTV3lURjF2NVdoQ3NvT2h0dnMxX29QYnYxS0ZESTRXUkc5Y19IRS1keXRscEFRdUEybldMbUFkSnR6U214ZkZJYlRWLVVFT0RJd0xQYVZzYm9iYWt0Mjh3azdrdnRVVEVpc3I1Wm94bUJaWEZzempSSE5UYWRSV1pUUkE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWm1Hdk1yelRxSkhnbkNubW1tbjRMeHEweWRSMXdsRHkwOWR0NUF0RVJqYlZHVUpaOUg2M2JpSTJJS1R1M0F3TjFTbXA4MURZRXRGYWxJMnV0STVQZF9OeVZ5LWxSSGxrUVgxdkJsS19PVXMwVXFqT3hKMWl1M0ZGempn?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ053YVgxYk92aVZhSUhfcVdBcVdfbTAtSjBwbnp2UnJqVWt3c3pJdC01ZmpWSldEcFJzakpobnhiNVNlUkFZTlJMQ2ZzTWpiTEZ2Qjh5Vi1UUkNHVURZZkJGR0pUdmRCaGw3U3VVd3ZzOWtJMHZIRHhvalRjaC1pZHZlWlN5SEc3OE9ZZXhEQXFld0lGUkFBLWtIOE9aQVozTTRwQzJ1ZTl3eERkMFdjSHpDa2pGclZrQ1M3Qk1n?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EZA",
+    "direction": "down",
+    "t0": 1795077389,
+    "reason": "אינפלציה גבוהה וחלשות המטבע פוגעים בביצועי השוק המקומי",
+    "reason_i18n": {
+     "he": "אינפלציה גבוהה וחלשות המטבע פוגעים בביצועי השוק המקומי",
+     "en": "High inflation and currency weakness hurt local market performance",
+     "ar": "التضخم المرتفع وضعف العملة يضران بأداء السوق المحلية",
+     "ru": "Высокая инфляция и слабость валюты портят показатели рынка"
+    },
+    "name_i18n": {
+     "he": "קרן סל על דרום אפריקה",
+     "en": "South Africa ETF",
+     "ar": "صندوق الاستثمار لجوب إفريقيا",
+     "ru": "ETF на Южную Африку"
+    },
+    "price_at_alert": 59.54
+   }
+  ],
+  "id": "b8775ae9f4a6"
  }
 ]
