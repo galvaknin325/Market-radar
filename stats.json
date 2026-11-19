@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T06:04Z",
+ "generated": "2026-11-19T07:17Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1137,
+ "total_alerts": 1140,
  "overall": {
   "n": 800,
   "hits": 401,
@@ -318,14 +318,14 @@
    "avg_edge": -0.14
   },
   "FXE": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 15,
    "hits": 5,
    "name": {
-    "he": "קרן סל על האירו מול הדולר",
-    "en": "FXE - CurrencyShares Euro Trust",
-    "ar": "FXE - صندوق اليورو",
-    "ru": "FXE - ETF евро"
+    "he": "קרן העוקבת אחר שער היורו",
+    "en": "Invesco CurrencyShares Euro Trust",
+    "ar": "صندوق العملة الأوروبية اليورو",
+    "ru": "ETF евро"
    },
    "avg_edge": -0.55
   },
@@ -366,14 +366,14 @@
    "avg_edge": -0.16
   },
   "XLV": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 28,
    "hits": 20,
    "name": {
-    "he": "XLV - קרן סל תחום הבריאות",
-    "en": "XLV - Health Care Select Sector SPDR Fund",
-    "ar": "XLV - صندوق قطاع الرعاية الصحية",
-    "ru": "XLV - ETF сектора здравоохранения"
+    "he": "תעודת סל על סקטור הבריאות",
+    "en": "Health Care Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الرعاية الصحية",
+    "ru": "Биржевой фонд сектора здравоохранения"
    },
    "avg_edge": 0.42
   },
@@ -510,14 +510,14 @@
    "avg_edge": 0.45
   },
   "INDA": {
-   "mentions": 25,
+   "mentions": 26,
    "n": 24,
    "hits": 14,
    "name": {
-    "he": "קרן סל על שוק המניות בהודו",
-    "en": "INDA - iShares MSCI India ETF",
-    "ar": "INDA - صندوق الأسهم الهندية",
-    "ru": "INDA - ETF индийских акций"
+    "he": "תעודת סל על שוק המניות של הודו",
+    "en": "iShares MSCI India ETF",
+    "ar": "صندوق مؤشر الأسهم الهندية",
+    "ru": "ETF акций Индии"
    },
    "avg_edge": 0.33
   },
@@ -654,14 +654,14 @@
    "avg_edge": 0.33
   },
   "UUP": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 28,
    "hits": 18,
    "name": {
-    "he": "UUP – קרן סל העוקבת אחר מדד הדולר",
-    "en": "UUP – Invesco DB US Dollar Index Bullish Fund",
-    "ar": "UUP – صندوق مؤشر الدولار الأمريكي",
-    "ru": "UUP – ETF индекса доллара США"
+    "he": "קרן העוקבת אחר מדד הדולר האמריקאי",
+    "en": "Invesco DB US Dollar Index Bullish Fund",
+    "ar": "صندوق مؤشر الدولار الأمريكي",
+    "ru": "ETF доллара США"
    },
    "avg_edge": 0.59
   },
@@ -870,14 +870,14 @@
    "avg_edge": 1.65
   },
   "EWQ": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 6,
    "hits": 2,
    "name": {
-    "he": "קרן סל צרפת",
-    "en": "France ETF",
-    "ar": "صندوق استثمار فرنسا",
-    "ru": "ETF на Францию"
+    "he": "תעודת סל על שוק המניות של צרפת",
+    "en": "iShares MSCI France ETF",
+    "ar": "صندوق مؤشر الأسهم الفرنسية",
+    "ru": "ETF акций Франции"
    },
    "avg_edge": -0.92
   },
@@ -1706,6 +1706,18 @@
     "en": "Corn",
     "ar": "الذرة",
     "ru": "Кукуруза"
+   },
+   "avg_edge": null
+  },
+  "ABBV": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אבווי – חברת תרופות גדולה",
+    "en": "AbbVie – a major pharmaceutical company",
+    "ar": "أبفي – شركة أدوية كبرى",
+    "ru": "AbbVie — крупная фармацевтическая компания"
    },
    "avg_edge": null
   }

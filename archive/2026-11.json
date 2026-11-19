@@ -117607,7 +117607,12 @@
   "category": "contracts",
   "severity": 4,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMm5qd0c2UktjLUhjS0pOczhaVVA0aWw2VDNScmgxWTVvQkFQenI4eHlPdXZ1ZVJwS1VoRnMyUUlUWTdxM1dWUzZRTkdncHJ1WXdVVGVGMFZUTnlaeTBqUVVBWExhampUMFdnOElNeWtsZ1RudmlNS0R0ekdwalNLUkRYdlBjektHbkY0clpwX0NYc1FrTldnSQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "BA",
@@ -117648,7 +117653,22 @@
     "price_at_alert": 69.42
    }
   ],
-  "id": "4ed696c01c65"
+  "id": "4ed696c01c65",
+  "updates": [
+   {
+    "ts": 1795072608,
+    "time": "2026-11-19T07:16Z",
+    "severity": 4,
+    "summary": "משרד ההגנה של הודו חתם על חוזה בשווי של כ-1.97 מיליארד רופי (כ-240 מיליון דולר) עם התעשייה האווירית לישראל.",
+    "i18n": {
+     "he": "משרד ההגנה של הודו חתם על חוזה בשווי של כ-1.97 מיליארד רופי (כ-240 מיליון דולר) עם התעשייה האווירית לישראל.",
+     "en": "India's Ministry of Defense has inked a contract worth approximately 1.97 billion rupees (around $240M) with Israel Aerospace Industries.",
+     "ar": "وقعت وزارة الدفاع الهندية عقداً بقيمة نحو 1.97 مليار روبية مع صناعات الطيران والفضاء الإسرائيلية.",
+     "ru": "Министерство обороны Индии подписало контракт на сумму около 1,97 млрд рупий с Israel Aerospace Industries."
+    }
+   }
+  ],
+  "last_update": 1795072608
  },
  {
   "ts": 1795023738,
@@ -120203,18 +120223,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVVlMU1VwRi1uNjBNc3Btb2JCbTBNaDNiOEx1UGVxUGgxRTBCQnlyX01yYThuSlJQbXB5N2dzQXloT0FnNUNWT0tTR2hZdFJ4WDdHUTBwMkc0RTY5WVo3dGVESUdLdXpaXzloTlhQWVhhTmo3RWVlam53cXM2SzAwNTIwX28yTFlYeVd4ckR4WnBkMEZSUFJuNmtqSEtCSllvMkZUX0paVGI5YUYzMTdzdjBxUEtsUGx1Tzl5VFB5c0JYV3RaQXBXaEM1Y0hzdzJMX0RIZVNJcGwyajRiczlVX01aTzRRTFBG0gHvAUFVX3lxTE1pcGllTHBnNVZUUU8weXVVRFFMb29CaGxmUGljQUlnTVZ5RHpCMlo2OTBzWlBsdkUzeVFOcml4ZlN0MDdUeHI2bkx6cVpCcVZUdW9BZmJTelVWQUUxcDh6RFgwRG9rYlphLVJibWdieHA0LXdPRkgwLUJkNlk1REt1a3FsUWRtcnpCWlI0aWdYV1BZRjZ3bDltd0FYMGNJT0VoY3h6cFlMZjNHTzV6U202RUpCRzM2ancyVU5TNURtYlJ6NVc5Q0xxd3RELWxBdFBlWHZINDJyUzlET2sxbUw1WXlObVVTSmdWSGNnRy1j?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOUmllNlRiRDFOZC1WeWdlRmVfSjZoTTRsbHBCRzc0NlZiYmRURldfMDhiWnR6ZE9oc0pRb3BWdzBqWkpJYnBIQXNiTzlBUy1CSGN5ZXlETmVCS09EczJtRW5DYmRCS2hPemJaT1dPenVLYXRJREo4dURfMUxSWTZaN3hRaEgzX3dVT0VBNndzelctaEhDaWNmSGFMb19UU1MwdGJfeHl3ek1NMXpnQmswZWRHcmFBMS1jbHpFTHI3NVpuMEhHYlRGdDFJWVptMzBaZkFHTzVzb05aMDFqSGdqTmxvYlpaVmVhSER1eThFOGRWcXFZMG1NSzNBT0XSAYICQVVfeXFMTWJRajlQSXNRSUJ2VzlHb2Nrc2xvVkJHSHNpZTVsVGYyRFh6SklWcGVQdGVMTVRHZlI1QmZHdm5pQzVnajl2YlQ2SjNJWXl5N3hZM3dsQ0lHVDc3bW91ZGlqQTFMQkdiTEp4TG5rQjFKb3dDdWI0RWEyMHlGZzEwUXp1aUxrVTdkTTlQN0FrNlNRNmZCNnd0UGdZWkdueXdXNzhkcUZmUkd6bTNnR0U2VnJ6amF3QllUMUdGUWRZaEFZbGdySkt4bzEtQ2NFaEtQYUtjWnhMbGlJc0cwM2kyN09KZ2ZldmQ5a1pCODc5dDYzelFIUWQ0U0tWYjhhb1pfYVBB?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMmt6NmRMMVV4ajR3U0NXUElHWlQtdWRaY1VLOVdhb1ZfZEhmRlBjOU1lRDBVd3djU0lfbkdXdTJ3MDU4RGp6dER3NThBOTd5Zzg3MmhwWnY0aktqcGU0Y2lxcV91MjJyOHoxTy1PelNWR0VIdXRoc0hsZnpFakFYUDNFTFM4SnE0emY0dzM1a25CSEJNRmRJbU14ZDJLRmtyU3F2R295SW9Ndw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONnlvaDRnalYyZUxUUkdienNiUzdrdkRJdkY5VFNRb2R6RE5SczVjYWgzckQwMVpjSEJ5Y0loOFBpMDB5YVVWbGtRNWFyWEljQWdldHZSRi1VcmctUTBRbE1rNEpYZWtvLURZQ2NzbVlxdnF5cTRTR3RPNTltb1pyODRTdjlsRzNhZEg0bnR4eE5nelJDSmtQX2trMDZWdmhaUVBhYQ?oc=5"
    },
    {
@@ -120224,6 +120232,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUZmVW1vTXFsSW1VSkdjT0Z1VllLUElod2NkZGkxVDVnOUJRMV9FWjVuTnB4ak51Szd6X3owc0lkVlpmUTRSWW10d1huTmdlR09nQ240c0J4TjBLdkRVY2YwYXJ1bDJybEJzam1JbjUwcFM0UEdiVWwtNnJQLVpxUHBTQW15MDNhSXRLazRjaHZ5QmptYzZRdDNQT1hhSlBIdVJTcWRJSEtabTQ3TDgtS0toS1ZLeUFkekwxbFExN2ZabXRVMWRRU01ZY0NZWEUtLUExdHEyS23SAd4BQVVfeXFMTWxRbm1ROC1HeC05NzBXYkV1NmxwaFNLRkI2VDU1eXZvY0kyd2VPTEJtb0I3MWJQZk1Qb0llTjNCdXlJc0w2X0RocHp3cThwWG8tc1NGRHphOHpfNndhbm5VbGVSczl3dF92MzVHMzdkQk9UX2FkMEs5bVVrb01qTHFQakowMm9OUmNtM0ZlQXV6enZBQWk0QWVOV2JYMTFZLWZ0cDcwNVFBVHNDM0luVGtXUFFDUktyN1YzQTFQSmwzYmdNQVNMYUdybVQtYkVsQ3dMb1ZnN0FZZk13bjB3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EaHVfYU9iVDNMaEVFa1dET1JUamNsSFItamxEZUpUQ3M5cVN0aGpESV9FYkpWejRVRUk5ZGdoWGFDYXMwUGNrYzlrRVEwcjFtTTRBUEk3VkdkelFBdnZKakQ5VW42TU4xSnY0?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMWhrTFMwSFlWTE0weklwT055a2RyRlVqMFdBS181T2VxbFoxUDNqN0pGRE53Wnk3dkFyazFwR3FMRXI1aU9iS3pUY0lkTm9pOUNFNzA5TFpVc2VJVzR2XzRBSEZSNTU5SEE0NDgwSWlLTm9XMjJ2TzFWdlAxMDdfd0lRZw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSUJuUDBKOUFEOFh6bEZiR2ZqT1FLa2FqanYwZmo1a3lXMkVNcjVsZy1WVTA0REpfbmxaZzVzTHV4QlEwNy1DSjZVVUczN2E2b3FpazBpM1FmX2huVXZ5QVJ2SkMxdVdLS1RQMWJXZE5vNnloOXVuc3hKNndIVnVOUmRqSUxMaFU4TmxQSTVtMi11bEY2UVFGNzNreDE0VFk?oc=5"
    }
   ],
   "impacts": [
@@ -120266,7 +120286,22 @@
     "price_at_alert": 150.96
    }
   ],
-  "id": "cd6143ecd4d5"
+  "id": "cd6143ecd4d5",
+  "updates": [
+   {
+    "ts": 1795072608,
+    "time": "2026-11-19T07:16Z",
+    "severity": 6,
+    "summary": "נשיא ארה\"ב דונלד טראמפ הצהיר כי המדינה מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית בשל חששות תחרותיים.",
+    "i18n": {
+     "he": "נשיא ארה\"ב דונלד טראמפ הצהיר כי המדינה מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית בשל חששות תחרותיים.",
+     "en": "US President Donald Trump stated that the US opposes any form of 'globalist regulation' of artificial intelligence due to competition concerns.",
+     "ar": "صرح الرئيس الأمريكي دونالد ترامب بأن الولايات المتحدة تعارض أي شكل من أشكال التنظيم العالمي للذكاء الاصطناعي لأسباب تنافسية.",
+     "ru": "Президент США Дональд Трамп заявил, что США выступают против любой «глобалистской регуляции» искусственного интеллекта из соображений конкуренции."
+    }
+   }
+  ],
+  "last_update": 1795072608
  },
  {
   "ts": 1795064539,
@@ -120595,5 +120630,240 @@
    }
   ],
   "id": "8369ba970f02"
+ },
+ {
+  "ts": 1795072608,
+  "time": "2026-11-19T07:16Z",
+  "title": "היורו צונח לשפל של 18 חודשים על רקע סיכוני הבחירות בצרפת ב-2027",
+  "summary": "היורו ירד מתחת לרמת 1.10 דולר לשפל של 18 חודשים, כאשר חששות פוליטיים סביב הבחירות בצרפת ב-2027 מעלים את ההימורים הדוביים.",
+  "kid": "ערך היורו ירד מול הדולר לשפל חדש בגלל שמשקיעים חוששים מאי-ודאות פוליטית בצרפת לקראת הבחירות הבאות.",
+  "i18n": {
+   "title": {
+    "he": "היורו צונח לשפל של 18 חודשים על רקע סיכוני הבחירות בצרפת ב-2027",
+    "en": "Euro falls below 1.10 as 2027 French election risks rise",
+    "ar": "اليورو يهبط دون 1.10 وسط مخاوف الانتخابات الفرنسية 2027",
+    "ru": "Евро падает ниже 1,10 на фоне рисков выборов во Франции в 2027 году"
+   },
+   "summary": {
+    "he": "היורו ירד מתחת לרמת 1.10 דולר לשפל של 18 חודשים, כאשר חששות פוליטיים סביב הבחירות בצרפת ב-2027 מעלים את ההימורים הדוביים.",
+    "en": "The euro dropped below 1.10 to an 18-month low as political risks concerning France's 2027 election drive up bearish bets.",
+    "ar": "هبط اليورو دون مستويات 1.10 إلى أدنى مستوى في 18 عاماً وسط تزايد المخاطر السياسية المحيطة بانتخابات فرنسا 2027.",
+    "ru": "Евро упал ниже отметки 1,10 до 18-месячного минимума, так как политические риски вокруг выборов во Франции 2027 года усиливают медвежьи настроения."
+   },
+   "kid": {
+    "he": "ערך היורו ירד מול הדולר לשפל חדש בגלל שמשקיעים חוששים מאי-ודאות פוליטית בצרפת לקראת הבחירות הבאות.",
+    "en": "The euro dropped against the dollar to a multi-month low because investors are worried about political uncertainty in France.",
+    "ar": "انخفضت قيمة اليورو مقابل الدولار إلى أدنى مستوى بسبب قلق المستثمرين من عدم اليقين السياسي في فرنسا.",
+    "ru": "Курс евро по отношению к доллару снизился до многомесячного минимума из-за опасений инвесторов по поводу политической нестабильности во Франции."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zY2kwdUw4eUo3VUtpWDZZMFE3VzZnc0cyVHpHdWRpRWRyUHdLVUVPV2hGVTRzMXhmbnJ5TEVCRXVQakZPXzA1QnhqbU0tX3FzMkxKc3BKNlA4YVZSdE52akFNOG1XMHVjRjdNREhIUkRHN3ZOSXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXE",
+    "direction": "down",
+    "t0": 1795072608,
+    "reason": "ירידת ערך היורו מול הדולר בעקבות חששות פוליטיים באירופה.",
+    "reason_i18n": {
+     "he": "ירידת ערך היורו מול הדולר בעקבות חששות פוליטיים באירופה.",
+     "en": "Depreciation of the euro against the dollar due to European political risks.",
+     "ar": "انخفاض قيمة اليورو مقابل الدولار بسبب المخاطر السياسية الأوروبية.",
+     "ru": "Обесценивание евро по отношению к доллару из-за политических рисков в Европе."
+    },
+    "name_i18n": {
+     "he": "קרן העוקבת אחר שער היורו",
+     "en": "Invesco CurrencyShares Euro Trust",
+     "ar": "صندوق العملة الأوروبية اليورو",
+     "ru": "ETF евро"
+    },
+    "price_at_alert": 101.33
+   },
+   {
+    "ticker": "EWQ",
+    "direction": "down",
+    "t0": 1795072608,
+    "reason": "אי-ודאות פוליטית בצרפת מכבידה על שוק המניות המקומי.",
+    "reason_i18n": {
+     "he": "אי-ודאות פוליטית בצרפת מכבידה על שוק המניות המקומי.",
+     "en": "Political uncertainty in France weighs on the local equity market.",
+     "ar": "عدم اليقين السياسي في فرنسا يضغط على سوق الأسهم المحلية.",
+     "ru": "Политическая неопределенность во Франции оказывает давление на местный рынок акций."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על שוק המניות של צרפת",
+     "en": "iShares MSCI France ETF",
+     "ar": "صندوق مؤشر الأسهم الفرنسية",
+     "ru": "ETF акций Франции"
+    },
+    "price_at_alert": 42.45
+   }
+  ],
+  "id": "afd2ada5a369"
+ },
+ {
+  "ts": 1795072608,
+  "time": "2026-11-19T07:16Z",
+  "title": "אבווי רוכשת את חברת דיסקו הגרמנית תמורת 2.5 מיליארד דולר",
+  "summary": "חברת הפארמה AbbVie חתמה על הסכם לרכישת חברת הטיפולים הבי-ספציפיים לסרטן Disco הגרמנית בסכום של עד 2.5 מיליארד דולר.",
+  "kid": "חברת תרופות ענק קנתה חברה קטנה שמפתחת תרופות חדשות לסרטן. זה יכול לעזור למשקיעים להאמין בעתיד של חברת התרופות הגדולה.",
+  "i18n": {
+   "title": {
+    "he": "אבווי רוכשת את חברת דיסקו הגרמנית תמורת 2.5 מיליארד דולר",
+    "en": "AbbVie expands cancer push with $2.5B Disco deal",
+    "ar": "أبفي توسع نشاطها في السرطان بصفقة ديسكو بقيمة 2.5 مليار دولار",
+    "ru": "AbbVie расширяет онкологическое направление сделкой с Disco на $2,5 млрд"
+   },
+   "summary": {
+    "he": "חברת הפארמה AbbVie חתמה על הסכם לרכישת חברת הטיפולים הבי-ספציפיים לסרטן Disco הגרמנית בסכום של עד 2.5 מיליארד דולר.",
+    "en": "Pharmaceutical company AbbVie has agreed to acquire German bispecific cancer therapy developer Disco for up to $2.5 billion.",
+    "ar": "وافقت شركة الأدوية أبفي على الاستحواذ على شركة العلاجات المناعية الألمانية ديسكو مقابل ما يصل إلى 2.5 مليار دولار.",
+    "ru": "Фармацевтическая компания AbbVie согласилась приобрести немецкого разработчика онкотерапии Disco на сумму до $2,5 млрд."
+   },
+   "kid": {
+    "he": "חברת תרופות ענק קנתה חברה קטנה שמפתחת תרופות חדשות לסרטן. זה יכול לעזור למשקיעים להאמין בעתיד של חברת התרופות הגדולה.",
+    "en": "A big drug maker bought a smaller company working on cancer treatments. This can show investors the big company is growing its medicine pipeline.",
+    "ar": "اشترت شركة أدوية كبرى شركة أصغر تعمل على علاج السرطان. هذا يمكن أن يظهر للمستثمرين نمو خط إنتاج أدوية الشركة الكبرى.",
+    "ru": "Крупный производитель лекарств купил небольшую компанию, разрабатывающую методы лечения рака. Это может укрепить доверие инвесторов к росту компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQamRFODFhN0g0UW51bHd1d25GbnBvWF9EN1ZkZURpRGZyMWVQekpOVm54TlRyUDNVX2VRaktqQVIxWWRmUE9WWl84UE5Id2ZJS0tpNk83Z1ptc2VMVXFsS1ZiWklkb2lYYmx6VS02eF8yODE3eU1MdWFXN0M3SUNFc1lYRm9fRkd3aGU0d2hUTXJKdXZMejZNZnB1aXRSdGlkUUhOZ0ZVc2E0TDB2UE1tTU9tc2VydnRtRnVTZTdIRXFCOHM1WW1sSTRnTXBvaUsz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ABBV",
+    "direction": "up",
+    "t0": 1795072608,
+    "reason": "הרחבת צבר מוצרי האונקולוגיה באמצעות רכישה.",
+    "reason_i18n": {
+     "he": "הרחבת צבר מוצרי האונקולוגיה באמצעות רכישה.",
+     "en": "Expanding oncology pipeline via acquisition.",
+     "ar": "توسيع خط إنتاج أورام السرطان من خلال الاستحواذ.",
+     "ru": "Расширение онкологического портфеля за счет приобретения."
+    },
+    "name_i18n": {
+     "he": "אבווי – חברת תרופות גדולה",
+     "en": "AbbVie – a major pharmaceutical company",
+     "ar": "أبفي – شركة أدوية كبرى",
+     "ru": "AbbVie — крупная фармацевтическая компания"
+    },
+    "price_at_alert": 286.01
+   },
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1795072608,
+    "reason": "עסקאות מיזוג ורכישה גדולות מחזקות את הסקטור.",
+    "reason_i18n": {
+     "he": "עסקאות מיזוג ורכישה גדולות מחזקות את הסקטור.",
+     "en": "Large M&A deals lift sector sentiment.",
+     "ar": "صفقات الاستحواذ الكبرى ترفع معنويات القطاع.",
+     "ru": "Крупные сделки M&A улучшают настроения в секторе."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על סקטור הבריאות",
+     "en": "Health Care Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الرعاية الصحية",
+     "ru": "Биржевой фонд сектора здравоохранения"
+    },
+    "price_at_alert": 181.17
+   }
+  ],
+  "id": "3d5d08e9288b"
+ },
+ {
+  "ts": 1795072608,
+  "time": "2026-11-19T07:16Z",
+  "title": "הודו וארה\"ב צפויות לחתום על הסכם סחר בדצמבר; רופי חווה לחצים",
+  "summary": "הכללתו של הסכם סחר אפשרי בין הודו לארה\"ב בחודש דצמבר נשקלת, בעוד הרופי ההודי נפגש עם חסמים על רקע חששות מהעלאות ריבית של הפד.",
+  "kid": "הודו וארה\"ב עשויות להגיע להסכם כלכלי בקרוב, אך המטבע ההודי יורד בגלל דאגות שהריבית בארה\"ב תישאר גבוהה.",
+  "i18n": {
+   "title": {
+    "he": "הודו וארה\"ב צפויות לחתום על הסכם סחר בדצמבר; רופי חווה לחצים",
+    "en": "India-US trade deal eyed for December; Rupee faces pressure",
+    "ar": "ترقب اتفاق تجاري بين الهند وأمريكا في ديسمبر وضغوط على الروبية",
+    "ru": "Торговое соглашение Индии и США ожидается в декабре; рупия под давлением"
+   },
+   "summary": {
+    "he": "הכללתו של הסכם סחר אפשרי בין הודו לארה\"ב בחודש דצמבר נשקלת, בעוד הרופי ההודי נפגש עם חסמים על רקע חששות מהעלאות ריבית של הפד.",
+    "en": "An India-US trade deal is seen likely in December as tariff tensions ease, while the Indian Rupee hits headwinds from Fed rate hike fears.",
+    "ar": "من المرجح إبرام اتفاق تجاري بين الهند والولايات المتحدة في ديسمبر، بينما تواجه الروبية الهندية ضغوطاً بسبب مخاوف أسعار الفائدة.",
+    "ru": "Торговая сделка между Индией и США возможна в декабре, в то время как индийская рупия сталкивается с давлением из-за опасений по поводу ставок ФРС."
+   },
+   "kid": {
+    "he": "הודו וארה\"ב עשויות להגיע להסכם כלכלי בקרוב, אך המטבע ההודי יורד בגלל דאגות שהריבית בארה\"ב תישאר גבוהה.",
+    "en": "India and the US might reach a trade pact soon, but the Indian currency is facing pressure due to worries about US interest rates.",
+    "ar": "قد تتوصل الهند والولايات المتحدة إلى اتفاق تجاري قريباً، لكن العملة الهندية تحت الضغط بسبب مخاوف أسعار الفائدة الأمريكية.",
+    "ru": "Индия и США могут вскоре заключить торговое соглашение, однако индийская валюта находится под давлением из-за опасений по поводу процентных ставок в США."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT090ZFpCOGNnTV9fMjVBQkFXemVmSnVBbzlSN1paaWdNeFZwem5fa005anVwSUkxQS1xYlppSGdFTzRJaVo0Q0NNNXB4MGpEaGNjZ1dVdV9qWGVncmJTY1JjRy1ON0RnNWJBMndPUFgwdHJRdmxJSnpXdDhCNEp0U0c5R0ZIRG1XVWZDM1NuYlRnNHFPN3ZTTEtsT0ZfUGJiRjgzekRNZjZld2cxRGUwdU5yNF9uQnYtU1Z1S1RBNm96Q1FFQ1I5Nlcyd0g3bUNNa2YwTU1nY2hydmkx0gHiAUFVX3lxTE53aXBzR1BSWFRhMktTeFZybzJ6ZUpEeEhSRVhGSEsxS1AwTlVNWVhNdUNEOUtZQ3lBZmRDWWV3ZHJuZzdCSmlabUZwbXpzVFVLbUpKWWFvSzJTZENjSlVnYkJJMjgyR21KeXhNSlMyMTR2Q194TmJLNDdQbmlwb3FFMVVfYnF3Z3FKcXZmQTYtRmVDTjlHSVVRTHhSWjVOR1QxU2Fxakx3YnRJN3k5LWhYdVZ6ek9MWEFldDJ5V1NkX0NaYTU2cWZLbWF0MExDRzhBTVllQ1VSMGxxeHhFVmFfemc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yTnl0T2ZOQ0N5RlBfSFVNSUc1cEZVU1cxX29relB0RE15ZkFsNXM3WDZPcnlKNG04RjZWdHVldkViTV9TazNmZjU2OVdBVVZ3Q2Jz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1795072608,
+    "reason": "התקדמות בהסכם סחר מול ארה\"ב תומכת בסנטימנט בשוק ההודי.",
+    "reason_i18n": {
+     "he": "התקדמות בהסכם סחר מול ארה\"ב תומכת בסנטימנט בשוק ההודי.",
+     "en": "Progress toward a US trade deal improves market sentiment in India.",
+     "ar": "التقدم نحو اتفاق تجاري مع أمريكا يحسن معنويات السوق في الهند.",
+     "ru": "Прогресс в торговой сделке с США улучшает настроения на рынке Индии."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על שוק המניות של הודו",
+     "en": "iShares MSCI India ETF",
+     "ar": "صندوق مؤشر الأسهم الهندية",
+     "ru": "ETF акций Индии"
+    },
+    "price_at_alert": 51.46
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1795072608,
+    "reason": "ציפיות לריבית גבוהה בארה\"ב מחזקות את הדולר על חשבון מטבעות מתעוררים.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה בארה\"ב מחזקות את הדולר על חשבון מטבעות מתעוררים.",
+     "en": "Expectations of higher US rates strengthen the dollar against emerging market currencies.",
+     "ar": "توقعات أسعار الفائدة المرتفعة تقوي الدولار مقابل عملات الأسواق الناشئة.",
+     "ru": "Ожидания более высоких ставок в США укрепляют доллар против валют развивающихся рынков."
+    },
+    "name_i18n": {
+     "he": "קרן העוקבת אחר מדד הדולר האמריקאי",
+     "en": "Invesco DB US Dollar Index Bullish Fund",
+     "ar": "صندوق مؤشر الدولار الأمريكي",
+     "ru": "ETF доллара США"
+    },
+    "price_at_alert": 29.62
+   }
+  ],
+  "id": "a6a4a21a83a8"
  }
 ]
