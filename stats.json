@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T03:57Z",
+ "generated": "2026-11-19T05:02Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1131,
+ "total_alerts": 1137,
  "overall": {
   "n": 800,
   "hits": 401,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 129,
+   "mentions": 130,
    "n": 123,
    "hits": 60,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "קרן סל נפט גולמי",
+    "en": "USO - Crude Oil Fund",
+    "ar": "صندوق النفط الخام",
+    "ru": "Фонд нефти USO"
    },
    "avg_edge": -0.27
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 195,
+   "mentions": 197,
    "n": 182,
    "hits": 114,
    "name": {
-    "he": "מגזר הביטחון",
-    "en": "Defense Sector",
-    "ar": "قطاع الدفاع",
-    "ru": "Оборонный сектор"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "ITA - Aerospace & Defense ETF",
+    "ar": "صندوق الدفاع والفضاء",
+    "ru": "ИТА - Оборонный ETF"
    },
    "avg_edge": -1.05
   },
@@ -210,14 +210,14 @@
    "avg_edge": 0.16
   },
   "NVDA": {
-   "mentions": 62,
+   "mentions": 63,
    "n": 58,
    "hits": 28,
    "name": {
-    "he": "אנבידיה",
-    "en": "Nvidia",
-    "ar": "إنفيديا",
-    "ru": "Nvidia"
+    "he": "אבידיה - יצרנית שבבי AI",
+    "en": "NVDA - Nvidia",
+    "ar": "إنفيديا - رقائق الذكاء الاصطناعي",
+    "ru": "NVDA - Nvidia"
    },
    "avg_edge": 0.48
   },
@@ -354,13 +354,13 @@
    "avg_edge": -0.69
   },
   "QQQ": {
-   "mentions": 71,
+   "mentions": 72,
    "n": 65,
    "hits": 23,
    "name": {
-    "he": "QQQ - קרן סל על מדד נאסד\"ק 100",
-    "en": "QQQ - Invesco QQQ Trust (Nasdaq 100 ETF)",
-    "ar": "QQQ - صندوق ناسداك 100",
+    "he": "קרן סל נאסד\"ק 100",
+    "en": "QQQ - Nasdaq 100 ETF",
+    "ar": "صندوق ناسداك 100",
     "ru": "QQQ - ETF на индекс Nasdaq 100"
    },
    "avg_edge": -0.16
@@ -606,14 +606,14 @@
    "avg_edge": 1.44
   },
   "EWY": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 10,
    "hits": 4,
    "name": {
-    "he": "קרן סל דרום מזרח אסיה",
-    "en": "SE Asia ETF",
-    "ar": "صندوق استثمار جنوب شرق آسيا",
-    "ru": "ETF Юго-Восточной Азии"
+    "he": "קרן סל דרום קוריאה",
+    "en": "EWY - iShares MSCI South Korea ETF",
+    "ar": "صندوق كوريا الجنوبية",
+    "ru": "EWY - Южнокорейский ETF"
    },
    "avg_edge": 1.26
   },
@@ -798,14 +798,14 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 38,
+   "mentions": 39,
    "n": 34,
    "hits": 10,
    "name": {
     "he": "קרן סל שבבים",
-    "en": "Semiconductor ETF",
+    "en": "SMH - Semiconductor ETF",
     "ar": "صندوق أشباه الموصلات",
-    "ru": "ETF полупроводников"
+    "ru": "SMH - Полупроводниковый ETF"
    },
    "avg_edge": -0.33
   },
@@ -894,14 +894,14 @@
    "avg_edge": 2.93
   },
   "KSA": {
-   "mentions": 7,
+   "mentions": 8,
    "n": 6,
    "hits": 3,
    "name": {
-    "he": "KSA - קרן סל על שוק המניות של סעודיה",
+    "he": "קרן סל ערב הסעודית",
     "en": "KSA - iShares MSCI Saudi Arabia ETF",
-    "ar": "KSA - صندوق الأسهم السعودية",
-    "ru": "KSA - фонд акций Саудовской Аравии"
+    "ar": "صندوق استثمار السعودية",
+    "ru": "KSA - ETF Саудовской Аравии"
    },
    "avg_edge": -1.04
   },
@@ -1554,14 +1554,14 @@
    "avg_edge": -0.22
   },
   "ASML": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
-    "he": "ASML - יצרנית ציוד שבבים הולנדית",
-    "en": "ASML - Dutch semiconductor equipment maker",
-    "ar": "ASML - صانعة معدات أشباه الموصلات الهولندية",
-    "ru": "ASML - нидерландский производитель оборудования для полупроводников"
+    "he": "אסמל - ציוד ייצור שבבים",
+    "en": "ASML - Chip Equipment Maker",
+    "ar": "אסמל - معدات تصنيع الرقائق",
+    "ru": "ASML - производитель оборудования для чипов"
    },
    "avg_edge": null
   },

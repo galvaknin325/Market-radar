@@ -225,116 +225,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794402140,
-  "time": "2026-11-11T13:02Z",
-  "title": "חברת קאץ' קופר של אדאני מקבלת את תו תקן הנחושת העולמי",
-  "summary": "חברת קאץ' קופר של אדאני הפכה ליצרנית ההודית הראשונה המקבלת את אישורי תקן הנחושת וה-Veramark העולמיים היוקרתיים.",
-  "kid": "יצרנית נחושת הודית קיבלה תו איכות וסביבה עולמי חשוב, מה שעשוי לעזור לעסקים שלה לצמוח בעולם.",
-  "i18n": {
-   "title": {
-    "en": "Adani’s Kutch Copper Receives Global Copper Mark Certification",
-    "he": "חברת קאץ' קופר של אדאני מקבלת את תו תקן הנחושת העולמי",
-    "ar": "شركة كوتش النحاسية التابعة لأداني تحصل على شهادة علامة النحاس العالمية",
-    "ru": "Компания Kutch Copper компании Adani получила глобальный сертификат Copper Mark"
-   },
-   "summary": {
-    "en": "Adani's Kutch Copper has become the first Indian producer to receive the prestigious global Copper Mark and Veramark assurance certifications.",
-    "he": "חברת קאץ' קופר של אדאני הפכה ליצרנית ההודית הראשונה המקבלת את אישורי תקן הנחושת וה-Veramark העולמיים היוקרתיים.",
-    "ar": "أصبحت شركة كوتش النحاسية التابعة لأداني أول منتج هندي يحصل على شهادات ضمان علامة النحاس وفيرامارك العالمية المرموقة.",
-    "ru": "Компания Kutch Copper компании Adani стала первым индийским производителем, получившим престижные глобальные сертификаты Copper Mark и Veramark."
-   },
-   "kid": {
-    "en": "An Indian copper producer got an important global environmental and quality badge, which could help its business grow internationally.",
-    "he": "יצרנית נחושת הודית קיבלה תו איכות וסביבה עולמי חשוב, מה שעשוי לעזור לעסקים שלה לצמוח בעולם.",
-    "ar": "حصلت شركة هندية لإنتاج النحاس على شارة بيئية وعالمية مهمة، مما قد يساعد أعمالها على النمو دولياً.",
-    "ru": "Индийский производитель меди получил важный глобальный знак экологического качества, что может помочь росту ее бизнеса."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1794402140,
-    "reason": "אבני דרך בתעשיית הנחושת העולמית מדגישות את הביקוש המבני ואת תקני הקיימות בשוק המתכות.",
-    "reason_i18n": {
-     "en": "Global copper industry milestones highlight structural demand and sustainability standards in the metal market.",
-     "he": "אבני דרך בתעשיית הנחושת העולמית מדגישות את הביקוש המבני ואת תקני הקיימות בשוק המתכות.",
-     "ar": "المحطات الهامة في صناعة النحاس العالمية تسلط الضوء على الطلب الهيكلي ومعايير الاستدامة.",
-     "ru": "Вехи в мировой медной промышленности подчеркивают структурный спрос и стандарты устойчивости."
-    },
-    "name_i18n": {
-     "en": "Freeport-McMoRan – copper miner",
-     "he": "Freeport-McMoRan - חברת כריית נחושת",
-     "ar": "فريبورت-ماكموران - تعدين النحاس",
-     "ru": "Freeport-McMoRan - добытчик меди"
-    },
-    "price_at_alert": 60.31,
-    "entry_price": 61.6,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 60.465,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.84,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -1.9,
-    "edge_pct": -1.9,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "CPER",
-    "direction": "up",
-    "t0": 1794402140,
-    "reason": "התפתחויות חיוביות במתקני ייצור מרכזיים תומכות בסנטימנט השוק הכללי כלפי נחושת.",
-    "reason_i18n": {
-     "en": "Positive developments in major production facilities support overall market sentiment for copper.",
-     "he": "התפתחויות חיוביות במתקני ייצור מרכזיים תומכות בסנטימנט השוק הכללי כלפי נחושת.",
-     "ar": "التطورات الإيجابية في منشآت الإنتاج الرئيسية تدعم معنويات السوق العامة للنحاس.",
-     "ru": "Позитивные события на крупных производственных объектах поддерживают общие настроения на рынке меди."
-    },
-    "name_i18n": {
-     "en": "CPER ETF – copper fund",
-     "he": "CPER ETF - קרן נחושת",
-     "ar": "صندوق CPER - النحاس",
-     "ru": "CPER ETF - фонд меди"
-    },
-    "price_at_alert": 37.74,
-    "entry_price": 37.89,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 37.25,
-    "exit_date": "2026-11-12",
-    "change_pct": -1.69,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": -1.74,
-    "edge_pct": -1.74,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "6058e35c3dec",
-  "updates": [
-   {
-    "ts": 1794458551,
-    "time": "2026-11-12T04:42Z",
-    "severity": 4,
-    "summary": "חברת קץ' קופר של אדאני חתמה על מזכר הבנות עם קודלקו לפרויקט חיפוש נחושת בצ'ילה, בעקבות תוצאות חזקות של הינדוסטן קופר.",
-    "i18n": {
-     "en": "Adani's Kutch Copper signed an MoU with Codelco for a copper exploration project in Chile, following strong H1 results from Hindustan Copper.",
-     "he": "חברת קץ' קופר של אדאני חתמה על מזכר הבנות עם קודלקו לפרויקט חיפוש נחושת בצ'ילה, בעקבות תוצאות חזקות של הינדוסטן קופר.",
-     "ar": "وقعت كتش كوبر مذكرة تفاهم مع كوديلكو لمشروع استكشاف النحاس في تشيلي، بعد نتائج قوية.",
-     "ru": "Kutch Copper подписала меморандум с Codelco по проекту геологоразведки в Чили на фоне сильных результатов Hindustan Copper."
-    }
-   }
-  ],
-  "last_update": 1794458551,
-  "evaluated": true
- },
- {
   "ts": 1794406668,
   "time": "2026-11-11T14:17Z",
   "title": "נתוני אינפלציה חמים בארה\"ב מעוררים חשש מהעלאות ריבית נוספות",
@@ -985,163 +875,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794406668,
-  "time": "2026-11-11T14:17Z",
-  "title": "התפרצות חצבת בארה\"ב גוררת עלויות כלכליות משמעותיות",
-  "summary": "מחקר חדש של אוניברסיטת ג'ונס הופקינס מעלה כי התפרצות החצבת האחרונה בארה\"ב גרמה לעלויות כלכליות של מעל 37 מיליון דולר.",
-  "kid": "מחלת החצבת מתפשטת בארה\"ב ועולה לכלכלה מיליונים. זה יכול להשפיע מעט על חברות בתחום הבריאות וביטוחי הבריאות.",
-  "i18n": {
-   "title": {
-    "he": "התפרצות חצבת בארה\"ב גוררת עלויות כלכליות משמעותיות",
-    "en": "Measles Surge in the U.S. Triggers Substantial Economic Costs",
-    "ar": "تفشي الحصبة في الولايات المتحدة يغذي تكاليف اقتصادية كبيرة",
-    "ru": "Вспышка кори в США влечет за собой значительные экономические издержки"
-   },
-   "summary": {
-    "he": "מחקר חדש של אוניברסיטת ג'ונס הופקינס מעלה כי התפרצות החצבת האחרונה בארה\"ב גרמה לעלויות כלכליות של מעל 37 מיליון דולר.",
-    "en": "A new tool developed by Johns Hopkins researchers estimates that the recent U.S. measles outbreak carried an economic cost of over $37 million.",
-    "ar": "تشير أبحاث جديدة إلى أن تفشي الحصبة الأخير في الولايات المتحدة كبد الاقتصاد تكاليف تجاوزت 37 مليون دولار.",
-    "ru": "Новое исследование показывает, что недавняя вспышка кори в США обошлась экономике более чем в $37 млн."
-   },
-   "kid": {
-    "he": "מחלת החצבת מתפשטת בארה\"ב ועולה לכלכלה מיליונים. זה יכול להשפיע מעט על חברות בתחום הבריאות וביטוחי הבריאות.",
-    "en": "Measles is spreading in the U.S. and costing the economy millions. This can have a small impact on healthcare and insurance stocks.",
-    "ar": "تنتشر الحصبة في الولايات المتحدة وتكلف الاقتصاد ملايين الدولارات، مما قد يؤثر بشكل طفيف على قطاع الرعاية الصحية والتأمين.",
-    "ru": "Корь распространяется в США и обходится экономике в миллионы. Это может слегка повлиять на сектор здравоохранения и страхования."
-   }
-  },
-  "category": "health",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1794406668,
-    "reason": "עלייה באירועי בריאות ציבוריים מעלה את הביקוש לשירותי בריאות וחיסונים.",
-    "reason_i18n": {
-     "he": "עלייה באירועי בריאות ציבוריים מעלה את הביקוש לשירותי בריאות וחיסונים.",
-     "en": "Rise in public health events increases demand for medical services and vaccines.",
-     "ar": "زيادة الأحداث الصحية العامة تزيد الطلب على الخدمات الطبية واللقاحات.",
-     "ru": "Рост проблем общественного здравоохранения увеличивает спрос на медуслуги."
-    },
-    "name_i18n": {
-     "he": "XLV - קרן סל על סקטרו הבריאות",
-     "en": "XLV - Health Care Select Sector SPDR Fund",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية",
-     "ru": "XLV - ETF сектора здравоохранения"
-    },
-    "price_at_alert": 188.88,
-    "entry_price": 187.39,
-    "entry_time": "2026-11-11T14:30+00:00",
-    "exit_price": 187.83,
-    "exit_date": "2026-11-12",
-    "change_pct": 0.23,
-    "bench": "SPY",
-    "bench_change_pct": 0.05,
-    "excess_pct": 0.18,
-    "edge_pct": 0.18,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "DAL",
-    "direction": "down",
-    "t0": 1794440084,
-    "reason": "חששות מבריאות הציבור עלולים להאט את קצב הנסיעות",
-    "reason_i18n": {
-     "he": "חששות מבריאות הציבור עלולים להאט את קצב הנסיעות",
-     "en": "Public health concerns could slow travel demand",
-     "ar": "مخاوف الصحة العامة قد تبطئ الطلب على السفر",
-     "ru": "Проблемы общественного здравоохранения могут замедлить спрос на поездки"
-    },
-    "name_i18n": {
-     "he": "דלתא איירליינס – חברת תעופה",
-     "en": "DAL – Delta Air Lines",
-     "ar": "DAL - خطوط دلتا الجوية",
-     "ru": "DAL — авиакомпания Delta Air Lines"
-    },
-    "price_at_alert": 91.32,
-    "entry_price": 90.68,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 86.24,
-    "exit_date": "2026-11-13",
-    "change_pct": -4.9,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -4.93,
-    "edge_pct": 4.93,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1794458551,
-    "reason": "חששות בריאות הציבור וזינוקים בביקוש לחיסונים עשויים להיטיב עם חברות ביוטכנולוגיה.",
-    "reason_i18n": {
-     "en": "Public health concerns and vaccine demand spikes can benefit biotech firms.",
-     "he": "חששות בריאות הציבור וזינוקים בביקוש לחיסונים עשויים להיטיב עם חברות ביוטכנולוגיה.",
-     "ar": "مخاوف الصحة العامة وارتفاع الطلب على اللقاحات تفيد شركات التكنولوجيا الحيوية.",
-     "ru": "Обеспокоенность общественным здоровьем идет на пользу биотехнологическим компаниям."
-    },
-    "name_i18n": {
-     "en": "Moderna – vaccine developer",
-     "he": "מודרנה – מפתחת חיסונים",
-     "ar": "مودرنا - مطورة اللقاحات",
-     "ru": "Moderna — разработчик вакцин"
-    },
-    "price_at_alert": 248.69,
-    "entry_price": 237.88,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 223.23,
-    "exit_date": "2026-11-13",
-    "change_pct": -6.16,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -6.19,
-    "edge_pct": -6.19,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "80ea91d8cbbe",
-  "updates": [
-   {
-    "ts": 1794440084,
-    "time": "2026-11-11T23:34Z",
-    "severity": 4,
-    "summary": "רשויות הבריאות מדווחות על התפתחויות סביב התפרצויות אבולה בקניה והתפרצויות E. coli בארה\"ב שגרמו למקרי מוות ולסגירת חופים ואתרי תיירות.",
-    "i18n": {
-     "he": "רשויות הבריאות מדווחות על התפתחויות סביב התפרצויות אבולה בקניה והתפרצויות E. coli בארה\"ב שגרמו למקרי מוות ולסגירת חופים ואתרי תיירות.",
-     "en": "Health authorities report developments regarding Ebola outbreaks in Kenya and E. coli outbreaks in the U.S. that caused deaths and beach closures.",
-     "ar": "تهتم السلطات الصحية بتطورات تفشي إيبولا في كينيا وتفشي بكتيريا الإي كولاي في أمريكا والتي أدت لحالات وفاة وإغلاق شواطئ.",
-     "ru": "Органы здравоохранения сообщают о развитии ситуации со вспышками Эболы в Кении и кишечной палочки в США, которые привели к смертельным случаям и закрытию пляжей."
-    }
-   },
-   {
-    "ts": 1794458551,
-    "time": "2026-11-12T04:42Z",
-    "severity": 4,
-    "summary": "התפרצות חצבת הכוללת כ-1,500 מקרים בפנסילבניה מאיימת על מעמד חיסול המחלה בארה\"ב ומעלה חששות בריאותיים.",
-    "i18n": {
-     "en": "A measles outbreak with roughly 1,500 cases in Pennsylvania threatens the United States' disease elimination status, raising public health concerns.",
-     "he": "התפרצות חצבת הכוללת כ-1,500 מקרים בפנסילבניה מאיימת על מעמד חיסול המחלה בארה\"ב ומעלה חששות בריאותיים.",
-     "ar": "تفشي الحصبة الذي يضم نحو 1,500 حالة في بنسلفانيا يهدد وضع القضاء على المرض في الولايات المتحدة.",
-     "ru": "Вспышка кори с примерно 1500 случаями в Пенсильвании угрожает статусу ликвидации болезни в США."
-    }
-   }
-  ],
-  "last_update": 1794458551,
-  "evaluated": true
- },
- {
   "ts": 1794420441,
   "time": "2026-11-11T18:07Z",
   "title": "הסלמה במתיחות מול איראן וסנקציות חדשות",
@@ -1706,146 +1439,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794428108,
-  "time": "2026-11-11T20:15Z",
-  "title": "איומי המכסים של טראמפ מעלים עלויות",
-  "summary": "שגריר קנדה מזהה כי מכסי טראמפ מעלים את העלויות, מאיימים על השקעות בארה\"ב ומסבכים את המשא ומתן המסחרי.",
-  "kid": "קנדה מזהה שמכסים חדשים מייקרים מוצרים ומקשים על מסחר עם ארה\"ב. זה יכול להשפיע על מניות של חברות אמריקאיות וקנדיות שסוחרות ביניהן.",
-  "i18n": {
-   "title": {
-    "he": "איומי המכסים של טראמפ מעלים עלויות",
-    "en": "Trump's Tariffs Threaten Costs and Investment",
-    "ar": "تعריفات ترامب تهدد التكاليف والاستثمار",
-    "ru": "Тарифы Трампа угрожают затратам и инвестициям"
-   },
-   "summary": {
-    "he": "שגריר קנדה מזהה כי מכסי טראמפ מעלים את העלויות, מאיימים על השקעות בארה\"ב ומסבכים את המשא ומתן המסחרי.",
-    "en": "Canada’s ambassador warns that U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment, and complicate negotiations.",
-    "ar": "يحذر سفير كندا من أن التوترات التجارية مستمرة حيث تؤدي تعريفات ترامب إلى ارتفاع التكاليف وتهديد الاستثمار وتعقيد المفاوضات.",
-    "ru": "Посол Канады предупреждает, что торговая напряженность сохраняется, так как тарифы Трампа приводят к росту затрат и осложняют переговоры."
-   },
-   "kid": {
-    "he": "קנדה מזהה שמכסים חדשים מייקרים מוצרים ומקשים על מסחר עם ארה\"ב. זה יכול להשפיע על מניות של חברות אמריקאיות וקנדיות שסוחרות ביניהן.",
-    "en": "New tariffs are making imported goods more expensive and complicating trade between the U.S. and Canada. This can raise costs for businesses and impact stock prices for companies doing cross-border trade.",
-    "ar": "الرسوم الجمركية تجعل السلع المستوردة أكثر تكلفة وتعقد التجارة بين أمريكا وكندا، مما قد يرفع التكاليف على الشركات ويؤثر على أسهمها.",
-    "ru": "Новые пошлины делают импорт дороже и осложняют торговлю между США и Канадой, что может увеличить расходы компаний и повлиять на их акции."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "down",
-    "t0": 1794428108,
-    "reason": "חשש מהשפעת מכסים על הכלכלה הקנדית",
-    "reason_i18n": {
-     "he": "חשש מהשפעת מכסים על הכלכלה הקנדית",
-     "en": "Concerns over tariff impacts on the Canadian economy",
-     "ar": "مخاوف بشأن تأثير الرسوم على الاقتصاد الكندي",
-     "ru": "Опасения по поводу влияния пошлин на экономику Канады"
-    },
-    "name_i18n": {
-     "he": "קנדה ETF",
-     "en": "iShares Canada ETF",
-     "ar": "صندوق استثمار كندا",
-     "ru": "Канадский ETF"
-    },
-    "price_at_alert": 60.58,
-    "entry_price": 60.565,
-    "entry_time": "2026-11-11T20:30+00:00",
-    "exit_price": 60.12,
-    "exit_date": "2026-11-12",
-    "change_pct": -0.73,
-    "bench": "SPY",
-    "bench_change_pct": -0.37,
-    "excess_pct": -0.36,
-    "edge_pct": 0.36,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794428108,
-    "reason": "עלויות מסחר גבוהות יותר עבור חברות אמריקאיות",
-    "reason_i18n": {
-     "he": "עלויות מסחר גבוהות יותר עבור חברות אמריקאיות",
-     "en": "Higher trade costs for U.S. corporations",
-     "ar": "تكاليف تجارية أعلى للشركات الأمريكية",
-     "ru": "Более высокие торговые издержки для американских компаний"
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 Index ETF",
-     "ar": "مؤشر إس آند بي 500",
-     "ru": "Индекс S&P 500"
-    },
-    "price_at_alert": 760.24,
-    "entry_price": 760.03,
-    "entry_time": "2026-11-11T20:30+00:00",
-    "exit_price": 757.2,
-    "exit_date": "2026-11-12",
-    "change_pct": -0.37,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -0.37,
-    "edge_pct": 0.37,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLI",
-    "direction": "down",
-    "t0": 1794458551,
-    "reason": "מכסים על חומרים מיובאים עשויים להעלות את עלויות התפעול לחברות תעשייתיות.",
-    "reason_i18n": {
-     "en": "Tariffs on imported materials can raise operational costs for industrial firms.",
-     "he": "מכסים על חומרים מיובאים עשויים להעלות את עלויות התפעול לחברות תעשייתיות.",
-     "ar": "الرسوم على المواد المستوردة قد ترفع تكاليف التشغيل للشركات الصناعية.",
-     "ru": "Тарифы на импортируемые материалы могут увеличить операционные расходы промышленных компаний."
-    },
-    "name_i18n": {
-     "en": "Industrial Select Sector SPDR Fund",
-     "he": "תעודת סל סקטור התעשייה",
-     "ar": "صندوق قطاع الصناعة",
-     "ru": "ETF промышленного сектора"
-    },
-    "price_at_alert": 170.97,
-    "entry_price": 170.46,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 168.76,
-    "exit_date": "2026-11-13",
-    "change_pct": -1.0,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": -1.03,
-    "edge_pct": 1.03,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "8633de969954",
-  "updates": [
-   {
-    "ts": 1794458551,
-    "time": "2026-11-12T04:42Z",
-    "severity": 4,
-    "summary": "מושלת מישיגן וויטמר דחקה במשרד האוצר לסיים את המכסים ולהחזיר כספים לצרכנים, בזמן שמודל הפד דן בהשפעות המכסים על השקעות.",
-    "i18n": {
-     "en": "Michigan Governor Whitmer urged the Treasury to end tariffs and reimburse shoppers, while the Fed's model debated tariff impacts on investment.",
-     "he": "מושלת מישיגן וויטמר דחקה במשרד האוצר לסיים את המכסים ולהחזיר כספים לצרכנים, בזמן שמודל הפד דן בהשפעות המכסים על השקעות.",
-     "ar": "حاكمة ميشيغان حثت الخزانة على إنهاء الرسوم وتعويض المتسوقين، وسط نقاش حول تأثير الرسوم.",
-     "ru": "Губернатор Мичигана призвала Минфин отменить тарифы и возместить расходы покупателям."
-    }
-   }
-  ],
-  "last_update": 1794458551,
-  "evaluated": true
- },
- {
   "ts": 1794436766,
   "time": "2026-11-11T22:39Z",
   "title": "קריאות להתפטרות ג'נסן הואנג בוושינגטון סביב בקרת ייצוא שבבים",
@@ -2068,135 +1661,6 @@
    }
   ],
   "last_update": 1794477447,
-  "evaluated": true
- },
- {
-  "ts": 1794440084,
-  "time": "2026-11-11T23:34Z",
-  "title": "הדמוקרטים מנצחים בבחירות לסנאט במיסיסיפי",
-  "summary": "הדמוקרט סקוט קולום זכה בניצחון מפתיע בבחירות לסנאט האמריקאי במדינת מיסיסיפי, המעניק לדيمقקרטים מושב נוסף.",
-  "kid": "מפלגה דמוקרטית ניצחה במדינת מיסיסיפי בבחירות לסנאט. זה משנה את מאזן הכוחות בוושינגטון ויכול להשפיע על חוקים כלכליים ומסים שייקבעו בעתיד.",
-  "i18n": {
-   "title": {
-    "he": "הדמוקרטים מנצחים בבחירות לסנאט במיסיסיפי",
-    "en": "Democrats Win Senate Race in Mississippi",
-    "ar": "الديمقراطيون يفوزون بسباق مجلس الشيوخ في مسيسيبي",
-    "ru": "Демократы побеждают на выборах в Сенат в Миссисипи"
-   },
-   "summary": {
-    "he": "הדמוקרט סקוט קולום זכה בניצחון מפתיע בבחירות לסנאט האמריקאי במדינת מיסיסיפי, המעניק לדيمقקרטים מושב נוסף.",
-    "en": "Democrat Scott Colom won a surprise victory in the U.S. Senate race in Mississippi, delivering an additional seat to Democrats.",
-    "ar": "فاز الديمقراطي سكوت كولوم بفوز مفاجئ في سباق مجلس الشيوخ الأمريكي في مسيسيبي، مما منح الديمقراطيين مقعداً إضافياً.",
-    "ru": "Демократ Скотт Колом одержал неожиданную победу на выборах в Сенат США в штате Миссисипи, обеспечив демократам дополнительное место."
-   },
-   "kid": {
-    "he": "מפלגה דמוקרטית ניצחה במדינת מיסיסיפי בבחירות לסנאט. זה משנה את מאזן הכוחות בוושינגטון ויכול להשפיע על חוקים כלכליים ומסים שייקבעו בעתיד.",
-    "en": "The Democratic party won a Senate seat in Mississippi. This shifts the balance of power in Washington and could influence future economic laws and taxes.",
-    "ar": "فاز الحزب الديمقراطي بمقعد في مجلس الشيوخ في مسيسيبي. هذا يغير ميزان القوى في واشنطن وقد يؤثر على القوانين الاقتصادية والضرائب المستقبلية.",
-    "ru": "Демократическая партия завоевала место в Сенате в Миссисипи. Это меняет баланс сил в Вашингтоне и может повлиять на будущие экономические законы и налоги."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc3RiQnMtWmRQYTZIRVJERkVFQldHcnRwbWhoUGkyVFFndnBVWm0zNFU4Tm9JeldxQThoc2pYZjZBa19zLWdPSlZ2TnBPXzFFM082amdOcVplSDhHTGh5NFd0UVl4MklMOVByaW1tUkdyRms5TXA5QWxMd2lRNVA1cmJ4NHZjc3RwWmRTUmhkeVdKMHBPSTVmalI5Q2Ric1Y2Y3hDalhSNA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY3lBWWdQYVhaeVZiSUw2OExpb0stOWRZRFZDUU5jVlNFTF9zbTFzMEV4M3dQazZYSTVhRWc0bG5ITlY5TUhVdnJ2YjZxNFNNWkJvMk81enRYZHUwNm1JTmRhcDdPV3JXbVBZeWNQTHN5ekxua3pUVHVCZVR0WGlTcW1jSllHMEF1TUVrcW9URkFvQ3dkRFZoQU9jWDZhQk42aV9TcUM1Zw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMXNfUTZ5LXVvRDFSeWNkNGx2NnptRWhXX1FGWUpKY2Q1dDlScjZzSXNCbm1RbXpRTTFRX0tOeG83YVo4RkhkaGtUOXRicWJmZ0o0b1M3Sm9FSUR0aW5icUV6N0RaZlJ1cDhPVXpfV3hkMUNIM01Db1NCdDdrZTVtTjRjRERLaUlrUU5MZnNYVHd3UdIBlwFBVV95cUxNOU84aUI1cUpRMmVZbnJKUGwtdzRVT3h6NEZPRDg3eUsxT1VvbW1tRkNUV3FYRUdxR3F4ZDVuYkRGMk8yazhTLURoUVpSSFNWel8xVUVIbVVlYTBKb0dGV0p3UmltNENqRUlWQ0F0RkVTTWl3dHNJODlGXzhCRVhzQjhnX1ctc2RGZk5JSnZGMGx2TEVHb2g0?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTGJoVm9WdXNWazZxRl82a3VWalQyaktBaXlUV3NwMmprRG5DbHhsLU9VWUJOdlk1TXY1NlRkaVh6UFNHeFQxS2phTzlqbjFUQS03emFaTHYwMjBJc0dtaDF6R2hoaHZTWFdfWmZvRlpGcDhTbVBzZlMtVHZOYWdJcTdYeHpDMlZGdTdhMnFaSE1DS3I0T0l2TEZnSE43Z2ZDdmpXNkhHc1VqSF82NjVQTjR0RVplMDcyX21YT0QwbGYyUGZPY2Y3SEVlTVU3dVRITUlF?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUhIMTB1VnZxMU9CaHc1S001dFVqVGk0QmwzVmZrYzg1ZjBMZk5laTB0enNPanYwbHZlenp5WWZRYTFiZGVyNnpJWU1yM1QzcGhRNkdRV3ZsbVJCVW1ISTI1VFFzdGdxeklaRC11aW10eTBQRWloUWJsNmt2NUpyYkFEcXVRbldWcUd3QkdnQnBJdTMxSmE2OG1mYXV4cVk?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794440084,
-    "reason": "שינויים בלתי צפויים במאזן הכוחות בקונגרס יוצרים אי-ודאות קלה בשווקים",
-    "reason_i18n": {
-     "he": "שינויים בלתי צפויים במאזן הכוחות בקונגרס יוצרים אי-ודאות קלה בשווקים",
-     "en": "Unexpected shifts in congressional power create slight market uncertainty",
-     "ar": "التغييرات غير المتوقعة في ميزان القوى في الكونغرس تخلق حالة من عدم اليقين في الأسواق",
-     "ru": "Неожиданные изменения баланса сил в Конгрессе создают небольшую неопределенность на рынках"
-    },
-    "name_i18n": {
-     "he": "אספאיי – מדד 500 החברות הגדולות בארה\"ב",
-     "en": "SPY – S&P 500 Index ETF",
-     "ar": "SPY - صندوق مؤشر S&P 500",
-     "ru": "SPY — фонд индекса S&P 500"
-    },
-    "price_at_alert": 759.81,
-    "entry_price": 753.98,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 754.25,
-    "exit_date": "2026-11-13",
-    "change_pct": 0.04,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 0.04,
-    "edge_pct": -0.04,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "1563af3de9ab",
-  "updates": [
-   {
-    "ts": 1794443256,
-    "time": "2026-11-12T00:27Z",
-    "severity": 6,
-    "summary": "המועמד הדמוקרטי סקוט קולום ניצח את המכהנת הרפובליקנית סינדי הייד-סמית' בבחירות לסנאט במיסיסיפי, ניצחון היסטורי למדינה דרומית.",
-    "i18n": {
-     "he": "המועמד הדמוקרטי סקוט קולום ניצח את המכהנת הרפובליקנית סינדי הייד-סמית' בבחירות לסנאט במיסיסיפי, ניצחון היסטורי למדינה דרומית.",
-     "en": "Democratic candidate Scott Colom defeated Republican incumbent Cindy Hyde-Smith in the Mississippi Senate race, marking a historic win for the southern state.",
-     "ar": "هزم المرشح الديمقراطي سكوت كولوم الجمهورية سيندي هايد سميث في سباق مجلس الشيوخ في ميسيسيبي، وهو فوز تاريخي للولاية الجنوبية.",
-     "ru": "Кандидат от Демократической партии Скотт Колом победил республиканку Синди Хайд-Смит на выборах в Сенат в Миссисипи, что стало исторической победой для этого южного штата."
-    }
-   },
-   {
-    "ts": 1794448243,
-    "time": "2026-11-12T01:50Z",
-    "severity": 4,
-    "summary": "הדמוקרט סקוט קולום זכה בבחירות לסנאט בארה\"ב במדינת מיסיסיפי לאחר שהיריבה סינדי הייד-סמית הודה בהפסד.",
-    "i18n": {
-     "he": "הדמוקרט סקוט קולום זכה בבחירות לסנאט בארה\"ב במדינת מיסיסיפי לאחר שהיריבה סינדי הייד-סמית הודה בהפסד.",
-     "en": "Democrat Scott Colom won the US Senate election in Mississippi after incumbent Cindy Hyde-Smith conceded, marking a major political shift.",
-     "ar": "فاز الديمقراطي سكوت كولوم بانتخابات مجلس الشيوخ الأمريكي في مسيسيبي بعد إقرار منافسته بالهزيمة.",
-     "ru": "Демократ Скотт Колом победил на выборах в Сенат США в штате Миссисипи после того, как его соперница признала поражение."
-    }
-   },
-   {
-    "ts": 1794458551,
-    "time": "2026-11-12T04:42Z",
-    "severity": 3,
-    "summary": "המועמד הדמוקרטי קולום זכה במושב סנאט היסטורי במיסיסיפי והפך לסנאטור השחור הראשון במדינה זה למעלה מ-150 שנה.",
-    "i18n": {
-     "en": "Democrat candidate Colom won a historic Senate seat in Mississippi, becoming the state's first Black senator in over 150 years.",
-     "he": "המועמד הדמוקרטי קולום זכה במושב סנאט היסטורי במיסיסיפי והפך לסנאטור השחור הראשון במדינה זה למעלה מ-150 שנה.",
-     "ar": "فاز المرشح الديمقراطي كولوم بمقعد تاريخي في مجلس الشيوخ في مسيسيبي، ليصبح أول سيناتور أسود منذ أكثر من 150 عاماً.",
-     "ru": "Демократ Колом выиграл историческое место в Сенате в Миссисипи, став первым чернокожим сенатором штата за более чем 150 лет."
-    }
-   }
-  ],
-  "last_update": 1794458551,
   "evaluated": true
  },
  {
@@ -2507,101 +1971,6 @@
    }
   ],
   "last_update": 1794470558,
-  "evaluated": true
- },
- {
-  "ts": 1794458551,
-  "time": "2026-11-12T04:42Z",
-  "title": "תפוקת אופק פלוס עולה בזמן שהמתיחות במזרח התיכון נמשכת",
-  "summary": "תפוקת הנפט של אופק פלוס עלתה משמעותית באוקטובר בהובלת סעודיה, בזמן שיירוטי טילים באזור מדגישים את סיכוני הביטחון במזרח התיכון.",
-  "kid": "המתיחות במזרח התיכון ושינויים בייצור הנפט יכולים לגרום למניות האנרגיה ולמחירי הנפט לעלות או לרדת.",
-  "i18n": {
-   "title": {
-    "en": "OPEC+ Output Rises as Middle East Tensions Persist",
-    "he": "תפוקת אופק פלוס עולה בזמן שהמתיחות במזרח התיכון נמשכת",
-    "ar": "ارتفاع إنتاج أوبك+ وسط استمرار التوترات في الشرق الأوسط",
-    "ru": "Добыча OPEC+ растет на фоне сохраняющейся напряженности на Ближнем Востоке"
-   },
-   "summary": {
-    "en": "OPEC+ oil output rose significantly in October led by Saudi Arabia, while regional missile interceptions highlight ongoing Middle East security risks.",
-    "he": "תפוקת הנפט של אופק פלוס עלתה משמעותית באוקטובר בהובלת סעודיה, בזמן שיירוטי טילים באזור מדגישים את סיכוני הביטחון במזרח התיכון.",
-    "ar": "ارتفع إنتاج أوبك+ بشكل ملحوظ في أكتوبر بقيادة السعودية، بينما تسلط اعتراضات الصواريخ الضوء على مخاطر الأمن المستمرة.",
-    "ru": "Добыча нефти OPEC+ заметно выросла в октябре под руководством Саудовской Аравии, в то время как перехваты ракет подчеркивают риски безопасности."
-   },
-   "kid": {
-    "en": "Middle East tensions and changing oil production can make energy stocks and oil prices go up or down.",
-    "he": "המתיחות במזרח התיכון ושינויים בייצור הנפט יכולים לגרום למניות האנרגיה ולמחירי הנפט לעלות או לרדת.",
-    "ar": "التوترات في الشرق الأوسط وتغيرات إنتاج النفط يمكن أن تجعل أسهم الطاقة وأسعار النفط ترتفع أو تنخفض.",
-    "ru": "Напряженность на Ближнем Востоке и изменения в добыче нефти могут заставить акции энергетических компаний и цены на нефть расти или падать."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794458551,
-    "reason": "סיכון גאופוליטי ושינויי ייצור משפיעים על שוקי האנרגיה.",
-    "reason_i18n": {
-     "en": "Geopolitical risk and production changes impact energy markets.",
-     "he": "סיכון גאופוליטי ושינויי ייצור משפיעים על שוקי האנרגיה.",
-     "ar": "المخاطر الجيوسياسية وتغيرات الإنتاج تؤثر على أسواق الطاقة.",
-     "ru": "Геополитические риски и изменения добычи влияют на энергетические рынки."
-    },
-    "name_i18n": {
-     "en": "Energy Sector ETF",
-     "he": "תעודת סל סктор אנרגיה",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 63.37,
-    "entry_price": 63.88,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 64.93,
-    "exit_date": "2026-11-13",
-    "change_pct": 1.64,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 1.61,
-    "edge_pct": 1.61,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794458551,
-    "reason": "דינמיקת ההיצע וחששות ביטחוניים אזוריים משפיעים על מחירי הגולמי.",
-    "reason_i18n": {
-     "en": "Supply dynamics and regional security concerns affect crude prices.",
-     "he": "דינמיקת ההיצע וחששות ביטחוניים אזוריים משפיעים על מחירי הגולמי.",
-     "ar": "ديناميكيات العرض والمخاوف الأمنية تؤثر على أسعار الخام.",
-     "ru": "Динамика предложения и региональная безопасность влияют на цены на нефть."
-    },
-    "name_i18n": {
-     "en": "United States Oil Fund",
-     "he": "קרן סל נפט גולמי",
-     "ar": "صندوق النفط الخام",
-     "ru": "Фонд нефтяного рынка"
-    },
-    "price_at_alert": 141.47,
-    "entry_price": 142.03,
-    "entry_time": "2026-11-12T14:30+00:00",
-    "exit_price": 145.59,
-    "exit_date": "2026-11-13",
-    "change_pct": 2.51,
-    "bench": "SPY",
-    "bench_change_pct": 0.04,
-    "excess_pct": 2.47,
-    "edge_pct": 2.47,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "82409645dbbe",
   "evaluated": true
  },
  {
@@ -46258,5 +45627,430 @@
    }
   ],
   "id": "133141cf2049"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "טראמפ מתנגד לרגולציה גלובלית על בינה מלאכותית",
+  "summary": "בפסגת APEC בשנג'ן, הנשיא טראמפ הצהיר כי ארה\"ב מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית ומזהיר שזה יחנק את החדשנות.",
+  "kid": "נשיא ארה\"ב אמר שאין צורך בחוקים עולמיים קשוחים על מחשבים חכמים (בינה מלאכותית), כדי שהחברות יוכלו להמשיך לצמוח מהר. זה עשוי לעזור למניות הטכנולוגיה לעלות.",
+  "i18n": {
+   "title": {
+    "he": "טראמפ מתנגד לרגולציה גלובלית על בינה מלאכותית",
+    "en": "Trump opposes global AI regulation",
+    "ar": "ترامب يعارض تنظيم الذكاء الاصطناعي العالمي",
+    "ru": "Трамп выступает против глобального регулирования ИИ"
+   },
+   "summary": {
+    "he": "בפסגת APEC בשנג'ן, הנשיא טראמפ הצהיר כי ארה\"ב מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית ומזהיר שזה יחנק את החדשנות.",
+    "en": "At the APEC summit in Shenzhen, President Trump stated that the US opposes any form of global AI regulation, warning it could stifle development.",
+    "ar": "في قمة أبيك في شنتشن، صرح الرئيس ترامب بأن الولايات المتحدة تعارض أي شكل من أشكال تنظيم الذكاء الاصطناعي العالمي.",
+    "ru": "На саммите АТЭС в Шэньчжэне президент Трамп заявил, что США выступают против глобального регулирования ИИ."
+   },
+   "kid": {
+    "he": "נשיא ארה\"ב אמר שאין צורך בחוקים עולמיים קשוחים על מחשבים חכמים (בינה מלאכותית), כדי שהחברות יוכלו להמשיך לצמוח מהר. זה עשוי לעזור למניות הטכנולוגיה לעלות.",
+    "en": "The US President said no strict global rules are needed for artificial intelligence so companies can keep growing fast. This can help tech stocks go up.",
+    "ar": "قال الرئيس الأمريكي إنه لا حاجة لقواعد عالمية صارمة على الذكاء الاصطناعي لتستمر الشركات في النمو. هذا قد يساعد أسهم التكنولوجيا.",
+    "ru": "Президент США заявил, что жесткие мировые правила для ИИ не нужны, чтобы компании могли расти быстрее. Это может помочь тех-акциям."
+   }
+  },
+  "category": "policy",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVVlMU1VwRi1uNjBNc3Btb2JCbTBNaDNiOEx1UGVxUGgxRTBCQnlyX01yYThuSlJQbXB5N2dzQXloT0FnNUNWT0tTR2hZdFJ4WDdHUTBwMkc0RTY5WVo3dGVESUdLdXpaXzloTlhQWVhhTmo3RWVlam53cXM2SzAwNTIwX28yTFlYeVd4ckR4WnBkMEZSUFJuNmtqSEtCSllvMkZUX0paVGI5YUYzMTdzdjBxUEtsUGx1Tzl5VFB5c0JYV3RaQXBXaEM1Y0hzdzJMX0RIZVNJcGwyajRiczlVX01aTzRRTFBG0gHvAUFVX3lxTE1pcGllTHBnNVZUUU8weXVVRFFMb29CaGxmUGljQUlnTVZ5RHpCMlo2OTBzWlBsdkUzeVFOcml4ZlN0MDdUeHI2bkx6cVpCcVZUdW9BZmJTelVWQUUxcDh6RFgwRG9rYlphLVJibWdieHA0LXdPRkgwLUJkNlk1REt1a3FsUWRtcnpCWlI0aWdYV1BZRjZ3bDltd0FYMGNJT0VoY3h6cFlMZjNHTzV6U202RUpCRzM2ancyVU5TNURtYlJ6NVc5Q0xxd3RELWxBdFBlWHZINDJyUzlET2sxbUw1WXlObVVTSmdWSGNnRy1j?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOUmllNlRiRDFOZC1WeWdlRmVfSjZoTTRsbHBCRzc0NlZiYmRURldfMDhiWnR6ZE9oc0pRb3BWdzBqWkpJYnBIQXNiTzlBUy1CSGN5ZXlETmVCS09EczJtRW5DYmRCS2hPemJaT1dPenVLYXRJREo4dURfMUxSWTZaN3hRaEgzX3dVT0VBNndzelctaEhDaWNmSGFMb19UU1MwdGJfeHl3ek1NMXpnQmswZWRHcmFBMS1jbHpFTHI3NVpuMEhHYlRGdDFJWVptMzBaZkFHTzVzb05aMDFqSGdqTmxvYlpaVmVhSER1eThFOGRWcXFZMG1NSzNBT0XSAYICQVVfeXFMTWJRajlQSXNRSUJ2VzlHb2Nrc2xvVkJHSHNpZTVsVGYyRFh6SklWcGVQdGVMTVRHZlI1QmZHdm5pQzVnajl2YlQ2SjNJWXl5N3hZM3dsQ0lHVDc3bW91ZGlqQTFMQkdiTEp4TG5rQjFKb3dDdWI0RWEyMHlGZzEwUXp1aUxrVTdkTTlQN0FrNlNRNmZCNnd0UGdZWkdueXdXNzhkcUZmUkd6bTNnR0U2VnJ6amF3QllUMUdGUWRZaEFZbGdySkt4bzEtQ2NFaEtQYUtjWnhMbGlJc0cwM2kyN09KZ2ZldmQ5a1pCODc5dDYzelFIUWQ0U0tWYjhhb1pfYVBB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMmt6NmRMMVV4ajR3U0NXUElHWlQtdWRaY1VLOVdhb1ZfZEhmRlBjOU1lRDBVd3djU0lfbkdXdTJ3MDU4RGp6dER3NThBOTd5Zzg3MmhwWnY0aktqcGU0Y2lxcV91MjJyOHoxTy1PelNWR0VIdXRoc0hsZnpFakFYUDNFTFM4SnE0emY0dzM1a25CSEJNRmRJbU14ZDJLRmtyU3F2R295SW9Ndw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONnlvaDRnalYyZUxUUkdienNiUzdrdkRJdkY5VFNRb2R6RE5SczVjYWgzckQwMVpjSEJ5Y0loOFBpMDB5YVVWbGtRNWFyWEljQWdldHZSRi1VcmctUTBRbE1rNEpYZWtvLURZQ2NzbVlxdnF5cTRTR3RPNTltb1pyODRTdjlsRzNhZEg0bnR4eE5nelJDSmtQX2trMDZWdmhaUVBhYQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UnpDN2FodFByNXEtcEZmX3E4UFJHUEVscGVqVnZXenEtY2FoSXgwVTdHWEVZbDZfaUc5aFlaV1Jjd2VkS0ZiRUp1VXZLenFyY1hWbEFTX1k?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUZmVW1vTXFsSW1VSkdjT0Z1VllLUElod2NkZGkxVDVnOUJRMV9FWjVuTnB4ak51Szd6X3owc0lkVlpmUTRSWW10d1huTmdlR09nQ240c0J4TjBLdkRVY2YwYXJ1bDJybEJzam1JbjUwcFM0UEdiVWwtNnJQLVpxUHBTQW15MDNhSXRLazRjaHZ5QmptYzZRdDNQT1hhSlBIdVJTcWRJSEtabTQ3TDgtS0toS1ZLeUFkekwxbFExN2ZabXRVMWRRU01ZY0NZWEUtLUExdHEyS23SAd4BQVVfeXFMTWxRbm1ROC1HeC05NzBXYkV1NmxwaFNLRkI2VDU1eXZvY0kyd2VPTEJtb0I3MWJQZk1Qb0llTjNCdXlJc0w2X0RocHp3cThwWG8tc1NGRHphOHpfNndhbm5VbGVSczl3dF92MzVHMzdkQk9UX2FkMEs5bVVrb01qTHFQakowMm9OUmNtM0ZlQXV6enZBQWk0QWVOV2JYMTFZLWZ0cDcwNVFBVHNDM0luVGtXUFFDUktyN1YzQTFQSmwzYmdNQVNMYUdybVQtYkVsQ3dMb1ZnN0FZZk13bjB3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "היעדר רגולציה מקל על חברות הטכנולוגיה להמשיך בפיתוח AI ללא מגבלות משפטיות.",
+    "reason_i18n": {
+     "he": "היעדר רגולציה מקל על חברות הטכנולוגיה להמשיך בפיתוח AI ללא מגבלות משפטיות.",
+     "en": "Lack of regulation makes it easier for tech firms to develop AI without legal limits.",
+     "ar": "غياب التنظيم يسهل على شركات التكنولوجيا تطوير الذكاء الاصطناعي دون قيود.",
+     "ru": "Отсутствие регулирования облегчает технологическим компаниям развитие ИИ."
+    },
+    "name_i18n": {
+     "he": "קרן סל נאסד\"ק 100",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "صندوق ناسداك 100",
+     "ru": "QQQ - ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 659.51
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "תמיכה ממשלתית בהסרת מכשולים רגולטוריים מטיבה עם ענקיות השבבים.",
+    "reason_i18n": {
+     "he": "תמיכה ממשלתית בהסרת מכשולים רגולטוריים מטיבה עם ענקיות השבבים.",
+     "en": "Government support in removing regulatory hurdles benefits chip giants.",
+     "ar": "الدعم الحكومي في إزالة العقبات التنظيمية يفيد عمالقة الرقائق.",
+     "ru": "Государственная поддержка в устранении регуляторных барьеров идет на пользу чип-гигантам."
+    },
+    "name_i18n": {
+     "he": "אבידיה - יצרנית שבבי AI",
+     "en": "NVDA - Nvidia",
+     "ar": "إنفيديا - رقائق الذكاء الاصطناعي",
+     "ru": "NVDA - Nvidia"
+    },
+    "price_at_alert": 150.96
+   }
+  ],
+  "id": "cd6143ecd4d5"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "ארה\"ב מרחיבה את בקרת ייצוא השבבים",
+  "summary": "בקרת ייצוא השבבים של ארה\"ב הורחבה כך שתחול גם על מרכזי נתונים מחוץ למדינה ועל ציוד ליטוגרפיה.",
+  "kid": "ארה\"ב מטילה כללים נוקשים יותר על מכירת מכונות שבבים ומחשוב לעולם הרחב. זה עלול לפגוע בחברות שמוכרות לחו\"ל אבל להגן על יצרניות אמריקאיות מסוימות.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מרחיבה את בקרת ייצוא השבבים",
+    "en": "U.S. expands semiconductor export controls",
+    "ar": "الولايات المتحدة توسع ضوابط تصدير أشباه الموصلات",
+    "ru": "США расширяют экспортный контроль над полупроводниками"
+   },
+   "summary": {
+    "he": "בקרת ייצוא השבבים של ארה\"ב הורחבה כך שתחול גם על מרכזי נתונים מחוץ למדינה ועל ציוד ליטוגרפיה.",
+    "en": "U.S. semiconductor export controls have been extended to offshore data centers and lithography equipment.",
+    "ar": "تم توسيع ضوابط تصدير أشباه الموصلات الأمريكية لتشمل مراكز البيانات الخارجية ومعدات الطباعة الحجرية.",
+    "ru": "Экспортный контроль США над полупроводниками распространился на оффшорные дата-центры и литографическое оборудование."
+   },
+   "kid": {
+    "he": "ארה\"ב מטילה כללים נוקשים יותר על מכירת מכונות שבבים ומחשוב לעולם הרחב. זה עלול לפגוע בחברות שמוכרות לחו\"ל אבל להגן על יצרניות אמריקאיות מסוימות.",
+    "en": "The US is placing stricter rules on selling chip machines abroad. This can hurt companies selling overseas.",
+    "ar": "تفرض الولايات المتحدة قواعد أكثر صارمة على بيع آلات الرقائق للخارج. هذا قد يضر بالشركات التي تبيع للخارج.",
+    "ru": "США вводят более строгие правила продажи оборудования для чипов за рубеж."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGJaeXRLR3FGTkpFZ3VPZ3NsamlXWnpYTktoQ25KX25xbkVncHVZWjdrV01WZnM2ejUycWxWaGtOU3h4ZEVhbEZvREl0SDk1SkJMWXhETmMwcWxMV2Jvei1pM25oUXpsNEpueFpJOUg2NEpFX01ya0Zrd0R4b0RiSEd3SzRzSHBfMlBOWE9nbERWMWZORHpLZWgwbjRUOTlkOS1rRnVfU0pkR1htMVhWYnI4SmtJR1hOVFlvWUpMdGhSa3M?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ASML",
+    "direction": "down",
+    "t0": 1795064539,
+    "reason": "הרחבת הפיקוח על ציוד ליטוגרפיה מגבילה את שוק היעד של החברה.",
+    "reason_i18n": {
+     "he": "הרחבת הפיקוח על ציוד ליטוגרפיה מגבילה את שוק היעד של החברה.",
+     "en": "Expanding controls on lithography equipment restricts the company's target market.",
+     "ar": "توسيع الضوابط على معدات الطباعة الحجرية يقيّد سوق الشركة المستهدف.",
+     "ru": "Расширение контроля над литографическим оборудованием ограничивает рынок."
+    },
+    "name_i18n": {
+     "he": "אסמל - ציוד ייצור שבבים",
+     "en": "ASML - Chip Equipment Maker",
+     "ar": "אסמל - معدات تصنيع الرقائق",
+     "ru": "ASML - производитель оборудования для чипов"
+    },
+    "price_at_alert": 1395.27
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795064539,
+    "reason": "מגבלות סחר נוספות עלולות להאט את שרשרת האספקה העולמית של סמיקונדקטורים.",
+    "reason_i18n": {
+     "he": "מגבלות סחר נוספות עלולות להאט את שרשרת האספקה העולמית של סמיקונדקטורים.",
+     "en": "Additional trade restrictions could slow down the global semiconductor supply chain.",
+     "ar": "قيود تجارية إضافية قد تبطئ سلاسل الإمداد العالمية لأشباه الموصلات.",
+     "ru": "Дополнительные торговые ограничения могут замедлить глобальные цепочки поставок."
+    },
+    "name_i18n": {
+     "he": "קרן סל שבבים",
+     "en": "SMH - Semiconductor ETF",
+     "ar": "صندوق أشباه الموصلات",
+     "ru": "SMH - Полупроводниковый ETF"
+    },
+    "price_at_alert": 459.54
+   }
+  ],
+  "id": "2b176f9e5875"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "תקיפה נוספת על גשר קרים",
+  "summary": "גורם רשמי רוסי דיווח על תקיפה נוספת על גשר קרים, מה שהוביל להשעיית התנועה בו.",
+  "kid": "גשר חשוב ברוסיה הותקף והתנועה עליו הופסקה. זה יכול להשפיע על מחירי הנפט והביטחון בעולם.",
+  "i18n": {
+   "title": {
+    "he": "תקיפה נוספת על גשר קרים",
+    "en": "Another attack reported on the Crimean Bridge",
+    "ar": "הפגנה על גשר קרים مرة أخرى",
+    "ru": "Новая атака на Крымский мост"
+   },
+   "summary": {
+    "he": "גורם רשמי רוסי דיווח על תקיפה נוספת על גשר קרים, מה שהוביל להשעיית התנועה בו.",
+    "en": "A Russian official reported another attack on the Crimean Bridge, causing traffic to be suspended.",
+    "ar": "أفاد مسؤول روسي بوقوع هجوم آخر على جسر קרים، مما أدى إلى تعليق حركة المرور.",
+    "ru": "Российский чиновник сообщил об очередной атаке на Крымский мост, движение по нему приостановлено."
+   },
+   "kid": {
+    "he": "גשר חשוב ברוסיה הותקף והתנועה עליו הופסקה. זה יכול להשפיע על מחירי הנפט והביטחון בעולם.",
+    "en": "An important bridge in Russia was attacked, stopping traffic. This can affect oil and global security stocks.",
+    "ar": "تعرض جسر مهم في روسيا للهجوم وتم تعليق المرور. هذا יכול يؤثر على أسهم النفط والأمن.",
+    "ru": "Был атакован важный мост в России, движение остановлено. Это может повлиять на нефть и акции."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "מתיחות גיאופוליטית ברוסיה עשויה להעלות את מחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "מתיחות גיאופוליטית ברוסיה עשויה להעלות את מחירי האנרגיה.",
+     "en": "Geopolitical tensions in Russia could push energy prices higher.",
+     "ar": "التوترات الجيوسياسية في روسيا قد تدفع أسعار الطاقة للارتفاع.",
+     "ru": "Геополитическая напряженность в России может поднять цены на энергоносители."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "USO - Crude Oil Fund",
+     "ar": "صندوق النفط الخام",
+     "ru": "Фонд нефти USO"
+    },
+    "price_at_alert": 136.11
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "הסלמה צבאית מעלה את הביקוש למניות ביטחוניות.",
+    "reason_i18n": {
+     "he": "הסלמה צבאית מעלה את הביקוש למניות ביטחוניות.",
+     "en": "Military escalation increases demand for defense stocks.",
+     "ar": "التصعيد العسكري يزيد الطلب على أسهم الدفاع.",
+     "ru": "Военная эскалация повышает спрос на акции оборонных компаний."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "صندوق الدفاع والفضاء",
+     "ru": "ИТА - Оборонный ETF"
+    },
+    "price_at_alert": 69.39
+   }
+  ],
+  "id": "f386188a581d"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "מלזיה שוקלת עסקת ביטחון ב-2 מיליארד דולר עם צרפת",
+  "summary": "מלזיה בוחנת עסקת רכש ביטחונית בהיקף של כ-2 מיליארד רינגיט (או דולרים בהתאמה) מול צרפת.",
+  "kid": "מדינת מלזיה רוצה לקנות ציוד צבאי חדש מצרפת בהרבה כסף. עסקאות ענק כאלה משפיעות על מניות הביטחון בעולם.",
+  "i18n": {
+   "title": {
+    "he": "מלזיה שוקלת עסקת ביטחון ב-2 מיליארד דולר עם צרפת",
+    "en": "Malaysia considering $2B defense procurement with France",
+    "ar": "ماليزيا تدرس صفقة دفاعية بملבاري دولار مع فرنسا",
+    "ru": "Малайзия рассматривает оборонную сделку с Францией на $2 млрд"
+   },
+   "summary": {
+    "he": "מלזיה בוחנת עסקת רכש ביטחונית בהיקף של כ-2 מיליארד רינגיט (או דולרים בהתאמה) מול צרפת.",
+    "en": "Malaysia is looking at a major defense procurement deal with France.",
+    "ar": "تدرس ماليزيا صفقة مشتريات دفاعية كبيرة مع فرنسا.",
+    "ru": "Малайзия рассматривает крупную оборонную сделку с Францией."
+   },
+   "kid": {
+    "he": "מדינת מלזיה רוצה לקנות ציוד צבאי חדש מצרפת בהרבה כסף. עסקאות ענק כאלה משפיעות על מניות הביטחון בעולם.",
+    "en": "Malaysia wants to buy new military gear from France for a lot of money. Huge defense deals move the sector.",
+    "ar": "تريد ماليزيا شراء معدات عسكرية جديدة من فرنسا بالكثير من المال.",
+    "ru": "Малайзия хочет купить военную технику у Франции на крупные деньги."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa0JCQmhPaE14RW1rYUNROGtITnhURkczRnd1cVpLSExEOUtmY3ZLZGsybHZOY2J0SzdWeUdzZDEzeTE4M2ZmUDhZWEJBa1FsQm50Y3htMFlvTmtCQXZWQXdBSlBiRXdUX3NyTlBWVTZxSkhBNTdiQ3M1SWU4NlhYQXU1X0pici0yNjBETjVJMHM2ZEMzbWRRV3dhUXMwblFPUDZUNU5uRnVJZGpubmllNtIBtgFBVV95cUxPNHM4VDc0bkZiUGFXQXNjUl9kTmMyMkwtWlpReUJNdkFUWVcxWDBDNF92SjdlTWlIVm1vOFh0QUc3Z3FSejNzSGh2VjlROFM4RXdtT0gwdkRuald3Uy1WeWNaTS1GekNKbm9fMWN4S3FCMzJsSWJ4c19takc4RGx4cHNBc3p0TU5EZlRoM0xtdWE4Rkh1X2pnUTFQSk9PeERVMWFwNDAyaFFUcEVZd2FMTFR6T1RVQQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "גידול בהוצאות הביטחון הבינלאומיות מחזק את הסקטור הביטחוני הגלובלי.",
+    "reason_i18n": {
+     "he": "גידול בהוצאות הביטחון הבינלאומיות מחזק את הסקטור הביטחוני הגלובלי.",
+     "en": "Growth in international defense spending strengthens the global defense sector.",
+     "ar": "نمو الإنفاق الدفاعي الدولي يწ عزز قطاع الدفاع العالمي.",
+     "ru": "Рост международных оборонных расходов укрепляет глобальный сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "صندوق الدفاع والفضاء",
+     "ru": "ИТА - Оборонный ETF"
+    },
+    "price_at_alert": 69.39
+   }
+  ],
+  "id": "8bca7346259d"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "חברת GAS חותמת על חוזה צינור גז בערב הסעודית",
+  "summary": "חברת GAS חתמה על חוזה בן 20 חודשים לבניית צינור הגז Ghazlan 1 מול רכש الطاقة הסעודי.",
+  "kid": "חברת אנרגיה זכתה בחוזה לבניית צינור גז חדש בסעודיה. זה טוב לחברות אנרגיה ולתשתיות באזור.",
+  "i18n": {
+   "title": {
+    "he": "חברת GAS חותמת על חוזה צינור גז בערב הסעודית",
+    "en": "GAS signs gas pipeline contract in Saudi Arabia",
+    "ar": "GAS توقع عقد خط أنابيب غاز في السعودية",
+    "ru": "GAS подписывает контракт на газопровод в Саудовской Аравии"
+   },
+   "summary": {
+    "he": "חברת GAS חתמה על חוזה בן 20 חודשים לבניית צינור הגז Ghazlan 1 מול רכש الطاقة הסעודי.",
+    "en": "GAS has signed a 20-month Ghazlan 1 gas pipeline contract with Saudi Power Procurement.",
+    "ar": "وقعت شركة GAS عقد خط أنابيب الغاز غزلان 1 لمدة 20 شهراً مع المشتريات السعودية للطاقة.",
+    "ru": "Компания GAS подписала 20-месячный контракт на строительство газопровода с Saudi Power Procurement."
+   },
+   "kid": {
+    "he": "חברת אנרגיה זכתה בחוזה לבניית צינור גז חדש בסעודיה. זה טוב לחברות אנרגיה ולתשתיות באזור.",
+    "en": "An energy company won a contract to build a new gas pipeline in Saudi Arabia. This supports regional energy infrastructure.",
+    "ar": "فازت شركة طاقة بعقد لبناء خط أنابيب غاز جديد في السعودية.",
+    "ru": "Энергетическая компания выиграла контракт на строительство газопровода в Саудовской Аравии."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FUjE5ZVJWWm44eUYxa01jSHJpZmxNbG1oRDVHcWxlSjdSdGVGakZnZXhZR25nSlFGejlqajk1MW81VTl4cVFTcHlEbk9nV3RaZXBDQUxSZm9hVWJETkhlR3VCbUNqU3hzdWxFaWdFcmM0R1hUS3UzU1VVamI?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "KSA",
+    "direction": "up",
+    "t0": 1795064539,
+    "reason": "פרויקטי תשתית אנרגיה חדשים תומכים בכלכלה המקומית ובחברות האנרגיה.",
+    "reason_i18n": {
+     "he": "פרויקטי תשתית אנרגיה חדשים תומכים בכלכלה המקומית ובחברות האנרגיה.",
+     "en": "New energy infrastructure projects support the local economy and energy firms.",
+     "ar": "مشاريع البنية التحتية للطاقة تدعم الاقتصاد المحلي.",
+     "ru": "Новые проекты энергетической инфраструктуры поддерживают местную экономику."
+    },
+    "name_i18n": {
+     "he": "קרן סל ערב הסעודית",
+     "en": "KSA - iShares MSCI Saudi Arabia ETF",
+     "ar": "صندوق استثمار السعودية",
+     "ru": "KSA - ETF Саудовской Аравии"
+    },
+    "price_at_alert": 35.6
+   }
+  ],
+  "id": "58993a0a1f37"
+ },
+ {
+  "ts": 1795064539,
+  "time": "2026-11-19T05:02Z",
+  "title": "חיל הים התאילנדי מבטל את בחירת Hanwha Ocean",
+  "summary": "הצי של תאילנד ביטל את בחירתה של חברת Hanwha Ocean בשל פערים בכללי המכרז.",
+  "kid": "תאילנד ביטלה ענקית בנייה ימית אסייתית ממכרז בגלל בעיות בכללים. זה יוצר אי-ודאות לחברה ולמתחרותיה.",
+  "i18n": {
+   "title": {
+    "he": "חיל הים התאילנדי מבטל את בחירת Hanwha Ocean",
+    "en": "Thai Navy cancels Hanwha Ocean selection over tender rules",
+    "ar": "البحرية التايوانية تلغي اختيار Hanwha Ocean",
+    "ru": "ВМС Таиланда отменяют выбор Hanwha Ocean из-за правил тендера"
+   },
+   "summary": {
+    "he": "הצי של תאילנד ביטל את בחירתה של חברת Hanwha Ocean בשל פערים בכללי המכרז.",
+    "en": "The Thai Navy has cancelled the selection of Hanwha Ocean due to tender rule gaps.",
+    "ar": "ألغت البحرية التايلاندية اختيار Hanwha Ocean بسبب ثغرات في قواعد المناقصة.",
+    "ru": "ВМС Таиланда отменили выбор Hanwha Ocean из-за пробелов в правилах тендера."
+   },
+   "kid": {
+    "he": "תאילנד ביטלה ענקית בנייה ימית אסייתית ממכרז בגלל בעיות בכללים. זה יוצר אי-ודאות לחברה ולמתחרותיה.",
+    "en": "Thailand cancelled an Asian marine builder from a tender due to rule issues. This creates uncertainty for competitors.",
+    "ar": "ألغت تايلاند اختيار شركة بناء بحرية آسيوية من مناقصة بسبب مشاكل في القواعد.",
+    "ru": "Таиланд исключил азиатского судостроителя из тендера из-за проблем с правилами."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GTEVhcG02SWtsTm85MXNwM3liTXViTjJSenpKMkhUVkJTMl9JNjRHUGFXc3c3a1B4ZzRYZTVtSVJ1SHFraVRCV254RHMxSHJWN056cVU5RFJsaGR6Rmh6dFRocDdPWVFIald0U0ZoNGFQMnVR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWY",
+    "direction": "down",
+    "t0": 1795064539,
+    "reason": "ביטול מכרז בינלאומי לחברה קוריאנית פוגע בסנטימנט כלפי התעשייה המקומית.",
+    "reason_i18n": {
+     "he": "ביטול מכרז בינלאומי לחברה קוריאנית פוגע בסנטימנט כלפי התעשייה המקומית.",
+     "en": "Cancellation of an international tender for a Korean firm hurts local industry sentiment.",
+     "ar": "إلغاء مناقصة دولية لشركة كورية يضر بمعنويات الصناعة المحلية.",
+     "ru": "Отмена международного тендера для южнокорейской фирмы бьет по настроениям."
+    },
+    "name_i18n": {
+     "he": "קרן סל דרום קוריאה",
+     "en": "EWY - iShares MSCI South Korea ETF",
+     "ar": "صندوق كوريا الجنوبية",
+     "ru": "EWY - Южнокорейский ETF"
+    },
+    "price_at_alert": 136.73
+   }
+  ],
+  "id": "8369ba970f02"
  }
 ]
