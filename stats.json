@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T00:38Z",
+ "generated": "2026-11-19T02:01Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1123,
+ "total_alerts": 1125,
  "overall": {
   "n": 800,
   "hits": 401,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 128,
+   "mentions": 129,
    "n": 123,
    "hits": 60,
    "name": {
-    "he": "USO - תעודת סל על נפט גולמי",
-    "en": "USO - United States Oil Fund ETF",
-    "ar": "USO - صندوق النفط الخام الأمريكي",
-    "ru": "USO - ETF нефтяного фонда США"
+    "he": "קרן סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق النفط المتداول",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.27
   },
   "XLE": {
-   "mentions": 109,
+   "mentions": 110,
    "n": 104,
    "hits": 61,
    "name": {
-    "he": "XLE - קרן סל על סקטור האנרגיה",
-    "en": "XLE - Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "מגזר האנרגיה",
+    "en": "Energy Sector",
+    "ar": "قطاع الطاقة",
+    "ru": "Энергетический сектор"
    },
    "avg_edge": -0.17
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 193,
+   "mentions": 195,
    "n": 182,
    "hits": 114,
    "name": {
-    "he": "תעודת סל ביטחונית",
-    "en": "Aerospace & Defense ETF",
-    "ar": "صندوق الدفاع والفضاء",
-    "ru": "ETF на аэрокосмический и оборонный сектор"
+    "he": "מגזר הביטחון",
+    "en": "Defense Sector",
+    "ar": "قطاع الدفاع",
+    "ru": "Оборонный сектор"
    },
    "avg_edge": -1.05
   },
@@ -282,14 +282,14 @@
    "avg_edge": 0.33
   },
   "TLT": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 39,
    "hits": 22,
    "name": {
-    "he": "אג\"ח ממשלתי ארוך טווח",
-    "en": "Long-term US Treasury bonds",
-    "ar": "سندات الخزانة الأمريكية طويلة الأجل",
-    "ru": "Долгосрочные казначейские облигации США"
+    "he": "אג\"ח ממשלתי ארוך",
+    "en": "Long-term Treasury Bonds",
+    "ar": "سندات الخزانة طويلة الأجل",
+    "ru": "Долгосрочные гособлигации"
    },
    "avg_edge": 0.1
   },
