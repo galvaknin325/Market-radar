@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:03Z",
+ "generated": "2026-11-19T17:57Z",
  "trade_size": 1000,
  "important": {
   "trades": 279,
@@ -682,11 +682,11 @@
   ]
  },
  "all": {
-  "trades": 800,
+  "trades": 801,
   "wins": 407,
-  "hits": 401,
-  "pnl": 360.3,
-  "bench_pnl": -4675.7,
+  "hits": 402,
+  "pnl": 340.5,
+  "bench_pnl": -4697.4,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -786,9 +786,33 @@
     "date": "2026-11-18",
     "equity": 360.3,
     "bench": -4675.7
+   },
+   {
+    "date": "2026-11-19",
+    "equity": 340.5,
+    "bench": -4697.4
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-19",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "ae773b572b28",
+    "title": "אלביט מתקרבת לייצור נשק לייזר",
+    "title_i18n": {
+     "he": "אלביט מתקרבת לייצור נשק לייזר",
+     "en": "Elbit advances laser weapons",
+     "ar": "إلبيت تقترب من إنتاج أسلحة الليزر",
+     "ru": "Elbit приближается к производству лазерного оружия"
+    },
+    "change_pct": -1.98,
+    "hit": true,
+    "pnl": -19.8,
+    "bench_pnl": -21.7
+   },
    {
     "date": "2026-11-18",
     "ticker": "ZM",
@@ -1338,25 +1362,6 @@
     "change_pct": -0.55,
     "hit": true,
     "pnl": -5.5,
-    "bench_pnl": -10.8
-   },
-   {
-    "date": "2026-11-18",
-    "ticker": "ITA",
-    "dir": "down",
-    "severity": 6,
-    "cat": "geopolitics",
-    "id": "efbd2eba7849",
-    "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
-    "title_i18n": {
-     "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
-     "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
-     "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
-     "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
-    },
-    "change_pct": 0.06,
-    "hit": false,
-    "pnl": -0.6,
     "bench_pnl": -10.8
    }
   ]

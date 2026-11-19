@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-19T17:03Z",
+ "generated": "2026-11-19T17:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1163,
+ "total_alerts": 1166,
  "overall": {
-  "n": 800,
-  "hits": 401,
+  "n": 801,
+  "hits": 402,
   "avg_edge": 0.05
  },
  "by_category": {
@@ -19,9 +19,9 @@
    "avg_edge": 0.19
   },
   "contracts": {
-   "n": 166,
-   "hits": 82,
-   "avg_edge": -0.1
+   "n": 167,
+   "hits": 83,
+   "avg_edge": -0.09
   },
   "cyber": {
    "n": 50,
@@ -61,8 +61,8 @@
    "avg_edge": -0.44
   },
   "4-5": {
-   "n": 382,
-   "hits": 193,
+   "n": 383,
+   "hits": 194,
    "avg_edge": 0.05
   },
   "6-7": {
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 10,
-   "n": 8,
-   "hits": 3,
+   "n": 9,
+   "hits": 4,
    "name": {
     "he": "אלביט מערכות - חברת ביטחונית ישראלית",
     "en": "Elbit Systems - Israeli Defense Company",
     "ar": "إلبيت سيستمز - شركة دفاع إسرائيلية",
     "ru": "Elbit Systems - израильская оборонная компания"
    },
-   "avg_edge": -0.74
+   "avg_edge": -0.63
   },
   "ESLT": {
    "mentions": 29,
@@ -234,14 +234,14 @@
    "avg_edge": 0.02
   },
   "KRE": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 15,
    "hits": 9,
    "name": {
-    "he": "KRE - קרן סל בנקים אזוריים",
-    "en": "KRE - Regional Banking ETF",
-    "ar": "KRE - صندوق البنوك الإقليمية",
-    "ru": "KRE - фонд региональных банков"
+    "he": "בנקים אזוריים",
+    "en": "Regional Banks",
+    "ar": "البنوك الإقليمية",
+    "ru": "Региональные банки"
    },
    "avg_edge": 0.02
   },
@@ -378,13 +378,13 @@
    "avg_edge": 0.42
   },
   "DBA": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 14,
    "hits": 4,
    "name": {
-    "he": "קרן סל חקלאות",
+    "he": "ETF חקלאות",
     "en": "Agriculture ETF",
-    "ar": "صندوق استثماري للزراعة",
+    "ar": "صندوق الزراعة",
     "ru": "ETF сельского хозяйства"
    },
    "avg_edge": -0.11
@@ -1206,13 +1206,13 @@
    "avg_edge": 1.02
   },
   "EIS": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 9,
    "hits": 9,
    "name": {
-    "he": "תעודת סל ישראל",
+    "he": "ETF ישראל",
     "en": "Israel ETF",
-    "ar": "صندوق استثمار في إسرائيل",
+    "ar": "صندوق إسرائيل",
     "ru": "ETF Израиля"
    },
    "avg_edge": 0.82
@@ -1650,7 +1650,7 @@
    "avg_edge": null
   },
   "V": {
-   "mentions": 1,
+   "mentions": 2,
    "n": 0,
    "hits": 0,
    "name": {
@@ -1730,6 +1730,30 @@
     "en": "Ivanhoe Electric",
     "ar": "إيفانهو إلكتريك",
     "ru": "Ivanhoe Electric"
+   },
+   "avg_edge": null
+  },
+  "MA": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "מאסטרקארד",
+    "en": "Mastercard",
+    "ar": "ماستركارد",
+    "ru": "Mastercard"
+   },
+   "avg_edge": null
+  },
+  "XHB": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "ETF בנייה",
+    "en": "Homebuilders ETF",
+    "ar": "صندوق البناء",
+    "ru": "ETF строительных компаний"
    },
    "avg_edge": null
   }
