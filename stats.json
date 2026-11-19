@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T15:59Z",
+ "generated": "2026-11-19T17:03Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1160,
+ "total_alerts": 1163,
  "overall": {
   "n": 800,
   "hits": 401,
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 131,
+   "mentions": 132,
    "n": 123,
    "hits": 60,
    "name": {
-    "he": "קרן נפט גולמי",
-    "en": "Crude oil ETF",
-    "ar": "صندوق النفط الخام",
-    "ru": "ETF на сырую нефть"
+    "he": "קרן סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق استثمار النفط",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.27
   },
@@ -114,14 +114,14 @@
    "avg_edge": 0.83
   },
   "XOM": {
-   "mentions": 44,
+   "mentions": 45,
    "n": 37,
    "hits": 16,
    "name": {
-    "he": "אקססון מובייל - חברת נפט ענקית",
-    "en": "ExxonMobil – Major Oil Company",
-    "ar": "엑슨모빌 - 대형 석유 회사",
-    "ru": "ExxonMobil — крупная нефтяная компания"
+    "he": "אקסון מוביל",
+    "en": "Exxon Mobil",
+    "ar": "إكسون موبيل",
+    "ru": "Exxon Mobil"
    },
    "avg_edge": -0.13
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 199,
+   "mentions": 200,
    "n": 182,
    "hits": 114,
    "name": {
-    "en": "Aerospace & Defense ETF",
-    "he": "מדד תעופה וביטחון",
-    "ar": "صندوق قطاع الطيران والدفاع",
-    "ru": "ETF аэрокосмической и оборонной промышленности"
+    "he": "קרן סל ביטחון",
+    "en": "Defense ETF",
+    "ar": "صندوق استثمار الدفاع",
+    "ru": "Оборонный ETF"
    },
    "avg_edge": -1.05
   },
@@ -786,7 +786,7 @@
    "avg_edge": null
   },
   "AMD": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 3,
    "hits": 1,
    "name": {
@@ -1718,6 +1718,18 @@
     "en": "AbbVie – a major pharmaceutical company",
     "ar": "أبفي – شركة أدوية كبرى",
     "ru": "AbbVie — крупная фармацевтическая компания"
+   },
+   "avg_edge": null
+  },
+  "IE": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "איוואן הו אלקטריק",
+    "en": "Ivanhoe Electric",
+    "ar": "إيفانهو إلكتريك",
+    "ru": "Ivanhoe Electric"
    },
    "avg_edge": null
   }
