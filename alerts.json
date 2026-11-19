@@ -2169,166 +2169,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794524701,
-  "time": "2026-11-12T23:05Z",
-  "title": "הצי האמריקאי מגביר ייצור טילי טומהוק",
-  "summary": "הצי האמריקאי פועל להגברת קצב הייצור של טילי טומהוק בעקבות צריכה מוגברת במהלך העימותים במזרח התיכון.",
-  "kid": "הצבא האמריקאי צריך עוד טילים כי השתמשו בהרבה מהם במלחמה. זה אומר שחברות שמייצרות טילים יקבלו יותר הזמנות.",
-  "i18n": {
-   "title": {
-    "he": "הצי האמריקאי מגביר ייצור טילי טומהוק",
-    "en": "US Navy ramps up Tomahawk missile production",
-    "ar": "البحرية الأمريكية تزيد إنتاج صواريخ توماهوك",
-    "ru": "ВМС США наращивают производство ракет Tomahawk"
-   },
-   "summary": {
-    "he": "הצי האמריקאי פועל להגברת קצב הייצור של טילי טומהוק בעקבות צריכה מוגברת במהלך העימותים במזרח התיכון.",
-    "en": "The US Navy is working to increase the production rate of Tomahawk missiles following high usage during conflicts in the Middle East.",
-    "ar": "تعمل البحرية الأمريكية على زيادة معدل إنتاج صواريخ توماهوك بعد الاستخدام المكثف خلال الصراعات في الشرق الأوسط.",
-    "ru": "ВМС США работают над увеличением темпов производства ракет Tomahawk после их активного использования в конфликтах на Ближнем Востоке."
-   },
-   "kid": {
-    "he": "הצבא האמריקאי צריך עוד טילים כי השתמשו בהרבה מהם במלחמה. זה אומר שחברות שמייצרות טילים יקבלו יותר הזמנות.",
-    "en": "The US military needs more missiles because they used a lot in the war. This means companies that make missiles will get more orders.",
-    "ar": "يحتاج الجيش الأمريكي إلى المزيد من الصواريخ لأنهم استخدموا الكثير منها في الحرب. هذا يعني أن الشركات التي تصنع الصواريخ ستحصل على المزيد من الطلبات.",
-    "ru": "Американским военным нужно больше ракет, потому что они использовали много в войне. Это значит, что компании, производящие ракеты, получат больше заказов."
-   }
-  },
-  "category": "contracts",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794524701,
-    "reason": "הגדלת הייצור והביקוש לטילים תומכת בהכנסות החברה.",
-    "reason_i18n": {
-     "he": "הגדלת הייצור והביקוש לטילים תומכת בהכנסות החברה.",
-     "en": "Increased production and demand for missiles supports company revenue.",
-     "ar": "زيادة الإنتاج والطلب على الصواريخ تدعم إيرادات الشركة.",
-     "ru": "Увеличение производства и спроса на ракеты поддерживает выручку компании."
-    },
-    "name_i18n": {
-     "he": "יצרנית טילי טומהוק",
-     "en": "Tomahawk missile manufacturer",
-     "ar": "الشركة المصنعة لصواريخ توماهوك",
-     "ru": "Производитель ракет Tomahawk"
-    },
-    "price_at_alert": 198.36,
-    "entry_price": 199.39,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 194.925,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.24,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 0.25,
-    "edge_pct": 0.25,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794524701,
-    "reason": "הגדלת תקציבי הביטחון והייצור מועילה לכל המגזר.",
-    "reason_i18n": {
-     "he": "הגדלת תקציבי הביטחון והייצור מועילה לכל המגזר.",
-     "en": "Increased defense budgets and production benefit the entire sector.",
-     "ar": "زيادة ميزانيات الدفاع والإنتاج تفيد القطاع بأكمله.",
-     "ru": "Увеличение оборонных бюджетов и производства выгодно для всего сектора."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع",
-     "ru": "ETF на аэрокосмическую и оборонную промышленность"
-    },
-    "price_at_alert": 71.73,
-    "entry_price": 71.92,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.6,
-    "edge_pct": -0.6,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "5e3f7ac26da6",
-  "evaluated": true
- },
- {
-  "ts": 1794524701,
-  "time": "2026-11-12T23:05Z",
-  "title": "דמוקרטים פועלים להסרת סעיף טכנולוגי ארה\"ב-ישראל מחוק הביטחון",
-  "summary": "מחוקקים דמוקרטים מנסים להסיר סעיף מחוק הביטחון המקדם שיתוף פעולה טכנולוגי ופיתוח נשק משותף עם ישראל.",
-  "kid": "יש ויכוח בתוך הממשלה האמריקאית אם להמשיך לעבוד יחד עם ישראל על טכנולוגיות צבאיות חדשות. אם זה יבוטל, חברות ביטחוניות עלולות להפסיד כסף.",
-  "i18n": {
-   "title": {
-    "he": "דמוקרטים פועלים להסרת סעיף טכנולוגי ארה\"ב-ישראל מחוק הביטחון",
-    "en": "Democrats push to remove US-Israel tech measure from defense bill",
-    "ar": "الديمقراطيون يسعون لإزالة إجراء تكنولوجي بين الولايات المتحدة وإسرائيل من مشروع قانون الدفاع",
-    "ru": "Демократы пытаются исключить американо-израильскую технологическую меру из оборонного законопроекта"
-   },
-   "summary": {
-    "he": "מחוקקים דמוקרטים מנסים להסיר סעיף מחוק הביטחון המקדם שיתוף פעולה טכנולוגי ופיתוח נשק משותף עם ישראל.",
-    "en": "Democratic lawmakers are attempting to remove a provision from the defense bill that promotes technological cooperation and joint weapons development with Israel.",
-    "ar": "يحاول المشرعون الديمقراطيون إزالة بند من مشروع قانون الدفاع يعزز التعاون التكنولوجي وتطوير الأسلحة المشترك مع إسرائيل.",
-    "ru": "Законодатели-демократы пытаются исключить из оборонного законопроекта положение, способствующее технологическому сотрудничеству и совместной разработке оружия с Израилем."
-   },
-   "kid": {
-    "he": "יש ויכוח בתוך הממשלה האמריקאית אם להמשיך לעבוד יחד עם ישראל על טכנולוגיות צבאיות חדשות. אם זה יבוטל, חברות ביטחוניות עלולות להפסיד כסף.",
-    "en": "There is a debate in the US government about whether to keep working with Israel on new military technologies. If this is cancelled, defense companies might lose money.",
-    "ar": "هناك نقاش داخل الحكومة الأمريكية حول ما إذا كان يجب الاستمرار في العمل مع إسرائيل على تقنيات عسكرية جديدة. إذا تم إلغاء ذلك، فقد تخسر شركات الدفاع المال.",
-    "ru": "В правительстве США идут споры о том, стоит ли продолжать сотрудничество с Израилем в области новых военных технологий. Если это отменят, оборонные компании могут потерять деньги."
-   }
-  },
-  "category": "policy",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "down",
-    "t0": 1794524701,
-    "reason": "פגיעה אפשרית בשיתופי פעולה וחוזים עתידיים עם ארה\"ב.",
-    "reason_i18n": {
-     "he": "פגיעה אפשרית בשיתופי פעולה וחוזים עתידיים עם ארה\"ב.",
-     "en": "Potential impact on future collaborations and contracts with the US.",
-     "ar": "تأثير محتمل على التعاون والعقود المستقبلية مع الولايات المتحدة.",
-     "ru": "Потенциальное влияние на будущее сотрудничество и контракты с США."
-    },
-    "name_i18n": {
-     "he": "אלביט מערכות",
-     "en": "Elbit Systems",
-     "ar": "إلبيت سيستمز",
-     "ru": "Elbit Systems"
-    },
-    "price_at_alert": 723.0,
-    "entry_price": 715.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 680.74,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.79,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.3,
-    "edge_pct": 2.3,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "673f0f40b318",
-  "evaluated": true
- },
- {
   "ts": 1794531656,
   "time": "2026-11-13T01:00Z",
   "title": "בכירי הפד מזהירים מאינפלציה גבוהה בזמן שהין היפני צונח",
@@ -27854,7 +27694,18 @@
      "ar": "DAL - دلتا للطيران",
      "ru": "DAL - Delta Air Lines"
     },
-    "price_at_alert": 84.3
+    "price_at_alert": 84.3,
+    "entry_price": 84.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 83.18,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.41,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.99,
+    "edge_pct": -0.99,
+    "hit": false,
+    "hit_raw": true
    }
   ],
   "id": "8cbb8a93b1b0",
@@ -27920,7 +27771,8 @@
     }
    }
   ],
-  "last_update": 1795092435
+  "last_update": 1795092435,
+  "evaluated": true
  },
  {
   "ts": 1794855205,
@@ -28017,7 +27869,18 @@
      "ar": "صندوق الزراعة - صندوق السلع الزراعية الواسع",
      "ru": "ETF сельского хозяйства - фонд широкого спектра агрокомıодити"
     },
-    "price_at_alert": 26.38
+    "price_at_alert": 26.38,
+    "entry_price": 26.23,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 26.21,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.08,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.32,
+    "edge_pct": 2.32,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "ZIM",
@@ -28036,7 +27899,18 @@
      "ar": "شركة زيم للشحن",
      "ru": "ZIM Shipping"
     },
-    "price_at_alert": 29.69
+    "price_at_alert": 29.69,
+    "entry_price": 30.7875,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 29.63,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.76,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.36,
+    "edge_pct": -1.36,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "efc40748f285",
@@ -28066,7 +27940,8 @@
     }
    }
   ],
-  "last_update": 1795009692
+  "last_update": 1795009692,
+  "evaluated": true
  },
  {
   "ts": 1794855205,
@@ -30785,7 +30660,18 @@
      "ar": "نورثروب غرومان - مقاول دفاعي",
      "ru": "Northrop Grumman - подрядчик в сфере обороны"
     },
-    "price_at_alert": 553.26
+    "price_at_alert": 553.26,
+    "entry_price": 547.09,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 542.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.87,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.52,
+    "edge_pct": 1.52,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "44232d854199",
@@ -30803,7 +30689,8 @@
     }
    }
   ],
-  "last_update": 1794955083
+  "last_update": 1794955083,
+  "evaluated": true
  },
  {
   "ts": 1794891424,
@@ -32140,7 +32027,18 @@
      "ar": "FXI – صندوق أسهم الصين الكبرى",
      "ru": "FXI – ETF крупных китайских акций"
     },
-    "price_at_alert": 32.88
+    "price_at_alert": 32.88,
+    "entry_price": 32.56,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 31.805,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.32,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.08,
+    "edge_pct": 0.08,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "f9fd65ddd347",
@@ -32170,7 +32068,8 @@
     }
    }
   ],
-  "last_update": 1794962152
+  "last_update": 1794962152,
+  "evaluated": true
  },
  {
   "ts": 1794908105,
@@ -32289,7 +32188,18 @@
      "ar": "NOC - نورثروب غرومان",
      "ru": "NOC - Northrop Grumman"
     },
-    "price_at_alert": 553.26
+    "price_at_alert": 553.26,
+    "entry_price": 547.09,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 542.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.87,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.52,
+    "edge_pct": 1.52,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "baea3218a8aa",
@@ -32307,7 +32217,8 @@
     }
    }
   ],
-  "last_update": 1795004853
+  "last_update": 1795004853,
+  "evaluated": true
  },
  {
   "ts": 1794908105,
@@ -32533,7 +32444,18 @@
      "ar": "TLT – صندوق سندات الخزانة طويلة الأجل",
      "ru": "TLT – ETF длинных гособлигаций США"
     },
-    "price_at_alert": 79.55
+    "price_at_alert": 79.55,
+    "entry_price": 79.895,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 80.345,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.56,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.96,
+    "edge_pct": -2.96,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "SPY",
@@ -32552,7 +32474,18 @@
      "ar": "SPY – صندوق مؤشر إس آند بي 500",
      "ru": "SPY – ETF индекса S&P 500"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": 2.4,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "7d408dd130e9",
@@ -32570,7 +32503,8 @@
     }
    }
   ],
-  "last_update": 1794962152
+  "last_update": 1794962152,
+  "evaluated": true
  },
  {
   "ts": 1794912327,
@@ -32806,7 +32740,18 @@
      "ar": "أبل – عملاق التكنولوجيا",
      "ru": "Apple – технологический гигант"
     },
-    "price_at_alert": 351.91
+    "price_at_alert": 351.91,
+    "entry_price": 351.87,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 349.11,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.61,
+    "edge_pct": 1.61,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XLK",
@@ -32825,7 +32770,18 @@
      "ar": "XLK – صندوق قطاع التكنولوجيا",
      "ru": "XLK – ETF технологического сектора"
     },
-    "price_at_alert": 163.26
+    "price_at_alert": 163.26,
+    "entry_price": 164.66,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 160.7,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.01,
+    "edge_pct": -0.01,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "e5c3cce33705",
@@ -32843,7 +32799,8 @@
     }
    }
   ],
-  "last_update": 1794962152
+  "last_update": 1794962152,
+  "evaluated": true
  },
  {
   "ts": 1794912327,
@@ -33281,7 +33238,18 @@
      "ar": "صندوق الفضاء والدفاع",
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
-    "price_at_alert": 69.6
+    "price_at_alert": 69.6,
+    "entry_price": 69.48,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.61,
+    "edge_pct": 0.61,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "c336802516b1",
@@ -33311,7 +33279,8 @@
     }
    }
   ],
-  "last_update": 1794951410
+  "last_update": 1794951410,
+  "evaluated": true
  },
  {
   "ts": 1794923267,
@@ -33446,7 +33415,18 @@
      "ar": "QQQ - صندوق مؤشر ناسداك 100",
      "ru": "QQQ - фонд акций Nasdaq 100"
     },
-    "price_at_alert": 658.22
+    "price_at_alert": 658.22,
+    "entry_price": 657.7,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 645.1,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.92,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": 0.02,
+    "edge_pct": -0.02,
+    "hit": false,
+    "hit_raw": true
    },
    {
     "ticker": "KRE",
@@ -33465,7 +33445,18 @@
      "ar": "KRE - صندوق البنوك الإقليمية",
      "ru": "KRE - фонд региональных банков"
     },
-    "price_at_alert": 70.79
+    "price_at_alert": 70.79,
+    "entry_price": 70.605,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 69.3,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.85,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": 0.09,
+    "edge_pct": -0.09,
+    "hit": false,
+    "hit_raw": true
    }
   ],
   "id": "d7a753325493",
@@ -33531,7 +33522,8 @@
     }
    }
   ],
-  "last_update": 1795041454
+  "last_update": 1795041454,
+  "evaluated": true
  },
  {
   "ts": 1794923267,
@@ -33860,7 +33852,18 @@
      "ar": "كراودسترايك - شركة أمن سيبراني",
      "ru": "CrowdStrike - компания по кибербезопасности"
     },
-    "price_at_alert": 219.58
+    "price_at_alert": 219.58,
+    "entry_price": 223.8,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 243.38,
+    "exit_date": "2026-11-19",
+    "change_pct": 8.75,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 11.15,
+    "edge_pct": 11.15,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "XLF",
@@ -33879,7 +33882,18 @@
      "ar": "صندوق قطاع المال - صندوق القطاع المصرفي والمالي",
      "ru": "ETF финансового сектора - фонд банков и финансов"
     },
-    "price_at_alert": 57.07
+    "price_at_alert": 57.07,
+    "entry_price": 56.78,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 55.59,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.1,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.3,
+    "edge_pct": -0.3,
+    "hit": false,
+    "hit_raw": true
    }
   ],
   "id": "6edea0874d61",
@@ -33897,7 +33911,8 @@
     }
    }
   ],
-  "last_update": 1794955083
+  "last_update": 1794955083,
+  "evaluated": true
  },
  {
   "ts": 1794940726,
@@ -34032,7 +34047,18 @@
      "ar": "EWA – صندوق مؤشرات أستراليا",
      "ru": "EWА – ETF австралийских акций"
     },
-    "price_at_alert": 28.16
+    "price_at_alert": 28.16,
+    "entry_price": 27.95,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 27.185,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.74,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.34,
+    "edge_pct": -0.34,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "6934240435df",
@@ -34086,7 +34112,8 @@
     }
    }
   ],
-  "last_update": 1795103870
+  "last_update": 1795103870,
+  "evaluated": true
  },
  {
   "ts": 1794940726,
@@ -34326,7 +34353,18 @@
      "ar": "قطاع الطاقة",
      "ru": "Сектор энергетики"
     },
-    "price_at_alert": 63.415
+    "price_at_alert": 63.415,
+    "entry_price": 63.0,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 60.89,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.35,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.95,
+    "edge_pct": -0.95,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -34345,7 +34383,18 @@
      "ar": "صندوق الفضاء والدفاع",
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
-    "price_at_alert": 69.6
+    "price_at_alert": 69.6,
+    "entry_price": 69.48,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.61,
+    "edge_pct": 0.61,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XOM",
@@ -34364,7 +34413,18 @@
      "ar": "إكسون موبيل - شركة نفط كبرى",
      "ru": "ExxonMobil - крупная нефтяная компания"
     },
-    "price_at_alert": 167.21
+    "price_at_alert": 167.21,
+    "entry_price": 165.92,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 158.94,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.21,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.81,
+    "edge_pct": -1.81,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "7c398bfffe94",
@@ -34454,7 +34514,8 @@
     }
    }
   ],
-  "last_update": 1794985964
+  "last_update": 1794985964,
+  "evaluated": true
  },
  {
   "ts": 1794944925,
@@ -34559,7 +34620,18 @@
      "ar": "كراودسترايك - شركة أمن سيبراني",
      "ru": "CrowdStrike – компания по кибербезопасности"
     },
-    "price_at_alert": 219.58
+    "price_at_alert": 219.58,
+    "entry_price": 223.8,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 243.38,
+    "exit_date": "2026-11-19",
+    "change_pct": 8.75,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 11.15,
+    "edge_pct": 11.15,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "a9ec0572ed39",
@@ -34589,7 +34661,8 @@
     }
    }
   ],
-  "last_update": 1795001432
+  "last_update": 1795001432,
+  "evaluated": true
  },
  {
   "ts": 1794944925,
@@ -34832,10 +34905,22 @@
      "ar": "سبيس إكس",
      "ru": "SpaceX"
     },
-    "price_at_alert": 141.7
+    "price_at_alert": 141.7,
+    "entry_price": 143.23,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 138.17,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.53,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.13,
+    "edge_pct": 1.13,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "224fe33c001d"
+  "id": "224fe33c001d",
+  "evaluated": true
  },
  {
   "ts": 1794955083,
@@ -34890,7 +34975,18 @@
      "ar": "إنفيديا - شركة رقائق ذكاء اصطناعي",
      "ru": "Nvidia - компания по производству чипов ИИ"
     },
-    "price_at_alert": 155.46
+    "price_at_alert": 155.46,
+    "entry_price": 159.19,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 146.0,
+    "exit_date": "2026-11-19",
+    "change_pct": -8.29,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -5.89,
+    "edge_pct": 5.89,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "SMH",
@@ -34909,10 +35005,22 @@
      "ar": "صندوق قطاع أشباه الموصلات - صندوق أسهم الرقائق",
      "ru": "ETF полупроводников - фонд сектора чипов"
     },
-    "price_at_alert": 460.1
+    "price_at_alert": 460.1,
+    "entry_price": 467.7,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 447.54,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.31,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.91,
+    "edge_pct": 1.91,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "2b0fc67e6d17"
+  "id": "2b0fc67e6d17",
+  "evaluated": true
  },
  {
   "ts": 1794955083,
@@ -34967,7 +35075,18 @@
      "ar": "SPY - صندوق مؤشر ستاندرد آند بورز 500",
      "ru": "SPY - ETF индекса S&P 500"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": 2.4,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "TLT",
@@ -34986,10 +35105,22 @@
      "ar": "صندوق سندات الخزانة طويلة الأجل - صندوق السندات الحكومية",
      "ru": "ETF долгосрочных гособлигаций США"
     },
-    "price_at_alert": 79.55
+    "price_at_alert": 79.55,
+    "entry_price": 79.895,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 80.345,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.56,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.96,
+    "edge_pct": 2.96,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "d5dbcaf42935"
+  "id": "d5dbcaf42935",
+  "evaluated": true
  },
  {
   "ts": 1794962152,
@@ -35052,7 +35183,18 @@
      "ar": "XLE – صندوق قطاع الطاقة",
      "ru": "XLE – ETF энергетического сектора"
     },
-    "price_at_alert": 63.36
+    "price_at_alert": 63.36,
+    "entry_price": 63.0,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 60.89,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.35,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.95,
+    "edge_pct": -0.95,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "CVX",
@@ -35071,7 +35213,18 @@
      "ar": "شيفرون – شركة نفط كبرى",
      "ru": "Chevron – крупная нефтяная компания"
     },
-    "price_at_alert": 216.13
+    "price_at_alert": 216.13,
+    "entry_price": 212.6,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 206.56,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.84,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.44,
+    "edge_pct": -0.44,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "USO",
@@ -35090,7 +35243,18 @@
      "ar": "USO - صندوق النفط الأمريكي",
      "ru": "USO - Нефтяной фонд США"
     },
-    "price_at_alert": 140.24
+    "price_at_alert": 140.24,
+    "entry_price": 139.74,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 138.12,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.16,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.24,
+    "edge_pct": 1.24,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XOM",
@@ -35109,7 +35273,18 @@
      "ar": "XOM - إكسون موبيل",
      "ru": "XOM - Exxon Mobil"
     },
-    "price_at_alert": 167.21
+    "price_at_alert": 167.21,
+    "entry_price": 165.92,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 158.94,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.21,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.81,
+    "edge_pct": -1.81,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "490f065c46ed",
@@ -35127,7 +35302,8 @@
     }
    }
   ],
-  "last_update": 1795004853
+  "last_update": 1795004853,
+  "evaluated": true
  },
  {
   "ts": 1794962152,
@@ -35182,7 +35358,18 @@
      "ar": "EWJ – صندوق مؤشرات الأسهم اليابانية",
      "ru": "EWJ – ETF японских акций"
     },
-    "price_at_alert": 88.69
+    "price_at_alert": 88.69,
+    "entry_price": 88.41,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 87.01,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.58,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.81,
+    "edge_pct": 0.81,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "SMH",
@@ -35201,10 +35388,22 @@
      "ar": "SMH – صندوق قطاع أشباه الموصلات",
      "ru": "SMH – ETF полупроводников"
     },
-    "price_at_alert": 460.1
+    "price_at_alert": 460.1,
+    "entry_price": 467.7,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 447.54,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.31,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.91,
+    "edge_pct": -1.91,
+    "hit": false,
+    "hit_raw": false
    }
   ],
-  "id": "ea3cc23dee05"
+  "id": "ea3cc23dee05",
+  "evaluated": true
  },
  {
   "ts": 1794974037,
@@ -35279,7 +35478,18 @@
      "ar": "SPY - صندوق مؤشر S&P 500",
      "ru": "SPY - ETF индекса S&P 500"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": 2.4,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "8181a904f807",
@@ -35297,7 +35507,8 @@
     }
    }
   ],
-  "last_update": 1794977928
+  "last_update": 1794977928,
+  "evaluated": true
  },
  {
   "ts": 1794977928,
@@ -35372,7 +35583,18 @@
      "ar": "USO - صندوق النفط الخام",
      "ru": "USO - ETF на сырую нефть"
     },
-    "price_at_alert": 140.24
+    "price_at_alert": 140.24,
+    "entry_price": 139.74,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 138.12,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.16,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.24,
+    "edge_pct": 1.24,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XLE",
@@ -35391,7 +35613,18 @@
      "ar": "XLE - صندوق قطاع الطاقة",
      "ru": "XLE - ETF энергетического сектора"
     },
-    "price_at_alert": 63.36
+    "price_at_alert": 63.36,
+    "entry_price": 63.0,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 60.89,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.35,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.95,
+    "edge_pct": -0.95,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "XOM",
@@ -35410,7 +35643,18 @@
      "ar": "إكسون موبيل - شركة طاقة ونفط كبرى",
      "ru": "ExxonMobil - крупная нефтегазовая компания"
     },
-    "price_at_alert": 167.21
+    "price_at_alert": 167.21,
+    "entry_price": 165.92,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 158.94,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.21,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.81,
+    "edge_pct": -1.81,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "KSA",
@@ -35550,7 +35794,18 @@
      "ar": "إنفيديا - عملاق رقائق الذكاء الاصطناعي",
      "ru": "Nvidia - гигант чипов искусственного интеллекта"
     },
-    "price_at_alert": 155.46
+    "price_at_alert": 155.46,
+    "entry_price": 159.19,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 146.0,
+    "exit_date": "2026-11-19",
+    "change_pct": -8.29,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -5.89,
+    "edge_pct": 5.89,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "SMH",
@@ -35569,7 +35824,18 @@
      "ar": "SMH - صندوق قطاع أشباه الموصلات",
      "ru": "SMH - ETF полупроводниковой отрасли"
     },
-    "price_at_alert": 460.1
+    "price_at_alert": 460.1,
+    "entry_price": 467.7,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 447.54,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.31,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.91,
+    "edge_pct": 1.91,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "21ac5d7ee541",
@@ -35611,7 +35877,8 @@
     }
    }
   ],
-  "last_update": 1795030517
+  "last_update": 1795030517,
+  "evaluated": true
  },
  {
   "ts": 1794977928,
@@ -35682,7 +35949,18 @@
      "ar": "EWJ - صندوق أسهم اليابان",
      "ru": "EWJ - ETF акций Японии"
     },
-    "price_at_alert": 88.69
+    "price_at_alert": 88.69,
+    "entry_price": 88.41,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 87.01,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.58,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.81,
+    "edge_pct": -0.81,
+    "hit": false,
+    "hit_raw": true
    },
    {
     "ticker": "FXY",
@@ -35701,7 +35979,18 @@
      "ar": "FXY - صندوق الين الياباني",
      "ru": "FXY - ETF японской иены"
     },
-    "price_at_alert": 57.5
+    "price_at_alert": 57.5,
+    "entry_price": 57.46,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 57.38,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.14,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.26,
+    "edge_pct": 2.26,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "d2e7fee36bd2",
@@ -35719,7 +36008,8 @@
     }
    }
   ],
-  "last_update": 1795056699
+  "last_update": 1795056699,
+  "evaluated": true
  },
  {
   "ts": 1794977928,
@@ -35778,7 +36068,18 @@
      "ar": "بويينغ - عملاق الطيران والدفاع",
      "ru": "Boeing - аэрокосмический и оборонный гигант"
     },
-    "price_at_alert": 163.91
+    "price_at_alert": 163.91,
+    "entry_price": 163.43,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 160.51,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.79,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.61,
+    "edge_pct": 0.61,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -35797,7 +36098,18 @@
      "ar": "ITA - صندوق قطاع الفضاء والدفاع",
      "ru": "ITA - ETF аэрокосмического и оборонного секторов"
     },
-    "price_at_alert": 69.6
+    "price_at_alert": 69.6,
+    "entry_price": 69.48,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.61,
+    "edge_pct": 0.61,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "a34091930ea6",
@@ -35815,7 +36127,8 @@
     }
    }
   ],
-  "last_update": 1794998056
+  "last_update": 1794998056,
+  "evaluated": true
  },
  {
   "ts": 1794977928,
@@ -35878,7 +36191,18 @@
      "ar": "EIS - صندوق مؤشر إسرائيل",
      "ru": "EIS - ETF рынка Израиля"
     },
-    "price_at_alert": 109.58
+    "price_at_alert": 109.58,
+    "entry_price": 109.56,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 103.92,
+    "exit_date": "2026-11-19",
+    "change_pct": -5.15,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -2.75,
+    "edge_pct": 2.75,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "EWC",
@@ -35897,7 +36221,18 @@
      "ar": "EWC - صندوق الأسهم الكندية",
      "ru": "EWC - ETF канадских акций"
     },
-    "price_at_alert": 58.69
+    "price_at_alert": 58.69,
+    "entry_price": 58.24,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 56.25,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.42,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.02,
+    "edge_pct": 1.02,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "c8be6346c266",
@@ -35915,7 +36250,8 @@
     }
    }
   ],
-  "last_update": 1794994445
+  "last_update": 1794994445,
+  "evaluated": true
  },
  {
   "ts": 1794981602,
@@ -35970,10 +36306,22 @@
      "ar": "صندوق استثمار التكنولوجيا",
      "ru": "Технологический ETF"
     },
-    "price_at_alert": 163.26
+    "price_at_alert": 163.26,
+    "entry_price": 164.66,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 160.7,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.01,
+    "edge_pct": 0.01,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "07f59d6f0f98"
+  "id": "07f59d6f0f98",
+  "evaluated": true
  },
  {
   "ts": 1794981602,
@@ -36040,7 +36388,18 @@
      "ar": "صندوق استثمار جنوب شرق آسيا",
      "ru": "ETF Юго-Восточной Азии"
     },
-    "price_at_alert": 135.32
+    "price_at_alert": 135.32,
+    "entry_price": 137.73,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 134.6,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.27,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.13,
+    "edge_pct": 0.13,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "SPY",
@@ -36059,7 +36418,18 @@
      "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
      "ru": "SPY - ETF индекса S&P 500"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": -2.4,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "5400f75a0b85",
@@ -36077,7 +36447,8 @@
     }
    }
   ],
-  "last_update": 1794994445
+  "last_update": 1794994445,
+  "evaluated": true
  },
  {
   "ts": 1794985964,
@@ -36152,7 +36523,18 @@
      "ar": "EWU - صندوق استثمار الأسهم في المملكة المتحدة",
      "ru": "EWU - ETF акций Великобритании"
     },
-    "price_at_alert": 46.94
+    "price_at_alert": 46.94,
+    "entry_price": 46.55,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 45.45,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.36,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.04,
+    "edge_pct": -0.04,
+    "hit": false,
+    "hit_raw": true
    },
    {
     "ticker": "FXE",
@@ -36171,7 +36553,18 @@
      "ar": "FXE - صندوق اليورو",
      "ru": "FXE - ETF евро"
     },
-    "price_at_alert": 101.58
+    "price_at_alert": 101.58,
+    "entry_price": 101.25,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 101.3,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.05,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.45,
+    "edge_pct": -2.45,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "d7dbf74b0a8a",
@@ -36213,7 +36606,8 @@
     }
    }
   ],
-  "last_update": 1795001432
+  "last_update": 1795001432,
+  "evaluated": true
  },
  {
   "ts": 1794990669,
@@ -36268,7 +36662,18 @@
      "ar": "إنفيديا",
      "ru": "Nvidia"
     },
-    "price_at_alert": 155.46
+    "price_at_alert": 155.46,
+    "entry_price": 159.19,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 146.0,
+    "exit_date": "2026-11-19",
+    "change_pct": -8.29,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -5.89,
+    "edge_pct": 5.89,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "SMH",
@@ -36287,10 +36692,22 @@
      "ar": "صندوق أشباه الموصلات",
      "ru": "ETF полупроводников"
     },
-    "price_at_alert": 460.1
+    "price_at_alert": 460.1,
+    "entry_price": 467.7,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 447.54,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.31,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -1.91,
+    "edge_pct": 1.91,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "2e7e6c917da0"
+  "id": "2e7e6c917da0",
+  "evaluated": true
  },
  {
   "ts": 1794994445,
@@ -36340,7 +36757,18 @@
      "ar": "QQQ - صندوق ناسداك 100",
      "ru": "QQQ - ETF индекса Nasdaq 100"
     },
-    "price_at_alert": 656.95
+    "price_at_alert": 656.95,
+    "entry_price": 661.068,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 645.1,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.42,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.02,
+    "edge_pct": 0.02,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "XLF",
@@ -36359,10 +36787,22 @@
      "ar": "XLF - صندوق القطاع المالي",
      "ru": "XLF - ETF финансового сектора"
     },
-    "price_at_alert": 57.07
+    "price_at_alert": 57.07,
+    "entry_price": 56.78,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 55.59,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.1,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.3,
+    "edge_pct": -0.3,
+    "hit": false,
+    "hit_raw": true
    }
   ],
-  "id": "cb668c7780e6"
+  "id": "cb668c7780e6",
+  "evaluated": true
  },
  {
   "ts": 1794994445,
@@ -36412,10 +36852,22 @@
      "ar": "VGK - صندوق الأسهم الأوروبية",
      "ru": "VGK - ETF европейских акций"
     },
-    "price_at_alert": 86.97
+    "price_at_alert": 86.97,
+    "entry_price": 86.36,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 84.62,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.01,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.38,
+    "edge_pct": -0.38,
+    "hit": false,
+    "hit_raw": true
    }
   ],
-  "id": "40ea8a2b7920"
+  "id": "40ea8a2b7920",
+  "evaluated": true
  },
  {
   "ts": 1794994445,
@@ -36465,10 +36917,22 @@
      "ar": "INDA - صندوق الأسهم الهندية",
      "ru": "INDA - ETF индийских акций"
     },
-    "price_at_alert": 51.9
+    "price_at_alert": 51.9,
+    "entry_price": 51.38,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 51.995,
+    "exit_date": "2026-11-19",
+    "change_pct": 1.2,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 3.6,
+    "edge_pct": -3.6,
+    "hit": false,
+    "hit_raw": false
    }
   ],
-  "id": "9981ed70b716"
+  "id": "9981ed70b716",
+  "evaluated": true
  },
  {
   "ts": 1794994445,
@@ -36518,10 +36982,22 @@
      "ar": "EEM - صندوق الأسهم الناشئة",
      "ru": "ETF развивающихся рынков"
     },
-    "price_at_alert": 58.27
+    "price_at_alert": 58.27,
+    "entry_price": 58.28,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 56.765,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.6,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.2,
+    "edge_pct": 0.2,
+    "hit": true,
+    "hit_raw": true
    }
   ],
-  "id": "ba7afcfc3a3c"
+  "id": "ba7afcfc3a3c",
+  "evaluated": true
  },
  {
   "ts": 1794998056,
@@ -36592,10 +37068,22 @@
      "ar": "أبل - شركة تكنولوجيا",
      "ru": "Apple - технологическая компания"
     },
-    "price_at_alert": 351.91
+    "price_at_alert": 351.91,
+    "entry_price": 351.87,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 349.11,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 1.61,
+    "edge_pct": -1.61,
+    "hit": false,
+    "hit_raw": true
    }
   ],
-  "id": "4020fc2b70d4"
+  "id": "4020fc2b70d4",
+  "evaluated": true
  },
  {
   "ts": 1795001432,
@@ -36658,7 +37146,18 @@
      "ar": "FCX - شركة التعدين فريبورت-מקמורן",
      "ru": "FCX - горнодобывающая компания Freeport-McMoRan"
     },
-    "price_at_alert": 55.3
+    "price_at_alert": 55.3,
+    "entry_price": 52.18,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 49.08,
+    "exit_date": "2026-11-19",
+    "change_pct": -5.94,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -3.54,
+    "edge_pct": 3.54,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "CPER",
@@ -36677,7 +37176,18 @@
      "ar": "CPER - صندوق النحاس",
      "ru": "CPER - ETF на медь"
     },
-    "price_at_alert": 35.99
+    "price_at_alert": 35.99,
+    "entry_price": 34.33,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 33.76,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.66,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.74,
+    "edge_pct": -0.74,
+    "hit": false,
+    "hit_raw": true
    }
   ],
   "id": "ed6d501934d6",
@@ -36707,7 +37217,8 @@
     }
    }
   ],
-  "last_update": 1795048680
+  "last_update": 1795048680,
+  "evaluated": true
  },
  {
   "ts": 1795001432,
@@ -36762,10 +37273,22 @@
      "ar": "IBIT - صندوق بتكوين التابع لبלאك روك",
      "ru": "IBIT - ETF на биткоин от BlackRock"
     },
-    "price_at_alert": 36.14
+    "price_at_alert": 36.14,
+    "entry_price": 36.13,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 35.08,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.91,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -0.51,
+    "edge_pct": -0.51,
+    "hit": false,
+    "hit_raw": false
    }
   ],
-  "id": "d6ebd8feff85"
+  "id": "d6ebd8feff85",
+  "evaluated": true
  },
  {
   "ts": 1795001432,
@@ -36820,10 +37343,22 @@
      "ar": "CTSH - كوجنيزنت للتكنولوجيا",
      "ru": "CTSH - Cognizant Technology Solutions"
     },
-    "price_at_alert": 60.0
+    "price_at_alert": 60.0,
+    "entry_price": 59.9,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 56.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -5.99,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -3.59,
+    "edge_pct": -3.59,
+    "hit": false,
+    "hit_raw": false
    }
   ],
-  "id": "d14b55540eb5"
+  "id": "d14b55540eb5",
+  "evaluated": true
  },
  {
   "ts": 1795004853,
@@ -36886,7 +37421,18 @@
      "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
      "ru": "SPY - ETF индекса S&P 500"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": 2.4,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "FXI",
@@ -36905,10 +37451,22 @@
      "ar": "FXI - صندوق الأسهم الصينية الكبرى",
      "ru": "FXI - ETF крупных китайских компаний"
     },
-    "price_at_alert": 32.88
+    "price_at_alert": 32.88,
+    "entry_price": 32.56,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 31.805,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.32,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.08,
+    "edge_pct": 0.08,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "53a46843adcf"
+  "id": "53a46843adcf",
+  "evaluated": true
  },
  {
   "ts": 1795004853,
@@ -36983,7 +37541,18 @@
      "ar": "ALL - أולستيت",
      "ru": "ALL - Allstate"
     },
-    "price_at_alert": 270.43
+    "price_at_alert": 270.43,
+    "entry_price": 267.52,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 266.74,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.29,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.11,
+    "edge_pct": -2.11,
+    "hit": false,
+    "hit_raw": true
    },
    {
     "ticker": "TRV",
@@ -37002,7 +37571,18 @@
      "ar": "ترافيلرز",
      "ru": "Travelers"
     },
-    "price_at_alert": 394.98
+    "price_at_alert": 394.98,
+    "entry_price": 390.825,
+    "entry_time": "2026-11-18T15:30+00:00",
+    "exit_price": 390.81,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.0,
+    "bench": "SPY",
+    "bench_change_pct": -2.19,
+    "excess_pct": 2.19,
+    "edge_pct": -2.19,
+    "hit": false,
+    "hit_raw": true
    }
   ],
   "id": "234e75860fd4",
@@ -37020,7 +37600,8 @@
     }
    }
   ],
-  "last_update": 1795012777
+  "last_update": 1795012777,
+  "evaluated": true
  },
  {
   "ts": 1795009692,
@@ -37095,7 +37676,18 @@
      "ar": "S&P 500 - مؤشر الأسهم الأمريكية",
      "ru": "S&P 500 - индекс акций США"
     },
-    "price_at_alert": 732.44
+    "price_at_alert": 732.44,
+    "entry_price": 733.37,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 715.78,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.4,
+    "bench": null,
+    "bench_change_pct": 0.0,
+    "excess_pct": -2.4,
+    "edge_pct": 2.4,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "TLT",
@@ -37114,7 +37706,18 @@
      "ar": "سندات الخزانة الأمريكية طويلة الأجل",
      "ru": "Долгосрочные казначейские облигации США"
     },
-    "price_at_alert": 79.55
+    "price_at_alert": 79.55,
+    "entry_price": 79.895,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 80.345,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.56,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 2.96,
+    "edge_pct": -2.96,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "GLD",
@@ -37300,7 +37903,18 @@
      "ar": "إلبيت سيستمز",
      "ru": "Elbit Systems"
     },
-    "price_at_alert": 720.53
+    "price_at_alert": 720.53,
+    "entry_price": 717.45,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 682.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.9,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": -2.5,
+    "edge_pct": -2.5,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -37319,7 +37933,18 @@
      "ar": "صندوق استثمار متداول لقطاع الدفاع",
      "ru": "ETF аэрокосмической и оборонной промышленности"
     },
-    "price_at_alert": 69.6
+    "price_at_alert": 69.6,
+    "entry_price": 69.48,
+    "entry_time": "2026-11-18T14:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.78,
+    "bench": "SPY",
+    "bench_change_pct": -2.4,
+    "excess_pct": 0.61,
+    "edge_pct": 0.61,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "BA",
@@ -37338,7 +37963,18 @@
      "ar": "بوينغ",
      "ru": "Boeing"
     },
-    "price_at_alert": 162.8
+    "price_at_alert": 162.8,
+    "entry_price": 164.39,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 160.51,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.36,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 0.01,
+    "edge_pct": 0.01,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "4e230620bf41",
@@ -37380,7 +38016,8 @@
     }
    }
   ],
-  "last_update": 1795020399
+  "last_update": 1795020399,
+  "evaluated": true
  },
  {
   "ts": 1795016473,
@@ -37430,7 +38067,18 @@
      "ar": "صندوق النفط",
      "ru": "Нефтяной ETF"
     },
-    "price_at_alert": 138.095
+    "price_at_alert": 138.095,
+    "entry_price": 137.47,
+    "entry_time": "2026-11-18T16:30+00:00",
+    "exit_price": 138.12,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.47,
+    "bench": "SPY",
+    "bench_change_pct": -1.76,
+    "excess_pct": 2.23,
+    "edge_pct": 2.23,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "XOM",
@@ -37449,7 +38097,18 @@
      "ar": "إكسون موبيل",
      "ru": "Exxon Mobil"
     },
-    "price_at_alert": 163.69
+    "price_at_alert": 163.69,
+    "entry_price": 162.08,
+    "entry_time": "2026-11-18T16:30+00:00",
+    "exit_price": 158.94,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.94,
+    "bench": "SPY",
+    "bench_change_pct": -1.76,
+    "excess_pct": -0.18,
+    "edge_pct": -0.18,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "XLE",
@@ -37586,7 +38245,18 @@
      "ar": "إنفيديا",
      "ru": "Nvidia"
     },
-    "price_at_alert": 152.19
+    "price_at_alert": 152.19,
+    "entry_price": 152.01,
+    "entry_time": "2026-11-18T16:30+00:00",
+    "exit_price": 146.0,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.95,
+    "bench": "SPY",
+    "bench_change_pct": -1.76,
+    "excess_pct": -2.19,
+    "edge_pct": -2.19,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "XLK",
@@ -37605,7 +38275,18 @@
      "ar": "صندوق قطاع التكنولوجيا",
      "ru": "ETF технологического сектора"
     },
-    "price_at_alert": 162.85
+    "price_at_alert": 162.85,
+    "entry_price": 162.54,
+    "entry_time": "2026-11-18T16:30+00:00",
+    "exit_price": 160.7,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.13,
+    "bench": "SPY",
+    "bench_change_pct": -1.76,
+    "excess_pct": 0.63,
+    "edge_pct": 0.63,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "QQQ",
@@ -37624,7 +38305,18 @@
      "ar": "ناسداك 100",
      "ru": "Nasdaq 100"
     },
-    "price_at_alert": 659.5
+    "price_at_alert": 659.5,
+    "entry_price": 659.635,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 645.1,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.2,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": 0.03,
+    "edge_pct": 0.03,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "5c62e9b0003f",
@@ -37654,7 +38346,8 @@
     }
    }
   ],
-  "last_update": 1795053618
+  "last_update": 1795053618,
+  "evaluated": true
  },
  {
   "ts": 1795016473,
@@ -37704,10 +38397,22 @@
      "ar": "صندوق الغاز الطبيعي",
      "ru": "ETF на природный газ"
     },
-    "price_at_alert": 10.28
+    "price_at_alert": 10.28,
+    "entry_price": 10.4001,
+    "entry_time": "2026-11-18T16:30+00:00",
+    "exit_price": 10.27,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.25,
+    "bench": "SPY",
+    "bench_change_pct": -1.76,
+    "excess_pct": 0.51,
+    "edge_pct": 0.51,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "6053ac55b55a"
+  "id": "6053ac55b55a",
+  "evaluated": true
  },
  {
   "ts": 1795020399,
@@ -37782,7 +38487,18 @@
      "ar": "صندوق استثمار في قطاع الدفاع",
      "ru": "ETF аэрокосмического и оборонного сектора"
     },
-    "price_at_alert": 69.0
+    "price_at_alert": 69.0,
+    "entry_price": 69.63,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.0,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 0.37,
+    "edge_pct": 0.37,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "ESLT",
@@ -37801,7 +38517,18 @@
      "ar": "إلبيت سيستمز",
      "ru": "Elbit Systems"
     },
-    "price_at_alert": 697.51
+    "price_at_alert": 697.51,
+    "entry_price": 701.945,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 682.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.8,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": -0.43,
+    "edge_pct": -0.43,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "USO",
@@ -37820,7 +38547,18 @@
      "ar": "النفط الخام",
      "ru": "Сырая нефть"
     },
-    "price_at_alert": 135.75
+    "price_at_alert": 135.75,
+    "entry_price": 136.88,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 138.12,
+    "exit_date": "2026-11-19",
+    "change_pct": 0.91,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": 2.97,
+    "edge_pct": 2.97,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "EIS",
@@ -37839,7 +38577,18 @@
      "ar": "صندوق استثمار في إسرائيل",
      "ru": "ETF Израиля"
     },
-    "price_at_alert": 108.6
+    "price_at_alert": 108.6,
+    "entry_price": 108.37,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 103.92,
+    "exit_date": "2026-11-19",
+    "change_pct": -4.11,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": -2.05,
+    "edge_pct": 2.05,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "180b0ef0ab51",
@@ -37869,7 +38618,8 @@
     }
    }
   ],
-  "last_update": 1795088415
+  "last_update": 1795088415,
+  "evaluated": true
  },
  {
   "ts": 1795020399,
@@ -37928,7 +38678,18 @@
      "ar": "فيزا",
      "ru": "Visa"
     },
-    "price_at_alert": 416.59
+    "price_at_alert": 416.59,
+    "entry_price": 417.595,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 402.42,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.63,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": -1.27,
+    "edge_pct": 1.27,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "JPM",
@@ -37947,7 +38708,18 @@
      "ar": "جي بي مورغان",
      "ru": "JPMorgan"
     },
-    "price_at_alert": 326.475
+    "price_at_alert": 326.475,
+    "entry_price": 327.17,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 320.26,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.11,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 0.25,
+    "edge_pct": -0.25,
+    "hit": false,
+    "hit_raw": true
    },
    {
     "ticker": "CRWD",
@@ -38062,7 +38834,18 @@
      "ar": "مايكروسوفت",
      "ru": "Microsoft"
     },
-    "price_at_alert": 502.13
+    "price_at_alert": 502.13,
+    "entry_price": 504.73,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 498.16,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.3,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 1.06,
+    "edge_pct": 1.06,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "COST",
@@ -38081,10 +38864,22 @@
      "ar": "كوستكو",
      "ru": "Costco"
     },
-    "price_at_alert": 1104.155
+    "price_at_alert": 1104.155,
+    "entry_price": 1110.05,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 1093.67,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.48,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 0.89,
+    "edge_pct": 0.89,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "1e26061a215f"
+  "id": "1e26061a215f",
+  "evaluated": true
  },
  {
   "ts": 1795020399,
@@ -38147,10 +38942,22 @@
      "ar": "صندوق استثمار في بريطانيا",
      "ru": "ETF Великобритании"
     },
-    "price_at_alert": 46.14
+    "price_at_alert": 46.14,
+    "entry_price": 46.27,
+    "entry_time": "2026-11-18T17:30+00:00",
+    "exit_price": 45.45,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.77,
+    "bench": "SPY",
+    "bench_change_pct": -2.37,
+    "excess_pct": 0.59,
+    "edge_pct": -0.59,
+    "hit": false,
+    "hit_raw": true
    }
   ],
-  "id": "5f445a966f3a"
+  "id": "5f445a966f3a",
+  "evaluated": true
  },
  {
   "ts": 1795023738,
@@ -38213,7 +39020,18 @@
      "ar": "فريبورت-ماكموران",
      "ru": "Freeport-McMoRan"
     },
-    "price_at_alert": 51.95
+    "price_at_alert": 51.95,
+    "entry_price": 51.74,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 49.08,
+    "exit_date": "2026-11-19",
+    "change_pct": -5.14,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": -2.91,
+    "edge_pct": 2.91,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "SCCO",
@@ -38232,7 +39050,18 @@
      "ar": "ساوثرن كوبر",
      "ru": "Southern Copper"
     },
-    "price_at_alert": 146.26
+    "price_at_alert": 146.26,
+    "entry_price": 146.77,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 141.49,
+    "exit_date": "2026-11-19",
+    "change_pct": -3.6,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": -1.37,
+    "edge_pct": 1.37,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "SLV",
@@ -38251,7 +39080,18 @@
      "ar": "صندوق استثمار في الفضة",
      "ru": "ETF серебра"
     },
-    "price_at_alert": 40.83
+    "price_at_alert": 40.83,
+    "entry_price": 40.66,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 39.62,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.56,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": -0.5,
+    "edge_pct": 0.5,
+    "hit": true,
+    "hit_raw": true
    },
    {
     "ticker": "CPER",
@@ -38374,7 +39214,18 @@
      "ar": "بوينغ",
      "ru": "Boeing"
     },
-    "price_at_alert": 163.91
+    "price_at_alert": 163.91,
+    "entry_price": 163.87,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 160.51,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.05,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": 0.18,
+    "edge_pct": 0.18,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -38393,7 +39244,18 @@
      "ar": "صندوق استثمار في قطاع الدفاع",
      "ru": "ETF аэрокосмического и оборонного сектора"
     },
-    "price_at_alert": 69.42
+    "price_at_alert": 69.42,
+    "entry_price": 69.55,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.88,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": 0.34,
+    "edge_pct": 0.34,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "4ed696c01c65",
@@ -38411,7 +39273,8 @@
     }
    }
   ],
-  "last_update": 1795072608
+  "last_update": 1795072608,
+  "evaluated": true
  },
  {
   "ts": 1795023738,
@@ -38461,10 +39324,22 @@
      "ar": "فورد",
      "ru": "Ford"
     },
-    "price_at_alert": 11.3825
+    "price_at_alert": 11.3825,
+    "entry_price": 11.3599,
+    "entry_time": "2026-11-18T18:30+00:00",
+    "exit_price": 11.235,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.1,
+    "bench": "SPY",
+    "bench_change_pct": -2.23,
+    "excess_pct": 1.13,
+    "edge_pct": 1.13,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "2b185896b3da"
+  "id": "2b185896b3da",
+  "evaluated": true
  },
  {
   "ts": 1795026775,
@@ -38539,7 +39414,18 @@
      "ar": "إلبيت سيستمز",
      "ru": "Elbit Systems"
     },
-    "price_at_alert": 704.87
+    "price_at_alert": 704.87,
+    "entry_price": 701.2,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 682.31,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.69,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": -0.63,
+    "edge_pct": -0.63,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -38558,7 +39444,18 @@
      "ar": "صندوق استثمار في قطاع الدفاع",
      "ru": "ETF аэрокосмического и оборонного сектора"
     },
-    "price_at_alert": 69.62
+    "price_at_alert": 69.62,
+    "entry_price": 69.39,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.66,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": 0.4,
+    "edge_pct": 0.4,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "ESLT.TA",
@@ -38596,7 +39493,18 @@
      "ar": "RTX - عملاق الطيران والدفاع الأمريكي",
      "ru": "RTX - американский аэрокосмический и оборонный гигант"
     },
-    "price_at_alert": 196.85
+    "price_at_alert": 196.85,
+    "entry_price": 197.58,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 193.42,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.11,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": -0.17,
+    "edge_pct": -0.17,
+    "hit": false,
+    "hit_raw": false
    }
   ],
   "id": "8d895541f2fd",
@@ -38717,7 +39625,18 @@
      "ar": "تارجت",
      "ru": "Target"
     },
-    "price_at_alert": 170.84
+    "price_at_alert": 170.84,
+    "entry_price": 168.93,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 167.53,
+    "exit_date": "2026-11-19",
+    "change_pct": -0.83,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": 1.23,
+    "edge_pct": 1.23,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XLP",
@@ -38736,10 +39655,22 @@
      "ar": "صندوق استثمار في السلع الاستهلاكية",
      "ru": "ETF потребительских товаров"
     },
-    "price_at_alert": 91.7
+    "price_at_alert": 91.7,
+    "entry_price": 91.24,
+    "entry_time": "2026-11-18T19:30+00:00",
+    "exit_price": 89.9,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.47,
+    "bench": "SPY",
+    "bench_change_pct": -2.06,
+    "excess_pct": 0.59,
+    "edge_pct": 0.59,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "1160c6d300ab"
+  "id": "1160c6d300ab",
+  "evaluated": true
  },
  {
   "ts": 1795030517,
@@ -38798,7 +39729,18 @@
      "ar": "RTX - عملاق الطيران والدفاع الأمريكي",
      "ru": "RTX - американский аэрокосмический и оборонный гигант"
     },
-    "price_at_alert": 196.85
+    "price_at_alert": 196.85,
+    "entry_price": 197.58,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 193.42,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.11,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": -0.17,
+    "edge_pct": -0.17,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ITA",
@@ -38817,7 +39759,18 @@
      "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
      "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
     },
-    "price_at_alert": 69.4224
+    "price_at_alert": 69.4224,
+    "entry_price": 69.37,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 68.24,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.63,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": 0.31,
+    "edge_pct": 0.31,
+    "hit": true,
+    "hit_raw": false
    }
   ],
   "id": "f1fa28e0bf24",
@@ -38835,7 +39788,8 @@
     }
    }
   ],
-  "last_update": 1795041454
+  "last_update": 1795041454,
+  "evaluated": true
  },
  {
   "ts": 1795030517,
@@ -38890,7 +39844,18 @@
      "ar": "فايزر - شركة أدوية كبرى",
      "ru": "Pfizer - крупная фармацевтическая компания"
     },
-    "price_at_alert": 28.015
+    "price_at_alert": 28.015,
+    "entry_price": 28.105,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 27.57,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.9,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": 0.03,
+    "edge_pct": 0.03,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "XLV",
@@ -38909,10 +39874,22 @@
      "ar": "XLV - صندوق قطاع الرعاية الصحية",
      "ru": "XLV - ETF сектора здравоохранения"
     },
-    "price_at_alert": 180.935
+    "price_at_alert": 180.935,
+    "entry_price": 181.46,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 177.44,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.22,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": -0.28,
+    "edge_pct": -0.28,
+    "hit": false,
+    "hit_raw": false
    }
   ],
-  "id": "bbdf8be2cc68"
+  "id": "bbdf8be2cc68",
+  "evaluated": true
  },
  {
   "ts": 1795030517,
@@ -38967,7 +39944,18 @@
      "ar": "LIT - صندوق بطاريات الليثيوم",
      "ru": "LIT - ETF лития и батарей"
     },
-    "price_at_alert": 55.495
+    "price_at_alert": 55.495,
+    "entry_price": 55.54,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 54.33,
+    "exit_date": "2026-11-19",
+    "change_pct": -2.18,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": -0.24,
+    "edge_pct": -0.24,
+    "hit": false,
+    "hit_raw": false
    },
    {
     "ticker": "ICLN",
@@ -38986,10 +39974,22 @@
      "ar": "ICLN - صندوق الطاقة النظيفة العالمي",
      "ru": "ICLN - ETF глобальной чистой энергетики"
     },
-    "price_at_alert": 14.725
+    "price_at_alert": 14.725,
+    "entry_price": 14.71,
+    "entry_time": "2026-11-18T20:30+00:00",
+    "exit_price": 14.48,
+    "exit_date": "2026-11-19",
+    "change_pct": -1.56,
+    "bench": "SPY",
+    "bench_change_pct": -1.94,
+    "excess_pct": 0.37,
+    "edge_pct": 0.37,
+    "hit": true,
+    "hit_raw": false
    }
   ],
-  "id": "6fc924d7be6d"
+  "id": "6fc924d7be6d",
+  "evaluated": true
  },
  {
   "ts": 1795034265,
@@ -44711,9 +45711,43 @@
      "ru": "USO – фонд нефти"
     },
     "price_at_alert": 138.09
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1795131042,
+    "reason": "שיבושים בנתיבי הים האדום עשויים להעלות את מחירי ההובלה.",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי הים האדום עשויים להעלות את מחירי ההובלה.",
+     "en": "Red Sea shipping disruptions can drive up freight rates.",
+     "ar": "اضطرابات الشحن في البحر الأحمر قد ترفع أسعار الشحن.",
+     "ru": "Нарушения судоходства в Красном море могут поднять ставки фрахта."
+    },
+    "name_i18n": {
+     "he": "צים – חברת ספנות בינלאומית",
+     "en": "ZIM Integrated Shipping",
+     "ar": "شركة زيم للشحن",
+     "ru": "Судоходная компания ZIM"
+    },
+    "price_at_alert": 29.62
    }
   ],
-  "id": "77406e96c82e"
+  "id": "77406e96c82e",
+  "updates": [
+   {
+    "ts": 1795131042,
+    "time": "2026-11-19T23:30Z",
+    "severity": 5,
+    "summary": "הקואליציה בהובלת ארה\"ב מזהירה כי החות'ים תפסו עמדות מתקדמות ומאיימים על נתיבי הסחר הימי באזור עדן.",
+    "i18n": {
+     "he": "הקואליציה בהובלת ארה\"ב מזהירה כי החות'ים תפסו עמדות מתקדמות ומאיימים על נתיבי הסחר הימי באזור עדן.",
+     "en": "The US-led coalition warns that Houthi forces have gained positions allowing them to target commercial shipping as they advance toward Aden.",
+     "ar": "تحذر التحالف بقيادة الولايات المتحدة من أن قوات الحوثي اكتسبت مواقع تتيح لها استهداف الشحن التجاري مع تقدمها نحو عدن.",
+     "ru": "Коалиция под руководством США предупреждает, что силы хуситов заняли позиции, позволяющие им угрожать коммерческому судоходству."
+    }
+   }
+  ],
+  "last_update": 1795131042
  },
  {
   "ts": 1795124981,
@@ -45020,9 +46054,21 @@
      "ar": "أدى هجوم سيبراني استهدف مزود خدمة خارجي إلى كشف أسماء ورسائل بريد إلكتروني لعملاء شركات بارزة تشمل جي بي مورغان وفيزا وستاربكس.",
      "ru": "Крупная кибератака на стороннего поставщика привела к утечке имен и адресов электронной почты клиентов JPMorgan Chase, Visa, Starbucks и других."
     }
+   },
+   {
+    "ts": 1795131042,
+    "time": "2026-11-19T23:30Z",
+    "severity": 6,
+    "summary": "ג'יי פי מורגן, ויזה ומסטרקארד דיווחו שמתקפת סייבר על ספקי צד שלישי חשפה מידע ופרטי לקוחות רגישים.",
+    "i18n": {
+     "he": "ג'יי פי מורגן, ויזה ומסטרקארד דיווחו שמתקפת סייבר על ספקי צד שלישי חשפה מידע ופרטי לקוחות רגישים.",
+     "en": "JPMorgan Chase, Visa, and Mastercard confirmed that third-party vendors were targeted in a cyberattack, potentially exposing customer data.",
+     "ar": "أكد جيه بي مورجان تشيس وفيزا وماستركارد أن بائعين من الأطراف الثالثة استهدفوا في هجوم سيبراني، مما قد يعرض بيانات العملاء للخطر.",
+     "ru": "JPMorgan Chase, Visa и Mastercard подтвердили, что сторонние поставщики подверглись кибератаке, что привело к возможному утечке данных клиентов."
+    }
    }
   ],
-  "last_update": 1795128510
+  "last_update": 1795131042
  },
  {
   "ts": 1795124981,
@@ -45500,5 +46546,327 @@
    }
   ],
   "id": "02765dd2a088"
+ },
+ {
+  "ts": 1795131042,
+  "time": "2026-11-19T23:30Z",
+  "title": "חקירה וקשיים סביב ענקית השבבים אנבידיה",
+  "summary": "התובע הכללי בקליפורניה פתח בחקירה נגד אנבידיה סביב העברת שבבים אסורים לסין, על רקע עזיבת מנכ\"ל החברה ג'נסן הואנג.",
+  "kid": "חברת השבבים הגדולה אנבידיה נקלעה לחקירה ממשלתית על מכירת שבבים אסורים וגם איבדה את המנכ\"ל שלה. זה עלול לגרום למניה שלה לרדת.",
+  "i18n": {
+   "title": {
+    "he": "חקירה וקשיים סביב ענקית השבבים אנבידיה",
+    "en": "Nvidia Faces California Probe and Leadership Headwinds",
+    "ar": "تحقيق في كاليفورنيا ورياح معاكسة لشركة إنفيديا",
+    "ru": "Расследование в Калифорнии и проблемы с руководством Nvidia"
+   },
+   "summary": {
+    "he": "התובע הכללי בקליפורניה פתח בחקירה נגד אנבידיה סביב העברת שבבים אסורים לסין, על רקע עזיבת מנכ\"ל החברה ג'נסן הואנג.",
+    "en": "The California Attorney General has issued a subpoena to Nvidia in an investigation regarding China chip diversion, following the recent departure of CEO Jensen Huang.",
+    "ar": "أصدر المدعي العام في كاليفورنيا مذكرة استدعاء لشركة إنفيديا في تحقيق بشأن تحويل رقائق الصين، عقب رحيل الرئيس التنفيذي.",
+    "ru": "Генеральный прокурор Калифорнии направил повестку Nvidia в рамках расследования перенаправления чипов в Китай после ухода генерального директора."
+   },
+   "kid": {
+    "he": "חברת השבבים הגדולה אנבידיה נקלעה לחקירה ממשלתית על מכירת שבבים אסורים וגם איבדה את המנכ\"ל שלה. זה עלול לגרום למניה שלה לרדת.",
+    "en": "Chip giant Nvidia is being investigated by the government over restricted chip sales and lost its CEO. This could make its stock go down.",
+    "ar": "تخضع شركة إنفيديا لتحقيق حكومي بشأن مبيعات الرقائق المحظورة وفقدت رئيسها التنفيذي. قد يؤدي هذا إلى انخفاض سهمها.",
+    "ru": "Гигант по производству чипов Nvidia оказался под следствием из-за продажи запрещенных чипов и потерял генерального директора. Это может привести к падению акций."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "חקירה משפטית ועזיבת מנכ\"ל יוצרות לחץ שלילי.",
+    "reason_i18n": {
+     "he": "חקירה משפטית ועזיבת מנכ\"ל יוצרות לחץ שלילי.",
+     "en": "Legal probe and CEO departure create negative pressure.",
+     "ar": "التحقيق القانوني ومغادرة الرئيس التنفيذي يخلقان ضغطاً سلبياً.",
+     "ru": "Юридическое расследование и уход гендиректора создают давление."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – יצרנית שבבים מובילה",
+     "en": "Nvidia – leading chip maker",
+     "ar": "إنفيديا - صانع رقائق رائد",
+     "ru": "Nvidia – ведущий производитель чипов"
+    },
+    "price_at_alert": 145.98
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "אנבידיה היא מרכיב מרכזי בתעודת הסל של השבבים.",
+    "reason_i18n": {
+     "he": "אנבידיה היא מרכיב מרכזי בתעודת הסל של השבבים.",
+     "en": "Nvidia is a core holding in the semiconductor sector ETF.",
+     "ar": "إنفيديا مكون أساسي في صندوق قطاع أشباه الموصلات.",
+     "ru": "Nvidia является ключевым холдингом в полупроводниковом ETF."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סמיקונדקטורס",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق استثماري لقطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 447.48
+   }
+  ],
+  "id": "3030aa25452f"
+ },
+ {
+  "ts": 1795131042,
+  "time": "2026-11-19T23:30Z",
+  "title": "הזהב והביטקוין יורדים על רקע ציפיות לעליית ריבית בארה\"ב",
+  "summary": "מחירי הזהב והביטקוין רשמו ירידות חדות על רקע עליית תשואות האג\"ח הממשלתיות בארה\"ב והערכות כי הפד עשוי להעלות את הריבית בדצמבר.",
+  "kid": "הריבית בארה\"ב עשויה לעלות עוד, מה שגורם למשקיעים למכור זהב וביטקוין ולעבור להשקיע באג\"ח בטוחות. זה גורם למחירי הזהב והביטקוין לרדת.",
+  "i18n": {
+   "title": {
+    "he": "הזהב והביטקוין יורדים על רקע ציפיות לעליית ריבית בארה\"ב",
+    "en": "Gold and Bitcoin Drop as US Yields and Rate Hike Bets Rise",
+    "ar": "الذهب和البيتكوين ينخفضان وسط توقعات رفع الفائدة الأمريكية",
+    "ru": "Золото и биткоин падают на фоне роста доходности в США и ожиданий повышения ставки"
+   },
+   "summary": {
+    "he": "מחירי הזהב והביטקוין רשמו ירידות חדות על רקע עליית תשואות האג\"ח הממשלתיות בארה\"ב והערכות כי הפד עשוי להעלות את הריבית בדצמבר.",
+    "en": "Gold and bitcoin prices extended losses as rising US bond yields and potential Fed rate-hike bets in December pressured non-yielding assets.",
+    "ar": "سجلت أسعار الذهب والبيتكوين خسائر مع ارتفاع عوائد السندات الأمريكية وتوقع رفع الفائدة في ديسمبر.",
+    "ru": "Цены на золото и биткоин снизились на фоне роста доходности гособлигаций США и ожиданий возможного повышения ставки ФРС в декабре."
+   },
+   "kid": {
+    "he": "הריבית בארה\"ב עשויה לעלות עוד, מה שגורם למשקיעים למכור זהב וביטקוין ולעבור להשקיע באג\"ח בטוחות. זה גורם למחירי הזהב והביטקוין לרדת.",
+    "en": "US interest rates might go higher, making safe bonds more attractive than gold and bitcoin. This causes gold and bitcoin prices to drop.",
+    "ar": "قد ترتفع أسعار الفائدة الأمريكية، مما يجعل السندات الآمنة أكثر جاذبية من الذهب والبيتكوين، مما يتسبب في انخفاض أسعارهما.",
+    "ru": "Процентные ставки в США могут вырасти, что делает безопасные облигации привлекательнее золота и биткоина, заставляя их цены падать."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "תשואות אג\"ח גבוהות וציפיות לריבית מקטינות את הביקוש לזהב.",
+    "reason_i18n": {
+     "he": "תשואות אג\"ח גבוהות וציפיות לריבית מקטינות את הביקוש לזהב.",
+     "en": "Higher yields and rate hike bets reduce demand for gold.",
+     "ar": "العوائد المرتفعة وتوقعات رفع الفائدة تقلل الطلب على الذهب.",
+     "ru": "Рост доходности и ставки снижают спрос на золото."
+    },
+    "name_i18n": {
+     "he": "תעודת סל זהב",
+     "en": "Gold ETF",
+     "ar": "صندوق الذهب",
+     "ru": "Золотой ETF"
+    },
+    "price_at_alert": 335.18
+   },
+   {
+    "ticker": "IBIT",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "זרימות הון שליליות מנכסים אלטרנטיביים בעקבות התחזקות הדולר והאג\"ח.",
+    "reason_i18n": {
+     "he": "זרימות הון שליליות מנכסים אלטרנטיביים בעקבות התחזקות הדולר והאג\"ח.",
+     "en": "Outflows from alternative assets as bond yields surge.",
+     "ar": "تدفقات خارجة من الأصول البديلة مع ارتفاع عوائد السندات.",
+     "ru": "Отток капитала из альтернативных активов на фоне роста доходности."
+    },
+    "name_i18n": {
+     "he": "תעודת סל ביטקוין",
+     "en": "Bitcoin ETF",
+     "ar": "صندوق البيتكوين",
+     "ru": "Биткоин ETF"
+    },
+    "price_at_alert": 35.08
+   }
+  ],
+  "id": "2b87adab8273"
+ },
+ {
+  "ts": 1795131042,
+  "time": "2026-11-19T23:30Z",
+  "title": "בריטניה ואוסטרליה מטילות סנקציות על ישראל; מדינות ערב ואפריקה מביעות תמיכה",
+  "summary": "בריטניה ואוסטרליה הטילו סנקציות על רקע הרחבת ההתנחלויות של ישראל, מהלך שזכה לגיבוי ממדינות ערביות, איסלאמיות ואפריקאיות.",
+  "kid": "מדינות שונות כמו בריטניה ואוסטרליה הטילו עונשים כלכליים (סנקציות) על ישראל בגלל התנחלויות. זה יכול להשפיע לרעה על חברות ישראליות ועל הבורסה בתל אביב.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה ואוסטרליה מטילות סנקציות על ישראל; מדינות ערב ואפריקה מביעות תמיכה",
+    "en": "UK and Australia Impose Sanctions on Israel Over Settlements",
+    "ar": "بريطانيا وأستراليا تفرضان عقوبات على إسرائيل بسبب المستوطنات",
+    "ru": "Великобритания и Австралия вводят санкции против Израиля из-за поселений"
+   },
+   "summary": {
+    "he": "בריטניה ואוסטרליה הטילו סנקציות על רקע הרחבת ההתנחלויות של ישראל, מהלך שזכה לגיבוי ממדינות ערביות, איסלאמיות ואפריקאיות.",
+    "en": "The UK and Australia imposed sanctions due to Israel's settlement expansion, winning backing from various African, Arab, and Islamic nations.",
+    "ar": "فرطت بريطانيا وأستراليا عقوبات بسبب توسيع المستوطنات الإسرائيلية، وحصلتا على دعم من دول أفريقية وعربية وإسلامية.",
+    "ru": "Великобритания и Австралия ввели санкции из-за расширения поселений Израиля при поддержке ряда африканских и арабских стран."
+   },
+   "kid": {
+    "he": "מדינות שונות כמו בריטניה ואוסטרליה הטילו עונשים כלכליים (סנקציות) על ישראל בגלל התנחלויות. זה יכול להשפיע לרעה על חברות ישראליות ועל הבורסה בתל אביב.",
+    "en": "Countries like the UK and Australia have imposed economic penalties on Israel over settlements. This can negatively impact Israeli companies and the Tel Aviv stock market.",
+    "ar": "فرضت دول مثل بريطانيا وأستراليا عقوبات اقتصادية على إسرائيل بسبب المستوطنات. هذا يمكن أن يؤثر سلباً على الشركات الإسرائيلية.",
+    "ru": "Великобритания и Австралия ввели экономические санкции против Израиля из-за поселений, что может негативно сказаться на израильских компаниях."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "EIS",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "סנקציות בינלאומיות מגבירות את הסיכון הגיאופוליטי סביב השוק הישראלי.",
+    "reason_i18n": {
+     "he": "סנקציות בינלאומיות מגבירות את הסיכון הגיאופוליטי סביב השוק הישראלי.",
+     "en": "International sanctions increase geopolitical risk for Israeli assets.",
+     "ar": "العقوبات الدولية تزيد المخاطر الجيوسياسية للأصول الإسرائيلية.",
+     "ru": "Международные санкции увеличивают геополитические риски для Израиля."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על שוק המניות בישראל",
+     "en": "MSCI Israel ETF",
+     "ar": "صندوق إسرائيل",
+     "ru": "ETF рынка Израиля"
+    },
+    "price_at_alert": 103.8
+   },
+   {
+    "ticker": "ESLT.TA",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "לחץ דיפלומטי וסנקציות על ישראל עלולים להשפיע על הסנטימנט בשוק המקומי.",
+    "reason_i18n": {
+     "he": "לחץ דיפלומטי וסנקציות על ישראל עלולים להשפיע על הסנטימנט בשוק המקומי.",
+     "en": "Diplomatic pressure and sanctions on Israel affect local market sentiment.",
+     "ar": "الضغط الدبلوماسي والعقوبات على إسرائيل تؤثر على معنويات السوق المحلي.",
+     "ru": "Дипломатическое давление и санкции влияют на настроения местного рынка."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות בבורסת ת\"א",
+     "en": "Elbit Systems on TASE",
+     "ar": "إلبيط سيستمز في بورصة تل أبيب",
+     "ru": "Elbit Systems на бирже Тель-Авива"
+    },
+    "price_at_alert": 229860.0
+   }
+  ],
+  "id": "74b13eb20257"
+ },
+ {
+  "ts": 1795131042,
+  "time": "2026-11-19T23:30Z",
+  "title": "ארה\"ב, סין ורוסיה מתחייבות לדיאלוג בנושא סיכונים גרעיניים והגדלת אספקת נפט מעודן",
+  "summary": "נציגי ארה\"ב, סין ורוסיה סיכמו על קיום דיאלוג בנושא סיכונים גרעיניים ועל תוכנית להגדיל את אספקת המוצרים המזוקקים של נפט.",
+  "kid": "שלוש מעצמות גדולות הסכימו לדבר על מניעת מלחמה גרעינית ולנסות להגדיל את כמות הנפט שמועברת לשווקים. זה יכול לייצב את מחירי האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב, סין ורוסיה מתחייבות לדיאלוג בנושא סיכונים גרעיניים והגדלת אספקת נפט מעודן",
+    "en": "US, China, and Russia Pledge Nuclear Dialogue and Refined Oil Boost",
+    "ar": "الولايات المتحدة والصين وروسيا تتعهد بحوار نووي وتعزيز إمدادات النفط",
+    "ru": "США, Китай и Россия пообечали вести диалог по ядерным рискам и увеличить поставки нефти"
+   },
+   "summary": {
+    "he": "נציגי ארה\"ב, סין ורוסיה סיכמו על קיום דיאלוג בנושא סיכונים גרעיניים ועל תוכנית להגדיל את אספקת המוצרים המזוקקים של נפט.",
+    "en": "The US, China, and Russia have pledged to engage in a nuclear risk dialogue and coordinate plans to boost refined oil supplies to markets.",
+    "ar": "تعهدت الولايات المتحدة والصين وروسيا بالمشاركة في حوار بشأن المخاطر النووية وخطط لتعزيز إمدادات النفط المكرر.",
+    "ru": "США, Китай и Россия пообечали проводить диалог по ядерным рискам и планируют увеличить поставки нефтепродуктов."
+   },
+   "kid": {
+    "he": "שלוש מעצמות גדולות הסכימו לדבר על מניעת מלחמה גרעינית ולנסות להגדיל את כמות הנפט שמועברת לשווקים. זה יכול לייצב את מחירי האנרגיה.",
+    "en": "Three major superpowers agreed to talk about preventing nuclear war and boosting oil supplies to markets, which could help stabilize energy prices.",
+    "ar": "وافقت ثلاث قوى كبرى على التحدث حول منع الحرب النووية وزيادة إمدادات النفط للأواق، مما قد يثبت أسعار الطاقة.",
+    "ru": "Три сверхдержавы договорились обсудить предотвращение ядерной войны и увеличение поставок нефти, что может стабилизировать цены на энергоносители."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "down",
+    "t0": 1795131042,
+    "reason": "הגדלת אספקת נפט עשויה ללחוץ כלפי מטה על מחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "הגדלת אספקת נפט עשויה ללחוץ כלפי מטה על מחירי האנרגיה.",
+     "en": "Plans to boost refined oil supply could pressure oil prices lower.",
+     "ar": "خطط تعزيز إمدادات النفط قد تضغط على أسعار النفط نحو الانخفاض.",
+     "ru": "Планы по увечению поставок нефти могут оказать давление на цены."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סקטטור האנרגיה",
+     "en": "Energy Select Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 60.89
+   }
+  ],
+  "id": "774f7feebf38"
+ },
+ {
+  "ts": 1795131042,
+  "time": "2026-11-19T23:30Z",
+  "title": "איגוד החיטה האמריקאי מקדם מכירות בינלאומיות ומשתתף במשימות סחר",
+  "summary": "נציגי תעשיית החיטה האמריקאית פועלים להרחבת שווקי היצוא באפריקה ובווייטנאם ומשתתפים במשימות ואירועי סחר חקלאי.",
+  "kid": "מגדלי החיטה בארה\"ב נפגשים עם קונים מעבר לים כדי למכור יותר תבואה. זה יכול לעזור לחקלאים אמריקאים להגדיל את ההכנסות שלהם.",
+  "i18n": {
+   "title": {
+    "he": "איגוד החיטה האמריקאי מקדם מכירות בינלאומיות ומשתתף במשימות סחר",
+    "en": "US Wheat Associates Boost International Sales and Trade Missions",
+    "ar": "رابطة القمح الأمريكية تعزز المبيعات الدولية وبعثات التجارة",
+    "ru": "Ассоциация производителей пшеницы США продвигает международные продажи"
+   },
+   "summary": {
+    "he": "נציגי תעשיית החיטה האמריקאית פועלים להרחבת שווקי היצוא באפריקה ובווייטנאם ומשתתפים במשימות ואירועי סחר חקלאי.",
+    "en": "USW board teams and agribusiness delegations are actively building sales and engaging trade partners in Africa, Vietnam, and domestic trade events.",
+    "ar": "تعمل وفود قطاع القمح الأمريكي بنشاط على بناء المبيعات وإشراك الشركاء التجاريين في إفريقيا وفيتنام.",
+    "ru": "Делегации американской пшеничной индустрии активно работают над расширением продаж и привлечением торговых партнеров в Африке и Вьетнаме."
+   },
+   "kid": {
+    "he": "מגדלי החיטה בארה\"ב נפגשים עם קונים מעבר לים כדי למכור יותר תבואה. זה יכול לעזור לחקלאים אמריקאים להגדיל את ההכנסות שלהם.",
+    "en": "US wheat growers are meeting overseas buyers to sell more grain, which could help American farmers boost their revenues.",
+    "ar": "مزارعو القمح الأمريكيون يلتقفون بالمشترين بالخارج لبيع المزيد من الحبوب، مما قد يساعد المزارعين الأمريكيين على زيادة إيراداتهم.",
+    "ru": "Производители пшеницы из США встречаются с зарубежными покупателями, чтобы увеличить экспорт зерна, что может поддержать доходы фермеров."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "up",
+    "t0": 1795131042,
+    "reason": "מאמצי שיווק וסחר בינלאומי תומכים بביקוש לחיטה אמריקאית.",
+    "reason_i18n": {
+     "he": "מאמצי שיווק וסחר בינלאומי תומכים بביקוש לחיטה אמריקאית.",
+     "en": "International trade missions and marketing support demand for US wheat.",
+     "ar": "بعثات التجارة الدولية والتسويق تدعم الطلب على القمح الأمريكي.",
+     "ru": "Международные торговые миссии поддерживают спрос на американскую пшеницу."
+    },
+    "name_i18n": {
+     "he": "תעודת סל חיטה",
+     "en": "Teucrium Wheat Fund",
+     "ar": "صندوق القمح",
+     "ru": "Пшеничный ETF"
+    },
+    "price_at_alert": 21.47
+   }
+  ],
+  "id": "3b3d3df09211"
  }
 ]
