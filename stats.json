@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-19T20:53Z",
+ "generated": "2026-11-19T21:50Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1172,
+ "total_alerts": 1182,
  "overall": {
   "n": 801,
   "hits": 402,
@@ -78,38 +78,38 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 133,
+   "mentions": 134,
    "n": 123,
    "hits": 60,
    "name": {
-    "he": "קרן נפט - עוקבת אחרי מחיר הנפט הגולמי",
-    "en": "Oil ETF - tracks crude oil prices",
-    "ar": "صندوق النفط - يتتبع أسعار النفط الخام",
-    "ru": "Нефтяной ETF - отслеживает цены на сырую нефть"
+    "he": "USO - תעודת סל נפט גולמי",
+    "en": "USO – United States Oil Fund",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO – фонд нефти"
    },
    "avg_edge": -0.27
   },
   "XLE": {
-   "mentions": 115,
+   "mentions": 116,
    "n": 104,
    "hits": 61,
    "name": {
-    "he": "XLE – קרן סל אנרגיה",
-    "en": "XLE – Energy Sector ETF",
-    "ar": "XLE – صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "he": "XLE - תעודת סל אנרגיה",
+    "en": "XLE – Energy Select Sector ETF",
+    "ar": "XLE - صندوق قطاع الطاقة",
+    "ru": "XLE – энергетический ETF"
    },
    "avg_edge": -0.17
   },
   "IBIT": {
-   "mentions": 34,
+   "mentions": 35,
    "n": 32,
    "hits": 21,
    "name": {
-    "he": "IBIT - קרן סל על ביטקוין",
-    "en": "IBIT - Bitcoin ETF",
-    "ar": "IBIT - صندوق البيتكوן",
-    "ru": "IBIT - Биткоин ETF"
+    "he": "IBIT - תעודת סל ביטוי לביטקוין",
+    "en": "IBIT – BlackRock Bitcoin ETF",
+    "ar": "IBIT - صندوق بتكوين",
+    "ru": "IBIT – биткоин-ETF"
    },
    "avg_edge": 0.83
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.07
   },
   "ITA": {
-   "mentions": 203,
+   "mentions": 205,
    "n": 182,
    "hits": 114,
    "name": {
-    "he": "ITA – קרן סל תעופה וביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA – صندوق الفضاء والدفاع",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    "he": "ITA - תעודת סל תעופה וביטחון",
+    "en": "ITA – US Aerospace & Defense ETF",
+    "ar": "ITA - صندوق قطاع الفضاء والدفاع الأمريكي",
+    "ru": "ITA – оборонный ETF"
    },
    "avg_edge": -1.05
   },
@@ -210,26 +210,26 @@
    "avg_edge": 0.16
   },
   "NVDA": {
-   "mentions": 65,
+   "mentions": 66,
    "n": 58,
    "hits": 28,
    "name": {
-    "he": "אנבידיה - יצרנית שבבים",
-    "en": "Nvidia - chip manufacturer",
-    "ar": "إنفيديا - مصنعة الرقائق",
-    "ru": "Nvidia - производитель чипов"
+    "he": "NVDA - אנבידיה",
+    "en": "NVDA – Nvidia",
+    "ar": "NVDA - إنفيديا",
+    "ru": "NVDA – Nvidia"
    },
    "avg_edge": 0.48
   },
   "SPY": {
-   "mentions": 120,
+   "mentions": 121,
    "n": 108,
    "hits": 53,
    "name": {
-    "he": "SPY – מדד S&P 500",
+    "he": "SPY - מדד המניות המרכזי בארה\"ב",
     "en": "SPY – S&P 500 ETF",
-    "ar": "SPY – صندوق المؤشرات S&P 500",
-    "ru": "SPY – фонд индекса S&P 500"
+    "ar": "SPY - صندوق المؤشرات الرئيسية في أمريكا",
+    "ru": "SPY – фонд акций S&P 500"
    },
    "avg_edge": 0.02
   },
@@ -246,26 +246,26 @@
    "avg_edge": 0.02
   },
   "CPER": {
-   "mentions": 41,
+   "mentions": 42,
    "n": 36,
    "hits": 9,
    "name": {
-    "he": "קרן סל נחושת",
-    "en": "Copper ETF",
-    "ar": "صندوق استثمار النحاس",
-    "ru": "ETF на медь"
+    "he": "CPER - תעודת סל נחושת",
+    "en": "CPER – Copper ETF",
+    "ar": "CPER - صندوق النحاس",
+    "ru": "CPER – фонд меди"
    },
    "avg_edge": -0.64
   },
   "CRWD": {
-   "mentions": 72,
+   "mentions": 73,
    "n": 64,
    "hits": 30,
    "name": {
-    "he": "קראודסטרייק – חברת אבטחת סייבר",
-    "en": "CrowdStrike – cybersecurity firm",
-    "ar": "كراودسترايك – شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания по кибербезопасности"
+    "he": "CRWD - קראודסטרייק (אבטחת מידע)",
+    "en": "CRWD – CrowdStrike (Cybersecurity)",
+    "ar": "CRWD - كراودسترايك للأمن السيبراني",
+    "ru": "CRWD – CrowdStrike (кибербезопасность)"
    },
    "avg_edge": -1.03
   },
@@ -282,14 +282,14 @@
    "avg_edge": 0.33
   },
   "TLT": {
-   "mentions": 44,
+   "mentions": 45,
    "n": 39,
    "hits": 22,
    "name": {
-    "he": "אג\"ח ממשלתי ארוך",
-    "en": "Long-term Treasury Bonds",
-    "ar": "سندات الخزانة طويلة الأجل",
-    "ru": "Долгосрочные казначейские облигации"
+    "he": "TLT - אג\"ח ממשלתי ארוך",
+    "en": "TLT – Long-term US Treasury bond ETF",
+    "ar": "TLT - صندوق السندات الحكومية طويلة الأجل",
+    "ru": "TLT – фонд долгосрочных гособлигаций США"
    },
    "avg_edge": 0.1
   },
@@ -414,26 +414,26 @@
    "avg_edge": -0.56
   },
   "EWC": {
-   "mentions": 28,
+   "mentions": 29,
    "n": 27,
    "hits": 20,
    "name": {
-    "he": "קרן סל על שוק המניות בקנדה",
-    "en": "EWC - iShares MSCI Canada ETF",
-    "ar": "EWC - صندوق الأسهم الكندية",
-    "ru": "EWC - ETF канадских акций"
+    "he": "EWC - תעודת סל קנדה",
+    "en": "EWC – iShares Canada ETF",
+    "ar": "EWC - صندوق كندا",
+    "ru": "EWC – фонд Канады"
    },
    "avg_edge": 0.4
   },
   "FCX": {
-   "mentions": 55,
+   "mentions": 56,
    "n": 49,
    "hits": 16,
    "name": {
-    "he": "פריפורט מקמوران – חברת כרכרות ונחושת",
-    "en": "Freeport-McMoRan – copper miner",
-    "ar": "فريبورت-ماكموران - شركة تعدين النحاس",
-    "ru": "Freeport-McMoRan – добытчик меди"
+    "he": "FCX - פריפורט מקמوران (נחושת)",
+    "en": "FCX – Freeport-McMoRan (Copper)",
+    "ar": "FCX - فريبورت مكموران (النحاس)",
+    "ru": "FCX – Freeport-McMoRan (медь)"
    },
    "avg_edge": -1.26
   },
@@ -498,14 +498,14 @@
    "avg_edge": -5.19
   },
   "XLF": {
-   "mentions": 15,
+   "mentions": 16,
    "n": 13,
    "hits": 9,
    "name": {
-    "he": "קרן סל על סקטור הפיננסים",
-    "en": "XLF - Financial Select Sector SPDR Fund",
+    "he": "XLF - תעודת סל פיננסים",
+    "en": "XLF – Financial Sector ETF",
     "ar": "XLF - صندوق القطاع المالي",
-    "ru": "XLF - ETF финансового сектора"
+    "ru": "XLF – финансовый ETF"
    },
    "avg_edge": 0.45
   },
@@ -534,14 +534,14 @@
    "avg_edge": -0.97
   },
   "VGK": {
-   "mentions": 30,
+   "mentions": 31,
    "n": 28,
    "hits": 12,
    "name": {
-    "he": "קרן סל אירופה",
-    "en": "Europe ETF",
-    "ar": "صندوق أوروبا",
-    "ru": "ETF Европы"
+    "he": "VGK - תעודת סל מניות אירופה",
+    "en": "VGK – Vanguard FTSE Europe ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK – европейский ETF"
    },
    "avg_edge": -0.16
   },
@@ -798,14 +798,14 @@
    "avg_edge": -4.85
   },
   "SMH": {
-   "mentions": 39,
+   "mentions": 40,
    "n": 34,
    "hits": 10,
    "name": {
-    "he": "קרן סל שבבים",
-    "en": "SMH - Semiconductor ETF",
-    "ar": "صندوق أشباه الموصلات",
-    "ru": "SMH - Полупроводниковый ETF"
+    "he": "SMH - תעודת סל סמיקונדקטורס",
+    "en": "SMH – Semiconductor ETF",
+    "ar": "SMH - صندوق قطاع أشباه الموصلات",
+    "ru": "SMH – фонд полупроводников"
    },
    "avg_edge": -0.33
   },
@@ -978,14 +978,14 @@
    "avg_edge": 13.58
   },
   "FXI": {
-   "mentions": 31,
+   "mentions": 32,
    "n": 27,
    "hits": 15,
    "name": {
-    "he": "מניות סין",
-    "en": "China Large Caps",
-    "ar": "أسهم الصين",
-    "ru": "Китайские акции"
+    "he": "FXI - תעודת סל מניות סין הגדולות",
+    "en": "FXI – iShares China Large-Cap ETF",
+    "ar": "FXI - صندوق الأسهم الصينية الكبرى",
+    "ru": "FXI – фонд крупных китайских акций"
    },
    "avg_edge": -0.04
   },
@@ -1206,14 +1206,14 @@
    "avg_edge": 1.02
   },
   "EIS": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 9,
    "hits": 9,
    "name": {
-    "he": "ETF ישראל",
-    "en": "Israel ETF",
-    "ar": "صندوق إسرائيل",
-    "ru": "ETF Израиля"
+    "he": "EIS - תעודת סל מניות ישראל",
+    "en": "EIS – iShares Israel ETF",
+    "ar": "EIS - صندوق أسهم إسرائيل",
+    "ru": "EIS – фонд акций Израиля"
    },
    "avg_edge": 0.82
   },
