@@ -2169,641 +2169,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "האיחוד האירופי מכין חבילת עיצומים חדשה נגד רוסיה",
-  "summary": "האיחוד האירופי מקדם חבילה חדשה הכוללת למעלה מ-100 עיצומים חדשים נגד רוסיה במסגרת הלחץ המתמשך עליה.",
-  "kid": "אירופה מתכננת עוד חוקים קשוחים שיאסרו מסחר עם גופים ברוסיה. זה יכול להשפיע על חברות אירופיות ועולמיות שעושות עסקים שם.",
-  "i18n": {
-   "title": {
-    "he": "האיחוד האירופי מכין חבילת עיצומים חדשה נגד רוסיה",
-    "en": "EU Prepares Over 100 New Sanctions Against Russia",
-    "ar": "الاتحاد الأوروبي يعد أكثر من 100 عقوبة جديدة ضد روسيا",
-    "ru": "ЕС готовит более 100 новых санкций против России"
-   },
-   "summary": {
-    "he": "האיחוד האירופי מקדם חבילה חדשה הכוללת למעלה מ-100 עיצומים חדשים נגד רוסיה במסגרת הלחץ המתמשך עליה.",
-    "en": "The European Union is preparing a new package containing over 100 fresh sanctions against Russia as part of ongoing pressure.",
-    "ar": "يعد الاتحاد الأوروبي حزمة جديدة تحتوي على أكثر من 100 عقوبة جديدة ضد روسيا كجزء من الضغط المستمر.",
-    "ru": "Европейский союз готовит новый пакет, включающий более 100 новых санкций против России в рамках продолжающегося давления."
-   },
-   "kid": {
-    "he": "אירופה מתכננת עוד חוקים קשוחים שיאסרו מסחר עם גופים ברוסיה. זה יכול להשפיע על חברות אירופיות ועולמיות שעושות עסקים שם.",
-    "en": "Europe is planning tough new rules to restrict trade and business with Russia. This can change how European and global companies operate.",
-    "ar": "تخطط أوروبا لقواعد جديدة صارمة لتقييد التجارة والأعمال مع روسيا. هذا يمكن أن يؤثر على عمل الشركات الأوروبية والعالمية.",
-    "ru": "Европа планирует новые жесткие правила для ограничения торговли с Россией. Это может повлиять на работу европейских и мировых компаний."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "עיצומים חדשים מעלים את העלויות לחברות באירופה הסוחרות מול רוסיה.",
-    "reason_i18n": {
-     "he": "עיצומים חדשים מעלים את העלויות לחברות באירופה הסוחרות מול רוסיה.",
-     "en": "New sanctions increase costs for European companies trading with Russia.",
-     "ar": "العقوبات الجديدة تزيد التكاليف على الشركات الأوروبية التي تتاجر مع روسيا.",
-     "ru": "Новые санкции увеличивают издержки европейских компаний, торгующих с Россией."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות אירופה",
-     "en": "Vanguard FTSE Europe ETF",
-     "ar": "صندوق أسهم أوروبا",
-     "ru": "ETF европейских акций"
-    },
-    "price_at_alert": 88.91,
-    "entry_price": 89.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 88.055,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.06,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.43,
-    "edge_pct": -1.43,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWG",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "כלכלת גרמניה חשופה להחמרת הסנקציות על הסחר באירופה.",
-    "reason_i18n": {
-     "he": "כלכלת גרמניה חשופה להחמרת הסנקציות על הסחר באירופה.",
-     "en": "Germany's economy is exposed to tightened European trade sanctions.",
-     "ar": "اقتصاد ألمانيا معرض لتشديد عقوبات التجارة الأوروبية.",
-     "ru": "Экономика Германии подвержена рискам ужесточения торговых санкций Европы."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות גרמניה",
-     "en": "iShares Germany ETF",
-     "ar": "صندوق أسهم ألمانيا",
-     "ru": "ETF акций Германии"
-    },
-    "price_at_alert": 42.81,
-    "entry_price": 42.86,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 42.33,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.24,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.25,
-    "edge_pct": -1.25,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "78a3bab09468",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "ארה\"ב וקנדה קיימו שיחות על הסכם מסחר פוטנציאלי",
-  "summary": "נציגי סחר מארה\"ב ומקנדה קיימו שיחות בימים האחרונים בנוגע להסכם סחר פוטנציאלי חדש בין המדינות.",
-  "kid": "אמריקה וקנדה מדברות על שיפור הסכמי המסחר ביניהן. הסכם כזה יכול לעזור לחברות שמוכרות סחורות בין שתי המדינות.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב וקנדה קיימו שיחות על הסכם מסחר פוטנציאלי",
-    "en": "US and Canada Discuss Potential Trade Deal",
-    "ar": "الولايات المتحدة وكندا تناقشان صفقة تجارية محتملة",
-    "ru": "США и Канада обсудили потенциальную торговую сделку"
-   },
-   "summary": {
-    "he": "נציגי סחר מארה\"ב ומקנדה קיימו שיחות בימים האחרונים בנוגע להסכם סחר פוטנציאלי חדש בין המדינות.",
-    "en": "U.S. and Canadian trade representatives have spoken within the past few days regarding a potential new trade deal between the countries.",
-    "ar": "أجري ممثلو التجارة من الولايات المتحدة وكندا محادثات خلال الأيام القليلة الماضية بشأن صفقة تجارية محتملة جديدة بين البلدين.",
-    "ru": "Торговые представители США и Канады провели переговоры за последние несколько дней относительно потенциальной новой торговой сделки между странами."
-   },
-   "kid": {
-    "he": "אמריקה וקנדה מדברות על שיפור הסכמי המסחר ביניהן. הסכם כזה יכול לעזור לחברות שמוכרות סחורות בין שתי המדינות.",
-    "en": "America and Canada are talking about making a new trade agreement. Better rules can help companies that ship goods across the border.",
-    "ar": "تتحدث أمريكا وكندا حول صنع اتفاقية تجارية جديدة. القواعد الأفضل يمكن أن تساعد الشركات التي تشحن البضائع عبر الحدود.",
-    "ru": "Америка и Канада обсуждают новое торговое соглашение. Лучшие правила могут помочь компаниям, доставляющим товары через границу."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "התקדמות בשיחות מסחר עם ארה\"ב תומכת בסנטימנט החיובי בקנדה.",
-    "reason_i18n": {
-     "he": "התקדמות בשיחות מסחר עם ארה\"ב תומכת בסנטימנט החיובי בקנדה.",
-     "en": "Progress in U.S. trade talks supports positive market sentiment in Canada.",
-     "ar": "التقدم في المحادثات التجارية مع الولايات المتحدة يدعم معنويات السوق في كندا.",
-     "ru": "Прогресс в торговых переговорах с США поддерживает позитивные настроения в Канаде."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות קנדה",
-     "en": "iShares Canada ETF",
-     "ar": "صندوق أسهم كندا",
-     "ru": "ETF акций Канады"
-    },
-    "price_at_alert": 60.13,
-    "entry_price": 60.27,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 59.2625,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.67,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 0.82,
-    "edge_pct": 0.82,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "יציבות ושיתוף פעולה מסחרי עם שכנתה המרכזית חיוביים לכלכלה האמריקאית.",
-    "reason_i18n": {
-     "he": "יציבות ושיתוף פעולה מסחרי עם שכנתה המרכזית חיוביים לכלכלה האמריקאית.",
-     "en": "Trade stability and cooperation with its key neighbor benefit the U.S. economy.",
-     "ar": "استقرار التجارة والتعاون مع الجار الرئيسي يفيد الاقتصاد الأمريكي.",
-     "ru": "Стабильность торговли и сотрудничество с ключевым соседом идут на пользу экономике США."
-    },
-    "name_i18n": {
-     "he": "תעודת סל ספאיי על מדד S&P 500",
-     "en": "SPDR S&P 500 ETF",
-     "ar": "صندوق مؤشر S&P 500",
-     "ru": "ETF на индекс S&P 500"
-    },
-    "price_at_alert": 757.12,
-    "entry_price": 758.96,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 740.05,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.49,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.49,
-    "edge_pct": -2.49,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "1d5fc1628b67",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "הבנק המרכזי באוסטרליה מעלה את הריבית ל-4.85%",
-  "summary": "הבנק המרכזי של אוסטרליה העלה את ריבית המזומנים ל-4.85%, מה שמוסיף לחץ על שוק הנדל\"ן המסחרי והפעילות הכלכלית.",
-  "kid": "הבנק המרכזי באוסטרליה העלה את הריבית כדי להילחם ביוקר המחיה. זה הופך הלוואות ליקרות יותר ועשוי להאט את שוק הנדל\"ן והעסקים במדינה.",
-  "i18n": {
-   "title": {
-    "he": "הבנק המרכזי באוסטרליה מעלה את הריבית ל-4.85%",
-    "en": "Reserve Bank of Australia Lifts Cash Rate to 4.85%",
-    "ar": "بنك الاحتياطي الأسترالي يرفع سعر الفائدة إلى 4.85%",
-    "ru": "Резервный банк Австралии поднял ставку до 4.85%"
-   },
-   "summary": {
-    "he": "הבנק המרכזי של אוסטרליה העלה את ריבית המזומנים ל-4.85%, מה שמוסיף לחץ על שוק הנדל\"ן המסחרי והפעילות הכלכלית.",
-    "en": "The Reserve Bank of Australia raised its cash rate to 4.85%, adding pressure to the commercial property market and economic activity.",
-    "ar": "رفع بنك الاحتياطي الأسترالي سعر الفائدة النقدي إلى 4.85%، مما يضيف ضغوطاً على سوق العقارات التجارية والنشاط الاقتصادي.",
-    "ru": "Резервный банк Австралии повысил процентную ставку до 4.85%, усиливая давление на рынок коммерческой недвижимости и экономическую активность."
-   },
-   "kid": {
-    "he": "הבנק המרכזי באוסטרליה העלה את הריבית כדי להילחם ביוקר המחיה. זה הופך הלוואות ליקרות יותר ועשוי להאט את שוק הנדל\"ן והעסקים במדינה.",
-    "en": "Australia's central bank raised interest rates to cool inflation. This makes borrowing more expensive and can slow down the local real estate and business sectors.",
-    "ar": "رفع البنك المركزي الأسترالي أسعار الفائدة لمواجهة التضخم. هذا يجعل الاقتراض أكثر تكلفة وقد يبطئ قطاع العقارات والأعمال المحلي.",
-    "ru": "Центробанк Австралии поднял ставки для борьбы с инфляцией. Это удорожает кредиты и может замедлить местный рынок недвижимости и бизнес."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWA",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "ריבית גבוהה יותר מכבידה על השוק המקומי ועל סקטור הנדל\"ן המסחרי.",
-    "reason_i18n": {
-     "he": "ריבית גבוהה יותר מכבידה על השוק המקומי ועל סקטור הנדל\"ן המסחרי.",
-     "en": "Higher interest rates weigh on the local market and commercial real estate sector.",
-     "ar": "أسعار الفائدة الأعلى تضغط على السوق المحلية وقطاع العقارات التجارية.",
-     "ru": "Более высокие процентные ставки давят на местный рынок и сектор коммерческой недвижимости."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות אוסטרליה",
-     "en": "iShares Australia ETF",
-     "ar": "صندوق أسهم أستراليا",
-     "ru": "ETF акций Австралии"
-    },
-    "price_at_alert": 29.21,
-    "entry_price": 29.07,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 28.59,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.65,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 0.84,
-    "edge_pct": -0.84,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "00b2afe896e6",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "מחירי הכסף צונחים על רקע התחזקות הדולר",
-  "summary": "מחירי המתכות היקרות רשמו ירידות חדות, כאשר מחירו של הכסף צנח ביותר מ-3% על רקע זינוק בשער הדולר והציפיות להעלאות ריבית בארה\"ב.",
-  "kid": "מחיר מתכת הכסף ירד בחדות כי הדולר האמריקאי התחזק ומשקיעים חוששים שהריבית בארה\"ב תישאר גבוהה. זה גורם למשקיעים למכור מתכות.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הכסף צונחים על רקע התחזקות הדולר",
-    "en": "Silver Prices Tumble Over 3% Amid Dollar Rally",
-    "ar": "أسعار الفضة تهبط بأكثر من 3% وسط صعود الدولار",
-    "ru": "Цены на серебро упали более чем на 3% на фоне роста доллара"
-   },
-   "summary": {
-    "he": "מחירי המתכות היקרות רשמו ירידות חדות, כאשר מחירו של הכסף צנח ביותר מ-3% על רקע זינוק בשער הדולר והציפיות להעלאות ריבית בארה\"ב.",
-    "en": "Silver prices fell sharply, tumbling over 3% as strong US dollar momentum and Federal Reserve rate hike expectations boosted the currency.",
-    "ar": "شهدت أسعار المعادن الثمينة انخفاضات حادة، حيث هبطت الفضة بأكثر من 3% وسط زخم الدولار الأمريكي وتوقعات رفع الفائدة.",
-    "ru": "Цены на драгоценные металлы резко снизились: серебро упало более чем на 3% на фоне укрепления доллара США и ожиданий повышения ставки ФРС."
-   },
-   "kid": {
-    "he": "מחיר מתכת הכסף ירד בחדות כי הדולר האמריקאי התחזק ומשקיעים חוששים שהריבית בארה\"ב תישאר גבוהה. זה גורם למשקיעים למכור מתכות.",
-    "en": "Silver dropped in price because the US dollar got stronger and interest rate fears made safe-haven metals less attractive for a moment.",
-    "ar": "انخفض سعر الفضة لأن الدولار الأمريكي أصبح أقوى ومخاوف أسعار الفائدة جعلت المعادن أقل جاذبية لفترة قصيرة.",
-    "ru": "Серебро подешевело из-за укрепления доллара США и опасений по поводу процентных ставок, что снизило привлекательность металлов."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "SLV",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "ירידה במחירי הכסף משפיעה ישירות על שווי הנכסים בקרן.",
-    "reason_i18n": {
-     "he": "ירידה במחירי הכסף משפיעה ישירות על שווי הנכסים בקרן.",
-     "en": "Decline in silver prices directly lowers the fund's asset value.",
-     "ar": "انخفاض أسعار الفضة يخفض مباشرة قيمة أصول الصندوق.",
-     "ru": "Падение цен на серебро напрямую снижает стоимость активов фонда."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מתכת הכסף",
-     "en": "iShares Silver Trust",
-     "ar": "صندوق استثمار الفضة",
-     "ru": "ETF на серебро"
-    },
-    "price_at_alert": 45.12,
-    "entry_price": 44.78,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 42.38,
-    "exit_date": "2026-11-16",
-    "change_pct": -5.36,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.87,
-    "edge_pct": 2.87,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "UUP",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "התחזקות הדולר פועלת כגורם לחץ על סחורות המנוקובות בדולר.",
-    "reason_i18n": {
-     "he": "התחזקות הדולר פועלת כגורם לחץ על סחורות המנוקובות בדולר.",
-     "en": "A stronger dollar acts as a pressure factor for dollar-denominated commodities.",
-     "ar": "الدولار الأقوى يعمل كعامل ضغط على السلع المقومة بالدولار.",
-     "ru": "Укрепление доллара оказывает давление на сырьевые товары в долларах."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מדד הדולר האמריקאי",
-     "en": "Invesco DB US Dollar Index Bullish Fund",
-     "ar": "صندوق مؤشر الدولار الأمريكي",
-     "ru": "ETF долларового индекса"
-    },
-    "price_at_alert": 29.42,
-    "entry_price": 29.44,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 29.56,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.41,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.9,
-    "edge_pct": 2.9,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "48f73420cba8",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "אקסון מוביל מאשרת פרויקט הפקת נפט שמיני בגיאנה",
-  "summary": "חברת אקסון מוביל אישרה רשמית את פרויקט ההפקה השמיני של מתקן הצפה (FPSO) באזור סטאברוק שבע이אנה, המרחיב את פעילות האנרגיה שלה.",
-  "kid": "חברת הנפט הענקית אקסון מוביל מתחילה בפרויקט ענק חדש להפקת נפט בגיאנה. זה אומר שהם יפיקו בעתיד עוד נפט וירוויחו עוד כסף.",
-  "i18n": {
-   "title": {
-    "he": "אקסון מוביל מאשרת פרויקט הפקת נפט שמיני בגיאנה",
-    "en": "ExxonMobil Sanctions Eighth Guyana FPSO Project",
-    "ar": "أكسون موبيل توافق على مشروع إنتاج النفط الثامن في غيانا",
-    "ru": "ExxonMobil одобрила восьмой проект добычи нефти в Гайане"
-   },
-   "summary": {
-    "he": "חברת אקסון מוביל אישרה רשמית את פרויקט ההפקה השמיני של מתקן הצפה (FPSO) באזור סטאברוק שבע이אנה, המרחיב את פעילות האנרגיה שלה.",
-    "en": "ExxonMobil has officially sanctioned its eighth floating production storage and offloading (FPSO) project in the Stabroek block, Guyana.",
-    "ar": "وافقت أكسون موبيل رسمياً على مشروع الإنتاج العائم الثامن في كتلة استابرواك بغيانا، مما يوسع نشاطها في قطاع الطاقة.",
-    "ru": "ExxonMobil официально одобрила восьмой проект плавучей добычи (FPSO) на шельфе Гайаны в блоке Стабрук, расширяя свою энергетическую деятельность."
-   },
-   "kid": {
-    "he": "חברת הנפט הענקית אקסון מוביל מתחילה בפרויקט ענק חדש להפקת נפט בגיאנה. זה אומר שהם יפיקו בעתיד עוד נפט וירוויחו עוד כסף.",
-    "en": "Oil giant ExxonMobil is starting a brand new giant oil production project in Guyana. This means they plan to pump a lot more oil in the future.",
-    "ar": "تطلق عملاق النفط أكسون موبيل مشروعاً جديداً ضخماً لإنتاج النفط في غيانا. هذا يعني أنهم يخططون لاستخراج المزيد من النفط في المستقبل.",
-    "ru": "Нефтяной гигант ExxonMobil запускает новый крупный нефтяной проект в Гайане, планируя добывать больше нефти в будущем."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "הרחבת פעילות ההפקה תומכת بصמיחה עסקית ארוכת טווח של החברה.",
-    "reason_i18n": {
-     "he": "הרחבת פעילות ההפקה תומכת بصמיחה עסקית ארוכת טווח של החברה.",
-     "en": "Expanding production operations supports the company's long-term business growth.",
-     "ar": "توسيع عمليات الإنتاج يدعم نمو الأعمال طويل الأجل للشركة.",
-     "ru": "Расширение добычи поддерживает долгосрочный рост бизнеса компании."
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל – חברת אנרגיה ונפט ענקית",
-     "en": "ExxonMobil – a major oil and energy corporation",
-     "ar": "أكسون موبيل – شركة نفط وطاقة كبرى",
-     "ru": "ExxonMobil — крупная нефтяная корпорация"
-    },
-    "price_at_alert": 169.78,
-    "entry_price": 171.43,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 166.975,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.6,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.11,
-    "edge_pct": -0.11,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "השקעות ענק והרחבת תפוקת נפט מחזקות את סקטור האנרגיה כולו.",
-    "reason_i18n": {
-     "he": "השקעות ענק והרחבת תפוקת נפט מחזקות את סקטור האנרגיה כולו.",
-     "en": "Massive investments and expanding oil output strengthen the entire energy sector.",
-     "ar": "الاستثمارات الضخمة وتوسيع إنتاج النفط يعززان قطاع الطاقة بأكمله.",
-     "ru": "Масштабные инвестиции и рост добычи нефти укрепляют весь энергетический сектор."
-    },
-    "name_i18n": {
-     "he": "תעודת סל סקטור האנרגיה",
-     "en": "Energy Select Sector SPDR Fund",
-     "ar": "صندوق قطاع الطاقة المتداول",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 64.33,
-    "entry_price": 64.91,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 63.715,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.84,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 0.65,
-    "edge_pct": 0.65,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "327febf31733",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "חיל האוויר האמריקאי שוקל להפעיל מחדש שדה טילים במונטנה",
-  "summary": "חיל האוויר האמריקאי בוחן את הפעלתו מחדש של שדה טילי גרעין רדום במונטנה, כחלק מהרחבת פרויקט הטילים הבין-יבשתיים סנטינל.",
-  "kid": "צבא ארה\"ב רוצה לפתוח מחדש בסיס טילים ישן במונטנה במסגרת שדרוג הנשק שלהם. זה אומר שעוד כסף ממשלתי ילך לחברות בטחוניות.",
-  "i18n": {
-   "title": {
-    "he": "חיל האוויר האמריקאי שוקל להפעיל מחדש שדה טילים במונטנה",
-    "en": "US Air Force Eyes Reactivating Dormant Montana Missile Field",
-    "ar": "القوات الجوية الأمريكية تدرس إعادة تنشيط حقل صواريخ خامد في مونتانا",
-    "ru": "ВВС США рассматривают возможность возобновления работы ракетной базы в Монтане"
-   },
-   "summary": {
-    "he": "חיל האוויר האמריקאי בוחן את הפעלתו מחדש של שדה טילי גרעין רדום במונטנה, כחלק מהרחבת פרויקט הטילים הבין-יבשתיים סנטינל.",
-    "en": "The U.S. Air Force is exploring the reactivation of a dormant missile field in Montana as the scope of the Sentinel ICBM project expands.",
-    "ar": "تستكشف القوات الجوية الأمريكية إعادة تنشيط حقل صواريخ خامد في مونتانا مع توسيع نطاق مشروع صواريخ سنتينل.",
-    "ru": "ВВС США изучают возможность повторного открытия бездействующей ракетной базы в Монтане по мере расширения программы межконтинентальных ракет Sentinel."
-   },
-   "kid": {
-    "he": "צבא ארה\"ב רוצה לפתוח מחדש בסיס טילים ישן במונטנה במסגרת שדרוג הנשק שלהם. זה אומר שעוד כסף ממשלתי ילך לחברות בטחוניות.",
-    "en": "The US military wants to reopen an old missile base as part of upgrading its defense systems. This means more government spending on defense companies.",
-    "ar": "تريد الجيش الأمريكي إعادة فتح قاعدة صواريخ قديمة كجزء من تحديث أنظمتها الدفاعية. هذا يعني إنفاق حكومي أكبر على شركات الدفاع.",
-    "ru": "Американские военные хотят вновь открыть старую ракетную базу для модернизации обороны, что означает рост госрасходов на оборонные компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "NOC",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "החברה היא הקבלנית המרכזית בפרויקט הטילים הבין-יבשתיים סנטינל.",
-    "reason_i18n": {
-     "he": "החברה היא הקבלנית המרכזית בפרויקט הטילים הבין-יבשתיים סנטינל.",
-     "en": "The company is the primary contractor for the Sentinel ICBM project.",
-     "ar": "الشركة هي المقاول الرئيسي لمشروع صواريخ سنتينل العابرة للقارات.",
-     "ru": "Компания является основным подрядчиком проекта МБР Sentinel."
-    },
-    "name_i18n": {
-     "he": "נורת'רופ גראמן – חברת ביטחונית וחלל",
-     "en": "Northrop Grumman – a major defense and aerospace contractor",
-     "ar": "نورثروب غرومان – مقاول دفاع وفضاء رئيسي",
-     "ru": "Northrop Grumman — крупный оборонный подрядчик"
-    },
-    "price_at_alert": 549.13,
-    "entry_price": 552.93,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 545.77,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.29,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.2,
-    "edge_pct": 1.2,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "הרחבת פרויקטים גרעיניים וביטחוניים תומכת בתקציבי הביטחון.",
-    "reason_i18n": {
-     "he": "הרחבת פרויקטים גרעיניים וביטחוניים תומכת בתקציבי הביטחון.",
-     "en": "Expansion of nuclear and defense projects supports defense budgets.",
-     "ar": "توسيع المشاريع النووية والدفاعية يدعم ميزانيات الدفاع.",
-     "ru": "Расширение ядерных и оборонных проектов поддерживает бюджеты."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על סקטור התעופה והביטחון",
-     "en": "iShares U.S. Aerospace & Defense ETF",
-     "ar": "صندوق الفضاء والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 71.73,
-    "entry_price": 71.92,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.6,
-    "edge_pct": -0.6,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "dd04175d6f04",
-  "evaluated": true
- },
- {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "הבית הלבן צפוי להאריך את פטור ספנות הג'ונס אקט",
-  "summary": "על פי מקורות, הבית הלבן מתכנן להאריך את תוקף פטור חוק ג'ונס (Jones Act) המאפשר גמישות זמנית בכללי הספנות וההובלה הימית בארה\"ב.",
-  "kid": "הממשל באמריקה עומד לתת עוד זמן להקלות בחוקי ההובלה הימית. זה יכול לעזור לחברות ספנות ולשמור על זרימת סחורות חלקה יותר.",
-  "i18n": {
-   "title": {
-    "he": "הבית הלבן צפוי להאריך את פטור ספנות הג'ונס אקט",
-    "en": "White House Set to Extend Jones Act Shipping Waiver",
-    "ar": "البيت الأبيض يستعد لتمديد استثناء قانون جونز للشحن",
-    "ru": "Белый дом намерен продлить исключение из закона Джонса для судоходства"
-   },
-   "summary": {
-    "he": "על פי מקורות, הבית הלבן מתכנן להאריך את תוקף פטור חוק ג'ונס (Jones Act) המאפשר גמישות זמנית בכללי הספנות וההובלה הימית בארה\"ב.",
-    "en": "According to sources, the White House is set to extend the Jones Act shipping waiver, providing temporary flexibility for US maritime transport rules.",
-    "ar": "وفقاً لمصادر، يستعد البيت الأبيض لتمديد استثناء قانون جونز للشحن، مما يوفر مرونة مؤقتة لقواعد النقل البحري الأمريكي.",
-    "ru": "По данным источников, Белый дом намерен продлить исключение из закона Джонса, обеспечивая временную гибкость правил морских перевозок США."
-   },
-   "kid": {
-    "he": "הממשל באמריקה עומד לתת עוד זמן להקלות בחוקי ההובלה הימית. זה יכול לעזור לחברות ספנות ולשמור על זרימת סחורות חלקה יותר.",
-    "en": "The US government is giving extra time to rules that make shipping goods by sea more flexible. This helps logistics and shipping flow.",
-    "ar": "تمنح الحكومة الأمريكية وقتاً إضافياً للقواعد التي تجعل شحن البضائع بحراً أكثر مرونة. هذا يساعد في تدفق اللوجستيات والشحن.",
-    "ru": "Правительство США дает дополнительное время на смягчение правил морских перевозок, помогая логистике и судоходству."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FDX",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "גמישות לוגיסטית וספנות יכולה לסייע בהפחתת עלויות תפעול.",
-    "reason_i18n": {
-     "he": "גמישות לוגיסטית וספנות יכולה לסייע בהפחתת עלויות תפעול.",
-     "en": "Logistical and shipping flexibility can help reduce operational costs.",
-     "ar": "المرونة اللوجستية والشحن يمكن أن تساعد في خفض تكاليف التشغيل.",
-     "ru": "Логистическая гибкость помогает снизить операционные расходы."
-    },
-    "name_i18n": {
-     "he": "פדקס – חברת שילוח ולוגיסטיקה ענקית",
-     "en": "FedEx – a major logistics and delivery company",
-     "ar": "فيديكس – شركة لوجستيات وشحن كبرى",
-     "ru": "FedEx — крупная логистическая компания"
-    },
-    "price_at_alert": 319.3,
-    "entry_price": 321.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 327.67,
-    "exit_date": "2026-11-16",
-    "change_pct": 2.08,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 4.57,
-    "edge_pct": 4.57,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1794521948,
-    "reason": "הקלה בכללי הספנות עשויה לתמוך בפעילות השוטפת של חברות תובלה ימית.",
-    "reason_i18n": {
-     "he": "הקלה בכללי הספנות עשויה לתמוך בפעילות השוטפת של חברות תובלה ימית.",
-     "en": "Easing shipping rules may support the ongoing operations of maritime carriers.",
-     "ar": "تخفيف قواعد الشحن قد يدعم العمليات المستمرة لشركات النقل البحري.",
-     "ru": "Смягчение правил судоходства может поддержать текущие операции морских перевозчиков."
-    },
-    "name_i18n": {
-     "he": "צים – חברת ספנות ימית",
-     "en": "ZIM Integrated Shipping Services",
-     "ar": "زيم – شركة الشحن البحري",
-     "ru": "ZIM — судоходная компания"
-    },
-    "price_at_alert": 29.24,
-    "entry_price": 29.27,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 29.13,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.48,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.01,
-    "edge_pct": 2.01,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "6e4dc7681bb2",
-  "evaluated": true
- },
- {
   "ts": 1794524701,
   "time": "2026-11-12T23:05Z",
   "title": "הצי האמריקאי מגביר ייצור טילי טומהוק",
@@ -45555,9 +44920,34 @@
    }
   },
   "category": "cyber",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnZ2Ml9NcE1sVjM3dl9FcVo1RVdTTmh6VkJGeVVxOE41NnJYVUtfNzBMVExMelpwZ2ZycGJqcG42NzlCMGF2MmhoSXZoX2hZb1lMR19mZGxLSXctTzRxRm5ZZXRXN2UyNlQzRmIwWEQ1djdjUFVpNUZjSmNjQmwzSjE1NjVSNm15Rl9TaVRGN01iZ0dvMDY2NndNVTMwTDdwelJjazdSOTZfX1Y1OUtRQXBobDliNE5NNFBFWlpDLWQ0ejJQa1NrUnRNbUwxNXN6?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ2t0T0RJU0xTSTJudFBpdTZtQ3REZlJ0M1RURTNOM28wQnRoWTNlVUxuZGdiSHMzVnJLVUZkUXFXM1YweDFsQmVMd3lFSEkxWWdWSFJLcG9Hc2ZDU1BzVUxTMHE5MEVTb3BwdVB1djJWRmUyQWRYaWlLTnc4Sk5Zd055QW9jRnh6cFRWUUhyNWJDQlZMQTQtNnpPd2dLVTE3cGJ4U2VYQjNpVEVHUVp2WDRTdmFySDBxNXFQV1R2MGtabUdRLU02S3Z3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGppUkVwUlJkeHRBQ0x4dDYtVXFfQ0c5WG5ELTdmanBiQ1hpaTE4cy1pQTNtRzdwaGU5NUZFY2RJdUVqR2VXSS1sa1lVMW1PeUszR0lhSWtvOHduVDlDYTg0TnRQcWhKRWl6dFVUSkFteXJIUk1FVTZ4SkFwOWJ0V1lmYUhDWWpPWEt0Q1pEd1BFeGRlMEw4dUVrWnQ3YVp6aHpualg5LUM?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVcyYWxfRjFaUjR6Wi1rRlBDemVlU1FPay01M1NQNnpHLXRrdzR5M1RQcEd1cUpFZEU5d1kwX1RtbjNSY21DNThwNDRDN1dUd2FsRXFlVXk4UW9RYUVTanYtd1pUdHhiWVNlcnpyajB0R0llb3pveDc3aDd4UGZWbTgyX1dIMm05czJGdEZham9aTl82ZUV4aHVFdTY?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRzdHWkpTY2JPTGFQdnU1YTk4UXRTdlhEZzFFdk5JS0FWYWhTeTRlLXp3WEhEd3RTWjUwV2xnUVVDbUpWQm1KMWxvOUJEUmtudzEtS0lGb2pOb0VhRnFzSmZreHc2cktydTdKSG5qVU9MTlNSYUhTQlVhR3NBUng1anYyTF92MGhEVElST1RjQnhVcDNRWWdaR3RYZE1GV3hteDFmSDdaUXJUbDhZaXY5MWMweVdJR29rTGdxNm9UUjlNVkdoOEVrcEF5VXNsRXhlXzNvLV8ycG8zU3RrbTQ5eWNVNWZiQ1NMdGptWHRVU29yUTI0M1pLU041MmhQWTRVRlhJSjhrcllaR3c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEFINUdzay1YQWE2Y29mcDdDV3RwNWdTQVBhZmlwMFZsVXNVWW13MTJhS0QyemdwMHVVYkx1YWpzc3U1ZEVnQmdQUjBaYldNa3U1ak9nZm5Pd2h4MEsyeF9TX3Rja3h6T2d5ejRLSDJCQWt2UnZvWDRBTjVxM3RNMHJmcnN3M0xtNWdXOW9ncDZOQQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "XLF",
@@ -45596,9 +44986,43 @@
      "ru": "CRWD – CrowdStrike (кибербезопасность)"
     },
     "price_at_alert": 243.46
+   },
+   {
+    "ticker": "V",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "חששות סביב אבטחת מידע של צד שלישי עלולים להעיב קצרות על המניה",
+    "reason_i18n": {
+     "he": "חששות סביב אבטחת מידע של צד שלישי עלולים להעיב קצרות על המניה",
+     "en": "Vendor data exposure incidents create headline risk and regulatory scrutiny",
+     "ar": "حوادث تسرب بيانات الموردين تخلق مخاطر على السمعة",
+     "ru": "Инциденты с утечкой данных создают репутационные риски"
+    },
+    "name_i18n": {
+     "he": "ויזה – חברת תשלומים גלובלית",
+     "en": "Visa – a global payments processor",
+     "ar": "فيزا - شركة مدفوعات عالمية",
+     "ru": "Visa – глобальный платежный оператор"
+    },
+    "price_at_alert": 402.25
    }
   ],
-  "id": "5df31c0bd89e"
+  "id": "5df31c0bd89e",
+  "updates": [
+   {
+    "ts": 1795128510,
+    "time": "2026-11-19T22:48Z",
+    "severity": 6,
+    "summary": "מתקפת סייבר שכוונה נגד ספקי צד שלישי פגעה בשורה של חברות ענק, בהן ג'יי פי מורגן, ויזה, סטארבקס ואחרות, וחשפה שמות ופרטי התקשרות של לקוחות.",
+    "i18n": {
+     "he": "מתקפת סייבר שכוונה נגד ספקי צד שלישי פגעה בשורה של חברות ענק, בהן ג'יי פי מורגן, ויזה, סטארבקס ואחרות, וחשפה שמות ופרטי התקשרות של לקוחות.",
+     "en": "A major cyberattack hitting a third-party vendor has exposed customer names and emails across prominent firms including JPMorgan Chase, Visa, Starbucks, and others.",
+     "ar": "أدى هجوم سيبراني استهدف مزود خدمة خارجي إلى كشف أسماء ورسائل بريد إلكتروني لعملاء شركات بارزة تشمل جي بي مورغان وفيزا وستاربكس.",
+     "ru": "Крупная кибератака на стороннего поставщика привела к утечке имен и адресов электронной почты клиентов JPMorgan Chase, Visa, Starbucks и других."
+    }
+   }
+  ],
+  "last_update": 1795128510
  },
  {
   "ts": 1795124981,
@@ -45701,7 +45125,16 @@
   "category": "geopolitics",
   "severity": 3,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZEEtLXh2MXBzVjUzYU5FTVFhYy1oN1FPNzBmbDNoYUh5MFVXU2FyZmlXUURtSVpoZVRjclBUTmVlamJ4MzZFNTE2UlhKTG9wdFp0WXZEYXJuVlpDWDdSVHpURUk0bW11cUpJc0dBWENLYTlXbFYxdnlJOFFzWmVHNWlXd1FldlFLTFhqeE1RSU5MV01JZzBqSER4a0hxUC1aRUVsVnNYUENsV3JFYjNJd042bXYwQlBjYVNoR04za21oS05oeUNTckdCWGFYMm1fY2Y4cXRlTjVmTWdPaHAySXNJSlV3d3lLaVdKUzJrRV9jQ0pjRm1MQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0VlNm84TFByWnlZM1RPeGVFNzhvMnVGcUN1Q1ZHcWxiaTdCUnh6YmI5dzVmbUJVMDVOLUM2VzNnMEhDVmE4UlItc0NqOU5pVWQ4cHZBME5MMlc4aGYzLUZBOGpDVmRzc3F4T2oxZzJKVTk5MlQ4RnlnNl9vVHFWa2d3OWpTZXp4MWEzUEladF9waklBWXlJV0pR?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "IBIT",
@@ -45721,8 +45154,351 @@
      "ru": "IBIT – биткоин-ETF"
     },
     "price_at_alert": 35.08
+   },
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "מעורבות רגולטורית אמריקאית ישירה בגופים פליליים מקומיים יוצרת רעש נקודתי",
+    "reason_i18n": {
+     "he": "מעורבות רגולטורית אמריקאית ישירה בגופים פליליים מקומיים יוצרת רעש נקודתי",
+     "en": "Direct US regulatory actions targeting regional groups add minor friction",
+     "ar": "الإجراءات التنظيمية الأمريكية المباشرة تضيف توتراً طفيفاً",
+     "ru": "Прямые регуляторные меры США создают небольшую напряженность"
+    },
+    "name_i18n": {
+     "he": "קרן סל אוסטרליה – מדד המניות האוסטרלי",
+     "en": "iShares MSCI Australia ETF",
+     "ar": "صندوق المؤشرات المتداولة لأستراليا",
+     "ru": "ETF Австралии"
+    },
+    "price_at_alert": 27.19
    }
   ],
-  "id": "bc2b0f095446"
+  "id": "bc2b0f095446",
+  "updates": [
+   {
+    "ts": 1795128510,
+    "time": "2026-11-19T22:48Z",
+    "severity": 3,
+    "summary": "ארצות הברית הטילה סנקציות חסרות תקדים נגד כנופיית האופנועים האוסטרלית קומאנצ'רו במסגרת מאבק בפשיעה חוצת גבולות.",
+    "i18n": {
+     "he": "ארצות הברית הטילה סנקציות חסרות תקדים נגד כנופיית האופנועים האוסטרלית קומאנצ'רו במסגרת מאבק בפשיעה חוצת גבולות.",
+     "en": "In a historic first, the US government has imposed sanctions targeting the Australian Comanchero motorcycle gang.",
+     "ar": "في سابقة تاريخية، فرضت الحكومة الأمريكية عقوبات تستهدف عصابة دراجات نارية أسترالية تدعى كومانشيرو.",
+     "ru": "Впервые в истории правительство США ввело санкции против австралийской байкерской банды Comanchero."
+    }
+   }
+  ],
+  "last_update": 1795128510
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "איראן מתכננת לפרוץ את הסגר הימי האמריקאי באמצעות שיירת מכליות נפט",
+  "summary": "על פי דיווחים בתקשורת הממלכתית, איראן נערכת לשלוח שיירת מכליות נפט במטרה לנסות ולפרוץ את הסגר הימי האמריקאי.",
+  "kid": "איראן רוצה לשלוח אוניות נפט דרך הים למרות הסגר של ארה\"ב. זה עלול ליצור עימות צבאי ולהקפיץ את מחירי הנפט בעולם.",
+  "i18n": {
+   "title": {
+    "he": "איראן מתכננת לפרוץ את הסגר הימי האמריקאי באמצעות שיירת מכליות נפט",
+    "en": "Iran preparing to break US naval blockade with 'oil tanker caravan'",
+    "ar": "إيران تستعد لكسر الحصار البحري الأمريكي بـ \"قافلة ناقلات نفط\"",
+    "ru": "Иран готовится прорвать военно-морскую блокаду США с помощью «каравана танкеров»"
+   },
+   "summary": {
+    "he": "על פי דיווחים בתקשורת הממלכתית, איראן נערכת לשלוח שיירת מכליות נפט במטרה לנסות ולפרוץ את הסגר הימי האמריקאי.",
+    "en": "State media reports indicate Iran is preparing a caravan of oil tankers to challenge and break the US naval blockade.",
+    "ar": "تشير تقارير الإعلام الرسمي إلى أن إيران تستعد لإرسال قافلة ناقلات نفط لتحدي وكسر الحصار البحري الأمريكي.",
+    "ru": "ГосСМИ сообщают, что Иран готовится отправить караван нефтяных танкеров, чтобы прорвать военно-морскую блокаду США."
+   },
+   "kid": {
+    "he": "איראן רוצה לשלוח אוניות נפט דרך הים למרות הסגר של ארה\"ב. זה עלול ליצור עימות צבאי ולהקפיץ את מחירי הנפט בעולם.",
+    "en": "Iran wants to send oil ships through the sea despite a US blockade. This could cause a military clash and push oil prices up.",
+    "ar": "تريد إيران إرسال سفن نفطية عبر البحر رغم الحصار الأمريكي. هذا قد يتسبب في مواجهة عسكرية ويرفع أسعار النفط.",
+    "ru": "Иран хочет отправить нефтяные суда через море вопреки блокаде США, что может вызвать военный конфликт и поднять цены на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWmpCVVpDeFVvQUNUQnFDeW9SSTZWYlRoaW44ZG1fODBlclRvN2sxcGd5bkRKZmZ4MGZhaGNURzJyMWZGWVFoVVdvdVdNbHRoX3pnN2lSb3BES1M2aUtEZ3pFUmowRUtpMmlJTUs0ZXJyNGxHajJSZGxyOUNISE9tbS1oY3pMN1NvMG9iTWNmdFV2MVNJYmNCZnZuLXVKS3FZeUlQRUVwRlI0VW5JZ2lQVHllX2UtS3J4UTQtcFZYaFF5VVBEZGFrYmQwOXZHM2FBNXYzZTRmLXRQMkdXUHN0U0daQk7SAeoBQVVfeXFMUFFnTVQzbzRiOWc4YS1JaFNNVHpUbjBsMXUxSDJOUUNTNTktdE9rWWZOQVdsM2s1V3Z5aTRoSDlmSWpmZXJ1eUxFekN3a3V5ajFqaHVXekRuQTQ4Ym9SNHplWnExa05TUHVzSGxINDBaQXB3ZDR2bXhrNDdlaVFBTDBQR1l5T0FHMHBIN29RY0dPYUFwdjRmQ2VZNWRrejVKcFJXZnZxMUVhNTloV1hXT1VKdEpwdjBBRm92cWdSRlhfQ1hqYTFVbklGVkNXTG0zQmNvR3cxd1YxcHFKbWpjUjZDSURQR0RwbDZ3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "חשש מפני שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה",
+    "reason_i18n": {
+     "he": "חשש מפני שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה",
+     "en": "Mideast supply route tensions elevate geopolitical risk premium for crude",
+     "ar": "توترات طرق الإمداد في الشرق الأوسط ترفع علاوة المخاطر الجيوسياسية للنفط",
+     "ru": "Напряженность на Ближнем Востоке повышает геополитическую премию за риск для нефти"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام الأمريكي",
+     "ru": "ETF нефти"
+    },
+    "price_at_alert": 138.09
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "מחירי נפט גבוהים תומכים במניות ענקיות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים תומכים במניות ענקיות האנרגיה",
+     "en": "Higher crude prices directly benefit major oil producers",
+     "ar": "أسعار النفط المرتفعة تفيد منتجي النفط الكبار مباشرة",
+     "ru": "Более высокие цены на нефть напрямую идут на пользу крупным производителям"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל – חברת אנרגיה ונפט ענקית",
+     "en": "Exxon Mobil – a major US energy company",
+     "ar": "إكسون موبيل - شركة إاقة ونפט أمريكية كبرى",
+     "ru": "Exxon Mobil – крупная нефтяная компания"
+    },
+    "price_at_alert": 158.93
+   }
+  ],
+  "id": "999a4fc9e1b1"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "ג'נרל מוטורס צופה עלויות מכסים ותפעול בסך 5.5 מיליארד דולר ב-2026",
+  "summary": "יצרנית הרכב ג'נרל מוטורס מעריכה כי מכסים והוצאות תפעול יגיעו ל-5.5 מיליארד דולר בשנת 2026.",
+  "kid": "ג'נרל מוטורס אומרת שעלויות כמו מכסים יעלו הרבה כסף ב-2026. זה יכול לגרום למשקיעים לחשוב שיהיו לה פחות רווחים.",
+  "i18n": {
+   "title": {
+    "he": "ג'נרל מוטורס צופה עלויות מכסים ותפעול בסך 5.5 מיליארד דולר ב-2026",
+    "en": "GM expects tariffs and operating costs to reach $5.5B in 2026",
+    "ar": "جنرال موتورز تتوقع أن تصل تكاليف الرسوم الجمركية والتشغيل إلى 5.5 مليار دولار في 2026",
+    "ru": "GM ожидает, что расходы на пошлины и операционную деятельность достигнут $5,5 млрд в 2026 году"
+   },
+   "summary": {
+    "he": "יצרנית הרכב ג'נרל מוטורס מעריכה כי מכסים והוצאות תפעול יגיעו ל-5.5 מיליארד דולר בשנת 2026.",
+    "en": "Automaker General Motors expects tariffs and operating cost increases to reach $5.5 billion in 2026.",
+    "ar": "تتوقع شركة صناعة السيارات جنرال موتورز أن تصل زيادة الرسوم الجمركية وتكاليف التشغيل إلى 5.5 مليار دولار في عام 2026.",
+    "ru": "Автопроизводитель General Motors ожидает, что рост пошлин и операционных расходов достигнет $5,5 млрд в 2026 году."
+   },
+   "kid": {
+    "he": "ג'נרל מוטורס אומרת שעלויות כמו מכסים יעלו הרבה כסף ב-2026. זה יכול לגרום למשקיעים לחשוב שיהיו לה פחות רווחים.",
+    "en": "General Motors says tariffs will cost them billions. This could make investors worry about lower profits for the company.",
+    "ar": "تقول جنرال موتورز إن الرسوم الجمركية ستكلفهم الكثير. هذا قد يجعل المستثمرين قلقين بشأن انخفاض أرباح الشركة.",
+    "ru": "General Motors говорит, что пошлины обойдутся ей дорого. Это может заставить инвесторов беспокоиться о снижении прибыли компании."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaGVQSEpnWExRVzlkU3pxbWhreHBFOGhMTHBQMDB3akFjbEVrMXg5S3R0OFVWcjJ5ZnVsVU5TTE9BLWJmektfQ0l2bTVNSmhxR2NaZjFiMUY1UjdvN2tESmNNRHRqbXFyb3B1V1BRazVfYU9xNVBKSmlPbkJwcjhfVWZFVEtyM281TjNxQWRXdG5jLWhmVTJlSDNLb3ZjcHgwODZKQVpmY3hXNmM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GM",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "עלויות צפויות גבוהות יותר עלולות לפגוע ברווחי החברה",
+    "reason_i18n": {
+     "he": "עלויות צפויות גבוהות יותר עלולות לפגוע ברווחי החברה",
+     "en": "Higher expected operating costs and tariffs may weigh on profits",
+     "ar": "التكاليف المتوقعة الأعلى قد تضغط على الأرباح",
+     "ru": "Ожидаемые более высокие расходы могут оказать давление на прибыль"
+    },
+    "name_i18n": {
+     "he": "ג'נרל מוטורס – יצרנית רכב ענקית בארה\"ב",
+     "en": "General Motors – a major US automaker",
+     "ar": "جنرال موتورز - شركة تصنيع سيارات أمريكية كبرى",
+     "ru": "General Motors – крупный американский автопроизводитель"
+    },
+    "price_at_alert": 81.75
+   }
+  ],
+  "id": "b910ea4eeedf"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "מקסיקו מבקשת עסקת G20 עם טראמפ להפחתת מכסי רכב ומתכות",
+  "summary": "מקסיקו פועלת להגיע להסכם עם ממשל טראמפ בשולי פסגת ה-G20 כדי להפחית מכסים על רכבים ומתכות.",
+  "kid": "מקסיקו רוצה לדבר עם טראמפ כדי להוריד מיסים על מכוניות ומתכות שנסחרות בין המדינות. זה יכול לעזור לחברות רכב ומסחר.",
+  "i18n": {
+   "title": {
+    "he": "מקסיקו מבקשת עסקת G20 עם טראמפ להפחתת מכסי רכב ומתכות",
+    "en": "Mexico seeks G20 deal with Trump to cut U.S. auto and metals tariffs",
+    "ar": "المكسيك تسعى لعقد اتفاق في مجموعة العشرين مع ترامب لخفض الرسوم الجمركية على السيارات والمعادن",
+    "ru": "Мексика добивается сделки с Трампом на G20 по снижению пошлин на авто и металлы"
+   },
+   "summary": {
+    "he": "מקסיקו פועלת להגיע להסכם עם ממשל טראמפ בשולי פסגת ה-G20 כדי להפחית מכסים על רכבים ומתכות.",
+    "en": "Mexico is seeking a deal with Trump at the G20 to reduce U.S. tariffs on automobiles and metals.",
+    "ar": "تسعى المكسيك للوصول إلى اتفاق مع إدارة ترامب على هامش قمة العشرين لتقليص الرسوم على السيارات والمعادن.",
+    "ru": "Мексика стремится заключить сделку с администрацией Трампа на саммите G20 о снижении пошлин на автомобили и металлы."
+   },
+   "kid": {
+    "he": "מקסיקו רוצה לדבר עם טראמפ כדי להוריד מיסים על מכוניות ומתכות שנסחרות בין המדינות. זה יכול לעזור לחברות רכב ומסחר.",
+    "en": "Mexico wants to talk with Trump to lower taxes on traded cars and metals. This could help cross-border trade and automakers.",
+    "ar": "المكسيك تريد التحدث مع ترامب لخفض الضرائب على السيارات والمعادن المتبادلة. هذا قد يساعد التجارة وقطاع السيارات.",
+    "ru": "Мексика хочет договориться с Трампом о снижении налогов на торговлю автомобилями и металлами, что может помочь автопроизводителям."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSkllMmZKZ0s1OU1Wd2ItOGpVN1ZfV0VDcXN3VVpQYU52X284Z1FPdkw0SzNrVm0ybHdMNkhYSlVaazgxejlXUXJUWDl6NFFpOGNmQ1BhLTFpU09BaWc1TjYzeWxJUXkySGZsaV9SdjdkT0dPblFnSmVNcHVVbEh2ZFRpUnJfMEJCZGFFZmZnYlNRYlI3VXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWW",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "הפחתת מכסים פוטנציאלית תיטיב עם הכלכלה והסחר של מקסיקו",
+    "reason_i18n": {
+     "he": "הפחתת מכסים פוטנציאלית תיטיב עם הכלכלה והסחר של מקסיקו",
+     "en": "Potential tariff cuts would boost cross-border trade and Mexican assets",
+     "ar": "تخفيضات الرسوم المحتملة ستدعم التجارة والأصول المكسيكية",
+     "ru": "Потенциальное снижение пошлин поддержит торговлю и активы Мексики"
+    },
+    "name_i18n": {
+     "he": "קרן סל מקסיקו – מדד המניות המקסיקני",
+     "en": "iShares MSCI Mexico ETF",
+     "ar": "صندوق المؤشرات المتداولة للمكسيك",
+     "ru": "ETF Мексики"
+    },
+    "price_at_alert": 72.52
+   }
+  ],
+  "id": "90ca1c14b7d3"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "חיל האוויר האמריקאי פונה לחברות פרטיות פיתוח טילים לטובת חימוש זול יותר",
+  "summary": "חיל האוויר האמריקאי החל בשיתוף פעולה עם סיירה נבדה (SNC), אנדוריל וקסטליון במטרה לפתח ולקדם טילים זולים יותר.",
+  "kid": "צבא ארה\"ב מחפש דרכים לייצר טילים זולים יותר בעזרת חברות חדשות כמו אנדוריל. זה יכול לתת לחברות האלו יותר פרויקטים וכסף.",
+  "i18n": {
+   "title": {
+    "he": "חיל האוויר האמריקאי פונה לחברות פרטיות פיתוח טילים לטובת חימוש זול יותר",
+    "en": "US Air Force turns to SNC, Anduril and Castelion for cheaper missiles",
+    "ar": "القوات الجوية الأمريكية تلجأ إلى شركات خاصة لتطوير صواريخ أرخص",
+    "ru": "ВВС США обращаются к частным компаниям для создания более дешевых ракет"
+   },
+   "summary": {
+    "he": "חיל האוויר האמריקאי החל בשיתוף פעולה עם סיירה נבדה (SNC), אנדוריל וקסטליון במטרה לפתח ולקדם טילים זולים יותר.",
+    "en": "The US Air Force has turned to private defense firms SNC, Anduril, and Castelion in a push to develop cheaper missile alternatives.",
+    "ar": "اتجهت القوات الجوية الأمريكية إلى شركات الدفاع الخاصة SNC وAnduril وCastelion لدفع عجلة تطوير صواريخ أرخص.",
+    "ru": "ВВС США обратились к частным оборонным компаниям SNC, Anduril и Castelion для разработки более дешевых ракет."
+   },
+   "kid": {
+    "he": "צבא ארה\"ב מחפש דרכים לייצר טילים זולים יותר בעזרת חברות חדשות כמו אנדוריל. זה יכול לתת לחברות האלו יותר פרויקטים וכסף.",
+    "en": "The US military wants to build cheaper missiles using newer defense firms like Anduril. This could mean more business for them.",
+    "ar": "يريد الجيش الأمريكي بناء صواريخ أرخص باستخدام شركات جديدة مثل Anduril. هذا قد يعني أعمالاً أكثر لهم.",
+    "ru": "Американские военные хотят создавать более дешевые ракеты с помощью таких компаний, как Anduril, что принесет им новые контракты."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTNtamdMaElWdTRxdDN4UW9RVmFIZ2lyWFdhTE9lNzZYb2p3MkV3MTdwekduY2hqWnNWdWVPT1RPS2s3WndfZWhlYy1uVGNEQnZ0ZGRiMHUtNHVaZWRFR3h5b3I2MDZyOUNLdjlMQ29HVXVsc1FSWC0tdW54LU1OMGZ6TVE2dm5pSlJ6QXZJcnhHUUgwVkk2TUNLWmNqWnlBUk9hcUVaM3JWMEdOenpfc1QyeGRmSUtRX0lTVDBFUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "השקעות חדשות בטכנולוגיות חימוש תומכות בסקטור הביטחוני",
+    "reason_i18n": {
+     "he": "השקעות חדשות בטכנולוגיות חימוש תומכות בסקטור הביטחוני",
+     "en": "Defense tech spending diversification highlights sector growth",
+     "ar": "تنويع الإنفاق التكنولوجي الدفاعي يدعم نمو القطاع",
+     "ru": "Диверсификация расходов на оборонные технологии поддерживает рост сектора"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון בארה\"ב",
+     "en": "iShares U.S. Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.2
+   }
+  ],
+  "id": "f87ee3441a63"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "שפעת העופות אילצה את יצרנית הביצים הגדולה בארה\"ב להשמיד 1.8 מיליון עופות בפלורידה",
+  "summary": "התפרצות שפעת העופות הביאה להשמדתם של 1.8 מיליון עופות אצל יצרנית הביצים הגדולה בארה\"ב בפלורידה.",
+  "kid": "מחלת עופות קשה גרמה להשמדת מיליוני תרנגולות בפלורידה. זה עלול להעלות את מחירי הביצים בחנויות.",
+  "i18n": {
+   "title": {
+    "he": "שפעת העופות אילצה את יצרנית הביצים הגדולה בארה\"ב להשמיד 1.8 מיליון עופות בפלורידה",
+    "en": "Bird flu outbreak forces largest US egg producer to cull 1.8M birds in Florida",
+    "ar": "إنفلونزا الطيور تجبر أكبر منتج بيض أمريكي على إعدام 1.8 مليون طائر في فلوريدا",
+    "ru": "Птичий грипп заставил крупнейшего производителя яиц в США уничтожить 1,8 млн птиц во Флориде"
+   },
+   "summary": {
+    "he": "התפרצות שפעת העופות הביאה להשמדתם של 1.8 מיליון עופות אצל יצרנית הביצים הגדולה בארה\"ב בפלורידה.",
+    "en": "A severe bird flu outbreak has forced the largest U.S. egg producer to cull 1.8 million birds in Florida amid rising cases.",
+    "ar": "أجبر تفشي إنفلونزا الطيور أكبر منتج للبيض في الولايات المتحدة على إعدام 1.8 مليون طائر في فلوريدا.",
+    "ru": "Вспышка птичьего гриппа заставила крупнейшего производителя яиц в США уничтожить 1,8 млн птиц во Флориде."
+   },
+   "kid": {
+    "he": "מחלת עופות קשה גרמה להשמדת מיליוני תרנגולות בפלורידה. זה עלול להעלות את מחירי הביצים בחנויות.",
+    "en": "A bird disease caused millions of chickens to be culled in Florida. This could make egg prices go up in stores.",
+    "ar": "تسبب مرض الطيور في إعدام ملايين الدجاج في فلوريدا. هذا قد يؤدي إلى ارتفاع أسعار البيض.",
+    "ru": "Болезнь птиц привела к уничтожению миллионов кур во Флориде, что может поднять цены на яйца."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeEdWdDBpeS14LUxrZENfUV9DaWVaVFBkdk1ELUcyUmVrcVBqV3oyREFJVF9BamNQUmxadTl2S0F3ektVdjVjNmlQZFl4QlFPVkdrOWVxeFNiM2NTU29jYlVlRkdpMmJ5VmZTRm82My1hQldvWFFuMmlXS1RGekc2MW04ZUljYzVmUzZSQ0tfRlBJVDM4OHVBSjBFbEdKYUZNSDZ4ckhFa0M5MHZuRXYyOGM1NnpRZG0wRVVZazNteUFiZGxZX3cxbzcyV1NtREp0VGlXQXd1M09Gb1k0bEVaejFNWEhaX1piUkhsVl9kRmdPM3FrTFdjbTVKclNtaHRYLXfSAYcCQVVfeXFMT0J2dDc4bV9FLXdwWTFWYWNSTEZkdnBqdndzT295bkJ5bXlob0ZZeGRDbUFmR251S0labTVyQjNFQ1d4bEYyY2RlOVhQa1dKTUprblRqVnlPT2RlMVFZZjgwMDhWQzJkNndNc1FFQnBaTURsbFFCZThvMmVpX1dJWDV0X2ppUm96eVBkekotdjFZZERqMXhTVmVLN2xHcXlRMXVzREdRdXlHay1aM0hoSDI0VTVZNmdsUHRDaXNPUW1vN1pPZGh0V2dTV1BXRjBaNTMxRUwyd0liRUFjdHRkWEI1b0pnU1RSOXZSQkJvd0g0dWlja0U1MlF1QzQ2Z2E2VmN0RS1JNDg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLP",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "עליית מחירי מוצרי יסוד כמו ביצים עשויה להשפיע על חברות המזון",
+    "reason_i18n": {
+     "he": "עליית מחירי מוצרי יסוד כמו ביצים עשויה להשפיע על חברות המזון",
+     "en": "Higher food commodity prices can impact grocery retail pricing power",
+     "ar": "ارتفاع أسعار السلع الغذائية قد يؤثر على أسعار البيع بالتجزئة",
+     "ru": "Рост цен на продовольствие может повлиять на розничный сектор"
+    },
+    "name_i18n": {
+     "he": "סל מוצרי צריכה בסיסיים – חברות מזון וקמעונאות",
+     "en": "Consumer Staples Select Sector SPDR Fund",
+     "ar": "صندوق قطاع السلع الاستهلاكية الأساسية",
+     "ru": "ETF товаров повседневного спроса"
+    },
+    "price_at_alert": 89.86
+   }
+  ],
+  "id": "02765dd2a088"
  }
 ]

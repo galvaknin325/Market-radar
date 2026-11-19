@@ -124245,9 +124245,34 @@
    }
   },
   "category": "cyber",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnZ2Ml9NcE1sVjM3dl9FcVo1RVdTTmh6VkJGeVVxOE41NnJYVUtfNzBMVExMelpwZ2ZycGJqcG42NzlCMGF2MmhoSXZoX2hZb1lMR19mZGxLSXctTzRxRm5ZZXRXN2UyNlQzRmIwWEQ1djdjUFVpNUZjSmNjQmwzSjE1NjVSNm15Rl9TaVRGN01iZ0dvMDY2NndNVTMwTDdwelJjazdSOTZfX1Y1OUtRQXBobDliNE5NNFBFWlpDLWQ0ejJQa1NrUnRNbUwxNXN6?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ2t0T0RJU0xTSTJudFBpdTZtQ3REZlJ0M1RURTNOM28wQnRoWTNlVUxuZGdiSHMzVnJLVUZkUXFXM1YweDFsQmVMd3lFSEkxWWdWSFJLcG9Hc2ZDU1BzVUxTMHE5MEVTb3BwdVB1djJWRmUyQWRYaWlLTnc4Sk5Zd055QW9jRnh6cFRWUUhyNWJDQlZMQTQtNnpPd2dLVTE3cGJ4U2VYQjNpVEVHUVp2WDRTdmFySDBxNXFQV1R2MGtabUdRLU02S3Z3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGppUkVwUlJkeHRBQ0x4dDYtVXFfQ0c5WG5ELTdmanBiQ1hpaTE4cy1pQTNtRzdwaGU5NUZFY2RJdUVqR2VXSS1sa1lVMW1PeUszR0lhSWtvOHduVDlDYTg0TnRQcWhKRWl6dFVUSkFteXJIUk1FVTZ4SkFwOWJ0V1lmYUhDWWpPWEt0Q1pEd1BFeGRlMEw4dUVrWnQ3YVp6aHpualg5LUM?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVcyYWxfRjFaUjR6Wi1rRlBDemVlU1FPay01M1NQNnpHLXRrdzR5M1RQcEd1cUpFZEU5d1kwX1RtbjNSY21DNThwNDRDN1dUd2FsRXFlVXk4UW9RYUVTanYtd1pUdHhiWVNlcnpyajB0R0llb3pveDc3aDd4UGZWbTgyX1dIMm05czJGdEZham9aTl82ZUV4aHVFdTY?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRzdHWkpTY2JPTGFQdnU1YTk4UXRTdlhEZzFFdk5JS0FWYWhTeTRlLXp3WEhEd3RTWjUwV2xnUVVDbUpWQm1KMWxvOUJEUmtudzEtS0lGb2pOb0VhRnFzSmZreHc2cktydTdKSG5qVU9MTlNSYUhTQlVhR3NBUng1anYyTF92MGhEVElST1RjQnhVcDNRWWdaR3RYZE1GV3hteDFmSDdaUXJUbDhZaXY5MWMweVdJR29rTGdxNm9UUjlNVkdoOEVrcEF5VXNsRXhlXzNvLV8ycG8zU3RrbTQ5eWNVNWZiQ1NMdGptWHRVU29yUTI0M1pLU041MmhQWTRVRlhJSjhrcllaR3c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEFINUdzay1YQWE2Y29mcDdDV3RwNWdTQVBhZmlwMFZsVXNVWW13MTJhS0QyemdwMHVVYkx1YWpzc3U1ZEVnQmdQUjBaYldNa3U1ak9nZm5Pd2h4MEsyeF9TX3Rja3h6T2d5ejRLSDJCQWt2UnZvWDRBTjVxM3RNMHJmcnN3M0xtNWdXOW9ncDZOQQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "XLF",
@@ -124286,9 +124311,43 @@
      "ru": "CRWD – CrowdStrike (кибербезопасность)"
     },
     "price_at_alert": 243.46
+   },
+   {
+    "ticker": "V",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "חששות סביב אבטחת מידע של צד שלישי עלולים להעיב קצרות על המניה",
+    "reason_i18n": {
+     "he": "חששות סביב אבטחת מידע של צד שלישי עלולים להעיב קצרות על המניה",
+     "en": "Vendor data exposure incidents create headline risk and regulatory scrutiny",
+     "ar": "حوادث تسرب بيانات الموردين تخلق مخاطر على السمعة",
+     "ru": "Инциденты с утечкой данных создают репутационные риски"
+    },
+    "name_i18n": {
+     "he": "ויזה – חברת תשלומים גלובלית",
+     "en": "Visa – a global payments processor",
+     "ar": "فيزا - شركة مدفوعات عالمية",
+     "ru": "Visa – глобальный платежный оператор"
+    },
+    "price_at_alert": 402.25
    }
   ],
-  "id": "5df31c0bd89e"
+  "id": "5df31c0bd89e",
+  "updates": [
+   {
+    "ts": 1795128510,
+    "time": "2026-11-19T22:48Z",
+    "severity": 6,
+    "summary": "מתקפת סייבר שכוונה נגד ספקי צד שלישי פגעה בשורה של חברות ענק, בהן ג'יי פי מורגן, ויזה, סטארבקס ואחרות, וחשפה שמות ופרטי התקשרות של לקוחות.",
+    "i18n": {
+     "he": "מתקפת סייבר שכוונה נגד ספקי צד שלישי פגעה בשורה של חברות ענק, בהן ג'יי פי מורגן, ויזה, סטארבקס ואחרות, וחשפה שמות ופרטי התקשרות של לקוחות.",
+     "en": "A major cyberattack hitting a third-party vendor has exposed customer names and emails across prominent firms including JPMorgan Chase, Visa, Starbucks, and others.",
+     "ar": "أدى هجوم سيبراني استهدف مزود خدمة خارجي إلى كشف أسماء ورسائل بريد إلكتروني لعملاء شركات بارزة تشمل جي بي مورغان وفيزا وستاربكس.",
+     "ru": "Крупная кибератака на стороннего поставщика привела к утечке имен и адресов электронной почты клиентов JPMorgan Chase, Visa, Starbucks и других."
+    }
+   }
+  ],
+  "last_update": 1795128510
  },
  {
   "ts": 1795124981,
@@ -124391,7 +124450,16 @@
   "category": "geopolitics",
   "severity": 3,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZEEtLXh2MXBzVjUzYU5FTVFhYy1oN1FPNzBmbDNoYUh5MFVXU2FyZmlXUURtSVpoZVRjclBUTmVlamJ4MzZFNTE2UlhKTG9wdFp0WXZEYXJuVlpDWDdSVHpURUk0bW11cUpJc0dBWENLYTlXbFYxdnlJOFFzWmVHNWlXd1FldlFLTFhqeE1RSU5MV01JZzBqSER4a0hxUC1aRUVsVnNYUENsV3JFYjNJd042bXYwQlBjYVNoR04za21oS05oeUNTckdCWGFYMm1fY2Y4cXRlTjVmTWdPaHAySXNJSlV3d3lLaVdKUzJrRV9jQ0pjRm1MQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0VlNm84TFByWnlZM1RPeGVFNzhvMnVGcUN1Q1ZHcWxiaTdCUnh6YmI5dzVmbUJVMDVOLUM2VzNnMEhDVmE4UlItc0NqOU5pVWQ4cHZBME5MMlc4aGYzLUZBOGpDVmRzc3F4T2oxZzJKVTk5MlQ4RnlnNl9vVHFWa2d3OWpTZXp4MWEzUEladF9waklBWXlJV0pR?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "IBIT",
@@ -124411,8 +124479,351 @@
      "ru": "IBIT – биткоин-ETF"
     },
     "price_at_alert": 35.08
+   },
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "מעורבות רגולטורית אמריקאית ישירה בגופים פליליים מקומיים יוצרת רעש נקודתי",
+    "reason_i18n": {
+     "he": "מעורבות רגולטורית אמריקאית ישירה בגופים פליליים מקומיים יוצרת רעש נקודתי",
+     "en": "Direct US regulatory actions targeting regional groups add minor friction",
+     "ar": "الإجراءات التنظيمية الأمريكية المباشرة تضيف توتراً طفيفاً",
+     "ru": "Прямые регуляторные меры США создают небольшую напряженность"
+    },
+    "name_i18n": {
+     "he": "קרן סל אוסטרליה – מדד המניות האוסטרלי",
+     "en": "iShares MSCI Australia ETF",
+     "ar": "صندوق المؤشرات المتداولة لأستراليا",
+     "ru": "ETF Австралии"
+    },
+    "price_at_alert": 27.19
    }
   ],
-  "id": "bc2b0f095446"
+  "id": "bc2b0f095446",
+  "updates": [
+   {
+    "ts": 1795128510,
+    "time": "2026-11-19T22:48Z",
+    "severity": 3,
+    "summary": "ארצות הברית הטילה סנקציות חסרות תקדים נגד כנופיית האופנועים האוסטרלית קומאנצ'רו במסגרת מאבק בפשיעה חוצת גבולות.",
+    "i18n": {
+     "he": "ארצות הברית הטילה סנקציות חסרות תקדים נגד כנופיית האופנועים האוסטרלית קומאנצ'רו במסגרת מאבק בפשיעה חוצת גבולות.",
+     "en": "In a historic first, the US government has imposed sanctions targeting the Australian Comanchero motorcycle gang.",
+     "ar": "في سابقة تاريخية، فرضت الحكومة الأمريكية عقوبات تستهدف عصابة دراجات نارية أسترالية تدعى كومانشيرو.",
+     "ru": "Впервые в истории правительство США ввело санкции против австралийской байкерской банды Comanchero."
+    }
+   }
+  ],
+  "last_update": 1795128510
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "איראן מתכננת לפרוץ את הסגר הימי האמריקאי באמצעות שיירת מכליות נפט",
+  "summary": "על פי דיווחים בתקשורת הממלכתית, איראן נערכת לשלוח שיירת מכליות נפט במטרה לנסות ולפרוץ את הסגר הימי האמריקאי.",
+  "kid": "איראן רוצה לשלוח אוניות נפט דרך הים למרות הסגר של ארה\"ב. זה עלול ליצור עימות צבאי ולהקפיץ את מחירי הנפט בעולם.",
+  "i18n": {
+   "title": {
+    "he": "איראן מתכננת לפרוץ את הסגר הימי האמריקאי באמצעות שיירת מכליות נפט",
+    "en": "Iran preparing to break US naval blockade with 'oil tanker caravan'",
+    "ar": "إيران تستعد لكسر الحصار البحري الأمريكي بـ \"قافلة ناقلات نفط\"",
+    "ru": "Иран готовится прорвать военно-морскую блокаду США с помощью «каравана танкеров»"
+   },
+   "summary": {
+    "he": "על פי דיווחים בתקשורת הממלכתית, איראן נערכת לשלוח שיירת מכליות נפט במטרה לנסות ולפרוץ את הסגר הימי האמריקאי.",
+    "en": "State media reports indicate Iran is preparing a caravan of oil tankers to challenge and break the US naval blockade.",
+    "ar": "تشير تقارير الإعلام الرسمي إلى أن إيران تستعد لإرسال قافلة ناقلات نفط لتحدي وكسر الحصار البحري الأمريكي.",
+    "ru": "ГосСМИ сообщают, что Иран готовится отправить караван нефтяных танкеров, чтобы прорвать военно-морскую блокаду США."
+   },
+   "kid": {
+    "he": "איראן רוצה לשלוח אוניות נפט דרך הים למרות הסגר של ארה\"ב. זה עלול ליצור עימות צבאי ולהקפיץ את מחירי הנפט בעולם.",
+    "en": "Iran wants to send oil ships through the sea despite a US blockade. This could cause a military clash and push oil prices up.",
+    "ar": "تريد إيران إرسال سفن نفطية عبر البحر رغم الحصار الأمريكي. هذا قد يتسبب في مواجهة عسكرية ويرفع أسعار النفط.",
+    "ru": "Иран хочет отправить нефтяные суда через море вопреки блокаде США, что может вызвать военный конфликт и поднять цены на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWmpCVVpDeFVvQUNUQnFDeW9SSTZWYlRoaW44ZG1fODBlclRvN2sxcGd5bkRKZmZ4MGZhaGNURzJyMWZGWVFoVVdvdVdNbHRoX3pnN2lSb3BES1M2aUtEZ3pFUmowRUtpMmlJTUs0ZXJyNGxHajJSZGxyOUNISE9tbS1oY3pMN1NvMG9iTWNmdFV2MVNJYmNCZnZuLXVKS3FZeUlQRUVwRlI0VW5JZ2lQVHllX2UtS3J4UTQtcFZYaFF5VVBEZGFrYmQwOXZHM2FBNXYzZTRmLXRQMkdXUHN0U0daQk7SAeoBQVVfeXFMUFFnTVQzbzRiOWc4YS1JaFNNVHpUbjBsMXUxSDJOUUNTNTktdE9rWWZOQVdsM2s1V3Z5aTRoSDlmSWpmZXJ1eUxFekN3a3V5ajFqaHVXekRuQTQ4Ym9SNHplWnExa05TUHVzSGxINDBaQXB3ZDR2bXhrNDdlaVFBTDBQR1l5T0FHMHBIN29RY0dPYUFwdjRmQ2VZNWRrejVKcFJXZnZxMUVhNTloV1hXT1VKdEpwdjBBRm92cWdSRlhfQ1hqYTFVbklGVkNXTG0zQmNvR3cxd1YxcHFKbWpjUjZDSURQR0RwbDZ3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "חשש מפני שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה",
+    "reason_i18n": {
+     "he": "חשש מפני שיבושים באספקת הנפט במפרץ מקפיץ את מחירי האנרגיה",
+     "en": "Mideast supply route tensions elevate geopolitical risk premium for crude",
+     "ar": "توترات طرق الإمداد في الشرق الأوسط ترفع علاوة المخاطر الجيوسياسية للنفط",
+     "ru": "Напряженность на Ближнем Востоке повышает геополитическую премию за риск для нефти"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט גולמי",
+     "en": "United States Oil Fund",
+     "ar": "صندوق النفط الخام الأمريكي",
+     "ru": "ETF нефти"
+    },
+    "price_at_alert": 138.09
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "מחירי נפט גבוהים תומכים במניות ענקיות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים תומכים במניות ענקיות האנרגיה",
+     "en": "Higher crude prices directly benefit major oil producers",
+     "ar": "أسعار النفط المرتفعة تفيد منتجي النفط الكبار مباشرة",
+     "ru": "Более высокие цены на нефть напрямую идут на пользу крупным производителям"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל – חברת אנרגיה ונפט ענקית",
+     "en": "Exxon Mobil – a major US energy company",
+     "ar": "إكسون موبيل - شركة إاقة ونפט أمريكية كبرى",
+     "ru": "Exxon Mobil – крупная нефтяная компания"
+    },
+    "price_at_alert": 158.93
+   }
+  ],
+  "id": "999a4fc9e1b1"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "ג'נרל מוטורס צופה עלויות מכסים ותפעול בסך 5.5 מיליארד דולר ב-2026",
+  "summary": "יצרנית הרכב ג'נרל מוטורס מעריכה כי מכסים והוצאות תפעול יגיעו ל-5.5 מיליארד דולר בשנת 2026.",
+  "kid": "ג'נרל מוטורס אומרת שעלויות כמו מכסים יעלו הרבה כסף ב-2026. זה יכול לגרום למשקיעים לחשוב שיהיו לה פחות רווחים.",
+  "i18n": {
+   "title": {
+    "he": "ג'נרל מוטורס צופה עלויות מכסים ותפעול בסך 5.5 מיליארד דולר ב-2026",
+    "en": "GM expects tariffs and operating costs to reach $5.5B in 2026",
+    "ar": "جنرال موتورز تتوقع أن تصل تكاليف الرسوم الجمركية والتشغيل إلى 5.5 مليار دولار في 2026",
+    "ru": "GM ожидает, что расходы на пошлины и операционную деятельность достигнут $5,5 млрд в 2026 году"
+   },
+   "summary": {
+    "he": "יצרנית הרכב ג'נרל מוטורס מעריכה כי מכסים והוצאות תפעול יגיעו ל-5.5 מיליארד דולר בשנת 2026.",
+    "en": "Automaker General Motors expects tariffs and operating cost increases to reach $5.5 billion in 2026.",
+    "ar": "تتوقع شركة صناعة السيارات جنرال موتورز أن تصل زيادة الرسوم الجمركية وتكاليف التشغيل إلى 5.5 مليار دولار في عام 2026.",
+    "ru": "Автопроизводитель General Motors ожидает, что рост пошлин и операционных расходов достигнет $5,5 млрд в 2026 году."
+   },
+   "kid": {
+    "he": "ג'נרל מוטורס אומרת שעלויות כמו מכסים יעלו הרבה כסף ב-2026. זה יכול לגרום למשקיעים לחשוב שיהיו לה פחות רווחים.",
+    "en": "General Motors says tariffs will cost them billions. This could make investors worry about lower profits for the company.",
+    "ar": "تقول جنرال موتورز إن الرسوم الجمركية ستكلفهم الكثير. هذا قد يجعل المستثمرين قلقين بشأن انخفاض أرباح الشركة.",
+    "ru": "General Motors говорит, что пошлины обойдутся ей дорого. Это может заставить инвесторов беспокоиться о снижении прибыли компании."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaGVQSEpnWExRVzlkU3pxbWhreHBFOGhMTHBQMDB3akFjbEVrMXg5S3R0OFVWcjJ5ZnVsVU5TTE9BLWJmektfQ0l2bTVNSmhxR2NaZjFiMUY1UjdvN2tESmNNRHRqbXFyb3B1V1BRazVfYU9xNVBKSmlPbkJwcjhfVWZFVEtyM281TjNxQWRXdG5jLWhmVTJlSDNLb3ZjcHgwODZKQVpmY3hXNmM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GM",
+    "direction": "down",
+    "t0": 1795128510,
+    "reason": "עלויות צפויות גבוהות יותר עלולות לפגוע ברווחי החברה",
+    "reason_i18n": {
+     "he": "עלויות צפויות גבוהות יותר עלולות לפגוע ברווחי החברה",
+     "en": "Higher expected operating costs and tariffs may weigh on profits",
+     "ar": "التكاليف المتوقعة الأعلى قد تضغط على الأرباح",
+     "ru": "Ожидаемые более высокие расходы могут оказать давление на прибыль"
+    },
+    "name_i18n": {
+     "he": "ג'נרל מוטורס – יצרנית רכב ענקית בארה\"ב",
+     "en": "General Motors – a major US automaker",
+     "ar": "جنرال موتورز - شركة تصنيع سيارات أمريكية كبرى",
+     "ru": "General Motors – крупный американский автопроизводитель"
+    },
+    "price_at_alert": 81.75
+   }
+  ],
+  "id": "b910ea4eeedf"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "מקסיקו מבקשת עסקת G20 עם טראמפ להפחתת מכסי רכב ומתכות",
+  "summary": "מקסיקו פועלת להגיע להסכם עם ממשל טראמפ בשולי פסגת ה-G20 כדי להפחית מכסים על רכבים ומתכות.",
+  "kid": "מקסיקו רוצה לדבר עם טראמפ כדי להוריד מיסים על מכוניות ומתכות שנסחרות בין המדינות. זה יכול לעזור לחברות רכב ומסחר.",
+  "i18n": {
+   "title": {
+    "he": "מקסיקו מבקשת עסקת G20 עם טראמפ להפחתת מכסי רכב ומתכות",
+    "en": "Mexico seeks G20 deal with Trump to cut U.S. auto and metals tariffs",
+    "ar": "المكسيك تسعى لعقد اتفاق في مجموعة العشرين مع ترامب لخفض الرسوم الجمركية على السيارات والمعادن",
+    "ru": "Мексика добивается сделки с Трампом на G20 по снижению пошлин на авто и металлы"
+   },
+   "summary": {
+    "he": "מקסיקו פועלת להגיע להסכם עם ממשל טראמפ בשולי פסגת ה-G20 כדי להפחית מכסים על רכבים ומתכות.",
+    "en": "Mexico is seeking a deal with Trump at the G20 to reduce U.S. tariffs on automobiles and metals.",
+    "ar": "تسعى المكسيك للوصول إلى اتفاق مع إدارة ترامب على هامش قمة العشرين لتقليص الرسوم على السيارات والمعادن.",
+    "ru": "Мексика стремится заключить сделку с администрацией Трампа на саммите G20 о снижении пошлин на автомобили и металлы."
+   },
+   "kid": {
+    "he": "מקסיקו רוצה לדבר עם טראמפ כדי להוריד מיסים על מכוניות ומתכות שנסחרות בין המדינות. זה יכול לעזור לחברות רכב ומסחר.",
+    "en": "Mexico wants to talk with Trump to lower taxes on traded cars and metals. This could help cross-border trade and automakers.",
+    "ar": "المكسيك تريد التحدث مع ترامب لخفض الضرائب على السيارات والمعادن المتبادلة. هذا قد يساعد التجارة وقطاع السيارات.",
+    "ru": "Мексика хочет договориться с Трампом о снижении налогов на торговлю автомобилями и металлами, что может помочь автопроизводителям."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSkllMmZKZ0s1OU1Wd2ItOGpVN1ZfV0VDcXN3VVpQYU52X284Z1FPdkw0SzNrVm0ybHdMNkhYSlVaazgxejlXUXJUWDl6NFFpOGNmQ1BhLTFpU09BaWc1TjYzeWxJUXkySGZsaV9SdjdkT0dPblFnSmVNcHVVbEh2ZFRpUnJfMEJCZGFFZmZnYlNRYlI3VXc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWW",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "הפחתת מכסים פוטנציאלית תיטיב עם הכלכלה והסחר של מקסיקו",
+    "reason_i18n": {
+     "he": "הפחתת מכסים פוטנציאלית תיטיב עם הכלכלה והסחר של מקסיקו",
+     "en": "Potential tariff cuts would boost cross-border trade and Mexican assets",
+     "ar": "تخفيضات الرسوم المحتملة ستدعم التجارة والأصول المكسيكية",
+     "ru": "Потенциальное снижение пошлин поддержит торговлю и активы Мексики"
+    },
+    "name_i18n": {
+     "he": "קרן סל מקסיקו – מדד המניות המקסיקני",
+     "en": "iShares MSCI Mexico ETF",
+     "ar": "صندوق المؤشرات المتداولة للمكسيك",
+     "ru": "ETF Мексики"
+    },
+    "price_at_alert": 72.52
+   }
+  ],
+  "id": "90ca1c14b7d3"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "חיל האוויר האמריקאי פונה לחברות פרטיות פיתוח טילים לטובת חימוש זול יותר",
+  "summary": "חיל האוויר האמריקאי החל בשיתוף פעולה עם סיירה נבדה (SNC), אנדוריל וקסטליון במטרה לפתח ולקדם טילים זולים יותר.",
+  "kid": "צבא ארה\"ב מחפש דרכים לייצר טילים זולים יותר בעזרת חברות חדשות כמו אנדוריל. זה יכול לתת לחברות האלו יותר פרויקטים וכסף.",
+  "i18n": {
+   "title": {
+    "he": "חיל האוויר האמריקאי פונה לחברות פרטיות פיתוח טילים לטובת חימוש זול יותר",
+    "en": "US Air Force turns to SNC, Anduril and Castelion for cheaper missiles",
+    "ar": "القوات الجوية الأمريكية تلجأ إلى شركات خاصة لتطوير صواريخ أرخص",
+    "ru": "ВВС США обращаются к частным компаниям для создания более дешевых ракет"
+   },
+   "summary": {
+    "he": "חיל האוויר האמריקאי החל בשיתוף פעולה עם סיירה נבדה (SNC), אנדוריל וקסטליון במטרה לפתח ולקדם טילים זולים יותר.",
+    "en": "The US Air Force has turned to private defense firms SNC, Anduril, and Castelion in a push to develop cheaper missile alternatives.",
+    "ar": "اتجهت القوات الجوية الأمريكية إلى شركات الدفاع الخاصة SNC وAnduril وCastelion لدفع عجلة تطوير صواريخ أرخص.",
+    "ru": "ВВС США обратились к частным оборонным компаниям SNC, Anduril и Castelion для разработки более дешевых ракет."
+   },
+   "kid": {
+    "he": "צבא ארה\"ב מחפש דרכים לייצר טילים זולים יותר בעזרת חברות חדשות כמו אנדוריל. זה יכול לתת לחברות האלו יותר פרויקטים וכסף.",
+    "en": "The US military wants to build cheaper missiles using newer defense firms like Anduril. This could mean more business for them.",
+    "ar": "يريد الجيش الأمريكي بناء صواريخ أرخص باستخدام شركات جديدة مثل Anduril. هذا قد يعني أعمالاً أكثر لهم.",
+    "ru": "Американские военные хотят создавать более дешевые ракеты с помощью таких компаний, как Anduril, что принесет им новые контракты."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTNtamdMaElWdTRxdDN4UW9RVmFIZ2lyWFdhTE9lNzZYb2p3MkV3MTdwekduY2hqWnNWdWVPT1RPS2s3WndfZWhlYy1uVGNEQnZ0ZGRiMHUtNHVaZWRFR3h5b3I2MDZyOUNLdjlMQ29HVXVsc1FSWC0tdW54LU1OMGZ6TVE2dm5pSlJ6QXZJcnhHUUgwVkk2TUNLWmNqWnlBUk9hcUVaM3JWMEdOenpfc1QyeGRmSUtRX0lTVDBFUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "השקעות חדשות בטכנולוגיות חימוש תומכות בסקטור הביטחוני",
+    "reason_i18n": {
+     "he": "השקעות חדשות בטכנולוגיות חימוש תומכות בסקטור הביטחוני",
+     "en": "Defense tech spending diversification highlights sector growth",
+     "ar": "تنويع الإنفاق التكنولوجي الدفاعي يدعم نمو القطاع",
+     "ru": "Диверсификация расходов на оборонные технологии поддерживает рост сектора"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון בארה\"ב",
+     "en": "iShares U.S. Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.2
+   }
+  ],
+  "id": "f87ee3441a63"
+ },
+ {
+  "ts": 1795128510,
+  "time": "2026-11-19T22:48Z",
+  "title": "שפעת העופות אילצה את יצרנית הביצים הגדולה בארה\"ב להשמיד 1.8 מיליון עופות בפלורידה",
+  "summary": "התפרצות שפעת העופות הביאה להשמדתם של 1.8 מיליון עופות אצל יצרנית הביצים הגדולה בארה\"ב בפלורידה.",
+  "kid": "מחלת עופות קשה גרמה להשמדת מיליוני תרנגולות בפלורידה. זה עלול להעלות את מחירי הביצים בחנויות.",
+  "i18n": {
+   "title": {
+    "he": "שפעת העופות אילצה את יצרנית הביצים הגדולה בארה\"ב להשמיד 1.8 מיליון עופות בפלורידה",
+    "en": "Bird flu outbreak forces largest US egg producer to cull 1.8M birds in Florida",
+    "ar": "إنفلونزا الطيور تجبر أكبر منتج بيض أمريكي على إعدام 1.8 مليون طائر في فلوريدا",
+    "ru": "Птичий грипп заставил крупнейшего производителя яиц в США уничтожить 1,8 млн птиц во Флориде"
+   },
+   "summary": {
+    "he": "התפרצות שפעת העופות הביאה להשמדתם של 1.8 מיליון עופות אצל יצרנית הביצים הגדולה בארה\"ב בפלורידה.",
+    "en": "A severe bird flu outbreak has forced the largest U.S. egg producer to cull 1.8 million birds in Florida amid rising cases.",
+    "ar": "أجبر تفشي إنفلونزا الطيور أكبر منتج للبيض في الولايات المتحدة على إعدام 1.8 مليون طائر في فلوريدا.",
+    "ru": "Вспышка птичьего гриппа заставила крупнейшего производителя яиц в США уничтожить 1,8 млн птиц во Флориде."
+   },
+   "kid": {
+    "he": "מחלת עופות קשה גרמה להשמדת מיליוני תרנגולות בפלורידה. זה עלול להעלות את מחירי הביצים בחנויות.",
+    "en": "A bird disease caused millions of chickens to be culled in Florida. This could make egg prices go up in stores.",
+    "ar": "تسبب مرض الطيور في إعدام ملايين الدجاج في فلوريدا. هذا قد يؤدي إلى ارتفاع أسعار البيض.",
+    "ru": "Болезнь птиц привела к уничтожению миллионов кур во Флориде, что может поднять цены на яйца."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeEdWdDBpeS14LUxrZENfUV9DaWVaVFBkdk1ELUcyUmVrcVBqV3oyREFJVF9BamNQUmxadTl2S0F3ektVdjVjNmlQZFl4QlFPVkdrOWVxeFNiM2NTU29jYlVlRkdpMmJ5VmZTRm82My1hQldvWFFuMmlXS1RGekc2MW04ZUljYzVmUzZSQ0tfRlBJVDM4OHVBSjBFbEdKYUZNSDZ4ckhFa0M5MHZuRXYyOGM1NnpRZG0wRVVZazNteUFiZGxZX3cxbzcyV1NtREp0VGlXQXd1M09Gb1k0bEVaejFNWEhaX1piUkhsVl9kRmdPM3FrTFdjbTVKclNtaHRYLXfSAYcCQVVfeXFMT0J2dDc4bV9FLXdwWTFWYWNSTEZkdnBqdndzT295bkJ5bXlob0ZZeGRDbUFmR251S0labTVyQjNFQ1d4bEYyY2RlOVhQa1dKTUprblRqVnlPT2RlMVFZZjgwMDhWQzJkNndNc1FFQnBaTURsbFFCZThvMmVpX1dJWDV0X2ppUm96eVBkekotdjFZZERqMXhTVmVLN2xHcXlRMXVzREdRdXlHay1aM0hoSDI0VTVZNmdsUHRDaXNPUW1vN1pPZGh0V2dTV1BXRjBaNTMxRUwyd0liRUFjdHRkWEI1b0pnU1RSOXZSQkJvd0g0dWlja0U1MlF1QzQ2Z2E2VmN0RS1JNDg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLP",
+    "direction": "up",
+    "t0": 1795128510,
+    "reason": "עליית מחירי מוצרי יסוד כמו ביצים עשויה להשפיע על חברות המזון",
+    "reason_i18n": {
+     "he": "עליית מחירי מוצרי יסוד כמו ביצים עשויה להשפיע על חברות המזון",
+     "en": "Higher food commodity prices can impact grocery retail pricing power",
+     "ar": "ارتفاع أسعار السلع الغذائية قد يؤثر على أسعار البيع بالتجزئة",
+     "ru": "Рост цен на продовольствие может повлиять на розничный сектор"
+    },
+    "name_i18n": {
+     "he": "סל מוצרי צריכה בסיסיים – חברות מזון וקמעונאות",
+     "en": "Consumer Staples Select Sector SPDR Fund",
+     "ar": "صندوق قطاع السلع الاستهلاكية الأساسية",
+     "ru": "ETF товаров повседневного спроса"
+    },
+    "price_at_alert": 89.86
+   }
+  ],
+  "id": "02765dd2a088"
  }
 ]
