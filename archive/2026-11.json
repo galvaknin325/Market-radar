@@ -128122,12 +128122,16 @@
    }
   },
   "category": "policy",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/20/us-senate-passes-bill-to-speed-up-energy-project-approvals?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -128170,7 +128174,22 @@
     "price_at_alert": 160.69
    }
   ],
-  "id": "f113d0b339b1"
+  "id": "f113d0b339b1",
+  "updates": [
+   {
+    "ts": 1795192080,
+    "time": "2026-11-20T16:28Z",
+    "severity": 6,
+    "summary": "הסנאט האמריקאי העביר חקיקה שמטרתה לקצר את הליכי האישור לפרויקטי אנרגיה ולהגביל אתגרים משפטיים.",
+    "i18n": {
+     "he": "הסנאט האמריקאי העביר חקיקה שמטרתה לקצר את הליכי האישור לפרויקטי אנרגיה ולהגביל אתגרים משפטיים.",
+     "en": "The US Senate passed legislation aimed at speeding up energy project approvals and limiting court challenges to lower energy costs.",
+     "ar": "أقر مجلس الشيوخ الأمريكي تشريعاً يهدف إلى تسريع إجراءات الموافقة على مشاريع الطاقة والحد من التحديات القانونية لخفض تكاليف الطاقة.",
+     "ru": "Сенат США принял закон, направленный на ускорение утверждения энергетических проектов и ограничение судебных исков для снижения затрат на энергию."
+    }
+   }
+  ],
+  "last_update": 1795192080
  },
  {
   "ts": 1795149077,
@@ -129915,6 +129934,18 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVGhlRDh5YTB4S2pQOUVxZUI4amdiSXhudnc1ajZidXE5VGtzb3NVY2RfQ3lPOF9lMGJMcFA3Qmdha2lDbGM1NmNYdUtRVzlHaTNVY1ZQclRqd3g3TVRGS3VrZ2JYRG80TF9FM0tVRzFXdm5nLUZKeTItUklMaHNlNHhvRW9YclBHRktZTlFjQ2MzbENZYTR4RnZCcElEdjdyU0RwTTFoR0p0M2o5N2M4UzBuMDIzS0RYWEd1cjBUbXU?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmhRcS1IeG9mZFZEYWRoY09QSDhxUWlXUUo1ZEhLU3J4SV9vLWFtUTRsUzVqbjhVZk8xZ21HQUh0dGpxZHFCSnlFV3lvNU1uU1pPNHZFZkdDMFh2WG5EVGhyMlhWLVBqelNWMWkwakY2b19ndWh0UHNOLWhHWVZtX3E5dG9VTFpEOENjNGJ3ODFoLW1qZE9tS2kyOHlyYzJQRDVR?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xUE8wY2FmUUkzd3o1T3pBTXlSS0dvVnhrSzZqX2xTb0c5bXlHN0lOdkpON0NMVzJfaW9JWldzUXFtRThsTHRuZno3MmVSYUxxWFJN?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFJqWDlwb1RhVFBTYzhpQ3dZUmRMeElOQmhSZjhqb29sTUhGa0Z5eEc3ZlppNzkzR2dOcWJ6ZDlfS0k0bDRIeUFpU2ppTG1ZYWNfU3RQd1ZxNVFxQ2N3STdEVzVDTlBJdGZLaUlTUEtXOC1DcWoza3M4dFI0NG1oaEgwcFVFREtyT05mNmFmX20zSzk2aTFYblVFUG5WamoxRWUyb1JpaW5jbFJfajBTU3NMY0FCd1NtU3dVcWZFbw?oc=5"
    }
   ],
   "impacts": [
@@ -129974,6 +130005,25 @@
      "ru": "Visa"
     },
     "price_at_alert": 406.845
+   },
+   {
+    "ticker": "JPM",
+    "direction": "down",
+    "t0": 1795192080,
+    "reason": "חשש מנזק תדמיתי ועלויות אבטחה",
+    "reason_i18n": {
+     "he": "חשש מנזק תדמיתי ועלויות אבטחה",
+     "en": "Concerns over reputation and security costs",
+     "ar": "مخاوف بشأن السمعة وتكاليف الأمن",
+     "ru": "Опасения по поводу репутации и расходов на безопасность"
+    },
+    "name_i18n": {
+     "he": "ג'יי פי מורגן",
+     "en": "JPMorgan Chase",
+     "ar": "جي بي مورغان تشيس",
+     "ru": "JPMorgan Chase"
+    },
+    "price_at_alert": 316.1
    }
   ],
   "id": "0a8944ca802f",
@@ -129989,9 +130039,21 @@
      "ar": "أكدت شركات بطاقات ائتمان كبرى، بما في ذلك فيزا وماستركارد، تعرض مزود خارجي لهجوم سيبراني، مما يثير مخاوف بشأن أمن البيانات المالية.",
      "ru": "Крупные компании по выпуску кредитных карт, включая Visa и Mastercard, подтвердили кибератаку на стороннего поставщика, что вызывает опасения по поводу безопасности финансовых данных."
     }
+   },
+   {
+    "ts": 1795192080,
+    "time": "2026-11-20T16:28Z",
+    "severity": 5,
+    "summary": "ג'יי פי מורגן, ויזה ומאסטרקארד דיווחו כי ספקים חיצוניים שלהם נפגעו במתקפת סייבר שחשפה פרטי לקוחות.",
+    "i18n": {
+     "he": "ג'יי פי מורגן, ויזה ומאסטרקארד דיווחו כי ספקים חיצוניים שלהם נפגעו במתקפת סייבר שחשפה פרטי לקוחות.",
+     "en": "JPMorgan Chase, Visa, and Mastercard reported that third-party vendors were hit in a cyberattack, exposing customer emails.",
+     "ar": "أبلغت جي بي مورغان وفيزا وماستركارد عن تعرض موردين خارجيين لهجوم سيبراني كشف عن رسائل البريد الإلكتروني للعملاء.",
+     "ru": "JPMorgan Chase, Visa и Mastercard сообщили, что сторонние поставщики подверглись кибератаке, в результате которой были раскрыты электронные адреса клиентов."
+    }
    }
   ],
-  "last_update": 1795188440
+  "last_update": 1795192080
  },
  {
   "ts": 1795175739,
@@ -130233,27 +130295,27 @@
   "sources": [
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnZVUldUUzgteDNwSU5HWi1iQVE0X2VRU1FNMmhxekZ6YzU2TnpxSTVhUHpuaGg0cjhsamVmeS1tWnlCXzR3M1VWRGpmQ2U3QXdmbmhmVHpfdml0NUFibTV2UWVKbjA2OV8yUEE4WVpxdUpNTk9CUkx1ZVNLYmlMRjZFVnk3dzBDSkw1djZnZU1RSDFrck9fbmEtMA?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzVVMDN2bGR2TWlzcFFnTGJiMFNLZ3RGejlGSDRqYkhxRHR4YkF5dUUtejI3aEhsTS1aTFlibHJMQXN0UmhETl9ZV2JTLVVUN1N3LTRwb0dBWUdHTXdkN05fWDd4UmlzSHR2RmtVNzQ3TEZzS0dJU0lzaktEVzNmVk1uMzVDYlVCVjMyR0xPSEFpdjBZOWtBd2wzZmM?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3JSWjhET05kcDBPNVA4czlZb251c0tSN1F5MGJjZ1NkQXdRYm11NGp0SDNtNzBNejg3cHgtejlkbUtvZWhYZzdQSXUzQ3QtdjdfUjcwNlFYWE9ZYnhmSEd0SDJtcEFfeVpRUnN1UzJ1YUZTcUZiZTN1ZWJrYlB2Umljb3ZLNWV0TzFsZjUwUHJlVmdneXdPLUlWeGNpNXlrcmtZbXRjaGNsdzTSAbMBQVVfeXFMTmRTcDN1RlVBakJObHI1VzljQVo3YlFVM2NuUGg0YTBaQ3N5ZVFfRHF0WU44WFhGTEFieEFEOUo5YWkyVlZKMnVFNzFjOGNQVTN0MWw0azgxWEF5UDVPM1F3MjRWTnlZSVMwVFhGRVFkLXktV1VOUkxubHplcGRNandBdGZFbU80bzlfTm13T2phemRmUFBZUTNsMmt4Zm50V0tnNHRfVjM1aENRLW9Mc0t1TFE?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMlZYM3lIWXdxLUUyZ2l3SVFfaklZelRzTXZMMG5YUnRkN3BzdHZWNk1CdkFwMVNNOG9sbDdRNFRycFZpcXBVVERqUEFkQ3BEa2h6dEJKYU4zRi10RHpscXpQQnNUMnVaR0xNcGczejJBQXNtQXdIMW9HNmtSVV9BRXBqNUhRakVVZHFOT2FKTEo?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPbnFlVkVnRFVwWG9JWGRRZnFPWnN6MTFQamJabXVmMDN1VHVDdlgxX2lEUWhzVXdhVnRLMTdyV2NUVXlEWS01WnFOcEZ5alN1TnFuWDhRX0JpdHB2dGd0dW9ZSW40VmRqS1VTZU5rUTR4aHR6Uk01bDBjMG1EVFZxSDltYVRNOGdsUkdrVnF4Vzh6Zy1fRkJFRlJoa0lDMGtPb3dlUjlqQ2lHRXlUWmhwU0VSWGVsUno3bkxSOWNyNmlDLXpKWUp3aGNULXNjdXJUY3FUUHRsYnpXbGhibjVyeU94aUVYdWtPX05zSUZwNjdCX2ItUVBmMGV6RlNQZEF4NEx0UkhPcGxwd9IBigJBVV95cUxQR0Y3OFFuaXY3bHo0Q2xzaFl2djNocGdmUHEtYUJoS0tOREthU3lwcUtwREptYVliNWZPLU9aSVNjWHVYMkRIbjVWXzRuc204YXN5VHVvbVNndXA4Ukh5LWtvUXQtUnM2bndtQ3NUMWFqamF1TEVxbUtFMm5ZeWNUWTFMblNtT09UTXZOb1BybnEzZElHdkp2Q1h6LVNpMV9hbngtUUswZFNlc1NsSFpxbVBlU2pPQnVELS1EdnRlSVphcE13cHVzV3lzUlAtN1Z6d2FFZGl2b2x2WGt3SGxPUFZTcVZpSTQ4eFV0d3Zsd0ZvMV9TSXBJemVLLTRERTJZNGdEZlVrMDZZQQ?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTldMeExuMHpSWUkzRFFOQkVibFVnWkpuMi1rRGgzRmJuaEZkREsxV3hhbFRyN05WVDRLOEJQQXFVeXJWVWRGNEJQeGZia0p6eFV1SXlkTTBlU0dhZ0haYUZseVBSOEFQRVlmTFdfSTNjcEhoLVEwUWhZWGJKSUE3MkxVSUdiczJqTnRfLTZZNDJLdWllSGt5UlliRlJ3MC1Jb1h1MkE5NldDV2p1M01tcVlxWGZuNXVVMXRZdk82Q19ZQ0RJT0tENFZ3?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSGV6d3EyQ0J5MnJPUm5WUHkybFUwOVRrdXk3UG1ZM1VJcVRTYV9reldsWDNvNzNKUUVJa04tTVlfTW5QNTVMd3pvQnlzenlPRGR6cE1JaldDUzFUTUZHcTlfdVAyZkEtd0RzUkNjU3pNVFpORnRxLW0zY3VVS2VNdFZFd05sb0VjcExmVzNjVXJpdFdVTHRpVmYwUllxWmFiYzRydUVPWU5HN1M5NTVuQg?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HWUlDclIzSnRxaWtXbjFQZnh0aURTR2MyWU5sZ0pONnF6UlU5UmlmUVFXZFJQd2ZkWnFORmd6TTJXQ2xrTWp4VkcyM181dTMwN2tsVTlPbHlKOF92SGw4WE5kc1hTTmFvWVl6NtIBbEFVX3lxTE1CTlVNZ0UyMEVhVFc3TGJoYmZ1ZnNrNWJGdWNFZmhfSEwxUDBubzJ0TUNzQ0RLbE5MYjBhaTh6LXBHYTZmUXVEVkM3RVVvcS0yUy1iZUxTRFdfcGZsRnJtMXUydkJfR2owT2ZtNg?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaHdOM2xPMkF1VW5jRllKMnFmZ1BMUkVUblZiOVplSWVnOWFGdms1QUpPUkpZZ2x6UkRoZ0cxTUdrclBHYlZocXJTeGhGbGZGTnExMGlORWU2TDhjVkd2OEVTbTZLZ29YUFNfUG5MOXJ6ci1vTExFWGJKdEFVb3QweXQwWHlaU09iTUJfMFlnSXRFdE1mRWpETG56WTlkMXJQVFpVQ1NsV280djlpbHZqY0RTNEo5OTRKZU1nckk1ck9tZnNZT1NQakNoYVdSYkhZSEtlLUh2blFDalo2aV9BejBjaVltbkhJNWdQYVRTQ0pXbkRPMmZKZDI1dmstUlXSAYQCQVVfeXFMT0pIbzczTmxJTWlYOHNoYWVsZllDZnA1UXpiSDJrTEhWc3g2aXN0X3piNUhKaGw5aTVRV0ItSEZhaDI5dzN2cDlDQmNxWFQxYi1uMjJXMkRIMEdra2FfeS1TT1JTSnlQbnBSRFA0SDhVRFY4Z3NxYjdPMV92R2pQb0x1ekx6d1RXNXlWamQyY2hVSDFBa2hZdVJmWldVUHFVTzI3MU1SS0pka3lLT3ROMjJHY01sZnJsVnhTbFBnSGpwWjRBaVo3SmFySkZ6dnIyUU54R18xSmR6XzJuZklJMTdfa05xdVA3RExicGh5RERta2E2aVVsMW1lVWJKX3J0Z1pyNXU?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVllHMnVXR3I5Q2xDYy02SGhzRnE3emZhWE5PSm51MnlMTGxJZFVqdHRqVU1uN1JVcFVEbzA2YW5yOXZuYkF5Ung1dDNDV093dWktNXZzWEc1UXlDbGhiMDhmMVlHeVRudmtiT3IycXNwbWg4TVhRcVNLcFVwVDNvQWpDb2VmN21vZ0g0OUt2SjFiZVZaU2VUMVNHS1JOdDQwVmc1ZzNLcnZuNDl1SE5ubkVsc2dBRTJKUzNVSVF1NjBxRHdwWXJhV25EZ1BJX25lYXdQNg?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoLXJYc1FXbUtjWXUxeEN6V2tfaDkwWkhYNGxOSF82bXg0a0FZYVM3Qy1FTG5XLTdVbjdGbGpHclZLaTBkeFZQdi1PSUJJak1HeDM5NjRKSnBVX21tVXhXWDNVVGdjNlVU?oc=5"
    }
   ],
   "impacts": [
@@ -130309,9 +130371,21 @@
      "ar": "ضربت زلازل تتراوح قوتها بين 4.2 و 5.1 درجة منطقة لوس أنجلوس، مما دفع السلطات لإجراء عمليات تفتيش طارئة.",
      "ru": "Землетрясения магнитудой от 4.2 до 5.1 произошли в районе Лос-Анджелеса, что привело к экстренным проверкам в городе."
     }
+   },
+   {
+    "ts": 1795192080,
+    "time": "2026-11-20T16:28Z",
+    "severity": 4,
+    "summary": "רעידות אדמה בעוצמות של עד 5.0 הורגשו באזור לוס אנג'לס, מה שגרם לבהלה ולדיווחים על נזקים.",
+    "i18n": {
+     "he": "רעידות אדמה בעוצמות של עד 5.0 הורגשו באזור לוס אנג'לס, מה שגרם לבהלה ולדיווחים על נזקים.",
+     "en": "Earthquakes up to magnitude 5.0 rattled the Los Angeles area, causing panic and reports of minor damage.",
+     "ar": "شعر سكان منطقة لوس أنجلوس بزلازل بلغت قوتها 5.0 درجات، مما تسبب في حالة من الذعر وتقارير عن أضرار طفيفة.",
+     "ru": "Землетрясения магнитудой до 5.0 ощущались в районе Лос-Анджелеса, вызвав панику и сообщения о незначительных повреждениях."
+    }
    }
   ],
-  "last_update": 1795184520
+  "last_update": 1795192080
  },
  {
   "ts": 1795184520,
@@ -130345,11 +130419,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZaWw0bk5fcTFTLWw0RktEcTZraU1OUF9PbHpfZUE5NHQ5TjNqYWlhLXFneWxuZDllNHdMNGVRYy1ka1FwZ1gxZElVeUxqekpVcVE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk5ZM21TcWtfTFBPYXlhLVdmUmZHQk9JZ1NvS1h3RmNuME5EVnRsOWV4WmdyMDB1d3BubHNoZzA1OEl5YjZKQkx4ZzFwX3NBYzlqLUlJR1ctNnU2OGs5NVFMMUVqRko0RVFiMVFvWGJMZzhpM0VIZkxHQXJTOFZ5blhZR3JHRE4zaktj?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa0d4dmdKbXhOekQtSlIzcUxDaHRtQm5oa1dpanRiVEJxa2lDazZaaHJ6LWtaTUZKem81UE5FdkhPejBwcERBS0htelFFQzRnVVh1WUhyOU1CQVNQY0pWQUZMUFlTLWRac0lrV2xaNHlIdkJaVW1neEVmbHlFa1Z2dVcwN3dRTkctR3YySzVYeVpIaHNvVVBDTnV0ZTl0M29pMzFwUWpmbjZkUzFPWkdVMDZmajhEOHhraGRVZFNOWQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR3laLW4xQzlMNnM3bUNiaFM5OVExSGo1TnNhQjFWNkRwMHNVTFpNNTNiR1hudGJDUW1JclNmbDBVcFZpZ3VsYVJKeTltOHFsNmJWWEo4azgxUWxuU0lGMDY1V004eVdwVExCTEJjZjlNaVpoNHJ4TDFzb1JaZklxT1BfWmR3Y3ltV0lFOWZIUWVveDJyQWxYcTVocG5XbXAtRi01WjdTRnd5ek5lWHhheG9YazVXLXFxUTI2T3pRRDA2N3JkcV9mTXRpVFQ0UlpCLXFra2hpQ1R3dUsyTjIxUg?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk5ZM21TcWtfTFBPYXlhLVdmUmZHQk9JZ1NvS1h3RmNuME5EVnRsOWV4WmdyMDB1d3BubHNoZzA1OEl5YjZKQkx4ZzFwX3NBYzlqLUlJR1ctNnU2OGs5NVFMMUVqRko0RVFiMVFvWGJMZzhpM0VIZkxHQXJTOFZ5blhZR3JHRE4zaktj?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XNnIzWFktMW11d2hRbk1DbVgwLXRFNFdMN09sSWc2OVN4RVFCRXYtVVRvc3R1UmEtYVJ5eGhaVGxPS240V0xYZnd2YVdrZEI4TjNn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aV3hacEdkOVdHbG9fLV9MeGNfTnlSbW1pMVlFSEh6bXRtX0J6TmFZTFJKaHo4dlJkcWk5ZHpHYm9MbE1taWthZjQzUld6SnBOY1lhcVFuRWJ4X2g3bDdxYzVYZTk4aEdsQUx4bFdvN0FmQUNFa25PVjQwYw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU2ZBYWlzR0pJd1lXamo4dG5CQ3BacmloU21Ta1BONVF3T1FZUHNhSFJuTWtHUW44VXplR2lNZmcwb0dRNFIyaFlXRE5Mak1ncTNMM2l2MXpYWHBkNWJxbktqbC00d3F1QkZGNExSMjJIOENiRkdSQlJKYVRZeGstbm5TcUlpTzcySlRzZlI4TVF4MGUwZmFmemh6ckYtajZnczFLdHZlcHBSX1E0WWdUMk56NHlERmw3YXNxNWxGcjVDZXc1UV9R0gHMAUFVX3lxTE52Vk1DcG04cDlFZzBfdGNXaF9IVmVvYXUwYVJ0Q2x2R0RMVTVFRDh1aFRXZ2lnck90LWJzbk5lZHZwZzR6cGZMRndEVEUzV2JFTjFCQVd2akJ2aHJiWTZvWUNWVng0WXUyUDhBc3c4QWJHRzBvWTd1dTdsTEdrV2dDOEFpelBPNjNhdDd0VkxTbWF0MXltck5zRHR2VXJFUFRYTHNoLW9HZ1lzN05kRDV6elRkd1BkZUhkMUx0TzVxRUJhY3Vkb2NEUXdZRQ?oc=5"
    }
   ],
   "impacts": [
@@ -130405,9 +130495,21 @@
      "ar": "أفادت وكالة الطاقة الدولية أن النزاعات المتعلقة بإيران أدت إلى خفض إمدادات النفط العالمية بمقدار 2.8 مليون برميل يومياً.",
      "ru": "Международное энергетическое агентство (МЭА) сообщает, что конфликты, связанные с Ираном, привели к сокращению мировых поставок нефти на 2,8 млн баррелей в сутки."
     }
+   },
+   {
+    "ts": 1795192080,
+    "time": "2026-11-20T16:28Z",
+    "severity": 8,
+    "summary": "איראן משתמשת בטילים נגד ספינות כדי לאיים על נתיבי שיט, בעוד ארה\"ב מתמודדת עם שיירות מכליות נפט באזור.",
+    "i18n": {
+     "he": "איראן משתמשת בטילים נגד ספינות כדי לאיים על נתיבי שיט, בעוד ארה\"ב מתמודדת עם שיירות מכליות נפט באזור.",
+     "en": "Iran is using anti-ship missiles to threaten shipping lanes, while the US faces tanker convoys in the region as Iran tests a blockade.",
+     "ar": "تستخدم إيران صواريخ مضادة للسفن لتهديد ممرات الشحن، بينما تواجه الولايات المتحدة قوافل ناقلات النفط في المنطقة.",
+     "ru": "Иран использует противокорабельные ракеты для угрозы судоходным путям, в то время как США сталкиваются с конвоями танкеров в регионе."
+    }
    }
   ],
-  "last_update": 1795188440
+  "last_update": 1795192080
  },
  {
   "ts": 1795184520,
@@ -130591,5 +130693,63 @@
    }
   ],
   "id": "7995ffc98730"
+ },
+ {
+  "ts": 1795192080,
+  "time": "2026-11-20T16:28Z",
+  "title": "עלייה חדה בעלויות בניית מרכזי נתונים",
+  "summary": "עלויות הבנייה של מרכזי נתונים בארה\"ב זינקו ב-13% ב-2026 בשל ביקוש גבוה לבינה מלאכותית ומחסור בכוח אדם.",
+  "kid": "בניית מקומות למחשבי על (מרכזי נתונים) הפכה ליקרה מאוד בגלל הביקוש לבינה מלאכותית. זה משפיע על חברות טכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "עלייה חדה בעלויות בניית מרכזי נתונים",
+    "en": "Surge in data center construction costs",
+    "ar": "ارتفاع حاد في تكاليف بناء مراكز البيانات",
+    "ru": "Резкий рост затрат на строительство центров обработки данных"
+   },
+   "summary": {
+    "he": "עלויות הבנייה של מרכזי נתונים בארה\"ב זינקו ב-13% ב-2026 בשל ביקוש גבוה לבינה מלאכותית ומחסור בכוח אדם.",
+    "en": "Data center construction costs in the US surged 13% in 2026 due to high AI demand and labor shortages.",
+    "ar": "ارتفعت تكاليف بناء مراكز البيانات في الولايات المتحدة بنسبة 13% في عام 2026 بسبب الطلب المرتفع على الذكاء الاصطناعي ونقص العمالة.",
+    "ru": "Затраты на строительство центров обработки данных в США выросли на 13% в 2026 году из-за высокого спроса на ИИ и нехватки рабочей силы."
+   },
+   "kid": {
+    "he": "בניית מקומות למחשבי על (מרכזי נתונים) הפכה ליקרה מאוד בגלל הביקוש לבינה מלאכותית. זה משפיע על חברות טכנולוגיה.",
+    "en": "Building places for supercomputers (data centers) has become very expensive because of AI demand. This affects tech companies.",
+    "ar": "أصبح بناء أماكن لأجهزة الكمبيوتر العملاقة (مراكز البيانات) مكلفاً للغاية بسبب الطلب على الذكاء الاصطناعي. هذا يؤثر على شركات التكنولوجيا.",
+    "ru": "Строительство мест для суперкомпьютеров (ЦОД) стало очень дорогим из-за спроса на ИИ. Это влияет на технологические компании."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLK",
+    "direction": "down",
+    "t0": 1795192080,
+    "reason": "עלויות גבוהות פוגעות ברווחיות",
+    "reason_i18n": {
+     "he": "עלויות גבוהות פוגעות ברווחיות",
+     "en": "Higher costs hurt profitability",
+     "ar": "التكاليف المرتفعة تضر بالربحية",
+     "ru": "Высокие затраты снижают прибыльность"
+    },
+    "name_i18n": {
+     "he": "סקטור הטכנולוגיה",
+     "en": "Technology Sector ETF",
+     "ar": "صندوق قطاع التكنولوجيا",
+     "ru": "ETF технологического сектора"
+    },
+    "price_at_alert": 153.49
+   }
+  ],
+  "id": "d6e924ac1f9e"
  }
 ]
