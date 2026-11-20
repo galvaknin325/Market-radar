@@ -124633,6 +124633,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMjJIZHpwTDdiczlqUUozSmM0clM3RURTMXBiSFdzakxwbzhnLUhLdHpHcTE3MW9tVlpkMjE4N0xmRjFfbGxNNlFoa2Rnci14cTlVdkdFd3lacDBKVWk0VzNxSGtQbUZiS05TYlJBS1Z3N3JNU0wyb1pqUDMxNnNnaDBVdDhWbVJfVWJSemJJYzZIZVNqbXBV?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcFpHQ0QweHFwRXF1SGJHeV84RTVaOGZiSV9qRDJ4MVRxOFNBSTZwSFRXVTBpUWdKV25aY2F1dEU3WldwUy1ObmtPalBYenhnck1TUGVGQXpJMDdKZjhLRVZHWVBvUkZuSEFrcUJfMzZWRXlvak9laVdGc1g4VzhReXpKeGpBd2J4YWpqWGc1OGVyYWJZN3pWZzM3VnlPaTZPenY0NjdKdDJfVVJmMjJBMEZOSGtyLVdfSDBqRjM5UQ?oc=5"
    }
   ],
   "impacts": [
@@ -124654,9 +124658,43 @@
      "ru": "ETF энергетического сектора США"
     },
     "price_at_alert": 60.91
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795138379,
+    "reason": "חשש ממתקפות על תשתיות אנרגיה עשוי להעלות את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "חשש ממתקפות על תשתיות אנרגיה עשוי להעלות את מחירי הנפט.",
+     "en": "Fears of attacks on energy infrastructure could drive oil prices higher.",
+     "ar": "المخاوف من الهجمات على البنية التحتية للطاقة قد تدفع أسعار النفط إلى الارتفاع.",
+     "ru": "Опасения атак на энергетическую инфраструктуру могут подтолкнуть цены на нефть вверх."
+    },
+    "name_i18n": {
+     "he": "יו-אס-או – תעודת סל על נפט גולמי",
+     "en": "USO – United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام الأمريكي",
+     "ru": "USO – нефтяной фонд США"
+    },
+    "price_at_alert": 138.09
    }
   ],
-  "id": "3d3540833841"
+  "id": "3d3540833841",
+  "updates": [
+   {
+    "ts": 1795138379,
+    "time": "2026-11-20T01:32Z",
+    "severity": 6,
+    "summary": "הנשיא פוטין דחה הצעה להסכם או הפוגה שתמנע תקיפות על מתקני אנרגיה ונתיבי שיט ימיים.",
+    "i18n": {
+     "he": "הנשיא פוטין דחה הצעה להסכם או הפוגה שתמנע תקיפות על מתקני אנרגיה ונתיבי שיט ימיים.",
+     "en": "Russian President Putin has rejected a proposed moratorium or ceasefire targeting energy facilities and maritime shipping lanes.",
+     "ar": "رفض الرئيس الروسي بوتين اقتراحاً بفرض وقف مؤقت للهجمات على منشآت الطاقة وممرات الشحن البحري.",
+     "ru": "Президент России Путин отклонил предложение о моратории на удары по энергетическим объектам и морским путям."
+    }
+   }
+  ],
+  "last_update": 1795138379
  },
  {
   "ts": 1795121562,
@@ -125731,6 +125769,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0VlNm84TFByWnlZM1RPeGVFNzhvMnVGcUN1Q1ZHcWxiaTdCUnh6YmI5dzVmbUJVMDVOLUM2VzNnMEhDVmE4UlItc0NqOU5pVWQ4cHZBME5MMlc4aGYzLUZBOGpDVmRzc3F4T2oxZzJKVTk5MlQ4RnlnNl9vVHFWa2d3OWpTZXp4MWEzUEladF9waklBWXlJV0pR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU2hTNm9kWWxWMWk3UVpuWkxyTXZQVXVyWUlOMTlIMWpOQ0NLTFRKODRzQWVHWXpYWU1lb3NhZUlnVm1fU0M2WHR3RHFtWVlJQWtGTzMxSVR3Ri1lT3JHaFl2Y3lXR0FGcUNQSG1ZNnc5V1lqXzFDUkhDRjFVaVpSQ2d4S1lpdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbmFGc21Ndko5ZUxxN2JCX1d1MDY1NWYtYk9NOWlDbGFuV1hsNS1EbFBjX2ZrTWVZRnJ4NnFXRl80ZUtOXzVnY1FpcFNzOTRtalZobGhWckE2OFROdndrenVIQ0RIaEE0N2w1SWNsNlBjT0tEZG5DTmJQMndjeVM1bzlhVnJGSWlMUUhJT1Y0OGFMR25pcS1fN3ZPaG9PZzZESW44?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOWI4OFBkczgxQWpkN2p6RXN3R093Q0M2eVpaMmh4RHo4ZGVRQ3NjS1RuUGk4RV9HdFRLU0IwTWk1cHcwTGV4TU9Va0ZMc1UxUFpsbDkyQXVYSDY3cE5tdWtQdmFxLTBiSmxldjR0ZzJGWU9uU0R4dGxnUW9PdkJVQ2UzU3NneFU0RDFRNTNaSHdwenR0U3ZibkpKTk9fYThGZURRM3FJUG5mOUVEeEdNd3FSZlg0bVFjMTBvNDhzYWc0U05ZWDBWNUdieUdqU3Z4MS1YWGZSOGhLQQ?oc=5"
    }
   ],
   "impacts": [
@@ -125771,6 +125821,25 @@
      "ru": "ETF Австралии"
     },
     "price_at_alert": 27.19
+   },
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1795138379,
+    "reason": "צעדי אכיפה נגד פשיעה גלובלית הם חדשות שגרתיות יחסית ללא השפעה משמעותית על השוק הרחב.",
+    "reason_i18n": {
+     "he": "צעדי אכיפה נגד פשיעה גלובלית הם חדשות שגרתיות יחסית ללא השפעה משמעותית על השוק הרחב.",
+     "en": "Global enforcement actions against crime are routine and have negligible broad market impact.",
+     "ar": "إجراءات إنفاذ القانون ضد الجريمة العالمية روتينية نسبياً ولا تؤثر بشكل كبير على السوق الأوسع.",
+     "ru": "Меры по борьбе с глобальной преступностью носят рутинный характер и не оказывают существенного влияния на рынок в целом."
+    },
+    "name_i18n": {
+     "he": "ספיי – תעודת סל על מדד S&P 500",
+     "en": "SPY – S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر ستاندرد آند بورز 500",
+     "ru": "SPY – ETF на индекс S&P 500"
+    },
+    "price_at_alert": 715.87
    }
   ],
   "id": "bc2b0f095446",
@@ -125786,9 +125855,21 @@
      "ar": "في سابقة تاريخية، فرضت الحكومة الأمريكية عقوبات تستهدف عصابة دراجات نارية أسترالية تدعى كومانشيرو.",
      "ru": "Впервые в истории правительство США ввело санкции против австралийской байкерской банды Comanchero."
     }
+   },
+   {
+    "ts": 1795138379,
+    "time": "2026-11-20T01:32Z",
+    "severity": 2,
+    "summary": "ארה\"ב הטילה סנקציות חדשות המכוונות נגד גורמים המעורבים בהונאות ופשיעה באסיה ובאוסטרליה (כולל כנופיית האופנועים קומאנצ'רו).",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות חדשות המכוונות נגד גורמים המעורבים בהונאות ופשיעה באסיה ובאוסטרליה (כולל כנופיית האופנועים קומאנצ'רו).",
+     "en": "The United States has enforced new sanctions targeting scam enablers in Cambodia and Myanmar, alongside international drug-linked gangs like the Comancheros.",
+     "ar": "فرّضت الولايات المتحدة عقوبات جديدة تستهدف مسهلي عمليات الاحتيال في كمبوديا وميانمار وعصابات مرتبطة بتهريب المخدرات مثل كومانشيرو.",
+     "ru": "Соединенные Штаты ввели новые санкции против организаторов мошенничества в Камбодже и Мьянме, а также связанных с наркотиками банд вроде Команчеро."
+    }
    }
   ],
-  "last_update": 1795128510
+  "last_update": 1795138379
  },
  {
   "ts": 1795128510,
@@ -126587,5 +126668,221 @@
    }
   ],
   "id": "4f8fdfbac47a"
+ },
+ {
+  "ts": 1795138379,
+  "time": "2026-11-20T01:32Z",
+  "title": "מניית סופטבנק צוללת על רקע מימוש באנבידיה ומניות טכנולוגיה",
+  "summary": "מניית סופטבנק צנחה ביותר מ-16% בעקבות גל מימושים בשוקי אסיה שהשפיע על מניות הטכנולוגיה והבינה המלאכותית.",
+  "kid": "מניות חברות הטכנולוגיה והבינה המלאכותית באסיה ירדו בחדות, וגררו ירידה חזקה גם בסופטבנק. זה עשוי להשפיע על המשקיעים ולגרום לתנודתיות גם במניות טכנולוגיה בארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "מניית סופטבנק צוללת על רקע מימוש באנבידיה ומניות טכנולוגיה",
+    "en": "SoftBank plunges as tech and AI stocks sell off following Anthropic debut",
+    "ar": "سقوط أسهم سوتفبانك وسط موجة بيع لأسهم التكنولوجيا والذكاء الاصطناعي",
+    "ru": "Акции SoftBank падают на фоне распродажи в секторе технологий и ИИ"
+   },
+   "summary": {
+    "he": "מניית סופטבנק צנחה ביותר מ-16% בעקבות גל מימושים בשוקי אסיה שהשפיע על מניות הטכנולוגיה והבינה המלאכותית.",
+    "en": "SoftBank shares plunged over 16% as Asian technology stocks fell sharply following broad selling in the AI sector.",
+    "ar": "هبطت أسهم سوتفبانك بأكثر من 16% إثر تراجع حاد في أسهم التكنولوجيا الآسيوية بعد عمليات بيع بقطاع الذكاء الاصطناعي.",
+    "ru": "Акции SoftBank упали более чем на 16% на фоне резкого снижения азиатских технологических акций после распродажи в секторе ИИ."
+   },
+   "kid": {
+    "he": "מניות חברות הטכנולוגיה והבינה המלאכותית באסיה ירדו בחדות, וגררו ירידה חזקה גם בסופטבנק. זה עשוי להשפיע על המשקיעים ולגרום לתנודתיות גם במניות טכנולוגיה בארה\"ב.",
+    "en": "Asian tech and artificial intelligence stocks dropped sharply, pulling down SoftBank. This can cause nervousness and price drops for technology stocks in the US too.",
+    "ar": "هبطت أسهم التكنولوجيا والذكاء الاصطناعي الآسيوية بشدة، مما سحب أسهم سوتفبانك معها. قد يتسبب ذلك في تقلبات وهبوط لأسهم التكنولوجيا في أمريكا أيضا.",
+    "ru": "Азиатские технологические акции и акции компаний в сфере искусственного интеллекта резко упали, потянув за собой SoftBank. Это может вызвать колебания и падение акций технологических компаний и в США."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNWkhEUnFsX3ZENEVha29lWmJJc0JzUU41S3ZfSXMxZFdNSllKOEdOYlppRGJHTHJxTWpVQmpRdFBOX2FnM005ZUsxbXljeUFsT3dVSWZrODB2X2FBUkdDUUVGQlNvcmZrcjVSYkxFNHRNeDRSMnplSUNwMTdHUE9FQmdtdXl6Tk1rdmI3ZWZWaWJvdkpTNjc2MElrNUZSYUdhcVNtVF9rRFVLR3lzeVJWeVNUNTE1emh3ZTFyOVFlS3AyOW1WcTNsaFdnQVBzamZrdHhFVS1hM3VROFhQWnhDd1BSMVZuTnVQb1ZOOXZmZkFrQTdyaXBKaXc1dmM3dXFCYWJVOEhQOHNNZWh6YW01RVFhcjFxVEpjcTNnRFdtWdIBpwJBVV95cUxOaXMtYWFKaFJ1LWdfa25vQy14OVczRXYyQ1h1WGx3TzZsMHFmbmpzeUgxWldJZ01XWFRKMXNQTlJRWklVdFF2eUVBbkQ0ajNhdzFkZ1hVNTBuVXl5YzM4c2VSaWNCWnN0WE0tRmZfZEFTMnk4cWdWay1xb09mTUFQX3U0cFJrOTRBODkxVWdHcTVuVElvNDV0aS1tQkZETFF1d3dwOFJ3bmRHRERfNEN6NjZHN0Nla0RueVphUi0wbVlZOEVZZHJ5VW9Zbk1kcHMydFZ5andqVTRlaE5WZk11b3FMeDRoYjFTMHFvY0J1RV9YNks5MmVDSGhfQ1hrSE9iY2tDODB5cVRBVnJDbDlPdlZjTk4tT2VCWkNxOXpOX3ExNnE2WGt3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795138379,
+    "reason": "סנטימנט שלילי גלובלי בטכנולוגיה עשוי להקרין על מדד הנאסד\"ק.",
+    "reason_i18n": {
+     "he": "סנטימנט שלילי גלובלי בטכנולוגיה עשוי להקרין על מדד הנאסד\"ק.",
+     "en": "Global negative sentiment in tech could spill over to the Nasdaq index.",
+     "ar": "المعنويات السلبية العالمية في قطاع التكنولوجيا قد تمتد لتؤثر على مؤشر ناسداك.",
+     "ru": "Глобальный негативный сентимент в технологиях может перекинуться на индекс Nasdaq."
+    },
+    "name_i18n": {
+     "he": "קיו-קיו-קיו – תעודת סל על מניות הטכנולוגיה הגדולות",
+     "en": "QQQ – An ETF tracking major technology stocks",
+     "ar": "QQQ - صندوق متداول يتبع أسهم التكنولوجيا الكبرى",
+     "ru": "QQQ – ETF на крупные технологические акции"
+    },
+    "price_at_alert": 645.04
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795138379,
+    "reason": "חולשה כללית במניות הקשורות לבינה מלאכותית באסיה.",
+    "reason_i18n": {
+     "he": "חולשה כללית במניות הקשורות לבינה מלאכותית באסיה.",
+     "en": "General weakness in artificial intelligence-related stocks across Asia.",
+     "ar": "ضعف عام في الأسهم المرتبطة بالذكاء الاصطناعي في آسيا.",
+     "ru": "Общая слабость акций, связанных с искусственным интеллектом, в Азии."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – ענקית השבבים והבינה המלאכותית",
+     "en": "Nvidia – A major chip and AI giant",
+     "ar": "إنفيديا - عملاق الرقائق والذكاء الاصطناعي",
+     "ru": "Nvidia – гигант в сфере чипов и ИИ"
+    },
+    "price_at_alert": 145.98
+   }
+  ],
+  "id": "3c1c20dd1aff"
+ },
+ {
+  "ts": 1795138379,
+  "time": "2026-11-20T01:32Z",
+  "title": "הקונגרס האמריקאי טוען שסין עוקפת את בקרת הייצוא על שבבי אנבידיה",
+  "summary": "גורמים בקונגרס האמריקאי מדווחים כי הצבא הסיני מצליח לעקוף את בקרות הייצוא כדי להניח את ידו על שבבי הבינה המלאכותית המתקדמים של אנבידיה.",
+  "kid": "יש חשש בארה\"ב שסין מוצאת דרכים להשיג שבבים מתקדמים של אנבידיה למרות האיסורים. זה עשוי להוביל להחמרה נוספת של חוקי הסחר והמגבלות על חברות השבבים.",
+  "i18n": {
+   "title": {
+    "he": "הקונגרס האמריקאי טוען שסין עוקפת את בקרת הייצוא על שבבי אנבידיה",
+    "en": "US Congress claims Chinese military circumvents export controls to get Nvidia chips",
+    "ar": "الكونغرس الأمريكي يدعي أن الجيش الصيني يلتف على ضوابط التصدير للحصول على رقائق إنفيديا",
+    "ru": "Конгресс США утверждает, что китайские военные обходят экспортный контроль ради чипов Nvidia"
+   },
+   "summary": {
+    "he": "גורמים בקונגרס האמריקאי מדווחים כי הצבא הסיני מצליח לעקוף את בקרות הייצוא כדי להניח את ידו על שבבי הבינה המלאכותית המתקדמים של אנבידיה.",
+    "en": "US lawmakers report that the Chinese military is finding ways to circumvent current export controls to obtain advanced Nvidia AI chips.",
+    "ar": "أفاد مشرعون أمريكيون بأن الجيش الصيني يجد طرقاً للالتفاف على ضوابط التصدير الحالية للحصول على رقائق إنفيديا المتقدمة.",
+    "ru": "Американские законодатели сообщают, что китайские военные находят способы обойти экспортный контроль для получения передовых чипов Nvidia."
+   },
+   "kid": {
+    "he": "יש חשש בארה\"ב שסין מוצאת דרכים להשיג שבבים מתקדמים של אנבידיה למרות האיסורים. זה עשוי להוביל להחמרה נוספת של חוקי הסחר והמגבלות על חברות השבבים.",
+    "en": "There are concerns in the US that China is finding ways to get advanced Nvidia chips despite export bans, which could lead to stricter trade rules and tougher regulations on chip makers.",
+    "ar": "هناك مخاوف في أمريكا من أن الصين تجد طرقاً للحصول على رقائق إنفيديا المتقدمة رغم حظر التصدير، مما قد يؤدي إلى قواعد تجارية أشد صرامة.",
+    "ru": "В США опасаются, что Китай находит способы получать передовые чипы Nvidia вопреки запретам, что может привести к ужесточению торговых правил для производителей чипов."
+   }
+  },
+  "category": "trade",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kSVhFdHRqUDQycXFZQW1yVDBPbHhvR0kwLVJKUlNuMl9CSVJtTDZVRl9FcDVoMHV2YUJ3V0toRlN5LUhocDRGMGVrTEh6QXozdjgySTJGb2VySk1STl93R1ln?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795138379,
+    "reason": "לחץ רגולטורי גובר מצד הקונגרס עלול להוביל למגבלות מכירה קשוחות יותר.",
+    "reason_i18n": {
+     "he": "לחץ רגולטורי גובר מצד הקונגרס עלול להוביל למגבלות מכירה קשוחות יותר.",
+     "en": "Increasing regulatory pressure from Congress could lead to stricter sales restrictions.",
+     "ar": "الضغط التنظيمي المتزايد من الكونغرس قد يؤدي إلى قيود مبيعات أشد صارمة.",
+     "ru": "Растущее регуляторное давление со стороны Конгресса может привести к более жестким ограничениям на продажи."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia – AI chip maker",
+     "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia – производитель чипов ИИ"
+    },
+    "price_at_alert": 145.98
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795138379,
+    "reason": "חשש מהידוק נוסף של פיקוח הייצוא הממשלתי עלול להכביד על כל סקט השבבים.",
+    "reason_i18n": {
+     "he": "חשש מהידוק נוסף של פיקוח הייצוא הממשלתי עלול להכביד על כל סקט השבבים.",
+     "en": "Concerns over tighter government export oversight could weigh on the entire semiconductor sector.",
+     "ar": "المخاوف بشأن تشديد الرقابة الحكومية على الصادرات قد تثقل كاهل قطاع أشباه الموصلات بأكمله.",
+     "ru": "Опасения по поводу более жесткого государственного экспортного контроля могут негативно отразиться на всем секторе полупроводников."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על מניות חברות השבבים והמוליכים למחצה",
+     "en": "SMH – VanEck Semiconductor ETF",
+     "ar": "SMH - صندوق قطاع أشباه الموصلات",
+     "ru": "SMH – ETF полупроводников"
+    },
+    "price_at_alert": 447.48
+   }
+  ],
+  "id": "b3ff4c491305"
+ },
+ {
+  "ts": 1795138379,
+  "time": "2026-11-20T01:32Z",
+  "title": "חוזה ענק בסך 50 מיליארד דולר לתחנת כוח גרעינית בפולין",
+  "summary": "חברות האנרגיה האמריקאיות וסטומהאוס ובקטל צפויות לחתום בראשית 2027 על חוזה בהיקף של 50 מיליארד דולר לבניית תחנת כוח גרעינית בפולין.",
+  "kid": "חברות הבנייה והאנרגיה בארה\"ב עשויות לזכות בחוזה ענק לבניית תחנת כוח גרעינית בפולין. זה יכול להגדיל את ההכנסות והרווחים שלהן בשנים הבאות.",
+  "i18n": {
+   "title": {
+    "he": "חוזה ענק בסך 50 מיליארד דולר לתחנת כוח גרעינית בפולין",
+    "en": "Westinghouse and Bechtel eye $50b Poland nuclear contract due in 2027",
+    "ar": "ويستينغهاوس وبيكتل تتطلعان لعقد طاقة نووية في بولندا بقيمة 50 مليار دولار",
+    "ru": "Westinghouse и Bechtel заключают контракт на атомную электростанцию в Польше на $50 млрд"
+   },
+   "summary": {
+    "he": "חברות האנרגיה האמריקאיות וסטומהאוס ובקטל צפויות לחתום בראשית 2027 על חוזה בהיקף של 50 מיליארד דולר לבניית תחנת כוח גרעינית בפולין.",
+    "en": "US companies Westinghouse and Bechtel are slated to finalize a massive $50 billion contract for a nuclear power plant in Poland by early 2027.",
+    "ar": "من المقرر أن توقع الشركات الأمريكية ويستينغهاوس وبيكتل عقداً ضخماً بقيمة 50 مليار دولار لمحطة طاقة نووية في بولندا أوائل عام 2027.",
+    "ru": "Американские компании Westinghouse и Bechtel планируют заключить крупный контракт на строительство АЭС в Польше на сумму $50 млрд в начале 2027 года."
+   },
+   "kid": {
+    "he": "חברות הבנייה והאנרגיה בארה\"ב עשויות לזכות בחוזה ענק לבניית תחנת כוח גרעינית בפולין. זה יכול להגדיל את ההכנסות והרווחים שלהן בשנים הבאות.",
+    "en": "US engineering and energy companies could secure a huge contract to build a nuclear power plant in Poland, which can boost their future revenues.",
+    "ar": "قد تحصل الشركات الهندسية ومقاولات الطاقة الأمريكية على عقد ضخم لبناء محطة نووية في بولندا، مما قد يعزز أرباحها المستقبلية.",
+    "ru": "Инженерные и энергетические компании США могут получить крупный контракт на строительство АЭС в Польше, что увеличит их будущие доходы."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2UEMtU2Zfel9yN2tSbnlkRDNPcnI2dVN3bmtNM3llLTNHSkVIRlZfUjI1clBBMzc1OU1FdDhqbDd6ME9NZklSUTk0WWJya0FPNWZnZkJ3UmNVT0Nhclk0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLI",
+    "direction": "up",
+    "t0": 1795138379,
+    "reason": "חוזים הנדסיים ותשתיות גדולים מחזקים את מגזר התעשייה.",
+    "reason_i18n": {
+     "he": "חוזים הנדסיים ותשתיות גדולים מחזקים את מגזר התעשייה.",
+     "en": "Large engineering and infrastructure contracts strengthen the industrial sector.",
+     "ar": "عقود الهندسة والبنية التحتية الكبيرة تعزز قطاع الصناعة.",
+     "ru": "Крупные инженерные и инфраструктурные контракты укрепляют промышленный сектор."
+    },
+    "name_i18n": {
+     "he": "תעודת סל על סמך מניות התעשייה בארה\"ב",
+     "en": "XLI – US Industrial Sector ETF",
+     "ar": "XLI - صندوق قطاع الصناعات الأمريكية",
+     "ru": "XLI – ETF промышленного сектора США"
+    },
+    "price_at_alert": 161.36
+   }
+  ],
+  "id": "bf5a4dcd4c1a"
  }
 ]
