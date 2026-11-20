@@ -2067,121 +2067,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794587270,
-  "time": "2026-11-13T16:27Z",
-  "title": "טורקיה וקטאר חתמו על הסכם הגנה הדדי",
-  "summary": "טורקיה וקטאר חתמו על הסכם הגנה משותף, מהלך שמחזק את הקשרים הביטחוניים בין המדינות במזרח התיכון.",
-  "kid": "טורקיה וקטאר החליטו לעזור זו לזו אם תהיה מלחמה. זה משנה את יחסי הכוחות באזור.",
-  "i18n": {
-   "title": {
-    "he": "טורקיה וקטאר חתמו על הסכם הגנה הדדי",
-    "en": "Turkey and Qatar sign mutual defense agreement",
-    "ar": "تركيا وقطر توقعان اتفاقية دفاع مشترك",
-    "ru": "Турция и Катар подписали соглашение о взаимной обороне"
-   },
-   "summary": {
-    "he": "טורקיה וקטאר חתמו על הסכם הגנה משותף, מהלך שמחזק את הקשרים הביטחוניים בין המדינות במזרח התיכון.",
-    "en": "Turkey and Qatar have signed a mutual defense agreement, strengthening security ties between the two Middle Eastern nations.",
-    "ar": "وقعت تركيا وقطر اتفاقية دفاع مشترك، مما يعزز العلاقات الأمنية بين الدولتين في الشرق الأوسط.",
-    "ru": "Турция и Катар подписали соглашение о взаимной обороне, укрепляя связи в сфере безопасности на Ближнем Востоке."
-   },
-   "kid": {
-    "he": "טורקיה וקטאר החליטו לעזור זו לזו אם תהיה מלחמה. זה משנה את יחסי הכוחות באזור.",
-    "en": "Turkey and Qatar decided to help each other if there is a war. This changes the balance of power in the region.",
-    "ar": "قررت تركيا وقطر مساعدة بعضهما البعض في حال حدوث حرب. هذا يغير ميزان القوى في المنطقة.",
-    "ru": "Турция и Катар решили помогать друг другу в случае войны. Это меняет баланс сил в регионе."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "TUR",
-    "direction": "up",
-    "t0": 1794587270,
-    "reason": "הסכמים ביטחוניים עשויים להגביר את היציבות הגיאופוליטית של המדינה.",
-    "reason_i18n": {
-     "he": "הסכמים ביטחוניים עשויים להגביר את היציבות הגיאופוליטית של המדינה.",
-     "en": "Defense agreements may increase the country's geopolitical stability.",
-     "ar": "قد تزيد الاتفاقيات الدفاعية من الاستقرار الجيوسياسي للبلاد.",
-     "ru": "Оборонные соглашения могут повысить геополитическую стабильность страны."
-    },
-    "name_i18n": {
-     "he": "קרן סל טורקיה",
-     "en": "Turkey ETF",
-     "ar": "صندوق الاستثمار المتداول لتركيا",
-     "ru": "ETF Турции"
-    },
-    "price_at_alert": 32.1325,
-    "entry_price": 32.15,
-    "entry_time": "2026-11-13T16:30+00:00",
-    "exit_price": 32.11,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.12,
-    "bench": "SPY",
-    "bench_change_pct": -1.44,
-    "excess_pct": 1.31,
-    "edge_pct": 1.31,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794604895,
-    "reason": "הסכמי הגנה אזוריים תומכים بביקוש עולמי לציוד ביטחוני.",
-    "reason_i18n": {
-     "he": "הסכמי הגנה אזוריים תומכים بביקוש עולמי לציוד ביטחוני.",
-     "en": "Regional defense pacts support global demand for military equipment.",
-     "ar": "اتفاقيات الدفاع الإقليمية تدعم الطلب العالمي على المعدات العسكرية.",
-     "ru": "Региональные оборонные пакты поддерживают глобальный спрос на военную технику."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 71.51,
-    "entry_price": 70.84,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 69.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "369d51c7519a",
-  "updates": [
-   {
-    "ts": 1794604895,
-    "time": "2026-11-13T21:21Z",
-    "severity": 5,
-    "summary": "קטר וטורקיה חתמו על הסכם הגנה הדדי במטרה לחזק את ההרתעה והשותפות האסטרטגית על רקע חוסר היציבות האזורית.",
-    "i18n": {
-     "he": "קטר וטורקיה חתמו על הסכם הגנה הדדי במטרה לחזק את ההרתעה והשותפות האסטרטגית על רקע חוסר היציבות האזורית.",
-     "en": "Qatar and Turkey signed a mutual defense pact aimed at deepening their partnership and strengthening deterrence amid regional instability.",
-     "ar": "وقعت قطر وتركيا اتفاقية دفاع مشترك لتعميق الشراكة وتعزيز الردع وسط عدم الاستقرار الإقليمي.",
-     "ru": "Катар и Турция подписали пакт о взаимной обороне, направленный на укрепление партнерства на фоне региональной нестабильности."
-    }
-   }
-  ],
-  "last_update": 1794604895,
-  "evaluated": true
- },
- {
   "ts": 1794590764,
   "time": "2026-11-13T17:26Z",
   "title": "תקלת ענק גלובלית בשירותי הענן של מייקרוסופט",
@@ -2890,246 +2775,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794604895,
-  "time": "2026-11-13T21:21Z",
-  "title": "הפנטגון מעכב את אישורי ייצור טילי הפטריוט לאוקראינה",
-  "summary": "הפנטגון מעכב את רישיונות ייצור טילי הפטריוט שהובטחו על ידי טראמפ עבור אוקראינה.",
-  "kid": "עיכוב באישור ייצור טילי הגנה אלו עשוי להשפיע על חברות הביטחון שמייצרות אותן ועל קצב אספקת הנשק.",
-  "i18n": {
-   "title": {
-    "he": "הפנטגון מעכב את אישורי ייצור טילי הפטריוט לאוקראינה",
-    "en": "Pentagon Stalls Patriot Missile Production Licenses for Ukraine",
-    "ar": "البنتغون يعطل تراخيص إنتاج صواريخ باتريوت لأوكرانيا",
-    "ru": "Пентагон задерживает лицензии на производство ракет Patriot для Украины"
-   },
-   "summary": {
-    "he": "הפנטגון מעכב את רישיונות ייצור טילי הפטריוט שהובטחו על ידי טראמפ עבור אוקראינה.",
-    "en": "The Pentagon has stalled Patriot missile production licenses promised by Trump for Ukraine.",
-    "ar": "عطل البنتغون تراخيص إنتاج صواريخ باتريوت التي وعد بها ترامب لأوكرانيا.",
-    "ru": "Пентагон задерживает лицензии на производство ракет Patriot, обещанных Трампом Украине."
-   },
-   "kid": {
-    "he": "עיכוב באישור ייצור טילי הגנה אלו עשוי להשפיע על חברות הביטחון שמייצרות אותן ועל קצב אספקת הנשק.",
-    "en": "Delays in approving production licenses for these defense missiles could impact defense contractors and delivery timelines.",
-    "ar": "قد تؤثر التأخيرات في الموافقة على تراخيص الإنتاج على مقاولي الدفاع.",
-    "ru": "Задержки с одобрением лицензий на производство этих ракет могут повлиять на оборонных подрядчиков."
-   }
-  },
-  "category": "contracts",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa0lnT0dkZkZ0eVRiN1NVak5zNFVxbGtoMGthZkdFeW1ZOThFMUkwaHpJYzg5MFBGYndpcXI1ZVJmN2ZDWVdfVnlYUWpnaE4xN3pJUERhcG1TUjdVSU9lTUxIMDVYZzRPRzJUallVMHBpQzZVYklwZDBFOHVUWnB3QzR5ZFZVZ29OTkxSaXQyTWZoR2h4NEJpZkZR?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "RTX",
-    "direction": "up",
-    "t0": 1794604895,
-    "reason": "ביקושים עתידיים לטילי פטריוט נשארים גבוהים למרות עיכובים בירוקרטיים.",
-    "reason_i18n": {
-     "he": "ביקושים עתידיים לטילי פטריוט נשארים גבוהים למרות עיכובים בירוקרטיים.",
-     "en": "Future demand for Patriot systems remains robust despite administrative bottlenecks.",
-     "ar": "الطلب المستقبلي على أنظمة باتريوت يظل قوياً رغم العقبات الإدارية.",
-     "ru": "Будущий спрос на системы Patriot остается высоким несмотря на бюрократические задержки."
-    },
-    "name_i18n": {
-     "he": "RTX - ריית'און, יצרנית טילי פטריוט",
-     "en": "RTX - Raytheon, Patriot missile maker",
-     "ar": "RTX - رايثيون، الشركة المصنعة لصواريخ باتريوت",
-     "ru": "RTX - Raytheon, производитель ракет Patriot"
-    },
-    "price_at_alert": 198.58,
-    "entry_price": 199.67,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 198.02,
-    "exit_date": "2026-11-17",
-    "change_pct": -0.83,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 1.48,
-    "edge_pct": 1.48,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794604895,
-    "reason": "מעורבות באספקת מערכות הגנה אוויריות.",
-    "reason_i18n": {
-     "he": "מעורבות באספקת מערכות הגנה אוויריות.",
-     "en": "Involvement in supplying air defense systems.",
-     "ar": "المشاركة في توريد أنظمة الدفاع الجوي.",
-     "ru": "Участие в поставках систем ПВО."
-    },
-    "name_i18n": {
-     "he": "LMT - לוקהיד מרטין, ענקית ביטחונית",
-     "en": "LMT - Lockheed Martin, defense giant",
-     "ar": "LMT - لوكهيد مارتن، عملاق الدفاع",
-     "ru": "LMT - Lockheed Martin, оборонный гигант"
-    },
-    "price_at_alert": 596.04,
-    "entry_price": 599.92,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 590.2548,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.61,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.69,
-    "edge_pct": 0.69,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "5789b131c727",
-  "evaluated": true
- },
- {
-  "ts": 1794604895,
-  "time": "2026-11-13T21:21Z",
-  "title": "פריצת סייבר מבוססת בינה מלאכותית על משרד ממשלתי בפלורידה",
-  "summary": "רשויות בפלורידה דיווחו כי האקרים רוסים עומדים מאחורי מתקפת סייבר שנעזרה בבינה מלאכותית ופגעה במשרד המקומי.",
-  "kid": "האקרים השתמשו בטכנולוגיית בינה מלאכותית כדי לפרוץ למערכות ממשלתיות, מה שמגביר את החששות מפני איומי סייבר על חברות טכנולוגיה ואבטחה.",
-  "i18n": {
-   "title": {
-    "he": "פריצת סייבר מבוססת בינה מלאכותית על משרד ממשלתי בפלורידה",
-    "en": "AI-Assisted Cyberattack Hits Florida Office",
-    "ar": "هجوم سيبراني مدعوم بالذكاء الاصطناعي يستهدف مكتباً حكومياً في فلوريدا",
-    "ru": "Кибератака с использованием ИИ нанесла удар по госучреждению во Флориде"
-   },
-   "summary": {
-    "he": "רשויות בפלורידה דיווחו כי האקרים רוסים עומדים מאחורי מתקפת סייבר שנעזרה בבינה מלאכותית ופגעה במשרד המקומי.",
-    "en": "Officials in Florida reported that Russian hackers were behind an AI-assisted cyberattack targeting a local government office.",
-    "ar": "أفاد مسؤولون في فلوريدا أن قراصنة روس وراء هجوم سيبراني مدعوم بالذكاء الاصطناعي استهدف مكتباً حكومياً محلياً.",
-    "ru": "Чиновники во Флориде сообщили, что за кибератакой с использованием ИИ, нацеленной на местное госучреждение, стоят российские хакеры."
-   },
-   "kid": {
-    "he": "האקרים השתמשו בטכנולוגיית בינה מלאכותית כדי לפרוץ למערכות ממשלתיות, מה שמגביר את החששות מפני איומי סייבר על חברות טכנולוגיה ואבטחה.",
-    "en": "Hackers used artificial intelligence to breach government systems, raising concerns about cybersecurity vulnerabilities for enterprises and security firms.",
-    "ar": "استخدم القراصنة الذكاء الاصطناعي لاختراق الأنظمة الحكومية، مما يثير المخاوف بشأن الأمن السيبراني.",
-    "ru": "Хакеры использовали искусственный интеллект для взлома государственных систем, что вызывает опасения по поводу кибербезопасности."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPenBOQWZtUUtqOFdPb0k1UkRDQXBYZ3lvT0FpOE5UODRMYlNfaE9oZFlISG1ETXpLZl84ZVJCbGNtcXlwWkhfLXJScWxlNHRQdUJiOUhqNEk5SUVJSWNWM0R3bjBaUEFnVllJbUJITkhkbkNKMDE5SWwxTjVVbEJNV1ZZd2JnaEUtNmhpVHhsODRFOFBmN2VhZS1RN0gzSlY3bmF5dFZKbDJEV0p0OHQxSS1PNnd0NFctZU9yaw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794604895,
-    "reason": "עלייה במודעות לאיומי סייבר מתקדמים מעלה את הביקוש لפתרונות אבטחה.",
-    "reason_i18n": {
-     "he": "עלייה במודעות לאיומי סייבר מתקדמים מעלה את הביקוש لפתרונות אבטחה.",
-     "en": "Rising awareness of advanced cyber threats boosts demand for security solutions.",
-     "ar": "زيادة الوعي بالتهديدات السيبرانية المتقدمة تعزز الطلب على حلول الأمان.",
-     "ru": "Рост осведомленности о киберугрозах повышает спрос на защитные решения."
-    },
-    "name_i18n": {
-     "he": "CRWD - קראודסטרייק, אבטחת סייבר",
-     "en": "CRWD - CrowdStrike, cybersecurity firm",
-     "ar": "CRWD - كراودسترايك لأمن السبراني",
-     "ru": "CRWD - CrowdStrike, кибербезопасность"
-    },
-    "price_at_alert": 226.61,
-    "entry_price": 223.8,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 219.49,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.93,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.38,
-    "edge_pct": 0.38,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "fae5cb1863d8",
-  "evaluated": true
- },
- {
-  "ts": 1794604895,
-  "time": "2026-11-13T21:21Z",
-  "title": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
-  "summary": "סוכנות הרכש של אוקראינה (DOT) חתמה על חוזה לרכש של מעל 7,500 רכבי שטח עבור הצבא.",
-  "kid": "חוזה רכש גדול של כלי רכב צבאיים תומך בחברות תעשייה ורכב שמספקות ציוד צבאי.",
-  "i18n": {
-   "title": {
-    "he": "סוכנות הרכש של אוקראינה חותמת על חוזה לאספקת רכבי שטח צבאיים",
-    "en": "Ukraine Procurement Agency Contracts Off-Road Military Vehicles",
-    "ar": "وكالة المشتريات الأوكرانية تتعاقد على مركبات عسكرية للطرق الوعرة",
-    "ru": "Закупочное агентство Украины заключило контракт на военные внедорожники"
-   },
-   "summary": {
-    "he": "סוכנות הרכש של אוקראינה (DOT) חתמה על חוזה לרכש של מעל 7,500 רכבי שטח עבור הצבא.",
-    "en": "Ukraine's DOT Agency has contracted over 7,500 off-road vehicles for military use.",
-    "ar": "تعاقدت وكالة DOT الأوكرانية على أكثر من 7,500 مركبة للطرق الوعرة للاستخدام العسكري.",
-    "ru": "Закупочное агентство Украины законтрактовало более 7500 внедорожников для военных."
-   },
-   "kid": {
-    "he": "חוזה רכש גדול של כלי רכב צבאיים תומך בחברות תעשייה ורכב שמספקות ציוד צבאי.",
-    "en": "A major procurement contract for military vehicles supports industrial and automotive suppliers catering to defense needs.",
-    "ar": "عقد مششتريات كبير للمركبات العسكرية يدعم موردي المعدات الدفاعية.",
-    "ru": "Крупный контракт на закупку военных машин поддерживает поставщиков продукции."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUDFXdmphMU1qZnZtdmQwMGNpQjJsSEl5ZGYteTlFdk5HU1VsWWFUWS1yWkxoVDlUSGFGQktibV9nekk0UElqSHhVd0tCWVNWRGNmTjloeFloN1FMYVJ6bW03dGM0cUhzTVdIbEtDUVMxT1pEOVhNaW5uQUVGMEJqMUxZSGZQZw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XAR",
-    "direction": "up",
-    "t0": 1794604895,
-    "reason": "חוזים צבאיים חדשים תומכים במגזר התעשייתי והביטחוני.",
-    "reason_i18n": {
-     "he": "חוזים צבאיים חדשים תומכים במגזר התעשייתי והביטחוני.",
-     "en": "New military contracts support the broader defense sector.",
-     "ar": "العقود العسكرية الجديدة تدعم قطاع الدفاع بشكل عام.",
-     "ru": "Новые военные контракты поддерживают оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "XAR - קרן סל תעופה וביטחון",
-     "en": "XAR - Aerospace & Defense ETF",
-     "ar": "XAR - صندوق قطاع الطيران والدفاع",
-     "ru": "XAR - ETF аэрокосмической и оборонной отрасли"
-    },
-    "price_at_alert": 230.69,
-    "entry_price": 228.03,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 220.31,
-    "exit_date": "2026-11-17",
-    "change_pct": -3.39,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -1.08,
-    "edge_pct": -1.08,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "e8c35ad24992",
-  "evaluated": true
- },
- {
   "ts": 1794608319,
   "time": "2026-11-13T22:18Z",
   "title": "השבתת טיסות ארצית בארה\"ב עקב בעיית תקשורת",
@@ -3364,106 +3009,6 @@
    }
   ],
   "last_update": 1794708048,
-  "evaluated": true
- },
- {
-  "ts": 1794608319,
-  "time": "2026-11-13T22:18Z",
-  "title": "חוזים ביטחוניים חדשים בהיקף של כ-600 מיליון דולר לסרקו ומנטק",
-  "summary": "עסקת הרכישה של סרקו את פעילות QinetiQ בשווי 292 מיליון דולר וזכיית ManTech בחוזה הגנה המולדת של DHS בשווי 307 מיליון דולר מדגישות פעילות ערה בסקטרו הביטחוני.",
-  "kid": "חברות ביטחוניות קיבלו חוזים גדולים וביצעו עסקאות רכישה חדשות עם ממשלת ארה\"ב. זה יכול לעזור למניות שלהן ולחזק את כל תחום הביטחון.",
-  "i18n": {
-   "title": {
-    "he": "חוזים ביטחוניים חדשים בהיקף של כ-600 מיליון דולר לסרקו ומנטק",
-    "en": "New Defense Contracts Totaling ~$600M for Serco and ManTech",
-    "ar": "عقود دفاعية جديدة بقيمة نحو 600 مليون دولار لشركتي سيركو ومانتيك",
-    "ru": "Новые оборонные контракты на сумму около $600 млн для Serco и ManTech"
-   },
-   "summary": {
-    "he": "עסקת הרכישה של סרקו את פעילות QinetiQ בשווי 292 מיליון דולר וזכיית ManTech בחוזה הגנה המולדת של DHS בשווי 307 מיליון דולר מדגישות פעילות ערה בסקטרו הביטחוני.",
-    "en": "Serco expanded its defense workforce via a $292M QinetiQ deal, while ManTech secured a major $307M Department of Homeland Security contract.",
-    "ar": "وسعت سيركو أعمالها بصفقة بقيمة 292 مليون دولار، بينما فازت مانتيك بعقد أمن قومي بقيمة 307 ملايين دولار.",
-    "ru": "Serco расширила свой оборонный бизнес сделкой на $292 млн, а ManTech получила крупный контракт DHS на $307 млн."
-   },
-   "kid": {
-    "he": "חברות ביטחוניות קיבלו חוזים גדולים וביצעו עסקאות רכישה חדשות עם ממשלת ארה\"ב. זה יכול לעזור למניות שלהן ולחזק את כל תחום הביטחון.",
-    "en": "Defense companies won large government contracts and made business deals. This can help their stock prices go up.",
-    "ar": "فازت شركات دفاعية بعقود حكومية كبيرة وقامت بصفقات جديدة. قد يساعد ذلك في رفع أسهمها.",
-    "ru": "Оборонные компании получили крупные государственные контракты и заключили сделки. Это может поддержать их акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: defense contracts",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWmt4YjAwbW5sanpXSnYtSFIzWndMdEYzZjAtME41ei15OXlxNjdxM1QyUlEtalhHR0I0el9nb0ktRC1CdHBIX01nVXRGOUVXSWpDbV9XVWVVdkplRlNSNkRuc254MnlrVkFBN2xNYmxLTWlPOERVaXdfNWNYbDJaMkRaNk5UOXg0OW85aFRvM1JJbXBQRFdqT1RvSEFYblYtV1oya05sc3J4MGFCTFVINU9JLXg2NkFfM19jR1ZYVEZ4SlNNV2RZ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794608319,
-    "reason": "הזרמת חוזים ממשלתיים חדשים מחזקת את סקטרו הביטחון.",
-    "reason_i18n": {
-     "he": "הזרמת חוזים ממשלתיים חדשים מחזקת את סקטרו הביטחון.",
-     "en": "New government contracts support the defense sector.",
-     "ar": "العقود الحكومية الجديدة تدعم قطاع الدفاع.",
-     "ru": "Новые госконтракты поддерживают оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון",
-     "en": "ITA – Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الطيران والدفاع",
-     "ru": "ITA — биржевой фонд аэрокосмического и оборонного секторов"
-    },
-    "price_at_alert": 71.51,
-    "entry_price": 70.84,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 69.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XAR",
-    "direction": "up",
-    "t0": 1794608319,
-    "reason": "ביקושים יציבים וחוזים חדשים בענף הביטחוני.",
-    "reason_i18n": {
-     "he": "ביקושים יציבים וחוזים חדשים בענף הביטחוני.",
-     "en": "Steady demand and fresh contracts in the defense industry.",
-     "ar": "طلب مستقر وعقود جديدة في قطاع الدفاع.",
-     "ru": "Устойчивый спрос и новые контракты в оборонной промышленности."
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון צבאי",
-     "en": "XAR – SPDR S&P Aerospace & Defense ETF",
-     "ar": "XAR - صندوق الطيران والدفاع",
-     "ru": "XAR — биржевой фонд аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 230.69,
-    "entry_price": 228.03,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 220.31,
-    "exit_date": "2026-11-17",
-    "change_pct": -3.39,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -1.08,
-    "edge_pct": -1.08,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f00205ef5cc8",
   "evaluated": true
  },
  {
@@ -46397,5 +45942,229 @@
    }
   ],
   "id": "4852ed29e4fd"
+ },
+ {
+  "ts": 1795213204,
+  "time": "2026-11-20T22:20Z",
+  "title": "ארה\"ב הטילה סנקציות על ארבעה איראנים בגין גביית הכנסות נפט",
+  "summary": "משרד האוצר האמריקאי הטיל סנקציות על ארבעה אזרחים איראנים המואשמים בסיוע בגביית והסתרת הכנסות מנפט איראני תוך עקיפת הסנקציות.",
+  "kid": "ארה\"ב מנסה לעצור את הכסף שמגיע לאיראן ממכירת נפט. זה עשוי להקשות על איראן ולשמור על מחירי הנפט גבוהים.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב הטילה סנקציות על ארבעה איראנים בגין גביית הכנסות נפט",
+    "en": "US sanctions four Iranians over alleged Iranian oil revenue collection",
+    "ar": "الولايات المتحدة تفرض عقوبات على أربعة إيرانيين بسبب جمع إيرادات النفط",
+    "ru": "США ввели санкции против четырех иранцев за сбор нефтяных доходов"
+   },
+   "summary": {
+    "he": "משרד האוצר האמריקאי הטיל סנקציות על ארבעה אזרחים איראנים המואשמים בסיוע בגביית והסתרת הכנסות מנפט איראני תוך עקיפת הסנקציות.",
+    "en": "The U.S. Treasury Department sanctioned four Iranian individuals accused of helping collect and hide Iranian oil revenues in violation of sanctions.",
+    "ar": "فرضت وزارة الخزانة الأمريكية عقوبات على أربعة أفراد إيرانيين متهمين بالمساعدة في جمع وإخفاء عائدات النفط الإيراني.",
+    "ru": "Министерство финансов США ввело санкции против четырех иранских лиц, обвиняемых в помощи в сборе и сокрытии доходов от иранской нефти."
+   },
+   "kid": {
+    "he": "ארה\"ב מנסה לעצור את הכסף שמגיע לאיראן ממכירת נפט. זה עשוי להקשות על איראן ולשמור על מחירי הנפט גבוהים.",
+    "en": "The U.S. is trying to stop money from flowing to Iran through oil sales. This could pressure Iran's economy and affect oil prices.",
+    "ar": "تحاول الولايات المتحدة منع تدفق الأموال إلى إيران من بيع النفط. قد يؤثر ذلك على اقتصاد إيران وأسعار النفط.",
+    "ru": "США пытаются остановить поток денег в Иран от продажи нефти. Это может повлиять на экономику Ирана и цены на нефть."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTkZtRWdrb28wVzYyd2xiRDJ5X1lKd0ZRRDM1ZjQ3blRkQVFPbm9ZTC1BUzhjcUh6d2tMNkZXZUlOOGZsMzZwN3RNanR5b1JOdDg1QmZfM3h2bmpIVThxR3RWbWVoSDltU0tNX0hhMll1WGpBbS1DZ0JaZEltREp0ZWVWSTJocS1JQldOc3hibXV2WFpPVXdSb054cFNkUzA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmY3Y3ZBRHdxcG9RZDJyUllyUk1pWFAwVmU5UFZ2dnItX3Ywb2hudWx0dlMtVUY5MzJSeHRvbEZsNlFxd3R2Nm9GZ3pnQTM3dGxtb09MY0pZeTJRdUgxMzY1aDVMTHVUOHlmT0tRckJMYVFTcDl0dlNKaUVLNzlLUEdOa1ROWVRBb3hod1V1c2JGbTlBblpKZHZzNzlpMWhXSEtNMmdVN1VkQlhYclBfbXhRYVVJOEg0Z0I0?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUFlRmtIbWhLaVp2UlVrYkJQZFJpZFVoSkQyMTNGNzl2RkY1RGl3NktvLWFDSThYVUo0TU5rcXdLTTVuOG9tR0xVdXBOOTlsNXZRQ1F4aVlzaFpsTXlBLVZ1Wl9kbnF1YUp6WlpmUEZhTmVNaE5Xa1ZfeTE3aHY3TDBZY1JXdUYzYjVUam5Hd3phZnJqUWfSAZsBQVVfeXFMUG81V1g0VVcyR25zYktJdTdtT29aMHQ1dXc1S1JvR1g3RjBxWm9lc0dyUFJWLVZWN25yb3B5MTFfS0o2bmtRcjNvWElmMXRRYWpXY3RMZnphN0lobHJPLVhLMi14VUp5ajVSMnlHSUtXWkNhRnVJUTRBZ042WnVOdjFSVEtvR0NtaGNLQ0t5NGpmR1pubk0xdVR3cDg?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXh0c3ZjdnJ5enFmZkJ4aWFib2JmTWNlUTFJbVI1UzVfMkZ3WHZJV3E2ZmJBZmFpaXRiZVkwR1FWelpOVHVBOGwtX25uaDA4eUVMZXlWX1pMZmJPcEpKUFZuRm9BSGQxVlQ2UklqNGFaSk5iTjdfRmc1VDhGeHJQSFUwdDJUcWRCZnJQZ21HUDhRb1BHTXhwY2hiZGQwZkxCbUxMckxNajZzN0YxcXBNZW02bVJ2bHpSbk5z?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795213204,
+    "reason": "החמרת סנקציות על ייצוא הנפט של איראן עשויה לתמוך במחירי האנרגיה.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות על ייצוא הנפט של איראן עשויה לתמוך במחירי האנרגיה.",
+     "en": "Tighter sanctions on Iranian oil exports could support energy prices.",
+     "ar": "قد تؤدي العقوبات المشددة على صادرات النفط الإيرانية إلى دعم أسعار الطاقة.",
+     "ru": "Ужесточение санкций против экспорта иранской нефти может поддержать цены на энергию."
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל אנרגיה",
+     "en": "XLE - Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 60.51
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795213204,
+    "reason": "צמצום אספקת הנפט האיראני הבלתי חוקי עשוי להעלות את מחירי הנפט.",
+    "reason_i18n": {
+     "he": "צמצום אספקת הנפט האיראני הבלתי חוקי עשוי להעלות את מחירי הנפט.",
+     "en": "Curbing illicit Iranian oil supply could push crude prices higher.",
+     "ar": "يمكن أن يؤدي الحد من إمدادات النفط الإيرانية غير القانونية إلى رفع أسعار الخام.",
+     "ru": "Сокращение незаконных поставок иранской нефти может подтолкнуть цены на нефть вверх."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל נפט גולמי",
+     "en": "USO - United States Oil Fund",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - Нефтяной фонд США"
+    },
+    "price_at_alert": 139.63
+   }
+  ],
+  "id": "0370c6d35e32"
+ },
+ {
+  "ts": 1795213204,
+  "time": "2026-11-20T22:20Z",
+  "title": "אורקל מדווחת שעסקת התשתיות עם OpenAI ממומנת במלואה",
+  "summary": "חברת אורקל הודיעה כי עסקת בניית תשתיות הבינה המלאכותית עבור OpenAI ממומנת במלואה בעקבות סבב גיוס הון אחרון.",
+  "kid": "אורקל קיבלה מספיק כסף כדי לבנות את מחשבי הענק שעוזרים ל-OpenAI לפתח בינה מלאכותית. זה טוב למניות הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "אורקל מדווחת שעסקת התשתיות עם OpenAI ממומנת במלואה",
+    "en": "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
+    "ar": "أوراكل تقول إن صفقة البنية التحتية مع OpenAI ممولة بالكامل",
+    "ru": "Oracle заявляет, что инфраструктурная сделка с OpenAI полностью профинансирована"
+   },
+   "summary": {
+    "he": "חברת אורקל הודיעה כי עסקת בניית תשתיות הבינה המלאכותית עבור OpenAI ממומנת במלואה בעקבות סבב גיוס הון אחרון.",
+    "en": "Oracle stated that its artificial intelligence infrastructure deal for OpenAI is fully funded following a final capital raise.",
+    "ar": "صرحت شركة أوراكل أن صفقة البنية التحتية للذكاء الاصطناعي لـ OpenAI ممولة بالكامل بعد جولة جمع رأس مال نهائية.",
+    "ru": "Компания Oracle заявила, что сделка по созданию инфраструктуры искусственного интеллекта для OpenAI полностью профинансирована."
+   },
+   "kid": {
+    "he": "אורקל קיבלה מספיק כסף כדי לבנות את מחשבי הענק שעוזרים ל-OpenAI לפתח בינה מלאכותית. זה טוב למניות הטכנולוגיה.",
+    "en": "Oracle secured enough money to build the massive supercomputers that help OpenAI build AI. This is positive for tech stocks.",
+    "ar": "حصلت أوراكل على أموال كافية لبناء أجهزة الكمبيوتر العملاقة التي تساعد OpenAI في بناء الذكاء الاصطناعي.",
+    "ru": "Oracle получила достаточно средств для создания мощных суперкомпьютеров, помогающих OpenAI развивать ИИ."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSmpQQVdqRTFyNlZSVVFsZG8yNGJ5WWRaOU1ZRXJXQkJJM05GaXY5ZUpQTndMVVljNXNpYUJDUmF1T3hQcWkzNi1udWc4c3pMV3F6RFk1dUctcG5jOFlRcUJDMV9IM2hBdV9KbUJqSmJVa1lXS19LTUVJcUg3alFNWl9RREgwRUVrRU9LSkFoRGZJUWpxLVB1bzlldWE4VDRHRmczZVBMbXFiYlRVSHQ2S293M1JnZUNMSTdZdEVKTVpMXzA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795213204,
+    "reason": "מימון מלא לעסקאות ענק בתשתיות AI מחזק את אמון המשקיעים בסקטֶר הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "מימון מלא לעסקאות ענק בתשתיות AI מחזק את אמון המשקיעים בסקטֶר הטכנולוגיה.",
+     "en": "Full funding for massive AI infrastructure deals boosts investor confidence in tech.",
+     "ar": "التمويل الكامل لصفقات البنية التحتية الضخمة للذكاء الاصطناعي يعزز ثقة المستثمرين.",
+     "ru": "Полное финансирование крупных сделок в сфере ИИ укрепляет доверие инвесторов."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל נאסד\"ק 100",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق ناسداك 100",
+     "ru": "QQQ - ETF Nasdaq 100"
+    },
+    "price_at_alert": 608.45
+   }
+  ],
+  "id": "5f18bd1c7b3c"
+ },
+ {
+  "ts": 1795213204,
+  "time": "2026-11-20T22:20Z",
+  "title": "צרפת מזמינה 50 אלף פגזים מ-KNDS ומגדילה את כושר הייצור",
+  "summary": "ממשלת צרפת הזמינה 50 אלף פגזי ארטילריה בקליבר 155 מ\"מ מחברת KNDS ופועלת לשילוש כושר הייצור הביטחוני שלה.",
+  "kid": "צרפת קונה הרבה תחמושת צבאית ומגדילה את הייצור במפעלים. זה יכול לעזור למניות הביטחון והנשק.",
+  "i18n": {
+   "title": {
+    "he": "צרפת מזמינה 50 אלף פגזים מ-KNDS ומגדילה את כושר הייצור",
+    "en": "France Orders 50,000 155 mm Shells from KNDS and Moves to Triple Production Capacity",
+    "ar": "فرنسا تطلب 50 ألف قذيفة من KNDS وتحرك لتثليث طاقة الإنتاج",
+    "ru": "Франция заказала 50 000 снарядов у KNDS и увеличивает производственные мощности"
+   },
+   "summary": {
+    "he": "ממשלת צרפת הזמינה 50 אלף פגזי ארטילריה בקליבר 155 מ\"מ מחברת KNDS ופועלת לשילוש כושר הייצור הביטחוני שלה.",
+    "en": "The French government ordered 50,000 155 mm artillery shells from KNDS and is moving to triple its defense manufacturing capacity.",
+    "ar": "طلبت الحكومة الفرنسية 50 ألف قذيفة مدفعية عيار 155 مم من شركة KNDS وتتحرك لمضاعفة قدرتها الإنتاجية الدفاعية ثلاث مرات.",
+    "ru": "Правительство Франции заказало 50 000 артиллерийских снарядов калибра 155 мм у компании KNDS и стремится утроить оборонное производство."
+   },
+   "kid": {
+    "he": "צרפת קונה הרבה תחמושת צבאית ומגדילה את הייצור במפעלים. זה יכול לעזור למניות הביטחון והנשק.",
+    "en": "France is buying a lot of military ammunition and expanding factory production. This can help defense and weapons stocks.",
+    "ar": "تشتري فرنسا الكثير من الذخيرة العسكرية وتوسع إنتاج المصانع. يمكن أن يساعد ذلك أسهم الدفاع.",
+    "ru": "Франция закупает много военной амуниции и расширяет производство. Это может поддержать акции оборонного сектора."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDdsSVE0U3djdk5mT2VjNDdZcm5JeXdISGpyLVhuUmo5YU5VT2hUSEotWGJOUFR3cXU4Q243cFRXcExqTzcxY1pWUzczdnNMTTU2OF9teWlTUHJYeXZFNHhjemxqYXJKRm96dm1PbUpRVDctdDFJTEVXSnZkLXlLbTR5eFFOdXRrOWhDbnN3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795213204,
+    "reason": "הזמנות ענק של תחמושת בציוד צבאי תומכות בביקושים לחברות הביטחון הגלובליות והאמריקאיות.",
+    "reason_i18n": {
+     "he": "הזמנות ענק של תחמושת בציוד צבאי תומכות בביקושים לחברות הביטחון הגלובליות והאמריקאיות.",
+     "en": "Massive ammunition and defense procurement orders support demand for global and US defense firms.",
+     "ar": "تدعم طلبيات الذخيرة والمشتريات الدفاعية الضخمة الطلب على شركات الدفاع.",
+     "ru": "Крупные заказы на боеприпасы и военную технику поддерживают спрос на акции оборонных компаний."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל תעופה וביטחון",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق الفضاء والدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 66.17
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795213204,
+    "reason": "הגדלת תקציבי החימוש והייצור באירופה יוצרת סביבה עסקית חיובית לקבלניות הביטחון הגדולות.",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי החימוש והייצור באירופה יוצרת סביבה עסקית חיובית לקבלניות הביטחון הגדולות.",
+     "en": "Increased European armament and production budgets create a positive business environment for major defense contractors.",
+     "ar": "تخلق ميزانيات التسليح والإنتاج المتزايدة في أوروبا بيئة تجارية إيجابية لمقاول الدفاع الرئيسيين.",
+     "ru": "Увеличение бюджетов на вооружение в Европе создает благоприятную среду для крупных оборонных подрядчиков."
+    },
+    "name_i18n": {
+     "he": "LMT - לוקהיד מרטין",
+     "en": "LMT - Lockheed Martin",
+     "ar": "LMT - لوكهيد مارتن",
+     "ru": "LMT - Lockheed Martin"
+    },
+    "price_at_alert": 565.5
+   }
+  ],
+  "id": "f7ea61ee5aab"
  }
 ]
