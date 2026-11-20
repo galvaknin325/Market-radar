@@ -1815,155 +1815,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794515011,
-  "time": "2026-11-12T20:23Z",
-  "title": "מחירי החיטה בקנזס צונחים ביותר מ-3% מתחת לממוצעים",
-  "summary": "חוזים עתידיים על חיטה בקנזס סיטי ירדו ביותר מ-3% ונסחרים מתחת לכל ממוצעי הנעילה המרכזיים.",
-  "kid": "המחיר של חיטה בארה\"ב ירד בחדות. זה טוב לחברות שמייצרות אוכל כי חומרי הגלם זולים יותר, אבל פחות טוב לחקלאים.",
-  "i18n": {
-   "title": {
-    "he": "מחירי החיטה בקנזס צונחים ביותר מ-3% מתחת לממוצעים",
-    "en": "Kansas City Wheat Slides More Than 3%",
-    "ar": "أسعار القمح في كنساس تهبط بأكثر من 3%",
-    "ru": "Цены на пшеницу в Канзасе упали более чем на 3%"
-   },
-   "summary": {
-    "he": "חוזים עתידיים על חיטה בקנזס סיטי ירדו ביותר מ-3% ונסחרים מתחת לכל ממוצעי הנעילה המרכזיים.",
-    "en": "Kansas City wheat futures fell over 3%, trading below all key moving averages amid bearish market pressures.",
-    "ar": "הبط عقود القمح الآجلة في كنساس سيتي بنسبة تزيد عن 3% لتتداول دون المتوسطات الرئيسية.",
-    "ru": "Фьючерсы на пшеницу в Канзас-Сити упали более чем на 3%, торгуясь ниже ключевых скользящих средних."
-   },
-   "kid": {
-    "he": "המחיר של חיטה בארה\"ב ירד בחדות. זה טוב לחברות שמייצרות אוכל כי חומרי הגלם זולים יותר, אבל פחות טוב לחקלאים.",
-    "en": "The price of wheat in the US dropped sharply. This is good for food companies because ingredients are cheaper, but bad for farmers.",
-    "ar": "انخفض سعر القمح في الولايات المتحدة بشكل حاد. هذا جيد لشركات الأغذية لأن المواد الخام أرخص.",
-    "ru": "Цена на пшеницу в США резко упала. Это хорошо для пищевых компаний, так как сырье дешевле, но плохо для фермеров."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2plNldIc0oxRTVCTGtGSllrTE9icmtIZGNLUFkya2ROYldPS2pjekJ1Y3VmVmlLTERFUDRVbXljWV82bG04eXJPdGtLa1lJTm0wdm43RndrbWtONjltZUt2bWd0eVVUblpXZXNFX1lkUzE3WGtBdHhhOXpNVkZZRGxhQUNsb05xbXo2bnVEWl9rNnBrM0dB?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0N5RzZFZkVVRlEwSmFFdE9sYlZocWRiNmZHdzJrS3pfQnFyMmQ2cGV6b21kVDJKak5CRUxpMUdCUDBabDBJY2N6c1dSYXRWd2h0eVowX0RZV3ROQU9kV2xlLWkyd1ZISC0xNGtLOHRwLVdmcHdPaHhVZ1lESnZwUFdtSG9QMnRFcTNETVExQmZ1VFlYd2ZJRXhNdW9QNGZuVWNCdWx3MERMVGwzY3l1VnNVTEwzOHA5?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "WEAT",
-    "direction": "down",
-    "t0": 1794515011,
-    "reason": "ירידת מחירים ישירה בחוזים העתידיים של החיטה.",
-    "reason_i18n": {
-     "he": "ירידת מחירים ישירה בחוזים העתידיים של החיטה.",
-     "en": "Direct price drop in wheat futures contracts.",
-     "ar": "انخفاض مباشر في أسعار عقود القمح الآجلة.",
-     "ru": "Прямое падение цен на фьючерсы на пшеницу."
-    },
-    "name_i18n": {
-     "he": "קרן סל חיטה",
-     "en": "Wheat Fund",
-     "ar": "صندوق القمح",
-     "ru": "ETF пшеницы"
-    },
-    "price_at_alert": 21.555,
-    "entry_price": 21.5599,
-    "entry_time": "2026-11-12T20:30+00:00",
-    "exit_price": 21.85,
-    "exit_date": "2026-11-13",
-    "change_pct": 1.35,
-    "bench": "SPY",
-    "bench_change_pct": -0.4,
-    "excess_pct": 1.74,
-    "edge_pct": -1.74,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLP",
-    "direction": "up",
-    "t0": 1794515011,
-    "reason": "ירידת מחירי חומרי הגלם החקלאיים מקטינה את עלויות הייצור לחברות המזון.",
-    "reason_i18n": {
-     "he": "ירידת מחירי חומרי הגלם החקלאיים מקטינה את עלויות הייצור לחברות המזון.",
-     "en": "Lower agricultural commodity prices reduce production costs for food companies.",
-     "ar": "انخفاض أسعار السلع الزراعية يقلل تكاليف الإنتاج لشركات الأغذية.",
-     "ru": "Снижение цен на сельхозсырье снижает издержки производства для пищевых компаний."
-    },
-    "name_i18n": {
-     "he": "מוצרי צריכה בסיסיים",
-     "en": "Consumer Staples Sector ETF",
-     "ar": "صندوق قطاع السلع الاستهلاكية الأساسية",
-     "ru": "ETF сектора товаров повседневного спроса"
-    },
-    "price_at_alert": 91.2457,
-    "entry_price": 91.2,
-    "entry_time": "2026-11-12T20:30+00:00",
-    "exit_price": 92.335,
-    "exit_date": "2026-11-13",
-    "change_pct": 1.24,
-    "bench": "SPY",
-    "bench_change_pct": -0.4,
-    "excess_pct": 1.64,
-    "edge_pct": 1.64,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "DBA",
-    "direction": "up",
-    "t0": 1794538225,
-    "reason": "עליית מחירי הדגנים משפיעה לחיוב על מדד הסחורות החקלאיות.",
-    "reason_i18n": {
-     "he": "עליית מחירי הדגנים משפיעה לחיוב על מדד הסחורות החקלאיות.",
-     "en": "Rising grain prices positively impact the broad agriculture commodity index.",
-     "ar": "ارتفاع أسعار الحبوب يؤثر إيجابياً على مؤشر السلع الزراعية.",
-     "ru": "Рост цен на зерно положительно влияет на индекс сельскохозяйственных товаров."
-    },
-    "name_i18n": {
-     "he": "די-בי-איי - קרן סל של סחורות חקלאיות",
-     "en": "DBA - Agriculture fund ETF",
-     "ar": "DBA - صندوق تداول السلع الزراعية",
-     "ru": "DBA - биржевой фонд сельскохозяйственных товаров"
-    },
-    "price_at_alert": 26.3,
-    "entry_price": 26.46,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 26.39,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.26,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.23,
-    "edge_pct": 2.23,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "1840b975797a",
-  "updates": [
-   {
-    "ts": 1794538225,
-    "time": "2026-11-13T02:50Z",
-    "severity": 4,
-    "summary": "מחירי החיטה רשמו עלייה והתאוששו משפל של חודשים עקב דאגות סביב אספקת הדגנים מאזור הים הבלקני.",
-    "i18n": {
-     "he": "מחירי החיטה רשמו עלייה והתאוששו משפל של חודשים עקב דאגות סביב אספקת הדגנים מאזור הים הבלקני.",
-     "en": "Wheat prices rebounded from multi-month lows due to supply concerns originating in the Black Sea region.",
-     "ar": "تعافت أسعار القمح من أدنى مستوياتها لعدة أشهر بسبب مخاوف الإمدادات من منطقة البحر الأسود.",
-     "ru": "Цены на пшеницу восстановились после многомесячных минимумов из-за опасений по поводу поставок из Черноморского региона."
-    }
-   }
-  ],
-  "last_update": 1794538225,
-  "evaluated": true
- },
- {
   "ts": 1794521948,
   "time": "2026-11-12T22:19Z",
   "title": "תקלת ענק בשירותי מיקרוסופט",
@@ -2166,243 +2017,6 @@
    }
   ],
   "last_update": 1794580630,
-  "evaluated": true
- },
- {
-  "ts": 1794531656,
-  "time": "2026-11-13T01:00Z",
-  "title": "בכירי הפד מזהירים מאינפלציה גבוהה בזמן שהין היפני צונח",
-  "summary": "בכיר הפד וויליאמס הדגיש כי האינפלציה נותרת גבוהה מדי, בעוד שהין היפני נפל לשער של 160 מול הדולר על רקע חששות מריביות.",
-  "kid": "נציגי הבנק המרכזי בארה\"ב אומרים שהמחירים עדיין עולים מהר מדי, והמטבע היפני ממשיך להיחלש. זה עלול לגרום לריביות להישאר גבוהות יותר לאורך זמן ולהשפיע לרעה על שוק המניות.",
-  "i18n": {
-   "title": {
-    "he": "בכירי הפד מזהירים מאינפלציה גבוהה בזמן שהין היפני צונח",
-    "en": "Fed Officials Warn Inflation Remains Too High While Yen Drops to 160",
-    "ar": "مسؤولبو الفيدرالي يحذرون من بقاء التضخم مرتفعاً بينما يهبط الين الياباني",
-    "ru": "Чиновники ФРС предупреждают о высокой инфляции, а японская иена падает до 160"
-   },
-   "summary": {
-    "he": "בכיר הפד וויליאמס הדגיש כי האינפלציה נותרת גבוהה מדי, בעוד שהין היפני נפל לשער של 160 מול הדולר על רקע חששות מריביות.",
-    "en": "Fed's Williams stated inflation remains elevated, while the Japanese yen slid to 160 per dollar amid rate policy concerns.",
-    "ar": "أكد مسؤول الفيدرالي ويليامز أن التضخم لا يزال مرتفعاً للغاية، بينما هبط الين الياباني إلى 160 مقابل الدولار وسط مخاوف أسعار الفائدة.",
-    "ru": "Представитель ФРС Уильямс заявил, что инфляция остается слишком высокой, а японская иена упала до 160 за доллар на фоне опасений по поводу ставок."
-   },
-   "kid": {
-    "he": "נציגי הבנק המרכזי בארה\"ב אומרים שהמחירים עדיין עולים מהר מדי, והמטבע היפני ממשיך להיחלש. זה עלול לגרום לריביות להישאר גבוהות יותר לאורך זמן ולהשפיע לרעה על שוק המניות.",
-    "en": "US central bank officials say prices are still rising too fast, and the Japanese currency is weakening. This could mean interest rates stay high for longer, which can weigh on stock prices.",
-    "ar": "يقول مسؤولو البنك المركزي الأمريكي إن الأسعار لا تزال ترتفع بسرعة كبيرة، والعملة اليابانية تضعف. قد يعني هذا بقاء أسعار الفائدة مرتفعة لفترة أطول.",
-    "ru": "Чиновники ЦБ США заявляют, что цены растут слишком быстро, а японская валюта слабеет. Это может означать сохранение высоких ставок дольше, что давит на акции."
-   }
-  },
-  "category": "macro",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOW92bzRnT1piNXdIdzRGLTNqQ3Fzb2JmWWJyU3BkOVlsNzhSUjJUYzR5LUUxaEZZOUt0dGwwekRPVnpPR1FUN3BaYmJmVldPcGxQTDJPZkZXN09NYkNqWkRlcGZuVUltQWdXQmJHZF9jU19zcUxKdVBQRjlEQjlLdjdaelVRdW0tS3AyOUd5SXdSY1M3UGNUZ196d09HaXoxVVVfTkdyVTlvRldLbE5F?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSEhCUmU4WmFfclNRUkUyZERRdUVZSmlHSThab2pMLUVFVFpKQlRLMEo5RTJkTmc0Q1BaTjczTVZ0T0FydEJKMnpQdjZPMmpYZXRNRjRYaUhhQ193YzFoemlYVzY2Z29QY1EzdVVzeWRtbVZKakloNUtvREhnY3o5WGZobnU?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmwxOGI1cll5UUxfWkNqVEVhOEtfWGZaY1phLWdBdzBDVUhzMWJseXBPdTFsU3dQZW5HRlgzbWo2dEx1cWIxMnpjVjdFV1ZvTzJ5UXZDd1RRcFJyUEcyV2pqWndGc21aQ3JJMUtJeHFCM1JsNFg2eklQTkMtLXZacTFqZnhGaFdpTm1jc3p0cEF2aFNRTVJxckJCTy1MaFRnVGw0MUNiNm5qQ1lCRlRj?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM3oxNklicEtqdnVaR3JwakdhUm0yYVc3MVhQQVdLNGFCOEw3N2pkbnpzcUdRd0x0ZF9hdWUwM0ptcEpGTnNKcU9jTGFLMllpeHZrYV8wYUptOFBXMTJrTGhPcktMY1pIT3BlRjVqeGk3SURZQU1SRU1mdnVhb0NIZG82RThtdTdsMWVmVjR6N0dOSy1Mc1hsNFlzdHV0eXE1T0VRSUNJUXFxcmJHYjRlS0NFRmN6VVR4MVdIcHBScTNQTVNrQkE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVVMxcUdCOFVmdlp4cXctRWFPNF9zSkIyRHk2aWFuT3ExenhKbTNaNHFudjQ2dnVxVk1KemIxcnNmb0tVOGZkZ0tLdDNMcU05QkVVRFN2dVpaSk9HYS1zbVlSU1o0ekxRU2pPcVJYNDNBMmo1ZE5PRmZWdVd6dlJuaEcxS3ZNODZFMnJpcEJTX19Hb3JsYXlhb2U5Vnh4cmtoa2dN?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV2lGUWFtQ0hnTnQ3bDF2VnB0emxFTGY3ZllwMVJZMjlHWkxfbzhnY2ZTall6NWUwR3htMG5lb1VyZ1UzWllJQ0Y1bXhfWVg5b3N1Yjg3a0g2c3gwMUFKQmZ0ZDc2c2VOTWNRLTFKaVowZElNWVE4RXg2U0RFMEdad011Z2FaanJGckV6dWFaOUh2RVVoc2RwQTVNWjRKd2s1UlV4Smt3djdFQ3hTelVzTkJvZVpnb0ZubV9YYWRzeTVGYzR1eFJTc1hn0gHPAUFVX3lxTE43aWlwdEtPb19qMlh2SElidGZENEl5X2hacjJmd0ZzREJ6QzVBSU1kNXdIdkJMbGJZZ0xPRVFDSzZIcTdpcThiR01kOE16c3Z1c3h3UFBJdXc3bGp5elpnTWY3b0hrVlVxZHpZcGJxQVpsdW5iTHhlX0dJbldpLUpVY0lnd3pxdEVHLS1tZTc3M1EzcXI5Q0JNaG5MU3hRYWJWOTFSWnZyU2NRUzVvNC1BMkhYYWMyY29VV2Fzd0lZX0cyM21NZjBKeFlueHN3SQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794531656,
-    "reason": "חששות מריביות גבוהות לאורך זמן עקב אינפלציה עיקשת.",
-    "reason_i18n": {
-     "he": "חששות מריביות גבוהות לאורך זמן עקב אינפלציה עיקשת.",
-     "en": "Fears of prolonged high interest rates due to sticky inflation.",
-     "ar": "مخاوف من بقاء أسعار الفائدة مرتفعة لفترة طويلة بسبب التضخم العناد.",
-     "ru": "Опасения длительного сохранения высоких ставок из-за устойчивой инфляции."
-    },
-    "name_i18n": {
-     "he": "SPY – קרן סל עוקבת אחרי מדד S&P 500",
-     "en": "SPY – S&P 500 ETF",
-     "ar": "SPY - صندوق مؤشر الأسهم الأمريكية إس آند بي 500",
-     "ru": "SPY – ETF на индекс S&P 500"
-    },
-    "price_at_alert": 757.12,
-    "entry_price": 758.96,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 740.05,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.49,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.49,
-    "edge_pct": 2.49,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1794531656,
-    "reason": "תשואות האג\"ח עולות על רקע אזהרות אינפלציה ודברי בכירי הפד.",
-    "reason_i18n": {
-     "he": "תשואות האג\"ח עולות על רקע אזהרות אינפלציה ודברי בכירי הפד.",
-     "en": "Bond yields rising amid inflation warnings and Fed commentary.",
-     "ar": "ارتفاع عوائد السندات وسط تحذيرات التضخم وتصريحات الفيدرالي.",
-     "ru": "Рост доходности облигаций на фоне предупреждений об инфляции и комментариев ФРС."
-    },
-    "name_i18n": {
-     "he": "TLT – קרן סל על אג\"ח ממשלתי ארוך טווח בארה\"ב",
-     "en": "TLT – US Long-Term Treasury Bond ETF",
-     "ar": "TLT - صندوق سندات الخزانة الأمريكية طويلة الأجل",
-     "ru": "TLT – ETF долгосрочных гособлигаций США"
-    },
-    "price_at_alert": 79.72,
-    "entry_price": 79.305,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 79.38,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.59,
-    "edge_pct": -2.59,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "FXY",
-    "direction": "down",
-    "t0": 1794531656,
-    "reason": "צניחת שער הין מול הדולר לרמת 160.",
-    "reason_i18n": {
-     "he": "צניחת שער הין מול הדולר לרמת 160.",
-     "en": "The plunge of the Japanese yen toward 160 per dollar.",
-     "ar": "هبوط الين الياباني نحو مستويات 160 مقابل الدولار.",
-     "ru": "Падение курса японской иены к доллару до уровня 160."
-    },
-    "name_i18n": {
-     "he": "FXY – קרן סל על המטבע היפני (ין)",
-     "en": "FXY – Japanese Yen Currency ETF",
-     "ar": "FXY - صندوق العملة اليابانية الين",
-     "ru": "FXY – ETF японской иены"
-    },
-    "price_at_alert": 57.26,
-    "entry_price": 57.25,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 57.445,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.34,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.83,
-    "edge_pct": -2.83,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "GLD",
-    "direction": "down",
-    "t0": 1794535463,
-    "reason": "זהב אינו מניב ריבית, ולכן הוא פחות אטרקטיבי כשהריבית עולה.",
-    "reason_i18n": {
-     "he": "זהב אינו מניב ריבית, ולכן הוא פחות אטרקטיבי כשהריבית עולה.",
-     "en": "Gold pays no interest, making it less attractive when rates rise.",
-     "ar": "الذهب لا يدر فائدة، مما يجعله أقل جاذبية عند ارتفاع أسعار الفائدة.",
-     "ru": "Золото не приносит процентов, что делает его менее привлекательным при росте ставок."
-    },
-    "name_i18n": {
-     "he": "זהב",
-     "en": "Gold",
-     "ar": "الذهب",
-     "ru": "Золото"
-    },
-    "price_at_alert": 354.89,
-    "entry_price": 356.27,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 352.91,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.94,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.55,
-    "edge_pct": -1.55,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "UUP",
-    "direction": "up",
-    "t0": 1794535463,
-    "reason": "ריבית גבוהה מושכת משקיעים למטבע המקומי.",
-    "reason_i18n": {
-     "he": "ריבית גבוהה מושכת משקיעים למטבע המקומי.",
-     "en": "Higher rates attract investors to the currency.",
-     "ar": "أسعار الفائدة المرتفعة تجذب المستثمرين للعملة.",
-     "ru": "Высокие ставки привлекают инвесторов в валюту."
-    },
-    "name_i18n": {
-     "he": "דולר אמריקאי",
-     "en": "US Dollar",
-     "ar": "الدولار الأمريكي",
-     "ru": "Доллар США"
-    },
-    "price_at_alert": 29.42,
-    "entry_price": 29.44,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 29.56,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.41,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.9,
-    "edge_pct": 2.9,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "e8c8d0918b87",
-  "updates": [
-   {
-    "ts": 1794535463,
-    "time": "2026-11-13T02:04Z",
-    "severity": 7,
-    "summary": "בכירי הפד מאותתים כי נדרשת עבודה נוספת כדי להחזיר את האינפלציה ליעד, מה שמוביל לעלייה בציפיות להעלאות ריבית נוספות. מחירי הזהב נסחרים קרוב לשפל של 13 חודשים בעוד הדולר מתחזק.",
-    "i18n": {
-     "he": "בכירי הפד מאותתים כי נדרשת עבודה נוספת כדי להחזיר את האינפלציה ליעד, מה שמוביל לעלייה בציפיות להעלאות ריבית נוספות. מחירי הזהב נסחרים קרוב לשפל של 13 חודשים בעוד הדולר מתחזק.",
-     "en": "Fed officials signal more work is needed to reach inflation targets, fueling expectations for further rate hikes. Gold prices are near 13-month lows while the US dollar strengthens.",
-     "ar": "يشير مسؤولو الاحتياطي الفيدرالي إلى الحاجة لمزيد من العمل للوصول إلى أهداف التضخم، مما يعزز التوقعات بمزيد من رفع أسعار الفائدة. أسعار الذهب تقترب من أدنى مستوياتها في 13 شهراً مع ارتفاع الدولار.",
-     "ru": "Чиновники ФРС сигнализируют о необходимости дальнейших усилий для достижения целей по инфляции, что усиливает ожидания новых повышений ставок. Цены на золото находятся вблизи 13-месячных минимумов, а доллар США укрепляется."
-    }
-   },
-   {
-    "ts": 1794538225,
-    "time": "2026-11-13T02:50Z",
-    "severity": 6,
-    "summary": "בכירי הפדרל רזרב, כולל ג'ון וויליאמס, הדגישו כי האינפלציה בארה\"ב נותרה גבוהה מדי ויש להחזיר אותה ליעד של 2%.",
-    "i18n": {
-     "he": "בכירי הפדרל רזרב, כולל ג'ון וויליאמס, הדגישו כי האינפלציה בארה\"ב נותרה גבוהה מדי ויש להחזיר אותה ליעד של 2%.",
-     "en": "Federal Reserve officials, including John Williams, stressed that US inflation is far too high and must return to the 2% target.",
-     "ar": "أكد مسؤولو الاحتياطي الفيدرالي، بما في ذلك جون وليامز، أن التضخم الأمريكي مرتفع للغاية ويجب أن يعود إلى هدف 2%.",
-     "ru": "Чиновники Федеральной резервной системы, включая Джона Уильямса, подчеркнули, что инфляция в США слишком высока и должна вернуться к целевому показателю в 2%."
-    }
-   }
-  ],
-  "last_update": 1794538225,
   "evaluated": true
  },
  {
@@ -2856,76 +2470,6 @@
    }
   ],
   "last_update": 1794577463,
-  "evaluated": true
- },
- {
-  "ts": 1794538225,
-  "time": "2026-11-13T02:50Z",
-  "title": "מדינת ניו יורק יוצאת במכרז ענק לאגירת אנרגיה",
-  "summary": "מדינת ניו יורק הכריזה על רכש חדש ומשמעותי של גיגאוואט נוסף של מערכות אגירת אנרגיה מתחדשת.",
-  "kid": "מדינת ניו יורק קונה המון ציוד חדש לאגירת חשמל מירוק. זה יכול לעזור לחברות שמייצרות סוללות ומערכות חשמל נקיות להרוויח יותר.",
-  "i18n": {
-   "title": {
-    "he": "מדינת ניו יורק יוצאת במכרז ענק לאגירת אנרגיה",
-    "en": "New York State launches massive energy storage procurement",
-    "ar": "ولاية نيويورك تطلق مناقصة ضخمة لتخزين الطاقة",
-    "ru": "Штат Нью-Йорк запускает масштабную закупку систем хранения энергии"
-   },
-   "summary": {
-    "he": "מדינת ניו יורק הכריזה על רכש חדש ומשמעותי של גיגאוואט נוסף של מערכות אגירת אנרגיה מתחדשת.",
-    "en": "New York State has launched a procurement seeking another gigawatt of renewable energy storage systems.",
-    "ar": "أطلقت ولاية نيويورك عملية شراء جديدة تبحث عن جيجاوات إضافي من أنظمة تخزين الطاقة.",
-    "ru": "Штат Нью-Йорк объявил о закупке дополнительного гигаватта систем хранения энергии."
-   },
-   "kid": {
-    "he": "מדינת ניו יורק קונה המון ציוד חדש לאגירת חשמל מירוק. זה יכול לעזור לחברות שמייצרות סוללות ומערכות חשמל נקיות להרוויח יותר.",
-    "en": "New York state is buying a lot of new gear to store clean energy. This can help companies that make batteries and green power systems earn more money.",
-    "ar": "تشتري ولاية نيويورك الكثير من المعدات لتخزين الطاقة النظيفة. قد يساعد هذا الشركات التي تصنع البطاريات.",
-    "ru": "Штат Нью-Йорк закупает много оборудования для хранения чистой энергии. Это может помочь компаниям по производству батарей."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUkdKeFVycjIzdUs1MWNrQnVjY2R2ZTBGN2JRcW9sNFYtZmVrQXZtZEJlYVVoWkJhR3FGUzIzYnRseVhoRW5MX1VyV0w2bEM5ekF6ZHFsQk03SHZNWElJWmFHclFzaHhTdm13VTF5LXZoR2NqU0pMVmY0aUVxc2tlaFNsT2x6eDd4R0hoUnBEMWJYNTg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ICLN",
-    "direction": "up",
-    "t0": 1794538225,
-    "reason": "הזמנות רכש ממשלתיות גדולות תומכות בסคטור האנרגיה הירוקה.",
-    "reason_i18n": {
-     "he": "הזמנות רכש ממשלתיות גדולות תומכות בסคטור האנרגיה הירוקה.",
-     "en": "Large government procurement supports the clean energy sector.",
-     "ar": "عمليات الشراء الحكومية الكبيرة تدعم قطاع الطاقة النظيفة.",
-     "ru": "Крупные государственные закупки поддерживают сектор чистой энергетики."
-    },
-    "name_i18n": {
-     "he": "איי-סי-אל-אן - קרן סל של אנרגיה ירוקה ומתחדשת",
-     "en": "ICLN - Clean Energy ETF",
-     "ar": "ICLN - صندوق تداول الطاقة النظيفة",
-     "ru": "ICLN - биржевой фонд чистой энергетики"
-    },
-    "price_at_alert": 15.9,
-    "entry_price": 15.9,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 15.3,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.77,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -1.28,
-    "edge_pct": -1.28,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "fcbd6d4f73e4",
   "evaluated": true
  },
  {
@@ -44424,10 +43968,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90TnhLSG0zVGZGU2FHNTF0MlFISXNLNTYtSlVheTR4SEJlV1VSQmZIazZwdnR0RElQSjVCTEZ0VC15Y21KU00zWV9ZTWd1RDIxY09qMEx4c0FHZjA3UmlyMW5fMkJaV3lwZXU4cFBn?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMEgyRjR6Z0dZWTgzT0pneDE5TGhpNkp1RnRiejlVTXFtQjF1bDl4azNfZE5EcExycWVtWVdITlp5OWdTRTFaRFp6QU5fWUxhYWcyY2gxM2VnZV81R1FrQldTVWtWVk1LamgxNGJXN0hxSHYwMGtLU0l0OE1ILXl6UlZVZTVXWUl0cHNQODAzcmFacGl3S0ZEUTVZRUotMlI1aWlPRVprcUZMc21kaVRLdnFiN3DSAboBQVVfeXFMUEpTbXdqN1Q0OVRiWFkyb0Nnai1VVzdMakU4aHNJeWJNeWhfME9MSnBfUENmRkRkb0h5S2FETDdCQ3dSVEplVEJCdk9WTWZfZk9pWmFTM0FtRnZOUnlwemFTSFZMWktDMm5lUmRydzFrWWVzekFzRFBaMDk4YjdlWHlpS3d0UDNoLVFIbmNSUmxRZThJNGlTenVGWDdQRHQtZloyaXFxTFBvd19hVHFvWlBjM29BelpQeDVn?oc=5"
    },
    {
@@ -44437,6 +43977,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDY1NHM0c0JIakJFdE5HQ0VKektEWUl2TnlUT2xSa2JtZnJmT3dwajJVLXBHMGxIa3l6bU1ZcUY3azlBOWUweFBOODktZFZCTGJoM3JjVmRWTXFvVzhINlg3TUlLTFpuYXhDSTd3SkNZYm1LUzJmdG1BSURkTVlyRG9xS1c0ZVY0Tjh6U2M1UVJ2TFUweHQ3cndjS0ZlTEFBWmQxemNRckcyT3ZF0gGyAUFVX3lxTE1VZUc2eVJGLUNGU2pjdjg2ZTNNcXkxQ0lFSTlYblNIZEhOSEgtUC1pM0NwRFg0ODlLc19TSDVUZGcxSWNDWmo5V2l0ZFdhbWl3bHJvd1ZMOGQ5RDk2X1kza2R6RkxUaEZjVmRyLURJbmkzc29BWHFGNktlSWpnWEtlN2NUN19pdEQtUU5Ma1pxX21WVFdQVnBvazE5RzA0ZkVLOUtuUFZiaXQ3ZTU1ZTZWWnc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzNngwNzdHYzdEd0RVQkgtYkNpNFhlVG5ZTVJLelp1cjVxbzNMMVlsc19lejNxNG54NHJsaXdmMWNNa3laMkRudC1EWVlFbTgwbEVMTlk5NVlFR25yRzY4SEhDX09GYk51WGc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS2JhTnZqRkNBU1BYX1RLZVlfQXlvRWhUNTU5eXd4VHJERlFvVXdacnhTYzZ2bWw1VU1PRXFlQnlWdnc2aWxoMkNmRGJRZEFWWWIwWE1QdVZMRFFFeWZPY0xOSTZjaHh5em9uYTJid3NCU0tvaUVaY1FNNXFYOVRIT1UxeFBLM2RRdGY0eHNHeUxDbGxPSWU1Wk1rMk9Jc0tjbWt2WEUyTmxiX1ZLeGs2YU15RFVyNGtwYk1lSkhSU29PSHNx?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ0xhelhKNWhzSTg3RVVnTTJBcVQ5Yl83aDM4aGphX3BCWnN1NTZYT3JjVTVDZXhudzJ3VktESUpaUzVQb2xzcUs3UTdkYUV5b1JEeEF0RmlFc2FnaTVDOG8wb3FWTm4tNnBmcWdoYkxnWHgzLWtBQkxPUnAwdkhTZFg0NU8ybEZSSVVENXJYaHVsLVpwTThSc3BZVFpCVlItTDFsR2xzVEtHLWIwaU13?oc=5"
    }
   ],
   "impacts": [
@@ -44477,9 +44029,43 @@
      "ru": "ETF аэрокосмической и оборонной промышленности США"
     },
     "price_at_alert": 68.255
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795144951,
+    "reason": "עלייה בביקוש למערכות הגנה אווירית בעקבות עימותים",
+    "reason_i18n": {
+     "he": "עלייה בביקוש למערכות הגנה אווירית בעקבות עימותים",
+     "en": "Increased demand for air defense systems following conflicts",
+     "ar": "زيادة الطلب على أنظمة الدفاع الجوي إثر الصراعات",
+     "ru": "Рост спроса на системы ПВО после конфликтов"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - יצרנית נשק",
+     "en": "Lockheed Martin - defense manufacturer",
+     "ar": "لوكهيد مارتن - شركة تصنيع دفاعي",
+     "ru": "Lockheed Martin - производитель оружия"
+    },
+    "price_at_alert": 571.85
    }
   ],
-  "id": "8a7fa0aa7123"
+  "id": "8a7fa0aa7123",
+  "updates": [
+   {
+    "ts": 1795144951,
+    "time": "2026-11-20T03:22Z",
+    "severity": 5,
+    "summary": "ישראל תקפה אתר שיגור לשעבר של חיזבאללה במזרח לבנון, בעוד הקואליציה בהובלת סעודיה ייורטה והרסה טיל ששיגרו החות'ים לעבר דרום המדינה.",
+    "i18n": {
+     "he": "ישראל תקפה אתר שיגור לשעבר של חיזבאללה במזרח לבנון, בעוד הקואליציה בהובלת סעודיה ייורטה והרסה טיל ששיגרו החות'ים לעבר דרום המדינה.",
+     "en": "Israel struck a former Hezbollah missile site in eastern Lebanon, while the Saudi-led coalition intercepted and destroyed a Houthi missile targeting southern Saudi Arabia.",
+     "ar": "شنت إسرائيل غارة على موقع صاروخي سابق لحزب الله في شرق لبنان، بينما اعترض التحالف بقيادة السعودية صاروخاً حوثياً.",
+     "ru": "Израиль нанес удар по бывшему объекту Хезболлы в восточном Ливане, а коалиция во главе с Саудовской Аравией перехватила ракету хуситов."
+    }
+   }
+  ],
+  "last_update": 1795144951
  },
  {
   "ts": 1795118424,
@@ -44747,12 +44333,16 @@
    }
   },
   "category": "geopolitics",
-  "severity": 3,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT19QSDVrLTZFelJkVHZrdUNUWGlDaVhQZ2l3SFdGbGxyTnBId0w3RU9LYjBCSWk2dE1DcmstQ0hrb0h3S21DQ2dySER4SzM5LUdxN3dBQk84WXI1Y0g2YkxkRFBBelIxdTlOUTJtNDYzMGkybkFXWlhScWs2V1dkbnR5cUdHdWMyTThvRzNENHB1RGZSSFNxNVFxQkx2Zw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOTElhU21EV0lORjYwelVad1psUnFpVWZjRDJHd0ZMRlEtNDhMNEY1Tm52dFJ1OF9QLThBUTczRmY2eHd5aWRjZWRyRGd6bzBRdjBlTUhNNTNBdmJ2OTd3TVFUeHpuM012cXE5cXJIY2Y3a0NaQkZwSFh3eV9jVDJQcXB1a0VyaDEtQTR6d0NtMDVnbXR4Y2pVS08zUV93QmpSQXdIcDI4ODNtMWgxZzNubEtzTWowTWlQalJndEtGbnlxQk9YaDNfNUxzaFEwcWVTMEI4eHJEQk04bTZIMnpFX19WVlVJSzVVRlBaUVA3TVgyVzVZd1ZwZ2tpME8yRnlOSFJGcWJn?oc=5"
    }
   ],
   "impacts": [
@@ -44774,9 +44364,43 @@
      "ru": "Lockheed Martin – американский оборонный подрядчик"
     },
     "price_at_alert": 572.75
+   },
+   {
+    "ticker": "EWG",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "עלויות ביטחוניות נוספות ותקציבים מופנים לסיוע צבאי",
+    "reason_i18n": {
+     "he": "עלויות ביטחוניות נוספות ותקציבים מופנים לסיוע צבאי",
+     "en": "Additional security costs and budgets allocated to military aid",
+     "ar": "تكاليف أمنية إضافية وميزانيات مخصصة للمساعدات العسكرية",
+     "ru": "Дополнительные расходы на безопасность и военную помощь"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות גרמניה",
+     "en": "iShares MSCI Germany ETF",
+     "ar": "صندوق الأسهم الألمانية",
+     "ru": "ETF акций Германии"
+    },
+    "price_at_alert": 40.19
    }
   ],
-  "id": "deaa3d17660e"
+  "id": "deaa3d17660e",
+  "updates": [
+   {
+    "ts": 1795144951,
+    "time": "2026-11-20T03:22Z",
+    "severity": 5,
+    "summary": "ראשי גרמניה, צרפת ובריטניה התחייבו במשותף לספק לאוקראינה מערכות הגנה אווירית נוספות וטילים כדי לחזק את ההגנה מול רוסיה.",
+    "i18n": {
+     "he": "ראשי גרמניה, צרפת ובריטניה התחייבו במשותף לספק לאוקראינה מערכות הגנה אווירית נוספות וטילים כדי לחזק את ההגנה מול רוסיה.",
+     "en": "The leaders of Germany, France, and Britain have pledged to supply Kyiv with additional missile defense systems and military equipment.",
+     "ar": "تعهد قادة ألمانيا وفرنسا وبريطانيا بتزويد كييف بأنظمة إضافية للدفاع الجوي والصواريخ.",
+     "ru": "Лидеры Германии, Франции и Великобритании пообещали поставить Киеву дополнительные системы противоракетной обороны."
+    }
+   }
+  ],
+  "last_update": 1795144951
  },
  {
   "ts": 1795121562,
@@ -45403,14 +45027,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGppUkVwUlJkeHRBQ0x4dDYtVXFfQ0c5WG5ELTdmanBiQ1hpaTE4cy1pQTNtRzdwaGU5NUZFY2RJdUVqR2VXSS1sa1lVMW1PeUszR0lhSWtvOHduVDlDYTg0TnRQcWhKRWl6dFVUSkFteXJIUk1FVTZ4SkFwOWJ0V1lmYUhDWWpPWEt0Q1pEd1BFeGRlMEw4dUVrWnQ3YVp6aHpualg5LUM?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVcyYWxfRjFaUjR6Wi1rRlBDemVlU1FPay01M1NQNnpHLXRrdzR5M1RQcEd1cUpFZEU5d1kwX1RtbjNSY21DNThwNDRDN1dUd2FsRXFlVXk4UW9RYUVTanYtd1pUdHhiWVNlcnpyajB0R0llb3pveDc3aDd4UGZWbTgyX1dIMm05czJGdEZham9aTl82ZUV4aHVFdTY?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRzdHWkpTY2JPTGFQdnU1YTk4UXRTdlhEZzFFdk5JS0FWYWhTeTRlLXp3WEhEd3RTWjUwV2xnUVVDbUpWQm1KMWxvOUJEUmtudzEtS0lGb2pOb0VhRnFzSmZreHc2cktydTdKSG5qVU9MTlNSYUhTQlVhR3NBUng1anYyTF92MGhEVElST1RjQnhVcDNRWWdaR3RYZE1GV3hteDFmSDdaUXJUbDhZaXY5MWMweVdJR29rTGdxNm9UUjlNVkdoOEVrcEF5VXNsRXhlXzNvLV8ycG8zU3RrbTQ5eWNVNWZiQ1NMdGptWHRVU29yUTI0M1pLU041MmhQWTRVRlhJSjhrcllaR3c?oc=5"
    },
    {
@@ -45424,6 +45040,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHRPc184TmxfcDdWbkJIODdSQVcxSWVOZlRlNzhkNVpybTJ3eHYtSkxfNVZmMzFFcWlJZWQ0RTVNelg1NEJuTk5jd3JoR0Uwc0VkUTZLWTFiamZ4QWx5eVA1YUkzR2tDamRzeDdUX3dIb2VlM2JNQ2NkWEFpZUZiTXpfS1kwaTBFWmp3Rkk1d3VWbDgtTEdTd3Y0cVd4aDVad0hKdkZtQVZvVzNNRF9hQmZSRmNiNWllT3ZSdUtoVHI4MkxKM3dWd2RB?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU3ZTd2RwakxlSndiQzA5YU80V0ExWG9XYjhGdkI5TjA4LVVZQ0IxNVlmUG81M1VDLUpydTlNR2xodE9OZU9tRmN0WW95R19va200REFxcmpzR2dBUUE2cU5Ba1JiTk5XMjJQQkk5aURnZGIyM2Y3T0xaQU1FQzloNUIwd1IxSlM1OGtEcXJ5LTRNZ2sxazhNQ0JOTkowTUFrQjJVa2VxMFRFMm4xVjR1RFZoaFNCSEQ1dnpoZGZUbnc0eXYyZXp2NldWeGFxZGdzYk1UTm42OE4ycjgtQ0ZuOWg3bS1rQdIB5gFBVV95cUxPU3ZTd2RwakxlSndiQzA5YU80V0ExWG9XYjhGdkI5TjA4LVVZQ0IxNVlmUG81M1VDLUpydTlNR2xodE9OZU9tRmN0WW95R19va200REFxcmpzR2dBUUE2cU5Ba1JiTk5XMjJQQkk5aURnZGIyM2Y3T0xaQU1FQzloNUIwd1IxSlM1OGtEcXJ5LTRNZ2sxazhNQ0JOTkowTUFrQjJVa2VxMFRFMm4xVjR1RFZoaFNCSEQ1dnpoZGZUbnc0eXYyZXp2NldWeGFxZGdzYk1UTm42OE4ycjgtQ0ZuOWg3bS1rQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNV25OMkZsTDF2TnF4RFg3OVJUeS00LUY2OXJpSFZZVEs3bzNGZlNsVmNxekY5TDdtVTN1Tzd6bkdhTVNjajV1YzVya041TjR4Y3p2c3B0dE9SZzdtYjdCd2dYd1RIbklobGpzMXcxbHJNdTRQTGw3ZjV2SWpHSlZwZ0JaZ1B3YWc2MS1IOUh1djJGMTI3M2NiTUhmeXNOOEozdlBKNVNGaGh5emY2ejdGdHpIODczX2wyWi1TQl9BTlhwM1JBWWNNbGFxZkZpa2JVdzEzbjM0R0JMYXo5THFR0gHkAUFVX3lxTFBxTGF1eXVKYzE4VlFNMFlOS3l1VGpQa3l5RTZNN0Q3ZU11bzE2VTV2M0VFSWJaRTlFX3ZsT2VWMm9PSlpZNWxTZEFZLXpyekRTOUFIRUlCLUhqSGs5NXFIcWhTTzBxdWNOTVh2amRZMEwtaHBnYkh5cEMxS245MUozR2cyRnlQQm5KVDNHQVJJNEphN1dXbkY1d3k2dUtmZ0hYR1RrTTcxYm9kVXUzU2phNkhMa1ZQTkRTRFBtQzc2WDJkNEVzMEN1MG9OXzdjbkZ6ODY4NjBvVXFyOEMzemZXbjZERw?oc=5"
    }
   ],
   "impacts": [
@@ -45553,9 +45177,21 @@
      "ar": "أبلغ جي بي مورغان عن هجوم سيبراني أثر على منصات خدمات الطرف الثالث، مما يثير مخاوف بشأن أمن البيانات في القطاع المالي.",
      "ru": "JPMorgan сообщил о кибератаке, затронувшей сторонние сервисные платформы, что вызывает опасения по поводу безопасности данных в финансовом секторе."
     }
+   },
+   {
+    "ts": 1795144951,
+    "time": "2026-11-20T03:22Z",
+    "severity": 4,
+    "summary": "משרד החקלאות האמריקאי נפגע ממתקפת סייבר והורה לעובדים לאפס סיסמאות, בזמן שדליפת נתונים ממתקפה על ספק צד ג' חשפה אימיילים ומספרי טלפון של לקוחות ג'יי פי מורגן.",
+    "i18n": {
+     "he": "משרד החקלאות האמריקאי נפגע ממתקפת סייבר והורה לעובדים לאפס סיסמאות, בזמן שדליפת נתונים ממתקפה על ספק צד ג' חשפה אימיילים ומספרי טלפון של לקוחות ג'יי פי מורגן.",
+     "en": "The US Department of Agriculture suffered a cyberattack requiring password resets, while a third-party breach leaked customer emails and phone numbers for JPMorgan Chase.",
+     "ar": "تعرضت وزارة الزراعة الأمريكية لهجوم سيبراني، بينما كشف خرق لجهة خارجية عن رسائل بريد إلكتروني لعملاء جيه بي مورغان.",
+     "ru": "Министерство сельского хозяйства США подверглось кибератаке, а утечка данных стороннего поставщика раскрыла контакты клиентов JPMorgan Chase."
+    }
    }
   ],
-  "last_update": 1795141954
+  "last_update": 1795144951
  },
  {
   "ts": 1795124981,
@@ -46431,35 +46067,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUh4UDVzVXBwUWhaZFBUa3FqVFdPMHpiT2l1YnlMXzZpWjU0QV9JaXdmWUw4ODk1bC1PdXFZd2RzdkpXdVdiVUtQd3lUQUhabUpCUm1NWkxrekxZSFQ2XzAxVG5DRFRpdWhwdktqazBKLUlUb1ZCSzdqWVpQOVZ1ZmxQdTg4Z1hJQW1rVXJQajBQd3JoVVFhV0pWSDJPel83cnJpVEpSN3NZUTZCUTVyaWhZdzdLT3YtTmJHTDBQZWV6RDJndWswTg?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ3VXbHRTSVhNa1I0X01xWk8xSmVGVWhlNWRUcjA5QlJ4LTNtN054V1ZmYW5nTUJWdHVmd2hhaGQybmYxWVRReTdQTk1sZ0Y0YkNBOGViQnJjNl9LVW1udFNhalBfN0RpeXYzUHNSdTFRQjJ0am9iX2R1X0xOUzQycXA1SGIyRnR0amdJOUt1TmFZTnhEQU45VmhlYXRDVl91Qmc?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82ZW05SGhNbGJsSVZjYzFuclNiaUNJdFd3cEJ0RVludHVJTVNQd3QzMDBBSnFXaWRva09aQUFaR3R0Wkd2aGtHUkJRTEhmdlVCdjBrSC1qM2ZwQXRxREc4WkZUcVM5empDTlVFU3dtekpadmtIV1E?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMVNnSnA2M2RPemJRN0JackdnQjJNbFVDU2lSbUJNNjJWTS04ZWtfSi1qSm0yRHBUcHhzZ1hNUDY3WmMyTUtPWXJiZnJUZWZIZS1wSHNUWHJ0T1p5eHFDb0NEbi1zenhTMGxreXFCYXVEaFRrUDRZRWs5dGVfY2d6UEMzNS1tRDRlX3V6S3FqaWpJQkpjQXl5U3dlUko?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29mc3Fqd1V5SnRGYk9vckRWS2M1eUlWSHI3UVcxcHZ5Q1I3SnJkTWpKZ2twNnRFREl3QjFQa2tnUDdhUEZwQlQ2Sjg2QkVsQXN0bmtVV2I5dzR3RU5WNngwVllxRThldXlPbXQ5UU9PZUdvX204LUtGalhocnNBNmJBenYzSzhaR25xQy1ualAxM1VfY0FlN3JR?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2djdTRsd3hFb2wxMk44djJFdGZOTzFoUHg1amxwMWtOWDRUSzVvZllfUldhOVBfLUVXRVNBcmJHUFYxNnUyS2RkMWtORGhKS1RicjZXYUJBd3haSVVWZlpZTGtETXVJbThscW1NQlF3TFBKWHVoQ0tublhrdU1ESnBoNGhLM1BGcm5oRVFYV2VvX3k1TFFPeXlnZ0VJUlJBRXNjdHNJb280WmlfREMtNmpmZXd3bmh6Q3lEendOWWwtajNFaEE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM2NOOWw3YnlUdXhvb0FwZ2FRcFJQV2p2bVhEbjVoX3A5VUV0c0VPNEc2RkpHVkp5Tld6SE1NQ1p4ODQ3UGZKWEhMdFpPVEZ5QTJ0UXliWXE3amxGNzBKMG5RTnJ2S08yWTFtcWJTRnM3R19Md1A4a2VmQnRIV2xNU0R0dW5OQ3lTYlhNV1BNRFc2anQtMTJRc2ZFTE5NaVI0LUxhMlIwaG9DN0RNVjROMW9B?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzT3cwelNGZmJnWlJLdEdMT296c21yUVZFNlhMdmV6a2YwaDlsczZVOGVnNzRacnZvd3ZQMnpZWmoxWWVsNmJERGsxbjlWREpa?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbml5eWlIdEttWXk0ZkN5aHk0aUVEa3o0bjRuWTg1VVR2cjBTMWFtVDBDUEdXYlJ4dDhidC1pS3V2eEszSlprRDdhZTEydFhDQ05FUENRclIwQ3oxZktEaFVrUXVUWGJHNy1PNHhjNDc2WWkwaU1ldExsLU9teHhHZTZnaHNqajlRSC0wdlNHd0JoMHZUYkw4bzYyR3gwd2VmZzRUWk9qeDdndnZkZlJJbWxPVEtLSGFzNUE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPanMxdTVsTUtiYmtvS0xhZnpsNGpHNHkwZXoyNkcwXzNJQ2xDX1NFVkN3WjVvY0hfRWRqaXFXUmt6Nl9uc0RxVTFZb2ZnY18xb09QNnYzakl1NGJnWXBjTG1HalJJT0dYTnFLeDhEOGNtc21xMXdyTXZ0TFhwa1RwMks2UEFkdV9jY3RjZGRPN3VzQmpxdWdvZWRfZ3hEa0NzMjRqdzFFZ1l5RjYzR0pEa0o3Y2tISGdhV1lxR3F6OS1uX0lmNF9EdmUtSm5VRVU4YnNlR0tR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcVJSSm1CODJEMm5UZVBNbVZKTjhiQmEyZzU5eGVUalVlODlrTlpiMmVkV1dXMVk1TDhZcENQYWwwQzhWSC1TMEtXbzE5TlpaOU03ZmtiV3ZXTGxGOWhoSVRnN0duRXhfdDhIUnJkaVhPanQxTVcwNUJ4dm9OcHFOcXZRR1A5cndPdHU5MTNLWWRZN19xNGdod29wbkRRMXE1aUhzVy1zemt6UEtDdHo4VVU1SHF0OEpP?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMWdDLWJVNHBOdUg1OE9feUFRS3Z6SUtVTnM0NlkyMHNOZ254bU1qTW1RZkZBQ2tuWFpWMTVUeU5JRUMxRC1fUDZvWEE0b1VwQlVFcFhwaHVvOVpWdFlqZ2VPVmlLRzQyWUxkU2Z4N3VzODVtQ0ItRDlwejdTVzl3bTh4SjlKQWVJN3kxV0N4QlVaTlhMb2RwUzVfWU56el9URWgteGdBdFFyYTc2Y1E?oc=5"
    }
   ],
   "impacts": [
@@ -46502,7 +46130,22 @@
     "price_at_alert": 57.38
    }
   ],
-  "id": "dc3b58110b3c"
+  "id": "dc3b58110b3c",
+  "updates": [
+   {
+    "ts": 1795144951,
+    "time": "2026-11-20T03:22Z",
+    "severity": 5,
+    "summary": "מדד המחירים לצרכן ביפן עלה ל-2.2% באוקטובר מה שמגביר את הסיכוי להעלאת ריבית של הבנק המרכזי בדצמבר, בעוד הבנק של סרי לנקה העלה את הריבית ל-9% עקב אינפלציה מתמשכת.",
+    "i18n": {
+     "he": "מדד המחירים לצרכן ביפן עלה ל-2.2% באוקטובר מה שמגביר את הסיכוי להעלאת ריבית של הבנק המרכזי בדצמבר, בעוד הבנק של סרי לנקה העלה את הריבית ל-9% עקב אינפלציה מתמשכת.",
+     "en": "Japan's core inflation hit 2.2% in October, boosting bets of a December BOJ hike, while Sri Lanka's central bank unexpectedly hiked its key rate to 9% amid inflation pressures.",
+     "ar": "بلغ التضخم الأساسي في اليابان 2.2% في أكتوبر، مما عزز توقعات رفع الفائدة، بينما رفع بنك سريلانكا الفائدة إلى 9%.",
+     "ru": "Базовая инфляция в Японии достигла 2.2% в октябре, усиливая ожидания повышения ставки Банком Японии, а Шри-Ланка подняла ставку до 9%."
+    }
+   }
+  ],
+  "last_update": 1795144951
  },
  {
   "ts": 1795133882,
@@ -46887,5 +46530,336 @@
    }
   ],
   "id": "a258e0075878"
+ },
+ {
+  "ts": 1795144951,
+  "time": "2026-11-20T03:22Z",
+  "title": "נפילות בשווקי אסיה על רקע חששות מבועת בינה מלאכותית",
+  "summary": "מדדי המניות ביפן, קוריאה הדרומית, טייוואן והונג קונג צללו בעקבות חששות מהתפוצצות בועת הבינה המלאכותית, מה שהקפיץ את הדולר לשפל של 19 חודשים כנכס מקלט.",
+  "kid": "משקיעים באסיה החלו למכור מניות טכנולוגיה מחשש שההתרגשות סביב מחשבי חכמה מלאכותית גדולה מדי. זה גרם למשקיעים לחפש מקומות בטוחים יותר לשים בהם את הכסף, כמו הדולר האמריקאי.",
+  "i18n": {
+   "title": {
+    "he": "נפילות בשווקי אסיה על רקע חששות מבועת בינה מלאכותית",
+    "en": "Asian markets dive on AI bubble fears",
+    "ar": "هبوط أسواق آسيا وسط مخاوف فقاعة الذكاء الاصطناعي",
+    "ru": "Азиатские рынки падают на опасениях пузыря искусственного интеллекта"
+   },
+   "summary": {
+    "he": "מדדי המניות ביפן, קוריאה הדרומית, טייוואן והונג קונג צללו בעקבות חששות מהתפוצצות בועת הבינה המלאכותית, מה שהקפיץ את הדולר לשפל של 19 חודשים כנכס מקלט.",
+    "en": "Stock indexes in Japan, South Korea, Taiwan, and Hong Kong fell amid a tech sell-off, while the dollar climbed to a 19-month high on safe-haven flows.",
+    "ar": "تراجعت مؤشرات الأسهم في اليابان وكوريا الجنوبية وتايوان وهونغ كونغ وسط عمليات بيع لأسهم التكنولوجيا، بينما صعد الدولار.",
+    "ru": "Индексы акций в Японии, Южной Корее, Тайване и Гонконге упали на фоне распродажи технологических акций, а доллар вырос."
+   },
+   "kid": {
+    "he": "משקיעים באסיה החלו למכור מניות טכנולוגיה מחשש שההתרגשות סביב מחשבי חכמה מלאכותית גדולה מדי. זה גרם למשקיעים לחפש מקומות בטוחים יותר לשים בהם את הכסף, כמו הדולר האמריקאי.",
+    "en": "Investors in Asia sold tech stocks fearing artificial intelligence hype is overdone. This pushed investors toward safe options like the US dollar.",
+    "ar": "باع المستثمرون في آسيا أسهم تكنولوجيا مخافة تضخم أسهم الذكاء الاصطناعي، مما دفعهم إلى ملاذات آمنة كالדולر.",
+    "ru": "Инвесторы в Азии продавали технологические акции из-за опасений по поводу перегрева искусственного интеллекта, толкая вверх доллар."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNellQZFd1QVZGTXg2NWtRRExqdnRjYWpVSUttc241TWtPRVdpOTZjZVB3V3Bkb3l4OGE4RkdDOTRaNFAtbllqME11aVFMMF8tNUR5bGh1c1ItcFV1R1ZONVVTSzFYVzFpNmp1ak1oTTF3RUMyRGEzdWJqeTNhd3dRalFMZ3VfNUliUUlwT3dJWl9aU0dVclZsakJUZ2ZBTm9aNzNqMllSQ1h5SlZSbm5XVmpvTi1xQTBf?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "סנטימנט שלילי גלובלי כלפי מניות טכנולוגיה",
+    "reason_i18n": {
+     "he": "סנטימנט שלילי גלובלי כלפי מניות טכנולוגיה",
+     "en": "Global negative sentiment toward tech stocks",
+     "ar": "معنويات سلبية عالمية تجاه أسهم التكنولوجيا",
+     "ru": "Глобальные негативные настроения в отношении технологических акций"
+    },
+    "name_i18n": {
+     "he": "קוביית נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق ناسداك 100",
+     "ru": "ETF Nasdaq 100"
+    },
+    "price_at_alert": 645.04
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "לחץ מכירות בסקטור השבבים והטכנולוגיה באסיה",
+    "reason_i18n": {
+     "he": "לחץ מכירות בסקטור השבבים והטכנולוגיה באסיה",
+     "en": "Selling pressure in Asian chip and tech sector",
+     "ar": "ضغط بيعي في قطاع الرقائق والتكنولوجيا الآسيوي",
+     "ru": "Давление продаж в азиатском секторе чипов"
+    },
+    "name_i18n": {
+     "he": "קרן סל שבבים ומוליכים למחצה",
+     "en": "Semiconductors ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 447.48
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1795144951,
+    "reason": "מעבר נכסים לנכסי מקלט בטוח",
+    "reason_i18n": {
+     "he": "מעבר נכסים לנכסי מקלט בטוח",
+     "en": "Flight to safe-haven assets",
+     "ar": "التدفق نحو أصول الملاذ الآمن",
+     "ru": "Бегство в безопасные активы"
+    },
+    "name_i18n": {
+     "he": "תעודת סל דולר אמריקאי",
+     "en": "US Dollar ETF",
+     "ar": "صندوق الدولار الأمريكي",
+     "ru": "ETF доллара США"
+    },
+    "price_at_alert": 29.63
+   }
+  ],
+  "id": "157b7fbb202e"
+ },
+ {
+  "ts": 1795144951,
+  "time": "2026-11-20T03:22Z",
+  "title": "מחסור בחומרים מעכב ייצור טילי פטריוט בארה\"ב",
+  "summary": "הפנטגון מתמודד עם בעיות אספקה של חומר הראיון (rayon) הנחוץ לייצור דחוף של טילי פטריוט.",
+  "kid": "לצבא ארה\"ב חסר חומר מיוחד בשם ראיון שבו משתמשים כדי לייצר את טילי הפטריוט להגנה אווירית. זה יכול להשפיע על חברות הביטחון שמייצרות את הטילים כי ייקח יותר זמן להכין אותם.",
+  "i18n": {
+   "title": {
+    "he": "מחסור בחומרים מעכב ייצור טילי פטריוט בארה\"ב",
+    "en": "Material shortage slows US Patriot missile production",
+    "ar": "نقص المواد يبطئ إنتاج صواريخ باتريوت الأمريكية",
+    "ru": "Дефицит материалов замедляет производство ракет Patriot в США"
+   },
+   "summary": {
+    "he": "הפנטגון מתמודד עם בעיות אספקה של חומר הראיון (rayon) הנחוץ לייצור דחוף של טילי פטריוט.",
+    "en": "The Pentagon faces supply chain hurdles with rayon material needed for urgent production of Patriot missiles.",
+    "ar": "تُواجه وزارة الدفاع الأمريكية عقبات في سلاسل الإمداد بمادة الرايون اللازمة للإنتاج العاجل لصواريخ باتريوت.",
+    "ru": "Пентаген сталкивается с трудностями в цепочках поставок материала район, необходимого для срочного производства ракет Patriot."
+   },
+   "kid": {
+    "he": "לצבא ארה\"ב חסר חומר מיוחד בשם ראיון שבו משתמשים כדי לייצר את טילי הפטריוט להגנה אווירית. זה יכול להשפיע על חברות הביטחון שמייצרות את הטילים כי ייקח יותר זמן להכין אותם.",
+    "en": "The US military lacks a special material called rayon used to make Patriot missiles. This could affect defense companies making the missiles because production may slow down.",
+    "ar": "يفتقر الجيش الأمريكي إلى مادة خاصّة تُسمى الرايون تُستخدم لصنع صواريخ باتريوت. قد يؤثر ذلك على شركات الدفاع.",
+    "ru": "У американской армии не хватает специального материала район, используемого для ракет Patriot. Это может повлиять на оборонные компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BOEozME1HbXpIc2tEZ1RVNjE4d21GWGpVN3dZUXU0aEpDU09rS0oyN0FNRjVKU1lPbTN2NS1nQ2F3bGxHSlB4V1RBMkFOLWNKWGpoTm1TbXdNSzM5T3AzQkZmbXpXY2l5eHBtZTZhYUlBQU1ISzFVeHpabw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "בעיות שרשרת אספקה עלולות לעכב ייצור טילים",
+    "reason_i18n": {
+     "he": "בעיות שרשרת אספקה עלולות לעכב ייצור טילים",
+     "en": "Supply chain issues could delay missile production",
+     "ar": "قد تؤدي مشاكل سلاسل الإمداد إلى تأخير إنتاج الصواريخ",
+     "ru": "Проблемы в цепочке поставок могут задержать производство ракет"
+    },
+    "name_i18n": {
+     "he": "ריית'און - יצרנית מערכות הגנה",
+     "en": "RTX - defense systems manufacturer",
+     "ar": "آر تي إكس - شركة تصنيع أنظمة دفاعية",
+     "ru": "RTX - производитель оборонных систем"
+    },
+    "price_at_alert": 193.44
+   },
+   {
+    "ticker": "ITA",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "צווארי בקבוק בייצור פוגעים בסקטור",
+    "reason_i18n": {
+     "he": "צווארי בקבוק בייצור פוגעים בסקטור",
+     "en": "Production bottlenecks weigh on the sector",
+     "ar": "اختناقات الإنتاج تؤثر على القطاع",
+     "ru": "Производственные узкие места давят на сектор"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق مؤشرات قطاع الطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.2
+   }
+  ],
+  "id": "e23a17ead7a7"
+ },
+ {
+  "ts": 1795144951,
+  "time": "2026-11-20T03:22Z",
+  "title": "מתיחות מסחרית בין ארה\"ב לקנדה מתחממת",
+  "summary": "יועץ המסחר של טראמפ תקף בחריפות את הממשל הפדרלי בעוד שיחות הסחר בין ארה\"ב לקנדה מתחממות ומעוררות חששות ממכסים.",
+  "kid": "היחסים המסחריים בין ארה\"ב לקנדה נהיים מתוחים, ויש חשש שיוטלו מסים חדשים על מוצרים שעוברים בין המדינות. זה יכול לייקר סחורות לשkל חברות.",
+  "i18n": {
+   "title": {
+    "he": "מתיחות מסחרית בין ארה\"ב לקנדה מתחממת",
+    "en": "US-Canada trade tensions heat up",
+    "ar": "توترات التجارة بين أمريكا وكندا تتصاعد",
+    "ru": "Торговая напряженность между США и Канадой нарастает"
+   },
+   "summary": {
+    "he": "יועץ המסחר של טראמפ תקף בחריפות את הממשל הפדרלי בעוד שיחות הסחר בין ארה\"ב לקנדה מתחממות ומעוררות חששות ממכסים.",
+    "en": "A Trump trade adviser hurled insults at the federal government as trade talks between Canada and the United States heat up, raising tariff concerns.",
+    "ar": "وجه مستشار تجاري لترامب انتقادات حادة للحكومة الفيدرالية مع احتدام محادثات التجارة بين كندا والولايات المتحدة.",
+    "ru": "Торговый советник Трампа резко раскритиковал федеральное правительство на фоне активизации торговых переговоров между Канадой и США."
+   },
+   "kid": {
+    "he": "היחסים המסחריים בין ארה\"ב לקנדה נהיים מתוחים, ויש חשש שיוטלו מסים חדשים על מוצרים שעוברים בין המדינות. זה יכול לייקר סחורות לשkל חברות.",
+    "en": "Trade relations between the US and Canada are growing tense with potential new tariffs, which could raise costs for cross-border businesses.",
+    "ar": "التجارة بين أمريكا وكندا تواجه توترات ورسوماً جمركية محتملة، مما قد يرفع التكاليف.",
+    "ru": "Торговые отношения между США и Канадой напрягаются из-за возможных новых пошлин, что может повысить затраты бизнеса."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTzdhb1JLb1FuWWhOUm55UjVFZVRTWmZRWmgxY1R0Z0tkalkzckx3bFZXZVVYMkZzemVabzZMMzk2RjQxekVoU2NlN2JVekUwX1lqVDZ5bFQwX21RcEE4b0w2Nkk4cjVDWXVWMEJSaXVRYjJybmlRNHZVQU5qQ2NHYnBET0lOVDl0b3Q1MXpKNXZoSEhmeW8zMEdibnFlSVhaNVdsMkpLX1I3N0tUeTV5WXFPaVFSdnVfLUhTUE5JLXg5U3d2Zzk5NzJrdm0zOGJKbk9STi1JekpIRUpUOWhCYQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWC",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "איומי מכסים ומתחים מסחריים מכבידים על הכלכלה הקנדית",
+    "reason_i18n": {
+     "he": "איומי מכסים ומתחים מסחריים מכבידים על הכלכלה הקנדית",
+     "en": "Tariff threats and trade tensions weigh on Canada's economy",
+     "ar": "تهديدات الرسوم الجمركية والتوترات التجارية تثقل كاهل الاقتصاد الكندي",
+     "ru": "Угрозы пошлин и торговая напряженность давят на экономику Канады"
+    },
+    "name_i18n": {
+     "he": "קרן סל מניות קנדה",
+     "en": "iShares MSCI Canada ETF",
+     "ar": "صندوق الأسهم الكندية",
+     "ru": "ETF акций Канады"
+    },
+    "price_at_alert": 56.25
+   },
+   {
+    "ticker": "FDX",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "סיכון לשיבושים בסחר החוצה גבולות בצפון אמריקה",
+    "reason_i18n": {
+     "he": "סיכון לשיבושים בסחר החוצה גבולות בצפון אמריקה",
+     "en": "Risk of disruptions in cross-border North American trade",
+     "ar": "خطر الاضطرابات في التجارة عبر الحدود بأمريكا الشمالية",
+     "ru": "Риск сбоев в приграничной торговле Северной Америки"
+    },
+    "name_i18n": {
+     "he": "פדדקס - חברת שילוח ולוגיסטיקה",
+     "en": "FedEx - shipping and logistics firm",
+     "ar": "فيديكس - شركة شحن وليجستيات",
+     "ru": "FedEx - логистическая компания"
+    },
+    "price_at_alert": 314.64
+   }
+  ],
+  "id": "2fb8e7ebe66f"
+ },
+ {
+  "ts": 1795144951,
+  "time": "2026-11-20T03:22Z",
+  "title": "שריפת בר חדשה מדווחת במחוז לוס אנג'לס",
+  "summary": "שריפת בר חדשה פרצה במחוז לוס אנג'לס, בתוך תקופה של מזג אוויר קיצוני הכולל גם איומי שיטפון באזור.",
+  "kid": "שריפת יער חדשה התחילה באזור לוס אנג'לס בקליפורניה, במקביל למזג אוויר קשה של שיטפונות. זה עלול לפגוע בבתים ולדרוש הוצאות ביטוח גדולות.",
+  "i18n": {
+   "title": {
+    "he": "שריפת בר חדשה מדווחת במחוז לוס אנג'לס",
+    "en": "New wildfire reported in Los Angeles County",
+    "ar": "الإبلاغ عن حريق غابات جديد في مقاطعة لوس أنجلوس",
+    "ru": "Сообщение о новом лесном пожаре в округе Лос-Анджелес"
+   },
+   "summary": {
+    "he": "שריפת בר חדשה פרצה במחוז לוס אנג'לס, בתוך תקופה של מזג אוויר קיצוני הכולל גם איומי שיטפון באזור.",
+    "en": "A new wildfire broke out in Los Angeles County, compounding severe weather risks alongside ongoing flood threats in Southern California.",
+    "ar": "اندلع حريق غابات جديد في مقاطعة لوس أنجلوس وسط مخاطر طقس قاسية تهدد المنطقة.",
+    "ru": "В округе Лос-Анджелес вспыхнул новый лесной пожар на фоне рисков суровой погоды и угроз наводнений."
+   },
+   "kid": {
+    "he": "שריפת יער חדשה התחילה באזור לוס אנג'לס בקליפורניה, במקביל למזג אוויר קשה של שיטפונות. זה עלול לפגוע בבתים ולדרוש הוצאות ביטוח גדולות.",
+    "en": "A new wildfire started near Los Angeles alongside flood threats, which could cause property damage and impact local insurance claims.",
+    "ar": "بدأ حريق غابات جديد قرب لوس أنجلوس بالتزامن مع تهديدات الفيضانات، مما قد يسبب أضراراً بالممتلكات.",
+    "ru": "Новый лесной пожар начался около Лос-Анджелеса на фоне угроз наводнений, что может привести к имущественному ущербу."
+   }
+  },
+  "category": null,
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xTTlWSUhSQksyelNGRzZnMksxMUc2YWk5MFlEWmFaNmJFMDZRVVFtSFRHVDcxN2Z2cXVrMHctMllRcHJiMnZiOE0wa1hWR1pLSkdaeTRLcG1reGJ4cWpLbldYUTJBbklHT0hhX2ZXX2ZWX1Bh?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TRV",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "עלייה פוטנציאלית בתביעות בגין נזקי שריפות ושיטפונות",
+    "reason_i18n": {
+     "he": "עלייה פוטנציאלית בתביעות בגין נזקי שריפות ושיטפונות",
+     "en": "Potential increase in wildfire and flood damage claims",
+     "ar": "زيادة محتملة في مطالبات أضرار الحرائق والفيضانات",
+     "ru": "Потенциальный рост исков по ущербу от пожаров и наводнений"
+    },
+    "name_i18n": {
+     "he": "טרבלרס - חברת ביטוח",
+     "en": "Travelers - insurance company",
+     "ar": "ترافيلرز - شركة تأمين",
+     "ru": "Travelers - страховая компания"
+    },
+    "price_at_alert": 390.61
+   },
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795144951,
+    "reason": "סיכון לפגיעה ברווחיות עקב אסונות טבע בקליפורניה",
+    "reason_i18n": {
+     "he": "סיכון לפגיעה ברווחיות עקב אסונות טבע בקליפורניה",
+     "en": "Risk of profit hit due to natural disasters in California",
+     "ar": "خطر تراجع الأرباح بسبب الكوارث الطبيعية في كاليفورنيا",
+     "ru": "Риск падения прибыли из-за стихийных бедствий в Калифорнии"
+    },
+    "name_i18n": {
+     "he": "אולסטייט - חברת ביטוח",
+     "en": "Allstate - insurance corporation",
+     "ar": "أולستيت - شركة تأمين",
+     "ru": "Allstate - страховая корпорация"
+    },
+    "price_at_alert": 266.77
+   }
+  ],
+  "id": "9b0f7299b98e"
  }
 ]
