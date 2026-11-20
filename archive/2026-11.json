@@ -125158,7 +125158,12 @@
   "category": "geopolitics",
   "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss"
+   }
+  ],
   "impacts": [
    {
     "ticker": "XLE",
@@ -125215,6 +125220,25 @@
      "ru": "Судоходная компания ZIM"
     },
     "price_at_alert": 29.62
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795133882,
+    "reason": "החמרה במתיחות הגאופוליטית מגבירה את הביקוש למערכות הגנה.",
+    "reason_i18n": {
+     "he": "החמרה במתיחות הגאופוליטית מגבירה את הביקוש למערכות הגנה.",
+     "en": "Worsening geopolitical tensions increase demand for defense systems.",
+     "ar": "تدهور التوترات الجيوسياسية يزيد الطلب على أنظمة الدفاع.",
+     "ru": "Ухудшение геополитической напряженности увеличивает спрос на оборонные системы."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון",
+     "en": "ITA – Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.2
    }
   ],
   "id": "77406e96c82e",
@@ -125230,9 +125254,21 @@
      "ar": "تحذر التحالف بقيادة الولايات المتحدة من أن قوات الحوثي اكتسبت مواقع تتيح لها استهداف الشحن التجاري مع تقدمها نحو عدن.",
      "ru": "Коалиция под руководством США предупреждает, что силы хуситов заняли позиции, позволяющие им угрожать коммерческому судоходству."
     }
+   },
+   {
+    "ts": 1795133882,
+    "time": "2026-11-20T00:18Z",
+    "severity": 6,
+    "summary": "מתקפת טילים של החوثים פגעה במרכז הפיננסים בריאד, סעודיה, בעוד הסכסוך באזור ממשיך להשפיע על שווקי האנרגיה הגלובליים.",
+    "i18n": {
+     "he": "מתקפת טילים של החوثים פגעה במרכז הפיננסים בריאד, סעודיה, בעוד הסכסוך באזור ממשיך להשפיע על שווקי האנרגיה הגלובליים.",
+     "en": "A Houthi missile attack struck Riyadh's financial center in Saudi Arabia, as regional conflict continues to leave lasting marks on global energy markets.",
+     "ar": "ضرب هجوم صاروخي حوثي المركز المالي في الرياض بالسعودية، بينما يستمر الصراع الإقليمي في ترك آثار دائم على أسواق الطاقة العالمية.",
+     "ru": "Ракетный удар хуситов поразил финансовый центр Эр-Рияда в Саудовской Аравии, поскольку региональный конфликт продолжает оказывать влияние на мировые рынки энергии."
+    }
    }
   ],
-  "last_update": 1795131042
+  "last_update": 1795133882
  },
  {
   "ts": 1795124981,
@@ -125444,14 +125480,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnZ2Ml9NcE1sVjM3dl9FcVo1RVdTTmh6VkJGeVVxOE41NnJYVUtfNzBMVExMelpwZ2ZycGJqcG42NzlCMGF2MmhoSXZoX2hZb1lMR19mZGxLSXctTzRxRm5ZZXRXN2UyNlQzRmIwWEQ1djdjUFVpNUZjSmNjQmwzSjE1NjVSNm15Rl9TaVRGN01iZ0dvMDY2NndNVTMwTDdwelJjazdSOTZfX1Y1OUtRQXBobDliNE5NNFBFWlpDLWQ0ejJQa1NrUnRNbUwxNXN6?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ2t0T0RJU0xTSTJudFBpdTZtQ3REZlJ0M1RURTNOM28wQnRoWTNlVUxuZGdiSHMzVnJLVUZkUXFXM1YweDFsQmVMd3lFSEkxWWdWSFJLcG9Hc2ZDU1BzVUxTMHE5MEVTb3BwdVB1djJWRmUyQWRYaWlLTnc4Sk5Zd055QW9jRnh6cFRWUUhyNWJDQlZMQTQtNnpPd2dLVTE3cGJ4U2VYQjNpVEVHUVp2WDRTdmFySDBxNXFQV1R2MGtabUdRLU02S3Z3?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGppUkVwUlJkeHRBQ0x4dDYtVXFfQ0c5WG5ELTdmanBiQ1hpaTE4cy1pQTNtRzdwaGU5NUZFY2RJdUVqR2VXSS1sa1lVMW1PeUszR0lhSWtvOHduVDlDYTg0TnRQcWhKRWl6dFVUSkFteXJIUk1FVTZ4SkFwOWJ0V1lmYUhDWWpPWEt0Q1pEd1BFeGRlMEw4dUVrWnQ3YVp6aHpualg5LUM?oc=5"
    },
    {
@@ -125465,6 +125493,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEFINUdzay1YQWE2Y29mcDdDV3RwNWdTQVBhZmlwMFZsVXNVWW13MTJhS0QyemdwMHVVYkx1YWpzc3U1ZEVnQmdQUjBaYldNa3U1ak9nZm5Pd2h4MEsyeF9TX3Rja3h6T2d5ejRLSDJCQWt2UnZvWDRBTjVxM3RNMHJmcnN3M0xtNWdXOW9ncDZOQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdjdOZjFIYnFnMmNlMklSQl9VZ252QVM1UWw4Z3l4U20zWDQ3R3lROVZuVnM0eTFVYVlTT3ViU1I0S1VNOGdlVjRpZkVNWHVfSFNKaUV6R3VBVjUyZE9QTGV1UGxWTkE1NVI5OF9lVDdLbFBYWGFNZmVqaEg2cjgwZUhldFRrNWpyaVdkVXN0RjRxVzhlbWpLTTc0LXEzcDF5M1RYeGZ1ZWdfRWl2VjBjWU5TMXNmamFHVGQ1UThZZw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHRPc184TmxfcDdWbkJIODdSQVcxSWVOZlRlNzhkNVpybTJ3eHYtSkxfNVZmMzFFcWlJZWQ0RTVNelg1NEJuTk5jd3JoR0Uwc0VkUTZLWTFiamZ4QWx5eVA1YUkzR2tDamRzeDdUX3dIb2VlM2JNQ2NkWEFpZUZiTXpfS1kwaTBFWmp3Rkk1d3VWbDgtTEdTd3Y0cVd4aDVad0hKdkZtQVZvVzNNRF9hQmZSRmNiNWllT3ZSdUtoVHI4MkxKM3dWd2RB?oc=5"
    }
   ],
   "impacts": [
@@ -125524,6 +125560,25 @@
      "ru": "Visa – глобальный платежный оператор"
     },
     "price_at_alert": 402.25
+   },
+   {
+    "ticker": "JPM",
+    "direction": "down",
+    "t0": 1795133882,
+    "reason": "חששות סביב אבטחת מידע ועלויות תפעוליות בעקבות מתקפת הסייבר.",
+    "reason_i18n": {
+     "he": "חששות סביב אבטחת מידע ועלויות תפעוליות בעקבות מתקפת הסייבר.",
+     "en": "Concerns over data security and operational costs following the cyber incident.",
+     "ar": "مخاوف بشأن أمن البيانات والتكاليف التشغيلية إثر الحادث السيبراني.",
+     "ru": "Опасения по поводу безопасности данных и операционных издержек после киберинцидента."
+    },
+    "name_i18n": {
+     "he": "JPM – ג'יי פי מורגן",
+     "en": "JPM – JPMorgan Chase",
+     "ar": "JPM - جيه بي مورغان",
+     "ru": "JPMorgan Chase"
+    },
+    "price_at_alert": 320.22
    }
   ],
   "id": "5df31c0bd89e",
@@ -125551,9 +125606,21 @@
      "ar": "أكد جيه بي مورجان تشيس وفيزا وماستركارد أن بائعين من الأطراف الثالثة استهدفوا في هجوم سيبراني، مما قد يعرض بيانات العملاء للخطر.",
      "ru": "JPMorgan Chase, Visa и Mastercard подтвердили, что сторонние поставщики подверглись кибератаке, что привело к возможному утечке данных клиентов."
     }
+   },
+   {
+    "ts": 1795133882,
+    "time": "2026-11-20T00:18Z",
+    "severity": 4,
+    "summary": "ענקית הפיננסים ג'יי פי מורגן אישרה כי פרטי לקוחות נחשפו כתוצאה מתקפת סייבר, וקשרה את התקרית גם לשיבושי שירות שחוו לקוחות במהלך השבוע.",
+    "i18n": {
+     "he": "ענקית הפיננסים ג'יי פי מורגן אישרה כי פרטי לקוחות נחשפו כתוצאה מתקפת סייבר, וקשרה את התקרית גם לשיבושי שירות שחוו לקוחות במהלך השבוע.",
+     "en": "Financial giant JPMorgan Chase stated that customer data was exposed during a cyberattack, which the bank also blamed for recent banking service outages.",
+     "ar": "أكد العملاق المالي جيه بي مورغان أن بيانات العملاء تم كشفها نتيجة هجوم سيبراني، وألقى اللوم عليه في انقطاع الخدمات المصرفية مؤخراً.",
+     "ru": "Финансовый гигант JPMorgan Chase сообщил, что данные клиентов были раскрыты в результате кибератаки, которая также стала причиной недавних сбоев в работе банка."
+    }
    }
   ],
-  "last_update": 1795131042
+  "last_update": 1795133882
  },
  {
   "ts": 1795124981,
@@ -126353,5 +126420,172 @@
    }
   ],
   "id": "3b3d3df09211"
+ },
+ {
+  "ts": 1795133882,
+  "time": "2026-11-20T00:18Z",
+  "title": "האינפלציה ביפן מואצת וגובר הציפוי להעלאת ריבית הבנק המרכזי",
+  "summary": "מדד המחירים לצרכן ביפן רשם עלצה באוקטובר, כאשר אינפלציית הליבה עלתה והגיעה ל-2.2%, מה שמחזק את ההערכות שהבנק המרכזי של יפן (BOJ) יעלה את הריבית בדצמבר.",
+  "kid": "המחירים ביפן עולים יותר מבעבר. זה גורם למומחים לחשוב שהבנק המרכזי יעלה בקרוב את הריבית, מה שעשוי להשפיע על ערך המטבע היפני ועל שוקי המניות.",
+  "i18n": {
+   "title": {
+    "he": "האינפלציה ביפן מואצת וגובר הציפוי להעלאת ריבית הבנק המרכזי",
+    "en": "Japan inflation accelerates, reinforcing expectations of BOJ rate hike",
+    "ar": "تتسارع التضخم في اليابان، مما يعزز توقعات رفع أسعار الفائدة من قبل البنك المركزي",
+    "ru": "Инфляция в Японии ускоряется, усиливая ожидания повышения ставки ЦБ"
+   },
+   "summary": {
+    "he": "מדד המחירים לצרכן ביפן רשם עלצה באוקטובר, כאשר אינפלציית הליבה עלתה והגיעה ל-2.2%, מה שמחזק את ההערכות שהבנק המרכזי של יפן (BOJ) יעלה את הריבית בדצמבר.",
+    "en": "Japan's consumer and core inflation accelerated in October, with core figures reaching around 2.2%, cementing market expectations for a Bank of Japan interest rate hike in December.",
+    "ar": "تسارع التضخم الأساسي في اليابان في أكتوبر ليصل إلى نحو 2.2%، مما يعزز توقعات السوق بأن يقوم بنك اليابان برفع أسعار الفائدة في ديسمبر.",
+    "ru": "Базовая инфляция в Японии ускорилась в октябре, достигнув примерно 2,2%, что укрепляет рыночные ожидания повышения ставки Банком Японии в декабре."
+   },
+   "kid": {
+    "he": "המחירים ביפן עולים יותר מבעבר. זה גורם למומחים לחשוב שהבנק המרכזי יעלה בקרוב את הריבית, מה שעשוי להשפיע על ערך המטבע היפני ועל שוקי המניות.",
+    "en": "Prices in Japan are rising faster. This makes experts think the central bank will soon raise interest rates, which can change the value of Japanese money and affect stock markets.",
+    "ar": "الأسعار في اليابان ترتفع بشكل أسرع. هذا يجعل الخبراء يعتقدون أن البنك المركزي سيقوم قريباً بررفع أسعار الفائدة، مما قد يؤثر على قيمة العملة وأسواق الأسهم.",
+    "ru": "Цены в Японии растут быстрее. Это заставляет экспертов думать, что центральный банк скоро повысит процентные ставки, что может повлиять на курс японской иены и фондовые рынки."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUh4UDVzVXBwUWhaZFBUa3FqVFdPMHpiT2l1YnlMXzZpWjU0QV9JaXdmWUw4ODk1bC1PdXFZd2RzdkpXdVdiVUtQd3lUQUhabUpCUm1NWkxrekxZSFQ2XzAxVG5DRFRpdWhwdktqazBKLUlUb1ZCSzdqWVpQOVZ1ZmxQdTg4Z1hJQW1rVXJQajBQd3JoVVFhV0pWSDJPel83cnJpVEpSN3NZUTZCUTVyaWhZdzdLT3YtTmJHTDBQZWV6RDJndWswTg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ3VXbHRTSVhNa1I0X01xWk8xSmVGVWhlNWRUcjA5QlJ4LTNtN054V1ZmYW5nTUJWdHVmd2hhaGQybmYxWVRReTdQTk1sZ0Y0YkNBOGViQnJjNl9LVW1udFNhalBfN0RpeXYzUHNSdTFRQjJ0am9iX2R1X0xOUzQycXA1SGIyRnR0amdJOUt1TmFZTnhEQU45VmhlYXRDVl91Qmc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82ZW05SGhNbGJsSVZjYzFuclNiaUNJdFd3cEJ0RVludHVJTVNQd3QzMDBBSnFXaWRva09aQUFaR3R0Wkd2aGtHUkJRTEhmdlVCdjBrSC1qM2ZwQXRxREc4WkZUcVM5empDTlVFU3dtekpadmtIV1E?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMVNnSnA2M2RPemJRN0JackdnQjJNbFVDU2lSbUJNNjJWTS04ZWtfSi1qSm0yRHBUcHhzZ1hNUDY3WmMyTUtPWXJiZnJUZWZIZS1wSHNUWHJ0T1p5eHFDb0NEbi1zenhTMGxreXFCYXVEaFRrUDRZRWs5dGVfY2d6UEMzNS1tRDRlX3V6S3FqaWpJQkpjQXl5U3dlUko?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29mc3Fqd1V5SnRGYk9vckRWS2M1eUlWSHI3UVcxcHZ5Q1I3SnJkTWpKZ2twNnRFREl3QjFQa2tnUDdhUEZwQlQ2Sjg2QkVsQXN0bmtVV2I5dzR3RU5WNngwVllxRThldXlPbXQ5UU9PZUdvX204LUtGalhocnNBNmJBenYzSzhaR25xQy1ualAxM1VfY0FlN3JR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2djdTRsd3hFb2wxMk44djJFdGZOTzFoUHg1amxwMWtOWDRUSzVvZllfUldhOVBfLUVXRVNBcmJHUFYxNnUyS2RkMWtORGhKS1RicjZXYUJBd3haSVVWZlpZTGtETXVJbThscW1NQlF3TFBKWHVoQ0tublhrdU1ESnBoNGhLM1BGcm5oRVFYV2VvX3k1TFFPeXlnZ0VJUlJBRXNjdHNJb280WmlfREMtNmpmZXd3bmh6Q3lEendOWWwtajNFaEE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM2NOOWw3YnlUdXhvb0FwZ2FRcFJQV2p2bVhEbjVoX3A5VUV0c0VPNEc2RkpHVkp5Tld6SE1NQ1p4ODQ3UGZKWEhMdFpPVEZ5QTJ0UXliWXE3amxGNzBKMG5RTnJ2S08yWTFtcWJTRnM3R19Md1A4a2VmQnRIV2xNU0R0dW5OQ3lTYlhNV1BNRFc2anQtMTJRc2ZFTE5NaVI0LUxhMlIwaG9DN0RNVjROMW9B?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1795133882,
+    "reason": "ריבית גבוהה יותר עלולה להכביד על השוק המקומי ביפן.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה יותר עלולה להכביד על השוק המקומי ביפן.",
+     "en": "Higher interest rates could pressure the domestic Japanese market.",
+     "ar": "قد تؤدي أسعار الفائدة الأعلى إلى الضغط على السوق المحلي الياباني.",
+     "ru": "Более высокие процентные ставки могут оказать давление на внутренний рынок Японии."
+    },
+    "name_i18n": {
+     "he": "EWJ – קרן סל על מניות יפן",
+     "en": "EWJ – Japan ETF",
+     "ar": "EWJ - صندوق أسهم اليابان",
+     "ru": "EWJ – ETF на акции Японии"
+    },
+    "price_at_alert": 87.01
+   },
+   {
+    "ticker": "FXY",
+    "direction": "up",
+    "t0": 1795133882,
+    "reason": "ציפיות להעלאת ריבית מחזקות את המטבע המקומי.",
+    "reason_i18n": {
+     "he": "ציפיות להעלאת ריבית מחזקות את המטבע המקומי.",
+     "en": "Rate hike expectations strengthen the local currency.",
+     "ar": "توقعات رفع الفائدة تقوي العملة المحلية.",
+     "ru": "Ожидания повышения ставки укрепляют местную валюту."
+    },
+    "name_i18n": {
+     "he": "FXY – קרן סל על הין היפני",
+     "en": "FXY – Japanese Yen ETF",
+     "ar": "FXY - صندوق الين الياباني",
+     "ru": "FXY – ETF на японскую иену"
+    },
+    "price_at_alert": 57.38
+   }
+  ],
+  "id": "dc3b58110b3c"
+ },
+ {
+  "ts": 1795133882,
+  "time": "2026-11-20T00:18Z",
+  "title": "ארה\"ב הטילה סנקציות על בכירי מאפיה וגורמים פליליים בקנדה ובאיטליה",
+  "summary": "ממשלת ארה\"ב הטילה סנקציות על שישה גברים קנדים המוגדרים כבוסים רבי-עוצמה במאפיה, כולל קשרים לעסקים מקומיים כמו בתי לוויות באזור טורונטו.",
+  "kid": "ארה\"ב מטילה עונשים כלכליים קשים על ראשי פשע מאורגן שפועלים בקנדה. פעולה זו מקשה עליהם לבצע פעולות פיננסיות ועלולה להשפיע על חברות קשורות.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב הטילה סנקציות על בכירי מאפיה וגורמים פליליים בקנדה ובאיטליה",
+    "en": "U.S. imposes sanctions on mafia bosses and criminal figures in Canada",
+    "ar": "الولايات المتحدة تفرض عقوبات على زعماء مافيا وشخصيات إجرامية في كندا",
+    "ru": "США вводят санкции против боссов мафии и криминальных авторитетов в Канаде"
+   },
+   "summary": {
+    "he": "ממשלת ארה\"ב הטילה סנקציות על שישה גברים קנדים המוגדרים כבוסים רבי-עוצמה במאפיה, כולל קשרים לעסקים מקומיים כמו בתי לוויות באזור טורונטו.",
+    "en": "The U.S. government has sanctioned six Canadian men identified as powerful mafia bosses with global reach, targeting local networks including funeral homes in the Toronto area.",
+    "ar": "فرضت الحكومة الأمريكية عقوبات على ستة رجال كناديين يُعتبرون زعماء مافيا أقوياء ذوي نفوذ عالمي، وتستهدف الشبكات المحلية بما في ذلك دور العزاء.",
+    "ru": "Правительство США ввело санкции против шести канадских граждан, считающихся влиятельными боссами мафии, затронув местные сети, включая похоронные бюро в районе Торонто."
+   },
+   "kid": {
+    "he": "ארה\"ב מטילה עונשים כלכליים קשים על ראשי פשע מאורגן שפועלים בקנדה. פעולה זו מקשה עליהם לבצע פעולות פיננסיות ועלולה להשפיע על חברות קשורות.",
+    "en": "The U.S. is placing tough economic punishments on organized crime leaders operating in Canada. This makes it hard for them to move money and can affect linked businesses.",
+    "ar": "تفرض الولايات المتحدة عقوبات اقتصادية صارمة على زعماء الجريمة المنظمة العاملين في كندا، مما يصعّب عليهم نقل الأموال.",
+    "ru": "США вводят жесткие экономические санкции против лидеров организованной преступности в Канаде, затрудняя их финансовые операции."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zQWI2TG9HSlNXNEIwMjZQdC1fZTByaFR1Uk9HaGljQ1Z0N0tQNjlYWHd1RXRmRlRCNktleXRlYXZMT01hS2k3UnlER1p6NjFBVU9fZkdIOF80UUpHeU9KSzJvSndqdTdPbWlqbmRlSmdXelZnbG5NYU1GZFMwdw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPem1wZW1SbkpaeV8zREE1R3BMTVA2TUhueTk0cU1hUmR4SlV1RHc4V19xeERQZ3MteUhZX21NZ0NMQ2Mwb3pydlQtSGtQR0FwbmttYWM1ZmlPRnYzWVZqRHh5VnZlWDRIR0ttX1RYVHdGMF96Z3UzZ21NX05URWNFQW9B?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWC",
+    "direction": "down",
+    "t0": 1795133882,
+    "reason": "פעולות אכיפה וסנקציות אמריקאיות רחבות על גורמים בקנדה מעיבות זמנית על הסנטימנט הכלכלי.",
+    "reason_i18n": {
+     "he": "פעולות אכיפה וסנקציות אמריקאיות רחבות על גורמים בקנדה מעיבות זמנית על הסנטימנט הכלכלי.",
+     "en": "Broad U.S. enforcement actions and sanctions on Canadian entities weigh temporarily on sentiment.",
+     "ar": "إجراءات إنفاذ العقوبات الأمريكية الواسعة على كيانات كندية تلقي بظلالها مؤقتاً على المعنويات.",
+     "ru": "Широкие меры США и санкции против канадских лиц временно давят на настроения."
+    },
+    "name_i18n": {
+     "he": "EWC – קרן סל על מניות קנדה",
+     "en": "EWC – Canada ETF",
+     "ar": "EWC - صندوق أسهم كندا",
+     "ru": "EWC – ETF на акции Канады"
+    },
+    "price_at_alert": 56.25
+   }
+  ],
+  "id": "4f8fdfbac47a"
  }
 ]
