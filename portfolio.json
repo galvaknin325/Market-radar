@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T13:05Z",
+ "generated": "2026-11-20T14:22Z",
  "trade_size": 1000,
  "important": {
   "trades": 300,
@@ -687,11 +687,11 @@
   ]
  },
  "all": {
-  "trades": 864,
+  "trades": 865,
   "wins": 432,
-  "hits": 435,
-  "pnl": 313.2,
-  "bench_pnl": -6145.8,
+  "hits": 436,
+  "pnl": 289.6,
+  "bench_pnl": -6177.9,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -796,9 +796,33 @@
     "date": "2026-11-19",
     "equity": 313.2,
     "bench": -6145.8
+   },
+   {
+    "date": "2026-11-20",
+    "equity": 289.6,
+    "bench": -6177.9
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-20",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "8d895541f2fd",
+    "title": "הודו וישראל חתמו על עסקת שדרוג מערכת ברק",
+    "title_i18n": {
+     "he": "הודו וישראל חתמו על עסקת שדרוג מערכת ברק",
+     "en": "India and Israel sign deal to upgrade Barak missile system",
+     "ar": "الهند وإسرائيل توقعان صفقة لتحديث نظام صواريخ باراك",
+     "ru": "Индия и Израиль подписали сделку по модернизации системы ПРО Барак"
+    },
+    "change_pct": -2.36,
+    "hit": true,
+    "pnl": -23.6,
+    "bench_pnl": -32.1
+   },
    {
     "date": "2026-11-19",
     "ticker": "ZIM",
@@ -1348,25 +1372,6 @@
     "change_pct": -8.29,
     "hit": true,
     "pnl": 82.9,
-    "bench_pnl": -24.0
-   },
-   {
-    "date": "2026-11-19",
-    "ticker": "NOC",
-    "dir": "up",
-    "severity": 6,
-    "cat": "contracts",
-    "id": "44232d854199",
-    "title": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
-    "title_i18n": {
-     "he": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
-     "en": "Proposed $1.1 trillion defense budget",
-     "ar": "مقترح ميزانية دفاع بقيمة 1.1 تريليون دولار",
-     "ru": "Предложенный оборонный бюджет в 1,1 трлн долларов"
-    },
-    "change_pct": -0.87,
-    "hit": true,
-    "pnl": -8.7,
     "bench_pnl": -24.0
    }
   ]

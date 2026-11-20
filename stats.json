@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-20T13:05Z",
+ "generated": "2026-11-20T14:22Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1228,
+ "total_alerts": 1230,
  "overall": {
-  "n": 864,
-  "hits": 435,
+  "n": 865,
+  "hits": 436,
   "avg_edge": 0.06
  },
  "by_category": {
@@ -19,8 +19,8 @@
    "avg_edge": 0.23
   },
   "contracts": {
-   "n": 178,
-   "hits": 89,
+   "n": 179,
+   "hits": 90,
    "avg_edge": -0.11
   },
   "cyber": {
@@ -61,8 +61,8 @@
    "avg_edge": -0.47
   },
   "4-5": {
-   "n": 419,
-   "hits": 215,
+   "n": 420,
+   "hits": 216,
    "avg_edge": 0.08
   },
   "6-7": {
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 137,
+   "mentions": 138,
    "n": 127,
    "hits": 64,
    "name": {
-    "he": "קרן סל נפט גולמי",
-    "en": "Crude Oil Fund",
-    "ar": "صندوق النفط الخام",
-    "ru": "Фонд сырой нефти"
+    "he": "תעודת סל נפט",
+    "en": "Oil ETF",
+    "ar": "صندوق استثمار للنفط",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.21
   },
@@ -114,14 +114,14 @@
    "avg_edge": 0.79
   },
   "XOM": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 41,
    "hits": 16,
    "name": {
-    "he": "XOM – אקסון מוביל (אנרגיה)",
-    "en": "XOM – ExxonMobil Corporation",
-    "ar": "XOM - شركة إكسون موبيل للطاقة",
-    "ru": "XOM — ExxonMobil"
+    "he": "אקסון מוביל",
+    "en": "Exxon Mobil",
+    "ar": "إكسون موبيل",
+    "ru": "Exxon Mobil"
    },
    "avg_edge": -0.26
   },
@@ -150,14 +150,14 @@
    "avg_edge": -0.03
   },
   "ITA": {
-   "mentions": 214,
+   "mentions": 215,
    "n": 190,
    "hits": 122,
    "name": {
-    "he": "קרן סל לתעשייה הביטחונית",
-    "en": "US Aerospace & Defense ETF",
-    "ar": "صندوق استثماري لقطاع الدفاع الأمريكي",
-    "ru": "ETF аэрокосмической и оборонной промышленности США"
+    "he": "תעודת סל של חברות ביטחוניות",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق استثمار لشركات الدفاع",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -0.99
   },
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 11,
-   "n": 9,
-   "hits": 4,
+   "n": 10,
+   "hits": 5,
    "name": {
     "he": "אלביט מערכות בבורסת ת\"א",
     "en": "Elbit Systems on TASE",
     "ar": "إلبيط سيستمز في بورصة تل أبيب",
     "ru": "Elbit Systems на бирже Тель-Авива"
    },
-   "avg_edge": -0.63
+   "avg_edge": -0.48
   },
   "ESLT": {
    "mentions": 29,
@@ -210,14 +210,14 @@
    "avg_edge": 0.17
   },
   "NVDA": {
-   "mentions": 69,
+   "mentions": 70,
    "n": 62,
    "hits": 31,
    "name": {
-    "he": "אנבידיה – יצרנית שבבי בינה מלאכותית",
-    "en": "Nvidia – AI chip maker",
-    "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
-    "ru": "Nvidia – производитель чипов ИИ"
+    "he": "אנבידיה",
+    "en": "Nvidia",
+    "ar": "إنفيديا",
+    "ru": "Nvidia"
    },
    "avg_edge": 0.7
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.1
   },
   "LMT": {
-   "mentions": 83,
+   "mentions": 84,
    "n": 76,
    "hits": 47,
    "name": {
-    "en": "Lockheed Martin – a major defense contractor",
-    "he": "לוקהיד מרטין – קבלנית ביטחונית גדולה",
-    "ar": "لوكهيد مارتن - مقاول دفاعي كبير",
-    "ru": "Lockheed Martin — крупный оборонный подрядчик"
+    "he": "לוקהיד מרטין",
+    "en": "Lockheed Martin",
+    "ar": "لوكهيد مارتن",
+    "ru": "Lockheed Martin"
    },
    "avg_edge": -0.14
   },

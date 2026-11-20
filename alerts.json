@@ -1267,129 +1267,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794538225,
-  "time": "2026-11-13T02:50Z",
-  "title": "הנשיא טראמפ רומז על אפשרות לפעולה נגד קובה",
-  "summary": "נשיא ארה\"ב כינה את קובה מדינה נاشלת ורמז על אפשרות לתקיפה או פעולה נגדה לפני סיום תקופת כהונתו.",
-  "kid": "נשיא ארה\"ב מדבר בחריפות נגד קובה ורומז שאולי תהיה פעולה צבאית נגדה. איומים כאלה מגבירים את חוסר הוודאות ומדאיגים את המשקיעים.",
-  "i18n": {
-   "title": {
-    "he": "הנשיא טראמפ רומז על אפשרות לפעולה נגד קובה",
-    "en": "President Trump hints at possible action against Cuba",
-    "ar": "الرئيس ترامب يلمح لاحتمال التحرك ضد كوبا",
-    "ru": "Президент Трамп намекает на возможные действия против Кубы"
-   },
-   "summary": {
-    "he": "נשיא ארה\"ב כינה את קובה מדינה נاشלת ורמז על אפשרות לתקיפה או פעולה נגדה לפני סיום תקופת כהונתו.",
-    "en": "The US president called Cuba a failed nation and hinted at a potential attack or action against the country before his term ends.",
-    "ar": "وصف الرئيس الأمريكي كوبا بأنها دولة فاشلة ولمح إلى احتمال شن هجوم أو تحرك ضده قبل نهاية فترته.",
-    "ru": "Президент США назвал Кубу несостоявшимся государством и намекнул на возможные действия против нее до окончания своего срока."
-   },
-   "kid": {
-    "he": "נשיא ארה\"ב מדבר בחריפות נגד קובה ורומז שאולי תהיה פעולה צבאית נגדה. איומים כאלה מגבירים את חוסר הוודאות ומדאיגים את המשקיעים.",
-    "en": "The US president speaks harshly against Cuba, hinting at possible military action. Such threats increase uncertainty and worry investors.",
-    "ar": "يتحدث الرئيس الأمريكي بقسوة ضد كوبا ويلمح لعمل عسكري محتمل. مثل هذه التهديدات تزيد من عدم اليقين.",
-    "ru": "Президент США жестко высказывается о Кубе, намекая на возможные действия. Такие угрозы усиливают неопределенность."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rcWpWNzgxQkw5Sm5QMXlja1JzbVdEejduSFpHa1JTbUg2dXJjSm9xcFpZOW05Q3JNNTJkWGwxVk9sN2ZRcjR6SDQ0UzRMNURLaUwwZVNLbkxIV0hUYU1qTmd3clZVMzhVNHhwempUT2JYaFkxelIxOUlB?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794538225,
-    "reason": "איומים גיאופוליטיים חדשים באמריקה הלטינית מכניסים אי-ודאות לשוק.",
-    "reason_i18n": {
-     "he": "איומים גיאופוליטיים חדשים באמריקה הלטינית מכניסים אי-ודאות לשוק.",
-     "en": "New geopolitical threats in Latin America introduce market uncertainty.",
-     "ar": "تهديدات جيوسياسية جديدة في أمريكا اللاتينية تدخل حالة من عدم اليقين.",
-     "ru": "Новые геополитические угрозы в Латинской Америке вносят неопределенность."
-    },
-    "name_i18n": {
-     "he": "ספיי - קרן סל על מדד 500 החברות הגדולות בארה\"ב",
-     "en": "SPY - S&P 500 stock market ETF",
-     "ar": "SPY - صندوق تداول مؤشر S&P 500",
-     "ru": "SPY - биржевой фонд индекса S&P 500"
-    },
-    "price_at_alert": 757.12,
-    "entry_price": 758.96,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 740.05,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.49,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.49,
-    "edge_pct": 2.49,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794538225,
-    "reason": "אפשרות לעימות צבאי חדש תומכת במניות הביטחון.",
-    "reason_i18n": {
-     "he": "אפשרות לעימות צבאי חדש תומכת במניות הביטחון.",
-     "en": "The possibility of a new military conflict supports defense stocks.",
-     "ar": "احتمال صراع عسكري جديد يدعم أسهم الدفاع.",
-     "ru": "Возможность нового военного конфликта поддерживает оборонные акции."
-    },
-    "name_i18n": {
-     "he": "אי-טי-איי - קרן סל על חברות תעופה וביטחון אמריקאיות",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق تداول قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA - биржевой фонд аэрокосмического и оборонного секторов США"
-    },
-    "price_at_alert": 71.73,
-    "entry_price": 71.92,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.6,
-    "edge_pct": -0.6,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "844459719a64",
-  "updates": [
-   {
-    "ts": 1794577463,
-    "time": "2026-11-13T13:44Z",
-    "severity": 5,
-    "summary": "הנשיא טראמפ הצהיר כי הוא מעוניין 'לסיים את העניין עם קובה' לפני סיום כהונתו, ואמר כי ישקול שימוש בכוח צבאי.",
-    "i18n": {
-     "he": "הנשיא טראמפ הצהיר כי הוא מעוניין 'לסיים את העניין עם קובה' לפני סיום כהונתו, ואמר כי ישקול שימוש בכוח צבאי.",
-     "en": "President Trump stated he wants to 'get Cuba done' before leaving office, saying he would consider using military force.",
-     "ar": "صرح الرئيس ترامب بأنه يريد 'إنهاء الأمر مع كوبا' قبل مغادرة منصبه، قائلاً إنه سيفكر في استخدام القوة العسكرية.",
-     "ru": "Президент Трамп заявил, что хочет «покончить с Кубой» до ухода с поста, отметив, что рассмотрит возможность применения военной силы."
-    }
-   }
-  ],
-  "last_update": 1794577463,
-  "evaluated": true
- },
- {
   "ts": 1794558447,
   "time": "2026-11-13T08:27Z",
   "title": "סערת אנבידיה והחמרת בקרת הייצוא",
@@ -2239,76 +2116,6 @@
    }
   ],
   "last_update": 1794858871,
-  "evaluated": true
- },
- {
-  "ts": 1794577463,
-  "time": "2026-11-13T13:44Z",
-  "title": "נוקיה זכתה בחוזה ביטחוני אמריקאי",
-  "summary": "חברת נוקיה זכתה בחוזה של משרד ההגנה האמריקאי לפיתוח טכנולוגיות 5G ו-6G לצרכים ביטחוניים.",
-  "kid": "נוקיה תעזור לצבא ארה\"ב לפתח טכנולוגיות תקשורת מהירות מאוד. זה חוזה חשוב שיכול לעזור למניה שלה.",
-  "i18n": {
-   "title": {
-    "he": "נוקיה זכתה בחוזה ביטחוני אמריקאי",
-    "en": "Nokia Wins US Defense Contract",
-    "ar": "نوكيا تفوز بعقد دفاعي أمريكي",
-    "ru": "Nokia получила оборонный контракт США"
-   },
-   "summary": {
-    "he": "חברת נוקיה זכתה בחוזה של משרד ההגנה האמריקאי לפיתוח טכנולוגיות 5G ו-6G לצרכים ביטחוניים.",
-    "en": "Nokia has won a US Department of Defense contract to develop 5G and 6G technologies for defense purposes.",
-    "ar": "فازت شركة نوكيا بعقد من وزارة الدفاع الأمريكية لتطوير تقنيات 5G و 6G لأغراض دفاعية.",
-    "ru": "Компания Nokia получила контракт Министерства обороны США на разработку технологий 5G и 6G для оборонных нужд."
-   },
-   "kid": {
-    "he": "נוקיה תעזור לצבא ארה\"ב לפתח טכנולוגיות תקשורת מהירות מאוד. זה חוזה חשוב שיכול לעזור למניה שלה.",
-    "en": "Nokia will help the US military develop very fast communication technologies. This is an important contract that could help its stock.",
-    "ar": "ستساعد نوكيا الجيش الأمريكي في تطوير تقنيات اتصالات سريعة جداً. هذا عقد مهم يمكن أن يساعد سهمها.",
-    "ru": "Nokia поможет американским военным разрабатывать технологии сверхбыстрой связи. Это важный контракт, который может поддержать акции компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: defense contracts",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM1hQUFFwVWYzNkctQlNRVXFfZHRNQ1hGMjE2WFB3STBxTmNRN09uck9WS0N1bFM0YU1iaG1jcWVXaWs4WXVpaWJNYm9GM01WRE12c3pPWGJGcEJNZE9ESS0xMEV5eDAyOFo2UFN2QmllQzlGVDc3c1RFaXVMUVVpRk5fb29jazZtaG5PNFlhMXNXV1VUSXJGREpIcHhjZkNQU2FFNzMydVVtXy1rYWc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NOK",
-    "direction": "up",
-    "t0": 1794577463,
-    "reason": "זכייה בחוזה ממשלתי גדול מהווה אישור לטכנולוגיה של החברה.",
-    "reason_i18n": {
-     "he": "זכייה בחוזה ממשלתי גדול מהווה אישור לטכנולוגיה של החברה.",
-     "en": "Winning a major government contract validates the company's technology.",
-     "ar": "الفوز بعقد حكومي كبير يؤكد صحة تكنولوجيا الشركة.",
-     "ru": "Получение крупного государственного контракта подтверждает технологический потенциал компании."
-    },
-    "name_i18n": {
-     "he": "נוקיה",
-     "en": "Nokia",
-     "ar": "نوكيا",
-     "ru": "Nokia"
-    },
-    "price_at_alert": 8.28,
-    "entry_price": 8.2,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 7.695,
-    "exit_date": "2026-11-16",
-    "change_pct": -6.16,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -3.67,
-    "edge_pct": -3.67,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "6f5565dfefc2",
   "evaluated": true
  },
  {
@@ -35669,7 +35476,18 @@
      "ar": "إلبيت سيستمز - شركة دفاع إسرائيلية",
      "ru": "Elbit Systems - израильская оборонная компания"
     },
-    "price_at_alert": 231420.0
+    "price_at_alert": 231420.0,
+    "entry_price": 230500.0,
+    "entry_time": "2026-11-19T07:50+00:00",
+    "exit_price": 225060.0,
+    "exit_date": "2026-11-20",
+    "change_pct": -2.36,
+    "bench": "TA35.TA",
+    "bench_change_pct": -3.21,
+    "excess_pct": 0.85,
+    "edge_pct": 0.85,
+    "hit": true,
+    "hit_raw": false
    },
    {
     "ticker": "RTX",
@@ -35765,7 +35583,8 @@
     }
    }
   ],
-  "last_update": 1795084956
+  "last_update": 1795084956,
+  "evaluated": true
  },
  {
   "ts": 1795026775,
@@ -43473,10 +43292,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdUNMcW8tMFRzaTFvREp0ZENrVHpuSXRuWnhKYjI4Zm8wbEZDNkRheDBZVUtkaFFWTm0xYVdGVlBMb0pXOXo3MXhQS1BNVC1NV3VhMk14REw0bUZDVll0cFg4NWRUS1ZLZXUtZTgtOHlxenUyUmlER3R6ejBoZjlYdmJUdjBiR3N1NWJtVHJsbzZUNUplZ2lnZ0stSm1ua1E?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0VhbGV4Uzh5VDFndVlKbVpHcU5kbEs3ei1zZGtuTE1DbDRpMWF5cDJ1cUlQOWdKbVc4ek5KOGROMl82bU5KRU91cV9TazVxRkN6SWp1UnZKMF9ieVVLc3E2M3dtdHJreTlFZHZqT0xKZ3N4SzMtUVAzaVBpbEVsdUt6TQ?oc=5"
    },
    {
@@ -43494,6 +43309,10 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkhaVnBLOFlTM3FaSjZRMmVEelRfcDNkVTBnWDZoOEE1WFVHcXd4MzdFaDM4NGJha3VjQWE3ZDNzTEhlU0RUVHkwWk9VdmVpU2dyUTVlUzBYcU5FOXlaWFdVNlJhTG5lSUpOTHhxdF9uTTZ2d2k1VVZPUnZFV3NlVTY5SWVKWW9ucHhIYkdhcFVhaGh5a3RlRGF2WS16QlRoU29iNjFUSzE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNXdFNlB5UEZFVHdOTVpwd0RyWEhhNHQzYkhPeWt3YlVzWXdtaFN0dHY0MGlVa0NyZklJd0N2alowejZZdDFSLW5XaHZIeDdkNlpidS01R1pBOU9qZHBLaVZkYy1lazFvY1JzUC1Ya3F6ZGZTLUhXRXdMd01mY0FhOERBQk1neVRrODh1dXRCZHZOVW82aFBKM2I5ZHB5aVF4eklQMm9sTW9Kc0lCenRPU1R5X0ozTzE4RmZwMA?oc=5"
    }
   ],
   "impacts": [
@@ -43580,9 +43399,21 @@
      "ar": "سجلت أسعار الذهب والفضة مستويات متدنية جديدة لعام 2026 وسط تقلبات الأسواق وتوقعات التشديد الاقتصادي.",
      "ru": "Цены на золото и серебро достигли новых минимумов 2026 года на фоне волатильности рынков и ожиданий ужесточения политики."
     }
+   },
+   {
+    "ts": 1795184520,
+    "time": "2026-11-20T14:22Z",
+    "severity": 6,
+    "summary": "מחירי הזהב יורדים בחדות בדרך לשבוע הגרוע ביותר מזה שמונה חודשים, בשל ציפיות למדיניות ריבית נוקשה מצד הפדרל ריזרב.",
+    "i18n": {
+     "he": "מחירי הזהב יורדים בחדות בדרך לשבוע הגרוע ביותר מזה שמונה חודשים, בשל ציפיות למדיניות ריבית נוקשה מצד הפדרל ריזרב.",
+     "en": "Gold prices are falling sharply, heading for their worst week in eight months, due to expectations of hawkish Fed interest rate policy.",
+     "ar": "تنخفض أسعار الذهب بشكل حاد، متجهة نحو أسوأ أسبوع لها منذ ثمانية أشهر، بسبب توقعات بسياسة نقدية متشددة من الاحتياطي الفيدرالي.",
+     "ru": "Цены на золото резко падают, направляясь к худшей неделе за восемь месяцев из-за ожиданий жесткой политики ФРС по процентным ставкам."
+    }
    }
   ],
-  "last_update": 1795175739
+  "last_update": 1795184520
  },
  {
   "ts": 1795131042,
@@ -46706,32 +46537,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX1BEVlBVd1Vpbm1vWjdFOUE0SUpaN2dsZklWWTJKUWZ3bmdDQy1qZHpTT1NtbEdzTklfcmhldW53Yl9Ici1PR3BvT3Bxb29Bb1VVZGJXNlB1c0t6Tmp4b1JIRmVmdzEwakhET1BFczhuT3Jna3ZsVDNqVFpONzlOeUhLWG8zX2dwRmc?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PcGdMc0pXV25yaEt6bE92UzF4NDk1NG02UlpUNG1HUUh5Q3ZPdklyRjJCd1FjQ1BWVmZjNml1YW9DU3hiQzh3dV9uVHE4bXNIYXBGU0dFYzZfVEI2Y2tlM05vQ2EyTzd1TTVCMQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdk5XRGVvUjJFQzhRazQ1MENSX05WYW1TVXk4OTdFRFBHRUIxYllvSm1yUXlMcVZOOS1XdmNDNmh4WG1rR09JY0p5SmE5ZkxacHp1Yk0xUWU3ZHhyNmJ6U203YnZKUk1oZHg1WHFPR3ZiWnNOckYwVW5hYWtYZ3JrU3lHLVRBZ251V19ZeUUxSkhzQkpacnFoeDNJUktqSlNLWnBGYWdQTnhEejRyanczU3lDYmtKMHo0STV1c0s5M04tUnJBV1M1MVVFUdIB0AFBVV95cUxOZ0thTjBiNjFzTFZDVTY3ZGgydmVQS0lmNUZmajRXQ3VHTUV0VExhU1lTU1FNaWV5MTZPMS1IXzZPVjV1ajR2UEdidmplR3RjYnZXWjdial9NMHd2aV92ZnBQU1pxWUZfQ0dwSGl3aEU5bFBWUWt0dVQwb0s3QjNTbjdtX25XNTdtM1g4cVFYdEFIcy1TZVgxdU40Y2k5R1J2Q2l3RWdPeS1JeGN0bnA2ZjRGT25RNmM1RGdJdjdDeGxuWnc3c2JqNC16WldQSDhX?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZFRwMGxVbmpMdjhUdk1nQUM0ZUZLRUlnY3NWMGN3bXcyOGJJN2JMZVY5TGJLUEFDSzZ2UkF4eDhZdWpSWUExQ1l3YVBONEtGR0MybEV1eFk1T3I5aFJkSUNtaHlNQWc1eDliSmlfWmNLX0xyZEhjYW1lQ3l3aWpUUUs0Z1NCU1RaQ1FVTHhWLXpKNFJzX3Jpc2tBX2N2ZXo2VkE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVGJWTTEtbDlIbjNpYUVBSlBYdU9KSjJPNjdfaFRvU2xXRW1EcEZ4U1dkMGsxVDgyTkgwcG8taDJRdk9jZzZZbi1uYjZ4bWh6WDYyVUFhUEFLZEZKcEhnSjdpdTl1YXN3cWtOT1ppdWxjVGNMLUd5QnluNE0yemxIOUltZkE2SF9HelBtTHNtYktNR1g2SHJFRzhTdXdqLV9iUVhzM0RsdjVXbTlKMXc?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYXhNSk1lbnIwTmFnSXlNWGRxRUUxOHNOanFYSXNZTm53aDRRSDF2S0xTVmtwT3RXZDdRVGdxZU5NamxfWWF6VkZKeFI0MzRVWUJXZXlLdFB2TjBfWWVNYjFyMW1ES2gzVnJYbnVUWVl3NWEzQzFXWWp0dmh1blBWeTEtbU1UU2p0bHgwZDNhQzFMS3hMVWVERm5VdnNmQnRPWU1ScXR0WXNDSGlpaFRhZVFpWFFsSThVNXItb0tiN0U0QTkzSjVUbHJzLVHSAdIBQVVfeXFMUEEzSm5FVmNJeHZqTjBpUGlvTzBjVVNLc2hsaUlSakJYU3dCMDZDeUFlbFNHSDZZVHVDOC1XUHJfa01rSDdmRFh4ajY0RnlVN1V1M2lVcGlPd3psMFk3ZXF2cTQwRkxid1ZCMDNENl9ZVk5oaEtFcklETkl2SXZGM2JVcFlESG5NUVpGYm9qb3otSGhuSWRpTHhfenZ6LUdUakdMalNGV1M0VFY4eUJERHA0d3hCTkN4eFcxZTFMQVI1ZXpyNXJQWjZ0Qzlpa1VuSnlR?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2xQLWZhR1pYMFYwd2VoRjZqOVJ6NWVTeXprR3FnT29uYnRfNXUyb2lNb09zWTdDM2VzMDhOYjJrb2pJQVZwdjJ5SXIyaGVmaGhQcEN1a0JEMGJPNTVpc3F6NWFEVHE1emR1enBfODRlclVJQldlek1LWEJNSjVsVG8zckcwWGtiVHh2UE12R21LNmdPNlBtYXRJOFdHZXBFM2NSTDJwYjIyb0RGdFlfOUtnYUl6Tmd6V3FtVFNMczhwVlFCeVFTZ1VnYk1jZw?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBfeU1SQ1ZKVTVMV3lMSXAweS0wdDF2ampySDRZdWhCTFZ6S2JMMTRDS3RQd1lKNG1ZZzBCZjd5aWw4MEVrNW1HUnlaOTd3ajlHTk5jNS1vUU9xSXRZbWdFN1BkWmRRLXJSTk5sYzZvUU8zeUxZaUVzSUlKaDQ0RnlLRGE1bmg1UTdXdi0yVVE1TUlxOHVmT00teWNXS2ljbXlxaWJOMnVnRWtsWEVDM2lqSDI?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUjV3dVhqQklMcDRBai1oRll0a0ExZHpZZzQ3ZDJZdUtsOHdHdktNT0FQdlcwcWRkWjAwbXFWdHFmVmh3SmFZVVE1eXJVUnJza0U0SGNRSkZGT3dRQVdkS2xBejdDNnRJX0xHS0ZQWlc0UE8ydzU3d2RtMURDWmxtOWNrMkFfRFdlS2l0MkRZNnhtd3lXZ05N?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjJDZ1MxZlViU3hSS2FPSndGRHV1VWd4Y0lMVHQ1alNaTjQ1Ujc3MjBNM2pHUm9VcFhJZnRhVW9fSF9tNTJXTGNXNzFIcXM2cGdLdXFZLWVBd0pNd1RJRWhCSFJ2MFA2T3pmRkNMTUtBQjg1TTFkZDJOdmVUcDBCc0JrengycXZ1eldWT2FMUm9zQVgzWXc0Tm1XZVFoTlMyRFpJVnRPc2loRGdjR2lz0gG0AUFVX3lxTE5lTUVVaV9udDJma09PRlg4b3Z5MFIxb3h0dEt0UzIzSXBIZGtxdUR1TmhoYk5XYm9LdUJ0N1h2ZVRIVGs5Mm9JOUhhUTJPc1pkc3NTcWxVSmMwX2pucXEzdGE2dDkzN3M4WmpuOEY5bGdKUTlDTUJPY3BFZkYtZWI2dHZMdFFGalRlc1pVejFtbV80VHJpdmRQc3duWE1xX2duLVhHdWFTeVVQM2IzbVdySnROVw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOakV1YkwxcEtpUlVDNWo5LWZ1VmRFT2FkX21sNU9tVkFmbmlHb0kzZzdlSnNrQ1ZaejRmams2S01yci1tTUpxdDVhUUY3Smx5OV9VdDREWFR3MDF0Y09aWmc4Qk9mdnc0Mi1XcDZzTFk5Mm9mRlYtNVU5Yko3YmxyaHRpdUFOdlpvSGJ2VTRVUFpxSWp6NTZORmRYWGRsbXlwd0pQUFlfRkpTbGd6Vi0zWlVCMlJIeEh3bEFjMEswYlI2elZVY0F0bw?oc=5"
    }
   ],
   "impacts": [
@@ -46772,9 +46599,62 @@
      "ru": "Доллар США"
     },
     "price_at_alert": 29.63
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795184520,
+    "reason": "עלייה בביקוש לציוד ביטחוני עקב מתיחות גיאופוליטית",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לציוד ביטחוני עקב מתיחות גיאופוליטית",
+     "en": "Increased demand for defense equipment due to geopolitical tensions",
+     "ar": "زيادة الطلب على المعدات الدفاعية بسبب التوترات الجيوسياسية",
+     "ru": "Рост спроса на оборонное оборудование из-за геополитической напряженности"
+    },
+    "name_i18n": {
+     "he": "תעודת סל של חברות ביטחוניות",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق استثمار لشركات الدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.2
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795184520,
+    "reason": "יצרנית נשק מרכזית שצפויה להרוויח מהגדלת תקציבי ביטחון",
+    "reason_i18n": {
+     "he": "יצרנית נשק מרכזית שצפויה להרוויח מהגדלת תקציבי ביטחון",
+     "en": "Major weapons manufacturer expected to benefit from increased defense budgets",
+     "ar": "مصنع أسلحة رئيسي من المتوقع أن يستفيد من زيادة ميزانيات الدفاع",
+     "ru": "Крупный производитель оружия, который может выиграть от увеличения оборонных бюджетов"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 571.85
    }
   ],
-  "id": "3e5e60280f98"
+  "id": "3e5e60280f98",
+  "updates": [
+   {
+    "ts": 1795184520,
+    "time": "2026-11-20T14:22Z",
+    "severity": 8,
+    "summary": "טיל רוסי מסוג Kh-101 נחת בשטח פולין במהלך מתקפה על אוקראינה. ראש ממשלת פולין דונלד טוסק הגדיר זאת כפרובוקציה מכוונת.",
+    "i18n": {
+     "he": "טיל רוסי מסוג Kh-101 נחת בשטח פולין במהלך מתקפה על אוקראינה. ראש ממשלת פולין דונלד טוסק הגדיר זאת כפרובוקציה מכוונת.",
+     "en": "A Russian Kh-101 missile landed in Poland during an attack on Ukraine. Polish PM Donald Tusk described the incident as an intentional provocation.",
+     "ar": "سقط صاروخ روسي من طراز Kh-101 في بولندا خلال هجوم على أوكرانيا. ووصف رئيس الوزراء البولندي دونالد توسك الحادث بأنه استفزاز متعمد.",
+     "ru": "Российская ракета Х-101 упала на территории Польши во время атаки на Украину. Премьер-министр Польши Дональд Туск назвал это преднамеренной провокацией."
+    }
+   }
+  ],
+  "last_update": 1795184520
  },
  {
   "ts": 1795179882,
@@ -46803,36 +46683,32 @@
    }
   },
   "category": "climate",
-  "severity": 3,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaTdHZm1BSXhlUXhXSV96MHlmNGdPSUgtdTA3VE1XdjI3MjFLRlBxMFMxaFU1VnFhWGYxbFJlRkNUZHAxOGtOa0d0UkVFVk1MbTlDQVpVRm9PX3lsdVdRYVlrM2NYVVlfOVRwWVh4bHRWLVhySG1fYm5SUTRrbGxnakxLczJCX3BPcXVzYVktOXZPcVhlUDRpeFRVbWlFWkdBMTRzTWNHaGQzLVVzdzJZV2U4OU5WNzFiSTdjWmxKQjE4dw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnZVUldUUzgteDNwSU5HWi1iQVE0X2VRU1FNMmhxekZ6YzU2TnpxSTVhUHpuaGg0cjhsamVmeS1tWnlCXzR3M1VWRGpmQ2U3QXdmbmhmVHpfdml0NUFibTV2UWVKbjA2OV8yUEE4WVpxdUpNTk9CUkx1ZVNLYmlMRjZFVnk3dzBDSkw1djZnZU1RSDFrck9fbmEtMA?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObkp2UnhnemxiQ3ZJY3B2VkR6QUtFX1FNdmtDc25PZjR3QkRuQ3JwUDFpLVk2VHROdmpwbGxZQkE5YW92MUttQVhOVFZmcGVyVDhXZjNDWVd1OVl4ckVZZ29nZ0ExckZacFBCTFhLRFFrNmY5a3NGUmkza1Y1T3NiQW5DeFlGVlE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzVVMDN2bGR2TWlzcFFnTGJiMFNLZ3RGejlGSDRqYkhxRHR4YkF5dUUtejI3aEhsTS1aTFlibHJMQXN0UmhETl9ZV2JTLVVUN1N3LTRwb0dBWUdHTXdkN05fWDd4UmlzSHR2RmtVNzQ3TEZzS0dJU0lzaktEVzNmVk1uMzVDYlVCVjMyR0xPSEFpdjBZOWtBd2wzZmM?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNLW5IUXdkdF83Rzg5VXdiNGdRNER6ZUswcjFPSk9CLTlZaXpxQTM1OTZlV1B4cHBCbElwdzRWMWhpSWRIMEVUSXlXN2pFMFNHVW9DeS1CUTdiVE1Zd00zZTdvblNEeDF2SVZiODYyNl8?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3JSWjhET05kcDBPNVA4czlZb251c0tSN1F5MGJjZ1NkQXdRYm11NGp0SDNtNzBNejg3cHgtejlkbUtvZWhYZzdQSXUzQ3QtdjdfUjcwNlFYWE9ZYnhmSEd0SDJtcEFfeVpRUnN1UzJ1YUZTcUZiZTN1ZWJrYlB2Umljb3ZLNWV0TzFsZjUwUHJlVmdneXdPLUlWeGNpNXlrcmtZbXRjaGNsdzTSAbMBQVVfeXFMTmRTcDN1RlVBakJObHI1VzljQVo3YlFVM2NuUGg0YTBaQ3N5ZVFfRHF0WU44WFhGTEFieEFEOUo5YWkyVlZKMnVFNzFjOGNQVTN0MWw0azgxWEF5UDVPM1F3MjRWTnlZSVMwVFhGRVFkLXktV1VOUkxubHplcGRNandBdGZFbU80bzlfTm13T2phemRmUFBZUTNsMmt4Zm50V0tnNHRfVjM1aENRLW9Mc0t1TFE?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQllIN2dmUDlRMmFxUDlfMXJyTWU5SE84dFFoUHZDT01NUUt2cWdTNUFsdkNaa192N2RlWkNaS2s0V191VVhqN2J2aGd5N3Q3U0taLUxpTnlOdXQ3ZEFaMXdaY0YtQ1RIT21hRV9sZzlHUnMxczFQaEd3VjNrWU1MeVpzNVdJdw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMlZYM3lIWXdxLUUyZ2l3SVFfaklZelRzTXZMMG5YUnRkN3BzdHZWNk1CdkFwMVNNOG9sbDdRNFRycFZpcXBVVERqUEFkQ3BEa2h6dEJKYU4zRi10RHpscXpQQnNUMnVaR0xNcGczejJBQXNtQXdIMW9HNmtSVV9BRXBqNUhRakVVZHFOT2FKTEo?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRN2lDYkdPdlF2VXBGMHJhSHAyU3gyTVpXWFhNN3dlUThETlhKZmRySHVJbDdVSnlqOVJLT3BQU0FFdGJwdmJudFBzYnp4RC1jVy1laFRDOTNJMjRwX2VCRlo2Z2NSdzVuQ281VFVFR3hzSmFMTmZpdNIBfkFVX3lxTE4yMkJXVllsYVQ5a1B5NEdtN2Y0aVJpaVBrdFJvczYzWUExZzN2U09Ca044M05PMGEyVFEyUWdFdTVJY0NQUklCcXNZbExoRklEYjUwRWU2NjdaV1gxN2h2RWFJd2hIemxXMEpvcUkxTVlobmpCeEIyVkQ0Z3NUQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPbnFlVkVnRFVwWG9JWGRRZnFPWnN6MTFQamJabXVmMDN1VHVDdlgxX2lEUWhzVXdhVnRLMTdyV2NUVXlEWS01WnFOcEZ5alN1TnFuWDhRX0JpdHB2dGd0dW9ZSW40VmRqS1VTZU5rUTR4aHR6Uk01bDBjMG1EVFZxSDltYVRNOGdsUkdrVnF4Vzh6Zy1fRkJFRlJoa0lDMGtPb3dlUjlqQ2lHRXlUWmhwU0VSWGVsUno3bkxSOWNyNmlDLXpKWUp3aGNULXNjdXJUY3FUUHRsYnpXbGhibjVyeU94aUVYdWtPX05zSUZwNjdCX2ItUVBmMGV6RlNQZEF4NEx0UkhPcGxwd9IBigJBVV95cUxQR0Y3OFFuaXY3bHo0Q2xzaFl2djNocGdmUHEtYUJoS0tOREthU3lwcUtwREptYVliNWZPLU9aSVNjWHVYMkRIbjVWXzRuc204YXN5VHVvbVNndXA4Ukh5LWtvUXQtUnM2bndtQ3NUMWFqamF1TEVxbUtFMm5ZeWNUWTFMblNtT09UTXZOb1BybnEzZElHdkp2Q1h6LVNpMV9hbngtUUswZFNlc1NsSFpxbVBlU2pPQnVELS1EdnRlSVphcE13cHVzV3lzUlAtN1Z6d2FFZGl2b2x2WGt3SGxPUFZTcVZpSTQ4eFV0d3Zsd0ZvMV9TSXBJemVLLTRERTJZNGdEZlVrMDZZQQ?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9INU9QMVNibVFTOWJESHZvV0ZFc00xNGw2bzNESFpJZ3IySnBtNzEtNmlVeEI5MjJYUjNoejB5Q2NQd1NRTnFTYlI5SUtRUFcxc3Rza1lxN3d6NGJkYjNOcjFfVWpLWE50c2RLQWtrYXkwTGNSaW85WTRfRHU?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObktVYktIQWUyeFhkN0JJOFBaZjhrZGRqQ3d0clFzQVhUY3E3VDI2dE1SYnNSSGgwSVdkSms0TUZTN1pmcHZSOXdTZDU0NWZjRGlfbVczV01xM3p3el9ETEJzRmZ3TjgzejgzZVN1REhJRzZlbGtZX0hpaXZYWWl3blBGdFNkQXJoVWJtSG9BdnNaUUR3UWdNVmo5N3JSWUpHYjdlV09PUFJjUTQ0VVYzUFNwX0psQ1VQcHkwblVFR2FzSHhMWWkxRm9Gay1VSG1SMERNek1RQ0xTWFQ0Z0NJN0FyNDFjd9IB-gFBVV95cUxPSEVUVEN6UDUwcDM5WmNmWXlyYy1QVWdHU0lLd0RvTXhMa3phZHdkMzVmUEtPOFBlTGhSNEh3RU1yRjJUWTI3S2VHMWxteWh6VUpmNHNMVFA0bXNoUWY0TC0zRHNVVkFNY01jNG1hTzR0WnRxOUI4eDRjRTRzUTRvTVI3ellYY3E3cE8wWXJuSldkdURZYXA4N0cwWHF1VVJ1RHdOWTRhWkgyaXpkMUgwZWNqbjBWeERRX2pVZjYxdVNQZlIzSUxQcXA1UkpOcTJ6OHFyUjFHenRzYUsza01uSGpNQXNINE0tcGkxbnByejZMRnpnajA5cER3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTldMeExuMHpSWUkzRFFOQkVibFVnWkpuMi1rRGgzRmJuaEZkREsxV3hhbFRyN05WVDRLOEJQQXFVeXJWVWRGNEJQeGZia0p6eFV1SXlkTTBlU0dhZ0haYUZseVBSOEFQRVlmTFdfSTNjcEhoLVEwUWhZWGJKSUE3MkxVSUdiczJqTnRfLTZZNDJLdWllSGt5UlliRlJ3MC1Jb1h1MkE5NldDV2p1M01tcVlxWGZuNXVVMXRZdk82Q19ZQ0RJT0tENFZ3?oc=5"
    }
   ],
   "impacts": [
@@ -46875,6 +46751,160 @@
     "price_at_alert": 390.61
    }
   ],
-  "id": "3b13f6fa7b89"
+  "id": "3b13f6fa7b89",
+  "updates": [
+   {
+    "ts": 1795184520,
+    "time": "2026-11-20T14:22Z",
+    "severity": 5,
+    "summary": "רעידות אדמה בעוצמות של 4.2 עד 5.1 פקדו את אזור לוס אנג'לס, מה שגרם לבדיקות חירום עירוניות.",
+    "i18n": {
+     "he": "רעידות אדמה בעוצמות של 4.2 עד 5.1 פקדו את אזור לוס אנג'לס, מה שגרם לבדיקות חירום עירוניות.",
+     "en": "Earthquakes ranging from 4.2 to 5.1 magnitude hit the Los Angeles area, prompting citywide emergency inspections.",
+     "ar": "ضربت زلازل تتراوح قوتها بين 4.2 و 5.1 درجة منطقة لوس أنجلوس، مما دفع السلطات لإجراء عمليات تفتيش طارئة.",
+     "ru": "Землетрясения магнитудой от 4.2 до 5.1 произошли в районе Лос-Анджелеса, что привело к экстренным проверкам в городе."
+    }
+   }
+  ],
+  "last_update": 1795184520
+ },
+ {
+  "ts": 1795184520,
+  "time": "2026-11-20T14:22Z",
+  "title": "איראן מאיימת על נתיבי נפט במפרץ הפרסי",
+  "summary": "איראן מכינה מכליות לעקוף את הסגר האמריקאי ומאיימת לפגוע באספקת הנפט במפרץ הפרסי אם תותקף.",
+  "kid": "איומים על נפט במפרץ הפרסי עלולים לגרום למחירי הדלק לעלות.",
+  "i18n": {
+   "title": {
+    "he": "איראן מאיימת על נתיבי נפט במפרץ הפרסי",
+    "en": "Iran threatens oil routes in Persian Gulf",
+    "ar": "إيران تهدد طرق النفط في الخليج العربي",
+    "ru": "Иран угрожает нефтяным маршрутам в Персидском заливе"
+   },
+   "summary": {
+    "he": "איראן מכינה מכליות לעקוף את הסגר האמריקאי ומאיימת לפגוע באספקת הנפט במפרץ הפרסי אם תותקף.",
+    "en": "Iran is preparing tankers to bypass the US blockade and threatens to disrupt oil supplies in the Persian Gulf if attacked.",
+    "ar": "تجهز إيران ناقلات لتجاوز الحصار الأمريكي وتهدد بتعطيل إمدادات النفط في الخليج العربي إذا تعرضت للهجوم.",
+    "ru": "Иран готовит танкеры для обхода блокады США и угрожает нарушить поставки нефти в Персидском заливе в случае нападения."
+   },
+   "kid": {
+    "he": "איומים על נפט במפרץ הפרסי עלולים לגרום למחירי הדלק לעלות.",
+    "en": "Threats to oil in the Persian Gulf could cause gas prices to go up.",
+    "ar": "التهديدات للنفط في الخليج العربي قد تؤدي إلى ارتفاع أسعار الوقود.",
+    "ru": "Угрозы нефтяным поставкам в Персидском заливе могут привести к росту цен на бензин."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZaWw0bk5fcTFTLWw0RktEcTZraU1OUF9PbHpfZUE5NHQ5TjNqYWlhLXFneWxuZDllNHdMNGVRYy1ka1FwZ1gxZElVeUxqekpVcVE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMk5ZM21TcWtfTFBPYXlhLVdmUmZHQk9JZ1NvS1h3RmNuME5EVnRsOWV4WmdyMDB1d3BubHNoZzA1OEl5YjZKQkx4ZzFwX3NBYzlqLUlJR1ctNnU2OGs5NVFMMUVqRko0RVFiMVFvWGJMZzhpM0VIZkxHQXJTOFZ5blhZR3JHRE4zaktj?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795184520,
+    "reason": "חשש משיבושים באספקת הנפט העולמית",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט העולמית",
+     "en": "Fear of global oil supply disruptions",
+     "ar": "مخاوف من اضطرابات في إمدادات النفط العالمية",
+     "ru": "Опасения по поводу перебоев в мировых поставках нефти"
+    },
+    "name_i18n": {
+     "he": "תעודת סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق استثمار للنفط",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 138.09
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795184520,
+    "reason": "עליית מחירי הנפט מיטיבה עם חברות אנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט מיטיבה עם חברות אנרגיה",
+     "en": "Rising oil prices benefit energy companies",
+     "ar": "ارتفاع أسعار النفط يفيد شركات الطاقة",
+     "ru": "Рост цен на нефть выгоден энергетическим компаниям"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 158.93
+   }
+  ],
+  "id": "2d2701fda476"
+ },
+ {
+  "ts": 1795184520,
+  "time": "2026-11-20T14:22Z",
+  "title": "SpaceX שוקלת להפסיק שימוש בבינה מלאכותית סינית",
+  "summary": "חברת הבת של SpaceX, Cursor, שוקלת להפסיק להשתמש במודלי בינה מלאכותית מתוצרת סין בשל סיכונים גיאופוליטיים.",
+  "kid": "חברות טכנולוגיה אמריקאיות נזהרות יותר משימוש בטכנולוגיה סינית בגלל חששות ביטחוניים.",
+  "i18n": {
+   "title": {
+    "he": "SpaceX שוקלת להפסיק שימוש בבינה מלאכותית סינית",
+    "en": "SpaceX considers phasing out Chinese AI",
+    "ar": "سبيس إكس تدرس التخلص من الذكاء الاصطناعي الصيني",
+    "ru": "SpaceX рассматривает отказ от китайского ИИ"
+   },
+   "summary": {
+    "he": "חברת הבת של SpaceX, Cursor, שוקלת להפסיק להשתמש במודלי בינה מלאכותית מתוצרת סין בשל סיכונים גיאופוליטיים.",
+    "en": "SpaceX subsidiary Cursor is considering phasing out Chinese-developed AI models due to geopolitical risks.",
+    "ar": "تدرس شركة Cursor التابعة لـ SpaceX التخلص من نماذج الذكاء الاصطناعي المطورة في الصين بسبب المخاطر الجيوسياسية.",
+    "ru": "Дочерняя компания SpaceX, Cursor, рассматривает возможность отказа от использования ИИ-моделей китайской разработки из-за геополитических рисков."
+   },
+   "kid": {
+    "he": "חברות טכנולוגיה אמריקאיות נזהרות יותר משימוש בטכנולוגיה סינית בגלל חששות ביטחוניים.",
+    "en": "US tech companies are becoming more cautious about using Chinese technology due to security concerns.",
+    "ar": "أصبحت شركات التكنولوجيا الأمريكية أكثر حذراً بشأن استخدام التكنولوجيا الصينية بسبب المخاوف الأمنية.",
+    "ru": "Американские технологические компании становятся более осторожными в использовании китайских технологий из-за проблем безопасности."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795184520,
+    "reason": "חשש מהמשך הגבלות יצוא ושימוש בטכנולוגיה אמריקאית בסין",
+    "reason_i18n": {
+     "he": "חשש מהמשך הגבלות יצוא ושימוש בטכנולוגיה אמריקאית בסין",
+     "en": "Concerns over continued export restrictions and use of US tech in China",
+     "ar": "مخاوف من استمرار قيود التصدير واستخدام التكنولوجيا الأمريكية في الصين",
+     "ru": "Опасения по поводу продолжения экспортных ограничений и использования американских технологий в Китае"
+    },
+    "name_i18n": {
+     "he": "אנבידיה",
+     "en": "Nvidia",
+     "ar": "إنفيديا",
+     "ru": "Nvidia"
+    },
+    "price_at_alert": 145.98
+   }
+  ],
+  "id": "3e342088f87e"
  }
 ]
