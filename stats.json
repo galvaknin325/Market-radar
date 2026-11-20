@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-20T14:22Z",
+ "generated": "2026-11-20T15:28Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1230,
+ "total_alerts": 1232,
  "overall": {
   "n": 865,
   "hits": 436,
@@ -78,13 +78,13 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 138,
+   "mentions": 139,
    "n": 127,
    "hits": 64,
    "name": {
-    "he": "תעודת סל נפט",
+    "he": "קרן נפט",
     "en": "Oil ETF",
-    "ar": "صندوق استثمار للنفط",
+    "ar": "صندوق النفط",
     "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.21
@@ -150,13 +150,13 @@
    "avg_edge": -0.03
   },
   "ITA": {
-   "mentions": 215,
+   "mentions": 216,
    "n": 190,
    "hits": 122,
    "name": {
-    "he": "תעודת סל של חברות ביטחוניות",
+    "he": "קרן תעופה וביטחון",
     "en": "Aerospace & Defense ETF",
-    "ar": "صندوق استثمار لشركات الدفاع",
+    "ar": "صندوق الطيران والدفاع",
     "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -0.99
@@ -1650,14 +1650,14 @@
    "avg_edge": -3.59
   },
   "V": {
-   "mentions": 3,
+   "mentions": 4,
    "n": 1,
    "hits": 1,
    "name": {
-    "he": "ויזה – חברת תשלומים גלובלית",
-    "en": "Visa – a global payments processor",
-    "ar": "فيزا - شركة مدفوعات عالمية",
-    "ru": "Visa – глобальный платежный оператор"
+    "he": "ויזה",
+    "en": "Visa",
+    "ar": "فيزا",
+    "ru": "Visa"
    },
    "avg_edge": 1.27
   },
@@ -1766,6 +1766,18 @@
     "en": "Intuit - financial software giant",
     "ar": "إنتويت - عملاق البرمجيات المالية",
     "ru": "Intuit - гигант финансового ПО"
+   },
+   "avg_edge": null
+  },
+  "CALM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "קאל-מיין (יצרנית ביצים)",
+    "en": "Cal-Maine Foods",
+    "ar": "كال-مين للأغذية",
+    "ru": "Cal-Maine Foods"
    },
    "avg_edge": null
   }

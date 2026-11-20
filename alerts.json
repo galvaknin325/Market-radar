@@ -1062,211 +1062,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794521948,
-  "time": "2026-11-12T22:19Z",
-  "title": "תקלת ענק בשירותי מיקרוסופט",
-  "summary": "תקלה נרחבת בשירותי מיקרוסופט ביום חמישי השביתה את Outlook, Teams ושירותים נוספים. החברה ייחסה זאת לבעיות שרתים ולא למתקפת סייבר.",
-  "kid": "למלא אנשים היו בעיות בשימוש בתוכנות של מיקרוסופט כמו אימייל ועבודה משותפת. זה קרה בגלל תקלה בשרתים שלהם ולא בגלל פריצה, וזה יכול להשפיע על המניה.",
-  "i18n": {
-   "title": {
-    "he": "תקלת ענק בשירותי מיקרוסופט",
-    "en": "Major Microsoft 365 and Outlook Outage",
-    "ar": "انقطاع كبير في خدمات مايكروسوفت",
-    "ru": "Крупный сбой в сервисах Microsoft"
-   },
-   "summary": {
-    "he": "תקלה נרחבת בשירותי מיקרוסופט ביום חמישי השביתה את Outlook, Teams ושירותים נוספים. החברה ייחסה זאת לבעיות שרתים ולא למתקפת סייבר.",
-    "en": "A widespread Microsoft outage on Thursday disrupted Outlook, Teams, and other 365 services. The company attributed the issue to failing servers rather than a cyberattack.",
-    "ar": "أدى انقطاع واسع النطاق في خدمات مايكروسوفت يوم الخميس إلى تعطيل Outlook وTeams وغيرها من خدمات 365. وأرجعت الشركة المشكلة إلى تعطل خوادم وليس إلى هجوم سيبراني.",
-    "ru": "Широкомасштабный сбой в Microsoft в четверг нарушил работу Outlook, Teams и других служб 365. Компания объяснила проблему сбоем серверов, а не кибератакой."
-   },
-   "kid": {
-    "he": "למלא אנשים היו בעיות בשימוש בתוכנות של מיקרוסופט כמו אימייל ועבודה משותפת. זה קרה בגלל תקלה בשרתים שלהם ולא בגלל פריצה, וזה יכול להשפיע על המניה.",
-    "en": "Many people couldn't use Microsoft email and work tools because of broken servers. It wasn't a hack, but tech problems can sometimes make stock prices wiggle.",
-    "ar": "لم يتمكن العديد من الأشخاص من استخدام بريد مايكروسوفت وأدوات العمل بسبب تعطل الخوادم. لم يكن هجوماً، لكن المشاكل التقنية يمكن أن تؤثر أحياناً على الأسهم.",
-    "ru": "Многие люди не могли пользоваться почтой и рабочими программами Microsoft из-за поломки серверов. Это был не взлом, но технические проблемы могут немного повлиять на акции."
-   }
-  },
-  "category": "cyber",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeTBZTklBX3BnTkM0TkJiczl5UWl1WDBzRXpuNGFKWWZjNGhQUTFTNWE5VVZMUnZZaEo0eVY5WTZZQk9JYWdhOFpMRWJ0bmVaNnduOWdmU1d6MkFyWVZnaEZyTWljOFl4VUZBMkFCbkVpZW9jZUEtUWd3QVg5TEhyalNjRjRLQQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUElFenMyZ2VWcVEyVmdMbURTT2pMa0FNbTRRanB2bzNCd095SGxSa1ZSME9lTkFsOWM0Ymo1azV3OXFBWFd2TjBsd3I3bERCS2kxaVlWWkI3cGh2Nk8tQ3p3VF9xNU5wT3hnaXF2clFPbEN0SktadjFwNTgxc1RINng0SURsaWtRZnozVEtmRm5sdXQ1UkQtdWpR?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MSFT",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "תקלת שירות רחבה עלולה לפגוע זמנית באמון הלקוחות.",
-    "reason_i18n": {
-     "he": "תקלת שירות רחבה עלולה לפגוע זמנית באמון הלקוחות.",
-     "en": "A widespread service outage can temporarily hurt customer trust.",
-     "ar": "قد يؤدي انقطاع الخدمة على نطاق واسع إلى الإضرار بثقة العملاء مؤقتاً.",
-     "ru": "Широкомасштабный сбой в обслуживании может временно подорвать доверие клиентов."
-    },
-    "name_i18n": {
-     "he": "מיקרוסופט – חברת טכנולוגיה ענקית",
-     "en": "Microsoft – a major tech company",
-     "ar": "مايكروسوفت – شركة تكنولوجيا كبرى",
-     "ru": "Microsoft — крупная технологическая компания"
-    },
-    "price_at_alert": 523.0,
-    "entry_price": 519.91,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 518.07,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.35,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.14,
-    "edge_pct": -2.14,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLK",
-    "direction": "down",
-    "t0": 1794521948,
-    "reason": "ירידה קלה במניות הטכנולוגיה הגדולות עקב בעיות תפעוליות.",
-    "reason_i18n": {
-     "he": "ירידה קלה במניות הטכנולוגיה הגדולות עקב בעיות תפעוליות.",
-     "en": "Slight downward pressure on major tech stocks due to operational issues.",
-     "ar": "ضغط نزولي طفيف على أسهم التكنولوجيا الكبرى بسبب مشاكل تشغيلية.",
-     "ru": "Небольшое давление на крупные технологические акции из-за операционных проблем."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על סקטרו הטכנולוגיה",
-     "en": "Technology Select Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا المتداول",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 173.77,
-    "entry_price": 173.58,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 164.68,
-    "exit_date": "2026-11-16",
-    "change_pct": -5.13,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.64,
-    "edge_pct": 2.64,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FDX",
-    "direction": "down",
-    "t0": 1794553730,
-    "reason": "תקלות תוכנה גלובליות משבשות את שרשרת האספקה והלוגיסטיקה.",
-    "reason_i18n": {
-     "he": "תקלות תוכנה גלובליות משבשות את שרשרת האספקה והלוגיסטיקה.",
-     "en": "Global software outages disrupt supply chain and logistics operations.",
-     "ar": "تعطل البرمجيات العالمية يعطل سلاسل الإمداد والخدمات اللوجستية.",
-     "ru": "Глобальные сбои ПО нарушают цепочки поставок и логистику."
-    },
-    "name_i18n": {
-     "he": "פדקס - חברת שילוח ולוגיסטיקה",
-     "en": "FedEx – shipping and logistics",
-     "ar": "فيديكس - شركة شحن ولوجستيات",
-     "ru": "FedEx – логистическая компания"
-    },
-    "price_at_alert": 319.3,
-    "entry_price": 321.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 327.67,
-    "exit_date": "2026-11-16",
-    "change_pct": 2.08,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 4.57,
-    "edge_pct": -4.57,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "ea32809015e0",
-  "updates": [
-   {
-    "ts": 1794535463,
-    "time": "2026-11-13T02:04Z",
-    "severity": 6,
-    "summary": "מיקרוסופט מדווחת על תקלה גלובלית בשירותי Outlook ו-Teams עקב שרתים שהפסיקו לפעול באופן בלתי צפוי.",
-    "i18n": {
-     "he": "מיקרוסופט מדווחת על תקלה גלובלית בשירותי Outlook ו-Teams עקב שרתים שהפסיקו לפעול באופן בלתי צפוי.",
-     "en": "Microsoft reports a global outage affecting Outlook and Teams due to servers unexpectedly becoming unavailable.",
-     "ar": "أبلغت مايكروسوفت عن عطل عالمي يؤثر على خدمات Outlook و Teams بسبب توقف خوادم عن العمل بشكل غير متوقع.",
-     "ru": "Microsoft сообщает о глобальном сбое в работе Outlook и Teams из-за неожиданного отключения серверов."
-    }
-   },
-   {
-    "ts": 1794553730,
-    "time": "2026-11-13T07:08Z",
-    "severity": 6,
-    "summary": "תקלות משמעותיות בשירותי Microsoft 365 נמשכות מעל 12 שעות ומפריעות לפעילות מערכות שונות ברחבי העולם, כאשר החברה פועלת לתיקונן.",
-    "i18n": {
-     "he": "תקלות משמעותיות בשירותי Microsoft 365 נמשכות מעל 12 שעות ומפריעות לפעילות מערכות שונות ברחבי העולם, כאשר החברה פועלת לתיקונן.",
-     "en": "Significant outages in Microsoft 365 services continue past 12 hours, disrupting global systems and shipping operations, while the company works urgently on fixes.",
-     "ar": "تستمر الأعطال الكبيرة في خدمات مايكروسوفت 365 لأكثر من 12 ساعة، مما يؤدي إلى تعطيل الأنظمة العالمية بينما تعمل الشركة على الإصلاح.",
-     "ru": "Значительные сбои в сервисах Microsoft 365 продолжаются более 12 часов, нарушая работу систем по всему миру, пока компания работает над устранением."
-    }
-   },
-   {
-    "ts": 1794569210,
-    "time": "2026-11-13T11:26Z",
-    "severity": 7,
-    "summary": "תקלה טכנית רחבת היקף משבשת את שירותי Microsoft 365, כולל Outlook ו-Teams ברחבי העולם. החברה מדווחת כי מאמצי התיקון נתקלים בקשיים.",
-    "i18n": {
-     "he": "תקלה טכנית רחבת היקף משבשת את שירותי Microsoft 365, כולל Outlook ו-Teams ברחבי העולם. החברה מדווחת כי מאמצי התיקון נתקלים בקשיים.",
-     "en": "A widespread technical outage is disrupting Microsoft 365 services, including Outlook and Teams, globally. The company reports that restoration efforts are not proceeding as expected.",
-     "ar": "انقطاع تقني واسع النطاق يعطل خدمات مايكרוסופט 365، بما في ذلك Outlook وTeams على مستوى العالم. تشير الشركة إلى أن جهود الإصلاح لا تسير كما هو متوقع.",
-     "ru": "Масштабный технический сбой нарушает работу сервисов Microsoft 365, включая Outlook и Teams, по всему миру. Компания сообщает, что процесс восстановления идет не по плану."
-    }
-   },
-   {
-    "ts": 1794577463,
-    "time": "2026-11-13T13:44Z",
-    "severity": 4,
-    "summary": "תקלה מתמשכת בשירותי מיקרוסופט, כולל Outlook ו-Teams, השפיעה על משתמשים ברחבי העולם, אם כי החברה מדווחת על סימני התאוששות.",
-    "i18n": {
-     "he": "תקלה מתמשכת בשירותי מיקרוסופט, כולל Outlook ו-Teams, השפיעה על משתמשים ברחבי העולם, אם כי החברה מדווחת על סימני התאוששות.",
-     "en": "A persistent outage in Microsoft services, including Outlook and Teams, affected users globally, though the company reports signs of recovery.",
-     "ar": "أثر انقطاع مستمر في خدمات مايكروسوفت، بما في ذلك Outlook و Teams، على المستخدمين عالمياً، على الرغم من أن الشركة تبلغ عن علامات التعافي.",
-     "ru": "Продолжающийся сбой в сервисах Microsoft, включая Outlook и Teams, затронул пользователей по всему миру, хотя компания сообщает о признаках восстановления."
-    }
-   },
-   {
-    "ts": 1794580630,
-    "time": "2026-11-13T14:37Z",
-    "severity": 4,
-    "summary": "מיקרוסופט דיווחה כי תורי הדוא\"ל מתקרבים לרמות נורמליות לאחר תקלת ענק שפקדה את שירותי Outlook, Teams ו-365, תוך שהיא שוללת חשד למתקפת סייבר.",
-    "i18n": {
-     "he": "מיקרוסופט דיווחה כי תורי הדוא\"ל מתקרבים לרמות נורמליות לאחר תקלת ענק שפקדה את שירותי Outlook, Teams ו-365, תוך שהיא שוללת חשד למתקפת סייבר.",
-     "en": "Microsoft stated email queues are approaching normal levels following a major outage affecting Outlook, Teams, and 365, while denying that a cyberattack caused the disruption.",
-     "ar": "قالت مايكروسوفت إن طوابير البريد الإلكتروني تقترب من المستويات الطبيعية بعد انقطاع كبير أثر على خدمات أوتلوك وتيمز.",
-     "ru": "Microsoft сообщила, что очереди писем приближаются к норме после масштабного сбоя в Outlook, Teams и 365, при этом отвергнув версию о кибератаке."
-    }
-   }
-  ],
-  "last_update": 1794580630,
-  "evaluated": true
- },
- {
   "ts": 1794558447,
   "time": "2026-11-13T08:27Z",
   "title": "סערת אנבידיה והחמרת בקרת הייצוא",
@@ -2697,406 +2492,6 @@
    }
   ],
   "last_update": 1794633813,
-  "evaluated": true
- },
- {
-  "ts": 1794580630,
-  "time": "2026-11-13T14:37Z",
-  "title": "קנדה מאיימת בצעדים משפטיים נגד סטלאנטיס על רקע העברת ייצור Jeep",
-  "summary": "קנדה איימה לתבוע את יצרנית הרכב סטלאנטיס לאחר שהחברה ביטלה את תוכניות ייצור ה-Jeep Compass בברמפטון והעבירה את הפעילות לאילינוי בעקבות מכסי המגן בארה\"ב.",
-  "kid": "חברת הרכב סטלאנטיס העבירה מפעל מארה\"ב לקנדה או להפך בגלל מסים, וכעת ממשלת קנדה כועסת ומאיימת בתביעה משפטית.",
-  "i18n": {
-   "title": {
-    "he": "קנדה מאיימת בצעדים משפטיים נגד סטלאנטיס על רקע העברת ייצור Jeep",
-    "en": "Canada Threatens Legal Action Against Stellantis Over Jeep Production Shift",
-    "ar": "كندا تهدد باتخاذ إجراءات قانونية ضد ستيللانتيس بسبب نقل إنتاج جيب",
-    "ru": "Канада угрожает судом против Stellantis из-за переноса производства Jeep"
-   },
-   "summary": {
-    "he": "קנדה איימה לתבוע את יצרנית הרכב סטלאנטיס לאחר שהחברה ביטלה את תוכניות ייצור ה-Jeep Compass בברמפטון והעבירה את הפעילות לאילינוי בעקבות מכסי המגן בארה\"ב.",
-    "en": "Canada threatened legal action against automaker Stellantis after it scrapped planned Jeep Compass production in Brampton and shifted output to Illinois amid U.S. auto tariffs.",
-    "ar": "هددت كندا بمقاضاة شركة ستيللانتيس لصناعة السيارات بعد إلغاء خطط إنتاج سيارات جيب ونقلها إلى إيلينوي وسط التعريفات الأمريكية.",
-    "ru": "Канада пригрозила судом автопроизводителю Stellantis после того, как он отменил производство Jeep в Брамптоне и перенес его в Иллинойс на фоне пошлин США."
-   },
-   "kid": {
-    "he": "חברת הרכב סטלאנטיס העבירה מפעל מארה\"ב לקנדה או להפך בגלל מסים, וכעת ממשלת קנדה כועסת ומאיימת בתביעה משפטית.",
-    "en": "Automaker Stellantis moved factory production to avoid tariffs, angering the Canadian government, which threatens legal action and creates uncertainty for the stock.",
-    "ar": "نقلت شركة ستيللانتيس الإنتاج لتجنب الرسوم الجمركية، مما أثار غضب الحكومة الكندية وهددت بمقاضاتها.",
-    "ru": "Автопроизводитель перенес производство из-за пошлин, вызвав гнев властей Канады и угрозу судебного иска."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "STLA",
-    "direction": "down",
-    "t0": 1794580630,
-    "reason": "סיכונים משפטיים ומדיניים מול ממשלת קנדה על רקע ארגון מחדש של שרשרת האספקה.",
-    "reason_i18n": {
-     "he": "סיכונים משפטיים ומדיניים מול ממשלת קנדה על רקע ארגון מחדש של שרשרת האספקה.",
-     "en": "Regulatory and legal disputes with Canada add friction to North American manufacturing footprint.",
-     "ar": "النزاعات التنظيمية والقانونية مع كندا تضيف ضغوطاً على عمليات الشركة.",
-     "ru": "Регулирующие и судебные споры с Канадой создают риски для цепочки поставок."
-    },
-    "name_i18n": {
-     "he": "STLA - סטלאנטיס",
-     "en": "STLA - Stellantis",
-     "ar": "STLA - ستيللانتيس",
-     "ru": "STLA - Stellantis"
-    },
-    "price_at_alert": 3.905,
-    "entry_price": 3.885,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 3.715,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.38,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": -3.04,
-    "edge_pct": 3.04,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWC",
-    "direction": "down",
-    "t0": 1794580630,
-    "reason": "פגיעה פוטנציאלית במשרות תעשייתיות בקנדה מעוררת מתחים מסחריים אזוריים.",
-    "reason_i18n": {
-     "he": "פגיעה פוטנציאלית במשרות תעשייתיות בקנדה מעוררת מתחים מסחריים אזוריים.",
-     "en": "Friction over manufacturing job shifts strains cross-border economic relations.",
-     "ar": "التوتر حول وظائف التصنيع يوتر العلاقات الاقتصادية عبر الحدود.",
-     "ru": "Напряженность из-за переноса рабочих мест ухудшает торговые отношения."
-    },
-    "name_i18n": {
-     "he": "EWC - קרן סל על השוק הקנדי",
-     "en": "EWC - Canada ETF",
-     "ar": "EWC - صندوق الاستثمار الكندي",
-     "ru": "EWC - ETF рынка Канады"
-    },
-    "price_at_alert": 60.325,
-    "entry_price": 60.05,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 59.2625,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.31,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": 0.03,
-    "edge_pct": -0.03,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "13c940b6eeda",
-  "evaluated": true
- },
- {
-  "ts": 1794580630,
-  "time": "2026-11-13T14:37Z",
-  "title": "התפשטות מגיפת האבולה באפריקה עם אלפי מתים",
-  "summary": "ממדי התפרצות האבולה ממשיכים להחמיר כאשר מספר המתים חצה את רף ה-5,400 איש, מתוכם שליש ילדים, ומעורר דאגה בריאותית עולמית.",
-  "kid": "מחלת האבולה המסוכנת מתפשטת באפריקה וגובה קורבנות רבים, מה שמעורר חשש מהתפשטות בינלאומית ונותן דחיפה לחברות המפתחות חיסונים ותרופות.",
-  "i18n": {
-   "title": {
-    "he": "התפשטות מגיפת האבולה באפריקה עם אלפי מתים",
-    "en": "Ebola Outbreak Worsens in Africa With Over 5,400 Deaths",
-    "ar": "تفاقم تفشي وباء إيبولا في إفريقيا مع تجاوز الوفيات 5400",
-    "ru": "Вспышка лихорадки Эбола в Африке унесла более 5400 жизней"
-   },
-   "summary": {
-    "he": "ממדי התפרצות האבולה ממשיכים להחמיר כאשר מספר המתים חצה את רף ה-5,400 איש, מתוכם שליש ילדים, ומעורר דאגה בריאותית עולמית.",
-    "en": "The Ebola nightmare is expanding with fatalities reaching 5,400 people, one-third of whom are children, raising international health concerns.",
-    "ar": "تتفاقم أزمة إيبولا مع وصول الوفيات إلى 5400 شخص، ثلثهم من الأطفال، مما يثير مخاوف صحية عالمية.",
-    "ru": "Ситуация с вирусом Эбола ухудшается: число погибших достигло 5400 человек, треть из которых — дети, что вызывает глобальную тревогу."
-   },
-   "kid": {
-    "he": "מחלת האבולה המסוכנת מתפשטת באפריקה וגובה קורבנות רבים, מה שמעורר חשש מהתפשטות בינלאומית ונותן דחיפה לחברות המפתחות חיסונים ותרופות.",
-    "en": "A dangerous Ebola outbreak is worsening in Africa, prompting global health surveillance and lifting shares of companies involved in epidemic treatments.",
-    "ar": "يتفشي وباء إيبولا الخطر في إفريقيا، مما يثير المخاوف الصحية الدولية ويدعم أسهم شركات الأدوية.",
-    "ru": "Опасная вспышка Эболы в Африке усиливает тревогу и поддерживает акции фармацевтических компаний."
-   }
-  },
-  "category": "health",
-  "severity": 4,
-  "confidence": "low",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcEx6ak9OeVhJcmtYQXo0US10RUFjbWoxWEpZUEVfYXRVZUhjUnBJbnJZRzVlcjduVHMxYWtKbnlNMWhEQWtyTGN0NHBJUERHSXVlYWJaSFlUQ09DV1NONElSRGRqdXJQbkhselBpRjJrQm9XYXJUVnU5TnA0X29hdWZFZFJOVkE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1794580630,
-    "reason": "התפרצויות מחלות קטלניות מעלות את העניין בטכנולוגיות חיסון מהירות של חברות הביוטק.",
-    "reason_i18n": {
-     "he": "התפרצויות מחלות קטלניות מעלות את העניין בטכנולוגיות חיסון מהירות של חברות הביוטק.",
-     "en": "Deadly disease outbreaks heighten market focus on vaccine developers and biotech firms.",
-     "ar": "تفشي الأمراض القاتلة يرفع اهتمام السوق بمطوري اللقاحات.",
-     "ru": "Вспышки смертельных болезней привлекают внимание к разработчикам вакцин."
-    },
-    "name_i18n": {
-     "he": "MRNA - מודרנה",
-     "en": "MRNA - Moderna",
-     "ar": "MRNA - موديرنا",
-     "ru": "MRNA - Moderna"
-    },
-    "price_at_alert": 225.04,
-    "entry_price": 227.12,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 215.49,
-    "exit_date": "2026-11-16",
-    "change_pct": -5.12,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": -3.78,
-    "edge_pct": -3.78,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1794580630,
-    "reason": "תשומת לב מוגברת לסקטור הבריאות והביוטכנולוגיה על רקע משברים אפידמיולוגיים.",
-    "reason_i18n": {
-     "he": "תשומת לב מוגברת לסקטור הבריאות והביוטכנולוגיה על רקע משברים אפידמיולוגיים.",
-     "en": "Increased focus on health and biosecurity stocks amid emerging epidemic news.",
-     "ar": "زيادة التركيز على أسهم الرعاية الصحية والأمن الحيوي وسط أخبار الأوبئة.",
-     "ru": "Повышенное внимание к акциям здравоохранения на фоне новостей об эпидемиях."
-    },
-    "name_i18n": {
-     "he": "XLV - קרן סל סקטור הבריאות",
-     "en": "XLV - Health Care Select Sector SPDR Fund",
-     "ar": "XLV - صندوق قطاع الرعاية الصحية",
-     "ru": "XLV - ETF сектора здравоохранения"
-    },
-    "price_at_alert": 187.9,
-    "entry_price": 187.71,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 187.91,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.11,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": 1.45,
-    "edge_pct": 1.45,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "6b7e2ed35ed9",
-  "evaluated": true
- },
- {
-  "ts": 1794580630,
-  "time": "2026-11-13T14:37Z",
-  "title": "תנועת סטודנטים בסרביה מתכננת לעצור את סחר הנשק עם ישראל",
-  "summary": "תנועת הסטודנטים המנצחת בבחירות בסרביה הודיעה על כוונתה לעצור את עסקאות סחר הנשק וייצוא הביטחוני מול ישראל.",
-  "kid": "תנועה פוליטית חדשה בסרביה רוצה לבטל עסקאות נשק עם ישראל, מה שעשוי להשפיע על חברות ביטחוניות שמוכרות ציוד באזור.",
-  "i18n": {
-   "title": {
-    "he": "תנועת סטודנטים בסרביה מתכננת לעצור את סחר הנשק עם ישראל",
-    "en": "Serbia's Student Movement Plans to Halt Arms Trade With Israel",
-    "ar": "حركة الطلاب في صربيا تخطط لوقف تجارة الأسلحة مع إسرائيل",
-    "ru": "Студенческое движение Сербии планирует прекратить торговлю оружием с Израилем"
-   },
-   "summary": {
-    "he": "תנועת הסטודנטים המנצחת בבחירות בסרביה הודיעה על כוונתה לעצור את עסקאות סחר הנשק וייצוא הביטחוני מול ישראל.",
-    "en": "Serbia's election-winning student movement announced plans to halt arms trade and defense cooperation with Israel.",
-    "ar": "أعلنت حركة الطلاب الفائزة في الانتخابات في صربيا عن خطط لوقف تجارة الأسلحة مع إسرائيل.",
-    "ru": "Победившее на выборах студенческое движение Сербии объявило о планах остановить торговлю оружием с Израилем."
-   },
-   "kid": {
-    "he": "תנועה פוליטית חדשה בסרביה רוצה לבטל עסקאות נשק עם ישראל, מה שעשוי להשפיע על חברות ביטחוניות שמוכרות ציוד באזור.",
-    "en": "A new political movement in Serbia aims to stop arms sales with Israel, which could create headwinds for regional defense suppliers and contractors.",
-    "ar": "حركة سياسية جديدة في صربيا تريد وقف صفقات الأسلحة مع إسرائيل، مما قد يؤثر على شركات الدفاع.",
-    "ru": "Новое политическое движение в Сербии хочет остановить оружейные сделки с Израилем, что может затронуть оборонные компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNhT1VkYzN0STVoQmpXLVl2ZUlBTzI3SF9Qcl9KcHFaU0piV1VBazI1ai0xSEIyQUZTbExUMENxNGozYjJZQkt4QndlTmE0V1BCRGpRS2FNNXhKbnFqNWlRamtTWmk5X0ktTG1FaUdWTkhnanZORUhxUzZSd0dUNVQzemswb2pKQUZYZmRnMndQQW5yTzZLUnJnZ0R6bnRYMVNNSnZvamxNTVkwTFRvcGt1U1J0VlZFVmc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "down",
-    "t0": 1794580630,
-    "reason": "אפשרות לפגיעה בחוזים ביטחוניים וביצוא המערכות הביטחוניות הישראליות לשוק המזרח-אירופי.",
-    "reason_i18n": {
-     "he": "אפשרות לפגיעה בחוזים ביטחוניים וביצוא המערכות הביטחוניות הישראליות לשוק המזרח-אירופי.",
-     "en": "Potential disruption to defense supply agreements and export channels in Eastern Europe.",
-     "ar": "احتمال تعطيل اتفاقيات الإمداد الدفاعي وقنوات التصدير في أوروبا الشرقية.",
-     "ru": "Потенциальные сбои в оборонных поставках и каналах экспорта в Восточной Европе."
-    },
-    "name_i18n": {
-     "he": "ESLT - אלביט מערכות",
-     "en": "ESLT - Elbit Systems",
-     "ar": "ESLT - إلبيط سيستمز",
-     "ru": "ESLT - Elbit Systems"
-    },
-    "price_at_alert": 712.0,
-    "entry_price": 701.0,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 680.74,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.89,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": -1.55,
-    "edge_pct": 1.55,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EIS",
-    "direction": "down",
-    "t0": 1794580630,
-    "reason": "פגיעה רוחבית ביצוא הביטחוני של ישראל למדינות אירופה עשויה להכביד על השוק המקומי.",
-    "reason_i18n": {
-     "he": "פגיעה רוחבית ביצוא הביטחוני של ישראל למדינות אירופה עשויה להכביד על השוק המקומי.",
-     "en": "Broader headwinds to Israeli defense exports weigh slightly on local sentiment.",
-     "ar": "الرياح المعاكسة لصادرات الدفاع الإسرائيلية تثقل كاهل المعنويات المحلية.",
-     "ru": "Общие препятствия для оборонного экспорта Израиля давят на настроения."
-    },
-    "name_i18n": {
-     "he": "EIS - קרן סל על שוק ישראל",
-     "en": "EIS - MSCI Israel ETF",
-     "ar": "EIS - صندوق الاستثمار الإسرائيلي",
-     "ru": "EIS - ETF рынка Израиля"
-    },
-    "price_at_alert": 113.1635,
-    "entry_price": 112.375,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 109.66,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.42,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": -1.08,
-    "edge_pct": 1.08,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "9fef67789fe9",
-  "evaluated": true
- },
- {
-  "ts": 1794580630,
-  "time": "2026-11-13T14:37Z",
-  "title": "טורקיה ומצרים בוחנות שיתוף פעולה בבניית ספינות מלחמה ימיות",
-  "summary": "טורקיה ומצרים מקדמות צעדים לחיזוק שיתוף הפעולה הימי ביניהן, כאשר פרויקטים משותפים לבניית ספינות מלחמה עומדים על הפרק.",
-  "kid": "שתי מדינות במזרח התיכון מתכננות לבנות יחד ספינות צבאיות, מה שמחזק את התעשייה הביטחונית באזור.",
-  "i18n": {
-   "title": {
-    "he": "טורקיה ומצרים בוחנות שיתוף פעולה בבניית ספינות מלחמה ימיות",
-    "en": "Turkey and Egypt Consider Joint Naval Shipbuilding Projects",
-    "ar": "تركيا ومصر تدرسان مشاريع مشتركة لبناء السفن البحرية",
-    "ru": "Турция и Египет обсуждают совместные проекты судостроения"
-   },
-   "summary": {
-    "he": "טורקיה ומצרים מקדמות צעדים לחיזוק שיתוף הפעולה הימי ביניהן, כאשר פרויקטים משותפים לבניית ספינות מלחמה עומדים על הפרק.",
-    "en": "Turkey and Egypt are strengthening maritime cooperation with joint naval shipbuilding projects currently on the table.",
-    "ar": "تتخذ تركيا ومصر خطوات لتعزيز التعاون البحري مع طرح مشاريع مشتركة لبناء السفن الحربية.",
-    "ru": "Турция и Египет укрепляют морское сотрудничество, обсуждая совместные проекты военного судостроения."
-   },
-   "kid": {
-    "he": "שתי מדינות במזרח התיכון מתכננות לבנות יחד ספינות צבאיות, מה שמחזק את התעשייה הביטחונית באזור.",
-    "en": "Two major regional powers plan to build military ships together, signalling closer defense ties and industrial contracts.",
-    "ar": "قوتان إقليميتان تخططان لبناء سفن عسكرية معا، مما يعزز قطاع الدفاع.",
-    "ru": "Две региональные державы планируют строить военные корабли вместе, укрепляя связи."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "low",
-  "sources": [
-   {
-    "name": "Defense News",
-    "url": "https://www.defensenews.com/global/mideast-africa/2026/11/13/turkey-and-egypt-weigh-joint-naval-shipbuilding-projects/"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794580630,
-    "reason": "גידול בהוצאות הביטחון ופעילות ימית אזורית תומכים בסנטימנט החיובי לסקטור הביטחוני.",
-    "reason_i18n": {
-     "he": "גידול בהוצאות הביטחון ופעילות ימית אזורית תומכים בסנטימנט החיובי לסקטור הביטחוני.",
-     "en": "Rising international defense outlays and naval upgrades support global defense sector sentiment.",
-     "ar": "زيادة الإنفاق الدفاعي الدولي تدعم معنويات قطاع الدفاع العالمي.",
-     "ru": "Рост международных оборонных расходов поддерживает сектор."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון אמריקאית",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق الطيران والدفاع الأمريكي",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 71.69,
-    "entry_price": 71.04,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.89,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": -0.55,
-    "edge_pct": -0.55,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "HII",
-    "direction": "up",
-    "t0": 1794580630,
-    "reason": "פעילות עולמית ערה בתחום בניית הספינות הצבאיות מציפה ביקוש לתעשייה הימית.",
-    "reason_i18n": {
-     "he": "פעילות עולמית ערה בתחום בניית הספינות הצבאיות מציפה ביקוש לתעשייה הימית.",
-     "en": "Heightened global naval construction activity highlights demand for maritime defense infrastructure.",
-     "ar": "نشاط البناء البحري العسكري العالمي يسلط الضوء على الطلب على البنية التحتية للدفاع.",
-     "ru": "Повышенная активность в военном судостроении подчеркивает спрос на инфраструктуру."
-    },
-    "name_i18n": {
-     "he": "HII - האנטינגטון אינגלס (בניית ספינות)",
-     "en": "HII - Huntington Ingalls Industries",
-     "ar": "HII - هنتنغتون إنغالس للصناعات",
-     "ru": "HII - Huntington Ingalls Industries"
-    },
-    "price_at_alert": 307.15,
-    "entry_price": 304.21,
-    "entry_time": "2026-11-13T15:30+00:00",
-    "exit_price": 302.21,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.66,
-    "bench": "SPY",
-    "bench_change_pct": -1.34,
-    "excess_pct": 0.68,
-    "edge_pct": 0.68,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "b6d0c4f3c847",
   "evaluated": true
  },
  {
@@ -46394,7 +45789,7 @@
    }
   },
   "category": "cyber",
-  "severity": 4,
+  "severity": 5,
   "confidence": "medium",
   "sources": [
    {
@@ -46444,9 +45839,43 @@
      "ru": "Mastercard - платежная система"
     },
     "price_at_alert": 626.5
+   },
+   {
+    "ticker": "V",
+    "direction": "down",
+    "t0": 1795188440,
+    "reason": "חשש מנזק תדמיתי ועלויות אבטחה",
+    "reason_i18n": {
+     "he": "חשש מנזק תדמיתי ועלויות אבטחה",
+     "en": "Reputational risk and security costs",
+     "ar": "مخاطر السمعة وتكاليف الأمن",
+     "ru": "Репутационные риски и расходы на безопасность"
+    },
+    "name_i18n": {
+     "he": "ויזה",
+     "en": "Visa",
+     "ar": "فيزا",
+     "ru": "Visa"
+    },
+    "price_at_alert": 406.845
    }
   ],
-  "id": "0a8944ca802f"
+  "id": "0a8944ca802f",
+  "updates": [
+   {
+    "ts": 1795188440,
+    "time": "2026-11-20T15:27Z",
+    "severity": 5,
+    "summary": "חברות כרטיסי אשראי גדולות כמו ויזה ומאסטרקארד אישרו כי ספק חיצוני הותקף בסייבר, מה שמעלה חששות לגבי אבטחת מידע פיננסי.",
+    "i18n": {
+     "he": "חברות כרטיסי אשראי גדולות כמו ויזה ומאסטרקארד אישרו כי ספק חיצוני הותקף בסייבר, מה שמעלה חששות לגבי אבטחת מידע פיננסי.",
+     "en": "Major credit card companies including Visa and Mastercard confirmed a cyberattack on a third-party vendor, raising concerns about financial data security.",
+     "ar": "أكدت شركات بطاقات ائتمان كبرى، بما في ذلك فيزا وماستركارد، تعرض مزود خارجي لهجوم سيبراني، مما يثير مخاوف بشأن أمن البيانات المالية.",
+     "ru": "Крупные компании по выпуску кредитных карт, включая Visa и Mastercard, подтвердили кибератаку на стороннего поставщика, что вызывает опасения по поводу безопасности финансовых данных."
+    }
+   }
+  ],
+  "last_update": 1795188440
  },
  {
   "ts": 1795175739,
@@ -46795,7 +46224,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "medium",
   "sources": [
    {
@@ -46847,7 +46276,22 @@
     "price_at_alert": 158.93
    }
   ],
-  "id": "2d2701fda476"
+  "id": "2d2701fda476",
+  "updates": [
+   {
+    "ts": 1795188440,
+    "time": "2026-11-20T15:27Z",
+    "severity": 8,
+    "summary": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי העימותים הקשורים לאיראן גרמו לירידה של 2.8 מיליון חביות ביום באספקת הנפט העולמית.",
+    "i18n": {
+     "he": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי העימותים הקשורים לאיראן גרמו לירידה של 2.8 מיליון חביות ביום באספקת הנפט העולמית.",
+     "en": "The International Energy Agency (IEA) reports that conflicts related to Iran have removed 2.8 million barrels per day from global oil supply.",
+     "ar": "أفادت وكالة الطاقة الدولية أن النزاعات المتعلقة بإيران أدت إلى خفض إمدادات النفط العالمية بمقدار 2.8 مليون برميل يومياً.",
+     "ru": "Международное энергетическое агентство (МЭА) сообщает, что конфликты, связанные с Ираном, привели к сокращению мировых поставок нефти на 2,8 млн баррелей в сутки."
+    }
+   }
+  ],
+  "last_update": 1795188440
  },
  {
   "ts": 1795184520,
@@ -46906,5 +46350,130 @@
    }
   ],
   "id": "3e342088f87e"
+ },
+ {
+  "ts": 1795188440,
+  "time": "2026-11-20T15:27Z",
+  "title": "רוסיה פתחה במתקפה אווירית מסיבית על אוקראינה",
+  "summary": "רוסיה ביצעה מתקפה אווירית רחבת היקף על קייב וערים נוספות באוקראינה, שגרמה לנפגעים ולנזק. צרפת כינסה את מועצת הביטחון של האו\"ם בעקבות האירועים.",
+  "kid": "רוסיה תקפה את אוקראינה עם הרבה טילים ומל\"טים. זה מגביר את המתיחות בעולם ועלול להשפיע על מחירי הנפט והגז.",
+  "i18n": {
+   "title": {
+    "he": "רוסיה פתחה במתקפה אווירית מסיבית על אוקראינה",
+    "en": "Russia launches massive missile and drone attack on Ukraine",
+    "ar": "روسيا تشن هجوماً صاروخياً وبطائرات مسيرة واسع النطاق على أوكرانيا",
+    "ru": "Россия нанесла массированный ракетный и беспилотный удар по Украине"
+   },
+   "summary": {
+    "he": "רוסיה ביצעה מתקפה אווירית רחבת היקף על קייב וערים נוספות באוקראינה, שגרמה לנפגעים ולנזק. צרפת כינסה את מועצת הביטחון של האו\"ם בעקבות האירועים.",
+    "en": "Russia conducted a large-scale missile and drone attack on Kyiv and other Ukrainian cities, resulting in casualties and damage. France has convened the UN Security Council.",
+    "ar": "شنت روسيا هجوماً جوياً واسع النطاق على كييف ومدن أوكرانية أخرى، مما أسفر عن وقوع إصابات وأضرار. وقد دعت فرنسا إلى عقد اجتماع لمجلس الأمن الدولي.",
+    "ru": "Россия нанесла масштабный ракетный и беспилотный удар по Киеву и другим городам Украины, что привело к жертвам и разрушениям. Франция созвала Совет Безопасности ООН."
+   },
+   "kid": {
+    "he": "רוסיה תקפה את אוקראינה עם הרבה טילים ומל\"טים. זה מגביר את המתיחות בעולם ועלול להשפיע על מחירי הנפט והגז.",
+    "en": "Russia attacked Ukraine with many missiles and drones. This increases global tension and could affect oil and gas prices.",
+    "ar": "هاجمت روسيا أوكرانيا بالكثير من الصواريخ والطائرات بدون طيار. هذا يزيد من التوتر العالمي وقد يؤثر على أسعار النفط والغاز.",
+    "ru": "Россия атаковала Украину множеством ракет и дронов. Это усиливает напряженность в мире и может повлиять на цены на нефть и газ."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795188440,
+    "reason": "חשש משיבושי אספקה עקב הסלמה",
+    "reason_i18n": {
+     "he": "חשש משיבושי אספקה עקב הסלמה",
+     "en": "Supply disruption fears due to escalation",
+     "ar": "مخاوف من تعطل الإمدادات بسبب التصعيد",
+     "ru": "Опасения перебоев в поставках из-за эскалации"
+    },
+    "name_i18n": {
+     "he": "קרן נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 135.41
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795188440,
+    "reason": "עלייה בביקוש לציוד ביטחוני",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לציוד ביטחוני",
+     "en": "Increased demand for defense equipment",
+     "ar": "زيادة الطلب على المعدات الدفاعية",
+     "ru": "Рост спроса на оборонное оборудование"
+    },
+    "name_i18n": {
+     "he": "קרן תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق الطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 67.92
+   }
+  ],
+  "id": "3e04b7f77482"
+ },
+ {
+  "ts": 1795188440,
+  "time": "2026-11-20T15:27Z",
+  "title": "התפרצות שפעת העופות בפלורידה",
+  "summary": "חברת Cal-Maine הפסיקה את הייצור במפעל שלה בפלורידה בעקבות התפרצות שפעת העופות.",
+  "kid": "יש מחלה אצל תרנגולות במפעל ביצים גדול. זה אומר שיהיו פחות ביצים, מה שעלול להעלות את המחיר שלהן בסופר.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות שפעת העופות בפלורידה",
+    "en": "Bird flu outbreak at Florida plant",
+    "ar": "تفشي إنفلونزا الطيور في مصنع بفلوريدا",
+    "ru": "Вспышка птичьего гриппа на ферме во Флориде"
+   },
+   "summary": {
+    "he": "חברת Cal-Maine הפסיקה את הייצור במפעל שלה בפלורידה בעקבות התפרצות שפעת העופות.",
+    "en": "Cal-Maine has halted production at its Florida plant following a bird flu outbreak.",
+    "ar": "أوقفت شركة Cal-Maine الإنتاج في مصنعها بفلوريدا بعد تفشي إنفلونزا الطيور.",
+    "ru": "Компания Cal-Maine приостановила производство на своем заводе во Флориде после вспышки птичьего гриппа."
+   },
+   "kid": {
+    "he": "יש מחלה אצל תרנגולות במפעל ביצים גדול. זה אומר שיהיו פחות ביצים, מה שעלול להעלות את המחיר שלהן בסופר.",
+    "en": "There is a sickness among chickens at a big egg factory. This means there will be fewer eggs, which could make them more expensive at the store.",
+    "ar": "هناك مرض بين الدجاج في مصنع بيض كبير. هذا يعني أنه سيكون هناك بيض أقل، مما قد يجعل سعره أغلى في المتجر.",
+    "ru": "На крупной фабрике по производству яиц заболели куры. Это значит, что яиц станет меньше, и они могут подорожать в магазинах."
+   }
+  },
+  "category": "health",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "CALM",
+    "direction": "down",
+    "t0": 1795188440,
+    "reason": "הפסקת ייצור ועלויות תפעול",
+    "reason_i18n": {
+     "he": "הפסקת ייצור ועלויות תפעול",
+     "en": "Production halt and operational costs",
+     "ar": "توقف الإنتاج وتكاليف التشغيل",
+     "ru": "Остановка производства и операционные расходы"
+    },
+    "name_i18n": {
+     "he": "קאל-מיין (יצרנית ביצים)",
+     "en": "Cal-Maine Foods",
+     "ar": "كال-مين للأغذية",
+     "ru": "Cal-Maine Foods"
+    },
+    "price_at_alert": 71.73
+   }
+  ],
+  "id": "7995ffc98730"
  }
 ]
