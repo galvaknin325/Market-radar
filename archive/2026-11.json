@@ -131644,9 +131644,18 @@
    }
   },
   "category": "policy",
-  "severity": 5,
+  "severity": 7,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss"
+   }
+  ],
   "impacts": [
    {
     "ticker": "QQQ",
@@ -131685,9 +131694,43 @@
      "ru": "Nvidia - гигант чипов и ИИ"
     },
     "price_at_alert": 128.225
+   },
+   {
+    "ticker": "MSFT",
+    "direction": "down",
+    "t0": 1795209686,
+    "reason": "פגיעה ברווחיות עקב הגבלות על פריסת תשתיות ענן.",
+    "reason_i18n": {
+     "he": "פגיעה ברווחיות עקב הגבלות על פריסת תשתיות ענן.",
+     "en": "Profitability hit due to restrictions on cloud infrastructure deployment.",
+     "ar": "تأثير على الربحية بسبب قيود على نشر البنية التحتية السحابية.",
+     "ru": "Удар по прибыльности из-за ограничений на развертывание облачной инфраструктуры."
+    },
+    "name_i18n": {
+     "he": "Microsoft - ענקית טכנולוגיה",
+     "en": "Microsoft - tech giant",
+     "ar": "Microsoft - عملاق التكنولوجيا",
+     "ru": "Microsoft - технологический гигант"
+    },
+    "price_at_alert": 484.52
    }
   ],
-  "id": "b4ee2032c032"
+  "id": "b4ee2032c032",
+  "updates": [
+   {
+    "ts": 1795209686,
+    "time": "2026-11-20T21:21Z",
+    "severity": 7,
+    "summary": "נשיא ארה\"ב דונלד טראמפ איים להטיל \"מס עצום\" על חברות טכנולוגיה אמריקאיות שיקימו מרכזי נתונים לבינה מלאכותית מחוץ לגבולות ארה\"ב.",
+    "i18n": {
+     "he": "נשיא ארה\"ב דונלד טראמפ איים להטיל \"מס עצום\" על חברות טכנולוגיה אמריקאיות שיקימו מרכזי נתונים לבינה מלאכותית מחוץ לגבולות ארה\"ב.",
+     "en": "US President Donald Trump threatened to impose a \"tremendous tax\" on US tech companies that build AI data centers outside the US.",
+     "ar": "هدد الرئيس الأمريكي دونالد ترامب بفرض \"ضريبة هائلة\" على شركات التكنولوجيا الأمريكية التي تبني مراكز بيانات للذكاء الاصطناعي خارج الولايات المتحدة.",
+     "ru": "Президент США Дональд Трамп пригрозил ввести «огромный налог» на американские технологические компании, которые строят центры обработки данных ИИ за пределами США."
+    }
+   }
+  ],
+  "last_update": 1795209686
  },
  {
   "ts": 1795206277,
@@ -131813,5 +131856,79 @@
    }
   ],
   "id": "1b4c4aec89b7"
+ },
+ {
+  "ts": 1795209686,
+  "time": "2026-11-20T21:21Z",
+  "title": "דיווח: CrowdStrike בשיחות לרכישת Zscaler",
+  "summary": "מניית Zscaler זינקה ב-20% בעקבות דיווחים על מגעים לרכישתה על ידי ענקית הסייבר CrowdStrike.",
+  "kid": "",
+  "i18n": {
+   "title": {
+    "he": "דיווח: CrowdStrike בשיחות לרכישת Zscaler",
+    "en": "Report: CrowdStrike in talks to acquire Zscaler",
+    "ar": "تقرير: CrowdStrike في محادثات للاستحواذ على Zscaler",
+    "ru": "Отчет: CrowdStrike ведет переговоры о покупке Zscaler"
+   },
+   "summary": {
+    "he": "מניית Zscaler זינקה ב-20% בעקבות דיווחים על מגעים לרכישתה על ידי ענקית הסייבר CrowdStrike.",
+    "en": "Zscaler stock jumped 20% following reports of acquisition talks by cybersecurity giant CrowdStrike.",
+    "ar": "قفز سهم Zscaler بنسبة 20% بعد تقارير عن محادثات استحواذ من قبل عملاق الأمن السيبراني CrowdStrike.",
+    "ru": "Акции Zscaler подскочили на 20% на фоне сообщений о переговорах по поглощению со стороны гиганта кибербезопасности CrowdStrike."
+   },
+   "kid": {
+    "he": ""
+   }
+  },
+  "category": "contracts",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ZS",
+    "direction": "up",
+    "t0": 1795209686,
+    "reason": "דיווח על רכישה פוטנציאלית מעלה את מחיר המניה.",
+    "reason_i18n": {
+     "he": "דיווח על רכישה פוטנציאלית מעלה את מחיר המניה.",
+     "en": "Potential acquisition report boosts stock price.",
+     "ar": "تقرير الاستحواذ المحتمل يرفع سعر السهم.",
+     "ru": "Сообщение о возможном поглощении повышает цену акций."
+    },
+    "name_i18n": {
+     "he": "Zscaler - חברת אבטחת ענן",
+     "en": "Zscaler - cloud security company",
+     "ar": "Zscaler - شركة أمن سحابي",
+     "ru": "Zscaler - компания облачной безопасности"
+    },
+    "price_at_alert": 194.82
+   },
+   {
+    "ticker": "CRWD",
+    "direction": "down",
+    "t0": 1795209686,
+    "reason": "רוכשות נוטות לרדת בטווח הקצר עקב עלויות הרכישה.",
+    "reason_i18n": {
+     "he": "רוכשות נוטות לרדת בטווח הקצר עקב עלויות הרכישה.",
+     "en": "Acquirers often dip in the short term due to acquisition costs.",
+     "ar": "غالباً ما تنخفض الشركات المشترية على المدى القصير بسبب تكاليف الاستحواذ.",
+     "ru": "Компании-покупатели часто падают в краткосрочной перспективе из-за затрат на поглощение."
+    },
+    "name_i18n": {
+     "he": "CrowdStrike - חברת אבטחת סייבר",
+     "en": "CrowdStrike - cybersecurity company",
+     "ar": "CrowdStrike - شركة أمن سيبراني",
+     "ru": "CrowdStrike - компания кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   }
+  ],
+  "id": "4852ed29e4fd"
  }
 ]
