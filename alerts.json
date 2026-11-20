@@ -1062,227 +1062,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794515011,
-  "time": "2026-11-12T20:23Z",
-  "title": "מלשת מלחמה רוסית נפגעה מרחפן אוקראיני בים הבלטי",
-  "summary": "כוחות אוקראיניים פגעו לראשונה בספינת מלחמה רוסית באזור פתוח של הים הבלטי באמצעות רחפן ימי.",
-  "kid": "אוקראינה פגעה בספינת מלחמה של רוסיה בים הבלטי. אירוע זה מראה שהמלחמה מחמירה ומתפשטת לאזורים חדשים, מה שמשפיע על מניות הביטחון.",
-  "i18n": {
-   "title": {
-    "he": "מלשת מלחמה רוסית נפגעה מרחפן אוקראיני בים הבלטי",
-    "en": "Russian Warship Hit by Ukrainian Drone in Baltic Sea",
-    "ar": "إصابة سفينة حربية روسية بطائرة مسيرة أوكرانية في بحر البلطيق",
-    "ru": "Российский военный корабль поражен украинским дроном в Балтийском море"
-   },
-   "summary": {
-    "he": "כוחות אוקראיניים פגעו לראשונה בספינת מלחמה רוסית באזור פתוח של הים הבלטי באמצעות רחפן ימי.",
-    "en": "Ukrainian drones reportedly struck a Russian warship in an open stretch of the Baltic Sea, marking a first for such attacks in the region.",
-    "ar": "هاجمت طائرات مسيرة أوكرانية سفينة حربية روسية في منطقة مفتوحة من بحر البلطيق لأول مرة.",
-    "ru": "Украинские беспилотники впервые атаковали российский военный корабль в открытой части Балтийского моря."
-   },
-   "kid": {
-    "he": "אוקראינה פגעה בספינת מלחמה של רוסיה בים הבלטי. אירוע זה מראה שהמלחמה מחמירה ומתפשטת לאזורים חדשים, מה שמשפיע על מניות הביטחון.",
-    "en": "Ukraine hit a Russian warship in the Baltic Sea. This shows the war is spreading, which can affect defense stocks.",
-    "ar": "أصابت أوكرانيا سفينة حربية روسية في بحر البلطيق. يظهر هذا أن الحرب تتسع، مما قد يؤثر على أسهم الدفاع.",
-    "ru": "Украина поразила российский военный корабль на Балтике. Это показывает эскалацию войны, что может повлиять на акции оборонных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794515011,
-    "reason": "הסלמה צבאית באזורים חדשים מעלה את הביקוש למניות ביטחוניות.",
-    "reason_i18n": {
-     "he": "הסלמה צבאית באזורים חדשים מעלה את הביקוש למניות ביטחוניות.",
-     "en": "Military escalation in new areas increases demand for defense stocks.",
-     "ar": "التصعيد العسكري في مناطق جديدة يزيد الطلب على أسهم الدفاع.",
-     "ru": "Военная эскалация в новых районах повышает спрос на оборонные акции."
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الدفاع والفضاء الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 72.145,
-    "entry_price": 72.09,
-    "entry_time": "2026-11-12T20:30+00:00",
-    "exit_price": 71.49,
-    "exit_date": "2026-11-13",
-    "change_pct": -0.83,
-    "bench": "SPY",
-    "bench_change_pct": -0.4,
-    "excess_pct": -0.44,
-    "edge_pct": -0.44,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794515011,
-    "reason": "הגברת המתיחות באירופה מגבידה את תקציבי ההגנה.",
-    "reason_i18n": {
-     "he": "הגברת המתיחות באירופה מגבידה את תקציבי ההגנה.",
-     "en": "Increased tension in Europe boosts defense spending expectations.",
-     "ar": "زيادة التوتر في أوروبا تعزز توقعات الإنفاق الدفاعي.",
-     "ru": "Рост напряженности в Европе повышает ожидания оборонных расходов."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין - ענקית ביטחונית",
-     "en": "Lockheed Martin - defense giant",
-     "ar": "لوكهيد مارتن - عملاق الدفاع",
-     "ru": "Lockheed Martin - оборонный гигант"
-    },
-    "price_at_alert": 606.77,
-    "entry_price": 606.42,
-    "entry_time": "2026-11-12T20:30+00:00",
-    "exit_price": 596.28,
-    "exit_date": "2026-11-13",
-    "change_pct": -1.67,
-    "bench": "SPY",
-    "bench_change_pct": -0.4,
-    "excess_pct": -1.28,
-    "edge_pct": -1.28,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794538225,
-    "reason": "החמרת העימותים בגיאופוליטיקה מעלה את רמת הסיכון הכללית בשווקים.",
-    "reason_i18n": {
-     "he": "החמרת העימותים בגיאופוליטיקה מעלה את רמת הסיכון הכללית בשווקים.",
-     "en": "Geopolitical clashes raise overall market risk sentiment.",
-     "ar": "الاشتباكات الجيوسياسية ترفع مستوى المخاطر العامة في الأسواق.",
-     "ru": "Геополитические столкновения повышают общий уровень риска на рынках."
-    },
-    "name_i18n": {
-     "he": "ספיי - קרן סל על מדד 500 החברות הגדולות בארה\"ב",
-     "en": "SPY - S&P 500 stock market ETF",
-     "ar": "SPY - صندوق تداول مؤشر S&P 500",
-     "ru": "SPY - биржевой фонд индекса S&P 500"
-    },
-    "price_at_alert": 757.12,
-    "entry_price": 758.96,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 740.05,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.49,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.49,
-    "edge_pct": 2.49,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1794572874,
-    "reason": "החמרה בלחימה באזור הבלטי ובאירופה",
-    "reason_i18n": {
-     "he": "החמרה בלחימה באזור הבלטי ובאירופה",
-     "en": "Worsening fighting in the Baltic region and Europe",
-     "ar": "تفاقم القتال في منطقة البلطيق وأوروبا",
-     "ru": "Ухудшение ситуации в регионах Балтики и Европы"
-    },
-    "name_i18n": {
-     "he": "VGK – תעודת סל מניות אירופה",
-     "en": "VGK – Vanguard European Stock ETF",
-     "ar": "VGK – صندوق تداول الأسهم الأوروبية",
-     "ru": "VGK – ETF европейских акций"
-    },
-    "price_at_alert": 88.91,
-    "entry_price": 89.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 88.055,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.06,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.43,
-    "edge_pct": -1.43,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "GLD",
-    "direction": "up",
-    "t0": 1794572874,
-    "reason": "עלייה בביקוש לנכסים בטוחים עקב אירועים צבאיים",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לנכסים בטוחים עקב אירועים צבאיים",
-     "en": "Rise in safe-haven demand due to military events",
-     "ar": "ارتفاع الطلب على الملاذ الآمن بسبب الأحداث العسكرية",
-     "ru": "Рост спроса на безопасные активы из-за военных событий"
-    },
-    "name_i18n": {
-     "he": "GLD – תעודת סל זהב",
-     "en": "GLD – Gold ETF",
-     "ar": "GLD – صندوق تداول الذهب",
-     "ru": "GLD – ETF на золото"
-    },
-    "price_at_alert": 354.89,
-    "entry_price": 356.27,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 352.91,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.94,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.55,
-    "edge_pct": 1.55,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "e0bc8522a646",
-  "updates": [
-   {
-    "ts": 1794538225,
-    "time": "2026-11-13T02:50Z",
-    "severity": 6,
-    "summary": "רשויות בפינלנד דיווחו על פגיעה בספינת מלחמה רוסית בים הבלטי, בזמן שנציגים אמריקאים נפגשו עם נשיאי רוסיה ואוקראינה.",
-    "i18n": {
-     "he": "רשויות בפינלנד דיווחו על פגיעה בספינת מלחמה רוסית בים הבלטי, בזמן שנציגים אמריקאים נפגשו עם נשיאי רוסיה ואוקראינה.",
-     "en": "Finnish authorities detected a strike on a Russian warship in the Baltic Sea as US envoys met with Russian and Ukrainian presidents.",
-     "ar": "رصدت السلطات الفنلندية ضربة على سفينة حربية روسية في بحر البلطيق بينما اجتمع مبعوثون أمريكيون مع رئيسي روسيا وأوكرانيا.",
-     "ru": "Власти Финляндии зафиксировали удар по российскому военному кораблю в Балтийском море на фоне встреч американских посланников с лидерами."
-    }
-   },
-   {
-    "ts": 1794572874,
-    "time": "2026-11-13T12:27Z",
-    "severity": 5,
-    "summary": "פינלנד דיווחה כי אוקראינה תקפה ספינת מלחמה רוסית ליד חופיה, בעוד הצדדים מקיימים שיחות בהתוויית ארה\"ב באבו דאבי.",
-    "i18n": {
-     "he": "פינלנד דיווחה כי אוקראינה תקפה ספינת מלחמה רוסית ליד חופיה, בעוד הצדדים מקיימים שיחות בהתוויית ארה\"ב באבו דאבי.",
-     "en": "Finland reported that Ukraine struck a Russian warship near its coast as Kyiv and Moscow held U.S.-brokered talks in Abu Dhabi.",
-     "ar": "أفادت فنلندا أن أوكرانيا ضربت سفينة حربية روسية بالقرب من سواحلها بينما عقدت كييف وموسكو محادثات بوساطة أمريكية في أبوظبي.",
-     "ru": "Финляндия сообщила, что Украина нанесла удар по российскому военному кораблю у своего побережья, пока Киев и Москва вели переговоры в Абу-Даби при посредничестве США."
-    }
-   }
-  ],
-  "last_update": 1794572874,
-  "evaluated": true
- },
- {
   "ts": 1794521948,
   "time": "2026-11-12T22:19Z",
   "title": "תקלת ענק בשירותי מיקרוסופט",
@@ -1608,121 +1387,6 @@
    }
   ],
   "last_update": 1794577463,
-  "evaluated": true
- },
- {
-  "ts": 1794549461,
-  "time": "2026-11-13T05:57Z",
-  "title": "ביטקוין יורד מתחת ל-70 אלף דולר על רקע פדיונות בתעודות הסל",
-  "summary": "מחיר הביטקוין ירד מתחת לסף 70,000 הדולר לאחר שתעודות הסל רשמו משיכות הון של למעלה מ-2.5 מיליארד דולר.",
-  "kid": "אנשים הוציאו הרבה כסף מתעודות סל של ביטקוין ומחירו ירד מתחת ל-70,000 דולר. זה עשוי להוריד את מחירי מטבעות הקריפטו ומניות הקשורות אליהם.",
-  "i18n": {
-   "title": {
-    "he": "ביטקוין יורד מתחת ל-70 אלף דולר על רקע פדיונות בתעודות הסל",
-    "en": "Bitcoin falls below $70,000 as ETF outflows top $2.5 billion",
-    "ar": "بيتكوين ينخفض دون 70 ألف دولار مع تدفقات خارجة من الصناديق",
-    "ru": "Биткоин падает ниже $70 000 на фоне оттока средств из ETF"
-   },
-   "summary": {
-    "he": "מחיר הביטקוין ירד מתחת לסף 70,000 הדולר לאחר שתעודות הסל רשמו משיכות הון של למעלה מ-2.5 מיליארד דולר.",
-    "en": "Bitcoin dropped below $70,000 as exchange-traded funds saw massive capital outflows exceeding $2.5 billion.",
-    "ar": "هبط سعر بيتكوين دون مستوى 70 ألف دولار مع تسجيل صناديق الاستثمار المتداولة تدفقات خارجة تجاوزت 2.5 مليار دولار.",
-    "ru": "Биткоин опустился ниже отметки $70 000 на фоне крупного оттока капитала из биржевых фондов, превысившего 2,5 млрд долларов."
-   },
-   "kid": {
-    "he": "אנשים הוציאו הרבה כסף מתעודות סל של ביטקוין ומחירו ירד מתחת ל-70,000 דולר. זה עשוי להוריד את מחירי מטבעות הקריפטו ומניות הקשורות אליהם.",
-    "en": "People pulled a lot of money out of Bitcoin funds, pushing its price below $70,000. This could make crypto prices and related stocks go down.",
-    "ar": "سحب الناس أموالاً كثيرة من صناديق بيتكوين، مما دفع سعره للانخفاض دون 70 ألف دولار. قد يتسبب ذلك في هبوط أسعار العملات الرقمية والأسهم المرتبطة بها.",
-    "ru": "Инвесторы вывели много денег из биткоин-фондов, что опустило его цену ниже $70 000. Это может привести к падению цен на криптовалюты и связанных акций."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TY3FOa0xkaXh6clJadXlpaE81Xy1Cbm1QeWVqTnFsVzhHWlNKaUZseFJmeF9RZEJubDJSY2FfUFlaWW1lLVFyNUp0ZGtGaXpLeUFiRTRQaGlPUQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1794549461,
-    "reason": "משיכות הון גדולות ומחיר נמוך לביטקוין",
-    "reason_i18n": {
-     "he": "משיכות הון גדולות ומחיר נמוך לביטקוין",
-     "en": "Large capital outflows and lower Bitcoin price",
-     "ar": "تدفقات رأسمالية ضخمة وانخفاض سعر بيتكوين",
-     "ru": "Крупный отток капитала и падение цены биткоина"
-    },
-    "name_i18n": {
-     "he": "תעודת סל ביטקוין",
-     "en": "Bitcoin ETF",
-     "ar": "صندوق بيتكوين المتداول",
-     "ru": "Биткоин-ETF"
-    },
-    "price_at_alert": 40.36,
-    "entry_price": 39.08,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 36.8,
-    "exit_date": "2026-11-16",
-    "change_pct": -5.83,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -3.34,
-    "edge_pct": 3.34,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "UUP",
-    "direction": "up",
-    "t0": 1794572874,
-    "reason": "התחזקות רוחבית של הדולר בשווקים",
-    "reason_i18n": {
-     "he": "התחזקות רוחבית של הדולר בשווקים",
-     "en": "Broad-based strengthening of the dollar in markets",
-     "ar": "تعزيز واسع النطاق للدولار في الأسواق",
-     "ru": "Широкое укрепление доллара на рынках"
-    },
-    "name_i18n": {
-     "he": "UUP – תעודת סל על מדד הדולר",
-     "en": "UUP – US Dollar Index ETF",
-     "ar": "UUP – صندوق تداول مؤشر الدولار الأمريكي",
-     "ru": "UUP – ETF на индекс доллара США"
-    },
-    "price_at_alert": 29.42,
-    "entry_price": 29.44,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 29.56,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.41,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 2.9,
-    "edge_pct": 2.9,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "e42444147a77",
-  "updates": [
-   {
-    "ts": 1794572874,
-    "time": "2026-11-13T12:27Z",
-    "severity": 6,
-    "summary": "מחיר הביטקוין ירד מתחת ל-70 אלף דולר בעוד הדולר האמריקאי מתחזק ושוק הקריפטו רושם חיסול מינופים רחב.",
-    "i18n": {
-     "he": "מחיר הביטקוין ירד מתחת ל-70 אלף דולר בעוד הדולר האמריקאי מתחזק ושוק הקריפטו רושם חיסול מינופים רחב.",
-     "en": "Bitcoin dropped below $70,000 as the U.S. dollar surged and the crypto market saw massive liquidations.",
-     "ar": "הخفض سعر البيتكوين إلى ما دون 70 ألف دولار مع ارتفاع الدولار الأمريكي وشهد سوق العملات المشفرة تصفية واسعة النطاق.",
-     "ru": "Биткоин упал ниже 70 000 долларов на фоне роста доллара США и масштабных ликвидаций на крипторынке."
-    }
-   }
-  ],
-  "last_update": 1794572874,
   "evaluated": true
  },
  {
@@ -2089,557 +1753,6 @@
    }
   ],
   "last_update": 1794641926,
-  "evaluated": true
- },
- {
-  "ts": 1794562190,
-  "time": "2026-11-13T09:29Z",
-  "title": "עלייה במחירי הנפט עקב הסלמה במזרח התיכון",
-  "summary": "מחירי הנפט מזנקים לאחר שטראמפ הצהיר כי אין צורך בעסקה עם איראן, ועל רקע דיווחים על תקיפות טילים ורחפנים נגד סעודיה.",
-  "kid": "יש מתח רב במזרח התיכון עם תקיפות נגד סעודיה ואיומים מאיראן. כשמפחדים שיהיו בעיות באספקת הנפט מהאזור, מחירי הנפט בדרך כלל עולים.",
-  "i18n": {
-   "title": {
-    "he": "עלייה במחירי הנפט עקב הסלמה במזרח התיכון",
-    "en": "Oil prices rise amid Middle East escalation",
-    "ar": "ارتفاع أسعار النفط وسط تصعيد في الشرق الأوسط",
-    "ru": "Цены на нефть растут на фоне эскалации на Ближнем Востоке"
-   },
-   "summary": {
-    "he": "מחירי הנפט מזנקים לאחר שטראמפ הצהיר כי אין צורך בעסקה עם איראן, ועל רקע דיווחים על תקיפות טילים ורחפנים נגד סעודיה.",
-    "en": "Brent crude prices jumped 3.3% after Trump stated an Iran deal is not needed, amid reports of missile and drone attacks targeting Saudi Arabia.",
-    "ar": "قفزت أسعار خام برنت بنسبة 3.3% بعد أن صرح ترامب بأنه لا حاجة لاتفاق مع إيران، وسط تقارير عن هجمات صاروخية وبطائرات مسيرة تستهدف السعودية.",
-    "ru": "Цены на нефть марки Brent подскочили на 3,3% после заявления Трампа о том, что сделка с Ираном не нужна, на фоне сообщений о ракетных ударах и атаках дронов по Саудовской Аравии."
-   },
-   "kid": {
-    "he": "יש מתח רב במזרח התיכון עם תקיפות נגד סעודיה ואיומים מאיראן. כשמפחדים שיהיו בעיות באספקת הנפט מהאזור, מחירי הנפט בדרך כלל עולים.",
-    "en": "There is a lot of tension in the Middle East with attacks on Saudi Arabia and threats from Iran. When people worry about oil supplies from that area, oil prices usually go up.",
-    "ar": "هناك الكثير من التوتر في الشرق الأوسط مع هجمات على السعودية وتهديدات من إيران. عندما يقلق الناس بشأن إمدادات النفط من تلك المنطقة، ترتفع أسعار النفط عادة.",
-    "ru": "На Ближнем Востоке много напряжения из-за атак на Саудовскую Аравию и угроз со стороны Ирана. Когда люди беспокоятся о поставках нефти из этого региона, цены на нефть обычно растут."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 8,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCVWs3WFJLb3N0bEN2VldkOTJNaFRlMk92djBuRE1XOWFsSVY1c0ZIWU1BQlNMSnJNRUs0aXJiQlZ2bGFfdmdCVWxhbk5JdUVjYVYyM2N0b0x6VXVRakE2UlNjUWdSSWxWS0FYc3NRRVFkYTV6VFE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYU1VUFBkWGVGeUZkemRPVVJiZzY5YzVzOExwLTJEbUkzNUJZUWlYMEpvN2JSWVBoT29oZXd4TjVnM3dnbmVHcmttLW1xVzcxSG5GUzk1WkJjLVJmR2VmZ2JVcVh5c2RWSG1vU3l4bWRZTDZjcTJRMW44NldEUS1pcXh4d21tUjZYUVlTaUZwdEU2T2F6YnZ1OGY5X1ZfUQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794562190,
-    "reason": "עלייה במחירי הנפט הגולמי",
-    "reason_i18n": {
-     "he": "עלייה במחירי הנפט הגולמי",
-     "en": "Rising crude oil prices",
-     "ar": "ارتفاع أسعار النفط الخام",
-     "ru": "Рост цен на сырую нефть"
-    },
-    "name_i18n": {
-     "he": "תעודת סל על נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق النفط",
-     "ru": "Нефтяной ETF"
-    },
-    "price_at_alert": 146.07,
-    "entry_price": 146.69,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 140.06,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.52,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.03,
-    "edge_pct": -2.03,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1794562190,
-    "reason": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה",
-    "reason_i18n": {
-     "he": "מחירי נפט גבוהים משפרים את רווחי חברות האנרגיה",
-     "en": "Higher oil prices boost energy company profits",
-     "ar": "أسعار النفط المرتفعة تعزز أرباح شركات الطاقة",
-     "ru": "Более высокие цены на нефть увеличивают прибыль энергетических компаний"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל",
-     "en": "Exxon Mobil",
-     "ar": "إكسون موبيل",
-     "ru": "Exxon Mobil"
-    },
-    "price_at_alert": 169.78,
-    "entry_price": 171.43,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 166.975,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.6,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.11,
-    "edge_pct": -0.11,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794572874,
-    "reason": "ירידת מחירי הנפט בעקבות עודף היצע",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט בעקבות עודף היצע",
-     "en": "Decline in oil prices due to oversupply",
-     "ar": "انخفاض أسعار النفط بسبب فائض المعروض",
-     "ru": "Падение цен на нефть из-за переизбытка предложения"
-    },
-    "name_i18n": {
-     "he": "XLE – מדד מניות האנרגיה בארה\"ב",
-     "en": "XLE – US Energy Sector ETF",
-     "ar": "XLE – صندوق قطاع الطاقة الأمريكي",
-     "ru": "XLE – ETF энергетического сектора США"
-    },
-    "price_at_alert": 64.33,
-    "entry_price": 64.91,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 63.715,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.84,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 0.65,
-    "edge_pct": -0.65,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "787756ee2244",
-  "updates": [
-   {
-    "ts": 1794572874,
-    "time": "2026-11-13T12:27Z",
-    "severity": 5,
-    "summary": "סוכנות האנרגיה הבינלאומית דיווחה כי תפוקת הנפט של רוסיה עלתה ל-8.73 מיליון חביות ביום, בעוד השווקים חוזרים לעודף היצע.",
-    "i18n": {
-     "he": "סוכנות האנרגיה הבינלאומית דיווחה כי תפוקת הנפט של רוסיה עלתה ל-8.73 מיליון חביות ביום, בעוד השווקים חוזרים לעודף היצע.",
-     "en": "The IEA reported that Russia's crude output rose to 8.73 million barrels a day as global supply surpassed demand.",
-     "ar": "أفادت وكالة الطاقة الدولية أن إنتاج النفط الخام في روسيا ارتفع إلى 8.73 مليون برميل يومياً مع تفوق الإمدادات العالمية على الطلب.",
-     "ru": "МЭА сообщило, что добыча сырой нефти в России выросла до 8,73 млн баррелей в сутки, так как мировое предложение превысило спрос."
-    }
-   }
-  ],
-  "last_update": 1794572874,
-  "evaluated": true
- },
- {
-  "ts": 1794562190,
-  "time": "2026-11-13T09:29Z",
-  "title": "דאגה גוברת מהפעילות הגרעינית של איראן",
-  "summary": "סבא\"א מביעה דאגה עמוקה מחוסר היכולת לאמת חומרים גרעיניים באיראן וממיקומם הלא ידוע של מתקני העשרה חדשים.",
-  "kid": "הארגון הבינלאומי שאחראי על פיקוח גרעיני אומר שהוא לא יודע מה איראן עושה במתקנים שלה. זה מעלה את הסיכוי למתיחות ביטחונית במזרח התיכון.",
-  "i18n": {
-   "title": {
-    "he": "דאגה גוברת מהפעילות הגרעינית של איראן",
-    "en": "Growing concern over Iran's nuclear activity",
-    "ar": "قلق متزايد بشأن النشاط النووي الإيراني",
-    "ru": "Растущая обеспокоенность ядерной деятельностью Ирана"
-   },
-   "summary": {
-    "he": "סבא\"א מביעה דאגה עמוקה מחוסר היכולת לאמת חומרים גרעיניים באיראן וממיקומם הלא ידוע של מתקני העשרה חדשים.",
-    "en": "The IAEA is increasingly concerned about Iran's enrichment plants, citing limited access and the inability to verify nuclear material at undisclosed locations.",
-    "ar": "تعرب الوكالة الدولية للطاقة الذرية عن قلقها المتزايد بشأن محطات التخصيب الإيرانية، مشيرة إلى محدودية الوصول وعدم القدرة على التحقق من المواد النووية في مواقع غير معلنة.",
-    "ru": "МАГАТЭ выражает растущую обеспокоенность по поводу иранских заводов по обогащению, ссылаясь на ограниченный доступ и невозможность проверки ядерных материалов в нераскрытых местах."
-   },
-   "kid": {
-    "he": "הארגון הבינלאומי שאחראי על פיקוח גרעיני אומר שהוא לא יודע מה איראן עושה במתקנים שלה. זה מעלה את הסיכוי למתיחות ביטחונית במזרח התיכון.",
-    "en": "The international group that watches nuclear stuff says it doesn't know what Iran is doing at its plants. This makes people worry about security in the Middle East.",
-    "ar": "تقول المجموعة الدولية التي تراقب الأشياء النووية إنها لا تعرف ما تفعله إيران في منشآتها. هذا يجعل الناس يقلقون بشأن الأمن في الشرق الأوسط.",
-    "ru": "Международная группа, следящая за ядерными объектами, говорит, что не знает, что Иран делает на своих заводах. Это вызывает беспокойство по поводу безопасности на Ближнем Востоке."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 8,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGpjTmlwWjlLaW12RHRCSDVrcTI3QkNNOGdLTFR1ZUt4X0NXS2h5SnlFMlF2RkFqbjEyYmk0d0NDWFBZcEN6aGRsdVdHcXBhVWFQWmQ5ckJRSzBHYld6aVl5dDFXSjJodVhZZU9WSXAzb2NlV21WZFV0d2VKb00zMnVtb016NWFWeDZFUzM3TVpfQUFyOERINjhTdkxJeGRBWXpLZU5TTmdNSzhC?oc=5"
-   },
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMG9xR2xsU3J3WXlNX0hoU19NNm5rTGxlRnkxV0lzWXItQTFiMlNXbWcxWkQ0TUJCamhwLVlmdFVxRk9lMW1FOVI0dlVQR1prWGcxdjJ3Q0ZCQk5Jb2ZSUkE3TzFRRWUwRGdDbVhBRmloQk1nMXhRWE51NWpYaVQ3bEFEbGpnRHlrOFJ0WDFNZVBkMGwyT2wtSk9GV2MxMjRWYmwzSHk1T2lfaWJPd2U3dkM4LUJmN21HUUZ4Ykp2YUF3YXMzT0hVNWM5dFp2aDdZN0FlN09WVkxCbDhPN25zaHB3?oc=5"
-   },
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcnBLbU1oZGhadVoyX2NkMkV2SUFmYXpzSUZOWG9UN3VIdmpPM2Y0TnpXVjNRQUVhVHk5MnNFWmplRTFQbmE2T0xXVlZOUm40ZXZUVjRqZ2xhclkwRkhsZEcxcUZVRzNiT0hnamdiVmxnbWpCUWFfU0hsRnRaaVVuY2JpeG1TdXJpbS1PTFdlSDlnZnR4a3ppc0F4M1NfSDRhYzdlcERyYnR6bW5DaVBoVTlUb2xURm55YUdkYzJmYVhQTnlMMXdET053M0JOQW0tVjhMWTlJdndNRVNmejA2UkFfY2w3M0gzMi1wNnRYb3E?oc=5"
-   },
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakdUeGp3UFlWdzhQQkxNTnR2U0FOc1Zoak84NVduMVJ3Ulc4U0U0Nl9rMGFQUGRiTDZzWjg1V2theW1pMzVCVm5fTkV0d2lBenVRYThQUmRlVTdOLUNIbVA0OGZuRjF2akp1b05MYzM1OHBjU2J0d21WWmx6bXMtZ0FGLW5MMHBXSko3NGctYmpYMXY1YVdtMG9qaXFMclQwTTh4Ym1jOWstdk44cXBIdk5zOEhJSGxDTEI4dTE2NA?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss"
-   },
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYndNNlkxcDdYUXRleHBkS093NzN4TVk2d2ZIQ2Zadl9EOWV6U2M0cXA1R2Jqem5FWkE0VG9RNUxrUlJLTHZ1UFdZR3N2NVp6aTEwbGtQUE03U09QVDNGaXltWEs5UG1XQVNGT0hSZV9SRmxLZ0t0OVA1cV9KZFJJd0MxRlJ3MmcxLW53NHNJR2xIdTN5S09nbEw5QldtaF9YQzJHTzgtUHBValc5N1BfSlBCYnV2a3huQkN3YnoyT0FmRTNxS1ZJLUtFLVlKa0k?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "up",
-    "t0": 1794562190,
-    "reason": "עלייה בביקוש לפתרונות ביטחוניים עקב מתיחות",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לפתרונות ביטחוניים עקב מתיחות",
-     "en": "Increased demand for defense solutions due to tension",
-     "ar": "زيادة الطلب على الحلول الدفاعية بسبب التوتر",
-     "ru": "Рост спроса на оборонные решения из-за напряженности"
-    },
-    "name_i18n": {
-     "he": "אלביט מערכות",
-     "en": "Elbit Systems",
-     "ar": "إلبيت سيستمز",
-     "ru": "Elbit Systems"
-    },
-    "price_at_alert": 723.0,
-    "entry_price": 715.0,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 680.74,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.79,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.3,
-    "edge_pct": -2.3,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794562190,
-    "reason": "מתיחות גיאופוליטית מעלה את מניות הביטחון",
-    "reason_i18n": {
-     "he": "מתיחות גיאופוליטית מעלה את מניות הביטחון",
-     "en": "Geopolitical tension boosts defense stocks",
-     "ar": "التوتر الجيوسياسي يعزز أسهم الدفاع",
-     "ru": "Геополитическая напряженность поддерживает оборонные акции"
-    },
-    "name_i18n": {
-     "he": "תעודת סל ביטחונית",
-     "en": "Defense ETF",
-     "ar": "صندوق الدفاع",
-     "ru": "Оборонный ETF"
-    },
-    "price_at_alert": 71.73,
-    "entry_price": 71.92,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.6,
-    "edge_pct": -0.6,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794569210,
-    "reason": "חשש משיבושים באספקת הנפט במזרח התיכון.",
-    "reason_i18n": {
-     "he": "חשש משיבושים באספקת הנפט במזרח התיכון.",
-     "en": "Fear of supply disruptions in the Middle East.",
-     "ar": "الخوف من اضطرابات الإمدادات في الشرق الأوسط.",
-     "ru": "Опасения по поводу перебоев в поставках на Ближнем Востоке."
-    },
-    "name_i18n": {
-     "he": "נפט",
-     "en": "Crude Oil",
-     "ar": "النفط الخام",
-     "ru": "Сырая нефть"
-    },
-    "price_at_alert": 146.07,
-    "entry_price": 146.69,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 140.06,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.52,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.03,
-    "edge_pct": -2.03,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "GLD",
-    "direction": "up",
-    "t0": 1794569210,
-    "reason": "עלייה בביקוש לנכסים בטוחים בזמן מלחמה.",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לנכסים בטוחים בזמן מלחמה.",
-     "en": "Increased demand for safe-haven assets during war.",
-     "ar": "زيادة الطلب على الأصول الآمنة أثناء الحرب.",
-     "ru": "Рост спроса на защитные активы во время войны."
-    },
-    "name_i18n": {
-     "he": "זהב",
-     "en": "Gold",
-     "ar": "الذهب",
-     "ru": "Золото"
-    },
-    "price_at_alert": 354.89,
-    "entry_price": 356.27,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 352.91,
-    "exit_date": "2026-11-16",
-    "change_pct": -0.94,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 1.55,
-    "edge_pct": 1.55,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "c4eb2a80a53f",
-  "updates": [
-   {
-    "ts": 1794569210,
-    "time": "2026-11-13T11:26Z",
-    "severity": 8,
-    "summary": "איראן מאיימת בתגובה בלתי מוגבלת לאחר תקיפה אמריקאית בבחריין, בעוד סוכנות האנרגיה האטומית מביעה דאגה מפעילות במתקן גרעיני סודי באספהאן.",
-    "i18n": {
-     "he": "איראן מאיימת בתגובה בלתי מוגבלת לאחר תקיפה אמריקאית בבחריין, בעוד סוכנות האנרגיה האטומית מביעה דאגה מפעילות במתקן גרעיני סודי באספהאן.",
-     "en": "Iran threatens an unlimited response following a US attack in Bahrain, while the IAEA expresses concern over activity at a secret nuclear facility in Isfahan.",
-     "ar": "تهدد إيران برد غير محدود بعد هجوم أمريكي في البحرين، بينما تعرب الوكالة الدولية للطاقة الذرية عن قلقها بشأن نشاط في منشأة نووية سرية في أصفهان.",
-     "ru": "Иран угрожает неограниченным ответом после атаки США в Бахрейне, в то время как МАГАТЭ выражает обеспокоенность деятельностью на секретном ядерном объекте в Исфахане."
-    }
-   },
-   {
-    "ts": 1794572874,
-    "time": "2026-11-13T12:27Z",
-    "severity": 5,
-    "summary": "סוכנות האנרגיה הАТОמית של האו\"ם (סבא\"א) הודיעה כי אינה יכולה לוודא האם מתקן תת-קרקעי איראני מכיל חומר גרעיני, ודרשה גישה לפקחים.",
-    "i18n": {
-     "he": "סוכנות האנרגיה הАТОמית של האו\"ם (סבא\"א) הודיעה כי אינה יכולה לוודא האם מתקן תת-קרקעי איראני מכיל חומר גרעיני, ודרשה גישה לפקחים.",
-     "en": "The IAEA stated it cannot verify if an underground Iranian enrichment plant contains nuclear material and demanded access.",
-     "ar": "أعلنت وكالة الطاقة الذرية التابعة للأمم المتحدة أنها لا تستطيع التحقق مما إذا كانت منشأة إيرانية تحت الأرض تحتوي على مواد نووية، وطالبت بالوصول إليها.",
-     "ru": "МАГАТЭ заявило, что не может проверить, содержит ли подземный иранский объект ядерный материал, и потребовало доступа."
-    }
-   }
-  ],
-  "last_update": 1794572874,
-  "evaluated": true
- },
- {
-  "ts": 1794572874,
-  "time": "2026-11-13T12:27Z",
-  "title": "פריפורט-מקמורן מאשרת את הרחבת מכרה בגדאד ב-4.5 מיליארד דולר",
-  "summary": "חברת הכרייה פריפורט-מקמורן אישרה פרויקט הרחבה בסך 4.5 מיליארד דולר למכרה הנחושת בגדאד.",
-  "kid": "חברת הנחושת הגדולה פריפורט הוציאה לדרך פרויקט ענק בשווי 4.5 מיליארד דולר. זה עשוי להשפיע על מניית החברה.",
-  "i18n": {
-   "title": {
-    "he": "פריפורט-מקמורן מאשרת את הרחבת מכרה בגדאד ב-4.5 מיליארד דולר",
-    "en": "Freeport-McMoRan Approves $4.5 Billion Bagdad Expansion",
-    "ar": "פריפורט-מקמורן תאשר توسيع מנחה בגדאד ב-4.5 מיליארד דולר",
-    "ru": "Freeport-McMoRan одобрила расширение рудника Багдад на 4,5 млрд долларов"
-   },
-   "summary": {
-    "he": "חברת הכרייה פריפורט-מקמורן אישרה פרויקט הרחבה בסך 4.5 מיליארד דולר למכרה הנחושת בגדאד.",
-    "en": "Mining company Freeport-McMoRan has approved a $4.5 billion expansion project for its Bagdad copper mine.",
-    "ar": "وافقت شركة التعدين פריפורט-מקמורן على مشروع توسيع بقيمة 4.5 مليار دولار لمنجم النحاس בגדאד.",
-    "ru": "Горнодобывающая компания Freeport-McMoRan одобрила проект расширения медного рудника Багдад на 4,5 млрд долларов."
-   },
-   "kid": {
-    "he": "חברת הנחושת הגדולה פריפורט הוציאה לדרך פרויקט ענק בשווי 4.5 מיליארד דולר. זה עשוי להשפיע על מניית החברה.",
-    "en": "Copper giant Freeport has greenlit a massive $4.5 billion project. This could affect the company's stock.",
-    "ar": "أعطت شركة النحاس الكبرى الضوء الأخضر لمشروع ضخم بقيمة 4.5 مليار دولار. قد يؤثر ذلك على سهم الشركة.",
-    "ru": "Крупная медная компания Freeport запустила огромный проект стоимостью 4,5 млрд долларов. Это может повлиять на акции компании."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1794572874,
-    "reason": "אישור פרויקט הרחבה עצום במכרה נחושת",
-    "reason_i18n": {
-     "he": "אישור פרויקט הרחבה עצום במכרה נחושת",
-     "en": "Approval of a massive copper mine expansion project",
-     "ar": "الموافقة على مشروع توسيع ضخم لمنجم نحاس",
-     "ru": "Одобрение масштабного проекта расширения медного рудника"
-    },
-    "name_i18n": {
-     "he": "פריפורט-מקמורן – חברת כרייה גדולה",
-     "en": "Freeport-McMoRan – a major mining company",
-     "ar": "פריפורט-מקמורן – شركة تعدين كبرى",
-     "ru": "Freeport-McMoRan – крупная горнодобывающая компания"
-    },
-    "price_at_alert": 60.45,
-    "entry_price": 60.03,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 55.21,
-    "exit_date": "2026-11-16",
-    "change_pct": -8.03,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -5.54,
-    "edge_pct": -5.54,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "98ee76d05ee3",
-  "evaluated": true
- },
- {
-  "ts": 1794572874,
-  "time": "2026-11-13T12:27Z",
-  "title": "ארה\"ב תופסת קריפטו בשווי 1.2 מיליארד דולר שגונב מבינאנס",
-  "summary": "משרד המשפטים האמריקאי הודיע על תפיסת 1.2 מיליארד דולר במטבעות קריפטוגרפיים שנגנבו בתוכניות מימון של ממשלת צפון קוריאה.",
-  "kid": "רשויות החוק בארה\"ב תפסו סכום ענק של מטבעות דיגיטליים שנגנבו על ידי צפון קוריאה. זה מראה על אכיפה מחמירה בקריפטו.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב תופסת קריפטו בשווי 1.2 מיליארד דולר שגונב מבינאנס",
-    "en": "U.S. Seizes $1.2 Billion in Crypto Stolen from Binance",
-    "ar": "الولايات المتحدة تصادر 1.2 مليار دولار من العملات المشفرة المسروقة من בינאנס",
-    "ru": "США конфисковали криптовалюту на $1,2 млрд, украденную с биржи Binance"
-   },
-   "summary": {
-    "he": "משרד המשפטים האמריקאי הודיע על תפיסת 1.2 מיליארד דולר במטבעות קריפטוגרפיים שנגנבו בתוכניות מימון של ממשלת צפון קוריאה.",
-    "en": "The DOJ announced the seizure of $1.2 billion in cryptocurrency tied to North Korean government funding schemes.",
-    "ar": "أعلنت وزارة العدل الأمريكية عن مصادرة 1.2 مليار دولار من العملات المشفرة المرتبطة بمخططات تمويل حكومة كوريا الشمالية.",
-    "ru": "Министерство юстиции США объявило о конфискации криптовалюты на сумму 1,2 млрд долларов, связанной со схемами финансирования властей Северной Кореи."
-   },
-   "kid": {
-    "he": "רשויות החוק בארה\"ב תפסו סכום ענק של מטבעות דיגיטליים שנגנבו על ידי צפון קוריאה. זה מראה על אכיפה מחמירה בקריפטו.",
-    "en": "US law enforcement seized a huge amount of digital currency stolen by North Korea. This shows strict crypto enforcement.",
-    "ar": "صادرت سلطات إنفاذ القانون الأمريكية مبلغاً ضخماً من العملات الرقمية المسروقة من قبل كوريا الشمالية. يظهر هذا تشديد الرقابة على العملات المشفرة.",
-    "ru": "Правоохранительные органы США изъяли огромную сумму цифровых денег, украденных Северной Кореей. Это указывает на жесткий контроль криптовалют."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "IBIT",
-    "direction": "down",
-    "t0": 1794572874,
-    "reason": "אכיפה פיננסית ולחץ שלילי כללי בשוק הקריפטו",
-    "reason_i18n": {
-     "he": "אכיפה פיננסית ולחץ שלילי כללי בשוק הקריפטו",
-     "en": "Financial enforcement and general negative pressure in crypto",
-     "ar": "التنفيذ المالي وضغط سلبي عام في سوق العملات المشفرة",
-     "ru": "Финансовое регулирование и общее давление на крипторынок"
-    },
-    "name_i18n": {
-     "he": "IBIT – תעודת סל ביטקוין",
-     "en": "IBIT – Bitcoin ETF",
-     "ar": "IBIT – صندوق تداول البيتكوين",
-     "ru": "IBIT – биткоин ETF"
-    },
-    "price_at_alert": 40.36,
-    "entry_price": 39.08,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 36.8,
-    "exit_date": "2026-11-16",
-    "change_pct": -5.83,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -3.34,
-    "edge_pct": 3.34,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "1de81873d477",
-  "evaluated": true
- },
- {
-  "ts": 1794572874,
-  "time": "2026-11-13T12:27Z",
-  "title": "כלכלנים צופים העלאת ריבית בהודו בעקבות זינוק האינפלציה",
-  "summary": "בעקבות נתוני אינפלציה באוקטובר שעברו את רף 6 האחוזים, כלכלנים בסקר צופים העלאת ריבית של 25 נקודות בסיס בדצמבר.",
-  "kid": "המחירים בהודו עלו מהר מדי, ולכן הבנק המרכזי שם עשוי להעלות את הריבית בקרוב. זה יכול להשפיע על השקעות במדינה.",
-  "i18n": {
-   "title": {
-    "he": "כלכלנים צופים העלאת ריבית בהודו בעקבות זינוק האינפלציה",
-    "en": "Economists Forecast Rate Hike in India After Inflation Surges",
-    "ar": "اقتصاديون يتوقعون رفع أسعار الفائدة في الهند بعد قفزة التضخم",
-    "ru": "Экономисты прогнозируют повышение ставки в Индии после скачка инфляции"
-   },
-   "summary": {
-    "he": "בעקבות נתוני אינפלציה באוקטובר שעברו את רף 6 האחוזים, כלכלנים בסקר צופים העלאת ריבית של 25 נקודות בסיס בדצמבר.",
-    "en": "Following October inflation crossing 6 percent, economists in a poll forecast a 25 bps rate hike in December.",
-    "ar": "في أعقاب تجاوز التضخم في أكتوبر حاجز 6 بالمائة، يتوقع اقتصاديون في استطلاع رفع سعر الفائدة بمقدار 25 نقطة أساس في ديسمبر.",
-    "ru": "После того как октябрьская инфляция превысила 6%, экономисты прогнозируют повышение ставки на 25 базисных пунктов в декабре."
-   },
-   "kid": {
-    "he": "המחירים בהודו עלו מהר מדי, ולכן הבנק המרכזי שם עשוי להעלות את הריבית בקרוב. זה יכול להשפיע על השקעות במדינה.",
-    "en": "Prices in India rose too fast, so their central bank may raise interest rates soon. This could impact investments there.",
-    "ar": "ارتفعت الأسعار في الهند بسرعة كبيرة، لذا قد يرفع البنك المركزي هناك أسعار الفائدة قريباً. قد يؤثر ذلك على الاستثمارات.",
-    "ru": "Цены в Индии росли слишком быстро, поэтому центральный банк может вскоре поднять ставки. Это может повлиять на инвестиции в стране."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "INDA",
-    "direction": "down",
-    "t0": 1794572874,
-    "reason": "ציפיות להעלאת ריבית עקב אינפלציה גבוהה",
-    "reason_i18n": {
-     "he": "ציפיות להעלאת ריבית עקב אינפלציה גבוהה",
-     "en": "Expectations of rate hikes due to high inflation",
-     "ar": "توقعات برفع أسعار الفائدة بسبب التضخم المرتفع",
-     "ru": "Ожидания повышения ставки из-за высокой инфляции"
-    },
-    "name_i18n": {
-     "he": "INDA – תעודת סל מניות הודו",
-     "en": "INDA – MSCI India ETF",
-     "ar": "INDA – صندوق تداول الأسهم الهندية",
-     "ru": "INDA – ETF акций Индии"
-    },
-    "price_at_alert": 51.55,
-    "entry_price": 51.14,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 51.57,
-    "exit_date": "2026-11-16",
-    "change_pct": 0.84,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": 3.33,
-    "edge_pct": -3.33,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "586a935bc8ce",
   "evaluated": true
  },
  {
@@ -43365,7 +42478,12 @@
   "category": "contracts",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOamlQRHJhTEdKVm9Ha09TZlNUXzFkelNvZHNKd3F4VWNNT1VjWDBCRkJzdUJQd2tUbUtidFZ4cDBrTmxTUGY1YW1BZ3MxaGhBNndITUxMZHJOSXlEa0VpSmNMT204OHU2eW13SnFneXZCZ0ctSElaSWF6amRxV0c1cDR3cUxPTkRxVGVjd0JwcUhWZmpJTkJ1V0tMenAzUWZEVlhjZllhX0FKQjRJUlhqSlN3SF8tVUU?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -43387,7 +42505,22 @@
     "price_at_alert": 68.2
    }
   ],
-  "id": "ee4af7cdd22f"
+  "id": "ee4af7cdd22f",
+  "updates": [
+   {
+    "ts": 1795179882,
+    "time": "2026-11-20T13:04Z",
+    "severity": 3,
+    "summary": "חברת Leonardo DRS זכתה בחוזה לפיתוח חיישן אינפרא-אדום חדש עבור מערכת ההגנה האווירית THAAD ותגדיל את כושר הייצור שלה בדאלאס.",
+    "i18n": {
+     "he": "חברת Leonardo DRS זכתה בחוזה לפיתוח חיישן אינפרא-אדום חדש עבור מערכת ההגנה האווירית THAAD ותגדיל את כושר הייצור שלה בדאלאס.",
+     "en": "Leonardo DRS won a contract to develop a new infrared sensor for the THAAD air defense system and will expand its production capacity in Dallas.",
+     "ar": "فازت شركة ليوناردو DRS بعقد لتطوير مستشعر أشعة تحت حمراء جديد لنظام الدفاع الجوي THAAD وستقوم بتوسيع طاقتها الإنتاجية في دالاس.",
+     "ru": "Компания Leonardo DRS получила контракт на разработку нового инфракрасного датчика для системы противовоздушной обороны THAAD и расширит свои производственные мощности в Далласе."
+    }
+   }
+  ],
+  "last_update": 1795179882
  },
  {
   "ts": 1795124981,
@@ -46330,18 +45463,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYUQzcjZGYzQ0clRuaklpUG1wa1hPOHcwTThOb0V3SmVsRXZXdDVYZTZBOU9PbEtTX2FsejVBXzUtLTJsRm9wcTUxVk9VLVd4cjhNb3haQ1FvLU1GdHZkY25zWkFPVUN4UU5vTTctdHBXTjhBNmtnYVNhZlFIcUtHTnR5UWZYUWRqMUJPQVRIazlkdw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PVFFwVGhjbnFjeVlQUF9TLU1OaHJnLTRDUXRpd1NiLUdmOW9OVU1fX1VaeDRWNFlFTGt4YS1nblpNM0RxMHJtSnlnZkhVV3h5cHJpRzJiZndfdm9JSDJVejF3?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1hVQ3pPS3RobVNwaldWcW5uR0ZBSE9sbW1SNlZGQzJnUS1MY1hFSzJ4aC1qTGJtWjdURGJvSWlxcWlUVmZnaUVpalZBZHlQb09WYTZRQnpMNV9tT3pWTjc0Mlh5QUttbk0yWVUxWEw4bHlPSWltSlRGdXZRZU5xemg2MGNQcHVXbFVHLTFsdE9Ta1RaUThvbnA0Nm9JZDd0REIyMkFRb0JERWZGRGpXQXRoZ2M4S190Q0lUbzU4Qk11YzFyQWNjVmNaNEVJb1NEcm5JcWVtYWtvTzNYOWlqTUhONlBqNkYxb0VyM0dPdjZjbzl2ckdjRGxnWUcwZw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUo2Ql9WMWlLZ2ozdS1VbHNPNnkzbDdhRUdrUXV4cndTV1RjbVNISExtUFpSR19sY1BSRWdlbDFfVTlpNW1MMWlSRmJjeWhGT2xCX2Y2cjhhT05zUFR5YjNMcHFFUEMyckRKRk9UUWdqRXNfYmhyQTRRYU1CbnpjUWM0aWp0N2VRenFvZzk4bVd5NS05U1hMOTIxNnJGbE5QNmZEQzJodkNPMFhCMkxZ0gFWQVVfeXFMT1VnYUNHMTRuWUNJSkVBbWtEejdZUUlVQjd5WVdPRi1nTXQyQkxWbzR0N19jM1Z3ZldaczRUNFJmQzQzQTdRZGs1ckE0cjQzMHU1RmxjRGc?oc=5"
    },
    {
@@ -46351,6 +45472,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWU5TckFNaGhyZzhPSzlocTg2Vmh5M0dJY1BoWlg2LXlfTnk2YjR1X2Vsb2dDTXF3VFo3MU1VZGNuSkoxTVdseUlNck54T1lpMHlobXI2X2EtLVgwRTdRS2hrOHZnQ3Q1WHdJZ1VfU2VmWWN4QjBnZUFCVWhzX2RKQUVtakZxQ2dfVXBrblJ5YkpLX3FBYXJoX3Q0N0p2TVNYNVhWS0VqR2Ftby10MFBGMmduMEtLcUNwdTRaSlRmN1lzblRROHhEY1lyNmlWcnZRd1F5ejdUNGZxeV8xT3BqZ1AzSFNQT1ZWS2RF0gHwAUFVX3lxTE5uUFZVSDl4bHhHYUdFV0lieUptOEtnSTJnSE02akJTcTBCMzMzb3FDdmtYY2Q3MVc0c3pnNDNieEJ3aXFiUTdkYnN1RUxRZUJTUENMTWU4OWZycVgtZkNXQmNWOE5TNDVaWHY4eXY2R3JmZ1RYTmp0bGstZXBuMVpCdElZck9rdHFpalhfbm5ibFNEUndmeUEzdmlSMUhqemJCS0lqYU1jYnhwTkRpU3RvQ29OeTVRNHdKQlBfRHNpSlYwd0g2d0tQZjF3aS1nMlRCMlhKWWhDUWNadnNleWJWa1NrdGJsNTdsZW9Hdm9IRg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTW5ybVVlNmFxWGlLbnl1ejhyYThPQ0x2cTliVzZHczFVQl9ZS1dCalpRdXRyMDhOYmVSLURLZ0VWN19NVUN3VEFXUmhtSjl3NVp6S3VUbVZPMEs5ZWZaOWstb2xiV29LaVhVeG40bHA5djlxeUtMdnpnOUR0cjlBZjZBR3dWR2VFM2Mtb2FCMmI4RlJDYlZRbVl5MTM4SWIzVEZiU2FRVQ?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQajNZUG1OWnR6QUhIV21fVzZOQ2oydHZ5NmZ5bUFLdjdJNlMyMldyaS1iSlJfMHVEWjlSWndoWjJpNEdMVjNqRU5BN2V0aUJnYTVwczVoOUZYR2U0cFVqbEZEQTlIRmY3azlBMER4Q0dQenhJbUdDNmo3cTlTMjF0UDlWSDQ2Ykp2dlV1MTNzeWZMQVBvbUdfemRIbDgtTTFuRkh5Q21KZFlmdkZNYVVkMjFteXdvZUYwQTl4anhIREJjVnRSb3AyZC1tdENDdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUDYxMEQ5dzJPcGhabmpfSURkdHA3ZzgwT19oN0hTSjVJbWdwLUp5M3k3d0xDUlpFSlNRRzA5TElIaUVVZHEtSzhBWHRzVzZrUElEUkx6UTlPMEUtU18tdkg5T3pWSmxUYVIzLTk0OWZpSWl2TXA4SmJieHhwOGx0OGJNd2VPWXBjaWtqTUFCVkt5aTZFSjl6RDB1akhEZGJxYnpCUFlnSUNyMGJKd2JDb0pVNm9icnhrRXdRM0JibGw0XzgxQVBoX1Fxb0h4WjhuVmc?oc=5"
    }
   ],
   "impacts": [
@@ -46406,9 +45539,21 @@
      "ar": "تواصل أسعار النحاس تسجيل تراجعات حادة وسط تباطؤ الطلب والواردات من الصين، إلى جانب تحديثات سلسلة الإمداد العالمية.",
      "ru": "Цены на медь продолжают резкое падение на фоне замедления спроса и импорта из Китая, а также новостей о цепочках поставок."
     }
+   },
+   {
+    "ts": 1795179882,
+    "time": "2026-11-20T13:04Z",
+    "severity": 5,
+    "summary": "מחירי הנחושת ירדו לשפל של שבעה חודשים עקב מכירות של קרנות גידור ופערים בין היצע פיזי לחוזים עתידיים.",
+    "i18n": {
+     "he": "מחירי הנחושת ירדו לשפל של שבעה חודשים עקב מכירות של קרנות גידור ופערים בין היצע פיזי לחוזים עתידיים.",
+     "en": "Copper prices fell to a seven-month low due to fund selling and a divergence between physical supply and futures contracts.",
+     "ar": "انخفضت أسعار النحاس إلى أدنى مستوى لها في سبعة أشهر بسبب مبيعات صناديق التحوط والفجوة بين العرض المادي والعقود الآجلة.",
+     "ru": "Цены на медь упали до семимесячного минимума из-за продаж хедж-фондов и расхождения между физическим предложением и фьючерсными контрактами."
+    }
    }
   ],
-  "last_update": 1795175739
+  "last_update": 1795179882
  },
  {
   "ts": 1795165191,
@@ -46437,21 +45582,9 @@
    }
   },
   "category": "cyber",
-  "severity": 3,
+  "severity": 4,
   "confidence": "high",
   "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qSlRaOHpkd09OLVF2OHNiTFlRVlptZFBOTGV3Z19ZbDJjOEIxSkJoY2tfelc1Y1ZxZmNNeFFnWkN5ZzloN216alYwaDE4M0F4X1JJd0VHVC1xS0ZYNmRuZWJ6VjNrS0t5U2FBS3ZWYlEwQQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVU5GeEZVN2JJWDJOQzFINndZb1BRVmdYR21lUjkwZkUzRTRLMDdTVnZsYWhoYzZpcVNjU2RvdFhfRjdCOXdDUzNoNTc5amtqV2QyWE5Vek5KbFdKTE1IVGdjT0ctaGRfYTRidUhCMjhBU296a3FGN1poMDdoSnFlRWhzYXRNeGVSUE1uaS1ycnJaUDA?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaTY4cUx2dHo1SV9mNzdOdkJsN0UxWTZqX0dxT0hsblhnMXBDWVlvNXBpZmgxSlhsUElzLVhwS1cxb29oVGZaUDRpTG1PbFkzaWJvNklIV2lQSGJDcVZva0RhWFFvTXJiVjQ5VlozRHVpVHYweHZlVHU1SlZ0YjBRSnE2bXNtdER4dXJpb19jS1d4UnYyTGdGbUw1ekVJRkwtVk1OcE5GSWRkMTdHeUE?oc=5"
-   },
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWlIM3BDTFk3Z0dLLWJLTHhHd3BwamVrT3g2NVNIRHBoVjBJWlNZX2o1S1FHZWV6dGpSbXpibXdGeUhIUGFkRldtOFdMNVRlNl9WVDRoeHZFZ2U3elpacWhtN2hoUXAtdFpHQVhYOWlDajFOWEFTbzlJbFFaSk9HVGpDelo1dEVlV296blBUQ1FtUnIxSHkxRkxJUjNxU1ByRXFrN1p5SlZVSnFzNVc1SmNBbnFuTlY4N3c?oc=5"
@@ -46463,6 +45596,18 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeUZ4aGd6X1V4dmF3cGtwUDQ0ZUFRZHZEaENuNExzRVRDcGMwdjRlR21iU2NhbnN1X1gyWFBwS1gyUm40eXdhM091WWN6QWRpUmlQRFhNNWk1UEhSeEgyWmxlV0FtZHh5T2R2aG9IOU51THZBTHRuT09yMFh2MzVwRUNKX0dXVVZ4TGdSLVEtZ2VSdHBhUDFVWEpRVU12WGRyOWtnd1VpZC1GUU9rTndaUFllU1ZwMm9YMk45M0N1WF9PRFdOVFdPQnZkbFRFUzg2b2NhdWdMS2FnR0ZrT2N6SQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNzdUeVRqcGN5bWo5T2QtTjY1Mk9HV3Y5eWpLUDJXWklRNjdVQlVFLW9PdDdEeVdhWWY2NUtpcVQxRm5rSHhqVVZ1eXlLaU9idWpYNEhCMDBUSmxYbmZpMzZaUm54Z21mRFBrSTlNOGtUb2hGWFdZY09TaTZYRHp6RGxfR3lJckpnT0c0em1BWDdtV0N3d0VPQ0RiZ2FKOFBUajk0VkFDcjQ2SDhKWmwxT3VnTXBaY3lGQVJRaWdLVTZEbm0telZkcmlVcXBJYlM3YW40aENnYWZvZ1lSaEFQbmhzNXVoV3daM3J5VE9mZGtVdXhwM1dTVHZxRk1tY0NFS19ZdEZHQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJRl9HMk5VelhCeDR6aVpWcW4xOThNTnFzbTBXaHFFRE5kMFA5Zm0tUl9aQTdpUFg1WkJHMTBrQUdYRV84QVA3TFhIaU52MV9lYjdvV2ZnZjJMdnBKVU5SMVBaNW54VGdCVDdTMFZqVFQwQms?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56RmxQUEk2YnQ5eG96SHJUS1NRenVueWh0cGswYXJEVFk4SlVTUzBrNDAxUDZHMWx5eWlyeTgtY1JHZ3AwMUdwemFiVXM5YzB6MmI3LWNnU2tlRnM?oc=5"
    }
   ],
   "impacts": [
@@ -46484,6 +45629,25 @@
      "ru": "ETF энергетического сектора"
     },
     "price_at_alert": 60.89
+   },
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795179882,
+    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר לאחר מתקפות.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחת סייבר לאחר מתקפות.",
+     "en": "Increased demand for cybersecurity solutions after attacks.",
+     "ar": "زيادة الطلب على حلول الأمن السيبراني بعد الهجمות.",
+     "ru": "Рост спроса на решения в области кибербезопасности после атак."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - אבטחת סייבר",
+     "en": "CrowdStrike - Cybersecurity",
+     "ar": "كراود سترايك - أمن سيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 243.46
    }
   ],
   "id": "f3f7c5250f99",
@@ -46499,9 +45663,21 @@
      "ar": "أعلنت شركة الطاقة النرويجية إكوينور أنها أوقفت هجوماً سيبرانياً استمر ثلاثة أيام وأن الإنتاج لم يتأثر.",
      "ru": "Норвежская энергетическая компания Equinor сообщила об остановке продолжавшейся три дня кибератаки, добыча не пострадала."
     }
+   },
+   {
+    "ts": 1795179882,
+    "time": "2026-11-20T13:04Z",
+    "severity": 4,
+    "summary": "חברת האנרגיה Equinor דיווחה על בלימת מתקפת סייבר. החברה ציינה כי לא הייתה השפעה על הייצור, אך האירוע מעלה חששות לגבי אבטחת תשתיות אנרגיה.",
+    "i18n": {
+     "he": "חברת האנרגיה Equinor דיווחה על בלימת מתקפת סייבר. החברה ציינה כי לא הייתה השפעה על הייצור, אך האירוע מעלה חששות לגבי אבטחת תשתיות אנרגיה.",
+     "en": "Energy company Equinor reported thwarting a cyberattack. The company stated there was no impact on production, but the event raises concerns about energy infrastructure security.",
+     "ar": "أبلغت شركة الطاقة إكوينور عن إحباط هجوم سيبراني. وذكرت الشركة أنه لم يكن هناك أي تأثير على الإنتاج، لكن الحدث يثير مخاوف بشأن أمن البنية التحتية للطاقة.",
+     "ru": "Энергетическая компания Equinor сообщила об отражении кибератаки. Компания заявила, что производство не пострадало, но инцидент вызывает опасения по поводу безопасности энергетической инфраструктуры."
+    }
    }
   ],
-  "last_update": 1795175739
+  "last_update": 1795179882
  },
  {
   "ts": 1795165191,
@@ -47498,5 +46674,207 @@
    }
   ],
   "id": "49a2589114d9"
+ },
+ {
+  "ts": 1795179882,
+  "time": "2026-11-20T13:04Z",
+  "title": "טיל רוסי נחת בפולין; המתיחות עם נאט\"ו עולה",
+  "summary": "טיל רוסי מסוג Kh-101 נחת בשטח פולין במהלך מתקפה על אוקראינה. פולין הגדירה זאת כפרובוקציה, מה שמעלה את החשש מהסלמה מול נאט\"ו.",
+  "kid": "טיל רוסי נחת בטעות במדינה חברה בנאט\"ו (פולין). זה מפחיד כי זה עלול להוביל למלחמה גדולה יותר, מה שגורם למשקיעים למכור מניות ולחפש מקומות בטוחים לכסף שלהם.",
+  "i18n": {
+   "title": {
+    "he": "טיל רוסי נחת בפולין; המתיחות עם נאט\"ו עולה",
+    "en": "Russian missile lands in Poland; NATO tensions rise",
+    "ar": "سقوط صاروخ روسي في بولندا وتصاعد التوترات مع الناتو",
+    "ru": "Российская ракета упала в Польше; напряженность в отношениях с НАТО растет"
+   },
+   "summary": {
+    "he": "טיל רוסי מסוג Kh-101 נחת בשטח פולין במהלך מתקפה על אוקראינה. פולין הגדירה זאת כפרובוקציה, מה שמעלה את החשש מהסלמה מול נאט\"ו.",
+    "en": "A Russian Kh-101 missile landed in Poland during an attack on Ukraine. Poland labeled the incident a provocation, raising concerns about potential escalation with NATO.",
+    "ar": "سقط صاروخ روسي من طراز Kh-101 في الأراضي البولندية خلال هجوم على أوكرانيا. وصفت بولندا الحادث بأنه استفزاز، مما يثير مخاوف من تصعيد محتمل مع الناتو.",
+    "ru": "Российская ракета Х-101 упала на территории Польши во время атаки на Украину. Польша назвала инцидент провокацией, что усиливает опасения по поводу возможной эскалации с НАТО."
+   },
+   "kid": {
+    "he": "טיל רוסי נחת בטעות במדינה חברה בנאט\"ו (פולין). זה מפחיד כי זה עלול להוביל למלחמה גדולה יותר, מה שגורם למשקיעים למכור מניות ולחפש מקומות בטוחים לכסף שלהם.",
+    "en": "A Russian missile accidentally landed in a NATO country (Poland). This is scary because it could lead to a bigger war, making investors sell stocks and look for safer places to keep their money.",
+    "ar": "سقط صاروخ روسي بالخطأ في دولة عضو في الناتو (بولندا). هذا أمر مخيف لأنه قد يؤدي إلى حرب أكبر، مما يدفع المستثمرين لبيع الأسهم والبحث عن أماكن أكثر أماناً لأموالهم.",
+    "ru": "Российская ракета случайно упала в стране НАТО (Польша). Это пугает, так как может привести к большой войне, из-за чего инвесторы продают акции и ищут более безопасные места для своих денег."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PcGdMc0pXV25yaEt6bE92UzF4NDk1NG02UlpUNG1HUUh5Q3ZPdklyRjJCd1FjQ1BWVmZjNml1YW9DU3hiQzh3dV9uVHE4bXNIYXBGU0dFYzZfVEI2Y2tlM05vQ2EyTzd1TTVCMQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZFRwMGxVbmpMdjhUdk1nQUM0ZUZLRUlnY3NWMGN3bXcyOGJJN2JMZVY5TGJLUEFDSzZ2UkF4eDhZdWpSWUExQ1l3YVBONEtGR0MybEV1eFk1T3I5aFJkSUNtaHlNQWc1eDliSmlfWmNLX0xyZEhjYW1lQ3l3aWpUUUs0Z1NCU1RaQ1FVTHhWLXpKNFJzX3Jpc2tBX2N2ZXo2VkE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYXhNSk1lbnIwTmFnSXlNWGRxRUUxOHNOanFYSXNZTm53aDRRSDF2S0xTVmtwT3RXZDdRVGdxZU5NamxfWWF6VkZKeFI0MzRVWUJXZXlLdFB2TjBfWWVNYjFyMW1ES2gzVnJYbnVUWVl3NWEzQzFXWWp0dmh1blBWeTEtbU1UU2p0bHgwZDNhQzFMS3hMVWVERm5VdnNmQnRPWU1ScXR0WXNDSGlpaFRhZVFpWFFsSThVNXItb0tiN0U0QTkzSjVUbHJzLVHSAdIBQVVfeXFMUEEzSm5FVmNJeHZqTjBpUGlvTzBjVVNLc2hsaUlSakJYU3dCMDZDeUFlbFNHSDZZVHVDOC1XUHJfa01rSDdmRFh4ajY0RnlVN1V1M2lVcGlPd3psMFk3ZXF2cTQwRkxid1ZCMDNENl9ZVk5oaEtFcklETkl2SXZGM2JVcFlESG5NUVpGYm9qb3otSGhuSWRpTHhfenZ6LUdUakdMalNGV1M0VFY4eUJERHA0d3hCTkN4eFcxZTFMQVI1ZXpyNXJQWjZ0Qzlpa1VuSnlR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFBfeU1SQ1ZKVTVMV3lMSXAweS0wdDF2ampySDRZdWhCTFZ6S2JMMTRDS3RQd1lKNG1ZZzBCZjd5aWw4MEVrNW1HUnlaOTd3ajlHTk5jNS1vUU9xSXRZbWdFN1BkWmRRLXJSTk5sYzZvUU8zeUxZaUVzSUlKaDQ0RnlLRGE1bmg1UTdXdi0yVVE1TUlxOHVmT00teWNXS2ljbXlxaWJOMnVnRWtsWEVDM2lqSDI?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjJDZ1MxZlViU3hSS2FPSndGRHV1VWd4Y0lMVHQ1alNaTjQ1Ujc3MjBNM2pHUm9VcFhJZnRhVW9fSF9tNTJXTGNXNzFIcXM2cGdLdXFZLWVBd0pNd1RJRWhCSFJ2MFA2T3pmRkNMTUtBQjg1TTFkZDJOdmVUcDBCc0JrengycXZ1eldWT2FMUm9zQVgzWXc0Tm1XZVFoTlMyRFpJVnRPc2loRGdjR2lz0gG0AUFVX3lxTE5lTUVVaV9udDJma09PRlg4b3Z5MFIxb3h0dEt0UzIzSXBIZGtxdUR1TmhoYk5XYm9LdUJ0N1h2ZVRIVGs5Mm9JOUhhUTJPc1pkc3NTcWxVSmMwX2pucXEzdGE2dDkzN3M4WmpuOEY5bGdKUTlDTUJPY3BFZkYtZWI2dHZMdFFGalRlc1pVejFtbV80VHJpdmRQc3duWE1xX2duLVhHdWFTeVVQM2IzbVdySnROVw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795179882,
+    "reason": "חוסר יציבות גיאופוליטית גורם למכירות בשוק המניות.",
+    "reason_i18n": {
+     "he": "חוסר יציבות גיאופוליטית גורם למכירות בשוק המניות.",
+     "en": "Geopolitical instability triggers market sell-offs.",
+     "ar": "عدم الاستقرار الجيوسياسي يؤدي إلى عمليات بيع في السوق.",
+     "ru": "Геополитическая нестабильность провоцирует распродажи на рынке."
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 715.87
+   },
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1795179882,
+    "reason": "הדולר משמש כחוף מבטחים בזמן משברים.",
+    "reason_i18n": {
+     "he": "הדולר משמש כחוף מבטחים בזמן משברים.",
+     "en": "The dollar acts as a safe haven during crises.",
+     "ar": "يعمل الدولار كملاذ آمن أثناء الأزمات.",
+     "ru": "Доллар выступает в качестве «тихой гавани» во время кризисов."
+    },
+    "name_i18n": {
+     "he": "דולר אמריקאי",
+     "en": "US Dollar",
+     "ar": "الدولار الأمريكي",
+     "ru": "Доллар США"
+    },
+    "price_at_alert": 29.63
+   }
+  ],
+  "id": "3e5e60280f98"
+ },
+ {
+  "ts": 1795179882,
+  "time": "2026-11-20T13:04Z",
+  "title": "סדרת רעידות אדמה באזור לוס אנג'לס",
+  "summary": "רעידות אדמה בעוצמות שבין 3.9 ל-4.4 הורגשו באזור לוס אנג'לס וקליפורניה. לא דווח על נזק משמעותי, אך האירוע מעורר דאגה בקרב תושבים וחברות ביטוח.",
+  "kid": "היו כמה רעידות אדמה קטנות בקליפורניה. זה יכול להשפיע על חברות ביטוח שצריכות לשלם על תיקונים אם יהיה נזק גדול יותר.",
+  "i18n": {
+   "title": {
+    "he": "סדרת רעידות אדמה באזור לוס אנג'לס",
+    "en": "Series of earthquakes in the Los Angeles area",
+    "ar": "سلسلة من الزلازل في منطقة لوس أنجلوس",
+    "ru": "Серия землетрясений в районе Лос-Анджелеса"
+   },
+   "summary": {
+    "he": "רעידות אדמה בעוצמות שבין 3.9 ל-4.4 הורגשו באזור לוס אנג'לס וקליפורניה. לא דווח על נזק משמעותי, אך האירוע מעורר דאגה בקרב תושבים וחברות ביטוח.",
+    "en": "Earthquakes ranging from 3.9 to 4.4 magnitude were felt in the Los Angeles and California area. No major damage reported, but the event raises concerns for residents and insurance companies.",
+    "ar": "تم الشعور بزلازل تتراوح قوتها بين 3.9 و 4.4 درجة في منطقة لוס أنجلوس وكاليفورنيا. لم يتم الإبلاغ عن أضرار جسيمة، لكن الحدث يثير قلق السكان وشركات التأمين.",
+    "ru": "Землетрясения магнитудой от 3.9 до 4.4 ощущались в районе Лос-Анджелеса и Калифорнии. О серьезных разрушениях не сообщается, но событие вызывает беспокойство у жителей и страховых компаний."
+   },
+   "kid": {
+    "he": "היו כמה רעידות אדמה קטנות בקליפורניה. זה יכול להשפיע על חברות ביטוח שצריכות לשלם על תיקונים אם יהיה נזק גדול יותר.",
+    "en": "There were several small earthquakes in California. This could affect insurance companies that have to pay for repairs if there is more damage.",
+    "ar": "وقعت عدة زلازل صغيرة في كاليفورنيا. هذا قد يؤثر على شركات التأمين التي يتعين عليها دفع تكاليف الإصلاحات إذا كان هناك المزيد من الأضرار.",
+    "ru": "В Калифорнии произошло несколько небольших землетрясений. Это может повлиять на страховые компании, которым придется оплачивать ремонт, если ущерб окажется значительным."
+   }
+  },
+  "category": "climate",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaTdHZm1BSXhlUXhXSV96MHlmNGdPSUgtdTA3VE1XdjI3MjFLRlBxMFMxaFU1VnFhWGYxbFJlRkNUZHAxOGtOa0d0UkVFVk1MbTlDQVpVRm9PX3lsdVdRYVlrM2NYVVlfOVRwWVh4bHRWLVhySG1fYm5SUTRrbGxnakxLczJCX3BPcXVzYVktOXZPcVhlUDRpeFRVbWlFWkdBMTRzTWNHaGQzLVVzdzJZV2U4OU5WNzFiSTdjWmxKQjE4dw?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObkp2UnhnemxiQ3ZJY3B2VkR6QUtFX1FNdmtDc25PZjR3QkRuQ3JwUDFpLVk2VHROdmpwbGxZQkE5YW92MUttQVhOVFZmcGVyVDhXZjNDWVd1OVl4ckVZZ29nZ0ExckZacFBCTFhLRFFrNmY5a3NGUmkza1Y1T3NiQW5DeFlGVlE?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNLW5IUXdkdF83Rzg5VXdiNGdRNER6ZUswcjFPSk9CLTlZaXpxQTM1OTZlV1B4cHBCbElwdzRWMWhpSWRIMEVUSXlXN2pFMFNHVW9DeS1CUTdiVE1Zd00zZTdvblNEeDF2SVZiODYyNl8?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQllIN2dmUDlRMmFxUDlfMXJyTWU5SE84dFFoUHZDT01NUUt2cWdTNUFsdkNaa192N2RlWkNaS2s0V191VVhqN2J2aGd5N3Q3U0taLUxpTnlOdXQ3ZEFaMXdaY0YtQ1RIT21hRV9sZzlHUnMxczFQaEd3VjNrWU1MeVpzNVdJdw?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRN2lDYkdPdlF2VXBGMHJhSHAyU3gyTVpXWFhNN3dlUThETlhKZmRySHVJbDdVSnlqOVJLT3BQU0FFdGJwdmJudFBzYnp4RC1jVy1laFRDOTNJMjRwX2VCRlo2Z2NSdzVuQ281VFVFR3hzSmFMTmZpdNIBfkFVX3lxTE4yMkJXVllsYVQ5a1B5NEdtN2Y0aVJpaVBrdFJvczYzWUExZzN2U09Ca044M05PMGEyVFEyUWdFdTVJY0NQUklCcXNZbExoRklEYjUwRWU2NjdaV1gxN2h2RWFJd2hIemxXMEpvcUkxTVlobmpCeEIyVkQ0Z3NUQQ?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9INU9QMVNibVFTOWJESHZvV0ZFc00xNGw2bzNESFpJZ3IySnBtNzEtNmlVeEI5MjJYUjNoejB5Q2NQd1NRTnFTYlI5SUtRUFcxc3Rza1lxN3d6NGJkYjNOcjFfVWpLWE50c2RLQWtrYXkwTGNSaW85WTRfRHU?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObktVYktIQWUyeFhkN0JJOFBaZjhrZGRqQ3d0clFzQVhUY3E3VDI2dE1SYnNSSGgwSVdkSms0TUZTN1pmcHZSOXdTZDU0NWZjRGlfbVczV01xM3p3el9ETEJzRmZ3TjgzejgzZVN1REhJRzZlbGtZX0hpaXZYWWl3blBGdFNkQXJoVWJtSG9BdnNaUUR3UWdNVmo5N3JSWUpHYjdlV09PUFJjUTQ0VVYzUFNwX0psQ1VQcHkwblVFR2FzSHhMWWkxRm9Gay1VSG1SMERNek1RQ0xTWFQ0Z0NJN0FyNDFjd9IB-gFBVV95cUxPSEVUVEN6UDUwcDM5WmNmWXlyYy1QVWdHU0lLd0RvTXhMa3phZHdkMzVmUEtPOFBlTGhSNEh3RU1yRjJUWTI3S2VHMWxteWh6VUpmNHNMVFA0bXNoUWY0TC0zRHNVVkFNY01jNG1hTzR0WnRxOUI4eDRjRTRzUTRvTVI3ellYY3E3cE8wWXJuSldkdURZYXA4N0cwWHF1VVJ1RHdOWTRhWkgyaXpkMUgwZWNqbjBWeERRX2pVZjYxdVNQZlIzSUxQcXA1UkpOcTJ6OHFyUjFHenRzYUsza01uSGpNQXNINE0tcGkxbnByejZMRnpnajA5cER3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795179882,
+    "reason": "חשש מתביעות ביטוח עקב נזקי רעידות אדמה.",
+    "reason_i18n": {
+     "he": "חשש מתביעות ביטוח עקב נזקי רעידות אדמה.",
+     "en": "Concerns over insurance claims due to earthquake damage.",
+     "ar": "مخاوف بشأن مطالبات التأمين بسبب أضرار الزلازل.",
+     "ru": "Опасения по поводу страховых выплат из-за ущерба от землетрясений."
+    },
+    "name_i18n": {
+     "he": "אולסטייט - חברת ביטוח",
+     "en": "Allstate - Insurance company",
+     "ar": "أولستيت - شركة تأمين",
+     "ru": "Allstate - страховая компания"
+    },
+    "price_at_alert": 266.77
+   },
+   {
+    "ticker": "TRV",
+    "direction": "down",
+    "t0": 1795179882,
+    "reason": "חשיפה לנזקי טבע בארה\"ב.",
+    "reason_i18n": {
+     "he": "חשיפה לנזקי טבע בארה\"ב.",
+     "en": "Exposure to natural disaster risks in the US.",
+     "ar": "التعرض لمخاطر الكوارث الطبيعية في الولايات المتحدة.",
+     "ru": "Подверженность рискам стихийных бедствий в США."
+    },
+    "name_i18n": {
+     "he": "טרוולרס - חברת ביטוח",
+     "en": "Travelers - Insurance company",
+     "ar": "ترافيلرز - شركة تأمين",
+     "ru": "Travelers - страховая компания"
+    },
+    "price_at_alert": 390.61
+   }
+  ],
+  "id": "3b13f6fa7b89"
  }
 ]
