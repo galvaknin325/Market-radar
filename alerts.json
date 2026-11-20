@@ -2243,95 +2243,6 @@
  {
   "ts": 1794562190,
   "time": "2026-11-13T09:29Z",
-  "title": "זימון מנכ\"ל אנבידיה לשעבר לשימוע בסנאט",
-  "summary": "הסנאט האמריקאי זימן את מנכ\"ל אנבידיה לשעבר, ג'נסן הואנג, למתן עדות, תוך איום בצעדים משפטיים אם לא יתייצב.",
-  "kid": "הסנאט רוצה לשאול את המנכ\"ל לשעבר של אנבידיה שאלות חשובות. אם הוא לא יבוא, הוא עלול להסתבך בצרות משפטיות, מה שיוצר אי-ודאות סביב החברה.",
-  "i18n": {
-   "title": {
-    "he": "זימון מנכ\"ל אנבידיה לשעבר לשימוע בסנאט",
-    "en": "Former Nvidia CEO summoned to Senate hearing",
-    "ar": "استدعاء الرئيس التنفيذي السابق لشركة إنفيديا لجلسة استماع في مجلس الشيوخ",
-    "ru": "Бывший гендиректор Nvidia вызван на слушания в Сенат"
-   },
-   "summary": {
-    "he": "הסנאט האמריקאי זימן את מנכ\"ל אנבידיה לשעבר, ג'נסן הואנג, למתן עדות, תוך איום בצעדים משפטיים אם לא יתייצב.",
-    "en": "The US Senate Banking Committee has summoned former Nvidia CEO Jensen Huang to testify, threatening legal action if he fails to appear.",
-    "ar": "استدعت لجنة الخدمات المصرفية في مجلس الشيوخ الأمريكي الرئيس التنفيذي السابق لشركة إنفيديا، جنسن هوانغ، للإدلاء بشهادته، مهددة باتخاذ إجراءات قانونية إذا لم يحضر.",
-    "ru": "Банковский комитет Сената США вызвал бывшего гендиректора Nvidia Дженсена Хуанга для дачи показаний, пригрозив юридическими последствиями в случае неявки."
-   },
-   "kid": {
-    "he": "הסנאט רוצה לשאול את המנכ\"ל לשעבר של אנבידיה שאלות חשובות. אם הוא לא יבוא, הוא עלול להסתבך בצרות משפטיות, מה שיוצר אי-ודאות סביב החברה.",
-    "en": "The Senate wants to ask the former Nvidia boss important questions. If he doesn't show up, he could get into legal trouble, which creates uncertainty for the company.",
-    "ar": "يريد مجلس الشيوخ طرح أسئلة مهمة على الرئيس التنفيذي السابق لشركة إنفيديا. إذا لم يحضر، فقد يواجه مشاكل قانونية، مما يخلق عدم يقين بشأن الشركة.",
-    "ru": "Сенат хочет задать важные вопросы бывшему главе Nvidia. Если он не придет, у него могут возникнуть юридические проблемы, что создает неопределенность для компании."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794562190,
-    "reason": "אי-ודאות משפטית וניהולית",
-    "reason_i18n": {
-     "he": "אי-ודאות משפטית וניהולית",
-     "en": "Legal and management uncertainty",
-     "ar": "عدم اليقين القانوني والإداري",
-     "ru": "Юридическая и управленческая неопределенность"
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 166.19,
-    "entry_price": 169.89,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 156.16,
-    "exit_date": "2026-11-16",
-    "change_pct": -8.08,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -5.59,
-    "edge_pct": 5.59,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "60a55ed40bf8",
-  "updates": [
-   {
-    "ts": 1794569210,
-    "time": "2026-11-13T11:26Z",
-    "severity": 6,
-    "summary": "שר המסחר האמריקאי לוטניק יעיד בפני ועדת הבנקאות של הסנאט בנוגע לחשיפות על קשריו של מנכ\"ל אנבידיה לשעבר עם מרגלת סינית לכאורה ומכירת שבבים לסין.",
-    "i18n": {
-     "he": "שר המסחר האמריקאי לוטניק יעיד בפני ועדת הבנקאות של הסנאט בנוגע לחשיפות על קשריו של מנכ\"ל אנבידיה לשעבר עם מרגלת סינית לכאורה ומכירת שבבים לסין.",
-     "en": "US Commerce Secretary Lutnick will testify before the Senate Banking Committee regarding revelations about the former Nvidia CEO's alleged affair with a Chinese spy and chip sales to China.",
-     "ar": "سيدلي وزير التجارة الأمريكي لوتنيك بشهادته أمام لجنة البنوك في مجلس الشيوخ بشأن الكشوفات المتعلقة بعلاقة الرئيس التنفيذي السابق لشركة إنفيديا المزعومة مع جاسوسة صينية وبيع الرقائق للصين.",
-     "ru": "Министр торговли США Латник даст показания перед банковским комитетом Сената относительно разоблачений о предполагаемой связи бывшего гендиректора Nvidia с китайской шпионкой и продажах чипов в Китай."
-    }
-   }
-  ],
-  "last_update": 1794569210,
-  "evaluated": true
- },
- {
-  "ts": 1794562190,
-  "time": "2026-11-13T09:29Z",
   "title": "דאגה גוברת מהפעילות הגרעינית של איראן",
   "summary": "סבא\"א מביעה דאגה עמוקה מחוסר היכולת לאמת חומרים גרעיניים באיראן וממיקומם הלא ידוע של מתקני העשרה חדשים.",
   "kid": "הארגון הבינלאומי שאחראי על פיקוח גרעיני אומר שהוא לא יודע מה איראן עושה במתקנים שלה. זה מעלה את הסיכוי למתיחות ביטחונית במזרח התיכון.",
@@ -2534,146 +2445,6 @@
    }
   ],
   "last_update": 1794572874,
-  "evaluated": true
- },
- {
-  "ts": 1794569210,
-  "time": "2026-11-13T11:26Z",
-  "title": "הסכם רכש ביטחוני בין בולגריה לספרד",
-  "summary": "בולגריה וספרד חתמו על הסכם לרכש מערכות נגד רחפנים (C-UAS) בעקבות גילוי רחפנים רוסיים מסוג 'גרבר'.",
-  "kid": "מדינות אירופה קונות יותר מערכות להגנה מפני רחפנים. זה טוב לחברות שמייצרות טכנולוגיות הגנה.",
-  "i18n": {
-   "title": {
-    "he": "הסכם רכש ביטחוני בין בולגריה לספרד",
-    "en": "Bulgaria and Spain sign C-UAS procurement deal",
-    "ar": "بلغاريا وإسبانيا توقعان اتفاقية شراء أنظمة مضادة للطائرات المسيرة",
-    "ru": "Болгария и Испания подписали соглашение о закупке систем борьбы с БПЛА"
-   },
-   "summary": {
-    "he": "בולגריה וספרד חתמו על הסכם לרכש מערכות נגד רחפנים (C-UAS) בעקבות גילוי רחפנים רוסיים מסוג 'גרבר'.",
-    "en": "Bulgaria and Spain have signed an agreement to procure Counter-UAS systems following the discovery of Russian 'Gerber' drones.",
-    "ar": "وقعت بلغاريا وإسبانيا اتفاقية لشراء أنظمة مضادة للطائرات المسيرة (C-UAS) بعد اكتشاف طائرات مسيرة روسية من طراز 'جربر'.",
-    "ru": "Болгария и Испания подписали соглашение о закупке систем борьбы с БПЛА после обнаружения российских дронов типа 'Гербер'."
-   },
-   "kid": {
-    "he": "מדינות אירופה קונות יותר מערכות להגנה מפני רחפנים. זה טוב לחברות שמייצרות טכנולוגיות הגנה.",
-    "en": "European countries are buying more systems to protect against drones. This is good for companies that make defense technologies.",
-    "ar": "تشتري الدول الأوروبية المزيد من الأنظمة للحماية من الطائرات المسيرة. هذا جيد للشركات التي تصنع تقنيات الدفاع.",
-    "ru": "Европейские страны закупают больше систем для защиты от дронов. Это хорошо для компаний, производящих оборонные технологии."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQU83V2hoVWhlQ1J1UHFtWURNMDZYV3hVN05hZ3JrMzFzVDlQLXhCMEhJUGRmamhaQ2RlSHFsb0RVMHZ5VElhX0lLLWFwazVXQ2toNVZxV0pHbllxcXJGNmpFYmtpMVptQXJyMWxDYmdoN0JPWFM4Mm03dEw2emxXTXZvczQ5ejF0b1lyUDVCTF84dXdTc0ZWMW83b2xiRmdnYmc0bHN4SHJLR1NYVEJKSHd0WlZ0SEdjbm55QUE0b0RZcy1CSU5vYUI5TFg1dTNfa0hYbThITzZnWWVPdTBBN2hFNA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "AVAV",
-    "direction": "up",
-    "t0": 1794569210,
-    "reason": "ביקוש גובר למערכות הגנה נגד רחפנים.",
-    "reason_i18n": {
-     "he": "ביקוש גובר למערכות הגנה נגד רחפנים.",
-     "en": "Rising demand for counter-drone defense systems.",
-     "ar": "زيادة الطلب على أنظمة الدفاع ضد الطائرات المسيرة.",
-     "ru": "Растущий спрос на системы защиты от дронов."
-    },
-    "name_i18n": {
-     "he": "AeroVironment",
-     "en": "AeroVironment",
-     "ar": "AeroVironment",
-     "ru": "AeroVironment"
-    },
-    "price_at_alert": 120.84,
-    "entry_price": 120.85,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 109.45,
-    "exit_date": "2026-11-16",
-    "change_pct": -9.43,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -6.94,
-    "edge_pct": -6.94,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "2de30ba2933a",
-  "evaluated": true
- },
- {
-  "ts": 1794569210,
-  "time": "2026-11-13T11:26Z",
-  "title": "מלזיה פונה לטורקיה לרכישת טילים",
-  "summary": "מלזיה החליטה לרכוש טילים לספינות מלחמה מטורקיה לאחר שנורווגיה הקפיאה את ייצוא הנשק שלה למדינה.",
-  "kid": "מלזיה קונה נשק מטורקיה במקום מנורווגיה. זה מראה על שינויים בשוק הנשק העולמי.",
-  "i18n": {
-   "title": {
-    "he": "מלזיה פונה לטורקיה לרכישת טילים",
-    "en": "Malaysia turns to Turkey for missiles",
-    "ar": "ماليزيا تتجه إلى تركيا لشراء الصواريخ",
-    "ru": "Малайзия обращается к Турции за ракетами"
-   },
-   "summary": {
-    "he": "מלזיה החליטה לרכוש טילים לספינות מלחמה מטורקיה לאחר שנורווגיה הקפיאה את ייצוא הנשק שלה למדינה.",
-    "en": "Malaysia has decided to purchase warship missiles from Turkey after Norway froze its arms exports to the country.",
-    "ar": "قررت ماليزيا شراء صواريخ للسفن الحربية من تركيا بعد أن جمدت النرويج صادراتها من الأسلحة إلى البلاد.",
-    "ru": "Малайзия решила закупить ракеты для военных кораблей у Турции после того, как Норвегия заморозила экспорт оружия в эту страну."
-   },
-   "kid": {
-    "he": "מלזיה קונה נשק מטורקיה במקום מנורווגיה. זה מראה על שינויים בשוק הנשק העולמי.",
-    "en": "Malaysia is buying weapons from Turkey instead of Norway. This shows changes in the global arms market.",
-    "ar": "تشتري ماليزيا أسلحة من تركيا بدلاً من النرويج. هذا يظهر تغيرات في سوق الأسلحة العالمي.",
-    "ru": "Малайзия покупает оружие у Турции вместо Норвегии. Это показывает изменения на мировом рынке вооружений."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmF3dG85RkJCWjZEVUJvMlN6bWVLWEFPbDlHUEstWUItVGNkeng5WG95Rk5yMWV4R0p0dlRfNjdDMENFSWJqTG9CYzBwOEZpcHZyMndCakFvQ2E1VTB5TUVidkNzTEloUTRhSmVNY3FhNWRkTTl2bldoMVY5TlJtckphbXVpb0l0dkw1ckJCVVktZWNiaWs2TXlKYXllOHpzN2JPMEJNQklITHFiMWFBZVR3ZUhrUXlabk1ZTnp0TQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794569210,
-    "reason": "שינויים בשרשראות אספקה ביטחוניות גלובליות.",
-    "reason_i18n": {
-     "he": "שינויים בשרשראות אספקה ביטחוניות גלובליות.",
-     "en": "Shifts in global defense supply chains.",
-     "ar": "تحولات في سلاسل توريد الدفاع العالمية.",
-     "ru": "Сдвиги в глобальных цепочках поставок оборонной продукции."
-    },
-    "name_i18n": {
-     "he": "תעשיית הביטחון",
-     "en": "Defense Sector",
-     "ar": "قطاع الدفاع",
-     "ru": "Оборонный сектор"
-    },
-    "price_at_alert": 71.73,
-    "entry_price": 71.92,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 69.7,
-    "exit_date": "2026-11-16",
-    "change_pct": -3.09,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.6,
-    "edge_pct": -0.6,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "2fc1dd193383",
   "evaluated": true
  },
  {
@@ -44569,14 +44340,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RVGtYMnZCTzdnODNFT19fNjBTYk9kY0dXTng1dU9kYlVFWWZsMDhTNVVLdW0taERNd0ZxT2VwWDN4a01Qbk55RVljaGkxckxqQkFJdWljaWlqQU9lS3NQa0lFdnI0b2N0RXp6ZWFmYw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTlVmS3p4WDA1UEVJMndRN0lVMDlteVZVZHFIZHEzWF9ORnYyN051NWl1cXlvMUlIc2diQy00R0wzc0hIQW81ZXVoSk5rV29wQVlRS0p0Szc2dlRSUDAwRlJGSW1NTm5SN092UUtsY1BtbWNNZ3JVQnlWOUYtbFh5NmFqVkRDd214N2t2YXR1dTgzVTRRNTd5TVJSc0c1dWo4X3JSVnp4ZnMwMFZ3dEE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdUNMcW8tMFRzaTFvREp0ZENrVHpuSXRuWnhKYjI4Zm8wbEZDNkRheDBZVUtkaFFWTm0xYVdGVlBMb0pXOXo3MXhQS1BNVC1NV3VhMk14REw0bUZDVll0cFg4NWRUS1ZLZXUtZTgtOHlxenUyUmlER3R6ejBoZjlYdmJUdjBiR3N1NWJtVHJsbzZUNUplZ2lnZ0stSm1ua1E?oc=5"
    },
    {
@@ -44590,6 +44353,14 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQcjZLWUowa2xmTzdCblJ3OHh4OGpzNTJDU2RuTG8wLWRWXzhOalNXOVpUVzlqQ0NRYjFoTm8xTGdvUnZjMUc2UlJBbThqOHhSZWhBOWJPamVuN3JrS0FIaFd6UmlDQ3Z1NjlULUp2ck9ua3NpOU9LbGpBbUtCc3MxWVRBMzA1N0ZyQTVnSEdKdERKQUFMT0VROW12RURIMlZnR2YwWmFiZUh5ZGlFRXRpRU41NGp5Tlp3MVFJaFZiam51aEVGaXFwcG1TUWlNR1BfYXRvLW0teWp6Tm52TE9UVFNaR0M0bDhyVHRxSXVoczYxNnJ6N1dXVDJyQQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQktGYjNxZUhxZ21wMGVKZGRZODN2Z0dRTENpVTRQZWhzU1lic2xwUEdTV1FLR3lOMjBPZHM1ZnJYX2ZhVU1GbnNpenFmRnk0NmpmMEM1WTZSNVV6UWlQa01yakI2WHdUNWlyVUFwRXhYdEFHMElZYVdkSzlXQXJscEZR?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkhaVnBLOFlTM3FaSjZRMmVEelRfcDNkVTBnWDZoOEE1WFVHcXd4MzdFaDM4NGJha3VjQWE3ZDNzTEhlU0RUVHkwWk9VdmVpU2dyUTVlUzBYcU5FOXlaWFdVNlJhTG5lSUpOTHhxdF9uTTZ2d2k1VVZPUnZFV3NlVTY5SWVKWW9ucHhIYkdhcFVhaGh5a3RlRGF2WS16QlRoU29iNjFUSzE?oc=5"
    }
   ],
   "impacts": [
@@ -44664,9 +44435,21 @@
      "ar": "שهدت أسعار الذهب والمعادن الثمينة أسوأ أسبوع لها منذ أشهر وسط تعافي الدولار الأمريكي وتوقعات رفع أسعار الفائدة.",
      "ru": "Цены на золото и драгоценные металлы пережили худшую неделю за последние месяцы на фоне укрепления доллара США и ожиданий повышения ставок."
     }
+   },
+   {
+    "ts": 1795175739,
+    "time": "2026-11-20T11:55Z",
+    "severity": 4,
+    "summary": "מחירי הזהב והכסף רשמו שפל חדש לשנת 2026, על רקע תנודתיות בשווקים וציפיות כלכליות להידוק מוניטרי.",
+    "i18n": {
+     "he": "מחירי הזהב והכסף רשמו שפל חדש לשנת 2026, על רקע תנודתיות בשווקים וציפיות כלכליות להידוק מוניטרי.",
+     "en": "Gold and silver prices hit new lows for 2026 amid market volatility and macroeconomic tightening expectations.",
+     "ar": "سجلت أسعار الذهب والفضة مستويات متدنية جديدة لعام 2026 وسط تقلبات الأسواق وتوقعات التشديد الاقتصادي.",
+     "ru": "Цены на золото и серебро достигли новых минимумов 2026 года на фоне волатильности рынков и ожиданий ужесточения политики."
+    }
    }
   ],
-  "last_update": 1795152920
+  "last_update": 1795175739
  },
  {
   "ts": 1795131042,
@@ -46547,15 +46330,27 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSVFRdnphbGM0VWVfYUMyLWZQd2cwdENRSDN0dGlLNlgxNlJkR1lTUUd1MWRNWFBDWWFWM1F2bWwycmlsNWpPcEhlVXo2NzZMQy03UnVLUWRmRjVlOU0tRlR0TVZQc0tub1ppazN2eDhuT0ZGWGxTcWlySVVKOUhjbkNuVV9feGlCcVlQSkpKYWNJRTFTS1ltZjB5RnFTMnRWbWJlbGllWkZKVV9vNTB3?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZmxWd2lxR3NpRmU1ZFdLU2hrTGMzcTlINFlSZ3VIVDhPTDFSbXRLbUFIdF9sQkM3NnhLdW1wUm1lM1B0ZkYxcUZEOFZsQTNGQnFxZlNnazNMbUdfcy1Xa3BDR1hDQ2NkNU5MSkdYQ3h0dE9UOHJkd2tIX29uTVBDLXd2QWpBWTA?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYUQzcjZGYzQ0clRuaklpUG1wa1hPOHcwTThOb0V3SmVsRXZXdDVYZTZBOU9PbEtTX2FsejVBXzUtLTJsRm9wcTUxVk9VLVd4cjhNb3haQ1FvLU1GdHZkY25zWkFPVUN4UU5vTTctdHBXTjhBNmtnYVNhZlFIcUtHTnR5UWZYUWRqMUJPQVRIazlkdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PVFFwVGhjbnFjeVlQUF9TLU1OaHJnLTRDUXRpd1NiLUdmOW9OVU1fX1VaeDRWNFlFTGt4YS1nblpNM0RxMHJtSnlnZkhVV3h5cHJpRzJiZndfdm9JSDJVejF3?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU1hVQ3pPS3RobVNwaldWcW5uR0ZBSE9sbW1SNlZGQzJnUS1MY1hFSzJ4aC1qTGJtWjdURGJvSWlxcWlUVmZnaUVpalZBZHlQb09WYTZRQnpMNV9tT3pWTjc0Mlh5QUttbk0yWVUxWEw4bHlPSWltSlRGdXZRZU5xemg2MGNQcHVXbFVHLTFsdE9Ta1RaUThvbnA0Nm9JZDd0REIyMkFRb0JERWZGRGpXQXRoZ2M4S190Q0lUbzU4Qk11YzFyQWNjVmNaNEVJb1NEcm5JcWVtYWtvTzNYOWlqTUhONlBqNkYxb0VyM0dPdjZjbzl2ckdjRGxnWUcwZw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUo2Ql9WMWlLZ2ozdS1VbHNPNnkzbDdhRUdrUXV4cndTV1RjbVNISExtUFpSR19sY1BSRWdlbDFfVTlpNW1MMWlSRmJjeWhGT2xCX2Y2cjhhT05zUFR5YjNMcHFFUEMyckRKRk9UUWdqRXNfYmhyQTRRYU1CbnpjUWM0aWp0N2VRenFvZzk4bVd5NS05U1hMOTIxNnJGbE5QNmZEQzJodkNPMFhCMkxZ0gFWQVVfeXFMT1VnYUNHMTRuWUNJSkVBbWtEejdZUUlVQjd5WVdPRi1nTXQyQkxWbzR0N19jM1Z3ZldaczRUNFJmQzQzQTdRZGs1ckE0cjQzMHU1RmxjRGc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQN3BGMFZZNGxHcVNxaFpkWjY1SmtiNVRkUXFXVlV5VlQ0dTljM2JiaWFLQ0owOEp6M3h3ZWpId2dLYUhQQUozU0pHY2JtN2dFUHZnMm1lUXMycnJLQjUzTmdaM2ktUjNZVkVLaE9nZFFJa3pNYkZSVFpPSUlaZjlpQkxkTWZsdmlsaWhtdkZZQjk2TTh0NzFwSGxLbHYtWGRWZXgwMVFZNEJWOXRJb2hwM05VQmhkbE14VF96Q29QVXJxMEpmRml3VW9yNHVZczk3QVFRdWotZ0RzeXVnZC1FMW9kVnpqUWl6NTZwSmJzTkROZVVidGxDSVFGWWlQTnBYbHdXMTZZY21KQ0xoWnRENE1OSlBZd1Y3ZENPN0Fn?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWU5TckFNaGhyZzhPSzlocTg2Vmh5M0dJY1BoWlg2LXlfTnk2YjR1X2Vsb2dDTXF3VFo3MU1VZGNuSkoxTVdseUlNck54T1lpMHlobXI2X2EtLVgwRTdRS2hrOHZnQ3Q1WHdJZ1VfU2VmWWN4QjBnZUFCVWhzX2RKQUVtakZxQ2dfVXBrblJ5YkpLX3FBYXJoX3Q0N0p2TVNYNVhWS0VqR2Ftby10MFBGMmduMEtLcUNwdTRaSlRmN1lzblRROHhEY1lyNmlWcnZRd1F5ejdUNGZxeV8xT3BqZ1AzSFNQT1ZWS2RF0gHwAUFVX3lxTE5uUFZVSDl4bHhHYUdFV0lieUptOEtnSTJnSE02akJTcTBCMzMzb3FDdmtYY2Q3MVc0c3pnNDNieEJ3aXFiUTdkYnN1RUxRZUJTUENMTWU4OWZycVgtZkNXQmNWOE5TNDVaWHY4eXY2R3JmZ1RYTmp0bGstZXBuMVpCdElZck9rdHFpalhfbm5ibFNEUndmeUEzdmlSMUhqemJCS0lqYU1jYnhwTkRpU3RvQ29OeTVRNHdKQlBfRHNpSlYwd0g2d0tQZjF3aS1nMlRCMlhKWWhDUWNadnNleWJWa1NrdGJsNTdsZW9Hdm9IRg?oc=5"
    }
   ],
   "impacts": [
@@ -46598,7 +46393,22 @@
     "price_at_alert": 33.76
    }
   ],
-  "id": "5f0ffb037cef"
+  "id": "5f0ffb037cef",
+  "updates": [
+   {
+    "ts": 1795175739,
+    "time": "2026-11-20T11:55Z",
+    "severity": 4,
+    "summary": "מחירי הנחושת ממשיכים לרשום ירידות חדות על רקע האטה בביקושים ובייבוא מסין, לצד דיווחים על שינויים במלאי ובשרשרת האספקה הגלובלית.",
+    "i18n": {
+     "he": "מחירי הנחושת ממשיכים לרשום ירידות חדות על רקע האטה בביקושים ובייבוא מסין, לצד דיווחים על שינויים במלאי ובשרשרת האספקה הגלובלית.",
+     "en": "Copper prices continue to record sharp declines amid slowing demand and imports from China, alongside global supply chain updates.",
+     "ar": "تواصل أسعار النحاس تسجيل تراجعات حادة وسط تباطؤ الطلب والواردات من الصين، إلى جانب تحديثات سلسلة الإمداد العالمية.",
+     "ru": "Цены на медь продолжают резкое падение на фоне замедления спроса и импорта из Китая, а также новостей о цепочках поставок."
+    }
+   }
+  ],
+  "last_update": 1795175739
  },
  {
   "ts": 1795165191,
@@ -46632,14 +46442,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZDJ4S3V6czRjY2ZRQmREeW55WnNDWW4wdW9PZkZzMXJvRGhtYmNnbkl5aWw3VUNsQ1QycENjcDhON2Q4enpORzZHcXZDQy1YUklsLTktNDNnZXhWak1RTkJsdVl2X2tsMXpqZHVJdkpWeVhhMTYtVFhPWXhGaWtnMFNUZWFPUl9waTBud0tXVi01UXQtcUhNMWhBV0Z3T21mdUJNaTBLcXg5eE5CVHF2YXlERl91Q05yR3F1SkVNLV8?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjRVMGZBcjNYRDZLUDNkYndsaG9jZ1RNV0tsZm1BUUZ4ZWw4ZURkZmkzdXdSaVVDRkpZM1F4WG1tQnRkTG5Kd0hySnpzcjdnVXN4WXFjejNsSXdVcU5oNHg3MFEyWEM4OE11cTZBanhmZ1ZOWkhOQVF2WGlfUEFXd1h2Q0tpMk9iOEZEZDY1ZFBqcWM?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qSlRaOHpkd09OLVF2OHNiTFlRVlptZFBOTGV3Z19ZbDJjOEIxSkJoY2tfelc1Y1ZxZmNNeFFnWkN5ZzloN216alYwaDE4M0F4X1JJd0VHVC1xS0ZYNmRuZWJ6VjNrS0t5U2FBS3ZWYlEwQQ?oc=5"
    },
    {
@@ -46653,6 +46455,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWlIM3BDTFk3Z0dLLWJLTHhHd3BwamVrT3g2NVNIRHBoVjBJWlNZX2o1S1FHZWV6dGpSbXpibXdGeUhIUGFkRldtOFdMNVRlNl9WVDRoeHZFZ2U3elpacWhtN2hoUXAtdFpHQVhYOWlDajFOWEFTbzlJbFFaSk9HVGpDelo1dEVlV296blBUQ1FtUnIxSHkxRkxJUjNxU1ByRXFrN1p5SlZVSnFzNVc1SmNBbnFuTlY4N3c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWmppZVJPSWhhaVl1MGQ2T0JwWXZKZzhMLTdlT2NLMjhpWWdZeE11VGlhSjl4M2xpS1g4UzFnZ3NySTJBWExPMGpsVVRPTGYyMHE2V3djZEsyd2RzZWVON3Q4RE1ueUxJMlZTT3pDaEdTVG9lSnFNelg2LTBSSmtfcnU3YWV4RDNsMHRV?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeUZ4aGd6X1V4dmF3cGtwUDQ0ZUFRZHZEaENuNExzRVRDcGMwdjRlR21iU2NhbnN1X1gyWFBwS1gyUm40eXdhM091WWN6QWRpUmlQRFhNNWk1UEhSeEgyWmxlV0FtZHh5T2R2aG9IOU51THZBTHRuT09yMFh2MzVwRUNKX0dXVVZ4TGdSLVEtZ2VSdHBhUDFVWEpRVU12WGRyOWtnd1VpZC1GUU9rTndaUFllU1ZwMm9YMk45M0N1WF9PRFdOVFdPQnZkbFRFUzg2b2NhdWdMS2FnR0ZrT2N6SQ?oc=5"
    }
   ],
   "impacts": [
@@ -46676,7 +46486,22 @@
     "price_at_alert": 60.89
    }
   ],
-  "id": "f3f7c5250f99"
+  "id": "f3f7c5250f99",
+  "updates": [
+   {
+    "ts": 1795175739,
+    "time": "2026-11-20T11:55Z",
+    "severity": 3,
+    "summary": "חברת האנרגיה הנורווגית אקווינור דיווחה כי בלמה את מתקפת הסייבר שפקדה אותה במשך שלושה ימים, וכי פעילות ההפקה לא נפגעה.",
+    "i18n": {
+     "he": "חברת האנרגיה הנורווגית אקווינור דיווחה כי בלמה את מתקפת הסייבר שפקדה אותה במשך שלושה ימים, וכי פעילות ההפקה לא נפגעה.",
+     "en": "Norwegian energy company Equinor reported that it has halted a three-day cyberattack and that production remained unaffected.",
+     "ar": "أعلنت شركة الطاقة النرويجية إكوينور أنها أوقفت هجوماً سيبرانياً استمر ثلاثة أيام وأن الإنتاج لم يتأثر.",
+     "ru": "Норвежская энергетическая компания Equinor сообщила об остановке продолжавшейся три дня кибератаки, добыча не пострадала."
+    }
+   }
+  ],
+  "last_update": 1795175739
  },
  {
   "ts": 1795165191,
@@ -46710,27 +46535,27 @@
   "sources": [
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQjhsYWYwaEwtODZJbXhGbmNzVjJ1Y1VTS1NrSTdPRk5XbzVCajJBQVJaZnlCaGpZSzdxaXdIY1gyNkY3TzEyamdfeWhxeDBiSVNUOWEwR0psNU4zMmsyYTcxUU5aM0t4dldlcDRWOGJNNV9hNXM4ZFp0cWVDenlzVHJIZmQtWWxveTFQSEpBNFZ4dTJURVFWVjlXRU9SRUho?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbGlhUzhrLU1HOTF6anZfQWJtMml5OUM1MkNiSW02XzNYNENsUTJUcWs1eWdEMHVjQVh5QVVGbUNRd0JDeEhXbl9aRnRXdWZ6S0JqQWRLYlZJc3hHc1FxSFozWUJpM0JlNkh0YzZKdjRIa1pZTHVVLU1tUGxJcVZqc0MtYTdqS0dNVFFlQWNmbGs3Mm5DUHVzcEFPM3NQNElFRmpUb3dGVDI?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hR01wZjhzRW1QSVp4UEV3b3BoamZ3TllDYzBxZDc1bGowOE9OemV0U2hHUndEZFhVbURSaFBnS25ZckNjM3hmZlR2SWhIU3pWemQ1ckQ3SU9XNUJBT0hXMm00SDhDX1hYd19MNFdlRTF1NFZQbzAycWhHUXE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeE5oR19yZThaX0xmSmY2TWJDZlpzOVYteDBaQ2FKT1NWVDFqODNoekxjYjB0cUtJVHlqa1NFRXVMS05IazlHVFBJTlM1VkJyZzhNSnN6S0cxb1hhd3B4U0I0NHROV0pLQ3NLRVRwdXFwbVJLYnZ1U1JJa0RsVHc3SFBzQV9GcXo1czh0cGRlSnRKQUJfUHd2NHczaEJZblA1YzhR?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcXZwelBEX2NqZzRUYU54ZGt4ODBkeVpoeDh3bG5Qa2VnRlJ5MzdrYXlSelkya1dJYzBJaGNKdVdodkM3MjZvRkZObm1KV0lqQ0J2ZkN4XzhyQ3BzT1h0Nk1YSHdWZXZEQVlHal9KcGVYQUUtT1pRczh3ZnhZWFRVb1phZWU4UC1CckdUaDhpMFRINDN4UGlocE1FUXRzclZMZXRkYjAtTVdEQnpKMUkxUFhvVWpmdXBCTmc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcTBqQU4xNW5LZDRjc2lFa2RrdWM2Y1FHeDJ0VGtUOTgwLVhCQ0hoZjlLUGRfOExvMVc0QTVUbmwzUW9SZTBIM1RDazFyX196UEZyeEFDRGM1cmxfMGZlMnpPVjM0djE2MnhBMzFZMVU1UHRSQXdMVlEzSHd3Z3BzRi1qZ3A5Q01GVzNfdFVQN0dFTWJhWGVyQjJWMzFYQQ?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaWk5aXF5ZUc4cGM1LWhaYW8wSmw5STY2aml0Q0x6SlkyRHZyRENVUWFnWTliOFk4QjBQQnl5VkxJa3BMTUY0dTlac28tYmJMMFF5QkZ2X3R1NzRXZnYxSDBmdGJVWlM3ZHdSV3Q0VzJmaEhpVVl5ZW9SeEdQU2FBZk5VTVNaaGZmeEFFdXdtVDRYRlI5VjNnaHY0OC0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcExNS3FEWmdJeUluWFJVYmpvZkJmMDRGT1JIU25jTXJNY01yUmw1LTJxYjB0YkhIdlNvSUpUMlRNVmxUUE8ycG9ELVd1VW5aZTNFTklYZFFYMGtnT2FLR21YY1AzcXYyQWZiN3VoNWJ4RlM3N0NrWjNLTzNYa3dTeFYwb3J5VDZ2YTVOelB2NnlvYVhFeHNLNjBfSjVYVE9WY1o1aXJhZTg5X016aXdJSWFETGVPRGUtYVVwYlM0Yw?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYnJLeTc5Y05lT0MzZ3N0SEx1WXhFdndBZnhqejVibV9nTmZFV0s3d0N4bnp2U19ua3Npci1sOGNYYWlsYU50eGxVSElydlFrRTdOaVdfR3E3QWU5anRiRFB0V1FpRVRjY0pSNXVYcDNKNFdwRzMzQl8wZDc3SnRuRmN3R3ZJZjd1QmtqUXRaR1pnLTBhZTR0MUxyY3lGRE1zYS03R3FHbkxBMUJHUGxUb3k5VVoyY1lGM2FSaXRrckJqVEI3QnpGaTlsZU1tMDVzV3JFTkJyRFl5Q2Z0MDVDTndlal95VnJpSTlTaU9kVFJjekNfV3I3UE1TUkFraFHSAYQCQVVfeXFMTkhkNVBBc2JmSUtBVENKbnNBdk1oZFRIZWFMekRnbDRXVDhvLVBuRWtSeHp4dmV6dGdrZXRxUjlVLXA0SjRzSWZ1M0hMSGRTZ3RTR0tkOFNWcV90OFZFWDZpblRBd1I4NFlfZXVHakRCZlBROGpQaGVybkdvbkFpTDdwTEZfeTdXWlRQYmhOOGFSWkgxLURMSGVhSGo4dU5TM1ZEcDVVdVVrMnNLdHR6Z25YQS1iNk9VYU9vLTdneGprcVZTTjBHNmZ2YWhSLTFqcDdtVDBXMG1aWDdIV2ltMjE1b21QZDNSY1dtVEFmaG9BYTJiRlZybEd0VEdtZUlMa0R4RXU?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQTl2OWw0dHZOSGM1ZDZ4MGt1LVRpeTFLTUxsZS1tenJvcVp6UG82Q0N0ZHJXVDNnTmJPbWpManE5MUR0LWx6Yk1memVVZTJ6S2t5WEdLV3hXMFhkN1daTEl4SUU1cnlyWUtnQlBCelREZjFuMGpkdTBkUVBrY2txUWNYOEo3dw?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WRzdJeUUtMjUwZ2ktNld5cTVUTkY4LThXQTdNUzE5YTBDS2xTYXdaZWtkNkZFZDFIOXhjeVdqc1JRd1VrelpGbFoyTGFYcUYyVDk3ZW5rUmt0VUxubFBxZDI2VHJabFItS1hlY3lWd01qRmpGbWFMZEdZVGw4TTg?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZlZmLUI4TmdjN2t4U1hJV2lzUndLbkdoa2NmbXV0ZnlLWGJqcXhJZmZORklPQmNDelZoR3kxY2ZCckhyV2U0ejRSS1VPRUFQSUxKeDdBbFppOE91WVFTMk1Yb0pyWUlmNkpMcGhPdm5LRXU3N2kyYkRVRUFWX19fOTVsVW1OdG5MaDFqTk1NNTgtRExwMGFBbjZjRkp3MHhsd3E1d1NWOTdFaWtBcjY2Y3NISUp6dmpC?oc=5"
    }
   ],
   "impacts": [
@@ -46752,9 +46577,43 @@
      "ru": "Travelers – крупная страховая компания"
     },
     "price_at_alert": 390.61
+   },
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795175739,
+    "reason": "חשש קל מעלייה בתביעות ביטוח רכוש בעקבות רעידות אדמה.",
+    "reason_i18n": {
+     "he": "חשש קל מעלייה בתביעות ביטוח רכוש בעקבות רעידות אדמה.",
+     "en": "Minor concerns over property insurance claims following seismic activity.",
+     "ar": "مخاوف طفيفة بشأن مطالبات التأمين على الممتلكات إثر الأنشطة الزلزالية.",
+     "ru": "Небольшие опасения по поводу страховых выплат из-за сейсмической активности."
+    },
+    "name_i18n": {
+     "he": "אולסטייט - חברת ביטוח אמריקאית",
+     "en": "Allstate - US insurance company",
+     "ar": "أולستيت - شركة تأمين أمريكية",
+     "ru": "Allstate - американская страховая компания"
+    },
+    "price_at_alert": 266.77
    }
   ],
-  "id": "8b0de866cb8e"
+  "id": "8b0de866cb8e",
+  "updates": [
+   {
+    "ts": 1795175739,
+    "time": "2026-11-20T11:55Z",
+    "severity": 3,
+    "summary": "שורה של רעידות אדמה, כולל אירועים בעוצמות סביב 4.0 עד 4.4, הורגשו באזור לוס אנג'לס בקליפורניה וגרמו לחרדה ולרעידת מבנים.",
+    "i18n": {
+     "he": "שורה של רעידות אדמה, כולל אירועים בעוצמות סביב 4.0 עד 4.4, הורגשו באזור לוס אנג'לס בקליפורניה וגרמו לחרדה ולרעידת מבנים.",
+     "en": "A series of earthquakes, including magnitudes around 4.0 to 4.4, shook the Los Angeles area in California, causing buildings to rattle.",
+     "ar": "هزت سلسلة من الزلازل، بلغت قوة بعضها بين 4.0 و4.4، منطقة لوس أنجلوس في كاليفورنيا مما أدى إلى اهتزاز المباني.",
+     "ru": "Серия землетрясений магнитудой от 4.0 до 4.4 сотрясла район Лос-Анджелеса в Калифорнии, вызвав испуг и тряску зданий."
+    }
+   }
+  ],
+  "last_update": 1795175739
  },
  {
   "ts": 1795168728,
@@ -46908,24 +46767,32 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55eTdYMHg2cnF1cl9uZFJub0VGUVIyVFpORy1YeXJRVmUzd25MYVNvQ2ZiSGZyZ1BKYmVDeTRWd3MzdmZocFZYWmR0c3k4X0JnUnBRS3BLVQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2QUpSYzR2OUtxRmU1U0hwd3dkVmo3X1ZiRUtrdGFvZm5yM1E3VXVYUlg4UkJZTzJmdjBpY1dPaHB5cTk3S2twWHRoX1U1aWtta0xOVUR5X1NuUmFUSmQ4VTRR0gFnQVVfeXFMT1Bwa1p2SE9sd0lTUkZQaVJTd2hSNE9BMDJMZ1hsc2lUbmpCYjc2ZENwZ3NYRTZkYWt0STg1NlduTmtYUGFBbVFEZ2ZQd1M2WUxYanR3Z3l0T0h4a0k1bzhNZmRDT3RWQQ?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wX1l3dWh6UlJwbXV4R2I1bFJaZmVEcHAydE5oSzd3Q0RiQWpEaTVFSUVfTC11dEN2bHVSTlk3Nm9aUks2MTJBcFNEdm12SjVBV1puUWowc2QxWVV3NVpqZnBKT2dBZU5fWlVKOUdSUDA4c21EN2RBVQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdTBjWmh4NnU5NHByTHlfdDhvLUtydEdONW9xLWJQb0h4M1ljVUZLcTE5SFV5ZDBsTHY3aVlpVUQtdlJsd3hGMU1VR0FxcGdTODE0Tm4xZklIM21HejMwZ2diUk1PRmxyZGRDRFc4YWEwdlFkV1FSOU9Ub2lucXhMYmxpdHZiRFo2aUYzRFBya244WkN3NXlQUnhpZ0lrS2lNb2NDRjRCZjctQlQ4WlHSAaoBQVVfeXFMTzIzbkhESmp4a1prbTg1YXhBMDRFQWtFU083c2Jmb3c1eGF0dlo2ZU14SWRPMnFEZlh2SkJ0OTZnNW9fNGQ1N0NaMjdyenUzd3hBaDJzRTV2OVBRNU9OdUtkNC1PY1lwdnRMMlFFQlFfRlF4cDVnTjZKazBfRTVYSk5rWUJuY1NqNW5pWDY0V1JRbXNGWDMwaFRHVFhvdzZja2JpRm82ZjRQQVE?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGNJNHRNRjRURGJsSFhXcV9taGNRb3Y3UUx4S0RCYlFLbnFkMUVhYUxHcHhZYkt2QldfWHdISUVpazh2UWFLSWZ4T1JfUzR0WHBCQ2M1WkoxSGFFWW9nLWFGQnRvOHplYTlvRkVqa3ZUd2JCa3FCTXpOUUVseHVlVkt1dkdfcS0tMzUzNXgtRk55QXBEeWEybkcxNmY3SU5VUlhLaHA1OHkxaXhtU2xTc0dudEE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2Fob2FWT0RZRS1YS3ZnM0FudTBHSjc0RDBrd3EtREJnT25ydTFYbWNGaVBuNXlGZy1BazhYNnBLLVEzNDBueW4zbGMzeWFxaXdjX3JIMl9uZkxEN3ZBcEJHU0hOMHZBSzZNS1l1R0M0Zk05T1FmNlF1VFVDQ2ZPeHRNZS1rZ1Y4QWJLQ2lVWQ?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbU1kY1JoRWIyeHN5UDllcFlVOHY2RWN3YWZ2WUxZWmJRV1lYbHlieXJoRzZyaEdjekppSWZJdUJBNjZGdVFLdndId0d3RHl1ZjRna2R5NjdaSDFRaUt5aTl3ZG02VFJHWUdiTEhkRzYtVVdjTE45NzhFNEpCZ0FkODdhWTVhMzFtOU0xQ2NubUVlYUE3c3pRblZ0aFVoWWVIdUQ4OXktekRrYUpUcDJmaHpnZGgzc2s20gG-AUFVX3lxTE5vWldHOG9KemRqZ1VzU0EzNV9oemtCb25yV2FlemhSc1pGT2w3ZmZxVFUtQWVKSHFhWnY3TDc2Z2c0WGpBTllHcWNHXzVKTi03YWNMd2pYN0RTUFd1SlROMEJGRU9LeTlleXpfQjAwZ3BJb3pqMUVBanhtbHdZaHZYRGJoaWo4WUtCTlBJUWdrdERuTG1KNnFNb3RFM1l0TXhiM2RBRTQzaU5KZk9Cbkt0T1FOX0s3VWFJeERpUmc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY1dKcXRXY0I0eEFKejZNMEF3alh0Ul9VQUFEZVA4OWprd0hFS1lVZVp2R2RKMEpVMFJhUVV2R2dVcHR6QkY5ZTdLVVVYYXVKbzIzekdTamRNOXNnN05ZTkJxMkdPWVRBS1BmdWJhRVVsY2sydHZJV3JkZ1ZUQkk4UdIBhgFBVV95cUxOY3VkRTM5a3d4eHE0VFFiRFowQWFYSVI4RG53dERjX00xRGNKSWRxaFVMTVFkUU9Kc1BDS0dMNnZiTVVEa2RBWnkzcGdmYkZ2M25QTnQwbmlibl9zN3gzTEZTa0xkZFQ4dnpWTGtvLXkwVjVQZFlTR2lNeDdmMDc4Qy1PdmkwZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWEwyanNKM3MydVdXVWg3RVNkeUI2VXdKejZ0TWlPaGJvOXNBRkhKNGNHWF9nLXRCdW9TWXhETThweVpUYXFHR21RUm9McWhCQ01QWDZrempjNXdZQVJ5Yjg5cXpMcEVUQmxSZklRUG9uLWUzTWhQS2E4NEdlQ3YxY0hkbmM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc3FvOWM2ZTdoVU1VWXdRNV83ek1UQWtMSWRsaGVfWURKVWJaVGttVjBnOE5SZWNpa29mUGp2b1dmOFRyZEF2d20tWDkwdHJrUFN2SGd0SFo5S0tiWjV4VU02cVFIWUpVdzVuNXl6RlE1MWpWNzlvcEVJcG1oWi1GczBVT3F1OEVJLThPNlVlRDBaRkdzUFlZUTJCd3U2T1ZLS3RFd1ZqVXcyNHU3SDBn?oc=5"
    }
   ],
   "impacts": [
@@ -46985,9 +46852,43 @@
      "ru": "SPDR Gold Shares — ETF на золото"
     },
     "price_at_alert": 335.18
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "החמרת המתיחות והלחימה באוקראינה מעלות את הביקוש למניות ביטחוניות.",
+    "reason_i18n": {
+     "he": "החמרת המתיחות והלחימה באוקראינה מעלות את הביקוש למניות ביטחוניות.",
+     "en": "Escalating conflict and war in Ukraine increase demand for defense stocks.",
+     "ar": "تصاعد الصراع والحرب في أوكرانيا يرفع الطلب على أسهم قطاع الدفاع.",
+     "ru": "Эскалация конфликта в Украине повышает спрос на оборонные акции."
+    },
+    "name_i18n": {
+     "he": "קרן סל לתעשייה הביטחונית",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق استثماري لقطاع الدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 68.2
    }
   ],
-  "id": "9f49b3cad377"
+  "id": "9f49b3cad377",
+  "updates": [
+   {
+    "ts": 1795175739,
+    "time": "2026-11-20T11:55Z",
+    "severity": 8,
+    "summary": "רוסיה ביצעה מתקפת טילים וכטב\"מים רחבת היקף על אוקראינה, שהביאה להרוגים ולפגיעה במטרות צבאיות ואנרגיה, כאשר טילים וכלים טיס חצו לשטח פולין.",
+    "i18n": {
+     "he": "רוסיה ביצעה מתקפת טילים וכטב\"מים רחבת היקף על אוקראינה, שהביאה להרוגים ולפגיעה במטרות צבאיות ואנרגיה, כאשר טילים וכלים טיס חצו לשטח פולין.",
+     "en": "Russia launched a massive missile and drone attack on Ukraine causing fatalities and hitting military and energy targets, with projectiles crossing into Polish airspace.",
+     "ar": "شنت روسيا هجوماً صاروخياً واسع النطاق وبالمسيّرات على أوكرانيا أسفر عن سقوط قتلى وأصاب أهدافاً عسكرية وطاقة، مع عبور مقذوفات إلى الأجواء البولندية.",
+     "ru": "Россия нанесла массированный ракетный и беспилотный удар по Украине, приведший к жертвам и поражению военных и энергетических объектов, ракеты залетели в воздушное пространство Польши."
+    }
+   }
+  ],
+  "last_update": 1795175739
  },
  {
   "ts": 1795172302,
@@ -47227,5 +47128,375 @@
    }
   ],
   "id": "d91c77dbdf89"
+ },
+ {
+  "ts": 1795175739,
+  "time": "2026-11-20T11:55Z",
+  "title": "קרן המטבע מזהירה מפני השפעת הבינה המלאכותית על האינפלציה",
+  "summary": "קרן המטבע הבינלאומית (IMF) פרסמה אזהרה לפיה ההשפעה של בינה מלאכותית עלולה להעלות את האינפלציה העולמית ל-4.7%, וגיבתה מדיניות מוניטרית הדוקה.",
+  "kid": "קרן המטבע אומרת שפיתוחי בינה מלאכותית עלולים לגרום לעליית מחירים בעולם, ולכן צריך לשמור על ריביות גבוהות. זה משפיע על כל השווקים הפיננסיים.",
+  "i18n": {
+   "title": {
+    "he": "קרן המטבע מזהירה מפני השפעת הבינה המלאכותית על האינפלציה",
+    "en": "IMF warns AI will lift global inflation, backs tighter policy",
+    "ar": "صندوق النقد الدولي يحذر من أن الذكاء الاصطناعي سيرفع التضخم العالمي",
+    "ru": "МВФ предупреждает, что ИИ поднимет глобальную инфляцию"
+   },
+   "summary": {
+    "he": "קרן המטבע הבינלאומית (IMF) פרסמה אזהרה לפיה ההשפעה של בינה מלאכותית עלולה להעלות את האינפלציה העולמית ל-4.7%, וגיבתה מדיניות מוניטרית הדוקה.",
+    "en": "The International Monetary Fund warned that artificial intelligence could lift global inflation to 4.7% and backed tighter monetary policy.",
+    "ar": "حذر صندوق النقد الدولي من أن الذكاء الاصطناعي قد يرفع التضخم العالمي إلى 4.7% وأيد سياسة نقدية أكثر تشدداً.",
+    "ru": "МВФ предупредил, что искусственный интеллект может поднять глобальную инфляцию до 4.7% и поддержал жесткую монетарную политику."
+   },
+   "kid": {
+    "he": "קרן המטבע אומרת שפיתוחי בינה מלאכותית עלולים לגרום לעליית מחירים בעולם, ולכן צריך לשמור על ריביות גבוהות. זה משפיע על כל השווקים הפיננסיים.",
+    "en": "The IMF says artificial intelligence developments could push global prices higher, meaning interest rates might need to stay high. This affects all markets.",
+    "ar": "يقول صندوق النقد الدولي إن تطوير الذكاء الاصطناعي قد يدفع الأسعار العالمية للارتفاع، مما يعني ضرورة بقاء أسعار الفائدة مرتفعة.",
+    "ru": "МВФ заявляет, что развитие ИИ может поднять мировые цены, из-за чего ставки могут оставаться высокими. Это влияет на все рынки."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wYlFzRnBHZEJvS2gyRjcydThIRURGNmpTZkVtZ1NtbUsxODhxNS1NRjVwcDlSbUNDM1FQWTBOTUd6aU5SVFQyU2NMOS1VLVhvMTFwYXBXbFY?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795175739,
+    "reason": "חששות מריביות גבוהות ומאינפלציה עיקשת מכבידים על ש valuations המניות.",
+    "reason_i18n": {
+     "he": "חששות מריביות גבוהות ומאינפלציה עיקשת מכבידים על ש valuations המניות.",
+     "en": "Fears of higher-for-longer interest rates and persistent inflation weigh on stock valuations.",
+     "ar": "مخاوف أسعار الفائدة المرتفعة لفترة أطول والتضخم المستمر تضغط على تقييمات الأسهم.",
+     "ru": "Опасения более высоких процентных ставок и устойчивой инфляции давят на оценки акций."
+    },
+    "name_i18n": {
+     "he": "קרן סל למדד אס&פי 500",
+     "en": "S&P 500 ETF",
+     "ar": "صندوق مؤشر إس آند بي 500",
+     "ru": "ETF индекса S&P 500"
+    },
+    "price_at_alert": 715.87
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1795175739,
+    "reason": "אזהרות אינפלציה תומכות בתשואות אג\"ח גבוהות ומורידות את מחירי האג\"ח.",
+    "reason_i18n": {
+     "he": "אזהרות אינפלציה תומכות בתשואות אג\"ח גבוהות ומורידות את מחירי האג\"ח.",
+     "en": "Inflation warnings support higher bond yields and push bond prices down.",
+     "ar": "تحذيرات التضخم تدعم عوائد السندات المرتفعة وتدفع أسعارها للتراجع.",
+     "ru": "Предупреждения об инфляции поддерживают высокую доходность и снижают цены облигаций."
+    },
+    "name_i18n": {
+     "he": "קרן סל לאג\"ח ארה\"ב ארוכות",
+     "en": "iShares 20+ Year Treasury Bond ETF",
+     "ar": "صندوق سندات الخزان الأمريكية طويلة الأجل",
+     "ru": "ETF долгосрочных гособлигаций США"
+    },
+    "price_at_alert": 80.35
+   }
+  ],
+  "id": "311af93f8fdb"
+ },
+ {
+  "ts": 1795175739,
+  "time": "2026-11-20T11:55Z",
+  "title": "בנדינג ספונס רוכשת את מיילצ'יפ מיאינטויט תמורת 3.32 מיליארד אירו",
+  "summary": "חברת הטכנולוגיה Bending Spoons הגיע להסכמה לרכישת פלטפורמת השיווק Mailchimp מענקית התוכנה Intuit תמורת 3.32 מיליארד אירו.",
+  "kid": "חברת תוכנה אחת קונה חברת שיווק מוכרת בשם מיילצ'יפ מהחברה הגדולה אינטויט תמורת סכום ענק של מיליארדי אירו. זה עשוי להשפיע על שווי המניות של המוכרת.",
+  "i18n": {
+   "title": {
+    "he": "בנדינג ספונס רוכשת את מיילצ'יפ מיאינטויט תמורת 3.32 מיליארד אירו",
+    "en": "Bending Spoons to buy Mailchimp from Intuit in €3.32 billion deal",
+    "ar": "بيندينغ سبونز تستحوذ على ميلتشيمب من إنتويت مقابل 3.32 مليار يورو",
+    "ru": "Bending Spoons покупает Mailchimp у Intuit за 3,32 млрд евро"
+   },
+   "summary": {
+    "he": "חברת הטכנולוגיה Bending Spoons הגיע להסכמה לרכישת פלטפורמת השיווק Mailchimp מענקית התוכנה Intuit תמורת 3.32 מיליארד אירו.",
+    "en": "Tech company Bending Spoons has agreed to acquire marketing platform Mailchimp from software giant Intuit for €3.32 billion.",
+    "ar": "وافقت شركة التكنولوجيا بيندينغ سبونز على الاستحواذ على منصة التسويق ميلتشيمب من عملاق البرمجيات إنتويت مقابل 3.32 مليار يورو.",
+    "ru": "Технологическая компания Bending Spoons договорилась о покупке маркетинговой платформы Mailchimp у софтверного гиганта Intuit за 3,32 млрд евро."
+   },
+   "kid": {
+    "he": "חברת תוכנה אחת קונה חברת שיווק מוכרת בשם מיילצ'יפ מהחברה הגדולה אינטויט תמורת סכום ענק של מיליארדי אירו. זה עשוי להשפיע על שווי המניות של המוכרת.",
+    "en": "One tech firm is buying the marketing platform Mailchimp from software giant Intuit for billions of euros. This can impact the seller's stock valuation.",
+    "ar": "شركة تكنولوجية تشتري منصة التسويق ميلتشيمب من عملاق البرمجيات إنتويت بمبلغ ضخم من مليارات اليورو. هذا قد يؤثر على تقييم سهم البائع.",
+    "ru": "Одна техкомпания покупает маркетинговую платформу Mailchimp у софтверного гиганта Intuit за миллиарды евро. Это может повлиять на оценку акций продавца."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOWVqRUlsLUp2NHFnT0VmakJGTE80Ukk2UnpMdVlUaXJmSTR1eUV2Yk5fWW54YmwwTk4wZDJYUzBFT2c1RzNjTEFMN1Y5TDlMRVlrSWtSSGp4N1h6WFUwM1pQQUNQWWlZSGFSWjJhdDZoNjd1QXBCMVA3Yi1hSGdiN2Y4dl9XcmQydWtJSA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INTU",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "מכירת נכס מרכזי בסכום גבוה תומכת בנזילות ובהתמקדות בפעילות הליבה.",
+    "reason_i18n": {
+     "he": "מכירת נכס מרכזי בסכום גבוה תומכת בנזילות ובהתמקדות בפעילות הליבה.",
+     "en": "Selling a major asset at a high valuation boosts cash reserves and core focus.",
+     "ar": "بيع أصل رئيسي بتقييم مرتفع يعزز السيولة النقدية والتركيز على النشاط الأساسي.",
+     "ru": "Продажа крупного актива по высокой цене увеличивает денежные резервы и фокус на основном бизнесе."
+    },
+    "name_i18n": {
+     "he": "אינטויט - ענקית תוכנה פיננסית",
+     "en": "Intuit - financial software giant",
+     "ar": "إنتويت - عملاق البرمجيات المالية",
+     "ru": "Intuit - гигант финансового ПО"
+    },
+    "price_at_alert": 310.02
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "עסקת ענק בתחום התוכנה מעידה על פעילות M&A בריאה בסקטור.",
+    "reason_i18n": {
+     "he": "עסקת ענק בתחום התוכנה מעידה על פעילות M&A בריאה בסקטור.",
+     "en": "Major software M&A deal signals healthy cross-border tech sector activity.",
+     "ar": "صفقة استحواذ كبرى في قطاع البرمجيات تشير إلى نشاط صحي في القطاع التكنولوجي.",
+     "ru": "Крупная сделка M&A в секторе ПО свидетельствует об активности в техсекторе."
+    },
+    "name_i18n": {
+     "he": "קרן סל למניות טכנולוגיה",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100",
+     "ru": "ETF индекса Nasdaq 100"
+    },
+    "price_at_alert": 645.04
+   }
+  ],
+  "id": "a827362998b2"
+ },
+ {
+  "ts": 1795175739,
+  "time": "2026-11-20T11:55Z",
+  "title": "אינדונזיה וסין חתמו על עסקת ענק בשווי 15 מיליארד דולר",
+  "summary": "אינדונזיה וסין חתמו על שורת הסכמים והבנות (MoU) בהיקף כולל של 15 מיליארד דולר לחיזוק שיתוף הפעולה הכלכלי והמסחרי.",
+  "kid": "מדינות אינדונזיה וסין סגרו עסקת ענק של מיליארדי דולרים לשיתוף פעולה כלכלי. זה עשוי להשפיע על חברות שפועלות באזור אסיה.",
+  "i18n": {
+   "title": {
+    "he": "אינדונזיה וסין חתמו על עסקת ענק בשווי 15 מיליארד דולר",
+    "en": "Indonesia and China secure US$15 billion deal in MoU agreements",
+    "ar": "إندونيسيا والصين تأمنان صفقة بقيمة 15 مليار دولار في مذكرات تفاهم",
+    "ru": "Индонезия и Китай заключили сделку на $15 млрд в рамках меморандумов"
+   },
+   "summary": {
+    "he": "אינדונזיה וסין חתמו על שורת הסכמים והבנות (MoU) בהיקף כולל של 15 מיליארד דולר לחיזוק שיתוף הפעולה הכלכלי והמסחרי.",
+    "en": "Indonesia and China secured a series of memorandum of understanding agreements worth US$15 billion to boost economic cooperation.",
+    "ar": "أمنَت إندونيسيا والصين سلسلة من اتفاقيات مذكرة التفاهم بقيمة 15 مليار دولار لتعزيز التعاون الاقتصادي.",
+    "ru": "Индонезия и Китай заключили ряд меморандумов о взаимопонимании на сумму $15 млрд для укрепления экономического сотрудничества."
+   },
+   "kid": {
+    "he": "מדינות אינדונזיה וסין סגרו עסקת ענק של מיליארדי דולרים לשיתוף פעולה כלכלי. זה עשוי להשפיע על חברות שפועלות באזור אסיה.",
+    "en": "Indonesia and China sealed a huge multi-billion dollar economic deal. This can impact companies operating across Asian markets.",
+    "ar": "أبرمت إندونيسيا والصين صفقة اقتصادية ضخمة بمليارات الدولارات. هذا قد يؤثر على الشركات العاملة في الأسواق الآسيوية.",
+    "ru": "Индонезия и Китай заключили крупную экономическую сделку на миллиарды долларов. Это может повлиять на компании в Азии."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDFjeFExRmh6TG5UcmlwaVNib0lRWi11RFMtNlNZZ05odDBIY0cxQVhGdVRWTlB5MXFBeklQMHJvXy1lemM5TXpneUNlYXhkOVBqWFluR2VTU2plN3dBRjlFbjRDRENGUmUwWWpDQkJTUEt2a3YtTE9DTnVCdFhhVHI0c2VET1lSRGphWlFsbE0wMDM3Mk5YbXRGbVLSAaIBQVVfeXFMUHNMLXlLUERRcDJNZE02blZHMzUtLXpLbVRDNEE2T2pQVjhzZEcyV0k4eEI5LTBQYlV6Q2V0eDdIS2NlRERiTU1YWU8waXk2TlVYWW1iREdmcHl1dFc3ZWFVM2tkWWxxeXJFeXhjR2FnY3d3bS05M1NxakhJd0ItOWQ0aVdHU2N2UTZCam4wZnYzNlJ3VUxnZjJSVl9fN1owZHN3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXI",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "עסקת הסחר מעידה על הרחבת הקשרים הכלכליים של סין באסיה.",
+    "reason_i18n": {
+     "he": "עסקת הסחר מעידה על הרחבת הקשרים הכלכליים של סין באסיה.",
+     "en": "Trade deal signals expansion of China's economic ties in the region.",
+     "ar": "صفقة التجارة تشير إلى توسيع العلاقات الاقتصادية للصين في المنطقة.",
+     "ru": "Торговая сделка свидетельствует об расширении экономических связей Китая в регионе."
+    },
+    "name_i18n": {
+     "he": "קרן סל למניות סין הגדולות",
+     "en": "iShares China Large-Cap ETF",
+     "ar": "صندوق الأسهم الصينية الكبرى",
+     "ru": "ETF крупных китайских компаний"
+    },
+    "price_at_alert": 31.79
+   },
+   {
+    "ticker": "EEM",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "השקעות ענק וחוזים מסחריים תומכים בסנטימנט בשווקים המתעוררים באסיה.",
+    "reason_i18n": {
+     "he": "השקעות ענק וחוזים מסחריים תומכים בסנטימנט בשווקים המתעוררים באסיה.",
+     "en": "Massive investments and commercial agreements boost sentiment in emerging Asian markets.",
+     "ar": "الاستثمارات الضخمة والاتفاقيات التجارية تعزز المعنويات في الأسواق الناشئة الآسيوية.",
+     "ru": "Крупные инвестиции и соглашения поддерживают настроения на развивающихся рынках Азии."
+    },
+    "name_i18n": {
+     "he": "קרן סל לשווקים מתעוררים",
+     "en": "MSCI Emerging Markets ETF",
+     "ar": "صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 56.75
+   }
+  ],
+  "id": "5f187b5b27f9"
+ },
+ {
+  "ts": 1795175739,
+  "time": "2026-11-20T11:55Z",
+  "title": "דיווחים על מתקפת סייבר ודליפת נתונים במוסדות פיננסיים גדולים",
+  "summary": "האקרים פרסמו מידע שנגנב לכאורה במסגרת מתקפת סייבר על צד שלישי שפגעה בגופים פיננסיים כמו ג'יי פי מורגן, ויזה ומאסטרקארד, המשיבים לטענות.",
+  "kid": "האקרים טוענים שפרסמו מידע גנוב הקשור לחברות פיננסיות כמו ויזה, מאסטרקארד וג'יי פי מורגן דרך ספק חיצוני. חברות האבטחה בודקות את הנושא.",
+  "i18n": {
+   "title": {
+    "he": "דיווחים על מתקפת סייבר ודליפת נתונים במוסדות פיננסיים גדולים",
+    "en": "Reports of cyberattack and data release at major financial institutions",
+    "ar": "تقارير عن هجوم سيبراني وتسريب بيانات في مؤسسات مالية كبرى",
+    "ru": "Сообщения о кибератаке и утечке данных в крупных финансовых учреждениях"
+   },
+   "summary": {
+    "he": "האקרים פרסמו מידע שנגנב לכאורה במסגרת מתקפת סייבר על צד שלישי שפגעה בגופים פיננסיים כמו ג'יי פי מורגן, ויזה ומאסטרקארד, המשיבים לטענות.",
+    "en": "Hackers released data allegedly stolen in a third-party cyberattack impacting financial giants JPMorgan, Visa, and Mastercard, who responded to claims.",
+    "ar": "نشر مخترقون بيانات زعموا سرقتها في هجوم سيبراني على طرف ثالث أثر على عمالقة ماليين مثل جيه بي مورغان وفيزا ومستركارد.",
+    "ru": "Хакеры опубликовали данные, якобы похищенные в результате кибератаки на сторонний сервис, затронувшей JPMorgan, Visa и Mastercard."
+   },
+   "kid": {
+    "he": "האקרים טוענים שפרסמו מידע גנוב הקשור לחברות פיננסיות כמו ויזה, מאסטרקארד וג'יי פי מורגן דרך ספק חיצוני. חברות האבטחה בודקות את הנושא.",
+    "en": "Hackers claim to have released stolen data linked to financial giants like Visa, Mastercard, and JPMorgan via a third-party vendor. Cybersecurity firms are monitoring.",
+    "ar": "يزعم مخترقون نشرهم بيانات مسروقة مرتبطة بشركات مالية كبرى مثل فيزا ومستركارد وجيه بي مورغان عبر مزود خارجي.",
+    "ru": "Хакеры утверждают, что опубликовали украденные данные финансовых гигантов Visa, Mastercard и JPMorgan через стороннего поставщика."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONl9QY1plOUtxM1FVcFpHcjB5Q1MtOGtHaER2bm9TUUFsMHlwY2tFT2VpNXBGZzY4dXVZall1QzA4Nk0xeWFGS2RVNkJXUC1VTVpRZkVFWEJoSUlHWVRMa2ctNlFZaGNnMnptcFpTS3ZxZ2hKRGJjMHJ0TW5FM1ZoTXdhZ25zaFlVUnFoV2huT181MjNvU1RzZGlRcWdRWGtUQndGMDVWNFFCNVZIZEE5WnV4Rlo?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVGhlRDh5YTB4S2pQOUVxZUI4amdiSXhudnc1ajZidXE5VGtzb3NVY2RfQ3lPOF9lMGJMcFA3Qmdha2lDbGM1NmNYdUtRVzlHaTNVY1ZQclRqd3g3TVRGS3VrZ2JYRG80TF9FM0tVRzFXdm5nLUZKeTItUklMaHNlNHhvRW9YclBHRktZTlFjQ2MzbENZYTR4RnZCcElEdjdyU0RwTTFoR0p0M2o5N2M4UzBuMDIzS0RYWEd1cjBUbXU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "אירועי פריצה ומתקפות סייבר מעלים את הביקוש لפתרונות הגנה ואבטחת מידע.",
+    "reason_i18n": {
+     "he": "אירועי פריצה ומתקפות סייבר מעלים את הביקוש لפתרונות הגנה ואבטחת מידע.",
+     "en": "Cyber breach incidents increase enterprise demand for advanced security solutions.",
+     "ar": "حوادث الاختراق والهجمات السيبرانية ترفع الطلب على حلول الأمن المتقدمة.",
+     "ru": "Инциденты кибератак повышают спрос корпораций на решения по безопасности."
+    },
+    "name_i18n": {
+     "he": "קראודסט׳רייק - חברת אבטחת סייבר",
+     "en": "CrowdStrike - cybersecurity firm",
+     "ar": "كراودسترايك - شركة أمن سيبراني",
+     "ru": "CrowdStrike - компания кибербезопасности"
+    },
+    "price_at_alert": 243.46
+   },
+   {
+    "ticker": "MA",
+    "direction": "down",
+    "t0": 1795175739,
+    "reason": "דיווחים על פרצות קשורות לצד שלישי מעוררים חששות סביב אבטחת מידע פיננסי.",
+    "reason_i18n": {
+     "he": "דיווחים על פרצות קשורות לצד שלישי מעוררים חששות סביב אבטחת מידע פיננסי.",
+     "en": "Reports of third-party breaches raise minor concerns over financial data security.",
+     "ar": "تقارير الاختراقات المرتبطة بطراف ثالث تثير مخاوف طفيفة حول أمان البيانات.",
+     "ru": "Сообщения об утечках через сторонних лиц вызывают опасения насчет безопасности данных."
+    },
+    "name_i18n": {
+     "he": "מאסטרקארד - חברת שירותי תשלום",
+     "en": "Mastercard - payment processor",
+     "ar": "ماستركارد - مدفوعات مالية",
+     "ru": "Mastercard - платежная система"
+    },
+    "price_at_alert": 626.5
+   }
+  ],
+  "id": "0a8944ca802f"
+ },
+ {
+  "ts": 1795175739,
+  "time": "2026-11-20T11:55Z",
+  "title": "ארה\"ב מינתה ראש סייבר חדש לאחר שורה של תקלות טכנולוגיות",
+  "summary": "הממשל בארה\"ב מינה את קירסטן דייוויס לראש מערך הסייבר הלאומי החדש במטרה להתמודד עם אתגרי אבטחת מידע ושיבושי טכנולוגיה.",
+  "kid": "ארה\"ב בחרה מנהלת חדשה לאחריות על אבטחת הסייבר במדינה כדי לטפל בבעיות טכנולוגיות ופריצות. זה עשוי להגדיל את ההשקעות הממשלתיות בחברות אבטחה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מינתה ראש סייבר חדש לאחר שורה של תקלות טכנולוגיות",
+    "en": "US appoints new cybersecurity chief after series of tech failures",
+    "ar": "الولايات المتحدة تعين رئيسًا جديدًا للأمن السيبراني بعد سلسلة أعطال تكنولوجية",
+    "ru": "США назначили нового главу кибербезопасности после серии сбоев"
+   },
+   "summary": {
+    "he": "הממשל בארה\"ב מינה את קירסטן דייוויס לראש מערך הסייבר הלאומי החדש במטרה להתמודד עם אתגרי אבטחת מידע ושיבושי טכנולוגיה.",
+    "en": "The US government appointed Kirsten Davies as the new cybersecurity chief to address tech failures and strengthen national cyber defense.",
+    "ar": "عينت الحكومة الأمريكية كيرستن ديفيز رئيسة جديدة للأمن السيبراني لمواجهة التحديات التكنولوجية وتعزيز الدفاع السيبراني.",
+    "ru": "Правительство США назначило Кирстен Дэвис новым главой кибербезопасности для решения задач и усиления защиты."
+   },
+   "kid": {
+    "he": "ארה\"ב בחרה מנהלת חדשה לאחריות על אבטחת הסייבר במדינה כדי לטפל בבעיות טכנולוגיות ופריצות. זה עשוי להגדיל את ההשקעות הממשלתיות בחברות אבטחה.",
+    "en": "The US chose a new cybersecurity chief to fix tech problems and breaches. This could lead to more government spending on security firms.",
+    "ar": "اختارت الولايات المتحدة رئيسة جديدة للأمن السيبراني لمعالجة المشكلات التكنولوجية. قد يؤدي ذلك إلى زيادة الإنفاق الحكومي على شركات الأمن.",
+    "ru": "США выбрали нового главу кибербезопасности для устранения проблем. Это может увеличить госрасходы на компании безопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/20/us-appoints-new-cybersecurity-chief-after-series-of-tech-failures?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795175739,
+    "reason": "מיקוד ממשלתי מוגבר בסייבר צפוי להגדיל את חוזי האבטחה וההגנה הדיגיטלית.",
+    "reason_i18n": {
+     "he": "מיקוד ממשלתי מוגבר בסייבר צפוי להגדיל את חוזי האבטחה וההגנה הדיגיטלית.",
+     "en": "Heightened government focus on cybersecurity is expected to drive federal tech contracts.",
+     "ar": "تركيز الحكومة المتزايد على الأمن السيبراني من المتوقع أن يدفع العقود الفيدرالية.",
+     "ru": "Повышенное внимание правительства к кибербезопасности стимулирует госконтракты."
+    },
+    "name_i18n": {
+     "he": "קראודסט׳רייק - אבטחת סייבר",
+     "en": "CrowdStrike - cybersecurity",
+     "ar": "كراودسترايك - أمن سيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 243.46
+   }
+  ],
+  "id": "49a2589114d9"
  }
 ]
