@@ -2753,125 +2753,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794615779,
-  "time": "2026-11-14T00:22Z",
-  "title": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
-  "summary": "ספינת תיירים התנגשה במכלית בנהר המיסיסיפי בניו אורלינס, מה שהביא לפציעתם של 32 נוסעים ולשקיעה חלקית של ספינת התיירים.",
-  "kid": "אוניית טיולים פגעה במכלית נפט בנהר בארה\"ב וכמה אנשים נפצעו. זה עשוי להשפיע מעט על מניות חברות השייט או התחבורה המעורבות.",
-  "i18n": {
-   "title": {
-    "he": "התנגשות בין ספינת מכלית לספינת תיירים בניו אורלינס",
-    "en": "Tanker Collides with Cruise Boat in New Orleans",
-    "ar": "اصطدام ناقلة بسفينة سياحية في نيو أورلينز",
-    "ru": "Столковение танкера с круизным судом в Новом Орлеане"
-   },
-   "summary": {
-    "he": "ספינת תיירים התנגשה במכלית בנהר המיסיסיפי בניו אורלינס, מה שהביא לפציעתם של 32 נוסעים ולשקיעה חלקית של ספינת התיירים.",
-    "en": "A river cruise boat collided with a tanker on the Mississippi River in New Orleans, injuring 32 passengers and leaving the cruise boat partially submerged.",
-    "ar": "اصطدمت سفينة سياحية بناقلة في نهر مسيسيبي، مما أسفر عن إصابة 32 راكباً وغرق جزء من السفينة.",
-    "ru": "Речной круизный лайнер столкнулся с танкером на реке Миссисипи, в результате чего 32 пассажира пострадали, а судно частично затонуло."
-   },
-   "kid": {
-    "he": "אוניית טיולים פגעה במכלית נפט בנהר בארה\"ב וכמה אנשים נפצעו. זה עשוי להשפיע מעט על מניות חברות השייט או התחבורה המעורבות.",
-    "en": "A tour boat hit a tanker on a US river and people were hurt. This might slightly affect travel or shipping companies.",
-    "ar": "صطدمت سفينة سياحية بناقلة على نهر أمريكي وأصيب أشخاص. قد يؤثر ذلك قليلاً على شركات النقل السياحي.",
-    "ru": "Круизный корабль врезался в танкер на реке в США, есть постраדавшие. Это может затронуть связанные судоходные компании."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObk94X2QyVktDbFFXLTZBN3VNTTY2LUtId2hKQ0tsRE41Z0VCRlI5WWFhTjV3YjM5S3d5TUdFX1FfODAxOVZ1dFdlcmJKWW5jQWo3QlJzdXlhc3N2NkpfYUJMcldNNnlUQWdvODVRUXJaNWJjZXZ0STgwN3pZaG1NVE1kNEM?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "DAL",
-    "direction": "down",
-    "t0": 1794615779,
-    "reason": "סנטימנט שלילי נקודתי על חברות תיירות ותחבורה בארה\"ב",
-    "reason_i18n": {
-     "he": "סנטימנט שלילי נקודתי על חברות תיירות ותחבורה בארה\"ב",
-     "en": "Localized negative sentiment on travel and transportation",
-     "ar": "مشاعر سلبية محلية تجاه قطاع السفر",
-     "ru": "Локальный негативный сентимент для транспортного сектора"
-    },
-    "name_i18n": {
-     "he": "דלתא איירליינס - חברת תעופה ונסיעות",
-     "en": "Delta Air Lines - travel and transport",
-     "ar": "Delta - شركة سفر ونقل",
-     "ru": "Delta Air Lines - путешествия и транспорт"
-    },
-    "price_at_alert": 86.25,
-    "entry_price": 86.0,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 84.32,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.95,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.35,
-    "edge_pct": -0.35,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ZIM",
-    "direction": "down",
-    "t0": 1794623528,
-    "reason": "סיכון תפעולי ועלויות ביטוח מוגברות",
-    "reason_i18n": {
-     "he": "סיכון תפעולי ועלויות ביטוח מוגברות",
-     "en": "Operational risk and increased insurance costs",
-     "ar": "مخاطر تشغيلية وزيادة تكاليف التأمين",
-     "ru": "Операционный риск и рост страховых расходов"
-    },
-    "name_i18n": {
-     "he": "צים (ספנות)",
-     "en": "ZIM Integrated Shipping",
-     "ar": "شركة زيم للشحن",
-     "ru": "ZIM (судоходство)"
-    },
-    "price_at_alert": 29.34,
-    "entry_price": 29.36,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 29.67,
-    "exit_date": "2026-11-17",
-    "change_pct": 1.06,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 3.36,
-    "edge_pct": -3.36,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d7ce295a6eb9",
-  "updates": [
-   {
-    "ts": 1794623528,
-    "time": "2026-11-14T02:32Z",
-    "severity": 3,
-    "summary": "ספינת מכלית התנגשה בספינת תיירים שעגנה בנהר המיסיסיפי בניו אורלינס. הנוסעים חולצו בשלום.",
-    "i18n": {
-     "he": "ספינת מכלית התנגשה בספינת תיירים שעגנה בנהר המיסיסיפי בניו אורלינס. הנוסעים חולצו בשלום.",
-     "en": "A tanker ship collided with a riverboat docked on the Mississippi River in New Orleans. Passengers were rescued safely.",
-     "ar": "اصطدمت ناقلة بسفينة سياحية كانت راسية في نهر المسيسيبي في نيو أورلينز. تم إنقاذ الركاب بسلام.",
-     "ru": "Танкер столкнулся с прогулочным судном, пришвартованным на реке Миссисипи в Новом Орлеане. Пассажиры были успешно эвакуированы."
-    }
-   }
-  ],
-  "last_update": 1794623528,
-  "evaluated": true
- },
- {
   "ts": 1794620460,
   "time": "2026-11-14T01:41Z",
   "title": "הווארד לוטניק יעיד בנוגע לבקרת ייצוא שבבים לאנבידיה",
@@ -3119,76 +3000,6 @@
    }
   ],
   "last_update": 1794626646,
-  "evaluated": true
- },
- {
-  "ts": 1794623528,
-  "time": "2026-11-14T02:32Z",
-  "title": "ביטול מרוץ פורמולה 1 בבחריין עקב תקיפות טילים",
-  "summary": "מבחני צמיגים של פורמולה 1 בבחריין בוטלו לאחר שדווח על תקיפות טילים בקרבת מסלול המרוצים.",
-  "kid": "מרוץ מכוניות בוטל בגלל ירי טילים באזור. זה מראה על המתיחות הביטחונית הגבוהה במזרח התיכון.",
-  "i18n": {
-   "title": {
-    "he": "ביטול מרוץ פורמולה 1 בבחריין עקב תקיפות טילים",
-    "en": "F1 test in Bahrain cancelled after missile strikes",
-    "ar": "إلغاء اختبارات الفورمولا 1 في البحرين بعد ضربات صاروخية",
-    "ru": "Отмена тестов Формулы-1 в Бахрейне после ракетных ударов"
-   },
-   "summary": {
-    "he": "מבחני צמיגים של פורמולה 1 בבחריין בוטלו לאחר שדווח על תקיפות טילים בקרבת מסלול המרוצים.",
-    "en": "F1 tire tests in Bahrain were cancelled following reports of missile strikes near the circuit.",
-    "ar": "تم إلغاء اختبارات إطارات الفورمولا 1 في البحرين بعد تقارير عن ضربات صاروخية بالقرب من حلبة السباق.",
-    "ru": "Тесты шин Формулы-1 в Бахрейне были отменены после сообщений о ракетных ударах вблизи трассы."
-   },
-   "kid": {
-    "he": "מרוץ מכוניות בוטל בגלל ירי טילים באזור. זה מראה על המתיחות הביטחונית הגבוהה במזרח התיכון.",
-    "en": "A car race was cancelled because of missile fire in the area. This shows the high security tension in the Middle East.",
-    "ar": "تم إلغاء سباق سيارات بسبب إطلاق صواريخ في المنطقة. هذا يظهر التوتر الأمني العالي في الشرق الأوسط.",
-    "ru": "Автогонка была отменена из-за ракетного обстрела в этом районе. Это свидетельствует о высокой напряженности в сфере безопасности на Ближнем Востоке."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aUGRfYXF0dGVnMHdtS3F1aGk2MTNDM2xDNkY4S2lVZU00OVd1eDQ5MlRDYmJabTZ2ZlRNSTV3WVFEeERhUGxDRnFSeG5GWWlPUjVaWE4wcHZKaGc0eVo0dTQ5b1Z4N0Zmci1VYTl0bEQtMkJLNGc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794623528,
-    "reason": "חשש מהסלמה במזרח התיכון משפיע על מחירי האנרגיה",
-    "reason_i18n": {
-     "he": "חשש מהסלמה במזרח התיכון משפיע על מחירי האנרגיה",
-     "en": "Middle East escalation fears impact energy prices",
-     "ar": "مخاوف التصعيد في الشرق الأوسط تؤثر على أسعار الطاقة",
-     "ru": "Опасения эскалации на Ближнем Востоке влияют на цены на энергоносители"
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق استثمار للنفط",
-     "ru": "ETF на нефть"
-    },
-    "price_at_alert": 145.58,
-    "entry_price": 142.69,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 140.23,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.72,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.58,
-    "edge_pct": 0.58,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "8d3d09e8a21a",
   "evaluated": true
  },
  {
@@ -44563,6 +44374,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFJqWDlwb1RhVFBTYzhpQ3dZUmRMeElOQmhSZjhqb29sTUhGa0Z5eEc3ZlppNzkzR2dOcWJ6ZDlfS0k0bDRIeUFpU2ppTG1ZYWNfU3RQd1ZxNVFxQ2N3STdEVzVDTlBJdGZLaUlTUEtXOC1DcWoza3M4dFI0NG1oaEgwcFVFREtyT05mNmFmX20zSzk2aTFYblVFUG5WamoxRWUyb1JpaW5jbFJfajBTU3NMY0FCd1NtU3dVcWZFbw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNXzJWamk3alJPVVl0SnFjZjZoS2h6M1ZjSUVFTkJGamFLU3JrT19ldlU0UDRoWkJncWRQQUI2ejMyQTdxa1V1TGxhcjFqTzV3SlNVa0MybVRHTl9UQlcwYXFhTlJaSUlrcVVFNTF3V2FJNXlRQWxtMnlYMFRGeVZMd205LUJ4OUU4MTUybkl4ajUyU0V0Y1pSa1pKY09naUV5QjBrM2ZaeEMtXzZnY0RiYkxn?oc=5"
    }
   ],
   "impacts": [
@@ -44641,6 +44456,25 @@
      "ru": "JPMorgan Chase"
     },
     "price_at_alert": 316.1
+   },
+   {
+    "ticker": "XLF",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "חששות מפני פריצות אבטחה במוסדות פיננסיים גדולים.",
+    "reason_i18n": {
+     "he": "חששות מפני פריצות אבטחה במוסדות פיננסיים גדולים.",
+     "en": "Concerns over security breaches at major financial institutions.",
+     "ar": "مخاوف بشأن خروقات الأمان في المؤسسات المالية الكبرى.",
+     "ru": "Опасения по поводу нарушений безопасности в крупных финансовых институтах."
+    },
+    "name_i18n": {
+     "he": "XLF - קרן סל פיננסים",
+     "en": "XLF - Financial Select Sector SPDR Fund",
+     "ar": "XLF - صندوق القطاع المالي",
+     "ru": "XLF - финансовый ETF"
+    },
+    "price_at_alert": 54.57
    }
   ],
   "id": "0a8944ca802f",
@@ -44668,9 +44502,21 @@
      "ar": "أبلغت جي بي مورغان وفيزا وماستركارد عن تعرض موردين خارجيين لهجوم سيبراني كشف عن رسائل البريد الإلكتروني للعملاء.",
      "ru": "JPMorgan Chase, Visa и Mastercard сообщили, что сторонние поставщики подверглись кибератаке, в результате которой были раскрыты электронные адреса клиентов."
     }
+   },
+   {
+    "ts": 1795228687,
+    "time": "2026-11-21T02:38Z",
+    "severity": 4,
+    "summary": "האקרים דלפו מידע רגיש של כ-16,000 לקוחות פרימיום של בנק JPMorgan Chase במסגרת מתקפת סייבר.",
+    "i18n": {
+     "he": "האקרים דלפו מידע רגיש של כ-16,000 לקוחות פרימיום של בנק JPMorgan Chase במסגרת מתקפת סייבר.",
+     "en": "Hackers leaked sensitive data belonging to 16,000 premium customers of JPMorgan Chase in a recent cyberattack.",
+     "ar": "سرب قراصنة بيانات حساسة تخص نحو 16 ألف عميل مميز لدى بنك جيه بي مورغان تشيس في هجوم سيبراني.",
+     "ru": "Хакеры слили конфиденциальные данные около 16 000 премиальных клиентов JPMorgan Chase в результате кибератаки."
+    }
    }
   ],
-  "last_update": 1795192080
+  "last_update": 1795228687
  },
  {
   "ts": 1795175739,
@@ -46072,6 +45918,10 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -46112,9 +45962,43 @@
      "ru": "SMH - ETF полупроводников"
     },
     "price_at_alert": 405.025
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795228687,
+    "reason": "מניות הטכנולוגיה מגיבות להצהרות פוליטיות הנוגעות לחברות ענק.",
+    "reason_i18n": {
+     "he": "מניות הטכנולוגיה מגיבות להצהרות פוליטיות הנוגעות לחברות ענק.",
+     "en": "Tech stocks react to political statements regarding mega-cap companies.",
+     "ar": "تتفاعل أسهم التكنولوجيا مع التصريحات السياسية المتعلقة بالشركات الكبرى.",
+     "ru": "Технологические акции реагируют на политические заявления о мегакорпорациях."
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל נאסד\"ק 100",
+     "en": "QQQ - Invesco QQQ Trust",
+     "ar": "QQQ - صندوق ناسداك 100",
+     "ru": "QQQ - ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 608.45
    }
   ],
-  "id": "9ebe65084d72"
+  "id": "9ebe65084d72",
+  "updates": [
+   {
+    "ts": 1795228687,
+    "time": "2026-11-21T02:38Z",
+    "severity": 4,
+    "summary": "נשיא ארה\"ב קרא ל ענקית השבבים אנבידיה לתת הזדמנות שנייה למנכ\"ל לשעבר ג'נסן הואנג, הגדיר אותו כ\"מבריק\" ודחק בו להתנצל על מנת לחזור לתפקיד.",
+    "i18n": {
+     "he": "נשיא ארה\"ב קרא ל ענקית השבבים אנבידיה לתת הזדמנות שנייה למנכ\"ל לשעבר ג'נסן הואנג, הגדיר אותו כ\"מבריק\" ודחק בו להתנצל על מנת לחזור לתפקיד.",
+     "en": "The US president called on tech giant Nvidia to give former CEO Jensen Huang a second chance, praising him as 'brilliant' and urging him to make a big apology to return.",
+     "ar": "دعا الرئيس الأمريكي عملاق الرقائق إنفيديا لمنح الرئيس التنفيذي السابق جينسن هوانغ فرصة ثانية، مشيداً به ووصفه بـ\"العبقري\" وحضه على تقديم اعتذار كبير للعودة.",
+     "ru": "Президент США призвал техногигант Nvidia дать бывшему гендиректору Дженсену Хуангу второй шанс, назвав его «гениальным» и призвав принести извинения для возвращения."
+    }
+   }
+  ],
+  "last_update": 1795228687
  },
  {
   "ts": 1795203271,
@@ -46731,32 +46615,32 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTkZtRWdrb28wVzYyd2xiRDJ5X1lKd0ZRRDM1ZjQ3blRkQVFPbm9ZTC1BUzhjcUh6d2tMNkZXZUlOOGZsMzZwN3RNanR5b1JOdDg1QmZfM3h2bmpIVThxR3RWbWVoSDltU0tNX0hhMll1WGpBbS1DZ0JaZEltREp0ZWVWSTJocS1JQldOc3hibXV2WFpPVXdSb054cFNkUzA?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmY3Y3ZBRHdxcG9RZDJyUllyUk1pWFAwVmU5UFZ2dnItX3Ywb2hudWx0dlMtVUY5MzJSeHRvbEZsNlFxd3R2Nm9GZ3pnQTM3dGxtb09MY0pZeTJRdUgxMzY1aDVMTHVUOHlmT0tRckJMYVFTcDl0dlNKaUVLNzlLUEdOa1ROWVRBb3hod1V1c2JGbTlBblpKZHZzNzlpMWhXSEtNMmdVN1VkQlhYclBfbXhRYVVJOEg0Z0I0?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUFlRmtIbWhLaVp2UlVrYkJQZFJpZFVoSkQyMTNGNzl2RkY1RGl3NktvLWFDSThYVUo0TU5rcXdLTTVuOG9tR0xVdXBOOTlsNXZRQ1F4aVlzaFpsTXlBLVZ1Wl9kbnF1YUp6WlpmUEZhTmVNaE5Xa1ZfeTE3aHY3TDBZY1JXdUYzYjVUam5Hd3phZnJqUWfSAZsBQVVfeXFMUG81V1g0VVcyR25zYktJdTdtT29aMHQ1dXc1S1JvR1g3RjBxWm9lc0dyUFJWLVZWN25yb3B5MTFfS0o2bmtRcjNvWElmMXRRYWpXY3RMZnphN0lobHJPLVhLMi14VUp5ajVSMnlHSUtXWkNhRnVJUTRBZ042WnVOdjFSVEtvR0NtaGNLQ0t5NGpmR1pubk0xdVR3cDg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLXh0c3ZjdnJ5enFmZkJ4aWFib2JmTWNlUTFJbVI1UzVfMkZ3WHZJV3E2ZmJBZmFpaXRiZVkwR1FWelpOVHVBOGwtX25uaDA4eUVMZXlWX1pMZmJPcEpKUFZuRm9BSGQxVlQ2UklqNGFaSk5iTjdfRmc1VDhGeHJQSFUwdDJUcWRCZnJQZ21HUDhRb1BHTXhwY2hiZGQwZkxCbUxMckxNajZzN0YxcXBNZW02bVJ2bHpSbk5z?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWk9qcHh5QmVuVE5ubmNjbXBFTnVERFRZeWdfa3R4MzJmb2pIWG9hUnd2cGJxcHFwZ0VOWlR5cUgwNlBtTWJLM2JIdE1YaUwydHVkU0ppN0FzT2lnTjV3R1NPblV0dExXXy1jWE1WSkpYQnBTeDlOeHlyTzR0emM3bTJCNktWQUJvbU1ndUNvZmdoZnhsNlZkcnJua0E4b19HRmpPcEpwQmxGendhUmc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFVCYUdEVW9xdU9IcEZrVmNNQmVQMmx5TUswbnNxTkQ5aUllRWNEV0JwYkJiUWRZS1RMV3BhbU1DNkRWUWROZGtETDRsQk9XbmpNaG45ZkU2LUJuNUZmdDZSanptZHNPOFYyeTg5VUZqM0wxVTdzTFZkVEt0REl4NW43NTlSU00?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xcXZpOXJrYlFPU0ZfQUJ2bXR4WVdSc1BOa3o0RGJBVFNjZ0NEQVpjS0JTMmg2OFhQRVdsQ0ExQ29vRXp6bmVhRE5TT1RDQzFxcDg3ZVkxVTlpMU9OUWhfMUVLMklyRnpCY1Y1Nw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hcEdHM3RmVUI1OWxtSmVnVmxIci16eWg4VTJQRm1ndDNCYjVMZjhOODNFa2daVGIwUnZDNm1fWDN3UFhDalhpNUk4dmtELWRKTlE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wWkh1WnhUek9aLXBXdjNiTmZJeWJ1dkNZVFBIZ0NENms1bWdONGhZckF1TWFiaURHUVJjMUFWc0ZocmR3Vmo2Qm5qT2FhYWtmd3NZWjNnQlB2Z01zMjZnS3JNbXFyTEs0NThGS2FPZWw4Y0xYUVRqV1J1SHY?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWlMxRWNXbmQ5TVFTOUNpRi1zYXdYZXZnSU8yT3pjdDV0Zm9YREt6aXkzTVhsUm90azNacUJhMFhqT1RxaDhJNHgwRnZfdU15MzZuZmgwZ25JQURSVHVSTnNQajNPTWUxNld5UDhFYlhjOTZrM3ZCcmN4cWpPNmJjZC1PQW80TVZ1RG1VNGl2NWlkYUl0b0VTdkpKVnIxZ2YzSmg0?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRDNTNzVQdm1mbktJUU9mLUNnMUhzbGQ2eDFUemYzVU12cEVySE1ORHJ3N0VxSmJUTDdfMnh4d0ZOM0lSQi1LblhhX19BZHV4YTlMLXNMQndpV3BJQ3l2OWtZQWdFSzdoNXd1UjF1WkFwOU5JYXRpVkxYOFQ5czVPNjNOU01PNkpJR3d3NUhSSDJMM1hwWldrcGpsZC13dzZaaHQtbnBEU3lZbkFFWnBhc18wb2Uxa2d3YzhvYlBrREhqbDVxTFFjN3JSTzcwY0NEMmpubFk2dUJocjczMmpXLTFkNHZmUdIB6wFBVV95cUxOeFJQZGd5LThyNlNOUkZxMUdfOWUtUllURlFrc1dQaWFLamlEbFZDVk00NDJwY0JLcEpMOFM0OFp3bmlDWkRSRV9BRzhTQUpFaFR5M3drdzVNek5BZkFuUG9icUk4QTVfZmZ5VlQ5UzRlczNqSXE1ODNmQ1dGUkYxRkx6bk54TC1ULW1TWXFSWHJzZF90elozQVFyZ0pGMGRyUVUzXzFIMVYtcGxCSFJaX2V6c2VOeWdJVnEzQjliVUlfUUFWVlQ2dWdGSWM0ZEdISUpnTFJrQzQyX0RYWmFJN21UZVA3M2JZanpN?oc=5"
    }
   ],
   "impacts": [
@@ -46831,9 +46715,21 @@
      "ar": "فرطت الولايات المتحدة عقوبات جديدة تستهدف تجار النفط الإيرانيين والأشخاص الذين يستفيدون من عائدات النفط غير المشروعة.",
      "ru": "Соединенные Штаты ввели новые санкции против иранских нефтетрейдеров и лиц, получающих прибыль от незаконных доходов от нефти."
     }
+   },
+   {
+    "ts": 1795228687,
+    "time": "2026-11-21T02:38Z",
+    "severity": 6,
+    "summary": "ארה\"ב הטילה סנקציות חדשות על סוחרי נפט איראניים, בעוד שגורמים קיצוניים באיראן מאיימים להפר את הסגר הימי ועימותים מתפתחים סביב צינורות האספקה ומכליות נפט, כולל מעצר של מכלית דלק בנמל הודי עקב סנקציות בריטיות.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות חדשות על סוחרי נפט איראניים, בעוד שגורמים קיצוניים באיראן מאיימים להפר את הסגר הימי ועימותים מתפתחים סביב צינורות האספקה ומכליות נפט, כולל מעצר של מכלית דלק בנמל הודי עקב סנקציות בריטיות.",
+     "en": "The US has imposed new sanctions on Iranian oil traders, while hardliners in Iran push to defy the US maritime blockade amid escalating tensions over tanker routes and a detained oil tanker at an Indian port due to UK sanctions.",
+     "ar": "فرضت الولايات المتحدة عقوبات جديدة على تجار النفط الإيرانيين، بينما يدفع المتشددون في إيران لتحدي الحصار البحري وسط تصاعد التوترات بشأن طرق ناقلات النفط واحتجاز ناقلة في ميناء هندي بسبب العقوبات البريطانية.",
+     "ru": "США ввели новые санкции против иранских нефтеторговцев, в то время как радикалы в Иране стремятся прорвать морскую блокаду на фоне эскалации напряженности вокруг танкерных маршрутов и задержания танкера в индийском порту из-за британских санкций."
+    }
    }
   ],
-  "last_update": 1795216792
+  "last_update": 1795228687
  },
  {
   "ts": 1795213204,
@@ -47568,43 +47464,27 @@
   "sources": [
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY1NzSUJWMGRLal9LQURXdDVua09SUmM1eG91R0dlX2RfOXNsUnluQXhZS0pIRWR5NWxoZTMtNWZkZVVPRlR4SERvcU9ZdmUzVWJTLXFxRVdtZEc0NTdvM2dSeC00ZWxRVHFYSUNlcm5YYm9jejRfRnZUTWpDRnNReThkZE1QVkdXZmFZSWJCSFBMS0FITWRiYnlnM0hfbG14ZjBzZlNwVzQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2J3QUwtenppYzVsNW12STNPV0lCMW12M08wS1dnWW00dUExSDYtZVYwZWJaSTRwNnVBTnVRQjZyc0VCVnRkRUZ5b1Y0QnpWeC1ZVGltbDNRalpCcG1wdjk1S2VPOGxoQWJWcm1pQVZER3dYelExTVFqTzROUjFqY3NtNzh1V1l2SVlEOWQ4a0szME5kRnlUakpVREJkamtpbExsSG1zMFcxUU5GODluX29hbkNfN0U?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdUZiNXpXT3N5Z3BoQXd3RXd1TGktb0QtYTVBSTNUOVhDWmdJcnVFa3A5c25JZUpNaWVJYmNpZWk2c3VzRWs3dWc1ZFpLZllwTThOcnE0OHk3WjQtOFVOLU8ycm9qT2J2UllFcXpkbklpMU0zV2NEQVQ4YWlQajhiYU1wbXZYWTMwcW92Q0ZHWmNYdmZkc3dyUlpQVklXUjBwZjRrY0RLNzgwWEQ2c19EOHZxaDQ5Zm9UOGVVWDM2dnNnZjdVWno0QmxkTm05Z1dLRUtKWmxheUlxN1RreVpUTkRmNmtoUzDSAewBQVVfeXFMTXFWbWdfSjBFMnNBcHVVU0lITFhpeE40X2ItSTBkOXBVSnhocS1Ccm44cjFrSzZMSWw2ZGk0dWFpbjdRLVMxeS1RcENLa2t3U2NCeXJ2X2VVdHZ1WUNJZ3FiR0tueGwwYXFoWjhLR2xiNXZNUmJwWU5kb19lTXJ0dkZ4LTBFRkFxU0RCcTV2a0VKdDVLTlU2VEJEbGhZU09KZ2Y3cDhvSXZhMUlEMHYxSWJySFlKbFJiYlZhdzJya1ZZMUl0anNqdEV1dUduejhUTDRiSTM4dDcyR2MySW9pTnkwZWRraHBBZ3dpV3E?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU09RRUIzekIzb2V1cXo1dW91c3E3aEdIS1dvQWtvdWR2YWlMejFveThlOGphV0R3R0gwd01aR184RGJFRl9Fak01eWtPN0c0OWExbWxJOXJ1dm11cDhJUVJaeWx4N2FJcjNORmFtM2pLQ1A4M0tfaUdLelVyRi1QUXdoVmtQbi02aFhkc3NDaWJjR2RFSXoxQ1JtTlNDa0tDSnZHZWdWXzVuUHRwMEROdmI4ejRoVlRB?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOFZ6MElpUjJzc0ZxV21zWjZkYXRIYV84RXZxc1BTbkNZZUp3c3Y3R0lQVHJNeDk0VHVWeG53VXZ1bHhsbW9oR204eWpBY2s5WlQxOTloekgwOURRRUR3RlUtTVdmRzFTREhkWkRCTjUwLVZLQ3dkaEoxMTRxQ2JlQS1tLXFhRXlVMU85Yi02ZGVURHBwbG1PQ1lNSHZaeGk0WGN5VF80MTk2U3NCUHlRdnlFZUlFZFFwbURwQldvVk85T1U0TlM40gHMAUFVX3lxTE54QURCNTNQOEJNdDJCNVNQYzdfNUo3NDU2VnVhdDBHcE0yN2dlV0p6N2ItckxrbmNjRWFYOWhIS05fYy1FNUI1Nndid2FfMXZ6ZHk1OTBFdElSakVjTlU5WjNyRmVTRVlBdEtqRlF3aFJ4SGZVYm4tenMyeUZHRGtreldwNUllVFdDc1Q3Ulp1MmxMejdXRy04eTRxblNHSHdZT2xyaTF3VFI4NC1oc2Y3eHN6UWNNS0t3ZlRLWjFENUhuOUVWUDAxUDBGaQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHRpYkFSUkllUXpGY3Znek9aZjVXUVBnS09WUVdjblRkR0tiUmxycWpvaGVGOEQ4Sm1wbkV3R1FTY255bmxlR2RUZHB3TU1oUmhsakZrSkN4SlcyY3VWMkRzUmtyYW9uN1doZzE5YnoxUWRfZUhJczZUcjF3R3NjUWVrLVdfSHdILS1rQUlJUE1pZ0ZjSHd6bHFjZVhKdnNNVDRpVWlwNXNXS21DbGhMQkdJcFRXZF9wZlAzYmptSmtSajV3NFRfY29oVnUybGxLd0dpTWJFbznSAd4BQVVfeXFMT2N4SmNFV2NOaU0wSV9ReVhNd2NzdlRxUUVXZ0Q5WTR6clU1X3NqczFydWl0c1lDUDR1UWlRQU50NDhBREpQYnRoMnpIR3JvVHZzb3N2cjkxQkVmbE5OMjFDNTJUTlRiSDVhQlJqVjZad1ZHWTFUR3Q2SnhmdnZzd0VWbjRKMWdqbHN2dFI5YTlXYnZSTGJEVHFqOGgzbkcwR3Jma2ctWGpYLTZhRnhHdVljbUhzcmVJRXFwLTV6aUR0SEVhZ3FKSlJxSkhrVE1oLTBJckMxazMyOE9manZn?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMktpX0VCSFpLS2oyak9rZWRXVHVvN0FRMUVSMXJuaEtNWWJ4OTJfWVd1Q0x4XzJseGRXSkp0eEwxT2k5RFlWNnpjMWIzeF93aU9BVnZMdVJyMXZPRm5mbWFmWFlNYllaSFdmT3JDSEJJMmVSUHpiczdxOV9NZEV3UzdHcjdObUJ2QllQVEVndUMxV0VFZ0xUaXlmaXlPMWt1UC1wNjV2dmZ5b01PRGZwcFlRajJ0ekhscVhBbGNKUlNjUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOczRrWUpuQ2ZGTEtOTU84VW14MzVUbFhZMW9ZOWd0bnJ5RWZKN3ZHQzdqUDdnbWxlM3RZMDcyaGJuajRNeENfeUp0dkV1M1J0OUR4V3JIQ2RLb3ZwNjh1c2RSMEtXRnY5X0ZqbkxPU25VQi01ZEZsS3VBQmkzQ0FKMUZqSXk1TzJ0Smkzdkt3MWNWVVhid2gzc00tdFlfMDQ3cHhTdlpiVGxORVBRMldDcVd3MVJDOWRxUFZPYkxlR21RWWVCcHd5ZE1GUFZacUp2bTRCb192c2kyUDg2MDVqX2lvdUVFem5nNW9DUnNkX29xdWJNVmdzTE9vcGVaWkdMOEhF0gGIAkFVX3lxTFBTQUN4Wkp5ZV9McGtnQUlscG1WR18tSDhFTE5lRElTMjVDYzJibDlSLXlDZXN1R3Z2b2N1TURsN0dPd3pUU25RbjJadXhxUlNkWmR4SWVFSjBWVHNHcVdwdFkzUkhyVTNaLUNpeUZlY0N2amJhcEM5SF85SkJ5SzdPamVVZWVVcjJ4U2hjMFF4bU1fWjNhaDZfaGZyQmJicDZ1dWdsRTdhWWdwRVBlaUFSRDNYU0xITjlSRUhrOFF1dGlMTG1iNVUwdWM0YXBZdDlTUlFkeDU4MFpCRUk1OW4tbkxJbWVLTmJXRDdTa2h2ejh2cENYSF9xTlZQU3ZQbWwwTmFQT29wWQ?oc=5"
    },
    {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOaFZjWVppeUlBTlZ4RXd0X0dlSlVLMXN2akZaLW5IWW1tVXk1MTFsZk9TQ2VuU2EtSm5XVUhkQ3VZUWduR2gtU0VWN3hGblRWOWdwYXg4R3hOckZoc25DY0h6SVdIRjBtbEV1M0x3RXhYVDc3ZkVReGVlNWRCVlVuUlVSSnU4WDZHcFZwU3FvWTJrZENzOEswcWFaaGphaklsaHNVbTVlcnFLZGlyNm1MTGNLOUVlcmhzT2FzUmpTV0NnUXdta2tqX2RiajVTZzVzcklQMlhBQXZCZk5vQk5iYVE2bFFkeHBSR3c3MDJUMXhybW5DZ2VKdmtSbC04aTJweG9rb1dmTzVsVzU4Qnc0d3M0WlV0LUMxelMw?oc=5"
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNTJLamhOcTFURjhFcjM2Zl9Oa1UxcDY1S0VSNVVIanBfUUpHSndTb1NPbF9sNjd4dVRRT3BpRnV2VDZiVE05SnBsbVRiYUN5M0Mwa3BfQ1EzZVR2eVNvRVZLdVUwR3JBWGRQYm1GcFJrMHZfYkd2TFJiLVo3cmhZNnhqMW1DNEhWQmpxOXduWnRFTkRPZlJkZXE3a0hfLXh4QXJQdHVfM09pUk9LeFlEMWxZR1ZfNzZRQW01TkNfampEWVRmX1E4N2lPSEJXdkptal9uOHczaV85T0lnX0pnWGsyWXTSAeQBQVVfeXFMTzUyS2poTnExVEY4RXIzNmZfTmtVMXA2NUtFUjVVSGpwX1FKR0p3U29TT2xfbDY3eHVUUU9waUZ1dlQ2YlRNOUpwbG1UYmFDeTNDMGtwX0NRM2VUdnlTb0VWS3VVMEdyQVhkUGJtRnBSazB2X2JHdkxSYi1aN3JoWTZ4ajFtQzRIVkJqcTl3blp0RU5ET2ZSZGVxN2tIXy14eEFyUHR1XzNPaVJPS3hZRDFsWUdWXzc2UUFtNU5DX2pqRFlUZl9RODdpT0hCV3ZKbWpfbjh3M2lfOU9JZ19KZ1hrMll0?oc=5"
    },
    {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWUyQkQwcjNjQnVNVm5ZZnJ0dnE4TGhfZXBxVzY2Q0pWajNnSktidW5qNnFIeTBYZjhRcm9iVTExMGpwOERkUG5XUk9aNmVIemRiX1F3TTlDT0VBdWhWOE54T3BlUTFZNXpUbWY4MVgwTXFoVS1RU1Z5YW1OXzZMWTAwZWYzTk1kSjJlWEpPenQ5Y0HSAZgBQVVfeXFMUEQzVFN3WHJqellfVEhrTElsbno4Y0pKdzRtM1d2NS1UZjZwaWF5SmNUbmdxZ3cyS3A1UnY0VkhiX1ZYSjlvOFhlb09wMmRkS0tSSzNlb09lVzlLRE9xbVMxdGxBQnNQVVU4elNHRXVoNndXdVZmbHZBcVVac2JMM1dkeHlLa2twUG9lZG1VNlUyVWdlTGpxT2Q?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQzFHTFVzLWlVUUhEX3RDN3JlVmYteU1iVjYydVMzY1laeEdMRzItell0WllJNlctUTFiWTR1MWlUZVRMZHVyT1dlRTRjYm1jZ0FBR05SN1RPQkExTnByS1hWbThMdVFZX193T0N6TERqNHBxVXNod2s0ellNTXdzYW8xUVpGNFI2WTNUcWFveTJ0anlR0gGcAUFVX3lxTE91VndhMFVhQmxNS2gyNUl6VjF3QVlUbU90Ri0xWjVvUkRURWpPTGtDRFNKVHdxbVdYNldjMVdFX183SDNlTUdhTWZMSWdwb2N5ajJSaDJQQ3llSkZya2EzamhQUW1vUERMRDBQRmZjUmVTZEpXcVhRU3R3YzJJd01pZldDQVZDT1JVb3BHdjR1UDh4M3JWWTZUV1RyRA?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjZ5bDN6anRSb090and0VVFKZ0NZOEJJaXBpUklVMHQ4Unk4S2tlU3g1R2ZCOUJqR1hyMGNoZkpsNmxzb2tCNjJsbXd4VVM1blR2Mm1ZOVd5NmR1VFhmNG5nWGdfMDF3Z3h3TWN6RWN4a3hNUDBhTG5XcVMyODAySW1DdTM2c2FOUG1XUGFkOWZjc2c?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ0IxTHFoWllCSVdlaUM3UVJkV3daRU9oNVJDR3d5WmFhSTNxeXh4MEFMRjBiQU9rbGlrY2lvanRQRC1tQ0lXZXMxSGZmMGtPWXVGM0tXZTRGTFVHRWZZb0Rvc2lxaTR0eUNLMEVWNXBpS3ZHbGJvYnk4emt4RkdMWHFLWVFtWXhkR244dXh4Zw?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSnFqR2FuVjBuNndPWlpBTTgwMG5yQ3ZiSTN5bmd6UHZpOFgtRmhzVmlLX21XRmxTR0drc3ppV01CSGU5UHVNc1ZoeHpRdTYwcExQaXdGcVc5UHVBdGVGQ1lwT2lLRXlsUnhrQlc4N0I1cjZWa2NSQ2NnTUNobktxRWw4SDJVNXRONW5yRnEyRnZrX3BmVlFPWWJBZVUwZm5GSGlVdkZBME5TLUJVeXZyS2t6YWoxTXhEekViRHB6RVdNUGthdXpKZ01VUmFRcWNPbGVDREtxMk1IWms5QmNiZjkwZjIzUGVzMlJqSXpINTRZMFNJS3FwMm5Yc3hJWUhJelZPTThheHHSAY4CQVVfeXFMTm91T1ljVEFDX0ZSZ1ljb3M3UHd2bnFkQzU5V0hiaWR3LXc5WUZMUjRrOVB6MTU0UTVMZWVPRDhPak9PWmhiMnZBQk5QUnp4WHNRVF9XSHo4NFhuSDRDUVJ4ckM3d0FuZGhLSWdvaFVoRUZpQ2dpOXIwRWI1XzlIdFd6b3RBbTQzMzltZFU5cTZTQlR5dU5WVmF3d2VOTjIzMm0zaThicEE3azdPZVB2bU1JNmJLWEZxTXlRZWJTOW1OMDY4R29XeE1BUFlQb18wZFgxeEZCT0JfTm80TmZkSFNjS0x0dEFxd1IxUXRmRWhHZ250T182dENGcjhyaHJKYnRGTzBSZ1VMcGJJaVRn?oc=5"
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWjFBc3ExUkdYWlNrOEp5TEMzXzNEbXJjNl9Ud21XLXRyNWhFWlNObmgyazRhc1ktQ0F0bWEyN2JtZUtIOWxxYXhadXExRVRGbmhXUlVYMEhSVko4dW05b3B3MlhNLTIwYzFQa29uUnF2aHBfLXJGN2UtVXpPM0tjS0FNNUZjMEJld3dLV2F3MmhIZjFSbXo4RTRxclJjOG16OS1ZRThqb3JGdUM3dlNoZ3pDVm9JLTBvZjNQdDBnTVVPQ2FmU0lHTXMwSTBsbTJxRk55ZVBwN1FKbzRxazBCQkhoRdIB3gFBVV95cUxQODljbS04U1hnaVRyMlNwS2VHRG0tclRteERrSDNJM185TDNqaGhsY2hhTUZSUmlrN0dUeURVNHoxUlJyNE9pb09zM2pwSWU3bjVreWNoa2NPZWxOWHJQZjZYSXlMa3lQcHN3c2lYZzduVW5HRldiTlhKbVZ3UmVtS3hfWGxoU29hY1BpYVBOSVRGNGJMSlNWLXFJdUh0OXdTS0pSVE9TazhveXhDLUtkSzR2aHEyQ0tjbmpvUm5sbWJMb2xIQXRCdGowLVVzdmlwaGRDOHhQWWFsVjJScXc?oc=5"
    }
   ],
   "impacts": [
@@ -47645,9 +47525,62 @@
      "ru": "ETF Перу — фонд акций Перу"
     },
     "price_at_alert": 71.42
+   },
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "עלולה להתמודד עם תביעות ביטוח בעקבות אסונות טבע עולמיים.",
+    "reason_i18n": {
+     "he": "עלולה להתמודד עם תביעות ביטוח בעקבות אסונות טבע עולמיים.",
+     "en": "May face insurance claims resulting from global natural disasters.",
+     "ar": "قد تواجه مطالبات تأمين ناتجة عن الكوارث الطبيعية العالمية.",
+     "ru": "Может столкнуться со страховыми исками из-за глобальных стихийных бедствий."
+    },
+    "name_i18n": {
+     "he": "Allstate - חברת ביטוח",
+     "en": "Allstate - an insurance company",
+     "ar": "Allstate - شركة تأمين",
+     "ru": "Allstate - страховая компания"
+    },
+    "price_at_alert": 267.0
+   },
+   {
+    "ticker": "TRV",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "חשיפה פוטנציאלית לעלויות ביטוח בשל רעידת האדמה.",
+    "reason_i18n": {
+     "he": "חשיפה פוטנציאלית לעלויות ביטוח בשל רעידת האדמה.",
+     "en": "Potential exposure to insurance costs due to the earthquake.",
+     "ar": "تعرض محتمل لتكاليف التأمين بسبب الزلزال.",
+     "ru": "Потенциальные расходы по страховкам из-за землетрясения."
+    },
+    "name_i18n": {
+     "he": "Travelers - חברת ביטוח",
+     "en": "Travelers - an insurance company",
+     "ar": "Travelers - شركة تأمين",
+     "ru": "Travelers - страховая компания"
+    },
+    "price_at_alert": 393.24
    }
   ],
-  "id": "6c7cff1a7f51"
+  "id": "6c7cff1a7f51",
+  "updates": [
+   {
+    "ts": 1795228687,
+    "time": "2026-11-21T02:38Z",
+    "severity": 3,
+    "summary": "רעידת אדמה חזקה בעוצמה של 6.7 עד 6.9 פקדה את אזור האנדים בפרו וגרמה לתושבים להימלט לרחובות בלימה, כאשר לא דווח מיד על נפגעים או נזק משמעותי.",
+    "i18n": {
+     "he": "רעידת אדמה חזקה בעוצמה של 6.7 עד 6.9 פקדה את אזור האנדים בפרו וגרמה לתושבים להימלט לרחובות בלימה, כאשר לא דווח מיד על נפגעים או נזק משמעותי.",
+     "en": "A strong earthquake ranging from magnitude 6.7 to 6.9 struck Peru's Andean region, sending residents rushing into the streets of Lima, with no immediate reports of casualties or major damage.",
+     "ar": "ضرب زلزال قوي تتراوح قوته بين 6.7 و6.9 درجة منطقة جبال الأنديز في بيرو، مما دفع السكان إلى الفرار إلى الشوارع في ليما، دون تقارير فورية عن وقوع ضحايا أو أضرار جسيمة.",
+     "ru": "Сильное землетрясение магнитудой от 6.7 до 6.9 произошло в андском регионе Перу, заставив жителей выбежать на улицы Лимы, сообщений о жертвах и серьезных разрушениях пока не поступало."
+    }
+   }
+  ],
+  "last_update": 1795228687
  },
  {
   "ts": 1795225699,
@@ -47676,20 +47609,32 @@
    }
   },
   "category": "macro",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdi1NdjFwbW5CS2VTejdzTjVma0lZYldwd1JJYjNCcE5CdWVFZkgtOTJfVU1pSS1tUWVDY1p5V1U5b2tEV1J5VFdPX1ZqVFpta1BvS0tranRIUVNWZVJEUFJjODBpQUlwZjRZekJ5b215NHlqcHFBUTdWRVhDclYzYVNhNU5yZmVUb2VaY05JT0RwcF9qMV9fWVVUTjBhU3VVV0o4R3h0Q3d3bVVHUEVvc2ZranJlNHVrbGsyMWxUbi1BS3NLcEdWOXY4WGhmRmROR1ZXNVJEVHV6QdIB3wFBVV95cUxOWnoyT1lweVZ4Q3d2S2RNZUJ3SmItVkZlV3pRcWEwZ2lHajFEMEd6SnhpX0RIVUVQZVRXX1k2UTZTbEFSSXFQZnNoTDFSTkZ2aERsZzlLYy0zWnRjbGJnQ2VFSm91MUNPdW51Mlg2cnFtaWQ5VWtWLUxjd1c3LTQyWG9hZkhCcnNDN25WR0FlcGNJVnpDXzhzQVdmRTBMV18xTzl0ZmxTaFRHTXhzbjNtS1hjSmRmaTQ0V2NCZjR6WEtITFVRMW83RlVIZGZsemZOUE1xYnpwVTBZcTF0Zmtv?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa3R6NVBFd3NZY2VWS0lVZkJwWGNfV0RDM0ZHcEg4M29EYTdiU2NJSTVyOFVNQTNpQUp6TkZZaE5WWGpJclhGdnZ4VElPRjQwN0llZVdRWEZGd293YUVuVXFXZHRPWUZSeklQaWdWZTdWSnhORVZua1h1SzRULUtGZEc1VjFBaXAtQXF1NzBsR0F6akNPMWNNc2YzNW5iUnNNYXcwTGdzY2YteUlKTHMtaUxrZWJVd2_SAb8BQVVfeXFMUDRHREhZaDA1cDRVMUVuWmJYQ2NUMi0wdnlMZ2hzWWdaQ2YwR216c0tVQUFUSmRyejcyWV9oeFJ0cVFaMHczV09sNW1feGs1eGNlUkxySHc1N0JuZGEwN28wbUlWV0pnbkNYVWQ1SEQyLXVxUVNQbFlmbmlnOC1GWDVobU1qNUoxZzBoRUxpVkZkRnFwWVNzZm1iMGE5STk0QlBabGtHRkFmNWp6Mm5tWWhvTk11TUl2NmZPWm52RTA?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbXpCZmtGa0wtUHloZVBXT3JDTTMzY0FmeFZ4SmtycFpnc2dlRUpMQV9YQV9JTmRsdzRIZmxMQUdSNnZjMlFYRmRrVk0zY3k0ZlpDVHVidEJwcEtSSFVJMXpxanp5OTVUNnY1SDhQM0VFcHdiMEh2a3BaYjlFS2MxaTkyNkNpTXBHU2t3a2RxZnlSTV9UekhZaWdOdTJOMnFIMWl1aUQ0dzlWWDJuYnRCdTg4eUJQWkJRX2fSAb8BQVVfeXFMTWFoUXhuMDFERmFpQjBZeWdzZ1ZYQy1qd3p3dDdMdEw5ajdCU3VuSWhNRWdRYUREemZSZTdyY3UxWkRSUF8tekJrS3NiXzIwY0F0aXhTQU1yckl4ZjltNENnMU03QUN1T3NqZVc2M0RoM0xBbmlxMU55S1VSc2ZVUGdNclFqUWxmdHlmdVJwT3d4TFdYRFZYSnJKQkszdWdPTkxWSnBETWItUURLbFNmSGdDejJjcVBmRmtHQV9ZX3c?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYUdnY2dZNHp0QWRNVmtId1Q2TnRTcFZqS2RWWEg3QnlLVkRzRXVsdFNTTnphN3o1VjZRSFNkWWJiVXdZdTlGUGNPUnQwNmFiREg4VlBOa0ltUmd3TWdTZ2wzUFNTaW9xRGZXRml4WXZxVnc3VV9xQTAzMm1qbEE4OVF2TDY3akVVV2xld01QQXVQdVk5OXJWeHVYczhVNzV1QUtHV3VOTFdfblNteDhNSy1oT2pCeUpzbEVUM0U0ZTR2c0l2V2d2Nk45YWYwbUHSAdQBQVVfeXFMTVlKeFd1clEyMVpzMHozRWNfRFZod0I1SHdPdjEweVE3UFFPMUF2cUJTRm5xMGV5ck1hVUZNUVJpVEVqd2NvOEhmVnFoZl9QWTE3Z010d05xaDFRWkVrdVk4M1NKLW5DRlA3dW5zX3JOME4xdU1FeUt6Z0UxVFRjalZUUDB1UmZ4S1VTeFAzQnNqT3BySEVKWFE0aGNrcjd2ZXllWHh3TElLQmd1Z1NQQU1ZQ2lZLTl0SE9YU3Nudm5JM1VnNW5yblQwTlFsaG1lSEppZE4?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb0dKVklMQmVvc1hPcnpaSTZpMFZjRnFRR0xlcXpFZTlHZEo3Nl9lcVVnNTN6WVZJcE9JTDJZblQycW5HT1lFVTVDZnotVm5nSWVLSGNWNXBlR0tEUGNVMnExcTlDUjZxOWhzNEZtcENsX1FLRUNRRXFrVFF5ZkEweWd3bTNzMUdnMXdpTGdzQm5MbktUNjQzdllVbjluTUlpcDN5cVZkcTFQUlBoNWFKUUdpc9IBuAFBVV95cUxQeExodkFUb0M2anROaG1zSW13ZWllZWl2TjliVWFYQUFxcVdpMFo1akRXZXJxUEp0Y1lUdGx0Q2RNZzZCTVdGcUpIellmZVQxam9jRHFCOGRfdlEyNkNSRTVoa3JWTHk4dlJua2tTYi1DNFYtX19hTk5aV3pQUWNOUzZzRi1KV1VlQXNKeHpfaTFvWkFmSExfdnZfa1hsTmFHcFdjOUFqVFVfMnFPTjF3QWFFQ2N5Tmp2?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXgyNTFrRHItQzNYQVRlSUp1ZmxtV01jcHk1d0hCdnZic1dMbHlocmVZRWU0MVdTWHBrdVV1ZVpBR0N4N3BOTF90Rjg3ZzlxSTI2ZlhKN19ld3g5LWk5LWFyaThzZ1ZZME10ZTNscmVwVFJ0MHJldmtUY1kzOWU1YlJlRk1SQ2pOR216TzMxajhJWm4wU09kOGZQenNydXVUUmwzYUN3ZjZJLUJWM0g0X1lJOXZhMzlOcDdxVERvM2tYTDFlT1Y5Z0F4VG1hUU14Z09DUVRLQ1p5dTDSAeABQVVfeXFMTlp3ZkhvQW1WRFFUZnR3U1pCZjdDN29ULXM2RzlJanRoQmpweUM5YWxPMjRqZ2JrXy14WGVERjdvVHhVWjZ3UXdVdjRIWFBaMjR0SmJzY2t5UjNlbl9USGtHdGQxNS1qeDVOV2NhUUtxdDVSc1lDOWFiMWxaUThMNU03YWxwUkNYZ3Z1dFZXMkluY1hjVUtUOXJHWnNaSlZuejE5VjJDZzF4VWN3OUs3TVpBZW8yaG5aNXZfMlNfY3gteXpHcW9FbkFKaTlFVVRYQ0Utd1dwbjZwVWxqSnJqVWY?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQzdLNHgxSksyOXduZ0ZKWmdtZnFrUmlwdng4RGRRa2lUOEtSaVBLYjU0OEJPNFBodHpVbkJydHNuQnh4TklBZDVnZnQzLUk2VEZkWi1odWpWSW9SaS1obmotTkVrTmtJUEUyMFo1Yi00LVl6MFhVc1llVlJEQS1rM0VjUmJna2pKMGZyT0J6bnU0MVROV3ZIemZ1eWlaRlIybEZxa3FOMzJObDd3MUg4T3NHcTM2WVJn0gG-AUFVX3lxTE40dFViUnlQZWpiRTBFOC1BejBXblY4cmJ0bzZ4Wkh5cUktOTRiV1VBZDRMVFZMMGpOdDJOTk0xMUh6dTMzdzBiNkh2MGZ3S1d1Z0lVYS1jbDFhc3Nyd0pMLXZfWFRoRVlBUjRocEZUVEZrRks0OUoyTWNKcWZwdDg0enJsOVE3WWxKWWdjU0ttWnhVX1BIM3AyUzhPRHliYk9xamIzOXdJcHNMb0x4cnVoS3o2VThVdFYtdnQtQ1E?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOendvVTVrXzR3NE40T29iWEdIb3VKUnpNdkFuc2FxQUhYWHVqSlplR2hET295NlBYRVh6U2FxYVQwMXcxWUsxV0Z5Y1ZQMFVoeFAzRlhaSDV5NXJQeV9lRGI4RmtSSlEyTHl5M3lrVjZ5MkJJTmdzU1VUcWpsUmw3QTBmbGhpQVNRa2JZVHBQYmRRT0o1c005X2hjdnpnOXo0TjJtTjRSSUxxaUhOYWtKakFBaXp2SDJLanc2RnhJVFFWNEhXVFJkamN2RzVWelZQeWfSAdcBQVVfeXFMTWZMRXFXV00tWmgwVnpZbEN4ZmRISkFpamdzYmtoMVFqQXhBTU1PRFB1QU91NDhSN0RibktQQmZKcnlqYjktMFVpbGNxenNkajREQjhsZk9IZUVUd2RwWkV3aklOYzZFbnZLX1ZkYXFnYUwyRHBORnViOVpLTTQybTdGNHhxQzFiOHY1X3lySmFCYTZHNTFfWG9GOURYRG1aamNPck9fQXFyY201MVVqRzByUXcza0M0U21jamdQbGdxaDRucW9xQ2ZuR05xMHF3YjYzd0NqWFk?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb3o0RFZ0bHVXZ1QtdWU2Y0hCejBVaXFMRzJLbXo3S2pDekQ3dF9NWXpuRG1mWllNc0FMdXVGNHZPVnQwZnZlYXpqUlpMTXdPRkRDUi1FNXkyMUk1UjA3ZERSanpyN1RkNEJyWE03TE5jaU40czNHM3dCMVo3bmlvcFc2MHA4a3VaUVNXUEZ0N2xpaklaUmJHVUwzeTc1UVRUTHpiZDJTbGc0eHA4RkZLSHZTX09kMThBTE5CQ2JhUEdrU3FGTTVfbkhXd9IB0AFBVV95cUxPejNYVDdTaG9nSm9SbUhYS1FnbFNQNDNmT3VyOVJRcnZfMVRkWDZwSmtlcHlEbjlWZURVMGJweno2SjVVcGJoUVVSM1JUaEJlblFNUE95N3VOWVl2cXRGR0VJeHRMdTdzeWItcjBsbG1NeEFaWFc3MFVTaXM4eldDMGFDblhMeDBuMXNfaXFRYjM3V1pCVXJEZFJSUGlCNjhaM0VBcVhXd1JBS0pFdV95aHZwUHVtRkxreEw1OW5DSXlOZDhwYl8yZ3ptT04yellt?oc=5"
    }
   ],
   "impacts": [
@@ -47730,9 +47675,43 @@
      "ru": "US Dollar ETF — фонд доллара США"
     },
     "price_at_alert": 29.62
+   },
+   {
+    "ticker": "GLD",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "מחירי הזהב צונחים לשפל עקב לחצי הריבית של הפד.",
+    "reason_i18n": {
+     "he": "מחירי הזהב צונחים לשפל עקב לחצי הריבית של הפד.",
+     "en": "Gold prices plunge to lows due to Fed rate pressures.",
+     "ar": "أسعار الذهب تهوي إلى أدنى مستوياتها بسبب ضغوط أسعار الفائدة.",
+     "ru": "Цены на золото падают до минимумов из-за давления ставок ФРС."
+    },
+    "name_i18n": {
+     "he": "GLD - קרן סל זהב",
+     "en": "GLD - Gold Trust ETF",
+     "ar": "GLD - صندوق الذهب الاستثماري",
+     "ru": "GLD - золотой ETF"
+    },
+    "price_at_alert": 322.87
    }
   ],
-  "id": "d2c055290fdb"
+  "id": "d2c055290fdb",
+  "updates": [
+   {
+    "ts": 1795228687,
+    "time": "2026-11-21T02:38Z",
+    "severity": 6,
+    "summary": "דונלד טראמפ ביקר בחריפות את הפדרל ריזרב על מדיניות הריבית הגבוהה שלו וטענו כי אם ארה\"ב תוריד ריבית ותדמה לנתוני הצמיחה של הודו העומדים על 7%, הכלכלה האמריקאית תוכל לצמוח בשיעור של עד 20%. בינתיים, מחירי הזהב הגלובליים ירדו לשפל של 14 חודשים עקב לחצי הריבית של הפד.",
+    "i18n": {
+     "he": "דונלד טראמפ ביקר בחריפות את הפדרל ריזרב על מדיניות הריבית הגבוהה שלו וטענו כי אם ארה\"ב תוריד ריבית ותדמה לנתוני הצמיחה של הודו העומדים על 7%, הכלכלה האמריקאית תוכל לצמוח בשיעור של עד 20%. בינתיים, מחירי הזהב הגלובליים ירדו לשפל של 14 חודשים עקב לחצי הריבית של הפד.",
+     "en": "Donald Trump harshly criticized the Federal Reserve over high interest rates, claiming that if the US cut rates and matched India's 7% growth rate, the American economy could grow by up to 20%. Meanwhile, global gold prices hit a 14-month low due to Fed interest rate pressures.",
+     "ar": "انتقد دونالد ترامب بشدة الاحتياطي الفيدرالي بسبب أسعار الفائدة المرتفعة، زاعماً أنه إذا خفضت الولايات المتحدة أسعار الفائدة وطابقت معدل نمو الهند البالغ 7٪، يمكن للقتصاد الأمريكي أن يمو بنسبة تصل إلى 20٪. في الوقت نفسه، انخفضت أسعار الذهب العالمية إلى أدنى مستوى لها في 14 شهراً بسبب ضغوط أسعار الفائدة للفيدرالي.",
+     "ru": "Дональд Трамп резко критиковал Федеральную резервную систему за высокие процентные ставки, заявив, что если США снизят ставки и достигнут темпов роста Индии на уровне 7%, американская экономика сможет вырасти до 20%. Тем временем мировые цены на золото упали до 14-месячного минимума из-за давления процентных ставок ФРС."
+    }
+   }
+  ],
+  "last_update": 1795228687
  },
  {
   "ts": 1795225699,
@@ -47810,5 +47789,195 @@
    }
   ],
   "id": "efbd18e54e0c"
+ },
+ {
+  "ts": 1795228687,
+  "time": "2026-11-21T02:38Z",
+  "title": "חשד למתקפת סייבר על סכר אלגונקווין באילינוי",
+  "summary": "רשויות מדינת אילינוי ומחלקת משאבי הטבע חוקרות ניסיון מתקפת סייבר לכאורה שכוונה נגד סכר אלגונקווין על נהר פוקס.",
+  "kid": "האקרים ניסו לפרוץ למערכת המחשבים של סכר מים באילינוי. זה מלמד על סיכוני סייבר לתשתיות קריטיות ויכול להשפיע על חברות אבטחת מידע.",
+  "i18n": {
+   "title": {
+    "he": "חשד למתקפת סייבר על סכר אלגונקווין באילינוי",
+    "en": "Suspected Cyberattack Investigated at Algonquin Dam in Illinois",
+    "ar": "التحقيق في هجوم سيبراني مشتبه به على سد ألجونكوين في إلينوي",
+    "ru": "Расследование предполагаемой кибератаки на плотину Алгонкин в Иллинойсе"
+   },
+   "summary": {
+    "he": "רשויות מדינת אילינוי ומחלקת משאבי הטבע חוקרות ניסיון מתקפת סייבר לכאורה שכוונה נגד סכר אלגונקווין על נהר פוקס.",
+    "en": "Illinois state officials and the Department of Natural Resources are investigating an apparent attempted cyberattack targeting the Algonquin Dam on the Fox River.",
+    "ar": "تحقق سلطات ولاية إيلينوي ووزارة الموارد الطبيعية في محاولة هجوم سيبراني ظاهرة استهدفت سد ألجونكوين على نهر فوكس.",
+    "ru": "Власти штата Иллинойс и Департамент природных ресурсов расследуют предполагаемую попытку кибератаки на плотину Алгонкин на реке Фокс."
+   },
+   "kid": {
+    "he": "האקרים ניסו לפרוץ למערכת המחשבים של סכר מים באילינוי. זה מלמד על סיכוני סייבר לתשתיות קריטיות ויכול להשפיע על חברות אבטחת מידע.",
+    "en": "Hackers tried to break into the computer system of a water dam in Illinois. This highlights cyber risks to critical infrastructure and can impact cybersecurity stocks.",
+    "ar": "حاول المتسللون اختراق نظام الكمبيوتر الخاص بسد مائي في إلينوي. يسلط هذا الضوء على مخاطر الأمن السيبراني للبنية التحتية الحيوية.",
+    "ru": "Хакеры попытались взломать компьютерную систему плотины в Иллинойсе. Это подчеркивает киберриски для критической инфраструктуры и может повлиять на акции кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYWNXN2ZCTENtaXdTOTlWQUxRVS1xenlqLWd3RktpOWZkby1KalpLVlhoVnhhSXdLQTRnTVFLT3daelFMczlOVzQxN3ltbW5XcUdZbUpNeVNIQlBGTkxoZjFqZVdsc1pOcC1PeF95RGJtVzVCenMwdzVURlBJOXEwV3dxSnNZWlB5OGJQZ1FkZ1dMa2VIclVDQ19Cd1NvWnJNUXctczdRaGR4TjEzdkR3aWtsYllFNERsemJ1aQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVnVYOWtNQ2toQW10cDh6eUZYVU14RkVEUVRjcGNFVmg2WjVpa19BUnVVQWVNbnl0eWU1bENCazJiSzloWm9hVVhjLVVKTGtQX3R1bGVVelZYQVBLNjNfcjhoUzNCZWNiY3ByTG1NMGlnQ2pSd0R5UVBKOTNnMGI5M1p6cjNVQlpiRnZPeXZQMm80a1Q4bUoybnJjWXhqX2ZsOXZlRw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlNwVi12RE0zMDA1TWU0NzJYeE1BaU5ueUNKM0QxbjAtZnd0V1MzNUV5QWZ0QlBlM000LW9wM0JIZWl5OE1iYnVSSjFreXlQTDQ2VUl5b0tzeXNKb1FfMExFeFNxSVpFWTZhaUlsVTZsTmlYSE9UTWRSWWhrME95b0xlMA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVnc0VWlpdDBFTm02RHI4S2d5WWJ5QXRJclJxRzdVSDRkUE1yRVZWek10OWlIWk1MRzRYd3NybXg5Z0J6cHB4WjE0UHI0OUVjVlNJeFFRM3RpWXk4ODNlWHFHelFrUlBpUXRRaTZ6eTk4M3l1R2pCakw5ejlmTGxEc3RuOXNiak83bnRPYUJBcklTS1NtZEVFVWZjOVF2VnBvMk5yY2toUmdOaEszbjdIdTIxZmpzQ2Z3empTSjN4ZHkxQzdvaGxWWVFLSnE0WUJxblVDNkRzOFNIcWvSAeABQVVfeXFMTUlCRWg3QkFIcGV3dVYxcWdnUno1Q2RhQlRsdjNMSklxTWUwdkVneDZXaGVvNjBpZWszUERIOHFnMDJBOS0zVUNud3ZYQmo5U3phcUtnc0JKVl9YRGxOVlNwWWozaW5SRFZwRDN5d3BTeC1fNG9LbzBXbDNfeC1ROHNCOWNLaXZlUFA0NnRpWWxjZkRtejRzckpfN3lCb2lCQ19YMGR2OC15MVhORmdMTnpRZ1JTZ3BwS3RQSW9PZVgxeXN0elYxU293aFhKUHpEdlNiMkVMUUV4dVJHUE1wTHI?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTUZiVVdyZmItc0pwd0JBUXplOHdzODBaSTkwMzBocjllZm5sR2lfU3NfN0VkNnBiTENFUUdzaWFtQTE3bXowT2ItdDFLWVN0cXY0elFjR2tSQ3cybk94Qy1Ua2hlZGUza2UteVp4Uy1CcmNBVDNhN3g4ekxKb3NOUEhrRDhDOUdRZ1E1TmVQRk9rMDNOT2hXZG9TOUlGbWQxUFkzaE9PeWlxQ01K?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795228687,
+    "reason": "עלייה במודעות לאיומי סייבר על תשתיות מעלה את הביקוש לפתרונות אבטחה.",
+    "reason_i18n": {
+     "he": "עלייה במודעות לאיומי סייבר על תשתיות מעלה את הביקוש לפתרונות אבטחה.",
+     "en": "Increased awareness of cyber threats to infrastructure boosts demand for security solutions.",
+     "ar": "زيادة الوعي بالتهديدات السيبرانية للبنية التحتية تعزز الطلب على حلول الأمان.",
+     "ru": "Рост осведомленности о кибергрозах для инфраструктуры повышает спрос на средства защиты."
+    },
+    "name_i18n": {
+     "he": "CrowdStrike - חברת אבטחת סייבר",
+     "en": "CrowdStrike - a cybersecurity company",
+     "ar": "CrowdStrike - شركة أمن سيبراني",
+     "ru": "CrowdStrike - компания кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   }
+  ],
+  "id": "7d7f0247fa85"
+ },
+ {
+  "ts": 1795228687,
+  "time": "2026-11-21T02:38Z",
+  "title": "חשד למתקפת סייבר השביתה את מחשב-העל פוגאקו ביפן",
+  "summary": "מחשת-העל המוביל ביפן, פוגאקו, הושקע באופן זמני עקב חשד למתקפת סייבר שפגעה במערכותיו.",
+  "kid": "האקרים פרצו או ניסו לפגוע באחד המחשבים החזקים בעולם ביפן. זה מראה שגם מערכות מדעיות גדולות חשופות לסכנות סייבר.",
+  "i18n": {
+   "title": {
+    "he": "חשד למתקפת סייבר השביתה את מחשב-העל פוגאקו ביפן",
+    "en": "Suspected Cyberattack Takes Japan's Fugaku Supercomputer Offline",
+    "ar": "هجوم سيبراني مشتبه به يعطل كمبيوتر فوغاكو الخارق في اليابان",
+    "ru": "Предполагаемая кибератака вывела из строя суперкомпьютер Fugaku в Японии"
+   },
+   "summary": {
+    "he": "מחשת-העל המוביל ביפן, פוגאקו, הושקע באופן זמני עקב חשד למתקפת סייבר שפגעה במערכותיו.",
+    "en": "Japan's leading supercomputer, Fugaku, has been taken offline following a suspected cyberattack that compromised its systems.",
+    "ar": "تم إيقاف الكمبيوتر الخارق الرائد في اليابان، فوغاكو، مؤقتاً إثر هجوم سيبراني مشتبه به أثر على أنظمته.",
+    "ru": "Ведущий японский суперкомпьютер Fugaku был временно отключен из-за предполагаемой кибератаки, затронувшей его системы."
+   },
+   "kid": {
+    "he": "האקרים פרצו או ניסו לפגוע באחד המחשבים החזקים בעולם ביפן. זה מראה שגם מערכות מדעיות גדולות חשופות לסכנות סייבר.",
+    "en": "Hackers targeted one of the world's most powerful computers in Japan. This shows major scientific systems are vulnerable to cyber threats.",
+    "ar": "استهدف المتسللون أحد أقوى أجهزة الكمبيوتر في العالم في اليابان، مما يظهر تعرض الأنظمة العلمية الكبرى لمخاطر سيبرانية.",
+    "ru": "Хакеры атаковали один из мощнейших компьютеров в мире в Японии, что показывает уязвимость крупных научных систем перед киберугрозами."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUU5wZVhvZGhqeW9sR1pPemRzWFF1VzJjUVc2enFTZmlvSXIyR3hjV2RnRFpUQmdLd0tTb0dHVEhyN3BGTUQtUjRDU1FZQzljaTdfNHVCNHdZQ1gtVzVZTmJLcXR2SzRxblpxaXI1bnY3TW5FY3dpQ09NREEzbFgwc010OGF2dW5kSU9JM1FpOA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "פגיעה בתשתיות טכנולוגיות לאומיות ביפן מעוררת חששות בקרב משקיעים.",
+    "reason_i18n": {
+     "he": "פגיעה בתשתיות טכנולוגיות לאומיות ביפן מעוררת חששות בקרב משקיעים.",
+     "en": "Disruption to national tech infrastructure in Japan raises investor concerns.",
+     "ar": "تعطل البنية التحتية التكنولوجية الوطنية في اليابان يثير مخاوف المستثمرين.",
+     "ru": "Нарушение работы национальной технологической инфраструктуры в Японии вызывает беспокойство инвесторов."
+    },
+    "name_i18n": {
+     "he": "EWJ - קרן סל מניות יפן",
+     "en": "EWJ - iShares MSCI Japan ETF",
+     "ar": "EWJ - صندوق مؤشرات الأسهم اليابانية",
+     "ru": "EWJ - японский биржевой фонд"
+    },
+    "price_at_alert": 83.43
+   }
+  ],
+  "id": "3f4edc22a5e9"
+ },
+ {
+  "ts": 1795228687,
+  "time": "2026-11-21T02:38Z",
+  "title": "ועידת האקלים COP31 נתקלת בקשיים ומשא ומתן תקוע",
+  "summary": "המשא وמתן בוועידת האקלים COP31 נקלע למבוי סתום כאשר מדינות מתקשות להגיע להסכמה סופית על תוכנית הפעולה האקלימית.",
+  "kid": "מדינות העולם לא מצליחות להסכים על תוכנית להילחם בשינויי האקלים. זה משפיע על חברות אנרגיה ירוקה ועל השקעות סביבתיות.",
+  "i18n": {
+   "title": {
+    "he": "ועידת האקלים COP31 נתקלת בקשיים ומשא ומתן תקוע",
+    "en": "COP31 Climate Deal Stalls Amid Disagreements",
+    "ar": "تعثر اتفاق قمة المناخ COP31 وسط خلافات بين الدول",
+    "ru": "Климатическая сделка COP31 зашла в тупик на фоне разногласий"
+   },
+   "summary": {
+    "he": "המשא وמתן בוועידת האקלים COP31 נקלע למבוי סתום כאשר מדינות מתקשות להגיע להסכמה סופית על תוכנית הפעולה האקלימית.",
+    "en": "Negotiations for the COP31 climate deal have stalled as nations struggle to reach an agreement on the climate plan.",
+    "ar": "تعثرت المفاوضات بشأن صفقة المناخ COP31 حيث تكافح الدول للتوصل إلى اتفاق بشأن خطة المناخ.",
+    "ru": "Переговоры по климатической сделке COP31 зашли в тупик, так как страны борются за достижение соглашения по климатическому плану."
+   },
+   "kid": {
+    "he": "מדינות העולם לא מצליחות להסכים על תוכנית להילחם בשינויי האקלים. זה משפיע על חברות אנרגיה ירוקה ועל השקעות סביבתיות.",
+    "en": "Countries are failing to agree on a climate change plan. This affects green energy companies and environmental investments.",
+    "ar": "تفشل الدول في الاتفاق على خطة لتغيير المناخ. يؤثر ذلك على شركات الطاقة الخضراء والاستثمارات البيئية.",
+    "ru": "Странам не удается договориться о плане борьбы с изменением климата. Это затрагивает компании зеленой энергетики и экологические инвестиции."
+   }
+  },
+  "category": "climate",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ICLN",
+    "direction": "down",
+    "t0": 1795228687,
+    "reason": "חוסר הסכמה בוועידות אקלים מקטין את הציפיות לתמיכה ממשלתית מיידית באנרגיה ירוקה.",
+    "reason_i18n": {
+     "he": "חוסר הסכמה בוועידות אקלים מקטין את הציפיות לתמיכה ממשלתית מיידית באנרגיה ירוקה.",
+     "en": "Lack of agreement at climate summits dampens expectations for immediate government support.",
+     "ar": "قلة الاتفاق في قمم المناخ تضعف التوقعات للدعم الحكومي الفوري.",
+     "ru": "Отсутствие соглашений на климатических саммитах снижает ожидания скорой господдержки."
+    },
+    "name_i18n": {
+     "he": "ICLN - קרן סל אנרגיה נקייה",
+     "en": "ICLN - iShares Global Clean Energy ETF",
+     "ar": "ICLN - صندوق الطاقة النظيفة",
+     "ru": "ICLN - ETF чистой энергетики"
+    },
+    "price_at_alert": 13.84
+   }
+  ],
+  "id": "60bde3833e3e"
  }
 ]
