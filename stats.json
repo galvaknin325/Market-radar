@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-21T15:19Z",
+ "generated": "2026-11-21T16:06Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1285,
+ "total_alerts": 1288,
  "overall": {
   "n": 929,
   "hits": 466,
@@ -149,7 +149,7 @@
    "avg_edge": -0.03
   },
   "ITA": {
-   "mentions": 223,
+   "mentions": 224,
    "n": 202,
    "hits": 134,
    "name": {
@@ -329,14 +329,14 @@
    "avg_edge": -1.25
   },
   "JETS": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 16,
    "hits": 5,
    "name": {
-    "he": "קרן תעופה",
-    "en": "Airline ETF",
+    "he": "קרן סל תעופה",
+    "en": "Airlines ETF",
     "ar": "صندوق شركات الطيران",
-    "ru": "Авиационный ETF"
+    "ru": "ETF авиакомпаний"
    },
    "avg_edge": -0.61
   },
@@ -460,14 +460,14 @@
    "avg_edge": -0.96
   },
   "ALL": {
-   "mentions": 18,
+   "mentions": 19,
    "n": 13,
    "hits": 4,
    "name": {
-    "en": "The Allstate Corp – a property and casualty insurance company",
-    "he": "אלסטייט – חברת ביטוח רכוש",
-    "ar": "ألستيت - شركة تأمين الممتلكات",
-    "ru": "Allstate — компания по страхованию имущества"
+    "he": "אולסטייט (ביטוח)",
+    "en": "Allstate (Insurance)",
+    "ar": "أولستيت (تأمين)",
+    "ru": "Allstate (страхование)"
    },
    "avg_edge": -0.66
   },
@@ -664,14 +664,14 @@
    "avg_edge": 0.99
   },
   "TRV": {
-   "mentions": 20,
+   "mentions": 21,
    "n": 16,
    "hits": 11,
    "name": {
-    "he": "Travelers - חברת ביטוח",
-    "en": "Travelers - an insurance company",
-    "ar": "Travelers - شركة تأمين",
-    "ru": "Travelers - страховая компания"
+    "he": "טרוולרס (ביטוח)",
+    "en": "Travelers (Insurance)",
+    "ar": "ترافيلرز (تأمين)",
+    "ru": "Travelers (страхование)"
    },
    "avg_edge": -0.56
   },
@@ -1812,6 +1812,18 @@
     "en": "Palo Alto Networks – cybersecurity",
     "ar": "פאלו אלטו נטוורקס – אבטחת סייבר",
     "ru": "Palo Alto Networks – кибербезопасность"
+   },
+   "avg_edge": null
+  },
+  "GS": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "גולדמן זאקס",
+    "en": "Goldman Sachs",
+    "ar": "غولدمان ساكس",
+    "ru": "Goldman Sachs"
    },
    "avg_edge": null
   }
