@@ -137120,9 +137120,22 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeU92MFYyMFRTeUprRWZzTlFlUU1uOVk1ZlRPREE3YzNSTUVUbU9NekVYaURfSVVsdGQ0SzMzYVR6ZVlBaGRJT3FPVUNrSUlFMGRBOEM3c1pfVnlJWlg0cFR6R0hKdnpXbktpWkVfeHAwVTRDcHQzQXlKZElIUFlUQS1BY0lmVjFuM0ZQblFUeXlCYU5JNlJmUC1kNi1WZTJyMzJNQm84RXJKMkhBc1lTTVJfVkxMUDdTMjhrWnZNVktoWWszWlVvd3FFeGpuVVk?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeFRDMTM2ZE15SXRtc3MzdzdpUm1MQnpfR0JiYTVVZkY3THN0N3VoUHBsdXktVXg4cXZWMEl3X201WXpnX1RQOWNRc2kteUF1Y3ludVVOYkdtdndRT1RnbGRQTUE2V3NKbFJPUFhTcndpU09qMm1NWl9JV1BsZVBvUmJodlhPaHpMTWluYXdTS3RwWk9nRDUtNkdDRTVhYmhfdG9KbWZpWlJDb1F0TWRVcHNVbVM3Q0M0MWlQcFlvc2hzbS13Wm45bElUWXB3ZGRMMXJqbDY4SHBoU2U5eEZvZEo2UDl2dkZOUUVXNHN3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ2h4RkRfeDhIVmNKcEl3MHR4ZzhLWkxtRVZNVkNWQ3VuOE9WZnN3dWY3aTVaUW43T2F6VVNnakUzaDZUN1d3OElCck5OdGV5QjA0TmczOUpBcEh3cktWVTY5VUROR0xvTDktakZJaGlsakdST1JxdXgzWFBrUi0zQVJEQ3ZCQkhHYWJfZjh5MndHbEV4eFpIWUc0NGpwaUNnQjRyNVlKVlF4RmRUTkI3cWVpa3Q0aHZLaUlibmlEMERSWHIzTXNOTWtVR1FpcHVlTGcyRFpRVEU0c1R5?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "GLD",
@@ -137163,7 +137176,22 @@
     "price_at_alert": 36.97
    }
   ],
-  "id": "c94873c82660"
+  "id": "c94873c82660",
+  "updates": [
+   {
+    "ts": 1795323424,
+    "time": "2026-11-22T04:57Z",
+    "severity": 6,
+    "summary": "מחירי הזהב והכסף רשמו צניחה חדה על רקע ציפיות למהלכי הבנק המרכזי והידוק תנאי המרווח (margin calls), כאשר מחירי הזהב נפלו בכ-3.1%.",
+    "i18n": {
+     "he": "מחירי הזהב והכסף רשמו צניחה חדה על רקע ציפיות למהלכי הבנק המרכזי והידוק תנאי המרווח (margin calls), כאשר מחירי הזהב נפלו בכ-3.1%.",
+     "en": "Gold and silver prices dropped sharply due to Federal Reserve rate expectations and margin calls, with gold falling roughly 3.1%.",
+     "ar": "שهدت أسعار الذهب والفضة هبوطاً حاداً وسط توقعات السياسة النقدية ونداءات الهامش، حيث انخفض الذهب بنحو 3.1%.",
+     "ru": "Цены на золото и серебро резко упали на фоне ожиданий политики ФРС и маржинальных требований, золото потеряло около 3,1%."
+    }
+   }
+  ],
+  "last_update": 1795323424
  },
  {
   "ts": 1795263433,
@@ -140393,5 +140421,198 @@
    }
   ],
   "id": "599be49fdb78"
+ },
+ {
+  "ts": 1795323424,
+  "time": "2026-11-22T04:57Z",
+  "title": "אורקל: עסקת התשתיות עם OpenAI ממומנת במלואה",
+  "summary": "חברת אורקל הודיעה כי עסקת תשתיות הענן שלה עם OpenAI ממומנת במלואה בעקבות סבב גיוס הון סופי.",
+  "kid": "אורקל אישרה שיש לה את כל הכסף לפרויקט הענן הענק שלה עם OpenAI. חדשות טובות עשויות לעזור למניות החברה לעלות.",
+  "i18n": {
+   "title": {
+    "he": "אורקל: עסקת התשתיות עם OpenAI ממומנת במלואה",
+    "en": "Oracle: OpenAI Infrastructure Deal Fully Funded",
+    "ar": "أوراكل: صفقة البنية التحتية مع OpenAI ممولة بالكامل",
+    "ru": "Oracle: инфраструктурная сделка с OpenAI полностью профинансирована"
+   },
+   "summary": {
+    "he": "חברת אורקל הודיעה כי עסקת תשתיות הענן שלה עם OpenAI ממומנת במלואה בעקבות סבב גיוס הון סופי.",
+    "en": "Oracle announced that its cloud infrastructure deal with OpenAI is fully funded following a final capital raise.",
+    "ar": "أعلنت أوراكل أن صفقة البنية التحتية السحابية مع OpenAI ممولة بالكامل بعد جولة جمع رأس مال نهائية.",
+    "ru": "Oracle объявила, что ее сделка по облачной инфраструктуре с OpenAI полностью профинансирована после финального раунда сбора капитала."
+   },
+   "kid": {
+    "he": "אורקל אישרה שיש לה את כל הכסף לפרויקט הענן הענק שלה עם OpenAI. חדשות טובות עשויות לעזור למניות החברה לעלות.",
+    "en": "Oracle confirmed it has all the money for its massive cloud project with OpenAI. Good news could help the company's stock go up.",
+    "ar": "أكدت أوراكل أن لديها كل الأموال لمشروع السحابة الضخم مع OpenAI. الأخبار الجيدة قد تساعد سهم الشركة على الارتفاع.",
+    "ru": "Oracle подтвердила наличие финансирования для своего облачного проекта с OpenAI. Хорошие новости могут поднять акции компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeHliX0hicC0xd1dfLWd6YU5IOTNXaUM3T0JqRnBJTndNaE5VNU5NcXQ2TEdWVDdUeEg5cXRLRHdHdW96U2JYd204LWFEakprdm1MRWlsclNfX2J1bk44QkZGaHdXRFNiNHpnX09HUU80RGJHSWZXTnhhTWQyZGNTcURRT1Z3RW01THVFT25JT0xkZFdmWHNPWHRtUjBGdzc1THF3UkNDYkNIcmVmX0tDdDhTcVlpb3Y5UTdSNG1ac2dMbERLQ1VZM0k0X0txODFDSEU2enJ3UzVOM01wTlNjRTBuc0MxVHZMR01Ja9IB8wFBVV95cUxNbGw5dVU4YmlMSHgtckhOWGgyc3J1S3pvRjJFSlZUVzRNRGVSNnVySGVrZEZ6VXlDTWtFUGxzV1hPTU1EdThXR2hTY3NKWDNMQVRwVHBfeVVjeGdfR0pfWDF6b3k2QlIxb3hfNjZsem1LNnpuV2Zwd1pwSjROandJOWJSbnR4Z0lRZ2g1cy0zMUlIeV9PMkx1cnM0Y3dJaDYyUkc4T2p4bU1EM1VHb0gwZHhXZVJ3V3VNWjlOcmtVamJST2kyd1VCOW54WklqckowdWdzZDRXX0ZEM0doSW9ZMEdVbmVtWFc1Z0NVSWhfZC1fNnM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ORCL",
+    "direction": "up",
+    "t0": 1795323424,
+    "reason": "הבטחת המימון לעסקת ענק מסירה אי-ודאות ומחזקת את אמון המשקיעים.",
+    "reason_i18n": {
+     "he": "הבטחת המימון לעסקת ענק מסירה אי-ודאות ומחזקת את אמון המשקיעים.",
+     "en": "Securing financing for a massive deal removes uncertainty and boosts investor confidence.",
+     "ar": "ضمان التمويل للصفقة الكبرى يزيل عدم اليقين ويعزز ثقة المستثمرين.",
+     "ru": "Обеспечение финансирования крупной сделки снимает неопределенность и укрепляет доверие инвесторов."
+    },
+    "name_i18n": {
+     "he": "אורקל – חברת טכנולוגיה וענן",
+     "en": "Oracle – Tech and Cloud Company",
+     "ar": "أوراكل - شركة تكنولوجيا وسحابية",
+     "ru": "Oracle – технологическая и облачная компания"
+    },
+    "price_at_alert": 101.19
+   }
+  ],
+  "id": "1018175e12c4"
+ },
+ {
+  "ts": 1795323424,
+  "time": "2026-11-22T04:57Z",
+  "title": "תאילנד תרכוש מערכת משגרי רקטות מארה\"ב ב-123 מיליון דולר",
+  "summary": "תאילנד מתכננת לרכוש מערכת משגרי רקטות מארה\"ב בשווי 123 מיליון דולר, מה שעורר דאגה בקמבודיה השכנה.",
+  "kid": "תאילנד קונה נשק מארה\"ב בהרבה כסף. זה יכול לעזור לחברות הביטחון שמייצרות את הציוד הזה להרוויח יותר.",
+  "i18n": {
+   "title": {
+    "he": "תאילנד תרכוש מערכת משגרי רקטות מארה\"ב ב-123 מיליון דולר",
+    "en": "Thailand to Purchase $123 Million US Rocket Launcher System",
+    "ar": "تايلاند تشتري نظام قاذفات صواريخ أمريكي بقيمة 123 مليون دولار",
+    "ru": "Таиланд купит американские ракетные установки на сумму 123 миллиона долларов"
+   },
+   "summary": {
+    "he": "תאילנד מתכננת לרכוש מערכת משגרי רקטות מארה\"ב בשווי 123 מיליון דולר, מה שעורר דאגה בקמבודיה השכנה.",
+    "en": "Thailand plans to purchase a $123 million rocket launcher system from the US, sparking concern in neighboring Cambodia.",
+    "ar": "تخطط تايلاند لشراء نظام قاذفات صواريخ من أمريكا بقيمة 123 مليون دولار، مما أثار قلق كمبوديا المجاورة.",
+    "ru": "Таиланд планирует купить у США ракетные установки на сумму 123 миллиона долларов, что вызвало обеспокоенность в соседней Камбодже."
+   },
+   "kid": {
+    "he": "תאילנד קונה נשק מארה\"ב בהרבה כסף. זה יכול לעזור לחברות הביטחון שמייצרות את הציוד הזה להרוויח יותר.",
+    "en": "Thailand is buying weapons from the US for a lot of money. This can help the defense companies that make this equipment earn more.",
+    "ar": "تايلاند تشتري أسلحة من أمريكا بمبلغ كبير. هذا يمكن شركات الدفاع التي تصنع هذه المعدات من تحقيق أرباح أكبر.",
+    "ru": "Таиланд покупает оружие у США на крупные деньги. Это может помочь оборонным компаниям, производящим это оборудование, заработать больше."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWVZzdkl4eVcyZ0NQU0hMTnNjUmFPM3ZlUzV4bEJTZmttdnJCQl9RUTE0QXJNS2c0VGZSWS1yZlhwNUp4X3FvMVc5cG9PV1dXUk9ZN1FwQkt6aUFYa2RsSUgweUhBbGcwd2RNdkhPQkg0amtIN1I4SEtLdUFxMGEwN0k0emRxTUtwVEVUN2FMRjJqejdNYU5hQW9lcHU5eW5ZUmJTeXZXcnpRM2dWQnpOeExR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795323424,
+    "reason": "חוזה ייצוא צבאי חדש תומך בהכנסות חברות הביטחון הגדולות.",
+    "reason_i18n": {
+     "he": "חוזה ייצוא צבאי חדש תומך בהכנסות חברות הביטחון הגדולות.",
+     "en": "New military export contract supports revenues for major defense firms.",
+     "ar": "عقد تصدير عسكري جديد يدعم إيرادات شركات الدفاع الكبرى.",
+     "ru": "Новый военный экспортный контракт поддерживает доходы крупных оборонных компаний."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין – יצרנית ביטחונית מובילה",
+     "en": "Lockheed Martin – Leading Defense Maker",
+     "ar": "لوكهكيد مارتن - صانع دفاعي رائد",
+     "ru": "Lockheed Martin – ведущий оборонный производитель"
+    },
+    "price_at_alert": 565.5
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795323424,
+    "reason": "עסקאות נשק בינלאומיות מחזקות את סקטור התעופה והביטחון.",
+    "reason_i18n": {
+     "he": "עסקאות נשק בינלאומיות מחזקות את סקטור התעופה והביטחון.",
+     "en": "International arms deals strengthen the aerospace and defense sector.",
+     "ar": "صفقات الأسلحة الدولية تعزز قطاع الطيران والدفاع.",
+     "ru": "Международные сделки с оружием укрепляют аэрокосмический и оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל לביטחון ותעופה",
+     "en": "ITA – Aerospace & Defense ETF",
+     "ar": "ITA - صندوق استثمار الطيران والدفاع",
+     "ru": "ITA – ETF на аэрокосмическую и оборонную отрасль"
+    },
+    "price_at_alert": 66.17
+   }
+  ],
+  "id": "f6c16c6fd9b7"
+ },
+ {
+  "ts": 1795323424,
+  "time": "2026-11-22T04:57Z",
+  "title": "סינגפור שיפינג מזמינה שתי אוניות מובילות רכב ב-210 מיליון דולר",
+  "summary": "חברת Singapore Shipping Corp הזמינה שתי ספינות חדשות להובלת כלי רכב תמורת 210 מיליון דולר, עם אופציה לשתיים נוספות.",
+  "kid": "חברת ספינות בסינגפור מזמינה אוניות חדשות להובלת מכוניות. זה מראה על ביקוש גבוה להובלה ימית.",
+  "i18n": {
+   "title": {
+    "he": "סינגפור שיפינג מזמינה שתי אוניות מובילות רכב ב-210 מיליון דולר",
+    "en": "Singapore Shipping Corp Orders Two Car Carriers for $210 Million",
+    "ar": "شركة الشحن السنغافورية تطلب سفينتين لنقل السيارات بـ 210 مليون دولار",
+    "ru": "Singapore Shipping Corp заказывает два автовоза на 210 миллионов долларов"
+   },
+   "summary": {
+    "he": "חברת Singapore Shipping Corp הזמינה שתי ספינות חדשות להובלת כלי רכב תמורת 210 מיליון דולר, עם אופציה לשתיים נוספות.",
+    "en": "Singapore Shipping Corp has ordered two new car carrier vessels for $210 million, with potential options for two more.",
+    "ar": "طلبت شركة الشحن السنغافورية سفينتين جديدتين لنقل السيارات مقابل 210 مليون دولار، مع خيار لإضافة اثنتين أخريين.",
+    "ru": "Singapore Shipping Corp заказала два новых судна для перевозки автомобилей за 210 млн долларов с возможностью заказа еще двух."
+   },
+   "kid": {
+    "he": "חברת ספינות בסינגפור מזמינה אוניות חדשות להובלת מכוניות. זה מראה על ביקוש גבוה להובלה ימית.",
+    "en": "A shipping company in Singapore is ordering new ships to carry cars. This shows high demand for maritime transport.",
+    "ar": "شركة شحن في سنغافورة تطلب سفنا جديدة لنقل السيارات. هذا يظهر طلبا قويا على النقل البحري.",
+    "ru": "Судоходная компания в Сингапуре заказывает новые суда для перевозки машин. Это указывает на высокий спрос на морские перевозки."
+   }
+  },
+  "category": "contracts",
+  "severity": 2,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbTRtV2oybTYyT25IM3R3MkJBT2lnVUNpbHdFTlUxbFNwTnh4dVF4NEpYMjVETi1Kc0NQRUpyMHlSSFBGbmJhaGJXemRiY1hmREFvQ1hLU3pkcXlicFhLTk1GTXktMnAyZHZxRjN5akhZYm40M3RpcUZiX3lfMnhybWpfc1ZzUG16M2RIbWdQQjg5SS04RW1zaWFWNjVxVDFfVXc5S3N0LXp3MVF4d09KWE9Yek5JME5QMlFVaWZURHJRdEJSU2xzNg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "up",
+    "t0": 1795323424,
+    "reason": "פעילות ערה בסקטור התובלה מעידה על ביקוש חזק לשרשרת האספקה.",
+    "reason_i18n": {
+     "he": "פעילות ערה בסקטור התובלה מעידה על ביקוש חזק לשרשרת האספקה.",
+     "en": "Active transport sector operations indicate strong supply chain demand.",
+     "ar": "النشاط الحيوي في قطاع النقل يشير إلى طلب قوي على سلسلة الإمداد.",
+     "ru": "Активность в транспортном секторе указывает на сильный спрос на цепочки поставок."
+    },
+    "name_i18n": {
+     "he": "פדקס – ענקית שילוח ולוגיסטיקה",
+     "en": "FedEx – Shipping and Logistics Giant",
+     "ar": "فيديكس - عملاق الشحن والخدمات اللوجستية",
+     "ru": "FedEx – гигант перевозок и логистики"
+    },
+    "price_at_alert": 303.99
+   }
+  ],
+  "id": "868894ac88bb"
  }
 ]
