@@ -142389,5 +142389,306 @@
    }
   ],
   "id": "b9069db5546a"
+ },
+ {
+  "ts": 1795353622,
+  "time": "2026-11-22T13:20Z",
+  "title": "סעודיה יירטה טיל בליסטי וכטב\"מים של החות'ים",
+  "summary": "כוחות הקואליציה יירטו טיל בליסטי ושני כטב\"מים ששוגרו על ידי החות'ים לעבר מתקני נפט מרכזיים בסעודיה.",
+  "kid": "המורדים החות'ים ניסו לתקוף מתקני נפט בסעודיה, אך הטילים והכטב\"מים יורטו. זה עלול להשפיע על מחירי הנפט בעולם.",
+  "i18n": {
+   "title": {
+    "he": "סעודיה יירטה טיל בליסטי וכטב\"מים של החות'ים",
+    "en": "Saudi Arabia intercepts Houthi ballistic missile and drones",
+    "ar": "السعودية تعترض صاروخاً باليستياً وطائرات مسيرة للحوثيين",
+    "ru": "Саудовская Аравия перехватила баллистическую ракету и дроны хуситов"
+   },
+   "summary": {
+    "he": "כוחות הקואליציה יירטו טיל בליסטי ושני כטב\"מים ששוגרו על ידי החות'ים לעבר מתקני נפט מרכזיים בסעודיה.",
+    "en": "Coalition forces intercepted a ballistic missile and two drones launched by Houthi rebels targeting major oil facilities in Saudi Arabia.",
+    "ar": "اعترضت قوات التحالف صاروخاً باليستياً وطائرتين مسيرتين أطلقهما الحوثيون باتجاه منشآت نفطية رئيسية في السعودية.",
+    "ru": "Силы коалиции перехватили баллистическую ракету и два дрона, запущенные хуситами в сторону крупных нефтяных объектов в Саудовской Аравии."
+   },
+   "kid": {
+    "he": "המורדים החות'ים ניסו לתקוף מתקני נפט בסעודיה, אך הטילים והכטב\"מים יורטו. זה עלול להשפיע על מחירי הנפט בעולם.",
+    "en": "Houthi rebels tried to attack oil facilities in Saudi Arabia, but the missiles and drones were shot down. This could make oil prices go up.",
+    "ar": "حاول المتمردون الحوثيون مهاجمة منشآت نفطية في السعودية، لكن تم إسقاط الصواريخ والطائرات المسيرة. هذا قد يؤدي إلى ارتفاع أسعار النفط.",
+    "ru": "Повстанцы-хуситы пытались атаковать нефтяные объекты в Саудовской Аравии, но ракеты и дроны были сбиты. Это может привести к росту цен на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNUVqS3g0VGR6cUVqeTlZSEZjelctWWlBWjNVNHNrVFJoQ2VFbGhSblpkSDRucl9iLTJLSG9UeENUVTJ2ajkydGkxNlEycXpzNDl1dkNScHNPNDI5MlFIX0hhT2xzc3FrZzhYTWl1Q1hSWmN4bEh0VjhZRGFtbWpNTUZuRVp5d1pz?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaktwWERPM09zU1Z6ZzVqeU1NUWlJN2JkVlNBYlJaQ0llYlRFWUNKOWxtRV9ESVdYMzdtbFExTE85VFJTSzl5RHM3aFRmY2tucGY1cEg3SmM1WERvRjU0anZIUnBldy1qTTZJNy1IYVdUVkVzaFZfTEdiYkxfeGRpTnA4YlZtVGdSZWtITjdiUm1jZnpWNGw1MGdtT3U0RVVvN282SFQ3Yw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795353622,
+    "reason": "סיכון לאספקת הנפט במזרח התיכון",
+    "reason_i18n": {
+     "he": "סיכון לאספקת הנפט במזרח התיכון",
+     "en": "Risk to Middle East oil supply",
+     "ar": "خطر على إمدادات النفط في الشرق الأوسط",
+     "ru": "Риск для поставок нефти на Ближнем Востоке"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 139.63
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795353622,
+    "reason": "עלייה צפויה במחירי הנפט",
+    "reason_i18n": {
+     "he": "עלייה צפויה במחירי הנפט",
+     "en": "Expected rise in oil prices",
+     "ar": "ارتفاع متوقع في أسعار النفط",
+     "ru": "Ожидаемый рост цен на нефть"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 159.99
+   }
+  ],
+  "id": "e69e98e77df7"
+ },
+ {
+  "ts": 1795353622,
+  "time": "2026-11-22T13:20Z",
+  "title": "סין ניסתה להשיג שבבי AI אמריקאיים בדרכים עקיפות",
+  "summary": "דו\"ח חושף כי משרד ביטחון המדינה הסיני ניהל מבצע חשאי במשך שנתיים כדי לעקוף את בקרות הייצוא האמריקאיות ולהשיג שבבי בינה מלאכותית.",
+  "kid": "סין ניסתה להשיג שבבים חכמים של ארה\"ב למרות איסורים. זה עלול להוביל להחמרת החוקים נגד סין ולפגוע בחברות שבבים.",
+  "i18n": {
+   "title": {
+    "he": "סין ניסתה להשיג שבבי AI אמריקאיים בדרכים עקיפות",
+    "en": "China attempted to secure US AI chips via covert operations",
+    "ar": "الصين حاولت الحصول على رقائق الذكاء الاصطناعي الأمريكية عبر عمليات سرية",
+    "ru": "Китай пытался получить американские чипы ИИ через тайные операции"
+   },
+   "summary": {
+    "he": "דו\"ח חושף כי משרד ביטחון המדינה הסיני ניהל מבצע חשאי במשך שנתיים כדי לעקוף את בקרות הייצוא האמריקאיות ולהשיג שבבי בינה מלאכותית.",
+    "en": "A report reveals that China's Ministry of State Security conducted a two-year covert operation to bypass US export controls and secure AI chips.",
+    "ar": "يكشف تقرير أن وزارة أمن الدولة الصينية أجرت عملية سرية لمدة عامين للالتفاف على ضوابط التصدير الأمريكية والحصول على رقائق الذكاء الاصطناعي.",
+    "ru": "Отчет показывает, что Министерство госбезопасности Китая проводило двухлетнюю тайную операцию, чтобы обойти экспортный контроль США и получить чипы для ИИ."
+   },
+   "kid": {
+    "he": "סין ניסתה להשיג שבבים חכמים של ארה\"ב למרות איסורים. זה עלול להוביל להחמרת החוקים נגד סין ולפגוע בחברות שבבים.",
+    "en": "China tried to get smart US chips even though they were banned. This might lead to stricter rules against China and hurt chip companies.",
+    "ar": "حاولت الصين الحصول على رقائق أمريكية ذكية رغم الحظر. هذا قد يؤدي إلى قواعد أكثر صرامة ضد الصين ويضر بشركات الرقائق.",
+    "ru": "Китай пытался получить умные американские чипы, несмотря на запреты. Это может привести к ужесточению правил против Китая и навредить компаниям-производителям чипов."
+   }
+  },
+  "category": "trade",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sRF9VM0FNWldmS1FQZWVHaGFwZTZCeHlGeEtaSWJNUDZsRU1IRmVVZTFmM0dQX3lNa1REYUF5VWt0RU9SbF9fSEZRRVlvRmkxRW1Lc3VvRnVhM2tRbEFnNmZBZjcwOHhPT01wOXJ3VUZOREJwQlE?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdUV1VkNIRi1QNnE0c3dOWVNnWm16bHRRNEFGdVBxVS0tWk9CaGlHTHdQak1DcVVDMkdudkwwNl9NSzRWcHdiSnJ1SW42ZW1hVnRkQkh0MHlkUlg4RGtkUmZLS2JiQXg3bmQzQkUtdkdHVXdMV043LTd1M0xGNGxJTUhwTzVCYkpJS2l2cUVreEJxWGdOOUJCczNBSHJaTjQ2LVZtWGxfczNuVUFLY2U2cDAwNTVYalVzTGE2XzNn?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSDVQdTlyXzV2aERkZjNRbGZJanp5S1llcGpka1JwaTZzREVnRFNUNWJKazdHRHlpQ0tjWS1xVTFhc3oyYnRwdXRRTWtVUzZmT0c1NlFxdU4yVjhUZzlwd0NQcXc2X2g1MXl3WU9QTUxiUFB4NlMzYjlBTjlCUFhrZldqUFFaM21Ba0lJMUZ0Qmw4Mjg0R0lBQlA0ekk4eGlJUXZDN2lId2Y2LUJZMFdnVENPUnhKZW1HN3dVbDBRcGxvVUg1bGFzWUdVRFFmT01abTQ1SVpmejEtaENfYktnaFdmYUY4XzBJRFpPM25wQzQ0QQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795353622,
+    "reason": "חשש מהחמרת הגבלות ייצוא",
+    "reason_i18n": {
+     "he": "חשש מהחמרת הגבלות ייצוא",
+     "en": "Fear of stricter export restrictions",
+     "ar": "خوف من تشديد قيود التصدير",
+     "ru": "Опасения по поводу ужесточения экспортных ограничений"
+    },
+    "name_i18n": {
+     "he": "אנבידיה",
+     "en": "Nvidia",
+     "ar": "إنفيديا",
+     "ru": "Nvidia"
+    },
+    "price_at_alert": 125.53
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795353622,
+    "reason": "סיכון רגולטורי למגזר השבבים",
+    "reason_i18n": {
+     "he": "סיכון רגולטורי למגזר השבבים",
+     "en": "Regulatory risk for the chip sector",
+     "ar": "مخاطر تنظيمية لقطاع الرقائق",
+     "ru": "Регуляторный риск для сектора чипов"
+    },
+    "name_i18n": {
+     "he": "קרן סל שבבים",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق الرقائق المتداول",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 400.06
+   }
+  ],
+  "id": "0af362a9b672"
+ },
+ {
+  "ts": 1795353622,
+  "time": "2026-11-22T13:20Z",
+  "title": "GE Vernova: 80% מהקיבולת למרכזי נתונים תפוסה עד 2032",
+  "summary": "חברת GE Vernova מדווחת כי 80% מהקיבולת שלה לאספקת חשמל למרכזי נתונים כבר תפוסה בחוזים עד שנת 2032, מה שמדגיש את הביקוש העצום לאנרגיה עבור AI.",
+  "kid": "חברות שבונות מרכזי מחשוב צריכות המון חשמל. GE Vernova מוכרת את כל החשמל שלה לשנים קדימה, מה שמראה שהביקוש לבינה מלאכותית חזק מאוד.",
+  "i18n": {
+   "title": {
+    "he": "GE Vernova: 80% מהקיבולת למרכזי נתונים תפוסה עד 2032",
+    "en": "GE Vernova: 80% of data center capacity booked through 2032",
+    "ar": "GE Vernova: 80% من سعة مراكز البيانات محجوزة حتى عام 2032",
+    "ru": "GE Vernova: 80% мощностей для дата-центров забронировано до 2032 года"
+   },
+   "summary": {
+    "he": "חברת GE Vernova מדווחת כי 80% מהקיבולת שלה לאספקת חשמל למרכזי נתונים כבר תפוסה בחוזים עד שנת 2032, מה שמדגיש את הביקוש העצום לאנרגיה עבור AI.",
+    "en": "GE Vernova reports that 80% of its power capacity for data centers is booked through 2032, highlighting the massive energy demand for AI.",
+    "ar": "أعلنت شركة GE Vernova أن 80% من سعتها لتزويد مراكز البيانات بالطاقة محجوزة بعقود حتى عام 2032، مما يسلط الضوء على الطلب الهائل على الطاقة للذكاء الاصطناعي.",
+    "ru": "Компания GE Vernova сообщает, что 80% ее мощностей по энергоснабжению дата-центров законтрактовано до 2032 года, что подчеркивает огромный спрос на энергию для ИИ."
+   },
+   "kid": {
+    "he": "חברות שבונות מרכזי מחשוב צריכות המון חשמל. GE Vernova מוכרת את כל החשמל שלה לשנים קדימה, מה שמראה שהביקוש לבינה מלאכותית חזק מאוד.",
+    "en": "Companies building computer centers need lots of electricity. GE Vernova is selling all its power for years ahead, showing that demand for AI is very strong.",
+    "ar": "الشركات التي تبني مراكز حوسبة تحتاج إلى الكثير من الكهرباء. تبيع GE Vernova كل طاقتها لسنوات قادمة، مما يظهر أن الطلب على الذكاء الاصطناعي قوي جداً.",
+    "ru": "Компаниям, строящим вычислительные центры, нужно много электричества. GE Vernova распродает свои мощности на годы вперед, что показывает высокий спрос на ИИ."
+   }
+  },
+  "category": "big deals",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGJoZlJHSEFOenhyLTJtbm92d2cyZEU2N1FTVjkyWS1RZGF1MzlNR3oyTmt0UWNncl96Z2hsdzJIZG9Zbk92blJzRUJOMzFiRnJUa21lMm5FVGpORkJSM1dHclV1UzhVWjdKcEV1V3N5ODlfSUpoMUF4bjNjQlEyalI4X1RxOXR3SHZ2bHdXTTVra09jREJPYTBGMXE0YUM3RjgwdkZuSU1ZNTNnMFdoaERzYkc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GEV",
+    "direction": "up",
+    "t0": 1795353622,
+    "reason": "ביקוש חזק לטווח ארוך",
+    "reason_i18n": {
+     "he": "ביקוש חזק לטווח ארוך",
+     "en": "Strong long-term demand",
+     "ar": "طلب قوي طويل الأمد",
+     "ru": "Высокий долгосрочный спрос"
+    },
+    "name_i18n": {
+     "he": "GE Vernova",
+     "en": "GE Vernova",
+     "ar": "GE Vernova",
+     "ru": "GE Vernova"
+    },
+    "price_at_alert": 699.33
+   },
+   {
+    "ticker": "XLU",
+    "direction": "up",
+    "t0": 1795353622,
+    "reason": "צמיחה בביקוש לחשמל",
+    "reason_i18n": {
+     "he": "צמיחה בביקוש לחשמל",
+     "en": "Growth in power demand",
+     "ar": "نمو الطلب على الكهرباء",
+     "ru": "Рост спроса на электроэнергию"
+    },
+    "name_i18n": {
+     "he": "קרן סל תשתיות חשמל",
+     "en": "Utilities ETF",
+     "ar": "صندوق المرافق المتداول",
+     "ru": "ETF коммунальных услуг"
+    },
+    "price_at_alert": 42.69
+   }
+  ],
+  "id": "fc4244771c24"
+ },
+ {
+  "ts": 1795353622,
+  "time": "2026-11-22T13:20Z",
+  "title": "SNC זכתה בחוזה של 124 מיליון דולר מחיל האוויר האמריקאי",
+  "summary": "חברת Sierra Nevada Corporation (SNC) זכתה בחוזה של 124 מיליון דולר לפיתוח טיל נגד אוויר חדש עבור חיל האוויר האמריקאי.",
+  "kid": "חברת SNC קיבלה כסף מהצבא האמריקאי כדי לבנות טילים חדשים. זה טוב לחברה וליצרניות נשק אחרות.",
+  "i18n": {
+   "title": {
+    "he": "SNC זכתה בחוזה של 124 מיליון דולר מחיל האוויר האמריקאי",
+    "en": "SNC wins $124M US Air Force contract",
+    "ar": "شركة SNC تفوز بعقد بقيمة 124 مليون دولار من القوات الجوية الأمريكية",
+    "ru": "SNC получила контракт ВВС США на 124 млн долларов"
+   },
+   "summary": {
+    "he": "חברת Sierra Nevada Corporation (SNC) זכתה בחוזה של 124 מיליון דולר לפיתוח טיל נגד אוויר חדש עבור חיל האוויר האמריקאי.",
+    "en": "Sierra Nevada Corporation (SNC) has been awarded a $124 million contract to develop a new counter-air missile for the US Air Force.",
+    "ar": "فازت شركة سييرا نيفادا (SNC) بعقد قيمته 124 مليون دولار لتطوير صاروخ جديد مضاد للطائرات للقوات الجوية الأمريكية.",
+    "ru": "Корпорация Sierra Nevada (SNC) получила контракт на сумму 124 млн долларов на разработку новой ракеты класса «воздух-воздух» для ВВС США."
+   },
+   "kid": {
+    "he": "חברת SNC קיבלה כסף מהצבא האמריקאי כדי לבנות טילים חדשים. זה טוב לחברה וליצרניות נשק אחרות.",
+    "en": "SNC got money from the US military to build new missiles. This is good for the company and other weapon makers.",
+    "ar": "حصلت شركة SNC على أموال من الجيش الأمريكي لبناء صواريخ جديدة. هذا جيد للشركة ولمصنعي الأسلحة الآخرين.",
+    "ru": "Компания SNC получила деньги от американских военных на создание новых ракет. Это хорошо для компании и других производителей оружия."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JalEtLXJzU1RnbzBManhucXhBUmh2ZkVOVUVrSktES1lxNlBzM2F3OVZZYndzTnVmYjgySnlEMW9LdmRONEp4cE41enpHT3cxMmRTRUFJZEs?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795353622,
+    "reason": "הגדלת תקציבי רכש ביטחוני",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי רכש ביטחוני",
+     "en": "Increased defense procurement budgets",
+     "ar": "زيادة ميزانيات المشتريات الدفاعية",
+     "ru": "Увеличение бюджетов на оборонные закупки"
+    },
+    "name_i18n": {
+     "he": "קרן סל ביטחון",
+     "en": "Defense ETF",
+     "ar": "صندوق الدفاع المتداول",
+     "ru": "Оборонный ETF"
+    },
+    "price_at_alert": 66.17
+   }
+  ],
+  "id": "a9d8da607c16"
  }
 ]
