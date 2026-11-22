@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-22T03:04Z",
+ "generated": "2026-11-22T03:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1313,
+ "total_alerts": 1318,
  "overall": {
   "n": 929,
   "hits": 466,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 143,
+   "mentions": 144,
    "n": 133,
    "hits": 69,
    "name": {
-    "he": "קרן סל על נפט",
-    "en": "USO – Oil Fund",
-    "ar": "صندوق النفط",
-    "ru": "Нефтяной фонд"
+    "he": "USO - קרן סל על מחיר הנפט הגולמי",
+    "en": "USO – United States Oil Fund",
+    "ar": "USO - صندوق סל لأسعار النفط",
+    "ru": "USO — ETF на нефть"
    },
    "avg_edge": 0.01
   },
   "XLE": {
-   "mentions": 128,
+   "mentions": 129,
    "n": 113,
    "hits": 66,
    "name": {
-    "he": "קרן סל על מגזר האנרגיה",
-    "en": "XLE – Energy Sector ETF",
-    "ar": "صندوق قطاع الطاقة",
-    "ru": "ETF энергетического сектора"
+    "he": "XLE - קרן סל של סקטור האנרגיה האמריקאי",
+    "en": "XLE – Energy Select Sector SPDR Fund",
+    "ar": "XLE - صندوق סל لقطاع الطاقة الأمريكي",
+    "ru": "XLE — ETF энергетического сектора США"
    },
    "avg_edge": -0.03
   },
@@ -150,26 +150,26 @@
    "avg_edge": -0.03
   },
   "ITA": {
-   "mentions": 229,
+   "mentions": 230,
    "n": 202,
    "hits": 134,
    "name": {
-    "he": "תעודת סל תעופה וביטחון",
+    "he": "ITA - קרן סל של חברות תעופה וביטחון",
     "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA - صندوق تبادل تجاري لقطاع الطيران والدفاع",
+    "ar": "ITA - صندوق סל للطيران والدفاع",
     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -0.86
   },
   "RTX": {
-   "mentions": 58,
+   "mentions": 59,
    "n": 47,
    "hits": 31,
    "name": {
-    "he": "ריית'יאון – יצרנית מערכות הגנה אווירית",
-    "en": "RTX – an aerospace and defense contractor",
-    "ar": "RTX – مقاول جوي ودفاعي",
-    "ru": "RTX — аэрокосмический и оборонный подрядчик"
+    "he": "רת'יאון - יצרנית טילי סטינגר",
+    "en": "RTX – Manufacturer of Stinger missiles",
+    "ar": "RTX - الشركة المصنعة لصواريخ ستينغر",
+    "ru": "RTX — производитель ракет Stinger"
    },
    "avg_edge": 0.79
   },
@@ -258,26 +258,26 @@
    "avg_edge": -0.58
   },
   "CRWD": {
-   "mentions": 85,
+   "mentions": 86,
    "n": 72,
    "hits": 32,
    "name": {
     "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike – a cybersecurity company",
-    "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания кибербезопасности"
+    "en": "CrowdStrike – Cybersecurity firm",
+    "ar": "CrowdStrike - شركة أمن سيبراني",
+    "ru": "CrowdStrike — компания по кибербезопасности"
    },
    "avg_edge": -0.66
   },
   "AVAV": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 17,
    "hits": 6,
    "name": {
-    "he": "ארווירונמנט - יצרנית רחפנים צבאיים",
-    "en": "AeroVironment - military drone maker",
-    "ar": "أيروفيرومنت - صانعة طائرات مسيرة عسكرية",
-    "ru": "AeroVironment - производитель военных дронов"
+    "he": "ארווירונמנט - יצרנית רחפנים וכלים בלתי מאוישים",
+    "en": "AeroVironment – Drone and unmanned systems manufacturer",
+    "ar": "AeroVironment - مصنعة الطائرات بدون طيار والأنظمة غير المأهولة",
+    "ru": "AeroVironment — производитель дронов и беспилотных систем"
    },
    "avg_edge": 0.33
   },
@@ -306,14 +306,14 @@
    "avg_edge": 0.1
   },
   "LMT": {
-   "mentions": 93,
+   "mentions": 94,
    "n": 79,
    "hits": 50,
    "name": {
-    "he": "לוקהיד מרטין – יצרנית ביטחונית",
-    "en": "Lockheed Martin – Defense Manufacturer",
-    "ar": "لوكهيد مارتن – مصنعة دفاعية",
-    "ru": "Lockheed Martin – Оборонный производитель"
+    "he": "לוקהיד מרטין - יצרנית ביטחונית ענקית",
+    "en": "Lockheed Martin – A major defense manufacturer",
+    "ar": "لوكهيد مارتن - شركة تصنيع دفاعية كبرى",
+    "ru": "Lockheed Martin — крупный производитель продукции военного назначения"
    },
    "avg_edge": 0.01
   },
@@ -450,14 +450,14 @@
    "avg_edge": 0.43
   },
   "KTOS": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 11,
    "hits": 4,
    "name": {
-    "he": "קרטוס - מערכות ביטחון ורחפנים",
-    "en": "Kratos Defense & Security Solutions",
-    "ar": "كراتوس - أنظمة الدفاع والأمن",
-    "ru": "Kratos Defense & Security Solutions - оборонные системы"
+    "he": "קראטוס - מפתחת רחפנים ומערכות הגנה",
+    "en": "Kratos Defense & Security Solutions – Drones and defense tech",
+    "ar": "Kratos - مطورة الطائرات بدون طيار وتكنولوجيا الدفاع",
+    "ru": "Kratos — разработчик беспилотников и оборонных систем"
    },
    "avg_edge": -0.96
   },
@@ -534,7 +534,7 @@
    "avg_edge": -0.97
   },
   "VGK": {
-   "mentions": 40,
+   "mentions": 41,
    "n": 30,
    "hits": 12,
    "name": {
@@ -822,14 +822,14 @@
    "avg_edge": -0.58
   },
   "XAR": {
-   "mentions": 17,
+   "mentions": 18,
    "n": 15,
    "hits": 9,
    "name": {
-    "he": "XAR - קרן סל תעופה וביטחון",
-    "en": "XAR - Aerospace & Defense ETF",
-    "ar": "XAR - صندوق الاستثمار المتداول للطيران والدفاع",
-    "ru": "XAR - ETF аэрокосмической и оборонной промышленности"
+    "he": "XAR - קרן סל לתעופה וביטחון",
+    "en": "XAR – Aerospace & Defense ETF",
+    "ar": "XAR - صندوق סל للطيران والدفاع",
+    "ru": "XAR — ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": 1.23
   },
@@ -1326,14 +1326,14 @@
    "avg_edge": 1.58
   },
   "EWT": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "EWT - קרן סל על שוק טאיוואן",
-    "en": "EWT - Taiwan ETF",
-    "ar": "EWT - صندوق الاستثمار في تايوان",
-    "ru": "EWT - ETF рынка Тайваня"
+    "he": "EWT - קרן סל לשוק המניות של טאיוואן / אזורי",
+    "en": "EWT – MSCI Taiwan ETF",
+    "ar": "EWT - صندوق סל لأسهم تايوان",
+    "ru": "EWT — ETF акций Тайваня"
    },
    "avg_edge": 3.23
   },

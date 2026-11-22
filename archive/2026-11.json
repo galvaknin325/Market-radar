@@ -138206,6 +138206,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GVndHNW5VaExFQUJaT0c3dXY0TWlVXy0tNUF5aUN0UXFuN2pJYThra1VGNVVjQVAyTVZCdV9CYVhPVDh4cFVSYU5YTTBUV2xZaC1IS1lqS1R4Z0VCRUVONEhOMzJvZw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43WUNQUE5hNjZ2SkE4LV81M0JicTlEcG1FSEdhZUlDNGRKTDVrdGV4YUs5SURJM3BDQ1NYZUVZUHFQMzJXeWdTTkR5RHBGWHlxaHhWbWNhRGJZQzhvOEdKTEg0QQ?oc=5"
    }
   ],
   "impacts": [
@@ -138265,6 +138269,25 @@
      "ru": "EEM – ETF развивающихся рынков"
     },
     "price_at_alert": 53.84
+   },
+   {
+    "ticker": "VGK",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "התרחבות הסחר הבינלאומי תומכת בצמיחה הכלכלית באירופה",
+    "reason_i18n": {
+     "he": "התרחבות הסחר הבינלאומי תומכת בצמיחה הכלכלית באירופה",
+     "en": "Expansion of international trade supports economic growth in Europe",
+     "ar": "توسع التجارة الدولية يدعم النمو الاقتصادي في أوروبا",
+     "ru": "Расширение международной торговли поддерживает экономический рост в Европе"
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל על שוק המניות האירופי",
+     "en": "VGK – Vanguard FTSE Europe ETF",
+     "ar": "VGK - صندوق סל للأسهم الأوروبية",
+     "ru": "VGK — ETF европейского рынка акций"
+    },
+    "price_at_alert": 82.61
    }
   ],
   "id": "da0660aaca9b",
@@ -138280,9 +138303,21 @@
      "ar": "وقع الاتحاد الأوروبي وإندונזيا اتفاقية تجارية بارزة بعد عقد من المفاوضات وسط تحولات التجارة العالمية.",
      "ru": "Европейский союз и Индонезия официально подписали знаковое торговое соглашение после десятилетия переговоров."
     }
+   },
+   {
+    "ts": 1795319808,
+    "time": "2026-11-22T03:56Z",
+    "severity": 5,
+    "summary": "האיחוד האירופי ואינדונזיה חתמו רשמית על הסכם סחר חופשי היסטורי המבטיח להגביר את שיתוף הפעצוע הכלכלי והייצוא.",
+    "i18n": {
+     "he": "האיחוד האירופי ואינדונזיה חתמו רשמית על הסכם סחר חופשי היסטורי המבטיח להגביר את שיתוף הפעצוע הכלכלי והייצוא.",
+     "en": "The European Union and Indonesia have officially signed a landmark trade deal promising to boost economic cooperation and exports.",
+     "ar": "وقع الاتحاد الأوروبي وإندونيسيا رسمياً اتفاقية تجارة حرة تاريخية تعد بتعزيز التعاون الاقتصادي والصادرات.",
+     "ru": "Европейский союз и Индонезия официально подписали историческое торговое соглашение, обещающее укрепление экономического сотрудничества."
+    }
    }
   ],
-  "last_update": 1795316661
+  "last_update": 1795319808
  },
  {
   "ts": 1795289081,
@@ -138941,12 +138976,16 @@
    }
   },
   "category": "geopolitics",
-  "severity": 1,
+  "severity": 3,
   "confidence": "high",
   "sources": [
    {
     "name": "BBC World",
     "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -138970,7 +139009,22 @@
     "price_at_alert": 72.18
    }
   ],
-  "id": "9b850f692dcb"
+  "id": "9b850f692dcb",
+  "updates": [
+   {
+    "ts": 1795319808,
+    "time": "2026-11-22T03:56Z",
+    "severity": 3,
+    "summary": "שבעה חמושים מאבטחים וארבעה חיילים נהרגו במבצע מעצר של ראש הקרטל פאוקו איסידרו מזה פלורס במקסיקו.",
+    "i18n": {
+     "he": "שבעה חמושים מאבטחים וארבעה חיילים נהרגו במבצע מעצר של ראש הקרטל פאוקו איסידרו מזה פלורס במקסיקו.",
+     "en": "Seven alleged cartel gunmen and four soldiers were killed during an operation to arrest cartel boss Fausto Isidro Meza Flores in Mexico.",
+     "ar": "قتل سبعة مسلحين و４ جنود خلال عملية القبض على زعيم العصابة فاوستو إيسيدرو ميزا فلوريس في المكسيك.",
+     "ru": "Семь боевиков картеля и четверо военных погибли в ходе операции по аресту наркобарона Фаусто Исидро Месы Флореса в Мексике."
+    }
+   }
+  ],
+  "last_update": 1795319808
  },
  {
   "ts": 1795297183,
@@ -139950,5 +140004,394 @@
    }
   ],
   "id": "e07715dd4ae3"
+ },
+ {
+  "ts": 1795319808,
+  "time": "2026-11-22T03:56Z",
+  "title": "איראן מציגה 'עיר טילים' על רקע המאמצים הדיפלומטיים",
+  "summary": "איראן פרסמה תיעוד של 'עיר טילים' תת-קרקעית בעוד המאמצים הדיפלומטיים לסיום הלחימה נמשכים, וכן נרשמו פעולות חריגות באזור המפרץ.",
+  "kid": "איראן הציגה בסיסי טילים חדשים בזמן שמנסים להגיע להסכם דיפלומטי. מתחים אלו יכולים להשפיע על מחירי הנפט והחברות בתחום האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "איראן מציגה 'עיר טילים' על רקע המאמצים הדיפלומטיים",
+    "en": "Iran Unveils 'Missile City' Amid Ongoing Diplomatic Efforts",
+    "ar": "إيران تكشف عن 'مدينة صواريخ' وسط استمرار الجهود الدبلوماسية",
+    "ru": "Иран представил «город ракет» на фоне дипломатических усилий"
+   },
+   "summary": {
+    "he": "איראן פרסמה תיעוד של 'עיר טילים' תת-קרקעית בעוד המאמצים הדיפלומטיים לסיום הלחימה נמשכים, וכן נרשמו פעולות חריגות באזור המפרץ.",
+    "en": "Iran released footage of an underground 'missile city' as diplomatic efforts to end the conflict continue, alongside regional tensions.",
+    "ar": "نشرت إيران لقطات لـ'مدينة صواريخ' تحت الأرض مع استمرار الجهود الدبلوماسية لإنهاء الصراع، إلى جانب التوترات الإقليمية.",
+    "ru": "Иран опубликовал кадры подземного «города ракет», пока продолжаются дипломатические усилия по прекращению конфликта, на фоне региональной напряженности."
+   },
+   "kid": {
+    "he": "איראן הציגה בסיסי טילים חדשים בזמן שמנסים להגיע להסכם דיפלומטי. מתחים אלו יכולים להשפיע על מחירי הנפט והחברות בתחום האנרגיה.",
+    "en": "Iran showed new missile bases while diplomatic agreements are being attempted. These tensions can affect oil prices and energy companies.",
+    "ar": "عرضت إيران قواعد صواريخ جديدة بينما تُبذل محاولات للوصول إلى اتفاق دبلوماسي. يمكن أن تؤثر هذه التوترات على أسعار النفط وشركات الطاقة.",
+    "ru": "Иран показал новые ракетные базы на фоне попыток достичь дипломатического соглашения. Это может повлиять на цены на нефть и энергетические компании."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEtqWUdwVW9rejFyUGR6YVdGNnU2QUxCMUk4QjdRMXJqLUJBR1FKMUlPbG8yY3FUYk9tV3l3b2tOYlF6MDkxUjBOOHZtSmFSTUduVU9oTGNoUlVQTUhWd0k3ZEloV0xERXVKN1NMWmxzRjJ0RUtkY0FpNnNJWDI0V1lCV2xpVEhtcl8zTFppdktPZw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Jc1RNNVpqV0ZvaHIzRXR0RlFrUnhsVHpiak94WTR0SGxJR1Z4TTJwenR5SmRDTnlyUlZjVnM2bEh6QTJVbXRkc1F0bFBLbGpVSGdj?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "איומים ומתחים גיאופוליטיים במפרץ מעלים את פרמיית הסיכון לנפט",
+    "reason_i18n": {
+     "he": "איומים ומתחים גיאופוליטיים במפרץ מעלים את פרמיית הסיכון לנפט",
+     "en": "Geopolitical threats and tensions in the Gulf raise oil risk premiums",
+     "ar": "التهديدات والتوترات الجيوسياسية في الخليج ترفع علاوة مخاطر النفط",
+     "ru": "Геополитические угрозы и напряженность в Персидском заливе повышают нефтяные риски"
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל על מחיר הנפט הגולמי",
+     "en": "USO – United States Oil Fund",
+     "ar": "USO - صندوق סל لأسعار النفط",
+     "ru": "USO — ETF на нефть"
+    },
+    "price_at_alert": 139.63
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "מניות האנרגיה מרוויחות מעליית מחירי הנפט עקב חששות ביטחוניים",
+    "reason_i18n": {
+     "he": "מניות האנרגיה מרוויחות מעליית מחירי הנפט עקב חששות ביטחוניים",
+     "en": "Energy stocks benefit from rising oil prices due to security concerns",
+     "ar": "تستفيد أسهم الطاقة من ارتفاع أسعار النفط بسبب المخاوف الأمنية",
+     "ru": "Энергетические акции выигрывают от роста цен на нефть из-за безопасности"
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל של סקטור האנרגיה האמריקאי",
+     "en": "XLE – Energy Select Sector SPDR Fund",
+     "ar": "XLE - صندوق סל لقطاع الطاقة الأمريكي",
+     "ru": "XLE — ETF энергетического сектора США"
+    },
+    "price_at_alert": 60.51
+   }
+  ],
+  "id": "07944944d6b0"
+ },
+ {
+  "ts": 1795319808,
+  "time": "2026-11-22T03:56Z",
+  "title": "יוזמה אמריקאית להטלת סעיפים נגד מתנחלים והגבלת נשק",
+  "summary": "מחוקקים אמריקאים בראשות האקים ג'פריז מקדמים סנקציות נגד מתנחלים אלימים ודנים בהגבלת מכירות נשק.",
+  "kid": "פוליטיקאים בארה\"ב רוצים להטיל עונשים על מתנחלים אלימים ולשקול הגבלה על מכירת נשק. חדשות כאלו יכולות להשפיע על מניות של חברות ביטחוניות גדולות.",
+  "i18n": {
+   "title": {
+    "he": "יוזמה אמריקאית להטלת סעיפים נגד מתנחלים והגבלת נשק",
+    "en": "US Push for Settler Sanctions and Arms Sale Restrictions",
+    "ar": "جهود أمريكية لفرض عقوبات على المستوطنين وتقييد مبيعات الأسلحة",
+    "ru": "США продвигают санкции против поселенцев и ограничение поставок оружия"
+   },
+   "summary": {
+    "he": "מחוקקים אמריקאים בראשות האקים ג'פריז מקדמים סנקציות נגד מתנחלים אלימים ודנים בהגבלת מכירות נשק.",
+    "en": "US lawmakers led by Hakeem Jeffries are pushing for sanctions against violent settlers and discussing restrictions on arms sales.",
+    "ar": "المشرعون الأمريكيون بقيادة حكيم جيفريز يدفعون باتجاه فرض عقوبات على المستوطنين العنيفين ويناقشون تقييد مبيعات الأسلحة.",
+    "ru": "Американские законодатели во главе с Хакимом Джеффризом добиваются санкций против агрессивных поселенцев и обсуждают ограничения на продажи оружия."
+   },
+   "kid": {
+    "he": "פוליטיקאים בארה\"ב רוצים להטיל עונשים על מתנחלים אלימים ולשקול הגבלה על מכירת נשק. חדשות כאלו יכולות להשפיע על מניות של חברות ביטחוניות גדולות.",
+    "en": "US politicians want to punish violent settlers and consider limiting weapons sales. News like this can affect the stocks of big defense companies.",
+    "ar": "يريد السياسيون الأمريكيون معاقبة المستوطنين العنيفين والنظر في تقييد مبيعات الأسلحة. يمكن أن تؤثر هذه الأخبار على أسهم شركات الدفاع الكبرى.",
+    "ru": "Политики в США хотят наказать агрессивных поселенцев и ограничить продажу оружия. Такие новости могут повлиять на акции крупных оборонных компаний."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd19SZFZQUUJSR2VBZHlSSVkzWG9WaGJrVUZxYjhBUTRtM2Z1NEEyZ1JrQ2FmOF9fQXA3RGRrdzdQZ0RPVVBqQVdJdjU4cjFndk5USkh4QmJKNE1iSUdCX0VvR3dSR1FEVFdqb0JlWWhHXzllUnBORHNURGtjSjl4ZlpKbXZPOGhlTlJlemltT0pjTkhxcnJaZlZoTFBlaFBseG83RWNZaDN4LVZlTENON1JNUUNCUdIBuwFBVV95cUxOUUU2MktWaUpXalFhaUVOU1FxQnRJLU9OU2QxRUh2Q1NOVVBTX3hLRUprZTVlMWpiNGpwUGN1R3RPTWt6WTc3Y05WeDlSbmRxRVFaU0pSWUN0T1JESjlyUjRXNXFtb2RfTWlNaFFnU2tlRW93YU9UbzZNWWZqRkN3R3B5U0tpTTdUWFZ2QUg0V3ZTS1JXenpFbU14QWUzM3dMSk95c0hVbEYxMGNOb1JvcEdtNkNtTThVblow?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "down",
+    "t0": 1795319808,
+    "reason": "דיונים על הגבלת מכירות נשק עלולים להשפיע על סקטור הביטחון",
+    "reason_i18n": {
+     "he": "דיונים על הגבלת מכירות נשק עלולים להשפיע על סקטור הביטחון",
+     "en": "Discussions on restricting arms sales could impact the defense sector",
+     "ar": "مناقشات تقييد مبيعات الأسلحة قد تؤثر على قطاع الدفاع",
+     "ru": "Обсуждения ограничений на продажу оружия могут затронуть оборонный сектор"
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל של חברות תעופה וביטחון",
+     "en": "ITA – Aerospace & Defense ETF",
+     "ar": "ITA - صندوق סל للطيران والدفاع",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 66.17
+   },
+   {
+    "ticker": "LMT",
+    "direction": "down",
+    "t0": 1795319808,
+    "reason": "אפשרות להגבלות על ייצוא נשק עלולה לפגוע בהזמנות",
+    "reason_i18n": {
+     "he": "אפשרות להגבלות על ייצוא נשק עלולה לפגוע בהזמנות",
+     "en": "Potential arms export restrictions could weigh on orders",
+     "ar": "القيود المحتملة على تصدير الأسلحة قد تؤثر على الطلبات",
+     "ru": "Потенциальные ограничения на экспорт оружия могут повлиять на заказы"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - יצרנית ביטחונית ענקית",
+     "en": "Lockheed Martin – A major defense manufacturer",
+     "ar": "لوكهيد مارتن - شركة تصنيع دفاعية كبرى",
+     "ru": "Lockheed Martin — крупный производитель продукции военного назначения"
+    },
+    "price_at_alert": 565.5
+   }
+  ],
+  "id": "75f11970db5a"
+ },
+ {
+  "ts": 1795319808,
+  "time": "2026-11-22T03:56Z",
+  "title": "מתקפות סייבר מסיביות על המערכת הפיננסית באינדונזיה",
+  "summary": "הבנקים באינדונזיה ספגו כ-1.2 מיליון ניסיונות מתקפת סייבר בתוך 24 שעות בלבד, מה שמדגיש את האיומים המוגברים על תשתיות פיננסיות.",
+  "kid": "היו המון ניסיונות לפרוץ למערכות הבנקאיות באינדונזיה. חדשות כאלו מזכירות כמה חשובה אבטחת מידע, ויכולות להשפיע על חברות סייבר שמגנות על בנקים.",
+  "i18n": {
+   "title": {
+    "he": "מתקפות סייבר מסיביות על המערכת הפיננסית באינדונזיה",
+    "en": "Massive Cyberattacks Target Indonesia's Banking Sector",
+    "ar": "هجمات سيبرانية واسعة النطاق تستهدف القطاع المصرفي في إندونيسيا",
+    "ru": "Масштабные кибератаки на банковский сектор Индонезии"
+   },
+   "summary": {
+    "he": "הבנקים באינדונזיה ספגו כ-1.2 מיליון ניסיונות מתקפת סייבר בתוך 24 שעות בלבד, מה שמדגיש את האיומים המוגברים על תשתיות פיננסיות.",
+    "en": "Indonesian banks faced approximately 1.2 million cyberattack attempts in just 24 hours, highlighting heightened threats to financial infrastructure.",
+    "ar": "واجهت البنوك الإندونيسية نحو 1.2 مليون محاولة هجوم سيبراني في غضون 24 ساعة فقط، مما يسلط الضوء على التهديدات المتزايدة للبنية التحتية المالية.",
+    "ru": "Индонезийские банки столкнулись примерно с 1,2 млн попыток кибератак всего за 24 часа, что подчеркивает растущие угрозы финансовой инфраструктуре."
+   },
+   "kid": {
+    "he": "היו המון ניסיונות לפרוץ למערכות הבנקאיות באינדונזיה. חדשות כאלו מזכירות כמה חשובה אבטחת מידע, ויכולות להשפיע על חברות סייבר שמגנות על בנקים.",
+    "en": "There were many attempts to break into banking systems in Indonesia. Such news reminds us how important cybersecurity is, and can affect cyber firms that protect banks.",
+    "ar": "كانت هناك محاولات عديدة لاختراق الأنظمة المصرفية في إندونيسيا. تذكرنا مثل هذه الأخبار بمدى أهمية الأمن السيبراني، ويمكن أن تؤثر على شركات الأمان التي تحمي البنوك.",
+    "ru": "Было зафиксировано множество попыток взлома банковских систем в Индонезии. Такие новости напоминают о важности кибербезопасности и могут повлиять на ИБ-компании."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FSkZiY0U5X011X1dTTUVQbG9WaFp5ZnhhX2ljNjdad0Jvall4LUNEZEk5Vk85LXNPMVByV0RXV1MxLWRJbk10QWstN2gxaGtKOG5xelpZU0xYZkFYZjl5WWd6MHA3RFBKSkZ6T0tXNWNBTDky?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "עלייה במודעות לאיומי סייבר ממריצה את הביקוש לשירותי הגנה",
+    "reason_i18n": {
+     "he": "עלייה במודעות לאיומי סייבר ממריצה את הביקוש לשירותי הגנה",
+     "en": "Increased awareness of cyber threats boosts demand for defense services",
+     "ar": "زيادة الوعي بالتهديدات السيبرانية تعزز الطلب على خدمات الحماية",
+     "ru": "Повышение осведомленности о киберугрозах стимулирует спрос на защиту"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - חברת אבטחת סייבר",
+     "en": "CrowdStrike – Cybersecurity firm",
+     "ar": "CrowdStrike - شركة أمن سيبراني",
+     "ru": "CrowdStrike — компания по кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   },
+   {
+    "ticker": "EWT",
+    "direction": "down",
+    "t0": 1795319808,
+    "reason": "חשש מיציבות פיננסית אזורית בעקבות מתקפות סייבר",
+    "reason_i18n": {
+     "he": "חשש מיציבות פיננסית אזורית בעקבות מתקפות סייבר",
+     "en": "Concerns over regional financial stability following cyberattacks",
+     "ar": "مخاوف بشأن الاستقرار المالي الإقليمي في أعقاب الهجمات السيبرانية",
+     "ru": "Опасения по поводу региональной финансовой стабильности после атак"
+    },
+    "name_i18n": {
+     "he": "EWT - קרן סל לשוק המניות של טאיוואן / אזורי",
+     "en": "EWT – MSCI Taiwan ETF",
+     "ar": "EWT - صندوق סל لأسهم تايوان",
+     "ru": "EWT — ETF акций Тайваня"
+    },
+    "price_at_alert": 74.77
+   }
+  ],
+  "id": "50a802b563ec"
+ },
+ {
+  "ts": 1795319808,
+  "time": "2026-11-22T03:56Z",
+  "title": "חברות סיניות זוכות במאות מכרזי רְחפנים צבאיים וממשלתיים",
+  "summary": "מחקר חדש חושף ש-16 מותגים סיניים זכו ב-689 מכרזי רחפנים צבאיים וממשלתיים שונים מאז שנת 2021.",
+  "kid": "חברות מסין זכו בהרבה מכרזים לספק רחפנים לצבא ולממשלה. זה עשוי להשפיע על חברות אמריקאיות שמייצרות רחפנים ומתחרות מול סין.",
+  "i18n": {
+   "title": {
+    "he": "חברות סיניות זוכות במאות מכרזי רְחפנים צבאיים וממשלתיים",
+    "en": "Chinese Brands Secure Hundreds of Military and Government Drone Tenders",
+    "ar": "علامات تجارية صينية تفوز بمئات مناقصات الطائرات بدون طيار العسكرية والحكومية",
+    "ru": "Китайские бренды выиграли сотни военных и правительственных тендеров на дроны"
+   },
+   "summary": {
+    "he": "מחקר חדש חושף ש-16 מותגים סיניים זכו ב-689 מכרזי רחפנים צבאיים וממשלתיים שונים מאז שנת 2021.",
+    "en": "A new report reveals that 16 Chinese brands have been named in 689 military and government drone tenders since 2021.",
+    "ar": "يكشف تقرير جديد أن 16 علامة تجارية صينية فازت بـ 689 مناقصة للطائرات بدون طيار عسكرية و حكومية منذ عام 2021.",
+    "ru": "Новый отчет показывает, что 16 китайских брендов выиграли 689 военных и правительственных тендеров на беспилотники с 2021 года."
+   },
+   "kid": {
+    "he": "חברות מסין זכו בהרבה מכרזים לספק רחפנים לצבא ולממשלה. זה עשוי להשפיע על חברות אמריקאיות שמייצרות רחפנים ומתחרות מול סין.",
+    "en": "Chinese companies won many drone supply tenders for military and government use. This could impact American drone-making companies competing with China.",
+    "ar": "فازت الشركات الصينية بالعديد من مناقصات توريد الطائرات بدون طيار للجيش والحكومة. قد يؤثر ذلك على الشركات الأمريكية المصنعة للطائرات بدون طيار التي تنافس الصين.",
+    "ru": "Китайские компании выиграли множество тендеров на поставку дронов для военных. Это может повлиять на американских производителей беспилотников."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdUFCQ2JlX2hWZ0xScHhhcUpJYnp2NDdRMGM2ckJCa0RhdmRnLU1zUVVQYkNXLTJMWEc0UmYxZnFMM3dlaWNZUzN1TFVPRW5BV1pGWXlYNkdZZGFGMG9MM0xUbkFPakQ1R2RqaVN4V2RUYUt0RmRCZy1BZ0VBNGw2aTdwQVI3OW5GeDA3QzBDd2QzRlhySFRwR3hfSFN4bEc4S0Y3c19B?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "הגברת התחרות מול טכנולוגיות סיניות עשויה לעורר דרישה לתמיכה ממשלתית בחברות מקומיות",
+    "reason_i18n": {
+     "he": "הגברת התחרות מול טכנולוגיות סיניות עשויה לעורר דרישה לתמיכה ממשלתית בחברות מקומיות",
+     "en": "Intensifying competition with Chinese tech may drive domestic support",
+     "ar": "تصاعد المنافسة مع التكنولوجيا الصينية قد يحفز الدعم الحكومي للشركات المحلية",
+     "ru": "Усиление конкуренции с китайскими технологиями может стимулировать поддержку США"
+    },
+    "name_i18n": {
+     "he": "ארווירונמנט - יצרנית רחפנים וכלים בלתי מאוישים",
+     "en": "AeroVironment – Drone and unmanned systems manufacturer",
+     "ar": "AeroVironment - مصنعة الطائرات بدون طيار والأنظمة غير المأهولة",
+     "ru": "AeroVironment — производитель дронов и беспилотных систем"
+    },
+    "price_at_alert": 86.79
+   },
+   {
+    "ticker": "KTOS",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "מיקוד גובר על שוק הרחפנים והכלים הבלתי מאוישים",
+    "reason_i18n": {
+     "he": "מיקוד גובר על שוק הרחפנים והכלים הבלתי מאוישים",
+     "en": "Growing focus on the drone and unmanned systems market",
+     "ar": "التركيز المتزايد على سوق الطائرات بدون طيار والأنظمة غير المأهولة",
+     "ru": "Растущий фокус на рынке беспилотников и систем"
+    },
+    "name_i18n": {
+     "he": "קראטוס - מפתחת רחפנים ומערכות הגנה",
+     "en": "Kratos Defense & Security Solutions – Drones and defense tech",
+     "ar": "Kratos - مطورة الطائرات بدون طيار وتكنولوجيا الدفاع",
+     "ru": "Kratos — разработчик беспилотников и оборонных систем"
+    },
+    "price_at_alert": 26.89
+   }
+  ],
+  "id": "cd7daf29f907"
+ },
+ {
+  "ts": 1795319808,
+  "time": "2026-11-22T03:56Z",
+  "title": "ארה\"ב מפתחת תחליף זול לטילי סטינגר",
+  "summary": "ארצות הברית מפתחת מערכת חדשה שתחליף את טילי הסטינגר, עם טווח של עד 8 ק\"מ ועלות מוזלת של כ-200,000 דולר ליחידה.",
+  "kid": "צבא ארה\"ב מפתח טילים חדשים וזולים יותר שיחליפו את טילי הסטינגר הישנים. זה יכול להשפיע על חברות הביטחון שמייצרות נשק דומה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מפתחת תחליף זול לטילי סטינגר",
+    "en": "US Developing Low-Cost Stinger Missile Replacement",
+    "ar": "الولايات المتحدة تطور بديلاً رخيص الثمن لصواريخ ستينغر",
+    "ru": "США разрабатывают дешевую замену ракетам Stinger"
+   },
+   "summary": {
+    "he": "ארצות הברית מפתחת מערכת חדשה שתחליף את טילי הסטינגר, עם טווח של עד 8 ק\"מ ועלות מוזלת של כ-200,000 דולר ליחידה.",
+    "en": "The United States is developing a new system to replace Stinger missiles, targeting a range of up to 8 km and a reduced cost of around $200,000.",
+    "ar": "تطور الولايات المتحدة نظاماً جديداً ليحل محل صواريخ ستينغر، بمدى يصل إلى 8 كم وتكلفة مخفضة تبلغ حوالي 200,000 دولار.",
+    "ru": "США разрабатывают новую систему на замену ракетам Stinger с дальностью до 8 км и сниженной стоимостью около 200 000 долларов."
+   },
+   "kid": {
+    "he": "צבא ארה\"ב מפתח טילים חדשים וזולים יותר שיחליפו את טילי הסטינגר הישנים. זה יכול להשפיע על חברות הביטחון שמייצרות נשק דומה.",
+    "en": "The US military is developing cheaper new missiles to replace old Stinger missiles. This can impact defense companies that make similar weapons.",
+    "ar": "جيش الولايات المتحدة يطور صواريخ جديدة وأرخص ليحل محل صواريخ ستينغر القديمة. هذا يمكن أن يؤثر على شركات الدفاع التي تصنع أسلحة مماثلة.",
+    "ru": "Американские военные разрабатывают новые и более дешевые ракеты на замену старым Stinger. Это может повлиять на оборонные компании, производящие аналогичное оружие."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMnE4eUxQc1J0SjZ0dTdDX2dTeTgzTWlEay1PZElGemNseklVa0lJZDRsaFlMRjlOVmNIVWx3b2Rab0l2MHAxb1NSeU4tZjRUaFhHT1kyRTlOUC1GcTc2emFzb1FmZzY3akxiQzQ2bzh5MHNjclQ0bFNIWTlscEkyNlFtdVVoTW91cVpvaU1xTnBpaTFSaTVoc2ZGcVhUQlpmLXh6RzJ5VDRKTTZudm9WVnlFZWI5Y2FlY0xxRTBxSnlXd1ItaXVlWkludm5iYlA1WjRzeEVzZElxU25RRkFfU1NSQVQtLUZJNEFUZGxLQXk4NzJIVjRhdtIB9wFBVV95cUxQdVJIdzJRZUYxa3NpeDJtNmZTNElVNDIxay1zOU5ZQnVvTzNFM0VvaEpvVkx6YThaVTU0QW5tclNHc09VQmVLZTRnOFpRWUFLUG9rNEVwcVZacS1UU2R4MnhWSzdlRzFPWmZCVzF0TlBScVJQdHUwd3I4UC1Fa2ZDMnFLel81dnpOUlhGYnlxQmQ2ZGoyQVVqTEpRbmt1eEVIbGlCQXprbG1lX2o5QlFzSXo2QS1GWUxDZEdBUTJfUzdGU3FnUC1qQTlsOWhsVHJ3UU1tUjl1WmVCWEZYRENQV0FsZFc4T3Zod3ZVUjd2aElfNmpEMlYw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "מעורבות בפיתוח תחליפים צבאיים מתקדמים",
+    "reason_i18n": {
+     "he": "מעורבות בפיתוח תחליפים צבאיים מתקדמים",
+     "en": "Involvement in developing advanced military replacements",
+     "ar": "المشاركة في تطوير بدائل عسكرية متقدمة",
+     "ru": "Участие в разработке передовых военных аналогов"
+    },
+    "name_i18n": {
+     "he": "רת'יאון - יצרנית טילי סטינגר",
+     "en": "RTX – Manufacturer of Stinger missiles",
+     "ar": "RTX - الشركة المصنعة لصواريخ ستينغر",
+     "ru": "RTX — производитель ракет Stinger"
+    },
+    "price_at_alert": 190.17
+   },
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1795319808,
+    "reason": "חוזים ממשלתיים חדשים בפיתוח טכנולוגיות טילים",
+    "reason_i18n": {
+     "he": "חוזים ממשלתיים חדשים בפיתוח טכנולוגיות טילים",
+     "en": "New government contracts in missile tech development",
+     "ar": "عقود حكومية جديدة في تطوير تكنولوجيا الصواريخ",
+     "ru": "Новые госконтракты на разработку ракетных технологий"
+    },
+    "name_i18n": {
+     "he": "XAR - קרן סל לתעופה וביטחון",
+     "en": "XAR – Aerospace & Defense ETF",
+     "ar": "XAR - صندوق סל للطيران والدفاع",
+     "ru": "XAR — ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 205.58
+   }
+  ],
+  "id": "599be49fdb78"
  }
 ]
