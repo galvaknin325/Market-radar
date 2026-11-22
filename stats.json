@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-21T23:53Z",
+ "generated": "2026-11-22T00:59Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1308,
+ "total_alerts": 1311,
  "overall": {
   "n": 929,
   "hits": 466,
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 142,
+   "mentions": 143,
    "n": 133,
    "hits": 69,
    "name": {
-    "he": "קרן נפט",
-    "en": "Oil ETF",
+    "he": "קרן סל על נפט",
+    "en": "USO – Oil Fund",
     "ar": "صندوق النفط",
-    "ru": "Нефтяной ETF"
+    "ru": "Нефтяной фонд"
    },
    "avg_edge": 0.01
   },
   "XLE": {
-   "mentions": 127,
+   "mentions": 128,
    "n": 113,
    "hits": 66,
    "name": {
-    "he": "XLE - קרן סל אנרגיה",
-    "en": "XLE - Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE - ETF энергетического сектора"
+    "he": "קרן סל על מגזר האנרגיה",
+    "en": "XLE – Energy Sector ETF",
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.03
   },
@@ -114,26 +114,26 @@
    "avg_edge": 0.84
   },
   "XOM": {
-   "mentions": 52,
+   "mentions": 54,
    "n": 45,
    "hits": 18,
    "name": {
-    "he": "XOM - אקסון מוביל, ענקית אנרגיה",
-    "en": "XOM - Exxon Mobil, a major energy company",
-    "ar": "XOM - إكسون موبيل، شركة طاقة كبرى",
-    "ru": "XOM - Exxon Mobil, крупная энергетическая компания"
+    "he": "אקסון מוביל – חברת אנרגיה",
+    "en": "ExxonMobil – Energy Company",
+    "ar": "إكسون موبيل - شركة طاقة",
+    "ru": "ExxonMobil — энергетическая компания"
    },
    "avg_edge": -0.22
   },
   "ZIM": {
-   "mentions": 48,
+   "mentions": 49,
    "n": 45,
    "hits": 28,
    "name": {
-    "he": "חברת ספנות",
-    "en": "Shipping company",
-    "ar": "شركة شحن",
-    "ru": "Судоходная компания"
+    "he": "צים – חברת ספנות ימית",
+    "en": "ZIM – Shipping Company",
+    "ar": "צים - شركة شحن",
+    "ru": "ZIM — судоходная компания"
    },
    "avg_edge": 0.84
   },
@@ -306,7 +306,7 @@
    "avg_edge": 0.1
   },
   "LMT": {
-   "mentions": 92,
+   "mentions": 93,
    "n": 79,
    "hits": 50,
    "name": {
@@ -318,14 +318,14 @@
    "avg_edge": 0.01
   },
   "FXE": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 18,
    "hits": 5,
    "name": {
-    "en": "Invesco CurrencyShares Euro Trust",
-    "he": "קרן מטבע אירו – FXE",
+    "he": "קרן סל על האירו",
+    "en": "FXE – Euro Currency Trust",
     "ar": "صندوق اليورو",
-    "ru": "Invesco CurrencyShares Euro Trust"
+    "ru": "Фонд евро"
    },
    "avg_edge": -1.25
   },
@@ -510,14 +510,14 @@
    "avg_edge": 0.35
   },
   "INDA": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 26,
    "hits": 15,
    "name": {
-    "he": "INDA - קרן סל על שוק המניות של הודו",
-    "en": "INDA - iShares MSCI India ETF",
-    "ar": "INDA - صندوق الأسهم الهندية",
-    "ru": "INDA - ETF индийского рынка акций"
+    "he": "קרן סל על שוק המניות של הודו",
+    "en": "INDA – India ETF",
+    "ar": "صندوق أسهم الهند",
+    "ru": "ETF акций Индии"
    },
    "avg_edge": 0.48
   },
@@ -666,14 +666,14 @@
    "avg_edge": 0.99
   },
   "TRV": {
-   "mentions": 21,
+   "mentions": 22,
    "n": 16,
    "hits": 11,
    "name": {
-    "he": "טרוולרס (ביטוח)",
-    "en": "Travelers (Insurance)",
-    "ar": "ترافيلرز (تأمين)",
-    "ru": "Travelers (страхование)"
+    "he": "טרבלרס – חברת ביטוח",
+    "en": "Travelers – Insurance Company",
+    "ar": "ترافرز - شركة تأمين",
+    "ru": "Travelers — страховая компания"
    },
    "avg_edge": -0.56
   },
@@ -846,14 +846,14 @@
    "avg_edge": 4.54
   },
   "XLI": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 10,
    "hits": 7,
    "name": {
-    "he": "תעודת סל על סמך מניות התעשייה בארה\"ב",
-    "en": "XLI – US Industrial Sector ETF",
-    "ar": "XLI - صندوق قطاع الصناعات الأمريكية",
-    "ru": "XLI – ETF промышленного сектора США"
+    "he": "קרן סל על מגזר התעשייה האמריקאי",
+    "en": "XLI – Industrials Sector ETF",
+    "ar": "صندوق قطاع الصناعة",
+    "ru": "ETF промышленного сектора"
    },
    "avg_edge": 0.49
   },
