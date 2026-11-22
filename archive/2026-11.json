@@ -138046,6 +138046,14 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdXZqSjBJcHplN1l5dzlTcFE3TDlLR3d0TjUyTWxtcVpWbGRhdDNoTGNMSWpSS0pJNk80TzB0UWgxc0RuSG5SWjd6WFc1SG9fSjBnS3JVb01kZlo2NFMwUDNaQnItbFMwVmJScGFwb0FXME13Znhna2RnVVBDZXVVYlR4REh6ZGV1dUFiMUpremxvdDlhS2Z0VldVRGtTWUt5?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Cc3VfM0NfTThHQzVWMW51RVRPZ0J6YUstMEhkX0hZOUFPZ0JmaFE0R2FsdUoxSEFrTVlHM2Q1U0xKZm1xdEVHTjNXc3dKZXE0TnJLbnpKS1AwdFd1eERRWllyWUtxN2c?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVzFHQ0ctTFRfcEd6NFh2MW1vUlJfWlpYWHJZMTJoSEZWdlNEMHFNSkp1VXY1M3JBbTVuZFhyVDZoQlVFNmoycFRCTGFpWWhCMUE3VlhBcGRLWVZGUDcyY0g5ZURJODdaa2RhRlFIVXFYbnVJZ3Z5ZzFxQlZUQ0JRVmMteVZOR2lGR0gwdDZLR3NaNEk?oc=5"
    }
   ],
   "impacts": [
@@ -138120,9 +138128,21 @@
      "ar": "تخوض اليونان وإسرائيل مناقشات متقدمة بشأن صفقات دفاعية جديدة تصل قيمتها إلى مليار يورو لتعزيز القدرات العسكرية.",
      "ru": "Греция и Израиль ведут переговоры о новых оборонных сделках на сумму до 1 миллиарда евро для укрепления военного потенциала."
     }
+   },
+   {
+    "ts": 1795341017,
+    "time": "2026-11-22T09:50Z",
+    "severity": 5,
+    "summary": "יוון נמצאת במגעים מתקדמים לרכש ביטחוני נוסף מישראל בהיקף של מיליארד אירו, בעוד ישראל וגרמניה חתמו על הסכם שיתוף פעולה בחלל לעשר שנים.",
+    "i18n": {
+     "he": "יוון נמצאת במגעים מתקדמים לרכש ביטחוני נוסף מישראל בהיקף של מיליארד אירו, בעוד ישראל וגרמניה חתמו על הסכם שיתוף פעולה בחלל לעשר שנים.",
+     "en": "Greece is in advanced talks for an additional €1 billion in defense procurement from Israel, while Israel and Germany signed a 10-year space cooperation pact.",
+     "ar": "اليونان في محادثات متقدمة لشراء معدات دفاعية إضافية من إسرائيل بقيمة مليار يورو، بينما وقعت إسرائيل وألمانيا اتفاقية تعاون فضائي لمدة 10 سنوات.",
+     "ru": "Греция ведет продвинутые переговоры о новых закупках вооружений у Израиля на 1 млрд евро, в то время как Израиль и Германия подписали 10-жное соглашение о сотрудничестве в космосе."
+    }
    }
   ],
-  "last_update": 1795289081
+  "last_update": 1795341017
  },
  {
   "ts": 1795285408,
@@ -139762,7 +139782,12 @@
   "category": "geopolitics",
   "severity": 5,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOUJpQzdpRzctaFJyeUZXdldtNTZuU0NQMmNwUGJkWFpMYkl6akstREpsRk00OExDb3pjZTdPcnN6OU5BWFFGeldJRVQ2ZVZwT0M2NEIyZER3WU1vM2cwR2RmcFJtbFF0ZWlDbXF4QTJGN1gzaWFwc21OYVpocHg5TFFDdU1kUll2T0E4eXZHcE1iMlpuNmZfZFFBWjZXQ0lZcE5UYkhSUlVIUQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ZIM",
@@ -139801,9 +139826,62 @@
      "ru": "Travelers — страховая компания"
     },
     "price_at_alert": 393.24
+   },
+   {
+    "ticker": "BDRY",
+    "direction": "up",
+    "t0": 1795341017,
+    "reason": "שיבושים בנתיבי שיפון ומתיחות גיאופוליטית מעלים עלויות",
+    "reason_i18n": {
+     "he": "שיבושים בנתיבי שיפון ומתיחות גיאופוליטית מעלים עלויות",
+     "en": "Shipping lane disruptions and geopolitical tensions raise costs",
+     "ar": "اضطرابات خطوط الملاحة والتوترات الجيوسياسية ترفع التكاليف",
+     "ru": "Сбои на судоходных путях и геополитическая напряженность повышают издержки"
+    },
+    "name_i18n": {
+     "he": "קרן הובלה ימית יבשה",
+     "en": "DryBulk Shipping ETF",
+     "ar": "صندوق شحن البضائع الجافة",
+     "ru": "ETF сухогрузных перевозок"
+    },
+    "price_at_alert": 12.12
+   },
+   {
+    "ticker": "EWU",
+    "direction": "down",
+    "t0": 1795341017,
+    "reason": "מתח ביטחוני גובר בסמוך לגבולות אירופה מכביד על הסנטימנט",
+    "reason_i18n": {
+     "he": "מתח ביטחוני גובר בסמוך לגבולות אירופה מכביד על הסנטימנט",
+     "en": "Rising security tension near European borders weighs on sentiment",
+     "ar": "التوتر الأمن المتصاعد قرب الحدود الأوروبية يضغط على المعنويات",
+     "ru": "Рост напряженности у границ Европы негативно влияет на настроения"
+    },
+    "name_i18n": {
+     "he": "תעודת סל מניות בריטניה ואירופה",
+     "en": "UK and European Equities ETF",
+     "ar": "صندوق الأسهم البريطانية والأوروبية",
+     "ru": "ETF акций Великобритании и Европы"
+    },
+    "price_at_alert": 44.74
    }
   ],
-  "id": "3063d7d23c63"
+  "id": "3063d7d23c63",
+  "updates": [
+   {
+    "ts": 1795341017,
+    "time": "2026-11-22T09:50Z",
+    "severity": 4,
+    "summary": "אוניית מטען רוסית ממשיכה לעלות באש מול חופי פינלנד לאחר שנפגעה במתקפה ימית, אירוע המעורר דאגה לגבי ביטחון השייט בים הבלטי.",
+    "i18n": {
+     "he": "אוניית מטען רוסית ממשיכה לעלות באש מול חופי פינלנד לאחר שנפגעה במתקפה ימית, אירוע המעורר דאגה לגבי ביטחון השייט בים הבלטי.",
+     "en": "A Russian cargo ship remains on fire off the coast of Finland after suffering an attack, raising concerns over maritime security in the Baltic Sea region.",
+     "ar": "تستمر سفينة شحن روسية في الاشتعال قبالة سواحل فنلندا بعد تعرضها لهجوم بحري، مما يثير المخاوف بشأن الأمن البحري في منطقة بحر البلطيق.",
+     "ru": "Российское грузовое судно продолжает гореть у берегов Финляндии после атаки, вызывая озабоченность по поводу безопасности судоходства в Балтийском море."
+    }
+   }
+  ],
+  "last_update": 1795341017
  },
  {
   "ts": 1795309172,
@@ -140198,6 +140276,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd19SZFZQUUJSR2VBZHlSSVkzWG9WaGJrVUZxYjhBUTRtM2Z1NEEyZ1JrQ2FmOF9fQXA3RGRrdzdQZ0RPVVBqQVdJdjU4cjFndk5USkh4QmJKNE1iSUdCX0VvR3dSR1FEVFdqb0JlWWhHXzllUnBORHNURGtjSjl4ZlpKbXZPOGhlTlJlemltT0pjTkhxcnJaZlZoTFBlaFBseG83RWNZaDN4LVZlTENON1JNUUNCUdIBuwFBVV95cUxOUUU2MktWaUpXalFhaUVOU1FxQnRJLU9OU2QxRUh2Q1NOVVBTX3hLRUprZTVlMWpiNGpwUGN1R3RPTWt6WTc3Y05WeDlSbmRxRVFaU0pSWUN0T1JESjlyUjRXNXFtb2RfTWlNaFFnU2tlRW93YU9UbzZNWWZqRkN3R3B5U0tpTTdUWFZ2QUg0V3ZTS1JXenpFbU14QWUzM3dMSk95c0hVbEYxMGNOb1JvcEdtNkNtTThVblow?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVG1RWFpxS2hxRVhjS3VaS0JmZEM2QlhocVU2aFh1ekRpd095OU9veEdXTGNHVFJ4LV9WMmlvYVBlUE02TlVfNm4xVS1lMVlMc1RObC1MWEhjUFRlRy00QjhZYWVxa29Jekd1QXFoQXZ0NlBsZ1VCc2ZrWDhWNG5sTnJwZEhBelJlSWNWYXlpa2RYNk80Nkh3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMm1OMndQdk02cThtRDZTcTRpR09tZEhnUmJWdm42M3M5Z1FQSHJqWHVsR19UQW1mVmNpQXNKbllycEZLWGROUnp1SHgwZVVLaUE2dk5tUHpzWjVMYjFHemFpQUdaWDg1cFk5Qms1cG9JYmhDLUo4clFTVFdkRWpibk9VMnhSaU9POXEzeTVSYWlwOHA1OWZKamR4SlEzaW9lT1RlcFdoSllhX3BVa3lmOXVoTGg4TEpnVGVCc1VhTmRSdVQ5MnVMYV91TGJ4X3BkZ0JBTlkxTngxODFQNUVXNTBHZXFzYkVVY0E?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjZYRHVpbUdTVVlVTDNNX010cWJDY2FvT0FCTHQySVZibUstMWt0T1dOblQ0S25PNVBCRHFZUGVqcFBrWFdqN21pVmJkVUUyUUxRRTZVSWFQNHNpOHpIOHc2akszMkdFZDIySGZNaURRUUFHM0liM1o1OG9jN0lxeWtJczBFd3BuMS1QczRqQVltZzg4VzBGczlvTXJBZUZZMkl1ek81b2Z1WW5pZjJrUG8tZW1EUQ?oc=5"
    }
   ],
   "impacts": [
@@ -140238,9 +140328,62 @@
      "ru": "Lockheed Martin — крупный производитель продукции военного назначения"
     },
     "price_at_alert": 565.5
+   },
+   {
+    "ticker": "EIS",
+    "direction": "down",
+    "t0": 1795341017,
+    "reason": "חשש מלחצים דיפלומטיים וסנקציות עלול להכביד על השוק הישראלי",
+    "reason_i18n": {
+     "he": "חשש מלחצים דיפלומטיים וסנקציות עלול להכביד על השוק הישראלי",
+     "en": "Fear of diplomatic pressures and sanctions may weigh on Israeli market",
+     "ar": "الخوف من الضغوط الدبلوماسية والعقوبات قد يضغط على السوق الإسرائيلي",
+     "ru": "Опасения дипломатического давления и санкций могут давить на израильский рынок"
+    },
+    "name_i18n": {
+     "he": "תעודת סל מניות ישראל",
+     "en": "MSCI Israel ETF",
+     "ar": "صندوق المؤشرات المتداولة لإسرائيل",
+     "ru": "ETF акций Израиля"
+    },
+    "price_at_alert": 101.51
+   },
+   {
+    "ticker": "ESLT.TA",
+    "direction": "down",
+    "t0": 1795341017,
+    "reason": "רגישות לפוליטיקה ביטחונית וסנקציות אפשריות",
+    "reason_i18n": {
+     "he": "רגישות לפוליטיקה ביטחונית וסנקציות אפשריות",
+     "en": "Sensitivity to security politics and potential sanctions",
+     "ar": "الحساسية تجاه السياسات الأمنية والعقوبات المحتملة",
+     "ru": "Чувствительность к вопросам безопасности и потенциальным санкциям"
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות (בורסת תל אביב)",
+     "en": "Elbit Systems (TASE)",
+     "ar": "إلبيت سيستمز (بورصة تل أبيب)",
+     "ru": "Elbit Systems (ТАФР)"
+    },
+    "price_at_alert": 225060.0
    }
   ],
-  "id": "75f11970db5a"
+  "id": "75f11970db5a",
+  "updates": [
+   {
+    "ts": 1795341017,
+    "time": "2026-11-22T09:50Z",
+    "severity": 4,
+    "summary": "יושב ראש בית הנבחרים המיועד האקים ג'פריז ואישים נוספים מקדמים צעדים נגד פגיעה בגדה המערבית, בעוד גורמים בישראל ומחוצה לה מותחים ביקורת על הצעדים האפשריים.",
+    "i18n": {
+     "he": "יושב ראש בית הנבחרים המיועד האקים ג'פריז ואישים נוספים מקדמים צעדים נגד פגיעה בגדה המערבית, בעוד גורמים בישראל ומחוצה לה מותחים ביקורת על הצעדים האפשריים.",
+     "en": "Incoming US House Speaker Hakeem Jeffries and other leaders back early actions regarding West Bank violations, while political figures debate potential sanctions.",
+     "ar": "رئيس مجلس النواب الأمريكي القادم حكيم جيفريز وقادة آخرون يدعمون تحركات مبكرة بشأن انتهاكات الضفة الغربية، بينما يناقش سياسيون العقوبات المحتملة.",
+     "ru": "Входящий спикер Палаты представителей США Хаким Джеффрис и другие лидеры поддерживают ранние меры в отношении нарушений на Западном берегу, вызывая споры о санкциях."
+    }
+   }
+  ],
+  "last_update": 1795341017
  },
  {
   "ts": 1795319808,
@@ -141112,9 +141255,34 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTU43VjlEUlhiY2ZLM0RBQnVaU1haRjY5V25keUltdkluVGVqZUNTajBkck9YQVRwbTlMUTJTWENXZko5NkJDRG1KNGg0V211WlI2cVo4blRXX28yaVBIN2hRYV9HWXQ5cGNDbUpnazlGb0lnMnZCUFhiNEg5TUdfTHB6Ykk0M0U0Ri1UYS1GYUxpTVJUNmVJ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4Uk9ZSW9SbTFWLWEwZkltODREbXV3WGlSRWNUSDhVdllxQ0JvdXhNZHRmcEZfMUx6X19Id1l1OFZldXRhSVVJRWtMVkF4bkxfTDVUYXBDeWFqS2h4WUE5OFJSeU9VQnF6cU1ycDk5clp6S3lobHI4dw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjJZcnBtRW45TnFILVhCQzd3V3VfOVZEeTNmS0ZYd0dFN0dESlRZVzBhSU1XM0w1akRDVGZIRXU1TDZYNnNkNG95a1lPTVp5VnFVUWVENzJnNWdPOFA4NU5hUmRVT3pBaGNjZXIwd1RNdmtzV0hUdU51Z2dDQjZ2anhsWW5FZ2dGeUJmQnN6ZW1ReGM2QUw4Y0hNajRKU1JkdThUOTFiUzdGcUpLdkZHNDR6clZBTHFPeU9NcG5MVQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWGtzSXN1YnFxUkRGRWhlX08wcWwxSTlyZjl2clBnaU41Z3NQVkgzUjh3RHI2LTRPaG1oZlN4a3NveUNWVTMzT0JQUlpZREpPcTRZdlFvRnRxbTF5aXBudEFCeGdUdkRYcU80em1qc2txSl9nVXpaZGttYUR2NUU4b09HZDl0eFNLUHfSAY8BQVVfeXFMT1J2RS1WT1VtNnpHeHVoNDk1MkdRazZxcjZHQXNqVk14bE9RZzlHV1Q0YUtzWFV3N2RuMGd3YVRaemZRMUNiU2ZaTTlPdGFpcmd2ZmVPSDhJRFBUUVgwTGltNzNrcTA3aWc0bzRld2RLbU5PWWdtRWY2YW4zSkJFcVZMeUhpRmc4RklHMER6bkU?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU0oxYXdfWmYwMDZZTTYwSlE5bTYxU3RTZGMzN0puSHliLXlwbTZ5OV9lYV9wTmV6Z1A0TEI5aGdLaEJBUWlpRXRqNGROM0p1b0tmU2JINndOLUpwbGZ5a2Q5MzAxWHFhaXJvanFWcGVFZ0JKeENJOWt0SktUcFBIU0xSeWJVTkt4WkNBY0hfYUhEU2xpTUZmUmxDOFhpLXZSSlE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRjJ6Y0p1aGVDSmdFdW8wUVpsTS1ZUGQyM3FZSW9tZTg0NGNzdk15WmZfVTJOSXZ3T0lhbnFRS0hWbkFhWEVKUVFmX29VVldjeUFTVEloRFdKNWo3ZkYwRk1hUlg5ckZnekJYSHFPa1oxXzg1QUc1bDlsSzAxa1J1b0ZjY3BKZTZpczVuVjZaTC1qa3Zqb1gwbkQ0Uk5qQ3N0TVNWY1VrbnZhZkU3eXh6NHFoQkU3cmpLNHdWVzkwTGNsOVRXdnQ5S2NyMHBrbmh0Q3pkcl9mUDk1cmFneGlkZEI1aDNsQjZndGgxYmFQd9IB9AFBVV95cUxOU3c1ZjlRUHl4WjVIZVJET2NUdERuRFVEbGdzZTEtenNZRkFBZjN4Q3JldlR6UG1kaExSMTE2NGNsYjhzWGlYQllieFJwVzctd3RnRll6Mlo1WjFvVm1tR0RTYTgtUThubEtjSEFCdVI4NkRJb2V6TDR2UExucWdGUVVYdUljVFYwemhMSVlGcExXdnhRR3hRTUQ1MWF6dVJDcWZ5dExmTGlDUHpRVlNrVC12N29wbU01blFOWWZoemlDNVhsU3NlcXlSSUxZSmc4ZlNmajItZHNiaEdIZ3h0QjRMbk11RHJMaEdzZThmQV9KQ1Ft?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ITA",
@@ -141153,9 +141321,81 @@
      "ru": "XLE – ETF энергетического сектора"
     },
     "price_at_alert": 60.51
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795341017,
+    "reason": "איומים על מכליות נפט במפרץ מעלים חשש לשיבושי אספקה",
+    "reason_i18n": {
+     "he": "איומים על מכליות נפט במפרץ מעלים חשש לשיבושי אספקה",
+     "en": "Threats to oil tankers in the Gulf raise supply disruption fears",
+     "ar": "التهديدات لناقلات النفط في الخليج تثير المخاوف بشأن تعطيل الإمدادات",
+     "ru": "Угрозы танкерам в Заливе повышают опасения перебоев с поставками"
+    },
+    "name_i18n": {
+     "he": "USO - קרן מחירי הנפט הגולמי",
+     "en": "USO - Crude Oil Fund",
+     "ar": "USO - صندوق أسعار النفط الخام",
+     "ru": "USO - Фонд нефтяных фьючерсов"
+    },
+    "price_at_alert": 139.63
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795341017,
+    "reason": "מחירי נפט עולים מחזקים את רווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט עולים מחזקים את רווחי חברות האנרגיה",
+     "en": "Rising oil prices boost profitability for energy firms",
+     "ar": "ارتفاع أسعار النفط يعزز أرباح شركات الطاقة",
+     "ru": "Рост цен на нефть увеличивает прибыль энергетических компаний"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - ענקית אנרגיה",
+     "en": "ExxonMobil - Major Energy Firm",
+     "ar": "إكسون موبيل - شركة طاقة كبرى",
+     "ru": "ExxonMobil - Крупная энергетическая компания"
+    },
+    "price_at_alert": 159.99
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1795341017,
+    "reason": "הסלמה במפרץ דוחפת את מחירי הנפט כלפי מעלה",
+    "reason_i18n": {
+     "he": "הסלמה במפרץ דוחפת את מחירי הנפט כלפי מעלה",
+     "en": "Gulf escalation pushes oil prices upward",
+     "ar": "التصعيد في الخليج يدفع أسعار النفط صعوداً",
+     "ru": "Эскалация в Заливе толкает цены на нефть вверх"
+    },
+    "name_i18n": {
+     "he": "שברון - חברת אנרגיה מובילה",
+     "en": "Chevron - Leading Energy Company",
+     "ar": "شيفرون - شركة طاقة رائدة",
+     "ru": "Chevron - Ведущая энергетическая компания"
+    },
+    "price_at_alert": 208.37
    }
   ],
-  "id": "78a5fa3b2426"
+  "id": "78a5fa3b2426",
+  "updates": [
+   {
+    "ts": 1795341017,
+    "time": "2026-11-22T09:50Z",
+    "severity": 8,
+    "summary": "מתחיות גוברות במפרץ הפרסי לאחר שדיווחים ציינו כי איראן תקפה שלוש מכליות נפט וחשפה מתקן תת-קרקעי חדש להשקת טילים כפולים, על רקע עימותים סביב הסגר הימי.",
+    "i18n": {
+     "he": "מתחיות גוברות במפרץ הפרסי לאחר שדיווחים ציינו כי איראן תקפה שלוש מכליות נפט וחשפה מתקן תת-קרקעי חדש להשקת טילים כפולים, על רקע עימותים סביב הסגר הימי.",
+     "en": "Tensions surge in the Persian Gulf as reports indicate Iran struck three oil tankers and unveiled a new underground double-missile launcher facility amid naval blockade friction.",
+     "ar": "تصاعد التوترات في الخليج العربي مع تقارير تشير إلى مهاجمة إيران لثلاث ناقلات نفط وكشفها عن منشأة تحت الأرض لإطلاق الصواريخ المزدوجة وسط توترات الحصار البحري.",
+     "ru": "Напряженность в Персидском заливе нарастает на фоне сообщений об ударах Ирана по трем нефтяным танкерам и демонстрации подземного объекта с пусковыми установками двойных ракет."
+    }
+   }
+  ],
+  "last_update": 1795341017
  },
  {
   "ts": 1795338213,
@@ -141273,20 +141513,32 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMDdLUTRmWkZYblJyeTlBaDhrbDJPMVZkWWZVV0JMdlg0X1dZLS14UDk2bll3cmZuRnJmMFF3THBYZE5KdzI2MGt4RGhhaWIxbFVCUnhubnBvNEQzYlhxVW5BUzJuMHo5UFJVa2NvUTF3SmVQR0xEVjl1M00xSUJzNmtNa1VIa0d1Zk9uMTZfX2x5N2RpUU9aYUVScW9wVXk0NExWa1Judnl5MmtQMzBLRElrMlJBTXVjbVFXNFNsSzlWTk44bHV1ODRUd3Z2am5W?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16OHdsT05GXzBnSFVocFRNZlZDdWJ2V0U1cEdBRmxvQW9Kc0l6ZW1LMWZPOTA2dXcwU2haWm5yTnpGLWd3RUhyTi1GcFVSOTFkd2Z3aHlHd3lTM2JoNjVYS0owWDFTcUVSMXc?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjF0QUJ2VHNwaG5Hek5nd1FrTDNPa2laaUF1SGJZVHVFVy1KQzhCQjMxRUZtUHBaUXc3OEZ0NGFWZXpELS1BR3NkUG81UHFqQ3l6Y0Q2R1gtMmpBTWNQcjJ6RE9IMHp6aThBR1h0V29oNjduRmpJUzFIR3ZPbFFUanRYaHBfTzJTR0d2THIyUjVzdVdZ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPMV9uMkVCRmtJTzNpTi0zdm04dE5JM1kwTW1KTXYzQjktbkVPZDV2aXdnM2tXUlgwTGNNMUZEODZERlMzNnBNWTVWUzJhQjhCSDFmbi1TbF9tMUxpbUp6amlyOENqbVJNeXNva3hfa2RBaG90d293NUtJNHd1TEJPUmJ3YWh6eGR1TTlnX3pGUFJyczVsd3ppODZjelBxR1RZMDZuUktYSGg1S2hkcnk4OVo4enBheENWVXBQLU9MMGI5RnlkMTFIUl9GcjVUb25vaDhGUUZnRHRJZ192clhzZXYyeUJFd3IzUE9OVEhTamZhcmVzVlZkX0FpeEduX3B6Ym1IS2Z0OVBPT0Zjdzlsc3hn?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGZfd2JoWks2Z1BoeGRuRW56TkhrOTd3Nko2d3FBNzB2MTQ0ZklJT0YxdXpjTHFFNzRob3FTTmdyek5pb0MtSUJLVVAwQklLejZuSllQaHhSNXRXRW93X1lTRS15eHlxX2w1NkdMTHlKUTIyeWpIVmdTRTh3TlBsWFBKOThiakpacXBfakFveE0xcWh0UHEyZjV3dFp1eEE2Z3FTU2t2ZTNQaTEtcV9rZV9jVU00c1NhdXhR?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BVEJwdHBGQUZFNjR1aG9MQWQ0SEEwRFNiSHpfdHowVDhhR3k4M18zeDRRLWlGdmtFaHRxQ3ZLeklRc0lvd3NPU0JodnFVc1dyNkE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcTdhSXdUZm1Db2RCNGoyUzNWcnRKejA0ZF9yUXhHY0ktOWhoc0w1bVFJa1RPVjNYS2l4NzFqR0llZ2JVY0JCeGtaN0pNcU5ncXFBdFAyWk9QMmRvRkJGSmRqLVh3MXhHeGFEN1pMUG9rR0RfcVlwZEIwVGtJLWJVRA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnFpTUJCYnBKaGVyUGNoX25nY1RNSGc1YUx0Tm51MFcwanYzeHk4aU1sM0d6bHR6ek9iWE1tVWpYMHUxMVI2Y0dlRVpld05LT1NYWHJOcUlBamZ0eEo1SlExdE5NN2w3UkY4dHdBc2RTamFHd1UybE5NcUVRdFlJeTVMN2pjVWVpY05mcTFnSHFSalZmV1VTRVpRbUZYLXhnb0w0WDdWNGZRdTg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUUVWcnRoZ0tnZGxCb3BXLWZlVUFsTVZtdV9BY0NmY2RBMm91eF9rdUh6M3piMEFQMU5UMmJHUFI1Q25Nb09ray13Z1h4dGFQZlRjTFpILWRiSVlTd0FaaVRfVk1pNTFGdkhWRlhXRkhjLUJWX09UNEN5V0RaWUZqU0k5cHVkMmNkWFZKTVdRSE1UampO?oc=5"
    }
   ],
   "impacts": [
@@ -141308,9 +141560,62 @@
      "ru": "Валюта евро"
     },
     "price_at_alert": 101.21
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795341017,
+    "reason": "חששות מאינפלציה ונתוני כלכלה חלשים מכבידים על הוול סטריט",
+    "reason_i18n": {
+     "he": "חששות מאינפלציה ונתוני כלכלה חלשים מכבידים על הוול סטריט",
+     "en": "Inflation worries and weak economic data weigh on Wall Street",
+     "ar": "مخاوف التضخم والبيانات الاقتصادية الضعيفة تضغط على وول ستريت",
+     "ru": "Опасения инфляции и слабые экономданные давят на Уолл-стрит"
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index ETF",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 689.81
+   },
+   {
+    "ticker": "GLD",
+    "direction": "up",
+    "t0": 1795341017,
+    "reason": "אינפלציה ואי-ודאות כלכלית מגבירות את הביקוש לנכסי מקלט בטוח",
+    "reason_i18n": {
+     "he": "אינפלציה ואי-ודאות כלכלית מגבירות את הביקוש לנכסי מקלט בטוח",
+     "en": "Inflation and economic uncertainty increase safe-haven demand",
+     "ar": "التضخم والغموض الاقتصادي يزيدان الطلب على الملاذ الآمن",
+     "ru": "Инфляция и неопределенность повышают спрос на безопасные активы"
+    },
+    "name_i18n": {
+     "he": "קרן גיבוי זהב",
+     "en": "SPDR Gold Trust",
+     "ar": "صندوق استثمار الذهب",
+     "ru": "Золотой ETF"
+    },
+    "price_at_alert": 322.87
    }
   ],
-  "id": "d17bf7783ae3"
+  "id": "d17bf7783ae3",
+  "updates": [
+   {
+    "ts": 1795341017,
+    "time": "2026-11-22T09:50Z",
+    "severity": 6,
+    "summary": "הבנקים המרכזיים ממשיכים לעקוב בזהירות אחר אינפלציית 'סיבוב שני', בעוד חששות מהכלכלה בארה\"ב ומסיכוני מיתון באוסטרליה מכבידים על השווקים הפיננסיים.",
+    "i18n": {
+     "he": "הבנקים המרכזיים ממשיכים לעקוב בזהירות אחר אינפלציית 'סיבוב שני', בעוד חששות מהכלכלה בארה\"ב ומסיכוני מיתון באוסטרליה מכבידים על השווקים הפיננסיים.",
+     "en": "Central banks remain vigilant regarding second-round inflation effects, while economic worries in the US and rising recession risks in Australia weigh on financial markets.",
+     "ar": "تظل البنوك المركزية يقظة بشأن آثار التضخم للمرة الثانية، بينما تضغط المخاوف الاقتصادية في الولايات المتحدة ומخاطر الركود في أستراليا على الأسواق.",
+     "ru": "Центробанки внимательно следят за инфляционными эффектами второго раунда, в то время как экономические тревоги в США и риски рецессии в Австралии давят на рынки."
+    }
+   }
+  ],
+  "last_update": 1795341017
  },
  {
   "ts": 1795338213,

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T09:04Z",
+ "generated": "2026-11-22T09:50Z",
  "first_alert": "2026-11-02T13:37Z",
  "total_alerts": 1330,
  "overall": {
@@ -78,14 +78,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 145,
+   "mentions": 146,
    "n": 133,
    "hits": 69,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "USO - קרן מחירי הנפט הגולמי",
+    "en": "USO - Crude Oil Fund",
+    "ar": "USO - صندوق أسعار النفط الخام",
+    "ru": "USO - Фонд нефтяных фьючерсов"
    },
    "avg_edge": 0.01
   },
@@ -114,14 +114,14 @@
    "avg_edge": 0.84
   },
   "XOM": {
-   "mentions": 55,
+   "mentions": 56,
    "n": 45,
    "hits": 18,
    "name": {
-    "he": "אקסון מוביל - חברת אנרגיה ענקית",
-    "en": "Exxon Mobil - major energy company",
+    "he": "אקסון מוביל - ענקית אנרגיה",
+    "en": "ExxonMobil - Major Energy Firm",
     "ar": "إكسون موبيل - شركة طاقة كبرى",
-    "ru": "Exxon Mobil - крупная энергетическая компания"
+    "ru": "ExxonMobil - Крупная энергетическая компания"
    },
    "avg_edge": -0.22
   },
@@ -174,14 +174,14 @@
    "avg_edge": 0.79
   },
   "ESLT.TA": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 10,
    "hits": 5,
    "name": {
-    "he": "אלביט מערכות בבורסת ת\"א",
-    "en": "Elbit Systems on TASE",
-    "ar": "إلبيط سيستمز في بورصة تل أبيب",
-    "ru": "Elbit Systems на бирже Тель-Авива"
+    "he": "אלביט מערכות (בורסת תל אביב)",
+    "en": "Elbit Systems (TASE)",
+    "ar": "إلبيت سيستمز (بورصة تل أبيب)",
+    "ru": "Elbit Systems (ТАФР)"
    },
    "avg_edge": -0.48
   },
@@ -222,14 +222,14 @@
    "avg_edge": 0.48
   },
   "SPY": {
-   "mentions": 136,
+   "mentions": 137,
    "n": 119,
    "hits": 61,
    "name": {
     "he": "מדד S&P 500",
-    "en": "S&P 500 ETF",
-    "ar": "مؤشر إس آند بي 500",
-    "ru": "ETF S&P 500"
+    "en": "S&P 500 Index ETF",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": 0.15
   },
@@ -294,7 +294,7 @@
    "avg_edge": -0.32
   },
   "EWU": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 15,
    "hits": 7,
    "name": {
@@ -402,14 +402,14 @@
    "avg_edge": -1.7
   },
   "GLD": {
-   "mentions": 42,
+   "mentions": 43,
    "n": 34,
    "hits": 14,
    "name": {
-    "he": "ETF זהב",
-    "en": "Gold ETF",
-    "ar": "صندوق استثمار في الذهب",
-    "ru": "ETF на золото"
+    "he": "קרן גיבוי זהב",
+    "en": "SPDR Gold Trust",
+    "ar": "صندوق استثمار الذهب",
+    "ru": "Золотой ETF"
    },
    "avg_edge": -0.59
   },
@@ -702,14 +702,14 @@
    "avg_edge": 2.56
   },
   "BDRY": {
-   "mentions": 10,
+   "mentions": 11,
    "n": 10,
    "hits": 8,
    "name": {
-    "he": "קרן ספנות יבשתיות",
-    "en": "Dry Bulk Shipping ETF",
-    "ar": "صندوق شحن البضائع السائلة",
-    "ru": "ETF на сухогрузные перевозки"
+    "he": "קרן הובלה ימית יבשה",
+    "en": "DryBulk Shipping ETF",
+    "ar": "صندوق شحن البضائع الجافة",
+    "ru": "ETF сухогрузных перевозок"
    },
    "avg_edge": 2.48
   },
@@ -1110,14 +1110,14 @@
    "avg_edge": 2.97
   },
   "CVX": {
-   "mentions": 12,
+   "mentions": 13,
    "n": 11,
    "hits": 6,
    "name": {
-    "he": "שברון – חברת נפט וגז גדולה",
-    "en": "Chevron – a major oil and gas company",
-    "ar": "شيفرون - شركة نفط وغاز كبرى",
-    "ru": "Chevron — крупная нефтегазовая компания"
+    "he": "שברון - חברת אנרגיה מובילה",
+    "en": "Chevron - Leading Energy Company",
+    "ar": "شيفرون - شركة طاقة رائدة",
+    "ru": "Chevron - Ведущая энергетическая компания"
    },
    "avg_edge": 0.29
   },
@@ -1206,14 +1206,14 @@
    "avg_edge": 1.02
   },
   "EIS": {
-   "mentions": 16,
+   "mentions": 17,
    "n": 12,
    "hits": 11,
    "name": {
-    "he": "איס – קרן סל על שוק המניות בישראל",
-    "en": "EIS – iShares Israel ETF",
-    "ar": "إي آي إس - صندوق استثمار الأسهم الإسرائيلية",
-    "ru": "EIS — биржевой фонд акций Израиля"
+    "he": "תעודת סל מניות ישראל",
+    "en": "MSCI Israel ETF",
+    "ar": "صندوق المؤشرات المتداولة لإسرائيل",
+    "ru": "ETF акций Израиля"
    },
    "avg_edge": 0.91
   },
