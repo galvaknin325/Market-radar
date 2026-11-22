@@ -2909,106 +2909,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794732860,
-  "time": "2026-11-15T08:54Z",
-  "title": "בכיר חמאס חוסל בתקיפה ברצועת עזה",
-  "summary": "גורמים רשמיים בחמאס ובצה\"ל אישרו את מותו של סמיר אבו יונס, מפקד חטיבת רפיח, בתקיפה בעזה.",
-  "kid": "מפקד בכיר בחמאס נהרג בעזה. אירועים ביטחוניים כאלה יכולים להשפיע על מניות של חברות ביטחוניות גדולות.",
-  "i18n": {
-   "title": {
-    "he": "בכיר חמאס חוסל בתקיפה ברצועת עזה",
-    "en": "Hamas commander killed in Gaza strike",
-    "ar": "مقتل قيادي في حماس بغارة على غزة",
-    "ru": "Лидер ХАМАС ликвидирован в результате удара по Газе"
-   },
-   "summary": {
-    "he": "גורמים רשמיים בחמאס ובצה\"ל אישרו את מותו של סמיר אבו יונס, מפקד חטיבת רפיח, בתקיפה בעזה.",
-    "en": "Both Hamas and IDF officials confirmed the death of Samir Abu Younis, commander of the Rafah Brigade, in a strike in Gaza.",
-    "ar": "أكد مسؤولون في حماس والجيش الإسرائيلي مقتل سمير أبو يونس، قائد لواء رفح، في غارة على غزة.",
-    "ru": "Представители ХАМАС и Армии обороны Израиля подтвердили гибель Самира Абу Юниса, командира бригады Рафах, в результате удара по Газе."
-   },
-   "kid": {
-    "he": "מפקד בכיר בחמאס נהרג בעזה. אירועים ביטחוניים כאלה יכולים להשפיע על מניות של חברות ביטחוניות גדולות.",
-    "en": "A top Hamas commander was killed in Gaza. Security events like this can sometimes affect the stock prices of major defense companies.",
-    "ar": "مقتل قيادي كبير في حماس بغزة. هذه الأحداث الأمنية قد تؤثر أحياناً على أسهم الشركات الدفاعية الكبرى.",
-    "ru": "В Газе был убит высокопоставленный командир ХАМАС. Подобные события могут повлиять на акции крупных оборонных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794732860,
-    "reason": "המתיחות הביטחונית במזרח התיכון עשויה להשפיע על סקטור הביטחון.",
-    "reason_i18n": {
-     "he": "המתיחות הביטחונית במזרח התיכון עשויה להשפיע על סקטור הביטחון.",
-     "en": "Middle East security tensions can impact the defense sector.",
-     "ar": "التوترات الأمنية في الشرق الأوسط قد تؤثر على قطاع الدفاع.",
-     "ru": "Напряженность в сфере безопасности на Ближнем Востоке может повлиять на оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל לתחום התעופה והביטחון בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق الاستثمار المتداول للطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 71.51,
-    "entry_price": 70.84,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 69.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794732860,
-    "reason": "עניין גובר במניות ביטחון עקב סכסוכים פעילים.",
-    "reason_i18n": {
-     "he": "עניין גובר במניות ביטחון עקב סכסוכים פעילים.",
-     "en": "Heightened focus on defense stocks amid active conflicts.",
-     "ar": "تركيز متزايد على أسهم قطاع الدفاع وسط الصراعات النشطة.",
-     "ru": "Повышенное внимание к оборонным акциям на фоне активных конфликтов."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין – חברת ביטחון גדולה",
-     "en": "Lockheed Martin – a major defense company",
-     "ar": "لوكهيد مارتن - شركة دفاعية كبرى",
-     "ru": "Lockheed Martin – крупная оборонная компания"
-    },
-    "price_at_alert": 596.04,
-    "entry_price": 599.92,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 590.2548,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.61,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.69,
-    "edge_pct": 0.69,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "cc1ea3ceb8ef",
-  "evaluated": true
- },
- {
   "ts": 1794735900,
   "time": "2026-11-15T09:45Z",
   "title": "החות'ים משתלטים על מיצר באב אל-מנדב",
@@ -44491,9 +44391,34 @@
    }
   },
   "category": "commodities",
-  "severity": 6,
+  "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NbGQwZ1I2UVhwUTg5ZDB0VUtlY3ZVMXV2Nnd1enhHNGY1YlRTN1ZfUXF5dHNQU1EwYVhRWmZ4cXp4OTcyV3VuMWtKTUgzVTlFblpneGpOd1JidTZqeVZVUjVYaFZtTmp1M0FIUTZlZjlpaW8?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdzhzNkMwSnVxTXNuSWdvaVIxRktYOXN2dUhvX3RzakowSVRBQVNzR1Z6Z3BLMEtxb2JOU0w1YXNqajljaWVLTEMwdHpOOE5QU2JHQzRPTzREODdlcUZpbkdtaGRTYjRnZVhWaEh1NnVEOElhdjhvcXkxUXNnaE1DZHRaSTh4ci1GMU5ONDg3ZEZ0d1dmSHoxVVAzUU9fWWNsdDlkMTBSd2JXN2JVaERvelNscEM4eWVoX3FGSDhiaDJnZW43TmlqSzB3dWN1Y2JPTlpaTWc2dUp5WWhEb2wwd0NLMDl2Q0xpM1hRS215TUpZNmJCQ0pWalNVc9IBgAJBVV95cUxNZUdWWnR6NUhQS0VmQXpRekhZZnIyOFVPdGgzUGs0cE5idDZUcWNvN1Z1OHVLclRCdEdxQVM3WGljSW9ReEstTU9tbWswMmtpNXZvMnZxUmdjeGQybUpTLTI0blFxWDhQc0tLZ0FDRE43WVFweW9vNFcxWHNMNlRHbmE0ZWhjaW9vcE5WNkE4RERia05nV1RSRVZwYTlVZ1QwcGpnR2hkR3hLQkVNd19oTGl3Qi1qeXJGZjR3bG45V0RjZlp0bHFVcUlnZk5XSFl0ZGxEekw3LU5hMVQtbXhJNVpmbGNlSk9TeEdmdVhYWUZvU0pDV3dGRmR2RG9fcXh0?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU19sVXRrdWI2WjljUWRTQXFGenZzSDlrY01XTkxRVlF2Z09tTS1fV2RJM0k0WVlJN0pmUGdCNEFYVjNET3RNQ212OV8tYzJkQnBUdkhTUUgtYW16RlFhbGl0WVBoQkVjbGtaTTRmcEpxZlJUSDBOc0VmM1lLNkdSRjVpWC1pcWhnMEV4ZDNTc3JLbTlVbGFrbHhoVlNJelk5dk4tU3JIUEVYSDdxdGN4c3dGVFVXZw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeGFnTlh1U3Frb1I3bFVrQnJVWUFvOTZtX3hWRUtVYkZKb0JTUk5mWU9ZbVRaazNVT3U1X0ZBVlEyQlNCYnZZRTR1MFF2bWJVcFhNakdWYk1tRHdUTWpKVVZqZEh4QVZseWdGaEgxaE1Mbk5pYTdtVXZwNUpGd2E2blpxOEtPRDVHUGw3S1g1cUlnS21MLTN0TlI2X3k3OVg0MXJfNi1qbVRCQ0ZVRU54UWhvZHNCVDI4YzFr0gHAAUFVX3lxTE1OT3RTUmh2S3dfeXAwS3FlWmxjZE11Nk43bUdhVVFUMmJqR00yUG1Sd0NSaFdPeVZKVGpnb0QtR2l3ZnRsZjVYTjcwOGl2aHZJa3BnQ1hsVV95T21lOU9iQXc3VGFYMGIzUjZ0NlZtVThaMEs4UUZMSHNCWFB4OFB0cXdMVmhjc0Z2QzRjWmRFc2thbWpiT1BVR0VBNk5IOGFyUTdVOE9uRTEybkJ6RThxdkRXc2taYVpRemo5UzJtcA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjZYRHVpbUdTVVlVTDNNX010cWJDY2FvT0FCTHQySVZibUstMWt0T1dOblQ0S25PNVBCRHFZUGVqcFBrWFdqN21pVmJkVUUyUUxRRTZVSWFQNHNpOHpIOHc2akszMkdFZDIySGZNaURRUUFHM0liM1o1OG9jN0lxeWtJczBFd3BuMS1QczRqQVltZzg4VzBGczlvTXJBZUZZMkl1ek81b2Z1WW5pZjJrUG8tZW1EUQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "XLE",
@@ -44532,9 +44457,43 @@
      "ru": "Exxon Mobil - крупная энергетическая компания"
     },
     "price_at_alert": 159.99
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795338213,
+    "reason": "חשש משיבוש אספקת נפט גולמי",
+    "reason_i18n": {
+     "he": "חשש משיבוש אספקת נפט גולמי",
+     "en": "Fear of crude oil supply disruption",
+     "ar": "مخاوف من تعطل إمدادات النفط الخام",
+     "ru": "Опасения по поводу перебоев в поставках сырой нефти"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 139.63
    }
   ],
-  "id": "a946dbbab1e0"
+  "id": "a946dbbab1e0",
+  "updates": [
+   {
+    "ts": 1795338213,
+    "time": "2026-11-22T09:03Z",
+    "severity": 8,
+    "summary": "איראן טוענת לפגיעה במכ\"ם אמריקאי בבחריין, בעוד החות'ים מגבירים תקיפות על סעודיה. איומים על שיבוש השיט במצרי הורמוז מעלים חששות לאספקת הנפט העולמית.",
+    "i18n": {
+     "he": "איראן טוענת לפגיעה במכ\"ם אמריקאי בבחריין, בעוד החות'ים מגבירים תקיפות על סעודיה. איומים על שיבוש השיט במצרי הורמוז מעלים חששות לאספקת הנפט העולמית.",
+     "en": "Iran claims to have hit US radar systems in Bahrain, while Houthis intensify missile attacks on Saudi Arabia. Threats to disrupt shipping in the Strait of Hormuz are raising concerns over global oil supply.",
+     "ar": "تزعم إيران أنها أصابت أنظمة رادار أمريكية في البحرين، بينما يكثف الحوثيون هجماتهم الصاروخية على السعودية. التهديدات بتعطيل الملاحة في مضيق هرمز تثير مخاوف بشأن إمدادات النفط العالمية.",
+     "ru": "Иран заявляет об ударе по американским радарам в Бахрейне, а хуситы усиливают ракетные атаки на Саудовскую Аравию. Угрозы нарушения судоходства в Ормузском проливе вызывают опасения за мировые поставки нефти."
+    }
+   }
+  ],
+  "last_update": 1795338213
  },
  {
   "ts": 1795331054,
@@ -44823,5 +44782,218 @@
    }
   ],
   "id": "78a5fa3b2426"
+ },
+ {
+  "ts": 1795338213,
+  "time": "2026-11-22T09:03Z",
+  "title": "הסלמה בלחימה באוקראינה ופגיעה במרחב האווירי של פולין",
+  "summary": "מתקפות טילים ורחפנים רוסיות פגעו בלבוב, בעוד דווח על חדירת טילים למרחב האווירי של פולין, מה שהוביל לכינוס חירום של נאט\"ו.",
+  "kid": "המלחמה באוקראינה הפכה למסוכנת יותר כי טילים הגיעו למדינה שחברה בנאט\"ו. זה גורם למדינות המערב להיות מודאגות מאוד.",
+  "i18n": {
+   "title": {
+    "he": "הסלמה בלחימה באוקראינה ופגיעה במרחב האווירי של פולין",
+    "en": "Escalation in Ukraine war and violation of Polish airspace",
+    "ar": "تصعيد في حرب أوكرانيا وانتهاك المجال الجوي البولندي",
+    "ru": "Эскалация войны в Украине и нарушение воздушного пространства Польши"
+   },
+   "summary": {
+    "he": "מתקפות טילים ורחפנים רוסיות פגעו בלבוב, בעוד דווח על חדירת טילים למרחב האווירי של פולין, מה שהוביל לכינוס חירום של נאט\"ו.",
+    "en": "Russian missile and drone attacks hit Lviv, while reports of missiles violating Polish airspace have triggered an emergency NATO meeting.",
+    "ar": "ضربت هجمات صاروخية وبطائرات بدون طيار روسية مدينة لفيف، بينما أدت تقارير عن اختراق صواريخ للمجال الجوي البولندي إلى عقد اجتماع طارئ لحلف الناتو.",
+    "ru": "Российские ракетные и дроновые атаки поразили Львов, а сообщения о нарушении ракетами воздушного пространства Польши привели к экстренному созыву НАТО."
+   },
+   "kid": {
+    "he": "המלחמה באוקראינה הפכה למסוכנת יותר כי טילים הגיעו למדינה שחברה בנאט\"ו. זה גורם למדינות המערב להיות מודאגות מאוד.",
+    "en": "The war in Ukraine is getting more dangerous because missiles reached a country that is part of NATO. This makes Western countries very worried.",
+    "ar": "أصبحت الحرب في أوكرانيا أكثر خطورة لأن الصواريخ وصلت إلى دولة عضو في الناتو. هذا يجعل الدول الغربية قلقة للغاية.",
+    "ru": "Война в Украине становится опаснее, так как ракеты достигли страны-члена НАТО. Это вызывает большую тревогу у западных стран."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLVVxWjdCUXFzbWNOdXVPUDV0TkNhWnBDeFphQ2ZZSnlkN1dtSFY0T2Q5WFFDN0E0ck1PX3MwcDZEUFdyaXJ0TEhPS19zRGF0UzZVbE5ySUdfTVN0RVdiZFZfLWFiUjIxMWZzU3dJZlliWWxPc2hqSUFkWUZBdVZxVzRnZ3FlYnNZampLbTJkckQ3dFFweGRr?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIV29qWjZXNXlSVi1DV2p4MDhmeU9RcDFkdHVKd2EtaVJaVGlsazlLTWYwUUQwT0tEMUZVRml2a0ZxVTFVMW5nTGg4bEZwcWJLdDc4UXpkelRFWnFDekp4TmkzZ3lYMFnSAVxBVV95cUxOWGlqRldoYXVQcHBxdTlhUGZWOHpiU0ljWEhmZmRQV0hxbm1NVURERTJ2bG4yUWNYdF9kZjZOb2lMTVd6LVd4ckJsT1l0WlV1SGFZWlNtVUxjc1ZBOQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbHdqNzB4Y2pFNm81d1dsZFA4Nk9PT2xNdGNZbnlvVldRODJJdFdHMGV2cHJfc3RsUXV4UDhuaFhpbzctLVBqQVE0c0dQbmtZdG5LOFJraHljcXpJMS15dkdFbTM4VzhYLWJCbHBMWlZnTlB4Yk1IQTZfOGxOWEJyTzJnVFZDdzE3WlhqV2xjZmJ1Q0k2SEFuLU4wSQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWJ3VlRXdllFSXVGRER0bGZ2QVFnekxVeHJDcmJCT1JFd1F3a0NQVTQ2RXU3eGFiV0NRX29Fa0FpMFBsaGFzcWxySEdSVjlvRGkzX1RRNWQtWXZ6MnY5dVlKSUVjWVpLMi1Jcy1nNWE3bEt1clMwdUZINEJ0WFYyMThRZ0tPVFpaSzc4Y1lfaTlXT0lZNXRmQXNhdkpCUUpva3NOTm95M1NaRVE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795338213,
+    "reason": "עלייה בביקוש לציוד ביטחוני עקב המתיחות",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לציוד ביטחוני עקב המתיחות",
+     "en": "Increased demand for defense equipment due to tensions",
+     "ar": "زيادة الطلب على المعدات الدفاعية بسبب التوترات",
+     "ru": "Рост спроса на оборонное оборудование из-за напряженности"
+    },
+    "name_i18n": {
+     "he": "מגזר הביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 66.17
+   },
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795338213,
+    "reason": "יצרנית נשק מרכזית לנאט\"ו",
+    "reason_i18n": {
+     "he": "יצרנית נשק מרכזית לנאט\"ו",
+     "en": "Major weapons manufacturer for NATO",
+     "ar": "مصنع أسلحة رئيسي لحلف الناتو",
+     "ru": "Крупный производитель оружия для НАТО"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 565.5
+   }
+  ],
+  "id": "57a16488b431"
+ },
+ {
+  "ts": 1795338213,
+  "time": "2026-11-22T09:03Z",
+  "title": "עלייה באינפלציה בשוויץ",
+  "summary": "הבנק המרכזי של שוויץ מביע דאגה מלחצי מחירים גוברים, מה שמרמז על אפשרות לשינויי מדיניות מוניטרית בדצמבר.",
+  "kid": "בשווייץ המחירים עולים מהר יותר ממה שחשבו. הבנק המרכזי אולי יצטרך להעלות את הריבית כדי לעצור את זה.",
+  "i18n": {
+   "title": {
+    "he": "עלייה באינפלציה בשוויץ",
+    "en": "Rising inflation in Switzerland",
+    "ar": "ارتفاع التضخم في سويسرا",
+    "ru": "Рост инфляции в Швейцарии"
+   },
+   "summary": {
+    "he": "הבנק המרכזי של שוויץ מביע דאגה מלחצי מחירים גוברים, מה שמרמז על אפשרות לשינויי מדיניות מוניטרית בדצמבר.",
+    "en": "The Swiss National Bank is expressing concern over broader price pressures, signaling potential monetary policy shifts in December.",
+    "ar": "يعرب البنك الوطني السويسري عن قلقه بشأن ضغوط الأسعار الأوسع، مما يشير إلى تحولات محتملة في السياسة النقدية في ديسمبر.",
+    "ru": "Швейцарский национальный банк выражает обеспокоенность по поводу роста цен, сигнализируя о возможных изменениях в денежно-кредитной политике в декабре."
+   },
+   "kid": {
+    "he": "בשווייץ המחירים עולים מהר יותר ממה שחשבו. הבנק המרכזי אולי יצטרך להעלות את הריבית כדי לעצור את זה.",
+    "en": "In Switzerland, prices are rising faster than expected. The central bank might need to raise interest rates to stop this.",
+    "ar": "في سويسرا، ترتفع الأسعار بشكل أسرع مما كان متوقعاً. قد يحتاج البنك المركزي إلى رفع أسعار الفائدة لإيقاف ذلك.",
+    "ru": "В Швейцарии цены растут быстрее, чем ожидалось. Центральному банку, возможно, придется повысить процентные ставки, чтобы остановить это."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMDdLUTRmWkZYblJyeTlBaDhrbDJPMVZkWWZVV0JMdlg0X1dZLS14UDk2bll3cmZuRnJmMFF3THBYZE5KdzI2MGt4RGhhaWIxbFVCUnhubnBvNEQzYlhxVW5BUzJuMHo5UFJVa2NvUTF3SmVQR0xEVjl1M00xSUJzNmtNa1VIa0d1Zk9uMTZfX2x5N2RpUU9aYUVScW9wVXk0NExWa1Judnl5MmtQMzBLRElrMlJBTXVjbVFXNFNsSzlWTk44bHV1ODRUd3Z2am5W?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjF0QUJ2VHNwaG5Hek5nd1FrTDNPa2laaUF1SGJZVHVFVy1KQzhCQjMxRUZtUHBaUXc3OEZ0NGFWZXpELS1BR3NkUG81UHFqQ3l6Y0Q2R1gtMmpBTWNQcjJ6RE9IMHp6aThBR1h0V29oNjduRmpJUzFIR3ZPbFFUanRYaHBfTzJTR0d2THIyUjVzdVdZ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGZfd2JoWks2Z1BoeGRuRW56TkhrOTd3Nko2d3FBNzB2MTQ0ZklJT0YxdXpjTHFFNzRob3FTTmdyek5pb0MtSUJLVVAwQklLejZuSllQaHhSNXRXRW93X1lTRS15eHlxX2w1NkdMTHlKUTIyeWpIVmdTRTh3TlBsWFBKOThiakpacXBfakFveE0xcWh0UHEyZjV3dFp1eEE2Z3FTU2t2ZTNQaTEtcV9rZV9jVU00c1NhdXhR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FXE",
+    "direction": "up",
+    "t0": 1795338213,
+    "reason": "ציפייה להעלאת ריבית מחזקת את המטבע",
+    "reason_i18n": {
+     "he": "ציפייה להעלאת ריבית מחזקת את המטבע",
+     "en": "Expectation of rate hikes strengthens the currency",
+     "ar": "توقعات رفع أسعار الفائدة تعزز العملة",
+     "ru": "Ожидание повышения ставок укрепляет валюту"
+    },
+    "name_i18n": {
+     "he": "אירו",
+     "en": "Euro Currency",
+     "ar": "عملة اليورو",
+     "ru": "Валюта евро"
+    },
+    "price_at_alert": 101.21
+   }
+  ],
+  "id": "d17bf7783ae3"
+ },
+ {
+  "ts": 1795338213,
+  "time": "2026-11-22T09:03Z",
+  "title": "מלאי הנחושת בארה\"ב מזנק",
+  "summary": "מלאי הנחושת בארה\"ב הגיע ל-2 מיליון טון, כאשר סוחרים מפנים את המתכת לסין, מה שמעיד על שינוי בביקוש העולמי.",
+  "kid": "יש המון נחושת בארה\"ב שאף אחד לא קונה, אז שולחים אותה לסין. זה יכול להשפיע על מחירי המתכות בעולם.",
+  "i18n": {
+   "title": {
+    "he": "מלאי הנחושת בארה\"ב מזנק",
+    "en": "US copper stockpile surges",
+    "ar": "ارتفاع مخزونات النحاس في الولايات المتحدة",
+    "ru": "Резкий рост запасов меди в США"
+   },
+   "summary": {
+    "he": "מלאי הנחושת בארה\"ב הגיע ל-2 מיליון טון, כאשר סוחרים מפנים את המתכת לסין, מה שמעיד על שינוי בביקוש העולמי.",
+    "en": "US copper stockpiles have reached 2 million tons as traders redirect the metal to China, signaling a shift in global demand.",
+    "ar": "وصلت مخزونات النحاس في الولايات المتحدة إلى 2 مليون طن حيث يقوم التجار بإعادة توجيه المعدن إلى الصين، مما يشير إلى تحول في الطلب العالمي.",
+    "ru": "Запасы меди в США достигли 2 миллионов тонн, поскольку трейдеры перенаправляют металл в Китай, что свидетельствует об изменении мирового спроса."
+   },
+   "kid": {
+    "he": "יש המון נחושת בארה\"ב שאף אחד לא קונה, אז שולחים אותה לסין. זה יכול להשפיע על מחירי המתכות בעולם.",
+    "en": "There is a lot of copper in the US that no one is buying, so it is being sent to China. This could affect metal prices globally.",
+    "ar": "هناك الكثير من النحاس في الولايات المتحدة لا يشتريه أحد، لذا يتم إرساله إلى الصين. هذا قد يؤثر على أسعار المعادن عالمياً.",
+    "ru": "В США скопилось много меди, которую никто не покупает, поэтому ее отправляют в Китай. Это может повлиять на мировые цены на металлы."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IV2EwUG1HdXNiaVVseXZJVDRjMS1jdDNiOS1Pbnd0cEpoTmRwVTJEUHcybDBPLUFpYVE3aEFpRVpfci1aUUsxVmtRR0tLQU5ZQ3VIanBSeUl0OTFELVU1THRuaTJRRTh4OEVDcl9sbmhtR2c0SFE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1795338213,
+    "reason": "עודף היצע עשוי להוריד את מחירי הנחושת",
+    "reason_i18n": {
+     "he": "עודף היצע עשוי להוריד את מחירי הנחושת",
+     "en": "Oversupply may lower copper prices",
+     "ar": "فائض العرض قد يخفض أسعار النحاس",
+     "ru": "Избыток предложения может снизить цены на медь"
+    },
+    "name_i18n": {
+     "he": "פריפורט-מקמורן (נחושת)",
+     "en": "Freeport-McMoRan (Copper)",
+     "ar": "فريبورت-ماكموران (نحاس)",
+     "ru": "Freeport-McMoRan (медь)"
+    },
+    "price_at_alert": 45.99
+   }
+  ],
+  "id": "95254eefa41f"
  }
 ]
