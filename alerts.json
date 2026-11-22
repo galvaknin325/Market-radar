@@ -2783,76 +2783,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794738401,
-  "time": "2026-11-15T10:26Z",
-  "title": "פיירפליי אירוספייס חותמת על עסקת ענק בסך 1.3 מיליארד דולר עם AST SpaceMobile",
-  "summary": "חברת פיירפליי אירוספייס חתמה על הסכם בשווי 1.3 מיליארד דולר לספק מנועי רקטות לחברת AST SpaceMobile.",
-  "kid": "פיירפליי תמכור מנועי רקטות ל-AST SpaceMobile תמורת 1.3 מיליארד דולר. זה עשוי לעזור למניות הקשורות לחלל לעלות.",
-  "i18n": {
-   "title": {
-    "he": "פיירפליי אירוספייס חותמת על עסקת ענק בסך 1.3 מיליארד דולר עם AST SpaceMobile",
-    "en": "Firefly Aerospace Inks $1.3 Billion Deal With AST SpaceMobile for Rocket Engines",
-    "ar": "פיירפליי אירוספייס توقيع صفقة بقيمة 1.3 مليار دولار مع AST SpaceMobile",
-    "ru": "Firefly Aerospace заключила сделку с AST SpaceMobile на 1,3 млрд долларов"
-   },
-   "summary": {
-    "he": "חברת פיירפליי אירוספייס חתמה על הסכם בשווי 1.3 מיליארד דולר לספק מנועי רקטות לחברת AST SpaceMobile.",
-    "en": "Firefly Aerospace has signed a $1.3 billion deal to supply rocket engines to AST SpaceMobile.",
-    "ar": "وقعت شركة Firefly Aerospace صفقة بقيمة 1.3 مليار دولار لتزويد محركات الصواريخ لشركة AST SpaceMobile.",
-    "ru": "Компания Firefly Aerospace подписала сделку на 1,3 млрд долларов на поставку ракетных двигателей AST SpaceMobile."
-   },
-   "kid": {
-    "he": "פיירפליי תמכור מנועי רקטות ל-AST SpaceMobile תמורת 1.3 מיליארד דולר. זה עשוי לעזור למניות הקשורות לחלל לעלות.",
-    "en": "Firefly is selling rocket engines to AST SpaceMobile for $1.3 billion. This big deal could make related space and rocket stocks go up.",
-    "ar": "تبيع Firefly محركات صواريخ لـ AST SpaceMobile مقابل 1.3 مليار دولار. قد تجعل هذه الصفقة الكبيرة أسهم الفضاء ترتفع.",
-    "ru": "Firefly продает ракетные двигатели AST SpaceMobile за 1,3 млрд долларов. Эта крупная сделка может поднять акции космических компаний."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRWk2cFUxUFEySWVxcTBsV21JcDZEcWdIdERRY2ZnZ0JWa081dlRzUDFjZlZNb1FWNlRtd2Y2bXRjZDU0dFB3Z1M5anlhQm9RTnZ6VFhSUHJhYUlPWEF0aUFmSERLUzQxSzlRRGhCeW1HLVBrbGRKYUZTYWZRbUlpUndOWjZFd0s4a0VPS1ZVT1dTSVo5eUZHVm1qakxUR3JUQV9wLVRDYlRvS29EdGN5MTFfdFVRSXBx?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ASTS",
-    "direction": "up",
-    "t0": 1794738401,
-    "reason": "חותמת על עסקת מנועי רקטות ענקית בשווי 1.3 מיליארד דולר",
-    "reason_i18n": {
-     "he": "חותמת על עסקת מנועי רקטות ענקית בשווי 1.3 מיליארד דולר",
-     "en": "Signs a massive $1.3 billion rocket engine deal",
-     "ar": "توقع صفقة ضخمة لمحركات الصواريخ بقيمة 1.3 مليار دولار",
-     "ru": "Заключает масштабную сделку на ракетные двигатели на 1,3 млрд долларов"
-    },
-    "name_i18n": {
-     "he": "AST SpaceMobile – חברת טכנולוגיית לווינים",
-     "en": "AST SpaceMobile – satellite technology company",
-     "ar": "AST SpaceMobile – شركة تكنولوجيا الأقمار الصناعية",
-     "ru": "AST SpaceMobile – компания спутниковых технологий"
-    },
-    "price_at_alert": 32.6,
-    "entry_price": 31.615,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 27.59,
-    "exit_date": "2026-11-17",
-    "change_pct": -12.73,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -10.43,
-    "edge_pct": -10.43,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "89e211cfffac",
-  "evaluated": true
- },
- {
   "ts": 1794741323,
   "time": "2026-11-15T11:15Z",
   "title": "דוחות אנבידיה והאתגר של הפד תחת וורש",
@@ -41347,6 +41277,14 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVzFHQ0ctTFRfcEd6NFh2MW1vUlJfWlpYWHJZMTJoSEZWdlNEMHFNSkp1VXY1M3JBbTVuZFhyVDZoQlVFNmoycFRCTGFpWWhCMUE3VlhBcGRLWVZGUDcyY0g5ZURJODdaa2RhRlFIVXFYbnVJZ3Z5ZzFxQlZUQ0JRVmMteVZOR2lGR0gwdDZLR3NaNEk?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UUGVQSWNBWTF1Q3lLRlp4NVZQTjdBMGVPb2FoRU9oWDRld0Q1QUR2VnZIZzZGZjNUcm9CWG1xa2tCOUU2NUpiVDhxN0tJVlZiTWVYb01EM2p3dUxyTHFxNG5lcw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMUc1VmVMTEk3aHdPendsOERkSHgxNGJEelhZMlExTDFaR0gzdkRTRTRLdGJ3bGlGVXg1TjJxcEp6RlhaUEZEMmxsNVE4UXI0aEZGTEFYYzc1dmpFREh6dm10VFIyeS1WaUpiVVlKenE5ODYxOHJTZTU5SVdPeDVtZklPeF95TnFRUlNlR2d6NzlmT2VHajdVVXl4RjBycTl0bFBLamFUMktoWVg3Nlpv?oc=5"
    }
   ],
   "impacts": [
@@ -41406,6 +41344,25 @@
      "ru": "EIS — биржевой фонд акций Израиля"
     },
     "price_at_alert": 101.51
+   },
+   {
+    "ticker": "ESLT.TA",
+    "direction": "up",
+    "t0": 1795344319,
+    "reason": "צפי לזכייה בחוזים ביטחוניים גדולים מול ממשלת יוון.",
+    "reason_i18n": {
+     "he": "צפי לזכייה בחוזים ביטחוניים גדולים מול ממשלת יוון.",
+     "en": "Expectation of winning large defense contracts with the Greek government.",
+     "ar": "توقع الفوز بعقود دفاعية كبرى مع الحكومة اليونانية.",
+     "ru": "Ожидание получения крупных оборонных контрактов с правительством Греции."
+    },
+    "name_i18n": {
+     "he": "אלביט מערכות – חברת ביטחונית ישראלית",
+     "en": "Elbit Systems – Israeli defense company",
+     "ar": "إلبيت سستمز - شركة دفاع إسرائيلية",
+     "ru": "Elbit Systems – израильская оборонная компания"
+    },
+    "price_at_alert": 225060.0
    }
   ],
   "id": "58819c447d7c",
@@ -41433,9 +41390,21 @@
      "ar": "اليونان في محادثات متقدمة لشراء معدات دفاعية إضافية من إسرائيل بقيمة مليار يورو، بينما وقعت إسرائيل وألمانيا اتفاقية تعاون فضائي لمدة 10 سنوات.",
      "ru": "Греция ведет продвинутые переговоры о новых закупках вооружений у Израиля на 1 млрд евро, в то время как Израиль и Германия подписали 10-жное соглашение о сотрудничестве в космосе."
     }
+   },
+   {
+    "ts": 1795344319,
+    "time": "2026-11-22T10:45Z",
+    "severity": 5,
+    "summary": "יוון שוקלת רכש ביטחוני נוסף מישראל בהיקף של עד מיליארד אירו, לצד הרחבת שיתופי פעולה צבאיים ומרכז אימון תעופה.",
+    "i18n": {
+     "he": "יוון שוקלת רכש ביטחוני נוסף מישראל בהיקף של עד מיליארד אירו, לצד הרחבת שיתופי פעולה צבאיים ומרכז אימון תעופה.",
+     "en": "Greece is mulling further defense procurement from Israel worth up to €1 billion, alongside expanding military cooperation and an aviation training center.",
+     "ar": "تدرس اليونان مشتريات دفاعية إضافية من إسرائيل تصل قيمتها إلى مليار يورو، إلى جانب توسيع التعاون العسكري.",
+     "ru": "Греция рассматривает возможность дальнейших оборонных закупок у Израиля на сумму до 1 млрд евро на фоне расширения военного сотрудничества."
+    }
    }
   ],
-  "last_update": 1795341017
+  "last_update": 1795344319
  },
  {
   "ts": 1795285408,
@@ -42496,14 +42465,6 @@
   "sources": [
    {
     "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWUJYOUdFdXlpMHE3RUhFVzFQTENEc2pUcEJ5WDZuckZlQjN1bF9aX055VUZUelpSSGVwT2dHLXFVQmR2Yk9IYUxPU1d0MlJhS2lWRDlWaTRleFZkeXlHTExaVTNTamZ0Y216QTJEVXpEYkdfN2pGN0xYSXZ5Y01Yb05FRE1qOVpXMW1yUWgtcEt2RVBzRURyOHJhRnZWcjNDbmh4aWI5RWE1ZDFVQW5UaTAwZFhmOVp0TEE?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss"
    },
    {
@@ -42517,6 +42478,14 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51LWtSZHNUSnlUVEo3Y0pWN2QxRUtWdm90NFlGRzlNb3pqeGFjTzVkaERvejNzdVVhUENTTzg0VXFYb1YtbEg4T3ROaVN4MjVRcWVQa3BVT00tZkU0NURIdEhaNWZheUk?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaVlibGxsbXZhME1WYWYtNmJmUHpzSTg5RHRBUVlEbmkxUUk1X183TE9xbV9raDRRTkxZcXZIa3VMX0d3RFU2OEh1YXRLMkNObnUtbEp3cC1WcTUzUXl2dlNBdk02cHdPdXBxeG41NVVHTWk3dEpabE14bGpVemx1aXFrX3pDMUZVZGVSWDhMb1JfcjhPa2FIdGkwMk1zSmVGSVJwMHFfMNIBrAFBVV95cUxOcmJjTXlwWFQ5ak4yeS1scHJoUVVGYVhqSkF1WS13TXR1RFFLdUwtSDZwYmJ2ajZWOGJtcGlLU1diU1NwTXNhaEs3MTlPUnNyUlNNSXVOMXp4ZmVIZVpuX1l4akQ2S09pMWN3eTdhVW81akVGYm50cUIwQ2duZ0ExdFNnN3B0OGwzMGlnc01oMjhyRjlTQjNMa1JrNlpRZlktNkZrUTZZV2xkR2kt?oc=5"
    }
   ],
   "impacts": [
@@ -42672,9 +42641,21 @@
      "ar": "تقارير تشير إلى تعرض ناقلات لضربات أو تهديدات في مضيق هرمز وسط توترات الحصار البحري وتحذيرات إيرانية.",
      "ru": "Сообщения об ударах по танкерам в Ормузском проливе на фоне напряженности из-за морской блокады и угроз Ирана."
     }
+   },
+   {
+    "ts": 1795344319,
+    "time": "2026-11-22T10:45Z",
+    "severity": 6,
+    "summary": "בחריין מדווחת על שני פצועים ושריפה במתקן תעשייתי בעקבות תקיפה איראנית.",
+    "i18n": {
+     "he": "בחריין מדווחת על שני פצועים ושריפה במתקן תעשייתי בעקבות תקיפה איראנית.",
+     "en": "Bahrain reports two injuries and a fire at an industrial facility following an Iranian attack.",
+     "ar": "البحرين تبلغ عن إصابتين وحريق في منشأة صناعية إثر هجوم إيراني.",
+     "ru": "Бахрейн сообщает о двух пострадавших и пожаре на промышленном объекте в результате иранской атаки."
+    }
    }
   ],
-  "last_update": 1795331054
+  "last_update": 1795344319
  },
  {
   "ts": 1795302840,
@@ -44967,5 +44948,218 @@
    }
   ],
   "id": "95254eefa41f"
+ },
+ {
+  "ts": 1795344319,
+  "time": "2026-11-22T10:45Z",
+  "title": "צניחת מחירי הנחושת מעוררת חששות כלכליים",
+  "summary": "מחירי הנחושת צונחים בחדות, מה שמשמש אזהרה עבור הכלכלה האמריקאית ומאותת על סיכוני אינפלציה אפשריים לבנק המרכזי.",
+  "kid": "מחיר הנחושת יורד. מכיוון שנחושת משמשת בכל מקום בתעשייה, ירידה כזו יכולה לסמן האטה או בעיות בכלכלה שמשפיעות על מניות התעשייה.",
+  "i18n": {
+   "title": {
+    "he": "צניחת מחירי הנחושת מעוררת חששות כלכליים",
+    "en": "Plunging Copper Prices Trigger Economic Concerns",
+    "ar": "هبوط أسعار النحاس يثير المخاوف الاقتصادية",
+    "ru": "Падение цен на медь вызывает экономические опасения"
+   },
+   "summary": {
+    "he": "מחירי הנחושת צונחים בחדות, מה שמשמש אזהרה עבור הכלכלה האמריקאית ומאותת על סיכוני אינפלציה אפשריים לבנק המרכזי.",
+    "en": "Copper prices are plunging sharply, serving as a warning for the US economy and signaling potential inflation risks to the Fed.",
+    "ar": "أسعار النحاس تهبط بشدة، مما يمثل تحذيرا للاقتصاد الأمريكي ويشير إلى مخاطر التضخم المحتملة للاحتياطي الفيدرالي.",
+    "ru": "Цены на медь резко падают, служа предупреждением для экономики США и сигнализируя ФРС о возможных инфляционных рисках."
+   },
+   "kid": {
+    "he": "מחיר הנחושת יורד. מכיוון שנחושת משמשת בכל מקום בתעשייה, ירידה כזו יכולה לסמן האטה או בעיות בכלכלה שמשפיעות על מניות התעשייה.",
+    "en": "Copper prices are falling. Because copper is used everywhere in industry, this drop can signal economic slowdown affecting industrial stocks.",
+    "ar": "أسعار النحاس تنخفض. وبما أن النحاس يُستخدم في كل مكان بالصناعة، فقد يشير هذا الهبوط إلى تباطؤ اقتصادي يؤثر على الأسهم الصناعية.",
+    "ru": "Цены на медь падают. Поскольку медь используется везде в промышленности, это падение может сигнализировать об экономическом спаде."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOElkaGNZcUQ5TUdHaWZXWFFmSkxneEh4dE9oQks4aW9pWlJJUVNqQ0lUeVNNM1dhODVCeVgtMld4NF9pcGdUQWNsNHBVSGlMdWhoR0s1WFVheDlVMV93TWJMcVBHeks5TVhEMVlOQ0M4blUwd1czY3FZRHVralV2R0d0TWxvOHpa?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1VWZnFrS1RVVDVzdUs2TTMyTnJTSFZZbUNHSS0tRGhIUm9DSkU1X2Uyd3JEN2cydFhiV3J2WEFxZ0p2MjVYNGJMd1JNSHBJSFNESmRhM2ZvY1FIUjVQeUJNb3RhWHpCblA1eVVNMnlvMkg5LUdDNEFON0NpZ0tiZ1dBbXVxZG5IbE8zRHAxNXI?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1795344319,
+    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכריה.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הנחושת פוגעת ברווחיות חברות הכריה.",
+     "en": "Falling copper prices hurt mining company revenues.",
+     "ar": "انخفاض أسعار النحاس يضر بإيرادات شركات التعدين.",
+     "ru": "Падение цен на медь бьет по доходам горнодобывающих компаний."
+    },
+    "name_i18n": {
+     "he": "פריפורט מקמורן – חברת כריה",
+     "en": "Freeport-McMoRan – mining company",
+     "ar": "فريبورت מקמורן - شركة تعدين",
+     "ru": "Freeport-McMoRan – горнодобывающая компания"
+    },
+    "price_at_alert": 45.99
+   },
+   {
+    "ticker": "CPER",
+    "direction": "down",
+    "t0": 1795344319,
+    "reason": "ירידת ערך מתכת הנחושת בשווקים הבינלאומיים.",
+    "reason_i18n": {
+     "he": "ירידת ערך מתכת הנחושת בשווקים הבינלאומיים.",
+     "en": "Decline in the value of copper metal in international markets.",
+     "ar": "انخفاض قيمة معدن النحاس في الأسواق الدولية.",
+     "ru": "Падение стоимости меди на международных рынках."
+    },
+    "name_i18n": {
+     "he": "קרן סל נחושת",
+     "en": "Copper ETF",
+     "ar": "صندوق النحاس",
+     "ru": "ETF меди"
+    },
+    "price_at_alert": 32.92
+   }
+  ],
+  "id": "3b9edbf757ff"
+ },
+ {
+  "ts": 1795344319,
+  "time": "2026-11-22T10:45Z",
+  "title": "מתקפות סייבר ופריצות למערכות קריטיות בארה\"ב",
+  "summary": "האקרים פרצו למסדי נתונים של ה-FBI, סוכנויות חקלאות ומערכות מים בארה\"ב, לצד תקלות וחששות אבטחה בבנקים כמו צ'ייס.",
+  "kid": "האקרים פרצו למערכות ממשלתיות ובנקאיות רגישות בארה\"ב. זה מעלה חששות לגבי אבטחת מידע ויכול לפגוע במניות של חברות סייבר ואבטחה.",
+  "i18n": {
+   "title": {
+    "he": "מתקפות סייבר ופריצות למערכות קריטיות בארה\"ב",
+    "en": "Cyberattacks and Breaches on US Critical Systems",
+    "ar": "هجمات سيبرانية واختراقات للأنظمة الحيوية في الولايات المتحدة",
+    "ru": "Кибератаки и взломы критически важных систем в США"
+   },
+   "summary": {
+    "he": "האקרים פרצו למסדי נתונים של ה-FBI, סוכנויות חקלאות ומערכות מים בארה\"ב, לצד תקלות וחששות אבטחה בבנקים כמו צ'ייס.",
+    "en": "Hackers breached US FBI crime databases, agricultural agencies, and dam systems, alongside outages and security concerns at banks like Chase.",
+    "ar": "اخترق قراصنة قواعد بيانات مكتب التحقيقات الفيدرالي (FBI) والوكالات الزراعية والسدود في الولايات المتحدة، إلى جانب أعطال ومخاوف أمنية في بنوك مثل تشيس.",
+    "ru": "Хакеры взломали базы данных ФБР, сельскохозяйственные ведомства и системы плотин в США, наряду сбоями и проблемами безопасности в банках, таких как Chase."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות ממשלתיות ובנקאיות רגישות בארה\"ב. זה מעלה חששות לגבי אבטחת מידע ויכול לפגוע במניות של חברות סייבר ואבטחה.",
+    "en": "Hackers broke into sensitive US government and banking systems. This raises cybersecurity concerns and can impact tech and security stocks.",
+    "ar": "اخترق القراصنة أنظمة حكومية ومصرفية حساسة في الولايات المتحدة. هذا يثير مخاوف الأمن السيبراني وقد يؤثر على أسهم التكنولوجيا والأمن.",
+    "ru": "Хакеры взломали конфиденциальные правительственные и банковские системы США. Это вызывает озабоченность кибербезопасностью."
+   }
+  },
+  "category": "cyber",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkFRQXBLVlc0eDdiX2lpU2JPaDdLTkZuU1ZmV244dExPdlhUeW54azE3QVdFY0Y4U0ZWb0t4UFJZOUFXYzNEUmo5TEg1MUpnQnI1S0hoQWRmSTBWZmtGSV9raHp4dVFHOGVuLWthQWVRTGlMLVhjdENSZHd2UWJWczN3bmpLQVRhZmk4ag?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjZDWG5IVV9adXN3d2VPVUh5NnVuLVU4LVIwdkRZMm5pZlh6aXI4eGZENi1TTUI1NUtSQldVY3lKMERPRk55amZlOVNneUdYUUJ6Mjh0eHFXZThxU0kxRVVMRlJIMTRZR2o5WlZjTFNzbVlubDF0RUJXOGZSUUxTZW0tU2x2T1o5SXNVYVRhQVZFMXh5SDE2UmUydzRaUQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795344319,
+    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר בעקבות גל פריצות למערכות קריטיות.",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחת סייבר בעקבות גל פריצות למערכות קריטיות.",
+     "en": "Increased demand for cybersecurity solutions following critical infrastructure breaches.",
+     "ar": "زيادة الطلب على حلول الأمن السيبراني إثر خروقات البنية التحتية الحيوية.",
+     "ru": "Рост спроса на решения кибербезопасности после взломов критической инфраструктуры."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity company",
+     "ar": "كراودسترايك - شركة أمن سيبراني",
+     "ru": "CrowdStrike – компания кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   }
+  ],
+  "id": "b9ed25739868"
+ },
+ {
+  "ts": 1795344319,
+  "time": "2026-11-22T10:45Z",
+  "title": "דליפת נתונים ענקית בחברת החשמל של קוריאה KEPCO",
+  "summary": "חברת החשמל הדרום קוריאנית KEPCO מדווחת על דליפה של 1.52 מיליון רשומות, כולל פרטי חשבונות בנק וכרטיסי אשראי של משלמי חשבונות.",
+  "kid": "חברת חשמל גדולה בקוריאה הדרומית חוותה דליפת נתונים עצומה שחשפה פרטי אשראי של מיליוני אנשים. אירוע זה מדגיש את סיכוני אבטחת המידע ומעיב על הסנטימנט בשוק הדרום קוריאני.",
+  "i18n": {
+   "title": {
+    "he": "דליפת נתונים ענקית בחברת החשמל של קוריאה KEPCO",
+    "en": "Massive Data Leak at South Korea's KEPCO",
+    "ar": "تسريب بيانات ضخم في شركة الكهرباء الكورية KEPCO",
+    "ru": "Масштабная утечка данных в южнокорейской KEPCO"
+   },
+   "summary": {
+    "he": "חברת החשמל הדרום קוריאנית KEPCO מדווחת על דליפה של 1.52 מיליון רשומות, כולל פרטי חשבונות בנק וכרטיסי אשראי של משלמי חשבונות.",
+    "en": "South Korean electric utility KEPCO reports a leak of 1.52 million records, including bank account and credit card details of bill payers.",
+    "ar": "شركة الكهرباء في كوريا الجنوبية KEPCO تبلغ عن تسريب 1.52 مليون سجل، بما في ذلك تفاصيل الحسابات المصرفية وبطاقات الائتمان.",
+    "ru": "Южнокорейская электроэнергетическая компания KEPCO сообщает об утечке 1,52 млн записей, включая банковские счета и кредитные карты."
+   },
+   "kid": {
+    "he": "חברת חשמל גדולה בקוריאה הדרומית חוותה דליפת נתונים עצומה שחשפה פרטי אשראי של מיליוני אנשים. אירוע זה מדגיש את סיכוני אבטחת המידע ומעיב על הסנטימנט בשוק הדרום קוריאני.",
+    "en": "A major South Korean utility suffered a massive data leak exposing millions of financial records, weighing on regional market sentiment.",
+    "ar": "تعرضت شركة مرافق كبرى في كوريا الجنوبية لتسريب بيانات ضخم يكشف ملايين السجلات المالية، مما يضغط على معنويات السوق الإقليمي.",
+    "ru": "Крупная южнокорейская коммунальная компания столкнулась с массированной утечкой данных миллионов финансовых записей."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IbXJhUS15RXV0UXFLZEhVOWY4am85WmNwNjlSSmdDaWhOazZSUF9BR0hXYXBrQkVCdVQyakVPZ3BmSndrcTZFcUZCbmdia1BCQWtDM0ZHMk1QZW9Ld25HcThJNi1tS2RsQjNJbkRya1paRDFudWc?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX0l4MHdHYkhaRzRFb0lFRWx4NFlsekxKUWJOMUlTOXVHcWtMNllibm5lSzd0LTk5ZUNKY211LVpIUk9WdFhGelNjNHgyZ1lKMFZDX2ZpTFprUFF5WTBndi1faTdtdDBKYVNOXzEyaERHTWIxUHZDaFJRN2h3SlZyT3N30gGWAUFVX3lxTE1YY0lfZzBfM0kxV1BPQThRYl9HY3cxeS1LSzFHdlRZcmNrZDVLbmdwcWdzSE9SelRUQVlwblVrT1RjcEltRzFDVGdaOE9hZF96SF9CUE94RzN6WGpsWTRKc3VxSzNkTXRiVVZGY0J1ZG9TUzEyX0RTQW02bnpNSF9ON0FXeXBzMTEtSTdWaFIwbGNwWHhmZw?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3VFZWVUMm5yVmZ0SThiV2h5V24yVFpmLUlmWnBaM1dsZHowbGxkaVZvNWY2Z0tQZmNoVUItYmpkZngwRHlkTUxwSVJqaEhjLTRUTzZZSUtUb2lnRUJsN0plZ0VHWjNKZm1NNDIxam1uak8zME9KYmpfVWJ0Y09fRk9fTlo2cDJf?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMaWw0THpkSnJlaGdfSmpuY2o0ZEJ3aUJ2VEZNN3gwU25tRl9yS0N3OXc1bVJfdzdOVU00VDJzZVk5ZnJDcEwxOFE0cWZUVXEtSFJVNDlZVFU?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWY",
+    "direction": "down",
+    "t0": 1795344319,
+    "reason": "פגיעה באמון המשקיעים עקב פרצת אבטחת מידע לאומית גדולה.",
+    "reason_i18n": {
+     "he": "פגיעה באמון המשקיעים עקב פרצת אבטחת מידע לאומית גדולה.",
+     "en": "Hit to investor confidence due to a major national data security breach.",
+     "ar": "ضربة ثقة المستثمرين بسبب خرق أمني كبير للبيانات الوطنية.",
+     "ru": "Удар по доверию инвесторов из-за крупного нарушения безопасности национальных данных."
+    },
+    "name_i18n": {
+     "he": "קרן סל דרום קוריאה",
+     "en": "South Korea ETF",
+     "ar": "صندوق كوريا الجنوبية",
+     "ru": "ETF Южной Кореи"
+    },
+    "price_at_alert": 123.26
+   }
+  ],
+  "id": "c07d5b4cd679"
  }
 ]
