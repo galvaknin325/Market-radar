@@ -1435,95 +1435,6 @@
  {
   "ts": 1794771858,
   "time": "2026-11-15T19:44Z",
-  "title": "משרד האוצר האמריקאי בוחן את אנבידיה בנוגע לייצוא לסין",
-  "summary": "שר האוצר האמריקאי סקוט בסנט בוחן את חברת אנבידיה בנוגע לעמידתה בבקרות הייצוא הטכנולוגי לסין.",
-  "kid": "הממשלה בודקת אם אנבידיה מכרה שבבים מתקדמים לסין בניגוד לחוקים. זה יכול להשפיע על המכירות של החברה.",
-  "i18n": {
-   "title": {
-    "he": "משרד האוצר האמריקאי בוחן את אנבידיה בנוגע לייצוא לסין",
-    "en": "US Treasury probes Nvidia on China exports",
-    "ar": "وزارة الخزانة الأمريكية تحقق مع إنفيديا بشأن الصادرات إلى الصين",
-    "ru": "Минфин США проверяет Nvidia по поводу экспорта в Китай"
-   },
-   "summary": {
-    "he": "שר האוצר האמריקאי סקוט בסנט בוחן את חברת אנבידיה בנוגע לעמידתה בבקרות הייצוא הטכנולוגי לסין.",
-    "en": "US Treasury Secretary Scott Bessent is probing Nvidia regarding its compliance with technology export controls to China.",
-    "ar": "يقوم وزير الخزانة الأمريكي سكوت بيسنت بالتحقيق مع شركة إنفيديا بشأن امتثالها لضوابط تصدير التكنولوجيا إلى الصين.",
-    "ru": "Министр финансов США Скотт Бессент проводит проверку Nvidia на предмет соблюдения правил экспортного контроля технологий в Китай."
-   },
-   "kid": {
-    "he": "הממשלה בודקת אם אנבידיה מכרה שבבים מתקדמים לסין בניגוד לחוקים. זה יכול להשפיע על המכירות של החברה.",
-    "en": "The government is checking if Nvidia sold advanced chips to China against the rules. This could affect the company's sales.",
-    "ar": "تتحقق الحكومة مما إذا كانت إنفيديا قد باعت رقائق متقدمة للصين مخالفة للقواعد. قد يؤثر هذا على مبيعات الشركة.",
-    "ru": "Правительство проверяет, продавала ли Nvidia передовые чипы в Китай вопреки правилам. Это может повлиять на продажи компании."
-   }
-  },
-  "category": "trade",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNGlGWUVJcnl5S3lyM21VTTByeXZLUVZwXzVfNVFseUM1YVFDYzNPeFhzaUx6NnBocENoMERpZEVrYTFpbEp5Q1l4RENqazFWR2dWSFNOVTZCWXVKUDJzQ0hxbmN0S0YxX0d4RGIxZUdGM09vWFhlTVJXalFhSkVKQjd3dDI4eDhNSDZhb0xHUTNuZld2SnA5YzllWU5mNjhtQnlya05pQi1TRFFpU1pDQkhnd0hvYnllU2pz?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxV2NSVllOUjE2Z3hLUUFQTjNLa2tlRnJ2WWJZbmRBRkRTaWpzQ2RKb3hlTm03WVVRbHZtMEF5cDZkWk01elRHdEg2YVFjZmM1bml4T1E3NTBldlE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794771858,
-    "reason": "חשש מהגבלות רגולטוריות נוספות על הכנסות החברה בסין.",
-    "reason_i18n": {
-     "he": "חשש מהגבלות רגולטוריות נוספות על הכנסות החברה בסין.",
-     "en": "Fears of further regulatory restrictions on the company's revenue in China.",
-     "ar": "مخاوف من قيود تنظيمية إضافية على إيرادات الشركة في الصين.",
-     "ru": "Опасения по поводу дальнейших регуляторных ограничений на выручку компании в Китае."
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 162.85,
-    "entry_price": 159.0025,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 155.47,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.22,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.08,
-    "edge_pct": -0.08,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "1f12b545dd4b",
-  "updates": [
-   {
-    "ts": 1794777224,
-    "time": "2026-11-15T21:13Z",
-    "severity": 6,
-    "summary": "ממשל ארה\"ב העניק לדירקטוריון אנבידיה 10 ימים לטפל בחששות סביב בקרת הייצוא לסין.",
-    "i18n": {
-     "he": "ממשל ארה\"ב העניק לדירקטוריון אנבידיה 10 ימים לטפל בחששות סביב בקרת הייצוא לסין.",
-     "en": "The US administration gave Nvidia's board 10 days to address export-control concerns regarding China.",
-     "ar": "منحت الإدارة الأمريكية مجلس إدارة إنفيديا 10 أيام لمعالجة مخاوف رقابة الصادرات.",
-     "ru": "Администрация США дала совету директоров Nvidia 10 дней на урегулирование вопросов экспортного контроля."
-    }
-   }
-  ],
-  "last_update": 1794777224,
-  "evaluated": true
- },
- {
-  "ts": 1794771858,
-  "time": "2026-11-15T19:44Z",
   "title": "בכיר הפד: האינפלציה עדיין גבוהה מדי",
   "summary": "נשיא הפדרל ריזרב של קנזס סיטי, ג'פרי שמיד, הצהיר כי האינפלציה נותרה גבוהה מדי וכי לבנק המרכזי יש עוד עבודה לעשות כדי להחזירה ליעד.",
   "kid": "הבנק המרכזי של ארה\"ב אומר שהמחירים עדיין עולים מהר מדי. זה עלול להוביל להחלטות שיקשו על הלוואות כסף בעתיד.",
@@ -1684,149 +1595,6 @@
    }
   ],
   "last_update": 1794796952,
-  "evaluated": true
- },
- {
-  "ts": 1794771858,
-  "time": "2026-11-15T19:44Z",
-  "title": "אזהרה מפני התפרצות אבולה רחבה בקונגו",
-  "summary": "ארגון הבריאות העולמי והאיחוד האפריקאי מזהירים כי התפרצות האבולה ברפובליקה הדמוקרטית של קונגו יצאה משליטה, עם אלפי מקרי מוות וחשש להתפשטות יבשתית.",
-  "kid": "מחלה מסוכנת מתפשטת באפריקה. זה עלול להשפיע על חברות תרופות שמפתחות חיסונים.",
-  "i18n": {
-   "title": {
-    "he": "אזהרה מפני התפרצות אבולה רחבה בקונגו",
-    "en": "Warning of large Ebola outbreak in DRC",
-    "ar": "تحذير من تفشي واسع للإيبولا في جمهورية الكونغو الديمقراطية",
-    "ru": "Предупреждение о масштабной вспышке Эболы в ДРК"
-   },
-   "summary": {
-    "he": "ארגון הבריאות העולמי והאיחוד האפריקאי מזהירים כי התפרצות האבולה ברפובליקה הדמוקרטית של קונגו יצאה משליטה, עם אלפי מקרי מוות וחשש להתפשטות יבשתית.",
-    "en": "The WHO and African Union warn that the Ebola outbreak in the DRC is out of control, with thousands of deaths and fears of a continental spread.",
-    "ar": "تحذر منظمة الصحة العالمية والاتحاد الأفريقي من أن تفشي الإيبولا في جمهورية الكونغو الديمقراطية خرج عن السيطرة، مع آلاف الوفيات ومخاوف من انتشاره على مستوى القارة.",
-    "ru": "ВОЗ и Африканский союз предупреждают, что вспышка Эболы в ДРК вышла из-под контроля: тысячи погибших и опасения распространения по всему континенту."
-   },
-   "kid": {
-    "he": "מחלה מסוכנת מתפשטת באפריקה. זה עלול להשפיע על חברות תרופות שמפתחות חיסונים.",
-    "en": "A dangerous disease is spreading in Africa. This could affect pharmaceutical companies that develop vaccines.",
-    "ar": "مرض خطير ينتشر في أفريقيا. قد يؤثر هذا على شركات الأدوية التي تطور اللقاحات.",
-    "ru": "В Африке распространяется опасная болезнь. Это может повлиять на фармацевтические компании, разрабатывающие вакцины."
-   }
-  },
-  "category": "health",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdzIwNWRFXzMyYzlVQldZS3g5bVNDNERhVGtadS1JVFNSYkhiSzExVXRVNWdIWEcxNHVKUlNjcUo5MFRLMVAwZVNJZFpLT2gtd2tVckJHR1Q1OFlXSlpWbEhTekxESFEyUnAyUlVCSEFsOHRjbWJSVDg2dDJxM1l0NWFvX2ZONGhzUy1zQWVyQWptLVg2Z1hFZ3RWazVYQk82TDhSdA?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYk1QcGVmZnA4WkNweHFKTFJCOWtDckFlZzVEUnU0Rkc5OE54QUF0ZktmeWEyWkFXX2VhTmxxcU9LOENqUUY3U2V2NWNqTFZvWmRfRTlwdHVwekxqV092TTVKS2FQN2NwcEl3Z25ERE9HY1B2NmY5V3BLakpuem05Z0UxUnJrMG43TlM1LWNLWlUyV2FXa0VUaFRzR2tzdktJRVNRell0VEpmeGJPVXYwSWlNWFNiNUt1MlFnOVo2eVRKVFhh?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHBKelNLRUJhSVRPUUNJSmNCbkJsWkFHOHVjd0dmVURuVm8tSnF5OHZpWlAxVkwzWmIxUWpYbUxXYjFUR3ZSMllLODlJbldWaHRnclVOVHdmTHo4dVhCTlpUdTI0VmdBaDJaQXVJbGVKaXNNMmtOa3E2YTdqQ1NiRnFLVlJMckNyQkZUT1JFNTJYall0U1JJZnhhakJrZw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jRkZ5MFdYV0dzTVdWd0NiakdwNWQzeFNvYjVZeW0zZ0w1Nlp0MGZiRlJsRGl3dVhRaE04MjBwbVdKdDR3ZlA1Y0lVenBzV0ZVOURnbkQzNXdDU0J4aW9sZXR1azRhcm8zVk4xU2J2WXAyUEN1?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLWFrWmFhTTA2UDZQSk5fQWtGeGRScmpTeXluVGRJYVlpVnh3MUVSX25PZ1F5eThSZnU4QkdXZjlvVU1zcEFSTHhxSUdDRUh2YTRRSndOMEpOSFk1clVjSC1UR0x2Nm0zTHlMa1pHWXR0OGJxYzBBa19Ddmhfb1U5VkNMbG5Odw?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "MRNA",
-    "direction": "up",
-    "t0": 1794771858,
-    "reason": "פוטנציאל לביקוש מוגבר לחיסונים וטיפולים רפואיים.",
-    "reason_i18n": {
-     "he": "פוטנציאל לביקוש מוגבר לחיסונים וטיפולים רפואיים.",
-     "en": "Potential for increased demand for vaccines and medical treatments.",
-     "ar": "احتمالية زيادة الطلب على اللقاحات والعلاجات الطبية.",
-     "ru": "Потенциальный рост спроса на вакцины и медицинские препараты."
-    },
-    "name_i18n": {
-     "he": "מודרנה",
-     "en": "Moderna",
-     "ar": "موديرنا",
-     "ru": "Moderna"
-    },
-    "price_at_alert": 223.37,
-    "entry_price": 217.18,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 206.89,
-    "exit_date": "2026-11-17",
-    "change_pct": -4.74,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -2.44,
-    "edge_pct": -2.44,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1794774103,
-    "reason": "עלייה בביקוש לחיסונים וטיפולים",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לחיסונים וטיפולים",
-     "en": "Increased demand for vaccines and treatments",
-     "ar": "زيادة الطلب على اللقاحات والعلاجات",
-     "ru": "Рост спроса на вакцины и методы лечения"
-    },
-    "name_i18n": {
-     "he": "מגזר הבריאות",
-     "en": "Healthcare sector",
-     "ar": "قطاع الرعاية الصحية",
-     "ru": "Сектор здравоохранения"
-    },
-    "price_at_alert": 188.85,
-    "entry_price": 190.51,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 185.28,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.75,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -0.44,
-    "edge_pct": -0.44,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "b6ea090d3674",
-  "updates": [
-   {
-    "ts": 1794774103,
-    "time": "2026-11-15T20:21Z",
-    "severity": 5,
-    "summary": "המרכז לבקרת מחלות באפריקה מזהיר כי התפרצות האבולה ברפובליקה הדמוקרטית של קונגו אינה בשליטה, ועלולה להפוך להתפרצות הקשה ביותר שנרשמה.",
-    "i18n": {
-     "he": "המרכז לבקרת מחלות באפריקה מזהיר כי התפרצות האבולה ברפובליקה הדמוקרטית של קונגו אינה בשליטה, ועלולה להפוך להתפרצות הקשה ביותר שנרשמה.",
-     "en": "The Africa CDC warns that the Ebola outbreak in the DRC remains out of control and could become the worst on record if not contained immediately.",
-     "ar": "حذر المركز الأفريقي لمكافحة الأمراض من أن تفشي إيبولا في جمهورية الكونغو الديمقراطية لا يزال خارجاً عن السيطرة، وقد يصبح الأسوأ على الإطلاق إذا لم يتم احتواؤه فوراً.",
-     "ru": "Африканский центр по контролю за заболеваниями предупреждает, что вспышка Эболы в ДРК остается вне контроля и может стать худшей в истории, если ее не остановить немедленно."
-    }
-   },
-   {
-    "ts": 1794777224,
-    "time": "2026-11-15T21:13Z",
-    "severity": 4,
-    "summary": "מרכז בקרת המחלות האפריקאי מזהיר שמגיפת האבולה בקונגו אינה תחת שליטה לאחר שישה חודשים.",
-    "i18n": {
-     "he": "מרכז בקרת המחלות האפריקאי מזהיר שמגיפת האבולה בקונגו אינה תחת שליטה לאחר שישה חודשים.",
-     "en": "Africa CDC warns that the Ebola outbreak in Congo is not under control after six months.",
-     "ar": "يحذر مركز مكافحة الأمراض الأفريقي من أن تفشي إيبولا في الكونغو ليس تحت السيطرة.",
-     "ru": "Африканский центр по контролю заболеваний предупреждает, что вспышка Эбола не под контролем."
-    }
-   }
-  ],
-  "last_update": 1794777224,
   "evaluated": true
  },
  {
@@ -35828,10 +35596,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions?traffic_source=rss"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRXNoU3BDMktXT29DS3J5TF9JNnN1ZHM5ZnlMdzNUZ19CZTY0NjFpQlNmQkNIRG1mZ0JmeUNTODROcERNSzhELTZsMWttbFJpRnIxN0VTbUFNamxFR1gtLWlQQzBwRkVBMXVwUFVBS1A3VXR0R3BIeTRTcEh1V3RDY0oyZTExUFdiTlFzaERVTG1jaldYdVhIdDRUMDY0Qk5PMktKZnVmc21kQlpiZmUtRk03U2dwWHVZc292bUw3RGFBQQ?oc=5"
    },
@@ -35850,6 +35614,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5scFNoa2RNMDFGY0k5azFaNHItcGNocE9lR29ad21TZ1BlZFN6LXQxampidE5mSmJTWlRWUjNsQWtEdHB0WmJXTGhVWmVVS2VHUGc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbFk0YTI3Umd5NDQ1OWxSa1NKYThTdEJ5SUpxTVUzaFR4TzcwZ2owaFhvTUtHRkhHMFptS3M1bnY5cjRZWE5EQm9JX3RjTmMtZVU2X1M5TkFDeW9seEtzVUFvN1AxbUM0MGVVMmpoM3NzTVBDQUN4dDBMdDJmOGhYenNicWl6aHRneHJWMTk1endycng4czFTdjZGbjVsMzV0Nm1xanhpQldiakttNEVV?oc=5"
    }
   ],
   "impacts": [
@@ -36077,9 +35845,21 @@
      "ar": "تستعد إيران التي تعاني من ضائقة مالية لعدة ناقلات محاولة لكسر خط الحصار الأمريكي في مضيق هرمز الاستراتيجي.",
      "ru": "Испытывающий нехватку средств Иран готовит несколько танкеров для попытки прорыва линии блокады США в стратегическом Ормузском проливе."
     }
+   },
+   {
+    "ts": 1795383930,
+    "time": "2026-11-22T21:45Z",
+    "severity": 7,
+    "summary": "דיווחים על תקיפות נגד ספינות סמוך למיצר הורמוז הגיעו לשיא של תקופת מלחמה, מה שמגביר את החששות לשיבושים בנתיבי אנרגיה מרכזיים.",
+    "i18n": {
+     "he": "דיווחים על תקיפות נגד ספינות סמוך למיצר הורמוז הגיעו לשיא של תקופת מלחמה, מה שמגביר את החששות לשיבושים בנתיבי אנרגיה מרכזיים.",
+     "en": "Reported attacks on shipping near the Strait of Hormuz have reached a wartime high, raising concerns over disruptions in key energy shipping lanes.",
+     "ar": "بلغت الهجمات المبلغ عنها على الشحن بالقرب من مضيق هرمز أعلى مستوى لها في زمن الحرب، مما يثير المخاوف بشأن اضطرابات خطوط شحن الطاقة الرئيسية.",
+     "ru": "Сообщения о нападениях на суда вблизи Ормузского пролива достигли максимума военного времени, что усиливает опасения по поводу сбоев на ключевых энергетических маршрутах."
+    }
    }
   ],
-  "last_update": 1795313169
+  "last_update": 1795383930
  },
  {
   "ts": 1795257177,
@@ -43462,5 +43242,183 @@
    }
   ],
   "id": "f9b4f6553283"
+ },
+ {
+  "ts": 1795383930,
+  "time": "2026-11-22T21:45Z",
+  "title": "צניחה חדה של 16% במחיר הכסף",
+  "summary": "מחיר הכסף רשם ירידה חדה של 16% ונסחר ברמה של 41 דולר לאונקיה, דבר שמשפיע על שוקי המתכות.",
+  "kid": "מחיר מתכת הכסף ירד בפתאומיות ב-16%. זה יכול להשפיע על מניות של חברות שכרוות מתכות יקרות.",
+  "i18n": {
+   "title": {
+    "he": "צניחה חדה של 16% במחיר הכסף",
+    "en": "Silver slides 16% to $41.00 an ounce",
+    "ar": "انخفاض حاد بنسبة 16% في سعر الفضة",
+    "ru": "Резкое падение цены серебра на 16%"
+   },
+   "summary": {
+    "he": "מחיר הכסף רשם ירידה חדה של 16% ונסחר ברמה של 41 דולר לאונקיה, דבר שמשפיע על שוקי המתכות.",
+    "en": "Silver prices dropped sharply by 16% to trade at $41.00 an ounce, impacting precious metals markets.",
+    "ar": "انخفضت أسعار الفضة بشكل حاد بنسبة 16% لتتداول عند 41.00 دولار للأوقية، مما يؤثر على أسواق المعادن الثمينة.",
+    "ru": "Цены на серебро резко упали на 16% до $41.00 за унцию, что повлияло на рынки драгоценных металлов."
+   },
+   "kid": {
+    "he": "מחיר מתכת הכסף ירד בפתאומיות ב-16%. זה יכול להשפיע על מניות של חברות שכרוות מתכות יקרות.",
+    "en": "The price of silver dropped suddenly by 16%. This can affect stocks of companies that mine precious metals.",
+    "ar": "انخفض سعر الفضة فجأة بنسبة 16%. هذا يمكن أن يؤثر على أسهم الشركات التي تنقب عن المعادن الثمينة.",
+    "ru": "Цена серебра внезапно упала на 16%. Это может повлиять на акции компаний, добывающих драгоценные металлы."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRlJ6TFdPbjJVRXJZbUxjNkdRaEthQTdsbGVsWHNQOHVPb0lZLWtQWUxjLU1SYzBhSlBUdVBGN2x4UGEtaUJodldMb01jaU9pdm5NZnd0Y2cwYWNOZmRPTHVVaEpFRWw3b2FXWXRrMWx4ZWlEQkFFOWhMX0MyQTFveW1PYw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "SLV",
+    "direction": "down",
+    "t0": 1795383930,
+    "reason": "ירידה ישירה במחיר מתכת הכסף בשווקים.",
+    "reason_i18n": {
+     "he": "ירידה ישירה במחיר מתכת הכסף בשווקים.",
+     "en": "Direct drop in the market price of silver metal.",
+     "ar": "انخفاض مباشر في سعر معدن الفضة في الأسواق.",
+     "ru": "Прямое падение рыночной цены серебра."
+    },
+    "name_i18n": {
+     "he": "SLV - קרן סל העוקבת אחר מחיר הכסף",
+     "en": "SLV - Silver Trust ETF",
+     "ar": "SLV - صندوق استثمار الفضة",
+     "ru": "SLV - ETF на серебро"
+    },
+    "price_at_alert": 36.97
+   }
+  ],
+  "id": "61e678b35daa"
+ },
+ {
+  "ts": 1795383930,
+  "time": "2026-11-22T21:45Z",
+  "title": "זינוק ביצוא החיטה באירופה ועלייה בסיכונים בים השחור",
+  "summary": "יצוא החיטה של האיחוד האירופי זינק ב-45% על רקע שיבושים באזור הים השחור, שגם העלו את פרמיית הסיכון על חיטה רוסית.",
+  "kid": "אירופה מוכרת הרבה יותר חיטה בגלל בעיות באזור הים השחור. זה יכול לשנות את מחירי המזון והדגנים בעולם.",
+  "i18n": {
+   "title": {
+    "he": "זינוק ביצוא החיטה באירופה ועלייה בסיכונים בים השחור",
+    "en": "EU wheat exports surge and Black Sea risks rise",
+    "ar": "قفزة في صادرات القمح الأوروبية وارتفاع مخاطر البحر الأسود",
+    "ru": "Всплеск экспорта пшеницы из ЕС и рост рисков в Черном море"
+   },
+   "summary": {
+    "he": "יצוא החיטה של האיחוד האירופי זינק ב-45% על רקע שיבושים באזור הים השחור, שגם העלו את פרמיית הסיכון על חיטה רוסית.",
+    "en": "EU wheat exports surged 45% amid Black Sea disruptions, which also lifted the risk premium on Russian wheat exports.",
+    "ar": "قفزت صادرات القمح للاتحاد الأوروبي بنسبة 45% وسط اضطرابات البحر الأسود، مما أدى أيضاً إلى رفع علاوة المخاطر على صادرات القمح الروسية.",
+    "ru": "Экспорт пшеницы из ЕС вырос на 45% на фоне перебоев в Черном море, что также повысило премию за риск по российскому экспорту пшеницы."
+   },
+   "kid": {
+    "he": "אירופה מוכרת הרבה יותר חיטה בגלל בעיות באזור הים השחור. זה יכול לשנות את מחירי המזון והדגנים בעולם.",
+    "en": "Europe is selling much more wheat due to problems in the Black Sea region. This could change food and grain prices worldwide.",
+    "ar": "تبيع أوروبا كميات أكبر بكثير من القمح بسبب مشاكل في منطقة البحر الأسود. هذا يمكن أن يغير أسعار الغذاء والحبوب في جميع أنحاء العالم.",
+    "ru": "Европа продает гораздо больше пшеницы из-за проблем в Черноморском регионе. Это может изменить цены на продовольствие и зерно по всему миру."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTER5cFJ0QmRoSjI4SXZLLThTMUNkeUJNbm5MLXlldFh5d2U5RUZhMGdiMTlQQ1JFT0E1OVJDYzZvLXYzalhVbEhWZTNCN214TEdaX0JrOFRIT1dOVENJdWxxTzFjNVA3eUNrZlc4ano4OFRyaDNkMm9TcXFKVkxhLUlmUmttbDA0a2NtbVZtd3JsNC0ySks4?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc0lOTEJ3U3Q2bXpzZmQxV21sQURMRENYV3FWR19uMXFyS0x6LTlEVlN1YndRU29mRHNOaDA0OU1pSlFXWjh4ei1BVVNtLW5ma201dGZjSmhLa1cwbFdRd2U2ZVNkZU5HaFlwWlc3Z1JHVHJwYmhqeHRBT2dFOHlqcTdSVFc0V0Rxb1hibDZIR0JIUlREOHZvZC1lVTVGNlk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "up",
+    "t0": 1795383930,
+    "reason": "חשש מבעיות אספקה בים השחור מעלה את מחירי החיטה.",
+    "reason_i18n": {
+     "he": "חשש מבעיות אספקה בים השחור מעלה את מחירי החיטה.",
+     "en": "Fears of Black Sea supply issues push wheat prices up.",
+     "ar": "مخاوف مشاكل إمدادات البحر الأسود تدفع أسعار القمح للارتفاع.",
+     "ru": "Опасения по поводу проблем с поставками из Черного моря поднимают цены на пшеницу."
+    },
+    "name_i18n": {
+     "he": "WEAT - קרן סל חיטה",
+     "en": "WEAT - Wheat ETF",
+     "ar": "WEAT - صندوق استثمار القمح",
+     "ru": "WEAT - ETF на пшеницу"
+    },
+    "price_at_alert": 21.44
+   }
+  ],
+  "id": "ef44a563ee93"
+ },
+ {
+  "ts": 1795383930,
+  "time": "2026-11-22T21:45Z",
+  "title": "הודו שוקלת מכסים על יצוא אורז כדי לבלום את המחירים",
+  "summary": "הודו שוקלת להטיל מכס על יצוא אורז שאינו בסמצוא ומחיר מינימום כדי לקרר את המחירים המקומיים.",
+  "kid": "הודו רוצה להטיל מס על יצוא אורז כדי שהמחירים אצלה לא יקפצו. זה יכול להשפיע על מחירי האורז בעולם.",
+  "i18n": {
+   "title": {
+    "he": "הודו שוקלת מכסים על יצוא אורז כדי לבלום את המחירים",
+    "en": "India considers rice export duty to cool prices",
+    "ar": "الهند تدرس فرض رسوم على تصدير الأرز لتهدئة الأسعار",
+    "ru": "Индия рассматривает вопрос о пошлине на экспорт риса для сдерживания цен"
+   },
+   "summary": {
+    "he": "הודו שוקלת להטיל מכס על יצוא אורז שאינו בסמצוא ומחיר מינימום כדי לקרר את המחירים המקומיים.",
+    "en": "India is considering a non-basmati rice export duty and minimum export price to cool down domestic prices.",
+    "ar": "تدرس الهند فرض رسوم تصدير على الأرز غير البهسمتي ووضع حد أدنى لسعر التصدير لتهدئة الأسعار المحلية.",
+    "ru": "Индия рассматривает возможность введения экспортной пошлины на не басмати рис и минимальной экспортной цены для охлаждения внутренних цен."
+   },
+   "kid": {
+    "he": "הודו רוצה להטיל מס על יצוא אורז כדי שהמחירים אצלה לא יקפצו. זה יכול להשפיע על מחירי האורז בעולם.",
+    "en": "India wants to tax rice exports to keep local prices from jumping. This could affect global rice prices.",
+    "ar": "تريد الهند فرض ضريبة على تصدير الأرز لمنع الأسعار المحلية من القفز. هذا يمكن أن يؤثر على أسعار الأرز العالمية.",
+    "ru": "Индия хочет облагать налогом экспорт риса, чтобы местные цены не росли. Это может повлиять на мировые цены на рис."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON0oyMk5iQ2lnck1XcENFVjE3aU9pbDRfTndjMkVnMFd6VzV6Ym9ScWZBRkZ2aXI3am03Vl9SR1QxM192N3VQclAxMjFHeTBwb1lLcFRJclZPdmRCZDd4dW9iQ0NyMHdNbUFqZUVhcTNEN3lGN00zQTFTdC1PZWdPeExMeG9yZUdHQmZxR25WNzg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DBA",
+    "direction": "up",
+    "t0": 1795383930,
+    "reason": "הגבלות יצוא מהודו עשויות להעלות את מחירי המזון הגלובליים.",
+    "reason_i18n": {
+     "he": "הגבלות יצוא מהודו עשויות להעלות את מחירי המזון הגלובליים.",
+     "en": "Export restrictions from India could raise global food prices.",
+     "ar": "قد تؤدي قيود التصدير من الهند إلى رفع أسعار الغذاء العالمية.",
+     "ru": "Экспортные ограничения из Индии могут поднять мировые цены на продовольствие."
+    },
+    "name_i18n": {
+     "he": "DBA - קרן סל מוצרי חקלאות",
+     "en": "DBA - Agriculture ETF",
+     "ar": "DBA - صندوق استثمار الزراعة",
+     "ru": "DBA - ETF на сельское хозяйство"
+    },
+    "price_at_alert": 26.15
+   }
+  ],
+  "id": "17d1f908c7a8"
  }
 ]
