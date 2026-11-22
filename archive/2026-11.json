@@ -143409,9 +143409,14 @@
    }
   },
   "category": "macro",
-  "severity": 6,
+  "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YQl8wMTMzX1QzRzJCOG5LSzB0UDJRWUJ1YXRHdVZhSVVETEVoaXItZ1kxRGJTc0ZQLXZJMFoySm92TnI4WVl3QmRFUWRYMkZSeTNlRlF3STlDRkV0N3Z4THJoSFhubEMzQWhJaGc4QjNOSldjeGlYRTQwbmViUQ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -143452,7 +143457,22 @@
     "price_at_alert": 81.45
    }
   ],
-  "id": "7c48efa8fabb"
+  "id": "7c48efa8fabb",
+  "updates": [
+   {
+    "ts": 1795375651,
+    "time": "2026-11-22T19:27Z",
+    "severity": 8,
+    "summary": "השוק ממתין לנתוני ה-PCE בארה\"ב, כאשר קיים חשש כי נתונים גבוהים מהצפוי עלולים להוביל לירידות בשוק המניות.",
+    "i18n": {
+     "he": "השוק ממתין לנתוני ה-PCE בארה\"ב, כאשר קיים חשש כי נתונים גבוהים מהצפוי עלולים להוביל לירידות בשוק המניות.",
+     "en": "The market is awaiting US PCE data, with concerns that higher-than-expected figures could trigger a stock market selloff.",
+     "ar": "ينتظر السوق بيانات نفقات الاستهلاك الشخصي (PCE) في الولايات المتحدة، مع وجود مخاوف من أن تؤدي الأرقام الأعلى من المتوقع إلى عمليات بيع في سوق الأسهم.",
+     "ru": "Рынок ожидает данные по PCE в США, опасаясь, что цифры выше ожидаемых могут спровоцировать распродажу на фондовом рынке."
+    }
+   }
+  ],
+  "last_update": 1795375651
  },
  {
   "ts": 1795369324,
@@ -143481,9 +143501,18 @@
    }
   },
   "category": "cyber",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVFlRVzQ3REYyVURVNmZWZGVBNXEtVEJENWVvUjY1eUpCR0Z1a244ZFBKanNoT1ljb2hDeTlESENGV1I2Q2dxV0NseE14NWJaS3FDTzAxT0Y3OVgtQWNCWThDbElkZy1ELW5PcjJQN2VPaW5LeUl3eG9KaWhwU1RVSEtJWWgyN2ZvMGIzeEdpeXJKbHFQUGFzYmNlN2d5ajRST1dQcS02SDhiaWEtSWo4bnJ2Wl9IT0pFVXdKakhxaG8?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNczVBNHluWTlnNHpMTU5TY0dBU2FNRlQ1dllPMXZHNFFfdXZXWDV6aW5zYnI1SDlWb0RyaTA0LWhEQnRVeHNPUlBrT2NuQ2xtb2RRLVBrRnByZUFmSnR3MktOU2E4eXNZc2c3UVdzWFF3SnlTang2LS1pNDFzMURyTGhuQzZVOEUxN0Y0UkxnaGpfY0otTlpXd3RvS2dINnhvZUZKTUp0Rk0tT0dCQ1g5SUtNcE01X2pfOUVIbl92Q3gzcHZpd1V5VEJzRUdGSlpxWjRMWFlEQk92VndhZ3BtNUE5MlhKT0s1djlxV9IB8gFBVV95cUxPREZqeFF0dDlDeEw2UC04UkNBVXRicllhUlFrZVBaS2tIcnEybEl3TGY0eGNHWG9leVBjZzBqRkVlZ2pEV0xMb0R0MDFyLXdoaHZsM1htUUFDeGdQNjBDd0ZSQ3A4VVJZX3U3ZFV4QkthRmpKd3ZFa0pWdDh5V09qYlZ3ZTBLLXZoRGdwbzMyQ2lhQWc0c2lwSXo4NGxpLWNBd2NteFpMR3U3OU5ZLXA2QlpDZW9MaHNNY1Vmc1dzNkR0SlBxZmI4S3JsWnBZVWpVUGY2d0I5cE80cTBDcTlMWE5CX01zOXo5Vng0M0hiUGVTZw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "CRWD",
@@ -143524,7 +143553,22 @@
     "price_at_alert": 303.99
    }
   ],
-  "id": "9d2928fc75af"
+  "id": "9d2928fc75af",
+  "updates": [
+   {
+    "ts": 1795375651,
+    "time": "2026-11-22T19:27Z",
+    "severity": 6,
+    "summary": "דווח על עלייה חדה בניסיונות מתקפות סייבר על נמלים אמריקאיים, בעוד גורמי מודיעין מזהירים מפני שיבושים מתמשכים במערכות טכנולוגיות.",
+    "i18n": {
+     "he": "דווח על עלייה חדה בניסיונות מתקפות סייבר על נמלים אמריקאיים, בעוד גורמי מודיעין מזהירים מפני שיבושים מתמשכים במערכות טכנולוגיות.",
+     "en": "A sharp rise in cyberattack attempts on US ports has been reported, while intelligence officials warn of ongoing disruptions to tech systems.",
+     "ar": "تم الإبلاغ عن ارتفاع حاد في محاولات الهجمات السيبرانية على الموانئ الأمريكية، بينما يحذر مسؤولو الاستخبارات من اضطرابات مستمرة في الأنظمة التكنولوجية.",
+     "ru": "Сообщается о резком росте попыток кибератак на порты США, в то время как представители разведки предупреждают о продолжающихся сбоях в технологических системах."
+    }
+   }
+  ],
+  "last_update": 1795375651
  },
  {
   "ts": 1795371871,
@@ -143583,5 +143627,152 @@
    }
   ],
   "id": "24a1b70c4d56"
+ },
+ {
+  "ts": 1795375651,
+  "time": "2026-11-22T19:27Z",
+  "title": "איומי טראמפ נגד איראן והסלמה במפרץ",
+  "summary": "דונלד טראמפ איים להטביע ספינות איראניות שינסו להפר מצור, בעוד משמרות המהפכה טוענים כי תקפו בסיסים אמריקאיים בבחריין.",
+  "kid": "טראמפ אמר שארה\"ב תפגע בספינות איראניות אם ינסו לעבור במקומות אסורים. זה עלול לגרום למתיחות גדולה במזרח התיכון ולהשפיע על מחירי הנפט.",
+  "i18n": {
+   "title": {
+    "he": "איומי טראמפ נגד איראן והסלמה במפרץ",
+    "en": "Trump's threats against Iran and escalation in the Gulf",
+    "ar": "تهديدات ترامب ضد إيران والتصعيد في الخليج",
+    "ru": "Угрозы Трампа в адрес Ирана и эскалация в Персидском заливе"
+   },
+   "summary": {
+    "he": "דונלד טראמפ איים להטביע ספינות איראניות שינסו להפר מצור, בעוד משמרות המהפכה טוענים כי תקפו בסיסים אמריקאיים בבחריין.",
+    "en": "Donald Trump threatened to sink Iranian ships attempting to break a blockade, while the IRGC claims to have targeted US bases in Bahrain.",
+    "ar": "هدد دونالد ترامب بإغراق السفن الإيرانية التي تحاول كسر الحصار، بينما يدعي الحرس الثوري الإيراني أنه استهدف قواعد أمريكية في البحرين.",
+    "ru": "Дональд Трамп пригрозил потопить иранские корабли, пытающиеся прорвать блокаду, в то время как КСИР заявляет об атаках на базы США в Бахрейне."
+   },
+   "kid": {
+    "he": "טראמפ אמר שארה\"ב תפגע בספינות איראניות אם ינסו לעבור במקומות אסורים. זה עלול לגרום למתיחות גדולה במזרח התיכון ולהשפיע על מחירי הנפט.",
+    "en": "Trump said the US will attack Iranian ships if they try to pass through blocked areas. This could cause big tension in the Middle East and affect oil prices.",
+    "ar": "قال ترامب إن الولايات المتحدة ستهاجم السفن الإيرانية إذا حاولت المرور عبر مناطق محظورة. هذا قد يسبب توتراً كبيراً في الشرق الأوسط ويؤثر على أسعار النفط.",
+    "ru": "Трамп заявил, что США будут атаковать иранские корабли, если они попытаются пройти через запрещенные зоны. Это может вызвать сильное напряжение на Ближнем Востоке и повлиять на цены на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcGpKbkNsNENfdU9pZ05xTWZpMm05eUFWazRkaWNwU3p3ckxxSThkQWtrREtpS2JMMFczeHdfaXQtb19DZ1dhQ2JkN092UGpqVUt2bS1iNFVKamxWdWNXdFR4dVhEeXoweFlCM3llV2t5cDNMMEdWYlNGVVZRZGktRGI3eGFIaUwxLUxYbTVMNnhqVVhwOEc4eFRHTnBJay01YVNoUzdHUVI3Z0FNVUFMeXU5NWp3MEJsQkNaRTFvQUowRER5UlE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yRzhqLXpNWFJkbFplZERtSXlGemFFcFhtR0pvRl9LLThTTmxYdWM5SkFad0QybkdVYjF6TVNsYTNYYXR5cDNIdkVSb29kNVpxdkxXSk81MmJiWGRiOTFGUU5GWVUwcjQ1WmN2QQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcFkwczNDMEhjaWhzS0pFZHVINENzOThlUUhkemxXa2ZrSHlzWW5Dck9UOWIzWFU1TmNfSWppMlJvS3JzTHdjM2N4dFJlRWdwa1NUZVBJN0xSRkdrQTlZeGJkZk9kWGlTVGVINTVrNW1wRmcwU2dPWC1nMXlYMHNyM1Y4ONIBiAFBVV95cUxOWTZXMXd6ZTlCeUVkeHc2azFBVl90SkI1TXEtY1RISVBMb25rWHZkaDhzbE5ZY1lvYmhzMkFMaWtwR0k0d0pRVFY1TkNicUN4cUpiRHhQdk1YWTF5ZjdlajJfeTVpZ01jYWIxNHc2d1JUai01Vk53VkcyM3NkMElFVm53elhXSHNi?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVWxVWmZoV3RXcU9Fem5vVF9pWTZnRURldXp5UEoxeWYwRjBtNkhfcVFxV0FXUEE3TEtGeHVKYjkzMlI0VnBiRHRzVWZ0MXJtNFc2cTZSZUpaR0JLMlVsdlpFQnp4M2p3d0c0WDc2WDFGaG1ZSFZTMWZBSTh4S2dYd3VDRXBmcklZOUlUSnZHaXd2VnVQWTBKSkphNGdkMXNoRUlhVUZnWXhRRktXSWlkNy10cnNydw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795375651,
+    "reason": "עלייה במתיחות במפרץ הפרסי מאיימת על אספקת הנפט.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות במפרץ הפרסי מאיימת על אספקת הנפט.",
+     "en": "Rising tensions in the Persian Gulf threaten oil supply.",
+     "ar": "تصاعد التوترات في الخليج العربي يهدد إمدادات النفط.",
+     "ru": "Рост напряженности в Персидском заливе угрожает поставкам нефти."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق النفط المتداول",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 139.63
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795375651,
+    "reason": "הסלמה גיאופוליטית מגבירה את הביקוש לציוד ביטחוני.",
+    "reason_i18n": {
+     "he": "הסלמה גיאופוליטית מגבירה את הביקוש לציוד ביטחוני.",
+     "en": "Geopolitical escalation increases demand for defense equipment.",
+     "ar": "التصعيد الجيوسياسي يزيد الطلب على المعدات الدفاعية.",
+     "ru": "Геополитическая эскалация повышает спрос на оборонное оборудование."
+    },
+    "name_i18n": {
+     "he": "קרן סל ביטחונית",
+     "en": "Defense ETF",
+     "ar": "صندوق الدفاع المتداول",
+     "ru": "Оборонный ETF"
+    },
+    "price_at_alert": 66.17
+   }
+  ],
+  "id": "77d8412453fc"
+ },
+ {
+  "ts": 1795375651,
+  "time": "2026-11-22T19:27Z",
+  "title": "ניסוי מוצלח בנשק לייזר אמריקאי",
+  "summary": "צבא ארה\"ב הדגים בהצלחה מערכת לייזר בהספק של 300 קילוואט שהפילה טיל שיוט במבחן, למרות תוכניות קודמות לגניזת הפרויקט.",
+  "kid": "ארה\"ב פיתחה לייזר חזק מאוד שיכול להפיל טילים. זה נשק חדש ומתקדם שיכול להגן על המדינה.",
+  "i18n": {
+   "title": {
+    "he": "ניסוי מוצלח בנשק לייזר אמריקאי",
+    "en": "Successful US laser weapon test",
+    "ar": "اختبار ناجح لسلاح الليزر الأمريكي",
+    "ru": "Успешные испытания американского лазерного оружия"
+   },
+   "summary": {
+    "he": "צבא ארה\"ב הדגים בהצלחה מערכת לייזר בהספק של 300 קילוואט שהפילה טיל שיוט במבחן, למרות תוכניות קודמות לגניזת הפרויקט.",
+    "en": "The US Army successfully demonstrated a 300-kilowatt laser system that shot down a cruise missile in a test, despite previous plans to scrap the project.",
+    "ar": "نجح الجيش الأمريكي في عرض نظام ليزر بقدرة 300 كيلوواط أسقط صاروخ كروز في اختبار، على الرغم من الخطط السابقة لإلغاء المشروع.",
+    "ru": "Армия США успешно продемонстрировала лазерную систему мощностью 300 кВт, которая сбила крылатую ракету во время испытаний, несмотря на предыдущие планы по закрытию проекта."
+   },
+   "kid": {
+    "he": "ארה\"ב פיתחה לייזר חזק מאוד שיכול להפיל טילים. זה נשק חדש ומתקדם שיכול להגן על המדינה.",
+    "en": "The US developed a very strong laser that can shoot down missiles. It is a new, advanced weapon that can protect the country.",
+    "ar": "طورت الولايات المتحدة ليزر قوياً جداً يمكنه إسقاط الصواريخ. إنه سلاح جديد ومتطور يمكنه حماية البلاد.",
+    "ru": "США разработали очень мощный лазер, который может сбивать ракеты. Это новое, передовое оружие, которое может защитить страну."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jM2lZMVh2REJ3aEViMzJrUURIRXUyRXB2WHZfMGpYWEdkWUF4ZnlyM3RtbXhiZzJUaC1ESWJhR1BUTGxXUDdFenZjZVFVMWpzcnFWclNHdHVxT2VOdmh2TjdEODJ3Mnk4ZUNHSG5ZOWk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1795375651,
+    "reason": "הצלחה טכנולוגית עשויה להוביל לחוזים ממשלתיים חדשים.",
+    "reason_i18n": {
+     "he": "הצלחה טכנולוגית עשויה להוביל לחוזים ממשלתיים חדשים.",
+     "en": "Technological success may lead to new government contracts.",
+     "ar": "النجاح التكنولوجي قد يؤدي إلى عقود حكومية جديدة.",
+     "ru": "Технологический успех может привести к новым государственным контрактам."
+    },
+    "name_i18n": {
+     "he": "RTX - חברת ביטחון",
+     "en": "RTX - Defense company",
+     "ar": "آر تي إكس - شركة دفاع",
+     "ru": "RTX - оборонная компания"
+    },
+    "price_at_alert": 190.17
+   }
+  ],
+  "id": "c84eb8ee19aa"
  }
 ]
