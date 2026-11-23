@@ -504,121 +504,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794769319,
-  "time": "2026-11-15T19:01Z",
-  "title": "אסטוניה סוגרת מעברי גבול עם רוסיה",
-  "summary": "אסטוניה הודיעה על סגירת מעברי גבול עם רוסיה בעקבות ניסיון הצתה של יצרנית רחפנים, המיוחס למודיעין הרוסי.",
-  "kid": "אסטוניה חושדת שרוסיה ניסתה לפגוע במפעל רחפנים, ולכן היא סוגרת את הגבולות. זה מגביר את המתיחות באירופה.",
-  "i18n": {
-   "title": {
-    "he": "אסטוניה סוגרת מעברי גבול עם רוסיה",
-    "en": "Estonia to close border crossings with Russia",
-    "ar": "إستونيا تغلق المعابر الحدودية مع روسيا",
-    "ru": "Эстония закрывает пограничные переходы с Россией"
-   },
-   "summary": {
-    "he": "אסטוניה הודיעה על סגירת מעברי גבול עם רוסיה בעקבות ניסיון הצתה של יצרנית רחפנים, המיוחס למודיעין הרוסי.",
-    "en": "Estonia announced the closure of border crossings with Russia following an attempted arson at a drone manufacturer, which was linked to Russian intelligence.",
-    "ar": "أعلنت إستونيا عن إغلاق المعابر الحدودية مع روسيا في أعقاب محاولة إضرام نار في مصنع للطائرات بدون طيار، والتي تم ربطها بالمخابرات الروسية.",
-    "ru": "Эстония объявила о закрытии пограничных переходов с Россией после попытки поджога на заводе по производству дронов, связанной с российской разведкой."
-   },
-   "kid": {
-    "he": "אסטוניה חושדת שרוסיה ניסתה לפגוע במפעל רחפנים, ולכן היא סוגרת את הגבולות. זה מגביר את המתיחות באירופה.",
-    "en": "Estonia suspects Russia tried to attack a drone factory, so they are closing the borders. This increases tension in Europe.",
-    "ar": "تشتبه إستونيا في أن روسيا حاولت مهاجمة مصنع للطائرات بدون طيار، لذا فهي تغلق الحدود. هذا يزيد التوتر في أوروبا.",
-    "ru": "Эстония подозревает, что Россия пыталась атаковать завод по производству дронов, поэтому закрывает границы. Это усиливает напряженность в Европе."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1794769319,
-    "reason": "עלייה במתיחות הגיאופוליטית באירופה",
-    "reason_i18n": {
-     "he": "עלייה במתיחות הגיאופוליטית באירופה",
-     "en": "Increased geopolitical tension in Europe",
-     "ar": "زيادة التوتر الجيوسياسي في أوروبا",
-     "ru": "Рост геополитической напряженности в Европе"
-    },
-    "name_i18n": {
-     "he": "VGK - תעודת סל של מניות אירופיות",
-     "en": "VGK - European stock ETF",
-     "ar": "VGK - صندوق استثمار للأسهم الأوروبية",
-     "ru": "VGK - биржевой фонд европейских акций"
-    },
-    "price_at_alert": 89.04,
-    "entry_price": 88.92,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 86.96,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.2,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.1,
-    "edge_pct": -0.1,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "עליית מתיחות בגבול רוסיה-נאט\"ו תומכת במניות הביטחון.",
-    "reason_i18n": {
-     "he": "עליית מתיחות בגבול רוסיה-נאט\"ו תומכת במניות הביטחון.",
-     "en": "Rising Russia-NATO border tensions support defense equities.",
-     "ar": "تصاعد التوتر على حدود روسيا والناتو يدعم أسهم الدفاع.",
-     "ru": "Рост напряженности на границе России и НАТО поддерживает акции оборонного сектора."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל לתעשיית הביטחון והתעופה בארה\"ב",
-     "en": "ITA - US Aerospace & Defense ETF",
-     "ar": "ITA - صندوق قطاع الدفاع والفضاء الأمريكي",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 71.51,
-    "entry_price": 70.84,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 69.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "deb8544bb3fa",
-  "updates": [
-   {
-    "ts": 1794826558,
-    "time": "2026-11-16T10:55Z",
-    "severity": 4,
-    "summary": "חברה בנאט\"ו, אסטוניה, הודיעה על סגירת מעברי הגבול עם רוסיה בעקבות ניסיונות חבלה המכוונים נגד יצרנית רחפנים מקומית.",
-    "i18n": {
-     "he": "חברה בנאט\"ו, אסטוניה, הודיעה על סגירת מעברי הגבול עם רוסיה בעקבות ניסיונות חבלה המכוונים נגד יצרנית רחפנים מקומית.",
-     "en": "NATO member Estonia is closing its border crossings with Russia to curb hostile activities and sabotage attempts targeting a local drone maker.",
-     "ar": "استونيا العضو في الناتو تغلق معابرها الحدودية مع روسيا للحد من الأنشطة العدائية ومحاولات التخريب ضد صانع طائرات مسيرة محلي.",
-     "ru": "Член НАТО Эстония закрывает пограничные переходы с Россией для пресечения враждебных действий и попыток саботажа против местного производителя дронов."
-    }
-   }
-  ],
-  "last_update": 1794826558,
-  "evaluated": true
- },
- {
   "ts": 1794774103,
   "time": "2026-11-15T20:21Z",
   "title": "הסלמה במזרח התיכון: נושאת מטוסים אמריקאית נוספת ותקיפות בריאד",
@@ -2128,456 +2013,6 @@
    }
   ],
   "last_update": 1794877191,
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "ענקיות הביטחון הטורקיות ASELSAN ו-ROKETSAN חותמות על עסקאות במיליארד אירו",
-  "summary": "חברות הביטחון הטורקיות המובילות ASELSAN ו-ROKETSAN חתמו על חוזים חדשים בהיקף העולה על מיליארד אירו.",
-  "kid": "חברות ביטחוניות בטורקיה קיבלו הזמנות ענק בשווי מעל מיליארד אירו, מה שמראה על ביקוש גבוה לכלי נשק.",
-  "i18n": {
-   "title": {
-    "he": "ענקיות הביטחון הטורקיות ASELSAN ו-ROKETSAN חותמות על עסקאות במיליארד אירו",
-    "en": "Turkish defense giants ASELSAN and ROKETSAN sign €1B+ deals",
-    "ar": "عملاقا الدفاع التركيان أسيلسان وراوكتسان يوقعان صفقة بأكثر من مليار يورو",
-    "ru": "Турецкие оборонные гиганты ASELSAN и ROKETSAN заключили сделки на миллиард евро"
-   },
-   "summary": {
-    "he": "חברות הביטחון הטורקיות המובילות ASELSAN ו-ROKETSAN חתמו על חוזים חדשים בהיקף העולה על מיליארד אירו.",
-    "en": "Leading Turkish defense firms ASELSAN and ROKETSAN have secured contracts valued at over €1 billion.",
-    "ar": "شركتا الدفاع التركيتان الرائدتان أسيلسان وراوكتسان توقعان عقوداً جديدة بقيمة تتجاوز مليار يورو.",
-    "ru": "Ведущие турецкие оборонные компании ASELSAN и ROKETSAN заключили новые контракты на сумму более 1 млрд евро."
-   },
-   "kid": {
-    "he": "חברות ביטחוניות בטורקיה קיבלו הזמנות ענק בשווי מעל מיליארד אירו, מה שמראה על ביקוש גבוה לכלי נשק.",
-    "en": "Turkish defense companies received massive orders worth over €1 billion, reflecting high demand for weapons.",
-    "ar": "حصلت شركات الدفاع التركية على طلبيات ضخمة بقيمة تزيد عن مليار يورو، مما يعكس الطلب القوي على الأسلحة.",
-    "ru": "Турецкие оборонные компании получили крупные заказы на сумму более 1 млрд евро, что отражает высокий спрос на оружие."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "TUR",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "חוזים ביטחוניים גדולים תומכים בכלכלה ובתעשייה המקומית.",
-    "reason_i18n": {
-     "he": "חוזים ביטחוניים גדולים תומכים בכלכלה ובתעשייה המקומית.",
-     "en": "Large defense contracts support local industry and economy.",
-     "ar": "عقود الدفاع الكبيرة تدعم الصناعة والاقتصاد المحليين.",
-     "ru": "Крупные оборонные контракты поддерживают местную промышленность и экономику."
-    },
-    "name_i18n": {
-     "he": "TUR - קרן סל על בורסת טורקיה",
-     "en": "TUR - Turkey ETF",
-     "ar": "TUR - صندوق الاستثمار في تركيا",
-     "ru": "TUR - ETF турецкого рынка"
-    },
-    "price_at_alert": 32.2,
-    "entry_price": 32.18,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 31.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "bfec01f96479",
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "הבנק המרכזי האירופי מזהיר מסיכוני מיקור חוץ ובועות AI",
-  "summary": "הבנק המרכזי האירופי מזהיר כי מיקור חוץ מהווה סיכון בנקאי גדול וכי האטה בבום ה-AI עלולה לגרום לתמחור מחדש בשווקים.",
-  "kid": "הבנק המרכזי באירופה מזהיר את הבנקים מסיכונים חיצוניים ומעיר שאם תחום הבינה המלאכותית ייעצר, מחירי המניות עלולים ליפול בפתאומיות.",
-  "i18n": {
-   "title": {
-    "he": "הבנק המרכזי האירופי מזהיר מסיכוני מיקור חוץ ובועות AI",
-    "en": "ECB warns of outsourcing risks and AI market repricing",
-    "ar": "المركزي الأوروبي يحذر من مخاطر الاستعانة بمصادر خارجية وإعادة تسعير فقاعة الذكاء الاصطناعي",
-    "ru": "ЕЦБ предупреждает о рисках аутсорсинга и переоценки рынка ИИ"
-   },
-   "summary": {
-    "he": "הבנק המרכזי האירופי מזהיר כי מיקור חוץ מהווה סיכון בנקאי גדול וכי האטה בבום ה-AI עלולה לגרום לתמחור מחדש בשווקים.",
-    "en": "The European Central Bank warns that outsourcing is a major risk for banks and that a stalling AI boom could trigger abrupt market repricing.",
-    "ar": "يحذر البنك المركزي الأوروبي من أن الاستعانة بمصادر خارجية تشكل مخاطر مصرفية كبرى وأن تباطؤ طفرة الذكاء الاصطناعي قد يؤدي لإعادة تسعير مفاجئة.",
-    "ru": "Европейский центральный банк предупреждает, что аутсорсинг представляет собой серьезный риск для банков, а затухание бума ИИ может вызвать резкую переоценку рынков."
-   },
-   "kid": {
-    "he": "הבנק המרכזי באירופה מזהיר את הבנקים מסיכונים חיצוניים ומעיר שאם תחום הבינה המלאכותית ייעצר, מחירי המניות עלולים ליפול בפתאומיות.",
-    "en": "Europe's central bank warns banks about external risks and notes that if the AI boom stalls, stock prices could drop suddenly.",
-    "ar": "يحذر البنك المركزي الأوروبي البنوك من المخاطر الخارجية ويشير إلى أن تباطؤ الذكاء الاصطناعي قد يهبط بالأسهم فجأة.",
-    "ru": "Центробанк Европы предупреждает банки о внешних рисках и отмечает, что остановка бума ИИ может резко обрушить акции."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLK",
-    "direction": "down",
-    "t0": 1794826558,
-    "reason": "אזהרות על הערכות שווי גבוהות של AI מעודדות מימושים בטכנולוגיה.",
-    "reason_i18n": {
-     "he": "אזהרות על הערכות שווי גבוהות של AI מעודדות מימושים בטכנולוגיה.",
-     "en": "Warnings over high AI valuations encourage tech profit-taking.",
-     "ar": "التحذيرات بشأن تقييمات الذكاء الاصطناعي المرتفعة تشجع جني الأرباح في التكنولوجيا.",
-     "ru": "Предупреждения о высоких оценках ИИ стимулируют фиксацию прибыли в технологиях."
-    },
-    "name_i18n": {
-     "he": "XLK - קרן סל על סקטרו הטכנולוגיה",
-     "en": "XLK - Technology Sector ETF",
-     "ar": "XLK - صندوق قطاع التكنولوجيا",
-     "ru": "XLK - ETF технологического сектора"
-    },
-    "price_at_alert": 170.28,
-    "entry_price": 166.74,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 163.29,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.07,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.23,
-    "edge_pct": -0.23,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794826558,
-    "reason": "חששות מבועת AI רחבה פוגעים בסנטימנט כלפי שבבים.",
-    "reason_i18n": {
-     "he": "חששות מבועת AI רחבה פוגעים בסנטימנט כלפי שבבים.",
-     "en": "Fears of a broad AI bubble weigh on chip sentiment.",
-     "ar": "مخاوف فقاعة الذكاء الاصطناعي الواسعة تضغط על معنويات رقاقات الإلكترونيات.",
-     "ru": "Опасения широкого пузыря ИИ давят на настроения в отношении чипов."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבי AI מובילה",
-     "en": "Nvidia - leading AI chipmaker",
-     "ar": "إنفيديا - صانع رقائق الذكاء الاصطناعي الرائد",
-     "ru": "Nvidia - ведущий производитель чипов ИИ"
-    },
-    "price_at_alert": 162.85,
-    "entry_price": 159.0025,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 155.47,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.22,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.08,
-    "edge_pct": -0.08,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "2f50f90077de",
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "עסקת ענק באנרגיה: קנדיאן נטוראל תרכוש את אדוונטג' אנרגיה תמורת כ-2.5 מיליארד דולר",
-  "summary": "חברת Canadian Natural Resources סיכמה על רכישת Advantage Energy תמורת כ-2.53 מיליארד דולר קנדי (כ-1.77 מיליארד דולר אמריקאי).",
-  "kid": "חברת אנרגיה קנדית גדולה קונה חברה מתחרה בקנה מידה גדול, מה שמראה על מיזוגים נוספים בתחום הדלקים.",
-  "i18n": {
-   "title": {
-    "he": "עסקת ענק באנרגיה: קנדיאן נטוראל תרכוש את אדוונטג' אנרגיה תמורת כ-2.5 מיליארד דולר",
-    "en": "Canadian Natural Resources to acquire Advantage Energy in C$2.53B deal",
-    "ar": "Canadian Natural Resources تستحوذ على Advantage Energy في صفقة بـ 2.53 مليار دولار كندي",
-    "ru": "Canadian Natural Resources приобретает Advantage Energy за 2,53 млрд канадских долларов"
-   },
-   "summary": {
-    "he": "חברת Canadian Natural Resources סיכמה על רכישת Advantage Energy תמורת כ-2.53 מיליארד דולר קנדי (כ-1.77 מיליארד דולר אמריקאי).",
-    "en": "Canadian Natural Resources has agreed to buy Advantage Energy for approximately C$2.53 billion ($1.77 billion USD).",
-    "ar": "وافقت شركة Canadian Natural Resources على شراء Advantage Energy مقابل نحو 2.53 مليار دولار كندي (1.77 مليار دولار أمريكي).",
-    "ru": "Canadian Natural Resources договорилась о покупке Advantage Energy примерно за 2,53 млрд канадских долларов (1,77 млрд долларов США)."
-   },
-   "kid": {
-    "he": "חברת אנרגיה קנדית גדולה קונה חברה מתחרה בקנה מידה גדול, מה שמראה על מיזוגים נוספים בתחום הדלקים.",
-    "en": "A large Canadian energy company is buying a competitor in a major deal, signaling ongoing consolidation in the sector.",
-    "ar": "شركة طاقة كندية كبرى تشتري منافساً في صفقة ضخمة، مما يشير إلى استمرار عمليات الدمج في القطاع.",
-    "ru": "Крупная канадская энергетическая компания покупает конкурента в ходе крупной сделки, что указывает на консолидацию в секторе."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWC",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "עסקאות מיזוג ענק בנפט וגاز בקנדה מחזקות את סקטור האנרגיה המקומי.",
-    "reason_i18n": {
-     "he": "עסקאות מיזוג ענק בנפט וגاز בקנדה מחזקות את סקטור האנרגיה המקומי.",
-     "en": "Major oil and gas M&A deals strengthen Canada's energy sector.",
-     "ar": "صفقات اندماج واستحواذ ضخمة للنفط والغاز في كندا تقوي قطاع الطاقة المحلي.",
-     "ru": "Крупные сделки M&A в нефтегазовом секторе Канады укрепляют местную энергетику."
-    },
-    "name_i18n": {
-     "he": "EWC - קרן סל על בורסת קנדה",
-     "en": "EWC - Canada ETF",
-     "ar": "EWC - صندوق كندا للاستثمار",
-     "ru": "EWC - ETF канадского рынка"
-    },
-    "price_at_alert": 60.11,
-    "entry_price": 59.73,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 58.7,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.72,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.58,
-    "edge_pct": 0.58,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "6bb4eb907bcf",
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "בנק ישראל/יפן: בנקאן דורש העלאת ריבית מוקדמת",
-  "summary": "בכיר בבנק המרכזי של יפן (BOJ), טאקاتا, קורא להעלאת ריבית מוקדמת בשל שינויים בכלכלה המקומית.",
-  "kid": "בנק יפן עשוי להעלות את הריבית בקרוב כדי להתמודד עם שינויים בכלכלה, מה שיכול לחזק את המטבע המקומי.",
-  "i18n": {
-   "title": {
-    "he": "בנק ישראל/יפן: בנקאן דורש העלאת ריבית מוקדמת",
-    "en": "BOJ's Takata calls for early rate hike",
-    "ar": "تاكاتا من بنك اليابان يدعو لرفع مبكر لأسعار الفائدة",
-    "ru": "Таката из Банка Японии призывает к раннему повышению ставки"
-   },
-   "summary": {
-    "he": "בכיר בבנק המרכזי של יפן (BOJ), טאקاتا, קורא להעלאת ריבית מוקדמת בשל שינויים בכלכלה המקומית.",
-    "en": "Bank of Japan board member Takata has called for an early interest rate hike, citing a changing economic landscape.",
-    "ar": "دعا تاكاتا عضو مجلس بنك اليابان إلى رفع مبكر لأسعار الفائدة مشيراً إلى تغير المشهد الاقتصادي.",
-    "ru": "Член правления Банка Японии Таката призвал к раннему повышению процентной ставки из-за меняющейся экономики."
-   },
-   "kid": {
-    "he": "בנק יפן עשוי להעלות את הריבית בקרוב כדי להתמודד עם שינויים בכלכלה, מה שיכול לחזק את המטבע המקומי.",
-    "en": "The Bank of Japan may raise interest rates soon to cope with economic shifts, potentially strengthening the local currency.",
-    "ar": "قد يرفع بنك اليابان أسعار الفائدة قريباً للتعامل مع التحولات الاقتصادية، مما قد يغذي العملة المحلية.",
-    "ru": "Банк Японии может вскоре поднять процентные ставки для борьбы с экономическими изменениями, укрепив валюту."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "down",
-    "t0": 1794826558,
-    "reason": "אפשרות להעלאת ריבית מכבידה על מניות יפניות בטווח הקצר.",
-    "reason_i18n": {
-     "he": "אפשרות להעלאת ריבית מכבידה על מניות יפניות בטווח הקצר.",
-     "en": "Prospects of a rate hike weigh on Japanese equities short-term.",
-     "ar": "احتمالات رفع الفائدة تضغط على الأسهم اليابانية على المدى القصير.",
-     "ru": "Перспективы повышения ставок давят на японские акции в краткосрочной перспективе."
-    },
-    "name_i18n": {
-     "he": "EWJ - קרן סל על מניות יפן",
-     "en": "EWJ - Japan stock ETF",
-     "ar": "EWJ - صندوق الأسهم اليابانية",
-     "ru": "EWJ - ETF японских акций"
-    },
-    "price_at_alert": 91.76,
-    "entry_price": 90.73,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 88.71,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.23,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.08,
-    "edge_pct": -0.08,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FXY",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "ציפיות להדק את המדיניות הונית תומכות בין.",
-    "reason_i18n": {
-     "he": "ציפיות להדק את המדיניות הונית תומכות בין.",
-     "en": "Expectations of tighter monetary policy support the yen.",
-     "ar": "توقعات تشديد السياسة النقدية تدعم الين.",
-     "ru": "Ожиданияжесткой монетарной политики поддерживают иену."
-    },
-    "name_i18n": {
-     "he": "FXY - קרן סל על הין היפני",
-     "en": "FXY - Japanese Yen ETF",
-     "ar": "FXY - صندوق الين الياباني",
-     "ru": "FXY - ETF японской иены"
-    },
-    "price_at_alert": 57.38,
-    "entry_price": 57.44,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 57.51,
-    "exit_date": "2026-11-17",
-    "change_pct": 0.12,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 2.42,
-    "edge_pct": 2.42,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "be11c0d07d31",
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "בכיר הפד מייקל באר מזהיר מפני סיכוני בינה מלאכותית",
-  "summary": "מושל הפדרל רזרב, מייקל באר, מזהיר כי טכנולוגיית הבינה המלאכותית טומנת בחובה סיכונים מערכתיים משמעותיים למערכת הפיננסית.",
-  "kid": "בכיר בבנק המרכזי של ארה\"ב מזהיר ששימוש מוגזם בבינה מלאכותית עלול ליצור סיכונים לכספים ולבנקים.",
-  "i18n": {
-   "title": {
-    "he": "בכיר הפד מייקל באר מזהיר מפני סיכוני בינה מלאכותית",
-    "en": "Fed Governor Michael Barr warns AI poses big risk",
-    "ar": "عضو الفيدرالي مايكل بار يحذر من أن الذكاء الاصطناعي يمثل مخاطر كبيرة",
-    "ru": "Управляющий ФРС Майкл Барр предупреждает о крупных рисках ИИ"
-   },
-   "summary": {
-    "he": "מושל הפדרל רזרב, מייקל באר, מזהיר כי טכנולוגיית הבינה המלאכותית טומנת בחובה סיכונים מערכתיים משמעותיים למערכת הפיננסית.",
-    "en": "Federal Reserve Governor Michael Barr warns that artificial intelligence poses significant structural risks to the financial system.",
-    "ar": "يحذر محافظ الاحتياطي الفيدرالي مايكل بار من أن الذكاء الاصطناعي يشكل مخاطر هيكلية كبيرة على النظام المالي.",
-    "ru": "Управляющий ФРС Майкл Барр предупреждает, что искусственный интеллект несет серьезные структурные риски для финансовой системы."
-   },
-   "kid": {
-    "he": "בכיר בבנק המרכזי של ארה\"ב מזהיר ששימוש מוגזם בבינה מלאכותית עלול ליצור סיכונים לכספים ולבנקים.",
-    "en": "A top US central bank official warns that heavy reliance on artificial intelligence could create financial and banking risks.",
-    "ar": "مسؤول بارز في البنك المركزي الأمريكي يحذر من أن الاعتماد المفرط على الذكاء الاصطناعي قد يخلق مخاطر مالية.",
-    "ru": "Высокопоставленный чиновник ФРС предупреждает, что чрезмерная зависимость от ИИ может создать риски для банков."
-   }
-  },
-  "category": "macro",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLF",
-    "direction": "down",
-    "t0": 1794826558,
-    "reason": "אזהרות רגולטוריות פיננסיות מעודדות זהירות בבנקים.",
-    "reason_i18n": {
-     "he": "אזהרות רגולטוריות פיננסיות מעודדות זהירות בבנקים.",
-     "en": "Financial regulatory warnings encourage caution in banking.",
-     "ar": "التحذيرات التنظيمية المالية تشجع على الحذر في القطاع المصرفي.",
-     "ru": "Финансовые регуляторные предупреждения призывают к осторожности в банках."
-    },
-    "name_i18n": {
-     "he": "XLF - קרן סל על סקטרו הפיננסים",
-     "en": "XLF - Financial Sector ETF",
-     "ar": "XLF - صندوق قطاع المالية",
-     "ru": "XLF - ETF финансового сектора"
-    },
-    "price_at_alert": 58.68,
-    "entry_price": 58.74,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 57.08,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.83,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -0.52,
-    "edge_pct": 0.52,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b92d6138ba23",
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "רגולטור האנרגיה באירלנד מאשר רכש של 500 מגה-וואט לאגירת אנרגיה",
-  "summary": "רשות האנרגיה באירלנד אישרה תוכנית רכש של 500 מגה-וואט למערכות אגירת אנרגיה ארוכות טווח (LDES).",
-  "kid": "אירלנד מקדמת פרויקט ענק לאגירת חשמל ירוק, עובדה שתומכת בחברות האנרגיה הנקייה.",
-  "i18n": {
-   "title": {
-    "he": "רגולטור האנרגיה באירלנד מאשר רכש של 500 מגה-וואט לאגירת אנרגיה",
-    "en": "Ireland's energy regulator approves 500MW LDES procurement",
-    "ar": "منظم الطاقة في إيرلندا يوافق على شراء تخزين الطاقة بقدرة 500 ميجاوات",
-    "ru": "Энергетический регулятор Ирландии одобрил закупку систем хранения энергии на 500 МВт"
-   },
-   "summary": {
-    "he": "רשות האנרגיה באירלנד אישרה תוכנית רכש של 500 מגה-וואט למערכות אגירת אנרגיה ארוכות טווח (LDES).",
-    "en": "Ireland’s energy regulator has approved a 500MW long-duration energy storage (LDES) procurement initiative.",
-    "ar": "وافق منظم الطاقة في إيرلندا على مبادرة لشراء أنظمة تخزين الطاقة طويلة الأمد بقدرة 500 ميجاوات.",
-    "ru": "Энергетический регулятор Ирландии одобрил инициативу по закупке систем долгосрочного хранения энергии (LDES) мощностью 500 МВт."
-   },
-   "kid": {
-    "he": "אירלנד מקדמת פרויקט ענק לאגירת חשמל ירוק, עובדה שתומכת בחברות האנרגיה הנקייה.",
-    "en": "Ireland is pushing a massive green energy storage project, supporting clean energy companies.",
-    "ar": "إيرلندا تدفع بمشروع ضخم لتخزين الطاقة الخضراء، مما يدعم شركات الطاقة النظيفة.",
-    "ru": "Ирландия продвигает крупный проект по хранению зеленой энергии, поддерживая компании чистой энергетики."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ICLN",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "אישורי רכש ממשלתיים לאגירת אנרגיה תומכים בתחום הבר-קיימא.",
-    "reason_i18n": {
-     "he": "אישורי רכש ממשלתיים לאגירת אנרגיה תומכים בתחום הבר-קיימא.",
-     "en": "Government procurement approvals for storage support the clean energy sector.",
-     "ar": "موافقات الشراء الحكومية لتخزين الطاقة تدعم قطاع الطاقة النظيفة.",
-     "ru": "Государственные закупки систем хранения поддерживают сектор чистой энергетики."
-    },
-    "name_i18n": {
-     "he": "ICLN - קרן סל על אנרגיה נקייה",
-     "en": "ICLN - Clean Energy ETF",
-     "ar": "ICLN - صندوق الطاقة النظيفة",
-     "ru": "ICLN - ETF чистой энергетики"
-    },
-    "price_at_alert": 15.81,
-    "entry_price": 15.52,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 14.85,
-    "exit_date": "2026-11-17",
-    "change_pct": -4.32,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -2.01,
-    "edge_pct": -2.01,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "353a231b2fa1",
   "evaluated": true
  },
  {
@@ -40396,27 +39831,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aSXVKUFRUS2NIY29YSXB1X29FQnVFRHRNTGRWTTExYU9wU2VjLW5WZ2pxNWhOV0FISy1jZlNjNGlFZVN1alF3eVFUa2VQdkppd0hpb0hJS0hIem9hQVhmWEtLSTRmM29teEhzM2dEaHhwcHBNS0VBTko4THluZw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqd0pXdDl3WHY3akxremUxM0d3RGpTZjVsRGlDcnRUN21xZ2pXdklxaTRQVVN1ODAtMGl0T1hPT1dlZUVLYmV6M2l5cnpTYTZaby1BbnJxVjNPZktjYmVjRzhtb1Joel9JWFZfTkJORllsdjhWVGc?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5odlJEOE1JN2lRdm1UMEp1TnctejhBeWdhRldqVDBjd0FOQnB6ZEdqR2RyZmpVSWtBX3RJVzJEc202S0pkU3RmYjRZNExKN1RlUUE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNGFvQzllWWlFeWVoRk5jSC1VUG9rYlNpc2hXTE9DTHgxTDJzaFpCV2tZdjU4X0oxOFpvT2ZkdVpGS2RsZ0RhN1BicGo4U25jdlVNNUI2U3NVaEVwUFNLV216bW9fZ3NXbE10TEY0MHFtY0dzUGFRUG9WSW9ydzNSUWRhRnV3aFJx?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGtwMW9sbWVqZlg5NTRHT0ZJTk9LckNmRURIYUtBSUR0eEZJVUFkUEdUbGtQcmNPWEtzQ1JudVQwNlZIcE1wSnROOHk5c2tPUzFLdUp2SW5kc2tqdEtLTU1ybGk2bm5za1BCUkp0dG95bUVjQ1hoWjBad3FOVjU0bkFFaEt5cEVKcG4xb3QyZFBpQWhCaFNsdXh3?oc=5"
    },
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUW1HRGgyVnVpOEtMRzFKaHZ0N3dTYkdlcFphcXNOYnZSaXdEYWRuOEhzdmpKeGkxLUdYSnRWT09yRUh6QkxtdVJJZnl0ZGdYdlFUYVIySDNnTG4ya0Zid2R3cmtzZWFldU9QaUphWkNucmMxcnh1TTVVbFZPanJxd05zY1d0b01tWUFsVHZkR2JfeTM1S3FMbklPTjAxaHllQ2kwTmZ5MVNsUkZkelJ2WQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPempjM3lsdUx2MWstNHkxOEtKelpwUGNGOGVpZUVQdVM0aXBWdjV6TVhrU2lfakxTZ2Z2SS1tS0RMVjRPUW9JSjI5VE85cW9CNk9NbTJOTmdsT0tob0FnVExtdmJpV21UczFvZWs5NGxXT3l1UUpoZGhmZUJ1MTV6aUZMOXZhZDlheHlmOEZ1dkRsWmdnYzZqaHh2OU1uMjZzdktCX0szd1lMWlktRVVpbXZNZXVpRVlQdjdmN2tTMnVuNGljcVFzUjJpNlg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXpjeEdadGRSQ0otU3JNeldMNEtweUNOdzBJRXIydVE3Y1A0Nlc0a2JWcTY2SWExNVRqSnlOM2xycFBkTmhRT0JtYXlBSWZBQTh2SmhBZ1Y5aktRYUdGbGIyLXA2cmlxdHJQVHBQSFktMDFxNE5TWE9QMG51Q0VGQXhZUVpmX1k?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUTBYWV9NLWJ3aGp5QzFzNHV0QldQWi11NS1tMzgybjVIWXpSa241OEFoMUczUlpLeDBMMmZYR1lGM3Nza1JaYkNhM2Z1OUVYRzdaMEtsTGtxTjF2cGJmbUxQZmxVRTVKZkhmODlyVnNDSHpydlNEX0VFbmt0QXEwdUhESG9PR2ZtNUJwcXNobVJDQTBpUGxjdmFJTQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVlZoOThMdUprMnhWYVFsbWpkQVd0ZmVjeDM4djlZaGpOdk15Tmp5UVFvUEgxYU15bWtoQ3lJeTNvck94cXJPOFI3NThtQV9qbFBVVzN3b3JidFpyQjBNNFpEOWJqWm5QUVltQXlkV3lTazk0Rml0cXJXUVp4aWpSelh0VWZ5ZDF3S1FaV3NUZ1A0V3VyUWdR?oc=5"
    }
   ],
   "impacts": [
@@ -40476,6 +39911,25 @@
      "ru": "GLD - ETF золота"
     },
     "price_at_alert": 322.87
+   },
+   {
+    "ticker": "KRE",
+    "direction": "down",
+    "t0": 1795431952,
+    "reason": "ריבית גבוהה לאורך זמן מגבירה את לחצי האשראי והעלויות על בנקים קטנים ובינוניים.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה לאורך זמן מגבירה את לחצי האשראי והעלויות על בנקים קטנים ובינוניים.",
+     "en": "Higher-for-longer interest rates increase credit and cost pressures on regional banks.",
+     "ar": "الفائدة المرتفعة لفترة أطول تزيد الضغوط الائتمانية على البنوك الإقليمية.",
+     "ru": "Более высокие процентные ставки усиливают кредитное давление на региональные банки."
+    },
+    "name_i18n": {
+     "he": "מדד הבנקים האזוריים בארה\"ב",
+     "en": "Regional Banking ETF",
+     "ar": "صندوق البنوك الإقليمية الأمريكية",
+     "ru": "ETF региональных банков США"
+    },
+    "price_at_alert": 68.32
    }
   ],
   "id": "7c48efa8fabb",
@@ -40515,9 +39969,21 @@
      "ar": "تتفاعل الأسواق العالمية مع مخاوف سياسة الفيدرالي بينما ينتظر المستثمرون بيانات التضخم الأمريكية ويترقبون قرارات أسعار الفائدة في الهند وكورية الجنوبية.",
      "ru": "Мировые рынки реагируют на опасения по поводу политики ФРС, в то время как инвесторы ждут данных по инфляции в США и прогнозируют решения по ставкам в Индии и Южной Корее."
     }
+   },
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 6,
+    "summary": "בכירים בשוק ההון, בהם ביל אקמן ובנק BNP Paribas, מזהירים כי המשך העלאות ריבית מצד הפד עלול להצית מיתון משמעותי בארה\"ב.",
+    "i18n": {
+     "he": "בכירים בשוק ההון, בהם ביל אקמן ובנק BNP Paribas, מזהירים כי המשך העלאות ריבית מצד הפד עלול להצית מיתון משמעותי בארה\"ב.",
+     "en": "Market figures including Bill Ackman and BNP Paribas warn that potential Federal Reserve rate hikes could trigger a major U.S. recession.",
+     "ar": "يحذر شخصيات في السوق مثل بيل إكمان وبنك BNP Paribas من أن قيام الفيدرالي برفع الفائدة قد يشعل ركودا.",
+     "ru": "Фигуры рынка, включая Билла Акмана и BNP Paribas, предупреждают, что повышение ставок ФРС может вызвать рецессию."
+    }
    }
   ],
-  "last_update": 1795403977
+  "last_update": 1795431952
  },
  {
   "ts": 1795369324,
@@ -40747,28 +40213,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHNibWVPRzFWQUQzQjFDcXFxYURnR3UwSHp1eE1qY080eU9Ha1FBZG1rajNUWFpzYm9Lam9fUXA4cmRkeWdNZzRoSnVkUWlSRWRMM25XbXduUGxzZHJjdDJiU3FFeU56dkIwWmRsd1NPQVhKQS1JYWlkSnZEWDlKZ19ESE5ZRW80eXowQ0o3Z1lPdmk5UzE5VEJkRlZjMERYa3RvS3E5czNxU0ZuNkpSTE5KQno1VlUtdW84?oc=5"
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaHZfaXFXajZPaTNIaUlzSTZNbEx4QVVhM0NjUVRISl83djQxTmF5TV9odU4xUUFhaV9GSjV4YXZRUFBBZVAxNDVWV2ttNGdiTUZOYkd1aE1nR3ZMRUxtNVFLX2toSjV6REx3SjduRXA5OGdWLUo0QjRsMVZOWk41dVZ5ZU0?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNQ1JfcUs3RlZDQ2FCeERGb181Q3E1RXRtVUgtcGs5cTZCM1lLZnRUeXBWU1NveDdvM0ZURXFZdV8xS3loRXVNU0lwcWZkeXhNMUtIblotSVhldnhmQVlHakFxdjVFazJVazNVM3hlZ2c4bjlBdzVaMmh5MDJENFZhVG1TbEdXWVVXc0RKQ0dpckhhdHU0UDdNU2FHR1ZWcUZzR2w0RjdMd0h0ZHlNMzktRzFxSE5PNjhoMjQwd3YxaWx5VUZwbkFnTGdwdG5LSmg1REVsMFhVaTJ0eUpBeHNITXBRd0FrSk1SVU05X3EwdVNsa0p4MnloN3BnQngtcmltOEhCb193V3VSOHp1QzBoRDRCVGp1RkZMbFpHZ1hDeWtuY0JwaERYR3B6Q1BjQdIBswJBVV95cUxPV01hM2ZpTUxoU2JHVEp6ZjVPOFZfbnEzbjdNWHZmZEVscGppaEF4QXVGdEVpYlRmRXFWYTdRSklERU03NnBtUVBITXJ5RllLeWZDS0tmb01SV29aaEhqUTBRR2FOcURlTXlUWTNXaWlick9rSjJwRWpUYTc4RUpONWJkQjNfa3ZVX3lfT2gtU1E5WmJ0bUdmelpvQVFqZ19FRUJhMjY0TzZhTHlacGVhTWoxWVpobTQ3ZjdxYmd3b0JFdTUzOTNmMDBMYkpWVWJXYklpLUVTOV91VHNjUHJTckI2aGlidG9aa1VOeHlTN1lXbGstMkh1c2FxLU5adV9kTUJtWFFwZUJGRExhYWVXMk1McmZDRkRTa3pPeThVcWd5NHo1SDdPOE1kbVlmVzczZVNF?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQcnJmdGJQcG9VLUhxejdOYUJQR1pabXJLeXcxRnFIWGRGampLamVkU2loeEJHQS01VTZORjV4Q2g5cTJDUjUyamRHMVh4TlhTTEswT25hdE5Eek5RNkoyQkFSWWRVa2FDOV9UQ1pnbUNpV3U4TTNMZXhOM2dFM3ppbXZhZ29Kd1BSSkFmVUFxU3c2X2xIMU9jOVhaNThjZTgwM2JyUnlmUzFhVmZUenNLSGlyQWswSGM3Sm1KdG5KVEtfbWxSRDVsVVNpZU1BN2VTTlB2bUN4UFJyckFDSGdydWk2RHNVNjMzdDhFQ0ViT1p6U0oydkVVcnNpRWQ2RVBsdlNoeWhsOHhEVTNvbU1OVmNIdlNyUDR4RlNRazNhWDduNHYySUxqT2ZmZDd6TlEtUU1sME00dkNfUWNSazhCMERwa0VteEpYRVdHNU82Nno2TXhJWnRROHFn0gGPAkFVX3lxTE5vcmF5VnVYVW5qQ3JrVGVtZGxmaFBTbFJQZW4zbWw2TGlFdTBVRzh0V2ppMU5jY2N5SWp1cDZpV0VlakF5bkplUHFEVTQwYTVwOGUxaENJWjl4dl91NkMwZW10Sy1YeUdCUExqeUdNeVNLZHFWU1NmVGw5cmw2X05JaVRTTTJXZTF5Mm1QSzFvenc1N0k4YWVPallJa2R6d2Z0SjBDaFY5SHVkZFNtczN3MFdndVN2eXVkVzBzOEdzSEtvbEtoREpPd1lqTTFINmoyVFpXNVV4bk5aRG50aEh0eW5zak1fWDZnLUV3T2JQUUFOUGNHUWdhWW4xSVNNdG1jWl9XY0M1VGpnQndxbWM?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05Q3hNeW5jWDFfeEkxcWVaU1I4RkFEbzFJVmVEUFRHVVVEUUlMbmtmWEk1S0h1cGc0OXFkMW0ySDVfSnZMR1ozRVpHQzQyQzRvSkM4SDJXYUtVTDlKUlVtdUxn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2WVF3TEtsQnRuc0FwSnktVlpsTDlOS00zeWFOMk1mV29Pcy1vSmNqTEdhQUdfck1PNlEwZ2JkSEpDNFNZQWprRDVfdnlvTWk1VWNFTWhJYWpJMlQ4SVhRcDlB?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVXUtclYwek9zaUtQWmp0bW5GWnJDbjFWdXBLazBEaS1IMHBpSnFKLVpVazNZblQ1N0M4d1FacHQ1WWhrWEZCaFBWV25KR1E3aUFkOVp4eXE1QVcwUlY0c0JxWlJGeHA5eC01WndPdzkwWl91dVhSdVZ1akFYN29Ld2J3OVpBWkdDRW9XWmRTQ1JhMTN1ak8zdk1NSVdzcVc0eGc?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUWF5RTZuZDRxeGVmZEpDOG5xQ0FvcDBnLXJlVEk2REItVDJTT3Uwb0QtYi1JUHpZNTJfVzdISEhvUUtzdVB3WEFTbi1zekw2THhCdkNIdDYtdkd5SEtXMnd4ZGNpeXh3ZTRmY2l1ckp4YmF3QTl0YmNybWo1ZkpoZmZhcHdvREhVYXBN?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSXFBeGY2NDY5TS1OYy1vQ2Z6eWNlREwtSVRRV2wtbWxtWHdMVHRCWW9ZSUJ1cGpSUTRCYU5JM0s4TnQ3ZWNia1IxdUdBc3RKNTJsZlZKeVllc3loOFhCVjJHN3VsSlo2TkJGMGhBLUNNQUNMSGJ6M0tFVHlNQkp4R3JTUkNRVTIxd2EwTDZhVTdmTDJIbWg4?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQME9ybk1NRVJYbl80UFFzbGtxOGpERXNJQk56TWNKaWdNLUlZT0R3a0F2bFVWeHZNTGZPRWtvWkRhWGs4bXlvS3RHQ3JsNGh0aFN4M19IWUkwRHR4LWZlS2lDbEVrWF9CTjV4V3pDWlRJMTMzR3NHM2VtN2dxWEk5SjU1OTF4WW1CU3AtZnFnOA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRzVmZlYzMlQwa1JuRU9TM1RhNGRXR1FIei1aS08yRHEwcnJIOE1ObDBUWUw2NHJGQldsbjBndDR6UlAyQ0x4N0Y4Nmk2QlhGaFhIRElxMzJiWnVheDdMcEU4ZlZsOFdTT1dBaEN0V2JmQTFUMDlfdEEtTGNPdVpQS1lsYjBxNF9BcGhqcXZjRlowbmJiQWRkUWh0OGVubnZ6d3hReDMtZ0FidTZfZ2pN0gG8AUFVX3lxTFB0Q0tKcVR1SE00YmJyeFhJNV9qYVVMMjBfbnVvR281V2Nwa3dZLVQ0QXVIaXdVTlJUWHVKMWhiQ1I1OXNuZ2pnMkNUUHVad0N3T3VVa2RxMHNBNnlwUHVZVzhjMjR2alZPYzJ4cmlLR21nenVqX000WWhYV1cxbktiaEU5T09kSlRJTm9ESEgtYzVubkRGQVZ2aE1sZ1Nhd091dkpONzZLLU9vNmNiMElkRFNBalV3NS1HanJL?oc=5"
    }
   ],
   "impacts": [
@@ -41051,9 +40517,21 @@
      "ar": "صرح مسؤولون إيرانيون بأن البلاد ستستخدم جميع الأدوات والوسائل المتاحة لمواجهة الحصار البحري الذي تفرضه الولايات المتحدة.",
      "ru": "Иранские официальные лица заявили, что страна будет использовать все доступные инструменты и средства для противодействия военно-морской блокаде, введенной США."
     }
+   },
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 8,
+    "summary": "איראן הגדירה את הסגר הימי האמריקאי כמעשה תוקפנות צבאי, הבטיחה להשתמש בכל הכלים העומדים לרשותה והציגה משגרי טילים כפולים ואיומים על בסיסים במפרץ ובאירופה.",
+    "i18n": {
+     "he": "איראן הגדירה את הסגר הימי האמריקאי כמעשה תוקפנות צבאי, הבטיחה להשתמש בכל הכלים העומדים לרשותה והציגה משגרי טילים כפולים ואיומים על בסיסים במפרץ ובאירופה.",
+     "en": "Iran has condemned the US naval blockade as military aggression, threatening to use all tools, deploying dual missile launchers, and warning bases.",
+     "ar": "أدانت إيران الحصار البحري الأمريكي ووصفته بالعدوان العسكري، متعهدة باستخدام كافة الأدوات ومهددة القواعد.",
+     "ru": "Иран осудил военно-морскую блокаду США как военную агрессию, пообещав использовать все инструменты и угрожая базам."
+    }
    }
   ],
-  "last_update": 1795427931
+  "last_update": 1795431952
  },
  {
   "ts": 1795375651,
@@ -42747,12 +42225,28 @@
    }
   },
   "category": "cyber",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWmNOdnQzdE94RVl0dDBpNi1YMDViSE9kZjNxWHJuSnpGMkRvRjVJaVVaTHlTNmk5bm05NEg1U29fMlVOTG9qRTRuRlNXTnZJdjYwUVJIajU1S0txSjBTS096TmFCbnJ5MUJRY2VnZWxxakhXbXpCS3lVSThTNXkwQkdWWm1DQVV0U3RZeHVWUS13NFk4cTAtcnBPWDdzWnFRQzI4cnBXUkdZZWF0cnI2S2xNbUhQRHdCMEdrem9XRHM5d0w5aklOR0J4a0ppUXMtS1pXVkloU0VhOWtkU3ZXVVBQeWdKX3BvMDQxZ9IB9AFBVV95cUxQR3VuX0F3U1puNTBoRjNzdkdPYnJFN3BCd0Noams4Y1h1SEhtYXE0djFNMXR1VEM4UEFNRkhXVkRUVkY2UmNiVHVURE9OcmdaWlAtWDNJQjVQNUtNQTJhc2tjdkpPU1N3dGhiNnF2dThKRl8wY2JOdVNBTllfaUEySWhKT2JGQndxVVRWX2lGNWhwOWFCWG1LdTZwLWlScFBtendFaXpPQW1McUx5LWVZRVIxdnhKcktOU3BlQVRMNE01dXJTOWoyNE5rNjNMLXh5bDhFOWY5R002cnl5d0RXTnpIdFZWN3F0SUhzUlo0RWZsUEg1?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXFGMWFxQ1c0SzBmcGdoUVpOX29UMnR6TkJIeVJ1YWk2Q0VWbm81NWVQdXJQZ2JNdS1reWRjTk1VSzhUUW0zRmNNUlIxd2ZqeWVGelBkQ3FEUEFqbGthTjNieHQ0VXNRNmlESTB0UnZTLVZnYkdUckhUVlhqYUw3TW05NjBvNTJyajBJU2xNMG5wNlZvYU1SWm9ZeDE4aHNQSHMzTE84cw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXd6M0IyZm41STBNZ1lxV1FXLUIwXzJXVzN1Q2dQR2VxajRQLTFhSjl2ZTNKREpaX1l6R0JPZFE3VjRuYXotQk5QUmNCTi1FTTUtZkRPY1ZiVG9BUmJlcHRyN2hHOTVETU9xdTNEMnhTZTJrX0g1UnI2T2pCd1lOU3BnUkVLXzVVRFB6Z0FTb25rU3hXanJnZk1RME5HRUxEY1hsSGMwQi0?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iRjF2SUpPWDRpR2FmbFlQWE5nSnNZNkdabmpNLUUtaWZ4VWJyaHFnSTMwczEtTHMyTXEwVFYwMUxqM2lsTm95cmRueDg1WHFjelU2bUZ5eElpa0VrZ3pTc0EzQ3RxX2IwellvZdIBckFVX3lxTE04VHN4dldWdDk2Y0Y2bExfMmdWaTh0WkJVLUVxckZWY2lBVnNTYUthZ0Z3aEFxdGRQV2RBSjFSRUF0cGdOM3AtQmU4MV90dEVLOTNoRFVPNDAyNTJ2b3VfelhSbk5CTFM2VTNMUUhCbFlPdw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xN2szUUlvLU15d3cxTU1WaGhtQ2lHN2J4eUxUWmo5Wnhud2pza3NiUnNFN1pMbC12aE1LYnVOX0tzUlA2cU1xYTJ6VWlRZlc3S1RQdldRRy0zQnIyZlhBb1RMc2JMd0FTR1hZeGJWX0dlTG9abjFkT3M2MlF1LWc?oc=5"
    }
   ],
   "impacts": [
@@ -42776,7 +42270,22 @@
     "price_at_alert": 229.44
    }
   ],
-  "id": "8676b27331b6"
+  "id": "8676b27331b6",
+  "updates": [
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 4,
+    "summary": "שרשרת תקריות סייבר פגעו במערכות המידע של לה ליגה הספרדית, סמסונג סקיוריטיז, בבית חולים בצרפת ובספקיות ענן, וחשפו נתוני לקוחות ועובדים.",
+    "i18n": {
+     "he": "שרשרת תקריות סייבר פגעו במערכות המידע של לה ליגה הספרדית, סמסונג סקיוריטיז, בבית חולים בצרפת ובספקיות ענן, וחשפו נתוני לקוחות ועובדים.",
+     "en": "A wave of cyberattacks has hit La Liga, Samsung Securities, a French hospital, and hosting providers, exposing user and customer data.",
+     "ar": "سلسلة من الهجمات السيبرانية تضرب الدوري الإسباني، سامسونج للأوراق المالية، مستشفى فرنسي ومزودي خدمات سحابية.",
+     "ru": "Волна кибератак затронула Ла Лигу, Samsung Securities, французскую больницу и облачных провайдеров."
+    }
+   }
+  ],
+  "last_update": 1795431952
  },
  {
   "ts": 1795416992,
@@ -42810,7 +42319,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcklJbHZwWGxoZHQ3aXhaOEpXSENkYmtnVTFLX0FrbEdxVkxjTHI5Rl9CQmdBZGhQTUxhTE15S0UxMXVOMmlTblJTY3czTGJ2RmhfYTRnNGtvRUoyQUxGaUlLX09oQXNMX2NvWE9jOUpObUlUYXVnMmZua2c2c0M3V3dFUks4REpwYVIxWVFXNXBNaW04MGlnVHJjV1cycERtbzVQbWozM1FxanRneFlN?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aNDBjNE9NSHVUWnRROFRjblJBa3FmSmtMS2VhOXZFc1JqZm1iOXNvQ0diQ3Z0aDk1U1BLVU5Mdkpaa1FXVVd0QkVnZkpJN192WWhDa1pSUGZnUy15TmdWaHdmckpaVnk5TVlkOVJ3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPejFoREZVWVViVXJ1Y0RNQ3pqOHhSb0RtQVhhM0EzN2xmTEo2ZEpQWnJGaVV3NVJOTXZRSUl0ZmplVjRnN2Ntc0l4SVBZNW5fM2otdjNESWVfcjhsS1VKSndjRVhCbUFsMGc5a3FGa1hPSTF1dEdrR0pYR2xSWkNCMm5JVdIBkAFBVV95cUxPYlhkNFJTNjNfSWhUMno5SjZwbFlnZzViQzNjWFJEUDBvVDlBWTIyOUthbEtLR0ptWmNZR3l4MkFHcTdfNFFyTm5ueXRlQjk5WUxJSzlGNXNTV3Y3Qjcya3JqSkY1LUFycXFnMW5NTW5BWS1PN2dVaTU3RzJ3SlVLUERQeFhPTEJuNFFwWTlKX2I?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM1hTdjY5VzN2UC13RVZoYU1GSU5ZdC1EZGlQY1FUSXFFM3EyRV9ZdzdLNmZ0UHRjZHhxcm90clpyTThId2ljekVVTzREajNyUDRMZDBGR0E0dWtBSlVvbzd6SVU4MU9aMDZKTjEyNmxVVGhfNklkYnJKVEloOThSd0RiRVBhZnIxNGpHa0puREV5TVcyWlF3ZnZ3RWdObHVJYWNPZUwxUU10eXFlX1JZV056V3QtalRGYlHSAb8BQVVfeXFMUF8xbmlzN05QakhNUUo5RU1kNzlBZ0paWC10cWdqSkdweVFsMUJQcFlYZFh0d2ViQlJrMjZEZ21ZSUFjSUgxNk03c1RULXdzRENEWEVQNXF1dUt3ZURFU1BQQm5qZl9kRzAwLVl2Uk1pSmMyR1RVMmFOaFBIM1lFWEp5ZDBQQlBlMG00c3A3SGc0ZE5XcHdKVnluX1Q5Q3BtNDJROEZuUU51NTZBVVBsRnpsVHVEVjNFMi0zQ2ZNWnM?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DbzNCcktuVE00V29OWk5OaGo4NTNLZzJfYTRlUENvcUpGWnVfbVdFcllfaHZMRVRSNk5iSW11bjN6dXVyVDJBUjJFWnRRaHA4ZHZKYkdiaWxXV3dPY2luNEYyVXM4MThF?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iTThONGVKM1BONnMzNkJLRE9kUlNCWjNsNXdic0l2ekhUa1lOX2VwU1BOUnptWkx3VXBISkphX2RZbG92enE0YjZldzBwbFFNdlBWcFZnNGRUOVJLakFna2Iyc1NlVFoyVHVHWE84VzZndzBoNTlBdkl1MXdFdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPS3c4ZXNNN3RibVBWNWFsVFl2MnhTSDM1NWhJR3VqZFdubTBxTy1qY0ViNmg3VDVoZkpob3ZpTVVyLS13dENJSmtfZW5BMU1fWFRxNmpJczV0UHAtd0M1cHBFNGxYT1NMTHVQSU5aMnZIYkZVazcwaDhRQ1RDTVR1MnhlOVVpV3RLYy1qaU83UHlpekxLX2pfcDVSVW4xU3RVcGp2NC16NExfemRQUkE4cWZpM2JUQkxPR3l4VjhTdEtMN2tuMVdmNzI1MlQ3Mnd5VFFWZmtPNTEwY0ZQeGl3aUlYSzFIU0ZXRzNaWm5jQTdBQXZycGx6aWZaRDNsY0NEMndjajRuMGlyQktkYUM3YlNYQkx0a25YNFA4TWZaVUdoZlY5eG1GOHEtSDV3emEtR2JYNUR3WEY0SndTb1daU0ln0gHHAkFVX3lxTFAwc2ZKYlNUWDlKNDU1UTZCNmlHUi1oOC1oenFZY2pZaXRwTFh3UkF6R1dJVHBuMjdWX09rSEliaEVhX0ZnWXl2dDdjclY2NktnemZ6U3pBTzNfNlZvcVpRbXFHdTlqUWdKd2NnN2liQUZhd3BLVXVKRjNFTWttWUE0SUY5LVowTTFuLTYtOFZGbWE4R0E5Y0FtTy15cmc5dDdYYkUxSElYZlVqRzJGNHhOdXM2V3Bmd3U1dVRlcHdPYTM5eHR3NFctRUUwQ3loT0JwMEJ1b0lTU09oekNxWHNaeUE5THdpODhfZVN4VzF6SVFLUnFHT2lab3IwYTRMM19kYkN0QlpLcEtwMC1QM05zWVI5b3lHVVFMYVdCOFM2VlRVbGtMVFZXeHJKbmd0UkhZdldRRlk5b3Z5LUhsR3JqWkQ4N0c0bw?oc=5"
    }
   ],
   "impacts": [
@@ -42834,7 +42363,22 @@
     "price_at_alert": 322.87
    }
   ],
-  "id": "4b05eea4a281"
+  "id": "4b05eea4a281",
+  "updates": [
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 4,
+    "summary": "מחירי הזהב עלו בכ-2.1% בעוד גל העליות של הדולר התמתן, בזמן שהמשקיעים ממתינים לפרסום נתוני האינפלציה והכלכלה המרכזיים בארה\"ב.",
+    "i18n": {
+     "he": "מחירי הזהב עלו בכ-2.1% בעוד גל העליות של הדולר התמתן, בזמן שהמשקיעים ממתינים לפרסום נתוני האינפלציה והכלכלה המרכזיים בארה\"ב.",
+     "en": "Gold prices rebounded by around 2.1% as the dollar rally lost momentum, with investors awaiting key U.S. inflation data releases.",
+     "ar": "ارتفعت أسعار الذهب بنحو 2.1% مع فقدان صعود الدولار زخمه، بينما ينتظر المستثمرون بيانات التضخم الأمريكية.",
+     "ru": "Цены на золото восстановились примерно на 2,1% по мере ослабления доллара, инвесторы ждут данных по инфляции в США."
+    }
+   }
+  ],
+  "last_update": 1795431952
  },
  {
   "ts": 1795416992,
@@ -42923,7 +42467,12 @@
   "category": "contracts",
   "severity": 5,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEdNaTZIaDJFQnJWSWd5VkR4Q0VWMjQ2R3hMN0F0M1pCV09hRmZiWEl5T1JMVnN3YnVKSTlVbDlFWWpuZUdZQ2tJZV94d3EtUUtlcEN3S3c5SUN5cW9aWl9oVUhTb1J4aHJ0aF9KbUZ5RlpjRmJDUzRmWmpEVHUzTWZhNFBOV3F4SlE2Q2hpeUMxNkltYVRYZXc0bTl5Tm1wWFFXajY2ay10cWxpVDcwT1MweDExSl9PMlZF0gHAAUFVX3lxTE9USkQ2Y2lFV1ZNRmhPWVVwcEJBaHA0dXlUeDFRX3hLU1VVN0RTeTI1M0Y0Rk5uQzdXbF94eTBmdmdoWVdudU1NQmNjUTBpTXJncHNRMC1BM2dCb3VXVFNzdVFoUmVjWFUyazVBT3BjVzBCdzVyVFF3Ulh2YzR3cGdlMDlVZmNPT1pJODVEWWJOb2xYQUo1SXNENU1JVHdWaVhIVnh2Vmt4TUxSZzFGYlpCY2hiZ2QxVGZfM2Q4Smxzcg?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "COP",
@@ -42943,9 +42492,43 @@
      "ru": "ConocoPhillips"
     },
     "price_at_alert": 136.12
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795431952,
+    "reason": "עסקת ענק במגזר האנרגיה מעידה על פעילות ערה ומימוש רווחים בנכסים.",
+    "reason_i18n": {
+     "he": "עסקת ענק במגזר האנרגיה מעידה על פעילות ערה ומימוש רווחים בנכסים.",
+     "en": "Massive deal in the energy sector highlights active portfolio optimization and asset monetization.",
+     "ar": "صفقة ضخمة في قطاع الطاقة تسلط الضوء على نشاط المحفظة وتحقيق الأصول.",
+     "ru": "Крупная сделка в энергетическом секторе подчеркивает активную оптимизацию портфеля."
+    },
+    "name_i18n": {
+     "he": "מדד אנרגיה – מניות נפט וגז",
+     "en": "Energy ETF - oil & gas stocks",
+     "ar": "صندوق قطاع الطاقة - أسهم النفط والغاز",
+     "ru": "Энергетический ETF - акции нефти и газа"
+    },
+    "price_at_alert": 60.51
    }
   ],
-  "id": "f7c51f307ae3"
+  "id": "f7c51f307ae3",
+  "updates": [
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 4,
+    "summary": "חברת האנרגיה קונוקונופיליפס מוכרת את פעילותה ונכסיה בנורווגיה לחברת Vår Energi תמורת 4.4 מיליארד דולר.",
+    "i18n": {
+     "he": "חברת האנרגיה קונוקונופיליפס מוכרת את פעילותה ונכסיה בנורווגיה לחברת Vår Energi תמורת 4.4 מיליארד דולר.",
+     "en": "Energy giant ConocoPhillips is exiting Norway by selling its assets to Vår Energi in a deal worth $4.4 billion.",
+     "ar": "تبيع شركة الطاقة كونوكو فيليبس أصولها في النرويج لصالح شركة Vår Energi مقابل 4.4 مليار دولار.",
+     "ru": "Энергетический гигант ConocoPhillips продает свои активы в Норвегии компании Vår Energi за 4,4 млрд долларов."
+    }
+   }
+  ],
+  "last_update": 1795431952
  },
  {
   "ts": 1795422900,
@@ -43032,19 +42615,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdHA2QWxOVnJremhZMGs5YXBGMi1ZcjFoZk9PcldIQXRPa3puS2lzblZaOWp3bG1semQtaHU0Q3VocG5kMDJiWFRkUkx2d0FXY0diZ1h0Nmdhd1NlbkZmcG1HWGE1bGFKeEZfME12cXpwS2FLaVlkV0pvVGxzOUkxOEtaczNkSDA1ZjFvMjd2YjNSUW9XQjNILUNsVGV1RDFaMUM1MzZGRjI4djQzLWR2MjRPcmFTcXdWYmVOalpuYnJRcXNoYjlRZ0JIdWFyaTJLcnYxc2U5QnJEdThYVW81ZmkzNGRud9IB5gFBVV95cUxPdHA2QWxOVnJremhZMGs5YXBGMi1ZcjFoZk9PcldIQXRPa3puS2lzblZaOWp3bG1semQtaHU0Q3VocG5kMDJiWFRkUkx2d0FXY0diZ1h0Nmdhd1NlbkZmcG1HWGE1bGFKeEZfME12cXpwS2FLaVlkV0pvVGxzOUkxOEtaczNkSDA1ZjFvMjd2YjNSUW9XQjNILUNsVGV1RDFaMUM1MzZGRjI4djQzLWR2MjRPcmFTcXdWYmVOalpuYnJRcXNoYjlRZ0JIdWFyaTJLcnYxc2U5QnJEdThYVW81ZmkzNGRudw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNm40SDFSRC0wWF9Fekc1RHY4aFZrQndhRndDdlpxRFM5RXFhbnhabGZiXzVweTFuMTk4Wjh5Z1BXQ0lKTVJPMlFaRWR6RVFIZUtoYWhNWVJWNzBCdU1HaURsLWl2dnh4d2dFcS1YMUlzMjlIMUVURjk2by1sWXRZRlNoRWkwQ3JRZm50dEJSMzRXVzUtaEJ3?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdU8wTWxmUkswLTFQRXVsVDFfSmw5M3BGRmxtaGJIVEtxM280SkRiNk1mQkZVVC14Zld0VEQwVU1XWHJCb2VmOXVJWDR1dHZMMEZZLWV2WkJxVEdic0xHYnZPcnhGY3NVcFcyYndId1BXdFlJcF9XQVdhbkk5RVlfVlRjN21faS1relRBeU9aZWk3QjhqOXFkRi1sOF9NcHNFRVNySmpKN3U2eXYzbW9xRE4yam41Nkk0U1IyajN5WnBlanJxX0xmUzh5bTNGd0NkdHJ2bG1YY202ejlYb1HSAeMBQVVfeXFMTzctdHRZNzM5NFBvZXFTUnVmQ3A3SV81bDl5eFctdzdqNWVlNk8wLWN1UVB1SDZ3WWV5MG5VVGlkLWxuakVTWk8zQjZyd1BXa0FEYi1yckFtaUFVWU1Nc1ZiUi1aQmhMa1ZjWkdia3diV2laZm9ScjBzX25BYTBrbzB6c1NJcVJUUzBkVmNvaF9CNFFJaTZzT2dBSkdjb1MwNUF5YXpXVFVkUXA2SGFWeTFVcWMzWV9TbHRKa3BsMGhPZjY0blRmWGVNZHRteXp2UG43VlliMjhwVE5ZM2N1MDNEQWM?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWFGc1pTd0N1RmUzWWYySU9mQndLbVJieGt1eFVVTFNXa3NSMXUwVDZjQTI2Zm9xOVVqUURUSml0R3RSZWpHRUxBQUhlTkltWk5Fdm1Pc1VxVFNmMzktLTZNbE9JcVQzTEZaZ3BKWTQyNDRpU242b3hZcC03SUYwTTJubDl4ZjN4a2JXMjd4ZVNQX29xMkE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRnF2NnRfb2pEbVJRc2dKaW03TG9yemdDd2JZWUZQU19mNmIwMllXUDRlMDc1dTJGUk1FUzU3alV2THcyVGYwMmtBRGNrTVR5Y2xxVjdSa3Nlb3BJSkMtSDRqUDBoNE5mb3ZHNkhSUVZUXzJQSG9GMUpwVjhCcTRwVnhBVW00dERwenZzU0M3ZDdHRzlrRjVUSnpvcDc1RDRmMHFmeWt0ekstdW81c0c5eG1SSFlrZGEzRVd5Z2tDZENQOGh3cDRaRzFieG9ycDZwVVJQTWV2OGNDNTBmZ2N2SU5rWWVqb1A0RUNvRm4xNTVBdjTSAfoBQVVfeXFMTkhvLVFfM1JFeUk3Z3c4TDJ0allaZ0d1Mk9VUWFGMElnOXJKMXg2Z0ZmMGRQNngxRFRmNExyODM4dnRXTE9FYWRrems4aVhmc1JtUVJkbFJfaFYxeFpabG5JRjBQSUxmYUJpNE82Y3BjM0Z4SVl2OUdlQ2FEQzcxUlFxZjY5TjF6a3QtbFpZZ2RFVldSNTQ1LVQ3U3ZaenEtVS1taFF4aG40cllldVpVWU1zUGhoeWRqbzlZdzZjeERHbnVUNzEzZ3Axd3piR0V6RjQ0OFkwUkRYSnJoR0RMSUQ0Mk5HYi1GOTJYRUVqcXRVVVRELVBKU2ZkQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV1BiaHRmdWo0NW5pWWJTaW11bC10SWVZZjd5dGZZdm9FRWg4N0xkRFBoeFpGaV9SNU85aEt4WS1XaTNEVzRKWmVXQlp1ZkFzWGM0T3UwRWs1Q2dLVXBWdEJTczBibmhCMXdlRDgwN1JrcThJcnZncUQzU29pM0M5MENGMA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRWREVDhmdkRUTTk4UmlHVFdMNmRVUWtjVTFLVTl1VnRzYjhCZU9XaW04WXBUTkZwV0djTWJFeFBoMTEtNlk1NzdiY0lnOTRseFdaLVVEcXBpdk0zcVRsYl85N3hwVnVnanNuRXZLUW1tYi1oYlN2eENyRmFBeVpDYXRzTG5zWkFBQ3c2V1puVHFLSjk4Q3VXT3Fuel9pRmdYd3U5cWgtUUNCeU1UUEVvcFNqUVE5TVNTU2J4NURLSGlWaTUySjJCaWR3YVJWbkw4TjhHYkl1OXZfRmpkSkN2emtkLTJjeDdY0gHuAUFVX3lxTFBLeGRRc3R1ZjJGZjhxSndKLVlSRWdhWDI4NGtBXzhFaG1uUnh6R0lJUndhdDBqRnpJQVFISGFSSDd6WmRodlRXcktsZHNLMXk5TnNTb3ZDOEZjZUpTbXBna0NyWWxMc2ZXZnlKRkotaWZfMTZRNTF5MERZb2hHbkwwZjhoVnFhZllGZ1QzQklYTUxON185SDhrZWhuUzh3YThkVm5Ca1o3RlJKOFBTMG5LdkFrZXNRNFdqR0s3cElLRllyOGUyczhFT1VxOU9WdkwwRURheEFVaGtzem4yNkVnOXJhSmlEa1NiLTdkcWc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR1VfSVdvTkF6azI0Y3J5akJOdFVFelYzbjdyWmFraEVZaGI4X3l0bWZ1NDl0bGFrOG5LN2d1dWhsZTZZd2JhdXVVWlNrcHJBOHNUbGxMZ0ozNkFMTU5qZ1gtOURPblF3bjFRYnNCemxfdWpoZnc3MThhcWhPXzB1cF93Q3FGR2FVR082d1M2Zkx2T1V3QzZ0c2k1NGx2N2JMbE5iVXYyOFpnSHNlaWs2NVJhMHNaTWczM1dnbFY2ZWRjbVhieHdaYVZIVHRPT05SejRNQXplT3NDcFoyNzh4RtIB5gFBVV95cUxPbE5rSnRXOFI1V3kxRk1SbWMwdjVhR0xVU2NKTmlRRHBCQUFub0VDV0tVZjFlWE44TGFQWVNJQmV5UmFiSFdVVV9rYmJnM3BtVlZiLXhRcnpvUDBJU3BPc3cyX18zS0RTX01oWTZQMTEwRktRMURrUEJob1pDd1c5N1BnalY3UElub0JwZEtZOW5NbXBOSVc4MWxhMkxMVVFrNnI3bDFqLW51bXhsdE5paHVqeW9MS3hpcTJUZ2ZNbXRJeGtDcEtEME9Udmd2SThpWFhiN200TVVRR0pnYzdkM0lFY1ViZw?oc=5"
    }
   ],
   "impacts": [
@@ -43104,6 +42695,25 @@
      "ru": "ETF акций Индии"
     },
     "price_at_alert": 52.9
+   },
+   {
+    "ticker": "KTOS",
+    "direction": "up",
+    "t0": 1795431952,
+    "reason": "התעניינות גוברת במערכות נגד רחפנים וטכנולוגיות הגנה אוטונומיות בעולם.",
+    "reason_i18n": {
+     "he": "התעניינות גוברת במערכות נגד רחפנים וטכנולוגיות הגנה אוטונומיות בעולם.",
+     "en": "Growing global interest in counter-drone systems and autonomous defense technologies.",
+     "ar": "اهتمام عالمي متزايد بأنظمة مكافحة الطائرات المسيرة وتقنيات الدفاع.",
+     "ru": "Растущий мировой интерес к системам борьбы с дронами и автономным оборонным технологиям."
+    },
+    "name_i18n": {
+     "he": "קראטוס – רחפנים ומערכות בלתי מאוישות",
+     "en": "Kratos Defense - drones and unmanned systems",
+     "ar": "كراتوس للدفاع - طائرات بدون طيار وأنظمة",
+     "ru": "Kratos Defense - дроны и беспилотные системы"
+    },
+    "price_at_alert": 26.89
    }
   ],
   "id": "d5b379922687",
@@ -43119,9 +42729,21 @@
      "ar": "اختبأت الهند بنجاح نظام JWALA MK-1 المضاد للطائرات المسيرة وصاروخ Bagheera AT1، بينما اختارت اليابان النطاقات الهندية للتدريب على الصواريخ.",
      "ru": "Индия успешно испытала систему борьбы с дронами JWALA MK-1 и ракету Bagheera AT1, в то время как Япония выбрала индийские полигоны для ракетных тренировок."
     }
+   },
+   {
+    "ts": 1795431952,
+    "time": "2026-11-23T11:05Z",
+    "severity": 4,
+    "summary": "הצבא ההודי ערך ניסוי מוצלח בטיל מיקרו אנטי-רחפנים אוטונומי, במקביל לכוננות ביטחונית סביב תפיסת חומרי ייצור טילים שהועברו מסין לבנגלדש.",
+    "i18n": {
+     "he": "הצבא ההודי ערך ניסוי מוצלח בטיל מיקרו אנטי-רחפנים אוטונומי, במקביל לכוננות ביטחונית סביב תפיסת חומרי ייצור טילים שהועברו מסין לבנגלדש.",
+     "en": "The Indian military successfully test-fired an autonomous anti-drone micro-missile, amid high security alert over seized missile chemical cargo from China.",
+     "ar": "اختبار ناجح لصاروخ هندي مضاد للطائرات المسيرة وسط حالة تأهب أمني بشأن ضبط شحنة مواد صواريخ.",
+     "ru": "Индийские военные успешно испытали автономную микроракету против дронов на фоне тревоги из-за перехваченного груза."
+    }
    }
   ],
-  "last_update": 1795427931
+  "last_update": 1795431952
  },
  {
   "ts": 1795427931,
@@ -43609,5 +43231,63 @@
    }
   ],
   "id": "fab67c18b76f"
+ },
+ {
+  "ts": 1795431952,
+  "time": "2026-11-23T11:05Z",
+  "title": "קראודסטרייק רוכשת את זסקיילר תמורת 43.9 מיליארד דולר",
+  "summary": "חברת האבטחה קראודסטרייק הודיעה על רכישת Zscaler בעסקת ענק בשווי 43.9 מיליארד דולר בתחום אבטחת הסייבר.",
+  "kid": "חברת סייבר אחת קונה חברת סייבר שנייה בסכום עצום. זה יכול להשפיע על המניות של שתי החברות ועל כל שוק טכנולוגיית ההגנה.",
+  "i18n": {
+   "title": {
+    "he": "קראודסטרייק רוכשת את זסקיילר תמורת 43.9 מיליארד דולר",
+    "en": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+    "ar": "كراودسترايك تستحوذ على زسكيلر في صفقة بقيمة 43.9 مليار دولار",
+    "ru": "CrowdStrike приобретает Zscaler за 43,9 млрд долларов"
+   },
+   "summary": {
+    "he": "חברת האבטחה קראודסטרייק הודיעה על רכישת Zscaler בעסקת ענק בשווי 43.9 מיליארד דולר בתחום אבטחת הסייבר.",
+    "en": "Cybersecurity firm CrowdStrike has agreed to acquire Zscaler in a massive transaction valued at $43.9 billion.",
+    "ar": "أعلنت شركة الأمن السيبراني كراودسترايك عن الاستحواذ على Zscaler في صفقة ضخمة بقيمة 43.9 مليار دولار.",
+    "ru": "Компания CrowdStrike договорилась о приобретении Zscaler в рамках масштабной сделки на сумму 43,9 млрд долларов."
+   },
+   "kid": {
+    "he": "חברת סייבר אחת קונה חברת סייבר שנייה בסכום עצום. זה יכול להשפיע על המניות של שתי החברות ועל כל שוק טכנולוגיית ההגנה.",
+    "en": "One cyber company is buying another for a huge amount of money. This can affect both of their stock prices and the whole tech protection market.",
+    "ar": "شركة أمن سيبراني تشتري شركة أخرى بمبلغ ضخم. هذا يمكن أن يؤثر على أسهمهما وسوق التكنولوجيا.",
+    "ru": "Одна киберкомпания покупает другую за огромные деньги. Это может повлиять на их акции и рынок технологий."
+   }
+  },
+  "category": "contracts",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjdDTkxhZlpDTjcwSjEtZkl4SzFJMWg5MWcxR3c0dmJHNDJYa2FBZVdRNlREazAzdG9wRmR2TVlvcU82U3JwU2xoVUdOTjNmMHlGajB1azRiT2VzbzBjRHlQLS1DaXpheGhHa1NZQ29oUkZsbWFfNVd4dEpUa0RGVnkwaC15Uk5XaDI5YTR3N3FXQTJMZ2RpMXpGZ01kSlNoZXBjQ3FpZw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "down",
+    "t0": 1795431952,
+    "reason": "רוכשת חברה בעלות אסטרונומית של 43.9 מיליארד דולר, מה שעשוי ליצור לחץ פיננסי קצר טווח.",
+    "reason_i18n": {
+     "he": "רוכשת חברה בעלות אסטרונומית של 43.9 מיליארד דולר, מה שעשוי ליצור לחץ פיננסי קצר טווח.",
+     "en": "Acquiring a company for an astronomical $43.9 billion, which may create short-term financial pressure.",
+     "ar": "تستحوذ على شركة بتكلفة هائلة تبلغ 43.9 مليار دولار، مما قد يخلق ضغطا ماليا.",
+     "ru": "Приобретает компанию за астрономическую сумму 43,9 млрд долларов, что может создать краткосрочное финансовое давление."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike - cybersecurity company",
+     "ar": "كراودسترايك - شركة أمن سيبراني",
+     "ru": "CrowdStrike - компания по кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   }
+  ],
+  "id": "91d4133bbe3d"
  }
 ]
