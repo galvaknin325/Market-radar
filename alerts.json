@@ -1564,261 +1564,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794806008,
-  "time": "2026-11-16T05:13Z",
-  "title": "מכסים אמריקאיים חדשים משנים את שוק הרחפנים הישראלי",
-  "summary": "מכסים חדשים מטעם ארצות הברית משנים את תנאי השוק והתחרות עבור יצרניות הרחפנים והמערכות הבלתי מאוישות מישראל.",
-  "kid": "מסים חדשים בארה\"ב על רחפנים מישראל עשויים לשנות אילו חברות ירוויחו יותר או פחות ממכירות באמריקה.",
-  "i18n": {
-   "title": {
-    "he": "מכסים אמריקאיים חדשים משנים את שוק הרחפנים הישראלי",
-    "en": "New US Tariffs Reshape Market for Israeli Drones",
-    "ar": "الرسوم الجمركية الأمريكية الجديدة تعيد تشكيل سوق الطائرات بدون طيار الإسرائيلية",
-    "ru": "Новые тарифы США меняют рынок израильских беспилотников"
-   },
-   "summary": {
-    "he": "מכסים חדשים מטעם ארצות הברית משנים את תנאי השוק והתחרות עבור יצרניות הרחפנים והמערכות הבלתי מאוישות מישראל.",
-    "en": "New US tariffs are reshaping the market and competitive landscape for Israeli drone and unmanned systems manufacturers.",
-    "ar": "الرسوم الجمركية الأمريكية الجديدة تعيد تشكيل سوق والمشهد التنافسي لمصنعي الطائرات بدون طيار والأنظمة غير المأهولة الإسرائيلية.",
-    "ru": "Новые тарифы США меняют рыночные и конкурентные условия для израильских производителей беспилотников и беспилотных систем."
-   },
-   "kid": {
-    "he": "מסים חדשים בארה\"ב על רחפנים מישראל עשויים לשנות אילו חברות ירוויחו יותר או פחות ממכירות באמריקה.",
-    "en": "New US taxes on drones from Israel might change which companies profit more or less from sales in America.",
-    "ar": "الضرائب الأمريكية الجديدة على الطائرات بدون طيار من إسرائيل قد تغير الشركات التي تربح أكثر أو أقل من المبيعات في أمريكا.",
-    "ru": "Новые налоги США на беспилотники израильского производства могут повлиять на то, какие компании выиграют или проиграют от продаж в Америке."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ESLT",
-    "direction": "down",
-    "t0": 1794806008,
-    "reason": "מכסים עלולים לפגוע בתחרותיות היצוא לארה\"ב.",
-    "reason_i18n": {
-     "he": "מכסים עלולים לפגוע בתחרותיות היצוא לארה\"ב.",
-     "en": "Tariffs could hurt the competitiveness of exports to the US.",
-     "ar": "قد تؤدي الرسوم الجمركية إلى الإضرار بقدرة الصادرات إلى الولايات المتحدة على المنافسة.",
-     "ru": "Тарифы могут ухудшить конкурентоспособность экспорта в США."
-    },
-    "name_i18n": {
-     "he": "אלביט מערכות - חברת ביטחונית ישראלית",
-     "en": "Elbit Systems - Israeli defense company",
-     "ar": "إلبيط سيستمز - شركة دفاع إسرائيلية",
-     "ru": "Elbit Systems - израильская оборонная компания"
-    },
-    "price_at_alert": 706.62,
-    "entry_price": 691.74,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 720.45,
-    "exit_date": "2026-11-17",
-    "change_pct": 4.15,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 6.45,
-    "edge_pct": -6.45,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "AVAV",
-    "direction": "up",
-    "t0": 1794806008,
-    "reason": "הגבלות על מתחרים עשויות לתת ירון לתעשייה המקומית בארה\"ב.",
-    "reason_i18n": {
-     "he": "הגבלות על מתחרים עשויות לתת ירון לתעשייה המקומית בארה\"ב.",
-     "en": "Restrictions on competitors could advantage domestic US manufacturing.",
-     "ar": "قد تفيد القيود المفروضة على المنافسين التصنيع المحلي في الولايات المتحدة.",
-     "ru": "Ограничения для конкурентов могут пойти на пользу американскому производству."
-    },
-    "name_i18n": {
-     "he": "ארווירוןמנט - יצרנית רחפנים אמריקאית",
-     "en": "AeroVironment - US drone manufacturer",
-     "ar": "أيروفيرونمنت - شركة أمريكية لتصنيع الطائرات بدون طيار",
-     "ru": "AeroVironment - американский производитель БПЛА"
-    },
-    "price_at_alert": 117.52,
-    "entry_price": 114.81,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 104.44,
-    "exit_date": "2026-11-17",
-    "change_pct": -9.03,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -6.73,
-    "edge_pct": -6.73,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "30ae9049bafb",
-  "evaluated": true
- },
- {
-  "ts": 1794806008,
-  "time": "2026-11-16T05:13Z",
-  "title": "LS Electric זכתה בעסקה בסך 94 מיליון דולר לתשתיות חשמל עבור מרכזי נתונים של AI בארה\"ב",
-  "summary": "חברת LS Electric זכתה בחוזה תשתיות חשמל בהיקף של 94 מיליון דולר לתמיכה במרכזי נתונים של בינה מלאכותית בארצות הברית.",
-  "kid": "חברת חשמל גדולה קיבלה הזמנה לבנות תשתיות למחשבים חזקים של בינה מלאכותית בארה\"ב. זה עוזר למניות הקשורות לטכנולוגיה וחשמל.",
-  "i18n": {
-   "title": {
-    "he": "LS Electric זכתה בעסקה בסך 94 מיליון דולר לתשתיות חשמל עבור מרכזי נתונים של AI בארה\"ב",
-    "en": "LS Electric Wins $94 Million Power Deal for US AI Data Centers",
-    "ar": "إل إس إلكتريك تفوز بصفقة طاقة بقيمة 94 مليون دولار لمراكز بيانات الذكاء الاصطناعي الأمريكية",
-    "ru": "LS Electric выиграла сделку на $94 млн на энергоинфраструктуру для дата-центров ИИ в США"
-   },
-   "summary": {
-    "he": "חברת LS Electric זכתה בחוזה תשתיות חשמל בהיקף של 94 מיליון דולר לתמיכה במרכזי נתונים של בינה מלאכותית בארצות הברית.",
-    "en": "LS Electric won a $94 million power infrastructure contract to support US artificial intelligence data centers.",
-    "ar": "فازت شركة إل إس إلكتريك بعقد بنية تحتية للطاقة بقيمة 94 مليون دولار لدعم مراكز بيانات الذكاء الاصطناعي في الولايات المتحدة.",
-    "ru": "Компания LS Electric выиграла контракт на энергоинфраструктуру на сумму 94 миллиона долларов для поддержки дата-центров ИИ в США."
-   },
-   "kid": {
-    "he": "חברת חשמל גדולה קיבלה הזמנה לבנות תשתיות למחשבים חזקים של בינה מלאכותית בארה\"ב. זה עוזר למניות הקשורות לטכנולוגיה וחשמל.",
-    "en": "A major power equipment company got an order to build infrastructure for powerful AI computers in the US, boosting related sectors.",
-    "ar": "حصلت شركة معدات طاقة كبرى على طلب لبناء بنية تحتية لحواسيب الذكاء الاصطناعي القوية في الولايات المتحدة، مما يعزز القطاعات ذات الصلة.",
-    "ru": "Крупная электротехническая компания получила заказ на инфраструктуру для мощных компьютеров ИИ в США, поддерживая технологический сектор."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1794806008,
-    "reason": "השקעות בתשתיות AI תומכות בצמיחת סקטרו הטכנולוגיה.",
-    "reason_i18n": {
-     "he": "השקעות בתשתיות AI תומכות בצמיחת סקטרו הטכנולוגיה.",
-     "en": "AI infrastructure investments support the growth of the technology sector.",
-     "ar": "استثمارات البنية التحتية للذكاء الاصطناعي تدعم نمو قطاع التكنولوجيا.",
-     "ru": "Инвестиции в инфраструктуру ИИ поддерживают рост технологического сектора."
-    },
-    "name_i18n": {
-     "he": "XLK - קרן סל על סקטרו הטכנולוגיה",
-     "en": "XLK - Technology Sector ETF",
-     "ar": "XLK - صندوق قطاع التكنولوجيا",
-     "ru": "XLK - фонд технологического сектора"
-    },
-    "price_at_alert": 170.28,
-    "entry_price": 166.74,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 163.29,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.07,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.23,
-    "edge_pct": 0.23,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "3e297e13143c",
-  "evaluated": true
- },
- {
-  "ts": 1794806008,
-  "time": "2026-11-16T05:13Z",
-  "title": "תוספת של 700 דולר לעלויות משלוח מאיימת על עונת החגים",
-  "summary": "יבואנים מזהירים כי תוספת חיוב של 700 דולר למשלוח מאיימת על גידול של 45% ביבוא הסחורות לקראת עונת החגים.",
-  "kid": "עלויות המשלוח של מתנות ומוצרים לחגים התייקרו מאוד. זה עלול להקשות על חנויות וחברות שמוכרות סחורות בחגים.",
-  "i18n": {
-   "title": {
-    "he": "תוספת של 700 דולר לעלויות משלוח מאיימת על עונת החגים",
-    "en": "$700 Shipping Surcharge Threatens Holiday Cargo Growth",
-    "ar": "رسوم الشحن البالغة 700 دولار تهدد نمو شحنات العطلات",
-    "ru": "Доплата за доставку в $700 угрожает росту праздничных грузов"
-   },
-   "summary": {
-    "he": "יבואנים מזהירים כי תוספת חיוב של 700 דולר למשלוח מאיימת על גידול של 45% ביבוא הסחורות לקראת עונת החגים.",
-    "en": "Importers warn that a $700 shipping surcharge threatens a 45% surge in cargo growth ahead of the holiday season.",
-    "ar": "يحذر المستوردون من أن فرض رسوم إضافية للشحن بقيمة 700 دولار يهدد نمو شحنات البضائع بنسبة 45% قبيل موسم العطلات.",
-    "ru": "Импортеры предупреждают, что надбавка к стоимости доставки в размере 700 долларов угрожает росту грузоперевозок на 45% в преддверии праздников."
-   },
-   "kid": {
-    "he": "עלויות המשלוח של מתנות ומוצרים לחגים התייקרו מאוד. זה עלול להקשות על חנויות וחברות שמוכרות סחורות בחגים.",
-    "en": "Shipping costs for holiday gifts have jumped. This could hurt retailers and companies importing goods for the holidays.",
-    "ar": "ارتفعت تكاليف شحن هدايا ومنتجات العطلات بشكل حاد. قد يضر ذلك بالمتاجر والشركات التي تستورد البضائع للعطلات.",
-    "ru": "Стоимость доставки праздничных товаров резко возросла. Это может навредить магазинам и компаниям, импортирующим товары к праздникам."
-   }
-  },
-  "category": "commodities",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FDX",
-    "direction": "up",
-    "t0": 1794806008,
-    "reason": "תעריפי שילוח גבוהים עשויים לשפר את הכנסות חברות הלוגיסטיקה.",
-    "reason_i18n": {
-     "he": "תעריפי שילוח גבוהים עשויים לשפר את הכנסות חברות הלוגיסטיקה.",
-     "en": "Higher shipping rates can boost revenues for logistics firms.",
-     "ar": "أسعار الشحن الأعلى يمكن أن تعزز إيرادات شركات الخدمات اللوجستية.",
-     "ru": "Более высокие тарифы на доставку могут увеличить доходы логистических компаний."
-    },
-    "name_i18n": {
-     "he": "פדדקס - חברת שילוח ולוגיסטיקה",
-     "en": "FedEx - shipping and logistics company",
-     "ar": "فيديكس - شركة شحن ولوجستيات",
-     "ru": "FedEx - логистическая компания"
-    },
-    "price_at_alert": 324.14,
-    "entry_price": 325.0,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 320.02,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.53,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.77,
-    "edge_pct": 0.77,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLY",
-    "direction": "down",
-    "t0": 1794806008,
-    "reason": "עלויות שילוח גבוהות מקטינות את רווחי הקמעונאים.",
-    "reason_i18n": {
-     "he": "עלויות שילוח גבוהות מקטינות את רווחי הקמעונאים.",
-     "en": "Higher shipping costs squeeze retailer margins.",
-     "ar": "تكاليف الشحن الأعلى تضغط على هوامش ربح تجار التجزئة.",
-     "ru": "Более высокие затраты на доставку снижают маржу ритейлеров."
-    },
-    "name_i18n": {
-     "he": "XLY - קרן סל על צריכה מחזורית",
-     "en": "XLY - Consumer Discretionary ETF",
-     "ar": "XLY - صندوق الاستهلاك التดييري",
-     "ru": "XLY - фонд циклического потребления"
-    },
-    "price_at_alert": 119.98,
-    "entry_price": 119.62,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 117.13,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.08,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.22,
-    "edge_pct": -0.22,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "3fb05eeb8684",
-  "evaluated": true
- },
- {
   "ts": 1794811392,
   "time": "2026-11-16T06:43Z",
   "title": "בריטניה והאיחוד האירופי מטילות סנקציות חדשות על רוסיה",
@@ -34976,6 +34721,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jSUczV0Q5bWpYN2tEOVdJS2t2X0tPNlZxcW1DNnM4dVFUU21kTk1MNEE2UGR5WXBPYVd0QjBRSmNyUXp4TkV1b1R5eURwT0NGbzVDdUxOdGE2ay1PcW41SjFQSm12el83OS1pUWM1QnNCSWVhbGc?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1RSdXpZSHZDWjRsTm1IaVFKbXZ3MjNtR2hGTWdReEp4enpCSEJlTTRDSkJGZm1EM0xUakNIV3JZNVlVZk5oejNHRGVLU3Vka1JwUTJyMjVMcmVZRUllZ3FsektBYkpNYXVPYUhMeDc0bk1xX2RJb1dvNGE4b3ZnMnBDY281NnJWZDY3VFJ0S1NqSEVTUzE5dUdUSW9iMFE?oc=5"
    }
   ],
   "impacts": [
@@ -35086,9 +34835,21 @@
      "ar": "تجري أمازون محادثات متقدمة للاستحواذ على شركة ناشئة في مجال الذكاء الاصطناعي بحوالي 7.5 مليار دولار.",
      "ru": "Amazon ведет переговоры о покупке стартапа в сфере искусственного интеллекта примерно за $7,5 млрд."
     }
+   },
+   {
+    "ts": 1795412931,
+    "time": "2026-11-23T05:48Z",
+    "severity": 6,
+    "summary": "ענקית המסחר המקוון והענן אמזון נמצאת במגעים מתקדמים לרכישת סטארט-אפ הבינה המלאכותית הישראלי דקאר בסכום המוערך בכ-7.5 מיליארד דולר.",
+    "i18n": {
+     "he": "ענקית המסחר המקוון והענן אמזון נמצאת במגעים מתקדמים לרכישת סטארט-אפ הבינה המלאכותית הישראלי דקאר בסכום המוערך בכ-7.5 מיליארד דולר.",
+     "en": "E-commerce and cloud giant Amazon is nearing a deal to acquire Israeli AI startup Decart for approximately $7.5 billion.",
+     "ar": "تقترب عملاق التجارة الإلكترونية والحوسبة السحابية أمازون من صفقة للاستحواذ على شركة الذكاء الاصطناعي الإسرائيلية ديكارت بحوالي 7.5 مليار دولار.",
+     "ru": "Гигант электронной коммерции и облачных технологий Amazon близка к покупке израильского ИИ-стартапа Decart примерно за $7,5 млрд."
+    }
    }
   ],
-  "last_update": 1795389396
+  "last_update": 1795412931
  },
  {
   "ts": 1795285408,
@@ -41141,10 +40902,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0YW9PaDhwYlFhVnltU1o2SGJneW5mNXlrMVd3NFU2RkdjQkpQbHNySVBkR09CamI1UTBhQ2plUENjUHc5V0paMUhmeWR0YWRRVFpCUmROVU1tX05VV0gtbkFweGpCcWQy?oc=5"
    },
@@ -41163,6 +40920,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaVlUdE1QV0FrbS1kVFlMU0lmSk5OSzVvV09yV0wtMnlWel9xM2Y1M1QzRjNfTXRIelVMYUhzNktGZ3VPWGV0ZmhzclFVTDl6VWM2REtIQWZZdFpQYWkzRUNZSVVodzN1bmlSZkRLdG1ZRTVzTkRqbTJGUnJva2NWY0lBQ3dGZ3d5UXpza2ZCTWZxUmIwRF9XRURJWTJmSjNTaENSZDl5ejBxV2RPTW10Mmw3THRJLS1jaVN6MHoyMUZHOHVpRGVvc0xLMA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcXFSeVlrX01Uc3lDY3hRMGxMaGxGRUpTd0ZSeUNHM1NfcGp5VGJoSUJlN1J4bFI3bjZvSkM1NmVMMF9GTENpQzRiWjFGWDRJTEZqYXpoMm1qcHRZOW43azVwcGN4NEhYdm96am1wQnBmLVNROGhfRFNMck5OZkZwMzZoaG5SN1FLekY3LUM1TGRDWUtCZjVQYkx0d2doRncwaGtSSUZYcjdocWg0RlJLRk54dWhLTUF3d1J5Rw?oc=5"
    }
   ],
   "impacts": [
@@ -41378,9 +41139,21 @@
      "ar": "كشفت إيران عن قاذفات صواريخ جديدة تحت الأرض بينما أعلن الحوثيون مسؤوليتهم عن هجوم على مصفاة سعودية. وحذر دونالد ترامب من ضربات مستقبلية مشيرا إلى طفرة في هجمات الطائرات بدون طيار.",
      "ru": "Иран представил новые подземные ракетные установки, в то время как хуситы заявили об ударе по саудовскому НПЗ. Дональд Трамп предупредил о новых ударах на фоне роста числа атак беспилотников."
     }
+   },
+   {
+    "ts": 1795412931,
+    "time": "2026-11-23T05:48Z",
+    "severity": 5,
+    "summary": "דיווחים מצביעים על כך ש-14 מכליות נפט איראניות מתכננות לבחון ולהתמודד עם הסגר הימי שאוכפת ארה\"ב, מה שמגביר את המתיחות הגיאופוליטית במפרץ.",
+    "i18n": {
+     "he": "דיווחים מצביעים על כך ש-14 מכליות נפט איראניות מתכננות לבחון ולהתמודד עם הסגר הימי שאוכפת ארה\"ב, מה שמגביר את המתיחות הגיאופוליטית במפרץ.",
+     "en": "Reports indicate that 14 Iranian oil tankers are planning to challenge the maritime blockade enforced by the United States, raising geopolitical tensions.",
+     "ar": "تشير التقارير إلى أن 14 ناقلة نفت إيرانية تخطط لتحدي الحصار البحري الذي تفرضه الولايات المتحدة، مما يرفع التوترات الجيوسياسية.",
+     "ru": "Сообщается, что 14 иранских нефтяных танкеров планируют бросить вызов морской блокаде США, усиливая геополитическую напряженность."
+    }
    }
   ],
-  "last_update": 1795408498
+  "last_update": 1795412931
  },
  {
   "ts": 1795375651,
@@ -42891,5 +42664,206 @@
    }
   ],
   "id": "9d4361f8778a"
+ },
+ {
+  "ts": 1795412931,
+  "time": "2026-11-23T05:48Z",
+  "title": "מחירי הנחושת צונחים לשפל חדש על רקע מימוש רווחים במגזר הבינה המלאכותית",
+  "summary": "מחירי הנחושת צללו ב-9% בתוך שבוע ונפלו מתחת ל-12,000 דולר בטון בלונדון, לרמתם הנמוכה ביותר מאז מרץ, על רקע ירידה בביקוש להשקעות בתחום הבינה המלאכותית.",
+  "kid": "מחירי הנחושת, מתכת שמשמשת למוצרי טכנולוגיה ותשתיות, נפלו חזק כי משקיעים מוכרים מניות טכנולוגיה ובינה מלאכותית. זה יכול לגרום למניות של חברות כרייה גדולות לרדת.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנחושת צונחים לשפל חדש על רקע מימוש רווחים במגזר הבינה המלאכותית",
+    "en": "Copper Prices Plunge to Multi-Month Lows Amid AI Sector Sell-Off",
+    "ar": "أسعار النحاس تهبط إلى أدنى مستوياتها وسط عمليات بيع في قطاع الذكاء الاصطناعي",
+    "ru": "Цены на медь падают до многомесячных минимумов на фоне распродаж в секторе ИИ"
+   },
+   "summary": {
+    "he": "מחירי הנחושת צללו ב-9% בתוך שבוע ונפלו מתחת ל-12,000 דולר בטון בלונדון, לרמתם הנמוכה ביותר מאז מרץ, על רקע ירידה בביקוש להשקעות בתחום הבינה המלאכותית.",
+    "en": "Copper prices plummeted 9% in a week, falling below $12,000 a ton in London to their lowest level since March, driven by ebbing appetite for AI sector investments.",
+    "ar": "هوت أسعار النحاس بنسبة 9% في أسبوع لتنخفض دون 12 ألف دولار للطن في لندن إلى أدنى مستوياتها منذ مارس، مدفوعة بتراجع الشهية للاستثمار في قطاع الذكاء الاصطناعي.",
+    "ru": "Цены на медь рухнули на 9% за неделю, опустившись ниже $12 000 за тонну в Лондоне до минимумов с марта на фоне снижения аппетита к инвестициям в ИИ."
+   },
+   "kid": {
+    "he": "מחירי הנחושת, מתכת שמשמשת למוצרי טכנולוגיה ותשתיות, נפלו חזק כי משקיעים מוכרים מניות טכנולוגיה ובינה מלאכותית. זה יכול לגרום למניות של חברות כרייה גדולות לרדת.",
+    "en": "Copper prices dropped sharply because investors are selling technology and AI investments. This can make the stock prices of major mining companies go down.",
+    "ar": "הخفضت أسعار النحاس بشكل حاد لأن المستثمرين يبيعون استثمارات التكنولوجيا والذكاء الاصطناعي. هذا يمكن أن يجعل أسهم شركات التعدين الكبرى تنخفض.",
+    "ru": "Цены на медь резко упали, так как инвесторы распродают технологические активы и ИИ. Это может привести к падению акций крупных горнодобывающих компаний."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN3BsOGZVZ0NuLVY3Z2g1NVJGN3YyaGtiWnF3LS1lZlRYZnc5bHNWVnJJcURzZHhXS0dpOEM4bEhHWEFZMzdYNHhKa2pxcmpFNmNuNHdSVVhjQllKbDZSUjRadnNxbVU0bGxoeW41YnlXdm5xNVAxVHY5aWs5Um9WVmEtUGhPTF9NWHFsWWtsb2dta0xNODk1cGt3?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX3E2cEdUMGUxYmhEYzc3TldLalV3dDJnbV9MSl9zS2xfZFhYU1JJS1ZzMlZvR29YN0lCYVFjUE5JVDZLRjE1ZXdaRjNyeTNhdG96N3o1YkdtREFoakdrXzR2ZmUwSlFIQ0hIOGpCQk1yX2t2MFprM2c1cXZFaF9NaWFpY0VCcHJNZ3Z4SGpNMFhRQk10VDZLU2hLSFB0TnFOcUFuck5mSUFMaUgzYm5rYnJrYU1XWE1vU2NOSXB4dmZ6UkNIU2dfX0NEWTZYWXpI?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hRWQ3aXdnNGxFRzFiRnRhcEhPdGhXRGxfVHQ1RkVDb3VxbDRVNm0wQWQtZlNsNTN3MGVwMWJmd2w2eXIyek84aEVMaE5kQmkw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FCX",
+    "direction": "down",
+    "t0": 1795412931,
+    "reason": "ירידה חדה במחירי הנחושת פוגעת ברווחיות החברה.",
+    "reason_i18n": {
+     "he": "ירידה חדה במחירי הנחושת פוגעת ברווחיות החברה.",
+     "en": "A sharp drop in copper prices hurts the company's profitability.",
+     "ar": "الهبوط الحاد في أسعار النحاس يضر بربحية الشركة.",
+     "ru": "Резкое падение цен на медь бьет по рентабельности компании."
+    },
+    "name_i18n": {
+     "he": "ฟรีפורט מקמורן – חברת כריית נחושת ענקית",
+     "en": "Freeport-McMoRan – a major copper mining company",
+     "ar": "فريبورت-ماكموران - شركة عملاقة لتعدين النحاس",
+     "ru": "Freeport-McMoRan — крупная горнодобывающая компания"
+    },
+    "price_at_alert": 45.99
+   },
+   {
+    "ticker": "BHP",
+    "direction": "down",
+    "t0": 1795412931,
+    "reason": "מחירי הנחושת הנמוכים פוגעים בסקטור הכרייה.",
+    "reason_i18n": {
+     "he": "מחירי הנחושת הנמוכים פוגעים בסקטור הכרייה.",
+     "en": "Lower copper prices weigh on the mining sector.",
+     "ar": "أسعار النحاس المنخفضة تثقل كاهل قطاع التعدين.",
+     "ru": "Низкие цены на медь давят на горнодобывающий сектор."
+    },
+    "name_i18n": {
+     "he": "בי إتش بي – ענקית כרכרייה עולמית",
+     "en": "BHP Group – a global mining giant",
+     "ar": "بي إتش بي - عملاق التعدين العالمي",
+     "ru": "BHP Group — мировой горнодобывающий гигант"
+    },
+    "price_at_alert": 67.18
+   }
+  ],
+  "id": "3dead0b2633d"
+ },
+ {
+  "ts": 1795412931,
+  "time": "2026-11-23T05:48Z",
+  "title": "ארה\"ב פותחת בחקירה נגד מגה-ספיד ואליס הואנג בפרשת שבבי אנבידיה",
+  "summary": "רשויות האכיפה בארה\"ב פתחו בחקירה נגד חברת Megaspeed ואליס הואנג, לאחר שהתברר ששכיר חרב לשעבר היה מעורב בפעילות החברה הקשורה לשבבי אנבידיה.",
+  "kid": "הממשל בארה\"ב בודק אם חברות מסוימות הפרו את הכללים והעבירו שבבי מחשב מתקדמים של אנבידיה למי שאסור לו לקבל אותם. זה עשוי להטיל לחץ קל על מניית אנבידיה בשל חשש מפיקוח הדוק יותר.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב פותחת בחקירה נגד מגה-ספיד ואליס הואנג בפרשת שבבי אנבידיה",
+    "en": "U.S. Probes Megaspeed and Alice Huang in Nvidia Chip Case",
+    "ar": "الولايات المتحدة تحقق مع مეგاسبيد وأليس هوانغ في قضية رقائق إنفيديا",
+    "ru": "США начали расследование в отношении Megaspeed и Элис Хуанг по делу о чипах Nvidia"
+   },
+   "summary": {
+    "he": "רשויות האכיפה בארה\"ב פתחו בחקירה נגד חברת Megaspeed ואליס הואנג, לאחר שהתברר ששכיר חרב לשעבר היה מעורב בפעילות החברה הקשורה לשבבי אנבידיה.",
+    "en": "U.S. authorities launched an investigation into Megaspeed and Alice Huang after it emerged that a former associate was deeply involved in the firm's activities regarding Nvidia chips.",
+    "ar": "بدأت السلطات الأمريكية تحقيقاً مع شركة مეგاسبيد وأليس هوانغ بعد تبين تورط شريك سابق بعمق في أنشطة الشركة المتعلقة برقائق إنفيديا.",
+    "ru": "Власти США начали расследование против Megaspeed и Элис Хуанг после того, как выяснилось, что бывший партнер был глубоко вовлечен в деятельность фирмы с чипами Nvidia."
+   },
+   "kid": {
+    "he": "הממשל בארה\"ב בודק אם חברות מסוימות הפרו את הכללים והעבירו שבבי מחשב מתקדמים של אנבידיה למי שאסור לו לקבל אותם. זה עשוי להטיל לחץ קל על מניית אנבידיה בשל חשש מפיקוח הדוק יותר.",
+    "en": "The U.S. government is investigating if certain companies violated rules by transferring advanced Nvidia chips illicitly. This could put slight pressure on Nvidia due to strict oversight concerns.",
+    "ar": "تحقق الحكومة الأمريكية فيما إذا كانت شركات معينة قد انتهكت القواعد بنقل رقائق إنفيديا المتقدمة بشكل غير قانوني. قد يضغط ذلك قليلاً على أسهم إنفيديا.",
+    "ru": "Правительство США проверяет, нарушали ли компании правила поставок передовых чипов Nvidia. Это может оказать легкое давление на акции Nvidia из-за надзора."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795412931,
+    "reason": "בדיקות רגולטוריות חדשות סביב הברחת שבבים עלולות להגביר את החששות מפיקוח מחמיר.",
+    "reason_i18n": {
+     "he": "בדיקות רגולטוריות חדשות סביב הברחת שבבים עלולות להגביר את החששות מפיקוח מחמיר.",
+     "en": "New regulatory probes over chip routing could heighten compliance fears.",
+     "ar": "تحقيقات تنظيمية جديدة بشأن توجيه الرقائق قد تزيد المخاوف الرقابية.",
+     "ru": "Новые регуляторные проверки могут усилить опасения по поводу контроля."
+    },
+    "name_i18n": {
+     "he": "אנבידיה – יצרנית שבבי בינה מלאכותית מובילה",
+     "en": "Nvidia – leading AI chipmaker",
+     "ar": "إنفيديا - الشركة الرائدة في تصنيع رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia — ведущий производитель ИИ-чипов"
+    },
+    "price_at_alert": 125.53
+   }
+  ],
+  "id": "e05ddbfe515f"
+ },
+ {
+  "ts": 1795412931,
+  "time": "2026-11-23T05:48Z",
+  "title": "פריצת סאב-סיסטמס: נתוני עובדים של חברת IT דלפו עקב מתקפה על משרד עורכים דין",
+  "summary": "חברת שירותי ה-IT Persistent Systems הודיעה כי סבירות גבוהה שנתוני עובדים שלה נגנבו במסגרת מתקפת סייבר שפגעה במשרד עורכים דין אמריקאי שמספק לה שירותים.",
+  "kid": "האקרים פרצו למשרד עורכים דין שקשור לחברת טכנולוגיה, וגנבו מידע על עובדים. זה מזכיר לכולם שסיכוני אבטחת מידע עדיין גבוהים עבור חברות טכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "פריצת סאב-סיסטמס: נתוני עובדים של חברת IT דלפו עקב מתקפה על משרד עורכים דין",
+    "en": "Persistent Systems Data Breach: Employee Data Likely Stolen via US Law Firm Attack",
+    "ar": "اختراق بيرسيسانت سستمز: احتمال سرقة بيانات الموظفين عبر هجوم على مكتب محاماة أمريكي",
+    "ru": "Утечка в Persistent Systems: данные сотрудников похищены через атаку на юрфирму США"
+   },
+   "summary": {
+    "he": "חברת שירותי ה-IT Persistent Systems הודיעה כי סבירות גבוהה שנתוני עובדים שלה נגנבו במסגרת מתקפת סייבר שפגעה במשרד עורכים דין אמריקאי שמספק לה שירותים.",
+    "en": "IT services firm Persistent Systems stated that employee data was likely stolen in a cyberattack targeting a U.S. law firm serving as its vendor.",
+    "ar": "أعلنت شركة خدمات تكنولوجيا المعلومات بيرسيسانت سستمز أنه يُرجح سرقة بيانات موظفيها في هجوم سيبراني استهدف مكتب محاماة أمريكياً يتعامل معها.",
+    "ru": "Компания Persistent Systems сообщила, что данные ее сотрудников, вероятно, были похищены в результате кибератаки на американскую юридическую фирму."
+   },
+   "kid": {
+    "he": "האקרים פרצו למשרד עורכים דין שקשור לחברת טכנולוגיה, וגנבו מידע על עובדים. זה מזכיר לכולם שסיכוני אבטחת מידע עדיין גבוהים עבור חברות טכנולוגיה.",
+    "en": "Hackers breached a law firm linked to a tech company and stole employee data. This highlights ongoing cybersecurity risks for technology firms.",
+    "ar": "اخترق قراصنة مكتب محاماة مرتبطة بشركة تكنولوجيا وسرقوا بيانات موظفين. هذا يسلط الضوء على مخاطر الأمن السيبراني المستمرة.",
+    "ru": "Хакеры взломали юрфирму, связанную с техкомпанией, и похитили данные. Это подчеркивает сохраняющиеся риски кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWmNOdnQzdE94RVl0dDBpNi1YMDViSE9kZjNxWHJuSnpGMkRvRjVJaVVaTHlTNmk5bm05NEg1U29fMlVOTG9qRTRuRlNXTnZJdjYwUVJIajU1S0txSjBTS096TmFCbnJ5MUJRY2VnZWxxakhXbXpCS3lVSThTNXkwQkdWWm1DQVV0U3RZeHVWUS13NFk4cTAtcnBPWDdzWnFRQzI4cnBXUkdZZWF0cnI2S2xNbUhQRHdCMEdrem9XRHM5d0w5aklOR0J4a0ppUXMtS1pXVkloU0VhOWtkU3ZXVVBQeWdKX3BvMDQxZ9IB9AFBVV95cUxQR3VuX0F3U1puNTBoRjNzdkdPYnJFN3BCd0Noams4Y1h1SEhtYXE0djFNMXR1VEM4UEFNRkhXVkRUVkY2UmNiVHVURE9OcmdaWlAtWDNJQjVQNUtNQTJhc2tjdkpPU1N3dGhiNnF2dThKRl8wY2JOdVNBTllfaUEySWhKT2JGQndxVVRWX2lGNWhwOWFCWG1LdTZwLWlScFBtendFaXpPQW1McUx5LWVZRVIxdnhKcktOU3BlQVRMNE01dXJTOWoyNE5rNjNMLXh5bDhFOWY5R002cnl5d0RXTnpIdFZWN3F0SUhzUlo0RWZsUEg1?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795412931,
+    "reason": "אירועי פריצה חוזרים מדגישים את הצורך בפתרונות אבטחה מתקדמים ומגדילים את הביקוש.",
+    "reason_i18n": {
+     "he": "אירועי פריצה חוזרים מדגישים את הצורך בפתרונות אבטחה מתקדמים ומגדילים את הביקוש.",
+     "en": "Repeated breach incidents highlight the need for advanced security solutions.",
+     "ar": "حوادث الاختراق المتكررة تسلط الضوء على الحاجة لحلول أمان متقدمة.",
+     "ru": "Повторяющиеся инциденты подчеркивают спрос на средства защиты."
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר מובילה",
+     "en": "CrowdStrike – leading cybersecurity firm",
+     "ar": "كراودسترايك - شركة رائدة في الأمن السيبراني",
+     "ru": "CrowdStrike — ведущая компания по кибербезопасности"
+    },
+    "price_at_alert": 229.44
+   }
+  ],
+  "id": "8676b27331b6"
  }
 ]
