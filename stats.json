@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-23T12:13Z",
+ "generated": "2026-11-23T18:40Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1394,
+ "total_alerts": 1399,
  "overall": {
-  "n": 929,
-  "hits": 466,
-  "avg_edge": 0.07
+  "n": 930,
+  "hits": 467,
+  "avg_edge": 0.08
  },
  "by_category": {
   "climate": {
@@ -29,9 +29,9 @@
    "avg_edge": -0.2
   },
   "geopolitics": {
-   "n": 149,
-   "hits": 79,
-   "avg_edge": 0.52
+   "n": 150,
+   "hits": 80,
+   "avg_edge": 0.55
   },
   "health": {
    "n": 41,
@@ -61,8 +61,8 @@
    "avg_edge": -0.4
   },
   "4-5": {
-   "n": 442,
-   "hits": 227,
+   "n": 443,
+   "hits": 228,
    "avg_edge": 0.08
   },
   "6-7": {
@@ -78,26 +78,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 149,
+   "mentions": 151,
    "n": 133,
    "hits": 69,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "קרן סל למחירי הנפט הגולמי",
+    "en": "United States Oil Fund",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "Фонд нефтяных фьючерсов"
    },
    "avg_edge": 0.01
   },
   "XLE": {
-   "mentions": 137,
+   "mentions": 138,
    "n": 113,
    "hits": 66,
    "name": {
-    "he": "מדד אנרגיה – מניות נפט וגז",
-    "en": "Energy ETF - oil & gas stocks",
-    "ar": "صندوق قطاع الطاقة - أسهم النفط والغاز",
-    "ru": "Энергетический ETF - акции нефти и газа"
+    "he": "מגזר האנרגיה בארה\"ב",
+    "en": "Energy Select Sector SPDR Fund",
+    "ar": "صندوق قطاع الطاقة الأمريكي",
+    "ru": "Фонд энергетического сектора США"
    },
    "avg_edge": -0.03
   },
@@ -126,14 +126,14 @@
    "avg_edge": -0.22
   },
   "ZIM": {
-   "mentions": 54,
+   "mentions": 55,
    "n": 45,
    "hits": 28,
    "name": {
-    "he": "ZIM - חברת ספנות",
-    "en": "ZIM - Shipping Company",
-    "ar": "ZIM - شركة شحن",
-    "ru": "ZIM - Судоходная компания"
+    "he": "צים - חברת ספנות בינלאומית",
+    "en": "ZIM Integrated Shipping Services",
+    "ar": "شركة زيم للشحن البحري",
+    "ru": "Судоходная компания ZIM"
    },
    "avg_edge": 0.84
   },
@@ -175,15 +175,15 @@
   },
   "ESLT.TA": {
    "mentions": 13,
-   "n": 10,
-   "hits": 5,
+   "n": 11,
+   "hits": 6,
    "name": {
     "he": "אלביט מערכות (בורסת תל אביב)",
     "en": "Elbit Systems (TASE)",
     "ar": "إلبيت سيستمز (بورصة تل أبيب)",
     "ru": "Elbit Systems (ТАФР)"
    },
-   "avg_edge": -0.48
+   "avg_edge": -0.09
   },
   "ESLT": {
    "mentions": 32,
@@ -354,14 +354,14 @@
    "avg_edge": -0.71
   },
   "QQQ": {
-   "mentions": 84,
+   "mentions": 85,
    "n": 72,
    "hits": 26,
    "name": {
-    "he": "קרן סל נאסד\"ק 100",
-    "en": "Nasdaq 100 ETF",
-    "ar": "صندوق ناسداك 100",
-    "ru": "ETF Nasdaq 100"
+    "he": "קוין-וס - קרן סל של מדד נאסד\"ק 100",
+    "en": "Invesco QQQ Trust",
+    "ar": "صندوق مؤشر ناسداك 100",
+    "ru": "Фонд индекса Nasdaq 100"
    },
    "avg_edge": -0.22
   },
@@ -438,14 +438,14 @@
    "avg_edge": -1.01
   },
   "FDX": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 29,
    "hits": 20,
    "name": {
-    "he": "פדקס - חברת שילוח בינלאומית",
+    "he": "פדקס - חברת שילוח ולוגיסטיקה",
     "en": "FedEx Corporation",
-    "ar": "شركةفيدكس للشحن",
-    "ru": "FedEx - международная служба доставки"
+    "ar": "شركةفيديكس للشحن",
+    "ru": "Логистическая компания FedEx"
    },
    "avg_edge": 0.43
   },
@@ -534,14 +534,14 @@
    "avg_edge": -0.97
   },
   "VGK": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 30,
    "hits": 12,
    "name": {
-    "he": "קרן סל אירופה",
-    "en": "Europe ETF",
-    "ar": "صندوق الاستثمار المتداول لأوروبا",
-    "ru": "ETF на европейский рынок"
+    "he": "ונגארד - קרן סל המניות באירופה",
+    "en": "Vanguard FTSE Europe ETF",
+    "ar": "صندوق استثمار الأسهم الأوروبية",
+    "ru": "Фонд акций европейских компаний"
    },
    "avg_edge": -0.24
   },

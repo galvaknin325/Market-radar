@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T12:13Z",
+ "generated": "2026-11-23T18:40Z",
  "trade_size": 1000,
  "important": {
   "trades": 335,
@@ -692,11 +692,11 @@
   ]
  },
  "all": {
-  "trades": 929,
-  "wins": 469,
-  "hits": 466,
-  "pnl": 843.3,
-  "bench_pnl": -10045.3,
+  "trades": 930,
+  "wins": 470,
+  "hits": 467,
+  "pnl": 875.3,
+  "bench_pnl": -10038.6,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -806,9 +806,33 @@
     "date": "2026-11-20",
     "equity": 843.3,
     "bench": -10045.3
+   },
+   {
+    "date": "2026-11-23",
+    "equity": 875.3,
+    "bench": -10038.6
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-23",
+    "ticker": "ESLT.TA",
+    "dir": "down",
+    "severity": 5,
+    "cat": "geopolitics",
+    "id": "74b13eb20257",
+    "title": "בריטניה ואוסטרליה מטילות סנקציות על ישראל; מדינות ערב ואפריקה מביעות תמיכה",
+    "title_i18n": {
+     "he": "בריטניה ואוסטרליה מטילות סנקציות על ישראל; מדינות ערב ואפריקה מביעות תמיכה",
+     "en": "UK and Australia Impose Sanctions on Israel Over Settlements",
+     "ar": "بريطانيا وأستراليا تفرضان عقوبات على إسرائيل بسبب المستوطنات",
+     "ru": "Великобритания и Австралия вводят санкции против Израиля из-за поселений"
+    },
+    "change_pct": -3.2,
+    "hit": true,
+    "pnl": 32.0,
+    "bench_pnl": 6.7
+   },
    {
     "date": "2026-11-20",
     "ticker": "XOM",
@@ -1358,25 +1382,6 @@
     "change_pct": -2.47,
     "hit": true,
     "pnl": -24.7,
-    "bench_pnl": -63.1
-   },
-   {
-    "date": "2026-11-20",
-    "ticker": "KSA",
-    "dir": "up",
-    "severity": 3,
-    "cat": "contracts",
-    "id": "58993a0a1f37",
-    "title": "חברת GAS חותמת על חוזה צינור גז בערב הסעודית",
-    "title_i18n": {
-     "he": "חברת GAS חותמת על חוזה צינור גז בערב הסעודית",
-     "en": "GAS signs gas pipeline contract in Saudi Arabia",
-     "ar": "GAS توقع عقد خط أنابيب غاز في السعودية",
-     "ru": "GAS подписывает контракт на газопровод в Саудовской Аравии"
-    },
-    "change_pct": -1.41,
-    "hit": true,
-    "pnl": -14.1,
     "bench_pnl": -63.1
    }
   ]
