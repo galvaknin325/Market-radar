@@ -1,248 +1,5 @@
 [
  {
-  "ts": 1794577463,
-  "time": "2026-11-13T13:44Z",
-  "title": "עודף היצע בשוק הנפט העולמי",
-  "summary": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט העולמי עולה על הביקוש לראשונה מאז תחילת המלחמה באיראן, עם צפי לעודף של 1.7 מיליון חביות ביום.",
-  "kid": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים. כשיש הרבה נפט, המחיר שלו בדרך כלל יורד.",
-  "i18n": {
-   "title": {
-    "he": "עודף היצע בשוק הנפט העולמי",
-    "en": "Global Oil Supply Surplus",
-    "ar": "فائض في إمدادات النفط العالمية",
-    "ru": "Избыток предложения на мировом рынке нефти"
-   },
-   "summary": {
-    "he": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט העולמי עולה על הביקוש לראשונה מאז תחילת המלחמה באיראן, עם צפי לעודף של 1.7 מיליון חביות ביום.",
-    "en": "The IEA reports that global oil supply is exceeding demand for the first time since the start of the Iran war, with a projected surplus of 1.7 million barrels per day.",
-    "ar": "أفادت وكالة الطاقة الدولية أن إمدادات النفط العالمية تتجاوز الطلب لأول مرة منذ بداية الحرب في إيران، مع توقعات بفائض قدره 1.7 مليون برميل يومياً.",
-    "ru": "МЭА сообщает, что мировое предложение нефти превышает спрос впервые с начала войны в Иране, с прогнозируемым избытком в 1,7 млн баррелей в сутки."
-   },
-   "kid": {
-    "he": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים. כשיש הרבה נפט, המחיר שלו בדרך כלל יורד.",
-    "en": "There is too much oil in the world compared to what people need. When there is a lot of oil, the price usually goes down.",
-    "ar": "هناك الكثير من النفط في العالم مقارنة بما يحتاجه الناس. عندما يكون هناك الكثير من النفط، ينخفض سعره عادةً.",
-    "ru": "В мире слишком много нефти по сравнению с тем, что нужно людям. Когда нефти много, цена на нее обычно падает."
-   }
-  },
-  "category": "commodities",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc1pQWldJNV9iYmpNNU8xSl9rSm1VcDA1aXdkNllocndTamt3T0kwaUhQb3JvUW9KdzBtQ0pfM0ZveGs2UzdWOWgxcC1EdV9Ball5NDFWZjdmcDJRUDI4Yml3anIybFNadUF3TzlBejlQT2t4SnhjbXBBM2ZpQ1JfSFZyZENuckdjQ1IyUmtqY0FPT3VUanJxWmtmc004R0xYMlNiR1Yyd0dXMGlWblVUQnlZWlFZa3FfZ1VnU01BMEwyQVZjTFh1N3phOXU5U2lJSWtQUENYRkpneEXSAeIBQVVfeXFMUC1Vak5vWkF5bHpQeEthYWw0cGhRR0VMc3dqMzA2ZkFzdUM4SnZ3YWRyWlVrTm14TWNuSWZPSmdpbU9Dd0RNUWtmRTdSSGZ2WFRYMlpmX3RfM0t4eVVsRnpxNThJbGZ0VzcxX0lhX2ZOWmwxeEpBVURRT1FJVVJ2d25mZ3RleDNHYWNzRTRwa040dDVrZGJpbmJzVHdyVmhfdWJkYTk1dHBEaUp1VkxPTkt6am5rZll6M293OWlxMUZRRE1ndkQweVl0bmlVSm1iZG5QV09HVXZCYVdiYW9xYkg3dw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1pMTDZIVlBKdzhycHpCWmVGdmpRTWZCMzg0XzJxOUJ1X1ZueWk0MDM3VGlJYlRjMVFSb2NGOW5sUVVveURXYWZoUEhjdklneEhaUGs2Rnp4Mm94RjVCRHE5TjZxMThMcG95dUxXdEQ3SkE2UzZGeFV0ampKX3NSbG1MYVV6b3l2SW05NmNtbWJtcWxKVEFOMTNLS0dXWGJCRGdMSWtNUGc?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONzBLbnJRVVduVHFGM3FCMUl4ODNobWRaWFNiQmYtM05kaTZOMlI3Xzd1ZGVZc1pRTXpOQXUtZ2xLWlpRLVZvNWtYeG5vUXNrSnJvZ3NQNzlsNEpPVnE5QWI3STBJbUNEOE1NQWVkUjVQOWFyTS1LcWFuSVA0Mi1NdGU4d3h4SF9VU2g2S19zV21FdG9IUUxnTXg3UDhMSUw4Z1FhcUJGb2Q5QWhTdzdHRHFRYmJDclJZQ3g0bzRFbTdLYjFmQUNKYmJwYVFTdw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaWdYOVNkUjBmeXVkTWVpOHdZQkd4WWZ4TFFlYnVWUm5yM1IzQnplWGs5SDdVZHIxV3J2QlJKLTM0STFuOUl4VVJEU1c2anVkQmNVcXp0NkhvcjlOUU5Ja0RnSkhJT2NSMU1OZHIzSlBPd3prTmYwY20xMHdPVC1OMVRQOEhjVnhqSUVFejRiM0FxVDVCbDVzS21vRGhTLXUzb01McnAwMnNtLTh1dDJfUWR5SzQ2Rm5BR0ZLb0xKVQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXVnbXhqTFJXbzU0ZWtCeU95S19uSXktcW1iRm1MUTRJalM1TTdESGxCdWd1SVFNOWJaR0VfY2pFa19ZQ21GRDFrQldhLWRCRm5BOGQzZWVLN2pVbmtJY0JRSTRQX3QxYVBPSk1aV1BHeHMyMjRzLWxiU182NFE4ck12VjlMSndKaXJLZnNPUExDcUsyR2lCbFY4WjJ2LVFKcUs4bnkzTlgtS1FPMlVYWHR3NlFzQQ?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794577463,
-    "reason": "עודף היצע לוחץ על מחירי הנפט כלפי מטה.",
-    "reason_i18n": {
-     "he": "עודף היצע לוחץ על מחירי הנפט כלפי מטה.",
-     "en": "Supply surplus puts downward pressure on oil prices.",
-     "ar": "فائض العرض يضغط على أسعار النفط نحو الانخفاض.",
-     "ru": "Избыток предложения оказывает понижательное давление на цены на нефть."
-    },
-    "name_i18n": {
-     "he": "תעודת סל נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق النفط المتداول",
-     "ru": "ETF на нефть"
-    },
-    "price_at_alert": 146.07,
-    "entry_price": 146.69,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 140.06,
-    "exit_date": "2026-11-16",
-    "change_pct": -4.52,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -2.03,
-    "edge_pct": 2.03,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "down",
-    "t0": 1794577463,
-    "reason": "ירידה במחירי הנפט פוגעת ברווחי חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "ירידה במחירי הנפט פוגעת ברווחי חברות האנרגיה.",
-     "en": "Falling oil prices hurt energy company profits.",
-     "ar": "انخفاض أسعار النفط يضر بأرباح شركات الطاقة.",
-     "ru": "Падение цен на нефть снижает прибыль энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל",
-     "en": "Exxon Mobil",
-     "ar": "إكسون موبيل",
-     "ru": "Exxon Mobil"
-    },
-    "price_at_alert": 169.78,
-    "entry_price": 171.43,
-    "entry_time": "2026-11-13T14:30+00:00",
-    "exit_price": 166.975,
-    "exit_date": "2026-11-16",
-    "change_pct": -2.6,
-    "bench": "SPY",
-    "bench_change_pct": -2.49,
-    "excess_pct": -0.11,
-    "edge_pct": 0.11,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794587270,
-    "reason": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה.",
-     "en": "Falling oil prices hurt the profitability of energy companies.",
-     "ar": "انخفاض أسعار النفط يضر بربحية شركات الطاقة.",
-     "ru": "Падение цен на нефть снижает прибыльность энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "מגזר האנרגיה",
-     "en": "Energy Sector",
-     "ar": "قطاع الطاقة",
-     "ru": "Энергетический сектор"
-    },
-    "price_at_alert": 64.53,
-    "entry_price": 64.47,
-    "entry_time": "2026-11-13T16:30+00:00",
-    "exit_price": 63.715,
-    "exit_date": "2026-11-16",
-    "change_pct": -1.17,
-    "bench": "SPY",
-    "bench_change_pct": -1.44,
-    "excess_pct": 0.27,
-    "edge_pct": -0.27,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "CVX",
-    "direction": "down",
-    "t0": 1794766009,
-    "reason": "ירידת מחירי הנפט פוגעת בהכנסות החברה",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט פוגעת בהכנסות החברה",
-     "en": "Declining oil prices hurt company revenues",
-     "ar": "تراجع أسعار النفط يضر بإيرادات الشركة",
-     "ru": "Падение цен на нефть вредит выручке компании"
-    },
-    "name_i18n": {
-     "he": "שברון - חברת אנרגיה",
-     "en": "Chevron - an energy company",
-     "ar": "شيفرون - شركة طاقة",
-     "ru": "Chevron - энергетическая компания"
-    },
-    "price_at_alert": 219.89,
-    "entry_price": 219.53,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 216.29,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.48,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.83,
-    "edge_pct": -0.83,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "506fad65c873",
-  "updates": [
-   {
-    "ts": 1794587270,
-    "time": "2026-11-13T16:27Z",
-    "severity": 6,
-    "summary": "סוכנות האנרגיה הבינלאומית (IEA) צופה כי היצע הנפט העולמי יעלה על הביקוש ברבעון הרביעי של השנה.",
-    "i18n": {
-     "he": "סוכנות האנרגיה הבינלאומית (IEA) צופה כי היצע הנפט העולמי יעלה על הביקוש ברבעון הרביעי של השנה.",
-     "en": "The International Energy Agency (IEA) forecasts that global oil supply will exceed demand in the fourth quarter of the year.",
-     "ar": "تتوقع وكالة الطاقة الدولية أن يتجاوز إمدادات النفط العالمية الطلب في الربع الرابع من العام.",
-     "ru": "Международное энергетическое агентство (МЭА) прогнозирует, что мировое предложение нефти превысит спрос в четвертом квартале года."
-    }
-   },
-   {
-    "ts": 1794633813,
-    "time": "2026-11-14T05:23Z",
-    "severity": 5,
-    "summary": "נתוני אופ\"ק לחודש אוקטובר הראו כי מחיר הנפט הכבד האיראני עבר את ה-104 דולר, אך סוכנות האנרגיה הבינלאומית (IEA) ציינה כי אספקת הנפט העולמית חזרה לרמת עודף לראשונה מאז מלחמת אيران.",
-    "i18n": {
-     "he": "נתוני אופ\"ק לחודש אוקטובר הראו כי מחיר הנפט הכבד האיראני עבר את ה-104 דולר, אך סוכנות האנרגיה הבינלאומית (IEA) ציינה כי אספקת הנפט העולמית חזרה לרמת עודף לראשונה מאז מלחמת אيران.",
-     "en": "OPEC data for October showed Iranian heavy oil priced above $104, while the IEA reported that global oil supply has returned to a surplus for the first time since the Iran war.",
-     "ar": "أظهرت بيانات أوبك لشهر أكتوبر أن سعر النفط الثقيل الإيراني تجاوز 104 دولار، بينما أفادت وكالة الطاقة الدولية أن إمدادات النفط العالمية عادت إلى وضع الفائض.",
-     "ru": "Данные ОПЕК за октябрь показали, что тяжелая иранская нефть стоила выше $104, в то время как МЭА сообщило о возвращении профицита мировых поставок нефти впервые после войны с Ираном."
-    }
-   },
-   {
-    "ts": 1794654035,
-    "time": "2026-11-14T11:00Z",
-    "severity": 6,
-    "summary": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט עוקף את הביקוש, כאשר מחירי ה-North Sea Dated ירדו ב-32% ל-93 דולר.",
-    "i18n": {
-     "he": "סוכנות האנרגיה הבינלאומית (IEA) מדווחת כי היצע הנפט עוקף את הביקוש, כאשר מחירי ה-North Sea Dated ירדו ב-32% ל-93 דולר.",
-     "en": "The IEA reports that oil supply is overtaking demand as North Sea Dated crude prices fell 32% to $93.",
-     "ar": "تقارير وكالة الطاقة الدولية أن إمدادات النفط تتجاوز الطلب مع انخفاض أسعار خام برنت القياسي بنسبة 32% إلى 93 دولاراً.",
-     "ru": "МЭА сообщает, что предложение нефти опережает спрос, так как цены на нефть марки North Sea Dated упали на 32% до $93."
-    }
-   },
-   {
-    "ts": 1794766009,
-    "time": "2026-11-15T18:06Z",
-    "severity": 6,
-    "summary": "סוכנות האנרגיה הבינלאומית (IEA) מעריכה כי היצע הנפט העולמי יעלה על הביקוש במהלך הרבעון הרביעי, נתון העשוי להפעיל לחץ כלפי מטה על מחירי האנרגיה.",
-    "i18n": {
-     "he": "סוכנות האנרגיה הבינלאומית (IEA) מעריכה כי היצע הנפט העולמי יעלה על הביקוש במהלך הרבעון הרביעי, נתון העשוי להפעיל לחץ כלפי מטה על מחירי האנרגיה.",
-     "en": "The International Energy Agency (IEA) estimates that global oil supply will surpass demand in the fourth quarter, potentially putting downward pressure on energy prices.",
-     "ar": "تقدر وكالة الطاقة الدولية أن إمدادات النفط العالمية ستتجاوز الطلب في الربع الرابع، مما قد يضغط على أسعار الطاقة نزولاً.",
-     "ru": "Международное энергетическое агентство (МЭА) оценивает, что мировые поставки нефти превысят спрос в четвертом квартале, что может оказать давление на цены."
-    }
-   },
-   {
-    "ts": 1794858871,
-    "time": "2026-11-16T19:54Z",
-    "severity": 6,
-    "summary": "מחירי הנפט הגולמי בארה\"ב ירדו ל-85 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי והתאוששות בייצוא מהמזרח התיכון.",
-    "i18n": {
-     "he": "מחירי הנפט הגולמי בארה\"ב ירדו ל-85 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי והתאוששות בייצוא מהמזרח התיכון.",
-     "en": "US crude oil prices declined to $85 a barrel as forecasts project a surplus in oil in the fourth quarter and recovering exports from the Middle East.",
-     "ar": "انخفضت أسعار النفط الخام الأمريكي إلى 85 دولاراً للبرميل بسبب توقعات بوجود فائض في النفط في الربع الرابع وتعافي الصادرات من الشرق الأوسط.",
-     "ru": "Цены на сырую нефть в США упали до 85 долларов за баррель на фоне прогнозов избытка предложения в четвертом квартале и восстановления экспорта с Ближнего Востока."
-    }
-   }
-  ],
-  "last_update": 1794858871,
-  "evaluated": true
- },
- {
   "ts": 1794637334,
   "time": "2026-11-14T06:22Z",
   "title": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
@@ -2642,80 +2399,6 @@
    }
   ],
   "last_update": 1794891424,
-  "evaluated": true
- },
- {
-  "ts": 1794858871,
-  "time": "2026-11-16T19:54Z",
-  "title": "אלי לילי רוכשת את Calytrix Bio ב-1.5 מיליארד דולר",
-  "summary": "ענקית התרופות אלי לילי הודיעה על רכישת חברת הביוטכנולוגיה Calytrix Bio בעסקה המוערכת ב-1.5 מיליארד דולר.",
-  "kid": "אלי לילי קונה חברה קטנה יותר כדי להוסיף תרופות חדשות לסל המוצרים שלה. זה בדרך כלל עוזר למחיר המניה של החברה הנרכשת לעלות.",
-  "i18n": {
-   "title": {
-    "he": "אלי לילי רוכשת את Calytrix Bio ב-1.5 מיליארד דולר",
-    "en": "Eli Lilly to acquire Calytrix Bio for $1.5 billion",
-    "ar": "إيلي ليلي تستحوذ على Calytrix Bio مقابل 1.5 مليار دولار",
-    "ru": "Eli Lilly приобретает Calytrix Bio за 1,5 миллиарда долларов"
-   },
-   "summary": {
-    "he": "ענקית התרופות אלי לילי הודיעה על רכישת חברת הביוטכנולוגיה Calytrix Bio בעסקה המוערכת ב-1.5 מיליארד דולר.",
-    "en": "Pharmaceutical giant Eli Lilly announced the acquisition of biotechnology firm Calytrix Bio in a deal valued at up to $1.5 billion.",
-    "ar": "أعلنت شركة الأدوية العملاقة إيلي ليلي عن الاستحواذ على شركة التكنولوجيا الحيوية Calytrix Bio في صفقة تقدر قيمتها بـ 1.5 مليار دولار.",
-    "ru": "Фармацевтический гигант Eli Lilly объявил о приобретении биотехнологической компании Calytrix Bio в рамках сделки стоимостью до 1,5 миллиарда долларов."
-   },
-   "kid": {
-    "he": "אלי לילי קונה חברה קטנה יותר כדי להוסיף תרופות חדשות לסל המוצרים שלה. זה בדרך כלל עוזר למחיר המניה של החברה הנרכשת לעלות.",
-    "en": "Eli Lilly is buying a smaller company to get new medicines. Usually, this makes the stock price of the company being bought go up.",
-    "ar": "تقوم شركة إيلي ليلي بشراء شركة أصغر للحصول على أدوية جديدة. عادة ما يؤدي هذا إلى ارتفاع سعر سهم الشركة التي يتم شراؤها.",
-    "ru": "Eli Lilly покупает компанию поменьше, чтобы получить новые лекарства. Обычно это приводит к росту цены акций покупаемой компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFI5Mld4aHlCRnJ1MlM0MWtuWGJ4ZERtblc1dDZiR2htYV92NG5PV0cxVEVfUUh5QkkyRFlleDZxQzJ1VnZ0NzdVYW4yNE01NlBUdG84ZVpyVFQybklicHhDSU5aM0lxeUdZM3dCdFdPRmh0T045NjVBVERtVHd4eXQ3UzNqRFlpZmJmekRGQ3FqSndSRHNaRTY2WGc4eTdLd1NRVkExcXlaaUI1ZGx1ZFpB?oc=5"
-   },
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdnJPVWV6c0tiWWZodkx0Tmptd2FJMjdFTWlrc2FFcU43ODg0RHVjdUZjS2ppYlUtX2VKR1poakRzVUlQaEpleUhGWHBRdGp6eFVfSEdLOWpleTl3VEJOTkl1eEZQeVFmalFDZlVtTlp0VmxyYVA0RExqcC1laDVZODVyOVd4NnVYdXBvUzBuV25UQWFuWVRHSVczNmhPV0ZRSC12VWNhTnhEUzgwdXVlWHZ6dC11OGtRVy1zWEMxNW9fbmxB?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "LLY",
-    "direction": "up",
-    "t0": 1794858871,
-    "reason": "רכישה אסטרטגית להרחבת צנרת התרופות",
-    "reason_i18n": {
-     "he": "רכישה אסטרטגית להרחבת צנרת התרופות",
-     "en": "Strategic acquisition to expand drug pipeline",
-     "ar": "استحواذ استراتيجي لتوسيع خط إنتاج الأدوية",
-     "ru": "Стратегическое приобретение для расширения портфеля лекарств"
-    },
-    "name_i18n": {
-     "he": "אלי לילי - חברת תרופות גדולה",
-     "en": "Eli Lilly - a large pharmaceutical company",
-     "ar": "إيلي ليلي - شركة أدوية كبيرة",
-     "ru": "Eli Lilly - крупная фармацевтическая компания"
-    },
-    "price_at_alert": 1435.1899,
-    "entry_price": 1436.8,
-    "entry_time": "2026-11-16T20:30+00:00",
-    "exit_price": 1416.0601,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.44,
-    "bench": "SPY",
-    "bench_change_pct": -0.93,
-    "excess_pct": -0.51,
-    "edge_pct": -0.51,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "8e3d9f753161",
   "evaluated": true
  },
  {
@@ -42378,9 +42061,43 @@
      "ru": "CrowdStrike - компания по кибербезопасности"
     },
     "price_at_alert": 229.44
+   },
+   {
+    "ticker": "ZS",
+    "direction": "up",
+    "t0": 1795466148,
+    "reason": "מחיר הרכישה בדרך כלל גבוה ממחיר השוק הנוכחי.",
+    "reason_i18n": {
+     "he": "מחיר הרכישה בדרך כלל גבוה ממחיר השוק הנוכחי.",
+     "en": "The acquisition price is typically higher than the current market price.",
+     "ar": "عادة ما يكون سعر الاستحواذ أعلى من سعر السوق الحالي.",
+     "ru": "Цена поглощения обычно выше текущей рыночной цены."
+    },
+    "name_i18n": {
+     "he": "זסקיילר",
+     "en": "Zscaler",
+     "ar": "زيسكالر",
+     "ru": "Zscaler"
+    },
+    "price_at_alert": 228.8925
    }
   ],
-  "id": "91d4133bbe3d"
+  "id": "91d4133bbe3d",
+  "updates": [
+   {
+    "ts": 1795466148,
+    "time": "2026-11-23T20:35Z",
+    "severity": 8,
+    "summary": "חברת אבטחת הסייבר קראודסטרייק רוכשת את זסקיילר בעסקת ענק בשווי 44 מיליארד דולר על רקע עלייה באיומי הסייבר.",
+    "i18n": {
+     "he": "חברת אבטחת הסייבר קראודסטרייק רוכשת את זסקיילר בעסקת ענק בשווי 44 מיליארד דולר על רקע עלייה באיומי הסייבר.",
+     "en": "Cybersecurity firm CrowdStrike is acquiring Zscaler in a massive $44 billion deal amid rising cyber threats.",
+     "ar": "تستحوذ شركة الأمن السيبراني كراودسترايك على زيسكالر في صفقة ضخمة بقيمة 44 مليار دولار وسط تزايد التهديدات السيبرانية.",
+     "ru": "Фирма по кибербезопасности CrowdStrike приобретает Zscaler в рамках масштабной сделки на 44 миллиарда долларов на фоне растущих киберугроз."
+    }
+   }
+  ],
+  "last_update": 1795466148
  },
  {
   "ts": 1795435995,
@@ -42807,9 +42524,21 @@
      "ar": "وسعت الولايات المتحدة عقوبات تستهدف شبكات المصارف الظلية الإيرانية والشركات المرتبطة بها، بما في ذلك في الإمارات، وسط تصاعد التوتر حول مضيق هرمز. وقد رفضت إيران هذه الإجراءات وتعهدت بالرد.",
      "ru": "США расширили санкции против теневых банковских сетей Ирана и связанных компаний, в том числе в ОАЭ, на фоне эскалации напряженности в Ормузском проливе. Иран отверг эти меры и пообещал использовать все средства для противодействия."
     }
+   },
+   {
+    "ts": 1795466148,
+    "time": "2026-11-23T20:35Z",
+    "severity": 5,
+    "summary": "ארה\"ב הטילה סנקציות על עשרות חברות חלפנות וגופים הקשורים לרשתות בנקאות הצללים של איראן.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות על עשרות חברות חלפנות וגופים הקשורים לרשתות בנקאות הצללים של איראן.",
+     "en": "The US sanctioned dozens of exchange houses and entities linked to Iran's shadow banking networks.",
+     "ar": "فرضت الولايات المتحدة عقوبات على عشرات شركات الصرافة والكيانات المرتبطة بشبكات الصيرفة الظلية في إيران.",
+     "ru": "США ввели санкции против десятков обменных пунктов и организаций, связанных с теневыми банковскими сетями Ирана."
+    }
    }
   ],
-  "last_update": 1795463327
+  "last_update": 1795466148
  },
  {
   "ts": 1795459178,
@@ -42919,7 +42648,7 @@
    }
   },
   "category": "geopolitics",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
@@ -42981,9 +42710,21 @@
      "ar": "اقترح الاتحاد الأوروبي حزمة عقوبات جديدة تستهدف البنوك والسفن والرياضيين الروس, بينما فرضت بريطانيا عقوبات جديدة على رئيس ميانمار وشخصيات عسكرية.",
      "ru": "ЕС предложил новый пакет санкций против российских банков, судов и спортсменов, а Великобритания ввела новые санкции против президента Мьянмы и военных."
     }
+   },
+   {
+    "ts": 1795466148,
+    "time": "2026-11-23T20:35Z",
+    "severity": 6,
+    "summary": "האיחוד האירופי מקדם חבילת סנקציות חדשה המכוונת לבנקים רוסיים, רשתות קריפטו, אנרגיה וספורטאים.",
+    "i18n": {
+     "he": "האיחוד האירופי מקדם חבילת סנקציות חדשה המכוונת לבנקים רוסיים, רשתות קריפטו, אנרגיה וספורטאים.",
+     "en": "The EU is advancing a new sanctions package targeting Russian banks, crypto networks, energy, and athletes.",
+     "ar": "يدفع الاتحاد الأوروبي بحزمة عقوبات جديدة تستهدف البنوك الروسية وشبكات العملات المشفرة والطاقة والرياضيين.",
+     "ru": "ЕС продвигает новый пакет санкций, направленный против российских банков, криптосетей, энергетики и спортсменов."
+    }
    }
   ],
-  "last_update": 1795463327
+  "last_update": 1795466148
  },
  {
   "ts": 1795459178,
@@ -43343,5 +43084,130 @@
    }
   ],
   "id": "6ac745a4c5ed"
+ },
+ {
+  "ts": 1795466148,
+  "time": "2026-11-23T20:35Z",
+  "title": "מחירי הנפט יורדים ב-4% עקב עודף היצע",
+  "summary": "סוכנות האנרגיה הבינלאומית (IEA) הכריזה על עודף היצע נפט ראשון מאז תחילת המלחמה באיראן, מה שהוביל לירידה של כ-4% במחירים.",
+  "kid": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים, לכן המחיר יורד. זה משפיע על חברות דלק ועל מחירי הדלק בתחנות.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הנפט יורדים ב-4% עקב עודף היצע",
+    "en": "Oil prices drop 4% on supply surplus",
+    "ar": "أسعار النفط تنخفض بنسبة 4% بسبب فائض المعروض",
+    "ru": "Цены на нефть упали на 4% из-за избытка предложения"
+   },
+   "summary": {
+    "he": "סוכנות האנרגיה הבינלאומית (IEA) הכריזה על עודף היצע נפט ראשון מאז תחילת המלחמה באיראן, מה שהוביל לירידה של כ-4% במחירים.",
+    "en": "The IEA declared the first oil supply surplus since the Iran war began, leading to a nearly 4% drop in prices.",
+    "ar": "أعلنت وكالة الطاقة الدولية عن أول فائض في إمدادات النفط منذ بدء الحرب في إيران، مما أدى إلى انخفاض الأسعار بنحو 4%.",
+    "ru": "МЭА объявило о первом избытке предложения нефти с начала войны в Иране, что привело к падению цен почти на 4%."
+   },
+   "kid": {
+    "he": "יש יותר מדי נפט בעולם לעומת מה שאנשים צריכים, לכן המחיר יורד. זה משפיע על חברות דלק ועל מחירי הדלק בתחנות.",
+    "en": "There is too much oil in the world compared to what people need, so the price is going down. This affects fuel companies and gas prices.",
+    "ar": "هناك الكثير من النفط في العالم مقارنة بما يحتاجه الناس، لذا ينخفض السعر. هذا يؤثر على شركات الوقود وأسعار البنزين.",
+    "ru": "В мире слишком много нефти по сравнению с тем, что нужно людям, поэтому цена падает. Это влияет на топливные компании и цены на бензин."
+   }
+  },
+  "category": "commodities",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "XOM",
+    "direction": "down",
+    "t0": 1795466148,
+    "reason": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה.",
+     "en": "Falling oil prices hurt the profitability of energy companies.",
+     "ar": "انخفاض أسعار النفط يضر بربحية شركات الطاقة.",
+     "ru": "Падение цен на нефть снижает прибыльность энергетических компаний."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 156.955
+   },
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1795466148,
+    "reason": "הקרן עוקבת ישירות אחרי מחירי הנפט הגולמי.",
+    "reason_i18n": {
+     "he": "הקרן עוקבת ישירות אחרי מחירי הנפט הגולמי.",
+     "en": "The ETF tracks crude oil prices directly.",
+     "ar": "يتتبع الصندوق أسعار النفط الخام مباشرة.",
+     "ru": "Фонд напрямую отслеживает цены на сырую нефть."
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق الاستثمار المتداول للنفط",
+     "ru": "ETF на нефть"
+    },
+    "price_at_alert": 133.25
+   }
+  ],
+  "id": "ddae04ea99b6"
+ },
+ {
+  "ts": 1795466148,
+  "time": "2026-11-23T20:35Z",
+  "title": "לוקהיד מרטין זכתה בחוזה של 1.53 מיליארד דולר",
+  "summary": "הצי האמריקאי העניק ללוקהיד מרטין חוזה בשווי של עד 1.53 מיליארד דולר לייצור טילי טריידנט.",
+  "kid": "חברת לוקהיד מרטין תייצר טילים עבור הצי האמריקאי. זהו חוזה גדול שנותן לחברה הרבה עבודה וכסף.",
+  "i18n": {
+   "title": {
+    "he": "לוקהיד מרטין זכתה בחוזה של 1.53 מיליארד דולר",
+    "en": "Lockheed Martin wins $1.53B contract",
+    "ar": "لوكهيد مارتن تفوز بعقد بقيمة 1.53 مليار دولار",
+    "ru": "Lockheed Martin получила контракт на 1,53 млрд долларов"
+   },
+   "summary": {
+    "he": "הצי האמריקאי העניק ללוקהיד מרטין חוזה בשווי של עד 1.53 מיליארד דולר לייצור טילי טריידנט.",
+    "en": "The US Navy awarded Lockheed Martin a contract worth up to $1.53 billion for Trident missiles.",
+    "ar": "منحت البحرية الأمريكية شركة لوكهيد مارتن عقداً بقيمة تصل إلى 1.53 مليار دولار لإنتاج صواريخ ترايدنت.",
+    "ru": "ВМС США предоставили Lockheed Martin контракт на сумму до 1,53 млрд долларов на производство ракет Trident."
+   },
+   "kid": {
+    "he": "חברת לוקהיד מרטין תייצר טילים עבור הצי האמריקאי. זהו חוזה גדול שנותן לחברה הרבה עבודה וכסף.",
+    "en": "Lockheed Martin will make missiles for the US Navy. This is a big contract that gives the company a lot of work and money.",
+    "ar": "ستقوم شركة لوكهيد مارتن بتصنيع صواريخ للبحرية الأمريكية. هذا عقد كبير يمنح الشركة الكثير من العمل والمال.",
+    "ru": "Lockheed Martin будет производить ракеты для ВМС США. Это крупный контракт, который обеспечивает компанию работой и деньгами."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795466148,
+    "reason": "חוזה ממשלתי משמעותי מחזק את צבר ההזמנות וההכנסות העתידיות.",
+    "reason_i18n": {
+     "he": "חוזה ממשלתי משמעותי מחזק את צבר ההזמנות וההכנסות העתידיות.",
+     "en": "A significant government contract strengthens the order backlog and future revenue.",
+     "ar": "عقد حكومي كبير يعزز تراكم الطلبات والإيرادات المستقبلية.",
+     "ru": "Крупный государственный контракт укрепляет портфель заказов и будущие доходы."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין",
+     "en": "Lockheed Martin",
+     "ar": "لوكهيد مارتن",
+     "ru": "Lockheed Martin"
+    },
+    "price_at_alert": 570.73
+   }
+  ],
+  "id": "0e6b65024e2c"
  }
 ]
