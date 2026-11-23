@@ -143622,6 +143622,10 @@
    {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/zelenskyy-says-ukraine-behind-attacks-on-russian-ships-near-libya?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -143700,6 +143704,44 @@
      "ru": "RTX (оборонные технологии)"
     },
     "price_at_alert": 190.17
+   },
+   {
+    "ticker": "BDRY",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "התרחבות העימותים הימיים לאזורים כמו חופי לוב מעלה את סיכוני הספנות הבינלאומית.",
+    "reason_i18n": {
+     "he": "התרחבות העימותים הימיים לאזורים כמו חופי לוב מעלה את סיכוני הספנות הבינלאומית.",
+     "en": "The expansion of maritime conflicts to areas like Libyan waters elevates global shipping risks.",
+     "ar": "توسع الصراعات البحرية إلى مناطق مثل المياه الليبية يرفع مخاطر الشحن العالمي.",
+     "ru": "Расширение морских конфликтов на такие регионы, как ливийские воды, повышает риски судоходства."
+    },
+    "name_i18n": {
+     "he": "קרן סל על ספנות צובר",
+     "en": "Breakwave Dry Bulk Shipping ETF",
+     "ar": "صندوق شحن البضائع السائلة الجافة",
+     "ru": "ETF сухогрузного судоходства"
+    },
+    "price_at_alert": 12.12
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "סיכונים ביטחוניים למיכליות נפט בנתיבים ימיים עשויים להשפיע על מחירי הנפט.",
+    "reason_i18n": {
+     "he": "סיכונים ביטחוניים למיכליות נפט בנתיבים ימיים עשויים להשפיע על מחירי הנפט.",
+     "en": "Security risks to oil tankers on maritime routes could impact oil prices.",
+     "ar": "التهديدات الأمنية لناقلات النفط في الطرق البحرية قد تؤثر على أسعار النفط.",
+     "ru": "Угрозы безопасности нефтяных танкеров на морских путях могут повлиять на цены на нефть."
+    },
+    "name_i18n": {
+     "he": "קרן סל סקטור האנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "صندوق قطاع الطاقة",
+     "ru": "ETF энергетического сектора"
+    },
+    "price_at_alert": 60.51
    }
   ],
   "id": "bd4c7fbd56db",
@@ -143739,9 +143781,21 @@
      "ar": "أكد الرئيس الأوكراني زيلينسكي أن أوكرانيا تقف وراء هجوم بطائرة بدون طيار دمر طراد صواريخ روسي في قاعدة بأفريقيا.",
      "ru": "Президент Украины Зеленский подтвердил, что Украина стоит за атакой дронов, в результате которой был уничтожен российский ракетный корвет на базе в Африке."
     }
+   },
+   {
+    "ts": 1795427931,
+    "time": "2026-11-23T09:58Z",
+    "severity": 5,
+    "summary": "נשיא אוקראינה וולודימיר זלנסקי הודה רשמית כי ארצו אחראית לתקיפה שהטביעה את הספינה הרוסית 'מרקור' ליד חופי לוב.",
+    "i18n": {
+     "he": "נשיא אוקראינה וולודימיר זלנסקי הודה רשמית כי ארצו אחראית לתקיפה שהטביעה את הספינה הרוסית 'מרקור' ליד חופי לוב.",
+     "en": "Ukrainian President Volodymyr Zelenskyy officially claimed responsibility for an attack that sank the Russian ship 'Merkury' near Libya.",
+     "ar": "أقر الرئيس الأUkrainian ولوديمير زيلينسكي رسمياً بأن بلاده مسؤولة عن الهجوم الذي أدى إلى غرق السفينة الروسية 'ميركوري' قرب ليبيا.",
+     "ru": "Президент Украины Владимир Зеленский официально взял на себя ответственность за атаку, в результате которой у берегов Ливии затонуло российское судно."
+    }
    }
   ],
-  "last_update": 1795422900
+  "last_update": 1795427931
  },
  {
   "ts": 1795369324,
@@ -144198,28 +144252,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcXFSeVlrX01Uc3lDY3hRMGxMaGxGRUpTd0ZSeUNHM1NfcGp5VGJoSUJlN1J4bFI3bjZvSkM1NmVMMF9GTENpQzRiWjFGWDRJTEZqYXpoMm1qcHRZOW43azVwcGN4NEhYdm96am1wQnBmLVNROGhfRFNMck5OZkZwMzZoaG5SN1FLekY3LUM1TGRDWUtCZjVQYkx0d2doRncwaGtSSUZYcjdocWg0RlJLRk54dWhLTUF3d1J5Rw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1uTk9TWUNUamlGcVVTSGpPakYwQjBiQnREa0dCakxrcl9qcWNycm1OakJtZnphdXYxYXYtNHNqYXRXdw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEhkT1c5eXJLelhPNDl3VGYzVFdWVlJUbnEtekJrb05kZm1jeERNVUZNYmtPMl9LNUNvWTdqb3N1eVloV1RBTkIxcVJ0cmN3MEJjNTJYWjR2SFR4WUxRY3VETjZZTXkxZ3ZvS2ZCSjVVM0xIUGY1cWN2cTNEQVNCVklCUWtGT1pKNGpPbzJtRmdCWWNmOW1LMl9zb0hFUjRBeU12R0d1ZUdHeDZSM214RDlvNDk?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONE5kMHFDbnRoVGtsRTIwWG9LSl9FWGNyOEg5V254ck5BeERtakJkaTVOOWowMnR4SERxMUpsRkl2dmlMZERkMFVMLUd6dXlvUlVWbU9TOVdJQVkyQzYxQ0lkakxWWmdMamhocW1OSWdlMjdNSGtVYUdkYm5UWW81Q1ZRX3QtWlZHdFgtYWR0eW54NUF1UmVnQmQ5dXhCSTRSQVE?oc=5"
-   },
-   {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHNibWVPRzFWQUQzQjFDcXFxYURnR3UwSHp1eE1qY080eU9Ha1FBZG1rajNUWFpzYm9Lam9fUXA4cmRkeWdNZzRoSnVkUWlSRWRMM25XbXduUGxzZHJjdDJiU3FFeU56dkIwWmRsd1NPQVhKQS1JYWlkSnZEWDlKZ19ESE5ZRW80eXowQ0o3Z1lPdmk5UzE5VEJkRlZjMERYa3RvS3E5czNxU0ZuNkpSTE5KQno1VlUtdW84?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNQ1JfcUs3RlZDQ2FCeERGb181Q3E1RXRtVUgtcGs5cTZCM1lLZnRUeXBWU1NveDdvM0ZURXFZdV8xS3loRXVNU0lwcWZkeXhNMUtIblotSVhldnhmQVlHakFxdjVFazJVazNVM3hlZ2c4bjlBdzVaMmh5MDJENFZhVG1TbEdXWVVXc0RKQ0dpckhhdHU0UDdNU2FHR1ZWcUZzR2w0RjdMd0h0ZHlNMzktRzFxSE5PNjhoMjQwd3YxaWx5VUZwbkFnTGdwdG5LSmg1REVsMFhVaTJ0eUpBeHNITXBRd0FrSk1SVU05X3EwdVNsa0p4MnloN3BnQngtcmltOEhCb193V3VSOHp1QzBoRDRCVGp1RkZMbFpHZ1hDeWtuY0JwaERYR3B6Q1BjQdIBswJBVV95cUxPV01hM2ZpTUxoU2JHVEp6ZjVPOFZfbnEzbjdNWHZmZEVscGppaEF4QXVGdEVpYlRmRXFWYTdRSklERU03NnBtUVBITXJ5RllLeWZDS0tmb01SV29aaEhqUTBRR2FOcURlTXlUWTNXaWlick9rSjJwRWpUYTc4RUpONWJkQjNfa3ZVX3lfT2gtU1E5WmJ0bUdmelpvQVFqZ19FRUJhMjY0TzZhTHlacGVhTWoxWVpobTQ3ZjdxYmd3b0JFdTUzOTNmMDBMYkpWVWJXYklpLUVTOV91VHNjUHJTckI2aGlidG9aa1VOeHlTN1lXbGstMkh1c2FxLU5adV9kTUJtWFFwZUJGRExhYWVXMk1McmZDRkRTa3pPeThVcWd5NHo1SDdPOE1kbVlmVzczZVNF?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05Q3hNeW5jWDFfeEkxcWVaU1I4RkFEbzFJVmVEUFRHVVVEUUlMbmtmWEk1S0h1cGc0OXFkMW0ySDVfSnZMR1ozRVpHQzQyQzRvSkM4SDJXYUtVTDlKUlVtdUxn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaWxsYjRUNUVtQlVrWm1YSFE3eHduckRPNW5CN0llMTJydFI3dGJIa2ZiTENBSU9HYVYtejVzM2JVUy1nbW9wQmdOZGJhdTlMT2R6cTBYNmFUME9aZ1BhTFI2THpRdlJRY21UeW9odHdFWGZxSjlTSVQ5VlBOV2pSckFraW1JWUtOd3dqVWFDZC0yM0t4RFRKWEktV29YTFdLTlJlZ1NsNlcyZ3phdzlVcTlCQ0pTM29GODhJUDVjUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUWF5RTZuZDRxeGVmZEpDOG5xQ0FvcDBnLXJlVEk2REItVDJTT3Uwb0QtYi1JUHpZNTJfVzdISEhvUUtzdVB3WEFTbi1zekw2THhCdkNIdDYtdkd5SEtXMnd4ZGNpeXh3ZTRmY2l1ckp4YmF3QTl0YmNybWo1ZkpoZmZhcHdvREhVYXBN?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQME9ybk1NRVJYbl80UFFzbGtxOGpERXNJQk56TWNKaWdNLUlZT0R3a0F2bFVWeHZNTGZPRWtvWkRhWGs4bXlvS3RHQ3JsNGh0aFN4M19IWUkwRHR4LWZlS2lDbEVrWF9CTjV4V3pDWlRJMTMzR3NHM2VtN2dxWEk5SjU1OTF4WW1CU3AtZnFnOA?oc=5"
    }
   ],
   "impacts": [
@@ -144490,9 +144544,21 @@
      "ar": "تهدد إيران باستخدام كافة الوسائل لمواجهة الحصار البحري الأمريكي، مع تقارير عن أسطول من 31 ناقلة نفط يستعد لاختبار الخط الأمريكي. في غضون ذلك، كشف الحرس الثوري عن قاذفة صواريخ مزدوجة وسط تصاعد التوترات.",
      "ru": "Иран угрожает использовать все средства для противостояния морской блокаде США, сообщается о флотилии из 31 танкера, готовой проверить линию блокады. Тем временем КСИР представил новую пусковую установку для двух ракет на фоне растущей напряженности."
     }
+   },
+   {
+    "ts": 1795427931,
+    "time": "2026-11-23T09:58Z",
+    "severity": 6,
+    "summary": "בכירים באיראן הצהירו כי המדינה תשתמש בכל הכלים והאמצעים העומדים לרשותה כדי להתעמת עם הסגר הימי שהטילה ארה\"ב.",
+    "i18n": {
+     "he": "בכירים באיראן הצהירו כי המדינה תשתמש בכל הכלים והאמצעים העומדים לרשותה כדי להתעמת עם הסגר הימי שהטילה ארה\"ב.",
+     "en": "Iranian officials stated that the country will use all tools and means available to confront the naval blockade imposed by the U.S.",
+     "ar": "صرح مسؤولون إيرانيون بأن البلاد ستستخدم جميع الأدوات والوسائل المتاحة لمواجهة الحصار البحري الذي تفرضه الولايات المتحدة.",
+     "ru": "Иранские официальные лица заявили, что страна будет использовать все доступные инструменты и средства для противодействия военно-морской блокаде, введенной США."
+    }
    }
   ],
-  "last_update": 1795422900
+  "last_update": 1795427931
  },
  {
   "ts": 1795375651,
@@ -146468,7 +146534,24 @@
   "category": "geopolitics",
   "severity": 4,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdHA2QWxOVnJremhZMGs5YXBGMi1ZcjFoZk9PcldIQXRPa3puS2lzblZaOWp3bG1semQtaHU0Q3VocG5kMDJiWFRkUkx2d0FXY0diZ1h0Nmdhd1NlbkZmcG1HWGE1bGFKeEZfME12cXpwS2FLaVlkV0pvVGxzOUkxOEtaczNkSDA1ZjFvMjd2YjNSUW9XQjNILUNsVGV1RDFaMUM1MzZGRjI4djQzLWR2MjRPcmFTcXdWYmVOalpuYnJRcXNoYjlRZ0JIdWFyaTJLcnYxc2U5QnJEdThYVW81ZmkzNGRud9IB5gFBVV95cUxPdHA2QWxOVnJremhZMGs5YXBGMi1ZcjFoZk9PcldIQXRPa3puS2lzblZaOWp3bG1semQtaHU0Q3VocG5kMDJiWFRkUkx2d0FXY0diZ1h0Nmdhd1NlbkZmcG1HWGE1bGFKeEZfME12cXpwS2FLaVlkV0pvVGxzOUkxOEtaczNkSDA1ZjFvMjd2YjNSUW9XQjNILUNsVGV1RDFaMUM1MzZGRjI4djQzLWR2MjRPcmFTcXdWYmVOalpuYnJRcXNoYjlRZ0JIdWFyaTJLcnYxc2U5QnJEdThYVW81ZmkzNGRudw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNm40SDFSRC0wWF9Fekc1RHY4aFZrQndhRndDdlpxRFM5RXFhbnhabGZiXzVweTFuMTk4Wjh5Z1BXQ0lKTVJPMlFaRWR6RVFIZUtoYWhNWVJWNzBCdU1HaURsLWl2dnh4d2dFcS1YMUlzMjlIMUVURjk2by1sWXRZRlNoRWkwQ3JRZm50dEJSMzRXVzUtaEJ3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdU8wTWxmUkswLTFQRXVsVDFfSmw5M3BGRmxtaGJIVEtxM280SkRiNk1mQkZVVC14Zld0VEQwVU1XWHJCb2VmOXVJWDR1dHZMMEZZLWV2WkJxVEdic0xHYnZPcnhGY3NVcFcyYndId1BXdFlJcF9XQVdhbkk5RVlfVlRjN21faS1relRBeU9aZWk3QjhqOXFkRi1sOF9NcHNFRVNySmpKN3U2eXYzbW9xRE4yam41Nkk0U1IyajN5WnBlanJxX0xmUzh5bTNGd0NkdHJ2bG1YY202ejlYb1HSAeMBQVVfeXFMTzctdHRZNzM5NFBvZXFTUnVmQ3A3SV81bDl5eFctdzdqNWVlNk8wLWN1UVB1SDZ3WWV5MG5VVGlkLWxuakVTWk8zQjZyd1BXa0FEYi1yckFtaUFVWU1Nc1ZiUi1aQmhMa1ZjWkdia3diV2laZm9ScjBzX25BYTBrbzB6c1NJcVJUUzBkVmNvaF9CNFFJaTZzT2dBSkdjb1MwNUF5YXpXVFVkUXA2SGFWeTFVcWMzWV9TbHRKa3BsMGhPZjY0blRmWGVNZHRteXp2UG43VlliMjhwVE5ZM2N1MDNEQWM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWFGc1pTd0N1RmUzWWYySU9mQndLbVJieGt1eFVVTFNXa3NSMXUwVDZjQTI2Zm9xOVVqUURUSml0R3RSZWpHRUxBQUhlTkltWk5Fdm1Pc1VxVFNmMzktLTZNbE9JcVQzTEZaZ3BKWTQyNDRpU242b3hZcC03SUYwTTJubDl4ZjN4a2JXMjd4ZVNQX29xMkE?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "AVAV",
@@ -146488,8 +146571,548 @@
      "ru": "AeroVironment (дроны)"
     },
     "price_at_alert": 86.79
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "צמיחה בביקושים גלובליים לטכנולוגיות הגנה וטילים מחזקת את סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "צמיחה בביקושים גלובליים לטכנולוגיות הגנה וטילים מחזקת את סקטור הביטחון.",
+     "en": "Growth in global demand for defense and missile tech supports the sector.",
+     "ar": "نمو الطلب العالمي على تكنولوجيا الدفاع والصواريخ يدعم القطاع.",
+     "ru": "Рост мирового спроса на оборонные и ракетные технологии поддерживает сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון אמריקאית",
+     "en": "US Aerospace & Defense ETF",
+     "ar": "صندوق الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 66.17
+   },
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "התקדמות בתעשיית הייצור הביטחוני המקומית מחזקת את הכלכלה ההודית.",
+    "reason_i18n": {
+     "he": "התקדמות בתעשיית הייצור הביטחוני המקומית מחזקת את הכלכלה ההודית.",
+     "en": "Advancements in domestic defense manufacturing strengthen the Indian economy.",
+     "ar": "التقدم في التصنيع الدفاعي المحلي يقوي الاقتصاد الهندي.",
+     "ru": "Успехи в отечественном оборонном производстве укрепляют экономику Индии."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מניות הודו",
+     "en": "MSCI India ETF",
+     "ar": "صندوق مؤشر الهند",
+     "ru": "ETF акций Индии"
+    },
+    "price_at_alert": 52.9
    }
   ],
-  "id": "d5b379922687"
+  "id": "d5b379922687",
+  "updates": [
+   {
+    "ts": 1795427931,
+    "time": "2026-11-23T09:58Z",
+    "severity": 4,
+    "summary": "הודו ביצעה ניסויים מוצלחים במערכת נגד רחפנים JWALA MK-1 ובטיל Bagheera AT1, ואף קיבלה פניות מיפן לאימוני טילים במטווחים הודים, מה שמחזק את תעשיית הביטחון במדינה.",
+    "i18n": {
+     "he": "הודו ביצעה ניסויים מוצלחים במערכת נגד רחפנים JWALA MK-1 ובטיל Bagheera AT1, ואף קיבלה פניות מיפן לאימוני טילים במטווחים הודים, מה שמחזק את תעשיית הביטחון במדינה.",
+     "en": "India successfully tested the JWALA MK-1 anti-drone system and Bagheera AT1 missile, while Japan chose Indian ranges for missile training, boosting India's defense manufacturing profile.",
+     "ar": "اختبأت الهند بنجاح نظام JWALA MK-1 المضاد للطائرات المسيرة وصاروخ Bagheera AT1، بينما اختارت اليابان النطاقات الهندية للتدريب على الصواريخ.",
+     "ru": "Индия успешно испытала систему борьбы с дронами JWALA MK-1 и ракету Bagheera AT1, в то время как Япония выбрала индийские полигоны для ракетных тренировок."
+    }
+   }
+  ],
+  "last_update": 1795427931
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "הודו והאיחוד האירופי קרובות לפריצת דרך בהסכם סחר הכולל שבבים",
+  "summary": "שר הולנדי ציין כי הסחר בין הודו לאיחוד האירופי מתקרב לפריצת דרך משמעותית, תוך התמקדות בשיתופי פעולה בתחום השבבים וחברת ASML.",
+  "kid": "הודו ואירופה קרובות להסכם מסחרי חדש בתחום השבבים הטכנולוגיים. זה יכול לעזור לחברות טכנולוגיה עולמיות כמו ASML.",
+  "i18n": {
+   "title": {
+    "he": "הודו והאיחוד האירופי קרובות לפריצת דרך בהסכם סחר הכולל שבבים",
+    "en": "India-EU Trade Deal Nears Breakthrough Involving ASML and Semiconductors",
+    "ar": "الهند والاتحاد الأوروبي يقتربان من انفراجة في اتفاق تجاري يهم أشباه الموصلات",
+    "ru": "Индия и ЕС близки к прорыву в торговом соглашении с участием ASML и полупроводников"
+   },
+   "summary": {
+    "he": "שר הולנדי ציין כי הסחר בין הודו לאיחוד האירופי מתקרב לפריצת דרך משמעותית, תוך התמקדות בשיתופי פעולה בתחום השבבים וחברת ASML.",
+    "en": "A Dutch minister noted that an India-EU trade deal is nearing a major breakthrough, highlighting cooperation on semiconductors and ASML.",
+    "ar": "أشار وزير هولندي إلى أن اتفاقية التجارة بين الهند والاتحاد الأوروبي تقترب من انفراجة كبرى، مع التركيز على أشباه الموصلات.",
+    "ru": "Нидерландский министр отметил, что торговое соглашение между Индией и ЕС близко к прорыву, уделяя особое внимание полупроводникам и ASML."
+   },
+   "kid": {
+    "he": "הודו ואירופה קרובות להסכם מסחרי חדש בתחום השבבים הטכנולוגיים. זה יכול לעזור לחברות טכנולוגיה עולמיות כמו ASML.",
+    "en": "India and Europe are close to a new trade deal in tech chips. This can help global tech companies like ASML.",
+    "ar": "الهند وأوروبا تقتربان من اتفاق تجاري جديد في قطاع رقائق التكنولوجيا. هذا قد يساعد شركات مثل ASML.",
+    "ru": "Индия и Европа близки к новому торговому соглашению по технологическим чипам. Это может помочь таким компаниям, как ASML."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUGQ2eGgxVFdmOTF2Vm16YWZwdFlXQU9VWjRCYUtpMUk5c2xZVUdGMFNNc2V6X3hKR2VVZnFROUhYb0dkMnJnZUUzZENybjZnNWFMeXZfVFAtYUFxMXhZSkFXZkZ3ZWpjYnF4WUVUR3dxT0ltOG5IV0NDbldEM2RFYUUxRFUzZlN0LUlpTkpIbDhPaWdVXzdZZjc0X2MxRXE0UXJoMDB6QlJBNTE5WUNDWjg5ZGtucjc3QTdPeGhnQlptbjk3TjhlcjVJQ1J1Smx5VWtuNG11OUNFSmgtZkw40gHkAUFVX3lxTE8zdUFET0UxMi1rdjhKaHRzM2wzaXlocGV2MzFwcVRfWHZ2WHF2MGZ0VDhtY1R2UmcydXBzcjl0OHg0SFBldXhzYjRDV3FHMWZXSmh6RE44Tk43VkIteGxFUHQwQ2MyOFVRZmtybXBCX2lISFZ3MzBXQ2Y4YXVwQlY5ejFtWWYxWHZ5b2d5dVd6Um1pZTVNbjJMNWlRWHlDUzNwOEJfTktjVzRZLTVOSTZ3TEV5RGYxZ1lfbElEZHB3dDFoblEtLUZxMmZZUkE0Mmg4YnBMYjZOUDJVdHFraTV0LXVHaw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ASML",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "שיתופי פעולה סחר חדשים בתחום השבבים פותחים שווקים חדשים לציוד מתקדם.",
+    "reason_i18n": {
+     "he": "שיתופי פעולה סחר חדשים בתחום השבבים פותחים שווקים חדשים לציוד מתקדם.",
+     "en": "New semiconductor trade pacts open up fresh markets for advanced equipment.",
+     "ar": "اتفاقيات التجارة الجديدة لأشباه الموصلات تفتح أسواقاً جديدة للمعدات المتقدمة.",
+     "ru": "Новые торговые соглашения по полупроводникам открывают новые рынки для передового оборудования."
+    },
+    "name_i18n": {
+     "he": "אסמל - יצרנית ציוד שבבים",
+     "en": "ASML Holding NV",
+     "ar": "شركة ASML لمعدات الرقائق",
+     "ru": "ASML - производитель оборудования для чипов"
+    },
+    "price_at_alert": 1266.22
+   },
+   {
+    "ticker": "SMH",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "התרחבות הסחר העולמי בשבבים תומכת בסקטור טכנולוגי זה.",
+    "reason_i18n": {
+     "he": "התרחבות הסחר העולמי בשבבים תומכת בסקטור טכנולוגי זה.",
+     "en": "Global semiconductor trade expansion supports this tech sector.",
+     "ar": "توسع التجارة العالمية في أشباه الموصلات يدعم هذا القطاع التقني.",
+     "ru": "Расширение мировой торговли полупроводниками поддерживает этот техсектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל על חברות השבבים",
+     "en": "VanEck Semiconductor ETF",
+     "ar": "صندوق قطاع أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 400.06
+   }
+  ],
+  "id": "c8b3cdc23d78"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "סין משלימה מכרז ענק לנוגדנים מונוקלונליים בהיקף של 34 מיליארד יואן",
+  "summary": "סין פרסמה את הודעת הרכש הלאומית הראשונה שלה לנוגדנים מונוקלונליים בשווי של 34 מיליארד יואן, המייצרת תחרות בין תרופות מקור לתרופות מקומיות.",
+  "kid": "סין מוציאה ע애ר ענק של מיליארדי דולרים על תרופות מיוחדות. זה משפיע על חברות תרופות בינלאומיות ומקומיות.",
+  "i18n": {
+   "title": {
+    "he": "סין משלימה מכרז ענק לנוגדנים מונוקלונליים בהיקף של 34 מיליארד יואן",
+    "en": "China Finalizes CNY 34 Billion Monoclonal Antibody Procurement",
+    "ar": "الصين تنهي مناقصة ضخمة للأجسام المضادة بقيمة 34 مليار يوان",
+    "ru": "Китай завершает крупный тендер на моноклональные антитела на сумму 34 млрд юаней"
+   },
+   "summary": {
+    "he": "סין פרסמה את הודעת הרכש הלאומית הראשונה שלה לנוגדנים מונוקלונליים בשווי של 34 מיליארד יואן, המייצרת תחרות בין תרופות מקור לתרופות מקומיות.",
+    "en": "China finalized its first national monoclonal antibody procurement notice worth CNY 34 billion, setting up a competition between originators and domestic drug makers.",
+    "ar": "أنهت الصين أول إشعار وطني لشراء الأجسام المضادة بقيمة 34 مليار يوان، مما يمهد المنافسة بين الشركات الأصلية والمحلية.",
+    "ru": "Китай финализировал первое национальное уведомление о закупке моноклональных антител на сумму 34 млрд юаней, создавая конкуренцию."
+   },
+   "kid": {
+    "he": "סין מוציאה ע애ר ענק של מיליארדי דולרים על תרופות מיוחדות. זה משפיע על חברות תרופות בינלאומיות ומקומיות.",
+    "en": "China is spending billions on special medicines. This impacts international and local drug companies.",
+    "ar": "تنفق الصين مليارات على أدوية خاصة. هذا يؤثر على شركات الأدوية الدولية والمحلية.",
+    "ru": "Китай тратит миллиарды на специальные лекарства. Это влияет на международные и местные фармкомпании."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vT1hWY3lweGdhaVN1NllCR1JiWWhEZnE0LW5ZZXRKRTduR1hVTXByaGJ1OVdudjRRVjA5dEg1aWZQYUpMLTVfLVRaaUhhQ0xpclBJRUt2QWFQWV82MnVCTDZieWxfcGFJMGR3SE5vQTFEZEJfeHc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "השקות רכש ממשלתיות ענק בתרופות מתקדמות תומכות בביקושים העולמיים לביו-פארמה.",
+    "reason_i18n": {
+     "he": "השקות רכש ממשלתיות ענק בתרופות מתקדמות תומכות בביקושים העולמיים לביו-פארמה.",
+     "en": "Massive government procurement announcements in advanced drugs support global biopharma demand.",
+     "ar": "إعلانات الشراء الحكومي الضخمة للأدوية المتقدمة تدعم الطلب العالمي على الأدوية الحيوية.",
+     "ru": "Масштабные государственные закупки передовых лекарств поддерживают мировой спрос."
+    },
+    "name_i18n": {
+     "he": "קרן סל סקטור הבריאות האמריקאי",
+     "en": "Health Care Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الرعاية الصحية",
+     "ru": "ETF сектора здравоохранения"
+    },
+    "price_at_alert": 177.24
+   },
+   {
+    "ticker": "ASHR",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "תוכניות רכש מקומיות גדולות תומכות בחברות הפארמה והבריאות בסין.",
+    "reason_i18n": {
+     "he": "תוכניות רכש מקומיות גדולות תומכות בחברות הפארמה והבריאות בסין.",
+     "en": "Large domestic procurement programs support Chinese pharma and healthcare firms.",
+     "ar": "برامج الشراء المحلية الكبيرة تدعم شركات الأدوية والرعاية الصحية الصينية.",
+     "ru": "Крупные внутренние программы закупок поддерживают китайские фармацевтические компании."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מניות סין A-Shares",
+     "en": "Xtrackers Harvest CSI 300 China A-Shares ETF",
+     "ar": "صندوق أسهم الصين أ",
+     "ru": "ETF акций Китая A-shares"
+    },
+    "price_at_alert": 29.22
+   }
+  ],
+  "id": "82e491672ecd"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "הודו מעניקה חבילת סיוע של 1.6 מיליארד דולר לנפאל שנפגעה מהשיטפונות",
+  "summary": "ראש ממשלת הודו הכריז על חבילת פיתוח וסיוע בסך 1.6 מיליארד דולר (כ-15,000 קרוֹר) עבור שיקום נפאל לאחר שיטפונות הרסניים.",
+  "kid": "הודו עוזרת לשכנתה נפאל במיליארדי דולרים כדי לשקם את מה שנהרס בשיטפונות. זה עשוי לעזור לחברות תשתיות ובנייה אזוריות.",
+  "i18n": {
+   "title": {
+    "he": "הודו מעניקה חבילת סיוע של 1.6 מיליארד דולר לנפאל שנפגעה מהשיטפונות",
+    "en": "India Announces $1.6 Billion Aid Package for Flood-Hit Nepal",
+    "ar": "الهند تعلن عن حزمة مساعدات بقية 1.6 مليار دولار لنيبال المتضررة من الفيضانات",
+    "ru": "Индия объявляет о пакете помощи в размере 1,6 млрд долларов пострадавшему от наводнений Непалу"
+   },
+   "summary": {
+    "he": "ראש ממשלת הודו הכריז על חבילת פיתוח וסיוע בסך 1.6 מיליארד דולר (כ-15,000 קרוֹר) עבור שיקום נפאל לאחר שיטפונות הרסניים.",
+    "en": "Indian PM announced a $1.6 billion (approx 15,000 crore) development and aid package to support post-flood reconstruction in Nepal.",
+    "ar": "أعلن رئيس وزراء الهند عن حزمة مساعدات وتنمية بقيمة 1.6 مليار دولار لدعم إعادة الإعمار في نيبال بعد الفيضانات المدمرة.",
+    "ru": "Премьер-министр Индии объявил о пакете помощи и развития на сумму 1,6 млрд долларов для поддержки восстановления Непала после разрушительных наводнений."
+   },
+   "kid": {
+    "he": "הודו עוזרת לשכנתה נפאל במיליארדי דולרים כדי לשקם את מה שנהרס בשיטפונות. זה עשוי לעזור לחברות תשתיות ובנייה אזוריות.",
+    "en": "India is giving billions to neighbor Nepal to rebuild after floods. This helps regional infrastructure and construction firms.",
+    "ar": "تساعد الهند جارتها نيبال بمليارات الدولارات لإعادة الإعمار بعد الفيضانات. وهذا يساعد شركات البنية التحتية.",
+    "ru": "Индия выделяет миллиарды соседнему Непалу на восстановление после наводнений. Это помогает региональным инфраструктурным компаниям."
+   }
+  },
+  "category": "climate",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGF2dlhMOWU5eTJXa0VJTm9jS3ExZ2lnNDlsQlVDZ1ZadVh1b252aGVUaEVjdUJZNzZIdmJnSEFCNERfTTlQV09KLWNQTkV0NTZPNkJNRzV4dlJzUG1laXdNVHVPYmVuQkM3X2Z6TDdpQjYxSzZyYVpseHlsOGFMaXJaOEtqVi05OThIVFF3?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVBXeXQ5Tkc2NWY5OGM2YnF6eGluSFJ1dkpyUURacjB2cWtES0wzNUhyZ29wbFNUZTlUY0RBUW1uTUZ6Q3lFSUVqc1ZNYTZMTERJRFJnakRZMlAyRE5iS09MUkxBSHRISzM1YWZORThCTTk0cGktWjRaVXh5emdYM1ZYc1pjTnZQVjNZX1RqSWtGUQ?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUFscmZPaXdyVDR3eGZKRGF4OTI4SWtuc2xSUDEzalVKQ3JYcFk4empkUWRmU0hIX25mcnpMdmxTeS1ianVORDhleWZSeVpuOW1Ub1RSNm13X0o2cWRBVnI3cUZURVFTUU5EWjJ3SG5rbWVKUkZKb0xzQ1hMMThKcVhaZThxY1FxaTNUQk9BZVJ4YkVFc0puSk1sUlJhdFNT?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOXRHQ3YySXdlQnp2M3JZeW03cGtFUFlDdzVSM09wdEhrcVJnd3hFOXpfdzdpTGRSZE5NcWdUUEtBN0o3WHRPQ2RUTmVGSGV5ZlJIaFVoeGNNWkZuZkhpWi0yRHZwQWFWaDFEZGxhSVQ4VkxXcGN0NFFES0Vuc3FjWjZuNmxMMWY2U3Z0ZFdFYlg4QUhMeE5zOXlyNDhkUjJJaU5LQXJjVzMxU2NqSDY2djhyajVJWHVVek5WUGNKdEU3cG5NU1FrTGR5cUZUaVVqMkFkcVA1VG5ld9IB5wFBVV95cUxOSUhZd1Foa2pBLUdiWnpCa2xPMUhHWGl0bHJZS2VldGlQS24wcUJVOWdvNF9WYUwxR2hxLVJTOE01cFpZSHFPaUZnM2dEMGZhLThTU3NXRkl5a3lBNnYtdEx3dEpnMW1NLTc2QTMzcWVIcW5Zb3g5QjBLcno5X2dMLVN0ZjlwQU92SVgySGZ3NlY1Smxlemhya1g5eVlJSUxqa2U2TURKRmxaRVZZUjREYi1yOGlSd2FzVG5GaHRRenZ5YWpYUmk2OEdOZ29TdU5BazVFLVR3VXlHTjZHTkR2Q1dXczVNU3c?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTDE5TTZUN3pmN2ZvRlRxemd5cG9pMnc2Y3VfaU12MjUwVXk0VUtfeUhPUjg1WGJGZG43WDg3UE80d0ItV1JfaTJZWVU5M0VhdnQ1UFMzNVVHQS1lVTlkVmxucmRHZlBxTThGVVY3dVFYOTdqeDU4OWd4dF9TQ2dXRDhzWFhtSHVlLXpZaTF3SnhyRkxaQ2Y5TVJlbEFPa0Q1OC0tc1RZNXdKendqN1czUDNqUWtjUWNTSVE?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOXJ0aVQ2ZnRJN1NhcFlkUHc5azdadUI1Q2VzeFdVSnBPQjViQXRTbkVibE00S3J3VG9ISjNzZnRSUzl5anRhN0EwMEk1SW9sZ3RGSEJfTGEzeXlVREdORW92d0w1SFpqZVFfRTF4MUxfcUxFNnMwS2hxZTZaVGZISDlsWFV6d3NlcGlUYWFKZnVQaERxeGg4YkdCYVNiZXM1UVJ5S2FKOUVTclR2REFqaTYyeERQMjB6d1lOQkFyQjgzdjBsU3VWbmE0VE1NQmdXSFZ3TkZQWnRybS1xaFYzTGdEalBobzdCYXppZzdxbmZyVHBaVUHSAfsBQVVfeXFMTzQ5TmdRNlNEbXZvOXB2cWhsODlDcVhERUxuaVZ3Yzc2VE9QUXp6dUt6a0lUY3FlcHNLTnJvVVMyWDVzUEhaYldvTHhma1NCM2p2Y3BTZXZJX1J3SkFydzNWTUI5OUJoNHhwbVVha1ZpYnJQYTZXT2pGVUVHMHBKRFQzX0U2ZUpSd0tsd2JITC1TQUlZSFJPbGkxSk13WTVRdzhIR2ZMMUFzbTFRVTYzU1R2ZTdlandiRC13MFNENFR0TWg2MVo1dzViLTdtbDhUei1oUXZaZUlPLW9HMnItTk5RbjBlSkJoX25TWkFOakhZeGxCYXItdWhIN0U?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "מעורבות כלכלית ומדינית אזורית מרחיבה את השפעת החברות ההודיות.",
+    "reason_i18n": {
+     "he": "מעורבות כלכלית ומדינית אזורית מרחיבה את השפעת החברות ההודיות.",
+     "en": "Regional economic leadership and engagement expand Indian corporate influence.",
+     "ar": "القيادة الاقتصادية الإقليمية توسع نفوذ الشركات الهندية.",
+     "ru": "Региональное экономическое лидерство расширяет влияние индийских корпораций."
+    },
+    "name_i18n": {
+     "he": "קרן סל על שוק המניות בהודו",
+     "en": "MSCI India ETF",
+     "ar": "صندوق مؤشر الهند",
+     "ru": "ETF акций Индии"
+    },
+    "price_at_alert": 52.9
+   }
+  ],
+  "id": "113b8a6ff74f"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "ענקיות קייטרינג שוקלות מעבר רישום לבורסה בארה\"ב כמכה נוספת לבריטניה",
+  "summary": "חברת קייטרינג גדולה הודיעה על כוונתה להעביר את רישום המניות שלה לארה\"ב, מהווה מכה נוספת לבורסה בלונדון על רקע גל עזיבות של חברות מהממלכה המאוחדת.",
+  "kid": "חברה בריטית גדולה עוברת להיסחר בארה\"ב במקום בלונדון. זה מראה שחברות רבות מעדיפות את שוק המניות האמריקאי.",
+  "i18n": {
+   "title": {
+    "he": "ענקיות קייטרינג שוקלות מעבר רישום לבורסה בארה\"ב כמכה נוספת לבריטניה",
+    "en": "Catering Giant to Switch Stock Market Listing to US in Blow to UK",
+    "ar": "عملاق تقديم الوجبات يعتزم نقل إدراج أسهمه إلى الولايات المتحدة في ضربة لبريطانيا",
+    "ru": "Крупный оператор общественного питания планирует перенести листинг акций в США"
+   },
+   "summary": {
+    "he": "חברת קייטרינג גדולה הודיעה על כוונתה להעביר את רישום המניות שלה לארה\"ב, מהווה מכה נוספת לבורסה בלונדון על רקע גל עזיבות של חברות מהממלכה המאוחדת.",
+    "en": "A major catering firm announced plans to shift its stock market listing to the US, marking another blow to the UK exchange amid a trend of corporate departures.",
+    "ar": "أعلنت شركة تقديم وجبات كبرى عن خطط لنقل إدراج أسهمها إلى الولايات المتحدة، مما يمثل ضربة أخرى لبورصة لندن وسط موجة مغادرة الشركات.",
+    "ru": "Крупная компания общественного питания объявила о планах перенести листинг своих акций в США, что стало очередным ударом по лондонской бирже."
+   },
+   "kid": {
+    "he": "חברה בריטית גדולה עוברת להיסחר בארה\"ב במקום בלונדון. זה מראה שחברות רבות מעדיפות את שוק המניות האמריקאי.",
+    "en": "A large British company is switching its stock listing to the US instead of London, showing firms prefer American stock markets.",
+    "ar": "شركة بريطانية كبرى تنقل إدراج أسهمها إلى الولايات المتحدة بدلاً من لندن، مما يوضح تفضيل الشركات للأسواق الأمريكية.",
+    "ru": "Крупная британская компания переносит листинг акций в США вместо Лондона, что показывает предпочтение американских рынков."
+   }
+  },
+  "category": "policy",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "down",
+    "t0": 1795427931,
+    "reason": "בריחת חברות בולטות מהבורסה בלונדון מחלישה את האטרקטיביות של השוק הבריטי.",
+    "reason_i18n": {
+     "he": "בריחת חברות בולטות מהבורסה בלונדון מחלישה את האטרקטיביות של השוק הבריטי.",
+     "en": "The departure of prominent firms from London weakens the UK market's appeal.",
+     "ar": "مغادرة الشركات البارزة لبورصة لندن يضعف جاذبية السوق البريطاني.",
+     "ru": "Уход видных компаний из Лондона ослабляет привлекательность британского рынка."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מניות בריטניה",
+     "en": "iShares UK ETF",
+     "ar": "صندوق مؤشر بريطانيا",
+     "ru": "ETF акций Великобритании"
+    },
+    "price_at_alert": 44.74
+   },
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "מעבר רישום של חברות זרות לבורסות בארה\"ב תומך בפעילות בשוק ההון האמריקאי.",
+    "reason_i18n": {
+     "he": "מעבר רישום של חברות זרות לבורסות בארה\"ב תומך בפעילות בשוק ההון האמריקאי.",
+     "en": "Foreign firms shifting listings to US exchanges supports American capital markets.",
+     "ar": "تحول الشركات الأجنبية للإدراج في البورصات الأمريكية يدعم أسواق المال الأمريكية.",
+     "ru": "Перенос листинга иностранных компаний на биржи США поддерживает американские рынки капитала."
+    },
+    "name_i18n": {
+     "he": "קרן סל S&P 500",
+     "en": "SPDR S&P 500 ETF Trust",
+     "ar": "صندوق مؤشر S&P 500",
+     "ru": "ETF S&P 500"
+    },
+    "price_at_alert": 689.81
+   }
+  ],
+  "id": "69654d7cb4db"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "בעלי וואילדבריז מתפטר בעקבות סנקציות האיחוד האירופי על אוליגרכים רוסים",
+  "summary": "בעלי פלטפורמת המסחר האלקטרוני הרוסית וואילדבריז התפטר מתפקידו לאחר ששמו נכלל בחבילת הסנקציות החדשה של האיחוד האירופי נגד אוליגרכים.",
+  "kid": "בעלים של חנויות אינטרנט גדולות ברוסיה עזב את תפקידו בגלל סנקציות מאירופה. זה מראה את ההשפעה של לחץ כלכלי בינלאומי.",
+  "i18n": {
+   "title": {
+    "he": "בעלי וואילדבריז מתפטר בעקבות סנקציות האיחוד האירופי על אוליגרכים רוסים",
+    "en": "Wildberries Owner Steps Down After EU Sanctions Target Russian Oligarchs",
+    "ar": "مالك 'وايلدبيريز' يتنحي بعد استهداف الأوليغارشية الروسية بعقوبات الاتحاد الأوروبي",
+    "ru": "Владелец Wildberries уходит в отставку после санкций ЕС против российских олигархов"
+   },
+   "summary": {
+    "he": "בעלי פלטפורמת המסחר האלקטרוני הרוסית וואילדבריז התפטר מתפקידו לאחר ששמו נכלל בחבילת הסנקציות החדשה של האיחוד האירופי נגד אוליגרכים.",
+    "en": "The owner of Russian e-commerce platform Wildberries stepped down after being targeted by new EU sanctions against Russian oligarchs.",
+    "ar": "تنحي مالك منصة التجارة الإلكترونية الروسية 'وايلدبيريز' بعد استهدافه بعقوبات الاتحاد الأوروبي الجديدة ضد الأوليغارشية.",
+    "ru": "Владелец российской платформы электронной коммерции Wildberries ушел в отставку после того, как попал под новые санкции ЕС против олигархов."
+   },
+   "kid": {
+    "he": "בעלים של חנויות אינטרנט גדולות ברוסיה עזב את תפקידו בגלל סנקציות מאירופה. זה מראה את ההשפעה של לחץ כלכלי בינלאומי.",
+    "en": "The owner of a major Russian online retailer stepped down due to European sanctions, showing the impact of global economic pressure.",
+    "ar": "ترك مالك متجر إلكتروني روسي كبير منصبه بسبب العقوبات الأوروبية، مما يوضح تأثير الضغط الاقتصادي العالمي.",
+    "ru": "Владелец крупного российского интернет-ритейлера ушел с поста из-за европейских санкций, демонстрируя влияние глобального давления."
+   }
+  },
+  "category": "trade",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUFiNl9ST3NCbm4tZ290cU11TzQ3dHJkVjNXWkhrZmdZYVExUHNYdVgxb0hFVTBwdW9yUFZZMVdqMGlVeVNDWm50NzlIZk9CZXhIQ1p3MlloLVBHOEpLbTg0cWh6VkdNbVF4NHp1ODBfalFOSXBfcjJpTVRURTJ6aDlsMEFaLXlhNE1EdzNENm1fQWp3OU5oaDlXX2R1UzBSeXo2MnFR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1795427931,
+    "reason": "החמרת סנקציות על גופים ובכירים רוסים ממשיכה להעיב על השווקים הפיננסיים והמסחריים במזרח אירופה.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות על גופים ובכירים רוסים ממשיכה להעיב על השווקים הפיננסיים והמסחריים במזרח אירופה.",
+     "en": "Tighter sanctions on Russian entities and figures continue to weigh on Eastern European markets.",
+     "ar": "تشديد العقوبات على الكيانات والشخصيات الروسية يلقي بظلاله על الأسواق في أوروبا الشرقية.",
+     "ru": "Ужесточение санкций против российских лиц продолжает оказывать давление на рынки."
+    },
+    "name_i18n": {
+     "he": "קרן סל על שווקים מתעוררים",
+     "en": "iShares MSCI Emerging Markets ETF",
+     "ar": "صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 53.84
+   }
+  ],
+  "id": "0f34ddb90219"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "לחימה ליד מוקד התפרצות האבולה ברפובליקה הדמוקרטית של קונגו משבשת את פעילות הסיוע",
+  "summary": "ארגון הבריאות העולמי אזהר כי הלחימה המתמשכת בקרבת אזור התפרצות האבולה ברפובליקה הדמוקרטית של קונגו פוגעת קשות במאמצי הבלימה והטיפול.",
+  "kid": "קרבות באזור שבו יש מחלת אבולה בקונגו מפריעים לרופאים לעזור לחולים. זה מעלה חשש מהתפשטות המחלה.",
+  "i18n": {
+   "title": {
+    "he": "לחימה ליד מוקד התפרצות האבולה ברפובליקה הדמוקרטית של קונגו משבשת את פעילות הסיוע",
+    "en": "Fighting Near DRC Ebola Outbreak Area Disrupts Response Efforts",
+    "ar": "القتال قرب منطقة تفشي إيبولا في الكونغو الديمقراطية يعطل جهود الاستجابة",
+    "ru": "Боевые действия вблизи зоны вспышки лихорадки Эбола в ДРК срывают ответные меры"
+   },
+   "summary": {
+    "he": "ארגון הבריאות העולמי אזהר כי הלחימה המתמשכת בקרבת אזור התפרצות האבולה ברפובליקה הדמוקרטית של קונגו פוגעת קשות במאמצי הבלימה והטיפול.",
+    "en": "The World Health Organization warned that ongoing fighting near the Ebola outbreak zone in the DRC is severely disrupting containment and response efforts.",
+    "ar": "حذرت منظمة الصحة العالمية من أن القتال المستمر قرب منطقة تفشي إيبولا في الكونغو الديمقراطية يعطل بشدة جهود الاحتواء.",
+    "ru": "Всемирная организация здравоохранения предупредила, что продолжающиеся боевые действия вблизи зоны вспышки Эбола в ДРК серьезно срывают усилия по ее сдерживанию."
+   },
+   "kid": {
+    "he": "קרבות באזור שבו יש מחלת אבולה בקונגו מפריעים לרופאים לעזור לחולים. זה מעלה חשש מהתפשטות המחלה.",
+    "en": "Fighting in an Ebola-hit area of Congo is disrupting medical help, raising fears of disease spread.",
+    "ar": "القتال في منطقة متضررة من إيبولا في الكونغو يعطل المساعدة الطبية، مما يثير مخاوف من انتشار المرض.",
+    "ru": "Боевые действия в зоне вспышки Эбола в Конго мешают медицинской помощи, вызывая опасения распространения болезни."
+   }
+  },
+  "category": "health",
+  "severity": 3,
+  "confidence": "low",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQTlUdWJ6SW5vSncwOXNYSV9MaWdSOXFic0x2NTRtQ3ZuYWdiWWhMZWJYaFl1eUZZMXNEclZEcXBXYjQ5QkFjbDd6Sm9nUlphVHpkeE1IU2dBXy00RWJmU1JaYXVSUGtDWEdOenhFVWUxa0ZSeTEyalRINDdOeDNvdXNRblRsQVNQYU9CSW5fZWdLb3R6SURSYkgwalc5ZEwzSjU1aA?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HMnAzMW85TERRNmc4RHlMUy1kYzB4VmlLWVJZRG5ZSm1ZNWhUNmpSZmMzc25vcXRrUjJHdGYzTGpsMDBvb1RZcFNlMHNJd2kwS2JwUWVMekZtTVR3WVNtYnBhQ2pROWM?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "MRNA",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "חששות מהתפשטות מגפות גלובליות וקשיי תגובה מעלים את המודעות לחיסונים וטכנולוגיות רפואיות.",
+    "reason_i18n": {
+     "he": "חששות מהתפשטות מגפות גלובליות וקשיי תגובה מעלים את המודעות לחיסונים וטכנולוגיות רפואיות.",
+     "en": "Fears of global outbreaks and response bottlenecks raise awareness for vaccines and medical tech.",
+     "ar": "مخاوف تفشي الأوبئة العالمية وعقبات الاستجابة ترفع الوعي باللقاحات والتكنولوجيا الطبية.",
+     "ru": "Опасения глобальных вспышек повышают интерес к вакцинам и медицинским технологиям."
+    },
+    "name_i18n": {
+     "he": "מודרנה - חברת ביוטכנולוגיה וחיסונים",
+     "en": "Moderna Inc",
+     "ar": "شركة مودرنا لللقاحات",
+     "ru": "Moderna - биотехнологическая компания"
+    },
+    "price_at_alert": 195.0
+   }
+  ],
+  "id": "aca07a6df061"
+ },
+ {
+  "ts": 1795427931,
+  "time": "2026-11-23T09:58Z",
+  "title": "רכש דיגיטלי משנה את תחרות הלוגיסטיקה העולמית מעבר למחירי הובלה",
+  "summary": "מגזיני סחר וכלכלה מציינים כי מעבר לפתרונות רכש דיגיטליים בלוגיסטיקה משנה את אופן התחרות בענף, מתמקדות ביעילות ושרשרת אספקה חכמה ולא רק במחיר.",
+  "kid": "חברות משתמשות במערכות דיגיטליות מתקדמות כדי לנהל הובלות ומשלוחים. זה עוזר לחברות שילוח ולוגיסטיקה להיות יעילות יותר.",
+  "i18n": {
+   "title": {
+    "he": "רכש דיגיטלי משנה את תחרות הלוגיסטיקה העולמית מעבר למחירי הובלה",
+    "en": "Digital Procurement Transforms Global Logistics Competition Beyond Lowest Freight Rates",
+    "ar": "المشتريات الرقمية تحول المنافسة اللوجستية العالمية إلى ما بعد أدنى أسعار الشحن",
+    "ru": "Цифровые закупки меняют глобальную логистическую конкуренцию за рамки минимальных ставок фрахта"
+   },
+   "summary": {
+    "he": "מגזיני סחר וכלכלה מציינים כי מעבר לפתרונות רכש דיגיטליים בלוגיסטיקה משנה את אופן התחרות בענף, מתמקדות ביעילות ושרשרת אספקה חכמה ולא רק במחיר.",
+    "en": "Trade reports highlight that digital procurement solutions in logistics are reshaping industry competition by focusing on efficiency and smart supply chains rather than just price.",
+    "ar": "تشير تقارير تجارية إلى أن حلول الشراء الرقمي في الخدمات اللوجستية تعيد تشكيل المنافسة الصناعية بالتركيز على الكفاءة.",
+    "ru": "Торговые отчеты подчеркивают, что цифровые решения по закупкам в логистике меняют конкуренцию, фокусируясь на эффективности."
+   },
+   "kid": {
+    "he": "חברות משתמשות במערכות דיגיטליות מתקדמות כדי לנהל הובלות ומשלוחים. זה עוזר לחברות שילוח ולוגיסטיקה להיות יעילות יותר.",
+    "en": "Companies are using advanced digital systems to manage shipping and logistics, helping delivery firms become more efficient.",
+    "ar": "تستخدم الشركات أنظمة رقمية متقدمة لإدارة الشحن والخدمات اللوجستية لمساعدة شركات التوصيل.",
+    "ru": "Компании используют передовые цифровые системы для управления доставкой, повышая эффективность логистики."
+   }
+  },
+  "category": "contracts",
+  "severity": 2,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOTMzdV9aTG00RHRFSG92aTljc3B2TEhmMmYxcGw1UWdFamlEV0lWdTBIamhNalp5ZzVUdUtSTVhhWmY2aDRGRlhybGJLSUlZTEMwYnZVVHVuNmpfaXU1ZVFJLU9lV1dsXzZjbXExaXd5NjdkLUtxNFF5aXJrOWh6VkdUZ3dKY0VKN0ZzbVloaER4R25sZm5hZ0hPTV9vQkJ0ZHkyUlRpVEJCamJONk12Tl9rMDBCTF9CcFpkampSdw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "FDX",
+    "direction": "up",
+    "t0": 1795427931,
+    "reason": "אימוץ טכנולוגיות רכש ולוגיסטיקה דיגיטליות משפר את שולי הרווח ויעילות התפעול.",
+    "reason_i18n": {
+     "he": "אימוץ טכנולוגיות רכש ולוגיסטיקה דיגיטליות משפר את שולי הרווח ויעילות התפעול.",
+     "en": "Adopting digital procurement and logistics tech improves margins and operational efficiency.",
+     "ar": "تبني تقنيات الشراء واللوجستيات الرقمية يحسن هوامش الربح والكفاءة التشغيلية.",
+     "ru": "Внедрение цифровых технологий закупок улучшает маржу и операционную эффективность."
+    },
+    "name_i18n": {
+     "he": "פדקס - חברת שילוח בינלאומית",
+     "en": "FedEx Corporation",
+     "ar": "شركةفيدكس للشحن",
+     "ru": "FedEx - международная служба доставки"
+    },
+    "price_at_alert": 303.99
+   }
+  ],
+  "id": "fab67c18b76f"
  }
 ]
