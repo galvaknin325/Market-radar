@@ -1719,246 +1719,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794811392,
-  "time": "2026-11-16T06:43Z",
-  "title": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
-  "summary": "מכון מחקר צ'כי ערך סימולציה הבוחנת את ההשפעות והתרחישים של מצור ימי ואווירי שמטילה סין על טייוואן.",
-  "kid": "מומחים בדקו מה יקרה אם סין תחסום את טייוואן, מקום מרכזי לייצור שבבים. אם תתרחש מתיחות אמיתית, מניות טכנולוגיה עשויות לרדת כי ייצור השבבים ייפגע.",
-  "i18n": {
-   "title": {
-    "he": "סימולציה של חשיבה צ'כית מדמה מצור סיני על טייוואן",
-    "en": "Czech Think Tank Simulates Chinese Blockade of Taiwan",
-    "ar": "مركز أبحاث تشيكي يحاكي حصاراً صينياً لتايوان",
-    "ru": "Чешский аналитический центр смоделировал китайскую блокаду Тайваня"
-   },
-   "summary": {
-    "he": "מכון מחקר צ'כי ערך סימולציה הבוחנת את ההשפעות והתרחישים של מצור ימי ואווירי שמטילה סין על טייוואן.",
-    "en": "A Czech think tank conducted a simulation examining the potential impacts and scenarios of a Chinese naval and air blockade of Taiwan.",
-    "ar": "أجري مركز أبحاث تشيكي محاكاة تبحث التأثيرات والسيناريوهات المحتملة لحصار بحري وجوي صيني على تايوان.",
-    "ru": "Чешский аналитический центр провел симуляцию, изучая возможные последствия и сценарии морской и воздушной блокады Тайваня со стороны Китая."
-   },
-   "kid": {
-    "he": "מומחים בדקו מה יקרה אם סין תחסום את טייוואן, מקום מרכזי לייצור שבבים. אם תתרחש מתיחות אמיתית, מניות טכנולוגיה עשויות לרדת כי ייצור השבבים ייפגע.",
-    "en": "Experts tested what would happen if China blocks Taiwan, a major chip manufacturing hub. Real tensions could drop tech stocks due to disrupted chip supply.",
-    "ar": "اختبر الخبراء ما سيحدث إذا فرضت الصين حصاراً على تايوان، وهي مركز رئيسي لصناعة الرقائق. التوترات الحقيقية قد تهبط بأسهم التكنولوجيا بسبب تعطل إمدادات الرقائق.",
-    "ru": "Эксперты проверили, что произойдет, если Китай заблокирует Тайвань — главный центр производства чипов. Реальная напряженность может уронить акции технологий из-за нарушения поставок чипов."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jR1V6Wk5UZkEzdDJQa01sUWFKNUdKck02elU2RUowaTZiekJNb3k0c1VxUW0wZmlidGV6OFZ0MTVvb3lvbnFvc0hwLWpKei05Mi1EaWNvTU0?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "TSM",
-    "direction": "down",
-    "t0": 1794811392,
-    "reason": "חשש מסיכונים גיאופוליטיים לשרשרת אספקת השבבים בטייוואן.",
-    "reason_i18n": {
-     "he": "חשש מסיכונים גיאופוליטיים לשרשרת אספקת השבבים בטייוואן.",
-     "en": "Concerns over geopolitical risks to Taiwan's semiconductor supply chain.",
-     "ar": "المخاوف من المخاطر الجيوسياسية على سلسلة إمداد أشباه الموصلات في تايوان.",
-     "ru": "Обоюдосторонняя озабоченность геополитическими рисками для цепочки поставок чипов на Тайване."
-    },
-    "name_i18n": {
-     "he": "TSMC – יצרנית שבבים גדולה מטייוואן",
-     "en": "TSMC – major Taiwan chipmaker",
-     "ar": "TSMC - شركة تصنيع رقائق كبرى في تايوان",
-     "ru": "TSMC — крупный тайваньский производитель чипов"
-    },
-    "price_at_alert": 398.73,
-    "entry_price": 379.59,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 359.69,
-    "exit_date": "2026-11-17",
-    "change_pct": -5.24,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": -2.94,
-    "edge_pct": 2.94,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794811392,
-    "reason": "תלות בייצור שבבים בטייוואן יוצרת רגישות לכל אירוע צבאי באזור.",
-    "reason_i18n": {
-     "he": "תלות בייצור שבבים בטייוואן יוצרת רגישות לכל אירוע צבאי באזור.",
-     "en": "Reliance on Taiwan-based chip manufacturing creates vulnerability to regional military events.",
-     "ar": "الاعتماد على تصنيع الرقائق في تايوان يخلق حساسية تجاه أي حدث عسكري إقليمي.",
-     "ru": "Зависимость от производства чипов на Тайване создает уязвимость к региональным военным событиям."
-    },
-    "name_i18n": {
-     "he": "אנבידיה – ענקית השבבים",
-     "en": "Nvidia – chip giant",
-     "ar": "إنفيديا - عملاق الرقائق",
-     "ru": "Nvidia — гигант по производству чипов"
-    },
-    "price_at_alert": 162.85,
-    "entry_price": 159.0025,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 155.47,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.22,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.08,
-    "edge_pct": -0.08,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "05129a9e1685",
-  "evaluated": true
- },
- {
-  "ts": 1794811392,
-  "time": "2026-11-16T06:43Z",
-  "title": "ארה\"ב צפויה להטיל סנקציות על רשת הסמים של חזבאללה בביירות",
-  "summary": "ארצות הברית מתכננת להטיל בקרוב סנקציות חדשות המכוונות נגד רשת להלבנת הון וסחר בסחר סמים המקושרת לחזבאללה בביירות.",
-  "kid": "ארה\"ב מקדמת צעדים פיננסיים נגד גורמים עבריינים המממנים ארגוני טרור במזרח התיכון.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב צפויה להטיל סנקציות על רשת הסמים של חזבאללה בביירות",
-    "en": "US Imminent Sanctions Target Hezbollah Drug Network in Beirut",
-    "ar": "الولايات المتحدة تستعد لفرض عقوبات على شبكة مخدرات حزب الله في بيروت",
-    "ru": "США готовят санкции против нарсети «Хезболлы» в Бейруте"
-   },
-   "summary": {
-    "he": "ארצות הברית מתכננת להטיל בקרוב סנקציות חדשות המכוונות נגד רשת להלבנת הון וסחר בסחר סמים המקושרת לחזבאללה בביירות.",
-    "en": "The United States is poised to impose new sanctions targeting a Hezbollah-linked drug trafficking and money laundering network in Beirut.",
-    "ar": "تستعد الولايات المتحدة لفرض عقوبات جديدة تستهدف شبكة لتهريب المخدرات وغسيل الأموال مرتبطة بحزب الله في بيروت.",
-    "ru": "Соединенные Штаты собираются ввести новые санкции против связанной с «Хезболлой» сети наркоторговли и отмывания денег в Бейруте."
-   },
-   "kid": {
-    "he": "ארה\"ב מקדמת צעדים פיננסיים נגד גורמים עבריינים המממנים ארגוני טרור במזרח התיכון.",
-    "en": "The U.S. is advancing financial actions against criminal actors funding Middle Eastern militant groups.",
-    "ar": "تتخذ الولايات المتحدة إجراءات مالية ضد الجهات الإجرامية التي تمول الجماعات المسلحة في الشرق الأوسط.",
-    "ru": "США предпринимают финансовые меры против криминальных элементов, финансирующих боевые группы на Ближнем Востоке."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUTlzdWxPUWJiSTVQMG5NMWEyODNvcGdPX3J4dDZURXNKMy1SZDFDMkg2OC0yV3dPN25hX2VUa1Y2R1hvdk9IMHVqVUhQY204WmZwalo3djVhTFBSV2FpSnpqWVNrV3puZC1hWHZQcnc4Y0tnak1hM1FSM016MmdzVVgtOE9SQVVpb3oxR3BCaDFoWHRyZTZPVVk5T3NXRHJ5RlllRg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794811392,
-    "reason": "החמרת המתיחות והפעולות נגד גורמים עוינים מחזקת את סקטור הביטחון.",
-    "reason_i18n": {
-     "he": "החמרת המתיחות והפעולות נגד גורמים עוינים מחזקת את סקטור הביטחון.",
-     "en": "Heightened tensions and actions against hostile actors support the defense sector.",
-     "ar": "تصاعد التوترات والإجراءات ضد الجهات العدائية يدعم قطاع الدفاع.",
-     "ru": "Эскалация напряженности и меры против враждебных акторов поддерживают оборонный сектор."
-    },
-    "name_i18n": {
-     "he": "קרן סל לתעשיות ביטחוניות בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق قطاع الفضاء والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 71.51,
-    "entry_price": 70.84,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 69.63,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.71,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.59,
-    "edge_pct": 0.59,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "e2dc7fceaa49",
-  "evaluated": true
- },
- {
-  "ts": 1794811392,
-  "time": "2026-11-16T06:43Z",
-  "title": "הנפור וור פאואר חותמת על חוזה הסבה של מתקני FSRU",
-  "summary": "חברת Hanwha Power חתמה על חוזה פרויקט מפתח (Turnkey) להסבת מתקני אחזור וגזיזת גז (FSRU) מול חברת Energos Infrastructure.",
-  "kid": "חברת האנרגיה Hanwha זכתה בחוזה גדול לבניית והסבת מתקני גז טבעי. עסקאות ענק כאלו מחזקות את הפעילות העסקית של החברה והספקים שלה.",
-  "i18n": {
-   "title": {
-    "he": "הנפור וור פאואר חותמת על חוזה הסבה של מתקני FSRU",
-    "en": "Hanwha Power Signs FSRU Conversion Contract",
-    "ar": "هانوا باور توقيع عقد تحويل مرافق FSRU",
-    "ru": "Hanwha Power подписала контракт на переоборудование FSRU"
-   },
-   "summary": {
-    "he": "חברת Hanwha Power חתמה על חוזה פרויקט מפתח (Turnkey) להסבת מתקני אחזור וגזיזת גז (FSRU) מול חברת Energos Infrastructure.",
-    "en": "Hanwha Power has signed a turnkey FSRU conversion contract with Energos Infrastructure to boost energy supply chain infrastructure.",
-    "ar": "وقعت شركة هانوا باور عقد تحويل مفتاح بيد (Turnkey) لمرافق الغاز مع شركة إنرغوس للبنية التحتية.",
-    "ru": "Компания Hanwha Power подписала контракт «под ключ» на переоборудование плавучих установок СПГ с Energos Infrastructure."
-   },
-   "kid": {
-    "he": "חברת האנרגיה Hanwha זכתה בחוזה גדול לבניית והסבת מתקני גז טבעי. עסקאות ענק כאלו מחזקות את הפעילות העסקית של החברה והספקים שלה.",
-    "en": "Energy firm Hanwha won a major contract to build gas infrastructure, which boosts its business outlook and supply chain partners.",
-    "ar": "فازت شركة الطاقة هانوا بعقد كبير لبناء البنية التحتية للغاز، مما يعزز آفاق أعمالها وشركاء سلسلة التوريد.",
-    "ru": "Энергетическая компания Hanwha выиграла крупный контракт на инфраструктуру СПГ, что укрепляет ее бизнес-перспективы."
-   }
-  },
-  "category": "contracts",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBcnJDLS1HRzR6QmZxVWZmbXNyZHdZUGZrMGdneXdETjNuT0g1YnpMQkM2NW1JaldxSnNFQktYYnpTSkNhNU1odTNJeHFNTjEzSVhvYlJranZ6UkQ0?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "UNG",
-    "direction": "up",
-    "t0": 1794811392,
-    "reason": "השקעות חדשות בתשתיות גז תומכות בפיתוח שרשרת האספקה של גז טבעי.",
-    "reason_i18n": {
-     "he": "השקעות חדשות בתשתיות גז תומכות בפיתוח שרשרת האספקה של גז טבעי.",
-     "en": "New investments in gas infrastructure support the development of the natural gas supply chain.",
-     "ar": "الاستثمارات الجديدة في البنية التحتية للغاز تدعم تطوير سلسلة إمداد الغاز الطبيعي.",
-     "ru": "Новые инвестиции в газовую инфраструктуру поддерживают развитие цепочки поставок природного газа."
-    },
-    "name_i18n": {
-     "he": "קרן סל על גז טבעי",
-     "en": "Natural Gas Fund ETF",
-     "ar": "صندوق الغاز الطبيعي",
-     "ru": "ETF природного газа"
-    },
-    "price_at_alert": 10.15,
-    "entry_price": 9.9,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 10.035,
-    "exit_date": "2026-11-17",
-    "change_pct": 1.36,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 3.67,
-    "edge_pct": 3.67,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "eb5fd5c989c3",
-  "evaluated": true
- },
- {
   "ts": 1794821245,
   "time": "2026-11-16T09:27Z",
   "title": "אינפלציית הסיטונאות בהודו מזנקת ל-12.29%",
@@ -40903,27 +40663,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0YW9PaDhwYlFhVnltU1o2SGJneW5mNXlrMVd3NFU2RkdjQkpQbHNySVBkR09CamI1UTBhQ2plUENjUHc5V0paMUhmeWR0YWRRVFpCUmROVU1tX05VV0gtbkFweGpCcWQy?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN0FmLUMyNjFWenhTdXlxeEdqdXR5Z1EyODl4TXFuXzdRRGg4LUdiVUxIOWpHZzN2MnllcmRqY00tNFpBemFYQ2ZXTGJXY3ZmRnFvaWl2cEcxZ2dLN0Y5bko5UDRJSGVKblZERTZKUWNlV18tZlltR3dNRXh4SnhPUHJoS3g2bVhTM1RrMlhXLVY0aVZKWmdnd3h5RExMM2tHY0tPOU85WVRNc2EwSHhPLU9ubThzZU8xS0h5c01oTmpqellGQmJXY3ZtRTBubUhBeDBCMtIB2gFBVV95cUxOUHVpQXJCQ0ZSVWVBQ3drbmE2MUx1VTJ3N1NxX3lUSnd4RW5kRTI0QXpRTWNCYmtranotVG40MkZvYmxqUl91b3ZjM25tMHZseHZrM0VwMDZfaFRnb2wtR3FWT1JmZGc5MmFtVmZpR3plZHdwM0MxZTJ5TS1senk0U19yeG4tUi13R08zVVpvc2lZUzg3aUdzWlByN3poMmtEN3l3dnktUHJSNUlpdDBxVXJIeWdJdGxObVRjX0RiMGNZaFFZdGFuSzhSSjExVmVLb2hmXy1Td0dJZw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQT0hFbzBTbDRINW1Ocnh0LWVmdGQtNFZsWFFlbDJHNWV1RmdyNjVfY0ZFWjlBWjgxc0hzVWhNY0VyOFZWRFg5bktjeFp2eVIyRjVHVkRlLU5RT256QnBUQXhXR3lRaE9lSTBfU2hYMUdyRnNlSU9KSzlPeUdPYkM1N0piejBNTVdKeW5UbWdQZXdJTWZCdk05d3hEX3c0SWVvZFNNa2xxSEsxbVZFa1J6RWJ3cG9KMUhuZzhrNTNtcDk3V1NDZ3ZFUHBxV1VIYU5jTTFWd3dvdmc?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1pmcTZSaGRrRDI0OHAwS2Y3Skc0Q1FpQlhhZDMydnBjbmpIU3dvZDBNM002UUcteVpKSlFud0JFQzVFSnltQl9HZmM0UGFCWVVCem9KX3NnRTBGaWlfTDk0S3B1ekdJcF9rQTVNYXAtdTlXMkZGSFZ6MkhzUkhiQy1EYnJ1Z3ZNTUkzZkp2UTltSm9xRlVMN3B0Y0s0aXpqdGc?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaVlUdE1QV0FrbS1kVFlMU0lmSk5OSzVvV09yV0wtMnlWel9xM2Y1M1QzRjNfTXRIelVMYUhzNktGZ3VPWGV0ZmhzclFVTDl6VWM2REtIQWZZdFpQYWkzRUNZSVVodzN1bmlSZkRLdG1ZRTVzTkRqbTJGUnJva2NWY0lBQ3dGZ3d5UXpza2ZCTWZxUmIwRF9XRURJWTJmSjNTaENSZDl5ejBxV2RPTW10Mmw3THRJLS1jaVN6MHoyMUZHOHVpRGVvc0xLMA?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcXFSeVlrX01Uc3lDY3hRMGxMaGxGRUpTd0ZSeUNHM1NfcGp5VGJoSUJlN1J4bFI3bjZvSkM1NmVMMF9GTENpQzRiWjFGWDRJTEZqYXpoMm1qcHRZOW43azVwcGN4NEhYdm96am1wQnBmLVNROGhfRFNMck5OZkZwMzZoaG5SN1FLekY3LUM1TGRDWUtCZjVQYkx0d2doRncwaGtSSUZYcjdocWg0RlJLRk54dWhLTUF3d1J5Rw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1uTk9TWUNUamlGcVVTSGpPakYwQjBiQnREa0dCakxrcl9qcWNycm1OakJtZnphdXYxYXYtNHNqYXRXdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEhkT1c5eXJLelhPNDl3VGYzVFdWVlJUbnEtekJrb05kZm1jeERNVUZNYmtPMl9LNUNvWTdqb3N1eVloV1RBTkIxcVJ0cmN3MEJjNTJYWjR2SFR4WUxRY3VETjZZTXkxZ3ZvS2ZCSjVVM0xIUGY1cWN2cTNEQVNCVklCUWtGT1pKNGpPbzJtRmdCWWNmOW1LMl9zb0hFUjRBeU12R0d1ZUdHeDZSM214RDlvNDk?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONE5kMHFDbnRoVGtsRTIwWG9LSl9FWGNyOEg5V254ck5BeERtakJkaTVOOWowMnR4SERxMUpsRkl2dmlMZERkMFVMLUd6dXlvUlVWbU9TOVdJQVkyQzYxQ0lkakxWWmdMamhocW1OSWdlMjdNSGtVYUdkYm5UWW81Q1ZRX3QtWlZHdFgtYWR0eW54NUF1UmVnQmQ5dXhCSTRSQVE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHNibWVPRzFWQUQzQjFDcXFxYURnR3UwSHp1eE1qY080eU9Ha1FBZG1rajNUWFpzYm9Lam9fUXA4cmRkeWdNZzRoSnVkUWlSRWRMM25XbXduUGxzZHJjdDJiU3FFeU56dkIwWmRsd1NPQVhKQS1JYWlkSnZEWDlKZ19ESE5ZRW80eXowQ0o3Z1lPdmk5UzE5VEJkRlZjMERYa3RvS3E5czNxU0ZuNkpSTE5KQno1VlUtdW84?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNQ1JfcUs3RlZDQ2FCeERGb181Q3E1RXRtVUgtcGs5cTZCM1lLZnRUeXBWU1NveDdvM0ZURXFZdV8xS3loRXVNU0lwcWZkeXhNMUtIblotSVhldnhmQVlHakFxdjVFazJVazNVM3hlZ2c4bjlBdzVaMmh5MDJENFZhVG1TbEdXWVVXc0RKQ0dpckhhdHU0UDdNU2FHR1ZWcUZzR2w0RjdMd0h0ZHlNMzktRzFxSE5PNjhoMjQwd3YxaWx5VUZwbkFnTGdwdG5LSmg1REVsMFhVaTJ0eUpBeHNITXBRd0FrSk1SVU05X3EwdVNsa0p4MnloN3BnQngtcmltOEhCb193V3VSOHp1QzBoRDRCVGp1RkZMbFpHZ1hDeWtuY0JwaERYR3B6Q1BjQdIBswJBVV95cUxPV01hM2ZpTUxoU2JHVEp6ZjVPOFZfbnEzbjdNWHZmZEVscGppaEF4QXVGdEVpYlRmRXFWYTdRSklERU03NnBtUVBITXJ5RllLeWZDS0tmb01SV29aaEhqUTBRR2FOcURlTXlUWTNXaWlick9rSjJwRWpUYTc4RUpONWJkQjNfa3ZVX3lfT2gtU1E5WmJ0bUdmelpvQVFqZ19FRUJhMjY0TzZhTHlacGVhTWoxWVpobTQ3ZjdxYmd3b0JFdTUzOTNmMDBMYkpWVWJXYklpLUVTOV91VHNjUHJTckI2aGlidG9aa1VOeHlTN1lXbGstMkh1c2FxLU5adV9kTUJtWFFwZUJGRExhYWVXMk1McmZDRkRTa3pPeThVcWd5NHo1SDdPOE1kbVlmVzczZVNF?oc=5"
    }
   ],
   "impacts": [
@@ -41040,6 +40800,25 @@
      "ru": "Lockheed Martin - ведущий оборонный подрядчик"
     },
     "price_at_alert": 565.5
+   },
+   {
+    "ticker": "CVX",
+    "direction": "up",
+    "t0": 1795416992,
+    "reason": "מתיחות ביטחונית במפרץ מקפיצה את מחירי הנפט",
+    "reason_i18n": {
+     "he": "מתיחות ביטחונית במפרץ מקפיצה את מחירי הנפט",
+     "en": "Security tensions in the Gulf drive oil prices higher",
+     "ar": "التوترات الأمنية في الخليج تدفع أسعار النفط للارتفاع",
+     "ru": "Напряженность с безопасностью в Персидском заливе поднимает цены на нефть"
+    },
+    "name_i18n": {
+     "he": "CVX – שברון, חברת אנרגיה גדולה",
+     "en": "CVX – Chevron, a major energy company",
+     "ar": "CVX – شيفرون، شركة طاقة كبرى",
+     "ru": "CVX – Chevron, крупная энергетическая компания"
+    },
+    "price_at_alert": 208.37
    }
   ],
   "id": "77d8412453fc",
@@ -41151,9 +40930,21 @@
      "ar": "تشير التقارير إلى أن 14 ناقلة نفت إيرانية تخطط لتحدي الحصار البحري الذي تفرضه الولايات المتحدة، مما يرفع التوترات الجيوسياسية.",
      "ru": "Сообщается, что 14 иранских нефтяных танкеров планируют бросить вызов морской блокаде США, усиливая геополитическую напряженность."
     }
+   },
+   {
+    "ts": 1795416992,
+    "time": "2026-11-23T06:56Z",
+    "severity": 6,
+    "summary": "מתיחות גוברת במפרץ הפרסי לאחר שמשמר המהפכה האיראני דיווח על פגיעת מוקשים ימיים במכליות נפט במצר הורמוז, והשווקים מגיבים לחששות מפני שיבושים באספקת האנרגיה.",
+    "i18n": {
+     "he": "מתיחות גוברת במפרץ הפרסי לאחר שמשמר המהפכה האיראני דיווח על פגיעת מוקשים ימיים במכליות נפט במצר הורמוז, והשווקים מגיבים לחששות מפני שיבושים באספקת האנרגיה.",
+     "en": "Tensions rise in the Persian Gulf after the Iranian IRGC reported that oil supertankers were hit by naval mines in the Strait of Hormuz, driving market anxiety over energy supplies.",
+     "ar": "تصاعد التوتر في الخليج العربي بعد أن أفاد الحرس الثوري الإيراني بتعرض ناقلات نفط عملاقة لألغام بحرية في مضيق هرمز، مما أثار مخاوف الأسواق بشأن إمدادات الطاقة.",
+     "ru": "Напряженность в Персидском заливе возрастает после сообщений Корпуса стражей исламской революции Ирана о подрыве супертанкеров на морских минах в Ормузском проливе."
+    }
    }
   ],
-  "last_update": 1795412931
+  "last_update": 1795416992
  },
  {
   "ts": 1795375651,
@@ -42065,10 +41856,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdnVGc3BJQnRWck9zQTRiMjRpeEdOS0lHMzVSOThrS2VNSkxVeEN0LUcyd0pndnpxRG5Lak9tdmt5cDcyVDN4aWlINFFONV9OeVJZLVpFdmtWN3V3V1JfWldOSDVZVWYzT3JCY21QeHg5MF9YMHdXSlQxX0FZRmpabDhQLXJjSnVvWmlWRFo2UXB3T2pzWFM3NA?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSURRYUhDcDE5Tm1ubS1hUFVsR1dBNHRrU0g2RThjZ191RG5YRFNpajlTalhUaHp3bjJHTFczdzNaVmt3ZXZrb2IzVTFjRW5aZXB1bXJncVpWR0Zxc3Z3YnFLV3M5UDJXaG80UW5FbDd6YlVWaGQ4aFNsVVdRT2dWcWZ4LVYxY2thTlpZM3Mtc1ZFSHY2eUFMam5CQXpUaUszcVAzQlhJY1FlOHh4T3NLWjhwdE9nOWVTMENF0gHAAUFVX3lxTE9BcmZubFByR2kxbzAtLXR2OUZFUnNkQ2laQ1JMVWFlQlhGWUpxM0xTNGZHZ2dEUjJpaUV3dDMxa3Q1Wm9xd1RCazVYWkNhbl9yaWFUWlZuTGRhWktQemtHTGFVUDVRdzIyM3hGMDZIcVNBR0FBTnd4cHhoYmdKdzZidHp6V2N6a2lNQk1zVnM5U1dhWVFEbUowUjQ0SDFkNnhIOE1ZYzhWalZSbmxOVWRfLV9JUG1rUlY2MUdhaXk2ag?oc=5"
    },
    {
@@ -42086,6 +41873,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYlBwMVVMY29iUEg1YzZLbUExbS1hcjJBb25wODJPWFdXVGM4WmxkSExicE1kbHQ5bUtUQlJzNk90TUFoMVdMODE5dzg5X2d6eEdnRGd5TWl5b3FvSldfUzVxN0lKbVY2VTdIb2t3V1hKaDJsTVVUOThqdC04cUg1TUJTNDByV3hMMmxzSFVVWDRJRm1SMEVQa0tqeHdyVDVybW0xbTBVTTUyV0FOUEoyMTQtRnpHbzJnTVhBRUlJSUQ1THFWQVJlU2tFa1Q?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPakQ2UjNvbFlScF8yV2cxX1hRMG51VDViTE83anQyenBkUld6V3lhWXdwVW5JRTBVLUVfNlUtbnFDM2ZJcjNPNWFqazFXMnhqb0pnSThQRHFMWS1lMlhEUngxRUYyN3BHVk1wM3ZsNWpsOFNOSDFHRkhUMlU5THVfVzcySG5jQ3RWdzFpY2VXN3NVM3Nwa2g3eE1vYUphX0VIRUVxUUxhVndFd0Y3U2U2OXVfOVh6QkJRaHlQVUxaWnkzUQ?oc=5"
    }
   ],
   "impacts": [
@@ -42160,9 +41951,21 @@
      "ar": "ارتفعت أسعار النحاس بعد انخفاضها الأسبوع الماضي وسط مخاوف السوق، بينما كشفت عملاق التعدين بي إتش بي عن خطط لإنفاق ما يصل إلى 17.4 مليار دولار.",
      "ru": "Цены на медь растут после падения на прошлой неделе на фоне рыночных опасений, в то время как горнорудный гигант BHP планирует инвестировать до $17,4 млрд."
     }
+   },
+   {
+    "ts": 1795416992,
+    "time": "2026-11-23T06:56Z",
+    "severity": 4,
+    "summary": "ענקית הכרייה BHP הכריזה על תוכנית בשווי 17.4 מיליארד דולר להכפלת תפוקת הנחושת במכרה באוסטרליה עד שנת 2040.",
+    "i18n": {
+     "he": "ענקית הכרייה BHP הכריזה על תוכנית בשווי 17.4 מיליארד דולר להכפלת תפוקת הנחושת במכרה באוסטרליה עד שנת 2040.",
+     "en": "Mining giant BHP unveiled a $17.4 billion plan to double copper output at its South Australian mine by 2040.",
+     "ar": "أعلنت شركة التعدين العملاقة بي إتش بي عن خطة بقيمة 17.4 مليار دولار لمضاعفة إنتاج النحاس في منجمها بأستراليا بحلول عام 2040.",
+     "ru": "Горнодобывающий гигант BHP представил план стоимостью 17,4 млрд долларов по удвоению добычи меди на своем руднике в Австралии к 2040 году."
+    }
    }
   ],
-  "last_update": 1795403977
+  "last_update": 1795416992
  },
  {
   "ts": 1795389396,
@@ -42865,5 +42668,121 @@
    }
   ],
   "id": "8676b27331b6"
+ },
+ {
+  "ts": 1795416992,
+  "time": "2026-11-23T06:56Z",
+  "title": "זהב מזנק מעל 3,600 דולר על רקע הערכות מחודשות על הריבית",
+  "summary": "מחיר הזהב זינק בלמעלה מ-2% ונסחר מעל 3,600 דולר לאונקיה, בעוד המשקיעים מעריכים מחדש את צעדי המדיניות הצפויים של הפדרל ריזרב.",
+  "kid": "מחיר הזהב עלה בחדות כי משקיעים מחפשים מקלט בטוח בעקבות ציפיות חדשות לגבי ריבית הבנק המרכזי בארה\"ב.",
+  "i18n": {
+   "title": {
+    "he": "זהב מזנק מעל 3,600 דולר על רקע הערכות מחודשות על הריבית",
+    "en": "Gold Surges Above $3,600 Amid Reassessed Fed Rate Expectations",
+    "ar": "الذهب يرتفع فوق 3600 دولار وسط إعادة تقييم توقعات أسعار الفائدة",
+    "ru": "Золото подскочило выше $3600 на фоне пересмотра ожиданий по ставке ФРС"
+   },
+   "summary": {
+    "he": "מחיר הזהב זינק בלמעלה מ-2% ונסחר מעל 3,600 דולר לאונקיה, בעוד המשקיעים מעריכים מחדש את צעדי המדיניות הצפויים של הפדרל ריזרב.",
+    "en": "Gold prices jumped over 2% to trade above $3,600 as investors reassess expected Federal Reserve rate hike paths and monetary policies.",
+    "ar": "ارتفعت أسعار الذهب بأكثر من 2% لتتداول فوق 3600 دولار مع إعادة المستثمرين تقييم مسار أسعار الفائدة لمجلس الاحتياطي الفيدرالي.",
+    "ru": "Цены на золото выросли более чем на 2% и торгуются выше $3600, так как инвесторы переоценивают траекторию процентных ставок ФРС."
+   },
+   "kid": {
+    "he": "מחיר הזהב עלה בחדות כי משקיעים מחפשים מקלט בטוח בעקבות ציפיות חדשות לגבי ריבית הבנק המרכזי בארה\"ב.",
+    "en": "The price of gold jumped sharply as investors look for safe havens amid shifting expectations for US central bank interest rates.",
+    "ar": "ارتفع سعر الذهب بشكل حاد حيث يبحث المستثمرون عن ملاذات آمنة وسط تغير توقعات أسعار الفائدة للبنك المركزي الأمريكي.",
+    "ru": "Цена на золото резко выросла, так как инвесторы ищут надежные убежища на фоне изменений ожиданий по процентным ставкам ФРС."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcklJbHZwWGxoZHQ3aXhaOEpXSENkYmtnVTFLX0FrbEdxVkxjTHI5Rl9CQmdBZGhQTUxhTE15S0UxMXVOMmlTblJTY3czTGJ2RmhfYTRnNGtvRUoyQUxGaUlLX09oQXNMX2NvWE9jOUpObUlUYXVnMmZua2c2c0M3V3dFUks4REpwYVIxWVFXNXBNaW04MGlnVHJjV1cycERtbzVQbWozM1FxanRneFlN?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "GLD",
+    "direction": "up",
+    "t0": 1795416992,
+    "reason": "עליית מחירי הזהב משתקפת ישירות בערך הקרן",
+    "reason_i18n": {
+     "he": "עליית מחירי הזהב משתקפת ישירות בערך הקרן",
+     "en": "Rising gold prices directly increase the fund's value",
+     "ar": "ارتفاع أسعار الذهب يرفع مباشرة قيمة الصندوق",
+     "ru": "Рост цен на золото напрямую увеличивает стоимость фонда"
+    },
+    "name_i18n": {
+     "he": "GLD – קרן סל על מחירי הזהב",
+     "en": "GLD – Gold ETF",
+     "ar": "GLD – صندوق استثمار الذهب",
+     "ru": "GLD – ETF на золото"
+    },
+    "price_at_alert": 322.87
+   }
+  ],
+  "id": "4b05eea4a281"
+ },
+ {
+  "ts": 1795416992,
+  "time": "2026-11-23T06:56Z",
+  "title": "ABB רוכשת את Ziehl-Abegg הגרמנית תמורת 2.7 מיליארד דולר",
+  "summary": "ענקית הטכנולוגיה התעשייתית ABB סיכמה על רכישת החברה הגרמנית Ziehl-Abegg תמורת 2.7 מיליארד דולר לחיזוק הפעילות התעשייתית.",
+  "kid": "חברת תעשייה ענקית קונה חברה אחרת במיליארדי דולרים כדי להתרחב. עסקאות ענק כאלה יכולות להשפיע על המניות של החברות המעורבות.",
+  "i18n": {
+   "title": {
+    "he": "ABB רוכשת את Ziehl-Abegg הגרמנית תמורת 2.7 מיליארד דולר",
+    "en": "ABB to Acquire Germany's Ziehl-Abegg for $2.7 Billion",
+    "ar": "شركة ABB تستحوذ على شركة Ziehl-Abegg الألمانية مقابل 2.7 مليار دولار",
+    "ru": "ABB приобретает немецкую Ziehl-Abegg за 2,7 млрд долларов"
+   },
+   "summary": {
+    "he": "ענקית הטכנולוגיה התעשייתית ABB סיכמה על רכישת החברה הגרמנית Ziehl-Abegg תמורת 2.7 מיליארד דולר לחיזוק הפעילות התעשייתית.",
+    "en": "Industrial technology giant ABB has agreed to purchase Germany's Ziehl-Abegg in a $2.7 billion deal to strengthen its industrial footprint.",
+    "ar": "وافقت عمقة التكنولوجيا الصناعية ABB على شراء شركة Ziehl-Abegg الألمانية في صفقة بقيمة 2.7 مليار دولار.",
+    "ru": "Промышленный гигант ABB договорился о покупке немецкой компании Ziehl-Abegg за 2,7 млрд долларов для укрепления позиций в секторе."
+   },
+   "kid": {
+    "he": "חברת תעשייה ענקית קונה חברה אחרת במיליארדי דולרים כדי להתרחב. עסקאות ענק כאלה יכולות להשפיע על המניות של החברות המעורבות.",
+    "en": "A massive industrial company is buying another firm for billions to expand. Such mega-deals can move the stock prices of the companies involved.",
+    "ar": "تشتري شركة صناعية عملاقة شركة أخرى مليارية للتوسع. مثل هذه الصفقات الكبرى يمكن أن تحرك أسعار أسهم الشركات المعنية.",
+    "ru": "Крупная промышленная компания покупает другую фирму за миллиарды для расширения. Такие сделки могут повлиять на акции компаний."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTlZS1gzWEZ0bkFIMDgwRWxpSDJnbDFJY1NYd216MVh5Yk1sN3d0MzF0b1BQUUE2RE5hRnBCbDZRRWpCc2p5Rm1JaXRXQ3llckEtV3kyT2Z4OGN5T1hVRTFyc3RTa0hjZzVOSXR2eEhJS2FPSmotaFNvejBlYWFUVmw3OGQzNnc1VmtZcTRKeVhGR3ZsM0gyaXlqc2ctRDFiamVnVUY4d1EwaHJOTXQ4?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLI",
+    "direction": "up",
+    "t0": 1795416992,
+    "reason": "עסקאות מיזוג ורכישה גדולות מעידות על איתנות בסקטרו התעשייתי",
+    "reason_i18n": {
+     "he": "עסקאות מיזוג ורכישה גדולות מעידות על איתנות בסקטרו התעשייתי",
+     "en": "Large M&A deals signal strength and activity in the industrial sector",
+     "ar": "صفقات الاندماج والاستحواذ الكبرى تشير إلى قوة النشاط الصناعي",
+     "ru": "Крупные сделки M&A свидетельствуют об активности в промышленном секторе"
+    },
+    "name_i18n": {
+     "he": "XLI – קרן סל על סקטרו התעשייה האמריקאי",
+     "en": "XLI – Industrial Sector ETF",
+     "ar": "XLI – صندوق قطاع الصناعة الأمريكي",
+     "ru": "XLI – ETF промышленного сектора"
+    },
+    "price_at_alert": 156.37
+   }
+  ],
+  "id": "131e2ddd6463"
  }
 ]
