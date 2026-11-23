@@ -140875,12 +140875,16 @@
    }
   },
   "category": "contracts",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeHliX0hicC0xd1dfLWd6YU5IOTNXaUM3T0JqRnBJTndNaE5VNU5NcXQ2TEdWVDdUeEg5cXRLRHdHdW96U2JYd204LWFEakprdm1MRWlsclNfX2J1bk44QkZGaHdXRFNiNHpnX09HUU80RGJHSWZXTnhhTWQyZGNTcURRT1Z3RW01THVFT25JT0xkZFdmWHNPWHRtUjBGdzc1THF3UkNDYkNIcmVmX0tDdDhTcVlpb3Y5UTdSNG1ac2dMbERLQ1VZM0k0X0txODFDSEU2enJ3UzVOM01wTlNjRTBuc0MxVHZMR01Ja9IB8wFBVV95cUxNbGw5dVU4YmlMSHgtckhOWGgyc3J1S3pvRjJFSlZUVzRNRGVSNnVySGVrZEZ6VXlDTWtFUGxzV1hPTU1EdThXR2hTY3NKWDNMQVRwVHBfeVVjeGdfR0pfWDF6b3k2QlIxb3hfNjZsem1LNnpuV2Zwd1pwSjROandJOWJSbnR4Z0lRZ2g1cy0zMUlIeV9PMkx1cnM0Y3dJaDYyUkc4T2p4bU1EM1VHb0gwZHhXZVJ3V3VNWjlOcmtVamJST2kyd1VCOW54WklqckowdWdzZDRXX0ZEM0doSW9ZMEdVbmVtWFc1Z0NVSWhfZC1fNnM?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04RHpOenNCQ24tdW1wTmRXVWlwYjBQV3FiZU51TWNVS0hZN2dlTTBuR2lmYVNHb3BISWpwRzZPd2pORWxiWEJsMEFOUW5JeEktS1dlUXJLbThTQUh6U2pkSVJlR1VjNGkzWU54eGtKLXNqS2l3aUlOMVJR?oc=5"
    }
   ],
   "impacts": [
@@ -140902,9 +140906,43 @@
      "ru": "Oracle – технологическая и облачная компания"
     },
     "price_at_alert": 101.19
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795400322,
+    "reason": "הוצאות תאגידיות עצומות ומימון מאושר לתשתיות AI תומכים בסנטימנט של חברות הטכנולוגיה הגדולות.",
+    "reason_i18n": {
+     "en": "Massive corporate spending and confirmed funding for AI infrastructure supports big tech sentiment.",
+     "he": "הוצאות תאגידיות עצומות ומימון מאושר לתשתיות AI תומכים בסנטימנט של חברות הטכנולוגיה הגדולות.",
+     "ar": "الإنفاق الشركات الهائل والتمويل المؤكد للبنية التحتية للذكاء الاصطناعي يدعم معنويات قطاع التكنولوجيا.",
+     "ru": "Масштабные корпоративные расходы и подтвержденное финансирование поддерживают сектор технологий."
+    },
+    "name_i18n": {
+     "en": "QQQ – Invesco QQQ Trust (Nasdaq 100 ETF)",
+     "he": "QQQ - קרן סל על מדד נאסד\"ק 100",
+     "ar": "QQQ - صندوق مؤشر ناسداك 100",
+     "ru": "QQQ - ETF индекса Nasdaq 100"
+    },
+    "price_at_alert": 608.45
    }
   ],
-  "id": "1018175e12c4"
+  "id": "1018175e12c4",
+  "updates": [
+   {
+    "ts": 1795400322,
+    "time": "2026-11-23T02:18Z",
+    "severity": 6,
+    "summary": "אורקל הודיעה כי הסכם החוזה הענק שלה בשווי 300 מיליארד דולר עם OpenAI ממומן במלואו, מה שמרגיע את השווקים בנוגע להקמת תשתית ה-AI.",
+    "i18n": {
+     "en": "Oracle announced that its massive $300 billion contract agreement with OpenAI is fully funded, reassuring markets regarding the massive AI infrastructure buildout.",
+     "he": "אורקל הודיעה כי הסכם החוזה הענק שלה בשווי 300 מיליארד דולר עם OpenAI ממומן במלואו, מה שמרגיע את השווקים בנוגע להקמת תשתית ה-AI.",
+     "ar": "أعلنت أوراكل أن اتفاقية عقدها الضخم البالغ 300 مليار دولار مع OpenAI ممولة بالكامل، مما طمأن الأسواق بشأن بناء البنية التحتية للذكاء الاصطناعي.",
+     "ru": "Oracle объявила, что ее масштабный контракт с OpenAI на сумму $300 млрд полностью профинансирован, что успокоило рынки в отношении создания инфраструктуры ИИ."
+    }
+   }
+  ],
+  "last_update": 1795400322
  },
  {
   "ts": 1795323424,
@@ -142072,23 +142110,27 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOElkaGNZcUQ5TUdHaWZXWFFmSkxneEh4dE9oQks4aW9pWlJJUVNqQ0lUeVNNM1dhODVCeVgtMld4NF9pcGdUQWNsNHBVSGlMdWhoR0s1WFVheDlVMV93TWJMcVBHeks5TVhEMVlOQ0M4blUwd1czY3FZRHVralV2R0d0TWxvOHpa?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1VWZnFrS1RVVDVzdUs2TTMyTnJTSFZZbUNHSS0tRGhIUm9DSkU1X2Uyd3JEN2cydFhiV3J2WEFxZ0p2MjVYNGJMd1JNSHBJSFNESmRhM2ZvY1FIUjVQeUJNb3RhWHpCblA1eVVNMnlvMkg5LUdDNEFON0NpZ0tiZ1dBbXVxZG5IbE8zRHAxNXI?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03bHg4RENIZ195b2tybGh5MnVlZTBqMnVMSmF3clNXYWtHRzQ5dTJxU1kyUmlIZk5CUWlvYks1RlNGSF90Z0FHa1lVSHVob3R4UGY3a2p5Sk8zV0wtZnZUaWdn?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DcGpqX0dzdWVVelZicW9TOTVyNjYyanNVdVlGakRmOFZFZmFId25SNTJhSUZwNVMxMWFUajYwbGlSenp2UnJoamZISkRJTGF6QkRZaFpENEpKUWY4ay10MUV1SQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mdTYwcnVGakhLZmc0aXRObkJYUnNLbk43T2FpY1lZRXZCZjZUeWg3WlFZeldtWEkxV0V3VTU1ZGN6SjhodGVsdDU0NTdDT0tkcm4xRFJINmhBbHFnb09ZWVI3ZGxiRUtSOG1rOS1lNWJ3Vzh1?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzJueWh4NkFHQ2Q2RWdCZ1NhdS02b3ZMS2xIZEtwdkJSZGVhZDYxM3JBRU9YMWZlcG9OREFOQlBTNmtvRlJRSjFuMnNBZzhUMnZ3ODhhVnIzQW1OYUlkZ0tfT19PSV9mWUI1LXl6R2RrY2J0cGhwUm5DMzZVQXB5OWhFWUdHQ1V1?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU1Q1b1ZOWExZWS1WUXRzdmtLZnZSdmdPWFBIWE1zVWRaWnV1OGhTeDZXRzctcGI3NEtnUUxYcEpYdTNjOVhVcmxkNS1SXy12TWRJLVlwQ1lacE00NE03bDVBTllCakpiT2RlMlYwVEN4QUQ1UFVJaEg2cHhNZTk4NG9hZHFDNEc1MjI0Zk8tLVhTOHhfMFM4dEQ1MnQzOGtKQkd0WEZBWXlmMEUzd2xVeld1MWNBMzNFOE9Z?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRDhtMVNlSkdoNmRMeEtkcWpSanJ2V0dfSi04U2dGaUxYYkxWSjFrSE5VRk9nQnJBajN1VlMyNjJ1dVV2M1NTLWJkcTA1ZVNWNEdXa3RfNC1RV3lTRmMwQ3pCN09pTmVoN3EzdDJDQ2pQbjV5b0dCTlFGSENrQnUwVlZVbDZRQ0RPSU02cw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb3RqQks4RXNsOXVETTFxSXBZSXg2VmpRQVl2RFAyS0dBdEV6Z09HTXotbDg4bXVNQnp1WTlIU3F1Ym1tN0dUTk5jTGdBdG40dzFJY04yMDdleHFBMXFKU2lENVhnaUxoaFpXT2hZMU9NU2pVT25YNUZzZzRCUkJvbnBCUUFaYTZRN0lqaXpnLURYSC05eWNpNW04ZUE0a1BldzZrOEVRaWk?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnJGX29hWEU0WVVITlBGd1A4R3U4ZkpyVk5LUzZEZFJKdmhYbkFtZ2l3ekdPaDhYd0dLbFFHUlZQc1BTbnoxQ1VOZjNjeHJrN3V4aWRHZVF2LWxfNWpoS3RZV0lEaTZTMWVzUmJ4RHY3YXJQSmNod1ZiRlB0Z1pWLXFoNVk3VjNONW43MXN5NzlTTDdkdk02VTVkV09acGtLMEQzT01CTQ?oc=5"
    }
   ],
   "impacts": [
@@ -142187,9 +142229,21 @@
      "ar": "خفضت شركة كابستون كوبر الحد الأدنى لتوقع إنتاجها لعام 2026 بعد تأخير في منجم بينتو فالي وسط أسبوع قاسٍ لأسعار النحاس.",
      "ru": "Capstone Copper снизила нижний предел прогноза производства на 2026 год из-за задержки дробилки на Пинто-Вэлли на фоне падения цен на медь."
     }
+   },
+   {
+    "ts": 1795400322,
+    "time": "2026-11-23T02:18Z",
+    "severity": 5,
+    "summary": "מחירי הנחושת רשמו התאוששות קלה לאחר שצנחו קרוב ל-10% בשבוע הקודם על רקע חששות לביקוש ומימושים בשווקים.",
+    "i18n": {
+     "en": "Copper prices rebounded slightly after dropping nearly 10% the previous week due to AI demand concerns and broader market sell-offs.",
+     "he": "מחירי הנחושת רשמו התאוששות קלה לאחר שצנחו קרוב ל-10% בשבוע הקודם על רקע חששות לביקוש ומימושים בשווקים.",
+     "ar": "تعافت أسعار النحاس قليلاً بعد انخفاضها بنحو 10% في الأسبوع السابق وسط مخاوف الطلب وعمليات البيع بالسوق.",
+     "ru": "Цены на медь немного восстановились после падения почти на 10% на предыдущей неделе на фоне опасений по поводу спроса."
+    }
    }
   ],
-  "last_update": 1795391918
+  "last_update": 1795400322
  },
  {
   "ts": 1795344319,
@@ -143053,23 +143107,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa0VQWEJ4MzhjUDFSdENrNEtyR2dpQzh1d0xmdGtRUTgtQkRRWnZ4RUFwSHQwR3J5eU90MUlXQTlScTNXS21oakRrWEpQc0I2c29tT0NENzAxWnoxWmdTZDVYWlpURW5XTm1ldE9YVUNOUXBhd1B4ZzRlbDUwY1EtU3Z0UjlLYTJtZ2MtVjQ3MDI4bE9JS3A1NE5YNms2eVZIaGxuTTlR?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQUc5RmtRcGE0OThXZjJTTDlJT2ZDbGF1UEI1dW1YLV9UcnIxYmFNYkd6TzFoOXZwVTM0b1E2RXl0T3Nkai1oMXY5YUd1R3NBMzJvYnhEOW02Q3FIMzVDekVRWmp3THhTN216TFR6UEZoR1kwM2FIbHpfNjNKeV9YbnZzYnlOZVFkLU9rcmFWOHJGU1gzWFc1NlFHd0VIbkxsMW9qMzUtRTNDV1lfMmJjeUJDRkNOdTlJLVJzRU1nVERWX25XLWl1elRCcEZ2aDhZdURDWXZuaHYzQQ?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOYVAxWTBMNFZWRzgxUXZnRUVEVllqRXJiWTlIOGJmSmZlMGFIazlKNWZNUzVtajVaVkU0YThIeGpTS2IwYTVKSGFBR2lQV0FJaXMweGdweTJnYTl5cnU5T0pLa1gxLVNWUG1PNGFBTWxQUEdib3RpUWVRcUM4ektFeFMtdUlDb3pqdXB3YTdhdzZVLU01OG9RVTc0QmlvSHdENFFJTEp4MjVlWnQ5U1hHTDlyTFpVQnBka3B2VDJrSjVlYTZZSmdTOGs1SFpDbTVsb1JBRjZHYzhUOFlfY0xERHk2YjRXaUxGVXVHanltNE5KVF8xZlhRcHlBNERIYmwwdnVvZE1OT1dRWDMyXzRONlB6ckEydFFxLXpMWm5Xb04?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWkNuYlhtTjA5OHpmN3lJUzB3Q3EzQmlESnJnVnk4dDRrV0tqbWV5OTNpX3hYN1FIX3U4VDhEcl9IZmZzZlVSa19GVzczX2dsNFg5d3hRQUNza3RWekk2MlhudThiaFR1TmF2dTVmTFo4bENINV9HTDBEVDFOV014M1NNNURVRTRjLUI4M0ltTFpSa3FSWDJnZk90cFAzMlZVLW0wUjZ5VkpVVEg3TWtaYkJKODgySjhjaUhNOU9ZT3NtT3J0bm9tNW52d1ZqVXh2MldSZzRVVmV2V0wzSHVmbl9EV0FGeFNDcFA0NFByQy1CNnBOTFVUTFJpS1VNMXN4VXRVZkFzX1_SAY4CQVVfeXFMT3d6b2NLZl9CcGZlakg1ZGRTQmpCVnJWa1pfOXBEVmdnbmxoZkJGS25RNXNIMlkxckpYOVRhNjhhbVdzZEVNM3JmNTZIS1EzcUJUb29heDRxLTE0VW4yNDNrY0Rqb1IyOE9UX3BkcGcteDBvTnZkSXdaT1lDLUlJUWVsZUxlbzdYNnFCU2Y5UkpqMDZjY3hUSkVLZjZLUTA5VlBuLW9CNlQwQmpOMGo5X1hNV1Q3TDF2LTdmZUljUFZwbnNqNHl4bUpJNEpZUnVla0xYV3ZwSUtkaW5NZHBjNkVRWHZIaUtWeG45NFVtSDQtSmFNMWhLUEkzczR6cVh4ZGYzSUhkcmE2NnNaeDRn?oc=5"
    },
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaGphcnU2Y1BQbzhsZnYwVG41cU9wXzhVNllnUHQyQzRRd2FSbi1meXVnVGRIcktOVl9SM3djTzNscFQyZlNCekZoUUxIbmU4MTRhaGdqT05nc0t0dkJJUjBjVl93djA4YzlOREszb2E1ZGNXYUtIWXFfZDhwdmRCdjZuMFEtQXVmd2RGZW1rMk5Wa1FpV2xwWmYtRGVwekVoRmFRVlBLbjlEVkpvR1NmT2tTSDN2UzdsTEgtSmN1UdIBxwFBVV95cUxQaDBTcW80ZkVVQ0lVUDY2a3hVdXFySlliNGo5cm5HQ3lPYmJqWlE3V05xeE41TGU5LTljNmJ4SXczSFRueTBrU1F2SW1rdkpnMnlOcUQ1RjBhR0J0MFZNNTlybHBfOU9FNFNESDRLc21tNk5zUWVrLUpMcVdsVTNaeWdwTVRDNENLWEs0dTRLdk82S1V3bThadm16c1VuYS01QldXQ250dnJ3bzA4OGlnNW1COVB2YnZWN0ZVZWhDMEFWUDZaMGhF?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWEwxQW1YMlNTV2JpZUo4bkNDWG1tM3Rxak1kYnVvZlNsNDcwbzhndzZyajZBTlNFWUU2Y0lDaXp5WGNMbnpvWE9ZaUxhR2Y0aVI5dTVHZWdEeXJZSl9vM1kyaVBrN0pTTW1adElhQk5rcGNkQnpVRFJodEdFMVByWmtrcEhWU3BSejVQSlpYcnJnQXJ0RjYxUWRJdy1Da1JCNGhBTDd3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjYxdm5CMnR4akU2dzlXekU2RWEtOGEweVdfalNEUXpJRkxDbTZoZEUyOXcyUkFQSkNzZV9zNGs4TzctdEpHdWJsYU9BVDFxQ0ZhZTBpeHREVjc4aDY1SV9EOTlZRkRnMXAzS1p1QXZoelk3NW0tQ0NldFI2Y1ZpbUlGbWgyZElybEIyeVVGaXB5R1h2YjYxUFlWRncydmVscjhzQ1doUjFGdk9KS0JncnJqay14MFdL?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU0FEeDVQWUlyZ1A4VGN4T1JMODVqMzQ1a3NzWkxwTThMb1hYZDdDZi0zMHF1R1lfcEJJNUpHSlhMNkh2TWZ2LVZ6dU4teXZxT3lRcno0TkhVaHpBaHpxTy16NTNncWFWb1Y3TkhxUGVvUWtiOXpFS0RJc08wMzNxc21QMjBVbjBNanNyaXBONHY1Ul94cTZFQXp2WkhTQl9TMHJBREZ0U3RXTE9OTXFHQXlnNVlYa3NrZHBtVFJB0gHDAUFVX3lxTE43VkNJM0k3cFNhaFhiZUZYQmVZdFhVSzZuVWdRQml4Um9BWTgwV3RwM2tsZi1CS2F4ekZOY0YxNElIUU9KS1ZWaWdmSzZLQWpEQ3pGUG53WVJKbjFXZkNnTkpmV2pTNU1WcjBGR0szb2Z2X0hYRWQ3TVUtRXFReHNVTDBZYjFWcDAteHlsWDRaVU9VcTFxTDczdkZnX2lpT2NfYlY5QWVxU3RwZ05sbGlzYkFnSWpaaUFkcmVCWWJyTHZJNA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUGhOajJ4ZUdydHA3dl9HLWQwcndHcjlydl9TRXZPQmMtdng3aDMtWVluNmZNbThNR2k3ZnVpLTc2RnVWUTZBTnZDYVp2Z1oxbXBBRTNNazlkTXN6LUJ3dnBHWkE4TDhia2QtaHJDR3dFMWlRd3hVTmpJTmUwRjhpU0Uxc1pzY0gzOHVMWjRwdURHOFlsbjRucWZ6dV9TVk9qSDJHREN2RnhFY1Z5T2h1dHZ4anFCMlpCR2hka0QyRUFWdUFKa3J6Z2JiUXNNZEstbDhyZTlR0gHbAUFVX3lxTE45dUt5dzFRYi1sMk9abU5PbnZ3NnozVS1KbVFvN0Z0RVhiUGxxbnZWWHVCT2xzdlFUQnhSaGFWVXdwNmhKSjJNenFGQjg5QTBfS0dIRlpGR0d1UURmY3pXQlJ0VTc1S2dBVjV5bngySk5Cb3FKcXFPaklTNVNpLU85RFpzaHpRQkZCRC16OVozcW5PVnNIZWtNcGRhcVJBMGlEeXBLQ0VhcHVJMWpVSmJhU3BkQThhbG1Ec1l1MmRMM3ZYU3hlQmg2c1ROMEF3S3gwZlhOYkdtazY2UQ?oc=5"
    }
   ],
   "impacts": [
@@ -143129,6 +143187,25 @@
      "ru": "Золотой ETF"
     },
     "price_at_alert": 322.87
+   },
+   {
+    "ticker": "UUP",
+    "direction": "down",
+    "t0": 1795400322,
+    "reason": "הפחתת הציפיות להעלאת ריבית הפד מחלישה את המטבע האמריקאי.",
+    "reason_i18n": {
+     "en": "Traders scaling back Federal Reserve rate hike expectations weakens the US currency.",
+     "he": "הפחתת הציפיות להעלאת ריבית הפד מחלישה את המטבע האמריקאי.",
+     "ar": "تقليص توقعات رفع الفائدة من قبل الفيدرالي يضعف العملة الأمريكية.",
+     "ru": "Снижение ожиданий повышения ставки ФРС ослабляет американскую валюту."
+    },
+    "name_i18n": {
+     "en": "UUP – US Dollar Bullish Fund",
+     "he": "UUP - קרן סל העוקבת אחר מדד הדולר",
+     "ar": "UUP - صندوق تعقب الدولار الأمريكي",
+     "ru": "UUP - ETF доллара США"
+    },
+    "price_at_alert": 29.62
    }
   ],
   "id": "f09964949a74",
@@ -143144,9 +143221,21 @@
      "ar": "تترقب الأسواق بيانات التضخم الأمريكية وتعليقات الاحتياطي الفيدرالي، مما يؤثر على أسعار الذهب والسندات.",
      "ru": "Рынки ожидают данных по инфляции в США и комментариев ФРС, что влияет на цены на золото и облигации."
     }
+   },
+   {
+    "ts": 1795400322,
+    "time": "2026-11-23T02:18Z",
+    "severity": 6,
+    "summary": "דולר ארה\"ב נסוג משיא של 19 חודשים והזהב התאושש משפל של 14 חודשים, בעוד סוחרים הפחיתו את ההימורים על העלאות ריבית של הפדרל רזרב.",
+    "i18n": {
+     "en": "The US dollar retreated from a 19-month high and gold rebounded from a 14-month low as traders scaled back their bets on Federal Reserve rate hikes.",
+     "he": "דולר ארה\"ב נסוג משיא של 19 חודשים והזהב התאושש משפל של 14 חודשים, בעוד סוחרים הפחיתו את ההימורים על העלאות ריבית של הפדרל רזרב.",
+     "ar": "تراجع الدولار الأمريكي عن أعلى مستوى في 19 شهراً وتعافى الذهب من أدنى مستوى في 14 شهراً مع تقليص المتداولين لرهاناتهم على رفع الفائدة.",
+     "ru": "Доллар США отступил от 19-месячного максимума, а золото восстановилось с 14-месячного минимума на фоне снижения ожиданий повышения ставки ФРС."
+    }
    }
   ],
-  "last_update": 1795366826
+  "last_update": 1795400322
  },
  {
   "ts": 1795357414,
@@ -143934,27 +144023,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm96RExBbGw0OERZX1lMWGxhczRYS00yOXR6Rlg0XzJ0VHk2bEhZVHVFNmFRYllVUjZvZUhqYzFQSnNULTNhRjNhcE5IOXFNQmFOU2RlZlRZYWxrUnVZbWJrWGEyQWF6T1Z4MUUweHVKTmsyNnMtSS1KeHhxeWdoUWlZYU03eUR0X242RVdjNUp5dnU1R3hXRmNwOV94Nkx5UGtySXZMVnV2QQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ29YNW1Gbi1LRXZVeDJaVHlnWHp3eDB4YS1Qc0V6UTUyaUlUcnYtZ3FaN0FzU185bHJwU3ZtN3V1dVQ4Q0pWRFhiREtHZDdGRUlDQ3JVVlpMRU92XzRDS1FIZWF1TnBsckVPU1RZRnplS3UxVVZMbjJLN0FhRmZXRWhBdTBFY290b0I1YzhzVzNsRnZzOXRlTlZmdFhEekVQQWF6eU9HNkVNYjlE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSklFck5nWXRoVTBrU01ja3FxVGtNX2N4WnY1UkN5dWVuaF9UZmVQMEZRb01NQVFyM3BMWlF5R1BzdFllSjNHN29RajhPQTNOZlBXelA2ZG1lS3oyYmpIdHpITEdqN2o1YlBXQXVXVmVISWlxSVZENldNYlYydFY2eUxQVGRlbWcwT3BudnJtU0w5bkg0ZjJITDA4Wl9Xc29mQmdzTmFjWng2Ny1UMjZBb2NRcmdpU3JCVEpYaTZWQ2Z3T0l2NWpfTC01Z2dOX0k?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QSGNMZThLWmFoay1wNWFqWEZVdjRnOVAtQ2RmSFJVallkTWFxWE5oVWlXUF93MHByYlYyWWFMZEpTdEJkT2hpWm9GblNFdGpnU1lpaGF5Rl9RcFlMX1E?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOGJBUzREaVBHUG5fWm1lMXBmZDZtYUNfNDFuT0E1eng2ZGxjdXZfSkZuQTF1Nk00c0Z4TUVzb0dkRjBRMzVGa1RUTFZYUFhpWW9ja1QtME9kNE10RjRYUFVuN2k5NWdXb2FRRmdPRWpVREt3d2F3dDAyWlpudTl5bGxKb0F6NXg4UzFYRUhtN0g1bzRRZ0Y5Y2tGeG4waDJLaE1IcFo3R0YzWEgzU2taZWZRcGRWZXdDWndFbVd5QXZXRWRBYVhINjFJb1k2MFVCZk5ESnB2QXRVTHPSAeABQVVfeXFMTzZBNEk3QUViLU9lY1Y0M1czVmRBUTFWUnB0VFFiRTlkSWZHcVBRM1dFMmFzbjNYSmotUUdtZ1BscHpjWmViZkJJMGtfRlZDWl9VaTZkYml1Zlh2eFoycGJ3b2hDSWZLZGZvdUdpcjQ3WW52M01rTGItV2pnUHJBN0x2UmJKMVJBU0hnSWdvTnNXS21IUlR5dVUyc3c1TmlvNUI3OFd6UkJtNVgzT3VTaVhmWnJ4d3lrem1NWGVCaGtHTUg3c3pUWk01bUVvc3hGM241ZzB2SFFyLVVLQjNxSVA?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW1EUmlFZGZzNkZCQ3ZqQVJjZG9XSlRhWnFQNkY5WFYxV1dvVWstQ0NHOEQ2YlhFXzRyejVQWW5RSXBUREhaamw1VmhkTHExc3hXTjVCVWx3VmRPQmNtWXVmVE9rZXUzMHJoZmxmWENlbFZPOFo4ZmIwVzR5bmdGRUktN0R6bl95VlZOSEp6dw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjNmUU1oQ3FNVmUzelFKLXJyS2dObjF3ZnJHejVEcUd4OGpha2xJTE5pSWppS2tvR1ktSktmd1o3UDAxeC1WS0ZmNHBsamdxZHV0MXc3SjVaNmVTTjdnMjJmNHJHTGl2a0c3M3g4RkxaaHdlOHlkb3ZEZnpiVXVqeFFEX09qLTFuX3ViWU5DeTRiNUM5R0pnbGtoYw?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9jNHRuWG5aOGJzX0FxTnhoaUZrUlF4MDJnWDFHOHhkM25PdkRLM2I3S1JqZ0VlX1U5M09OZDBwcHBHV3lwaDZOcHNZNi1aOTNCX2JfM0lib1F5UXYxS2czTUxoSUFSTi1QRl9wbFB3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObU1LVzBpTUpNYzc4UVZuM1VaeUFXdGhVVlMyMDAxQU9KOVNRYTZPSW1haEZBZGtJSE9na2VWOVlIclhuTkY2V1I4T05NZmFyZVhqSU53VnZZbGd3VnJVVGFUSkpWVmJ1b0xrejNDWUNmMzItZXlyWXNXbHlXUFllc2dJSXR4YUtjSHNFQ1htWUNmT1Q4NjZ3QlhMay12UHF5OHNUMmxFX3RMTVV5Rkl4anRwRW1CSjRBVlR0Szc5OA?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aQlNWcHhwdlNpM25JWkFUSTJNSWFrRl92TTdNMkdWQjFyRTdZS1ktb1NDR1Mybmt4WXhYbDlGaGdnczJyaTlHMQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPLUNBRGM5YVFRVlJYS0E0cjExalRWMUFxcVUwV3pYYmt0aWtrRWlOR2Rnajl0UktwcEhtclVGRTVhb01QMVZ1YzVQTW9aZDZsdkc0SUlRWEZ2NjNWYjV0YzA5c3l0djFLRk44ZFZxT2pNa0dSZUdaR090YTYtdjNyZFNNRlpVeS12M1RFYXBtSHM2NkNjOEVZT1dkaXVOaUJBZ0dkMGVhMzB4YkFlaTNOVkM0eXJyZDMyc3pNN2RkZlRPeFBIUFQ5cUh5WFhsXzFTSUctQ0R0bUZkeTZTVG5HU0J2Vl80RzdPcjQ0cmk0ZXN4QdIB9wFBVV95cUxPTDhUbWhPZDlFaU5Nd1kxX0wwWXFyUGNqUERRblNQY1B3aHJlS3RxQkxQTS1SaUtwcmRpall4UVg2WUpKZHRzVmdGR1dLSzhaTHFqVjFsRHNvLXRGY0Z2b3hYRmdzUlpsSno3eXUzMTNUMXpCODhoTjNwcWthZHloRXNLZ0tWbVRfSkFaSVFqaU8xakpCYk90bFZ5UTBadE05WTNLVFo3R0VTaGlyYUdiRHRLTlpZczJpTTZHdDlLd09TNzJ0SkZMZ1R1RU54YjNZZ0F2TVdzUld2dEJqc1hnNUxaTzJWMjNpbURxRTN4Y0E4U3dKcnlv?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2x2YjVHNzRHVVJOenNGaVpIN0ZaZVZOOFRyWDVVeEktZDFEZDFHSmJhWW14NGZXOGFfYk5jWXV6ZUEwdXNSQ1Y4MmN0eGljTlFaM0kwa0JNR1hiTm5oTy02dEVhaG4wVHFMOWRmQTJXTnJ3S25WVGw1dnotRjNERjB4WDhOY1h0WVJVTHhSUGMxNUxGWF90eG9pQ1l3VHNodFdCNnJHbGwyZzhlanItUGV1STZrTWJaYmJ2eTFmTFMtZkJkLXh2WjJId3l5ZUg4ZURPWlB6TjhINFBNa1JR0gHyAUFVX3lxTE1xeGFlZnlxbW9kZGxPU1o4TW5IOWVCbVJJY05LRlB4TmN6NGl5VWw2dkN0Ty1YSnNuNzQycjVnRmxRZm5ybzVGY2VJOERVUTlfMjVxSS00OU1yVVRnRVkzV2tWT2s2b1VrMzEwVFprVnBXcTlWX0ZHbXZZR1lxTEIxUk13TTU5NEE5MVcwS05wZl8zS0ZMLWdDRWY1TDYxYVlMNW01S3dQV19ZX2tNYUttLXZ6ZVVVTFJKaDd6ZnNHaHBjdTFwaGJFam5VbklDcV9xVlk0SHhVQXhJaEdOT2RrWTZHd1JzandjdlFPM3ZVSG13?oc=5"
    }
   ],
   "impacts": [
@@ -144127,9 +144216,21 @@
      "ar": "كشفت إيران عن منصة إطلاق صواريخ جديدة وحذر الحرس الثوري الأعداء من الإهانة، بينما أشار ترامب إلى أن إيران صعدت هجمات الطائرات بدون طيار والصواريخ.",
      "ru": "Иран представил новую ракетную установку, а Корпус стражей исламской революции предупредил врагов об унижении, в то время как Трамп отметил активизацию ударов Ирана беспилотниками."
     }
+   },
+   {
+    "ts": 1795400322,
+    "time": "2026-11-23T02:18Z",
+    "severity": 7,
+    "summary": "הנשיא טראמפ הזהיר את איראן מפני אתגר סגר ימי אמריקאי ואיים בתקיפות חדשות אם השיחות ייכשלו, בעוד איראן הציגה עיר טילים תת-קרקעית עם משגר כפול חדש.",
+    "i18n": {
+     "en": "President Trump warned Iran against challenging US naval blockades and threatened fresh strikes if talks fail, while Iran showcased an underground missile city with a new double launcher.",
+     "he": "הנשיא טראמפ הזהיר את איראן מפני אתגר סגר ימי אמריקאי ואיים בתקיפות חדשות אם השיחות ייכשלו, בעוד איראן הציגה עיר טילים תת-קרקעית עם משגר כפול חדש.",
+     "ar": "حذر الرئيس ترامب إيران من تحدي الحصار البحري الأمريكي وهدد بشن ضربات جديدة إذا فشلت المحادثات، بينما عرضت إيران مدينة صواريخ تحت الأرض ذات قاذفة مزدوجة جديدة.",
+     "ru": "Президент Трамп предостерег Иран от попыток прорвать морскую блокаду США и пригрозил новыми ударами в случае провала переговоров, в то время как Иран продемонстрировал подземный ракетный город с новой двойной пусковой установкой."
+    }
    }
   ],
-  "last_update": 1795395806
+  "last_update": 1795400322
  },
  {
   "ts": 1795375651,
@@ -145268,5 +145369,140 @@
    }
   ],
   "id": "5d25e5598250"
+ },
+ {
+  "ts": 1795400322,
+  "time": "2026-11-23T02:18Z",
+  "title": "גוגל מקצצת את הזמנות שבבי ה-TPU מברודקום במיליון יחידות",
+  "summary": "על פי הדיווחים, גוגל קיצצה את הזמנות שבבי ה-TPU של ברודקום במיליון יחידות, כאשר מדיאטק צפויה לזכות בהזמנות החלופיות וגולדמן זקס הנמיך את מחיר היעד לברודקום.",
+  "kid": "גוגל קונה פחות שבבי בינה מלאכותית מברודקום. זה יכול לפגוע במניה של ברודקום כי היא תמכור פחות מוצרים.",
+  "i18n": {
+   "title": {
+    "en": "Google Cuts Broadcom TPU Orders by a Million Units",
+    "he": "גוגל מקצצת את הזמנות שבבי ה-TPU מברודקום במיליון יחידות",
+    "ar": "جوجل تخفض طلبيات رقائق TPU من برودكوم بمقدار مليون وحدة",
+    "ru": "Google сокращает заказы чипов TPU у Broadcom на миллион единиц"
+   },
+   "summary": {
+    "en": "Google has reportedly cut its Broadcom TPU chip orders by a million units, with MediaTek capturing the shifted orders and Goldman Sachs trimming Broadcom's price target.",
+    "he": "על פי הדיווחים, גוגל קיצצה את הזמנות שבבי ה-TPU של ברודקום במיליון יחידות, כאשר מדיאטק צפויה לזכות בהזמנות החלופיות וגולדמן זקס הנמיך את מחיר היעד לברודקום.",
+    "ar": "فيدت التقارير أن جوجل خفضت طلبيات رقائق TPU من برودكوم بمقدار مليون وحدة، بينما تستحوذ ميدياتك على التحويل، وقام غولدمان ساكس بخفض السعر المستهدف لبرودكوم.",
+    "ru": "Сообщается, что Google сократила заказы чипов TPU у Broadcom на миллион единиц, причем MediaTek получает перенаправленные заказы, а Goldman Sachs снижает целевую цену Broadcom."
+   },
+   "kid": {
+    "en": "Google is buying fewer AI chips from Broadcom. This makes Broadcom's stock look a bit worse because they will sell fewer products.",
+    "he": "גוגל קונה פחות שבבי בינה מלאכותית מברודקום. זה יכול לפגוע במניה של ברודקום כי היא תמכור פחות מוצרים.",
+    "ar": "جوجل تشتري عدداً أقل من رقائق الذكاء الاصطناعي من برودكوم. هذا قد يضغط على سهم برودكوم لأنها ستبيع منتجات أقل.",
+    "ru": "Google покупает меньше ИИ-чипов у Broadcom. Из-за этого акции Broadcom могут упасть, так как компания продаст меньше продукции."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wcWszSll6VWtDdDZWS3lDTDVJWGhNQzBfUHJIZXdQN21nZE5MUS1YV0ZmekhoYUt4STdqemNvbHJBZ1dPQmxHOHNDX2wzUG1aWlBTN3BETTNvdnFkS0J6LTBFVVpjTmhYYVhKVTBOcjRmZ0Qwdmc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVGO",
+    "direction": "down",
+    "t0": 1795400322,
+    "reason": "קיצוץ הזמנות השבבים מצד גוגל מאיים ישירות על הכנסות החברה ממוליכים למחצה.",
+    "reason_i18n": {
+     "en": "Google cutting TPU orders by a million units directly threatens Broadcom's semiconductor revenue.",
+     "he": "קיצוץ הזמנות השבבים מצד גוגל מאיים ישירות על הכנסות החברה ממוליכים למחצה.",
+     "ar": "تخفيض طلبيات الرقائق من قبل جوجل يهدد إيرادات أشباه الموصلات لشركة برودكوم مباشرة.",
+     "ru": "Сокращение заказов чипов со стороны Google напрямую угрожает выручке Broadcom от полупроводников."
+    },
+    "name_i18n": {
+     "en": "AVGO – Broadcom Inc.",
+     "he": "AVGO - ברודקום",
+     "ar": "AVGO - برودكوم",
+     "ru": "AVGO - Broadcom"
+    },
+    "price_at_alert": 304.41
+   },
+   {
+    "ticker": "GOOGL",
+    "direction": "up",
+    "t0": 1795400322,
+    "reason": "גיוון ספקי השבבים והפחתת עלויות הרכש עשויים להועיל לאלפבית.",
+    "reason_i18n": {
+     "en": "Diversifying chip suppliers and potentially reducing hardware procurement costs benefits Alphabet.",
+     "he": "גיוון ספקי השבבים והפחתת עלויות הרכש עשויים להועיל לאלפבית.",
+     "ar": "تنويع موردي الرقائق وربما تقليل تكاليف شراء الأجهزة يفيد ألفابت.",
+     "ru": "Диверсификация поставщиков чипов и снижение затрат на закупки идут на пользу Alphabet."
+    },
+    "name_i18n": {
+     "en": "GOOGL – Alphabet Inc.",
+     "he": "GOOGL - אלפבית (גוגל)",
+     "ar": "GOOGL - ألفابت (جوجل)",
+     "ru": "GOOGL - Alphabet (Google)"
+    },
+    "price_at_alert": 265.29
+   }
+  ],
+  "id": "0ac28eb90814"
+ },
+ {
+  "ts": 1795400322,
+  "time": "2026-11-23T02:18Z",
+  "title": "קראולי גוברמנט סרוויסז זכתה בחוזה הפעלת ספינות של הצי בשווי 270.4 מיליון דולר",
+  "summary": "חברת קראולי גוברמנט סרוויסז זכתה בחוזה בשווי 270.4 מיליון דולר מטעם הצי האמריקאי לתמיכה בהפעלת כלי שיט.",
+  "kid": "חברת לוגיסטיקה ושילוח זכתה בחוזה ענק עם הצי האמריקאי, מה שמחזק את יציבותה העסקית.",
+  "i18n": {
+   "title": {
+    "en": "Crowley Government Services Wins $270.4 Million Navy Vessel Operations Contract",
+    "he": "קראולי גוברמנט סרוויסז זכתה בחוזה הפעלת ספינות של הצי בשווי 270.4 מיליון דולר",
+    "ar": "كراولي للخدمات الحكومية تفوز بعقد تشغيل سفن بحرية بقيمة 270.4 مليون دولار",
+    "ru": "Crowley Government Services выиграла контракт ВМС США на управление судами на сумму $270,4 млн"
+   },
+   "summary": {
+    "en": "Crowley Government Services has secured a $270.4 million contract from the US Navy for vessel operations support.",
+    "he": "חברת קראולי גוברמנט סרוויסז זכתה בחוזה בשווי 270.4 מיליון דולר מטעם הצי האמריקאי לתמיכה בהפעלת כלי שיט.",
+    "ar": "فازت شركة كراولي للخدمات الحكومية بعقد بقيمة 270.4 مليون دولار من البحرية الأمريكية لدعم عمليات السفن.",
+    "ru": "Компания Crowley Government Services получила контракт от ВМС США на сумму $270,4 млн на поддержку эксплуатации судов."
+   },
+   "kid": {
+    "en": "A logistics and shipping company won a big government contract with the US Navy. This is good news for the company's business stability.",
+    "he": "חברת לוגיסטיקה ושילוח זכתה בחוזה ענק עם הצי האמריקאי, מה שמחזק את יציבותה העסקית.",
+    "ar": "فازت شركة لوجستيات بعقد حكومي كبير مع البحرية الأمريكية، وهو أمر إيجابي لاستقرار أعمالها.",
+    "ru": "Логистическая компания выиграла крупный государственный контракт с ВМС США, что укрепляет стабильность ее бизнеса."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2h1bE14LTM3NXZMRnBuWkIwZ2dkMUlMaTFma2Jid2NpZm5kRmV0SEl2UC1zdjlyeVlUd2dGZjgxcElyODIxZVpWVjh3SVhpcXZDM0FBZ3JRZUNHWGxDNVJKNEQxbDFnWmFGNXhKby02RjFUbVM5R283cnRNYWRTZUF0d0F1cEZ2Y0J5MDZLUzRXSkxoaXo4OUJ1NkdPNDg?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795400322,
+    "reason": "זכייה בחוזי רכש ביטחוניים בשווי מיליונים תומכת בסמך מגזר הביטחון הרחב.",
+    "reason_i18n": {
+     "en": "Securing multi-million dollar defense and logistics procurement awards supports the broader defense sector.",
+     "he": "זכייה בחוזי רכש ביטחוניים בשווי מיליונים תומכת בסמך מגזר הביטחון הרחב.",
+     "ar": "الفوز بعقود مشتريات دفاعية بملايين الدولارات يدعم قطاع الدفاع الأوسع.",
+     "ru": "Получение многомиллионных оборонных контрактов поддерживает весь оборонный сектор."
+    },
+    "name_i18n": {
+     "en": "ITA – US Aerospace & Defense ETF",
+     "he": "ITA - קרן סל של חברות תעופה וביטחון אמריקאיות",
+     "ar": "ITA - صندوق استثماري لقطاع الطيران والدفاع الأمريكي",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 66.17
+   }
+  ],
+  "id": "6fea2ccec41d"
  }
 ]

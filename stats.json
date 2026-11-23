@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-23T01:03Z",
+ "generated": "2026-11-23T02:18Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1368,
+ "total_alerts": 1370,
  "overall": {
   "n": 929,
   "hits": 466,
@@ -150,14 +150,14 @@
    "avg_edge": -0.03
   },
   "ITA": {
-   "mentions": 239,
+   "mentions": 240,
    "n": 202,
    "hits": 134,
    "name": {
-    "he": "קרן סל ביטחונית",
-    "en": "Defense ETF",
-    "ar": "صندوق الدفاع المتداول",
-    "ru": "Оборонный ETF"
+    "en": "ITA – US Aerospace & Defense ETF",
+    "he": "ITA - קרן סל של חברות תעופה וביטחון אמריקאיות",
+    "ar": "ITA - صندوق استثماري لقطاع الطيران والدفاع الأمريكي",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -0.86
   },
@@ -354,7 +354,7 @@
    "avg_edge": -0.71
   },
   "QQQ": {
-   "mentions": 83,
+   "mentions": 84,
    "n": 72,
    "hits": 26,
    "name": {
@@ -654,14 +654,14 @@
    "avg_edge": 0.27
   },
   "UUP": {
-   "mentions": 33,
+   "mentions": 34,
    "n": 30,
    "hits": 20,
    "name": {
-    "he": "קרן סל על מדד הדולר האמריקאי",
-    "en": "US Dollar ETF – tracks the US dollar",
-    "ar": "صندوق الدولار الأمريكي - يتابع قوة الدولار",
-    "ru": "US Dollar ETF — фонд доллара США"
+    "en": "UUP – US Dollar Bullish Fund",
+    "he": "UUP - קרן סל העוקבת אחר מדד הדולר",
+    "ar": "UUP - صندوق تعقب الدولار الأمريكي",
+    "ru": "UUP - ETF доллара США"
    },
    "avg_edge": 0.99
   },
@@ -1826,6 +1826,30 @@
     "en": "Goldman Sachs",
     "ar": "غولدمان ساكس",
     "ru": "Goldman Sachs"
+   },
+   "avg_edge": null
+  },
+  "AVGO": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "AVGO – Broadcom Inc.",
+    "he": "AVGO - ברודקום",
+    "ar": "AVGO - برودكوم",
+    "ru": "AVGO - Broadcom"
+   },
+   "avg_edge": null
+  },
+  "GOOGL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "en": "GOOGL – Alphabet Inc.",
+    "he": "GOOGL - אלפבית (גוגל)",
+    "ar": "GOOGL - ألفابت (جوجل)",
+    "ru": "GOOGL - Alphabet (Google)"
    },
    "avg_edge": null
   }
