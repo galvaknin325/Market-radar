@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-24T16:50Z",
+ "generated": "2026-11-24T19:48Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1428,
+ "total_alerts": 1431,
  "overall": {
-  "n": 999,
-  "hits": 497,
+  "n": 1001,
+  "hits": 498,
   "avg_edge": 0.03
  },
  "by_category": {
@@ -24,9 +24,9 @@
    "avg_edge": 0.02
   },
   "contracts": {
-   "n": 194,
+   "n": 195,
    "hits": 98,
-   "avg_edge": -0.02
+   "avg_edge": -0.03
   },
   "cyber": {
    "n": 68,
@@ -34,8 +34,8 @@
    "avg_edge": -0.25
   },
   "geopolitics": {
-   "n": 165,
-   "hits": 86,
+   "n": 166,
+   "hits": 87,
    "avg_edge": 0.46
   },
   "health": {
@@ -66,8 +66,8 @@
    "avg_edge": -0.39
   },
   "4-5": {
-   "n": 474,
-   "hits": 243,
+   "n": 476,
+   "hits": 244,
    "avg_edge": 0.09
   },
   "6-7": {
@@ -83,14 +83,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 155,
+   "mentions": 156,
    "n": 139,
    "hits": 69,
    "name": {
-    "he": "קרן סל שעוקבת אחרי מחירי הנפט",
-    "en": "US Oil Fund - tracks crude oil",
-    "ar": "صندوق النفط الخام الأمريكي",
-    "ru": "Фонд нефти USO"
+    "he": "נפט גולמי",
+    "en": "Crude oil",
+    "ar": "النفط الخام",
+    "ru": "Сырая нефть"
    },
    "avg_edge": -0.15
   },
@@ -180,15 +180,15 @@
   },
   "ESLT.TA": {
    "mentions": 13,
-   "n": 11,
-   "hits": 6,
+   "n": 13,
+   "hits": 7,
    "name": {
     "he": "אלביט מערכות (בורסת תל אביב)",
     "en": "Elbit Systems (TASE)",
     "ar": "إلبيت سيستمز (بورصة تل أبيب)",
     "ru": "Elbit Systems (ТАФР)"
    },
-   "avg_edge": -0.09
+   "avg_edge": -0.08
   },
   "ESLT": {
    "mentions": 34,
@@ -371,14 +371,14 @@
    "avg_edge": -0.25
   },
   "XLV": {
-   "mentions": 36,
+   "mentions": 37,
    "n": 30,
    "hits": 21,
    "name": {
-    "he": "מדד הבריאות בארה\"ב",
-    "en": "US Healthcare ETF",
-    "ar": "صندوق قطاع الرعاية الصحية الأمريكي",
-    "ru": "ETF сектора здравоохранения США"
+    "he": "סקטור הבריאות",
+    "en": "Healthcare sector",
+    "ar": "قطاع الرعاية الصحية",
+    "ru": "Сектор здравоохранения"
    },
    "avg_edge": 0.54
   },
@@ -635,14 +635,14 @@
    "avg_edge": -0.25
   },
   "LIT": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 5,
    "hits": 2,
    "name": {
-    "he": "LIT - קרן סל ליתיום וסוללות",
-    "en": "LIT – Global X Lithium & Battery Tech ETF",
-    "ar": "LIT - صندوق استثماري لتقنية الليثيوم والبطاريات",
-    "ru": "LIT — ETF лития и аккумуляторных технологий"
+    "he": "קרן סל סוללות ליתיום",
+    "en": "Lithium battery ETF",
+    "ar": "صندوق استثمار لبطاريات الليثيوم",
+    "ru": "ETF на литиевые батареи"
    },
    "avg_edge": -0.15
   },

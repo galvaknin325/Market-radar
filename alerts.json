@@ -2367,137 +2367,6 @@
  {
   "ts": 1794912327,
   "time": "2026-11-17T10:45Z",
-  "title": "אינפלציה באיטליה עלתה ל-5.5%",
-  "summary": "שיעור האינפלציה באיטליה האיץ ל-5.5% באוקטובר, הרמה הגבוהה ביותר מאז 2023.",
-  "kid": "המחירים באיטליה עולים מהר יותר, מה שעלול להקשות על הכלכלה האירופית.",
-  "i18n": {
-   "title": {
-    "he": "אינפלציה באיטליה עלתה ל-5.5%",
-    "en": "Italy inflation rises to 5.5%",
-    "ar": "ارتفاع التضخم في إيطاليا إلى 5.5%",
-    "ru": "Инфляция в Италии выросла до 5.5%"
-   },
-   "summary": {
-    "he": "שיעור האינפלציה באיטליה האיץ ל-5.5% באוקטובר, הרמה הגבוהה ביותר מאז 2023.",
-    "en": "Italy's inflation rate accelerated to 5.5% in October, the highest level since 2023.",
-    "ar": "تسارع معدل التضخم في إيطاليا إلى 5.5% في أكتوبر، وهو أعلى مستوى منذ عام 2023.",
-    "ru": "Уровень инфляции в Италии ускорился до 5.5% в октябре, что является самым высоким показателем с 2023 года."
-   },
-   "kid": {
-    "he": "המחירים באיטליה עולים מהר יותר, מה שעלול להקשות על הכלכלה האירופית.",
-    "en": "Prices in Italy are rising faster, which could make things harder for the European economy.",
-    "ar": "ترتفع الأسعار في إيطاليا بشكل أسرع، مما قد يجعل الأمور أكثر صعوبة بالنسبة للاقتصاد الأوروبي.",
-    "ru": "Цены в Италии растут быстрее, что может усложнить ситуацию для европейской экономики."
-   }
-  },
-  "category": "macro",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeG80ZzZOM1ZQQXl2b2JlS2lQWV9HOUdtNE1UNVBwNUpLemlqXzl2eEp1dUViN0ctaUJYU3JLdXNWNHB1Um5XR0J5cjdPd1J1ZGhpUlJnd3JKRUVEajdIQ1UycElZTmRxWHY5bjFGQkZuTXR3bTh4R01TVlJjWTBSQw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb1pQZTNQSHhtSU9uT3FYeTlYVDFGOE05RGR3WkFrNk1wSHBCejBldEgzLW1Mb0w2WU9MVThvbXo1NGRWMXJGNzNMWVZBaWltV284SFA0LWJyVDFvbFZ6a3JtdXRIeGtEMU1RQ3lLNGhfZjdUNEExQ09xazlkM3VTenUxS3pPM3RUcWhibW5mVkxLV0JfRDRZTHlmanBhNjg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWI",
-    "direction": "down",
-    "t0": 1794912327,
-    "reason": "לחץ אינפלציוני על הכלכלה",
-    "reason_i18n": {
-     "he": "לחץ אינפלציוני על הכלכלה",
-     "en": "Inflationary pressure on the economy",
-     "ar": "ضغوط تضخمية على الاقتصاد",
-     "ru": "Инфляционное давление на экономику"
-    },
-    "name_i18n": {
-     "he": "איטליה ETF",
-     "en": "Italy ETF",
-     "ar": "صندوق إيطاليا",
-     "ru": "Италия ETF"
-    },
-    "price_at_alert": 57.49,
-    "entry_price": 57.27,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 55.93,
-    "exit_date": "2026-11-18",
-    "change_pct": -2.34,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -1.26,
-    "edge_pct": 1.26,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794933938,
-    "reason": "חשש משיבושים באספקת האנרגיה עקב הסלמה.",
-    "reason_i18n": {
-     "he": "חשש משיבושים באספקת האנרגיה עקב הסלמה.",
-     "en": "Fear of energy supply disruptions due to escalation.",
-     "ar": "خوف من اضطرابات إمدادات الطاقة بسبب التصعيد.",
-     "ru": "Опасения по поводу перебоев в поставках энергоносителей из-за эскалации."
-    },
-    "name_i18n": {
-     "he": "נפט גולמי",
-     "en": "Crude Oil",
-     "ar": "النفط الخام",
-     "ru": "Сырая нефть"
-    },
-    "price_at_alert": 141.74,
-    "entry_price": 140.95,
-    "entry_time": "2026-11-17T17:30+00:00",
-    "exit_price": 136.09,
-    "exit_date": "2026-11-18",
-    "change_pct": -3.45,
-    "bench": "SPY",
-    "bench_change_pct": -0.41,
-    "excess_pct": -3.04,
-    "edge_pct": -3.04,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "cfc255deb1cb",
-  "updates": [
-   {
-    "ts": 1794933938,
-    "time": "2026-11-17T16:45Z",
-    "severity": 7,
-    "summary": "אוקראינה ביצעה מתקפה משולבת של טילים וכטב\"מים על גשר קרים, מה שגרם לקריסה חלקית של המבנה.",
-    "i18n": {
-     "he": "אוקראינה ביצעה מתקפה משולבת של טילים וכטב\"מים על גשר קרים, מה שגרם לקריסה חלקית של המבנה.",
-     "en": "Ukraine launched a combined missile and drone attack on the Crimea bridge, causing partial structural collapse.",
-     "ar": "شنت أوكرانيا هجوماً مشتركاً بالصواريخ والطائرات المسيرة على جسر القرم، مما تسبب في انهيار جزئي للهيكل.",
-     "ru": "Украина нанесла комбинированный ракетно-дроновый удар по Крымскому мосту, что привело к частичному обрушению конструкции."
-    }
-   },
-   {
-    "ts": 1794937587,
-    "time": "2026-11-17T17:46Z",
-    "severity": 6,
-    "summary": "אוקראינה ביצעה תקיפת טילים וכטב\"מים נוספת שגרמה לנזק משמעותי לגשר קרים, ציר לוגיסטי מרכזי של רוסיה.",
-    "i18n": {
-     "he": "אוקראינה ביצעה תקיפת טילים וכטב\"מים נוספת שגרמה לנזק משמעותי לגשר קרים, ציר לוגיסטי מרכזי של רוסיה.",
-     "en": "Ukraine conducted another missile and drone strike that caused significant damage to the Crimean Bridge, a key Russian logistics route.",
-     "ar": "نفذت أوكرانيا هجوماً آخر بالصواريخ والطائرات المسيرة تسبب في أضرار جسيمة لجسر القرم، وهو طريق لوجستي رئيسي لروسيا.",
-     "ru": "Украина нанесла очередной ракетный удар и удар беспилотниками, нанеся значительный ущерб Крымскому мосту, ключевому логистическому маршруту России."
-    }
-   }
-  ],
-  "last_update": 1794937587,
-  "evaluated": true
- },
- {
-  "ts": 1794912327,
-  "time": "2026-11-17T10:45Z",
   "title": "אנבידיה מקימה ועדה לפיקוח על ייצוא",
   "summary": "אנבידיה הקימה ועדה מיוחדת במועצת המנהלים כדי לפקח על ציות לבקרות ייצוא אמריקאיות וביטחון לאומי.",
   "kid": "אנבידיה רוצה לוודא שהיא לא מוכרת שבבים מתקדמים למדינות שאסור לה, כדי לא להסתבך עם הממשלה.",
@@ -42829,10 +42698,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZHc3TDUxWVRLbmRUa1hzMWJseUNEMUQzOUtfajgxMVFlM2NoWDNyRlZYWUVfZEgwbWctWm5FakVubjdZT25mcUtzU3JfcjVQcVFDUXFtWEdISDJuSFdUZGQ3VG1wODYtZzFJT0NpZV8xLUxoMFlLbThuN3VZUGhrNTJXek0?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQUthRFFmaWZXckVVcTQ2UkVra3Q2NDNOeEFvck42c0NndU15ZlB6LTIwOFRhZ2pUOUlVV1RCYXJmRFk4bEdtbVRRMFdJNk80ZmZnLTNGOXpGTmZObmxqcFlqeXZWTHg0ajVxeWJuUF9UNHpwTGMteVEzbE5GeUhwdHFDTXljNXlHLU5pTXZYdjVUZnc?oc=5"
    },
    {
@@ -42915,7 +42780,22 @@
     "price_at_alert": 84.52
    }
   ],
-  "id": "01c625cfd498"
+  "id": "01c625cfd498",
+  "updates": [
+   {
+    "ts": 1795549691,
+    "time": "2026-11-24T19:48Z",
+    "severity": 8,
+    "summary": "דיווחים מצביעים על כך שממשל טראמפ מתכונן להטיל גל חדש של מכסים על סין, הודו ו-14 מדינות נוספות. המהלך מעורר חששות בשווקים לגבי מלחמת סחר גלובלית.",
+    "i18n": {
+     "he": "דיווחים מצביעים על כך שממשל טראמפ מתכונן להטיל גל חדש של מכסים על סין, הודו ו-14 מדינות נוספות. המהלך מעורר חששות בשווקים לגבי מלחמת סחר גלובלית.",
+     "en": "Reports indicate that the Trump administration is preparing to impose a new wave of tariffs on China, India, and 14 other countries. The move is raising market concerns about a global trade war.",
+     "ar": "تشير التقارير إلى أن إدارة ترامب تستعد لفرض موجة جديدة من الرسوم الجمركية على الصين والهند و14 دولة أخرى. تثير هذه الخطوة مخاوف الأسواق بشأن حرب تجارية عالمية.",
+     "ru": "Сообщается, что администрация Трампа готовится ввести новую волну тарифов на товары из Китая, Индии и 14 других стран. Этот шаг вызывает опасения на рынках по поводу глобальной торговой войны."
+    }
+   }
+  ],
+  "last_update": 1795549691
  },
  {
   "ts": 1795538967,
@@ -42973,6 +42853,180 @@
     "price_at_alert": 162.78
    }
   ],
-  "id": "78197aef5a49"
+  "id": "78197aef5a49",
+  "updates": [
+   {
+    "ts": 1795549691,
+    "time": "2026-11-24T19:48Z",
+    "severity": 5,
+    "summary": "חברת התעופה צ'יינה סאות'רן איירליינס חתמה על עסקה לרכישת 50 מטוסי בואינג 737-8. זוהי ההזמנה הגדולה הראשונה של יצרנית המטוסים האמריקאית מסין מזה כמעט עשור.",
+    "i18n": {
+     "he": "חברת התעופה צ'יינה סאות'רן איירליינס חתמה על עסקה לרכישת 50 מטוסי בואינג 737-8. זוהי ההזמנה הגדולה הראשונה של יצרנית המטוסים האמריקאית מסין מזה כמעט עשור.",
+     "en": "China Southern Airlines has signed a deal to purchase 50 Boeing 737-8 aircraft. This marks the first major order for the US planemaker from China in nearly a decade.",
+     "ar": "وقعت شركة طيران جنوب الصين صفقة لشراء 50 طائرة من طراز بوينغ 737-8. يمثل هذا أول طلبية كبيرة لصانعة الطائرات الأمريكية من الصين منذ ما يقرب من عقد من الزمان.",
+     "ru": "Авиакомпания China Southern Airlines подписала сделку на покупку 50 самолетов Boeing 737-8. Это первый крупный заказ американского производителя самолетов из Китая почти за десятилетие."
+    }
+   }
+  ],
+  "last_update": 1795549691
+ },
+ {
+  "ts": 1795549691,
+  "time": "2026-11-24T19:48Z",
+  "title": "מתקפת חות'ים על מגדל במרכז הפיננסי בריאד",
+  "summary": "11 בני אדם נפצעו בתקיפה של המורדים החות'ים שכוונה למגדל במרכז הפיננסי של ריאד, ערב הסעודית.",
+  "kid": "המורדים החות'ים תקפו בניין בערב הסעודית. זה אירוע מסוכן שמעלה את המתח במזרח התיכון ועלול להשפיע על מחירי הנפט.",
+  "i18n": {
+   "title": {
+    "he": "מתקפת חות'ים על מגדל במרכז הפיננסי בריאד",
+    "en": "Houthi attack on Riyadh financial center tower",
+    "ar": "هجوم الحوثيين على برج في المركز المالي بالرياض",
+    "ru": "Атака хуситов на башню в финансовом центре Эр-Рияда"
+   },
+   "summary": {
+    "he": "11 בני אדם נפצעו בתקיפה של המורדים החות'ים שכוונה למגדל במרכז הפיננסי של ריאד, ערב הסעודית.",
+    "en": "Eleven people were injured in an attack by Houthi rebels targeting a tower in the financial center of Riyadh, Saudi Arabia.",
+    "ar": "أصيب أحد عشر شخصاً في هجوم شنه المتمردون الحوثيون استهدف برجاً في المركز المالي بالرياض، المملكة العربية السعودية.",
+    "ru": "Одиннадцать человек получили ранения в результате атаки хуситов, направленной на башню в финансовом центре Эр-Рияда, Саудовская Аравия."
+   },
+   "kid": {
+    "he": "המורדים החות'ים תקפו בניין בערב הסעודית. זה אירוע מסוכן שמעלה את המתח במזרח התיכון ועלול להשפיע על מחירי הנפט.",
+    "en": "Houthi rebels attacked a building in Saudi Arabia. This is a dangerous event that raises tension in the Middle East and could affect oil prices.",
+    "ar": "هاجم المتمردون الحوثيون مبنى في المملكة العربية السعودية. هذا حدث خطير يرفع التوتر في الشرق الأوسط وقد يؤثر على أسعار النفط.",
+    "ru": "Повстанцы-хуситы атаковали здание в Саудовской Аравии. Это опасное событие, которое повышает напряженность на Ближнем Востоке и может повлиять на цены на нефть."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 7,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795549691,
+    "reason": "חשש משיבושים באספקת הנפט במפרץ",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט במפרץ",
+     "en": "Fear of oil supply disruptions in the Gulf",
+     "ar": "الخوف من اضطرابات إمدادات النفط في الخليج",
+     "ru": "Опасения перебоев с поставками нефти в Персидском заливе"
+    },
+    "name_i18n": {
+     "he": "נפט גולמי",
+     "en": "Crude oil",
+     "ar": "النفط الخام",
+     "ru": "Сырая нефть"
+    },
+    "price_at_alert": 136.04
+   }
+  ],
+  "id": "e02e0a1a53e0"
+ },
+ {
+  "ts": 1795549691,
+  "time": "2026-11-24T19:48Z",
+  "title": "מחירי הקובלט בסין מזנקים בעקבות איסור ייצוא מקונגו",
+  "summary": "מחירי הקובלט בסין הגיעו לשיא של שלושה חודשים לאחר שהרפובליקה הדמוקרטית של קונגו הטילה איסור על ייצוא חומר הגלם.",
+  "kid": "קובלט הוא חומר שמשמש לייצור סוללות. בגלל שקונגו הפסיקה למכור אותו, המחיר שלו עלה, מה שעלול לייקר סוללות למכוניות חשמליות.",
+  "i18n": {
+   "title": {
+    "he": "מחירי הקובלט בסין מזנקים בעקבות איסור ייצוא מקונגו",
+    "en": "China cobalt prices surge as Congo bans exports",
+    "ar": "أسعار الكوبالت في الصين تقفز بعد حظر التصدير من الكونغو",
+    "ru": "Цены на кобальт в Китае подскочили после запрета экспорта из Конго"
+   },
+   "summary": {
+    "he": "מחירי הקובלט בסין הגיעו לשיא של שלושה חודשים לאחר שהרפובליקה הדמוקרטית של קונגו הטילה איסור על ייצוא חומר הגלם.",
+    "en": "Cobalt prices in China hit a three-month high after the Democratic Republic of Congo imposed a ban on exports of the raw material.",
+    "ar": "وصلت أسعار الكوبالت في الصين إلى أعلى مستوى لها في ثلاثة أشهر بعد أن فرضت جمهورية الكونغو الديمقراطية حظراً على تصدير المادة الخام.",
+    "ru": "Цены на кобальт в Китае достигли трехмесячного максимума после того, как Демократическая Республика Конго ввела запрет на экспорт этого сырья."
+   },
+   "kid": {
+    "he": "קובלט הוא חומר שמשמש לייצור סוללות. בגלל שקונגו הפסיקה למכור אותו, המחיר שלו עלה, מה שעלול לייקר סוללות למכוניות חשמליות.",
+    "en": "Cobalt is a material used to make batteries. Because Congo stopped selling it, the price went up, which could make batteries for electric cars more expensive.",
+    "ar": "الكوبالت مادة تستخدم لصنع البطاريات. ولأن الكونغو توقفت عن بيعها، ارتفع سعرها، مما قد يجعل بطاريات السيارات الكهربائية أكثر تكلفة.",
+    "ru": "Кобальт — это материал, используемый для производства аккумуляторов. Поскольку Конго прекратила его продажу, цена выросла, что может сделать аккумуляторы для электромобилей дороже."
+   }
+  },
+  "category": "commodities",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "LIT",
+    "direction": "down",
+    "t0": 1795549691,
+    "reason": "עלייה בעלויות הייצור של סוללות",
+    "reason_i18n": {
+     "he": "עלייה בעלויות הייצור של סוללות",
+     "en": "Increased battery production costs",
+     "ar": "زيادة تكاليف إنتاج البطاريات",
+     "ru": "Рост затрат на производство аккумуляторов"
+    },
+    "name_i18n": {
+     "he": "קרן סל סוללות ליתיום",
+     "en": "Lithium battery ETF",
+     "ar": "صندوق استثمار لبطاريات الليثيوم",
+     "ru": "ETF на литиевые батареи"
+    },
+    "price_at_alert": 53.8
+   }
+  ],
+  "id": "c6444f08f35e"
+ },
+ {
+  "ts": 1795549691,
+  "time": "2026-11-24T19:48Z",
+  "title": "התפרצות חצבת בוויסקונסין גובה קורבנות",
+  "summary": "רשויות הבריאות בוויסקונסין מדווחות על 3 מקרי מוות כתוצאה מהתפרצות חצבת שהגיעה לכמעט 1,000 מקרים מאומתים במדינה.",
+  "kid": "יש מחלה מדבקת שנקראת חצבת שמתפשטת בוויסקונסין. זה גורם לאנשים לחלות מאוד ואפילו למות, מה שמעורר דאגה בציבור.",
+  "i18n": {
+   "title": {
+    "he": "התפרצות חצבת בוויסקונסין גובה קורבנות",
+    "en": "Measles outbreak in Wisconsin leads to deaths",
+    "ar": "تفشي الحصبة في ويسكونسن يؤدي إلى وفيات",
+    "ru": "Вспышка кори в Висконсине привела к смертям"
+   },
+   "summary": {
+    "he": "רשויות הבריאות בוויסקונסין מדווחות על 3 מקרי מוות כתוצאה מהתפרצות חצבת שהגיעה לכמעט 1,000 מקרים מאומתים במדינה.",
+    "en": "Health authorities in Wisconsin report 3 deaths resulting from a measles outbreak that has reached nearly 1,000 confirmed cases in the state.",
+    "ar": "أبلغت السلطات الصحية في ويسكونسن عن 3 حالات وفاة نتيجة تفشي مرض الحصبة الذي وصل إلى ما يقرب من 1000 حالة مؤكدة في الولاية.",
+    "ru": "Органы здравоохранения Висконсина сообщают о 3 смертельных случаях в результате вспышки кори, число подтвержденных случаев которой в штате достигло почти 1000."
+   },
+   "kid": {
+    "he": "יש מחלה מדבקת שנקראת חצבת שמתפשטת בוויסקונסין. זה גורם לאנשים לחלות מאוד ואפילו למות, מה שמעורר דאגה בציבור.",
+    "en": "There is a contagious disease called measles spreading in Wisconsin. It is making people very sick and even causing deaths, which is causing public concern.",
+    "ar": "هناك مرض معدٍ يسمى الحصبة ينتشر في ويسكونسن. إنه يجعل الناس مرضى للغاية ويسبب الوفيات، مما يثير قلق الجمهور.",
+    "ru": "В Висконсине распространяется заразная болезнь под названием корь. Она вызывает у людей тяжелые заболевания и даже приводит к смертельным исходам, что вызывает обеспокоенность общественности."
+   }
+  },
+  "category": "health",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1795549691,
+    "reason": "עלייה בביקוש לחיסונים וטיפולים",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לחיסונים וטיפולים",
+     "en": "Increased demand for vaccines and treatments",
+     "ar": "زيادة الطلب على اللقاحات والعلاجات",
+     "ru": "Повышенный спрос на вакцины и лечение"
+    },
+    "name_i18n": {
+     "he": "סקטור הבריאות",
+     "en": "Healthcare sector",
+     "ar": "قطاع الرعاية الصحية",
+     "ru": "Сектор здравоохранения"
+    },
+    "price_at_alert": 184.795
+   }
+  ],
+  "id": "7419c67db0b2"
  }
 ]

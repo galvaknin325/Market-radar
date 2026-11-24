@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T16:50Z",
+ "generated": "2026-11-24T19:48Z",
  "trade_size": 1000,
  "important": {
   "trades": 366,
@@ -697,11 +697,11 @@
   ]
  },
  "all": {
-  "trades": 999,
-  "wins": 503,
-  "hits": 497,
+  "trades": 1001,
+  "wins": 504,
+  "hits": 498,
   "pnl": 333.4,
-  "bench_pnl": -9045.1,
+  "bench_pnl": -9056.7,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -816,9 +816,52 @@
     "date": "2026-11-23",
     "equity": 333.4,
     "bench": -9045.1
+   },
+   {
+    "date": "2026-11-24",
+    "equity": 333.4,
+    "bench": -9056.7
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-24",
+    "ticker": "ESLT.TA",
+    "dir": "down",
+    "severity": 4,
+    "cat": "geopolitics",
+    "id": "75f11970db5a",
+    "title": "יוזמה אמריקאית להטלת סעיפים נגד מתנחלים והגבלת נשק",
+    "title_i18n": {
+     "he": "יוזמה אמריקאית להטלת סעיפים נגד מתנחלים והגבלת נשק",
+     "en": "US Push for Settler Sanctions and Arms Sale Restrictions",
+     "ar": "جهود أمريكية لفرض عقوبات على المستوطنين وتقييد مبيعات الأسلحة",
+     "ru": "США продвигают санкции против поселенцев и ограничение поставок оружия"
+    },
+    "change_pct": -1.03,
+    "hit": true,
+    "pnl": 10.3,
+    "bench_pnl": -5.8
+   },
+   {
+    "date": "2026-11-24",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 5,
+    "cat": "contracts",
+    "id": "58819c447d7c",
+    "title": "יוון וישראל דנות בעסקאות ביטחוניות בהיקף של עד מיליארד אירו",
+    "title_i18n": {
+     "he": "יוון וישראל דנות בעסקאות ביטחוניות בהיקף של עד מיליארד אירו",
+     "en": "Greece and Israel discuss defense deals worth up to €1 billion",
+     "ar": "اليونان وإسرائيل تناقشان صفقة دفاعية تصل قيمتها إلى مليار يورو",
+     "ru": "Греция и Израиль обсуждают оборонные сделки на сумму до 1 млрд евро"
+    },
+    "change_pct": -1.03,
+    "hit": false,
+    "pnl": -10.3,
+    "bench_pnl": -5.8
+   },
    {
     "date": "2026-11-23",
     "ticker": "ZIM",
@@ -1349,44 +1392,6 @@
     "change_pct": 2.46,
     "hit": false,
     "pnl": -24.6,
-    "bench_pnl": 12.4
-   },
-   {
-    "date": "2026-11-23",
-    "ticker": "RTX",
-    "dir": "up",
-    "severity": 4,
-    "cat": "geopolitics",
-    "id": "e488bbd158f0",
-    "title": "ישראל עוברת למערכות הגנה אווירית זולות יותר על רקע מתיחות עם איראן",
-    "title_i18n": {
-     "he": "ישראל עוברת למערכות הגנה אווירית זולות יותר על רקע מתיחות עם איראן",
-     "en": "Israel Shifts to Cheaper Air Defense Amid Rising Iran Tensions",
-     "ar": "إسرائيل تتحول إلى دفاع جوي أرخص وسط تصاعد التوتر مع إيران",
-     "ru": "Израиль переходит на более дешевую противовоздушную оборону на фоне роста напряженности с Ираном"
-    },
-    "change_pct": 0.19,
-    "hit": false,
-    "pnl": 1.9,
-    "bench_pnl": 12.4
-   },
-   {
-    "date": "2026-11-23",
-    "ticker": "RTX",
-    "dir": "down",
-    "severity": 4,
-    "cat": "contracts",
-    "id": "e23a17ead7a7",
-    "title": "מחסור בחומרים מעכב ייצור טילי פטריוט בארה\"ב",
-    "title_i18n": {
-     "he": "מחסור בחומרים מעכב ייצור טילי פטריוט בארה\"ב",
-     "en": "Material shortage slows US Patriot missile production",
-     "ar": "نقص المواد يبطئ إنتاج صواريخ باتريوت الأمريكية",
-     "ru": "Дефицит материалов замедляет производство ракет Patriot в США"
-    },
-    "change_pct": 0.19,
-    "hit": true,
-    "pnl": -1.9,
     "bench_pnl": 12.4
    }
   ]
