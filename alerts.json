@@ -546,215 +546,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794777224,
-  "time": "2026-11-15T21:13Z",
-  "title": "מחירי הנפט יורדים עקב עודף היצע",
-  "summary": "מחירי הנפט סיימו את השבוע בירידות של כ-2.5% על רקע חששות מעודף היצע בשוק.",
-  "kid": "יש יותר מדי נפט בשוק והמחירים יורדים. זה משפיע על מחירי הדלק ומניות אנרגיה.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הנפט יורדים עקב עודף היצע",
-    "en": "Oil prices fall due to surplus",
-    "ar": "أسعار النفط تنخفض بسبب وفرة المعروض",
-    "ru": "Цены на нефть падают из-за избытка предложения"
-   },
-   "summary": {
-    "he": "מחירי הנפט סיימו את השבוע בירידות של כ-2.5% על רקע חששות מעודף היצע בשוק.",
-    "en": "Oil prices ended the week down about 2.5% amid concerns over market surplus.",
-    "ar": "انهت أسعار النفط الأسبوع بانخفاض نحو 2.5% وسط مخاوف من وفرة المعروض.",
-    "ru": "Цены на нефть завершили неделю снижением примерно на 2,5% на фоне опасений избытка предложения."
-   },
-   "kid": {
-    "he": "יש יותר מדי נפט בשוק והמחירים יורדים. זה משפיע על מחירי הדלק ומניות אנרגיה.",
-    "en": "There is too much oil on the market and prices are dropping. This affects gas prices and energy stocks.",
-    "ar": "هناك الكثير من النفط في السوق والأسعار تنخفض. يؤثر ذلك على أسعار الوقود وأسهم الطاقة.",
-    "ru": "На рынке слишком много нефти, и цены падают. Это влияет на цены на бензин и энергетические акции."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kMVZlcnJjVFJDMWludHZOaGxrQlhsRUk4MVM3MUstRDN2RTJPYm9YbWhyaFpNQlBCcWxmclFmN1hvaHFvZHVrUUpVeEh1UUt1cmxfbTByd19sV2pxUlNUNTNDMnBCajRIcGdTREpvUXVmNG52bmFn?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUk5QRnVLZXJ3Nk5tMzFQbXlfb1ZvanZwaXRmdkxoSDJLcTA5aHVCZHBDN2R5RUZmMDFOVlRWMmFwLUVjQmpnZGx3WnFxM1htekVyaTZMZVRhVEplYnFWRmRBbThaRzBQMGg2VGQ2alQ3U0tMU3YxVWl3ZTJaN2hFQlZFNUJSdlZnMllYUjVB?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORUpVUmdfWGhDbV81b2dqaXhPWnN4eXBmOF83QWtibDM5eTVLVnE4T1M4ZllWX2F2TDZ0a3p5SVR1NEpXakVmMEN2T2JEZ013SllMQjVkeU9QYzZDMHpiRkFtckJvY0VyTHV3MldGbFVtYlRORXctcmwyNlFUX2h4aUVtZmd1RlZyaWZWR1Q1OUZmZ2FXR2hQd1FDLVpXWmxES2pyMkthUU43Q0wxeDF6dG1B0gG6AUFVX3lxTFAzMkw3emk5YlAtOHc5cUw0TVBybmJ1bDhpa2NLQlU4MEZTbEotSmZoQWRPX1NNaXFqcjNGQUQ3MVlVTEhJTlFzNVZ6Y1Y5dkpzOWh2VnFDMVgyUGpEWG92aHI5OWh3QVdsQVVfY0NLdGVTRUtxa0V1bUF0R3RmdUNZMFhCaXNyNFhKUUU0Q0V3VFQ3ZlQwSVlaaFRpTTQ3bThsbHBwMkFaOTBQdV9NRnJvVXdiUHNsRkFUUQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOFlzRDVjSmluU0dzTmpRRk1KMHd6WDB2clA0cVpNZnBDemtSeUw2aWxjNm9jdDNFZlpRNVAtM2hlMUJfUjNjRjQxVDBsUTFpTEdmTjFKZXZwWEMtalNybEc1S2dsOWdwczZCc2tBallPZGRYTktpMDRBRlFDNXJXdVQtWjF6SjVUaVNKTjh1RzNRVTN3YVhZalE3RXBTaWRnQ3c?oc=5"
-   },
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794777224,
-    "reason": "ירידת מחירי הנפט פוגעת ברווחי חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט פוגעת ברווחי חברות האנרגיה.",
-     "en": "Falling oil prices hurt energy companies' profits.",
-     "ar": "انخفاض أسعار النفط يضر بأرباح شركات الطاقة.",
-     "ru": "Падение цен на нефть бьет по прибыли энергокомпаний."
-    },
-    "name_i18n": {
-     "he": "קרן סל אנרגיה",
-     "en": "Energy sector ETF",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 64.96,
-    "entry_price": 64.52,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 63.36,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.8,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.5,
-    "edge_pct": -0.5,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "down",
-    "t0": 1794777224,
-    "reason": "מחירי נפט נמוכים מקטינים הכנסות.",
-    "reason_i18n": {
-     "he": "מחירי נפט נמוכים מקטינים הכנסות.",
-     "en": "Lower oil prices reduce revenues.",
-     "ar": "أسعار النفط المنخفضة تقلل الإيرادات.",
-     "ru": "Более низкие цены на нефть снижают выручку."
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל - חברת אנרגיה",
-     "en": "ExxonMobil - energy company",
-     "ar": "إكسون موبيل - شركة طاقة",
-     "ru": "ExxonMobil - энергетическая компания"
-    },
-    "price_at_alert": 170.59,
-    "entry_price": 169.53,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 167.21,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.37,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.93,
-    "edge_pct": -0.93,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1794796952,
-    "reason": "ירידת מחיר הנפט",
-    "reason_i18n": {
-     "he": "ירידת מחיר הנפט",
-     "en": "Drop in oil prices",
-     "ar": "انخفاض سعر النفط",
-     "ru": "Падение цены на нефть"
-    },
-    "name_i18n": {
-     "he": "נפט גולמי",
-     "en": "Crude oil ETF",
-     "ar": "صندوق مؤشرات متداول للنفط الخام",
-     "ru": "ETF на сырую нефть"
-    },
-    "price_at_alert": 145.58,
-    "entry_price": 142.69,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 140.23,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.72,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.58,
-    "edge_pct": -0.58,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "ac0c8b208fdd",
-  "updates": [
-   {
-    "ts": 1794796952,
-    "time": "2026-11-16T02:42Z",
-    "severity": 5,
-    "summary": "מחירי הנפט יורדים בשל ציפיות לעודף היצע בשוק העולמי, מה שמשפיע על מחירי הדלק.",
-    "i18n": {
-     "he": "מחירי הנפט יורדים בשל ציפיות לעודף היצע בשוק העולמי, מה שמשפיע על מחירי הדלק.",
-     "en": "Oil prices are falling due to expectations of a supply surplus in the global market, impacting fuel prices.",
-     "ar": "تنخفض أسعار النفط بسبب توقعات بوجود فائض في المعروض في السوق العالمية، مما يؤثر على أسعار الوقود.",
-     "ru": "Цены на нефть падают из-за ожиданий избытка предложения на мировом рынке, что влияет на цены на топливо."
-    }
-   },
-   {
-    "ts": 1794806008,
-    "time": "2026-11-16T05:13Z",
-    "severity": 5,
-    "summary": "מחירי הנפט ירדו לאחר שארצות הברית הקלה את ההגבלות על משלוחי הדלק, מה שמרחיב את ההיצע הזמין בשוק.",
-    "i18n": {
-     "he": "מחירי הנפט ירדו לאחר שארצות הברית הקלה את ההגבלות על משלוחי הדלק, מה שמרחיב את ההיצע הזמין בשוק.",
-     "en": "Oil prices fell after the US eased restrictions on fuel shipping, increasing available market supply.",
-     "ar": "انخفضت أسعار النفط بعد أن خففت الولايات المتحدة القيود المفروضة على شحن الوقود، مما زاد من المعروض المتاح في السوق.",
-     "ru": "Цены на нефть снизились после того, как США смягчили ограничения на транспортировку топлива, что увеличило предложение на рынке."
-    }
-   },
-   {
-    "ts": 1794821245,
-    "time": "2026-11-16T09:27Z",
-    "severity": 5,
-    "summary": "מחירי הנפט ירדו לאחר שסוכנות האנרגיה הבינלאומית (IEA) חזתה עודף היצע עולמי.",
-    "i18n": {
-     "he": "מחירי הנפט ירדו לאחר שסוכנות האנרגיה הבינלאומית (IEA) חזתה עודף היצע עולמי.",
-     "en": "Oil prices fell after the International Energy Agency (IEA) forecasted a global supply surplus.",
-     "ar": "انخفضت أسعار النفط بعد أن توقعت وكالة الطاقة الدولية فائضاً في المعروض العالمي.",
-     "ru": "Цены на нефть упали после того, как Международное энергетическое агентство (МЭА) спрогнозировало избыток предложения на мировом рынке."
-    }
-   },
-   {
-    "ts": 1794847855,
-    "time": "2026-11-16T16:50Z",
-    "severity": 5,
-    "summary": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
-    "i18n": {
-     "he": "מחירי הנפט הגולמי ירדו ל-87 דולר לחבית בשל תחזיות לעודף היצע ברבעון הרביעי.",
-     "en": "Crude oil prices fell to $87 a barrel due to forecasts of a supply surplus in the fourth quarter.",
-     "ar": "انخفضت أسعار النفط الخام إلى 87 دولارًا للبرميل بسبب توقعات بوجود فائض في المعروض في الربع الرابع.",
-     "ru": "Цены на сырую нефть упали до 87 долларов за баррель из-за прогнозов избытка предложения в четвертом квартале."
-    }
-   },
-   {
-    "ts": 1794877191,
-    "time": "2026-11-17T00:59Z",
-    "severity": 5,
-    "summary": "מחירי הנפט הגולמי רשמו ירידה חדה של יותר מ-3% בעקבות הערכות השוק להיווצרות עודף היצע בתקופה הקרובה.",
-    "i18n": {
-     "he": "מחירי הנפט הגולמי רשמו ירידה חדה של יותר מ-3% בעקבות הערכות השוק להיווצרות עודף היצע בתקופה הקרובה.",
-     "en": "Crude oil prices dropped by more than 3% amid growing market expectations of future oversupply conditions.",
-     "ar": "שهدت أسعار النفط الخام انخفاضاً حاداً بأكثر من 3% وسط توقعات السوق بزيادة المعروض في الفترة القادمة.",
-     "ru": "Цены на сырую нефть резко снизились более чем на 3% на фоне растущих ожиданий рынка о профиците предложения."
-    }
-   }
-  ],
-  "last_update": 1794877191,
-  "evaluated": true
- },
- {
   "ts": 1794793749,
   "time": "2026-11-16T01:49Z",
   "title": "לחץ על מחירי הנחושת עקב האטה בביקוש ל-AI",
@@ -904,153 +695,6 @@
  {
   "ts": 1794821245,
   "time": "2026-11-16T09:27Z",
-  "title": "אינפלציית הסיטונאות בהודו מזנקת ל-12.29%",
-  "summary": "מדד המחירים לסיטונאות בהודו עלה ל-12.29% באוקטובר, בעיקר בשל עלייה במחירי הדלק והמזון.",
-  "kid": "המחירים בהודו עולים מהר מאוד, מה שעלול להקשות על חברות להרוויח כסף ולפגוע בצמיחה הכלכלית שם.",
-  "i18n": {
-   "title": {
-    "he": "אינפלציית הסיטונאות בהודו מזנקת ל-12.29%",
-    "en": "India's wholesale inflation surges to 12.29%",
-    "ar": "تضخم أسعار الجملة في الهند يقفز إلى 12.29%",
-    "ru": "Оптовая инфляция в Индии подскочила до 12.29%"
-   },
-   "summary": {
-    "he": "מדד המחירים לסיטונאות בהודו עלה ל-12.29% באוקטובר, בעיקר בשל עלייה במחירי הדלק והמזון.",
-    "en": "India's Wholesale Price Index inflation rose to 12.29% in October, driven primarily by higher fuel and food costs.",
-    "ar": "ارتفع مؤشر أسعار الجملة في الهند إلى 12.29% في أكتوبر، مدفوعاً بشكل أساسي بارتفاع تكاليف الوقود والغذاء.",
-    "ru": "Индекс оптовых цен в Индии вырос до 12.29% в октябре, в основном из-за роста цен на топливо и продукты питания."
-   },
-   "kid": {
-    "he": "המחירים בהודו עולים מהר מאוד, מה שעלול להקשות על חברות להרוויח כסף ולפגוע בצמיחה הכלכלית שם.",
-    "en": "Prices in India are rising very fast, which could make it harder for companies to make money and hurt economic growth there.",
-    "ar": "الأسعار في الهند ترتفع بسرعة كبيرة، مما قد يجعل من الصعب على الشركات كسب المال ويضر بالنمو الاقتصادي هناك.",
-    "ru": "Цены в Индии растут очень быстро, что может затруднить получение прибыли компаниями и замедлить экономический рост."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMjFqSkRPMFNYZ0g0M2tOSHFsNjliS2ZOd1J1ZllYZFUwVGQtQzFpSmdMQ1NjVjVDY1BoYW16NXRDOXl1VDNvUkR3OVdFSDg0ckZzWXFPbDY3Sk1IRE5TTUNGeWZ3RzVkX2VIUXppaGNtSlR1bGVQMWJ3OEkxVlFqdmkyY0RaVGVVSUFJamg5Y3hOZElyTXRxTUQySHc4LWtRRWI0UUJmLV9ZMEpmbi12UUVnWWhiYi1McUhvUlR0ZmRUV0tibmlDRw?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeUpqLXM2dlNpZG9JYlhwS1ptRHFuM3RQVzRWWS1mSmtYcm9UQ09xczBhdUF2UzktMXY3VmhYWnVybzcyNUc4QXo2WmdTT25YdDBMdm9GTmxOZkJoVjVhSGJScy1JM1NHaTFtOWk2TEdaT1dJRGxMVXdsazY0YnhBZTZ2VVlIczBFUFdfa3dMU0dhSnM5WlpQSzVab0VNdEhaQ3BRZ1pzZmduQlgwZGc0QTRLcVRMOVd1emNpRk83NkJWVHNhRkdUeU5vN0ZVamx0U2hmZU9TREFGcUlyZUd3NXZqb1lubms?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb0JydURDUkgwZUhKNTBMWkhBelBKMHdiYVpNbmJpeV90ZGpCOFI5RWx1RlZ6cVhDcEd5Uk5FS2M5bWRidTZiWEo2dHNNNFUzbXZkSkVSMkx1UXZDOE9CVFlHTnF1cnFWbks5S051MTZtYkQtOWROQVF4eEY4clpKTFgxSWhsM2k5bV85VWhHY1NjS0NGU21DMG13S3l1bU9IV1hTN3ltN3pJR08xRmc?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMk5uckVmanVXdnFscG9GRTFycjF2NzBJSlAyS1JxQmFNYUd4WlQxMHE2ZWlOd3Bwc1FoUmdsN2FhbEdFTHptU1JoSTA3UmlLNVdGekNualozaVZ4SHNnOTJyaHgycDIwWE5xbTdRRDh3dmFRbC1xNEVMNGNwSFR4Wll1LXl3UzdZTF9LYWltTkJaWTZCZkI3R3gwOXk2TDQ3cHRzS2hjYWlscTVYWHNoNkVFWG5KTFFaOEowU0hwR0xPSlE?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOWctMzZjWmxJaDE0bXhoek8wUFRQOHhpR1lhYzd1RHFoM1FuVndyYnlydmdrQWI3eGY3b3cwbktKWk9fSnJSeVhFTkl2N2hFMkJHMFZUenpGSEZ4U3JSVFRTM3hSNzlaM01fazdlMkFHdDlydjlTQnBTTjRreWVJTENra2twS2hkS25paDc0NWdka3lPMUU1emNGQ3RzWkIzMVpXMDI2X3pscjlhTmoxZjllcGpSQ01FZ3JtRjREUmMzeVgyRzF3Nmp1TWtBUdIB0AFBVV95cUxNYmVEdGJfNFVfTkJKeThZa256cjJJamlvT2xqQXkxLVJ1Z2ZQRG1UdmN5Yk5IVUFGRmFfdUYzeG1PTTZoVWNxNWN3bW5kaEppVjV1Zi0td1JUNmtMc2VMVjR2cTdETV9UdWhIbllsX2NZNWZ1elZobVA3Nk05eEJwelkwVlcwVDlJMjMtS0pzckstaFdaVjZqT2Z1OW5BN21OZDZlbHR2Ul9sYXhya09HMkZDS0NKMUtMNmFGeUhzLWdvZldMX2dGT0l4WTB5NE54?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWDZHS1FVN0xmbVJOSWF5OExEQ0VkRmYxc3d6SDdnM0Q5UWN5U2sxaU9KZzRRN2x1UHFVVVhvTk5qS1dPUnlxeE1TdklJQWZfM2FLdkl3YUxDY2l6ajdLcjBMVUVyVzlrTGIyZEVxcVhOd01pMlRSR3ZCRnpyLURMaTBibnNmQkh6SHBOaFgwd2ZoankzMDI3aGtZekdtc3lmNlNZMQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "INDA",
-    "direction": "down",
-    "t0": 1794821245,
-    "reason": "אינפלציה גבוהה עלולה להוביל להעלאות ריבית ולפגוע ברווחיות החברות.",
-    "reason_i18n": {
-     "he": "אינפלציה גבוהה עלולה להוביל להעלאות ריבית ולפגוע ברווחיות החברות.",
-     "en": "High inflation may lead to interest rate hikes and hurt corporate profitability.",
-     "ar": "قد يؤدي التضخم المرتفع إلى رفع أسعار الفائدة والإضرار بربحية الشركات.",
-     "ru": "Высокая инфляция может привести к повышению процентных ставок и снижению прибыльности компаний."
-    },
-    "name_i18n": {
-     "he": "קרן סל הודו",
-     "en": "India ETF",
-     "ar": "صندوق الاستثمار المتداول للهند",
-     "ru": "ETF на рынок Индии"
-    },
-    "price_at_alert": 51.45,
-    "entry_price": 51.51,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 51.905,
-    "exit_date": "2026-11-17",
-    "change_pct": 0.77,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 3.07,
-    "edge_pct": -3.07,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "GLD",
-    "direction": "up",
-    "t0": 1794877191,
-    "reason": "חיפוש גידור מפני אינפלציה גבוהה בשווקים המתעוררים",
-    "reason_i18n": {
-     "he": "חיפוש גידור מפני אינפלציה גבוהה בשווקים המתעוררים",
-     "en": "Hedging demand against surging emerging market inflation",
-     "ar": "الطلب على التحوط ضد ارتفاع التضخم في الأسواق الناشئة",
-     "ru": "Спрос на хеджирование против растущей инфляции"
-    },
-    "name_i18n": {
-     "he": "תעודת סל זהב",
-     "en": "Gold ETF",
-     "ar": "صندوق مؤشرات الذهب",
-     "ru": "ETF золота"
-    },
-    "price_at_alert": 352.93,
-    "entry_price": 353.87,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 341.17,
-    "exit_date": "2026-11-18",
-    "change_pct": -3.59,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -2.51,
-    "edge_pct": -2.51,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "97b967c733d7",
-  "updates": [
-   {
-    "ts": 1794826558,
-    "time": "2026-11-16T10:55Z",
-    "severity": 4,
-    "summary": "מדדחי המחירים לסיטונאות (WPI) בהודו טיפס באוקטובר ל-12.29% בעקבות התייקרות חדה במחירי הדלק והגלם.",
-    "i18n": {
-     "he": "מדדחי המחירים לסיטונאות (WPI) בהודו טיפס באוקטובר ל-12.29% בעקבות התייקרות חדה במחירי הדלק והגלם.",
-     "en": "India's Wholesale Price Index (WPI) inflation climbed to 12.29% in October due to a sharp spike in fuel and crude prices.",
-     "ar": "ارتفع تضخم مؤشر أسعار الجملة في الهند إلى 12.29% في أكتوبر بسبب قفزة حادة في أسعار الوقود الخام.",
-     "ru": "Инфляция цен производителей (WPI) в Индии выросла до 12.29% в октябре из-за резкого скачка цен на топливо и сырье."
-    }
-   },
-   {
-    "ts": 1794877191,
-    "time": "2026-11-17T00:59Z",
-    "severity": 4,
-    "summary": "מדד אינפלציית הסיטונאות בהודו זינק לשיא של 12.29% בחודש אוקטובר, מונע מלחצי אנרגיה ועלויות חשמל שהעמיסו על התקציבים המקומיים.",
-    "i18n": {
-     "he": "מדד אינפלציית הסיטונאות בהודו זינק לשיא של 12.29% בחודש אוקטובר, מונע מלחצי אנרגיה ועלויות חשמל שהעמיסו על התקציבים המקומיים.",
-     "en": "India's Wholesale Price Index (WPI) inflation spiked to a series high of 12.29% in October as fuel and power costs severely strained household budgets.",
-     "ar": "ارتفع تضخم مؤشر أسعار الجملة في الهند إلى مستوى قياسي بلغ 12.29% في أكتوبر مع ضغط تكاليف الوقود والطاقة على الميزانيات.",
-     "ru": "Инфляция цен производителей (WPI) в Индии подскочила до рекордных 12,29% в октябре из-за давления затрат на топливо и электроэнергию."
-    }
-   }
-  ],
-  "last_update": 1794877191,
-  "evaluated": true
- },
- {
-  "ts": 1794821245,
-  "time": "2026-11-16T09:27Z",
   "title": "אנדוריל תפתח משגר טילים עבור חיל האוויר האמריקאי",
   "summary": "חברת הביטחון אנדוריל הודיעה כי תפתח משגר מכולות עבור תוכנית הטילים נגד אוויר של חיל האוויר האמריקאי.",
   "kid": "חברת נשק חדשה קיבלה חוזה מהצבא האמריקאי לבניית טכנולוגיה חדשה לשיגור טילים. זה טוב לחברה ומשקף את המאמץ של ארה\"ב להתחדש בנשק.",
@@ -1171,146 +815,6 @@
    }
   ],
   "last_update": 1794990669,
-  "evaluated": true
- },
- {
-  "ts": 1794826558,
-  "time": "2026-11-16T10:55Z",
-  "title": "תקיפת מכלית מדליקה חששות בשל מיצרו של הורמוז",
-  "summary": "שריפה במכלית מחדשת את החששות בנוגע לסיכוני השיפוט והתחבורה הימית במיצרו של הורמוז, מה שדוחף את מחירי הנפט כלפי מעלה.",
-  "kid": "מכלית נפגעה ליד מיצרו של הורמוז, צינור מרכזי לנפט. זה עלול לייקר את הנפט ולגרום למניות אנרגיה לעלות.",
-  "i18n": {
-   "title": {
-    "he": "תקיפת מכלית מדליקה חששות בשל מיצרו של הורמוז",
-    "en": "Tanker incident raises fresh fears over Strait of Hormuz shipping",
-    "ar": "حادثة ناقلة تثير مخاوف بشأن الشحن في مضيق هرمز",
-    "ru": "Инцидент с танкером усиливает опасения по поводу судоходства в Ормузском проливе"
-   },
-   "summary": {
-    "he": "שריפה במכלית מחדשת את החששות בנוגע לסיכוני השיפוט והתחבורה הימית במיצרו של הורמוז, מה שדוחף את מחירי הנפט כלפי מעלה.",
-    "en": "A tanker fire highlights shipping risks in the Strait of Hormuz, pushing crude oil prices slightly higher.",
-    "ar": "حريق ناقلة يسلط الضوء على مخاطر الشحن في مضيق هرمز، مما يدفع أسعار النفط للارتفاع.",
-    "ru": "Пожар на танкере подчеркивает риски судоходства в Ормузском проливе, толкающие цены на нефть вверх."
-   },
-   "kid": {
-    "he": "מכלית נפגעה ליד מיצרו של הורמוז, צינור מרכזי לנפט. זה עלול לייקר את הנפט ולגרום למניות אנרגיה לעלות.",
-    "en": "A tanker was involved in an incident near a vital oil route. This can push up the price of oil and energy stocks.",
-    "ar": "حدثت مشكلة لناقلة قرب طريق نفطي مهم. هذا قد يرفع أسعار النفط ومניות الطاقة.",
-    "ru": "Происшествие с танкером у важного нефтяного маршрута может поднять цены на нефть и акции энергетических компаний."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "סיכונים במיצרו של הורמוז תומכים بمחירי הנפט.",
-    "reason_i18n": {
-     "he": "סיכונים במיצרו של הורמוז תומכים بمחירי הנפט.",
-     "en": "Hormuz shipping risks support crude oil prices.",
-     "ar": "مخاطر الشحن في هرمز تدعم أسعار النفط.",
-     "ru": "Риски судоходства в Ормузе поддерживают цены на нефть."
-    },
-    "name_i18n": {
-     "he": "USO - קרן סל על נפט גולמי",
-     "en": "USO - Crude Oil ETF",
-     "ar": "USO - صندوق النفط الخام",
-     "ru": "USO - ETF на сырую нефть"
-    },
-    "price_at_alert": 145.58,
-    "entry_price": 142.69,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 140.23,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.72,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.58,
-    "edge_pct": 0.58,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1794826558,
-    "reason": "מחירי נפט גבוהים יותר משפרים את רווחי חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "מחירי נפט גבוהים יותר משפרים את רווחי חברות האנרגיה.",
-     "en": "Higher oil prices boost energy company profits.",
-     "ar": "أسعار النفط الأعلى تعزز أرباح شركات الطاقة.",
-     "ru": "Более высокие цены на нефть увеличивают прибыль энергокомпаний."
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל - חברת אנרגיה ענקית",
-     "en": "Exxon Mobil - major energy company",
-     "ar": "إكسون موبيل - شركة طاقة كبرى",
-     "ru": "Exxon Mobil - крупная энергетическая компания"
-    },
-    "price_at_alert": 170.59,
-    "entry_price": 169.53,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 167.21,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.37,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.93,
-    "edge_pct": 0.93,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ZIM",
-    "direction": "up",
-    "t0": 1794877191,
-    "reason": "עקיפת נתיבי סחר ועלייה בתעריפי הובלה ימית",
-    "reason_i18n": {
-     "he": "עקיפת נתיבי סחר ועלייה בתעריפי הובלה ימית",
-     "en": "Rerouting around maritime risks boosting freight rates",
-     "ar": "تغيير مسار الشحن لرفع أسعار النقل",
-     "ru": "Обход зон риска повышает ставки фрахта"
-    },
-    "name_i18n": {
-     "he": "צים - חברת ספנות ישראלית",
-     "en": "ZIM - an Israeli shipping company",
-     "ar": "زيم - شركة شحن إسرائيلية",
-     "ru": "ZIM - израильская судоходная компания"
-    },
-    "price_at_alert": 29.11,
-    "entry_price": 29.4324,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 29.92,
-    "exit_date": "2026-11-18",
-    "change_pct": 1.66,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": 2.74,
-    "edge_pct": 2.74,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "537f2b80b56a",
-  "updates": [
-   {
-    "ts": 1794877191,
-    "time": "2026-11-17T00:59Z",
-    "severity": 5,
-    "summary": "כוחות החות'ים המשיכו בהתקדמות בדרום תימן והציגו נשק נתפס, בזמן שמכליות נפגעו ממוקמי ים במצר הורמוז, מה שמחזק את החששות לסיכוני ספנות וסחר עולמי.",
-    "i18n": {
-     "he": "כוחות החות'ים המשיכו בהתקדמות בדרום תימן והציגו נשק נתפס, בזמן שמכליות נפגעו ממוקמי ים במצר הורמוז, מה שמחזק את החששות לסיכוני ספנות וסחר עולמי.",
-     "en": "Houthi forces continued their push in southern Yemen and paraded captured weapons, while tankers hit sea mines near shipping lanes, reinforcing global maritime security risks.",
-     "ar": "واصلت قوات الحوثي تقدمها في جنوب اليمن وعرضت أسلحة مستولى عليها، بينما اصطدمت ناقلات بألغام بحرية، مما يعزز المخاوف على الأمن البحري والتجارة العالمية.",
-     "ru": "Силы хуситов продолжали наступление на юге Йемена и демонстрировали захваченное оружие, в то время как танкеры подрывались на морских минах, усиливая риски для судоходства."
-    }
-   }
-  ],
-  "last_update": 1794877191,
   "evaluated": true
  },
  {
@@ -2233,270 +1737,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794858871,
-  "time": "2026-11-16T19:54Z",
-  "title": "תקלות גישה בחשבונות בנקים גדולים בארה\"ב",
-  "summary": "אלפי לקוחות דיווחו על קשיים בגישה לחשבונותיהם המקוונים בבנקים גדולים כמו צ'ייס, וולס פארגו ובנק אוף אמריקה.",
-  "kid": "אנשים לא מצליחים להיכנס לחשבונות הבנק שלהם באינטרנט. זה גורם לבהלה קטנה ועלול להשפיע על מניות הבנקים אם יתברר שמדובר בבעיה רצינית.",
-  "i18n": {
-   "title": {
-    "he": "תקלות גישה בחשבונות בנקים גדולים בארה\"ב",
-    "en": "Access issues at major US banks",
-    "ar": "مشاكل في الوصول إلى الحسابات في البنوك الأمريكية الكبرى",
-    "ru": "Проблемы с доступом к счетам в крупных банках США"
-   },
-   "summary": {
-    "he": "אלפי לקוחות דיווחו על קשיים בגישה לחשבונותיהם המקוונים בבנקים גדולים כמו צ'ייס, וולס פארגו ובנק אוף אמריקה.",
-    "en": "Thousands of customers reported difficulties accessing online accounts at major US banks, including Chase, Wells Fargo, and Bank of America.",
-    "ar": "أبلغ آلاف العملاء عن صعوبات في الوصول إلى حساباتهم عبر الإنترنت في بنوك أمريكية كبرى مثل تشيس وويلز فارجو وبنك أوف أمريكا.",
-    "ru": "Тысячи клиентов сообщили о трудностях с доступом к онлайн-счетам в крупных банках США, включая Chase, Wells Fargo и Bank of America."
-   },
-   "kid": {
-    "he": "אנשים לא מצליחים להיכנס לחשבונות הבנק שלהם באינטרנט. זה גורם לבהלה קטנה ועלול להשפיע על מניות הבנקים אם יתברר שמדובר בבעיה רצינית.",
-    "en": "People can't log into their bank accounts online. This causes a little panic and could affect bank stocks if it turns out to be a serious problem.",
-    "ar": "لا يستطيع الناس تسجيل الدخول إلى حساباتهم المصرفية عبر الإنترنت. هذا يسبب ذعراً بسيطاً وقد يؤثر على أسهم البنوك إذا تبين أنها مشكلة خطيرة.",
-    "ru": "Люди не могут войти в свои банковские счета онлайн. Это вызывает небольшую панику и может повлиять на акции банков, если проблема окажется серьезной."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks?traffic_source=rss"
-   },
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSVVQOEQ0TmcxZEUxS2NUZHpaWlNLUWVtaXJ2QWprT2phUkhyb3RHN2xsYVVZMUliOEthOU1rVnYxMVFMZktGOVJPOXh0dy1tWFdTNUg3a09yLTVTNkpuVk1pVFRFZnNQZFlSNEFjblBQOHVIY0hKTzctUW5OQWpqLUdabnU4Rmh4NHhtMWtlMGRzTldZckRiX1pjQQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "JPM",
-    "direction": "down",
-    "t0": 1794858871,
-    "reason": "חשש מתקלה טכנית או סייבר",
-    "reason_i18n": {
-     "he": "חשש מתקלה טכנית או סייבר",
-     "en": "Concerns over technical or cyber glitch",
-     "ar": "مخاوف بشأن خلل فني أو سيبراني",
-     "ru": "Опасения по поводу технического или кибер-сбоя"
-    },
-    "name_i18n": {
-     "he": "ג'יי פי מורגן צ'ייס",
-     "en": "JPMorgan Chase",
-     "ar": "جي بي مورجان تشيس",
-     "ru": "JPMorgan Chase"
-    },
-    "price_at_alert": 338.416,
-    "entry_price": 337.31,
-    "entry_time": "2026-11-16T20:30+00:00",
-    "exit_price": 329.99,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.17,
-    "bench": "SPY",
-    "bench_change_pct": -0.93,
-    "excess_pct": -1.24,
-    "edge_pct": 1.24,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "WFC",
-    "direction": "down",
-    "t0": 1794858871,
-    "reason": "חשש מתקלה טכנית או סייבר",
-    "reason_i18n": {
-     "he": "חשש מתקלה טכנית או סייבר",
-     "en": "Concerns over technical or cyber glitch",
-     "ar": "مخاوف بشأن خلل فني أو سيبراني",
-     "ru": "Опасения по поводу технического или кибер-сбоя"
-    },
-    "name_i18n": {
-     "he": "וולס פארגו",
-     "en": "Wells Fargo",
-     "ar": "ويلز فارجو",
-     "ru": "Wells Fargo"
-    },
-    "price_at_alert": 84.505,
-    "entry_price": 84.55,
-    "entry_time": "2026-11-16T20:30+00:00",
-    "exit_price": 82.71,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.18,
-    "bench": "SPY",
-    "bench_change_pct": -0.93,
-    "excess_pct": -1.24,
-    "edge_pct": 1.24,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "BAC",
-    "direction": "down",
-    "t0": 1794877191,
-    "reason": "הפרעות בגישה המקוונת של לקוחות",
-    "reason_i18n": {
-     "he": "הפרעות בגישה המקוונת של לקוחות",
-     "en": "Customer online access disruptions",
-     "ar": "اضطرابات في وصول العملاء عبر الإنترنت",
-     "ru": "Нарушения онлайн-доступа клиентов"
-    },
-    "name_i18n": {
-     "he": "בנק אוף אמריקה - בנק מסחרי גדול",
-     "en": "Bank of America - a major commercial bank",
-     "ar": "بنك أوف أمريكا - بنك تجاري كبير",
-     "ru": "Bank of America - крупный коммерческий банк"
-    },
-    "price_at_alert": 50.08,
-    "entry_price": 49.8,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 48.9,
-    "exit_date": "2026-11-18",
-    "change_pct": -1.81,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -0.73,
-    "edge_pct": 0.73,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "89870685cab6",
-  "updates": [
-   {
-    "ts": 1794877191,
-    "time": "2026-11-17T00:59Z",
-    "severity": 3,
-    "summary": "בנקים גדולים בארה\"ב כולל ג'יי بي מורגן צ'ייס ובנק אוף אמריקה חוו תקלות שירות והשביתו גישה לחשבונות, אך הגופים והרשויות שללו חשד למתקפת סייבר והבהירו כי מדובר בתקלת תוכנה.",
-    "i18n": {
-     "he": "בנקים גדולים בארה\"ב כולל ג'יי بي מורגן צ'ייס ובנק אוף אמריקה חוו תקלות שירות והשביתו גישה לחשבונות, אך הגופים והרשויות שללו חשד למתקפת סייבר והבהירו כי מדובר בתקלת תוכנה.",
-     "en": "Major US banks including JPMorgan Chase and Bank of America experienced service outages disrupting account access, but officials ruled out cyberattacks and confirmed software bugs were to blame.",
-     "ar": "שهدت البنوك الأمريكية الكبرى بما في ذلك جيه بي مورغان تشيس وبنك أوف أمريكا انقطاعاً في الخدمة أثر على الوصول إلى الحسابات، لكن المسؤولين استبعدوا وقوع هجمات سيبرانية وأكدوا أن السبب أخطاء برمجية.",
-     "ru": "Крупные американские банки, включая JPMorgan Chase и Bank of America, столкнулись с перебоями в обслуживании, но официальные лица исключили кибератаки и подтвердили наличие программных сбоев."
-    }
-   }
-  ],
-  "last_update": 1794877191,
-  "evaluated": true
- },
- {
-  "ts": 1794868268,
-  "time": "2026-11-16T22:31Z",
-  "title": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
-  "summary": "יונייטד איירליינס דיווחה על תקלת מערכת שגרמה לשיבושים בטיסות היוצאות שלה.",
-  "kid": "לחברת התעופה היו בעיות במחשבים שלה, מה שגרם לעיכובים בטיסות. זה יכול לאכזב נוסעים ולפגוע זמנית במניות חברת התעופה.",
-  "i18n": {
-   "title": {
-    "he": "תקלת מערכת ביונייטד איירליינס משפיעה על טיסות יוצאות",
-    "en": "United Airlines system outage affects departing flights",
-    "ar": "عطل نظام في يونايتد إيرلاينز يؤثر على الرحلات المغادرة",
-    "ru": "Сбой системы United Airlines влияет на вылетающие рейсы"
-   },
-   "summary": {
-    "he": "יונייטד איירליינס דיווחה על תקלת מערכת שגרמה לשיבושים בטיסות היוצאות שלה.",
-    "en": "United Airlines reported a system outage affecting its departing flights.",
-    "ar": "أبلغت شركة يونايتد إيرلاينز عن عطل في النظام يؤثر على رحلاتها المغادرة.",
-    "ru": "United Airlines сообщила о системном сбое, затронувшем вылетающие рейсы."
-   },
-   "kid": {
-    "he": "לחברת התעופה היו בעיות במחשבים שלה, מה שגרם לעיכובים בטיסות. זה יכול לאכזב נוסעים ולפגוע זמנית במניות חברת התעופה.",
-    "en": "The airline had computer trouble, causing flight delays. This can frustrate passengers and temporarily hurt the airline's stock.",
-    "ar": "واجهت شركة الطيران مشكلة في الكمبيوتر أدت إلى تأخير الرحلات. هذا قد أغضب المسافرين وأثر سلباً على أسهم الشركة.",
-    "ru": "У авиакомпании возникли проблемы с компьютерами, что привело к задержкам реисов. Это может временно навредить акциям компании."
-   }
-  },
-  "category": "cyber",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "UAL",
-    "direction": "down",
-    "t0": 1794868268,
-    "reason": "שיבושים תפעוליים ופגיעה באמון הנוסעים",
-    "reason_i18n": {
-     "he": "שיבושים תפעוליים ופגיעה באמון הנוסעים",
-     "en": "Operational disruptions and hit to passenger trust",
-     "ar": "اضطرابات تشغيلية وضرر بثقة الركاب",
-     "ru": "Операционные сбои и удар по доверию пассажиров"
-    },
-    "name_i18n": {
-     "he": "יונייטד איירליינס - חברת תעופה גדולה",
-     "en": "United Airlines - major airline",
-     "ar": "يونايتد إيرلاينز - شركة طيران كبرى",
-     "ru": "United Airlines - крупная авиакомпания"
-    },
-    "price_at_alert": 110.76,
-    "entry_price": 109.41,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 107.61,
-    "exit_date": "2026-11-18",
-    "change_pct": -1.65,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -0.57,
-    "edge_pct": 0.57,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "JETS",
-    "direction": "down",
-    "t0": 1794877191,
-    "reason": "השפעה שלילית על סקטור התעופה בעקבות התקלה",
-    "reason_i18n": {
-     "he": "השפעה שלילית על סקטור התעופה בעקבות התקלה",
-     "en": "Negative sector sentiment from the outage",
-     "ar": "معنويات سلبية للقطاع بسبب العطل",
-     "ru": "Негативные настроения в секторе из-за сбоя"
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה",
-     "en": "Airlines ETF",
-     "ar": "صندوق مؤشرات قطاع الطيران",
-     "ru": "ETF авиакомпаний"
-    },
-    "price_at_alert": 29.02,
-    "entry_price": 28.84,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 28.68,
-    "exit_date": "2026-11-18",
-    "change_pct": -0.55,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": 0.53,
-    "edge_pct": -0.53,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "423b18b410df",
-  "updates": [
-   {
-    "ts": 1794877191,
-    "time": "2026-11-17T00:59Z",
-    "severity": 3,
-    "summary": "תקלת טכנולוגיה ביונייטד איירליינס שיבשה את ההמראות והובילה לעצירת טיסות זמנית, כאשר החברה הבהירה שאין סימנים למתקפת סייבר.",
-    "i18n": {
-     "he": "תקלת טכנולוגיה ביונייטד איירליינס שיבשה את ההמראות והובילה לעצירת טיסות זמנית, כאשר החברה הבהירה שאין סימנים למתקפת סייבר.",
-     "en": "A technology outage at United Airlines disrupted departures and led to temporary flight groundings, with the carrier stating there were no signs of a cyberattack.",
-     "ar": "أدى عطل تقني في شركة يونايتد آيرلاينز إلى تعطيل المغادرات وتوقف مؤقت للرحلات الجوية، مع إقرار الشركة بعدم وجود مؤشرات على هجوم سيبراني.",
-     "ru": "Технологический сбой в United Airlines нарушил отправку рейсов и привел к временной задержке полетов, причем авиакомпания заявила об отсутствии признаков кибератаки."
-    }
-   }
-  ],
-  "last_update": 1794877191,
-  "evaluated": true
- },
- {
   "ts": 1794871136,
   "time": "2026-11-16T23:18Z",
   "title": "חששות מאינפלציה וחוזק הדולר",
@@ -2701,196 +1941,6 @@
    }
   ],
   "last_update": 1794918456,
-  "evaluated": true
- },
- {
-  "ts": 1794877191,
-  "time": "2026-11-17T00:59Z",
-  "title": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
-  "summary": "אוקראינה קיימה שיחות שלום עם נציגי ארה\"ב ואירופה כשנרשמה התקדמות מסוימת, אך מוסקבה הבהירה כי טרם הסכימה לשיתוף אירופי בסבב השיחות הבא.",
-  "kid": "יש דיונים בין אוקראינה, ארה\"ב ואירופה כדי לנסות לסיים את המלחמה, אבל רוסיה עדיין מציבה קשיים. התקדמות לשלום יכולה להשפיע על מניות הביטחון והאנרגיה.",
-  "i18n": {
-   "title": {
-    "he": "אוקראינה מקיימת שיחות שלום עם ארה\"ב ואירופה; מוסקבה מסתייגת",
-    "en": "Ukraine Holds Peace Talks with US and Europe; Moscow Hesitates",
-    "ar": "أوكرانيا تعقد محادثات سلام مع أمريكا وأوروبا وموسكو تتحفظ",
-    "ru": "Украина ведет мирные переговоры с США и Европой; Москва сомневается"
-   },
-   "summary": {
-    "he": "אוקראינה קיימה שיחות שלום עם נציגי ארה\"ב ואירופה כשנרשמה התקדמות מסוימת, אך מוסקבה הבהירה כי טרם הסכימה לשיתוף אירופי בסבב השיחות הבא.",
-    "en": "Ukraine held peace talks with US and European officials noting progress towards a deal, though Moscow stated it has not agreed to European participation in upcoming talks.",
-    "ar": "عقدت أوكرانيا محادثات سلام مع مسؤولين أمريكيين وأوروبيين مع الإبلاغ عن تقدم نحو اتفاق، بينما قالت موسكو إنها لم توافق على المشاركة الأوروبية.",
-    "ru": "Украина провела мирные переговоры с представителями США и Европы, сообщив о прогрессе, однако Москва заявила, что не согласна на участие Европы в следующих встречах."
-   },
-   "kid": {
-    "he": "יש דיונים בין אוקראינה, ארה\"ב ואירופה כדי לנסות לסיים את המלחמה, אבל רוסיה עדיין מציבה קשיים. התקדמות לשלום יכולה להשפיע על מניות הביטחון והאנרגיה.",
-    "en": "Talks are happening between Ukraine, the US, and Europe to try to end the war, but Russia is still raising objections. Peace progress could impact defense and energy stocks.",
-    "ar": "تجري محادثات بين أوكرانيا وأمريكا وأوروبا لمحاولة إنهاء الحرب، لكن روسيا لا تزال تعترض. قد تؤثر تطورات السلام على أسهم الدفاع والطاقة.",
-    "ru": "Идут переговоры между Украиной, США и Европой о прекращении войны, но Россия выдвигает возражения. Прогресс в мире может повлиять на акции оборонного и энергетического секторов."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "down",
-    "t0": 1794877191,
-    "reason": "התקדמות לקראת פתרון מדיני עשויה להפחית ביקושים ביטחוניים",
-    "reason_i18n": {
-     "he": "התקדמות לקראת פתרון מדיני עשויה להפחית ביקושים ביטחוניים",
-     "en": "Progress toward peace could lower defense spending expectations",
-     "ar": "التقدم نحو السلام قد يخفض توقعات الإنفاق الدفاعي",
-     "ru": "Прогресс к миру может снизить ожидания оборонных расходов"
-    },
-    "name_i18n": {
-     "he": "תעודת סל תעופה וביטחון בארה\"ב",
-     "en": "US Aerospace & Defense ETF",
-     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ETF аэрокосмической и оборонной промышленности США"
-    },
-    "price_at_alert": 69.75,
-    "entry_price": 69.36,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 69.4,
-    "exit_date": "2026-11-18",
-    "change_pct": 0.06,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": 1.14,
-    "edge_pct": -1.14,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1794877191,
-    "reason": "הסרת סיכוני מלחמה עשויה להוזיל מחירי סחורות",
-    "reason_i18n": {
-     "he": "הסרת סיכוני מלחמה עשויה להוזיל מחירי סחורות",
-     "en": "Easing geopolitical risk premium on commodities",
-     "ar": "تراجع علاوة المخاطر الجيوسياسية על السلع",
-     "ru": "Снижение геополитической премии за риск по сырьевым товарам"
-    },
-    "name_i18n": {
-     "he": "סקטור האנרגיה בארה\"ב",
-     "en": "US Energy Sector ETF",
-     "ar": "صندوق قطاع الطاقة الأمريكي",
-     "ru": "ETF энергетического сектора США"
-    },
-    "price_at_alert": 63.69,
-    "entry_price": 64.09,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 61.305,
-    "exit_date": "2026-11-18",
-    "change_pct": -4.35,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -3.27,
-    "edge_pct": 3.27,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "efbd2eba7849",
-  "evaluated": true
- },
- {
-  "ts": 1794877191,
-  "time": "2026-11-17T00:59Z",
-  "title": "הבנק המרכזי של אוסטרליה מזהיר מלחץ אינפלציוני ומאותת על צורך בהעלאות ריבית",
-  "summary": "בנק אוסטרליה ציין כי האינפלציה נותרה גבוהה מהרצוי וכי הסיכונים נוטים כלפי מעלה, מה שמחזק את ההערכות להמשך מדיניות מוניטרית מהדקת.",
-  "kid": "הבנק המרכזי באוסטרליה אומר שהמחירים ממשיכים לעלות מהר מדי ולכן ייתכן שיהיה צורך להעלות את הריבית עוד. זה עוזר לחזק את המטבע המקומי אבל יכול להאט את הכלכלה.",
-  "i18n": {
-   "title": {
-    "he": "הבנק המרכזי של אוסטרליה מזהיר מלחץ אינפלציוני ומאותת על צורך בהעלאות ריבית",
-    "en": "Reserve Bank of Australia Warns Inflation Remains High, Signals Rate Hike Risks",
-    "ar": "بنك الاحتياطي الأسترالي يحذر من استمرار التضخم المرتفع ويلمح لرفع الفائدة",
-    "ru": "Резервный банк Австралии предупреждает о высокой инфляции и сигнализирует о рисках повышения ставки"
-   },
-   "summary": {
-    "he": "בנק אוסטרליה ציין כי האינפלציה נותרה גבוהה מהרצוי וכי הסיכונים נוטים כלפי מעלה, מה שמחזק את ההערכות להמשך מדיניות מוניטרית מהדקת.",
-    "en": "The Reserve Bank of Australia stated that inflation remains too high with risks skewed to the upside, indicating that further policy tightening may be required.",
-    "ar": "ذكر بنك الاحتياطي الأسترالي أن التضخم لا يزال مرتفعاً للغاية مع ميل المخاطر نحو الصعود، مما يشير إلى الحاجة المحتملة لمزيد من تشديد السياسة النقدية.",
-    "ru": "Резервный банк Австралии заявил, что инфляция остается слишком высокой, а риски смещены вверх, что указывает на необходимость дальнейшегожесткого монетарного курса."
-   },
-   "kid": {
-    "he": "הבנק המרכזי באוסטרליה אומר שהמחירים ממשיכים לעלות מהר מדי ולכן ייתכן שיהיה צורך להעלות את הריבית עוד. זה עוזר לחזק את המטבע המקומי אבל יכול להאט את הכלכלה.",
-    "en": "Australia's central bank says prices are rising too fast, so interest rates might need to go up more. This helps strengthen the currency but can slow down economic growth.",
-    "ar": "يقول البنك المركزي الأسترالي إن الأسعار ترتفع بسرعة كبيرة, لذا فقد يلزم رفع أسعار الفائدة أكثر. يساعد ذلك في تعزيز العملة لكنه قد يبطئ الاقتصاد.",
-    "ru": "Центробанк Австралии говорит, что цены растут слишком быстро, поэтому ставки могут вырасти еще. Это укрепляет валюту, но может замедлить экономику."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EWA",
-    "direction": "down",
-    "t0": 1794877191,
-    "reason": "ריביות גבוהות מאיימות על הצמיחה הכלכלית המקומית",
-    "reason_i18n": {
-     "he": "ריביות גבוהות מאיימות על הצמיחה הכלכלית המקומית",
-     "en": "Higher interest rates threaten local economic growth",
-     "ar": "أسعار الفائدة المرتفعة تهدد النمو الاقتصادي المحلي",
-     "ru": "Более высокие процентные ставки угрожают росту экономики"
-    },
-    "name_i18n": {
-     "he": "תעודת סל על מניות אוסטרליה",
-     "en": "Australia ETF",
-     "ar": "صندوق مؤشرات الأسهم الاسترالية",
-     "ru": "ETF акций Австралии"
-    },
-    "price_at_alert": 28.58,
-    "entry_price": 28.26,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 27.775,
-    "exit_date": "2026-11-18",
-    "change_pct": -1.72,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -0.64,
-    "edge_pct": 0.64,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "UUP",
-    "direction": "up",
-    "t0": 1794877191,
-    "reason": "מגמות מאקרו גלובליות וחיזוק מדיניות הבנקים",
-    "reason_i18n": {
-     "he": "מגמות מאקרו גלובליות וחיזוק מדיניות הבנקים",
-     "en": "Global macro trends and tightening expectations",
-     "ar": "الاتجاهات الكلية العالمية وتوقعات التشديد",
-     "ru": "Глобальные макротренды и ожидания ужесточения"
-    },
-    "name_i18n": {
-     "he": "מדד הדולר האמריקאי",
-     "en": "US Dollar Index ETF",
-     "ar": "صندوق مؤشر الدولار الأمريكي",
-     "ru": "ETF индекса доллара США"
-    },
-    "price_at_alert": 29.56,
-    "entry_price": 29.55,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 29.62,
-    "exit_date": "2026-11-18",
-    "change_pct": 0.24,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": 1.32,
-    "edge_pct": 1.32,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "55f0f8282fd9",
   "evaluated": true
  },
  {
@@ -42824,6 +41874,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjdDTkxhZlpDTjcwSjEtZkl4SzFJMWg5MWcxR3c0dmJHNDJYa2FBZVdRNlREazAzdG9wRmR2TVlvcU82U3JwU2xoVUdOTjNmMHlGajB1azRiT2VzbzBjRHlQLS1DaXpheGhHa1NZQ29oUkZsbWFfNVd4dEpUa0RGVnkwaC15Uk5XaDI5YTR3N3FXQTJMZ2RpMXpGZ01kSlNoZXBjQ3FpZw?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVdlS2ZmazF1X3NxUjFfMGZHcGl5UC1aS1ZrRzJ1LWx0Y3ZNWFp5Q08xOXJwZ1h5OW1nYnRGLXNXOEktMTB0cEVGbXBQcUEwMWgzXzhSWFdRbFJQaTlSMk13LTlBLW9XbTdqRDBQaG4zOHhnNXg1Tk1jQ1lUSnZRREhhNVB5VmNYa1QySEoxREx1bnVYWjNicHk3bEd6d1ZGVk5HRVd6Um4zNnRmdWZxVDBvRVM5YXROQl9iUDMxb25Td2dheVZaNnY1cTR5M2o5SGlR?oc=5"
    }
   ],
   "impacts": [
@@ -42903,9 +41957,21 @@
      "ar": "تواجه صفقة استحواذ كراودسترايك البالغة 43.9 مليار دولار تدقيقاً، بينما يشعر المستثمرون بالقلق بشأن تأثير السياسة النقدية على تقييمات السوق.",
      "ru": "Сделка по приобретению CrowdStrike на сумму 43,9 млрд долларов сталкивается с проверками, в то время как инвесторы обеспокоены влиянием денежно-кредитной политики на рыночные оценки."
     }
+   },
+   {
+    "ts": 1795485618,
+    "time": "2026-11-24T02:00Z",
+    "severity": 8,
+    "summary": "ענקית הסייבר קראודסטרייק הודיעה על רכישת חברת האבטחה זסקיילר בעסקה בשווי 44 מיליארד דולר, מהלך שצפוי ליצור ענקית בתחום הגנת הענן.",
+    "i18n": {
+     "he": "ענקית הסייבר קראודסטרייק הודיעה על רכישת חברת האבטחה זסקיילר בעסקה בשווי 44 מיליארד דולר, מהלך שצפוי ליצור ענקית בתחום הגנת הענן.",
+     "en": "Cybersecurity giant CrowdStrike announced the acquisition of Zscaler in a $44 billion deal, a move expected to create a dominant player in cloud security.",
+     "ar": "أعلنت شركة الأمن السيبراني العملاقة كراود سترايك عن الاستحواذ على شركة زيسكالر في صفقة بقيمة 44 مليار دولار، وهي خطوة من المتوقع أن تخلق لاعباً مهيمناً في أمن السحابة.",
+     "ru": "Гигант кибербезопасности CrowdStrike объявил о приобретении компании Zscaler за 44 миллиарда долларов — шаг, который, как ожидается, создаст доминирующего игрока в сфере облачной безопасности."
+    }
    }
   ],
-  "last_update": 1795480502
+  "last_update": 1795485618
  },
  {
   "ts": 1795435995,
@@ -43699,6 +42765,18 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXBXZnZrVWhtM2Q4ZzZvQ25aY003YTJNUmszbmZEUFlzbzE4QmNvSVJBTWdzaDFsWVp6anMxd3JQczUzcWg1OXNMb1BldjNydWZKOHpCbjFfX1U5OTZmQlA4cGhYQ0hQeEhTWjZ0S1hzTGxGc0tzRWpFUWZGemIyeEhfZ0daLVNi?oc=5"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -43785,9 +42863,21 @@
      "ar": "ينتقد المشرعون الأمريكيون من كلا الحزبين إعادة تعيين جينسن هوانغ رئيساً تنفيذياً لشركة إنفيديا، ويحثون على تشديد قيود تصدير الرقائق إلى الصين.",
      "ru": "Законодатели США от обеих партий критикуют возвращение Дженсена Хуанга на пост генерального директора Nvidia и призывают к ужесточению экспортного контроля чипов в Китай."
     }
+   },
+   {
+    "ts": 1795485618,
+    "time": "2026-11-24T02:00Z",
+    "severity": 7,
+    "summary": "דירקטוריון אנבידיה אישר מחדש את חזרתו של ג'נסן הואנג לתפקיד המנכ\"ל לאחר תקופה של אי-ודאות. המהלך הוביל לעלייה חדה במניות הטכנולוגיה הקשורות לשבבים באסיה ובארה\"ב.",
+    "i18n": {
+     "he": "דירקטוריון אנבידיה אישר מחדש את חזרתו של ג'נסן הואנג לתפקיד המנכ\"ל לאחר תקופה של אי-ודאות. המהלך הוביל לעלייה חדה במניות הטכנולוגיה הקשורות לשבבים באסיה ובארה\"ב.",
+     "en": "Nvidia's board has officially reinstated Jensen Huang as CEO following a period of uncertainty. The move has triggered a sharp rally in tech and semiconductor-related stocks in Asia and the US.",
+     "ar": "أعاد مجلس إدارة إنفيديا تعيين جنسن هوانغ في منصب الرئيس التنفيذي بعد فترة من عدم اليقين. أدت هذه الخطوة إلى ارتفاع حاد في أسهم التكنولوجيا والرقائق في آسيا والولايات المتحدة.",
+     "ru": "Совет директоров Nvidia официально восстановил Дженсена Хуанга в должности генерального директора после периода неопределенности. Этот шаг вызвал резкий рост акций технологических и полупроводниковых компаний в Азии и США."
+    }
    }
   ],
-  "last_update": 1795480502
+  "last_update": 1795485618
  },
  {
   "ts": 1795463327,
@@ -44139,7 +43229,32 @@
   "category": "geopolitics",
   "severity": 8,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUt6QTNtM21fS29yb1g0Y2RnY1VSOENoQ3Z5Ry00RjJPSkNBcHNxcXBObnJySHk5b1h0MFRtcUhvUER0QTE3WUdxQXVwajhCMlBnZ0F0QzdFdHUteTR5azZFMmh4b2xyUkdhaHdZSkw5N3lERHYzSkd4LWNxQ0NYOG9BNW9ZTEFkVjVaek5TTQ?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVk1zR3ZoWk9UQUI2OVZnMlJNZEpqX3BwcnVmQ2toLWNHSm8yVDNMdjVubDV2NGhITE10Q2pFNFFtUU8xVFFQTnZ4a2lwOE5TTG5SQ3JnaERtNjFhb0pMb0FPam1KaUhXX0lZQ3F0SjdyemlDb1I2M0ZtU0lma3VMU2N2eXBNbllDcWJOY3ZzZDl5c0o0MlhEUUNpUFBjamRjQXBBdVB4ZEVZcnBKV3ktM0hkZWJLT1B4?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpbFdMQWNVZFh1U1daNHd6SDFyamdJS09tR3BlOWd2aDRyRi1YV0VUZTNjTzJ0RDN3OUt1alR2N0RGSHBfSjR0SDE4dF84TWI4c2FNM1FVRVJoOTVCZUk40gFcQVVfeXFMUExabW9TcFlMdWNnT2Rwek40UDRXRGZQNjI1MF9Ca1phNUtJejNDSFRBMWxRNFh6U2V3Ul9sVjhxUG4xVzIyWVdwOXlERTFPU09QM09OczNON3hVdkw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM202OVZTdFU0R0dLbGJTcFduM25uemtKal9FSnMxeFRlenZnRldHYjhaQkNaQzFZdXpDSXFka0NBbmhvb0ZsRWlBQV9PNjVubllUX0xsalBkdVM1S3ViOHllYUk0QkFPUWhIMHppdWt4Qjc1V1BnRXp3dVJwNHhSWERjQnhuUEtLV3NVX2ljd2pNdGktdnhKUFdWNWZMRllRYmhUSnY3X1dMX25WTFdSaE1rSmpEcVJvRXh3aUJxQ21uQ3BsMGY2ZHlydXhGNkhP0gHjAUFVX3lxTE1kQXJyLVBvZDlOUHl1emw3VnQ5N2NlUkpNVTJUakpsQmxNeTliQld4ZHRLU1RHRElXb2JvWVEzUXl1YmVzS01wbnVhcWFlblpaYWtxRmcxWmJKSVI3eGRoODhMSGVuUDRsajBkR2lkSXZvS2FyZVotalNDR0ZQX0pPYnppS0hqaTh0UzVOQTFrTnNuVjZnWjFCQ2dLYm45Uk9MLUhQUDlzaFpNUEk3dlRLVnB6ZDlZR1p1UUVlaUVEeVljNkpUeDF5Zzdpa2x2NUVRak5pN1V5eW9JWjI4cUdvRnhF?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -44178,9 +43293,43 @@
      "ru": "Exxon Mobil"
     },
     "price_at_alert": 156.9
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1795485618,
+    "reason": "עלייה אפשרית במחירי התובלה עקב סיכונים ביטחוניים",
+    "reason_i18n": {
+     "he": "עלייה אפשרית במחירי התובלה עקב סיכונים ביטחוניים",
+     "en": "Potential rise in shipping rates due to security risks",
+     "ar": "ارتفاع محتمل في أسعار الشحن بسبب المخاطر الأمنية",
+     "ru": "Возможный рост ставок фрахта из-за рисков безопасности"
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM - Shipping company",
+     "ar": "زيم - شركة شحن",
+     "ru": "ZIM - судоходная компания"
+    },
+    "price_at_alert": 29.94
    }
   ],
-  "id": "723ad577a286"
+  "id": "723ad577a286",
+  "updates": [
+   {
+    "ts": 1795485618,
+    "time": "2026-11-24T02:00Z",
+    "severity": 8,
+    "summary": "ארה\"ב הטילה סנקציות חדשות על בנקי צל איראניים ועל חברות המעורבות בהעברת טכנולוגיה מתקדמת. במקביל, איראן מאיימת להשתמש בכל הכלים העומדים לרשותה כדי להתעמת עם מצור ימי אמריקאי.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות חדשות על בנקי צל איראניים ועל חברות המעורבות בהעברת טכנולוגיה מתקדמת. במקביל, איראן מאיימת להשתמש בכל הכלים העומדים לרשותה כדי להתעמת עם מצור ימי אמריקאי.",
+     "en": "The US has imposed new sanctions on Iranian shadow banks and companies involved in advanced technology diversion. Simultaneously, Iran threatens to use all available tools to confront a potential US naval blockade.",
+     "ar": "فرضت الولايات المتحدة عقوبات جديدة على بنوك الظل الإيرانية وشركات متورطة في تحويل التكنولوجيا المتقدمة. في الوقت نفسه، تهدد إيران باستخدام كل الأدوات المتاحة لمواجهة حصار بحري أمريكي محتمل.",
+     "ru": "США ввели новые санкции против иранских теневых банков и компаний, причастных к передаче передовых технологий. Одновременно Иран угрожает использовать все доступные средства для противостояния потенциальной морской блокаде со стороны США."
+    }
+   }
+  ],
+  "last_update": 1795485618
  },
  {
   "ts": 1795480502,
@@ -44211,7 +43360,16 @@
   "category": "macro",
   "severity": 7,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lbl9Ud0FZbFpsSTR4Q2lzQkN3NTFTZnE2R2ppSVVNVVZKTUVBaENRR0RMYWM0Qklqb0g4T01hVl85a0IwYXluaVdiSngwYkQ1cnZMelUwQWcwdGtXbjVPdg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTdkSEVkTG41NS1DY1F3cC1QNnhJem9Gd2V0bFpmdVQ5MFVta1JfSXVqYVF4aTRPeXljS3hyNTZlYkZMcWJzaXlEZWJYT1RZWEViUUJTdS1WX0JRaS04YkRJVFpWbmZOczVKTnJaX2hiRXpkVFR4M3Q1amsyck1VbzdlaHRvV05SQWFhQXFCVFJRam5SNlQxTEVmT1hPbldlRFowbFRwa25iUDBhdkJTR1J0MGtrUFk?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -44252,7 +43410,22 @@
     "price_at_alert": 81.69
    }
   ],
-  "id": "ebc5890bf413"
+  "id": "ebc5890bf413",
+  "updates": [
+   {
+    "ts": 1795485618,
+    "time": "2026-11-24T02:00Z",
+    "severity": 6,
+    "summary": "ג'ון ויליאמס מהפדרל ריזרב הצהיר כי האינפלציה עדיין גבוהה מדי, מה שמרמז על אפשרות להמשך העלאות ריבית או שמירה על ריבית גבוהה לאורך זמן.",
+    "i18n": {
+     "he": "ג'ון ויליאמס מהפדרל ריזרב הצהיר כי האינפלציה עדיין גבוהה מדי, מה שמרמז על אפשרות להמשך העלאות ריבית או שמירה על ריבית גבוהה לאורך זמן.",
+     "en": "John Williams of the Federal Reserve stated that inflation remains too high, signaling the possibility of further rate hikes or maintaining high rates for longer.",
+     "ar": "صرح جون ويليامز من الاحتياطي الفيدرالي بأن التضخم لا يزال مرتفعاً للغاية، مما يشير إلى إمكانية استمرار رفع أسعار الفائدة أو الحفاظ على أسعار فائدة مرتفعة لفترة أطول.",
+     "ru": "Джон Уильямс из Федеральной резервной системы заявил, что инфляция остается слишком высокой, что указывает на возможность дальнейшего повышения процентных ставок или их удержания на высоком уровне в течение длительного времени."
+    }
+   }
+  ],
+  "last_update": 1795485618
  },
  {
   "ts": 1795480502,
@@ -44325,5 +43498,67 @@
    }
   ],
   "id": "6e0bd7959173"
+ },
+ {
+  "ts": 1795485618,
+  "time": "2026-11-24T02:00Z",
+  "title": "פריצת סייבר בחברת החשמל הקוריאנית KEPCO",
+  "summary": "חברת החשמל של דרום קוריאה (KEPCO) חוותה מתקפת סייבר שחשפה נתונים אישיים של מעל 1.5 מיליון לקוחות. הרשויות פתחו בחקירה.",
+  "kid": "האקרים פרצו לחברת חשמל גדולה בקוריאה וגנבו מידע על המון אנשים. זה מראה כמה חשוב להגן על מחשבים של חברות תשתית.",
+  "i18n": {
+   "title": {
+    "he": "פריצת סייבר בחברת החשמל הקוריאנית KEPCO",
+    "en": "Cyberattack on South Korean Power Utility KEPCO",
+    "ar": "هجوم سيبراني على شركة الكهرباء الكورية الجنوبية KEPCO",
+    "ru": "Кибератака на южнокорейскую энергетическую компанию KEPCO"
+   },
+   "summary": {
+    "he": "חברת החשמל של דרום קוריאה (KEPCO) חוותה מתקפת סייבר שחשפה נתונים אישיים של מעל 1.5 מיליון לקוחות. הרשויות פתחו בחקירה.",
+    "en": "South Korea's power utility, KEPCO, suffered a cyberattack that exposed the personal data of over 1.5 million customers. Authorities have launched an investigation.",
+    "ar": "تعرضت شركة الكهرباء في كوريا الجنوبية (KEPCO) لهجوم سيبراني كشف عن البيانات الشخصية لأكثر من 1.5 مليون عميل. وقد فتحت السلطات تحقيقاً في الحادث.",
+    "ru": "Южнокорейская энергетическая компания KEPCO подверглась кибератаке, в результате которой были раскрыты личные данные более 1,5 миллиона клиентов. Власти начали расследование."
+   },
+   "kid": {
+    "he": "האקרים פרצו לחברת חשמל גדולה בקוריאה וגנבו מידע על המון אנשים. זה מראה כמה חשוב להגן על מחשבים של חברות תשתית.",
+    "en": "Hackers broke into a big power company in Korea and stole information about many people. This shows how important it is to protect computers of infrastructure companies.",
+    "ar": "اخترق قراصنة شركة كهرباء كبيرة في كوريا وسرقوا معلومات عن الكثير من الناس. هذا يظهر مدى أهمية حماية أجهزة الكمبيوتر الخاصة بشركات البنية التحتية.",
+    "ru": "Хакеры взломали крупную энергетическую компанию в Корее и украли информацию о множестве людей. Это показывает, насколько важно защищать компьютеры инфраструктурных компаний."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOWc0ejYtNkJNVGk0RVhBNEZMbS1NZXhlaDQ1YmZrUktGNDgxREl6Q1BCZ1l1VTR0N3JtLTZnZ1lfNW9NZnpmNEZLWm9tM09rNzJUc0xFbVRtcEFXdWh6aTZzbUZpNjBnOGJxUFU1Tk0xaXVKbWQ5NkVMVURwNnZfZ3lXZzVncXVxNkhZQ0RHZ3dIdDVOWUd2U0NPYU13eXE3dUZ1MHJJVzh1Zw?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkxQUnFZTURsX1B2dVg5aXdKTjNORERkeVpSeUZGRG1YWUVEX3g4MkJJQnFlWmlQNmk2bVJVUTh1Y1lXSUVLWVVnNEZZT1BDSjZtb3BqeXpVOFJPcVBIZmtrRkF6SnoxaEVzX19IWTNwdjRaY1ZzeGVxMkF0MVcwOG01NGplU1E5eXFWYm5JM0dKN0h3MjZaYUFpU29FUdIBowFBVV95cUxPaWd1dmRMVDJXc25TZU9pcUNyVkk5RjlQU3c3WnVHUlV1RUNxbklnTDduQmlNMWlweEZKcVhqYUZnWUswZ1hOUEtqdHYzcXdCd1hjajJwVjBXTTdhdVRPQlcyTTJJcTYxUmZJYUwwOFZZeDlGN0g4ZGh6c0Vra3htdTFhc0lMbmZYVlpWckpUcDRnTllUSVhLT2l2MnlWdGtOSEE4?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795485618,
+    "reason": "עלייה בביקוש לפתרונות אבטחת סייבר",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחת סייבר",
+     "en": "Increased demand for cybersecurity solutions",
+     "ar": "زيادة الطلب على حلول الأمن السيبراني",
+     "ru": "Рост спроса на решения в области кибербезопасности"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק - אבטחת סייבר",
+     "en": "CrowdStrike - Cybersecurity",
+     "ar": "كراود سترايك - الأمن السيبراني",
+     "ru": "CrowdStrike - кибербезопасность"
+    },
+    "price_at_alert": 208.97
+   }
+  ],
+  "id": "80d1d2d6e84a"
  }
 ]
