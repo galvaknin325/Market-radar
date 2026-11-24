@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T08:39Z",
+ "generated": "2026-11-24T09:51Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1420,
+ "total_alerts": 1422,
  "overall": {
   "n": 999,
   "hits": 497,
@@ -1235,14 +1235,14 @@
    "avg_edge": -0.35
   },
   "URA": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 1,
    "hits": 0,
    "name": {
-    "en": "URA – Uranium ETF",
-    "he": "URA - קרן סל אורניום",
-    "ar": "URA - صندوق اليورانيوم",
-    "ru": "URA – Урановый ETF"
+    "he": "קרן סל אורניום",
+    "en": "Uranium ETF",
+    "ar": "صندوق اليورانيوم المتداول",
+    "ru": "ETF на уран"
    },
    "avg_edge": -1.17
   },
@@ -1879,6 +1879,18 @@
     "en": "ConocoPhillips",
     "ar": "كونوكو فيليبس",
     "ru": "ConocoPhillips"
+   },
+   "avg_edge": null
+  },
+  "INSM": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "אינסמד",
+    "en": "Insmed",
+    "ar": "إنسيميد",
+    "ru": "Insmed"
    },
    "avg_edge": null
   }
