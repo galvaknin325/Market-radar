@@ -1378,155 +1378,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794887738,
-  "time": "2026-11-17T03:55Z",
-  "title": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
-  "summary": "סנאטורים רפובליקנים הציעו הצעת חוק להקצאות ביטחוניות בסך כ-1.1 טריליון דולר לשנת הכספים 2027.",
-  "kid": "הממשלה רוצה להוציא המון כסף על צבא וביטחון. זה טוב לחברות שמייצרות מטוסים, טילים וטכנולוגיה צבאית.",
-  "i18n": {
-   "title": {
-    "he": "הצעת תקציב ביטחון של 1.1 טריליון דולר",
-    "en": "Proposed $1.1 trillion defense budget",
-    "ar": "مقترح ميزانية دفاع بقيمة 1.1 تريليون دولار",
-    "ru": "Предложенный оборонный бюджет в 1,1 трлн долларов"
-   },
-   "summary": {
-    "he": "סנאטורים רפובליקנים הציעו הצעת חוק להקצאות ביטחוניות בסך כ-1.1 טריליון דולר לשנת הכספים 2027.",
-    "en": "Senate Republicans have proposed a defense appropriations bill of nearly $1.1 trillion for fiscal year 2027.",
-    "ar": "اقترح أعضاء جمهوريون في مجلس الشيوخ مشروع قانون مخصصات دفاعية بقيمة تقارب 1.1 تريليون دولار للسنة المالية 2027.",
-    "ru": "Сенаторы-республиканцы предложили законопроект об оборонных ассигнованиях на сумму около 1,1 трлн долларов на 2027 финансовый год."
-   },
-   "kid": {
-    "he": "הממשלה רוצה להוציא המון כסף על צבא וביטחון. זה טוב לחברות שמייצרות מטוסים, טילים וטכנולוגיה צבאית.",
-    "en": "The government wants to spend a lot of money on the military. This is good for companies that make planes, missiles, and military technology.",
-    "ar": "تريد الحكومة إنفاق الكثير من المال على الجيش. هذا جيد للشركات التي تصنع الطائرات والصواريخ والتكنولوجيا العسكرية.",
-    "ru": "Правительство хочет потратить много денег на армию. Это хорошо для компаний, которые производят самолеты, ракеты и военные технологии."
-   }
-  },
-  "category": "contracts",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjRCb1d1VHFYUHEzcXBRLXhSX3ppeTl6aS1mYXZqakxDanFrR1podXRHZFlGQzZYUmlsWDg0aDdleEFEWGE1TEQyQjY2Vy1qRjI2QW42eUV1aGhTb1dnUTA2Si1jYzhDeGxZMHhLZlF0ZUJpbGpfbTZzazRiTHlZZ1dfaGRvbVVtS1E2SUpwMi1yYVJseXUxNTd6X2RvY0JVTTdEQkZTLTN5MGVfWFJPaXI4R3FiaDJ5?oc=5"
-   },
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVHoyX2dDVDRrcU1mWERhODJOZ1FpU0NpQjJJVUh1MWo1aUVDZ2p1ZW1xcXlfSGFiU3JIYjJzVG9ENU9DclpGZ005cy1ubC11bVZZMVFpMkQxdEtOMEdUZ0k5T2p2WHEwcjZobGtWSTl5SnBmek1aQ0NMNlhmRUFpQXJFNDNwTUdkcTF6cHRrOVowMFNYcnc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1794887738,
-    "reason": "הגדלת תקציב הביטחון תומכת בהכנסות המגזר.",
-    "reason_i18n": {
-     "he": "הגדלת תקציב הביטחון תומכת בהכנסות המגזר.",
-     "en": "Increased defense budget supports sector revenue.",
-     "ar": "زيادة ميزانية الدفاع تدعم إيرادات القطاع.",
-     "ru": "Увеличение оборонного бюджета поддерживает доходы сектора."
-    },
-    "name_i18n": {
-     "he": "קרן סל תעופה וביטחון",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق الطيران والدفاع",
-     "ru": "ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 69.75,
-    "entry_price": 69.36,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 69.4,
-    "exit_date": "2026-11-18",
-    "change_pct": 0.06,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": 1.14,
-    "edge_pct": 1.14,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1794887738,
-    "reason": "צפי לחוזים ממשלתיים גדולים.",
-    "reason_i18n": {
-     "he": "צפי לחוזים ממשלתיים גדולים.",
-     "en": "Expectation of large government contracts.",
-     "ar": "توقعات بعقود حكومية كبيرة.",
-     "ru": "Ожидание крупных государственных контрактов."
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין",
-     "en": "Lockheed Martin",
-     "ar": "لوكهيد مارتن",
-     "ru": "Lockheed Martin"
-    },
-    "price_at_alert": 585.21,
-    "entry_price": 584.95,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 578.01,
-    "exit_date": "2026-11-18",
-    "change_pct": -1.19,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -0.11,
-    "edge_pct": -0.11,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "NOC",
-    "direction": "up",
-    "t0": 1794955083,
-    "reason": "גידול בתקציב הביטחון מבטיח הזמנות ממשלתיות רבות",
-    "reason_i18n": {
-     "he": "גידול בתקציב הביטחון מבטיח הזמנות ממשלתיות רבות",
-     "en": "Growth in defense budget ensures numerous government orders",
-     "ar": "النمو في ميزانية الدفاع يضمن طلبات حكومية عديدة",
-     "ru": "Рост оборонного бюджета гарантирует многочисленные государственные заказы"
-    },
-    "name_i18n": {
-     "he": "נורת'רופ גרומן - יצרנית ציוד ביטחוני",
-     "en": "Northrop Grumman - a defense contractor",
-     "ar": "نورثروب غرومان - مقاول دفاعي",
-     "ru": "Northrop Grumman - подрядчик в сфере обороны"
-    },
-    "price_at_alert": 553.26,
-    "entry_price": 547.09,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 542.31,
-    "exit_date": "2026-11-19",
-    "change_pct": -0.87,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 1.52,
-    "edge_pct": 1.52,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "44232d854199",
-  "updates": [
-   {
-    "ts": 1794955083,
-    "time": "2026-11-17T22:38Z",
-    "severity": 5,
-    "summary": "ועדת הסנאט חשפה הצעת חוק תקציב ביטחון עצומה בסך 1.1 טריליון דולר לשנת הכספים 2027, המממנת רכש צבאי נרחב.",
-    "i18n": {
-     "he": "ועדת הסנאט חשפה הצעת חוק תקציב ביטחון עצומה בסך 1.1 טריליון דולר לשנת הכספים 2027, המממנת רכש צבאי נרחב.",
-     "en": "A U.S. Senate panel has released a massive $1.1 trillion defense spending bill for fiscal year 2027, boosting funding for military procurement and operations.",
-     "ar": "أفرجت لجنة في مجلس الشيوخ الأمريكي عن مشروع قانون ضخم للإنفاق الدفاعي بقيمة 1.1 تريليون دولار للسنة المالية 2027، مما يرفع تمويل المشتريات العسكرية.",
-     "ru": "Комитет Сената США опубликовал масштабный законопроект об оборонных расходах на 2027 финансовый год в размере $1,1 трлн, увеличивающий финансирование закупок."
-    }
-   }
-  ],
-  "last_update": 1794955083,
-  "evaluated": true
- },
- {
   "ts": 1794904176,
   "time": "2026-11-17T08:29Z",
   "title": "מתקפת סייבר רחבת היקף על 178 אתרים",
@@ -3151,155 +3002,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794937587,
-  "time": "2026-11-17T17:46Z",
-  "title": "תקלה ברשת התקשורת של ה-NSA",
-  "summary": "רשת התקשורת הפנימית המסווגת של ה-NSA הושבתה. הרשויות טוענות כי אין עדות למתקפת סייבר, אך האירוע עורר חששות ביטחוניים.",
-  "kid": "רשת מחשבים סודית של המודיעין האמריקאי הפסיקה לעבוד. כולם בודקים אם זו תקלה רגילה או משהו מסוכן יותר.",
-  "i18n": {
-   "title": {
-    "he": "תקלה ברשת התקשורת של ה-NSA",
-    "en": "NSA network outage",
-    "ar": "عطل في شبكة اتصالات وكالة الأمن القومي",
-    "ru": "Сбой в сети АНБ"
-   },
-   "summary": {
-    "he": "רשת התקשורת הפנימית המסווגת של ה-NSA הושבתה. הרשויות טוענות כי אין עדות למתקפת סייבר, אך האירוע עורר חששות ביטחוניים.",
-    "en": "The NSA's classified internal network went down. Authorities claim there is no evidence of a cyberattack, but the event has sparked security concerns.",
-    "ar": "تعطلت شبكة الاتصالات الداخلية السرية لوكالة الأمن القومي (NSA). تدعي السلطات عدم وجود أدلة على هجوم سيبراني، لكن الحادث أثار مخاوف أمنية.",
-    "ru": "Секретная внутренняя сеть связи АНБ вышла из строя. Власти заявляют, что доказательств кибератаки нет, но инцидент вызвал опасения в сфере безопасности."
-   },
-   "kid": {
-    "he": "רשת מחשבים סודית של המודיעין האמריקאי הפסיקה לעבוד. כולם בודקים אם זו תקלה רגילה או משהו מסוכן יותר.",
-    "en": "A secret computer network for US intelligence stopped working. Everyone is checking if it's a normal glitch or something more dangerous.",
-    "ar": "توقفت شبكة حواسيب سرية تابعة للاستخبارات الأمريكية عن العمل. الجميع يتحقق مما إذا كان هذا عطلاً عادياً أم شيئاً أكثر خطورة.",
-    "ru": "Секретная компьютерная сеть американской разведки перестала работать. Все проверяют, обычный ли это сбой или что-то более опасное."
-   }
-  },
-  "category": "cyber",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa2l0QmN5NDdtbHpuM3Bsc2s1LWJPckU2a25pWFJETmhpY3ZlVzFpa3VHaWd0REZOaWNpbXl2cHlBOU0yaW1WZkVhbGpHYV9wSjF4NGx0cV9wZmMxbGpmYWZvanpkUVdaR202cXlUQTJCOFVVMjBxX1FvbUtheGdsS3BrOHBXcGRCY1E?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQm9ZRjcyeVFtWVc0bmxUOS0wcENjVGFSMXNEdC1SQk1hSzYyVTd6cTNmQUVLaGk0QU9yN2t3V3hLSFVlei1PYUtJUTFxV0RZS2gzRTIwcjdfRHM3cmxqWllGSEpObVNQUV92NW15SUFSb2hwSjBIdkItTm1GMHRxTzlTaE1wR21HYVNQZ0NDV1lVM0k?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "LHX",
-    "direction": "up",
-    "t0": 1794937587,
-    "reason": "עלייה בביקוש לטכנולוגיות הגנה ותקשורת מאובטחת",
-    "reason_i18n": {
-     "he": "עלייה בביקוש לטכנולוגיות הגנה ותקשורת מאובטחת",
-     "en": "Increased demand for defense and secure communication tech",
-     "ar": "زيادة الطلب على تقنيات الدفاع والاتصالات الآمنة",
-     "ru": "Рост спроса на технологии обороны и защищенной связи"
-    },
-    "name_i18n": {
-     "he": "L3Harris",
-     "en": "L3Harris",
-     "ar": "L3Harris",
-     "ru": "L3Harris"
-    },
-    "price_at_alert": 262.37,
-    "entry_price": 262.375,
-    "entry_time": "2026-11-17T18:30+00:00",
-    "exit_price": 256.32,
-    "exit_date": "2026-11-18",
-    "change_pct": -2.31,
-    "bench": "SPY",
-    "bench_change_pct": -0.41,
-    "excess_pct": -1.9,
-    "edge_pct": -1.9,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "CRWD",
-    "direction": "up",
-    "t0": 1794955083,
-    "reason": "תקלות ומתקפות סייבר מעלות את הביקוש لמוצרי הגנה",
-    "reason_i18n": {
-     "he": "תקלות ומתקפות סייבר מעלות את הביקוש لמוצרי הגנה",
-     "en": "Cyber incidents and outages increase demand for defense solutions",
-     "ar": "الحوادث السيبرانية والانقطاعات تزيد الطلب على حلول الحماية",
-     "ru": "Киберинциденты и сбои повышают спрос на решения по защите"
-    },
-    "name_i18n": {
-     "he": "קראודסטרייק - חברת אבטחת סייבר",
-     "en": "CrowdStrike - a cybersecurity firm",
-     "ar": "كراودسترايك - شركة أمن سيبراني",
-     "ru": "CrowdStrike - компания по кибербезопасности"
-    },
-    "price_at_alert": 219.58,
-    "entry_price": 223.8,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 243.38,
-    "exit_date": "2026-11-19",
-    "change_pct": 8.75,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 11.15,
-    "edge_pct": 11.15,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLF",
-    "direction": "down",
-    "t0": 1794955083,
-    "reason": "חששות מפרצות אבטחה בבנקים פוגעים בסנטימנט הסקטור",
-    "reason_i18n": {
-     "he": "חששות מפרצות אבטחה בבנקים פוגעים בסנטימנט הסקטור",
-     "en": "Concerns over bank security breaches hurt sector sentiment",
-     "ar": "المخاوف بشأن خروقات الأمان في البنوك تضر بمعنويات القطاع",
-     "ru": "Опасения по поводу нарушений безопасности в банках портят настроение в секторе"
-    },
-    "name_i18n": {
-     "he": "קרן סל פיננסים - מדד מניות הבנקים והפיננסים",
-     "en": "Financials ETF - financial and banking sector fund",
-     "ar": "صندوق قطاع المال - صندوق القطاع المصرفي والمالي",
-     "ru": "ETF финансового сектора - фонд банков и финансов"
-    },
-    "price_at_alert": 57.07,
-    "entry_price": 56.78,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 55.59,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.1,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 0.3,
-    "edge_pct": -0.3,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "6edea0874d61",
-  "updates": [
-   {
-    "ts": 1794955083,
-    "time": "2026-11-17T22:38Z",
-    "severity": 4,
-    "summary": "רשת התקשורת הסודית של ה-NSA יצאה מכלל פעילות וגרמה לשיבושי עבודה, בעוד בנק HSBC ואתרים נוספים חוו שיבושים עקב מתקפות סייבר.",
-    "i18n": {
-     "he": "רשת התקשורת הסודית של ה-NSA יצאה מכלל פעילות וגרמה לשיבושי עבודה, בעוד בנק HSBC ואתרים נוספים חוו שיבושים עקב מתקפות סייבר.",
-     "en": "A classified NSA network went down causing work disruptions, while banking giant HSBC and associated sites experienced brief operational issues amid localized cyber incidents.",
-     "ar": "تعطلت شبكة سرية تابعة لوكالة الأمن القومي الأمريكية مما أدى لاضطرابات في العمل، بينما واجه بنك إتش إس بي سي ومواقع أخرى مشكلات تشغيلية قصيرة إثر حوادث سيبرانية.",
-     "ru": "Секретная сеть АНБ вышла из строя, вызвав перебои в работе, в то время как банковский гигант HSBC и связанные сайты столкнулись с кратковременными проблемами из-за киберинцидентов."
-    }
-   }
-  ],
-  "last_update": 1794955083,
-  "evaluated": true
- },
- {
   "ts": 1794940726,
   "time": "2026-11-17T18:38Z",
   "title": "ירידה במחירי הנחושת וחששות כלכליים",
@@ -4047,206 +3749,6 @@
    }
   ],
   "last_update": 1795001432,
-  "evaluated": true
- },
- {
-  "ts": 1794955083,
-  "time": "2026-11-17T22:38Z",
-  "title": "לחץ בקונגרס האמריקאי לחסום ייצוא שבבי AI לסין בעקבות שערוריית ג'נסן הואנג",
-  "summary": "חברי קונגרס בארצות הברית דוחפים לשילוב שורת חוקי בקרת ייצוא הקשורים לשבבים בחוק ההגנה הלאומי השנתי, על רקע שערוריית ג'נסן הואנג.",
-  "kid": "מחוקקים בארה\"ב רוצים לחוקק חוקים קשוחים יותר כדי לעצור מכירת שבבי מחשב חכמים לסין. זה עשוי להוריד את המניות של חברות שבבים כמו ענקית הטכנולוגיה אנבידיה.",
-  "i18n": {
-   "title": {
-    "he": "לחץ בקונגרס האמריקאי לחסום ייצוא שבבי AI לסין בעקבות שערוריית ג'נסן הואנג",
-    "en": "US Congress Push to Block AI Chip Sales to China Amid Jensen Huang Scandal",
-    "ar": "مسؤولون أمريكيون يدفعون لحظر مبيعات رقائق الذكاء الاصطناعي للصين وسط فضيحة جنسن هوانغ",
-    "ru": "Конгресс США усиливает давление с целью блокировки продаж чипов ИИ в Китай на фоне скандала вокруг Дженсена Хуанга"
-   },
-   "summary": {
-    "he": "חברי קונגרס בארצות הברית דוחפים לשילוב שורת חוקי בקרת ייצוא הקשורים לשבבים בחוק ההגנה הלאומי השנתי, על רקע שערוריית ג'נסן הואנג.",
-    "en": "Lawmakers are pushing to include strict chip-related export control bills in the annual National Defense Authorization Act following recent leadership and scandal developments involving Nvidia's CEO.",
-    "ar": "يدفع المشرعون الأمريكيون باتجاه تضمين قوانين رقابة صارمة على صادرات الرقائق في قانون تفويض الدفاع الوطني السنوي على خلفية تطورات قيادة إنفيديا.",
-    "ru": "Законодатели США добиваются включения строгих мер экспортного контроля чипов в ежегодный закон о национальном оборонном бюджете на фоне скандала с руководством Nvidia."
-   },
-   "kid": {
-    "he": "מחוקקים בארה\"ב רוצים לחוקק חוקים קשוחים יותר כדי לעצור מכירת שבבי מחשב חכמים לסין. זה עשוי להוריד את המניות של חברות שבבים כמו ענקית הטכנולוגיה אנבידיה.",
-    "en": "US lawmakers want stricter rules to stop selling smart computer chips to China. This could push down stocks of chip companies like technology giant Nvidia.",
-    "ar": "يريد المشرعون الأمريكيون قواعد أكثر صارمة لوقف بيع رقائق الكمبيوتر الذكية للصين. قد يؤدي هذا إلى انخفاض أسهم شركات الرقائق مثل عملاق التكنولوجيا إنفيديا.",
-    "ru": "Законодатели США хотят ужесточить правила продажи умных компьютерных чипов в Китай. Это может снизить акции таких производителей чипов, как технологический гигант Nvidia."
-   }
-  },
-  "category": "trade",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/17/congress-ai-china-jensen-huang-chips.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1794955083,
-    "reason": "הגבלות ייצוא חדשות לסין יפגעו במכירות החברה",
-    "reason_i18n": {
-     "he": "הגבלות ייצוא חדשות לסין יפגעו במכירות החברה",
-     "en": "New export restrictions to China will hurt company sales",
-     "ar": "قيود التصدير الجديدة للصين ستضر بمبيعات الشركة",
-     "ru": "Новые ограничения на экспорт в Китай нанесут ущерб продажам компании"
-    },
-    "name_i18n": {
-     "he": "אנבידיה - חברת שבבי בינה מלאכותית",
-     "en": "Nvidia - an AI chip company",
-     "ar": "إنفيديا - شركة رقائق ذكاء اصطناعي",
-     "ru": "Nvidia - компания по производству чипов ИИ"
-    },
-    "price_at_alert": 155.46,
-    "entry_price": 159.19,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 146.0,
-    "exit_date": "2026-11-19",
-    "change_pct": -8.29,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -5.89,
-    "edge_pct": 5.89,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1794955083,
-    "reason": "חוקי פיקוח נוקשים עלולים לפגוע בכל מגזר השבבים",
-    "reason_i18n": {
-     "he": "חוקי פיקוח נוקשים עלולים לפגוע בכל מגזר השבבים",
-     "en": "Strict regulatory rules could hurt the entire chip sector",
-     "ar": "قد تؤدي قواعد الرقابة الصارمة إلى الإضرار بقطاع الرقائق بأكمله",
-     "ru": "Строгие регуляторные правила могут нанести ущерб всему сектору чипов"
-    },
-    "name_i18n": {
-     "he": "קרן סל סמיקונדקטור - קרן ענף השבבים",
-     "en": "Semiconductor ETF - chip sector fund",
-     "ar": "صندوق قطاع أشباه الموصلات - صندوق أسهم الرقائق",
-     "ru": "ETF полупроводников - фонд сектора чипов"
-    },
-    "price_at_alert": 460.1,
-    "entry_price": 467.7,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 447.54,
-    "exit_date": "2026-11-19",
-    "change_pct": -4.31,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -1.91,
-    "edge_pct": 1.91,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "2b0fc67e6d17",
-  "evaluated": true
- },
- {
-  "ts": 1794955083,
-  "time": "2026-11-17T22:38Z",
-  "title": "בכيرة הפד ליסה קוק מסרבת להשתתף בשימוע בבית הלבן",
-  "summary": "חברת הנהלת הבנק הפדרלי ליסה קוק סירבה להגיע לשימוע בבית הלבן, על רקע ניסיונות חוזרים ונשנים של ממשל טראמפ לפטרה מתפקידה מאז אוגוסט 2025.",
-  "kid": "חברה בבנק המרכזי של ארה\"ב מסרבת להגיע לפגישה בבית הלבן לאחר שהנשיא ניסה לפטר אותה. מתח בין הממשלה לבנק המרכזי יכול לגרום לתנודות בשוקי ההון והאג\"ח.",
-  "i18n": {
-   "title": {
-    "he": "בכيرة הפד ליסה קוק מסרבת להשתתף בשימוע בבית הלבן",
-    "en": "US Fed's Lisa Cook Refuses to Attend White House Hearing",
-    "ar": "ليزا كوك عضوة الفيدرالي الأمريكي ترفض حضور جلسة استماع في البيت الأبيض",
-    "ru": "Лиза Кук из ФРС США отказывается присутствовать на слушаниях в Белом доме"
-   },
-   "summary": {
-    "he": "חברת הנהלת הבנק הפדרלי ליסה קוק סירבה להגיע לשימוע בבית הלבן, על רקע ניסיונות חוזרים ונשנים של ממשל טראמפ לפטרה מתפקידה מאז אוגוסט 2025.",
-    "en": "Federal Reserve Governor Lisa Cook has refused to attend a White House hearing amid ongoing friction, as U.S. President Donald Trump has been trying to remove her since August 2025.",
-    "ar": "رفضت عضوة مجلس الاحتياطي الفيدرالي ليزا كوك حضور جلسة استماع في البيت الأبيض وسط توتر مستمر، حيث حاول الرئيس الأمريكي دونالد ترامب إقالتها منذ أغسطس 2025.",
-    "ru": "Член Совета управляющих ФРС Лиза Кук отказалась присутствовать на слушаниях в Белом доме на фоне продолжающихся трений, так как президент США Дональд Трамп пытается сместить ее с августа 2025 года."
-   },
-   "kid": {
-    "he": "חברה בבנק המרכזי של ארה\"ב מסרבת להגיע לפגישה בבית הלבן לאחר שהנשיא ניסה לפטר אותה. מתח בין הממשלה לבנק המרכזי יכול לגרום לתנודות בשוקי ההון והאג\"ח.",
-    "en": "A US central bank official refused to attend a White House meeting after the president tried to fire her. Tension between the government and the central bank can cause swings in stock and bond markets.",
-    "ar": "رفضت مسئولة في البنك المركزي الأمريكي حضور اجتماع في البيت الأبيض بعد أن حاول الرئيس إقالتها. التوتر بين الحكومة والبنك المركزي يمكن أن يسبب تقلبات في الأسواق.",
-    "ru": "Чиновник центробанка США отказалась посетить встречу в Белом доме после того, как президент попытался ее уволить. Напряженность между правительством и ФРС может вызвать колебания нарынках."
-   }
-  },
-  "category": "macro",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1794955083,
-    "reason": "ערעור עצמאות הבנק הפדרלי יוצר אי-שקט פיננסי",
-    "reason_i18n": {
-     "he": "ערעור עצמאות הבנק הפדרלי יוצר אי-שקט פיננסי",
-     "en": "Undermining central bank independence creates financial anxiety",
-     "ar": "المساس استقلال البنك المركزي يخلق قلقاً مالياً",
-     "ru": "Подрыв независимости центрального банка создает финансовую тревогу"
-    },
-    "name_i18n": {
-     "he": "ספיי - מדד 500 המניות המובילות בארה\"ב",
-     "en": "SPY - S&P 500 index ETF",
-     "ar": "SPY - صندوق مؤشر ستاندرد آند بورز 500",
-     "ru": "SPY - ETF индекса S&P 500"
-    },
-    "price_at_alert": 732.44,
-    "entry_price": 733.37,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 715.78,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.4,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.4,
-    "edge_pct": 2.4,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TLT",
-    "direction": "up",
-    "t0": 1794955083,
-    "reason": "חששות פוליטיים סביב הבנק המרכזי מעודדים מעבר לנכסים בטוחים",
-    "reason_i18n": {
-     "he": "חששות פוליטיים סביב הבנק המרכזי מעודדים מעבר לנכסים בטוחים",
-     "en": "Political concerns around the Fed encourage safe-haven flows",
-     "ar": "المخاوف السياسية حول الفيدرالي تشجع التدفقات نحو الملاذ الآمن",
-     "ru": "Политические опасения вокруг ФРС стимулируют приток в безопасные активы"
-    },
-    "name_i18n": {
-     "he": "אג\"ח ארוך טווח - קרן אג\"ח ממשלתי",
-     "en": "Long-term Treasury ETF - government bonds fund",
-     "ar": "صندوق سندات الخزانة طويلة الأجل - صندوق السندات الحكومية",
-     "ru": "ETF долгосрочных гособлигаций США"
-    },
-    "price_at_alert": 79.55,
-    "entry_price": 79.895,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 80.345,
-    "exit_date": "2026-11-19",
-    "change_pct": 0.56,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 2.96,
-    "edge_pct": 2.96,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "d5dbcaf42935",
   "evaluated": true
  },
  {
@@ -40514,27 +40016,27 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpbFdMQWNVZFh1U1daNHd6SDFyamdJS09tR3BlOWd2aDRyRi1YV0VUZTNjTzJ0RDN3OUt1alR2N0RGSHBfSjR0SDE4dF84TWI4c2FNM1FVRVJoOTVCZUk40gFcQVVfeXFMUExabW9TcFlMdWNnT2Rwek40UDRXRGZQNjI1MF9Ca1phNUtJejNDSFRBMWxRNFh6U2V3Ul9sVjhxUG4xVzIyWVdwOXlERTFPU09QM09OczNON3hVdkw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM202OVZTdFU0R0dLbGJTcFduM25uemtKal9FSnMxeFRlenZnRldHYjhaQkNaQzFZdXpDSXFka0NBbmhvb0ZsRWlBQV9PNjVubllUX0xsalBkdVM1S3ViOHllYUk0QkFPUWhIMHppdWt4Qjc1V1BnRXp3dVJwNHhSWERjQnhuUEtLV3NVX2ljd2pNdGktdnhKUFdWNWZMRllRYmhUSnY3X1dMX25WTFdSaE1rSmpEcVJvRXh3aUJxQ21uQ3BsMGY2ZHlydXhGNkhP0gHjAUFVX3lxTE1kQXJyLVBvZDlOUHl1emw3VnQ5N2NlUkpNVTJUakpsQmxNeTliQld4ZHRLU1RHRElXb2JvWVEzUXl1YmVzS01wbnVhcWFlblpaYWtxRmcxWmJKSVI3eGRoODhMSGVuUDRsajBkR2lkSXZvS2FyZVotalNDR0ZQX0pPYnppS0hqaTh0UzVOQTFrTnNuVjZnWjFCQ2dLYm45Uk9MLUhQUDlzaFpNUEk3dlRLVnB6ZDlZR1p1UUVlaUVEeVljNkpUeDF5Zzdpa2x2NUVRak5pN1V5eW9JWjI4cUdvRnhF?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNazB0UUJTd3VpQ2xDNEl1bWFPVDBoUzN4ZEdiUHU5d3NIUVlfZWpkVVVnM0RVb2hoRzJDdmdEYmZhVmV5VkZMRkI5RmxjbzVkenV6aVRld3lzWVhwQktBMDd5V29tdHB2YzNqN05iOC0tVm1Tb3FyM1ptYlZobXhyTmV0T2syaWJiUU5JRFFSQVpkQ0k?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNHJCVWFrbVRpZTZZMTZqYW02VkFnU01pLUwzanlhZ2dsdHlSU0dJMUVmZWc4RmxRUXprYzRuYXJ2ODRhekhWWGpyUi0wQ1VvbHAtY3dqazBZa2tEZTNmX2tPdVZTSHdLaVZETTFGTGRQVjFXeVp1dXc2U1RHWVBkTGxVRlpVWTdLZnluTExIRFlobU1tTlRrWWYwdVU3b0dfUnFzWVJPMUE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHVoZzVyUkh4MG5nbXdkU0wyRlFuRDhTeE9XRG1GSU1XZ0pmYW1teWlBR0NkRXk5NlBDYzM1SnRZUGJrbDl6empPc3JLem9OeFNaalQyNDl3UzZNbk1VTlZzWjZlU2k4YXBzcV9uQ01jUWp5RG9RLVBFLXdUT21UVy0tR1Q?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95Z3dLUjRWQ0VJTmNaUDJFQnl6bmQtYlhvWUZIaXVHNnV1NWR3UlExeDdqb3hnMXhqN3piVkxNWU5HRWJ3UXgzNlNLdkZaUjYzUHBDUkkyLVJ3UkhTSVUxaERBQlBXeTF4WkVrLW5R?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55NnFFeXo0ZzNVVDhFN205S0tNQUdLWlpEMjRWdWxHTGtPTXM1R2w4NGVhTWtRUVVMZ3BfZGlrMjBzMlBBUzhPWHBzTFh6OHBJREVGLUdsOGpfSk41R201MWpFQmJBTms?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UalU1ZmpRaGxEelIxTDRUcTJTMTg2cGozMGRJekRmbzBjZ25KQUM0WWZxWEdVcGtvYVZsMkZuYjg0YzBZeGFNbGdBREJ2TloyWkhSdEtHdFo2UU0xZ2RTamRqLXpTTWJYYlE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVE94Ymk2aEpxTWw3VjRMRjFYakZERzlHNjVGWjFVaGNMeTc4NGg4ci01V1BBNE1SdWZjR0NWeVFiZlQ3Q2V5Zk43TkVld1c1enU1dkdhelotbUpwS25yRk5QLWhITWhSREh0dnktc2JyMFpyUkdwZUFXZ3ZlQTIxb3Rnd3BUNndqTmxVbFdNOUptUk93Mzl5UE9FekFxUkRwS0YtcUl0MnhTa2V0WUtYVGtMQV8?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QVVhhRC1OZEpUN1p1d19FTGZrRzNabDJqMEhuZUREWVBCSHp5MGJJZ214Q1BMRnNtRTVvU0RYaFZya194NGlrNllpeFp6NXZzVHc?oc=5"
    }
   ],
   "impacts": [
@@ -40652,9 +40154,21 @@
      "ar": "فرضت الولايات المتحدة عقوبات جديدة على إيران بهدف قطع قنوات التمويل، في حين تشير التقارير إلى اضطرابات في سلاسل التوريد البرية والبحرية بسبب الحصار البحري.",
      "ru": "США ввели новые санкции против Ирана, чтобы перекрыть каналы финансирования, в то время как поступают сообщения о сбоях в наземных и морских цепочках поставок из-за морской блокады."
     }
+   },
+   {
+    "ts": 1795560105,
+    "time": "2026-11-24T22:41Z",
+    "severity": 6,
+    "summary": "נשיא ארה\"ב שיבח את מדיניות הבלוקאדה הימית נגד איראן, בעוד שגורמים איראניים כינו את תוכניות החסימה \"דמיוניות וחסרות תועלת\", על רקע לחץ מזומנים צפוי לסוף השנה.",
+    "i18n": {
+     "he": "נשיא ארה\"ב שיבח את מדיניות הבלוקאדה הימית נגד איראן, בעוד שגורמים איראניים כינו את תוכניות החסימה \"דמיוניות וחסרות תועלת\", על רקע לחץ מזומנים צפוי לסוף השנה.",
+     "en": "The US president praised the naval blockade policy against Iran, while Iranian officials dismissed blockade plans as 'delusional and futile' amid anticipated year-end cash squeezes.",
+     "ar": "أشاد الرئيس الأمريكي بسياسة الحصار البحري ضد إيران، بينما وصف المسؤولون الإيرانيون خطط الحصار بأنها \"وهمية وعقيم\" وسط ضغوط مالية متوقعة.",
+     "ru": "Президент США похвалил политику морской блокады Ирана, в то время как иранские чиновники назвали планы блокады «бредовыми и тщетными» на фоне нехватки средств."
+    }
    }
   ],
-  "last_update": 1795517726
+  "last_update": 1795560105
  },
  {
   "ts": 1795480502,
@@ -41524,10 +41038,6 @@
   "sources": [
    {
     "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTExWU3RKWEtTdDJMNEhxNzBpX0puVXFEM1lJS1JDZDhuRlpoVXJzSHJfT1Fhc1JRZUpwZlZQN1kzbUVYclZ1eklKajdtN2ZIb2R0dVV5WUZrWUp4V3pUUGs5d20yd1hwcVJ3aFpKMnFkMnFtM3d2RHhWTkhWXzZ5R3IxZGRkVkc1SnAzLU1ZYW5KTUF5a19TSHR4VVpwV3VJ?oc=5"
-   },
-   {
-    "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTjZUUEtQVGJxRDB4YVpwcmtZb0RlLWhDSjR3eWpLTFFCTzRjcWF2bXR4eE1SWjh6Z1RWSl9ZYU5GMDlHb0dfWWVJOXRiUU9mRS1kNGh5VGoyZE5LZ1lrWDRXVUR3NVhUaVF0N3N6aHc0NU13T1VpcEhqWktiSWlHbHhSOXgybTJqRW1YOGM4ZjdLajNSTzA1VHlhU09YSVNsRmRzcldiak9HYlF1dHd0LWd3RXNjeF9HSXdQMjgzRmpPYkNlNFJEZmloZVZKdzE5Z0RDb2xPVjJlQQ?oc=5"
    },
    {
@@ -41541,6 +41051,14 @@
    {
     "name": "Google News: Israeli defense",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81S3FLZ3hGX3lTR0hiZmM5RzBjdngxajJRQXVBeS1XRzMzNjIwdExQUzM2a3pJUWxxcHhTTExiekREQVc1a1k5SWt5MnlZZmFMd0dIZXM0ckl1RVBYWERJWEpCVWhtSHR5WEYtbg?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR01RWERQWDFKdmUwSEJ3cmtpaEx6elV3OFE2UFM0T1BxdGY0TERfc1BYVHJVRjRTcHUwYlVJNHlXU1R0aW5yUFZOVW1ZWFRUX3FaUzRFSmZwc0pOU0ZSVmgySFYzRGVqZm1GR1RCSENWWXlEM052eEJpYkRoSWxsanhYWlZrOHVPaFhIS1pER2w0UnBtYTJnUUpvQ18xVGdhMnhBbk5NblNCV0FLYjFtNXdUb1ZQMTg?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PdEF6M3lGN0IyV0RpaDUtSXIyZXExdDU0WTJJOHh6bWg2R0JvUFJEdWJRRElyM0FyMmdXRXVpWGl6WlJuRWVBY0NNM3VoUEF4TDlXT2hSTVR6dzV5aW8wbXBMaXJUU3BSaVZPNA?oc=5"
    }
   ],
   "impacts": [
@@ -41644,9 +41162,21 @@
      "ar": "ستقوم شركة إلبيت سيستمز بتزويد أنظمة حرب إلكترونية لفرقاطات F128 الجديدة التابعة للبحرية الألمانية.",
      "ru": "Elbit Systems поставит системы радиоэлектронной борьбы для новых фрегатов F128 ВМС Германии."
     }
+   },
+   {
+    "ts": 1795560105,
+    "time": "2026-11-24T22:41Z",
+    "severity": 4,
+    "summary": "החברה הבת של אלביט בגרמניה נבחרה לספק מערכות לוחמה אלקטרונית עבור ארבע פריגטות של הצי הגרמני, בזמן שחברת התחמושת הישראלית תומר גייסה 600 מיליון ש\"ח.",
+    "i18n": {
+     "he": "החברה הבת של אלביט בגרמניה נבחרה לספק מערכות לוחמה אלקטרונית עבור ארבע פריגטות של הצי הגרמני, בזמן שחברת התחמושת הישראלית תומר גייסה 600 מיליון ש\"ח.",
+     "en": "Elbit's German subsidiary was chosen to supply electronic warfare systems for four German Navy frigates, while Israeli defense firm Tomer raised NIS 600 million.",
+     "ar": "تم اختيار فرع إلبيت في ألمانيا لتزويد أنظمة حرب إلكترونية لأربع فرقاطات تابعة للبحرية الألمانية، بينما جمعت شركة تومر الإسرائيلية 600 مليون شيكل.",
+     "ru": "Немецкая «дочка» Elbit выбрана поставщиком систем РЭБ для четырех фрегатов ВМС Германии, а израильская Tomer привлекла 600 млн шекелей."
+    }
    }
   ],
-  "last_update": 1795556444
+  "last_update": 1795560105
  },
  {
   "ts": 1795509549,
@@ -42265,18 +41795,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHhkVFpXSmc2SFJ3VEV3WHg5Vm4xYmRlM2l5R3Z2TEx6emJsdVRiQVBJTjJpaDJ3X2NsZFBURUR4anlRVDY4aTl0cHFvUzFTWUw5VUtXcE5pSEt1TzNPTWlXU0xHYV84QjVURk9LV1pFRGloYTQ1aU1iUmJ4TlN1NlVRYXN6QS1ub2Z6Mm1HMlNXS0hYV1YxNzF5SV9MSUNkNUtRTnRqb1phaUlESmRaMUxjcTM0dw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU2MzZGtHLWMxc19YSXNoZ0l2RzZnXzEyYUhfWGhDWWZaa0tYWTZGQTdWTDl3b2dSNFlaVEs1MnU4WmszaDBFT1FWejJzQ3hmMXVINDFtVlVGRjFRd1hheWpFVktncXVkZDNYMlFiVi1vQ3lkTFNUbG9KczJ3QWZTekVvbkxDTFItN2F3QlY5d2drSk5NT0hPNnk5eVhjQ1FwODdtdm45UFpzd1lTdlc4S21GRHV3RFhJMmY0cU9OLTY?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YblJnSDVEdElWVld0RWFJRC1kY3VzQUF5d3NURUxqV3FhU3R1VkYtVDV1YTcwc3UyWmh0a1JJTDZEanpwbFo4Rw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOGE0ZlYydzN0aGh6SGJ5cE16ZGNYQ2VLZnZ5ZVlwZmlVUGU0YVlxMXVWc3h2cEtPTXlVYTkzRFM0Z0IzUmFmRXE3NzRTVlVvMGdveERpUzkyeUYtOThiWWcwZ0ZZVHZnYmxTSmp4Y3pxRGNnbDRvN2J6eXQyQzVxQWZwNkh3WndPdzBEVkNhbS1EX3lYMFE?oc=5"
    },
    {
@@ -42286,6 +41804,18 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UVEFWeEVvWS1GZDVkVmZKeGxpWFVFVUlDN3h6WFhlRFVPcnVsNFE0UUlMenZnRk5OUlRpOW56dVhOWWxJRVJ1Snk5dVlmU3FpWi1jakhLMlo4ams?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSE13WFpqRDRMUDZFS2pvWi1qdm9rRzl4NXZJZVdScTJLYzVsTnVPNGdvZ3hJM19kR245dThCMmpiR1FNRXd5RVZJejBVcUtYbXk2Y1FDcmYzNHFTVU9jWFpjTGpObldZTVFKSncxU28tU2ZYN0hiZVRzVTFFUGM1cHpFeW1BQzFUNlVkX0tDTVVDeVJsMjRZWXdYa3hnaW52YWhveEphek82eVVwamk4SGk0bldiQWNEQkNnUHhsUjNZOXhzejdRYkkxblhncTZWYjBzMnktWUhVV1FFWG01NlNhZERobkU?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iNW0tX0lNWTR0V25vSGFoY0pxREdWWDRJWFFpc1haenlySmJKZ0pYREdfY1BWeXh6OGF5clozTUltbXJpLXE3MW54S2otY1ZvZGNnSllxQWFfZTU0ZHNnZnpkLW9fZDBrc2p3RHN30gFmQVVfeXFMTkJ2QUhvbDlVY3BFb3RNODFjVU1RT0ZEcDdpNklSX3RFek5MdDRNb3BiWWVmN3VqemxrY2xibUJKTXJfd1lSQm8wNHBPaEptRzNYTk1YdDJsYi1VbEpUd3JoY2E1VDZB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNVJ3RDJpTEtlNTUxT1F5dC1fdGZfMENCMGV0QzM2U1c5dXRKMURlS2lhUktieFhPS21uX0Y5alRzMHpuWmcwVUNESmI0YjFhY1ZvUDJ3WXFGdWItQkxVOUFRWVViYTludFZTWm1wVnJGajRldEJ1c3dxNlZHdGZCcU1wWQ?oc=5"
    }
   ],
   "impacts": [
@@ -42345,6 +41875,25 @@
      "ru": "ETF на Европу"
     },
     "price_at_alert": 84.52
+   },
+   {
+    "ticker": "EWY",
+    "direction": "down",
+    "t0": 1795560105,
+    "reason": "ציפייה למכסים של כ-15% על יצוא קוריאני.",
+    "reason_i18n": {
+     "he": "ציפייה למכסים של כ-15% על יצוא קוריאני.",
+     "en": "Expectation of around 15% tariffs on Korean exports.",
+     "ar": "توقعات بفرض رسوم جمركية بنحو 15٪ على الصادرات الكورية.",
+     "ru": "Ожидание пошлин около 15% на корейский экспорт."
+    },
+    "name_i18n": {
+     "he": "EWY - קרן סל מניות דרום קוריאה",
+     "en": "EWY - South Korea ETF",
+     "ar": "EWY - صندوق أسهم كوريا الجنوبية",
+     "ru": "EWY - ETF акций Южной Кореи"
+    },
+    "price_at_alert": 130.7
    }
   ],
   "id": "01c625cfd498",
@@ -42372,9 +41921,21 @@
      "ar": "تستعد إدارة ترامب للكشف عن مجموعة جديدة من التعريفات الجمركية تستهدف الهند والصين والاتحاد الأوروبي وشركاء تجاريين آخرين.",
      "ru": "Администрация Трампа готовится представить новый набор тарифов, направленных против Индии, Китая, ЕС и других торговых партнеров."
     }
+   },
+   {
+    "ts": 1795560105,
+    "time": "2026-11-24T22:41Z",
+    "severity": 6,
+    "summary": "מקורות מדווחים כי ממשל טראמפ מתכונן להציג מכסים חדשים בעקבות חקירה על עודף כושר ייצור עולמי, כאשר דרום קוריאה צפויה לעמוד סביב 15%. ההודעה כבר מעוררת תנודתיות בשווקים ובנכסים כמו מטבעות קריפטוגרפיים.",
+    "i18n": {
+     "he": "מקורות מדווחים כי ממשל טראמפ מתכונן להציג מכסים חדשים בעקבות חקירה על עודף כושר ייצור עולמי, כאשר דרום קוריאה צפויה לעמוד סביב 15%. ההודעה כבר מעוררת תנודתיות בשווקים ובנכסים כמו מטבעות קריפטוגרפיים.",
+     "en": "Sources say the Trump administration is preparing to unveil new tariffs following a probe into excess factory capacity, with South Korea anticipated to face around 15%. The looming policy is already causing volatility across markets and crypto assets.",
+     "ar": "تقول مصادر إن إدارة ترامب تستعد للكشف عن رسوم جمركية جديدة في أعقاب تحقيق في الطاقة الإنتاجية الزائدة، ومن المتوقع أن تواجه كوريا الجنوبية نحو 15٪.",
+     "ru": "Источники сообщают, что администрация Трампа готовится представить новые пошлины после расследования избыточных мощностей, при этом Южная Корея может столкнуться с уровнем около 15%."
+    }
    }
   ],
-  "last_update": 1795556444
+  "last_update": 1795560105
  },
  {
   "ts": 1795538967,
@@ -42640,27 +42201,27 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9weWZWa3g1OEliaDZRUG1MallBUm9PQWhySlVjR1lFdlJzZkdCaXd4aFFjYUdqLXhGc0FvWUdIZ3ZBSUJEbEt0ZDdfandQZUk?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUjdlWGEyY21YbUIzWVJqWmpKaEdHMGFHU25aUHYxQU15d2NOX24xMHN5dHFuOG9Vc3lFRDh0OG1vdkpiUUdRRWdvVC1ZTDk1eV9fcTJQYXVqTmpEaWpMNmRIT3hJeXdySzNtMmFTTEdVTGVIa2dlWXRhY3lNLUJKSQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFRDWUpwTFNNZHljSDZLamVVNERHTlN1MEFxcUM5cnJ6ejBvN0hjaUlHUG5fYWFGamNzQXkxb3k4UkZ3dHN4QmVHUG1vTzh6dkVqUjBYYUNGMnUyZnBGVy1LU1RQc2dYdkFmbFNCX3BKeDZtNTB2MExieENiOXZ5Z2pMNkFnYnpuTHlpbjA2U0dkRVAwZ1NnZjZURTB3c01zbDZDbkRuRFQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQ1IzS3VMRFppN3NYOG4wakZDRm4waER2MUk3aWE2N21kOEotVG5vLW5xN2FpeWZpV1dIMTJubk9oMmk3dFBCNWRwWmNMeEI1czZ2N1JSTmkxUjdRRHd1emJhUk1yUm5xVkZDVnVNVW83RzVvTmg1aG0tNlBQRGFaSl9ldm1iUQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzdaTEgzY1BZdzJyazBLY3hEVGxZbTJmTUlZT1JyTmh2SkpHcUpiVnBoQzZOY0VTRFdwYzNfMDJIVmk5NU8td3FibElWaHpEaGZjdXp2dTRxMmVGRWRKdjhHeE5nd1hmOHNkM0ItMHRCcjNCRUdIRGhBVlk4dGczXzlqa29GOWRFM0pKTzBDUklnYnc?oc=5"
    },
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZkpXX2xKcWRJSGhBbllsXzRxa3FQTmhzMVNHeHlreEJTSDc3cnh5VnZ5MzlRQk9GcVpFR01Ib0RNdG9OOUN1aU5zb1BWaGNPRjhGdUJiLXhOeG1aYy1iMlF0Q3ZTbmU4TjRiNlRIcVpPc0tPaXhhX3Z1NWx5V1BEa1NyR2lzemlEc3c?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQamhUeW9fTzhqQmdENVBiQXhWVnRtbVFydmJwNEVhSjNTeFR0VG1LMjItQ2FHMV9LNEF0cHFhRDY4OTBic2hfSGFjUmctYjE3WS1wQl9EVEwzRVgtMzdzV2UtU2d0YlhENmNUZ1M4cUY3d2hnNEFOMzNQck9iMmo5bjBiUmVWWkRjSERLSkhRYw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE44X2ZDRWlQMmZtVTZLak9IWDhPWTlPMHZWV2FsR2dYRFIwTW9nWEFXZkZ1RHd2aVdDOUFfNVZYanFXV1hlVWFVbXFJbTNySFR6ZlRyaHRzRjREd3ptc3lNRDliX04zREFPRFBwMXM2YWJVcS1UZHdMekhiaUhGdw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YUGM1SFFqczQ2Umt5M21PVGNMYVBCVk8yaFJreUZXVjU4Y1BObkdKN3R0V3ZuS2U2R2lGMzVrZHprMGtWNUVpQ3JBdkdnbzZwd2M5T3JxRFhGRFhoSGhxN1BMZWhBLWNBSkZFelViczJJdmxEUzZmeGFXYkY?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUXJ2eFNTdGxrbXZKbDNfYUFuX0pCSWVHeTUzWGRnQzJuRm1Da0hkbzJlX29xZ1dxam4zdk40b1pFNFFLclNIbm1nMzcxellzcFJPRkRjbEVfbTZNeUY1OS1UQXdHRzJsN0hlMHlSWnVYMFRFOVZjRHBXc0pkQ19mdWZRdTVUd3FvVGZLdTUwS1RrMmdiYWpOYlRfZU1pd3J0MVhDd2lneG45R0tTc3h3OVFzOXFZZGNU?oc=5"
    }
   ],
   "impacts": [
@@ -42701,6 +42262,25 @@
      "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 68.145
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795560105,
+    "reason": "חששות סביב יציבות ואבטחת תשתיות קריטיות בארה\"ב.",
+    "reason_i18n": {
+     "he": "חששות סביב יציבות ואבטחת תשתיות קריטיות בארה\"ב.",
+     "en": "Concerns surrounding the stability and security of US critical infrastructure.",
+     "ar": "مخاوف بشأن استقرار وأمن البنية التحتية الحيوية في الولايات المتحدة.",
+     "ru": "Опасения по поводу стабильности и безопасности критической инфраструктуры США."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - ETF индекса S&P 500"
+    },
+    "price_at_alert": 718.78
    }
   ],
   "id": "761539055935",
@@ -42716,9 +42296,21 @@
      "ar": "تم اختراق نظام غير مصنف تابع لوكالة الاستخبارات المركزية في هجوم سيبراني. تؤكد التقارير حدوث اختراق لأنظمة وكالة الاستخبارات الأمريكية.",
      "ru": "Несекретная система ЦРУ была взломана в результате кибератаки. Сообщения подтверждают несанкционированный доступ к системам разведывательного управления."
     }
+   },
+   {
+    "ts": 1795560105,
+    "time": "2026-11-24T22:41Z",
+    "severity": 5,
+    "summary": "מקורות מאשרים כי חומרי גלם לא מסווגים של הCIA ומשרד המודיעין הלאומי נחשפו במסגרת מתקפת סייבר, מה שמעורר דאגה לגבי אבטחת מידע ממשלתי.",
+    "i18n": {
+     "he": "מקורות מאשרים כי חומרי גלם לא מסווגים של הCIA ומשרד המודיעין הלאומי נחשפו במסגרת מתקפת סייבר, מה שמעורר דאגה לגבי אבטחת מידע ממשלתי.",
+     "en": "Sources confirm that unclassified materials from the CIA and the Office of the Director of National Intelligence were exposed in a cyberattack, raising concerns over government data security.",
+     "ar": "تؤكد المصادر تعرض مواد غير مصنفة تابعة لوكالة المخابرات المركزية ومكتب مدير المخابرات الوطنية للاختراق في هجوم سيبراني.",
+     "ru": "Источники подтверждают, что несекретные материалы ЦРУ и офиса директора национальной разведки были скомпрометированы в ходе кибератаки."
+    }
    }
   ],
-  "last_update": 1795556444
+  "last_update": 1795560105
  },
  {
   "ts": 1795552680,
@@ -42920,5 +42512,63 @@
    }
   ],
   "id": "faf1009f51f3"
+ },
+ {
+  "ts": 1795560105,
+  "time": "2026-11-24T22:41Z",
+  "title": "אזרח סעודי הואשם בנסיון האזנה ל-OpenAI ושוחרר בערבות",
+  "summary": "אבשלולקולמן אלפוזאן נאשם בשתילת מכשיר הקלטה בחדר ישיבות של בכירים במטה חברת הבינה המלאכותית OpenAI ושוחרר תמורת ערבות של מיליון דולר.",
+  "kid": "מישהו ניסה לרגל בסתר אחרי פגישות של חברת הבינה המלאכותית OpenAI ונעצר. אירוע זה מעלה חששות לגבי אבטחת מידע רגיש בתעשיית הטכנולוגיה.",
+  "i18n": {
+   "title": {
+    "he": "אזרח סעודי הואשם בנסיון האזנה ל-OpenAI ושוחרר בערבות",
+    "en": "Saudi national charged in OpenAI bugging released on $1M bond",
+    "ar": "توجيه الاتهام لمواطن سعودي بزرع أجهزة تنصت في أوبن إي آي الإفراج عنه بكفالة مليون دولار",
+    "ru": "Гражданин Саудовской Аравии обвинен в прослушке OpenAI и освобожден под залог в $1 млн"
+   },
+   "summary": {
+    "he": "אבשלולקולמן אלפוזאן נאשם בשתילת מכשיר הקלטה בחדר ישיבות של בכירים במטה חברת הבינה המלאכותית OpenAI ושוחרר תמורת ערבות של מיליון דולר.",
+    "en": "Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters and was released on a $1 million bond.",
+    "ar": "اتُهم عبد الرحمن الفوزان بوضع جهاز تسجيل في غرفة اجتماعات تنفيذية بمقر شركة أوبن إي آي وتم الإفراج عنه بكفالة مليون دولار.",
+    "ru": "Абдулрахман Альфозан обвиняется в установке записывающего устройства в конференц-зале штаб-квартиры OpenAI и был освобожден под залог в 1 млн долларов."
+   },
+   "kid": {
+    "he": "מישהו ניסה לרגל בסתר אחרי פגישות של חברת הבינה המלאכותית OpenAI ונעצר. אירוע זה מעלה חששות לגבי אבטחת מידע רגיש בתעשיית הטכנולוגיה.",
+    "en": "Someone tried to spy on meetings at the AI firm OpenAI and was caught, raising concerns about corporate espionage in the tech sector.",
+    "ar": "حاول شخص ما التجسس سرا على اجتماعات شركة أوبن إي آي وتم القبض عليه، مما يثير مخاوف بشأن التجسس الشركات.",
+    "ru": "Кто-то попытался шпионить за встречами компании OpenAI и был пойман, что вызывает вопросы о безопасности в техсекторе."
+   }
+  },
+  "category": "cyber",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLK",
+    "direction": "down",
+    "t0": 1795560105,
+    "reason": "חששות מריגול תעשייתי ואבטחה בחברות טכנולוגיה מובילות.",
+    "reason_i18n": {
+     "he": "חששות מריגול תעשייתי ואבטחה בחברות טכנולוגיה מובילות.",
+     "en": "Concerns over corporate espionage and security at leading tech firms.",
+     "ar": "مخاوف بشأن التجسس الصناعي والأمن في كبرى شركات التكنولوجيا.",
+     "ru": "Опасения по поводу промышленного шпионажа и безопасности в ведущих техкомпаниях."
+    },
+    "name_i18n": {
+     "he": "XLK - קרן סל מגזר הטכנולוגיה",
+     "en": "XLK - Technology Select Sector SPDR Fund",
+     "ar": "XLK - صندوق قطاع التكنولوجيا",
+     "ru": "XLK - ETF технологического сектора"
+    },
+    "price_at_alert": 157.09
+   }
+  ],
+  "id": "80ce6b4068f1"
  }
 ]
