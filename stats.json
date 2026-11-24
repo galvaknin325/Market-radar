@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T10:56Z",
+ "generated": "2026-11-24T11:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1423,
+ "total_alerts": 1426,
  "overall": {
   "n": 999,
   "hits": 497,
@@ -83,26 +83,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 154,
+   "mentions": 155,
    "n": 139,
    "hits": 69,
    "name": {
-    "he": "קרן סל נפט",
-    "en": "Oil ETF",
-    "ar": "صندوق النفط المتداول",
-    "ru": "Нефтяной ETF"
+    "he": "קרן סל שעוקבת אחרי מחירי הנפט",
+    "en": "US Oil Fund - tracks crude oil",
+    "ar": "صندوق النفط الخام الأمريكي",
+    "ru": "Фонд нефти USO"
    },
    "avg_edge": -0.15
   },
   "XLE": {
-   "mentions": 139,
+   "mentions": 140,
    "n": 122,
    "hits": 68,
    "name": {
-    "he": "מגזר האנרגיה",
+    "he": "קרן סל של חברות אנרגיה אמריקאיות",
     "en": "Energy Sector ETF",
-    "ar": "قطاع الطاقة",
-    "ru": "Сектор энергетики"
+    "ar": "صندوق قطاع الطاقة",
+    "ru": "ETF энергетического сектора"
    },
    "avg_edge": -0.14
   },
@@ -131,13 +131,13 @@
    "avg_edge": -0.4
   },
   "ZIM": {
-   "mentions": 57,
+   "mentions": 58,
    "n": 47,
    "hits": 29,
    "name": {
     "he": "צים - חברת ספנות",
-    "en": "ZIM - Shipping company",
-    "ar": "زيم - شركة شحن",
+    "en": "ZIM - shipping company",
+    "ar": "ZIM - شركة شحن",
     "ru": "ZIM - судоходная компания"
    },
    "avg_edge": 0.81
@@ -443,14 +443,14 @@
    "avg_edge": -1.03
   },
   "FDX": {
-   "mentions": 38,
+   "mentions": 39,
    "n": 31,
    "hits": 22,
    "name": {
-    "he": "פדקס - חברת שילוח ולוגיסטיקה",
-    "en": "FedEx Corporation",
-    "ar": "شركةفيديكس للشحن",
-    "ru": "Логистическая компания FedEx"
+    "he": "פדדקס - חברת שילוח בינלאומית",
+    "en": "FedEx - global shipping company",
+    "ar": "FedEx - شركة شحن عالمية",
+    "ru": "FedEx - глобальная логистическая компания"
    },
    "avg_edge": 0.6
   },
@@ -563,14 +563,14 @@
    "avg_edge": 2.17
   },
   "TSM": {
-   "mentions": 11,
+   "mentions": 12,
    "n": 10,
    "hits": 6,
    "name": {
-    "he": "TSMC - יצרנית שבבים",
-    "en": "TSMC - Chip manufacturer",
-    "ar": "TSMC - مصنع الرقائق",
-    "ru": "TSMC - производитель чипов"
+    "he": "TSMC - יצרנית שבבים גדולה",
+    "en": "TSMC - major chip maker",
+    "ar": "TSMC - شركة تصنيع رقائق كبرى",
+    "ru": "TSMC - крупный производитель чипов"
    },
    "avg_edge": -0.73
   },
@@ -803,14 +803,14 @@
    "avg_edge": -1.4
   },
   "SMH": {
-   "mentions": 52,
+   "mentions": 53,
    "n": 45,
    "hits": 14,
    "name": {
-    "he": "תעודת סל סמיקונדקטור - קרן השקעות בשבבים",
-    "en": "Semiconductor ETF – a fund tracking chip stocks",
-    "ar": "ETF أشباه الموصلات - صندوق تتبع أسهم الرقاقات",
-    "ru": "ETF полупроводников — фонд акций чипов"
+    "he": "קרן סל של חברות שבבים",
+    "en": "Semiconductor ETF",
+    "ar": "صندوق استثماري لقطاع الرقائق",
+    "ru": "ETF полупроводников"
    },
    "avg_edge": -0.6
   },
