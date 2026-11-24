@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T20:38Z",
+ "generated": "2026-11-24T21:41Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1433,
+ "total_alerts": 1435,
  "overall": {
   "n": 1001,
   "hits": 498,
@@ -1679,14 +1679,14 @@
    "avg_edge": 0.89
   },
   "F": {
-   "mentions": 2,
+   "mentions": 3,
    "n": 2,
    "hits": 2,
    "name": {
-    "he": "פורד – יצרנית רכב אמריקאית",
-    "en": "Ford - US automaker",
-    "ar": "فورد - شركة تصنيع سيارات أمريكية",
-    "ru": "Ford - американский автопроизводитель"
+    "he": "פורד - יצרנית רכב",
+    "en": "Ford - Automaker",
+    "ar": "فورد - شركة تصنيع سيارات",
+    "ru": "Ford - автопроизводитель"
    },
    "avg_edge": 0.89
   },
@@ -1891,6 +1891,18 @@
     "en": "Insmed",
     "ar": "إنسيميد",
     "ru": "Insmed"
+   },
+   "avg_edge": null
+  },
+  "DELL": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Dell - יצרנית מחשבים ושרתים",
+    "en": "Dell - Computer and server manufacturer",
+    "ar": "ديل - مصنع أجهزة الكمبيوتر والخوادم",
+    "ru": "Dell - производитель компьютеров и серверов"
    },
    "avg_edge": null
   }
