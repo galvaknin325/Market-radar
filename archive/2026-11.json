@@ -149224,7 +149224,7 @@
    }
   },
   "category": "contracts",
-  "severity": 8,
+  "severity": 9,
   "confidence": "high",
   "sources": [
    {
@@ -149234,6 +149234,10 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWVdlS2ZmazF1X3NxUjFfMGZHcGl5UC1aS1ZrRzJ1LWx0Y3ZNWFp5Q08xOXJwZ1h5OW1nYnRGLXNXOEktMTB0cEVGbXBQcUEwMWgzXzhSWFdRbFJQaTlSMk13LTlBLW9XbTdqRDBQaG4zOHhnNXg1Tk1jQ1lUSnZRREhhNVB5VmNYa1QySEoxREx1bnVYWjNicHk3bEd6d1ZGVk5HRVd6Um4zNnRmdWZxVDBvRVM5YXROQl9iUDMxb25Td2dheVZaNnY1cTR5M2o5SGlR?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUzhWcW9TOUxWSVZNSGJKZUJpcldqOXBZaGpRY09sWXpGRlpwc0ZfWFJoWk43VGZxcnlBYUZ4cUZBS1ZWQ3Z3VlFiOWNaTTNEY0V0U0RGMTYxZ0Y5SGNyRk8xQ2xFNEpkdG1ZRHdEWDZsdkJZamk5T3E5a1huMVdjRjFzbHBQeEdaOFZUcVMtM3ROWGVhbi05ZTJEYnJTenZuR2wwNG9KRXpaMHJWN0kxS0VFb2hvS2RHY1l3aGstU1RrLW5HQVJMZWFwT3JYeGlYY2c?oc=5"
    }
   ],
   "impacts": [
@@ -149325,9 +149329,21 @@
      "ar": "أعلنت شركة الأمن السيبراني العملاقة كراود سترايك عن الاستحواذ على شركة زيسكالر في صفقة بقيمة 44 مليار دولار، وهي خطوة من المتوقع أن تخلق لاعباً مهيمناً في أمن السحابة.",
      "ru": "Гигант кибербезопасности CrowdStrike объявил о приобретении компании Zscaler за 44 миллиарда долларов — шаг, который, как ожидается, создаст доминирующего игрока в сфере облачной безопасности."
     }
+   },
+   {
+    "ts": 1795517726,
+    "time": "2026-11-24T10:55Z",
+    "severity": 9,
+    "summary": "חברת אבטחת הסייבר קראודסטרייק הודיעה על רכישת זסקיילר בעסקה ענקית בשווי 44 מיליארד דולר, מהלך שצפוי לשנות את פני תעשיית אבטחת המידע.",
+    "i18n": {
+     "he": "חברת אבטחת הסייבר קראודסטרייק הודיעה על רכישת זסקיילר בעסקה ענקית בשווי 44 מיליארד דולר, מהלך שצפוי לשנות את פני תעשיית אבטחת המידע.",
+     "en": "Cybersecurity firm CrowdStrike announced the acquisition of Zscaler in a massive $44 billion deal, a move expected to reshape the security industry.",
+     "ar": "أعلنت شركة الأمن السيبراني كراودسترايك عن الاستحواذ على زيسكالر في صفقة ضخمة بقيمة 44 مليار دولار، وهي خطوة من المتوقع أن تعيد تشكيل صناعة الأمن.",
+     "ru": "Компания по кибербезопасности CrowdStrike объявила о приобретении Zscaler в рамках масштабной сделки на 44 миллиарда долларов, что, как ожидается, изменит индустрию безопасности."
+    }
    }
   ],
-  "last_update": 1795485618
+  "last_update": 1795517726
  },
  {
   "ts": 1795435995,
@@ -150813,28 +150829,28 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaUt6QTNtM21fS29yb1g0Y2RnY1VSOENoQ3Z5Ry00RjJPSkNBcHNxcXBObnJySHk5b1h0MFRtcUhvUER0QTE3WUdxQXVwajhCMlBnZ0F0QzdFdHUteTR5azZFMmh4b2xyUkdhaHdZSkw5N3lERHYzSkd4LWNxQ0NYOG9BNW9ZTEFkVjVaek5TTQ?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio?traffic_source=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVk1zR3ZoWk9UQUI2OVZnMlJNZEpqX3BwcnVmQ2toLWNHSm8yVDNMdjVubDV2NGhITE10Q2pFNFFtUU8xVFFQTnZ4a2lwOE5TTG5SQ3JnaERtNjFhb0pMb0FPam1KaUhXX0lZQ3F0SjdyemlDb1I2M0ZtU0lma3VMU2N2eXBNbllDcWJOY3ZzZDl5c0o0MlhEUUNpUFBjamRjQXBBdVB4ZEVZcnBKV3ktM0hkZWJLT1B4?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpbFdMQWNVZFh1U1daNHd6SDFyamdJS09tR3BlOWd2aDRyRi1YV0VUZTNjTzJ0RDN3OUt1alR2N0RGSHBfSjR0SDE4dF84TWI4c2FNM1FVRVJoOTVCZUk40gFcQVVfeXFMUExabW9TcFlMdWNnT2Rwek40UDRXRGZQNjI1MF9Ca1phNUtJejNDSFRBMWxRNFh6U2V3Ul9sVjhxUG4xVzIyWVdwOXlERTFPU09QM09OczNON3hVdkw?oc=5"
    },
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM202OVZTdFU0R0dLbGJTcFduM25uemtKal9FSnMxeFRlenZnRldHYjhaQkNaQzFZdXpDSXFka0NBbmhvb0ZsRWlBQV9PNjVubllUX0xsalBkdVM1S3ViOHllYUk0QkFPUWhIMHppdWt4Qjc1V1BnRXp3dVJwNHhSWERjQnhuUEtLV3NVX2ljd2pNdGktdnhKUFdWNWZMRllRYmhUSnY3X1dMX25WTFdSaE1rSmpEcVJvRXh3aUJxQ21uQ3BsMGY2ZHlydXhGNkhP0gHjAUFVX3lxTE1kQXJyLVBvZDlOUHl1emw3VnQ5N2NlUkpNVTJUakpsQmxNeTliQld4ZHRLU1RHRElXb2JvWVEzUXl1YmVzS01wbnVhcWFlblpaYWtxRmcxWmJKSVI3eGRoODhMSGVuUDRsajBkR2lkSXZvS2FyZVotalNDR0ZQX0pPYnppS0hqaTh0UzVOQTFrTnNuVjZnWjFCQ2dLYm45Uk9MLUhQUDlzaFpNUEk3dlRLVnB6ZDlZR1p1UUVlaUVEeVljNkpUeDF5Zzdpa2x2NUVRak5pN1V5eW9JWjI4cUdvRnhF?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNazB0UUJTd3VpQ2xDNEl1bWFPVDBoUzN4ZEdiUHU5d3NIUVlfZWpkVVVnM0RVb2hoRzJDdmdEYmZhVmV5VkZMRkI5RmxjbzVkenV6aVRld3lzWVhwQktBMDd5V29tdHB2YzNqN05iOC0tVm1Tb3FyM1ptYlZobXhyTmV0T2syaWJiUU5JRFFSQVpkQ0k?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNHJCVWFrbVRpZTZZMTZqYW02VkFnU01pLUwzanlhZ2dsdHlSU0dJMUVmZWc4RmxRUXprYzRuYXJ2ODRhekhWWGpyUi0wQ1VvbHAtY3dqazBZa2tEZTNmX2tPdVZTSHdLaVZETTFGTGRQVjFXeVp1dXc2U1RHWVBkTGxVRlpVWTdLZnluTExIRFlobU1tTlRrWWYwdVU3b0dfUnFzWVJPMUE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHVoZzVyUkh4MG5nbXdkU0wyRlFuRDhTeE9XRG1GSU1XZ0pmYW1teWlBR0NkRXk5NlBDYzM1SnRZUGJrbDl6empPc3JLem9OeFNaalQyNDl3UzZNbk1VTlZzWjZlU2k4YXBzcV9uQ01jUWp5RG9RLVBFLXdUT21UVy0tR1Q?oc=5"
    }
   ],
   "impacts": [
@@ -150894,6 +150910,25 @@
      "ru": "ZIM - судоходная компания"
     },
     "price_at_alert": 29.94
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795517726,
+    "reason": "עליית מחירי הנפט מיטיבה עם חברות האנרגיה.",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט מיטיבה עם חברות האנרגיה.",
+     "en": "Rising oil prices benefit energy companies.",
+     "ar": "ارتفاع أسعار النفط يفيد شركات الطاقة.",
+     "ru": "Рост цен на нефть выгоден энергетическим компаниям."
+    },
+    "name_i18n": {
+     "he": "מגזר האנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "قطاع الطاقة",
+     "ru": "Сектор энергетики"
+    },
+    "price_at_alert": 59.87
    }
   ],
   "id": "723ad577a286",
@@ -150921,9 +150956,21 @@
      "ar": "إيران تتعهد بخرق الحصار البحري الأمريكي وسط تقارير عن انفجارات في ناقلات نفط، بينما تنخفض أسعار خام برنت دون 90 دولاراً.",
      "ru": "Иран обещает прорвать военно-морскую блокаду США на фоне сообщений о взрывах на нефтяных танкерах, а цены на нефть марки Brent падают ниже 90 долларов."
     }
+   },
+   {
+    "ts": 1795517726,
+    "time": "2026-11-24T10:55Z",
+    "severity": 8,
+    "summary": "ארה\"ב הטילה סנקציות חדשות על איראן במטרה לחסום את ערוצי המימון שלה, בעוד דיווחים מצביעים על שיבושים בשרשראות אספקה יבשתיות וימיות עקב המצור הימי.",
+    "i18n": {
+     "he": "ארה\"ב הטילה סנקציות חדשות על איראן במטרה לחסום את ערוצי המימון שלה, בעוד דיווחים מצביעים על שיבושים בשרשראות אספקה יבשתיות וימיות עקב המצור הימי.",
+     "en": "The US has imposed fresh sanctions on Iran to choke off shadow banking lifelines, while reports indicate significant disruptions to land and sea supply chains due to the naval blockade.",
+     "ar": "فرضت الولايات المتحدة عقوبات جديدة على إيران بهدف قطع قنوات التمويل، في حين تشير التقارير إلى اضطرابات في سلاسل التوريد البرية والبحرية بسبب الحصار البحري.",
+     "ru": "США ввели новые санкции против Ирана, чтобы перекрыть каналы финансирования, в то время как поступают сообщения о сбоях в наземных и морских цепочках поставок из-за морской блокады."
+    }
    }
   ],
-  "last_update": 1795492708
+  "last_update": 1795517726
  },
  {
   "ts": 1795480502,
@@ -151771,7 +151818,12 @@
   "category": "contracts",
   "severity": 4,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTExWU3RKWEtTdDJMNEhxNzBpX0puVXFEM1lJS1JDZDhuRlpoVXJzSHJfT1Fhc1JRZUpwZlZQN1kzbUVYclZ1eklKajdtN2ZIb2R0dVV5WUZrWUp4V3pUUGs5d20yd1hwcVJ3aFpKMnFkMnFtM3d2RHhWTkhWXzZ5R3IxZGRkVkc1SnAzLU1ZYW5KTUF5a19TSHR4VVpwV3VJ?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "ESLT",
@@ -151825,9 +151877,21 @@
      "ar": "فازت شركة إلبيت سيستمز بعقد لتوريد أنظمة حرب إلكترونية لفرقاطات F128 التابعة للبحرية الألمانية.",
      "ru": "Компания Elbit Systems выиграла контракт на поставку систем радиоэлектронной борьбы для фрегатов класса F128 ВМС Германии."
     }
+   },
+   {
+    "ts": 1795517726,
+    "time": "2026-11-24T10:55Z",
+    "severity": 4,
+    "summary": "אלביט מערכות זכתה בחוזה לאספקת מערכות לוחמה אלקטרונית (EW) עבור פריגטות של הצי הגרמני.",
+    "i18n": {
+     "he": "אלביט מערכות זכתה בחוזה לאספקת מערכות לוחמה אלקטרונית (EW) עבור פריגטות של הצי הגרמני.",
+     "en": "Elbit Systems has been awarded a contract to supply Electronic Warfare (EW) suites for the German Navy's frigates.",
+     "ar": "فازت شركة إلبيت سيستمز بعقد لتوريد أنظمة حرب إلكترونية (EW) لفرقاطات البحرية الألمانية.",
+     "ru": "Компания Elbit Systems получила контракт на поставку систем радиоэлектронной борьбы (РЭБ) для фрегатов ВМС Германии."
+    }
    }
   ],
-  "last_update": 1795513840
+  "last_update": 1795517726
  },
  {
   "ts": 1795509549,
@@ -152002,7 +152066,12 @@
   "category": "big deals",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+   }
+  ],
   "impacts": [
    {
     "ticker": "INSM",
@@ -152024,7 +152093,22 @@
     "price_at_alert": 149.09
    }
   ],
-  "id": "3d58325e3d5e"
+  "id": "3d58325e3d5e",
+  "updates": [
+   {
+    "ts": 1795517726,
+    "time": "2026-11-24T10:55Z",
+    "severity": 7,
+    "summary": "ענקית התרופות סנופי הסכימה לרכוש את חברת אינסמד בעסקה בשווי 41 מיליארד דולר, העסקה הגדולה ביותר בתחום הפארמה בשלוש השנים האחרונות.",
+    "i18n": {
+     "he": "ענקית התרופות סנופי הסכימה לרכוש את חברת אינסמד בעסקה בשווי 41 מיליארד דולר, העסקה הגדולה ביותר בתחום הפארמה בשלוש השנים האחרונות.",
+     "en": "Pharmaceutical giant Sanofi has agreed to acquire Insmed in a $41 billion deal, the largest in the pharma sector in three years.",
+     "ar": "وافقت شركة الأدوية العملاقة سانوفي على الاستحواذ على شركة إنسيميد في صفقة بقيمة 41 مليار دولار، وهي الأكبر في قطاع الأدوية منذ ثلاث سنوات.",
+     "ru": "Фармацевтический гигант Sanofi согласился приобрести компанию Insmed в рамках сделки на 41 миллиард долларов, крупнейшей в фармацевтическом секторе за последние три года."
+    }
+   }
+  ],
+  "last_update": 1795517726
  },
  {
   "ts": 1795513840,
@@ -152077,5 +152161,67 @@
    }
   ],
   "id": "32f03a48bf80"
+ },
+ {
+  "ts": 1795517726,
+  "time": "2026-11-24T10:55Z",
+  "title": "רעידת אדמה בעוצמה 5.6 בנפאל",
+  "summary": "רעידת אדמה חזקה בעוצמה 5.6 הורגשה בנפאל, עם השפעות שהורגשו גם בהודו ובסין.",
+  "kid": "רעידת אדמה חזקה קרתה בנפאל. זה יכול לגרום לנזק ולעצור פעילות עסקית באזור.",
+  "i18n": {
+   "title": {
+    "he": "רעידת אדמה בעוצמה 5.6 בנפאל",
+    "en": "5.6 Magnitude Earthquake in Nepal",
+    "ar": "زلزال بقوة 5.6 درجة في نيبال",
+    "ru": "Землетрясение магнитудой 5.6 в Непале"
+   },
+   "summary": {
+    "he": "רעידת אדמה חזקה בעוצמה 5.6 הורגשה בנפאל, עם השפעות שהורגשו גם בהודו ובסין.",
+    "en": "A strong 5.6 magnitude earthquake struck Nepal, with tremors felt in India and China.",
+    "ar": "ضرب زلزال قوي بقوة 5.6 درجة نيبال، وشعر به السكان في الهند والصين.",
+    "ru": "Сильное землетрясение магнитудой 5.6 произошло в Непале, толчки ощущались в Индии и Китае."
+   },
+   "kid": {
+    "he": "רעידת אדמה חזקה קרתה בנפאל. זה יכול לגרום לנזק ולעצור פעילות עסקית באזור.",
+    "en": "A strong earthquake happened in Nepal. It can cause damage and stop business activities in the area.",
+    "ar": "حدث زلزال قوي في نيبال. يمكن أن يسبب أضرارًا ويوقف الأنشطة التجارية في المنطقة.",
+    "ru": "В Непале произошло сильное землетрясение. Это может привести к ущербу и остановить деловую активность в регионе."
+   }
+  },
+  "category": "climate",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWldWM0s2Y0hYSXhEVEJ1ZGxRdkFacEhPd0djNTZyZEVTS0EtbUktRFVLSzJOSkZUM0R2VUFNa3lfMXdOZE9KSHc2VjdZQjY1ZkV0bXZzblUwNHZBRnk2MWgtZXF5LVR0NVRpOURNZFYzVWdUYnVkSEl1TzN0cjAwU1dkSWpZaFV2YjNn?oc=5"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWnNsbVJxS3p4QU1UenVOMGtQM0hMaUVwVWVhQTF1eG5sTGt0SW96Zm8wZVVvb1dwWTdWOC14cWpaU1E0ZkpNajZfRzV1U21xQk1nTDVnMUx4TXh3RlVHeFo3a2Zhcl9QOGRtTnFPcEE0NHBXdGtRVk5Ybmhjak5jTVViQ21udTF0dUE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "down",
+    "t0": 1795517726,
+    "reason": "אי-ודאות כלכלית עקב השפעות האסון הטבעי באזור.",
+    "reason_i18n": {
+     "he": "אי-ודאות כלכלית עקב השפעות האסון הטבעי באזור.",
+     "en": "Economic uncertainty due to the impact of the natural disaster in the region.",
+     "ar": "عدم اليقين الاقتصادي بسبب تأثير الكارثة الطبيعية في المنطقة.",
+     "ru": "Экономическая неопределенность из-за последствий стихийного бедствия в регионе."
+    },
+    "name_i18n": {
+     "he": "קרן סל הודו",
+     "en": "India ETF",
+     "ar": "صندوق الهند",
+     "ru": "Индийский ETF"
+    },
+    "price_at_alert": 52.14
+   }
+  ],
+  "id": "60dce2e219c8"
  }
 ]
