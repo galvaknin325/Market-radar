@@ -159079,5 +159079,344 @@
    }
   ],
   "id": "ad6f15ee7926"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "ירידות בשווקים עקב חששות ממכסים ומימוש בטכנולוגיה",
+  "summary": "חוזים עתידיים על הנאסד\"ק יורדים בחדות על רקע חששות ממכסים חדשים של ארה\"ב ומימוש רווחים בסקטור הבינה המלאכותית.",
+  "kid": "הבורסה יורדת כי משקיעים חוששים ממסים חדשים על מוצרים מחו\"ל וכי מניות הטכנולוגיה הגדולות ירדו בערכן.",
+  "i18n": {
+   "title": {
+    "he": "ירידות בשווקים עקב חששות ממכסים ומימוש בטכנולוגיה",
+    "en": "Market sell-off on tariff fears and tech correction",
+    "ar": "تراجع الأسواق بسبب مخاوف التعريفات وتصحيح التكنولوجيا",
+    "ru": "Падение рынков на фоне опасений по поводу тарифов и коррекции в техсекторе"
+   },
+   "summary": {
+    "he": "חוזים עתידיים על הנאסד\"ק יורדים בחדות על רקע חששות ממכסים חדשים של ארה\"ב ומימוש רווחים בסקטור הבינה המלאכותית.",
+    "en": "Nasdaq futures are sliding sharply due to concerns over new US tariffs and a broader sell-off in AI-related technology stocks.",
+    "ar": "تتراجع العقود الآجلة لناسداك بشكل حاد وسط مخاوف من تعريفات أمريكية جديدة وعمليات بيع واسعة في أسهم التكنولوجيا المرتبطة بالذكاء الاصطناعي.",
+    "ru": "Фьючерсы на Nasdaq резко падают на фоне опасений по поводу новых тарифов США и распродажи акций технологических компаний, связанных с ИИ."
+   },
+   "kid": {
+    "he": "הבורסה יורדת כי משקיעים חוששים ממסים חדשים על מוצרים מחו\"ל וכי מניות הטכנולוגיה הגדולות ירדו בערכן.",
+    "en": "The stock market is falling because investors are worried about new taxes on foreign goods and big tech companies are losing value.",
+    "ar": "سوق الأسهم ينخفض لأن المستثمرين قلقون بشأن ضرائب جديدة على البضائع الأجنبية، وشركات التكنولوجيا الكبرى تفقد قيمتها.",
+    "ru": "Фондовый рынок падает, потому что инвесторы обеспокоены новыми налогами на иностранные товары, а крупные технологические компании теряют в цене."
+   }
+  },
+  "category": "macro",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeTE1Sm5FS3FMX3NEUWRtN1N4eGhCUlIzeVdHdXZuSUN6OGhZTlNsX0I5dmRnTjBHVVhqMWRMbXBmby1oM0dpRzBNaWg2WHRWektGaWpGUGdXZ1RPdUNqLW41ckdCMHU4TlVqWE8yRlBTMDRHcGUxV2ZZZFNWYVlRMVB5c2VaMlhoRlNLclV4Z1h1UXZDUlVXUEkzcjlFY3JDVWhSTWlId1h6MFpvZnBoVnlJTDJ2c1VjVml0YVhxeEowd0FFNzg4bFhfd1Y?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUzJqbkR0TXc0OFpkMmhLZkQ5a2ZrUWxjM2JES2pJSUNsUDU0aVBOWkdyczN4bTNVcWlzMmRWMTE2NzBrUk13bWNUVm1STVVjSVJuUy02b1JGVjQ0UFVmSnNLN3p0Z1IyYXBoTUIxb19teUYxd3pqM3pFRXdRbHRjQWM1UWhWelpEUTREOXdqeF9XVXI5YVBqdm1xQWhBbk9zTDEtWkxmRF9naTRQTFd5dnhxOWg0TW15dkpVM3V3andWb3NPV2hfdmYxV3I2RXpkYko5bnBJSmUzWTZCOElmTWFvMElxQlhaTG9sUmg0cw?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "חשיפה גבוהה למניות טכנולוגיה שנמצאות תחת לחץ.",
+    "reason_i18n": {
+     "he": "חשיפה גבוהה למניות טכנולוגיה שנמצאות תחת לחץ.",
+     "en": "High exposure to tech stocks currently under selling pressure.",
+     "ar": "تعرض كبير لأسهم التكنولوجيا التي تتعرض لضغوط بيع.",
+     "ru": "Высокая доля технологических акций, находящихся под давлением."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100"
+    },
+    "price_at_alert": 638.1
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "החברה מובילה את הירידות בסקטור ה-AI.",
+    "reason_i18n": {
+     "he": "החברה מובילה את הירידות בסקטור ה-AI.",
+     "en": "Leading the decline in the AI sector.",
+     "ar": "تقود التراجع في قطاع الذكاء الاصطناعي.",
+     "ru": "Лидирует в падении сектора ИИ."
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia - AI chip maker",
+     "ar": "إنفيديا - صانع رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia - производитель чипов для ИИ"
+    },
+    "price_at_alert": 155.38
+   }
+  ],
+  "id": "adcdeed6baae"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "הואוואי הורשעה בעבירות סנקציות והונאה",
+  "summary": "בית משפט בארה\"ב הרשיע את חברת הטכנולוגיה הסינית הואוואי בעבירות של הפרת סנקציות, הונאה בנקאית וגניבת סודות מסחריים.",
+  "kid": "חברת הטכנולוגיה הואוואי נמצאה אשמה בבית משפט בכך שרימתה בנקים ועברה על חוקים בינלאומיים. זה עלול להוביל לעוד הגבלות על חברות סיניות.",
+  "i18n": {
+   "title": {
+    "he": "הואוואי הורשעה בעבירות סנקציות והונאה",
+    "en": "Huawei convicted of sanctions breaches and fraud",
+    "ar": "إدانة هواوي بانتهاك العقوبات والاحتيال",
+    "ru": "Huawei признана виновной в нарушении санкций и мошенничестве"
+   },
+   "summary": {
+    "he": "בית משפט בארה\"ב הרשיע את חברת הטכנולוגיה הסינית הואוואי בעבירות של הפרת סנקציות, הונאה בנקאית וגניבת סודות מסחריים.",
+    "en": "A US court has convicted Chinese tech giant Huawei on charges of sanctions violations, bank fraud, and theft of trade secrets.",
+    "ar": "أدانت محكمة أمريكية عملاق التكنولوجيا الصيني هواوي بتهم انتهاك العقوبات والاحتيال المصرفي وسرقة الأسرار التجارية.",
+    "ru": "Суд США признал китайского технологического гиганта Huawei виновным в нарушении санкций, банковском мошенничестве и краже коммерческой тайны."
+   },
+   "kid": {
+    "he": "חברת הטכנולוגיה הואוואי נמצאה אשמה בבית משפט בכך שרימתה בנקים ועברה על חוקים בינלאומיים. זה עלול להוביל לעוד הגבלות על חברות סיניות.",
+    "en": "Huawei was found guilty in court of cheating banks and breaking international laws. This could lead to more rules against Chinese companies.",
+    "ar": "أُدينت شركة هواوي في المحكمة بخداع البنوك وخرق القوانين الدولية. قد يؤدي هذا إلى مزيد من القيود على الشركات الصينية.",
+    "ru": "Компания Huawei была признана виновной в суде в обмане банков и нарушении международных законов. Это может привести к новым ограничениям против китайских компаний."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DYnhlWHMxc2YwTkdWV3VuamwzZnVaNXItRG1JM2diYmJCdThDRTRnVWtyeEhrbUVRbXBhWGdsN0dXY2hXZERqSWl5NFg1Q0RMNmxiVw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVlmVmZmelhvSEdRWExVdEFuVHNDdnJ5amhLU2thdzZxQmx6X2ZMN2VjVUdXUGMza1lhbTA2RENUT294X2hzN3FkYnRDLUJUMTBMRERNUi1uajNJLVRTXzlYSDVQbnVRb3BHR1NmVEhTd01EdlVsejFmQzB6WDJ5d0VOVDdtdVdYRTlqUGJlanRycGw4UmVCVnJwSmpGYVVtSWFnaG93RTk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ASHR",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "החמרת המתיחות הטכנולוגית בין ארה\"ב לסין.",
+    "reason_i18n": {
+     "he": "החמרת המתיחות הטכנולוגית בין ארה\"ב לסין.",
+     "en": "Escalating tech tensions between the US and China.",
+     "ar": "تصاعد التوترات التكنولوجية بين الولايات المتحدة والصين.",
+     "ru": "Усиление технологической напряженности между США и Китаем."
+    },
+    "name_i18n": {
+     "he": "תעודת סל מניות סין",
+     "en": "China A-shares ETF",
+     "ar": "صندوق أسهم الصين",
+     "ru": "ETF на акции Китая"
+    },
+    "price_at_alert": 29.68
+   }
+  ],
+  "id": "1a5fd8f003ed"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "עלייה של 26% בחשבונות האנרגיה בבריטניה",
+  "summary": "מחירי הגז המזנקים צפויים להוביל לעלייה של 26% בחשבונות האנרגיה הביתיים בבריטניה החל מינואר.",
+  "kid": "המחיר של גז לחימום וחשמל בבריטניה עולה מאוד, מה שישאיר למשפחות פחות כסף להוציא על דברים אחרים.",
+  "i18n": {
+   "title": {
+    "he": "עלייה של 26% בחשבונות האנרגיה בבריטניה",
+    "en": "UK energy bills to rise 26%",
+    "ar": "ارتفاع فواتير الطاقة في المملكة المتحدة بنسبة 26%",
+    "ru": "Счета за электроэнергию в Великобритании вырастут на 26%"
+   },
+   "summary": {
+    "he": "מחירי הגז המזנקים צפויים להוביל לעלייה של 26% בחשבונות האנרגיה הביתיים בבריטניה החל מינואר.",
+    "en": "Surging gas prices are expected to drive a 26% increase in household energy bills in the UK starting in January.",
+    "ar": "من المتوقع أن تؤدي أسعار الغاز المرتفعة إلى زيادة بنسبة 26% في فواتير الطاقة المنزلية في المملكة المتحدة بدءاً من يناير.",
+    "ru": "Ожидается, что резкий рост цен на газ приведет к увеличению счетов за электроэнергию для домохозяйств в Великобритании на 26% с января."
+   },
+   "kid": {
+    "he": "המחיר של גז לחימום וחשמל בבריטניה עולה מאוד, מה שישאיר למשפחות פחות כסף להוציא על דברים אחרים.",
+    "en": "The price of gas for heating and electricity in the UK is going up a lot, which will leave families with less money to spend on other things.",
+    "ar": "سعر الغاز للتدفئة والكهرباء في المملكة المتحدة يرتفع كثيراً، مما سيترك للعائلات مالاً أقل لإنفاقه على أشياء أخرى.",
+    "ru": "Цена на газ для отопления и электричество в Великобритании сильно растет, из-за чего у семей останется меньше денег на другие расходы."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "לחץ אינפלציוני ופגיעה בצריכה הפרטית בבריטניה.",
+    "reason_i18n": {
+     "he": "לחץ אינפלציוני ופגיעה בצריכה הפרטית בבריטניה.",
+     "en": "Inflationary pressure and negative impact on UK consumer spending.",
+     "ar": "ضغوط تضخمية وتأثير سلبي على إنفاق المستهلكين في المملكة المتحدة.",
+     "ru": "Инфляционное давление и негативное влияние на потребительские расходы в Великобритании."
+    },
+    "name_i18n": {
+     "he": "תעודת סל בריטניה",
+     "en": "UK Market ETF",
+     "ar": "صندوق مؤشر المملكة المتحدة",
+     "ru": "ETF на рынок Великобритании"
+    },
+    "price_at_alert": 45.87
+   }
+  ],
+  "id": "2644474fe345"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "נתוני אינפלציה ביפן מחזקים ציפיות להעלאת ריבית",
+  "summary": "נתוני מדד המחירים לצרכן ביפן מצביעים על עלייה באינפלציה, מה שמגביר את ההערכות כי הבנק המרכזי של יפן יעלה את הריבית בדצמבר.",
+  "kid": "ביפן המחירים עולים, אז הבנק המרכזי שלהם כנראה יעלה את הריבית כדי להילחם בזה. זה משפיע על ערך הכסף היפני.",
+  "i18n": {
+   "title": {
+    "he": "נתוני אינפלציה ביפן מחזקים ציפיות להעלאת ריבית",
+    "en": "Japan CPI data boosts rate hike expectations",
+    "ar": "بيانات التضخم اليابانية تعزز توقعات رفع الفائدة",
+    "ru": "Данные по инфляции в Японии усиливают ожидания повышения ставки"
+   },
+   "summary": {
+    "he": "נתוני מדד המחירים לצרכן ביפן מצביעים על עלייה באינפלציה, מה שמגביר את ההערכות כי הבנק המרכזי של יפן יעלה את הריבית בדצמבר.",
+    "en": "Japan's CPI data shows rising inflation, increasing expectations that the Bank of Japan will raise interest rates in December.",
+    "ar": "تشير بيانات مؤشر أسعار المستهلك في اليابان إلى ارتفاع التضخم، مما يعزز التوقعات بأن البنك المركزي الياباني سيرفع أسعار الفائدة في ديسمبر.",
+    "ru": "Данные по индексу потребительских цен в Японии указывают на рост инфляции, что усиливает ожидания того, что Банк Японии повысит процентные ставки в декабре."
+   },
+   "kid": {
+    "he": "ביפן המחירים עולים, אז הבנק המרכזי שלהם כנראה יעלה את הריבית כדי להילחם בזה. זה משפיע על ערך הכסף היפני.",
+    "en": "Prices in Japan are rising, so their central bank will likely raise interest rates to fight it. This affects the value of Japanese money.",
+    "ar": "الأسعار في اليابان ترتفع، لذا من المرجح أن يرفع بنكهم المركزي أسعار الفائدة لمحاربة ذلك. هذا يؤثر على قيمة العملة اليابانية.",
+    "ru": "Цены в Японии растут, поэтому их центральный банк, вероятно, повысит процентные ставки, чтобы бороться с этим. Это влияет на стоимость японской валюты."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYmxGMi04U0xqcFprY05UVm1KQ1A1ZkVxSnY0OEllNVBJSHVkT2FpaVkwOHFTYjZWZU1iVDBUaWlCSXBHM2NQNGNXNzhIemtOSHBnMHBMMURWaXBsS2Q4b1FzeU5ZOURHZHZGQWNhWUoySExzM1VVcTc2ZExXemtIbk1wUzgyZ1RLYjliVUVPMGdMN09Sbm4tc01IQkdUdnhfR0ZaZGJpM0pKZTZQSlFqQ0ROZFdBQVJ1dVYxbA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "העלאת ריבית עלולה להכביד על שוק המניות המקומי.",
+    "reason_i18n": {
+     "he": "העלאת ריבית עלולה להכביד על שוק המניות המקומי.",
+     "en": "Rate hikes can weigh on the local stock market.",
+     "ar": "رفع أسعار الفائدة قد يضغط على سوق الأسهم المحلي.",
+     "ru": "Повышение ставок может оказать давление на местный фондовый рынок."
+    },
+    "name_i18n": {
+     "he": "תעודת סל יפן",
+     "en": "Japan ETF",
+     "ar": "صندوق مؤشر اليابان",
+     "ru": "ETF на рынок Японии"
+    },
+    "price_at_alert": 86.64
+   },
+   {
+    "ticker": "FXY",
+    "direction": "up",
+    "t0": 1795601691,
+    "reason": "ציפיות לריבית גבוהה יותר מחזקות את המטבע.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר מחזקות את המטבע.",
+     "en": "Expectations of higher rates strengthen the currency.",
+     "ar": "توقعات بأسعار فائدة أعلى تعزز العملة.",
+     "ru": "Ожидания более высоких ставок укрепляют валюту."
+    },
+    "name_i18n": {
+     "he": "ין יפני",
+     "en": "Japanese Yen ETF",
+     "ar": "صندوق الين الياباني",
+     "ru": "ETF на японскую иену"
+    },
+    "price_at_alert": 57.55
+   }
+  ],
+  "id": "6282084af40a"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "מניית חברת התעופה Norse Atlantic צונחת ב-74%",
+  "summary": "חברת התעופה הנורווגית Norse Atlantic הזהירה כי מצבה הפיננסי קריטי עקב עלויות דלק גבוהות, מה שהוביל לצניחה של 74% במנייתה.",
+  "kid": "חברת תעופה נקלעה לבעיות כספיות קשות בגלל שמחיר הדלק למטוסים עלה מאוד, והמשקיעים חוששים שהיא לא תשרוד.",
+  "i18n": {
+   "title": {
+    "he": "מניית חברת התעופה Norse Atlantic צונחת ב-74%",
+    "en": "Norse Atlantic shares plunge 74%",
+    "ar": "أسهم شركة الطيران نورس أتلانتيك تهوي بنسبة 74%",
+    "ru": "Акции авиакомпании Norse Atlantic рухнули на 74%"
+   },
+   "summary": {
+    "he": "חברת התעופה הנורווגית Norse Atlantic הזהירה כי מצבה הפיננסי קריטי עקב עלויות דלק גבוהות, מה שהוביל לצניחה של 74% במנייתה.",
+    "en": "Norwegian airline Norse Atlantic warned that its financial situation is critical due to soaring fuel costs, causing its shares to plummet 74%.",
+    "ar": "حذرت شركة الطيران النرويجية نورس أتلانتيك من أن وضعها المالي حرج بسبب ارتفاع تكاليف الوقود، مما أدى إلى انخفاض أسهمها بنسبة 74%.",
+    "ru": "Норвежская авиакомпания Norse Atlantic предупредила, что ее финансовое положение критическое из-за роста цен на топливо, что привело к падению акций на 74%."
+   },
+   "kid": {
+    "he": "חברת תעופה נקלעה לבעיות כספיות קשות בגלל שמחיר הדלק למטוסים עלה מאוד, והמשקיעים חוששים שהיא לא תשרוד.",
+    "en": "An airline is in big financial trouble because the price of jet fuel went up a lot, and investors are worried it might not survive.",
+    "ar": "شركة طيران تواجه مشاكل مالية كبيرة لأن سعر وقود الطائرات ارتفع كثيراً، والمستثمرون قلقون من أنها قد لا تنجو.",
+    "ru": "Авиакомпания столкнулась с серьезными финансовыми проблемами из-за того, что цена на авиатопливо сильно выросла, и инвесторы опасаются, что она может не выжить."
+   }
+  },
+  "category": "macro",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "סנטימנט שלילי כללי בסקטור התעופה עקב עלויות דלק.",
+    "reason_i18n": {
+     "he": "סנטימנט שלילי כללי בסקטור התעופה עקב עלויות דלק.",
+     "en": "General negative sentiment in the airline sector due to fuel costs.",
+     "ar": "مشاعر سلبية عامة في قطاع الطيران بسبب تكاليف الوقود.",
+     "ru": "Общие негативные настроения в авиационном секторе из-за стоимости топлива."
+    },
+    "name_i18n": {
+     "he": "תעודת סל חברות תעופה",
+     "en": "Airline ETF",
+     "ar": "صندوق مؤشر شركات الطيران",
+     "ru": "ETF на авиакомпании"
+    },
+    "price_at_alert": 28.38
+   }
+  ],
+  "id": "0eb098919d79"
  }
 ]

@@ -1,266 +1,5 @@
 [
  {
-  "ts": 1794637334,
-  "time": "2026-11-14T06:22Z",
-  "title": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-  "summary": "הבית הלבן הודיע כי טראמפ, פוטין ושי מתכננים פגישה משותפת בסין בשבוע הבא לדיון בצמצום נשק גרעיני.",
-  "kid": "שלושת המנהיגים הכי חזקים בעולם ייפגשו כדי לדבר על הפחתת פצצות אטום. זה אירוע מאוד נדיר שיכול להרגיע את העולם.",
-  "i18n": {
-   "title": {
-    "he": "פסגה משולשת מתוכננת בין טראמפ, פוטין ושי",
-    "en": "Planned tripartite summit between Trump, Putin, and Xi",
-    "ar": "قمة ثلاثية مخططة بين ترامب وبوتين وشي",
-    "ru": "Планируемый трехсторонний саммит Трампа, Путина и Си"
-   },
-   "summary": {
-    "he": "הבית הלבן הודיע כי טראמפ, פוטין ושי מתכננים פגישה משותפת בסין בשבוע הבא לדיון בצמצום נשק גרעיני.",
-    "en": "The White House announced that Trump, Putin, and Xi are planning a joint meeting in China next week to discuss nuclear weapon reduction.",
-    "ar": "أعلن البيت الأبيض أن ترامب وبوتين وشي يخططون لعقد اجتماع مشترك في الصين الأسبوع المقبل لمناقشة خفض الأسلحة النووية.",
-    "ru": "Белый дом объявил, что Трамп, Путин и Си планируют совместную встречу в Китае на следующей неделе для обсуждения сокращения ядерных вооружений."
-   },
-   "kid": {
-    "he": "שלושת המנהיגים הכי חזקים בעולם ייפגשו כדי לדבר על הפחתת פצצות אטום. זה אירוע מאוד נדיר שיכול להרגיע את העולם.",
-    "en": "The three most powerful leaders in the world will meet to talk about reducing nuclear bombs. This is a very rare event that could make the world feel safer.",
-    "ar": "سيلتقي أقوى ثلاثة قادة في العالم للتحدث عن تقليل القنابل النووية. هذا حدث نادر جدًا قد يجعل العالم يشعر بأمان أكبر.",
-    "ru": "Три самых влиятельных лидера в мире встретятся, чтобы обсудить сокращение ядерных бомб. Это очень редкое событие, которое может сделать мир безопаснее."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 9,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "BBC World",
-    "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMXl3QWVKcjViNkthb3N0ZHQyUUVNUUNhWjBDRVZxRk9zWTRtODZFSUVhSUJ1el9TQkdzc1FjRWR5UVlDNzJraS0xUEExdHBlczEyUlNRVGxJRFBka2F4V055aUo3NGpQWXVRczUtRndXVkIyb2JLUVVxN3cyclQxakJNUW1DemFGeXZOUlpiZDk?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794637334,
-    "reason": "הפחתת מתחים גיאופוליטיים מעודדת את השווקים",
-    "reason_i18n": {
-     "he": "הפחתת מתחים גיאופוליטיים מעודדת את השווקים",
-     "en": "Reduced geopolitical tensions boost markets",
-     "ar": "تخفيف التوترات الجيوسياسية يعزز الأسواق",
-     "ru": "Снижение геополитической напряженности поддерживает рынки"
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 Index",
-     "ar": "مؤشر S&P 500",
-     "ru": "Индекс S&P 500"
-    },
-    "price_at_alert": 754.37,
-    "entry_price": 749.66,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 732.4,
-    "exit_date": "2026-11-17",
-    "change_pct": -2.3,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.3,
-    "edge_pct": -2.3,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "down",
-    "t0": 1794637334,
-    "reason": "ציפיות להפחתת תקציבי ביטחון עקב הסכמי פירוק נשק",
-    "reason_i18n": {
-     "he": "ציפיות להפחתת תקציבי ביטחון עקב הסכמי פירוק נשק",
-     "en": "Expectations of lower defense budgets due to disarmament deals",
-     "ar": "توقعات بخفض ميزانيات الدفاع بسبب اتفاقيات نزع السلاح",
-     "ru": "Ожидания сокращения оборонных бюджетов из-за соглашений о разоружении"
-    },
-    "name_i18n": {
-     "he": "לוקהיד מרטין",
-     "en": "Lockheed Martin",
-     "ar": "لوكهيد مارتن",
-     "ru": "Lockheed Martin"
-    },
-    "price_at_alert": 596.04,
-    "entry_price": 599.92,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 590.2548,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.61,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.69,
-    "edge_pct": -0.69,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "FXI",
-    "direction": "up",
-    "t0": 1794694820,
-    "reason": "אירוח הפصגה בסין והפשרת יחסים עשויים לחזק את השוק הסיני.",
-    "reason_i18n": {
-     "he": "אירוח הפصגה בסין והפשרת יחסים עשויים לחזק את השוק הסיני.",
-     "en": "Hosting the summit and diplomatic thaw can strengthen Chinese equities.",
-     "ar": "استضافة القمة والانفراج الدبلوماسي قد تعزز الأسهم الصينية.",
-     "ru": "Проведение саммита в Китае и дипломатическое потепление поддержат рынок."
-    },
-    "name_i18n": {
-     "he": "FXI – קרן סל של מניות סיניות גדולות",
-     "en": "FXI – China large-cap stocks ETF",
-     "ar": "FXI – صندوق تداول الأسهم الصينية الكبرى",
-     "ru": "FXI – ETF крупных китайских акций"
-    },
-    "price_at_alert": 33.48,
-    "entry_price": 33.56,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 32.9,
-    "exit_date": "2026-11-17",
-    "change_pct": -1.97,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 0.34,
-    "edge_pct": 0.34,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "GLD",
-    "direction": "down",
-    "t0": 1794806008,
-    "reason": "התקדמות בדיפלומטיה מפחיתה את הביקוש לנכסי מקלט בטוח כמו זהב.",
-    "reason_i18n": {
-     "he": "התקדמות בדיפלומטיה מפחיתה את הביקוש לנכסי מקלט בטוח כמו זהב.",
-     "en": "Diplomatic progress reduces the demand for safe-haven assets like gold.",
-     "ar": "التقدم الدبلوماسي يقلل الطلب على أصول الملاذ الآمن مثل الذهب.",
-     "ru": "Дипломатический прогресс снижает спрос на безопасные активы, такие как золото."
-    },
-    "name_i18n": {
-     "he": "GLD - קרן סל על זהב",
-     "en": "GLD - Gold ETF",
-     "ar": "GLD - صندوق الذهب",
-     "ru": "GLD - фонд золота"
-    },
-    "price_at_alert": 355.45,
-    "entry_price": 354.13,
-    "entry_time": "2026-11-16T14:30+00:00",
-    "exit_price": 352.46,
-    "exit_date": "2026-11-17",
-    "change_pct": -0.47,
-    "bench": "SPY",
-    "bench_change_pct": -2.3,
-    "excess_pct": 1.83,
-    "edge_pct": -1.83,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EEM",
-    "direction": "up",
-    "t0": 1794873661,
-    "reason": "דיפלומטיה עשויה להשפיע על הסחר בשווקים המתעוררים באסיה.",
-    "reason_i18n": {
-     "he": "דיפלומטיה עשויה להשפיע על הסחר בשווקים המתעוררים באסיה.",
-     "en": "Diplomacy and summit talks can impact trade sentiment across Asian emerging markets.",
-     "ar": "الدبلوماسية قد تؤثر على معنويات التجار في الأسواق الناشئة.",
-     "ru": "Дипломатия может повлиять на настроение рынков в Азии."
-    },
-    "name_i18n": {
-     "he": "EEM - קרן סלי של שווקים מתעוררים",
-     "en": "EEM - Emerging Markets ETF",
-     "ar": "EEM - صندوق الاستثمار في الأسواق الناشئة",
-     "ru": "EEM - фонд развивающихся рынков"
-    },
-    "price_at_alert": 58.89,
-    "entry_price": 58.54,
-    "entry_time": "2026-11-17T14:30+00:00",
-    "exit_price": 57.89,
-    "exit_date": "2026-11-18",
-    "change_pct": -1.11,
-    "bench": "SPY",
-    "bench_change_pct": -1.08,
-    "excess_pct": -0.03,
-    "edge_pct": -0.03,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "f7d7e51ddb49",
-  "updates": [
-   {
-    "ts": 1794668356,
-    "time": "2026-11-14T14:59Z",
-    "severity": 9,
-    "summary": "מנהיגי ארה\"ב, רוסיה וסין צפויים לדון באמנת נשק גרעיני ובמלחמה של ארה\"ב מול איראן במהלך פסגת APEC.",
-    "i18n": {
-     "he": "מנהיגי ארה\"ב, רוסיה וסין צפויים לדון באמנת נשק גרעיני ובמלחמה של ארה\"ב מול איראן במהלך פסגת APEC.",
-     "en": "Leaders of the US, Russia, and China are expected to discuss a nuclear treaty and the US war on Iran during the APEC summit.",
-     "ar": "من المتوقع أن يناقش قادة الولايات المتحدة وروسيا والصين معاهدة نووية وحرب الولايات المتحدة ضد إيران خلال قمة أبيك.",
-     "ru": "Ожидается, что лидеры США, России и Китая обсудят ядерный договор и войну США против Ирана во время саммита АТЭС."
-    }
-   },
-   {
-    "ts": 1794694820,
-    "time": "2026-11-14T22:20Z",
-    "severity": 7,
-    "summary": "מנהיגי ארה\"ב, רוסיה וסין צפויים לקיים פסגה משולשת חסרת תקדים בסין במטרה לדון בנושאים גלובליים מרכזיים.",
-    "i18n": {
-     "he": "מנהיגי ארה\"ב, רוסיה וסין צפויים לקיים פסגה משולשת חסרת תקדים בסין במטרה לדון בנושאים גלובליים מרכזיים.",
-     "en": "Leaders Trump, Xi, and Putin are scheduled to hold an unprecedented three-way summit meeting in China.",
-     "ar": "من المقرر أن يعقد القادة ترامب وشي بوتين اجتماع قمة ثلاثي غير مسبوق في الصين.",
-     "ru": "Лидеры Трамп, Си и Путин планируют провести беспрецедентный трехсторонний саммит в Китае."
-    }
-   },
-   {
-    "ts": 1794806008,
-    "time": "2026-11-16T05:13Z",
-    "severity": 8,
-    "summary": "סין אישרה קיומה של פסגה היסטורית בין המנהיגים שי, טראמפ ופוטין, שצפויה לדון באי-התפשטות גרעינית, מלחמות במזרח התיכון ובאוקראינה, ומדיניות סחר.",
-    "i18n": {
-     "he": "סין אישרה קיומה של פסגה היסטורית בין המנהיגים שי, טראמפ ופוטין, שצפויה לדון באי-התפשטות גרעינית, מלחמות במזרח התיכון ובאוקראינה, ומדיניות סחר.",
-     "en": "China confirmed a historic summit between leaders Xi, Trump, and Putin, expected to focus on nuclear non-proliferation, the Middle East war, Ukraine, and trade policies.",
-     "ar": "أكدت الصين عقد قمة تاريخية بين الزعماء شي وترامب وبوتين، ومن المتوقع أن تركز على عدم الانتشار النووي، وحروب الشرق الأوسط وأوكرانيا، وسياسات التجارة.",
-     "ru": "Китай подтвердил проведение исторического саммита между лидерами Си, Трампом и Путиным, который сосредоточится на нераспространении ядерного оружия, войнах на Ближнем Востоке и в Украине, а также торговой политике."
-    }
-   },
-   {
-    "ts": 1794873661,
-    "time": "2026-11-17T00:01Z",
-    "severity": 4,
-    "summary": "דונלד טראמפ עושה דרכו לפיליפינים להשתתף בפגישת מנהיגי מדינות אסיה (ASEAN) במנילה, בה צפויים להשתתף גם נציגים מסין ומרוסיה.",
-    "i18n": {
-     "he": "דונלד טראמפ עושה דרכו לפיליפינים להשתתף בפגישת מנהיגי מדינות אסיה (ASEAN) במנילה, בה צפויים להשתתף גם נציגים מסין ומרוסיה.",
-     "en": "Donald Trump is heading to the Philippines where he’s scheduled to speak at a meeting of ASEAN leaders in Manila, alongside engagement involving China and Russia.",
-     "ar": "دونالد ترامب يتجه إلى الفلبين حيث من المقرر أن يتحدث في اجتماع لقادة آسيان في مانيلا.",
-     "ru": "Дональд Трамп направляется на Филиппины, где он должен выступить на встрече лидеров АСЕАН в Маниле."
-    }
-   },
-   {
-    "ts": 1794994445,
-    "time": "2026-11-18T09:34Z",
-    "severity": 8,
-    "summary": "נשיא ארה\"ב דונלד טראמפ הגיע לסין לפגישה היסטורית עם נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין, בזמן שרוסיה וסין תקפו את הסנקציות המערביות ואת ה\"פרוטקציוניזם\".",
-    "i18n": {
-     "he": "נשיא ארה\"ב דונלד טראמפ הגיע לסין לפגישה היסטורית עם נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין, בזמן שרוסיה וסין תקפו את הסנקציות המערביות ואת ה\"פרוטקציוניזם\".",
-     "en": "US President Donald Trump landed in China for historic trilateral talks with Chinese leader Xi Jinping and Russian President Vladimir Putin, where Xi and Putin criticized Western sanctions and protectionism.",
-     "ar": "وصل الرئيس الأمريكي دونالد ترامب إلى الصين لعقد محادثات ثلاثية تاريخية مع الزعيم الصيني شي جين بينغ والرئيس الروسي فلاديمير بوتين، حيث انتقد شي وبوتين العقوبات الغربية.",
-     "ru": "Президент США Дональд Трамп прибыл в Китай на исторические трехсторонние переговоры с Си Цзиньпином и Владимиром Путиным, где лидеры раскритиковали западные санкции."
-    }
-   }
-  ],
-  "last_update": 1794994445,
-  "evaluated": true
- },
- {
   "ts": 1794774103,
   "time": "2026-11-15T20:21Z",
   "title": "הסלמה במזרח התיכון: נושאת מטוסים אמריקאית נוספת ותקיפות בריאד",
@@ -2808,256 +2547,6 @@
   "evaluated": true
  },
  {
-  "ts": 1794977928,
-  "time": "2026-11-18T04:58Z",
-  "title": "אוסטרליה מטילה סנקציות על מתנחלים ישראלים",
-  "summary": "אוסטרליה הטילה סנקציות על שלושה אזרחים ישראלים וארבעה ארגונים בטענה של הרחבת התנחלויות בלתי חוקיות.",
-  "kid": "אוסטרליה הטילה עונשים על ישראלים הקשורים להתנחלויות. זה יכול להשפיע מעט על חברות ישראליות או חברות ביטחוניות נסחרות.",
-  "i18n": {
-   "title": {
-    "he": "אוסטרליה מטילה סנקציות על מתנחלים ישראלים",
-    "en": "Australia imposes sanctions on Israeli settlers",
-    "ar": "أستراليا تفرض عقوبات على مستوطنين إسرائيليين",
-    "ru": "Австралия вводит санкции против израильских поселенцев"
-   },
-   "summary": {
-    "he": "אוסטרליה הטילה סנקציות על שלושה אזרחים ישראלים וארבעה ארגונים בטענה של הרחבת התנחלויות בלתי חוקיות.",
-    "en": "Australia has imposed sanctions on three Israeli individuals and four organisations over illegal settlement expansion.",
-    "ar": "فرضی أستراليا عقوبات على ثلاثة أفراد إسرائيليين وأربع منظمات بسبب توسيع المستوطنات.",
-    "ru": "Австралия ввела санкции против трех израильских граждан и четырех организаций из-за расширения поселений."
-   },
-   "kid": {
-    "he": "אוסטרליה הטילה עונשים על ישראלים הקשורים להתנחלויות. זה יכול להשפיע מעט על חברות ישראליות או חברות ביטחוניות נסחרות.",
-    "en": "Australia punished certain Israeli groups. This can create minor headwinds for Israeli-linked stocks and defense names.",
-    "ar": "فرضت أستراليا عقوبات على جماعات إسرائيلية. قد يؤثر ذلك بشكل طفيف على الأسهم الإسرائيلية.",
-    "ru": "Австралия наказала некоторые израильские группы. Это может незначительно повлиять на израильские акции."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcU84WnZ3QUpTQVpMZllqOXJsdkZGb3dCOEJLV3l3ZkwyODFNTzBpZGpzVmlYSmN3MDVla0p5RnNzaDFwejlvdmh2cEtYSXNiWEtIUnZVazl0ajFXTEJWbTZiRnM5c19zcUh6cThtZGV2MHI5OVVJSXpRbzhsTHFkUE53a0tOalU2blhvUGNhMnRlZjhYMnlOWmwtWDBIbjNmX2UxMHExeGJacEl0S2NiSWplZE80b0UyWUFPT21IQUZSNzZBS0IzbHJ2Wll0YnJqb0tNMndiclhSRWpIdHhWalJDa1Y?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55NUJjYU00RnNYUmhoY2stcVpYdXdGMkxNVklGd1pJbGJLQUUxd2NGWlUzV1hRTHltb1JpWURTc0d0b1hCaWRrOEJlZzVjZ1I0c2NRU1ozR3VjdnBJanVkMVB5N244MlHSAVxBVV95cUxNbGRwWEZjdGZReWNYbmtnYU4wUHlqSXhhbFU0WWRoaTZ2WkR3V0pSc2dnZVFtZnVHZ0UwLVFLZ1pESHktT1F2bVZxU05BeU4tdnRDYlBLVmJSNXFpYg?oc=5"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EIS",
-    "direction": "down",
-    "t0": 1794977928,
-    "reason": "החמרת סנקציות בינלאומיות נגד גורמים ישראליים",
-    "reason_i18n": {
-     "he": "החמרת סנקציות בינלאומיות נגד גורמים ישראליים",
-     "en": "Tightening international sanctions on Israeli entities",
-     "ar": "تشديد العقوبات الدولية على الكيانات الإسرائيلية",
-     "ru": "Ужесточение международных санкций против израильских субъектов"
-    },
-    "name_i18n": {
-     "he": "EIS - קרן סל של שוק המניות בישראל",
-     "en": "EIS - MSCI Israel ETF",
-     "ar": "EIS - صندوق مؤشر إسرائيل",
-     "ru": "EIS - ETF рынка Израиля"
-    },
-    "price_at_alert": 109.58,
-    "entry_price": 109.56,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 103.92,
-    "exit_date": "2026-11-19",
-    "change_pct": -5.15,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -2.75,
-    "edge_pct": 2.75,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWC",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "מעורבות מדינית בסנקציות בינלאומיות",
-    "reason_i18n": {
-     "he": "מעורבות מדינית בסנקציות בינלאומיות",
-     "en": "State involvement in international sanctions",
-     "ar": "المشاركة الحكومية في العقوبات الدولية",
-     "ru": "Государственное участие в международных санкциях"
-    },
-    "name_i18n": {
-     "he": "קרן סל על שוק המניות בקנדה",
-     "en": "EWC - iShares MSCI Canada ETF",
-     "ar": "EWC - صندوق الأسهم الكندية",
-     "ru": "EWC - ETF канадских акций"
-    },
-    "price_at_alert": 58.69,
-    "entry_price": 58.24,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 56.25,
-    "exit_date": "2026-11-19",
-    "change_pct": -3.42,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -1.02,
-    "edge_pct": 1.02,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "c8be6346c266",
-  "updates": [
-   {
-    "ts": 1794994445,
-    "time": "2026-11-18T09:34Z",
-    "severity": 4,
-    "summary": "קנדה התחייבה להמשיך ולהגביר את הסנקציות הכלכליות נגד רוסיה כל עוד נמשכת המלחמה באוקראינה, בעוד אוסטרליה הטילה סנקציות על מתנחלים וגורמים ישראליים.",
-    "i18n": {
-     "he": "קנדה התחייבה להמשיך ולהגביר את הסנקציות הכלכליות נגד רוסיה כל עוד נמשכת המלחמה באוקראינה, בעוד אוסטרליה הטילה סנקציות על מתנחלים וגורמים ישראליים.",
-     "en": "Canada pledged to keep increasing sanctions on Russia amid the ongoing war in Ukraine, following Australia's recent measures targeting Israeli settlers and groups over West Bank violence.",
-     "ar": "تعهدت كندا بمواصلة زيادة العقوبات على روسيا وسط الحرب المستمرة في أوكرانيا، في أعقاب تدابير أسترالية تستهدف المستوطنين الإسرائيليين.",
-     "ru": "Канада пообещала продолжить наращивание санкций против России на фоне войны в Украине, вслед за недавними мерами Австралии против поселенцев."
-    }
-   }
-  ],
-  "last_update": 1794994445,
-  "evaluated": true
- },
- {
-  "ts": 1794981602,
-  "time": "2026-11-18T06:00Z",
-  "title": "ארה\"ב והפיליפינים חתמו על הסכם סחר",
-  "summary": "דונלד טראמפ הודיע כי ארה\"ב והפיליפינים הגיעו להסכם סחר משמעותי.",
-  "kid": "ארה\"ב והפיליפינים הבטיחו לסחור יותר בקלות. זה יכול לעזור לחברות שעושות עסקים בשתי המדינות.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב והפיליפינים חתמו על הסכם סחר",
-    "en": "US and Philippines sign trade deal",
-    "ar": "الولايات المتحدة والفلبين توقعان اتفاقية تجارية",
-    "ru": "США и Филиппины подписали торговое соглашение"
-   },
-   "summary": {
-    "he": "דונלד טראמפ הודיע כי ארה\"ב והפיליפינים הגיעו להסכם סחר משמעותי.",
-    "en": "Donald Trump announced that the US and the Philippines have reached a significant trade deal.",
-    "ar": "أعلن دونالد ترامب أن الولايات المتحدة والفلبين توصلتا إلى اتفاق تجاري كبير.",
-    "ru": "Дональд Трамп объявил, что США и Филиппины достигли значительного торгового соглашения."
-   },
-   "kid": {
-    "he": "ארה\"ב והפיליפינים הבטיחו לסחור יותר בקלות. זה יכול לעזור לחברות שעושות עסקים בשתי המדינות.",
-    "en": "The US and the Philippines promised to trade more easily. This could help companies that do business in both countries.",
-    "ar": "وعدت الولايات المتحدة والفلبين بتسهيل التجارة بينهما. هذا قد يساعد الشركات التي تعمل في كلا البلدين.",
-    "ru": "США и Филиппины пообещали упростить торговлю между собой. Это может помочь компаниям, работающим в обеих странах."
-   }
-  },
-  "category": "trade",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOclExVWNGSW80eUsteDY4NHZZSmhNTDV1eTdaSzA4RWZtOENLT0kzVUllWkNOWVFSZ2xSVDlIRDZ4R3EyY21LWjU3NGJyaUZQUFJwbUk3VnBRZWhMMXdvUVptaklPRllVWTRSc0Z2UWhZREdWejRVUHp2MkYwcjlMNk92Rl9xajU1bWV1NFlVVjM2a2pYVS1ReGJURW5JWU1Rb0RGclVVTUVJYWg5?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xSkFnSy1PenlzbEkwRFpnaU44dVBxUS1lSmZpT014c29LZktEUzllY3YxcVZXbzkxdDQ1enhPdEw0bG5Xa09CYnhoWHJTZWh5ck9VX2tOVl83Y09mSVlr?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUlTMkhVaXN6Z3FvVlFnQXBzb3dtcE9vVXg4LXZ4eFQtZ1h6Sl9CWU5ILURjYUVHZ2RxZTdEd0RVLWpEaFNhRjN6dEpudEVsRnNKVTJjUzlrQkxORHAwdi1FbV9UQ2c3S2JrbUhGQUZ1TktSQ3ZzbnV2bWhaRXJrUTBGYlRWS1d5VnNPUTFSd3VOY3dkTUpCTXRvV0lwUGs?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZzdYTzlfaGpuUndjSzl3OFF4TlFpWkE1MnVOUzRkR2FoSmtzcXFnTExYal94a0plMy1xTDkzU2tWcXhnQllCeUtRVC1MNGpRbHlBc0UzejBPU01GXzVGTWstY0VGTmdxWWJjY2twOVNpbGtiUVZpa1N4WU5ibzJfUnFaOWdzT3FLM2xUR3pEWDVMek9MazFDNkRsdXhfR2ZBVlctZHBNQ0VXc1l1ZkxNVTVJcFFZU1ky?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWY",
-    "direction": "up",
-    "t0": 1794981602,
-    "reason": "שיפור בתנאי הסחר באזור.",
-    "reason_i18n": {
-     "he": "שיפור בתנאי הסחר באזור.",
-     "en": "Improved trade conditions in the region.",
-     "ar": "تحسن ظروف التجارة في المنطقة.",
-     "ru": "Улучшение торговых условий в регионе."
-    },
-    "name_i18n": {
-     "he": "קרן סל דרום מזרח אסיה",
-     "en": "SE Asia ETF",
-     "ar": "صندوق استثمار جنوب شرق آسيا",
-     "ru": "ETF Юго-Восточной Азии"
-    },
-    "price_at_alert": 135.32,
-    "entry_price": 137.73,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 134.6,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.27,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 0.13,
-    "edge_pct": 0.13,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1794994445,
-    "reason": "הסכמי סחר חדשים תומכים בסנטימנט הכלכלי הכללי",
-    "reason_i18n": {
-     "he": "הסכמי סחר חדשים תומכים בסנטימנט הכלכלי הכללי",
-     "en": "New trade deals support general economic sentiment",
-     "ar": "اتفاقيات التجارة الجديدة تدعم المعنويات الاقتصادية العامة",
-     "ru": "Новые торговые соглашения поддерживают общие экономические настроения"
-    },
-    "name_i18n": {
-     "he": "ספיי – קרן סל עוקבת אחרי הבורסה בארה\"ב",
-     "en": "SPY - S&P 500 ETF",
-     "ar": "SPY - صندوق مؤشر الأسهم الأمريكية",
-     "ru": "SPY - ETF индекса S&P 500"
-    },
-    "price_at_alert": 732.44,
-    "entry_price": 733.37,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 715.78,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.4,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -2.4,
-    "edge_pct": -2.4,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "5400f75a0b85",
-  "updates": [
-   {
-    "ts": 1794994445,
-    "time": "2026-11-18T09:34Z",
-    "severity": 4,
-    "summary": "נשיא ארצות הברית דונלד טראמפ הכריז על חתימת הסכם סחר חדש ושונה לחלוטין עם הפיליפינים במהלך ביקורו במנילה לפסגת אסיאן.",
-    "i18n": {
-     "he": "נשיא ארצות הברית דונלד טראמפ הכריז על חתימת הסכם סחר חדש ושונה לחלוטין עם הפיליפינים במהלך ביקורו במנילה לפסגת אסיאן.",
-     "en": "US President Donald Trump announced the signing of a new trade deal with the Philippines during his state visit for the ASEAN Summit in Manila.",
-     "ar": "أعلن الرئيس الأمريكي دونالد ترامب عن توقيع اتفاقية تجارية جديدة مع الفلبين خلال زيارته لمانيلا لحضور قمة الآسيان.",
-     "ru": "Президент США Дональд Трамп объявил о подписании нового торгового соглашения с Филиппинами во время визита в Манилу на саммит ААСЕАН."
-    }
-   }
-  ],
-  "last_update": 1794994445,
-  "evaluated": true
- },
- {
   "ts": 1794985964,
   "time": "2026-11-18T07:12Z",
   "title": "האינפלציה בבריטניה עלתה ל-3.6% באוקטובר",
@@ -3214,296 +2703,6 @@
    }
   ],
   "last_update": 1795001432,
-  "evaluated": true
- },
- {
-  "ts": 1794994445,
-  "time": "2026-11-18T09:34Z",
-  "title": "הבנק המרכזי האירופי מזהיר מפני בועת חובות בתחום הבינה המלאכותית",
-  "summary": "הבנק המרכזי האירופי (ECB) פרסם אזהרה לפיה ההלוואות והמימון המסיביים סביב תחום הבינה המלאכותית מציגים קווים משיקים היסטוריים מדאיגים למשכן הסאב-פריים ולבועת דוֹט-קום.",
-  "kid": "הבנק המרכזי באירופה אומר שהכספים והחובות הגדולים שחברות לוקחות כדי להשקיע בבינה מלאכותית מזכירים את הבועות הכלכליות הגדולות בעבר, מה שעלול להיות מסוכן לשווקים.",
-  "i18n": {
-   "title": {
-    "he": "הבנק המרכזי האירופי מזהיר מפני בועת חובות בתחום הבינה המלאכותית",
-    "en": "ECB warns of AI debt bubble with parallels to subprime crisis",
-    "ar": "البنك المركزي الأوروبي يحذر من فقاعة ديون الذكاء الاصطناعي",
-    "ru": "ЕЦБ предупреждает о пузыре долгов в сфере искусственного интеллекта"
-   },
-   "summary": {
-    "he": "הבנק המרכזי האירופי (ECB) פרסם אזהרה לפיה ההלוואות והמימון המסיביים סביב תחום הבינה המלאכותית מציגים קווים משיקים היסטוריים מדאיגים למשכן הסאב-פריים ולבועת דוֹט-קום.",
-    "en": "The European Central Bank warned that the massive borrowing binge driving the artificial intelligence boom bears historic parallels to the subprime mortgage and dot-com bubbles.",
-    "ar": "حذر البنك المركزي الأوروبي من أن طفرة الاقتراض الضخمة للذكاء الاصطناعي تحمل تشابهات تاريخية مع أزمة الرهن العقاري وقطاع التكنولوجيا.",
-    "ru": "Европейский центральный банк предупредил, что масштабный бум заимствований в сфере ИИ имеет исторические параллели с кризисом субстандартного кредитования."
-   },
-   "kid": {
-    "he": "הבנק המרכזי באירופה אומר שהכספים והחובות הגדולים שחברות לוקחות כדי להשקיע בבינה מלאכותית מזכירים את הבועות הכלכליות הגדולות בעבר, מה שעלול להיות מסוכן לשווקים.",
-    "en": "The European Central Bank says the massive debts companies take on to invest in artificial intelligence resemble past financial bubbles, which could pose risks to markets.",
-    "ar": "يقول البنك المركزي الأوروبي إن الديون الضخمة التي تديون بها الشركات للاستثمار في الذكاء الاصطناعي تشبه فقاعات الماضي.",
-    "ru": "ЕЦБ заявляет, что огромные долги компаний ради инвестиций в ИИ напоминают прошлые экономические пузыри, что может нести риски для рынков."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "אזהרות רגולטוריות על עודף מימון וסיכונים במניות טכנולוגיה ובינה מלאכותית",
-    "reason_i18n": {
-     "he": "אזהרות רגולטוריות על עודף מימון וסיכונים במניות טכנולוגיה ובינה מלאכותית",
-     "en": "Regulatory warnings on over-leveraging and tech/AI stock risks",
-     "ar": "تحذيرات تنظيمية بشأن المبالغة في الاستدانة ومخاطر أسهم التكنولوجيا والذكاء الاصطناعي",
-     "ru": "Регуляторные предупреждения о риске перекредитования в акциях технокомпаний"
-    },
-    "name_i18n": {
-     "he": "קרן סל על מדד נאסד\"ק 100",
-     "en": "QQQ - Invesco QQQ Trust",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - ETF индекса Nasdaq 100"
-    },
-    "price_at_alert": 656.95,
-    "entry_price": 661.068,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 645.1,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.42,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -0.02,
-    "edge_pct": 0.02,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLF",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "חששות מפני סיכוני אשראי והלוואות ממונפות בסטארט-אפים",
-    "reason_i18n": {
-     "he": "חששות מפני סיכוני אשראי והלוואות ממונפות בסטארט-אפים",
-     "en": "Concerns over credit risks and leveraged loans to startups",
-     "ar": "مخاوف بشأن مخاطر الائتمان والقروض ذات الرافعة المالية للشركات الناشئة",
-     "ru": "Опасения по поводу кредитных рисков и заемных средств у стартапов"
-    },
-    "name_i18n": {
-     "he": "קרן סל על סקטור הפיננסים",
-     "en": "XLF - Financial Select Sector SPDR Fund",
-     "ar": "XLF - صندوق القطاع المالي",
-     "ru": "XLF - ETF финансового сектора"
-    },
-    "price_at_alert": 57.07,
-    "entry_price": 56.78,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 55.59,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.1,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 0.3,
-    "edge_pct": -0.3,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "cb668c7780e6",
-  "evaluated": true
- },
- {
-  "ts": 1794994445,
-  "time": "2026-11-18T09:34Z",
-  "title": "רעידת אדמה עוצמתית בעוצמה 5.7 פקדה את רומניה וגרמה לשיבושים",
-  "summary": "רעידת אדמה בעוצמה 5.7 באזור וראנצה ברומניה, שהורגשה היטב גם בבוקרשט, הביאה להפסקת זמנית של תנועת הרכבות בקו סאליני-פטשט ולבדיקת תשתיות.",
-  "kid": "רעידת אדמה חזקה ברומניה גרמה להפסקת רכבות זמנית ולבדיקת נזקים בתשתיות המקומיות.",
-  "i18n": {
-   "title": {
-    "he": "רעידת אדמה עוצמתית בעוצמה 5.7 פקדה את רומניה וגרמה לשיבושים",
-    "en": "A 5.7-magnitude earthquake hits Romania, causing disruptions",
-    "ar": "زلزال بقوة 5.7 درجة يضرب رومانيا ويسبب اضطرابات",
-    "ru": "Землетрясение магнитудой 5.7 произошло в Румынии, вызвав сбои"
-   },
-   "summary": {
-    "he": "רעידת אדמה בעוצמה 5.7 באזור וראנצה ברומניה, שהורגשה היטב גם בבוקרשט, הביאה להפסקת זמנית של תנועת הרכבות בקו סאליני-פטשט ולבדיקת תשתיות.",
-    "en": "A 5.7-magnitude earthquake struck Vrancea, Romania, felt in Bucharest, prompting authorities to temporarily halt rail traffic on the Saligny-Fetești route for safety checks.",
-    "ar": "ضرب ززلزال بقوة 5.7 درجات منطقة فرانشيا في رومانيا وشعر به سكان بوخارست، مما دفع السلطات إلى تعليق حركة القطارات مؤقتاً.",
-    "ru": "Землетрясение магнитудой 5.7 произошло в регионе Вранча в Румынии и ощущалось в Бухаресте, заставив власти временно приостановить движение поездов."
-   },
-   "kid": {
-    "he": "רעידת אדמה חזקה ברומניה גרמה להפסקת רכבות זמנית ולבדיקת נזקים בתשתיות המקומיות.",
-    "en": "A strong earthquake in Romania caused temporary train stoppages and safety checks on local infrastructure.",
-    "ar": "أدى ززلزال قوي في رومانيا إلى توقف مؤقت للقطارات وفحوصات السلامة على البنية التحتية.",
-    "ru": "Сильное землетрясение в Румынии привело к временной остановке поездов и проверке инфраструктуры."
-   }
-  },
-  "category": "climate",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "VGK",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "אירועים טבעיים ותשתיות באזורים באירופה",
-    "reason_i18n": {
-     "he": "אירועים טבעיים ותשתיות באזורים באירופה",
-     "en": "Natural events and infrastructure disruptions in Europe",
-     "ar": "الأحداث الطبيعية وتعطيل البنية التحتية في أوروبا",
-     "ru": "Природные события и сбои инфраструктуры в Европе"
-    },
-    "name_i18n": {
-     "he": "קרן סל על מניות אירופה",
-     "en": "VGK - Vanguard FTSE Europe ETF",
-     "ar": "VGK - صندوق الأسهم الأوروبية",
-     "ru": "VGK - ETF европейских акций"
-    },
-    "price_at_alert": 86.97,
-    "entry_price": 86.36,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 84.62,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.01,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 0.38,
-    "edge_pct": -0.38,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "40ea8a2b7920",
-  "evaluated": true
- },
- {
-  "ts": 1794994445,
-  "time": "2026-11-18T09:34Z",
-  "title": "התפרצות שפעת העופות בקראלה: כ-26,000 עופות יושמדו",
-  "summary": "רשויות הבריאות והחקלאות במחוז אלפוז'ה שקראלה, הודו, הלאימו והורו על השמדה של כ-26,000 עופות בית בעקבות התפרצות חדשה של שפעת העופות.",
-  "kid": "התפרצות שפעת העופות בהודו מחייבת השמדת אלפי עופות כדי לעצור את התפשטות המחלה, מה שפוגע בחקלאים המקומיים.",
-  "i18n": {
-   "title": {
-    "he": "התפרצות שפעת העופות בקראלה: כ-26,000 עופות יושמדו",
-    "en": "Avian influenza outbreak in Kerala: around 26,000 birds to be culled",
-    "ar": "تفشي إنفلونزا الطيور في كيرالا: إعدام نحو 26 ألف طائر",
-    "ru": "Вспышка птичьего гриппа в Керале: около 26 000 птиц будут уничтожены"
-   },
-   "summary": {
-    "he": "רשויות הבריאות והחקלאות במחוז אלפוז'ה שקראלה, הודו, הלאימו והורו על השמדה של כ-26,000 עופות בית בעקבות התפרצות חדשה של שפעת העופות.",
-    "en": "Authorities in the Alappuzha district of Kerala, India, have ordered the culling of approximately 26,000 domestic birds following a fresh outbreak of avian influenza.",
-    "ar": "أمرت السلطات في مقاطعة ألابوزها بولاية كيرالا الهندية بإعدام نحو 26 ألف طائر من الدواجن بعد تفشي جديد لإنفلونزا الطيور.",
-    "ru": "Власти округа Алаппужа в штате Керала, Индия, распорядились уничтожить около 26 000 домашних птиц из-за новой вспышки птичьего гриппа."
-   },
-   "kid": {
-    "he": "התפרצות שפעת העופות בהודו מחייבת השמדת אלפי עופות כדי לעצור את התפשטות המחלה, מה שפוגע בחקלאים המקומיים.",
-    "en": "An avian flu outbreak in India requires culling thousands of birds to stop the disease from spreading, hurting local farmers.",
-    "ar": "تتطلب إنفلونزا الطيور في الهند إعدام آلاف الطيور لمنع انتشار المرض، مما يضر بالمزارعين المحليين.",
-    "ru": "Вспышка птичьего гриппа в Индии требует уничтожения тысяч птиц, чтобы остановить распространение болезни, что бьет по местным фермерам."
-   }
-  },
-  "category": "health",
-  "severity": 2,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "INDA",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "פגיעה מקומית בענף החקלאות והעופות",
-    "reason_i18n": {
-     "he": "פגיעה מקומית בענף החקלאות והעופות",
-     "en": "Local disruption to the agricultural and poultry sector",
-     "ar": "اضطراب محلي في قطاع الزراعة والدواجن",
-     "ru": "Местные потрясения в сельскохозяйственном и птицеводческом секторе"
-    },
-    "name_i18n": {
-     "he": "קרן סל על שוק המניות בהודו",
-     "en": "INDA - iShares MSCI India ETF",
-     "ar": "INDA - صندوق الأسهم الهندية",
-     "ru": "INDA - ETF индийских акций"
-    },
-    "price_at_alert": 51.9,
-    "entry_price": 51.38,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 51.995,
-    "exit_date": "2026-11-19",
-    "change_pct": 1.2,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 3.6,
-    "edge_pct": -3.6,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "9981ed70b716",
-  "evaluated": true
- },
- {
-  "ts": 1794994445,
-  "time": "2026-11-18T09:34Z",
-  "title": "זעם ציבורי בגאנה בעקבות רכישת מטוס נשיאותי חדש ב-60 מיליון דולר",
-  "summary": "ממשלת גאנה סופגת ביקורת ציבורית חריפה וזעם לאחר שרכשה מטוס נשיאותי חדש בעלות של 60 מיליון דולר, בזמן שהאזרחים מתמודדים עם יוקר מחייה מאמיר.",
-  "kid": "תושבי גאנה כועסים על הממשלה שקנתה מטוס יקר בזמן שלרבים קשה לכסות את הוצאות המחיה היום-יומיות.",
-  "i18n": {
-   "title": {
-    "he": "זעם ציבורי בגאנה בעקבות רכישת מטוס נשיאותי חדש ב-60 מיליון דולר",
-    "en": "Public outrage in Ghana over new $60m presidential jet purchase",
-    "ar": "غضب شعبي في غانا بسبب شراء طائرة رئاسية جديدة بقيمة 60 مليون دولار",
-    "ru": "Общественное возмущение в Гане из-за покупки нового президентского самолета за 60 млн долларов"
-   },
-   "summary": {
-    "he": "ממשלת גאנה סופגת ביקורת ציבורית חריפה וזעם לאחר שרכשה מטוס נשיאותי חדש בעלות של 60 מיליון דולר, בזמן שהאזרחים מתמודדים עם יוקר מחייה מאמיר.",
-    "en": "The purchase of a new $60 million presidential jet in Ghana has sparked widespread public outrage and criticism as citizens struggle with soaring living costs.",
-    "ar": "أثار شراء طائرة رئاسية جديدة بقيمة 60 مليون دولار في غانا غضبًا شعبيًا واسع النطاق وانتقادات في ظل معاناة المواطنين من ارتفاع تكاليف المعيشة.",
-    "ru": "Покупка нового президентского самолета за 60 миллионов долларов в Гане вызвала широкое общественное возмущение на фоне роста стоимости жизни."
-   },
-   "kid": {
-    "he": "תושבי גאנה כועסים על הממשלה שקנתה מטוס יקר בזמן שלרבים קשה לכסות את הוצאות המחיה היום-יומיות.",
-    "en": "People in Ghana are angry at the government for buying an expensive jet while many citizens struggle to pay for daily living expenses.",
-    "ar": "يشعر الناس في غانا بالغضب من الحكومة لشراء طائرة باهظة الثمن بينما يعاني المواطنون لدفع تكاليف المعيشة.",
-    "ru": "Жители Ганы злятся на правительство за покупку дорогого самолета в то время, когда многим трудно оплачивать повседневные расходы."
-   }
-  },
-  "category": "policy",
-  "severity": 2,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "EEM",
-    "direction": "down",
-    "t0": 1794994445,
-    "reason": "אי-סטביליות פוליטית ואי-שביעות רצון ציבורית בשווקים מתעוררים",
-    "reason_i18n": {
-     "he": "אי-סטביליות פוליטית ואי-שביעות רצון ציבורית בשווקים מתעוררים",
-     "en": "Political instability and public discontent in emerging markets",
-     "ar": "عدم الاستقرار السياسي والخطاب العام في الأسواق الناشئة",
-     "ru": "Политическая нестабильность и недовольство в развивающихся странах"
-    },
-    "name_i18n": {
-     "he": "קרן סל על שווקים מתעוררים",
-     "en": "EEM - iShares MSCI Emerging Markets ETF",
-     "ar": "EEM - صندوق الأسهم الناشئة",
-     "ru": "ETF развивающихся рынков"
-    },
-    "price_at_alert": 58.27,
-    "entry_price": 58.28,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 56.765,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.6,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -0.2,
-    "edge_pct": 0.2,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "ba7afcfc3a3c",
   "evaluated": true
  },
  {
@@ -46089,5 +45288,344 @@
    }
   ],
   "id": "ad6f15ee7926"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "ירידות בשווקים עקב חששות ממכסים ומימוש בטכנולוגיה",
+  "summary": "חוזים עתידיים על הנאסד\"ק יורדים בחדות על רקע חששות ממכסים חדשים של ארה\"ב ומימוש רווחים בסקטור הבינה המלאכותית.",
+  "kid": "הבורסה יורדת כי משקיעים חוששים ממסים חדשים על מוצרים מחו\"ל וכי מניות הטכנולוגיה הגדולות ירדו בערכן.",
+  "i18n": {
+   "title": {
+    "he": "ירידות בשווקים עקב חששות ממכסים ומימוש בטכנולוגיה",
+    "en": "Market sell-off on tariff fears and tech correction",
+    "ar": "تراجع الأسواق بسبب مخاوف التعريفات وتصحيح التكنولوجيا",
+    "ru": "Падение рынков на фоне опасений по поводу тарифов и коррекции в техсекторе"
+   },
+   "summary": {
+    "he": "חוזים עתידיים על הנאסד\"ק יורדים בחדות על רקע חששות ממכסים חדשים של ארה\"ב ומימוש רווחים בסקטור הבינה המלאכותית.",
+    "en": "Nasdaq futures are sliding sharply due to concerns over new US tariffs and a broader sell-off in AI-related technology stocks.",
+    "ar": "تتراجع العقود الآجلة لناسداك بشكل حاد وسط مخاوف من تعريفات أمريكية جديدة وعمليات بيع واسعة في أسهم التكنولوجيا المرتبطة بالذكاء الاصطناعي.",
+    "ru": "Фьючерсы на Nasdaq резко падают на фоне опасений по поводу новых тарифов США и распродажи акций технологических компаний, связанных с ИИ."
+   },
+   "kid": {
+    "he": "הבורסה יורדת כי משקיעים חוששים ממסים חדשים על מוצרים מחו\"ל וכי מניות הטכנולוגיה הגדולות ירדו בערכן.",
+    "en": "The stock market is falling because investors are worried about new taxes on foreign goods and big tech companies are losing value.",
+    "ar": "سوق الأسهم ينخفض لأن المستثمرين قلقون بشأن ضرائب جديدة على البضائع الأجنبية، وشركات التكنولوجيا الكبرى تفقد قيمتها.",
+    "ru": "Фондовый рынок падает, потому что инвесторы обеспокоены новыми налогами на иностранные товары, а крупные технологические компании теряют в цене."
+   }
+  },
+  "category": "macro",
+  "severity": 8,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeTE1Sm5FS3FMX3NEUWRtN1N4eGhCUlIzeVdHdXZuSUN6OGhZTlNsX0I5dmRnTjBHVVhqMWRMbXBmby1oM0dpRzBNaWg2WHRWektGaWpGUGdXZ1RPdUNqLW41ckdCMHU4TlVqWE8yRlBTMDRHcGUxV2ZZZFNWYVlRMVB5c2VaMlhoRlNLclV4Z1h1UXZDUlVXUEkzcjlFY3JDVWhSTWlId1h6MFpvZnBoVnlJTDJ2c1VjVml0YVhxeEowd0FFNzg4bFhfd1Y?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUzJqbkR0TXc0OFpkMmhLZkQ5a2ZrUWxjM2JES2pJSUNsUDU0aVBOWkdyczN4bTNVcWlzMmRWMTE2NzBrUk13bWNUVm1STVVjSVJuUy02b1JGVjQ0UFVmSnNLN3p0Z1IyYXBoTUIxb19teUYxd3pqM3pFRXdRbHRjQWM1UWhWelpEUTREOXdqeF9XVXI5YVBqdm1xQWhBbk9zTDEtWkxmRF9naTRQTFd5dnhxOWg0TW15dkpVM3V3andWb3NPV2hfdmYxV3I2RXpkYko5bnBJSmUzWTZCOElmTWFvMElxQlhaTG9sUmg0cw?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "חשיפה גבוהה למניות טכנולוגיה שנמצאות תחת לחץ.",
+    "reason_i18n": {
+     "he": "חשיפה גבוהה למניות טכנולוגיה שנמצאות תחת לחץ.",
+     "en": "High exposure to tech stocks currently under selling pressure.",
+     "ar": "تعرض كبير لأسهم التكنولوجيا التي تتعرض لضغوط بيع.",
+     "ru": "Высокая доля технологических акций, находящихся под давлением."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100"
+    },
+    "price_at_alert": 638.1
+   },
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "החברה מובילה את הירידות בסקטור ה-AI.",
+    "reason_i18n": {
+     "he": "החברה מובילה את הירידות בסקטור ה-AI.",
+     "en": "Leading the decline in the AI sector.",
+     "ar": "تقود التراجع في قطاع الذكاء الاصطناعي.",
+     "ru": "Лидирует в падении сектора ИИ."
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia - AI chip maker",
+     "ar": "إنفيديا - صانع رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia - производитель чипов для ИИ"
+    },
+    "price_at_alert": 155.38
+   }
+  ],
+  "id": "adcdeed6baae"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "הואוואי הורשעה בעבירות סנקציות והונאה",
+  "summary": "בית משפט בארה\"ב הרשיע את חברת הטכנולוגיה הסינית הואוואי בעבירות של הפרת סנקציות, הונאה בנקאית וגניבת סודות מסחריים.",
+  "kid": "חברת הטכנולוגיה הואוואי נמצאה אשמה בבית משפט בכך שרימתה בנקים ועברה על חוקים בינלאומיים. זה עלול להוביל לעוד הגבלות על חברות סיניות.",
+  "i18n": {
+   "title": {
+    "he": "הואוואי הורשעה בעבירות סנקציות והונאה",
+    "en": "Huawei convicted of sanctions breaches and fraud",
+    "ar": "إدانة هواوي بانتهاك العقوبات والاحتيال",
+    "ru": "Huawei признана виновной в нарушении санкций и мошенничестве"
+   },
+   "summary": {
+    "he": "בית משפט בארה\"ב הרשיע את חברת הטכנולוגיה הסינית הואוואי בעבירות של הפרת סנקציות, הונאה בנקאית וגניבת סודות מסחריים.",
+    "en": "A US court has convicted Chinese tech giant Huawei on charges of sanctions violations, bank fraud, and theft of trade secrets.",
+    "ar": "أدانت محكمة أمريكية عملاق التكنولوجيا الصيني هواوي بتهم انتهاك العقوبات والاحتيال المصرفي وسرقة الأسرار التجارية.",
+    "ru": "Суд США признал китайского технологического гиганта Huawei виновным в нарушении санкций, банковском мошенничестве и краже коммерческой тайны."
+   },
+   "kid": {
+    "he": "חברת הטכנולוגיה הואוואי נמצאה אשמה בבית משפט בכך שרימתה בנקים ועברה על חוקים בינלאומיים. זה עלול להוביל לעוד הגבלות על חברות סיניות.",
+    "en": "Huawei was found guilty in court of cheating banks and breaking international laws. This could lead to more rules against Chinese companies.",
+    "ar": "أُدينت شركة هواوي في المحكمة بخداع البنوك وخرق القوانين الدولية. قد يؤدي هذا إلى مزيد من القيود على الشركات الصينية.",
+    "ru": "Компания Huawei была признана виновной в суде в обмане банков и нарушении международных законов. Это может привести к новым ограничениям против китайских компаний."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DYnhlWHMxc2YwTkdWV3VuamwzZnVaNXItRG1JM2diYmJCdThDRTRnVWtyeEhrbUVRbXBhWGdsN0dXY2hXZERqSWl5NFg1Q0RMNmxiVw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWVlmVmZmelhvSEdRWExVdEFuVHNDdnJ5amhLU2thdzZxQmx6X2ZMN2VjVUdXUGMza1lhbTA2RENUT294X2hzN3FkYnRDLUJUMTBMRERNUi1uajNJLVRTXzlYSDVQbnVRb3BHR1NmVEhTd01EdlVsejFmQzB6WDJ5d0VOVDdtdVdYRTlqUGJlanRycGw4UmVCVnJwSmpGYVVtSWFnaG93RTk?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ASHR",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "החמרת המתיחות הטכנולוגית בין ארה\"ב לסין.",
+    "reason_i18n": {
+     "he": "החמרת המתיחות הטכנולוגית בין ארה\"ב לסין.",
+     "en": "Escalating tech tensions between the US and China.",
+     "ar": "تصاعد التوترات التكنولوجية بين الولايات المتحدة والصين.",
+     "ru": "Усиление технологической напряженности между США и Китаем."
+    },
+    "name_i18n": {
+     "he": "תעודת סל מניות סין",
+     "en": "China A-shares ETF",
+     "ar": "صندوق أسهم الصين",
+     "ru": "ETF на акции Китая"
+    },
+    "price_at_alert": 29.68
+   }
+  ],
+  "id": "1a5fd8f003ed"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "עלייה של 26% בחשבונות האנרגיה בבריטניה",
+  "summary": "מחירי הגז המזנקים צפויים להוביל לעלייה של 26% בחשבונות האנרגיה הביתיים בבריטניה החל מינואר.",
+  "kid": "המחיר של גז לחימום וחשמל בבריטניה עולה מאוד, מה שישאיר למשפחות פחות כסף להוציא על דברים אחרים.",
+  "i18n": {
+   "title": {
+    "he": "עלייה של 26% בחשבונות האנרגיה בבריטניה",
+    "en": "UK energy bills to rise 26%",
+    "ar": "ارتفاع فواتير الطاقة في المملكة المتحدة بنسبة 26%",
+    "ru": "Счета за электроэнергию в Великобритании вырастут на 26%"
+   },
+   "summary": {
+    "he": "מחירי הגז המזנקים צפויים להוביל לעלייה של 26% בחשבונות האנרגיה הביתיים בבריטניה החל מינואר.",
+    "en": "Surging gas prices are expected to drive a 26% increase in household energy bills in the UK starting in January.",
+    "ar": "من المتوقع أن تؤدي أسعار الغاز المرتفعة إلى زيادة بنسبة 26% في فواتير الطاقة المنزلية في المملكة المتحدة بدءاً من يناير.",
+    "ru": "Ожидается, что резкий рост цен на газ приведет к увеличению счетов за электроэнергию для домохозяйств в Великобритании на 26% с января."
+   },
+   "kid": {
+    "he": "המחיר של גז לחימום וחשמל בבריטניה עולה מאוד, מה שישאיר למשפחות פחות כסף להוציא על דברים אחרים.",
+    "en": "The price of gas for heating and electricity in the UK is going up a lot, which will leave families with less money to spend on other things.",
+    "ar": "سعر الغاز للتدفئة والكهرباء في المملكة المتحدة يرتفع كثيراً، مما سيترك للعائلات مالاً أقل لإنفاقه على أشياء أخرى.",
+    "ru": "Цена на газ для отопления и электричество в Великобритании сильно растет, из-за чего у семей останется меньше денег на другие расходы."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWU",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "לחץ אינפלציוני ופגיעה בצריכה הפרטית בבריטניה.",
+    "reason_i18n": {
+     "he": "לחץ אינפלציוני ופגיעה בצריכה הפרטית בבריטניה.",
+     "en": "Inflationary pressure and negative impact on UK consumer spending.",
+     "ar": "ضغوط تضخمية وتأثير سلبي على إنفاق المستهلكين في المملكة المتحدة.",
+     "ru": "Инфляционное давление и негативное влияние на потребительские расходы в Великобритании."
+    },
+    "name_i18n": {
+     "he": "תעודת סל בריטניה",
+     "en": "UK Market ETF",
+     "ar": "صندوق مؤشر المملكة المتحدة",
+     "ru": "ETF на рынок Великобритании"
+    },
+    "price_at_alert": 45.87
+   }
+  ],
+  "id": "2644474fe345"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "נתוני אינפלציה ביפן מחזקים ציפיות להעלאת ריבית",
+  "summary": "נתוני מדד המחירים לצרכן ביפן מצביעים על עלייה באינפלציה, מה שמגביר את ההערכות כי הבנק המרכזי של יפן יעלה את הריבית בדצמבר.",
+  "kid": "ביפן המחירים עולים, אז הבנק המרכזי שלהם כנראה יעלה את הריבית כדי להילחם בזה. זה משפיע על ערך הכסף היפני.",
+  "i18n": {
+   "title": {
+    "he": "נתוני אינפלציה ביפן מחזקים ציפיות להעלאת ריבית",
+    "en": "Japan CPI data boosts rate hike expectations",
+    "ar": "بيانات التضخم اليابانية تعزز توقعات رفع الفائدة",
+    "ru": "Данные по инфляции в Японии усиливают ожидания повышения ставки"
+   },
+   "summary": {
+    "he": "נתוני מדד המחירים לצרכן ביפן מצביעים על עלייה באינפלציה, מה שמגביר את ההערכות כי הבנק המרכזי של יפן יעלה את הריבית בדצמבר.",
+    "en": "Japan's CPI data shows rising inflation, increasing expectations that the Bank of Japan will raise interest rates in December.",
+    "ar": "تشير بيانات مؤشر أسعار المستهلك في اليابان إلى ارتفاع التضخم، مما يعزز التوقعات بأن البنك المركزي الياباني سيرفع أسعار الفائدة في ديسمبر.",
+    "ru": "Данные по индексу потребительских цен в Японии указывают на рост инфляции, что усиливает ожидания того, что Банк Японии повысит процентные ставки в декабре."
+   },
+   "kid": {
+    "he": "ביפן המחירים עולים, אז הבנק המרכזי שלהם כנראה יעלה את הריבית כדי להילחם בזה. זה משפיע על ערך הכסף היפני.",
+    "en": "Prices in Japan are rising, so their central bank will likely raise interest rates to fight it. This affects the value of Japanese money.",
+    "ar": "الأسعار في اليابان ترتفع، لذا من المرجح أن يرفع بنكهم المركزي أسعار الفائدة لمحاربة ذلك. هذا يؤثر على قيمة العملة اليابانية.",
+    "ru": "Цены в Японии растут, поэтому их центральный банк, вероятно, повысит процентные ставки, чтобы бороться с этим. Это влияет на стоимость японской валюты."
+   }
+  },
+  "category": "macro",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYmxGMi04U0xqcFprY05UVm1KQ1A1ZkVxSnY0OEllNVBJSHVkT2FpaVkwOHFTYjZWZU1iVDBUaWlCSXBHM2NQNGNXNzhIemtOSHBnMHBMMURWaXBsS2Q4b1FzeU5ZOURHZHZGQWNhWUoySExzM1VVcTc2ZExXemtIbk1wUzgyZ1RLYjliVUVPMGdMN09Sbm4tc01IQkdUdnhfR0ZaZGJpM0pKZTZQSlFqQ0ROZFdBQVJ1dVYxbA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWJ",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "העלאת ריבית עלולה להכביד על שוק המניות המקומי.",
+    "reason_i18n": {
+     "he": "העלאת ריבית עלולה להכביד על שוק המניות המקומי.",
+     "en": "Rate hikes can weigh on the local stock market.",
+     "ar": "رفع أسعار الفائدة قد يضغط على سوق الأسهم المحلي.",
+     "ru": "Повышение ставок может оказать давление на местный фондовый рынок."
+    },
+    "name_i18n": {
+     "he": "תעודת סל יפן",
+     "en": "Japan ETF",
+     "ar": "صندوق مؤشر اليابان",
+     "ru": "ETF на рынок Японии"
+    },
+    "price_at_alert": 86.64
+   },
+   {
+    "ticker": "FXY",
+    "direction": "up",
+    "t0": 1795601691,
+    "reason": "ציפיות לריבית גבוהה יותר מחזקות את המטבע.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר מחזקות את המטבע.",
+     "en": "Expectations of higher rates strengthen the currency.",
+     "ar": "توقعات بأسعار فائدة أعلى تعزز العملة.",
+     "ru": "Ожидания более высоких ставок укрепляют валюту."
+    },
+    "name_i18n": {
+     "he": "ין יפני",
+     "en": "Japanese Yen ETF",
+     "ar": "صندوق الين الياباني",
+     "ru": "ETF на японскую иену"
+    },
+    "price_at_alert": 57.55
+   }
+  ],
+  "id": "6282084af40a"
+ },
+ {
+  "ts": 1795601691,
+  "time": "2026-11-25T10:14Z",
+  "title": "מניית חברת התעופה Norse Atlantic צונחת ב-74%",
+  "summary": "חברת התעופה הנורווגית Norse Atlantic הזהירה כי מצבה הפיננסי קריטי עקב עלויות דלק גבוהות, מה שהוביל לצניחה של 74% במנייתה.",
+  "kid": "חברת תעופה נקלעה לבעיות כספיות קשות בגלל שמחיר הדלק למטוסים עלה מאוד, והמשקיעים חוששים שהיא לא תשרוד.",
+  "i18n": {
+   "title": {
+    "he": "מניית חברת התעופה Norse Atlantic צונחת ב-74%",
+    "en": "Norse Atlantic shares plunge 74%",
+    "ar": "أسهم شركة الطيران نورس أتلانتيك تهوي بنسبة 74%",
+    "ru": "Акции авиакомпании Norse Atlantic рухнули на 74%"
+   },
+   "summary": {
+    "he": "חברת התעופה הנורווגית Norse Atlantic הזהירה כי מצבה הפיננסי קריטי עקב עלויות דלק גבוהות, מה שהוביל לצניחה של 74% במנייתה.",
+    "en": "Norwegian airline Norse Atlantic warned that its financial situation is critical due to soaring fuel costs, causing its shares to plummet 74%.",
+    "ar": "حذرت شركة الطيران النرويجية نورس أتلانتيك من أن وضعها المالي حرج بسبب ارتفاع تكاليف الوقود، مما أدى إلى انخفاض أسهمها بنسبة 74%.",
+    "ru": "Норвежская авиакомпания Norse Atlantic предупредила, что ее финансовое положение критическое из-за роста цен на топливо, что привело к падению акций на 74%."
+   },
+   "kid": {
+    "he": "חברת תעופה נקלעה לבעיות כספיות קשות בגלל שמחיר הדלק למטוסים עלה מאוד, והמשקיעים חוששים שהיא לא תשרוד.",
+    "en": "An airline is in big financial trouble because the price of jet fuel went up a lot, and investors are worried it might not survive.",
+    "ar": "شركة طيران تواجه مشاكل مالية كبيرة لأن سعر وقود الطائرات ارتفع كثيراً، والمستثمرون قلقون من أنها قد لا تنجو.",
+    "ru": "Авиакомпания столкнулась с серьезными финансовыми проблемами из-за того, что цена на авиатопливо сильно выросла, и инвесторы опасаются, что она может не выжить."
+   }
+  },
+  "category": "macro",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1795601691,
+    "reason": "סנטימנט שלילי כללי בסקטור התעופה עקב עלויות דלק.",
+    "reason_i18n": {
+     "he": "סנטימנט שלילי כללי בסקטור התעופה עקב עלויות דלק.",
+     "en": "General negative sentiment in the airline sector due to fuel costs.",
+     "ar": "مشاعر سلبية عامة في قطاع الطيران بسبب تكاليف الوقود.",
+     "ru": "Общие негативные настроения в авиационном секторе из-за стоимости топлива."
+    },
+    "name_i18n": {
+     "he": "תעודת סל חברות תעופה",
+     "en": "Airline ETF",
+     "ar": "صندوق مؤشر شركات الطيران",
+     "ru": "ETF на авиакомпании"
+    },
+    "price_at_alert": 28.38
+   }
+  ],
+  "id": "0eb098919d79"
  }
 ]
