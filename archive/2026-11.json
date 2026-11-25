@@ -156506,10 +156506,6 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UVEFWeEVvWS1GZDVkVmZKeGxpWFVFVUlDN3h6WFhlRFVPcnVsNFE0UUlMenZnRk5OUlRpOW56dVhOWWxJRVJ1Snk5dVlmU3FpWi1jakhLMlo4ams?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSE13WFpqRDRMUDZFS2pvWi1qdm9rRzl4NXZJZVdScTJLYzVsTnVPNGdvZ3hJM19kR245dThCMmpiR1FNRXd5RVZJejBVcUtYbXk2Y1FDcmYzNHFTVU9jWFpjTGpObldZTVFKSncxU28tU2ZYN0hiZVRzVTFFUGM1cHpFeW1BQzFUNlVkX0tDTVVDeVJsMjRZWXdYa3hnaW52YWhveEphek82eVVwamk4SGk0bldiQWNEQkNnUHhsUjNZOXhzejdRYkkxblhncTZWYjBzMnktWUhVV1FFWG01NlNhZERobkU?oc=5"
    },
    {
@@ -156527,6 +156523,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXI2NlRPX2wxU3Q2Qk9wWHdXXzBPT1dxeFdWWnJUeTgzYlJkRjd2UkVmV1lOTW5oeDdOMVR5djhXTHBMYkstMlFkdzk0bERZb3NnVnRQdThVd2JCR1Z0V29haF8wS2hJQ3ZuUzFRYWhpUWhJcjRPZkNfVDNkMjEtWlRHQlBXd0E3Y2NQeEM2cEFObDA0V2xYRmoyR1hBSWc?oc=5"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
    }
   ],
   "impacts": [
@@ -156656,9 +156656,21 @@
      "ar": "تستعد إدارة ترامب لفرض جولة جديدة من التعريفات الجمركية على عشرات الدول، بما في ذلك الصين وأوروبا، كجزء من سياستها التجارية.",
      "ru": "Администрация Трампа готовится ввести новый раунд тарифов на десятки стран, включая Китай и Европу, в рамках своей торговой политики."
     }
+   },
+   {
+    "ts": 1795576664,
+    "time": "2026-11-25T03:17Z",
+    "severity": 7,
+    "summary": "ארה\"ב מתכוננת להטיל מכסים חדשים שיפגעו בשותפות סחר מרכזיות בעולם, כולל סין והאיחוד האירופי.",
+    "i18n": {
+     "he": "ארה\"ב מתכוננת להטיל מכסים חדשים שיפגעו בשותפות סחר מרכזיות בעולם, כולל סין והאיחוד האירופי.",
+     "en": "The US is preparing to unveil new tariffs that would hit many of America's biggest trading partners, including China and the EU.",
+     "ar": "تستعد الولايات المتحدة للكشف عن رسوم جمركية جديدة من شأنها أن تؤثر على العديد من أكبر شركاء التجارة لأمريكا، بما في ذلك الصين والاتحاد الأوروبي.",
+     "ru": "США готовятся представить новые пошлины, которые затронут многих крупнейших торговых партнеров Америки, включая Китай и ЕС."
+    }
    }
   ],
-  "last_update": 1795566946
+  "last_update": 1795576664
  },
  {
   "ts": 1795538967,
@@ -156778,7 +156790,12 @@
   "category": "geopolitics",
   "severity": 7,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -156798,9 +156815,43 @@
      "ru": "Сырая нефть"
     },
     "price_at_alert": 136.04
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795576664,
+    "reason": "חשש מפגיעה באספקת האנרגיה במזרח התיכון מקפיץ את מחירי הנפט והמניות.",
+    "reason_i18n": {
+     "he": "חשש מפגיעה באספקת האנרגיה במזרח התיכון מקפיץ את מחירי הנפט והמניות.",
+     "en": "Fears of Mideast energy supply disruptions lift oil prices and stocks.",
+     "ar": "المخاوف بشأن اضطرابات إمدادات الطاقة في الشرق الأوسط ترفع أسعار النفط والأسهم.",
+     "ru": "Опасения по поводу перебоев с поставками энергоносителей на Ближнем Востоке поднимают цены на нефть и акции."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה ענקית",
+     "en": "ExxonMobil – a major oil company",
+     "ar": "إكسون موبيل - شركة نفط كبرى",
+     "ru": "ExxonMobil — крупная нефтяная компания"
+    },
+    "price_at_alert": 158.23
    }
   ],
-  "id": "e02e0a1a53e0"
+  "id": "e02e0a1a53e0",
+  "updates": [
+   {
+    "ts": 1795576664,
+    "time": "2026-11-25T03:17Z",
+    "severity": 5,
+    "summary": "מתקפה של החות'ים הנתמכים על ידי איראן פגעה במגדל של קרן העושר הסעודית (PIF) ופצעה 11 בני אדם, במתקפה השנייה השבוע.",
+    "i18n": {
+     "he": "מתקפה של החות'ים הנתמכים על ידי איראן פגעה במגדל של קרן העושר הסעודית (PIF) ופצעה 11 בני אדם, במתקפה השנייה השבוע.",
+     "en": "An attack by the Iran-backed Houthi group hit the Saudi sovereign wealth fund PIF's tower, injuring 11 people in the second attack this week.",
+     "ar": "أصاب هجوم شنه الحوثيون المدعومون من إيران برج صندوق الثروة السيادي السعودي (PIF) مما أدى إلى إصابة 11 شخصاً في الهجوم الثاني هذا الأسبوع.",
+     "ru": "Атака поддерживаемых Ираном хуситов поразила башню суверенного фонда Саудовской Аравии PIF, ранив 11 человек во второй раз за неделю."
+    }
+   }
+  ],
+  "last_update": 1795576664
  },
  {
   "ts": 1795549691,
@@ -157947,6 +157998,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HWkRmYzRfZUo2RUVaM0RPT1dyYmNFSEhIZXliQll6X3ROMS1FZi1GcXBLenZSekplc0xQNlNHdE1rcUo1M2RKMVo2MnhzdFBnX3MzeThhaFJuVkl2dkVUVE0zNWZUY3VLWGUtZUVFRjd1U2N6aElkaTJnWDctZw?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
    }
   ],
   "impacts": [
@@ -157968,8 +158023,123 @@
      "ru": "FXI – ETF крупных китайских компаний"
     },
     "price_at_alert": 31.43
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795576664,
+    "reason": "החգרה משפטית נגד ענקיות טכנולוגיה זרות משפיעה על סקטור הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "החգרה משפטית נגד ענקיות טכנולוגיה זרות משפיעה על סקטור הטכנולוגיה.",
+     "en": "Legal crackdown on foreign tech giants impacts the technology sector.",
+     "ar": "الحملة القانونية ضد עمالقة التكنولوجيا الأجانب تؤثر على قطاع التكنولوجيا.",
+     "ru": "Юридические преследования иностранных технологических гигантов влияют на технологический сектор."
+    },
+    "name_i18n": {
+     "he": "תעודת סל נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100",
+     "ru": "ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 638.1
    }
   ],
-  "id": "d4fbc4b3dafa"
+  "id": "d4fbc4b3dafa",
+  "updates": [
+   {
+    "ts": 1795576664,
+    "time": "2026-11-25T03:17Z",
+    "severity": 4,
+    "summary": "חברת הואהווי הורשעה במשפט פלילי בארה\"ב בעבירות של הונאה בנקאית, הלבנת הון וקשירת קשר לגניבת סודות מסחר.",
+    "i18n": {
+     "he": "חברת הואהווי הורשעה במשפט פלילי בארה\"ב בעבירות של הונאה בנקאית, הלבנת הון וקשירת קשר לגניבת סודות מסחר.",
+     "en": "Huawei was found guilty in a US criminal trial of bank fraud, money laundering, and trade secret theft conspiracy.",
+     "ar": "أُدينت شركة هواوي في محاكمة جنائية في الولايات المتحدة بتهم الاحتيال المصرفي وغسيل الأموال والتآمر لسرقة الأسرار التجارية.",
+     "ru": "Компания Huawei была признана виновной в США в банковском мошенничестве, отмывании денег и заговоре с целью кражи коммерческой тайны."
+    }
+   }
+  ],
+  "last_update": 1795576664
+ },
+ {
+  "ts": 1795576664,
+  "time": "2026-11-25T03:17Z",
+  "title": "הנשיא טראמפ מביע נכונות לחון את מנכ\"ל אנבידיה ג'נסן הואנג",
+  "summary": "הנשיא טראמפ אמר כי יהיה מוכן לחון את מנכ\"ל אנבידיה ג'נסן הואנג במידת הצורך, וקשר את גורלו הפוליטי לתעשיית הבינה המלאכותית.",
+  "kid": "הנשיא טראמפ אמר שהוא עשוי לסלוח למנכ\"ל חברת השבבים הגדולה אנבידיה. זה קושר את הפוליטיקה ישירות לחברות הטכנולוגיה הגדולות.",
+  "i18n": {
+   "title": {
+    "he": "הנשיא טראמפ מביע נכונות לחון את מנכ\"ל אנבידיה ג'נסן הואנג",
+    "en": "President Trump expresses willingness to pardon Nvidia CEO Jensen Huang",
+    "ar": "الرئيس ترامب يعبر عن استعداده للعفو عن الرئيس التنفيذي لشركة إنفيديا جنسن هوانغ",
+    "ru": "Президент Трамп выражает готовность помиловать генерального директора Nvidia Дженсена Хуанга"
+   },
+   "summary": {
+    "he": "הנשיא טראמפ אמר כי יהיה מוכן לחון את מנכ\"ל אנבידיה ג'נסן הואנג במידת הצורך, וקשר את גורלו הפוליטי לתעשיית הבינה המלאכותית.",
+    "en": "President Trump stated he would be willing to pardon Nvidia CEO Jensen Huang if needed, inextricably linking his political fortunes to the AI boom.",
+    "ar": "صرح الرئيس ترامب أنه سيكون مستعداً للعفو عن الرئيس التنفيذي لشركة إنفيديا جنسن هوانغ إذا لزم الأمر، مما ربط مصيره السياسي بطفرة الذكاء الاصطناعي.",
+    "ru": "Президент Трамп заявил, что готов помиловать генерального директора Nvidia Дженсена Хуанга в случае необходимости, связав свою политическую судьбу с бумом ИИ."
+   },
+   "kid": {
+    "he": "הנשיא טראמפ אמר שהוא עשוי לסלוח למנכ\"ל חברת השבבים הגדולה אנבידיה. זה קושר את הפוליטיקה ישירות לחברות הטכנולוגיה הגדולות.",
+    "en": "President Trump said he might pardon the CEO of major chipmaker Nvidia. This ties politics directly to top tech firms.",
+    "ar": "قال الرئيس ترامب إنه قد يعفو عن الرئيس التنفيذي لشركة تصنيع الرقائق الكبرى إنفيديا. هذا يربط السياسة مباشرة بشركات التكنولوجيا الكبرى.",
+    "ru": "Президент Трамп заявил, что может помиловать главу крупнейшего производителя чипов Nvidia. Это связывает политику напрямую с ведущими технологическими компаниями."
+   }
+  },
+  "category": "policy",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
+   },
+   {
+    "name": "BBC Business",
+    "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "up",
+    "t0": 1795576664,
+    "reason": "תמיכה פוליטית חריגה מהממשל עשויה להגן על החברה מלחצים רגולטוריים.",
+    "reason_i18n": {
+     "he": "תמיכה פוליטית חריגה מהממשל עשויה להגן על החברה מלחצים רגולטוריים.",
+     "en": "Unusual political backing from the administration may shield the company from regulatory pressures.",
+     "ar": "الدعم السياسي غير العادي من الإدارة قد يحمي الشركة من الضغوط التنظيمية.",
+     "ru": "Необычная политическая поддержка со стороны администрации может защитить компанию от регуляторного давления."
+    },
+    "name_i18n": {
+     "he": "אנבידיה - יצרנית שבבי בינה מלאכותית",
+     "en": "Nvidia – a major AI chipmaker",
+     "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
+     "ru": "Nvidia — производитель чипов ИИ"
+    },
+    "price_at_alert": 155.38
+   },
+   {
+    "ticker": "SMH",
+    "direction": "up",
+    "t0": 1795576664,
+    "reason": "סנטימנט חיובי כלפי סקטור השבבים והבינה המלאכותית בעקבות התבטאויות הנשיא.",
+    "reason_i18n": {
+     "he": "סנטימנט חיובי כלפי סקטור השבבים והבינה המלאכותית בעקבות התבטאויות הנשיא.",
+     "en": "Positive sentiment toward the chip and AI sector following presidential remarks.",
+     "ar": "معنويات إيجابية تجاه قطاع الرقائق والذكاء الاصطناعي إثر تصريحات الرئيس.",
+     "ru": "Позитивные настроения в отношении сектора чипов и ИИ после заявлений президента."
+    },
+    "name_i18n": {
+     "he": "תעודת סל סמיקונדקטורס",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق مؤشر أشباه الموصلات",
+     "ru": "ETF полупроводников"
+    },
+    "price_at_alert": 426.75
+   }
+  ],
+  "id": "6a90752e21d9"
  }
 ]
