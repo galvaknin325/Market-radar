@@ -899,158 +899,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795016473,
-  "time": "2026-11-18T15:41Z",
-  "title": "אנתרופיק (Anthropic) צפויה להנפיק בנאסד\"ק",
-  "summary": "חברת הבינה המלאכותית אנתרופיק צפויה להתחיל להיסחר בנאסד\"ק תחת הסימול 'ANT' ביום חמישי, עם ביקוש גבוה מצד משקיעים.",
-  "kid": "חברה חדשה שמפתחת בינה מלאכותית הופכת לציבורית. זה יכול להשפיע על מניות טכנולוגיה אחרות.",
-  "i18n": {
-   "title": {
-    "he": "אנתרופיק (Anthropic) צפויה להנפיק בנאסד\"ק",
-    "en": "Anthropic set for Nasdaq IPO",
-    "ar": "شركة أنثروبيك تستعد للاكتتاب العام في ناسداك",
-    "ru": "Anthropic готовится к IPO на Nasdaq"
-   },
-   "summary": {
-    "he": "חברת הבינה המלאכותית אנתרופיק צפויה להתחיל להיסחר בנאסד\"ק תחת הסימול 'ANT' ביום חמישי, עם ביקוש גבוה מצד משקיעים.",
-    "en": "AI lab Anthropic is set to begin trading on the Nasdaq under the ticker 'ANT' on Thursday, with high investor demand.",
-    "ar": "من المقرر أن تبدأ شركة الذكاء الاصطناعي أنثروبيك التداول في بورصة ناسداك تحت الرمز 'ANT' يوم الخميس، مع طلب مرتفع من المستثمرين.",
-    "ru": "Компания Anthropic, занимающаяся искусственным интеллектом, начнет торги на Nasdaq под тикером 'ANT' в четверг на фоне высокого спроса со стороны инвесторов."
-   },
-   "kid": {
-    "he": "חברה חדשה שמפתחת בינה מלאכותית הופכת לציבורית. זה יכול להשפיע על מניות טכנולוגיה אחרות.",
-    "en": "A new company that makes AI is becoming public. This could affect other tech stocks.",
-    "ar": "شركة جديدة تطور الذكاء الاصطناعي ستصبح عامة. هذا قد يؤثر على أسهم التكنولوجيا الأخرى.",
-    "ru": "Новая компания, разрабатывающая ИИ, выходит на биржу. Это может повлиять на другие технологические акции."
-   }
-  },
-  "category": "contracts",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1795016473,
-    "reason": "ספקית מרכזית של שבבי AI לחברות כמו אנתרופיק",
-    "reason_i18n": {
-     "he": "ספקית מרכזית של שבבי AI לחברות כמו אנתרופיק",
-     "en": "Key supplier of AI chips to companies like Anthropic",
-     "ar": "مورد رئيسي لرقائق الذكاء الاصطناعي لشركات مثل أنثروبيك",
-     "ru": "Ключевой поставщик ИИ-чипов для таких компаний, как Anthropic"
-    },
-    "name_i18n": {
-     "he": "אנבידיה",
-     "en": "Nvidia",
-     "ar": "إنفيديا",
-     "ru": "Nvidia"
-    },
-    "price_at_alert": 152.19,
-    "entry_price": 152.01,
-    "entry_time": "2026-11-18T16:30+00:00",
-    "exit_price": 146.0,
-    "exit_date": "2026-11-19",
-    "change_pct": -3.95,
-    "bench": "SPY",
-    "bench_change_pct": -1.76,
-    "excess_pct": -2.19,
-    "edge_pct": -2.19,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1795016473,
-    "reason": "הנפקות גדולות בתחום ה-AI מעוררות עניין בסקטור",
-    "reason_i18n": {
-     "he": "הנפקות גדולות בתחום ה-AI מעוררות עניין בסקטור",
-     "en": "Large AI IPOs generate interest in the sector",
-     "ar": "الاكتتابات العامة الكبيرة في مجال الذكاء الاصطناعي تثير الاهتمام بالقطاع",
-     "ru": "Крупные IPO в сфере ИИ вызывают интерес к сектору"
-    },
-    "name_i18n": {
-     "he": "סקטור הטכנולוגיה",
-     "en": "Technology Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 162.85,
-    "entry_price": 162.54,
-    "entry_time": "2026-11-18T16:30+00:00",
-    "exit_price": 160.7,
-    "exit_date": "2026-11-19",
-    "change_pct": -1.13,
-    "bench": "SPY",
-    "bench_change_pct": -1.76,
-    "excess_pct": 0.63,
-    "edge_pct": 0.63,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1795023738,
-    "reason": "הנפקות טכנולוגיה גדולות מושכות הון",
-    "reason_i18n": {
-     "he": "הנפקות טכנולוגיה גדולות מושכות הון",
-     "en": "Major tech IPOs attract capital",
-     "ar": "الاكتتابات العامة الكبرى في التكنولوجيا تجذب رأس المال",
-     "ru": "Крупные IPO в сфере технологий привлекают капитал"
-    },
-    "name_i18n": {
-     "he": "נאסד\"ק 100",
-     "en": "Nasdaq 100",
-     "ar": "ناسداك 100",
-     "ru": "Nasdaq 100"
-    },
-    "price_at_alert": 659.5,
-    "entry_price": 659.635,
-    "entry_time": "2026-11-18T18:30+00:00",
-    "exit_price": 645.1,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.2,
-    "bench": "SPY",
-    "bench_change_pct": -2.23,
-    "excess_pct": 0.03,
-    "edge_pct": 0.03,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "5c62e9b0003f",
-  "updates": [
-   {
-    "ts": 1795023738,
-    "time": "2026-11-18T17:42Z",
-    "severity": 5,
-    "summary": "חברת הבינה המלאכותית Anthropic צפויה להתחיל להיסחר בנאסד\"ק תחת הסימול ANT ביום חמישי, עם ביקוש גבוה מצד משקיעים.",
-    "i18n": {
-     "he": "חברת הבינה המלאכותית Anthropic צפויה להתחיל להיסחר בנאסד\"ק תחת הסימול ANT ביום חמישי, עם ביקוש גבוה מצד משקיעים.",
-     "en": "AI company Anthropic is set to begin trading on the Nasdaq under the ticker ANT on Thursday, with high investor demand.",
-     "ar": "من المقرر أن تبدأ شركة الذكاء الاصطناعي Anthropic التداول في ناسداك تحت الرمز ANT يوم الخميس، مع طلب مرتفع من المستثمرين.",
-     "ru": "Компания в сфере ИИ Anthropic начнет торговаться на Nasdaq под тикером ANT в четверг, при высоком спросе со стороны инвесторов."
-    }
-   },
-   {
-    "ts": 1795053618,
-    "time": "2026-11-19T02:00Z",
-    "severity": 7,
-    "summary": "חברת הבינה המלאכותית אנתרופיק צפויה להנפיק מניות בנאסד\"ק, מה שמעורר עניין רב בקרב משקיעים ומשפיע על השווקים האסייתיים.",
-    "i18n": {
-     "he": "חברת הבינה המלאכותית אנתרופיק צפויה להנפיק מניות בנאסד\"ק, מה שמעורר עניין רב בקרב משקיעים ומשפיע על השווקים האסייתיים.",
-     "en": "AI company Anthropic is set to launch its IPO on Nasdaq, generating significant investor interest and impacting Asian markets.",
-     "ar": "من المقرر أن تطلق شركة الذكاء الاصطناعي أنثروبيك اكتتابها العام في ناسداك، مما يولد اهتماماً كبيراً من المستثمرين ويؤثر على الأسواق الآسيوية.",
-     "ru": "Компания Anthropic, занимающаяся искусственным интеллектом, готовится к IPO на Nasdaq, что вызывает значительный интерес инвесторов и влияет на азиатские рынки."
-    }
-   }
-  ],
-  "last_update": 1795053618,
-  "evaluated": true
- },
- {
   "ts": 1795020399,
   "time": "2026-11-18T16:46Z",
   "title": "צה\"ל מפעיל טנקים בעזה; חשש מהסלמה",
@@ -1820,116 +1668,6 @@
    }
   ],
   "last_update": 1795084956,
-  "evaluated": true
- },
- {
-  "ts": 1795037923,
-  "time": "2026-11-18T21:38Z",
-  "title": "שר ההגנה האמריקאי חושף שותפות צבאית חדשה עם וונצואלה",
-  "summary": "שר ההגנה האמריקאי פיט הגסט הכריז על הסכם שותפות צבאית הכולל אימונים משותפים וחלוקת מודיעין עם צבא וונצואלה במהלך ביקורו במדינה.",
-  "kid": "ארה\"ב ווונצואלה מתחילות לשתף פעולה צבאית. זה יכול להשפיע על חברות אנרגיה ועל המתיחות באזור.",
-  "i18n": {
-   "title": {
-    "he": "שר ההגנה האמריקאי חושף שותפות צבאית חדשה עם וונצואלה",
-    "en": "US Defense Secretary Reveals Military Partnership on Venezuela Trip",
-    "ar": "وزير الدفاع الأمريكي يكشف عن شراكة عسكرية جديدة في زيارة لفنزويلا",
-    "ru": "Глава Пентагона объявил о новом военном партнерстве во время визита в Венесуэлу"
-   },
-   "summary": {
-    "he": "שר ההגנה האמריקאי פיט הגסט הכריז על הסכם שותפות צבאית הכולל אימונים משותפים וחלוקת מודיעין עם צבא וונצואלה במהלך ביקורו במדינה.",
-    "en": "US Defense Secretary Pete Hegseth announced a military partnership agreement including joint training and intelligence sharing with the Venezuelan military during a visit.",
-    "ar": "أعلن وزير الدفاع الأمريكي بيت هيغسيث عن اتفاق شراكة عسكرية يتضمن تدريباً مشتركاً وتبادل معلومات استخباراتية مع الجيش الفنزويلي.",
-    "ru": "Министр обороны США Пит Хегсет объявил о соглашении о военном партнерстве, включая совместные учения и обмен разведданными с армией Венесуэлы."
-   },
-   "kid": {
-    "he": "ארה\"ב ווונצואלה מתחילות לשתף פעולה צבאית. זה יכול להשפיע על חברות אנרגיה ועל המתיחות באזור.",
-    "en": "The US and Venezuela are starting military cooperation. This could impact energy companies and regional tensions.",
-    "ar": "تبدأ الولايات المتحدة وفنزويلا تعاوناً عسكرياً. هذا قد يؤثر على شركات الطاقة والتوترات الإقليمية.",
-    "ru": "США и Венесуэла начинают военное сотрудничество. Это может повлиять на энергетические компании и региональную напряженность."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1795037923,
-    "reason": "שינויים דיפלומטיים וצבאיים באזור דרום אמריקה עשויים להשפיע על פעילות חברות הנפט הגדולות.",
-    "reason_i18n": {
-     "he": "שינויים דיפלומטיים וצבאיים באזור דרום אמריקה עשויים להשפיע על פעילות חברות הנפט הגדולות.",
-     "en": "Diplomatic and military shifts in South America can affect major oil companies' operations.",
-     "ar": "التغييرات الدبلوماسية والعسكرية في أمريكا الجنوبية قد تؤثر على عمليات شركات النفط الكبرى.",
-     "ru": "Дипломатические и военные изменения в Южной Америке могут повлиять на операции крупных нефтяных компаний."
-    },
-    "name_i18n": {
-     "he": "XOM - אקסון מוביל, ענקית אנרגיה",
-     "en": "XOM - ExxonMobil energy giant",
-     "ar": "XOM - إكسون موبيل عملاق الطاقة",
-     "ru": "XOM - энергетический гигант ExxonMobil"
-    },
-    "price_at_alert": 160.58,
-    "entry_price": 161.325,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 159.97,
-    "exit_date": "2026-11-20",
-    "change_pct": -0.84,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 5.47,
-    "edge_pct": 5.47,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795053618,
-    "reason": "הסכמים צבאיים חדשים עשויים להוביל להזמנות ציוד ביטחוני.",
-    "reason_i18n": {
-     "he": "הסכמים צבאיים חדשים עשויים להוביל להזמנות ציוד ביטחוני.",
-     "en": "New military agreements may lead to defense equipment orders.",
-     "ar": "قد تؤدي الاتفاقيات العسكرية الجديدة إلى طلبات لمعدات دفاعية.",
-     "ru": "Новые военные соглашения могут привести к заказам на оборонное оборудование."
-    },
-    "name_i18n": {
-     "he": "מגזר הביטחון",
-     "en": "Defense Sector",
-     "ar": "قطاع الدفاع",
-     "ru": "Оборонный сектор"
-    },
-    "price_at_alert": 69.39,
-    "entry_price": 69.67,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 66.24,
-    "exit_date": "2026-11-20",
-    "change_pct": -4.92,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 1.39,
-    "edge_pct": 1.39,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "dd5412760e33",
-  "updates": [
-   {
-    "ts": 1795053618,
-    "time": "2026-11-19T02:00Z",
-    "severity": 6,
-    "summary": "שר ההגנה האמריקאי חשף הסכם צבאי חדש עם וונצואלה, צעד מפתיע שמשנה את מאזן הכוחות באזור.",
-    "i18n": {
-     "he": "שר ההגנה האמריקאי חשף הסכם צבאי חדש עם וונצואלה, צעד מפתיע שמשנה את מאזן הכוחות באזור.",
-     "en": "The US Secretary of Defense unveiled a new military agreement with Venezuela, a surprising move that shifts the balance of power in the region.",
-     "ar": "كشف وزير الدفاع الأمريكي عن اتفاق عسكري جديد مع فنزويلا، وهي خطوة مفاجئة تغير ميزان القوى في المنطقة.",
-     "ru": "Министр обороны США представил новое военное соглашение с Венесуэлой — неожиданный шаг, меняющий баланс сил в регионе."
-    }
-   }
-  ],
-  "last_update": 1795053618,
   "evaluated": true
  },
  {
@@ -2724,71 +2462,6 @@
    }
   ],
   "last_update": 1795068188,
-  "evaluated": true
- },
- {
-  "ts": 1795053618,
-  "time": "2026-11-19T02:00Z",
-  "title": "צפון קוריאה מרחיבה את מתקן העשרת האורניום",
-  "summary": "סוכנות האנרגיה האטומית (IAEA) מדווחת כי צפון קוריאה מרחיבה את מתקן העשרת האורניום שלה באתר יונגביון, מה שמעורר דאגה בינלאומית.",
-  "kid": "צפון קוריאה בונה מתקן גדול יותר לייצור חומרים גרעיניים. זה גורם למדינות אחרות לפחד ולחץ פוליטי גובר.",
-  "i18n": {
-   "title": {
-    "he": "צפון קוריאה מרחיבה את מתקן העשרת האורניום",
-    "en": "North Korea expands uranium enrichment facility",
-    "ar": "كوريا الشمالية توسع منشأة تخصيب اليورانيوم",
-    "ru": "Северная Корея расширяет объект по обогащению урана"
-   },
-   "summary": {
-    "he": "סוכנות האנרגיה האטומית (IAEA) מדווחת כי צפון קוריאה מרחיבה את מתקן העשרת האורניום שלה באתר יונגביון, מה שמעורר דאגה בינלאומית.",
-    "en": "The IAEA reports that North Korea is expanding its uranium enrichment facility at the Yongbyon site, raising international concern.",
-    "ar": "أفادت الوكالة الدولية للطاقة الذرية أن كوريا الشمالية توسع منشأة تخصيب اليورانيوم في موقع يونغبيون، مما يثير قلقاً دولياً.",
-    "ru": "МАГАТЭ сообщает, что Северная Корея расширяет объект по обогащению урана на площадке Йонбен, что вызывает международную обеспокоенность."
-   },
-   "kid": {
-    "he": "צפון קוריאה בונה מתקן גדול יותר לייצור חומרים גרעיניים. זה גורם למדינות אחרות לפחד ולחץ פוליטי גובר.",
-    "en": "North Korea is building a bigger place to make nuclear materials. This makes other countries worried and increases political tension.",
-    "ar": "تقوم كوريا الشمالية ببناء منشأة أكبر لصنع مواد نووية. هذا يجعل الدول الأخرى قلقة ويزيد من التوتر السياسي.",
-    "ru": "Северная Корея строит более крупный объект для создания ядерных материалов. Это беспокоит другие страны и усиливает политическое напряжение."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795053618,
-    "reason": "עלייה במתיחות הגיאופוליטית מגבירה את הביקוש למוצרי ביטחון.",
-    "reason_i18n": {
-     "he": "עלייה במתיחות הגיאופוליטית מגבירה את הביקוש למוצרי ביטחון.",
-     "en": "Rising geopolitical tensions increase demand for defense products.",
-     "ar": "زيادة التوترات الجيوسياسية تزيد الطلب على المنتجات الدفاعية.",
-     "ru": "Рост геополитической напряженности увеличивает спрос на оборонную продукцию."
-    },
-    "name_i18n": {
-     "he": "מגזר הביטחון",
-     "en": "Defense Sector",
-     "ar": "قطاع الدفاع",
-     "ru": "Оборонный сектор"
-    },
-    "price_at_alert": 69.39,
-    "entry_price": 69.67,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 66.24,
-    "exit_date": "2026-11-20",
-    "change_pct": -4.92,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 1.39,
-    "edge_pct": 1.39,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "a417637f664f",
   "evaluated": true
  },
  {
@@ -41432,6 +41105,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVdkWERiaUR3b2hXTkxORUt5RW45ajdoUS1HcGNFY21IYW16RzJLNkZfdEdJRGNFeExuY3ptV1k4RDdWLVB2UEpQSjhPTTdIYjMxOWZ3bGc1Q04waGFmSkhqX2pjZVNZRXVnaE5IcFd3N1J1Y2E5QTZUTmFhRHlrT2RacXQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM25JMTV0d0h4dWtldEJRRXZ1NldNd0NDRnVxYUV3YzRMQjIyTGhFSU1XMmNTZmZCd29Fa1pRbUt4TTRyXzdwQ1BJYUlKVWxUU3ZVa1ZwUzh0TllWcGdOVlRfOHRFQllIVkp3cGU4dUN2cTFCRTJadjQwa2JBc1NYMGo1d3lEU093X01VU2Z1b0hxNG9NSnlN?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHNHNlJjNUM2NG9nSmJUT2wwbG1WTG84MjZxcWxPUEdUTDJaVl8wT21lOTdLdWdEWV94Tmx3MDhOUE1sb1Z0RkFBaDNGd2xSckJIWmZRQk5NWE9NbWFZSHg4Q3dSaDhzbmgwMUgxUS1FNzFjVzhJeFBhSHlMTDM5WkpIUUlpcUNnWmhyN3BwRDVheUtfcjFCSVNaRGRjVUdHVG50bmFhMGw3MGltanZ6VXZn?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbDVIbE5tb2R2ZTBtTGxvamNyZHIxNE1MMzExbXA1ZWcyMDJUdmNFQzQ2cjFTYmJncVVTeTBra0FJTmsxeDlaSHhuM0RhUmR6cHNyNE5PM28xSWpDNGp1dXV2OGhPZmEtRFJES0pKeFI2WmVXYkhhRXZCUnFaaWtVZGtBQ3ZRd1ExMzhDeDA3aks5NXlRS1FGaGlwbHZ3QTA5S1lVbEhXNlRiWFg1QjRObXJMZUJQZWdtWm1MWGtjUUZZWnRYR2c?oc=5"
    }
   ],
   "impacts": [
@@ -41487,9 +41172,21 @@
      "ar": "ارتفع تضخم النواة في اليابان إلى 3.5%، مما يعزز التوقعات برفع إضافي لأسعار الفائدة من قبل بنك اليابان.",
      "ru": "Базовая инфляция в Японии ускорилась до 3,5%, что усиливает ожидания дальнейшего повышения процентных ставок Банком Японии."
     }
+   },
+   {
+    "ts": 1795658692,
+    "time": "2026-11-26T02:04Z",
+    "severity": 5,
+    "summary": "בכיר בבנק יפן, נאוקי טامura, אמר כי הפוקוס עובר למניעת חציית יעד האינפלציה ושמירה על יציבות, מה שמסמן סיכוי להעלאות ריבית מהירות מהצפוי.",
+    "i18n": {
+     "he": "בכיר בבנק יפן, נאוקי טامura, אמר כי הפוקוס עובר למניעת חציית יעד האינפלציה ושמירה על יציבות, מה שמסמן סיכוי להעלאות ריבית מהירות מהצפוי.",
+     "en": "Bank of Japan board member Naoki Tamura signaled that the central bank's focus is shifting toward preventing inflation overshoot, pointing to a chance of faster-than-expected rate hikes.",
+     "ar": "أشار عضو مجلس إدارة بنك اليابان ناوكي تامورا إلى تحول التركيز نحو منع تجاوز التضخم المستهدف.",
+     "ru": "Член правления Банка Японии Наоки Тамура указал на смещение фокуса на предотвращение перегрева инфляции."
+    }
    }
   ],
-  "last_update": 1795605341
+  "last_update": 1795658692
  },
  {
   "ts": 1795601691,
@@ -41518,12 +41215,16 @@
    }
   },
   "category": "macro",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
    }
   ],
   "impacts": [
@@ -41560,9 +41261,21 @@
      "ar": "أبلغت شركة الطيران النرويجية Norse Atlantic عن وضع مالي حرج بسبب ارتفاع تكاليف الوقود، مما أدى إلى انخفاض حاد في أسهمها.",
      "ru": "Норвежская авиакомпания Norse Atlantic сообщила о критическом финансовом положении из-за роста цен на топливо, что привело к резкому падению акций."
     }
+   },
+   {
+    "ts": 1795658692,
+    "time": "2026-11-26T02:04Z",
+    "severity": 4,
+    "summary": "חברת התעופה נורס אטלנטיק השעתה את טיסותיה לאחר שהזהירה שמצבה הפיננסי קריטי, והיא מחפשת מימון לטווח קצר ובחנה אפשרות לרכישה.",
+    "i18n": {
+     "he": "חברת התעופה נורס אטלנטיק השעתה את טיסותיה לאחר שהזהירה שמצבה הפיננסי קריטי, והיא מחפשת מימון לטווח קצר ובחנה אפשרות לרכישה.",
+     "en": "Norse Atlantic suspended flights after warning its financial position is critical, as it seeks short-term financing and explores a potential takeover.",
+     "ar": "علقت شركة الطيران نورس أتلانتيك رحلاتها بعد تحذيرها من أن وضعها المالي حرج.",
+     "ru": "Авиакомпания Norse Atlantic приостановила полеты после предупреждения о критическом финансовом положении."
+    }
    }
   ],
-  "last_update": 1795605341
+  "last_update": 1795658692
  },
  {
   "ts": 1795609224,
@@ -41762,27 +41475,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeGpkdWtqdDR5TXk1UmxibjcyQ0ttcDBfZm8yR043RXZSd0lROUdzWFdwOS01aGhKcFh4ZXFMSVBCdFg5Zl9lQ1o5aUJKcDZ5S1haNEZ6V1V4YklycTJfZ09zSmtRR0ZETFhpNmpMNkNTRUV0OXJaSGlmcHlfaEJLaWtreURmOVh5aHJKWjgtVEE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iZFJxeExwZUc2SXpWOXZxMFYtQ2hFR0lYNGtmdl84WWdwOTlpLUZpc2pmS3g3dVdlNENfYlNZM19Pd2MyZm84MElfSG5TYW4yWV9lNjhRMTZiV0hiREFzakFtdUxYSWVRcmNyU0Fn?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQank0V1NFRHMxTFdLTVEyOEhnZlBGdUJEUjRyMEZoNVlWZ0xsYnkwRjdYVDVjTm5MOThSbkJhVnl1UUhCRGNCczFZR3BReVItbzJaR1ZJUGQ4TzlzWHNRYmRSQ0hqZ3AyZWJTRU1YME5XNlVOeEhWVzh2aVNZMVNoSHhZc242OE1uQk9ZbnVDdHBleEFGdklNRHptY3ZIODI1SHc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZUp4X0I0MENWQl8tM0Y4b0t6MUNWZnJCUThrVTR2dGc2VGxjdTNZLW1SMHhqNkNQQ2lkZVRhNkZsN2dYTXB2WGZKcWt6SUNGNFIzbkl1RHN1ejBJZFJXRHNRcWdDSkhxVmRCWWFNRVZrLWhfblNOUjF4YVliVHhTTFlvV2VnUjRpNGd3XzVrRWJ0LXE0?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcDN4ME5WTGRXNWFUcnF3bU9XdEI1YXRITThibnJ1ZnppS1Rrb1psa2FoUWRlZ1lVVkd6UGIxYWp5dWY2NEtFWFc4S0lBRk1Ueng5VG5aTnFLNld2ZW5IU19LdHdxZGQ0M29Db3JMRnRsaEZxTFcyRlF6TU1rR1JqOXlIV054d3lzNENSZWNzUFJVVjhDUnY4Rlh5djY4TWR2R295Q3pwZXhjXzJXTEFRSURGWDNNMjhFY1c5VHBodGtVeTNtcFhN?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaGhGZHVIZG05ald1WndCZERBRU90S2NpWENrZVV2dnc0Yl9KaUd3b2hINlpUN0RrZ3lvQ2VHTGxxbnVaTllweVBGWnFleVZNYWdUNFE3TE15ajdnV2Y5UGVrZWgxX2pQSmpDTnZhNkRIYi1wYWRSNWVSYVFzenZZT2R4OEZmWFl6UFJEbWttRQ?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPXy0zRHFpTkR6SlRhU0NjbXVkS2dyYlZ5V1R3RDZncGVDVlR1ZE02NlkyUEFSOVhnYWtnd2FLWlBBODkyN1kzUFZBZEdkWkpTZWlTRlhKTjVxMmJfQ0xrUk5CMTJvb0VheFJMZFozZk5pRms0U29XSWd2UW5ELURCZFBleHFwSWNmQTR3Ynlnel9KREl2Q1dUUlRJY3lDX3ZOS3pheVJjd1Y0TEhiMmlsb1M0cUxYZ0F5T3dDNlROcw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rS1plYmZkem1YQW5LVHQ0UTZ3MGE1Mlp0SGx5WEtqaEFicEh1cXBpeXdaalBtNDc4ZzN3T1dTZDdsTU12SlFHTDVySWtWcHZSbVBBdFBfLURnLTBRYXkwaHNZd23SAWpBVV95cUxONU8tT0FzVDVjTi1UQVU0Y2FrWGJhMVBUSV9FMFRzTXhRSUdtYzdLSE92Y2MxYlItd09RNDlEQVpwS0x4aWRlSzFhNDk0TXh1LXRqcnhxNFkwVlJ4bmlnc29ySS1RSkpsQm1n?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcy0yQ2QxQWw1WnExd2FJVmdtTXVXdHR6QWhmYjRaSHoxeFBqQTExNnJxQXllQTFrMnVBZW5wbHFTUnMwSVdycUZCMkw0d2pxb0kwWGhRSnU4N3VnODZCRWxxcERHSWh5bFRKSTFoV1NPSjFrSEpGLWh0VUpQUzZ5aWlodnRVdVRzZlhRM1hjVmEtN285d2h6QjR2S2N6N0V2Q2hFeDQxdThXdW85YWVLcnpXQVBydE5TUUdWb0hMZDB3c2pT?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02aG9MTzVQV1FPaHZkWUlkbUctTTNOWWxwTHplcDc2akxGWU4xRy1MQndiMUxhU0tEN2Y5WkdRTlIxRU80aUxmbGNJOWVVdE12VjZ1YnM2NU8xN0VoX0ZmNVNrbDlGOEdLV0kzV19fcEJrNDVjUk1KZnhVMA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNXFONlRkX29GcHZWMENXUDJTOENMU0s0QTN0bHJsS194RmVmNlFYd2J4U0lOUWxnLWM4UEtpVEZrMUlTYjQwTjY3SEREdnJiRElMU0ZDTTBTSFBwb2FrY001b2ZXZndZekdDMHNqUTgxR3U4eWdacC1EM0wxSTRlRTdn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM1BnWUZITFUzTlFPSjZZaDRJRWRhVVg2QUVUODF5UEZCdlkzREthNlNnNmo3VVA5eXpqY2NzX05QV0VZS1RuMWl3WGRCVkc4cHA5YWVFX2ctREsxaGZWM2x3RGpQdFVJTnJpaGNMTGZnMUo5UFRncjJab2djTDN1Q21waDI5N2x6UHFNcEZMNnNUZEhIaVltdDJ5YVJ6NHNySjVzdkZyLWZtMGox?oc=5"
    }
   ],
   "impacts": [
@@ -41938,9 +41651,21 @@
      "ar": "كشفت الحكومة الأمريكية عن خطط لفرض رسوم جمركية جديدة على شركاء تجاريين رئيسيين بما في ذلك الصين والاتحاد الأوروبي والبرازيل بسبب المصانع المدعومة.",
      "ru": "Правительство США обнародовало планы введения новых пошлин в отношении ключевых торговых партнеров, включая Китай, ЕС и Бразилию, из-за субсидируемых заводов."
     }
+   },
+   {
+    "ts": 1795658692,
+    "time": "2026-11-26T02:04Z",
+    "severity": 7,
+    "summary": "ממשל טראמפ הודיע על כוונתו להטיל מכסים חדשים על 14 שותפות סחר, כולל סין והאיחוד האירופי, מה שמעורר חששות מפני אינפלציה ולחץ על השווקים הגלובליים.",
+    "i18n": {
+     "he": "ממשל טראמפ הודיע על כוונתו להטיל מכסים חדשים על 14 שותפות סחר, כולל סין והאיחוד האירופי, מה שמעורר חששות מפני אינפלציה ולחץ על השווקים הגלובליים.",
+     "en": "The Trump administration announced plans to place new tariffs on 14 trading partners, including China and the EU, sparking concerns over inflation and pressure on global markets.",
+     "ar": "أعلنت إدارة ترامب عن خطط لفرض رسوم جمركية جديدة على 14 شريكاً تجارياً، بما في ذلك الصين والاتحاد الأوروبي.",
+     "ru": "Администрация Трампа объявила о планах ввести новые пошлины против 14 торговых партнеров, включая Китай и ЕС, что вызвало опасения по поводу инфляции."
+    }
    }
   ],
-  "last_update": 1795643774
+  "last_update": 1795658692
  },
  {
   "ts": 1795618877,
@@ -42914,68 +42639,32 @@
    }
   },
   "category": "climate",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpX1laZGtES1BXdGFqQlJmeW1kS25WSkFtNDBfUll1MVUwc0JUdXBtVTl1UWRidXRFWHNz?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVXhxeGNNMWhfeVFFaGZWaHI4cVl3cUdmWV9XNnpKOVU1QjM1cTFIV2NnMmpDY0lSbjRiSHRHRk1VWE1CNUp5bFpSRF9yRnZNYWN3QWF4azlQOG9UVy11aUFHWThDZm1weTNOZzM2bFozVHhqZFBrTGxKQi04UEN0RHNMVEMzWUhrbjhsYTV0em1HaTV6ZXk0dHBiUzloZVFwOHpWNVplYWt6cm51aHdUUG1QY1ZrTVZWRGY5elE0UDF0V1p2?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0dGZm5DMzhzaXl0V1M2YmJZdl9uSU5YdWI3XzRTVU40U2ltb0ZiZ05rVzk5MEprV1hDVDh6elFWeHI2Z3VUNmVBSjNCOThjQTBvb1lkem1xaVFRR2tEZHk5dkJGM1g2N0dfQWo1eWdMdlNvRFdRXzJJdkVpTk5mdnZrSjRzN3Z6bmNXaG5lcUt2Zw?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ19GNkE5aUp3bUdoNmlsZWpBd1plbGxiMXVaQTJlbjZpRjNSNHEwTFF5d094M1JMeVN4SHZoUDBXMEpwZFN3cnR0VXA1WXA3MkFvbXY4QzRhZzNSWXJ0ZWJLOTdkcUVQblhwS0pGbTZweHhqVF9weWxzcFV0MnVJZERvNU5tdHhjd2RpSHhSQlJ4TVBTeHljeDJ2T0YxN041OXpfei0wZ2JFSTFIUWc?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTlluazk5MzBYX3c4bzBUWVgzZ240N3R5OWtEMUxneDZtODdOMUhkeDgtbTRwcC1Ea1ZpSXg4N0N2akhrNVlqUi1MSU9EdzA4UHJDOVU0Qk9yRFlXVE9hU0RCc182WkFhbS1VSlRpaWtJSkV3UzF0dFYtWmpJV2g0amoxSTl4NGJncHVLTm5mNlhzX2ZoeWFucFRCV1BvWW9EeUs2ZkhZM0Y?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbW42TWxCM0pRd0FwNGpGOU1JUlNYQTd6ZTZ6dFJTYVd5TDNENEo0WHJwbEV0RU5wOG5CaHloTmdubDRCaEdxSHM5ZGJWdTBJN3JuSnh4VDFldGZlWGxSa19Wdks5Z2tycDBiNnZCN1RaRHVJWFJESQ?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzbDZJYUtHRE5OSWFiZmdvc3BXZ1hsN3lXRUFlVlJGVXJCNVJ3LUdaLW50QVk1N1Q2cXJQQXZUYklvaEh2ekxZRnBUdmFaWWpoN0NvTGptNkNmbHJ4WFhGWlFBZm96WWNSQ0RPamNGTQ?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwM2tjamVDM3dnamw0RmZxaE9QOEdnaW1ZZ0hMQnZRMWRKNXJrbndpQlpmdnlVb0FCNC1yVU1GQWk4bWZmajVrYlhNX0VaR2RkdlpTR1FoY2REWXNZcGN2NE9yVWNDSnpKWWt0ZWR0V2x4dTlxNUpN?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeFpndXA1LTNTYWZNNjNIUS1CcFJqZUNfQ3BvaFdVa2ZiRTJURVJYTWFDWkFGWFRyLTdjVWNFbm8wS1pESExRd2Z0bmNVMmpBUWxkSGlhUVIwcTlURGc1bDRBNk5ITkgwWHQ2bU9NdFlFdUhWbDB0Tnk3UElLdmt1RV94LVU2VHEzNnpCTVdTdGs5UmNFQmxjSTNTUQ?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9acTRuQ19YajVoWVRZTHo1S1d6N0FWamEzOEY4YVRjQUo3N1g1Y3dyWWltWGFiSDY0eHJXcXRKMDMwdnluMUIyVUJvMDZvT01qRXgxeXdiWTNCa0doVVZLSFAtOG9GaGVXVjN6cTFsWm5KNjI1Vk15RnlqMWhDdw?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNW92b3BJT1FEcGNOQ1hPNEhCTDN5aEZLamdmTURINVIzLVVGQlN0dUhaY3hwdk5IcEluM0hQX1JKeGVhUkZ3cU9IVzgxa2NSbUM3ZWRYYTdfVWhtbDBBMTJGemlsNDcxRVFhdF9WOWNHNHJSUktOdXMyNFdZSUo3ZWpsbnlTN2g3d203ZGMyRklvVk5XNExYX09ULTAyb2s2cXNzUXR0VVpkRm1YckE3Q3JKTkpIZ1Nu?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV1lpZ3hMTUpmNENyUjlxOGQwUWVTQUdUWFl0QmFuRDgwekVqYnlYMmtfWmVWNG1JSnNkVzdUMnpWQUhhaWhfdGlHeTA0ZTFBdjBKZHJ0ajlMUnJCYS0tY2RXbzhram5OLW5HajZSdUVUYk5fLXhXZUp5ZHZ5SmRCNWpaNXQ0dWFIM0t3WDdtSTFFbTFMZlhRUTExTktvUU1JNXdibEQxRWJVU2hj?oc=5"
    },
    {
     "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/king-tides-and-big-waves-batter-coastal-california?traffic_source=rss"
+    "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss"
+   },
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNjBRM1lDSG11NXdkYURsUmhYXzBsZWs1LWtPMURnS2VOYS1rTHhoX29ydzA3aGNUUTVYWkFUdEd2OTRTMzBtbVhleWo4dDZzNjhZUmo4bzN5dU55RFZER0NYQkVhbVJfREwyT0RZeVFybkxwTGtUSXZIY0RHTHRrTkVKZFI0MzlsYUdJVGFURlcxZUZsRDQyS0VUT2kzSVd2ZjhzQWlFRFExQTlkc18xcWlpSQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeGZYWUl0QTBFd3c0WFBsMG9BZUJlZ0kzblc2OEpIcjhxYUJkUFpGVkhSUDR5ZjV2WWVXaEtHM0h3SWJmcGhpUTd3V285YjFVWFQtNWRHbmJiZ0ktaXlzeDhQaDB2SWJkdnUtU3pkdnBqWXBudE11ajJpVmlqMThjMHhCQjJFVW9hTjFhOThiSGRoSXdmUFFpRWQ2dlNQUXdpN0dheHVPZDZOSE5SdnfSAa4BQVVfeXFMTnhmWFlJdEEwRXd3NFhQbDBvQWVCZWdJM25XNjhKSHI4cWFCZFBaRlZIUlA0eWY1dlllV2hLRzNId0liZnBoaVE3d1dvOWIxVVhULTVkR25iYmdJLWl5c3g4UGgwdkliZHZ1LVN6ZHZwallwbnRNdWoyaVZpajE4YzB4QkIyRVVvYU4xYTk4YkhkaEl3ZlBRaUVkNnZTUFF3aTdHYXh1T2Q2TkhOUnZ3?oc=5"
    },
    {
     "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdHZYZVFDX1p3Vm5NZ0VPNFdyazFleFN5SFBGRVdROVpXNzVGT1lYV25GYXpiLVF1eDlRXzVhWUNZSGFKbFlxOERNWjZmSVF1NHRmZTdwcnhvY1REdXhoaktJZlZDSjgwNmdRc0RHMy1VM1hORGhzYTNBSUE0WXhySnZQYTJoWXgyOHFtdWVxNVVnd0NwS3BSYTktRkpHQXU1WndRWDJmTERiVzlnbzJNaG1aMFd2TGljTVhxck1zZzM?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOU09iOXFJdVhOZ3NEbDk1d2hOWjF1VU9VdTl0Y2VZSVRLSTQzZ19LTFpjSHNLQ2lGNFNOOF9tekpiRUI3ay1fY2MyUjBUVFVhRWZzWTdQa0h5WFMwdG96TzY3Wnl5VVc4ajhhelNTOG9fSlJVM25HUEM2SFd0bVRIZ3J6NWZRdjlNem93QnE0Nk9heEQ0bk5SN1pBd3ZIWWJEcXowd2dHN1BqRUNFZm1Tbm5oYmh1VjEyTloyRTZUZnQ5eE9aYm9rbmZhSmhGeFB6TkxtcU5CNDZGd0dZT1l3YTNQT1pBQ1U?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10RE00MUd1SG5Yd1hEa0FGNUREUnBxc3ltdHBwV0J1UE1nYnM1eTNGcVVRR0dQdk55SXRJNWtzUHhqVFNpcUtrWVlra2N4QjVjRDBGckdid0Mzamg1TnYteWVfYU8yUUFGMEl1R2pGQ2JrdWJvaEtJV2hR?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWVuQUsyLTY5U19LbkY3S1F0VllFSkpueG9qU1ptVVh4RVVTa2dnT0o3UmlTblRBTDM3a1laVE9mY0tQY3VwWnZyUENtSENBT3RVZXM2dmVPY2JjTzF5ZUU3b1EwT0pZd1lIUV9jdjMwdW1MaU1qUVo2cm9rRlJpc2k0eFRveXpzd2tDa3BQTUlIZ3piWU92Wnh5aXVxMkJHQ1lPMGI3SlN5dXk2VVV2TlEwV2UwNktlOGJyYnBRM3lBRnpJZHc?oc=5"
    }
   ],
   "impacts": [
@@ -42997,9 +42686,43 @@
      "ru": "Travelers Insurance"
     },
     "price_at_alert": 406.86
+   },
+   {
+    "ticker": "ALL",
+    "direction": "down",
+    "t0": 1795658692,
+    "reason": "הצפות חוף רחבות היקף מעלות חשש לתביעות ביטוח רכוש גבוהות.",
+    "reason_i18n": {
+     "he": "הצפות חוף רחבות היקף מעלות חשש לתביעות ביטוח רכוש גבוהות.",
+     "en": "Widespread coastal flooding raises concerns over potential property insurance claims.",
+     "ar": "الفيضانات الساحلية الواسعة تثير مخاوف بشأن مطالبات التأمين على الممتلكات.",
+     "ru": "Широкомасштабные прибрежные наводнения усиливают опасения по поводу исков по страхованию имущества."
+    },
+    "name_i18n": {
+     "he": "ALL - חברת הביטוח אולסטייט",
+     "en": "ALL - Allstate Insurance",
+     "ar": "ALL - شركة التأمين أולستيت",
+     "ru": "ALL - страховая компания Allstate"
+    },
+    "price_at_alert": 271.39
    }
   ],
-  "id": "e3df5c508687"
+  "id": "e3df5c508687",
+  "updates": [
+   {
+    "ts": 1795658692,
+    "time": "2026-11-26T02:04Z",
+    "severity": 4,
+    "summary": "גאות ענק (\"King Tides\") בשילוב עם רוחות חזקות וגשמים עזים גרמו להצפות ולנזקים בקהילות לאורך חוף קליפורניה ומדינת וושינגטון.",
+    "i18n": {
+     "he": "גאות ענק (\"King Tides\") בשילוב עם רוחות חזקות וגשמים עזים גרמו להצפות ולנזקים בקהילות לאורך חוף קליפורניה ומדינת וושינגטון.",
+     "en": "Extreme king tides combined with strong winds and high surf have caused severe coastal flooding and damage across California and Washington state communities.",
+     "ar": "تسببت المد والجزر العالية والرياح القوية في حدوث فيضانات ساحلية وأضرار على طول ساحل كاليفورنيا وواشنطن.",
+     "ru": "Экстремально высокие приливы в сочетании с сильным ветром вызвали прибрежные наводнения в Калифорнии и Вашингтоне."
+    }
+   }
+  ],
+  "last_update": 1795658692
  },
  {
   "ts": 1795650550,
@@ -43197,5 +42920,91 @@
    }
   ],
   "id": "b755820cacc8"
+ },
+ {
+  "ts": 1795658692,
+  "time": "2026-11-26T02:04Z",
+  "title": "הבנק המרכזי של קוריאה הדרומית העלה את הריבית לרמה של 3.25%",
+  "summary": "הבנק המרכזי של קוריאה הדרומית העלה את ריבית הבסיס ב-25 נקודות בסיס ל-3.25%, רמת שיא של שנתיים, על רקע לחצים מתמשכים מצד האינפלציה ומחירי הדיור.",
+  "kid": "הבנק המרכזי בקוריאה הדרומית העלה את עלות הכסף כדי להילחם בעליית המחירים. זה עשוי להשפיע על שוק הנדל\"ן המקומי ומניות הבנקים.",
+  "i18n": {
+   "title": {
+    "he": "הבנק המרכזי של קוריאה הדרומית העלה את הריבית לרמה של 3.25%",
+    "en": "Bank of Korea Raises Rate to 3.25% Amid Inflation Pressures",
+    "ar": "بنك كوريا المركزي يرفع سعر الفائدة إلى 3.25%",
+    "ru": "Банк Кореи поднял ставку до 3.25% на фоне инфляционного давления"
+   },
+   "summary": {
+    "he": "הבנק המרכזי של קוריאה הדרומית העלה את ריבית הבסיס ב-25 נקודות בסיס ל-3.25%, רמת שיא של שנתיים, על רקע לחצים מתמשכים מצד האינפלציה ומחירי הדיור.",
+    "en": "The Bank of Korea hiked its benchmark interest rate by 25 basis points to 3.25%, a two-year high, citing persistent inflation and housing price pressures.",
+    "ar": "رفع البنك المركزي الكوري الجنوبي سعر الفائدة الرئيسي بمقدار 25 نقطة أساس إلى 3.25% وسط ضغوط التضخم.",
+    "ru": "Банк Кореи поднял ключевую ставку на 25 базисных пунктов до 3.25% на фоне инфляционного давления и цен на жилье."
+   },
+   "kid": {
+    "he": "הבנק המרכזי בקוריאה הדרומית העלה את עלות הכסף כדי להילחם בעליית המחירים. זה עשוי להשפיע על שוק הנדל\"ן המקומי ומניות הבנקים.",
+    "en": "South Korea's central bank raised borrowing costs to fight rising prices. This can impact the local housing market and bank stocks.",
+    "ar": "رفع البنك المركزي في كوريا الجنوبية تكلفة الاقتراض لمكافحة ارتفاع الأسعار، مما يؤثر على سوق الإسكان.",
+    "ru": "Центральный банк Южной Кореи поднял стоимость заимствований для борьбы с ростом цен, что влияет на рынок жилья."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91S3M5TlpYc2xGYTZBUWVlZDZqT05HSDNDWHZqSlMzcVhBazJUNTBZQ0ZBNkJxTERVOENPQlZSdzc5SGY4RTZWMkpORlNCTF8tYkNWLUl3?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBZlNVU0RaVmozeTh3cUVYZ29idXF6djlaak1ocmRSMU9LSkh0MVBwMURUVDRBWVE0T0xJM2lUaHJVUGhhN2t1eXdnY2QydDg?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWkV2M2l1NzZOZUdGQm96Mm50cW9sY25VQUZucWZOREd5WFljYUVNMVhZd2hfSlVicEh5dHlfc3hiT3lJX19oTEVUZm01cUEyM21OREpxb1hzZXRieUZFTTVFVkRiR3F1UHhfelJhMS1CeEg1eGh3alhfQ19TcVJHZ2xjcXpvaDVjTnZfMkV5TGNMWVB1X2Y4c29WRXdodw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa2tvOXM1cjFQUHZxQzhrR3V0VTdlc291SWJkMUxEUXZJc3l5VTkxV0tlZ0VmaFVBaW03b2JOOU42NWtVU3A1YU03ekJ3RVB5MVpTNlJyVkVJTUVXNTgyMTdtYS1fNFRXamVtZms3dnlDOHVZWWZzcXRzenBWckFXSmlpeFZVcHgxWFZJYXRCR1Q5bldIYmFmNVd3VGx5RnU0V0d4by1BRlA?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0RneFVhbHg0X2FWTC1QaUNRX2xDMDZiTUsxZ3VUWXhKRW1QOEI4OWhJOXFPY21CUFV2QkQ0bjROY0hFYTRwajlpU1NyczRrTk9DLTE0SXJGNTZ5dDAtbThObTZKZG5hTFpQVnEweGxxV0REN0ZhZFhwNzYyTy1pRXlhQ0JnejdZbFhkaUNPXzhpOGltTk1ZQ2w2TzJfdzF2YU45aXF3?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56eG9neTdvT3ZOWmNvZ1pGSE5Fd3hvTDNLRXN3ZG5ERW5PUmF1WGo2eVdJTFVLbG56MWl1aGZibzdPZExETS1LS0VlVFpudmxiRHZ6RHpRUThoZ3k0OFU3Y0VieUhDSy1ZMEkyZVZQQTFYOHhCWm9NdnJxNjBtTzDSAZMBQVVfeXFMTldhS0pMOTQxRmZzbkUtdDdMWEhEZTRpZFZrdVBnWExCUHJWTXJnbTdnaGljR01DRUlhM0tjVUN6NER0LW1ZVkpmeVZlampfdGpNaklZSmU5UVVHWUIxM3BMVC1CY1VTbXpZa01wVkdDSDFybmg3TUc4YWtqYTlLN3hMOW9Fai13SXR4TlpETkFtWmhF?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLTF5NzhVcUx4MzRQakJDcWdsSUtZYjZSeVl6cVpiZ05LbUI5eE82RWVZTkFlTmJpenhGX1RtbERfOVlGSkNnZWJzTU0yNkpRQktxNnVnMEhCdVlucjhEcUllRUVfa0tMbHU1SDNxS1Vac3RlOWU3Zlc2UHF5cDhoQzU1VjlydnQwMXM2RjhGem1LMmlTaDU3REt2eHdObEtiSldIdVRJaTBzb1hwYm9FUmVYZW0zbVp6WkdFN3F5QzRTZjNqbFVqVXNyR0JZdk5xclF0a0V30gHbAUFVX3lxTFBsWXJwQ0RvVmFDTkt6SUZMZFI0NUU1eWFQRkpFaHVsNUFFR0djWmRpaXEwM0V0RTdMVko4eG16WHRock4xcHJweXQ0enQtckd6ZVhMRGhCV1E3aFVGdHpEMmZueDVFS29RbGY3RXp5cjFudEZSRDVia2JKN0l3NXdDZFFqOEpER3lkbHNYbTNkVmU2YTVaWEJiaXV5bTdTUkNVWXR5cUlDSzRiS1gwRElMa21xNTR4VG5pYVd4NjBMbUlnZHpZSy1ROXVGVXBqaVZWYzRCSkt2N3UwMA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWY",
+    "direction": "down",
+    "t0": 1795658692,
+    "reason": "העלאת ריבית לשיא של שנתיים מאטת את הפעילות הכלכלית המקומית.",
+    "reason_i18n": {
+     "he": "העלאת ריבית לשיא של שנתיים מאטת את הפעילות הכלכלית המקומית.",
+     "en": "Rate hikes to a two-year high weigh on domestic economic activity.",
+     "ar": "رفع الفائدة إلى أعلى مستوى في عامين يضغط على النشاط الاقتصادي.",
+     "ru": "Повышение ставки до двухлетнего максимума давит на экономику."
+    },
+    "name_i18n": {
+     "he": "EWY - קרן סל קוריאה הדרומית",
+     "en": "EWY - South Korea ETF",
+     "ar": "EWY - صندوق كوريا الجنوبية",
+     "ru": "EWY - фонд акций Южной Кореи"
+    },
+    "price_at_alert": 129.19
+   }
+  ],
+  "id": "2bbec0d53ef5"
  }
 ]
