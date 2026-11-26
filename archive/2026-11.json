@@ -163605,6 +163605,10 @@
    {
     "name": "CNBC World",
     "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONF85SUh3R2x0TlBfdGZpZDh1c3FQWW1OYjRwUm9mT2pUNzhVaGI0c25NXzlHNklvbHJBQ252Si1fNUV2eWJJTlZsZk1DWkE1YTN2bGgtN2xKazliN1B6a0hVYVpsS0VQb2VWWE0xblN6RTdNeThvVk5PeUhyZHJFMWw1OFQyYjRWTkpaSF9aRjR1ODJRbHRKY2F2ZXhNcVFCaG1IVVBmbFdab213SDctOVJR?oc=5"
    }
   ],
   "impacts": [
@@ -163645,6 +163649,25 @@
      "ru": "ETF на полупроводники"
     },
     "price_at_alert": 422.46
+   },
+   {
+    "ticker": "SMCI",
+    "direction": "down",
+    "t0": 1795711797,
+    "reason": "הפרעה בשרשרת האספקה של שרתי בינה מלאכותית.",
+    "reason_i18n": {
+     "he": "הפרעה בשרשרת האספקה של שרתי בינה מלאכותית.",
+     "en": "Disruption in the AI server supply chain.",
+     "ar": "اضطراب في سلسلة توريد خوادم الذكاء الاصطناعي.",
+     "ru": "Нарушение цепочки поставок ИИ-серверов."
+    },
+    "name_i18n": {
+     "he": "Super Micro Computer - יצרנית שרתים",
+     "en": "Super Micro Computer - Server manufacturer",
+     "ar": "سوبر مايكرو كمبيوتر - مصنعة خوادم",
+     "ru": "Super Micro Computer - производитель серверов"
+    },
+    "price_at_alert": 23.31
    }
   ],
   "id": "0254258c9eb5",
@@ -163660,9 +163683,21 @@
      "ar": "تطبق الحكومة الأمريكية قواعد جديدة لسد الثغرات التي تسمح بالوصول إلى رقائق الذكاء الاصطناعي المتقدمة في السوق الصينية، على الرغم من محاولات التحايل.",
      "ru": "Правительство США внедряет новые правила, чтобы закрыть лазейки, позволяющие получать доступ к передовым чипам ИИ на китайском рынке, несмотря на попытки обхода."
     }
+   },
+   {
+    "ts": 1795711797,
+    "time": "2026-11-26T16:49Z",
+    "severity": 7,
+    "summary": "Nvidia, Dell ו-SMCI עצרו משלוחי שרתי בינה מלאכותית בעקבות החמרה בבקרת הייצוא של ארה\"ב על שבבים.",
+    "i18n": {
+     "he": "Nvidia, Dell ו-SMCI עצרו משלוחי שרתי בינה מלאכותית בעקבות החמרה בבקרת הייצוא של ארה\"ב על שבבים.",
+     "en": "Nvidia, Dell, and SMCI have halted shipments of AI servers following stricter US chip export controls.",
+     "ar": "أوقفت شركات إنفيديا وديل وSMCI شحنات خوادم الذكاء الاصطناعي بعد تشديد الولايات المتحدة لضوابط تصدير الرقائق.",
+     "ru": "Компании Nvidia, Dell и SMCI приостановили поставки ИИ-серверов после ужесточения экспортного контроля США над чипами."
+    }
    }
   ],
-  "last_update": 1795707799
+  "last_update": 1795711797
  },
  {
   "ts": 1795679895,
@@ -165327,6 +165362,14 @@
    {
     "name": "Google News: big deals",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMnRNbjdyVjVyY1dCS0xoMWQtQzZ4aXQ5MDBINllleVNHUWQyQ0tRUExDNHA3YlVVY2pLRVlPZGZrTUc5WDFqMk1qWEZoa0k3VjlJbnR0clRMSDJ3YmhBdi0wYU1sR1ZWampaUmgtb1U3OGJ5dDhlaTc3ZGRCZ1djUzBiY0w1a2lyRjdyMndxbHVkdTdNQVdkdFRCNGxwYnpYcjYtNEh3?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbFVTTE5zRjcxVFpjc2FhQ1Y5VTRjSV9ONTlIV09kN1Y2SkpJMGp3d2Q2UGpLcUdYNTdZMFhHZWFzbFY5ZmN4eDgwT2lqTFVfcjRfcEVVT1A1dVRLQ0JQSHZXT24wbVVCUmtkWWQ3ODJTc3lkYURLUHFPYjlycVhwVVpyMURlMkFRZXhNZ1hiRDRqVjRKUUhXUDJXME1vU2p5N0tPdW1DZF9uWGZOamc?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV0JsRl9sRW9GemN2WXlVWkhtRE5VV2ZGMi1Ia0VfZ2RFX0d2UnBXbk1BY3I2UHFCVkhLd3JmZGlNeE1HYXFXZjQxLUNWXzFLZzU5NENSUkc2WXdLcTBFUC15eXcwaVp0eE9BT1BhUUVQZkljVTdHVTZIZGtLaklQQ25kcHRyRmtsTjhyc0VyVFJrS0Mx?oc=5"
    }
   ],
   "impacts": [
@@ -165369,6 +165412,145 @@
     "price_at_alert": 360.27
    }
   ],
-  "id": "e70c2843c7e4"
+  "id": "e70c2843c7e4",
+  "updates": [
+   {
+    "ts": 1795711797,
+    "time": "2026-11-26T16:49Z",
+    "severity": 4,
+    "summary": "קואליציה של חמש מדינות נאט\"ו אישרה רכישה משותפת של למעלה מ-430 רכבים קרביים מסוג CV90 כדי לחזק את יכולות ההגנה.",
+    "i18n": {
+     "he": "קואליציה של חמש מדינות נאט\"ו אישרה רכישה משותפת של למעלה מ-430 רכבים קרביים מסוג CV90 כדי לחזק את יכולות ההגנה.",
+     "en": "A coalition of five NATO countries has approved a joint procurement of over 430 CV90 combat vehicles to strengthen defense capabilities.",
+     "ar": "وافقت مجموعة من خمس دول في الناتو على شراء مشترك لأكثر من 430 مركبة قتالية من طراز CV90 لتعزيز القدرات الدفاعية.",
+     "ru": "Коалиция из пяти стран НАТО одобрила совместную закупку более 430 боевых машин CV90 для укрепления обороноспособности."
+    }
+   }
+  ],
+  "last_update": 1795711797
+ },
+ {
+  "ts": 1795711797,
+  "time": "2026-11-26T16:49Z",
+  "title": "שני אזרחים איטלקים נהרגו בתקיפת כטב\"ם בכווית",
+  "summary": "שני טכנאים של חברת Rheinmetall הגרמנית נהרגו בתקיפת כטב\"ם איראני בתחנת מעקב הגנה אווירית בכווית.",
+  "kid": "עובדים של חברה ביטחונית גרמנית נהרגו בתקיפה במזרח התיכון. זה מעלה את המתיחות באזור ועלול להשפיע על חברות ביטחוניות.",
+  "i18n": {
+   "title": {
+    "he": "שני אזרחים איטלקים נהרגו בתקיפת כטב\"ם בכווית",
+    "en": "Two Italian nationals killed in drone strike in Kuwait",
+    "ar": "مقتل مواطنين إيطاليים في هجوم بطائرة مسيرة في الكويت",
+    "ru": "Двое граждан Италии погибли в результате удара беспилотника в Кувейте"
+   },
+   "summary": {
+    "he": "שני טכנאים של חברת Rheinmetall הגרמנית נהרגו בתקיפת כטב\"ם איראני בתחנת מעקב הגנה אווירית בכווית.",
+    "en": "Two technicians working for the German company Rheinmetall were killed in an Iranian drone strike at an air-defense surveillance station in Kuwait.",
+    "ar": "قُتل فنيان يعملان لدى شركة راينميتال الألمانية في هجوم بطائرة مسيرة إيرانية على محطة مراقبة دفاع جوي في الكويت.",
+    "ru": "Двое технических специалистов немецкой компании Rheinmetall погибли в результате удара иранского беспилотника по станции наблюдения ПВО в Кувейте."
+   },
+   "kid": {
+    "he": "עובדים של חברה ביטחונית גרמנית נהרגו בתקיפה במזרח התיכון. זה מעלה את המתיחות באזור ועלול להשפיע על חברות ביטחוניות.",
+    "en": "Workers from a German defense company were killed in a Middle East attack. This increases regional tension and could affect defense companies.",
+    "ar": "قُتل عاملون في شركة دفاع ألمانية في هجوم بالشرق الأوسط. هذا يزيد من التوتر الإقليمي وقد يؤثر على شركات الدفاع.",
+    "ru": "Сотрудники немецкой оборонной компании погибли в результате атаки на Ближнем Востоке. Это усиливает региональную напряженность и может повлиять на оборонные компании."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OcUhDVk4wWDlWNlIzVzAxQkVJYnM1NUMxckpsMzdMTU1IcHBDOUxURUswVzczYUxnUHV2NHBKcFpFazJTVXl1QzdNamdHS3VhUmNUc3F1NzEwaE5laDQ4UGxpTGpVRzFla2Rj?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795711797,
+    "reason": "עלייה במתיחות הגיאופוליטית מגבירה בדרך כלל את הביקוש למניות ביטחוניות.",
+    "reason_i18n": {
+     "he": "עלייה במתיחות הגיאופוליטית מגבירה בדרך כלל את הביקוש למניות ביטחוניות.",
+     "en": "Rising geopolitical tensions typically increase demand for defense stocks.",
+     "ar": "زيادة التوترات الجيوسياسية تزيد عادة من الطلب على أسهم الدفاع.",
+     "ru": "Рост геополитической напряженности обычно повышает спрос на оборонные акции."
+    },
+    "name_i18n": {
+     "he": "ITA - קרן סל של חברות ביטחוניות",
+     "en": "ITA - Aerospace & Defense ETF",
+     "ar": "ITA - صندوق استثمار لشركات الدفاع",
+     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.77
+   }
+  ],
+  "id": "9e470d232a2d"
+ },
+ {
+  "ts": 1795711797,
+  "time": "2026-11-26T16:49Z",
+  "title": "ריית'און תפתח טיל שיוט גרעיני עבור הצי האמריקאי",
+  "summary": "הצי האמריקאי בחר ב-Raytheon (RTX) לפתח את טיל השיוט הגרעיני SLCM-N, המיועד לצוללות, כיורש לטיל הטומהוק.",
+  "kid": "חברת ריית'און קיבלה חוזה גדול לבניית טיל חדש ומתקדם עבור צוללות של צבא ארה\"ב. זה עשוי להעלות את ערך המניה של החברה.",
+  "i18n": {
+   "title": {
+    "he": "ריית'און תפתח טיל שיוט גרעיני עבור הצי האמריקאי",
+    "en": "Raytheon to develop nuclear-powered cruise missile for US Navy",
+    "ar": "رايثيون تطور صاروخ كروز نووي للبحرية الأمريكية",
+    "ru": "Raytheon разработает ядерную крылатую ракету для ВМС США"
+   },
+   "summary": {
+    "he": "הצי האמריקאי בחר ב-Raytheon (RTX) לפתח את טיל השיוט הגרעיני SLCM-N, המיועד לצוללות, כיורש לטיל הטומהוק.",
+    "en": "The US Navy has selected Raytheon (RTX) to develop the SLCM-N nuclear-powered cruise missile for submarines, intended as a successor to the Tomahawk.",
+    "ar": "اختارت البحرية الأمريكية شركة رايثيون (RTX) لتطوير صاروخ كروز النووي SLCM-N للغواصات، ليكون خليفة لصاروخ توماهوك.",
+    "ru": "ВМС США выбрали Raytheon (RTX) для разработки ядерной крылатой ракеты SLCM-N для подводных лодок в качестве преемника Tomahawk."
+   },
+   "kid": {
+    "he": "חברת ריית'און קיבלה חוזה גדול לבניית טיל חדש ומתקדם עבור צוללות של צבא ארה\"ב. זה עשוי להעלות את ערך המניה של החברה.",
+    "en": "Raytheon won a big contract to build a new advanced missile for US Navy submarines. This could make the company's stock price go up.",
+    "ar": "فازت شركة رايثيون بعقد كبير لبناء صاروخ متطور جديد لغواصات الجيش الأمريكي. هذا قد يؤدي إلى ارتفاع سعر سهم الشركة.",
+    "ru": "Raytheon получила крупный контракт на создание новой современной ракеты для подводных лодок ВМС США. Это может привести к росту акций компании."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN2lsUTVEaTMtU0lvdHZhU0dUYnZIcExiTGExRjF2UUdoMG5GWmJ3UVI2amJxOGNHN2lZX21Kc2lNT0kzMUNUWVpvbFdyV3ZJdktuM1ZLRTdFQkM5M09LYXV6YTZMalVlMFJBRGJRT3gzd3lIYlFtdUp3bDRJNklGaA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1795711797,
+    "reason": "זכייה בחוזה פיתוח משמעותי עבור הצי האמריקאי.",
+    "reason_i18n": {
+     "he": "זכייה בחוזה פיתוח משמעותי עבור הצי האמריקאי.",
+     "en": "Winning a significant development contract for the US Navy.",
+     "ar": "الفوز بعقد تطوير مهم للبحرية الأمريكية.",
+     "ru": "Получение значительного контракта на разработку для ВМС США."
+    },
+    "name_i18n": {
+     "he": "RTX - חברת טכנולוגיה ביטחונית",
+     "en": "RTX - Defense technology company",
+     "ar": "RTX - شركة تكنولوجيا دفاعية",
+     "ru": "RTX - оборонная технологическая компания"
+    },
+    "price_at_alert": 196.19
+   }
+  ],
+  "id": "e987652aa5d4"
  }
 ]

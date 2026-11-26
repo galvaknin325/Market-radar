@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T15:44Z",
+ "generated": "2026-11-26T16:50Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1517,
+ "total_alerts": 1519,
  "overall": {
   "n": 1151,
   "hits": 573,
@@ -154,26 +154,26 @@
    "avg_edge": 0.13
   },
   "ITA": {
-   "mentions": 261,
+   "mentions": 262,
    "n": 247,
    "hits": 165,
    "name": {
-    "he": "קרן סל ביטחון",
-    "en": "Defense ETF",
-    "ar": "صندوق الدفاع",
-    "ru": "ETF оборонного сектора"
+    "he": "ITA - קרן סל של חברות ביטחוניות",
+    "en": "ITA - Aerospace & Defense ETF",
+    "ar": "ITA - صندوق استثمار لشركات الدفاع",
+    "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -0.63
   },
   "RTX": {
-   "mentions": 72,
+   "mentions": 73,
    "n": 62,
    "hits": 42,
    "name": {
-    "he": "RTX",
-    "en": "RTX",
-    "ar": "RTX",
-    "ru": "RTX"
+    "he": "RTX - חברת טכנולוגיה ביטחונית",
+    "en": "RTX - Defense technology company",
+    "ar": "RTX - شركة تكنولوجيا دفاعية",
+    "ru": "RTX - оборонная технологическая компания"
    },
    "avg_edge": 0.79
   },
@@ -1914,6 +1914,18 @@
     "en": "US Steel (Steel sector)",
     "ar": "يو إس ستيل (قطاع الصلب)",
     "ru": "US Steel (сталелитейный сектор)"
+   },
+   "avg_edge": null
+  },
+  "SMCI": {
+   "mentions": 1,
+   "n": 0,
+   "hits": 0,
+   "name": {
+    "he": "Super Micro Computer - יצרנית שרתים",
+    "en": "Super Micro Computer - Server manufacturer",
+    "ar": "سوبر مايكرو كمبيوتر - مصنعة خوادم",
+    "ru": "Super Micro Computer - производитель серверов"
    },
    "avg_edge": null
   }
