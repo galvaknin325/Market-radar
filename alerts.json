@@ -1494,180 +1494,6 @@
  {
   "ts": 1795121562,
   "time": "2026-11-19T20:52Z",
-  "title": "הסנאט האמריקאי דחה הצעה להגבלת סמכויות המלחמה באיראן",
-  "summary": "רפובליקנים בסנאט האמריקאי דחו הצעת חוק שנועדה להגביל את סמכויות המלחמה מול איראן ברוב של 51 מול 48.",
-  "kid": "הסנאט בארה\"ב החליט לא להגביל את פעולות הממשל מול איראן. המשך המתיחות הביטחונית יכול לשמור על מחירי הנפט גבוהים ולעזור למניות של חברות הנפט והנשק.",
-  "i18n": {
-   "title": {
-    "he": "הסנאט האמריקאי דחה הצעה להגבלת סמכויות המלחמה באיראן",
-    "en": "US Senate rejects measure to limit Trump's war powers in Iran",
-    "ar": "مجلس الشيوخ الأمريكي يرفض إجراء للحد من صلاحيات الحرب لإيران",
-    "ru": "Сенат США отклонил резолюцию об ограничении военных полномочий по Ирану"
-   },
-   "summary": {
-    "he": "רפובליקנים בסנאט האמריקאי דחו הצעת חוק שנועדה להגביל את סמכויות המלחמה מול איראן ברוב של 51 מול 48.",
-    "en": "US Senate Republicans rejected a measure to limit war powers regarding Iran by a 51-48 vote.",
-    "ar": "رفض الجمهوريون في مجلس الشيوخ الأمريكي إجراءً يهدف إلى الحد من صلاحيات الحرب ضد إيران بأغلبية 51 مقابل 48.",
-    "ru": "Сенаторы-республиканцы в США отклонили резолюцию, ограничивающую военные полномочия в отношении Ирана, 51 голосом против 48."
-   },
-   "kid": {
-    "he": "הסנאט בארה\"ב החליט לא להגביל את פעולות הממשל מול איראן. המשך המתיחות הביטחונית יכול לשמור על מחירי הנפט גבוהים ולעזור למניות של חברות הנפט והנשק.",
-    "en": "The US Senate decided not to restrict government actions regarding Iran. Continued security tensions can keep oil prices high and support oil and defense stocks.",
-    "ar": "قرر مجلس الشيوخ الأمريكي عدم تقييد تحركات الحكومة تجاه إيران. التوترات الأمنية المستمرة قد تبقي أسعار النفط مرتفعة.",
-    "ru": "Сенат США решил не ограничивать действия властей в отношении Ирана. Сохранение напряженности поддерживает цены на нефть и акции оборонных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOci0zNThpNTFIUXdjS2RVLXFLdXZwZ3lxR1NWN2NMdzRYUlcxaktURzN4Wk9mNXAzN3pTS1lScURBaWp5N3A3NVNLaGFSZlFDN0pHNElVYnNSOTFaeU1fNXFCN2MxYXdxMmljSldNd0QwTTRCY0RyUXpQbC1aRG9Vbks5NmlyU3Y4b3Z2V2l0VlJxcWNkSFFITFd2elhudGgtOE5fc2I2Ym9QR05HanVHYjRfOFRBTmlTYk4wb0JYMkFCS3ItaUE?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1795121562,
-    "reason": "המשך המתיחות מול איראן תומך במחירי הנפט ובמניות האנרגיה",
-    "reason_i18n": {
-     "he": "המשך המתיחות מול איראן תומך במחירי הנפט ובמניות האנרגיה",
-     "en": "Continued tensions with Iran support oil prices and energy stocks",
-     "ar": "التوترات المستمرة مع إيران تدعم أسعار النفط وأسهم الطاقة",
-     "ru": "Продолжающаяся напряженность с Ираном поддерживает цены на нефть и акции энергетики"
-    },
-    "name_i18n": {
-     "he": "XLE – קרן סל אנרגיה",
-     "en": "XLE – Energy Sector ETF",
-     "ar": "XLE – صندوق قطاع الطاقة",
-     "ru": "XLE – ETF энергетического сектора"
-    },
-    "price_at_alert": 60.985,
-    "entry_price": 60.71,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 59.85,
-    "exit_date": "2026-11-23",
-    "change_pct": -1.42,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -2.65,
-    "edge_pct": -2.65,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795121562,
-    "reason": "דחיית ההגבלה עלולה לשמור על מעורבות צבאית עתידית גבוהה",
-    "reason_i18n": {
-     "he": "דחיית ההגבלה עלולה לשמור על מעורבות צבאית עתידית גבוהה",
-     "en": "Rejection of limits signals sustained defense engagement",
-     "ar": "رفض القيود يشير إلى استمرار المشاركة الدفاعية",
-     "ru": "Отклонение ограничений сигнализирует о сохранении военного вовлечения"
-    },
-    "name_i18n": {
-     "he": "ITA – קרן סל תעופה וביטחון",
-     "en": "ITA – Aerospace & Defense ETF",
-     "ar": "ITA – صندوق الفضاء والدفاع",
-     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 68.43,
-    "entry_price": 68.03,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 68.48,
-    "exit_date": "2026-11-23",
-    "change_pct": 0.66,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -0.58,
-    "edge_pct": -0.58,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "bb7ff3026359",
-  "evaluated": true
- },
- {
-  "ts": 1795121562,
-  "time": "2026-11-19T20:52Z",
-  "title": "עלייה של 0.3% במדד המחירים הסיטונאיים בארה\"ב באוקטובר",
-  "summary": "מחירי הסיטונאות בארה\"ב עלו ב-0.3% בחודש אוקטובר, קצב הנמוך מהתחזיות, אך לחצי האינפלציה נמשכים.",
-  "kid": "מדד המחירים הסיטונאיים בארה\"ב עלה פחות מהצפוי, אבל האינפלציה עדיין כאן. זה יכול לגרום לפד (הבנק המרכזי) לחשוב היטב על הפחתת ריבית, מה שמשפיע על מחירי המניות.",
-  "i18n": {
-   "title": {
-    "he": "עלייה של 0.3% במדד המחירים הסיטונאיים בארה\"ב באוקטובר",
-    "en": "US wholesale prices increase by 0.3% in October",
-    "ar": "ارتفاع أسعار الجملة في الولايات المتحدة بنسبة 0.3% في أكتوبر",
-    "ru": "Оптовые цены в США выросли на 0,3% в октябре"
-   },
-   "summary": {
-    "he": "מחירי הסיטונאות בארה\"ב עלו ב-0.3% בחודש אוקטובר, קצב הנמוך מהתחזיות, אך לחצי האינפלציה נמשכים.",
-    "en": "US wholesale prices increased by 0.3% in October, less than forecasted, though inflation pressures persist.",
-    "ar": "ارتفعت أسعار الجملة الأمريكية بنسبة 0.3% في أكتوبر، وهو أقل من المتوقع، لكن الضغوط التضخمية مستمرة.",
-    "ru": "Оптовые цены в США выросли на 0,3% в октябре, что ниже прогнозов, но инфляционное давление сохраняется."
-   },
-   "kid": {
-    "he": "מדד המחירים הסיטונאיים בארה\"ב עלה פחות מהצפוי, אבל האינפלציה עדיין כאן. זה יכול לגרום לפד (הבנק המרכזי) לחשוב היטב על הפחתת ריבית, מה שמשפיע על מחירי המניות.",
-    "en": "US wholesale prices rose less than expected, but inflation is still here. This might make the Federal Reserve think carefully about interest rates, affecting stock prices.",
-    "ar": "ارتفعت أسعار الجملة في أمريكا بأقل من المتوقع، لكن التضخم لا يزال موجوداً. هذا قد يجعل البنك المركزي يعيد التفكير في أسعار الفائدة.",
-    "ru": "Оптовые цены в США выросли меньше ожиданий, но инфляция сохраняется. Это заставляет ФРС осторожно подходить к ставкам, влияя на акции."
-   }
-  },
-  "category": "macro",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPV1BXdGM1a3JESHJMeVkwdXlpdDRUM2JPcm1EMTl2TVAyaEZERFEyNURvZW9IUFRROWEtWnN0VjZERDZ2T3RZbXZ6X3RPbXdQb3lMSkIxMFpIbGFQNTB0RUxzYjdBNHhobTRpRlg2TXpvWGdOUzZidjFZUEVaTnlFNXFUUndKVTVzS1l0bEswYnFwY2NwTEdwR0N5ODhZMHZ5M0FZTVRlNFN2aHdjenNyUmFDQ0xGUmRlWmxsQ2p4QW8tUG8zV3h5RGxueHg0enZUNWc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "up",
-    "t0": 1795121562,
-    "reason": "נתוני אינפלציה סיטונאית קלים מהצפוי מקלים על החששות בשווקים",
-    "reason_i18n": {
-     "he": "נתוני אינפלציה סיטונאית קלים מהצפוי מקלים על החששות בשווקים",
-     "en": "Wholesale inflation coming in below forecasts eases market worries",
-     "ar": "تضخم الجملة الذي جاء أدنى من التوقعات يخفف من مخاوف الأسواق",
-     "ru": "Оптовая инфляция ниже прогнозов снижает рыночные опасения"
-    },
-    "name_i18n": {
-     "he": "SPY – מדד S&P 500",
-     "en": "SPY – S&P 500 ETF",
-     "ar": "SPY – صندوق المؤشرات S&P 500",
-     "ru": "SPY – фонд индекса S&P 500"
-    },
-    "price_at_alert": 717.805,
-    "entry_price": 713.56,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 722.39,
-    "exit_date": "2026-11-23",
-    "change_pct": 1.24,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": 1.24,
-    "edge_pct": 1.24,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "2d544ad05133",
-  "evaluated": true
- },
- {
-  "ts": 1795121562,
-  "time": "2026-11-19T20:52Z",
   "title": "בריטניה ונורווגיה יספקו סירות טילים ומערכות הגנה אווירית לאוקראינה",
   "summary": "בריטניה ונורווגיה הודיעו על חיזוק הצי האוקראיני באמצעות אספקת שתי סירות טילים ומערכות הגנה אווירית.",
   "kid": "בריטניה ונורווגיה שולחות ציוד צבאי חדש לאוקראינה כדי להגן עליה. חדשות כאלו עוזרות לחברות נשק גדולות בארה\"ב ובאירופה כי המדינות קונות עוד ציוד להחליף את מה שניתן.",
@@ -1782,76 +1608,6 @@
    }
   ],
   "last_update": 1795144951,
-  "evaluated": true
- },
- {
-  "ts": 1795121562,
-  "time": "2026-11-19T20:52Z",
-  "title": "הרגולטורים בארה\"ב אישרו את הרחבת מתקן ה-LNG של שניר",
-  "summary": "רגולטורים בארה\"ב אישרו רשמית את פרויקט הרחבת מתקן הגז הטבעי המעובה (LNG) של חברת שניר (Cheniere).",
-  "kid": "חברת האנרגיה שניר קיבלה אישור לבנות הרחבה למפעל הגז הטבעי שלה. אישור כזה עוזר לחברה למכור יותר גז בעולם ויכול להרים את מנייתה ואת מניות תחום האנרגיה.",
-  "i18n": {
-   "title": {
-    "he": "הרגולטורים בארה\"ב אישרו את הרחבת מתקן ה-LNG של שניר",
-    "en": "US regulators give green light to Cheniere's latest LNG expansion",
-    "ar": "المقاطعون الأمريكيون يوافقون على توسعة مشروع الغاز الطبيعي المسال لشركة شينيير",
-    "ru": "Регуляторы США одобрили расширение проекта СПГ компании Cheniere"
-   },
-   "summary": {
-    "he": "רגולטורים בארה\"ב אישרו רשמית את פרויקט הרחבת מתקן הגז הטבעי המעובה (LNG) של חברת שניר (Cheniere).",
-    "en": "US regulators officially gave the green light to Cheniere's latest liquefied natural gas (LNG) expansion project.",
-    "ar": "منحت الجهات التنظيمية الأمريكية الضوء الأخضر رسمياً لمشروع توسعة الغاز الطبيعي المسال لشركة شينيير.",
-    "ru": "Регуляторы США официально одобрили проект расширения завода СПГ компании Cheniere."
-   },
-   "kid": {
-    "he": "חברת האנרגיה שניר קיבלה אישור לבנות הרחבה למפעל הגז הטבעי שלה. אישור כזה עוזר לחברה למכור יותר גז בעולם ויכול להרים את מנייתה ואת מניות תחום האנרגיה.",
-    "en": "Energy company Cheniere got approval to expand its natural gas plant. Such approval helps the company sell more gas globally and can boost its stock and energy sector shares.",
-    "ar": "حصلت شركة الطاقة شينيير على موافقة لتوسيع مصنع الغاز الطبيعي الخاص بها. هذا يساعد الشركة على بيع المزيد من الغاز عالمياً.",
-    "ru": "Энергетическая компания Cheniere получила одобрение на расширение завода по производству СПГ, что поможет ей продавать больше газа на мировом рынке."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXYzM3R5TXZTNVE1NjQza3ExOHNodWFRQ29KaGR6NVJ4TnNEUmVzUmh4M3JBaTNwRWtKTTBMaDdKdzlzNjMtSFNJMDZ6Yk5PVk1mMGx4QXM5Qzk1ckdyQmt2TldvMXgycmROMExrWmlFWHc5MkhwOUtzcmM1TTFEMVg1SWgzbS1xNGx0RWNTcDBETWRtTUFoYjR1cHpBejI5YUs2ekJCeDdwRWZ6ZkpOSXhB?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1795121562,
-    "reason": "אישורי הרחבה ל-LNG תומכים בצמיחת תשתיות האנרגיה בארה\"ב",
-    "reason_i18n": {
-     "he": "אישורי הרחבה ל-LNG תומכים בצמיחת תשתיות האנרגיה בארה\"ב",
-     "en": "LNG expansion approvals support US energy infrastructure growth",
-     "ar": "موافقات توسعة الغاز المسال تدعم نمو البنية التحتية للطاقة في أمريكا",
-     "ru": "Одобрение расширения СПГ поддерживает рост энергетической инфраструктуры США"
-    },
-    "name_i18n": {
-     "he": "XLE – קרן סל אנרגיה",
-     "en": "XLE – Energy Sector ETF",
-     "ar": "XLE – صندوق قطاع الطاقة",
-     "ru": "XLE – ETF энергетического сектора"
-    },
-    "price_at_alert": 60.985,
-    "entry_price": 60.71,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 59.85,
-    "exit_date": "2026-11-23",
-    "change_pct": -1.42,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -2.65,
-    "edge_pct": -2.65,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d6bace77fe6b",
   "evaluated": true
  },
  {
@@ -41273,5 +41029,308 @@
    }
   ],
   "id": "eec795da42ca"
+ },
+ {
+  "ts": 1795726624,
+  "time": "2026-11-26T20:57Z",
+  "title": "תקיפה על בית זיקוק בסעודיה",
+  "summary": "מתקפה על בית הזיקוק ג'אזאן בסעודיה גרמה להרוג, פציעות ושריפה. מחירי הנפט מסוג ברנט נסגרו על 96.57 דולר לחבית.",
+  "kid": "מתקפה על מפעל נפט גדול בסעודיה גרמה לעליית מחירי הנפט. זה יכול להשפיע על מחירי הדלק והאנרגיה בעולם.",
+  "i18n": {
+   "title": {
+    "he": "תקיפה על בית זיקוק בסעודיה",
+    "en": "Attack on Saudi refinery",
+    "ar": "هجوم على مصفاة نفط سعودية",
+    "ru": "Атака на саудовский нефтеперерабатывающий завод"
+   },
+   "summary": {
+    "he": "מתקפה על בית הזיקוק ג'אזאן בסעודיה גרמה להרוג, פציעות ושריפה. מחירי הנפט מסוג ברנט נסגרו על 96.57 דולר לחבית.",
+    "en": "An attack on the Jazan refinery in Saudi Arabia resulted in one death, injuries, and a fire. Brent crude oil prices settled at $96.57 per barrel.",
+    "ar": "أدى هجوم على مصفاة جازان في السعودية إلى مقتل شخص وإصابة آخرين واندلاع حريق. استقرت أسعار خام برنت عند 96.57 دولار للبرميل.",
+    "ru": "Атака на НПЗ в Джазане (Саудовская Аравия) привела к гибели одного человека, ранениям и пожару. Цена нефти марки Brent составила 96,57 доллара за баррель."
+   },
+   "kid": {
+    "he": "מתקפה על מפעל נפט גדול בסעודיה גרמה לעליית מחירי הנפט. זה יכול להשפיע על מחירי הדלק והאנרגיה בעולם.",
+    "en": "An attack on a big oil factory in Saudi Arabia caused oil prices to go up. This might make gas and energy prices more expensive for everyone.",
+    "ar": "تسبب هجوم على مصنع نفط كبير في السعودية في ارتفاع أسعار النفط. قد يؤدي هذا إلى جعل أسعار الوقود والطاقة أغلى للجميع.",
+    "ru": "Атака на крупный нефтяной завод в Саудовской Аравии привела к росту цен на нефть. Это может сделать бензин и энергию дороже для всех."
+   }
+  },
+  "category": "commodities",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795726624,
+    "reason": "עליית מחירי הנפט הגולמי",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט הגולמי",
+     "en": "Rising crude oil prices",
+     "ar": "ارتفاع أسعار النفط الخام",
+     "ru": "Рост цен на сырую нефть"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Oil ETF",
+     "ar": "صندوق استثمار النفط",
+     "ru": "Нефтяной ETF"
+    },
+    "price_at_alert": 139.89
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795726624,
+    "reason": "שיפור ברווחיות חברות האנרגיה",
+    "reason_i18n": {
+     "he": "שיפור ברווחיות חברות האנרגיה",
+     "en": "Improved profitability for energy companies",
+     "ar": "تحسن ربحية شركات الطاقة",
+     "ru": "Улучшение прибыльности энергетических компаний"
+    },
+    "name_i18n": {
+     "he": "סקטור האנרגיה",
+     "en": "Energy Sector ETF",
+     "ar": "قطاع الطاقة",
+     "ru": "Сектор энергетики"
+    },
+    "price_at_alert": 60.9
+   }
+  ],
+  "id": "4f13a8741d22"
+ },
+ {
+  "ts": 1795726624,
+  "time": "2026-11-26T20:57Z",
+  "title": "חשש ממלחמת סחר חדשה",
+  "summary": "הצעות למכסים חדשים בארה\"ב מעוררות התנגדות מצד שותפות סחר וחשש ממלחמת סחר גלובלית שתעלה את עלויות הנסיעות והסחורות.",
+  "kid": "מדינות מתווכחות על מיסים על מוצרים מיובאים. זה עלול להפוך דברים ליקרים יותר עבורנו ולפגוע בחברות שמוכרות לחו\"ל.",
+  "i18n": {
+   "title": {
+    "he": "חשש ממלחמת סחר חדשה",
+    "en": "Fears of a new trade war",
+    "ar": "مخاوف من حرب تجارية جديدة",
+    "ru": "Опасения новой торговой войны"
+   },
+   "summary": {
+    "he": "הצעות למכסים חדשים בארה\"ב מעוררות התנגדות מצד שותפות סחר וחשש ממלחמת סחר גלובלית שתעלה את עלויות הנסיעות והסחורות.",
+    "en": "New US tariff proposals are sparking opposition from trade partners and fears of a global trade war that could increase travel and goods costs.",
+    "ar": "تثير مقترحات التعريفات الجمركية الأمريكية الجديدة معارضة من الشركاء التجاريين ومخاوف من حرب تجارية عالمية قد ترفع تكاليف السفر والسلع.",
+    "ru": "Новые предложения США по тарифам вызывают сопротивление торговых партнеров и опасения глобальной торговой войны, которая может увеличить стоимость поездок и товаров."
+   },
+   "kid": {
+    "he": "מדינות מתווכחות על מיסים על מוצרים מיובאים. זה עלול להפוך דברים ליקרים יותר עבורנו ולפגוע בחברות שמוכרות לחו\"ל.",
+    "en": "Countries are arguing about taxes on imported goods. This might make things more expensive for us and hurt companies that sell to other countries.",
+    "ar": "تتجادل الدول حول الضرائب على البضائع المستوردة. قد يجعل هذا الأشياء أكثر تكلفة بالنسبة لنا ويضر بالشركات التي تبيع لدول أخرى.",
+    "ru": "Страны спорят о налогах на импортные товары. Это может сделать вещи дороже для нас и навредить компаниям, которые продают товары за границу."
+   }
+  },
+  "category": "trade",
+  "severity": 7,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795726624,
+    "reason": "אי-ודאות כלכלית גלובלית",
+    "reason_i18n": {
+     "he": "אי-ודאות כלכלית גלובלית",
+     "en": "Global economic uncertainty",
+     "ar": "عدم اليقين الاقتصادي العالمي",
+     "ru": "Глобальная экономическая неопределенность"
+    },
+    "name_i18n": {
+     "he": "מדד S&P 500",
+     "en": "S&P 500 Index",
+     "ar": "مؤشر S&P 500",
+     "ru": "Индекс S&P 500"
+    },
+    "price_at_alert": 716.7
+   },
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1795726624,
+    "reason": "עלייה צפויה בעלויות התפעול",
+    "reason_i18n": {
+     "he": "עלייה צפויה בעלויות התפעול",
+     "en": "Expected increase in operating costs",
+     "ar": "زيادة متوقعة في تكاليف التشغيل",
+     "ru": "Ожидаемый рост операционных расходов"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה",
+     "en": "Airlines ETF",
+     "ar": "صندوق استثمار شركات الطيران",
+     "ru": "ETF авиакомпаний"
+    },
+    "price_at_alert": 28.13
+   }
+  ],
+  "id": "ed4454df9e6e"
+ },
+ {
+  "ts": 1795726624,
+  "time": "2026-11-26T20:57Z",
+  "title": "מינוי נשיא חדש ל-ECB",
+  "summary": "מנהיגי אירופה בחרו בפבלו הרננדז דה קוס לנשיא הבנק המרכזי האירופי הבא. הוא מתמודד עם אינפלציה גבוהה וצמיחה איטית.",
+  "kid": "אירופה בחרה מנהיג חדש לבנק המרכזי שלה. הוא יחליט על גובה הריבית, מה שמשפיע על הכלכלה והמניות באירופה.",
+  "i18n": {
+   "title": {
+    "he": "מינוי נשיא חדש ל-ECB",
+    "en": "New ECB President appointed",
+    "ar": "تعيين رئيس جديد للبنك المركزي الأوروبي",
+    "ru": "Назначен новый глава ЕЦБ"
+   },
+   "summary": {
+    "he": "מנהיגי אירופה בחרו בפבלו הרננדז דה קוס לנשיא הבנק המרכזי האירופי הבא. הוא מתמודד עם אינפלציה גבוהה וצמיחה איטית.",
+    "en": "European leaders have selected Pablo Hernández de Cos as the next president of the European Central Bank. He faces challenges including high inflation and slow growth.",
+    "ar": "اختار القادة الأوروبيون بابلو هيرنانديز دي كوس ليكون الرئيس القادم للبنك المركزي الأوروبي. وهو يواجه تحديات تشمل التضخم المرتفع والنمو البطيء.",
+    "ru": "Европейские лидеры выбрали Пабло Эрнандеса де Коса следующим главой Европейского центрального банка. Ему предстоит решать проблемы высокой инфляции и медленного роста."
+   },
+   "kid": {
+    "he": "אירופה בחרה מנהיג חדש לבנק המרכזי שלה. הוא יחליט על גובה הריבית, מה שמשפיע על הכלכלה והמניות באירופה.",
+    "en": "Europe picked a new leader for its central bank. He will decide on interest rates, which affects the economy and stock prices in Europe.",
+    "ar": "اختارت أوروبا زعيماً جديداً لبنكها المركزي. سيقرر أسعار الفائدة، مما يؤثر على الاقتصاد وأسعار الأسهم في أوروبا.",
+    "ru": "Европа выбрала нового лидера для своего центрального банка. Он будет решать вопросы процентных ставок, что влияет на экономику и цены на акции в Европе."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "VGK",
+    "direction": "up",
+    "t0": 1795726624,
+    "reason": "שינוי בהנהגת המדיניות המוניטרית",
+    "reason_i18n": {
+     "he": "שינוי בהנהגת המדיניות המוניטרית",
+     "en": "Change in monetary policy leadership",
+     "ar": "تغيير في قيادة السياسة النقدية",
+     "ru": "Смена руководства в денежно-кредитной политике"
+    },
+    "name_i18n": {
+     "he": "קרן סל אירופה",
+     "en": "Europe ETF",
+     "ar": "صندوق استثمار أوروبا",
+     "ru": "ETF на европейский рынок"
+    },
+    "price_at_alert": 84.95
+   }
+  ],
+  "id": "652954e79c52"
+ },
+ {
+  "ts": 1795726624,
+  "time": "2026-11-26T20:57Z",
+  "title": "מתקפות סייבר על גופים ממשלתיים",
+  "summary": "דווח על פריצות סייבר למערכות ה-CIA ולסוכנות הידיעות הצרפתית (AFP).",
+  "kid": "האקרים פרצו למחשבים של ארגונים גדולים. זה גורם לחשש לגבי אבטחת מידע ועלול להוביל להשקעות גדולות יותר בהגנה בסייבר.",
+  "i18n": {
+   "title": {
+    "he": "מתקפות סייבר על גופים ממשלתיים",
+    "en": "Cyberattacks on government entities",
+    "ar": "هجمات سيبرانية على هيئات حكومية",
+    "ru": "Кибератаки на государственные структуры"
+   },
+   "summary": {
+    "he": "דווח על פריצות סייבר למערכות ה-CIA ולסוכנות הידיעות הצרפתית (AFP).",
+    "en": "Cyberattacks have been reported against CIA systems and the Agence France-Presse (AFP).",
+    "ar": "تم الإبلاغ عن هجمات سيبرانية على أنظمة وكالة الاستخبارات المركزية (CIA) ووكالة الأنباء الفرنسية (AFP).",
+    "ru": "Сообщается о кибератаках на системы ЦРУ и французское информационное агентство AFP."
+   },
+   "kid": {
+    "he": "האקרים פרצו למחשבים של ארגונים גדולים. זה גורם לחשש לגבי אבטחת מידע ועלול להוביל להשקעות גדולות יותר בהגנה בסייבר.",
+    "en": "Hackers broke into the computers of big organizations. This makes people worried about data safety and might lead to more spending on cybersecurity.",
+    "ar": "اخترق قراصنة حواسيب منظمات كبيرة. هذا يثير القلق بشأن أمان البيانات وقد يؤدي إلى زيادة الإنفاق على الأمن السيبراني.",
+    "ru": "Хакеры взломали компьютеры крупных организаций. Это вызывает беспокойство о безопасности данных и может привести к увеличению расходов на кибербезопасность."
+   }
+  },
+  "category": "cyber",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795726624,
+    "reason": "עלייה בביקוש לפתרונות אבטחה",
+    "reason_i18n": {
+     "he": "עלייה בביקוש לפתרונות אבטחה",
+     "en": "Increased demand for security solutions",
+     "ar": "زيادة الطلب على حلول الأمان",
+     "ru": "Рост спроса на решения по безопасности"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק (אבטחת סייבר)",
+     "en": "CrowdStrike (Cybersecurity)",
+     "ar": "كراود سترايك (أمن سيبراني)",
+     "ru": "CrowdStrike (кибербезопасность)"
+    },
+    "price_at_alert": 209.3
+   }
+  ],
+  "id": "6abc879c075e"
+ },
+ {
+  "ts": 1795726624,
+  "time": "2026-11-26T20:57Z",
+  "title": "פינלנד רוכשת רכבים קרביים משוודיה",
+  "summary": "פינלנד תרכוש 160 רכבי חי\"ר מסוג CV90 משוודיה בעסקה בשווי 2.8 מיליארד אירו.",
+  "kid": "פינלנד קונה הרבה רכבים צבאיים חדשים. זה טוב לחברות שמייצרות ציוד ביטחוני.",
+  "i18n": {
+   "title": {
+    "he": "פינלנד רוכשת רכבים קרביים משוודיה",
+    "en": "Finland buys combat vehicles from Sweden",
+    "ar": "فنلندا تشتري مركبات قتالية من السويد",
+    "ru": "Финляндия закупает боевые машины у Швеции"
+   },
+   "summary": {
+    "he": "פינלנד תרכוש 160 רכבי חי\"ר מסוג CV90 משוודיה בעסקה בשווי 2.8 מיליארד אירו.",
+    "en": "Finland will purchase 160 CV90 infantry fighting vehicles from Sweden in a deal worth €2.8 billion.",
+    "ar": "ستشتري فنلندا 160 مركبة قتالية للمشاة من طراز CV90 من السويد في صفقة بقيمة 2.8 مليار يورو.",
+    "ru": "Финляндия закупит 160 боевых машин пехоты CV90 у Швеции в рамках сделки на сумму 2,8 миллиарда евро."
+   },
+   "kid": {
+    "he": "פינלנד קונה הרבה רכבים צבאיים חדשים. זה טוב לחברות שמייצרות ציוד ביטחוני.",
+    "en": "Finland is buying a lot of new military vehicles. This is good for companies that make defense equipment.",
+    "ar": "تشتري فنلندا الكثير من المركبات العسكرية الجديدة. هذا جيد للشركات التي تصنع معدات الدفاع.",
+    "ru": "Финляндия покупает много новых военных машин. Это хорошо для компаний, производящих оборонное оборудование."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795726624,
+    "reason": "הגדלת תקציבי ביטחון באירופה",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי ביטחון באירופה",
+     "en": "Increased defense budgets in Europe",
+     "ar": "زيادة ميزانيات الدفاع في أوروبا",
+     "ru": "Увеличение оборонных бюджетов в Европе"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق استثمار الطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.77
+   }
+  ],
+  "id": "f1bcd1e54b2a"
  }
 ]

@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T20:03Z",
+ "generated": "2026-11-26T20:57Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1523,
+ "total_alerts": 1528,
  "overall": {
   "n": 1151,
   "hits": 573,
@@ -83,25 +83,26 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 165,
+   "mentions": 166,
    "n": 156,
    "hits": 75,
    "name": {
     "he": "קרן סל נפט",
-    "en": "Нефтяной ETF",
-    "ar": "صندوق النفط المتداول"
+    "en": "Oil ETF",
+    "ar": "صندوق استثمار النفط",
+    "ru": "Нефтяной ETF"
    },
    "avg_edge": -0.04
   },
   "XLE": {
-   "mentions": 144,
+   "mentions": 145,
    "n": 140,
    "hits": 84,
    "name": {
-    "he": "XLE – קרן סל אנרגיה",
-    "en": "XLE – Energy Sector ETF",
-    "ar": "XLE - صندوق قطاع الطاقة",
-    "ru": "XLE – ETF энергетического сектора"
+    "he": "סקטור האנרגיה",
+    "en": "Energy Sector ETF",
+    "ar": "قطاع الطاقة",
+    "ru": "Сектор энергетики"
    },
    "avg_edge": -0.04
   },
@@ -154,14 +155,14 @@
    "avg_edge": 0.13
   },
   "ITA": {
-   "mentions": 263,
+   "mentions": 264,
    "n": 247,
    "hits": 165,
    "name": {
-    "he": "ITA – קרן סל תעופה וביטחון",
-    "en": "ITA – Aerospace & Defense ETF",
-    "ar": "ITA - صندوق قطاع الطيران والدفاع",
-    "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    "he": "קרן סל תעופה וביטחון",
+    "en": "Aerospace & Defense ETF",
+    "ar": "صندوق استثمار الطيران والدفاع",
+    "ru": "ETF аэрокосмической и оборонной промышленности"
    },
    "avg_edge": -0.63
   },
@@ -226,14 +227,14 @@
    "avg_edge": -0.73
   },
   "SPY": {
-   "mentions": 153,
+   "mentions": 154,
    "n": 145,
    "hits": 70,
    "name": {
     "he": "מדד S&P 500",
-    "en": "S&P 500 ETF",
-    "ar": "صندوق مؤشر S&P 500",
-    "ru": "ETF на индекс S&P 500"
+    "en": "S&P 500 Index",
+    "ar": "مؤشر S&P 500",
+    "ru": "Индекс S&P 500"
    },
    "avg_edge": 0.04
   },
@@ -262,14 +263,14 @@
    "avg_edge": -0.51
   },
   "CRWD": {
-   "mentions": 103,
+   "mentions": 104,
    "n": 97,
    "hits": 35,
    "name": {
-    "he": "קראודסטרייק - חברת אבטחת סייבר",
-    "en": "CrowdStrike – a cybersecurity company",
-    "ar": "كراودسترايك - شركة أمن سيبراني",
-    "ru": "CrowdStrike – компания по кибербезопасности"
+    "he": "קראודסטרייק (אבטחת סייבר)",
+    "en": "CrowdStrike (Cybersecurity)",
+    "ar": "كراود سترايك (أمن سيبراني)",
+    "ru": "CrowdStrike (кибербезопасность)"
    },
    "avg_edge": -1.69
   },
@@ -334,14 +335,14 @@
    "avg_edge": -0.99
   },
   "JETS": {
-   "mentions": 21,
+   "mentions": 22,
    "n": 18,
    "hits": 5,
    "name": {
-    "he": "JETS – קרן סל חברות תעופה",
-    "en": "JETS – US Global Jets ETF",
-    "ar": "JETS - صندوق قطاع الطيران",
-    "ru": "JETS – ETF авиакомпаний"
+    "he": "קרן סל תעופה",
+    "en": "Airlines ETF",
+    "ar": "صندوق استثمار شركات الطيران",
+    "ru": "ETF авиакомпаний"
    },
    "avg_edge": -0.66
   },
@@ -538,14 +539,14 @@
    "avg_edge": -0.65
   },
   "VGK": {
-   "mentions": 47,
+   "mentions": 48,
    "n": 45,
    "hits": 19,
    "name": {
-    "he": "אירופה ETF",
+    "he": "קרן סל אירופה",
     "en": "Europe ETF",
-    "ar": "صندوق أوروبا",
-    "ru": "ETF Европы"
+    "ar": "صندوق استثمار أوروبا",
+    "ru": "ETF на европейский рынок"
    },
    "avg_edge": -0.23
   },
