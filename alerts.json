@@ -1182,121 +1182,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795023738,
-  "time": "2026-11-18T17:42Z",
-  "title": "חוזה ביטחוני בין ישראל להודו",
-  "summary": "משרד הביטחון ההודי חתם על חוזה בשווי 1.97 מיליארד רופי (כ-220 מיליון דולר) עם התעשייה האווירית לישראל לשדרוג מערכות הטילים מסוג ברק.",
-  "kid": "ישראל תעזור להודו לשדרג את מערכות ההגנה שלה. זה טוב לחברות ביטחוניות ישראליות ושותפותיהן האמריקאיות.",
-  "i18n": {
-   "title": {
-    "he": "חוזה ביטחוני בין ישראל להודו",
-    "en": "Israel-India defense contract",
-    "ar": "عقد دفاعي بين إسرائيل والهند",
-    "ru": "Оборонный контракт между Израилем и Индией"
-   },
-   "summary": {
-    "he": "משרד הביטחון ההודי חתם על חוזה בשווי 1.97 מיליארד רופי (כ-220 מיליון דולר) עם התעשייה האווירית לישראל לשדרוג מערכות הטילים מסוג ברק.",
-    "en": "The Indian Ministry of Defence signed a contract worth 1.97 billion rupees (approx. $220 million) with Israel Aerospace Industries to upgrade Barak missile systems.",
-    "ar": "وقعت وزارة الدفاع الهندية عقداً بقيمة 1.97 مليار روبية (حوالي 220 مليون دولار) مع شركة صناعات الفضاء الإسرائيلية لتحديث أنظمة صواريخ باراك.",
-    "ru": "Министерство обороны Индии подписало контракт на сумму 1,97 млрд рупий (около 220 млн долларов) с Israel Aerospace Industries на модернизацию ракетных систем Barak."
-   },
-   "kid": {
-    "he": "ישראל תעזור להודו לשדרג את מערכות ההגנה שלה. זה טוב לחברות ביטחוניות ישראליות ושותפותיהן האמריקאיות.",
-    "en": "Israel will help India upgrade its defense systems. This is good for Israeli defense companies and their American partners.",
-    "ar": "ستساعد إسرائيل الهند في تحديث أنظمة دفاعها. هذا جيد لشركات الدفاع الإسرائيلية وشركائها الأمريكيين.",
-    "ru": "Израиль поможет Индии модернизировать системы обороны. Это хорошо для израильских оборонных компаний и их американских партнеров."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: Israeli defense",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMm5qd0c2UktjLUhjS0pOczhaVVA0aWw2VDNScmgxWTVvQkFQenI4eHlPdXZ1ZVJwS1VoRnMyUUlUWTdxM1dWUzZRTkdncHJ1WXdVVGVGMFZUTnlaeTBqUVVBWExhampUMFdnOElNeWtsZ1RudmlNS0R0ekdwalNLUkRYdlBjektHbkY0clpwX0NYc1FrTldnSQ?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "BA",
-    "direction": "up",
-    "t0": 1795023738,
-    "reason": "שותפה של התעשייה האווירית בפרויקטים ביטחוניים",
-    "reason_i18n": {
-     "he": "שותפה של התעשייה האווירית בפרויקטים ביטחוניים",
-     "en": "Partner of IAI on defense projects",
-     "ar": "شريك لشركة IAI في مشاريع الدفاع",
-     "ru": "Партнер IAI по оборонным проектам"
-    },
-    "name_i18n": {
-     "he": "בואינג",
-     "en": "Boeing",
-     "ar": "بوينغ",
-     "ru": "Boeing"
-    },
-    "price_at_alert": 163.91,
-    "entry_price": 163.87,
-    "entry_time": "2026-11-18T18:30+00:00",
-    "exit_price": 160.51,
-    "exit_date": "2026-11-19",
-    "change_pct": -2.05,
-    "bench": "SPY",
-    "bench_change_pct": -2.23,
-    "excess_pct": 0.18,
-    "edge_pct": 0.18,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795023738,
-    "reason": "הזמנות ביטחוניות מחזקות את הסקטור",
-    "reason_i18n": {
-     "he": "הזמנות ביטחוניות מחזקות את הסקטור",
-     "en": "Defense orders strengthen the sector",
-     "ar": "طلبات الدفاع تعزز القطاع",
-     "ru": "Оборонные заказы укрепляют сектор"
-    },
-    "name_i18n": {
-     "he": "תעודת סל ביטחונית",
-     "en": "Aerospace & Defense ETF",
-     "ar": "صندوق استثمار في قطاع الدفاع",
-     "ru": "ETF аэрокосмического и оборонного сектора"
-    },
-    "price_at_alert": 69.42,
-    "entry_price": 69.55,
-    "entry_time": "2026-11-18T18:30+00:00",
-    "exit_price": 68.24,
-    "exit_date": "2026-11-19",
-    "change_pct": -1.88,
-    "bench": "SPY",
-    "bench_change_pct": -2.23,
-    "excess_pct": 0.34,
-    "edge_pct": 0.34,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "4ed696c01c65",
-  "updates": [
-   {
-    "ts": 1795072608,
-    "time": "2026-11-19T07:16Z",
-    "severity": 4,
-    "summary": "משרד ההגנה של הודו חתם על חוזה בשווי של כ-1.97 מיליארד רופי (כ-240 מיליון דולר) עם התעשייה האווירית לישראל.",
-    "i18n": {
-     "he": "משרד ההגנה של הודו חתם על חוזה בשווי של כ-1.97 מיליארד רופי (כ-240 מיליון דולר) עם התעשייה האווירית לישראל.",
-     "en": "India's Ministry of Defense has inked a contract worth approximately 1.97 billion rupees (around $240M) with Israel Aerospace Industries.",
-     "ar": "وقعت وزارة الدفاع الهندية عقداً بقيمة نحو 1.97 مليار روبية مع صناعات الطيران والفضاء الإسرائيلية.",
-     "ru": "Министерство обороны Индии подписало контракт на сумму около 1,97 млрд рупий с Israel Aerospace Industries."
-    }
-   }
-  ],
-  "last_update": 1795072608,
-  "evaluated": true
- },
- {
   "ts": 1795026775,
   "time": "2026-11-18T18:32Z",
   "title": "הודו וישראל חתמו על עסקת שדרוג מערכת ברק",
@@ -2311,141 +2196,6 @@
  {
   "ts": 1795064539,
   "time": "2026-11-19T05:02Z",
-  "title": "טראמפ מתנגד לרגולציה גלובלית על בינה מלאכותית",
-  "summary": "בפסגת APEC בשנג'ן, הנשיא טראמפ הצהיר כי ארה\"ב מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית ומזהיר שזה יחנק את החדשנות.",
-  "kid": "נשיא ארה\"ב אמר שאין צורך בחוקים עולמיים קשוחים על מחשבים חכמים (בינה מלאכותית), כדי שהחברות יוכלו להמשיך לצמוח מהר. זה עשוי לעזור למניות הטכנולוגיה לעלות.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ מתנגד לרגולציה גלובלית על בינה מלאכותית",
-    "en": "Trump opposes global AI regulation",
-    "ar": "ترامب يعارض تنظيم الذكاء الاصطناعي العالمي",
-    "ru": "Трамп выступает против глобального регулирования ИИ"
-   },
-   "summary": {
-    "he": "בפסגת APEC בשנג'ן, הנשיא טראמפ הצהיר כי ארה\"ב מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית ומזהיר שזה יחנק את החדשנות.",
-    "en": "At the APEC summit in Shenzhen, President Trump stated that the US opposes any form of global AI regulation, warning it could stifle development.",
-    "ar": "في قمة أبيك في شنتشن، صرح الرئيس ترامب بأن الولايات المتحدة تعارض أي شكل من أشكال تنظيم الذكاء الاصطناعي العالمي.",
-    "ru": "На саммите АТЭС в Шэньчжэне президент Трамп заявил, что США выступают против глобального регулирования ИИ."
-   },
-   "kid": {
-    "he": "נשיא ארה\"ב אמר שאין צורך בחוקים עולמיים קשוחים על מחשבים חכמים (בינה מלאכותית), כדי שהחברות יוכלו להמשיך לצמוח מהר. זה עשוי לעזור למניות הטכנולוגיה לעלות.",
-    "en": "The US President said no strict global rules are needed for artificial intelligence so companies can keep growing fast. This can help tech stocks go up.",
-    "ar": "قال الرئيس الأمريكي إنه لا حاجة لقواعد عالمية صارمة على الذكاء الاصطناعي لتستمر الشركات في النمو. هذا قد يساعد أسهم التكنولوجيا.",
-    "ru": "Президент США заявил, что жесткие мировые правила для ИИ не нужны, чтобы компании могли расти быстрее. Это может помочь тех-акциям."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONnlvaDRnalYyZUxUUkdienNiUzdrdkRJdkY5VFNRb2R6RE5SczVjYWgzckQwMVpjSEJ5Y0loOFBpMDB5YVVWbGtRNWFyWEljQWdldHZSRi1VcmctUTBRbE1rNEpYZWtvLURZQ2NzbVlxdnF5cTRTR3RPNTltb1pyODRTdjlsRzNhZEg0bnR4eE5nelJDSmtQX2trMDZWdmhaUVBhYQ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UnpDN2FodFByNXEtcEZmX3E4UFJHUEVscGVqVnZXenEtY2FoSXgwVTdHWEVZbDZfaUc5aFlaV1Jjd2VkS0ZiRUp1VXZLenFyY1hWbEFTX1k?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUZmVW1vTXFsSW1VSkdjT0Z1VllLUElod2NkZGkxVDVnOUJRMV9FWjVuTnB4ak51Szd6X3owc0lkVlpmUTRSWW10d1huTmdlR09nQ240c0J4TjBLdkRVY2YwYXJ1bDJybEJzam1JbjUwcFM0UEdiVWwtNnJQLVpxUHBTQW15MDNhSXRLazRjaHZ5QmptYzZRdDNQT1hhSlBIdVJTcWRJSEtabTQ3TDgtS0toS1ZLeUFkekwxbFExN2ZabXRVMWRRU01ZY0NZWEUtLUExdHEyS23SAd4BQVVfeXFMTWxRbm1ROC1HeC05NzBXYkV1NmxwaFNLRkI2VDU1eXZvY0kyd2VPTEJtb0I3MWJQZk1Qb0llTjNCdXlJc0w2X0RocHp3cThwWG8tc1NGRHphOHpfNndhbm5VbGVSczl3dF92MzVHMzdkQk9UX2FkMEs5bVVrb01qTHFQakowMm9OUmNtM0ZlQXV6enZBQWk0QWVOV2JYMTFZLWZ0cDcwNVFBVHNDM0luVGtXUFFDUktyN1YzQTFQSmwzYmdNQVNMYUdybVQtYkVsQ3dMb1ZnN0FZZk13bjB3?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EaHVfYU9iVDNMaEVFa1dET1JUamNsSFItamxEZUpUQ3M5cVN0aGpESV9FYkpWejRVRUk5ZGdoWGFDYXMwUGNrYzlrRVEwcjFtTTRBUEk3VkdkelFBdnZKakQ5VW42TU4xSnY0?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMWhrTFMwSFlWTE0weklwT055a2RyRlVqMFdBS181T2VxbFoxUDNqN0pGRE53Wnk3dkFyazFwR3FMRXI1aU9iS3pUY0lkTm9pOUNFNzA5TFpVc2VJVzR2XzRBSEZSNTU5SEE0NDgwSWlLTm9XMjJ2TzFWdlAxMDdfd0lRZw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSUJuUDBKOUFEOFh6bEZiR2ZqT1FLa2FqanYwZmo1a3lXMkVNcjVsZy1WVTA0REpfbmxaZzVzTHV4QlEwNy1DSjZVVUczN2E2b3FpazBpM1FmX2huVXZ5QVJ2SkMxdVdLS1RQMWJXZE5vNnloOXVuc3hKNndIVnVOUmRqSUxMaFU4TmxQSTVtMi11bEY2UVFGNzNreDE0VFk?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1795064539,
-    "reason": "היעדר רגולציה מקל על חברות הטכנולוגיה להמשיך בפיתוח AI ללא מגבלות משפטיות.",
-    "reason_i18n": {
-     "he": "היעדר רגולציה מקל על חברות הטכנולוגיה להמשיך בפיתוח AI ללא מגבלות משפטיות.",
-     "en": "Lack of regulation makes it easier for tech firms to develop AI without legal limits.",
-     "ar": "غياب التنظيم يسهل على شركات التكنولوجيا تطوير الذكاء الاصطناعي دون قيود.",
-     "ru": "Отсутствие регулирования облегчает технологическим компаниям развитие ИИ."
-    },
-    "name_i18n": {
-     "he": "קרן סל נאסד\"ק 100",
-     "en": "QQQ - Nasdaq 100 ETF",
-     "ar": "صندوق ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 659.51,
-    "entry_price": 671.05,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 610.0425,
-    "exit_date": "2026-11-20",
-    "change_pct": -9.09,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -2.78,
-    "edge_pct": -2.78,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1795064539,
-    "reason": "תמיכה ממשלתית בהסרת מכשולים רגולטוריים מטיבה עם ענקיות השבבים.",
-    "reason_i18n": {
-     "he": "תמיכה ממשלתית בהסרת מכשולים רגולטוריים מטיבה עם ענקיות השבבים.",
-     "en": "Government support in removing regulatory hurdles benefits chip giants.",
-     "ar": "الدعم الحكومي في إزالة العقبات التنظيمية يفيد عمالقة الرقائق.",
-     "ru": "Государственная поддержка в устранении регуляторных барьеров идет на пользу чип-гигантам."
-    },
-    "name_i18n": {
-     "he": "אבידיה - יצרנית שבבי AI",
-     "en": "NVDA - Nvidia",
-     "ar": "إنفيديا - رقائق الذكاء الاصطناعي",
-     "ru": "NVDA - Nvidia"
-    },
-    "price_at_alert": 150.96,
-    "entry_price": 154.295,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 125.79,
-    "exit_date": "2026-11-20",
-    "change_pct": -18.47,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -12.16,
-    "edge_pct": -12.16,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "cd6143ecd4d5",
-  "updates": [
-   {
-    "ts": 1795072608,
-    "time": "2026-11-19T07:16Z",
-    "severity": 6,
-    "summary": "נשיא ארה\"ב דונלד טראמפ הצהיר כי המדינה מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית בשל חששות תחרותיים.",
-    "i18n": {
-     "he": "נשיא ארה\"ב דונלד טראמפ הצהיר כי המדינה מתנגדת לכל צורה של רגולציה גלובלית על בינה מלאכותית בשל חששות תחרותיים.",
-     "en": "US President Donald Trump stated that the US opposes any form of 'globalist regulation' of artificial intelligence due to competition concerns.",
-     "ar": "صرح الرئيس الأمريكي دونالد ترامب بأن الولايات المتحدة تعارض أي شكل من أشكال التنظيم العالمي للذكاء الاصطناعي لأسباب تنافسية.",
-     "ru": "Президент США Дональд Трамп заявил, что США выступают против любой «глобалистской регуляции» искусственного интеллекта из соображений конкуренции."
-    }
-   }
-  ],
-  "last_update": 1795072608,
-  "evaluated": true
- },
- {
-  "ts": 1795064539,
-  "time": "2026-11-19T05:02Z",
   "title": "ארה\"ב מרחיבה את בקרת ייצוא השבבים",
   "summary": "בקרת ייצוא השבבים של ארה\"ב הורחבה כך שתחול גם על מרכזי נתונים מחוץ למדינה ועל ציוד ליטוגרפיה.",
   "kid": "ארה\"ב מטילה כללים נוקשים יותר על מכירת מכונות שבבים ומחשוב לעולם הרחב. זה עלול לפגוע בחברות שמוכרות לחו\"ל אבל להגן על יצרניות אמריקאיות מסוימות.",
@@ -2733,206 +2483,6 @@
    }
   ],
   "last_update": 1795096985,
-  "evaluated": true
- },
- {
-  "ts": 1795072608,
-  "time": "2026-11-19T07:16Z",
-  "title": "היורו צונח לשפל של 18 חודשים על רקע סיכוני הבחירות בצרפת ב-2027",
-  "summary": "היורו ירד מתחת לרמת 1.10 דולר לשפל של 18 חודשים, כאשר חששות פוליטיים סביב הבחירות בצרפת ב-2027 מעלים את ההימורים הדוביים.",
-  "kid": "ערך היורו ירד מול הדולר לשפל חדש בגלל שמשקיעים חוששים מאי-ודאות פוליטית בצרפת לקראת הבחירות הבאות.",
-  "i18n": {
-   "title": {
-    "he": "היורו צונח לשפל של 18 חודשים על רקע סיכוני הבחירות בצרפת ב-2027",
-    "en": "Euro falls below 1.10 as 2027 French election risks rise",
-    "ar": "اليورو يهبط دون 1.10 وسط مخاوف الانتخابات الفرنسية 2027",
-    "ru": "Евро падает ниже 1,10 на фоне рисков выборов во Франции в 2027 году"
-   },
-   "summary": {
-    "he": "היורו ירד מתחת לרמת 1.10 דולר לשפל של 18 חודשים, כאשר חששות פוליטיים סביב הבחירות בצרפת ב-2027 מעלים את ההימורים הדוביים.",
-    "en": "The euro dropped below 1.10 to an 18-month low as political risks concerning France's 2027 election drive up bearish bets.",
-    "ar": "هبط اليورو دون مستويات 1.10 إلى أدنى مستوى في 18 عاماً وسط تزايد المخاطر السياسية المحيطة بانتخابات فرنسا 2027.",
-    "ru": "Евро упал ниже отметки 1,10 до 18-месячного минимума, так как политические риски вокруг выборов во Франции 2027 года усиливают медвежьи настроения."
-   },
-   "kid": {
-    "he": "ערך היורו ירד מול הדולר לשפל חדש בגלל שמשקיעים חוששים מאי-ודאות פוליטית בצרפת לקראת הבחירות הבאות.",
-    "en": "The euro dropped against the dollar to a multi-month low because investors are worried about political uncertainty in France.",
-    "ar": "انخفضت قيمة اليورو مقابل الدولار إلى أدنى مستوى بسبب قلق المستثمرين من عدم اليقين السياسي في فرنسا.",
-    "ru": "Курс евро по отношению к доллару снизился до многомесячного минимума из-за опасений инвесторов по поводу политической нестабильности во Франции."
-   }
-  },
-  "category": "macro",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zY2kwdUw4eUo3VUtpWDZZMFE3VzZnc0cyVHpHdWRpRWRyUHdLVUVPV2hGVTRzMXhmbnJ5TEVCRXVQakZPXzA1QnhqbU0tX3FzMkxKc3BKNlA4YVZSdE52akFNOG1XMHVjRjdNREhIUkRHN3ZOSXc?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FXE",
-    "direction": "down",
-    "t0": 1795072608,
-    "reason": "ירידת ערך היורו מול הדולר בעקבות חששות פוליטיים באירופה.",
-    "reason_i18n": {
-     "he": "ירידת ערך היורו מול הדולר בעקבות חששות פוליטיים באירופה.",
-     "en": "Depreciation of the euro against the dollar due to European political risks.",
-     "ar": "انخفاض قيمة اليورو مقابل الدولار بسبب المخاطر السياسية الأوروبية.",
-     "ru": "Обесценивание евро по отношению к доллару из-за политических рисков в Европе."
-    },
-    "name_i18n": {
-     "he": "קרן העוקבת אחר שער היורו",
-     "en": "Invesco CurrencyShares Euro Trust",
-     "ar": "صندوق العملة الأوروبية اليورو",
-     "ru": "ETF евро"
-    },
-    "price_at_alert": 101.33,
-    "entry_price": 101.57,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 101.22,
-    "exit_date": "2026-11-20",
-    "change_pct": -0.34,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 5.97,
-    "edge_pct": -5.97,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EWQ",
-    "direction": "down",
-    "t0": 1795072608,
-    "reason": "אי-ודאות פוליטית בצרפת מכבידה על שוק המניות המקומי.",
-    "reason_i18n": {
-     "he": "אי-ודאות פוליטית בצרפת מכבידה על שוק המניות המקומי.",
-     "en": "Political uncertainty in France weighs on the local equity market.",
-     "ar": "عدم اليقين السياسي في فرنسا يضغط على سوق الأسهم المحلية.",
-     "ru": "Политическая неопределенность во Франции оказывает давление на местный рынок акций."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על שוק המניות של צרפת",
-     "en": "iShares MSCI France ETF",
-     "ar": "صندوق مؤشر الأسهم الفرنسية",
-     "ru": "ETF акций Франции"
-    },
-    "price_at_alert": 42.45,
-    "entry_price": 42.51,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 40.9,
-    "exit_date": "2026-11-20",
-    "change_pct": -3.79,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 2.52,
-    "edge_pct": -2.52,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "afd2ada5a369",
-  "evaluated": true
- },
- {
-  "ts": 1795072608,
-  "time": "2026-11-19T07:16Z",
-  "title": "אבווי רוכשת את חברת דיסקו הגרמנית תמורת 2.5 מיליארד דולר",
-  "summary": "חברת הפארמה AbbVie חתמה על הסכם לרכישת חברת הטיפולים הבי-ספציפיים לסרטן Disco הגרמנית בסכום של עד 2.5 מיליארד דולר.",
-  "kid": "חברת תרופות ענק קנתה חברה קטנה שמפתחת תרופות חדשות לסרטן. זה יכול לעזור למשקיעים להאמין בעתיד של חברת התרופות הגדולה.",
-  "i18n": {
-   "title": {
-    "he": "אבווי רוכשת את חברת דיסקו הגרמנית תמורת 2.5 מיליארד דולר",
-    "en": "AbbVie expands cancer push with $2.5B Disco deal",
-    "ar": "أبفي توسع نشاطها في السرطان بصفقة ديسكو بقيمة 2.5 مليار دولار",
-    "ru": "AbbVie расширяет онкологическое направление сделкой с Disco на $2,5 млрд"
-   },
-   "summary": {
-    "he": "חברת הפארמה AbbVie חתמה על הסכם לרכישת חברת הטיפולים הבי-ספציפיים לסרטן Disco הגרמנית בסכום של עד 2.5 מיליארד דולר.",
-    "en": "Pharmaceutical company AbbVie has agreed to acquire German bispecific cancer therapy developer Disco for up to $2.5 billion.",
-    "ar": "وافقت شركة الأدوية أبفي على الاستحواذ على شركة العلاجات المناعية الألمانية ديسكو مقابل ما يصل إلى 2.5 مليار دولار.",
-    "ru": "Фармацевтическая компания AbbVie согласилась приобрести немецкого разработчика онкотерапии Disco на сумму до $2,5 млрд."
-   },
-   "kid": {
-    "he": "חברת תרופות ענק קנתה חברה קטנה שמפתחת תרופות חדשות לסרטן. זה יכול לעזור למשקיעים להאמין בעתיד של חברת התרופות הגדולה.",
-    "en": "A big drug maker bought a smaller company working on cancer treatments. This can show investors the big company is growing its medicine pipeline.",
-    "ar": "اشترت شركة أدوية كبرى شركة أصغر تعمل على علاج السرطان. هذا يمكن أن يظهر للمستثمرين نمو خط إنتاج أدوية الشركة الكبرى.",
-    "ru": "Крупный производитель лекарств купил небольшую компанию, разрабатывающую методы лечения рака. Это может укрепить доверие инвесторов к росту компании."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQamRFODFhN0g0UW51bHd1d25GbnBvWF9EN1ZkZURpRGZyMWVQekpOVm54TlRyUDNVX2VRaktqQVIxWWRmUE9WWl84UE5Id2ZJS0tpNk83Z1ptc2VMVXFsS1ZiWklkb2lYYmx6VS02eF8yODE3eU1MdWFXN0M3SUNFc1lYRm9fRkd3aGU0d2hUTXJKdXZMejZNZnB1aXRSdGlkUUhOZ0ZVc2E0TDB2UE1tTU9tc2VydnRtRnVTZTdIRXFCOHM1WW1sSTRnTXBvaUsz?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ABBV",
-    "direction": "up",
-    "t0": 1795072608,
-    "reason": "הרחבת צבר מוצרי האונקולוגיה באמצעות רכישה.",
-    "reason_i18n": {
-     "he": "הרחבת צבר מוצרי האונקולוגיה באמצעות רכישה.",
-     "en": "Expanding oncology pipeline via acquisition.",
-     "ar": "توسيع خط إنتاج أورام السرطان من خلال الاستحواذ.",
-     "ru": "Расширение онкологического портфеля за счет приобретения."
-    },
-    "name_i18n": {
-     "he": "אבווי – חברת תרופות גדולה",
-     "en": "AbbVie – a major pharmaceutical company",
-     "ar": "أبفي – شركة أدوية كبرى",
-     "ru": "AbbVie — крупная фармацевтическая компания"
-    },
-    "price_at_alert": 286.01,
-    "entry_price": 285.0,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 286.4,
-    "exit_date": "2026-11-20",
-    "change_pct": 0.49,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 6.8,
-    "edge_pct": 6.8,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XLV",
-    "direction": "up",
-    "t0": 1795072608,
-    "reason": "עסקאות מיזוג ורכישה גדולות מחזקות את הסקטור.",
-    "reason_i18n": {
-     "he": "עסקאות מיזוג ורכישה גדולות מחזקות את הסקטור.",
-     "en": "Large M&A deals lift sector sentiment.",
-     "ar": "صفقات الاستحواذ الكبرى ترفع معنويات القطاع.",
-     "ru": "Крупные сделки M&A улучшают настроения в секторе."
-    },
-    "name_i18n": {
-     "he": "תעודת סל על סקטור הבריאות",
-     "en": "Health Care Select Sector SPDR Fund",
-     "ar": "صندوق قطاع الرعاية الصحية",
-     "ru": "Биржевой фонд сектора здравоохранения"
-    },
-    "price_at_alert": 181.17,
-    "entry_price": 180.4,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 177.33,
-    "exit_date": "2026-11-20",
-    "change_pct": -1.7,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 4.61,
-    "edge_pct": 4.61,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "3d5d08e9288b",
   "evaluated": true
  },
  {
@@ -42602,36 +42152,32 @@
    }
   },
   "category": "trade",
-  "severity": 7,
+  "severity": 8,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb0F0ekV3Z2xOVW5KMnBBSUhvbmtrLXE5djRsOS1NMGs5c0MydDA3NzhHLVdOVzFBMUJ5cnRwT3J0SVVaQnJhTTNiRWpaY1pxbXZMcE04c0xiZUhhYzZ0V3YxbklBVnpzSm5vZEg3VzZNYTk3N3VTTE5nUTlqblRwRzZ0TTZaTDFvQ0lLMHI4dEZVMFlsTXdIdm1XMVJkM0RPNWJDZ1BXWHBFVFo5d01Yanp6Ul9maXJtcG1uaTF6MW82cnZRUVZPbk5Lb2xwS0ttM0FMTFhJcGtRaDQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMnVodjVESlZVczZYeldZTjU1ZGtyZXo2NjhOVXJ4cm42UU1vQWNrbjZqY2pZeWRFeEJwcE9mZ01MVGt3QkVaMTd3a25xRWVncGhrNUhXUUdGXzBVbkhRZmFxd3VpNlRJRjByaU1QOTFHWk5nMml5RnpvblIxRUwzamtDNU53TENsYm9BRDhlRHN1Ty1RTmU4eUZYUWNDNWExMS1HSDlLYzRWdDg1alNlX0N2NGtwRE0?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdVhQdGI1TG4zM3dGNHhRcU92Y2xXOWZBNktzbDdtaEFKNjEzUUZTR1lidW12WlVhZ2JLeXR2LUNkd1E2b1BScnhiVmo0ZFNNNkgzM21QM19NUnlGNXdUOXczLWIxTENQb2JrS3JpaXZlS2xtN2xSQmVMZXpRaEVsZFgtTFhoc3YyUTNSUmxJMExpRTRBM2lRV0NmajIwTUMwZE1odzZGT21aUEJzMHgwMzBKRTY4TnVDLWg2NVFGNEw4VGJRZUNJdjZ1V2_SAdoBQVVfeXFMTi05dHlTQmlOX0xhNThjZm1GQXhuOXE4VVVTOGFidS1lSEoxQ0JEYUtUYy1WZGlUaXhENFlsM0Iwbk9zeVRrTHJrZnp2YXJ3Q1FHbjZjQmVCUzRsQ3NHaWU3TjhpOTVkVEVsNjVibV9Hajg4S3JwU3RNY0pTeFgxVzFDQW5ndm9wWTNrbWdYaDB2UTlzeFNSOWdsMHZDY0Z2ZnU5MU16Vy1oX3BsaUNIOHdmbWNXR2g0azRaMVFpMG9RWXlfbm5oV1lleUYwaG9ub0ZSQzBRRkZLV0E?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoRGNJWERpNm5HTTNVNTJJRjBTOTRXcFNUV3MzR2RLSDZKR3ZsUnFFY1ZOMXYtUXRpbnZPc1VvTFRuSktXOUJlZWJOOVhYajBSbGt1bEtQT0dPWDFNLUIxVzN5NHNaSWVOUGJhZGdpS0RUQVphSm9JNjEwSDBaWk9HSlFlTDU4c0Z3WnZGdXU1bnYyZ1MxZmE5c3FfN3dfOEg5c3pSM0tWZnNh?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLV9wdF8ycGRMRlk0TWYzYm4tOHROeUxYNmEtMENERG8xS25GUFlDM3A2RV93OGo5SWtVdmg1cTZVWFh6LWVJYzhYdkFRQndTOUpyeUhENDVMQnVFaVAyQ2s1NXBOOUlvNURsNW5HbU5mdS1URmVQczNoMXpPajNsMlhYb0hJR0RFXzllRjRDZkFzNG9BVVE?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbjlmX001NGlxQlpOV2ppRFdlekY0Tkg5aTlvYjI1TXVGS2FhMXlYRWJKVlg3NUFBWnZwcTJ5by0yYy13ZF95UEdTeFlDV0xWZmtOQVBiV2pZdmRUbFJtVU9rN29IeG5SWDhzYXhfVmk3bVI2c01mOTJ4R1BpbVJ5eDRGd2thODdSVm56SlNPT0ZKdEZfaVE?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdndQbjhaMXBPNU81c2VMTE1YTW1wX0c1QjVYYVNoQXRCZ1VCa253OVhSQmIyTzE5TUJqaWJCcVJCcENucFBFTFBWSVd3LW02emVLOHRHekNvcG4zNmhONHlMUDZkY1lsY0NrNmw3Y1JFZURaMzNIOEg5V0dodWxvd043UQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN1hZWWVqZ0ZqSi1nanEzOFlGQnN0ZGFQRmFITm44REhUSGJKX0tRTFpmWTNHTXlQdWVQLXJ6a2M0UExDWlJlUERvZTFwMFVXaFE1N2UxTWVSN3V5bzk2ZEgxdGtHTVlqWV9zZ1hNVlF2TXB0WU52VTB5RTRVYTFqci11dWdJcDVPSm84R002WXBpRWlLa3dFMGlXS3pNaHhrZU54ZEdpcTlMVFNGNUJ1bE5nQzBpVVd5UzA3djl1bVhsNk92WUtlVmNZdnZDWUlRck5uamF0RFRBaWoxQ3Y00gHnAUFVX3lxTE5HTlI2OVVVdGFmbXRQbi12cC1lYlM4U21UdWlLYllFMHhfUEVCUVZNYXd3QXlGcUh1X3JsS0NObDhyaU9HWU15Q3E0Q052VjA2aWZfcEE2cE1nVWxZV0ZoSzhCaUg1WFBmdGlibHB1Xzc3WTE1VDN5a3BLZFNnelhjNXBhQ0pvOWRSSDQ1Y2VjbWRRQ0ZwdGVPd0pTdmx4Xzdwb2I5R1ZHbDdxUGxGMG1fUFZIczBJaTlDRVY2OWliYTRTSWw4dUk1c1BHNGJCNUhNRk12d3JQakFpRWdaZmxfZF9MY0NtYw?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcnRYVkFtbGhMTU15LXhneTIycXkzeWU5c1lUbjNUOWRoOU1rLXlId3FrSTRHdVNEMW1UQ2RQVDdVTmFCZHFTN0R6UnNJXzBrQnZjbUhFdFB6NG5lS3pYWmRrdkU2TFVMYW9uQ1hxQS1MY242RDZJVU10bnpmQnlJODNUdFpoZVRmVlFVY29B?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNXJNZDBjLWFnYmNhVTdfTElROVktT0ZZQTlPNTdHcGdURUxWYXRIc3dBWkptY0tMQmxVTkU0djE0R0dLRjdJSkVyT3lRcXp6cEpTRXRGWVh3aXFPTUZtQ2FUbjc5MGd1SmgwV2dvREIyUDNjWU5wYkZWdHdEd1ZqM0dSQmYxOVN4N2I0MDBWZm12dDhjcFRuMmZ4OFNtQ2FkSWZpZGdUWll1QmdXOFRTZWdXS01RdWR4WWhtN2ZNdjF2YlZrRFlWN1Z1dnNSNTJCSmc?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWkNUWkdSd19nVHQzSDRSNmhPSjhucExIeTVacmVPR1BYQWoxSFhqanRkTEUyWTdjT1lVUE1NTzQwb3Y3YXQxWkU0VHdRNjJWZlI2YlZwWUhwb2tTOG9IZ3ItbFdwSEp5bEg5SFJSemExY2RuaEdTMk1YTTNWd0tEeXRMSUZkZWFKVEgteGJrbVM0bkxrbTdCZWhwbmUyUXB5bjdBTy1PM1lXUmk4X0tpZzVwRUltOF92eDVz?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNW1DeUJBN0tWMDV1RkpubnN6Tnp0YmcwRjF3M1lOQmtZS2xLb25JWlAxRWRqMXRlY0dUTElNclZwNnZBaVRsdDhDdHNLT2JXbWpzUnN6VHR5Nk9rZzV3MmpWLXdvOTRaM1ljSDVycS1WZ013OFBWOElIUUtpNnh4b2YtVHZvMU5VVXIwMnRiS0dDYS1u?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXbk1YQ2Q5QjZKSXpmdFVZRFBHWUVsM281VGtrZlBSck1tUGpGOEpCdXdRSVI5cDlxbnYzNTNVOVpOOWpQNHBkazZER3QxVUpWSWhNSzhpbU55azQyMXhTR2JB?oc=5"
    }
   ],
   "impacts": [
@@ -42672,9 +42218,43 @@
      "ru": "FXI - ETF крупных китайских акций"
     },
     "price_at_alert": 31.3
+   },
+   {
+    "ticker": "EWY",
+    "direction": "down",
+    "t0": 1795679895,
+    "reason": "חשש מפגיעה בשרשראות אספקה טכנולוגיות",
+    "reason_i18n": {
+     "he": "חשש מפגיעה בשרשראות אספקה טכנולוגיות",
+     "en": "Risk to tech supply chains",
+     "ar": "مخاطر على سلاسل توريد التكنولوجيا",
+     "ru": "Риски для цепочек поставок технологий"
+    },
+    "name_i18n": {
+     "he": "קרן סל על דרום קוריאה",
+     "en": "South Korea ETF",
+     "ar": "صندوق مؤشر كوريا الجنوبية",
+     "ru": "ETF на Южную Корею"
+    },
+    "price_at_alert": 129.19
    }
   ],
-  "id": "fa6e50f083e0"
+  "id": "fa6e50f083e0",
+  "updates": [
+   {
+    "ts": 1795679895,
+    "time": "2026-11-26T07:58Z",
+    "severity": 8,
+    "summary": "ארה\"ב מתכננת להטיל מכסים של עד 35% על מדינות כמו וייטנאם, יפן, מלזיה וסין, במטרה לצמצם את הגירעון המסחרי ולפגוע בדומיננטיות של סין. מדינות אלו מביעות התנגדות חריפה וקוראות לדיאלוג.",
+    "i18n": {
+     "he": "ארה\"ב מתכננת להטיל מכסים של עד 35% על מדינות כמו וייטנאם, יפן, מלזיה וסין, במטרה לצמצם את הגירעון המסחרי ולפגוע בדומיננטיות של סין. מדינות אלו מביעות התנגדות חריפה וקוראות לדיאלוג.",
+     "en": "The US is planning to impose tariffs of up to 35% on countries including Vietnam, Japan, Malaysia, and China to reduce trade deficits and curb China's global dominance. Affected nations are protesting and calling for dialogue.",
+     "ar": "تخطط الولايات المتحدة لفرض رسوم جمركية تصل إلى 35% على دول تشمل فيتنام واليابان وماليزيا والصين لتقليل العجز التجاري وكبح هيمنة الصين. الدول المتضررة تحتج وتدعو إلى الحوار.",
+     "ru": "США планируют ввести тарифы до 35% на товары из Вьетнама, Японии, Малайзии и Китая, чтобы сократить торговый дефицит и ограничить влияние Китая. Затронутые страны протестуют и призывают к диалогу."
+    }
+   }
+  ],
+  "last_update": 1795679895
  },
  {
   "ts": 1795674696,
@@ -43131,5 +42711,260 @@
    }
   ],
   "id": "83a0dcb3e155"
+ },
+ {
+  "ts": 1795679895,
+  "time": "2026-11-26T07:58Z",
+  "title": "ארה\"ב מחמירה את בקרת הייצוא על שבבי בינה מלאכותית",
+  "summary": "בעקבות חששות מהעברת טכנולוגיה לסין, ארה\"ב מהדקת את הפיקוח על ייצוא שבבי בינה מלאכותית מתקדמים.",
+  "kid": "ארה\"ב לא רוצה שסין תקבל שבבים חזקים מאוד למחשבים, כי היא חוששת שהם ישמשו למטרות צבאיות. זה מקשה על חברות טכנולוגיה אמריקאיות למכור לסין.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מחמירה את בקרת הייצוא על שבבי בינה מלאכותית",
+    "en": "US Tightens Export Controls on AI Chips",
+    "ar": "الولايات المتحدة تشدد ضوابط تصدير رقائق الذكاء الاصطناعي",
+    "ru": "США ужесточают экспортный контроль над чипами для ИИ"
+   },
+   "summary": {
+    "he": "בעקבות חששות מהעברת טכנולוגיה לסין, ארה\"ב מהדקת את הפיקוח על ייצוא שבבי בינה מלאכותית מתקדמים.",
+    "en": "Following concerns over technology transfers to China, the US is tightening oversight on the export of advanced AI chips.",
+    "ar": "بسبب مخاوف بشأن نقل التكنولوجيا إلى الصين، تشدد الولايات المتحدة الرقابة على تصدير رقائق الذكاء الاصطناعي المتقدمة.",
+    "ru": "Из-за опасений по поводу передачи технологий Китаю США ужесточают контроль над экспортом передовых чипов для искусственного интеллекта."
+   },
+   "kid": {
+    "he": "ארה\"ב לא רוצה שסין תקבל שבבים חזקים מאוד למחשבים, כי היא חוששת שהם ישמשו למטרות צבאיות. זה מקשה על חברות טכנולוגיה אמריקאיות למכור לסין.",
+    "en": "The US doesn't want China to get very powerful computer chips because they worry they might be used for military stuff. This makes it harder for US tech companies to sell to China.",
+    "ar": "لا تريد الولايات المتحدة أن تحصل الصين على رقائق كمبيوتر قوية جداً لأنها تخشى أن تُستخدم لأغراض عسكرية. هذا يجعل من الصعب على شركات التكنولوجيا الأمريكية البيع للصين.",
+    "ru": "США не хотят, чтобы Китай получал очень мощные компьютерные чипы, опасаясь их использования в военных целях. Это затрудняет продажу продукции американских технологических компаний в Китай."
+   }
+  },
+  "category": "trade",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDV5WEdraDhaYm9SQW1XbFEzWWVxanZjQVVWbjZzMDFuWWo5RTRmTVhPSXFEbERjWG1oZ3lLTDV6MVFySXVRRGs2R1VQTTRSNkMtOHZydEpsdEtsd2ltWXRpTEtrdVZyV05VSDZWT2lLSHZSb0F2Tk5rSTl0cHZSMjAxbk0xWmcxZHpuSG40QS1oUS1xVG9kdVFyTnVka2kz?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "NVDA",
+    "direction": "down",
+    "t0": 1795679895,
+    "reason": "הגבלות על מכירות לשוק הסיני",
+    "reason_i18n": {
+     "he": "הגבלות על מכירות לשוק הסיני",
+     "en": "Restrictions on sales to the Chinese market",
+     "ar": "قيود على المبيعات للسوق الصيني",
+     "ru": "Ограничения на продажи на китайском рынке"
+    },
+    "name_i18n": {
+     "he": "אנבידיה (שבבים)",
+     "en": "Nvidia (Chips)",
+     "ar": "إنفيديا (رقائق)",
+     "ru": "Nvidia (чипы)"
+    },
+    "price_at_alert": 149.3
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795679895,
+    "reason": "פגיעה ברווחיות מגזר השבבים",
+    "reason_i18n": {
+     "he": "פגיעה ברווחיות מגזר השבבים",
+     "en": "Impact on semiconductor sector profitability",
+     "ar": "تأثير على ربحية قطاع أشباه الموصلات",
+     "ru": "Влияние на прибыльность сектора полупроводников"
+    },
+    "name_i18n": {
+     "he": "קרן סל מוליכים למחצה",
+     "en": "Semiconductor ETF",
+     "ar": "صندوق مؤشر أشباه الموصلات",
+     "ru": "ETF на полупроводники"
+    },
+    "price_at_alert": 422.46
+   }
+  ],
+  "id": "0254258c9eb5"
+ },
+ {
+  "ts": 1795679895,
+  "time": "2026-11-26T07:58Z",
+  "title": "בריטניה מאשרת חוזי ענק לשדרוג צי הצוללות",
+  "summary": "חברת Babcock חתמה על חוזה שיא של 11.4 מיליארד דולר, ובריטניה אישרה השקעה נוספת של 8 מיליארד ליש\"ט לשדרוג מתקני צוללות.",
+  "kid": "בריטניה משקיעה המון כסף בבנייה ושדרוג של צוללות צבאיות. זה אומר הרבה עבודה לחברות ביטחוניות, מה שיכול להעלות את מחיר המניות שלהן.",
+  "i18n": {
+   "title": {
+    "he": "בריטניה מאשרת חוזי ענק לשדרוג צי הצוללות",
+    "en": "UK Approves Massive Submarine Fleet Upgrade Contracts",
+    "ar": "بريطانيا توافق على عقود ضخمة لتحديث أسطول الغواصات",
+    "ru": "Великобритания утверждает крупные контракты на модернизацию флота подводных лодок"
+   },
+   "summary": {
+    "he": "חברת Babcock חתמה על חוזה שיא של 11.4 מיליארד דולר, ובריטניה אישרה השקעה נוספת של 8 מיליארד ליש\"ט לשדרוג מתקני צוללות.",
+    "en": "Babcock signed a record $11.4 billion contract, and the UK approved an additional £8 billion investment to upgrade submarine facilities.",
+    "ar": "وقعت شركة Babcock عقداً قياسياً بقيمة 11.4 مليار دولار، ووافقت بريطانيا على استثمار إضافي بقيمة 8 مليارات جنيه إسترليني لتحديث مرافق الغواصات.",
+    "ru": "Компания Babcock подписала рекордный контракт на 11,4 млрд долларов, а Великобритания одобрила дополнительные инвестиции в размере 8 млрд фунтов стерлингов на модернизацию объектов для подводных лодок."
+   },
+   "kid": {
+    "he": "בריטניה משקיעה המון כסף בבנייה ושדרוג של צוללות צבאיות. זה אומר הרבה עבודה לחברות ביטחוניות, מה שיכול להעלות את מחיר המניות שלהן.",
+    "en": "The UK is spending a lot of money to build and fix military submarines. This means lots of work for defense companies, which can make their stock prices go up.",
+    "ar": "تستثمر بريطانيا الكثير من المال لبناء وإصلاح الغواصات العسكرية. هذا يعني الكثير من العمل لشركات الدفاع، مما قد يجعل أسعار أسهمها ترتفع.",
+    "ru": "Великобритания тратит много денег на строительство и ремонт военных подводных лодок. Это означает много работы для оборонных компаний, что может привести к росту цен на их акции."
+   }
+  },
+  "category": "contracts",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYmdxTWZBbEt0cjVaalZwSk9hdm1EWEJ0cy1XZjVadU1rbFFYU0RJVEpVSmhZOHJxUVdqV0kyNkxITTNULUZOS2pWSE40d0tiUWNfWERtV1lPUFBFbVRFeWtzNDhVTWlOcUlRU0VsRTM2b3pibldIOTlwUzdGSjJ5UWlaaXRpd3dkQjkyeXRmbUlLOU9ISnNjZGlB?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSWhnZmpMRXlESDVTYjZfM0tRWnJSaDdGcGhsZ0VqSFgwcjlhWVdGZGJ6SlRaaFR6Y3FUUXRmWU56MVRsRU9wOXRNOHVFWF91V21DVzlPTHR4RTVqUGNBeURiU2pVQ3ExZWVFU3FSQjhiZXRBOW1kMkV5cUctaUhhT1RyRHM2eVR2VFJYa3pJRTdvZl9TSGVKWXRUWmNQUGxyMEM4UGMzZ3JWYVJ2?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795679895,
+    "reason": "הגדלת תקציבי ביטחון בבריטניה",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי ביטחון בבריטניה",
+     "en": "Increased UK defense spending",
+     "ar": "زيادة الإنفاق الدفاعي في بريطانيا",
+     "ru": "Увеличение расходов на оборону в Великобритании"
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الطيران والدفاع",
+     "ru": "ETF на аэрокосмический и оборонный сектор"
+    },
+    "price_at_alert": 68.77
+   }
+  ],
+  "id": "323b0e2adc2f"
+ },
+ {
+  "ts": 1795679895,
+  "time": "2026-11-26T07:58Z",
+  "title": "RTX זכתה בחוזה של 2.5 מיליארד דולר לתחזוקת מנועי F-35",
+  "summary": "חברת RTX קיבלה חוזה פנטגון בשווי 2.5 מיליארד דולר לתמיכה ותחזוקה של מנועי מטוסי הקרב F-35.",
+  "kid": "חברת RTX תתקן ותטפל במנועים של מטוסי קרב מתקדמים. זה חוזה גדול שמבטיח להם הכנסות לשנים הבאות.",
+  "i18n": {
+   "title": {
+    "he": "RTX זכתה בחוזה של 2.5 מיליארד דולר לתחזוקת מנועי F-35",
+    "en": "RTX Awarded $2.5 Billion Contract for F-35 Engine Sustainment",
+    "ar": "شركة RTX تفوز بعقد بقيمة 2.5 مليار دولار لصيانة محركات F-35",
+    "ru": "RTX получила контракт на 2,5 млрд долларов на обслуживание двигателей F-35"
+   },
+   "summary": {
+    "he": "חברת RTX קיבלה חוזה פנטגון בשווי 2.5 מיליארד דולר לתמיכה ותחזוקה של מנועי מטוסי הקרב F-35.",
+    "en": "RTX has been awarded a $2.5 billion Pentagon contract to support and maintain F-35 fighter jet engines.",
+    "ar": "حصلت شركة RTX على عقد من البنتاغون بقيمة 2.5 مليار دولار لدعم وصيانة محركات الطائرات المقاتلة F-35.",
+    "ru": "Компания RTX получила контракт от Пентагона на сумму 2,5 млрд долларов на поддержку и обслуживание двигателей истребителей F-35."
+   },
+   "kid": {
+    "he": "חברת RTX תתקן ותטפל במנועים של מטוסי קרב מתקדמים. זה חוזה גדול שמבטיח להם הכנסות לשנים הבאות.",
+    "en": "RTX will fix and take care of engines for advanced fighter jets. It is a big deal that guarantees them money for years to come.",
+    "ar": "ستقوم شركة RTX بإصلاح والعناية بمحركات الطائرات المقاتلة المتقدمة. هذه صفقة كبيرة تضمن لهم دخلاً لسنوات قادمة.",
+    "ru": "Компания RTX будет ремонтировать и обслуживать двигатели для современных истребителей. Это крупная сделка, которая гарантирует им доход на годы вперед."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOWZaYl9hTkNSRTQwU3JPeFRZMUhvaUJGaUZlN0tjOTM0RkxjTVEtUnFsLUVpa0ljbU4tWGxSN3lhOTNrcXZqNU8tbmVaTENJT0JkaHdQOUNwREpmbWZzVWF3UDdlQU9jSWxQMzNJSTdQblFENV90dTRWNTdkdjdMeUdBQjBvNVZJck9UbA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1795679895,
+    "reason": "זכייה בחוזה ממשלתי משמעותי",
+    "reason_i18n": {
+     "he": "זכייה בחוזה ממשלתי משמעותי",
+     "en": "Winning a significant government contract",
+     "ar": "الفوز بعقد حكومي كبير",
+     "ru": "Получение крупного государственного контракта"
+    },
+    "name_i18n": {
+     "he": "RTX (חברת ביטחון ותעופה)",
+     "en": "RTX (Defense & Aerospace)",
+     "ar": "شركة RTX (دفاع وطيران)",
+     "ru": "RTX (оборона и аэрокосмическая отрасль)"
+    },
+    "price_at_alert": 196.19
+   }
+  ],
+  "id": "ce3d175fda58"
+ },
+ {
+  "ts": 1795679895,
+  "time": "2026-11-26T07:58Z",
+  "title": "ארה\"ב מאשרת מכירת ציוד F-16 לאוקראינה ב-621 מיליון דולר",
+  "summary": "מחלקת המדינה האמריקאית אישרה מכירה אפשרית של ציוד תחזוקה למטוסי F-16 עבור אוקראינה בשווי 621.9 מיליון דולר.",
+  "kid": "ארה\"ב תמכור לאוקראינה חלקים וציוד כדי לשמור על מטוסי הקרב שלה באוויר. זה עוזר לחברות הביטחון האמריקאיות שמייצרות את הציוד הזה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב מאשרת מכירת ציוד F-16 לאוקראינה ב-621 מיליון דולר",
+    "en": "US Approves $621M F-16 Sustainment Sale to Ukraine",
+    "ar": "الولايات المتحدة توافق على بيع معدات صيانة F-16 لأوكرانيا بقيمة 621 مليون دولار",
+    "ru": "США одобряют продажу оборудования для обслуживания F-16 Украине на 621 млн долларов"
+   },
+   "summary": {
+    "he": "מחלקת המדינה האמריקאית אישרה מכירה אפשרית של ציוד תחזוקה למטוסי F-16 עבור אוקראינה בשווי 621.9 מיליון דולר.",
+    "en": "The US State Department has approved a potential sale of F-16 sustainment equipment to Ukraine valued at $621.9 million.",
+    "ar": "وافقت وزارة الخارجية الأمريكية على بيع محتمل لمعدات صيانة طائرات F-16 لأوكرانيا بقيمة 621.9 مليون دولار.",
+    "ru": "Госдепартамент США одобрил потенциальную продажу оборудования для обслуживания истребителей F-16 Украине на сумму 621,9 млн долларов."
+   },
+   "kid": {
+    "he": "ארה\"ב תמכור לאוקראינה חלקים וציוד כדי לשמור על מטוסי הקרב שלה באוויר. זה עוזר לחברות הביטחון האמריקאיות שמייצרות את הציוד הזה.",
+    "en": "The US will sell Ukraine parts and equipment to keep their fighter jets flying. This helps the US defense companies that make this gear.",
+    "ar": "ستبيع الولايات المتحدة لأوكرانيا قطع غيار ومعدات للحفاظ على طائراتها المقاتلة في الجو. هذا يساعد شركات الدفاع الأمريكية التي تصنع هذه المعدات.",
+    "ru": "США продадут Украине запчасти и оборудование, чтобы поддерживать их истребители в рабочем состоянии. Это помогает американским оборонным компаниям, которые производят это оборудование."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: defense contracts",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50T0NkMS04dXp4TzVFaTNDeGJpT0hCYUE1aWxKRGlTcmZ2SjNKY1p2LXlJNEpEVm9NcWxFeTEwYjdsc3licjR4eFZxcVdQbDNOZ0txZV9ibmlOeDRwNVl1NVJn0gFnQVVfeXFMT29wOTJOamJJZks2S0tqemt4Q004UjJGcm92dnNBeWtrQUdFb21PZTFCMndGRUJQQmEzTW1tc1BDcWd2Q0MtY2t3QmoxbURQeUVxa3VjQzYybnViaGNRZUd1TnYtUGtmdw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795679895,
+    "reason": "ביקוש מתמשך לתחזוקת מטוסי F-16",
+    "reason_i18n": {
+     "he": "ביקוש מתמשך לתחזוקת מטוסי F-16",
+     "en": "Ongoing demand for F-16 maintenance",
+     "ar": "طلب مستمر على صيانة طائرات F-16",
+     "ru": "Постоянный спрос на обслуживание F-16"
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין (יצרנית ה-F-16)",
+     "en": "Lockheed Martin (F-16 manufacturer)",
+     "ar": "لوكهيد مارتن (مصنعة F-16)",
+     "ru": "Lockheed Martin (производитель F-16)"
+    },
+    "price_at_alert": 599.24
+   }
+  ],
+  "id": "59a1e12baf79"
  }
 ]
