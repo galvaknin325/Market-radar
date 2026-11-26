@@ -163170,10 +163170,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONG8tTGZqdWRkUkN3R0FzWUVaWktYUEZ4MXBQY3NJMmY0YWpGVlJJeVR2VEhHcnBZbmx3Rk1jVG9PVHdlYkp6dTZMdWlCb1RzZzhRVVEwYTFlX2U1ZmJfeXlBTHpsRTV0b1dwU2tkeExqeFJTc3ZyN09LSmJYbUQ2aUthTDFkNkRMcWl3bFVfTWM0UExuenVuSUs1LWxzblNGNnpTaWJKN0F0RElhbkNUaXBBR1ZJc2xrWHVScks5V1rSAcYBQVVfeXFMTUJpaHhBVFpPclRPbzJadmpjTnAzRkp5cmtKSmJXSkV4S3VKNlRTaGJiMnJIMWt0U3MxT1EwbXh2VVpfX1NfbDZOczBwYUttU25rUUZVOUtockNYNEVYdzRhTG9JeHk3c2RhZGJCYXVEQUVmTHhIekdBNW13YXdFSHZIYlFOVEQ4UnpiMFVJNWpzVFBId3JDbTFIX0w1S2ZLNFlYc1hqZGlHcXZkY0QzbzdKNmdFNlZmN0t2WExBQlhCd2ZnaHBR?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeFNyTWtOdGVNUnRJdERGWGMxX29BWS1US1hfVGExem00Q3FGaVMxaHBjS2UtenFEbm04OEk3UF9oc2JpTmh5NE5qY21DVm5Ob05ERjhzUlZYb2s4YWlXU1E1cndBOHQ4STE4Q2JpWkR5TUN4UThhZ0N3ZE5UbjlSVDJiaVYxV05pWTZNUnJR?oc=5"
    },
@@ -163192,6 +163188,10 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOck9yaGMwa1J1LTdfMUY0dmZENmV2U1JuRTNZdkZ5WDQzTkJLZFQ5eGlxdHE4dUFLeXFjX3JOaWVFazZoa3o4Qlkzd0NqdGJqamluaU00NVREMlVza296M1dOMFJJUkxDeThqQk9ZT1dITElBaVloNWJsaF8xZFY1S0JWRldBamVfTDA0dGxjMEFoSlFsUmpOZzNkWGRhTlV3LXpJbGpORGlJZXFJb2JB?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYS1PRk50RFU3eHJkZEp0RVRBclByREhpNWN1bjlJczZnT01JRG5iYUlpVkhUdG11bDVHRXZDV3ZTcGNsLTJwSTk1Q2Q5OWNjMFNVT2RySXlyTVE2QXNiVDdVS0x4bXNyeU5aUUpwWmxNYkh6Y19TbUxHd3RmNUFLb0N6TV9QazllemFr?oc=5"
    }
   ],
   "impacts": [
@@ -163232,6 +163232,25 @@
      "ru": "QQQ - ETF индекса Nasdaq 100"
     },
     "price_at_alert": 633.93
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795730035,
+    "reason": "חשש מהתרחבות מגבלות הייצוא והגישה לשווקים זרים בתחום השבבים.",
+    "reason_i18n": {
+     "he": "חשש מהתרחבות מגבלות הייצוא והגישה לשווקים זרים בתחום השבבים.",
+     "en": "Concerns over expanding export and access restrictions in semiconductors.",
+     "ar": "مخاوف من توسيع القيود على الصادرات والوصول إلى الأسواق الخارجية في أشباه الموصلات.",
+     "ru": "Опасения по поводу расширения экспортных ограничений и доступа на рынки полупроводников."
+    },
+    "name_i18n": {
+     "he": "SMH - קרן סל של חברות מוליכים למחצה",
+     "en": "SMH - Semiconductor Sector ETF",
+     "ar": "SMH - صندوق قطاع أشباه الموصلات",
+     "ru": "SMH - ETF сектора полупроводников"
+    },
+    "price_at_alert": 422.46
    }
   ],
   "id": "7d7466f73329",
@@ -163247,9 +163266,21 @@
      "ar": "أوقفت إنفيديا شحنات خوادم الذكاء الاصطناعي إلى أربع دول بسبب مخاوف أمنية ومخاوف تتعلق بالوصول عن بُعد.",
      "ru": "Nvidia приостановила поставки серверов для ИИ в четыре страны из-за проблем с безопасностью и удаленным доступом."
     }
+   },
+   {
+    "ts": 1795730035,
+    "time": "2026-11-26T21:53Z",
+    "severity": 4,
+    "summary": "ענקית השבבים אנבידיה עצרה את משלוחי שרתי הבינה המלאכותית לארבע מדינות בדרום-מזרח אסיה בעקבות חסימת גישה מרחוק.",
+    "i18n": {
+     "he": "ענקית השבבים אנבידיה עצרה את משלוחי שרתי הבינה המלאכותית לארבע מדינות בדרום-מזרח אסיה בעקבות חסימת גישה מרחוק.",
+     "en": "Chip giant Nvidia has halted shipments of AI servers to four Southeast Asian nations following remote access blocks.",
+     "ar": "أوقفت عمانة الرقائق إنفيديا شحنات خوادم الذكاء الاصطناعي إلى أربع دول في جنوب شرق آسيا إثر حظر الوصول عن بعد.",
+     "ru": "Гигант чипов Nvidia приостановил поставки ИИ-серверов в четыре страны Юго-Восточной Азии из-за блокировки удаленного доступа."
+    }
    }
   ],
-  "last_update": 1795719419
+  "last_update": 1795730035
  },
  {
   "ts": 1795674696,
@@ -164554,10 +164585,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbVdMQ2RYWm1YRTFHcTdtRFhXOW9rZmdBdW5vZEJyR1FtekZXS1k1OXdjSGVjMW9uT3o1aV9fUjFkdENodVNSaDE1QVRUaW9PemIzSTg2aEMxRWU5MV9nMWNfRzcwS19NcU5VRXdPeVJycFN5d2VUN192WnpWYmp5VG1B?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUC1fRWZ3TEtWZVJEYmR1TEh6eFhZZ0hrUTNwTXUzSnVMTHl6OHh3SUVKcU5McXRBTEVVaUVqbjNtQ2FEMXZ4RDltUHVOdmpETHFEUWM5ZUtvSWVNRWNXWnllMHczOEp1eTFlSm52dUJ5NkpvR3dsSWhkU3ZWVXdyZUdyaS1MTVdiN2xJYlZJcw?oc=5"
    },
    {
@@ -164575,6 +164602,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT2lNSlZkZDhmam4tTFIwMXNlNWllV1JwS0dab2JtSWdaYTBDV1pveFJqQVBDQXJyVVBwd1V5bzB1MmtZOUlNMnRLN2ZDaEhxN1RXZURBVjdERDZXQzdUQ3EzcUdKN3A2X1RzQV9PX3VQdTh1NmRPcktTTnRBWXlMXzh1M2k0d0ZQckdmZV9OSzJKOFRXRXdpOUtKMVNiSkVTb2tINXJCOVdhV1FBdV84QTFR?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb3ZrQkxaTlFrRHRYdkpiaTV2am5aUWQzSlpla29TZUdWRS1ERFVqNDhhWFMzUEJqR1dqQkhjcEg3QURfV2xDdE8yaVJ2T1JMR2F0VWJJU0dIN1ZZMWZxeHYwb0ZLQ0d3NnVzN2FPdTI2RV9hMlNvMW5zSFRfTzNManJwZy1wWUFIMFp3?oc=5"
    }
   ],
   "impacts": [
@@ -164659,9 +164690,21 @@
      "ar": "أكد الاتحاد الدولي لكرة القدم (فيفا) أنه تعرض لهجوم سيبراني أدى إلى سرقة بيانات تجارية وشخصية حساسة.",
      "ru": "Международная федерация футбола (ФИФА) подтвердила, что стала жертвой кибератаки, в результате которой были украдены конфиденциальные деловые и личные данные."
     }
+   },
+   {
+    "ts": 1795730035,
+    "time": "2026-11-26T21:53Z",
+    "severity": 3,
+    "summary": "ארגון הכדורגל הבינלאומי פיפ\"א אישר כי נפגעמתקפת סייבר שהביאה לגניבת מידע עסקי ואישי רגיש.",
+    "i18n": {
+     "he": "ארגון הכדורגל הבינלאומי פיפ\"א אישר כי נפגעמתקפת סייבר שהביאה לגניבת מידע עסקי ואישי רגיש.",
+     "en": "International football governing body FIFA confirmed a cyberattack that resulted in the theft of business and personal data.",
+     "ar": "أكد الاتحاد الدولي لكرة القدم (فيفا) تعرضه لهجوم سيبراني أسفر عن سرقة بيانات تجارية وشخصية حساسة.",
+     "ru": "Международная федерация футбола (ФИФА) подтвердила кибератаку, в результате которой были похищены деловые и личные данные."
+    }
    }
   ],
-  "last_update": 1795723332
+  "last_update": 1795730035
  },
  {
   "ts": 1795691625,
@@ -165390,10 +165433,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1FjUnRncUNtelJycU5pTkRXdUh2N0xRYTlUaXl3MlE0eldNc2FUNkJTMGFRS2dSOVlOalRHaV9ydHdkUTQzemJCQmJiQmxmbmFYQmIwT3hsbTRoOTRLM2lqN3l1NnkzRmxvYy1wME9ZQzkwZ0hSYTVGdlhiZVBjSDVJQXVkT3I0UmRmMjc2dDljUXc?oc=5"
-   },
-   {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTDl5cXNKaDF3M1BtVHQ2d2NfTFRRVXBYU3VGMGw1NlNKNmxUbUhxU1lzZnR6XzlESFlUanM1R1JJelhjb2dydlQ0dFVuVnotVFRPQkdIOG5UZXVKY2xlX2JEcF9UOURpdEV2SFJSLWcxa1Nlb2dMV1djUU5MN3pydTlrVmE1SlllUmZsanhucWFMNnItbDUxVDVWTThDRFpCbk1XZ0lIZ3dLQWpfeGtoVldPOEJ4enFqQlFOWE43NXlSc1JuallWQ0J4M3p1dXFkaFFDdg?oc=5"
    },
@@ -165412,6 +165451,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZmw2ZjNfSHJ5SG9FMEZUV2Y3dExwcTFxb1VqWHVCWjFlOHo5R25RWmNKSWJ4dHlma3ozR1ctZzZJUXZnRlFZOFNDcVNOeEdpM1J5endiWklaV2o1a2s2OXd1b3BtbThCUnBTQUNneWNuWWdFdmVXaXV3TXFsY09oMk14NWM5OHA5dEpHdmxGamM5OVpHVEIyT1hwcXdZM2RBeWRYQmI5RzFzRkJEVWctdjV3TzlRUjA1Sm9xZTVnM0RHTkJRLWRrN0I3SlVrb2h4QlQ3T0NnN0dZQQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWnVVdDNjSlpMSXRXMWRfNFV6NlZablRKY0NvUVcxZk96UHdDQjQyNnoxMEtRZElNTTJCS1ROZE8tWEgzOER0VlRzZ0VDcDRXdllMSW5LdERySlhfQ01rSUhjejZfM2NNcEsyWmRNOHVQYkgtMWZESU1IaWVYa1M3NjBYOERDQ3VBRHNrR0RzYlM3VVlHQnZQMWNVVkhOdFJ2M0VaTHlqMWljQVhvRnQ3ZHExalNoNXFaX1U3YTBWSlEyUUNrRVltY0FRN0EyMG9aX3ZmQjF6azM?oc=5"
    }
   ],
   "impacts": [
@@ -165470,6 +165513,25 @@
      "ru": "XLE – ETF энергетического сектора"
     },
     "price_at_alert": 60.9
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "down",
+    "t0": 1795730035,
+    "reason": "המשך העימותים באזור מחייב מעקפים יקרים וארוכים יותר.",
+    "reason_i18n": {
+     "he": "המשך העימותים באזור מחייב מעקפים יקרים וארוכים יותר.",
+     "en": "Ongoing regional conflicts force prolonged and costly shipping detours.",
+     "ar": "الصراعات الإقليمية المستمرة تجبر على تحويل مسارات الشحن بشكل مكلف وطويل.",
+     "ru": "Продолжающиеся региональные конфликты заставляют делать дорогостоящие и долгие обходы маршрутов."
+    },
+    "name_i18n": {
+     "he": "ZIM - חברת ספנות גלובלית",
+     "en": "ZIM - Global shipping company",
+     "ar": "ZIM - شركة شحن عالمية",
+     "ru": "ZIM - глобальная судоходная компания"
+    },
+    "price_at_alert": 30.88
    }
   ],
   "id": "884043276ff9",
@@ -165485,9 +165547,21 @@
      "ar": "العراق يسجل عائدات نفطية قوية ويستعد لطلب حصة إنتاج أعلى من أوبك، بينما تستمر مخاطر الإمدادات الإقليمية.",
      "ru": "Ирак сообщает о сильных нефтяных доходах и готовится запросить более высокую квоту ОПЕК на фоне сохраняющихся рисков в регионе."
     }
+   },
+   {
+    "ts": 1795730035,
+    "time": "2026-11-26T21:53Z",
+    "severity": 5,
+    "summary": "כוחות הקואליציה הוציאו לפועל תקיפות נרחבות בתימן והשמידו 50 מטרות צבאיות ומשגר טילים בקרב החות'ים.",
+    "i18n": {
+     "he": "כוחות הקואליציה הוציאו לפועל תקיפות נרחבות בתימן והשמידו 50 מטרות צבאיות ומשגר טילים בקרב החות'ים.",
+     "en": "Coalition forces carried out extensive strikes in Yemen, destroying 50 Houthi military targets and a ballistic missile launcher.",
+     "ar": "نفذت قوات التحالف ضربات واسعة النطاق في اليمن، مدمرة 50 هدفا عسكريا ومنصة إطلاق صواريخ للحوثيين.",
+     "ru": "Силы коалиции нанесли масштабные удары по Йемену, уничтожив 50 военных целей и пусковую установку баллистических ракет хуситов."
+    }
    }
   ],
-  "last_update": 1795715643
+  "last_update": 1795730035
  },
  {
   "ts": 1795707799,
@@ -166191,7 +166265,16 @@
   "category": "trade",
   "severity": 7,
   "confidence": "medium",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWk8xOWpScElrWEo5c29xQWRjaC1PX2w0cmM3UmkwREloZ2RGLUNLNkZIUzVaRElTVVdyVGJ0ZkN0SGZGMTdQaWNjemFYRTlMbV92eXZoaUJleVdlWld0aWJRUGZ1d2d0MFhCRC1ITjZyQ0tnME5vUlJTRDVaVGh5b1JHb2piOWJfTERadWdyZGt5T1RxWWtKaFB3amJBQ2JTZUV6eEhSVnFBS0lSdFFFM2VZNV8ydWhDUG1v?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdjdtcnkwdTBkVnJzanljV1VmVktwLWY2S2hJNmtHVlVwc0FPd3BYOUhVcUh3MGdqWi1YZjd4MlpnUVZsSmRWVmVCV2NlWVh2N3Q2LVlRNXFDazNxQVpnX21TNGY2Rzk5Rm1JTEVUTmREQkdrZXNMSTZmaHB4QXd5N2k0YVZNVXdDcVFyWTVpRU9mMFhRY0ZRZjZMcDFPV1pENDVjZmduSFBrTFBFUEZ0aFc0RkZNdw?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "SPY",
@@ -166230,9 +166313,43 @@
      "ru": "ETF авиакомпаний"
     },
     "price_at_alert": 28.13
+   },
+   {
+    "ticker": "FXI",
+    "direction": "down",
+    "t0": 1795730035,
+    "reason": "סין מאיימת בתגובה ישירה למכסים החדשים של ארה\"ב.",
+    "reason_i18n": {
+     "he": "סין מאיימת בתגובה ישירה למכסים החדשים של ארה\"ב.",
+     "en": "China is threatening direct retaliation against new US tariffs.",
+     "ar": "تهدد الصين برد مباشر ضد الرسوم الجمركية الأمريكية الجديدة.",
+     "ru": "Китай угрожает прямым ответом на новые пошлины США."
+    },
+    "name_i18n": {
+     "he": "FXI - קרן סל מניות ענק סיניות",
+     "en": "FXI - China Large-Cap ETF",
+     "ar": "FXI - صندوق الاستثمار للأسهم الصينية الكبرى",
+     "ru": "FXI - ETF крупных китайских компаний"
+    },
+    "price_at_alert": 31.3
    }
   ],
-  "id": "ed4454df9e6e"
+  "id": "ed4454df9e6e",
+  "updates": [
+   {
+    "ts": 1795730035,
+    "time": "2026-11-26T21:53Z",
+    "severity": 6,
+    "summary": "סין ושותפות סחר נוספות בארה\"ב מזהירות מפני תגובת נגד ושיבושים בשיחות הסחר עקב תוכניות המכסים החדשות של ממשל טראמפ.",
+    "i18n": {
+     "he": "סין ושותפות סחר נוספות בארה\"ב מזהירות מפני תגובת נגד ושיבושים בשיחות הסחר עקב תוכניות המכסים החדשות של ממשל טראמפ.",
+     "en": "China and other US trading partners warn of potential retaliation and disrupted trade talks following new US tariff proposals.",
+     "ar": "تحذر الصين وشركاء تجاريون آخرون للولايات المتحدة من رد محتمل وتعطل محادثات تجارية عقب مقترحات الرسوم الجمركية الأمريكية الجديدة.",
+     "ru": "Китай и другие торговые партнеры США предупреждают о возможном ответном ударе и срыве торговых переговоров из-за новых предложений по пошлинам в США."
+    }
+   }
+  ],
+  "last_update": 1795730035
  },
  {
   "ts": 1795726624,
@@ -166392,5 +166509,71 @@
    }
   ],
   "id": "f1bcd1e54b2a"
+ },
+ {
+  "ts": 1795730035,
+  "time": "2026-11-26T21:53Z",
+  "title": "התקדמות בפרויקט הגרעין בפולין והגברת המתיחות סביב הבחירות בניגריה",
+  "summary": "פולין מקדמת את פרויקט תחנת הכוח הגרעינית בשווי 50 מיליארד דולר עם שלבי רכש ציוד חדשים, בעוד בניגריה גוברות האזהרות מפני אלימות פוליטית ואתגרים בבחירות 2027.",
+  "kid": "פולין קונה ציוד חדש לתחנת כוח גדולה, ובניגריה יש חשש מאי-רגע ומאלימות לקראת הבחירות. חדשות אלו חשובות לחברות תשתיות ואנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "התקדמות בפרויקט הגרעין בפולין והגברת המתיחות סביב הבחירות בניגריה",
+    "en": "Poland Advances $50B Nuclear Project Amid Rising Nigeria Election Tensions",
+    "ar": "بولندا تقدم مشروعاً نووياً بـ50 مليار دولار وسط تصاعد التوتر الانتخابي في نيجيريا",
+    "ru": "Польша продвигает ядерный проект на $50 млрд на фоне роста напряженности вокруг выборов в Нигерии"
+   },
+   "summary": {
+    "he": "פולין מקדמת את פרויקט תחנת הכוח הגרעינית בשווי 50 מיליארד דולר עם שלבי רכש ציוד חדשים, בעוד בניגריה גוברות האזהרות מפני אלימות פוליטית ואתגרים בבחירות 2027.",
+    "en": "Poland is advancing its $50 billion nuclear power plant project with new equipment procurement steps, while Nigeria faces rising political tensions and election warnings.",
+    "ar": "تقدم بولندا مشروع محطة الطاقة النووية بقيمة 50 مليار دولار مع خطوات جديدة لشراء المعدات، بينما تواجه نيجيريا توترات سياسية متزايدة وتحذيرات انتخابية.",
+    "ru": "Польша продвигает свой проект атомной электростанции стоимостью 50 миллиардов долларов, а в Нигерии нарастают политическая напряженность и предупреждения о выборах."
+   },
+   "kid": {
+    "he": "פולין קונה ציוד חדש לתחנת כוח גדולה, ובניגריה יש חשש מאי-רגע ומאלימות לקראת הבחירות. חדשות אלו חשובות לחברות תשתיות ואנרגיה.",
+    "en": "Poland is buying new equipment for a major power plant, and Nigeria is worried about unrest and violence ahead of elections, affecting industrial and regional sectors.",
+    "ar": "تشتر إ بولندا معدات جديدة لمחطة طاقة كبيرة، وهناك قلق في نيجيريا من الاضطرابات والعنف قبيل الانتخابات، مما يؤثر على القطاعات الصناعية والإقليمية.",
+    "ru": "Польша закупает новое оборудование для крупной электростанции, а в Нигерии опасаются беспорядков в преддверии выборов, что затрагивает соответствующие сектора."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2Fwa2xTbUlJQ0RQanM0SmdHM1JaNFp1R2xDaVp3b2htREhVUGZLU1YyLU5XX3VxNE52U1J5M3MzMWZYcHRSMWxsMjFrNWpZTnNTMUprNi1teXBUMm82aXFWdmpiYUZzcW01NERnOGhMVmFiaFB3azM0MkRTQTZfZnh2NHV1cFUzbExyWDhISDdLWFo5R25ZcXF0V2dvV1V6alVKeExEQnUtMm5kcGgya3A4Zm5oSkNwQUhwRjVR?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW5mQTZrcUFNd1BIdVYxYkNRY1Z1TVVsY1QwZUkzQTh0Q3ExU3FCYnd5dzdfWVRrMEJrNHUwU19oUmFCZXp6RzlQcTlBcEhIdmg2Y0k5ZDM3OW5WM19hc3I3eFVTVld1V01kSlU4RkYxVUtzRXREMkg5M25QRURqZUFENk54SFpLQjl1cg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNE0wbUVHN2oyU1N5WHRrS045SUQtNXhPZEgzWXNzTWxzT3QycWdaeW9yVktad1g4WE5VQlU5WmJtS1B6N2JWZ1NTZW1GR1RZai1JaGV5emRGS2dDSWdDNjdrN1FFazBPR0RJbVAteV82YzVxZnlwTnBBRnp1aFZpLTFMalFyaFFub1FHQXZzanlic0ItNlloTG9GWTc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1795730035,
+    "reason": "עליית הסיכון הפוליטי בניגריה מעיבה על שווקים מתעוררים.",
+    "reason_i18n": {
+     "he": "עליית הסיכון הפוליטי בניגריה מעיבה על שווקים מתעוררים.",
+     "en": "Rising political risk in Nigeria weighs on emerging market sentiment.",
+     "ar": "المخاطر السياسية المتزايدة في نيجيريا تؤثر سلباً على معنويات الأسواق الناشئة.",
+     "ru": "Растущие политические риски в Нигерии давят на настроения развивающихся рынков."
+    },
+    "name_i18n": {
+     "he": "EEM - קרן סל שווקים מתעוררים",
+     "en": "EEM - Emerging Markets ETF",
+     "ar": "EEM - صندوق الأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 56.4
+   }
+  ],
+  "id": "f2b0e81ab0b6"
  }
 ]
