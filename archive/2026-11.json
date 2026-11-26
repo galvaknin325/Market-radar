@@ -161286,12 +161286,20 @@
    }
   },
   "category": "commodities",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbUxaM2N3OURtRy1BdV9LaEM2NVJ6Sm5uMnZMeGVZU1ctdnIwMDM3bGJVU0NsNHhycy1UWGNqelZJTWNPUG1VQXRoQUY1VU40eUIwSUVPYTY5NFVxVkFDTjQ3ejkwYkp6cUs0Y0xHaWJOSTFQSlBHNlFWcFYxNGNVNTE3eVRnRjI3NEY3T2REYzZsOXF0YU83d1JPcUJmNGVob0lDbFFWS0wwLThVVDNxZ2VB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -161332,9 +161340,43 @@
      "ru": "CVX - Chevron"
     },
     "price_at_alert": 211.74
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "החמרת המתיחות במזרח התיכון וסיכוני אספקה מעלים את מחירי האנרגיה",
+    "reason_i18n": {
+     "he": "החמרת המתיחות במזרח התיכון וסיכוני אספקה מעלים את מחירי האנרגיה",
+     "en": "Heightened Middle East tensions and supply risks push energy prices higher",
+     "ar": "تصاعد التوترات في الشرق الأوسط ومخاطر الإمدادات ترفع أسعار الطاقة",
+     "ru": "Эскалация напряженности на Ближнем Востоке и риски поставок толкают цены на энергию вверх"
+    },
+    "name_i18n": {
+     "he": "קרן סל אנרגיה – מניות אנפט ונפט",
+     "en": "Energy Select Sector SPDR Fund – energy stocks",
+     "ar": "صندوق قطاع الطاقة – أسهم الطاقة",
+     "ru": "Energy Select Sector SPDR Fund — энергетический сектор"
+    },
+    "price_at_alert": 60.9
    }
   ],
-  "id": "b67a155792dd"
+  "id": "b67a155792dd",
+  "updates": [
+   {
+    "ts": 1795653498,
+    "time": "2026-11-26T00:38Z",
+    "severity": 6,
+    "summary": "מורדים חות'ים טענו לתקיפות על מתקן זיקוק ועל העיר ריאד, בזמן שקואליציית סעודיה ביצעה תקיפות נגד בתי נמל ותשתיות בתימן.",
+    "i18n": {
+     "he": "מורדים חות'ים טענו לתקיפות על מתקן זיקוק ועל העיר ריאד, בזמן שקואליציית סעודיה ביצעה תקיפות נגד בתי נמל ותשתיות בתימן.",
+     "en": "Houthi rebels claimed attacks on a refinery and Riyadh, while the Saudi coalition struck Hodeidah port in Yemen.",
+     "ar": "أعلن المتمردون الحوثيون عن هجمات على مصفاة والرياض، بينما ضرب التحالف السعودي ميناء الحديدة في اليمن.",
+     "ru": "Хуситы заявили об атаках на НПЗ и Эр-Рияд, в то время как саудовская коалиция нанесла удары по порту Ходейда в Йемене."
+    }
+   }
+  ],
+  "last_update": 1795653498
  },
  {
   "ts": 1795640125,
@@ -161913,5 +161955,144 @@
    }
   ],
   "id": "3ac568364299"
+ },
+ {
+  "ts": 1795653498,
+  "time": "2026-11-26T00:38Z",
+  "title": "ברידג'ווטר מעריכה סיכון גבוה למתקפת סייבר משבשת; העומס בקראודסטרייק עולה ב-50%",
+  "summary": "קרן הגידור ברידג'ווטר מעריכה סיכוי משמעותי למתקפת סייבר מערכתית, בעוד שחברת האבטחה קראודסטרייק מדווחת על זינוק של 50% בעומס העבודה שלה.",
+  "kid": "מומחי פיננסים מזהירים מסיכון גבוה למתקפות מחשב גדולות, וחברת אבטחת הסייבר קראודסטרייק רואה הרבה יותר עבודה. זה יכול לעזור למניות אבטחת המידע.",
+  "i18n": {
+   "title": {
+    "he": "ברידג'ווטר מעריכה סיכון גבוה למתקפת סייבר משבשת; העומס בקראודסטרייק עולה ב-50%",
+    "en": "Bridgewater Sees High Cyberattack Risk; CrowdStrike’s Workload Up 50%",
+    "ar": "بريدجواتتر ترى مخاطر عالية لهجمات سيبرانية؛ وضغط العمل على كراودسترايك يرتفع 50%",
+    "ru": "Bridgewater видит высокие риски кибератак; нагрузка на CrowdStrike выросла на 50%"
+   },
+   "summary": {
+    "he": "קרן הגידור ברידג'ווטר מעריכה סיכוי משמעותי למתקפת סייבר מערכתית, בעוד שחברת האבטחה קראודסטרייק מדווחת על זינוק של 50% בעומס העבודה שלה.",
+    "en": "Hedge fund Bridgewater estimates a significant probability of a destabilizing cyberattack, while cybersecurity firm CrowdStrike reports a 50% increase in workload.",
+    "ar": "تقدر صندوق التحوط بريدجواتتر احتمالاً كبيراً لهجوم سيبراني معطل، بينما تسجل شركة الأمن السيبراني كراودسترايك زيادة بنسبة 50% في عبء العمل.",
+    "ru": "Хедж-фонд Bridgewater оценивает высокую вероятность дестабилизирующей кибератаки, а компания CrowdStrike сообщает о росте рабочей нагрузки на 50%."
+   },
+   "kid": {
+    "he": "מומחי פיננסים מזהירים מסיכון גבוה למתקפות מחשב גדולות, וחברת אבטחת הסייבר קראודסטרייק רואה הרבה יותר עבודה. זה יכול לעזור למניות אבטחת המידע.",
+    "en": "Financial experts warn of a high risk of major computer cyberattacks, and cybersecurity firm CrowdStrike is seeing a big jump in work. This can push up cybersecurity stocks.",
+    "ar": "يحذر خبراء مالعون من مخاطر عالية لهجمات إلكترونية كبيرة، وترى شركة كراودسترايك زيادة كبيرة في العمل، مما قد يدعم أسهم الأمن السيبراني.",
+    "ru": "Финансовые эксперты предупреждают о высоком риске крупных кибератак, а компания CrowdStrike отмечает резкий рост работы. Это может поддержать акции кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanBVNVNMM3hCeHRFNjl4R0c1eWJCb3hKdXFYTTBGVGtRT0doOTlNRUhEVlhMWDd4RDhmNDlpZHN6NXVUTDJJSnRucFRPdk1UWDNXRGJXd3NiTW1wZUlvN1o2TWwyVmVIUXNlZmY1YmU4SlMxeU8zaUt6ZGZNbzVLbm9tTzJ6RHUtT1FrZ0V1ck5VMWFBS3ZCUFY3em9NMkcwR1E4RW9zMVp4Q19tVm1QSjFZYW1CRTVNSW41OTdiaV9iZWVoRmVnQlNuVnlUdmotc3BZ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "עלייה חדה בביקוש לשירותי הגנת סייבר עקב חשש מוגבר ממתקפות",
+    "reason_i18n": {
+     "he": "עלייה חדה בביקוש לשירותי הגנת סייבר עקב חשש מוגבר ממתקפות",
+     "en": "Sharp increase in demand for cyber defense services due to heightened attack fears",
+     "ar": "زيادة حادة في الطلب على خدمات الدفاع السيبراني بسبب مخاوف الهجمات",
+     "ru": "Резкий рост спроса на услуги киберзащиты из-за опасений атак"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity company",
+     "ar": "كراودسترايك – شركة أمن سيبراني",
+     "ru": "CrowdStrike — компания кибербезопасности"
+    },
+    "price_at_alert": 209.3
+   }
+  ],
+  "id": "d117e247508c"
+ },
+ {
+  "ts": 1795653498,
+  "time": "2026-11-26T00:38Z",
+  "title": "איום טילים לכאורה בנמל התעופה לה גוארדיה בניו יורק התברר כשגוי",
+  "summary": "מגדל הפיקוח בנמל התעופה לה גוארדיה הזהיר את הטייסים מפני איום טילים אפשרי, אך הטיסות חודשו לאחר שהאיום נמצא לא אמין.",
+  "kid": "היו חששות מפני טיל ליד נמל תעופה בניו יורק, אבל התברר שזו אזעקת שווא והטיסות חזרו לפעול. זה מרגיע את חברות התעופה.",
+  "i18n": {
+   "title": {
+    "he": "איום טילים לכאורה בנמל התעופה לה גוארדיה בניו יורק התברר כשגוי",
+    "en": "Apparent Missile Threat at LaGuardia Airport in New York Deemed Not Credible",
+    "ar": "تهديد صاروخي مزعوم في مطار لاغوارديا بنيويورك يتبين أنه غير حقيقي",
+    "ru": "Мнимый ракетный угроза в аэропорту Ла-Гуардия в Нью-Йорке оказалась ложной"
+   },
+   "summary": {
+    "he": "מגדל הפיקוח בנמל התעופה לה גוארדיה הזהיר את הטייסים מפני איום טילים אפשרי, אך הטיסות חודשו לאחר שהאיום נמצא לא אמין.",
+    "en": "LaGuardia Airport's control tower warned pilots of a possible missile threat, but flights resumed after the threat was deemed not credible.",
+    "ar": "حذر برج المراقبة في مطار لاغوارديا الطيارين من تهديد صاروخ محتمل، لكن الرحلات استئنفات بعد تبين عدم مصداقيته.",
+    "ru": "Диспетчерская вышка аэропорта Ла-Гуардия предупредила пилотов о возможной ракетной угрозе, но полеты возобновились после признания угрозы недостоверной."
+   },
+   "kid": {
+    "he": "היו חששות מפני טיל ליד נמל תעופה בניו יורק, אבל התברר שזו אזעקת שווא והטיסות חזרו לפעול. זה מרגיע את חברות התעופה.",
+    "en": "There was a brief scare about a missile near a New York airport, but it wasn't true and flights are back to normal. This keeps airline stocks steady.",
+    "ar": "كان هناك قلق قصير بشأن صاروخ قرب مطار في نيويورك، لكن تبين أنه خطأ وعادت الرحلات لطبيعتها.",
+    "ru": "Было кратковременное беспокойство из-за ракеты около аэропорта в Нью-Йорке, но тревога оказалась ложной, и полеты возобновились."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTnFvZ0lCeTNYUklFUFJORm1QeVlYb2JoVGVJQ1ZFWkRyekFCQ0Uta3dDcDNLRkRMUFBMbnU1N2M0MmhQS1h4SzlfVXZFZkdPZ0ZCTVV1Q09taWstNHRVY0FfOHlkQzlhVjNvUA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDkwSlNQRDJab0hhZ2hUV0tBYUtIbWtBNWt5OTQ1ZWVRYzYwelZaOG90X0k3aEtNVnJCbHJNQkpBbjZveGR0SkkxMUNGenZGUXkwbTFmbWlzWVJWQzVwSjRfZkJzZ1dQT3lwWWgxLTdoSkQ0ZEs3dG1NRzdMdURuZHA1Zm5HWGI1NFIxTjV2X0ZqRUhFa0ZWX3FaQ2ZqN0RUNHp3cUp1YkpidWlQWDRCUXZZNA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DAL",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "חזרה לפעילות רגילה בנמל התעופה לה גוארדיה מבטלת חששות לשיבושים",
+    "reason_i18n": {
+     "he": "חזרה לפעילות רגילה בנמל התעופה לה גוארדיה מבטלת חששות לשיבושים",
+     "en": "Return to normal operations at LaGuardia removes disruption fears",
+     "ar": "العودة للعمل الطبيعي في مطار لاغوارديا تزيل مخاوف الاضطرابات",
+     "ru": "Возврат к нормальной работе в Ла-Гуардии снимает опасения сбоев"
+    },
+    "name_i18n": {
+     "he": "דלתא איירליינס – חברת תעופה גדולה",
+     "en": "Delta Air Lines – a major airline",
+     "ar": "دلتا إيرلاينز – شركة طيران كبرى",
+     "ru": "Delta Air Lines — крупная авиакомпания"
+    },
+    "price_at_alert": 82.95
+   },
+   {
+    "ticker": "UAL",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "התרת איום הטילים בניו יורק מונעת ביטולי טיסות",
+    "reason_i18n": {
+     "he": "התרת איום הטילים בניו יורק מונעת ביטולי טיסות",
+     "en": "Resolution of the New York missile threat prevents flight cancellations",
+     "ar": "حل تهديد الصواريخ في نيويورك يمنع إلغاء الرحلات",
+     "ru": "Урегулирование ракетной угрозы в Нью-Йорке предотвращает отмены рейсов"
+    },
+    "name_i18n": {
+     "he": "יונייטד איירליינס – חברת תעופה",
+     "en": "United Airlines – an airline",
+     "ar": "يونايتد إيرلاينز – شركة طيران",
+     "ru": "United Airlines — авиакомпания"
+    },
+    "price_at_alert": 104.52
+   }
+  ],
+  "id": "b755820cacc8"
  }
 ]

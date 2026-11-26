@@ -899,353 +899,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795001432,
-  "time": "2026-11-18T11:30Z",
-  "title": "מחירי הנחושת צוללים לשפל של שבעה חודשים עקב חששות אינפלציה",
-  "summary": "מחירי הנחושת ירדו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות וחששות גוברים סביב נתוני האינפלציה והכלכלה.",
-  "kid": "מחיר הנחושת ירד לשפל בגלל חשש של משקיעים מהכלכלה ומאינפלציה. זה עשוי לפגוע במניות של חברות כרייה.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הנחושת צוללים לשפל של שבעה חודשים עקב חששות אינפלציה",
-    "en": "Copper tumbles to seven-month low on speculative selling and inflation fears",
-    "ar": "הנחושת צונחת לשפל של שבעה חודשים עקב מכירות ספקולטיביות וחששות אינפלציה",
-    "ru": "Цены на медь падают до семимесячного минимума из-за спекулятивных продаж и инфляционных опасений"
-   },
-   "summary": {
-    "he": "מחירי הנחושת ירדו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות וחששות גוברים סביב נתוני האינפלציה והכלכלה.",
-    "en": "Copper prices dropped to a seven-month low amid speculative selling and rising concerns surrounding inflation and economic data.",
-    "ar": "הخفضت أسعار النحاس إلى أدنى مستوى لها في سبعة أشهر وسط عمليات بيع ספקולטיבית ומפני مخاوف متزايدة بشأن التضخم.",
-    "ru": "Цены на медь упали до семимесячного минимума на фоне спекулятивных продаж и растущих опасений по поводу инфляции."
-   },
-   "kid": {
-    "he": "מחיר הנחושת ירד לשפל בגלל חשש של משקיעים מהכלכלה ומאינפלציה. זה עשוי לפגוע במניות של חברות כרייה.",
-    "en": "Copper prices fell to a low due to investor worries about the economy and inflation. This could hurt mining company stocks.",
-    "ar": "انخفض سعر النحاس إلى مستوى منخفض بسبب مخاوف المستثمرين بشأن الاقتصاد والتضخم. قد يضر هذا بأسهم شركات التعدين.",
-    "ru": "Цена меди упала до минимума из-за опасений инвесторов по поводу экономики и инфляции. Это может навредить акциям горнодобывающих компаний."
-   }
-  },
-  "category": "commodities",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUk43dUFzWmNMcHpyMXViQWNmd2V4M0RDMWZ2eUNldGlkLWxJdUVGNE1wZDV3aUh1Z2xZakJreWZ5RmZvTy1yZWx6TWZqd3BBQlFZSEpZTGxZTC0xMXdlN2h0cllTdjZWRGZaeUV6MkJTSmRDSjdQTWVvWHhvRkRhUFd5d3dVSC1LdjJvRm5wNk9Nd0ZGZzZUZEVaSmYyXzE2WjFtZGR3eWRLcmdITFNESzZMUXNuR2llVmk5RVFhalVGQnRLQ0ZyTg?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZjJTVWU0eThCNnpJQl9POTNKV0V2bXhfTVJoU2lrUmNVX1NWWmVfMURjOUtkMDVwV0tTSEdDWlBpY0Q0ZGt1RnpleEl6WVR4MjhjbEFpMmJhVUpZd1pRSjk1WmppRUs1VXhwZVNJcm9JMTg2cG1JWGtxeFNic0ZwOVBfanlnRzdaSy10N3B1NmYxT1FTMnNCU2JyUDQxR1kxMDVZWmJUaFdvYVd4eDE4UjZremt1ME9MSXRZ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRDAtUk9yWWFRV1NhZU5BSXNKN0lUNHgzU2JGaWRMUHBJeGlHa2FMR0pFSHc4cUJ4b3hXalBmNDVqaE5YcU1NbEQ1cXZYREl6QmZiSGE5OURUeVlHQVZ0c2I3ZUpZMUxoaFBUM0Zhazh1TTU3X2MwaHpveVVQSWZsZHJ0QkI?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "down",
-    "t0": 1795001432,
-    "reason": "ירידת מחירי הנחושת פוגעת ברווחיות החברה.",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנחושת פוגעת ברווחיות החברה.",
-     "en": "Falling copper prices weigh on company profitability.",
-     "ar": "انخفاض أسعار النحاس يضغط על ربحية الشركة.",
-     "ru": "Падение цен на медь негативно влияет на прибыльность компании."
-    },
-    "name_i18n": {
-     "he": "FCX - חברת הכרייה פריפורט מקמורן",
-     "en": "FCX - Freeport-McMoRan mining company",
-     "ar": "FCX - شركة التعدين فريبورت-מקמורן",
-     "ru": "FCX - горнодобывающая компания Freeport-McMoRan"
-    },
-    "price_at_alert": 55.3,
-    "entry_price": 52.18,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 49.08,
-    "exit_date": "2026-11-19",
-    "change_pct": -5.94,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": -3.54,
-    "edge_pct": 3.54,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "CPER",
-    "direction": "down",
-    "t0": 1795001432,
-    "reason": "ירידת ערך מתכת הנחושת בשווקים.",
-    "reason_i18n": {
-     "he": "ירידת ערך מתכת הנחושת בשווקים.",
-     "en": "Decline in the value of copper metal in markets.",
-     "ar": "انخفاض قيمة معدن النحاس في الأسواق.",
-     "ru": "Снижение стоимости меди на рынках."
-    },
-    "name_i18n": {
-     "he": "CPER - קרן סל נחושת",
-     "en": "CPER - Copper ETF",
-     "ar": "CPER - صندوق النحاس",
-     "ru": "CPER - ETF на медь"
-    },
-    "price_at_alert": 35.99,
-    "entry_price": 34.33,
-    "entry_time": "2026-11-18T14:30+00:00",
-    "exit_price": 33.76,
-    "exit_date": "2026-11-19",
-    "change_pct": -1.66,
-    "bench": "SPY",
-    "bench_change_pct": -2.4,
-    "excess_pct": 0.74,
-    "edge_pct": -0.74,
-    "hit": false,
-    "hit_raw": true
-   }
-  ],
-  "id": "ed6d501934d6",
-  "updates": [
-   {
-    "ts": 1795012777,
-    "time": "2026-11-18T14:39Z",
-    "severity": 5,
-    "summary": "מחירי הנחושת יורדים עקב חששות כלכליים וסנטימנט שלילי של משקיעים, למרות גילויים חדשים של מרבצים באמצעות בינה מלאכותית.",
-    "i18n": {
-     "he": "מחירי הנחושת יורדים עקב חששות כלכליים וסנטימנט שלילי של משקיעים, למרות גילויים חדשים של מרבצים באמצעות בינה מלאכותית.",
-     "en": "Copper prices are falling due to economic concerns and negative investor sentiment, despite new AI-driven discoveries of deposits.",
-     "ar": "تنخفض أسعار النحاس بسبب المخاوف الاقتصادية ومعنويات المستثمرين السلبية، على الرغم من الاكتشافات الجديدة للرواسب باستخدام الذكاء الاصطناعي.",
-     "ru": "Цены на медь падают из-за экономических опасений и негативных настроений инвесторов, несмотря на новые открытия месторождений с помощью ИИ."
-    }
-   },
-   {
-    "ts": 1795048680,
-    "time": "2026-11-19T00:38Z",
-    "severity": 6,
-    "summary": "מחירי הנחושת צללו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות כבדות, מה שגרם לירידות חדות במניות כרייה ולחץ על שוקי המניות באירופה ובאוסטרליה.",
-    "i18n": {
-     "he": "מחירי הנחושת צללו לשפל של שבעה חודשים על רקע מכירות ספקולטיביות כבדות, מה שגרם לירידות חדות במניות כרייה ולחץ על שוקי המניות באירופה ובאוסטרליה.",
-     "en": "Copper prices plunged to a seven-month low driven by heavy speculative selling, triggering sharp drops in mining shares and weighing on European and Australian equity markets.",
-     "ar": "هوت أسعار النحاس إلى أدنى مستوى في سبعة أشهر مدفوعة بعمليات بيع مضاربية كثيفة، مما أثار هبوطاً حاداً في أسهم التعدين.",
-     "ru": "Цены на медь рухнули до семимесячного минимума из-за масштабных спекулятивных продаж, вызвав резкое падение акций горнодобывающих компаний."
-    }
-   }
-  ],
-  "last_update": 1795048680,
-  "evaluated": true
- },
- {
-  "ts": 1795016473,
-  "time": "2026-11-18T15:41Z",
-  "title": "ארה\"ב תקפה יעדי טילים באיראן; המתיחות במפרץ גוברת",
-  "summary": "כוחות ארה\"ב תקפו אתר שיגור טילים של משמרות המהפכה באיראן, מה שהוביל להרחבת תקיפות איראניות באזור המפרץ.",
-  "kid": "יש מתיחות צבאית גדולה במזרח התיכון. כשזה קורה, מחירי הנפט עלולים לעלות כי קשה יותר להוביל אותו בבטחה.",
-  "i18n": {
-   "title": {
-    "he": "ארה\"ב תקפה יעדי טילים באיראן; המתיחות במפרץ גוברת",
-    "en": "US strikes Iran missile sites; Gulf tensions rise",
-    "ar": "الولايات المتحدة تضرب مواقع صواريخ إيرانية وتصاعد التوتر في الخليج",
-    "ru": "США нанесли удары по ракетным объектам Ирана; напряженность в Персидском заливе растет"
-   },
-   "summary": {
-    "he": "כוחות ארה\"ב תקפו אתר שיגור טילים של משמרות המהפכה באיראן, מה שהוביל להרחבת תקיפות איראניות באזור המפרץ.",
-    "en": "US forces struck an IRGC missile launch site in Iran, leading to an expansion of Iranian attacks in the Gulf region.",
-    "ar": "ضربت القوات الأمريكية موقع إطلاق صواريخ تابع للحرس الثوري الإيراني، مما أدى إلى توسيع الهجمات الإيرانية في منطقة الخليج.",
-    "ru": "Силы США нанесли удар по объекту запуска ракет КСИР в Иране, что привело к расширению иранских атак в регионе Персидского залива."
-   },
-   "kid": {
-    "he": "יש מתיחות צבאית גדולה במזרח התיכון. כשזה קורה, מחירי הנפט עלולים לעלות כי קשה יותר להוביל אותו בבטחה.",
-    "en": "There is high military tension in the Middle East. When this happens, oil prices might go up because it is harder to transport it safely.",
-    "ar": "هناك توتر عسكري كبير في الشرق الأوسط. عندما يحدث هذا، قد ترتفع أسعار النفط لأنه يصبح من الصعب نقله بأمان.",
-    "ru": "На Ближнем Востоке наблюдается высокая военная напряженность. Когда это происходит, цены на нефть могут вырасти, так как ее становится сложнее безопасно перевозить."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 7,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "up",
-    "t0": 1795016473,
-    "reason": "סיכוני אספקה במפרץ הפרסי",
-    "reason_i18n": {
-     "he": "סיכוני אספקה במפרץ הפרסי",
-     "en": "Supply risks in the Persian Gulf",
-     "ar": "مخاطر الإمدادات في الخليج العربي",
-     "ru": "Риски поставок в Персидском заливе"
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق النفط",
-     "ru": "Нефтяной ETF"
-    },
-    "price_at_alert": 138.095,
-    "entry_price": 137.47,
-    "entry_time": "2026-11-18T16:30+00:00",
-    "exit_price": 138.12,
-    "exit_date": "2026-11-19",
-    "change_pct": 0.47,
-    "bench": "SPY",
-    "bench_change_pct": -1.76,
-    "excess_pct": 2.23,
-    "edge_pct": 2.23,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "up",
-    "t0": 1795016473,
-    "reason": "עליית מחירי הנפט מיטיבה עם חברות אנרגיה",
-    "reason_i18n": {
-     "he": "עליית מחירי הנפט מיטיבה עם חברות אנרגיה",
-     "en": "Rising oil prices benefit energy companies",
-     "ar": "ارتفاع أسعار النفط يفيد شركات الطاقة",
-     "ru": "Рост цен на нефть выгоден энергетическим компаниям"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל",
-     "en": "Exxon Mobil",
-     "ar": "إكسون موبيل",
-     "ru": "Exxon Mobil"
-    },
-    "price_at_alert": 163.69,
-    "entry_price": 162.08,
-    "entry_time": "2026-11-18T16:30+00:00",
-    "exit_price": 158.94,
-    "exit_date": "2026-11-19",
-    "change_pct": -1.94,
-    "bench": "SPY",
-    "bench_change_pct": -1.76,
-    "excess_pct": -0.18,
-    "edge_pct": -0.18,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1795044916,
-    "reason": "החשש משיבושים באספקת הנפט במפרץ עקב איומי איראן תומך בעליית מניות חברות האנרגיה.",
-    "reason_i18n": {
-     "he": "החשש משיבושים באספקת הנפט במפרץ עקב איומי איראן תומך בעליית מניות חברות האנרגיה.",
-     "en": "Fears of oil supply disruptions in the Persian Gulf due to Iranian threats support higher energy stock prices.",
-     "ar": "تدعم مخاوف تعطل إمدادات النفط في الخليج بسبب التهديدات الإيرانية ارتفاع أسعار أسهم الطاقة.",
-     "ru": "Опасения перебоев с поставками нефти в Персидском заливе из-за угроз Ирана поддерживают рост акций энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "XLE – קרן סל של סקטור האנרגיה",
-     "en": "XLE – Energy Select Sector SPDR Fund",
-     "ar": "XLE – صندوق قطاع الطاقة",
-     "ru": "XLE – ETF энергетического сектора"
-    },
-    "price_at_alert": 61.29,
-    "entry_price": 61.71,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 60.58,
-    "exit_date": "2026-11-20",
-    "change_pct": -1.83,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 4.48,
-    "edge_pct": 4.48,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795044916,
-    "reason": "התלקחות העימותים במזרח התיכון מעלה את הביקוש למניות הביטחון וההגנה האווירית בארה\"ב.",
-    "reason_i18n": {
-     "he": "התלקחות העימותים במזרח התיכון מעלה את הביקוש למניות הביטחון וההגנה האווירית בארה\"ב.",
-     "en": "Escalating Middle Eastern conflicts increase demand and potential spending for US defense and aerospace contractors.",
-     "ar": "يؤدي تصاعد الصراعات في الشرق الأوسط إلى زيادة الطلب والإنفاق المحتمل على مقاولي الدفاع والطيران الأمريكيين.",
-     "ru": "Эскалация конфликтов на Ближнем Востоке повышает спрос на акции американских оборонных предприятий."
-    },
-    "name_i18n": {
-     "he": "ITA – קרן סל תעופה וביטחון אמריקאית",
-     "en": "ITA – iShares U.S. Aerospace & Defense ETF",
-     "ar": "ITA – صندوق قطاع الطيران والدفاع الأمريكي",
-     "ru": "ITA – ETF аэрокосмического и оборонного секторов США"
-    },
-    "price_at_alert": 69.39,
-    "entry_price": 69.67,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 66.24,
-    "exit_date": "2026-11-20",
-    "change_pct": -4.92,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 1.39,
-    "edge_pct": 1.39,
-    "hit": true,
-    "hit_raw": false
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1795048680,
-    "reason": "מתיחות ביטחונית במזרח התיכון מדגישה את הצורך בציוד צבאי מתקדם.",
-    "reason_i18n": {
-     "he": "מתיחות ביטחונית במזרח התיכון מדגישה את הצורך בציוד צבאי מתקדם.",
-     "en": "Security tensions in the Middle East highlight the need for advanced military hardware.",
-     "ar": "التوترات الأمنية في الشرق الأوسط تسلط الضوء على الحاجة للمعدات العسكرية.",
-     "ru": "Меры безопасности на Ближнем Востоке подчеркивают спрос на военную технику."
-    },
-    "name_i18n": {
-     "he": "LMT - לוקהיד מרטין (חברת ביטחון ענקית)",
-     "en": "LMT - Lockheed Martin (major defense contractor)",
-     "ar": "LMT - لوكهيد مارتن (مقاول دفاعي رئيسي)",
-     "ru": "LMT - Lockheed Martin (крупный оборонный подрядчик)"
-    },
-    "price_at_alert": 578.19,
-    "entry_price": 580.0,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 565.65,
-    "exit_date": "2026-11-20",
-    "change_pct": -2.47,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 3.84,
-    "edge_pct": 3.84,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "53e3d7af5b63",
-  "updates": [
-   {
-    "ts": 1795044916,
-    "time": "2026-11-18T23:35Z",
-    "severity": 7,
-    "summary": "איראן תקפה בסיסי רחפנים וטילים של ארה\"ב בכווית לאחר תקיפות הגנתיות אמריקאיות, וטהראן מאיימת על נתיבי האנרגיה האזוריים ועל אספקת הנפט על רקע סנקציות מוגברות.",
-    "i18n": {
-     "he": "איראן תקפה בסיסי רחפנים וטילים של ארה\"ב בכווית לאחר תקיפות הגנתיות אמריקאיות, וטהראן מאיימת על נתיבי האנרגיה האזוריים ועל אספקת הנפט על רקע סנקציות מוגברות.",
-     "en": "Iran targeted US drone and missile sites in Kuwait following US defensive strikes, while threatening regional oil shipping routes amid tightened sanctions.",
-     "ar": "استهدفت إيران مواقع أمريكية للطائرات المسيرة والصواريخ في الكويت بعد ضربات دفاعية أمريكية، وهددت طرق الشحن النفطي الإقليمية وسط تشديد العقوبات.",
-     "ru": "Иран атаковал американские объекты дронов и ракет в Кувейте в ответ на оборонительные удары США, а также пригрозил нефтяным маршрутам на фоне усиления санкций."
-    }
-   },
-   {
-    "ts": 1795048680,
-    "time": "2026-11-19T00:38Z",
-    "severity": 7,
-    "summary": "ראש המודיעין האמריקאי הזהיר כי האיומים האיראניים נגד אזרחים אמריקאיים גברו בעוד וושינגטון מהדקת את הסגר הימי, במקביל לדיווחים על ספינות שנפגעו ממוקשים במפרץ הורמוז ותקיפת פלטפורמת טילים בתימן.",
-    "i18n": {
-     "he": "ראש המודיעין האמריקאי הזהיר כי האיומים האיראניים נגד אזרחים אמריקאיים גברו בעוד וושינגטון מהדקת את הסגר הימי, במקביל לדיווחים על ספינות שנפגעו ממוקשים במפרץ הורמוז ותקיפת פלטפורמת טילים בתימן.",
-     "en": "US intelligence chiefs warned that Iranian threats against Americans have surged as Washington tightens a naval blockade, alongside reports of ships hitting mines in the Strait of Hormuz and coalition strikes in Yemen.",
-     "ar": "حذر رئيس الاستخبارات الأمريكية من تصاعد التهديدات الإيرانية ضد الأمريكيين مع تشديد واشنطن الحصار البحري، بالتزامن مع تقارير عن سفن أصابتها ألغام في مضيق هرمز.",
-     "ru": "Глава разведки США предупредил о росте иранских угроз против американцев на фоне ужесточения морской блокады, а также сообщений о подрыве судов на минах в Ормузском проливе."
-    }
-   }
-  ],
-  "last_update": 1795048680,
-  "evaluated": true
- },
- {
   "ts": 1795016473,
   "time": "2026-11-18T15:41Z",
   "title": "אנתרופיק (Anthropic) צפויה להנפיק בנאסד\"ק",
@@ -2882,356 +2535,6 @@
    }
   ],
   "last_update": 1795096985,
-  "evaluated": true
- },
- {
-  "ts": 1795048680,
-  "time": "2026-11-19T00:38Z",
-  "title": "פוטין ושי מגנים את הפרוטקציוניזם המערבי ואת הסנקציות; פסגת אסיה נתקלת בקשיים",
-  "summary": "בפסגת APEC ובכינוסים אזוריים באסיה, נשיאי רוסיה וסין תקפו בחריפות את הסנקציות והפרוטקציוניזם המערבי, בזמן שמנהיגי ASEAN פישלו להגיע להסכמות על קוד התנהגות בים הפיליפיני.",
-  "kid": "מנהיגי סין ורוסיה יצאו נגד חוקי המסחר והסנקציות של המערב. דבר כזה עלול להשפיע על קשרי המסחר הבינלאומיים ועל מניות החברות שעושות עסקים גלובליים.",
-  "i18n": {
-   "title": {
-    "he": "פוטין ושי מגנים את הפרוטקציוניזם המערבי ואת הסנקציות; פסגת אסיה נתקלת בקשיים",
-    "en": "Putin and Xi Blast Western Sanctions and Protectionism as Asian Summit Struggles",
-    "ar": "بوتين وشي ينددان بالعقوبات الغربية والحماية التجارية وسط تعثر قمة آسيوية",
-    "ru": "Путин и Си критикуют западные санкции и протекционизм на фоне трудностей на азиатском саммите"
-   },
-   "summary": {
-    "he": "בפסגת APEC ובכינוסים אזוריים באסיה, נשיאי רוסיה וסין תקפו בחריפות את הסנקציות והפרוטקציוניזם המערבי, בזמן שמנהיגי ASEAN פישלו להגיע להסכמות על קוד התנהגות בים הפיליפיני.",
-    "en": "At international summits, leaders Xi Jinping and Vladimir Putin strongly criticized Western protectionism and trade sanctions, while ASEAN talks in the Philippines failed to finalize a South China Sea code of conduct.",
-    "ar": "في قمم دولية، انتقد الزعيمان شي جين بينغ وفلاديمير بوتين بشدة الحمائية التجارية والعقوبات الغربية، بينما فشلت محادثات رابطة آسيان في الاتفاق على مدونة سلوك لبحر الصين الجنوبي.",
-    "ru": "На международных саммитах лидеры Си Цзиньпин и Владимир Путин резко критиковали западный протекционизм и санкции, в то время как саммит ASEAN не смог согласовать кодекс поведения в Южно-Китайском море."
-   },
-   "kid": {
-    "he": "מנהיגי סין ורוסיה יצאו נגד חוקי המסחר והסנקציות של המערב. דבר כזה עלול להשפיע על קשרי המסחר הבינלאומיים ועל מניות החברות שעושות עסקים גלובליים.",
-    "en": "The leaders of China and Russia criticized Western trade rules and sanctions. This kind of tension can affect international trade and the stock prices of global companies.",
-    "ar": "انتقد قادة الصين وروسيا قواعد التجارة الغربية والعقوبات. هذا النوع من التوتر قد يؤثر على التجارة الدولية وأسهم الشركات العالمية.",
-    "ru": "Лидеры Китая и России раскритиковали западные торговые правила и санкции. Такая напряженность может повлиять на мировую торговлю и акции глобальных компаний."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FXI",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "המתיחות הגיאופוליטית המתמשכת והביקורת ההדדית פוגעות بس sentiment סביב נכסים סיניים.",
-    "reason_i18n": {
-     "he": "המתיחות הגיאופוליטית המתמשכת והביקורת ההדדית פוגעות بس sentiment סביב נכסים סיניים.",
-     "en": "Ongoing geopolitical friction and protectionist rhetoric weigh on sentiment toward Chinese assets.",
-     "ar": "الاحتكاك الجيوسياسي المستمر والخطاب الحمائي يضغطان على معنويات الأصول الصينية.",
-     "ru": "Продолжающаяся геополитическая напряженность давит на настроения в отношении китайских активов."
-    },
-    "name_i18n": {
-     "he": "FXI - קרן סל על מניות ענק סיניות",
-     "en": "FXI - iShares China Large-Cap ETF",
-     "ar": "FXI - صندوق الأسهم الصينية الكبرى",
-     "ru": "FXI - ETF крупных китайских компаний"
-    },
-    "price_at_alert": 32.39,
-    "entry_price": 32.1,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 31.24,
-    "exit_date": "2026-11-20",
-    "change_pct": -2.68,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 3.63,
-    "edge_pct": -3.63,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "EEM",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "מתח בין מעצמות פוגע בתיאבון הסיכון בשווקים המתעוררים.",
-    "reason_i18n": {
-     "he": "מתח בין מעצמות פוגע בתיאבון הסיכון בשווקים המתעוררים.",
-     "en": "Superpower friction dampens risk appetite across emerging markets.",
-     "ar": "التوتر بين القوى الكبرى يضعف شهية المخاطرة في الأسواق الناشئة.",
-     "ru": "Трения между сверхдержавами снижают аппетит к риску на развивающихся рынках."
-    },
-    "name_i18n": {
-     "he": "EEM - קרן סל שווקים מתעוררים",
-     "en": "EEM - MSCI Emerging Markets ETF",
-     "ar": "EEM - صندوق الأسواق الناشئة",
-     "ru": "EEM - ETF развивающихся рынков"
-    },
-    "price_at_alert": 57.88,
-    "entry_price": 58.03,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 53.86,
-    "exit_date": "2026-11-20",
-    "change_pct": -7.19,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -0.87,
-    "edge_pct": 0.87,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "742ec462f848",
-  "evaluated": true
- },
- {
-  "ts": 1795048680,
-  "time": "2026-11-19T00:38Z",
-  "title": "מחירי הנפט יורדים על רקע חששות מעודף היצע בשווקים",
-  "summary": "מחירי הנפט סגרו בירידות על רקע חששות מתמשכים מעודף היצע עולמי ובשילוב לחץ מצד המדיניות המוניטרית הנוקשה של הפדרל ריזרב.",
-  "kid": "מחירי הנפט ירדו כי יש חשש שיש יותר מדי נפט בשוק ולא מספיק קונים. זה גורם למניות של חברות הנפט הגדולות לרדת.",
-  "i18n": {
-   "title": {
-    "he": "מחירי הנפט יורדים על רקע חששות מעודף היצע בשווקים",
-    "en": "Oil Prices Settle Lower as Surplus Supply Concerns Weigh",
-    "ar": "أسعار النفط تستقر على انخفاض وسط مخاوف تخمة المعروض",
-    "ru": "Цены на нефть снижаются на фоне опасений избытка предложения"
-   },
-   "summary": {
-    "he": "מחירי הנפט סגרו בירידות על רקע חששות מתמשכים מעודף היצע עולמי ובשילוב לחץ מצד המדיניות המוניטרית הנוקשה של הפדרל ריזרב.",
-    "en": "Oil prices settled lower as traders weighed prospects of a global surplus supply, compounded by broader macroeconomic pressures from hawkish central bank signals.",
-    "ar": "استقرت أسعار النفط على انخفاض مع تقييم المتداولين لتوقعات تخمة المعروض العالمي، بالتزامن مع الضغوط الاقتصادية الكلية.",
-    "ru": "Цены на нефть снизились, поскольку трейдеры оценивают перспективы избытка предложения на мировом рынке на фоне макроэкономического давления."
-   },
-   "kid": {
-    "he": "מחירי הנפט ירדו כי יש חשש שיש יותר מדי נפט בשוק ולא מספיק קונים. זה גורם למניות של חברות הנפט הגדולות לרדת.",
-    "en": "Oil prices fell because of worries that there is too much oil in the market and not enough buyers. This causes shares of major oil companies to drop.",
-    "ar": "انخفضت أسعار النفط بسبب المخاوف من وجود فائض في المعروض وقلة المشترين، مما يتسبب في هبوط أسهم شركات النفط الكبرى.",
-    "ru": "Цены на нефть упали из-за опасений избытка предложения на рынке при недостаточном спросе. Это приводит к падению акций крупных нефтяных компаний."
-   }
-  },
-  "category": "commodities",
-  "severity": 5,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה בסקטור.",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט פוגעת ברווחיות חברות האנרגיה בסקטור.",
-     "en": "Falling crude prices hurt the profitability of energy companies in the sector.",
-     "ar": "انخفاض أسعار النفط يضر بربحية شركات الطاقة في القطاع.",
-     "ru": "Падение цен на нефть бьет по прибыльности энергетических компаний."
-    },
-    "name_i18n": {
-     "he": "XLE - קרן סל על סקטור האנרגיה",
-     "en": "XLE - Energy Sector ETF",
-     "ar": "XLE - صندوق قطاع الطاقة",
-     "ru": "XLE - ETF энергетического сектора"
-    },
-    "price_at_alert": 61.29,
-    "entry_price": 61.71,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 60.58,
-    "exit_date": "2026-11-20",
-    "change_pct": -1.83,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 4.48,
-    "edge_pct": -4.48,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "XOM",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "ההכנסות והרווחים של ענקית האנרגיה מושפעים ישירות ממחירי הנפט הגולמי.",
-    "reason_i18n": {
-     "he": "ההכנסות והרווחים של ענקית האנרגיה מושפעים ישירות ממחירי הנפט הגולמי.",
-     "en": "The energy giant's revenues and earnings are directly exposed to crude oil prices.",
-     "ar": "تتأثر إيرادات وأرباح عملاق الطاقة مباشرة بأسعار النفط الخام.",
-     "ru": "Доходы и прибыль энергетического гиганта напрямую зависят от цен на сырую нефть."
-    },
-    "name_i18n": {
-     "he": "XOM - אקסון מוביל (ענקית אנרגיה)",
-     "en": "XOM - ExxonMobil (major energy giant)",
-     "ar": "XOM - إكسون موبيل (عملاق الطاقة)",
-     "ru": "XOM - ExxonMobil (энергетический гигант)"
-    },
-    "price_at_alert": 160.58,
-    "entry_price": 161.325,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 159.97,
-    "exit_date": "2026-11-20",
-    "change_pct": -0.84,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 5.47,
-    "edge_pct": -5.47,
-    "hit": false,
-    "hit_raw": true
-   },
-   {
-    "ticker": "CVX",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "סביבת מחירי נפט חלשה מקזזת את שווי השוק של החברה.",
-    "reason_i18n": {
-     "he": "סביבת מחירי נפט חלשה מקזזת את שווי השוק של החברה.",
-     "en": "A weaker crude pricing environment weighs on the company's market valuation.",
-     "ar": "بيئة أسعار النفط الضعيفة تضغط على التقييم السوقي للشركة.",
-     "ru": "Слабая ценовая среда на нефть давит на рыночную оценку компании."
-    },
-    "name_i18n": {
-     "he": "CVX - שברון (חברת אנרגיה מובילה)",
-     "en": "CVX - Chevron (leading energy firm)",
-     "ar": "CVX - شيفرون (شركة طاقة رائدة)",
-     "ru": "CVX - Chevron (ведущая энергетическая компания)"
-    },
-    "price_at_alert": 205.88,
-    "entry_price": 207.48,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 208.42,
-    "exit_date": "2026-11-20",
-    "change_pct": 0.45,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 6.77,
-    "edge_pct": -6.77,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "0d6159a926c3",
-  "evaluated": true
- },
- {
-  "ts": 1795048680,
-  "time": "2026-11-19T00:38Z",
-  "title": "ויימו (Waymo) מוציאה את כל הרכבים האוטונומיים מהכבישים המהירים בארה\"ב",
-  "summary": "חברת הרכבים האוטונומיים ויימו החליטה להוריד את כל כלי הרכב ללא נהג שלה מהכבישים המהירים בערים מרכזיות בארה\"ב בהן פעלה.",
-  "kid": "חברת המכוניות האוטונומיות ויימו הפסיקה לנסוע בכבישים מהירים משיקולים שונים. זה עשוי לעכב את התוכניות העסקיות שלה להתרחבות מהירה.",
-  "i18n": {
-   "title": {
-    "he": "ויימו (Waymo) מוציאה את כל הרכבים האוטונומיים מהכבישים המהירים בארה\"ב",
-    "en": "Waymo Pulls All Driverless Cars from US Freeways",
-    "ar": "وايمو تسحب جميع سياراتها ذاتية القيادة من الطرق السريعة الأمريكية",
-    "ru": "Waymo убирает все беспилотные автомобили с американских автомагистралей"
-   },
-   "summary": {
-    "he": "חברת הרכבים האוטונומיים ויימו החליטה להוריד את כל כלי הרכב ללא נהג שלה מהכבישים המהירים בערים מרכזיות בארה\"ב בהן פעלה.",
-    "en": "Alphabet's autonomous vehicle unit Waymo has pulled all its driverless cars from US freeways across cities like San Francisco and Los Angeles.",
-    "ar": "سحبت شركة السيارات ذاتية القيادة التابعة لألفابت 'وايمو' جميع مركباتها من الطرق السريعة في المدن الأمريكية الرئيسية.",
-    "ru": "Компания по производству беспилотных автомобилей Waymo убрала все свои беспилотники с автомагистралей в крупных городах США."
-   },
-   "kid": {
-    "he": "חברת המכוניות האוטונומיות ויימו הפסיקה לנסוע בכבישים מהירים משיקולים שונים. זה עשוי לעכב את התוכניות העסקיות שלה להתרחבות מהירה.",
-    "en": "Self-driving car company Waymo stopped driving its vehicles on freeways. This could slow down their plans for fast business expansion.",
-    "ar": "توقفت شركة السيارات ذاتية القيادة وايمو عن القيادة على الطرق السريعة. قد يبطئ هذا خطط توسع أعمالها.",
-    "ru": "Компания беспилотных авто Waymo прекратила движение по автомагистралям. Это может замедлить их планы по расширению бизнеса."
-   }
-  },
-  "category": "policy",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1795048680,
-    "reason": "נסיגה רגולטורית או תפעולית בפרויקטי טכנולוגיה מתקדמים מעיבה על סקטור הטק.",
-    "reason_i18n": {
-     "he": "נסיגה רגולטורית או תפעולית בפרויקטי טכנולוגיה מתקדמים מעיבה על סקטור הטק.",
-     "en": "Operational setbacks in advanced autonomous tech weigh slightly on tech sentiment.",
-     "ar": "انتكاسة تشغيلية في تقنيات القيادة الذاتية تضغط قليلاً על معنويات التكنولوجيا.",
-     "ru": "Операционные неудачи в технологиях беспилотников давят на сектор."
-    },
-    "name_i18n": {
-     "he": "QQQ - קרן סל על מדד נאסד\"ק 100",
-     "en": "QQQ - Invesco QQQ Trust (Nasdaq 100 ETF)",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 659.51,
-    "entry_price": 671.05,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 610.0425,
-    "exit_date": "2026-11-20",
-    "change_pct": -9.09,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -2.78,
-    "edge_pct": 2.78,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "9f963e23b5dd",
-  "evaluated": true
- },
- {
-  "ts": 1795048680,
-  "time": "2026-11-19T00:38Z",
-  "title": "פורסמו מועדי משלוחי החגים של USPS, UPS ו-FedEx לשנת 2026",
-  "summary": "חברות השילוח המובילות בארה\"ב, כולל FedEx ו-UPS, פרסמו את המועדים האחרונים למשלוחי חבילות לקראת עונת החגים של 2026 כדי להבטיח הגעה בזמן.",
-  "kid": "חברות המשלוחים הגדולות הודיעו מתי צריך לשלוח חבילות כדי שיגיעו בזמן לחגים. זה עוזר להן לתכנן את העומס ולעשות סדר בעבודה.",
-  "i18n": {
-   "title": {
-    "he": "פורסמו מועדי משלוחי החגים של USPS, UPS ו-FedEx לשנת 2026",
-    "en": "USPS, UPS, and FedEx Release 2026 Holiday Shipping Deadlines",
-    "ar": "الإعلان عن المواعيد النهائية لشحن الهدايا لعطلات 2026 لشركات النقل",
-    "ru": "Объявлены сроки праздничных отправлений USPS, UPS и FedEx на 2026 год"
-   },
-   "summary": {
-    "he": "חברות השילוח המובילות בארה\"ב, כולל FedEx ו-UPS, פרסמו את המועדים האחרונים למשלוחי חבילות לקראת עונת החגים של 2026 כדי להבטיח הגעה בזמן.",
-    "en": "Major US shipping companies, including FedEx and UPS, have announced their final holiday shipping deadlines for the upcoming gifting season.",
-    "ar": "أعلنت شركات الشحن الأمريكية الكبرى، بما في ذلك فيديكس ويو بي إس، عن المواعيد النهائية لشحن الطرود لموسم العطلات.",
-    "ru": "Крупнейшие американские службы доставки, включая FedEx и UPS, объявили сроки праздничных отправлений посылок на сезон 2026 года."
-   },
-   "kid": {
-    "he": "חברות המשלוחים הגדולות הודיעו מתי צריך לשלוח חבילות כדי שיגיעו בזמן לחגים. זה עוזר להן לתכנן את העומס ולעשות סדר בעבודה.",
-    "en": "Big shipping companies told customers the last days to send packages for the holidays. This helps them manage workloads efficiently.",
-    "ar": "أعلنت شركات الشحن الكبرى عن المواعيد النهائية لإرسال الطرود للعطلات، مما يساعدها في تنظيم العمل بكفاءة.",
-    "ru": "Крупные логистические компании назвали сроки отправки посылок к праздникам. Это помогает им эффективно управлять нагрузкой."
-   }
-  },
-  "category": "commodities",
-  "severity": 2,
-  "confidence": "high",
-  "sources": [],
-  "impacts": [
-   {
-    "ticker": "FDX",
-    "direction": "up",
-    "t0": 1795048680,
-    "reason": "היערכות עונתית מוקדמת ושקיפות ללקוחות תומכות בפעילות העסקית בתקופת השיא.",
-    "reason_i18n": {
-     "he": "היערכות עונתית מוקדמת ושקיפות ללקוחות תומכות בפעילות העסקית בתקופת השיא.",
-     "en": "Early seasonal planning and transparent deadlines support peak logistics activity.",
-     "ar": "التخطيط الموسمي المبكر والمواعيد الواضحة تدعم نشاط الشحن في ذروة الموسم.",
-     "ru": "Раннее сезонное планирование поддерживает пиковую логистическую активность."
-    },
-    "name_i18n": {
-     "he": "FDX - פדאקס (חברת שילוח בינלאומית)",
-     "en": "FDX - FedEx Corporation (global shipping)",
-     "ar": "FDX - فيديكس (شركة الشحن العالمية)",
-     "ru": "FDX - FedEx (мировая служба доставки)"
-    },
-    "price_at_alert": 318.31,
-    "entry_price": 318.43,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 304.06,
-    "exit_date": "2026-11-20",
-    "change_pct": -4.51,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": 1.8,
-    "edge_pct": 1.8,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "d762f9417c36",
   "evaluated": true
  },
  {
@@ -43086,12 +42389,20 @@
    }
   },
   "category": "commodities",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbUxaM2N3OURtRy1BdV9LaEM2NVJ6Sm5uMnZMeGVZU1ctdnIwMDM3bGJVU0NsNHhycy1UWGNqelZJTWNPUG1VQXRoQUY1VU40eUIwSUVPYTY5NFVxVkFDTjQ3ejkwYkp6cUs0Y0xHaWJOSTFQSlBHNlFWcFYxNGNVNTE3eVRnRjI3NEY3T2REYzZsOXF0YU83d1JPcUJmNGVob0lDbFFWS0wwLThVVDNxZ2VB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss"
    }
   ],
   "impacts": [
@@ -43132,9 +42443,43 @@
      "ru": "CVX - Chevron"
     },
     "price_at_alert": 211.74
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "החמרת המתיחות במזרח התיכון וסיכוני אספקה מעלים את מחירי האנרגיה",
+    "reason_i18n": {
+     "he": "החמרת המתיחות במזרח התיכון וסיכוני אספקה מעלים את מחירי האנרגיה",
+     "en": "Heightened Middle East tensions and supply risks push energy prices higher",
+     "ar": "تصاعد التوترات في الشرق الأوسط ومخاطر الإمدادات ترفع أسعار الطاقة",
+     "ru": "Эскалация напряженности на Ближнем Востоке и риски поставок толкают цены на энергию вверх"
+    },
+    "name_i18n": {
+     "he": "קרן סל אנרגיה – מניות אנפט ונפט",
+     "en": "Energy Select Sector SPDR Fund – energy stocks",
+     "ar": "صندوق قطاع الطاقة – أسهم الطاقة",
+     "ru": "Energy Select Sector SPDR Fund — энергетический сектор"
+    },
+    "price_at_alert": 60.9
    }
   ],
-  "id": "b67a155792dd"
+  "id": "b67a155792dd",
+  "updates": [
+   {
+    "ts": 1795653498,
+    "time": "2026-11-26T00:38Z",
+    "severity": 6,
+    "summary": "מורדים חות'ים טענו לתקיפות על מתקן זיקוק ועל העיר ריאד, בזמן שקואליציית סעודיה ביצעה תקיפות נגד בתי נמל ותשתיות בתימן.",
+    "i18n": {
+     "he": "מורדים חות'ים טענו לתקיפות על מתקן זיקוק ועל העיר ריאד, בזמן שקואליציית סעודיה ביצעה תקיפות נגד בתי נמל ותשתיות בתימן.",
+     "en": "Houthi rebels claimed attacks on a refinery and Riyadh, while the Saudi coalition struck Hodeidah port in Yemen.",
+     "ar": "أعلن المتمردون الحوثيون عن هجمات على مصفاة والرياض، بينما ضرب التحالف السعودي ميناء الحديدة في اليمن.",
+     "ru": "Хуситы заявили об атаках на НПЗ и Эр-Рияд, в то время как саудовская коалиция нанесла удары по порту Ходейда в Йемене."
+    }
+   }
+  ],
+  "last_update": 1795653498
  },
  {
   "ts": 1795640125,
@@ -43713,5 +43058,144 @@
    }
   ],
   "id": "3ac568364299"
+ },
+ {
+  "ts": 1795653498,
+  "time": "2026-11-26T00:38Z",
+  "title": "ברידג'ווטר מעריכה סיכון גבוה למתקפת סייבר משבשת; העומס בקראודסטרייק עולה ב-50%",
+  "summary": "קרן הגידור ברידג'ווטר מעריכה סיכוי משמעותי למתקפת סייבר מערכתית, בעוד שחברת האבטחה קראודסטרייק מדווחת על זינוק של 50% בעומס העבודה שלה.",
+  "kid": "מומחי פיננסים מזהירים מסיכון גבוה למתקפות מחשב גדולות, וחברת אבטחת הסייבר קראודסטרייק רואה הרבה יותר עבודה. זה יכול לעזור למניות אבטחת המידע.",
+  "i18n": {
+   "title": {
+    "he": "ברידג'ווטר מעריכה סיכון גבוה למתקפת סייבר משבשת; העומס בקראודסטרייק עולה ב-50%",
+    "en": "Bridgewater Sees High Cyberattack Risk; CrowdStrike’s Workload Up 50%",
+    "ar": "بريدجواتتر ترى مخاطر عالية لهجمات سيبرانية؛ وضغط العمل على كراودسترايك يرتفع 50%",
+    "ru": "Bridgewater видит высокие риски кибератак; нагрузка на CrowdStrike выросла на 50%"
+   },
+   "summary": {
+    "he": "קרן הגידור ברידג'ווטר מעריכה סיכוי משמעותי למתקפת סייבר מערכתית, בעוד שחברת האבטחה קראודסטרייק מדווחת על זינוק של 50% בעומס העבודה שלה.",
+    "en": "Hedge fund Bridgewater estimates a significant probability of a destabilizing cyberattack, while cybersecurity firm CrowdStrike reports a 50% increase in workload.",
+    "ar": "تقدر صندوق التحوط بريدجواتتر احتمالاً كبيراً لهجوم سيبراني معطل، بينما تسجل شركة الأمن السيبراني كراودسترايك زيادة بنسبة 50% في عبء العمل.",
+    "ru": "Хедж-фонд Bridgewater оценивает высокую вероятность дестабилизирующей кибератаки, а компания CrowdStrike сообщает о росте рабочей нагрузки на 50%."
+   },
+   "kid": {
+    "he": "מומחי פיננסים מזהירים מסיכון גבוה למתקפות מחשב גדולות, וחברת אבטחת הסייבר קראודסטרייק רואה הרבה יותר עבודה. זה יכול לעזור למניות אבטחת המידע.",
+    "en": "Financial experts warn of a high risk of major computer cyberattacks, and cybersecurity firm CrowdStrike is seeing a big jump in work. This can push up cybersecurity stocks.",
+    "ar": "يحذر خبراء مالعون من مخاطر عالية لهجمات إلكترونية كبيرة، وترى شركة كراودسترايك زيادة كبيرة في العمل، مما قد يدعم أسهم الأمن السيبراني.",
+    "ru": "Финансовые эксперты предупреждают о высоком риске крупных кибератак, а компания CrowdStrike отмечает резкий рост работы. Это может поддержать акции кибербезопасности."
+   }
+  },
+  "category": "cyber",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNanBVNVNMM3hCeHRFNjl4R0c1eWJCb3hKdXFYTTBGVGtRT0doOTlNRUhEVlhMWDd4RDhmNDlpZHN6NXVUTDJJSnRucFRPdk1UWDNXRGJXd3NiTW1wZUlvN1o2TWwyVmVIUXNlZmY1YmU4SlMxeU8zaUt6ZGZNbzVLbm9tTzJ6RHUtT1FrZ0V1ck5VMWFBS3ZCUFY3em9NMkcwR1E4RW9zMVp4Q19tVm1QSjFZYW1CRTVNSW41OTdiaV9iZWVoRmVnQlNuVnlUdmotc3BZ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "CRWD",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "עלייה חדה בביקוש לשירותי הגנת סייבר עקב חשש מוגבר ממתקפות",
+    "reason_i18n": {
+     "he": "עלייה חדה בביקוש לשירותי הגנת סייבר עקב חשש מוגבר ממתקפות",
+     "en": "Sharp increase in demand for cyber defense services due to heightened attack fears",
+     "ar": "زيادة حادة في الطلب على خدمات الدفاع السيبراني بسبب مخاوف الهجمات",
+     "ru": "Резкий рост спроса на услуги киберзащиты из-за опасений атак"
+    },
+    "name_i18n": {
+     "he": "קראודסטרייק – חברת אבטחת סייבר",
+     "en": "CrowdStrike – cybersecurity company",
+     "ar": "كراودسترايك – شركة أمن سيبراني",
+     "ru": "CrowdStrike — компания кибербезопасности"
+    },
+    "price_at_alert": 209.3
+   }
+  ],
+  "id": "d117e247508c"
+ },
+ {
+  "ts": 1795653498,
+  "time": "2026-11-26T00:38Z",
+  "title": "איום טילים לכאורה בנמל התעופה לה גוארדיה בניו יורק התברר כשגוי",
+  "summary": "מגדל הפיקוח בנמל התעופה לה גוארדיה הזהיר את הטייסים מפני איום טילים אפשרי, אך הטיסות חודשו לאחר שהאיום נמצא לא אמין.",
+  "kid": "היו חששות מפני טיל ליד נמל תעופה בניו יורק, אבל התברר שזו אזעקת שווא והטיסות חזרו לפעול. זה מרגיע את חברות התעופה.",
+  "i18n": {
+   "title": {
+    "he": "איום טילים לכאורה בנמל התעופה לה גוארדיה בניו יורק התברר כשגוי",
+    "en": "Apparent Missile Threat at LaGuardia Airport in New York Deemed Not Credible",
+    "ar": "تهديد صاروخي مزعوم في مطار لاغوارديا بنيويورك يتبين أنه غير حقيقي",
+    "ru": "Мнимый ракетный угроза в аэропорту Ла-Гуардия в Нью-Йорке оказалась ложной"
+   },
+   "summary": {
+    "he": "מגדל הפיקוח בנמל התעופה לה גוארדיה הזהיר את הטייסים מפני איום טילים אפשרי, אך הטיסות חודשו לאחר שהאיום נמצא לא אמין.",
+    "en": "LaGuardia Airport's control tower warned pilots of a possible missile threat, but flights resumed after the threat was deemed not credible.",
+    "ar": "حذر برج المراقبة في مطار لاغوارديا الطيارين من تهديد صاروخ محتمل، لكن الرحلات استئنفات بعد تبين عدم مصداقيته.",
+    "ru": "Диспетчерская вышка аэропорта Ла-Гуардия предупредила пилотов о возможной ракетной угрозе, но полеты возобновились после признания угрозы недостоверной."
+   },
+   "kid": {
+    "he": "היו חששות מפני טיל ליד נמל תעופה בניו יורק, אבל התברר שזו אזעקת שווא והטיסות חזרו לפעול. זה מרגיע את חברות התעופה.",
+    "en": "There was a brief scare about a missile near a New York airport, but it wasn't true and flights are back to normal. This keeps airline stocks steady.",
+    "ar": "كان هناك قلق قصير بشأن صاروخ قرب مطار في نيويورك، لكن تبين أنه خطأ وعادت الرحلات لطبيعتها.",
+    "ru": "Было кратковременное беспокойство из-за ракеты около аэропорта в Нью-Йорке, но тревога оказалась ложной, и полеты возобновились."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 3,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTnFvZ0lCeTNYUklFUFJORm1QeVlYb2JoVGVJQ1ZFWkRyekFCQ0Uta3dDcDNLRkRMUFBMbnU1N2M0MmhQS1h4SzlfVXZFZkdPZ0ZCTVV1Q09taWstNHRVY0FfOHlkQzlhVjNvUA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdDkwSlNQRDJab0hhZ2hUV0tBYUtIbWtBNWt5OTQ1ZWVRYzYwelZaOG90X0k3aEtNVnJCbHJNQkpBbjZveGR0SkkxMUNGenZGUXkwbTFmbWlzWVJWQzVwSjRfZkJzZ1dQT3lwWWgxLTdoSkQ0ZEs3dG1NRzdMdURuZHA1Zm5HWGI1NFIxTjV2X0ZqRUhFa0ZWX3FaQ2ZqN0RUNHp3cUp1YkpidWlQWDRCUXZZNA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "DAL",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "חזרה לפעילות רגילה בנמל התעופה לה גוארדיה מבטלת חששות לשיבושים",
+    "reason_i18n": {
+     "he": "חזרה לפעילות רגילה בנמל התעופה לה גוארדיה מבטלת חששות לשיבושים",
+     "en": "Return to normal operations at LaGuardia removes disruption fears",
+     "ar": "العودة للعمل الطبيعي في مطار لاغوارديا تزيل مخاوف الاضطرابات",
+     "ru": "Возврат к нормальной работе в Ла-Гуардии снимает опасения сбоев"
+    },
+    "name_i18n": {
+     "he": "דלתא איירליינס – חברת תעופה גדולה",
+     "en": "Delta Air Lines – a major airline",
+     "ar": "دلتا إيرلاينز – شركة طيران كبرى",
+     "ru": "Delta Air Lines — крупная авиакомпания"
+    },
+    "price_at_alert": 82.95
+   },
+   {
+    "ticker": "UAL",
+    "direction": "up",
+    "t0": 1795653498,
+    "reason": "התרת איום הטילים בניו יורק מונעת ביטולי טיסות",
+    "reason_i18n": {
+     "he": "התרת איום הטילים בניו יורק מונעת ביטולי טיסות",
+     "en": "Resolution of the New York missile threat prevents flight cancellations",
+     "ar": "حل تهديد الصواريخ في نيويورك يمنع إلغاء الرحلات",
+     "ru": "Урегулирование ракетной угрозы в Нью-Йорке предотвращает отмены рейсов"
+    },
+    "name_i18n": {
+     "he": "יונייטד איירליינס – חברת תעופה",
+     "en": "United Airlines – an airline",
+     "ar": "يونايتد إيرلاينز – شركة طيران",
+     "ru": "United Airlines — авиакомпания"
+    },
+    "price_at_alert": 104.52
+   }
+  ],
+  "id": "b755820cacc8"
  }
 ]
