@@ -106639,7 +106639,8 @@
      "ar": "صندوق مؤشر روسيا (مقيد)",
      "ru": "ETF на Россию (ограничен)"
     },
-    "price_at_alert": null
+    "price_at_alert": null,
+    "no_data": true
    },
    {
     "ticker": "XLE",
@@ -106687,7 +106688,8 @@
     }
    }
   ],
-  "last_update": 1794855205
+  "last_update": 1794855205,
+  "evaluated": true
  },
  {
   "ts": 1794841622,
@@ -162847,27 +162849,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMVdKa1ZWRzdvOWJTTFJKS2pBX3RPSXk0WnVVSFd3X0hmdWQ1d21GUjhIUVYxS2lrZURmRnJuSDdXUUQ4VXlPSURkMjdRNWJuWG94RWpnNzdlaEVmSzIwSDFPaEp5aGZnSWVVZ0ozYlNBcHd1bU9MVnltaFBFSWJ5S3FOdkY5cVlRUE5JdWtZOWNpUQ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTVFYNDJETl9ZSXJ2bDV5ZVNkcWN2dV83Wk53LW1jcXd1b0NyZ01pU0RTckJWbUZtS0RldllNQS1PUGFfdGpCTmhiVGhmXzNxdkZoWnhSRGs2TGVFa3Jwa1NnZTh5dUR1V0tNbmVuT01nQ2t5eG0yWXk5OEltTjBna1UyVldVRnhPWTF1ekxSVDdWYVBScmZsNzItWGZCellyNjh5V1BlcVp3ZnVidXVZ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa3RPYzUyekZwSmdZLUlSdHozWjYwa2NnWkJSRHdRZ1hYRE13b3pUXzBUZnp0cUNCQ21vcW9NY3o2ZTZjcjhVQkNQVklLNVJlMEk5RVFXN01KSzdFZEg1cWt6WmpTWWpUeUwzTG1HSy1HeWZRYnQ3S0pkbjZrckZlYnpWTWVEU2wxZUNMeDM2ZzBEdzRsWjlwVmtFVDNlMXhoRkN3eUFTQm5lOGl6bXRjTERfMzNUM3AtS3dvVzRPTTA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbHBBT1JyMUl0SkNlaTlUcUlQcWhlN05iOV9jcUFudG9qdkNmUUtOclY2SHdkelNMVmp0Q0VUcjl3VmFsc3Z1NzNsQkc4ckZwYWJ5WGp5bzNWbjVNcGl3NVNKbElOTS1kVjh2eGd4YUVFNjdUQ3lGQkJJTE1Sbkdrd0dBcG5vLXY2U2xHNmROU3hFdG1FU0M1a043Y3liVk5DaVlsd2hTOFk4UVdBMFYyV193N25nbVozR2NtdmVTbzU3MTBTcGZuNVJBbXoyUE9VeDJPb0xva0tnd1F1T1Nr0gHkAUFVX3lxTFBXOFQ5VTlGMG9GMmthOFhXY3pvaU1UVDNXX043czRRazR5MkVvTFhTano1R3hlTHVRQ3k2M2NBRjkxelJwUnVlaFBwWGJINnN1eEJtcEpiYmo2LVdhbFU5dkVneS1ib1FIRW83a3JMY2NFNm9ncDJjcDYtOTNOZlZmaGV0TElrMEJWdF9kX202a2oxd3Q0b1hDdHVGQXgzVWZtaENRc0JZNndkUjJCZl9JWndXcmk3MDFlQVczU1J4bWZqVVd1aTJDMjItT2ljaFVva21mUm1WLTNEbmR0Q3lMM3VoRw?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS2JmaV9RQ0c3OTg0cjduR2dtY2hHUmpYUFYxdlRsU1BZa2E5X1ROMU13TERkU0JRcUFpbXhHLUxnbEpMRjhPLUVPb0JGOWR0TGlIRlFlMlFXZXlzQTdqVVVMMWRLb1U2d2duVFFzdlNIWkRwV1ZBT0VCVGlhN00teFhnbUZjOF9EbjRmU0sxLVFsVWtrNWc?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb3NPd2FpbWNOdGNTbHdjR0tVSjhHYnB0aWhKLWtUMUJ4NUVWZGFNV2ctVWxEbko5b3hONVMzRFVTR3lIN09uSDJ1ZGNiRTVnQ0tWalBhUXFaNlpXeHZGZVU1ZFc3V29GWGZaSE5ERVV6ME1KMXpfTHVuOUFEMDI0QUhaWmhkS0FleFdid2J0bUdCR2poYnFqQXBOWlh2MDZnd3A2dDFuUGN6OHJGbDlCdHBpR3pIemplSFN5NUVlUHF6VnpLLWlIUXNfMU9KRjlTR1HSAdcBQVVfeXFMT2U4V2JPWF8ydkRCNGxFS2RBMUtUQ1haX0Zla1h6TXpnemJfSGlmWEFfbEpXbV82TmlMaG9fcGdDSkJpYmI3NE9rTnVBRnpMSGQ3Q3dLdkJ4cDlJRkZHcTFVdlVCaWxNSEVpd2JpeXFYcVA1aFdRTVlBblZsaENmYVlrZ0ExMlExV29LQXpVblczb2FTU1puY0xweTd1VVFtbEo3Mlg4ampGRmF2c2h3ZVVaOUZMcDRhdTRfTzVNYXA0TDYxczhMOE1lSnJtY0V5cEFPS2lyMlk?oc=5"
+   },
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUHoyNHRsdjFrUUJfRVdicjdXMmtad3ItQ3E3SlJKcFROWFVEMWptbHVxYWh3RnZlcFZVZGlPU1E1bVBwX0tHZ1hVcTNwbHV6amJ3ZWp0cmItSGVXSHVxcDhnQ19saXFhRVhiYzZn?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0o3Tl9wSlp6TkNJeGc2VW5oT1hPeHR2dGZpcnIzSkF2N3R2REt1WTZxZXNoeGVOZjZUZWo5dVNzQ0RFUVVLOXM3cmVRX0tIY3ZfU09KSXBhY3NqNzlHaHJzUUk5MmdsbEE4cW5SN3k3Nk0yRUt1bUJLV1UwXzhodkNYTXFUZDZmc0x4bg?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWXAxbEVLczRNTTVjWjVkU1R2NUVHQ1NSOFMwZ0c5dW9yYXhxZVh2TE1fZks1N3ZXR2lEZEJHdF90Z2JsNHlCTE01aEt4aC0wMVR5bWcxSDV3Vmg2UUtPSFp2T2cwdkN2ZnI0bkRqNEVBZFFmNUNEazdfdFB0Q1lDdUQtQW5GOVljYkZpTGZNOGNsYmI4aVBMcVg4ZFpOdEtYTWFBY2VB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16d0RXcGZ2cnpSS1ZIRldqZVZxT1dQdlVFcEVCSGRIZkkxN3Y1dlpJQndNTWF2NjY0OGM5ZnlrSzRnQ3BXTXExaDFVYlQ1emc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Vb0RqQl83MFdCdzdZLTJ5QTlYZnNad010ZEY2SmZUaFFLa1FJSVU5T1RMUmhfcUtKajdnbksxdUR6dkpYRERzQUVoeWI0T056QzZYaTFNNzYxcFBwY2ZncVVHX0Fzcmk4cjFOak1B0gFmQVVfeXFMTWdTMXhOVGVFcC1qUVBKNW9WSWlabGp1SEltYjk4NGNOSGh4LVl1aGE0THZRLWRvTkpOS1NmMG1DWl96Wk9VdDVpeUpCV01IRXBPeTNiaW9zNlRJV0ZERnJraEZtTFdn?oc=5"
    }
   ],
   "impacts": [
@@ -163090,9 +163092,21 @@
      "ar": "ממשלת ארה\"ב הציעה מכסים חדשים על מוצרים ממדינות שונות, מה שעורר התנגדות מצד סינגפור ותזהרות בהודו מפני פגיעה בכושר התחרותיות של יצואנים.",
      "ru": "США предложили новые пошлины на ряд товаров, вызвав недовольство в Сингапуре и предупреждения индийских экспортеров."
     }
+   },
+   {
+    "ts": 1795707799,
+    "time": "2026-11-26T15:43Z",
+    "severity": 8,
+    "summary": "מדינות רבות, כולל סין וברזיל, מביעות התנגדות חריפה לתוכניות המכסים החדשות של טראמפ, מה שמעלה את הסיכון למלחמת סחר גלובלית.",
+    "i18n": {
+     "he": "מדינות רבות, כולל סין וברזיל, מביעות התנגדות חריפה לתוכניות המכסים החדשות של טראמפ, מה שמעלה את הסיכון למלחמת סחר גלובלית.",
+     "en": "Many countries, including China and Brazil, are expressing strong opposition to Trump's new tariff plans, increasing the risk of a global trade war.",
+     "ar": "تعرب العديد من الدول، بما في ذلك الصين والبرازيل، عن معارضة شديدة لخطط التعريفات الجمركية الجديدة التي وضعها ترامب، مما يزيد من خطر نشوب حرب تجارية عالمية.",
+     "ru": "Многие страны, включая Китай и Бразилию, выражают решительный протест против новых тарифных планов Трампа, что повышает риск глобальной торговой войны."
+    }
    }
   ],
-  "last_update": 1795704289
+  "last_update": 1795707799
  },
  {
   "ts": 1795674696,
@@ -163583,6 +163597,14 @@
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDV5WEdraDhaYm9SQW1XbFEzWWVxanZjQVVWbjZzMDFuWWo5RTRmTVhPSXFEbERjWG1oZ3lLTDV6MVFySXVRRGs2R1VQTTRSNkMtOHZydEpsdEtsd2ltWXRpTEtrdVZyV05VSDZWT2lLSHZSb0F2Tk5rSTl0cHZSMjAxbk0xWmcxZHpuSG40QS1oUS1xVG9kdVFyTnVka2kz?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRGZaRWtZS1pmeFNoTm5hU18zeUxGaldlMjJGbDE3QTNYZ294anU5VWtmamtWVHB6VE1jTlRiV3hzNGZYa01VZXA0aGV1djJ0c1ZLLXNNTnNJQkF3SWVZbVh0S3lZV3NYTEpueWhNWHJrdnBXRDg3d0N6cnNSOFFkUF9aQzlBQi1l?oc=5"
+   },
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
    }
   ],
   "impacts": [
@@ -163625,7 +163647,22 @@
     "price_at_alert": 422.46
    }
   ],
-  "id": "0254258c9eb5"
+  "id": "0254258c9eb5",
+  "updates": [
+   {
+    "ts": 1795707799,
+    "time": "2026-11-26T15:43Z",
+    "severity": 7,
+    "summary": "ממשל ארה\"ב מפעיל כללים חדשים כדי לסגור פרצות המאפשרות גישה לשבבי בינה מלאכותית מתקדמים בשוק הסיני, למרות ניסיונות עקיפה.",
+    "i18n": {
+     "he": "ממשל ארה\"ב מפעיל כללים חדשים כדי לסגור פרצות המאפשרות גישה לשבבי בינה מלאכותית מתקדמים בשוק הסיני, למרות ניסיונות עקיפה.",
+     "en": "The US government is implementing new rules to close loopholes that allow access to advanced AI chips in the Chinese market, despite attempts to bypass them.",
+     "ar": "تطبق الحكومة الأمريكية قواعد جديدة لسد الثغرات التي تسمح بالوصول إلى رقائق الذكاء الاصطناعي المتقدمة في السوق الصينية، على الرغم من محاولات التحايل.",
+     "ru": "Правительство США внедряет новые правила, чтобы закрыть лазейки, позволяющие получать доступ к передовым чипам ИИ на китайском рынке, несмотря на попытки обхода."
+    }
+   }
+  ],
+  "last_update": 1795707799
  },
  {
   "ts": 1795679895,
@@ -164428,27 +164465,27 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSzMtZkNlUk9RTHRUYzQ4a2N4Vk5fYXViRkthTE1HTUYtMW9BV0xIUU9jMFJsMEo0RG82X3FTdVVYQm5SWkVVclE4djJOYWZ2OHJZZElSQ0FJdUd6UjUwVVBodTBZNF9kU2pDTkRld2VQZS14eXRNS0NWWHRRVGNLd1V5bHd5dm91NWZuYWwtelFfc0JCMElpeGZTRHloQnByN0xVVkxETFRWcnZC?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VcEFJaDZtTU1sYVAyM3QwUjktUHMzcDd6RkFNOGJFN01tUjVTR3hHeHVKSmJnd2I1ODdSSjRQUS1fMGhpNmhyRVM5SjR0RXhFTmJBaS1PNVdkQXlDd0NYRjdB?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM05CLWFvTnBDc09jRDhSWnNiMDhJY1NuVUxXbjlKVGxmQUg2WTJHZHNUN19KUGxLM0RBNXgxaWZ5LXdmMzlqS3BMWldhcnZWNEZLR0JadmhvOHhQa3J2VTlMZG0zUVBXUkVVdVVkQVhXYVAtaHc3V1hSa0paSW12cXNSbFNUOUxDTXp6TndiaGlJOElNcGR2VDJSZ1U?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPXzM3TkV1dnFBUmh0Y3BxY3ZNeHVpbURETVc0a3BmQ005M0U0bnc5UnRQNWtVT25lMDFIOU9hSE5ERlZTR3JVekdFNmlWaVRYZWpsS3hOTHBHaEhFM1ROZlZtZzNlbFB1T1Q2Z0hWdVJ4bDRXbjcyNkNWS1ZoLUtLTnNLeUVhUEZIYWRzeE5jS3hyVlZvcTluNWhzblI2S2M5UzZfeVpBVndDUGM?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeVJzSWlCSjRIZGJ5cDdqaUhQdThjak41UGpwMDRMY3VZcXNVNUM0TG54c0NzMHVGQXN2bTEzVkF6V1ItbGNVUEpyOW1XcmxoakRaUHRqT1RvMmt3Um5iU0dkdjBMWGRDNVkwWkxLUnoxYlRWRXVpOXRvOFA5VE1RaUUtRzlQanBLRkJ1ekFheEpRMV83Y3FtZGdrYi0wN2M?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNODhmNERJdTFUVVI3S3BLVl9OTEJVQnpPRW5WWjdCRVVrc1JRNEZOandHd1diV2xkOWJGZy1YWjRtNFpOYVN4YVphX3pjQlYyOFN2Uno5ekdCOC1NaXp5b0pCdE93RkNrQVBHSmFDNmJiS2RpbFNMWFlXQzhQU3BBMDNUbDBkV09ZRjBHLWFHZ281a21MTU8zdnpsMmYzeHpOc2RjZUk5dDE5akVDcDQw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtMjVpVkZLaHFuclBoUHdpWU5DZ2dCcWFzcndjaVBzZlZtSmh6dkhQZUFPa1M3VnI4ajg2YS1nV3lCYUNJT3U0ZzgxcHlmeTBERVc4?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcUoxdTBad0NPLVlRMVhQcnpwdk5nYWVaeVZBY2hCdWNpdWp3U3YtRldNNndJM2lURmZQNnl6cHNtYWpfMGVrU0NCZDhPV2J3WGhrcUFJQlZFX3JhRnhDUEFkUHVadDExV3pqUWlGZTVYZE9CQ1IyeUdqa1JRelk?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOE1oMFIwUjBNNTFCTm01X1pqQTRSenpVMkpMWHJRODk2ODd0T1AxLTVqZTlfdEtLWUlSZ0JFcnROQWlUUEpOcENNQUhJQVdsSncyUG5qUzhza2xrS0pUNVFqdkxPSW92OVpnUEFEcXNWbEtYNW83UkZoVmIxRi1WRTNMNnNGY1owckpBM0w0U1dnc09RR3FjUGp2dDVBci01bEtmSFBBVnUwVXVGczZhNFd0V2ptbzdGaTBNVjV6dlQ0aWpaUmhySGVxSWtpUQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUG5SNEQ2UjVDZkJqZVBDcnNyYU1lV1Y0QXUtU1Q0VUgwSWVfTUR4NzlwZjBoOVUzUWFhbnJVdjJhYUVyQTFKSGRUUDlIbzgzUXJsVUw3SWEtblROZTM1SFQ4bGRWUm9RQWR1ZzJCNzNCbXJLVkdHR3ZNb3lPdTUyd19CbkF5VDdESWVjU2Q4QWXSAZYBQVVfeXFMTjRWV3BPSlBWcS1jX2hqSXppZTZjNnZjZUpPZlFMbnoyUjlwVHlrVnZUOHkwR0NhUjNEc1BUWmtubkF6aVp3dS1ONGp6aFdYbnRFd01sTXM4MU5Dbzk1MlVBQkFRSXFXR0J3WVVYYy1GNkJfLTNUeEVVbXpjRWlVMEJXU1FUbURRckI0ZUVWck9nYV9WLTh3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGlTYjNNZVJ3Mndqcmh1X0RQdHJWSWRDYU5EcG5VTzVObFZkUVdSRktiRXJrZjV6Rk9GeUkwTk5LTUdfU0Q1a2RBYWRwN0hra2NqNGphZUNfa3lvSldGd1lEd2QzT1dFTlN4djkyaUNMaXc2bEp2Zm5ybzJpNlZ2Q1dQSlJqUVc5cFhXdmlhM3ZTQQ?oc=5"
    }
   ],
   "impacts": [
@@ -164497,9 +164534,21 @@
      "ar": "ארגון הכדורגל הבינלאומי פיפ\"א אישר כי נפגע במתקפת סייבר שבה האקרים השיגו גישה למידע אישי ועסקי רגיש, תוך הבהרה שקבצי מכירת זכויות המונדיאל נותרו ללא פגע.",
      "ru": "ФИФА подтвердила кибератаку, в ходе которой хакеры получили доступ к конфиденциальным данным."
     }
+   },
+   {
+    "ts": 1795707799,
+    "time": "2026-11-26T15:43Z",
+    "severity": 4,
+    "summary": "ארגון פיפ\"א אישר כי הותקף על ידי האקרים שגנבו מידע עסקי ואישי, אם כי מסמכים הקשורים למכירת זכויות המונדיאל נותרו ללא פגע.",
+    "i18n": {
+     "he": "ארגון פיפ\"א אישר כי הותקף על ידי האקרים שגנבו מידע עסקי ואישי, אם כי מסמכים הקשורים למכירת זכויות המונדיאל נותרו ללא פגע.",
+     "en": "FIFA confirmed it was targeted by hackers who stole business and personal information, though documents related to the World Cup stake sale remained untouched.",
+     "ar": "أكدت الفيفا أنها تعرضت لهجوم من قبل قراصنة سرقوا معلومات تجارية وشخصية، على الرغم من أن الوثائق المتعلقة ببيع حصص كأس العالم ظلت سليمة.",
+     "ru": "ФИФА подтвердила, что стала целью хакеров, которые украли деловую и личную информацию, хотя документы, связанные с продажей доли в Чемпионате мира, остались нетронутыми."
+    }
    }
   ],
-  "last_update": 1795704289
+  "last_update": 1795707799
  },
  {
   "ts": 1795691625,
@@ -164724,32 +164773,32 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjZkNUR3emNOdVEtbmNDakFReW00aVdYZC00X3V5WDNBdjVjdFlTcFJoRUh5YWZncTc2NG4wbHBRTTNEdVByNWtZd1ZkMUdGaGRQUkZudkZlVWV1UVk5Yll2aUlBY0NyM3VYemNEdVk5a3RzYmdVTllXemJOdzltcG02NlctVXZnZEx2SmxKcnRDQ2t5dG0wbmhyNHo0NElwTGZ3Z3BYSTJ5djJjYllSQklKRVdfeURlME1PYW1EV2MybzhCUXhwVF9QTjRBcHRZ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjlMS25PYUF2Unh4TE9YT0xXNDVUSldsV0w1SjFiSFoxVDRoZWpwbTZuQ3Ftb1VILXZ1RndReXZ5Z0cxRmE5d3RHMmxqbGRMWC1QYnBaZ21nV3Y3Vlg4VndBR2wtNUlVWjdUUnY0cEJObVJ6TDI4OXh3U0xZVmZ0WnJPX2IzaHNNbnhreVB1VDhoVVlReW9Kb0t1WWViMUN3RDVLQlBldHhJdzVfck1KSVFFcFJZN1k?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTkFWS3M4eWhteDdZRnVkY21WR203UWFXVmRVbXNBaGpFazZhLTl1NTFXZTNTV0JUOC1DcGQ4NHVveHB1VUZTdUhaWGlRYlJ1V1IxXy1LNmdtWUYzSVE1RVBSUE11TVZEX3RjNXA1bXUzQkxLT1RiX1BrQ1hZLXAyZG1KVlNLNTZJUTU5NVRpQkRRZzFxdnVubVhJZlptWWtwdmc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ245d1RvSE1oNkZtRmlud3lNZzhoa2JiNDJaWS1CTmVuOC1YYkhxb1djWnpkQzdQczZ2TkF6UWVESWdQWGpGT2tVdlQyWXRYTUx0czlRUEJScmpfVUJ4SjFYU011aHJJclRmVEYwYXVRb09JNFk0U1VQTFNvYkE0ZkpqSkdzRElTZ1drUFI3VWVERVBTSWROTEI5OW83SXM?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTTRNRlhDLW1CeHI0Y0poWHpqaFZ6SWo1OHN2UE5FQnZpTks1SURxeVJKRWVFVC1sQ1JoZkd2Tk9TUEpuZy05MFlLbkxVblh6Z01BVTJtd3RTbEFhUVlUZVB0Nk5wdUVsZ3JYb05qS2JyaFFZalpldUx2aFdHT09fRVZXT2huMUZBazBCUGJRcmVERnN2bmp1WGhiSGZVenVUQ2hIZjlySE9CeF9vNll2bTBEYy1zdkFEeGYzRw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYTE1b3ZVUEUyYVo5SmwyU2s2cGdBTmp4OXI1dkQ1eWlYMlBQTllBS1BpWXNjNmwyaGNPSkVfaE9Bbm9TV280SXViNkRRSkJiZ2w1aW0tdkJ3V2tKaENKdlprckVzaVFHYVpiVTVXd1ZkT2lJX0VYVkxmNEpnUDNjUmljc2VVbHU1T3ZiMzZlTHBMbjBVMk91OFkzQVh1TjBtQkFfN05MWQ?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaUWdvajJNV3lCQ1FCU3hBelJqa1NHMzBpU0ZwWmZ3SXAwclZEdUlNMTQybEFNZ25yUHJPRm45bmcyLXFoWG9mQVVTOHRwQmpkYUZSTzZ0N1p0RzI4bDF1OUNPN0xuenpIZFZMUC14NzBEemFLS1g4Rg?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU1FrcWxDWjBBeEVKeW1LQ3BSNktDQU9GV1ZIeENaUVYwMTRRd0d6V29IdGozOFR1RFBWb3BMUEJuMWZZbDVuclRpNURFZDdkTWtaTXlYLU1Yb0FSX2lGWkFHNzVjZGYzZi1zX3d1TlFwblJVVml5M0JwS1RtSW9vRk9UTGlBcFZQcWpnOGJfS1F1S0FB?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XYnVzYTVBVl9wWms2bG9CTUVjbTZueVh3N2ZOcEs5X0ZBZWl4OGJCNjgwQUlZaDNROUoxTW45cC1kNUFNb1FmTUJQUkFMSXRJa1Y2U3hZdXNOT2tVQWJSN1lBS0RnVktEMUJlN2VoZnk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFBLZHdsUEpCd1F5eVExd3YwNDFpODk1ZHJYeXNlS01jcDlKamdNRldJcS1rT1dPX096UllXY2g4ZXZLdnJhRlFfYnhwVUp3enpZZFliaTBTYi1oOElnTDRnNHM2SFNlTXRrNzRDWjNNRHJSQmROSi1DN2lmR1cyR0ItM2YtcHNDaEFfM1NCSUoxbUhmMHJjRm5fZjZJOGxQblg3dHRlSkRQZkdP?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmZDdWJRNFBoUC1MbkdZZ1RGRklWT3A2S1hpeWNjZGZjd05aa0RhZ1RmQXBjX0hBX2ZudDdobFg2ZFhreGphSEhWN0Y0c2RFRDJBLVJLSWRlLXBmYlh4R3lpa3I3TDlzVnRkTVdmQWF4c3NWb29NaWVVYnRDUHlranVxYW5KYTlVbFd0RDNyVUJEM3Q3N1FIbGRzVXhlT2VQUF96eDU5MU1OaFplVnYxQUtmWUhRaVhIQXEwMUZldw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHhGaDVOSDE3bGlyTzlVbXFFcVRaUkZ5X2t5WDFleEd4ckwxdU0tS2ZkTHRGVGMwNF80TUtXMTZWVEpzTHBsMnVVVEVaajRPNWRjZzJvTEZ2cVh0UWtaYlZDcjh5cjV2bUYzYVF5TVIycGpvejdTVlM0UThZZVFzaGl2SFJfdGl4akdUdXVBOG9VbC12bGZITjFzMURmZjR6NUh1bF84UGNsUQ?oc=5"
    }
   ],
   "impacts": [
@@ -164805,9 +164854,21 @@
      "ar": "מנהיגי גוש היورو גיבו תמיכה במינויו של פבלו הרננדז דה קוס הספרדי לראשות הבנק המרכזי האירופי לקראת סיום תקופת כהונתה של לגארד, בתקופה המאופיינת באי-יציבות פוליטית ובצמיחה מתנודדת.",
      "ru": "Лидеры еврозоны поддержали кандидатуру испанца Пабло Эрнандеса де Коса на пост главы ЕЦБ после ухода Кристин Лагард."
     }
+   },
+   {
+    "ts": 1795707799,
+    "time": "2026-11-26T15:43Z",
+    "severity": 6,
+    "summary": "מנהיגי האיחוד האירופי הגיעו להסכמה על מינויו של פבלו הרננדז דה קוס לנשיא הבנק המרכזי האירופי (ECB) הבא, במקום כריסטין לגארד.",
+    "i18n": {
+     "he": "מנהיגי האיחוד האירופי הגיעו להסכמה על מינויו של פבלו הרננדז דה קוס לנשיא הבנק המרכזי האירופי (ECB) הבא, במקום כריסטין לגארד.",
+     "en": "EU leaders have reached a consensus to appoint Pablo Hernandez de Cos as the next President of the European Central Bank (ECB), succeeding Christine Lagarde.",
+     "ar": "توصل قادة الاتحاد الأوروبي إلى إجماع على تعيين بابلو هيرنانديز دي كوس رئيساً قادماً للبنك المركزي الأوروبي، خلفاً لكريستين لاغارد.",
+     "ru": "Лидеры ЕС достигли консенсуса о назначении Пабло Эрнандеса де Коса следующим президентом Европейского центрального банка (ЕЦБ), сменив Кристин Лагард."
+    }
    }
   ],
-  "last_update": 1795704289
+  "last_update": 1795707799
  },
  {
   "ts": 1795704289,
@@ -165148,5 +165209,166 @@
    }
   ],
   "id": "0dba5c6f2785"
+ },
+ {
+  "ts": 1795707799,
+  "time": "2026-11-26T15:43Z",
+  "title": "עלייה במחירי הנפט עקב תקיפות במפרץ הפרסי",
+  "summary": "מחירי הנפט מסוג ברנט עולים לכיוון 96 דולר לחבית בעקבות תקיפות על מכליות ומתקני נפט במפרץ הפרסי, מה שמעורר חששות לשיבושים באספקה.",
+  "kid": "היו תקיפות על ספינות נפט במפרץ הפרסי. בגלל זה, אנשים חוששים שיהיה פחות נפט בעולם, ולכן המחיר שלו עולה.",
+  "i18n": {
+   "title": {
+    "he": "עלייה במחירי הנפט עקב תקיפות במפרץ הפרסי",
+    "en": "Oil prices rise on Gulf attacks",
+    "ar": "ارتفاع أسعار النفط بسبب الهجمات في الخليج",
+    "ru": "Цены на нефть растут из-за атак в Персидском заливе"
+   },
+   "summary": {
+    "he": "מחירי הנפט מסוג ברנט עולים לכיוון 96 דולר לחבית בעקבות תקיפות על מכליות ומתקני נפט במפרץ הפרסי, מה שמעורר חששות לשיבושים באספקה.",
+    "en": "Brent crude prices are climbing toward $96 per barrel following attacks on tankers and oil facilities in the Persian Gulf, raising concerns about supply disruptions.",
+    "ar": "ترتفع أسعار خام برنت نحو 96 دولاراً للبرميل في أعقاب هجمات على ناقلات ومنشآت نفطية في الخليج العربي، مما يثير مخاوف بشأن تعطل الإمدادات.",
+    "ru": "Цены на нефть марки Brent растут до 96 долларов за баррель после атак на танкеры и нефтяные объекты в Персидском заливе, что вызывает опасения по поводу перебоев в поставках."
+   },
+   "kid": {
+    "he": "היו תקיפות על ספינות נפט במפרץ הפרסי. בגלל זה, אנשים חוששים שיהיה פחות נפט בעולם, ולכן המחיר שלו עולה.",
+    "en": "There were attacks on oil ships in the Persian Gulf. Because of this, people are worried there will be less oil available, so the price is going up.",
+    "ar": "وقعت هجمات على ناقلات نفط في الخليج العربي. وبسبب هذا، يخشى الناس من نقص النفط، لذا يرتفع سعره.",
+    "ru": "Произошли нападения на нефтяные танкеры в Персидском заливе. Из-за этого люди боятся, что нефти станет меньше, поэтому цена на нее растет."
+   }
+  },
+  "category": "commodities",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU1FjUnRncUNtelJycU5pTkRXdUh2N0xRYTlUaXl3MlE0eldNc2FUNkJTMGFRS2dSOVlOalRHaV9ydHdkUTQzemJCQmJiQmxmbmFYQmIwT3hsbTRoOTRLM2lqN3l1NnkzRmxvYy1wME9ZQzkwZ0hSYTVGdlhiZVBjSDVJQXVkT3I0UmRmMjc2dDljUXc?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTDl5cXNKaDF3M1BtVHQ2d2NfTFRRVXBYU3VGMGw1NlNKNmxUbUhxU1lzZnR6XzlESFlUanM1R1JJelhjb2dydlQ0dFVuVnotVFRPQkdIOG5UZXVKY2xlX2JEcF9UOURpdEV2SFJSLWcxa1Nlb2dMV1djUU5MN3pydTlrVmE1SlllUmZsanhucWFMNnItbDUxVDVWTThDRFpCbk1XZ0lIZ3dLQWpfeGtoVldPOEJ4enFqQlFOWE43NXlSc1JuallWQ0J4M3p1dXFkaFFDdg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRVRLYVh6dm1UMWRaZ1ZyakRkTkFoUW9RN3pfYU9xQncwSXdOLU9iekNfSmVjSjctUXVnTk0yZDk5RFhXYnJWa1pEeFgzNlY5ZnV3UmpsNnFOZ24tNmR2ZExibGVzWjRWNlcwZjJLT0hqanotU3hiM3M4WEVoZnlIMzFxWmZZeEIycElEcnBOemc4NDlwX1A0YXFFbWN4SGwwTlczUktlLUlkSHp5bU1qR3FR?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795707799,
+    "reason": "עלייה במחיר הנפט הגולמי",
+    "reason_i18n": {
+     "he": "עלייה במחיר הנפט הגולמי",
+     "en": "Rising crude oil prices",
+     "ar": "ارتفاع أسعار النفط الخام",
+     "ru": "Рост цен на сырую нефть"
+    },
+    "name_i18n": {
+     "he": "קרן סל נפט",
+     "en": "Нефтяной ETF",
+     "ar": "صندوق النفط المتداول"
+    },
+    "price_at_alert": 139.89
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795707799,
+    "reason": "רווחים גבוהים יותר מסביבת מחירי אנרגיה יקרים",
+    "reason_i18n": {
+     "he": "רווחים גבוהים יותר מסביבת מחירי אנרגיה יקרים",
+     "en": "Higher profits from expensive energy environment",
+     "ar": "أرباح أعلى من بيئة أسعار الطاقة المرتفعة",
+     "ru": "Более высокая прибыль в условиях дорогих энергоносителей"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל",
+     "en": "Exxon Mobil",
+     "ar": "إكسون موبيل",
+     "ru": "Exxon Mobil"
+    },
+    "price_at_alert": 158.08
+   }
+  ],
+  "id": "884043276ff9"
+ },
+ {
+  "ts": 1795707799,
+  "time": "2026-11-26T15:43Z",
+  "title": "עסקת ענק של נאט\"ו לרכישת רכבים קרביים",
+  "summary": "חמש מדינות נאט\"ו חתמו על עסקה לרכישת 430 רכבים קרביים, במה שמוגדר כעסקה הגדולה ביותר של הארגון בתחום זה.",
+  "kid": "חמש מדינות שחברות בנאט\"ו קנו הרבה רכבים צבאיים ביחד. זה אומר שחברות שמייצרות ציוד צבאי יקבלו הרבה כסף.",
+  "i18n": {
+   "title": {
+    "he": "עסקת ענק של נאט\"ו לרכישת רכבים קרביים",
+    "en": "Major NATO deal for combat vehicles",
+    "ar": "صفقة كبرى للناتو لشراء مركبات قتالية",
+    "ru": "Крупная сделка НАТО по закупке боевых машин"
+   },
+   "summary": {
+    "he": "חמש מדינות נאט\"ו חתמו על עסקה לרכישת 430 רכבים קרביים, במה שמוגדר כעסקה הגדולה ביותר של הארגון בתחום זה.",
+    "en": "Five NATO nations have signed a deal to purchase 430 combat vehicles, in what is described as the organization's largest deal in this sector.",
+    "ar": "وقعت خمس دول من الناتو صفقة لشراء 430 مركبة قتالية، فيما وُصفت بأنها أكبر صفقة للمنظمة في هذا القطاع.",
+    "ru": "Пять стран НАТО подписали сделку на закупку 430 боевых машин, что названо крупнейшей сделкой организации в этом секторе."
+   },
+   "kid": {
+    "he": "חמש מדינות שחברות בנאט\"ו קנו הרבה רכבים צבאיים ביחד. זה אומר שחברות שמייצרות ציוד צבאי יקבלו הרבה כסף.",
+    "en": "Five countries that are members of NATO bought a lot of military vehicles together. This means companies that make military equipment will get a lot of money.",
+    "ar": "اشترت خمس دول أعضاء في الناتو الكثير من المركبات العسكرية معاً. هذا يعني أن الشركات التي تصنع المعدات العسكرية ستحصل على الكثير من المال.",
+    "ru": "Пять стран-членов НАТО вместе закупили много военной техники. Это означает, что компании, производящие военное оборудование, получат много денег."
+   }
+  },
+  "category": "contracts",
+  "severity": 6,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMnRNbjdyVjVyY1dCS0xoMWQtQzZ4aXQ5MDBINllleVNHUWQyQ0tRUExDNHA3YlVVY2pLRVlPZGZrTUc5WDFqMk1qWEZoa0k3VjlJbnR0clRMSDJ3YmhBdi0wYU1sR1ZWampaUmgtb1U3OGJ5dDhlaTc3ZGRCZ1djUzBiY0w1a2lyRjdyMndxbHVkdTdNQVdkdFRCNGxwYnpYcjYtNEh3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795707799,
+    "reason": "הגדלת תקציבי ביטחון והזמנות",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי ביטחון והזמנות",
+     "en": "Increased defense budgets and orders",
+     "ar": "زيادة ميزانيات الدفاع والطلبات",
+     "ru": "Увеличение оборонных бюджетов и заказов"
+    },
+    "name_i18n": {
+     "he": "קרן סל ביטחון",
+     "en": "Defense ETF",
+     "ar": "صندوق الدفاع",
+     "ru": "ETF оборонного сектора"
+    },
+    "price_at_alert": 68.77
+   },
+   {
+    "ticker": "GD",
+    "direction": "up",
+    "t0": 1795707799,
+    "reason": "פוטנציאל לאספקת רכבים קרביים",
+    "reason_i18n": {
+     "he": "פוטנציאל לאספקת רכבים קרביים",
+     "en": "Potential for combat vehicle supply",
+     "ar": "إمكانية توريد المركبات القتالية",
+     "ru": "Потенциал поставок боевых машин"
+    },
+    "name_i18n": {
+     "he": "ג'נרל דיינמיקס",
+     "en": "General Dynamics",
+     "ar": "جنرال ديناميكس",
+     "ru": "General Dynamics"
+    },
+    "price_at_alert": 360.27
+   }
+  ],
+  "id": "e70c2843c7e4"
  }
 ]
