@@ -783,133 +783,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795084956,
-  "time": "2026-11-19T10:42Z",
-  "title": "אנתרופיק מונפקת לפי שווי שיא",
-  "summary": "חברת הבינה המלאכותית אנתרופיק השלימה הנפקה ראשונית לציבור לפי שווי שוק של 81 מיליארד דולר.",
-  "kid": "חברה שמפתחת בינה מלאכותית הפכה לאחת החברות היקרות בעולם אחרי שהתחילה להיסחר בבורסה.",
-  "i18n": {
-   "title": {
-    "he": "אנתרופיק מונפקת לפי שווי שיא",
-    "en": "Anthropic IPO at record valuation",
-    "ar": "أنثروبيك تطرح أسهمها بتقييم قياسي",
-    "ru": "Anthropic выходит на биржу с рекордной оценкой"
-   },
-   "summary": {
-    "he": "חברת הבינה המלאכותית אנתרופיק השלימה הנפקה ראשונית לציבור לפי שווי שוק של 81 מיליארד דולר.",
-    "en": "AI company Anthropic completed its initial public offering at a market valuation of $81 billion.",
-    "ar": "أكملت شركة الذكاء الاصطناعي أنثروبيك طرحها العام الأولي بتقييم سوقي بلغ 81 مليار دولار.",
-    "ru": "Компания в сфере ИИ Anthropic завершила первичное публичное размещение акций с рыночной оценкой в 81 миллиард долларов."
-   },
-   "kid": {
-    "he": "חברה שמפתחת בינה מלאכותית הפכה לאחת החברות היקרות בעולם אחרי שהתחילה להיסחר בבורסה.",
-    "en": "An AI company became one of the most valuable in the world after it started trading on the stock market.",
-    "ar": "أصبحت شركة تطور الذكاء الاصطناعي واحدة من أغلى الشركات في العالم بعد أن بدأت التداول في البورصة.",
-    "ru": "Компания, разрабатывающая ИИ, стала одной из самых дорогих в мире после начала торгов на бирже."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-could-create-thousands-of-multimillionaire-employees.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "up",
-    "t0": 1795084956,
-    "reason": "הנפקה מוצלחת של חברת AI מחזקת את הסנטימנט לכל סקטור הבינה המלאכותית.",
-    "reason_i18n": {
-     "he": "הנפקה מוצלחת של חברת AI מחזקת את הסנטימנט לכל סקטור הבינה המלאכותית.",
-     "en": "A successful AI IPO strengthens sentiment for the entire AI sector.",
-     "ar": "طرح ناجح لشركة ذكاء اصطناعي يعزز المعنويات لقطاع الذكاء الاصطناعي بأكمله.",
-     "ru": "Успешное IPO ИИ-компании укрепляет настроения во всем секторе ИИ."
-    },
-    "name_i18n": {
-     "he": "אנבידיה - יצרנית שבבים",
-     "en": "Nvidia - chip manufacturer",
-     "ar": "إنفيديا - مصنعة الرقائق",
-     "ru": "Nvidia - производитель чипов"
-    },
-    "price_at_alert": 150.96,
-    "entry_price": 154.295,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 125.79,
-    "exit_date": "2026-11-20",
-    "change_pct": -18.47,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -12.16,
-    "edge_pct": -12.16,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1795103870,
-    "reason": "אופטימיות סביב סקטור הבינה המלאכותית.",
-    "reason_i18n": {
-     "he": "אופטימיות סביב סקטור הבינה המלאכותית.",
-     "en": "Optimism surrounding the AI sector.",
-     "ar": "تفاؤل بشأن قطاع الذكاء الاصطناعي.",
-     "ru": "Оптимизм вокруг сектора ИИ."
-    },
-    "name_i18n": {
-     "he": "קרן סל טכנולוגיה",
-     "en": "Technology ETF",
-     "ar": "صندوق استثمار التكنولوجيا",
-     "ru": "Технологический ETF"
-    },
-    "price_at_alert": 165.21,
-    "entry_price": 165.75,
-    "entry_time": "2026-11-19T16:30+00:00",
-    "exit_price": 149.12,
-    "exit_date": "2026-11-20",
-    "change_pct": -10.03,
-    "bench": "SPY",
-    "bench_change_pct": -5.29,
-    "excess_pct": -4.74,
-    "edge_pct": -4.74,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d2d30de3c487",
-  "updates": [
-   {
-    "ts": 1795103870,
-    "time": "2026-11-19T15:57Z",
-    "severity": 6,
-    "summary": "חברת הבינה המלאכותית אנתרופיק יוצאת להנפקה ציבורית לפי שווי של 81 מיליארד דולר.",
-    "i18n": {
-     "he": "חברת הבינה המלאכותית אנתרופיק יוצאת להנפקה ציבורית לפי שווי של 81 מיליארד דולר.",
-     "en": "AI company Anthropic is launching an IPO with a valuation of $81 billion.",
-     "ar": "تطلق شركة الذكاء الاصطناعي أنثروبيك اكتتاباً عاماً بتقييم 81 مليار دولار.",
-     "ru": "Компания в сфере ИИ Anthropic выходит на IPO с оценкой в 81 миллиард долларов."
-    }
-   },
-   {
-    "ts": 1795107751,
-    "time": "2026-11-19T17:02Z",
-    "severity": 4,
-    "summary": "הנפקת חברת הבינה המלאכותית אנתרופיק צפויה להפוך אלפי עובדים למיליונרים, על פי דיווחי ה-SEC.",
-    "i18n": {
-     "he": "הנפקת חברת הבינה המלאכותית אנתרופיק צפויה להפוך אלפי עובדים למיליונרים, על פי דיווחי ה-SEC.",
-     "en": "The IPO of AI company Anthropic is expected to make thousands of employees millionaires, according to SEC filings.",
-     "ar": "من المتوقع أن يجعل الاكتتاب العام لشركة الذكاء الاصطناعي أنثروبيك آلاف الموظفين مليونيرات، وفقًا لملفات هيئة الأوراق المالية والبورصات.",
-     "ru": "Ожидается, что IPO компании Anthropic, занимающейся ИИ, сделает тысячи сотрудников миллионерами, согласно документам SEC."
-    }
-   }
-  ],
-  "last_update": 1795107751,
-  "evaluated": true
- },
- {
   "ts": 1795088415,
   "time": "2026-11-19T11:40Z",
   "title": "האינפלציה בגוש האירו מזנקת לשיא של 3 שנים",
@@ -1072,256 +945,6 @@
    }
   ],
   "last_update": 1795172302,
-  "evaluated": true
- },
- {
-  "ts": 1795092435,
-  "time": "2026-11-19T12:47Z",
-  "title": "איוואן הו אלקטריק גילתה מרבצי נחושת וזהב",
-  "summary": "חברת Ivanhoe Electric דיווחה על מציאת מרבצי נחושת, זהב וכסף בעומק של כ-600 מטרים בפרויקט גליסון.",
-  "kid": "חברת כרייה מצאה מתכות יקרות באדמה. זה יכול לעזור למניות החברה לעלות.",
-  "i18n": {
-   "title": {
-    "he": "איוואן הו אלקטריק גילתה מרבצי נחושת וזהב",
-    "en": "Ivanhoe Electric Discovers Copper and Gold Deposits",
-    "ar": "إيفانهو إلكتريك تكتشف رواسب النحاس والذهب",
-    "ru": "Ivanhoe Electric обнаружила месторождения меди и золота"
-   },
-   "summary": {
-    "he": "חברת Ivanhoe Electric דיווחה על מציאת מרבצי נחושת, זהב וכסף בעומק של כ-600 מטרים בפרויקט גליסון.",
-    "en": "Ivanhoe Electric hit copper, gold, and silver deposits about 600 meters down at its Gleeson project.",
-    "ar": "أعلنت شركة إيفانهو إلكتريك عن اكتشاف رواسب النحاس والذهب والفضة على عمق 600 متر تقريبًا.",
-    "ru": "Компания Ivanhoe Electric сообщила об обнаружении залежей меди, золота и серебра на глубине около 600 метров."
-   },
-   "kid": {
-    "he": "חברת כרייה מצאה מתכות יקרות באדמה. זה יכול לעזור למניות החברה לעלות.",
-    "en": "A mining company found valuable metals underground, which can make its stock price go up.",
-    "ar": "عثرت شركة تعدين على معادن ثمينة تحت الأرض، مما قد يساعد في زيادة قيمة سهمها.",
-    "ru": "Горнодобывающая компания нашла ценные металлы под землей, что может поднять курс ее акций."
-   }
-  },
-  "category": "commodities",
-  "severity": 3,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mMFVTQmZ2dGttZUhIc1YzRjdDbm5IRDcyS3FIQ1A0dExIWklsWVp4d1YzNUluV0Z0V3hwWkJHQ0QtMjFRSHVhcU40cjBWak9VcjdPWmRmREVKV1BtcFQtdmVQdUpBU0xjU3FfXw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTWF2Nlk2Z1VId3hHdGpGSFpMdVVIR05rMng2STlpTDA4VG9HanBpalNCTkR2QU81cTY2bG1tQXk5UDlrT1FXbVlqZkpwOWplVW9KZ3V3eHFGN0pWRGs4SjRDLTRrLXdvTmtpRDBrdTd4ZTNxZEJBWXQwdFlhS2hBZmtZYkgtMmx5RktYOThPaGtmVlZqbXBCSWphUUQxVWl5a3IybHp4M25nbnc?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOXdENWk1MjJPcFpPZ0ZtdHB1cDFMdXlkRDVBNDRZclR6aERVY2R6WF94eDJ0Z0lzc2VhLXNLdnNlNGxQRGxqaFpXQ1FKNmxoYWZVX2V5Y0M4N213VWJTZWMzc05naHRwa0JENWZPbk9kNlZEMlNqZmdkSENUc2xSWWlYYjJXVGRZTm1yUGpBUnlnZUZCekRKVTRDUlFMbkNINmtKWlR5SXB5WllkRjBr?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "FCX",
-    "direction": "up",
-    "t0": 1795092435,
-    "reason": "תגליות חדשות מעידות על היצע נחושת עתידי שעשוי להשפיע על סנטימנט הסקטור.",
-    "reason_i18n": {
-     "he": "תגליות חדשות מעידות על היצע נחושת עתידי שעשוי להשפיע על סנטימנט הסקטור.",
-     "en": "New discoveries highlight copper supply dynamics in the sector.",
-     "ar": "تسلط الاكتشافات الجديدة الضوء على ديناميكيات إمدادات النحاس.",
-     "ru": "Новые открытия подчеркивают динамику поставок меди в секторе."
-    },
-    "name_i18n": {
-     "he": "פריפורט מקמوران – חברת כרכרות ונחושת",
-     "en": "Freeport-McMoRan – copper miner",
-     "ar": "فريبورت-ماكموران - شركة تعدين النحاس",
-     "ru": "Freeport-McMoRan – добытчик меди"
-    },
-    "price_at_alert": 51.45,
-    "entry_price": 52.2,
-    "entry_time": "2026-11-19T14:30+00:00",
-    "exit_price": 46.0,
-    "exit_date": "2026-11-20",
-    "change_pct": -11.88,
-    "bench": "SPY",
-    "bench_change_pct": -6.31,
-    "excess_pct": -5.57,
-    "edge_pct": -5.57,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "IE",
-    "direction": "up",
-    "t0": 1795107751,
-    "reason": "גילוי משאבים מעלה את ערך החברה",
-    "reason_i18n": {
-     "he": "גילוי משאבים מעלה את ערך החברה",
-     "en": "Resource discovery increases company value",
-     "ar": "اكتشاف الموارد يزيد من قيمة الشركة",
-     "ru": "Открытие ресурсов повышает стоимость компании"
-    },
-    "name_i18n": {
-     "he": "איוואן הו אלקטריק",
-     "en": "Ivanhoe Electric",
-     "ar": "إيفانهو إلكتريك",
-     "ru": "Ivanhoe Electric"
-    },
-    "price_at_alert": 5.735,
-    "entry_price": 5.845,
-    "entry_time": "2026-11-19T17:30+00:00",
-    "exit_price": 5.39,
-    "exit_date": "2026-11-20",
-    "change_pct": -7.78,
-    "bench": "SPY",
-    "bench_change_pct": -4.73,
-    "excess_pct": -3.06,
-    "edge_pct": -3.06,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "36025f1f18e6",
-  "updates": [
-   {
-    "ts": 1795107751,
-    "time": "2026-11-19T17:02Z",
-    "severity": 3,
-    "summary": "חברת איוואן הו אלקטריק דיווחה על גילוי מרבצי נחושת באיכות גבוהה בפרויקט שלה באריזונה.",
-    "i18n": {
-     "he": "חברת איוואן הו אלקטריק דיווחה על גילוי מרבצי נחושת באיכות גבוהה בפרויקט שלה באריזונה.",
-     "en": "Ivanhoe Electric reported the discovery of high-grade copper deposits at its Arizona project.",
-     "ar": "أعلنت شركة إيفانهو إلكتريك عن اكتشاف رواسب نحاس عالية الجودة في مشروعها في أريزونا.",
-     "ru": "Компания Ivanhoe Electric сообщила об обнаружении высококачественных месторождений меди на своем проекте в Аризоне."
-    }
-   }
-  ],
-  "last_update": 1795107751,
-  "evaluated": true
- },
- {
-  "ts": 1795100202,
-  "time": "2026-11-19T14:56Z",
-  "title": "הפד: הבינה המלאכותית לוחצת על האינפלציה",
-  "summary": "חבר הפד ג'פרסון ציין כי ההשקעות המאסיביות בתשתיות בינה מלאכותית יוצרות לחצים אינפלציוניים בטווח הקצר.",
-  "kid": "הפד אומר שהרבה כסף שמושקע בבינה מלאכותית גורם למחירים לעלות. זה עלול להוביל לריבית גבוהה יותר לאורך זמן, מה שמשפיע על כל שוק המניות.",
-  "i18n": {
-   "title": {
-    "he": "הפד: הבינה המלאכותית לוחצת על האינפלציה",
-    "en": "Fed: AI buildout putting pressure on inflation",
-    "ar": "الفيدرالي: توسع الذكاء الاصطناعي يضغط على التضخم",
-    "ru": "ФРС: развитие ИИ оказывает давление на инфляцию"
-   },
-   "summary": {
-    "he": "חבר הפד ג'פרסון ציין כי ההשקעות המאסיביות בתשתיות בינה מלאכותית יוצרות לחצים אינפלציוניים בטווח הקצר.",
-    "en": "Fed Governor Jefferson noted that massive investments in AI infrastructure are creating inflationary pressures in the short term.",
-    "ar": "أشار عضو مجلس الاحتياطي الفيدرالي جيفرسون إلى أن الاستثمارات الضخمة في البنية التحتية للذكاء الاصطناعي تخلق ضغوطاً تضخمية على المدى القصير.",
-    "ru": "Член ФРС Джефферсон отметил, что масштабные инвестиции в инфраструктуру ИИ создают инфляционное давление в краткосрочной перспективе."
-   },
-   "kid": {
-    "he": "הפד אומר שהרבה כסף שמושקע בבינה מלאכותית גורם למחירים לעלות. זה עלול להוביל לריבית גבוהה יותר לאורך זמן, מה שמשפיע על כל שוק המניות.",
-    "en": "The Fed says that a lot of money being spent on AI is making prices go up. This might lead to higher interest rates for longer, which affects the whole stock market.",
-    "ar": "يقول الاحتياطي الفيدرالي إن الكثير من الأموال التي تُنفق على الذكاء الاصطناعي تجعل الأسعار ترتفع. قد يؤدي هذا إلى أسعار فائدة أعلى لفترة أطول، مما يؤثر على سوق الأسهم بأكمله.",
-    "ru": "ФРС заявляет, что большие деньги, вкладываемые в ИИ, приводят к росту цен. Это может привести к сохранению высоких процентных ставок на более долгий срок, что влияет на весь фондовый рынок."
-   }
-  },
-  "category": "macro",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQUlSS09FVjZobVRIYld0ejZCQzNaN3hHbW5LbWhWcWRPdkJUSzBWRzhuOVpkWkVhMjNtN0RFX0hpeDRDLWVJNUI4alNoNjRSeUhrTkFfN2FOU2JkcDZmQXBBNXhReFBBX0NCZ0NIa2tUQlVGeXpQRVVOenBuM2laR3pZQXpZZ0ZrSmVMVUtJUE0wMlZBSkJINXBjWlhnQ2JIZkdzbnNR?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNN0I0N0FObXp0UWVaT2Q5Rkx6WC1YSEo2MmRYM3c0aVZMVTJ6d0lQLW41dU1ZYnFhdU5BYk9QSVpnaDM0QWpEdjhNS20yOG1tc0hEV3p4bmhKeFJDQTNqT0xDRkZ2QjZEcWRUOVpKTWpfT0laVGFrUjZvT0xSS1lCQVNSUjlvQnFxWmxqSWxKVENqS0FFTUFva09OaDMxVHNSMHNWUFVURmtDMDN0R3pWLTN3UGM3aFE5UlVaZmJGRE9tYWozaEhOWEQ5NmRRRWJubGRhZ2d4RF9oTlRWb2Q2cGY4UjIwLUpaZ2Vv?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43N1hQRzFJZlNaekZrdnZacmhtRk83MjY2YW9PRkdPUkdBOUw4ZC1CczBRM2MwUE1ZbWRDaS1JeUx6dmp3eDFXQVYxcy1TRkNPeTFaeWJ2Q011OEk?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV1RYQ0haTXY4ck5rYU5wUXdaV1dqWVBnTENpRWxYdVRKazdTTXFKZzYwWWhULUlDLUY4cEthWVVhUGM3WDlfVHNNWmY0eVdsSWZTSllESl9GdTVRdWdvaDFBNUlEbnZlUDFaelhBc3NmWHUzREVYdFktVldhNy1YV2tOdERjMlRoT1NGU1ExNnFYaG0xcDc5RENNa01VbHFaR1ZJMg?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "SPY",
-    "direction": "down",
-    "t0": 1795100202,
-    "reason": "ציפיות לריבית גבוהה יותר לאורך זמן",
-    "reason_i18n": {
-     "he": "ציפיות לריבית גבוהה יותר לאורך זמן",
-     "en": "Expectations for higher interest rates for longer",
-     "ar": "توقعات بأسعار فائدة أعلى لفترة أطول",
-     "ru": "Ожидания более высоких процентных ставок в течение более длительного времени"
-    },
-    "name_i18n": {
-     "he": "מדד S&P 500",
-     "en": "S&P 500 Index",
-     "ar": "مؤشر S&P 500",
-     "ru": "Индекс S&P 500"
-    },
-    "price_at_alert": 736.14,
-    "entry_price": 730.73,
-    "entry_time": "2026-11-19T15:30+00:00",
-    "exit_price": 690.91,
-    "exit_date": "2026-11-20",
-    "change_pct": -5.45,
-    "bench": null,
-    "bench_change_pct": 0.0,
-    "excess_pct": -5.45,
-    "edge_pct": 5.45,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TLT",
-    "direction": "down",
-    "t0": 1795100202,
-    "reason": "עליית תשואות עקב חשש מאינפלציה",
-    "reason_i18n": {
-     "he": "עליית תשואות עקב חשש מאינפלציה",
-     "en": "Rising yields due to inflation concerns",
-     "ar": "ارتفاع العوائد بسبب مخاوف التضخم",
-     "ru": "Рост доходности из-за опасений по поводу инфляции"
-    },
-    "name_i18n": {
-     "he": "אג\"ח ממשלתי ארוך",
-     "en": "Long-term Treasury Bonds",
-     "ar": "سندات الخزانة طويلة الأجل",
-     "ru": "Долгосрочные казначейские облигации"
-    },
-    "price_at_alert": 79.98,
-    "entry_price": 80.085,
-    "entry_time": "2026-11-19T15:30+00:00",
-    "exit_price": 81.44,
-    "exit_date": "2026-11-20",
-    "change_pct": 1.69,
-    "bench": "SPY",
-    "bench_change_pct": -5.45,
-    "excess_pct": 7.14,
-    "edge_pct": -7.14,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "fb73b5cbbe1c",
-  "updates": [
-   {
-    "ts": 1795107751,
-    "time": "2026-11-19T17:02Z",
-    "severity": 6,
-    "summary": "סגן יו\"ר הפד, ג'פרסון, ציין כי פריחת הבינה המלאכותית דוחפת את האינפלציה כלפי מעלה בטווח הקצר, אם כי עשויה להוריד אותה בעתיד.",
-    "i18n": {
-     "he": "סגן יו\"ר הפד, ג'פרסון, ציין כי פריחת הבינה המלאכותית דוחפת את האינפלציה כלפי מעלה בטווח הקצר, אם כי עשויה להוריד אותה בעתיד.",
-     "en": "Fed Vice Chair Jefferson stated that the AI boom is driving inflation higher in the short term, though it may help lower it in the future.",
-     "ar": "صرح نائب رئيس الاحتياطي الفيدرالي جيفرسون بأن طفرة الذكاء الاصطناعي تدفع التضخم للارتفاع على المدى القصير، على الرغم من أنها قد تساعد في خفضه في المستقبل.",
-     "ru": "Заместитель председателя ФРС Джефферсон заявил, что бум ИИ подталкивает инфляцию вверх в краткосрочной перспективе, хотя в будущем это может помочь ее снизить."
-    }
-   }
-  ],
-  "last_update": 1795107751,
   "evaluated": true
  },
  {
@@ -1578,246 +1201,6 @@
    }
   ],
   "last_update": 1795216792,
-  "evaluated": true
- },
- {
-  "ts": 1795107751,
-  "time": "2026-11-19T17:02Z",
-  "title": "פסגת ארה\"ב-סין-רוסיה בשנג'ן",
-  "summary": "מנהיגי ארה\"ב, סין ורוסיה נפגשו בשנג'ן לשיחות משולשות, והצהירו על כוונתם להגדיל את תפוקת הנפט ולבצע רפורמה באו\"ם.",
-  "kid": "שלוש המדינות החזקות בעולם נפגשו כדי לדבר על נפט ועל האו\"ם. אם הן יפיקו יותר נפט, מחיר הדלק עלול לרדת.",
-  "i18n": {
-   "title": {
-    "he": "פסגת ארה\"ב-סין-רוסיה בשנג'ן",
-    "en": "US-China-Russia Trilateral Summit in Shenzhen",
-    "ar": "قمة ثلاثية بين الولايات المتحدة والصين وروسيا في شنجن",
-    "ru": "Трехсторонний саммит США-Китай-Россия в Шэньчжэне"
-   },
-   "summary": {
-    "he": "מנהיגי ארה\"ב, סין ורוסיה נפגשו בשנג'ן לשיחות משולשות, והצהירו על כוונתם להגדיל את תפוקת הנפט ולבצע רפורמה באו\"ם.",
-    "en": "Leaders of the U.S., China, and Russia met in Shenzhen for trilateral talks, announcing plans to boost oil production and reform the UN.",
-    "ar": "التقى قادة الولايات المتحدة والصين وروسيا في شنجن لإجراء محادثات ثلاثية، وأعلنوا عن خطط لزيادة إنتاج النفط وإصلاح الأمم المتحدة.",
-    "ru": "Лидеры США, Китая и России встретились в Шэньчжэне для трехсторонних переговоров, объявив о планах по увеличению добычи нефти и реформированию ООН."
-   },
-   "kid": {
-    "he": "שלוש המדינות החזקות בעולם נפגשו כדי לדבר על נפט ועל האו\"ם. אם הן יפיקו יותר נפט, מחיר הדלק עלול לרדת.",
-    "en": "The world's three most powerful countries met to talk about oil and the UN. If they produce more oil, gas prices might go down.",
-    "ar": "اجتمعت أقوى ثلاث دول في العالم للحديث عن النفط والأمم المتحدة. إذا أنتجوا المزيد من النفط، فقد تنخفض أسعار الوقود.",
-    "ru": "Три самые могущественные страны мира встретились, чтобы обсудить нефть и ООН. Если они будут добывать больше нефти, цены на бензин могут снизиться."
-   }
-  },
-  "category": "geopolitics",
-  "severity": 8,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "USO",
-    "direction": "down",
-    "t0": 1795107751,
-    "reason": "הגדלת תפוקת הנפט צפויה להוריד מחירים",
-    "reason_i18n": {
-     "he": "הגדלת תפוקת הנפט צפויה להוריד מחירים",
-     "en": "Increased oil production is expected to lower prices",
-     "ar": "من المتوقع أن تؤدي زيادة إنتاج النفط إلى خفض الأسعار",
-     "ru": "Ожидается, что увеличение добычи нефти снизит цены"
-    },
-    "name_i18n": {
-     "he": "קרן סל נפט",
-     "en": "Oil ETF",
-     "ar": "صندوق استثمار النفط",
-     "ru": "Нефтяной ETF"
-    },
-    "price_at_alert": 138.18,
-    "entry_price": 138.53,
-    "entry_time": "2026-11-19T17:30+00:00",
-    "exit_price": 139.675,
-    "exit_date": "2026-11-20",
-    "change_pct": 0.83,
-    "bench": "SPY",
-    "bench_change_pct": -4.73,
-    "excess_pct": 5.55,
-    "edge_pct": -5.55,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XOM",
-    "direction": "down",
-    "t0": 1795107751,
-    "reason": "ירידת מחירי הנפט פוגעת ברווחי חברות האנרגיה",
-    "reason_i18n": {
-     "he": "ירידת מחירי הנפט פוגעת ברווחי חברות האנרגיה",
-     "en": "Lower oil prices hurt energy company profits",
-     "ar": "انخفاض أسعار النفط يضر بأرباح شركات الطاقة",
-     "ru": "Снижение цен на нефть вредит прибыли энергетических компаний"
-    },
-    "name_i18n": {
-     "he": "אקסון מוביל",
-     "en": "Exxon Mobil",
-     "ar": "إكسون موبيل",
-     "ru": "Exxon Mobil"
-    },
-    "price_at_alert": 159.295,
-    "entry_price": 159.46,
-    "entry_time": "2026-11-19T17:30+00:00",
-    "exit_price": 159.97,
-    "exit_date": "2026-11-20",
-    "change_pct": 0.32,
-    "bench": "SPY",
-    "bench_change_pct": -4.73,
-    "excess_pct": 5.05,
-    "edge_pct": -5.05,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "6b7a9bd3a784",
-  "evaluated": true
- },
- {
-  "ts": 1795107751,
-  "time": "2026-11-19T17:02Z",
-  "title": "ירידות במניית AMD עקב דוח שורטיסטים",
-  "summary": "מניית AMD ירדה לאחר שדוח של מוכר בחסר (שורטיסט) טען כי החברה חשופה לחברה סינית שנמצאת ברשימה השחורה של ארה\"ב.",
-  "kid": "מישהו שטוען שמניית AMD תרד אמר שהיא עובדת עם חברה סינית אסורה. זה גרם למשקיעים למכור את המניה.",
-  "i18n": {
-   "title": {
-    "he": "ירידות במניית AMD עקב דוח שורטיסטים",
-    "en": "AMD stock falls on short-seller report",
-    "ar": "انخفاض سهم AMD بسبب تقرير بائع على المكشوف",
-    "ru": "Акции AMD падают из-за отчета шорт-селлера"
-   },
-   "summary": {
-    "he": "מניית AMD ירדה לאחר שדוח של מוכר בחסר (שורטיסט) טען כי החברה חשופה לחברה סינית שנמצאת ברשימה השחורה של ארה\"ב.",
-    "en": "AMD stock fell after a short-seller report alleged exposure to a blacklisted Chinese company.",
-    "ar": "انخفض سهم AMD بعد أن زعم تقرير بائع على المكشوف وجود انكشاف على شركة صينية مدرجة في القائمة السوداء الأمريكية.",
-    "ru": "Акции AMD упали после того, как в отчете шорт-селлера было заявлено о связи с китайской компанией, находящейся в черном списке США."
-   },
-   "kid": {
-    "he": "מישהו שטוען שמניית AMD תרד אמר שהיא עובדת עם חברה סינית אסורה. זה גרם למשקיעים למכור את המניה.",
-    "en": "Someone who bets against AMD said they work with a banned Chinese company. This made investors sell the stock.",
-    "ar": "شخص يراهن ضد AMD قال إنها تعمل مع شركة صينية محظورة. هذا جعل المستثمرين يبيعون السهم.",
-    "ru": "Тот, кто делает ставки против AMD, заявил, что они работают с запрещенной китайской компанией. Это заставило инвесторов продавать акции."
-   }
-  },
-  "category": "trade",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "AMD",
-    "direction": "down",
-    "t0": 1795107751,
-    "reason": "חשש מסנקציות או הגבלות ייצוא",
-    "reason_i18n": {
-     "he": "חשש מסנקציות או הגבלות ייצוא",
-     "en": "Concerns over sanctions or export restrictions",
-     "ar": "مخاوف بشأن العقوبات أو قيود التصدير",
-     "ru": "Опасения по поводу санкций или экспортных ограничений"
-    },
-    "name_i18n": {
-     "he": "AMD",
-     "en": "AMD",
-     "ar": "AMD",
-     "ru": "AMD"
-    },
-    "price_at_alert": 484.14,
-    "entry_price": 491.43,
-    "entry_time": "2026-11-19T17:30+00:00",
-    "exit_price": 424.26,
-    "exit_date": "2026-11-20",
-    "change_pct": -13.67,
-    "bench": "SPY",
-    "bench_change_pct": -4.73,
-    "excess_pct": -8.94,
-    "edge_pct": 8.94,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "30227900c7c1",
-  "evaluated": true
- },
- {
-  "ts": 1795107751,
-  "time": "2026-11-19T17:02Z",
-  "title": "חוזים צבאיים בשווי מיליארד דולר לחברות חלל",
-  "summary": "שלוש חברות חלל זכו בחוזים בשווי כולל של כמיליארד דולר לביצוע שיגורים צבאיים עבור ארה\"ב.",
-  "kid": "הממשלה נתנה הרבה כסף לשלוש חברות חלל כדי לשגר טילים ולוויינים למשימות צבאיות.",
-  "i18n": {
-   "title": {
-    "he": "חוזים צבאיים בשווי מיליארד דולר לחברות חלל",
-    "en": "$1B military space contracts awarded",
-    "ar": "عقود فضاء عسكرية بقيمة مليار دولار",
-    "ru": "Военные космические контракты на $1 млрд"
-   },
-   "summary": {
-    "he": "שלוש חברות חלל זכו בחוזים בשווי כולל של כמיליארד דולר לביצוע שיגורים צבאיים עבור ארה\"ב.",
-    "en": "Three space companies were awarded contracts totaling nearly $1 billion for military launches for the U.S.",
-    "ar": "فازت ثلاث شركات فضاء بعقود تبلغ قيمتها الإجمالية حوالي مليار دولار لتنفيذ عمليات إطلاق عسكرية للولايات المتحدة.",
-    "ru": "Три космические компании получили контракты на общую сумму около 1 миллиарда долларов на выполнение военных запусков для США."
-   },
-   "kid": {
-    "he": "הממשלה נתנה הרבה כסף לשלוש חברות חלל כדי לשגר טילים ולוויינים למשימות צבאיות.",
-    "en": "The government gave a lot of money to three space companies to launch rockets and satellites for military missions.",
-    "ar": "أعطت الحكومة الكثير من المال لثلاث شركات فضاء لإطلاق صواريخ وأقمار صناعية لمهام عسكرية.",
-    "ru": "Правительство выделило много денег трем космическим компаниям на запуск ракет и спутников для военных миссий."
-   }
-  },
-  "category": "contracts",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOV9IYWdCanFaSmt5SlBfVW5JZ3RoeDdmNXVRb2JBSXFtZUl5OEZoRWR3T1ZOV2Zjc3NQb21icm1OWVpuR2Y5VzItMXlZSXZXbVpKWGJRNFJRaGJjOVZxRG03X2Z4LVAzS19fNFlfM0ZXeXVCTXBVdm0yWTF6aWtJSW5UOWp1VlUyZ1VGdzBWcE04dzZmYWNZSHZ6cjNuRFF4N2hfTXh4eTBDcnJDSlhn0gHDAUFVX3lxTFBabTk4ZExfSUtuMnNFamNmemV6UVdlanA2aXB6UlF2dkxDeDFEekEyOTJCTmVlbHNyUk9KV1hUZWxZRll3Ul9mamFWVlZGaXBMeEszeWl0aWlNdEgtYmEtV2dZQ3dNcl9yUVZrOUJRV000TDA0bWVYX1hGOWVJM2hsSU1oZmdPTDliZzlzRHJhT2JnVUpwWElLYUlfYnpUbmVuUUYtQ3hzallvSmZVUXN0N0NSX09KNzBlVzh3NzF5UlppNA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795107751,
-    "reason": "הגדלת תקציבי הביטחון והחלל",
-    "reason_i18n": {
-     "he": "הגדלת תקציבי הביטחון והחלל",
-     "en": "Increased defense and space budgets",
-     "ar": "زيادة ميزانيات الدفاع والفضاء",
-     "ru": "Увеличение оборонных и космических бюджетов"
-    },
-    "name_i18n": {
-     "he": "קרן סל ביטחון",
-     "en": "Defense ETF",
-     "ar": "صندوق استثمار الدفاع",
-     "ru": "Оборонный ETF"
-    },
-    "price_at_alert": 68.41,
-    "entry_price": 68.91,
-    "entry_time": "2026-11-19T17:30+00:00",
-    "exit_price": 66.24,
-    "exit_date": "2026-11-20",
-    "change_pct": -3.87,
-    "bench": "SPY",
-    "bench_change_pct": -4.73,
-    "excess_pct": 0.85,
-    "edge_pct": 0.85,
-    "hit": true,
-    "hit_raw": false
-   }
-  ],
-  "id": "ba5ffddca7ed",
   "evaluated": true
  },
  {
@@ -40526,14 +39909,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNODhmNERJdTFUVVI3S3BLVl9OTEJVQnpPRW5WWjdCRVVrc1JRNEZOandHd1diV2xkOWJGZy1YWjRtNFpOYVN4YVphX3pjQlYyOFN2Uno5ekdCOC1NaXp5b0pCdE93RkNrQVBHSmFDNmJiS2RpbFNMWFlXQzhQU3BBMDNUbDBkV09ZRjBHLWFHZ281a21MTU8zdnpsMmYzeHpOc2RjZUk5dDE5akVDcDQw?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtMjVpVkZLaHFuclBoUHdpWU5DZ2dCcWFzcndjaVBzZlZtSmh6dkhQZUFPa1M3VnI4ajg2YS1nV3lCYUNJT3U0ZzgxcHlmeTBERVc4?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LcUoxdTBad0NPLVlRMVhQcnpwdk5nYWVaeVZBY2hCdWNpdWp3U3YtRldNNndJM2lURmZQNnl6cHNtYWpfMGVrU0NCZDhPV2J3WGhrcUFJQlZFX3JhRnhDUEFkUHVadDExV3pqUWlGZTVYZE9CQ1IyeUdqa1JRelk?oc=5"
    },
    {
@@ -40547,6 +39922,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGlTYjNNZVJ3Mndqcmh1X0RQdHJWSWRDYU5EcG5VTzVObFZkUVdSRktiRXJrZjV6Rk9GeUkwTk5LTUdfU0Q1a2RBYWRwN0hra2NqNGphZUNfa3lvSldGd1lEd2QzT1dFTlN4djkyaUNMaXc2bEp2Zm5ybzJpNlZ2Q1dQSlJqUVc5cFhXdmlhM3ZTQQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiVnZPWVV5Z0tIRFFVcFp0bGhuOS1zMDVodEpsUkVhRU95RmxORW52bnlLc0FaZk0wTjR3ZU9ZeGlIQnFhZ0NaX3g1bDBMT3lKNGcxd25CR3ZwSVdlc2tSMmg0emZBMHM3U3NIaDAzYVhoYU95eVlZ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbVdMQ2RYWm1YRTFHcTdtRFhXOW9rZmdBdW5vZEJyR1FtekZXS1k1OXdjSGVjMW9uT3o1aV9fUjFkdENodVNSaDE1QVRUaW9PemIzSTg2aEMxRWU5MV9nMWNfRzcwS19NcU5VRXdPeVJycFN5d2VUN192WnpWYmp5VG1B?oc=5"
    }
   ],
   "impacts": [
@@ -40607,9 +39990,21 @@
      "ar": "أكدت الفيفا أنها تعرضت لهجوم من قبل قراصنة سرقوا معلومات تجارية وشخصية، على الرغم من أن الوثائق المتعلقة ببيع حصص كأس العالم ظلت سليمة.",
      "ru": "ФИФА подтвердила, что стала целью хакеров, которые украли деловую и личную информацию, хотя документы, связанные с продажей доли в Чемпионате мира, остались нетронутыми."
     }
+   },
+   {
+    "ts": 1795715643,
+    "time": "2026-11-26T17:54Z",
+    "severity": 4,
+    "summary": "ארגון הכדורגל העולמי פיפ\"א אישר כי נפגע מתקפת סייבר פלילית, שבה הצליחו האקרים להשיג גישה למידע אישי ועסקי רגיש.",
+    "i18n": {
+     "he": "ארגון הכדורגל העולמי פיפ\"א אישר כי נפגע מתקפת סייבר פלילית, שבה הצליחו האקרים להשיג גישה למידע אישי ועסקי רגיש.",
+     "en": "FIFA confirmed a criminal cyberattack where hackers impersonated staff and gained unauthorized access to personal and business data.",
+     "ar": "أكد الاتحاد الدولي لكرة القدم (فيفا) تعرضه لهجوم سيبراني إجرامي تمكن خلاله المخترقون من الوصول إلى بيانات شخصية وتجارية حساسة.",
+     "ru": "ФИФА подтвердила кибератаку, в ходе которой хакеры получили доступ к конфиденциальным личным и деловым данным."
+    }
    }
   ],
-  "last_update": 1795707799
+  "last_update": 1795715643
  },
  {
   "ts": 1795691625,
@@ -40839,27 +40234,27 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjlMS25PYUF2Unh4TE9YT0xXNDVUSldsV0w1SjFiSFoxVDRoZWpwbTZuQ3Ftb1VILXZ1RndReXZ5Z0cxRmE5d3RHMmxqbGRMWC1QYnBaZ21nV3Y3Vlg4VndBR2wtNUlVWjdUUnY0cEJObVJ6TDI4OXh3U0xZVmZ0WnJPX2IzaHNNbnhreVB1VDhoVVlReW9Kb0t1WWViMUN3RDVLQlBldHhJdzVfck1KSVFFcFJZN1k?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRWV0dWs2TjRiZmFUMzJJY3lXNk9Pa1VyVDVmRUI2Z2NRSnFacWVQdHE0Y1AydXc1TUI1cm5vcUk4RnpmVUM3Rnk2MEk3RWZwVmVFMXBZem1jekk1dlBhRm5kRHZOV20xU3VFQjVSeVZlY0JjNU95WnFqSnpiWkxzTjFXOVFMOHFINnF1WldFNTBSdEhF?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ245d1RvSE1oNkZtRmlud3lNZzhoa2JiNDJaWS1CTmVuOC1YYkhxb1djWnpkQzdQczZ2TkF6UWVESWdQWGpGT2tVdlQyWXRYTUx0czlRUEJScmpfVUJ4SjFYU011aHJJclRmVEYwYXVRb09JNFk0U1VQTFNvYkE0ZkpqSkdzRElTZ1drUFI3VWVERVBTSWROTEI5OW83SXM?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRVFmNkU5V3FiOTM2UUhtSmJoRUY1ZEtLVzJUd2Vxdnd3VFl5eGYxQkJpS0RBT2w3eUcydXV1UU5mQzZQLUh1MXJSYmhUai1ycHYxTndUNTBvS2xsZ3p6U0U0dGVoSnY1TzgyNXZqM2lrZExlT0FxUXlHZ3A3dEp6YmdacF9uLVNfM1I0YXZuMEc1UllWMnk1b201OUxpMldfcU8yQzZn?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYTE1b3ZVUEUyYVo5SmwyU2s2cGdBTmp4OXI1dkQ1eWlYMlBQTllBS1BpWXNjNmwyaGNPSkVfaE9Bbm9TV280SXViNkRRSkJiZ2w1aW0tdkJ3V2tKaENKdlprckVzaVFHYVpiVTVXd1ZkT2lJX0VYVkxmNEpnUDNjUmljc2VVbHU1T3ZiMzZlTHBMbjBVMk91OFkzQVh1TjBtQkFfN05MWQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSUc3RUxUbVVxQXlPRWFNSjFpX0h6MjJfVGZHQm94QWUxSGMwVTlLb1lKd3VZYTVrQnBKNzZ1WjBhYzhobjE0dHI3bm4yc0VabGV5RU41cmkzdUVINW9LQjdibjNFLXIwMUViT1ZNUHBjTDZrWDBLdEIzbDdqbWVSRGFTbG5SU2licTIyeHdFVk5la2l0VDhyQmRhMVJZNGxvcDlUSkIyenh1eG40NHFhMm95UWJ6RnVaaTE1MGNHUFJxT2VpMW9YOFRmNHN4bjdqSmxVY19rbw?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU1FrcWxDWjBBeEVKeW1LQ3BSNktDQU9GV1ZIeENaUVYwMTRRd0d6V29IdGozOFR1RFBWb3BMUEJuMWZZbDVuclRpNURFZDdkTWtaTXlYLU1Yb0FSX2lGWkFHNzVjZGYzZi1zX3d1TlFwblJVVml5M0JwS1RtSW9vRk9UTGlBcFZQcWpnOGJfS1F1S0FB?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLV9kOEY2TjlSYjlWX1pEN1FfZ0ltTGpTS3VCOW9pdURteUJqbUx2bEdlcTJDaVdlRWdheU56OGI0YU5WaVdGUDVJek85VnhnYklERGx1NXBZemNjNGtKODVoeEhpM2pzVVphaDFoY0JDWjJJZ2ZTYWYxazhlaThTLWc3TW84ZkxoRVFV?oc=5"
    },
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFBLZHdsUEpCd1F5eVExd3YwNDFpODk1ZHJYeXNlS01jcDlKamdNRldJcS1rT1dPX096UllXY2g4ZXZLdnJhRlFfYnhwVUp3enpZZFliaTBTYi1oOElnTDRnNHM2SFNlTXRrNzRDWjNNRHJSQmROSi1DN2lmR1cyR0ItM2YtcHNDaEFfM1NCSUoxbUhmMHJjRm5fZjZJOGxQblg3dHRlSkRQZkdP?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTllXZEw1Q1RqamRwNEtJR0w1QzlBQndlVm1jY1YxYk9MTkJ3RVJoSXVjRnVfY2dzNk91UW9zUFFJUGxzMWIyOHVMX1dDZGVScUVaZE1OM0VmZTlicVRjUWhnNnFoMWJOMkJyQ29qa3BOcjZnVDZBVGRPdC1QZXZmeW11bkZqQXp5cW1OTGlybU1zRmE3ODFFczJBc2JaMkxZZTI1OFoxSjFnZlRma3NrdlN5ZVgtQzRqb1IxUmZPMnBJN3FkYXQ4cGh5RFRGMENRdlln0gHYAUFVX3lxTE5Od3JHY29qVTFjWXJyMzhSeGhJWUhuT3FucGM0UnNLeHRfSjhFczhIQmM0Rzh1c0ttaW5YUlNrYXVzeTk0aVN6aVppT3FjQkdsZ2lxeWZmNHpubXY3aUNBclpGZUhqSXZQZmVkdzJZQTJER2doTzFKS3ZWdWxvc2lXT19FbEJVZ1lJd0dLRGRYMXlCdUJhVHZWWl9DejR5Vm5PUXRwaUhoSUc1a1Q0aHlFMnNNWHRjM3g5NUhlTEw0TFMycWU2aGNnQktIUmdCWDlnMjVBNGJmRw?oc=5"
    },
    {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHhGaDVOSDE3bGlyTzlVbXFFcVRaUkZ5X2t5WDFleEd4ckwxdU0tS2ZkTHRGVGMwNF80TUtXMTZWVEpzTHBsMnVVVEVaajRPNWRjZzJvTEZ2cVh0UWtaYlZDcjh5cjV2bUYzYVF5TVIycGpvejdTVlM0UThZZVFzaGl2SFJfdGl4akdUdXVBOG9VbC12bGZITjFzMURmZjR6NUh1bF84UGNsUQ?oc=5"
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPa3VqY2hnQzlmT3ZLLUQ3bWxMYXRndjNQV0dYaWNvZEJXbktmNXBwX1BfbTdWU3FnWU56NEpaU3JlZUNqNHZzckUtQVJwMC1wblE0eFItZ1BGOFBDNHBuQmpTS2VrLXVZejFYYmVUSXh6Rk1tTnlpWmhGRk1qQkNoWmphMjY5WEdMaEhGWkVZNkpVbGVwenVQWkpjRnVrVVU4eERnMkZlZ2FhWFViRjh6SFVtZ3FNOVJnb1dkazBtUnlNVW0tdUhsSDJaZzd0YUtwTHZXNXVtQ3pScnh6cXRPXzFmcTFlUmU5ZnfSAe8BQVVfeXFMTW9jTjM3U0RKcm9sWkRlYTJpcVI1UGJVeTdsYXY0V2RUTFlhdXlTZzNsV3lYRWVyUXltV2l2X2Q3YU51UVlfQjk4WDZNYlg1eDZ5Um96dEZqVi1vUkVMc2xwNEVsRmdSTjlPMTB2SWRRZ3p6YkpoaGpLa1Nzd2pIRmVzR1QtbWFLVzk2a2Nuc2hCWVozcVVuTEk2dFk5aTlSVlVpeW42VmcxOW0tcnlyc091VUNKM3FkdC1OZDlobmdBQnZibWNSUGF5aW5uZ2RxM0Nvc3RoeWRfUlJlMm83NVh1T2RRWGtEQ1BqZmZ2ZTQ?oc=5"
    }
   ],
   "impacts": [
@@ -40927,9 +40322,21 @@
      "ar": "توصل قادة الاتحاد الأوروبي إلى إجماع على تعيين بابلو هيرنانديز دي كوس رئيساً قادماً للبنك المركزي الأوروبي، خلفاً لكريستين لاغارد.",
      "ru": "Лидеры ЕС достигли консенсуса о назначении Пабло Эрнандеса де Коса следующим президентом Европейского центрального банка (ЕЦБ), сменив Кристин Лагард."
     }
+   },
+   {
+    "ts": 1795715643,
+    "time": "2026-11-26T17:54Z",
+    "severity": 5,
+    "summary": "מדינות גוש היورو הסכימו על מינויו של פבלו הרננדז דה קוס הספרדי לנשיא הבנק המרכזי האירופי הבא.",
+    "i18n": {
+     "he": "מדינות גוש היورو הסכימו על מינויו של פבלו הרננדז דה קוס הספרדי לנשיא הבנק המרכזי האירופי הבא.",
+     "en": "Eurozone states reached a consensus to appoint Spain's Pablo Hernandez de Cos as the next President of the European Central Bank.",
+     "ar": "توصلت دول منطقة اليورو إلى توافق لتطهير تعيين الإسباني بابلو هيرنانديز دي كوس رئيساً مقبلاً للبنك المركزي الأوروبي.",
+     "ru": "Страны еврозоны достигли консенсуса о назначении испанца Пабло Эрнандеса де Коса следующим президентом Европейского центрального банка."
+    }
    }
   ],
-  "last_update": 1795707799
+  "last_update": 1795715643
  },
  {
   "ts": 1795704289,
@@ -41312,6 +40719,18 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRVRLYVh6dm1UMWRaZ1ZyakRkTkFoUW9RN3pfYU9xQncwSXdOLU9iekNfSmVjSjctUXVnTk0yZDk5RFhXYnJWa1pEeFgzNlY5ZnV3UmpsNnFOZ24tNmR2ZExibGVzWjRWNlcwZjJLT0hqanotU3hiM3M4WEVoZnlIMzFxWmZZeEIycElEcnBOemc4NDlwX1A0YXFFbWN4SGwwTlczUktlLUlkSHp5bU1qR3FR?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUlREQWtHOWstYUJVNEFYUkIxQlhuTmdWTnpneTltMlZSRjF5UkdleHJ6TWdzUjQtRHF1bDhnQzNzbERPSVk0MWxEdUhHQ20wQTJzWHllZGZZU0piTEpJbkZyeWdrMnFUUkplMFotN2hqN2Fxa2l3QUJpN0pDbEEzdDEtQ2drUERMQ1FvdHhGU2VKNnVKODJEcEt2MkJyUkZxcEpiaFQyOEY3dzNhUy1LVWNkb2dsc0NGaWxHWjQyYjFUTTZhVUx6SHNTMA?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VYXlTRktHYXMwM0UxbHowNzhfb3BuRGZwOExfVGZnYnIxWkMybTNpTHVaMVZncU5mSnVZN01DaXFEb3dmcEpoU3BQXy1GVjFIWEJRV2lTOVlSRExLMUo2Vw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZmw2ZjNfSHJ5SG9FMEZUV2Y3dExwcTFxb1VqWHVCWjFlOHo5R25RWmNKSWJ4dHlma3ozR1ctZzZJUXZnRlFZOFNDcVNOeEdpM1J5endiWklaV2o1a2s2OXd1b3BtbThCUnBTQUNneWNuWWdFdmVXaXV3TXFsY09oMk14NWM5OHA5dEpHdmxGamM5OVpHVEIyT1hwcXdZM2RBeWRYQmI5RzFzRkJEVWctdjV3TzlRUjA1Sm9xZTVnM0RHTkJRLWRrN0I3SlVrb2h4QlQ3T0NnN0dZQQ?oc=5"
    }
   ],
   "impacts": [
@@ -41351,9 +40770,43 @@
      "ru": "Exxon Mobil"
     },
     "price_at_alert": 158.08
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795715643,
+    "reason": "מתחי ההיצע והעיסוק במכסות תומכים במחירי האנרגיה ובמניות הסקטור.",
+    "reason_i18n": {
+     "he": "מתחי ההיצע והעיסוק במכסות תומכים במחירי האנרגיה ובמניות הסקטור.",
+     "en": "Supply tensions and quota discussions support energy prices and sector stocks.",
+     "ar": "توترات الإمدادات ومناقشات الحصص تدعم أسعار الطاقة وأسهم القطاع.",
+     "ru": "Напряженность с поставками и обсуждение квот поддерживают цены на энергоносители."
+    },
+    "name_i18n": {
+     "he": "XLE – קרן סל אנרגיה",
+     "en": "XLE – Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE – ETF энергетического сектора"
+    },
+    "price_at_alert": 60.9
    }
   ],
-  "id": "884043276ff9"
+  "id": "884043276ff9",
+  "updates": [
+   {
+    "ts": 1795715643,
+    "time": "2026-11-26T17:54Z",
+    "severity": 5,
+    "summary": "עיראק מדווחת על הכנסות נפט גבוהות ומתכננת לדרוש מכסת תפוקה גבוהה יותר מאופ\"ק, בעוד סיכוני היצע נשארים ברקע.",
+    "i18n": {
+     "he": "עיראק מדווחת על הכנסות נפט גבוהות ומתכננת לדרוש מכסת תפוקה גבוהה יותר מאופ\"ק, בעוד סיכוני היצע נשארים ברקע.",
+     "en": "Iraq reports strong oil revenues and prepares to seek a higher OPEC output quota, while regional shipping and supply vulnerabilities persist.",
+     "ar": "العراق يسجل عائدات نفطية قوية ويستعد لطلب حصة إنتاج أعلى من أوبك، بينما تستمر مخاطر الإمدادات الإقليمية.",
+     "ru": "Ирак сообщает о сильных нефтяных доходах и готовится запросить более высокую квоту ОПЕК на фоне сохраняющихся рисков в регионе."
+    }
+   }
+  ],
+  "last_update": 1795715643
  },
  {
   "ts": 1795707799,
@@ -41578,5 +41031,163 @@
    }
   ],
   "id": "e987652aa5d4"
+ },
+ {
+  "ts": 1795715643,
+  "time": "2026-11-26T17:54Z",
+  "title": "סערות ענק בארה\"ב משבשות את נסיעות חג ההודיה",
+  "summary": "סערות חזקות פוקדות את שתי החופים בארה\"ב, גרמו ליותר מ-1,000 טיסות שבוטלו או לעוכבו, ופגעו בנסיעות של מיליונים לחג.",
+  "kid": "מזג אוויר סוער מאוד בארה\"ב גרם לביטול טיסות רבות בדיוק בחג ההודיה, מה שפוגע בחברות התעופה.",
+  "i18n": {
+   "title": {
+    "he": "סערות ענק בארה\"ב משבשות את נסיעות חג ההודיה",
+    "en": "Massive storms across the US disrupt Thanksgiving holiday travel",
+    "ar": "عواصف ضخمة في الولايات المتحدة تعطش سفر عطلة عيد الشكر",
+    "ru": "Мощные штормы в США нарушают поездки на День благодарения"
+   },
+   "summary": {
+    "he": "סערות חזקות פוקדות את שתי החופים בארה\"ב, גרמו ליותר מ-1,000 טיסות שבוטלו או לעוכבו, ופגעו בנסיעות של מיליונים לחג.",
+    "en": "Powerful storms hitting both US coasts have caused over 1,000 flight cancellations or delays as millions travel for Thanksgiving.",
+    "ar": "أدت العواصف القوية التي تضرب السواحل الأمريكية إلى إلغاء أو تأخير أكثر من 1000 رحلة جوية مع سفر ملايين لعيد الشكر.",
+    "ru": "Мощные штормы на обоих побережьях США привели к отмене или задержке более 1000 рейсов в разгар поездок на День благодарения."
+   },
+   "kid": {
+    "he": "מזג אוויר סוער מאוד בארה\"ב גרם לביטול טיסות רבות בדיוק בחג ההודיה, מה שפוגע בחברות התעופה.",
+    "en": "Very stormy weather in the US caused many flight cancellations right during Thanksgiving, which hurts airline companies.",
+    "ar": "تسبب الطقس العاصف جداً في الولايات المتحدة في إلغاء العديد من الرحلات الجوية تماماً خلال عيد الشكر، مما يضر بشركات الطيران.",
+    "ru": "Очень штормовая погода в США привела к отмене множества рейсов прямо в День благодарения, что бьет по авиакомпаниям."
+   }
+  },
+  "category": "climate",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "BBC World",
+    "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+   },
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVV91OWdaQ1cwTHRxZU5wdzBlZjViam1uYmV3Wmd1bTV1QjJlS2dXLW1STjA1WTFUWElVdlNpMDF1Tk5BZmY4MTN4WVU1UHoyN1NoNUxZdXVkdzFzRVFpZWNfVzl3TW9iRTJNU2xaS3J1SWQ1OGpxV3NwdFhHOU1iSUtYWG9tYlZVX2lVR21yWFZIS1NkQWxOODVlS2dNalRwR01JbUZ0NmhKNVpLMkJHYTZmb1IyVkZaSHZGUEdOZzNlcDQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1795715643,
+    "reason": "ביטולים ועיכובים נרחבים בטיסות פוגעים בהכנסות חברות התעופה בחגים.",
+    "reason_i18n": {
+     "he": "ביטולים ועיכובים נרחבים בטיסות פוגעים בהכנסות חברות התעופה בחגים.",
+     "en": "Widespread flight cancellations and delays hurt airline holiday revenues.",
+     "ar": "إلغاء الرحلات الجوية والتأخيرات الواسعة تضر بإيرادات شركات الطيران في العطلات.",
+     "ru": "Массовые отмены и задержки рейсов наносят ущерб праздничным доходам авиакомпаний."
+    },
+    "name_i18n": {
+     "he": "JETS – קרן סל חברות תעופה",
+     "en": "JETS – US Global Jets ETF",
+     "ar": "JETS - صندوق قطاع الطيران",
+     "ru": "JETS – ETF авиакомпаний"
+    },
+    "price_at_alert": 28.13
+   },
+   {
+    "ticker": "DAL",
+    "direction": "down",
+    "t0": 1795715643,
+    "reason": "שיבושי מזג האוויר בחג המרכזי מעכבים פעילות וגורמים להוצאות תפעוליות.",
+    "reason_i18n": {
+     "he": "שיבושי מזג האוויר בחג המרכזי מעכבים פעילות וגורמים להוצאות תפעוליות.",
+     "en": "Major holiday weather disruptions delay operations and incur expenses.",
+     "ar": "اضطرابات الطقس الكبرى في العطلات تؤخر العمليات وتتكبد نفقات تشغيلية.",
+     "ru": "Крупные сбои из-за погоды в праздники задерживают операции и ведут к расходам."
+    },
+    "name_i18n": {
+     "he": "DAL – דלתא איירליינס",
+     "en": "DAL – Delta Air Lines",
+     "ar": "DAL - شركة دلتا للخطوط الجوية",
+     "ru": "DAL – Delta Air Lines"
+    },
+    "price_at_alert": 82.95
+   }
+  ],
+  "id": "47816e2c1df6"
+ },
+ {
+  "ts": 1795715643,
+  "time": "2026-11-26T17:54Z",
+  "title": "לוקהיד מרטין שוקלת פיתוח משותף של טילי ג'אוולין בהודו",
+  "summary": "בעקבות עסקת טילי FMS ושותפות מקומית, חברת לוקהיד מרטין בוחנת אפשרות לפיתוח משותף של טיל הג'אוולין מהדור החמישי בהודו.",
+  "kid": "חברת הנשק האמריקאית לוקהיד מרטין מתכננת שיתופי פעולה חדשים ופיתוח טילים בהודו. חדשות אלו עשויות לחזק את עסקאות החברה.",
+  "i18n": {
+   "title": {
+    "he": "לוקהיד מרטין שוקלת פיתוח משותף של טילי ג'אוולין בהודו",
+    "en": "Lockheed Martin eyes 5th-gen Javelin co-development in India following FMS deal",
+    "ar": "لوكهيد مارتن تتطلع إلى التطوير المشترك لصواريخ جافلين في الهند",
+    "ru": "Lockheed Martin рассматривает совместную разработку Javelin в Индии"
+   },
+   "summary": {
+    "he": "בעקבות עסקת טילי FMS ושותפות מקומית, חברת לוקהיד מרטין בוחנת אפשרות לפיתוח משותף של טיל הג'אוולין מהדור החמישי בהודו.",
+    "en": "Following a missile FMS deal and local tie-up, Lockheed Martin is exploring the co-development of fifth-generation Javelins in India.",
+    "ar": "في أعقاب صفقة صواريخ وشراكة محلية، تدرس شركة لوكهيد مارتن إمكانية التطوير المشترك لصواريخ جافلين من الجيل الخامس في الهند.",
+    "ru": "После оружейной сделки Lockheed Martin изучает возможность совместной разработки Javelin 5-го поколения в Индии."
+   },
+   "kid": {
+    "he": "חברת הנשק האמריקאית לוקהיד מרטין מתכננת שיתופי פעולה חדשים ופיתוח טילים בהודו. חדשות אלו עשויות לחזק את עסקאות החברה.",
+    "en": "US defense giant Lockheed Martin is planning new partnerships and missile development in India, which could support its long-term defense business.",
+    "ar": "تخطط شركة الدفاع الأمريكية لوكهيد مارتن لشراكات جديدة وتطوير صواريخ في الهند، مما قد يدعم أعمال الشركة الدفاعية.",
+    "ru": "Американский оборонный гигант Lockheed Martin планирует партнерство в Индии, что может поддержать ее бизнес."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMUJBb3QxTVZ6X3BjSlZVUFpjZFdTYVhzei13aEJfaFpFb0sxMVN2TXE1VkNaTUFOZkczOWFYRVFObVQzYzhlcHBfal9WVGRRR2l3ZWZnU1VZVHJ1LThaa3AyS21FMTJZQnhnREwyVVF2UnB5Z1l3a0dYeGpfZzF4cDJINzZtYnpUek5SeFpEbS0yU3diYk16WUQtdldvSV9lWmNGb0FJV0FiLVFuLUtiZFdTSnloQ3IwWUdJWU9pYnhKdFRnT1IzUGpDa3J3OHdnbGc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795715643,
+    "reason": "הרחבת שיתופי הפעולה הבינלאומיים ומכירות הנשק מחזקות את צבר ההזמנות של החברה.",
+    "reason_i18n": {
+     "he": "הרחבת שיתופי הפעולה הבינלאומיים ומכירות הנשק מחזקות את צבר ההזמנות של החברה.",
+     "en": "Expanding international partnerships and weapons sales bolster the company's backlog.",
+     "ar": "توسيع الشراكات الدولية ومبيعات الأسلحة يدعم سجل طلبيات الشركة.",
+     "ru": "Расширение международных партнерств и продаж оружия укрепляет портфель заказов."
+    },
+    "name_i18n": {
+     "he": "LMT – לוקהיד מרטין",
+     "en": "LMT – Lockheed Martin",
+     "ar": "LMT - شركة لوكهيد مارتن",
+     "ru": "LMT – Lockheed Martin"
+    },
+    "price_at_alert": 599.24
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795715643,
+    "reason": "חוזים והתרחבות גלובלית של ענקיות הביטחון תומכים בכל סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "חוזים והתרחבות גלובלית של ענקיות הביטחון תומכים בכל סקטור הביטחון.",
+     "en": "Defense giants' global contracts and expansion support the broader defense sector.",
+     "ar": "عقود عمالقة الدفاع والتوسع العالمي تدعم قطاع الدفاع الأوسع.",
+     "ru": "Глобальные контракты оборонных гигантов поддерживают весь сектор."
+    },
+    "name_i18n": {
+     "he": "ITA – קרן סל תעופה וביטחון",
+     "en": "ITA – Aerospace & Defense ETF",
+     "ar": "ITA - صندوق قطاع الطيران والدفاع",
+     "ru": "ITA – ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 68.77
+   }
+  ],
+  "id": "70cde6caa671"
  }
 ]
