@@ -2632,252 +2632,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795206277,
-  "time": "2026-11-20T20:24Z",
-  "title": "טראמפ מאיים באסרטיביות על חברות אמריקאיות המקימות מרכזי נתונים של AI בחו\"ל",
-  "summary": "נשיא ארה\"ב איים בנקיטת צעדים או איסור על חברות אמריקאיות לבנות מרכזי נתונים לבינה מלאכותית מחוץ למדינה, מבלי למסור פרטים מלאים.",
-  "kid": "נשיא ארה\"ב רוצה שחברות טכנולוגיה יבנו את המחשבים החזקים שלהן רק בתוך אמריקה. זה עשוי להשפיע על מניות הטכנולוגיה הגדולות שבוחרות איפה להשקיע.",
-  "i18n": {
-   "title": {
-    "he": "טראמפ מאיים באסרטיביות על חברות אמריקאיות המקימות מרכזי נתונים של AI בחו\"ל",
-    "en": "Trump threatens ban on US firms building AI data centres overseas",
-    "ar": "ترامب يهدد بحظر الشركات الأمريكية من بناء مراكز بيانات الذكاء الاصطناعي بالخارج",
-    "ru": "Трамп угрожает запретить американским компаниям строить дата-центры ИИ за рубежом"
-   },
-   "summary": {
-    "he": "נשיא ארה\"ב איים בנקיטת צעדים או איסור על חברות אמריקאיות לבנות מרכזי נתונים לבינה מלאכותית מחוץ למדינה, מבלי למסור פרטים מלאים.",
-    "en": "The US president threatened a potential policy or ban on US firms building artificial intelligence data centers overseas, providing limited details.",
-    "ar": "هدد الرئيس الأمريكي بفرض حظر المحتمل على بناء مراكز بيانات الذكاء الاصطناعي خارج الدولة.",
-    "ru": "Президент США пригрозил запретом американским компаниям строить дата-центры искусственного интеллекта за рубежом."
-   },
-   "kid": {
-    "he": "נשיא ארה\"ב רוצה שחברות טכנולוגיה יבנו את המחשבים החזקים שלהן רק בתוך אמריקה. זה עשוי להשפיע על מניות הטכנולוגיה הגדולות שבוחרות איפה להשקיע.",
-    "en": "The US president wants big tech companies to build their massive computer centers inside America. This can create uncertainty for tech stocks building global infrastructure.",
-    "ar": "الرئيس الأمريكي يريد أن تبنى مراكز الحواسيب الكبيرة داخل أمريكا فقط. هذا قد يؤثر على أسهم التكنولوجيا.",
-    "ru": "Президент США хочет, чтобы крупные технологические компании строили свои дата-центры в Америке. Это может повлиять на акции техногигантов."
-   }
-  },
-  "category": "policy",
-  "severity": 7,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "down",
-    "t0": 1795206277,
-    "reason": "איומי רגולציה על פריסת תשתיות AI גלובליות מכבידים על הסקטור",
-    "reason_i18n": {
-     "he": "איומי רגולציה על פריסת תשתיות AI גלובליות מכבידים על הסקטור",
-     "en": "Regulatory threats on global AI infrastructure deployment weigh on the sector",
-     "ar": "تهديدات تنظيمية بشأن انتشار البنية التحتية للذكاء الاصطناعي تضغط على القطاع",
-     "ru": "Регуляторные угрозы глобальной инфраструктуре ИИ давят на сектор"
-    },
-    "name_i18n": {
-     "he": "קרן סל נאסד\"ק 100 - מניות טכנולוגיה מובילות",
-     "en": "QQQ - Nasdaq 100 ETF",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 612.91,
-    "entry_price": 610.2501,
-    "entry_time": "2026-11-20T20:30+00:00",
-    "exit_price": 650.87,
-    "exit_date": "2026-11-23",
-    "change_pct": 6.66,
-    "bench": "SPY",
-    "bench_change_pct": 4.29,
-    "excess_pct": 2.37,
-    "edge_pct": -2.37,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1795206277,
-    "reason": "הגבלות פוטנציאליות על הקמת מרכזי נתונים עלולות לפגוע بביקושים",
-    "reason_i18n": {
-     "he": "הגבלות פוטנציאליות על הקמת מרכזי נתונים עלולות לפגוע بביקושים",
-     "en": "Potential restrictions on data center construction could impact demand",
-     "ar": "قيود محتملة على بناء مراكز البيانات قد تؤثر على الطلب",
-     "ru": "Потенциальные ограничения на строительство дата-центров могут повлиять на спрос"
-    },
-    "name_i18n": {
-     "he": "אנבידיה - ענקית השבבים והבינה המלאכותית",
-     "en": "Nvidia - Chip and AI giant",
-     "ar": "Nvidia - عملاق الرقائق والذكاء الاصطناعي",
-     "ru": "Nvidia - гигант чипов и ИИ"
-    },
-    "price_at_alert": 128.225,
-    "entry_price": 128.28,
-    "entry_time": "2026-11-20T20:30+00:00",
-    "exit_price": 165.185,
-    "exit_date": "2026-11-23",
-    "change_pct": 28.77,
-    "bench": "SPY",
-    "bench_change_pct": 4.29,
-    "excess_pct": 24.48,
-    "edge_pct": -24.48,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "MSFT",
-    "direction": "down",
-    "t0": 1795209686,
-    "reason": "פגיעה ברווחיות עקב הגבלות על פריסת תשתיות ענן.",
-    "reason_i18n": {
-     "he": "פגיעה ברווחיות עקב הגבלות על פריסת תשתיות ענן.",
-     "en": "Profitability hit due to restrictions on cloud infrastructure deployment.",
-     "ar": "تأثير على الربحية بسبب قيود على نشر البنية التحتية السحابية.",
-     "ru": "Удар по прибыльности из-за ограничений на развертывание облачной инфраструктуры."
-    },
-    "name_i18n": {
-     "he": "Microsoft - ענקית טכנולוגיה",
-     "en": "Microsoft - tech giant",
-     "ar": "Microsoft - عملاق التكنولوجيا",
-     "ru": "Microsoft - технологический гигант"
-    },
-    "price_at_alert": 484.52,
-    "entry_price": 506.055,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 496.4701,
-    "exit_date": "2026-11-24",
-    "change_pct": -1.89,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -1.13,
-    "edge_pct": 1.13,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "b4ee2032c032",
-  "updates": [
-   {
-    "ts": 1795209686,
-    "time": "2026-11-20T21:21Z",
-    "severity": 7,
-    "summary": "נשיא ארה\"ב דונלד טראמפ איים להטיל \"מס עצום\" על חברות טכנולוגיה אמריקאיות שיקימו מרכזי נתונים לבינה מלאכותית מחוץ לגבולות ארה\"ב.",
-    "i18n": {
-     "he": "נשיא ארה\"ב דונלד טראמפ איים להטיל \"מס עצום\" על חברות טכנולוגיה אמריקאיות שיקימו מרכזי נתונים לבינה מלאכותית מחוץ לגבולות ארה\"ב.",
-     "en": "US President Donald Trump threatened to impose a \"tremendous tax\" on US tech companies that build AI data centers outside the US.",
-     "ar": "هدد الرئيس الأمريكي دونالد ترامب بفرض \"ضريبة هائلة\" على شركات التكنولوجيا الأمريكية التي تبني مراكز بيانات للذكاء الاصطناعي خارج الولايات المتحدة.",
-     "ru": "Президент США Дональд Трамп пригрозил ввести «огромный налог» на американские технологические компании, которые строят центры обработки данных ИИ за пределами США."
-    }
-   }
-  ],
-  "last_update": 1795209686,
-  "evaluated": true
- },
- {
-  "ts": 1795209686,
-  "time": "2026-11-20T21:21Z",
-  "title": "דיווח: CrowdStrike בשיחות לרכישת Zscaler",
-  "summary": "מניית Zscaler זינקה ב-20% בעקבות דיווחים על מגעים לרכישתה על ידי ענקית הסייבר CrowdStrike.",
-  "kid": "",
-  "i18n": {
-   "title": {
-    "he": "דיווח: CrowdStrike בשיחות לרכישת Zscaler",
-    "en": "Report: CrowdStrike in talks to acquire Zscaler",
-    "ar": "تقرير: CrowdStrike في محادثات للاستحواذ على Zscaler",
-    "ru": "Отчет: CrowdStrike ведет переговоры о покупке Zscaler"
-   },
-   "summary": {
-    "he": "מניית Zscaler זינקה ב-20% בעקבות דיווחים על מגעים לרכישתה על ידי ענקית הסייבר CrowdStrike.",
-    "en": "Zscaler stock jumped 20% following reports of acquisition talks by cybersecurity giant CrowdStrike.",
-    "ar": "قفز سهم Zscaler بنسبة 20% بعد تقارير عن محادثات استحواذ من قبل عملاق الأمن السيبراني CrowdStrike.",
-    "ru": "Акции Zscaler подскочили на 20% на фоне сообщений о переговорах по поглощению со стороны гиганта кибербезопасности CrowdStrike."
-   },
-   "kid": {
-    "he": ""
-   }
-  },
-  "category": "contracts",
-  "severity": 6,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ZS",
-    "direction": "up",
-    "t0": 1795209686,
-    "reason": "דיווח על רכישה פוטנציאלית מעלה את מחיר המניה.",
-    "reason_i18n": {
-     "he": "דיווח על רכישה פוטנציאלית מעלה את מחיר המניה.",
-     "en": "Potential acquisition report boosts stock price.",
-     "ar": "تقرير الاستحواذ المحتمل يرفع سعر السهم.",
-     "ru": "Сообщение о возможном поглощении повышает цену акций."
-    },
-    "name_i18n": {
-     "he": "Zscaler - חברת אבטחת ענן",
-     "en": "Zscaler - cloud security company",
-     "ar": "Zscaler - شركة أمن سحابي",
-     "ru": "Zscaler - компания облачной безопасности"
-    },
-    "price_at_alert": 194.82,
-    "entry_price": 239.235,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 231.74,
-    "exit_date": "2026-11-24",
-    "change_pct": -3.13,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -2.37,
-    "edge_pct": -2.37,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "CRWD",
-    "direction": "down",
-    "t0": 1795209686,
-    "reason": "רוכשות נוטות לרדת בטווח הקצר עקב עלויות הרכישה.",
-    "reason_i18n": {
-     "he": "רוכשות נוטות לרדת בטווח הקצר עקב עלויות הרכישה.",
-     "en": "Acquirers often dip in the short term due to acquisition costs.",
-     "ar": "غالباً ما تنخفض الشركات المشترية على المدى القصير بسبب تكاليف الاستحواذ.",
-     "ru": "Компании-покупатели часто падают в краткосрочной перспективе из-за затрат на поглощение."
-    },
-    "name_i18n": {
-     "he": "CrowdStrike - חברת אבטחת סייבר",
-     "en": "CrowdStrike - cybersecurity company",
-     "ar": "CrowdStrike - شركة أمن سيبراني",
-     "ru": "CrowdStrike - компания кибербезопасности"
-    },
-    "price_at_alert": 229.44,
-    "entry_price": 217.99,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 210.91,
-    "exit_date": "2026-11-24",
-    "change_pct": -3.25,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -2.48,
-    "edge_pct": 2.48,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "4852ed29e4fd",
-  "evaluated": true
- },
- {
   "ts": 1795213204,
   "time": "2026-11-20T22:20Z",
   "title": "ארה\"ב הטילה סנקציות על ארבעה איראנים בגין גביית הכנסות נפט",
@@ -36875,14 +36629,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOEJ4ajdkRm1oNnNiWExaNFpfeW5nUzFzRlh6bW5sZUxZcGd0NmVVWEpEdHQ2c19CSXhSRG5zTUtvdzU3UVppalhTOEROc0NYQmw0MEJObXRQbkR3MWZEdDhibGZlOHBFaVBvZktLR3NJbVpHaEZaeU11QU1MOWlueUpQc1hIclY4?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcGtoU1AzRk9rdEJKU3QtWDd0Qkt1M3ZTMk14UmZaRmFTRWZ6OWdPaklUSnZxYldXYmFpM281TTJoNktSNVVlSUZpLWp6OTZ6b2lPQ2NXbTlEN2xrWGtVc2dPb2IyTVdNUWlxU1IzS1lIZG5TeUNOZXFITHpfUjlUMzhTUnpVREJ2SlVuMUs4ME8ycWRsTWF6OFpzck9EM1d3Ni1hbHlmQmwxTXJLdHc?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGdHUHZ2MjFUYlpBc0ZCdFNTazEzUExaZ04tcUZVWjhMZDB6cERwTGprQXFkcHlURkh3UlpkaEVPZFFLeVlXSjZ4c0hjSFZJVEJzaVlyUHlQb1VsVTM1bEVONXhrVzZVRGtjbnl2RTJadThvV19rekdhN01iRE9QVC02TW1vdmpkQkxTeF9sRUplVk15bjB0WEFzZkxmX2lQa3N5YXNoMG9xVkJkdGFLRjRaRXpWbmd5Z3Z3?oc=5"
    },
    {
@@ -36896,6 +36642,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmtwZkd4WEpNY2NaMVhUNmhuYWZLejkxb2xUcVBmUXRIMXlOLVY2RzUzSWhhNU9NLUtiR1F6eGxseDU1X1JQZzEyRmItUzU5MWxVLWpXMWoyV256Z2ZPenVwRFFFemhaYnM1b3dndk5CcXctSEMybkJLQVo5RFJid0pMN3FvOHJvak52SHI4OXM1VlBzYTVsVGlUWmV3MEtw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSjhMUXktbUhmSzZqR19uelVCbHBSQ3F5bnktYjNUQjU1MUtsT2ZObVFjMUpHZXVEbjc1a3Nla0tXMFk2ZGREWDNvY2JjaXF2YWVSQTd2UmZic3FKZGZMUnI0eDNiZ0p1QW1FVjZpSTlwZWlfclEtWUYtQmw0V2w2N0U5NlB3U0dWLVY4N2FidklHWEXSAVZBVV95cUxNNlVUdFNndDFiN2t2TzJDSnpZUGEwQm1RaVh0cFlsaTJpcjJ5RGhsbHdGZlNDR1UxSm1QLWhlSW9ZbjQyWEFvdk1FOHFjbldSXzFTMXZHdw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU1pqZl9ZVC1DREpyeVpVSFhGdFR2cXpoXzFyMmtiVlB4XzZSRHo5MkptQlNRbXpPNjJLWGN1Ulh2X2trekRTeEVHOGRRRS1xS1hNbFdHTTljY2pJZTlPX0RpUExWRkQzY2hzdFFLRjdjMkMzaWc5YXVkU0JZNDBIWm5aR3FLMl95cXR0TndzV29aX0lIUUpZaUNhNXNnVzJZdVBvemlmUFNaWFAwT084RWZaMmxQZVktWnRXZnZ4NkU2eEhtS2JrRGFQZFplWU9W0gHWAUFVX3lxTE9VZHdJWW42ckM2ZlNZRnc2ZDVMaXZ2cWE1RWJxeEdlbWpxQmN2cHpWWm12T2dlakhUSF80UXBJNVVQYm9FU0tESmNjaklnd2JIdUJBOWhad3I1VWI1Mkc3and6YjNCNEppTzk2RUpyRXY4NnJkY2Q2dnYwU1JJZV9RR2h5YXJpMFVHc1l3UTZqSldxd1VzczBGRE5QeExXeUFEa1d4cnV5RVR1alNRS1JPVnppblA2ZENQc0NIQXgtOTdaamZFRS1XRWtON0FDWndFM3BkeVE?oc=5"
    }
   ],
   "impacts": [
@@ -36955,6 +36709,25 @@
      "ru": "ExxonMobil – крупная энергетическая компания"
     },
     "price_at_alert": 158.08
+   },
+   {
+    "ticker": "CVX",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "היצע נפט גבוה יותר פוגע ברווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "היצע נפט גבוה יותר פוגע ברווחי חברות האנרגיה",
+     "en": "Higher potential oil supply weighs on major energy producers",
+     "ar": "معروض النفط الأعلى المحتمل يضغط على منتجي الطاقة الكبار",
+     "ru": "Возросшее предложение нефти давит на прибыль крупных производителей"
+    },
+    "name_i18n": {
+     "he": "שברון - חברת אנרגיה",
+     "en": "Chevron - Energy company",
+     "ar": "شيفرون - شركة طاقة",
+     "ru": "Chevron - Энергетическая компания"
+    },
+    "price_at_alert": 212.45
    }
   ],
   "id": "a9abf9351c31",
@@ -37018,9 +36791,21 @@
      "ar": "العراق يتفاوض مع أوبك لزيادة حصة إنتاجه قبل اجتماع أوبك+، بينما يضغط البيت الأبيض للنظر في مغادرة أوبك لكبح أسعار النفط.",
      "ru": "Ирак ведет переговоры с ОПЕК о повышении квот перед встречей ОПЕК+, в то время как Белый дом оказывает давление с целью снижения цен на нефть."
     }
+   },
+   {
+    "ts": 1795816491,
+    "time": "2026-11-27T21:54Z",
+    "severity": 6,
+    "summary": "ארה\"ב הפעילה לחץ על ונצואלה ועיראק לשקול פרישה מאופ\"ק, בעוד עיראק דורשת מכסת תפוקת נפט גבוהה יותר לקראת פגישת הקרטל הקרובה.",
+    "i18n": {
+     "he": "ארה\"ב הפעילה לחץ על ונצואלה ועיראק לשקול פרישה מאופ\"ק, בעוד עיראק דורשת מכסת תפוקת נפט גבוהה יותר לקראת פגישת הקרטל הקרובה.",
+     "en": "The US pushed Venezuela and Iraq to consider leaving OPEC, while Iraq seeks a higher oil production limit ahead of the upcoming OPEC meeting.",
+     "ar": "ضغطت الولايات المتحدة على فنزويلا والعراق للنظر في الانسحاب من أوبك، بينما يسعى العراق إلى رفع حد إنتاج النفط قبيل اجتماع الكارتل.",
+     "ru": "США оказали давление на Венесуэлу и Ирак с целью рассмотреть выход из ОПЕК, в то время как Ирак добивается более высокого лимита добычи нефти перед встречей картеля."
+    }
    }
   ],
-  "last_update": 1795799056
+  "last_update": 1795816491
  },
  {
   "ts": 1795762148,
@@ -40097,7 +39882,32 @@
   "category": "geopolitics",
   "severity": 7,
   "confidence": "high",
-  "sources": [],
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQzNzaGRZUGVvbzF0ZWtReFBXYjV5aFVoZndBbnBJZmU5VmNxT0JBTG9ubURUdVMyMTVacE4xWjNYSVZna3J4ODdGNGQzbnRINlNRd2NGWHNTZlBKTjRENVBtUjMtekxJQTdLaEhtaWlpenRqQmZLdjhRY200UTYybWFkNUZBdHBnQ290VUdLVXdFNFRiVEZSNy1qQXVXN3d0YjVSRTV3elU0SGNINWZLOTFBRkxxREtqOHNwS283YW91RGkydzhGUXVPOEFQOFlLYXBCVHo1c0dWZ9IB3wFBVV95cUxOb3dER0o5OHBNTjRSYWdUZ2w2S0YyQ2tPN2N4akliM2FLVnlBalRpcms5dDRSU2FoS19KVlBrOVNxM1RGemx1ZzJveXgwY2IydVJRaERrdGNuRHE5VXdkWVN2VlI3YzRHcWYySU9ZZGtJal9PRlRELVlVS3NkTDhVbnFwT3VtOXZfQUt4aVpXWWFiSlpaQWxkdlNVQzNMMjZqbElCVjBsYlNZUElIcUFQRGtFTWRtWlFVaFpRN1M3NVllU0IzZDA4clNsVkZUY3owUUpTMzJFbWZ5aHZDRlBn?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTUROclhBQVh1YXVldnh3eEVaSGRfNjZETTJEUmczdFBQaExrN3R6d2JOZTRrRmtPMzNHMDRNMmpDLUMxTEFuZW1qbGo4VEpaOEZsRTdpYmZZU183M09BRE9CbkQ5eEtDTmRzSDlWZWlRRkhRSzJiMGpSTjVoS0E3dlBxdTlOdlFpNHJaaWNaNmUtS09wVFIzOHp6QlN5QQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wYXZuS0pXcUNaeHJQaGg2T0VfYTZSTmlEOGxXNDAyRGRURWNsV3lOa0x6cE1YTGk4LWl1SGRNbGtUcUFraDVqT0tFTmtqSFVRVFVyQ0toMG03TnJzdDBsTmR6UkQydzBWMXdFNDlWOVZhb0ZkV2tDMw?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xNG8zY2lfcDJ0TU9zOWJaN1A5TEw2NkNkdjdpTGhuUjJBWGtJdlVCekdOMWZncEFQeWgweXdOclluTjlLbHU0ZVh6UUR5Z2JfZFZxZEZWeUlQMGtiUzl5Nm1KOUdQQmZBSFg5cEo1dElIYzhmRGExY1N3?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWUJ6WTBiQm1fVFVTendCUUJqdUNES3lpajFsQ0ZNTGlGaDcyb0pnVlFYQXpnNjZ6OGNCSUJTZFlkNzJNa2ZVS0Y5R010SVc0YzEwcGQyVGFjZjllR2V4eHJ6ZWRIb2E5Zk4tUW82aTFIbFRGNmFLeUpJVkl6UlBfZTRxUFZCUDE0a1RpazQ3dGJlaG1vdXZaYzlGYnJoTmZTaWhueGpkaTJkSnBPWVB0djdzd3oyTnE3ZDlUUUpYajRGRmpi?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vSUZEZFVhN1FFcEFUN0FUeUtpb3dBXzZ2eTlaSlI4OV8zWUVsZzhLWlE3SkNDZkstUko5TFFMM3AwQV9heGczMWVUOGFCcWl4T2RyUVJKbnJVeEZuS1RZTmVOR3M?oc=5"
+   }
+  ],
   "impacts": [
    {
     "ticker": "USO",
@@ -40136,9 +39946,43 @@
      "ru": "Энергетический сектор"
     },
     "price_at_alert": 61.67
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795816491,
+    "reason": "עליית מחירי הנפט תומכת بمניות האנרגיה",
+    "reason_i18n": {
+     "he": "עליית מחירי הנפט תומכת بمניות האנרגיה",
+     "en": "Higher oil prices boost energy sector stocks",
+     "ar": "أسعار النفط الأعلى تعزز أسهم قطاع الطاقة",
+     "ru": "Более высокие цены на нефть поддерживают акции энергетического сектора"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה",
+     "en": "ExxonMobil - Energy company",
+     "ar": "إكسون موبيل - شركة طاقة",
+     "ru": "ExxonMobil - Энергетическая компания"
+    },
+    "price_at_alert": 160.18
    }
   ],
-  "id": "b81de3af7c43"
+  "id": "b81de3af7c43",
+  "updates": [
+   {
+    "ts": 1795816491,
+    "time": "2026-11-27T21:54Z",
+    "severity": 7,
+    "summary": "הצבא האמריקאי השבית אוניה נוספת שניסתה לפרוץ את המצור הימי על איראן, בעוד איראן מתעמתת עם המצור ומנסה לאתגר אותו במפרץ.",
+    "i18n": {
+     "he": "הצבא האמריקאי השבית אוניה נוספת שניסתה לפרוץ את המצור הימי על איראן, בעוד איראן מתעמתת עם המצור ומנסה לאתגר אותו במפרץ.",
+     "en": "The US military disabled another commercial ship attempting to breach the naval blockade on Iran, as tensions and strikes continue in the Gulf.",
+     "ar": "عطل الجيش الأمريكي سفينة تجارية أخرى حاولت كسر الحصار البحري المفروض على إيران، وسط استمرار التوترات والضربات في الخليج.",
+     "ru": "Военные США вывели из строя еще одно коммерческое судно, пытавшееся прорвать военно-морскую блокаду Ирана, на фоне продолжающейся напряженности в Персидском заливе."
+    }
+   }
+  ],
+  "last_update": 1795816491
  },
  {
   "ts": 1795812900,
@@ -40283,5 +40127,337 @@
    }
   ],
   "id": "3adaee6deeab"
+ },
+ {
+  "ts": 1795816491,
+  "time": "2026-11-27T21:54Z",
+  "title": "הציפיות להעלאת ריבית בארה\"ב מתחזקות על רקע אינפלציה של 3.8%",
+  "summary": "הציפיות להעלאת ריבית מצד הפדרל ריזרב מתחזקות לאחר שהאינפלציה הגיעה ל-3.8%, מה שגרם לירידות בשוקי המניות, במיוחד בסקטור הטכנולוגיה.",
+  "kid": "האינפלציה בארה\"ב עלתה ל-3.8%, ולכן אנשים חושבים שהבנק המרכזי יעלה את הריבית. זה גורם למניות הטכנולוגיה לרדת כי הכסף נהיה יקר יותר.",
+  "i18n": {
+   "title": {
+    "he": "הציפיות להעלאת ריבית בארה\"ב מתחזקות על רקע אינפלציה של 3.8%",
+    "en": "Fed Rate Hike Bets Harden as Inflation Hits 3.8% and Tech Stocks Slide",
+    "ar": "توقعات رفع الفائدة الأمريكية تزداد صلابة مع بلوغ التضخم 3.8%",
+    "ru": "Ожидания повышения ставки ФРС укрепляются на фоне инфляции в 3,8%"
+   },
+   "summary": {
+    "he": "הציפיות להעלאת ריבית מצד הפדרל ריזרב מתחזקות לאחר שהאינפלציה הגיעה ל-3.8%, מה שגרם לירידות בשוקי המניות, במיוחד בסקטור הטכנולוגיה.",
+    "en": "Bets on a Federal Reserve rate hike hardened as inflation hit 3.8%, putting downward pressure on technology stocks.",
+    "ar": "تزايدت الرهانات على رفع الفائدة من قبل الاحتياطي الفيدرالي بعد بلوغ التضخم 3.8%، مما ضغط على أسهم التكنولوجيا.",
+    "ru": "Ставки на повышение ставки ФРС укрепились после достижения инфляцией уровня 3,8%, что оказало давление на акции технологических компаний."
+   },
+   "kid": {
+    "he": "האינפלציה בארה\"ב עלתה ל-3.8%, ולכן אנשים חושבים שהבנק המרכזי יעלה את הריבית. זה גורם למניות הטכנולוגיה לרדת כי הכסף נהיה יקר יותר.",
+    "en": "Inflation in the US rose to 3.8%, making people think the central bank will raise interest rates. This can cause tech stocks to drop because borrowing money gets costlier.",
+    "ar": "ارتفع التضخم في الولايات المتحدة إلى 3.8%، مما جعل الناس يعتقدون أن البنك المركزي سيصعد أسعار الفائدة. وهذا يجعل أسهم التكنولوجيا تنخفض.",
+    "ru": "Инфляция в США выросла до 3,8%, заставляя думать, что центробанк поднимет ставки. Это заставляет акции технологий падать, так как деньги дорожают."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcTczemZXcDNhTWVsdy0wbi1BRklzWU80ekFDZDdsOWVySkNkTEk2T1pVVjhaU2ZUVlBlbWQ2TXJKVDZ3aXFPVnZNQUQ2ZWxRWHRNTjc0N252cFNpWE5HLUx4TC1ULUJsU3V4RlVjckFoeDVTUW1vZ1FrT0ZTZGxoUzZTeTZtMXdJWEpDZjRJVW1YZHBja0tPSV85QllNY1NPNUpCcmZIOA?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "ציפיות לריבית גבוהה פוגעות במניות טכנולוגיה",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה פוגעות במניות טכנולוגיה",
+     "en": "Higher rate expectations weigh on tech valuations",
+     "ar": "توقعات أسعار الفائدة المرتفعة تضغط على تقييمات التكنولوجيا",
+     "ru": "Ожидания высоких ставок давят на технологические оценки"
+    },
+    "name_i18n": {
+     "he": "QQQ - קרן סל על מניות נאסד\"ק",
+     "en": "QQQ - Nasdaq 100 ETF",
+     "ar": "QQQ - صندوق مؤشر ناسداك",
+     "ru": "QQQ - Фонд акций Nasdaq"
+    },
+    "price_at_alert": 650.99
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "חשש מאינפלציה וריבית גבוהה מוריד אתחירי האג\"ח",
+    "reason_i18n": {
+     "he": "חשש מאינפלציה וריבית גבוהה מוריד אתחירי האג\"ח",
+     "en": "Inflation fears and rate hike bets push bond prices down",
+     "ar": "مخاوف التضخم ورهانات رفع الفائدة تدفع أسعار السندات للانخفاض",
+     "ru": "Опасения инфляции и ставок толкают цены облигаций вниз"
+    },
+    "name_i18n": {
+     "he": "TLT - קרן סל על אג\"ח ממשלתי ארוך",
+     "en": "TLT - Long-term Treasury ETF",
+     "ar": "TLT - صندوق سندات الخزانة طويلة الأجل",
+     "ru": "TLT - Фонд длинных гособлигаций США"
+    },
+    "price_at_alert": 81.27
+   }
+  ],
+  "id": "1447199ad072"
+ },
+ {
+  "ts": 1795816491,
+  "time": "2026-11-27T21:54Z",
+  "title": "סין שולחת מטוסי קרב לקראת סיום מערכת הבחירות בטאיוואן",
+  "summary": "סין שלחה מטוסי קרב לאזור טאיוואן במקביל לסיום עצרות הבחירות הסוערות באי.",
+  "kid": "סין שלחה מטוסי קרב ליד טאיוואן בזמן בחירות. זה יוצר מתח פוליטי שיכול להשפיע על חברות שבבים כמו טסמ\"ק.",
+  "i18n": {
+   "title": {
+    "he": "סין שולחת מטוסי קרב לקראת סיום מערכת הבחירות בטאיוואן",
+    "en": "China Sends Warplanes as Taiwan Election Campaign Closes",
+    "ar": "الصين ترسل طائرات حربية مع ختام الحملة الانتخابية في تايوان",
+    "ru": "Китай направляет военные самолеты в преддверии окончания выборов на Тайване"
+   },
+   "summary": {
+    "he": "סין שלחה מטוסי קרב לאזור טאיוואן במקביל לסיום עצרות הבחירות הסוערות באי.",
+    "en": "China deployed warplanes near Taiwan as political parties held final packed rallies to close the island's election campaign.",
+    "ar": "نشرت الصين طائرات حربية بالقرب من تايوان بالتزامن مع اختتام الحملات الانتخابية الحماسية على الجزيرة.",
+    "ru": "Китай развернул боевые самолеты вблизи Тайваня на фоне завершения напряженной избирательной кампании на острове."
+   },
+   "kid": {
+    "he": "סין שלחה מטוסי קרב ליד טאיוואן בזמן בחירות. זה יוצר מתח פוליטי שיכול להשפיע על חברות שבבים כמו טסמ\"ק.",
+    "en": "China sent warplanes near Taiwan during elections. This creates political tension that can impact major chipmakers like TSMC.",
+    "ar": "أرسلت الصين طائرات حربية بالقرب من تايوان أثناء الانتخابات. هذا يخلق توتراً سياسياً قد يؤثر على شركات الرقائق مثل TSMC.",
+    "ru": "Китай отправил военные самолеты к Тайваню во время выборов. Это создает напряженность, способную затронуть чипмейкеров вроде TSMC."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNlB4bzlGbkRCRUVydGxsT05xSVBldk5MUjdaX3ZwUk5Welh5WjF4UHVyM2k1MDh1WU1nblV3a0tzY2s1Rkw0Q0M5eS0xcjZCWnBNVm90dE80cmhtRXBEMHZQSkFuNjhGUUJ4S3NOdjk0OXNWV2g3eDAtQVJuRG9Oc3lDNkliRU5CYXpyaTQ5dDNaUE5oSGZGRjdQLS0wT1RHVncyTC1vWWttbHc3ckF2U1dQRm9rRWRzLWlv?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "TSM",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "עליית מתח גיאו-פוליטי מול סין מכבידה על חברות בטאיוואן",
+    "reason_i18n": {
+     "he": "עליית מתח גיאו-פוליטי מול סין מכבידה על חברות בטאיוואן",
+     "en": "Geopolitical tensions with China weigh on Taiwan-based assets",
+     "ar": "التوترات الجيوسياسية مع الصين تضغط على الأصول في تايوان",
+     "ru": "Геополитическая напряженность с Китаем давит на активы на Тайване"
+    },
+    "name_i18n": {
+     "he": "TSMC - יצרנית שבבים טאיוואנית",
+     "en": "TSMC - Taiwan Semiconductor",
+     "ar": "TSMC - شركة أشباه الموصلات التايوانية",
+     "ru": "TSMC - Тайваньский производитель чипов"
+    },
+    "price_at_alert": 353.34
+   },
+   {
+    "ticker": "EWT",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "חשש ביטחוני סביב טאיוואן משפיע על השוק המקומי",
+    "reason_i18n": {
+     "he": "חשש ביטחוני סביב טאיוואן משפיע על השוק המקומי",
+     "en": "Security concerns surrounding Taiwan pressure local equities",
+     "ar": "مخاوف أمنية حول تايوان تضغط على الأسهم المحلية",
+     "ru": "Вопросы безопасности вокруг Тайваня давят на местный рынок"
+    },
+    "name_i18n": {
+     "he": "EWT - קרן סל על מניות טאיוואן",
+     "en": "EWT - Taiwan ETF",
+     "ar": "EWT - صندوق مؤشر تايوان",
+     "ru": "EWT - Фонд акций Тайваня"
+    },
+    "price_at_alert": 86.69
+   }
+  ],
+  "id": "e34c1d335eb7"
+ },
+ {
+  "ts": 1795816491,
+  "time": "2026-11-27T21:54Z",
+  "title": "התעריפים החדשים של ארה\"ב עלולים לייקר קונסולות משחקים כמו PS5 ו-Xbox",
+  "summary": "הטלת מכסים חדשים בארה\"ב צפויה להעלות את המחירים של קונסולות משחקים פופולריות כמו פלייסטיישן 5, אקס-בוקס ונינטנדו סוויץ' 2.",
+  "kid": "מכסים חדשים שארה\"ב מטילה על מוצרים מיובאים עלולים לייקר את קונסולות המשחקים לצרכנים.",
+  "i18n": {
+   "title": {
+    "he": "התעריפים החדשים של ארה\"ב עלולים לייקר קונסולות משחקים כמו PS5 ו-Xbox",
+    "en": "New US Tariffs Could Raise Console Prices for PS5, Xbox, and Nintendo Switch 2",
+    "ar": "الرسوم الجمركية الأمريكية الجديدة قد ترفع أسعار أجهزة الألعاب مثل PS5 و Xbox",
+    "ru": "Новые пошлины США могут поднять цены на консоли PS5, Xbox и Nintendo Switch 2"
+   },
+   "summary": {
+    "he": "הטלת מכסים חדשים בארה\"ב צפויה להעלות את המחירים של קונסולות משחקים פופולריות כמו פלייסטיישן 5, אקס-בוקס ונינטנדו סוויץ' 2.",
+    "en": "The imposition of new US tariffs could raise consumer prices for popular gaming consoles including the PlayStation 5, Xbox, and Nintendo Switch 2.",
+    "ar": "قد تؤدي الرسوم الجمركية الأمريكية الجديدة إلى رفع أسعار المستهلك لأجهزة الألعاب الشهيرة مثل بلايستيشن 5 وإكس بوكس.",
+    "ru": "Введение новых пошлин США может поднять потребительские цены на популярные игровые консоли, включая PS5 и Xbox."
+   },
+   "kid": {
+    "he": "מכסים חדשים שארה\"ב מטילה על מוצרים מיובאים עלולים לייקר את קונסולות המשחקים לצרכנים.",
+    "en": "New taxes on imported goods in the US could make popular video game consoles more expensive to buy.",
+    "ar": "الضرائب الجديدة على السلع المستوردة في الولايات المتحدة قد تجعل أجهزة ألعاب الفيديو أكثر تكلفة للشراء.",
+    "ru": "Новые налоги на импортные товары в США могут сделать популярные игровые консоли дороже для покупателей."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kdC1CaWVFbk1fTURBdjdRdll2VW9xekZwWHFvZDYwTkFHQ012SHFUVjRINnJSY3VQUFVEUG9MTXRjVkRlZU9mZEphV2xmbGpmbHh2TkotTWZRcl9KNU5TYTNTdzJWckxmYXA5SlZ3?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLY",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "התייקרות מוצרי צריכה פוגעת בסקטור",
+    "reason_i18n": {
+     "he": "התייקרות מוצרי צריכה פוגעת בסקטור",
+     "en": "Higher costs for consumer electronics can hurt retail demand",
+     "ar": "التكاليف الأعلى للإلكترونيات الاستهلاكية قد تضر بالطلب",
+     "ru": "Рост издержек на электронику может навредить спросу"
+    },
+    "name_i18n": {
+     "he": "XLY - קרן סל צרכנות מחזורית",
+     "en": "XLY - Consumer Discretionary ETF",
+     "ar": "XLY - صندوق قطاع الاستهلاك الكمالي",
+     "ru": "XLY - Фонд циклических потребительских товаров"
+    },
+    "price_at_alert": 119.97
+   }
+  ],
+  "id": "c2c5d2f299c7"
+ },
+ {
+  "ts": 1795816491,
+  "time": "2026-11-27T21:54Z",
+  "title": "אוקראינה הציעה הפסקת אש בים השחור כדי להגן על יצוא הדגנים",
+  "summary": "קייב הגישה הצעה להפסקת אש בים השחור במטרה להבטיח את נתיבי יצוא הדגנים שלה, וממתינה לתגובת רוסיה.",
+  "kid": "אוקראינה מציעה להפסיק את הלחימה בים השחור כדי שיוכלו לשלוח דגנים לכל העולם. זה יכול להשפיע על מחירי האוכל והחיטה.",
+  "i18n": {
+   "title": {
+    "he": "אוקראינה הציעה הפסקת אש בים השחור כדי להגן על יצוא הדגנים",
+    "en": "Ukraine Submits Black Sea Ceasefire Offer to Protect Grain Exports",
+    "ar": "أوكرانيا تقدم عرض وقف إطلاق نار في البحر الأسود لحماية صادرات الحبوب",
+    "ru": "Украина представила предложение о прекращении огня в Черном море для защиты экспорта зерна"
+   },
+   "summary": {
+    "he": "קייב הגישה הצעה להפסקת אש בים השחור במטרה להבטיח את נתיבי יצוא הדגנים שלה, וממתינה לתגובת רוסיה.",
+    "en": "Kyiv submitted a Black Sea ceasefire offer to protect its vital grain export routes from attacks, awaiting a response from Moscow.",
+    "ar": "قدمت كييف عرضاً لوقف إطلاق النار في البحر الأسود لحماية طرق تصدير الحبوب الحيوية، بانتظار رد موسكو.",
+    "ru": "Киев направил предложение о прекращении огня в Черном море для защиты ключевых маршрутов экспорта зерна, ожидая ответа Москвы."
+   },
+   "kid": {
+    "he": "אוקראינה מציעה להפסיק את הלחימה בים השחור כדי שיוכלו לשלוח דגנים לכל העולם. זה יכול להשפיע על מחירי האוכל והחיטה.",
+    "en": "Ukraine is offering a ceasefire in the black sea so ships can safely carry grain everywhere. This could help lower food and wheat prices.",
+    "ar": "تقترح أوكرانيا وقف إطلاق النار في البحر الأسود لكي تتمكن السفن من نقل الحبوب بأمان. هذا قد يساعد في خفض أسعار المواد الغذائية.",
+    "ru": "Украина предлагает перемирие в Черном море, чтобы суда могли безопасно возить зерно. Это может помочь снизить цены на пшеницу и продовольствие."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWW9taURHbFpkMjd6YkFzNEliSVpaOW5zal9CUEY1R0kyS3NWVU9HbkIzRkNhcWtoOWgxUi02WWdWN1dpQTU5UVVpc3dGa04yVVBQbk1NQVMzSFBLVmxvUllTNTVwVEdwR1FtdGI3Nnppb0lvNjNRMUZwYl9EaXI1akI0VE5SRGcxVkxzVzNZbFM2S0RCc2JOdi05R2s1dlg4eVZIdDBB0gGrAUFVX3lxTFB6OWM4c1NpYjVhZUp2MVV1eUppS1lVLW1lNjIwaktRN1lWUDlGOG5meWIySTByVVhUQ2tnSGh4d05pVXN0SWxnSFlFc0lzVzhmQzlWaFRZTW5ELU0yWUpNYTIwVV8tQmhqODBCVzhQMjBseHVydHcydEJya3lJREtMbFd2aW0zMmlndy1oV2M2RHZPbzh2V3FQcV8tNE5xMmx1S3Jfb1NXNXdHVQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQXNRZXdNdVkybkZ1TXRQSlFzaXNXT2xNM252Xzg4TWpfUmVYUi1DVjhuREFHT1ZKbVdWNjc1U2pTUWJtZmRFeWtKa2Y1cFBXR1VZRGg4dHZ2NkxPSE80YTl1VG1rdnkyYW1OUFFDRUhzUGJnQzcxOEkxSlUxU0hXb19ZTjQxYmV6eUFCWUZZc24xMkJubE9BNFAxZlVuTXZTRG5OUGdlQTVmWVEyOEE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "down",
+    "t0": 1795816491,
+    "reason": "הפסקת אש בים השחור תקל על יצוא החיטה ותוריד מחירים",
+    "reason_i18n": {
+     "he": "הפסקת אש בים השחור תקל על יצוא החיטה ותוריד מחירים",
+     "en": "Black Sea export security can ease wheat supply bottlenecks and lower prices",
+     "ar": "أمن تصدير البحر الأسود يمكن أن يخفف اختناقات إمدادات القمح ويخفض الأسعار",
+     "ru": "Безопасность экспорта через Черное море может снизить цены на пшеницу"
+    },
+    "name_i18n": {
+     "he": "WEAT - קרן סל על חיטה",
+     "en": "WEAT - Wheat Fund",
+     "ar": "WEAT - صندوق القمح",
+     "ru": "WEAT - Фонд пшеницы"
+    },
+    "price_at_alert": 21.49
+   }
+  ],
+  "id": "f401c9b56e77"
+ },
+ {
+  "ts": 1795816491,
+  "time": "2026-11-27T21:54Z",
+  "title": "טראמפ חתם על הצהרת חירום בפלורידה ומקצה 100 מיליון דולר לשיטפונות",
+  "summary": "הנשיא טראמפ חתם על הצהרת אסון מרכזית לפלורידה, המאפשרת גישה ל-100 מיליון דולר במימון פדרלי לשיקום מנזקי שיטפונות.",
+  "kid": "ארה\"ב אישרה כספי עזרה לפלורידה כדי לתקן נזקי שיטפונות. זה עשוי לעזור לחברות ביטוח ובנייה מקומיות.",
+  "i18n": {
+   "title": {
+    "he": "טראמפ חתם על הצהרת חירום בפלורידה ומקצה 100 מיליון דולר לשיטפונות",
+    "en": "Trump Signs Major Florida Disaster Declaration, Unlocking $100M in Aid",
+    "ar": "ترامب يوقع إعلان طوارئ رئيسي في فلوريدا ويفرج عن 100 مليون دولار للإغاثة",
+    "ru": "Трамп подписал декларацию о бедствии во Флориде, выделив $100 млн на помощь"
+   },
+   "summary": {
+    "he": "הנשיא טראמפ חתם על הצהרת אסון מרכזית לפלורידה, המאפשרת גישה ל-100 מיליון דולר במימון פדרלי לשיקום מנזקי שיטפונות.",
+    "en": "President Trump signed a major disaster declaration for Florida at Mar-a-Lago, unlocking $100 million in federal flood relief funds.",
+    "ar": "وقع الرئيس ترامب إعلان كارثة رئيسي لفلوريدا، مما يتيح الوصول إلى 100 مليون دولار من أموال الإغاثة الفيدرالية للفيضانات.",
+    "ru": "Президент Трамп подписал крупную декларацию о бедствии для Флориды, разблокировав $100 млн федеральной помощи при наводнениях."
+   },
+   "kid": {
+    "he": "ארה\"ב אישרה כספי עזרה לפלורידה כדי לתקן נזקי שיטפונות. זה עשוי לעזור לחברות ביטוח ובנייה מקומיות.",
+    "en": "The US approved disaster aid for Florida to fix flood damage. This can help local insurance and construction firms.",
+    "ar": "وافقت الولايات المتحدة على مساعدات طارئة لفلوريدا لإصلاح أضرار الفيضانات. هذا قد يساعد شركات التأمين والبناء المحلية.",
+    "ru": "США одобрили помощь Флориде для устранения последствий наводнений. Это может помочь местным страховым и строительным компаниям."
+   }
+  },
+  "category": "climate",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: climate & disasters",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYl91RXUtazd0cFdOWTZRLUE4X3J2Y0VNby1qOXJhU3B3ellkR0tCUDN6YXRka3Z5alVSZUlrdzMzMGdacWVFTUNRTW1iZ0VabXlTMFBjcWFZQ21MYkhEb29ockoyWnJxckVncG1GNnlueDlPcmswNDB3UEdiNFNIc0pZN2tCdU52d0doN2xKUGJMMTE0ajAzbzVFczNxbzNhY2tPeUFMSWZ6VGRyTTFwRmlwUkFRVTZ1eHhkWQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ALL",
+    "direction": "up",
+    "t0": 1795816491,
+    "reason": "סיוע ממשלתי מקל על נטל תביעות הביטוח באסונות",
+    "reason_i18n": {
+     "he": "סיוע ממשלתי מקל על נטל תביעות הביטוח באסונות",
+     "en": "Federal disaster relief helps offset severe weather claim costs",
+     "ar": "مساعدات الكوارث الفيدرالية تساعد في تعويض تكاليف مطالبات الطقس",
+     "ru": "Федеральная помощь помогает компенсировать убытки от непогоды"
+    },
+    "name_i18n": {
+     "he": "אולסטייט - חברת ביטוח",
+     "en": "Allstate - Insurance company",
+     "ar": "أولستيت - شركة تأمين",
+     "ru": "Allstate - Страховая компания"
+    },
+    "price_at_alert": 272.51
+   }
+  ],
+  "id": "ed079ea92d17"
  }
 ]
