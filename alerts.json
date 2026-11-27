@@ -427,125 +427,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795149077,
-  "time": "2026-11-20T04:31Z",
-  "title": "הסנאט בארה\"ב אישר הצעת חוק לרפורמה בהיתרים הנתמכת על ידי מגזרי האנרגיה והבינה המלאכותית",
-  "summary": "הסנאט האמריקאי העביר חוק רפורמה בהיתרים המקודם על ידי תעשיות האנרגיה והבינה המלאכותית, בדרך לאישור סופי בקונגרס.",
-  "kid": "הסנאט בארה\"ב אישר חוק שמקל על בניית פרויקטי אנרגיה ותשתיות בינה מלאכותית. זה יכול לעזור למניות של חברות אנרגיה וטכנולוגיה (XLE, XLK) כי יהיה קל יותר להקים מתקנים חדשים ומרכזי נתונים.",
-  "i18n": {
-   "title": {
-    "he": "הסנאט בארה\"ב אישר הצעת חוק לרפורמה בהיתרים הנתמכת על ידי מגזרי האנרגיה והבינה המלאכותית",
-    "en": "US Senate Passes Permitting Reform Bill Backed by AI and Energy Sectors",
-    "ar": "مجلس الشيوخ الأمريكي يقر مشروع قانون إصدار التصاريح المدعوم من قطاعي الطاقة والذكاء الاصطناعي",
-    "ru": "Сенат США принял законопроект о реформе разрешений при поддержке секторов ИИ и энергетики"
-   },
-   "summary": {
-    "he": "הסנאט האמריקאי העביר חוק רפורמה בהיתרים המקודם על ידי תעשיות האנרגיה והבינה המלאכותית, בדרך לאישור סופי בקונגרס.",
-    "en": "The US Senate passed a permitting reform bill supported by the AI and energy sectors, a key step toward becoming law pending House approval.",
-    "ar": "أقر مجلس الشيوخ الأمريكي مشروع قانون لإصلاح التصاريح تدعمه قطاعات الطاقة والذكاء الاصطناعي، في خطوة رئيسية نحو أن يصبح قانوناً بعد موافقة النواب.",
-    "ru": "Сенат США принял законопроект о реформе выдачи разрешений при поддержке секторов ИИ и энергетики, что является ключевым шагом на пути к принятию закона после одобрения Палатой представителей."
-   },
-   "kid": {
-    "he": "הסנאט בארה\"ב אישר חוק שמקל על בניית פרויקטי אנרגיה ותשתיות בינה מלאכותית. זה יכול לעזור למניות של חברות אנרגיה וטכנולוגיה (XLE, XLK) כי יהיה קל יותר להקים מתקנים חדשים ומרכזי נתונים.",
-    "en": "The US Senate passed a bill making it easier to build energy projects and AI infrastructure. This can benefit energy and tech stocks (XLE, XLK) by smoothing the approval process for new facilities and data centers.",
-    "ar": "أقر مجلس الشيوخ الأمريكي مشروع قانون يسهل بناء مشاريع الطاقة وبنية التفوق الاصطناعي التحتية. هذا يمكن أن يفيد أسهم الطاقة والتكنولوجيا (XLE, XLK) لأنه يسهل الموافقة على المرافق الجديدة ومراكز البيانات.",
-    "ru": "Сенат США принял законопроект, облегчающий строительство энергетических проектов и инфраструктуры ИИ. Это может принести пользу энергетическим и технологическим акциям (XLE, XLK), так как упростит процесс утверждения новых объектов и дата-центров."
-   }
-  },
-  "category": "policy",
-  "severity": 6,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/20/us-senate-passes-bill-to-speed-up-energy-project-approvals?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLE",
-    "direction": "up",
-    "t0": 1795149077,
-    "reason": "הקלות ברגולציה ובהיתרים מאיצות פרויקטי אנרגיה חדשים.",
-    "reason_i18n": {
-     "he": "הקלות ברגולציה ובהיתרים מאיצות פרויקטי אנרגיה חדשים.",
-     "en": "Regulatory and permitting relief accelerates new energy projects.",
-     "ar": "تخفيف القيود التنظيمية والتصاريح يسرع مشاريع الطاقة الجديدة.",
-     "ru": "Ослабление регуляторных барьеров ускоряет новые энергетические проекты."
-    },
-    "name_i18n": {
-     "he": "תעודת סל מגזר האנרגיה",
-     "en": "Energy Sector ETF",
-     "ar": "صندوق قطاع الطاقة",
-     "ru": "ETF энергетического сектора"
-    },
-    "price_at_alert": 60.89,
-    "entry_price": 60.71,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 59.85,
-    "exit_date": "2026-11-23",
-    "change_pct": -1.42,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -2.65,
-    "edge_pct": -2.65,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "XLK",
-    "direction": "up",
-    "t0": 1795149077,
-    "reason": "הקלה ברישוי תשתיות אנרגיה ודאטה-צנטרז מסייעת להרחבת פעילות הבינה המלאכותית.",
-    "reason_i18n": {
-     "he": "הקלה ברישוי תשתיות אנרגיה ודאטה-צנטרז מסייעת להרחבת פעילות הבינה המלאכותית.",
-     "en": "Easier licensing for energy infrastructure and data centers aids AI expansion.",
-     "ar": "يسهم تسهيل ترخيص البنية التحتية للطاقة ومراكز البيانات في توسيع نشاط الذكاء الاصطناعي.",
-     "ru": "Упрощение лицензирования энергетической инфраструктуры и дата-центров способствует расширению ИИ."
-    },
-    "name_i18n": {
-     "he": "תעודת סל מגזר הטכנולוגיה",
-     "en": "Technology Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 160.69,
-    "entry_price": 158.71,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 162.44,
-    "exit_date": "2026-11-23",
-    "change_pct": 2.35,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": 1.11,
-    "edge_pct": 1.11,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "f113d0b339b1",
-  "updates": [
-   {
-    "ts": 1795192080,
-    "time": "2026-11-20T16:28Z",
-    "severity": 6,
-    "summary": "הסנאט האמריקאי העביר חקיקה שמטרתה לקצר את הליכי האישור לפרויקטי אנרגיה ולהגביל אתגרים משפטיים.",
-    "i18n": {
-     "he": "הסנאט האמריקאי העביר חקיקה שמטרתה לקצר את הליכי האישור לפרויקטי אנרגיה ולהגביל אתגרים משפטיים.",
-     "en": "The US Senate passed legislation aimed at speeding up energy project approvals and limiting court challenges to lower energy costs.",
-     "ar": "أقر مجلس الشيوخ الأمريكي تشريعاً يهدف إلى تسريع إجراءات الموافقة على مشاريع الطاقة والحد من التحديات القانونية لخفض تكاليف الطاقة.",
-     "ru": "Сенат США принял закон, направленный на ускорение утверждения энергетических проектов и ограничение судебных исков для снижения затрат на энергию."
-    }
-   }
-  ],
-  "last_update": 1795192080,
-  "evaluated": true
- },
- {
   "ts": 1795152920,
   "time": "2026-11-20T05:35Z",
   "title": "חברת וואווי משיקה מותג טלפונים חדש כדי לעקוף סנקציות אמריקאיות",
@@ -1667,153 +1548,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795179882,
-  "time": "2026-11-20T13:04Z",
-  "title": "סדרת רעידות אדמה באזור לוס אנג'לס",
-  "summary": "רעידות אדמה בעוצמות שבין 3.9 ל-4.4 הורגשו באזור לוס אנג'לס וקליפורניה. לא דווח על נזק משמעותי, אך האירוע מעורר דאגה בקרב תושבים וחברות ביטוח.",
-  "kid": "היו כמה רעידות אדמה קטנות בקליפורניה. זה יכול להשפיע על חברות ביטוח שצריכות לשלם על תיקונים אם יהיה נזק גדול יותר.",
-  "i18n": {
-   "title": {
-    "he": "סדרת רעידות אדמה באזור לוס אנג'לס",
-    "en": "Series of earthquakes in the Los Angeles area",
-    "ar": "سلسلة من الزلازل في منطقة لوس أنجلوس",
-    "ru": "Серия землетрясений в районе Лос-Анджелеса"
-   },
-   "summary": {
-    "he": "רעידות אדמה בעוצמות שבין 3.9 ל-4.4 הורגשו באזור לוס אנג'לס וקליפורניה. לא דווח על נזק משמעותי, אך האירוע מעורר דאגה בקרב תושבים וחברות ביטוח.",
-    "en": "Earthquakes ranging from 3.9 to 4.4 magnitude were felt in the Los Angeles and California area. No major damage reported, but the event raises concerns for residents and insurance companies.",
-    "ar": "تم الشعور بزلازل تتراوح قوتها بين 3.9 و 4.4 درجة في منطقة لוס أنجلوس وكاليفورنيا. لم يتم الإبلاغ عن أضرار جسيمة، لكن الحدث يثير قلق السكان وشركات التأمين.",
-    "ru": "Землетрясения магнитудой от 3.9 до 4.4 ощущались в районе Лос-Анджелеса и Калифорнии. О серьезных разрушениях не сообщается, но событие вызывает беспокойство у жителей и страховых компаний."
-   },
-   "kid": {
-    "he": "היו כמה רעידות אדמה קטנות בקליפורניה. זה יכול להשפיע על חברות ביטוח שצריכות לשלם על תיקונים אם יהיה נזק גדול יותר.",
-    "en": "There were several small earthquakes in California. This could affect insurance companies that have to pay for repairs if there is more damage.",
-    "ar": "وقعت عدة زلازل صغيرة في كاليفورنيا. هذا قد يؤثر على شركات التأمين التي يتعين عليها دفع تكاليف الإصلاحات إذا كان هناك المزيد من الأضرار.",
-    "ru": "В Калифорнии произошло несколько небольших землетрясений. Это может повлиять на страховые компании, которым придется оплачивать ремонт, если ущерб окажется значительным."
-   }
-  },
-  "category": "climate",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTldMeExuMHpSWUkzRFFOQkVibFVnWkpuMi1rRGgzRmJuaEZkREsxV3hhbFRyN05WVDRLOEJQQXFVeXJWVWRGNEJQeGZia0p6eFV1SXlkTTBlU0dhZ0haYUZseVBSOEFQRVlmTFdfSTNjcEhoLVEwUWhZWGJKSUE3MkxVSUdiczJqTnRfLTZZNDJLdWllSGt5UlliRlJ3MC1Jb1h1MkE5NldDV2p1M01tcVlxWGZuNXVVMXRZdk82Q19ZQ0RJT0tENFZ3?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSGV6d3EyQ0J5MnJPUm5WUHkybFUwOVRrdXk3UG1ZM1VJcVRTYV9reldsWDNvNzNKUUVJa04tTVlfTW5QNTVMd3pvQnlzenlPRGR6cE1JaldDUzFUTUZHcTlfdVAyZkEtd0RzUkNjU3pNVFpORnRxLW0zY3VVS2VNdFZFd05sb0VjcExmVzNjVXJpdFdVTHRpVmYwUllxWmFiYzRydUVPWU5HN1M5NTVuQg?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HWUlDclIzSnRxaWtXbjFQZnh0aURTR2MyWU5sZ0pONnF6UlU5UmlmUVFXZFJQd2ZkWnFORmd6TTJXQ2xrTWp4VkcyM181dTMwN2tsVTlPbHlKOF92SGw4WE5kc1hTTmFvWVl6NtIBbEFVX3lxTE1CTlVNZ0UyMEVhVFc3TGJoYmZ1ZnNrNWJGdWNFZmhfSEwxUDBubzJ0TUNzQ0RLbE5MYjBhaTh6LXBHYTZmUXVEVkM3RVVvcS0yUy1iZUxTRFdfcGZsRnJtMXUydkJfR2owT2ZtNg?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaHdOM2xPMkF1VW5jRllKMnFmZ1BMUkVUblZiOVplSWVnOWFGdms1QUpPUkpZZ2x6UkRoZ0cxTUdrclBHYlZocXJTeGhGbGZGTnExMGlORWU2TDhjVkd2OEVTbTZLZ29YUFNfUG5MOXJ6ci1vTExFWGJKdEFVb3QweXQwWHlaU09iTUJfMFlnSXRFdE1mRWpETG56WTlkMXJQVFpVQ1NsV280djlpbHZqY0RTNEo5OTRKZU1nckk1ck9tZnNZT1NQakNoYVdSYkhZSEtlLUh2blFDalo2aV9BejBjaVltbkhJNWdQYVRTQ0pXbkRPMmZKZDI1dmstUlXSAYQCQVVfeXFMT0pIbzczTmxJTWlYOHNoYWVsZllDZnA1UXpiSDJrTEhWc3g2aXN0X3piNUhKaGw5aTVRV0ItSEZhaDI5dzN2cDlDQmNxWFQxYi1uMjJXMkRIMEdra2FfeS1TT1JTSnlQbnBSRFA0SDhVRFY4Z3NxYjdPMV92R2pQb0x1ekx6d1RXNXlWamQyY2hVSDFBa2hZdVJmWldVUHFVTzI3MU1SS0pka3lLT3ROMjJHY01sZnJsVnhTbFBnSGpwWjRBaVo3SmFySkZ6dnIyUU54R18xSmR6XzJuZklJMTdfa05xdVA3RExicGh5RERta2E2aVVsMW1lVWJKX3J0Z1pyNXU?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVllHMnVXR3I5Q2xDYy02SGhzRnE3emZhWE5PSm51MnlMTGxJZFVqdHRqVU1uN1JVcFVEbzA2YW5yOXZuYkF5Ung1dDNDV093dWktNXZzWEc1UXlDbGhiMDhmMVlHeVRudmtiT3IycXNwbWg4TVhRcVNLcFVwVDNvQWpDb2VmN21vZ0g0OUt2SjFiZVZaU2VUMVNHS1JOdDQwVmc1ZzNLcnZuNDl1SE5ubkVsc2dBRTJKUzNVSVF1NjBxRHdwWXJhV25EZ1BJX25lYXdQNg?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoLXJYc1FXbUtjWXUxeEN6V2tfaDkwWkhYNGxOSF82bXg0a0FZYVM3Qy1FTG5XLTdVbjdGbGpHclZLaTBkeFZQdi1PSUJJak1HeDM5NjRKSnBVX21tVXhXWDNVVGdjNlVU?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ALL",
-    "direction": "down",
-    "t0": 1795179882,
-    "reason": "חשש מתביעות ביטוח עקב נזקי רעידות אדמה.",
-    "reason_i18n": {
-     "he": "חשש מתביעות ביטוח עקב נזקי רעידות אדמה.",
-     "en": "Concerns over insurance claims due to earthquake damage.",
-     "ar": "مخاوف بشأن مطالبات التأمين بسبب أضرار الزلازل.",
-     "ru": "Опасения по поводу страховых выплат из-за ущерба от землетрясений."
-    },
-    "name_i18n": {
-     "he": "אולסטייט - חברת ביטוח",
-     "en": "Allstate - Insurance company",
-     "ar": "أولستيت - شركة تأمين",
-     "ru": "Allstate - страховая компания"
-    },
-    "price_at_alert": 266.77,
-    "entry_price": 271.69,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 265.33,
-    "exit_date": "2026-11-23",
-    "change_pct": -2.34,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -3.58,
-    "edge_pct": 3.58,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "TRV",
-    "direction": "down",
-    "t0": 1795179882,
-    "reason": "חשיפה לנזקי טבע בארה\"ב.",
-    "reason_i18n": {
-     "he": "חשיפה לנזקי טבע בארה\"ב.",
-     "en": "Exposure to natural disaster risks in the US.",
-     "ar": "التعرض لمخاطر الكوارث الطبيعية في الولايات المتحدة.",
-     "ru": "Подверженность рискам стихийных бедствий в США."
-    },
-    "name_i18n": {
-     "he": "טרוולרס - חברת ביטוח",
-     "en": "Travelers - Insurance company",
-     "ar": "ترافيلرز - شركة تأمين",
-     "ru": "Travelers - страховая компания"
-    },
-    "price_at_alert": 390.61,
-    "entry_price": 396.0,
-    "entry_time": "2026-11-20T14:30+00:00",
-    "exit_price": 394.91,
-    "exit_date": "2026-11-23",
-    "change_pct": -0.28,
-    "bench": "SPY",
-    "bench_change_pct": 1.24,
-    "excess_pct": -1.51,
-    "edge_pct": 1.51,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "3b13f6fa7b89",
-  "updates": [
-   {
-    "ts": 1795184520,
-    "time": "2026-11-20T14:22Z",
-    "severity": 5,
-    "summary": "רעידות אדמה בעוצמות של 4.2 עד 5.1 פקדו את אזור לוס אנג'לס, מה שגרם לבדיקות חירום עירוניות.",
-    "i18n": {
-     "he": "רעידות אדמה בעוצמות של 4.2 עד 5.1 פקדו את אזור לוס אנג'לס, מה שגרם לבדיקות חירום עירוניות.",
-     "en": "Earthquakes ranging from 4.2 to 5.1 magnitude hit the Los Angeles area, prompting citywide emergency inspections.",
-     "ar": "ضربت زلازل تتراوح قوتها بين 4.2 و 5.1 درجة منطقة لوس أنجلوس، مما دفع السلطات لإجراء عمليات تفتيش طارئة.",
-     "ru": "Землетрясения магнитудой от 4.2 до 5.1 произошли в районе Лос-Анджелеса, что привело к экстренным проверкам в городе."
-    }
-   },
-   {
-    "ts": 1795192080,
-    "time": "2026-11-20T16:28Z",
-    "severity": 4,
-    "summary": "רעידות אדמה בעוצמות של עד 5.0 הורגשו באזור לוס אנג'לס, מה שגרם לבהלה ולדיווחים על נזקים.",
-    "i18n": {
-     "he": "רעידות אדמה בעוצמות של עד 5.0 הורגשו באזור לוס אנג'לס, מה שגרם לבהלה ולדיווחים על נזקים.",
-     "en": "Earthquakes up to magnitude 5.0 rattled the Los Angeles area, causing panic and reports of minor damage.",
-     "ar": "شعر سكان منطقة لوس أنجلوس بزلازل بلغت قوتها 5.0 درجات، مما تسبب في حالة من الذعر وتقارير عن أضرار طفيفة.",
-     "ru": "Землетрясения магнитудой до 5.0 ощущались в районе Лос-Анджелеса, вызвав панику и сообщения о незначительных повреждениях."
-    }
-   }
-  ],
-  "last_update": 1795192080,
-  "evaluated": true
- },
- {
   "ts": 1795184520,
   "time": "2026-11-20T14:22Z",
   "title": "איראן מאיימת על נתיבי נפט במפרץ הפרסי",
@@ -2285,76 +2019,6 @@
    }
   ],
   "last_update": 1795239669,
-  "evaluated": true
- },
- {
-  "ts": 1795192080,
-  "time": "2026-11-20T16:28Z",
-  "title": "עלייה חדה בעלויות בניית מרכזי נתונים",
-  "summary": "עלויות הבנייה של מרכזי נתונים בארה\"ב זינקו ב-13% ב-2026 בשל ביקוש גבוה לבינה מלאכותית ומחסור בכוח אדם.",
-  "kid": "בניית מקומות למחשבי על (מרכזי נתונים) הפכה ליקרה מאוד בגלל הביקוש לבינה מלאכותית. זה משפיע על חברות טכנולוגיה.",
-  "i18n": {
-   "title": {
-    "he": "עלייה חדה בעלויות בניית מרכזי נתונים",
-    "en": "Surge in data center construction costs",
-    "ar": "ارتفاع حاد في تكاليف بناء مراكز البيانات",
-    "ru": "Резкий рост затрат на строительство центров обработки данных"
-   },
-   "summary": {
-    "he": "עלויות הבנייה של מרכזי נתונים בארה\"ב זינקו ב-13% ב-2026 בשל ביקוש גבוה לבינה מלאכותית ומחסור בכוח אדם.",
-    "en": "Data center construction costs in the US surged 13% in 2026 due to high AI demand and labor shortages.",
-    "ar": "ارتفعت تكاليف بناء مراكز البيانات في الولايات المتحدة بنسبة 13% في عام 2026 بسبب الطلب المرتفع على الذكاء الاصطناعي ونقص العمالة.",
-    "ru": "Затраты на строительство центров обработки данных в США выросли на 13% в 2026 году из-за высокого спроса на ИИ и нехватки рабочей силы."
-   },
-   "kid": {
-    "he": "בניית מקומות למחשבי על (מרכזי נתונים) הפכה ליקרה מאוד בגלל הביקוש לבינה מלאכותית. זה משפיע על חברות טכנולוגיה.",
-    "en": "Building places for supercomputers (data centers) has become very expensive because of AI demand. This affects tech companies.",
-    "ar": "أصبح بناء أماكن لأجهزة الكمبيوتر العملاقة (مراكز البيانات) مكلفاً للغاية بسبب الطلب على الذكاء الاصطناعي. هذا يؤثر على شركات التكنولوجيا.",
-    "ru": "Строительство мест для суперкомпьютеров (ЦОД) стало очень дорогим из-за спроса на ИИ. Это влияет на технологические компании."
-   }
-  },
-  "category": "macro",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "XLK",
-    "direction": "down",
-    "t0": 1795192080,
-    "reason": "עלויות גבוהות פוגעות ברווחיות",
-    "reason_i18n": {
-     "he": "עלויות גבוהות פוגעות ברווחיות",
-     "en": "Higher costs hurt profitability",
-     "ar": "التكاليف المرتفعة تضر بالربحية",
-     "ru": "Высокие затраты снижают прибыльность"
-    },
-    "name_i18n": {
-     "he": "סקטור הטכנולוגיה",
-     "en": "Technology Sector ETF",
-     "ar": "صندوق قطاع التكنولوجيا",
-     "ru": "ETF технологического сектора"
-    },
-    "price_at_alert": 153.49,
-    "entry_price": 153.47,
-    "entry_time": "2026-11-20T16:30+00:00",
-    "exit_price": 162.44,
-    "exit_date": "2026-11-23",
-    "change_pct": 5.84,
-    "bench": "SPY",
-    "bench_change_pct": 2.39,
-    "excess_pct": 3.46,
-    "edge_pct": -3.46,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "d6e924ac1f9e",
   "evaluated": true
  },
  {
@@ -37105,27 +36769,27 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaHM5T1NYVmZKY0xzUERrakRMc1gtWHZsa2NwZmk4eU9xUjdFNnc3ZzJndExEeC1VbDF5RU1YUEZQM1JFYWxSdDlzdDIzcEJFb3lMaFQtd0VTajVpa1J6eUZHRm5lNlZFNHJoeWFEdVR5SkxLeHFCU0NzeFNQQ082OGVkdzNud0ZnLXRjM1lyNnN5Z0twWjkyY2ZRaXNlX2VRUEtYRTN4VEdUWHQzUmJWQWZ1b29nYVBsb01MVzJNZW80YklKMXJyOQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd0xJV1pOc083dktkRENFangyZGpQbFV0ZlhyRHlfeVF1Wmg5RjRoOGdFY2xZY0E0bTQtLXl3RVh4b05ySXFZOW15SmpYSWJuSHBTenc5N21tWUMwZl8xTTJ6MjhkcUJMLTBoMXVRSGFNZFJ1cEc1RzIxMlZ6SVNHdXNxTGE4RjVXQXJBVVVfM0VxdGZmNUNFc1ZCanRDTXFGN1RPYUh5YkpDWUVqeVZlcEk0NVhjbGNfaGgxYk05bXhFejEzaVNCREdhYWw0bnVXa0trWHVPRQ?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRDBLUWhnUFVVZmRheEoyNjBIdjFTMkNnMUtjQjFXQlhDVUJmaUtNLWpfTTg4TFpieEpQVHJZQko0c05IbHp0LUd3ZXNGUDlzSEhENUNGcUd3UDZOX1NaYWw3NWZUMG81X0E3X3BjYTNMV2pZZHJWVGttSkFRbW81a2pPYjNMN2Z0Nkp1bjhVcmN5YV9kdjNOWENGNE1uS1hSNXlEdlNXM1E?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMnVFRkZacDNDU0VSX1dpX2FqLUR6c29ORXJoSjFpcm91QkhGNF95TnNraDJPT0tfNC1kNWhhUlVUTmlJQnA0dDY2YkhuTXB2dUxMVmFldlF1d1hSQnpKcnpLdV9NaTROZHpEUUVWdVpSUGRna2tzT3BFRlhjdmRvWjZFZ3Y5RnZVamU4RVlONjh4YUp3R0NOakRnaw?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOEJ4ajdkRm1oNnNiWExaNFpfeW5nUzFzRlh6bW5sZUxZcGd0NmVVWEpEdHQ2c19CSXhSRG5zTUtvdzU3UVppalhTOEROc0NYQmw0MEJObXRQbkR3MWZEdDhibGZlOHBFaVBvZktLR3NJbVpHaEZaeU11QU1MOWlueUpQc1hIclY4?oc=5"
    },
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcGtoU1AzRk9rdEJKU3QtWDd0Qkt1M3ZTMk14UmZaRmFTRWZ6OWdPaklUSnZxYldXYmFpM281TTJoNktSNVVlSUZpLWp6OTZ6b2lPQ2NXbTlEN2xrWGtVc2dPb2IyTVdNUWlxU1IzS1lIZG5TeUNOZXFITHpfUjlUMzhTUnpVREJ2SlVuMUs4ME8ycWRsTWF6OFpzck9EM1d3Ni1hbHlmQmwxTXJLdHc?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGdHUHZ2MjFUYlpBc0ZCdFNTazEzUExaZ04tcUZVWjhMZDB6cERwTGprQXFkcHlURkh3UlpkaEVPZFFLeVlXSjZ4c0hjSFZJVEJzaVlyUHlQb1VsVTM1bEVONXhrVzZVRGtjbnl2RTJadThvV19rekdhN01iRE9QVC02TW1vdmpkQkxTeF9sRUplVk15bjB0WEFzZkxmX2lQa3N5YXNoMG9xVkJkdGFLRjRaRXpWbmd5Z3Z3?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdndaSmMtcnZ2OU41SkZNYnNtNlU5ZnRWTFlOamJLb0x6eHRhRHJuQkNMY1oybHlpOUFkRWdncURJcUc0eGZvM2JNZUc4SGdvZG0yeTJFY0llZWJUeGtMRzQxaHFZNmZ0OS1YWFloelk4eDBVenhkQlotREpzR2F1cFgxbkZaT18zRWtGbHd2aTZENWFDMmhKaU13WnpSQkhIaUZGTDZtMFkwa2ZxUjdpTkRfTXRZMkNUcW1FM3hn?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUZLbkNaSXNOQjhRd1hVZXZlTnZQZkdieU5wYjhWWlZRdmctbVBGT1ZZZ3pRSzFaVTZWOVROTmJKblI5aVdWR09BZUdIWmE5VENsUVRFb0lKM2xmTzZUZGtRb0VRd3VfVmhldm9jSE5YdjJWVlNpLXdOUUhYWW9DdGFIR1d4NjNNZTlkWWdnSnBSMk9ja2dPaUhnU25SV3F6U0pyM0RGT1N0c2ltdGFfYlF3?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmtwZkd4WEpNY2NaMVhUNmhuYWZLejkxb2xUcVBmUXRIMXlOLVY2RzUzSWhhNU9NLUtiR1F6eGxseDU1X1JQZzEyRmItUzU5MWxVLWpXMWoyV256Z2ZPenVwRFFFemhaYnM1b3dndk5CcXctSEMybkJLQVo5RFJid0pMN3FvOHJvak52SHI4OXM1VlBzYTVsVGlUWmV3MEtw?oc=5"
    }
   ],
   "impacts": [
@@ -37236,9 +36900,21 @@
      "ar": "أفادت التقارير بأن إدارة ترامب دفعت فنزويلا والعراق لتقييم الانسحاب من منظمة أوبك.",
      "ru": "Администрация Трампа якобы подтолкнула Венесуэлу и Ирак рассмотреть вопрос о выходе из картеля ОПЕК."
     }
+   },
+   {
+    "ts": 1795799056,
+    "time": "2026-11-27T17:04Z",
+    "severity": 5,
+    "summary": "עיראק מנהלת שיחות עם אופ\"ק להגדלת מכסת הייצור שלה לקראת פגישת אופ\"ק+, בעוד הבית הبيض מפעיל לחץ על מדינות לשקול פרישה מאופ\"ק כדי להוריד את מחירי הנפט.",
+    "i18n": {
+     "he": "עיראק מנהלת שיחות עם אופ\"ק להגדלת מכסת הייצור שלה לקראת פגישת אופ\"ק+, בעוד הבית הبيض מפעיל לחץ על מדינות לשקול פרישה מאופ\"ק כדי להוריד את מחירי הנפט.",
+     "en": "Iraq is negotiating with OPEC for higher production quotas ahead of the OPEC+ meeting, while the White House pressures nations to consider leaving OPEC to curb global oil prices.",
+     "ar": "العراق يتفاوض مع أوبك لزيادة حصة إنتاجه قبل اجتماع أوبك+، بينما يضغط البيت الأبيض للنظر في مغادرة أوبك لكبح أسعار النفط.",
+     "ru": "Ирак ведет переговоры с ОПЕК о повышении квот перед встречей ОПЕК+, в то время как Белый дом оказывает давление с целью снижения цен на нефть."
+    }
    }
   ],
-  "last_update": 1795795154
+  "last_update": 1795799056
  },
  {
   "ts": 1795762148,
@@ -37691,12 +37367,24 @@
    }
   },
   "category": "health",
-  "severity": 3,
+  "severity": 4,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTllWYk1QeHRyanA5eFB6V3h2S3RUMVRRaUJ5MjFyYXdINVFrLTBGQnBVclV0czdNR2hQempQNkM0SXlJQTB5NHhLYXAzZEpwX2g0bkdhOVc0TXFUOGZFZEtRR2RZU1pGeU81QV9qNHFGcWlhSU5YTW9Ua040TUhQV3FfQUdacmM2clVUOUlaZw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkdTRXVYVGNwTHFxNURxTGkzcGYxQXQzb3ZMeUd2Znp2OWc2NWJBQkJJZXl6NTVCTjdQT2gwY3hRc25rMnZEbWllblN6QUpUOXY1Z0NEaGwtd0Q4VDZrWDR6WGlqVTVyMmkwVm53cUsyMHNEeGM2MUNDbjl2RnZLV1ZsNEJvYTNjVHhRRXI3MS1rRlpMSU5ZR9IBlwFBVV95cUxOM3d5U1Rxb1BnXzF4ekU5SHAtbU84bE1wZUloUzg5a2JldXQxVmRQYjBrOHZCNElhbzdtMnJ6R0RVT2xUVmdRWUlSMUlJVUduaFNlUDU2NUFGT3Fvb3VwMDdUQnBDbGRrdWwzdGtkeTY0cEprYWdES2pxVThQZ2l0c0ZBcXNIeTliTFZpQ3BiS2UwVXBRbkVr?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUGFOMEhMeWFRektZU1V6UUN0V052VVJIdXpGTGdTVUpNVE1nVm1qNVNhSXZreFpYeDBPTGs1S2haNXNkRWdBOV9kYnBvekREU2tHMFVTT0UwTmFacUZta2VwekFPRXBNQkpzSU9BWjg5NVdxQlMzRUphYzJSNy1HY0NBbzNOdHF0?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd1Axd0l4SUFNM0tUdjlMOVFrTFBYX0JOU2d5UzBHTnZod25zTkRweUJvb0hHbDNtdjF2aXVpaWRmbXJHMzNNMmNtMUtIMTVFRTl4X1g5TU5GSl9XdEllZGdRQU9vSGw1TFFWOTNlcG4yM0xLSzdtRE1XaFVpNHdCZ0lSaEx0NGJ3d1ZveDZJbjdPZDFLWkp4NjF0YTVPZC1VM0tfOERnVjQ3WUlpdXc3Q1hZMDNycFJZMnVJZm1Bbw?oc=5"
    }
   ],
   "impacts": [
@@ -37718,9 +37406,43 @@
      "ru": "Moderna – биотехнологическая и вакцинальная компания"
     },
     "price_at_alert": 220.84
+   },
+   {
+    "ticker": "XLV",
+    "direction": "up",
+    "t0": 1795799056,
+    "reason": "עלייה בעניין ורכישות חיסונים להילחם בהתפרצות המחלה",
+    "reason_i18n": {
+     "he": "עלייה בעניין ורכישות חיסונים להילחם בהתפרצות המחלה",
+     "en": "Increased focus and vaccine procurement to combat the outbreak",
+     "ar": "زيادة التركيز وشراء اللقاحات لمكافحة التفشي",
+     "ru": "Повышенный интерес и закупка вакцин для борьбы со вспышкой"
+    },
+    "name_i18n": {
+     "he": "סקטור הבריאות בארה\"ב",
+     "en": "Health Care Select Sector SPDR Fund",
+     "ar": "صندوق قطاع الرعاية الصحية",
+     "ru": "ETF сектора здравоохранения"
+    },
+    "price_at_alert": 184.24
    }
   ],
-  "id": "adc2420d2785"
+  "id": "adc2420d2785",
+  "updates": [
+   {
+    "ts": 1795799056,
+    "time": "2026-11-27T17:04Z",
+    "severity": 4,
+    "summary": "התפרצות האבולה ברפובליקה הדמוקרטית של קונגו חצתה את רף 12,000 המקרים עם קטלניות של כ-49%, מה שהביא לרכישת חיסונים נוספים והטלת מגבלות הגירה בקנדה.",
+    "i18n": {
+     "he": "התפרצות האבולה ברפובליקה הדמוקרטית של קונגו חצתה את רף 12,000 המקרים עם קטלניות של כ-49%, מה שהביא לרכישת חיסונים נוספים והטלת מגבלות הגירה בקנדה.",
+     "en": "The Ebola outbreak in the DRC surpassed 12,000 cases with a 49% fatality rate, prompting vaccine alliances to buy experimental doses and Canada to extend immigration restrictions.",
+     "ar": "تجاوز تفشي إيبولا في الكونغو الديمقراطية 12,000 حالة بمعدل وفيات 49%، مما دفع لشراء جرعات لقاح وفرض قيود هجرة.",
+     "ru": "Вспышка Эбола в ДРК превысила 12 000 случаев с летальным исходом в 49%, что побудило власти усилить меры предосторожности."
+    }
+   }
+  ],
+  "last_update": 1795799056
  },
  {
   "ts": 1795771685,
@@ -38781,10 +38503,6 @@
   "sources": [
    {
     "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0s2Q3pobERncHdMNE1GclBFNUJmdURzRVZUSHRROGVUWDBjOFZObGJ2TDVwSlZSbU51enNyeU9LbGpVeWNfbmpsaFEtSmsyamMwdFg5LUtWc3dpUGxzaVpWc29tZllCUUN4bmtVR0U5YU5rNG5QdkxTcnM3WENuQXZMQXRPTkdjWEFaR0Zibm44bzZHSkRZTVNBQkt5M0k?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORU9lMFNkeksxZjZrNnNVWTJ0cFhIOUR6VDNaZFJ2WklxdE5RX1p2Ri1FbnRudlFuYWV3bUdwMHlWRWxWXzdiRU4wSnhUMFRLbTJNR3I0NjI3RUFjcUZ6czlBams5OEVDcHRpVnFtR0wySnp4U1h5WnVZLWg3ZmRpU0NyT0h5dGJYSnNQVkxBRVIxNjZfMjJz?oc=5"
    },
    {
@@ -38794,6 +38512,18 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFhWWVNCengxSWt3c1hJZ2VmOVMtTExDWEMtSFFadXFDTVlsbjRZa0lPRnBKQmw5NjZveVBXaWdKSXZWRnRLNzZ2bVFYZU9IdU9OTkU0YlA4NTd2MUlZVkZDSDJoUjFtS0NmdllVYjNKelo0M2V0Z09MUGJacnZsRDYwdUJtbXlVV3g0?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1RJSzJGdENJZ0hmRDB5YkFNNVQyN0dLVUMyTlRDN1BpeVAybldwNWJOOXhwRWZBNlR2SkhnX3NfRE5ITWNneV9pc0lWY2xUeHQ2c1pLZXoyVkpvSmRLTnFKdXJqODVTaFBuTEJLeTU1T2NQa1NGX3ktVnJoTG1NdEJUQnUya0dIM3M2STI4RVVwXzZIcm8waGlVcTPSAaoBQVVfeXFMTmFjMnpyNUY1YkIxNG42QU4xLVdrMDRpZGgyakpPLTY0MFNHcWt6SEZFMXRsTnFjVTRGSTRyX3VMZ0V6SGFnSUJFeTZ0cDdJQmJNaFlLSEwwcGZmRDZDUjBaeFVyMHl1SWN2blRmNDdoS2p2eGNMYmpBbkZJMTM5QjRlbzBvY1VoSlN0aGFPMjFXd0xGcWl5T0llVlZaR1BDMm84OEIxZzlBLVE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcnVGY0lmNFk4eE9vN1Q1Rk9VaExEbmJWOXJncWdqWFB5TWtuNzlhcnhKakRTVEtmWW9aOHRsZHlSVm1kTDVOdDAyY1N6UGI3aEpTNk5BaTNPMnY5cjJMaTNZZE96ZnRzX0RuakpnU1ptQTdCUUh0cTkwSll4b3prUUpkc20xYXJLWG4zUzJKZGVaMlZxcEVKdTVxdVJoM25SSFUzd2Qzdkhjdw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFl5WDFPTkJTY1UzWF9JVVl4VllzQXVwY2dzSTdlcEdFTzlLUjZQVTI2UHByN3NjcTlYWEw3MjhuTFRfQW5JT1hYc2M2RGduU1VCVzYtekdtdXdDX0JJS3FWS3BqTlFQMVc5QjMtZ0M5WWZnaHNUcGpwQXlKMTFUbDA2ZVl6OG50WFg0YVMyb2otZw?oc=5"
    }
   ],
   "impacts": [
@@ -38836,7 +38566,22 @@
     "price_at_alert": 84.95
    }
   ],
-  "id": "c8c83e97c5cf"
+  "id": "c8c83e97c5cf",
+  "updates": [
+   {
+    "ts": 1795799056,
+    "time": "2026-11-27T17:04Z",
+    "severity": 5,
+    "summary": "כלכלת צרפת נכנסה למיתון טכני לאחר שהתמ\"ג ירד במשך שני רבעונים רצופים עקב יצוא חלש והיעדר השקעות, אך נתוני האינפלציה באירופה מתקררים ומקלים על ה-ECB.",
+    "i18n": {
+     "he": "כלכלת צרפת נכנסה למיתון טכני לאחר שהתמ\"ג ירד במשך שני רבעונים רצופים עקב יצוא חלש והיעדר השקעות, אך נתוני האינפלציה באירופה מתקררים ומקלים על ה-ECB.",
+     "en": "France entered a technical recession as GDP fell for two straight quarters due to weak exports and dry investments, while European inflation cools, easing pressure on the ECB.",
+     "ar": "دخل الاقتصاد الفرنسي في ركود تقني بعد انخفاض الناتج المحلي الإجمالي لربعين متتاليين بسبب ضعف الصادرات, بينما تبرد التضخم الأوروبي.",
+     "ru": "Франция вошла в техническую рецессию, так как ВВП падал два квартала подряд из-за слабого экспорта, в то время как инфляция в Европе замедляется."
+    }
+   }
+  ],
+  "last_update": 1795799056
  },
  {
   "ts": 1795787511,
@@ -39022,6 +38767,10 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDVDaXcxa29QTE0tWkpkTU5XOXFRRHkwZ3ZDZ0RjWXdWX25ZS3BfdzVUQzdDVXNWMG50ajhTdEFzMlUwY3VpY0t4SjE2N1ZvcWs5TzQ2TVVlNjc5SkduNUJaV252TTN1WWJOaGFsZjRzQVllSEZFWVI5X3cwdVZPZ2VNcUd4djFu?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmX19qc2V5cTNEb2lneUpPOW1jMkZ2WFpNVFQ1UUM5U2ozNUpBUnFTS3dVYTVfLXRvMW9OQmc5alpLR1BNTnNEcDI3ZkpwN2c5VDBtZUdaNGI?oc=5"
    }
   ],
   "impacts": [
@@ -39064,7 +38813,22 @@
     "price_at_alert": 26.34
    }
   ],
-  "id": "61cf1718ad08"
+  "id": "61cf1718ad08",
+  "updates": [
+   {
+    "ts": 1795799056,
+    "time": "2026-11-27T17:04Z",
+    "severity": 4,
+    "summary": "הפרעות במשלוחי הים השחור דחפו את מחירי החיטה באירופה לרמת שיא של חודש אחד, מה שמגביר את חששות האינפלציה בתחום המזון.",
+    "i18n": {
+     "he": "הפרעות במשלוחי הים השחור דחפו את מחירי החיטה באירופה לרמת שיא של חודש אחד, מה שמגביר את חששות האינפלציה בתחום המזון.",
+     "en": "Disruptions in Black Sea shipments pushed European wheat prices to a one-month high, raising food-related inflation concerns.",
+     "ar": "الاضطرابات في شحنات البحر الأسود دفعت أسعار القمح الأوروبي إلى أعلى مستوى في شهر، مما يزيد مخاوف التضخم الغذائي.",
+     "ru": "Нарушения поставок в Черном море подтолкнули цены на пшеницу в Европе до месячного максимума, усиливая инфляционные опасения."
+    }
+   }
+  ],
+  "last_update": 1795799056
  },
  {
   "ts": 1795787511,
@@ -39170,20 +38934,32 @@
    }
   },
   "category": "geopolitics",
-  "severity": 6,
+  "severity": 7,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWXQzWVlSMzZJMzdfTzRnMi1qS2EtVTNPbE9MdnQ4cEJNSzNQZVczc2J3TTllM05jLXA3N0pqaTdSM1g5bWgtcUJ0MWdFaDBEZ19zZ19IbFpwaEx0NHNaYnVfZHNvMmFzbkp6TlV6OGt4Y2tqQzljRjZXWEktS2RqNk1ReV9vcGJYNmY5MXJDU3RGcW9WQlNCNlV5ZUFUOFFOclZQQTRxaEhtR214SjljVG9Ednc3aVZOclp6d3ZRNld4RzF3bTFKRXZvYXVhUEhiRkdmNm41QjE4MDlJa3diR00yclBjaHJP0gHuAUFVX3lxTE5TWkdNT25IUzNuZ1VPbW9Geng0ZzVnMDdTZWdXb2hSRXFqVkhpcXZUamsxQ0hZck0tSTVscGI4NzhWNzFVbWZnWWU1SVM1ZF9OajR6NFJWOUNCTnJLSXIxT1I5Unc3bHYycUdUMjd6Uy01cmtRU2dtVzNpTDZkdUFqUkF6TUVtQUNVbldySGVmVjhEZ3Q0Y3VNQzA1b3BpSGJ0N0RHUzBhYV9SQWd6Y1E4ZGc1SmZGQkp6QWVKQkFCSGlldDlfZGcySVF0bVdWNTFwYzQ0X2RuOUZLZGg1cUtOM2kzSWphM3dlOWVVNlE?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EbEUwQ0JDcUFpYzl1NVc5eTFlOTJxeGNjSTZzaGh4QzlyRFR2SVJkUG9UZVpDbVhaMWNEdlNDYjBzN0w1Q1ZzUVNYcGVoN3ZQR1Z5RDFBc1h5UUlUdmJYT2RfbE9jcWtrSnZTREtQUHNmYTVjeVh4STlERU9PQQ?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHVOdGQ4QmxwTS1GLUJ2VnpiR2ZXUGF0dEQ4NWdENXJ5ZlF5X2FnMWVlTUpfSjR1X0hsT1k0cUNZbGRfM200NmlVVFNTMHliUDVnRmxDclpOblFUNVQ0dXpkT2h3eHV6d2FlY2RBZTM4WVhYSHpOalFDeXRaOHBINWw0U00xTmNoZk5BaGZBT3VrbjE3ZnVyX2dTZWNJclU3S21Xc3JtUExBUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVm5zbkNGU1JFV2M1cmY1UzFyZGwwMXQ2TVZSSC1uaGNqbzhFcXBzSkNIcklDbWg3M19pWTFfSXBWeUY4OWY2cUctMHozT3BMMWU1ZkFKUDgwaV9tN240TWZ6b1Y2dGZFajJiWUhzNWlmWWFrRUdvWlRFcXhSRENtaGxZd1FFemV4cmM4UmtleFA3aVhtMDdyRktMUUhhbEtzRUM1N0d4cEI3ZTlMZUE?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUC1mTnJPVjRNV0J6Slk4QlVJLUhLM0VRZUxVbDI0akxsTVdPVTdvUjkwLThQLW9TZjk5Nldwbkl4MXNPMV9obzlrZnlKVEp1RzdmRk1Ld0pXa0duS1JNUjN2UXJPdVVPLU9VM0l6ZUEyQ25iTXBRcHVabXVWNzdEUEg5UUh0eU1NTlFJZG1ISnRWMlU4eGluQ0IwakxLU0tKVHgxNlNBRnBtUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbkhPZnRkckw1UWN3aThLSFBHQXFYdzhoTnhyZEFoRWNBYll5cTdKV00xRHZ0Q293MHJHN045VTlHai0yR3A0ZE5hbm1BbUtSbnlWRkRsMVMzTDhtNXJ5eTJyelFSYWJPaFJCdnNwVGVlS1FNcFRXcHZLQW5kZVlnc0MyX1o?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTWFTeHhFODJNaUh1bzNwd3dxWDFyNUxheHR0N3BtRWxaU0drOFZBTkJHaGFSOE1sbE5oNUNrSWJVNE9VRUp0bXpxb1pGYUM4aWRyQTQ4dG5iU2JSUVpWWGlLWnBFd0pucTNLeFFXVkdmSWJuR2Nsc1pkcXpyX3ZfRjFMZFBHcS11WmxNbmZVMnEyYUJkNGlvU25rUHdSd2IxT0o5MVZra2pFUV9vLXhwVTNDMGtYVWRNYUZKcFRVeTBOVXNwWHVuYnZyTU1qNE9NMElDemxR?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tb25zNXRVemVvV1YyelJCQUJMSEZlUjBBMkVYNDR2TFpNTktUcHFzcVlxajcxb3prZjFDSTRiUTh5Z3BxSUtmNw?oc=5"
    }
   ],
   "impacts": [
@@ -39224,9 +39000,43 @@
      "ru": "ETF аэрокосмической и оборонной промышленности США"
     },
     "price_at_alert": 69.77
+   },
+   {
+    "ticker": "XOM",
+    "direction": "up",
+    "t0": 1795799056,
+    "reason": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
+    "reason_i18n": {
+     "he": "מחירי נפט גבוהים יותר מחזקים את רווחי חברות האנרגיה",
+     "en": "Higher oil prices boost energy company profits",
+     "ar": "أسعار النفط الأعلى تعزز أرباح شركات الطاقة",
+     "ru": "Более высокие цены на нефть увеличивают прибыль энергетических компаний"
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל – חברת אנרגיה ענקית",
+     "en": "ExxonMobil – major energy company",
+     "ar": "إكسون موبيل - شركة طاقة كبرى",
+     "ru": "ExxonMobil — крупная энергетическая компания"
+    },
+    "price_at_alert": 161.0
    }
   ],
-  "id": "aed1b131b330"
+  "id": "aed1b131b330",
+  "updates": [
+   {
+    "ts": 1795799056,
+    "time": "2026-11-27T17:04Z",
+    "severity": 7,
+    "summary": "כוחות צבא ארה\"ב סיכלו ניסיון של כלי שיט איראני לפרוץ את המצור הימי במפרץ, בעוד בכירי משטר באיראן מזהירים כי מצר הורמוז לא ייפתח והמצור יופר בכוח.",
+    "i18n": {
+     "he": "כוחות צבא ארה\"ב סיכלו ניסיון של כלי שיט איראני לפרוץ את המצור הימי במפרץ, בעוד בכירי משטר באיראן מזהירים כי מצר הורמוז לא ייפתח והמצור יופר בכוח.",
+     "en": "US military forces disabled a commercial vessel attempting to breach the naval blockade, while Iranian officials vowed that the Strait of Hormuz will remain closed and the blockade will be broken.",
+     "ar": "قوات الجيش الأمريكي عطلت سفينة تجارية حاولت اختراق الحصار البحري، بينما تعهد مسؤولو إيران بأن مضيق هرمز سيظل مغلقاً وسيتم كسر الحصار.",
+     "ru": "Военные силы США вывели из строя коммерческое судно, пытавшееся прорвать морскую блокаду, в то время как иранские официальные лица пообещали, что Ормузский пролив останется закрытым."
+    }
+   }
+  ],
+  "last_update": 1795799056
  },
  {
   "ts": 1795795154,
@@ -39366,5 +39176,63 @@
    }
   ],
   "id": "c8ff858a229a"
+ },
+ {
+  "ts": 1795799056,
+  "time": "2026-11-27T17:04Z",
+  "title": "אילון מאסק קיבל אישור אמריקאי לשיגור מיליון לווינים",
+  "summary": "אילון מאסק קיבל אור ירוק מארה\"ב לשגר מיליון לווינים במטרה לתמוך במרכזי נתונים של בינה מלאכותית בחלל.",
+  "kid": "חברת ספייס-אקס קיבלה אישור לשגר המון לווינים כדי לעזור למחשבי ענק בחלל. זה יכול לעזור לחברות טכנולוגיה שקשורות לזה.",
+  "i18n": {
+   "title": {
+    "he": "אילון מאסק קיבל אישור אמריקאי לשיגור מיליון לווינים",
+    "en": "Elon Musk Gets US Approval to Launch One Million Satellites",
+    "ar": "إيلون ماسك يحصل على موافقة أمريكية لإطلاق مليون قمر صناعي",
+    "ru": "Илон Маск получил одобрение США на запуск миллиона спутников"
+   },
+   "summary": {
+    "he": "אילון מאסק קיבל אור ירוק מארה\"ב לשגר מיליון לווינים במטרה לתמוך במרכזי נתונים של בינה מלאכותית בחלל.",
+    "en": "Elon Musk received the green light from the US to launch one million satellites to support space-based AI data centers.",
+    "ar": "حصل إيلون ماسك على الضوء الأخضر من الولايات المتحدة لإطلاق مليون قمر صناعي لدعم مراكز بيانات الذكاء الاصطناعي في الفضاء.",
+    "ru": "Илон Маск получил зеленый свет от США на запуск миллиона спутников для поддержки космических дата-центров ИИ."
+   },
+   "kid": {
+    "he": "חברת ספייס-אקס קיבלה אישור לשגר המון לווינים כדי לעזור למחשבי ענק בחלל. זה יכול לעזור לחברות טכנולוגיה שקשורות לזה.",
+    "en": "SpaceX got approval to launch many satellites to help giant computers in space. This can boost related technology stocks.",
+    "ar": "حصلت سبيس إكس على موافقة لإطلاق العديد من الأقمار الصناعية لمساعدة أجهزة الكمبيوتر العملاقة في الفضاء.",
+    "ru": "SpaceX получила одобрение на запуск множества спутников для поддержки гигантских компьютеров в космосе."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/elon-musk-gets-the-greenlight-from-the-us-to-launch-one-million-satellites?traffic_source=rss"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795799056,
+    "reason": "התקדמות טכנולוגית עצומה בקישוריות ומרכזי נתונים בחלל",
+    "reason_i18n": {
+     "he": "התקדמות טכנולוגית עצומה בקישוריות ומרכזי נתונים בחלל",
+     "en": "Massive technological progress in connectivity and space data centers",
+     "ar": "تقدم تكنولوجي هائل في الاتصال ومراكز البيانات الفضائية",
+     "ru": "Масштабный технологический прогресс в области связи и космических дата-центров"
+    },
+    "name_i18n": {
+     "he": "קבוצת מניות הטכנולוגיה הגדולות",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق أسهم التكنولوجيا",
+     "ru": "ETF технологических акций"
+    },
+    "price_at_alert": 645.6699
+   }
+  ],
+  "id": "449eb25b400a"
  }
 ]
