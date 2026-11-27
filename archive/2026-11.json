@@ -165853,9 +165853,43 @@
      "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
     },
     "price_at_alert": 68.77
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795750523,
+    "reason": "חשש משיבושים באספקת הנפט במפרץ הפרסי.",
+    "reason_i18n": {
+     "he": "חשש משיבושים באספקת הנפט במפרץ הפרסי.",
+     "en": "Fears of oil supply disruptions in the Persian Gulf.",
+     "ar": "مخاوف من اضطرابات في إمدادات النفط في الخليج العربي.",
+     "ru": "Опасения по поводу перебоев в поставках нефти в Персидском заливе."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט גולמי",
+     "en": "Crude Oil ETF",
+     "ar": "صندوق مؤشر النفط الخام",
+     "ru": "ETF на сырую нефть"
+    },
+    "price_at_alert": 139.89
    }
   ],
-  "id": "9e470d232a2d"
+  "id": "9e470d232a2d",
+  "updates": [
+   {
+    "ts": 1795750523,
+    "time": "2026-11-27T03:35Z",
+    "severity": 6,
+    "summary": "תקיפת כטב\"ם בכווית שהרגה אזרחים איטלקים ואיומים הדדיים בין איראן למערב מעלים את החשש מהסלמה אזורית.",
+    "i18n": {
+     "he": "תקיפת כטב\"ם בכווית שהרגה אזרחים איטלקים ואיומים הדדיים בין איראן למערב מעלים את החשש מהסלמה אזורית.",
+     "en": "A drone attack in Kuwait killing Italian citizens and mutual accusations between Iran and Western nations are raising fears of regional escalation.",
+     "ar": "هجوم بطائرة بدون طيار في الكويت أسفر عن مقتل مواطنين إيطاليين وتبادل الاتهامات بين إيران والدول الغربية يثير المخاوف من تصعيد إقليمي.",
+     "ru": "Атака беспилотника в Кувейте, в результате которой погибли итальянские граждане, и взаимные обвинения между Ираном и западными странами вызывают опасения региональной эскалации."
+    }
+   }
+  ],
+  "last_update": 1795750523
  },
  {
   "ts": 1795711797,
@@ -166473,7 +166507,7 @@
    }
   },
   "category": "trade",
-  "severity": 7,
+  "severity": 8,
   "confidence": "medium",
   "sources": [
    {
@@ -166585,9 +166619,21 @@
      "ar": "خطط الرسوم الجمركية الأمريكية الجديدة ترفع المخاطر لشركاء تجاريين مثل الهند والصين، حيث ترفض بيجين التحركات وتحذر من المخاطر الاقتصادية.",
      "ru": "Новые тарифные планы США повышают ставки для торговых партнеров, таких как Индия и Китай, причем Пекин отвергает эти меры и предупреждает о глобальных рисках."
     }
+   },
+   {
+    "ts": 1795750523,
+    "time": "2026-11-27T03:35Z",
+    "severity": 8,
+    "summary": "סין, סינגפור, ברזיל ויפן מביעות התנגדות חריפה לתוכניות המכסים החדשות של ארה\"ב ומאיימות בצעדי תגובה, מה שמעלה את החשש ממלחמת סחר גלובלית.",
+    "i18n": {
+     "he": "סין, סינגפור, ברזיל ויפן מביעות התנגדות חריפה לתוכניות המכסים החדשות של ארה\"ב ומאיימות בצעדי תגובה, מה שמעלה את החשש ממלחמת סחר גלובלית.",
+     "en": "Major trading partners including China, Singapore, Brazil, and Japan are criticizing proposed US tariffs and threatening retaliatory measures, raising risks of a global trade war.",
+     "ar": "ينتقد شركاء تجاريون كبار، بما في ذلك الصين وسنغافورة والبرازيل واليابان، التعريفات الجمركية الأمريكية المقترحة ويهددون بإجراءات انتقامية، مما يزيد من مخاطر حرب تجارية عالمية.",
+     "ru": "Крупные торговые партнеры, включая Китай, Сингапур, Бразилию и Японию, критикуют предложенные США тарифы и угрожают ответными мерами, что повышает риск глобальной торговой войны."
+    }
    }
   ],
-  "last_update": 1795733774
+  "last_update": 1795750523
  },
  {
   "ts": 1795726624,
@@ -167277,7 +167323,7 @@
    }
   },
   "category": "cyber",
-  "severity": 3,
+  "severity": 5,
   "confidence": "high",
   "sources": [
    {
@@ -167322,7 +167368,22 @@
     "price_at_alert": 209.3
    }
   ],
-  "id": "c56803543f83"
+  "id": "c56803543f83",
+  "updates": [
+   {
+    "ts": 1795750523,
+    "time": "2026-11-27T03:35Z",
+    "severity": 5,
+    "summary": "פיפ\"א, חברת התעופה Flight Centre וגופים נוספים דיווחו על פריצות סייבר שכללו גניבת מידע עסקי ואישי של לקוחות ועובדים.",
+    "i18n": {
+     "he": "פיפ\"א, חברת התעופה Flight Centre וגופים נוספים דיווחו על פריצות סייבר שכללו גניבת מידע עסקי ואישי של לקוחות ועובדים.",
+     "en": "FIFA, Flight Centre, and other entities have confirmed cyberattacks involving the theft of sensitive business and personal data, raising concerns about data security.",
+     "ar": "أكدت الفيفا وشركة Flight Centre وجهات أخرى وقوع هجمات سيبرانية تضمنت سرقة بيانات تجارية وشخصية حساسة، مما يثير مخاوف بشأن أمن البيانات.",
+     "ru": "ФИФА, Flight Centre и другие организации подтвердили кибератаки, связанные с кражей конфиденциальных деловых и личных данных, что вызывает опасения по поводу безопасности данных."
+    }
+   }
+  ],
+  "last_update": 1795750523
  },
  {
   "ts": 1795742050,
@@ -167563,41 +167624,9 @@
    }
   },
   "category": "policy",
-  "severity": 3,
+  "severity": 4,
   "confidence": "high",
   "sources": [
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd3JFZWJ0ZkYxbzBFbVB4dUYtS3J1d3FaZ3pyM1M1MEVKOUNWdHJnY0VMblM4VnM0MVEyVGdSN3BXd2s1MVFGbUMzdC1NTWtvTEQ3UGM4UlZpUGVWcG5YQXZnUEgzQWhZMmtHel9JcUJiSXlWTlZEMV9wc3BhRmc3YnFOZVg2NTB3WTk5YnE5UlNBYmhJMzlQLXVPUzM?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM2EtcU9JbGxRRjY1bmpzc184eWpRSlNnaGNFVWpPN3VOUld2bTJOTm9uU3N1TUJMNmFpeThIWi1tZEJqYkI2SjlaVXh2WXY5T09sXzc3bVpVU3J1Vm5qeF9RWDlCREx1ZV82LUIwdmR4ZGRINE9FV0ZJQXRLWEJzeWdWUzQ5VVpzNm1SSEI3VkVERnZYeVFaeU9WT2pId1NIVTYtTm5nRG5UWENkUXBvT3NhRUlXNGVGQ1pjTHJBOA?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVjJSNWoxZ3dKdXdBbjE2ZzRYNDBVbGdGWGREMHZIUUJ3TERadWE1aXNiakZWRWh0LUJrVm40TXV6OXZrN2o0dEd5N1JBTnBzM0pqSXFUXzdvVVFiYmR5bEhOQkgzd2hmX3VoUENYVDduaXNaUjdOYllfempGSG1mWVZWMHJfRkRtY3Y2VExyUFlUT2lCaUR4MG05N1AtOTRkM09mZE1JcGZxZTNnNjg5SWtkVEVDRjNlenNxcXVmTWFDdnZhVjhSd1hpS0pCMWhDNHNrN1NHcldBYzh6bmdYSQ?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSWRwZEY5SDZiU2JqWGdXLWQ5RTZuOHFLc2lHZWY3SWxmT2h3TGZQQkVhY1NXdFJzTGk2SEo2LUJrTHZzVTVLa084WHduZ2t5aFEtbEsxT0FwTFFKTm5HMkN0dHllbF9vZFRXTWd3YnJTelNheWQzVEVqQUlCaVltdVVfSjRYMk5JOTdPbnk3WllnLXMwTkM1Q0NpTEpMZk80dTZNeUc2NE5FRE1sWUJtcS1naHV1SjJEYmxJVFpZN0V3TUxGcElpYldpMkVRaEVab0E?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNczBGNnFzUzZXWkZ1SUFCc3B1WnVIc0FnM3Mtc2hjblB6WkFudEN3UGhsV3NhNEs3dklYMTdXZ2Zfa2llUTlpS2gxaWROYURFYnE0bXJFcURzaHM3WVpxN3pHb2kyeTA4RU1BRGQ0WnBDdF9aTjYxMDgyczY3Ni10ZzlueXF0a2tTRHdrRHFTN1dZU2VTY2FMcTZUQW9sbmtYVDh4THl5bk5OamduS01RaVpza2ctOFN4SERQZmpEYVVLdlNQS2stdTBEZ1Q1VUFRV0g5XzlXSnZRd2k3RkRZNEZ1cDI4X1FrOUpESkt1c0JTLVB0U3lURXpCZGtVVm8?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTm1mcVB4VEhXUTFvcmQ5cktuTnBORzBnYk1IQk45eGFSMFRIeTVVdmZjOXpHSVVWX2o4dDZ5ZjhLYTJqald0VTRwQUgwdTJfeVB6VXdwZlNzbWtMd0ZPRXhIQkM5N2FnSVlhSVBVSnBlc1lNY253RDc5MUJkN1VQdGdVUnhJWW9icEdraXNBbFZWV0RMeTR5LXd6SnJ4NVNmSUdOaTNULWIzTFVhNUN5bUFMTnIzTUJrWmQzdXFhdDNpdnhzMzZYUkdSN24?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNR09MU0hxQUt0V1NPUnlTczd2a1VNbmtuQjh6UWNLUXpvT3M3VzdjMVpUOGtwbk9OUzM1a3BBRE1QOGpVRXVuYjBha3FtZ19xSVpEUzVXcGtSb2c2SlFaNDZVY0RLWGQ0ME1jSDVyclBSODlsQjZCVzZsdjdaWF9TNmhqOUxJeXFwVDQ5UE55dHVHZkxqTjFONEFUN1BMQ2ZmcDNCSHJqTkU2Zkhkak1nd2huTkF1VXpnUTVvNHNETEFNSm9OcFlLeHNQb3V0UVJOODdHSXF6RUNJWUU?oc=5"
-   },
-   {
-    "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVllSRGswSnZSQVFJbXhsUUI2Q19ENllYOUJvSWlqRV9aTW9pUTJ0eVJLOEI1VGRzQldqVFlGVWtHVUM1c3RtVFdrU3doRndfbFhHMEozbzQycjh2Vm14Q1BoMHJXMUFYS3RvNThjODRyd3FRaW9QWGpoSjFHWHo1eHozenNXVkxnRmEyYUZpZ0d6MFNQcTNkSFVxUmFwSU1YVVpYNWV6aUJld1lZd0MtOUs0WmRjU0RRdU04X3J6ckZTTDctcEZQLUdKSQ?oc=5"
-   },
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYU5aVTlrNFJQanVMR1ptbGVjd3hFcS1kdk9VcEdmcFVuM3Q0NDllSFV5VGRyTXphRUNYYWNwWnRObWtoV0YyR0JQNkVLX3N6UUlWRGtyaGRFLUhmTl9ZaXB6Rll5cHgyZUFKQVZiNFZxUWpkUHBpcHlTTmNmM3AzYXJnZi1jcXZyY3c?oc=5"
@@ -167642,9 +167671,43 @@
      "ru": "SPY - S&P 500 ETF"
     },
     "price_at_alert": 716.7
+   },
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1795750523,
+    "reason": "אי-ודאות פוליטית בדרך כלל מעיקה על השווקים המקומיים.",
+    "reason_i18n": {
+     "he": "אי-ודאות פוליטית בדרך כלל מעיקה על השווקים המקומיים.",
+     "en": "Political uncertainty typically weighs on local markets.",
+     "ar": "عدم اليقين السياسي عادة ما يضغط على الأسواق المحلية.",
+     "ru": "Политическая неопределенность обычно давит на местные рынки."
+    },
+    "name_i18n": {
+     "he": "קרן סל על אוסטרליה/ניו זילנד",
+     "en": "Australia/New Zealand ETF",
+     "ar": "صندوق مؤشر أستراليا/نيوزيلندا",
+     "ru": "ETF на Австралию/Новую Зеландию"
+    },
+    "price_at_alert": 27.37
    }
   ],
-  "id": "d425c5725297"
+  "id": "d425c5725297",
+  "updates": [
+   {
+    "ts": 1795750523,
+    "time": "2026-11-27T03:35Z",
+    "severity": 4,
+    "summary": "התוצאות הסופיות בבחירות בניו זילנד הראו פרלמנט תלוי, כאשר מפלגה מרכזית קטנה מחזיקה במפתחות להקמת הממשלה הבאה.",
+    "i18n": {
+     "he": "התוצאות הסופיות בבחירות בניו זילנד הראו פרלמנט תלוי, כאשר מפלגה מרכזית קטנה מחזיקה במפתחות להקמת הממשלה הבאה.",
+     "en": "Final election results in New Zealand confirm a hung parliament, with a small centrist party holding the balance of power for the next government.",
+     "ar": "تؤكد النتائج النهائية للانتخابات في نيوزيلندا وجود برلمان معلق، حيث يمتلك حزب وسطي صغير مفتاح السلطة للحكومة القادمة.",
+     "ru": "Окончательные результаты выборов в Новой Зеландии подтверждают наличие подвешенного парламента, где небольшая центристская партия обладает решающим голосом для формирования следующего правительства."
+    }
+   }
+  ],
+  "last_update": 1795750523
  },
  {
   "ts": 1795746521,
@@ -167717,5 +167780,77 @@
    }
   ],
   "id": "c3c1a0b71ad9"
+ },
+ {
+  "ts": 1795750523,
+  "time": "2026-11-27T03:35Z",
+  "title": "עלייה באינפלציה בטוקיו ובארה\"ב מחזקת את הציפיות להעלאות ריבית",
+  "summary": "נתוני אינפלציה גבוהים בטוקיו ובארה\"ב מגבירים את הלחץ על הבנקים המרכזיים להעלות ריבית, מה שמוביל להתחזקות הדולר ולירידות בשוקי המניות.",
+  "kid": "כשהמחירים עולים, הבנקים מעלים את הריבית כדי להאט את הכלכלה. זה גורם לדולר להתחזק, אבל יכול להקשות על חברות טכנולוגיה שצריכות ללוות כסף.",
+  "i18n": {
+   "title": {
+    "he": "עלייה באינפלציה בטוקיו ובארה\"ב מחזקת את הציפיות להעלאות ריבית",
+    "en": "Tokyo and US inflation data bolster rate-hike expectations",
+    "ar": "بيانات التضخم في طوكيو والولايات المتحدة تعزز توقعات رفع أسعار الفائدة",
+    "ru": "Данные по инфляции в Токио и США усиливают ожидания повышения ставок"
+   },
+   "summary": {
+    "he": "נתוני אינפלציה גבוהים בטוקיו ובארה\"ב מגבירים את הלחץ על הבנקים המרכזיים להעלות ריבית, מה שמוביל להתחזקות הדולר ולירידות בשוקי המניות.",
+    "en": "Higher-than-expected core inflation in Tokyo and rising US PCE inflation are increasing pressure on central banks to hike rates, strengthening the US dollar and pressuring tech stocks.",
+    "ar": "ارتفاع التضخم الأساسي في طوكيو وبيانات التضخم الأمريكية يزيدان الضغط على البنوك المركزية لرفع أسعار الفائدة، مما يعزز الدولار ويضغط على أسهم التكنولوجيا.",
+    "ru": "Более высокая, чем ожидалось, базовая инфляция в Токио и рост инфляции PCE в США усиливают давление на центральные банки с целью повышения ставок, что укрепляет доллар и оказывает давление на акции технологических компаний."
+   },
+   "kid": {
+    "he": "כשהמחירים עולים, הבנקים מעלים את הריבית כדי להאט את הכלכלה. זה גורם לדולר להתחזק, אבל יכול להקשות על חברות טכנולוגיה שצריכות ללוות כסף.",
+    "en": "When prices rise, banks raise interest rates to slow down spending. This makes the dollar stronger, but it can make it harder for tech companies to borrow money, which might cause their stock prices to drop.",
+    "ar": "عندما ترتفع الأسعار، ترفع البنوك أسعار الفائدة لتقليل الإنفاق. هذا يجعل الدولار أقوى، لكنه قد يصعب على شركات التكنولوجيا اقتراض المال، مما قد يؤدي لانخفاض أسعار أسهمها.",
+    "ru": "Когда цены растут, банки повышают процентные ставки, чтобы замедлить траты. Это делает доллар сильнее, но компаниям становится сложнее занимать деньги, что может привести к падению их акций."
+   }
+  },
+  "category": "macro",
+  "severity": 7,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "UUP",
+    "direction": "up",
+    "t0": 1795750523,
+    "reason": "ציפיות לריבית גבוהה מחזקות את המטבע.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה מחזקות את המטבע.",
+     "en": "Expectations of higher interest rates strengthen the currency.",
+     "ar": "توقعات بأسعار فائدة أعلى تعزز العملة.",
+     "ru": "Ожидания более высоких процентных ставок укрепляют валюту."
+    },
+    "name_i18n": {
+     "he": "קרן סל על הדולר האמריקאי",
+     "en": "US Dollar ETF",
+     "ar": "صندوق مؤشر الدولار الأمريكي",
+     "ru": "ETF на доллар США"
+    },
+    "price_at_alert": 29.6
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "down",
+    "t0": 1795750523,
+    "reason": "ריבית גבוהה פוגעת בתמחור של מניות צמיחה וטכנולוגיה.",
+    "reason_i18n": {
+     "he": "ריבית גבוהה פוגעת בתמחור של מניות צמיחה וטכנולוגיה.",
+     "en": "Higher rates hurt the valuation of growth and tech stocks.",
+     "ar": "أسعار الفائدة المرتفعة تضر بتقييم أسهم النمو والتكنولوجيا.",
+     "ru": "Более высокие ставки вредят оценке акций роста и технологических компаний."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נאסד\"ק 100",
+     "en": "Nasdaq 100 ETF",
+     "ar": "صندوق مؤشر ناسداك 100",
+     "ru": "ETF на индекс Nasdaq 100"
+    },
+    "price_at_alert": 633.93
+   }
+  ],
+  "id": "c9e165e7e24b"
  }
 ]
