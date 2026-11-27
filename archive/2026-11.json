@@ -165577,10 +165577,6 @@
   "confidence": "high",
   "sources": [
    {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTDl5cXNKaDF3M1BtVHQ2d2NfTFRRVXBYU3VGMGw1NlNKNmxUbUhxU1lzZnR6XzlESFlUanM1R1JJelhjb2dydlQ0dFVuVnotVFRPQkdIOG5UZXVKY2xlX2JEcF9UOURpdEV2SFJSLWcxa1Nlb2dMV1djUU5MN3pydTlrVmE1SlllUmZsanhucWFMNnItbDUxVDVWTThDRFpCbk1XZ0lIZ3dLQWpfeGtoVldPOEJ4enFqQlFOWE43NXlSc1JuallWQ0J4M3p1dXFkaFFDdg?oc=5"
-   },
-   {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRVRLYVh6dm1UMWRaZ1ZyakRkTkFoUW9RN3pfYU9xQncwSXdOLU9iekNfSmVjSjctUXVnTk0yZDk5RFhXYnJWa1pEeFgzNlY5ZnV3UmpsNnFOZ24tNmR2ZExibGVzWjRWNlcwZjJLT0hqanotU3hiM3M4WEVoZnlIMzFxWmZZeEIycElEcnBOemc4NDlwX1A0YXFFbWN4SGwwTlczUktlLUlkSHp5bU1qR3FR?oc=5"
    },
@@ -165599,6 +165595,10 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWnVVdDNjSlpMSXRXMWRfNFV6NlZablRKY0NvUVcxZk96UHdDQjQyNnoxMEtRZElNTTJCS1ROZE8tWEgzOER0VlRzZ0VDcDRXdllMSW5LdERySlhfQ01rSUhjejZfM2NNcEsyWmRNOHVQYkgtMWZESU1IaWVYa1M3NjBYOERDQ3VBRHNrR0RzYlM3VVlHQnZQMWNVVkhOdFJ2M0VaTHlqMWljQVhvRnQ3ZHExalNoNXFaX1U3YTBWSlEyUUNrRVltY0FRN0EyMG9aX3ZmQjF6azM?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2tISG9USGZyaGVNUWJPMmEtSXNVVEVyeUJFbHg4RkZ5MllvQ2NZbGdDM2h1U3J3MmtNMWh5QmJCXy04bVlQV1p4ZS1YazU3SzkzdmkwS1BkMTFtUmhqeFpOeUhVV3NXWnIzTjIxOUd3VkswMTNpTzU3dU40RmE2U2djTHFiRXpMdDRXb0pSb3BiUmJsNXhpSGowa182THNJcHZ6UQ?oc=5"
    }
   ],
   "impacts": [
@@ -165676,6 +165676,25 @@
      "ru": "ZIM - глобальная судоходная компания"
     },
     "price_at_alert": 30.88
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795758431,
+    "reason": "חשש ממשבר אנרגיה גלובלי פוגע בסנטימנט המשקיעים בשוק.",
+    "reason_i18n": {
+     "he": "חשש ממשבר אנרגיה גלובלי פוגע בסנטימנט המשקיעים בשוק.",
+     "en": "Global energy crisis fears hurt market investor sentiment.",
+     "ar": "مخاوف أزمة الطاقة العالمية تضر بمعنويات مستثمري السوق.",
+     "ru": "Опасения глобального энергетического кризиса портят настроения инвесторов."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر إس آند بي 500",
+     "ru": "SPY - фонд индекса S&P 500"
+    },
+    "price_at_alert": 716.7
    }
   ],
   "id": "884043276ff9",
@@ -165703,9 +165722,21 @@
      "ar": "نفذت قوات التحالف ضربات واسعة النطاق في اليمن، مدمرة 50 هدفا عسكريا ومنصة إطلاق صواريخ للحوثيين.",
      "ru": "Силы коалиции нанесли масштабные удары по Йемену, уничтожив 50 военных целей и пусковую установку баллистических ракет хуситов."
     }
+   },
+   {
+    "ts": 1795758431,
+    "time": "2026-11-27T05:47Z",
+    "severity": 7,
+    "summary": "איראן הצהירה כי היא מתכוונת לשבור את המצור האמריקאי וטענה לשליטה מבצעית על מצר הורמוז החיוני לתעבורת הנפט העולמית.",
+    "i18n": {
+     "he": "איראן הצהירה כי היא מתכוונת לשבור את המצור האמריקאי וטענה לשליטה מבצעית על מצר הורמוז החיוני לתעבורת הנפט העולמית.",
+     "en": "Iran stated its intention to break the US blockade and claimed operational control over the Strait of Hormuz, which is vital for global oil transit.",
+     "ar": "صرحت إيران عن نيتها كسر الحصار الأمريكي وادعت السيطرة التشغيلية على مضيق هرمز الحيوي لنقل النفط العالمي.",
+     "ru": "Иран заявил о намерении прорвать американскую блокаду и объявил об оперативного контроле над Ормузским проливом, имеющим жизненно важное значение для транзита нефти."
+    }
    }
   ],
-  "last_update": 1795730035
+  "last_update": 1795758431
  },
  {
   "ts": 1795707799,
@@ -166418,6 +166449,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MckoxN2tFS2VzVFltN2lydTE3SXBhWFlkOXFUU1p5RHVGb1RkMkZpUkU2emNuSjlySnlXVWVJeTRfVzVTTnVSYw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhVHNXN1RPNWRIOE1jRm9OcXl1VGpzTVBtNDhiSnFHUElsT1JNUkFXcS1lREhRR0lyZDhYYmFOSzI5VVNfa2JRSGpmQ1JVQkRa?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaDZXR0JVSmRBUDNmUW1BTkhYYk1BamtTMWprMmNMQVQ5d2p6MlZ6VTBSMjZRZ01DdjBNSURYOVE2c0FmU0xDb2hVdnNoNldHRG44WnMzcWNYaXhtUE9XZEFZUlRFcEl1M0FFdVpONGhYcWVWWTRvS2JhektENjdrREVESnNSb21lUnJkYnRyTHl4Sk14T0JWbW9adkNXbEZmb3RTRERwaXRrc0RLX2w4?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORUFzNkZiZlE4U25yN1hkUlN0THN3WDRDQmVIZE00bjdwUTV3OWRzdUM4X1ZEX3NFUG1ocjdzM2xkMlcyTHdJVTRKUjE3a2tOLVVubk8yQTF3T3p3ejNBblFnenY2dmc2MUZ4cUI2VGJSbE9QR3VxNU9qMWZhUl92N0dJUUdrY3hnaV9MZy1oZ2g4c1dVUnFDbTVBenA0bzBuMll4VlM0WXNFQXlDNl9XMy1WZUhKVnRrQlVLRjBNMjJrcnFadEYybHRNM2ROZ01peXFV0gHaAUFVX3lxTE9FMThkSW9vTUdHclJzMVB5MzFKYWd2ajQycnNRQnlZT0N0WkxXbWRVVktKX1Y3OEtiamRmMXNIT2tYY3d6SGV6NnEtRTFmUWNTRFZZWnhtTktid1MyOEV5dDBZUXFtbEd5YWhmSlFDNjg3OTRSYlZLQ0ZhYlNCdWwwNFlhT3dmUzRZU2h6Yk5fd0R4TUpTNnp5ZElfYnoydDQ0dzJ0T0RpVWpzVkF6Qm0xZmc1Q0hMalhqT2l0WE1zeWFKVFdvMWxMLTdTb2k3QWZCeE1aSGhHRGt3?oc=5"
    }
   ],
   "impacts": [
@@ -166492,9 +166535,21 @@
      "ar": "إيران تقצّظ دعم الغذاء والوقود وسط ضغوط أمريكية متزايدة، بينما يجدد الرئيس ترامب تحذيراته لإيران عقب هجوم على مصفاة أرامكو السعودية.",
      "ru": "Иран сокращает субсидии на продукты и топливо на фоне растущего давления США, в то время как Трамп предупреждает Иран после атаки хуситов на НПЗ Saudi Aramco в Саудовской Аравии."
     }
+   },
+   {
+    "ts": 1795758431,
+    "time": "2026-11-27T05:47Z",
+    "severity": 7,
+    "summary": "מתקפת טילים של החות'ים פגעה בבית זיקוק של אראמكو בסעודיה והרגה עובד, בעוד אופ\"ק+ מתמודדת עם דיונים קשים על מכסות הייצור לשנת 2027 ומחירי הנפט נותרים גבוהים.",
+    "i18n": {
+     "he": "מתקפת טילים של החות'ים פגעה בבית זיקוק של אראמكو בסעודיה והרגה עובד, בעוד אופ\"ק+ מתמודדת עם דיונים קשים על מכסות הייצור לשנת 2027 ומחירי הנפט נותרים גבוהים.",
+     "en": "A Houthi missile strike hit an Aramco refinery in Saudi Arabia killing a worker, while OPEC+ faces difficult talks on 2027 output targets and oil prices remain elevated.",
+     "ar": "ضرب هجوم صاروخي للحوثيين مصفاة أرامكو في السعودية مما أدى مقتل عامل، بينما تواجه أوبك+ محادثات صعبة بشأن حصص الإنتاج لعام 2027 وتظل أسعار النفط مرتفعة.",
+     "ru": "Ракетный удар хуситов поразил НПЗ Aramco в Саудовской Аравии, погиб рабочий, в то время как ОПЕК+ ведет сложные переговоры по квотам на 2027 год, а цены на нефть остаются высокими."
+    }
    }
   ],
-  "last_update": 1795737325
+  "last_update": 1795758431
  },
  {
   "ts": 1795726624,
@@ -167038,12 +167093,32 @@
    }
   },
   "category": "trade",
-  "severity": 4,
+  "severity": 6,
   "confidence": "medium",
   "sources": [
    {
     "name": "Google News: trade & policy",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUgzaURBakNtdzFUUWpRR2sxZ2xyTXlRdmlJVjdjVDZkbnI5RnlnaWduRTB6WXJhaktLTmYzNWlGLW5mZzNNelNNRmd2WWxtNjN6b1Jwakt0OFhjdGZKc016bGdyT2YwNUxVeF8wUWUwWG5hd2g1RlVESDB6WXlVNElxVTlqdHZRVTk2MDI4NDJnV3NsVkdSMDBZR2RnREtuQVJNblZuVVpCRlU5T3JodkRQeUzSAboBQVVfeXFMTTc2dGExQjV0bml1R2RYdmNILUJGbTl6aDQ1eS1SbnFOd0ttRExmemJfTFg1TEhGbDZCUE9LdnJWZXVUOWlnZHlweU5vSlo3OHZuUU1QLXBTNFkyOE5vS00zaERxSXlvTGlMMHJZenNNWm9hd2RZcmQ5cHVPenZ3NUpLQnhRLWttU3BLc2h2SnQ1d2tiZFpTLWFKZEdVZ2k3eWM5NzlEWVdGbWtGLVZ6RmN5blREb3BxUEZB?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xeEFjVkMzVUtEOEFVOFY3MWRlMWVjbjEzSTFTcXMyenhNVHhzRFpkNkNYa05oS2UtQXAtb3pGaEpsVVdlbUtmNEFIVkFHQ29sdVoyZGpaSQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPczhOS3E2Y2wzdGs5WVBZVkpUUWw5NEVkR0R2LUNRbXhNTEZucDRUY3dTaS1TNGxETm1MOFJCR0NRUUxmalBCNWxyY2E2dUdkaDI1SFp5VDlET2pDYkMzSjdWMVFidFZERkRpbUFHYU4yUGpqb2ZYUEVDWTEwc0hlQTNMUjd0Y2Vya2xtbTJFWDB2RU5KbFZtcDBGLVpGN21rLWhnYnhRU3EtQm9sT0c0VFNPUTZFdzc2ZlhYdFFoeWNOem9DcnJRU0E5UEEtTzZZWlpJUlpIb9IB3wFBVV95cUxPR0pCMGxjMlZtRTFrbnRob1lrdEcxNlNyRkZWc2ZNX0pmNm9SczlfclNmUUNiWVJPeHBzSXB6bWg5Z1RWX3FLcTYtbkZ6MUtyc05RUF82Y0Vwak9EX003eHZ2VTBnRklUNmFtanZES2xZenlCUkt1RVhDSmJ4ZW8zSl9Za1ZKbm5GV2RaNTRLYWJTZ0psdmMwWWszY2xFTFRoVjNIZ215VUIwQzBHeE5ndzNhcnAxZkZsWEdTSU5Vd3FvVzFuQjBQTHBSbDVUc3NrbXdOb09QU1NZN2FmRVJJ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jc3VVY3NNRWstT1FJYl9Lc2c0azlnN1JJM1I0X2R6SUlnd0lPYnlvd1ZVTDdxTzM0SUZkVW8zRTFiNmFEcnBOV1k0ZWFYOHhZNjVuNEtWaHhMUWprd2FTWGxQR1gwS1ZmRFd2R3BpN2ZyRXgxbkE?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZklIQW1aTVhxTHRHc1RqWHdGeEVLYnloam1McE5TUy1zbDVnMmFQbGpRd3ZQRDYzcUhBRG9yR19YZlZxMndjdktXVmF5V1dZS3cwQlFGWHJjTldtSXZqak42SUstWWxxTl91WlVNNFpUZzFBc0t4dTVwWlZGMmlSclZjM09Cc0VXMDZfaU5uOGJJYUp2aGc?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWdON191SHV5cUY3SmR3Rk80eFJmeFRUZ3BxbjN6c3o3dFJMS1N5LXd3b1FOR2hacDhPa1M3UTZyRHdoYXRNdG1fTl9mZzBicjBLXzZfdTMzWVNjN3FQNTI1bjBtYmVDVTlvUy1jU2JqQW9ZelY4QUZiSW9zSm9kQTFB?oc=5"
    }
   ],
   "impacts": [
@@ -167065,9 +167140,43 @@
      "ru": "EWY — ETF Южной Кореи"
     },
     "price_at_alert": 129.19
+   },
+   {
+    "ticker": "SMH",
+    "direction": "down",
+    "t0": 1795758431,
+    "reason": "לחץ על שרשרת אספקת השבבים באסיה מעיב על סקטור הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "לחץ על שרשרת אספקת השבבים באסיה מעיב על סקטור הטכנולוגיה.",
+     "en": "Pressure on Asian chip supply chains weighs on the tech sector.",
+     "ar": "الضغط على سلاسل توريد الرقائق الآسيوية يلقي بثقله على قطاع التكنولوجيا.",
+     "ru": "Давление на цепочки поставок чипов в Азии негативно влияет на техсектор."
+    },
+    "name_i18n": {
+     "he": "SMH - קרן סל מניות מוליכים למחצה",
+     "en": "SMH - Semiconductor ETF",
+     "ar": "SMH - صندوق أشباه الموصلات",
+     "ru": "SMH - фонд полупроводников"
+    },
+    "price_at_alert": 422.46
    }
   ],
-  "id": "e2e9b657902f"
+  "id": "e2e9b657902f",
+  "updates": [
+   {
+    "ts": 1795758431,
+    "time": "2026-11-27T05:47Z",
+    "severity": 6,
+    "summary": "ממשלת ארה\"ב הציעה מכסים בגובה של עד 15%-18% על מדינות בעלות ברית וקומבודיה, תוך הפעלת לחץ על אסטרטגיית השבבים של דרום קוריאה ומכסים פוטנציאליים של עד 25%.",
+    "i18n": {
+     "he": "ממשלת ארה\"ב הציעה מכסים בגובה של עד 15%-18% על מדינות בעלות ברית וקומבודיה, תוך הפעלת לחץ על אסטרטגיית השבבים של דרום קוריאה ומכסים פוטנציאליים של עד 25%.",
+     "en": "The US government proposed tariffs of up to 15-18% on allies and Cambodia, while scrutinizing South Korea's semiconductor strategy with potential tariffs up to 25%.",
+     "ar": "اقتحرت الحكومة الأمريكية رسوماً جمركية تصل إلى 15-18% على الحلفاء وكمبوديا، بينما وجهت انتقادات لاستراتيجية أشباه الموصلات في كوريا الجنوبية مع احتمال فرض رسوم تصل إلى 25%.",
+     "ru": "Правительство США предложило пошлины в размере до 15-18% на союзников и Камбоджу, одновременно выразив недовольство полупроводниковой стратегией Южной Кореи с возможными пошлинами до 25%."
+    }
+   }
+  ],
+  "last_update": 1795758431
  },
  {
   "ts": 1795737325,
@@ -167645,27 +167754,27 @@
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYU5aVTlrNFJQanVMR1ptbGVjd3hFcS1kdk9VcEdmcFVuM3Q0NDllSFV5VGRyTXphRUNYYWNwWnRObWtoV0YyR0JQNkVLX3N6UUlWRGtyaGRFLUhmTl9ZaXB6Rll5cHgyZUFKQVZiNFZxUWpkUHBpcHlTTmNmM3AzYXJnZi1jcXZyY3c?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRDBvbTI1X21HNVVHNEhHUXJ3NlZOVC1TMjVjWXJQRTJTWTNjd2ZSRzNjMUs0TTF0eUtxVFNsX3J0ZWxUVmJ6dHlTRHJhc0F4WWN4WVRkLUlNTXdldjhSR04xbmN1VzdPb0FDQzVFM3VLVm1lZEJNdUNMdnpXbE5EQVJ1c1VTd1RPUHhqRlQtejRSOEtUYlBOeU1nWm9zVDg?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORmVpbVdtWFM4bDI5VGJNZFNUWjNOWnNNT3BycWUtRHlWeWQ3QUpIVjduaWRaTjVPZllfNU1uQmFOdllYSi1BZEFMdFh1ZmNEeXh2bGw5ZnVwS2cteDl5SV92R21CQ0t4cnliaDFuemYtbXRVcWlsYTQxRnVjRmZiS0ZmT1gwcVhuV3Vyb0toM2F2M29EMWhhdjlqcmgxSzg5aXJkVUVLUTFBLU0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONmx5SkE3YlFGSkdqOUwyb2RIYUp2SVg4OWM5SHhmb3phSEREeF82VnkzX0ZXOV9jX1Z1YllnZUVtSFlhSTVlbldqWkFVUjdhOEJDVmFPdTFOV0dKMzduM05XNGVTWDAtek1VMVEwNjlKeS1vOUFZX0RRVTAxMnRtZFRESGlUOWFYVFdKYl9iNDZNNFNXYWJTRGY4c053WDF6N3pZNkRaQWs5cHF3eGUzb19fakJYSG5kMzJkVlBTS0o5T3U0bTFiTG12cDJQdWc?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWgtdF9hNFBEQmdMenpIRW0xUFZzMktKWXJFTi1HZnhwdW9Fc3haZHBMTF9meFRmOERpbk84eFZfM1JYWUgwa2VTX1p5NEZJX2tURlI2S3VRV29OdmpjN2RUbGt2NW5DbkNlZ2dpMGpUY1JpN1BvZVUtMEdWZVVOV0U0Q1FYbnRyVk1qSUdKLXlJSTdyb280VlhQNzFrWm1ZQnVLVVJ6Tk1Pekl5dUtvRkNn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0NVE2Z240RkpVSnI0V3VpVC1rWldGT0dDS3owLTZUbHkyY0duQjBib0VycTJsWkVuemdrOTlxMXZlNXRySXBhN3ZTZ0hiVy1LWE0tOVZCQUtaUmR0SUxhTUU5cmZwYnfSAVxBVV95cUxPNGFWQ1dvaWhqTHdTUG0wYmdFaDRCOVdhNlcyakp1Z0FiRWRJbmJVcjFla0RUdWt1MWJwSHBYR2t6R2xxenpMZWM2dzFhbzV0NTNRZFlRcHpxZjh0aQ?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcjhXSElucElEYzUya1o5OEtCQjFWNHVfRGNXeUZlLUVfWms2RW1udTJtNGdQV3pJUXdSMTRGR1M5Z3luUmpHY3pkamMteEZYOGU4bVZZcEw0WXIyZEZxRFVqZ0Vac1huTmJkTmZuSjEzb01sNHIycm1NdGRKelBiQ0JCY0t2VG93RlNnbWJBRDBqTG9vQWduOFhRWC16SURjNFQ4aE5LTk4yLUduVkRCbW5GcmJ5OEFkSkV2QkxibkJDTEJ1?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiem5EazJjSk5CblFsdnB1bm9FUWFNb0tyMEdreTV3cHhtZVBuS3F0TThiMFdXbGxZbm51ekdXRXh5eHZaOEZQdHUwSU5DVUwwT3FXS25pd3oyZFB3MDc2QTc3NzBfMEN2cGlMSkxlZGFxcHgwb2ZsS1Q5cUxvUQ?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONHJtbHFieEdsSVNZMVh6OERvMkJQQmtZS1VpVkRleHlWM20yUWQ1a2dZNEJzUVRfU2VMTTVkRFh0LXFsczNBSThwcXE4d0N3ZWZUZ3ZNbHYyak1VYmZXZURoRlJHeVBCYW10TGU5cUdwaUpvVXRMbG84Tkx2Y0oxSzN4cE1hZFp0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYjgyNWJtWUpNWVFxb01namRXTGpIZ3JBUl9nNjdVYVRCMjBOak5ieEhQRHdlclRNMGZXZEZxa1QyQVI4WGVXSmgyaGZ6WnlPVFptM1QyMERJVmZpOWNTaUV2TlNKZlhseE92Y2FlYUpuMlc1aHRKQjcxSjdyTDQ2OFhwN0xYUnRwSEpnQTREemNRUmJrTEZoY2w3SUJOR2QxbHhSUmZrRzZNLXd5UFl0T0hGV2J3Ykh3NDhZODFjakFidnBBeDRlRDNZblFqeFM5dERfa0pZLXlFdHc?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYXc5bFpmVE5OVjBScWhGM1FyclZldWdFWWQxQVBiM2NCbjg4YWdMU2dzbUZPQzlQRlN4Tm5QaHlSNURhWnY1Rl9ORl9fTXlIWmVicW93dllKdUdvT1BEemdPa1RzX2JTUUV3cFhQd2RwZTc4VVN5TGZQZ18yai16Q05oUkJJQ2JoOUlILWdUejFoRG5jNElJdmhxOFVpRGNWNkg2MmE1Y1dVNE1wMUdqb2tKelhodFdmZXFXUGpyaDFIdw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNTBnWlRnWTg3M0hRMkVpbFVobjY5ZGxjQkZQR3RBdnd4MERHQjQ4b01WbUo3NlNjLU1YV0FMZUFJTXpNa243N2VKTU1PZm1sZ1VLcE4wUlZyYnVqR2RuRTlRVEtZTnd1cVRsNkN2ckZ0NjNGYkhxc0dsQzJqNFVJa2Z1STdUTmt0R1E?oc=5"
    }
   ],
   "impacts": [
@@ -167706,6 +167815,25 @@
      "ru": "ETF на Австралию/Новую Зеландию"
     },
     "price_at_alert": 27.37
+   },
+   {
+    "ticker": "EWC",
+    "direction": "down",
+    "t0": 1795758431,
+    "reason": "חוסר יציבות פוליטית אזורית מעיב על סנטימנט השוק.",
+    "reason_i18n": {
+     "he": "חוסר יציבות פוליטית אזורית מעיב על סנטימנט השוק.",
+     "en": "Regional political instability weighs on market sentiment.",
+     "ar": "عدم الاستقرار السياسي الإقليمي يضغط على معنويات السوق.",
+     "ru": "Региональная политическая нестабильность давит на рыночные настроения."
+    },
+    "name_i18n": {
+     "he": "EWC - קרן סל שוק המניות בקנדה (מדד דמה לאוקיאניה)",
+     "en": "EWC - Canada ETF (Proxy for Commonwealth markets)",
+     "ar": "EWC - صندوق كندا (كمؤشر بديل للأسواق)",
+     "ru": "EWC - фонд акций Канады"
+    },
+    "price_at_alert": 56.89
    }
   ],
   "id": "d425c5725297",
@@ -167721,9 +167849,21 @@
      "ar": "تؤكد النتائج النهائية للانتخابات في نيوزيلندا وجود برلمان معلق، حيث يمتلك حزب وسطي صغير مفتاح السلطة للحكومة القادمة.",
      "ru": "Окончательные результаты выборов в Новой Зеландии подтверждают наличие подвешенного парламента, где небольшая центристская партия обладает решающим голосом для формирования следующего правительства."
     }
+   },
+   {
+    "ts": 1795758431,
+    "time": "2026-11-27T05:47Z",
+    "severity": 4,
+    "summary": "התוצאות הסופיות של הבחירות הכלליות בניו זילנד אישרו פרלמנט תלוי וקואליציה ללא רוב מוחלט, מה שהוביל לירידה במניות המקומיות עקב חוסר ודאות פוליטי.",
+    "i18n": {
+     "he": "התוצאות הסופיות של הבחירות הכלליות בניו זילנד אישרו פרלמנט תלוי וקואליציה ללא רוב מוחלט, מה שהוביל לירידה במניות המקומיות עקב חוסר ודאות פוליטי.",
+     "en": "Final general election results in New Zealand confirmed a hung parliament and a coalition falling short of a majority, causing local stocks to slip amid political uncertainty.",
+     "ar": "أكدت النتائج النهائية للانتخابات العامة في نيوزيلندا برلمانًا معلقًا وتشكيلًا يفشل في نيل الأغلبية المطلقة، مما أدى إلى انخفاض الأسهم المحلية وسط حالة من عدم اليقين السياسي.",
+     "ru": "Окончательные результаты всеобщих выборов в Новой Зеландии подтвердили подвешенный парламент и коалицию без абсолютного большинства, что привело к падению местных акций на фоне политической неопределенности."
+    }
    }
   ],
-  "last_update": 1795750523
+  "last_update": 1795758431
  },
  {
   "ts": 1795746521,
@@ -168131,5 +168271,288 @@
    }
   ],
   "id": "6b3373931a6e"
+ },
+ {
+  "ts": 1795758431,
+  "time": "2026-11-27T05:47Z",
+  "title": "הסכם סחר בין ארה\"ב להודו מתקרב לסיומו",
+  "summary": "שר המסחר של הודו מצהיר כי הסחר וההסכם הכלכלי עם ארצות הברית נמצאים בשלבים אחרונים וקרובים לסיום.",
+  "kid": "הודו וארה\"ב קרובות לחתום על הסכם סחר חדש שיכול לעזור לעסקים בשתי המדינות ולשפר את מניות השווקים המתפתחים.",
+  "i18n": {
+   "title": {
+    "he": "הסכם סחר בין ארה\"ב להודו מתקרב לסיומו",
+    "en": "US-India Trade Deal Nears Final Completion",
+    "ar": "اتفاقية التجارة بين الولايات المتحدة والهند تقترب من الاكتمال",
+    "ru": "Торговое соглашение между США и Индией близится к завершению"
+   },
+   "summary": {
+    "he": "שר המסחר של הודו מצהיר כי הסחר וההסכם הכלכלי עם ארצות הברית נמצאים בשלבים אחרונים וקרובים לסיום.",
+    "en": "India's commerce minister states that the trade and economic agreement with the United States is in its final stages and nearing completion.",
+    "ar": "وزير التجارة الهندي يصرح بأن الاتفاقية التجارية والاقتصادية مع الولايات المتحدة في مراحلها النهائية وتقترب من الاكتمال.",
+    "ru": "Министр торговли Индии заявляет, что торговое и экономическое соглашение с США находится на финальной стадии и близко к завершению."
+   },
+   "kid": {
+    "he": "הודו וארה\"ב קרובות לחתום על הסכם סחר חדש שיכול לעזור לעסקים בשתי המדינות ולשפר את מניות השווקים המתפתחים.",
+    "en": "India and the US are close to signing a new trade deal that could help businesses in both countries and boost emerging market stocks.",
+    "ar": "الهند والولايات المتحدة تقتربان من توقيع اتفاقية تجارية جديدة قد تساعد الشركات في كلا البلدين وتعزز أسهم الأسواق الناشئة.",
+    "ru": "Индия и США близки к подписанию нового торгового соглашения, которое может помочь бизнесу в обеих странах и поддержать акции развивающихся рынков."
+   }
+  },
+  "category": "trade",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWNIbjNKcWtMUml0XzRUdzdrb1NnMU1idFQwNjFqZTJ3RWZSM1B0QzhMSWx0YXJ3aS1jSU5OMThYRUNmcVoxZlFFNk1McFZTYmw3ZURINjhfM1NjcnVCdGlyN1VBalpvMjg2cE04aE13OXRFaTZVbmxka3ozblVOVWZZRDZRX1NmTW93MGtrTnhRcTFaa2NILVhaMWRyeXV4eTY1elZzd3lWMW9kYmZLdVBzbw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHYwQ1gxX3JTREZOZ3pHUi1yM3dWWV9XZGE1YnVGWUI3Nk1fQ0k1Vm9XUkZ6OEtqT0YxM2ZvZXcwV2xSOUtwRU1EaFI1NGZJSzk5bHBEUldoZC1EbGNLZ2oxZFViczlfc1Y4bGpQR2dvdzNOSV9USWRLS3o2RDBEUFRyQ2F6YktOOWFSWjVPNFE1akJTdHd1UVZTZFA2X2RIVllRWkFFM2Fyc21DT2xfLURJQQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU0x2dno0dkg0ZnlLLW1WblI2RlZnUWExRnY1dW1EbjZOM3JiaUFOclFVZFFKUWx1UlpWOGlsYjFjQzB5enV0UFVhMnVydk13ek5EcEtnTUJXOEFXNTJhb3g4MDFGeFNJZ0RPU21uYmVPYXRKMjdteDJoZkFiWk1QTzFLNmFsTklvUVJBM2VGWFJBZVhFUTlzUUdzc0tCWlZXTlJjN0tpajQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdGUzd2pqeWRDRUg5RVRxanBhT05QV2NFNktuODdsZE4tVS1WT01IMXkwNEpDR1pIUElKbDk4OWhkd1ZYcl9CNW1ibHV4TldobmtwMm85cnhLV3ZWMUVZVGVxYmwybkFvMjBDUFlGaGZJWHpXS2p4eFlTOHhUYVk2cG52OUZ3N0JpNGEzMVZwWTBudXpKa0Y0Z2xoY3Y2ZzY1TkHSAa8BQVVfeXFMT3MyYS1lZUJTX1FWd2NGa2lhcHc2Mk51ZVI4TnpXTWxlN2JQMHZlOExBVVRkb0ZkZkhTbENKcHp3MVY5RGYyTVJ0akZ1UmpBR3hEYUl5VGxVSGhPMVR6UDRmNGxsb3h4dHRnRV9iYTE1ZFZRNFp5Tnd5ME5URVFiN0xrSUZRdzBfeHYtTG9rSER4TWxqekhfSDNiZFpYOXl1NXBuQmxTR0Q1X3ZMZlllTQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNTZ5dXA0bmtKM0ZTQVNJR3lxT2diTEhYTURXbkhDRXVJTzY4anZwNjlLTmVuRWdEWkJNcVhIRnFrLVc0Qjh2aTN5RXBxZlBwMGNpVXAxbVZsWFdnMzdiYTU0clBuWGNmVlY2YTlaZlhuZ1dod1Q4ektZWWh0SHRMdVJiREhOcGFiQjRKME1XREdOUG9pOVRMN0d2YUhhZW1Hblp0UEx3VjZadw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdU54Q2p1cjF2NnlWVG1aOFd4anBmcTI4aFczamdESjlrMWFBdDYxSk5BYjJicVJaWnlRaGltLUxhVE14T1BHQVF1emhrNkRRMHEtbFNITzBBZFJaYm1uOEg1S1IxV2lIajV4Y0pIekdmVFdRNTduNTJtQXJNOG13eWl4OXBNcHZlQV9XREY4UEZId1Z2d1YwYUk4YnlTTWN3bnow0gGoAUFVX3lxTFB4Z0dFdmNIbEQ3Znc4WGNzNGpacUk1ZGVKdXVEWnpFVWRLYjkydGlEbzZMNDJFajdIMkc3RUdSMlUxNGFFemZZMmJ2T0xPM25hT2RBV3BfSnNkUTZpYzFidUsyaDZNendKVk1tdXp3WHptc1Nxd1p4ZHpwSVNmdFZudk43VVg1akxqakdPcXkyUGdlajBEbmJxbzdhNElrNzZMQ1VNbFQzaw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUFkxWDZPUk5relVUNFp3bnBaSEFrSWQtSHJxck9ObWo0cGJxRFF4UHkzTllWNzV0ek1CdVpvN3RCQVR2dF84U2ZES1VtMFg1VXVDdUdRNGlxUVg0WWdyVFNCMmdGZDZTUjh0OTJuUEFtVWNEdXdoRENHcXJ5RlVIZUxORGdhNzZ2V1lhY0dQdGo1UUJ1X3dod0xOWHFmMFNweWF0Q1NrUjluYlhFYm1aVFVfOTJJQQ?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMkR3N0t3ZmV1SDk5LWNGa3hCcXVleWpPVFpORzVUZnUtYUJoUXQ2eFEzN3ZrQjcxMHhCaXk0NzY4M2NkSFNic1Q2aGJYZlZoYnFlSG5iU0NQX1dUNWZzci1xTU10bm5UbGRYSWkzdno1c3dDRlpZWjVxNjRaWkF5ZzlJdGxsUlJpWUFTbDZCN0d4bFlqN3NNOG4xdy1zZy05TmxNZTlR?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMkp4MzJfMTJOR05hTTRaaVFzSkhDeGtmVVQ0VmhCdV9NOUM1Tl9tbDQ4bjdieU9fM25TRlJnTENnbzlHMlh0d2dRUUpCdmZsUzNuLV95bEU0N29SY0JKZVBnYXNUTWQ1V1NFdHRpeFZmOVY5RHR0UXlDNWpHLWMtX2dOWUtxZEJOYjM3Wk1xb2REWFlFMm0wWnB4c3I0WmtmeTR0RnBJVmJxWTRTb21n0gG0AUFVX3lxTE5ad3FNUmpQMXB6YzBEYTNjWU1yRHlPVGNXb3ZhdGtYdU1GNzZLYjM3VjdBdGVzQ3RsUVBtNG00Q0lnVmJTWUFtZ0JEZ2dVeW43ZmdlVFhWOFhHZUFpX21wRm9rM0RnN25HcS02Z2xwM1FUREY1ajRlaXZ4WVVFekNUemNSOTZmdnhCdnFJYmIxV2RESmlkdUVKc3hvXzJMYlZma2NvRXBvUlIzTUNiMmJHRGV6cw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVmZZeVhCTnJna3RVeEs4NkhXMmJlT21IVFNZZ0VUTDN6SWlQbHdhNFRHZXpMOGN3ZlBzTUhWWTBVZng2ZFFoRTBHZ2F0REw3VkZxamd5MVg5bHlZQ05heXQ1dEhIXzVDcm1udDBnd0RTOGd4RlV2TVh5TXlwZk1kY0Z2RDRDVk9feGlXSmJnVm8wUkp0c2VfbGJ2SU5KbjVVNFR2dG5iaTRxRmdBT2ZGaTVWSkHSAboBQVVfeXFMTUhfRGhrT19SLTFvVXJoX1djTllaNWFvSmtRbjlIYloxS3ZKd1BwN2NxLWRPWllZNW9kZEcwVmZEa0s3Vlh3R2ZWOThTZzlWdTB5VHFKNkZLR09sR0Z6U2xKLUQ2RmRaZlpJcU1HdC1PMEtKSEV6eS1sUi1aMDdiRnVfTzNPZUhUaXFXbUpXeUdzX1FYbDlReU9PN1BxdXlfSkNwd2daV01LRUQtR1hZUngydldLc2o5MUF3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTFI3OVY5X3llMUZHRVBOV3R2d2ZiaVhsME1jcUlhRVA2VTFUR2Q1NnFKWDdQd25Ob2EzT3gxT2RiZ3ozTHZJZlhzWlB4MWcxRUV4c3FTWFBsMmxiSDdMaUpPS3YzWTRuZTFULWxXZ29fUThLMm9BNVdwX2t6WFoxUEtieEM2MFVFRWJZdUlheUEwUkZ0bThDZHp5aThjdFRNNXEwOWU1N3huZWF1Z0lSWQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1795758431,
+    "reason": "התקדמות בהסכם סחר מחזקת את הכלכלה ההודית.",
+    "reason_i18n": {
+     "he": "התקדמות בהסכם סחר מחזקת את הכלכלה ההודית.",
+     "en": "Trade deal progress strengthens the Indian economy.",
+     "ar": "التقدم في اتفاقية التجارة يغذي الاقتصاد الهندي.",
+     "ru": "Прогресс в торговом соглашении укрепляет индийскую экономику."
+    },
+    "name_i18n": {
+     "he": "INDA - קרן סל להשקעה בהודו",
+     "en": "INDA - India ETF",
+     "ar": "INDA - صندوق استثمار الأسهم الهندية",
+     "ru": "INDA - фонд акций Индии"
+    },
+    "price_at_alert": 53.2
+   },
+   {
+    "ticker": "SPY",
+    "direction": "up",
+    "t0": 1795758431,
+    "reason": "התרחבות הסחר הבינלאומי תומכת בסנטימנט חיובי כללי.",
+    "reason_i18n": {
+     "he": "התרחבות הסחר הבינלאומי תומכת בסנטימנט חיובי כללי.",
+     "en": "Global trade expansion supports overall market sentiment.",
+     "ar": "توسع التجارة العالمية يدعم معنويات السوق العامة.",
+     "ru": "Расширение мировой торговли поддерживает общие настроения рынка."
+    },
+    "name_i18n": {
+     "he": "SPY - קרן סל מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر إس آند بي 500",
+     "ru": "SPY - фонд индекса S&P 500"
+    },
+    "price_at_alert": 716.7
+   }
+  ],
+  "id": "3a95354fafc4"
+ },
+ {
+  "ts": 1795758431,
+  "time": "2026-11-27T05:47Z",
+  "title": "אוסטרליה מטילה סנקציות על סוכנים איראנים בגין מתקפות אנטישמיות",
+  "summary": "ממשלת אוסטרליה הטילה סנקציות רשמיות על שני סוכנים המקושרים למשמרות המהפכה של איראן, בגין מעורבות במתקפות והצתות אנטישמיות במדינה.",
+  "kid": "אוסטרליה הענישה אנשים שעבדו עבור איראן והיו קשורים לפעולות טרור ופגיעה ביהודים. זה מעלה את המתיחות הדיפלומטית במזרח התיכון ובעולם.",
+  "i18n": {
+   "title": {
+    "he": "אוסטרליה מטילה סנקציות על סוכנים איראנים בגין מתקפות אנטישמיות",
+    "en": "Australia Sanctions Iranian Agents Over Antisemitic Attacks",
+    "ar": "أستراليا تفرض عقوبات على عملاء إيرانيين بسبب هجمات معادية للسامية",
+    "ru": "Австралия вводит санкции против иранских агентов за антисемитские нападения"
+   },
+   "summary": {
+    "he": "ממשלת אוסטרליה הטילה סנקציות רשמיות על שני סוכנים המקושרים למשמרות המהפכה של איראן, בגין מעורבות במתקפות והצתות אנטישמיות במדינה.",
+    "en": "The Australian government imposed formal sanctions on two operatives linked to Iran's Islamic Revolutionary Guard Corps for their involvement in antisemitic attacks and arson.",
+    "ar": "فرضة الحكومة الأسترالية عقوبات رسمية على عميلين مرتبطان بالحرس الثوري الإيراني لتورطهما في هجمات وحرائق معادية للسامية.",
+    "ru": "Правительство Австралии ввело официальные санкции против двух лиц, связанных с Корпусом стражей исламской революции Ирана, за их участие в антисемитских нападениях и поджогах."
+   },
+   "kid": {
+    "he": "אוסטרליה הענישה אנשים שעבדו עבור איראן והיו קשורים לפעולות טרור ופגיעה ביהודים. זה מעלה את המתיחות הדיפלומטית במזרח התיכון ובעולם.",
+    "en": "Australia punished people working for Iran linked to terrorist attacks against Jewish targets. This raises diplomatic tensions in the Middle East and globally.",
+    "ar": "عاقبت أستراليا أشخاصاً يعملون لصالح إيران مرتبطين بهجمات إرهابية. هذا يرفع التوترات الدبلوماسية في الشرق الأوسط وعالمياً.",
+    "ru": "Австралия наказала лиц, работающих на Иран и связанных с терактами. Это усиливает дипломатическую напряженность на Ближнем Востоке и в мире."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQczd2NEVTbE0tdWRyNm1lOEpXTUxvTG5mM1ktTHhvSDdscHFTRS1yY3JzWkxPdXRwY1ZFeVZ3U0FrZUo4YUJxQkYxbjlKZzVpR1d2eXFlVHFram50NXdiMmdWSE0wN3BySUJyLVEySmg2V1lsUTJtRE5HVGhNc3hrcW1MRGRHbThfZmZLNTR2QjN3Z1RkRlJPSHJrRU9BbDIxTHlBSXZoQXpab2RLN1FYbHU0MlljUQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcWVmenRBNWdxajVpV3FUSUpjekRuQzl2MElIQW91V0ZENUlHZE1hOU9YOWNpeGptWnpnZzZ4S3hYeUV3VHpQUkRoZHhpYm1NZnlNcm1Jd1dNbXhVOTdvMU05RnZ5eC00RjJQazBxczNZSGYybjdGWjVrbFJIeW41eHpRUVNxSlFkSHZuX3EtUGNFYWhDbVdUeUdnR3BSWDBrN1ZxMzdwaWVvaUtTVEVCYTE3OVpnRVkzMTdGctIBwgFBVV95cUxPNk1WVFUwbl9HRGFGUWJtU0NmQ0Nhd245Wkg0V3k5QUZOUVROWHluUnMyTGt0aDlxcVdKNWVCVXpuamZuU0ZSTERvR3pGcWNmSWxpcVVRRUZkaGhub1poM1BJNE45SkVWNUhCVWxXdmNUTE9wTmZFbklhSzBUeGRSTi1hTUZzR2p0NDR1MXl6MHRmOGxsYzVmQ2FUV2ZOcmxadDZzTndMQkUzN3hEcUNFTnpOZGVTNWRBc1BGQ1hDYmF0UQ?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZFB1Sk1HWi0tNnU0NmtfRVJybElzSnlJRENSQ1BudDdHNjBYRmtzN09MLVQwVGNhWEZDUVFzRzE1WS1rcDRTR21jZTNpaVlNRi1XSDdSVTFHbHdrcHNRazBJOGhPekZTcEwyT05KNXZVbjJIa0JMQlBrWWM3TnlkSlJFbzZOa3ZTUEdrNmFEMjJqeTlOUEJsbmxVTjJPdlM4OG1lT2t0UHJfRkVhUDhSMXhB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMW5Ic2lER0xUWmZwWThWQWxIdy1YVWhCbkp5cXZhUWkzV19HRVBLa1IxS0tFOU1PR0NTVm1ISUp0cTFSQ0VLLWpTRGhQelVXRmlIZkgxMmtYdUVYOUFnZzE4QkU2bTJXWFNSaTA1aTQxNUd0WFIxTGUwRVFzTExjanNPanlkUFd6NGNJelJkNTRzU3BvSXdhVGpMcGZaNUZ1TENXM1VXNFNmVkpRWXQ4b3BtN3BYOGZOU3p4VTRReDBHY2gyclo0RVlVMTl3NXpt?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1795758431,
+    "reason": "מתיחות ביטחונית ועימותים דיפלומטיים מעיבים מקומית.",
+    "reason_i18n": {
+     "he": "מתיחות ביטחונית ועימותים דיפלומטיים מעיבים מקומית.",
+     "en": "Security tensions and diplomatic friction weigh locally.",
+     "ar": "التوترات الأمنية والاحتكاكات الدبلوماسية تؤثر محلياً.",
+     "ru": "Меры безопасности и дипломатические трения давят на местном уровне."
+    },
+    "name_i18n": {
+     "he": "EWA - קרן סל מניות אוסטרליה",
+     "en": "EWA - Australia ETF",
+     "ar": "EWA - صندوق الأسهم الأسترالية",
+     "ru": "EWA - фонд акций Австралии"
+    },
+    "price_at_alert": 27.37
+   },
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795758431,
+    "reason": "עליית מתיחות מול איראן תומכת בפרמיית סיכון לנפט.",
+    "reason_i18n": {
+     "he": "עליית מתיחות מול איראן תומכת בפרמיית סיכון לנפט.",
+     "en": "Rising tensions with Iran support oil risk premiums.",
+     "ar": "تصاعد التوترات مع إيران يدعم علاوة مخاطر النفط.",
+     "ru": "Рост напряженности вокруг Ирана поддерживает нефтяную премию за риск."
+    },
+    "name_i18n": {
+     "he": "USO - קרן סל על מחיר הנפט הגולמי",
+     "en": "USO - Crude Oil ETF",
+     "ar": "USO - صندوق النفط الخام",
+     "ru": "USO - фонд сырой нефти"
+    },
+    "price_at_alert": 139.89
+   }
+  ],
+  "id": "a30e24ff5770"
+ },
+ {
+  "ts": 1795758431,
+  "time": "2026-11-27T05:47Z",
+  "title": "טרה דרון משלימה משלוח כטב\"מים מיירטים לסוכנות ההגנה היפנית ATLA",
+  "summary": "חברת טרה דרון דיווחה על השלמת אספקת כטב\"מים מיירטים לסוכנות הרכש הביטחוני היפנית (ATLA), מה שמעורר עניין רב במסחר ובמניות החברה.",
+  "kid": "חברת הרחפנים טרה דרון מכרה כטב\"מים צבאיים מיוחדים ליפן. הודעות כאלו יכולות להעלות את ערך מניות הטכנולוגיה הצבאית והרחפנים.",
+  "i18n": {
+   "title": {
+    "he": "טרה דרון משלימה משלוח כטב\"מים מיירטים לסוכנות ההגנה היפנית ATLA",
+    "en": "Terra Drone Completes Interceptor Drone Delivery to Japan's ATLA",
+    "ar": "شركة تيرا درون تسلم طائرات بدون طيار اعتراضية لوكالة الدفاع اليابانية ATLA",
+    "ru": "Terra Drone завершила поставку дронов-перехватчиков японскому агентству ATLA"
+   },
+   "summary": {
+    "he": "חברת טרה דרון דיווחה על השלמת אספקת כטב\"מים מיירטים לסוכנות הרכש הביטחוני היפנית (ATLA), מה שמעורר עניין רב במסחר ובמניות החברה.",
+    "en": "Terra Drone reported the completion of interceptor drone deliveries to Japan's Acquisition, Technology & Logistics Agency (ATLA), generating strong market interest.",
+    "ar": "أعلنت شركة تيرا درون عن اكتمال تسليم طائرات بدون طيار اعتراضية إلى وكالة التكنولوجيا واللوجستيات الدفاعية اليابانية (ATLA)، مما أثار اهتماماً بالسوق.",
+    "ru": "Компания Terra Drone объявила о завершении поставок дронов-перехватчиков Японскому агентству по приобретению, технологиям и логистике (ATLA), вызвав интерес рынка."
+   },
+   "kid": {
+    "he": "חברת הרחפנים טרה דרון מכרה כטב\"מים צבאיים מיוחדים ליפן. הודעות כאלו יכולות להעלות את ערך מניות הטכנולוגיה הצבאית והרחפנים.",
+    "en": "Drone maker Terra Drone sold specialized military drones to Japan. Such news can boost the value of military tech and drone stocks.",
+    "ar": "باعت شركة الطائرات بدون طيار تيرا درون طائرات عسكرية متخصصة إلى اليابان. يمكن لمثل هذه الأخبار رفع قيمة أسهم التكنولوجيا العسكرية.",
+    "ru": "Производитель дронов Terra Drone продал специализированные военные дроны Японии. Такие новости могут поднять стоимость акций военных технологий."
+   }
+  },
+  "category": "contracts",
+  "severity": 3,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: big deals",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1OdlY5Ql9TbXFiN3N4UFotUG9FTVdFQTRLNVBQMXVuWWg4X2sxUkxnN3ltTk5uc0VQUDQ3MHBEaXF3WGFINHVXVElWeW9tc0xSeHZ4QkhxTGtUSlJWNmU3RTFSZ1hBMzZMbXZfU2U0VVNKcFF4amc?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "AVAV",
+    "direction": "up",
+    "t0": 1795758431,
+    "reason": "עסקאות רחפנים מוצלחות מעידות על ביקוש גבוה לטכנולוגיית הגנה.",
+    "reason_i18n": {
+     "he": "עסקאות רחפנים מוצלחות מעידות על ביקוש גבוה לטכנולוגיית הגנה.",
+     "en": "Successful drone deals indicate high demand for defense technology.",
+     "ar": "صفقات الطائرات بدون طيار الناجحة تشير إلى طلب مرتفع على تكنولوجيا الدفاع.",
+     "ru": "Успешные сделки с дронами указывают на высокий спрос на оборонные технологии."
+    },
+    "name_i18n": {
+     "he": "AVAV - ארווירונמנט (יצרנית רחפנים צבאיים)",
+     "en": "AVAV - AeroVironment (Military Drones)",
+     "ar": "AVAV - أيروفيرومنت (طائرات بدون طيار)",
+     "ru": "AVAV - AeroVironment (военные дроны)"
+    },
+    "price_at_alert": 91.37
+   },
+   {
+    "ticker": "XAR",
+    "direction": "up",
+    "t0": 1795758431,
+    "reason": "חוזים צבאיים בינלאומיים תומכים במניות סקטור הביטחון.",
+    "reason_i18n": {
+     "he": "חוזים צבאיים בינלאומיים תומכים במניות סקטור הביטחון.",
+     "en": "International military contracts support defense sector stocks.",
+     "ar": "العقود العسكرية الدولية تدعم أسهم قطاع الدفاع.",
+     "ru": "Международные военные контракты поддерживают акции оборонного сектора."
+    },
+    "name_i18n": {
+     "he": "XAR - קרן סל תעופה וביטחון",
+     "en": "XAR - Aerospace & Defense ETF",
+     "ar": "XAR - صندوق الطيران والدفاع",
+     "ru": "XAR - фонд аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 213.92
+   }
+  ],
+  "id": "d44650e12871"
  }
 ]
