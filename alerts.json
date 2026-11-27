@@ -2821,176 +2821,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795213204,
-  "time": "2026-11-20T22:20Z",
-  "title": "אורקל מדווחת שעסקת התשתיות עם OpenAI ממומנת במלואה",
-  "summary": "חברת אורקל הודיעה כי עסקת בניית תשתיות הבינה המלאכותית עבור OpenAI ממומנת במלואה בעקבות סבב גיוס הון אחרון.",
-  "kid": "אורקל קיבלה מספיק כסף כדי לבנות את מחשבי הענק שעוזרים ל-OpenAI לפתח בינה מלאכותית. זה טוב למניות הטכנולוגיה.",
-  "i18n": {
-   "title": {
-    "he": "אורקל מדווחת שעסקת התשתיות עם OpenAI ממומנת במלואה",
-    "en": "Oracle says OpenAI infrastructure deal is fully funded after final capital raise",
-    "ar": "أوراكل تقول إن صفقة البنية التحتية مع OpenAI ممولة بالكامل",
-    "ru": "Oracle заявляет, что инфраструктурная сделка с OpenAI полностью профинансирована"
-   },
-   "summary": {
-    "he": "חברת אורקל הודיעה כי עסקת בניית תשתיות הבינה המלאכותית עבור OpenAI ממומנת במלואה בעקבות סבב גיוס הון אחרון.",
-    "en": "Oracle stated that its artificial intelligence infrastructure deal for OpenAI is fully funded following a final capital raise.",
-    "ar": "صرحت شركة أوراكل أن صفقة البنية التحتية للذكاء الاصطناعي لـ OpenAI ممولة بالكامل بعد جولة جمع رأس مال نهائية.",
-    "ru": "Компания Oracle заявила, что сделка по созданию инфраструктуры искусственного интеллекта для OpenAI полностью профинансирована."
-   },
-   "kid": {
-    "he": "אורקל קיבלה מספיק כסף כדי לבנות את מחשבי הענק שעוזרים ל-OpenAI לפתח בינה מלאכותית. זה טוב למניות הטכנולוגיה.",
-    "en": "Oracle secured enough money to build the massive supercomputers that help OpenAI build AI. This is positive for tech stocks.",
-    "ar": "حصلت أوراكل على أموال كافية لبناء أجهزة الكمبيوتر العملاقة التي تساعد OpenAI في بناء الذكاء الاصطناعي.",
-    "ru": "Oracle получила достаточно средств для создания мощных суперкомпьютеров, помогающих OpenAI развивать ИИ."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "high",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSmpQQVdqRTFyNlZSVVFsZG8yNGJ5WWRaOU1ZRXJXQkJJM05GaXY5ZUpQTndMVVljNXNpYUJDUmF1T3hQcWkzNi1udWc4c3pMV3F6RFk1dUctcG5jOFlRcUJDMV9IM2hBdV9KbUJqSmJVa1lXS19LTUVJcUg3alFNWl9RREgwRUVrRU9LSkFoRGZJUWpxLVB1bzlldWE4VDRHRmczZVBMbXFiYlRVSHQ2S293M1JnZUNMSTdZdEVKTVpMXzA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1795213204,
-    "reason": "מימון מלא לעסקאות ענק בתשתיות AI מחזק את אמון המשקיעים בסקטֶר הטכנולוגיה.",
-    "reason_i18n": {
-     "he": "מימון מלא לעסקאות ענק בתשתיות AI מחזק את אמון המשקיעים בסקטֶר הטכנולוגיה.",
-     "en": "Full funding for massive AI infrastructure deals boosts investor confidence in tech.",
-     "ar": "التمويل الكامل لصفقات البنية التحتية الضخمة للذكاء الاصطناعي يعزز ثقة المستثمرين.",
-     "ru": "Полное финансирование крупных сделок в сфере ИИ укрепляет доверие инвесторов."
-    },
-    "name_i18n": {
-     "he": "QQQ - קרן סל נאסד\"ק 100",
-     "en": "QQQ - Nasdaq 100 ETF",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - ETF Nasdaq 100"
-    },
-    "price_at_alert": 608.45,
-    "entry_price": 655.98,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 638.09,
-    "exit_date": "2026-11-24",
-    "change_pct": -2.73,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -1.96,
-    "edge_pct": -1.96,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "5f18bd1c7b3c",
-  "evaluated": true
- },
- {
-  "ts": 1795213204,
-  "time": "2026-11-20T22:20Z",
-  "title": "צרפת מזמינה 50 אלף פגזים מ-KNDS ומגדילה את כושר הייצור",
-  "summary": "ממשלת צרפת הזמינה 50 אלף פגזי ארטילריה בקליבר 155 מ\"מ מחברת KNDS ופועלת לשילוש כושר הייצור הביטחוני שלה.",
-  "kid": "צרפת קונה הרבה תחמושת צבאית ומגדילה את הייצור במפעלים. זה יכול לעזור למניות הביטחון והנשק.",
-  "i18n": {
-   "title": {
-    "he": "צרפת מזמינה 50 אלף פגזים מ-KNDS ומגדילה את כושר הייצור",
-    "en": "France Orders 50,000 155 mm Shells from KNDS and Moves to Triple Production Capacity",
-    "ar": "فرنسا تطلب 50 ألف قذيفة من KNDS وتحرك لتثليث طاقة الإنتاج",
-    "ru": "Франция заказала 50 000 снарядов у KNDS и увеличивает производственные мощности"
-   },
-   "summary": {
-    "he": "ממשלת צרפת הזמינה 50 אלף פגזי ארטילריה בקליבר 155 מ\"מ מחברת KNDS ופועלת לשילוש כושר הייצור הביטחוני שלה.",
-    "en": "The French government ordered 50,000 155 mm artillery shells from KNDS and is moving to triple its defense manufacturing capacity.",
-    "ar": "طلبت الحكومة الفرنسية 50 ألف قذيفة مدفعية عيار 155 مم من شركة KNDS وتتحرك لمضاعفة قدرتها الإنتاجية الدفاعية ثلاث مرات.",
-    "ru": "Правительство Франции заказало 50 000 артиллерийских снарядов калибра 155 мм у компании KNDS и стремится утроить оборонное производство."
-   },
-   "kid": {
-    "he": "צרפת קונה הרבה תחמושת צבאית ומגדילה את הייצור במפעלים. זה יכול לעזור למניות הביטחון והנשק.",
-    "en": "France is buying a lot of military ammunition and expanding factory production. This can help defense and weapons stocks.",
-    "ar": "تشتري فرنسا الكثير من الذخيرة العسكرية وتوسع إنتاج المصانع. يمكن أن يساعد ذلك أسهم الدفاع.",
-    "ru": "Франция закупает много военной амуниции и расширяет производство. Это может поддержать акции оборонного сектора."
-   }
-  },
-  "category": "contracts",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: big deals",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDdsSVE0U3djdk5mT2VjNDdZcm5JeXdISGpyLVhuUmo5YU5VT2hUSEotWGJOUFR3cXU4Q243cFRXcExqTzcxY1pWUzczdnNMTTU2OF9teWlTUHJYeXZFNHhjemxqYXJKRm96dm1PbUpRVDctdDFJTEVXSnZkLXlLbTR5eFFOdXRrOWhDbnN3?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ITA",
-    "direction": "up",
-    "t0": 1795213204,
-    "reason": "הזמנות ענק של תחמושת בציוד צבאי תומכות בביקושים לחברות הביטחון הגלובליות והאמריקאיות.",
-    "reason_i18n": {
-     "he": "הזמנות ענק של תחמושת בציוד צבאי תומכות בביקושים לחברות הביטחון הגלובליות והאמריקאיות.",
-     "en": "Massive ammunition and defense procurement orders support demand for global and US defense firms.",
-     "ar": "تدعم طلبيات الذخيرة والمشتريات الدفاعية الضخمة الطلب على شركات الدفاع.",
-     "ru": "Крупные заказы на боеприпасы и военную технику поддерживают спрос на акции оборонных компаний."
-    },
-    "name_i18n": {
-     "he": "ITA - קרן סל תעופה וביטחון",
-     "en": "ITA - Aerospace & Defense ETF",
-     "ar": "ITA - صندوق الفضاء والدفاع",
-     "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
-    },
-    "price_at_alert": 66.17,
-    "entry_price": 68.0,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 68.09,
-    "exit_date": "2026-11-24",
-    "change_pct": 0.13,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": 0.9,
-    "edge_pct": 0.9,
-    "hit": true,
-    "hit_raw": true
-   },
-   {
-    "ticker": "LMT",
-    "direction": "up",
-    "t0": 1795213204,
-    "reason": "הגדלת תקציבי החימוש והייצור באירופה יוצרת סביבה עסקית חיובית לקבלניות הביטחון הגדולות.",
-    "reason_i18n": {
-     "he": "הגדלת תקציבי החימוש והייצור באירופה יוצרת סביבה עסקית חיובית לקבלניות הביטחון הגדולות.",
-     "en": "Increased European armament and production budgets create a positive business environment for major defense contractors.",
-     "ar": "تخلق ميزانيات التسليح والإنتاج المتزايدة في أوروبا بيئة تجارية إيجابية لمقاول الدفاع الرئيسيين.",
-     "ru": "Увеличение бюджетов на вооружение в Европе создает благоприятную среду для крупных оборонных подрядчиков."
-    },
-    "name_i18n": {
-     "he": "LMT - לוקהיד מרטין",
-     "en": "LMT - Lockheed Martin",
-     "ar": "LMT - لوكهيد مارتن",
-     "ru": "LMT - Lockheed Martin"
-    },
-    "price_at_alert": 565.5,
-    "entry_price": 566.14,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 586.95,
-    "exit_date": "2026-11-24",
-    "change_pct": 3.68,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": 4.44,
-    "edge_pct": 4.44,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "f7ea61ee5aab",
-  "evaluated": true
- },
- {
   "ts": 1795216792,
   "time": "2026-11-20T23:19Z",
   "title": "ירידות שערים חדות בוול סטריט בעקבות לחצים במניות הטכנולוגיה והבינה המלאכותית",
@@ -36624,25 +36454,9 @@
    }
   },
   "category": "commodities",
-  "severity": 6,
+  "severity": 7,
   "confidence": "medium",
   "sources": [
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGdHUHZ2MjFUYlpBc0ZCdFNTazEzUExaZ04tcUZVWjhMZDB6cERwTGprQXFkcHlURkh3UlpkaEVPZFFLeVlXSjZ4c0hjSFZJVEJzaVlyUHlQb1VsVTM1bEVONXhrVzZVRGtjbnl2RTJadThvV19rekdhN01iRE9QVC02TW1vdmpkQkxTeF9sRUplVk15bjB0WEFzZkxmX2lQa3N5YXNoMG9xVkJkdGFLRjRaRXpWbmd5Z3Z3?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdndaSmMtcnZ2OU41SkZNYnNtNlU5ZnRWTFlOamJLb0x6eHRhRHJuQkNMY1oybHlpOUFkRWdncURJcUc0eGZvM2JNZUc4SGdvZG0yeTJFY0llZWJUeGtMRzQxaHFZNmZ0OS1YWFloelk4eDBVenhkQlotREpzR2F1cFgxbkZaT18zRWtGbHd2aTZENWFDMmhKaU13WnpSQkhIaUZGTDZtMFkwa2ZxUjdpTkRfTXRZMkNUcW1FM3hn?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUZLbkNaSXNOQjhRd1hVZXZlTnZQZkdieU5wYjhWWlZRdmctbVBGT1ZZZ3pRSzFaVTZWOVROTmJKblI5aVdWR09BZUdIWmE5VENsUVRFb0lKM2xmTzZUZGtRb0VRd3VfVmhldm9jSE5YdjJWVlNpLXdOUUhYWW9DdGFIR1d4NjNNZTlkWWdnSnBSMk9ja2dPaUhnU25SV3F6U0pyM0RGT1N0c2ltdGFfYlF3?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbmtwZkd4WEpNY2NaMVhUNmhuYWZLejkxb2xUcVBmUXRIMXlOLVY2RzUzSWhhNU9NLUtiR1F6eGxseDU1X1JQZzEyRmItUzU5MWxVLWpXMWoyV256Z2ZPenVwRFFFemhaYnM1b3dndk5CcXctSEMybkJLQVo5RFJid0pMN3FvOHJvak52SHI4OXM1VlBzYTVsVGlUWmV3MEtw?oc=5"
-   },
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSjhMUXktbUhmSzZqR19uelVCbHBSQ3F5bnktYjNUQjU1MUtsT2ZObVFjMUpHZXVEbjc1a3Nla0tXMFk2ZGREWDNvY2JjaXF2YWVSQTd2UmZic3FKZGZMUnI0eDNiZ0p1QW1FVjZpSTlwZWlfclEtWUYtQmw0V2w2N0U5NlB3U0dWLVY4N2FidklHWEXSAVZBVV95cUxNNlVUdFNndDFiN2t2TzJDSnpZUGEwQm1RaVh0cFlsaTJpcjJ5RGhsbHdGZlNDR1UxSm1QLWhlSW9ZbjQyWEFvdk1FOHFjbldSXzFTMXZHdw?oc=5"
@@ -36650,6 +36464,22 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU1pqZl9ZVC1DREpyeVpVSFhGdFR2cXpoXzFyMmtiVlB4XzZSRHo5MkptQlNRbXpPNjJLWGN1Ulh2X2trekRTeEVHOGRRRS1xS1hNbFdHTTljY2pJZTlPX0RpUExWRkQzY2hzdFFLRjdjMkMzaWc5YXVkU0JZNDBIWm5aR3FLMl95cXR0TndzV29aX0lIUUpZaUNhNXNnVzJZdVBvemlmUFNaWFAwT084RWZaMmxQZVktWnRXZnZ4NkU2eEhtS2JrRGFQZFplWU9W0gHWAUFVX3lxTE9VZHdJWW42ckM2ZlNZRnc2ZDVMaXZ2cWE1RWJxeEdlbWpxQmN2cHpWWm12T2dlakhUSF80UXBJNVVQYm9FU0tESmNjaklnd2JIdUJBOWhad3I1VWI1Mkc3and6YjNCNEppTzk2RUpyRXY4NnJkY2Q2dnYwU1JJZV9RR2h5YXJpMFVHc1l3UTZqSldxd1VzczBGRE5QeExXeUFEa1d4cnV5RVR1alNRS1JPVnppblA2ZENQc0NIQXgtOTdaamZFRS1XRWtON0FDWndFM3BkeVE?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CaGd1TFRVc0ZYell0cWotUEZrVzdlOGJsN29jSTd6RFhJVDJ1WFk0eHlpVE9DY1FDMmNWX3B3elBvck5TS1Z5Nk1lZ1VNTXF6RXBHQjg2SWwzcmVZaS1wUlhoSjRmV2E2OUV2S2NRbHk?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSUlYejhKYkRUWEVTakRpV3B0Wko4a3Z1XzhMNnRKTFhjY0ZnMHk0cEhyRVBBcDh5dVE1MDI2bnk0bEQwRWpISlhlZkpyakVLYTFQcHNMM2xOaC1MUFItOVBPLXdTTnFsajZlTlhNR2p6bVlFRHF3T2dBOHY0eWtWMndRUDhrSjZvSllKazJOYWZWRkZRT3NITi1XdUpQa09MS2NLLWlaOGJRaS1jbzBCZ3QzT3FIZ2I5d3Z2MTdWT3JFd3JRZkdzMtIBzgFBVV95cUxOcUp1LUM3X01aWXBfNDBJSEFXYmZwemczQnFmQkxqenZlWHRwcUlNV0N2TmdEdjd2SnczdXJkODEwQ3QxVVJqc3M0VjNaVXZ6UlF1NUxYOExMMElEa0g3cjV2MFk4c1NIWnpWM1lSdHdvTF9keDB5UEZycnJxSVN3TzBBc3Q2T3BLdjFUS1M5T25tdV9VS1VkWWJDZ3VMN3k0TlcxTU83dzVIMXlrWXNWcS0tRkRwSk1nYU5BMFRSLVNIZGhNbnBLVzItSnh2dw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVG9ncjNkQWxJREVlajNzb3doQjdwTi1ha01BV0ZsR0JHVjd0emxJMG9seXhLeGVvYm1wZENfdFN0c2tiekl6T3h3TFo0MGJOT1hGSG9XcUUtUWE5MDBobDJjODJlWmNuVmVmR2lkRndsS1pRWW56QTcydmRxVDBoVzZkY1g4SExM?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xRWRzc2lNeUFsTVlFTFFHM21RTnYwYVYydlJEcXhmckZlRzY2dUd3XzVPc1RvVnRuLUJ4MlNNa3M0RW1IYmItSUlwVEdQcktYcDhsWDhiZjJHZmJPdWkyTTNNZEVWZkd4dUNiTg?oc=5"
    }
   ],
   "impacts": [
@@ -36803,9 +36633,21 @@
      "ar": "ضغطت الولايات المتحدة على فنزويلا والعراق للنظر في الانسحاب من أوبك، بينما يسعى العراق إلى رفع حد إنتاج النفط قبيل اجتماع الكارتل.",
      "ru": "США оказали давление на Венесуэлу и Ирак с целью рассмотреть выход из ОПЕК, в то время как Ирак добивается более высокого лимита добычи нефти перед встречей картеля."
     }
+   },
+   {
+    "ts": 1795820164,
+    "time": "2026-11-27T22:56Z",
+    "severity": 7,
+    "summary": "דיווחים מצביעים על כך שארה\"ב מפעילה לחץ דיפלומטי על עיראק וונצואלה כדי שיפרשו מארגון המדינות המייצאות נפט (OPEC). המהלך נועד להחליש את השפעת הארגון על מחירי הנפט העולמיים.",
+    "i18n": {
+     "he": "דיווחים מצביעים על כך שארה\"ב מפעילה לחץ דיפלומטי על עיראק וונצואלה כדי שיפרשו מארגון המדינות המייצאות נפט (OPEC). המהלך נועד להחליש את השפעת הארגון על מחירי הנפט העולמיים.",
+     "en": "Reports indicate that the US is exerting diplomatic pressure on Iraq and Venezuela to withdraw from OPEC. The move is intended to weaken the organization's influence on global oil prices.",
+     "ar": "تشير التقارير إلى أن الولايات المتحدة تمارس ضغوطًا دبلوماسية على العراق وفنزويلا للانسحاب من منظمة أوبك. تهدف هذه الخطوة إلى إضعاف تأثير المنظمة على أسعار النفط العالمية.",
+     "ru": "Сообщается, что США оказывают дипломатическое давление на Ирак и Венесуэлу с целью их выхода из ОПЕК. Этот шаг направлен на ослабление влияния организации на мировые цены на нефть."
+    }
    }
   ],
-  "last_update": 1795816491
+  "last_update": 1795820164
  },
  {
   "ts": 1795762148,
@@ -37911,10 +37753,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcEViZXZucDdjb25FZjRPd3lOQkVnNkJBT3U3YklDVVZ4Y1JTQWNsYVdZZ1RiRUpvZzdVS0VzQ194eWRrOTBZczNfcEV2MFFrZjQ2eUVBcWxfRmtmdUZzZTgxYjlYTDVoZC1ZSFN5cWY0YzdJMFFYV0NCTGoyZkZZS29TMTV0MTRzSVdPbFplanBvR2ZEd2JUa2FlUWRVTW9zc2tidnRnYXhaWlFmZFZmVGVyTEpxVGlUUVBSd2g2UUo?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeDVncEJmQmZVZzJQUmk2em05Q0VOSVBhcXdDejhZbzU3TElYdGcwQktaZFo2OWhINzBCMF9zVFlodlBNX1V1SWRsamlsa05xVlhmcFdycGJxR0p1cEtOTGVlZXhCdk5uSVFxZ3dMbTZyU2RCblppWXpSc3Jld3RwVjNIVENWUVA0WTc5VWdfVndWZEJUc3oyZTdCZEVvWG5TOERlcNIBqgFBVV95cUxOVWctSGY1X0hDZXFjOGJsNTNTNnBlV1NwUkh0UXpNZFVzenNQcFVKbkJ3X1FaRURBc3dua3ByN3BtVnB5UkhEWW9lTVRPMS1jaW05WmtDWGZZWUtxVzlQY1VnQ3ZzLXlVQUlhNWNFb1NoT0YwcGtvTGRqbHRFOWcwRlB2UmJRcWJFNjAxUU55Smp5dG5MZU1OQklmdXI3eV9XajZqOXdqNWo1Zw?oc=5"
    },
    {
@@ -37932,6 +37770,10 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aaU1zc19yMWM0RjlibzBmbE5fNllfdmFYRlNmVEdtTlV6Y1hHUms5MU5NNWtRRkZYRTd6MlVwS3ZMZVdzT1hFZjRIYlM4WEp5YzJ5OF9qLV9Pa0JnRjdEUGwzR2huN2lMR0FJeGZFX21Zb1dCV1dfcg?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQakRTWFBCcVAyU0FDYW4yQXdUSUZ5MkgzU2NrVEhUZzVpa2hJZFVZTkQ4MVg2aWYyTTdwMm14U2xZbFptQ0dGOE5DZ01hNnYwRllFYzJ0OTRQVHBTbTdoUjJHaTNWX2VZUENzU2p1TUlpYnFtcHJ1a2NscEdsUW9qUllPN2lpdkViSC11LWRzLUI4MnBZMmc5eHV3TDJXa1BEUnc3a29uMjA5eXJGOWdoMTB6bGh0ZFo4dlc1N04tdlRMcGFwb21tcVZpTQ?oc=5"
    }
   ],
   "impacts": [
@@ -38018,9 +37860,21 @@
      "ar": "اخترق قراصنة منصة الحوسبة السحابية الرئيسية التابعة للقوات الجوية الأمريكية Cloud One، مما أثار تحقيقاً واسع النطاق.",
      "ru": "Хакеры взломали флагманскую облачную платформу ВВС США Cloud One, проводится расследование."
     }
+   },
+   {
+    "ts": 1795820164,
+    "time": "2026-11-27T22:56Z",
+    "severity": 6,
+    "summary": "דיווחים על פריצת סייבר לפלטפורמת הענן המרכזית של חיל האוויר האמריקאי. האירוע מעורר דאגה לגבי אבטחת מידע רגיש של משרד ההגנה.",
+    "i18n": {
+     "he": "דיווחים על פריצת סייבר לפלטפורמת הענן המרכזית של חיל האוויר האמריקאי. האירוע מעורר דאגה לגבי אבטחת מידע רגיש של משרד ההגנה.",
+     "en": "Reports of a cyber breach into the US Air Force's flagship cloud computing platform. The incident raises concerns regarding the security of sensitive Department of Defense data.",
+     "ar": "تقارير عن اختراق سيبراني لمنصة الحوسبة السحابية الرائدة التابعة للقوات الجوية الأمريكية. يثير الحادث مخاوف بشأن أمن البيانات الحساسة لوزارة الدفاع.",
+     "ru": "Сообщения о кибервзломе флагманской облачной платформы ВВС США. Инцидент вызывает опасения по поводу безопасности конфиденциальных данных Министерства обороны."
+    }
    }
   ],
-  "last_update": 1795805774
+  "last_update": 1795820164
  },
  {
   "ts": 1795782656,
@@ -38416,17 +38270,9 @@
    }
   },
   "category": "macro",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORU9lMFNkeksxZjZrNnNVWTJ0cFhIOUR6VDNaZFJ2WklxdE5RX1p2Ri1FbnRudlFuYWV3bUdwMHlWRWxWXzdiRU4wSnhUMFRLbTJNR3I0NjI3RUFjcUZ6czlBams5OEVDcHRpVnFtR0wySnp4U1h5WnVZLWg3ZmRpU0NyT0h5dGJYSnNQVkxBRVIxNjZfMjJz?oc=5"
-   },
-   {
-    "name": "Google News: central banks",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNclFSc3FQWGRmWmI0SVExSy1RSWdOUHo5bDhpZEExd3FoVzlfTG1lLXhBblg3Z2RvSHhCcS1JY0cwMDJwVDV0VGJGSElEX0tBLWlyLWZTYWR3YXlEM0NkZVJrbnh0R3NVeVdMRDRhX3JtbVR3em9VaHZpOTk1clFNX2hjQmFFNzg1X3JsYVNURmFKTDJ1ZzZNb2Z2dGE1V244Z1hIdVQ4dWN1UHlFbEtYV1hhUWNURUtJVS02Q3ZVRGpYNGh60gHKAUFVX3lxTE53dldPajZsMl9RUVZGeXR1LXJPYnJVczh2Rms3d3FWMm54RGVHNnJDdmVLNTV5aUVVTS01QjFuMUdrYkdLNjMyOElyS05RRGlYUlVyM2dVTEtqQjEzbE9jUDd2di1vM1Y3UXZtY093bjJhWlFaZlh5emE2bTRTNDFvMTVYMVdKaVpORTlsMXhlWTZMbWtocmFGdXZoRWhvd2pVLXpBM3AyT0gwTE9yc3hTY3FqdUNwLS1KZ1ZzT0N1TGEzNkY0Q2tyamc?oc=5"
-   },
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFhWWVNCengxSWt3c1hJZ2VmOVMtTExDWEMtSFFadXFDTVlsbjRZa0lPRnBKQmw5NjZveVBXaWdKSXZWRnRLNzZ2bVFYZU9IdU9OTkU0YlA4NTd2MUlZVkZDSDJoUjFtS0NmdllVYjNKelo0M2V0Z09MUGJacnZsRDYwdUJtbXlVV3g0?oc=5"
@@ -38442,6 +38288,14 @@
    {
     "name": "Google News: central banks",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFl5WDFPTkJTY1UzWF9JVVl4VllzQXVwY2dzSTdlcEdFTzlLUjZQVTI2UHByN3NjcTlYWEw3MjhuTFRfQW5JT1hYc2M2RGduU1VCVzYtekdtdXdDX0JJS3FWS3BqTlFQMVc5QjMtZ0M5WWZnaHNUcGpwQXlKMTFUbDA2ZVl6OG50WFg0YVMyb2otZw?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUR2bTFRUWlONnd0eGQxanF1Y2kyXzhJMHUtRnI5eVNhM2ZBU3BIUERGU2VBbGRXMnBZSWFxcDVnTkVfOEkxS0x0bmJOLU1IMUtFUU5sR0hreGxuYzdfQU1HMnhvZkQ3RjV0SW5Bdmp3djMyTGlKY2lLa3lKT2xZQTNacW9oZ29rT1ZYaXBzOV9VdTRtS1g1RkxnZG5vUE0?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOejVxVXZObl9tUVViVllNb0NkcVBxUlNpdm1Hd2QzMUpoaGpjamtOV3ZjZHdlZTlhX1hKTFNrQXp6OHp6SklXRXJuTkQ3NGMxbFdydkFfb0k1U3NnTjk5WHo5VV9faGhaUGJLX0lWZklGUHVvUWhKb1ljMU1uNkszS0gwTk5PZTU3YWRDTTVfZUwtX216OFM1enpWT1A?oc=5"
    }
   ],
   "impacts": [
@@ -38482,6 +38336,25 @@
      "ru": "VGK - Европейский ETF акций"
     },
     "price_at_alert": 84.95
+   },
+   {
+    "ticker": "FXE",
+    "direction": "down",
+    "t0": 1795820164,
+    "reason": "היחלשות הכלכלה הצרפתית",
+    "reason_i18n": {
+     "he": "היחלשות הכלכלה הצרפתית",
+     "en": "Weakening of the French economy",
+     "ar": "إضعاف الاقتصاد الفرنسي",
+     "ru": "Ослабление французской экономики"
+    },
+    "name_i18n": {
+     "he": "אירו",
+     "en": "Euro Currency ETF",
+     "ar": "صندوق اليورو",
+     "ru": "ETF евро"
+    },
+    "price_at_alert": 100.98
    }
   ],
   "id": "c8c83e97c5cf",
@@ -38497,9 +38370,21 @@
      "ar": "دخل الاقتصاد الفرنسي في ركود تقني بعد انخفاض الناتج المحلي الإجمالي لربعين متتاليين بسبب ضعف الصادرات, بينما تبرد التضخم الأوروبي.",
      "ru": "Франция вошла в техническую рецессию, так как ВВП падал два квартала подряд из-за слабого экспорта, в то время как инфляция в Европе замедляется."
     }
+   },
+   {
+    "ts": 1795820164,
+    "time": "2026-11-27T22:56Z",
+    "severity": 6,
+    "summary": "כלכלת צרפת נכנסה רשמית למיתון על רקע מהומות אזרחיות וירידה בביצועים הכלכליים. סוכנות S&P הותירה את הדירוג על A+ אך הציבה תחזית שלילית.",
+    "i18n": {
+     "he": "כלכלת צרפת נכנסה רשמית למיתון על רקע מהומות אזרחיות וירידה בביצועים הכלכליים. סוכנות S&P הותירה את הדירוג על A+ אך הציבה תחזית שלילית.",
+     "en": "The French economy has officially entered a recession amid civil unrest and declining economic performance. S&P maintained the A+ rating but placed it on a negative outlook.",
+     "ar": "دخل الاقتصاد الفرنسي رسميًا في حالة ركود وسط اضطرابات مدنية وتراجع الأداء الاقتصادي. أبقت وكالة S&P على التصنيف عند A+ لكنها وضعت نظرة مستقبلية سلبية.",
+     "ru": "Экономика Франции официально вошла в рецессию на фоне гражданских беспорядков и снижения экономических показателей. Агентство S&P сохранило рейтинг A+, но установило негативный прогноз."
+    }
    }
   ],
-  "last_update": 1795799056
+  "last_update": 1795820164
  },
  {
   "ts": 1795787511,
@@ -39880,32 +39765,32 @@
    }
   },
   "category": "geopolitics",
-  "severity": 7,
+  "severity": 8,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQzNzaGRZUGVvbzF0ZWtReFBXYjV5aFVoZndBbnBJZmU5VmNxT0JBTG9ubURUdVMyMTVacE4xWjNYSVZna3J4ODdGNGQzbnRINlNRd2NGWHNTZlBKTjRENVBtUjMtekxJQTdLaEhtaWlpenRqQmZLdjhRY200UTYybWFkNUZBdHBnQ290VUdLVXdFNFRiVEZSNy1qQXVXN3d0YjVSRTV3elU0SGNINWZLOTFBRkxxREtqOHNwS283YW91RGkydzhGUXVPOEFQOFlLYXBCVHo1c0dWZ9IB3wFBVV95cUxOb3dER0o5OHBNTjRSYWdUZ2w2S0YyQ2tPN2N4akliM2FLVnlBalRpcms5dDRSU2FoS19KVlBrOVNxM1RGemx1ZzJveXgwY2IydVJRaERrdGNuRHE5VXdkWVN2VlI3YzRHcWYySU9ZZGtJal9PRlRELVlVS3NkTDhVbnFwT3VtOXZfQUt4aVpXWWFiSlpaQWxkdlNVQzNMMjZqbElCVjBsYlNZUElIcUFQRGtFTWRtWlFVaFpRN1M3NVllU0IzZDA4clNsVkZUY3owUUpTMzJFbWZ5aHZDRlBn?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWDZIRHBCSHhpWDlzSFkxOHdZWF92MTZ0T05LOXAyZVlwVFdValZYWHNEazNNekVTUlBwdFZxb1g5ZURMSmhIWFVXM3FZWGVWVU1pVVdtcVVRUUtlUlg2NkdrSjJtS2sybnVHdmhIQkdWT3ZvMi1NX0FDemVlQVdwYkZrOU9wQUlaNXU0b1I2d2ozWVdmcFJETk12NzJGV05qVENBV3UyaFRRc21PY1dDdmU0cUZxeExhSGRmMk9FWE0tM2hWUnF0eGV1ZDd5Qkp2QXVWUHhHcjJrcnRjcUFTcnZYc2V1bk1ia01NZXB4ZVI1R0k?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTUROclhBQVh1YXVldnh3eEVaSGRfNjZETTJEUmczdFBQaExrN3R6d2JOZTRrRmtPMzNHMDRNMmpDLUMxTEFuZW1qbGo4VEpaOEZsRTdpYmZZU183M09BRE9CbkQ5eEtDTmRzSDlWZWlRRkhRSzJiMGpSTjVoS0E3dlBxdTlOdlFpNHJaaWNaNmUtS09wVFIzOHp6QlN5QQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxLU1CUTdXdndZZllNbjFmYUJIbjI5dTkxYnVUeTZpSVEwQ0JQVkNDQ3FJdzh4N0JtbnJ1aWI0Q3RFcDdDTkUtN05wclJSNFBVZlRnSmZGNHh1TTVFa3MwOEEyMURzdkdHY1E?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wYXZuS0pXcUNaeHJQaGg2T0VfYTZSTmlEOGxXNDAyRGRURWNsV3lOa0x6cE1YTGk4LWl1SGRNbGtUcUFraDVqT0tFTmtqSFVRVFVyQ0toMG03TnJzdDBsTmR6UkQydzBWMXdFNDlWOVZhb0ZkV2tDMw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WS05uYlM5UmlHcUpsN1VqUHpqcXdUSTFkaTVUZ2pNQVpkR1FmOXFIQzBzTGdSbVFDd3ZrcFE5bmtDZHoxTndCN3dBSDBqY28ySFE?oc=5"
+   },
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xNG8zY2lfcDJ0TU9zOWJaN1A5TEw2NkNkdjdpTGhuUjJBWGtJdlVCekdOMWZncEFQeWgweXdOclluTjlLbHU0ZVh6UUR5Z2JfZFZxZEZWeUlQMGtiUzl5Nm1KOUdQQmZBSFg5cEo1dElIYzhmRGExY1N3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YY1Z1SThqRHNiY2JUTTI1UHR3Y01hbksya056MTNrVFpJVkI3WXQwS1lIV0dYUmpYVGR4YW5xZTZGSUdKT0dYYWRweWVkX3hpbjc5QU45Y0FEaDlBeFIybWJELU82a19EZ2x6UzVEU3loal9oOWtF?oc=5"
    },
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWUJ6WTBiQm1fVFVTendCUUJqdUNES3lpajFsQ0ZNTGlGaDcyb0pnVlFYQXpnNjZ6OGNCSUJTZFlkNzJNa2ZVS0Y5R010SVc0YzEwcGQyVGFjZjllR2V4eHJ6ZWRIb2E5Zk4tUW82aTFIbFRGNmFLeUpJVkl6UlBfZTRxUFZCUDE0a1RpazQ3dGJlaG1vdXZaYzlGYnJoTmZTaWhueGpkaTJkSnBPWVB0djdzd3oyTnE3ZDlUUUpYajRGRmpi?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vSUZEZFVhN1FFcEFUN0FUeUtpb3dBXzZ2eTlaSlI4OV8zWUVsZzhLWlE3SkNDZkstUko5TFFMM3AwQV9heGczMWVUOGFCcWl4T2RyUVJKbnJVeEZuS1RZTmVOR3M?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb2VDUEppdTh4aWNkRWxSNmVCNWFnRFZzaWZyaXlvQWtVVlN4bUwwOVJtcnZ4c1dlTER4U3lieEJzUDZwRzRETHJTY016SlZDZG5OMWRSWEc5NWJla3dBUTJ6RFQzbHNaMUx6bF82dkR0dmpZRmhDODhiY09aMTFleDdEMkVJQTVzWlFSU0U3Q3ktUU9KWmZrNllIU19SWlEzMGZOdjBIdy1od1k?oc=5"
    }
   ],
   "impacts": [
@@ -39965,6 +39850,25 @@
      "ru": "ExxonMobil - Энергетическая компания"
     },
     "price_at_alert": 160.18
+   },
+   {
+    "ticker": "ZIM",
+    "direction": "up",
+    "t0": 1795820164,
+    "reason": "עלייה פוטנציאלית במחירי התובלה הימית",
+    "reason_i18n": {
+     "he": "עלייה פוטנציאלית במחירי התובלה הימית",
+     "en": "Potential rise in shipping rates",
+     "ar": "ارتفاع محتمل في أسعار الشحن",
+     "ru": "Потенциальный рост ставок на морские перевозки"
+    },
+    "name_i18n": {
+     "he": "צים - חברת ספנות",
+     "en": "ZIM - Shipping company",
+     "ar": "زيم - شركة شحن",
+     "ru": "ZIM - судоходная компания"
+    },
+    "price_at_alert": 30.62
    }
   ],
   "id": "b81de3af7c43",
@@ -39980,9 +39884,21 @@
      "ar": "عطل الجيش الأمريكي سفينة تجارية أخرى حاولت كسر الحصار البحري المفروض على إيران، وسط استمرار التوترات والضربات في الخليج.",
      "ru": "Военные США вывели из строя еще одно коммерческое судно, пытавшееся прорвать военно-морскую блокаду Ирана, на фоне продолжающейся напряженности в Персидском заливе."
     }
+   },
+   {
+    "ts": 1795820164,
+    "time": "2026-11-27T22:56Z",
+    "severity": 8,
+    "summary": "חיל הים האמריקאי השבית מספר ספינות סוחר, כולל ספינה בבעלות סינית, שניסו לפרוץ את המצור הימי על נמלי איראן. איראן מצהירה כי היא תמשיך לפעול לשבירת המצור.",
+    "i18n": {
+     "he": "חיל הים האמריקאי השבית מספר ספינות סוחר, כולל ספינה בבעלות סינית, שניסו לפרוץ את המצור הימי על נמלי איראן. איראן מצהירה כי היא תמשיך לפעול לשבירת המצור.",
+     "en": "The US Navy has disabled several merchant ships, including a Chinese-owned vessel, attempting to breach the maritime blockade of Iranian ports. Iran vows to continue efforts to break the blockade.",
+     "ar": "قامت البحرية الأمريكية بتعطيل عدة سفن تجارية، بما في ذلك سفينة مملوكة للصين، حاولت خرق الحصار البحري على الموانئ الإيرانية. وتتعهد إيران بمواصلة جهودها لكسر الحصار.",
+     "ru": "ВМС США вывели из строя несколько торговых судов, включая судно, принадлежащее Китаю, которые пытались прорвать морскую блокаду иранских портов. Иран заявляет, что продолжит попытки прорыва блокады."
+    }
    }
   ],
-  "last_update": 1795816491
+  "last_update": 1795820164
  },
  {
   "ts": 1795812900,
