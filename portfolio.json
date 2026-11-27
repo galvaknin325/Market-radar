@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T12:31Z",
+ "generated": "2026-11-27T13:52Z",
  "trade_size": 1000,
  "important": {
   "trades": 424,
@@ -707,11 +707,11 @@
   ]
  },
  "all": {
-  "trades": 1151,
-  "wins": 577,
-  "hits": 573,
-  "pnl": 575.7,
-  "bench_pnl": -9861.8,
+  "trades": 1152,
+  "wins": 578,
+  "hits": 574,
+  "pnl": 613.2,
+  "bench_pnl": -9843.9,
   "invested_per_trade": 1000,
   "best": {
    "date": "2026-11-05",
@@ -836,9 +836,33 @@
     "date": "2026-11-25",
     "equity": 575.7,
     "bench": -9861.8
+   },
+   {
+    "date": "2026-11-27",
+    "equity": 613.2,
+    "bench": -9843.9
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-27",
+    "ticker": "ESLT.TA",
+    "dir": "up",
+    "severity": 4,
+    "cat": "contracts",
+    "id": "cb99f61e92e0",
+    "title": "אלביט מערכות תספק מערכות לוחמה אלקטרונית לפריגטות של הצי הגרמני",
+    "title_i18n": {
+     "he": "אלביט מערכות תספק מערכות לוחמה אלקטרונית לפריגטות של הצי הגרמני",
+     "en": "Elbit Systems to fit German Navy F128 frigates with electronic warfare",
+     "ar": "إلبيت سيستمز ستزود فرقاطات البحرية الألمانية بحرب إلكترونية",
+     "ru": "Elbit Systems оснастит фрегаты ВМС Германии средствами РЭБ"
+    },
+    "change_pct": 3.75,
+    "hit": true,
+    "pnl": 37.5,
+    "bench_pnl": 17.9
+   },
    {
     "date": "2026-11-25",
     "ticker": "ZS",
@@ -1385,25 +1409,6 @@
     "change_pct": 0.08,
     "hit": false,
     "pnl": 0.8,
-    "bench_pnl": 2.3
-   },
-   {
-    "date": "2026-11-25",
-    "ticker": "FDX",
-    "dir": "down",
-    "severity": 7,
-    "cat": "commodities",
-    "id": "9f871b4f9a69",
-    "title": "זינוק בתקיפות על ספינות ליד מיצר הורמוז ודיווחים על אותות מזויפים",
-    "title_i18n": {
-     "he": "זינוק בתקיפות על ספינות ליד מיצר הורמוז ודיווחים על אותות מזויפים",
-     "en": "Spike in Attacks Near Strait of Hormuz and Fake Tanker Signals",
-     "ar": "ارتفاع الهجمات قرب مضيق هرمز وتقارير عن إشارات ناقلات وهمية",
-     "ru": "Всплеск атак у Ормузского пролива и фальшивые сигналы танкеров"
-    },
-    "change_pct": 0.08,
-    "hit": true,
-    "pnl": -0.8,
     "bench_pnl": 2.3
    }
   ]

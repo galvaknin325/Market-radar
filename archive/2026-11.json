@@ -156266,7 +156266,18 @@
      "ar": "إلبيت سيستمز (بورصة تل أبيب)",
      "ru": "Elbit Systems (Тель-Авивская фондовая биржа)"
     },
-    "price_at_alert": 220080.0
+    "price_at_alert": 220080.0,
+    "entry_price": 221720.0,
+    "entry_time": "2026-11-26T07:50+00:00",
+    "exit_price": 230030.0,
+    "exit_date": "2026-11-27",
+    "change_pct": 3.75,
+    "bench": "TA35.TA",
+    "bench_change_pct": 1.79,
+    "excess_pct": 1.95,
+    "edge_pct": 1.95,
+    "hit": true,
+    "hit_raw": true
    }
   ],
   "id": "cb99f61e92e0",
@@ -156368,7 +156379,8 @@
     }
    }
   ],
-  "last_update": 1795695437
+  "last_update": 1795695437,
+  "evaluated": true
  },
  {
   "ts": 1795509549,
@@ -167594,23 +167606,27 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM1dyYlQ5bDI0OEZ6emU3RzRIRkZYTDJiYmJteno5dGpaWnJvdV9TMnl5YjA3TzBFWnVsLUZ4SWtBUzQtQWdycWRFdEVLaTF1QkFibVhVSFlqWklNRGJFTkRpUzVRSS1XTGJObGtOQ0JfV19UQXdtOGJIbXZkZDZXZkFNcUxzV01nVWJseUExTktwN3JiRUJiaGVCQ3dUQUY0REtoMFpwbW5CbDZrRE9aX1hwWdIBuAFBVV95cUxOSTFwM2FyamNUMHdfVi0xZGp1R2gta0FoUFZLZ2tZejI1MjE4UkllelpqRXhVdS15SUs0THRTQW9LVHBHcHJzRjd6a25KZUIzOEh3T1NEMWpqcGdOLWNnd2F3TmJnblFXTlhMeVNjUWxMemMwR3Bzanl1aHplRzc4M1RFc2RVMVN1ZElFY1ZobHZ5UllSSmhTcTdNYS1zb0JQYlVHM1FZMUh2WHNCZnBZQWJNTWtpT0tr?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbF9kRG0wdFlJRVVrLXJDUmZZRC01QzYyS25hRlZQR3NaaUVtdWFpaVB4MzFEb0RraVU1YVM4cExSOWx1eUdxcGtiZm9LZ3pLcjRteWV3SFJNaHZxcWxqX1dVNmZNMFZ5Rm9pTGFHdHRWN1lFckROWXdfNnBnc0ZxUHVyc3BGSzdKT0lOUGl5V3dFd1p5eHlIQjhJY3Y5RWpSMDJuOUZkRlQ?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kU0VEeWVQemowaG1xUjJMSGNFdmpvS3hGQnUza2U0SFNEd2FPSXFiY1BSakRoTV9PLXZKaGlzNUJoeWtPcEpzSnpZMWFSLW1keEtyOHE5Y292UDRRa3ZWVml6T3VCN1ExZTVrZkU0ZWozcUpXdWc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUC1oMFM1R1I4M2tkcGU0YWplOEdOSFhKcFE5dnpwVkUtVmRUOVZXVThOQ1pPWEZiYzRRMVh6VFhqTXVRLW1FSlB0VVB0TEdRdWhLb3RDTjRxMXpTOUtQSklXQWl1RkhURTlXLU83eEhfcTZaN1B6NmpFSEt5TDByMmNvTDZfRE1uSlZGbVNNN0UwTDJVNTNMdzN3eVJSQQ?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wNV9qejF3bWdVdHNRQ1I2Q3E5MEpwNFVlT3lPNGFOZjR1M3pRX3pDNV9aMXJzbERLVHQ1TVdMQXJWTzJTdVRDaF9LZW5NcjM0bDdKTlJodTRyUERpU1VBeFpLbUJtY3oyZEtqUFRldFlWenp2cnRCNDBOck4xbXPSAZMBQVVfeXFMT1cxV1lRVFZBUXh0VmJKT2pYZ244MGlTU2JscDNBbnh6b2dldHV3OTFKWW0yQ1d5YjZhc3hRVklfMWdzUlNLdjg2NWJYLWI2VWJoc01kUUl2VVE4VGxBMUdnTm1EaHN1ZVVoRzRhUGZJUTNxSGFRWEJHbTgtbDRla1J5a1M2MjlJNFFpRl9ORnZIZi1N?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTV1o5ZUxZX0dPYW9seUh6a015UzhKVlljSGhxa0xVMHdqb0VfdVVPNlBhbzJ6VUxCcVBYdXItVlBKaWdxR1V0bFBBR2k1dTRTMElkS2VIakhoa3Q3enZkZkt3?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOclZkazhSc3NhUlFSZTJXZlBfOEthMDN0TzViaEhfdHliVUR3WW1RSzB1RG9fS2NuUDdPUXFuVHYzRkI3WFk0WTg4ZEFqdHdLWDk1R1U2M3ZNQ2wyQS1tbVIwSThBTHMwSnozQnJoNmwzdDg1aGtfUWpKRENCYU45b3ZmMmppZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KQUVJS09SMFV6SmR5cVhfTU5qVG13UzRxSVBIYTVjRXJMcG84UHFHX3REb1l0Qnd6NTUyYzlwQ1k2Wk83M255YVZQUVNnX2xlaWJ6S3ExcUpMb2ZUcGdNODRxblNldw?oc=5"
    },
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZGYycnhWUXdaNElGeDlpamtpOFlrYW5PaVotcEo5TEI0NWFKckU2bUZlM0ZXd2phRnpCazlrclhOX01KeElXYjBpbTU5QndpaFRaUGpYMHh3MDBobG9kSTdfN09WRDh5Sm5EWXBLNmtsMUtOaHBHVXZfczQ0em4wUUxnbmZ6R3hKOC1xdUFZckdhQlJCN21UOExkSUzSAaIBQVVfeXFMTjAxU0JsRmQwSGFtampnQm5WV3owUmJpbDF3YWFIOFdOZE9KTWk3dDVKa1pLWHFYcURJSWVqazJCbkhXakxzZU1GM1B0NjlqaTlON0RiUUVQcnFVRGpPemRBOEQwMXN5TEFfVElUR0I4SW1jUmJDcGFoRFozUDFwWEU0U2dsb1plb2Z0QnFydFZnVFNjb19wSFdPUGxEZEEtQTN3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjOW40cnk2Z00wM0xEOXBkdmZ5aUdwUDNmSWxEVnJfNmtaLWd5ZEY0dHhGTWRHTkxwWmg1RVdsR1E3RzBIRV9WR2xfbU95YXh1UXNxRG1jMnloV1RBaWFUMlZMQUE0LXZTSXVjZ01XbTJrTGN6R0lqSkJB?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzMxbHE2N1ZQYWxEcWQ1UXRlY2Y4TkVsMlNIYlZjTW9sYWluZFBYRXZveVMySHNCN1M4MWRteTEtQWF3WEE4SjlkV1VnbjlEaHAwaFRLOEM2dXFaelZsZVVCVHZjSlFSR3JWU0NKbnRPTHFjVVBseDdwUFRScVhDTFN6Y0NOOTRyVmZ3ckFqek9VMGVDUmYwcWg3N1JpRU5zWm9KNXBrNHdwelItWDJmakxXMFBBbkxTWnJ3?oc=5"
    }
   ],
   "impacts": [
@@ -167659,9 +167675,21 @@
      "ar": "اخترق قراصنة أنظمة الفيفا وسرقوا حوالي 12 جيجابايت من البيانات الشخصية والتجارية.",
      "ru": "Хакеры взломали системы ФИФА и похитили около 12 ГБ личных и деловых данных."
     }
+   },
+   {
+    "ts": 1795787511,
+    "time": "2026-11-27T13:51Z",
+    "severity": 3,
+    "summary": "ארגון הכדורגל העולמי פיפ\"א אישר כי נפגע ממתקפת סייבר פלילית שהביאה לחשיפת כמות מוגבלת של נתונים אישיים ועסקיים פנימיים.",
+    "i18n": {
+     "he": "ארגון הכדורגל העולמי פיפ\"א אישר כי נפגע ממתקפת סייבר פלילית שהביאה לחשיפת כמות מוגבלת של נתונים אישיים ועסקיים פנימיים.",
+     "en": "Global soccer body FIFA confirmed it was hit by a criminal cyberattack that exposed a limited amount of personal and internal business data.",
+     "ar": "أكد الاتحاد الدولي لكرة القدم (فيفا) تعرضه لهجوم سيبراني إجرامي أدى إلى كشف كمية محدودة من البيانات الشخصية والتجارية الداخلية.",
+     "ru": "Международная федерация футбола (ФИФА) подтвердила кибератаку, которая привела к утечке ограниченного объема личных и внутренних бизнес-данных."
+    }
    }
   ],
-  "last_update": 1795778742
+  "last_update": 1795787511
  },
  {
   "ts": 1795742050,
@@ -168235,16 +168263,32 @@
    }
   },
   "category": "trade",
-  "severity": 5,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWM0S1RVT1ZFc3hQa2tSS2NfU3p5UnphU3Bodi1ERjh5TTJ6cnFFZUFpUU5YQVNsYkJtZW5mZ0lJZzdmR01hMW5UaDk5WllZRlpLWjhQQzNPalpsaTdqV3c1Y19uUjFHR3B0ZkRNUVBWMU9tTFM5dGNadGxKa2FBblNBMU5IMXRLMWdNVzZ5VUtaQ09lanZ3MXZUSXpDSHQtS2JQeTFzcTJwLXVFY0UyWnJHUy0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNVl4NUVUeDZZVG1wc0NiNkl6Nl96LUJoa3k5WmNkNW1aTzMxVWppSHFCa2dCTHU5VmRGcVdxSGxJVl9WajRoVURxMjM2RklMTWh3RXE4cVdzNDhHTkNyLVoxRHcwQ0pUR2VsNG9wSG5xX3R2SmE2cUFDaTV0alBIYzZhMEstZ0VqQUJxay1DLVFrSU15ZnVkUjBjclV3aUN1V3F3YmcwVmhNa1FOekN5Sg?oc=5"
    },
    {
     "name": "Google News: trade & policy",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdXFqMXVsaVJSSmhTUldzTVJ0YXN4VXNZTGV3YXNyWUV3d1E3dGF3eXRjN2VSX0YwektWaW5wRnR5bWNVTy1mWXNrY2t1S0ViUEpCNTFsT2hTYkdQby1VRHpnY2ZKTVVjTnJ0SmxwMVJLQkw5aE5nQTF3TFoyR2pZNkVHWGROWDJ3c21DWlhTYTBSVWxTUC1tbURRblpBN3dqdFFaUHZiQzNidWZCcGdUUl9QN0pDZ0U?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWE1b1E2LUZ1eUt3UzFsdjl0U2taaGxrUHVlNkxiSEFESFJiZDJIcXlNVi0yZGZrMVlSUlNzWVkxMmY1bTlGdXVwQlY0M1RRbHdkeXota2RYbU9uUEZuQ3ppMU9zVHJmMUVyWE1uSnh6by1hVHYwblc4WWJTT1NBbmltTDZSeE9tMVVLVkkyT0tCLTh5S0pZUUlYMUxnT2FGblA0T010TDBBYUF5?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTDNaRmVfc0QwM0hTamdwZ0N3bF9YdndaYmRGUTMzdFloa3I2YnV2djlmdm8wT3dXSGI2a3NNS2czel90MEhQaHdCdjh5WDNhV05ZTEpRX2VwQk96RmJWODZhbm1FajBTTWh5Nk9EUmFoZXVfMWVkWnJyRHFtQjE3WF9uMGhTSGF4eFBIZzdCdHBvNGlacjlIUlhHeUk2SG42ZUZLU2tYWERhNm9zcGFuN1RkMnQ5QzVDYVZBNjRR?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeHMxaWhXYVRtWmMwTGNHT0p3cDNJejRhdU9iNGJBSUpiNXdKOGdWUkNYUU85UC1YV1dHSU10enlTR1VkWE5taDB3c01jb3Q1YjVhT3hyZ0stVmdFQ1VNaEY4Mk1xSzdZZm5heEZ0blQ2OW8zTG11eXNkM096TzBZLTJzekpEajVVZ192S2ZFckh4OUowc0J4ZDZoRHVjcDB0Vy1sc2Q3VUozWlRPWmtJZFVUdjdTYlVIaDdPXw?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUU5rUDQ5OGZhNFdvdzdzdkxsM2FRcWU4bmNyYktNaUZFNE51X3ZQQU16X0FpVXBqUFdObkY5WU12UzIwLWRhZnVldzd4ajZiNjREUmdWWmVFZDJRRzdoQWZPdURCN19nQ2Q4VG50TmRHa08xUWFMVlRTS3JSZTAyTFhWTkNIQnBWZGpnRzJ3?oc=5"
+   },
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iNFc1X3JIUk9fT28zRjlNUjZ6ZEswSVd5M3p6Q0R3V0tWcGNMd0ljWG4yNnIwdE94bzlObEhQSU9HTWhWdmFMR3RReDFuVnBrb1E1TmwzX05zZ1JrNEZtTjJNRmZ5U0pLZ1pPQnRn?oc=5"
    }
   ],
   "impacts": [
@@ -168266,9 +168310,62 @@
      "ru": "EEM - ETF развивающихся рынков"
     },
     "price_at_alert": 56.4
+   },
+   {
+    "ticker": "SPY",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "מלחמות סחר מעלות חשש להאטה כלכלית ולעלויות נוספות לחברות אמריקאיות",
+    "reason_i18n": {
+     "he": "מלחמות סחר מעלות חשש להאטה כלכלית ולעלויות נוספות לחברות אמריקאיות",
+     "en": "Trade wars raise concerns of economic slowdown and added costs for US firms",
+     "ar": "حروب التجارة تثير المخاوف من تباطؤ اقتصادي وتكاليف إضافية للشركات الأمريكية",
+     "ru": "Торговые войны вызывают опасения замедления экономики и роста издержек"
+    },
+    "name_i18n": {
+     "he": "SPY - מדד S&P 500",
+     "en": "SPY - S&P 500 ETF",
+     "ar": "SPY - صندوق مؤشر S&P 500",
+     "ru": "SPY - S&P 500 ETF"
+    },
+    "price_at_alert": 716.7
+   },
+   {
+    "ticker": "INDA",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "מכסים אמריקאיים עלולים לפגוע ביצוא ובכלכלה של הודו",
+    "reason_i18n": {
+     "he": "מכסים אמריקאיים עלולים לפגוע ביצוא ובכלכלה של הודו",
+     "en": "US tariffs could hurt India's exports and economy",
+     "ar": "الرسوم الأمريكية قد تضر بصادرات واقتصاد الهند",
+     "ru": "Пошлины США могут навредить экспорту и экономике Индии"
+    },
+    "name_i18n": {
+     "he": "INDA - קרן סל שוק הוודי",
+     "en": "INDA - MSCI India ETF",
+     "ar": "INDA - صندوق مؤشر الهند",
+     "ru": "INDA - Индийский ETF"
+    },
+    "price_at_alert": 53.2
    }
   ],
-  "id": "b9e7b8243b40"
+  "id": "b9e7b8243b40",
+  "updates": [
+   {
+    "ts": 1795787511,
+    "time": "2026-11-27T13:51Z",
+    "severity": 6,
+    "summary": "מדינות שותפות וגופים כלכליים מביעים זעם ופותחים במגעים דיפלומטיים בעקבות יוזמות המכסים החדשות של ארה\"ב (כולל על הודו ווייטנאם), כאשר חקלאים ויצרני רכב כמו ניסאן מזהירים מפני פגיעה תחרותית.",
+    "i18n": {
+     "he": "מדינות שותפות וגופים כלכליים מביעים זעם ופותחים במגעים דיפלומטיים בעקבות יוזמות המכסים החדשות של ארה\"ב (כולל על הודו ווייטנאם), כאשר חקלאים ויצרני רכב כמו ניסאן מזהירים מפני פגיעה תחרותית.",
+     "en": "Global partners express anger and engage in diplomacy over new U.S. tariff proposals, while agricultural groups and automakers like Nissan warn of severe competitive damage.",
+     "ar": "تعبر الدول الشريكة عن غضبها وتخوض محادثات دبلوماسية بشأن مقترحات الرسوم الجمركية الأمريكية الجديدة، بينما تحذر مجموعات زراعية وصانعو سيارات مثل نيسان من أضرار تنافسية.",
+     "ru": "Партнеры выражают гнев и ведут дипломатические переговоры по поводу новых пошлин США, в то время как аграрии и автопроизводители предупреждают об ущербе."
+    }
+   }
+  ],
+  "last_update": 1795787511
  },
  {
   "ts": 1795754947,
@@ -168904,14 +169001,6 @@
   "sources": [
    {
     "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc3I3R3lNcmhzaTZTOTF4OVRiZU9kd3o4ZWV4TnJrNWhxcHdJbm9lSXZsLW1PTGt1TFd5LXl1Q25NcE1NVnhMQWczeHBnVWE2VHFOTjE3SFJfMlpTbkR0dGE2NFVtNUtueVJVS1AxMkFRVjNxUlB0NHQwTHhxbGxWUkNsa09XUF9qM0poWVZ2ZmtBWlN2aEJKSg?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR1c4Uzk4STQweVU5YmY3YUtTMmJpcGNibDFobDFwNDFBR1FVVGh3ZjBseXFOVlBZUFdLXzZwNmJEVExLQVo2dl9JakNJNzNEaDJhVE9ETmpLT3BHT3NYU3pXM1hmM1BTZmRyd1lLWFhyNjN5YWlISkJEdnJBdzFwdk0yaXpQdjQwSlhpUVhEcENtSlh3X3pnX2g4N2xRaWF6SVVaN1JlZWVna3JPOW11UDNOSXF4Q2VaQUdBcUFzWXBOb09ubWF4dU5B?oc=5"
-   },
-   {
-    "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdVJfRGhPOXkzdlI5elpkcDRhWjJGVFhOR19ycW5UcVBJYkRpZDQ1REpnTVVaeWoyMzZRbkNRY09MNUx1eFFleHAyMGxQdUxNbXJKMmh1NzdiUWdnbUc2aURGMS1tZjg4UW1adFBxaVg1X1p5eTMzVHBOenJtUU41Nk0yRnprTnFuLS1FUGFNM3FvUFN6M2YzdGpab1VnNmJ1R3dkbjBYdmJzVmpfVDNPQVVJbUZOT1J5bXVMOHladzhCZGx4YmJ6TTFlVlUtTEU?oc=5"
    },
    {
@@ -168925,6 +169014,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRDBLUWhnUFVVZmRheEoyNjBIdjFTMkNnMUtjQjFXQlhDVUJmaUtNLWpfTTg4TFpieEpQVHJZQko0c05IbHp0LUd3ZXNGUDlzSEhENUNGcUd3UDZOX1NaYWw3NWZUMG81X0E3X3BjYTNMV2pZZHJWVGttSkFRbW81a2pPYjNMN2Z0Nkp1bjhVcmN5YV9kdjNOWENGNE1uS1hSNXlEdlNXM1E?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMnVFRkZacDNDU0VSX1dpX2FqLUR6c29ORXJoSjFpcm91QkhGNF95TnNraDJPT0tfNC1kNWhhUlVUTmlJQnA0dDY2YkhuTXB2dUxMVmFldlF1d1hSQnpKcnpLdV9NaTROZHpEUUVWdVpSUGRna2tzT3BFRlhjdmRvWjZFZ3Y5RnZVamU4RVlONjh4YUp3R0NOakRnaw?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOEJ4ajdkRm1oNnNiWExaNFpfeW5nUzFzRlh6bW5sZUxZcGd0NmVVWEpEdHQ2c19CSXhSRG5zTUtvdzU3UVppalhTOEROc0NYQmw0MEJObXRQbkR3MWZEdDhibGZlOHBFaVBvZktLR3NJbVpHaEZaeU11QU1MOWlueUpQc1hIclY4?oc=5"
    }
   ],
   "impacts": [
@@ -169011,9 +169108,21 @@
      "ar": "تشير التقارير إلى أن إدارة ترامب ضغطت على العراق وفنزويلا للانسحاب من منظمة أوبك بهدف إضعاف كارتل النفط.",
      "ru": "Сообщается, что администрация Трампа оказывала давление на Ирак и Венесуэлу с целью их выхода из ОПЕК для ослабления нефтяного картеля."
     }
+   },
+   {
+    "ts": 1795787511,
+    "time": "2026-11-27T13:51Z",
+    "severity": 5,
+    "summary": "דיווחי חדשות מציינים כי ארה\"ב הפעילה לחץ על ונצואלה ועיראק במטרה לנסות ולמשוך אותן לפרוש מקרטל הנפט אופ\"ק, מה שעשוי להשפיע על תיאום תפוקת הנפט העולמית.",
+    "i18n": {
+     "he": "דיווחי חדשות מציינים כי ארה\"ב הפעילה לחץ על ונצואלה ועיראק במטרה לנסות ולמשוך אותן לפרוש מקרטל הנפט אופ\"ק, מה שעשוי להשפיע על תיאום תפוקת הנפט העולמית.",
+     "en": "Reports indicate the U.S. has pushed Venezuela and Iraq to consider quitting the OPEC oil cartel, a move that could disrupt global oil production coordination.",
+     "ar": "تشير التقارير إلى أن الولايات المتحدة ضغطت على فنزويلا والعراق للنظر في الانسحاب من منظمة أوبك، وهي خطوة قد تعطل تنسيق إنتاج النفط العالمي.",
+     "ru": "Сообщения показывают, что США подталкивали Венесуэлу и Ирак к выходу из картеля ОПЕК, что может нарушить координацию добычи нефти."
+    }
    }
   ],
-  "last_update": 1795778742
+  "last_update": 1795787511
  },
  {
   "ts": 1795762148,
@@ -170067,6 +170176,18 @@
    {
     "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMVIzVm12MHRRejcwT0dzbWZoRW5KaU9zVWhxMnhqYmtueWRfeGVPR2tub1ZEYWFKWnVsSVc0NlBBZm9EcnhLWmR4eGdEdnA0anBaOTFnYXpiX1FGTm9ISlNBVThxUmpDSHpkcGtqbFZmQ3ZWeVFIM2pCQUs3M3Vsc2dnbGpaTGV4RXVjQmR3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTzQzN3ZUMVJPQzhHN1ktVjFIVjk2dzljcGZhdWFKclBJTTFkcW52d2ZUdDJ3Z3I3OUhhbG03SEhVTV83WVdzQ3BwRGJHMGZpdUxuN1FraDdnbHJQeEhnZ3hwdkxtQjN3RXd3OGJzSHJGZWRoMUlvbkRHNEhTaGFETng3bXJ5UzNyVVN5cS1ISXVES19Rejk0TnN3TEZCZw?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54TTRFRzNhYTR0dGJ5MkR1ZURJVGNmVEdkenJDcTRCVXZwYUVEREplcndQRGMtTnNDVlYwaXFSTG4zX0ZBSTNVdjZDdmN1Q3NkM19GN1NORTJOVGtrN29jYXA5TXdlTzA4aHQxaXRtVEdVaTdDNHM4MWJwS05ySDQ?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aaU1zc19yMWM0RjlibzBmbE5fNllfdmFYRlNmVEdtTlV6Y1hHUms5MU5NNWtRRkZYRTd6MlVwS3ZMZVdzT1hFZjRIYlM4WEp5YzJ5OF9qLV9Pa0JnRjdEUGwzR2huN2lMR0FJeGZFX21Zb1dCV1dfcg?oc=5"
    }
   ],
   "impacts": [
@@ -170107,9 +170228,43 @@
      "ru": "ETF на аэрокосмическую и оборонную отрасль"
     },
     "price_at_alert": 68.77
+   },
+   {
+    "ticker": "PLTR",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "ביקוש מוגבר לתוכנות הגנה ואבטחת נתונים צבאיים",
+    "reason_i18n": {
+     "he": "ביקוש מוגבר לתוכנות הגנה ואבטחת נתונים צבאיים",
+     "en": "Increased demand for defense software and military data security",
+     "ar": "زيادة الطلب على برمجيات الدفاع وأمن البيانات العسكرية",
+     "ru": "Повышенный спрос на оборонное ПО и безопасность военных данных"
+    },
+    "name_i18n": {
+     "he": "PLTR - פלנטיר (תוכנה ביטחונית)",
+     "en": "PLTR - Palantir Technologies",
+     "ar": "PLTR - بالانتير لتكنولوجيا الدفاع",
+     "ru": "PLTR - Palantir Technologies"
+    },
+    "price_at_alert": 163.59
    }
   ],
-  "id": "fa5bbef38369"
+  "id": "fa5bbef38369",
+  "updates": [
+   {
+    "ts": 1795787511,
+    "time": "2026-11-27T13:51Z",
+    "severity": 6,
+    "summary": "פלטפורמת הענן המרכזית של חיל האוויר האמריקאי, Cloud One, נפגעה במתקפת סייבר, אירוע שעורר דאגה לגבי אבטחת תשתיות הביטחון הלאומי.",
+    "i18n": {
+     "he": "פלטפורמת הענן המרכזית של חיל האוויר האמריקאי, Cloud One, נפגעה במתקפת סייבר, אירוע שעורר דאגה לגבי אבטחת תשתיות הביטחון הלאומי.",
+     "en": "The U.S. Air Force's flagship Cloud One computing platform has faced a cyberattack, raising concerns over national security infrastructure.",
+     "ar": "تعرضت منصة الحوسبة السحابية الرئيسية التابعة للقوات الجوية الأمريكية (Cloud One) لهجوم سيبراني، مما أثار المخاوف بشأن البنية التحتية للأمن القومي.",
+     "ru": "Флагманская облачная платформа ВВС США Cloud One подверглась кибератаке, что вызвало обеспокоенность по поводу инфраструктуры безопасности."
+    }
+   }
+  ],
+  "last_update": 1795787511
  },
  {
   "ts": 1795782656,
@@ -170315,5 +170470,500 @@
    }
   ],
   "id": "ce3585488fc4"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "ה-ECB מאותת על אפשרות להעלאת ריבוי נוספת על רקע אינפלציה גבוהה",
+  "summary": "בכירים בבנק המרכזי האירופי (ECB) מאותתים כי ייתכן שיהיה צורך בהעלאת ריבית נוספת בדצמבר, שכן האינפלציה בגוש היורו נותרה מעל 3%. מנהיגי האיחוד גם מינו את פבלו הרננדס דה קוס לנשיא הבא של הבנק.",
+  "kid": "בנקאי האיחוד האירופי אומרים שהמחירים ממשיכים לעלות מהר מדי ולכן אולי יצטרכו לייקר את ההלוואות. זה יכול להשפיע על ערך המטבע האירופי והמניות באירופה.",
+  "i18n": {
+   "title": {
+    "he": "ה-ECB מאותת על אפשרות להעלאת ריבוי נוספת על רקע אינפלציה גבוהה",
+    "en": "ECB Signals Potential Further Rate Hikes Amid Persistent Inflation",
+    "ar": "المركزي الأوروبي يلمح إلى احتمالية رفع أسعار الفائدة وسط استمرار التضخم",
+    "ru": "ЕЦБ сигнализирует о возможном дальнейшем повышении ставок на фоне инфляции"
+   },
+   "summary": {
+    "he": "בכירים בבנק המרכזי האירופי (ECB) מאותתים כי ייתכן שיהיה צורך בהעלאת ריבית נוספת בדצמבר, שכן האינפלציה בגוש היורו נותרה מעל 3%. מנהיגי האיחוד גם מינו את פבלו הרננדס דה קוס לנשיא הבא של הבנק.",
+    "en": "European Central Bank officials signal that further rate hikes may be necessary in December as euro zone inflation remains durably above 3%. Meanwhile, E.U. leaders nominated Pablo Hernández de Cos as the next ECB president.",
+    "ar": "يشير مسؤولوا البنك المركزي الأوروبي إلى أن رفع أسعار الفائدة قد يكون ضرورياً في ديسمبر نظراً لبقاء التضخم فوق 3٪. وفي الوقت نفسه، رشح زعماء الاتحاد الأوروبي بابلو هيرنانديز دي كوس رئيساً قادماً للبنك.",
+    "ru": "Чиновники ЕЦБ сигнализируют о необходимости дальнейшего повышения ставок в декабре, так как инфляция в еврозоне остается выше 3%. Лидеры ЕС также выдвинули Пабло Эрнандеса де Коса на пост нового главы ЕЦБ."
+   },
+   "kid": {
+    "he": "בנקאי האיחוד האירופי אומרים שהמחירים ממשיכים לעלות מהר מדי ולכן אולי יצטרכו לייקר את ההלוואות. זה יכול להשפיע על ערך המטבע האירופי והמניות באירופה.",
+    "en": "European central bankers say prices are still rising too fast, so they might make borrowing more expensive. This could affect European currencies and stock prices.",
+    "ar": "يقول مصرفيو الاتحاد الأوروبي إن الأسعار لا تزال ترتفع بسرعة كبيرة، لذا فقد يضطرون لرفع تكلفة الاقتراض. قد يؤثر ذلك على العملات الأوروبية وأسعار الأسهم.",
+    "ru": "Банкиры ЕС говорят, что цены растут слишком быстро, поэтому кредиты могут стать дороже. Это может повлиять на европейские валюты и акции."
+   }
+  },
+  "category": "macro",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FTGE2MzQ5R3BkNGxtMUt0QjdubXQ2XzE4ZlhrY1FiZ05VMWRKWm5VTGEwNF9iMXZBYUlhNXlTT2hycE5nY043OEcwd056MHo2aGRrcXpRNVNtYkd4MXZyMThiaVQyY3pHdVBLejR0Sl91aHFRd3o3aFctNlhkUQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRlpPOVV2bmRKNmQ0WFI0TlNOS3haQzFnOFJ6R2Y1ME5YUURJV2RMTldFTXBpenJzWWR5UkdfdGc4ZW02aGJFQV80V3RvMDl5S2FTaXdCZ09zS1RUMm15V19HV3FkbXZkMjVkOFJMbTVwbEFxSjNHRjFlZEZ2U3FTaEhyUGtkVFEwNzFVR1c4SGpIcEFWVlhqMERqelBUSWJDbGo5NHNGdzF1d1dPdnc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUG9RQmhlYkg5enVXU1R0WTNlbzlDZVgwMTRWZzFsTlJPRjJLTGh6Z0llZ21qamg2dDFudlQ2aXFReDJLb0NDbUVOUjVJQkpkNlMtUFYzOVRpQm83WDR5bGktNVhVQTVJd1dva1llcFpYUDEyX2duME9tTUt4VVhYSkZxalZQNS1HNnIyM0I1NEVBNWUxWFI1QllzR0VYYkROODNFRDlOQ1NFdlJPcDhMRFRoMl8?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX0xjUm1kOTBHd0c0MFBQZFE2ZDZSNkt4ZTZzZGc4TDhralFDOThQT0VDWGx4YkF3Y20zWk52dGlxaDdPblU5NmtHYzBVRXI1WjJvcWlsRHhFWlgtUm0ybzJsYmZTSk1qWldJd3dEc3R2aktGMUl1N3ZudXBJb3NRLTJpb3ZWQUUzdU8wSGJsVQ?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rSUV6QWJWY09xV2dYdU9vN0pFaFhYU05SWTR6cHppNHd1M0hDMG05aEFQQ0JTN2RBVFZMeW1xcXdVVWVWak5pSjB3NUdsVUs3UjhQb1FjbW1rOWlPbHQxQWxfb3BIMWJlZ0Jhc2tDczQzYlZUaEk0aG5zWWlxcm8?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjZWeTZiZjhicmk5NDhSTG1DUlFOTTJ6eExNcUNab3JiTTlHemhjZ05sc05Fb3g3dWVGbmlQRGJZZzBPV3hOS3R1cVlLOExWU0QyQlBFSVpFV1hmSXRPcTJMX09pNldlRXpXNFJSRkhtb2ptWERxR0Q5VUQyX3hORnZ0X1BUSElKTG0tSVVFOFEwbG9WZjZJQ012V1Q1ZU9vdi0tTEQwTXE0Q1hBTkE?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeWk5Wm9TQkVfWURUSmJBSS1PeTFNUEp5cWFfUjZVbXpPOVBPZmpIOTktTGRubUdpZXVDQk14dXB0TFdLTkdUX0p5bV9GVjNsVUlFSktqaGF2aXUxU1BpRVBoVFVkdWQtYkRMX2J0cDdPenI2LUpUa3l3VW50eEVyYXZNN1pqa1V2Tmh1SU1qUm1uZ0l1THhCZzVubFJzNEVtRFE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "ריבית גבוהה באירופה עלולה להאט את הכלכלה המקומית",
+    "reason_i18n": {
+     "he": "ריבית גבוהה באירופה עלולה להאט את הכלכלה המקומית",
+     "en": "Higher interest rates in Europe could slow down the local economy",
+     "ar": "قد تؤدي أسعار الفائدة المرتفعة في أوروبا إلى تباطؤ الاقتصاد المحلي",
+     "ru": "Более высокие ставки в Европе могут замедлить местную экономику"
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל מניות אירופה",
+     "en": "VGK - European Stock ETF",
+     "ar": "VGK - صندوق مؤشرات الأسهم الأوروبية",
+     "ru": "VGK - ETF европейских акций"
+    },
+    "price_at_alert": 84.95
+   },
+   {
+    "ticker": "FXE",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "ציפיות לריבית גבוהה יותר מחזקות בדרך כלל את המטבע",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר מחזקות בדרך כלל את המטבע",
+     "en": "Expectations of higher rates typically strengthen the currency",
+     "ar": "توقعات رفع الفائدة عادة ما تقوي العملة",
+     "ru": "Ожидания роста ставок обычно укрепляют валюту"
+    },
+    "name_i18n": {
+     "he": "FXE - קרן סל אירו",
+     "en": "FXE - Euro Currency Trust",
+     "ar": "FXE - صندوق اليورو",
+     "ru": "FXE - Еропейский валютный ETF"
+    },
+    "price_at_alert": 101.38
+   }
+  ],
+  "id": "7adffcf7298e"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "הכלכלה הצרפתית שוקעת במיתון על רקע יצוא חלש ואינפלציה מאטת",
+  "summary": "כלכלת צרפת רשמה כניסה למיתון כאשר היצוא נחלש והאינפלציה בנובמבר הואטה יותר מהצפוי, בעוד המדינה עומדת בפני בחינת דירוג אשראי מצד S&P Global.",
+  "kid": "הכלכלה בצרפת נכנסה למצב של מיתון בגלל ירידה במכירות לחו\"ל. זה עלול להשפיע לרעה על חברות אירופאיות ועל יציבות המטבע.",
+  "i18n": {
+   "title": {
+    "he": "הכלכלה הצרפתית שוקעת במיתון על רקע יצוא חלש ואינפלציה מאטת",
+    "en": "French Economy Slips Into Recession as Exports Sag",
+    "ar": "الاقتصاد الفرنسي ينزلق إلى الرعش وسط تراجع الصادرات",
+    "ru": "Французская экономика погружается в рецессию на фоне падения экспорта"
+   },
+   "summary": {
+    "he": "כלכלת צרפת רשמה כניסה למיתון כאשר היצוא נחלש והאינפלציה בנובמבר הואטה יותר מהצפוי, בעוד המדינה עומדת בפני בחינת דירוג אשראי מצד S&P Global.",
+    "en": "The French economy has slipped into recession as exports sag and November inflation slows more than expected, while the country faces an S&P Global credit rating review.",
+    "ar": "انزلق الاقتصاد الفرنسي إلى الركود مع تراجع الصادرات وتباطؤ التضخم في نوفمبر بأكثر من المتوقع، بينما تواجه البلاد مراجعة التصنيف الائتماني من S&P.",
+    "ru": "Французская экономика погрузилась в рецессию на фоне падения экспорта и замедления ноябрьской инфляции сильнее ожиданий, перед лицом оценки S&P."
+   },
+   "kid": {
+    "he": "הכלכלה בצרפת נכנסה למצב של מיתון בגלל ירידה במכירות לחו\"ל. זה עלול להשפיע לרעה על חברות אירופאיות ועל יציבות המטבע.",
+    "en": "France's economy has entered a recession due to falling overseas sales. This could negatively affect European companies and currency stability.",
+    "ar": "دخل الاقتصاد الفرنسي في حالة ركود بسبب انخفاض المبيعات الخارجية. قد يؤثر ذلك سلباً على الشركات الأوروبية والاستقرار المالي.",
+    "ru": "Экономика Франции вошла в рецессию из-за падения продаж за рубеж. Это может негативно повлиять на европейские компании."
+   }
+  },
+  "category": "macro",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0s2Q3pobERncHdMNE1GclBFNUJmdURzRVZUSHRROGVUWDBjOFZObGJ2TDVwSlZSbU51enNyeU9LbGpVeWNfbmpsaFEtSmsyamMwdFg5LUtWc3dpUGxzaVpWc29tZllCUUN4bmtVR0U5YU5rNG5QdkxTcnM3WENuQXZMQXRPTkdjWEFaR0Zibm44bzZHSkRZTVNBQkt5M0k?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORU9lMFNkeksxZjZrNnNVWTJ0cFhIOUR6VDNaZFJ2WklxdE5RX1p2Ri1FbnRudlFuYWV3bUdwMHlWRWxWXzdiRU4wSnhUMFRLbTJNR3I0NjI3RUFjcUZ6czlBams5OEVDcHRpVnFtR0wySnp4U1h5WnVZLWg3ZmRpU0NyT0h5dGJYSnNQVkxBRVIxNjZfMjJz?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNclFSc3FQWGRmWmI0SVExSy1RSWdOUHo5bDhpZEExd3FoVzlfTG1lLXhBblg3Z2RvSHhCcS1JY0cwMDJwVDV0VGJGSElEX0tBLWlyLWZTYWR3YXlEM0NkZVJrbnh0R3NVeVdMRDRhX3JtbVR3em9VaHZpOTk1clFNX2hjQmFFNzg1X3JsYVNURmFKTDJ1ZzZNb2Z2dGE1V244Z1hIdVQ4dWN1UHlFbEtYV1hhUWNURUtJVS02Q3ZVRGpYNGh60gHKAUFVX3lxTE53dldPajZsMl9RUVZGeXR1LXJPYnJVczh2Rms3d3FWMm54RGVHNnJDdmVLNTV5aUVVTS01QjFuMUdrYkdLNjMyOElyS05RRGlYUlVyM2dVTEtqQjEzbE9jUDd2di1vM1Y3UXZtY093bjJhWlFaZlh5emE2bTRTNDFvMTVYMVdKaVpORTlsMXhlWTZMbWtocmFGdXZoRWhvd2pVLXpBM3AyT0gwTE9yc3hTY3FqdUNwLS1KZ1ZzT0N1TGEzNkY0Q2tyamc?oc=5"
+   },
+   {
+    "name": "Google News: central banks",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFhWWVNCengxSWt3c1hJZ2VmOVMtTExDWEMtSFFadXFDTVlsbjRZa0lPRnBKQmw5NjZveVBXaWdKSXZWRnRLNzZ2bVFYZU9IdU9OTkU0YlA4NTd2MUlZVkZDSDJoUjFtS0NmdllVYjNKelo0M2V0Z09MUGJacnZsRDYwdUJtbXlVV3g0?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "EWQ",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "כניסת הכלכלה הצרפתית למיתון פוגעת ברווחי החברות המקומיות",
+    "reason_i18n": {
+     "he": "כניסת הכלכלה הצרפתית למיתון פוגעת ברווחי החברות המקומיות",
+     "en": "France entering a recession hurts local corporate earnings",
+     "ar": "دخول الاقتصاد الفرنسي في ركود يضر بأرباح الشركات المحلية",
+     "ru": "Погружение экономики Франции в рецессию бьет по прибылям компаний"
+    },
+    "name_i18n": {
+     "he": "EWQ - קרן סל מניות צרפת",
+     "en": "EWQ - MSCI France ETF",
+     "ar": "EWQ - صندوق مؤشر فرنسا",
+     "ru": "EWQ - Французский ETF"
+    },
+    "price_at_alert": 42.16
+   },
+   {
+    "ticker": "VGK",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "חולשה בכלכלה השנייה בגודלה בגוש היורו מעיבה על היבשת",
+    "reason_i18n": {
+     "he": "חולשה בכלכלה השנייה בגודלה בגוש היורו מעיבה על היבשת",
+     "en": "Weakness in the euro zone's second-largest economy weighs on the continent",
+     "ar": "الضعف في ثاني أكبر اقتصاد بمنطقة اليورو يضغط على القارة",
+     "ru": "Слабость второй по величине экономики еврозоны давит на континент"
+    },
+    "name_i18n": {
+     "he": "VGK - קרן סל מניות אירופה",
+     "en": "VGK - European Stock ETF",
+     "ar": "VGK - صندوق الأسهم الأوروبية",
+     "ru": "VGK - Европейский ETF акций"
+    },
+    "price_at_alert": 84.95
+   }
+  ],
+  "id": "c8c83e97c5cf"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "סאפ (SAP) מאשרת מתקפת סייבר על מערכות הפיתוח שלה ב-GitHub",
+  "summary": "חברת התוכנה SAP אישרה כי נפגעה מתקפת סייבר שכוונתה אל סביבת הפיתוח שלה ב-GitHub, בעקבות פעילות חשודה שזוהתה במערכות.",
+  "kid": "האקרים פרצו למערכות כתיבת הקוד של חברת התוכנה הענקית SAP. אם ייגרם נזק למערכות או למידע של הלקוחות, מניית החברה עלולה לסבול.",
+  "i18n": {
+   "title": {
+    "he": "סאפ (SAP) מאשרת מתקפת סייבר על מערכות הפיתוח שלה ב-GitHub",
+    "en": "SAP Confirms Cyberattack Targeting GitHub Development Environment",
+    "ar": "شركة SAP تؤكد تعرضها لهجوم سيبراني يستهدف بيئة التطوير الخاصة بها على GitHub",
+    "ru": "SAP подтверждает кибератаку на среду разработки GitHub"
+   },
+   "summary": {
+    "he": "חברת התוכנה SAP אישרה כי נפגעה מתקפת סייבר שכוונתה אל סביבת הפיתוח שלה ב-GitHub, בעקבות פעילות חשודה שזוהתה במערכות.",
+    "en": "Software giant SAP has confirmed it was hit by a cyberattack targeting its GitHub development environment following suspicious activity.",
+    "ar": "أكدت عملاق البرمجيات SAP تعرضها لهجوم سيبراني استهدف بيئة التطوير الخاصة بها على GitHub إثر رصد نشاط مشبوه.",
+    "ru": "Программный гигант SAP подтвердил кибератаку, нацеленную на его среду разработки GitHub, после обнаружения подозрительной активности."
+   },
+   "kid": {
+    "he": "האקרים פרצו למערכות כתיבת הקוד של חברת התוכנה הענקית SAP. אם ייגרם נזק למערכות או למידע של הלקוחות, מניית החברה עלולה לסבול.",
+    "en": "Hackers breached the code-writing systems of software giant SAP. If company systems or customer data are compromised, the stock could drop.",
+    "ar": "اخترق قراصنة أنظمة كتابة الكود الخاصة بشركة البرمجيات العملاقة SAP. إذا تضررت الأنظمة أو بيانات العملاء، فقد ينخفض السهم.",
+    "ru": "Хакеры взломали системы написания кода гиганта ПО SAP. Если пострадают системы или данные клиентов, акции могут упасть."
+   }
+  },
+  "category": "cyber",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KSWNDTmVXWERjdHNqMkVyd1pyR3ZPZFRNa2s4OXE0TkJpN09jc1NGaldHdEpjUzVHX2RlSnBlVllGYXBkU2xNZ09XUTR4b0h5Qll5clZ0Mko1Z2pya2M0VENLXzhQWDEt?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUN3RCUUlWeE5JcF9NeUVfZGxtckpvTGRxX0thWE9kek1fR2NqU1lBNGNsMXA2TzRWdmdVRDNGNUVsMk9mZHRuNjZuSHg2R3NIdjBnQVdOSk5obnVuSzltT3ZWV0tBMFp3Ull4Qnp3?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PVFdTRE9SYy1ZUUpDeGlMSV9MdE1WZDQ5TEd5dXNuQ1d3OF9fVnY2YUJJMG9MWkU5dnd4MFNHZng2SWVoYXVzZnRad3o2QkdtTnBZamExZG9Wa0U3ejBTTi1ncWtxQlpKdVE?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "XLK",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "חששות סייבר רוחביים על חברות תוכנה גדולות",
+    "reason_i18n": {
+     "he": "חששות סייבר רוחביים על חברות תוכנה גדולות",
+     "en": "Broad cyber concerns affecting major software companies",
+     "ar": "مخاوف سيبرانية عامة تؤثر على شركات البرمجيات الكبرى",
+     "ru": "Общие опасения по поводу кибербезопасности крупных софтверных компаний"
+    },
+    "name_i18n": {
+     "he": "XLK - קרן סל סקטור הטכנולוגיה",
+     "en": "XLK - Technology Sector ETF",
+     "ar": "XLK - صندوق قطاع التكنولوجيا",
+     "ru": "XLK - ETF технологического сектора"
+    },
+    "price_at_alert": 155.79
+   }
+  ],
+  "id": "a06ec0ce4099"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "יוון רוכשת פצצות SPICE וטילים מישראל; רומניה דנה בהרחבת שיתוף פעולה ביטחוני",
+  "summary": "יוון קיבלה פצצות SPICE וטילי Rampage מתוצרת ישראל עבור מטוסי ה-F-16 שלה, בזמן ששר ההגנה של רומניה דן בחוזים צבאיים ופיתוח תעשייתי עם נציגי אלביט מערכות (ESLT) ו-GDELS.",
+  "kid": "מדינות באירופה קונות אמצעי לחימה מתקדמים מחברות ביטחוניות ישראליות כמו אלביט (ESLT). זה עשוי להגדיל את ההכנסות והרווחים של אותן חברות.",
+  "i18n": {
+   "title": {
+    "he": "יוון רוכשת פצצות SPICE וטילים מישראל; רומניה דנה בהרחבת שיתוף פעולה ביטחוני",
+    "en": "Greece Receives Israeli Munitions; Romania Discusses Defense Contracts",
+    "ar": "اليونان تتسلم ذخائر إسرائيلية ورومانيا تبحث عقود دفاعية",
+    "ru": "Греция получает израильские боеприпасы; Румыния обсуждает контракты"
+   },
+   "summary": {
+    "he": "יוון קיבלה פצצות SPICE וטילי Rampage מתוצרת ישראל עבור מטוסי ה-F-16 שלה, בזמן ששר ההגנה של רומניה דן בחוזים צבאיים ופיתוח תעשייתי עם נציגי אלביט מערכות (ESLT) ו-GDELS.",
+    "en": "Greece has received Israeli-made SPICE bombs and Rampage missiles for its F-16s, while Romania's Defense Minister discussed military contracts and industrial development with representatives of Elbit Systems (ESLT) and GDELS.",
+    "ar": "تتلقت اليونان قوائم قنابل SPICE وصواريخ Rampage إسرائيلية الصنع لمقاتلات F-16، بينما بحث وزير دفاع رومانيا العقود العسكرية مع ممثلي إلبيت سيستمز (ESLT).",
+    "ru": "Греция получила израильские бомбы SPICE и ракеты Rampage для F-16, а министр обороны Румынии обсудил военные контракты с представителями Elbit Systems (ESLT)."
+   },
+   "kid": {
+    "he": "מדינות באירופה קונות אמצעי לחימה מתקדמים מחברות ביטחוניות ישראליות כמו אלביט (ESLT). זה עשוי להגדיל את ההכנסות והרווחים של אותן חברות.",
+    "en": "European countries are buying advanced weapons from Israeli defense firms like Elbit (ESLT). This can increase revenues and profits for these companies.",
+    "ar": "تشتري الدول الأوروبية أسلحة متطورة من شركات دفاع إسرائيلية مثل إلبيت (ESLT). قد يزيد ذلك من إيرادات ואرباح هذه الشركات.",
+    "ru": "Европейские страны покупают современное оружие у израильских оборонных компаний, таких как Elbit (ESLT). Это может увеличить их доходы."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdlVWcUxXTkdlT0JmV2Z0YjVUYjdtUlh3YW9hbUxhWm5SRzJvaWoxN25YLXFFV2N1RjNqUktJQXVQUWNYQXlJT1R3amtlOXJTS1NCNVowWHhJd01TMzcxVHlwOWZ6cThRYmVpNVE0bmp0ejZlV2p4cjFZOXowbGlvS3dJSEhFRDZlaE1LX05lckp5OVEwRFQ5N3NlQ1JqN1M3aGFhbQ?oc=5"
+   },
+   {
+    "name": "Google News: Israeli defense",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmpHbmVzVndBUmZsbkN5SlJPdmg0WWpjc21sUDI5QXBPQ3ByNzZ0c2JOalRHVHpaeXd4STF6NThoUDJiTUtlTlB2S0xzaDVUTXBobUZMdE5DQVlkUDg5dEZnb29DQkctOVFBZ3RxRERUdDlzREFndl9hcm42bDNzV2VhTmNCQmtLOFZKVXpLRHFTUjBmQ0ZYQWZYUVl1eDY4bmNMUzln?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "ESLT",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "הרחבת חוזים ואספקות מערכות לחימה מתקדמות למדינות אירופה",
+    "reason_i18n": {
+     "he": "הרחבת חוזים ואספקות מערכות לחימה מתקדמות למדינות אירופה",
+     "en": "Expansion of contracts and advanced weapon deliveries to European nations",
+     "ar": "توسع العقود وتوريد أنظمة القتال المتقدمة للدول الأوروبية",
+     "ru": "Расширение контрактов и поставки передовых систем вооружений в Европу"
+    },
+    "name_i18n": {
+     "he": "ESLT - אלביט מערכות",
+     "en": "ESLT - Elbit Systems",
+     "ar": "ESLT - إلبيت سيستمز",
+     "ru": "ESLT - Elbit Systems"
+    },
+    "price_at_alert": 662.03
+   },
+   {
+    "ticker": "ESLT.TA",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "עסקאות ביטחוניות באירופה מחזקות את צבר ההזמנות של החברה",
+    "reason_i18n": {
+     "he": "עסקאות ביטחוניות באירופה מחזקות את צבר ההזמנות של החברה",
+     "en": "European defense deals boost the company's order backlog",
+     "ar": "صفقات الدفاع الأوروبية تعزز محفظة طلبيات الشركة",
+     "ru": "Оборонные сделки в Европе укрепляют портфель заказов компании"
+    },
+    "name_i18n": {
+     "he": "ESLT.TA - אלביט מערכות (בורסת תל אביב)",
+     "en": "ESLT.TA - Elbit Systems (TASE)",
+     "ar": "ESLT.TA - إلبيت سيستمز (بورصة تل أبيب)",
+     "ru": "ESLT.TA - Elbit Systems (Текстильная биржа Тель-Авива)"
+    },
+    "price_at_alert": 230030.0
+   }
+  ],
+  "id": "ab4f87035ca2"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "מחירי החיטה באירופה מאריכים את העליות על רקע שיבושים בים הצר",
+  "summary": "מחירי החיטה באירופה ממשיכים לטפס בעקבות שיבושים באספקה מאזור הים השחור לקראת מסחר מקוצר ביום שישי.",
+  "kid": "מחירי החיטה עולים בגלל קשיי הובלה באזור הים השחור. זה יכול לייקר מזון לצרכנים ולהשפיע על מניות החקלאות.",
+  "i18n": {
+   "title": {
+    "he": "מחירי החיטה באירופה מאריכים את העליות על רקע שיבושים בים הצר",
+    "en": "European Wheat Extends Gains Amid Black Sea Supply Disruptions",
+    "ar": "قمح الاتحاد الأوروبي يمدد مكاسبه وسط اضطرابات البحر الأسود",
+    "ru": "Цены на пшеницу в ЕС растут на фоне перебоев в Черном море"
+   },
+   "summary": {
+    "he": "מחירי החיטה באירופה ממשיכים לטפס בעקבות שיבושים באספקה מאזור הים השחור לקראת מסחר מקוצר ביום שישי.",
+    "en": "European wheat prices continue to extend gains following supply disruptions in the Black Sea region ahead of a shortened Friday trading session.",
+    "ar": "تواصل أسعار القمح في أوروبا تحقيق المكاسب إثر اضطرابات الإمدادات في منطقة البحر الأسود قبيل جلسة تداول مختصرة.",
+    "ru": "Цены на европейскую пшеницу продолжают расти на фоне перебоев с поставками в Черноморском регионе перед сокращенной торговой сессией."
+   },
+   "kid": {
+    "he": "מחירי החיטה עולים בגלל קשיי הובלה באזור הים השחור. זה יכול לייקר מזון לצרכנים ולהשפיע על מניות החקלאות.",
+    "en": "Wheat prices are rising due to transportation difficulties in the Black Sea region. This could make food more expensive for consumers and affect agricultural stocks.",
+    "ar": "ارتفاع أسعار القمح بسبب صعوبات النقل في منطقة البحر الأسود. قد يجعل ذلك الغذاء أكثر تكلفة ويؤثر على الأسهم الزراعية.",
+    "ru": "Цены на пшеницу растут из-за трудностей с транспортировкой в Черноморском регионе. Это можетдорожить продукты."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGhMTl9iM09CQ3c0WXdTVDFvQzh5bk9GbVRSYWxLSm4wb1QyQ3lUcTZkQ1NuUUJCQjNMeWNtSjdFVHNReElKbUowZzhDcm8tV0ttUTNCUWs0em5xOXFBUG83RnBnNXk3TG9keWYzTUlodVlrZ2Y5Z1owbVVzaGtacERxYmU1MmZlcElleUF3?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDVDaXcxa29QTE0tWkpkTU5XOXFRRHkwZ3ZDZ0RjWXdWX25ZS3BfdzVUQzdDVXNWMG50ajhTdEFzMlUwY3VpY0t4SjE2N1ZvcWs5TzQ2TVVlNjc5SkduNUJaV252TTN1WWJOaGFsZjRzQVllSEZFWVI5X3cwdVZPZ2VNcUd4djFu?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "WEAT",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "שיבושים באספקה מהים השחור מקפיצים את מחירי החיטה",
+    "reason_i18n": {
+     "he": "שיבושים באספקה מהים השחור מקפיצים את מחירי החיטה",
+     "en": "Black Sea supply disruptions drive up wheat prices",
+     "ar": "اضطرابات إمدادات البحر الأسود تدفع أسعار القمح للارتفاع",
+     "ru": "Перебои с поставками из Черного моря подталкивают цены на пшеницу вверх"
+    },
+    "name_i18n": {
+     "he": "WEAT - קרן סל חיטה",
+     "en": "WEAT - Wheat Fund ETF",
+     "ar": "WEAT - صندوق القمح",
+     "ru": "WEAT - ETF пшеницы"
+    },
+    "price_at_alert": 21.3
+   },
+   {
+    "ticker": "DBA",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "עליית מחירי תבואה מושכת כלפי מעלה את מדד מחירי הסחורות החקלאיות",
+    "reason_i18n": {
+     "he": "עליית מחירי תבואה מושכת כלפי מעלה את מדד מחירי הסחורות החקלאיות",
+     "en": "Rising grain prices pull up the broader agricultural commodities index",
+     "ar": "ارتفاع أسعار الحبوب يدفع مؤشر السلع الزراعية للأعلى",
+     "ru": "Рост цен на зерно поднимает общий индекс сельскохозяйственных товаров"
+    },
+    "name_i18n": {
+     "he": "DBA - קרן סל חקלאות",
+     "en": "DBA - Agriculture Fund ETF",
+     "ar": "DBA - صندوق الزراعة",
+     "ru": "DBA - Сельскохозяйственный ETF"
+    },
+    "price_at_alert": 26.34
+   }
+  ],
+  "id": "61cf1718ad08"
+ },
+ {
+  "ts": 1795787511,
+  "time": "2026-11-27T13:51Z",
+  "title": "חברת התעופה הזולה נורס אטלנטיק הגישה בקשה לפשיטת רגל באירופה",
+  "summary": "חברת התעופה זולה נורס אטלנטיק הגישה בקשה לפשיטת רגל באירופה לאחר שנכשלה בגיוס מימון, בעוד עלויות דלק גבוהות הפעילו לחץ כבד על פעילותה.",
+  "kid": "חברת תעופה מוזלת גדולה באירופה פשטה רגל בגלל מחירי דלק יקרים וחוסר כסף. זה מדגיש את הקשיים של חברות התעופה הקטנות.",
+  "i18n": {
+   "title": {
+    "he": "חברת התעופה הזולה נורס אטלנטיק הגישה בקשה לפשיטת רגל באירופה",
+    "en": "Budget Carrier Norse Atlantic Files for Bankruptcy in Europe",
+    "ar": "شركة الطيران منخفض التكلفة نورس أتلانتيك تعلن إفلاسها في أوروبا",
+    "ru": "Бюджетный авиаперевозчик Norse Atlantic подал на банкротство в Европе"
+   },
+   "summary": {
+    "he": "חברת התעופה זולה נורס אטלנטיק הגישה בקשה לפשיטת רגל באירופה לאחר שנכשלה בגיוס מימון, בעוד עלויות דלק גבוהות הפעילו לחץ כבד על פעילותה.",
+    "en": "Budget airline Norse Atlantic filed for bankruptcy in Europe after failing to secure funding as soaring fuel costs strained its operations.",
+    "ar": "تقدمت شركة الطيران منخفض التكلفة نورس أتلانتيك بطلب إفلاس في أوروبا بعد فشلها في تأمين التمويل وسط ضغوط تكاليف الوقود.",
+    "ru": "Бюджетная авиакомпания Norse Atlantic подала на банкротство в Европе после неудачи с привлечением финансирования на фоне высоких цен на топливо."
+   },
+   "kid": {
+    "he": "חברת תעופה מוזלת גדולה באירופה פשטה רגל בגלל מחירי דלק יקרים וחוסר כסף. זה מדגיש את הקשיים של חברות התעופה הקטנות.",
+    "en": "A major budget airline in Europe went bankrupt due to high fuel prices and lack of funding. This highlights the pressures facing smaller airlines.",
+    "ar": "أفلست شركة طيران منخفض التكلفة في أوروبا بسبب أسعار الوقود المرتفعة ونقص التمويل. يبرز هذا الضغوط التي تواجه شركات الطيران.",
+    "ru": "Крупный европейский бюджетный авиаперевозчик обанкротился из-за высоких цен на топливо и нехватки финансирования."
+   }
+  },
+  "category": "commodities",
+  "severity": 4,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "JETS",
+    "direction": "down",
+    "t0": 1795787511,
+    "reason": "עלויות דלק גבוהות ומצוקת מימון מאיימות על רווחיות חברות התעופה",
+    "reason_i18n": {
+     "he": "עלויות דלק גבוהות ומצוקת מימון מאיימות על רווחיות חברות התעופה",
+     "en": "High fuel costs and funding stress threaten airline profitability",
+     "ar": "تکاليف الوقود المرتفعة وأزمة التمويل تهدد ربحية شركات الطيران",
+     "ru": "Высокие затраты на топливо и нехватка финансирования угрожают прибыли"
+    },
+    "name_i18n": {
+     "he": "JETS - קרן סל תעופה",
+     "en": "JETS - US Global Jets ETF",
+     "ar": "JETS - صندوق قطاع الطيران",
+     "ru": "JETS - Авиационный ETF"
+    },
+    "price_at_alert": 28.13
+   },
+   {
+    "ticker": "XLE",
+    "direction": "up",
+    "t0": 1795787511,
+    "reason": "מחירי דלק וריסון תפעולי אצל חברות משקפים לחצי עלויות אנרגיה",
+    "reason_i18n": {
+     "he": "מחירי דלק וריסון תפעולי אצל חברות משקפים לחצי עלויות אנרגיה",
+     "en": "High fuel costs and operational strain reflect ongoing energy price pressures",
+     "ar": "تكاليف الوقود المرتفعة تعكس ضغوط أسعار الطاقة المستمرة",
+     "ru": "Высокие расходы на топливо отражают сохраняющееся давление цен на энергию"
+    },
+    "name_i18n": {
+     "he": "XLE - קרן סל סקטור האנרגיה",
+     "en": "XLE - Energy Sector ETF",
+     "ar": "XLE - صندوق قطاع الطاقة",
+     "ru": "XLE - ETF энергетического сектора"
+    },
+    "price_at_alert": 60.9
+   }
+  ],
+  "id": "088ae1f6a0a0"
  }
 ]

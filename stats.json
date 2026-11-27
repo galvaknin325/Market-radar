@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-27T12:31Z",
+ "generated": "2026-11-27T13:52Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1567,
+ "total_alerts": 1573,
  "overall": {
-  "n": 1151,
-  "hits": 573,
+  "n": 1152,
+  "hits": 574,
   "avg_edge": 0.05
  },
  "by_category": {
@@ -24,9 +24,9 @@
    "avg_edge": 0.11
   },
   "contracts": {
-   "n": 226,
-   "hits": 113,
-   "avg_edge": -0.03
+   "n": 227,
+   "hits": 114,
+   "avg_edge": -0.02
   },
   "cyber": {
    "n": 78,
@@ -66,8 +66,8 @@
    "avg_edge": -0.34
   },
   "4-5": {
-   "n": 555,
-   "hits": 278,
+   "n": 556,
+   "hits": 279,
    "avg_edge": 0.02
   },
   "6-7": {
@@ -95,12 +95,12 @@
    "avg_edge": -0.04
   },
   "XLE": {
-   "mentions": 147,
+   "mentions": 148,
    "n": 140,
    "hits": 84,
    "name": {
     "he": "XLE - קרן סל סקטור האנרגיה",
-    "en": "XLE - Energy Select Sector SPDR Fund",
+    "en": "XLE - Energy Sector ETF",
     "ar": "XLE - صندوق قطاع الطاقة",
     "ru": "XLE - ETF энергетического сектора"
    },
@@ -179,38 +179,38 @@
    "avg_edge": 0.79
   },
   "ESLT.TA": {
-   "mentions": 14,
-   "n": 13,
-   "hits": 7,
+   "mentions": 15,
+   "n": 14,
+   "hits": 8,
    "name": {
-    "he": "אלביט מערכות (בורסת תל אביב)",
-    "en": "Elbit Systems (Tel Aviv Stock Exchange)",
-    "ar": "إلبيت سيستمز (بورصة تل أبيب)",
-    "ru": "Elbit Systems (Тель-Авивская фондовая биржа)"
+    "he": "ESLT.TA - אלביט מערכות (בורסת תל אביב)",
+    "en": "ESLT.TA - Elbit Systems (TASE)",
+    "ar": "ESLT.TA - إلبيت سيستمز (بورصة تل أبيب)",
+    "ru": "ESLT.TA - Elbit Systems (Текстильная биржа Тель-Авива)"
    },
-   "avg_edge": -0.08
+   "avg_edge": 0.07
   },
   "ESLT": {
-   "mentions": 35,
+   "mentions": 36,
    "n": 34,
    "hits": 13,
    "name": {
-    "he": "אלביט מערכות",
-    "en": "Elbit Systems",
-    "ar": "إلبيت سيستمز",
-    "ru": "Elbit Systems"
+    "he": "ESLT - אלביט מערכות",
+    "en": "ESLT - Elbit Systems",
+    "ar": "ESLT - إلبيت سيستمز",
+    "ru": "ESLT - Elbit Systems"
    },
    "avg_edge": -0.21
   },
   "XLK": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 27,
    "hits": 11,
    "name": {
-    "he": "קרן סל על מגזר הטכנולוגיה",
-    "en": "Technology sector ETF",
-    "ar": "صندوق استثمار لقطاع التكنولوجيا",
-    "ru": "ETF на технологический сектор"
+    "he": "XLK - קרן סל סקטור הטכנולוגיה",
+    "en": "XLK - Technology Sector ETF",
+    "ar": "XLK - صندوق قطاع التكنولوجيا",
+    "ru": "XLK - ETF технологического сектора"
    },
    "avg_edge": -0.16
   },
@@ -227,7 +227,7 @@
    "avg_edge": -0.73
   },
   "SPY": {
-   "mentions": 158,
+   "mentions": 159,
    "n": 145,
    "hits": 70,
    "name": {
@@ -323,26 +323,26 @@
    "avg_edge": 0.49
   },
   "FXE": {
-   "mentions": 25,
+   "mentions": 26,
    "n": 22,
    "hits": 7,
    "name": {
-    "he": "FXE – קרן סל על האירו",
-    "en": "FXE – Euro Currency Trust",
-    "ar": "FXE – صندوق العملة الأوروبية الموحدة",
-    "ru": "FXE – валютный фонд евро"
+    "he": "FXE - קרן סל אירו",
+    "en": "FXE - Euro Currency Trust",
+    "ar": "FXE - صندوق اليورو",
+    "ru": "FXE - Еропейский валютный ETF"
    },
    "avg_edge": -0.99
   },
   "JETS": {
-   "mentions": 23,
+   "mentions": 24,
    "n": 18,
    "hits": 5,
    "name": {
-    "he": "JETS - קרן סלי של חברות תעופה",
-    "en": "JETS - US Airlines ETF",
-    "ar": "JETS - صندوق قطاع الطيران الأمريكي",
-    "ru": "JETS - ETF американских авиакомпаний"
+    "he": "JETS - קרן סל תעופה",
+    "en": "JETS - US Global Jets ETF",
+    "ar": "JETS - صندوق قطاع الطيران",
+    "ru": "JETS - Авиационный ETF"
    },
    "avg_edge": -0.66
   },
@@ -383,14 +383,14 @@
    "avg_edge": 0.87
   },
   "DBA": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 19,
    "hits": 9,
    "name": {
-    "he": "DBA - קרן סל מוצרי חקלאות",
-    "en": "DBA - Agriculture ETF",
-    "ar": "DBA - صندوق استثمار الزراعة",
-    "ru": "DBA - ETF на сельское хозяйство"
+    "he": "DBA - קרן סל חקלאות",
+    "en": "DBA - Agriculture Fund ETF",
+    "ar": "DBA - صندوق الزراعة",
+    "ru": "DBA - Сельскохозяйственный ETF"
    },
    "avg_edge": 0.37
   },
@@ -515,7 +515,7 @@
    "avg_edge": -0.08
   },
   "INDA": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 36,
    "hits": 22,
    "name": {
@@ -539,14 +539,14 @@
    "avg_edge": -0.65
   },
   "VGK": {
-   "mentions": 51,
+   "mentions": 53,
    "n": 45,
    "hits": 19,
    "name": {
-    "he": "VGK – קרן סל מניות אירופה",
-    "en": "VGK – Vanguard FTSE Europe ETF",
-    "ar": "VGK – صندوق أسهم أوروبا",
-    "ru": "VGK – ETF на акции Европы"
+    "he": "VGK - קרן סל מניות אירופה",
+    "en": "VGK - European Stock ETF",
+    "ar": "VGK - صندوق الأسهم الأوروبية",
+    "ru": "VGK - Европейский ETF акций"
    },
    "avg_edge": -0.23
   },
@@ -599,14 +599,14 @@
    "avg_edge": 0.12
   },
   "PLTR": {
-   "mentions": 4,
+   "mentions": 5,
    "n": 3,
    "hits": 3,
    "name": {
-    "he": "Palantir – חברת תוכנה ובינה מלאכותית לביטחון",
-    "en": "Palantir Technologies – Defense software and AI",
-    "ar": "بالانتير – شركة برمجيات دفاعية",
-    "ru": "Palantir Technologies – оборонное ПО и ИИ"
+    "he": "PLTR - פלנטיר (תוכנה ביטחונית)",
+    "en": "PLTR - Palantir Technologies",
+    "ar": "PLTR - بالانتير لتكنولوجيا الدفاع",
+    "ru": "PLTR - Palantir Technologies"
    },
    "avg_edge": 1.44
   },
@@ -743,14 +743,14 @@
    "avg_edge": -1.71
   },
   "WEAT": {
-   "mentions": 29,
+   "mentions": 30,
    "n": 26,
    "hits": 10,
    "name": {
-    "he": "WEAT – קרן סלי חיטה",
-    "en": "WEAT – Wheat ETF",
-    "ar": "WEAT – صندوق القمح",
-    "ru": "WEAT – ETF на пшеницу"
+    "he": "WEAT - קרן סל חיטה",
+    "en": "WEAT - Wheat Fund ETF",
+    "ar": "WEAT - صندوق القمح",
+    "ru": "WEAT - ETF пшеницы"
    },
    "avg_edge": -0.14
   },
@@ -875,14 +875,14 @@
    "avg_edge": -0.63
   },
   "EWQ": {
-   "mentions": 9,
+   "mentions": 10,
    "n": 8,
    "hits": 2,
    "name": {
-    "he": "EWQ – קרן סל מניות צרפת",
-    "en": "EWQ – MSCI France ETF",
-    "ar": "EWQ – صندوق أسهم فرنسا",
-    "ru": "EWQ – ETF на акции Франции"
+    "he": "EWQ - קרן סל מניות צרפת",
+    "en": "EWQ - MSCI France ETF",
+    "ar": "EWQ - صندوق مؤشر فرنسا",
+    "ru": "EWQ - Французский ETF"
    },
    "avg_edge": -1.24
   },
