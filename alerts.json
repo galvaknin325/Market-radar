@@ -2108,155 +2108,6 @@
   "evaluated": true
  },
  {
-  "ts": 1795203271,
-  "time": "2026-11-20T19:34Z",
-  "title": "מחלוקת פוליטית סביב שיחות ארה\"ב-סין וג'נסן הואנג מאנבידיה",
-  "summary": "הנשיא טראמפ טען כי דן במנכ\"ל אנבידיה ג'נסן הואנג בפגישתו עם נשיא סין שי שינפינג, דיווח שסת לכאורה התבטאויות קודמות של שר האוצר המיועד בסנט בסת.",
-  "kid": "טראמפ אמר שדיבר על מנכ\"ל ענקית השבבים אנבידיה עם נשיא סין, למרות שגורמים אחרים אמרו שזה לא קרה. זה מושך תשומת לב למניות הטכנולוגיה והשבבים.",
-  "i18n": {
-   "title": {
-    "he": "מחלוקת פוליטית סביב שיחות ארה\"ב-סין וג'נסן הואנג מאנבידיה",
-    "en": "Political Controversy Over US-China Talks and Nvidia's Jensen Huang",
-    "ar": "جدل سياسي حول محادثات أمريكا والصين وجينسن هوانغ من إنفيديا",
-    "ru": "Политические разногласия вокруг переговоров США-Китай и Дженсена Хуанга из Nvidia"
-   },
-   "summary": {
-    "he": "הנשיא טראמפ טען כי דן במנכ\"ל אנבידיה ג'נסן הואנג בפגישתו עם נשיא סין שי שינפינג, דיווח שסת לכאורה התבטאויות קודמות של שר האוצר המיועד בסנט בסת.",
-    "en": "President Trump claimed he discussed Nvidia CEO Jensen Huang with Chinese President Xi Jinping, a remark that apparently contradicted prior statements by Treasury nominee Scott Bessent.",
-    "ar": "زعم الرئيس ترامب أنه ناقش الرئيس التنفيذي لشركه إنفيديا جينسن هوانغ مع الرئيس الصيني شي جين بينغ، وهو تصريح تناقض ظاهرياً مع تصريحات سابقة لمرشح وزارة الخزانة سكوت بيسنت.",
-    "ru": "Президент Трамп заявил, что обсуждал гендиректора Nvidia Дженсена Хуанга с председателем КНР Си Цзиньпином, что явно противоречило ранним словам кандидата в министры финансов Скотта Бессента."
-   },
-   "kid": {
-    "he": "טראמפ אמר שדיבר על מנכ\"ל ענקית השבבים אנבידיה עם נשיא סין, למרות שגורמים אחרים אמרו שזה לא קרה. זה מושך תשומת לב למניות הטכנולוגיה והשבבים.",
-    "en": "Trump said he talked about Nvidia's CEO with China's president, even though others said it didn't happen. This draws attention to tech and chip stocks.",
-    "ar": "قال ترامب إنه تحدث عن الرئيس التنفيذي لإنفيديا مع رئيس الصين، رغم أن آخرين قالوا إن ذلك لم يحدث. هذا يلفت الانتباه لأسهم التكنولوجيا والرقائق.",
-    "ru": "Трамп заявил, что говорил о главе Nvidia с лидером Китая, хотя другие утверждали обратное. Это привлекает внимание к акциям технологических компаний и чипов."
-   }
-  },
-  "category": "policy",
-  "severity": 5,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "CNBC World",
-    "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-   },
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "NVDA",
-    "direction": "down",
-    "t0": 1795203271,
-    "reason": "חוסר ודאות רגולטורי וגיאופוליטי סביב עסקי החברה בסין",
-    "reason_i18n": {
-     "he": "חוסר ודאות רגולטורי וגיאופוליטי סביב עסקי החברה בסין",
-     "en": "Regulatory and geopolitical uncertainty surrounding company business in China",
-     "ar": "حالة عدم اليقين التنظيمي والجيوسياسي المحيطة بأعمال الشركة في الصين",
-     "ru": "Регуляторная и геополитическая неопределенность вокруг бизнеса компании в Китае"
-    },
-    "name_i18n": {
-     "he": "אנבידיה – יצרנית שבבי בינה מלאכותית",
-     "en": "Nvidia - AI chip maker",
-     "ar": "إنفيديا - صانعة رقائق الذكاء الاصطناعي",
-     "ru": "Nvidia - производитель чипов ИИ"
-    },
-    "price_at_alert": 130.01,
-    "entry_price": 128.28,
-    "entry_time": "2026-11-20T20:30+00:00",
-    "exit_price": 165.185,
-    "exit_date": "2026-11-23",
-    "change_pct": 28.77,
-    "bench": "SPY",
-    "bench_change_pct": 4.29,
-    "excess_pct": 24.48,
-    "edge_pct": -24.48,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "SMH",
-    "direction": "down",
-    "t0": 1795203271,
-    "reason": "רגישות גבוהה לכותרות על מלחמת סחר והגבלות ייצוא טכנולוגיה לסין",
-    "reason_i18n": {
-     "he": "רגישות גבוהה לכותרות על מלחמת סחר והגבלות ייצוא טכנולוגיה לסין",
-     "en": "High sensitivity to trade war headlines and tech export controls to China",
-     "ar": "حساسية عالية لعناوين الحرب التجارية وضوابط تصدير التكنولوجيا للصين",
-     "ru": "Высокая чувствительность к новостям о торговой войне и экспортным ограничениям"
-    },
-    "name_i18n": {
-     "he": "אס.אם.אייץ' – קרן סל על חברות שבבים",
-     "en": "SMH - Semiconductor ETF",
-     "ar": "SMH - صندوق قطاع أشباه الموصلات",
-     "ru": "SMH - ETF полупроводников"
-    },
-    "price_at_alert": 405.025,
-    "entry_price": 402.58,
-    "entry_time": "2026-11-20T20:30+00:00",
-    "exit_price": 460.16,
-    "exit_date": "2026-11-23",
-    "change_pct": 14.3,
-    "bench": "SPY",
-    "bench_change_pct": 4.29,
-    "excess_pct": 10.01,
-    "edge_pct": -10.01,
-    "hit": false,
-    "hit_raw": false
-   },
-   {
-    "ticker": "QQQ",
-    "direction": "up",
-    "t0": 1795228687,
-    "reason": "מניות הטכנולוגיה מגיבות להצהרות פוליטיות הנוגעות לחברות ענק.",
-    "reason_i18n": {
-     "he": "מניות הטכנולוגיה מגיבות להצהרות פוליטיות הנוגעות לחברות ענק.",
-     "en": "Tech stocks react to political statements regarding mega-cap companies.",
-     "ar": "تتفاعل أسهم التكنولوجيا مع التصريحات السياسية المتعلقة بالشركات الكبرى.",
-     "ru": "Технологические акции реагируют на политические заявления о мегакорпорациях."
-    },
-    "name_i18n": {
-     "he": "QQQ - קרן סל נאסד\"ק 100",
-     "en": "QQQ - Invesco QQQ Trust",
-     "ar": "QQQ - صندوق ناسداك 100",
-     "ru": "QQQ - ETF на индекс Nasdaq 100"
-    },
-    "price_at_alert": 608.45,
-    "entry_price": 655.98,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 638.09,
-    "exit_date": "2026-11-24",
-    "change_pct": -2.73,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -1.96,
-    "edge_pct": -1.96,
-    "hit": false,
-    "hit_raw": false
-   }
-  ],
-  "id": "9ebe65084d72",
-  "updates": [
-   {
-    "ts": 1795228687,
-    "time": "2026-11-21T02:38Z",
-    "severity": 4,
-    "summary": "נשיא ארה\"ב קרא ל ענקית השבבים אנבידיה לתת הזדמנות שנייה למנכ\"ל לשעבר ג'נסן הואנג, הגדיר אותו כ\"מבריק\" ודחק בו להתנצל על מנת לחזור לתפקיד.",
-    "i18n": {
-     "he": "נשיא ארה\"ב קרא ל ענקית השבבים אנבידיה לתת הזדמנות שנייה למנכ\"ל לשעבר ג'נסן הואנג, הגדיר אותו כ\"מבריק\" ודחק בו להתנצל על מנת לחזור לתפקיד.",
-     "en": "The US president called on tech giant Nvidia to give former CEO Jensen Huang a second chance, praising him as 'brilliant' and urging him to make a big apology to return.",
-     "ar": "دعا الرئيس الأمريكي عملاق الرقائق إنفيديا لمنح الرئيس التنفيذي السابق جينسن هوانغ فرصة ثانية، مشيداً به ووصفه بـ\"العبقري\" وحضه على تقديم اعتذار كبير للعودة.",
-     "ru": "Президент США призвал техногигант Nvidia дать бывшему гендиректору Дженсену Хуангу второй шанс, назвав его «гениальным» и призвав принести извинения для возвращения."
-    }
-   }
-  ],
-  "last_update": 1795228687,
-  "evaluated": true
- },
- {
   "ts": 1795213204,
   "time": "2026-11-20T22:20Z",
   "title": "ארה\"ב הטילה סנקציות על ארבעה איראנים בגין גביית הכנסות נפט",
@@ -3554,146 +3405,6 @@
    }
   ],
   "last_update": 1795232150,
-  "evaluated": true
- },
- {
-  "ts": 1795228687,
-  "time": "2026-11-21T02:38Z",
-  "title": "חשד למתקפת סייבר השביתה את מחשב-העל פוגאקו ביפן",
-  "summary": "מחשת-העל המוביל ביפן, פוגאקו, הושקע באופן זמני עקב חשד למתקפת סייבר שפגעה במערכותיו.",
-  "kid": "האקרים פרצו או ניסו לפגוע באחד המחשבים החזקים בעולם ביפן. זה מראה שגם מערכות מדעיות גדולות חשופות לסכנות סייבר.",
-  "i18n": {
-   "title": {
-    "he": "חשד למתקפת סייבר השביתה את מחשב-העל פוגאקו ביפן",
-    "en": "Suspected Cyberattack Takes Japan's Fugaku Supercomputer Offline",
-    "ar": "هجوم سيبراني مشتبه به يعطل كمبيوتر فوغاكو الخارق في اليابان",
-    "ru": "Предполагаемая кибератака вывела из строя суперкомпьютер Fugaku в Японии"
-   },
-   "summary": {
-    "he": "מחשת-העל המוביל ביפן, פוגאקו, הושקע באופן זמני עקב חשד למתקפת סייבר שפגעה במערכותיו.",
-    "en": "Japan's leading supercomputer, Fugaku, has been taken offline following a suspected cyberattack that compromised its systems.",
-    "ar": "تم إيقاف الكمبيوتر الخارق الرائد في اليابان، فوغاكو، مؤقتاً إثر هجوم سيبراني مشتبه به أثر على أنظمته.",
-    "ru": "Ведущий японский суперкомпьютер Fugaku был временно отключен из-за предполагаемой кибератаки, затронувшей его системы."
-   },
-   "kid": {
-    "he": "האקרים פרצו או ניסו לפגוע באחד המחשבים החזקים בעולם ביפן. זה מראה שגם מערכות מדעיות גדולות חשופות לסכנות סייבר.",
-    "en": "Hackers targeted one of the world's most powerful computers in Japan. This shows major scientific systems are vulnerable to cyber threats.",
-    "ar": "استهدف المتسللون أحد أقوى أجهزة الكمبيوتر في العالم في اليابان، مما يظهر تعرض الأنظمة العلمية الكبرى لمخاطر سيبرانية.",
-    "ru": "Хакеры атаковали один из мощнейших компьютеров в мире в Японии, что показывает уязвимость крупных научных систем перед киберугрозами."
-   }
-  },
-  "category": "cyber",
-  "severity": 4,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUU5wZVhvZGhqeW9sR1pPemRzWFF1VzJjUVc2enFTZmlvSXIyR3hjV2RnRFpUQmdLd0tTb0dHVEhyN3BGTUQtUjRDU1FZQzljaTdfNHVCNHdZQ1gtVzVZTmJLcXR2SzRxblpxaXI1bnY3TW5FY3dpQ09NREEzbFgwc010OGF2dW5kSU9JM1FpOA?oc=5"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "EWJ",
-    "direction": "down",
-    "t0": 1795228687,
-    "reason": "פגיעה בתשתיות טכנולוגיות לאומיות ביפן מעוררת חששות בקרב משקיעים.",
-    "reason_i18n": {
-     "he": "פגיעה בתשתיות טכנולוגיות לאומיות ביפן מעוררת חששות בקרב משקיעים.",
-     "en": "Disruption to national tech infrastructure in Japan raises investor concerns.",
-     "ar": "تعطل البنية التحتية التكنولوجية الوطنية في اليابان يثير مخاوف المستثمرين.",
-     "ru": "Нарушение работы национальной технологической инфраструктуры в Японии вызывает беспокойство инвесторов."
-    },
-    "name_i18n": {
-     "he": "EWJ - קרן סל מניות יפן",
-     "en": "EWJ - iShares MSCI Japan ETF",
-     "ar": "EWJ - صندوق مؤشرات الأسهم اليابانية",
-     "ru": "EWJ - японский биржевой фонд"
-    },
-    "price_at_alert": 83.43,
-    "entry_price": 87.77,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 86.64,
-    "exit_date": "2026-11-24",
-    "change_pct": -1.29,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -0.52,
-    "edge_pct": 0.52,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "3f4edc22a5e9",
-  "evaluated": true
- },
- {
-  "ts": 1795228687,
-  "time": "2026-11-21T02:38Z",
-  "title": "ועידת האקלים COP31 נתקלת בקשיים ומשא ומתן תקוע",
-  "summary": "המשא وמתן בוועידת האקלים COP31 נקלע למבוי סתום כאשר מדינות מתקשות להגיע להסכמה סופית על תוכנית הפעולה האקלימית.",
-  "kid": "מדינות העולם לא מצליחות להסכים על תוכנית להילחם בשינויי האקלים. זה משפיע על חברות אנרגיה ירוקה ועל השקעות סביבתיות.",
-  "i18n": {
-   "title": {
-    "he": "ועידת האקלים COP31 נתקלת בקשיים ומשא ומתן תקוע",
-    "en": "COP31 Climate Deal Stalls Amid Disagreements",
-    "ar": "تعثر اتفاق قمة المناخ COP31 وسط خلافات بين الدول",
-    "ru": "Климатическая сделка COP31 зашла в тупик на фоне разногласий"
-   },
-   "summary": {
-    "he": "המשא وמתן בוועידת האקלים COP31 נקלע למבוי סתום כאשר מדינות מתקשות להגיע להסכמה סופית על תוכנית הפעולה האקלימית.",
-    "en": "Negotiations for the COP31 climate deal have stalled as nations struggle to reach an agreement on the climate plan.",
-    "ar": "تعثرت المفاوضات بشأن صفقة المناخ COP31 حيث تكافح الدول للتوصل إلى اتفاق بشأن خطة المناخ.",
-    "ru": "Переговоры по климатической сделке COP31 зашли в тупик, так как страны борются за достижение соглашения по климатическому плану."
-   },
-   "kid": {
-    "he": "מדינות העולם לא מצליחות להסכים על תוכנית להילחם בשינויי האקלים. זה משפיע על חברות אנרגיה ירוקה ועל השקעות סביבתיות.",
-    "en": "Countries are failing to agree on a climate change plan. This affects green energy companies and environmental investments.",
-    "ar": "تفشل الدول في الاتفاق على خطة لتغيير المناخ. يؤثر ذلك على شركات الطاقة الخضراء والاستثمارات البيئية.",
-    "ru": "Странам не удается договориться о плане борьбы с изменением климата. Это затрагивает компании зеленой энергетики и экологические инвестиции."
-   }
-  },
-  "category": "climate",
-  "severity": 3,
-  "confidence": "medium",
-  "sources": [
-   {
-    "name": "Al Jazeera",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss"
-   }
-  ],
-  "impacts": [
-   {
-    "ticker": "ICLN",
-    "direction": "down",
-    "t0": 1795228687,
-    "reason": "חוסר הסכמה בוועידות אקלים מקטין את הציפיות לתמיכה ממשלתית מיידית באנרגיה ירוקה.",
-    "reason_i18n": {
-     "he": "חוסר הסכמה בוועידות אקלים מקטין את הציפיות לתמיכה ממשלתית מיידית באנרגיה ירוקה.",
-     "en": "Lack of agreement at climate summits dampens expectations for immediate government support.",
-     "ar": "قلة الاتفاق في قمم المناخ تضعف التوقعات للدعم الحكومي الفوري.",
-     "ru": "Отсутствие соглашений на климатических саммитах снижает ожидания скорой господдержки."
-    },
-    "name_i18n": {
-     "he": "ICLN - קרן סל אנרגיה נקייה",
-     "en": "ICLN - iShares Global Clean Energy ETF",
-     "ar": "ICLN - صندوق الطاقة النظيفة",
-     "ru": "ICLN - ETF чистой энергетики"
-    },
-    "price_at_alert": 13.84,
-    "entry_price": 14.515,
-    "entry_time": "2026-11-23T14:30+00:00",
-    "exit_price": 14.055,
-    "exit_date": "2026-11-24",
-    "change_pct": -3.17,
-    "bench": "SPY",
-    "bench_change_pct": -0.76,
-    "excess_pct": -2.41,
-    "edge_pct": 2.41,
-    "hit": true,
-    "hit_raw": true
-   }
-  ],
-  "id": "60bde3833e3e",
   "evaluated": true
  },
  {
@@ -36908,14 +36619,6 @@
   "sources": [
    {
     "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54TTRFRzNhYTR0dGJ5MkR1ZURJVGNmVEdkenJDcTRCVXZwYUVEREplcndQRGMtTnNDVlYwaXFSTG4zX0ZBSTNVdjZDdmN1Q3NkM19GN1NORTJOVGtrN29jYXA5TXdlTzA4aHQxaXRtVEdVaTdDNHM4MWJwS05ySDQ?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aaU1zc19yMWM0RjlibzBmbE5fNllfdmFYRlNmVEdtTlV6Y1hHUms5MU5NNWtRRkZYRTd6MlVwS3ZMZVdzT1hFZjRIYlM4WEp5YzJ5OF9qLV9Pa0JnRjdEUGwzR2huN2lMR0FJeGZFX21Zb1dCV1dfcg?oc=5"
-   },
-   {
-    "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQakRTWFBCcVAyU0FDYW4yQXdUSUZ5MkgzU2NrVEhUZzVpa2hJZFVZTkQ4MVg2aWYyTTdwMm14U2xZbFptQ0dGOE5DZ01hNnYwRllFYzJ0OTRQVHBTbTdoUjJHaTNWX2VZUENzU2p1TUlpYnFtcHJ1a2NscEdsUW9qUllPN2lpdkViSC11LWRzLUI4MnBZMmc5eHV3TDJXa1BEUnc3a29uMjA5eXJGOWdoMTB6bGh0ZFo4dlc1N04tdlRMcGFwb21tcVZpTQ?oc=5"
    },
    {
@@ -36929,6 +36632,14 @@
    {
     "name": "Google News: health & cyber",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQVGY4QXJVSFp2MzVGbkpYY3hDMHJMOXUyVzZpczFBU0RVOHpEMWpYMzJFZ1JGR3NFZnRkZS1vMS1ib0diUkdKM3dYOEVSdl9XTm40?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IYVY3X0xTc3FYV3c1TkRGbHZnU0tQWVlfYkRnSWswWFdHRU04WllfN1NUSzdoeC1raEFrbVZJaUFMRjBnMmNKSGRuMjNURVh3VzltZFV4cEJWT2w4ZWFZdWlB?oc=5"
+   },
+   {
+    "name": "Google News: health & cyber",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbC1OTWVqWFRPSldpeDVIR0hiaUx4bWhHbF9VTTdneWwzOGhMNk9FSXRHZVJSUU5PUXFFWGJSSnUxX1JLUVZFbW1qSU1QaXJQTGtjWmdfT0JXOEV5X2JxQzlfZmlVRXpRZ1Y3a21fQlF1RmlaTUhUYnJRMWdKV0k1QktrZVRXRGwwY01OMzk5dGRXbms3YVIwdA?oc=5"
    }
   ],
   "impacts": [
@@ -37039,9 +36750,21 @@
      "ar": "تفيد التقارير باختراق قراصنة لمنصة الحوسبة السحابية للقوات الجوية الأمريكية، بالتزامن مع قيود تصدير أمريكية جديدة تستهدف الحوسبة السحابية الخارجية.",
      "ru": "Хакеры предположительно получили доступ к облачной платформе ВВС США на фоне введения новых экспортных ограничений США на облачные вычисления за рубежом."
     }
+   },
+   {
+    "ts": 1795836481,
+    "time": "2026-11-28T03:28Z",
+    "severity": 6,
+    "summary": "דיווחים מצביעים על מתקפת סייבר ופריצה למערכת הענן 'Cloud One' של חיל האוויר האמריקאי, כאשר החשדות נוגעים לחשיפת מידע רגיש על מערכות נשק ומכ\"ם.",
+    "i18n": {
+     "he": "דיווחים מצביעים על מתקפת סייבר ופריצה למערכת הענן 'Cloud One' של חיל האוויר האמריקאי, כאשר החשדות נוגעים לחשיפת מידע רגיש על מערכות נשק ומכ\"ם.",
+     "en": "Reports reveal a cyberattack and data breach targeting the US Air Force Cloud One cloud platform, potentially exposing weapons and radar system information.",
+     "ar": "تشير التقارير إلى وقوع هجوم سيبراني واختراق لمنصة الحوسبة السحابية 'Cloud One' التابعة للقوات الجوية الأمريكية، وسط مخاوف بشأن بيانات الأسلحة والرادار.",
+     "ru": "Сообщения указывают на кибератаку и утечку данных в облачной системе ВВС США Cloud One, затронувшую информацию о вооружениях и радарах."
+    }
    }
   ],
-  "last_update": 1795823502
+  "last_update": 1795836481
  },
  {
   "ts": 1795782656,
@@ -38953,14 +38676,6 @@
   "sources": [
    {
     "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUTBYWmhMWFJBTHhfRTY0VktfVnR0S1lhaEpUM1ZhYVBTVS1UTUd5TXdBUDdyemRMMnJoMGRiMEhXV2Q4X2NoSnViOEV6SHpYcllCSkxFVGxjRzlCSGZ5anVQUVpwUktBNzJqMTNMTkJPZDdZS0RqelQ4Zm4ySDh0bDlCajlzTHlITjMtLUh1U1hCTnlWemNlaFVhdlZ5T2pLbTA0cklSLU92M1oyRmNWZG4tRkwwY29La2hmQ2Nvc1lxaHpGQU1IM1FfSWI1Nkg4aVZocUV1SzBONFRTUUhoZE15ejlMQjTSAewBQVVfeXFMTTIwQk9LQUdWRG9YYkhQdHFSUElucW5qaGpVeGNfTGRTVTByMXUzWGs1X0l4NXZnRTE4SWZ0YUZfWTZqZm1HeDFqN3FBNVo1V0F0bng3amNqSG1PeFRNNU1kVHhVS2ROelVVXzZPZnl3RTdQZWdobmtwRVJ2QmFBOEJDMkNOanI2bkNMMGRPSWJTWHNETnhfWW9FUFk5d0ZuUWtvOTR6VTVVejV4cjgwTkhVQUk5a19Rc2VnX1ZJWGhKQmEybnYtRkVIeEhjc0h2VmVGLVZVNkt2LWxoRWJsTU1XTW1pa3BMMG81cng?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VelV1ZVVZXzBDeUFrelpxa2ZPSjhmRXJnSXl3Mk0yZGhEZzg0Mno0alpnb01jZFNfOHBob2tFLUFUX0VCcERBb3J6cnluSEZLelJPZDJ1NWswVDBhMWVuMm5rTU9QVlHSAVxBVV95cUxOZVU5ZXBoY2lqcUVSZEFYSjY4bDFMYUJoU1poS1M4UmRfVlktaHVaeVZnRmFON3Zaak13WlduRDQ4aGlBVzRfZ2lkU3BIWFhueFZzdXlhYk43Vmpoeg?oc=5"
-   },
-   {
-    "name": "Google News: geopolitics",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaWhabHcxYnB5VDBlOFZSYU92ZjVBTDc3LTBaSTI3YTA3dXMxQVpybGFFbTVnVzVkR1p6Zk0yOElOV19TWDYtd3VzMWgyRUtzSVYtYS0zcmlpWDdyX1dJRFVsOWxNTmpEVXl2Vjh1OEJ0TG9xNjZHXzRjR19ndUdkVmhySF9VNHBaeHRJdDBRVFd1aWt0Y1BrQjBKTXdubVprV1UzWEZBTnB3MjhWMDkzUzhLX3B2UzBKVDcyTzNQMDk2UVVLeExZT0g2bHZyaWY4NTR0Nw?oc=5"
    },
    {
@@ -38974,6 +38689,14 @@
    {
     "name": "Google News: commodities",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemh2UV83VzdDcl9OekNvekJieWdkSEl2bDEzMUUwdzg5RlRkSXVNZWhJcXpaUlVLREp4SG53bzE2N1phQVhTZnlLeTlfdWwycmZKeFZUOFNkNjk4VnJ2cW02ZUtqZkJLUWVacjNsX21DOFk1VGxBbGUxdTlqd0lLZUVOYnFmQ1lDZkNYd2UyTUs2N3d1Q2FIMDJhZDV4dHpnemYxYzZrZzJsRDFWeGVWSEpmclZyczA?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFJRSkxBTkhNTEU5bnhFRGRwY3dFcTJLcGVSUkh4ajZYX2xxdERPOTlydldGNk5SWjFOcFlRZW1SbzRKV285b096R1J1NktVSThDalJFQVItSnVPOEFfRzhzNUZiRDU5WDdhMnZ4UlUxRFJFbGJ2ZHRXR1lqbVdJNVh3WnhJLTZuYXNfLTQ2LVFFNEYzVThqcVp6OUpFQ1N4bHRLdWRMT1N3eXNwelNjUGM5M195ZVZZckhFRWxB?oc=5"
+   },
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yTTdXZ2M2ZTR2Q3hneDBnYi03OEdPLTBZYmFkVDNYU05XYk9lYXowZHFIaEtiVGJpMXVFSjJBYnRQRlVDMDU2M0hJaGFndWFnbjdzZGF6NTEzSWRXS1VDb0x1Y1k?oc=5"
    }
   ],
   "impacts": [
@@ -39115,9 +38838,21 @@
      "ar": "عطل الجيش الأمريكي سفينة تجارية في خليج عمان بعد محاولة طاقمها خرق الحصار البحري المفروض على إيران، مما أدى إلى تأجيج المخاوف بشأن الإمدادات وانتعاش أسعار النفط.",
      "ru": "Американские военные вывели из строя коммерческое судно в Оманском заливе после попытки экипажа прорвать блокаду Ирана, что усилило опасения по поводу поставок и привело к росту цен на нефть."
     }
+   },
+   {
+    "ts": 1795836481,
+    "time": "2026-11-28T03:28Z",
+    "severity": 5,
+    "summary": "כוחות הצבא של ארה\"ב השביתו ספינת סוחר שניסתה להתחמק או לפרוץ את המצור הימי שהוטל על נמלים באיראן.",
+    "i18n": {
+     "he": "כוחות הצבא של ארה\"ב השביתו ספינת סוחר שניסתה להתחמק או לפרוץ את המצור הימי שהוטל על נמלים באיראן.",
+     "en": "The US military disabled a merchant ship attempting to evade or breach the naval blockade enforced around Iranian ports.",
+     "ar": "قامت القوات العسكرية الأمريكية بتعطيل سفينة تجارية حاولت التهرب من الحصار البحري المفروض على الموانئ الإيرانية.",
+     "ru": "Военные США вывели из строя торговое судно, пытавшееся обойти военно-морскую блокаду портов Ирана."
+    }
    }
   ],
-  "last_update": 1795832688
+  "last_update": 1795836481
  },
  {
   "ts": 1795812900,
@@ -40027,5 +39762,417 @@
    }
   ],
   "id": "22b59f819f23"
+ },
+ {
+  "ts": 1795836481,
+  "time": "2026-11-28T03:28Z",
+  "title": "ארה\"ב לחצה על ונצואלה ועיראק לפרוש מאופ\"ק; עיראק דורשת העלאת מכסות",
+  "summary": "דיווחים חושפים כי ממשל ארה\"ב הפעיל לחץ על ונצואלה ועיראק לעזוב את קרטל הנפט אופ\"ק, אך המהלך נתקל בהתנגדות מצד סעודיה ועיראק. במקביל, עיראק דורשת להעלות את מכסת הייצור שלה באופ\"ק.",
+  "kid": "ארה\"ב ניסתה לשכנע מדינות נפט גדולות לעזוב את ארגון אופ\"ק כדי להשפיע על מחירי האנרגיה, אך המהלך נתקל בקשיים בזמן שעיראק רוצה לייצר יותר נפט. חדשות אלו עשויות להשפיע על מחירי הנפט ומניות חברות האנרגיה.",
+  "i18n": {
+   "title": {
+    "he": "ארה\"ב לחצה על ונצואלה ועיראק לפרוש מאופ\"ק; עיראק דורשת העלאת מכסות",
+    "en": "US Pressured Venezuela and Iraq to Leave OPEC; Iraq Seeks Higher Ceiling",
+    "ar": "الولايات المتحدة تضغط على فنزويلا والعراق لمغادرة أوبك؛ والعراق يسعى لرفع سقف الإنتاج",
+    "ru": "США давили на Венесуэлу и Ирак с целью выхода из ОПЕК; Ирак добивается повышения квот"
+   },
+   "summary": {
+    "he": "דיווחים חושפים כי ממשל ארה\"ב הפעיל לחץ על ונצואלה ועיראק לעזוב את קרטל הנפט אופ\"ק, אך המהלך נתקל בהתנגדות מצד סעודיה ועיראק. במקביל, עיראק דורשת להעלות את מכסת הייצור שלה באופ\"ק.",
+    "en": "Reports reveal the US administration pressed Venezuela and Iraq to leave OPEC, though the push stalled amid Saudi intervention and Iraqi resistance. Meanwhile, Iraq is seeking a higher OPEC production ceiling.",
+    "ar": "كشفت تقارير أن الإدارة الأمريكية ضغطت على فنزويلا والعراق لمغادرة أوبك، في حين يسعى العراق لرفع سقف إنتاجه ضمن المنظمة.",
+    "ru": "Сообщается, что администрация США оказывала давление на Венесуэлу и Ирак, призывая их выйти из ОПЕК, однако Ирак также добивается увеличения квоты на добычу."
+   },
+   "kid": {
+    "he": "ארה\"ב ניסתה לשכנע מדינות נפט גדולות לעזוב את ארגון אופ\"ק כדי להשפיע על מחירי האנרגיה, אך המהלך נתקל בקשיים בזמן שעיראק רוצה לייצר יותר נפט. חדשות אלו עשויות להשפיע על מחירי הנפט ומניות חברות האנרגיה.",
+    "en": "The US tried to get some countries to leave the oil-producing group OPEC, while Iraq wants to pump more oil. This can change oil prices, which affects energy stocks like Exxon and Chevron.",
+    "ar": "حاولت الولايات المتحدة دفع بعض الدول لمغادرة أوبك بينما ترغب العراق في إنتاج المزيد من النفط، مما قد يؤثر على أسعار النفط ومניות الطاقة.",
+    "ru": "США пытались убедить страны выйти из ОПЕК, в то время как Ирак добивается роста квот. Это может повлиять на цены на нефть и акции энергетических компаний."
+   }
+  },
+  "category": "commodities",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiaGRjWTM5U21heWFGNU4zZEVrMUIyZWwxSTExRC1OWHNFVEcyUEU1bEJwM211MjlxUUFGUW1YYUhqdTZfV3NNOUx0ZGU5TTlmODJfNExpNm1sSmkzQk1wM1Vsd3lkN3VPUl9nUg?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWTBpSHItc254UkdNNDdkUVhQbl84X2RLS2JQQS1ZZDFEQUZLTmd5TjNaeHEycndZZEdxXzJDTUpoaklyMEd2VTVCeG5nV2RabU80V3QxUWFQcVUxcjlXcms2NENQVHVKUlE0QXR1d3RtWXNKWlpGOExWR01yTVYyUlFkaG0yc0ZIWjZDdlhRc0p3TmlOUW9WTDRYQzYtc3h4eWlpQ0JVQlQ5bWVDR1ZqUnVUSzZLQmJhbTkwUEl30gG8AUFVX3lxTE9GR0dsZWNjLVhreUJBZGNsRTBVd09ZWXhHbHRGalFobWlYSHVPM2Y2emZrd1BocUt4YThsUEdiWk9sb3JydWgxMjFwc0tpa1NaWEZqYm1wT1FQTWxsQVRhYTJ2cFBud0RWRWE2bTc4dFVET054RFB3Z1lDemFmNks0TkFJNmd2UzZOUS1sODdyRkpNdHlhaVVab3ZKdk9iM3BsV0Nrc3N4OE1qN3Zaek9hd2pETXQ2Vm9tRTZF?oc=5"
+   },
+   {
+    "name": "Google News: commodities",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKOE0zeFFfT241MnhRMEdYcWduNG5jWEpaNGdyelZVMEN6bUtBZnRwa2s1X3R4V0lZRlJSamVDMDVZaXI5ZmJlWU96cUx3cHVtR3Z2UEY3Y20zODh2RlFfOTNva3N6dlJDRDVaU1BMeTltSFEyYnZpajJVTQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "down",
+    "t0": 1795836481,
+    "reason": "לחץ על קרטל אופ\"ק ומאמצי הפקה עשויים להגדיל את היצע הנפט ולהוריד מחירים.",
+    "reason_i18n": {
+     "he": "לחץ על קרטל אופ\"ק ומאמצי הפקה עשויים להגדיל את היצע הנפט ולהוריד מחירים.",
+     "en": "Pressure on OPEC and higher production ambitions could increase supply and weigh on prices.",
+     "ar": "الضغط على أوبك وزيادة الإنتاج المحتملة قد تضغط على أسعار النفط.",
+     "ru": "Давление на ОПЕК и рост добычи могут увеличить предложение и снизить цены."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט גולמי",
+     "en": "US Oil Fund ETF",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF нефти"
+    },
+    "price_at_alert": 137.77
+   },
+   {
+    "ticker": "XOM",
+    "direction": "down",
+    "t0": 1795836481,
+    "reason": "מחירי נפט נמוכים יותר עלולים לפגוע ברווחי ענקיות האנרגיה.",
+    "reason_i18n": {
+     "he": "מחירי נפט נמוכים יותר עלולים לפגוע ברווחי ענקיות האנרגיה.",
+     "en": "Lower potential oil prices can squeeze earnings for major oil producers.",
+     "ar": "أسعار النفط المنخفضة قد تضر بأرباح شركات الطاقة الكبرى.",
+     "ru": "Более низкие цены на нефть могут снизить прибыль крупных нефтедобытчиков."
+    },
+    "name_i18n": {
+     "he": "אקסון מוביל - חברת אנרגיה ענקית",
+     "en": "ExxonMobil – major energy company",
+     "ar": "إكسون موبيل - شركة طاقة كبرى",
+     "ru": "ExxonMobil — крупная энергетическая компания"
+    },
+    "price_at_alert": 160.18
+   },
+   {
+    "ticker": "CVX",
+    "direction": "down",
+    "t0": 1795836481,
+    "reason": "חשש מגידול בהיצע העולמי והשפעה שלילית על סקטור האנרגיה.",
+    "reason_i18n": {
+     "he": "חשש מגידול בהיצע העולמי והשפעה שלילית על סקטור האנרגיה.",
+     "en": "Concerns over rising global supply and negative impact on the energy sector.",
+     "ar": "مخاوف من زيادة المعروض العالمي وتأثير سلبي على قطاع الطاقة.",
+     "ru": "Опасения роста глобального предложения и негативное влияние на энергетический сектор."
+    },
+    "name_i18n": {
+     "he": "שברון - חברת אנרגיה ענקית",
+     "en": "Chevron – major energy company",
+     "ar": "شيفرون - شركة طاقة كبرى",
+     "ru": "Chevron — крупная энергетическая компания"
+    },
+    "price_at_alert": 212.45
+   }
+  ],
+  "id": "bec8ccd8331a"
+ },
+ {
+  "ts": 1795836481,
+  "time": "2026-11-28T03:28Z",
+  "title": "גרעון הסחר של ארה\"ב מזנק ל-149.5 מיליארד דולר על רקע בום הבינה המלאכותית",
+  "summary": "גרעון הסחר בסחורות של ארה\"ב התרחב ב-10.7% באוקטובר לשיא של 149.5 מיליארד דולר, כאשר הביקוש לטכנולוגיות בינה מלאכותית מאיץ את היבוא למרות מכסים.",
+  "kid": "ארה\"ב מייבאת הרבה יותר מוצרים ממה שהיא מוכרת לחו\"ל, בעיקר בגלל ציוד טכנולוגי יקר שקשור לבינה מלאכותית. זה עשוי להשפיע על ערך הדולר ועל חברות הטכנולוגיה שמייבאות רכיבים.",
+  "i18n": {
+   "title": {
+    "he": "גרעון הסחר של ארה\"ב מזנק ל-149.5 מיליארד דולר על רקע בום הבינה המלאכותית",
+    "en": "US Trade Deficit Balloons to $149.5 Billion Amid AI Boom",
+    "ar": "عجز التجارة الأمريكية يتسع إلى 149.5 مليار دولار وسط طفرة الذكاء الاصطناعي",
+    "ru": "Торговый дефицит США вырос до $149,5 млрд на фоне бума искусственного интеллекта"
+   },
+   "summary": {
+    "he": "גרעון הסחר בסחורות של ארה\"ב התרחב ב-10.7% באוקטובר לשיא של 149.5 מיליארד דולר, כאשר הביקוש לטכנולוגיות בינה מלאכותית מאיץ את היבוא למרות מכסים.",
+    "en": "The US goods trade deficit widened 10.7% in October to $149.5 billion as surging demand for AI infrastructure drove record imports despite tariffs.",
+    "ar": "اتسع عجز التجارة السلعية الأمريكية بنسبة 10.7% في أكتوبر ليزيد من الضغوط رغم التعريفات الجمركية.",
+    "ru": "Дефицит торговли товарами в США вырос на 10,7% в октябре до $149,5 млрд на фоне рекордного импорта оборудования для ИИ."
+   },
+   "kid": {
+    "he": "ארה\"ב מייבאת הרבה יותר מוצרים ממה שהיא מוכרת לחו\"ל, בעיקר בגלל ציוד טכנולוגי יקר שקשור לבינה מלאכותית. זה עשוי להשפיע על ערך הדולר ועל חברות הטכנולוגיה שמייבאות רכיבים.",
+    "en": "The US is buying a lot more foreign goods, especially tech and AI equipment, than it sells abroad. This can affect the US dollar and tech import supply chains.",
+    "ar": "تشتري الولايات المتحدة سلعاً أكثر مما تبيع، وخاصة تكنولوجيا الذكاء الاصطناعي، مما يؤثر على الدولار وشركات التكنولوجيا المستوردة.",
+    "ru": "США покупают за рубежом больше товаров, чем продают, особенно оборудование для ИИ. Это может повлиять на курс доллара и акции технологических компаний."
+   }
+  },
+  "category": "trade",
+  "severity": 6,
+  "confidence": "high",
+  "sources": [
+   {
+    "name": "Google News: trade & policy",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSVhoVTFxTnotV1dEMXA4aVpDc0VWMWxabmtlbkI0SUZkZ084TzNxWWlMVVZRNDM4TGtlTFQ4TGI4WU9ObnBmUE9KU2FKRzNCT2kwY3ZtRGlfTFo5OHRzSklIa05MT3R5bFFvWF9NdE5LdE9STVhjZUhSMXZlMkVmTGViYUZDay1RTTFMZGtPeG5BN2FqSnZlRmkzWVZQQlV4ZnZaVFlkUFlYUHBqMl9iMDZTU1BFOHZ1ems0ZmplX3dtelNZTWRJWWhWNWR0UmxxTGpydlJVZXBKbUk1LVpnck01UktVbHJVVEwzN2diaHdDeE1VLUtrVG4tSQ?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "UUP",
+    "direction": "down",
+    "t0": 1795836481,
+    "reason": "גרעון סחר רחב במיוחד עלול להפעיל לחץ כלפי מטה על המטבע המקומי.",
+    "reason_i18n": {
+     "he": "גרעון סחר רחב במיוחד עלול להפעיל לחץ כלפי מטה על המטבע המקומי.",
+     "en": "A widening trade deficit can create downward pressure on the US dollar.",
+     "ar": "اتسع العجز التجاري قد يشكل ضغطاً هبوطياً على العملة الأمريكية.",
+     "ru": "Растущий торговый дефицит может оказать давление на американскую валюту."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מדד הדולר האמריקאי",
+     "en": "US Dollar Index Bullish ETF",
+     "ar": "صندوق مؤشر الدولار الأمريكي",
+     "ru": "ETF доллара США"
+    },
+    "price_at_alert": 29.72
+   },
+   {
+    "ticker": "QQQ",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "הביקוש העצום לטכנולוגיות ורכיבי בינה מלאכותית תומך בסקטור הטכנולוגיה.",
+    "reason_i18n": {
+     "he": "הביקוש העצום לטכנולוגיות ורכיבי בינה מלאכותית תומך בסקטור הטכנולוגיה.",
+     "en": "Massive demand for AI and technology hardware underscores strong sector activity.",
+     "ar": "الطلب الهائل على تكنولوجيا الذكاء الاصطناعي يدعم قطاع التكنولوجيا.",
+     "ru": "Огромный спрос на технологии ИИ поддерживает активность в технологическом секторе."
+    },
+    "name_i18n": {
+     "he": "קוביית נאסד\"ק 100 - קרן סל טכנולוגיה",
+     "en": "Invesco QQQ ETF – Nasdaq 100",
+     "ar": "صندوق ناسداك 100",
+     "ru": "ETF технологических акций Nasdaq 100"
+    },
+    "price_at_alert": 650.99
+   }
+  ],
+  "id": "520ebf4c4186"
+ },
+ {
+  "ts": 1795836481,
+  "time": "2026-11-28T03:28Z",
+  "title": "הודו ויפן מקדמות תוכנית משותפת לטילי היפר-סוני",
+  "summary": "הודו ויפן מקדמות שיתוף פעולה פיתוח של טילי היפר-סוני במטרה להתמודד עם השפעתה הימית הגוברת של סין באזור האידו-פסיפי.",
+  "kid": "הודו ויפן משלבות כוחות כדי לפתח טילי מהירים מאוד (היפר-סוניים) נגד איומים ימיים באסיה. שיתוף פעולה זה תומך בחברות טכנולוגיה וביטחון שמפתחות אמצעי לחימה מתקדמים.",
+  "i18n": {
+   "title": {
+    "he": "הודו ויפן מקדמות תוכנית משותפת לטילי היפר-סוני",
+    "en": "India and Japan Advance Joint Hypersonic Missile Plan",
+    "ar": "الهند واليابان تعززان خطط الصواريخ الفرط صوتية المشتركة",
+    "ru": "Индия и Япония продвигают совместный план создания гиперзвуковых ракет"
+   },
+   "summary": {
+    "he": "הודו ויפן מקדמות שיתוף פעולה פיתוח של טילי היפר-סוני במטרה להתמודד עם השפעתה הימית הגוברת של סין באזור האידו-פסיפי.",
+    "en": "India and Japan are pushing forward with a collaborative hypersonic missile development plan to counter China's maritime dominance in the Indo-Pacific.",
+    "ar": "تعمل الهند واليابان على تطوير خطة مشتركة لصواريخ فرط صوتية لمواجهة النفوذ البحري الصيني في المحيطين الهندي والهادئ.",
+    "ru": "Индия и Япония продвигают совместный проект разработки гиперзвуковых ракет для противодействия влиянию Китая в Индо-Тихоокеанском регионе."
+   },
+   "kid": {
+    "he": "הודו ויפן משלבות כוחות כדי לפתח טילי מהירים מאוד (היפר-סוניים) נגד איומים ימיים באסיה. שיתוף פעולה זה תומך בחברות טכנולוגיה וביטחון שמפתחות אמצעי לחימה מתקדמים.",
+    "en": "India and Japan are teaming up to build ultra-fast hypersonic missiles to secure Asian waters against China. This benefits advanced defense contractors and tech suppliers.",
+    "ar": "تتعاون الهند واليابان لتطوير صواريخ فائقة السرعة لمواجهة التهديدات البحرية، مما يدعم شركات الدفاع الكبرى.",
+    "ru": "Индия и Япония объединяют усилия для создания сверхбыстрых гиперзвуковых ракет, что поддерживает оборонный сектор."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdXUtTXdtY1Q5YjdRaXcxUDNQZG53SVY2RFoxT0dJUGNOVTg4Mi1Fb09ISHBQem95Si1DMTMwXzBPMklyODFpRXE2NlZrd0xGdERsc0RRcGc0REI5emUxaFJhbjVaRTVMRUItMzlKMnRjd3lUcF8ycnQwRzQ2UFEycHYyMklBSXVXaXVVdUliOF83cDJEazRWNF95LUhLMXlVekptbmRydUtwVkVnWC1YUDNaMl9vdUhOZkd5S1p2ZGVLRG1mWFhzdEJEY1FJSExUbkduOWh2d3BCaVFraXdIMzY2bjI3TWl0REVkajYxYWRLT0lGTnJ1V1M5aTNHQdIBgwJBVV95cUxOVHNROTAwXzBJMzh3UmpBdUNoTE0wRGRmeTN1a3NTLUpLdWhzYURMQTlQQWtnbkVidTRmb2NIa0Jna1M5LVM4MzEtUUd5bEQ0cWJWT0xXMUVNV3pJREg2ZWlUZHNTYmQ1Y3Q0NDNYZlRSQXJKS0wzUHloSFdUTWZGRlRKcDhVRW9oR1NvejN1ZU1wWEs5Mkp2ZTVSbWZjbG01WVFfVk05MGdXN0dndjM4VEdkb09tVnhWYV90cjh1cWpISzdMb182ZVJLMmpOemRROXlwU19kNmVONE5HTkp6Z3ViQXo3M3prQVFCVjhFV1dlLTV4bzU0MW9rQ2k1NVFobjRB?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "LMT",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "השקעות ענק בטכנולוגיות היפר-סוניות באסיה פותחות הזדמנויות לשיתופי פעולה ופיתוח ביטחוני.",
+    "reason_i18n": {
+     "he": "השקעות ענק בטכנולוגיות היפר-סוניות באסיה פותחות הזדמנויות לשיתופי פעולה ופיתוח ביטחוני.",
+     "en": "Surging investments in Asian hypersonic missile programs create growth vectors for high-end defense contractors.",
+     "ar": "الاستثمارات الضخمة في برامج الصواريخ الفرط صوتية توفر فرص نمو لقطاع الدفاع.",
+     "ru": "Инвестиции в гиперзвуковые программы открывают возможности для оборонных подрядчиков."
+    },
+    "name_i18n": {
+     "he": "לוקהיד מרטין - חברת ביטחונית ענקית",
+     "en": "Lockheed Martin – defense contractor",
+     "ar": "لوكهيد مارتن - مقاول دفاعي",
+     "ru": "Lockheed Martin — оборонный подрядчик"
+    },
+    "price_at_alert": 605.88
+   },
+   {
+    "ticker": "INDA",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "חיזוק היכולות הצבאיות והטכנולוגיות של הודו מול אתגרים אזוריים תומך בכלכלה ובשוק המקומי.",
+    "reason_i18n": {
+     "he": "חיזוק היכולות הצבאיות והטכנולוגיות של הודו מול אתגרים אזוריים תומך בכלכלה ובשוק המקומי.",
+     "en": "Upgrading national defense and strategic deterrence capabilities supports India's long-term industrial profile.",
+     "ar": "تعزيز القدرات الدفاعية للهند يدعم ملفها الصناعي والاقتصادي.",
+     "ru": "Укрепление оборонного потенциала Индии поддерживает ее промышленный профиль."
+    },
+    "name_i18n": {
+     "he": "קרן סל על שוק המניות של הודו",
+     "en": "iShares MSCI India ETF",
+     "ar": "صندوق مؤشر الأسهم الهندية",
+     "ru": "ETF акций Индии"
+    },
+    "price_at_alert": 52.77
+   }
+  ],
+  "id": "f2beb04a23a8"
+ },
+ {
+  "ts": 1795836481,
+  "time": "2026-11-28T03:28Z",
+  "title": "אוסטרליה מטילה סנקציות על חשודים במתקפות הצתה הקשורות למשמרות המהפכה",
+  "summary": "ממשלת אוסטרליה הטילה סנקציות רשמיות על שני חשודים המעורבים במתקפות הצתה במלבורן ובסידני, אשר קושרה לפעילות מטעם משמרות המהפכה של איראן.",
+  "kid": "אוסטרליה הענישה אנשים שקשורים למשמרות המהפכה של איראן אחרי מעשי הצתה במדינה. צעדים דיפלומטיים וכלכליים אלו מחמירים את המתיחות הבינלאומית מול איראן.",
+  "i18n": {
+   "title": {
+    "he": "אוסטרליה מטילה סנקציות על חשודים במתקפות הצתה הקשורות למשמרות המהפכה",
+    "en": "Australia Sanctions Suspects Behind IRGC-Backed Arson Attacks",
+    "ar": "أستراليا تفرض عقوبات على مشتبه بهم في هجمات إحراق مرتبطة بالحرس الثوري",
+    "ru": "Австралия ввела санкции против подозреваемых в поджогах, связанных с КСИР"
+   },
+   "summary": {
+    "he": "ממשלת אוסטרליה הטילה סנקציות רשמיות על שני חשודים המעורבים במתקפות הצתה במלבורן ובסידני, אשר קושרה לפעילות מטעם משמרות המהפכה של איראן.",
+    "en": "The Australian government has sanctioned two suspects behind IRGC-backed arson attacks in Melbourne and Sydney, intensifying geopolitical measures.",
+    "ar": "فرضت الحكومة الأسترالية عقوبات رسمية على مشتبه بهما في هجمات إحراق بملبورن سيدني مرتبطة بالحرس الثوري الإيراني.",
+    "ru": "Правительство Австралии ввело санкции против двух подозреваемых в поджогах в Мельбурне и Сиднее, связанных с Корпусом стражей исламской революции."
+   },
+   "kid": {
+    "he": "אוסטרליה הענישה אנשים שקשורים למשמרות המהפכה של איראן אחרי מעשי הצתה במדינה. צעדים דיפלומטיים וכלכליים אלו מחמירים את המתיחות הבינלאומית מול איראן.",
+    "en": "Australia punished individuals linked to Iran's Revolutionary Guard for arson attacks in its cities. This adds to international tensions involving Middle East security.",
+    "ar": "عاقبت أستراليا أشخاصاً مرتبطين بالحرس الثوري الإيراني بسبب هجمات إحراق، مما يرفع من حدة التوترات الدولية.",
+    "ru": "Австралия наказала лиц, связанных с КСИР Ирана, за поджоги. Это усиливает международную напряженность на Ближнем Востоке."
+   }
+  },
+  "category": "geopolitics",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY2c3NVFJbWszV25wNlNRSW13X3dMbVdvX1YweFZJT3lJWllVdXFYeExRZVc5X01TTTh1N0NWSnd3TWZva2JJcW9RR0pUR3Y5VFdYTVBVSHpMSTQ5a3dBOE93VDJqRGxyRGZpTFoyZjVJTFRMak9fYzFCb3pVU1hqTTNVZENVdzdsdWVCUFdkYTlOUWRJUE1WRzF3QUo4dmdlTnJoVmgwaEk1eUdLTVhSa3NNcFNKWVVCVTdfbGc2UU9oM2s5Wi1IWDBzeXJkdHdfcGZFclVSV250dw?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "USO",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "החמרת סנקציות ומתיחות גיאופוליטית מול גורמים הקשורים לאיראן עלולות להשפיע על סיכוני אספקה.",
+    "reason_i18n": {
+     "he": "החמרת סנקציות ומתיחות גיאופוליטית מול גורמים הקשורים לאיראן עלולות להשפיע על סיכוני אספקה.",
+     "en": "Heightened geopolitical friction involving Iran-linked networks keeps energy risk premiums elevated.",
+     "ar": "تصاعد الاحتكاك الجيوسياسي المرتبط بإيران يبقي علاوة مخاطر الطاقة مرتفعة.",
+     "ru": "Эскалация геополитической напряженности вокруг Ирана поддерживает риски в энергетике."
+    },
+    "name_i18n": {
+     "he": "קרן סל על נפט גולמי",
+     "en": "US Oil Fund ETF",
+     "ar": "صندوق النفط الخام",
+     "ru": "ETF нефти"
+    },
+    "price_at_alert": 137.77
+   },
+   {
+    "ticker": "EWA",
+    "direction": "down",
+    "t0": 1795836481,
+    "reason": "חששות ביטחוניים פנימיים ופעילות טרור מקומית פוגעים בסנטימנט המשקיעים במדינה.",
+    "reason_i18n": {
+     "he": "חששות ביטחוניים פנימיים ופעילות טרור מקומית פוגעים בסנטימנט המשקיעים במדינה.",
+     "en": "Domestic security threats and arson incidents can create minor headwinds for local market sentiment.",
+     "ar": "التهديدات الأمنية الداخلية قد تؤثر بشكل طفيف على معنويات السوق المحلي.",
+     "ru": "Внутренние угрозы безопасности могут оказать небольшое давление на местный рынок."
+    },
+    "name_i18n": {
+     "he": "קרן סל על מניות אוסטרליה",
+     "en": "iShares MSCI Australia ETF",
+     "ar": "صندوق مؤشر أسهم أستراليا",
+     "ru": "ETF акций Австралии"
+    },
+    "price_at_alert": 27.88
+   }
+  ],
+  "id": "df858ccb8051"
+ },
+ {
+  "ts": 1795836481,
+  "time": "2026-11-28T03:28Z",
+  "title": "הצי האיטלקי הפיל מטרה בליסטית באמצעות טיל 'אסטר 30'",
+  "summary": "הצי האיטלקי הדגים בהצלחה יכולת יירוט של מטרה בליסטית מתקדמת באמצעות מערכת ההגנה האווירית וטילי האסטר 30.",
+  "kid": "חיל הים של איטליה הפיל בהצלחה טיל מהיר במבחן מבצעי. מכיוון שמערכות אלו משתמשות בטכנולוגיות הגנה מתקדמות של יצרניות נשק מובילות, ההצלחה מדגישה את הביקוש לטילי יירוט ולציוד צבאי מתקדם.",
+  "i18n": {
+   "title": {
+    "he": "הצי האיטלקי הפיל מטרה בליסטית באמצעות טיל 'אסטר 30'",
+    "en": "Italian Navy Downs Ballistic Target With Aster 30 Missile",
+    "ar": "البحرية الإيطالية تسقط هدفاً باليستياً باستخدام صاروخ 'أستر 30'",
+    "ru": "ВМС Италии сбили баллистическую цель ракетой Aster 30"
+   },
+   "summary": {
+    "he": "הצי האיטלקי הדגים בהצלחה יכולת יירוט של מטרה בליסטית מתקדמת באמצעות מערכת ההגנה האווירית וטילי האסטר 30.",
+    "en": "The Italian Navy successfully intercepted a ballistic target using the Aster 30 air defense system during a live demonstration.",
+    "ar": "نجحت البحرية الإيطالية في اعتراض هدف باليستي باستخدام نظام الدفاع الجوي وصواريخ أستر 30.",
+    "ru": "ВМС Италии успешно перехватили баллистическую цель с помощью зенитного ракетного комплекса и ракет Aster 30."
+   },
+   "kid": {
+    "he": "חיל הים של איטליה הפיל בהצלחה טיל מהיר במבחן מבצעי. מכיוון שמערכות אלו משתמשות בטכנולוגיות הגנה מתקדמות של יצרניות נשק מובילות, ההצלחה מדגישה את הביקוש לטילי יירוט ולציוד צבאי מתקדם.",
+    "en": "The Italian Navy shot down a fast ballistic missile in a test. This highlights the effectiveness of advanced air defense systems made by European and global defense partners.",
+    "ar": "أسقطت البحرية الإيطالية صاروخاً سريعاً في اختبار ناجح، مما يسلط الضوء على كفاءة أنظمة الدفاع الجوي المتقدمة.",
+    "ru": "ВМС Италии сбили баллистическую ракету на испытаниях, продемонстрировав эффективность передовых систем ПВО."
+   }
+  },
+  "category": "contracts",
+  "severity": 4,
+  "confidence": "medium",
+  "sources": [
+   {
+    "name": "Google News: geopolitics",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPYzJRTTNQUGNBaVRLOE5faTBXRUJLZURXZTBIRWpaTGZRYzdFdG45cmxzMnZzbzFpSWREN1M5VGNyTUJrVlNreDZjb1p0aWR5VjlQZzV0VkpFTjEwZjhfQ2szemVIYWRsdGdoX2lLSE5neEkwWk9FSGxXSUstdzdZNnpfQ2ZXX0FZMTF4cmc1ZjlRUW9FbU1POXAyZUlyUWR2ZjJGMUxUaVJnY2p6aEJCNHNnSG1vWC1ib09tS3AwTjVjbVBvaFhzd0dDZzVnakF1cWR0dGN6XzNSTE0zSTRIaXZVN1AxbW1YTWZDZWFpQ1UxdEQxZ01IRTdtUWxVdXhRSGNYbnRwcWxEdlBN?oc=5"
+   }
+  ],
+  "impacts": [
+   {
+    "ticker": "RTX",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "הצלחות במערכות הגנה אוווירית מתקדמות מעלות את קרנן של טכנולוגיות יירוט ומערכות הגנה בשוק.",
+    "reason_i18n": {
+     "he": "הצלחות במערכות הגנה אוווירית מתקדמות מעלות את קרנן של טכנולוגיות יירוט ומערכות הגנה בשוק.",
+     "en": "Proven success of advanced missile defense systems reinforces market demand for interceptors and radar tech.",
+     "ar": "نجاح أنظمة الدفاع الجوي يعزز الطلب في السوق على تقنيات الاعتراض الصاروخي.",
+     "ru": "Успех систем противовоздушной обороны усиливает рыночный спрос на технологии перехвата."
+    },
+    "name_i18n": {
+     "he": "ריית'און - חברת ביטחונית ותעופה ענקית",
+     "en": "RTX Corporation – defense and aerospace",
+     "ar": "شركة ريثيون - دفاع وتطوير جوي",
+     "ru": "RTX Corporation — оборонный гигант"
+    },
+    "price_at_alert": 198.48
+   },
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795836481,
+    "reason": "דרישה עולמית גבוהה למערכות הגנה אוווירית מתקדמות ממשיכה לתמוך בסקטור הביטחוני.",
+    "reason_i18n": {
+     "he": "דרישה עולמית גבוהה למערכות הגנה אוווירית מתקדמות ממשיכה לתמוך בסקטור הביטחוני.",
+     "en": "Robust global appetite for sophisticated air defense and missile shielding benefits the broader defense sector.",
+     "ar": "الطلب العالمي القوي على الدفاع الجوي يدعم قطاع الدفاع بشكل عام.",
+     "ru": "Устойчивый глобальный спрос на передовую ПВО поддерживает оборонный сектор."
+    },
+    "name_i18n": {
+     "he": "קרן סל תעופה וביטחון אמריקאית",
+     "en": "iShares U.S. Aerospace & Defense ETF",
+     "ar": "صندوق قطاع الطيران والدفاع الأمريكي",
+     "ru": "ETF аэрокосмической и оборонной промышленности США"
+    },
+    "price_at_alert": 70.36
+   }
+  ],
+  "id": "e3a9a1372ed0"
  }
 ]
