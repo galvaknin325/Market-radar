@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-28T12:40Z",
+ "generated": "2026-11-28T13:52Z",
  "first_alert": "2026-11-02T13:37Z",
- "total_alerts": 1621,
+ "total_alerts": 1627,
  "overall": {
   "n": 1189,
   "hits": 587,
@@ -83,14 +83,14 @@
  },
  "by_ticker": {
   "USO": {
-   "mentions": 176,
+   "mentions": 177,
    "n": 157,
    "hits": 75,
    "name": {
-    "he": "USO - קרן סל נפט גולמי",
-    "en": "USO – crude oil ETF",
-    "ar": "USO - صندوق استثماري للنفط الخام",
-    "ru": "USO – ETF на сырую нефть"
+    "en": "USO – crude oil fund",
+    "he": "USO – קרן נפט גולמי",
+    "ar": "USO - صندوق النفط الخام",
+    "ru": "USO – фонд сырой нефти"
    },
    "avg_edge": -0.07
   },
@@ -107,26 +107,26 @@
    "avg_edge": -0.04
   },
   "IBIT": {
-   "mentions": 43,
+   "mentions": 44,
    "n": 41,
    "hits": 28,
    "name": {
-    "he": "קרן סל על ביטקוין",
-    "en": "Bitcoin ETF",
-    "ar": "صندوق استثماري لبيتكوين",
-    "ru": "ETF на биткоин"
+    "en": "IBIT – iShares Bitcoin Trust",
+    "he": "IBIT – קרן סל ביטקוין של בלאקרוק",
+    "ar": "IBIT - صندوق بلاك روك لبتكوين",
+    "ru": "IBIT – биткоин-фонд iShares"
    },
    "avg_edge": 1.14
   },
   "XOM": {
-   "mentions": 73,
+   "mentions": 74,
    "n": 64,
    "hits": 29,
    "name": {
-    "he": "אקסון מוביל - חברת נפט",
-    "en": "Exxon Mobil - Oil company",
-    "ar": "إكسون موبيل - شركة نفط",
-    "ru": "Exxon Mobil - нефтяная компания"
+    "en": "XOM – ExxonMobil",
+    "he": "XOM – אקסון מוביל",
+    "ar": "XOM - إكسون موبيل",
+    "ru": "XOM – ExxonMobil"
    },
    "avg_edge": -0.22
   },
@@ -155,26 +155,26 @@
    "avg_edge": -0.01
   },
   "ITA": {
-   "mentions": 276,
+   "mentions": 277,
    "n": 254,
    "hits": 172,
    "name": {
-    "he": "ITA - קרן סל של חברות תעופה וביטחון",
-    "en": "ITA - Aerospace & Defense ETF",
-    "ar": "ITA - صندوق סל לפיתוח ודفاع",
-    "ru": "ITA - ETF аэрокосмической и оборонной промышленности"
+    "en": "ITA – US Aerospace & Defense ETF",
+    "he": "ITA – קרן סל תעופה וביטחון בארה\"ב",
+    "ar": "ITA - صندوق قطاع الطيران والدفاع الأمريكي",
+    "ru": "ITA – ETF аэрокосмической и оборонной промышленности США"
    },
    "avg_edge": -0.59
   },
   "RTX": {
-   "mentions": 79,
+   "mentions": 80,
    "n": 67,
    "hits": 42,
    "name": {
-    "he": "RTX - חברת טכנולוגיה וביטחון",
-    "en": "RTX - Aerospace and defense company",
-    "ar": "RTX - شركة طيران ودفاع",
-    "ru": "RTX - аэрокосмическая и оборонная компания"
+    "en": "RTX – RTX Corporation",
+    "he": "RTX – ריית'און",
+    "ar": "RTX - شركة آر تي إكس",
+    "ru": "RTX – RTX Corporation"
    },
    "avg_edge": 0.64
   },
@@ -227,14 +227,14 @@
    "avg_edge": -0.72
   },
   "SPY": {
-   "mentions": 163,
+   "mentions": 164,
    "n": 149,
    "hits": 70,
    "name": {
-    "he": "SPY – מדד S&P 500",
     "en": "SPY – S&P 500 ETF",
+    "he": "SPY – קרן סל על מדד S&P 500",
     "ar": "SPY - صندوق مؤشر S&P 500",
-    "ru": "SPY – ETF индекса S&P 500"
+    "ru": "SPY – ETF на индекс S&P 500"
    },
    "avg_edge": -0.06
   },
@@ -647,14 +647,14 @@
    "avg_edge": 0.0
   },
   "EWA": {
-   "mentions": 19,
+   "mentions": 20,
    "n": 16,
    "hits": 8,
    "name": {
-    "he": "קרן סל על מניות אוסטרליה",
-    "en": "iShares MSCI Australia ETF",
-    "ar": "صندوق مؤشر أسهم أستراليا",
-    "ru": "ETF акций Австралии"
+    "en": "EWA – Australia ETF",
+    "he": "EWA – קרן סל אוסטרליה",
+    "ar": "EWA - صندوق الاستثمار المتداول لأستراليا",
+    "ru": "EWA – ETF Австралии"
    },
    "avg_edge": 0.29
   },
@@ -1091,14 +1091,14 @@
    "avg_edge": -0.03
   },
   "TUR": {
-   "mentions": 6,
+   "mentions": 7,
    "n": 5,
    "hits": 3,
    "name": {
-    "he": "TUR - קרן סל מניות טורקיה",
-    "en": "TUR - iShares Turkey ETF",
-    "ar": "TUR - صندوق استثمار تركيا",
-    "ru": "TUR - ETF акций Турции"
+    "en": "TUR – Turkey ETF",
+    "he": "TUR – קרן סל טורקיה",
+    "ar": "TUR - صندوق الاستثمار المتداول لتركيا",
+    "ru": "TUR – ETF Турции"
    },
    "avg_edge": 0.25
   },
