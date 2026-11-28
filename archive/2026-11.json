@@ -176410,7 +176410,7 @@
    }
   },
   "category": "macro",
-  "severity": 4,
+  "severity": 6,
   "confidence": "high",
   "sources": [
    {
@@ -176437,9 +176437,43 @@
      "ru": "IBIT – биткоин-фонд iShares"
     },
     "price_at_alert": 33.86
+   },
+   {
+    "ticker": "TLT",
+    "direction": "down",
+    "t0": 1795877327,
+    "reason": "ציפיות לריבית גבוהה יותר פוגעות במחירי האג\"ח.",
+    "reason_i18n": {
+     "he": "ציפיות לריבית גבוהה יותר פוגעות במחירי האג\"ח.",
+     "en": "Expectations of higher rates hurt bond prices.",
+     "ar": "توقعات بأسعار فائدة أعلى تضر بأسعار السندات.",
+     "ru": "Ожидания более высоких ставок вредят ценам на облигации."
+    },
+    "name_i18n": {
+     "he": "קרן סל לאג\"ח ממשלתי ארוך",
+     "en": "Long-term Treasury Bond ETF",
+     "ar": "صندوق المؤشرات المتداولة للسندات الحكومية طويلة الأجل",
+     "ru": "ETF долгосрочных казначейских облигаций"
+    },
+    "price_at_alert": 81.27
    }
   ],
-  "id": "ec07ed03dc78"
+  "id": "ec07ed03dc78",
+  "updates": [
+   {
+    "ts": 1795877327,
+    "time": "2026-11-28T14:48Z",
+    "severity": 6,
+    "summary": "העלייה בחוב הלאומי של ארה\"ב והסיכוי הגבוה להעלאת ריבית בדצמבר יוצרים לחץ על השווקים הפיננסיים ועל הביטקוין.",
+    "i18n": {
+     "he": "העלייה בחוב הלאומי של ארה\"ב והסיכוי הגבוה להעלאת ריבית בדצמבר יוצרים לחץ על השווקים הפיננסיים ועל הביטקוין.",
+     "en": "Rising US national debt and a high probability of a December interest rate hike are creating pressure on financial markets and Bitcoin.",
+     "ar": "يؤدي ارتفاع الدين الوطني الأمريكي والاحتمال الكبير لرفع أسعار الفائدة في ديسمبر إلى خلق ضغوط على الأسواق المالية والبيتكوين.",
+     "ru": "Рост госдолга США и высокая вероятность повышения процентной ставки в декабре создают давление на финансовые рынки и биткоин."
+    }
+   }
+  ],
+  "last_update": 1795877327
  },
  {
   "ts": 1795873947,
@@ -176554,17 +176588,9 @@
    }
   },
   "category": "climate",
-  "severity": 2,
+  "severity": 3,
   "confidence": "high",
   "sources": [
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUmJqRWNzcmJ5VFdFYTlLOTR4LXVEbndtUFpkeEc2dXNrcVFDdUFKenpaLTlyRmIyTGI2MkNlRWRRajRWVnpnNEljSW5GUUtQUDFtRVY0Zk5NWmV1elpTSFNLQjdkY29YTU9raDZ1ZmlmQ2hCdjhibkZYVVN1T2RtbHBZdmJNMTBHaUZIVXBMUmdSQ1k4TDd3SUNxUlVSSlFPSlNWS0JzVE5xYkRPcnJXX2x4TWJpLTB1eklscy1DQ1JzRlp0QklvXw?oc=5"
-   },
-   {
-    "name": "Google News: climate & disasters",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVFc0LXV1S0tPY0xNZU9JLUFMVDI3NjFMeTVpaG5QNE14aUpPbFlTMWowbnJpTmtGVTVfelphMEZMdGNQck9mUkV2U1AtTVhYS0lMYlpGX29QVHJxcGF5Vmx4c3FfbjZlam4wNm5CemhURWNsSklLbUdNQmctdW1BZTlOeWZlNEdVMzZsc3Vpc2I3RUVYV0tzTGVDNG0wQjFzNW1WUFVCSFgwRUJ2N0tkM1lMNFhBdXN0N0R4LUd4Z0pqODJnb1NoeW9pUDFXX3plS2N3?oc=5"
-   },
    {
     "name": "Google News: climate & disasters",
     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPS0djanBqa21uNURDbmdlUmF6V1RsaEtJTE8yQ1lJSmt4dFdMeTRYTDhLWVktRlNPRVVIQkFfT3htckJrME0zZ3hXLWJ1QmhjUlc2bG5yQWVBMXMxUTNtVkdtTFVNSEhleFJYMTNKN245X09QTGxUQ1ZFc1RTTVF3S05vbTJ2Rnhrak9qWFptMUo4QmV5Tkt6OG80b0tqUkplREQ0ZFRZeDUxOFMta1hQNTVaZ1FkcDJQdmpPcHVQU2JHZll2akVsZS1ZUjlSeHZiWVdEbEVNbUZCbG0zSG1YZlpSazh1RTB2My1acm0tUjIweHlhM29VQ1M2NzhTU2U4aTR6RXIxR3lqTDlzVE9oM3BEcXZrQ3FCblRzb01acHbSAdYBQVVfeXFMUENsbGlpdTI1MkRUYWYxUVdKTGwycU1IaS0xR1pNb3dxY1FXaHhQdlQ5Um41SklPZjdkcDhGQ3VNcGNfTjdkTmd3dGJYMkkwSG8xVkhKVDNnSF9jNTF6anRsYndlcXZvdnlzTERIMGRsZTdGNUZlaTBaNE43SG5oRjZsVVo2bjF1NlVoeld5bVk1Z0RaZXJsUXU4bEs2MFpPSWJtWkNXMnZJNUhtS21FWV9aZVhyNHFVWnF1YXlqd3pMXzRfRl93UU43OThiZ283Q2U5b2JIQQ?oc=5"
@@ -176609,8 +176635,95 @@
      "ru": "SPY – ETF на индекс S&P 500"
     },
     "price_at_alert": 728.32
+   },
+   {
+    "ticker": "EEM",
+    "direction": "down",
+    "t0": 1795877327,
+    "reason": "חשיפה כללית לסיכונים גיאופוליטיים וטבעיים בשווקים מתעוררים.",
+    "reason_i18n": {
+     "he": "חשיפה כללית לסיכונים גיאופוליטיים וטבעיים בשווקים מתעוררים.",
+     "en": "General exposure to geopolitical and natural risks in emerging markets.",
+     "ar": "التعرض العام للمخاطر الجيوسياسية والطبيعية في الأسواق الناشئة.",
+     "ru": "Общая подверженность геополитическим и природным рискам на развивающихся рынках."
+    },
+    "name_i18n": {
+     "he": "קרן סל לשווקים מתעוררים",
+     "en": "Emerging Markets ETF",
+     "ar": "صندوق المؤشرات المتداولة للأسواق الناشئة",
+     "ru": "ETF развивающихся рынков"
+    },
+    "price_at_alert": 58.1
    }
   ],
-  "id": "d5a7ddfd9d0a"
+  "id": "d5a7ddfd9d0a",
+  "updates": [
+   {
+    "ts": 1795877327,
+    "time": "2026-11-28T14:48Z",
+    "severity": 3,
+    "summary": "רעידת אדמה חזקה בעוצמה של 6.7 הכתה באזור חצי האי קמצ'טקה ברוסיה. לא דווח על איום צונאמי מיידי.",
+    "i18n": {
+     "he": "רעידת אדמה חזקה בעוצמה של 6.7 הכתה באזור חצי האי קמצ'טקה ברוסיה. לא דווח על איום צונאמי מיידי.",
+     "en": "A strong 6.7-magnitude earthquake struck the Kamchatka Peninsula region in Russia. No immediate tsunami threat was reported.",
+     "ar": "ضرب زلزال قوي بقوة 6.7 درجة منطقة شبه جزيرة كامتشاتكا في روسيا. ولم يتم الإبلاغ عن أي تهديد فوري بحدوث تسونامي.",
+     "ru": "Сильное землетрясение магнитудой 6,7 произошло в районе полуострова Камчатка в России. Сообщений об угрозе цунами не поступало."
+    }
+   }
+  ],
+  "last_update": 1795877327
+ },
+ {
+  "ts": 1795877327,
+  "time": "2026-11-28T14:48Z",
+  "title": "עסקת ענק של 5.5 מיליארד אירו לרכישת 400 נגמ\"שים מסוג CV90",
+  "summary": "חמש מדינות אירופיות חתמו על עסקה לרכישת 400 נגמ\"שים מסוג CV90 בשווי 5.5 מיליארד אירו.",
+  "kid": "מדינות באירופה קונות הרבה כלי רכב צבאיים חדשים. זה טוב לחברות שמייצרות נשק.",
+  "i18n": {
+   "title": {
+    "he": "עסקת ענק של 5.5 מיליארד אירו לרכישת 400 נגמ\"שים מסוג CV90",
+    "en": "€5.5 billion deal for 400 CV90 IFVs",
+    "ar": "صفقة بقيمة 5.5 مليار يورو لشراء 400 مركبة قتالية من طراز CV90",
+    "ru": "Сделка на 5,5 млрд евро на закупку 400 БМП CV90"
+   },
+   "summary": {
+    "he": "חמש מדינות אירופיות חתמו על עסקה לרכישת 400 נגמ\"שים מסוג CV90 בשווי 5.5 מיליארד אירו.",
+    "en": "Five European countries have signed a deal to purchase 400 CV90 infantry fighting vehicles for €5.5 billion.",
+    "ar": "وقعت خمس دول أوروبية صفقة لشراء 400 مركبة قتالية للمشاة من طراز CV90 بقيمة 5.5 مليار يورو.",
+    "ru": "Пять европейских стран подписали сделку на закупку 400 боевых машин пехоты CV90 на сумму 5,5 млрд евро."
+   },
+   "kid": {
+    "he": "מדינות באירופה קונות הרבה כלי רכב צבאיים חדשים. זה טוב לחברות שמייצרות נשק.",
+    "en": "European countries are buying many new military vehicles. This is good for companies that make weapons.",
+    "ar": "تشتري الدول الأوروبية الكثير من المركبات العسكرية الجديدة. هذا جيد للشركات التي تصنع الأسلحة.",
+    "ru": "Европейские страны покупают много новой военной техники. Это хорошо для компаний, производящих оружие."
+   }
+  },
+  "category": "contracts",
+  "severity": 5,
+  "confidence": "high",
+  "sources": [],
+  "impacts": [
+   {
+    "ticker": "ITA",
+    "direction": "up",
+    "t0": 1795877327,
+    "reason": "הגדלת תקציבי ביטחון ורכש באירופה תומכת במניות הסקטור.",
+    "reason_i18n": {
+     "he": "הגדלת תקציבי ביטחון ורכש באירופה תומכת במניות הסקטור.",
+     "en": "Increased defense budgets and procurement in Europe support sector stocks.",
+     "ar": "زيادة ميزانيات الدفاع والمشتريات في أوروبا تدعم أسهم القطاع.",
+     "ru": "Увеличение оборонных бюджетов и закупок в Европе поддерживает акции сектора."
+    },
+    "name_i18n": {
+     "he": "קרן סל לתעשיות ביטחוניות",
+     "en": "Aerospace & Defense ETF",
+     "ar": "صندوق المؤشرات المتداولة للطيران والدفاع",
+     "ru": "ETF аэрокосмической и оборонной промышленности"
+    },
+    "price_at_alert": 70.36
+   }
+  ],
+  "id": "64e9456128be"
  }
 ]
